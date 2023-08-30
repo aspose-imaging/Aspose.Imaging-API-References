@@ -11,7 +11,7 @@ File format version
 
 **Full Name:** aspose.imaging.fileformats.psd.PsdVersion
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

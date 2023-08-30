@@ -1,7 +1,7 @@
 ---
 title: IAnimationFrame Class
 type: docs
-weight: 5010
+weight: 5050
 url: /python-net/aspose.imaging/ianimationframe/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/ianimationframe/
 
 **Full Name:** aspose.imaging.IAnimationFrame
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -20,6 +20,7 @@ url: /python-net/aspose.imaging/ianimationframe/
 | frame_left | int | r | Gets the frame left offset. |
 | frame_time | int | r | Gets the frame duration. |
 | frame_top | int | r | Gets the frame top offset. |
+| use_alpha_blending | bool | r | Gets a value indicating whether [use alpha blending]. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

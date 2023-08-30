@@ -11,7 +11,7 @@ Represents multipage mode
 
 **Full Name:** aspose.imaging.imageoptions.MultiPageMode
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

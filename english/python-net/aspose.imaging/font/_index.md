@@ -1,7 +1,7 @@
 ---
 title: Font Class
 type: docs
-weight: 4760
+weight: 4800
 url: /python-net/aspose.imaging/font/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/font/
 
 **Full Name:** aspose.imaging.Font
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

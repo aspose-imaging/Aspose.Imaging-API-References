@@ -82,6 +82,8 @@ url: /python-net/
 | [aspose.imaging.imageloadoptions](/imaging/python-net/aspose.imaging.imageloadoptions/) | The module contains different file format load options. |
 | [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/) | The module contains classes suitable for export, save or creation of different file formats. |
 | [aspose.imaging.interfaces](/imaging/python-net/aspose.imaging.interfaces/) | The module handles Tiff file format processing. |
+| [aspose.imaging.magicwand](/imaging/python-net/aspose.imaging.magicwand/) |  |
+| [aspose.imaging.magicwand.imagemasks](/imaging/python-net/aspose.imaging.magicwand.imagemasks/) |  |
 | [aspose.imaging.masking](/imaging/python-net/aspose.imaging.masking/) | The module handles ImageMasking processing. |
 | [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/) | The module handles ImageMasking.Options processing. |
 | [aspose.imaging.masking.result](/imaging/python-net/aspose.imaging.masking.result/) | The module handles ImageMasking.Result processing. |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 
 **Inheritance:** IXmlValue, XmpPackage
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

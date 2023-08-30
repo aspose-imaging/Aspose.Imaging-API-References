@@ -1,7 +1,7 @@
 ---
 title: CharacterSet Enumeration
 type: docs
-weight: 9010
+weight: 9130
 url: /python-net/aspose.imaging/characterset/
 ---
 
@@ -11,7 +11,7 @@ Represents the character set used.
 
 **Full Name:** aspose.imaging.CharacterSet
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

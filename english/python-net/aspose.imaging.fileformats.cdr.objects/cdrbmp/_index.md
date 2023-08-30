@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrbmp/
 
 **Inheritance:** CdrDictionaryItem
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/
 
 **Inheritance:** EmfPlusStateRecordType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

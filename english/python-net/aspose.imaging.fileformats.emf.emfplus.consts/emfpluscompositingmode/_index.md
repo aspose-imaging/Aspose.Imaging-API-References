@@ -11,7 +11,7 @@ The CompositingMode enumeration defines modes for combining source colors with b
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCompositingMode
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

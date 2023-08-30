@@ -1,7 +1,7 @@
 ---
 title: ColorPalette Class
 type: docs
-weight: 1180
+weight: 1190
 url: /python-net/aspose.imaging/colorpalette/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/colorpalette/
 
 **Inheritance:** IColorPalette
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

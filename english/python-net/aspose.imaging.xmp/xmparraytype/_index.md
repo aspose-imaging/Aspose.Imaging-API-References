@@ -11,7 +11,7 @@ Represents array type in [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmpar
 
 **Full Name:** aspose.imaging.xmp.XmpArrayType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

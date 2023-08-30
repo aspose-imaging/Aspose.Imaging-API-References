@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.masking.result/maskingresult/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

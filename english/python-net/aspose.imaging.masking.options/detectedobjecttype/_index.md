@@ -11,7 +11,7 @@ The detected object types enumeration.
 
 **Full Name:** aspose.imaging.masking.options.DetectedObjectType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

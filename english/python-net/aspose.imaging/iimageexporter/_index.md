@@ -1,7 +1,7 @@
 ---
 title: IImageExporter Class
 type: docs
-weight: 5180
+weight: 5220
 url: /python-net/aspose.imaging/iimageexporter/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/iimageexporter/
 
 **Full Name:** aspose.imaging.IImageExporter
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Methods**
 | **Name** | **Description** |

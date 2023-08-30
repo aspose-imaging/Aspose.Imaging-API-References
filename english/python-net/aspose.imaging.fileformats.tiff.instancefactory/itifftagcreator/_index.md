@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator
 
 **Full Name:** aspose.imaging.fileformats.tiff.instancefactory.ITiffTagCreator
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Methods**
 | **Name** | **Description** |

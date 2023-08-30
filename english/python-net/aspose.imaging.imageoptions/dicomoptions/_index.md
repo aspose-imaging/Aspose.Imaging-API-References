@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -65,7 +65,7 @@ Clones this instance.
 
 
 ## **Examples**
-### The following example shows export to DICOM file format (single and multipage). {#example_17}
+### The following example shows export to DICOM file format (single and multipage). {#example_1}
 ``` python
 
 from aspose.imaging import Image

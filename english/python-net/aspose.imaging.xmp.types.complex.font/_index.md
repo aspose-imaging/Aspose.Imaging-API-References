@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.complex.font
 type: docs
-weight: 1080
+weight: 1100
 url: /python-net/aspose.imaging.xmp.types.complex.font/
 ---
 

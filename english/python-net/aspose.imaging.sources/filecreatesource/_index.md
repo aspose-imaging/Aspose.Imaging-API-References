@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.sources/filecreatesource/
 
 **Inheritance:** FileSource
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -49,7 +49,8 @@ Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.
 
 **See also:**
 
-**[Example # 1](#example_2)**: This example creates a new Image file at some disk location as specified by `...
+**[Example # 1](#example_6)**: This example creates a new Image file at some disk location as specified by `...
+
 
 ### Constructor: FileCreateSource(file_path, is_temporal) {#FileCreateSource_file_path_is_temporal_2}
 
@@ -70,7 +71,8 @@ Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.
 
 **See also:**
 
-**[Example # 1](#example_4)**: This example creates a new Image file at some disk location as specified by S...
+**[Example # 1](#example_17)**: This example creates a new Image file at some disk location as specified by S...
+
 
 ### Method: get_stream_container() {#get_stream_container__1}
 
@@ -89,7 +91,7 @@ Gets the stream container.
 
 
 ## **Examples**
-### This example creates a new Image file at some disk location as specified by `source` property of the `BmpOptions` instance. If second parameter is not passed to the constructor of `FileCreateSource`, then by default the file to be created has property `is_temporal` set to True. With `is_temporal` set to True, no file will be saved on disk at the end of execution. {#example_2}
+### This example creates a new Image file at some disk location as specified by `source` property of the `BmpOptions` instance. If second parameter is not passed to the constructor of `FileCreateSource`, then by default the file to be created has property `is_temporal` set to True. With `is_temporal` set to True, no file will be saved on disk at the end of execution. {#example_6}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.imageoptions import BmpOptions
@@ -108,7 +110,7 @@ with BmpOptions() as bmp_options:
 
 ```
 
-### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_4}
+### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_17}
 ``` python
 
 from aspose.imaging import Image

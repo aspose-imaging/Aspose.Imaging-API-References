@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -77,8 +77,8 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [binarize_bradley(brightness_difference, window_size)](#binarize_bradley_brightness_difference_window_size_6) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | [binarize_fixed(threshold)](#binarize_fixed_threshold_7) | Binarization of an image with predefined threshold |
 | binarize_otsu() | Binarization of an image with Otsu thresholding |
-| [blend(origin, overlay, overlay_alpha)](#blend_origin_overlay_overlay_alpha_8) | Blends this image instance with the <paramref name="overlay" />. |
-| [blend(origin, overlay, overlay_area, overlay_alpha)](#blend_origin_overlay_overlay_area_overlay_alpha_9) | Blends this image instance with the <paramref name="overlay" />. |
+| [blend(origin, overlay, overlay_alpha)](#blend_origin_overlay_overlay_alpha_8) | Blends this image instance with the <paramref name="overlay" /> image. |
+| [blend(origin, overlay, overlay_area, overlay_alpha)](#blend_origin_overlay_overlay_area_overlay_alpha_9) | Blends this image instance with the <paramref name="overlay" /> image. |
 | cache_data() | Caches the data private. |
 | [can_load(file_path)](#can_load_file_path_10) | Determines whether image can be loaded from the specified file path. |
 | [can_load(file_path, load_options)](#can_load_file_path_load_options_11) | Determines whether image can be loaded from the specified file path and optionally using the specified open options. |
@@ -134,7 +134,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_60) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_61) | Loads a new image from the specified file. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_62) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_62) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses GetSkewAngle and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_63) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_64) | Reads the whole scan line by the specified scan line index. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_65) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
@@ -332,14 +332,14 @@ Binarization of an image with predefined threshold
  blend(origin, overlay, overlay_alpha) 
 ```
 
-Blends this image instance with the <paramref name="overlay" />.
+Blends this image instance with the <paramref name="overlay" /> image.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | origin | [Point](/imaging/python-net/aspose.imaging/point) | The background image blending origin. |
-| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay. |
+| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay image. |
 | overlay_alpha | byte | The overlay alpha. |
 
 ### Method: blend(origin, overlay, overlay_area, overlay_alpha) {#blend_origin_overlay_overlay_area_overlay_alpha_9}
@@ -349,14 +349,14 @@ Blends this image instance with the <paramref name="overlay" />.
  blend(origin, overlay, overlay_area, overlay_alpha) 
 ```
 
-Blends this image instance with the <paramref name="overlay" />.
+Blends this image instance with the <paramref name="overlay" /> image.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | origin | [Point](/imaging/python-net/aspose.imaging/point) | The background image blending origin. |
-| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay. |
+| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay image. |
 | overlay_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The overlay area. |
 | overlay_alpha | byte | The overlay alpha. |
 
@@ -1457,7 +1457,7 @@ Loads a new image from the specified file.
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses GetSkewAngle and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
 
 **Parameters:**
 

@@ -1,7 +1,7 @@
 ---
 title: SmoothingMode Enumeration
 type: docs
-weight: 10870
+weight: 11020
 url: /python-net/aspose.imaging/smoothingmode/
 ---
 
@@ -11,7 +11,7 @@ Specifies whether smoothing (antialiasing) is applied to lines and curves and th
 
 **Full Name:** aspose.imaging.SmoothingMode
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

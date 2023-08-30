@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.extensions/fontextensions/
 
 **Full Name:** aspose.imaging.extensions.FontExtensions
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Methods**
 | **Name** | **Description** |

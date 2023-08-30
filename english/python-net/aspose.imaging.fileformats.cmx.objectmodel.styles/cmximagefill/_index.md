@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxImageFill
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -27,7 +27,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/
 | pattern_width | float | r/w | Gets or sets the width of the pattern.<br/>            Uses common document distance measure unit in case if [CmxImageFill.is_relative](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/) is <c>false</c>,<br/>            otherwise has the dimension of the image pixel width fraction. |
 | procedure | [CmxProcedure](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure) | r/w | Gets or sets the procedure. |
 | rcp_offset | float | r/w | Gets or sets the relative offset between tile rows or columns (depends on [CmxImageFill.offset_type](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/)).<br/>            Dimension is fractions of height of width. |
-| rotate180 | bool | r/w | Gets or sets a value indicating whether this [CmxImageSpec](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/) is upside down. |
+| rotate180 | bool | r/w | Gets or sets a value indicating whether this ImageSpec is upside down. |
 | tile_offset_x | float | r/w | Gets or sets the tile offset X. |
 | tile_offset_y | float | r/w | Gets or sets the tile offset Y. |
 

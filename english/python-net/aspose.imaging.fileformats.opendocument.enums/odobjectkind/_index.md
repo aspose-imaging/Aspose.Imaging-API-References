@@ -11,7 +11,7 @@ The object kind
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdObjectKind
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

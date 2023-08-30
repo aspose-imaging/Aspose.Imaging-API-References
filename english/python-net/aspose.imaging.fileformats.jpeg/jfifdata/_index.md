@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jfifdata/
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JFIFData
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

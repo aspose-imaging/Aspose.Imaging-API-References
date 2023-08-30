@@ -1,7 +1,7 @@
 ---
 title: ColorMatrix Class
 type: docs
-weight: 1160
+weight: 1170
 url: /python-net/aspose.imaging/colormatrix/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colormatrix/
 
 **Full Name:** aspose.imaging.ColorMatrix
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

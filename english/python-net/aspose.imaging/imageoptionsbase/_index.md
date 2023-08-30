@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5570
+weight: 5650
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -39,8 +39,10 @@ Gets or sets the color palette.
 
 **See also:**
 
-**[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
-**[Example # 2](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
+**[Example # 1](#example_3)**: The following example shows how to compress a PNG image, using indexed color ...
+
+**[Example # 2](#example_26)**: The following example shows how to set a palette to a BMP image to reduce its...
+
 
 ### Method: clone() {#clone__1}
 
@@ -59,7 +61,36 @@ Clones this instance.
 
 
 ## **Examples**
-### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_20}
+### The following example shows how to compress a PNG image, using indexed color with best fit palette {#example_3}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image, ColorPaletteHelper, RasterImage, PaletteMiningMethod
+from aspose.imaging.fileformats.png import PngColorType
+
+# Loads png image        
+sourceFilePath = "OriginalRings.png"
+outputFilePath = "OriginalRingsOutput.png"
+with Image.load(sourceFilePath) as image:
+	png_options = PngOptions()
+	png_options.progressive = True
+	# Use indexed color type
+	png_options.color_type = PngColorType.INDEXED_COLOR
+	# Use maximal compression
+	png_options.compression_level = 9
+	# Get the closest 8-bit color palette, covering as many pixels as possible, so that an image
+	# with palette is almost visually indistinguishable from an image without a palette.
+	png_options.palette = ColorPaletteHelper.get_close_image_palette(
+						as_of(image, RasterImage), 256, 
+						PaletteMiningMethod.HISTOGRAM)
+		 
+	image.save(outputFilePath, png_options);
+}
+# The output file size should be significantly reduced
+
+```
+
+### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_26}
 ``` python
 
 from aspose.pycore import as_of
@@ -96,35 +127,6 @@ with BmpImage(100, 100) as bmpImage:
 # The output looks like this:
 # The size of image with palette is 11078 bytes.
 # The size of image without palette is 40054 bytes.
-
-```
-
-### The following example shows how to compress a PNG image, using indexed color with best fit palette {#example_21}
-``` python
-
-from aspose.pycore import as_of
-from aspose.imaging import Image, ColorPaletteHelper, RasterImage, PaletteMiningMethod
-from aspose.imaging.fileformats.png import PngColorType
-
-# Loads png image        
-sourceFilePath = "OriginalRings.png"
-outputFilePath = "OriginalRingsOutput.png"
-with Image.load(sourceFilePath) as image:
-	png_options = PngOptions()
-	png_options.progressive = True
-	# Use indexed color type
-	png_options.color_type = PngColorType.INDEXED_COLOR
-	# Use maximal compression
-	png_options.compression_level = 9
-	# Get the closest 8-bit color palette, covering as many pixels as possible, so that an image
-	# with palette is almost visually indistinguishable from an image without a palette.
-	png_options.palette = ColorPaletteHelper.get_close_image_palette(
-						as_of(image, RasterImage), 256, 
-						PaletteMiningMethod.HISTOGRAM)
-		 
-	image.save(outputFilePath, png_options);
-}
-# The output file size should be significantly reduced
 
 ```
 

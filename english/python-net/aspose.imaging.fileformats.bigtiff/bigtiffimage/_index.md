@@ -13,13 +13,13 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, TiffImage
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [BigTiffImage(frame)](#BigTiffImage_frame_1) | Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class. |
-| [BigTiffImage(frames)](#BigTiffImage_frames_2) | Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class. |
+| [BigTiffImage(frame)](#BigTiffImage_frame_1) | Initializes a new instance of the BigTiffImage class |
+| [BigTiffImage(frames)](#BigTiffImage_frames_2) | Initializes a new instance of the BigTiffImage class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -35,7 +35,7 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets EXIF data for the active frame. |
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets a value of file format |
-| frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | r | Gets Frames array of the image. |
+| frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | r | Gets the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) array. |
 | has_alpha | bool | r | Gets the Has alpha channel. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
@@ -79,8 +79,8 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | [binarize_bradley(brightness_difference, window_size)](#binarize_bradley_brightness_difference_window_size_10) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | [binarize_fixed(threshold)](#binarize_fixed_threshold_11) | Binarization of an image with predefined threshold |
 | binarize_otsu() | Binarization of an image with Otsu thresholding |
-| [blend(origin, overlay, overlay_alpha)](#blend_origin_overlay_overlay_alpha_12) | Blends this image instance with the <paramref name="overlay" />. |
-| [blend(origin, overlay, overlay_area, overlay_alpha)](#blend_origin_overlay_overlay_area_overlay_alpha_13) | Blends this image instance with the <paramref name="overlay" />. |
+| [blend(origin, overlay, overlay_alpha)](#blend_origin_overlay_overlay_alpha_12) | Blends this image instance with the <paramref name="overlay" /> image. |
+| [blend(origin, overlay, overlay_area, overlay_alpha)](#blend_origin_overlay_overlay_area_overlay_alpha_13) | Blends this image instance with the <paramref name="overlay" /> image. |
 | cache_data() | Caches the data private. |
 | [can_load(file_path)](#can_load_file_path_14) | Determines whether image can be loaded from the specified file path. |
 | [can_load(file_path, load_options)](#can_load_file_path_load_options_15) | Determines whether image can be loaded from the specified file path and optionally using the specified open options. |
@@ -201,13 +201,13 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
  BigTiffImage(frame) 
 ```
 
-Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class.
+Initializes a new instance of the BigTiffImage class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The tiff frame to initialize image with. |
+| frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 ### Constructor: BigTiffImage(frames) {#BigTiffImage_frames_2}
 
@@ -216,13 +216,13 @@ Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imag
  BigTiffImage(frames) 
 ```
 
-Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class.
+Initializes a new instance of the BigTiffImage class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frames. |
+| frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 ### Method: add(image) {#add_image_1}
 
@@ -399,14 +399,14 @@ Binarization of an image with predefined threshold
  blend(origin, overlay, overlay_alpha) 
 ```
 
-Blends this image instance with the <paramref name="overlay" />.
+Blends this image instance with the <paramref name="overlay" /> image.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | origin | [Point](/imaging/python-net/aspose.imaging/point) | The background image blending origin. |
-| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay. |
+| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay image. |
 | overlay_alpha | byte | The overlay alpha. |
 
 ### Method: blend(origin, overlay, overlay_area, overlay_alpha) {#blend_origin_overlay_overlay_area_overlay_alpha_13}
@@ -416,14 +416,14 @@ Blends this image instance with the <paramref name="overlay" />.
  blend(origin, overlay, overlay_area, overlay_alpha) 
 ```
 
-Blends this image instance with the <paramref name="overlay" />.
+Blends this image instance with the <paramref name="overlay" /> image.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | origin | [Point](/imaging/python-net/aspose.imaging/point) | The background image blending origin. |
-| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay. |
+| overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The overlay image. |
 | overlay_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The overlay area. |
 | overlay_alpha | byte | The overlay alpha. |
 
@@ -695,7 +695,7 @@ Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imag
 
 | Type | Description |
 | :- | :- |
-| [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage) | A new BigTiffImage image that includes the frame. |
+| [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage) |  |
 
 
 ### Method: create_with_frames(frames)  [static] {#create_with_frames_frames_26}
@@ -717,7 +717,7 @@ Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imag
 
 | Type | Description |
 | :- | :- |
-| [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage) | A new BigTiffImage image that includes the frames. |
+| [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage) |  |
 
 
 ### Method: crop(left_shift, right_shift, top_shift, bottom_shift) {#crop_left_shift_right_shift_top_shift_bottom_shift_27}

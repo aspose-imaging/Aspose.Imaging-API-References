@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.extensions/colorblendextensions/
 
 **Full Name:** aspose.imaging.extensions.ColorBlendExtensions
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Methods**
 | **Name** | **Description** |

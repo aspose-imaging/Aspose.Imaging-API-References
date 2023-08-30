@@ -13,18 +13,18 @@ url: /python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/
 
 **Inheritance:** LinearGradientBrushBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [LinearMulticolorGradientBrush()](#LinearMulticolorGradientBrush__1) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class with default parameters.<br/>            The starting color is black, the ending color is white, the angle is 45 degrees and the rectangle is located in (0,0) with size (1,1). |
-| [LinearMulticolorGradientBrush(point1, point2)](#LinearMulticolorGradientBrush_point1_point2_2) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class with the specified points. |
-| [LinearMulticolorGradientBrush(point1, point2)](#LinearMulticolorGradientBrush_point1_point2_3) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class with the specified points. |
-| [LinearMulticolorGradientBrush(rect, angle)](#LinearMulticolorGradientBrush_rect_angle_4) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle. |
-| [LinearMulticolorGradientBrush(rect, angle)](#LinearMulticolorGradientBrush_rect_angle_5) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle. |
-| [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_6) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle. |
-| [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_7) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle. |
+| [LinearMulticolorGradientBrush(point1, point2)](#LinearMulticolorGradientBrush_point1_point2_2) | Initializes a new instance of the LinearMulticolorGradientBrush class |
+| [LinearMulticolorGradientBrush(point1, point2)](#LinearMulticolorGradientBrush_point1_point2_3) | Initializes a new instance of the LinearMulticolorGradientBrush class |
+| [LinearMulticolorGradientBrush(rect, angle)](#LinearMulticolorGradientBrush_rect_angle_4) | Initializes a new instance of the LinearMulticolorGradientBrush class |
+| [LinearMulticolorGradientBrush(rect, angle)](#LinearMulticolorGradientBrush_rect_angle_5) | Initializes a new instance of the LinearMulticolorGradientBrush class |
+| [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_6) | Initializes a new instance of the LinearMulticolorGradientBrush class |
+| [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_7) | Initializes a new instance of the LinearMulticolorGradientBrush class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -75,14 +75,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
  LinearMulticolorGradientBrush(point1, point2) 
 ```
 
-Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class with the specified points.
+Initializes a new instance of the LinearMulticolorGradientBrush class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
-| point2 | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
+| point1 | [Point](/imaging/python-net/aspose.imaging/point) |  |
+| point2 | [Point](/imaging/python-net/aspose.imaging/point) |  |
 
 ### Constructor: LinearMulticolorGradientBrush(point1, point2) {#LinearMulticolorGradientBrush_point1_point2_3}
 
@@ -91,14 +91,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
  LinearMulticolorGradientBrush(point1, point2) 
 ```
 
-Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class with the specified points.
+Initializes a new instance of the LinearMulticolorGradientBrush class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
-| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) |  |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) |  |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle) {#LinearMulticolorGradientBrush_rect_angle_4}
 
@@ -107,14 +107,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
  LinearMulticolorGradientBrush(rect, angle) 
 ```
 
-Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle.
+Initializes a new instance of the LinearMulticolorGradientBrush class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| angle | float |  |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle) {#LinearMulticolorGradientBrush_rect_angle_5}
 
@@ -123,14 +123,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
  LinearMulticolorGradientBrush(rect, angle) 
 ```
 
-Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle.
+Initializes a new instance of the LinearMulticolorGradientBrush class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) |  |
+| angle | float |  |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) {#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_6}
 
@@ -139,15 +139,15 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
  LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) 
 ```
 
-Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle.
+Initializes a new instance of the LinearMulticolorGradientBrush class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
-| is_angle_scalable | bool | if set to <c>true</c> the angle is changed during transformations with this [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| angle | float |  |
+| is_angle_scalable | bool |  |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) {#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_7}
 
@@ -156,15 +156,15 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
  LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) 
 ```
 
-Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle.
+Initializes a new instance of the LinearMulticolorGradientBrush class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
-| is_angle_scalable | bool | if set to <c>true</c> the angle is changed during transformations with this [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) |  |
+| angle | float |  |
+| is_angle_scalable | bool |  |
 
 ### Method: create_with_points(point1, point2)  [static] {#create_with_points_point1_point2_1}
 

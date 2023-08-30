@@ -11,7 +11,7 @@ The UnitType enumeration defines units of measurement in different coordinate sy
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusUnitType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

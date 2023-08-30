@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/tiffdatatypecontroller/
 
 **Full Name:** aspose.imaging.exif.TiffDataTypeController
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

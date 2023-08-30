@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/pngoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -74,7 +74,8 @@ Gets or sets the type of the color.
 
 **See also:**
 
-**[Example # 1](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
+**[Example # 1](#example_3)**: The following example shows how to compress a PNG image, using indexed color ...
+
 
 ### Property: compression_level {#compression_level2}
 
@@ -82,7 +83,8 @@ The png image compression level in the 0-9 range, where 9 is maximum compression
 
 **See also:**
 
-**[Example # 1](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
+**[Example # 1](#example_3)**: The following example shows how to compress a PNG image, using indexed color ...
+
 
 ### Property: progressive {#progressive3}
 
@@ -90,7 +92,8 @@ Gets or sets a value indicating whether this [PngOptions](/imaging/python-net/as
 
 **See also:**
 
-**[Example # 1](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
+**[Example # 1](#example_3)**: The following example shows how to compress a PNG image, using indexed color ...
+
 
 ### Method: clone() {#clone__1}
 
@@ -109,7 +112,36 @@ Clones this instance.
 
 
 ## **Examples**
-### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_12}
+### The following example shows how to compress a PNG image, using indexed color with best fit palette {#example_3}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image, ColorPaletteHelper, RasterImage, PaletteMiningMethod
+from aspose.imaging.fileformats.png import PngColorType
+
+# Loads png image        
+sourceFilePath = "OriginalRings.png"
+outputFilePath = "OriginalRingsOutput.png"
+with Image.load(sourceFilePath) as image:
+	png_options = PngOptions()
+	png_options.progressive = True
+	# Use indexed color type
+	png_options.color_type = PngColorType.INDEXED_COLOR
+	# Use maximal compression
+	png_options.compression_level = 9
+	# Get the closest 8-bit color palette, covering as many pixels as possible, so that an image
+	# with palette is almost visually indistinguishable from an image without a palette.
+	png_options.palette = ColorPaletteHelper.get_close_image_palette(
+						as_of(image, RasterImage), 256, 
+						PaletteMiningMethod.HISTOGRAM)
+		 
+	image.save(outputFilePath, png_options);
+}
+# The output file size should be significantly reduced
+
+```
+
+### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_25}
 ``` python
 
 from aspose.imaging import Image, RotateFlipType, Graphics, Color, Pen, Rectangle, Point, Size,\
@@ -161,7 +193,7 @@ with open(r"C:\temp\output.png", "w+b") as stream:
 
 ```
 
-### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_27}
 ``` python
 
 from aspose.imaging import Image
@@ -181,35 +213,6 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 	# Export to TIFF file format using the default options
 	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
 
-
-```
-
-### The following example shows how to compress a PNG image, using indexed color with best fit palette {#example_21}
-``` python
-
-from aspose.pycore import as_of
-from aspose.imaging import Image, ColorPaletteHelper, RasterImage, PaletteMiningMethod
-from aspose.imaging.fileformats.png import PngColorType
-
-# Loads png image        
-sourceFilePath = "OriginalRings.png"
-outputFilePath = "OriginalRingsOutput.png"
-with Image.load(sourceFilePath) as image:
-	png_options = PngOptions()
-	png_options.progressive = True
-	# Use indexed color type
-	png_options.color_type = PngColorType.INDEXED_COLOR
-	# Use maximal compression
-	png_options.compression_level = 9
-	# Get the closest 8-bit color palette, covering as many pixels as possible, so that an image
-	# with palette is almost visually indistinguishable from an image without a palette.
-	png_options.palette = ColorPaletteHelper.get_close_image_palette(
-						as_of(image, RasterImage), 256, 
-						PaletteMiningMethod.HISTOGRAM)
-		 
-	image.save(outputFilePath, png_options);
-}
-# The output file size should be significantly reduced
 
 ```
 

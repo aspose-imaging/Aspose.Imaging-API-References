@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5490
+weight: 5540
 url: /python-net/aspose.imaging/image/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/image/
 
 **Inheritance:** IObjectWithBounds, DataStreamSupporter
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -121,7 +121,8 @@ Determines whether image can be loaded from the specified file path.
 
 **See also:**
 
-**[Example # 1](#example_22)**: This example determines whether image can be loaded from a file.
+**[Example # 1](#example_19)**: This example determines whether image can be loaded from a file.
+
 
 ### Method: can_load(file_path, load_options)  [static] {#can_load_file_path_load_options_2}
 
@@ -284,7 +285,8 @@ Determines whether image can be saved to the specified file format represented b
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example shows how to determine whether image can be saved to the specifi...
+**[Example # 1](#example_8)**: This example shows how to determine whether image can be saved to the specifi...
+
 
 ### Method: create(image_options, width, height)  [static] {#create_image_options_width_height_9}
 
@@ -313,7 +315,8 @@ Creates a new image using the specified create options.
 
 **See also:**
 
-**[Example # 1](#example_4)**: This example creates a new Image file at some disk location as specified by S...
+**[Example # 1](#example_17)**: This example creates a new Image file at some disk location as specified by S...
+
 
 ### Method: create(images)  [static] {#create_images_10}
 
@@ -407,7 +410,8 @@ Gets the file format.
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example shows how to determine the image format without loading the enti...
+**[Example # 1](#example_2)**: This example shows how to determine the image format without loading the enti...
+
 
 ### Method: get_file_format(stream)  [static] {#get_file_format_stream_14}
 
@@ -434,7 +438,8 @@ Gets the file format.
 
 **See also:**
 
-**[Example # 1](#example_24)**: This example shows how to determine the image format without loading the enti...
+**[Example # 1](#example_9)**: This example shows how to determine the image format without loading the enti...
+
 
 ### Method: get_file_format_of_stream(stream)  [static] {#get_file_format_of_stream_stream_15}
 
@@ -596,7 +601,8 @@ Loads a new image from the specified file.
 
 **See also:**
 
-**[Example # 1](#example_1)**: This example demonstrates the loading of an existing Image file into an insta...
+**[Example # 1](#example_4)**: This example demonstrates the loading of an existing Image file into an insta...
+
 
 ### Method: load(file_path, load_options)  [static] {#load_file_path_load_options_22}
 
@@ -646,7 +652,8 @@ Loads a new image from the specified stream.
 
 **See also:**
 
-**[Example # 1](#example_6)**: This example demonstrates the use of a file stream objects to load an existin...
+**[Example # 1](#example_20)**: This example demonstrates the use of a file stream objects to load an existin...
+
 
 ### Method: load(stream, load_options)  [static] {#load_stream_load_options_24}
 
@@ -792,7 +799,8 @@ Resizes the image.
 
 **See also:**
 
-**[Example # 1](#example_27)**: This example loads an image and resizes it using various resizing settings.
+**[Example # 1](#example_18)**: This example loads an image and resizes it using various resizing settings.
+
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_31}
 
@@ -862,7 +870,8 @@ Resizes the height proportionally.
 
 **See also:**
 
-**[Example # 1](#example_29)**: This example loads an image and resizes it proportionally using various resiz...
+**[Example # 1](#example_30)**: This example loads an image and resizes it proportionally using various resiz...
+
 
 ### Method: resize_height_proportionally(new_height, settings) {#resize_height_proportionally_new_height_settings_35}
 
@@ -930,7 +939,8 @@ Resizes the width proportionally.
 
 **See also:**
 
-**[Example # 1](#example_28)**: This example loads an image and resizes it proportionally using various resiz...
+**[Example # 1](#example_21)**: This example loads an image and resizes it proportionally using various resiz...
+
 
 ### Method: resize_width_proportionally(new_width, settings) {#resize_width_proportionally_new_width_settings_39}
 
@@ -982,8 +992,10 @@ Rotates, flips, or rotates and flips the image.
 
 **See also:**
 
-**[Example # 1](#example_8)**: This example demonstrates the use of Rotate operation on an image. Example lo...
-**[Example # 2](#example_30)**: This example loads an image, rotates it by 90 degrees clockwise and optionall...
+**[Example # 1](#example_13)**: This example loads an image, rotates it by 90 degrees clockwise and optionall...
+
+**[Example # 2](#example_14)**: This example demonstrates the use of Rotate operation on an image. Example lo...
+
 
 ### Method: save(file_path) {#save_file_path_42}
 
@@ -1019,7 +1031,8 @@ Saves the object's data to the specified file location in the specified file for
 
 **See also:**
 
-**[Example # 1](#example_9)**: This example shows the simple steps to save an Image. To demonstrate this ope...
+**[Example # 1](#example_24)**: This example shows the simple steps to save an Image. To demonstrate this ope...
+
 
 ### Method: save(file_path, options, bounds_rectangle) {#save_file_path_options_bounds_rectangle_44}
 
@@ -1088,7 +1101,8 @@ Saves the image's data to the specified stream in the specified file format acco
 
 **See also:**
 
-**[Example # 1](#example_10)**: This example shows the process of saving an Image to MemoryStream. To demonst...
+**[Example # 1](#example_11)**: This example shows the process of saving an Image to MemoryStream. To demonst...
+
 
 ### Method: save(stream, options_base, bounds_rectangle) {#save_stream_options_base_bounds_rectangle_48}
 
@@ -1205,7 +1219,22 @@ Sets the image palette.
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### This example demonstrates the loading of an existing Image file into an instance of Aspose.Imaging.Image using file path specified {#example_1}
+### This example shows how to determine the image format without loading the entire image from a file. {#example_2}
+``` python
+
+from aspose.imaging import Image
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+
+# Use an absolute path to the file
+file_format = Image.get_file_format(path_join(directory, "sample.gif"))
+print(f"The file format is {file_format}")
+
+
+```
+
+### This example demonstrates the loading of an existing Image file into an instance of Aspose.Imaging.Image using file path specified {#example_4}
 ``` python
 
 from aspose.imaging import Image
@@ -1217,7 +1246,101 @@ with Image.load(r"C:\temp\sample.bmp") as image:
 
 ```
 
-### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_4}
+### This example shows how to determine whether image can be saved to the specified file format represented by the passed save options. {#example_8}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import JpegOptions
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+
+with Image.load(path_join(directory, "sample.gif")) as image:
+	saveOptions = JpegOptions()
+	saveOptions.quality = 50
+	# Determine whether the image can be saved to jpeg
+	canSave: bool = image.can_save(saveOptions)
+	print(canSave)
+
+
+```
+
+### This example shows how to determine the image format without loading the entire image from a file stream. {#example_9}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.extensions import StreamExtensions as strm_ex
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+
+# Use a file stream
+with open(path_join(directory, "sample.bmp"), "rb") as stream:
+	file_format = Image.get_file_format(stream)
+	print(f"The file format is {file_format}")
+
+# The following data is not a valid image stream, so get_file_format returns FileFormat.UNKNOWN
+imageData = bytearray([0, 0, 0, 0, 0, 0, 0, 0])
+with strm_ex.create_memory_stream_from_bytes(imageData) as stream:
+	file_format = Image.get_file_format(stream)
+	print(f"The file format is {file_format}")
+
+
+```
+
+### This example shows the process of saving an Image to MemoryStream. To demonstrate this operation, example loads an existing file from some disk location, performs `rotate` operation on the image and save the image in PSD format {#example_11}
+``` python
+from aspose.imaging import Image, RotateFlipType
+from aspose.imaging.imageoptions import PsdOptions
+from aspose.imaging.extensions import StreamExtensions as stream_ext
+
+#Create an instance of MemoryStream
+with stream_ext.create_memory_stream() as stream:
+	#Create an instance of image class and initialize it with an existing file through File path
+	with Image.load(r"C:\temp\sample.bmp") as image:
+		#Rotate the image at 180 degree about X axis
+		image.rotate_flip(RotateFlipType.ROTATE_180_FLIP_X)
+		#Save the Image as PSD to MemoryStream with default PsdOptions settings
+		image.save(stream, PsdOptions())
+
+
+```
+
+### This example loads an image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_13}
+``` python
+
+from aspose.imaging import Image, RotateFlipType
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+
+rotateFlipTypes = [RotateFlipType.ROTATE_90_FLIP_NONE, RotateFlipType.ROTATE_90_FLIP_X,
+				   RotateFlipType.ROTATE_90_FLIP_XY, RotateFlipType.ROTATE_90_FLIP_Y]
+
+for rotateFlipType in rotateFlipTypes:
+	# Rotate, flip and save to the output file.
+	with Image.Load(path_join(directory, "sample.bmp")) as image:
+		image.rotate_flip(rotateFlipType)
+		image.save(path_join(directory, f"sample.{rotateFlipType}.bmp"))
+
+
+```
+
+### This example demonstrates the use of Rotate operation on an image. Example loads an existing image file from some disk location and performs the `Rotate` operation on the image according to the value of enumeration `aspose.imaging.RotateFlipType` {#example_14}
+``` python
+
+from aspose.imaging import Image, RotateFlipType
+#Create an instance of image class and initialize it with an existing image file through File path
+with Image.load(r"C:\temp\sample.bmp") as image:
+	# rotate the image at 180 degree about X axis
+	image.rotate_flip(RotateFlipType.ROTATE_180_FLIP_X)
+	# save all changes.
+	image.save()
+
+
+```
+
+### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_17}
 ``` python
 
 from aspose.imaging import Image
@@ -1241,140 +1364,7 @@ with BmpOptions() as bmp_options:
 
 ```
 
-### This example demonstrates the use of a file stream objects to load an existing Image file {#example_6}
-``` python
-
-from aspose.imaging import Image
-
-# Create an instance of FileStream
-with open(r"C:\temp\sample.bmp", "rb"):
-	#Create an instance of Image class and load an existing file through FileStream object by calling Load method
-	with Image.load(stream) as image:
-		#do some image processing.
-		pass
-
-```
-
-### This example demonstrates the use of Rotate operation on an image. Example loads an existing image file from some disk location and performs the `Rotate` operation on the image according to the value of enumeration `aspose.imaging.RotateFlipType` {#example_8}
-``` python
-
-from aspose.imaging import Image, RotateFlipType
-#Create an instance of image class and initialize it with an existing image file through File path
-with Image.load(r"C:\temp\sample.bmp") as image:
-	# rotate the image at 180 degree about X axis
-	image.rotate_flip(RotateFlipType.ROTATE_180_FLIP_X)
-	# save all changes.
-	image.save()
-
-
-```
-
-### This example shows the simple steps to save an Image. To demonstrate this operation, we load an existing file from some disk location, performs `rotate` operation on the image and save the image in PSD format using file path {#example_9}
-``` python
-
-from aspose.imaging import Image, RotateFlipType
-from aspose.imaging.imageoptions import PsdOptions
-from os.path import join as path_join
-
-directory = "c:\\temp"
-
-#Create an instance of image class and initialize it with an existing file through File path
-with Image.load(path_join(directory, "sample.bmp")) as image:
-	#Rotate the image at 180 degree about X axis
-	image.rotate_flip(RotateFlipType.ROTATE_180_FLIP_X)
-	#Save the Image as PSD to File Path with default PsdOptions settings
-	image.save(path_join(directory, "output.psd"), PsdOptions())
-
-
-```
-
-### This example shows the process of saving an Image to MemoryStream. To demonstrate this operation, example loads an existing file from some disk location, performs `rotate` operation on the image and save the image in PSD format {#example_10}
-``` python
-from aspose.imaging import Image, RotateFlipType
-from aspose.imaging.imageoptions import PsdOptions
-from aspose.imaging.extensions import StreamExtensions as stream_ext
-
-#Create an instance of MemoryStream
-with stream_ext.create_memory_stream() as stream:
-	#Create an instance of image class and initialize it with an existing file through File path
-	with Image.load(r"C:\temp\sample.bmp") as image:
-		#Rotate the image at 180 degree about X axis
-		image.rotate_flip(RotateFlipType.ROTATE_180_FLIP_X)
-		#Save the Image as PSD to MemoryStream with default PsdOptions settings
-		image.save(stream, PsdOptions())
-
-
-```
-
-### This example determines whether image can be loaded from a file. {#example_22}
-``` python
-
-from aspose.imaging import Image
-
-# Use an absolute path to the file
-can_load: bool = Image.can_load(r"c:\temp\sample.gif")
-
-
-```
-
-### This example shows how to determine the image format without loading the entire image from a file. {#example_23}
-``` python
-
-from aspose.imaging import Image
-from os.path import join as path_join
-
-directory = "c:\\temp\\"
-
-# Use an absolute path to the file
-file_format = Image.get_file_format(path_join(directory, "sample.gif"))
-print(f"The file format is {file_format}")
-
-
-```
-
-### This example shows how to determine the image format without loading the entire image from a file stream. {#example_24}
-``` python
-
-from aspose.imaging import Image
-from aspose.imaging.extensions import StreamExtensions as strm_ex
-from os.path import join as path_join
-
-directory = "c:\\temp\\"
-
-# Use a file stream
-with open(path_join(directory, "sample.bmp"), "rb") as stream:
-	file_format = Image.get_file_format(stream)
-	print(f"The file format is {file_format}")
-
-# The following data is not a valid image stream, so get_file_format returns FileFormat.UNKNOWN
-imageData = bytearray([0, 0, 0, 0, 0, 0, 0, 0])
-with strm_ex.create_memory_stream_from_bytes(imageData) as stream:
-	file_format = Image.get_file_format(stream)
-	print(f"The file format is {file_format}")
-
-
-```
-
-### This example shows how to determine whether image can be saved to the specified file format represented by the passed save options. {#example_25}
-``` python
-
-from aspose.imaging import Image
-from aspose.imaging.imageoptions import JpegOptions
-from os.path import join as path_join
-
-directory = "c:\\temp\\"
-
-with Image.load(path_join(directory, "sample.gif")) as image:
-	saveOptions = JpegOptions()
-	saveOptions.quality = 50
-	# Determine whether the image can be saved to jpeg
-	canSave: bool = image.can_save(saveOptions)
-	print(canSave)
-
-
-```
-
-### This example loads an image and resizes it using various resizing settings. {#example_27}
+### This example loads an image and resizes it using various resizing settings. {#example_18}
 ``` python
 from aspose.imaging import Image, ImageResizeSettings, ResizeType, ImageFilterType,\
 	ColorQuantizationMethod
@@ -1404,7 +1394,32 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 
 ```
 
-### This example loads an image and resizes it proportionally using various resizing methods. Only the width is specified, the height is calculated automatically. {#example_28}
+### This example determines whether image can be loaded from a file. {#example_19}
+``` python
+
+from aspose.imaging import Image
+
+# Use an absolute path to the file
+can_load: bool = Image.can_load(r"c:\temp\sample.gif")
+
+
+```
+
+### This example demonstrates the use of a file stream objects to load an existing Image file {#example_20}
+``` python
+
+from aspose.imaging import Image
+
+# Create an instance of FileStream
+with open(r"C:\temp\sample.bmp", "rb"):
+	#Create an instance of Image class and load an existing file through FileStream object by calling Load method
+	with Image.load(stream) as image:
+		#do some image processing.
+		pass
+
+```
+
+### This example loads an image and resizes it proportionally using various resizing methods. Only the width is specified, the height is calculated automatically. {#example_21}
 ``` python
 from aspose.imaging import Image, ResizeType
 from os.path import join as path_join
@@ -1434,7 +1449,26 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 
 ```
 
-### This example loads an image and resizes it proportionally using various resizing methods. Only the height is specified, the width is calculated automatically. {#example_29}
+### This example shows the simple steps to save an Image. To demonstrate this operation, we load an existing file from some disk location, performs `rotate` operation on the image and save the image in PSD format using file path {#example_24}
+``` python
+
+from aspose.imaging import Image, RotateFlipType
+from aspose.imaging.imageoptions import PsdOptions
+from os.path import join as path_join
+
+directory = "c:\\temp"
+
+#Create an instance of image class and initialize it with an existing file through File path
+with Image.load(path_join(directory, "sample.bmp")) as image:
+	#Rotate the image at 180 degree about X axis
+	image.rotate_flip(RotateFlipType.ROTATE_180_FLIP_X)
+	#Save the Image as PSD to File Path with default PsdOptions settings
+	image.save(path_join(directory, "output.psd"), PsdOptions())
+
+
+```
+
+### This example loads an image and resizes it proportionally using various resizing methods. Only the height is specified, the width is calculated automatically. {#example_30}
 ``` python
 
 from aspose.imaging import Image, ResizeType
@@ -1461,26 +1495,6 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 	# Scale down by 2 times using Bilinear resampling.
 	image.resize_height_proportionally(image.height // 2, ResizeType.BILINEAR_RESAMPLE)
 	image.save(path_join(directory, "downsample.bilinear.gif"))
-
-
-```
-
-### This example loads an image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_30}
-``` python
-
-from aspose.imaging import Image, RotateFlipType
-from os.path import join as path_join
-
-directory = "c:\\temp\\"
-
-rotateFlipTypes = [RotateFlipType.ROTATE_90_FLIP_NONE, RotateFlipType.ROTATE_90_FLIP_X,
-				   RotateFlipType.ROTATE_90_FLIP_XY, RotateFlipType.ROTATE_90_FLIP_Y]
-
-for rotateFlipType in rotateFlipTypes:
-	# Rotate, flip and save to the output file.
-	with Image.Load(path_join(directory, "sample.bmp")) as image:
-		image.rotate_flip(rotateFlipType)
-		image.save(path_join(directory, f"sample.{rotateFlipType}.bmp"))
 
 
 ```

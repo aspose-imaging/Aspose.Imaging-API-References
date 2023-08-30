@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.shapes
 type: docs
-weight: 900
+weight: 920
 url: /python-net/aspose.imaging.shapes/
 ---
 

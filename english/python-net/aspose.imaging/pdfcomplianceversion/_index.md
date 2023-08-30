@@ -1,7 +1,7 @@
 ---
 title: PdfComplianceVersion Enumeration
 type: docs
-weight: 10700
+weight: 10850
 url: /python-net/aspose.imaging/pdfcomplianceversion/
 ---
 
@@ -11,7 +11,7 @@ Specifies the PDF compliance level to output file.
 
 **Full Name:** aspose.imaging.PdfComplianceVersion
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

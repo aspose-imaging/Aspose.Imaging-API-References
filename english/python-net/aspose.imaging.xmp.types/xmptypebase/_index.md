@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.types/xmptypebase/
 
 **Inheritance:** IXmpType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Methods**
 | **Name** | **Description** |

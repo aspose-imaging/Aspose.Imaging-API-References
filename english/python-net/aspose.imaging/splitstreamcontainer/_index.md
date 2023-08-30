@@ -1,7 +1,7 @@
 ---
 title: SplitStreamContainer Class
 type: docs
-weight: 7120
+weight: 7240
 url: /python-net/aspose.imaging/splitstreamcontainer/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/splitstreamcontainer/
 
 **Inheritance:** StreamContainer
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -283,7 +283,7 @@ Saves (copies) the stream's data to the specified stream.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | destination_stream | _io.BufferedRandom | The stream to save the data to. |
-| buffer_size | int | The buffer size. |
+| buffer_size | int | The buffer size. By default ReadWriteBytesCount value is used. |
 | length | long | The stream data length to copy. By default the length is set to [SplitStreamContainer.length](/imaging/python-net/aspose.imaging/splitstreamcontainer/) value. |
 
 ### Method: save(file_path) {#save_file_path_10}

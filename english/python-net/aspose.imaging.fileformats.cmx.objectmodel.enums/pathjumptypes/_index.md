@@ -11,7 +11,7 @@ Types of transitions between points of the [CmxPathSpec](/imaging/python-net/asp
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.PathJumpTypes
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odshort
 
 **Inheritance:** OdCurveTo
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

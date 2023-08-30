@@ -11,7 +11,7 @@ The HatchStyle Enumeration specifies the hatch pattern.
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfHatchStyle
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

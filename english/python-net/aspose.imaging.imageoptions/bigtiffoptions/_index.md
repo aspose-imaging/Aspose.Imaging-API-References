@@ -13,15 +13,15 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 
 **Inheritance:** TiffOptions
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [BigTiffOptions(expected_format)](#BigTiffOptions_expected_format_1) | Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class. By default little endian convention is used. |
+| [BigTiffOptions(expected_format)](#BigTiffOptions_expected_format_1) | Initializes a new instance of the BigTiffOptions class |
 | [BigTiffOptions(expected_format, byte_order)](#BigTiffOptions_expected_format_byte_order_2) | Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class. |
-| [BigTiffOptions(options)](#BigTiffOptions_options_3) | Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class. |
-| [BigTiffOptions(tags)](#BigTiffOptions_tags_4) | Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class. |
+| [BigTiffOptions(options)](#BigTiffOptions_options_3) | Initializes a new instance of the BigTiffOptions class |
+| [BigTiffOptions(tags)](#BigTiffOptions_tags_4) | Initializes a new instance of the BigTiffOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -125,13 +125,13 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
  BigTiffOptions(expected_format) 
 ```
 
-Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class. By default little endian convention is used.
+Initializes a new instance of the BigTiffOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| expected_format | [TiffExpectedFormat](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffexpectedformat/) | The expected Tiff file format. |
+| expected_format | [TiffExpectedFormat](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffexpectedformat/) |  |
 
 ### Constructor: BigTiffOptions(expected_format, byte_order) {#BigTiffOptions_expected_format_byte_order_2}
 
@@ -156,13 +156,13 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
  BigTiffOptions(options) 
 ```
 
-Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class.
+Initializes a new instance of the BigTiffOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions) | The options source. |
+| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions) |  |
 
 ### Constructor: BigTiffOptions(tags) {#BigTiffOptions_tags_4}
 
@@ -171,13 +171,13 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
  BigTiffOptions(tags) 
 ```
 
-Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class.
+Initializes a new instance of the BigTiffOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The tags for options initialization. |
+| tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) |  |
 
 ### Method: add_tag(tag_to_add) {#add_tag_tag_to_add_1}
 
@@ -244,7 +244,7 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Type | Description |
 | :- | :- |
-| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) | A new BigTiffOptions object. |
+| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) |  |
 
 
 ### Method: create_with_options(options)  [static] {#create_with_options_options_5}
@@ -266,7 +266,7 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Type | Description |
 | :- | :- |
-| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) | A copy of options. |
+| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) |  |
 
 
 ### Method: create_with_tags(tags)  [static] {#create_with_tags_tags_6}
@@ -288,7 +288,7 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Type | Description |
 | :- | :- |
-| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) | A new BigTiffOptions object with tags. |
+| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) |  |
 
 
 ### Method: get_tag_by_type(tag_key) {#get_tag_by_type_tag_key_7}

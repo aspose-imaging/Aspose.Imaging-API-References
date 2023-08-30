@@ -11,7 +11,7 @@ A 32-bit unsigned integer that specifies how to interpret the points and associa
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPathPointFlags
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

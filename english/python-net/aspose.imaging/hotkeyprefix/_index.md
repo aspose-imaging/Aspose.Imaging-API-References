@@ -1,7 +1,7 @@
 ---
 title: HotkeyPrefix Enumeration
 type: docs
-weight: 10410
+weight: 10560
 url: /python-net/aspose.imaging/hotkeyprefix/
 ---
 
@@ -11,7 +11,7 @@ Specifies the type of display for hot-key prefixes that relate to text.
 
 **Full Name:** aspose.imaging.HotkeyPrefix
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

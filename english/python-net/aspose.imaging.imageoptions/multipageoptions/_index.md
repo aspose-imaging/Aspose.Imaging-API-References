@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/multipageoptions/
 
 **Full Name:** aspose.imaging.imageoptions.MultiPageOptions
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: ColorMap Class
 type: docs
-weight: 1140
+weight: 1150
 url: /python-net/aspose.imaging/colormap/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colormap/
 
 **Full Name:** aspose.imaging.ColorMap
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

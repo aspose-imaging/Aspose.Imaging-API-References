@@ -11,7 +11,7 @@ exif white balance enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifWhiteBalance
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

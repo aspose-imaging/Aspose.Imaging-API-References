@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JpegLsPresetCodingParameters
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

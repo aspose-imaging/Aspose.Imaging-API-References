@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/brush/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -32,7 +32,8 @@ Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 
 
 **See also:**
 
-**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 
 ### Method: deep_clone() {#deep_clone__1}
 
@@ -51,7 +52,7 @@ Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imagi
 
 
 ## **Examples**
-### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_12}
+### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_25}
 ``` python
 
 from aspose.imaging import Image, RotateFlipType, Graphics, Color, Pen, Rectangle, Point, Size,\

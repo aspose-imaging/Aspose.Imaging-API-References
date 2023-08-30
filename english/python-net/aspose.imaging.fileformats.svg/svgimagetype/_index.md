@@ -11,7 +11,7 @@ Represents SVG image type.
 
 **Full Name:** aspose.imaging.fileformats.svg.SvgImageType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

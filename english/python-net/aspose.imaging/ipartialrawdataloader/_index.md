@@ -1,7 +1,7 @@
 ---
 title: IPartialRawDataLoader Class
 type: docs
-weight: 5370
+weight: 5420
 url: /python-net/aspose.imaging/ipartialrawdataloader/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/ipartialrawdataloader/
 
 **Full Name:** aspose.imaging.IPartialRawDataLoader
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Methods**
 | **Name** | **Description** |

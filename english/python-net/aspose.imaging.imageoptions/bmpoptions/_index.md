@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -70,7 +70,8 @@ Gets or sets the image bits per pixel count.
 
 **See also:**
 
-**[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
+**[Example # 1](#example_26)**: The following example shows how to set a palette to a BMP image to reduce its...
+
 
 ### Method: clone() {#clone__1}
 
@@ -89,7 +90,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_4}
+### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_17}
 ``` python
 
 from aspose.imaging import Image
@@ -113,30 +114,7 @@ with BmpOptions() as bmp_options:
 
 ```
 
-### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
-``` python
-
-from aspose.imaging import Image
-from aspose.imaging.imageoptions import BmpOptions, JpegOptions, PngOptions, TiffOptions
-from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
-from os.path import join as path_join
-
-directory = "c:\\temp\\"
-#Load an existing gif image as an instance of Image class
-with Image.load(path_join(directory, "sample.gif")) as image:
-	# Export to BMP file format using the default options
-	image.save(path_join(directory, "output.bmp"), BmpOptions())
-	# Export to JPEG file format using the default options
-	image.save(path_join(directory, "output.jpg"), JpegOptions())
-	# Export to PNG file format using the default options
-	image.save(path_join(directory, "output.png"), PngOptions())
-	# Export to TIFF file format using the default options
-	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
-
-
-```
-
-### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_20}
+### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_26}
 ``` python
 
 from aspose.pycore import as_of
@@ -173,6 +151,29 @@ with BmpImage(100, 100) as bmpImage:
 # The output looks like this:
 # The size of image with palette is 11078 bytes.
 # The size of image without palette is 40054 bytes.
+
+```
+
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_27}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions, JpegOptions, PngOptions, TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+#Load an existing gif image as an instance of Image class
+with Image.load(path_join(directory, "sample.gif")) as image:
+	# Export to BMP file format using the default options
+	image.save(path_join(directory, "output.bmp"), BmpOptions())
+	# Export to JPEG file format using the default options
+	image.save(path_join(directory, "output.jpg"), JpegOptions())
+	# Export to PNG file format using the default options
+	image.save(path_join(directory, "output.png"), PngOptions())
+	# Export to TIFF file format using the default options
+	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
+
 
 ```
 

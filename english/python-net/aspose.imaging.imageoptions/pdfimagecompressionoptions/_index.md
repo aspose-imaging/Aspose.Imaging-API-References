@@ -11,7 +11,7 @@ Pdf image compression options
 
 **Full Name:** aspose.imaging.imageoptions.PdfImageCompressionOptions
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

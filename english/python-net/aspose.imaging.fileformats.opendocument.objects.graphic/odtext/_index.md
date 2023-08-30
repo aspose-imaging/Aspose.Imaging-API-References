@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odtext/
 
 **Inheritance:** OdObject
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

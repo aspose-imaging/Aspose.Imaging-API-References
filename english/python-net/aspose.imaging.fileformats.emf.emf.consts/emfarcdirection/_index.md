@@ -11,7 +11,7 @@ The ArcDirection enumeration is used in setting the drawing direction for arc an
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfArcDirection
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

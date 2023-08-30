@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrtextcollection/
 
 **Full Name:** aspose.imaging.fileformats.cdr.types.CdrTextCollection
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

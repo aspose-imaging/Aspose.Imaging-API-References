@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfspool.records/emfspoolfontdef
 
 **Full Name:** aspose.imaging.fileformats.emf.emfspool.records.EmfSpoolFontDefinitionRecordType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 
 

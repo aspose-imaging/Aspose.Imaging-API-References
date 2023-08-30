@@ -11,7 +11,7 @@ The ColorAdjustment enumeration is used to specify how the output image should b
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfColorAdjustmentEnum
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffsrational/
 
 **Full Name:** aspose.imaging.fileformats.tiff.TiffSRational
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

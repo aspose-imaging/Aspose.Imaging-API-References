@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/icmxobjectspec
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.ICmxObjectSpec
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 
 

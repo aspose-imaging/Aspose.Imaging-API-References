@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfobject/
 
 **Inheritance:** MetaObject
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat/
 
 **Full Name:** aspose.imaging.xmp.schemas.xmpdm.TimeFormat
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

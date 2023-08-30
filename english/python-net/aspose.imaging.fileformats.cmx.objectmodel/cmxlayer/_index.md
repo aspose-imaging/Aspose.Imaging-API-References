@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 
 **Inheritance:** ICmxContainer, ICmxDocElement, CmxContainer
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

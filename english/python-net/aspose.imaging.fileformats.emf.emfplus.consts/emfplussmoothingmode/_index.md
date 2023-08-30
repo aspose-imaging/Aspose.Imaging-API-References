@@ -11,7 +11,7 @@ The SmoothingMode enumeration defines smoothing modes to apply to lines, curves,
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusSmoothingMode
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

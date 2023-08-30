@@ -11,7 +11,7 @@ Flash mode.
 
 **Full Name:** aspose.imaging.exif.enums.ExifFlash
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

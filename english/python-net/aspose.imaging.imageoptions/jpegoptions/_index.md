@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -99,7 +99,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_27}
 ``` python
 
 from aspose.imaging import Image

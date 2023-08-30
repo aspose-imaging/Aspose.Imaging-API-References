@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteropt
 
 **Inheritance:** DeconvolutionFilterOptions
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

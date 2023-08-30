@@ -11,7 +11,7 @@ exif y cb cr positioning enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifYCbCrPositioning
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

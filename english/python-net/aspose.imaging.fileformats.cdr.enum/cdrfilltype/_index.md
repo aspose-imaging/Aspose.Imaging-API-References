@@ -11,7 +11,7 @@ The cdr fill type
 
 **Full Name:** aspose.imaging.fileformats.cdr.enum.CdrFillType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.shapes/rectangleshape/
 
 **Inheritance:** RectangleProjectedShape
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -68,8 +68,10 @@ Initializes a new instance of the [RectangleShape](/imaging/python-net/aspose.im
 
 **See also:**
 
-**[Example # 1](#example_13)**: This examples make use of GraphicsPath and Graphics classes to create and man...
+**[Example # 1](#example_12)**: This examples make use of GraphicsPath and Graphics classes to create and man...
+
 **[Example # 2](#example_16)**: This example creates a new Image and draws a variety of shapes using figures ...
+
 
 ### Method: get_bounds(matrix) {#get_bounds_matrix_1}
 
@@ -132,7 +134,7 @@ Applies the specified transformation to the shape.
 | transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
 
 ## **Examples**
-### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_13}
+### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_12}
 ``` python
 
 from aspose.imaging import Image, Graphics, Color, GraphicsPath, Figure, RectangleF, PointF, SizeF

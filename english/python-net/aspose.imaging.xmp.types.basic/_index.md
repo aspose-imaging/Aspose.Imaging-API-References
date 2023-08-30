@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.basic
 type: docs
-weight: 1040
+weight: 1060
 url: /python-net/aspose.imaging.xmp.types.basic/
 ---
 

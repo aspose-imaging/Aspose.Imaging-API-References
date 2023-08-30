@@ -11,7 +11,7 @@ The FamilyFont enumeration specifies the font family. Font families describe the
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfFamilyFont
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

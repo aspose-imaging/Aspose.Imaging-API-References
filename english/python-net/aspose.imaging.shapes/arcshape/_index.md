@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.shapes/arcshape/
 
 **Inheritance:** IOrderedShape, PieShape
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -78,6 +78,7 @@ Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.
 **See also:**
 
 **[Example # 1](#example_16)**: This example creates a new Image and draws a variety of shapes using figures ...
+
 
 ### Constructor: ArcShape(rectangle, start_angle, sweep_angle, is_closed) {#ArcShape_rectangle_start_angle_sweep_angle_is_closed_3}
 

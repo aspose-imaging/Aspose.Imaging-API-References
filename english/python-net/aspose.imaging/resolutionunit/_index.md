@@ -1,7 +1,7 @@
 ---
 title: ResolutionUnit Enumeration
 type: docs
-weight: 10820
+weight: 10970
 url: /python-net/aspose.imaging/resolutionunit/
 ---
 
@@ -11,7 +11,7 @@ Resolution unit enum.
 
 **Full Name:** aspose.imaging.ResolutionUnit
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

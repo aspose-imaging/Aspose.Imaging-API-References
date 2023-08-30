@@ -1,7 +1,7 @@
 ---
 title: SizeF Class
 type: docs
-weight: 7080
+weight: 7200
 url: /python-net/aspose.imaging/sizef/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/sizef/
 
 **Full Name:** aspose.imaging.SizeF
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

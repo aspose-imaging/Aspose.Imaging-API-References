@@ -11,7 +11,7 @@ The font store type
 
 **Full Name:** aspose.imaging.fileformats.svg.FontStoreType
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.brushes/hatchbrush/
 
 **Inheritance:** Brush
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

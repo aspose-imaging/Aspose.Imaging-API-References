@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -66,7 +66,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example demonstrates export to Dxf format {#example_3}
+### This example demonstrates export to Dxf format {#example_22}
 ``` python
 
 from aspose.imaging import Image

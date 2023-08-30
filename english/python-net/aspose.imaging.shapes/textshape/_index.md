@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.shapes/textshape/
 
 **Inheritance:** RectangleProjectedShape
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |

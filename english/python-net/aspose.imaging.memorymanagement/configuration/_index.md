@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.memorymanagement/configuration/
 
 **Full Name:** aspose.imaging.memorymanagement.Configuration
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

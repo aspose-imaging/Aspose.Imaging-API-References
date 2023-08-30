@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmpmeta/
 
 **Inheritance:** IXmlValue, XmpElementBase
 
-**Aspose.Imaging Version:** 23.6
+**Aspose.Imaging Version:** 23.8.0
 
 ## **Constructors**
 | **Name** | **Description** |
