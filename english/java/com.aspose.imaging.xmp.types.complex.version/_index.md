@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.types.complex.version
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains classes that describe one version of a document.
 type: docs
-weight: 120
+weight: 122
 url: /java/com.aspose.imaging.xmp.types.complex.version/
 ---
 

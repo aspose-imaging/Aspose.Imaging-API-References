@@ -106,7 +106,7 @@ Exif tags list
 | [GPSTimestamp](#GPSTimestamp) | Indicates the time as UTC (Coordinated Universal Time). |
 | [GPSSatellites](#GPSSatellites) | Indicates the GPS satellites used for measurements. |
 | [GPSStatus](#GPSStatus) | Indicates the status of the GPS receiver when the image is recorded. |
-| [GPSMeasureMode](#GPSMeasureMode) | Indicates the GPS measurement mode. |
+| [GPSMeasureMode](#GPSMeasureMode) | Indicates the GPS measurement mode. - 2- or 3- dimensional. |
 | [GPSDOP](#GPSDOP) | Indicates the GPS DOP (data degree of precision). |
 | [GPSSpeedRef](#GPSSpeedRef) | Indicates the unit used to express the GPS receiver speed of movement. |
 | [GPSSpeed](#GPSSpeed) | Indicates the speed of GPS receiver movement. |

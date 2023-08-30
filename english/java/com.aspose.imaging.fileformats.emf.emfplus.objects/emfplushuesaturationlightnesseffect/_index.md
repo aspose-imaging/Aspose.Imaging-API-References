@@ -22,12 +22,12 @@ The HueSaturationLightnessEffect object specifies adjustments to the hue, satura
 
 | Method | Description |
 | --- | --- |
-| [getHueLevel()](#getHueLevel--) | Gets or sets the Specifies the adjustment to the hue. |
-| [setHueLevel(int value)](#setHueLevel-int-) | Gets or sets the Specifies the adjustment to the hue. |
-| [getSaturationLevel()](#getSaturationLevel--) | Gets or sets the Specifies the adjustment to the saturation. |
-| [setSaturationLevel(int value)](#setSaturationLevel-int-) | Gets or sets the Specifies the adjustment to the saturation. |
-| [getLightnessLevel()](#getLightnessLevel--) | Gets or sets the Specifies the adjustment to the lightness. |
-| [setLightnessLevel(int value)](#setLightnessLevel-int-) | Gets or sets the Specifies the adjustment to the lightness. |
+| [getHueLevel()](#getHueLevel--) | Gets or sets the Specifies the adjustment to the hue |
+| [setHueLevel(int value)](#setHueLevel-int-) | Gets or sets the Specifies the adjustment to the hue |
+| [getSaturationLevel()](#getSaturationLevel--) | Gets or sets the Specifies the adjustment to the saturation |
+| [setSaturationLevel(int value)](#setSaturationLevel-int-) | Gets or sets the Specifies the adjustment to the saturation |
+| [getLightnessLevel()](#getLightnessLevel--) | Gets or sets the Specifies the adjustment to the lightness |
+| [setLightnessLevel(int value)](#setLightnessLevel-int-) | Gets or sets the Specifies the adjustment to the lightness |
 ### EmfPlusHueSaturationLightnessEffect() {#EmfPlusHueSaturationLightnessEffect--}
 ```
 public EmfPlusHueSaturationLightnessEffect()

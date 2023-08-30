@@ -1,7 +1,7 @@
 ---
 title: EmfPlusFillPath
 second_title: Aspose.Imaging for Java API Reference
-description: Fill path record FLAGS 16-bit unsigned integer that provides information about how the operation is to be performed and about the structure of the record.
+description: Fill path record FLAGS 16-bit unsigned integer that provides information about how the operation is to be performed and about the structure of the record. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 S X X X X X X X    ObjectId     S 1 bit This bit indicates the type of data in the BrushId field.
 type: docs
 weight: 34
 url: /java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpath/

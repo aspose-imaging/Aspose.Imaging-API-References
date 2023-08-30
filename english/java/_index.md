@@ -45,9 +45,9 @@ is_root: true
 | [com.aspose.imaging.fileformats.dng.decoder](./com.aspose.imaging.fileformats.dng.decoder) | The package contains DNG decoder types |
 | [com.aspose.imaging.fileformats.emf](./com.aspose.imaging.fileformats.emf) | The package contains types [MS-EMF], [MS-EMFPLUS] |
 | [com.aspose.imaging.fileformats.emf.dtyp.commondatastructures](./com.aspose.imaging.fileformats.emf.dtyp.commondatastructures) | The package contains types [MS-DTYP]: Windows Data Types 2.3 Common Data Structures |
-| [com.aspose.imaging.fileformats.emf.emf.consts](./com.aspose.imaging.fileformats.emf.emf.consts) | The package contains types [MS-EMF]: Enhanced Metafile Format. |
-| [com.aspose.imaging.fileformats.emf.emf.objects](./com.aspose.imaging.fileformats.emf.emf.objects) | The package contains types [MS-EMF]: Enhanced Metafile Format. |
-| [com.aspose.imaging.fileformats.emf.emf.records](./com.aspose.imaging.fileformats.emf.emf.records) | The package contains types [MS-EMF]: Enhanced Metafile Format. |
+| [com.aspose.imaging.fileformats.emf.emf.consts](./com.aspose.imaging.fileformats.emf.emf.consts) | The package contains types [MS-EMF]: Enhanced Metafile Format. 2.1 EMF Enumerations |
+| [com.aspose.imaging.fileformats.emf.emf.objects](./com.aspose.imaging.fileformats.emf.emf.objects) | The package contains types [MS-EMF]: Enhanced Metafile Format. 2.2 EMF Objects. |
+| [com.aspose.imaging.fileformats.emf.emf.records](./com.aspose.imaging.fileformats.emf.emf.records) | The package contains types [MS-EMF]: Enhanced Metafile Format. 2.3 EMF Records |
 | [com.aspose.imaging.fileformats.emf.emfplus.consts](./com.aspose.imaging.fileformats.emf.emfplus.consts) | The package contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.1 EMF+ Constants |
 | [com.aspose.imaging.fileformats.emf.emfplus.objects](./com.aspose.imaging.fileformats.emf.emfplus.objects) | The package contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.2 EMF+ Objects. |
 | [com.aspose.imaging.fileformats.emf.emfplus.records](./com.aspose.imaging.fileformats.emf.emfplus.records) | The package contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.3 EMF+ Records |
@@ -91,6 +91,8 @@ is_root: true
 | [com.aspose.imaging.imageloadoptions](./com.aspose.imaging.imageloadoptions) | The package contains different file format load options. |
 | [com.aspose.imaging.imageoptions](./com.aspose.imaging.imageoptions) | The package contains classes suitable for export, save or creation of different file formats. |
 | [com.aspose.imaging.interfaces](./com.aspose.imaging.interfaces) | The namespace handles Tiff file format processing. |
+| [com.aspose.imaging.magicwand](./com.aspose.imaging.magicwand) | The namespace handles MagicWand processing. |
+| [com.aspose.imaging.magicwand.imagemasks](./com.aspose.imaging.magicwand.imagemasks) | The namespace handles image masks processing. |
 | [com.aspose.imaging.masking](./com.aspose.imaging.masking) | The namespace handles ImageMasking processing. |
 | [com.aspose.imaging.masking.exceptions](./com.aspose.imaging.masking.exceptions) | The namespace handles ImageMasking.Exceptions processing. |
 | [com.aspose.imaging.masking.options](./com.aspose.imaging.masking.options) | The namespace handles ImageMasking.Options processing. |

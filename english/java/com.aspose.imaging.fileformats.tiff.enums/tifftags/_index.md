@@ -18,42 +18,42 @@ The tiff tag enum.
 | Field | Description |
 | --- | --- |
 | [SubFileType](#SubFileType) | Subfile data descriptor. |
-| [OsubfileType](#OsubfileType) | [obsoleted by TIFF rev. |
+| [OsubfileType](#OsubfileType) | [obsoleted by TIFF rev. 5.0] Kind of data in subfile. |
 | [ImageWidth](#ImageWidth) | Image width in pixels. |
 | [ImageLength](#ImageLength) | Image height in pixels. |
 | [BitsPerSample](#BitsPerSample) | Bits per channel (sample). |
 | [Compression](#Compression) | Data compression technique. |
 | [Photometric](#Photometric) | Photometric interpretation. |
-| [Thresholding](#Thresholding) | [obsoleted by TIFF rev. |
-| [CellWidth](#CellWidth) | [obsoleted by TIFF rev. |
-| [CellLength](#CellLength) | [obsoleted by TIFF rev. |
+| [Thresholding](#Thresholding) | [obsoleted by TIFF rev. 5.0] Thresholding used on data. |
+| [CellWidth](#CellWidth) | [obsoleted by TIFF rev. 5.0] Dithering matrix width. |
+| [CellLength](#CellLength) | [obsoleted by TIFF rev. 5.0] Dithering matrix height. |
 | [FillOrder](#FillOrder) | Data order within a byte. |
 | [DocumentName](#DocumentName) | Name of document which holds for image. |
 | [ImageDescription](#ImageDescription) | Information about image. |
 | [Make](#Make) | Scanner manufacturer name. |
 | [Model](#Model) | Scanner model name/number. |
 | [StripOffsets](#StripOffsets) | Offsets to data strips. |
-| [Orientation](#Orientation) | [obsoleted by TIFF rev. |
+| [Orientation](#Orientation) | [obsoleted by TIFF rev. 5.0] Image orientation. |
 | [SamplesPerPixel](#SamplesPerPixel) | Samples per pixel. |
 | [RowsPerStrip](#RowsPerStrip) | Rows per strip of data. |
 | [StripByteCounts](#StripByteCounts) | Bytes counts for strips. |
-| [MinSampleValue](#MinSampleValue) | [obsoleted by TIFF rev. |
-| [MaxSampleValue](#MaxSampleValue) | [obsoleted by TIFF rev. |
+| [MinSampleValue](#MinSampleValue) | [obsoleted by TIFF rev. 5.0] Minimum sample value. |
+| [MaxSampleValue](#MaxSampleValue) | [obsoleted by TIFF rev. 5.0] Maximum sample value. |
 | [Xresolution](#Xresolution) | Pixels/resolution in x. |
 | [Yresolution](#Yresolution) | Pixels/resolution in y. |
 | [PlanarConfig](#PlanarConfig) | Storage organization. |
 | [PageName](#PageName) | Page name image is from. |
 | [Xposition](#Xposition) | X page offset of image lhs. |
 | [Yposition](#Yposition) | Y page offset of image lhs. |
-| [FreeOffsets](#FreeOffsets) | [obsoleted by TIFF rev. |
-| [FreeByteCounts](#FreeByteCounts) | [obsoleted by TIFF rev. |
-| [GrayResponseUnit](#GrayResponseUnit) | [obsoleted by TIFF rev. |
-| [GrayResponseCurve](#GrayResponseCurve) | [obsoleted by TIFF rev. |
+| [FreeOffsets](#FreeOffsets) | [obsoleted by TIFF rev. 5.0] Byte offset to free block. |
+| [FreeByteCounts](#FreeByteCounts) | [obsoleted by TIFF rev. 5.0] Sizes of free blocks. |
+| [GrayResponseUnit](#GrayResponseUnit) | [obsoleted by TIFF rev. 6.0] Gray scale curve accuracy. |
+| [GrayResponseCurve](#GrayResponseCurve) | [obsoleted by TIFF rev. 6.0] Gray scale response curve. |
 | [T4Options](#T4Options) | TIFF 6.0 proper name alias for GROUP3OPTIONS. |
-| [T6Options](#T6Options) | Options for CCITT Group 4 fax encoding. |
+| [T6Options](#T6Options) | Options for CCITT Group 4 fax encoding. 32 flag bits. |
 | [ResolutionUnit](#ResolutionUnit) | Units of resolutions. |
 | [PageNumber](#PageNumber) | Page numbers of multi-page. |
-| [ColorResponseUnit](#ColorResponseUnit) | [obsoleted by TIFF rev. |
+| [ColorResponseUnit](#ColorResponseUnit) | [obsoleted by TIFF rev. 6.0] Color curve accuracy. |
 | [TransferFunction](#TransferFunction) | Colorimetry info. |
 | [Software](#Software) | Name & release. |
 | [DateTime](#DateTime) | Creation date and time. |

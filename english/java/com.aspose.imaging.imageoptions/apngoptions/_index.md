@@ -23,8 +23,8 @@ The animated PNG file format options
 
 | Method | Description |
 | --- | --- |
-| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. |
-| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. |
+| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. 0 indicates infinite looping. |
+| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. 0 indicates infinite looping. |
 | [getDefaultFrameTime()](#getDefaultFrameTime--) | Gets the default frame duration. |
 | [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Sets the default frame duration. |
 

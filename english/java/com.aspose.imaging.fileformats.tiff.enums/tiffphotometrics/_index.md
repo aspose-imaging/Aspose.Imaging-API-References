@@ -21,7 +21,7 @@ Photometric interpolation enum
 | [MinIsBlack](#MinIsBlack) | Min value is black. |
 | [Rgb](#Rgb) | RGB color model. |
 | [Palette](#Palette) | Color map indexed. |
-| [Mask](#Mask) | [obsoleted by TIFF rev. |
+| [Mask](#Mask) | [obsoleted by TIFF rev. 6.0] Holdout mask. |
 | [Separated](#Separated) | Color separations. |
 | [Ycbcr](#Ycbcr) | The CCIR 601. |
 | [Cielab](#Cielab) | 1976 CIE L\*a\*b\*. |

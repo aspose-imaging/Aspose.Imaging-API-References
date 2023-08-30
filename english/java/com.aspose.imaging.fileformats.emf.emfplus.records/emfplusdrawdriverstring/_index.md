@@ -36,8 +36,8 @@ The EmfPlusDrawDriverString record specifies text output with character position
 | [setGlyphs(short[] value)](#setGlyphs-short---) | Sets the glyphs array An array of 16-bit values that define the text string to draw. |
 | [isColor()](#isColor--) | Gets or sets a value indicating whether this instance is color. |
 | [setColor(boolean value)](#setColor-boolean-) | Sets a value indicating whether this instance is color. |
-| [getMatrixPresent()](#getMatrixPresent--) | Gets if the matrix present flag A 32-bit unsigned integer that specifies whether a transform matrix is present in the TransformMatrix field 0 - no matrix present. |
-| [setMatrixPresent(int value)](#setMatrixPresent-int-) | Sets if the matrix present flag A 32-bit unsigned integer that specifies whether a transform matrix is present in the TransformMatrix field 0 - no matrix present. |
+| [getMatrixPresent()](#getMatrixPresent--) | Gets if the matrix present flag A 32-bit unsigned integer that specifies whether a transform matrix is present in the TransformMatrix field 0 - no matrix present. 1 - transform matrix is in TransformMatrix field |
+| [setMatrixPresent(int value)](#setMatrixPresent-int-) | Sets if the matrix present flag A 32-bit unsigned integer that specifies whether a transform matrix is present in the TransformMatrix field 0 - no matrix present. 1 - transform matrix is in TransformMatrix field |
 | [getTransformMatrix()](#getTransformMatrix--) | Gets the transform matrix An optional EmfPlusTransformMatrix object (section 2.2.2.47) that specifies the transformation to apply to each value in the text array. |
 | [setTransformMatrix(Matrix value)](#setTransformMatrix-com.aspose.imaging.Matrix-) | Sets the transform matrix An optional EmfPlusTransformMatrix object (section 2.2.2.47) that specifies the transformation to apply to each value in the text array. |
 ### EmfPlusDrawDriverString(EmfPlusRecord source) {#EmfPlusDrawDriverString-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}

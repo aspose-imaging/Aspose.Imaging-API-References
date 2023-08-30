@@ -1,7 +1,7 @@
 ---
 title: EmfPlusPathPointTypeRle
 second_title: Aspose.Imaging for Java API Reference
-description: The EmfPlusPathPointTypeRle object specifies type values associated with points on a graphics path using RLE compression.
+description: The EmfPlusPathPointTypeRle object specifies type values associated with points on a graphics path using RLE compression.  0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1  B1RunCount    PointType        B 1 bit If set the path points are on a Bezier curve.
 type: docs
 weight: 62
 url: /java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/

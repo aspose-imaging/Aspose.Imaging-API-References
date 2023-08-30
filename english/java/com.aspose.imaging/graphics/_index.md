@@ -128,11 +128,11 @@ Represents the graphics according to the graphics engine used in the current ass
 | [drawClosedCurve(Pen pen, PointF[] points, float tension)](#drawClosedCurve-com.aspose.imaging.Pen-com.aspose.imaging.PointF---float-) | Draws a closed cardinal spline defined by an array of `PointF` structures using a specified tension. |
 | [drawClosedCurve(Pen pen, Point[] points)](#drawClosedCurve-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a closed cardinal spline defined by an array of `Point` structures. |
 | [drawClosedCurve(Pen pen, Point[] points, float tension)](#drawClosedCurve-com.aspose.imaging.Pen-com.aspose.imaging.Point---float-) | Draws a closed cardinal spline defined by an array of `Point` structures using a specified tension. |
-| [drawBezier(Pen pen, float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)](#drawBezier-com.aspose.imaging.Pen-float-float-float-float-float-float-float-float-) | Draws a Bézier spline defined by four ordered pairs of coordinates that represent points. |
-| [drawBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | Draws a Bézier spline defined by four `PointF` structures. |
-| [drawBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-) | Draws a Bézier spline defined by four `Point` structures. |
-| [drawBeziers(Pen pen, Point[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a series of Bézier splines from an array of `Point` structures. |
-| [drawBeziers(Pen pen, PointF[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.PointF---) | Draws a series of Bézier splines from an array of `PointF` structures. |
+| [drawBezier(Pen pen, float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)](#drawBezier-com.aspose.imaging.Pen-float-float-float-float-float-float-float-float-) | Draws a B?zier spline defined by four ordered pairs of coordinates that represent points. |
+| [drawBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | Draws a B?zier spline defined by four `PointF` structures. |
+| [drawBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-) | Draws a B?zier spline defined by four `Point` structures. |
+| [drawBeziers(Pen pen, Point[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a series of B?zier splines from an array of `Point` structures. |
+| [drawBeziers(Pen pen, PointF[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.PointF---) | Draws a series of B?zier splines from an array of `PointF` structures. |
 | [drawString(String s, Font font, Brush brush, float x, float y)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-float-float-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects. |
 | [drawString(String s, Font font, Brush brush, PointF point)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-com.aspose.imaging.PointF-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects. |
 | [drawString(String s, Font font, Brush brush, float x, float y, StringFormat format)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-float-float-com.aspose.imaging.StringFormat-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects using the formatting attributes of the specified `com.aspose.imaging.stringFormat`. |
@@ -2803,7 +2803,7 @@ public void drawBezier(Pen pen, float x1, float y1, float x2, float y2, float x3
 ```
 
 
-Draws a Bézier spline defined by four ordered pairs of coordinates that represent points.
+Draws a B?zier spline defined by four ordered pairs of coordinates that represent points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2824,7 +2824,7 @@ public void drawBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)
 ```
 
 
-Draws a Bézier spline defined by four `PointF` structures.
+Draws a B?zier spline defined by four `PointF` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2841,7 +2841,7 @@ public void drawBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)
 ```
 
 
-Draws a Bézier spline defined by four `Point` structures.
+Draws a B?zier spline defined by four `Point` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2960,7 +2960,7 @@ public void drawBeziers(Pen pen, Point[] points)
 ```
 
 
-Draws a series of Bézier splines from an array of `Point` structures.
+Draws a series of B?zier splines from an array of `Point` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2974,7 +2974,7 @@ public void drawBeziers(Pen pen, PointF[] points)
 ```
 
 
-Draws a series of Bézier splines from an array of `PointF` structures.
+Draws a series of B?zier splines from an array of `PointF` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
