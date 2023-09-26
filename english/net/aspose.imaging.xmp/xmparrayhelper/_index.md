@@ -3,7 +3,7 @@ title: XmpArrayHelper
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 12020
+weight: 12060
 url: /net/aspose.imaging.xmp/xmparrayhelper/
 ---
 ## XmpArrayHelper class

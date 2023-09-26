@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1620
+weight: 1630
 url: /net/aspose.imaging/color/op_equality/
 ---
 ## Color Equality operator

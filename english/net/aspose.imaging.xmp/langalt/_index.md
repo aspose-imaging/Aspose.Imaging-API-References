@@ -3,7 +3,7 @@ title: LangAlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11550
+weight: 11590
 url: /net/aspose.imaging.xmp/langalt/
 ---
 ## LangAlt class

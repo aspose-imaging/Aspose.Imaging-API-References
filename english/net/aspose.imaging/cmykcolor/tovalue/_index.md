@@ -16,7 +16,7 @@ public long ToValue()
 
 ### Return Value
 
-The Int64.
+The long CMYK value.
 
 ### See Also
 

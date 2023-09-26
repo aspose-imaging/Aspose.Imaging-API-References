@@ -14,6 +14,10 @@ Licenses the component.
 public void SetLicense(string licenseName)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| licenseName | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
 ### Remarks
 
 Tries to find the license in the following locations:
@@ -50,8 +54,6 @@ license.SetLicense("MyLicense.lic");
 Dim license As License = New License
 license.SetLicense("MyLicense.lic")
 ```
-
-Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode.
 
 ### See Also
 

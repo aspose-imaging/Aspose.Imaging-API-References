@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.cdr.objects/cdrtransforms/transforms/
 Gets or sets the transforms.
 
 ```csharp
-public List<  > Transforms { get; set; }
+public List<#=zbJhZCmsNrMtvmcG6bXRObfA=> Transforms { get; set; }
 ```
 
 ### Property Value

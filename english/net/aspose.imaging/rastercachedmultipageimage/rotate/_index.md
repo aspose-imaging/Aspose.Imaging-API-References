@@ -8,7 +8,7 @@ url: /net/aspose.imaging/rastercachedmultipageimage/rotate/
 ---
 ## RasterCachedMultipageImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+`Rotate` image around the center.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

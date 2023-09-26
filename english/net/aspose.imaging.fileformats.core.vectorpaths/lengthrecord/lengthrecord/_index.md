@@ -22,7 +22,7 @@ public LengthRecord(byte[] data)
 
 | exception | condition |
 | --- | --- |
-| !:PsdImageArgumentException | Incorrect data for LengthRecord creation |
+| ArgumentException | Incorrect data for LengthRecord creation |
 
 ### See Also
 

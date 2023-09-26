@@ -3,7 +3,7 @@ title: Layer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11610
+weight: 11650
 url: /net/aspose.imaging.xmp.schemas.photoshop/layer/
 ---
 ## Layer class

@@ -175,6 +175,29 @@ using (var image = Image.Load("Tiger.bmp"))
 }
 ```
 
+The example shows how to remove any object from the image using Graphics Path with Telea algorithm.
+
+```csharp
+[C#]
+
+var imageFilePath = "ball.png"; 
+using (var image = Image.Load(imageFilePath))
+{
+    var pngImage = (PngImage)image;
+
+    var mask = new GraphicsPath();
+    var firstFigure = new Figure();
+    firstFigure.AddShape(new EllipseShape(new RectangleF(350, 170, 570 - 350, 400 - 170)));
+    mask.AddFigure(firstFigure);
+
+    var options = new TeleaWatermarkOptions(mask);
+
+    var result = WatermarkRemover.PaintOver(pngImage, options);
+
+    result.Save(outputPath);
+}
+```
+
 The example shows how to export a BmpImage with the Rgb compression type.
 
 ```csharp
@@ -187,6 +210,32 @@ using (Image pngImage = Image.Load(sourcePath))
     // BMP image is saved with transparency support by default, that is achieved by using the BitmapCompression.Bitfields compression method. 
     // To save a BMP image with the Rgb compression method, the BmpOptions with the Compression property set to BitmapCompression.Rgb should be specified.
     pngImage.Save(outputPath, new BmpOptions() { Compression = BitmapCompression.Rgb });
+}
+```
+
+The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm.
+
+```csharp
+[C#]
+
+var imageFilePath = "ball.png"; 
+using (var image = Image.Load(imageFilePath))
+{
+    var pngImage = (PngImage)image;
+
+    var mask = new GraphicsPath();
+    var firstFigure = new Figure();
+    firstFigure.AddShape(new EllipseShape(new RectangleF(350, 170, 570 - 350, 400 - 170)));
+    mask.AddFigure(firstFigure);
+
+    var options = new ContentAwareFillWatermarkOptions(mask) 
+    { 
+        MaxPaintingAttempts = 4
+    };
+
+    var result = WatermarkRemover.PaintOver(pngImage, options);
+
+    result.Save(outputPath);
 }
 ```
 

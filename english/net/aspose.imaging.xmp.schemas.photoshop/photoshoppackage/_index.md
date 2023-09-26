@@ -3,7 +3,7 @@ title: PhotoshopPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11620
+weight: 11660
 url: /net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 ---
 ## PhotoshopPackage class

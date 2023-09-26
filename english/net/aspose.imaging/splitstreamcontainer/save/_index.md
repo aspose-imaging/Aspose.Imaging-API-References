@@ -17,7 +17,7 @@ public override void Save(Stream destinationStream, int bufferSize, long length)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationStream | Stream | The stream to save the data to. |
-| bufferSize | Int32 | The buffer size. By default !:ReadWriteBytesCount value is used. |
+| bufferSize | Int32 | The buffer size. |
 | length | Int64 | The stream data length to copy. By default the length is set to [`Length`](../length) value. |
 
 ### See Also

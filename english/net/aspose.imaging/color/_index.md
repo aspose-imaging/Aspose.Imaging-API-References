@@ -187,6 +187,7 @@ public struct Color
 | [ToArgb](../../aspose.imaging/color/toargb)() | Gets the 32-bit ARGB value of this [`Color`](../color) structure. |
 | [ToKnownColor](../../aspose.imaging/color/toknowncolor)() | Gets the [`KnownColor`](../knowncolor) value of this [`Color`](../color) structure. |
 | override [ToString](../../aspose.imaging/color/tostring)() | Converts this [`Color`](../color) structure to a human-readable string. |
+| static [ToCmyk](../../aspose.imaging/color/tocmyk)(Color) | The conversion from Color to CMYKColor. This method is deprecated. Please use more effective [`ToCmyk`](../cmykcolorhelper/tocmyk). |
 | [operator ==](../../aspose.imaging/color/op_equality) | Tests whether two specified [`Color`](../color) structures are equivalent. |
 | [operator !=](../../aspose.imaging/color/op_inequality) | Tests whether two specified [`Color`](../color) structures are different. |
 

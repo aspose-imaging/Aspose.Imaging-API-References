@@ -11,7 +11,7 @@ url: /net/aspose.imaging/rastercachedmultipageimage/iscached/
 Gets a value indicating whether image data is cached currently.
 
 ```csharp
-public bool IsCached { get; }
+public override bool IsCached { get; }
 ```
 
 ### Property Value

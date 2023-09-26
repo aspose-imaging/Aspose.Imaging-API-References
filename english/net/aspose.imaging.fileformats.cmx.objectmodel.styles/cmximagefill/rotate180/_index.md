@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rotate1
 ---
 ## CmxImageFill.Rotate180 property
 
-Gets or sets a value indicating whether this !:ImageSpec is upside down.
+Gets or sets a value indicating whether this [`CmxImageSpec`](../../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down.
 
 ```csharp
 public bool Rotate180 { get; set; }

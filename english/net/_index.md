@@ -104,6 +104,8 @@ is_root: true
 | [Aspose.Imaging.Shapes](./aspose.imaging.shapes) | The namespace contains different shapes combined from shape segments. |
 | [Aspose.Imaging.ShapeSegments](./aspose.imaging.shapesegments) | The namespace contains different shape segments which combine shapes. |
 | [Aspose.Imaging.Sources](./aspose.imaging.sources) | Namespace contains different stream sources which are suitable for input or output data flow. |
+| [Aspose.Imaging.Watermark](./aspose.imaging.watermark) | The namespace handles the Watermark remove processing. |
+| [Aspose.Imaging.Watermark.Options](./aspose.imaging.watermark.options) | The namespace handles Watermark options processing. |
 | [Aspose.Imaging.Xmp](./aspose.imaging.xmp) | The namespace contains XMP related helper classes and methods. |
 | [Aspose.Imaging.Xmp.Schemas.Dicom](./aspose.imaging.xmp.schemas.dicom) | The namespace contains Dicom metadata related helper classes, constants and methods. |
 | [Aspose.Imaging.Xmp.Schemas.DublinCore](./aspose.imaging.xmp.schemas.dublincore) | The namespace contains Dublin Core metadata related helper classes, constants and methods. |

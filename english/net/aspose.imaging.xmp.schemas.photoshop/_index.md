@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Schemas.Photoshop
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains related helper classes constants and methods used by Adobe Photoshop.
 type: docs
-weight: 980
+weight: 1000
 url: /net/aspose.imaging.xmp.schemas.photoshop/
 ---
 The namespace contains related helper classes, constants and methods used by Adobe Photoshop.
