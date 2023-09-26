@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.magicwand.imagemasks
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles image masks processing.
+description: The package handles image masks processing.
 type: docs
 weight: 92
 url: /java/com.aspose.imaging.magicwand.imagemasks/
 ---
 
-The namespace handles image masks processing.
+The package handles image masks processing.
 
 
 ## Classes

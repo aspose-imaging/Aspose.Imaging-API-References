@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.core.vectorpaths
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace contains Imaging Vector Paths.
+description: The package contains Imaging Vector Paths.
 type: docs
 weight: 38
 url: /java/com.aspose.imaging.fileformats.core.vectorpaths/
 ---
 
-The namespace contains Imaging Vector Paths.
+The package contains Imaging Vector Paths.
 
 
 ## Classes

@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.apsbuilder.dib
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace DIB header processing.
+description: The package DIB header processing.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.apsbuilder.dib/
 ---
 
-The namespace DIB header processing.
+The package DIB header processing.
 
 
 ## Classes

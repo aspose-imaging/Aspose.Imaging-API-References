@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.cmx.objectmodel.specs
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles Tiff file format processing.
+description: The package handles Tiff file format processing.
 type: docs
 weight: 36
 url: /java/com.aspose.imaging.fileformats.cmx.objectmodel.specs/
 ---
 
-The namespace handles Tiff file format processing.
+The package handles Tiff file format processing.
 
 
 ## Classes

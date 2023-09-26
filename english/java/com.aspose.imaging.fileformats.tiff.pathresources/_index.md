@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.tiff.pathresources
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles Tiff file format processing.
+description: The package handles Tiff file format processing.
 type: docs
 weight: 78
 url: /java/com.aspose.imaging.fileformats.tiff.pathresources/
 ---
 
-The namespace handles Tiff file format processing.
+The package handles Tiff file format processing.
 
 
 ## Classes

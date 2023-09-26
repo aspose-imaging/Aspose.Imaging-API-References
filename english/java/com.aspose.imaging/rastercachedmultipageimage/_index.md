@@ -48,7 +48,7 @@ The raster multipage image
 | [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCahcedMultipageImage.Rotate` image around the center. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCachedMultipageImage.rotate` image around the center. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips all pages. |
 | [rotateFlipAll(int rotateFlip)](#rotateFlipAll-int-) | Rotates the flip all. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
@@ -131,7 +131,7 @@ Value: The image bits per pixel count.
 int - the image bits per pixel count.
 ### isCached() {#isCached--}
 ```
-public final boolean isCached()
+public boolean isCached()
 ```
 
 
@@ -452,7 +452,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-`RasterCahcedMultipageImage.Rotate` image around the center.
+`RasterCachedMultipageImage.rotate` image around the center.
 
 **Parameters:**
 | Parameter | Type | Description |

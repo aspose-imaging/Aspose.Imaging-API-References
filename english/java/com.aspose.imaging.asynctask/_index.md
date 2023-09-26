@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.asynctask
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles AsyncTask processing.
+description: The package handles AsyncTask processing.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.asynctask/
 ---
 
-The namespace handles AsyncTask processing.
+The package handles AsyncTask processing.
 
 
 ## Classes

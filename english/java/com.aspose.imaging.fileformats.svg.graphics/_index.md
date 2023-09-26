@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.svg.graphics
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace for drawing on Svg.
+description: The package for drawing on Svg.
 type: docs
 weight: 71
 url: /java/com.aspose.imaging.fileformats.svg.graphics/
 ---
 
-The namespace for drawing on Svg.
+The package for drawing on Svg.
 
 
 ## Classes

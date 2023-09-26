@@ -30,8 +30,8 @@ The animated PNG image.
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. 0 indicates infinite looping. |
-| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. 0 indicates infinite looping. |
+| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. |
+| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. |
 | [getDefaultFrameTime()](#getDefaultFrameTime--) | Gets the default frame duration. |
 | [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Sets the default frame duration. |
 | [getInterlaced()](#getInterlaced--) | Gets a value indicating whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced. |

@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.masking.exceptions
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles ImageMasking.Exceptions processing.
+description: The package handles ImageMasking.Exceptions processing.
 type: docs
 weight: 94
 url: /java/com.aspose.imaging.masking.exceptions/
 ---
 
-The namespace handles ImageMasking.Exceptions processing.
+The package handles ImageMasking.Exceptions processing.
 
 
 ## Classes

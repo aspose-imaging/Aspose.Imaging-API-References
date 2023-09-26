@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.types.complex.colorant
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains classes that represent the structures containing the characteristics of a colorant swatch used in a document.
 type: docs
-weight: 116
+weight: 118
 url: /java/com.aspose.imaging.xmp.types.complex.colorant/
 ---
 

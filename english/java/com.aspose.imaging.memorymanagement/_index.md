@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.memorymanagement
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace contains memory management routines.
+description: The package contains memory management routines.
 type: docs
 weight: 97
 url: /java/com.aspose.imaging.memorymanagement/
 ---
 
-The namespace contains memory management routines.
+The package contains memory management routines.
 
 
 ## Classes

@@ -44,7 +44,7 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name Use an empty string to switch to evaluation mode. |
+| licenseName | java.lang.String | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
 
 ### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
 ```

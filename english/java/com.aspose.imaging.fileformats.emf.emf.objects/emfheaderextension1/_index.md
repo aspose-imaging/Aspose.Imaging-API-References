@@ -26,8 +26,8 @@ The HeaderExtension1 object defines the first extension to the EMF metafile head
 | [setCbPixelFormat(int value)](#setCbPixelFormat-int-) | Gets or sets a 32-bit unsigned integer that specifies the size of the PixelFormatDescriptor object. |
 | [getOffPixelFormat()](#getOffPixelFormat--) | Gets or sets a 32-bit unsigned integer that specifies the offset to the PixelFormatDescriptor object. |
 | [setOffPixelFormat(int value)](#setOffPixelFormat-int-) | Gets or sets a 32-bit unsigned integer that specifies the offset to the PixelFormatDescriptor object. |
-| [getBOpenGl()](#getBOpenGl--) | Gets or sets a 32-bit unsigned integer that indicates whether OpenGL commands are present in the metafile. 0x00000000 OpenGL records are not present in the metafile. 0x00000001 OpenGL records are present in the metafile. |
-| [setBOpenGl(int value)](#setBOpenGl-int-) | Gets or sets a 32-bit unsigned integer that indicates whether OpenGL commands are present in the metafile. 0x00000000 OpenGL records are not present in the metafile. 0x00000001 OpenGL records are present in the metafile. |
+| [getBOpenGl()](#getBOpenGl--) | Gets or sets a 32-bit unsigned integer that indicates whether OpenGL commands are present in the metafile. |
+| [setBOpenGl(int value)](#setBOpenGl-int-) | Gets or sets a 32-bit unsigned integer that indicates whether OpenGL commands are present in the metafile. |
 ### EmfHeaderExtension1() {#EmfHeaderExtension1--}
 ```
 public EmfHeaderExtension1()

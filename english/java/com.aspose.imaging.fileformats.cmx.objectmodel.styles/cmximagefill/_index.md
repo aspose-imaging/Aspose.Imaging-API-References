@@ -40,8 +40,8 @@ Image fill info
 | [setPatternHeight(float value)](#setPatternHeight-float-) | Sets the height of the pattern. |
 | [isRelative()](#isRelative--) | Gets a value indicating whether patterns size values is relative. |
 | [setRelative(boolean value)](#setRelative-boolean-) | Sets a value indicating whether patterns size values is relative. |
-| [getRotate180()](#getRotate180--) | Gets a value indicating whether this `ImageSpec` is upside down. |
-| [setRotate180(boolean value)](#setRotate180-boolean-) | Sets a value indicating whether this `ImageSpec` is upside down. |
+| [getRotate180()](#getRotate180--) | Gets a value indicating whether this [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down. |
+| [setRotate180(boolean value)](#setRotate180-boolean-) | Sets a value indicating whether this [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
 | [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
 | [hashCode()](#hashCode--) | Get hash code of the current object. |
@@ -264,26 +264,26 @@ public final boolean getRotate180()
 ```
 
 
-Gets a value indicating whether this `ImageSpec` is upside down.
+Gets a value indicating whether this [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down.
 
 Value: `true` if image is upside down; otherwise, `false`.
 
 **Returns:**
-boolean - a value indicating whether this `ImageSpec` is upside down.
+boolean - a value indicating whether this [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down.
 ### setRotate180(boolean value) {#setRotate180-boolean-}
 ```
 public final void setRotate180(boolean value)
 ```
 
 
-Sets a value indicating whether this `ImageSpec` is upside down.
+Sets a value indicating whether this [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down.
 
 Value: `true` if image is upside down; otherwise, `false`.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether this `ImageSpec` is upside down. |
+| value | boolean | a value indicating whether this [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) is upside down. |
 
 ### toString() {#toString--}
 ```

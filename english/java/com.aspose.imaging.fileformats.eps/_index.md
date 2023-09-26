@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.eps
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace contains EPS format type
+description: The package contains EPS format type
 type: docs
 weight: 53
 url: /java/com.aspose.imaging.fileformats.eps/
 ---
 
-The namespace contains EPS format type
+The package contains EPS format type
 
 
 ## Classes

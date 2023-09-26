@@ -140,6 +140,52 @@ try (Image pngImage = Image.load(sourcePath))
 }
 ```
 
+
+## Example: The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm.
+
+``` java
+String imageFilePath = "ball.png"; 
+try (Image image = Image.load(imageFilePath))
+{
+    PngImage pngImage = (PngImage)image;
+
+    GraphicsPath mask = new GraphicsPath();
+    Figure firstFigure = new Figure();
+    firstFigure.addShape(new EllipseShape(new RectangleF(350, 170, 570 - 350, 400 - 170)));
+    mask.addFigure(firstFigure);
+
+    ContentAwareFillWatermarkOptions options = new ContentAwareFillWatermarkOptions(mask);
+    options.setMaxPaintingAttempts(4);
+    try (Image result = WatermarkRemover.paintOver(pngImage, options))
+    {
+        result.Save(outputPath);
+    }
+}
+```
+
+
+## Example: The example shows how to remove any object from the image using Graphics Path with Telea algorithm.
+
+``` java
+String imageFilePath = "ball.png"; 
+try (Image image = Image.load(imageFilePath))
+{
+    PngImage pngImage = (PngImage)image;
+
+    GraphicsPath mask = new GraphicsPath();
+    Figure firstFigure = new Figure();
+    firstFigure.addShape(new EllipseShape(
+                new RectangleF(350, 170, 570 - 350, 400 - 170)));
+    mask.addFigure(firstFigure);
+
+    TeleaWatermarkOptions options = new TeleaWatermarkOptions(mask);
+    try (Image result = WatermarkRemover.PaintOver(pngImage, options))
+    {
+        result.Save(outputPath);
+    }
+}
+```
+
 ### BmpImage(String path) {#BmpImage-java.lang.String-}
 ```
 public BmpImage(String path)

@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.cdr.types
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles Cdr file format processing.
+description: The package handles Cdr file format processing.
 type: docs
 weight: 32
 url: /java/com.aspose.imaging.fileformats.cdr.types/
 ---
 
-The namespace handles Cdr file format processing.
+The package handles Cdr file format processing.
 
 
 ## Classes

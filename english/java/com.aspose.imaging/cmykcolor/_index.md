@@ -154,7 +154,7 @@ The conversion from 32-bit ARGB color to CMYKColor. This method is deprecated. P
 | argbPixels | int[] | The pixels of 32-bit ARGB format. |
 
 **Returns:**
-com.aspose.imaging.CmykColor[] - The `Aspose:Imaging:CmykColor[]`.
+com.aspose.imaging.CmykColor[] - The [CmykColor](../../com.aspose.imaging/cmykcolor)[].
 ### toColor(CmykColor[] cmykPixels) {#toColor-com.aspose.imaging.CmykColor---}
 ```
 public static Color[] toColor(CmykColor[] cmykPixels)
@@ -199,7 +199,7 @@ The conversion from 32-bit ARGB to CMYKColor. This method is deprecated. Please 
 | argbPixel | int | The pixel of 32-bit ARGB format. |
 
 **Returns:**
-[CmykColor](../../com.aspose.imaging/cmykcolor) - The `Aspose:Imaging:CmykColor`.
+[CmykColor](../../com.aspose.imaging/cmykcolor) - The [CmykColor](../../com.aspose.imaging/cmykcolor).
 ### toColor(CmykColor cmykPixel) {#toColor-com.aspose.imaging.CmykColor-}
 ```
 public static Color toColor(CmykColor cmykPixel)
@@ -288,7 +288,7 @@ public long toValue()
 The to value.
 
 **Returns:**
-long - The `long`.
+long - The long CMYK value.
 ### CloneTo(CmykColor that) {#CloneTo-com.aspose.imaging.CmykColor-}
 ```
 public void CloneTo(CmykColor that)

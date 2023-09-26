@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.masking
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles ImageMasking processing.
+description: The package handles ImageMasking processing.
 type: docs
 weight: 93
 url: /java/com.aspose.imaging.masking/
 ---
 
-The namespace handles ImageMasking processing.
+The package handles ImageMasking processing.
 
 
 ## Classes

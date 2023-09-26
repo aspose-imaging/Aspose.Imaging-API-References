@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.palettehelper
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace contains classes for adjustment of color palette to the image colors and visa versa.
+description: The package contains classes for adjustment of color palette to the image colors and visa versa.
 type: docs
 weight: 99
 url: /java/com.aspose.imaging.palettehelper/
 ---
 
-The namespace contains classes for adjustment of color palette to the image colors and visa versa.
+The package contains classes for adjustment of color palette to the image colors and visa versa.
 
 
 ## Classes

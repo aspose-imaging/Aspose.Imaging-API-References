@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handling BigTiff file format processing.
+description: The package handling BigTiff file format processing.
 type: docs
 weight: 76
 url: /java/com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/
 ---
 
-The namespace handling BigTiff file format processing.
+The package handling BigTiff file format processing.
 
 
 ## Classes

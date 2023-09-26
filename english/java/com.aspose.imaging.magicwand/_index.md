@@ -1,13 +1,13 @@
 ---
 title: com.aspose.imaging.magicwand
 second_title: Aspose.Imaging for Java API Reference
-description: The namespace handles MagicWand processing.
+description: The package handles MagicWand processing.
 type: docs
 weight: 91
 url: /java/com.aspose.imaging.magicwand/
 ---
 
-The namespace handles MagicWand processing.
+The package handles MagicWand processing.
 
 
 ## Classes
