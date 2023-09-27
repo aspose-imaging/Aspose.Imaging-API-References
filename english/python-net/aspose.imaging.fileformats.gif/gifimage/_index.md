@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, RasterCachedImage
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -309,7 +309,7 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 
 **See also:**
 
-**[Example # 1](#example_26)**: The following example shows how to set a palette to a BMP image to reduce its...
+**[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
 
 
 ### Constructor: BmpImage(width, height, bits_per_pixel, palette) {#BmpImage_width_height_bits_per_pixel_palette_8}
@@ -357,7 +357,7 @@ Gets the image bits per pixel count.
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: compression {#compression2}
@@ -366,7 +366,7 @@ Gets the image compression.
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: height {#height3}
@@ -375,7 +375,7 @@ Gets the image height.
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: horizontal_resolution {#horizontal_resolution4}
@@ -384,7 +384,7 @@ Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: raw_data_format {#raw_data_format5}
@@ -393,7 +393,7 @@ Gets the raw data format.
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: raw_line_size {#raw_line_size6}
@@ -402,7 +402,7 @@ Gets the raw line size in bytes.
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: vertical_resolution {#vertical_resolution7}
@@ -411,7 +411,7 @@ Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Property: width {#width8}
@@ -420,7 +420,7 @@ Gets the image width.
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -2458,7 +2458,7 @@ Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/ra
 
 **See also:**
 
-**[Example # 1](#example_7)**: The following example gets the general information about the image including ...
+**[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
 ### Method: to_bitmap() {#to_bitmap__109}
@@ -2510,7 +2510,31 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example gets the general information about the image including pixel format, image size, resolution, compression etc. {#example_7}
+### The following example shows how to create a BMP image of the specified size. {#example_18}
+``` python
+from aspose.imaging import Color
+from aspose.imaging.fileformats.bmp import BmpImage
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+
+# Create a BMP image 100 x 100 px.
+with BmpImage(100, 100) as bmpImage:
+	# Fill the image with a simple linear red-black gradient.
+	width = bmpImage.width
+	height = bmpImage.height
+	for y in range(height):
+		for x in range(width):
+			hue = (255 * x) // width
+			bmpImage.set_pixel(x, y, Color.from_argb(255, hue, 0, 0))
+
+	with open(path_join(directory, "output.bmp"), "w+b") as stream:
+		bmpImage.save(stream)
+
+
+```
+
+### The following example gets the general information about the image including pixel format, image size, resolution, compression etc. {#example_19}
 ``` python
 
 from aspose.pycore import as_of
@@ -2557,7 +2581,7 @@ with Image.load(r"c:\temp\sample.bmp") as image:
 
 ```
 
-### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_26}
+### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_20}
 ``` python
 
 from aspose.pycore import as_of
@@ -2594,30 +2618,6 @@ with BmpImage(100, 100) as bmpImage:
 # The output looks like this:
 # The size of image with palette is 11078 bytes.
 # The size of image without palette is 40054 bytes.
-
-```
-
-### The following example shows how to create a BMP image of the specified size. {#example_28}
-``` python
-from aspose.imaging import Color
-from aspose.imaging.fileformats.bmp import BmpImage
-from os.path import join as path_join
-
-directory = "c:\\temp\\"
-
-# Create a BMP image 100 x 100 px.
-with BmpImage(100, 100) as bmpImage:
-	# Fill the image with a simple linear red-black gradient.
-	width = bmpImage.width
-	height = bmpImage.height
-	for y in range(height):
-		for x in range(width):
-			hue = (255 * x) // width
-			bmpImage.set_pixel(x, y, Color.from_argb(255, hue, 0, 0))
-
-	with open(path_join(directory, "output.bmp"), "w+b") as stream:
-		bmpImage.save(stream)
-
 
 ```
 

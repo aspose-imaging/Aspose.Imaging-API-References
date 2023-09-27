@@ -1,7 +1,7 @@
 ---
 title: Rectangle Class
 type: docs
-weight: 7020
+weight: 7030
 url: /python-net/aspose.imaging/rectangle/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/rectangle/
 
 **Full Name:** aspose.imaging.Rectangle
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

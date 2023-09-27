@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.complex.dimensions
 type: docs
-weight: 1090
+weight: 1110
 url: /python-net/aspose.imaging.xmp.types.complex.dimensions/
 ---
 

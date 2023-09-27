@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/featheringsettings/
 
 **Full Name:** aspose.imaging.magicwand.imagemasks.FeatheringSettings
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

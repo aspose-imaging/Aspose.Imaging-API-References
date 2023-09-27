@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.font.OdFont
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

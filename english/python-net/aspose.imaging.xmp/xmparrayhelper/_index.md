@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/xmparrayhelper/
 
 **Full Name:** aspose.imaging.xmp.XmpArrayHelper
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Methods**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ Specifies how colors are compared during the Magic Wand algorithm.
 
 **Full Name:** aspose.imaging.magicwand.ColorComparisonMode
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

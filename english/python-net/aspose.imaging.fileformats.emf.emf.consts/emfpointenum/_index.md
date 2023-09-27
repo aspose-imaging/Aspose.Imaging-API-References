@@ -11,7 +11,7 @@ The Point enumeration is used to specify how a point is to be used in a drawing 
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPointEnum
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

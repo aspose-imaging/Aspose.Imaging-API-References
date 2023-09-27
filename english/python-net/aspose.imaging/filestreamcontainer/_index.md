@@ -1,7 +1,7 @@
 ---
 title: FileStreamContainer Class
 type: docs
-weight: 4780
+weight: 4790
 url: /python-net/aspose.imaging/filestreamcontainer/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/filestreamcontainer/
 
 **Inheritance:** StreamContainer
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 4980
+weight: 4990
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/graphics/
 
 **Full Name:** aspose.imaging.Graphics
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -275,9 +275,9 @@ Clears the graphics surface using the specified color.
 
 **See also:**
 
-**[Example # 1](#example_12)**: This examples make use of GraphicsPath and Graphics classes to create and man...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
-**[Example # 2](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 2](#example_13)**: This examples make use of GraphicsPath and Graphics classes to create and man...
 
 
 ### Method: draw_arc(pen, rect, start_angle, sweep_angle) {#draw_arc_pen_rect_start_angle_sweep_angle_2}
@@ -301,7 +301,7 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_arc(pen, rect, start_angle, sweep_angle) {#draw_arc_pen_rect_start_angle_sweep_angle_3}
@@ -325,7 +325,7 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_arc(pen, x, y, width, height, start_angle, sweep_angle) {#draw_arc_pen_x_y_width_height_start_angle_sweep_angle_4}
@@ -470,7 +470,7 @@ Draws a Bézier spline defined by four [PointF](/imaging/python-net/aspose.imagi
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_bezier(pen, pt1, pt2, pt3, pt4) {#draw_bezier_pen_pt1_pt2_pt3_pt4_11}
@@ -495,7 +495,7 @@ Draws a Bézier spline defined by four [PointF](/imaging/python-net/aspose.imagi
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_bezier(pen, x1, y1, x2, y2, x3, y3, x4, y4) {#draw_bezier_pen_x1_y1_x2_y2_x3_y3_x4_y4_12}
@@ -774,7 +774,7 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_curve(pen, points) {#draw_curve_pen_points_28}
@@ -796,7 +796,7 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_curve(pen, points, offset, number_of_segments) {#draw_curve_pen_points_offset_number_of_segments_29}
@@ -1012,7 +1012,7 @@ Draws an ellipse defined by a bounding [RectangleF](/imaging/python-net/aspose.i
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_ellipse(pen, rect) {#draw_ellipse_pen_rect_41}
@@ -1034,7 +1034,7 @@ Draws an ellipse defined by a bounding [RectangleF](/imaging/python-net/aspose.i
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_ellipse(pen, x, y, width, height) {#draw_ellipse_pen_x_y_width_height_42}
@@ -2105,7 +2105,7 @@ Draws a line connecting two [Point](/imaging/python-net/aspose.imaging/point/) s
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_line(pen, point1, point2) {#draw_line_pen_point1_point2_103}
@@ -2128,7 +2128,7 @@ Draws a line connecting two [Point](/imaging/python-net/aspose.imaging/point/) s
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_line(pen, x1, y1, x2, y2) {#draw_line_pen_x1_y1_x2_y2_104}
@@ -2291,7 +2291,7 @@ Draws a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
 
 **See also:**
 
-**[Example # 1](#example_12)**: This examples make use of GraphicsPath and Graphics classes to create and man...
+**[Example # 1](#example_13)**: This examples make use of GraphicsPath and Graphics classes to create and man...
 
 
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_113}
@@ -2315,7 +2315,7 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_114}
@@ -2339,7 +2339,7 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_pie(pen, x, y, width, height, start_angle, sweep_angle) {#draw_pie_pen_x_y_width_height_start_angle_sweep_angle_115}
@@ -2481,7 +2481,7 @@ Draws a polygon defined by an array of [PointF](/imaging/python-net/aspose.imagi
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_polygon(pen, points) {#draw_polygon_pen_points_122}
@@ -2503,7 +2503,7 @@ Draws a polygon defined by an array of [PointF](/imaging/python-net/aspose.imagi
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_polygon_f(pen, points) {#draw_polygon_f_pen_points_123}
@@ -2579,7 +2579,7 @@ Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_rectangle(pen, rect) {#draw_rectangle_pen_rect_127}
@@ -2601,7 +2601,7 @@ Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_rectangle_f(pen, rect) {#draw_rectangle_f_pen_rect_128}
@@ -2639,7 +2639,7 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 
 **See also:**
 
-**[Example # 1](#example_5)**: This example shows the creation and usage Pen objects. The example creates a ...
+**[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 
 ### Method: draw_rectangles(pen, rects) {#draw_rectangles_pen_rects_130}
@@ -2661,7 +2661,7 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 
 **See also:**
 
-**[Example # 1](#example_5)**: This example shows the creation and usage Pen objects. The example creates a ...
+**[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 
 ### Method: draw_rectangles_f(pen, rects) {#draw_rectangles_f_pen_rects_131}
@@ -2738,7 +2738,7 @@ Draws the specified text string at the specified location with the specified [Br
 
 **See also:**
 
-**[Example # 1](#example_25)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
 ### Method: draw_string(s, font, brush, point, format) {#draw_string_s_font_brush_point_format_135}
@@ -3882,94 +3882,7 @@ Translates the local geometric transform by the specified dimensions in the spec
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
 
 ## **Examples**
-### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_5}
-``` python
-
-from aspose.imaging import Image, Graphics, Color, Pen, Rectangle, Point, Size
-from aspose.imaging.brushes import HatchBrush
-from aspose.imaging.imageoptions import BmpOptions
-from aspose.imaging.sources import FileCreateSource
-
-# Create an instance of BmpOptions and set its various properties
-bmpOptions = BmpOptions()
-bmpOptions.bits_per_pixel = 24
-# Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
-# Second Boolean parameter determines if the file to be created IsTemporal or not
-bmpOptions.source = FileCreateSource(r"C:\temp\sample.bmp", False)
-# Create an instance of Image at specified Path
-with Image.create(bmpOptions, 500, 500) as image:
-	# Create an instance of Graphics and initialize it with Image object
-	graphics = Graphics(image)
-	# Clear the Graphics surface with White Color
-	graphics.clear(Color.white)
-	#Create an instance of Pen with color Red and width 5
-	pen = Pen(Color.red, 5.0);
-	# Create an instance of HatchBrush and set its properties
-	brush = HatchBrush()
-	brush.background_color = Color.wheat;
-	brush.foreground_color = Color.red;
-	# Create an instance of Pen
-	# initialize it with HatchBrush object and width
-	brusedpen = Pen(brush, 5.0)
-	# Draw Rectangles by specifying Pen object
-	graphics.draw_rectangles(pen, [
-		Rectangle(Point(210, 210), Size(100, 100)),
-		Rectangle(Point(110, 110), Size(100, 100)),
-		Rectangle(Point(310, 310), Size(100, 100)) ])
-
-	# Draw Rectangles by specifying Pen object
-	graphics.draw_rectangles(brusedpen, [
-		Rectangle(Point(310, 110), Size(100, 100)),
-		Rectangle(Point(110, 310), Size(100, 100)) ])
-
-	# save all changes.
-	image.save()
-
-
-```
-
-### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_12}
-``` python
-
-from aspose.imaging import Image, Graphics, Color, GraphicsPath, Figure, RectangleF, PointF, SizeF
-from aspose.imaging import Pen
-from aspose.imaging.sources import StreamSource
-from aspose.imaging.imageoptions import TiffOptions
-from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
-from aspose.imaging.shapes import RectangleShape, EllipseShape, PieShape
-
-
-# Create an instance of a file stream
-with open(r"C:\temp\output.tiff", "w+b") as stream:
-	# Create an instance of TiffOptions and set its various properties
-	tiffOptions = TiffOptions(TiffExpectedFormat.DEFAULT)
-	# Set the source for the instance of ImageOptions
-	tiffOptions.source = StreamSource(stream)
-	# Create an instance of Image
-	with Image.create(tiffOptions, 500, 500) as image:
-		# Create and initialize an instance of Graphics class
-		graphics = Graphics(image)
-		# Clear Graphics surface
-		graphics.clear(Color.wheat);
-		# Create an instance of GraphicsPath class
-		graphics_path = GraphicsPath()
-		# Create an instance of Figure class
-		figure = Figure()
-		# Add Shapes to Figure object
-		figure.add_shape(RectangleShape(RectangleF(10.0, 10.0, 300.0, 300.0)))
-		figure.add_shape(EllipseShape(RectangleF(50.0, 50.0, 300.0, 300.0)))
-		figure.add_shape(PieShape(RectangleF(PointF(250.0, 250.0), SizeF(200.0, 200.0)), 0.0, 45.0))
-		# Add Figure object to GraphicsPath
-		graphics_path.add_figure(figure)
-		# Draw path with Pen object of color Black
-		graphics.draw_path(Pen(Color.black, 2.0), graphics_path)
-		# save all changes.
-		image.save()
-
-
-```
-
-### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_25}
+### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_12}
 ``` python
 
 from aspose.imaging import Image, RotateFlipType, Graphics, Color, Pen, Rectangle, Point, Size,\
@@ -4018,6 +3931,93 @@ with open(r"C:\temp\output.png", "w+b") as stream:
 							 brush, PointF(50.0, 400.0))
 		# save all changes.
 		image.save();
+
+```
+
+### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_13}
+``` python
+
+from aspose.imaging import Image, Graphics, Color, GraphicsPath, Figure, RectangleF, PointF, SizeF
+from aspose.imaging import Pen
+from aspose.imaging.sources import StreamSource
+from aspose.imaging.imageoptions import TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from aspose.imaging.shapes import RectangleShape, EllipseShape, PieShape
+
+
+# Create an instance of a file stream
+with open(r"C:\temp\output.tiff", "w+b") as stream:
+	# Create an instance of TiffOptions and set its various properties
+	tiffOptions = TiffOptions(TiffExpectedFormat.DEFAULT)
+	# Set the source for the instance of ImageOptions
+	tiffOptions.source = StreamSource(stream)
+	# Create an instance of Image
+	with Image.create(tiffOptions, 500, 500) as image:
+		# Create and initialize an instance of Graphics class
+		graphics = Graphics(image)
+		# Clear Graphics surface
+		graphics.clear(Color.wheat);
+		# Create an instance of GraphicsPath class
+		graphics_path = GraphicsPath()
+		# Create an instance of Figure class
+		figure = Figure()
+		# Add Shapes to Figure object
+		figure.add_shape(RectangleShape(RectangleF(10.0, 10.0, 300.0, 300.0)))
+		figure.add_shape(EllipseShape(RectangleF(50.0, 50.0, 300.0, 300.0)))
+		figure.add_shape(PieShape(RectangleF(PointF(250.0, 250.0), SizeF(200.0, 200.0)), 0.0, 45.0))
+		# Add Figure object to GraphicsPath
+		graphics_path.add_figure(figure)
+		# Draw path with Pen object of color Black
+		graphics.draw_path(Pen(Color.black, 2.0), graphics_path)
+		# save all changes.
+		image.save()
+
+
+```
+
+### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_14}
+``` python
+
+from aspose.imaging import Image, Graphics, Color, Pen, Rectangle, Point, Size
+from aspose.imaging.brushes import HatchBrush
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.sources import FileCreateSource
+
+# Create an instance of BmpOptions and set its various properties
+bmpOptions = BmpOptions()
+bmpOptions.bits_per_pixel = 24
+# Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
+# Second Boolean parameter determines if the file to be created IsTemporal or not
+bmpOptions.source = FileCreateSource(r"C:\temp\sample.bmp", False)
+# Create an instance of Image at specified Path
+with Image.create(bmpOptions, 500, 500) as image:
+	# Create an instance of Graphics and initialize it with Image object
+	graphics = Graphics(image)
+	# Clear the Graphics surface with White Color
+	graphics.clear(Color.white)
+	#Create an instance of Pen with color Red and width 5
+	pen = Pen(Color.red, 5.0);
+	# Create an instance of HatchBrush and set its properties
+	brush = HatchBrush()
+	brush.background_color = Color.wheat;
+	brush.foreground_color = Color.red;
+	# Create an instance of Pen
+	# initialize it with HatchBrush object and width
+	brusedpen = Pen(brush, 5.0)
+	# Draw Rectangles by specifying Pen object
+	graphics.draw_rectangles(pen, [
+		Rectangle(Point(210, 210), Size(100, 100)),
+		Rectangle(Point(110, 110), Size(100, 100)),
+		Rectangle(Point(310, 310), Size(100, 100)) ])
+
+	# Draw Rectangles by specifying Pen object
+	graphics.draw_rectangles(brusedpen, [
+		Rectangle(Point(310, 110), Size(100, 100)),
+		Rectangle(Point(110, 310), Size(100, 100)) ])
+
+	# save all changes.
+	image.save()
+
 
 ```
 

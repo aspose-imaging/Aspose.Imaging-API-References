@@ -82,18 +82,20 @@ url: /python-net/
 | [aspose.imaging.imageloadoptions](/imaging/python-net/aspose.imaging.imageloadoptions/) | The module contains different file format load options. |
 | [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/) | The module contains classes suitable for export, save or creation of different file formats. |
 | [aspose.imaging.interfaces](/imaging/python-net/aspose.imaging.interfaces/) | The module handles Tiff file format processing. |
-| [aspose.imaging.magicwand](/imaging/python-net/aspose.imaging.magicwand/) |  |
-| [aspose.imaging.magicwand.imagemasks](/imaging/python-net/aspose.imaging.magicwand.imagemasks/) |  |
+| [aspose.imaging.magicwand](/imaging/python-net/aspose.imaging.magicwand/) | The module handles MagicWand processing. |
+| [aspose.imaging.magicwand.imagemasks](/imaging/python-net/aspose.imaging.magicwand.imagemasks/) | The module handles image masks processing. |
 | [aspose.imaging.masking](/imaging/python-net/aspose.imaging.masking/) | The module handles ImageMasking processing. |
 | [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/) | The module handles ImageMasking.Options processing. |
 | [aspose.imaging.masking.result](/imaging/python-net/aspose.imaging.masking.result/) | The module handles ImageMasking.Result processing. |
 | [aspose.imaging.memorymanagement](/imaging/python-net/aspose.imaging.memorymanagement/) | The module contains memory management routines. |
-| [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/) | The module contains Multithreading classes. |
+| [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/) | The module contains multi-threading classes. |
 | [aspose.imaging.palettehelper](/imaging/python-net/aspose.imaging.palettehelper/) | The module contains classes for adjustment of color palette to the image colors and visa versa. |
 | [aspose.imaging.progressmanagement](/imaging/python-net/aspose.imaging.progressmanagement/) | The module contains progress handler classes |
 | [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/) | The module contains different shapes combined from shape segments. |
 | [aspose.imaging.shapesegments](/imaging/python-net/aspose.imaging.shapesegments/) | The module contains different shape segments which combine shapes. |
 | [aspose.imaging.sources](/imaging/python-net/aspose.imaging.sources/) | Module contains different stream sources which are suitable for input or output data flow. |
+| [aspose.imaging.watermark](/imaging/python-net/aspose.imaging.watermark/) | Module contains the classes for watermark remove processing. |
+| [aspose.imaging.watermark.options](/imaging/python-net/aspose.imaging.watermark.options/) | Module contains the watermark options processing classes. |
 | [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/) | The module contains XMP related helper classes and methods. |
 | [aspose.imaging.xmp.schemas.dicom](/imaging/python-net/aspose.imaging.xmp.schemas.dicom/) | The module contains Dicom metadata related helper classes, constants and methods. |
 | [aspose.imaging.xmp.schemas.dublincore](/imaging/python-net/aspose.imaging.xmp.schemas.dublincore/) | The module contains Dublin Core metadata related helper classes, constants and methods. |

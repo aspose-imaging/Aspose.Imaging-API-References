@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/cache/
 
 **Full Name:** aspose.imaging.Cache
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -35,7 +35,7 @@ Gets the allocated disk bytes count.
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
+**[Example # 1](#example_0)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
 
 
 ### Property: allocated_memory_bytes_count {#allocated_memory_bytes_count2}
@@ -44,7 +44,7 @@ Gets the allocated in-memory bytes count.
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
+**[Example # 1](#example_0)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
 
 
 ### Property: cache_type {#cache_type3}
@@ -53,7 +53,7 @@ Gets or sets the cache scheme used.
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
+**[Example # 1](#example_0)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
 
 
 ### Property: exact_reallocate_only {#exact_reallocate_only4}
@@ -62,7 +62,7 @@ Gets or sets a value indicating whether reallocation should be exact or not. If 
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
+**[Example # 1](#example_0)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
 
 
 ### Property: max_disk_space_for_cache {#max_disk_space_for_cache5}
@@ -71,7 +71,7 @@ Gets or sets the maximum available disk space for cache. The value specified is 
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
+**[Example # 1](#example_0)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
 
 
 ### Property: max_memory_for_cache {#max_memory_for_cache6}
@@ -80,11 +80,11 @@ Gets or sets the maximum available memory for cache in memory. The value specifi
 
 **See also:**
 
-**[Example # 1](#example_23)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
+**[Example # 1](#example_0)**: This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.Cac...
 
 
 ## **Examples**
-### This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.CacheType {#example_23}
+### This example demonstrates the use of aspose.imaging.Cache, aspose.imaging.CacheType {#example_0}
 ``` python
 
 import aspose.pycore as aspycore

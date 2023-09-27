@@ -1,7 +1,7 @@
 ---
 title: Pen Class
 type: docs
-weight: 6770
+weight: 6780
 url: /python-net/aspose.imaging/pen/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/pen/
 
 **Inheritance:** TransparencySupporter
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -127,7 +127,7 @@ Initializes a new instance of the Pen class
 
 **See also:**
 
-**[Example # 1](#example_5)**: This example shows the creation and usage Pen objects. The example creates a ...
+**[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 
 ### Method: create_with_brush(brush)  [static] {#create_with_brush_brush_1}
@@ -366,7 +366,7 @@ Translates the local geometric transformation by the specified dimensions in the
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
 
 ## **Examples**
-### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_5}
+### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_14}
 ``` python
 
 from aspose.imaging import Image, Graphics, Color, Pen, Rectangle, Point, Size

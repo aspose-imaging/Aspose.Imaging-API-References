@@ -11,7 +11,7 @@ Enumeration specifies ternary raster operation codes, which define<br/>         
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfTernaryRasterOperation
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

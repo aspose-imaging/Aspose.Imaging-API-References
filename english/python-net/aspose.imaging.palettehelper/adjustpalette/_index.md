@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.palettehelper/adjustpalette/
 
 **Full Name:** aspose.imaging.palettehelper.AdjustPalette
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

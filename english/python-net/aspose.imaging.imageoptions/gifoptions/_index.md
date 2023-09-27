@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -90,7 +90,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_10}
+### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_7}
 ``` python
 
 from aspose.pycore import as_of
@@ -135,7 +135,7 @@ with strm_ext.create_memory_stream() as stream:
 
 ```
 
-### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_27}
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
 ``` python
 
 from aspose.imaging import Image

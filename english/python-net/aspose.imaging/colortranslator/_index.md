@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colortranslator/
 
 **Full Name:** aspose.imaging.ColorTranslator
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Methods**
 | **Name** | **Description** |

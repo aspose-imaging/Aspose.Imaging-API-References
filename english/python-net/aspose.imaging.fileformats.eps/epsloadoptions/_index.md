@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsloadoptions/
 
 **Inheritance:** LoadOptions
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

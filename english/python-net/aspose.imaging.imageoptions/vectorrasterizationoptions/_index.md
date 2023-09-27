@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -35,7 +35,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 | page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
 | page_width | float | r/w | Gets or sets the page width. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
-| positioning | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
+| [positioning](#positioning1) | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | smoothing_mode | [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode) | r/w | Gets or sets the smoothing mode. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
@@ -57,6 +57,15 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ```
 
 Initializes a new instance of the VectorRasterizationOptions class
+
+### Property: positioning {#positioning1}
+
+Gets or sets the positioning.
+
+**See also:**
+
+**[Example # 1](#example_65)**: The following example shows how to set a memory limit when loading a CMX imag...
+
 
 ### Method: clone() {#clone__1}
 
@@ -88,4 +97,27 @@ Copies to.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
+
+## **Examples**
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_65}
+``` python
+from Aspose.Imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes
+from Aspose.Imaging.ImageOptions import PngOptions, CmxRasterizationOptions
+
+directory = "c:\\aspose.imaging\\issues\\net\\3419\\"
+	
+# Setting a memory limit of 10 megabytes for a target loaded image.
+load_options = new Aspose.Imaging.LoadOptions()
+load_options.buffer_size_hint = 10
+with Image.load(directory + "example.cmx", load_options) as image:
+	png_options = PngOptions()
+	cmx_spec = CmxRasterizationOptions()
+	cmx_spec.text_renderingHint = TextRenderingHint.SINGLE_BIT_PER_PIXEL
+	cmx_spec.smoothing_mode = SmoothingMode.ANTI_ALIAS
+	cmx_spec.positioning = PositioningTypes.DEFINED_BY_DOCUMENT
+	png_options.vector_rasterization_options = cmx_spec
+	image.save(directory + "output.png", png_options)
+
+
+```
 

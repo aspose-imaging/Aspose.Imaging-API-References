@@ -1,7 +1,7 @@
 ---
 title: FontStyle Enumeration
 type: docs
-weight: 10510
+weight: 10550
 url: /python-net/aspose.imaging/fontstyle/
 ---
 
@@ -11,7 +11,7 @@ Specifies style information applied to text.
 
 **Full Name:** aspose.imaging.FontStyle
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

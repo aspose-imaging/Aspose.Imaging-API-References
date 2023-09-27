@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.extensions/graphicspathextensions/
 
 **Full Name:** aspose.imaging.extensions.GraphicsPathExtensions
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Methods**
 | **Name** | **Description** |

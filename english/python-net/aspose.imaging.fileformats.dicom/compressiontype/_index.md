@@ -11,7 +11,7 @@ The DICOM image compression type.
 
 **Full Name:** aspose.imaging.fileformats.dicom.CompressionType
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

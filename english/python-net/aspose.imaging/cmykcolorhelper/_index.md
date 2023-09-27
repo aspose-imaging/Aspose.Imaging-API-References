@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/cmykcolorhelper/
 
 **Full Name:** aspose.imaging.CmykColorHelper
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Methods**
 | **Name** | **Description** |
@@ -302,6 +302,12 @@ Gets the cyan component value.
 | int | The cyan component value. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_64)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+
+
 ### Method: get_k(cmyk)  [static] {#get_k_cmyk_11}
 
 
@@ -322,6 +328,12 @@ Gets the black component value.
 | Type | Description |
 | :- | :- |
 | int | The black component value. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_64)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_m(cmyk)  [static] {#get_m_cmyk_12}
@@ -346,6 +358,12 @@ Gets the magenta component value.
 | int | The magenta component value. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_64)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+
+
 ### Method: get_y(cmyk)  [static] {#get_y_cmyk_13}
 
 
@@ -366,6 +384,12 @@ Gets the yellow component value.
 | Type | Description |
 | :- | :- |
 | int | The yellow component value. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_64)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: to_argb(cmyk_pixel)  [static] {#to_argb_cmyk_pixel_14}
@@ -706,6 +730,12 @@ The conversion from ARGB colors to CMYK colors.
 | int | The CMYK colors presented as 32-bit integer values. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_64)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+
+
 ### Method: to_cmyk(pixel)  [static] {#to_cmyk_pixel_29}
 
 
@@ -726,6 +756,12 @@ The conversion from ARGB colors to CMYK colors.
 | Type | Description |
 | :- | :- |
 | int | The CMYK colors presented as 32-bit integer values. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_48)**: The following example fills the central area of a raster image with black pix...
 
 
 ### Method: to_cmyk(pixels)  [static] {#to_cmyk_pixels_30}
@@ -1283,4 +1319,54 @@ Converts RGB to CMYKA (with alpha) using custom ICC profiles.
 | :- | :- |
 | int |  |
 
+
+## **Examples**
+### The following example fills the central area of a raster image with black pixels using the aspose.imaging.RasterImage.save_cmyk_32_pixels method. {#example_48}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Rectangle, Color, CmykColorHelper
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Get an integer representation of black in the CMYK color space.
+	blackCmyk = CmykColorHelper.to_cmyk(Color.black)
+	# The black square.
+	pixel_count = (rasterImage.width // 2) * (rasterImage.height // 2)
+	pixels = [blackCmyk] * pixel_count
+	# Draw the black square at the center of the image.
+	area = Rectangle(rasterImage.width // 4, rasterImage.height // 4, rasterImage.width // 2, rasterImage.height // 2)
+	rasterImage.save_cmyk_32_pixels(area, pixels)
+
+	rasterImage.save(join_path(directory, "sample.SaveCmyk32Pixels.png"))
+
+
+```
+
+### The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles. {#example_64}
+``` python
+
+from Aspose.Imaging import Color, CmykColorHelper
+
+rgbColors = [Color.red, Color.green, Color.blue]
+
+print("Convert RGB to CMYK without using ICC profiles.")
+for rgbColor in rgbColors:
+	cmyk = CmykColorHelper.to_cmyk(rgbColor)
+	c = CmykColorHelper.get_c(cmyk)
+	m = CmykColorHelper.get_m(cmyk)
+	y = CmykColorHelper.get_y(cmyk)
+	k = CmykColorHelper.get_k(cmyk)
+	print(f"RGB({rgbColor.r},{rgbColor.g},{rgbColor.b})\t\t=> CMYK({c},{m},{y},{k})")
+
+# The output looks like this:
+# Convert RGB to CMYK without using ICC profiles.
+# RGB(255,0,0)		=> CMYK(0,255,255,0)
+# RGB(0,128,0)		=> CMYK(255,0,255,127)
+# RGB(0,0,255)		=> CMYK(255,255,0,0)
+
+
+```
 

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 | :- | :- | :- | :- |
 | [bits_per_pixel](#bits_per_pixel1) | int | r/w | Gets or sets the image bits per pixel count. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| compression | [BitmapCompression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) | r/w | Gets or sets the compression type. The default compression type is [BitmapCompression.BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/), that allows saving a [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) with transparency. |
+| [compression](#compression2) | [BitmapCompression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) | r/w | Gets or sets the compression type. The default compression type is [BitmapCompression.BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/), that allows saving a [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) with transparency. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
@@ -70,7 +70,16 @@ Gets or sets the image bits per pixel count.
 
 **See also:**
 
-**[Example # 1](#example_26)**: The following example shows how to set a palette to a BMP image to reduce its...
+**[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
+
+
+### Property: compression {#compression2}
+
+Gets or sets the compression type. The default compression type is [BitmapCompression.BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/), that allows saving a [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) with transparency.
+
+**See also:**
+
+**[Example # 1](#example_66)**: The example shows how to export a BMP with the RGB compression type.
 
 
 ### Method: clone() {#clone__1}
@@ -90,7 +99,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_17}
+### This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case. {#example_4}
 ``` python
 
 from aspose.imaging import Image
@@ -114,7 +123,30 @@ with BmpOptions() as bmp_options:
 
 ```
 
-### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_26}
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions, JpegOptions, PngOptions, TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+#Load an existing gif image as an instance of Image class
+with Image.load(path_join(directory, "sample.gif")) as image:
+	# Export to BMP file format using the default options
+	image.save(path_join(directory, "output.bmp"), BmpOptions())
+	# Export to JPEG file format using the default options
+	image.save(path_join(directory, "output.jpg"), JpegOptions())
+	# Export to PNG file format using the default options
+	image.save(path_join(directory, "output.png"), PngOptions())
+	# Export to TIFF file format using the default options
+	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
+
+
+```
+
+### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_20}
 ``` python
 
 from aspose.pycore import as_of
@@ -154,25 +186,22 @@ with BmpImage(100, 100) as bmpImage:
 
 ```
 
-### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_27}
+### The example shows how to export a BMP with the RGB compression type. {#example_66}
 ``` python
 
 from aspose.imaging import Image
-from aspose.imaging.imageoptions import BmpOptions, JpegOptions, PngOptions, TiffOptions
-from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
-from os.path import join as path_join
+from aspose.imaging.fileformats.bmp import BitmapCompression
+from aspose.imaging.imageoptions import BmpOptions
 
-directory = "c:\\temp\\"
-#Load an existing gif image as an instance of Image class
-with Image.load(path_join(directory, "sample.gif")) as image:
-	# Export to BMP file format using the default options
-	image.save(path_join(directory, "output.bmp"), BmpOptions())
-	# Export to JPEG file format using the default options
-	image.save(path_join(directory, "output.jpg"), JpegOptions())
-	# Export to PNG file format using the default options
-	image.save(path_join(directory, "output.png"), PngOptions())
-	# Export to TIFF file format using the default options
-	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
+source_path = "input.png"
+output_path = "output.png"
+# Load a PNG image from a file.
+with Image.load(source_path) as pngImage:
+	# BMP image is saved with transparency support by default, that is achieved by using the BitmapCompression.BITFIELDS compression method. 
+	# To save a BMP image with the RGB compression method, the BmpOptions with the `compression` property set to BitmapCompression.RGB should be specified.
+	bmp_options = BmpOptions()
+	bmp_options.compression = BitmapCompression.RGB
+	pngImage.save(output_path, bmp_options)
 
 
 ```

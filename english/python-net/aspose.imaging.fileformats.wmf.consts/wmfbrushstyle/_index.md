@@ -11,7 +11,7 @@ The BrushStyle Enumeration specifies the different possible brush types<br/>    
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfBrushStyle
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

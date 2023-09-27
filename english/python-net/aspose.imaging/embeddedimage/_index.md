@@ -1,7 +1,7 @@
 ---
 title: EmbeddedImage Class
 type: docs
-weight: 1520
+weight: 1530
 url: /python-net/aspose.imaging/embeddedimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/embeddedimage/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

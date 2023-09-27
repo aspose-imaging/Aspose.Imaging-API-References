@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/
 ---
 
 
-
+The module handles image masks processing.
 
 ## **Classes**
 | **Class** | **Description** |

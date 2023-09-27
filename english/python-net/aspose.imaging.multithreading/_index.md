@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.multithreading/
 ---
 
 
-The module contains Multithreading classes.
+The module contains multi-threading classes.
 
 ## **Classes**
 | **Class** | **Description** |

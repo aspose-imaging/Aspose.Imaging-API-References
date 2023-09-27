@@ -1,0 +1,14 @@
+---
+title: aspose.imaging.watermark
+type: docs
+weight: 950
+url: /python-net/aspose.imaging.watermark/
+---
+
+
+Module contains the classes for watermark remove processing.
+
+## **Classes**
+| **Class** | **Description** |
+| :- | :- |
+| [WatermarkRemover](/imaging/python-net/aspose.imaging.watermark/watermarkremover/) |  |

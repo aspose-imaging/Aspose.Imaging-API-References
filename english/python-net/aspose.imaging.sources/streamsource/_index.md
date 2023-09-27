@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.sources/streamsource/
 
 **Inheritance:** Source
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -59,7 +59,7 @@ Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imag
 
 **See also:**
 
-**[Example # 1](#example_10)**: This example shows how to load a pixels information in an array of Color, man...
+**[Example # 1](#example_7)**: This example shows how to load a pixels information in an array of Color, man...
 
 
 ### Constructor: StreamSource(stream, dispose_stream) {#StreamSource_stream_dispose_stream_3}
@@ -81,7 +81,7 @@ Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imag
 
 **See also:**
 
-**[Example # 1](#example_15)**: This example demonstrates the use of file stream to Create a new Image file (...
+**[Example # 1](#example_5)**: This example demonstrates the use of file stream to Create a new Image file (...
 
 
 ### Method: get_stream_container() {#get_stream_container__1}
@@ -101,7 +101,27 @@ Gets the stream container.
 
 
 ## **Examples**
-### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_10}
+### This example demonstrates the use of file stream to Create a new Image file (a JPEG type) {#example_5}
+``` python
+
+from aspose.imaging.imageoptions import JpegOptions
+from aspose.imaging.sources import StreamSource
+
+# Creates an instance of JpegOptions and set its various properties
+with JpegOptions() as jpegOptions:
+	# Create an instance of stream
+	with open(r"C:\temp\sample.jpeg", "w+b") as stream:
+		#Define the source property for the instance of JpegOptions
+		#Second boolean parameter determines if the Stream is disposed once get out of scope
+		jpegOptions.source = StreamSource(stream, True)
+		#Creates an instance of Image and call Create method with JpegOptions as parameter to initialize the Image object   
+		with Image.create(jpegOptions, 500, 500) as image:
+			#do some image processing
+			pass
+
+```
+
+### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_7}
 ``` python
 
 from aspose.pycore import as_of
@@ -146,27 +166,7 @@ with strm_ext.create_memory_stream() as stream:
 
 ```
 
-### This example demonstrates the use of file stream to Create a new Image file (a JPEG type) {#example_15}
-``` python
-
-from aspose.imaging.imageoptions import JpegOptions
-from aspose.imaging.sources import StreamSource
-
-# Creates an instance of JpegOptions and set its various properties
-with JpegOptions() as jpegOptions:
-	# Create an instance of System.IO.Stream
-	with open(r"C:\temp\sample.jpeg", "w+b") as stream:
-		#Define the source property for the instance of JpegOptions
-		#Second boolean parameter determines if the Stream is disposed once get out of scope
-		jpegOptions.source = StreamSource(stream, True)
-		#Creates an instance of Image and call Create method with JpegOptions as parameter to initialize the Image object   
-		with Image.create(jpegOptions, 500, 500) as image:
-			#do some image processing
-			pass
-
-```
-
-### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_25}
+### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_12}
 ``` python
 
 from aspose.imaging import Image, RotateFlipType, Graphics, Color, Pen, Rectangle, Point, Size,\

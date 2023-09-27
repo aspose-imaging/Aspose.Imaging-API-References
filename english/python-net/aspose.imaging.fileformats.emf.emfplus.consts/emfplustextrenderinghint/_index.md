@@ -11,7 +11,7 @@ The TextRenderingHint enumeration defines types of text hinting and anti-aliasin
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusTextRenderingHint
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

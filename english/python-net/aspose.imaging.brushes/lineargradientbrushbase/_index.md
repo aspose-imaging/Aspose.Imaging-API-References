@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.brushes/lineargradientbrushbase/
 
 **Inheritance:** TransformBrush
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

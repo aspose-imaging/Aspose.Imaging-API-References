@@ -11,7 +11,7 @@ Defines a way in which an n-bit value is converted to an 8-bit value.
 
 **Full Name:** aspose.imaging.fileformats.jpeg.SampleRoundingMode
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

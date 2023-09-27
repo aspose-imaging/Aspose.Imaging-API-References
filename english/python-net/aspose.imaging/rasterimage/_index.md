@@ -1,7 +1,7 @@
 ---
 title: RasterImage Class
 type: docs
-weight: 6960
+weight: 6970
 url: /python-net/aspose.imaging/rasterimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/rasterimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, Image
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -27,7 +27,7 @@ url: /python-net/aspose.imaging/rasterimage/
 | data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | r | Gets the object's data stream. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets a value of file format |
-| has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
+| [has_alpha](#has_alpha1) | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
 | height | int | r | Gets the image height. |
@@ -37,9 +37,9 @@ url: /python-net/aspose.imaging/rasterimage/
 | is_cached | bool | r | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is available. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
-| premultiply_components | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
+| [premultiply_components](#premultiply_components2) | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
 | raw_custom_color_converter | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter) | r/w | Gets or sets the custom color converter |
-| raw_data_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the raw data format. |
+| [raw_data_format](#raw_data_format3) | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the raw data format. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings) | r | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 | raw_fallback_index | int | r/w | Gets or sets the fallback index to use when palette index is out of bounds |
 | raw_indexed_color_converter | [IIndexedColorConverter](/imaging/python-net/aspose.imaging/iindexedcolorconverter) | r/w | Gets or sets the indexed color converter |
@@ -169,6 +169,33 @@ url: /python-net/aspose.imaging/rasterimage/
 | [write_scan_line(scan_line_index, pixels)](#write_scan_line_scan_line_index_pixels_106) | Writes the whole scan line to the specified scan line index. |
 
 
+### Property: has_alpha {#has_alpha1}
+
+Gets a value indicating whether this instance has alpha.
+
+**See also:**
+
+**[Example # 1](#example_38)**: The following example loads raster images and prints information about raw da...
+
+
+### Property: premultiply_components {#premultiply_components2}
+
+Gets or sets a value indicating whether the image components must be premultiplied.
+
+**See also:**
+
+**[Example # 1](#example_37)**: The following example creates a new raster image, saves the specified semi-tr...
+
+
+### Property: raw_data_format {#raw_data_format3}
+
+Gets the raw data format.
+
+**See also:**
+
+**[Example # 1](#example_38)**: The following example loads raster images and prints information about raw da...
+
+
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
 
 
@@ -183,6 +210,12 @@ Adjust of a brightness for image.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | brightness | int | Brightness value. |
+
+
+**See also:**
+
+**[Example # 1](#example_57)**: The following example performs brightness correction of an image.
+
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_2}
 
@@ -199,6 +232,12 @@ Image contrasting
 | :- | :- | :- |
 | contrast | float | Contrast value (in range [-100; 100]) |
 
+
+**See also:**
+
+**[Example # 1](#example_58)**: The following example performs contrast correction of an image.
+
+
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_3}
 
 
@@ -213,6 +252,12 @@ Gamma-correction of an image.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | gamma | float | Gamma for red, green and blue channels coefficient |
+
+
+**See also:**
+
+**[Example # 1](#example_55)**: The following example performs gamma-correction of an image.
+
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_4}
 
@@ -230,6 +275,12 @@ Gamma-correction of an image.
 | gamma_red | float | Gamma for red channel coefficient |
 | gamma_green | float | Gamma for green channel coefficient |
 | gamma_blue | float | Gamma for blue channel coefficient |
+
+
+**See also:**
+
+**[Example # 1](#example_56)**: The following example performs gamma-correction of an image applying differen...
+
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_5}
 
@@ -262,6 +313,12 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | brightness_difference | double | The brightness difference between pixel and the average of an s x s window of pixels centered around this pixel. |
 | window_size | int | The size of s x s window of pixels centered around this pixel |
 
+
+**See also:**
+
+**[Example # 1](#example_53)**: The following example binarizes a raster image with Bradley's adaptive thresh...
+
+
 ### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_7}
 
 
@@ -276,6 +333,12 @@ Binarization of an image with predefined threshold
 | Parameter | Type | Description |
 | :- | :- | :- |
 | threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
+
+
+**See also:**
+
+**[Example # 1](#example_51)**: The following example binarizes a raster image with the predefined threshold....
+
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_8}
 
@@ -579,6 +642,12 @@ Crop image with shifts.
 | top_shift | int | The top shift. |
 | bottom_shift | int | The bottom shift. |
 
+
+**See also:**
+
+**[Example # 1](#example_50)**: The following example crops a raster image. The cropping area is specified vi...
+
+
 ### Method: crop(rectangle) {#crop_rectangle_22}
 
 
@@ -593,6 +662,12 @@ Crops the specified rectangle.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle. |
+
+
+**See also:**
+
+**[Example # 1](#example_49)**: The following example crops a raster image. The cropping area is be specified...
+
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_23}
 
@@ -609,6 +684,12 @@ Performs dithering on the current image.
 | :- | :- | :- |
 | dithering_method | [DitheringMethod](/imaging/python-net/aspose.imaging/ditheringmethod) | The dithering method. |
 | bits_count | int | The final bits count for dithering. |
+
+
+**See also:**
+
+**[Example # 1](#example_39)**: The following example loads a raster image and performs threshold and Floyd d...
+
 
 ### Method: dither(dithering_method, bits_count, custom_palette) {#dither_dithering_method_bits_count_custom_palette_24}
 
@@ -643,6 +724,12 @@ Filters the specified rectangle.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle. |
 | options | [FilterOptionsBase](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/) | The options. |
 
+
+**See also:**
+
+**[Example # 1](#example_59)**: The following example applies various types of filters to a raster image.
+
+
 ### Method: get_argb_32_pixel(x, y) {#get_argb_32_pixel_x_y_26}
 
 
@@ -664,6 +751,14 @@ Gets an image 32-bit ARGB pixel.
 | Type | Description |
 | :- | :- |
 | int | The 32-bit ARGB pixel for the specified location. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_36)**: The following example shows how image caching affects performance. In general...
+
+**[Example # 2](#example_40)**: The following example loads a raster image and obtains the color of an arbitr...
 
 
 ### Method: get_default_argb_32_pixels(rectangle) {#get_default_argb_32_pixels_rectangle_27}
@@ -942,6 +1037,12 @@ Gets an image pixel.
 | [Color](/imaging/python-net/aspose.imaging/color) | The pixel color for the specified location. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_41)**: The following example loads a raster image and obtains the color of an arbitr...
+
+
 ### Method: get_proportional_height(width, height, new_width)  [static] {#get_proportional_height_width_height_new_width_40}
 
 
@@ -1118,6 +1219,12 @@ Loads 32-bit ARGB pixels.
 | int | The loaded 32-bit ARGB pixels array. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_43)**: The following example shows how to load and process pixels of a raster image....
+
+
 ### Method: load_argb_64_pixels(rectangle) {#load_argb_64_pixels_rectangle_48}
 
 
@@ -1138,6 +1245,12 @@ Loads 64-bit ARGB pixels.
 | Type | Description |
 | :- | :- |
 | long | The loaded 64-bit ARGB pixels array. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_44)**: The following example shows how to load and process pixels of a raster image....
 
 
 ### Method: load_cmyk_32_pixels(rectangle) {#load_cmyk_32_pixels_rectangle_49}
@@ -1257,7 +1370,9 @@ Loads pixels.
 
 **See also:**
 
-**[Example # 1](#example_10)**: This example shows how to load a pixels information in an array of Color, man...
+**[Example # 1](#example_7)**: This example shows how to load a pixels information in an array of Color, man...
+
+**[Example # 2](#example_45)**: The following example shows how to load and process pixels of a raster image....
 
 
 ### Method: load_raw_data(rectangle, dest_image_bounds, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_dest_image_bounds_raw_data_settings_raw_data_loader_55}
@@ -1520,6 +1635,12 @@ Resizes the image.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype) | The resize type. |
 
+
+**See also:**
+
+**[Example # 1](#example_61)**: This example loads a raster image and resizes it using various resizing methods.
+
+
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_69}
 
 
@@ -1536,6 +1657,12 @@ Resizes the image with extended options.
 | new_width | int | The new width. |
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings) | The resize settings. |
+
+
+**See also:**
+
+**[Example # 1](#example_62)**: This example loads a raster image and resizes it using various resizing setti...
+
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_70}
 
@@ -1872,6 +1999,12 @@ Saves the 32-bit ARGB pixels.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to save pixels to. |
 | pixels | int | The 32-bit ARGB pixels array. |
 
+
+**See also:**
+
+**[Example # 1](#example_46)**: The following example fills the central area of a raster image with black pix...
+
+
 ### Method: save_cmyk_32_pixels(rectangle, pixels) {#save_cmyk_32_pixels_rectangle_pixels_91}
 
 
@@ -1887,6 +2020,12 @@ Saves the pixels.
 | :- | :- | :- |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to save pixels to. |
 | pixels | int | The CMYK pixels presented as the 32-bit integer values. |
+
+
+**See also:**
+
+**[Example # 1](#example_48)**: The following example fills the central area of a raster image with black pix...
+
 
 ### Method: save_cmyk_pixels(rectangle, pixels) {#save_cmyk_pixels_rectangle_pixels_92}
 
@@ -1923,7 +2062,9 @@ Saves the pixels.
 
 **See also:**
 
-**[Example # 1](#example_10)**: This example shows how to load a pixels information in an array of Color, man...
+**[Example # 1](#example_7)**: This example shows how to load a pixels information in an array of Color, man...
+
+**[Example # 2](#example_47)**: The following example fills the central area of a raster image with black pix...
 
 
 ### Method: save_raw_data(data, data_offset, rectangle, raw_data_settings) {#save_raw_data_data_data_offset_rectangle_raw_data_settings_94}
@@ -2042,6 +2183,12 @@ Sets an image 32-bit ARGB pixel for the specified position.
 | y | int | The pixel y location. |
 | argb_32_color | int | The 32-bit ARGB pixel for the specified position. |
 
+
+**See also:**
+
+**[Example # 1](#example_42)**: The following example loads a raster image, and sets the color of an arbitrar...
+
+
 ### Method: set_palette(palette, update_colors) {#set_palette_palette_update_colors_101}
 
 
@@ -2074,6 +2221,12 @@ Sets an image pixel for the specified position.
 | x | int | The pixel x location. |
 | y | int | The pixel y location. |
 | color | [Color](/imaging/python-net/aspose.imaging/color) | The pixel color for the specified position. |
+
+
+**See also:**
+
+**[Example # 1](#example_42)**: The following example loads a raster image, and sets the color of an arbitrar...
+
 
 ### Method: set_resolution(dpi_x, dpi_y) {#set_resolution_dpi_x_dpi_y_103}
 
@@ -2140,7 +2293,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_10}
+### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_7}
 ``` python
 
 from aspose.pycore import as_of
@@ -2182,6 +2335,601 @@ with strm_ext.create_memory_stream() as stream:
 	with open(r"C:\temp\output.gif", "wb") as fileStream:
 		fileStream.write(stream.read())
 }
+
+```
+
+### The following example shows how image caching affects performance. In general case, reading cached data is performed faster than reading non-cached data. {#example_36}
+``` python
+from aspose.imaging import Image, Rectangle
+from aspose.imaging.imageoptions import PngOptions
+from os.path import join as path_join
+
+directory = r"c:\temp"
+
+# Load an image from a PNG file.
+with Image.load(path_join(directory, "sample.png")) as image:
+	# Cache all pixel data so that no additional data loading will be performed from the underlying data stream
+	image.cache_daata()
+
+	start_time = timedelta()
+
+	# Reading all pixels is pretty fast.
+	rasterImage = as_of(image, RasterImage)
+	for y in range(image.height):
+		for x in range(image.width):
+			color = rasterImage.get_argb_32_pixel(x, y)
+			
+	end_time = timedelta()
+	time = (end_time.microseconds - start_time.microseconds) / 1000000
+	print(f"Reading all cached pixels took {time} ms.")
+
+
+# Load an image from a PNG file
+with Image.load(path_join(directory, "sample.png")) as image:
+	start_time = timedelta()
+
+	# Reading all pixels is not as fast as when caching
+	rasterImage = as_of(image, RasterImage)
+	for y in range(image.height):
+		for x in range(image.width):
+			color = rasterImage.get_argb_32_pixel(x, y)
+
+	end_time = timedelta()
+	time = (end_time.microseconds - start_time.microseconds) / 1000000
+	print(f"Reading all pixels without preliminary caching took {time} ms.")
+
+# The output may look like this:
+# Reading all cached pixels took 1500 ms.
+# Reading all pixels without preliminary caching took 150000 ms.
+
+
+```
+
+### The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form. {#example_37}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Color
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.sources import StreamSource
+from aspose.imaging.fileformats.png import PngColorType
+
+image_width = 3
+image_height = 2
+
+colors = [
+	Color.from_argb(127, 255, 0, 0),
+	Color.from_argb(127, 0, 255, 0),
+	Color.from_argb(127, 0, 0, 255),
+	Color.from_argb(127, 255, 255, 0),
+	Color.from_argb(127, 255, 0, 255),
+	Color.from_argb(127, 0, 255, 255)
+]
+
+create_options = PngOptions()
+create_options.source = StreamSource()
+create_options.color_type = PngColorType.TRUECOLOR_WITH_ALPHA
+
+with Image.create(create_options, image_width, image_height) as image:
+	raster_image = as_of(image, RasterImage)
+
+	# Save pixels for the whole image.
+	raster_image.save_pixels(raster_image.bounds, colors)
+
+	# The pixels are stored in the original image in the non-premultiplied form.
+	# Need to specify the corresponding option explicitly to obtain premultiplied color components.
+	# The premultiplied color components are calculated by the formulas:
+	# red = original_red * alpha / 255;
+	# green = original_green * alpha / 255;
+	# blue = original_blue * alpha / 255;
+	raster_image.premultiply_components = True
+	premultiplied_colors = raster_image.load_pixels(raster_image.bounds)
+	for i in range(len(colors)):
+		print(f"Original color: {colors[i]}")
+		print(f"Premultiplied color: {premultiplied_colors[i]}")
+
+
+```
+
+### The following example loads raster images and prints information about raw data format and alpha channel. {#example_38}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+
+# The image files to load.
+fileNames = (r"c:\temp\sample.bmp", r"c:\temp\alpha.png")
+
+for fileName in fileNames:
+	with Image.load(fileName) as image:
+		raster_image = as_of(image, RasterImage)
+		print(f"ImageFile={fileName}, FileFormat={raster_image.raw_data_format}, HasAlpha={raster_image.has_alpha}")
+
+# The output may look like this:
+# ImageFile=c:\temp\sample.bmp, FileFormat=Rgb24Bpp, used channels: 8,8,8, HasAlpha=False
+# ImageFile=c:\temp\alpha.png, FileFormat=RGBA32Bpp, used channels: 8,8,8,8, HasAlpha=True
+
+```
+
+### The following example loads a raster image and performs threshold and Floyd dithering using different palette depth. {#example_39}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, DitheringMethod
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Perform threshold dithering using 4-bit color palette which contains 16 colors.
+	# The more bits specified the higher quality and the bigger size of the output image.
+	# Note that only 1-bit, 4-bit and 8-bit palettes are supported at the moment.
+	rasterImage.dither(DitheringMethod.THRESHOLD_DITHERING, 4)
+
+	rasterImage.save(join_path(directory, "sample.ThresholdDithering4.png"))
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+
+	# Perform Floyd dithering using 1-bit color palette which contains only 2 colors - black and white.
+	# The more bits specified the higher quality and the bigger size of the output image.
+	# Note that only 1-bit, 4-bit and 8-bit palettes are supported at the moment.
+	rasterImage.dither(DitheringMethod.FLOYD_STEINBERG_DITHERING, 1)
+	rasterImage.save(join_path(directory, "sample.FloydSteinbergDithering1.png"))
+
+
+```
+
+### The following example loads a raster image and obtains the color of an arbitrary pixel represented as a 32-bit integer value. {#example_40}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+
+with Image.load("sample.png") as image:
+	rasterImage = as_of(image, RasterImage)
+
+	# Get an integer representation of the color of the top-left pixel of the image.
+	color = rasterImage.get_argb_32_pixel(0, 0)
+
+	# To obtain the values of the individual color components, shift the color value by a corresponding number of bits
+	alpha = (color >> 24) & 0xff
+	red = (color >> 16) & 0xff
+	green = (color >> 8) & 0xff
+	blue = (color >> 0) & 0xff
+
+	print(f"The color of the pixel(0,0) is A={alpha},R={red},G={green},B={blue}")
+
+
+```
+
+### The following example loads a raster image and obtains the color of an arbitrary pixel. {#example_41}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+
+with Image.load("sample.png") as image:
+	rasterImage = as_of(image, RasterImage)
+	# Get the color of the top-left pixel of the image.
+	color = rasterImage.get_pixel(0, 0)
+
+	# Obtain the values of the individual color components
+	alpha = color.a
+	red = color.r
+	green = color.g
+	blue = color.b
+
+	print(f"The color of the pixel(0,0) is A={alpha},R={red},G={green},B={blue}")
+
+
+```
+
+### The following example loads a raster image, and sets the color of an arbitrary pixel. {#example_42}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Color
+
+with Image.load("sample.png") as image:
+	rasterImage = as_of(image, RasterImage)
+	# Sets the color of the top-left pixel.
+	rasterImage.set_argb_32_pixel(0, 0, Color.aqua.to_argb())
+	# Another way is to pass an instance of the Aspose.Imaging.Color directly
+	rasterImage.set_pixel(0, 0, Color.aqua)
+
+
+```
+
+### The following example shows how to load and process pixels of a raster image. The pixels are represented as 32-bit integer values. For example, consider a problem of counting of fully transparent pixels of an image. {#example_43}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+
+with Image.load("alpha.png") as image:
+	rasterImage = as_of(image, RasterImage)
+
+	# Load pixels for the whole image. Any rectangular part of the image can be specified as a parameter of the Aspose.Imaging.RasterImage.LoadArgb32Pixels method.
+	pixels = rasterImage.load_argb_32_pixels(rasterImage.bounds)
+
+	count = 0
+	for pixel in pixels:
+		alpha = (pixel >> 24) & 0xff
+		if alpha == 0:
+			count += 1
+
+	print(f"The number of fully transparent pixels is {count}")
+	print(f"The total number of pixels is {image.width * image.height}")
+
+
+```
+
+### The following example shows how to load and process pixels of a raster image. The pixels are represented as 64-bit integer values. For example, consider a problem of counting of fully transparent pixels of an image. {#example_44}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+
+with Image.load("16rgba.png") as image:
+	rasterImage = as_of(image, RasterImage)
+	# Load pixels for the whole image. Any rectangular part of the image can be specified as a parameter of the aspose.imaging.RasterImage.load_argb_64_pixels method.
+	# Note that the image itself must have 16 bits per sample, because aspose.imaging.RasterImage.load_argb_64_pixels doesn't work with 8 bit per sample.
+	# In order to work with 8 bits per sample please use the good old aspose.imaging.RasterImage.load_argb_64_pixels method.
+	pixels = rasterImage.load_argb_64_pixels(rasterImage.bounds)
+
+	count = 0
+	for pixel in pixels:
+		# Note that all color components including alpha are represented by 16-bit values, so their allowed values are in the range [0, 63535].
+		alpha = (pixel >> 48) & 0xffff
+		if alpha == 0:
+			count += 1
+
+	print(f"The number of fully transparent pixels is {count}")
+	print(f"The total number of pixels is {image.width * image.height}")
+
+
+```
+
+### The following example shows how to load and process pixels of a raster image. For example, consider a problem of counting of fully transparent pixels of an image. {#example_45}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+
+with Image.load("alpha.png") as image:
+	rasterImage = as_of(image, RasterImage)
+	# Load pixels for the whole image. Any rectangular part of the image can be specified as a parameter of the aspose.imaging.RasterImage.load_pixels method.
+	pixels = rasterImage.load_pixels(rasterImage.bounds)
+
+	count = 0
+	for pixel in pixels:
+		if pixel.a == 0:
+			count += 1
+
+	print(f"The number of fully transparent pixels is {count}")
+	print(f"The total number of pixels is {image.width * image.height}")
+
+
+```
+
+### The following example fills the central area of a raster image with black pixels using the aspose.imaging.RasterImage.save_argb_32_pixels method. {#example_46}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Rectangle, Color
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# The black square
+	pixel_count = ((rasterImage.width // 2) * (rasterImage.height // 2))
+	black_color = Color.black.to_argb()
+	pixels = [black_color] * pixel_count
+
+	# Draw the black square at the center of the image.
+	area = Rectangle(rasterImage.width // 4, rasterImage.height // 4, rasterImage.width // 2, rasterImage.height // 2)
+	rasterImage.save_argb_32_pixels(area, pixels)
+
+	rasterImage.save(join_path(directory, "sample.SaveArgb32Pixels.png"))
+
+
+```
+
+### The following example fills the central area of a raster image with black pixels using the aspose.imaging.RasterImage.save_pixels method. {#example_47}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Rectangle, Color
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# The black square
+	pixel_count = ((rasterImage.width // 2) * (rasterImage.height // 2))
+	black_color = Color.black
+	pixels = [black_color] * pixel_count
+
+	# Draw the black square at the center of the image.
+	area = Rectangle(rasterImage.width // 4, rasterImage.height // 4, rasterImage.width // 2, rasterImage.height // 2)
+	rasterImage.save_pixels(area, pixels)
+
+	rasterImage.save(join_path(directory, "sample.SavePixels.png"))
+
+
+```
+
+### The following example fills the central area of a raster image with black pixels using the aspose.imaging.RasterImage.save_cmyk_32_pixels method. {#example_48}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Rectangle, Color, CmykColorHelper
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Get an integer representation of black in the CMYK color space.
+	blackCmyk = CmykColorHelper.to_cmyk(Color.black)
+	# The black square.
+	pixel_count = (rasterImage.width // 2) * (rasterImage.height // 2)
+	pixels = [blackCmyk] * pixel_count
+	# Draw the black square at the center of the image.
+	area = Rectangle(rasterImage.width // 4, rasterImage.height // 4, rasterImage.width // 2, rasterImage.height // 2)
+	rasterImage.save_cmyk_32_pixels(area, pixels)
+
+	rasterImage.save(join_path(directory, "sample.SaveCmyk32Pixels.png"))
+
+
+```
+
+### The following example crops a raster image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_49}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Rectangle
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Crop the image. The cropping area is the rectangular central area of the image.
+	area = Rectangle(rasterImage.width // 4, rasterImage.height // 4, rasterImage.width // 2, rasterImage.height // 2)
+	rasterImage.crop(area)
+	# Save the cropped image to PNG
+	rasterImage.save(join_path(directory, "sample.Crop.png"))
+
+
+```
+
+### The following example crops a raster image. The cropping area is specified via Left, Top, Right, Bottom margins. {#example_50}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Rectangle, Color
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Crop again. Set a margin of 10% of the image size.
+	horizontalMargin = rasterImage.width // 10
+	verticalMargin = rasterImage.height // 10
+	rasterImage.crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin)
+	# Save the cropped image to PNG.
+	rasterImage.save(join_path(directory, "sample.Crop.png"))
+
+
+```
+
+### The following example binarizes a raster image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_51}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Binarize the image with a threshold value of 127.
+	# If a corresponding gray value of a pixel is greater than 127, a value of 255 will be assigned to it, 0 otherwise.
+	rasterImage.binarize_fixed(127)
+	rasterImage.save(join_path(directory, "sample.BinarizeFixed.png"))
+
+
+```
+
+### The following example binarizes a raster image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_53}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Binarize the image with a brightness difference of 5. The brightness is a difference between a pixel and the average of an 10 x 10 window of pixels centered around this pixel.
+	rasterImage.binarize_bradley(5, 10)
+	rasterImage.save(join_path(directory, "sample.BinarizeBradley5_10x10.png"))
+
+
+```
+
+### The following example performs gamma-correction of an image. {#example_55}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Set gamma coefficient for red, green and blue channels.
+	rasterImage.adjust_gamma(2.5f)
+	rasterImage.save(join_path(directory, "sample.AdjustGamma.png"))
+
+
+```
+
+### The following example performs gamma-correction of an image applying different coefficients for color components. {#example_56}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Set gamma coefficient for red, green and blue channels.
+	rasterImage.adjust_gamma(1.5f, 2.5f, 3.5f)
+	rasterImage.save(join_path(directory, "sample.AdjustGamma.png"))
+
+
+```
+
+### The following example performs brightness correction of an image. {#example_57}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Set the brightness value. The accepted values of brightness are in the range [-255, 255].
+	rasterImage.adjust_brightness(50)
+	rasterImage.save(join_path(directory, "sample.AdjustBrightness.png"))
+
+
+```
+
+### The following example performs contrast correction of an image. {#example_58}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Set the contrast value. The accepted values of contrast are in the range [-100f, 100f].
+	rasterImage.adjust_contrast(50)
+	rasterImage.save(join_path(directory, "sample.AdjustContrast.png"))
+
+
+```
+
+### The following example applies various types of filters to a raster image. {#example_59}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from aspose.imaging.imagefilters.filteroptions import *
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Apply a median filter with a rectangle size of 5 to the entire image.
+	rasterImage.filter(rasterImage.bounds, MedianFilterOptions(5))
+	rasterImage.save(join_path(directory, "sample.MedianFilter.png"))
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Apply a bilateral smoothing filter with a kernel size of 5 to the entire image.
+	rasterImage.filter(rasterImage.bounds, BilateralSmoothingFilterOptions(5))
+	rasterImage.save(join_path(directory, "sample.BilateralSmoothingFilter.png"))
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Apply a Gaussian blur filter with a radius of 5 and a sigma value of 4.0 to the entire image.
+	rasterImage.filter(rasterImage.bounds, GaussianBlurFilterOptions(5, 4.0))
+	rasterImage.save(join_path(directory, "sample.GaussianBlurFilter.png"))
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Apply a Gauss-Wiener filter with a radius of 5 and a smooth value of 4.0 to the entire image.
+	rasterImage.filter(rasterImage.bounds, GaussWienerFilterOptions(5, 4.0))
+	rasterImage.save(join_path(directory, "sample.GaussWienerFilter.png"))
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Apply a motion wiener filter with a length of 5, a smooth value of 4.0 and an angle of 90.0 degrees to the entire image.
+	rasterImage.filter(rasterImage.bounds, MotionWienerFilterOptions(10, 1.0, 90.0))
+	rasterImage.save(join_path(directory, "sample.MotionWienerFilter.png"))
+}
+
+with Image.load(join_path(directory, "sample.png")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Apply a sharpen filter with a kernel size of 5 and a sigma value of 4.0 to the entire image.
+	rasterImage.filter(rasterImage.bounds, SharpenFilterOptions(5, 4.0))
+	rasterImage.save(join_path(directory, "sample.SharpenFilter.png"))
+
+
+```
+
+### This example loads a raster image and resizes it using various resizing methods. {#example_61}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, ResizeType
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+with Image.load(join_path(directory, "sample.gif")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Scale up by 2 times using Nearest Neighbour resampling.
+	rasterImage.resize(image.width * 2, image.height * 2, ResizeType.NEAREST_NEIGHBOUR_RESAMPLE)
+	image.save(join_path(directory, "upsample.nearestneighbour.gif"))
+
+with Image.load(join_path(directory, "sample.gif")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Scale down by 2 times using Nearest Neighbour resampling.
+	rasterImage.resize(image.width // 2, image.height // 2, ResizeType.NEAREST_NEIGHBOUR_RESAMPLE);
+	image.Save(dir + "downsample.nearestneighbour.gif");
+
+with Image.load(join_path(directory, "sample.gif")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Scale up by 2 times using Bilinear resampling.
+	rasterImage.resize(image.width * 2, image.height * 2, ResizeType.BILINEAR_RESAMPLE)
+	image.save(join_path(directory, "upsample.bilinear.gif"))
+
+with Image.load(join_path(directory, "sample.gif")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Scale down by 2 times using Bilinear resampling.
+	rasterImage.resize(image.width // 2, image.height // 2, ResizeType.BILINEAR_RESAMPLE)
+	image.Save(dir + "downsample.bilinear.gif");
+
+
+```
+
+### This example loads a raster image and resizes it using various resizing settings. {#example_62}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, ImageResizeSettings, ResizeType,\
+	ImageFilterType, ColorQuantizationMethod, ColorCompareMethod
+from os.path import join as join_path
+
+directory = r"c:\temp"
+
+resizeSettings = ImageResizeSettings()
+# The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
+resizeSettings.mode = ResizeType.ADAPTIVE_RESAMPLE
+# The small rectangular filter
+resizeSettings.filter_type = ImageFilterType.SMALL_RECTANGULAR
+# The number of colors in the palette.
+resizeSettings.entries_count = 256
+# The color quantization is not used
+resizeSettings.color_quantization_method = ColorQuantizationMethod.NONE
+# The euclidian method
+resizeSettings.color_compare_method = ColorCompareMethod.EUCLIDIAN
+
+with Image.load(join_path(directory, "sample.gif")) as image:
+	rasterImage = as_of(image, RasterImage)
+	# Scale down by 2 times using adaptive resampling.
+	rasterImage.resize(image.width // 2, image.height // 2, resizeSettings)
+	image.save(join_path(directory, "downsample.adaptive.gif"))
+
 
 ```
 

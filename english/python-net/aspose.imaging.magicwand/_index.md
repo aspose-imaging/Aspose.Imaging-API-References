@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.magicwand/
 ---
 
 
-
+The module handles MagicWand processing.
 
 ## **Classes**
 | **Class** | **Description** |

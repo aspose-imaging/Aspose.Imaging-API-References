@@ -1,7 +1,7 @@
 ---
 title: Source Class
 type: docs
-weight: 7230
+weight: 7240
 url: /python-net/aspose.imaging/source/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/source/
 
 **Full Name:** aspose.imaging.Source
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Methods**
 | **Name** | **Description** |

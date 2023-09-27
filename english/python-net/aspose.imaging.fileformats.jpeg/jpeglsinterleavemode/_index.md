@@ -11,7 +11,7 @@ Defines the interleave mode for multi-component (color) pixel data.
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JpegLsInterleaveMode
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

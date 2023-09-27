@@ -11,7 +11,7 @@ exif scene capture type enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifSceneCaptureType
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

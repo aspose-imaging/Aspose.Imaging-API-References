@@ -11,7 +11,7 @@ Specifies how a Magic Wand algorithm is working.
 
 **Full Name:** aspose.imaging.magicwand.FloodFillDirectionalMode
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Members**
 | **Member name** | **Description** |

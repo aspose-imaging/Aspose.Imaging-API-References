@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/psdoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -77,7 +77,7 @@ Gets or sets the psd color mode.
 
 **See also:**
 
-**[Example # 1](#example_0)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
+**[Example # 1](#example_11)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
 
 
 ### Property: compression_method {#compression_method2}
@@ -86,7 +86,7 @@ Gets or sets the psd compression method.
 
 **See also:**
 
-**[Example # 1](#example_0)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
+**[Example # 1](#example_11)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
 
 
 ### Method: clone() {#clone__1}
@@ -106,7 +106,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example demonstrates the use of Aspose.Imaging API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format. {#example_0}
+### This example demonstrates the use of Aspose.Imaging API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format. {#example_11}
 ``` python
 
 from aspose.imaging import Image, RotateFlipType

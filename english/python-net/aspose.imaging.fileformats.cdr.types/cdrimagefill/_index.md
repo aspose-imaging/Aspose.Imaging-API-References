@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrimagefill/
 
 **Full Name:** aspose.imaging.fileformats.cdr.types.CdrImageFill
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Constructors**
 | **Name** | **Description** |

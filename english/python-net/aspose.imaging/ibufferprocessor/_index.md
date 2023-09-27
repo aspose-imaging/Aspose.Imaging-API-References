@@ -1,7 +1,7 @@
 ---
 title: IBufferProcessor Class
 type: docs
-weight: 5080
+weight: 5090
 url: /python-net/aspose.imaging/ibufferprocessor/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/ibufferprocessor/
 
 **Full Name:** aspose.imaging.IBufferProcessor
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 ## **Methods**
 | **Name** | **Description** |

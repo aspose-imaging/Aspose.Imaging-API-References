@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/
 
 **Full Name:** aspose.imaging.imagefilters.filteroptions.FilterOptionsBase
 
-**Aspose.Imaging Version:** 23.8.0
+**Aspose.Imaging Version:** 23.9.0
 
 
 
