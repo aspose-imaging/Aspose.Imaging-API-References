@@ -1,7 +1,7 @@
 ---
 title: ResizeType Enumeration
 type: docs
-weight: 11000
+weight: 10810
 url: /python-net/aspose.imaging/resizetype/
 ---
 
@@ -11,7 +11,7 @@ Specifies the resize type.
 
 **Full Name:** aspose.imaging.ResizeType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

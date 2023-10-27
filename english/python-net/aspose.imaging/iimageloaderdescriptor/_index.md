@@ -1,7 +1,7 @@
 ---
 title: IImageLoaderDescriptor Class
 type: docs
-weight: 5260
+weight: 5160
 url: /python-net/aspose.imaging/iimageloaderdescriptor/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/iimageloaderdescriptor/
 
 **Inheritance:** IImageDescriptor
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

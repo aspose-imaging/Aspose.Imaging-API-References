@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/
 ---
 
-**Summary:** 
+**Summary:** The common Content Aware Fill Algorithm options.
 
 **Module:** [aspose.imaging.watermark.options](/imaging/python-net/aspose.imaging.watermark.options/)
 
@@ -13,21 +13,21 @@ url: /python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptio
 
 **Inheritance:** WatermarkOptions
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [ContentAwareFillWatermarkOptions(mask)](#ContentAwareFillWatermarkOptions_mask_1) | Initializes a new instance of the ContentAwareFillWatermarkOptions class |
-| [ContentAwareFillWatermarkOptions(mask)](#ContentAwareFillWatermarkOptions_mask_2) | Initializes a new instance of the ContentAwareFillWatermarkOptions class |
+| [ContentAwareFillWatermarkOptions(mask)](#ContentAwareFillWatermarkOptions_mask_1) | Initializes a new instance of the [ContentAwareFillWatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/) class. |
+| [ContentAwareFillWatermarkOptions(mask)](#ContentAwareFillWatermarkOptions_mask_2) | Initializes a new instance of the [ContentAwareFillWatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| graphics_path_mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w |    |
-| interest_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w |    |
-| mask | iter[Point] | r/w |    |
-| [max_painting_attempts](#max_painting_attempts1) | int | r/w |    |
-| patch_size | byte | r/w |    |
+| graphics_path_mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w | Gets or sets the mask. |
+| interest_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the area to take patches. |
+| mask | iter[Point] | r/w | Gets or sets the mask. |
+| [max_painting_attempts](#max_painting_attempts1) | int | r/w | Gets or sets the maximum number of painting attempts.<br/>            The algorithm will chose the best variant. |
+| patch_size | byte | r/w | Gets or sets the patch size (should be odd). |
 
 
 ### Constructor: ContentAwareFillWatermarkOptions(mask) {#ContentAwareFillWatermarkOptions_mask_1}
@@ -37,13 +37,13 @@ url: /python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptio
  ContentAwareFillWatermarkOptions(mask) 
 ```
 
-Initializes a new instance of the ContentAwareFillWatermarkOptions class
+Initializes a new instance of the [ContentAwareFillWatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [Point[]](/imaging/python-net/aspose.imaging/point) |  |
+| mask | [Point[]](/imaging/python-net/aspose.imaging/point) | The mask for the unknown area. |
 
 ### Constructor: ContentAwareFillWatermarkOptions(mask) {#ContentAwareFillWatermarkOptions_mask_2}
 
@@ -52,25 +52,25 @@ Initializes a new instance of the ContentAwareFillWatermarkOptions class
  ContentAwareFillWatermarkOptions(mask) 
 ```
 
-Initializes a new instance of the ContentAwareFillWatermarkOptions class
+Initializes a new instance of the [ContentAwareFillWatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) |  |
+| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The mask for the unknown area. |
 
 ### Property: max_painting_attempts {#max_painting_attempts1}
 
-
+Gets or sets the maximum number of painting attempts.<br/>            The algorithm will chose the best variant.
 
 **See also:**
 
-**[Example # 1](#example_67)**: The example shows how to remove any object from the image using Graphics Path...
+**[Example # 1](#example_80)**: The example shows how to remove any object from the image using Graphics Path...
 
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_67}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_80}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

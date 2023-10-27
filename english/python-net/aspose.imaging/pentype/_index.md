@@ -1,7 +1,7 @@
 ---
 title: PenType Enumeration
 type: docs
-weight: 10920
+weight: 10730
 url: /python-net/aspose.imaging/pentype/
 ---
 
@@ -11,7 +11,7 @@ Specifies the type of fill a [Pen](/imaging/python-net/aspose.imaging/pen/) obje
 
 **Full Name:** aspose.imaging.PenType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

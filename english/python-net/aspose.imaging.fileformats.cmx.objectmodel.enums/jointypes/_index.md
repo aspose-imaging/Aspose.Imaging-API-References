@@ -11,7 +11,7 @@ Connection types between lines
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.JoinTypes
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

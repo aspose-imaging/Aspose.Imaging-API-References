@@ -5,18 +5,18 @@ weight: 40
 url: /python-net/aspose.imaging.watermark/watermarkremover/
 ---
 
-**Summary:** 
+**Summary:** The class intended for manipulation the watermark.
 
 **Module:** [aspose.imaging.watermark](/imaging/python-net/aspose.imaging.watermark/)
 
 **Full Name:** aspose.imaging.watermark.WatermarkRemover
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [paint_over(source, options)](#paint_over_source_options_1) |    |
+| [paint_over(source, options)](#paint_over_source_options_1) | Remove the watermark from the raster image. |
 
 
 ### Method: paint_over(source, options)  [static] {#paint_over_source_options_1}
@@ -26,24 +26,24 @@ url: /python-net/aspose.imaging.watermark/watermarkremover/
  paint_over(source, options) 
 ```
 
-  
+Remove the watermark from the raster image.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
-| options | [WatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/watermarkoptions/) |  |
+| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The source raster image. |
+| options | [WatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/watermarkoptions/) | The watermark options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
+| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The resulting image. |
 
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_67}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_80}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -68,7 +68,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_68}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_81}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

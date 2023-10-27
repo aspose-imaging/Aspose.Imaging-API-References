@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/langalt/
 
 **Inheritance:** IXmlValue
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

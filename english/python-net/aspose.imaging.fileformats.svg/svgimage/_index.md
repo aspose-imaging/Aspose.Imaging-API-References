@@ -13,13 +13,13 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, VectorImage
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [SvgImage(path)](#SvgImage_path_1) | Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) class. |
-| [SvgImage(stream)](#SvgImage_stream_2) | Initializes a new instance of the SvgImage class |
+| [SvgImage(stream)](#SvgImage_stream_2) | Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) class. |
 | [SvgImage(svg_options, width, height)](#SvgImage_svg_options_width_height_3) | Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) class. |
 | [SvgImage(width, height)](#SvgImage_width_height_4) | Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) class. |
 ## **Properties**
@@ -130,13 +130,13 @@ Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.
  SvgImage(stream) 
 ```
 
-Initializes a new instance of the SvgImage class
+Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
+| stream | _io.BufferedRandom | The stream to load image from and initialize pixel and palette data with. |
 
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
 

@@ -1,7 +1,7 @@
 ---
 title: Figure Class
 type: docs
-weight: 4740
+weight: 4670
 url: /python-net/aspose.imaging/figure/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/figure/
 
 **Inheritance:** ObjectWithBounds
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

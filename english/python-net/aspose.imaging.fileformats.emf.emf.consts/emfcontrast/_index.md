@@ -11,7 +11,7 @@ The Contrast enumeration defines values for one of the characteristics in the PA
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfContrast
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,7 +11,7 @@ The PolyFillMode Enumeration specifies the method used for filling a<br/>       
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPolyFillMode
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,7 +11,7 @@ The 16-bit PenStyle Enumeration is used to specify different types of pens that 
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPenStyle
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

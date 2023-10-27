@@ -13,13 +13,13 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/
 
 **Inheritance:** TiffCommonArrayType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [TiffSShortType(tag_id)](#TiffSShortType_tag_id_1) | Initializes a new instance of the TiffSShortType class |
-| [TiffSShortType(tag_id)](#TiffSShortType_tag_id_2) | Initializes a new instance of the TiffSShortType class |
+| [TiffSShortType(tag_id)](#TiffSShortType_tag_id_1) | Initializes a new instance of the [TiffSShortType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/) class. |
+| [TiffSShortType(tag_id)](#TiffSShortType_tag_id_2) | Initializes a new instance of the [TiffSShortType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -54,13 +54,13 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/
  TiffSShortType(tag_id) 
 ```
 
-Initializes a new instance of the TiffSShortType class
+Initializes a new instance of the [TiffSShortType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | [TiffTags](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) |  |
+| tag_id | [TiffTags](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) | The tag id. |
 
 ### Constructor: TiffSShortType(tag_id) {#TiffSShortType_tag_id_2}
 
@@ -69,13 +69,13 @@ Initializes a new instance of the TiffSShortType class
  TiffSShortType(tag_id) 
 ```
 
-Initializes a new instance of the TiffSShortType class
+Initializes a new instance of the [TiffSShortType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | ushort |  |
+| tag_id | ushort | The tag id. |
 
 ### Method: compare_to(obj) {#compare_to_obj_1}
 

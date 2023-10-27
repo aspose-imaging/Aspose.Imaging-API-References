@@ -1,7 +1,7 @@
 ---
 title: StreamContainer Class
 type: docs
-weight: 7260
+weight: 7080
 url: /python-net/aspose.imaging/streamcontainer/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/streamcontainer/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

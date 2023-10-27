@@ -11,12 +11,10 @@ The module contains EPS format type
 ## **Classes**
 | **Class** | **Description** |
 | :- | :- |
-| [EpsBinaryImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsbinaryimage/) | Class for Encapsulated PostScript format with binary header |
-| [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) | Base class for EPS format |
-| [EpsInterchangeImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsinterchangeimage/) | Class for Encapsulated PostScript Interchange format |
-| [EpsLoadOptions](/imaging/python-net/aspose.imaging.fileformats.eps/epsloadoptions/) | EPS load options |
+| [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) | The EPS image class. |
+| [EpsLoadOptions](/imaging/python-net/aspose.imaging.fileformats.eps/epsloadoptions/) | The [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) load options. |
 | [EpsOptions](/imaging/python-net/aspose.imaging.fileformats.eps/epsoptions/) | EPS options (currently not used) |
 ## **Enumerations**
 | **Enumeration** | **Description** |
 | :- | :- |
-| [EpsPreviewFormat](/imaging/python-net/aspose.imaging.fileformats.eps/epspreviewformat/) | EPS preview format |
+| [EpsPreviewFormat](/imaging/python-net/aspose.imaging.fileformats.eps/epspreviewformat/) | The [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) preview image formats. |

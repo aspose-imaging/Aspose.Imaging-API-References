@@ -13,13 +13,13 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, TiffImage
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [BigTiffImage(frame)](#BigTiffImage_frame_1) | Initializes a new instance of the BigTiffImage class |
-| [BigTiffImage(frames)](#BigTiffImage_frames_2) | Initializes a new instance of the BigTiffImage class |
+| [BigTiffImage(frame)](#BigTiffImage_frame_1) | Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class. |
+| [BigTiffImage(frames)](#BigTiffImage_frames_2) | Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -201,13 +201,13 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
  BigTiffImage(frame) 
 ```
 
-Initializes a new instance of the BigTiffImage class
+Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
+| frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The tiff frame to initialize image with. |
 
 ### Constructor: BigTiffImage(frames) {#BigTiffImage_frames_2}
 
@@ -216,13 +216,13 @@ Initializes a new instance of the BigTiffImage class
  BigTiffImage(frames) 
 ```
 
-Initializes a new instance of the BigTiffImage class
+Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
+| frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frames. |
 
 ### Method: add(image) {#add_image_1}
 
@@ -695,7 +695,7 @@ Initializes a new instance of the [BigTiffImage](/imaging/python-net/aspose.imag
 
 | Type | Description |
 | :- | :- |
-| [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage) |  |
+| [BigTiffImage](/imaging/python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage) | A new BigTiffImage image that includes the frame. |
 
 
 ### Method: create_with_frames(frames)  [static] {#create_with_frames_frames_26}

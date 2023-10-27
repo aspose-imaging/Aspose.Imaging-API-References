@@ -11,7 +11,7 @@ The GamutMappingIntent Enumeration specifies the relationship between logical an
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfGamutMappingIntent
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,7 +11,7 @@ The CompositingQuality enumeration defines levels of quality for creating compos
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCompositingQuality
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

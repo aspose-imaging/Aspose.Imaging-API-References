@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionbl
 
 **Inheritance:** IGifBlock, GifBlock
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

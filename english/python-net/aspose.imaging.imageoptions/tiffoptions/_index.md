@@ -13,15 +13,15 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [TiffOptions(expected_format)](#TiffOptions_expected_format_1) | Initializes a new instance of the TiffOptions class |
+| [TiffOptions(expected_format)](#TiffOptions_expected_format_1) | Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class. By default little endian convention is used. |
 | [TiffOptions(expected_format, byte_order)](#TiffOptions_expected_format_byte_order_2) | Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class. |
-| [TiffOptions(options)](#TiffOptions_options_3) | Initializes a new instance of the TiffOptions class |
-| [TiffOptions(tags)](#TiffOptions_tags_4) | Initializes a new instance of the TiffOptions class |
+| [TiffOptions(options)](#TiffOptions_options_3) | Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class. |
+| [TiffOptions(tags)](#TiffOptions_tags_4) | Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -79,6 +79,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 | strip_byte_counts | ulong | r/w | Gets or sets the strip byte counts. |
 | strip_offsets | ulong | r/w | Gets or sets the strip offsets. |
 | sub_file_type | [TiffNewSubFileTypes](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes/) | r/w | Gets or sets a general indication of the kind of data contained in this subfile. |
+| tag_count | int | r | Gets the tag count. |
 | tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r/w | Gets or sets the tags. |
 | target_printer | string | r/w | Gets or sets the target printer. |
 | threshholding | [TiffThresholds](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffthresholds/) | r/w | Gets or sets the threshholding. |
@@ -125,13 +126,13 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
  TiffOptions(expected_format) 
 ```
 
-Initializes a new instance of the TiffOptions class
+Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class. By default little endian convention is used.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| expected_format | [TiffExpectedFormat](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffexpectedformat/) |  |
+| expected_format | [TiffExpectedFormat](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffexpectedformat/) | The expected tiff file format. |
 
 ### Constructor: TiffOptions(expected_format, byte_order) {#TiffOptions_expected_format_byte_order_2}
 
@@ -156,13 +157,13 @@ Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imagi
  TiffOptions(options) 
 ```
 
-Initializes a new instance of the TiffOptions class
+Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions) |  |
+| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions) | The options to copy from. |
 
 ### Constructor: TiffOptions(tags) {#TiffOptions_tags_4}
 
@@ -171,13 +172,13 @@ Initializes a new instance of the TiffOptions class
  TiffOptions(tags) 
 ```
 
-Initializes a new instance of the TiffOptions class
+Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) |  |
+| tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The tags to initialize options with. |
 
 ### Method: add_tag(tag_to_add) {#add_tag_tag_to_add_1}
 

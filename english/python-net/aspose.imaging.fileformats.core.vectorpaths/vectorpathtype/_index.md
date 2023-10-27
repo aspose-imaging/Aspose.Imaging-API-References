@@ -11,7 +11,7 @@ Vector Path Type according to PSD Format Specification
 
 **Full Name:** aspose.imaging.fileformats.core.vectorpaths.VectorPathType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

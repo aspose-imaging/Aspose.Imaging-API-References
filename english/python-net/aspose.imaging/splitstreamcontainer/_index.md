@@ -1,7 +1,7 @@
 ---
 title: SplitStreamContainer Class
 type: docs
-weight: 7250
+weight: 7070
 url: /python-net/aspose.imaging/splitstreamcontainer/
 ---
 
@@ -13,14 +13,14 @@ url: /python-net/aspose.imaging/splitstreamcontainer/
 
 **Inheritance:** StreamContainer
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [SplitStreamContainer(stream)](#SplitStreamContainer_stream_1) | Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class. |
-| [SplitStreamContainer(stream, dispose_stream)](#SplitStreamContainer_stream_dispose_stream_2) | Initializes a new instance of the SplitStreamContainer class |
-| [SplitStreamContainer(stream, dispose_stream)](#SplitStreamContainer_stream_dispose_stream_3) | Initializes a new instance of the SplitStreamContainer class |
+| [SplitStreamContainer(stream, dispose_stream)](#SplitStreamContainer_stream_dispose_stream_2) | Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class. |
+| [SplitStreamContainer(stream, dispose_stream)](#SplitStreamContainer_stream_dispose_stream_3) | Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -88,14 +88,14 @@ Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/asp
  SplitStreamContainer(stream, dispose_stream) 
 ```
 
-Initializes a new instance of the SplitStreamContainer class
+Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
-| dispose_stream | bool |  |
+| stream | _io.BufferedRandom | The data stream. |
+| dispose_stream | bool | if set to <c>true</c> the stream will be disposed when container is disposed. |
 
 ### Constructor: SplitStreamContainer(stream, dispose_stream) {#SplitStreamContainer_stream_dispose_stream_3}
 
@@ -104,14 +104,14 @@ Initializes a new instance of the SplitStreamContainer class
  SplitStreamContainer(stream, dispose_stream) 
 ```
 
-Initializes a new instance of the SplitStreamContainer class
+Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) |  |
-| dispose_stream | bool |  |
+| stream | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The data stream. |
+| dispose_stream | bool | if set to <c>true</c> the stream will be disposed when container is disposed. |
 
 ### Method: create_from_stream(stream, dispose_stream)  [static] {#create_from_stream_stream_dispose_stream_1}
 
@@ -283,7 +283,7 @@ Saves (copies) the stream's data to the specified stream.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | destination_stream | _io.BufferedRandom | The stream to save the data to. |
-| buffer_size | int | The buffer size. By default ReadWriteBytesCount value is used. |
+| buffer_size | int | The buffer size. |
 | length | long | The stream data length to copy. By default the length is set to [SplitStreamContainer.length](/imaging/python-net/aspose.imaging/splitstreamcontainer/) value. |
 
 ### Method: save(file_path) {#save_file_path_10}

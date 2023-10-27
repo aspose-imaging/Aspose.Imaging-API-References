@@ -11,7 +11,7 @@ exif saturation enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifSaturation
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

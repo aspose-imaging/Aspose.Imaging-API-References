@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactor
 
 **Full Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamFactory
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Methods**
 | **Name** | **Description** |

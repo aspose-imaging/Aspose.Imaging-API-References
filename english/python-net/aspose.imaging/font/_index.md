@@ -1,7 +1,7 @@
 ---
 title: Font Class
 type: docs
-weight: 4810
+weight: 4730
 url: /python-net/aspose.imaging/font/
 ---
 
@@ -11,17 +11,17 @@ url: /python-net/aspose.imaging/font/
 
 **Full Name:** aspose.imaging.Font
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [Font(font_name, em_size)](#Font_font_name_em_size_1) | Initializes a new instance of the Font class |
-| [Font(font_name, em_size, style)](#Font_font_name_em_size_style_2) | Initializes a new instance of the Font class |
+| [Font(font_name, em_size)](#Font_font_name_em_size_1) | Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size. The character set is set to [CharacterSet.DEFAULT](/imaging/python-net/aspose.imaging/characterset/), the graphics unit to [GraphicsUnit.POINT](/imaging/python-net/aspose.imaging/graphicsunit/), the font style to [FontStyle.REGULAR](/imaging/python-net/aspose.imaging/fontstyle/). |
+| [Font(font_name, em_size, style)](#Font_font_name_em_size_style_2) | Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size and style. The character set is set to [CharacterSet.DEFAULT](/imaging/python-net/aspose.imaging/characterset/), the graphics unit to [GraphicsUnit.POINT](/imaging/python-net/aspose.imaging/graphicsunit/). |
 | [Font(font_name, em_size, style, unit)](#Font_font_name_em_size_style_unit_3) | Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size, style, and unit. |
 | [Font(font_name, em_size, style, unit, character_set)](#Font_font_name_em_size_style_unit_character_set_4) | Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size, style, unit, and character set. |
-| [Font(font_name, em_size, unit)](#Font_font_name_em_size_unit_5) | Initializes a new instance of the Font class |
-| [Font(prototype, new_style)](#Font_prototype_new_style_6) | Initializes a new instance of the Font class |
+| [Font(font_name, em_size, unit)](#Font_font_name_em_size_unit_5) | Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size and unit. The character set is set to [CharacterSet.DEFAULT](/imaging/python-net/aspose.imaging/characterset/), the style is set to [FontStyle.REGULAR](/imaging/python-net/aspose.imaging/fontstyle/). |
+| [Font(prototype, new_style)](#Font_prototype_new_style_6) | Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) that uses the specified existing [Font](/imaging/python-net/aspose.imaging/font/) and [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) enumeration. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -51,14 +51,14 @@ url: /python-net/aspose.imaging/font/
  Font(font_name, em_size) 
 ```
 
-Initializes a new instance of the Font class
+Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size. The character set is set to [CharacterSet.DEFAULT](/imaging/python-net/aspose.imaging/characterset/), the graphics unit to [GraphicsUnit.POINT](/imaging/python-net/aspose.imaging/graphicsunit/), the font style to [FontStyle.REGULAR](/imaging/python-net/aspose.imaging/fontstyle/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string |  |
-| em_size | float |  |
+| font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
+| em_size | float | The em-size, in points, of the new font. |
 
 ### Constructor: Font(font_name, em_size, style) {#Font_font_name_em_size_style_2}
 
@@ -67,15 +67,15 @@ Initializes a new instance of the Font class
  Font(font_name, em_size, style) 
 ```
 
-Initializes a new instance of the Font class
+Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size and style. The character set is set to [CharacterSet.DEFAULT](/imaging/python-net/aspose.imaging/characterset/), the graphics unit to [GraphicsUnit.POINT](/imaging/python-net/aspose.imaging/graphicsunit/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string |  |
-| em_size | float |  |
-| style | [FontStyle](/imaging/python-net/aspose.imaging/fontstyle) |  |
+| font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
+| em_size | float | The em-size, in points, of the new font. |
+| style | [FontStyle](/imaging/python-net/aspose.imaging/fontstyle) | The [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) of the new font. |
 
 ### Constructor: Font(font_name, em_size, style, unit) {#Font_font_name_em_size_style_unit_3}
 
@@ -121,15 +121,15 @@ Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a speci
  Font(font_name, em_size, unit) 
 ```
 
-Initializes a new instance of the Font class
+Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a specified size and unit. The character set is set to [CharacterSet.DEFAULT](/imaging/python-net/aspose.imaging/characterset/), the style is set to [FontStyle.REGULAR](/imaging/python-net/aspose.imaging/fontstyle/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string |  |
-| em_size | float |  |
-| unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) |  |
+| font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
+| em_size | float | The em-size of the new font in the units specified by the <paramref name="unit" /> parameter. |
+| unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) of the new font. |
 
 ### Constructor: Font(prototype, new_style) {#Font_prototype_new_style_6}
 
@@ -138,14 +138,14 @@ Initializes a new instance of the Font class
  Font(prototype, new_style) 
 ```
 
-Initializes a new instance of the Font class
+Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) that uses the specified existing [Font](/imaging/python-net/aspose.imaging/font/) and [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) enumeration.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| prototype | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) |  |
-| new_style | [FontStyle](/imaging/python-net/aspose.imaging/fontstyle) |  |
+| prototype | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | The existing [Font](/imaging/python-net/aspose.imaging/font/) from which to create the new [Font](/imaging/python-net/aspose.imaging/font/). |
+| new_style | [FontStyle](/imaging/python-net/aspose.imaging/fontstyle) | The [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) to apply to the new [Font](/imaging/python-net/aspose.imaging/font/). Multiple values of the [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) enumeration can be combined with the OR operator. |
 
 ### Method: create_from_prototype(prototype, new_style)  [static] {#create_from_prototype_prototype_new_style_1}
 

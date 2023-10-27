@@ -11,4 +11,4 @@ Module contains the classes for watermark remove processing.
 ## **Classes**
 | **Class** | **Description** |
 | :- | :- |
-| [WatermarkRemover](/imaging/python-net/aspose.imaging.watermark/watermarkremover/) |  |
+| [WatermarkRemover](/imaging/python-net/aspose.imaging.watermark/watermarkremover/) | The class intended for manipulation the watermark. |

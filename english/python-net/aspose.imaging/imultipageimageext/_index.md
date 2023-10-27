@@ -1,7 +1,7 @@
 ---
 title: IMultipageImageExt Class
 type: docs
-weight: 5360
+weight: 5260
 url: /python-net/aspose.imaging/imultipageimageext/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/imultipageimageext/
 
 **Inheritance:** IMultipageImage
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

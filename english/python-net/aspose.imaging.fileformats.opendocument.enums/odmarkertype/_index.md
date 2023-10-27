@@ -11,7 +11,7 @@ The od marker types for connectors
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdMarkerType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

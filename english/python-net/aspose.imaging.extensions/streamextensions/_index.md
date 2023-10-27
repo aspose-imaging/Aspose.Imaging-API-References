@@ -1,7 +1,7 @@
 ---
 title: StreamExtensions Class
 type: docs
-weight: 170
+weight: 10
 url: /python-net/aspose.imaging.extensions/streamextensions/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.extensions/streamextensions/
 
 **Full Name:** aspose.imaging.extensions.StreamExtensions
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

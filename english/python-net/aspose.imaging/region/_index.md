@@ -1,7 +1,7 @@
 ---
 title: Region Class
 type: docs
-weight: 7090
+weight: 6930
 url: /python-net/aspose.imaging/region/
 ---
 
@@ -11,15 +11,15 @@ url: /python-net/aspose.imaging/region/
 
 **Full Name:** aspose.imaging.Region
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [Region()](#Region__1) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/). |
-| [Region(path)](#Region_path_2) | Initializes a new instance of the Region class |
-| [Region(rect)](#Region_rect_3) | Initializes a new instance of the Region class |
-| [Region(rect)](#Region_rect_4) | Initializes a new instance of the Region class |
+| [Region(path)](#Region_path_2) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [Region(rect)](#Region_rect_3) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [Region(rect)](#Region_rect_4) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -123,13 +123,13 @@ Initializes a new [Region](/imaging/python-net/aspose.imaging/region/).
  Region(path) 
 ```
 
-Initializes a new instance of the Region class
+Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) |  |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | A [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that defines the new [Region](/imaging/python-net/aspose.imaging/region/). |
 
 ### Constructor: Region(rect) {#Region_rect_3}
 
@@ -138,13 +138,13 @@ Initializes a new instance of the Region class
  Region(rect) 
 ```
 
-Initializes a new instance of the Region class
+Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) |  |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the interior of the new [Region](/imaging/python-net/aspose.imaging/region/). |
 
 ### Constructor: Region(rect) {#Region_rect_4}
 
@@ -153,13 +153,13 @@ Initializes a new instance of the Region class
  Region(rect) 
 ```
 
-Initializes a new instance of the Region class
+Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the interior of the new [Region](/imaging/python-net/aspose.imaging/region/). |
 
 ### Method: complement(path) {#complement_path_1}
 

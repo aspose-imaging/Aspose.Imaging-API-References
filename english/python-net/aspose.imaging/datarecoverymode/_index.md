@@ -1,7 +1,7 @@
 ---
 title: DataRecoveryMode Enumeration
 type: docs
-weight: 9370
+weight: 9180
 url: /python-net/aspose.imaging/datarecoverymode/
 ---
 
@@ -11,7 +11,7 @@ The data recovery mode.
 
 **Full Name:** aspose.imaging.DataRecoveryMode
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

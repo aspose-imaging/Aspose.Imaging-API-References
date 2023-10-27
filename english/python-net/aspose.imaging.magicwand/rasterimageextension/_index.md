@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.magicwand/rasterimageextension/
 
 **Full Name:** aspose.imaging.magicwand.RasterImageExtension
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Methods**
 | **Name** | **Description** |

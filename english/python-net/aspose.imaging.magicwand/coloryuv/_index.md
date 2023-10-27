@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.magicwand/coloryuv/
 
 **Full Name:** aspose.imaging.magicwand.ColorYUV
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

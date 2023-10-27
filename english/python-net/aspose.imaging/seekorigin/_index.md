@@ -1,7 +1,7 @@
 ---
 title: SeekOrigin Enumeration
 type: docs
-weight: 11040
+weight: 10850
 url: /python-net/aspose.imaging/seekorigin/
 ---
 
@@ -11,7 +11,7 @@ Provides the fields that represent reference points in [StreamContainer](/imagin
 
 **Full Name:** aspose.imaging.SeekOrigin
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

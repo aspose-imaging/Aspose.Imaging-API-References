@@ -1,7 +1,7 @@
 ---
 title: Point Class
 type: docs
-weight: 6860
+weight: 6720
 url: /python-net/aspose.imaging/point/
 ---
 
@@ -11,14 +11,14 @@ url: /python-net/aspose.imaging/point/
 
 **Full Name:** aspose.imaging.Point
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [Point()](#Point__1) | Initializes a new instance of the Point class |
-| [Point(dw)](#Point_dw_2) | Initializes a new instance of the Point class |
-| [Point(size)](#Point_size_3) | Initializes a new instance of the Point class |
+| [Point(dw)](#Point_dw_2) | Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure using coordinates specified by an integer value. |
+| [Point(size)](#Point_size_3) | Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure from the [Size](/imaging/python-net/aspose.imaging/size/) structure. |
 | [Point(x, y)](#Point_x_y_4) | Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure with the specified coordinates. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -59,13 +59,13 @@ Initializes a new instance of the Point class
  Point(dw) 
 ```
 
-Initializes a new instance of the Point class
+Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure using coordinates specified by an integer value.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dw | int |  |
+| dw | int | A 32-bit integer that specifies the coordinates for the new point. |
 
 ### Constructor: Point(size) {#Point_size_3}
 
@@ -74,13 +74,13 @@ Initializes a new instance of the Point class
  Point(size) 
 ```
 
-Initializes a new instance of the Point class
+Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure from the [Size](/imaging/python-net/aspose.imaging/size/) structure.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [Size](/imaging/python-net/aspose.imaging/size) |  |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | Contains the new point coordinates. |
 
 ### Constructor: Point(x, y) {#Point_x_y_4}
 

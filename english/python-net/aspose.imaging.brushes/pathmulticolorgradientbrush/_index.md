@@ -13,16 +13,16 @@ url: /python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/
 
 **Inheritance:** PathGradientBrushBase
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [PathMulticolorGradientBrush(path)](#PathMulticolorGradientBrush_path_1) | Initializes a new instance of the PathMulticolorGradientBrush class |
-| [PathMulticolorGradientBrush(path_points)](#PathMulticolorGradientBrush_path_points_2) | Initializes a new instance of the PathMulticolorGradientBrush class |
-| [PathMulticolorGradientBrush(path_points)](#PathMulticolorGradientBrush_path_points_3) | Initializes a new instance of the PathMulticolorGradientBrush class |
-| [PathMulticolorGradientBrush(path_points, wrap_mode)](#PathMulticolorGradientBrush_path_points_wrap_mode_4) | Initializes a new instance of the PathMulticolorGradientBrush class |
-| [PathMulticolorGradientBrush(path_points, wrap_mode)](#PathMulticolorGradientBrush_path_points_wrap_mode_5) | Initializes a new instance of the PathMulticolorGradientBrush class |
+| [PathMulticolorGradientBrush(path)](#PathMulticolorGradientBrush_path_1) | Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points. |
+| [PathMulticolorGradientBrush(path_points)](#PathMulticolorGradientBrush_path_points_2) | Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points. |
+| [PathMulticolorGradientBrush(path_points)](#PathMulticolorGradientBrush_path_points_3) | Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points. |
+| [PathMulticolorGradientBrush(path_points, wrap_mode)](#PathMulticolorGradientBrush_path_points_wrap_mode_4) | Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points and wrap mode. |
+| [PathMulticolorGradientBrush(path_points, wrap_mode)](#PathMulticolorGradientBrush_path_points_wrap_mode_5) | Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points and wrap mode. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -63,7 +63,7 @@ url: /python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/
  PathMulticolorGradientBrush(path) 
 ```
 
-Initializes a new instance of the PathMulticolorGradientBrush class
+Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points.
 
 **Parameters:**
 
@@ -78,13 +78,13 @@ Initializes a new instance of the PathMulticolorGradientBrush class
  PathMulticolorGradientBrush(path_points) 
 ```
 
-Initializes a new instance of the PathMulticolorGradientBrush class
+Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
 
 ### Constructor: PathMulticolorGradientBrush(path_points) {#PathMulticolorGradientBrush_path_points_3}
 
@@ -93,13 +93,13 @@ Initializes a new instance of the PathMulticolorGradientBrush class
  PathMulticolorGradientBrush(path_points) 
 ```
 
-Initializes a new instance of the PathMulticolorGradientBrush class
+Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) |  |
+| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
 
 ### Constructor: PathMulticolorGradientBrush(path_points, wrap_mode) {#PathMulticolorGradientBrush_path_points_wrap_mode_4}
 
@@ -108,14 +108,14 @@ Initializes a new instance of the PathMulticolorGradientBrush class
  PathMulticolorGradientBrush(path_points, wrap_mode) 
 ```
 
-Initializes a new instance of the PathMulticolorGradientBrush class
+Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points and wrap mode.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) |  |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how fills drawn with this [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) are tiled. |
 
 ### Constructor: PathMulticolorGradientBrush(path_points, wrap_mode) {#PathMulticolorGradientBrush_path_points_wrap_mode_5}
 
@@ -124,14 +124,14 @@ Initializes a new instance of the PathMulticolorGradientBrush class
  PathMulticolorGradientBrush(path_points, wrap_mode) 
 ```
 
-Initializes a new instance of the PathMulticolorGradientBrush class
+Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points and wrap mode.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) |  |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) |  |
+| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how fills drawn with this [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) are tiled. |
 
 ### Method: create_with_path(path)  [static] {#create_with_path_path_1}
 

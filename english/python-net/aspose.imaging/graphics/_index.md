@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 4990
+weight: 4900
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/graphics/
 
 **Full Name:** aspose.imaging.Graphics
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -164,82 +164,82 @@ url: /python-net/aspose.imaging/graphics/
 | [draw_rect_f(pen, x, y, width, height)](#draw_rect_f_pen_x_y_width_height_125) | Draws a rectangle specified by a coordinate pair, a width, and a height. |
 | [draw_rectangle(pen, rect)](#draw_rectangle_pen_rect_126) | Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | [draw_rectangle(pen, rect)](#draw_rectangle_pen_rect_127) | Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| draw_rectangle(pen, x, y, width, height) |    |
-| draw_rectangle(pen, x, y, width, height) |    |
-| [draw_rectangle_f(pen, rect)](#draw_rectangle_f_pen_rect_128) | Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [draw_rectangles(pen, rects)](#draw_rectangles_pen_rects_129) | Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
-| [draw_rectangles(pen, rects)](#draw_rectangles_pen_rects_130) | Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
-| [draw_rectangles_f(pen, rects)](#draw_rectangles_f_pen_rects_131) | Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
-| [draw_string(s, font, brush, layout_rectangle)](#draw_string_s_font_brush_layout_rectangle_132) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
-| [draw_string(s, font, brush, layout_rectangle, format)](#draw_string_s_font_brush_layout_rectangle_format_133) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
-| [draw_string(s, font, brush, point)](#draw_string_s_font_brush_point_134) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
-| [draw_string(s, font, brush, point, format)](#draw_string_s_font_brush_point_format_135) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
-| [draw_string(s, font, brush, x, y)](#draw_string_s_font_brush_x_y_136) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
-| [draw_string(s, font, brush, x, y, format)](#draw_string_s_font_brush_x_y_format_137) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
-| [draw_string_at_point_f(s, font, brush, point)](#draw_string_at_point_f_s_font_brush_point_138) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
-| [draw_string_at_point_f_format(s, font, brush, point, format)](#draw_string_at_point_f_format_s_font_brush_point_format_139) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
-| [draw_string_at_xy(s, font, brush, x, y)](#draw_string_at_xy_s_font_brush_x_y_140) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
-| [draw_string_in_rect(s, font, brush, layout_rectangle)](#draw_string_in_rect_s_font_brush_layout_rectangle_141) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
-| [draw_string_in_rect_f(s, font, brush, layout_rectangle, format)](#draw_string_in_rect_f_s_font_brush_layout_rectangle_format_142) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
+| [draw_rectangle(pen, x, y, width, height)](#draw_rectangle_pen_x_y_width_height_128) | Draws a rectangle specified by a coordinate pair, a width, and a height. |
+| [draw_rectangle(pen, x, y, width, height)](#draw_rectangle_pen_x_y_width_height_129) | Draws a rectangle specified by a coordinate pair, a width, and a height. |
+| [draw_rectangle_f(pen, rect)](#draw_rectangle_f_pen_rect_130) | Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [draw_rectangles(pen, rects)](#draw_rectangles_pen_rects_131) | Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
+| [draw_rectangles(pen, rects)](#draw_rectangles_pen_rects_132) | Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
+| [draw_rectangles_f(pen, rects)](#draw_rectangles_f_pen_rects_133) | Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
+| [draw_string(s, font, brush, layout_rectangle)](#draw_string_s_font_brush_layout_rectangle_134) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
+| [draw_string(s, font, brush, layout_rectangle, format)](#draw_string_s_font_brush_layout_rectangle_format_135) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
+| [draw_string(s, font, brush, point)](#draw_string_s_font_brush_point_136) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
+| [draw_string(s, font, brush, point, format)](#draw_string_s_font_brush_point_format_137) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
+| [draw_string(s, font, brush, x, y)](#draw_string_s_font_brush_x_y_138) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
+| [draw_string(s, font, brush, x, y, format)](#draw_string_s_font_brush_x_y_format_139) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
+| [draw_string_at_point_f(s, font, brush, point)](#draw_string_at_point_f_s_font_brush_point_140) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
+| [draw_string_at_point_f_format(s, font, brush, point, format)](#draw_string_at_point_f_format_s_font_brush_point_format_141) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
+| [draw_string_at_xy(s, font, brush, x, y)](#draw_string_at_xy_s_font_brush_x_y_142) | Draws the specified text string at the specified location with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
+| [draw_string_in_rect(s, font, brush, layout_rectangle)](#draw_string_in_rect_s_font_brush_layout_rectangle_143) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects. |
+| [draw_string_in_rect_f(s, font, brush, layout_rectangle, format)](#draw_string_in_rect_f_s_font_brush_layout_rectangle_format_144) | Draws the specified text string in the specified rectangle with the specified [Brush](/imaging/python-net/aspose.imaging/brush/) and [Font](/imaging/python-net/aspose.imaging/font/) objects using the formatting attributes of the specified [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
 | end_update() | Finishes caching of the graphics operations started after BeginUpdate was called. The preceding graphics operations will be applied at once when calling this method. |
-| [fill_closed_curve(brush, points)](#fill_closed_curve_brush_points_143) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
-| [fill_closed_curve(brush, points)](#fill_closed_curve_brush_points_144) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
-| [fill_closed_curve(brush, points, fillmode)](#fill_closed_curve_brush_points_fillmode_145) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
-| [fill_closed_curve(brush, points, fillmode)](#fill_closed_curve_brush_points_fillmode_146) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
-| [fill_closed_curve(brush, points, fillmode, tension)](#fill_closed_curve_brush_points_fillmode_tension_147) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
-| [fill_closed_curve(brush, points, fillmode, tension)](#fill_closed_curve_brush_points_fillmode_tension_148) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
-| [fill_closed_curve_by_point(brush, points)](#fill_closed_curve_by_point_brush_points_149) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
-| [fill_closed_curve_by_point_f(brush, points)](#fill_closed_curve_by_point_f_brush_points_150) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
-| [fill_closed_curve_by_point_f_fill_mode(brush, points, fillmode)](#fill_closed_curve_by_point_f_fill_mode_brush_points_fillmode_151) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
-| [fill_closed_curve_by_point_f_fill_mode_tension(brush, points, fillmode, tension)](#fill_closed_curve_by_point_f_fill_mode_tension_brush_points_fillmode_tension_152) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
-| [fill_closed_curve_by_point_fill_mode(brush, points, fillmode)](#fill_closed_curve_by_point_fill_mode_brush_points_fillmode_153) | Fills the interior of a closed cardinal spline curve defined by an array of [Point](/imaging/python-net/aspose.imaging/point/) structures using the specified fill mode. This method uses a default tension of 0.5. |
-| [fill_closed_curve_by_point_fill_mode_tension(brush, points, fillmode, tension)](#fill_closed_curve_by_point_fill_mode_tension_brush_points_fillmode_tension_154) | Fills the interior of a closed cardinal spline curve defined by an array of [Point](/imaging/python-net/aspose.imaging/point/) structures using the specified fill mode and tension. |
-| [fill_ellipse(brush, rect)](#fill_ellipse_brush_rect_155) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [fill_closed_curve(brush, points)](#fill_closed_curve_brush_points_145) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
+| [fill_closed_curve(brush, points)](#fill_closed_curve_brush_points_146) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
+| [fill_closed_curve(brush, points, fillmode)](#fill_closed_curve_brush_points_fillmode_147) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
+| [fill_closed_curve(brush, points, fillmode)](#fill_closed_curve_brush_points_fillmode_148) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
+| [fill_closed_curve(brush, points, fillmode, tension)](#fill_closed_curve_brush_points_fillmode_tension_149) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
+| [fill_closed_curve(brush, points, fillmode, tension)](#fill_closed_curve_brush_points_fillmode_tension_150) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
+| [fill_closed_curve_by_point(brush, points)](#fill_closed_curve_by_point_brush_points_151) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
+| [fill_closed_curve_by_point_f(brush, points)](#fill_closed_curve_by_point_f_brush_points_152) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
+| fill_closed_curve_by_point_f_fill_mode(brush, points, fillmode) |    |
+| [fill_closed_curve_by_point_f_fill_mode_tension(brush, points, fillmode, tension)](#fill_closed_curve_by_point_f_fill_mode_tension_brush_points_fillmode_tension_153) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
+| [fill_closed_curve_by_point_fill_mode(brush, points, fillmode)](#fill_closed_curve_by_point_fill_mode_brush_points_fillmode_154) | Fills the interior of a closed cardinal spline curve defined by an array of [Point](/imaging/python-net/aspose.imaging/point/) structures using the specified fill mode. This method uses a default tension of 0.5. |
+| [fill_closed_curve_by_point_fill_mode_tension(brush, points, fillmode, tension)](#fill_closed_curve_by_point_fill_mode_tension_brush_points_fillmode_tension_155) | Fills the interior of a closed cardinal spline curve defined by an array of [Point](/imaging/python-net/aspose.imaging/point/) structures using the specified fill mode and tension. |
 | [fill_ellipse(brush, rect)](#fill_ellipse_brush_rect_156) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [fill_ellipse(brush, x, y, width, height)](#fill_ellipse_brush_x_y_width_height_157) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
+| [fill_ellipse(brush, rect)](#fill_ellipse_brush_rect_157) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | [fill_ellipse(brush, x, y, width, height)](#fill_ellipse_brush_x_y_width_height_158) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
-| [fill_ellipse_at_xywh(brush, x, y, width, height)](#fill_ellipse_at_xywh_brush_x_y_width_height_159) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
-| [fill_ellipse_at_xywhf(brush, x, y, width, height)](#fill_ellipse_at_xywhf_brush_x_y_width_height_160) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
-| [fill_ellipse_in_rect(brush, rect)](#fill_ellipse_in_rect_brush_rect_161) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [fill_ellipse_in_rect_f(brush, rect)](#fill_ellipse_in_rect_f_brush_rect_162) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [fill_path(brush, path)](#fill_path_brush_path_163) | Fills the interior of a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [fill_pie(brush, rect, start_angle, sweep_angle)](#fill_pie_brush_rect_start_angle_sweep_angle_164) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
+| [fill_ellipse(brush, x, y, width, height)](#fill_ellipse_brush_x_y_width_height_159) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
+| [fill_ellipse_at_xywh(brush, x, y, width, height)](#fill_ellipse_at_xywh_brush_x_y_width_height_160) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
+| [fill_ellipse_at_xywhf(brush, x, y, width, height)](#fill_ellipse_at_xywhf_brush_x_y_width_height_161) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
+| [fill_ellipse_in_rect(brush, rect)](#fill_ellipse_in_rect_brush_rect_162) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [fill_ellipse_in_rect_f(brush, rect)](#fill_ellipse_in_rect_f_brush_rect_163) | Fills the interior of an ellipse defined by a bounding rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [fill_path(brush, path)](#fill_path_brush_path_164) | Fills the interior of a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
 | [fill_pie(brush, rect, start_angle, sweep_angle)](#fill_pie_brush_rect_start_angle_sweep_angle_165) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
-| [fill_pie(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_166) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
+| [fill_pie(brush, rect, start_angle, sweep_angle)](#fill_pie_brush_rect_start_angle_sweep_angle_166) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
 | [fill_pie(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_167) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
-| [fill_pie_at_xy(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_at_xy_brush_x_y_width_height_start_angle_sweep_angle_168) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
-| [fill_pie_at_xyf(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_at_xyf_brush_x_y_width_height_start_angle_sweep_angle_169) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
-| [fill_pie_in_rect(brush, rect, start_angle, sweep_angle)](#fill_pie_in_rect_brush_rect_start_angle_sweep_angle_170) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
-| [fill_pie_in_rect_f(brush, rect, start_angle, sweep_angle)](#fill_pie_in_rect_f_brush_rect_start_angle_sweep_angle_171) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
-| [fill_polygon(brush, points)](#fill_polygon_brush_points_172) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
+| [fill_pie(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_168) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
+| [fill_pie_at_xy(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_at_xy_brush_x_y_width_height_start_angle_sweep_angle_169) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
+| [fill_pie_at_xyf(brush, x, y, width, height, start_angle, sweep_angle)](#fill_pie_at_xyf_brush_x_y_width_height_start_angle_sweep_angle_170) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
+| [fill_pie_in_rect(brush, rect, start_angle, sweep_angle)](#fill_pie_in_rect_brush_rect_start_angle_sweep_angle_171) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
+| [fill_pie_in_rect_f(brush, rect, start_angle, sweep_angle)](#fill_pie_in_rect_f_brush_rect_start_angle_sweep_angle_172) | Fills the interior of a pie section defined by an ellipse specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure and two radial lines. |
 | [fill_polygon(brush, points)](#fill_polygon_brush_points_173) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
-| [fill_polygon(brush, points, fill_mode)](#fill_polygon_brush_points_fill_mode_174) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. |
+| [fill_polygon(brush, points)](#fill_polygon_brush_points_174) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
 | [fill_polygon(brush, points, fill_mode)](#fill_polygon_brush_points_fill_mode_175) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. |
-| [fill_polygon_by_point(brush, points)](#fill_polygon_by_point_brush_points_176) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
-| [fill_polygon_by_point_f(brush, points)](#fill_polygon_by_point_f_brush_points_177) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
-| [fill_polygon_by_point_f_fill_mode(brush, points, fill_mode)](#fill_polygon_by_point_f_fill_mode_brush_points_fill_mode_178) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. |
-| [fill_polygon_by_point_fill_mode(brush, points, fill_mode)](#fill_polygon_by_point_fill_mode_brush_points_fill_mode_179) | Fills the interior of a polygon defined by an array of points specified by [Point](/imaging/python-net/aspose.imaging/point/) structures using the specified fill mode. |
-| [fill_rectangle(brush, rect)](#fill_rectangle_brush_rect_180) | Fills the interior of a rectangle specified by a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
+| [fill_polygon(brush, points, fill_mode)](#fill_polygon_brush_points_fill_mode_176) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. |
+| [fill_polygon_by_point(brush, points)](#fill_polygon_by_point_brush_points_177) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
+| [fill_polygon_by_point_f(brush, points)](#fill_polygon_by_point_f_brush_points_178) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/). |
+| [fill_polygon_by_point_f_fill_mode(brush, points, fill_mode)](#fill_polygon_by_point_f_fill_mode_brush_points_fill_mode_179) | Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. |
+| [fill_polygon_by_point_fill_mode(brush, points, fill_mode)](#fill_polygon_by_point_fill_mode_brush_points_fill_mode_180) | Fills the interior of a polygon defined by an array of points specified by [Point](/imaging/python-net/aspose.imaging/point/) structures using the specified fill mode. |
 | [fill_rectangle(brush, rect)](#fill_rectangle_brush_rect_181) | Fills the interior of a rectangle specified by a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
-| [fill_rectangle(brush, x, y, width, height)](#fill_rectangle_brush_x_y_width_height_182) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
+| [fill_rectangle(brush, rect)](#fill_rectangle_brush_rect_182) | Fills the interior of a rectangle specified by a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | [fill_rectangle(brush, x, y, width, height)](#fill_rectangle_brush_x_y_width_height_183) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
-| [fill_rectangle_f(brush, rect)](#fill_rectangle_f_brush_rect_184) | Fills the interior of a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [fill_rectangle_f_with_brush(brush, x, y, width, height)](#fill_rectangle_f_with_brush_brush_x_y_width_height_185) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
-| [fill_rectangle_with_brush(brush, x, y, width, height)](#fill_rectangle_with_brush_brush_x_y_width_height_186) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
-| [fill_rectangles(brush, rects)](#fill_rectangles_brush_rects_187) | Fills the interiors of a series of rectangles specified by [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. |
+| [fill_rectangle(brush, x, y, width, height)](#fill_rectangle_brush_x_y_width_height_184) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
+| [fill_rectangle_f(brush, rect)](#fill_rectangle_f_brush_rect_185) | Fills the interior of a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [fill_rectangle_f_with_brush(brush, x, y, width, height)](#fill_rectangle_f_with_brush_brush_x_y_width_height_186) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
+| [fill_rectangle_with_brush(brush, x, y, width, height)](#fill_rectangle_with_brush_brush_x_y_width_height_187) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
 | [fill_rectangles(brush, rects)](#fill_rectangles_brush_rects_188) | Fills the interiors of a series of rectangles specified by [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. |
-| [fill_rectangles_f(brush, rects)](#fill_rectangles_f_brush_rects_189) | Fills the interiors of a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
-| [fill_region(brush, region)](#fill_region_brush_region_190) | Fills the interior of a [Region](/imaging/python-net/aspose.imaging/region/). |
-| [measure_string(text, font, layout_area, string_format)](#measure_string_text_font_layout_area_string_format_191) | Measures the specified text string with specified parameters |
-| [multiply_transform(matrix)](#multiply_transform_matrix_192) | Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represents the local geometric transform of this [Graphics](/imaging/python-net/aspose.imaging/graphics/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/) by prepending the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/). |
-| [multiply_transform(matrix, order)](#multiply_transform_matrix_order_193) | Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represents the local geometric transform of this [Graphics](/imaging/python-net/aspose.imaging/graphics/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/) in the specified order. |
+| [fill_rectangles(brush, rects)](#fill_rectangles_brush_rects_189) | Fills the interiors of a series of rectangles specified by [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. |
+| [fill_rectangles_f(brush, rects)](#fill_rectangles_f_brush_rects_190) | Fills the interiors of a series of rectangles specified by [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures. |
+| [fill_region(brush, region)](#fill_region_brush_region_191) | Fills the interior of a [Region](/imaging/python-net/aspose.imaging/region/). |
+| [measure_string(text, font, layout_area, string_format)](#measure_string_text_font_layout_area_string_format_192) | Measures the specified text string with specified parameters |
+| [multiply_transform(matrix)](#multiply_transform_matrix_193) | Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represents the local geometric transform of this [Graphics](/imaging/python-net/aspose.imaging/graphics/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/) by prepending the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/). |
+| [multiply_transform(matrix, order)](#multiply_transform_matrix_order_194) | Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represents the local geometric transform of this [Graphics](/imaging/python-net/aspose.imaging/graphics/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/) in the specified order. |
 | reset_transform() | Resets the [Graphics.transform](/imaging/python-net/aspose.imaging/graphics/) property to identity. |
-| [rotate_transform(angle)](#rotate_transform_angle_194) | Rotates the local geometric transform by the specified amount. This method prepends the rotation to the transform. |
-| [rotate_transform(angle, order)](#rotate_transform_angle_order_195) | Rotates the local geometric transform by the specified amount in the specified order. |
-| [scale_transform(sx, sy)](#scale_transform_sx_sy_196) | Scales the local geometric transform by the specified amounts. This method prepends the scaling matrix to the transform. |
-| [scale_transform(sx, sy, order)](#scale_transform_sx_sy_order_197) | Scales the local geometric transform by the specified amounts in the specified order. |
-| [translate_transform(dx, dy)](#translate_transform_dx_dy_198) | Translates the local geometric transform by the specified dimensions. This method prepends the translation to the transform. |
-| [translate_transform(dx, dy, order)](#translate_transform_dx_dy_order_199) | Translates the local geometric transform by the specified dimensions in the specified order. |
+| [rotate_transform(angle)](#rotate_transform_angle_195) | Rotates the local geometric transform by the specified amount. This method prepends the rotation to the transform. |
+| [rotate_transform(angle, order)](#rotate_transform_angle_order_196) | Rotates the local geometric transform by the specified amount in the specified order. |
+| [scale_transform(sx, sy)](#scale_transform_sx_sy_197) | Scales the local geometric transform by the specified amounts. This method prepends the scaling matrix to the transform. |
+| [scale_transform(sx, sy, order)](#scale_transform_sx_sy_order_198) | Scales the local geometric transform by the specified amounts in the specified order. |
+| [translate_transform(dx, dy)](#translate_transform_dx_dy_199) | Translates the local geometric transform by the specified dimensions. This method prepends the translation to the transform. |
+| [translate_transform(dx, dy, order)](#translate_transform_dx_dy_order_200) | Translates the local geometric transform by the specified dimensions in the specified order. |
 
 
 ### Constructor: Graphics(source_image) {#Graphics_source_image_1}
@@ -2604,7 +2604,45 @@ Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging
 **[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
-### Method: draw_rectangle_f(pen, rect) {#draw_rectangle_f_pen_rect_128}
+### Method: draw_rectangle(pen, x, y, width, height) {#draw_rectangle_pen_x_y_width_height_128}
+
+
+```
+ draw_rectangle(pen, x, y, width, height) 
+```
+
+Draws a rectangle specified by a coordinate pair, a width, and a height.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the rectangle. |
+| x | float | The x-coordinate of the upper-left corner of the rectangle to draw. |
+| y | float | The y-coordinate of the upper-left corner of the rectangle to draw. |
+| width | float | The width of the rectangle to draw. |
+| height | float | The height of the rectangle to draw. |
+
+### Method: draw_rectangle(pen, x, y, width, height) {#draw_rectangle_pen_x_y_width_height_129}
+
+
+```
+ draw_rectangle(pen, x, y, width, height) 
+```
+
+Draws a rectangle specified by a coordinate pair, a width, and a height.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the rectangle. |
+| x | int | The x-coordinate of the upper-left corner of the rectangle to draw. |
+| y | int | The y-coordinate of the upper-left corner of the rectangle to draw. |
+| width | int | The width of the rectangle to draw. |
+| height | int | The height of the rectangle to draw. |
+
+### Method: draw_rectangle_f(pen, rect) {#draw_rectangle_f_pen_rect_130}
 
 
 ```
@@ -2620,7 +2658,7 @@ Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the rectangle. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to draw. |
 
-### Method: draw_rectangles(pen, rects) {#draw_rectangles_pen_rects_129}
+### Method: draw_rectangles(pen, rects) {#draw_rectangles_pen_rects_131}
 
 
 ```
@@ -2642,7 +2680,7 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 **[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 
-### Method: draw_rectangles(pen, rects) {#draw_rectangles_pen_rects_130}
+### Method: draw_rectangles(pen, rects) {#draw_rectangles_pen_rects_132}
 
 
 ```
@@ -2664,7 +2702,7 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 **[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 
-### Method: draw_rectangles_f(pen, rects) {#draw_rectangles_f_pen_rects_131}
+### Method: draw_rectangles_f(pen, rects) {#draw_rectangles_f_pen_rects_133}
 
 
 ```
@@ -2680,7 +2718,7 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the outlines of the rectangles. |
 | rects | [RectangleF[]](/imaging/python-net/aspose.imaging/rectanglef) | Array of [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures that represent the rectangles to draw. |
 
-### Method: draw_string(s, font, brush, layout_rectangle) {#draw_string_s_font_brush_layout_rectangle_132}
+### Method: draw_string(s, font, brush, layout_rectangle) {#draw_string_s_font_brush_layout_rectangle_134}
 
 
 ```
@@ -2698,7 +2736,7 @@ Draws the specified text string in the specified rectangle with the specified [B
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the color and texture of the drawn text. |
 | layout_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the location of the drawn text. |
 
-### Method: draw_string(s, font, brush, layout_rectangle, format) {#draw_string_s_font_brush_layout_rectangle_format_133}
+### Method: draw_string(s, font, brush, layout_rectangle, format) {#draw_string_s_font_brush_layout_rectangle_format_135}
 
 
 ```
@@ -2717,7 +2755,7 @@ Draws the specified text string in the specified rectangle with the specified [B
 | layout_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the location of the drawn text. |
 | format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
-### Method: draw_string(s, font, brush, point) {#draw_string_s_font_brush_point_134}
+### Method: draw_string(s, font, brush, point) {#draw_string_s_font_brush_point_136}
 
 
 ```
@@ -2741,7 +2779,7 @@ Draws the specified text string at the specified location with the specified [Br
 **[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 
-### Method: draw_string(s, font, brush, point, format) {#draw_string_s_font_brush_point_format_135}
+### Method: draw_string(s, font, brush, point, format) {#draw_string_s_font_brush_point_format_137}
 
 
 ```
@@ -2760,7 +2798,7 @@ Draws the specified text string at the specified location with the specified [Br
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that specifies the upper-left corner of the drawn text. |
 | format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
-### Method: draw_string(s, font, brush, x, y) {#draw_string_s_font_brush_x_y_136}
+### Method: draw_string(s, font, brush, x, y) {#draw_string_s_font_brush_x_y_138}
 
 
 ```
@@ -2779,7 +2817,7 @@ Draws the specified text string at the specified location with the specified [Br
 | x | float | The x-coordinate of the upper-left corner of the drawn text. |
 | y | float | The y-coordinate of the upper-left corner of the drawn text. |
 
-### Method: draw_string(s, font, brush, x, y, format) {#draw_string_s_font_brush_x_y_format_137}
+### Method: draw_string(s, font, brush, x, y, format) {#draw_string_s_font_brush_x_y_format_139}
 
 
 ```
@@ -2799,7 +2837,7 @@ Draws the specified text string at the specified location with the specified [Br
 | y | float | The y-coordinate of the upper-left corner of the drawn text. |
 | format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
-### Method: draw_string_at_point_f(s, font, brush, point) {#draw_string_at_point_f_s_font_brush_point_138}
+### Method: draw_string_at_point_f(s, font, brush, point) {#draw_string_at_point_f_s_font_brush_point_140}
 
 
 ```
@@ -2817,7 +2855,7 @@ Draws the specified text string at the specified location with the specified [Br
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the color and texture of the drawn text. |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that specifies the upper-left corner of the drawn text. |
 
-### Method: draw_string_at_point_f_format(s, font, brush, point, format) {#draw_string_at_point_f_format_s_font_brush_point_format_139}
+### Method: draw_string_at_point_f_format(s, font, brush, point, format) {#draw_string_at_point_f_format_s_font_brush_point_format_141}
 
 
 ```
@@ -2836,7 +2874,7 @@ Draws the specified text string at the specified location with the specified [Br
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that specifies the upper-left corner of the drawn text. |
 | format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
-### Method: draw_string_at_xy(s, font, brush, x, y) {#draw_string_at_xy_s_font_brush_x_y_140}
+### Method: draw_string_at_xy(s, font, brush, x, y) {#draw_string_at_xy_s_font_brush_x_y_142}
 
 
 ```
@@ -2855,7 +2893,7 @@ Draws the specified text string at the specified location with the specified [Br
 | x | float | The x-coordinate of the upper-left corner of the drawn text. |
 | y | float | The y-coordinate of the upper-left corner of the drawn text. |
 
-### Method: draw_string_in_rect(s, font, brush, layout_rectangle) {#draw_string_in_rect_s_font_brush_layout_rectangle_141}
+### Method: draw_string_in_rect(s, font, brush, layout_rectangle) {#draw_string_in_rect_s_font_brush_layout_rectangle_143}
 
 
 ```
@@ -2873,7 +2911,7 @@ Draws the specified text string in the specified rectangle with the specified [B
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the color and texture of the drawn text. |
 | layout_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the location of the drawn text. |
 
-### Method: draw_string_in_rect_f(s, font, brush, layout_rectangle, format) {#draw_string_in_rect_f_s_font_brush_layout_rectangle_format_142}
+### Method: draw_string_in_rect_f(s, font, brush, layout_rectangle, format) {#draw_string_in_rect_f_s_font_brush_layout_rectangle_format_144}
 
 
 ```
@@ -2892,7 +2930,7 @@ Draws the specified text string in the specified rectangle with the specified [B
 | layout_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the location of the drawn text. |
 | format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
-### Method: fill_closed_curve(brush, points) {#fill_closed_curve_brush_points_143}
+### Method: fill_closed_curve(brush, points) {#fill_closed_curve_brush_points_145}
 
 
 ```
@@ -2908,7 +2946,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 
-### Method: fill_closed_curve(brush, points) {#fill_closed_curve_brush_points_144}
+### Method: fill_closed_curve(brush, points) {#fill_closed_curve_brush_points_146}
 
 
 ```
@@ -2924,7 +2962,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 
-### Method: fill_closed_curve(brush, points, fillmode) {#fill_closed_curve_brush_points_fillmode_145}
+### Method: fill_closed_curve(brush, points, fillmode) {#fill_closed_curve_brush_points_fillmode_147}
 
 
 ```
@@ -2941,7 +2979,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 
-### Method: fill_closed_curve(brush, points, fillmode) {#fill_closed_curve_brush_points_fillmode_146}
+### Method: fill_closed_curve(brush, points, fillmode) {#fill_closed_curve_brush_points_fillmode_148}
 
 
 ```
@@ -2958,7 +2996,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 
-### Method: fill_closed_curve(brush, points, fillmode, tension) {#fill_closed_curve_brush_points_fillmode_tension_147}
+### Method: fill_closed_curve(brush, points, fillmode, tension) {#fill_closed_curve_brush_points_fillmode_tension_149}
 
 
 ```
@@ -2976,7 +3014,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
-### Method: fill_closed_curve(brush, points, fillmode, tension) {#fill_closed_curve_brush_points_fillmode_tension_148}
+### Method: fill_closed_curve(brush, points, fillmode, tension) {#fill_closed_curve_brush_points_fillmode_tension_150}
 
 
 ```
@@ -2994,7 +3032,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
-### Method: fill_closed_curve_by_point(brush, points) {#fill_closed_curve_by_point_brush_points_149}
+### Method: fill_closed_curve_by_point(brush, points) {#fill_closed_curve_by_point_brush_points_151}
 
 
 ```
@@ -3010,7 +3048,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 
-### Method: fill_closed_curve_by_point_f(brush, points) {#fill_closed_curve_by_point_f_brush_points_150}
+### Method: fill_closed_curve_by_point_f(brush, points) {#fill_closed_curve_by_point_f_brush_points_152}
 
 
 ```
@@ -3026,24 +3064,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 
-### Method: fill_closed_curve_by_point_f_fill_mode(brush, points, fillmode) {#fill_closed_curve_by_point_f_fill_mode_brush_points_fillmode_151}
-
-
-```
- fill_closed_curve_by_point_f_fill_mode(brush, points, fillmode) 
-```
-
-Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
-
-### Method: fill_closed_curve_by_point_f_fill_mode_tension(brush, points, fillmode, tension) {#fill_closed_curve_by_point_f_fill_mode_tension_brush_points_fillmode_tension_152}
+### Method: fill_closed_curve_by_point_f_fill_mode_tension(brush, points, fillmode, tension) {#fill_closed_curve_by_point_f_fill_mode_tension_brush_points_fillmode_tension_153}
 
 
 ```
@@ -3061,7 +3082,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
-### Method: fill_closed_curve_by_point_fill_mode(brush, points, fillmode) {#fill_closed_curve_by_point_fill_mode_brush_points_fillmode_153}
+### Method: fill_closed_curve_by_point_fill_mode(brush, points, fillmode) {#fill_closed_curve_by_point_fill_mode_brush_points_fillmode_154}
 
 
 ```
@@ -3078,7 +3099,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [Point](/imaging/python-net/aspose.imaging/point/) structures that define the spline. |
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 
-### Method: fill_closed_curve_by_point_fill_mode_tension(brush, points, fillmode, tension) {#fill_closed_curve_by_point_fill_mode_tension_brush_points_fillmode_tension_154}
+### Method: fill_closed_curve_by_point_fill_mode_tension(brush, points, fillmode, tension) {#fill_closed_curve_by_point_fill_mode_tension_brush_points_fillmode_tension_155}
 
 
 ```
@@ -3096,7 +3117,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
-### Method: fill_ellipse(brush, rect) {#fill_ellipse_brush_rect_155}
+### Method: fill_ellipse(brush, rect) {#fill_ellipse_brush_rect_156}
 
 
 ```
@@ -3112,7 +3133,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse(brush, rect) {#fill_ellipse_brush_rect_156}
+### Method: fill_ellipse(brush, rect) {#fill_ellipse_brush_rect_157}
 
 
 ```
@@ -3128,7 +3149,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse(brush, x, y, width, height) {#fill_ellipse_brush_x_y_width_height_157}
+### Method: fill_ellipse(brush, x, y, width, height) {#fill_ellipse_brush_x_y_width_height_158}
 
 
 ```
@@ -3147,7 +3168,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | width | float | Width of the bounding rectangle that defines the ellipse. |
 | height | float | Height of the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse(brush, x, y, width, height) {#fill_ellipse_brush_x_y_width_height_158}
+### Method: fill_ellipse(brush, x, y, width, height) {#fill_ellipse_brush_x_y_width_height_159}
 
 
 ```
@@ -3166,7 +3187,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | width | int | Width of the bounding rectangle that defines the ellipse. |
 | height | int | Height of the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse_at_xywh(brush, x, y, width, height) {#fill_ellipse_at_xywh_brush_x_y_width_height_159}
+### Method: fill_ellipse_at_xywh(brush, x, y, width, height) {#fill_ellipse_at_xywh_brush_x_y_width_height_160}
 
 
 ```
@@ -3185,7 +3206,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | width | int | Width of the bounding rectangle that defines the ellipse. |
 | height | int | Height of the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse_at_xywhf(brush, x, y, width, height) {#fill_ellipse_at_xywhf_brush_x_y_width_height_160}
+### Method: fill_ellipse_at_xywhf(brush, x, y, width, height) {#fill_ellipse_at_xywhf_brush_x_y_width_height_161}
 
 
 ```
@@ -3204,7 +3225,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | width | float | Width of the bounding rectangle that defines the ellipse. |
 | height | float | Height of the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse_in_rect(brush, rect) {#fill_ellipse_in_rect_brush_rect_161}
+### Method: fill_ellipse_in_rect(brush, rect) {#fill_ellipse_in_rect_brush_rect_162}
 
 
 ```
@@ -3220,7 +3241,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse. |
 
-### Method: fill_ellipse_in_rect_f(brush, rect) {#fill_ellipse_in_rect_f_brush_rect_162}
+### Method: fill_ellipse_in_rect_f(brush, rect) {#fill_ellipse_in_rect_f_brush_rect_163}
 
 
 ```
@@ -3236,7 +3257,7 @@ Fills the interior of an ellipse defined by a bounding rectangle specified by a 
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse. |
 
-### Method: fill_path(brush, path) {#fill_path_brush_path_163}
+### Method: fill_path(brush, path) {#fill_path_brush_path_164}
 
 
 ```
@@ -3252,7 +3273,7 @@ Fills the interior of a [GraphicsPath](/imaging/python-net/aspose.imaging/graphi
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that represents the path to fill. |
 
-### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_164}
+### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_165}
 
 
 ```
@@ -3270,7 +3291,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_165}
+### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_166}
 
 
 ```
@@ -3288,7 +3309,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_166}
+### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_167}
 
 
 ```
@@ -3309,7 +3330,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_167}
+### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_168}
 
 
 ```
@@ -3330,7 +3351,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | start_angle | int | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | int | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie_at_xy(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_at_xy_brush_x_y_width_height_start_angle_sweep_angle_168}
+### Method: fill_pie_at_xy(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_at_xy_brush_x_y_width_height_start_angle_sweep_angle_169}
 
 
 ```
@@ -3351,7 +3372,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | start_angle | int | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | int | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie_at_xyf(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_at_xyf_brush_x_y_width_height_start_angle_sweep_angle_169}
+### Method: fill_pie_at_xyf(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_at_xyf_brush_x_y_width_height_start_angle_sweep_angle_170}
 
 
 ```
@@ -3372,7 +3393,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie_in_rect(brush, rect, start_angle, sweep_angle) {#fill_pie_in_rect_brush_rect_start_angle_sweep_angle_170}
+### Method: fill_pie_in_rect(brush, rect, start_angle, sweep_angle) {#fill_pie_in_rect_brush_rect_start_angle_sweep_angle_171}
 
 
 ```
@@ -3390,7 +3411,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_pie_in_rect_f(brush, rect, start_angle, sweep_angle) {#fill_pie_in_rect_f_brush_rect_start_angle_sweep_angle_171}
+### Method: fill_pie_in_rect_f(brush, rect, start_angle, sweep_angle) {#fill_pie_in_rect_f_brush_rect_start_angle_sweep_angle_172}
 
 
 ```
@@ -3408,22 +3429,6 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
 
-### Method: fill_polygon(brush, points) {#fill_polygon_brush_points_172}
-
-
-```
- fill_polygon(brush, points) 
-```
-
-Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
-
 ### Method: fill_polygon(brush, points) {#fill_polygon_brush_points_173}
 
 
@@ -3438,24 +3443,23 @@ Fills the interior of a polygon defined by an array of points specified by [Poin
 | Parameter | Type | Description |
 | :- | :- | :- |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
+| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
 
-### Method: fill_polygon(brush, points, fill_mode) {#fill_polygon_brush_points_fill_mode_174}
+### Method: fill_polygon(brush, points) {#fill_polygon_brush_points_174}
 
 
 ```
- fill_polygon(brush, points, fill_mode) 
+ fill_polygon(brush, points) 
 ```
 
-Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode.
+Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
-| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines the style of the fill. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
 
 ### Method: fill_polygon(brush, points, fill_mode) {#fill_polygon_brush_points_fill_mode_175}
 
@@ -3471,10 +3475,27 @@ Fills the interior of a polygon defined by an array of points specified by [Poin
 | Parameter | Type | Description |
 | :- | :- | :- |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
+| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
+| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines the style of the fill. |
+
+### Method: fill_polygon(brush, points, fill_mode) {#fill_polygon_brush_points_fill_mode_176}
+
+
+```
+ fill_polygon(brush, points, fill_mode) 
+```
+
+Fills the interior of a polygon defined by an array of points specified by [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
 | fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines the style of the fill. |
 
-### Method: fill_polygon_by_point(brush, points) {#fill_polygon_by_point_brush_points_176}
+### Method: fill_polygon_by_point(brush, points) {#fill_polygon_by_point_brush_points_177}
 
 
 ```
@@ -3490,7 +3511,7 @@ Fills the interior of a polygon defined by an array of points specified by [Poin
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
 
-### Method: fill_polygon_by_point_f(brush, points) {#fill_polygon_by_point_f_brush_points_177}
+### Method: fill_polygon_by_point_f(brush, points) {#fill_polygon_by_point_f_brush_points_178}
 
 
 ```
@@ -3506,7 +3527,7 @@ Fills the interior of a polygon defined by an array of points specified by [Poin
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
 
-### Method: fill_polygon_by_point_f_fill_mode(brush, points, fill_mode) {#fill_polygon_by_point_f_fill_mode_brush_points_fill_mode_178}
+### Method: fill_polygon_by_point_f_fill_mode(brush, points, fill_mode) {#fill_polygon_by_point_f_fill_mode_brush_points_fill_mode_179}
 
 
 ```
@@ -3523,7 +3544,7 @@ Fills the interior of a polygon defined by an array of points specified by [Poin
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon to fill. |
 | fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines the style of the fill. |
 
-### Method: fill_polygon_by_point_fill_mode(brush, points, fill_mode) {#fill_polygon_by_point_fill_mode_brush_points_fill_mode_179}
+### Method: fill_polygon_by_point_fill_mode(brush, points, fill_mode) {#fill_polygon_by_point_fill_mode_brush_points_fill_mode_180}
 
 
 ```
@@ -3540,7 +3561,7 @@ Fills the interior of a polygon defined by an array of points specified by [Poin
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [Point](/imaging/python-net/aspose.imaging/point/) structures that represent the vertices of the polygon to fill. |
 | fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines the style of the fill. |
 
-### Method: fill_rectangle(brush, rect) {#fill_rectangle_brush_rect_180}
+### Method: fill_rectangle(brush, rect) {#fill_rectangle_brush_rect_181}
 
 
 ```
@@ -3556,7 +3577,7 @@ Fills the interior of a rectangle specified by a [Rectangle](/imaging/python-net
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the rectangle to fill. |
 
-### Method: fill_rectangle(brush, rect) {#fill_rectangle_brush_rect_181}
+### Method: fill_rectangle(brush, rect) {#fill_rectangle_brush_rect_182}
 
 
 ```
@@ -3572,7 +3593,7 @@ Fills the interior of a rectangle specified by a [Rectangle](/imaging/python-net
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the rectangle to fill. |
 
-### Method: fill_rectangle(brush, x, y, width, height) {#fill_rectangle_brush_x_y_width_height_182}
+### Method: fill_rectangle(brush, x, y, width, height) {#fill_rectangle_brush_x_y_width_height_183}
 
 
 ```
@@ -3591,7 +3612,7 @@ Fills the interior of a rectangle specified by a pair of coordinates, a width an
 | width | float | Width of the rectangle to fill. |
 | height | float | Height of the rectangle to fill. |
 
-### Method: fill_rectangle(brush, x, y, width, height) {#fill_rectangle_brush_x_y_width_height_183}
+### Method: fill_rectangle(brush, x, y, width, height) {#fill_rectangle_brush_x_y_width_height_184}
 
 
 ```
@@ -3610,7 +3631,7 @@ Fills the interior of a rectangle specified by a pair of coordinates, a width an
 | width | int | Width of the rectangle to fill. |
 | height | int | Height of the rectangle to fill. |
 
-### Method: fill_rectangle_f(brush, rect) {#fill_rectangle_f_brush_rect_184}
+### Method: fill_rectangle_f(brush, rect) {#fill_rectangle_f_brush_rect_185}
 
 
 ```
@@ -3626,7 +3647,7 @@ Fills the interior of a rectangle specified by a [RectangleF](/imaging/python-ne
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to fill. |
 
-### Method: fill_rectangle_f_with_brush(brush, x, y, width, height) {#fill_rectangle_f_with_brush_brush_x_y_width_height_185}
+### Method: fill_rectangle_f_with_brush(brush, x, y, width, height) {#fill_rectangle_f_with_brush_brush_x_y_width_height_186}
 
 
 ```
@@ -3645,7 +3666,7 @@ Fills the interior of a rectangle specified by a pair of coordinates, a width an
 | width | float | Width of the rectangle to fill. |
 | height | float | Height of the rectangle to fill. |
 
-### Method: fill_rectangle_with_brush(brush, x, y, width, height) {#fill_rectangle_with_brush_brush_x_y_width_height_186}
+### Method: fill_rectangle_with_brush(brush, x, y, width, height) {#fill_rectangle_with_brush_brush_x_y_width_height_187}
 
 
 ```
@@ -3664,7 +3685,7 @@ Fills the interior of a rectangle specified by a pair of coordinates, a width an
 | width | int | Width of the rectangle to fill. |
 | height | int | Height of the rectangle to fill. |
 
-### Method: fill_rectangles(brush, rects) {#fill_rectangles_brush_rects_187}
+### Method: fill_rectangles(brush, rects) {#fill_rectangles_brush_rects_188}
 
 
 ```
@@ -3680,7 +3701,7 @@ Fills the interiors of a series of rectangles specified by [Rectangle](/imaging/
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rects | [Rectangle[]](/imaging/python-net/aspose.imaging/rectangle) | Array of [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures that represent the rectangles to fill. |
 
-### Method: fill_rectangles(brush, rects) {#fill_rectangles_brush_rects_188}
+### Method: fill_rectangles(brush, rects) {#fill_rectangles_brush_rects_189}
 
 
 ```
@@ -3696,7 +3717,7 @@ Fills the interiors of a series of rectangles specified by [Rectangle](/imaging/
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rects | [RectangleF[]](/imaging/python-net/aspose.imaging/rectanglef) | Array of [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures that represent the rectangles to fill. |
 
-### Method: fill_rectangles_f(brush, rects) {#fill_rectangles_f_brush_rects_189}
+### Method: fill_rectangles_f(brush, rects) {#fill_rectangles_f_brush_rects_190}
 
 
 ```
@@ -3712,7 +3733,7 @@ Fills the interiors of a series of rectangles specified by [RectangleF](/imaging
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rects | [RectangleF[]](/imaging/python-net/aspose.imaging/rectanglef) | Array of [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures that represent the rectangles to fill. |
 
-### Method: fill_region(brush, region) {#fill_region_brush_region_190}
+### Method: fill_region(brush, region) {#fill_region_brush_region_191}
 
 
 ```
@@ -3728,7 +3749,7 @@ Fills the interior of a [Region](/imaging/python-net/aspose.imaging/region/).
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | region | [Region](/imaging/python-net/aspose.imaging/region) | [Region](/imaging/python-net/aspose.imaging/region/) that represents the area to fill. |
 
-### Method: measure_string(text, font, layout_area, string_format) {#measure_string_text_font_layout_area_string_format_191}
+### Method: measure_string(text, font, layout_area, string_format) {#measure_string_text_font_layout_area_string_format_192}
 
 
 ```
@@ -3753,7 +3774,7 @@ Measures the specified text string with specified parameters
 | [SizeF](/imaging/python-net/aspose.imaging/sizef) | Size in pixels of measured text string |
 
 
-### Method: multiply_transform(matrix) {#multiply_transform_matrix_192}
+### Method: multiply_transform(matrix) {#multiply_transform_matrix_193}
 
 
 ```
@@ -3768,7 +3789,7 @@ Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represe
 | :- | :- | :- |
 | matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
 
-### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_193}
+### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_194}
 
 
 ```
@@ -3784,7 +3805,7 @@ Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represe
 | matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies in which order to multiply the two matrices. |
 
-### Method: rotate_transform(angle) {#rotate_transform_angle_194}
+### Method: rotate_transform(angle) {#rotate_transform_angle_195}
 
 
 ```
@@ -3799,7 +3820,7 @@ Rotates the local geometric transform by the specified amount. This method prepe
 | :- | :- | :- |
 | angle | float | The angle of rotation. |
 
-### Method: rotate_transform(angle, order) {#rotate_transform_angle_order_195}
+### Method: rotate_transform(angle, order) {#rotate_transform_angle_order_196}
 
 
 ```
@@ -3815,7 +3836,7 @@ Rotates the local geometric transform by the specified amount in the specified o
 | angle | float | The angle of rotation. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
 
-### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_196}
+### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_197}
 
 
 ```
@@ -3831,7 +3852,7 @@ Scales the local geometric transform by the specified amounts. This method prepe
 | sx | float | The amount by which to scale the transform in the x-axis direction. |
 | sy | float | The amount by which to scale the transform in the y-axis direction. |
 
-### Method: scale_transform(sx, sy, order) {#scale_transform_sx_sy_order_197}
+### Method: scale_transform(sx, sy, order) {#scale_transform_sx_sy_order_198}
 
 
 ```
@@ -3848,7 +3869,7 @@ Scales the local geometric transform by the specified amounts in the specified o
 | sy | float | The amount by which to scale the transform in the y-axis direction. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
 
-### Method: translate_transform(dx, dy) {#translate_transform_dx_dy_198}
+### Method: translate_transform(dx, dy) {#translate_transform_dx_dy_199}
 
 
 ```
@@ -3864,7 +3885,7 @@ Translates the local geometric transform by the specified dimensions. This metho
 | dx | float | The value of the translation in x. |
 | dy | float | The value of the translation in y. |
 
-### Method: translate_transform(dx, dy, order) {#translate_transform_dx_dy_order_199}
+### Method: translate_transform(dx, dy, order) {#translate_transform_dx_dy_order_200}
 
 
 ```

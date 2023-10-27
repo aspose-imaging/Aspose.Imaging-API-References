@@ -11,7 +11,7 @@ Specifies how a feathering algorithm works.
 
 **Full Name:** aspose.imaging.magicwand.imagemasks.FeatheringMode
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

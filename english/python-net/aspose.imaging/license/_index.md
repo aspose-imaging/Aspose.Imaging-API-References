@@ -1,7 +1,7 @@
 ---
 title: License Class
 type: docs
-weight: 5840
+weight: 5720
 url: /python-net/aspose.imaging/license/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/license/
 
 **Full Name:** aspose.imaging.License
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging/license/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| set_license(license_name) |    |
-| [set_license(stream)](#set_license_stream_1) | Licenses the component. |
-| [set_license_stream(stream)](#set_license_stream_stream_2) | Licenses the component. |
+| [set_license(license_name)](#set_license_license_name_1) | Licenses the component. |
+| [set_license(stream)](#set_license_stream_2) | Licenses the component. |
+| [set_license_stream(stream)](#set_license_stream_stream_3) | Licenses the component. |
 
 
 ### Constructor: License() {#License__1}
@@ -34,7 +34,22 @@ url: /python-net/aspose.imaging/license/
 
 Initializes a new instance of this class.
 
-### Method: set_license(stream) {#set_license_stream_1}
+### Method: set_license(license_name) {#set_license_license_name_1}
+
+
+```
+ set_license(license_name) 
+```
+
+Licenses the component.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| license_name | string | Can be a full or short file name <ms> or name of an embedded resource</ms>. Use an empty string to switch to evaluation mode. |
+
+### Method: set_license(stream) {#set_license_stream_2}
 
 
 ```
@@ -49,7 +64,7 @@ Licenses the component.
 | :- | :- | :- |
 | stream | _io.BufferedRandom | A stream that contains the license. |
 
-### Method: set_license_stream(stream) {#set_license_stream_stream_2}
+### Method: set_license_stream(stream) {#set_license_stream_stream_3}
 
 
 ```

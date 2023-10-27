@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5550
+weight: 5450
 url: /python-net/aspose.imaging/image/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/image/
 
 **Inheritance:** IObjectWithBounds, DataStreamSupporter
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

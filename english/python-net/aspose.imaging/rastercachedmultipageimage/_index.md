@@ -1,7 +1,7 @@
 ---
 title: RasterCachedMultipageImage Class
 type: docs
-weight: 6960
+weight: 6810
 url: /python-net/aspose.imaging/rastercachedmultipageimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/rastercachedmultipageimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, RasterCachedImage
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -120,7 +120,7 @@ url: /python-net/aspose.imaging/rastercachedmultipageimage/
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_58) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_59) | Loads a new image from the specified file. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_60) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses GetSkewAngle and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_60) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_61) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_62) | Reads the whole scan line by the specified scan line index. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_63) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
@@ -142,7 +142,7 @@ url: /python-net/aspose.imaging/rastercachedmultipageimage/
 | [resize_width_proportionally(new_width, settings)](#resize_width_proportionally_new_width_settings_79) | Resizes the width proportionally. |
 | [resize_width_proportionally_settings(new_width, settings)](#resize_width_proportionally_settings_new_width_settings_80) | Resizes the width proportionally. |
 | [rotate(angle)](#rotate_angle_81) | Rotate image around the center. |
-| [rotate(angle, resize_proportionally, background_color)](#rotate_angle_resize_proportionally_background_color_82) | <see cref="!:RasterCahcedMultipageImage.Rotate" /> image around the center. |
+| [rotate(angle, resize_proportionally, background_color)](#rotate_angle_resize_proportionally_background_color_82) | [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) image around the center. |
 | [rotate_flip(rotate_flip_type)](#rotate_flip_rotate_flip_type_83) | Rotates, flips, or rotates and flips all pages. |
 | [rotate_flip_all(rotate_flip)](#rotate_flip_all_rotate_flip_84) | Rotates the flip all. |
 | save() | Saves the image data to the underlying stream. |
@@ -1367,7 +1367,7 @@ Loads a new image from the specified file.
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses GetSkewAngle and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
 
 **Parameters:**
 
@@ -1733,7 +1733,7 @@ Rotate image around the center.
  rotate(angle, resize_proportionally, background_color) 
 ```
 
-<see cref="!:RasterCahcedMultipageImage.Rotate" /> image around the center.
+[RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) image around the center.
 
 **Parameters:**
 

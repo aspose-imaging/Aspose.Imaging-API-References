@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/iimagemask/
 
 **Full Name:** aspose.imaging.magicwand.imagemasks.IImageMask
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

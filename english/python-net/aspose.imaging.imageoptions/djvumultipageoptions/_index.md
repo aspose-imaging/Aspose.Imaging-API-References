@@ -13,20 +13,20 @@ url: /python-net/aspose.imaging.imageoptions/djvumultipageoptions/
 
 **Inheritance:** MultiPageOptions
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [DjvuMultiPageOptions()](#DjvuMultiPageOptions__1) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
-| [DjvuMultiPageOptions(page)](#DjvuMultiPageOptions_page_2) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(page, export_area)](#DjvuMultiPageOptions_page_export_area_3) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(pages)](#DjvuMultiPageOptions_pages_4) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(pages, export_area)](#DjvuMultiPageOptions_pages_export_area_5) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(range)](#DjvuMultiPageOptions_range_6) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(range, export_area)](#DjvuMultiPageOptions_range_export_area_7) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(ranges)](#DjvuMultiPageOptions_ranges_8) | Initializes a new instance of the DjvuMultiPageOptions class |
-| [DjvuMultiPageOptions(ranges, export_area)](#DjvuMultiPageOptions_ranges_export_area_9) | Initializes a new instance of the DjvuMultiPageOptions class |
+| [DjvuMultiPageOptions(page)](#DjvuMultiPageOptions_page_2) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(page, export_area)](#DjvuMultiPageOptions_page_export_area_3) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(pages)](#DjvuMultiPageOptions_pages_4) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(pages, export_area)](#DjvuMultiPageOptions_pages_export_area_5) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(range)](#DjvuMultiPageOptions_range_6) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(range, export_area)](#DjvuMultiPageOptions_range_export_area_7) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(ranges)](#DjvuMultiPageOptions_ranges_8) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
+| [DjvuMultiPageOptions(ranges, export_area)](#DjvuMultiPageOptions_ranges_export_area_9) | Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -70,7 +70,7 @@ Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/asp
  DjvuMultiPageOptions(page) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
@@ -85,14 +85,14 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(page, export_area) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | page | int |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
 
 ### Constructor: DjvuMultiPageOptions(pages) {#DjvuMultiPageOptions_pages_4}
 
@@ -101,13 +101,13 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(pages) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pages | int |  |
+| pages | int | The pages indexes. |
 
 ### Constructor: DjvuMultiPageOptions(pages, export_area) {#DjvuMultiPageOptions_pages_export_area_5}
 
@@ -116,14 +116,14 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(pages, export_area) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pages | int |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| pages | int | The pages indexes. |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
 
 ### Constructor: DjvuMultiPageOptions(range) {#DjvuMultiPageOptions_range_6}
 
@@ -132,13 +132,13 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(range) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) |  |
+| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) | The range. |
 
 ### Constructor: DjvuMultiPageOptions(range, export_area) {#DjvuMultiPageOptions_range_export_area_7}
 
@@ -147,14 +147,14 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(range, export_area) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) | The range. |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
 
 ### Constructor: DjvuMultiPageOptions(ranges) {#DjvuMultiPageOptions_ranges_8}
 
@@ -163,13 +163,13 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(ranges) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) |  |
+| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) | The range. |
 
 ### Constructor: DjvuMultiPageOptions(ranges, export_area) {#DjvuMultiPageOptions_ranges_export_area_9}
 
@@ -178,14 +178,14 @@ Initializes a new instance of the DjvuMultiPageOptions class
  DjvuMultiPageOptions(ranges, export_area) 
 ```
 
-Initializes a new instance of the DjvuMultiPageOptions class
+Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) | The range. |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
 
 ### Method: create_with_int_range(range)  [static] {#create_with_int_range_range_1}
 

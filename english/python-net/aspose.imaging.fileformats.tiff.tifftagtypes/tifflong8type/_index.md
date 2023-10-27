@@ -13,13 +13,13 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/
 
 **Inheritance:** TiffCommonArrayType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [TiffLong8Type(tag_id)](#TiffLong8Type_tag_id_1) | Initializes a new instance of the TiffLong8Type class |
-| [TiffLong8Type(tag_id)](#TiffLong8Type_tag_id_2) | Initializes a new instance of the TiffLong8Type class |
+| [TiffLong8Type(tag_id)](#TiffLong8Type_tag_id_1) | Initializes a new instance of the [TiffLong8Type](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/) class. |
+| [TiffLong8Type(tag_id)](#TiffLong8Type_tag_id_2) | Initializes a new instance of the [TiffLong8Type](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -54,13 +54,13 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/
  TiffLong8Type(tag_id) 
 ```
 
-Initializes a new instance of the TiffLong8Type class
+Initializes a new instance of the [TiffLong8Type](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | ushort |  |
+| tag_id | ushort | The tag id. |
 
 ### Constructor: TiffLong8Type(tag_id) {#TiffLong8Type_tag_id_2}
 
@@ -69,13 +69,13 @@ Initializes a new instance of the TiffLong8Type class
  TiffLong8Type(tag_id) 
 ```
 
-Initializes a new instance of the TiffLong8Type class
+Initializes a new instance of the [TiffLong8Type](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | [TiffTags](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) |  |
+| tag_id | [TiffTags](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) | The tag id. |
 
 ### Method: compare_to(obj) {#compare_to_obj_1}
 

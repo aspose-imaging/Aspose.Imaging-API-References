@@ -1,7 +1,7 @@
 ---
 title: GraphicsPath Class
 type: docs
-weight: 5000
+weight: 4910
 url: /python-net/aspose.imaging/graphicspath/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/graphicspath/
 
 **Inheritance:** ObjectWithBounds
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: Matrix Class
 type: docs
-weight: 5960
+weight: 5840
 url: /python-net/aspose.imaging/matrix/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/matrix/
 
 **Full Name:** aspose.imaging.Matrix
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -19,8 +19,8 @@ url: /python-net/aspose.imaging/matrix/
 | [Matrix()](#Matrix__1) | Initializes a new instance of the Matrix class as the identity matrix. |
 | [Matrix(m11, m12, m21, m22, m31, m32)](#Matrix_m11_m12_m21_m22_m31_m32_2) | Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class. |
 | [Matrix(origin)](#Matrix_origin_3) | Makes a copy of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class. |
-| [Matrix(rect, plgpts)](#Matrix_rect_plgpts_4) | Initializes a new instance of the Matrix class |
-| [Matrix(rect, plgpts)](#Matrix_rect_plgpts_5) | Initializes a new instance of the Matrix class |
+| [Matrix(rect, plgpts)](#Matrix_rect_plgpts_4) | Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points. |
+| [Matrix(rect, plgpts)](#Matrix_rect_plgpts_5) | Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -112,14 +112,14 @@ Makes a copy of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class.
  Matrix(rect, plgpts) 
 ```
 
-Initializes a new instance of the Matrix class
+Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) |  |
-| plgpts | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
+| plgpts | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 ### Constructor: Matrix(rect, plgpts) {#Matrix_rect_plgpts_5}
 
@@ -128,14 +128,14 @@ Initializes a new instance of the Matrix class
  Matrix(rect, plgpts) 
 ```
 
-Initializes a new instance of the Matrix class
+Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
-| plgpts | [Point[]](/imaging/python-net/aspose.imaging/point) |  |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
+| plgpts | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 ### Method: create_with_rect(rect, plgpts)  [static] {#create_with_rect_rect_plgpts_1}
 

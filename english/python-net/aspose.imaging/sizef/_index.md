@@ -1,7 +1,7 @@
 ---
 title: SizeF Class
 type: docs
-weight: 7210
+weight: 7030
 url: /python-net/aspose.imaging/sizef/
 ---
 
@@ -11,14 +11,14 @@ url: /python-net/aspose.imaging/sizef/
 
 **Full Name:** aspose.imaging.SizeF
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [SizeF()](#SizeF__1) | Initializes a new instance of the SizeF class |
-| [SizeF(point)](#SizeF_point_2) | Initializes a new instance of the SizeF class |
-| [SizeF(size)](#SizeF_size_3) | Initializes a new instance of the SizeF class |
+| [SizeF(point)](#SizeF_point_2) | Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure from the specified [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [SizeF(size)](#SizeF_size_3) | Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure from the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 | [SizeF(width, height)](#SizeF_width_height_4) | Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure from the specified dimensions. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -54,13 +54,13 @@ Initializes a new instance of the SizeF class
  SizeF(point) 
 ```
 
-Initializes a new instance of the SizeF class
+Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure from the specified [PointF](/imaging/python-net/aspose.imaging/pointf/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) |  |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) from which to initialize this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 
 ### Constructor: SizeF(size) {#SizeF_size_3}
 
@@ -69,13 +69,13 @@ Initializes a new instance of the SizeF class
  SizeF(size) 
 ```
 
-Initializes a new instance of the SizeF class
+Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure from the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) |  |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) from which to create the new [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 
 ### Constructor: SizeF(width, height) {#SizeF_width_height_4}
 

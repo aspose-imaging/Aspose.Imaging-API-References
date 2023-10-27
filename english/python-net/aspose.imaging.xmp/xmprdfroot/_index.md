@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmprdfroot/
 
 **Inheritance:** IXmlValue, XmpElementBase
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

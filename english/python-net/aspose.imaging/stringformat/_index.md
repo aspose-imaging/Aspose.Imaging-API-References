@@ -1,7 +1,7 @@
 ---
 title: StringFormat Class
 type: docs
-weight: 7290
+weight: 7110
 url: /python-net/aspose.imaging/stringformat/
 ---
 
@@ -13,14 +13,14 @@ url: /python-net/aspose.imaging/stringformat/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [StringFormat()](#StringFormat__1) | Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
-| [StringFormat(format)](#StringFormat_format_2) | Initializes a new instance of the StringFormat class |
-| [StringFormat(options)](#StringFormat_options_3) | Initializes a new instance of the StringFormat class |
+| [StringFormat(format)](#StringFormat_format_2) | Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from the specified existing [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| [StringFormat(options)](#StringFormat_options_3) | Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object with the specified [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration and language. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -62,13 +62,13 @@ Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat
  StringFormat(format) 
 ```
 
-Initializes a new instance of the StringFormat class
+Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from the specified existing [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) |  |
+| format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | The [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from which to initialize the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 
 ### Constructor: StringFormat(options) {#StringFormat_options_3}
 
@@ -77,13 +77,13 @@ Initializes a new instance of the StringFormat class
  StringFormat(options) 
 ```
 
-Initializes a new instance of the StringFormat class
+Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object with the specified [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration and language.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags) |  |
+| options | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags) | The [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration for the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 
 ### Method: create_from_flags(options)  [static] {#create_from_flags_options_1}
 

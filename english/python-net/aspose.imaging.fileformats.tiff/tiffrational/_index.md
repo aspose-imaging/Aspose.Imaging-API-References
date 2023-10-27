@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffrational/
 
 **Full Name:** aspose.imaging.fileformats.tiff.TiffRational
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -34,10 +34,10 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffrational/
 | [approximate_double_fraction_eps(value, epsilon)](#approximate_double_fraction_eps_value_epsilon_2) | Approximates the provided value to a fraction. |
 | [approximate_float_fraction(value)](#approximate_float_fraction_value_3) | Approximates the provided value to a fraction. |
 | [approximate_float_fraction_eps(value, epsilon)](#approximate_float_fraction_eps_value_epsilon_4) | Approximates the provided value to a fraction. |
-| [approximate_fraction(value)](#approximate_fraction_value_5) |    |
-| [approximate_fraction(value)](#approximate_fraction_value_6) |    |
-| [approximate_fraction(value, epsilon)](#approximate_fraction_value_epsilon_7) |    |
-| [approximate_fraction(value, epsilon)](#approximate_fraction_value_epsilon_8) |    |
+| [approximate_fraction(value)](#approximate_fraction_value_5) | Approximates the provided value to a fraction. |
+| [approximate_fraction(value)](#approximate_fraction_value_6) | Approximates the provided value to a fraction. |
+| [approximate_fraction(value, epsilon)](#approximate_fraction_value_epsilon_7) | Approximates the provided value to a fraction. |
+| [approximate_fraction(value, epsilon)](#approximate_fraction_value_epsilon_8) | Approximates the provided value to a fraction. |
 
 
 ### Constructor: TiffRational() {#TiffRational__1}
@@ -177,19 +177,19 @@ Approximates the provided value to a fraction.
  approximate_fraction(value) 
 ```
 
-  
+Approximates the provided value to a fraction.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | double |  |
+| value | double | The value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) |  |
+| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | A rational number having error less than [TiffRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/). |
 
 
 ### Method: approximate_fraction(value)  [static] {#approximate_fraction_value_6}
@@ -199,19 +199,19 @@ Approximates the provided value to a fraction.
  approximate_fraction(value) 
 ```
 
-  
+Approximates the provided value to a fraction.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | float |  |
+| value | float | The value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) |  |
+| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | A rational number having error less than [TiffRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/). |
 
 
 ### Method: approximate_fraction(value, epsilon)  [static] {#approximate_fraction_value_epsilon_7}
@@ -221,20 +221,20 @@ Approximates the provided value to a fraction.
  approximate_fraction(value, epsilon) 
 ```
 
-  
+Approximates the provided value to a fraction.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | double |  |
-| epsilon | double |  |
+| value | double | The value. |
+| epsilon | double | The error allowed. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) |  |
+| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | A rational number having error less than <paramref name="epsilon" />. |
 
 
 ### Method: approximate_fraction(value, epsilon)  [static] {#approximate_fraction_value_epsilon_8}
@@ -244,19 +244,19 @@ Approximates the provided value to a fraction.
  approximate_fraction(value, epsilon) 
 ```
 
-  
+Approximates the provided value to a fraction.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | float |  |
-| epsilon | double |  |
+| value | float | The value. |
+| epsilon | double | The error allowed. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) |  |
+| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | A rational number having error less than <paramref name="epsilon" />. |
 
 

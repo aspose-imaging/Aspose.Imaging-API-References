@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -64,7 +64,7 @@ Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_65)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_78)**: The following example shows how to set a memory limit when loading a CMX imag...
 
 
 ### Method: clone() {#clone__1}
@@ -99,7 +99,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
 ## **Examples**
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_65}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_78}
 ``` python
 from Aspose.Imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes
 from Aspose.Imaging.ImageOptions import PngOptions, CmxRasterizationOptions

@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5660
+weight: 5540
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

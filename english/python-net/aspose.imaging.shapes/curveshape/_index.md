@@ -13,15 +13,15 @@ url: /python-net/aspose.imaging.shapes/curveshape/
 
 **Inheritance:** IOrderedShape, PolygonShape
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [CurveShape()](#CurveShape__1) | Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. |
 | [CurveShape(points)](#CurveShape_points_2) | Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. The default tension of 0.5 is used. |
-| [CurveShape(points, is_closed)](#CurveShape_points_is_closed_3) | Initializes a new instance of the CurveShape class |
-| [CurveShape(points, tension)](#CurveShape_points_tension_4) | Initializes a new instance of the CurveShape class |
+| [CurveShape(points, is_closed)](#CurveShape_points_is_closed_3) | Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. The default tension of 0.5 is used. |
+| [CurveShape(points, tension)](#CurveShape_points_tension_4) | Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. |
 | [CurveShape(points, tension, is_closed)](#CurveShape_points_tension_is_closed_5) | Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -77,14 +77,14 @@ Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imagin
  CurveShape(points, is_closed) 
 ```
 
-Initializes a new instance of the CurveShape class
+Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. The default tension of 0.5 is used.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
-| is_closed | bool |  |
+| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | The points array. |
+| is_closed | bool | if set to <c>true</c> the curve is closed. |
 
 ### Constructor: CurveShape(points, tension) {#CurveShape_points_tension_4}
 
@@ -93,14 +93,14 @@ Initializes a new instance of the CurveShape class
  CurveShape(points, tension) 
 ```
 
-Initializes a new instance of the CurveShape class
+Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
-| tension | float |  |
+| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | The points array. |
+| tension | float | The curve tension. |
 
 ### Constructor: CurveShape(points, tension, is_closed) {#CurveShape_points_tension_is_closed_5}
 

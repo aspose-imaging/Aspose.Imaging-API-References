@@ -13,14 +13,14 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulereco
 
 **Inheritance:** VectorPathRecord
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [InitialFillRuleRecord()](#InitialFillRuleRecord__1) | Initializes a new instance of the [InitialFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/) class. |
-| [InitialFillRuleRecord(data)](#InitialFillRuleRecord_data_2) | Initializes a new instance of the InitialFillRuleRecord class |
-| [InitialFillRuleRecord(is_fill_starts_with_all_pixels)](#InitialFillRuleRecord_is_fill_starts_with_all_pixels_3) | Initializes a new instance of the InitialFillRuleRecord class |
+| [InitialFillRuleRecord(data)](#InitialFillRuleRecord_data_2) | Initializes a new instance of the [InitialFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/) class. |
+| [InitialFillRuleRecord(is_fill_starts_with_all_pixels)](#InitialFillRuleRecord_is_fill_starts_with_all_pixels_3) | Initializes a new instance of the [InitialFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -49,13 +49,13 @@ Initializes a new instance of the [InitialFillRuleRecord](/imaging/python-net/as
  InitialFillRuleRecord(data) 
 ```
 
-Initializes a new instance of the InitialFillRuleRecord class
+Initializes a new instance of the [InitialFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | byte |  |
+| data | byte | The record data. |
 
 ### Constructor: InitialFillRuleRecord(is_fill_starts_with_all_pixels) {#InitialFillRuleRecord_is_fill_starts_with_all_pixels_3}
 
@@ -64,13 +64,13 @@ Initializes a new instance of the InitialFillRuleRecord class
  InitialFillRuleRecord(is_fill_starts_with_all_pixels) 
 ```
 
-Initializes a new instance of the InitialFillRuleRecord class
+Initializes a new instance of the [InitialFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_fill_starts_with_all_pixels | bool |  |
+| is_fill_starts_with_all_pixels | bool | The is fill starts with all pixels. |
 
 ### Method: create_filled_with_pixels(is_fill_starts_with_all_pixels)  [static] {#create_filled_with_pixels_is_fill_starts_with_all_pixels_1}
 

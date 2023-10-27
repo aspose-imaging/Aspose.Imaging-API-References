@@ -13,22 +13,22 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IGifBlock, IAnimationFrame, RasterCachedImage
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [GifFrameBlock(image)](#GifFrameBlock_image_1) | Initializes a new instance of the GifFrameBlock class |
-| [GifFrameBlock(image, left, top)](#GifFrameBlock_image_left_top_2) | Initializes a new instance of the GifFrameBlock class |
-| [GifFrameBlock(image, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)](#GifFrameBlock_image_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_3) | Initializes a new instance of the GifFrameBlock class |
+| [GifFrameBlock(image)](#GifFrameBlock_image_1) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
+| [GifFrameBlock(image, left, top)](#GifFrameBlock_image_left_top_2) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
+| [GifFrameBlock(image, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)](#GifFrameBlock_image_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_3) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
 | [GifFrameBlock(left, top, width, height)](#GifFrameBlock_left_top_width_height_4) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
 | [GifFrameBlock(left, top, width, height, color_palette, is_palette_sorted, is_gif_frame_interlaced, bits_per_pixel)](#GifFrameBlock_left_top_width_height_color_palette_is_palette_sorted_is_gif_frame_interlaced_bits_per_pixel_5) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
 | [GifFrameBlock(path)](#GifFrameBlock_path_6) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
-| [GifFrameBlock(path, left, top)](#GifFrameBlock_path_left_top_7) | Initializes a new instance of the GifFrameBlock class |
-| [GifFrameBlock(path, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)](#GifFrameBlock_path_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_8) | Initializes a new instance of the GifFrameBlock class |
-| [GifFrameBlock(stream)](#GifFrameBlock_stream_9) | Initializes a new instance of the GifFrameBlock class |
-| [GifFrameBlock(stream, left, top)](#GifFrameBlock_stream_left_top_10) | Initializes a new instance of the GifFrameBlock class |
-| [GifFrameBlock(stream, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)](#GifFrameBlock_stream_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_11) | Initializes a new instance of the GifFrameBlock class |
+| [GifFrameBlock(path, left, top)](#GifFrameBlock_path_left_top_7) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
+| [GifFrameBlock(path, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)](#GifFrameBlock_path_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_8) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
+| [GifFrameBlock(stream)](#GifFrameBlock_stream_9) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
+| [GifFrameBlock(stream, left, top)](#GifFrameBlock_stream_left_top_10) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
+| [GifFrameBlock(stream, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)](#GifFrameBlock_stream_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_11) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
 | [GifFrameBlock(width, height)](#GifFrameBlock_width_height_12) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -217,13 +217,13 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/
  GifFrameBlock(image) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image to initialize frame pixel and palette data with. |
 
 ### Constructor: GifFrameBlock(image, left, top) {#GifFrameBlock_image_left_top_2}
 
@@ -232,15 +232,15 @@ Initializes a new instance of the GifFrameBlock class
  GifFrameBlock(image, left, top) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
-| left | ushort |  |
-| top | ushort |  |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image to initialize frame pixel and palette data with. |
+| left | ushort | The left image position. |
+| top | ushort | The top image position. |
 
 ### Constructor: GifFrameBlock(image, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size) {#GifFrameBlock_image_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_3}
 
@@ -249,18 +249,18 @@ Initializes a new instance of the GifFrameBlock class
  GifFrameBlock(image, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
-| left | ushort |  |
-| top | ushort |  |
-| is_palette_sorted | bool |  |
-| is_gif_frame_interlaced | bool |  |
-| lzw_code_size | byte |  |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image to initialize frame pixel and palette data with. |
+| left | ushort | The left image position. |
+| top | ushort | The top image position. |
+| is_palette_sorted | bool | if set to <c>true</c> the color palette is sorted. |
+| is_gif_frame_interlaced | bool | if set to <c>true</c> the GIF frame is interlaced. |
+| lzw_code_size | byte | The bits per pixel. |
 
 ### Constructor: GifFrameBlock(left, top, width, height) {#GifFrameBlock_left_top_width_height_4}
 
@@ -324,15 +324,15 @@ Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.ima
  GifFrameBlock(path, left, top) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string |  |
-| left | ushort |  |
-| top | ushort |  |
+| path | string | The path to load an image from and initialize frame pixel and palette data with. |
+| left | ushort | The left image position. |
+| top | ushort | The top image position. |
 
 ### Constructor: GifFrameBlock(path, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size) {#GifFrameBlock_path_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_8}
 
@@ -341,18 +341,18 @@ Initializes a new instance of the GifFrameBlock class
  GifFrameBlock(path, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string |  |
-| left | ushort |  |
-| top | ushort |  |
-| is_palette_sorted | bool |  |
-| is_gif_frame_interlaced | bool |  |
-| lzw_code_size | byte |  |
+| path | string | The path to load an image from and initialize frame pixel and palette data with. |
+| left | ushort | The left image position. |
+| top | ushort | The top image position. |
+| is_palette_sorted | bool | if set to <c>true</c> the color palette is sorted. |
+| is_gif_frame_interlaced | bool | if set to <c>true</c> the GIF frame is interlaced. |
+| lzw_code_size | byte | The bits per pixel. |
 
 ### Constructor: GifFrameBlock(stream) {#GifFrameBlock_stream_9}
 
@@ -361,13 +361,13 @@ Initializes a new instance of the GifFrameBlock class
  GifFrameBlock(stream) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
+| stream | _io.BufferedRandom | The stream to load an image from and initialize frame pixel and palette data with. |
 
 ### Constructor: GifFrameBlock(stream, left, top) {#GifFrameBlock_stream_left_top_10}
 
@@ -376,15 +376,15 @@ Initializes a new instance of the GifFrameBlock class
  GifFrameBlock(stream, left, top) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
-| left | ushort |  |
-| top | ushort |  |
+| stream | _io.BufferedRandom | The stream to load an image from and initialize frame pixel and palette data with. |
+| left | ushort | The left image position. |
+| top | ushort | The top image position. |
 
 ### Constructor: GifFrameBlock(stream, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size) {#GifFrameBlock_stream_left_top_is_palette_sorted_is_gif_frame_interlaced_lzw_code_size_11}
 
@@ -393,18 +393,18 @@ Initializes a new instance of the GifFrameBlock class
  GifFrameBlock(stream, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size) 
 ```
 
-Initializes a new instance of the GifFrameBlock class
+Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
-| left | ushort |  |
-| top | ushort |  |
-| is_palette_sorted | bool |  |
-| is_gif_frame_interlaced | bool |  |
-| lzw_code_size | byte |  |
+| stream | _io.BufferedRandom | The stream to load an image from and initialize frame pixel and palette data with. |
+| left | ushort | The left image position. |
+| top | ushort | The top image position. |
+| is_palette_sorted | bool | if set to <c>true</c> the color palette is sorted. |
+| is_gif_frame_interlaced | bool | if set to <c>true</c> the GIF frame is interlaced. |
+| lzw_code_size | byte | The bits per pixel. |
 
 ### Constructor: GifFrameBlock(width, height) {#GifFrameBlock_width_height_12}
 

@@ -11,7 +11,7 @@ The [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stre
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.StretchMode
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

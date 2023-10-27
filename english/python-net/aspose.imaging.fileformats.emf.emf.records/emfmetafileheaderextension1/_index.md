@@ -13,13 +13,13 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderext
 
 **Inheritance:** EmfMetafileHeader
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [EmfMetafileHeaderExtension1(header)](#EmfMetafileHeaderExtension1_header_1) | Initializes a new instance of the EmfMetafileHeaderExtension1 class |
-| [EmfMetafileHeaderExtension1(header)](#EmfMetafileHeaderExtension1_header_2) | Initializes a new instance of the EmfMetafileHeaderExtension1 class |
+| [EmfMetafileHeaderExtension1(header)](#EmfMetafileHeaderExtension1_header_1) | Initializes a new instance of the [EmfMetafileHeaderExtension1](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/) class. |
+| [EmfMetafileHeaderExtension1(header)](#EmfMetafileHeaderExtension1_header_2) | Initializes a new instance of the [EmfMetafileHeaderExtension1](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -47,13 +47,13 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderext
  EmfMetafileHeaderExtension1(header) 
 ```
 
-Initializes a new instance of the EmfMetafileHeaderExtension1 class
+Initializes a new instance of the [EmfMetafileHeaderExtension1](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| header | [EmfMetafileHeader](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader) |  |
+| header | [EmfMetafileHeader](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader) | The header. |
 
 ### Constructor: EmfMetafileHeaderExtension1(header) {#EmfMetafileHeaderExtension1_header_2}
 
@@ -62,13 +62,13 @@ Initializes a new instance of the EmfMetafileHeaderExtension1 class
  EmfMetafileHeaderExtension1(header) 
 ```
 
-Initializes a new instance of the EmfMetafileHeaderExtension1 class
+Initializes a new instance of the [EmfMetafileHeaderExtension1](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| header | [EmfMetafileHeaderExtension1](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1) |  |
+| header | [EmfMetafileHeaderExtension1](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1) | The header. |
 
 ### Method: create_from_header(header)  [static] {#create_from_header_header_1}
 

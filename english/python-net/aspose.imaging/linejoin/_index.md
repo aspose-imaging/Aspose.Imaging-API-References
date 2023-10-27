@@ -1,7 +1,7 @@
 ---
 title: LineJoin Enumeration
 type: docs
-weight: 10720
+weight: 10530
 url: /python-net/aspose.imaging/linejoin/
 ---
 
@@ -11,7 +11,7 @@ Specifies how to join consecutive line or curve segments in a figure (subpath) c
 
 **Full Name:** aspose.imaging.LineJoin
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

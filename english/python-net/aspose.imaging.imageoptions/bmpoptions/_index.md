@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -79,7 +79,7 @@ Gets or sets the compression type. The default compression type is [BitmapCompre
 
 **See also:**
 
-**[Example # 1](#example_66)**: The example shows how to export a BMP with the RGB compression type.
+**[Example # 1](#example_79)**: The example shows how to export a BMP with the RGB compression type.
 
 
 ### Method: clone() {#clone__1}
@@ -186,7 +186,7 @@ with BmpImage(100, 100) as bmpImage:
 
 ```
 
-### The example shows how to export a BMP with the RGB compression type. {#example_66}
+### The example shows how to export a BMP with the RGB compression type. {#example_79}
 ``` python
 
 from aspose.imaging import Image

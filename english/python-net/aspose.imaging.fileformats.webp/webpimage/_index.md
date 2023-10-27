@@ -13,17 +13,17 @@ url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [WebPImage(path)](#WebPImage_path_1) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from file. |
-| [WebPImage(path, load_options)](#WebPImage_path_load_options_2) | Initializes a new instance of the WebPImage class |
-| [WebPImage(raster_image)](#WebPImage_raster_image_3) | Initializes a new instance of the WebPImage class |
-| [WebPImage(raster_image, load_options)](#WebPImage_raster_image_load_options_4) | Initializes a new instance of the WebPImage class |
-| [WebPImage(stream)](#WebPImage_stream_5) | Initializes a new instance of the WebPImage class |
-| [WebPImage(stream, load_options)](#WebPImage_stream_load_options_6) | Initializes a new instance of the WebPImage class |
+| [WebPImage(path, load_options)](#WebPImage_path_load_options_2) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from file. |
+| [WebPImage(raster_image)](#WebPImage_raster_image_3) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage. |
+| [WebPImage(raster_image, load_options)](#WebPImage_raster_image_load_options_4) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage. |
+| [WebPImage(stream)](#WebPImage_stream_5) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class<br/>                from stream. |
+| [WebPImage(stream, load_options)](#WebPImage_stream_load_options_6) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from stream. |
 | [WebPImage(width, height, options)](#WebPImage_width_height_options_7) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class with empty image. |
 | [WebPImage(width, height, options, load_options)](#WebPImage_width_height_options_load_options_8) | Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class with empty image. |
 ## **Properties**
@@ -141,7 +141,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_66) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_68) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses GetSkewAngle and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_68) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_69) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_70) | Reads the whole scan line by the specified scan line index. |
 | [remove_block(block)](#remove_block_block_71) | Removes the Webp block. |
@@ -216,14 +216,14 @@ Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging
  WebPImage(path, load_options) 
 ```
 
-Initializes a new instance of the WebPImage class
+Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from file.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string |  |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) |  |
+| path | string | The path to file WebP Image |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 ### Constructor: WebPImage(raster_image) {#WebPImage_raster_image_3}
 
@@ -232,13 +232,13 @@ Initializes a new instance of the WebPImage class
  WebPImage(raster_image) 
 ```
 
-Initializes a new instance of the WebPImage class
+Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
+| raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
 
 ### Constructor: WebPImage(raster_image, load_options) {#WebPImage_raster_image_load_options_4}
 
@@ -247,14 +247,14 @@ Initializes a new instance of the WebPImage class
  WebPImage(raster_image, load_options) 
 ```
 
-Initializes a new instance of the WebPImage class
+Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) |  |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) |  |
+| raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 ### Constructor: WebPImage(stream) {#WebPImage_stream_5}
 
@@ -263,13 +263,13 @@ Initializes a new instance of the WebPImage class
  WebPImage(stream) 
 ```
 
-Initializes a new instance of the WebPImage class
+Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class<br/>                from stream.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
+| stream | _io.BufferedRandom | The stream WebP image. |
 
 ### Constructor: WebPImage(stream, load_options) {#WebPImage_stream_load_options_6}
 
@@ -278,14 +278,14 @@ Initializes a new instance of the WebPImage class
  WebPImage(stream, load_options) 
 ```
 
-Initializes a new instance of the WebPImage class
+Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from stream.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom |  |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) |  |
+| stream | _io.BufferedRandom | The stream WebP image. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 ### Constructor: WebPImage(width, height, options) {#WebPImage_width_height_options_7}
 
@@ -1676,7 +1676,7 @@ Loads a new image from the specified file.
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses GetSkewAngle and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
 
 **Parameters:**
 

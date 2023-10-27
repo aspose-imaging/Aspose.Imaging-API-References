@@ -13,14 +13,14 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/
 
 **Inheritance:** MetaObject
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [EmfRecord()](#EmfRecord__1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
-| [EmfRecord(source)](#EmfRecord_source_2) | Initializes a new instance of the EmfRecord class |
-| [EmfRecord(type)](#EmfRecord_type_3) | Initializes a new instance of the EmfRecord class |
+| [EmfRecord(source)](#EmfRecord_source_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [EmfRecord(type)](#EmfRecord_type_3) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -49,13 +49,13 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
  EmfRecord(source) 
 ```
 
-Initializes a new instance of the EmfRecord class
+Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
 ### Constructor: EmfRecord(type) {#EmfRecord_type_3}
 
@@ -64,13 +64,13 @@ Initializes a new instance of the EmfRecord class
  EmfRecord(type) 
 ```
 
-Initializes a new instance of the EmfRecord class
+Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) |  |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | The record type. |
 
 ### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 

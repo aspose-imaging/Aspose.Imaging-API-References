@@ -11,7 +11,7 @@ The RecordType enumeration defines values that uniquely identify EMF records.<br
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfRecordType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

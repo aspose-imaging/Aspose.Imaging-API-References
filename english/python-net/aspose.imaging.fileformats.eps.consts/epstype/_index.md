@@ -11,7 +11,7 @@ Subtypes of Encapsulated PostScript format
 
 **Full Name:** aspose.imaging.fileformats.eps.consts.EpsType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/xmpmimetype/
 
 **Inheritance:** IXmpType, XmpText
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

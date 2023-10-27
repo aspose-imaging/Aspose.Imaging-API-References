@@ -1,7 +1,7 @@
 ---
 title: EpsOptions Class
 type: docs
-weight: 50
+weight: 30
 url: /python-net/aspose.imaging.fileformats.eps/epsoptions/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |

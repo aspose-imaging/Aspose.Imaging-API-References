@@ -1,7 +1,7 @@
 ---
 title: Pen Class
 type: docs
-weight: 6780
+weight: 6650
 url: /python-net/aspose.imaging/pen/
 ---
 
@@ -13,15 +13,15 @@ url: /python-net/aspose.imaging/pen/
 
 **Inheritance:** TransparencySupporter
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [Pen(brush)](#Pen_brush_1) | Initializes a new instance of the Pen class |
-| [Pen(brush, width)](#Pen_brush_width_2) | Initializes a new instance of the Pen class |
-| [Pen(color)](#Pen_color_3) | Initializes a new instance of the Pen class |
-| [Pen(color, width)](#Pen_color_width_4) | Initializes a new instance of the Pen class |
+| [Pen(brush)](#Pen_brush_1) | Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified [Pen.brush](/imaging/python-net/aspose.imaging/pen/). |
+| [Pen(brush, width)](#Pen_brush_width_2) | Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified [Pen.brush](/imaging/python-net/aspose.imaging/pen/) and [Pen.width](/imaging/python-net/aspose.imaging/pen/). |
+| [Pen(color)](#Pen_color_3) | Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified color. |
+| [Pen(color, width)](#Pen_color_width_4) | Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified [Pen.color](/imaging/python-net/aspose.imaging/pen/) and [Pen.width](/imaging/python-net/aspose.imaging/pen/) properties. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -69,13 +69,13 @@ url: /python-net/aspose.imaging/pen/
  Pen(brush) 
 ```
 
-Initializes a new instance of the Pen class
+Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified [Pen.brush](/imaging/python-net/aspose.imaging/pen/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) |  |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the fill properties of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Constructor: Pen(brush, width) {#Pen_brush_width_2}
 
@@ -84,14 +84,14 @@ Initializes a new instance of the Pen class
  Pen(brush, width) 
 ```
 
-Initializes a new instance of the Pen class
+Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified [Pen.brush](/imaging/python-net/aspose.imaging/pen/) and [Pen.width](/imaging/python-net/aspose.imaging/pen/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) |  |
-| width | float |  |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the characteristics of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| width | float | The width of the new [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Constructor: Pen(color) {#Pen_color_3}
 
@@ -100,13 +100,13 @@ Initializes a new instance of the Pen class
  Pen(color) 
 ```
 
-Initializes a new instance of the Pen class
+Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified color.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) |  |
+| color | [Color](/imaging/python-net/aspose.imaging/color) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Constructor: Pen(color, width) {#Pen_color_width_4}
 
@@ -115,14 +115,14 @@ Initializes a new instance of the Pen class
  Pen(color, width) 
 ```
 
-Initializes a new instance of the Pen class
+Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/) class with the specified [Pen.color](/imaging/python-net/aspose.imaging/pen/) and [Pen.width](/imaging/python-net/aspose.imaging/pen/) properties.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) |  |
-| width | float |  |
+| color | [Color](/imaging/python-net/aspose.imaging/color) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| width | float | A value indicating the width of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 
 **See also:**

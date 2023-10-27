@@ -11,7 +11,7 @@ wmf Record type
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfRecordType
 
-**Aspose.Imaging Version:** 23.9.0
+**Aspose.Imaging Version:** 23.10.0
 
 ## **Members**
 | **Member name** | **Description** |
