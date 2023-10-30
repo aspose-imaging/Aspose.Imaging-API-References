@@ -3,7 +3,7 @@ title: FileOpenSource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11380
+weight: 11360
 url: /net/aspose.imaging.sources/fileopensource/
 ---
 ## FileOpenSource class

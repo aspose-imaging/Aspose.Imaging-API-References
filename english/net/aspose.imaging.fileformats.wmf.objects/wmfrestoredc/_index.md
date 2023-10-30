@@ -3,7 +3,7 @@ title: WmfRestoreDc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9040
+weight: 9020
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfrestoredc/
 ---
 ## WmfRestoreDc class

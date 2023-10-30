@@ -3,7 +3,7 @@ title: WmfSetTextJustification
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9280
+weight: 9260
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 ---
 ## WmfSetTextJustification class

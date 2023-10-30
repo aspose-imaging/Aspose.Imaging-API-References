@@ -3,7 +3,7 @@ title: WmfRealizePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8990
+weight: 8970
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfrealizepalette/
 ---
 ## WmfRealizePalette class

@@ -3,7 +3,7 @@ title: ImageMask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10630
+weight: 10610
 url: /net/aspose.imaging.magicwand.imagemasks/imagemask/
 ---
 ## ImageMask class

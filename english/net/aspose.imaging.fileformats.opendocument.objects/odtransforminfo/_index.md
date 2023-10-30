@@ -3,7 +3,7 @@ title: OdTransformInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7360
+weight: 7340
 url: /net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
 ---
 ## OdTransformInfo class

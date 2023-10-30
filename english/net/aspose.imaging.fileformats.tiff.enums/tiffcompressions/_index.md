@@ -3,7 +3,7 @@ title: TiffCompressions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7640
+weight: 7620
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffcompressions/
 ---
 ## TiffCompressions enumeration

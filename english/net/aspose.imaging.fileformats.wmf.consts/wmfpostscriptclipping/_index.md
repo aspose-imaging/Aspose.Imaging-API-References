@@ -3,7 +3,7 @@ title: WmfPostScriptClipping
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8400
+weight: 8380
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptclipping/
 ---
 ## WmfPostScriptClipping enumeration

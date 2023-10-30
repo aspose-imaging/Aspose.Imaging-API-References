@@ -14,9 +14,11 @@ Gets the image bits per pixel count.
 public override int BitsPerPixel { get; }
 ```
 
-### Property Value
+### Exceptions
 
-The image bits per pixel count.
+| exception | condition |
+| --- | --- |
+| NotSupportedException |  |
 
 ### See Also
 

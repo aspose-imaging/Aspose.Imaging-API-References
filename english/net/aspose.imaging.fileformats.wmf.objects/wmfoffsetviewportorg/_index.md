@@ -3,7 +3,7 @@ title: WmfOffsetViewPortOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8890
+weight: 8870
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfoffsetviewportorg/
 ---
 ## WmfOffsetViewPortOrg class

@@ -3,7 +3,7 @@ title: DicomOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10050
+weight: 10030
 url: /net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class

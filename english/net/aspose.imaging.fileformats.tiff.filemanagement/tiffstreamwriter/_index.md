@@ -3,7 +3,7 @@ title: TiffStreamWriter
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7860
+weight: 7840
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/
 ---
 ## TiffStreamWriter class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/
 The Tiff stream writer.
 
 ```csharp
-public class TiffStreamWriter : #=z8JQC1bsO3BVemcQON8ayZF$lrp7iSJ36AOugeTtsekhJ322bLNMbluU=
+public class TiffStreamWriter : #=zGp6fQ$qz7RvbyE4g5ZzORL0UXKRpJ_zTZZn6mwKj0jxLipNLWj_$s9c=
 ```
 
 ## Constructors

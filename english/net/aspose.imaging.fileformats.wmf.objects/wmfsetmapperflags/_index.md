@@ -3,7 +3,7 @@ title: WmfSetMapperFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9180
+weight: 9160
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/
 ---
 ## WmfSetMapperFlags class

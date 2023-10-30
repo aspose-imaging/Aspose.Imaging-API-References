@@ -3,7 +3,7 @@ title: DeconvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9850
+weight: 9830
 url: /net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/
 ---
 ## DeconvolutionFilterOptions class

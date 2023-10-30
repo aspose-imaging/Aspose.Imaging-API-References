@@ -3,7 +3,7 @@ title: WmfChord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8570
+weight: 8550
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfchord/
 ---
 ## WmfChord class

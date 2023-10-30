@@ -3,7 +3,7 @@ title: WmfCreatePatternBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8630
+weight: 8610
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/
 ---
 ## WmfCreatePatternBrush class

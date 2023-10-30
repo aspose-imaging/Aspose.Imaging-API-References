@@ -3,7 +3,7 @@ title: GraphicsUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9470
+weight: 9450
 url: /net/aspose.imaging/graphicsunit/
 ---
 ## GraphicsUnit enumeration

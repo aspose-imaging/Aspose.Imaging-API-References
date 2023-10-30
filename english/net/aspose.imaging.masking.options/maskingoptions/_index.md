@@ -3,7 +3,7 @@ title: MaskingOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10800
+weight: 10780
 url: /net/aspose.imaging.masking.options/maskingoptions/
 ---
 ## MaskingOptions class

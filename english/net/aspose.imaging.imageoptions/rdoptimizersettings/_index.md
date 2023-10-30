@@ -3,7 +3,7 @@ title: RdOptimizerSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10290
+weight: 10270
 url: /net/aspose.imaging.imageoptions/rdoptimizersettings/
 ---
 ## RdOptimizerSettings class

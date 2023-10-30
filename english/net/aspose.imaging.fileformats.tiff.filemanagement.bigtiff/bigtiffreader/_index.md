@@ -3,7 +3,7 @@ title: BigTiffReader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7780
+weight: 7760
 url: /net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader/
 ---
 ## BigTiffReader class

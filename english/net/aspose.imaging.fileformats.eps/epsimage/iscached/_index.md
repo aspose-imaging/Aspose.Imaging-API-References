@@ -3,7 +3,7 @@ title: IsCached
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 100
 url: /net/aspose.imaging.fileformats.eps/epsimage/iscached/
 ---
 ## EpsImage.IsCached property
@@ -13,10 +13,6 @@ Gets a value indicating whether object's data is cached currently and no data re
 ```csharp
 public override bool IsCached { get; }
 ```
-
-### Property Value
-
-`true` if object's data is cached; otherwise, `false`.
 
 ### See Also
 

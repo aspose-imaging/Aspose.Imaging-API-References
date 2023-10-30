@@ -3,7 +3,7 @@ title: IBufferProcessor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9520
+weight: 9500
 url: /net/aspose.imaging/ibufferprocessor/
 ---
 ## IBufferProcessor interface

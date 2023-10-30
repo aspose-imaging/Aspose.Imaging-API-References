@@ -3,7 +3,7 @@ title: Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.imaging.fileformats.eps/epsimage/resize/
 ---
 ## EpsImage.Resize method (1 of 2)

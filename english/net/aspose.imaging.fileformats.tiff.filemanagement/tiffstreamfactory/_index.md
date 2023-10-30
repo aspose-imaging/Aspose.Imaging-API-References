@@ -3,7 +3,7 @@ title: TiffStreamFactory
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7840
+weight: 7820
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/
 ---
 ## TiffStreamFactory class

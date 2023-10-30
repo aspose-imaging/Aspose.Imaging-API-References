@@ -3,7 +3,7 @@ title: GifImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6710
+weight: 6690
 url: /net/aspose.imaging.fileformats.gif/gifimage/
 ---
 ## GifImage class

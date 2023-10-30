@@ -3,7 +3,7 @@ title: TiffIfd8Type
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8020
+weight: 8000
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type/
 ---
 ## TiffIfd8Type class

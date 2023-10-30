@@ -3,7 +3,7 @@ title: TiffAlphaStorage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7620
+weight: 7600
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/
 ---
 ## TiffAlphaStorage enumeration

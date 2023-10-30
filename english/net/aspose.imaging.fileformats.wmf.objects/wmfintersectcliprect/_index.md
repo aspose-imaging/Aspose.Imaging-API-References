@@ -3,7 +3,7 @@ title: WmfIntersectClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8810
+weight: 8790
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
 ---
 ## WmfIntersectClipRect class

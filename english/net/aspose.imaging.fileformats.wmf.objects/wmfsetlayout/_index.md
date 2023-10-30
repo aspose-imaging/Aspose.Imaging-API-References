@@ -3,7 +3,7 @@ title: WmfSetLayout
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9160
+weight: 9140
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetlayout/
 ---
 ## WmfSetLayout class

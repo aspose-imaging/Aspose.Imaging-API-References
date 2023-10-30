@@ -3,7 +3,7 @@ title: PathResource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7890
+weight: 7870
 url: /net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 ---
 ## PathResource class

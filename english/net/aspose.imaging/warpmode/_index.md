@@ -3,7 +3,7 @@ title: WarpMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11520
+weight: 11500
 url: /net/aspose.imaging/warpmode/
 ---
 ## WarpMode enumeration

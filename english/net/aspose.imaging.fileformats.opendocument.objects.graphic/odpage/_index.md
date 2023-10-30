@@ -3,7 +3,7 @@ title: OdPage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7220
+weight: 7200
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/
 ---
 ## OdPage class

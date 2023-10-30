@@ -3,7 +3,7 @@ title: IMaskingAsyncTask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10700
+weight: 10680
 url: /net/aspose.imaging.masking/imaskingasynctask/
 ---
 ## IMaskingAsyncTask interface

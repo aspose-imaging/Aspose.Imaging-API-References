@@ -3,20 +3,16 @@ title: CreationDate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.eps/epsimage/creationdate/
 ---
 ## EpsImage.CreationDate property
 
-Gets the CreationDate field
+Gets the creation date from the EPS DSC comments.
 
 ```csharp
 public DateTime CreationDate { get; }
 ```
-
-### Property Value
-
-The CreationDate field
 
 ### See Also
 

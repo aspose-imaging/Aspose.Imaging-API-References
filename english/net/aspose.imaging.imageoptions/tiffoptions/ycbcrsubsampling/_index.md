@@ -3,7 +3,7 @@ title: YCbCrSubsampling
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.imaging.imageoptions/tiffoptions/ycbcrsubsampling/
 ---
 ## TiffOptions.YCbCrSubsampling property

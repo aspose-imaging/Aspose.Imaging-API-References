@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10350
+weight: 10330
 url: /net/aspose.imaging.imageoptions/tiffoptions/
 ---
 ## TiffOptions class
@@ -82,6 +82,7 @@ public class TiffOptions : ImageOptionsBase
 | [StripByteCounts](../../aspose.imaging.imageoptions/tiffoptions/stripbytecounts) { get; set; } | Gets or sets the strip byte counts. |
 | [StripOffsets](../../aspose.imaging.imageoptions/tiffoptions/stripoffsets) { get; set; } | Gets or sets the strip offsets. |
 | [SubFileType](../../aspose.imaging.imageoptions/tiffoptions/subfiletype) { get; set; } | Gets or sets a general indication of the kind of data contained in this subfile. |
+| [TagCount](../../aspose.imaging.imageoptions/tiffoptions/tagcount) { get; } | Gets the tag count. |
 | [Tags](../../aspose.imaging.imageoptions/tiffoptions/tags) { get; set; } | Gets or sets the tags. |
 | [TargetPrinter](../../aspose.imaging.imageoptions/tiffoptions/targetprinter) { get; set; } | Gets or sets the target printer. |
 | [Threshholding](../../aspose.imaging.imageoptions/tiffoptions/threshholding) { get; set; } | Gets or sets the threshholding. |

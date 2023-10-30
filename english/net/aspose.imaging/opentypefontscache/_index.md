@@ -3,7 +3,7 @@ title: OpenTypeFontsCache
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10930
+weight: 10910
 url: /net/aspose.imaging/opentypefontscache/
 ---
 ## OpenTypeFontsCache class

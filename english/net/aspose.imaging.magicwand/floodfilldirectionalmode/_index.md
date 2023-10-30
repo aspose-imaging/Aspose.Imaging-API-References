@@ -3,7 +3,7 @@ title: FloodFillDirectionalMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10550
+weight: 10530
 url: /net/aspose.imaging.magicwand/floodfilldirectionalmode/
 ---
 ## FloodFillDirectionalMode enumeration

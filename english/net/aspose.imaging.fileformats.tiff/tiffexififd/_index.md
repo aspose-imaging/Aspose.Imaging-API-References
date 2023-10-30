@@ -3,7 +3,7 @@ title: TiffExifIfd
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7920
+weight: 7900
 url: /net/aspose.imaging.fileformats.tiff/tiffexififd/
 ---
 ## TiffExifIfd class

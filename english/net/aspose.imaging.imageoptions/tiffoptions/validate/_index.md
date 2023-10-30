@@ -3,7 +3,7 @@ title: Validate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.imaging.imageoptions/tiffoptions/validate/
 ---
 ## TiffOptions.Validate method

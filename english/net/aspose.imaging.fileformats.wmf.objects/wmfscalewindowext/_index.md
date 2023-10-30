@@ -3,7 +3,7 @@ title: WmfScaleWindowExt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9080
+weight: 9060
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ---
 ## WmfScaleWindowExt class

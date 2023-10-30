@@ -3,7 +3,7 @@ title: RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.imaging.fileformats.eps/epsimage/rotateflip/
 ---
 ## EpsImage.RotateFlip method
@@ -22,7 +22,7 @@ public override void RotateFlip(RotateFlipType rotateFlipType)
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | Rotate flip is not supported for EPS image |
+| NotImplementedException | Currently not implemented by EpsImage |
 
 ### See Also
 

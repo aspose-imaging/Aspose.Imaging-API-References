@@ -3,26 +3,25 @@ title: EpsPreviewFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6610
+weight: 6590
 url: /net/aspose.imaging.fileformats.eps/epspreviewformat/
 ---
 ## EpsPreviewFormat enumeration
 
-EPS preview format
+The [`EpsImage`](../epsimage) preview image formats.
 
 ```csharp
-public enum EpsPreviewFormat
+public enum EpsPreviewFormat : ulong
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | `0` | Best available quality |
-| TIFF | `1` | TIFF preview format |
-| WMF | `2` | WMF preview format |
-| PhotoshopThumbnail | `3` | Photoshop thumbnail (JFIF data) |
-| PostScriptRendering | `4` | PostScript rendering |
+| Default | `0` | The best quality preview an [`EpsImage`](../epsimage) instance contains. |
+| TIFF | `32` | The Tiff preview. |
+| WMF | `32768` | The Wmf preview. |
+| PhotoshopThumbnail | `8` | The Jpeg preview from Photoshop comment. |
 
 ### See Also
 

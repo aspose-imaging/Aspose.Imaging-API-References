@@ -3,20 +3,16 @@ title: HasRasterPreview
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 80
 url: /net/aspose.imaging.fileformats.eps/epsimage/hasrasterpreview/
 ---
 ## EpsImage.HasRasterPreview property
 
-Gets a value indicating whether this instance has format-specific raster preview
+Gets the value indicating whether this [`EpsImage`](../../epsimage) instane has a raster preview.
 
 ```csharp
-public abstract bool HasRasterPreview { get; }
+public bool HasRasterPreview { get; }
 ```
-
-### Property Value
-
-`true` if this instance has format-specific raster preview; otherwise, `false`.
 
 ### See Also
 

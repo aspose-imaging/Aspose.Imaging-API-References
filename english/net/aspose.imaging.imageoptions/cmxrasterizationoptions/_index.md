@@ -3,7 +3,7 @@ title: CmxRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10040
+weight: 10020
 url: /net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 ---
 ## CmxRasterizationOptions class

@@ -3,7 +3,7 @@ title: FontSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9430
+weight: 9410
 url: /net/aspose.imaging/fontsettings/
 ---
 ## FontSettings class

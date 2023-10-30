@@ -3,7 +3,7 @@ title: WmfEscapeRecordBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8490
+weight: 8470
 url: /net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/
 ---
 ## WmfEscapeRecordBase class

@@ -3,7 +3,7 @@ title: PngFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7460
+weight: 7440
 url: /net/aspose.imaging.fileformats.png/pngfiltertype/
 ---
 ## PngFilterType enumeration

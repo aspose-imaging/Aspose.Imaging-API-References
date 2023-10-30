@@ -3,7 +3,7 @@ title: WmfPolyLine
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8960
+weight: 8940
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpolyline/
 ---
 ## WmfPolyLine class

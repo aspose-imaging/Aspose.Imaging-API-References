@@ -3,7 +3,7 @@ title: XmpTypeBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 12040
+weight: 12020
 url: /net/aspose.imaging.xmp.types/xmptypebase/
 ---
 ## XmpTypeBase class

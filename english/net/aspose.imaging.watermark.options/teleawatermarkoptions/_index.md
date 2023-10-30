@@ -3,7 +3,7 @@ title: TeleaWatermarkOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11540
+weight: 11520
 url: /net/aspose.imaging.watermark.options/teleawatermarkoptions/
 ---
 ## TeleaWatermarkOptions class

@@ -3,7 +3,7 @@ title: TiffDoubleType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8000
+weight: 7980
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype/
 ---
 ## TiffDoubleType class

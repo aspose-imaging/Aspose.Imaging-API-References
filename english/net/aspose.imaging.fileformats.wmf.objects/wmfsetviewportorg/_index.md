@@ -3,7 +3,7 @@ title: WmfSetViewportOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9300
+weight: 9280
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
 ---
 ## WmfSetViewportOrg class

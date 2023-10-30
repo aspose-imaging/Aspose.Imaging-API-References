@@ -3,7 +3,7 @@ title: ImageLoadersRegistry
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9990
+weight: 9970
 url: /net/aspose.imaging/imageloadersregistry/
 ---
 ## ImageLoadersRegistry class

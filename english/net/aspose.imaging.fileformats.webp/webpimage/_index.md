@@ -3,7 +3,7 @@ title: WebPImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8170
+weight: 8150
 url: /net/aspose.imaging.fileformats.webp/webpimage/
 ---
 ## WebPImage class

@@ -3,12 +3,12 @@ title: FileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.imaging.fileformats.eps/epsimage/fileformat/
 ---
 ## EpsImage.FileFormat property
 
-Gets a value of file format
+Gets the file format.
 
 ```csharp
 public override FileFormat FileFormat { get; }

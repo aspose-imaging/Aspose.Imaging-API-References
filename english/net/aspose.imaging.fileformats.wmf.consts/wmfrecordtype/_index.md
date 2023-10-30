@@ -3,7 +3,7 @@ title: WmfRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8410
+weight: 8390
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfrecordtype/
 ---
 ## WmfRecordType enumeration

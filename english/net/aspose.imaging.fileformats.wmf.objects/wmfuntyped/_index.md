@@ -3,7 +3,7 @@ title: WmfUntyped
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9360
+weight: 9340
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 ---
 ## WmfUntyped class

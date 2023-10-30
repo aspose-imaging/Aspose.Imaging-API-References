@@ -3,7 +3,7 @@ title: VectorImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11500
+weight: 11480
 url: /net/aspose.imaging/vectorimage/
 ---
 ## VectorImage class

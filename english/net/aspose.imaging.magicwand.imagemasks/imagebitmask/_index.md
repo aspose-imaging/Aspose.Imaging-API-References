@@ -3,7 +3,7 @@ title: ImageBitMask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10610
+weight: 10590
 url: /net/aspose.imaging.magicwand.imagemasks/imagebitmask/
 ---
 ## ImageBitMask class

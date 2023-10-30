@@ -3,7 +3,7 @@ title: JpegCompressionMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6780
+weight: 6760
 url: /net/aspose.imaging.fileformats.jpeg/jpegcompressionmode/
 ---
 ## JpegCompressionMode enumeration

@@ -3,7 +3,7 @@ title: WmfGamutMappingIntent
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8280
+weight: 8260
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfgamutmappingintent/
 ---
 ## WmfGamutMappingIntent enumeration

@@ -3,12 +3,12 @@ title: EpsLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6590
+weight: 6570
 url: /net/aspose.imaging.fileformats.eps/epsloadoptions/
 ---
 ## EpsLoadOptions class
 
-EPS load options
+The [`EpsImage`](../epsimage) load options.
 
 ```csharp
 public class EpsLoadOptions : LoadOptions
@@ -27,7 +27,6 @@ public class EpsLoadOptions : LoadOptions
 | [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Gets or sets the [`Image`](../../aspose.imaging/image) background [`Color`](../../aspose.imaging/color). |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Gets or sets the data recovery mode. |
-| [PreviewExportFormat](../../aspose.imaging.fileformats.eps/epsloadoptions/previewexportformat) { get; set; } | Gets or sets the preview format to use for export. If it is not set or specified format is absent, the best available quality is selected by default. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
 
 ## Methods

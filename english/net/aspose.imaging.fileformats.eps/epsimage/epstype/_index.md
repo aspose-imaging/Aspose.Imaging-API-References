@@ -3,15 +3,15 @@ title: EpsType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.imaging.fileformats.eps/epsimage/epstype/
 ---
 ## EpsImage.EpsType property
 
-Gets EPS subtype value
+Gets EPS subtype value.
 
 ```csharp
-public abstract EpsType EpsType { get; }
+public EpsType EpsType { get; }
 ```
 
 ### See Also

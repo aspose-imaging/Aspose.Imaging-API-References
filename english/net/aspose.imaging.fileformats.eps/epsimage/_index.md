@@ -3,15 +3,15 @@ title: EpsImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6570
+weight: 6560
 url: /net/aspose.imaging.fileformats.eps/epsimage/
 ---
 ## EpsImage class
 
-Base class for EPS format
+The EPS image class.
 
 ```csharp
-public abstract class EpsImage : VectorImage
+public sealed class EpsImage : VectorImage
 ```
 
 ## Properties
@@ -21,33 +21,30 @@ public abstract class EpsImage : VectorImage
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.eps/epsimage/bitsperpixel) { get; } | Gets the image bits per pixel count. |
-| [BoundingBoxBottomLeft](../../aspose.imaging.fileformats.eps/epsimage/boundingboxbottomleft) { get; } | Gets the bounding box bottom left position |
-| [BoundingBoxString](../../aspose.imaging.fileformats.eps/epsimage/boundingboxstring) { get; } | Gets the BoundingBox string value |
-| [BoundingBoxTopRight](../../aspose.imaging.fileformats.eps/epsimage/boundingboxtopright) { get; } | Gets the bounding box top right position |
+| [BoundingBox](../../aspose.imaging.fileformats.eps/epsimage/boundingbox) { get; } | Gets the original bounding box of this [`EpsImage`](../epsimage) instance in device independent points. |
+| [BoundingBoxPx](../../aspose.imaging.fileformats.eps/epsimage/boundingboxpx) { get; } | Gets the original bounding box of this [`EpsImage`](../epsimage) instance in pixels. |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Gets the image bounds. |
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
-| [CreationDate](../../aspose.imaging.fileformats.eps/epsimage/creationdate) { get; } | Gets the CreationDate field |
-| [CreationDateString](../../aspose.imaging.fileformats.eps/epsimage/creationdatestring) { get; } | Gets he CreationDate field string value |
-| [Creator](../../aspose.imaging.fileformats.eps/epsimage/creator) { get; } | Gets the Creator field |
+| [CreationDate](../../aspose.imaging.fileformats.eps/epsimage/creationdate) { get; } | Gets the creation date from the EPS DSC comments. |
+| [Creator](../../aspose.imaging.fileformats.eps/epsimage/creator) { get; } | Gets the creator from the EPS DSC comments. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| abstract [EpsType](../../aspose.imaging.fileformats.eps/epsimage/epstype) { get; } | Gets EPS subtype value |
-| override [FileFormat](../../aspose.imaging.fileformats.eps/epsimage/fileformat) { get; } | Gets a value of file format |
+| [EpsType](../../aspose.imaging.fileformats.eps/epsimage/epstype) { get; } | Gets EPS subtype value. |
+| override [FileFormat](../../aspose.imaging.fileformats.eps/epsimage/fileformat) { get; } | Gets the file format. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| abstract [HasRasterPreview](../../aspose.imaging.fileformats.eps/epsimage/hasrasterpreview) { get; } | Gets a value indicating whether this instance has format-specific raster preview |
+| [HasRasterPreview](../../aspose.imaging.fileformats.eps/epsimage/hasrasterpreview) { get; } | Gets the value indicating whether this [`EpsImage`](../epsimage) instane has a raster preview. |
 | override [Height](../../aspose.imaging.fileformats.eps/epsimage/height) { get; } | Gets the image height. |
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf) { get; } | Gets the object height, in inches. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.eps/epsimage/iscached) { get; } | Gets a value indicating whether object's data is cached currently and no data reading is required. |
-| [PageNumber](../../aspose.imaging.fileformats.eps/epsimage/pagenumber) { get; } | Gets the page number |
-| [PagesCount](../../aspose.imaging.fileformats.eps/epsimage/pagescount) { get; } | Gets the pages count |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
-| [PhotoshopThumbnail](../../aspose.imaging.fileformats.eps/epsimage/photoshopthumbnail) { get; } | Gets Photoshop preview thumbnail (if it's present in initial EPS data) |
-| [PostScriptVersion](../../aspose.imaging.fileformats.eps/epsimage/postscriptversion) { get; } | Gets the PostScript version field |
+| [PostScriptVersion](../../aspose.imaging.fileformats.eps/epsimage/postscriptversion) { get; } | Gets the PostScript version. |
+| [PreviewImageCount](../../aspose.imaging.fileformats.eps/epsimage/previewimagecount) { get; } | Gets the preview image count. |
+| [PreviewImages](../../aspose.imaging.fileformats.eps/epsimage/previewimages) { get; } | Gets the preview images. |
 | [Size](../../aspose.imaging/image/size) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef) { get; } | Gets the object size, in inches. |
-| [Title](../../aspose.imaging.fileformats.eps/epsimage/title) { get; } | Gets the Title field |
+| [Title](../../aspose.imaging.fileformats.eps/epsimage/title) { get; } | Gets the title from the EPS DSC comments. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging.fileformats.eps/epsimage/width) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf) { get; } | Gets the object width, in inches. |
@@ -56,12 +53,14 @@ public abstract class EpsImage : VectorImage
 
 | Name | Description |
 | --- | --- |
-| override [CacheData](../../aspose.imaging.fileformats.eps/epsimage/cachedata)() | Cache can not be used. |
+| override [CacheData](../../aspose.imaging.fileformats.eps/epsimage/cachedata)() | Does nothing since currently [`EpsImage`](../epsimage) class does not cache data. |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.eps/epsimage/getdefaultoptions)(object[]) | Gets the default options. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | Gets the embedded images. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
+| [GetPreviewImage](../../aspose.imaging.fileformats.eps/epsimage/getpreviewimage)(EpsPreviewFormat) | Gets the exisiting preview image of specified *format* or returns `null`. |
+| [GetPreviewImages](../../aspose.imaging.fileformats.eps/epsimage/getpreviewimages)() | Gets the preview images. |
 | [Resize](../../aspose.imaging/image/resize)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize)(int, int, ResizeType) | Resizes the image. |

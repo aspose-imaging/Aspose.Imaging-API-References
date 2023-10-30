@@ -3,7 +3,7 @@ title: RectangleMask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10640
+weight: 10620
 url: /net/aspose.imaging.magicwand.imagemasks/rectanglemask/
 ---
 ## RectangleMask class

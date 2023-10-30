@@ -3,7 +3,7 @@ title: TargetPrinter
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.imaging.imageoptions/tiffoptions/targetprinter/
 ---
 ## TiffOptions.TargetPrinter property

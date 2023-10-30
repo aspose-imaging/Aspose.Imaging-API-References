@@ -3,7 +3,7 @@ title: WebPFrameBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8160
+weight: 8140
 url: /net/aspose.imaging.fileformats.webp/webpframeblock/
 ---
 ## WebPFrameBlock class

@@ -3,20 +3,16 @@ title: Title
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 140
 url: /net/aspose.imaging.fileformats.eps/epsimage/title/
 ---
 ## EpsImage.Title property
 
-Gets the Title field
+Gets the title from the EPS DSC comments.
 
 ```csharp
 public string Title { get; }
 ```
-
-### Property Value
-
-The Title field
 
 ### See Also
 

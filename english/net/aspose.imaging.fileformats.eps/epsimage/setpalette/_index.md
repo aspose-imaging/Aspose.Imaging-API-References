@@ -3,7 +3,7 @@ title: SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.imaging.fileformats.eps/epsimage/setpalette/
 ---
 ## EpsImage.SetPalette method
@@ -23,7 +23,7 @@ public override void SetPalette(IColorPalette palette, bool updateColors)
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Not valid for vector images |
+| NotSupportedException | Not supported by VectorImage |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: WmfRenderMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9380
+weight: 9360
 url: /net/aspose.imaging.fileformats.wmf/wmfrendermode/
 ---
 ## WmfRenderMode enumeration

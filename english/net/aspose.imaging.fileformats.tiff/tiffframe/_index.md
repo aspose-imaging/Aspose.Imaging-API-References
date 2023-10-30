@@ -3,7 +3,7 @@ title: TiffFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7930
+weight: 7910
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/
 ---
 ## TiffFrame class

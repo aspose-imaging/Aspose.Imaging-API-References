@@ -3,7 +3,7 @@ title: FeatheringMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10580
+weight: 10560
 url: /net/aspose.imaging.magicwand.imagemasks/featheringmode/
 ---
 ## FeatheringMode enumeration

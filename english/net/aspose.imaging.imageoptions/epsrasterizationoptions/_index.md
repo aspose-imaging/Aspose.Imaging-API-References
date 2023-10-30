@@ -3,7 +3,7 @@ title: EpsRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10100
+weight: 10080
 url: /net/aspose.imaging.imageoptions/epsrasterizationoptions/
 ---
 ## EpsRasterizationOptions class
@@ -38,7 +38,6 @@ public class EpsRasterizationOptions : VectorRasterizationOptions
 | [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth) { get; set; } | Gets or sets the page width. |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
 | [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning) { get; set; } | Gets or sets the positioning. |
-| [PreviewToExport](../../aspose.imaging.imageoptions/epsrasterizationoptions/previewtoexport) { get; set; } | Gets or sets the preview to export. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
 | [ReplaceTextMapping](../../aspose.imaging.imageoptions/vectorrasterizationoptions/replacetextmapping) { get; set; } | Gets or sets the text replace mapping. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |

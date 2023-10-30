@@ -3,7 +3,7 @@ title: FontStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9440
+weight: 9420
 url: /net/aspose.imaging/fontstyle/
 ---
 ## FontStyle enumeration

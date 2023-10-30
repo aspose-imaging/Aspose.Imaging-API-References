@@ -3,7 +3,7 @@ title: TiffStreamReader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7850
+weight: 7830
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/
 ---
 ## TiffStreamReader class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/
 The tiff stream for handling little endian tiff file format.
 
 ```csharp
-public class TiffStreamReader : #=z8JQC1bsO3BVemcQON8ayZF$lrp7iSJ36AOugeTtsekhJ322bLNMbluU=
+public class TiffStreamReader : #=zGp6fQ$qz7RvbyE4g5ZzORL0UXKRpJ_zTZZn6mwKj0jxLipNLWj_$s9c=
 ```
 
 ## Constructors

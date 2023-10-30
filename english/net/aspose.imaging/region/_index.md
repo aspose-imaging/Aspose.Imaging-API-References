@@ -3,7 +3,7 @@ title: Region
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11140
+weight: 11120
 url: /net/aspose.imaging/region/
 ---
 ## Region class

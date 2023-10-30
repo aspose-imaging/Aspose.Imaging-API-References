@@ -3,20 +3,16 @@ title: Creator
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.imaging.fileformats.eps/epsimage/creator/
 ---
 ## EpsImage.Creator property
 
-Gets the Creator field
+Gets the creator from the EPS DSC comments.
 
 ```csharp
 public string Creator { get; }
 ```
-
-### Property Value
-
-The Creator field
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: OdMarkerType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6870
+weight: 6850
 url: /net/aspose.imaging.fileformats.opendocument.enums/odmarkertype/
 ---
 ## OdMarkerType enumeration

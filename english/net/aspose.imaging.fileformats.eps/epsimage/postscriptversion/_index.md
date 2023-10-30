@@ -3,20 +3,16 @@ title: PostScriptVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 110
 url: /net/aspose.imaging.fileformats.eps/epsimage/postscriptversion/
 ---
 ## EpsImage.PostScriptVersion property
 
-Gets the PostScript version field
+Gets the PostScript version.
 
 ```csharp
 public string PostScriptVersion { get; }
 ```
-
-### Property Value
-
-The PostScript version field
 
 ### See Also
 

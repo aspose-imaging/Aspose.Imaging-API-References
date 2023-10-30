@@ -3,7 +3,7 @@ title: WmfSelectObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9110
+weight: 9090
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/
 ---
 ## WmfSelectObject class

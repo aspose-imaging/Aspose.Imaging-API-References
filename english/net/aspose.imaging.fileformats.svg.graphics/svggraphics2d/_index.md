@@ -3,7 +3,7 @@ title: SvgGraphics2D
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7540
+weight: 7520
 url: /net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/
 ---
 ## SvgGraphics2D class

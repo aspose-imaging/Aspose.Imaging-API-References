@@ -3,12 +3,12 @@ title: CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 160
 url: /net/aspose.imaging.fileformats.eps/epsimage/cachedata/
 ---
 ## EpsImage.CacheData method
 
-Cache can not be used.
+Does nothing since currently [`EpsImage`](../../epsimage) class does not cache data.
 
 ```csharp
 public override void CacheData()

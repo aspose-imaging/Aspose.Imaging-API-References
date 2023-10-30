@@ -3,7 +3,7 @@ title: WmfTernaryRasterOperationOperand
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8430
+weight: 8410
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperationoperand/
 ---
 ## WmfTernaryRasterOperationOperand enumeration

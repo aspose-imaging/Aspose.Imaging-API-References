@@ -3,7 +3,7 @@ title: Jpeg2000Image
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6850
+weight: 6830
 url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 ---
 ## Jpeg2000Image class

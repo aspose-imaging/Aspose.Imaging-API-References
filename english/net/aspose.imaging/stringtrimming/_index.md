@@ -3,7 +3,7 @@ title: StringTrimming
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11470
+weight: 11450
 url: /net/aspose.imaging/stringtrimming/
 ---
 ## StringTrimming enumeration

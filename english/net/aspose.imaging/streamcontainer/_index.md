@@ -3,7 +3,7 @@ title: StreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11420
+weight: 11400
 url: /net/aspose.imaging/streamcontainer/
 ---
 ## StreamContainer class

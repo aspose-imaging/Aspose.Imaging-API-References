@@ -3,7 +3,7 @@ title: WmfCreatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8620
+weight: 8600
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
 ---
 ## WmfCreatePalette class

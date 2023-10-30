@@ -3,7 +3,7 @@ title: TiffImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7940
+weight: 7920
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 ---
 ## TiffImage class

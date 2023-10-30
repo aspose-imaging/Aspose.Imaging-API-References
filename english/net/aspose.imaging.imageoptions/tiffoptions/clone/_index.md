@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.imaging.imageoptions/tiffoptions/clone/
 ---
 ## TiffOptions.Clone method

@@ -3,7 +3,7 @@ title: GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 170
 url: /net/aspose.imaging.fileformats.eps/epsimage/getdefaultoptions/
 ---
 ## EpsImage.GetDefaultOptions method

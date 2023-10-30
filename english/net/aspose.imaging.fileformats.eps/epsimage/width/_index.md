@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 150
 url: /net/aspose.imaging.fileformats.eps/epsimage/width/
 ---
 ## EpsImage.Width property

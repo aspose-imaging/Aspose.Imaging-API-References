@@ -3,7 +3,7 @@ title: CircleMask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10560
+weight: 10540
 url: /net/aspose.imaging.magicwand.imagemasks/circlemask/
 ---
 ## CircleMask class

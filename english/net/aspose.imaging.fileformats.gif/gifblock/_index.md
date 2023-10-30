@@ -3,7 +3,7 @@ title: GifBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6690
+weight: 6670
 url: /net/aspose.imaging.fileformats.gif/gifblock/
 ---
 ## GifBlock class
