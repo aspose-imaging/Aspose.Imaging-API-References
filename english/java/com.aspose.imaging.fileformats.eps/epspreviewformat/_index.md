@@ -1,9 +1,9 @@
 ---
 title: EpsPreviewFormat
 second_title: Aspose.Imaging for Java API Reference
-description: EPS preview format
+description: The  preview image formats.
 type: docs
-weight: 15
+weight: 13
 url: /java/com.aspose.imaging.fileformats.eps/epspreviewformat/
 ---
 **Inheritance:**
@@ -12,53 +12,44 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EpsPreviewFormat extends System.Enum
 ```
 
-EPS preview format
+The [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) preview image formats.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Default](#Default) | Best available quality |
-| [TIFF](#TIFF) | TIFF preview format |
-| [WMF](#WMF) | WMF preview format |
-| [PhotoshopThumbnail](#PhotoshopThumbnail) | Photoshop thumbnail (JFIF data) |
-| [PostScriptRendering](#PostScriptRendering) | PostScript rendering |
+| [Default](#Default) | The best quality preview an [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance contains. |
+| [TIFF](#TIFF) | The [FileFormat.Tiff](../../com.aspose.imaging/fileformat\#Tiff) preview. |
+| [WMF](#WMF) | The [FileFormat.Wmf](../../com.aspose.imaging/fileformat\#Wmf) preview. |
+| [PhotoshopThumbnail](#PhotoshopThumbnail) | The [FileFormat.Jpeg](../../com.aspose.imaging/fileformat\#Jpeg) preview from Photoshop comment. |
 ### Default {#Default}
 ```
-public static final int Default
+public static final long Default
 ```
 
 
-Best available quality
+The best quality preview an [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance contains.
 
 ### TIFF {#TIFF}
 ```
-public static final int TIFF
+public static final long TIFF
 ```
 
 
-TIFF preview format
+The [FileFormat.Tiff](../../com.aspose.imaging/fileformat\#Tiff) preview.
 
 ### WMF {#WMF}
 ```
-public static final int WMF
+public static final long WMF
 ```
 
 
-WMF preview format
+The [FileFormat.Wmf](../../com.aspose.imaging/fileformat\#Wmf) preview.
 
 ### PhotoshopThumbnail {#PhotoshopThumbnail}
 ```
-public static final int PhotoshopThumbnail
+public static final long PhotoshopThumbnail
 ```
 
 
-Photoshop thumbnail (JFIF data)
-
-### PostScriptRendering {#PostScriptRendering}
-```
-public static final int PostScriptRendering
-```
-
-
-PostScript rendering
+The [FileFormat.Jpeg](../../com.aspose.imaging/fileformat\#Jpeg) preview from Photoshop comment.
 

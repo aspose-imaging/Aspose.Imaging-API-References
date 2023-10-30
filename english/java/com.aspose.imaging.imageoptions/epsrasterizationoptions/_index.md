@@ -23,8 +23,8 @@ The Eps rasterization options.
 
 | Method | Description |
 | --- | --- |
-| [getPreviewToExport()](#getPreviewToExport--) | Gets the preview to export. |
-| [setPreviewToExport(int value)](#setPreviewToExport-int-) | Sets the preview to export. |
+| [getPreviewToExport()](#getPreviewToExport--) | Use [EpsImage.getPreviewImage(long)](../../com.aspose.imaging.fileformats.eps/epsimage\#getPreviewImage-long-) for preview export. |
+| [setPreviewToExport(long value)](#setPreviewToExport-long-) | Use [EpsImage.getPreviewImage(long)](../../com.aspose.imaging.fileformats.eps/epsimage\#getPreviewImage-long-) for preview export. |
 ### EpsRasterizationOptions() {#EpsRasterizationOptions--}
 ```
 public EpsRasterizationOptions()
@@ -46,28 +46,24 @@ public EpsRasterizationOptions(EpsRasterizationOptions origin)
 
 ### getPreviewToExport() {#getPreviewToExport--}
 ```
-public final int getPreviewToExport()
+public final long getPreviewToExport()
 ```
 
 
-Gets the preview to export.
-
-Value: The preview to export.
+Use [EpsImage.getPreviewImage(long)](../../com.aspose.imaging.fileformats.eps/epsimage\#getPreviewImage-long-) for preview export.
 
 **Returns:**
-int - the preview to export.
-### setPreviewToExport(int value) {#setPreviewToExport-int-}
+long
+### setPreviewToExport(long value) {#setPreviewToExport-long-}
 ```
-public final void setPreviewToExport(int value)
+public final void setPreviewToExport(long value)
 ```
 
 
-Sets the preview to export.
-
-Value: The preview to export.
+Use [EpsImage.getPreviewImage(long)](../../com.aspose.imaging.fileformats.eps/epsimage\#getPreviewImage-long-) for preview export.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the preview to export. |
+| value | long |  |
 

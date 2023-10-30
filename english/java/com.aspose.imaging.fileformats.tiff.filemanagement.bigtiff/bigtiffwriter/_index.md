@@ -18,6 +18,11 @@ The BigTiff stream writer.
 | Constructor | Description |
 | --- | --- |
 | [BigTiffWriter(StreamContainer writer)](#BigTiffWriter-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getSizeOfTagValue()](#getSizeOfTagValue--) | Gets size of tag value length. |
 ### BigTiffWriter(StreamContainer writer) {#BigTiffWriter-com.aspose.imaging.StreamContainer-}
 ```
 public BigTiffWriter(StreamContainer writer)
@@ -31,3 +36,13 @@ Initializes a new instance of the [TiffStreamWriter](../../com.aspose.imaging.fi
 | --- | --- | --- |
 | writer | [StreamContainer](../../com.aspose.imaging/streamcontainer) | The stream writer. |
 
+### getSizeOfTagValue() {#getSizeOfTagValue--}
+```
+public byte getSizeOfTagValue()
+```
+
+
+Gets size of tag value length.
+
+**Returns:**
+byte - size of tag value length.

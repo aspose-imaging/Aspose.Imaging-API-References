@@ -14,9 +14,7 @@ The package contains EPS format type
 
 | Class | Description |
 | --- | --- |
-| [EpsBinaryImage](../com.aspose.imaging.fileformats.eps/epsbinaryimage) | Class for Encapsulated PostScript format with binary header |
-| [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) | Base class for EPS format |
-| [EpsInterchangeImage](../com.aspose.imaging.fileformats.eps/epsinterchangeimage) | Class for Encapsulated PostScript Interchange format |
+| [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) | The EPS image class. |
 | [EpsLoadOptions](../com.aspose.imaging.fileformats.eps/epsloadoptions) | EPS load options |
 | [EpsOptions](../com.aspose.imaging.fileformats.eps/epsoptions) | EPS options (currently not used) |
-| [EpsPreviewFormat](../com.aspose.imaging.fileformats.eps/epspreviewformat) | EPS preview format |
+| [EpsPreviewFormat](../com.aspose.imaging.fileformats.eps/epspreviewformat) | The [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) preview image formats. |

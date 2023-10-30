@@ -1,51 +1,48 @@
 ---
 title: EpsImage
 second_title: Aspose.Imaging for Java API Reference
-description: Base class for EPS format
+description: The EPS image class.
 type: docs
-weight: 11
+weight: 10
 url: /java/com.aspose.imaging.fileformats.eps/epsimage/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.VectorImage](../../com.aspose.imaging/vectorimage)
 ```
-public abstract class EpsImage extends VectorImage
+public final class EpsImage extends VectorImage
 ```
 
-Base class for EPS format
+The EPS image class.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getEpsType()](#getEpsType--) | Gets EPS subtype value |
-| [getPhotoshopThumbnail()](#getPhotoshopThumbnail--) | Gets Photoshop preview thumbnail (if it's present in initial EPS data) |
-| [hasRasterPreview()](#hasRasterPreview--) | Gets a value indicating whether this instance has format-specific raster preview |
+| [getPreviewImageCount()](#getPreviewImageCount--) | Gets the preview image count. |
+| [getPreviewImages()](#getPreviewImages--) | Gets the preview images. |
+| [getFileFormat()](#getFileFormat--) | Gets the file format. |
+| [getEpsType()](#getEpsType--) | Gets EPS subtype value. |
+| [hasRasterPreview()](#hasRasterPreview--) | Gets the value indicating whether this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance has a raster preview. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
-| [getSize()](#getSize--) |  |
 | [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
-| [getPreviewToExport()](#getPreviewToExport--) | Preview to use for export |
-| [setPreviewToExport(int value)](#setPreviewToExport-int-) | Preview to use for export |
-| [getPostScriptVersion()](#getPostScriptVersion--) | Gets the PostScript version field |
-| [getTitle()](#getTitle--) | Gets the Title field |
-| [getCreator()](#getCreator--) | Gets the Creator field |
-| [getCreationDateString()](#getCreationDateString--) | Gets he CreationDate field string value |
-| [getCreationDate()](#getCreationDate--) | Gets the CreationDate field |
-| [getBoundingBoxString()](#getBoundingBoxString--) | Gets the BoundingBox string value |
-| [getBoundingBoxBottomLeft()](#getBoundingBoxBottomLeft--) | Gets the bounding box bottom left position |
-| [getBoundingBoxTopRight()](#getBoundingBoxTopRight--) | Gets the bounding box top right position |
-| [getPagesCount()](#getPagesCount--) | Gets the pages count |
-| [getPageNumber()](#getPageNumber--) | Gets the page number |
-| [cacheData()](#cacheData--) | Cache can not be used. |
+| [getPsStream()](#getPsStream--) | Gets the stream containing the PostScript to execute. |
+| [getPostScriptVersion()](#getPostScriptVersion--) | Gets the PostScript version. |
+| [getTitle()](#getTitle--) | Gets the title from the EPS DSC comments. |
+| [getCreator()](#getCreator--) | Gets the creator from the EPS DSC comments. |
+| [getCreationDate()](#getCreationDate--) | Gets the creation date from the EPS DSC comments. |
+| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | The creation date from the EPS DSC comments. |
+| [getBoundingBox()](#getBoundingBox--) | Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in device independent points. |
+| [getBoundingBoxPx()](#getBoundingBoxPx--) | Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels. |
+| [cacheData()](#cacheData--) | Does nothing since currently [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) class does not cache data. |
+| [getPreviewImagesIter()](#getPreviewImagesIter--) | Gets the iterator with all preview images. |
+| [getPreviewImage()](#getPreviewImage--) | Gets the existing preview image by default. |
+| [getPreviewImage(long format)](#getPreviewImage-long-) | Gets the existing preview image of specified `format` or returns ``. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [getPreviewImages()](#getPreviewImages--) | Gets the preview images. |
-| [saveData(System.IO.Stream stream)](#saveData-com.aspose.ms.System.IO.Stream-) | Saves the data. |
 
 ## Example: Convert EPS image to PNG using PostScript rendering.
 
@@ -118,48 +115,56 @@ try (Image image = Image.load("AstrixObelix.eps"))
 }
 ```
 
+### getPreviewImageCount() {#getPreviewImageCount--}
+```
+public int getPreviewImageCount()
+```
+
+
+Gets the preview image count.
+
+**Returns:**
+int - the preview image count.
+### getPreviewImages() {#getPreviewImages--}
+```
+public Image[] getPreviewImages()
+```
+
+
+Gets the preview images.
+
+**Returns:**
+com.aspose.imaging.Image[] - the preview images.
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Gets the file format.
 
 **Returns:**
-long
+long - the file format.
 ### getEpsType() {#getEpsType--}
 ```
-public abstract short getEpsType()
+public short getEpsType()
 ```
 
 
-Gets EPS subtype value
+Gets EPS subtype value.
 
 **Returns:**
-short
-### getPhotoshopThumbnail() {#getPhotoshopThumbnail--}
-```
-public JpegImage getPhotoshopThumbnail()
-```
-
-
-Gets Photoshop preview thumbnail (if it's present in initial EPS data)
-
-**Returns:**
-[JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) - Photoshop preview thumbnail
+short - EPS subtype value.
 ### hasRasterPreview() {#hasRasterPreview--}
 ```
-public abstract boolean hasRasterPreview()
+public boolean hasRasterPreview()
 ```
 
 
-Gets a value indicating whether this instance has format-specific raster preview
-
-Value: `true` if this instance has format-specific raster preview; otherwise, `false`.
+Gets the value indicating whether this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance has a raster preview.
 
 **Returns:**
-boolean - a value indicating whether this instance has format-specific raster preview
+boolean - the value indicating whether this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance has a raster preview.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -167,8 +172,6 @@ public int getBitsPerPixel()
 
 
 Gets the image bits per pixel count.
-
-Value: The image bits per pixel count.
 
 **Returns:**
 int - the image bits per pixel count.
@@ -196,16 +199,6 @@ Value: The image height.
 
 **Returns:**
 int - the image height.
-### getSize() {#getSize--}
-```
-public Size getSize()
-```
-
-
-Gets the image size.
-
-**Returns:**
-[Size](../../com.aspose.imaging/size)
 ### isCached() {#isCached--}
 ```
 public boolean isCached()
@@ -214,143 +207,134 @@ public boolean isCached()
 
 Gets a value indicating whether object's data is cached currently and no data reading is required.
 
-Value: `true` if object's data is cached; otherwise, `false`.
-
 **Returns:**
 boolean - a value indicating whether object's data is cached currently and no data reading is required.
-### getPreviewToExport() {#getPreviewToExport--}
+### getPsStream() {#getPsStream--}
 ```
-public final int getPreviewToExport()
+public InputStream getPsStream()
 ```
 
 
-Preview to use for export
+Gets the stream containing the PostScript to execute.
 
 **Returns:**
-int
-### setPreviewToExport(int value) {#setPreviewToExport-int-}
-```
-public final void setPreviewToExport(int value)
-```
-
-
-Preview to use for export
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
+java.io.InputStream - the stream containing the PostScript to execute.
 ### getPostScriptVersion() {#getPostScriptVersion--}
 ```
 public String getPostScriptVersion()
 ```
 
 
-Gets the PostScript version field
+Gets the PostScript version.
 
 **Returns:**
-java.lang.String - The PostScript version field
+java.lang.String - the PostScript version.
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
 ```
 
 
-Gets the Title field
+Gets the title from the EPS DSC comments.
 
 **Returns:**
-java.lang.String - The Title field
+java.lang.String - the title from the EPS DSC comments.
 ### getCreator() {#getCreator--}
 ```
 public String getCreator()
 ```
 
 
-Gets the Creator field
+Gets the creator from the EPS DSC comments.
 
 **Returns:**
-java.lang.String - The Creator field
-### getCreationDateString() {#getCreationDateString--}
-```
-public final String getCreationDateString()
-```
-
-
-Gets he CreationDate field string value
-
-**Returns:**
-java.lang.String - The CreationDate field string value
+java.lang.String - the creator from the EPS DSC comments.
 ### getCreationDate() {#getCreationDate--}
 ```
 public Date getCreationDate()
 ```
 
 
-Gets the CreationDate field
+Gets the creation date from the EPS DSC comments.
 
 **Returns:**
-java.util.Date - The CreationDate field
-### getBoundingBoxString() {#getBoundingBoxString--}
+java.util.Date - the creation date from the EPS DSC comments.
+### setCreationDate(Date value) {#setCreationDate-java.util.Date-}
 ```
-public final String getBoundingBoxString()
+public void setCreationDate(Date value)
 ```
 
 
-Gets the BoundingBox string value
+The creation date from the EPS DSC comments.
 
-Value: The BoundingBox string value
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date | the creation date from the EPS DSC comments. |
+
+### getBoundingBox() {#getBoundingBox--}
+```
+public RectangleF getBoundingBox()
+```
+
+
+Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in device independent points.
 
 **Returns:**
-java.lang.String - the BoundingBox string value
-### getBoundingBoxBottomLeft() {#getBoundingBoxBottomLeft--}
+[RectangleF](../../com.aspose.imaging/rectanglef) - the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in device independent points.
+### getBoundingBoxPx() {#getBoundingBoxPx--}
 ```
-public Point getBoundingBoxBottomLeft()
+public Rectangle getBoundingBoxPx()
 ```
 
 
-Gets the bounding box bottom left position
+Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels.
 
 **Returns:**
-[Point](../../com.aspose.imaging/point) - The bounding box bottom left position
-### getBoundingBoxTopRight() {#getBoundingBoxTopRight--}
-```
-public Point getBoundingBoxTopRight()
-```
-
-
-Gets the bounding box top right position
-
-**Returns:**
-[Point](../../com.aspose.imaging/point) - The bounding box top right position
-### getPagesCount() {#getPagesCount--}
-```
-public Integer getPagesCount()
-```
-
-
-Gets the pages count
-
-**Returns:**
-java.lang.Integer - The pages count
-### getPageNumber() {#getPageNumber--}
-```
-public Integer getPageNumber()
-```
-
-
-Gets the page number
-
-**Returns:**
-java.lang.Integer - The page number
+[Rectangle](../../com.aspose.imaging/rectangle) - the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels.
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()
 ```
 
 
-Cache can not be used.
+Does nothing since currently [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) class does not cache data.
 
+### getPreviewImagesIter() {#getPreviewImagesIter--}
+```
+public Iterable<Image> getPreviewImagesIter()
+```
+
+
+Gets the iterator with all preview images.
+
+**Returns:**
+java.lang.Iterable<com.aspose.imaging.Image> - The preview images iterator.
+### getPreviewImage() {#getPreviewImage--}
+```
+public Image getPreviewImage()
+```
+
+
+Gets the existing preview image by default.
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - The existing preview image or `null`.
+### getPreviewImage(long format) {#getPreviewImage-long-}
+```
+public Image getPreviewImage(long format)
+```
+
+
+Gets the existing preview image of specified `format` or returns ``.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| format | long | The EPS preview image format. |
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - The existing preview image or ``.
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
 public void resize(int newWidth, int newHeight, int resizeType)
@@ -432,7 +416,7 @@ Rotates, flips, or rotates and flips the image.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rotateFlipType | int | Type of the rotates flip. |
+| rotateFlipType | int | Type of the rotate flip. |
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```
@@ -463,26 +447,3 @@ Gets the default options.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
-### getPreviewImages() {#getPreviewImages--}
-```
-public List<Image> getPreviewImages()
-```
-
-
-Gets the preview images.
-
-**Returns:**
-java.util.List<com.aspose.imaging.Image> - The list of preview images
-### saveData(System.IO.Stream stream) {#saveData-com.aspose.ms.System.IO.Stream-}
-```
-public void saveData(System.IO.Stream stream)
-```
-
-
-Saves the data.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream to save data to. |
-

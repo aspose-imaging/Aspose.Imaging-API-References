@@ -18,6 +18,11 @@ The big endian BigTiff stream writer.
 | Constructor | Description |
 | --- | --- |
 | [BigTiffWriterBE(StreamContainer writer)](#BigTiffWriterBE-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the [BigTiffWriterBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffwriterbe) class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getSizeOfTagValue()](#getSizeOfTagValue--) | Gets size of tag value length. |
 ### BigTiffWriterBE(StreamContainer writer) {#BigTiffWriterBE-com.aspose.imaging.StreamContainer-}
 ```
 public BigTiffWriterBE(StreamContainer writer)
@@ -31,3 +36,13 @@ Initializes a new instance of the [BigTiffWriterBE](../../com.aspose.imaging.fil
 | --- | --- | --- |
 | writer | [StreamContainer](../../com.aspose.imaging/streamcontainer) | The stream writer. |
 
+### getSizeOfTagValue() {#getSizeOfTagValue--}
+```
+public byte getSizeOfTagValue()
+```
+
+
+Gets size of tag value length.
+
+**Returns:**
+byte - size of tag value length.

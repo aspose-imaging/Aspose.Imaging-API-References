@@ -21,6 +21,11 @@ The little endian BigTiff reader.
 | [BigTiffReader(StreamContainer streamContainer)](#BigTiffReader-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) class. |
 | [BigTiffReader(byte[] data, int startIndex)](#BigTiffReader-byte---int-) | Initializes a new instance of the [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) class. |
 | [BigTiffReader(byte[] data, int startIndex, int dataLength)](#BigTiffReader-byte---int-int-) | Initializes a new instance of the [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getSizeOfTagValue()](#getSizeOfTagValue--) | Gets size of tag value length. |
 ### BigTiffReader(byte[] data) {#BigTiffReader-byte---}
 ```
 public BigTiffReader(byte[] data)
@@ -76,3 +81,13 @@ Initializes a new instance of the [BigTiffReader](../../com.aspose.imaging.filef
 | startIndex | int | The start index into `data`. |
 | dataLength | int | Length of the data. |
 
+### getSizeOfTagValue() {#getSizeOfTagValue--}
+```
+public byte getSizeOfTagValue()
+```
+
+
+Gets size of tag value length.
+
+**Returns:**
+byte - size of tag value length.

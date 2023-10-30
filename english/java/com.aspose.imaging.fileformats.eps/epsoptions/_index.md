@@ -3,7 +3,7 @@ title: EpsOptions
 second_title: Aspose.Imaging for Java API Reference
 description: EPS options currently not used
 type: docs
-weight: 14
+weight: 12
 url: /java/com.aspose.imaging.fileformats.eps/epsoptions/
 ---
 **Inheritance:**
