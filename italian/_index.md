@@ -19,6 +19,7 @@ Aspose.Imaging per .NET fornisce una serie di routine flessibili per la creazion
 
 Questi sono i link ad alcune risorse utili:
 - [Riferimento all'API di Aspose.Imaging per .NET](/imaging/it/net/)
+- [Aspose.Imaging per tutorial sull'API .NET](/tutorials/imaging/it/net/)
 
 ## Aspose.Imaging per Java
 
@@ -35,6 +36,7 @@ Aspose.Imaging per Java offre un'ampia gamma di tradizionali operazioni di elabo
 Questi sono i link ad alcune risorse utili:
 
 - [Riferimento all'API di Aspose.Imaging per Java](/imaging/java/)
+- [Aspose.Imaging per tutorial sull'API Java](/tutorials/imaging/it/java/)
 
 ## Aspose.Imaging per Python tramite .NET
 

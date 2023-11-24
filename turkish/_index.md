@@ -19,6 +19,7 @@ Aspose.Imaging for .NET, .NET uygulamaları içinde görüntüleri oluşturmak v
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Imaging for .NET API Referansı](/imaging/tr/net/)
+- [Aspose.Imaging for .NET API Eğitimleri](/tutorials/imaging/tr/net/)
 
 ## Java için Aspose.Imaging
 
@@ -35,6 +36,7 @@ Aspose.Imaging for Java, bir görüntüyü bir formattan diğerine dönüştürm
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 
 - [Aspose.Imaging for Java API Referansı](/imaging/java/)
+- [Aspose.Imaging for Java API Eğitimleri](/tutorials/imaging/tr/java/)
 
 ## .NET aracılığıyla Python için Aspose.Imaging
 

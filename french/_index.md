@@ -20,6 +20,7 @@ Aspose.Imaging pour .NET fournit un certain nombre de routines flexibles pour cr
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Imaging pour .NET](/imaging/fr/net/)
+- [Aspose.Imaging pour les didacticiels API .NET](/tutorials/imaging/fr/net/)
 
 ## Aspose.Imaging pour Java
 
@@ -36,6 +37,7 @@ Aspose.Imaging pour Java offre un large éventail d'opérations de traitement d'
 Voici des liens vers des ressources utiles :
 
 - [Référence de l'API Aspose.Imaging pour Java](/imaging/java/)
+- [Aspose.Imaging pour les didacticiels API Java](/tutorials/imaging/fr/java/)
 
 ## Aspose.Imaging pour Python via .NET
 

@@ -19,6 +19,7 @@ Aspose.Imaging for .NET 提供了许多灵活的例程，用于在 .NET 应用�
 
 这些是一些有用资源的链接：
 - [Aspose.Imaging for .NET API 参考](/imaging/zh/net/)
+- [Aspose.Imaging for .NET API 教程](/tutorials/imaging/zh/net/)
 
 ## Aspose.Imaging for Java
 
@@ -35,6 +36,7 @@ Aspose.Imaging for Java 提供了广泛的传统图像处理操作，例如将�
 这些是一些有用资源的链接：
 
 - [Aspose.Imaging for Java API 参考](/imaging/java/)
+- [Aspose.Imaging Java API 教程](/tutorials/imaging/zh/java/)
 
 ## Aspose.Imaging for Python 通过 .NET
 

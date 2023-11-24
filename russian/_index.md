@@ -20,6 +20,7 @@ Aspose.Imaging for .NET предоставляет ряд гибких подп�
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по Aspose.Imaging for .NET API](/imaging/ru/net/)
+- [Учебные пособия по Aspose.Imaging для .NET API](/tutorials/imaging/ru/net/)
 
 ## Aspose.Imaging для Java
 
@@ -36,6 +37,7 @@ Aspose.Imaging for Java предлагает широкий спектр тра�
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по Aspose.Imaging for Java API](/imaging/java/)
+- [Учебные пособия по Aspose.Imaging для Java API](/tutorials/imaging/ru/java/)
 
 ## Aspose.Imaging для Python через .NET
 

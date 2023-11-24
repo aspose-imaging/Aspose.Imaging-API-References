@@ -19,6 +19,7 @@ url: /ar/
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Imaging لمرجع NET API](/imaging/ar/net/)
+- [Aspose.Imaging لبرامج .NET API التعليمية](/tutorials/imaging/ar/net/)
 
 ## Aspose.Imaging لجافا
 
@@ -35,6 +36,7 @@ Aspose.Maging for Java يقدم مجموعة واسعة من عمليات معا
 هذه روابط لبعض المصادر المفيدة:
 
 - [Aspose.Imaging لمرجع Java API](/imaging/java/)
+- [Aspose.Imaging لبرامج Java API التعليمية](/tutorials/imaging/ar/java/)
 
 ## Aspose.Imaging for Python عبر .NET
 
