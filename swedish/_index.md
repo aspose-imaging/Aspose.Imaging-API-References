@@ -19,6 +19,7 @@ Aspose.Imaging för .NET tillhandahåller ett antal flexibla rutiner för att sk
 
 Det här är länkar till några användbara resurser:
 - [Aspose.Imaging för .NET API Referens](/imaging/sv/net/)
+- [Handledning för Aspose.Imaging för .NET API](/tutorials/imaging/sv/net/)
 
 ## Aspose.Imaging för Java
 
@@ -35,6 +36,7 @@ Aspose.Imaging för Java erbjuder ett brett spektrum av traditionella bildbehand
 Det här är länkar till några användbara resurser:
 
 - [Aspose.Imaging för Java API Referens](/imaging/java/)
+- [Handledning för Aspose.Imaging för Java API](/tutorials/imaging/sv/java/)
 
 ## Aspose.Imaging för Python via .NET
 
