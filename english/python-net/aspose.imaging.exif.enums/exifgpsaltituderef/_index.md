@@ -11,7 +11,7 @@ exif gps altitude ref enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifGPSAltitudeRef
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

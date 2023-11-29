@@ -11,7 +11,7 @@ Specifies which objects use color adjustment information.
 
 **Full Name:** aspose.imaging.ColorAdjustType
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

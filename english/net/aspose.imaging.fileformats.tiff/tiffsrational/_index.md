@@ -19,7 +19,7 @@ public class TiffSRational
 | Name | Description |
 | --- | --- |
 | [TiffSRational](tiffsrational)() | Initializes a new instance of the [`TiffSRational`](../tiffsrational) class. |
-| [TiffSRational](tiffsrational)(int) | Initializes a new instance of the [`TiffRational`](../tiffrational) class. |
+| [TiffSRational](tiffsrational)(int) | Initializes a new instance of the [`TiffSRational`](../tiffsrational) class. |
 | [TiffSRational](tiffsrational)(int, int) | Initializes a new instance of the [`TiffSRational`](../tiffsrational) class. |
 
 ## Properties

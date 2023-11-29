@@ -17,13 +17,13 @@ Encapsulates a `Aspose.Imaging.Brush` with a linear gradient. This class cannot 
 
 | Constructor | Description |
 | --- | --- |
-| [LinearGradientBrush()](#LinearGradientBrush--) | Initializes a new instance of the `LinearGradientBrush` class with default parameters. |
-| [LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-) | Initializes a new instance of the `LinearGradientBrush` class with the specified points and colors. |
-| [LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-) | Initializes a new instance of the `LinearGradientBrush` class with the specified points and colors. |
-| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle. |
-| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle. |
-| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle. |
-| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle. |
+| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class. |
+| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class. |
+| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class. |
+| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class. |
+| [LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class. |
+| [LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class. |
+| [LinearGradientBrush()](#LinearGradientBrush--) | Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class with default parameters. |
 ## Methods
 
 | Method | Description |
@@ -42,77 +42,22 @@ Encapsulates a `Aspose.Imaging.Brush` with a linear gradient. This class cannot 
 | [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | Creates a gradient falloff based on a bell-shaped curve. |
 | [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | Creates a linear gradient with a center color and a linear falloff to a single color on both ends. |
 | [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | Creates a linear gradient with a center color and a linear falloff to a single color on both ends. |
-### LinearGradientBrush() {#LinearGradientBrush--}
+### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
 ```
-public LinearGradientBrush()
-```
-
-
-Initializes a new instance of the `LinearGradientBrush` class with default parameters. The starting color is black, the ending color is white, the angle is 45 degrees and the rectangle is located in (0,0) with size (1,1).
-
-### LinearGradientBrush(Point point1, Point point2, Color color1, Color color2) {#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-}
-```
-public LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)
+public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)
 ```
 
 
-Initializes a new instance of the `LinearGradientBrush` class with the specified points and colors.
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point1 | [Point](../../com.aspose.imaging/point) | A `Aspose.Imaging.Point` structure that represents the starting point of the linear gradient. |
-| point2 | [Point](../../com.aspose.imaging/point) | A `Aspose.Imaging.Point` structure that represents the endpoint of the linear gradient. |
-| color1 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the starting color of the linear gradient. |
-| color2 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the ending color of the linear gradient. |
-
-### LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2) {#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-}
-```
-public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)
-```
-
-
-Initializes a new instance of the `LinearGradientBrush` class with the specified points and colors.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| point1 | [PointF](../../com.aspose.imaging/pointf) | A `Aspose.Imaging.PointF` structure that represents the starting point of the linear gradient. |
-| point2 | [PointF](../../com.aspose.imaging/pointf) | A `Aspose.Imaging.PointF` structure that represents the endpoint of the linear gradient. |
-| color1 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the starting color of the linear gradient. |
-| color2 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the ending color of the linear gradient. |
-
-### LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
-```
-public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)
-```
-
-
-Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rect | [Rectangle](../../com.aspose.imaging/rectangle) | A `Aspose.Imaging.RectangleF` structure that specifies the bounds of the linear gradient. |
-| color1 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the starting color for the gradient. |
-| color2 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the ending color for the gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
-
-### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
-```
-public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)
-```
-
-
-Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | A `Aspose.Imaging.RectangleF` structure that specifies the bounds of the linear gradient. |
-| color1 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the starting color for the gradient. |
-| color2 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the ending color for the gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
+| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | The rectangle. |
+| color1 | [Color](../../com.aspose.imaging/color) | The color1. |
+| color2 | [Color](../../com.aspose.imaging/color) | The color2. |
+| angle | float | The angle. |
+| isAngleScalable | boolean | if set to `true` [is angle scalable]. |
 
 ### LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
 ```
@@ -120,33 +65,88 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 ```
 
 
-Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle.
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | [Rectangle](../../com.aspose.imaging/rectangle) | A `Aspose.Imaging.RectangleF` structure that specifies the bounds of the linear gradient. |
-| color1 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the starting color for the gradient. |
-| color2 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the ending color for the gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
-| isAngleScalable | boolean | if set to `true` the angle is changed during transformations with this `LinearGradientBrush`. |
+| rect | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
+| color1 | [Color](../../com.aspose.imaging/color) | The color1. |
+| color2 | [Color](../../com.aspose.imaging/color) | The color2. |
+| angle | float | The angle. |
+| isAngleScalable | boolean | if set to `true` [is angle scalable]. |
 
-### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
+### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
 ```
-public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)
+public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)
 ```
 
 
-Initializes a new instance of the `LinearGradientBrush` class based on a rectangle, starting and ending colors, and an orientation angle.
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | A `Aspose.Imaging.RectangleF` structure that specifies the bounds of the linear gradient. |
-| color1 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the starting color for the gradient. |
-| color2 | [Color](../../com.aspose.imaging/color) | A `com.aspose.imaging.Color` structure that represents the ending color for the gradient. |
-| angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
-| isAngleScalable | boolean | if set to `true` the angle is changed during transformations with this `LinearGradientBrush`. |
+| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | The rectangle. |
+| color1 | [Color](../../com.aspose.imaging/color) | The color1. |
+| color2 | [Color](../../com.aspose.imaging/color) | The color2. |
+| angle | float | The angle. |
+
+### LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
+```
+public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)
+```
+
+
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rect | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
+| color1 | [Color](../../com.aspose.imaging/color) | The color1. |
+| color2 | [Color](../../com.aspose.imaging/color) | The color2. |
+| angle | float | The angle. |
+
+### LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2) {#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-}
+```
+public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)
+```
+
+
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point1 | [PointF](../../com.aspose.imaging/pointf) | The point1. |
+| point2 | [PointF](../../com.aspose.imaging/pointf) | The point2. |
+| color1 | [Color](../../com.aspose.imaging/color) | The color1. |
+| color2 | [Color](../../com.aspose.imaging/color) | The color2. |
+
+### LinearGradientBrush(Point point1, Point point2, Color color1, Color color2) {#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-}
+```
+public LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)
+```
+
+
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point1 | [Point](../../com.aspose.imaging/point) | The point1. |
+| point2 | [Point](../../com.aspose.imaging/point) | The point2. |
+| color1 | [Color](../../com.aspose.imaging/color) | The color1. |
+| color2 | [Color](../../com.aspose.imaging/color) | The color2. |
+
+### LinearGradientBrush() {#LinearGradientBrush--}
+```
+public LinearGradientBrush()
+```
+
+
+Initializes a new instance of the [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) class with default parameters. The starting color is black, the ending color is white, the angle is 45 degrees and the rectangle is located in (0,0) with size (1,1).
 
 ### getInterpolationColors() {#getInterpolationColors--}
 ```

@@ -19,12 +19,12 @@ public sealed class LinearGradientBrush : LinearGradientBrushBase
 | Name | Description |
 | --- | --- |
 | [LinearGradientBrush](lineargradientbrush)() | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class with default parameters. The starting color is black, the ending color is white, the angle is 45 degrees and the rectangle is located in (0,0) with size (1,1). |
-| [LinearGradientBrush](lineargradientbrush)(Point, Point, Color, Color) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class with the specified points and colors. |
-| [LinearGradientBrush](lineargradientbrush)(PointF, PointF, Color, Color) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class with the specified points and colors. |
-| [LinearGradientBrush](lineargradientbrush)(Rectangle, Color, Color, float) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class based on a rectangle, starting and ending colors, and an orientation angle. |
-| [LinearGradientBrush](lineargradientbrush)(RectangleF, Color, Color, float) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class based on a rectangle, starting and ending colors, and an orientation angle. |
-| [LinearGradientBrush](lineargradientbrush)(Rectangle, Color, Color, float, bool) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class based on a rectangle, starting and ending colors, and an orientation angle. |
-| [LinearGradientBrush](lineargradientbrush)(RectangleF, Color, Color, float, bool) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class based on a rectangle, starting and ending colors, and an orientation angle. |
+| [LinearGradientBrush](lineargradientbrush)(Point, Point, Color, Color) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class. |
+| [LinearGradientBrush](lineargradientbrush)(PointF, PointF, Color, Color) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class. |
+| [LinearGradientBrush](lineargradientbrush)(Rectangle, Color, Color, float) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class. |
+| [LinearGradientBrush](lineargradientbrush)(RectangleF, Color, Color, float) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class. |
+| [LinearGradientBrush](lineargradientbrush)(Rectangle, Color, Color, float, bool) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class. |
+| [LinearGradientBrush](lineargradientbrush)(RectangleF, Color, Color, float, bool) | Initializes a new instance of the [`LinearGradientBrush`](../lineargradientbrush) class. |
 
 ## Properties
 

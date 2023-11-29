@@ -11,7 +11,7 @@ The LogicalColorSpace Enumeration specifies the type of color space.
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfLogicalColorSpaceEnum
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

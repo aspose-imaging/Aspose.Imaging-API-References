@@ -11,7 +11,7 @@ Indicates the way in which the graphic is to be treated after being displayed.
 
 **Full Name:** aspose.imaging.AnimationDisposalMethods
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

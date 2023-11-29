@@ -11,7 +11,7 @@ Represents possible missing sections in CAD file
 
 **Full Name:** aspose.imaging.imageoptions.RenderErrorCode
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

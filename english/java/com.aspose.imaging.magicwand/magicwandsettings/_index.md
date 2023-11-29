@@ -36,6 +36,61 @@ A magic wand selection settings class.
 | [setColorCompareMode(int value)](#setColorCompareMode-int-) | Sets the algorithm how colors are compared. |
 | [getColorComparisonDelegate()](#getColorComparisonDelegate--) | Gets the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
 | [setColorComparisonDelegate(MagicWandSettings.ColorComparison value)](#setColorComparisonDelegate-com.aspose.imaging.magicwand.MagicWandSettings.ColorComparison-) | Sets the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
+
+## Example: The example shows how to select a simple area of an image based on tone and color of any pixel using Magic Wand tool.
+
+``` java
+String imageFilePath = "input.png";
+String outputFilePath = "masked.png";
+try (RasterImage image = (RasterImage)Image.load(imageFilePath))
+{
+    // Create a new mask using magic wand tool based on tone and color of pixel (120, 100) with custom threshold equal to 150
+    MagicWandTool
+            .select(image, new MagicWandSettings(120, 100) {{ setThreshold(150); }})
+            // Apply mask to the image
+            .apply();
+
+    // Save image with forced transparency color type option
+    image.save(outputFilePath, new PngOptions()
+    {{
+        setColorType(PngColorType.TruecolorWithAlpha);
+    }});
+}
+
+```
+
+
+## Example: The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, subtract).
+
+``` java
+String imageFilePath = "input.png";
+String outputFilePath = "masked-complex.png";
+try (RasterImage image = (RasterImage)Image.load(imageFilePath))
+{
+    // Create a new mask using magic wand tool based on tone and color of pixel (845, 128)
+    MagicWandTool.select(image, new MagicWandSettings(845, 128))
+            // Union the existing mask with the specified one created by magic wand tool
+            .union(new MagicWandSettings(416, 387))
+            // Invert the existing mask
+            .invert()
+            // Subtract the specified mask created by magic wand tool with specified threshold from the existing one
+            .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
+            // Subtract four specified rectangle masks from the existing mask one by one
+            .subtract(new RectangleMask(0, 0, 800, 150))
+            .subtract(new RectangleMask(0, 380, 600, 220))
+            .subtract(new RectangleMask(930, 520, 110, 40))
+            .subtract(new RectangleMask(1370, 400, 120, 200))
+            // Feather mask with specified settings
+            .getFeathered(new FeatheringSettings() {{ setSize(3); }})
+            // Apply mask to the image
+            .apply();
+
+    // Save image
+    image.save(outputFilePath);
+}
+
+```
+
 ### MagicWandSettings(Point point) {#MagicWandSettings-com.aspose.imaging.Point-}
 ```
 public MagicWandSettings(Point point)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging/license/license/
 ---
 ## License constructor
 
-Initializes a new instance of this class.
+Initializes a new instance of the [`License`](../../license) class. Initializes a new instance of this class.
 
 ```csharp
 public License()

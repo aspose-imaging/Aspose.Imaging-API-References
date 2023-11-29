@@ -24,7 +24,7 @@ public TiffSRational()
 
 ## TiffSRational constructor (2 of 3)
 
-Initializes a new instance of the [`TiffRational`](../../tiffrational) class.
+Initializes a new instance of the [`TiffSRational`](../../tiffsrational) class.
 
 ```csharp
 public TiffSRational(int value)
@@ -32,11 +32,7 @@ public TiffSRational(int value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | Int32 | The nominator value. |
-
-### Remarks
-
-The nominator will be used as the value specified and denominator will be equal 1.
+| value | Int32 | The value. |
 
 ### See Also
 

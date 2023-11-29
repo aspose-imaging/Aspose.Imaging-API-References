@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/color/
 
 **Full Name:** aspose.imaging.Color
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -22,6 +22,8 @@ The PDF options.
 
 | Method | Description |
 | --- | --- |
+| [isUseOriginalImageResolution()](#isUseOriginalImageResolution--) | Gets a value indicating to use the original image DPI resolution |
+| [setUseOriginalImageResolution(boolean value)](#setUseOriginalImageResolution-boolean-) | Sets a value indicating to use the original image DPI resolution |
 | [getPdfDocumentInfo()](#getPdfDocumentInfo--) | Gets or sets metadata for document. |
 | [setPdfDocumentInfo(PdfDocumentInfo value)](#setPdfDocumentInfo-com.aspose.imaging.fileformats.pdf.PdfDocumentInfo-) | Gets or sets metadata for document. |
 | [getPdfCoreOptions()](#getPdfCoreOptions--) | The PDF core options |
@@ -30,8 +32,6 @@ The PDF options.
 | [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | Sets the size of the page. |
 | [isUseOriginalImageSize()](#isUseOriginalImageSize--) | Gets a value indicating to use the original image DPI resolution |
 | [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | Sets a value indicating to use the original image DPI resolution |
-| [isUseOriginalImageResolution()](#isUseOriginalImageResolution--) | Gets a value indicating to use the original image DPI resolution |
-| [setUseOriginalImageResolution(boolean value)](#setUseOriginalImageResolution-boolean-) | Sets a value indicating to use the original image DPI resolution |
 
 ## Example: The following example shows how to convert a multipage vector image to PDF format in general way without referencing to a particular image type.
 
@@ -72,6 +72,33 @@ public PdfOptions()
 
 
 Initializes a new instance of the [PdfOptions](../../com.aspose.imaging.imageoptions/pdfoptions) class.
+
+### isUseOriginalImageResolution() {#isUseOriginalImageResolution--}
+```
+public final boolean isUseOriginalImageResolution()
+```
+
+
+Gets a value indicating to use the original image DPI resolution
+
+Value: Indicator to use the original image DPI resolution
+
+**Returns:**
+boolean - a value indicating to use the original image DPI resolution
+### setUseOriginalImageResolution(boolean value) {#setUseOriginalImageResolution-boolean-}
+```
+public final void setUseOriginalImageResolution(boolean value)
+```
+
+
+Sets a value indicating to use the original image DPI resolution
+
+Value: Indicator to use the original image DPI resolution
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating to use the original image DPI resolution |
 
 ### getPdfDocumentInfo() {#getPdfDocumentInfo--}
 ```
@@ -172,31 +199,4 @@ Value: Indicator to use the original image DPI resolution
 | Parameter | Type | Description |
 | --- | --- | --- |
 | useOriginalImageSize | boolean | a value indicating to use the original image DPI resolution |
-
-### isUseOriginalImageResolution() {#isUseOriginalImageResolution--}
-```
-public final boolean isUseOriginalImageResolution()
-```
-
-
-Gets a value indicating to use the original image DPI resolution
-
-Value: Indicator to use the original image DPI resolution
-
-**Returns:**
-boolean - a value indicating to use the original image DPI resolution
-### setUseOriginalImageResolution(boolean value) {#setUseOriginalImageResolution-boolean-}
-```
-public final void setUseOriginalImageResolution(boolean value)
-```
-
-
-Sets a value indicating to use the original image DPI resolution
-
-Value: Indicator to use the original image DPI resolution
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating to use the original image DPI resolution |
 

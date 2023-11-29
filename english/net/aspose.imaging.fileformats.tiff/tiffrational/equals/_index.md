@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffrational/equals/
 ---
 ## TiffRational.Equals method
 
-Determines whether the specified Object is equal to this instance.
+Determines whether the specified Object, is equal to this instance.
 
 ```csharp
 public override bool Equals(object obj)

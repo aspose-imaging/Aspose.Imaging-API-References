@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffrational/tostring/
 ---
 ## TiffRational.ToString method
 
-Returns a String that represents this instance.
+Converts to string.
 
 ```csharp
 public override string ToString()

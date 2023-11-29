@@ -8,7 +8,7 @@ url: /net/aspose.imaging.coreexceptions/indexoutofrangeexception/indexoutofrange
 ---
 ## IndexOutOFRangeException constructor (1 of 2)
 
-Initializes a new instance of the [`CompressorException`](../../compressorexception) class.
+Initializes a new instance of the [`IndexOutOFRangeException`](../../indexoutofrangeexception) class.
 
 ```csharp
 public IndexOutOFRangeException(string message)
@@ -28,7 +28,7 @@ public IndexOutOFRangeException(string message)
 
 ## IndexOutOFRangeException constructor (2 of 2)
 
-Initializes a new instance of the [`CompressorException`](../../compressorexception) class.
+Initializes a new instance of the [`IndexOutOFRangeException`](../../indexoutofrangeexception) class.
 
 ```csharp
 public IndexOutOFRangeException(string message, Exception innerException)

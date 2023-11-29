@@ -11,7 +11,7 @@ Specifies how the interior of a closed path is filled.
 
 **Full Name:** aspose.imaging.FillMode
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

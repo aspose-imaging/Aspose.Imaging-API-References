@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colorpalettehelper/
 
 **Full Name:** aspose.imaging.ColorPaletteHelper
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Methods**
 | **Name** | **Description** |

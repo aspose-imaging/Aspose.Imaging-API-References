@@ -17,15 +17,15 @@ The compressor exception.
 
 | Constructor | Description |
 | --- | --- |
-| [IndexOutOFRangeException(String message)](#IndexOutOFRangeException-java.lang.String-) | Initializes a new instance of the [CompressorException](../../com.aspose.imaging.coreexceptions/compressorexception) class. |
-| [IndexOutOFRangeException(String message, Throwable innerException)](#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [CompressorException](../../com.aspose.imaging.coreexceptions/compressorexception) class. |
+| [IndexOutOFRangeException(String message)](#IndexOutOFRangeException-java.lang.String-) | Initializes a new instance of the [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) class. |
+| [IndexOutOFRangeException(String message, Throwable innerException)](#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) class. |
 ### IndexOutOFRangeException(String message) {#IndexOutOFRangeException-java.lang.String-}
 ```
 public IndexOutOFRangeException(String message)
 ```
 
 
-Initializes a new instance of the [CompressorException](../../com.aspose.imaging.coreexceptions/compressorexception) class.
+Initializes a new instance of the [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -38,7 +38,7 @@ public IndexOutOFRangeException(String message, Throwable innerException)
 ```
 
 
-Initializes a new instance of the [CompressorException](../../com.aspose.imaging.coreexceptions/compressorexception) class.
+Initializes a new instance of the [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) class.
 
 **Parameters:**
 | Parameter | Type | Description |

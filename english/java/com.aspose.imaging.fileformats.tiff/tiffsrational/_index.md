@@ -18,7 +18,7 @@ The tiff rational type.
 | Constructor | Description |
 | --- | --- |
 | [TiffSRational()](#TiffSRational--) | Initializes a new instance of the `TiffSRational` class. |
-| [TiffSRational(int value)](#TiffSRational-int-) | Initializes a new instance of the `TiffRational` class. |
+| [TiffSRational(int value)](#TiffSRational-int-) | Initializes a new instance of the [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) class. |
 | [TiffSRational(int nominator, int denominator)](#TiffSRational-int-int-) | Initializes a new instance of the `TiffSRational` class. |
 ## Fields
 
@@ -54,14 +54,12 @@ public TiffSRational(int value)
 ```
 
 
-Initializes a new instance of the `TiffRational` class.
+Initializes a new instance of the [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The nominator value.
-
-The nominator will be used as the value specified and denominator will be equal 1. |
+| value | int | The nominator value. |
 
 ### TiffSRational(int nominator, int denominator) {#TiffSRational-int-int-}
 ```

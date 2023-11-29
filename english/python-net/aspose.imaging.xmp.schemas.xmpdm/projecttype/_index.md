@@ -11,7 +11,7 @@ Represents project type in [XmpDynamicMediaPackage](/imaging/python-net/aspose.i
 
 **Full Name:** aspose.imaging.xmp.schemas.xmpdm.ProjectType
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagemask/
 
 **Inheritance:** IImageMask
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -35,21 +35,22 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagemask/
 | [exclusive_disjunction(image, settings)](#exclusive_disjunction_image_settings_6) | Gets the exclusive disjunction of the current mask with the result of magic wand selection applied to the provided image. |
 | [exclusive_disjunction(mask)](#exclusive_disjunction_mask_7) | Gets the exclusive disjunction of current mask with provided. |
 | [exclusive_disjunction(settings)](#exclusive_disjunction_settings_8) | Gets the exclusive disjunction of the current mask with the result of magic wand selection applied to the source of the mask. |
-| [get_byte_opacity(x, y)](#get_byte_opacity_x_y_9) | Gets the opacity of the specified pixel with byte precision. |
-| [get_feathered(settings)](#get_feathered_settings_10) | Gets grayscale mask with the border feathered with the specified settings. |
-| [inflate(size)](#inflate_size_11) | Inflates this mask by the specified amount. |
-| [intersect(image, settings)](#intersect_image_settings_12) | Gets the intersection of the current mask with the result of magic wand selection applied to the provided image. |
-| [intersect(mask)](#intersect_mask_13) | Gets the intersection of current mask with provided. |
-| [intersect(settings)](#intersect_settings_14) | Gets the intersection of the current mask with the result of magic wand selection applied to the source of the mask. |
-| [invert()](#invert__15) | Gets the inversion of the current mask. |
-| [is_opaque(x, y)](#is_opaque_x_y_16) | Checks if the specified pixel is opaque. |
-| [is_transparent(x, y)](#is_transparent_x_y_17) | Checks if the specified pixel is transparent. |
-| [subtract(image, settings)](#subtract_image_settings_18) | Gets the result of magic wand selection applied to the provided image subtracted from the current mask. |
-| [subtract(mask)](#subtract_mask_19) | Gets the subtraction of the provided mask from current. |
-| [subtract(settings)](#subtract_settings_20) | Gets the result of magic wand selection applied to the source of the current mask subtracted from the mask. |
-| [union(image, settings)](#union_image_settings_21) | Gets the union of the current mask with the result of magic wand selection applied to the provided image. |
-| [union(mask)](#union_mask_22) | Gets the union of the current mask with provided. |
-| [union(settings)](#union_settings_23) | Gets the union of the current mask with the result of magic wand selection applied to the source of the mask. |
+| [get(x, y)](#get_x_y_9) | Gets the opacity of the specified pixel. |
+| [get_byte_opacity(x, y)](#get_byte_opacity_x_y_10) | Gets the opacity of the specified pixel with byte precision. |
+| [get_feathered(settings)](#get_feathered_settings_11) | Gets grayscale mask with the border feathered with the specified settings. |
+| [inflate(size)](#inflate_size_12) | Inflates this mask by the specified amount. |
+| [intersect(image, settings)](#intersect_image_settings_13) | Gets the intersection of the current mask with the result of magic wand selection applied to the provided image. |
+| [intersect(mask)](#intersect_mask_14) | Gets the intersection of current mask with provided. |
+| [intersect(settings)](#intersect_settings_15) | Gets the intersection of the current mask with the result of magic wand selection applied to the source of the mask. |
+| [invert()](#invert__16) | Gets the inversion of the current mask. |
+| [is_opaque(x, y)](#is_opaque_x_y_17) | Checks if the specified pixel is opaque. |
+| [is_transparent(x, y)](#is_transparent_x_y_18) | Checks if the specified pixel is transparent. |
+| [subtract(image, settings)](#subtract_image_settings_19) | Gets the result of magic wand selection applied to the provided image subtracted from the current mask. |
+| [subtract(mask)](#subtract_mask_20) | Gets the subtraction of the provided mask from current. |
+| [subtract(settings)](#subtract_settings_21) | Gets the result of magic wand selection applied to the source of the current mask subtracted from the mask. |
+| [union(image, settings)](#union_image_settings_22) | Gets the union of the current mask with the result of magic wand selection applied to the provided image. |
+| [union(mask)](#union_mask_23) | Gets the union of the current mask with provided. |
+| [union(settings)](#union_settings_24) | Gets the union of the current mask with the result of magic wand selection applied to the source of the mask. |
 
 
 ### Method: apply_to(image) {#apply_to_image_1}
@@ -217,7 +218,30 @@ Gets the exclusive disjunction of the current mask with the result of magic wand
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: get_byte_opacity(x, y) {#get_byte_opacity_x_y_9}
+### Method: get(x, y) {#get_x_y_9}
+
+
+```
+ get(x, y) 
+```
+
+Gets the opacity of the specified pixel.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| x | int | The x-coordinate of the pixel. |
+| y | int | The y-coordinate of the pixel. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true if the specified pixel is opaque; otherwise, false. |
+
+
+### Method: get_byte_opacity(x, y) {#get_byte_opacity_x_y_10}
 
 
 ```
@@ -240,7 +264,7 @@ Gets the opacity of the specified pixel with byte precision.
 | byte | Byte value, representing the opacity of the specified pixel. |
 
 
-### Method: get_feathered(settings) {#get_feathered_settings_10}
+### Method: get_feathered(settings) {#get_feathered_settings_11}
 
 
 ```
@@ -262,7 +286,7 @@ Gets grayscale mask with the border feathered with the specified settings.
 | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) with feathered border. |
 
 
-### Method: inflate(size) {#inflate_size_11}
+### Method: inflate(size) {#inflate_size_12}
 
 
 ```
@@ -284,7 +308,7 @@ Inflates this mask by the specified amount.
 | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | An ImageMask. |
 
 
-### Method: intersect(image, settings) {#intersect_image_settings_12}
+### Method: intersect(image, settings) {#intersect_image_settings_13}
 
 
 ```
@@ -307,7 +331,7 @@ Gets the intersection of the current mask with the result of magic wand selectio
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: intersect(mask) {#intersect_mask_13}
+### Method: intersect(mask) {#intersect_mask_14}
 
 
 ```
@@ -329,7 +353,7 @@ Gets the intersection of current mask with provided.
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: intersect(settings) {#intersect_settings_14}
+### Method: intersect(settings) {#intersect_settings_15}
 
 
 ```
@@ -351,7 +375,7 @@ Gets the intersection of the current mask with the result of magic wand selectio
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: invert() {#invert__15}
+### Method: invert() {#invert__16}
 
 
 ```
@@ -367,7 +391,7 @@ Gets the inversion of the current mask.
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: is_opaque(x, y) {#is_opaque_x_y_16}
+### Method: is_opaque(x, y) {#is_opaque_x_y_17}
 
 
 ```
@@ -390,7 +414,7 @@ Checks if the specified pixel is opaque.
 | bool | true if the specified pixel is opaque; otherwise, false. |
 
 
-### Method: is_transparent(x, y) {#is_transparent_x_y_17}
+### Method: is_transparent(x, y) {#is_transparent_x_y_18}
 
 
 ```
@@ -413,7 +437,7 @@ Checks if the specified pixel is transparent.
 | bool | true if the specified pixel is transparent; otherwise, false. |
 
 
-### Method: subtract(image, settings) {#subtract_image_settings_18}
+### Method: subtract(image, settings) {#subtract_image_settings_19}
 
 
 ```
@@ -436,7 +460,7 @@ Gets the result of magic wand selection applied to the provided image subtracted
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: subtract(mask) {#subtract_mask_19}
+### Method: subtract(mask) {#subtract_mask_20}
 
 
 ```
@@ -458,7 +482,7 @@ Gets the subtraction of the provided mask from current.
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: subtract(settings) {#subtract_settings_20}
+### Method: subtract(settings) {#subtract_settings_21}
 
 
 ```
@@ -480,7 +504,7 @@ Gets the result of magic wand selection applied to the source of the current mas
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: union(image, settings) {#union_image_settings_21}
+### Method: union(image, settings) {#union_image_settings_22}
 
 
 ```
@@ -503,7 +527,7 @@ Gets the union of the current mask with the result of magic wand selection appli
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: union(mask) {#union_mask_22}
+### Method: union(mask) {#union_mask_23}
 
 
 ```
@@ -525,7 +549,7 @@ Gets the union of the current mask with provided.
 | [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
-### Method: union(settings) {#union_settings_23}
+### Method: union(settings) {#union_settings_24}
 
 
 ```

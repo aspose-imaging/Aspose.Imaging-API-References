@@ -11,7 +11,7 @@ Color comparison method to adjust to nearest neighbor
 
 **Full Name:** aspose.imaging.ColorCompareMethod
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -18,8 +18,8 @@ public class IndexOutOFRangeException : Exception
 
 | Name | Description |
 | --- | --- |
-| [IndexOutOFRangeException](indexoutofrangeexception)(string) | Initializes a new instance of the [`CompressorException`](../compressorexception) class. |
-| [IndexOutOFRangeException](indexoutofrangeexception)(string, Exception) | Initializes a new instance of the [`CompressorException`](../compressorexception) class. |
+| [IndexOutOFRangeException](indexoutofrangeexception)(string) | Initializes a new instance of the [`IndexOutOFRangeException`](../indexoutofrangeexception) class. |
+| [IndexOutOFRangeException](indexoutofrangeexception)(string, Exception) | Initializes a new instance of the [`IndexOutOFRangeException`](../indexoutofrangeexception) class. |
 
 ### See Also
 

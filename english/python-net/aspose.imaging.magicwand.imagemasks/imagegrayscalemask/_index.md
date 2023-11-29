@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/
 
 **Inheritance:** IImageMask
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -38,13 +38,15 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/
 | [crop(size)](#crop_size_4) | Crops mask with the specified size. |
 | [crop(width, height)](#crop_width_height_5) | Crops mask with the specified width and height. |
 | [exclusive_disjunction(mask)](#exclusive_disjunction_mask_6) | Gets the exclusive disjunction of current mask with provided. |
-| [get_byte_opacity(x, y)](#get_byte_opacity_x_y_7) | Gets the opacity of the specified pixel with byte precision. |
-| [intersect(mask)](#intersect_mask_8) | Gets the intersection of current mask with provided. |
-| [invert()](#invert__9) | Gets the inversion of the current mask. |
-| [is_opaque(x, y)](#is_opaque_x_y_10) | Checks if the specified pixel is opaque. |
-| [is_transparent(x, y)](#is_transparent_x_y_11) | Checks if the specified pixel is transparent. |
-| [subtract(mask)](#subtract_mask_12) | Gets the subtraction of the provided mask from current. |
-| [union(mask)](#union_mask_13) | Union of two masks. |
+| [get(x, y)](#get_x_y_7) | Gets or sets the opacity of the specified pixel. |
+| [get_byte_opacity(x, y)](#get_byte_opacity_x_y_8) | Gets the opacity of the specified pixel with byte precision. |
+| [intersect(mask)](#intersect_mask_9) | Gets the intersection of current mask with provided. |
+| [invert()](#invert__10) | Gets the inversion of the current mask. |
+| [is_opaque(x, y)](#is_opaque_x_y_11) | Checks if the specified pixel is opaque. |
+| [is_transparent(x, y)](#is_transparent_x_y_12) | Checks if the specified pixel is transparent. |
+| [set(x, y, value)](#set_x_y_value_13) | Sets the opacity of the specified pixel. |
+| [subtract(mask)](#subtract_mask_14) | Gets the subtraction of the provided mask from current. |
+| [union(mask)](#union_mask_15) | Union of two masks. |
 
 
 ### Constructor: ImageGrayscaleMask(image) {#ImageGrayscaleMask_image_1}
@@ -198,7 +200,30 @@ Gets the exclusive disjunction of current mask with provided.
 | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
-### Method: get_byte_opacity(x, y) {#get_byte_opacity_x_y_7}
+### Method: get(x, y) {#get_x_y_7}
+
+
+```
+ get(x, y) 
+```
+
+Gets or sets the opacity of the specified pixel.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| x | int | The x-coordinate of the pixel. |
+| y | int | The y-coordinate of the pixel. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| byte | Byte value; 0 if transparent; 255 if opaque. |
+
+
+### Method: get_byte_opacity(x, y) {#get_byte_opacity_x_y_8}
 
 
 ```
@@ -221,7 +246,7 @@ Gets the opacity of the specified pixel with byte precision.
 | byte | Byte value, representing the opacity of the specified pixel. |
 
 
-### Method: intersect(mask) {#intersect_mask_8}
+### Method: intersect(mask) {#intersect_mask_9}
 
 
 ```
@@ -243,7 +268,7 @@ Gets the intersection of current mask with provided.
 | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
-### Method: invert() {#invert__9}
+### Method: invert() {#invert__10}
 
 
 ```
@@ -259,7 +284,7 @@ Gets the inversion of the current mask.
 | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
-### Method: is_opaque(x, y) {#is_opaque_x_y_10}
+### Method: is_opaque(x, y) {#is_opaque_x_y_11}
 
 
 ```
@@ -282,7 +307,7 @@ Checks if the specified pixel is opaque.
 | bool | true if the specified pixel is opaque; otherwise, false. |
 
 
-### Method: is_transparent(x, y) {#is_transparent_x_y_11}
+### Method: is_transparent(x, y) {#is_transparent_x_y_12}
 
 
 ```
@@ -305,7 +330,24 @@ Checks if the specified pixel is transparent.
 | bool | true if the specified pixel is transparent; otherwise, false. |
 
 
-### Method: subtract(mask) {#subtract_mask_12}
+### Method: set(x, y, value) {#set_x_y_value_13}
+
+
+```
+ set(x, y, value) 
+```
+
+Sets the opacity of the specified pixel.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| x | int | The x-coordinate of the pixel. |
+| y | int | The y-coordinate of the pixel. |
+| value | byte | Byte value; 0 if transparent; 255 if opaque. |
+
+### Method: subtract(mask) {#subtract_mask_14}
 
 
 ```
@@ -327,7 +369,7 @@ Gets the subtraction of the provided mask from current.
 | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
-### Method: union(mask) {#union_mask_13}
+### Method: union(mask) {#union_mask_15}
 
 
 ```

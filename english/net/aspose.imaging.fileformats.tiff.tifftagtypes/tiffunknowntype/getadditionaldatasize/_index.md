@@ -26,7 +26,7 @@ The additional data size in bytes.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | Exception |
 
 ### See Also
 

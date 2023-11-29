@@ -45,23 +45,24 @@ try (Image image = Image.load(imageFilePath))
 ## Example: The example shows how to remove any object from the image using Graphics Path with Telea algorithm.
 
 ``` java
-String imageFilePath = "ball.png"; 
+String imageFilePath = "ball.png";
+String outputPath = "no-watermark.png";
 try (Image image = Image.load(imageFilePath))
 {
-    PngImage pngImage = (PngImage)image;
-
+    PngImage pngImage = (PngImage) image;
     GraphicsPath mask = new GraphicsPath();
     Figure firstFigure = new Figure();
-    firstFigure.addShape(new EllipseShape(
-                new RectangleF(350, 170, 570 - 350, 400 - 170)));
+    firstFigure.addShape(new EllipseShape(new RectangleF(350, 170, 570 - 350, 400 - 170)));
     mask.addFigure(firstFigure);
 
     TeleaWatermarkOptions options = new TeleaWatermarkOptions(mask);
-    try (Image result = WatermarkRemover.PaintOver(pngImage, options))
+
+    try (RasterImage result = WatermarkRemover.paintOver(pngImage, options))
     {
-        result.Save(outputPath);
+        result.save(outputPath);
     }
 }
+
 ```
 
 ### paintOver(RasterImage source, WatermarkOptions options) {#paintOver-com.aspose.imaging.RasterImage-com.aspose.imaging.watermark.options.WatermarkOptions-}

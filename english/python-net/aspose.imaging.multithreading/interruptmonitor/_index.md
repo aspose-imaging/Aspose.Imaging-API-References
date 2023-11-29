@@ -13,12 +13,12 @@ url: /python-net/aspose.imaging.multithreading/interruptmonitor/
 
 **Inheritance:** IInterruptMonitor
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [InterruptMonitor()](#InterruptMonitor__1) | Initializes a new instance of the [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) class. |
+| [InterruptMonitor()](#InterruptMonitor__1) | The IInterruptMonitor instance which is unique for each thread. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -37,5 +37,5 @@ url: /python-net/aspose.imaging.multithreading/interruptmonitor/
  InterruptMonitor() 
 ```
 
-Initializes a new instance of the [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) class.
+The IInterruptMonitor instance which is unique for each thread.
 

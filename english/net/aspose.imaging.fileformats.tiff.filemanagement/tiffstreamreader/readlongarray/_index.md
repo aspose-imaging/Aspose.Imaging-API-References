@@ -27,7 +27,7 @@ The ulong array.
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException |  |
+| ArgumentOutOfRangeException | Argument out of range |
 
 ### See Also
 

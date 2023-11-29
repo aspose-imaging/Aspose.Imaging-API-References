@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.brushes/texturebrush/
 
 **Inheritance:** TransformBrush
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -88,7 +88,7 @@ Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imag
 | Parameter | Type | Description |
 | :- | :- | :- |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | The [Image](/imaging/python-net/aspose.imaging/image/) object with which this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object fills interiors. |
-| destination_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
+| destination_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 
 ### Constructor: TextureBrush(image, destination_rectangle) {#TextureBrush_image_destination_rectangle_3}
 
@@ -104,7 +104,7 @@ Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imag
 | Parameter | Type | Description |
 | :- | :- | :- |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | The [Image](/imaging/python-net/aspose.imaging/image/) object with which this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object fills interiors. |
-| destination_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
+| destination_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 
 ### Constructor: TextureBrush(image, destination_rectangle, image_attributes) {#TextureBrush_image_destination_rectangle_image_attributes_4}
 
@@ -120,7 +120,7 @@ Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imag
 | Parameter | Type | Description |
 | :- | :- | :- |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | The [Image](/imaging/python-net/aspose.imaging/image/) object with which this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object fills interiors. |
-| destination_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
+| destination_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 | image_attributes | [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes) | An [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object that contains additional information about the image used by this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 
 ### Constructor: TextureBrush(image, destination_rectangle, image_attributes) {#TextureBrush_image_destination_rectangle_image_attributes_5}
@@ -137,7 +137,7 @@ Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imag
 | Parameter | Type | Description |
 | :- | :- | :- |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | The [Image](/imaging/python-net/aspose.imaging/image/) object with which this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object fills interiors. |
-| destination_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
+| destination_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 | image_attributes | [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes) | An [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object that contains additional information about the image used by this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 
 ### Constructor: TextureBrush(image, wrap_mode) {#TextureBrush_image_wrap_mode_6}
@@ -171,7 +171,7 @@ Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | The [Image](/imaging/python-net/aspose.imaging/image/) object with which this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object fills interiors. |
 | wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) enumeration that specifies how this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object is tiled. |
-| destination_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
+| destination_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 
 ### Constructor: TextureBrush(image, wrap_mode, destination_rectangle) {#TextureBrush_image_wrap_mode_destination_rectangle_8}
 
@@ -188,7 +188,7 @@ Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | The [Image](/imaging/python-net/aspose.imaging/image/) object with which this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object fills interiors. |
 | wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) enumeration that specifies how this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object is tiled. |
-| destination_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
+| destination_rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle for this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 
 ### Method: create_with_image_rect(image, destination_rectangle)  [static] {#create_with_image_rect_image_destination_rectangle_1}
 

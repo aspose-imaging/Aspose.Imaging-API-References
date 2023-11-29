@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 
 **Inheritance:** IXmlValue, XmpPackage
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

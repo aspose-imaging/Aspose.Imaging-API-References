@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxFillStyle
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
