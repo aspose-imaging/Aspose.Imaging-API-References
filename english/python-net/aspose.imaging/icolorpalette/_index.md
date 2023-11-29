@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/icolorpalette/
 
 **Full Name:** aspose.imaging.IColorPalette
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebrush
 
 **Inheritance:** EmfPlusStructureObjectType
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 
 

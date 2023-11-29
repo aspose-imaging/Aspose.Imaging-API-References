@@ -11,7 +11,7 @@ The StringDigitSubstitution enumeration defines ways to substitute digits in a s
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusStringDigitSubstitution
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

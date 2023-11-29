@@ -11,7 +11,7 @@ Segmentation methods types
 
 **Full Name:** aspose.imaging.masking.options.SegmentationMethod
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

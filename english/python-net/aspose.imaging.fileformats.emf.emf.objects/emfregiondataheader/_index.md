@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
 
 **Inheritance:** EmfObject
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

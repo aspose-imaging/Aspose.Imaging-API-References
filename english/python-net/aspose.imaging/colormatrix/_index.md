@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colormatrix/
 
 **Full Name:** aspose.imaging.ColorMatrix
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -52,9 +52,11 @@ url: /python-net/aspose.imaging/colormatrix/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_elem(row, column)](#get_elem_row_column_1) | Gets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
-| [get_matrix()](#get_matrix__2) | Gets the matrix values. |
-| [set_elem(row, column, value)](#set_elem_row_column_value_3) | Sets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
+| [get(row, column)](#get_row_column_1) | Gets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
+| [get_elem(row, column)](#get_elem_row_column_2) | Gets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
+| [get_matrix()](#get_matrix__3) | Gets the matrix values. |
+| [set(row, column, value)](#set_row_column_value_4) | Sets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
+| [set_elem(row, column, value)](#set_elem_row_column_value_5) | Sets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 
 
 ### Constructor: ColorMatrix() {#ColorMatrix__1}
@@ -81,7 +83,30 @@ Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imagi
 | :- | :- | :- |
 | new_color_matrix | float[] | The values of the elements for the new [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 
-### Method: get_elem(row, column) {#get_elem_row_column_1}
+### Method: get(row, column) {#get_row_column_1}
+
+
+```
+ get(row, column) 
+```
+
+Gets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| row | int | The row number. |
+| column | int | The column number. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| float | The element at the specified row and column. |
+
+
+### Method: get_elem(row, column) {#get_elem_row_column_2}
 
 
 ```
@@ -104,7 +129,7 @@ Gets the element at the specified row and column in the [ColorMatrix](/imaging/p
 | float | The element at the specified row and column. |
 
 
-### Method: get_matrix() {#get_matrix__2}
+### Method: get_matrix() {#get_matrix__3}
 
 
 ```
@@ -120,7 +145,24 @@ Gets the matrix values.
 | float[] | The matrix values array. |
 
 
-### Method: set_elem(row, column, value) {#set_elem_row_column_value_3}
+### Method: set(row, column, value) {#set_row_column_value_4}
+
+
+```
+ set(row, column, value) 
+```
+
+Sets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| row | int | The row number. |
+| column | int | The column number. |
+| value | float | The element at the specified row and column. |
+
+### Method: set_elem(row, column, value) {#set_elem_row_column_value_5}
 
 
 ```

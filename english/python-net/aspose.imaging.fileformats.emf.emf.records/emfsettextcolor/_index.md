@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

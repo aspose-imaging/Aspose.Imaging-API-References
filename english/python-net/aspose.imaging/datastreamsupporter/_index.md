@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/datastreamsupporter/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

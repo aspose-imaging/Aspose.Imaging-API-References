@@ -11,7 +11,7 @@ Specifies style information applied to text.
 
 **Full Name:** aspose.imaging.FontStyle
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

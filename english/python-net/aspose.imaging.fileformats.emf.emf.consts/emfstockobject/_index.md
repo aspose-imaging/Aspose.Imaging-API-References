@@ -11,7 +11,7 @@ The StockObject enumeration specifies the indexes of predefined logical graphics
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfStockObject
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

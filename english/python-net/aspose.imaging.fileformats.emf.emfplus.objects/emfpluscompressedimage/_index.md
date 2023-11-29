@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompresse
 
 **Inheritance:** EmfPlusBaseBitmapData
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

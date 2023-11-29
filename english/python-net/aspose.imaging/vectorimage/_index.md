@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/vectorimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, Image
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

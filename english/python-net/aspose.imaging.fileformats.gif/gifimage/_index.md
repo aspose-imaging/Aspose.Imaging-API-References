@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -191,9 +191,8 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [set_palette(palette, update_colors)](#set_palette_palette_update_colors_110) | Sets the image palette. |
 | [set_pixel(x, y, color)](#set_pixel_x_y_color_111) | Sets an image pixel for the specified position. |
 | [set_resolution(dpi_x, dpi_y)](#set_resolution_dpi_x_dpi_y_112) | Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
-| [to_bitmap()](#to_bitmap__113) | Converts raster image to the bitmap. |
-| [write_argb_32_scan_line(scan_line_index, argb_32_pixels)](#write_argb_32_scan_line_scan_line_index_argb_32_pixels_114) | Writes the whole scan line to the specified scan line index. |
-| [write_scan_line(scan_line_index, pixels)](#write_scan_line_scan_line_index_pixels_115) | Writes the whole scan line to the specified scan line index. |
+| [write_argb_32_scan_line(scan_line_index, argb_32_pixels)](#write_argb_32_scan_line_scan_line_index_argb_32_pixels_113) | Writes the whole scan line to the specified scan line index. |
+| [write_scan_line(scan_line_index, pixels)](#write_scan_line_scan_line_index_pixels_114) | Writes the whole scan line to the specified scan line index. |
 
 
 ### Constructor: GifImage(first_frame) {#GifImage_first_frame_1}
@@ -2300,23 +2299,7 @@ Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/ra
 | dpi_x | double | The horizontal resolution, in dots per inch, of the [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | dpi_y | double | The vertical resolution, in dots per inch, of the [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 
-### Method: to_bitmap() {#to_bitmap__113}
-
-
-```
- to_bitmap() 
-```
-
-Converts raster image to the bitmap.
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| aspose.pydrawing.Bitmap | The bitmap |
-
-
-### Method: write_argb_32_scan_line(scan_line_index, argb_32_pixels) {#write_argb_32_scan_line_scan_line_index_argb_32_pixels_114}
+### Method: write_argb_32_scan_line(scan_line_index, argb_32_pixels) {#write_argb_32_scan_line_scan_line_index_argb_32_pixels_113}
 
 
 ```
@@ -2332,7 +2315,7 @@ Writes the whole scan line to the specified scan line index.
 | scan_line_index | int | Zero based index of the scan line. |
 | argb_32_pixels | int | The 32-bit ARGB colors array to write. |
 
-### Method: write_scan_line(scan_line_index, pixels) {#write_scan_line_scan_line_index_pixels_115}
+### Method: write_scan_line(scan_line_index, pixels) {#write_scan_line_scan_line_index_pixels_114}
 
 
 ```

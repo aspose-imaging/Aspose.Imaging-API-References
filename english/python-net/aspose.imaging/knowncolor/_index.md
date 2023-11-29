@@ -11,7 +11,7 @@ Specifies the known system colors.
 
 **Full Name:** aspose.imaging.KnownColor
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

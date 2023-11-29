@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitm
 
 **Inheritance:** MetaObject
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

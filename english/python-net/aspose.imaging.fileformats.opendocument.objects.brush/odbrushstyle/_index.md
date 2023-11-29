@@ -11,7 +11,7 @@ The brush styles
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdBrushStyle
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

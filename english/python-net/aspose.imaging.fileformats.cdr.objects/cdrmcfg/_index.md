@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrmcfg/
 
 **Inheritance:** CdrObject
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |

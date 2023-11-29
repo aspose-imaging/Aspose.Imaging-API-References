@@ -11,7 +11,7 @@ Specifies how much an image is rotated and the axis used to flip the image.
 
 **Full Name:** aspose.imaging.RotateFlipType
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

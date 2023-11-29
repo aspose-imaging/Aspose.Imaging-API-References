@@ -11,7 +11,7 @@ The [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) e
 
 **Full Name:** aspose.imaging.InterpolationMode
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

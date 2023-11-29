@@ -11,12 +11,12 @@ url: /python-net/aspose.imaging/license/
 
 **Full Name:** aspose.imaging.License
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [License()](#License__1) | Initializes a new instance of this class. |
+| [License()](#License__1) | Initializes a new instance of the [License](/imaging/python-net/aspose.imaging/license/) class.<br/>             Initializes a new instance of this class. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging/license/
  License() 
 ```
 
-Initializes a new instance of this class.
+Initializes a new instance of the [License](/imaging/python-net/aspose.imaging/license/) class.<br/>             Initializes a new instance of this class.
 
 ### Method: set_license(license_name) {#set_license_license_name_1}
 

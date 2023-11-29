@@ -11,7 +11,7 @@ The StringTrimming enumeration defines how to trim characters from a string that
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusStringTrimming
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Members**
 | **Member name** | **Description** |

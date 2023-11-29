@@ -11,14 +11,14 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffsrational/
 
 **Full Name:** aspose.imaging.fileformats.tiff.TiffSRational
 
-**Aspose.Imaging Version:** 23.10.0
+**Aspose.Imaging Version:** 23.11.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
 | [TiffSRational()](#TiffSRational__1) | Initializes a new instance of the [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) class. |
 | [TiffSRational(nominator, denominator)](#TiffSRational_nominator_denominator_2) | Initializes a new instance of the [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) class. |
-| [TiffSRational(value)](#TiffSRational_value_3) | Initializes a new instance of the [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) class. |
+| [TiffSRational(value)](#TiffSRational_value_3) | Initializes a new instance of the [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -72,13 +72,13 @@ Initializes a new instance of the [TiffSRational](/imaging/python-net/aspose.ima
  TiffSRational(value) 
 ```
 
-Initializes a new instance of the [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) class.
+Initializes a new instance of the [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) class.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | int | The nominator value. |
+| value | int | The value. |
 
 ### Method: approximate_double_fraction(value)  [static] {#approximate_double_fraction_value_1}
 
