@@ -18,7 +18,7 @@ public override object Value { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException |  |
+| ArgumentException | Exception |
 
 ### See Also
 

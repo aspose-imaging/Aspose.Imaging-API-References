@@ -8,7 +8,7 @@ url: /net/aspose.imaging/rasterimage/tobitmap/
 ---
 ## RasterImage.ToBitmap method
 
-Converts raster image to the bitmap.
+Converts raster image to the bitmap. This method is not supported in versions from .Net7.0 and higher
 
 ```csharp
 public virtual Bitmap ToBitmap()

@@ -22,7 +22,7 @@ The value.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | Exception |
 
 ### See Also
 
