@@ -32,10 +32,10 @@ The cdr style
 | [setFontWeight(int value)](#setFontWeight-int-) | Sets the font weight. |
 | [getFill()](#getFill--) | Gets the fill. |
 | [setFill(CdrFill value)](#setFill-com.aspose.imaging.fileformats.cdr.objects.CdrFill-) | Sets the fill. |
-| [getOutLine()](#getOutLine--) | Gets the out line. |
-| [setOutLine(CdrOutline value)](#setOutLine-com.aspose.imaging.fileformats.cdr.objects.CdrOutline-) | Sets the out line. |
-| [getAlign()](#getAlign--) | Gets the align. |
-| [setAlign(int value)](#setAlign-int-) | Sets the align. |
+| [getOutLine()](#getOutLine--) | Gets the outline. |
+| [setOutLine(CdrOutline value)](#setOutLine-com.aspose.imaging.fileformats.cdr.objects.CdrOutline-) | Sets the outline. |
+| [getAlign()](#getAlign--) | Gets the alignment. |
+| [setAlign(int value)](#setAlign-int-) | Sets the alignment. |
 | [getRightIndent()](#getRightIndent--) | Gets the right indent. |
 | [setRightIndent(double value)](#setRightIndent-double-) | Sets the right indent. |
 | [getFirstIndent()](#getFirstIndent--) | Gets the first indent. |
@@ -172,22 +172,22 @@ public final CdrOutline getOutLine()
 ```
 
 
-Gets the out line.
+Gets the outline.
 
 **Returns:**
-[CdrOutline](../../com.aspose.imaging.fileformats.cdr.objects/cdroutline) - the out line.
+[CdrOutline](../../com.aspose.imaging.fileformats.cdr.objects/cdroutline) - the outline.
 ### setOutLine(CdrOutline value) {#setOutLine-com.aspose.imaging.fileformats.cdr.objects.CdrOutline-}
 ```
 public final void setOutLine(CdrOutline value)
 ```
 
 
-Sets the out line.
+Sets the outline.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CdrOutline](../../com.aspose.imaging.fileformats.cdr.objects/cdroutline) | the out line. |
+| value | [CdrOutline](../../com.aspose.imaging.fileformats.cdr.objects/cdroutline) | the outline. |
 
 ### getAlign() {#getAlign--}
 ```
@@ -195,22 +195,22 @@ public final int getAlign()
 ```
 
 
-Gets the align.
+Gets the alignment.
 
 **Returns:**
-int - the align.
+int - The alignment.
 ### setAlign(int value) {#setAlign-int-}
 ```
 public final void setAlign(int value)
 ```
 
 
-Sets the align.
+Sets the alignment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the align. |
+| value | int | The alignment. |
 
 ### getRightIndent() {#getRightIndent--}
 ```

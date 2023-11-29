@@ -46,8 +46,8 @@ Base class for multiple pages supported formats
 | [setMode(int value)](#setMode-int-) | Gets or sets the mode. |
 | [getOutputLayersNames()](#getOutputLayersNames--) | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
 | [setOutputLayersNames(String[] value)](#setOutputLayersNames-java.lang.String---) | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
-| [getMergeLayers()](#getMergeLayers--) | Gets a value indicating whether [merege layers]. |
-| [setMergeLayers(boolean value)](#setMergeLayers-boolean-) | Sets a value indicating whether [merege layers]. |
+| [getMergeLayers()](#getMergeLayers--) | Gets a value indicating whether [merge layers]. |
+| [setMergeLayers(boolean value)](#setMergeLayers-boolean-) | Sets a value indicating whether [merge layers]. |
 | [initPages(IntRange[] ranges)](#initPages-com.aspose.imaging.IntRange---) | Initializes the pages from ranges array |
 ### MultiPageOptions() {#MultiPageOptions--}
 ```
@@ -455,26 +455,26 @@ public final boolean getMergeLayers()
 ```
 
 
-Gets a value indicating whether [merege layers].
+Gets a value indicating whether [merge layers].
 
-Value: `true` if [merege layers]; otherwise, `false`.
+Value: `true` if [merge layers]; otherwise, `false`.
 
 **Returns:**
-boolean - a value indicating whether [merege layers].
+boolean - a value indicating whether [merge layers].
 ### setMergeLayers(boolean value) {#setMergeLayers-boolean-}
 ```
 public final void setMergeLayers(boolean value)
 ```
 
 
-Sets a value indicating whether [merege layers].
+Sets a value indicating whether [merge layers].
 
-Value: `true` if [merege layers]; otherwise, `false`.
+Value: `true` if [merge layers]; otherwise, `false`.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether [merege layers]. |
+| value | boolean | a value indicating whether [merge layers]. |
 
 ### initPages(IntRange[] ranges) {#initPages-com.aspose.imaging.IntRange---}
 ```

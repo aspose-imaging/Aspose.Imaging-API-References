@@ -37,8 +37,8 @@ The tiff rational type.
 | [getNominator()](#getNominator--) | Gets the nominator. |
 | [getValue()](#getValue--) | Gets the float value. |
 | [getValueD()](#getValueD--) | Gets the double value. |
-| [toString()](#toString--) | Returns a `System.String` that represents this instance. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to this instance. |
+| [toString()](#toString--) | Converts to string. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `Object`, is equal to this instance. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 ### TiffRational() {#TiffRational--}
 ```
@@ -201,25 +201,25 @@ public String toString()
 ```
 
 
-Returns a `System.String` that represents this instance.
+Converts to string.
 
 **Returns:**
-java.lang.String - A `System.String` that represents this instance.
+java.lang.String - A String that represents this instance.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified Object is equal to this instance.
+Determines whether the specified `Object`, is equal to this instance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The Object to compare with this instance. |
+| obj | java.lang.Object | The `Object` to compare with this instance. |
 
 **Returns:**
-boolean - `true` if the specified Object is equal to this instance; otherwise, `false`.
+boolean - `true` if the specified `Object` is equal to this instance; otherwise, `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

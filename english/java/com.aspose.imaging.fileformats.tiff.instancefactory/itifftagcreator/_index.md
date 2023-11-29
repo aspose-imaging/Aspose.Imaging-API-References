@@ -14,19 +14,19 @@ The tiff tag creator.
 
 | Method | Description |
 | --- | --- |
-| [createInstance(int tagId)](#createInstance-int-) |  |
+| [createInstance(int tagId)](#createInstance-int-) | Creates a new tag instance. |
 ### createInstance(int tagId) {#createInstance-int-}
 ```
 public abstract TiffDataType createInstance(int tagId)
 ```
 
 
-
+Creates a new tag instance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tagId | int |  |
+| tagId | int | The tag id. |
 
 **Returns:**
-[TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype)
+[TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) - The newly created instance.
