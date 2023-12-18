@@ -3,7 +3,7 @@ title: IPartialArgb64PixelLoader
 second_title: Aspose.Imaging for Java API Reference
 description: The 64-bit ARGB pixels loader.
 type: docs
-weight: 141
+weight: 142
 url: /java/com.aspose.imaging/ipartialargb64pixelloader/
 ---
 **All Implemented Interfaces:**

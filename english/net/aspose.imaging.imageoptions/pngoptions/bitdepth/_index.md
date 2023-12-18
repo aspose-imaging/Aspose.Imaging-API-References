@@ -8,7 +8,15 @@ url: /net/aspose.imaging.imageoptions/pngoptions/bitdepth/
 ---
 ## PngOptions.BitDepth property
 
-The bit depth.
+Gets or sets the bit depth values in range of 1, 2, 4, 8, 16.
+
+Mind the next limits:
+
+Grayscale, IndexedColor support bit depth of 1, 2, 4, 8.
+
+GrayscaleWithAlpha supports bit depth of 8.
+
+Truecolor, TruecolorWithAlpha support bit depth of 8, 16.
 
 ```csharp
 public byte BitDepth { get; set; }

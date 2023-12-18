@@ -3,7 +3,7 @@ title: WrapMode
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies how a texture or gradient is tiled when it is smaller than the area being filled.
 type: docs
-weight: 120
+weight: 121
 url: /java/com.aspose.imaging/wrapmode/
 ---
 **Inheritance:**

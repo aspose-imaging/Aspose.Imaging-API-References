@@ -3,7 +3,7 @@ title: IIndexedColorConverter
 second_title: Aspose.Imaging for Java API Reference
 description: The color converter for indexed image formats.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.imaging/iindexedcolorconverter/
 ---```
 public interface IIndexedColorConverter

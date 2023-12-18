@@ -3,7 +3,7 @@ title: Size
 second_title: Aspose.Imaging for Java API Reference
 description: Represents size.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.imaging/size/
 ---
 **Inheritance:**

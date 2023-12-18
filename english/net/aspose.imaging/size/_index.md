@@ -3,7 +3,7 @@ title: Size
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11310
+weight: 11320
 url: /net/aspose.imaging/size/
 ---
 ## Size structure

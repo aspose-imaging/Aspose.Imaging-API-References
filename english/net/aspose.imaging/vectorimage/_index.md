@@ -3,7 +3,7 @@ title: VectorImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11480
+weight: 11490
 url: /net/aspose.imaging/vectorimage/
 ---
 ## VectorImage class
@@ -49,6 +49,8 @@ public abstract class VectorImage : Image, IObjectWithSizeF
 | virtual [GetDefaultOptions](../../aspose.imaging/image/getdefaultoptions)(object[]) | Gets the default options. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | Gets the embedded images. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../image/save) method as the second parameter. |
+| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground)() | Removes the background. |
+| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground)(RemoveBackgroundSettings) | Removes the background. |
 | [Resize](../../aspose.imaging/image/resize)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | abstract [Resize](../../aspose.imaging/image/resize)(int, int, ImageResizeSettings) | Resizes the image. |
 | abstract [Resize](../../aspose.imaging/image/resize)(int, int, ResizeType) | Resizes the image. |

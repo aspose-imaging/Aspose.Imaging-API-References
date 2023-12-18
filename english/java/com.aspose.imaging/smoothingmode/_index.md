@@ -3,7 +3,7 @@ title: SmoothingMode
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies whether smoothing antialiasing is applied to lines and curves and the edges of filled areas.
 type: docs
-weight: 106
+weight: 107
 url: /java/com.aspose.imaging/smoothingmode/
 ---
 **Inheritance:**

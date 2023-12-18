@@ -3,7 +3,7 @@ title: IImageCreatorDescriptor
 second_title: Aspose.Imaging for Java API Reference
 description: The image creator descriptor specifying the creator properties.
 type: docs
-weight: 128
+weight: 129
 url: /java/com.aspose.imaging/iimagecreatordescriptor/
 ---
 **All Implemented Interfaces:**

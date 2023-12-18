@@ -96,4 +96,4 @@ public String getXmpRepresentation()
 Returns string contained value in XMP format.
 
 **Returns:**
-java.lang.String - Returns string contained value in XMP format.
+java.lang.String - Returns string containing xmp representation.

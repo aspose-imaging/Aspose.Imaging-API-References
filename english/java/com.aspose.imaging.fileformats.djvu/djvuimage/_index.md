@@ -29,6 +29,8 @@ DjvuDocument class
 
 | Method | Description |
 | --- | --- |
+| [loadDocument(InputStream stream)](#loadDocument-java.io.InputStream-) | Loads the document. |
+| [loadDocument(InputStream stream, LoadOptions loadOptions)](#loadDocument-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Loads the document. |
 | [getIdentifier()](#getIdentifier--) | Gets the unique identifier for the document |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
@@ -41,8 +43,6 @@ DjvuDocument class
 | [getPreviousPage()](#getPreviousPage--) | Gets the previous page of the document |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
 | [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
-| [loadDocument(InputStream stream)](#loadDocument-java.io.InputStream-) | Loads the document. |
-| [loadDocument(InputStream stream, LoadOptions loadOptions)](#loadDocument-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Loads the document. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `!:RasterCahcedMultipageImage.Rotate` image around the center. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Resizes the width proportionally. |
@@ -133,6 +133,37 @@ public final StdEvent<System.ComponentModel.PropertyChangedEventArgs> PropertyCh
 
 Occurs when a property value changes.
 
+### loadDocument(InputStream stream) {#loadDocument-java.io.InputStream-}
+```
+public static DjvuImage loadDocument(InputStream stream)
+```
+
+
+Loads the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream. |
+
+**Returns:**
+[DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) - Loaded djvu document
+### loadDocument(InputStream stream, LoadOptions loadOptions) {#loadDocument-java.io.InputStream-com.aspose.imaging.LoadOptions-}
+```
+public static DjvuImage loadDocument(InputStream stream, LoadOptions loadOptions)
+```
+
+
+Loads the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream. |
+| loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | The load options. |
+
+**Returns:**
+[DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) - Loaded djvu document
 ### getIdentifier() {#getIdentifier--}
 ```
 public int getIdentifier()
@@ -418,37 +449,6 @@ Value: The Has alpha channel.
 
 **Returns:**
 boolean - the Has alpha channel.
-### loadDocument(InputStream stream) {#loadDocument-java.io.InputStream-}
-```
-public static DjvuImage loadDocument(InputStream stream)
-```
-
-
-Loads the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
-
-**Returns:**
-[DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) - Loaded djvu document
-### loadDocument(InputStream stream, LoadOptions loadOptions) {#loadDocument-java.io.InputStream-com.aspose.imaging.LoadOptions-}
-```
-public static DjvuImage loadDocument(InputStream stream, LoadOptions loadOptions)
-```
-
-
-Loads the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
-| loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | The load options. |
-
-**Returns:**
-[DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) - Loaded djvu document
 ### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
 public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)

@@ -110,7 +110,7 @@ public String getXmpRepresentation()
 Returns the string contained value in XMP format.
 
 **Returns:**
-java.lang.String - Returns the string contained value in XMP format.
+java.lang.String - Returns the string containing xmp representation.
 ### isEquals(Timecode other) {#isEquals-com.aspose.imaging.xmp.schemas.xmpdm.Timecode-}
 ```
 public boolean isEquals(Timecode other)

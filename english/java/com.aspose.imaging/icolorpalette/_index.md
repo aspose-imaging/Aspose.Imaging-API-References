@@ -3,7 +3,7 @@ title: IColorPalette
 second_title: Aspose.Imaging for Java API Reference
 description: The color palette interface.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.imaging/icolorpalette/
 ---```
 public interface IColorPalette

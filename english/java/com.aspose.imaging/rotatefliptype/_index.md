@@ -3,7 +3,7 @@ title: RotateFlipType
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies how much an image is rotated and the axis used to flip the image.
 type: docs
-weight: 100
+weight: 101
 url: /java/com.aspose.imaging/rotatefliptype/
 ---
 **Inheritance:**

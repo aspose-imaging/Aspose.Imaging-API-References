@@ -28,18 +28,18 @@ The png file format create options.
 
 | Method | Description |
 | --- | --- |
-| [getXmpData()](#getXmpData--) | Gets or sets the XMP metadata container. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Gets or sets the XMP metadata container. |
-| [getColorType()](#getColorType--) | Gets or sets the type of the color. |
-| [setColorType(int value)](#setColorType-int-) | Gets or sets the type of the color. |
-| [getProgressive()](#getProgressive--) | Gets or sets a value indicating whether this `PngOptions` is progressive. |
-| [setProgressive(boolean value)](#setProgressive-boolean-) | Gets or sets a value indicating whether this `PngOptions` is progressive. |
-| [getFilterType()](#getFilterType--) | Gets or sets the filter type used during png file save process. |
-| [setFilterType(int value)](#setFilterType-int-) | Gets or sets the filter type used during png file save process. |
-| [getCompressionLevel()](#getCompressionLevel--) | The png image compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode. |
-| [setCompressionLevel(int value)](#setCompressionLevel-int-) | The png image compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode. |
-| [getBitDepth()](#getBitDepth--) | Gets the bit depth. |
-| [setBitDepth(byte value)](#setBitDepth-byte-) | Sets the bit depth. |
+| [getXmpData()](#getXmpData--) | Gets the XMP metadata container. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata container. |
+| [getColorType()](#getColorType--) | Gets the type of the color. |
+| [setColorType(int value)](#setColorType-int-) | Sets the type of the color. |
+| [getProgressive()](#getProgressive--) | Gets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. |
+| [setProgressive(boolean value)](#setProgressive-boolean-) | Sets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. |
+| [getFilterType()](#getFilterType--) | Gets the filter type used during png file save process. |
+| [setFilterType(int value)](#setFilterType-int-) | Sets the filter type used during png file save process. |
+| [getCompressionLevel()](#getCompressionLevel--) | Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. |
+| [setCompressionLevel(int value)](#setCompressionLevel-int-) | Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. |
+| [getBitDepth()](#getBitDepth--) | Gets the bit depth values in range of 1, 2, 4, 8, 16. |
+| [setBitDepth(byte value)](#setBitDepth-byte-) | Sets the bit depth values in range of 1, 2, 4, 8, 16. |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
@@ -133,49 +133,53 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets or sets the XMP metadata container.
+Gets the XMP metadata container.
 
 Value: The XMP data container.
 
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the XMP metadata container.
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Gets or sets the XMP metadata container.
+Sets the XMP metadata container.
 
 Value: The XMP data container.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the XMP metadata container. |
 
 ### getColorType() {#getColorType--}
 ```
-public int getColorType()
+public final int getColorType()
 ```
 
 
-Gets or sets the type of the color.
+Gets the type of the color.
+
+Value: The type of the color.
 
 **Returns:**
-int - The type of the color.
+int - the type of the color.
 ### setColorType(int value) {#setColorType-int-}
 ```
-public void setColorType(int value)
+public final void setColorType(int value)
 ```
 
 
-Gets or sets the type of the color.
+Sets the type of the color.
+
+Value: The type of the color.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The type of the color. |
+| value | int | the type of the color. |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
@@ -254,26 +258,30 @@ try {
 
 ### getProgressive() {#getProgressive--}
 ```
-public boolean getProgressive()
+public final boolean getProgressive()
 ```
 
 
-Gets or sets a value indicating whether this `PngOptions` is progressive.
+Gets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive.
+
+Value: `` if progressive; otherwise, ``.
 
 **Returns:**
-boolean - `true` if progressive; otherwise, `false`.
+boolean - a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive.
 ### setProgressive(boolean value) {#setProgressive-boolean-}
 ```
-public void setProgressive(boolean value)
+public final void setProgressive(boolean value)
 ```
 
 
-Gets or sets a value indicating whether this `PngOptions` is progressive.
+Sets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive.
+
+Value: `` if progressive; otherwise, ``.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | `true` if progressive; otherwise, `false`. |
+| value | boolean | a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
@@ -347,21 +355,21 @@ try {
 
 ### getFilterType() {#getFilterType--}
 ```
-public int getFilterType()
+public final int getFilterType()
 ```
 
 
-Gets or sets the filter type used during png file save process.
+Gets the filter type used during png file save process.
 
 **Returns:**
 int - the filter type used during png file save process.
 ### setFilterType(int value) {#setFilterType-int-}
 ```
-public void setFilterType(int value)
+public final void setFilterType(int value)
 ```
 
 
-Gets or sets the filter type used during png file save process.
+Sets the filter type used during png file save process.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,26 +452,26 @@ for (int filterType : filterTypes) {
 
 ### getCompressionLevel() {#getCompressionLevel--}
 ```
-public int getCompressionLevel()
+public final int getCompressionLevel()
 ```
 
 
-The png image compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode.
+Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression.
 
 **Returns:**
-int - the compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode.
+int - the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9.
 ### setCompressionLevel(int value) {#setCompressionLevel-int-}
 ```
-public void setCompressionLevel(int value)
+public final void setCompressionLevel(int value)
 ```
 
 
-The png image compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode.
+Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode. |
+| value | int | the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
@@ -542,26 +550,42 @@ try {
 
 ### getBitDepth() {#getBitDepth--}
 ```
-public byte getBitDepth()
+public final byte getBitDepth()
 ```
 
 
-Gets the bit depth.
+Gets the bit depth values in range of 1, 2, 4, 8, 16.
+
+Mind the next limits:
+
+[PngColorType.Grayscale](../../com.aspose.imaging.fileformats.png/pngcolortype\#Grayscale), [PngColorType.IndexedColor](../../com.aspose.imaging.fileformats.png/pngcolortype\#IndexedColor) support bit depth of 1, 2, 4, 8.
+
+[PngColorType.GrayscaleWithAlpha](../../com.aspose.imaging.fileformats.png/pngcolortype\#GrayscaleWithAlpha) supports bit depth of 8.
+
+[PngColorType.Truecolor](../../com.aspose.imaging.fileformats.png/pngcolortype\#Truecolor), [PngColorType.TruecolorWithAlpha](../../com.aspose.imaging.fileformats.png/pngcolortype\#TruecolorWithAlpha) support bit depth of 8, 16.
 
 **Returns:**
-byte - The bit depth.
+byte - the bit depth values in range of 1, 2, 4, 8, 16.
 ### setBitDepth(byte value) {#setBitDepth-byte-}
 ```
-public void setBitDepth(byte value)
+public final void setBitDepth(byte value)
 ```
 
 
-Sets the bit depth.
+Sets the bit depth values in range of 1, 2, 4, 8, 16.
+
+Mind the next limits:
+
+[PngColorType.Grayscale](../../com.aspose.imaging.fileformats.png/pngcolortype\#Grayscale), [PngColorType.IndexedColor](../../com.aspose.imaging.fileformats.png/pngcolortype\#IndexedColor) support bit depth of 1, 2, 4, 8.
+
+[PngColorType.GrayscaleWithAlpha](../../com.aspose.imaging.fileformats.png/pngcolortype\#GrayscaleWithAlpha) supports bit depth of 8.
+
+[PngColorType.Truecolor](../../com.aspose.imaging.fileformats.png/pngcolortype\#Truecolor), [PngColorType.TruecolorWithAlpha](../../com.aspose.imaging.fileformats.png/pngcolortype\#TruecolorWithAlpha) support bit depth of 8, 16.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte | The bit depth. |
+| value | byte | the bit depth values in range of 1, 2, 4, 8, 16. |
 
 
 **Example: The following example shows how to save an image to PNG format using various options.**
