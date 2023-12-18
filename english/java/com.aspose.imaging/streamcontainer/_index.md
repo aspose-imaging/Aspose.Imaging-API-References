@@ -3,7 +3,7 @@ title: StreamContainer
 second_title: Aspose.Imaging for Java API Reference
 description: Represents stream container which contains the stream and provides stream processing routines.
 type: docs
-weight: 109
+weight: 110
 url: /java/com.aspose.imaging/streamcontainer/
 ---
 **Inheritance:**

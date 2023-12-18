@@ -3,7 +3,7 @@ title: IColorConverter
 second_title: Aspose.Imaging for Java API Reference
 description: The color converter.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.imaging/icolorconverter/
 ---```
 public interface IColorConverter

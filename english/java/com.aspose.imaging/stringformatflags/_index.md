@@ -3,7 +3,7 @@ title: StringFormatFlags
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the display and layout information for text strings.
 type: docs
-weight: 113
+weight: 114
 url: /java/com.aspose.imaging/stringformatflags/
 ---
 **Inheritance:**

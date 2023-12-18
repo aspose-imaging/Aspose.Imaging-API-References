@@ -8,7 +8,7 @@ url: /net/aspose.imaging/metered/metered/
 ---
 ## Metered constructor
 
-The default constructor.
+Initializes a new instance of this class.
 
 ```csharp
 public Metered()

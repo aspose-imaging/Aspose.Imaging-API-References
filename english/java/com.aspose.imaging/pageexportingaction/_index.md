@@ -3,7 +3,7 @@ title: PageExportingAction
 second_title: Aspose.Imaging for Java API Reference
 description: Delegate for firing before page is exported
 type: docs
-weight: 148
+weight: 149
 url: /java/com.aspose.imaging/pageexportingaction/
 ---```
 public interface PageExportingAction

@@ -61,6 +61,8 @@ public sealed class EpsImage : VectorImage
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
 | [GetPreviewImage](../../aspose.imaging.fileformats.eps/epsimage/getpreviewimage)(EpsPreviewFormat) | Gets the exisiting preview image of specified *format* or returns `null`. |
 | [GetPreviewImages](../../aspose.imaging.fileformats.eps/epsimage/getpreviewimages)() | Gets the preview images. |
+| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground)() | Removes the background. |
+| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground)(RemoveBackgroundSettings) | Removes the background. |
 | [Resize](../../aspose.imaging/image/resize)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize)(int, int, ResizeType) | Resizes the image. |

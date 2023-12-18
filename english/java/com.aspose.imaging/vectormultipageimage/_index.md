@@ -3,7 +3,7 @@ title: VectorMultipageImage
 second_title: Aspose.Imaging for Java API Reference
 description: The Vector multipage image
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.imaging/vectormultipageimage/
 ---
 **Inheritance:**

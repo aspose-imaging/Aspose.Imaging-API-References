@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Imaging for Java API Reference
 description: The shape.
 type: docs
-weight: 102
+weight: 103
 url: /java/com.aspose.imaging/shape/
 ---
 **Inheritance:**

@@ -47,7 +47,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [License](./license) | Provides methods to license the component. |
 | [LoadOptions](./loadoptions) | Represents the loading options. |
 | [Matrix](./matrix) | Replaces the GDI+ Matrix. |
-| [Metered](./metered) | Provides methods to set metered key. |
+| [Metered](./metered) | Provides metered methods for integration |
 | [NonGenericDictionary](./nongenericdictionary) | Represents a non generic dictionary. |
 | [NonGenericList](./nongenericlist) | Non generic list of objects |
 | [ObjectWithBounds](./objectwithbounds) | The object having bounds. |
@@ -61,6 +61,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [RasterImage](./rasterimage) | Represents a raster image supporting raster graphics operations. |
 | [RawDataSettings](./rawdatasettings) | The raw data settings |
 | [Region](./region) | Describes the interior of a graphics shape composed of rectangles and paths. This class cannot be inherited. |
+| [RemoveBackgroundSettings](./removebackgroundsettings) | The remve background settings |
 | [ResolutionSetting](./resolutionsetting) | The resolution setting for image save options. |
 | [Shape](./shape) | The shape. A continuous set of points connected using a specific rule. |
 | [ShapeSegment](./shapesegment) | Represents a shape segment. A segment is a line or curve connecting two points. |

@@ -3,7 +3,7 @@ title: ShapeSegment
 second_title: Aspose.Imaging for Java API Reference
 description: Represents a shape segment.
 type: docs
-weight: 103
+weight: 104
 url: /java/com.aspose.imaging/shapesegment/
 ---
 **Inheritance:**

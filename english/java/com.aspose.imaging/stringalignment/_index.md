@@ -3,7 +3,7 @@ title: StringAlignment
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the alignment of a text string relative to its layout rectangle.
 type: docs
-weight: 110
+weight: 111
 url: /java/com.aspose.imaging/stringalignment/
 ---
 **Inheritance:**

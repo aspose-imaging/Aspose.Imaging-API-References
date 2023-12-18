@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/apngoptions/apngoptions/
 ---
 ## ApngOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`ApngOptions`](../../apngoptions) class.
 
 ```csharp
 public ApngOptions()

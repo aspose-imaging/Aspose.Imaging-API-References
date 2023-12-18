@@ -22,7 +22,7 @@ Returns the string contained value in XMP format.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | Exception |
 
 ### See Also
 

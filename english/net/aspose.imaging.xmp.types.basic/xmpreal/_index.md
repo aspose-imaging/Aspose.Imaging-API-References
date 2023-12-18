@@ -3,7 +3,7 @@ title: XmpReal
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11790
+weight: 11800
 url: /net/aspose.imaging.xmp.types.basic/xmpreal/
 ---
 ## XmpReal class

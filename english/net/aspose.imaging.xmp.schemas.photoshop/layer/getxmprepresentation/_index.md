@@ -16,7 +16,7 @@ public override string GetXmpRepresentation()
 
 ### Return Value
 
-Returns string contained value in XMP format.
+Returns string containing xmp representation.
 
 ### See Also
 

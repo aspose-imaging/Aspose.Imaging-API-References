@@ -3,7 +3,7 @@ title: IPartialArgb32PixelLoader
 second_title: Aspose.Imaging for Java API Reference
 description: Conforms to the 32-bit ARGB pixels loaded partially.
 type: docs
-weight: 140
+weight: 141
 url: /java/com.aspose.imaging/ipartialargb32pixelloader/
 ---```
 public interface IPartialArgb32PixelLoader

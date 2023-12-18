@@ -3,7 +3,7 @@ title: IMultipageImage
 second_title: Aspose.Imaging for Java API Reference
 description: The multipage image interface
 type: docs
-weight: 136
+weight: 137
 url: /java/com.aspose.imaging/imultipageimage/
 ---```
 public interface IMultipageImage

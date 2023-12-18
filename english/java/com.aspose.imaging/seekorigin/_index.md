@@ -3,7 +3,7 @@ title: SeekOrigin
 second_title: Aspose.Imaging for Java API Reference
 description: Provides the fields that represent reference points in StreamContainer for seeking.
 type: docs
-weight: 101
+weight: 102
 url: /java/com.aspose.imaging/seekorigin/
 ---
 **Inheritance:**

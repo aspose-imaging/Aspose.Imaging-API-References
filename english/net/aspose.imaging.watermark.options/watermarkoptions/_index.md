@@ -3,7 +3,7 @@ title: WatermarkOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11530
+weight: 11540
 url: /net/aspose.imaging.watermark.options/watermarkoptions/
 ---
 ## WatermarkOptions class

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/pngoptions/progressive/
 ---
 ## PngOptions.Progressive property
 
-Gets or sets a value indicating whether this [`PngOptions`](../../pngoptions) is progressive.
+Gets or sets a value indicating whether a [`PngImage`](../../../aspose.imaging.fileformats.png/pngimage) is progressive.
 
 ```csharp
 public bool Progressive { get; set; }

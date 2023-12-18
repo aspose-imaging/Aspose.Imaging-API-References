@@ -3,7 +3,7 @@ title: IPartialPixelLoader
 second_title: Aspose.Imaging for Java API Reference
 description: Conforms to the pixels loaded partially.
 type: docs
-weight: 142
+weight: 143
 url: /java/com.aspose.imaging/ipartialpixelloader/
 ---```
 public interface IPartialPixelLoader

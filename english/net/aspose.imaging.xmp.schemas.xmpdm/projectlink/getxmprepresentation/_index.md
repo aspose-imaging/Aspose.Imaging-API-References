@@ -16,13 +16,13 @@ public override string GetXmpRepresentation()
 
 ### Return Value
 
-Returns string contained value in XMP format.
+Returns string containing xmp representation.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | Not implemented |
 
 ### See Also
 

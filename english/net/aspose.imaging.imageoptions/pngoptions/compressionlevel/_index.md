@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/pngoptions/compressionlevel/
 ---
 ## PngOptions.CompressionLevel property
 
-The png image compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode.
+Gets or sets the [`PngImage`](../../../aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression.
 
 ```csharp
 public int CompressionLevel { get; set; }

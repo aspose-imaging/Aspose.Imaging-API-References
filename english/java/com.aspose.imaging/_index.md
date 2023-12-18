@@ -101,6 +101,7 @@ The package is the core for nested packages and the most basic objects used for 
 | [Rectangle](../com.aspose.imaging/rectangle) | Stores a set of four integers that represent the location and size of a rectangle. |
 | [RectangleF](../com.aspose.imaging/rectanglef) | Stores a set of four floating-point numbers that represent the location and size of a rectangle. |
 | [Region](../com.aspose.imaging/region) | Describes the interior of a graphics shape composed of rectangles and paths. |
+| [RemoveBackgroundSettings](../com.aspose.imaging/removebackgroundsettings) | The remove background settings |
 | [ResizeType](../com.aspose.imaging/resizetype) | Specifies the resize type. |
 | [ResolutionSetting](../com.aspose.imaging/resolutionsetting) | The resolution setting for image save options. |
 | [ResolutionUnit](../com.aspose.imaging/resolutionunit) | Resolution unit enum. |

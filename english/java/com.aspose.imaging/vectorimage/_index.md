@@ -3,7 +3,7 @@ title: VectorImage
 second_title: Aspose.Imaging for Java API Reference
 description: The vector image is the base class for all type of vector images.
 type: docs
-weight: 117
+weight: 118
 url: /java/com.aspose.imaging/vectorimage/
 ---
 **Inheritance:**
@@ -31,6 +31,8 @@ The vector image is the base class for all type of vector images.
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getEmbeddedImages()](#getEmbeddedImages--) | Gets the embedded images. |
+| [removeBackground()](#removeBackground--) | Removes the background. |
+| [removeBackground(RemoveBackgroundSettings settings)](#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-) | Removes the background. |
 
 ## Example: The following example shows how to export a multipage vector image to another format in general way without referencing to a particular image type.
 
@@ -153,4 +155,25 @@ try (Image image = com.aspose.imaging.Image.load(inputFileName))
     }
 }
 ```
+
+### removeBackground() {#removeBackground--}
+```
+public final void removeBackground()
+```
+
+
+Removes the background.
+
+### removeBackground(RemoveBackgroundSettings settings) {#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-}
+```
+public final void removeBackground(RemoveBackgroundSettings settings)
+```
+
+
+Removes the background.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| settings | [RemoveBackgroundSettings](../../com.aspose.imaging/removebackgroundsettings) | The settings. |
 
