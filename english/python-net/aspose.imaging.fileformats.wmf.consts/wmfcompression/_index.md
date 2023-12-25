@@ -11,7 +11,7 @@ The Compression Enumeration specifies the type of compression for a bitmap image
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfCompression
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

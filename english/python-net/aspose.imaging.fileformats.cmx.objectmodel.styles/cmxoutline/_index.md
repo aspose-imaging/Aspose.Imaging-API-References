@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxOutline
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

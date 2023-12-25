@@ -1,7 +1,7 @@
 ---
 title: Shape Class
 type: docs
-weight: 6990
+weight: 7000
 url: /python-net/aspose.imaging/shape/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/shape/
 
 **Inheritance:** ObjectWithBounds
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

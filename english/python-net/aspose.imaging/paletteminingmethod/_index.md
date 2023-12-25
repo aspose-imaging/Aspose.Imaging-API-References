@@ -1,7 +1,7 @@
 ---
 title: PaletteMiningMethod Enumeration
 type: docs
-weight: 10660
+weight: 10670
 url: /python-net/aspose.imaging/paletteminingmethod/
 ---
 
@@ -11,7 +11,7 @@ The image palette mining method
 
 **Full Name:** aspose.imaging.PaletteMiningMethod
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

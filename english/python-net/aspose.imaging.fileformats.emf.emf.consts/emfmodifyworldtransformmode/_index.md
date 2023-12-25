@@ -11,7 +11,7 @@ The ModifyWorldTransformMode enumeration defines modes for using specified trans
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfModifyWorldTransformMode
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

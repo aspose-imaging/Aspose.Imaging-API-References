@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfRop4
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

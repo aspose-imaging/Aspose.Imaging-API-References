@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpboolean/
 
 **Inheritance:** IXmpType, XmpTypeBase
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -83,6 +83,6 @@ Returns string contained value in XMP format.
 
 | Type | Description |
 | :- | :- |
-| string | Returns string contained value in XMP format. |
+| string | Returns string containing xmp representation. |
 
 

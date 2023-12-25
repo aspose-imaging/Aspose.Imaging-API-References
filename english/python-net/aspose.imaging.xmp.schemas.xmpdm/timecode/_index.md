@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 
 **Inheritance:** IXmpType, XmpTypeBase
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -59,6 +59,6 @@ Returns the string contained value in XMP format.
 
 | Type | Description |
 | :- | :- |
-| string | Returns the string contained value in XMP format. |
+| string | Returns the string containing xmp representation. |
 
 

@@ -1,7 +1,7 @@
 ---
 title: StringTrimming Enumeration
 type: docs
-weight: 10920
+weight: 10930
 url: /python-net/aspose.imaging/stringtrimming/
 ---
 
@@ -11,7 +11,7 @@ Specifies how to trim characters from a string that does not completely fit into
 
 **Full Name:** aspose.imaging.StringTrimming
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

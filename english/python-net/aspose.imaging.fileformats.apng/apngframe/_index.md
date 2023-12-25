@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.apng/apngframe/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IAnimationFrame, RasterCachedImage
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

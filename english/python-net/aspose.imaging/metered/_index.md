@@ -5,24 +5,24 @@ weight: 5920
 url: /python-net/aspose.imaging/metered/
 ---
 
-**Summary:** Provides methods to set metered key.
+**Summary:** Provides metered methods for integration
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.Metered
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [Metered()](#Metered__1) | Initializes a new instance of this class and injects dependency on metered |
+| [Metered()](#Metered__1) | Initializes a new instance of this class. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [get_consumption_credit()](#get_consumption_credit__1) | Gets consumption credit |
 | [get_consumption_quantity()](#get_consumption_quantity__2) | Gets consumption file size |
-| [set_metered_key(public_key, private_key)](#set_metered_key_public_key_private_key_3) | Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
+| [set_metered_key(public_key, private_key)](#set_metered_key_public_key_private_key_3) | Sets metered public and private key.<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, <br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 
 
 ### Constructor: Metered() {#Metered__1}
@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging/metered/
  Metered() 
 ```
 
-Initializes a new instance of this class and injects dependency on metered
+Initializes a new instance of this class.
 
 ### Method: get_consumption_credit()  [static] {#get_consumption_credit__1}
 
@@ -73,7 +73,7 @@ Gets consumption file size
  set_metered_key(public_key, private_key) 
 ```
 
-Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
+Sets metered public and private key.<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, <br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
 
 **Parameters:**
 

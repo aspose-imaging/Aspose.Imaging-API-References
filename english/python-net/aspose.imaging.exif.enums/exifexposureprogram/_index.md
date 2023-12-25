@@ -11,7 +11,7 @@ exif exposure program enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifExposureProgram
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

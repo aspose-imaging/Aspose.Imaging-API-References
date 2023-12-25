@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/
 
 **Full Name:** aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Methods**
 | **Name** | **Description** |

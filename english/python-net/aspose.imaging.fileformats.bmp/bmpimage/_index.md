@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, RasterCachedImage
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -40,12 +40,12 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 | container | [Image](/imaging/python-net/aspose.imaging/image) | r | Gets the [Image](/imaging/python-net/aspose.imaging/image/) container. |
 | data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | r | Gets the object's data stream. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets a value of file format |
+| [file_format](#file_format3) | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets a value of file format |
 | has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
-| [height](#height3) | int | r | Gets the image height. |
-| [horizontal_resolution](#horizontal_resolution4) | double | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
+| [height](#height4) | int | r | Gets the image height. |
+| [horizontal_resolution](#horizontal_resolution5) | double | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | image_opacity | float | r | Gets opacity of this image. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Gets a value indicating whether image data is cached currently. |
@@ -53,18 +53,18 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | premultiply_components | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
 | raw_custom_color_converter | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter) | r/w | Gets or sets the custom color converter |
-| [raw_data_format](#raw_data_format5) | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the raw data format. |
+| [raw_data_format](#raw_data_format6) | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the raw data format. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings) | r | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 | raw_fallback_index | int | r/w | Gets or sets the fallback index to use when palette index is out of bounds |
 | raw_indexed_color_converter | [IIndexedColorConverter](/imaging/python-net/aspose.imaging/iindexedcolorconverter) | r/w | Gets or sets the indexed color converter |
-| [raw_line_size](#raw_line_size6) | int | r | Gets the raw line size in bytes. |
+| [raw_line_size](#raw_line_size7) | int | r | Gets the raw line size in bytes. |
 | size | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets the object size. |
 | transparent_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets the image transparent color. |
 | update_xmp_data | bool | r/w | Gets or sets a value indicating whether to update the XMP metadata. |
 | use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | use_raw_data | bool | r/w | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
-| [vertical_resolution](#vertical_resolution7) | double | r/w | Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
-| [width](#width8) | int | r | Gets the image width. |
+| [vertical_resolution](#vertical_resolution8) | double | r/w | Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
+| [width](#width9) | int | r | Gets the image width. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata. |
 ## **Methods**
 | **Name** | **Description** |
@@ -202,6 +202,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | :- | :- | :- |
 | path | string | The path to load image from and initialize pixel and palette data with. |
 
+
+**See also:**
+
+**[Example # 1](#example_77)**: The example shows how to load a BmpImage from a file.
+
+
 ### Constructor: BmpImage(path, bits_per_pixel, compression, horizontal_resolution, vertical_resolution) {#BmpImage_path_bits_per_pixel_compression_horizontal_resolution_vertical_resolution_2}
 
 
@@ -221,6 +227,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | horizontal_resolution | double | The horizontal resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 | vertical_resolution | double | The vertical resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 
+
+**See also:**
+
+**[Example # 1](#example_78)**: The example shows how to load a BmpImage from a file with the specified bit d...
+
+
 ### Constructor: BmpImage(raster_image) {#BmpImage_raster_image_3}
 
 
@@ -235,6 +247,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image to initialize pixel and palette data with. |
+
+
+**See also:**
+
+**[Example # 1](#example_81)**: The example shows how to load a BmpImage from another instance of RasterImage.
+
 
 ### Constructor: BmpImage(raster_image, bits_per_pixel, compression, horizontal_resolution, vertical_resolution) {#BmpImage_raster_image_bits_per_pixel_compression_horizontal_resolution_vertical_resolution_4}
 
@@ -255,6 +273,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | horizontal_resolution | double | The horizontal resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 | vertical_resolution | double | The vertical resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 
+
+**See also:**
+
+**[Example # 1](#example_82)**: The example shows how to load a BmpImage from another instance of RasterImage...
+
+
 ### Constructor: BmpImage(stream) {#BmpImage_stream_5}
 
 
@@ -269,6 +293,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to load image from and initialize pixel and palette data with. |
+
+
+**See also:**
+
+**[Example # 1](#example_79)**: The example shows how to load a BmpImage from a file stream.
+
 
 ### Constructor: BmpImage(stream, bits_per_pixel, compression, horizontal_resolution, vertical_resolution) {#BmpImage_stream_bits_per_pixel_compression_horizontal_resolution_vertical_resolution_6}
 
@@ -288,6 +318,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | compression | [BitmapCompression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression) | The compression to use. |
 | horizontal_resolution | double | The horizontal resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 | vertical_resolution | double | The vertical resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
+
+
+**See also:**
+
+**[Example # 1](#example_80)**: The example shows how to load a BmpImage from a file stream with the specifie...
+
 
 ### Constructor: BmpImage(width, height) {#BmpImage_width_height_7}
 
@@ -310,6 +346,8 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 
 **[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
 
+**[Example # 2](#example_83)**: The example shows how to create a BmpImage of the specified size.
+
 
 ### Constructor: BmpImage(width, height, bits_per_pixel, palette) {#BmpImage_width_height_bits_per_pixel_palette_8}
 
@@ -328,6 +366,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | height | int | The image height. |
 | bits_per_pixel | ushort | The bits per pixel. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette. |
+
+
+**See also:**
+
+**[Example # 1](#example_84)**: The example shows how to create a BmpImage of the specified size with the spe...
+
 
 ### Constructor: BmpImage(width, height, bits_per_pixel, palette, compression, horizontal_resolution, vertical_resolution) {#BmpImage_width_height_bits_per_pixel_palette_compression_horizontal_resolution_vertical_resolution_9}
 
@@ -350,6 +394,12 @@ Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.
 | horizontal_resolution | double | The horizontal resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 | vertical_resolution | double | The vertical resolution. Note due to the rounding the resulting resolution may slightly differ from the passed. |
 
+
+**See also:**
+
+**[Example # 1](#example_85)**: The example shows how to create a BmpImage using various options.
+
+
 ### Property: bits_per_pixel {#bits_per_pixel1}
 
 Gets the image bits per pixel count.
@@ -368,7 +418,16 @@ Gets the image compression.
 **[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
-### Property: height {#height3}
+### Property: file_format {#file_format3}
+
+Gets a value of file format
+
+**See also:**
+
+**[Example # 1](#example_86)**: The following example shows how to extract information about raw data format ...
+
+
+### Property: height {#height4}
 
 Gets the image height.
 
@@ -377,7 +436,7 @@ Gets the image height.
 **[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
-### Property: horizontal_resolution {#horizontal_resolution4}
+### Property: horizontal_resolution {#horizontal_resolution5}
 
 Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).
 
@@ -386,7 +445,7 @@ Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage
 **[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
-### Property: raw_data_format {#raw_data_format5}
+### Property: raw_data_format {#raw_data_format6}
 
 Gets the raw data format.
 
@@ -394,8 +453,10 @@ Gets the raw data format.
 
 **[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
+**[Example # 2](#example_86)**: The following example shows how to extract information about raw data format ...
 
-### Property: raw_line_size {#raw_line_size6}
+
+### Property: raw_line_size {#raw_line_size7}
 
 Gets the raw line size in bytes.
 
@@ -404,7 +465,7 @@ Gets the raw line size in bytes.
 **[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
-### Property: vertical_resolution {#vertical_resolution7}
+### Property: vertical_resolution {#vertical_resolution8}
 
 Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).
 
@@ -413,7 +474,7 @@ Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](
 **[Example # 1](#example_19)**: The following example gets the general information about the image including ...
 
 
-### Property: width {#width8}
+### Property: width {#width9}
 
 Gets the image width.
 
@@ -2618,6 +2679,239 @@ with BmpImage(100, 100) as bmpImage:
 # The output looks like this:
 # The size of image with palette is 11078 bytes.
 # The size of image without palette is 40054 bytes.
+
+```
+
+### The example shows how to load a BmpImage from a file. {#example_77}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+import os
+
+directory = r"c:\temp"
+
+# Load a BMP image from a file.
+# The source pixels will be converted to 32-bpp format if required.
+with BmpImage(os.path.join(directory, "sample.bmp")) as bmp_image:
+	# Do some image processing.
+	# Save to another BMP file.
+	bmp_image.save(os.path.join(directory, "sample.output.32bpp.bmp"))
+
+```
+
+### The example shows how to load a BmpImage from a file with the specified bit depth and resolution. {#example_78}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage, BitmapCompression
+import os
+
+directory = r"c:\temp"
+
+# Load a BMP image from a file.
+# The source pixels will be converted to 24-bpp format if required.
+# The resolution will be set to 96 dpi.
+with BmpImage(os.path.join(directory, "sample.bmp"), 24, BitmapCompression.RGB, 96.0, 96.0) as bmp_image:
+	# Do some image processing.
+	# Save to another BMP file.
+	bmp_image.save(os.path.join(directory, "sample.output.24bpp.96dpi.bmp"))
+
+
+```
+
+### The example shows how to load a BmpImage from a file stream. {#example_79}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+import os
+
+directory = r"c:\temp"
+
+# Load a BMP image from a file stream.
+# The source pixels will be converted to 32-bpp format if required.
+with open(os.path.join(directory, "sample.bmp"), "rb+") as stream:
+	with BmpImage(stream) as bmp_image:
+		# Do some image processing.
+		# Save to another BMP file.
+		bmp_image.save(os.path.join(directory, "sample.output.32bpp.bmp"))
+
+```
+
+### The example shows how to load a BmpImage from a file stream with the specified bit depth and resolution. {#example_80}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage, BitmapCompression
+import os
+
+directory = r"c:\temp"
+
+# Load a BMP image from a file stream.
+# The source pixels will be converted to 24-bpp format if required.
+# The resolution will be set to 96 dpi.
+with open(os.path.join(directory, "sample.bmp"), "rb") as stream:
+	with BmpImage(stream, 24, BitmapCompression.RGB, 96.0, 96.0) as bmp_image:
+		# Do some image processing.
+		# Save to another BMP file.
+		bmp_image.save(os.path.join(directory, "sample.output.24bpp.96dpi.bmp"))
+
+```
+
+### The example shows how to load a BmpImage from another instance of RasterImage. {#example_81}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.sources import StreamSource
+from aspose.imaging import Image, RasterImage, Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+import os
+import aspose.pycore as aspycore
+
+directory = r"c:\temp"
+
+# Create a new PNG image.
+with PngOptions() as create_options:
+	create_options.source = StreamSource()
+	with aspycore.as_of(Image.create(create_options, 100, 100), RasterImage) as raster_image:
+		# Fill the entire PNG image in red.
+		gr = Graphics(raster_image)
+		brush = SolidBrush(Color.red)
+		gr.fill_rectangle(brush, raster_image.bounds)
+
+		# Create a BMP image based on the PNG image.
+		# The source pixels will be converted to 32-bpp format if required.
+		with BmpImage(raster_image) as bmp_image:
+			# Save to a BMP file
+			bmp_image.save(os.path.join(directory, "output.32bpp.bmp"))
+
+```
+
+### The example shows how to load a BmpImage from another instance of RasterImage with the specified bit depth and compression. {#example_82}
+``` python
+
+from aspose.imaging.fileformats.bmp import BmpImage, BitmapCompression
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.sources import StreamSource
+from aspose.imaging import Image, RasterImage, Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+import os
+import aspose.pycore as aspycore
+
+directory = r"c:\temp"
+
+# Create a new PNG image.
+with PngOptions() as create_options:
+	create_options.source = StreamSource()
+	with aspycore.as_of(Image.create(create_options, 100, 100), RasterImage) as raster_image:
+		# Fill the entire PNG image in red.
+		gr = Graphics(raster_image)
+		brush = SolidBrush(Color.red)
+		gr.fill_rectangle(brush, raster_image.bounds)
+
+		# Create a BMP image based on the PNG image.
+		# The source pixels will be converted to 24-bpp format if required.
+		# The resolution will be set to 96 dpi.
+		with BmpImage(raster_image, 24, BitmapCompression.RGB, 96.0, 96.0) as bmp_image:
+			# Save to a BMP file
+			bmp_image.save(os.path.join(directory, "output.24bpp.96dpi.bmp"))
+
+```
+
+### The example shows how to create a BmpImage of the specified size. {#example_83}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+import os
+
+directory = r"c:\temp"
+
+# Create a 32-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100) as bmp_image:
+	# Fill the entire image in red.
+	Graphics gr = Graphics(bmp_image)
+	brush = SolidBrush(Color.red)
+	gr.fill_rectangle(brush, bmp_image.bounds)
+	# Save to a BMP file
+	bmp_image.save(os.path.join(directory, "output.bmp"))
+
+
+```
+
+### The example shows how to create a BmpImage of the specified size with the specified palette. {#example_84}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+from aspose.imaging import Graphics, Color, ColorPalette, Rectangle
+from aspose.imaging.brushes import SolidBrush
+import os
+
+directory = r"c:\temp"
+
+paletterColors = [Color.red, Color.green]
+
+# Create a monochrome palette which contains only red and green colors.
+palette = ColorPalette.create_with_colors(paletterColors)
+
+# Create a monochrome 1-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100, 1, palette) as bmp_image:
+	gr = Graphics(bmp_image)
+
+	# Fill the upper half of the image in red.
+	redBrush = SolidBrush(Color.red)
+	gr.fill_rectangle(redBrush, Rectangle(0, 0, bmp_image.width, bmp_image.height // 2))
+
+	# Fill the lower half of the image in green.
+	greenBrush = SolidBrush(Color.green)
+	gr.fill_rectangle(greenBrush, Rectangle(0, bmp_image.height // 2, bmp_image.width, bmp_image.height // 2))
+
+	# Save to BMP
+	bmp_image.save(os.path.join(directory, "output.monochrome.bmp"))
+
+
+```
+
+### The example shows how to create a BmpImage using various options. {#example_85}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage, BitmapCompression
+from aspose.imaging import Graphics, Color, ColorPalette, Rectangle
+from aspose.imaging.brushes import SolidBrush
+import os
+
+directory = r"c:\temp"
+
+paletterColors = [Color.red, Color.green]
+
+# Create a monochrome palette which contains only red and green colors.
+palette = ColorPalette.create_with_colors(paletterColors)
+
+# Create a monochrome 1-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100, 1, palette, BitmapCompression.RGB, 96.0, 96.0) as bmp_image:
+	gr = Graphics(bmp_image)
+
+	# Fill the upper half of the image in red.
+	redBrush = SolidBrush(Color.red)
+	gr.fill_rectangle(redBrush, Rectangle(0, 0, bmp_image.width, bmp_image.height // 2))
+
+	# Fill the lower half of the image in green.
+	greenBrush = SolidBrush(Color.green)
+	gr.fill_rectangle(greenBrush, Rectangle(0, bmp_image.height // 2, bmp_image.width, bmp_image.height // 2))
+
+	# Save to BMP
+	bmp_image.save(os.path.join(directory, "output.monochrome.96dpi.bmp"))
+
+
+```
+
+### The following example shows how to extract information about raw data format and alpha channel from a BMP image. {#example_86}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+
+# Create a 32-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100, 32, None) as bmp_image:
+	print("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}".format(bmp_image.file_format.name, bmp_image.raw_data_format, bmp_image.has_alpha))
+
+
+# Create a 24-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100, 24, None) as bmp_image:
+	print("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}".format(bmp_image.file_format.name, bmp_image.raw_data_format, bmp_image.has_alpha))
+
+# Generally, BMP doesn't support alpha channel so the output will look like this:
+# FileFormat = BMP, RawDataFormat = Rgb32Bpp, used channels: 8,8,8,8, HasAlpha = False
+# FileFormat = BMP, RawDataFormat = Rgb24Bpp, used channels: 8,8,8, HasAlpha = False
 
 ```
 

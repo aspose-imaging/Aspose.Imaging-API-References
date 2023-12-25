@@ -11,7 +11,7 @@ The ColorMatchToTarget enumeration is used to determine whether a color profile 
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfColorMatchToTarget
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

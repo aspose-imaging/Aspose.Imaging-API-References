@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/rasterimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, Image
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -175,6 +175,8 @@ Gets a value indicating whether this instance has alpha.
 **See also:**
 
 **[Example # 1](#example_38)**: The following example loads raster images and prints information about raw da...
+
+**[Example # 2](#example_86)**: The following example shows how to extract information about raw data format ...
 
 
 ### Property: premultiply_components {#premultiply_components2}
@@ -2930,6 +2932,25 @@ with Image.load(join_path(directory, "sample.gif")) as image:
 	rasterImage.resize(image.width // 2, image.height // 2, resizeSettings)
 	image.save(join_path(directory, "downsample.adaptive.gif"))
 
+
+```
+
+### The following example shows how to extract information about raw data format and alpha channel from a BMP image. {#example_86}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+
+# Create a 32-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100, 32, None) as bmp_image:
+	print("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}".format(bmp_image.file_format.name, bmp_image.raw_data_format, bmp_image.has_alpha))
+
+
+# Create a 24-bpp BMP image of 100 x 100 px.
+with BmpImage(100, 100, 24, None) as bmp_image:
+	print("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}".format(bmp_image.file_format.name, bmp_image.raw_data_format, bmp_image.has_alpha))
+
+# Generally, BMP doesn't support alpha channel so the output will look like this:
+# FileFormat = BMP, RawDataFormat = Rgb32Bpp, used channels: 8,8,8,8, HasAlpha = False
+# FileFormat = BMP, RawDataFormat = Rgb24Bpp, used channels: 8,8,8, HasAlpha = False
 
 ```
 

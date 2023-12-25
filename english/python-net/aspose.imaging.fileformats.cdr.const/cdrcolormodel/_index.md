@@ -11,7 +11,7 @@ The cdr color models
 
 **Full Name:** aspose.imaging.fileformats.cdr.const.CdrColorModel
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

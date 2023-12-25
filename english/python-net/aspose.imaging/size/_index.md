@@ -1,7 +1,7 @@
 ---
 title: Size Class
 type: docs
-weight: 7020
+weight: 7030
 url: /python-net/aspose.imaging/size/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/size/
 
 **Full Name:** aspose.imaging.Size
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

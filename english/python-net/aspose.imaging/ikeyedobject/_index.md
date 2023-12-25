@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/ikeyedobject/
 
 **Full Name:** aspose.imaging.IKeyedObject
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

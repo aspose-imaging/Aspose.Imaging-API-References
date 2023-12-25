@@ -1,7 +1,7 @@
 ---
 title: StringFormat Class
 type: docs
-weight: 7110
+weight: 7120
 url: /python-net/aspose.imaging/stringformat/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/stringformat/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

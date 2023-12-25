@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/psdvectorizationoptions/
 
 **Full Name:** aspose.imaging.imageoptions.PsdVectorizationOptions
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

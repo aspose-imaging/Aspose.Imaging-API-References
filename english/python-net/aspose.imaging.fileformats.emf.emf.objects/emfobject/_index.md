@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfobject/
 
 **Inheritance:** MetaObject
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/blend/
 
 **Full Name:** aspose.imaging.Blend
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

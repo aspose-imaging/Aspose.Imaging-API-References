@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/ipartialrawdataloader/
 
 **Full Name:** aspose.imaging.IPartialRawDataLoader
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Methods**
 | **Name** | **Description** |
