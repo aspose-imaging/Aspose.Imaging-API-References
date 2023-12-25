@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, RasterCachedImage
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -2436,7 +2436,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_80}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_90}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2461,7 +2461,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_81}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_91}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

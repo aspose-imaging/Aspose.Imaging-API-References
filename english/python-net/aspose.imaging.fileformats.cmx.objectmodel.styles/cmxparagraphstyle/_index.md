@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphs
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxParagraphStyle
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |

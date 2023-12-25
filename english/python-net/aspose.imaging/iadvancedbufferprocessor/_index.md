@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/iadvancedbufferprocessor/
 
 **Inheritance:** IBufferProcessor
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Methods**
 | **Name** | **Description** |

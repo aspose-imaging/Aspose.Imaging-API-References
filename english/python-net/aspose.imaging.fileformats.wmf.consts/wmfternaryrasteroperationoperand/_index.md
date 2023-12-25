@@ -11,7 +11,7 @@ Each ternary raster operation code represents a Boolean operation in which the v
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfTernaryRasterOperationOperand
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

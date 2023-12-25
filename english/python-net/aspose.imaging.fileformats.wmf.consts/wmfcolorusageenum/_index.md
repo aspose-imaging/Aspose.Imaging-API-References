@@ -11,7 +11,7 @@ The ColorUsage Enumeration specifies whether a color table exists in a device-in
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfColorUsageEnum
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

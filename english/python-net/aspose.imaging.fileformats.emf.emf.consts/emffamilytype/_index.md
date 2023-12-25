@@ -11,7 +11,7 @@ The FamilyType enumeration defines values for one of the characteristics in the 
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfFamilyType
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

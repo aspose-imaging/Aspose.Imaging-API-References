@@ -1,7 +1,7 @@
 ---
 title: DitheringMethods Enumeration
 type: docs
-weight: 9230
+weight: 9240
 url: /python-net/aspose.imaging/ditheringmethods/
 ---
 
@@ -11,7 +11,7 @@ The dithering methods used to control color conversion.
 
 **Full Name:** aspose.imaging.DitheringMethods
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

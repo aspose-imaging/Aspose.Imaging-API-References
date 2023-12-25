@@ -11,7 +11,7 @@ The Illuminant enumeration defines values that specify the illuminant value of a
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfIlluminant
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

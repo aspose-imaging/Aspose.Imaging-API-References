@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.watermark.options/teleawatermarkoptions/
 
 **Inheritance:** WatermarkOptions
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -59,7 +59,7 @@ Initializes a new instance of the [TeleaWatermarkOptions](/imaging/python-net/as
 | mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The mask for the unknown area. |
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_81}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_91}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

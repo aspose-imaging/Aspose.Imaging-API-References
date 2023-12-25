@@ -71,7 +71,7 @@ The module is the core for nested modules and the most basic objects used for As
 | [License](/imaging/python-net/aspose.imaging/license/) | Provides methods to license the component. |
 | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | Represents the loading options. |
 | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | Replaces the GDI+ Matrix. |
-| [Metered](/imaging/python-net/aspose.imaging/metered/) | Provides methods to set metered key. |
+| [Metered](/imaging/python-net/aspose.imaging/metered/) | Provides metered methods for integration |
 | [NonGenericDictionary](/imaging/python-net/aspose.imaging/nongenericdictionary/) | Represents a non generic dictionary. |
 | [NonGenericList](/imaging/python-net/aspose.imaging/nongenericlist/) | Non generic list of objects |
 | [ObjectWithBounds](/imaging/python-net/aspose.imaging/objectwithbounds/) | The object having bounds. |
@@ -87,6 +87,7 @@ The module is the core for nested modules and the most basic objects used for As
 | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Stores a set of four integers that represent the location and size of a rectangle. |
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Stores a set of four floating-point numbers that represent the location and size of a rectangle. |
 | [Region](/imaging/python-net/aspose.imaging/region/) | Describes the interior of a graphics shape composed of rectangles and paths. This class cannot be inherited. |
+| [RemoveBackgroundSettings](/imaging/python-net/aspose.imaging/removebackgroundsettings/) | The remve background settings |
 | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | The resolution setting for image save options. |
 | [Shape](/imaging/python-net/aspose.imaging/shape/) | The shape. A continuous set of points connected using a specific rule. |
 | [ShapeSegment](/imaging/python-net/aspose.imaging/shapesegment/) | Represents a shape segment. A segment is a line or curve connecting two points. |

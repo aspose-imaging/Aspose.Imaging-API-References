@@ -11,7 +11,7 @@ The type of the color.
 
 **Full Name:** aspose.imaging.fileformats.dicom.ColorType
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

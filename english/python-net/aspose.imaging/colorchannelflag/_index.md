@@ -1,7 +1,7 @@
 ---
 title: ColorChannelFlag Enumeration
 type: docs
-weight: 9010
+weight: 9020
 url: /python-net/aspose.imaging/colorchannelflag/
 ---
 
@@ -11,7 +11,7 @@ Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color s
 
 **Full Name:** aspose.imaging.ColorChannelFlag
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

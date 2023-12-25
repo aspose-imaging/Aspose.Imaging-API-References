@@ -11,7 +11,7 @@ The [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) pre
 
 **Full Name:** aspose.imaging.fileformats.eps.EpsPreviewFormat
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

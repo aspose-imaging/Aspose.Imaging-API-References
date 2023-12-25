@@ -11,7 +11,7 @@ The ImageDataType enumeration defines types of image data formats.
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusImageDataType
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

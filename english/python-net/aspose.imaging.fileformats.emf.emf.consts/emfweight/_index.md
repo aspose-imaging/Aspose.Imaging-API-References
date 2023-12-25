@@ -11,7 +11,7 @@ The Weight enumeration defines values for one of the characteristics in the PANO
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfWeight
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

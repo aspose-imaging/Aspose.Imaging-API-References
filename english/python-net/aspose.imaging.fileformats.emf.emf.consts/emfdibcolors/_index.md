@@ -11,7 +11,7 @@ The DIBColors enumeration defines how to interpret the values in the color table
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfDibColors
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/iimageloader/
 
 **Full Name:** aspose.imaging.IImageLoader
 
-**Aspose.Imaging Version:** 23.11.0
+**Aspose.Imaging Version:** 23.12.0
 
 ## **Methods**
 | **Name** | **Description** |
