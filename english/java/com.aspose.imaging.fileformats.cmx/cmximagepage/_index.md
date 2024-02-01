@@ -88,8 +88,10 @@ public boolean isCached()
 
 Gets a value indicating whether object's data is cached currently and no data reading is required.
 
+Value: `true` if object's data is cached; otherwise, `false`.
+
 **Returns:**
-boolean
+boolean - a value indicating whether object's data is cached currently and no data reading is required.
 ### getWidthF() {#getWidthF--}
 ```
 public float getWidthF()

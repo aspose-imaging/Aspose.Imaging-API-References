@@ -63,6 +63,8 @@ An `com.aspose.imaging.ImageAttributes` object contains information about how bi
 | [setWrapMode(int mode)](#setWrapMode-int-) | Sets the wrap mode that is used to decide how to tile a texture across a shape, or at shape boundaries. |
 | [setWrapMode(int mode, Color color)](#setWrapMode-int-com.aspose.imaging.Color-) | Sets the wrap mode and color used to decide how to tile a texture across a shape, or at shape boundaries. |
 | [setWrapMode(int mode, Color color, boolean clamp)](#setWrapMode-int-com.aspose.imaging.Color-boolean-) | Sets the wrap mode and color used to decide how to tile a texture across a shape, or at shape boundaries. |
+| [equals(Object o)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
 ### ImageAttributes() {#ImageAttributes--}
 ```
 public ImageAttributes()
@@ -574,3 +576,28 @@ Sets the wrap mode and color used to decide how to tile a texture across a shape
 | color | [Color](../../com.aspose.imaging/color) | A color object that specifies the color of pixels outside a rendered image. This color is visible if the mode parameter is set to `WrapMode.Clamp` and the source rectangle passed to DrawImage is larger than the image itself. |
 | clamp | boolean | This parameter has no effect. Set it to false. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int

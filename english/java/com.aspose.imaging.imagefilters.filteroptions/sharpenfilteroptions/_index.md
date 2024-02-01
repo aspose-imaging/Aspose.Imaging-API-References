@@ -1,32 +1,33 @@
 ---
 title: SharpenFilterOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The Sharpen filter options
+description: The sharpen filter options.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions)
+java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions), [com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions)
 ```
-public class SharpenFilterOptions extends ConvolutionFilterOptions
+public class SharpenFilterOptions extends GaussianBlurFilterOptions
 ```
 
-The Sharpen filter options
+The sharpen filter options.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SharpenFilterOptions(int size, double sigma)](#SharpenFilterOptions-int-double-) | Initializes a new instance of the `SharpenFilterOptions` class. |
-| [SharpenFilterOptions()](#SharpenFilterOptions--) | Initializes a new instance of the `SharpenFilterOptions` class. |
+| [SharpenFilterOptions(int size, double sigma)](#SharpenFilterOptions-int-double-) | Initializes a new instance of the [SharpenFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) class. |
+| [SharpenFilterOptions()](#SharpenFilterOptions--) | Initializes a new instance of the [SharpenFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSize()](#getSize--) | Gets or sets the size. |
-| [setSize(int value)](#setSize-int-) | Gets or sets the size. |
-| [getSigma()](#getSigma--) | Gets or sets the sigma. |
-| [setSigma(double value)](#setSigma-double-) | Gets or sets the sigma. |
+| [getKernel()](#getKernel--) | Gets the kernel. |
+| [getSize()](#getSize--) | Gets the Gaussian kernel size. |
+| [setSize(int value)](#setSize-int-) | The Gaussian kernel size. |
+| [getSigma()](#getSigma--) | Gets the Gaussian kernel sigma (smoothing). |
+| [setSigma(double value)](#setSigma-double-) | The Gaussian kernel sigma (smoothing). |
 
 ## Example: The following example applies various types of filters to a raster image.
 
@@ -106,12 +107,12 @@ public SharpenFilterOptions(int size, double sigma)
 ```
 
 
-Initializes a new instance of the `SharpenFilterOptions` class.
+Initializes a new instance of the [SharpenFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | int | Size of the kernel. |
+| size | int | The size of the kernel. |
 | sigma | double | The sigma. |
 
 ### SharpenFilterOptions() {#SharpenFilterOptions--}
@@ -120,34 +121,40 @@ public SharpenFilterOptions()
 ```
 
 
-Initializes a new instance of the `SharpenFilterOptions` class. With default settings.
+Initializes a new instance of the [SharpenFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) class.
 
+### getKernel() {#getKernel--}
+```
+public double[][] getKernel()
+```
+
+
+Gets the kernel.
+
+**Returns:**
+double[][] - the kernel.
 ### getSize() {#getSize--}
 ```
 public int getSize()
 ```
 
 
-Gets or sets the size.
-
-Value: The size.
+Gets the Gaussian kernel size. Must be a positive non-zero odd value.
 
 **Returns:**
-int
+int - the Gaussian kernel size.
 ### setSize(int value) {#setSize-int-}
 ```
 public void setSize(int value)
 ```
 
 
-Gets or sets the size.
-
-Value: The size.
+The Gaussian kernel size. Must be a positive non-zero odd value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | the Gaussian kernel size. |
 
 ### getSigma() {#getSigma--}
 ```
@@ -155,24 +162,20 @@ public double getSigma()
 ```
 
 
-Gets or sets the sigma.
-
-Value: The sigma.
+Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value.
 
 **Returns:**
-double
+double - the Gaussian kernel sigma (smoothing).
 ### setSigma(double value) {#setSigma-double-}
 ```
 public void setSigma(double value)
 ```
 
 
-Gets or sets the sigma.
-
-Value: The sigma.
+The Gaussian kernel sigma (smoothing). Must be a positive non-zero value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | double | the Gaussian kernel sigma (smoothing). |
 

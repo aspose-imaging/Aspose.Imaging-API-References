@@ -3,7 +3,7 @@ title: MedianFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Median filter
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.imaging.imagefilters.filteroptions/medianfilteroptions/
 ---
 **Inheritance:**

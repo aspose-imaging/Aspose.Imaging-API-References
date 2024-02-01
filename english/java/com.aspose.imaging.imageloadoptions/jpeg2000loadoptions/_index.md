@@ -3,7 +3,7 @@ title: Jpeg2000LoadOptions
 second_title: Aspose.Imaging for Java API Reference
 description: JPEG2000 load options
 type: docs
-weight: 12
+weight: 13
 url: /java/com.aspose.imaging.imageloadoptions/jpeg2000loadoptions/
 ---
 **Inheritance:**
