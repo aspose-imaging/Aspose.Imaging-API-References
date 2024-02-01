@@ -3,7 +3,7 @@ title: WmfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10390
+weight: 10430
 url: /net/aspose.imaging.imageoptions/wmfoptions/
 ---
 ## WmfOptions class

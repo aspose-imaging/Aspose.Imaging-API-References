@@ -8,15 +8,25 @@ url: /java/com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteropti
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.imagefilters.convolution.IComplexConvolutionKernel
 ```
-public abstract class DeconvolutionFilterOptions extends FilterOptionsBase
+public class DeconvolutionFilterOptions extends FilterOptionsBase implements IComplexConvolutionKernel
 ```
 
 Deconvolution Filter Options, abstract class
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DeconvolutionFilterOptions(double[][] kernel)](#DeconvolutionFilterOptions-double-----) | Initializes a new instance of the [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) class. |
+| [DeconvolutionFilterOptions(Complex[][] kernel)](#DeconvolutionFilterOptions-com.aspose.imaging.imagefilters.complexutils.Complex-----) | Initializes a new instance of the [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getKernel()](#getKernel--) | Gets the kernel. |
 | [getSnr()](#getSnr--) | Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, default value = 0.007 |
 | [setSnr(double value)](#setSnr-double-) | Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, default value = 0.007 |
 | [getBrightness()](#getBrightness--) | Gets or sets the brightness. |
@@ -24,6 +34,42 @@ Deconvolution Filter Options, abstract class
 | [getGrayscale()](#getGrayscale--) | Gets or sets a value indicating whether this `DeconvolutionFilterOptions` is grayscale. |
 | [setGrayscale(boolean value)](#setGrayscale-boolean-) | Gets or sets a value indicating whether this `DeconvolutionFilterOptions` is grayscale. |
 | [isPartialLoaded()](#isPartialLoaded--) | Gets a value indicating whether this instance is partial loaded. |
+### DeconvolutionFilterOptions(double[][] kernel) {#DeconvolutionFilterOptions-double-----}
+```
+public DeconvolutionFilterOptions(double[][] kernel)
+```
+
+
+Initializes a new instance of the [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| kernel | double[][] | The kernel. |
+
+### DeconvolutionFilterOptions(Complex[][] kernel) {#DeconvolutionFilterOptions-com.aspose.imaging.imagefilters.complexutils.Complex-----}
+```
+public DeconvolutionFilterOptions(Complex[][] kernel)
+```
+
+
+Initializes a new instance of the [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| kernel | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | The kernel. |
+
+### getKernel() {#getKernel--}
+```
+public Complex[][] getKernel()
+```
+
+
+Gets the kernel.
+
+**Returns:**
+com.aspose.imaging.imagefilters.complexutils.Complex[][] - the kernel.
 ### getSnr() {#getSnr--}
 ```
 public double getSnr()
@@ -113,7 +159,7 @@ public boolean isPartialLoaded()
 
 Gets a value indicating whether this instance is partial loaded.
 
-Value: `true` if this instance is partial loaded; otherwise, `false`.
+Value: `true` if this instance is partially loaded; otherwise, `false`.
 
 **Returns:**
 boolean

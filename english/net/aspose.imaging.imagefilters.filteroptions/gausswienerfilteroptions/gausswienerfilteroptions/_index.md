@@ -11,13 +11,13 @@ url: /net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/gau
 Initializes a new instance of the [`GaussWienerFilterOptions`](../../gausswienerfilteroptions) class.
 
 ```csharp
-public GaussWienerFilterOptions(int radius, double smooth)
+public GaussWienerFilterOptions(int size, double sigma)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| radius | Int32 | The radius. |
-| smooth | Double | The smooth. |
+| size | Int32 | The Gaussian kernel size. |
+| sigma | Double | The Gaussian kernel sigma. |
 
 ### See Also
 
@@ -29,7 +29,7 @@ public GaussWienerFilterOptions(int radius, double smooth)
 
 ## GaussWienerFilterOptions constructor (2 of 2)
 
-Initializes a new instance of the [`GaussWienerFilterOptions`](../../gausswienerfilteroptions) class. With default settings.
+Initializes a new instance of the [`GaussWienerFilterOptions`](../../gausswienerfilteroptions) class.
 
 ```csharp
 public GaussWienerFilterOptions()

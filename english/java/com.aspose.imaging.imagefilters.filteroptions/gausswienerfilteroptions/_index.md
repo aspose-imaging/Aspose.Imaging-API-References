@@ -1,32 +1,29 @@
 ---
 title: GaussWienerFilterOptions
 second_title: Aspose.Imaging for Java API Reference
-description: Gauss Wiener Filter Options Deblur gauss
+description: Gauss Wiener filter options for image debluring.
 type: docs
 weight: 15
 url: /java/com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions)
+java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions), [com.aspose.imaging.imagefilters.filteroptions.GaussianDeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions)
 ```
-public class GaussWienerFilterOptions extends DeconvolutionFilterOptions
+public class GaussWienerFilterOptions extends GaussianDeconvolutionFilterOptions
 ```
 
-Gauss Wiener Filter Options Deblur gauss
+Gauss Wiener filter options for image debluring.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GaussWienerFilterOptions(int radius, double smooth)](#GaussWienerFilterOptions-int-double-) | Initializes a new instance of the `GaussWienerFilterOptions` class. |
-| [GaussWienerFilterOptions()](#GaussWienerFilterOptions--) | Initializes a new instance of the `GaussWienerFilterOptions` class. |
+| [GaussWienerFilterOptions(int size, double sigma)](#GaussWienerFilterOptions-int-double-) | Initializes a new instance of the [GaussWienerFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) class. |
+| [GaussWienerFilterOptions()](#GaussWienerFilterOptions--) | Initializes a new instance of the [GaussWienerFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRadius()](#getRadius--) | Gets or sets the radius. |
-| [setRadius(int value)](#setRadius-int-) | Gets or sets the radius. |
-| [getSmooth()](#getSmooth--) | Gets or sets the smooth. |
-| [setSmooth(double value)](#setSmooth-double-) | Gets or sets the smooth. |
+| [getKernel()](#getKernel--) | Gets the kernel. |
 
 ## Example: The following example applies various types of filters to a raster image.
 
@@ -100,19 +97,19 @@ try {
 }
 ```
 
-### GaussWienerFilterOptions(int radius, double smooth) {#GaussWienerFilterOptions-int-double-}
+### GaussWienerFilterOptions(int size, double sigma) {#GaussWienerFilterOptions-int-double-}
 ```
-public GaussWienerFilterOptions(int radius, double smooth)
+public GaussWienerFilterOptions(int size, double sigma)
 ```
 
 
-Initializes a new instance of the `GaussWienerFilterOptions` class.
+Initializes a new instance of the [GaussWienerFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| radius | int | The radius. |
-| smooth | double | The smooth. |
+| size | int | The Gaussian kernel size. |
+| sigma | double | The Gaussian kernel sigma. |
 
 ### GaussWienerFilterOptions() {#GaussWienerFilterOptions--}
 ```
@@ -120,59 +117,15 @@ public GaussWienerFilterOptions()
 ```
 
 
-Initializes a new instance of the `GaussWienerFilterOptions` class. With default settings.
+Initializes a new instance of the [GaussWienerFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) class.
 
-### getRadius() {#getRadius--}
+### getKernel() {#getKernel--}
 ```
-public int getRadius()
+public Complex[][] getKernel()
 ```
 
 
-Gets or sets the radius.
-
-Value: The radius.
+Gets the kernel.
 
 **Returns:**
-int
-### setRadius(int value) {#setRadius-int-}
-```
-public void setRadius(int value)
-```
-
-
-Gets or sets the radius.
-
-Value: The radius.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getSmooth() {#getSmooth--}
-```
-public double getSmooth()
-```
-
-
-Gets or sets the smooth.
-
-Value: The smooth.
-
-**Returns:**
-double
-### setSmooth(double value) {#setSmooth-double-}
-```
-public void setSmooth(double value)
-```
-
-
-Gets or sets the smooth.
-
-Value: The smooth.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
+com.aspose.imaging.imagefilters.complexutils.Complex[][] - the kernel.

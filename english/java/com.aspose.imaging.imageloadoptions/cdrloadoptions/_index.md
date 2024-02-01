@@ -24,6 +24,8 @@ The Cdr load options
 | --- | --- |
 | [getDefaultFont()](#getDefaultFont--) | Gets the default font. |
 | [setDefaultFont(Font value)](#setDefaultFont-com.aspose.imaging.Font-) | Sets the default font. |
+| [getOptimalMemoryUsage()](#getOptimalMemoryUsage--) | Gets a value indicating whether [optimal memory usage]. |
+| [setOptimalMemoryUsage(boolean value)](#setOptimalMemoryUsage-boolean-) | Sets a value indicating whether [optimal memory usage]. |
 ### CdrLoadOptions() {#CdrLoadOptions--}
 ```
 public CdrLoadOptions()
@@ -54,4 +56,31 @@ Sets the default font.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Font](../../com.aspose.imaging/font) | the default font. |
+
+### getOptimalMemoryUsage() {#getOptimalMemoryUsage--}
+```
+public final boolean getOptimalMemoryUsage()
+```
+
+
+Gets a value indicating whether [optimal memory usage].
+
+Value: `true` if [optimal memory usage]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [optimal memory usage].
+### setOptimalMemoryUsage(boolean value) {#setOptimalMemoryUsage-boolean-}
+```
+public final void setOptimalMemoryUsage(boolean value)
+```
+
+
+Sets a value indicating whether [optimal memory usage].
+
+Value: `true` if [optimal memory usage]; otherwise, `false`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether [optimal memory usage]. |
 

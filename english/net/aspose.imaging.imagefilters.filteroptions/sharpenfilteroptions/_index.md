@@ -3,22 +3,22 @@ title: SharpenFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9890
+weight: 9920
 url: /net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions class
 
-The Sharpen filter options
+The sharpen filter options.
 
 ```csharp
-public class SharpenFilterOptions : ConvolutionFilterOptions
+public class SharpenFilterOptions : GaussianBlurFilterOptions
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [SharpenFilterOptions](sharpenfilteroptions)() | Initializes a new instance of the [`SharpenFilterOptions`](../sharpenfilteroptions) class. With default settings. |
+| [SharpenFilterOptions](sharpenfilteroptions)() | Initializes a new instance of the [`SharpenFilterOptions`](../sharpenfilteroptions) class. |
 | [SharpenFilterOptions](sharpenfilteroptions)(int, double) | Initializes a new instance of the [`SharpenFilterOptions`](../sharpenfilteroptions) class. |
 
 ## Properties
@@ -27,8 +27,10 @@ public class SharpenFilterOptions : ConvolutionFilterOptions
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
 | [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
-| [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma) { get; set; } | Gets or sets the sigma. |
-| [Size](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size) { get; set; } | Gets or sets the size. |
+| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/kernel) { get; } | Gets the kernel. |
+| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius) { get; set; } | Gets the radius of Gausseian ISquareConvolutionKernel. |
+| override [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma) { get; set; } | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| override [Size](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size) { get; set; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 
 ### Examples
 
@@ -96,7 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 
 ### See Also
 
-* class [ConvolutionFilterOptions](../convolutionfilteroptions)
+* class [GaussianBlurFilterOptions](../gaussianblurfilteroptions)
 * namespace [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
 * assembly [Aspose.Imaging](../../)
 

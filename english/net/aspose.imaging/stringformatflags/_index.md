@@ -3,7 +3,7 @@ title: StringFormatFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11450
+weight: 11490
 url: /net/aspose.imaging/stringformatflags/
 ---
 ## StringFormatFlags enumeration

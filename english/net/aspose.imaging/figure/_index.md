@@ -27,7 +27,7 @@ public class Figure : ObjectWithBounds
 | override [Bounds](../../aspose.imaging/figure/bounds) { get; } | Gets or sets the object's bounds. |
 | [IsClosed](../../aspose.imaging/figure/isclosed) { get; set; } | Gets or sets a value indicating whether this figure is closed. A closed figure will make a difference only in case where the first and the last figure's shapes are continuous shapes. In such case the first point of the first shape will be connected by a straight line from the last point of the last shape. |
 | [Segments](../../aspose.imaging/figure/segments) { get; } | Gets the whole figure segments. |
-| [Shapes](../../aspose.imaging/figure/shapes) { get; } | Gets or sets the figure shapes. |
+| [Shapes](../../aspose.imaging/figure/shapes) { get; } | Gets the shapes. |
 
 ## Methods
 

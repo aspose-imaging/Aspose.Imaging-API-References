@@ -3,7 +3,7 @@ title: Snr
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr/
 ---
 ## DeconvolutionFilterOptions.Snr property

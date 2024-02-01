@@ -3,7 +3,7 @@ title: PageExportingAction
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10920
+weight: 10960
 url: /net/aspose.imaging/pageexportingaction/
 ---
 ## PageExportingAction delegate

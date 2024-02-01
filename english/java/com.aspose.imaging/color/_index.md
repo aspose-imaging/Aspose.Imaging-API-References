@@ -178,11 +178,11 @@ The color of the pixel.
 | [fromKnownColor(int color)](#fromKnownColor-int-) | Creates a `com.aspose.imaging.Color` structure from the specified predefined color. |
 | [fromName(String name)](#fromName-java.lang.String-) | Creates a `com.aspose.imaging.Color` structure from the specified name of a predefined color. |
 | [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | The conversion from Color to CMYKColor. |
-| [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | The conversion from Color to CmykColor. |
+| [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | The conversion from Color to CMYKColor. |
+| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | The conversion from Color to CMYKColor using icc conversion with default profiles. |
 | [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | The conversion from Color to CMYKColor using icc conversion with default profiles. |
 | [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | The conversion from Color to CMYKColor using icc conversion with default profiles. |
 | [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | The conversion from Color to CMYKColor using icc conversion. |
-| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | The conversion from Color to CMYKColor using icc conversion with default profiles. |
 | [isEquals(Color obj1, Color obj2)](#isEquals-com.aspose.imaging.Color-com.aspose.imaging.Color-) |  |
 | [getR()](#getR--) | Gets the red component value of this `com.aspose.imaging.Color` structure. |
 | [getG()](#getG--) | Gets the green component value of this `com.aspose.imaging.Color` structure. |
@@ -1843,7 +1843,7 @@ public static CmykColor[] toCmyk(Color[] pixels)
 ```
 
 
-The conversion from Color to CMYKColor. This method is deprecated. Please use more effective `CmykColorHelper.toCmyk(Color[])`.
+The conversion from Color to CMYKColor. This method is deprecated. Please use more effective [CmykColorHelper.toCmyk(Color[])](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color---).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1851,14 +1851,14 @@ The conversion from Color to CMYKColor. This method is deprecated. Please use mo
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | The pixels of Color type in RGB format. |
 
 **Returns:**
-com.aspose.imaging.CmykColor[] - The `Aspose:Imaging:CmykColor[]`.
+com.aspose.imaging.CmykColor[] - The CmykColor[].
 ### toCmyk(Color pixel) {#toCmyk-com.aspose.imaging.Color-}
 ```
 public static CmykColor toCmyk(Color pixel)
 ```
 
 
-The conversion from Color to CmykColor. This method is deprecated. Please use more effective `CmykColorHelper.toCmyk(Color)`.
+The conversion from Color to CMYKColor. This method is deprecated. Please use more effective [CmykColorHelper.toCmyk(Color)](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color-).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1866,7 +1866,24 @@ The conversion from Color to CmykColor. This method is deprecated. Please use mo
 | pixel | [Color](../../com.aspose.imaging/color) | The pixel of Color type in RGB format. |
 
 **Returns:**
-[CmykColor](../../com.aspose.imaging/cmykcolor) - The [CmykColor](../../com.aspose.imaging/cmykcolor)[].
+[CmykColor](../../com.aspose.imaging/cmykcolor) - The [CmykColor](../../com.aspose.imaging/cmykcolor).
+### toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-}
+```
+public static CmykColor toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)
+```
+
+
+The conversion from Color to CMYKColor using icc conversion with default profiles. This method is deprecated. Please use more effective [CmykColorHelper.toCmykIcc(Color, InputStream, InputStream)](../../com.aspose.imaging/cmykcolorhelper\#toCmykIcc-Color--InputStream--InputStream-).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pixel | [Color](../../com.aspose.imaging/color) | The pixel of Color type in RGB format. |
+| rgbIccStream | java.io.InputStream | The stream containing icc rgb profile. |
+| cmykIccStream | java.io.InputStream | The stream containing icc cmyk profile. |
+
+**Returns:**
+[CmykColor](../../com.aspose.imaging/cmykcolor) - The CmykColor[].
 ### toCmykIcc(Color pixel) {#toCmykIcc-com.aspose.imaging.Color-}
 ```
 public static CmykColor toCmykIcc(Color pixel)
@@ -1914,23 +1931,6 @@ The conversion from Color to CMYKColor using icc conversion. This method is depr
 
 **Returns:**
 com.aspose.imaging.CmykColor[] - The [CmykColor](../../com.aspose.imaging/cmykcolor)[].
-### toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-}
-```
-public static CmykColor toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)
-```
-
-
-The conversion from Color to CMYKColor using icc conversion with default profiles. This method is deprecated. Please use more effective `CmykColorHelper.toCmykIcc(Color, InputStream, InputStream)`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pixel | [Color](../../com.aspose.imaging/color) | The pixel of Color type in RGB format. |
-| rgbIccStream | java.io.InputStream | The stream containing icc rgb profile. |
-| cmykIccStream | java.io.InputStream | The stream containing icc cmyk profile. |
-
-**Returns:**
-[CmykColor](../../com.aspose.imaging/cmykcolor) - The `CmykColor[]`.
 ### isEquals(Color obj1, Color obj2) {#isEquals-com.aspose.imaging.Color-com.aspose.imaging.Color-}
 ```
 public static boolean isEquals(Color obj1, Color obj2)

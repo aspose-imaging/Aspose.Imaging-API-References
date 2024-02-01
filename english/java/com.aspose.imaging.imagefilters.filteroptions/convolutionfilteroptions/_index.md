@@ -1,90 +1,140 @@
 ---
 title: ConvolutionFilterOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The convolution filter.
+description: The convolution filter options.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.imagefilters.convolution.IConvolutionKernel
 ```
-public abstract class ConvolutionFilterOptions extends FilterOptionsBase
+public class ConvolutionFilterOptions extends FilterOptionsBase implements IConvolutionKernel
 ```
 
-The convolution filter.
+The convolution filter options.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ConvolutionFilterOptions()](#ConvolutionFilterOptions--) | Initializes a new instance of the `ConvolutionFilterOptions` class. |
+| [ConvolutionFilterOptions(double[][] kernel)](#ConvolutionFilterOptions-double-----) | Initializes a new instance of the [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) class with factor == 1 and bias == 0. |
+| [ConvolutionFilterOptions(double[][] kernel, double factor)](#ConvolutionFilterOptions-double-----double-) | Initializes a new instance of the [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) class with bias == 0. |
+| [ConvolutionFilterOptions(double[][] kernel, double factor, int bias)](#ConvolutionFilterOptions-double-----double-int-) | Initializes a new instance of the [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFactor()](#getFactor--) | Gets or sets the factor. |
-| [setFactor(double value)](#setFactor-double-) | Gets or sets the factor. |
-| [getBias()](#getBias--) | Gets or sets the bias. |
-| [setBias(int value)](#setBias-int-) | Gets or sets the bias. |
-### ConvolutionFilterOptions() {#ConvolutionFilterOptions--}
+| [getKernel()](#getKernel--) | Gets the kernel. |
+| [getFactor()](#getFactor--) | Gets the factor. |
+| [setFactor(double value)](#setFactor-double-) | Sets the factor. |
+| [getBias()](#getBias--) | Gets the bias. |
+| [setBias(int value)](#setBias-int-) | Sets the bias. |
+### ConvolutionFilterOptions(double[][] kernel) {#ConvolutionFilterOptions-double-----}
 ```
-public ConvolutionFilterOptions()
+public ConvolutionFilterOptions(double[][] kernel)
 ```
 
 
-Initializes a new instance of the `ConvolutionFilterOptions` class.
+Initializes a new instance of the [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) class with factor == 1 and bias == 0.
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| kernel | double[][] | The convolution kernel for X-axis direction. |
+
+### ConvolutionFilterOptions(double[][] kernel, double factor) {#ConvolutionFilterOptions-double-----double-}
+```
+public ConvolutionFilterOptions(double[][] kernel, double factor)
+```
+
+
+Initializes a new instance of the [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) class with bias == 0.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| kernel | double[][] | The convolution kernel for X-axis direction. |
+| factor | double | The factor. |
+
+### ConvolutionFilterOptions(double[][] kernel, double factor, int bias) {#ConvolutionFilterOptions-double-----double-int-}
+```
+public ConvolutionFilterOptions(double[][] kernel, double factor, int bias)
+```
+
+
+Initializes a new instance of the [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| kernel | double[][] | The convolution kernel for X-axis direction. |
+| factor | double | The factor. |
+| bias | int | The bias value. |
+
+### getKernel() {#getKernel--}
+```
+public double[][] getKernel()
+```
+
+
+Gets the kernel.
+
+**Returns:**
+double[][] - the kernel.
 ### getFactor() {#getFactor--}
 ```
-public double getFactor()
+public final double getFactor()
 ```
 
 
-Gets or sets the factor.
+Gets the factor.
 
 Value: The factor.
 
 **Returns:**
-double
+double - the factor.
 ### setFactor(double value) {#setFactor-double-}
 ```
-public void setFactor(double value)
+public final void setFactor(double value)
 ```
 
 
-Gets or sets the factor.
+Sets the factor.
 
 Value: The factor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | double | the factor. |
 
 ### getBias() {#getBias--}
 ```
-public int getBias()
+public final int getBias()
 ```
 
 
-Gets or sets the bias.
+Gets the bias.
 
 Value: The bias.
 
 **Returns:**
-int
+int - the bias.
 ### setBias(int value) {#setBias-int-}
 ```
-public void setBias(int value)
+public final void setBias(int value)
 ```
 
 
-Gets or sets the bias.
+Sets the bias.
 
 Value: The bias.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | the bias. |
 

@@ -3,7 +3,7 @@ title: Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale/
 ---
 ## DeconvolutionFilterOptions.Grayscale property

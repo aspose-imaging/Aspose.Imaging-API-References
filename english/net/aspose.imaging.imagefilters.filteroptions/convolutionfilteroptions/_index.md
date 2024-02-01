@@ -3,22 +3,22 @@ title: ConvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9820
+weight: 9840
 url: /net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 ## ConvolutionFilterOptions class
 
-The convolution filter.
+The convolution filter options.
 
 ```csharp
-public abstract class ConvolutionFilterOptions : FilterOptionsBase
+public class ConvolutionFilterOptions : FilterOptionsBase
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ConvolutionFilterOptions](convolutionfilteroptions)() | Initializes a new instance of the [`ConvolutionFilterOptions`](../convolutionfilteroptions) class. |
+| [ConvolutionFilterOptions](convolutionfilteroptions)(double[], double, int) |  |
 
 ## Properties
 
@@ -26,6 +26,7 @@ public abstract class ConvolutionFilterOptions : FilterOptionsBase
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
 | [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
+| virtual [Kernel](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/kernel) { get; } | Gets the kernel. |
 
 ### See Also
 

@@ -3,20 +3,16 @@ title: Radius
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius/
 ---
 ## GaussianBlurFilterOptions.Radius property
 
-Gets or sets the radius.
+Gets the radius of Gausseian ISquareConvolutionKernel.
 
 ```csharp
 public int Radius { get; set; }
 ```
-
-### Property Value
-
-The radius.
 
 ### See Also
 

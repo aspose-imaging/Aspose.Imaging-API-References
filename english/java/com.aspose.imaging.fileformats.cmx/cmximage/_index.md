@@ -38,7 +38,7 @@ The CMX image.
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+| [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `P:Aspose.Imaging.DataStreamSupporter.DataStreamContainer`. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
@@ -245,11 +245,11 @@ Gets the default options.
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### cacheData() {#cacheData--}
 ```
-public synchronized void cacheData()
+public void cacheData()
 ```
 
 
-Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
+Caches the data and ensures no additional data loading will be performed from the underlying `P:Aspose.Imaging.DataStreamSupporter.DataStreamContainer`.
 
 
 **Example: The following example shows how to cache all pages of a CMX image.**

@@ -3,7 +3,7 @@ title: MagicWandTool
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10650
+weight: 10690
 url: /net/aspose.imaging.magicwand/magicwandtool/
 ---
 ## MagicWandTool class

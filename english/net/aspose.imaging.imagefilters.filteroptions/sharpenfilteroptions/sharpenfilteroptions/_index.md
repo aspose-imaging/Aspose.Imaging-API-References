@@ -16,7 +16,7 @@ public SharpenFilterOptions(int size, double sigma)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | Int32 | Size of the kernel. |
+| size | Int32 | The size of the kernel. |
 | sigma | Double | The sigma. |
 
 ### See Also
@@ -29,7 +29,7 @@ public SharpenFilterOptions(int size, double sigma)
 
 ## SharpenFilterOptions constructor (2 of 2)
 
-Initializes a new instance of the [`SharpenFilterOptions`](../../sharpenfilteroptions) class. With default settings.
+Initializes a new instance of the [`SharpenFilterOptions`](../../sharpenfilteroptions) class.
 
 ```csharp
 public SharpenFilterOptions()

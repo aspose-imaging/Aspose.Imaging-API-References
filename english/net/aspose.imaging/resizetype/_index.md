@@ -3,7 +3,7 @@ title: ResizeType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11140
+weight: 11180
 url: /net/aspose.imaging/resizetype/
 ---
 ## ResizeType enumeration

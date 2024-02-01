@@ -3,7 +3,7 @@ title: ColorYUV
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10520
+weight: 10560
 url: /net/aspose.imaging.magicwand/coloryuv/
 ---
 ## ColorYUV structure

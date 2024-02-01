@@ -3,7 +3,7 @@ title: Aspose.Imaging.ImageLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains different file format load options.
 type: docs
-weight: 780
+weight: 800
 url: /net/aspose.imaging.imageloadoptions/
 ---
 The namespace contains different file format load options.
@@ -13,6 +13,7 @@ The namespace contains different file format load options.
 | Class | Description |
 | --- | --- |
 | [CdrLoadOptions](./cdrloadoptions) | The Cdr load options |
+| [CmxLoadOptions](./cmxloadoptions) | The CMX load options |
 | [DngLoadOptions](./dngloadoptions) | The DNG load options |
 | [Jpeg2000LoadOptions](./jpeg2000loadoptions) | JPEG2000 load options |
 | [OdLoadOptions](./odloadoptions) | The Open Dcocument Load Options |

@@ -3,20 +3,16 @@ title: Sigma
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/sigma/
 ---
 ## GaussianBlurFilterOptions.Sigma property
 
-Gets or sets the sigma.
+Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value.
 
 ```csharp
-public double Sigma { get; set; }
+public virtual double Sigma { get; set; }
 ```
-
-### Property Value
-
-The sigma.
 
 ### See Also
 

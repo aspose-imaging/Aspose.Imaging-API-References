@@ -11,14 +11,14 @@ url: /net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/mo
 Initializes a new instance of the [`MotionWienerFilterOptions`](../../motionwienerfilteroptions) class.
 
 ```csharp
-public MotionWienerFilterOptions(int length, double smooth, double angle)
+public MotionWienerFilterOptions(int size, double sigma, double angle)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| length | Int32 | The length. |
-| smooth | Double | The smooth. |
-| angle | Double | The angle in gradus. |
+| size | Int32 | The Gaussian kernel size. |
+| sigma | Double | The Gaussian kernel sigma. |
+| angle | Double | The angle in degrees. |
 
 ### See Also
 

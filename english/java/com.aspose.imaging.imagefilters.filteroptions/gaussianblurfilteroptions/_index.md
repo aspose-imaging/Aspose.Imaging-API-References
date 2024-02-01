@@ -1,32 +1,38 @@
 ---
 title: GaussianBlurFilterOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The Gaussian blur
+description: The Gaussian blur filter options.
 type: docs
 weight: 16
 url: /java/com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions)
+
+**All Implemented Interfaces:**
+com.aspose.internal.imagefilters.convolution.gaussianblur.IGaussianBlurOptions, com.aspose.internal.imagefilters.convolution.ISquareConvolutionKernel
 ```
-public class GaussianBlurFilterOptions extends ConvolutionFilterOptions
+public class GaussianBlurFilterOptions extends ConvolutionFilterOptions implements IGaussianBlurOptions, ISquareConvolutionKernel
 ```
 
-The Gaussian blur
+The Gaussian blur filter options.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GaussianBlurFilterOptions(int radius, double sigma)](#GaussianBlurFilterOptions-int-double-) | Initializes a new instance of the `GaussianBlurFilterOptions` class. |
-| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions--) | Initializes a new instance of the `GaussianBlurFilterOptions` class. |
+| [GaussianBlurFilterOptions(int size, double sigma)](#GaussianBlurFilterOptions-int-double-) | Initializes a new instance of the [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions) class. |
+| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions--) | Initializes a new instance of the [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRadius()](#getRadius--) | Gets or sets the radius. |
-| [setRadius(int value)](#setRadius-int-) | Gets or sets the radius. |
-| [getSigma()](#getSigma--) | Gets or sets the sigma. |
-| [setSigma(double value)](#setSigma-double-) | Gets or sets the sigma. |
+| [getKernel()](#getKernel--) | Gets the Gaussian kernel size. |
+| [getSize()](#getSize--) | Gets the Gaussian kernel size. |
+| [setSize(int value)](#setSize-int-) | The Gaussian kernel size. |
+| [getSigma()](#getSigma--) | Gets the Gaussian kernel sigma (smoothing). |
+| [setSigma(double value)](#setSigma-double-) | The Gaussian kernel sigma (smoothing). |
+| [getRadius()](#getRadius--) | Gets the radius of Gaussian ISquareConvolutionKernel. |
+| [setRadius(int value)](#setRadius-int-) | The radius of Gaussian ISquareConvolutionKernel. |
 
 ## Example: The following example applies various types of filters to a raster image.
 
@@ -100,19 +106,19 @@ try {
 }
 ```
 
-### GaussianBlurFilterOptions(int radius, double sigma) {#GaussianBlurFilterOptions-int-double-}
+### GaussianBlurFilterOptions(int size, double sigma) {#GaussianBlurFilterOptions-int-double-}
 ```
-public GaussianBlurFilterOptions(int radius, double sigma)
+public GaussianBlurFilterOptions(int size, double sigma)
 ```
 
 
-Initializes a new instance of the `GaussianBlurFilterOptions` class.
+Initializes a new instance of the [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| radius | int | The radius. |
-| sigma | double | The sigma. |
+| size | int | The Gaussian kernel size.. |
+| sigma | double | The Gaussian kernel sigma. |
 
 ### GaussianBlurFilterOptions() {#GaussianBlurFilterOptions--}
 ```
@@ -120,34 +126,40 @@ public GaussianBlurFilterOptions()
 ```
 
 
-Initializes a new instance of the `GaussianBlurFilterOptions` class. With default settings.
+Initializes a new instance of the [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions) class.
 
-### getRadius() {#getRadius--}
+### getKernel() {#getKernel--}
 ```
-public int getRadius()
+public double[][] getKernel()
 ```
 
 
-Gets or sets the radius.
-
-Value: The radius.
+Gets the Gaussian kernel size. Must be a positive non-zero odd value.
 
 **Returns:**
-int
-### setRadius(int value) {#setRadius-int-}
+double[][] - the Gaussian kernel size.
+### getSize() {#getSize--}
 ```
-public void setRadius(int value)
+public int getSize()
 ```
 
 
-Gets or sets the radius.
+Gets the Gaussian kernel size. Must be a positive non-zero odd value.
 
-Value: The radius.
+**Returns:**
+int - the Gaussian kernel size.
+### setSize(int value) {#setSize-int-}
+```
+public void setSize(int value)
+```
+
+
+The Gaussian kernel size. Must be a positive non-zero odd value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | the Gaussian kernel size. |
 
 ### getSigma() {#getSigma--}
 ```
@@ -155,24 +167,43 @@ public double getSigma()
 ```
 
 
-Gets or sets the sigma.
-
-Value: The sigma.
+Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value.
 
 **Returns:**
-double
+double - the Gaussian kernel sigma (smoothing).
 ### setSigma(double value) {#setSigma-double-}
 ```
 public void setSigma(double value)
 ```
 
 
-Gets or sets the sigma.
-
-Value: The sigma.
+The Gaussian kernel sigma (smoothing). Must be a positive non-zero value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | double | the Gaussian kernel sigma (smoothing). |
+
+### getRadius() {#getRadius--}
+```
+public final int getRadius()
+```
+
+
+Gets the radius of Gaussian ISquareConvolutionKernel.
+
+**Returns:**
+int - the radius of Gaussian ISquareConvolutionKernel.
+### setRadius(int value) {#setRadius-int-}
+```
+public final void setRadius(int value)
+```
+
+
+The radius of Gaussian ISquareConvolutionKernel.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the radius of Gaussian ISquareConvolutionKernel. |
 

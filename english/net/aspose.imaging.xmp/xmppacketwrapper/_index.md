@@ -3,7 +3,7 @@ title: XmpPacketWrapper
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 12120
+weight: 12160
 url: /net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 ## XmpPacketWrapper class

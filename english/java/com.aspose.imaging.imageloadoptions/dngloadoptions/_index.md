@@ -3,7 +3,7 @@ title: DngLoadOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The DNG load options
 type: docs
-weight: 11
+weight: 12
 url: /java/com.aspose.imaging.imageloadoptions/dngloadoptions/
 ---
 **Inheritance:**

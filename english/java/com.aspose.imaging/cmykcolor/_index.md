@@ -23,13 +23,7 @@ The CMYK color of pixel.
 | Method | Description |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | Gets the empty. |
-| [getC()](#getC--) | Gets the cyan component value of this `com.com.aspose.imaging.Color` structure. |
-| [getM()](#getM--) | Gets the magenta component value of this `com.com.aspose.imaging.Color` structure. |
-| [getY()](#getY--) | Gets the yellow component value of this `com.com.aspose.imaging.Color` structure. |
-| [getK()](#getK--) | Gets the black component value of this `com.com.aspose.imaging.Color` structure. |
-| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `com.com.aspose.imaging.Color` structure is uninitialized. |
 | [fromParams(int cyan, int magenta, int yellow, int black)](#fromParams-int-int-int-int-) | Creates a `CmykColor` structure from a 32-bit cyan, magenta, yellow and black values. |
-| [hashCode()](#hashCode--) | The get hash code. |
 | [toCmyk(int[] argbPixels)](#toCmyk-int---) | The conversion from 32-bit ARGB color to CMYKColor. |
 | [toColor(CmykColor[] cmykPixels)](#toColor-com.aspose.imaging.CmykColor---) | The conversion from CMYKColor to Color using icc conversion with default profiles. |
 | [toArgb32(CmykColor[] cmykPixels)](#toArgb32-com.aspose.imaging.CmykColor---) | The conversion from CMYKColor to 32-bit ARGB Color using icc conversion with default profiles. |
@@ -39,11 +33,17 @@ The CMYK color of pixel.
 | [toColorIcc(CmykColor cmykPixel)](#toColorIcc-com.aspose.imaging.CmykColor-) | The conversion from CMYKColor to Color using icc conversion with default profiles. |
 | [toColorIcc(CmykColor[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor---java.io.InputStream-java.io.InputStream-) | The conversion from CMYKColor to Color using icc conversion. |
 | [toColorIcc(CmykColor cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor-java.io.InputStream-java.io.InputStream-) | The conversion from CMYKColor to Color using icc conversion. |
+| [isEquals(CmykColor obj1, CmykColor obj2)](#isEquals-com.aspose.imaging.CmykColor-com.aspose.imaging.CmykColor-) |  |
+| [getC()](#getC--) | Gets the cyan component value of this `com.com.aspose.imaging.Color` structure. |
+| [getM()](#getM--) | Gets the magenta component value of this `com.com.aspose.imaging.Color` structure. |
+| [getY()](#getY--) | Gets the yellow component value of this `com.com.aspose.imaging.Color` structure. |
+| [getK()](#getK--) | Gets the black component value of this `com.com.aspose.imaging.Color` structure. |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `com.com.aspose.imaging.Color` structure is uninitialized. |
+| [hashCode()](#hashCode--) | The get hash code. |
 | [toValue()](#toValue--) | The to value. |
 | [CloneTo(CmykColor that)](#CloneTo-com.aspose.imaging.CmykColor-) |  |
 | [Clone()](#Clone--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [isEquals(CmykColor obj1, CmykColor obj2)](#isEquals-com.aspose.imaging.CmykColor-com.aspose.imaging.CmykColor-) |  |
 ### CmykColor() {#CmykColor--}
 ```
 public CmykColor()
@@ -60,58 +60,6 @@ Gets the empty.
 
 **Returns:**
 [CmykColor](../../com.aspose.imaging/cmykcolor)
-### getC() {#getC--}
-```
-public byte getC()
-```
-
-
-Gets the cyan component value of this `com.com.aspose.imaging.Color` structure.
-
-**Returns:**
-byte - The cyan component value of this `com.com.aspose.imaging.Color`.
-### getM() {#getM--}
-```
-public byte getM()
-```
-
-
-Gets the magenta component value of this `com.com.aspose.imaging.Color` structure.
-
-**Returns:**
-byte - The magenta component value of this `com.com.aspose.imaging.Color`.
-### getY() {#getY--}
-```
-public byte getY()
-```
-
-
-Gets the yellow component value of this `com.com.aspose.imaging.Color` structure.
-
-**Returns:**
-byte - The yellow component value of this `com.com.aspose.imaging.Color`.
-### getK() {#getK--}
-```
-public byte getK()
-```
-
-
-Gets the black component value of this `com.com.aspose.imaging.Color` structure.
-
-Value: The black component value of this `com.com.aspose.imaging.Color`.
-
-**Returns:**
-byte
-### isEmpty() {#isEmpty--}
-```
-public boolean isEmpty()
-```
-
-
-Gets a value indicating whether this `com.com.aspose.imaging.Color` structure is uninitialized.
-
-**Returns:**
-boolean - This property returns true if this color is uninitialized; otherwise, false.
 ### fromParams(int cyan, int magenta, int yellow, int black) {#fromParams-int-int-int-int-}
 ```
 public static CmykColor fromParams(int cyan, int magenta, int yellow, int black)
@@ -130,16 +78,6 @@ Creates a `CmykColor` structure from a 32-bit cyan, magenta, yellow and black va
 
 **Returns:**
 [CmykColor](../../com.aspose.imaging/cmykcolor) - The `CmykColor`.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-The get hash code.
-
-**Returns:**
-int - The `int`.
 ### toCmyk(int[] argbPixels) {#toCmyk-int---}
 ```
 public static CmykColor[] toCmyk(int[] argbPixels)
@@ -279,6 +217,84 @@ The conversion from CMYKColor to Color using icc conversion. This method is depr
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The `Color`.
+### isEquals(CmykColor obj1, CmykColor obj2) {#isEquals-com.aspose.imaging.CmykColor-com.aspose.imaging.CmykColor-}
+```
+public static boolean isEquals(CmykColor obj1, CmykColor obj2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [CmykColor](../../com.aspose.imaging/cmykcolor) |  |
+| obj2 | [CmykColor](../../com.aspose.imaging/cmykcolor) |  |
+
+**Returns:**
+boolean
+### getC() {#getC--}
+```
+public byte getC()
+```
+
+
+Gets the cyan component value of this `com.com.aspose.imaging.Color` structure.
+
+**Returns:**
+byte - The cyan component value of this `com.com.aspose.imaging.Color`.
+### getM() {#getM--}
+```
+public byte getM()
+```
+
+
+Gets the magenta component value of this `com.com.aspose.imaging.Color` structure.
+
+**Returns:**
+byte - The magenta component value of this `com.com.aspose.imaging.Color`.
+### getY() {#getY--}
+```
+public byte getY()
+```
+
+
+Gets the yellow component value of this `com.com.aspose.imaging.Color` structure.
+
+**Returns:**
+byte - The yellow component value of this `com.com.aspose.imaging.Color`.
+### getK() {#getK--}
+```
+public byte getK()
+```
+
+
+Gets the black component value of this `com.com.aspose.imaging.Color` structure.
+
+Value: The black component value of this `com.com.aspose.imaging.Color`.
+
+**Returns:**
+byte
+### isEmpty() {#isEmpty--}
+```
+public boolean isEmpty()
+```
+
+
+Gets a value indicating whether this `com.com.aspose.imaging.Color` structure is uninitialized.
+
+**Returns:**
+boolean - This property returns true if this color is uninitialized; otherwise, false.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+The get hash code.
+
+**Returns:**
+int - The `int`.
 ### toValue() {#toValue--}
 ```
 public long toValue()
@@ -324,22 +340,6 @@ public boolean equals(Object obj)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
-
-**Returns:**
-boolean
-### isEquals(CmykColor obj1, CmykColor obj2) {#isEquals-com.aspose.imaging.CmykColor-com.aspose.imaging.CmykColor-}
-```
-public static boolean isEquals(CmykColor obj1, CmykColor obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [CmykColor](../../com.aspose.imaging/cmykcolor) |  |
-| obj2 | [CmykColor](../../com.aspose.imaging/cmykcolor) |  |
 
 **Returns:**
 boolean

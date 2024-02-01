@@ -3,7 +3,7 @@ title: MultiPageMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10160
+weight: 10200
 url: /net/aspose.imaging.imageoptions/multipagemode/
 ---
 ## MultiPageMode enumeration

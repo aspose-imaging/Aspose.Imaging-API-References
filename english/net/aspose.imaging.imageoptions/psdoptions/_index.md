@@ -3,7 +3,7 @@ title: PsdOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10250
+weight: 10290
 url: /net/aspose.imaging.imageoptions/psdoptions/
 ---
 ## PsdOptions class

@@ -87,6 +87,8 @@ is_root: true
 | [com.aspose.imaging.fileformats.wmf.objects](./com.aspose.imaging.fileformats.wmf.objects) | The package contains types [MS-WMF]: Windows Metafile Format 2.2 WMF Objects |
 | [com.aspose.imaging.fileformats.wmf.objects.escaperecords](./com.aspose.imaging.fileformats.wmf.objects.escaperecords) | The package contains escape types [MS-WMF]: Windows |
 | [com.aspose.imaging.flatarray.exceptions](./com.aspose.imaging.flatarray.exceptions) |  |
+| [com.aspose.imaging.imagefilters.complexutils](./com.aspose.imaging.imagefilters.complexutils) |  |
+| [com.aspose.imaging.imagefilters.convolution](./com.aspose.imaging.imagefilters.convolution) |  |
 | [com.aspose.imaging.imagefilters.filteroptions](./com.aspose.imaging.imagefilters.filteroptions) | The package handles filter options. |
 | [com.aspose.imaging.imageloadoptions](./com.aspose.imaging.imageloadoptions) | The package contains different file format load options. |
 | [com.aspose.imaging.imageoptions](./com.aspose.imaging.imageoptions) | The package contains classes suitable for export, save or creation of different file formats. |

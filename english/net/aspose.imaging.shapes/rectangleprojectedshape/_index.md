@@ -3,7 +3,7 @@ title: RectangleProjectedShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11290
+weight: 11330
 url: /net/aspose.imaging.shapes/rectangleprojectedshape/
 ---
 ## RectangleProjectedShape class

@@ -3,7 +3,7 @@ title: Pen
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10960
+weight: 11000
 url: /net/aspose.imaging/pen/
 ---
 ## Pen class

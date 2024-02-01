@@ -1,33 +1,30 @@
 ---
 title: MotionWienerFilterOptions
 second_title: Aspose.Imaging for Java API Reference
-description: Deconvolution filter options     deblur motion
+description: The motion de-blurring filter options.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions)
+java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase), [com.aspose.imaging.imagefilters.filteroptions.DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions), [com.aspose.imaging.imagefilters.filteroptions.GaussianDeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions)
 ```
-public class MotionWienerFilterOptions extends DeconvolutionFilterOptions
+public class MotionWienerFilterOptions extends GaussianDeconvolutionFilterOptions
 ```
 
-Deconvolution filter options deblur motion
+The motion de-blurring filter options.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MotionWienerFilterOptions(int length, double smooth, double angle)](#MotionWienerFilterOptions-int-double-double-) | Initializes a new instance of the `MotionWienerFilterOptions` class. |
+| [MotionWienerFilterOptions(int size, double sigma, double angle)](#MotionWienerFilterOptions-int-double-double-) | Initializes a new instance of the [MotionWienerFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLength()](#getLength--) | Gets or sets the length. |
-| [setLength(int value)](#setLength-int-) | Gets or sets the length. |
-| [getSmooth()](#getSmooth--) | Gets or sets the smooth. |
-| [setSmooth(double value)](#setSmooth-double-) | Gets or sets the smooth. |
-| [getAngle()](#getAngle--) | Gets or sets the angle in gradus. |
-| [setAngle(double value)](#setAngle-double-) | Gets or sets the angle in gradus. |
+| [getAngle()](#getAngle--) | Gets the angle in degrees. |
+| [setAngle(double value)](#setAngle-double-) | Sets the angle in degrees. |
+| [getKernel()](#getKernel--) | Gets the kernel. |
 
 ## Example: The following example applies various types of filters to a raster image.
 
@@ -101,99 +98,55 @@ try {
 }
 ```
 
-### MotionWienerFilterOptions(int length, double smooth, double angle) {#MotionWienerFilterOptions-int-double-double-}
+### MotionWienerFilterOptions(int size, double sigma, double angle) {#MotionWienerFilterOptions-int-double-double-}
 ```
-public MotionWienerFilterOptions(int length, double smooth, double angle)
+public MotionWienerFilterOptions(int size, double sigma, double angle)
 ```
 
 
-Initializes a new instance of the `MotionWienerFilterOptions` class.
+Initializes a new instance of the [MotionWienerFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| length | int | The length. |
-| smooth | double | The smooth. |
-| angle | double | The angle in gradus. |
-
-### getLength() {#getLength--}
-```
-public int getLength()
-```
-
-
-Gets or sets the length.
-
-Value: The length.
-
-**Returns:**
-int
-### setLength(int value) {#setLength-int-}
-```
-public void setLength(int value)
-```
-
-
-Gets or sets the length.
-
-Value: The length.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getSmooth() {#getSmooth--}
-```
-public double getSmooth()
-```
-
-
-Gets or sets the smooth.
-
-Value: The smooth.
-
-**Returns:**
-double
-### setSmooth(double value) {#setSmooth-double-}
-```
-public void setSmooth(double value)
-```
-
-
-Gets or sets the smooth.
-
-Value: The smooth.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
+| size | int | The Gaussian kernel size. |
+| sigma | double | The Gaussian kernel sigma. |
+| angle | double | The angle in degrees. |
 
 ### getAngle() {#getAngle--}
 ```
-public double getAngle()
+public final double getAngle()
 ```
 
 
-Gets or sets the angle in gradus.
+Gets the angle in degrees.
 
 Value: The angle.
 
 **Returns:**
-double
+double - the angle in degrees.
 ### setAngle(double value) {#setAngle-double-}
 ```
-public void setAngle(double value)
+public final void setAngle(double value)
 ```
 
 
-Gets or sets the angle in gradus.
+Sets the angle in degrees.
 
 Value: The angle.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | double | the angle in degrees. |
 
+### getKernel() {#getKernel--}
+```
+public Complex[][] getKernel()
+```
+
+
+Gets the kernel.
+
+**Returns:**
+com.aspose.imaging.imagefilters.complexutils.Complex[][] - the kernel.

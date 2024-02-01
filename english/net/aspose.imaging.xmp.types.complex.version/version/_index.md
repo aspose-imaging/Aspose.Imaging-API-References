@@ -3,7 +3,7 @@ title: Version
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11940
+weight: 11980
 url: /net/aspose.imaging.xmp.types.complex.version/version/
 ---
 ## Version class
