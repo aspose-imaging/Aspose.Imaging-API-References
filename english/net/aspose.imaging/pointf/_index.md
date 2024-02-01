@@ -3,7 +3,7 @@ title: PointF
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11020
+weight: 11060
 url: /net/aspose.imaging/pointf/
 ---
 ## PointF structure

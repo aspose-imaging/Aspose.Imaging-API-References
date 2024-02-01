@@ -3,7 +3,7 @@ title: RectangleF
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11110
+weight: 11150
 url: /net/aspose.imaging/rectanglef/
 ---
 ## RectangleF structure

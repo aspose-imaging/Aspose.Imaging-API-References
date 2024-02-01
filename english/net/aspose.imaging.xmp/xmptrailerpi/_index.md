@@ -3,7 +3,7 @@ title: XmpTrailerPi
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 12140
+weight: 12180
 url: /net/aspose.imaging.xmp/xmptrailerpi/
 ---
 ## XmpTrailerPi class

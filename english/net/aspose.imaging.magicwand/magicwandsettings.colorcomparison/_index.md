@@ -3,7 +3,7 @@ title: MagicWandSettings.ColorComparison
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10640
+weight: 10680
 url: /net/aspose.imaging.magicwand/magicwandsettings.colorcomparison/
 ---
 ## MagicWandSettings.ColorComparison delegate

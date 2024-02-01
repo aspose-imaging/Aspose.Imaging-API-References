@@ -3,7 +3,7 @@ title: BezierSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11210
+weight: 11250
 url: /net/aspose.imaging.shapesegments/beziersegment/
 ---
 ## BezierSegment class

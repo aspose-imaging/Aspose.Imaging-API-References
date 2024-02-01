@@ -3,20 +3,16 @@ title: Size
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size/
 ---
 ## SharpenFilterOptions.Size property
 
-Gets or sets the size.
+Gets the Gaussian kernel size. Must be a positive non-zero odd value.
 
 ```csharp
-public int Size { get; set; }
+public override int Size { get; set; }
 ```
-
-### Property Value
-
-The size.
 
 ### See Also
 

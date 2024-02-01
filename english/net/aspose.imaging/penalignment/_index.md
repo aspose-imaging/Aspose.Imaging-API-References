@@ -3,7 +3,7 @@ title: PenAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10970
+weight: 11010
 url: /net/aspose.imaging/penalignment/
 ---
 ## PenAlignment enumeration

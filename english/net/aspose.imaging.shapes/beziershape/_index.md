@@ -3,7 +3,7 @@ title: BezierShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11240
+weight: 11280
 url: /net/aspose.imaging.shapes/beziershape/
 ---
 ## BezierShape class

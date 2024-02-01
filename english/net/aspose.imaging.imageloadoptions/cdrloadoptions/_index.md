@@ -3,7 +3,7 @@ title: CdrLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9910
+weight: 9940
 url: /net/aspose.imaging.imageloadoptions/cdrloadoptions/
 ---
 ## CdrLoadOptions class
@@ -28,6 +28,7 @@ public class CdrLoadOptions : LoadOptions
 | [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Gets or sets the [`Image`](../../aspose.imaging/image) background [`Color`](../../aspose.imaging/color). |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Gets or sets the data recovery mode. |
 | [DefaultFont](../../aspose.imaging.imageloadoptions/cdrloadoptions/defaultfont) { get; set; } | Gets or sets the default font. |
+| [OptimalMemoryUsage](../../aspose.imaging.imageloadoptions/cdrloadoptions/optimalmemoryusage) { get; set; } | Gets or sets a value indicating whether [optimal memory usage]. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
 
 ## Methods

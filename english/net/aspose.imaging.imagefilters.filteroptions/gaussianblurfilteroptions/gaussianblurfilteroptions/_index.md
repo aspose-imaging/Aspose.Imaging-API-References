@@ -11,13 +11,13 @@ url: /net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/ga
 Initializes a new instance of the [`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions) class.
 
 ```csharp
-public GaussianBlurFilterOptions(int radius, double sigma)
+public GaussianBlurFilterOptions(int size, double sigma)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| radius | Int32 | The radius. |
-| sigma | Double | The sigma. |
+| size | Int32 | The Gaussian kernel size.. |
+| sigma | Double | The Gaussian kernel sigma. |
 
 ### See Also
 
@@ -29,7 +29,7 @@ public GaussianBlurFilterOptions(int radius, double sigma)
 
 ## GaussianBlurFilterOptions constructor (2 of 2)
 
-Initializes a new instance of the [`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions) class. With default settings.
+Initializes a new instance of the [`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions) class.
 
 ```csharp
 public GaussianBlurFilterOptions()

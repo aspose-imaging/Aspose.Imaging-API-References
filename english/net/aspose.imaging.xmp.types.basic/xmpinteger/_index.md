@@ -3,7 +3,7 @@ title: XmpInteger
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11790
+weight: 11830
 url: /net/aspose.imaging.xmp.types.basic/xmpinteger/
 ---
 ## XmpInteger class

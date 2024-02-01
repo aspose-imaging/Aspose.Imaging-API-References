@@ -20,7 +20,7 @@ public int[] GetArrayOneItemFromIndex(int index)
 
 ### Return Value
 
-The array of Int32
+The array of String
 
 ### Exceptions
 

@@ -3,7 +3,7 @@ title: DeconvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9830
+weight: 9850
 url: /net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/
 ---
 ## DeconvolutionFilterOptions class
@@ -11,8 +11,15 @@ url: /net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/
 Deconvolution Filter Options, abstract class
 
 ```csharp
-public abstract class DeconvolutionFilterOptions : FilterOptionsBase
+public class DeconvolutionFilterOptions : FilterOptionsBase
 ```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [DeconvolutionFilterOptions](deconvolutionfilteroptions)(Complex[]) |  |
+| [DeconvolutionFilterOptions](deconvolutionfilteroptions)(double[]) |  |
 
 ## Properties
 
@@ -21,6 +28,7 @@ public abstract class DeconvolutionFilterOptions : FilterOptionsBase
 | [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | Gets or sets the brightness. recommended range 1 - 1.5 default value = 1.15 |
 | [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | Gets or sets a value indicating whether this [`DeconvolutionFilterOptions`](../deconvolutionfilteroptions) is grayscale. Return grayscale mode or RGB mode. |
 | [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | Gets a value indicating whether this instance is partial loaded. |
+| virtual [Kernel](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/kernel) { get; } | Gets the kernel. |
 | [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, default value = 0.007 |
 
 ### See Also

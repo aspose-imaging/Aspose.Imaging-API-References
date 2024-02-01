@@ -3,7 +3,7 @@ title: FileCreateSource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11360
+weight: 11400
 url: /net/aspose.imaging.sources/filecreatesource/
 ---
 ## FileCreateSource class

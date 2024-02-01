@@ -3,7 +3,7 @@ title: EmptyImageMask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10550
+weight: 10590
 url: /net/aspose.imaging.magicwand.imagemasks/emptyimagemask/
 ---
 ## EmptyImageMask class

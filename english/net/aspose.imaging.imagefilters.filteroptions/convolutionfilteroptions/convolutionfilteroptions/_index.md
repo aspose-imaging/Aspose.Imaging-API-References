@@ -8,10 +8,8 @@ url: /net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/con
 ---
 ## ConvolutionFilterOptions constructor
 
-Initializes a new instance of the [`ConvolutionFilterOptions`](../../convolutionfilteroptions) class.
-
 ```csharp
-public ConvolutionFilterOptions()
+public ConvolutionFilterOptions(double[] kernel, double factor = 1m, int bias = 0)
 ```
 
 ### See Also

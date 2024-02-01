@@ -3,7 +3,7 @@ title: ColorComparisonMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10510
+weight: 10550
 url: /net/aspose.imaging.magicwand/colorcomparisonmode/
 ---
 ## ColorComparisonMode enumeration

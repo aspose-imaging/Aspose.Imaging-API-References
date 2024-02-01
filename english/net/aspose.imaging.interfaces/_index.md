@@ -3,7 +3,7 @@ title: Aspose.Imaging.Interfaces
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Tiff file format processing.
 type: docs
-weight: 800
+weight: 820
 url: /net/aspose.imaging.interfaces/
 ---
 The namespace handles Tiff file format processing.

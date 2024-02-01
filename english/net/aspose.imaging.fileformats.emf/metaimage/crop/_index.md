@@ -8,27 +8,6 @@ url: /net/aspose.imaging.fileformats.emf/metaimage/crop/
 ---
 ## MetaImage.Crop method (1 of 2)
 
-Crops the specified rectangle.
-
-```csharp
-public virtual void Crop(Rectangle rectangle)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rectangle | Rectangle | The rectangle. |
-
-### See Also
-
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [MetaImage](../../metaimage)
-* namespace [Aspose.Imaging.FileFormats.Emf](../../metaimage)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## MetaImage.Crop method (2 of 2)
-
 Crop image with shifts.
 
 ```csharp
@@ -44,6 +23,27 @@ public virtual void Crop(int leftShift, int rightShift, int topShift, int bottom
 
 ### See Also
 
+* class [MetaImage](../../metaimage)
+* namespace [Aspose.Imaging.FileFormats.Emf](../../metaimage)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## MetaImage.Crop method (2 of 2)
+
+Crops the specified rectangle.
+
+```csharp
+public virtual void Crop(Rectangle rectangle)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | Rectangle | The rectangle. |
+
+### See Also
+
+* struct [Rectangle](../../../aspose.imaging/rectangle)
 * class [MetaImage](../../metaimage)
 * namespace [Aspose.Imaging.FileFormats.Emf](../../metaimage)
 * assembly [Aspose.Imaging](../../../)

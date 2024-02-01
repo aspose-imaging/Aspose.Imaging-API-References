@@ -3,7 +3,7 @@ title: RasterImageExtension
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10660
+weight: 10700
 url: /net/aspose.imaging.magicwand/rasterimageextension/
 ---
 ## RasterImageExtension class

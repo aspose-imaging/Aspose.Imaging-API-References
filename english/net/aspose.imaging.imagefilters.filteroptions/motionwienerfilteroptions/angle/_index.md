@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/an
 ---
 ## MotionWienerFilterOptions.Angle property
 
-Gets or sets the angle in gradus.
+Gets or sets the angle in degrees.
 
 ```csharp
 public double Angle { get; set; }

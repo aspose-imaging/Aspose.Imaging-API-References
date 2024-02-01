@@ -3,12 +3,12 @@ title: GaussianBlurFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9860
+weight: 9880
 url: /net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/
 ---
 ## GaussianBlurFilterOptions class
 
-The Gaussian blur
+The Gaussian blur filter options.
 
 ```csharp
 public class GaussianBlurFilterOptions : ConvolutionFilterOptions
@@ -18,7 +18,7 @@ public class GaussianBlurFilterOptions : ConvolutionFilterOptions
 
 | Name | Description |
 | --- | --- |
-| [GaussianBlurFilterOptions](gaussianblurfilteroptions)() | Initializes a new instance of the [`GaussianBlurFilterOptions`](../gaussianblurfilteroptions) class. With default settings. |
+| [GaussianBlurFilterOptions](gaussianblurfilteroptions)() | Initializes a new instance of the [`GaussianBlurFilterOptions`](../gaussianblurfilteroptions) class. |
 | [GaussianBlurFilterOptions](gaussianblurfilteroptions)(int, double) | Initializes a new instance of the [`GaussianBlurFilterOptions`](../gaussianblurfilteroptions) class. |
 
 ## Properties
@@ -27,8 +27,10 @@ public class GaussianBlurFilterOptions : ConvolutionFilterOptions
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
 | [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
-| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius) { get; set; } | Gets or sets the radius. |
-| [Sigma](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/sigma) { get; set; } | Gets or sets the sigma. |
+| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/kernel) { get; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
+| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius) { get; set; } | Gets the radius of Gausseian ISquareConvolutionKernel. |
+| virtual [Sigma](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/sigma) { get; set; } | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| virtual [Size](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/size) { get; set; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 
 ### Examples
 

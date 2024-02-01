@@ -3,7 +3,7 @@ title: LineJoin
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10490
+weight: 10530
 url: /net/aspose.imaging/linejoin/
 ---
 ## LineJoin enumeration

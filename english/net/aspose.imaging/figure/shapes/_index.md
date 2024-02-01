@@ -8,7 +8,7 @@ url: /net/aspose.imaging/figure/shapes/
 ---
 ## Figure.Shapes property
 
-Gets or sets the figure shapes.
+Gets the shapes.
 
 ```csharp
 public Shape[] Shapes { get; }
@@ -16,7 +16,7 @@ public Shape[] Shapes { get; }
 
 ### Property Value
 
-The figure shapes.
+The shapes.
 
 ### See Also
 

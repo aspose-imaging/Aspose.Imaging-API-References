@@ -3,7 +3,7 @@ title: FeatheringSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10570
+weight: 10610
 url: /net/aspose.imaging.magicwand.imagemasks/featheringsettings/
 ---
 ## FeatheringSettings class
