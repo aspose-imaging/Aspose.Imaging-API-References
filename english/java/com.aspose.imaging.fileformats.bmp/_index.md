@@ -19,5 +19,5 @@ The package handles Bmp file format processing.
 | [BitmapInfoHeader](../com.aspose.imaging.fileformats.bmp/bitmapinfoheader) | Specifies BITMAPINFOHEADER. |
 | [BitmapV4Header](../com.aspose.imaging.fileformats.bmp/bitmapv4header) | The BitmapV4Header structure is the bitmap information header file. |
 | [BitmapV5Header](../com.aspose.imaging.fileformats.bmp/bitmapv5header) | The BitmapV5Header structure is the bitmap information header file. |
-| [BmpImage](../com.aspose.imaging.fileformats.bmp/bmpimage) | A bmp image (supports BMP, DIB formats). |
+| [BmpImage](../com.aspose.imaging.fileformats.bmp/bmpimage) | You can effortlessly handle Bitmap (BMP) and Device Independent Bitmap (DIB) files, facilitating efficient manipulation and processing of raster images. |
 | [Os22XBitmapHeader](../com.aspose.imaging.fileformats.bmp/os22xbitmapheader) | An OS/2 2.x OS22XBITMAPHEADER aka BITMAPCOREHEADER2. |

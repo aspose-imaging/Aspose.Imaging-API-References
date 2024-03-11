@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/binarizeotsu/
 ---
 ## ApngImage.BinarizeOtsu method
 
-Binarization of an image with Otsu thresholding
+Perform binarization on the image using Otsu thresholding with this intuitive method. Ideal for developers seeking to automatically determine the optimal threshold for converting images into binary form, enhancing their clarity and suitability for further analysis.
 
 ```csharp
 public override void BinarizeOtsu()

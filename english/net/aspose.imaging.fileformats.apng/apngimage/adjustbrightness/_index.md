@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/adjustbrightness/
 ---
 ## ApngImage.AdjustBrightness method
 
-Adjust of a *brightness* for image.
+Easily adjust the *brightness* of the image with this intuitive method, using the specified brightness parameter. Ideal for developers seeking to enhance or dim the overall brightness of images dynamically.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

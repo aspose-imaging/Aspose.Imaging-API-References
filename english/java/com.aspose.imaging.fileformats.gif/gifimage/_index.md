@@ -1,7 +1,7 @@
 ---
 title: GifImage
 second_title: Aspose.Imaging for Java API Reference
-description: A gif image.
+description: The API for Graphical Interchange Format GIF image file provides developers with versatile tools for processing compressed raster images and animated GIFs.
 type: docs
 weight: 13
 url: /java/com.aspose.imaging.fileformats.gif/gifimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class GifImage extends RasterCachedMultipageImage implements IMultipageImageExt, IInterlaced
 ```
 
-A gif image.
+The API for Graphical Interchange Format (GIF) image file provides developers with versatile tools for processing compressed raster images and animated GIFs. Offering features like XMP metadata handling, color palette settings, background and transparent color control, opacity settings, resize, crop, filter application, gamma corrections, contrast adjustment, grayscale transformation, and conversion to other formats. This API empowers seamless manipulation and enhancement of GIF images for a wide range of applications.
 ## Constructors
 
 | Constructor | Description |
@@ -53,8 +53,8 @@ A gif image.
 | [getPixelAspectRatio()](#getPixelAspectRatio--) | Gets the pixel aspect ratio. |
 | [setPixelAspectRatio(byte value)](#setPixelAspectRatio-byte-) | Sets the pixel aspect ratio. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether active frame has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | A value indicating whether active frame has transparent color. |
 | [getTransparentColor()](#getTransparentColor--) | Gets active frame transparent color. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | A value indicating whether active frame has transparent color. |
 | [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether image has background color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image (active frame). |
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
@@ -608,6 +608,16 @@ Gets a value indicating whether active frame has transparent color.
 
 **Returns:**
 boolean - a value indicating whether active frame has transparent color.
+### getTransparentColor() {#getTransparentColor--}
+```
+public Color getTransparentColor()
+```
+
+
+Gets active frame transparent color.
+
+**Returns:**
+[Color](../../com.aspose.imaging/color) - active frame transparent color.
 ### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
 ```
 public void setTransparentColor(boolean value)
@@ -621,16 +631,6 @@ A value indicating whether active frame has transparent color.
 | --- | --- | --- |
 | value | boolean | a value indicating whether active frame has transparent color. |
 
-### getTransparentColor() {#getTransparentColor--}
-```
-public Color getTransparentColor()
-```
-
-
-Gets active frame transparent color.
-
-**Returns:**
-[Color](../../com.aspose.imaging/color) - active frame transparent color.
 ### hasBackgroundColor() {#hasBackgroundColor--}
 ```
 public boolean hasBackgroundColor()

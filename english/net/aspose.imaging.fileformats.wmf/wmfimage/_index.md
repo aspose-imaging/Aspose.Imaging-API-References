@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/
 ---
 ## WmfImage class
 
-The Wmf Image
+Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly handling both vector and bitmap data stored within variable-length records. Resize, rotate, and flip images with ease while setting custom image palettes. Convert WMF files to compressed WMZ formats or save them in raster image formats for versatile usage across platforms and applications.
 
 ```csharp
 public class WmfImage : MetaImage

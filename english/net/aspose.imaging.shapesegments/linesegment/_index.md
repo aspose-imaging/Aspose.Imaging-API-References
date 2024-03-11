@@ -3,7 +3,7 @@ title: LineSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11260
+weight: 11270
 url: /net/aspose.imaging.shapesegments/linesegment/
 ---
 ## LineSegment class

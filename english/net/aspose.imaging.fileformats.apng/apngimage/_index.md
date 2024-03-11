@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/
 ---
 ## ApngImage class
 
-The animated PNG image.
+The API for Animated PNG (Animated Portable Network Graphics) image file format is a versatile solution for developers looking to integrate animated content into their applications. This API offers extensive control over frame settings, allowing users to define frame-specific parameters, including loop duration and PNG file settings. With this feature-rich tool, you can effortlessly manage and optimize the display of APNG images, import and export images, enhancing the dynamic and interactive aspects of your applications.
 
 ```csharp
 public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
@@ -18,7 +18,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 
 | Name | Description |
 | --- | --- |
-| [ApngImage](apngimage)(ApngOptions, int, int) | Initializes a new instance of the [`ApngImage`](../apngimage) class. |
+| [ApngImage](apngimage)(ApngOptions, int, int) | Begin working with the [`ApngImage`](../apngimage) class by initializing a new instance effortlessly. Perfect for developers seeking to start using ApngImage objects quickly and efficiently in their projects. |
 
 ## Properties
 
@@ -31,23 +31,23 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
-| [DefaultFrameTime](../../aspose.imaging.fileformats.apng/apngimage/defaultframetime) { get; set; } | Gets or sets the default frame duration. Used when creating new frames. |
+| [DefaultFrameTime](../../aspose.imaging.fileformats.apng/apngimage/defaultframetime) { get; set; } | Easily adjust the default frame duration for creating new frames with this flexible property. Perfect for developers seeking to customize frame timing efficiently in their animations. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| override [FileFormat](../../aspose.imaging.fileformats.apng/apngimage/fileformat) { get; } | Gets a value of file format |
+| override [FileFormat](../../aspose.imaging.fileformats.apng/apngimage/fileformat) { get; } | Quickly access information about the file format with this convenient property. Ideal for developers who need to retrieve details about the format of their Apng files easily. |
 | override [HasAlpha](../../aspose.imaging/rastercachedmultipageimage/hasalpha) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor) { get; } | Gets a value indicating whether image has transparent color. |
 | override [Height](../../aspose.imaging/rastercachedmultipageimage/height) { get; } | Gets the image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
 | override [ImageOpacity](../../aspose.imaging/rastercachedmultipageimage/imageopacity) { get; } | Gets opacity of this image. |
-| [Interlaced](../../aspose.imaging.fileformats.apng/apngimage/interlaced) { get; } | Gets a value indicating whether this [`PngImage`](../../aspose.imaging.fileformats.png/pngimage) is interlaced. |
+| [Interlaced](../../aspose.imaging.fileformats.apng/apngimage/interlaced) { get; } | Quickly determine whether this [`PngImage`](../../aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. Ideal for developers needing to check the interlacing status of PNG images easily. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedmultipageimage/iscached) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable) { get; } | Gets a value indicating whether raw data loading is available. |
-| [NumPlays](../../aspose.imaging.fileformats.apng/apngimage/numplays) { get; set; } | Gets or sets the number of times to loop animation. 0 indicates infinite looping. |
-| override [PageCount](../../aspose.imaging.fileformats.apng/apngimage/pagecount) { get; } | Gets the page count. |
-| override [PageExportingAction](../../aspose.imaging.fileformats.apng/apngimage/pageexportingaction) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
-| override [Pages](../../aspose.imaging.fileformats.apng/apngimage/pages) { get; } | Gets the pages. |
+| [NumPlays](../../aspose.imaging.fileformats.apng/apngimage/numplays) { get; set; } | Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0. |
+| override [PageCount](../../aspose.imaging.fileformats.apng/apngimage/pagecount) { get; } | Retrieve the total number of pages in your image file effortlessly with this property. Ideal for developers needing quick access to page count information. |
+| override [PageExportingAction](../../aspose.imaging.fileformats.apng/apngimage/pageexportingaction) { get; set; } | Effortlessly manage the page exporting action with this versatile property. Perfect for developers seeking precise control over the exporting behavior of pages in their application. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
+| override [Pages](../../aspose.imaging.fileformats.apng/apngimage/pages) { get; } | Effortlessly access the pages of your image with this convenient property. Perfect for developers seeking quick and easy access to individual pages for manipulation. |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter) { get; set; } | Gets or sets the custom color converter |
@@ -63,46 +63,46 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
 | override [Width](../../aspose.imaging/rastercachedmultipageimage/width) { get; } | Gets the image width. |
-| override [XmpData](../../aspose.imaging.fileformats.apng/apngimage/xmpdata) { get; set; } | Gets or sets the XMP metadata. |
+| override [XmpData](../../aspose.imaging.fileformats.apng/apngimage/xmpdata) { get; set; } | Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddFrame](../../aspose.imaging.fileformats.apng/apngimage/addframe)() | Adds new frame to the end of the own frame collection. A new frame will be created according to the size of the current image. |
-| [AddFrame](../../aspose.imaging.fileformats.apng/apngimage/addframe)(RasterImage) | Adds new frame to the end of the own frame collection. The contents of the new frame will be filled from the specified image. |
-| [AddFrame](../../aspose.imaging.fileformats.apng/apngimage/addframe)(RasterImage, uint) | Adds new frame to the end of the own frame collection. The contents of the new frame will be filled from the specified image. |
-| [AddPage](../../aspose.imaging.fileformats.apng/apngimage/addpage)(RasterImage) | Adds page to the image. |
-| override [AdjustBrightness](../../aspose.imaging.fileformats.apng/apngimage/adjustbrightness)(int) | Adjust of a *brightness* for image. |
-| override [AdjustContrast](../../aspose.imaging.fileformats.apng/apngimage/adjustcontrast)(float) | [`Image`](../../aspose.imaging/image) contrasting |
-| override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma)(float) | Gamma-correction of an image. |
-| override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma)(float, float, float) | Gamma-correction of an image. |
+| [AddFrame](../../aspose.imaging.fileformats.apng/apngimage/addframe)() | Easily append a new frame to the end of your frame collection with this straightforward method. Ideal for developers looking to expand their frame collection dynamically for animations with multi-frame images. A new frame will be created according to the size of the current image. |
+| [AddFrame](../../aspose.imaging.fileformats.apng/apngimage/addframe)(RasterImage) | Effortlessly expand your frame collection by adding a new frame to the end with this intuitive method. Perfect for developers seeking to enhance their animations of multi-frame images dynamically. The contents of the new frame will be filled from the specified image. |
+| [AddFrame](../../aspose.imaging.fileformats.apng/apngimage/addframe)(RasterImage, uint) | Expand your frame collection seamlessly by appending a new frame to the with this intuitive method. Ideal for developers looking to enrich their animations of multi-frame images. The contents of the new frame will be filled from the specified image. |
+| [AddPage](../../aspose.imaging.fileformats.apng/apngimage/addpage)(RasterImage) | Add a new page to the image effortlessly with this intuitive method. Perfect for developers seeking to expand the content of their image files dynamically. |
+| override [AdjustBrightness](../../aspose.imaging.fileformats.apng/apngimage/adjustbrightness)(int) | Easily adjust the *brightness* of the image with this intuitive method, using the specified brightness parameter. Ideal for developers seeking to enhance or dim the overall brightness of images dynamically. |
+| override [AdjustContrast](../../aspose.imaging.fileformats.apng/apngimage/adjustcontrast)(float) | Enhance the contrast of the [`Image`](../../aspose.imaging/image) to make details stand out with this intuitive method. Ideal for developers seeking to improve the visual clarity and impact of their images dynamically. |
+| override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma)(float) | Apply gamma correction to the image using a floating-point coefficient with this intuitive method. Ideal for developers seeking precise color control in their images. |
+| override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma)(float, float, float) | Perform gamma correction on the image separately for the red, green, and blue channels using individual coefficients with this intuitive method. Ideal for developers seeking to fine-tune color balance and enhance the visual quality of their images. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.apng/apngimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| override [BinarizeFixed](../../aspose.imaging.fileformats.apng/apngimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
-| override [BinarizeOtsu](../../aspose.imaging.fileformats.apng/apngimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
+| override [BinarizeFixed](../../aspose.imaging.fileformats.apng/apngimage/binarizefixed)(byte) | Effortlessly binarize the image using a predefined threshold with this intuitive method. Ideal for developers seeking to convert images into binary form, simplifying them for further processing or analysis. |
+| override [BinarizeOtsu](../../aspose.imaging.fileformats.apng/apngimage/binarizeotsu)() | Perform binarization on the image using Otsu thresholding with this intuitive method. Ideal for developers seeking to automatically determine the optimal threshold for converting images into binary form, enhancing their clarity and suitability for further analysis. |
 | [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay* image. |
 | override [Blend](../../aspose.imaging/rastercachedmultipageimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay* image. |
 | override [CacheData](../../aspose.imaging/rastercachedmultipageimage/cachedata)() | Caches the data private. |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
-| override [Crop](../../aspose.imaging.fileformats.apng/apngimage/crop)(Rectangle) | Cropping the image. |
-| override [Crop](../../aspose.imaging.fileformats.apng/apngimage/crop)(int, int, int, int) | Crop image with shifts. |
+| override [Crop](../../aspose.imaging.fileformats.apng/apngimage/crop)(Rectangle) | Effortlessly crop the image to focus on specific areas with this intuitive method. Perfect for developers seeking to refine the composition of their images dynamically. |
+| override [Crop](../../aspose.imaging.fileformats.apng/apngimage/crop)(int, int, int, int) | Crop the image while adjusting shifts seamlessly with this intuitive method. Ideal for developers seeking precise control over the cropping process to focus on specific areas of their Apng images. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither)(DitheringMethod, int) | Performs dithering on the current image. |
-| override [Dither](../../aspose.imaging.fileformats.apng/apngimage/dither)(DitheringMethod, int, IColorPalette) | Performs dithering on the current image. |
-| override [Filter](../../aspose.imaging.fileformats.apng/apngimage/filter)(Rectangle, FilterOptionsBase) | Filters the specified rectangle. |
+| override [Dither](../../aspose.imaging.fileformats.apng/apngimage/dither)(DitheringMethod, int, IColorPalette) | Easily apply dithering effects to the current image with this intuitive method. Ideal for developers looking to add texture or reduce color banding in their images. |
+| override [Filter](../../aspose.imaging.fileformats.apng/apngimage/filter)(Rectangle, FilterOptionsBase) | Effortlessly apply filters to the specified rectangle of the image with this intuitive method. Perfect for developers seeking to enhance or modify specific areas. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
-| override [GetDefaultOptions](../../aspose.imaging.fileformats.apng/apngimage/getdefaultoptions)(object[]) | Gets the default options. |
+| override [GetDefaultOptions](../../aspose.imaging.fileformats.apng/apngimage/getdefaultoptions)(object[]) | Retrieve the default options effortlessly with this straightforward method. Ideal for developers seeking quick access to default Apng image settings. |
 | [GetDefaultPixels](../../aspose.imaging/rasterimage/getdefaultpixels)(Rectangle, IPartialArgb32PixelLoader) | Gets the default pixels array using partial pixel loader. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, RawDataSettings) | Gets the default raw data array. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, IPartialRawDataLoader, RawDataSettings) | Gets the default raw data array using partial pixel loader. |
-| override [GetModifyDate](../../aspose.imaging.fileformats.apng/apngimage/getmodifydate)(bool) | Gets the date and time the resource image was last modified. |
-| override [GetOriginalOptions](../../aspose.imaging.fileformats.apng/apngimage/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
+| override [GetModifyDate](../../aspose.imaging.fileformats.apng/apngimage/getmodifydate)(bool) | Quickly obtain the date and time when the resource image was last modified with this user-friendly method. Ideal for developers needing to track changes and manage resources effectively. |
+| override [GetOriginalOptions](../../aspose.imaging.fileformats.apng/apngimage/getoriginaloptions)() | Retrieve options based on the original file settings effortlessly with this intuitive method. Perfect for developers seeking to access and utilize settings that align with the characteristics of the original file. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
 | [GetPixel](../../aspose.imaging/rasterimage/getpixel)(int, int) | Gets an image pixel. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
-| override [Grayscale](../../aspose.imaging.fileformats.apng/apngimage/grayscale)() | Transformation of an image to its grayscale representation |
-| [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe)(int) | Inserts new frame into the own frame collection at the specified index. A new frame will be created according to the size of the current image. |
+| override [Grayscale](../../aspose.imaging.fileformats.apng/apngimage/grayscale)() | Easily transform the image into its grayscale representation with this intuitive method. Ideal for developers seeking to convert color images to grayscale, simplifying their visualization or analysis processes. |
+| [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe)(int) | Effortlessly insert a new frame into your frame collection at the specified with this intuitive method. Ideal for developers seeking precise control over the arrangement of frames in their animations of multi-frame images. A new frame will be created according to the size of the current image. |
 | [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe)(int, RasterImage) | Inserts new frame into the own frame collection at the specified index. The contents of the new frame will be filled from the specified image. |
 | [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe)(int, RasterImage, uint) | Inserts new frame into the own frame collection at the specified index. The contents of the new frame will be filled from the specified image. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels)(Rectangle) | Loads 32-bit ARGB pixels. |
@@ -116,28 +116,28 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [LoadRawData](../../aspose.imaging/rasterimage/loadrawdata)(Rectangle, Rectangle, RawDataSettings, IPartialRawDataLoader) | Loads raw data. |
 | [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle)() | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle) and [`Rotate`](../../aspose.imaging/rasterimage/rotate) methods. |
 | override [NormalizeAngle](../../aspose.imaging/rastercachedmultipageimage/normalizeangle)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle) and [`Rotate`](../../aspose.imaging/rastercachedmultipageimage/rotate) methods. |
-| [PopFrameAt](../../aspose.imaging.fileformats.apng/apngimage/popframeat)(int) | Removes and returns the frame at the specified index of the own frame collection. |
+| [PopFrameAt](../../aspose.imaging.fileformats.apng/apngimage/popframeat)(int) | Remove and retrieve the frame at the specified index from your frame collection with this intuitive method. Perfect for developers seeking efficient management of frames in their animations. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline)(int) | Reads the whole scan line by the specified scan line index. |
-| [RemoveAllFrames](../../aspose.imaging.fileformats.apng/apngimage/removeallframes)() | Removes all frames from the own frame collection. |
-| [RemoveFrameAt](../../aspose.imaging.fileformats.apng/apngimage/removeframeat)(int) | Removes the frame at the specified index of the own frame collection. The frame to be deleted will be disposed. |
+| [RemoveAllFrames](../../aspose.imaging.fileformats.apng/apngimage/removeallframes)() | Clear your frame collection by removing all frames with this intuitive method. Ideal for developers seeking to reset or refresh their animations. |
+| [RemoveFrameAt](../../aspose.imaging.fileformats.apng/apngimage/removeframeat)(int) | Remove the frame at the specified index from your frame collection seamlessly with this method. Perfect for developers seeking streamlined management of frames in their multi-frame images. The frame to be deleted will be disposed. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
 | override [ReplaceNonTransparentColors](../../aspose.imaging/rastercachedmultipageimage/replacenontransparentcolors)(int) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
-| [ResetDefaultImage](../../aspose.imaging.fileformats.apng/apngimage/resetdefaultimage)() | Deletes a previously set default image. After this, the default image is the first frame in the own frame collection (it cannot be deleted using this method). |
+| [ResetDefaultImage](../../aspose.imaging.fileformats.apng/apngimage/resetdefaultimage)() | Remove a previously set default image with this intuitive method. Ideal for developers seeking to reset or clear the default image in their animation. After this, the default image is the first frame in the own frame collection (it cannot be deleted using this method). |
 | [Resize](../../aspose.imaging/image/resize)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.apng/apngimage/resize)(int, int, ImageResizeSettings) | Resizes the image. |
-| override [Resize](../../aspose.imaging.fileformats.apng/apngimage/resize)(int, int, ResizeType) | Resizes the image. |
+| override [Resize](../../aspose.imaging.fileformats.apng/apngimage/resize)(int, int, ResizeType) | Resize the image seamlessly with this intuitive method. Perfect for developers seeking to adjust the dimensions of their images dynamically. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | Resizes the height proportionally. |
-| override [ResizeHeightProportionally](../../aspose.imaging.fileformats.apng/apngimage/resizeheightproportionally)(int, ResizeType) | Resizes the width proportionally. |
+| override [ResizeHeightProportionally](../../aspose.imaging.fileformats.apng/apngimage/resizeheightproportionally)(int, ResizeType) | Effortlessly adjust the height of your image while maintaining its proportions with this intuitive method. Perfect for developers looking to resize images dynamically while preserving their aspect ratio. |
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | Resizes the width proportionally. |
-| override [ResizeWidthProportionally](../../aspose.imaging.fileformats.apng/apngimage/resizewidthproportionally)(int, ResizeType) | Resizes the width proportionally. |
+| override [ResizeWidthProportionally](../../aspose.imaging.fileformats.apng/apngimage/resizewidthproportionally)(int, ResizeType) | Proportionally resize the width of the image effortlessly with this intuitive method. Ideal for developers seeking to maintain the aspect ratio of their images while adjusting their dimensions. |
 | virtual [Rotate](../../aspose.imaging/rasterimage/rotate)(float) | Rotate image around the center. |
-| override [Rotate](../../aspose.imaging.fileformats.apng/apngimage/rotate)(float, bool, Color) | !:RasterCahcedMultipageImage.Rotate image around the center. |
-| override [RotateFlip](../../aspose.imaging.fileformats.apng/apngimage/rotateflip)(RotateFlipType) | Rotates, flips, or rotates and flips the Active frame only. |
+| override [Rotate](../../aspose.imaging.fileformats.apng/apngimage/rotate)(float, bool, Color) | Rotate the image around its center effortlessly with this intuitive method. Perfect for developers seeking to adjust the orientation of their images dynamically. |
+| override [RotateFlip](../../aspose.imaging.fileformats.apng/apngimage/rotateflip)(RotateFlipType) | Effortlessly manipulate the active frame by rotating, flipping, or both with this intuitive method. Ideal for developers seeking to customize image frame orientations. |
 | [Save](../../aspose.imaging/image/save)() | Saves the image data to the underlying stream. |
 | [Save](../../aspose.imaging/datastreamsupporter/save)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save)(string) | Saves the image to the specified file location. |
@@ -151,7 +151,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [SavePixels](../../aspose.imaging/rasterimage/savepixels)(Rectangle, Color[]) | Saves the pixels. |
 | [SaveRawData](../../aspose.imaging/rasterimage/saverawdata)(byte[], int, Rectangle, RawDataSettings) | Saves the raw data. |
 | [SetArgb32Pixel](../../aspose.imaging/rasterimage/setargb32pixel)(int, int, int) | Sets an image 32-bit ARGB pixel for the specified position. |
-| [SetDefaultImage](../../aspose.imaging.fileformats.apng/apngimage/setdefaultimage)(RasterImage) | Sets the specified raster image as the default image of the current animation. |
+| [SetDefaultImage](../../aspose.imaging.fileformats.apng/apngimage/setdefaultimage)(RasterImage) | Set the specified raster image as the default image for the current animation effortlessly with this method. Perfect for developers seeking to customize the default image in their animations. |
 | override [SetPalette](../../aspose.imaging/rasterimage/setpalette)(IColorPalette, bool) | Sets the image palette. |
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel)(int, int, Color) | Sets an image pixel for the specified position. |
 | virtual [SetResolution](../../aspose.imaging/rasterimage/setresolution)(double, double) | Sets the resolution for this [`RasterImage`](../../aspose.imaging/rasterimage). |

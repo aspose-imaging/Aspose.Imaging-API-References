@@ -87,8 +87,8 @@ is_root: true
 | [Aspose.Imaging.FileFormats.Wmf.Objects](./aspose.imaging.fileformats.wmf.objects) | The `namespace` contains types [MS-WMF]: Windows Metafile Format 2.2 WMF Objects |
 | [Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords](./aspose.imaging.fileformats.wmf.objects.escaperecords) | The `namespace` contains escape types [MS-WMF]: Windows |
 | [Aspose.Imaging.FlatArray.Exceptions](./aspose.imaging.flatarray.exceptions) | The namespace handles Psd file format processing. |
-| [Aspose.Imaging.ImageFilters.ComplexUtils](./aspose.imaging.imagefilters.complexutils) | The namespace doc. |
-| [Aspose.Imaging.ImageFilters.Convolution](./aspose.imaging.imagefilters.convolution) | The namespace doc. |
+| [Aspose.Imaging.ImageFilters.ComplexUtils](./aspose.imaging.imagefilters.complexutils) | The namespace contains the Complex class. |
+| [Aspose.Imaging.ImageFilters.Convolution](./aspose.imaging.imagefilters.convolution) | The namespace contains the convolution filters and kernels. |
 | [Aspose.Imaging.ImageFilters.FilterOptions](./aspose.imaging.imagefilters.filteroptions) | The namespace handles Filter options. |
 | [Aspose.Imaging.ImageLoadOptions](./aspose.imaging.imageloadoptions) | The namespace contains different file format load options. |
 | [Aspose.Imaging.ImageOptions](./aspose.imaging.imageoptions) | The namespace contains classes suitable for export, save or creation of different file formats. |

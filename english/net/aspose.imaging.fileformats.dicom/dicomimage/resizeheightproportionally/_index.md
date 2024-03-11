@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/resizeheightproportionally
 ---
 ## DicomImage.ResizeHeightProportionally method
 
-Resizes the width proportionally.
+Adjust the height of the image while maintaining its aspect ratio with this user-friendly method. Perfect for developers seeking to dynamically resize images while preserving their proportions, ensuring optimal display and usability in their applications.
 
 ```csharp
 public override void ResizeHeightProportionally(int newHeight, ResizeType resizeType)

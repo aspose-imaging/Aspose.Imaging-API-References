@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx/cmximage/cmximage/
 ---
 ## CmxImage constructor
 
-Initializes a new instance of the [`CmxImage`](../../cmximage) class.
+Start working with the [`CmxImage`](../../cmximage) class seamlessly by initializing a new instance with a streamContainer and loadOptions parameters. Ideal for developers seeking a convenient way to load CMX images from various data sources while customizing the loading process as needed.
 
 ```csharp
 public CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)

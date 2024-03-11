@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngframe/
 ---
 ## ApngFrame class
 
-The animated PNG image frame
+Craft animated PNG (APNG) image frames from single-page raster images with our API. Seamlessly set animation and frame duration, program the number of frames, and adjust gamma and contrast levels, ensuring captivating and customizable animations tailored to your vision.
 
 ```csharp
 public class ApngFrame : RasterCachedImage, IAnimationFrame

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx/cmximage/rotateflip/
 ---
 ## CmxImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the image.
+Effortlessly adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. Perfect for developers seeking to customize image orientation dynamically, ensuring optimal presentation or alignment in their applications.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

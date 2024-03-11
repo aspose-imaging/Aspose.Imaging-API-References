@@ -3,7 +3,7 @@ title: RasterCachedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11100
+weight: 11110
 url: /net/aspose.imaging/rastercachedimage/
 ---
 ## RasterCachedImage class

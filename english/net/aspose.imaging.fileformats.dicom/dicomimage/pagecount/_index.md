@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/pagecount/
 ---
 ## DicomImage.PageCount property
 
-Gets the page count.
+Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking quick access to the number of pages within an image, ensuring efficient navigation and management.
 
 ```csharp
 public override int PageCount { get; }

@@ -134,7 +134,7 @@ public double[][] getKernel()
 ```
 
 
-Gets the Gaussian kernel size. Must be a positive non-zero odd value.
+Gets the Gaussian kernel size.
 
 **Returns:**
 double[][] - the Gaussian kernel size.

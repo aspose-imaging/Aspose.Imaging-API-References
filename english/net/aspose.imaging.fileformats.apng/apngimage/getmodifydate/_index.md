@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/getmodifydate/
 ---
 ## ApngImage.GetModifyDate method
 
-Gets the date and time the resource image was last modified.
+Quickly obtain the date and time when the resource image was last modified with this user-friendly method. Ideal for developers needing to track changes and manage resources effectively.
 
 ```csharp
 public override DateTime GetModifyDate(bool useDefault)

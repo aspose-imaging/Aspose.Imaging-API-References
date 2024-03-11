@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/width/
 ---
 ## BmpImage.Width property
 
-Gets the image width.
+Access the width of the image easily with this property. Ideal for developers seeking quick information about the image dimensions.
 
 ```csharp
 public override int Width { get; }

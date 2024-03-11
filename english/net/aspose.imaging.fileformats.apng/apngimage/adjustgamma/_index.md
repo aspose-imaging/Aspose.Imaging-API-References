@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/adjustgamma/
 ---
 ## ApngImage.AdjustGamma method (1 of 2)
 
-Gamma-correction of an image.
+Apply gamma correction to the image using a floating-point coefficient with this intuitive method. Ideal for developers seeking precise color control in their images.
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -28,7 +28,7 @@ public override void AdjustGamma(float gamma)
 
 ## ApngImage.AdjustGamma method (2 of 2)
 
-Gamma-correction of an image.
+Perform gamma correction on the image separately for the red, green, and blue channels using individual coefficients with this intuitive method. Ideal for developers seeking to fine-tune color balance and enhance the visual quality of their images.
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)

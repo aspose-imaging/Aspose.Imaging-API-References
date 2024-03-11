@@ -14,5 +14,5 @@ The package handles WMF file format processing.
 
 | Class | Description |
 | --- | --- |
-| [WmfImage](../com.aspose.imaging.fileformats.wmf/wmfimage) | The Wmf Image |
+| [WmfImage](../com.aspose.imaging.fileformats.wmf/wmfimage) | Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly handling both vector and bitmap data stored within variable-length records. |
 | [WmfRenderMode](../com.aspose.imaging.fileformats.wmf/wmfrendermode) | The render mode enumeration. |

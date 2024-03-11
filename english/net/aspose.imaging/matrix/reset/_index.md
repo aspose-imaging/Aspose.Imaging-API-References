@@ -3,7 +3,7 @@ title: Reset
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.imaging/matrix/reset/
 ---
 ## Matrix.Reset method

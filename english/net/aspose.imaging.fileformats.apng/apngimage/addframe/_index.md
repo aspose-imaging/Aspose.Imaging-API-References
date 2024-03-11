@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/addframe/
 ---
 ## ApngImage.AddFrame method (1 of 3)
 
-Adds new frame to the end of the own frame collection. A new frame will be created according to the size of the current image.
+Easily append a new frame to the end of your frame collection with this straightforward method. Ideal for developers looking to expand their frame collection dynamically for animations with multi-frame images. A new frame will be created according to the size of the current image.
 
 ```csharp
 public ApngFrame AddFrame()
@@ -29,7 +29,7 @@ The newly created APNG frame.
 
 ## ApngImage.AddFrame method (2 of 3)
 
-Adds new frame to the end of the own frame collection. The contents of the new frame will be filled from the specified image.
+Effortlessly expand your frame collection by adding a new frame to the end with this intuitive method. Perfect for developers seeking to enhance their animations of multi-frame images dynamically. The contents of the new frame will be filled from the specified image.
 
 ```csharp
 public void AddFrame(RasterImage frameImage)
@@ -111,7 +111,7 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 
 ## ApngImage.AddFrame method (3 of 3)
 
-Adds new frame to the end of the own frame collection. The contents of the new frame will be filled from the specified image.
+Expand your frame collection seamlessly by appending a new frame to the with this intuitive method. Ideal for developers looking to enrich their animations of multi-frame images. The contents of the new frame will be filled from the specified image.
 
 ```csharp
 public void AddFrame(RasterImage frameImage, uint frameTime)

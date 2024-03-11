@@ -17,7 +17,7 @@ The package handles Gif file format processing.
 | [DisposalMethod](../com.aspose.imaging.fileformats.gif/disposalmethod) | Indicates the way in which the graphic is to be treated after being displayed. |
 | [GifBlock](../com.aspose.imaging.fileformats.gif/gifblock) | The default gif block implementation. |
 | [GifBlocksRegistry](../com.aspose.imaging.fileformats.gif/gifblocksregistry) | Represents the gif blocks openers registry. |
-| [GifImage](../com.aspose.imaging.fileformats.gif/gifimage) | A gif image. |
+| [GifImage](../com.aspose.imaging.fileformats.gif/gifimage) | The API for Graphical Interchange Format (GIF) image file provides developers with versatile tools for processing compressed raster images and animated GIFs. |
 
 ## Interfaces
 

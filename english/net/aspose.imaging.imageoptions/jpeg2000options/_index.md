@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class
 
-The Jpeg2000 file format options.
+Create JPEG2000 (JP2) image files with our API, utilizing advanced wavelet technology for coding lossless content. Benefit from support for various codecs, including irreversible and lossless compression, as well as XMP metadata containers, ensuring versatility and high-quality image creation tailored to your needs.
 
 ```csharp
 public class Jpeg2000Options : ImageOptionsBase

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/rotate/
 ---
 ## DicomImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+Rotate the image around its center with this convenient method. Ideal for developers seeking to adjust image orientation dynamically, ensuring optimal presentation and alignment within their applications.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

@@ -14,4 +14,4 @@ The package handling BigTiff file format processing.
 
 | Class | Description |
 | --- | --- |
-| [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) | The [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) class. |
+| [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) | With the [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) class you can effortlessly manipulate BigTiff image format files. |

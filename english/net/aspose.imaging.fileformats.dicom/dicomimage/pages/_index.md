@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/pages/
 ---
 ## DicomImage.Pages property
 
-Gets the pages.
+Access the pages of the image with this intuitive property. Ideal for developers seeking to interact with individual pages within the image, ensuring seamless navigation and manipulation.
 
 ```csharp
 public override Image[] Pages { get; }

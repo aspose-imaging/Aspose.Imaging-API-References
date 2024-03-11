@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/resizeproportional/
 ---
 ## DicomImage.ResizeProportional method
 
-Performs proportional resize on the image. The proportional resize will resize each frame according to the ratio of *newWidth*/width and *newHeight*/height.
+Resize the image while maintaining its aspect ratio with this convenient method. Ideal for developers seeking to adjust the image dimensions proportionally, ensuring consistency and preserving the original content's proportions. The proportional resize will resize each frame according to the ratio of *newWidth*/width and *newHeight*/height.
 
 ```csharp
 public void ResizeProportional(int newWidth, int newHeight, ResizeType resizeType)

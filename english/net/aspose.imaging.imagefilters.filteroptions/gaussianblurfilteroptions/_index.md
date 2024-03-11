@@ -27,7 +27,7 @@ public class GaussianBlurFilterOptions : ConvolutionFilterOptions
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
 | [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
-| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/kernel) { get; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
+| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/kernel) { get; } | Gets the Gaussian kernel. |
 | [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius) { get; set; } | Gets the radius of Gausseian ISquareConvolutionKernel. |
 | virtual [Sigma](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/sigma) { get; set; } | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
 | virtual [Size](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/size) { get; set; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |

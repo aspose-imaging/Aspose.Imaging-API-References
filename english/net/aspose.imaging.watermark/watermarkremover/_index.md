@@ -3,7 +3,7 @@ title: WatermarkRemover
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11590
+weight: 11600
 url: /net/aspose.imaging.watermark/watermarkremover/
 ---
 ## WatermarkRemover class

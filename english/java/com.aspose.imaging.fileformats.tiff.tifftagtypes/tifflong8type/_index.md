@@ -18,6 +18,7 @@ The Tiff unsigned 64-bit type.
 | Constructor | Description |
 | --- | --- |
 | [TiffLong8Type(int tagId)](#TiffLong8Type-int-) | Initializes a new instance of the [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) class. |
+| [TiffLong8Type(int tagId, long[] values)](#TiffLong8Type-int-long---) | Initializes a new instance of the [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) class. |
 ## Methods
 
 | Method | Description |
@@ -42,6 +43,20 @@ Initializes a new instance of the [TiffLong8Type](../../com.aspose.imaging.filef
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tagId | int | The tag id. |
+
+### TiffLong8Type(int tagId, long[] values) {#TiffLong8Type-int-long---}
+```
+public TiffLong8Type(int tagId, long[] values)
+```
+
+
+Initializes a new instance of the [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tagId | int | The tag id. |
+| values | long[] |  |
 
 ### getValues() {#getValues--}
 ```

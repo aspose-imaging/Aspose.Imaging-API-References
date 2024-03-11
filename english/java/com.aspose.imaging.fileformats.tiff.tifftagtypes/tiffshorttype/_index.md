@@ -18,6 +18,7 @@ The tiff short type.
 | Constructor | Description |
 | --- | --- |
 | [TiffShortType(int tagId)](#TiffShortType-int-) | Initializes a new instance of the `TiffShortType` class. |
+| [TiffShortType(int tagId, int[] values)](#TiffShortType-int-int---) | Initializes a new instance of the `TiffShortType` class. |
 ## Methods
 
 | Method | Description |
@@ -42,6 +43,20 @@ Initializes a new instance of the `TiffShortType` class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tagId | int | The tag id. |
+
+### TiffShortType(int tagId, int[] values) {#TiffShortType-int-int---}
+```
+public TiffShortType(int tagId, int[] values)
+```
+
+
+Initializes a new instance of the `TiffShortType` class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tagId | int | The tag id. |
+| values | int[] |  |
 
 ### getValues() {#getValues--}
 ```

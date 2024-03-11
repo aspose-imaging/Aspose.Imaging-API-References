@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/psdoptions/
 ---
 ## PsdOptions class
 
-The psd file format create options.
+Create Photoshop Document (PSD) images with our API, offering versatile options with different format versions, compression methods, color modes, and bits counts per color channel. Seamlessly handle XMP metadata containers, ensuring comprehensive image processing with the power of PSD format features like image layers, layer masks, and file information for customization and creativity in your designs.
 
 ```csharp
 public class PsdOptions : ImageOptionsBase

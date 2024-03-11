@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/fileformat/
 ---
 ## CdrImage.FileFormat property
 
-Gets a value of file format
+Retrieve the file format of the image effortlessly with this intuitive property. Ideal for developers seeking to determine the format of their images dynamically, ensuring compatibility and accurate processing in their applications.
 
 ```csharp
 public override FileFormat FileFormat { get; }

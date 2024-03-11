@@ -3,7 +3,7 @@ title: TypeGeneralRotation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.imaging/matrix/typegeneralrotation/
 ---
 ## Matrix.TypeGeneralRotation field

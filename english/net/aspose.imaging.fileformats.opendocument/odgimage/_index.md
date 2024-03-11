@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odgimage/
 ---
 ## OdgImage class
 
-The Open Document Graphic
+Manipulate OpenDocument Graphic (ODG) vector image file format with our API, widely used by OpenOffice and LibreOffice Draw applications for storing drawing elements in a vector format. Seamlessly parse documents, access pages, resize and rotate images, ensuring efficient processing and customization of ODG files to meet your specific requirements.
 
 ```csharp
 public class OdgImage : OdImage

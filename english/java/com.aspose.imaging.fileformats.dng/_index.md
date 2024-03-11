@@ -15,4 +15,4 @@ The package contains DNG file format types
 | Class | Description |
 | --- | --- |
 | [DngException](../com.aspose.imaging.fileformats.dng/dngexception) | The DNG exception class |
-| [DngImage](../com.aspose.imaging.fileformats.dng/dngimage) | Dng image representation class |
+| [DngImage](../com.aspose.imaging.fileformats.dng/dngimage) | The API for processing DNG (Digital Negative) image file format used for digital photography needs by providing comprehensive support for raw files and metadata. |

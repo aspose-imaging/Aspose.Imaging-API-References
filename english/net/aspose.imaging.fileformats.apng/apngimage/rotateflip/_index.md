@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/rotateflip/
 ---
 ## ApngImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the Active frame only.
+Effortlessly manipulate the active frame by rotating, flipping, or both with this intuitive method. Ideal for developers seeking to customize image frame orientations.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

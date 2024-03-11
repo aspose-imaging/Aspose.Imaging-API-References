@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/djvumultipageoptions/
 ---
 ## DjvuMultiPageOptions class
 
-Djvu format page options
+The API for DjVu graphics file format provides developers with seamless access to DjVu documents, ideal for scanned documents and books. With image loading options, developers can effortlessly integrate DjVu files into their applications, unlocking the potential to work with multi-page content, including text, drawings, and images, for versatile document processing solutions.
 
 ```csharp
 public class DjvuMultiPageOptions : MultiPageOptions

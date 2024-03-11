@@ -24,7 +24,7 @@ public void Insert(int position, StreamContainer stream, bool disposeStream)
 
 | exception | condition |
 | --- | --- |
-| [FrameworkException](../../../aspose.imaging.coreexceptions/frameworkexception) |  |
+| [FrameworkException](../../../aspose.imaging.coreexceptions/frameworkexception) | Framework exception |
 
 ### See Also
 

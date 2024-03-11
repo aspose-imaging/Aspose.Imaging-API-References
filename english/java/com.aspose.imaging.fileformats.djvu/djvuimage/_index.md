@@ -1,7 +1,7 @@
 ---
 title: DjvuImage
 second_title: Aspose.Imaging for Java API Reference
-description: DjvuDocument class
+description: DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books integrating text drawings images and photos into a single format.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.djvu/djvuimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class DjvuImage extends RasterCachedMultipageImage
 ```
 
-DjvuDocument class
+DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books, integrating text, drawings, images, and photos into a single format. Supporting multi-page operations, you can efficiently access unique document identifiers, count pages, set active pages, and retrieve specific document pages. With features for resizing, rotating, dithering, cropping, grayscale transformation, gamma corrections, adjustments, and filters application, this class empowers precise manipulation and enhancement of DjVu images to meet diverse application needs with ease and precision.
 ## Constructors
 
 | Constructor | Description |
@@ -43,7 +43,7 @@ DjvuDocument class
 | [getPreviousPage()](#getPreviousPage--) | Gets the previous page of the document |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
 | [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `!:RasterCahcedMultipageImage.Rotate` image around the center. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | [RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Resizes the width proportionally. |
 | [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Resizes the width proportionally. |
@@ -455,7 +455,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-`!:RasterCahcedMultipageImage.Rotate` image around the center.
+[RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center.
 
 **Parameters:**
 | Parameter | Type | Description |

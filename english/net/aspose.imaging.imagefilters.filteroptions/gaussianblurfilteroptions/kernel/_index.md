@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/ke
 ---
 ## GaussianBlurFilterOptions.Kernel property
 
-Gets the Gaussian kernel size. Must be a positive non-zero odd value.
+Gets the Gaussian kernel.
 
 ```csharp
 public override double[] Kernel { get; }

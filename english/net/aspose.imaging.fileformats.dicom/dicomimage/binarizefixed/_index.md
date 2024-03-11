@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/binarizefixed/
 ---
 ## DicomImage.BinarizeFixed method
 
-Binarization of an image with predefined threshold
+Easily convert the image into a binary format using a predefined threshold with this straightforward method. Ideal for developers looking to simplify image processing tasks by segmenting the image into foreground and background components based on specified intensity levels.
 
 ```csharp
 public override void BinarizeFixed(byte threshold)

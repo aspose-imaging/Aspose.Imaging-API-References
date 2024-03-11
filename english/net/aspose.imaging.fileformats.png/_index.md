@@ -12,7 +12,7 @@ The namespace handles Png file format processing.
 
 | Class | Description |
 | --- | --- |
-| [PngImage](./pngimage) | The new png image. |
+| [PngImage](./pngimage) | Manipulate Portable Network Graphics (PNG) raster images with our versatile API, featuring support for compression levels and various color depths including Grayscale, Indexed Color, TrueColor, and alpha channels. Seamlessly process XMP metadata, enabling comprehensive image metadata management, while easily loading PNG images, performing diverse manipulations, applying filters, and converting images to other file formats for optimal versatility and customization. |
 ## Enumeration
 
 | Enumeration | Description |

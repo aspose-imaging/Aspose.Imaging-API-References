@@ -17,61 +17,14 @@ Helper for file stream processing.
 
 | Method | Description |
 | --- | --- |
-| [isTemporal()](#isTemporal--) | Gets or sets a value indicating whether stream is temporal. |
-| [setTemporal(boolean value)](#setTemporal-boolean-) | Sets a value indicating whether stream is temporal. |
-| [isCreated()](#isCreated--) | Gets a value indicating whether stream was created explicitly. |
-| [getFilePath()](#getFilePath--) | Gets the file path. |
 | [to_Stream(FileStreamContainer fileStreamContainer)](#to-Stream-com.aspose.imaging.FileStreamContainer-) | Performs an explicit conversion from `com.aspose.imaging.FileStreamContainer` to `System.IO.Stream`. |
 | [to_FileStream(FileStreamContainer fileStreamContainer)](#to-FileStream-com.aspose.imaging.FileStreamContainer-) | Performs an explicit conversion from `com.aspose.imaging.FileStreamContainer` to `System.IO.FileStream`. |
 | [createFileStream(String fileLocation, boolean isTemporal)](#createFileStream-java.lang.String-boolean-) | Creates a new file stream. |
 | [openFileStream(String fileLocation)](#openFileStream-java.lang.String-) | Opens an existing file stream. |
-### isTemporal() {#isTemporal--}
-```
-public boolean isTemporal()
-```
-
-
-Gets or sets a value indicating whether stream is temporal.
-
-**Returns:**
-boolean - `true` if stream is temporal; otherwise, `false`.
-
-A temporal stream will remove itself when disposed. If the stream is memory based this property has no effect. The stream can be marked as temporal or persistent in case it was created explicitly otherwise the appropriate exception is thrown.
-### setTemporal(boolean value) {#setTemporal-boolean-}
-```
-public void setTemporal(boolean value)
-```
-
-
-Sets a value indicating whether stream is temporal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | `true` if stream is temporal; otherwise, `false`.
-
-A temporal stream will remove itself when disposed. If the stream is memory based this property has no effect. The stream can be marked as temporal or persistent in case it was created explicitly otherwise the appropriate exception is thrown. |
-
-### isCreated() {#isCreated--}
-```
-public boolean isCreated()
-```
-
-
-Gets a value indicating whether stream was created explicitly.
-
-**Returns:**
-boolean - `true` if stream was created explicitly; otherwise, `false`.
-### getFilePath() {#getFilePath--}
-```
-public String getFilePath()
-```
-
-
-Gets the file path.
-
-**Returns:**
-java.lang.String - The file path.
+| [isTemporal()](#isTemporal--) | Gets or sets a value indicating whether stream is temporal. |
+| [setTemporal(boolean value)](#setTemporal-boolean-) | Sets a value indicating whether stream is temporal. |
+| [isCreated()](#isCreated--) | Gets a value indicating whether stream was created explicitly. |
+| [getFilePath()](#getFilePath--) | Gets the file path. |
 ### to_Stream(FileStreamContainer fileStreamContainer) {#to-Stream-com.aspose.imaging.FileStreamContainer-}
 ```
 public static System.IO.Stream to_Stream(FileStreamContainer fileStreamContainer)
@@ -133,3 +86,50 @@ Opens an existing file stream. If file stream does not exist the appropriate exc
 
 **Returns:**
 [FileStreamContainer](../../com.aspose.imaging/filestreamcontainer) - The file stream container.
+### isTemporal() {#isTemporal--}
+```
+public boolean isTemporal()
+```
+
+
+Gets or sets a value indicating whether stream is temporal.
+
+**Returns:**
+boolean - `true` if stream is temporal; otherwise, `false`.
+
+A temporal stream will remove itself when disposed. If the stream is memory based this property has no effect. The stream can be marked as temporal or persistent in case it was created explicitly otherwise the appropriate exception is thrown.
+### setTemporal(boolean value) {#setTemporal-boolean-}
+```
+public void setTemporal(boolean value)
+```
+
+
+Sets a value indicating whether stream is temporal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | `true` if stream is temporal; otherwise, `false`.
+
+A temporal stream will remove itself when disposed. If the stream is memory based this property has no effect. The stream can be marked as temporal or persistent in case it was created explicitly otherwise the appropriate exception is thrown. |
+
+### isCreated() {#isCreated--}
+```
+public boolean isCreated()
+```
+
+
+Gets a value indicating whether stream was created explicitly.
+
+**Returns:**
+boolean - `true` if stream was created explicitly; otherwise, `false`.
+### getFilePath() {#getFilePath--}
+```
+public String getFilePath()
+```
+
+
+Gets the file path.
+
+**Returns:**
+java.lang.String - The file path.

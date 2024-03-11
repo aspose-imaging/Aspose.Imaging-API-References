@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/activepage/
 ---
 ## DicomImage.ActivePage property
 
-Gets or sets the active page.
+Manage the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multi-page images, ensuring efficient navigation and processing.
 
 ```csharp
 public DicomPage ActivePage { get; set; }

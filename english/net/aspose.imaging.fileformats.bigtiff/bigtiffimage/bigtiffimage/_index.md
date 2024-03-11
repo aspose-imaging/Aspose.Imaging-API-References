@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bigtiff/bigtiffimage/bigtiffimage/
 ---
 ## BigTiffImage constructor (1 of 2)
 
-Initializes a new instance of the [`BigTiffImage`](../../bigtiffimage) class.
+Create a new instance of the [`BigTiffImage`](../../bigtiffimage) class by initializing it with a TiffFrame parameter. Ideal for developers seeking a convenient way to work with BigTiffImage objects, ensuring flexibility and ease of integration into their projects.
 
 ```csharp
 public BigTiffImage(TiffFrame frame)
@@ -35,7 +35,7 @@ public BigTiffImage(TiffFrame frame)
 
 ## BigTiffImage constructor (2 of 2)
 
-Initializes a new instance of the [`BigTiffImage`](../../bigtiffimage) class.
+Begin utilizing the [`BigTiffImage`](../../bigtiffimage) class seamlessly by initializing a new instance with a list of TiffFrames parameter. Perfect for developers seeking a straightforward method to work with BigTiffImage objects containing multiple frames, ensuring efficiency of their projects.
 
 ```csharp
 public BigTiffImage(TiffFrame[] frames)

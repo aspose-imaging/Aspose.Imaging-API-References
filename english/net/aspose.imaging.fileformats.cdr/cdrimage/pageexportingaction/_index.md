@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/pageexportingaction/
 ---
 ## CdrImage.PageExportingAction property
 
-Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Effortlessly retrieve or modify the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

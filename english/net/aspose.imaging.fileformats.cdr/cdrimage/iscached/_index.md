@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/iscached/
 ---
 ## CdrImage.IsCached property
 
-Gets a value indicating whether object's data is cached currently and no data readig is required.
+Effortlessly determine whether the object's data is currently cached, eliminating the need for data reading. Ideal for developers seeking to optimize performance by leveraging cached data efficiently, ensuring faster access to object information.
 
 ```csharp
 public override bool IsCached { get; }

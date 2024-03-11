@@ -92,8 +92,6 @@ public final double getFactor()
 
 Gets the factor.
 
-Value: The factor.
-
 **Returns:**
 double - the factor.
 ### setFactor(double value) {#setFactor-double-}
@@ -103,8 +101,6 @@ public final void setFactor(double value)
 
 
 Sets the factor.
-
-Value: The factor.
 
 **Parameters:**
 | Parameter | Type | Description |

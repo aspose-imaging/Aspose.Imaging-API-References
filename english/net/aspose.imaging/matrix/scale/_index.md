@@ -3,7 +3,7 @@ title: Scale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.imaging/matrix/scale/
 ---
 ## Matrix.Scale method (1 of 2)

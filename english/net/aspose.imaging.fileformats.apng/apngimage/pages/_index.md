@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/pages/
 ---
 ## ApngImage.Pages property
 
-Gets the pages.
+Effortlessly access the pages of your image with this convenient property. Perfect for developers seeking quick and easy access to individual pages for manipulation.
 
 ```csharp
 public override Image[] Pages { get; }

@@ -1,7 +1,7 @@
 ---
 title: PngOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The png file format create options.
+description: Create high-quality Portable Network Graphics PNG raster images effortlessly with our API offering customizable options for compression levels bits per pixel depths and alpha bits.
 type: docs
 weight: 36
 url: /java/com.aspose.imaging.imageoptions/pngoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class PngOptions extends ImageOptionsBase
 ```
 
-The png file format create options.
+Create high-quality Portable Network Graphics (PNG) raster images effortlessly with our API, offering customizable options for compression levels, bits per pixel depths, and alpha bits. Seamlessly process XMP metadata containers, ensuring comprehensive image metadata management, and empowering you to tailor PNG images to your exact specifications with ease.
 ## Constructors
 
 | Constructor | Description |

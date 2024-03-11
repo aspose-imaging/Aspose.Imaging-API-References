@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx/cmximage/cmxpage/
 ---
 ## CmxImage.CmxPage property
 
-Gets the CMX page.
+Effortlessly retrieve the CMX page of the image with this intuitive property. Ideal for developers seeking quick access to individual pages within CMX images, ensuring efficient navigation and management.
 
 ```csharp
 public CmxPage CmxPage { get; }

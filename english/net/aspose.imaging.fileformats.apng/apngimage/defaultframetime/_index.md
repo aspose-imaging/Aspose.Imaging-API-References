@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/defaultframetime/
 ---
 ## ApngImage.DefaultFrameTime property
 
-Gets or sets the default frame duration. Used when creating new frames.
+Easily adjust the default frame duration for creating new frames with this flexible property. Perfect for developers seeking to customize frame timing efficiently in their animations.
 
 ```csharp
 public uint DefaultFrameTime { get; set; }

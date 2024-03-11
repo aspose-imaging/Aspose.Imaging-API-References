@@ -1,7 +1,7 @@
 ---
 title: EpsImage
 second_title: Aspose.Imaging for Java API Reference
-description: The EPS image class.
+description: The API for Encapsulated PostScript EPS image file format support offers robust capabilities for manipulating compositions comprising text graphics and images.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.eps/epsimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class EpsImage extends VectorImage
 ```
 
-The EPS image class.
+The API for Encapsulated PostScript (EPS) image file format support offers robust capabilities for manipulating compositions comprising text, graphics, and images. With features such as bitmap preview image handling, orientation flipping, bounding box retrieval for illustration bounds, resizing, rotating images, and adding preview images, this API ensures seamless processing and integration of EPS files into various applications with precision and versatility.
 ## Methods
 
 | Method | Description |

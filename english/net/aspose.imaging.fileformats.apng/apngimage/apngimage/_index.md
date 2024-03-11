@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/apngimage/
 ---
 ## ApngImage constructor
 
-Initializes a new instance of the [`ApngImage`](../../apngimage) class.
+Begin working with the [`ApngImage`](../../apngimage) class by initializing a new instance effortlessly. Perfect for developers seeking to start using ApngImage objects quickly and efficiently in their projects.
 
 ```csharp
 public ApngImage(ApngOptions options, int width, int height)

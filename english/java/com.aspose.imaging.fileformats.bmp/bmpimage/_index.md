@@ -1,7 +1,7 @@
 ---
 title: BmpImage
 second_title: Aspose.Imaging for Java API Reference
-description: A bmp image supports BMP DIB formats.
+description: You can effortlessly handle Bitmap BMP and Device Independent Bitma DIB files facilitating efficient manipulation and processing of raster images.
 type: docs
 weight: 15
 url: /java/com.aspose.imaging.fileformats.bmp/bmpimage/
@@ -12,38 +12,38 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class BmpImage extends RasterCachedImage
 ```
 
-A bmp image (supports BMP, DIB formats).
+You can effortlessly handle Bitmap (BMP) and Device Independent Bitmap (DIB) files, facilitating efficient manipulation and processing of raster images. Performing various operations on images, this API streamlines the workflow, offering developers a reliable toolkit for working with BMP and DIB formats in their software applications.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BmpImage(String path)](#BmpImage-java.lang.String-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(String path, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.lang.String-int-long-double-double-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(InputStream stream)](#BmpImage-java.io.InputStream-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(InputStream stream, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.io.InputStream-int-long-double-double-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(RasterImage rasterImage)](#BmpImage-com.aspose.imaging.RasterImage-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-com.aspose.imaging.RasterImage-int-long-double-double-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(int width, int height)](#BmpImage-int-int-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-) | Initializes a new instance of the `BmpImage` class. |
-| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-long-double-double-) | Initializes a new instance of the `BmpImage` class. |
+| [BmpImage(String path)](#BmpImage-java.lang.String-) | Start using the BmpImage class effortlessly with this constructor that initializes a new instance. |
+| [BmpImage(String path, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.lang.String-int-long-double-double-) | Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class with this constructor, using specified parameters like path, bitsPerPixel, and compression. |
+| [BmpImage(InputStream stream)](#BmpImage-java.io.InputStream-) | Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class effortlessly by initializing a new instance with this constructor, using a stream as input. |
+| [BmpImage(InputStream stream, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.io.InputStream-int-long-double-double-) | Start working with the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by creating a new instance using a stream, along with specified parameters like bitsPerPixel and compression. |
+| [BmpImage(RasterImage rasterImage)](#BmpImage-com.aspose.imaging.RasterImage-) | Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class by initializing it with a RasterImage object. |
+| [BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-com.aspose.imaging.RasterImage-int-long-double-double-) | Start working with the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by creating a new instance using a rasterImage along with specified parameters like bitsPerPixel and compression. |
+| [BmpImage(int width, int height)](#BmpImage-int-int-) | Start using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class effortlessly by creating a new instance with specified width and height parameters. |
+| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-) | Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. |
+| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-long-double-double-) | Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class with this constructor, specifying parameters like width, height, bitsPerPixel, and palette. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBitmapInfoHeader()](#getBitmapInfoHeader--) | Gets the bitmap information header. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getRawDataFormat()](#getRawDataFormat--) | Gets the raw data format. |
-| [getRawLineSize()](#getRawLineSize--) | Gets the raw line size in bytes. |
-| [getCompression()](#getCompression--) | Gets the image compression. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets or sets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Gets or sets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
+| [getBitmapInfoHeader()](#getBitmapInfoHeader--) | Quickly access essential details about your bitmap image with this straightforward function. |
+| [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
+| [getRawDataFormat()](#getRawDataFormat--) | Easily obtain the format of your raw data with this user-friendly function. |
+| [getRawLineSize()](#getRawLineSize--) | Quickly access the size of each raw line in bytes with this straightforward property. |
+| [getCompression()](#getCompression--) | Retrieve the compression type used for the image effortlessly with this property. |
+| [getWidth()](#getWidth--) | Access the width of the image easily with this property. |
+| [getHeight()](#getHeight--) | Retrieve the height of the image effortlessly with this property. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Access the number of bits per pixel for the image with ease using this property. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage) object. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage) object. |
+| [getVerticalResolution()](#getVerticalResolution--) | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Adjust the resolution of your [RasterImage](../../com.aspose.imaging/rasterimage) effortlessly with this user-friendly method. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
 
 ## Example: The following example shows how to create a BMP image of the specified size.
 
@@ -169,7 +169,7 @@ public BmpImage(String path)
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Start using the BmpImage class effortlessly with this constructor that initializes a new instance. Perfect for developers who want to get up and running with [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) objects quickly and efficiently.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public BmpImage(String path, int bitsPerPixel, long compression, double horizont
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class with this constructor, using specified parameters like path, bitsPerPixel, and compression. Ideal for developers looking to initialize BmpImage objects quickly and efficiently, with precise control over image characteristics.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +199,7 @@ public BmpImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class effortlessly by initializing a new instance with this constructor, using a stream as input. Perfect for developers seeking a convenient way to work with BmpImage objects from various data sources, ensuring flexibility and ease of integration.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -212,7 +212,7 @@ public BmpImage(InputStream stream, int bitsPerPixel, long compression, double h
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Start working with the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by creating a new instance using a stream, along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public BmpImage(RasterImage rasterImage)
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class by initializing it with a RasterImage object. Perfect for developers looking to seamlessly convert existing raster images to the BmpImage format, ensuring compatibility and ease of integration into their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, dou
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Start working with the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by creating a new instance using a rasterImage along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public BmpImage(int width, int height)
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Start using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class effortlessly by creating a new instance with specified width and height parameters. Ideal for developers seeking a convenient way to generate BmpImage objects of custom dimensions, ensuring flexibility and ease of integration into their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -273,7 +273,7 @@ public BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. Perfect for developers seeking a straightforward way to create BmpImage objects with custom dimensions and color configurations, ensuring flexibility and efficiency in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, 
 ```
 
 
-Initializes a new instance of the `BmpImage` class.
+Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class with this constructor, specifying parameters like width, height, bitsPerPixel, and palette. Perfect for developers seeking a convenient way to generate BmpImage objects with custom dimensions and color configurations, ensuring flexibility and ease of integration into their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,12 +308,10 @@ public BitmapInfoHeader getBitmapInfoHeader()
 ```
 
 
-Gets the bitmap information header.
-
-Value: The bitmap information header.
+Quickly access essential details about your bitmap image with this straightforward function. Perfect for developers needing to retrieve header information for their images.
 
 **Returns:**
-[BitmapInfoHeader](../../com.aspose.imaging.fileformats.bmp/bitmapinfoheader)
+[BitmapInfoHeader](../../com.aspose.imaging.fileformats.bmp/bitmapinfoheader) - The bitmap information header.
 
 **Example: The following example gets the information from the BMP header and prints it to the console.**
 
@@ -360,7 +358,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
 
 **Returns:**
 long
@@ -453,12 +451,10 @@ public PixelDataFormat getRawDataFormat()
 ```
 
 
-Gets the raw data format.
-
-Value: The raw data format.
+Easily obtain the format of your raw data with this user-friendly function. Perfect for developers looking to quickly access crucial information about their data format.
 
 **Returns:**
-[PixelDataFormat](../../com.aspose.imaging/pixeldataformat)
+[PixelDataFormat](../../com.aspose.imaging/pixeldataformat) - The raw data format.
 
 **Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
 
@@ -511,12 +507,10 @@ public int getRawLineSize()
 ```
 
 
-Gets the raw line size in bytes.
-
-Value: The raw line size in bytes.
+Quickly access the size of each raw line in bytes with this straightforward property. Ideal for developers needing to efficiently handle raw image data.
 
 **Returns:**
-int
+int - The raw line size in bytes.
 
 **Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
 
@@ -569,12 +563,10 @@ public long getCompression()
 ```
 
 
-Gets the image compression.
-
-Value: The image compression.
+Retrieve the compression type used for the image effortlessly with this property. Perfect for developers needing to quickly access information about image compression.
 
 **Returns:**
-long
+long - The image compression [BitmapCompression](../../com.aspose.imaging.fileformats.bmp/bitmapcompression).
 
 **Example: The following example shows how the bitmap compression affects the output image size.**
 
@@ -671,12 +663,10 @@ public int getWidth()
 ```
 
 
-Gets the image width.
-
-Value: The image width.
+Access the width of the image easily with this property. Ideal for developers seeking quick information about the image dimensions.
 
 **Returns:**
-int
+int - The image width in pixels.
 
 **Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
 
@@ -729,12 +719,10 @@ public int getHeight()
 ```
 
 
-Gets the image height.
-
-Value: The image height.
+Retrieve the height of the image effortlessly with this property. Ideal for developers needing quick access to information about image dimensions.
 
 **Returns:**
-int
+int - The image height in pixels.
 
 **Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
 
@@ -787,12 +775,10 @@ public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
-
-Value: The image bits per pixel count.
+Access the number of bits per pixel for the image with ease using this property. Perfect for developers seeking quick information about image quality and depth.
 
 **Returns:**
-int
+int - The image bits per pixel count.
 
 **Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
 
@@ -845,14 +831,12 @@ public double getHorizontalResolution()
 ```
 
 
-Gets or sets the horizontal resolution, in pixels per inch, of this `RasterImage`.
-
-Value: The horizontal resolution.
-
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
+This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage) object. Ideal for developers needing precise control over image resolution for their applications.
 
 **Returns:**
-double
+double - The horizontal resolution.
+
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
 
@@ -895,16 +879,16 @@ public void setHorizontalResolution(double value)
 ```
 
 
-Gets or sets the horizontal resolution, in pixels per inch, of this `RasterImage`.
-
-Value: The horizontal resolution.
-
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
+This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage) object. Ideal for developers needing precise control over image resolution for their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | double | The horizontal resolution.
+
+--------------------
+
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call. |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -912,14 +896,14 @@ public double getVerticalResolution()
 ```
 
 
-Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`.
-
-Value: The vertical resolution.
-
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
+Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. Perfect for developers requiring precise control over image resolution in their applications.
 
 **Returns:**
-double
+double - The vertical resolution.
+
+--------------------
+
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
 
@@ -962,16 +946,16 @@ public void setVerticalResolution(double value)
 ```
 
 
-Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`.
-
-Value: The vertical resolution.
-
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
+Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. Perfect for developers requiring precise control over image resolution in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | double | The vertical resolution.
+
+--------------------
+
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call. |
 
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```
@@ -979,13 +963,13 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-Sets the resolution for this `RasterImage`.
+Adjust the resolution of your [RasterImage](../../com.aspose.imaging/rasterimage) effortlessly with this user-friendly method. Perfect for developers seeking precise control over image resolution in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dpiX | double | The horizontal resolution, in dots per inch, of the `RasterImage`. |
-| dpiY | double | The vertical resolution, in dots per inch, of the `RasterImage`. |
+| dpiX | double | The horizontal resolution, in dots per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiY | double | The vertical resolution, in dots per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage). |
 
 
 **Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
@@ -1029,7 +1013,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve the default options effortlessly with this straightforward method. Ideal for developers seeking quick access to default image settings or configurations.
 
 **Parameters:**
 | Parameter | Type | Description |

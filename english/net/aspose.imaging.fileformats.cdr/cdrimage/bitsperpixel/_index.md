@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/bitsperpixel/
 ---
 ## CdrImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Retrieve the bit depth of the image effortlessly with this user-friendly property. Ideal for developers seeking to determine the level of detail or color depth present in their images, ensuring accurate processing and manipulation.
 
 ```csharp
 public override int BitsPerPixel { get; }

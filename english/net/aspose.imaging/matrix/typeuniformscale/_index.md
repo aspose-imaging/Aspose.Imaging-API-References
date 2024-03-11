@@ -3,7 +3,7 @@ title: TypeUniformScale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.imaging/matrix/typeuniformscale/
 ---
 ## Matrix.TypeUniformScale field

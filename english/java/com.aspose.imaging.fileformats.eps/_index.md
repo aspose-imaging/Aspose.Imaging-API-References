@@ -14,7 +14,7 @@ The package contains EPS format type
 
 | Class | Description |
 | --- | --- |
-| [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) | The EPS image class. |
+| [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) | The API for Encapsulated PostScript (EPS) image file format support offers robust capabilities for manipulating compositions comprising text, graphics, and images. |
 | [EpsLoadOptions](../com.aspose.imaging.fileformats.eps/epsloadoptions) | EPS load options |
 | [EpsOptions](../com.aspose.imaging.fileformats.eps/epsoptions) | EPS options (currently not used) |
 | [EpsPreviewFormat](../com.aspose.imaging.fileformats.eps/epspreviewformat) | The [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) preview image formats. |

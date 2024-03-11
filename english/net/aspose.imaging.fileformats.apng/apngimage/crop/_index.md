@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/crop/
 ---
 ## ApngImage.Crop method (1 of 2)
 
-Cropping the image.
+Effortlessly crop the image to focus on specific areas with this intuitive method. Perfect for developers seeking to refine the composition of their images dynamically.
 
 ```csharp
 public override void Crop(Rectangle rectangle)
@@ -29,7 +29,7 @@ public override void Crop(Rectangle rectangle)
 
 ## ApngImage.Crop method (2 of 2)
 
-Crop image with shifts.
+Crop the image while adjusting shifts seamlessly with this intuitive method. Ideal for developers seeking precise control over the cropping process to focus on specific areas of their Apng images.
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/filter/
 ---
 ## DicomImage.Filter method
 
-Filters the specified rectangle.
+Effortlessly enhance specific areas of your image by applying filters to designated rectangles. This method provides developers with precise control over image manipulation, allowing for targeted adjustments to achieve desired visual effects with ease.
 
 ```csharp
 public override void Filter(Rectangle rectangle, FilterOptionsBase options)

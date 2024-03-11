@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/fileformat/
 ---
 ## DicomImage.FileFormat property
 
-Gets a value of file format
+Retrieve the file format value effortlessly with this intuitive property. Ideal for developers seeking quick access to the format of the image file, ensuring efficient handling and processing based on the file type.
 
 ```csharp
 public override FileFormat FileFormat { get; }

@@ -24,7 +24,7 @@ public virtual void Rotate(float angle, bool resizeProportionally, Color backgro
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | Not implemented exception |
 
 ### See Also
 

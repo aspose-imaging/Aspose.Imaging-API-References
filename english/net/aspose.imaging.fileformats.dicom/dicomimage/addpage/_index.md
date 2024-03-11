@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/addpage/
 ---
 ## DicomImage.AddPage method (1 of 2)
 
-Adds page to the image.
+Expand your image collection by adding a new page with this intuitive method. Ideal for developers seeking to dynamically append pages to multi-page images, ensuring seamless expansion and organization of image content.
 
 ```csharp
 public void AddPage(RasterImage page)
@@ -35,7 +35,7 @@ public void AddPage(RasterImage page)
 
 ## DicomImage.AddPage method (2 of 2)
 
-Adds a new page to the end of the page list.
+Append a new page to the end of the image's page list with this straightforward method. Ideal for developers seeking to dynamically expand multi-page images, ensuring seamless integration and organization of image content.
 
 ```csharp
 public DicomPage AddPage()

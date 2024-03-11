@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/adjustbrightness/
 ---
 ## DicomImage.AdjustBrightness method
 
-Adjust of a *brightness* for image.
+Enhance image luminance with the adjustment of *brightness*, a parameterized method that allows developers to finely tune the luminosity of images. This user-friendly function empowers developers to seamlessly manipulate image brightness, offering flexibility and control over visual aesthetics.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

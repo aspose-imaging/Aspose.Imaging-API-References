@@ -16,4 +16,4 @@ The package handles Png file format processing.
 | --- | --- |
 | [PngColorType](../com.aspose.imaging.fileformats.png/pngcolortype) | Represents the PNG image color type. |
 | [PngFilterType](../com.aspose.imaging.fileformats.png/pngfiltertype) | The png filter type. |
-| [PngImage](../com.aspose.imaging.fileformats.png/pngimage) | The new png image. |
+| [PngImage](../com.aspose.imaging.fileformats.png/pngimage) | Manipulate Portable Network Graphics (PNG) raster images with our versatile API, featuring support for compression levels and various color depths including Grayscale, Indexed Color, TrueColor, and alpha channels. |

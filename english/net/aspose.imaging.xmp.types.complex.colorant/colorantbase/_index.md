@@ -3,7 +3,7 @@ title: ColorantBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11880
+weight: 11890
 url: /net/aspose.imaging.xmp.types.complex.colorant/colorantbase/
 ---
 ## ColorantBase class

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/rotate/
 ---
 ## ApngImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+Rotate the image around its center effortlessly with this intuitive method. Perfect for developers seeking to adjust the orientation of their images dynamically.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

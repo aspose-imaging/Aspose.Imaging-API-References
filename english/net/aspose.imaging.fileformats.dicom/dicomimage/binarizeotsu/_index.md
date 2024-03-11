@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/binarizeotsu/
 ---
 ## DicomImage.BinarizeOtsu method
 
-Binarization of an image with Otsu thresholding
+Apply Otsu thresholding to binarize the image, automatically determining the optimal threshold value based on the image's histogram. Perfect for developers seeking a reliable method to segment images into foreground and background regions with minimal manual intervention.
 
 ```csharp
 public override void BinarizeOtsu()

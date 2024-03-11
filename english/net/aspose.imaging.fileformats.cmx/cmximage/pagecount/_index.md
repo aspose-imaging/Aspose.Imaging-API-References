@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx/cmximage/pagecount/
 ---
 ## CmxImage.PageCount property
 
-Gets the page count.
+Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking to manage multi-page images dynamically, ensuring efficient navigation and manipulation of image content.
 
 ```csharp
 public override int PageCount { get; }

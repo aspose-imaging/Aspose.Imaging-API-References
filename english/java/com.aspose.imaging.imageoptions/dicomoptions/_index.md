@@ -1,7 +1,7 @@
 ---
 title: DicomOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The DICOM file format creation options.
+description: The API for Digital Imaging and Communications in Medicine DICOM raster image format creation is a specialized tool tailored for medical device applications.
 type: docs
 weight: 15
 url: /java/com.aspose.imaging.imageoptions/dicomoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DicomOptions extends ImageOptionsBase
 ```
 
-The DICOM file format creation options.
+The API for Digital Imaging and Communications in Medicine (DICOM) raster image format creation is a specialized tool tailored for medical device applications. It enables the seamless generation of DICOM images, crucial for storing medical data and containing vital identification information. With features to and set compression, define color types, and embed XMP metadata, developers can ensure compliance and flexibility in managing DICOM images for medical imaging purposes.
 ## Constructors
 
 | Constructor | Description |

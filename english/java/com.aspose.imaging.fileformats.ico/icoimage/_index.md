@@ -1,7 +1,7 @@
 ---
 title: IcoImage
 second_title: Aspose.Imaging for Java API Reference
-description: The ICO image class.
+description: Effortlessly manipulate ICO image files with our API supporting various file formats and frame types including PNG and BMP.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.ico/icoimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class IcoImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
-The ICO image class.
+Effortlessly manipulate ICO image files with our API, supporting various file formats and frame types including PNG and BMP. Customize bits per pixel settings and update image dimensions seamlessly, ensuring optimal representation and compatibility for your icons across different platforms.
 ## Constructors
 
 | Constructor | Description |

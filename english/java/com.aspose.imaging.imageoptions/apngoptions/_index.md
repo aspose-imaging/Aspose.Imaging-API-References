@@ -1,7 +1,7 @@
 ---
 title: ApngOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The animated PNG file format options
+description: The API for Animated PNG Animated Portable Network Graphics image file format creation is a dynamic tool for developers seeking to generate captivating animated images.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.imageoptions/apngoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class ApngOptions extends PngOptions
 ```
 
-The animated PNG file format options
+The API for Animated PNG (Animated Portable Network Graphics) image file format creation is a dynamic tool for developers seeking to generate captivating animated images. With customizable options such as frame duration and the number of times to loop, this API allows for fine-tuning animated content according to specific needs. Whether creating engaging web graphics or interactive visuals, you can leverage this API to seamlessly incorporate APNG images with precise control over animation parameters.
 ## Constructors
 
 | Constructor | Description |

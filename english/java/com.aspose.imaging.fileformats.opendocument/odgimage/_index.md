@@ -1,7 +1,7 @@
 ---
 title: OdgImage
 second_title: Aspose.Imaging for Java API Reference
-description: The Open Document Graphic
+description: Manipulate OpenDocument Graphic ODG vector image file format with our API widely used by OpenOffice and LibreOffice Draw applications for storing drawing elements in a vector format.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.fileformats.opendocument/odgimage/
@@ -12,9 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class OdgImage extends OdImage
 ```
 
-The Open Document Graphic
-
-``
+Manipulate OpenDocument Graphic (ODG) vector image file format with our API, widely used by OpenOffice and LibreOffice Draw applications for storing drawing elements in a vector format. Seamlessly parse documents, access pages, resize and rotate images, ensuring efficient processing and customization of ODG files to meet your specific requirements.
 ## Constructors
 
 | Constructor | Description |

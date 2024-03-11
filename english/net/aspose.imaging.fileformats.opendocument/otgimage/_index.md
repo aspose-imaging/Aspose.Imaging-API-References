@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/otgimage/
 ---
 ## OtgImage class
 
-The Otg image
+Process OpenDocument Template (OTG) drawing image files with our API, leveraging the OpenDocument XML format with Graphics Content for seamless manipulation. Easily parse documents, customize background colors, and adjust page dimensions, ensuring optimal control and flexibility for your OTG vector graphics projects.
 
 ```csharp
 public class OtgImage : OdImage

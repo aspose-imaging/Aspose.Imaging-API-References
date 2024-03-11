@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/rawlinesize/
 ---
 ## BmpImage.RawLineSize property
 
-Gets the raw line size in bytes.
+Quickly access the size of each raw line in bytes with this straightforward property. Ideal for developers needing to efficiently handle raw image data.
 
 ```csharp
 public override int RawLineSize { get; }

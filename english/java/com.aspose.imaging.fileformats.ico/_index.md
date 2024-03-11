@@ -14,4 +14,4 @@ The package handling ICO file format processing.
 
 | Class | Description |
 | --- | --- |
-| [IcoImage](../com.aspose.imaging.fileformats.ico/icoimage) | The ICO image class. |
+| [IcoImage](../com.aspose.imaging.fileformats.ico/icoimage) | Effortlessly manipulate ICO image files with our API, supporting various file formats and frame types including PNG and BMP. |

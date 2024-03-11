@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 ---
 ## Jpeg2000Image class
 
-Jpeg2000 library main class
+Efficiently manipulate JPEG2000 (JP2) image files with our API, supporting a range of bits per pixel depths and seamless processing of XMP metadata containing essential image information. With capabilities for lossless compression, ensure optimal image quality while maintaining file integrity, empowering you to tailor JP2 images to your exact specifications with ease.
 
 ```csharp
 public sealed class Jpeg2000Image : RasterCachedImage

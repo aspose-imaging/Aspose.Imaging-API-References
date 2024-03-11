@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/fileinfo/
 ---
 ## DicomImage.FileInfo property
 
-Gets a value, which contains info header the DICOM file
+Retrieve valuable header information from the DICOM file effortlessly with this intuitive property. Ideal for developers seeking quick access to essential details encapsulated within the DICOM file, ensuring efficient data extraction and analysis.
 
 ```csharp
 public DicomImageInfo FileInfo { get; }

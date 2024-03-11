@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/pageexportingaction/
 ---
 ## DicomImage.PageExportingAction property
 
-Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Manage the page exporting action with this intuitive property. Ideal for developers seeking to control the export behavior of image pages, ensuring seamless integration and customization in various image processing workflows. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

@@ -21,9 +21,9 @@ Represents stream container which contains the stream and provides stream proces
 | Constructor | Description |
 | --- | --- |
 | [StreamContainer(InputStream stream)](#StreamContainer-java.io.InputStream-) | Initializes a new instance of the `StreamContainer` class. |
-| [StreamContainer(System.IO.Stream stream)](#StreamContainer-com.aspose.ms.System.IO.Stream-) |  |
+| [StreamContainer(System.IO.Stream stream)](#StreamContainer-com.aspose.ms.System.IO.Stream-) | Initializes a new instance of the `StreamContainer` class. |
 | [StreamContainer(InputStream stream, boolean disposeStream)](#StreamContainer-java.io.InputStream-boolean-) | Initializes a new instance of the `StreamContainer` class. |
-| [StreamContainer(System.IO.Stream stream, boolean disposeStream)](#StreamContainer-com.aspose.ms.System.IO.Stream-boolean-) |  |
+| [StreamContainer(System.IO.Stream stream, boolean disposeStream)](#StreamContainer-com.aspose.ms.System.IO.Stream-boolean-) | Initializes a new instance of the `StreamContainer` class. |
 ## Fields
 
 | Field | Description |
@@ -82,10 +82,12 @@ public StreamContainer(System.IO.Stream stream)
 ```
 
 
+Initializes a new instance of the `StreamContainer` class.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
+| stream | com.aspose.ms.System.IO.Stream | The stream. |
 
 ### StreamContainer(InputStream stream, boolean disposeStream) {#StreamContainer-java.io.InputStream-boolean-}
 ```
@@ -107,11 +109,13 @@ public StreamContainer(System.IO.Stream stream, boolean disposeStream)
 ```
 
 
+Initializes a new instance of the `StreamContainer` class.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
-| disposeStream | boolean |  |
+| stream | com.aspose.ms.System.IO.Stream | The data stream. |
+| disposeStream | boolean | if set to `true` the stream will be disposed when container is disposed. |
 
 ### READ_WRITE_BYTES_COUNT {#READ-WRITE-BYTES-COUNT}
 ```

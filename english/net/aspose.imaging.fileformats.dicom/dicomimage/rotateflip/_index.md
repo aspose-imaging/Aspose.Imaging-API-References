@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/rotateflip/
 ---
 ## DicomImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the Active frame only.
+Easily manipulate the active frame by rotating, flipping, or performing both actions simultaneously with this straightforward method. Ideal for developers who need to dynamically adjust the orientation of specific frames within their image sequences, ensuring optimal presentation and alignment.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

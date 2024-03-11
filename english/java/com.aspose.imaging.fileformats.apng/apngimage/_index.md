@@ -1,7 +1,7 @@
 ---
 title: ApngImage
 second_title: Aspose.Imaging for Java API Reference
-description: The animated PNG image.
+description: The API for Animated PNG Animated Portable Network Graphics image file format is a versatile solution for developers looking to integrate animated content into their applications.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.fileformats.apng/apngimage/
@@ -15,43 +15,43 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class ApngImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
-The animated PNG image.
+The API for Animated PNG (Animated Portable Network Graphics) image file format is a versatile solution for developers looking to integrate animated content into their applications. This API offers extensive control over frame settings, allowing users to define frame-specific parameters, including loop duration and PNG file settings. With this feature-rich tool, you can effortlessly manage and optimize the display of APNG images, import and export images, enhancing the dynamic and interactive aspects of your applications.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ApngImage(ApngOptions options, int width, int height)](#ApngImage-com.aspose.imaging.imageoptions.ApngOptions-int-int-) | Initializes a new instance of the [ApngImage](../../com.aspose.imaging.fileformats.apng/apngimage) class. |
+| [ApngImage(ApngOptions options, int width, int height)](#ApngImage-com.aspose.imaging.imageoptions.ApngOptions-int-int-) | Begin working with the [ApngImage](../../com.aspose.imaging.fileformats.apng/apngimage) class by initializing a new instance effortlessly. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getXmpData()](#getXmpData--) | Gets the XMP metadata. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata. |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. |
-| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. |
-| [getDefaultFrameTime()](#getDefaultFrameTime--) | Gets the default frame duration. |
-| [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Sets the default frame duration. |
-| [getInterlaced()](#getInterlaced--) | Gets a value indicating whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced. |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Gets the date and time the resource image was last modified. |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds page to the image. |
-| [addFrame()](#addFrame--) | Adds new frame to the end of the own frame collection. |
-| [addFrame(RasterImage frameImage)](#addFrame-com.aspose.imaging.RasterImage-) | Adds new frame to the end of the own frame collection. |
-| [addFrame(RasterImage frameImage, long frameTime)](#addFrame-com.aspose.imaging.RasterImage-long-) | Adds new frame to the end of the own frame collection. |
-| [insertFrame(int index)](#insertFrame-int-) | Inserts new frame into the own frame collection at the specified index. |
+| [getFileFormat()](#getFileFormat--) | Quickly access information about the file format with this convenient property. |
+| [getXmpData()](#getXmpData--) | Effortlessly manage XMP metadata associated with your files using this versatile property. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Effortlessly manage XMP metadata associated with your files using this versatile property. |
+| [getPageCount()](#getPageCount--) | Retrieve the total number of pages in your image file effortlessly with this property. |
+| [getPages()](#getPages--) | Effortlessly access the pages of your image with this convenient property. |
+| [getNumPlays()](#getNumPlays--) | Effortlessly control the number of times your animation loops with this versatile property. |
+| [setNumPlays(int value)](#setNumPlays-int-) | Effortlessly control the number of times your animation loops with this versatile property. |
+| [getDefaultFrameTime()](#getDefaultFrameTime--) | Easily adjust the default frame duration for creating new frames with this flexible property. |
+| [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Easily adjust the default frame duration for creating new frames with this flexible property. |
+| [getInterlaced()](#getInterlaced--) | Quickly determine whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. |
+| [getPageExportingAction()](#getPageExportingAction--) | Effortlessly manage the page exporting action with this versatile property. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Effortlessly manage the page exporting action with this versatile property. |
+| [getOriginalOptions()](#getOriginalOptions--) | Retrieve options based on the original file settings effortlessly with this intuitive method. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
+| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Quickly obtain the date and time when the resource image was last modified with this user-friendly method. |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Add a new page to the image effortlessly with this intuitive method. |
+| [addFrame()](#addFrame--) | /\*\* |
+| [addFrame(RasterImage frameImage)](#addFrame-com.aspose.imaging.RasterImage-) | Effortlessly expand your frame collection by adding a new frame to the end with this intuitive method. |
+| [addFrame(RasterImage frameImage, long frameTime)](#addFrame-com.aspose.imaging.RasterImage-long-) | Expand your frame collection seamlessly by appending a new frame to the with this intuitive method. |
+| [insertFrame(int index)](#insertFrame-int-) | Effortlessly insert a new frame into your frame collection at the specified with this intuitive method. |
 | [insertFrame(int index, RasterImage frameImage)](#insertFrame-int-com.aspose.imaging.RasterImage-) | Inserts new frame into the own frame collection at the specified index. |
 | [insertFrame(int index, RasterImage frameImage, long frameTime)](#insertFrame-int-com.aspose.imaging.RasterImage-long-) | Inserts new frame into the own frame collection at the specified index. |
-| [popFrameAt(int index)](#popFrameAt-int-) | Removes and returns the frame at the specified index of the own frame collection. |
-| [removeFrameAt(int index)](#removeFrameAt-int-) | Removes the frame at the specified index of the own frame collection. |
-| [removeAllFrames()](#removeAllFrames--) | Removes all frames from the own frame collection. |
-| [setDefaultImage(RasterImage image)](#setDefaultImage-com.aspose.imaging.RasterImage-) | Sets the specified raster image as the default image of the current animation. |
-| [resetDefaultImage()](#resetDefaultImage--) | Deletes a previously set default image. |
+| [popFrameAt(int index)](#popFrameAt-int-) | Remove and retrieve the frame at the specified index from your frame collection with this intuitive method. |
+| [removeFrameAt(int index)](#removeFrameAt-int-) | Remove the frame at the specified index from your frame collection seamlessly with this method. |
+| [removeAllFrames()](#removeAllFrames--) | Clear your frame collection by removing all frames with this intuitive method. |
+| [setDefaultImage(RasterImage image)](#setDefaultImage-com.aspose.imaging.RasterImage-) | Set the specified raster image as the default image for the current animation effortlessly with this method. |
+| [resetDefaultImage()](#resetDefaultImage--) | Remove a previously set default image with this intuitive method. |
 
 ## Example: The following example shows how to export to APNG file format.
 
@@ -95,7 +95,7 @@ public ApngImage(ApngOptions options, int width, int height)
 ```
 
 
-Initializes a new instance of the [ApngImage](../../com.aspose.imaging.fileformats.apng/apngimage) class.
+Begin working with the [ApngImage](../../com.aspose.imaging.fileformats.apng/apngimage) class by initializing a new instance effortlessly. Perfect for developers seeking to start using ApngImage objects quickly and efficiently in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -110,32 +110,36 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Quickly access information about the file format with this convenient property. Ideal for developers who need to retrieve details about the format of their Apng files easily.
 
 **Returns:**
-long - a value of file format
+long
 ### getXmpData() {#getXmpData--}
 ```
 public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets the XMP metadata.
+Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease.
+
+Value: The XMP metadata.
 
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the XMP metadata.
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Sets the XMP metadata.
+Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease.
+
+Value: The XMP metadata.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the XMP metadata. |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
 
 ### getPageCount() {#getPageCount--}
 ```
@@ -143,42 +147,50 @@ public int getPageCount()
 ```
 
 
-Gets the page count.
+Retrieve the total number of pages in your image file effortlessly with this property. Ideal for developers needing quick access to page count information.
+
+Value: The page count.
 
 **Returns:**
-int - the page count.
+int
 ### getPages() {#getPages--}
 ```
 public Image[] getPages()
 ```
 
 
-Gets the pages.
+Effortlessly access the pages of your image with this convenient property. Perfect for developers seeking quick and easy access to individual pages for manipulation.
+
+Value: The pages.
 
 **Returns:**
-com.aspose.imaging.Image[] - the pages.
+com.aspose.imaging.Image[]
 ### getNumPlays() {#getNumPlays--}
 ```
 public int getNumPlays()
 ```
 
 
-Gets the number of times to loop animation. 0 indicates infinite looping.
+Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0.
+
+Value: The number of times to loop.
 
 **Returns:**
-int - the number of times to loop animation.
+int
 ### setNumPlays(int value) {#setNumPlays-int-}
 ```
 public void setNumPlays(int value)
 ```
 
 
-Sets the number of times to loop animation. 0 indicates infinite looping.
+Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0.
+
+Value: The number of times to loop.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the number of times to loop animation. |
+| value | int |  |
 
 ### getDefaultFrameTime() {#getDefaultFrameTime--}
 ```
@@ -186,22 +198,26 @@ public long getDefaultFrameTime()
 ```
 
 
-Gets the default frame duration. Used when creating new frames.
+Easily adjust the default frame duration for creating new frames with this flexible property. Perfect for developers seeking to customize frame timing efficiently in their animations.
+
+Value: The default frame duration, in milliseconds.
 
 **Returns:**
-long - the default frame duration, in milliseconds.
+long
 ### setDefaultFrameTime(long value) {#setDefaultFrameTime-long-}
 ```
 public void setDefaultFrameTime(long value)
 ```
 
 
-Sets the default frame duration. Used when creating new frames.
+Easily adjust the default frame duration for creating new frames with this flexible property. Perfect for developers seeking to customize frame timing efficiently in their animations.
+
+Value: The default frame duration, in milliseconds.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | long | the default frame duration, in milliseconds. |
+| value | long |  |
 
 ### getInterlaced() {#getInterlaced--}
 ```
@@ -209,32 +225,38 @@ public boolean getInterlaced()
 ```
 
 
-Gets a value indicating whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced.
+Quickly determine whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. Ideal for developers needing to check the interlacing status of PNG images easily.
+
+Value: `true` if interlaced; otherwise, `false`.
 
 **Returns:**
-boolean - a value indicating whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced.
+boolean
 ### getPageExportingAction() {#getPageExportingAction--}
 ```
 public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Effortlessly manage the page exporting action with this versatile property. Perfect for developers seeking precise control over the exporting behavior of pages in their application. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+
+Value: The page exporting action.
 
 **Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
+[PageExportingAction](../../com.aspose.imaging/pageexportingaction)
 ### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
 ```
 public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Effortlessly manage the page exporting action with this versatile property. Perfect for developers seeking precise control over the exporting behavior of pages in their application. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+
+Value: The page exporting action.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
+| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) |  |
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -242,7 +264,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String,ImageOptionsBase)](../../com.aspose.imaging/image\#save-String-ImageOptionsBase-) method as the second parameter.
+Retrieve options based on the original file settings effortlessly with this intuitive method. Perfect for developers seeking to access and utilize settings that align with the characteristics of the original file. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -252,7 +274,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve the default options effortlessly with this straightforward method. Ideal for developers seeking quick access to default Apng image settings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +289,7 @@ public Date getModifyDate(boolean useDefault)
 ```
 
 
-Gets the date and time the resource image was last modified.
+Quickly obtain the date and time when the resource image was last modified with this user-friendly method. Ideal for developers needing to track changes and manage resources effectively.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +304,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Adds page to the image.
+Add a new page to the image effortlessly with this intuitive method. Perfect for developers seeking to expand the content of their image files dynamically.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +317,9 @@ public ApngFrame addFrame()
 ```
 
 
-Adds new frame to the end of the own frame collection. A new frame will be created according to the size of the current image.
+/\*\*
+
+Easily append a new frame to the end of your frame collection with this straightforward method. Ideal for developers looking to expand their frame collection dynamically for animations with multi-frame images. A new frame will be created according to the size of the current image.
 
 **Returns:**
 [ApngFrame](../../com.aspose.imaging.fileformats.apng/apngframe) - The newly created APNG frame.
@@ -305,7 +329,7 @@ public void addFrame(RasterImage frameImage)
 ```
 
 
-Adds new frame to the end of the own frame collection. The contents of the new frame will be filled from the specified image.
+Effortlessly expand your frame collection by adding a new frame to the end with this intuitive method. Perfect for developers seeking to enhance their animations of multi-frame images dynamically. The contents of the new frame will be filled from the specified image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -318,7 +342,7 @@ public void addFrame(RasterImage frameImage, long frameTime)
 ```
 
 
-Adds new frame to the end of the own frame collection. The contents of the new frame will be filled from the specified image.
+Expand your frame collection seamlessly by appending a new frame to the with this intuitive method. Ideal for developers looking to enrich their animations of multi-frame images. The contents of the new frame will be filled from the specified image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,7 +356,7 @@ public ApngFrame insertFrame(int index)
 ```
 
 
-Inserts new frame into the own frame collection at the specified index. A new frame will be created according to the size of the current image.
+Effortlessly insert a new frame into your frame collection at the specified with this intuitive method. Ideal for developers seeking precise control over the arrangement of frames in their animations of multi-frame images. A new frame will be created according to the size of the current image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,7 +400,7 @@ public ApngFrame popFrameAt(int index)
 ```
 
 
-Removes and returns the frame at the specified index of the own frame collection.
+Remove and retrieve the frame at the specified index from your frame collection with this intuitive method. Perfect for developers seeking efficient management of frames in their animations.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,7 +415,7 @@ public void removeFrameAt(int index)
 ```
 
 
-Removes the frame at the specified index of the own frame collection. The frame to be deleted will be disposed.
+Remove the frame at the specified index from your frame collection seamlessly with this method. Perfect for developers seeking streamlined management of frames in their multi-frame images. The frame to be deleted will be disposed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +428,7 @@ public void removeAllFrames()
 ```
 
 
-Removes all frames from the own frame collection.
+Clear your frame collection by removing all frames with this intuitive method. Ideal for developers seeking to reset or refresh their animations.
 
 ### setDefaultImage(RasterImage image) {#setDefaultImage-com.aspose.imaging.RasterImage-}
 ```
@@ -412,7 +436,7 @@ public void setDefaultImage(RasterImage image)
 ```
 
 
-Sets the specified raster image as the default image of the current animation.
+Set the specified raster image as the default image for the current animation effortlessly with this method. Perfect for developers seeking to customize the default image in their animations.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -425,5 +449,5 @@ public void resetDefaultImage()
 ```
 
 
-Deletes a previously set default image. After this, the default image is the first frame in the own frame collection (it cannot be deleted using this method).
+Remove a previously set default image with this intuitive method. Ideal for developers seeking to reset or clear the default image in their animation. After this, the default image is the first frame in the own frame collection (it cannot be deleted using this method).
 

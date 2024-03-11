@@ -3,7 +3,7 @@ title: TypeQuadrantRotation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.imaging/matrix/typequadrantrotation/
 ---
 ## Matrix.TypeQuadrantRotation field

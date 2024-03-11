@@ -1,7 +1,7 @@
 ---
 title: Jpeg2000Image
 second_title: Aspose.Imaging for Java API Reference
-description: Jpeg2000 library main class
+description: Efficiently manipulate JPEG2000 JP2 image files with our API supporting a range of bits per pixel depths and seamless processing of XMP metadata containing essential image information.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.fileformats.jpeg2000/jpeg2000image/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class Jpeg2000Image extends RasterCachedImage
 ```
 
-Jpeg2000 library main class
+Efficiently manipulate JPEG2000 (JP2) image files with our API, supporting a range of bits per pixel depths and seamless processing of XMP metadata containing essential image information. With capabilities for lossless compression, ensure optimal image quality while maintaining file integrity, empowering you to tailor JP2 images to your exact specifications with ease.
 ## Constructors
 
 | Constructor | Description |

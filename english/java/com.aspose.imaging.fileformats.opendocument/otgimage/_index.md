@@ -1,7 +1,7 @@
 ---
 title: OtgImage
 second_title: Aspose.Imaging for Java API Reference
-description: The Otg image
+description: Process OpenDocument Template OTG drawing image files with our API leveraging the OpenDocument XML format with Graphics Content for seamless manipulation.
 type: docs
 weight: 13
 url: /java/com.aspose.imaging.fileformats.opendocument/otgimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class OtgImage extends OdImage
 ```
 
-The Otg image
+Process OpenDocument Template (OTG) drawing image files with our API, leveraging the OpenDocument XML format with Graphics Content for seamless manipulation. Easily parse documents, customize background colors, and adjust page dimensions, ensuring optimal control and flexibility for your OTG vector graphics projects.
 ## Constructors
 
 | Constructor | Description |

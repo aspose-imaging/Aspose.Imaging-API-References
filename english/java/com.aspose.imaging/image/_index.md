@@ -55,7 +55,7 @@ The image is the base class for all type of images.
 | [isAutoAdjustPalette()](#isAutoAdjustPalette--) | Gets a value indicating whether automatic adjust palette. |
 | [setAutoAdjustPalette(boolean value)](#setAutoAdjustPalette-boolean-) | Sets a value indicating whether automatic adjust palette. |
 | [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether image has background color. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
+| [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets or sets a value for the background color. |
 | [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Gets or sets a value indicating whether image has background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Gets or sets a value for the background color. |
@@ -911,7 +911,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
 
 **Returns:**
 long

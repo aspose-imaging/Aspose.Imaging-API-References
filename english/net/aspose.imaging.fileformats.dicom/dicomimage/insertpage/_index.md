@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/insertpage/
 ---
 ## DicomImage.InsertPage method
 
-Inserts a new page into the page list at the specified index.
+Insert a new page into the image's page list at a specified index with this intuitive method. Ideal for developers seeking precise control over the arrangement of pages in multi-page images, ensuring seamless organization and customization of image content.
 
 ```csharp
 public DicomPage InsertPage(int pageIndex)

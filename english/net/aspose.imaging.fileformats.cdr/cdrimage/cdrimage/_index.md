@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/cdrimage/
 ---
 ## CdrImage constructor
 
-Initializes a new instance of the [`CdrImage`](../../cdrimage) class.
+Start working with the [`CdrImage`](../../cdrimage) class effortlessly by initializing a new instance with a stream and loadOptions parameters. Ideal for developers seeking a convenient way to load CDR images from various data sources while customizing the loading process as needed.
 
 ```csharp
 public CdrImage(Stream stream, LoadOptions loadOptions)

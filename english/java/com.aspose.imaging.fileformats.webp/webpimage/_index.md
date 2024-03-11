@@ -1,7 +1,7 @@
 ---
 title: WebPImage
 second_title: Aspose.Imaging for Java API Reference
-description: A webp image.
+description: Manipulate WebP raster images with our API using its modern features for both lossless and lossy compression ensuring optimal image quality with reduced file sizes.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.fileformats.webp/webpimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class WebPImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
-A webp image.
+Manipulate WebP raster images with our API, using its modern features for both lossless and lossy compression, ensuring optimal image quality with reduced file sizes. Seamlessly handle extended file formats, animations, and alpha channels, while easily updating dimensions, resizing proportionally, cropping, rotating, applying filters, adjusting image parameters, and converting to other image formats for versatile web image optimization.
 ## Constructors
 
 | Constructor | Description |

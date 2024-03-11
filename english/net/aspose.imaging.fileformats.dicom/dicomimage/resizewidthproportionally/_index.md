@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/resizewidthproportionally/
 ---
 ## DicomImage.ResizeWidthProportionally method
 
-Resizes the width proportionally.
+Adjust the width of the image while maintaining its aspect ratio with this convenient method. Ideal for developers seeking to resize images proportionally, ensuring consistent and visually appealing results across different display environment.
 
 ```csharp
 public override void ResizeWidthProportionally(int newWidth, ResizeType resizeType)

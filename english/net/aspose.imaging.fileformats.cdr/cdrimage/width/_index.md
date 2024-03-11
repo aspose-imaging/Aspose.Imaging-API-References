@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/width/
 ---
 ## CdrImage.Width property
 
-Gets the image width.
+Retrieve the width of the image seamlessly with this intuitive property. Ideal for developers seeking to access the dimensions of their images dynamically, ensuring precise layout and rendering in their applications.
 
 ```csharp
 public override int Width { get; }

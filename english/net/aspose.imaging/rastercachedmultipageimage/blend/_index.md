@@ -26,7 +26,7 @@ public override void Blend(Point origin, RasterImage overlay, Rectangle overlayA
 
 | exception | condition |
 | --- | --- |
-| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) |  |
+| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | Image exception |
 
 ### See Also
 

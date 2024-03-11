@@ -3,7 +3,7 @@ title: TransformPoints
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.imaging/matrix/transformpoints/
 ---
 ## Matrix.TransformPoints method

@@ -30,17 +30,17 @@ Represents XMP basic namespace.
 
 | Method | Description |
 | --- | --- |
+| [setLabel(String label)](#setLabel-java.lang.String-) | Sets the label. |
 | [addValue(String key, String value)](#addValue-java.lang.String-java.lang.String-) | Adds string property. |
 | [setCreatedDate(Date createdDate)](#setCreatedDate-java.util.Date-) | Adds resource created date. |
 | [setCreatedDate(String createdDate)](#setCreatedDate-java.lang.String-) | Adds resource created date. |
 | [setCreatorTool(String creatorTool)](#setCreatorTool-java.lang.String-) | Sets the creator tool. |
-| [setIdentifier(String[] idenfifier)](#setIdentifier-java.lang.String---) | Sets the identifier. |
-| [setLabel(String label)](#setLabel-java.lang.String-) | Sets the label. |
+| [setIdentifier(String[] identifier)](#setIdentifier-java.lang.String---) | Sets the identifier. |
 | [setMetadataDate(Date metadataDate)](#setMetadataDate-java.util.Date-) | Adds metadata last changed date. |
 | [setMetadataDate(String metadataDate)](#setMetadataDate-java.lang.String-) | Adds metadata last changed date. |
 | [setModifyDate(Date modifiedDate)](#setModifyDate-java.util.Date-) | Adds resource last modified date. |
 | [setModifyDate(String modifiedDate)](#setModifyDate-java.lang.String-) | Adds resource last modified date. |
-| [setRating(int choise)](#setRating-int-) | Sets rating. |
+| [setRating(int choice)](#setRating-int-) | Sets rating. |
 ### XmpBasicPackage() {#XmpBasicPackage--}
 ```
 public XmpBasicPackage()
@@ -86,6 +86,19 @@ public static final int RATING_MAX
 
 
 Rating max value.
+
+### setLabel(String label) {#setLabel-java.lang.String-}
+```
+public void setLabel(String label)
+```
+
+
+Sets the label.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| label | java.lang.String | The label. |
 
 ### addValue(String key, String value) {#addValue-java.lang.String-java.lang.String-}
 ```
@@ -140,9 +153,9 @@ Sets the creator tool.
 | --- | --- | --- |
 | creatorTool | java.lang.String | Name of tool. |
 
-### setIdentifier(String[] idenfifier) {#setIdentifier-java.lang.String---}
+### setIdentifier(String[] identifier) {#setIdentifier-java.lang.String---}
 ```
-public void setIdentifier(String[] idenfifier)
+public void setIdentifier(String[] identifier)
 ```
 
 
@@ -151,20 +164,7 @@ Sets the identifier.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| idenfifier | java.lang.String[] | The idenfifier. |
-
-### setLabel(String label) {#setLabel-java.lang.String-}
-```
-public void setLabel(String label)
-```
-
-
-Sets the label.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| label | java.lang.String | The label. |
+| identifier | java.lang.String[] | The identifier. |
 
 ### setMetadataDate(Date metadataDate) {#setMetadataDate-java.util.Date-}
 ```
@@ -218,9 +218,9 @@ Adds resource last modified date.
 | --- | --- | --- |
 | modifiedDate | java.lang.String | Last modified date. |
 
-### setRating(int choise) {#setRating-int-}
+### setRating(int choice) {#setRating-int-}
 ```
-public void setRating(int choise)
+public void setRating(int choice)
 ```
 
 
@@ -229,5 +229,5 @@ Sets rating.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| choise | int | From -1 till 5 |
+| choice | int | From -1 till 5 |
 

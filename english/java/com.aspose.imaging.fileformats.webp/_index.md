@@ -15,7 +15,7 @@ The package handles WebP file format processing.
 | Class | Description |
 | --- | --- |
 | [WebPFrameBlock](../com.aspose.imaging.fileformats.webp/webpframeblock) | Represents the webp blocks openers registry. |
-| [WebPImage](../com.aspose.imaging.fileformats.webp/webpimage) | A webp image. |
+| [WebPImage](../com.aspose.imaging.fileformats.webp/webpimage) | Manipulate WebP raster images with our API, using its modern features for both lossless and lossy compression, ensuring optimal image quality with reduced file sizes. |
 
 ## Interfaces
 

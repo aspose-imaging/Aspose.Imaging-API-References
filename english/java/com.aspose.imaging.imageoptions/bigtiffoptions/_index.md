@@ -1,7 +1,7 @@
 ---
 title: BigTiffOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The BigTiff image options.
+description: The API for BigTIFF raster image format creation is specifically designed to serve to the unique requirements of applications utilizing large-scale imaging data from scanners.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.imageoptions/bigtiffoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class BigTiffOptions extends TiffOptions
 ```
 
-The BigTiff image options.
+The API for BigTIFF raster image format creation is specifically designed to serve to the unique requirements of applications utilizing large-scale imaging data from scanners. This API facilitates the seamless generation of BigTIFF format, which combines multiple TIFF images into a single, comprehensive image. It ensures efficient processing of extensive image data, providing developers with a powerful tool for creating and manipulating high-resolution, multi-image formats.
 ## Constructors
 
 | Constructor | Description |
