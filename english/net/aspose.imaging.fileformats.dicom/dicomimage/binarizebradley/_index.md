@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/binarizebradley/
 ---
 ## DicomImage.BinarizeBradley method
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Binarize images with Bradley's adaptive thresholding algorithm, leveraging integral image thresholding for improved performance. Ideal for developers looking to automatically segment images based on local variations in brightness, ensuring accurate object detection and extraction in varying lighting conditions.
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)

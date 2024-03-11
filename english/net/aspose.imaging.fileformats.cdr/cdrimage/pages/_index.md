@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/pages/
 ---
 ## CdrImage.Pages property
 
-Gets the pages.
+Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multi-page images, ensuring efficient navigation and processing.
 
 ```csharp
 public override Image[] Pages { get; }

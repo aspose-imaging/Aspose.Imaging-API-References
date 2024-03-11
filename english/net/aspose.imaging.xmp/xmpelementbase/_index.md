@@ -3,7 +3,7 @@ title: XmpElementBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 12110
+weight: 12120
 url: /net/aspose.imaging.xmp/xmpelementbase/
 ---
 ## XmpElementBase class

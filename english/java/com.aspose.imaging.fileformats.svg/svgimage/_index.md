@@ -1,7 +1,7 @@
 ---
 title: SvgImage
 second_title: Aspose.Imaging for Java API Reference
-description: Represents SVG image class.
+description: Manipulate Scalar Vector Graphics SVG image files with our API utilizing the power of XML-based text format for seamless customization and scalability.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.fileformats.svg/svgimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class SvgImage extends VectorImage
 ```
 
-Represents SVG image class.
+Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the power of XML-based text format for seamless customization and scalability. Easily load SVG images, rasterize vector elements, and convert to other formats, while controlling compression levels to optimize file size and quality for your projects.
 ## Constructors
 
 | Constructor | Description |

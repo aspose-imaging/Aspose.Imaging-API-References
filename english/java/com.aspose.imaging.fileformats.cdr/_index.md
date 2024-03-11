@@ -14,7 +14,7 @@ The package handles Cdr file format processing.
 
 | Class | Description |
 | --- | --- |
-| [CdrImage](../com.aspose.imaging.fileformats.cdr/cdrimage) | The Cdr image. |
+| [CdrImage](../com.aspose.imaging.fileformats.cdr/cdrimage) | The API for CorelDRAW CDR vector image format support is an essential toolkit for developers working with vector graphics. |
 | [CdrImagePage](../com.aspose.imaging.fileformats.cdr/cdrimagepage) | The Cdr image page |
 
 ## Interfaces

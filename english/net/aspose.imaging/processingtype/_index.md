@@ -1,25 +1,25 @@
 ---
-title: WarpMode
+title: ProcessingType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11560
-url: /net/aspose.imaging/warpmode/
+weight: 11070
+url: /net/aspose.imaging/processingtype/
 ---
-## WarpMode enumeration
+## ProcessingType enumeration
 
-Specifies the type of warp transformation applied.
+The type of processing.
 
 ```csharp
-public enum WarpMode
+public enum ProcessingType
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Perspective | `0` | Specifies a perspective warp. |
-| Bilinear | `1` | Specifies a bilinear warp. |
+| Default | `0` | The default processing. |
+| Interlaced8 | `1` | Interlaced by 8 lines processing. |
 
 ### See Also
 

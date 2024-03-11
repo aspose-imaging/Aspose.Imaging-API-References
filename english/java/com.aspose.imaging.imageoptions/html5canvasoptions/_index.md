@@ -1,7 +1,7 @@
 ---
 title: Html5CanvasOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The Html5 Canvas file format creation options.
+description: Create HTML5 Canvas files effortlessly with our API allowing you to seamlessly combine elements like forms text images animations and links.
 type: docs
 weight: 23
 url: /java/com.aspose.imaging.imageoptions/html5canvasoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class Html5CanvasOptions extends ImageOptionsBase
 ```
 
-The Html5 Canvas file format creation options.
+Create HTML5 Canvas files effortlessly with our API, allowing you to seamlessly combine elements like forms, text, images, animations, and links. Benefit from robust features including tag identifier and encoding settings support, ensuring optimal performance and customization for your web projects.
 ## Constructors
 
 | Constructor | Description |

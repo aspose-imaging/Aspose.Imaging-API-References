@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 ---
 ## TiffImage class
 
-The tiff image.
+Process Tagged Image File Format (TIFF) raster images with our API, offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels. Normalize angles for scanned images, resize, transform to grayscale, and apply filters, gamma corrections and image parameters adjustments with ease. Seamlessly handle multi-frame TIFF files, create graphics paths, add shapes, and effortlessly save images to different formats.
 
 ```csharp
 public class TiffImage : RasterCachedMultipageImage, IMultipageImageExt

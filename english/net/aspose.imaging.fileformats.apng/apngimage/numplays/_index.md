@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/numplays/
 ---
 ## ApngImage.NumPlays property
 
-Gets or sets the number of times to loop animation. 0 indicates infinite looping.
+Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0.
 
 ```csharp
 public int NumPlays { get; set; }

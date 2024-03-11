@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/interlaced/
 ---
 ## ApngImage.Interlaced property
 
-Gets a value indicating whether this [`PngImage`](../../../aspose.imaging.fileformats.png/pngimage) is interlaced.
+Quickly determine whether this [`PngImage`](../../../aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. Ideal for developers needing to check the interlacing status of PNG images easily.
 
 ```csharp
 public bool Interlaced { get; }

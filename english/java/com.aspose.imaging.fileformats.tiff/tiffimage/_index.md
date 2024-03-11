@@ -1,7 +1,7 @@
 ---
 title: TiffImage
 second_title: Aspose.Imaging for Java API Reference
-description: The tiff image.
+description: Process Tagged Image File Format TIFF raster images with our API offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels.
 type: docs
 weight: 13
 url: /java/com.aspose.imaging.fileformats.tiff/tiffimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
-The tiff image.
+Process Tagged Image File Format (TIFF) raster images with our API, offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels. Normalize angles for scanned images, resize, transform to grayscale, and apply filters, gamma corrections and image parameters adjustments with ease. Seamlessly handle multi-frame TIFF files, create graphics paths, add shapes, and effortlessly save images to different formats.
 ## Constructors
 
 | Constructor | Description |

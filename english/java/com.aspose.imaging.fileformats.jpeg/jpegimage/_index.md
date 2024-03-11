@@ -1,7 +1,7 @@
 ---
 title: JpegImage
 second_title: Aspose.Imaging for Java API Reference
-description: A jpeg image.
+description: Efficiently manipulate JPEG raster images with our API offering support for various color profiles such as RGB and CMYK customizable bits per pixel resolution and processing of EXIF JFIF and XMP metadata containers.
 type: docs
 weight: 14
 url: /java/com.aspose.imaging.fileformats.jpeg/jpegimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class JpegImage extends RasterCachedImage
 ```
 
-A jpeg image.
+Efficiently manipulate JPEG raster images with our API, offering support for various color profiles such as RGB and CMYK, customizable bits per pixel resolution, and processing of EXIF, JFIF, and XMP metadata containers. Enjoy automated rotation based on orientation data and choose from different compression levels, including lossless JPEG, to achieve optimal image quality and file size balance for your projects.
 ## Constructors
 
 | Constructor | Description |

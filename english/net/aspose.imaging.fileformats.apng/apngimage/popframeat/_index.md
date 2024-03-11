@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/popframeat/
 ---
 ## ApngImage.PopFrameAt method
 
-Removes and returns the frame at the specified index of the own frame collection.
+Remove and retrieve the frame at the specified index from your frame collection with this intuitive method. Perfect for developers seeking efficient management of frames in their animations.
 
 ```csharp
 public ApngFrame PopFrameAt(int index)

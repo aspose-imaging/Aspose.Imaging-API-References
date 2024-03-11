@@ -1,7 +1,7 @@
 ---
 title: CdrImage
 second_title: Aspose.Imaging for Java API Reference
-description: The Cdr image.
+description: The API for CorelDRAW CDR vector image format support is an essential toolkit for developers working with vector graphics.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.cdr/cdrimage/
@@ -15,34 +15,34 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrImage extends VectorMultipageImage implements ICdrImage
 ```
 
-The Cdr image.
+The API for CorelDRAW CDR vector image format support is an essential toolkit for developers working with vector graphics. This API enables the seamless processing of CDR files, allowing for the storage and manipulation of diverse elements such as text, lines, shapes, images, colors, and effects. With its comprehensive capabilities, developers can efficiently work with vector representations of image contents, ensuring precision and flexibility in creating and editing CorelDRAW vector graphics programmatically.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CdrImage(InputStream stream, LoadOptions loadOptions)](#CdrImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class. |
+| [CdrImage(InputStream stream, LoadOptions loadOptions)](#CdrImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Start working with the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class effortlessly by initializing a new instance with a stream and loadOptions parameters. |
 | [CdrImage(System.IO.Stream stream, LoadOptions loadOptions)](#CdrImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
-| [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getCdrDocument()](#getCdrDocument--) | Gets the CDR document. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
+| [getDefaultPage()](#getDefaultPage--) | Retrieve the default page of the image with ease using this user-friendly property. |
+| [isCached()](#isCached--) | Effortlessly determine whether the object's data is currently cached, eliminating the need for data reading. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the bit depth of the image effortlessly with this user-friendly property. |
+| [getWidth()](#getWidth--) | Retrieve the width of the image seamlessly with this intuitive property. |
+| [getHeight()](#getHeight--) | Retrieve the height of the image effortlessly with this intuitive property. |
+| [getPageCount()](#getPageCount--) | Effortlessly retrieve or update the total page count of the image with this intuitive property. |
+| [getPages()](#getPages--) | Retrieve the pages of the image seamlessly with this intuitive property. |
+| [getCdrDocument()](#getCdrDocument--) | Effortlessly retrieve or update the CDR document using this intuitive property. |
+| [getFileFormat()](#getFileFormat--) | Retrieve the file format of the image effortlessly with this intuitive property. |
+| [getPageExportingAction()](#getPageExportingAction--) | Effortlessly retrieve the page exporting action associated with the image using this intuitive property. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Effortlessly modify the page exporting action associated with the image using this intuitive property. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
+| [cacheData()](#cacheData--) | Effortlessly cache the data to prevent additional loading from the underlying source with this user-friendly method. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Effortlessly resize the image to desired dimensions with this intuitive method. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize the color palette of the image with this intuitive method. |
 
 ## Example: The following example shows how to cache all pages of a CDR image.
 
@@ -70,7 +70,7 @@ public CdrImage(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class.
+Start working with the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class effortlessly by initializing a new instance with a stream and loadOptions parameters. Ideal for developers seeking a convenient way to load CDR images from various data sources while customizing the loading process as needed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -96,7 +96,7 @@ public Image getDefaultPage()
 ```
 
 
-Gets the default page.
+Retrieve the default page of the image with ease using this user-friendly property. Perfect for developers seeking quick access to the primary page of their image, ensuring efficient navigation and management.
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - the default page.
@@ -106,47 +106,47 @@ public boolean isCached()
 ```
 
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+Effortlessly determine whether the object's data is currently cached, eliminating the need for data reading. Ideal for developers seeking to optimize performance by leveraging cached data efficiently, ensuring faster access to object information.
 
 **Returns:**
-boolean
+boolean - `true` if object's data is cached; otherwise, `false`.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Retrieve the bit depth of the image effortlessly with this user-friendly property. Ideal for developers seeking to determine the level of detail or color depth present in their images, ensuring accurate processing and manipulation.
 
 **Returns:**
-int - the image bits per pixel count.
+int - The image bits per pixel count.
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
 ```
 
 
-Gets the image width.
+Retrieve the width of the image seamlessly with this intuitive property. Ideal for developers seeking to access the dimensions of their images dynamically, ensuring precise layout and rendering in their applications.
 
 **Returns:**
-int - the image width.
+int - The image width in pixels.
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
 ```
 
 
-Gets the image height.
+Retrieve the height of the image effortlessly with this intuitive property. Perfect for developers seeking to access the dimensions of their images dynamically, ensuring accurate layout and rendering in their applications.
 
 **Returns:**
-int - the image height.
+int - the image height in pixels.
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()
 ```
 
 
-Gets the page count.
+Effortlessly retrieve or update the total page count of the image with this intuitive property. Ideal for developers seeking to manage multi-page images dynamically, ensuring efficient navigation and manipulation of image content.
 
 **Returns:**
 int - the page count.
@@ -156,7 +156,7 @@ public final Image[] getPages()
 ```
 
 
-Gets the pages.
+Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multi-page images, ensuring efficient navigation and processing.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -195,7 +195,7 @@ public final CdrDocument getCdrDocument()
 ```
 
 
-Gets the CDR document.
+Effortlessly retrieve or update the CDR document using this intuitive property. Ideal for developers seeking to access or modify the CDR document, ensuring flexibility and efficiency in their applications.
 
 **Returns:**
 [CdrDocument](../../com.aspose.imaging.fileformats.cdr.objects/cdrdocument) - the CDR document.
@@ -205,19 +205,17 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieve the file format of the image effortlessly with this intuitive property. Ideal for developers seeking to determine the format of their images dynamically, ensuring compatibility and accurate processing in their applications.
 
 **Returns:**
-long - a value of file format
+long
 ### getPageExportingAction() {#getPageExportingAction--}
 ```
 public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+Effortlessly retrieve the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 **Returns:**
 [PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
@@ -227,9 +225,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+Effortlessly modify the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +238,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve the default options effortlessly with this user-friendly method. Perfect for developers seeking quick access to the default settings or configurations associated with an object, ensuring efficient customization and streamlined workflow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +253,7 @@ public void cacheData()
 ```
 
 
-Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
+Effortlessly cache the data to prevent additional loading from the underlying source with this user-friendly method. Ideal for developers seeking to optimize performance by preloading data, ensuring faster access and smoother operation in their applications. `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)/[DataStreamSupporter.setDataStreamContainer\_internalized(StreamContainer)](../../com.aspose.imaging/datastreamsupporter\#setDataStreamContainer-internalized-StreamContainer-)).
 
 
 **Example: The following example shows how to cache all pages of a CDR image.**
@@ -286,7 +282,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically, ensuring they fit the layout or requirements of their applications seamlessly.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +312,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the image.
+Adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. Perfect for developers seeking to customize image orientation dynamically, ensuring optimal presentation or alignment in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +325,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-Sets the image palette.
+Customize the color palette of the image with this intuitive method. Ideal for developers seeking to apply specific color schemes or adjustments dynamically, ensuring precise control over the visual appearance of their images.
 
 **Parameters:**
 | Parameter | Type | Description |

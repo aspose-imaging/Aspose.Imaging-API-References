@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/resize/
 ---
 ## DicomImage.Resize method (1 of 2)
 
-Resizes the image.
+Adjust the size of the image with this straightforward method. Ideal for developers looking to dynamically resize images, ensuring they fit seamlessly into various contexts and layouts within their applications.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -77,7 +77,7 @@ using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileF
 
 ## DicomImage.Resize method (2 of 2)
 
-Resizes the image.
+Adjust the size of your image with this simple resizing method. Whether you need to shrink or enlarge your image, this function ensures that your resizing needs are met efficiently and accurately, making it perfect for developers seeking quick and easy image size adjustments.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

@@ -3,7 +3,7 @@ title: TypeMaskScale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.imaging/matrix/typemaskscale/
 ---
 ## Matrix.TypeMaskScale field

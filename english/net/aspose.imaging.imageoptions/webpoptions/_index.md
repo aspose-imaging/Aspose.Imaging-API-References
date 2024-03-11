@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/webpoptions/
 ---
 ## WebPOptions class
 
-Webp image options
+Create modern WebP raster web images using our API, featuring robust support for lossless and lossy compression, as well as alpha channels and animation loops. Enhance your web content with dynamic visuals while optimizing file sizes for improved loading speeds and user experience.
 
 ```csharp
 public class WebPOptions : ImageOptionsBase

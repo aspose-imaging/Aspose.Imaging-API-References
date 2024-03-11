@@ -3,7 +3,7 @@ title: ProgressEventHandlerInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11090
+weight: 11100
 url: /net/aspose.imaging.progressmanagement/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class

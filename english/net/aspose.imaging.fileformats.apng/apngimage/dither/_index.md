@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/dither/
 ---
 ## ApngImage.Dither method
 
-Performs dithering on the current image.
+Easily apply dithering effects to the current image with this intuitive method. Ideal for developers looking to add texture or reduce color banding in their images.
 
 ```csharp
 public override void Dither(DitheringMethod ditheringMethod, int bitsCount, 

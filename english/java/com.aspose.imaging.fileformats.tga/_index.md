@@ -14,4 +14,4 @@ The package handles Tga file format processing.
 
 | Class | Description |
 | --- | --- |
-| [TgaImage](../com.aspose.imaging.fileformats.tga/tgaimage) | The TGA image. |
+| [TgaImage](../com.aspose.imaging.fileformats.tga/tgaimage) | Manipulate TGA raster image files with our API, tailored for the TARGA (Truevision Advanced Raster Adapter) format, enabling seamless loading and customization. |

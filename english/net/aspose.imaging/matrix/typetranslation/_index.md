@@ -3,7 +3,7 @@ title: TypeTranslation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.imaging/matrix/typetranslation/
 ---
 ## Matrix.TypeTranslation field

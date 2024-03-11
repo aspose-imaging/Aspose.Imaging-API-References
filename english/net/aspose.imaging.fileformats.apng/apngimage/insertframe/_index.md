@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/insertframe/
 ---
 ## ApngImage.InsertFrame method (1 of 3)
 
-Inserts new frame into the own frame collection at the specified index. A new frame will be created according to the size of the current image.
+Effortlessly insert a new frame into your frame collection at the specified with this intuitive method. Ideal for developers seeking precise control over the arrangement of frames in their animations of multi-frame images. A new frame will be created according to the size of the current image.
 
 ```csharp
 public ApngFrame InsertFrame(int index)

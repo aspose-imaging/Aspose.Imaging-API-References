@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/setdefaultimage/
 ---
 ## ApngImage.SetDefaultImage method
 
-Sets the specified raster image as the default image of the current animation.
+Set the specified raster image as the default image for the current animation effortlessly with this method. Perfect for developers seeking to customize the default image in their animations.
 
 ```csharp
 public void SetDefaultImage(RasterImage image)

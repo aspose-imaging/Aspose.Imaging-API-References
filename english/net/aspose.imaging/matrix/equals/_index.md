@@ -3,10 +3,35 @@ title: Equals
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 290
 url: /net/aspose.imaging/matrix/equals/
 ---
 ## Matrix.Equals method (1 of 2)
+
+Determines whether two matrixes are equal.
+
+```csharp
+public static bool Equals(Matrix a, Matrix b)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | Matrix | The first matrix to compare. |
+| b | Matrix | The second matrix to compare. |
+
+### Return Value
+
+True if matrixes are equal.
+
+### See Also
+
+* class [Matrix](../../matrix)
+* namespace [Aspose.Imaging](../../matrix)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Matrix.Equals method (2 of 2)
 
 Determines whether the specified Object is equal to this instance.
 
@@ -27,31 +52,6 @@ public override bool Equals(object obj)
 | exception | condition |
 | --- | --- |
 | NullReferenceException | The *obj* parameter is null. |
-
-### See Also
-
-* class [Matrix](../../matrix)
-* namespace [Aspose.Imaging](../../matrix)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## Matrix.Equals method (2 of 2)
-
-Determines whether two matrixes are equal.
-
-```csharp
-public static bool Equals(Matrix a, Matrix b)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | Matrix | The first matrix to compare. |
-| b | Matrix | The second matrix to compare. |
-
-### Return Value
-
-True if matrixes are equal.
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: ApngFrame
 second_title: Aspose.Imaging for Java API Reference
-description: The animated PNG image frame
+description: Craft animated PNG APNG image frames from single-page raster images with our API.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.apng/apngframe/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class ApngFrame extends RasterCachedImage implements IAnimationFrame
 ```
 
-The animated PNG image frame
+Craft animated PNG (APNG) image frames from single-page raster images with our API. Seamlessly set animation and frame duration, program the number of frames, and adjust gamma and contrast levels, ensuring captivating and customizable animations tailored to your vision.
 ## Methods
 
 | Method | Description |
@@ -29,13 +29,13 @@ The animated PNG image frame
 | [getFrameLeft()](#getFrameLeft--) | Gets the frame left offset. |
 | [getDisposalMethod()](#getDisposalMethod--) | Gets the disposal method. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | A value indicating whether image has transparent color. |
 | [hasAlpha()](#hasAlpha--) | Get a value indicating whether this instance has alpha. |
 | [getTransparentColor()](#getTransparentColor--) | Gets the transparent color. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | A value indicating whether image has transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | The transparent color. |
 | [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether has background color. |
-| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | A value indicating whether has background color. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
+| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | A value indicating whether has background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | The background color. |
 | [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
@@ -133,19 +133,6 @@ Gets a value indicating whether image has transparent color.
 
 **Returns:**
 boolean - a value indicating whether image has transparent color.
-### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
-```
-public void setTransparentColor(boolean value)
-```
-
-
-A value indicating whether image has transparent color.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether image has transparent color. |
-
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -166,6 +153,19 @@ Gets the transparent color.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - the transparent color.
+### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
+```
+public void setTransparentColor(boolean value)
+```
+
+
+A value indicating whether image has transparent color.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether image has transparent color. |
+
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
 public void setTransparentColor(Color value)
@@ -189,6 +189,16 @@ Gets a value indicating whether has background color.
 
 **Returns:**
 boolean - a value indicating whether it has background color.
+### getBackgroundColor() {#getBackgroundColor--}
+```
+public Color getBackgroundColor()
+```
+
+
+Gets the background color.
+
+**Returns:**
+[Color](../../com.aspose.imaging/color) - the background color.
 ### setBackgroundColor(boolean value) {#setBackgroundColor-boolean-}
 ```
 public void setBackgroundColor(boolean value)
@@ -202,16 +212,6 @@ A value indicating whether has background color.
 | --- | --- | --- |
 | value | boolean | a value indicating whether it has background color. |
 
-### getBackgroundColor() {#getBackgroundColor--}
-```
-public Color getBackgroundColor()
-```
-
-
-Gets the background color.
-
-**Returns:**
-[Color](../../com.aspose.imaging/color) - the background color.
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.imaging.Color-}
 ```
 public void setBackgroundColor(Color value)

@@ -16,5 +16,5 @@ The Open document graphic objects
 | --- | --- |
 | [OdImage](../com.aspose.imaging.fileformats.opendocument/odimage) | The open document |
 | [OdObject](../com.aspose.imaging.fileformats.opendocument/odobject) | The open document object. |
-| [OdgImage](../com.aspose.imaging.fileformats.opendocument/odgimage) | The Open Document Graphic |
-| [OtgImage](../com.aspose.imaging.fileformats.opendocument/otgimage) | The Otg image |
+| [OdgImage](../com.aspose.imaging.fileformats.opendocument/odgimage) | Manipulate OpenDocument Graphic (ODG) vector image file format with our API, widely used by OpenOffice and LibreOffice Draw applications for storing drawing elements in a vector format. |
+| [OtgImage](../com.aspose.imaging.fileformats.opendocument/otgimage) | Process OpenDocument Template (OTG) drawing image files with our API, leveraging the OpenDocument XML format with Graphics Content for seamless manipulation. |

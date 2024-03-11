@@ -3,7 +3,7 @@ title: TypeFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging/matrix/typeflip/
 ---
 ## Matrix.TypeFlip field

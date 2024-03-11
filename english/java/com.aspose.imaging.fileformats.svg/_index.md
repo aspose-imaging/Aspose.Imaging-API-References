@@ -15,7 +15,7 @@ The package handles SVG file format processing.
 | Class | Description |
 | --- | --- |
 | [SvgColorMode](../com.aspose.imaging.fileformats.svg/svgcolormode) | \\u0421olor mode for SVG images. |
-| [SvgImage](../com.aspose.imaging.fileformats.svg/svgimage) | Represents SVG image class. |
+| [SvgImage](../com.aspose.imaging.fileformats.svg/svgimage) | Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the power of XML-based text format for seamless customization and scalability. |
 | [SvgResourceKeeperCallback](../com.aspose.imaging.fileformats.svg/svgresourcekeepercallback) | The resource keeper callback |
 
 ## Interfaces

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/activepageindex/
 ---
 ## DicomImage.ActivePageIndex property
 
-Gets the index active page.
+Retrieve the index of the active page effortlessly with this intuitive property. Ideal for developers seeking quick access to the current page index within multi-page images, ensuring efficient navigation and processing.
 
 ```csharp
 public int ActivePageIndex { get; }

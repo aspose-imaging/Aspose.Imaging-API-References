@@ -1,7 +1,7 @@
 ---
 title: DicomImage
 second_title: Aspose.Imaging for Java API Reference
-description: It is class of the implementation working with image from DICOM file
+description: This Class implements Digital Imaging and Communications in Medicine DICOM raster image format support and offers a comprehensive solution for processing DICOM images with precision and flexibility.
 type: docs
 weight: 13
 url: /java/com.aspose.imaging.fileformats.dicom/dicomimage/
@@ -15,57 +15,57 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class DicomImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
-It is class of the implementation working with image from DICOM file
+This Class implements Digital Imaging and Communications in Medicine (DICOM) raster image format support and offers a comprehensive solution for processing DICOM images with precision and flexibility. You can seamlessly manipulate image pages, including operations to get, add, or remove pages, and control the default and active pages. With capabilities to work with alpha channels, embed XMP metadata, resize, rotate, crop, binarize, adjust, apply filters, and convert to other raster formats. This API empowers developers to handle DICOM images effectively while meeting diverse application requirements in medical imaging contexts.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DicomImage(DicomOptions dicomImage, int width, int height)](#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-) | Initializes a new instance of the [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) class. |
-| [DicomImage(InputStream stream, LoadOptions loadOptions)](#DicomImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) class. |
-| [DicomImage(InputStream stream)](#DicomImage-java.io.InputStream-) | Initializes a new instance of the [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) class. |
+| [DicomImage(DicomOptions dicomImage, int width, int height)](#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-) | Initialize a fresh instance of the DicomImage class effortlessly with this constructor, utilizing dicomOptions parameters. |
+| [DicomImage(InputStream stream, LoadOptions loadOptions)](#DicomImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Initiate a new instance of the DicomImage class smoothly by employing a stream and loadOptions parameters in this constructor. |
+| [DicomImage(InputStream stream)](#DicomImage-java.io.InputStream-) | Create a new instance of the DicomImage class by utilizing a stream parameter in this constructor. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getFileInfo()](#getFileInfo--) | Gets a value, which contains info header the DICOM file |
-| [getDicomPages()](#getDicomPages--) | Gets the pages. |
-| [getActivePage()](#getActivePage--) | Gets the active page. |
-| [setActivePage(DicomPage value)](#setActivePage-com.aspose.imaging.fileformats.dicom.DicomPage-) | Sets the active page. |
-| [getActivePageIndex()](#getActivePageIndex--) | Gets the index active page. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [hasAlpha()](#hasAlpha--) | Inform if image has alpha channel. |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [getXmpData()](#getXmpData--) | Gets the Xmp data. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the Xmp data. |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds page to the image. |
-| [saveAll(String filePath, ImageOptionsBase options)](#saveAll-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | Saves the object's data to the specified file (indexer + filename) location in the specified file format according to save options.. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this [RasterImage](../../com.aspose.imaging/rasterimage). |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Performs proportional resize on the image. |
-| [addPage()](#addPage--) | Adds a new page to the end of the page list. |
-| [insertPage(int pageIndex)](#insertPage-int-) | Inserts a new page into the page list at the specified index. |
-| [removePage(int pageIndex)](#removePage-int-) | Removes the page at the specified index of the page list. |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCachedMultipageImage.rotate` image around the center. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Resizes the width proportionally. |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Resizes the width proportionally. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the Active frame only. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
-| [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a `brightness` for image. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | [Image](../../com.aspose.imaging/image) contrasting |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filters the specified rectangle. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [cacheData()](#cacheData--) | Caches the data private. |
+| [getPageCount()](#getPageCount--) | Retrieve the total page count of the image with this intuitive property. |
+| [getPages()](#getPages--) | Access the pages of the image with this intuitive property. |
+| [getFileInfo()](#getFileInfo--) | Retrieve valuable header information from the DICOM file effortlessly with this intuitive property. |
+| [getDicomPages()](#getDicomPages--) | Access the pages of the image with this intuitive property. |
+| [getActivePage()](#getActivePage--) | Access to the active page of the image with this intuitive property. |
+| [setActivePage(DicomPage value)](#setActivePage-com.aspose.imaging.fileformats.dicom.DicomPage-) | Manage the active page of the image with this intuitive property. |
+| [getActivePageIndex()](#getActivePageIndex--) | Retrieve the index of the active page effortlessly with this intuitive property. |
+| [getFileFormat()](#getFileFormat--) | Retrieve the file format value effortlessly with this intuitive property. |
+| [hasAlpha()](#hasAlpha--) | Retrieve whether the image has an alpha channel effortlessly with this intuitive property. |
+| [getPageExportingAction()](#getPageExportingAction--) | Manage the page exporting action with this intuitive property. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Manage the page exporting action with this intuitive property. |
+| [getXmpData()](#getXmpData--) | Access or modify the XMP metadata associated with the image using this intuitive property. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Access or modify the XMP metadata associated with the image using this intuitive property. |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Expand your image collection by adding a new page with this intuitive method. |
+| [saveAll(String filePath, ImageOptionsBase options)](#saveAll-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | Preserve the object's data by saving it to the designated file (indexer + filename) location along with specified file format and options. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Adjust the resolution of this [RasterImage](../../com.aspose.imaging/rasterimage) with precision using this straightforward method. |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Resize the image while maintaining its aspect ratio with this convenient method. |
+| [addPage()](#addPage--) | Append a new page to the end of the image's page list with this straightforward method. |
+| [insertPage(int pageIndex)](#insertPage-int-) | Insert a new page into the image's page list at a specified index with this intuitive method. |
+| [removePage(int pageIndex)](#removePage-int-) | Eliminate the page at the specified index from the page list with this convenient method. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate the image around its center with this convenient method. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Adjust the size of the image with this straightforward method. |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Adjust the width of the image while maintaining its aspect ratio with this convenient method. |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Adjust the height of the image while maintaining its aspect ratio with this user-friendly method. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Easily manipulate the active frame by rotating, flipping, or performing both actions simultaneously with this straightforward method. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Enhance the current image by applying dithering effects with this straightforward method. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the image to remove unwanted areas and focus on essential content with this simple method. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Adjust the cropping area of the image by applying shifts with this versatile method. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Easily convert the image into a binary format using a predefined threshold with this straightforward method. |
+| [binarizeOtsu()](#binarizeOtsu--) | Apply Otsu thresholding to binarize the image, automatically determining the optimal threshold value based on the image's histogram. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarize images with Bradley's adaptive thresholding algorithm, leveraging integral image thresholding for improved performance. |
+| [grayscale()](#grayscale--) | Easily transform images into their grayscale representation, simplifying visual analysis and processing tasks. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | Enhance image quality and adjust it with gamma correction, a powerful technique for fine-tuning visual appearance. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Achieve precise color adjustments by applying gamma correction independently to the red, green, and blue components of an image. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Enhance image luminance with the adjustment of `brightness`, a parameterized method that allows developers to finely tune the luminosity of images. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | Enhance [Image](../../com.aspose.imaging/image) contrast with this user-friendly method, which adjusts the disparity between light and dark areas. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Effortlessly enhance specific areas of your image by applying filters to designated rectangles. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjust the size of your image with this simple resizing method. |
+| [cacheData()](#cacheData--) | This method efficiently caches data, optimizing performance and ensuring swift access when needed. |
 
 ## Example: This example demonstrates the loading and exporting of dicom file.
 
@@ -208,7 +208,7 @@ public DicomImage(DicomOptions dicomImage, int width, int height)
 ```
 
 
-Initializes a new instance of the [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) class.
+Initialize a fresh instance of the DicomImage class effortlessly with this constructor, utilizing dicomOptions parameters. Perfect for developers looking to dive into [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) objects swiftly and efficiently in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -223,7 +223,7 @@ public DicomImage(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) class.
+Initiate a new instance of the DicomImage class smoothly by employing a stream and loadOptions parameters in this constructor. Ideal for developers eager to start working with [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) objects promptly and effectively in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -237,7 +237,7 @@ public DicomImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) class.
+Create a new instance of the DicomImage class by utilizing a stream parameter in this constructor. Perfect for developers seeking a streamlined way to initialize [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) objects from existing data streams in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,9 +250,7 @@ public int getPageCount()
 ```
 
 
-Gets the page count.
-
-Value: The page count.
+Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking quick access to the number of pages within an image, ensuring efficient navigation and management.
 
 **Returns:**
 int - the page count.
@@ -262,7 +260,7 @@ public Image[] getPages()
 ```
 
 
-Gets the pages.
+Access the pages of the image with this intuitive property. Ideal for developers seeking to interact with individual pages within the image, ensuring seamless navigation and manipulation.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -272,7 +270,7 @@ public DicomImageInfo getFileInfo()
 ```
 
 
-Gets a value, which contains info header the DICOM file
+Retrieve valuable header information from the DICOM file effortlessly with this intuitive property. Ideal for developers seeking quick access to essential details encapsulated within the DICOM file, ensuring efficient data extraction and analysis.
 
 **Returns:**
 [DicomImageInfo](../../com.aspose.imaging.fileformats.dicom/dicomimageinfo) - a value, which contains info header the DICOM file
@@ -282,7 +280,7 @@ public DicomPage[] getDicomPages()
 ```
 
 
-Gets the pages.
+Access the pages of the image with this intuitive property. Ideal for developers seeking to interact with individual pages within the image, ensuring seamless navigation and manipulation.
 
 **Returns:**
 com.aspose.imaging.fileformats.dicom.DicomPage[] - the pages.
@@ -292,7 +290,7 @@ public DicomPage getActivePage()
 ```
 
 
-Gets the active page.
+Access to the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multi-page images, ensuring efficient navigation and processing.
 
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - the active page.
@@ -302,7 +300,7 @@ public void setActivePage(DicomPage value)
 ```
 
 
-Sets the active page.
+Manage the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multi-page images, ensuring efficient navigation and processing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +313,7 @@ public int getActivePageIndex()
 ```
 
 
-Gets the index active page.
+Retrieve the index of the active page effortlessly with this intuitive property. Ideal for developers seeking quick access to the current page index within multi-page images, ensuring efficient navigation and processing.
 
 **Returns:**
 int - the index active page.
@@ -325,17 +323,17 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieve the file format value effortlessly with this intuitive property. Ideal for developers seeking quick access to the format of the image file, ensuring efficient handling and processing based on the file type.
 
 **Returns:**
-long - a value of file format
+long - a value of file format [FileFormat](../../com.aspose.imaging/fileformat).
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
 ```
 
 
-Inform if image has alpha channel.
+Retrieve whether the image has an alpha channel effortlessly with this intuitive property. Ideal for developers seeking to determine if the image contains transparency information, ensuring precise handling of alpha channel data in image processing tasks.
 
 **Returns:**
 boolean - true if image has alpha channel.
@@ -345,7 +343,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Manage the page exporting action with this intuitive property. Ideal for developers seeking to control the export behavior of image pages, ensuring seamless integration and customization in various image processing workflows.
 
 **Returns:**
 [PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
@@ -355,7 +353,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Manage the page exporting action with this intuitive property. Ideal for developers seeking to control the export behavior of image pages, ensuring seamless integration and customization in various image processing workflows. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,22 +366,22 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets the Xmp data.
+Access or modify the XMP metadata associated with the image using this intuitive property. Ideal for developers seeking to manage metadata information embedded within the image file, ensuring seamless integration and customization in various image processing workflows.
 
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the Xmp data.
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Sets the Xmp data.
+Access or modify the XMP metadata associated with the image using this intuitive property. Ideal for developers seeking to manage metadata information embedded within the image file, ensuring seamless integration and customization in various image processing workflows.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the Xmp data. |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
 
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```
@@ -391,7 +389,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Adds page to the image.
+Expand your image collection by adding a new page with this intuitive method. Ideal for developers seeking to dynamically append pages to multi-page images, ensuring seamless expansion and organization of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +402,7 @@ public void saveAll(String filePath, ImageOptionsBase options)
 ```
 
 
-Saves the object's data to the specified file (indexer + filename) location in the specified file format according to save options..
+Preserve the object's data by saving it to the designated file (indexer + filename) location along with specified file format and options. Ideal for developers seeking to securely store data in various formats while maintaining flexibility and control over saving parameters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +416,7 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-Sets the resolution for this [RasterImage](../../com.aspose.imaging/rasterimage).
+Adjust the resolution of this [RasterImage](../../com.aspose.imaging/rasterimage) with precision using this straightforward method. Ideal for developers looking to tailor image resolution to specific requirements, ensuring optimal display quality and file size management.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -432,7 +430,7 @@ public void resizeProportional(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Performs proportional resize on the image. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
+Resize the image while maintaining its aspect ratio with this convenient method. Ideal for developers seeking to adjust the image dimensions proportionally, ensuring consistency and preserving the original content's proportions. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -447,7 +445,7 @@ public DicomPage addPage()
 ```
 
 
-Adds a new page to the end of the page list.
+Append a new page to the end of the image's page list with this straightforward method. Ideal for developers seeking to dynamically expand multi-page images, ensuring seamless integration and organization of image content.
 
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - The newly created [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage).
@@ -457,7 +455,7 @@ public DicomPage insertPage(int pageIndex)
 ```
 
 
-Inserts a new page into the page list at the specified index.
+Insert a new page into the image's page list at a specified index with this intuitive method. Ideal for developers seeking precise control over the arrangement of pages in multi-page images, ensuring seamless organization and customization of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -516,7 +514,7 @@ public void removePage(int pageIndex)
 ```
 
 
-Removes the page at the specified index of the page list.
+Eliminate the page at the specified index from the page list with this convenient method. Ideal for developers seeking precise control over the management of multi-page images, ensuring seamless organization and customization of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -529,7 +527,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-`RasterCachedMultipageImage.rotate` image around the center.
+Rotate the image around its center with this convenient method. Ideal for developers seeking to adjust image orientation dynamically, ensuring optimal presentation and alignment within their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -593,7 +591,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Adjust the size of the image with this straightforward method. Ideal for developers looking to dynamically resize images, ensuring they fit seamlessly into various contexts and layouts within their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -659,7 +657,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+Adjust the width of the image while maintaining its aspect ratio with this convenient method. Ideal for developers seeking to resize images proportionally, ensuring consistent and visually appealing results across different display environment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -724,7 +722,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+Adjust the height of the image while maintaining its aspect ratio with this user-friendly method. Perfect for developers seeking to dynamically resize images while preserving their proportions, ensuring optimal display and usability in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,7 +787,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the Active frame only.
+Easily manipulate the active frame by rotating, flipping, or performing both actions simultaneously with this straightforward method. Ideal for developers who need to dynamically adjust the orientation of specific frames within their image sequences, ensuring optimal presentation and alignment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -828,7 +826,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-Performs dithering on the current image.
+Enhance the current image by applying dithering effects with this straightforward method. Perfect for developers aiming to add texture and depth to images, improving their visual quality and overall appeal.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -876,7 +874,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-Cropping the image.
+Crop the image to remove unwanted areas and focus on essential content with this simple method. Ideal for developers seeking to customize the visual composition of images, ensuring they convey the desired message effectively.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -912,7 +910,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-Crop image with shifts.
+Adjust the cropping area of the image by applying shifts with this versatile method. Perfect for developers who need precise control over the cropping process, ensuring that important details are retained while eliminating unnecessary elements.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -950,7 +948,7 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-Binarization of an image with predefined threshold
+Easily convert the image into a binary format using a predefined threshold with this straightforward method. Ideal for developers looking to simplify image processing tasks by segmenting the image into foreground and background components based on specified intensity levels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -982,7 +980,7 @@ public void binarizeOtsu()
 ```
 
 
-Binarization of an image with Otsu thresholding
+Apply Otsu thresholding to binarize the image, automatically determining the optimal threshold value based on the image's histogram. Perfect for developers seeking a reliable method to segment images into foreground and background regions with minimal manual intervention.
 
 
 **Example: The following example binarizes a DICOM image with Otsu thresholding.**
@@ -1008,7 +1006,7 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Binarize images with Bradley's adaptive thresholding algorithm, leveraging integral image thresholding for improved performance. Ideal for developers looking to automatically segment images based on local variations in brightness, ensuring accurate object detection and extraction in varying lighting conditions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1040,7 +1038,7 @@ public void grayscale()
 ```
 
 
-Transformation of an image to its grayscale representation
+Easily transform images into their grayscale representation, simplifying visual analysis and processing tasks. Perfect for developers seeking to enhance image clarity, reduce complexity, and facilitate efficient grayscale-based algorithms for diverse applications.
 
 
 **Example: The following example transforms a colored DICOM image to its grayscale representation.**
@@ -1065,7 +1063,7 @@ public void adjustGamma(float gamma)
 ```
 
 
-Gamma-correction of an image.
+Enhance image quality and adjust it with gamma correction, a powerful technique for fine-tuning visual appearance. Perfect for developers aiming to optimize image presentation, adjust color balance, and ensure consistent rendering across different devices and environments.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1096,7 +1094,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-Gamma-correction of an image.
+Achieve precise color adjustments by applying gamma correction independently to the red, green, and blue components of an image. This method ensures accurate color balance and optimal visual output, catering to developers seeking granular control over image rendering and color accuracy.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1129,7 +1127,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-Adjust of a `brightness` for image.
+Enhance image luminance with the adjustment of `brightness`, a parameterized method that allows developers to finely tune the luminosity of images. This user-friendly function empowers developers to seamlessly manipulate image brightness, offering flexibility and control over visual aesthetics.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1160,7 +1158,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-[Image](../../com.aspose.imaging/image) contrasting
+Enhance [Image](../../com.aspose.imaging/image) contrast with this user-friendly method, which adjusts the disparity between light and dark areas. Improve visual clarity and definition effortlessly, providing developers with intuitive control over image contrast for optimal rendering.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1191,7 +1189,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-Filters the specified rectangle.
+Effortlessly enhance specific areas of your image by applying filters to designated rectangles. This method provides developers with precise control over image manipulation, allowing for targeted adjustments to achieve desired visual effects with ease.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1278,7 +1276,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Adjust the size of your image with this simple resizing method. Whether you need to shrink or enlarge your image, this function ensures that your resizing needs are met efficiently and accurately, making it perfect for developers seeking quick and easy image size adjustments.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1328,7 +1326,7 @@ public void cacheData()
 ```
 
 
-Caches the data private.
+This method efficiently caches data, optimizing performance and ensuring swift access when needed. Ideal for developers seeking to enhance the speed and efficiency of their applications by intelligently managing data resources.
 
 
 **Example: The following example shows how to cache all pages of a DICOM image.**

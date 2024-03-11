@@ -1,7 +1,7 @@
 ---
 title: PsdOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The PSD file format create options.
+description: Create Photoshop Document PSD images with our API offering versatile options with different format versions compression methods color modes and bits counts per color channel.
 type: docs
 weight: 38
 url: /java/com.aspose.imaging.imageoptions/psdoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class PsdOptions extends ImageOptionsBase
 ```
 
-The PSD file format create options.
+Create Photoshop Document (PSD) images with our API, offering versatile options with different format versions, compression methods, color modes, and bits counts per color channel. Seamlessly handle XMP metadata containers, ensuring comprehensive image processing with the power of PSD format features like image layers, layer masks, and file information for customization and creativity in your designs.
 ## Constructors
 
 | Constructor | Description |

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx/cmximage/heightf/
 ---
 ## CmxImage.HeightF property
 
-Gets the object height, in inches.
+Effortlessly obtain the height of the object, measured in inches, with this user-friendly property. Ideal for developers seeking precise dimensional information for effective layout and presentation in their applications.
 
 ```csharp
 public override float HeightF { get; }

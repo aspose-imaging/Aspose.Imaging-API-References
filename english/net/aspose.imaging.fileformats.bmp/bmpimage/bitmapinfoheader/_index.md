@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/bitmapinfoheader/
 ---
 ## BmpImage.BitmapInfoHeader property
 
-Gets the bitmap information header.
+Quickly access essential details about your bitmap image with this straightforward function. Perfect for developers needing to retrieve header information for their images.
 
 ```csharp
 public BitmapInfoHeader BitmapInfoHeader { get; }

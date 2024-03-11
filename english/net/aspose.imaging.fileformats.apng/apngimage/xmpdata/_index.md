@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/xmpdata/
 ---
 ## ApngImage.XmpData property
 
-Gets or sets the XMP metadata.
+Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease.
 
 ```csharp
 public override XmpPacketWrapper XmpData { get; set; }

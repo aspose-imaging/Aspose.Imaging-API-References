@@ -1,7 +1,7 @@
 ---
 title: BmpOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The bmp file format creation options.
+description: The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap BMP and Device Independent Bitmap DIB images.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.imageoptions/bmpoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class BmpOptions extends ImageOptionsBase
 ```
 
-The bmp file format creation options.
+The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap (BMP) and Device Independent Bitmap (DIB) images. With this API, you can precisely define image characteristics such as bits per pixel, compression level and compression type, tailoring the output to meet specific requirements. This feature-rich API empowers developers to create high-quality, customized raster images with ease and flexibility for diverse applications.
 ## Constructors
 
 | Constructor | Description |

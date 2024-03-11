@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/resize/
 ---
 ## CdrImage.Resize method (1 of 2)
 
-Resizes the image.
+Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically, ensuring they fit the layout or requirements of their applications seamlessly.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)

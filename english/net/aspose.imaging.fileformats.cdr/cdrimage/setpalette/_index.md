@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/setpalette/
 ---
 ## CdrImage.SetPalette method
 
-Sets the image palette.
+Customize the color palette of the image with this intuitive method. Ideal for developers seeking to apply specific color schemes or adjustments dynamically, ensuring precise control over the visual appearance of their images.
 
 ```csharp
 public override void SetPalette(IColorPalette palette, bool updateColors)

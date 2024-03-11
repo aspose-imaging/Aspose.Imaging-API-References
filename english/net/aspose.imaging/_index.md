@@ -137,6 +137,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [PenAlignment](./penalignment) | Specifies the alignment of a [`Pen`](../aspose.imaging/pen) object in relation to the theoretical, zero-width line. |
 | [PenType](./pentype) | Specifies the type of fill a [`Pen`](../aspose.imaging/pen) object uses to fill lines. |
 | [PixelFormat](./pixelformat) | The pixel data format actual meaning. |
+| [ProcessingType](./processingtype) | The type of processing. |
 | [ResizeType](./resizetype) | Specifies the resize type. |
 | [ResolutionUnit](./resolutionunit) | Resolution unit enum. |
 | [RotateFlipType](./rotatefliptype) | Specifies how much an image is rotated and the axis used to flip the image. |

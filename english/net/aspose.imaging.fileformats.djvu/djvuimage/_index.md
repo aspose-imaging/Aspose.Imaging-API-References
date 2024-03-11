@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/
 ---
 ## DjvuImage class
 
-DjvuDocument class
+DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books, integrating text, drawings, images, and photos into a single format. Supporting multi-page operations, you can efficiently access unique document identifiers, count pages, set active pages, and retrieve specific document pages. With features for resizing, rotating, dithering, cropping, grayscale transformation, gamma corrections, adjustments, and filters application, this class empowers precise manipulation and enhancement of DjVu images to meet diverse application needs with ease and precision.
 
 ```csharp
 public sealed class DjvuImage : RasterCachedMultipageImage, INotifyPropertyChanged

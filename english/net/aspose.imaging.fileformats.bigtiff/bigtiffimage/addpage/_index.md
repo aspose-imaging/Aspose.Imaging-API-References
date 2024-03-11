@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bigtiff/bigtiffimage/addpage/
 ---
 ## BigTiffImage.AddPage method
 
-Adds page to the image.
+Effortlessly expand your BigTiff image by adding a new page with this intuitive method. Perfect for developers seeking to dynamically enhance the content of their multi-page images.
 
 ```csharp
 public override void AddPage(RasterImage page)

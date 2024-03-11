@@ -3,7 +3,7 @@ title: GetElements
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging/matrix/getelements/
 ---
 ## Matrix.GetElements method

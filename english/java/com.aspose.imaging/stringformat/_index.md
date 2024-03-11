@@ -254,9 +254,7 @@ public int getDigitSubstitutionLanguage()
 Gets the language that is used when local digits are substituted for western digits.
 
 **Returns:**
-int - A National Language Support (NLS) language identifier that identifies the language that will be used when local digits are substituted for western digits. You can pass the `P:System.Globalization.CultureInfo.LCID` property of a `System.Globalization.CultureInfo` object as the NLS language identifier. For example, suppose you create a `System.Globalization.CultureInfo` object by passing the string "ar-EG" to a `System.Globalization.CultureInfo` constructor. If you pass the `P:System.Globalization.CultureInfo.LCID` property of that `System.Globalization.CultureInfo` object along with. `com.aspose.imaging.StringDigitSubstitute.Traditional` to the `com.aspose.imaging.StringFormat.setDigitSubstitution(int, com.aspose.imaging.StringDigitSubstitute)` method, then Arabic-Indic digits will be substituted for western digits at display time.
-
-The setter is introduced for the obsolete method setDigitSubstitution.
+int - A National Language Support (NLS) language identifier that identifies the language that will be used when local digits are substituted for western digits. You can pass the `P:System.Globalization.CultureInfo.LCID` property of a `System.Globalization.CultureInfo` object as the NLS language identifier. For example, suppose you create and set a locale "ar-EG". If you pass the `com.aspose.imaging.StringDigitSubstitute.Traditional` to the `com.aspose.imaging.StringFormat.setDigitSubstitution(int)` method, then Arabic-Indic digits will be substituted for western digits at display time.
 ### setDigitSubstitutionLanguage(int value) {#setDigitSubstitutionLanguage-int-}
 ```
 public void setDigitSubstitutionLanguage(int value)
@@ -268,9 +266,7 @@ Sets the language that is used when local digits are substituted for western dig
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A National Language Support (NLS) language identifier that identifies the language that will be used when local digits are substituted for western digits. You can pass the `P:System.Globalization.CultureInfo.LCID` property of a `System.Globalization.CultureInfo` object as the NLS language identifier. For example, suppose you create a `System.Globalization.CultureInfo` object by passing the string "ar-EG" to a `System.Globalization.CultureInfo` constructor. If you pass the `P:System.Globalization.CultureInfo.LCID` property of that `System.Globalization.CultureInfo` object along with. `com.aspose.imaging.StringDigitSubstitute.Traditional` to the `com.aspose.imaging.StringFormat.setDigitSubstitution(int,com.aspose.imaging.StringDigitSubstitute)` method, then Arabic-Indic digits will be substituted for western digits at display time.
-
-The setter is introduced for the obsolete method SetDigitSubstitution. |
+| value | int | A National Language Support (NLS) language identifier that identifies the language that will be used when local digits are substituted for western digits. You can pass the `P:System.Globalization.CultureInfo.LCID` property of a `System.Globalization.CultureInfo` object as the NLS language identifier. For example, suppose you create and set a locale "ar-EG". If you pass the `com.aspose.imaging.StringDigitSubstitute.Traditional` to the `com.aspose.imaging.StringFormat.setDigitSubstitution(int)` method, then Arabic-Indic digits will be substituted for western digits at display time. |
 
 ### getFirstTabOffset() {#getFirstTabOffset--}
 ```

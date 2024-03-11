@@ -1,7 +1,7 @@
 ---
 title: IcoOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The ICO file format creation options.
+description: Create custom ICO image files for application icons effortlessly with our API empowering you to represent your software seamlessly.
 type: docs
 weight: 24
 url: /java/com.aspose.imaging.imageoptions/icooptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class IcoOptions extends ImageOptionsBase
 ```
 
-The ICO file format creation options.
+Create custom ICO image files for application icons effortlessly with our API, empowering you to represent your software seamlessly. Our API supports PNG and BMP image frames with various bits per pixel values, ensuring versatility and compatibility for your icon creation needs.
 ## Constructors
 
 | Constructor | Description |

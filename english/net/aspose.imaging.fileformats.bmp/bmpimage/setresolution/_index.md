@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/setresolution/
 ---
 ## BmpImage.SetResolution method
 
-Sets the resolution for this [`RasterImage`](../../../aspose.imaging/rasterimage).
+Adjust the resolution of your [`RasterImage`](../../../aspose.imaging/rasterimage) effortlessly with this user-friendly method. Perfect for developers seeking precise control over image resolution in their applications.
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)

@@ -1,7 +1,7 @@
 ---
 title: DngImage
 second_title: Aspose.Imaging for Java API Reference
-description: Dng image representation class
+description: The API for processing DNG Digital Negative image file format used for digital photography needs by providing comprehensive support for raw files and metadata.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.fileformats.dng/dngimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DngImage extends RasterCachedImage
 ```
 
-Dng image representation class
+The API for processing DNG (Digital Negative) image file format used for digital photography needs by providing comprehensive support for raw files and metadata. Designed for use with digital cameras across various manufacturers, it enables developers to manipulate aspects like bits per pixel, extract internal data, and adjust image balance efficiently. With capabilities to update and save image data seamlessly, this API empowers developers to work with DNG files, ensuring high-quality results and versatile processing options.
 ## Constructors
 
 | Constructor | Description |

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.ico/icoimage/
 ---
 ## IcoImage class
 
-The ICO image class.
+Effortlessly manipulate ICO image files with our API, supporting various file formats and frame types including PNG and BMP. Customize bits per pixel settings and update image dimensions seamlessly, ensuring optimal representation and compatibility for your icons across different platforms.
 
 ```csharp
 public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt

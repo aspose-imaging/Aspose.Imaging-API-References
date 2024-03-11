@@ -1,7 +1,7 @@
 ---
 title: TgaImage
 second_title: Aspose.Imaging for Java API Reference
-description: The TGA image.
+description: Manipulate TGA raster image files with our API tailored for the TARGA Truevision Advanced Raster Adapter format enabling seamless loading and customization.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.tga/tgaimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TgaImage extends RasterCachedImage
 ```
 
-The TGA image.
+Manipulate TGA raster image files with our API, tailored for the TARGA (Truevision Advanced Raster Adapter) format, enabling seamless loading and customization. Easily update public properties such as author, timestamp, image ID, and software version, while using various bits per pixel settings, alpha channel and color transparency. Additionally, you can export TGA images to other popular raster formats, ensuring compatibility for your projects.
 ## Constructors
 
 | Constructor | Description |

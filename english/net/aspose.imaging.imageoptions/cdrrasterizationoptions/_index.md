@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 ---
 ## CdrRasterizationOptions class
 
-The Cdr rasterization options
+With the ability to perform CDR image rasterization and set scale factors for both X and Y dimensions, this API provides precise control over the transformation process. Whether scaling for specific output requirements or converting vector graphics to raster formats, you can leverage this API for efficient and customizable CDR vector to raster image conversion.
 
 ```csharp
 public class CdrRasterizationOptions : VectorRasterizationOptions

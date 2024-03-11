@@ -72,7 +72,7 @@ public static final int LzwOptimizedPredictor
 ```
 
 
-Predictor selection is more complicated and should result in smaller image sizes but taking more time. RFC 2083 says it is the best way to go. But on the test data baseline predictor [LzwBaselinePredictor](../../com.aspose.imaging.imageoptions/pdfimagecompressionoptions\#LzwBaselinePredictor) kicks ass leaving optimized predictor behing by 25-40% compression rate gains.
+Predictor selection is more complicated and should result in smaller image sizes but taking more time. RFC 2083 says it is the best way to go. But on the test data baseline predictor [LzwBaselinePredictor](../../com.aspose.imaging.imageoptions/pdfimagecompressionoptions\#LzwBaselinePredictor) kicks ass leaving optimized predictor behind by 25-40% compression rate gains.
 
 ### Jpeg {#Jpeg}
 ```

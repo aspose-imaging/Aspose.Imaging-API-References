@@ -14,5 +14,5 @@ The package handles Apng file format processing.
 
 | Class | Description |
 | --- | --- |
-| [ApngFrame](../com.aspose.imaging.fileformats.apng/apngframe) | The animated PNG image frame |
-| [ApngImage](../com.aspose.imaging.fileformats.apng/apngimage) | The animated PNG image. |
+| [ApngFrame](../com.aspose.imaging.fileformats.apng/apngframe) | Craft animated PNG (APNG) image frames from single-page raster images with our API. |
+| [ApngImage](../com.aspose.imaging.fileformats.apng/apngimage) | The API for Animated PNG (Animated Portable Network Graphics) image file format is a versatile solution for developers looking to integrate animated content into their applications. |

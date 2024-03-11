@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/resizeheightproportionally/
 ---
 ## ApngImage.ResizeHeightProportionally method
 
-Resizes the width proportionally.
+Effortlessly adjust the height of your image while maintaining its proportions with this intuitive method. Perfect for developers looking to resize images dynamically while preserving their aspect ratio.
 
 ```csharp
 public override void ResizeHeightProportionally(int newHeight, ResizeType resizeType)

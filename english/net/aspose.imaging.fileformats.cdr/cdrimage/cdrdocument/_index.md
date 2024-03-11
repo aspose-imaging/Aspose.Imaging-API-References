@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cdr/cdrimage/cdrdocument/
 ---
 ## CdrImage.CdrDocument property
 
-Gets or sets the CDR document.
+Effortlessly retrieve or update the CDR document using this intuitive property. Ideal for developers seeking to access or modify the CDR document, ensuring flexibility and efficiency in their applications.
 
 ```csharp
 public CdrDocument CdrDocument { get; }

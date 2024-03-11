@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/height/
 ---
 ## BmpImage.Height property
 
-Gets the image height.
+Retrieve the height of the image effortlessly with this property. Ideal for developers needing quick access to information about image dimensions.
 
 ```csharp
 public override int Height { get; }

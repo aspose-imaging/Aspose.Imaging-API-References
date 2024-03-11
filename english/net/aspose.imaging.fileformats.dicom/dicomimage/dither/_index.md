@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/dither/
 ---
 ## DicomImage.Dither method
 
-Performs dithering on the current image.
+Enhance the current image by applying dithering effects with this straightforward method. Perfect for developers aiming to add texture and depth to images, improving their visual quality and overall appeal.
 
 ```csharp
 public override void Dither(DitheringMethod ditheringMethod, int bitsCount, 

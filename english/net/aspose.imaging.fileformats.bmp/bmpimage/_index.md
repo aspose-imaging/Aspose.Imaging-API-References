@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/
 ---
 ## BmpImage class
 
-A bmp image (supports BMP, DIB formats).
+You can effortlessly handle Bitmap (BMP) and Device Independent Bitmap (DIB) files, facilitating efficient manipulation and processing of raster images. Performing various operations on images, this API streamlines the workflow, offering developers a reliable toolkit for working with BMP and DIB formats in their software applications.
 
 ```csharp
 public sealed class BmpImage : RasterCachedImage
@@ -18,15 +18,15 @@ public sealed class BmpImage : RasterCachedImage
 
 | Name | Description |
 | --- | --- |
-| [BmpImage](bmpimage)(RasterImage) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(Stream) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(string) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(int, int) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(int, int, ushort, IColorPalette) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(RasterImage, ushort, BitmapCompression, double, double) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(Stream, ushort, BitmapCompression, double, double) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(string, ushort, BitmapCompression, double, double) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
-| [BmpImage](bmpimage)(int, int, ushort, IColorPalette, BitmapCompression, double, double) | Initializes a new instance of the [`BmpImage`](../bmpimage) class. |
+| [BmpImage](bmpimage)(RasterImage) | Effortlessly create a new instance of the [`BmpImage`](../bmpimage) class by initializing it with a RasterImage object. Perfect for developers looking to seamlessly convert existing raster images to the BmpImage format, ensuring compatibility and ease of integration into their projects. |
+| [BmpImage](bmpimage)(Stream) | Begin using the [`BmpImage`](../bmpimage) class effortlessly by initializing a new instance with this constructor, using a stream as input. Perfect for developers seeking a convenient way to work with BmpImage objects from various data sources, ensuring flexibility and ease of integration. |
+| [BmpImage](bmpimage)(string) | Start using the BmpImage class effortlessly with this constructor that initializes a new instance. Perfect for developers who want to get up and running with [`BmpImage`](../bmpimage) objects quickly and efficiently. |
+| [BmpImage](bmpimage)(int, int) | Start using the [`BmpImage`](../bmpimage) class effortlessly by creating a new instance with specified width and height parameters. Ideal for developers seeking a convenient way to generate BmpImage objects of custom dimensions, ensuring flexibility and ease of integration into their projects. |
+| [BmpImage](bmpimage)(int, int, ushort, IColorPalette) | Begin using the [`BmpImage`](../bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. Perfect for developers seeking a straightforward way to create BmpImage objects with custom dimensions and color configurations, ensuring flexibility and efficiency in their projects. |
+| [BmpImage](bmpimage)(RasterImage, ushort, BitmapCompression, double, double) | Start working with the [`BmpImage`](../bmpimage) class seamlessly by creating a new instance using a rasterImage along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects. |
+| [BmpImage](bmpimage)(Stream, ushort, BitmapCompression, double, double) | Start working with the [`BmpImage`](../bmpimage) class seamlessly by creating a new instance using a stream, along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects. |
+| [BmpImage](bmpimage)(string, ushort, BitmapCompression, double, double) | Effortlessly create a new instance of the [`BmpImage`](../bmpimage) class with this constructor, using specified parameters like path, bitsPerPixel, and compression. Ideal for developers looking to initialize BmpImage objects quickly and efficiently, with precise control over image characteristics. |
+| [BmpImage](bmpimage)(int, int, ushort, IColorPalette, BitmapCompression, double, double) | Effortlessly create a new instance of the [`BmpImage`](../bmpimage) class with this constructor, specifying parameters like width, height, bitsPerPixel, and palette. Perfect for developers seeking a convenient way to generate BmpImage objects with custom dimensions and color configurations, ensuring flexibility and ease of integration into their projects. |
 
 ## Properties
 
@@ -34,20 +34,20 @@ public sealed class BmpImage : RasterCachedImage
 | --- | --- |
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | Gets or sets a value for the background color. |
-| [BitmapInfoHeader](../../aspose.imaging.fileformats.bmp/bmpimage/bitmapinfoheader) { get; } | Gets the bitmap information header. |
-| override [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bmpimage/bitsperpixel) { get; } | Gets the image bits per pixel count. |
+| [BitmapInfoHeader](../../aspose.imaging.fileformats.bmp/bmpimage/bitmapinfoheader) { get; } | Quickly access essential details about your bitmap image with this straightforward function. Perfect for developers needing to retrieve header information for their images. |
+| override [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bmpimage/bitsperpixel) { get; } | Access the number of bits per pixel for the image with ease using this property. Perfect for developers seeking quick information about image quality and depth. |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Gets the image bounds. |
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [Compression](../../aspose.imaging.fileformats.bmp/bmpimage/compression) { get; } | Gets the image compression. |
+| [Compression](../../aspose.imaging.fileformats.bmp/bmpimage/compression) { get; } | Retrieve the compression type used for the image effortlessly with this property. Perfect for developers needing to quickly access information about image compression. |
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| override [FileFormat](../../aspose.imaging.fileformats.bmp/bmpimage/fileformat) { get; } | Gets a value of file format |
+| override [FileFormat](../../aspose.imaging.fileformats.bmp/bmpimage/fileformat) { get; } | Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format. |
 | virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor) { get; set; } | Gets a value indicating whether image has transparent color. |
-| override [Height](../../aspose.imaging.fileformats.bmp/bmpimage/height) { get; } | Gets the image height. |
-| override [HorizontalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
+| override [Height](../../aspose.imaging.fileformats.bmp/bmpimage/height) { get; } | Retrieve the height of the image effortlessly with this property. Ideal for developers needing quick access to information about image dimensions. |
+| override [HorizontalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution) { get; set; } | This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [`RasterImage`](../../aspose.imaging/rasterimage) object. Ideal for developers needing precise control over image resolution for their applications. |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity) { get; } | Gets opacity of this image. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached) { get; } | Gets a value indicating whether image data is cached currently. |
@@ -55,18 +55,18 @@ public sealed class BmpImage : RasterCachedImage
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter) { get; set; } | Gets or sets the custom color converter |
-| override [RawDataFormat](../../aspose.imaging.fileformats.bmp/bmpimage/rawdataformat) { get; } | Gets the raw data format. |
+| override [RawDataFormat](../../aspose.imaging.fileformats.bmp/bmpimage/rawdataformat) { get; } | Easily obtain the format of your raw data with this user-friendly function. Perfect for developers looking to quickly access crucial information about their data format. |
 | [RawDataSettings](../../aspose.imaging/rasterimage/rawdatasettings) { get; } | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 | [RawFallbackIndex](../../aspose.imaging/rasterimage/rawfallbackindex) { get; set; } | Gets or sets the fallback index to use when palette index is out of bounds |
 | [RawIndexedColorConverter](../../aspose.imaging/rasterimage/rawindexedcolorconverter) { get; set; } | Gets or sets the indexed color converter |
-| override [RawLineSize](../../aspose.imaging.fileformats.bmp/bmpimage/rawlinesize) { get; } | Gets the raw line size in bytes. |
+| override [RawLineSize](../../aspose.imaging.fileformats.bmp/bmpimage/rawlinesize) { get; } | Quickly access the size of each raw line in bytes with this straightforward property. Ideal for developers needing to efficiently handle raw image data. |
 | [Size](../../aspose.imaging/image/size) { get; } | Gets the image size. |
 | virtual [TransparentColor](../../aspose.imaging/rasterimage/transparentcolor) { get; set; } | Gets the image transparent color. |
 | virtual [UpdateXmpData](../../aspose.imaging/rasterimage/updatexmpdata) { get; set; } | Gets or sets a value indicating whether to update the XMP metadata. |
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
-| override [VerticalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/verticalresolution) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
-| override [Width](../../aspose.imaging.fileformats.bmp/bmpimage/width) { get; } | Gets the image width. |
+| override [VerticalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/verticalresolution) { get; set; } | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage) object with this property. Perfect for developers requiring precise control over image resolution in their applications. |
+| override [Width](../../aspose.imaging.fileformats.bmp/bmpimage/width) { get; } | Access the width of the image easily with this property. Ideal for developers seeking quick information about the image dimensions. |
 | virtual [XmpData](../../aspose.imaging/rasterimage/xmpdata) { get; set; } | Gets or sets the XMP metadata. |
 
 ## Methods
@@ -93,7 +93,7 @@ public sealed class BmpImage : RasterCachedImage
 | virtual [Filter](../../aspose.imaging/rasterimage/filter)(Rectangle, FilterOptionsBase) | Filters the specified rectangle. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
-| override [GetDefaultOptions](../../aspose.imaging.fileformats.bmp/bmpimage/getdefaultoptions)(object[]) | Gets the default options. |
+| override [GetDefaultOptions](../../aspose.imaging.fileformats.bmp/bmpimage/getdefaultoptions)(object[]) | Retrieve the default options effortlessly with this straightforward method. Ideal for developers seeking quick access to default image settings or configurations. |
 | [GetDefaultPixels](../../aspose.imaging/rasterimage/getdefaultpixels)(Rectangle, IPartialArgb32PixelLoader) | Gets the default pixels array using partial pixel loader. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, RawDataSettings) | Gets the default raw data array. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, IPartialRawDataLoader, RawDataSettings) | Gets the default raw data array using partial pixel loader. |
@@ -146,8 +146,8 @@ public sealed class BmpImage : RasterCachedImage
 | [SetArgb32Pixel](../../aspose.imaging/rasterimage/setargb32pixel)(int, int, int) | Sets an image 32-bit ARGB pixel for the specified position. |
 | override [SetPalette](../../aspose.imaging/rasterimage/setpalette)(IColorPalette, bool) | Sets the image palette. |
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel)(int, int, Color) | Sets an image pixel for the specified position. |
-| override [SetResolution](../../aspose.imaging.fileformats.bmp/bmpimage/setresolution)(double, double) | Sets the resolution for this [`RasterImage`](../../aspose.imaging/rasterimage). |
-| override [ToBitmap](../../aspose.imaging.fileformats.bmp/bmpimage/tobitmap)() | Converts raster image to the bitmap. |
+| override [SetResolution](../../aspose.imaging.fileformats.bmp/bmpimage/setresolution)(double, double) | Adjust the resolution of your [`RasterImage`](../../aspose.imaging/rasterimage) effortlessly with this user-friendly method. Perfect for developers seeking precise control over image resolution in their applications. |
+| override [ToBitmap](../../aspose.imaging.fileformats.bmp/bmpimage/tobitmap)() | Easily convert your raster image to a bitmap with this simple method. Perfect for developers needing to seamlessly transition between different image formats. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 

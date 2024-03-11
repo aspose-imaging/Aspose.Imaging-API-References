@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution/
 ---
 ## BmpImage.HorizontalResolution property
 
-Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../../aspose.imaging/rasterimage).
+This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [`RasterImage`](../../../aspose.imaging/rasterimage) object. Ideal for developers needing precise control over image resolution for their applications.
 
 ```csharp
 public override double HorizontalResolution { get; set; }

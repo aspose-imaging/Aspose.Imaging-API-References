@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/fileformat/
 ---
 ## BmpImage.FileFormat property
 
-Gets a value of file format
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
 
 ```csharp
 public override FileFormat FileFormat { get; }

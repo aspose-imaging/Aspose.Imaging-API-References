@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/bigtiffoptions/
 ---
 ## BigTiffOptions class
 
-The BigTiff image options.
+The API for BigTIFF raster image format creation is specifically designed to serve to the unique requirements of applications utilizing large-scale imaging data from scanners. This API facilitates the seamless generation of BigTIFF format, which combines multiple TIFF images into a single, comprehensive image. It ensures efficient processing of extensive image data, providing developers with a powerful tool for creating and manipulating high-resolution, multi-image formats.
 
 ```csharp
 public sealed class BigTiffOptions : TiffOptions

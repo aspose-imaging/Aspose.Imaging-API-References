@@ -3,7 +3,7 @@ title: TypeMaskRotation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging/matrix/typemaskrotation/
 ---
 ## Matrix.TypeMaskRotation field

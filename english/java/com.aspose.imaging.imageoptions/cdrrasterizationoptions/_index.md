@@ -1,7 +1,7 @@
 ---
 title: CdrRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The Cdr rasterization options
+description: With the ability to perform CDR image rasterization and set scale factors for both X and Y dimensions this API provides precise control over the transformation process.
 type: docs
 weight: 13
 url: /java/com.aspose.imaging.imageoptions/cdrrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrRasterizationOptions extends VectorRasterizationOptions
 ```
 
-The Cdr rasterization options
+With the ability to perform CDR image rasterization and set scale factors for both X and Y dimensions, this API provides precise control over the transformation process. Whether scaling for specific output requirements or converting vector graphics to raster formats, you can leverage this API for efficient and customizable CDR vector to raster image conversion.
 ## Constructors
 
 | Constructor | Description |

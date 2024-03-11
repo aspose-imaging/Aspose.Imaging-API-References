@@ -14,7 +14,7 @@ The package handles Tiff file format processing.
 
 | Class | Description |
 | --- | --- |
-| [CmxImage](../com.aspose.imaging.fileformats.cmx/cmximage) | The CMX image. |
+| [CmxImage](../com.aspose.imaging.fileformats.cmx/cmximage) | The API for Corel Metafile Exchange (CMX) vector image format with metadata descriptions support is a comprehensive solution for developers working with CMX files. |
 | [CmxImagePage](../com.aspose.imaging.fileformats.cmx/cmximagepage) | The image of CMX page |
 
 ## Interfaces

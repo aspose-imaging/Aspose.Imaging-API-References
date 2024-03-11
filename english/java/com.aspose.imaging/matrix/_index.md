@@ -14,16 +14,18 @@ public class Matrix
 
 Replaces the GDI+ Matrix.
 
+--------------------
+
 Most algorithms taken from Sun's AffineTransform.java. Java's names for matrix elements used internally. Map of java names to .net ones to description: m00 M11 Scale X m10 M12 Shear Y m01 M21 Shear X m11 M22 Scale Y m02 M31 Translate X m12 M32 Translate Y
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [Matrix()](#Matrix--) | Initializes a new instance of the Matrix class as the identity matrix. |
-| [Matrix(float m11, float m12, float m21, float m22, float m31, float m32)](#Matrix-float-float-float-float-float-float-) | Initializes a new instance of the `Matrix` class. |
-| [Matrix(Matrix origin)](#Matrix-com.aspose.imaging.Matrix-) | Makes a copy of the `Matrix` class. |
-| [Matrix(RectangleF rect, PointF[] plgpts)](#Matrix-com.aspose.imaging.RectangleF-com.aspose.imaging.PointF---) | Initializes a new instance of the `Aspose.Imaging.Matrix` class to the geometric transform defined by the specified rectangle and array of points. |
-| [Matrix(Rectangle rect, Point[] plgpts)](#Matrix-com.aspose.imaging.Rectangle-com.aspose.imaging.Point---) | Initializes a new instance of the `Aspose.Imaging.Matrix` class to the geometric transform defined by the specified rectangle and array of points. |
+| [Matrix(float m11, float m12, float m21, float m22, float m31, float m32)](#Matrix-float-float-float-float-float-float-) | Initializes a new instance of the [Matrix](../../com.aspose.imaging/matrix) class. |
+| [Matrix(RectangleF rect, PointF[] plgpts)](#Matrix-com.aspose.imaging.RectangleF-com.aspose.imaging.PointF---) | Initializes a new instance of the [Matrix](../../com.aspose.imaging/matrix) class to the geometric transform defined by the specified rectangle and array of points. |
+| [Matrix(Rectangle rect, Point[] plgpts)](#Matrix-com.aspose.imaging.Rectangle-com.aspose.imaging.Point---) | Initializes a new instance of the [Matrix](../../com.aspose.imaging/matrix) class to the geometric transform defined by the specified rectangle and array of points. |
+| [Matrix(Matrix origin)](#Matrix-com.aspose.imaging.Matrix-) | Makes a copy of the [Matrix](../../com.aspose.imaging/matrix) class. |
 ## Fields
 
 | Field | Description |
@@ -42,29 +44,29 @@ Most algorithms taken from Sun's AffineTransform.java. Java's names for matrix e
 
 | Method | Description |
 | --- | --- |
+| [isEquals(Matrix a, Matrix b)](#isEquals-com.aspose.imaging.Matrix-com.aspose.imaging.Matrix-) | Determines whether two matrices are equal. |
 | [getM11()](#getM11--) | Gets the matrix element at first row first column. |
 | [getM12()](#getM12--) | Gets the matrix element at first row second column. |
 | [getM21()](#getM21--) | Gets the matrix element at second row first column. |
 | [getM22()](#getM22--) | Gets the matrix element at second row second column. |
 | [getM31()](#getM31--) | Gets the matrix element at third row first column. |
 | [getM32()](#getM32--) | Gets the matrix element at third row first column. |
-| [toString()](#toString--) | Returns a `System.String` that represents this instance. |
+| [toString()](#toString--) | Returns a String that represents this instance. |
 | [getElements()](#getElements--) | Gets the copy of matrix elements. |
-| [transformPoints(PointF[] points)](#transformPoints-com.aspose.imaging.PointF---) | Applies the geometric transform represented by this `Matrix` to a specified array of points. |
-| [scale(float scaleX, float scaleY, int order)](#scale-float-float-int-) | Applies the specified scale vector (scaleX and scaleY) to this `Matrix` using the specified order. |
+| [transformPoints(PointF[] points)](#transformPoints-com.aspose.imaging.PointF---) | Applies the geometric transform represented by this [Matrix](../../com.aspose.imaging/matrix) to a specified array of points. |
+| [scale(float scaleX, float scaleY, int order)](#scale-float-float-int-) | Applies the specified scale vector (scaleX and scaleY) to this [Matrix](../../com.aspose.imaging/matrix) using the specified order. |
 | [scale(float sx, float sy)](#scale-float-float-) | Applies the specified scale vector (scaleX and scaleY) to this Matrix using (default) Prepend order. |
 | [translate(float offsetX, float offsetY, int order)](#translate-float-float-int-) | Applies the specified translation vector to this Matrix in the specified order. |
-| [translate(float tx, float ty)](#translate-float-float-) | Applies the specified translation vector to this `Matrix` using (default) Prepend order. |
-| [multiply(Matrix Tx, int order)](#multiply-com.aspose.imaging.Matrix-int-) | Multiplies this Matrix by the matrix specified in the matrix parameter, and in the order specified in the order parameter. |
-| [multiply(Matrix Tx)](#multiply-com.aspose.imaging.Matrix-) | Multiplies this Matrix by the matrix specified in the matrix parameter using (default) Prepend order. |
+| [translate(float tx, float ty)](#translate-float-float-) | Applies the specified translation vector to this [Matrix](../../com.aspose.imaging/matrix) using (default) Prepend order. |
+| [multiply(Matrix tTx, int order)](#multiply-com.aspose.imaging.Matrix-int-) | Multiplies this Matrix by the matrix specified in the matrix parameter, and in the order specified in the order parameter. |
+| [multiply(Matrix tTx)](#multiply-com.aspose.imaging.Matrix-) | Multiplies this Matrix by the matrix specified in the matrix parameter using (default) Prepend order. |
 | [rotate(float angle, int order)](#rotate-float-int-) | Applies a clockwise rotation of an amount specified in the angle parameter, around the origin (zero x and y coordinates) for this Matrix in the specified order. |
 | [rotate(float angle)](#rotate-float-) | Applies a clockwise rotation of an amount specified in the angle parameter, around the origin (zero x and y coordinates) for this Matrix in the default (Prepend) order. |
 | [rotateAt(float angle, PointF point, int order)](#rotateAt-float-com.aspose.imaging.PointF-int-) | Applies a clockwise rotation about the specified point to this Matrix in the specified order. |
 | [rotateAt(float angle, PointF point)](#rotateAt-float-com.aspose.imaging.PointF-) | Applies a clockwise rotation about the specified point to this Matrix in the default (Prepend) order. |
 | [reset()](#reset--) | Resets this Matrix to have the elements of the identity matrix. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `System.Object` is equal to this instance. |
-| [isEquals(Matrix a, Matrix b)](#isEquals-com.aspose.imaging.Matrix-com.aspose.imaging.Matrix-) | Determines whether two matrixes are equal. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `Object` is equal to this instance. |
 | [isIdentity()](#isIdentity--) | Returns `true` if this `AffineTransform` is an identity transform. |
 ### Matrix() {#Matrix--}
 ```
@@ -80,7 +82,7 @@ public Matrix(float m11, float m12, float m21, float m22, float m31, float m32)
 ```
 
 
-Initializes a new instance of the `Matrix` class.
+Initializes a new instance of the [Matrix](../../com.aspose.imaging/matrix) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -92,32 +94,19 @@ Initializes a new instance of the `Matrix` class.
 | m31 | float | m02 M31 Translate X |
 | m32 | float | m12 M32 Translate Y |
 
-### Matrix(Matrix origin) {#Matrix-com.aspose.imaging.Matrix-}
-```
-public Matrix(Matrix origin)
-```
-
-
-Makes a copy of the `Matrix` class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| origin | [Matrix](../../com.aspose.imaging/matrix) | the base matrix for coping |
-
 ### Matrix(RectangleF rect, PointF[] plgpts) {#Matrix-com.aspose.imaging.RectangleF-com.aspose.imaging.PointF---}
 ```
 public Matrix(RectangleF rect, PointF[] plgpts)
 ```
 
 
-Initializes a new instance of the `Aspose.Imaging.Matrix` class to the geometric transform defined by the specified rectangle and array of points.
+Initializes a new instance of the [Matrix](../../com.aspose.imaging/matrix) class to the geometric transform defined by the specified rectangle and array of points.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | A `Aspose.Imaging.RectangleF` structure that represents the rectangle to be transformed. |
-| plgpts | [PointF\[\]](../../com.aspose.imaging/pointf) | An array of three `Aspose.Imaging.PointF` structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | A [RectangleF](../../com.aspose.imaging/rectanglef) structure that represents the rectangle to be transformed. |
+| plgpts | [PointF\[\]](../../com.aspose.imaging/pointf) | An array of three [PointF](../../com.aspose.imaging/pointf) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 ### Matrix(Rectangle rect, Point[] plgpts) {#Matrix-com.aspose.imaging.Rectangle-com.aspose.imaging.Point---}
 ```
@@ -125,13 +114,26 @@ public Matrix(Rectangle rect, Point[] plgpts)
 ```
 
 
-Initializes a new instance of the `Aspose.Imaging.Matrix` class to the geometric transform defined by the specified rectangle and array of points.
+Initializes a new instance of the [Matrix](../../com.aspose.imaging/matrix) class to the geometric transform defined by the specified rectangle and array of points.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | [Rectangle](../../com.aspose.imaging/rectangle) | A `Aspose.Imaging.Rectangle` structure that represents the rectangle to be transformed. |
-| plgpts | [Point\[\]](../../com.aspose.imaging/point) | An array of three `Aspose.Imaging.Point` structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+| rect | [Rectangle](../../com.aspose.imaging/rectangle) | A [Rectangle](../../com.aspose.imaging/rectangle) structure that represents the rectangle to be transformed. |
+| plgpts | [Point\[\]](../../com.aspose.imaging/point) | An array of three [Point](../../com.aspose.imaging/point) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+
+### Matrix(Matrix origin) {#Matrix-com.aspose.imaging.Matrix-}
+```
+public Matrix(Matrix origin)
+```
+
+
+Makes a copy of the [Matrix](../../com.aspose.imaging/matrix) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [Matrix](../../com.aspose.imaging/matrix) | A base matrix for coping |
 
 ### TYPE_IDENTITY {#TYPE-IDENTITY}
 ```
@@ -213,79 +215,95 @@ public static final int TYPE_GENERAL_TRANSFORM
 
 This constant indicates that the transform defined by this object performs an arbitrary conversion of the input coordinates. If this transform can be classified by any of the above constants, the type will either be the constant TypeIdentity or a combination of the appropriate flag bits for the various coordinate conversions that this transform performs.
 
+### isEquals(Matrix a, Matrix b) {#isEquals-com.aspose.imaging.Matrix-com.aspose.imaging.Matrix-}
+```
+public static boolean isEquals(Matrix a, Matrix b)
+```
+
+
+Determines whether two matrices are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | [Matrix](../../com.aspose.imaging/matrix) | The first matrix to compare. |
+| b | [Matrix](../../com.aspose.imaging/matrix) | The second matrix to compare. |
+
+**Returns:**
+boolean - True if matrices are equal.
 ### getM11() {#getM11--}
 ```
-public float getM11()
+public final float getM11()
 ```
 
 
 Gets the matrix element at first row first column. Represents scale along X axis.
 
 **Returns:**
-float
+float - the matrix element at first row first column.
 ### getM12() {#getM12--}
 ```
-public float getM12()
+public final float getM12()
 ```
 
 
 Gets the matrix element at first row second column. Represents shear along Y axis.
 
 **Returns:**
-float
+float - the matrix element at first row second column.
 ### getM21() {#getM21--}
 ```
-public float getM21()
+public final float getM21()
 ```
 
 
 Gets the matrix element at second row first column. Represents shear along X axis.
 
 **Returns:**
-float
+float - the matrix element at second row first column.
 ### getM22() {#getM22--}
 ```
-public float getM22()
+public final float getM22()
 ```
 
 
 Gets the matrix element at second row second column. Represents scale along Y axis.
 
 **Returns:**
-float
+float - the matrix element at second row second column.
 ### getM31() {#getM31--}
 ```
-public float getM31()
+public final float getM31()
 ```
 
 
 Gets the matrix element at third row first column. Represents translation along X axis.
 
 **Returns:**
-float
+float - the matrix element at third row first column.
 ### getM32() {#getM32--}
 ```
-public float getM32()
+public final float getM32()
 ```
 
 
 Gets the matrix element at third row first column. Represents translation along Y axis.
 
 **Returns:**
-float
+float - the matrix element at third row first column.
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a `System.String` that represents this instance.
+Returns a String that represents this instance.
 
 **Returns:**
-java.lang.String - A `System.String` that represents this instance.
+java.lang.String - A String that represents this instance.
 ### getElements() {#getElements--}
 ```
-public float[] getElements()
+public final float[] getElements()
 ```
 
 
@@ -295,11 +313,11 @@ Gets the copy of matrix elements.
 float[] - A matrix elements copy.
 ### transformPoints(PointF[] points) {#transformPoints-com.aspose.imaging.PointF---}
 ```
-public void transformPoints(PointF[] points)
+public final void transformPoints(PointF[] points)
 ```
 
 
-Applies the geometric transform represented by this `Matrix` to a specified array of points.
+Applies the geometric transform represented by this [Matrix](../../com.aspose.imaging/matrix) to a specified array of points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,11 +326,11 @@ Applies the geometric transform represented by this `Matrix` to a specified arra
 
 ### scale(float scaleX, float scaleY, int order) {#scale-float-float-int-}
 ```
-public void scale(float scaleX, float scaleY, int order)
+public final void scale(float scaleX, float scaleY, int order)
 ```
 
 
-Applies the specified scale vector (scaleX and scaleY) to this `Matrix` using the specified order.
+Applies the specified scale vector (scaleX and scaleY) to this [Matrix](../../com.aspose.imaging/matrix) using the specified order.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -323,7 +341,7 @@ Applies the specified scale vector (scaleX and scaleY) to this `Matrix` using th
 
 ### scale(float sx, float sy) {#scale-float-float-}
 ```
-public void scale(float sx, float sy)
+public final void scale(float sx, float sy)
 ```
 
 
@@ -337,7 +355,7 @@ Applies the specified scale vector (scaleX and scaleY) to this Matrix using (def
 
 ### translate(float offsetX, float offsetY, int order) {#translate-float-float-int-}
 ```
-public void translate(float offsetX, float offsetY, int order)
+public final void translate(float offsetX, float offsetY, int order)
 ```
 
 
@@ -352,11 +370,11 @@ Applies the specified translation vector to this Matrix in the specified order.
 
 ### translate(float tx, float ty) {#translate-float-float-}
 ```
-public void translate(float tx, float ty)
+public final void translate(float tx, float ty)
 ```
 
 
-Applies the specified translation vector to this `Matrix` using (default) Prepend order.
+Applies the specified translation vector to this [Matrix](../../com.aspose.imaging/matrix) using (default) Prepend order.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -364,9 +382,9 @@ Applies the specified translation vector to this `Matrix` using (default) Prepen
 | tx | float | The tx. The tx. The tx. |
 | ty | float | The ty. The ty. The ty. |
 
-### multiply(Matrix Tx, int order) {#multiply-com.aspose.imaging.Matrix-int-}
+### multiply(Matrix tTx, int order) {#multiply-com.aspose.imaging.Matrix-int-}
 ```
-public void multiply(Matrix Tx, int order)
+public final void multiply(Matrix tTx, int order)
 ```
 
 
@@ -375,12 +393,12 @@ Multiplies this Matrix by the matrix specified in the matrix parameter, and in t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| Tx | [Matrix](../../com.aspose.imaging/matrix) | The tx. The tx. The tx. |
+| tTx | [Matrix](../../com.aspose.imaging/matrix) | The tx. The tx. The tx. |
 | order | int | The order. The order. The order. |
 
-### multiply(Matrix Tx) {#multiply-com.aspose.imaging.Matrix-}
+### multiply(Matrix tTx) {#multiply-com.aspose.imaging.Matrix-}
 ```
-public void multiply(Matrix Tx)
+public final void multiply(Matrix tTx)
 ```
 
 
@@ -389,11 +407,11 @@ Multiplies this Matrix by the matrix specified in the matrix parameter using (de
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| Tx | [Matrix](../../com.aspose.imaging/matrix) | The matrix to multiply with. |
+| tTx | [Matrix](../../com.aspose.imaging/matrix) | The matrix to multiply with. |
 
 ### rotate(float angle, int order) {#rotate-float-int-}
 ```
-public void rotate(float angle, int order)
+public final void rotate(float angle, int order)
 ```
 
 
@@ -407,7 +425,7 @@ Applies a clockwise rotation of an amount specified in the angle parameter, arou
 
 ### rotate(float angle) {#rotate-float-}
 ```
-public void rotate(float angle)
+public final void rotate(float angle)
 ```
 
 
@@ -420,7 +438,7 @@ Applies a clockwise rotation of an amount specified in the angle parameter, arou
 
 ### rotateAt(float angle, PointF point, int order) {#rotateAt-float-com.aspose.imaging.PointF-int-}
 ```
-public void rotateAt(float angle, PointF point, int order)
+public final void rotateAt(float angle, PointF point, int order)
 ```
 
 
@@ -435,7 +453,7 @@ Applies a clockwise rotation about the specified point to this Matrix in the spe
 
 ### rotateAt(float angle, PointF point) {#rotateAt-float-com.aspose.imaging.PointF-}
 ```
-public void rotateAt(float angle, PointF point)
+public final void rotateAt(float angle, PointF point)
 ```
 
 
@@ -449,7 +467,7 @@ Applies a clockwise rotation about the specified point to this Matrix in the def
 
 ### reset() {#reset--}
 ```
-public void reset()
+public final void reset()
 ```
 
 
@@ -471,31 +489,15 @@ public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified `System.Object` is equal to this instance.
+Determines whether the specified `Object` is equal to this instance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The `System.Object` to compare with this instance. |
+| obj | java.lang.Object | The `Object` to compare with this instance. |
 
 **Returns:**
-boolean - `true` if the specified `System.Object` is equal to this instance; otherwise, `false`.
-### isEquals(Matrix a, Matrix b) {#isEquals-com.aspose.imaging.Matrix-com.aspose.imaging.Matrix-}
-```
-public static boolean isEquals(Matrix a, Matrix b)
-```
-
-
-Determines whether two matrixes are equal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | [Matrix](../../com.aspose.imaging/matrix) | The first matrix to compare. |
-| b | [Matrix](../../com.aspose.imaging/matrix) | The second matrix to compare. |
-
-**Returns:**
-boolean - True if matrixes are equal.
+boolean - `true` if the specified `Object` is equal to this instance; otherwise, `false`.
 ### isIdentity() {#isIdentity--}
 ```
 public boolean isIdentity()

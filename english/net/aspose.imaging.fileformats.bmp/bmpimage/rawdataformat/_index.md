@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/rawdataformat/
 ---
 ## BmpImage.RawDataFormat property
 
-Gets the raw data format.
+Easily obtain the format of your raw data with this user-friendly function. Perfect for developers looking to quickly access crucial information about their data format.
 
 ```csharp
 public override PixelDataFormat RawDataFormat { get; }

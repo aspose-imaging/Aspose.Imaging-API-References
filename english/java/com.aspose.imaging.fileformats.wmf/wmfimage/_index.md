@@ -1,7 +1,7 @@
 ---
 title: WmfImage
 second_title: Aspose.Imaging for Java API Reference
-description: The Wmf Image
+description: Manipulate Microsoft Windows Metafile WMF images with our API seamlessly handling both vector and bitmap data stored within variable-length records.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.wmf/wmfimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class WmfImage extends MetaImage
 ```
 
-The Wmf Image
+Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly handling both vector and bitmap data stored within variable-length records. Resize, rotate, and flip images with ease while setting custom image palettes. Convert WMF files to compressed WMZ formats or save them in raster image formats for versatile usage across platforms and applications.
 ## Constructors
 
 | Constructor | Description |

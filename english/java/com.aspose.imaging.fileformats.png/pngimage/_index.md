@@ -1,7 +1,7 @@
 ---
 title: PngImage
 second_title: Aspose.Imaging for Java API Reference
-description: The new png image.
+description: Manipulate Portable Network Graphics PNG raster images with our versatile API featuring support for compression levels and various color depths including Grayscale Indexed Color TrueColor and alpha channels.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.fileformats.png/pngimage/
@@ -15,7 +15,7 @@ com.aspose.fileformats.core.interfaces.IInterlaced
 public class PngImage extends RasterCachedImage implements IInterlaced
 ```
 
-The new png image.
+Manipulate Portable Network Graphics (PNG) raster images with our versatile API, featuring support for compression levels and various color depths including Grayscale, Indexed Color, TrueColor, and alpha channels. Seamlessly process XMP metadata, enabling comprehensive image metadata management, while easily loading PNG images, performing diverse manipulations, applying filters, and converting images to other file formats for optimal versatility and customization.
 ## Constructors
 
 | Constructor | Description |

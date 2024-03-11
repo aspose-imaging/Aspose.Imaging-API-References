@@ -1,7 +1,7 @@
 ---
 title: CmxImage
 second_title: Aspose.Imaging for Java API Reference
-description: The CMX image.
+description: The API for Corel Metafile Exchange CMX vector image format with metadata descriptions support is a comprehensive solution for developers working with CMX files.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.cmx/cmximage/
@@ -15,34 +15,34 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CmxImage extends VectorMultipageImage implements ICmxImage
 ```
 
-The CMX image.
+The API for Corel Metafile Exchange (CMX) vector image format with metadata descriptions support is a comprehensive solution for developers working with CMX files. This API allows for the seamless loading of CMX images, extracting metadata such as bits per pixel, object dimensions, and more. With additional functionalities like resizing, rotating, setting palettes, and converting to other formats, this API empowers developers to efficiently manipulate and customize CMX vector images to meet their specific application requirements.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)](#CmxImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [CmxImage](../../com.aspose.imaging.fileformats.cmx/cmximage) class. |
+| [CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)](#CmxImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-) | Start working with the [CmxImage](../../com.aspose.imaging.fileformats.cmx/cmximage) class seamlessly by initializing a new instance with a streamContainer and loadOptions parameters. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
-| [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
-| [getWidthF()](#getWidthF--) | Gets the object width, in inches. |
-| [getHeightF()](#getHeightF--) | Gets the object height, in inches. |
-| [getDocument()](#getDocument--) | Gets the CMX document. |
-| [getCmxPage()](#getCmxPage--) | Gets the CMX page. |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `P:Aspose.Imaging.DataStreamSupporter.DataStreamContainer`. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
+| [getFileFormat()](#getFileFormat--) | Retrieve the file format of the image effortlessly with this user-friendly property. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the bit depth of the image effortlessly with this user-friendly property. |
+| [getDefaultPage()](#getDefaultPage--) | Effortlessly retrieve the default page of the image with this intuitive property. |
+| [isCached()](#isCached--) | Determine whether the object's data is currently cached, eliminating the need for data reading. |
+| [getWidthF()](#getWidthF--) | Retrieve the width of the object in inches with this intuitive property. |
+| [getHeightF()](#getHeightF--) | Effortlessly obtain the height of the object, measured in inches, with this user-friendly property. |
+| [getDocument()](#getDocument--) | Retrieve the CMX document effortlessly with this intuitive property. |
+| [getCmxPage()](#getCmxPage--) | Effortlessly retrieve the CMX page of the image with this intuitive property. |
+| [getPageCount()](#getPageCount--) | Retrieve the total page count of the image with this intuitive property. |
+| [getPages()](#getPages--) | Retrieve the pages of the image seamlessly with this intuitive property. |
+| [getPageExportingAction()](#getPageExportingAction--) | Effortlessly retrieve the page exporting action associated with the image using this intuitive property. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Effortlessly modify the page exporting action associated with the image using this intuitive property. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
+| [cacheData()](#cacheData--) | Cache the data to prevent additional loading from the underlying source [DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter) with this convenient method. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Effortlessly resize the image to desired dimensions with this intuitive method. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Effortlessly adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize the color palette of the image with this intuitive method. |
 
 ## Example: The following example shows how to cache all pages of a CMX image.
 
@@ -70,7 +70,7 @@ public CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [CmxImage](../../com.aspose.imaging.fileformats.cmx/cmximage) class.
+Start working with the [CmxImage](../../com.aspose.imaging.fileformats.cmx/cmximage) class seamlessly by initializing a new instance with a streamContainer and loadOptions parameters. Ideal for developers seeking a convenient way to load CMX images from various data sources while customizing the loading process as needed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -84,27 +84,27 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieve the file format of the image effortlessly with this user-friendly property. Ideal for developers seeking to determine the format of their images dynamically, ensuring compatibility and accurate processing in their applications.
 
 **Returns:**
-long - a value of file format
+long - The file format [FileFormat.Cmx](../../com.aspose.imaging/fileformat\#Cmx)
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Retrieve the bit depth of the image effortlessly with this user-friendly property. Ideal for developers seeking to determine the level of detail or color depth present in their images, ensuring accurate processing and manipulation.
 
 **Returns:**
-int - the image bits per pixel count.
+int - The image bits per pixel count.
 ### getDefaultPage() {#getDefaultPage--}
 ```
 public Image getDefaultPage()
 ```
 
 
-Gets the default page.
+Effortlessly retrieve the default page of the image with this intuitive property. Ideal for developers seeking quick access to the primary page of their image, ensuring efficient navigation and management.
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - the default page.
@@ -114,59 +114,57 @@ public boolean isCached()
 ```
 
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+Determine whether the object's data is currently cached, eliminating the need for data reading. Ideal for developers seeking to optimize performance by leveraging cached data efficiently, ensuring faster access to object information.
 
 **Returns:**
-boolean
+boolean - `true` if object's data is cached; otherwise, `false`.
 ### getWidthF() {#getWidthF--}
 ```
 public float getWidthF()
 ```
 
 
-Gets the object width, in inches.
+Retrieve the width of the object in inches with this intuitive property. Ideal for developers seeking precise measurements of objects in their applications, ensuring accurate layout and presentation.
 
 **Returns:**
-float - the object width, in inches.
+float - The object width, in inches.
 ### getHeightF() {#getHeightF--}
 ```
 public float getHeightF()
 ```
 
 
-Gets the object height, in inches.
+Effortlessly obtain the height of the object, measured in inches, with this user-friendly property. Ideal for developers seeking precise dimensional information for effective layout and presentation in their applications.
 
 **Returns:**
-float - the object height, in inches.
+float - The object height, in inches.
 ### getDocument() {#getDocument--}
 ```
 public final CmxDocument getDocument()
 ```
 
 
-Gets the CMX document.
+Retrieve the CMX document effortlessly with this intuitive property. Ideal for developers seeking to access or modify CMX images, ensuring flexibility and efficiency in their applications.
 
 **Returns:**
-[CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) - the CMX document.
+[CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) - The CMX document.
 ### getCmxPage() {#getCmxPage--}
 ```
 public final CmxPage getCmxPage()
 ```
 
 
-Gets the CMX page.
+Effortlessly retrieve the CMX page of the image with this intuitive property. Ideal for developers seeking quick access to individual pages within CMX images, ensuring efficient navigation and management.
 
 **Returns:**
-[CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) - the CMX page.
+[CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) - The CMX page.
 ### getPageCount() {#getPageCount--}
 ```
 public int getPageCount()
 ```
 
 
-Gets the page count.
-
-Value: The page count.
+Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking to manage multi-page images dynamically, ensuring efficient navigation and manipulation of image content.
 
 **Returns:**
 int - the page count.
@@ -176,7 +174,7 @@ public Image[] getPages()
 ```
 
 
-Gets the pages.
+Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multi-page images, ensuring efficient navigation and processing.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -207,9 +205,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+Effortlessly retrieve the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 **Returns:**
 [PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
@@ -219,7 +215,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Effortlessly modify the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 Value: The page exporting action.
 
@@ -234,7 +230,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve the default options effortlessly with this user-friendly method. Perfect for developers seeking quick access to the default settings or configurations associated with an object, ensuring efficient customization and streamlined workflow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -249,7 +245,7 @@ public void cacheData()
 ```
 
 
-Caches the data and ensures no additional data loading will be performed from the underlying `P:Aspose.Imaging.DataStreamSupporter.DataStreamContainer`.
+Cache the data to prevent additional loading from the underlying source [DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter) with this convenient method. Ideal for developers seeking to optimize performance by preloading data, ensuring faster access and smoother operation in their applications.
 
 
 **Example: The following example shows how to cache all pages of a CMX image.**
@@ -278,7 +274,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically, ensuring they fit the layout or requirements of their applications seamlessly.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +304,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the image.
+Effortlessly adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. Perfect for developers seeking to customize image orientation dynamically, ensuring optimal presentation or alignment in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +317,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-Sets the image palette.
+Customize the color palette of the image with this intuitive method. Ideal for developers seeking to apply specific color schemes or adjustments dynamically, ensuring precise control over the visual appearance of their images.
 
 **Parameters:**
 | Parameter | Type | Description |

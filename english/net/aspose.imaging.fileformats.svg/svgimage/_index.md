@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/
 ---
 ## SvgImage class
 
-Represents SVG image class.
+Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the power of XML-based text format for seamless customization and scalability. Easily load SVG images, rasterize vector elements, and convert to other formats, while controlling compression levels to optimize file size and quality for your projects.
 
 ```csharp
 public sealed class SvgImage : VectorImage

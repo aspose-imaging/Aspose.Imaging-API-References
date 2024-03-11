@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/crop/
 ---
 ## DicomImage.Crop method (1 of 2)
 
-Cropping the image.
+Crop the image to remove unwanted areas and focus on essential content with this simple method. Ideal for developers seeking to customize the visual composition of images, ensuring they convey the desired message effectively.
 
 ```csharp
 public override void Crop(Rectangle rectangle)
@@ -51,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 
 ## DicomImage.Crop method (2 of 2)
 
-Crop image with shifts.
+Adjust the cropping area of the image by applying shifts with this versatile method. Perfect for developers who need precise control over the cropping process, ensuring that important details are retained while eliminating unnecessary elements.
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)

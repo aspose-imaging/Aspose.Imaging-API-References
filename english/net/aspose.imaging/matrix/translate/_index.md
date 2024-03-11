@@ -3,7 +3,7 @@ title: Translate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.imaging/matrix/translate/
 ---
 ## Matrix.Translate method (1 of 2)

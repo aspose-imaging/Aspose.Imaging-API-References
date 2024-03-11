@@ -1,11 +1,14 @@
 ---
 title: com.aspose.imaging.imagefilters.complexutils
 second_title: Aspose.Imaging for Java API Reference
-description: 
+description: The namespace contains the Complex class.
 type: docs
 weight: 87
 url: /java/com.aspose.imaging.imagefilters.complexutils/
 ---
+
+The namespace contains the Complex class.
+
 
 ## Classes
 

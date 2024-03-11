@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/adjustgamma/
 ---
 ## DicomImage.AdjustGamma method (1 of 2)
 
-Gamma-correction of an image.
+Enhance image quality and adjust it with gamma correction, a powerful technique for fine-tuning visual appearance. Perfect for developers aiming to optimize image presentation, adjust color balance, and ensure consistent rendering across different devices and environments.
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -47,7 +47,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 
 ## DicomImage.AdjustGamma method (2 of 2)
 
-Gamma-correction of an image.
+Achieve precise color adjustments by applying gamma correction independently to the red, green, and blue components of an image. This method ensures accurate color balance and optimal visual output, catering to developers seeking granular control over image rendering and color accuracy.
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)

@@ -17,6 +17,6 @@ The package handles Dicom file format processing
 | [ColorType](../com.aspose.imaging.fileformats.dicom/colortype) | The type of the color. |
 | [Compression](../com.aspose.imaging.fileformats.dicom/compression) | Contains the image compression settings. |
 | [CompressionType](../com.aspose.imaging.fileformats.dicom/compressiontype) | The DICOM image compression type. |
-| [DicomImage](../com.aspose.imaging.fileformats.dicom/dicomimage) | It is class of the implementation working with image from DICOM file |
+| [DicomImage](../com.aspose.imaging.fileformats.dicom/dicomimage) | This Class implements Digital Imaging and Communications in Medicine (DICOM) raster image format support and offers a comprehensive solution for processing DICOM images with precision and flexibility. |
 | [DicomImageInfo](../com.aspose.imaging.fileformats.dicom/dicomimageinfo) | Contains all meta-information from Dicom file header |
 | [DicomPage](../com.aspose.imaging.fileformats.dicom/dicompage) | It is class for work with DICOM files of the type multi frame |

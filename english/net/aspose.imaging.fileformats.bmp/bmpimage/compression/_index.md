@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/compression/
 ---
 ## BmpImage.Compression property
 
-Gets the image compression.
+Retrieve the compression type used for the image effortlessly with this property. Perfect for developers needing to quickly access information about image compression.
 
 ```csharp
 public BitmapCompression Compression { get; }

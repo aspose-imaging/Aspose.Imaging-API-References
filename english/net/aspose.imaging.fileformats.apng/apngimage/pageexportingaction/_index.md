@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/pageexportingaction/
 ---
 ## ApngImage.PageExportingAction property
 
-Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Effortlessly manage the page exporting action with this versatile property. Perfect for developers seeking precise control over the exporting behavior of pages in their application. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/
 ---
 ## JpegImage class
 
-A jpeg image.
+Efficiently manipulate JPEG raster images with our API, offering support for various color profiles such as RGB and CMYK, customizable bits per pixel resolution, and processing of EXIF, JFIF, and XMP metadata containers. Enjoy automated rotation based on orientation data and choose from different compression levels, including lossless JPEG, to achieve optimal image quality and file size balance for your projects.
 
 ```csharp
 public sealed class JpegImage : RasterCachedImage

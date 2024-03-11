@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/setresolution/
 ---
 ## DicomImage.SetResolution method
 
-Sets the resolution for this [`RasterImage`](../../../aspose.imaging/rasterimage).
+Adjust the resolution of this [`RasterImage`](../../../aspose.imaging/rasterimage) with precision using this straightforward method. Ideal for developers looking to tailor image resolution to specific requirements, ensuring optimal display quality and file size management.
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)

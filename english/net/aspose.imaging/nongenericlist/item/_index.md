@@ -18,6 +18,10 @@ public object this[int index] { get; set; }
 | --- | --- |
 | index | The index. |
 
+### Return Value
+
+Object at index
+
 ### See Also
 
 * class [NonGenericList](../../nongenericlist)

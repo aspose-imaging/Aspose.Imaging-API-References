@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/saveall/
 ---
 ## DicomImage.SaveAll method
 
-Saves the object's data to the specified file (indexer + filename) location in the specified file format according to save options..
+Preserve the object's data by saving it to the designated file (indexer + filename) location along with specified file format and options. Ideal for developers seeking to securely store data in various formats while maintaining flexibility and control over saving parameters.
 
 ```csharp
 public void SaveAll(string filePath, ImageOptionsBase options)

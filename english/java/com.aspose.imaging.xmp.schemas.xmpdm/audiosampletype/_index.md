@@ -29,7 +29,6 @@ Represents Audio sample type in `XmpDynamicMediaPackage`.
 
 | Method | Description |
 | --- | --- |
-| [toString()](#toString--) | Returns a `System.String` that represents this instance. |
 | [getSample8Int()](#getSample8Int--) | Represents 8Int audio sample. |
 | [getSample16Int()](#getSample16Int--) | Represents 16Int audio sample. |
 | [getSample24Int()](#getSample24Int--) | Represents 24Int audio sample. |
@@ -37,6 +36,7 @@ Represents Audio sample type in `XmpDynamicMediaPackage`.
 | [getSample32Float()](#getSample32Float--) | Represents 32Float audio sample. |
 | [getCompressed()](#getCompressed--) | Represents Compressed audio sample. |
 | [getPacked()](#getPacked--) | Represents Packed audio sample. |
+| [toString()](#toString--) | Returns a `System.String` that represents this instance. |
 ### AudioSample8Int {#AudioSample8Int}
 ```
 public static final String AudioSample8Int
@@ -101,16 +101,6 @@ public static final String AudioSampleOther
 
 The other audio sample
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-Returns a `System.String` that represents this instance.
-
-**Returns:**
-java.lang.String - A `System.String` that represents this instance.
 ### getSample8Int() {#getSample8Int--}
 ```
 public static AudioSampleType getSample8Int()
@@ -181,3 +171,13 @@ Represents Packed audio sample.
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a `System.String` that represents this instance.
+
+**Returns:**
+java.lang.String - A `System.String` that represents this instance.

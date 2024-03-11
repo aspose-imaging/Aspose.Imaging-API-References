@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/icooptions/
 ---
 ## IcoOptions class
 
-The ICO file format creation options.
+Create custom ICO image files for application icons effortlessly with our API, empowering you to represent your software seamlessly. Our API supports PNG and BMP image frames with various bits per pixel values, ensuring versatility and compatibility for your icon creation needs.
 
 ```csharp
 public class IcoOptions : ImageOptionsBase

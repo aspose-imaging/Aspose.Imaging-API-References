@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/
 ---
 ## WebPImage class
 
-A webp image.
+Manipulate WebP raster images with our API, using its modern features for both lossless and lossy compression, ensuring optimal image quality with reduced file sizes. Seamlessly handle extended file formats, animations, and alpha channels, while easily updating dimensions, resizing proportionally, cropping, rotating, applying filters, adjusting image parameters, and converting to other image formats for versatile web image optimization.
 
 ```csharp
 public sealed class WebPImage : RasterCachedMultipageImage, IMultipageImageExt

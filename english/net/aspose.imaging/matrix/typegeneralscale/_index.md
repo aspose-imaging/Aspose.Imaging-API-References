@@ -3,7 +3,7 @@ title: TypeGeneralScale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.imaging/matrix/typegeneralscale/
 ---
 ## Matrix.TypeGeneralScale field

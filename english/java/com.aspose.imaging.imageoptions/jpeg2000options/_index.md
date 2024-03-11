@@ -1,7 +1,7 @@
 ---
 title: Jpeg2000Options
 second_title: Aspose.Imaging for Java API Reference
-description: The Jpeg2000 file format options.
+description: Create JPEG2000 JP2 image files with our API utilizing advanced wavelet technology for coding lossless content.
 type: docs
 weight: 25
 url: /java/com.aspose.imaging.imageoptions/jpeg2000options/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class Jpeg2000Options extends ImageOptionsBase
 ```
 
-The Jpeg2000 file format options.
+Create JPEG2000 (JP2) image files with our API, utilizing advanced wavelet technology for coding lossless content. Benefit from support for various codecs, including irreversible and lossless compression, as well as XMP metadata containers, ensuring versatility and high-quality image creation tailored to your needs.
 ## Constructors
 
 | Constructor | Description |

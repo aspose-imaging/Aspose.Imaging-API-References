@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/bitsperpixel/
 ---
 ## BmpImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Access the number of bits per pixel for the image with ease using this property. Perfect for developers seeking quick information about image quality and depth.
 
 ```csharp
 public override int BitsPerPixel { get; }

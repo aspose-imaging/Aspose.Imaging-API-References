@@ -3,7 +3,7 @@ title: Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging/matrix/rotate/
 ---
 ## Matrix.Rotate method (1 of 2)

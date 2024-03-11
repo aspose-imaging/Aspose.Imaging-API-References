@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/fileformat/
 ---
 ## ApngImage.FileFormat property
 
-Gets a value of file format
+Quickly access information about the file format with this convenient property. Ideal for developers who need to retrieve details about the format of their Apng files easily.
 
 ```csharp
 public override FileFormat FileFormat { get; }

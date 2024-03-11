@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/resizewidthproportionally/
 ---
 ## ApngImage.ResizeWidthProportionally method
 
-Resizes the width proportionally.
+Proportionally resize the width of the image effortlessly with this intuitive method. Ideal for developers seeking to maintain the aspect ratio of their images while adjusting their dimensions.
 
 ```csharp
 public override void ResizeWidthProportionally(int newWidth, ResizeType resizeType)

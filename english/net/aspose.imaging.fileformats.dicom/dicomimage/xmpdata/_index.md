@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimage/xmpdata/
 ---
 ## DicomImage.XmpData property
 
-Gets or sets the Xmp data.
+Access or modify the XMP metadata associated with the image using this intuitive property. Ideal for developers seeking to manage metadata information embedded within the image file, ensuring seamless integration and customization in various image processing workflows.
 
 ```csharp
 public override XmpPacketWrapper XmpData { get; set; }

@@ -3,7 +3,7 @@ title: TypeGeneralTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.imaging/matrix/typegeneraltransform/
 ---
 ## Matrix.TypeGeneralTransform field

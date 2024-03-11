@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/removeframeat/
 ---
 ## ApngImage.RemoveFrameAt method
 
-Removes the frame at the specified index of the own frame collection. The frame to be deleted will be disposed.
+Remove the frame at the specified index from your frame collection seamlessly with this method. Perfect for developers seeking streamlined management of frames in their multi-frame images. The frame to be deleted will be disposed.
 
 ```csharp
 public void RemoveFrameAt(int index)

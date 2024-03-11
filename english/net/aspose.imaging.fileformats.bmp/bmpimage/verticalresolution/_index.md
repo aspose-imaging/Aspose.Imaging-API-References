@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.bmp/bmpimage/verticalresolution/
 ---
 ## BmpImage.VerticalResolution property
 
-Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../../aspose.imaging/rasterimage).
+Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [`RasterImage`](../../../aspose.imaging/rasterimage) object with this property. Perfect for developers requiring precise control over image resolution in their applications.
 
 ```csharp
 public override double VerticalResolution { get; set; }

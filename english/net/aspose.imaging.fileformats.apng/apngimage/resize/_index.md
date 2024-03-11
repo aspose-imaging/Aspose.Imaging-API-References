@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/resize/
 ---
 ## ApngImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image seamlessly with this intuitive method. Perfect for developers seeking to adjust the dimensions of their images dynamically.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)

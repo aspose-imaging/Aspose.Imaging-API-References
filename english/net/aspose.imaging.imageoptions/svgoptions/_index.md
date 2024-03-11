@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/svgoptions/
 ---
 ## SvgOptions class
 
-The SVG file format creation options.
+Create Scalar Vector Graphics (SVG) image files with our API, utilizing versatile options for color types and compression levels. Seamlessly customize your SVG images with precision, ensuring optimal quality and compatibility for your design needs.
 
 ```csharp
 public class SvgOptions : ImageOptionsBase

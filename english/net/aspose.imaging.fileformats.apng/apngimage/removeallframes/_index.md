@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.apng/apngimage/removeallframes/
 ---
 ## ApngImage.RemoveAllFrames method
 
-Removes all frames from the own frame collection.
+Clear your frame collection by removing all frames with this intuitive method. Ideal for developers seeking to reset or refresh their animations.
 
 ```csharp
 public void RemoveAllFrames()

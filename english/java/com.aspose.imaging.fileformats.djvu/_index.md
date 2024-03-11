@@ -14,7 +14,7 @@ The package contains djvu classes
 
 | Class | Description |
 | --- | --- |
-| [DjvuImage](../com.aspose.imaging.fileformats.djvu/djvuimage) | DjvuDocument class |
+| [DjvuImage](../com.aspose.imaging.fileformats.djvu/djvuimage) | DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books, integrating text, drawings, images, and photos into a single format. |
 | [DjvuPage](../com.aspose.imaging.fileformats.djvu/djvupage) | Djvu page class |
 | [DjvuRaster](../com.aspose.imaging.fileformats.djvu/djvuraster) | Class for representing Djvu raster image where located result of some operation |
 | [OnPageExportedAction](../com.aspose.imaging.fileformats.djvu/onpageexportedaction) | Delegate for firing when page is exported |

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.cmx/cmximage/document/
 ---
 ## CmxImage.Document property
 
-Gets the CMX document.
+Retrieve the CMX document effortlessly with this intuitive property. Ideal for developers seeking to access or modify CMX images, ensuring flexibility and efficiency in their applications.
 
 ```csharp
 public CmxDocument Document { get; }
