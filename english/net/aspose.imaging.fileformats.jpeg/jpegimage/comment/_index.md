@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/comment/
 ---
 ## JpegImage.Comment property
 
-Gets or sets the jpeg file comment.
+Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. Whether it's tagging images with metadata or appending additional context, this property offers flexibility in organizing and categorizing your JPEG files.
 
 ```csharp
 public string Comment { get; set; }

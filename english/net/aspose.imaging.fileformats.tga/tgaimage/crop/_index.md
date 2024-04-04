@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/crop/
 ---
 ## TgaImage.Crop method (1 of 2)
 
-Cropping the image.
+Crop the image to a specified region. This method allows you to define a rectangular area within the image to retain, discarding the rest. This operation is useful for focusing on specific content within the image or removing unwanted portions.
 
 ```csharp
 public override void Crop(Rectangle rectangle)
@@ -29,7 +29,7 @@ public override void Crop(Rectangle rectangle)
 
 ## TgaImage.Crop method (2 of 2)
 
-Crop image with shifts.
+Crop the image by specifying shifts for the left, right, top, and bottom boundaries. This method allows you to trim the image by moving its boundaries independently along the horizontal and vertical axes. By adjusting these shifts, you can precisely control which portions of the image to retain, effectively cropping it to the desired dimensions.
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)

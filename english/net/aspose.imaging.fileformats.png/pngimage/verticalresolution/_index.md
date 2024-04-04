@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/verticalresolution/
 ---
 ## PngImage.VerticalResolution property
 
-Gets or sets the vertical resolution.
+Provides access to the vertical resolution of the image. Developers can use this property to retrieve or modify the resolution setting, which indicates the number of pixels per inch (PPI) along the vertical axis of the image.
 
 ```csharp
 public override double VerticalResolution { get; set; }

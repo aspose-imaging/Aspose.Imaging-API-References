@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/gethashcode/
 ---
 ## TgaImage.GetHashCode method
 
-Get hash code of this instance. Not suitable to be used as a key as [`TgaImage`](../../tgaimage) is not immutable.
+Retrieve the hash code of the current instance. However, it's important to note that this hash code may not be suitable for use as a key, particularly because instances of the TgaImage class are not immutable.
 
 ```csharp
 public override int GetHashCode()

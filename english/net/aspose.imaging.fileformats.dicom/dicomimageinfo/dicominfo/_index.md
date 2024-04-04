@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo/
 Gets the header information of the DICOM file.
 
 ```csharp
-public List<string> DicomInfo { get; }
+public ReadOnlyCollection<string> DicomInfo { get; }
 ```
 
 ### Examples

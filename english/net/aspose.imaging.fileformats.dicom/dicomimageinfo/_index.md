@@ -38,6 +38,18 @@ public sealed class DicomImageInfo
 | [Width](../../aspose.imaging.fileformats.dicom/dicomimageinfo/width) { get; } | Gets the width. |
 | [WindowCentre](../../aspose.imaging.fileformats.dicom/dicomimageinfo/windowcentre) { get; } | Gets the window centre. |
 | [WindowWidth](../../aspose.imaging.fileformats.dicom/dicomimageinfo/windowwidth) { get; } | Gets the width of the window. |
+| static [ReadonlyTagsList](../../aspose.imaging.fileformats.dicom/dicomimageinfo/readonlytagslist) { get; } | The read-only tags list. These tag values will be reset according to the actual image data upon image save. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddTag](../../aspose.imaging.fileformats.dicom/dicomimageinfo/addtag)(string, object) | Add new Dicom tag. |
+| [RemoveTagAt](../../aspose.imaging.fileformats.dicom/dicomimageinfo/removetagat)(int) | Remove an existing tag. |
+| [TryAddTag](../../aspose.imaging.fileformats.dicom/dicomimageinfo/tryaddtag)(string, object) | Add new Dicom tag. |
+| [TryRemoveTagAt](../../aspose.imaging.fileformats.dicom/dicomimageinfo/tryremovetagat)(int) | Remove an existing tag. |
+| [TryUpdateTagAt](../../aspose.imaging.fileformats.dicom/dicomimageinfo/tryupdatetagat)(int, object) | Update an existing tag. |
+| [UpdateTagAt](../../aspose.imaging.fileformats.dicom/dicomimageinfo/updatetagat)(int, object) | Update an existing tag. |
 
 ### See Also
 

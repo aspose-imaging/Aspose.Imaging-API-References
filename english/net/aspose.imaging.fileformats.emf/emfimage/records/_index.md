@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.emf/emfimage/records/
 ---
 ## EmfImage.Records property
 
-Gets or sets the records.
+Retrieve or modify the records associated with the object. Efficiently access and manage the collection of records for enhanced data manipulation and processing. Optimize your workflow by seamlessly interacting with the object's records.
 
 ```csharp
 public override MetaObjectList Records { get; set; }

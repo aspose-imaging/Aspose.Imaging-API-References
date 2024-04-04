@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/dither/
 ---
 ## GifImage.Dither method
 
-Performs dithering on the current image.
+Apply dithering to the current image. This process enhances image quality by reducing color banding and improving color transitions, resulting in a smoother appearance.
 
 ```csharp
 public override void Dither(DitheringMethod ditheringMethod, int bitsCount, 

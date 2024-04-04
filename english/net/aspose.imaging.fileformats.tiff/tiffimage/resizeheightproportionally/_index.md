@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/resizeheightproportionally/
 ---
 ## TiffImage.ResizeHeightProportionally method
 
-Resizes the width proportionally.
+Conduct a proportional adjustment of the image's height, preserving its aspect ratio for consistent visual integrity. Employ this method to dynamically resize images within your application, ensuring optimal display across diverse platforms and devices without compromising content quality.
 
 ```csharp
 public override void ResizeHeightProportionally(int newHeight, ResizeType resizeType)

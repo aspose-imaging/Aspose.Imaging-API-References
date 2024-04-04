@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/rotateflip/
 ---
 ## SvgImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the image.
+Applies rotation, flipping, or both to the image as per the specified parameters. This method offers versatility in image manipulation, allowing for seamless adjustment of orientation to achieve desired visual effects or correct orientation errors.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

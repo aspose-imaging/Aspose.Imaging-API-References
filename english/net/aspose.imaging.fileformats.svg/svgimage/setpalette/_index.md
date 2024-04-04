@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/setpalette/
 ---
 ## SvgImage.SetPalette method
 
-Sets the image palette.
+Applies a specified palette to the image, enabling customization of color schemes for aesthetic or functional purposes. This method provides flexibility in managing color palettes to suit various design or application requirements.
 
 ```csharp
 public override void SetPalette(IColorPalette palette, bool updateColors)

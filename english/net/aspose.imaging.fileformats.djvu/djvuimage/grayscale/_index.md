@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/grayscale/
 ---
 ## DjvuImage.Grayscale method
 
-Transformation of an image to its grayscale representation
+Grayscale transformation converts an image to a black-and-white representation, where each pixel's intensity is represented by a single value ranging from black to white. This process removes color information, resulting in a monochromatic image. Grayscale images are commonly used in applications where color is unnecessary or where simplicity is preferred, such as document scanning, printing, and certain types of image analysis.
 
 ```csharp
 public override void Grayscale()

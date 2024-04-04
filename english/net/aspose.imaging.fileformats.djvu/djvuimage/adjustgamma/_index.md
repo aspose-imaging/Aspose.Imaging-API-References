@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/adjustgamma/
 ---
 ## DjvuImage.AdjustGamma method (1 of 2)
 
-Gamma-correction of an image.
+Gamma correction, specifically for the red, green, and blue channels, involves adjusting the brightness of each color component separately. By applying different gamma coefficients to the RGB channels, you can fine-tune the overall brightness and contrast of an image. This technique ensures accurate color representation and improves the visual quality of the image across different display devices.
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -47,7 +47,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 
 ## DjvuImage.AdjustGamma method (2 of 2)
 
-Gamma-correction of an image.
+Gamma correction is applied to an image with customizable parameters for the red, green, and blue channels, allowing precise adjustment of color balance and brightness. This method enhances image quality by fine-tuning color representation, ensuring optimal rendering across different display devices. Adjusting gamma values for individual channels improves color balance and visual appeal.
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)

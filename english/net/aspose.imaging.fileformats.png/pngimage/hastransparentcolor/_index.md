@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/hastransparentcolor/
 ---
 ## PngImage.HasTransparentColor property
 
-Gets a value indicating whether image has transparent color.
+Provides a boolean value indicating whether the image contains a transparent color. This property is crucial for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent regions in the image.
 
 ```csharp
 public override bool HasTransparentColor { get; set; }

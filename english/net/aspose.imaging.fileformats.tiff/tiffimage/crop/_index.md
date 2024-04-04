@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/crop/
 ---
 ## TiffImage.Crop method (1 of 2)
 
-Cropping the image.
+Crop the image using a specified rectangular region, allowing precise selection of desired content. Integrate this method into your image processing workflow to efficiently remove unwanted areas and focus on essential details, enhancing the overall clarity and composition of the image.
 
 ```csharp
 public override void Crop(Rectangle rectangle)
@@ -51,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 
 ## TiffImage.Crop method (2 of 2)
 
-Crop image with shifts.
+Perform cropping on the image by specifying shifts in the left, right, top, and bottom directions. This method enables precise selection of the desired portion of the image, facilitating efficient removal of unwanted areas and focusing on essential content. Integrate this functionality into your image processing pipeline to enhance clarity and composition as needed within your application.
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/rotate/
 ---
 ## TiffImage.Rotate method
 
-Rotate image around the center.
+Rotate the image around its center point by a specified angle, enabling precise orientation adjustments. Incorporate this functionality into your image processing pipeline to facilitate accurate transformations, ensuring optimal alignment and presentation of visual content within your application.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

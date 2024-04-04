@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/adjustcontrast/
 ---
 ## GifImage.AdjustContrast method
 
-Adjusts the contrast.
+Adjusts the contrast of the image, enhancing or reducing the difference in brightness between pixels. This method modifies the image's overall tonal range, making darker areas darker and brighter areas brighter to improve visual clarity and detail.
 
 ```csharp
 public override void AdjustContrast(float contrast)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odgimage/odgimage/
 ---
 ## OdgImage constructor (1 of 2)
 
-Initializes a new instance of the [`OdgImage`](../../odgimage) class.
+Start a new creation of the [`OdgImage`](../../odgimage) class object with the initiation of a fresh instance. Harness the potential of a stream container coupled with load options parameters, maintain a versatile constructor to seamlessly load images. This constructor empowers efficient image handling, offering customizable loading configurations for enhanced adaptability and performance across diverse scenarios.
 
 ```csharp
 public OdgImage(StreamContainer streamContainer, LoadOptions options)
@@ -31,7 +31,7 @@ public OdgImage(StreamContainer streamContainer, LoadOptions options)
 
 ## OdgImage constructor (2 of 2)
 
-Initializes a new instance of the [`OdgImage`](../../odgimage) class.
+Crafted for seamless integration into software solutions, the [`OdgImage`](../../odgimage) constructor initializes a new instance by leveraging a stream container. This method ensures efficient handling of ODG image data within software environments, optimizing resource utilization and facilitating streamlined image processing workflows.
 
 ```csharp
 public OdgImage(StreamContainer streamContainer)

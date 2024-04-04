@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/binarizeotsu/
 ---
 ## DjvuImage.BinarizeOtsu method
 
-Binarization of an image with Otsu thresholding
+Binarization using Otsu thresholding is a technique that automatically calculates an optimal threshold value based on the image's histogram. It separates the image into foreground and background by minimizing the intra-class variance. Otsu's method is widely used for segmenting images into binary form, particularly when the distribution of pixel intensities is bimodal or multimodal. This approach is beneficial for tasks such as object detection, image segmentation, and feature extraction, where accurate delineation between foreground and background is crucial.
 
 ```csharp
 public override void BinarizeOtsu()

@@ -3,7 +3,7 @@ title: ResizeHeightProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging/image/resizeheightproportionally/
 ---
 ## Image.ResizeHeightProportionally method (1 of 3)

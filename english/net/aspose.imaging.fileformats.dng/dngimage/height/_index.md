@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dng/dngimage/height/
 ---
 ## DngImage.Height property
 
-Gets the image height.
+Retrieve the height of the image with this property. Perfect for determining the vertical size of the image without hassle.
 
 ```csharp
 public override int Height { get; }

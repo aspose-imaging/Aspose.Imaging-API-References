@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/getoriginaloptions/
 ---
 ## TiffImage.GetOriginalOptions method
 
-Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../../aspose.imaging/image/save) method as the second parameter.
+Retrieve options derived from the original file settings, facilitating seamless preservation of key parameters such as bit-depth and other essential attributes of the original image. Utilize this method to maintain fidelity and consistency in image processing tasks, ensuring optimal results without unnecessary alterations. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../../aspose.imaging/image/save) method as the second parameter.
 
 ```csharp
 public override ImageOptionsBase GetOriginalOptions()

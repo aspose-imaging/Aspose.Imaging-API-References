@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/activeframe/
 ---
 ## GifImage.ActiveFrame property
 
-Gets or sets the active frame.
+Manage and manipulate frames with this property, enabling smooth navigation and modification of the active frame within the GIF image.
 
 ```csharp
 public GifFrameBlock ActiveFrame { get; set; }

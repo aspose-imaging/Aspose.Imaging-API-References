@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/resizewidthproportionally/
 ---
 ## TiffImage.ResizeWidthProportionally method
 
-Resizes the width proportionally.
+Adjust the width of the image while maintaining its aspect ratio, ensuring proportional resizing for optimal visual presentation. Utilize this method to dynamically scale images within your application, facilitating consistent and aesthetically pleasing rendering across various display contexts.
 
 ```csharp
 public override void ResizeWidthProportionally(int newWidth, ResizeType resizeType)

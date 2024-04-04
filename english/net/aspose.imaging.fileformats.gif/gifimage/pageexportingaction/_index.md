@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/pageexportingaction/
 ---
 ## GifImage.PageExportingAction property
 
-Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. It provides flexibility in choosing export actions tailored to the needs of the application or workflow, enhancing customization and adaptability. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

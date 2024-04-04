@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/normalizeangle/
 ---
 ## TiffImage.NormalizeAngle method
 
-Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../../aspose.imaging/rasterimage/getskewangle) and [`Rotate`](../rotate) methods.
+Utilize the NormalizeAngle method specifically designed for scanned text documents to rectify skewed scans, ensuring accurate alignment. Seamlessly integrate this functionality into your text processing workflows to enhance document readability and quality, improving overall efficiency in text recognition and analysis tasks. This method uses [`GetSkewAngle`](../../../aspose.imaging/rasterimage/getskewangle) and [`Rotate`](../rotate) methods.
 
 ```csharp
 public override void NormalizeAngle(bool resizeProportionally, Color backgroundColor)

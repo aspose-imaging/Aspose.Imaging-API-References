@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/inch/
 ---
 ## WmfImage.Inch property
 
-Gets or sets the inch.
+Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. Utilize this property to establish or retrieve inch values associated with the image, facilitating accurate representation of physical dimensions within your application.
 
 ```csharp
 public int Inch { get; set; }

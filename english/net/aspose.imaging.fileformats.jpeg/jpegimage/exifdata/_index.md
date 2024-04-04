@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/exifdata/
 ---
 ## JpegImage.ExifData property
 
-Get or set exif data container
+Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. Whether it's extracting information about the camera settings or modifying existing metadata, this property offers flexibility in managing the EXIF data container.
 
 ```csharp
 public JpegExifData ExifData { get; set; }

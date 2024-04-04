@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/gammavaluenumerator/
 ---
 ## TgaImage.GammaValueNumerator property
 
-Gets Gamma Value Numerator part. An uncorrected image (an image with no gamma) should have the value 1.0 as the result.
+Gets the numerator part of the gamma value, which is essential for accurate color representation in images. In images without gamma correction, this value should be 1.0. Understanding and utilizing this value is crucial for maintaining color fidelity and ensuring accurate image rendering.
 
 ```csharp
 public ushort GammaValueNumerator { get; }

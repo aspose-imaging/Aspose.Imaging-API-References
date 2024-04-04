@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/crop/
 ---
 ## GifImage.Crop method
 
-Cropping the image.
+Crop the image using a specified rectangle area. This operation removes the outer portion of the image, leaving only the selected region defined by the rectangle.
 
 ```csharp
 public override void Crop(Rectangle rectangle)

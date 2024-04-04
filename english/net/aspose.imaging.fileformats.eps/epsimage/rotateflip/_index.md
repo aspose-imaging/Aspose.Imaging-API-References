@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/rotateflip/
 ---
 ## EpsImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the image.
+This method facilitates versatile manipulation of the image by enabling rotation, flipping, or both rotation and flipping simultaneously. It offers flexibility in adjusting the orientation of the image to suit specific requirements, enhancing its usability and visual appeal.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

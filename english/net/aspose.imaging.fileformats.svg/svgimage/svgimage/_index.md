@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/svgimage/
 ---
 ## SvgImage constructor (1 of 4)
 
-Initializes a new instance of the [`SvgImage`](../../svgimage) class.
+Instantiates a new object of the [`SvgImage`](../../svgimage) class, utilizing the specified path to locate and load the image. This constructor facilitates the creation of SVG image instances from external files, enabling seamless integration into software systems and workflows.
 
 ```csharp
 public SvgImage(string path)
@@ -34,7 +34,7 @@ public SvgImage(string path)
 
 ## SvgImage constructor (2 of 4)
 
-Initializes a new instance of the [`SvgImage`](../../svgimage) class.
+Creates a new instance of the [`SvgImage`](../../svgimage) class, loading the image from the provided stream. This constructor enables the direct loading of SVG images from streams, enhancing flexibility and efficiency in handling image resources within software applications.
 
 ```csharp
 public SvgImage(Stream stream)
@@ -82,7 +82,7 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.Fil
 
 ## SvgImage constructor (3 of 4)
 
-Initializes a new instance of the [`SvgImage`](../../svgimage) class.
+Instantiates a new [`SvgImage`](../../svgimage) object with the specified width and height. This constructor allows developers to create SVG images with predefined dimensions, facilitating precise control over the image's size during initialization.
 
 ```csharp
 public SvgImage(int width, int height)
@@ -103,7 +103,7 @@ public SvgImage(int width, int height)
 
 ## SvgImage constructor (4 of 4)
 
-Initializes a new instance of the [`SvgImage`](../../svgimage) class.
+Creates a new instance of the [`SvgImage`](../../svgimage) class with specified SVG options, image width, and height parameters. This constructor enables developers to initialize SVG images with custom options and dimensions, providing flexibility in managing SVG content and layout.
 
 ```csharp
 public SvgImage(SvgOptions svgOptions, int width, int height)

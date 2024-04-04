@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/nextpage/
 ---
 ## DjvuImage.NextPage property
 
-Gets the next page of the document
+Navigate through your DjVu document by accessing the next page with this convenient property. Quickly move forward in your document viewing or processing tasks.
 
 ```csharp
 public DjvuPage NextPage { get; }

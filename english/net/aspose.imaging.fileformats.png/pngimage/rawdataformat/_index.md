@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/rawdataformat/
 ---
 ## PngImage.RawDataFormat property
 
-Gets the raw data format.
+Accesses the raw data format of the image. This property provides insight into how the image data is structured internally, which can be useful for advanced image processing tasks or format conversion.
 
 ```csharp
 public override PixelDataFormat RawDataFormat { get; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/rotateflip/
 ---
 ## DjvuImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the Active frame only.
+The `RotateFlip` method offers versatile manipulation options for your image, allowing you to rotate, flip, or perform both operations on the active frame independently. Whether you're editing photos, creating graphics, or enhancing digital art, this method provides precise control over the orientation and composition of your images, ensuring they meet your creative vision with ease and efficiency.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/width/
 ---
 ## TgaImage.Width property
 
-Gets this image width.
+Retrieve the width of the image represented by this [`TgaImage`](../../tgaimage) instance. This property provides developers with essential information about the image dimensions, facilitating various image manipulation and processing tasks within their software applications.
 
 ```csharp
 public override int Width { get; }

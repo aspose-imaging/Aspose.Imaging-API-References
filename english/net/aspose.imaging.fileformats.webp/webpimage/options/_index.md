@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/options/
 ---
 ## WebPImage.Options property
 
-Gets or sets the options.
+Retrieve or modify the options associated with the specified property, enabling fine-tuned customization of behavior and settings. Utilize this property to seamlessly access and manipulate configurable parameters, facilitating versatile control and optimization within your application's functionality.
 
 ```csharp
 public WebPOptions Options { get; }

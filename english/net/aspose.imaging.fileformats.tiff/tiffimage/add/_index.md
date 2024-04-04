@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/add/
 ---
 ## TiffImage.Add method
 
-Adds the specified image's frames to current frame.
+Add the frames from the specified image seamlessly into the current frame, consolidating their content and enhancing compositional flexibility. Integrate this method to streamline frame management and manipulation within your application, facilitating efficient handling of multi-frame images.
 
 ```csharp
 public void Add(TiffImage image)

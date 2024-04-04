@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/hasbackgroundcolor/
 ---
 ## GifImage.HasBackgroundColor property
 
-Gets a value indicating whether image has background color.
+This property determines whether the GIF image contains a background color. If true, it indicates that the image includes a background color.
 
 ```csharp
 public override bool HasBackgroundColor { get; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/verticalresolution/
 ---
 ## Jpeg2000Image.VerticalResolution property
 
-Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../../aspose.imaging/rasterimage).
+This property provides access to the vertical resolution of the [`RasterImage`](../../../aspose.imaging/rasterimage), measured in pixels per inch (PPI). Modifying this resolution can affect the quality and size of the image when printed or displayed. By adjusting the vertical resolution, users can optimize the image for different output devices or applications, ensuring optimal visual rendering.
 
 ```csharp
 public override double VerticalResolution { get; set; }

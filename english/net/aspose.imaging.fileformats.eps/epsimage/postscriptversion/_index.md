@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/postscriptversion/
 ---
 ## EpsImage.PostScriptVersion property
 
-Gets the PostScript version.
+This property retrieves the PostScript version associated with the [`EpsImage`](../../epsimage) instance. It offers insight into the specific PostScript language version utilized within the EPS file, aiding in compatibility assessment and facilitating seamless integration with PostScript-compatible environments.
 
 ```csharp
 public string PostScriptVersion { get; }

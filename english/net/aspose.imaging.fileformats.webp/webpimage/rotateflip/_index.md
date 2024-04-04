@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/rotateflip/
 ---
 ## WebPImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the Active frame only.
+Apply rotation, flipping, or both operations exclusively to the active frame within the image. Integrate this method into your image processing workflow to achieve precise manipulation of individual frames, enhancing flexibility and control over frame transformations within your application.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

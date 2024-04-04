@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/width/
 ---
 ## EpsImage.Width property
 
-Gets the image width.
+Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices.
 
 ```csharp
 public override int Width { get; }

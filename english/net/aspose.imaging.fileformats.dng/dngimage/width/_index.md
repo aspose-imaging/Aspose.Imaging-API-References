@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dng/dngimage/width/
 ---
 ## DngImage.Width property
 
-Gets the image width.
+Access the width of the image with this property. Ideal for obtaining the horizontal size of the image quickly and efficiently.
 
 ```csharp
 public override int Width { get; }

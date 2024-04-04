@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/height/
 ---
 ## TgaImage.Height property
 
-Gets this image height.
+Obtain the height of the image encapsulated by this [`TgaImage`](../../tgaimage) instance. This property furnishes developers with critical details concerning the image's vertical dimensions, enabling seamless integration and manipulation of images within their software solutions.
 
 ```csharp
 public override int Height { get; }

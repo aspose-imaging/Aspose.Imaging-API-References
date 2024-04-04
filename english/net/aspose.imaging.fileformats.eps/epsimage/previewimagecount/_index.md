@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/previewimagecount/
 ---
 ## EpsImage.PreviewImageCount property
 
-Gets the preview image count.
+Access the number of preview images available with ease. This property allows you to effortlessly retrieve the count of preview images associated with your file, enabling efficient management and navigation of your image previews. Ideal for optimizing your workflow and organizing your image assets effectively.
 
 ```csharp
 public int PreviewImageCount { get; }

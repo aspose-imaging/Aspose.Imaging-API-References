@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/rotateflip/
 ---
 ## TgaImage.RotateFlip method
 
-The rotate flip.
+The "RotateFlip" method enables rotating and flipping operations on the image. It offers versatile functionality for manipulating image orientation, allowing users to perform rotations and flips according to their requirements, facilitating efficient image processing tasks within software applications.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

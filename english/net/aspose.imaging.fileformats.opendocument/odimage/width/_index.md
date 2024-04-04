@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/width/
 ---
 ## OdImage.Width property
 
-Gets the image width.
+Retrieves the width of the image, indicating the horizontal dimension in pixels. This property provides essential information about the image's size, enabling precise rendering, manipulation, and analysis of image data.
 
 ```csharp
 public override int Width { get; }

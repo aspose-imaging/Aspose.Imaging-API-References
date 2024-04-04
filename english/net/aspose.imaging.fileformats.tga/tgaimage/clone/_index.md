@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/clone/
 ---
 ## TgaImage.Clone method (1 of 2)
 
-Creates a new object that is a copy of the current instance.
+Produces a duplicate of the current instance, generating a new object that clones all attributes and properties of the original. This method facilitates the creation of identical copies, ensuring data integrity and preserving the state of the current instance without affecting the original object.
 
 ```csharp
 public TgaImage Clone()
@@ -28,7 +28,7 @@ Returns a new object that is a copy of the current instance.
 
 ## TgaImage.Clone method (2 of 2)
 
-Clone other [`TgaImage`](../../tgaimage) object's properties.
+Replicate the properties of another [`TgaImage`](../../tgaimage) object, creating a new instance with identical attributes. This operation ensures the preservation of data integrity and facilitates the duplication of image properties without altering the source object.
 
 ```csharp
 public void Clone(TgaImage tgaImage)

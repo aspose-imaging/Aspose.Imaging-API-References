@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/height/
 ---
 ## OdImage.Height property
 
-Gets the image height.
+Returns the height of the image, denoting the vertical dimension in pixels. This property is crucial for understanding the image's overall size and proportions, facilitating accurate display and processing of image content.
 
 ```csharp
 public override int Height { get; }

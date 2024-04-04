@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/fileformat/
 ---
 ## DjvuImage.FileFormat property
 
-Gets a value of file format
+Obtain the file format information associated with your DjVu image file. Quickly determine the format of your file for seamless integration into your workflow.
 
 ```csharp
 public override FileFormat FileFormat { get; }

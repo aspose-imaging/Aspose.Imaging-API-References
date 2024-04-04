@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/resizewidthproportionally/
 ---
 ## DjvuImage.ResizeWidthProportionally method
 
-Resizes the width proportionally.
+The `ResizeWidthProportionally` method offers a convenient solution to adjust the width of your image while maintaining its aspect ratio. By proportionally resizing the width, you can ensure that your images remain visually appealing and consistent across different devices and screen sizes, enhancing their versatility and usability in various contexts.
 
 ```csharp
 public override void ResizeWidthProportionally(int newWidth, ResizeType resizeType)

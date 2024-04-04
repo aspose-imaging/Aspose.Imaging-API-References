@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/ignoreembeddedcolorprofile/
 ---
 ## JpegImage.IgnoreEmbeddedColorProfile property
 
-Gets or sets a value indicating whether embedded color profile is ignored. If embedded color profile is ignored, default color profile is used.
+Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag, users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management, facilitating adjustments for consistency and compatibility across various platforms and applications.
 
 ```csharp
 public bool IgnoreEmbeddedColorProfile { get; set; }

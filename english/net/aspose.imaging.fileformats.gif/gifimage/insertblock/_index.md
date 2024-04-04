@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/insertblock/
 ---
 ## GifImage.InsertBlock method
 
-Adds a new GIF block.
+Inserting a new GIF block allows you to add custom data at a specific position within the image. This method enables you to place custom blocks at a desired location in the GIF image, providing flexibility in organizing and structuring the image data.
 
 ```csharp
 public void InsertBlock(int index, IGifBlock block)

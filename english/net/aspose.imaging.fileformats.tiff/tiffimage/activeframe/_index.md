@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/activeframe/
 ---
 ## TiffImage.ActiveFrame property
 
-Gets or sets the active frame.
+Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. Empower your application to interact efficiently with multimedia content, enhancing user engagement and productivity.
 
 ```csharp
 public TiffFrame ActiveFrame { get; set; }

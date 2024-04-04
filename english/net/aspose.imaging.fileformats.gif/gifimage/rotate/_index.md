@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/rotate/
 ---
 ## GifImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+This method rotates the image around its center point. By specifying the rotation angle, you can rotate the image clockwise or counterclockwise to achieve the desired orientation. This rotation helps adjust the image's presentation or alignment without distorting its content.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

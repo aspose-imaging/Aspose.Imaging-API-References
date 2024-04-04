@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/width/
 ---
 ## SvgImage.Width property
 
-Gets the image width.
+Returns the width of the image, denoting its horizontal size in pixels. This property is crucial for layout computations and display rendering, ensuring precise positioning and visualization of the image content.
 
 ```csharp
 public override int Width { get; }

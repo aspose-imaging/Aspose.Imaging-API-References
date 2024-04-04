@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/crop/
 ---
 ## WmfImage.Crop method
 
-Crops the specified rectangle.
+Crop the image to the specified rectangle, retaining only the selected region while discarding the rest. Integrate this method into your image processing workflow to extract specific areas of interest and customize the composition of the image within your application.
 
 ```csharp
 public override void Crop(Rectangle rectangle)

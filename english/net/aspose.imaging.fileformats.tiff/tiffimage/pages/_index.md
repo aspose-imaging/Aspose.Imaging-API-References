@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/pages/
 ---
 ## TiffImage.Pages property
 
-Gets the pages.
+Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. Empower your application with efficient access to individual pages, facilitating streamlined document processing and enhanced user interaction.
 
 ```csharp
 public override Image[] Pages { get; }

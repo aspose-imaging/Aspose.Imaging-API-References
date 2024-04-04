@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/fileformat/
 ---
 ## Jpeg2000Image.FileFormat property
 
-Gets a value of file format
+Retrieve the format of the image file. This property provides information about the file format of the image. Utilize this property to determine the format of the image file programmatically, facilitating appropriate handling and processing based on the file's format.
 
 ```csharp
 public override FileFormat FileFormat { get; }

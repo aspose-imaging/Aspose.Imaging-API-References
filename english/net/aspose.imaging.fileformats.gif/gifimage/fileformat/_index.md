@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/fileformat/
 ---
 ## GifImage.FileFormat property
 
-Gets a value of file format
+Retrieve the file format effortlessly with this property. It's your go-to source for identifying the format of your files. Seamlessly integrated into your workflow, it provides vital information without any hassle.
 
 ```csharp
 public override FileFormat FileFormat { get; }

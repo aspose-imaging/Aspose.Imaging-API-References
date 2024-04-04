@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/filter/
 ---
 ## WebPImage.Filter method
 
-Filters the specified rectangle.
+Filter the content within the specified rectangle, applying a designated image processing filter to enhance or modify the selected region. Integrate this method into your image manipulation workflow to achieve targeted enhancements or transformations within your application.
 
 ```csharp
 public override void Filter(Rectangle rectangle, FilterOptionsBase options)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/softwareversion/
 ---
 ## TgaImage.SoftwareVersion property
 
-Gets or sets Software Version. Accepted version string length is 3-4 characters.
+Retrieves or sets the software version associated with the image. The accepted length for the version string is typically 3 to 4 characters. This property is useful for tracking the software used to create or manipulate the image and can provide valuable context for image processing and compatibility checks.
 
 ```csharp
 public string SoftwareVersion { get; set; }

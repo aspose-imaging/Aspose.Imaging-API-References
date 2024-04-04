@@ -3,7 +3,7 @@ title: Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging/image/resize/
 ---
 ## Image.Resize method (1 of 3)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/softwareid/
 ---
 ## TgaImage.SoftwareId property
 
-Gets or sets Software ID. A total of 40 ASCII characters for the Software ID.
+Manages the software identification (ID) associated with the image, allowing for up to 40 ASCII characters. This property serves as a means to uniquely identify the software utilized in creating or processing the image, providing valuable metadata for organizational and informational purposes.
 
 ```csharp
 public string SoftwareId { get; set; }

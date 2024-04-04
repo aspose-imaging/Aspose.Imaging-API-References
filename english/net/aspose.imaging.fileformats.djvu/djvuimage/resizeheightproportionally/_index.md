@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/resizeheightproportionally/
 ---
 ## DjvuImage.ResizeHeightProportionally method
 
-Resizes the width proportionally.
+The `ResizeHeightProportionally` method allows you to adjust the height of your image while preserving its aspect ratio. This ensures that your image maintains its proportions, preventing distortion and preserving its visual integrity. Whether you're optimizing images for web pages, mobile apps, or print media, this method ensures that your images look their best across different platforms and devices.
 
 ```csharp
 public override void ResizeHeightProportionally(int newHeight, ResizeType resizeType)

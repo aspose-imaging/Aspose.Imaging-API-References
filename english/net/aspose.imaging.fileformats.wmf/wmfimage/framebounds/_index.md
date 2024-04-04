@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/framebounds/
 ---
 ## WmfImage.FrameBounds property
 
-Gets the frame bounds.
+Access the bounds of the frame, indicating its position and dimensions within the image. Utilize this property to retrieve detailed information about the frame's spatial location, enabling precise manipulation and rendering within your application.
 
 ```csharp
 public Rectangle FrameBounds { get; }

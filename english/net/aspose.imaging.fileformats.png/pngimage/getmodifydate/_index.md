@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/getmodifydate/
 ---
 ## PngImage.GetModifyDate method
 
-Gets the date and time the resource image was last modified.
+Retrieves the timestamp indicating the most recent modification of the resource image. This method provides access to vital metadata, enabling applications to ascertain when the image was last altered, facilitating version tracking and content management.
 
 ```csharp
 public override DateTime GetModifyDate(bool useDefault)

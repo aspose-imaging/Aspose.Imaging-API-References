@@ -18,8 +18,8 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 
 | Name | Description |
 | --- | --- |
-| [IcoImage](icoimage)(Image, IcoOptions) | Initializes a new instance of the [`IcoImage`](../icoimage) class. |
-| [IcoImage](icoimage)(int, int, IcoOptions) | Initializes a new instance of the [`IcoImage`](../icoimage) class. |
+| [IcoImage](icoimage)(Image, IcoOptions) | Crafted for simplicity and efficiency, the [`IcoImage`](../icoimage) class empowers you to create ICO images with ease. This constructor initializes a new instance of the class, providing a solid foundation for your image manipulation needs. Whether you're developing applications or enhancing user interfaces, the [`IcoImage`](../icoimage) class simplifies ICO image management, allowing you to focus on delivering exceptional experiences. |
+| [IcoImage](icoimage)(int, int, IcoOptions) | Start ICO image creation effortlessly using the [`IcoImage`](../icoimage) class. This constructor allows you to initialize new instances of ICO images by specifying the width, height, and creation options parameters. With this straightforward constructor, you can tailor ICO images to your exact specifications, ensuring seamless compatibility and visual appeal across different platforms and devices. |
 
 ## Properties
 
@@ -33,8 +33,8 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| override [FileFormat](../../aspose.imaging.fileformats.ico/icoimage/fileformat) { get; } | Gets file format. |
-| override [HasAlpha](../../aspose.imaging.fileformats.ico/icoimage/hasalpha) { get; } | Gets a value indicating whether this instance has alpha. |
+| override [FileFormat](../../aspose.imaging.fileformats.ico/icoimage/fileformat) { get; } | Retrieve the file format effortlessly with this property, enabling seamless integration into your workflow. By using this property, you gain access to critical information about the format of your file, ensuring compatibility and efficient processing. |
+| override [HasAlpha](../../aspose.imaging.fileformats.ico/icoimage/hasalpha) { get; } | Determine whether alpha channel is present in this instance with this property. It offers a quick way to check if the image or document contains an alpha channel, which is crucial for various image processing and rendering tasks. Ideal for ensuring compatibility and handling transparency effects in images or documents. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor) { get; } | Gets a value indicating whether image has transparent color. |
 | override [Height](../../aspose.imaging/rastercachedmultipageimage/height) { get; } | Gets the image height. |
@@ -43,9 +43,9 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedmultipageimage/iscached) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable) { get; } | Gets a value indicating whether raw data loading is available. |
-| override [PageCount](../../aspose.imaging.fileformats.ico/icoimage/pagecount) { get; } | Gets the page count. |
+| override [PageCount](../../aspose.imaging.fileformats.ico/icoimage/pagecount) { get; } | Gain immediate insight into the document structure with this straightforward property. By invoking this property, you effortlessly retrieve the total number of pages contained within the file. |
 | virtual [PageExportingAction](../../aspose.imaging/rastercachedmultipageimage/pageexportingaction) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
-| override [Pages](../../aspose.imaging.fileformats.ico/icoimage/pages) { get; } | Gets the pages. |
+| override [Pages](../../aspose.imaging.fileformats.ico/icoimage/pages) { get; } | Retrieve comprehensive information about the document's pages effortlessly through this property. By accessing this property, you gain access to a collection or array containing all the pages present within the document. |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter) { get; set; } | Gets or sets the custom color converter |
@@ -67,9 +67,9 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 
 | Name | Description |
 | --- | --- |
-| [AddPage](../../aspose.imaging.fileformats.ico/icoimage/addpage)(Image) | Adds an image entry to the ICO image according to default [`IcoOptions`](../../aspose.imaging.imageoptions/icooptions) as 32-bit PNG. |
-| [AddPage](../../aspose.imaging.fileformats.ico/icoimage/addpage)(RasterImage) | Adds an image entry to the ICO image according to default [`IcoOptions`](../../aspose.imaging.imageoptions/icooptions) as 32-bit PNG. |
-| [AddPage](../../aspose.imaging.fileformats.ico/icoimage/addpage)(Image, IcoOptions) | Adds an image entry to the ICO image according to specified [`IcoOptions`](../../aspose.imaging.imageoptions/icooptions). |
+| [AddPage](../../aspose.imaging.fileformats.ico/icoimage/addpage)(Image) | Enrich your ICO image effortlessly by inserting an image page entry using the default settings from [`IcoOptions`](../../aspose.imaging.imageoptions/icooptions). This method conveniently converts the inserted image to a 32-bit PNG format, ensuring compatibility and high-quality rendering within the ICO image. Perfect for seamlessly integrating PNG images into your ICO files with ease and efficiency. |
+| [AddPage](../../aspose.imaging.fileformats.ico/icoimage/addpage)(RasterImage) | Expand your ICO image by adding an image page entry, leveraging the [`IcoOptions`](../../aspose.imaging.imageoptions/icooptions). This method seamlessly incorporates raster images into your ICO file, converting them to a high-quality 32-bit PNG format. Perfect for enhancing your ICO files with raster images while ensuring optimal compatibility and rendering quality. |
+| [AddPage](../../aspose.imaging.fileformats.ico/icoimage/addpage)(Image, IcoOptions) | Diversify your ICO image effortlessly by integrating an image entry tailored to your needs with the specified [`IcoOptions`](../../aspose.imaging.imageoptions/icooptions). This method seamlessly incorporates the image according to your customized options, ensuring flexibility and precision in your ICO file. |
 | override [AdjustBrightness](../../aspose.imaging/rastercachedmultipageimage/adjustbrightness)(int) | Adjust of a *brightness* for image. |
 | override [AdjustContrast](../../aspose.imaging/rastercachedmultipageimage/adjustcontrast)(float) | [`Image`](../../aspose.imaging/image) contrasting |
 | override [AdjustGamma](../../aspose.imaging/rastercachedmultipageimage/adjustgamma)(float) | Gamma-correction of an image. |
@@ -97,6 +97,7 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 | virtual [GetModifyDate](../../aspose.imaging/rasterimage/getmodifydate)(bool) | Gets the date and time the resource image was last modified. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
 | [GetPixel](../../aspose.imaging/rasterimage/getpixel)(int, int) | Gets an image pixel. |
+| override [GetSerializedStream](../../aspose.imaging/rastercachedmultipageimage/getserializedstream)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging/rastercachedmultipageimage/grayscale)() | Transformation of an image to its grayscale representation |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels)(Rectangle) | Loads 32-bit ARGB pixels. |
@@ -112,7 +113,7 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [NormalizeAngle](../../aspose.imaging/rastercachedmultipageimage/normalizeangle)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle) and [`Rotate`](../../aspose.imaging/rastercachedmultipageimage/rotate) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline)(int) | Reads the whole scan line by the specified scan line index. |
-| [RemovePage](../../aspose.imaging.fileformats.ico/icoimage/removepage)(int) | Removes an image entry at specified [index](index) from the ICO image. |
+| [RemovePage](../../aspose.imaging.fileformats.ico/icoimage/removepage)(int) | Fine-tune your ICO image by removing a specific image entry located at the designated [index](index) within the file. This method provides precise control over your image composition, allowing you to refine your ICO file with ease. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |

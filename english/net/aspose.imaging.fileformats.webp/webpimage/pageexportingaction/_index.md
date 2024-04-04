@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/pageexportingaction/
 ---
 ## WebPImage.PageExportingAction property
 
-Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. Please note that setting this property will automatically release page resources after execution. Utilize this feature to perform custom actions or cleanup tasks before exporting each page, ensuring optimal resource management and desired behavior during image saving operations within your application.
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

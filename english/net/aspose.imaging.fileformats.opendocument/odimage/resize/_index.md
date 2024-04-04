@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/resize/
 ---
 ## OdImage.Resize method (1 of 2)
 
-Resizes the image.
+Adjusts the dimensions of the image according to specified width, height, and resize settings. This method provides flexibility in resizing images while maintaining desired proportions and adhering to defined resize configurations, ensuring accurate adjustment of image dimensions to meet specific requirements or display criteria.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -31,7 +31,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 ## OdImage.Resize method (2 of 2)
 
-Resizes the image.
+This method resizes the image, adjusting both width and height based on the specified dimensions and resize type. It offers a comprehensive approach to resizing, allowing for precise adjustments while maintaining image quality and integrity. By incorporating the resize type parameter, users can choose from various resizing algorithms or methods to achieve optimal results for different use cases or preferences.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)

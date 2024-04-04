@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/fileformat/
 ---
 ## WebPImage.FileFormat property
 
-Gets a value of file format
+Access the file format value associated with the image, providing information about the format in which the image is stored. Utilize this property to determine the file format of the image, facilitating compatibility checks and format-specific processing within your application.
 
 ```csharp
 public override FileFormat FileFormat { get; }

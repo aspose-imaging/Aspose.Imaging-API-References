@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/insertframe/
 ---
 ## TiffImage.InsertFrame method
 
-The insert frame.
+Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. Employ this method to manage frame sequences effectively, facilitating dynamic manipulation and organization of image content within your application.
 
 ```csharp
 public void InsertFrame(int index, TiffFrame frameToInsert)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/pages/
 ---
 ## GifImage.Pages property
 
-Gets the pages.
+Gain access to the pages within the image through this convenient property, allowing seamless navigation and manipulation of individual pages as needed.
 
 ```csharp
 public override Image[] Pages { get; }

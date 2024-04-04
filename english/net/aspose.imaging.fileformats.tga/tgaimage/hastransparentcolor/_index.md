@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/hastransparentcolor/
 ---
 ## TgaImage.HasTransparentColor property
 
-Gets or sets a value indicating whether the image has transparent color.
+Retrieves or sets a boolean value indicating whether the image contains a transparent color. This property is essential for identifying whether the image supports transparency, helping you to implement appropriate handling of transparency-related operations such as blending, compositing, or masking.
 
 ```csharp
 public override bool HasTransparentColor { get; set; }

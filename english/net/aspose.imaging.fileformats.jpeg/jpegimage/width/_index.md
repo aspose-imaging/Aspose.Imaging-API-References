@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/width/
 ---
 ## JpegImage.Width property
 
-Gets the image width.
+This property retrieves the width of the image, expressed in pixels. It provides essential information about the image's dimensions, enabling accurate rendering, manipulation, or display of the image data.
 
 ```csharp
 public override int Width { get; }

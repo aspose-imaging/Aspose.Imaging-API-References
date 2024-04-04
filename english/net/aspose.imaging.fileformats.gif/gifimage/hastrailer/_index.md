@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/hastrailer/
 ---
 ## GifImage.HasTrailer property
 
-Gets or sets a value indicating whether GIF has trailer.
+Manage the presence of a trailer in your GIF files with this property. Whether you need to check if a trailer exists or set its presence, this property simplifies the process. Keep your GIF files structured and compliant with this intuitive feature.
 
 ```csharp
 public bool HasTrailer { get; set; }

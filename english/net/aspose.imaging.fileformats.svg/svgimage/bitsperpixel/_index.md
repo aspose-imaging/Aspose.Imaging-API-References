@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/bitsperpixel/
 ---
 ## SvgImage.BitsPerPixel property
 
-Gets the image bits per pixel count this parameter is not applicable to vector images
+Retrieves the bits per pixel count of the image. It's important to note that this parameter is not applicable to vector images, as they are not measured in pixels. This property provides crucial information about the image's color depth, aiding in processing and manipulation tasks.
 
 ```csharp
 public override int BitsPerPixel { get; }

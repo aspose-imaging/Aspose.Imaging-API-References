@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/iscached/
 ---
 ## WmfImage.IsCached property
 
-Gets a value indicating whether object's data is cached currently and no data readig is required.
+Retrieve a boolean value indicating whether the object's data is currently cached, eliminating the need for additional data reading operations. Utilize this property to optimize performance by determining if the object's data is readily available without the need for costly data retrieval processes within your application.
 
 ```csharp
 public override bool IsCached { get; }

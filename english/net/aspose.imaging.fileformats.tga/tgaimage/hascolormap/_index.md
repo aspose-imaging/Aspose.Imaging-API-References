@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/hascolormap/
 ---
 ## TgaImage.HasColorMap property
 
-Gets a value indicating whether this image has color map.
+Retrieve whether this [`TgaImage`](../../tgaimage) instance contains a color map. Understanding the presence of a color map is crucial for accurate interpretation and manipulation of the image's color data.
 
 ```csharp
 public bool HasColorMap { get; }

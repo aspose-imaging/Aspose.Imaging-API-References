@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dng/dngimage/fileformat/
 ---
 ## DngImage.FileFormat property
 
-Gets a value of file format
+Identify the file format of your image with this property. Perfect for understanding the format - just straightforward details.
 
 ```csharp
 public override FileFormat FileFormat { get; }

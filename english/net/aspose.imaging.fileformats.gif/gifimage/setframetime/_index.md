@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/setframetime/
 ---
 ## GifImage.SetFrameTime method
 
-Sets all frames duration in milliseconds. Changing this value will reset delay for all frames.
+Adjusts the duration of each frame in milliseconds, ensuring consistent timing throughout the image sequence. This method uniformly sets the display time for every frame, allowing for precise control over animation speed. Changing this value will reset delay for all frames.
 
 ```csharp
 public void SetFrameTime(ushort time)

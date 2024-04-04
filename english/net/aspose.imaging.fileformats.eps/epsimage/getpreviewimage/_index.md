@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/getpreviewimage/
 ---
 ## EpsImage.GetPreviewImage method
 
-Gets the exisiting preview image of specified *format* or returns `null`.
+Retrieves the existing preview image in the specified *format* or returns `null` if none is found. This method offers flexibility in accessing preview images tailored to specific formats, optimizing compatibility and resource management within applications.
 
 ```csharp
 public Image GetPreviewImage(EpsPreviewFormat format = EpsPreviewFormat.Default)

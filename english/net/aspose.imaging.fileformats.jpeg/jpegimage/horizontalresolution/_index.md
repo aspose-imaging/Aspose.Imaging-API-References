@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/horizontalresolution/
 ---
 ## JpegImage.HorizontalResolution property
 
-Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../../aspose.imaging/rasterimage).
+This property grants you access to the horizontal resolution of the [`RasterImage`](../../../aspose.imaging/rasterimage), measured in pixels per inch. By setting or retrieving this value, you can precisely control the resolution of the image, ensuring it meets your specific requirements for quality and clarity.
 
 ```csharp
 public override double HorizontalResolution { get; set; }

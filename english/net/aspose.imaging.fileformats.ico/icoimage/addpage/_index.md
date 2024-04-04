@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.ico/icoimage/addpage/
 ---
 ## IcoImage.AddPage method (1 of 3)
 
-Adds an image entry to the ICO image according to default [`IcoOptions`](../../../aspose.imaging.imageoptions/icooptions) as 32-bit PNG.
+Expand your ICO image by adding an image page entry, leveraging the [`IcoOptions`](../../../aspose.imaging.imageoptions/icooptions). This method seamlessly incorporates raster images into your ICO file, converting them to a high-quality 32-bit PNG format. Perfect for enhancing your ICO files with raster images while ensuring optimal compatibility and rendering quality.
 
 ```csharp
 public void AddPage(RasterImage page)
@@ -29,7 +29,7 @@ public void AddPage(RasterImage page)
 
 ## IcoImage.AddPage method (2 of 3)
 
-Adds an image entry to the ICO image according to default [`IcoOptions`](../../../aspose.imaging.imageoptions/icooptions) as 32-bit PNG.
+Enrich your ICO image effortlessly by inserting an image page entry using the default settings from [`IcoOptions`](../../../aspose.imaging.imageoptions/icooptions). This method conveniently converts the inserted image to a 32-bit PNG format, ensuring compatibility and high-quality rendering within the ICO image. Perfect for seamlessly integrating PNG images into your ICO files with ease and efficiency.
 
 ```csharp
 public void AddPage(Image page)
@@ -50,7 +50,7 @@ public void AddPage(Image page)
 
 ## IcoImage.AddPage method (3 of 3)
 
-Adds an image entry to the ICO image according to specified [`IcoOptions`](../../../aspose.imaging.imageoptions/icooptions).
+Diversify your ICO image effortlessly by integrating an image entry tailored to your needs with the specified [`IcoOptions`](../../../aspose.imaging.imageoptions/icooptions). This method seamlessly incorporates the image according to your customized options, ensuring flexibility and precision in your ICO file.
 
 ```csharp
 public void AddPage(Image page, IcoOptions icoOptions)

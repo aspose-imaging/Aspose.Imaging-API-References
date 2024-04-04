@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odgimage/getdefaultoptions/
 ---
 ## OdgImage.GetDefaultOptions method
 
-Gets the default options.
+This property provides access to the default options associated with an image. By retrieving these options, developers can quickly ascertain the default settings applied to the image, facilitating the creation of new instances or the modification of existing ones based on these presets.
 
 ```csharp
 public override ImageOptionsBase GetDefaultOptions(object[] args)

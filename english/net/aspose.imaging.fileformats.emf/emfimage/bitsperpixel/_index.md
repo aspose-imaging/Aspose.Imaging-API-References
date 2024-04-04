@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.emf/emfimage/bitsperpixel/
 ---
 ## EmfImage.BitsPerPixel property
 
-Gets the image bits per pixel count this parameter is not applicable to vector images
+Retrieve the bit-per-pixel count specific to raster images, as this parameter doesn't apply to vector images. Quickly ascertain the pixel depth of raster images for precise analysis and manipulation, ensuring accurate handling of image data.
 
 ```csharp
 public override int BitsPerPixel { get; }

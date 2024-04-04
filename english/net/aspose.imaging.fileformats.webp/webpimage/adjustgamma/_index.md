@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/adjustgamma/
 ---
 ## WebPImage.AdjustGamma method (1 of 2)
 
-Gamma-correction of an image.
+Apply gamma correction to the image, adjusting pixel intensities to achieve desired brightness and color balance. Incorporate this method into your image processing workflow to enhance visual quality and improve the accuracy of subsequent analysis or display tasks within your application.
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -28,7 +28,7 @@ public override void AdjustGamma(float gamma)
 
 ## WebPImage.AdjustGamma method (2 of 2)
 
-Gamma-correction of an image.
+Perform gamma correction on the image using individual coefficients for the red, green, and blue channels, allowing for fine-tuned adjustments of color balance and contrast. Integrate this method into your image processing pipeline to achieve precise control over color rendering and enhance visual fidelity within your application.
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)

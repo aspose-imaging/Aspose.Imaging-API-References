@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/pixelaspectrationumerator/
 ---
 ## TgaImage.PixelAspectRatioNumerator property
 
-Gets Pixel Aspect Ratio numerator part.
+Retrieves the numerator component of the Pixel Aspect Ratio, which influences the visual aspect of pixels within the image. Understanding and manipulating this value is essential for achieving accurate pixel representation and aspect ratios in image rendering and processing.
 
 ```csharp
 public ushort PixelAspectRatioNumerator { get; }

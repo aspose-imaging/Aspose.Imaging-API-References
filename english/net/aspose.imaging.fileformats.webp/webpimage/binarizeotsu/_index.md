@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/binarizeotsu/
 ---
 ## WebPImage.BinarizeOtsu method
 
-Binarization of an image with Otsu thresholding
+Perform binarization on the image using Otsu's thresholding method, automatically determining the optimal threshold value based on the image's histogram. Integrate this method into your image processing workflow to achieve effective segmentation and feature extraction, enhancing the accuracy and reliability of image analysis tasks within your application.
 
 ```csharp
 public override void BinarizeOtsu()

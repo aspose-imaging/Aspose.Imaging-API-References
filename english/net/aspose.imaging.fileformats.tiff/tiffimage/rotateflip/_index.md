@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/rotateflip/
 ---
 ## TiffImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the Active frame only.
+Perform rotation, flipping, or a combination of both operations exclusively on the active frame. This method allows precise manipulation of individual frames within the image sequence, enhancing flexibility in image editing and composition within your application.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

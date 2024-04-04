@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/ispalettesorted/
 ---
 ## GifImage.IsPaletteSorted property
 
-Gets or sets a value indicating whether palette is sorted.
+Control the sorting of the palette in your GIF images using this property. Whether you need to check if the palette is sorted or set the sorting behavior, this property provides a straightforward way to manage the palette organization in your GIF files.
 
 ```csharp
 public bool IsPaletteSorted { get; set; }

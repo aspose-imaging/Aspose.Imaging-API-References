@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/authorcomments/
 ---
 ## TgaImage.AuthorComments property
 
-Gets or sets Author Comments. This is an ASCII field consisting of 324 bytes which are organized as four lines of 80 characters, each followed by a null terminator.
+Retrieves or sets the comments provided by the author of the image. These comments often contain valuable information, such as descriptions, annotations, or additional context about the image. By accessing or modifying the Author Comments property, developers can enhance the metadata associated with the image, providing users with valuable insights and context regarding its content or creation. This is an ASCII field consisting of 324 bytes which are organized as four lines of 80 characters, each followed by a null terminator.
 
 ```csharp
 public string AuthorComments { get; set; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/horizontalresolution
 ---
 ## Jpeg2000Image.HorizontalResolution property
 
-Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../../aspose.imaging/rasterimage).
+This property allows you to retrieve or modify the horizontal resolution of the [`RasterImage`](../../../aspose.imaging/rasterimage), measured in pixels per inch (PPI). Adjusting this resolution can impact the size and quality of the image when printed or displayed. By setting the horizontal resolution, users can optimize the image for specific output devices or applications, ensuring the best possible visual results.
 
 ```csharp
 public override double HorizontalResolution { get; set; }

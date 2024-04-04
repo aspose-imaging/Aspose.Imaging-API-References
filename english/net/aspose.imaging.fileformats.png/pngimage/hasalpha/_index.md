@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/hasalpha/
 ---
 ## PngImage.HasAlpha property
 
-Get a value indicating whether this instance has alpha.
+Returns a boolean value indicating whether the image has an alpha channel, which determines its transparency. This property is useful for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent areas in the image.
 
 ```csharp
 public override bool HasAlpha { get; }

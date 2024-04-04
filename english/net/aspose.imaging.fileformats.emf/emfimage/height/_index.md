@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.emf/emfimage/height/
 ---
 ## EmfImage.Height property
 
-Gets the image height.
+Retrieve the image's height, facilitating accurate rendering and layout adjustments. Accessing the height property ensures compatibility and seamless integration across different platforms and applications.
 
 ```csharp
 public override int Height { get; }

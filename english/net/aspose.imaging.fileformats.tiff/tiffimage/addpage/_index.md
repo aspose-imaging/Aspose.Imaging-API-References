@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/addpage/
 ---
 ## TiffImage.AddPage method
 
-Adds page to the image.
+Incorporate a new page into the existing image seamlessly, expanding its content and versatility. Utilize this method to enhance document composition and management, empowering efficient handling of multi-page images within your application.
 
 ```csharp
 public virtual void AddPage(RasterImage page)

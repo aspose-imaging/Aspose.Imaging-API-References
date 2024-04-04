@@ -3,7 +3,7 @@ title: GetFileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging/image/getfileformat/
 ---
 ## Image.GetFileFormat method (1 of 2)

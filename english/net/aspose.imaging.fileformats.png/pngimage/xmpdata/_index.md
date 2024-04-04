@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/xmpdata/
 ---
 ## PngImage.XmpData property
 
-Gets or sets the XMP metadata.
+Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information.
 
 ```csharp
 public override XmpPacketWrapper XmpData { get; set; }

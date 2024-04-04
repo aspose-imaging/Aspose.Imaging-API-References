@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odgimage/resize/
 ---
 ## OdgImage.Resize method (1 of 2)
 
-Resizes the image.
+This method helps developers to resize images programmatically. By invoking this function, you can dynamically adjust the dimensions of images, catering to specific requirements or constraints within their applications.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -31,7 +31,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 ## OdgImage.Resize method (2 of 2)
 
-Resizes the image.
+This method facilitates image resizing with precise control over width, height, and resize type parameters. You can specify the desired dimensions and choose from different resizing algorithms or types to achieve optimal results based on application's requirements.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)

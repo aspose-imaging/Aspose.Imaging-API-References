@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/addpage/
 ---
 ## WebPImage.AddPage method
 
-Adds page to the image.
+Append a new page to the image, expanding its content and accommodating additional visual elements. Integrate this method to facilitate dynamic page management within your application, enabling seamless creation and augmentation of multi-page documents or images.
 
 ```csharp
 public void AddPage(RasterImage page)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/adjustcontrast/
 ---
 ## WebPImage.AdjustContrast method
 
-[`Image`](../../../aspose.imaging/image) contrasting
+Enhance the contrast of the [`Image`](../../../aspose.imaging/image), amplifying the differences between light and dark areas. Integrate this method into your image processing workflow to improve visual clarity and overall image quality within your application.
 
 ```csharp
 public override void AdjustContrast(float contrast)

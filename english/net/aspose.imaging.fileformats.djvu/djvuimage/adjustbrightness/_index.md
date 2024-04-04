@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/adjustbrightness/
 ---
 ## DjvuImage.AdjustBrightness method
 
-Adjust of a *brightness* for image.
+Adjust the *brightness* of an image using a specified parameter, providing control over luminance levels for optimal visual clarity. This method enhances or diminishes the overall brightness of the image, allowing for fine adjustments to achieve desired lighting effects. By modulating brightness, users can optimize image visibility and enhance detail reproduction for improved viewing experience.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

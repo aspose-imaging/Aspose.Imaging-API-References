@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/bytesperpixel/
 ---
 ## TgaImage.BytesPerPixel property
 
-Gets bytes per pixel.
+Obtain the bytes per pixel value, which denotes the amount of memory occupied by each pixel in the image. This property serves as a crucial metric for memory management and optimization, aiding developers in efficiently allocating resources and processing image data
 
 ```csharp
 public int BytesPerPixel { get; }

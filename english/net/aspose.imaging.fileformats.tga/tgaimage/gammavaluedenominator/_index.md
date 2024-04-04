@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/gammavaluedenominator/
 ---
 ## TgaImage.GammaValueDenominator property
 
-Gets Gamma Value Denominator part. An uncorrected image (an image with no gamma) should have the value 1.0 as the result.
+Retrieves the denominator part of the gamma value, an integral factor in determining color representation within images. For images lacking gamma correction, this value should be 1.0, ensuring accurate color rendering. Appreciating and leveraging this parameter is fundamental for upholding color fidelity and achieving precise image visualization.
 
 ```csharp
 public ushort GammaValueDenominator { get; }

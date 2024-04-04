@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/hasbackgroundcolor/
 ---
 ## TgaImage.HasBackgroundColor property
 
-Gets or sets a value indicating whether the image has background color.
+Retrieves or sets a value indicating whether the image contains a background color. This property is useful for determining whether the image includes a distinct background color separate from the foreground content. It enables you to customize image processing or rendering based on the presence or absence of a background color.
 
 ```csharp
 public override bool HasBackgroundColor { get; set; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/creationdate/
 ---
 ## EpsImage.CreationDate property
 
-Gets the creation date from the EPS DSC comments.
+Retrieving the creation date from EPS Document Structuring Conventions (DSC) comments, this property provides essential metadata indicating the EPS file's inception. By accessing this information, users gain insights into the file's origin and chronology, enhancing file management and organization.
 
 ```csharp
 public DateTime CreationDate { get; }

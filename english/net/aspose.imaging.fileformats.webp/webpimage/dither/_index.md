@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/dither/
 ---
 ## WebPImage.Dither method
 
-Performs dithering on the current image.
+Perform dithering on the current image to reduce color banding and enhance visual quality. Integrate this method into your image processing workflow to achieve smoother transitions between colors and improve the overall appearance of the image within your application.
 
 ```csharp
 public override void Dither(DitheringMethod ditheringMethod, int bitsCount, 

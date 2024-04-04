@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/bitsperpixel/
 ---
 ## OdImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Retrieves the count of bits per pixel for the image. This property provides insight into the level of detail and color depth represented in the image, aiding in various image processing tasks and optimizations.
 
 ```csharp
 public override int BitsPerPixel { get; }

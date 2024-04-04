@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/cachedata/
 ---
 ## DjvuImage.CacheData method
 
-Caches the data private.
+Cache the data privately to optimize performance and reduce the need for repeated data retrieval from external sources. This approach also helps conserve resources, particularly in scenarios where data access is frequent or resources are limited.
 
 ```csharp
 public override void CacheData()

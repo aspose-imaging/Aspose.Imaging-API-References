@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/previewimages/
 ---
 ## EpsImage.PreviewImages property
 
-Gets the preview images.
+Retrieve the preview images associated with your file. This property provides seamless access to the collection of preview images, allowing you to efficiently browse and manage them as needed. Ideal for quickly previewing and selecting the right image for your project.
 
 ```csharp
 public Image[] PreviewImages { get; }

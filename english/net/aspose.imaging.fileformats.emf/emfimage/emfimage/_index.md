@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.emf/emfimage/emfimage/
 ---
 ## EmfImage constructor (1 of 2)
 
-Initializes a new instance of the [`EmfImage`](../../emfimage) class.
+Start working with EMF images by initializing a new instance of the [`EmfImage`](../../emfimage) class. Ideal for quickly incorporating EMF images into your projects with ease and efficiency.
 
 ```csharp
 public EmfImage()
@@ -24,7 +24,7 @@ public EmfImage()
 
 ## EmfImage constructor (2 of 2)
 
-Initializes a new instance of the [`EmfImage`](../../emfimage) class.
+Create a new instance of the [`EmfImage`](../../emfimage) class by specifying the width and height parameters. This constructor simplifies the process of initializing EMF images with specific dimensions, enhancing the efficiency of your development workflow.
 
 ```csharp
 public EmfImage(int width, int height)
