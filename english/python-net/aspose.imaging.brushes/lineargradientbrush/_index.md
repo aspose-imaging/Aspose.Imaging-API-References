@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.brushes/lineargradientbrush/
 
 **Inheritance:** LinearGradientBrushBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -478,7 +478,7 @@ Creates a linear gradient with a center color and a linear falloff to a single c
 | Parameter | Type | Description |
 | :- | :- | :- |
 | focus | float | A value from 0 through 1 that specifies the center of the gradient (the point where the gradient is composed of only the ending color). |
-| scale | float | A value from 0 through1 that specifies how fast the colors falloff from the starting color to <paramref name="focus" /> (ending color) |
+| scale | float | A value from 0 through1 that specifies how fast the colors falloff from the starting color to _focus_ (ending color) |
 
 ### Method: set_sigma_bell_shape(focus) {#set_sigma_bell_shape_focus_16}
 
@@ -509,7 +509,7 @@ Creates a gradient falloff based on a bell-shaped curve.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | focus | float | A value from 0 through 1 that specifies the center of the gradient (the point where the gradient is composed of only the ending color). |
-| scale | float | A value from 0 through 1 that specifies how fast the colors falloff from the <paramref name="focus" />. |
+| scale | float | A value from 0 through 1 that specifies how fast the colors falloff from the _focus_. |
 
 ### Method: translate_transform(dx, dy) {#translate_transform_dx_dy_18}
 

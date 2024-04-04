@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.schemas.photoshop
 type: docs
-weight: 1020
+weight: 1040
 url: /python-net/aspose.imaging.xmp.schemas.photoshop/
 ---
 

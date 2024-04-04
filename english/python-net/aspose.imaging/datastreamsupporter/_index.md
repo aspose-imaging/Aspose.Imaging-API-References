@@ -1,7 +1,7 @@
 ---
 title: DataStreamSupporter Class
 type: docs
-weight: 1290
+weight: 1320
 url: /python-net/aspose.imaging/datastreamsupporter/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/datastreamsupporter/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

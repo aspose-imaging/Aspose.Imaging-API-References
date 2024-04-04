@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.schemas.dublincore
 type: docs
-weight: 1000
+weight: 1020
 url: /python-net/aspose.imaging.xmp.schemas.dublincore/
 ---
 

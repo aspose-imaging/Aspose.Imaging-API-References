@@ -5,7 +5,7 @@ weight: 70
 url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/
 ---
 
-**Summary:** The Gaussian blur
+**Summary:** The Gaussian blur filter options.
 
 **Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
@@ -13,20 +13,22 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteropt
 
 **Inheritance:** ConvolutionFilterOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions__1) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.<br/>            With default settings. |
-| [GaussianBlurFilterOptions(radius, sigma)](#GaussianBlurFilterOptions_radius_sigma_2) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class. |
+| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions__1) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class. |
+| [GaussianBlurFilterOptions(size, sigma)](#GaussianBlurFilterOptions_size_sigma_2) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
 | factor | double | r/w | Gets or sets the factor. |
-| radius | int | r/w | Gets or sets the radius. |
-| sigma | double | r/w | Gets or sets the sigma. |
+| kernel_data | double | r | Gets the Gaussian kernel. |
+| radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
+| sigma | double | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| size | int | r/w | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 
 
 ### Constructor: GaussianBlurFilterOptions() {#GaussianBlurFilterOptions__1}
@@ -36,13 +38,13 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteropt
  GaussianBlurFilterOptions() 
 ```
 
-Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.<br/>            With default settings.
+Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.
 
-### Constructor: GaussianBlurFilterOptions(radius, sigma) {#GaussianBlurFilterOptions_radius_sigma_2}
+### Constructor: GaussianBlurFilterOptions(size, sigma) {#GaussianBlurFilterOptions_size_sigma_2}
 
 
 ```
- GaussianBlurFilterOptions(radius, sigma) 
+ GaussianBlurFilterOptions(size, sigma) 
 ```
 
 Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.
@@ -51,8 +53,8 @@ Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-ne
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| radius | int | The radius. |
-| sigma | double | The sigma. |
+| size | int | The Gaussian kernel size.. |
+| sigma | double | The Gaussian kernel sigma. |
 
 ## **Examples**
 ### The following example applies various types of filters to a raster image. {#example_59}

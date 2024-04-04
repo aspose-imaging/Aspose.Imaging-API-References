@@ -1,7 +1,7 @@
 ---
 title: Matrix Class
 type: docs
-weight: 5840
+weight: 5880
 url: /python-net/aspose.imaging/matrix/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/matrix/
 
 **Full Name:** aspose.imaging.Matrix
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -47,8 +47,8 @@ url: /python-net/aspose.imaging/matrix/
 | [create_with_rect(rect, plgpts)](#create_with_rect_rect_plgpts_1) | Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points. |
 | [create_with_rect_f(rect, plgpts)](#create_with_rect_f_rect_plgpts_2) | Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points. |
 | [get_elements()](#get_elements__3) | Gets the copy of matrix elements. |
-| [multiply(tx)](#multiply_tx_4) | Multiplies this Matrix by the matrix specified in the matrix parameter using (default) Prepend order. |
-| [multiply(tx, order)](#multiply_tx_order_5) | Multiplies this Matrix by the matrix specified in the matrix parameter, and in the order specified in the order parameter. |
+| [multiply(t_tx)](#multiply_t_tx_4) | Multiplies this Matrix by the matrix specified in the matrix parameter using (default) Prepend order. |
+| [multiply(t_tx, order)](#multiply_t_tx_order_5) | Multiplies this Matrix by the matrix specified in the matrix parameter, and in the order specified in the order parameter. |
 | reset() | Resets this Matrix to have the elements of the identity matrix. |
 | [rotate(angle)](#rotate_angle_6) | Applies a clockwise rotation of an amount specified in the angle parameter, around the origin (zero x and y coordinates) for this Matrix in the default (Prepend) order. |
 | [rotate(angle, order)](#rotate_angle_order_7) | Applies a clockwise rotation of an amount specified in the angle parameter, around the origin (zero x and y coordinates) for this Matrix in the specified order. |
@@ -199,11 +199,11 @@ Gets the copy of matrix elements.
 | float | A matrix elements copy. |
 
 
-### Method: multiply(tx) {#multiply_tx_4}
+### Method: multiply(t_tx) {#multiply_t_tx_4}
 
 
 ```
- multiply(tx) 
+ multiply(t_tx) 
 ```
 
 Multiplies this Matrix by the matrix specified in the matrix parameter using (default) Prepend order.
@@ -212,13 +212,13 @@ Multiplies this Matrix by the matrix specified in the matrix parameter using (de
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tx | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to multiply with. |
+| t_tx | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to multiply with. |
 
-### Method: multiply(tx, order) {#multiply_tx_order_5}
+### Method: multiply(t_tx, order) {#multiply_t_tx_order_5}
 
 
 ```
- multiply(tx, order) 
+ multiply(t_tx, order) 
 ```
 
 Multiplies this Matrix by the matrix specified in the matrix parameter, and in the order specified in the order parameter.
@@ -227,7 +227,7 @@ Multiplies this Matrix by the matrix specified in the matrix parameter, and in t
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tx | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The tx. The tx. The tx. |
+| t_tx | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The tx. The tx. The tx. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order. The order. The order. |
 
 ### Method: rotate(angle) {#rotate_angle_6}

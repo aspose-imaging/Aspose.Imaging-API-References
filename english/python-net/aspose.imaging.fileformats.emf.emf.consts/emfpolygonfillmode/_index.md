@@ -11,7 +11,7 @@ The PolygonFillMode enumeration defines values that specify how to calculate the
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPolygonFillMode
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

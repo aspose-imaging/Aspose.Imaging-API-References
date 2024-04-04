@@ -11,7 +11,7 @@ exif metering mode enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifMeteringMode
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

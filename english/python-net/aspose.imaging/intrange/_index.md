@@ -1,7 +1,7 @@
 ---
 title: IntRange Class
 type: docs
-weight: 5590
+weight: 5630
 url: /python-net/aspose.imaging/intrange/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/intrange/
 
 **Full Name:** aspose.imaging.IntRange
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -97,7 +97,7 @@ Returns one item array from specified index
 
 | Type | Description |
 | :- | :- |
-| int | The array of int |
+| int | The array of string |
 
 
 ### Method: get_range(start, count, delta)  [static] {#get_range_start_count_delta_2}

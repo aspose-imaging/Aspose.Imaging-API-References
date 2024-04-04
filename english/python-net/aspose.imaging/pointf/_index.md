@@ -1,7 +1,7 @@
 ---
 title: PointF Class
 type: docs
-weight: 6740
+weight: 6780
 url: /python-net/aspose.imaging/pointf/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/pointf/
 
 **Full Name:** aspose.imaging.PointF
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -77,7 +77,7 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by the s
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of <paramref name="point" />. |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
@@ -100,7 +100,7 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by the s
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of <paramref name="point" />. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
@@ -123,7 +123,7 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by the s
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of <paramref name="point" />. |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
@@ -146,7 +146,7 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by a spe
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to add to the coordinates of <paramref name="point" />. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
@@ -169,7 +169,7 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of <paramref name="point" />. |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
@@ -192,7 +192,7 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of <paramref name="point" />. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
@@ -215,7 +215,7 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of <paramref name="point" />. |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
@@ -238,7 +238,7 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to subtract from the coordinates of <paramref name="point" />. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 

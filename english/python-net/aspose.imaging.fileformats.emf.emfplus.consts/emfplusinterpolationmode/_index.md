@@ -11,7 +11,7 @@ The InterpolationMode enumeration defines ways to perform scaling, including str
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusInterpolationMode
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffslong8type/
 
 **Inheritance:** TiffCommonArrayType
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -96,7 +96,7 @@ Compares the current instance with another object of the same type and returns a
 
 | Type | Description |
 | :- | :- |
-| int | A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings:<br/>            Value<br/>            Meaning<br/>            Less than zero<br/>            This instance is less than <paramref name="obj" />.<br/>            Zero<br/>            This instance is equal to <paramref name="obj" />.<br/>            Greater than zero<br/>            This instance is greater than <paramref name="obj" />. |
+| int | A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings:<br/>            Value<br/>            Meaning<br/>            Less than zero<br/>            This instance is less than _obj_.<br/>            Zero<br/>            This instance is equal to _obj_.<br/>            Greater than zero<br/>            This instance is greater than _obj_. |
 
 
 ### Method: create_with_tag(tag_id)  [static] {#create_with_tag_tag_id_2}

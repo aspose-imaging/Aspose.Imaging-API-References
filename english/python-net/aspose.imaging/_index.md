@@ -134,6 +134,7 @@ The module is the core for nested modules and the most basic objects used for As
 | [PenAlignment](/imaging/python-net/aspose.imaging/penalignment/) | Specifies the alignment of a [Pen](/imaging/python-net/aspose.imaging/pen/) object in relation to the theoretical, zero-width line. |
 | [PenType](/imaging/python-net/aspose.imaging/pentype/) | Specifies the type of fill a [Pen](/imaging/python-net/aspose.imaging/pen/) object uses to fill lines. |
 | [PixelFormat](/imaging/python-net/aspose.imaging/pixelformat/) | The pixel data format actual meaning. |
+| [ProcessingType](/imaging/python-net/aspose.imaging/processingtype/) | The type of processing. |
 | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Specifies the resize type. |
 | [ResolutionUnit](/imaging/python-net/aspose.imaging/resolutionunit/) | Resolution unit enum. |
 | [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype/) | Specifies how much an image is rotated and the axis used to flip the image. |

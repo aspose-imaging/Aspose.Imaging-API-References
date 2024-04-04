@@ -5,30 +5,37 @@ weight: 60
 url: /python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
 ---
 
-**Summary:** Gauss Wiener Filter Options<br/>            Deblur gauss
+**Summary:** Gauss Wiener filter options for image debluring.
 
 **Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
 **Full Name:** aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions
 
-**Inheritance:** DeconvolutionFilterOptions
+**Inheritance:** GaussianDeconvolutionFilterOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [GaussWienerFilterOptions()](#GaussWienerFilterOptions__1) | Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class.<br/>            With default settings. |
-| [GaussWienerFilterOptions(radius, smooth)](#GaussWienerFilterOptions_radius_smooth_2) | Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class. |
+| [GaussWienerFilterOptions()](#GaussWienerFilterOptions__1) | Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class. |
+| [GaussWienerFilterOptions(size, sigma)](#GaussWienerFilterOptions_size_sigma_2) | Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | brightness | double | r/w | Gets or sets the brightness.<br/>            recommended range 1 - 1.5<br/>            default value = 1.15 |
 | grayscale | bool | r/w | Gets or sets a value indicating whether this [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) is grayscale.<br/>            Return grayscale mode or RGB mode. |
 | is_partial_loaded | bool | r | Gets a value indicating whether this instance is partial loaded. |
-| radius | int | r/w | Gets or sets the radius. |
-| smooth | double | r/w | Gets or sets the smooth. |
+| kernel_data | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | r | Gets the kernel. |
+| radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
+| sigma | double | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| size | int | r/w | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 | snr | double | r/w | Gets or sets the SNR(signal-to-noise ratio)<br/>            recommended range 0.002 - 0.009, default value = 0.007 |
+## **Methods**
+| **Name** | **Description** |
+| :- | :- |
+| [create_with_complex(kernel)](#create_with_complex_kernel_1) | Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class. |
+| [create_with_double(kernel)](#create_with_double_kernel_2) | Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class. |
 
 
 ### Constructor: GaussWienerFilterOptions() {#GaussWienerFilterOptions__1}
@@ -38,13 +45,13 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteropti
  GaussWienerFilterOptions() 
 ```
 
-Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class.<br/>            With default settings.
+Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class.
 
-### Constructor: GaussWienerFilterOptions(radius, smooth) {#GaussWienerFilterOptions_radius_smooth_2}
+### Constructor: GaussWienerFilterOptions(size, sigma) {#GaussWienerFilterOptions_size_sigma_2}
 
 
 ```
- GaussWienerFilterOptions(radius, smooth) 
+ GaussWienerFilterOptions(size, sigma) 
 ```
 
 Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) class.
@@ -53,8 +60,52 @@ Initializes a new instance of the [GaussWienerFilterOptions](/imaging/python-net
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| radius | int | The radius. |
-| smooth | double | The smooth. |
+| size | int | The Gaussian kernel size. |
+| sigma | double | The Gaussian kernel sigma. |
+
+### Method: create_with_complex(kernel)  [static] {#create_with_complex_kernel_1}
+
+
+```
+ create_with_complex(kernel) 
+```
+
+Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| kernel | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The Complex[] kernel. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |  |
+
+
+### Method: create_with_double(kernel)  [static] {#create_with_double_kernel_2}
+
+
+```
+ create_with_double(kernel) 
+```
+
+Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| kernel | double | The double[] kernel. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |  |
+
 
 ## **Examples**
 ### The following example applies various types of filters to a raster image. {#example_59}

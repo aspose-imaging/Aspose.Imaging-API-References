@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.imageloadoptions
 type: docs
-weight: 800
+weight: 820
 url: /python-net/aspose.imaging.imageloadoptions/
 ---
 
@@ -12,6 +12,7 @@ The module contains different file format load options.
 | **Class** | **Description** |
 | :- | :- |
 | [CdrLoadOptions](/imaging/python-net/aspose.imaging.imageloadoptions/cdrloadoptions/) | The Cdr load options |
+| [CmxLoadOptions](/imaging/python-net/aspose.imaging.imageloadoptions/cmxloadoptions/) | The CMX load options |
 | [DngLoadOptions](/imaging/python-net/aspose.imaging.imageloadoptions/dngloadoptions/) | The DNG load options |
 | [Jpeg2000LoadOptions](/imaging/python-net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/) | JPEG2000 load options |
 | [OdLoadOptions](/imaging/python-net/aspose.imaging.imageloadoptions/odloadoptions/) | The Open Dcocument Load Options |

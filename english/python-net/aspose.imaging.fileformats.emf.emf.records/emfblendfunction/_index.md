@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfBlendFunction
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

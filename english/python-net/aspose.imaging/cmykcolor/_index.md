@@ -1,7 +1,7 @@
 ---
 title: CmykColor Class
 type: docs
-weight: 1080
+weight: 1090
 url: /python-net/aspose.imaging/cmykcolor/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/cmykcolor/
 
 **Full Name:** aspose.imaging.CmykColor
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging/cmykcolor/
 | [to_argb32(cmyk_pixels)](#to_argb32_cmyk_pixels_2) | The conversion from CMYKColor to 32-bit ARGB Color using icc conversion  with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_argb32(cmyk_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
 | [to_cmyk(argb_pixel)](#to_cmyk_argb_pixel_3) | The conversion from 32-bit ARGB color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
 | [to_cmyk(argb_pixels)](#to_cmyk_argb_pixels_4) | The conversion from 32-bit ARGB color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
-| [to_cmyk_color(argb_pixel)](#to_cmyk_color_argb_pixel_5) | The conversion from 32-bit ARGB color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color(argb_pixel)](#to_cmyk_color_argb_pixel_5) | The conversion from 32-bit ARGB to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
 | [to_cmyk_colors(argb_pixels)](#to_cmyk_colors_argb_pixels_6) | The conversion from 32-bit ARGB color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
 | [to_color(cmyk_pixel)](#to_color_cmyk_pixel_7) | The conversion from CMYKColor to Color using icc conversion  with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_argb(cmyk_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
 | [to_color(cmyk_pixels)](#to_color_cmyk_pixels_8) | The conversion from CMYKColor to Color using icc conversion  with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_argb(cmyk_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
@@ -156,19 +156,19 @@ The conversion from 32-bit ARGB color to CMYKColor.<br/>            This method 
  to_cmyk_color(argb_pixel) 
 ```
 
-The conversion from 32-bit ARGB color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
+The conversion from 32-bit ARGB to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(argb_pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_pixel | int |  |
+| argb_pixel | int | The pixel of 32-bit ARGB format. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor/). |
 
 
 ### Method: to_cmyk_colors(argb_pixels)  [static] {#to_cmyk_colors_argb_pixels_6}

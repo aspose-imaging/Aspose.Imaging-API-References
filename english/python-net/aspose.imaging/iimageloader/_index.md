@@ -1,7 +1,7 @@
 ---
 title: IImageLoader Class
 type: docs
-weight: 5150
+weight: 5190
 url: /python-net/aspose.imaging/iimageloader/
 ---
 
@@ -11,12 +11,12 @@ url: /python-net/aspose.imaging/iimageloader/
 
 **Full Name:** aspose.imaging.IImageLoader
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [load(stream_container, load_options)](#load_stream_container_load_options_1) | Opens a new image with <paramref name="loadOptions" />. |
+| [load(stream_container, load_options)](#load_stream_container_load_options_1) | Opens a new image with _loadOptions_. |
 
 
 ### Method: load(stream_container, load_options) {#load_stream_container_load_options_1}
@@ -26,7 +26,7 @@ url: /python-net/aspose.imaging/iimageloader/
  load(stream_container, load_options) 
 ```
 
-Opens a new image with <paramref name="loadOptions" />.
+Opens a new image with _loadOptions_.
 
 **Parameters:**
 

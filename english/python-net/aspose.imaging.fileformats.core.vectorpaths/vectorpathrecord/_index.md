@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/
 
 **Full Name:** aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

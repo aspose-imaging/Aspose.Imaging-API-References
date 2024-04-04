@@ -1,7 +1,7 @@
 ---
 title: Jpeg2000LoadOptions Class
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/
 
 **Inheritance:** LoadOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

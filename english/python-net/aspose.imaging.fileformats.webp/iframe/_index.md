@@ -5,13 +5,13 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.webp/iframe/
 ---
 
-**Summary:** Webp frame <see langword="interface" />
+**Summary:** Webp frame interface
 
 **Module:** [aspose.imaging.fileformats.webp](/imaging/python-net/aspose.imaging.fileformats.webp/)
 
 **Full Name:** aspose.imaging.fileformats.webp.IFrame
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

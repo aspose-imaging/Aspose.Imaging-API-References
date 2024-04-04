@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.fileformats.bmp/bitmapv4header/
 ---
 
-**Summary:** The BitmapV4Header structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.<br/>            <remarks>The BitmapV4Header structure is extended to allow a JPEG or PNG image to be passed as the source image to StretchDIBits.</remarks>
+**Summary:** The BitmapV4Header structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.<br/>            <br/>The BitmapV4Header structure is extended to allow a JPEG or PNG image to be passed as the source image to StretchDIBits.<br/>
 
 **Module:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bitmapv4header/
 
 **Inheritance:** BitmapInfoHeader
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: GraphicsPath Class
 type: docs
-weight: 4910
+weight: 4950
 url: /python-net/aspose.imaging/graphicspath/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/graphicspath/
 
 **Inheritance:** ObjectWithBounds
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -1123,8 +1123,8 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by <paramref name="srcRect" /> is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by <paramref name="destPoints" />. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
 
 ### Method: warp(dest_points, src_rect, matrix) {#warp_dest_points_src_rect_matrix_46}
 
@@ -1139,8 +1139,8 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by <paramref name="srcRect" /> is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by <paramref name="destPoints" />. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
 | matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
 
 ### Method: warp(dest_points, src_rect, matrix, warp_mode) {#warp_dest_points_src_rect_matrix_warp_mode_47}
@@ -1156,8 +1156,8 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that defines a parallelogram to which the rectangle defined by <paramref name="srcRect" /> is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by <paramref name="destPoints" />. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that defines a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
 | matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
 | warp_mode | [WarpMode](/imaging/python-net/aspose.imaging/warpmode) | A [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) enumeration that specifies whether this warp operation uses perspective or bilinear mode. |
 
@@ -1174,8 +1174,8 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by <paramref name="srcRect" /> is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by <paramref name="destPoints" />. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
 | matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
 | warp_mode | [WarpMode](/imaging/python-net/aspose.imaging/warpmode) | A [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) enumeration that specifies whether this warp operation uses perspective or bilinear mode. |
 | flatness | float | A value from 0 through 1 that specifies how flat the resulting path is. For more information, see the [GraphicsPath.flatten()](/imaging/python-net/aspose.imaging/graphicspath/) methods. |

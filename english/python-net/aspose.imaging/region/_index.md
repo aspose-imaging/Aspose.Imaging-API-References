@@ -1,7 +1,7 @@
 ---
 title: Region Class
 type: docs
-weight: 6930
+weight: 6970
 url: /python-net/aspose.imaging/region/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/region/
 
 **Full Name:** aspose.imaging.Region
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -622,7 +622,7 @@ Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an e
 
 | Type | Description |
 | :- | :- |
-| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is empty when the transformation associated with <paramref name="g" /> is applied; otherwise, false. |
+| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is empty when the transformation associated with _g_ is applied; otherwise, false. |
 
 
 ### Method: is_infinite(g) {#is_infinite_g_30}
@@ -644,7 +644,7 @@ Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an i
 
 | Type | Description |
 | :- | :- |
-| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is infinite when the transformation associated with <paramref name="g" /> is applied; otherwise, false. |
+| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is infinite when the transformation associated with _g_ is applied; otherwise, false. |
 
 
 ### Method: is_visible(point) {#is_visible_point_31}
@@ -666,7 +666,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(point) {#is_visible_point_32}
@@ -688,7 +688,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(point, g) {#is_visible_point_g_33}
@@ -711,7 +711,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(point, g) {#is_visible_point_g_34}
@@ -734,7 +734,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(rect) {#is_visible_rect_35}
@@ -756,7 +756,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(rect) {#is_visible_rect_36}
@@ -778,7 +778,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(rect, g) {#is_visible_rect_g_37}
@@ -801,7 +801,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(rect, g) {#is_visible_rect_g_38}
@@ -824,7 +824,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible(x, y) {#is_visible_x_y_39}
@@ -1042,7 +1042,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_point_f(point) {#is_visible_point_f_point_48}
@@ -1064,7 +1064,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_point_f_with_graphics(point, g) {#is_visible_point_f_with_graphics_point_g_49}
@@ -1087,7 +1087,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_point_with_graphics(point, g) {#is_visible_point_with_graphics_point_g_50}
@@ -1110,7 +1110,7 @@ Tests whether the specified [Point](/imaging/python-net/aspose.imaging/point/) s
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _point_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_rect(rect) {#is_visible_rect_rect_51}
@@ -1132,7 +1132,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_rect_f(rect) {#is_visible_rect_f_rect_52}
@@ -1154,7 +1154,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_rect_f_with_graphics(rect, g) {#is_visible_rect_f_with_graphics_rect_g_53}
@@ -1177,7 +1177,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_rect_with_graphics(rect, g) {#is_visible_rect_with_graphics_rect_g_54}
@@ -1200,7 +1200,7 @@ Tests whether any portion of the specified [Rectangle](/imaging/python-net/aspos
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of the <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of the _rect_ is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
 ### Method: is_visible_with_graphics(x, y, g) {#is_visible_with_graphics_x_y_g_55}

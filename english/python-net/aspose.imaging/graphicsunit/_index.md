@@ -1,7 +1,7 @@
 ---
 title: GraphicsUnit Enumeration
 type: docs
-weight: 10390
+weight: 10430
 url: /python-net/aspose.imaging/graphicsunit/
 ---
 
@@ -11,7 +11,7 @@ Specifies the unit of measure for the given data.
 
 **Full Name:** aspose.imaging.GraphicsUnit
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

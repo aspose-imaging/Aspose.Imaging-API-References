@@ -5,7 +5,7 @@ weight: 240
 url: /python-net/aspose.imaging.imageoptions/pngoptions/
 ---
 
-**Summary:** The png file format create options.
+**Summary:** Create high-quality Portable Network Graphics (PNG) raster images effortlessly<br/>            with our API, offering customizable options for compression levels,<br/>            bits per pixel depths, and alpha bits. Seamlessly process XMP metadata containers,<br/>            ensuring comprehensive image metadata management, and empowering you to tailor<br/>            PNG images to your exact specifications with ease.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/pngoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging.imageoptions/pngoptions/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | DEFAULT_COMPRESSION_LEVEL [static] | int | r | The default compression level. |
-| bit_depth | byte | r/w | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16.<br/>            <para><br/>            Mind the next limits:<br/>            </para><para>[PngColorType.GRAYSCALE](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/), [PngColorType.INDEXED_COLOR](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) support bit depth of 1, 2, 4, 8.<br/>            </para><para>[PngColorType.GRAYSCALE_WITH_ALPHA](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) supports bit depth of 8.<br/>            </para><para>[PngColorType.TRUECOLOR](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/), [PngColorType.TRUECOLOR_WITH_ALPHA](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) support bit depth of 8, 16.<br/>            </para> |
+| bit_depth | byte | r/w | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16.<br/>            <br/><br/>            Mind the next limits:<br/>            <br/><br/>[PngColorType.GRAYSCALE](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/), [PngColorType.INDEXED_COLOR](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) support bit depth of 1, 2, 4, 8.<br/>            <br/><br/>[PngColorType.GRAYSCALE_WITH_ALPHA](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) supports bit depth of 8.<br/>            <br/><br/>[PngColorType.TRUECOLOR](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/), [PngColorType.TRUECOLOR_WITH_ALPHA](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) support bit depth of 8, 16.<br/>            <br/> |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [color_type](#color_type1) | [PngColorType](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) | r/w | Gets or sets the type of the color. |
 | [compression_level](#compression_level2) | int | r/w | Gets or sets the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) compression level in the range of 0-9. The higher the value - the more efficient the compression. |

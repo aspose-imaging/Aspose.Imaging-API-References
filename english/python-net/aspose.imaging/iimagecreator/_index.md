@@ -1,7 +1,7 @@
 ---
 title: IImageCreator Class
 type: docs
-weight: 5100
+weight: 5140
 url: /python-net/aspose.imaging/iimagecreator/
 ---
 
@@ -11,12 +11,12 @@ url: /python-net/aspose.imaging/iimagecreator/
 
 **Full Name:** aspose.imaging.IImageCreator
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create(stream_container, image_options, width, height)](#create_stream_container_image_options_width_height_1) | Creates a new image instance with <paramref name="imageOptions" />. |
+| [create(stream_container, image_options, width, height)](#create_stream_container_image_options_width_height_1) | Creates a new image instance with _imageOptions_. |
 
 
 ### Method: create(stream_container, image_options, width, height) {#create_stream_container_image_options_width_height_1}
@@ -26,7 +26,7 @@ url: /python-net/aspose.imaging/iimagecreator/
  create(stream_container, image_options, width, height) 
 ```
 
-Creates a new image instance with <paramref name="imageOptions" />.
+Creates a new image instance with _imageOptions_.
 
 **Parameters:**
 

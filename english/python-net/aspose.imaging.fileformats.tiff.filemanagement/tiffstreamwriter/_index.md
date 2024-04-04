@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter
 
 **Full Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

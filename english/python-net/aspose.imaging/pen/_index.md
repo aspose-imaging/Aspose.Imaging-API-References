@@ -1,7 +1,7 @@
 ---
 title: Pen Class
 type: docs
-weight: 6650
+weight: 6690
 url: /python-net/aspose.imaging/pen/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/pen/
 
 **Inheritance:** TransparencySupporter
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

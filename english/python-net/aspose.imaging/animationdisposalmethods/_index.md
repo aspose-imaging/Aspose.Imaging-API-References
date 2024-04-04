@@ -1,7 +1,7 @@
 ---
 title: AnimationDisposalMethods Enumeration
 type: docs
-weight: 8930
+weight: 8970
 url: /python-net/aspose.imaging/animationdisposalmethods/
 ---
 
@@ -11,7 +11,7 @@ Indicates the way in which the graphic is to be treated after being displayed.
 
 **Full Name:** aspose.imaging.AnimationDisposalMethods
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

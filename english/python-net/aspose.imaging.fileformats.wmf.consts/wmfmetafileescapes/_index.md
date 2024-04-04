@@ -11,7 +11,7 @@ The MetafileEscapes Enumeration specifies printer driver functionality that migh
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfMetafileEscapes
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

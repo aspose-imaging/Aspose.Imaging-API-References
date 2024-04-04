@@ -1,7 +1,7 @@
 ---
 title: PngLoadOptions Class
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.imaging.imageloadoptions/pngloadoptions/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageloadoptions/pngloadoptions/
 
 **Inheritance:** LoadOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

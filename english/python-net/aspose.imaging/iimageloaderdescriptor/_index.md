@@ -1,7 +1,7 @@
 ---
 title: IImageLoaderDescriptor Class
 type: docs
-weight: 5160
+weight: 5200
 url: /python-net/aspose.imaging/iimageloaderdescriptor/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/iimageloaderdescriptor/
 
 **Inheritance:** IImageDescriptor
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging/iimageloaderdescriptor/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [can_load(stream_container, load_options)](#can_load_stream_container_load_options_1) | Determines whether image loader can read a new image from the specified stream and optionally using the <paramref name="loadOptions" />. |
+| [can_load(stream_container, load_options)](#can_load_stream_container_load_options_1) | Determines whether image loader can read a new image from the specified stream and optionally using the _loadOptions_. |
 | [create_instance()](#create_instance__2) | Creates a new loader instance. |
 
 
@@ -33,14 +33,14 @@ url: /python-net/aspose.imaging/iimageloaderdescriptor/
  can_load(stream_container, load_options) 
 ```
 
-Determines whether image loader can read a new image from the specified stream and optionally using the <paramref name="loadOptions" />.
+Determines whether image loader can read a new image from the specified stream and optionally using the _loadOptions_.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container. |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The file format details specified by <paramref name="loadOptions" />. The <paramref name="loadOptions" /> may be null. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The file format details specified by _loadOptions_. The _loadOptions_ may be null. |
 
 **Returns**
 

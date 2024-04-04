@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 ---
 
-**Summary:** The BigTiff image options.
+**Summary:** The API for BigTIFF raster image format creation is specifically designed<br/>            to serve to the unique requirements of applications utilizing large-scale<br/>            imaging data from scanners. This API facilitates the seamless generation<br/>            of BigTIFF format, which combines multiple TIFF images into a single,<br/>            comprehensive image. It ensures efficient processing of extensive image<br/>            data, providing developers with a powerful tool for creating and<br/>            manipulating high-resolution, multi-image formats.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 
 **Inheritance:** TiffOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -399,6 +399,6 @@ Removes the tags.
 
 | Type | Description |
 | :- | :- |
-| bool | <see langword="true" /> if tag collection size changed. |
+| bool | **True** if tag collection size changed. |
 
 

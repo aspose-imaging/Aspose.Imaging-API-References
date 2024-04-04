@@ -1,7 +1,7 @@
 ---
 title: Figure Class
 type: docs
-weight: 4670
+weight: 4700
 url: /python-net/aspose.imaging/figure/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/figure/
 
 **Inheritance:** ObjectWithBounds
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging/figure/
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets or sets the object's bounds. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether this figure is closed. A closed figure will make a difference only in case where<br/>            the first and the last figure's shapes are continuous shapes. In such case the first point of the first shape will be<br/>            connected by a straight line from the last point of the last shape. |
 | segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the whole figure segments. |
-| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | r | Gets or sets the figure shapes. |
+| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | r | Gets the shapes. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

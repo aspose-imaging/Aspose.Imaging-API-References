@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdrive
 
 **Inheritance:** EmfPlusDrawingRecordType
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -31,7 +31,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdrive
 | glyphs | short | r/w | Gets or sets the glyphs array<br/>            An array of 16-bit values that define the text string to draw.<br/>            If the DriverStringOptionsCmapLookup flag in the DriverStringOptionsFlags field is set, each value in this<br/>            array specifies a Unicode character. Otherwise, each value specifies an index to a<br/>            character glyph in the EmfPlusFont object specified by the ObjectId value in Flags field. |
 | is_color | bool | r/w | Gets or sets a value indicating whether this instance is color.<br/>            This bit indicates the type of data in the BrushId field.<br/>            If set, BrushId specifies the color value in an EmfPlusARGB object<br/>            (section 2.2.2.1). If clear, BrushId contains the EMF+ Object<br/>            Table index of an EmfPlusBrush object (section 2.2.1.1). |
 | matrix_present | int | r/w | Gets or sets if the matrix present flag<br/>            A 32-bit unsigned integer that specifies whether a transform matrix is present in the TransformMatrix field<br/>            0 - no matrix present. 1 - transform matrix is in TransformMatrix field |
-| object_id | byte | r/w | Gets or sets the object identifier.<br/>            The EMF+ Object Table index of an <see href="EmfPlusFont" /> object (section<br/>            2.2.1.3) to render the text. The value MUST be zero to 63, inclusive. |
+| object_id | byte | r/w | Gets or sets the object identifier.<br/>            The EMF+ Object Table index of an ***EmfPlusFont*** object (section<br/>            2.2.1.3) to render the text. The value MUST be zero to 63, inclusive. |
 | size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
 | transform_matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets the transform matrix<br/>            An optional EmfPlusTransformMatrix object (section 2.2.2.47) that specifies the transformation to apply to<br/>            each value in the text array. The presence of this data is determined from the MatrixPresent field. |
 | type | [EmfPlusRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/) | r | Gets a 16-bit unsigned integer that identifies the record type. |

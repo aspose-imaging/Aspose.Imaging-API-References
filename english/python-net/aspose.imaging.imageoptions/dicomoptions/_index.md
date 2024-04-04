@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 ---
 
-**Summary:** The DICOM file format creation options.
+**Summary:** The API for Digital Imaging and Communications in Medicine (DICOM) raster image<br/>            format creation is a specialized tool tailored for medical device applications.<br/>            It enables the seamless generation of DICOM images, crucial for storing medical<br/>            data and containing vital identification information. With features to<br/>            and set compression, define color types, and embed XMP metadata, developers<br/>            can ensure compliance and flexibility in managing DICOM images for medical<br/>            imaging purposes.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

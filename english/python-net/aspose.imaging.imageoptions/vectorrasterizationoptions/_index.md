@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -64,7 +64,7 @@ Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_88)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_96)**: The following example shows how to set a memory limit when loading a CMX imag...
 
 
 ### Method: clone() {#clone__1}
@@ -99,24 +99,25 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
 ## **Examples**
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_88}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_96}
 ``` python
-from Aspose.Imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes
-from Aspose.Imaging.ImageOptions import PngOptions, CmxRasterizationOptions
+from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
+from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions
+import os
 
 directory = "c:\\aspose.imaging\\issues\\net\\3419\\"
 	
 # Setting a memory limit of 10 megabytes for a target loaded image.
-load_options = new Aspose.Imaging.LoadOptions()
+load_options = LoadOptions()
 load_options.buffer_size_hint = 10
-with Image.load(directory + "example.cmx", load_options) as image:
+with Image.load(os.path.join(directory, "example.cmx"), load_options) as image:
 	png_options = PngOptions()
 	cmx_spec = CmxRasterizationOptions()
 	cmx_spec.text_renderingHint = TextRenderingHint.SINGLE_BIT_PER_PIXEL
 	cmx_spec.smoothing_mode = SmoothingMode.ANTI_ALIAS
 	cmx_spec.positioning = PositioningTypes.DEFINED_BY_DOCUMENT
 	png_options.vector_rasterization_options = cmx_spec
-	image.save(directory + "output.png", png_options)
+	image.save(os.path.join(directory, "output.png"), png_options)
 
 
 ```

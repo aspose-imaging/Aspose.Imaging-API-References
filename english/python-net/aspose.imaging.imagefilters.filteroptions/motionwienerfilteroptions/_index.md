@@ -1,41 +1,48 @@
 ---
 title: MotionWienerFilterOptions Class
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/
 ---
 
-**Summary:** Deconvolution filter options<br/>                deblur motion
+**Summary:** The motion debluring filter options.
 
 **Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
 **Full Name:** aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions
 
-**Inheritance:** DeconvolutionFilterOptions
+**Inheritance:** GaussianDeconvolutionFilterOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [MotionWienerFilterOptions(length, smooth, angle)](#MotionWienerFilterOptions_length_smooth_angle_1) | Initializes a new instance of the [MotionWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/) class. |
+| [MotionWienerFilterOptions(size, sigma, angle)](#MotionWienerFilterOptions_size_sigma_angle_1) | Initializes a new instance of the [MotionWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| angle | double | r/w | Gets or sets the angle in gradus. |
+| angle | double | r/w | Gets or sets the angle in degrees. |
 | brightness | double | r/w | Gets or sets the brightness.<br/>            recommended range 1 - 1.5<br/>            default value = 1.15 |
 | grayscale | bool | r/w | Gets or sets a value indicating whether this [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) is grayscale.<br/>            Return grayscale mode or RGB mode. |
 | is_partial_loaded | bool | r | Gets a value indicating whether this instance is partial loaded. |
-| length | int | r/w | Gets or sets the length. |
-| smooth | double | r/w | Gets or sets the smooth. |
+| kernel_data | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | r | Gets the kernel. |
+| radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
+| sigma | double | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| size | int | r/w | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 | snr | double | r/w | Gets or sets the SNR(signal-to-noise ratio)<br/>            recommended range 0.002 - 0.009, default value = 0.007 |
+## **Methods**
+| **Name** | **Description** |
+| :- | :- |
+| [create_with_complex(kernel)](#create_with_complex_kernel_1) | Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class. |
+| [create_with_double(kernel)](#create_with_double_kernel_2) | Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class. |
 
 
-### Constructor: MotionWienerFilterOptions(length, smooth, angle) {#MotionWienerFilterOptions_length_smooth_angle_1}
+### Constructor: MotionWienerFilterOptions(size, sigma, angle) {#MotionWienerFilterOptions_size_sigma_angle_1}
 
 
 ```
- MotionWienerFilterOptions(length, smooth, angle) 
+ MotionWienerFilterOptions(size, sigma, angle) 
 ```
 
 Initializes a new instance of the [MotionWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/) class.
@@ -44,9 +51,53 @@ Initializes a new instance of the [MotionWienerFilterOptions](/imaging/python-ne
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| length | int | The length. |
-| smooth | double | The smooth. |
-| angle | double | The angle in gradus. |
+| size | int | The Gaussian kernel size. |
+| sigma | double | The Gaussian kernel sigma. |
+| angle | double | The angle in degrees. |
+
+### Method: create_with_complex(kernel)  [static] {#create_with_complex_kernel_1}
+
+
+```
+ create_with_complex(kernel) 
+```
+
+Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| kernel | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The Complex[] kernel. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |  |
+
+
+### Method: create_with_double(kernel)  [static] {#create_with_double_kernel_2}
+
+
+```
+ create_with_double(kernel) 
+```
+
+Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| kernel | double | The double[] kernel. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |  |
+
 
 ## **Examples**
 ### The following example applies various types of filters to a raster image. {#example_59}

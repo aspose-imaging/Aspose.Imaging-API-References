@@ -1,7 +1,7 @@
 ---
 title: DngLoadOptions Class
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.imaging.imageloadoptions/dngloadoptions/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageloadoptions/dngloadoptions/
 
 **Inheritance:** LoadOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

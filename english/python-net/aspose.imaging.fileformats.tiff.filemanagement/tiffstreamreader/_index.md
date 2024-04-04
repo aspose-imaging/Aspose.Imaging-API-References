@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader
 
 **Full Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -84,7 +84,7 @@ Initializes a new instance of the [TiffStreamReader](/imaging/python-net/aspose.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data | byte | The byte array data. |
-| start_index | int | The start index into <paramref name="data" />. |
+| start_index | int | The start index into _data_. |
 
 ### Constructor: TiffStreamReader(data, start_index, data_length) {#TiffStreamReader_data_start_index_data_length_3}
 
@@ -100,7 +100,7 @@ Initializes a new instance of the [TiffStreamReader](/imaging/python-net/aspose.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data | byte | The byte array data. |
-| start_index | int | The start index into <paramref name="data" />. |
+| start_index | int | The start index into _data_. |
 | data_length | int | Length of the data. |
 
 ### Constructor: TiffStreamReader(stream_container) {#TiffStreamReader_stream_container_4}

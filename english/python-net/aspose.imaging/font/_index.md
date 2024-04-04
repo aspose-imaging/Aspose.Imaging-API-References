@@ -1,7 +1,7 @@
 ---
 title: Font Class
 type: docs
-weight: 4730
+weight: 4760
 url: /python-net/aspose.imaging/font/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/font/
 
 **Full Name:** aspose.imaging.Font
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -91,7 +91,7 @@ Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a speci
 | Parameter | Type | Description |
 | :- | :- | :- |
 | font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
-| em_size | float | The em-size of the new font in the units specified by the <paramref name="unit" /> parameter. |
+| em_size | float | The em-size of the new font in the units specified by the _unit_ parameter. |
 | style | [FontStyle](/imaging/python-net/aspose.imaging/fontstyle) | The [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) of the new font. |
 | unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) of the new font. |
 
@@ -109,7 +109,7 @@ Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a speci
 | Parameter | Type | Description |
 | :- | :- | :- |
 | font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
-| em_size | float | The em-size of the new font in the units specified by the <paramref name="unit" /> parameter. |
+| em_size | float | The em-size of the new font in the units specified by the _unit_ parameter. |
 | style | [FontStyle](/imaging/python-net/aspose.imaging/fontstyle) | The [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) of the new font. |
 | unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) of the new font. |
 | character_set | [CharacterSet](/imaging/python-net/aspose.imaging/characterset) | A character set to use for this font. |
@@ -128,7 +128,7 @@ Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a speci
 | Parameter | Type | Description |
 | :- | :- | :- |
 | font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
-| em_size | float | The em-size of the new font in the units specified by the <paramref name="unit" /> parameter. |
+| em_size | float | The em-size of the new font in the units specified by the _unit_ parameter. |
 | unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) of the new font. |
 
 ### Constructor: Font(prototype, new_style) {#Font_prototype_new_style_6}
@@ -231,7 +231,7 @@ Initializes a new [Font](/imaging/python-net/aspose.imaging/font/) using a speci
 | Parameter | Type | Description |
 | :- | :- | :- |
 | font_name | string | A string representation of the [Font](/imaging/python-net/aspose.imaging/font/) name. |
-| em_size | float | The em-size of the new font in the units specified by the <paramref name="unit" /> parameter. |
+| em_size | float | The em-size of the new font in the units specified by the _unit_ parameter. |
 | unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) of the new font. |
 
 **Returns**
