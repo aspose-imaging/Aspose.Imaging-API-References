@@ -17,20 +17,20 @@ Manipulate OpenDocument Graphic (ODG) vector image file format with our API, wid
 
 | Constructor | Description |
 | --- | --- |
-| [OdgImage(StreamContainer streamContainer, LoadOptions options)](#OdgImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) class. |
-| [OdgImage(StreamContainer streamContainer)](#OdgImage-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) class. |
+| [OdgImage(StreamContainer streamContainer, LoadOptions options)](#OdgImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-) | Start a new creation of the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) class object with the initiation of a fresh instance. |
+| [OdgImage(StreamContainer streamContainer)](#OdgImage-com.aspose.imaging.StreamContainer-) | Crafted for seamless integration into software solutions, the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) constructor initializes a new instance by leveraging a stream container. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
+| [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
+| [getPageExportingAction()](#getPageExportingAction--) | This property allows to effortlessly retrieve or modify the action associated with exporting pages. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | This property allows to effortlessly retrieve or modify the action associated with exporting pages. |
+| [getPages()](#getPages--) | Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | This property provides access to the default options associated with an image. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | This method helps developers to resize images programmatically. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | This method facilitates image resizing with precise control over width, height, and resize type parameters. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | This versatile method apply various transformations to images, including rotation and flipping, to achieve desired orientations and visual effects. |
 
 ## Example: This example loads a multi-page ODG image.
 
@@ -83,7 +83,7 @@ public OdgImage(StreamContainer streamContainer, LoadOptions options)
 ```
 
 
-Initializes a new instance of the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) class.
+Start a new creation of the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) class object with the initiation of a fresh instance. Harness the potential of a stream container coupled with load options parameters, maintain a versatile constructor to seamlessly load images. This constructor empowers efficient image handling, offering customizable loading configurations for enhanced adaptability and performance across diverse scenarios.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,7 +97,7 @@ public OdgImage(StreamContainer streamContainer)
 ```
 
 
-Initializes a new instance of the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) class.
+Crafted for seamless integration into software solutions, the [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) constructor initializes a new instance by leveraging a stream container. This method ensures efficient handling of ODG image data within software environments, optimizing resource utilization and facilitating streamlined image processing workflows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -110,7 +110,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
 
 **Returns:**
 long - a value of file format
@@ -120,26 +120,22 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+This property allows to effortlessly retrieve or modify the action associated with exporting pages. Through precise manipulation of this property, software solutions gain the flexibility to tailor page exporting behavior according to specific application requirements, ensuring optimal performance and enhanced user experience. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 **Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
+[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - The page exporting action.
 ### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
 ```
 public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+This property allows to effortlessly retrieve or modify the action associated with exporting pages. Through precise manipulation of this property, software solutions gain the flexibility to tailor page exporting behavior according to specific application requirements, ensuring optimal performance and enhanced user experience. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
+| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | The page exporting action. |
 
 ### getPages() {#getPages--}
 ```
@@ -147,9 +143,7 @@ public Image[] getPages()
 ```
 
 
-Gets the pages.
-
-Value: The pages.
+Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. By accessing this property, developers can iterate through individual pages, retrieve specific pages based on their index, or perform batch operations on the entire collection.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -159,7 +153,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+This property provides access to the default options associated with an image. By retrieving these options, developers can quickly ascertain the default settings applied to the image, facilitating the creation of new instances or the modification of existing ones based on these presets.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -174,7 +168,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+This method helps developers to resize images programmatically. By invoking this function, you can dynamically adjust the dimensions of images, catering to specific requirements or constraints within their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,7 +183,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+This method facilitates image resizing with precise control over width, height, and resize type parameters. You can specify the desired dimensions and choose from different resizing algorithms or types to achieve optimal results based on application's requirements.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +198,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the image.
+This versatile method apply various transformations to images, including rotation and flipping, to achieve desired orientations and visual effects. With intuitive parameters, you can specify the degree of rotation and the type of flipping (horizontal, vertical, or both) to precisely manipulate the image as needed.
 
 **Parameters:**
 | Parameter | Type | Description |

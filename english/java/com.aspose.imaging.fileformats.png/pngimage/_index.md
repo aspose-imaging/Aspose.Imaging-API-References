@@ -20,40 +20,40 @@ Manipulate Portable Network Graphics (PNG) raster images with our versatile API,
 
 | Constructor | Description |
 | --- | --- |
-| [PngImage(int width, int height)](#PngImage-int-int-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(String path)](#PngImage-java.lang.String-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(RasterImage rasterImage)](#PngImage-com.aspose.imaging.RasterImage-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(String path, int colorType)](#PngImage-java.lang.String-int-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(RasterImage rasterImage, int colorType)](#PngImage-com.aspose.imaging.RasterImage-int-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(InputStream stream)](#PngImage-java.io.InputStream-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(int width, int height, int colorType)](#PngImage-int-int-int-) | Initializes a new instance of the `PngImage` class. |
-| [PngImage(PngOptions pngOptions, int width, int height)](#PngImage-com.aspose.imaging.imageoptions.PngOptions-int-int-) | Initializes a new instance of the `PngImage` class. |
+| [PngImage(int width, int height)](#PngImage-int-int-) | Initialize a new object of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by providing the width and height parameters. |
+| [PngImage(String path)](#PngImage-java.lang.String-) | Constructs a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class using the path parameter to specify the location of the image file to load. |
+| [PngImage(RasterImage rasterImage)](#PngImage-com.aspose.imaging.RasterImage-) | Creates a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by providing a raster image as a parameter. |
+| [PngImage(String path, int colorType)](#PngImage-java.lang.String-int-) | Initializes a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by specifying the path to the image file and the color type. |
+| [PngImage(RasterImage rasterImage, int colorType)](#PngImage-com.aspose.imaging.RasterImage-int-) | Creates a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by specifying a raster image and a color type. |
+| [PngImage(InputStream stream)](#PngImage-java.io.InputStream-) | Creates a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by initializing it with a stream. |
+| [PngImage(int width, int height, int colorType)](#PngImage-int-int-int-) | Instantiate a fresh instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class, specifying the desired width, height, and color type parameters. |
+| [PngImage(PngOptions pngOptions, int width, int height)](#PngImage-com.aspose.imaging.imageoptions.PngOptions-int-int-) | Initialize a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class, incorporating PNG options alongside width and height parameters. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the bits per pixel. |
-| [getHeight()](#getHeight--) | Gets the height. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets or sets the horizontal resolution. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Gets or sets the horizontal resolution. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getRawDataFormat()](#getRawDataFormat--) | Gets the raw data format. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets or sets the vertical resolution. |
-| [getWidth()](#getWidth--) | Gets the width. |
-| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
-| [hasAlpha()](#hasAlpha--) | Get a value indicating whether this instance has alpha. |
-| [getTransparentColor()](#getTransparentColor--) | Gets the transparent color. |
-| [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the transparent color. |
-| [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether has background color. |
-| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Gets a value indicating whether has background color. |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Gets the background color. |
-| [getInterlaced()](#getInterlaced--) | Gets a value indicating whether this `PngImage` is interlaced. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the bits per pixel value for the image. |
+| [getHeight()](#getHeight--) | Obtain the height of the image in pixels. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | Retrieve or modify the horizontal resolution of the image. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Retrieve or modify the horizontal resolution of the image. |
+| [getFileFormat()](#getFileFormat--) | Retrieves the format of the file associated with the image instance. |
+| [getRawDataFormat()](#getRawDataFormat--) | Accesses the raw data format of the image. |
+| [getVerticalResolution()](#getVerticalResolution--) | Provides access to the vertical resolution of the image. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Provides access to the vertical resolution of the image. |
+| [getWidth()](#getWidth--) | Allows retrieval of the width of the image in pixels, providing essential information about its dimensions. |
+| [hasTransparentColor()](#hasTransparentColor--) | Provides a boolean value indicating whether the image contains a transparent color. |
+| [hasAlpha()](#hasAlpha--) | Returns a boolean value indicating whether the image has an alpha channel, which determines its transparency. |
+| [getTransparentColor()](#getTransparentColor--) | Retrieves the transparent color of the image, if it exists. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Provides a boolean value indicating whether the image contains a transparent color. |
+| [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Modifies the transparent color of the image, if it exists. |
+| [hasBackgroundColor()](#hasBackgroundColor--) | Retrieves a boolean value indicating whether the image has a background color. |
+| [getBackgroundColor()](#getBackgroundColor--) | Retrieves the background color of the image, if one is specified. |
+| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Retrieves a boolean value indicating whether the image has a background color. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Retrieves the background color of the image, if one is specified. |
+| [getInterlaced()](#getInterlaced--) | Retrieves a boolean value indicating whether the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission. |
 | [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
-| [getXmpData()](#getXmpData--) | Gets or sets the XMP metadata. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Gets or sets the XMP metadata. |
+| [getXmpData()](#getXmpData--) | Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 
@@ -81,7 +81,7 @@ public PngImage(int width, int height)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Initialize a new object of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by providing the width and height parameters. This constructor simplifies the creation of PNG images by allowing developers to specify the dimensions directly, facilitating efficient management of PNG image data within their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -95,7 +95,7 @@ public PngImage(String path)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Constructs a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class using the path parameter to specify the location of the image file to load. This constructor enables developers to conveniently create PNG images by loading them from a file, simplifying the process of working with PNG images in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -108,7 +108,7 @@ public PngImage(RasterImage rasterImage)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Creates a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by providing a raster image as a parameter. This constructor allows developers to directly initialize a PNG image object using an existing raster image, streamlining the process of working with PNG images in their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public PngImage(String path, int colorType)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Initializes a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by specifying the path to the image file and the color type. This constructor allows for convenient creation of PNG images from files with different color types, providing flexibility in handling various image formats.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -135,7 +135,7 @@ public PngImage(RasterImage rasterImage, int colorType)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Creates a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by specifying a raster image and a color type. This constructor enables developers to directly convert raster images into PNG format while specifying the desired color type, offering flexibility in color representation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ public PngImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Creates a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class by initializing it with a stream. This constructor allows developers to load PNG images directly from a stream, providing flexibility in image retrieval from different sources.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -162,7 +162,7 @@ public PngImage(int width, int height, int colorType)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Instantiate a fresh instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class, specifying the desired width, height, and color type parameters. This constructor enables swift creation of PNG images with tailored dimensions and color configurations, facilitating streamlined image generation for various applications and workflows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +177,7 @@ public PngImage(PngOptions pngOptions, int width, int height)
 ```
 
 
-Initializes a new instance of the `PngImage` class.
+Initialize a new instance of the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) class, incorporating PNG options alongside width and height parameters. This constructor empowers developers to create PNG images with customizable settings and dimensions, offering flexibility in image generation for diverse use cases.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,7 +192,7 @@ public int getBitsPerPixel()
 ```
 
 
-Gets the bits per pixel.
+Retrieve the bits per pixel value for the image. This property provides crucial information regarding the color depth of the image, enabling developers to understand the level of detail and color accuracy present in the image data.
 
 **Returns:**
 int
@@ -202,7 +202,7 @@ public int getHeight()
 ```
 
 
-Gets the height.
+Obtain the height of the image in pixels. This property returns the vertical dimension of the image, allowing developers to determine its size in pixels along the vertical axis.
 
 **Returns:**
 int
@@ -212,7 +212,7 @@ public double getHorizontalResolution()
 ```
 
 
-Gets or sets the horizontal resolution.
+Retrieve or modify the horizontal resolution of the image. This property represents the number of pixels per inch along the horizontal axis of the image. Adjusting this resolution can affect the physical size of the image when printed or displayed.
 
 **Returns:**
 double
@@ -255,7 +255,7 @@ public void setHorizontalResolution(double value)
 ```
 
 
-Gets or sets the horizontal resolution.
+Retrieve or modify the horizontal resolution of the image. This property represents the number of pixels per inch along the horizontal axis of the image. Adjusting this resolution can affect the physical size of the image when printed or displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieves the format of the file associated with the image instance. This property provides essential information regarding the file type, enabling efficient handling and processing based on the specific format requirements.
 
 **Returns:**
 long
@@ -278,7 +278,7 @@ public PixelDataFormat getRawDataFormat()
 ```
 
 
-Gets the raw data format.
+Accesses the raw data format of the image. This property provides insight into how the image data is structured internally, which can be useful for advanced image processing tasks or format conversion.
 
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat)
@@ -315,7 +315,7 @@ public double getVerticalResolution()
 ```
 
 
-Gets or sets the vertical resolution.
+Provides access to the vertical resolution of the image. Developers can use this property to retrieve or modify the resolution setting, which indicates the number of pixels per inch (PPI) along the vertical axis of the image.
 
 **Returns:**
 double
@@ -358,7 +358,7 @@ public void setVerticalResolution(double value)
 ```
 
 
-Gets or sets the vertical resolution.
+Provides access to the vertical resolution of the image. Developers can use this property to retrieve or modify the resolution setting, which indicates the number of pixels per inch (PPI) along the vertical axis of the image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +371,7 @@ public int getWidth()
 ```
 
 
-Gets the width.
+Allows retrieval of the width of the image in pixels, providing essential information about its dimensions. This property is frequently used by developers to determine the image's width, enabling them to perform various operations based on its size
 
 **Returns:**
 int
@@ -381,72 +381,20 @@ public boolean hasTransparentColor()
 ```
 
 
-Gets a value indicating whether image has transparent color.
+Provides a boolean value indicating whether the image contains a transparent color. This property is crucial for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent regions in the image.
 
 **Returns:**
 boolean
-### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
-```
-public void setTransparentColor(boolean value)
-```
-
-
-Gets a value indicating whether image has transparent color.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-
-**Example: The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.**
-
-``` java
-
-com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imaging.imageoptions.PngOptions();
-createOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\transparent.png", false));
-createOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.Truecolor);
-
-// Create a TrueColor PNG image of 100x100 px.
-com.aspose.imaging.Image image = com.aspose.imaging.Image.create(createOptions, 100, 100);
-try {
-    com.aspose.imaging.fileformats.png.PngImage pngImage = (com.aspose.imaging.fileformats.png.PngImage) image;
-    com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(pngImage);
-
-    // All red pixels will be considered as fully transparent.
-    pngImage.setTransparentColor(com.aspose.imaging.Color.getRed());
-    pngImage.setTransparentColor(true);
-
-    // All transparent pixels will have a background color.
-    pngImage.setBackgroundColor(com.aspose.imaging.Color.getGreen());
-    pngImage.setBackgroundColor(true);
-
-    // Fill the entire image with white color.
-    gr.fillRectangle(new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhite()), pngImage.getBounds());
-
-    // Fill the top-left quarter of the image with the transparent color.
-    // This makes the top-left quarter colored in the background color.
-    com.aspose.imaging.Rectangle rect = new com.aspose.imaging.Rectangle(0, 0, pngImage.getWidth() / 2, pngImage.getHeight() / 2);
-    gr.fillRectangle(new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getRed()), rect);
-
-    pngImage.save();
-} finally {
-    image.dispose();
-}
-```
-
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
 ```
 
 
-Get a value indicating whether this instance has alpha.
-
-Value: `true` if this instance has alpha; otherwise, `false`.
+Returns a boolean value indicating whether the image has an alpha channel, which determines its transparency. This property is useful for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent areas in the image.
 
 **Returns:**
-boolean
+boolean - `true` if this instance has alpha; otherwise, `false`.
 
 **Example: The following example shows how to check if a PNG image supports alpha-channel.**
 
@@ -516,17 +464,67 @@ public Color getTransparentColor()
 ```
 
 
-Gets the transparent color.
+Retrieves the transparent color of the image, if it exists. This property is valuable for applications requiring precise handling of transparent areas within images, allowing developers to access and manipulate the specific transparent color used.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color)
+### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
+```
+public void setTransparentColor(boolean value)
+```
+
+
+Provides a boolean value indicating whether the image contains a transparent color. This property is crucial for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent regions in the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+
+**Example: The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.**
+
+``` java
+
+com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imaging.imageoptions.PngOptions();
+createOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\transparent.png", false));
+createOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.Truecolor);
+
+// Create a TrueColor PNG image of 100x100 px.
+com.aspose.imaging.Image image = com.aspose.imaging.Image.create(createOptions, 100, 100);
+try {
+    com.aspose.imaging.fileformats.png.PngImage pngImage = (com.aspose.imaging.fileformats.png.PngImage) image;
+    com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(pngImage);
+
+    // All red pixels will be considered as fully transparent.
+    pngImage.setTransparentColor(com.aspose.imaging.Color.getRed());
+    pngImage.setTransparentColor(true);
+
+    // All transparent pixels will have a background color.
+    pngImage.setBackgroundColor(com.aspose.imaging.Color.getGreen());
+    pngImage.setBackgroundColor(true);
+
+    // Fill the entire image with white color.
+    gr.fillRectangle(new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhite()), pngImage.getBounds());
+
+    // Fill the top-left quarter of the image with the transparent color.
+    // This makes the top-left quarter colored in the background color.
+    com.aspose.imaging.Rectangle rect = new com.aspose.imaging.Rectangle(0, 0, pngImage.getWidth() / 2, pngImage.getHeight() / 2);
+    gr.fillRectangle(new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getRed()), rect);
+
+    pngImage.save();
+} finally {
+    image.dispose();
+}
+```
+
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
 public void setTransparentColor(Color value)
 ```
 
 
-Gets the transparent color.
+Modifies the transparent color of the image, if it exists. This property is valuable for applications requiring precise handling of transparent areas within images, allowing developers to access and manipulate the specific transparent color used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,17 +574,27 @@ public boolean hasBackgroundColor()
 ```
 
 
-Gets a value indicating whether has background color.
+Retrieves a boolean value indicating whether the image has a background color. This property is useful for applications needing to determine if an image includes a background color, which can be important for various processing tasks such as compositing, rendering, or exporting.
 
 **Returns:**
 boolean
+### getBackgroundColor() {#getBackgroundColor--}
+```
+public Color getBackgroundColor()
+```
+
+
+Retrieves the background color of the image, if one is specified. This property is helpful for applications that need to identify and potentially manipulate the background color of an image.
+
+**Returns:**
+[Color](../../com.aspose.imaging/color)
 ### setBackgroundColor(boolean value) {#setBackgroundColor-boolean-}
 ```
 public void setBackgroundColor(boolean value)
 ```
 
 
-Gets a value indicating whether has background color.
+Retrieves a boolean value indicating whether the image has a background color. This property is useful for applications needing to determine if an image includes a background color, which can be important for various processing tasks such as compositing, rendering, or exporting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -630,23 +638,13 @@ try {
 }
 ```
 
-### getBackgroundColor() {#getBackgroundColor--}
-```
-public Color getBackgroundColor()
-```
-
-
-Gets the background color.
-
-**Returns:**
-[Color](../../com.aspose.imaging/color)
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.imaging.Color-}
 ```
 public void setBackgroundColor(Color value)
 ```
 
 
-Gets the background color.
+Retrieves the background color of the image, if one is specified. This property is helpful for applications that need to identify and potentially manipulate the background color of an image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -696,12 +694,10 @@ public boolean getInterlaced()
 ```
 
 
-Gets a value indicating whether this `PngImage` is interlaced.
-
-Value: `true` if interlaced; otherwise, `false`.
+Retrieves a boolean value indicating whether the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission.
 
 **Returns:**
-boolean
+boolean - `true` if interlaced; otherwise, `false`.
 ### isInterlaced() {#isInterlaced--}
 ```
 public final boolean isInterlaced()
@@ -720,26 +716,22 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets or sets the XMP metadata.
-
-Value: The XMP metadata.
+Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information.
 
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Gets or sets the XMP metadata.
-
-Value: The XMP metadata.
+Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP metadata. |
 
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```

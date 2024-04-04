@@ -37,6 +37,12 @@ Contains all meta-information from Dicom file header
 | [getGreens()](#getGreens--) | Gets the array colors of the green |
 | [getBlues()](#getBlues--) | Gets the array colors of the blue |
 | [getOffset()](#getOffset--) | Gets the offset. |
+| [addTag(String tagDescription, Object value)](#addTag-java.lang.String-java.lang.Object-) | Add new Dicom tag. |
+| [tryAddTag(String tagDescription, Object value)](#tryAddTag-java.lang.String-java.lang.Object-) | Add new Dicom tag. |
+| [removeTagAt(int index)](#removeTagAt-int-) | Remove an existing tag. |
+| [tryRemoveTagAt(int index)](#tryRemoveTagAt-int-) | Remove an existing tag. |
+| [updateTagAt(int index, Object newValue)](#updateTagAt-int-java.lang.Object-) | Update an existing tag. |
+| [tryUpdateTagAt(int index, Object newValue)](#tryUpdateTagAt-int-java.lang.Object-) | Update an existing tag. |
 ### getDicomHeaderInfoByBytes() {#getDicomHeaderInfoByBytes--}
 ```
 public byte[] getDicomHeaderInfoByBytes()
@@ -169,7 +175,7 @@ public int getBitsAllocated()
 
 Gets a value of the "bitsAllocated".
 
-Value: The a value of the "bitsAllocated".
+Value: The value of the "bitsAllocated".
 
 **Returns:**
 int - a value of the "bitsAllocated".
@@ -181,8 +187,6 @@ public String getPhotoInterpretation()
 
 Gets a value of the "PhotoInterpretation".
 
-Value: The a value of the "photointerpretation".
-
 **Returns:**
 java.lang.String - a value of the "PhotoInterpretation".
 ### getWidth() {#getWidth--}
@@ -193,7 +197,7 @@ public int getWidth()
 
 Gets the width.
 
-Value: The a value of the width.
+Value: The value of the width.
 
 **Returns:**
 int - the width.
@@ -205,7 +209,7 @@ public int getHeight()
 
 Gets the height.
 
-Value: The a value of the height.
+Value: The value of the height.
 
 **Returns:**
 int - the height.
@@ -241,7 +245,7 @@ public int getPixelRepresentation()
 
 Gets a value of the pixel "pixelRepresentation".
 
-Value: The a value of the "pixelRepresentation".
+Value: The value of the "pixelRepresentation".
 
 **Returns:**
 int - a value of the pixel "pixelRepresentation".
@@ -253,7 +257,7 @@ public double getRescaleIntercept()
 
 Gets a value of the "rescaleIntercept".
 
-Value: The a value of the "rescaleIntercept".
+Value: The value of the "rescaleIntercept".
 
 **Returns:**
 double - a value of the "rescaleIntercept".
@@ -265,7 +269,7 @@ public double getRescaleSlope()
 
 Gets a value of the "rescaleSlope".
 
-Value: The a value of the "rescaleSlope".
+Value: The value of the "rescaleSlope".
 
 **Returns:**
 double - a value of the "rescaleSlope".
@@ -337,7 +341,95 @@ public int getOffset()
 
 Gets the offset.
 
-Value: The a value of the offset.
+Value: The value of the offset.
 
 **Returns:**
 int - the offset.
+### addTag(String tagDescription, Object value) {#addTag-java.lang.String-java.lang.Object-}
+```
+public void addTag(String tagDescription, Object value)
+```
+
+
+Add new Dicom tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tagDescription | java.lang.String | The tag description. Can not be null or whitespace. |
+| value | java.lang.Object | The tag value. Can not be null. |
+
+### tryAddTag(String tagDescription, Object value) {#tryAddTag-java.lang.String-java.lang.Object-}
+```
+public boolean tryAddTag(String tagDescription, Object value)
+```
+
+
+Add new Dicom tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tagDescription | java.lang.String | The tag description. Can not be null or whitespace. |
+| value | java.lang.Object | The tag value. Can not be null. |
+
+**Returns:**
+boolean - The operation result.
+### removeTagAt(int index) {#removeTagAt-int-}
+```
+public void removeTagAt(int index)
+```
+
+
+Remove an existing tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index of the tag to be updated. |
+
+### tryRemoveTagAt(int index) {#tryRemoveTagAt-int-}
+```
+public boolean tryRemoveTagAt(int index)
+```
+
+
+Remove an existing tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index of the tag to be updated. |
+
+**Returns:**
+boolean - The operation result.
+### updateTagAt(int index, Object newValue) {#updateTagAt-int-java.lang.Object-}
+```
+public void updateTagAt(int index, Object newValue)
+```
+
+
+Update an existing tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index of the tag to be updated. |
+| newValue | java.lang.Object | The tag value. Can not be null. |
+
+### tryUpdateTagAt(int index, Object newValue) {#tryUpdateTagAt-int-java.lang.Object-}
+```
+public boolean tryUpdateTagAt(int index, Object newValue)
+```
+
+
+Update an existing tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index of the tag to be updated. |
+| newValue | java.lang.Object | The tag value. Can not be null. |
+
+**Returns:**
+boolean - The operation result.

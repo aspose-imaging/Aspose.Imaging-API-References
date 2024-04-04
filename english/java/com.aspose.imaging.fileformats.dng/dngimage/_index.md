@@ -17,17 +17,17 @@ The API for processing DNG (Digital Negative) image file format used for digital
 
 | Constructor | Description |
 | --- | --- |
-| [DngImage()](#DngImage--) | Initializes a new instance of the `DngImage` class. |
+| [DngImage()](#DngImage--) | Initialize a new instance of the [DngImage](../../com.aspose.imaging.fileformats.dng/dngimage) class effortlessly. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getImgData()](#getImgData--) | Gets or sets the img data. |
-| [setImgData(RawData value)](#setImgData-com.aspose.imaging.fileformats.dng.decoder.RawData-) | Gets or sets the img data. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Discover the number of bits per pixel in the image effortlessly with this property. |
+| [getHeight()](#getHeight--) | Retrieve the height of the image with this property. |
+| [getWidth()](#getWidth--) | Access the width of the image with this property. |
+| [getFileFormat()](#getFileFormat--) | Identify the file format of your image with this property. |
+| [getImgData()](#getImgData--) | Manage the image data with this property. |
+| [setImgData(RawData value)](#setImgData-com.aspose.imaging.fileformats.dng.decoder.RawData-) | Manage the image data with this property. |
 
 ## Example: This example shows how to load a DNG image from a file, print its properties and save it to PNG.
 
@@ -102,7 +102,7 @@ public DngImage()
 ```
 
 
-Initializes a new instance of the `DngImage` class.
+Initialize a new instance of the [DngImage](../../com.aspose.imaging.fileformats.dng/dngimage) class effortlessly. Perfect for developers seeking to start using DngImage objects quickly and efficiently in their projects.
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -110,7 +110,7 @@ public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Discover the number of bits per pixel in the image effortlessly with this property. Ideal for understanding the image's pixel depth quickly and accurately.
 
 Value: The image bits per pixel count.
 
@@ -122,7 +122,7 @@ public int getHeight()
 ```
 
 
-Gets the image height.
+Retrieve the height of the image with this property. Perfect for determining the vertical size of the image without hassle.
 
 Value: The image height.
 
@@ -134,7 +134,7 @@ public int getWidth()
 ```
 
 
-Gets the image width.
+Access the width of the image with this property. Ideal for obtaining the horizontal size of the image quickly and efficiently.
 
 Value: The image width.
 
@@ -146,7 +146,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Identify the file format of your image with this property. Perfect for understanding the format - just straightforward details.
 
 **Returns:**
 long
@@ -156,24 +156,20 @@ public RawData getImgData()
 ```
 
 
-Gets or sets the img data.
-
-Value: The img data.
+Manage the image data with this property. Whether you're retrieving or updating, this property provides seamless access to the image data for efficient manipulation.
 
 **Returns:**
-[RawData](../../com.aspose.imaging.fileformats.dng.decoder/rawdata)
+[RawData](../../com.aspose.imaging.fileformats.dng.decoder/rawdata) - The img data.
 ### setImgData(RawData value) {#setImgData-com.aspose.imaging.fileformats.dng.decoder.RawData-}
 ```
 public void setImgData(RawData value)
 ```
 
 
-Gets or sets the img data.
-
-Value: The img data.
+Manage the image data with this property. Whether you're retrieving or updating, this property provides seamless access to the image data for efficient manipulation.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [RawData](../../com.aspose.imaging.fileformats.dng.decoder/rawdata) |  |
+| value | [RawData](../../com.aspose.imaging.fileformats.dng.decoder/rawdata) | The img data. |
 

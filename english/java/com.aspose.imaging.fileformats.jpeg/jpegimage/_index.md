@@ -17,45 +17,45 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 
 | Constructor | Description |
 | --- | --- |
-| [JpegImage(String path)](#JpegImage-java.lang.String-) | Initializes a new instance of the `JpegImage` class. |
-| [JpegImage(InputStream stream)](#JpegImage-java.io.InputStream-) | Initializes a new instance of the `JpegImage` class. |
-| [JpegImage(RasterImage rasterImage)](#JpegImage-com.aspose.imaging.RasterImage-) | Initializes a new instance of the `JpegImage` class. |
-| [JpegImage(int width, int height)](#JpegImage-int-int-) | Initializes a new instance of the `JpegImage` class. |
-| [JpegImage(JpegOptions jpegOptions, int width, int height)](#JpegImage-com.aspose.imaging.imageoptions.JpegOptions-int-int-) | Initializes a new instance of the `JpegImage` class. |
+| [JpegImage(String path)](#JpegImage-java.lang.String-) | The [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class initiates effortlessly by invoking its constructor with the specified path parameter. |
+| [JpegImage(InputStream stream)](#JpegImage-java.io.InputStream-) | Initialize a JPEG image object with the [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class using a stream parameter. |
+| [JpegImage(RasterImage rasterImage)](#JpegImage-com.aspose.imaging.RasterImage-) | Initialize a new instance of the [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class with a raster image parameter. |
+| [JpegImage(int width, int height)](#JpegImage-int-int-) | Create a new instance of the [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class with the specified width and height parameters. |
+| [JpegImage(JpegOptions jpegOptions, int width, int height)](#JpegImage-com.aspose.imaging.imageoptions.JpegOptions-int-int-) | Initialize a new [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) object with the provided JPEG options. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getJpegOptions()](#getJpegOptions--) | Gets the JPEG options used to create or load this `JpegImage` instance. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getComment()](#getComment--) | Gets the jpeg file comment. |
-| [setComment(String value)](#setComment-java.lang.String-) | Sets the jpeg file comment. |
-| [getExifData()](#getExifData--) | Get or set exif data container |
-| [setExifData(JpegExifData value)](#setExifData-com.aspose.imaging.exif.JpegExifData-) | Get or set exif data container |
-| [getXmpData()](#getXmpData--) | Gets the XMP metadata. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata. |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Sets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
-| [getJfif()](#getJfif--) | Gets the jfif. |
-| [setJfif(JFIFData value)](#setJfif-com.aspose.imaging.fileformats.jpeg.JFIFData-) | Sets the jfif. |
-| [getRawDataFormat()](#getRawDataFormat--) | Gets the raw data format. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution, in pixels per inch, of this `RasterImage`. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getRgbColorProfile()](#getRgbColorProfile--) | The RGB color profile for CMYK and YCCK jpeg images. |
-| [setRgbColorProfile(StreamSource value)](#setRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | The RGB color profile for CMYK and YCCK jpeg images. |
-| [getCmykColorProfile()](#getCmykColorProfile--) | The CMYK color profile for CMYK and YCCK jpeg images. |
-| [setCmykColorProfile(StreamSource value)](#setCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile for CMYK and YCCK jpeg images. |
-| [getDestinationRgbColorProfile()](#getDestinationRgbColorProfile--) | The RGB color profile for CMYK and YCCK jpeg images, used for image saving process. |
-| [setDestinationRgbColorProfile(StreamSource value)](#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | The RGB color profile for CMYK and YCCK jpeg images, used for image saving process. |
-| [getDestinationCmykColorProfile()](#getDestinationCmykColorProfile--) | The CMYK color profile for CMYK and YCCK jpeg images, used for image saving process. |
-| [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile for CMYK and YCCK jpeg images, used for image saving process. |
-| [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | Gets a value indicating whether embedded color profile is ignored. |
-| [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | Sets a value indicating whether embedded color profile is ignored. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
-| [autoRotate()](#autoRotate--) | Perform automatic rotate of image depending on orientation data provided by Exif. |
+| [getFileFormat()](#getFileFormat--) | Retrieve the format of the image effortlessly with this property. |
+| [getJpegOptions()](#getJpegOptions--) | Gain access to the JPEG options employed during the creation or loading of this [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) instance with ease. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the pixel depth of the image effortlessly with this property, offering insights into the richness of color or grayscale representation. |
+| [getComment()](#getComment--) | Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. |
+| [setComment(String value)](#setComment-java.lang.String-) | Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. |
+| [getExifData()](#getExifData--) | Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. |
+| [setExifData(JpegExifData value)](#setExifData-com.aspose.imaging.exif.JpegExifData-) | Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. |
+| [getXmpData()](#getXmpData--) | Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. |
+| [getHeight()](#getHeight--) | Retrieve the height of the image effortlessly with this property. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | This property grants you access to the horizontal resolution of the [RasterImage](../../com.aspose.imaging/rasterimage), measured in pixels per inch. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | This property grants you access to the horizontal resolution of the [RasterImage](../../com.aspose.imaging/rasterimage), measured in pixels per inch. |
+| [getJfif()](#getJfif--) | This property allows you to access or modify the JFIF (JPEG File Interchange Format) data associated with the JPEG image. |
+| [setJfif(JFIFData value)](#setJfif-com.aspose.imaging.fileformats.jpeg.JFIFData-) | This property allows you to access or modify the JFIF (JPEG File Interchange Format) data associated with the JPEG image. |
+| [getRawDataFormat()](#getRawDataFormat--) | This property retrieves the raw data format of the image, which indicates how the image data is structured and encoded. |
+| [getVerticalResolution()](#getVerticalResolution--) | This property manages the vertical resolution, expressed in pixels per inch, for the associated [RasterImage](../../com.aspose.imaging/rasterimage). |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | This property manages the vertical resolution, expressed in pixels per inch, for the associated [RasterImage](../../com.aspose.imaging/rasterimage). |
+| [getWidth()](#getWidth--) | This property retrieves the width of the image, expressed in pixels. |
+| [getRgbColorProfile()](#getRgbColorProfile--) | The RGB color profile for CMYK and YCCK JPEG images ensures accurate color conversion and representation. |
+| [setRgbColorProfile(StreamSource value)](#setRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | The RGB color profile for CMYK and YCCK JPEG images ensures accurate color conversion and representation. |
+| [getCmykColorProfile()](#getCmykColorProfile--) | The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. |
+| [setCmykColorProfile(StreamSource value)](#setCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. |
+| [getDestinationRgbColorProfile()](#getDestinationRgbColorProfile--) | The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
+| [setDestinationRgbColorProfile(StreamSource value)](#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
+| [getDestinationCmykColorProfile()](#getDestinationCmykColorProfile--) | The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
+| [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
+| [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
+| [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), ensuring accurate scaling and printing capabilities. |
+| [autoRotate()](#autoRotate--) | Automatically rotates the image based on orientation data extracted from Exif metadata. |
 
 ## Example: The example shows how to load a JpegImage from a file.
 
@@ -92,7 +92,7 @@ public JpegImage(String path)
 ```
 
 
-Initializes a new instance of the `JpegImage` class.
+The [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class initiates effortlessly by invoking its constructor with the specified path parameter. This constructor enables seamless creation of JPEG images, ensuring swift integration into your projects with ease.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -105,7 +105,7 @@ public JpegImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the `JpegImage` class.
+Initialize a JPEG image object with the [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class using a stream parameter. This constructor simplifies the process of working with JPEG images, offering a straightforward approach for integrating them into your projects effortlessly.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -118,7 +118,7 @@ public JpegImage(RasterImage rasterImage)
 ```
 
 
-Initializes a new instance of the `JpegImage` class.
+Initialize a new instance of the [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class with a raster image parameter. This constructor provides a convenient way to create JPEG images directly from raster images, streamlining the workflow for working with JPEG images in your applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -131,7 +131,7 @@ public JpegImage(int width, int height)
 ```
 
 
-Initializes a new instance of the `JpegImage` class.
+Create a new instance of the [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) class with the specified width and height parameters. This constructor allows you to create JPEG images with custom dimensions, giving you flexibility in managing image sizes in your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +145,7 @@ public JpegImage(JpegOptions jpegOptions, int width, int height)
 ```
 
 
-Initializes a new instance of the `JpegImage` class.
+Initialize a new [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) object with the provided JPEG options. This constructor empowers you to tailor various settings for the JPEG image, such as compression level, quality, and additional parameters, granting precise control over the resulting image format.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -160,7 +160,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieve the format of the image effortlessly with this property. It provides valuable insight into the file format, aiding in seamless integration and compatibility checks across various platforms and applications.
 
 **Returns:**
 long
@@ -170,7 +170,7 @@ public JpegOptions getJpegOptions()
 ```
 
 
-Gets the JPEG options used to create or load this `JpegImage` instance.
+Gain access to the JPEG options employed during the creation or loading of this [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) instance with ease. This property offers valuable details about the specific settings utilized, empowering users to understand and replicate image processing workflows effectively. Whether it's compression levels, quality settings, or other parameters, this property provides essential insights for seamless image manipulation.
 
 **Returns:**
 [JpegOptions](../../com.aspose.imaging.imageoptions/jpegoptions) - The JPEG options.
@@ -219,7 +219,7 @@ public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Retrieve the pixel depth of the image effortlessly with this property, offering insights into the richness of color or grayscale representation. Whether it's a vibrant photograph or a monochrome illustration, this property provides crucial information about the image's visual complexity.
 
 **Returns:**
 int - The image bits per pixel count.
@@ -229,7 +229,7 @@ public String getComment()
 ```
 
 
-Gets the jpeg file comment.
+Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. Whether it's tagging images with metadata or appending additional context, this property offers flexibility in organizing and categorizing your JPEG files.
 
 **Returns:**
 java.lang.String
@@ -239,7 +239,7 @@ public void setComment(String value)
 ```
 
 
-Sets the jpeg file comment.
+Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. Whether it's tagging images with metadata or appending additional context, this property offers flexibility in organizing and categorizing your JPEG files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -252,7 +252,7 @@ public JpegExifData getExifData()
 ```
 
 
-Get or set exif data container
+Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. Whether it's extracting information about the camera settings or modifying existing metadata, this property offers flexibility in managing the EXIF data container.
 
 **Returns:**
 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata)
@@ -340,7 +340,7 @@ public void setExifData(JpegExifData value)
 ```
 
 
-Get or set exif data container
+Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. Whether it's extracting information about the camera settings or modifying existing metadata, this property offers flexibility in managing the EXIF data container.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +353,7 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets the XMP metadata.
+Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
 
 **Returns:**
 [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
@@ -363,7 +363,7 @@ public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Sets the XMP metadata.
+Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,17 +376,17 @@ public int getHeight()
 ```
 
 
-Gets the image height.
+Retrieve the height of the image effortlessly with this property. It provides quick access to the vertical dimension of the image, allowing you to efficiently determine its size and aspect ratio without the need for complex calculations or additional methods.
 
 **Returns:**
-int - The image height.
+int - The image height in pixels.
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public double getHorizontalResolution()
 ```
 
 
-Gets the horizontal resolution, in pixels per inch, of this `RasterImage`.
+This property grants you access to the horizontal resolution of the [RasterImage](../../com.aspose.imaging/rasterimage), measured in pixels per inch. By setting or retrieving this value, you can precisely control the resolution of the image, ensuring it meets your specific requirements for quality and clarity.
 
 **Returns:**
 double - The horizontal resolution.
@@ -434,14 +434,14 @@ public void setHorizontalResolution(double value)
 ```
 
 
-Sets the horizontal resolution, in pixels per inch, of this `RasterImage`.
+This property grants you access to the horizontal resolution of the [RasterImage](../../com.aspose.imaging/rasterimage), measured in pixels per inch. By setting or retrieving this value, you can precisely control the resolution of the image, ensuring it meets your specific requirements for quality and clarity.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The horizontal resolution.
 
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call. |
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the `setResolution` method for updating both resolution values in single call. |
 
 ### getJfif() {#getJfif--}
 ```
@@ -449,7 +449,7 @@ public JFIFData getJfif()
 ```
 
 
-Gets the jfif.
+This property allows you to access or modify the JFIF (JPEG File Interchange Format) data associated with the JPEG image. JFIF is a standard format for exchanging JPEG-compressed images between computers and other devices. By getting or setting this property, you can interact with the JFIF data, which may include information such as the image's resolution, aspect ratio, and thumbnail.
 
 **Returns:**
 [JFIFData](../../com.aspose.imaging.fileformats.jpeg/jfifdata)
@@ -459,7 +459,7 @@ public void setJfif(JFIFData value)
 ```
 
 
-Sets the jfif.
+This property allows you to access or modify the JFIF (JPEG File Interchange Format) data associated with the JPEG image. JFIF is a standard format for exchanging JPEG-compressed images between computers and other devices. By getting or setting this property, you can interact with the JFIF data, which may include information such as the image's resolution, aspect ratio, and thumbnail.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,7 +472,7 @@ public PixelDataFormat getRawDataFormat()
 ```
 
 
-Gets the raw data format.
+This property retrieves the raw data format of the image, which indicates how the image data is structured and encoded. Understanding the raw data format is essential for processing or manipulating the image data effectively. It provides insights into the underlying representation of the image, such as whether it's compressed, encoded in a specific color space, or stored in a particular file format. Accessing this property allows you to gain valuable information about the image's data structure, enabling you to perform various operations or optimizations tailored to its specific format.
 
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat)
@@ -482,7 +482,7 @@ public double getVerticalResolution()
 ```
 
 
-Gets the vertical resolution, in pixels per inch, of this `RasterImage`.
+This property manages the vertical resolution, expressed in pixels per inch, for the associated [RasterImage](../../com.aspose.imaging/rasterimage). Adjusting this resolution impacts the size and quality of the image when printed or displayed at a fixed physical size. By setting this property, you control how densely the image's pixels are packed vertically, affecting its overall sharpness and clarity.
 
 **Returns:**
 double - The vertical resolution.
@@ -530,7 +530,7 @@ public void setVerticalResolution(double value)
 ```
 
 
-Sets the vertical resolution, in pixels per inch, of this `RasterImage`.
+This property manages the vertical resolution, expressed in pixels per inch, for the associated [RasterImage](../../com.aspose.imaging/rasterimage). Adjusting this resolution impacts the size and quality of the image when printed or displayed at a fixed physical size. By setting this property, you control how densely the image's pixels are packed vertically, affecting its overall sharpness and clarity.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,17 +545,17 @@ public int getWidth()
 ```
 
 
-Gets the image width.
+This property retrieves the width of the image, expressed in pixels. It provides essential information about the image's dimensions, enabling accurate rendering, manipulation, or display of the image data.
 
 **Returns:**
-int - The image width.
+int - The image width in pixels.
 ### getRgbColorProfile() {#getRgbColorProfile--}
 ```
 public StreamSource getRgbColorProfile()
 ```
 
 
-The RGB color profile for CMYK and YCCK jpeg images. Must be in pair with CMYKColorProfile for correct color conversion.
+The RGB color profile for CMYK and YCCK JPEG images ensures accurate color conversion and representation. It must be paired with the CMYKColorProfile to maintain consistency and fidelity in color rendering. This pairing is essential for applications that require precise color management and reproduction of images, ensuring that the RGB data is properly interpreted and displayed.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -565,7 +565,7 @@ public void setRgbColorProfile(StreamSource value)
 ```
 
 
-The RGB color profile for CMYK and YCCK jpeg images. Must be in pair with CMYKColorProfile for correct color conversion.
+The RGB color profile for CMYK and YCCK JPEG images ensures accurate color conversion and representation. It must be paired with the CMYKColorProfile to maintain consistency and fidelity in color rendering. This pairing is essential for applications that require precise color management and reproduction of images, ensuring that the RGB data is properly interpreted and displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public StreamSource getCmykColorProfile()
 ```
 
 
-The CMYK color profile for CMYK and YCCK jpeg images. Must be in pair with RGBColorProfile for correct color conversion.
+The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. It works in conjunction with the RGBColorProfile to guarantee accurate color representation across various devices and applications. This pairing is crucial for maintaining consistency in color rendering and achieving optimal image quality.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -637,7 +637,7 @@ public void setCmykColorProfile(StreamSource value)
 ```
 
 
-The CMYK color profile for CMYK and YCCK jpeg images. Must be in pair with RGBColorProfile for correct color conversion.
+The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. It works in conjunction with the RGBColorProfile to guarantee accurate color representation across various devices and applications. This pairing is crucial for maintaining consistency in color rendering and achieving optimal image quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +699,7 @@ public StreamSource getDestinationRgbColorProfile()
 ```
 
 
-The RGB color profile for CMYK and YCCK jpeg images, used for image saving process. Must be in pair with CMYKColorProfile for correct color conversion.
+The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. When paired with the CMYKColorProfile, it ensures that the colors are rendered correctly and maintains consistency across different devices and applications. This combination is crucial for preserving the intended color representation and achieving high-quality image output.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -709,7 +709,7 @@ public void setDestinationRgbColorProfile(StreamSource value)
 ```
 
 
-The RGB color profile for CMYK and YCCK jpeg images, used for image saving process. Must be in pair with CMYKColorProfile for correct color conversion.
+The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. When paired with the CMYKColorProfile, it ensures that the colors are rendered correctly and maintains consistency across different devices and applications. This combination is crucial for preserving the intended color representation and achieving high-quality image output.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -722,7 +722,7 @@ public StreamSource getDestinationCmykColorProfile()
 ```
 
 
-The CMYK color profile for CMYK and YCCK jpeg images, used for image saving process. Must be in pair with RGBColorProfile for correct color conversion.
+The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. It works in tandem with the RGBColorProfile to ensure correct color representation, maintaining consistency and quality across different devices and software. This synchronization is crucial for achieving accurate and reliable color rendering in the final saved images.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -732,7 +732,7 @@ public void setDestinationCmykColorProfile(StreamSource value)
 ```
 
 
-The CMYK color profile for CMYK and YCCK jpeg images, used for image saving process. Must be in pair with RGBColorProfile for correct color conversion.
+The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. It works in tandem with the RGBColorProfile to ensure correct color representation, maintaining consistency and quality across different devices and software. This synchronization is crucial for achieving accurate and reliable color rendering in the final saved images.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -745,7 +745,7 @@ public boolean getIgnoreEmbeddedColorProfile()
 ```
 
 
-Gets a value indicating whether embedded color profile is ignored. If embedded color profile is ignored, default color profile is used.
+Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag, users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management, facilitating adjustments for consistency and compatibility across various platforms and applications.
 
 **Returns:**
 boolean
@@ -755,7 +755,7 @@ public void setIgnoreEmbeddedColorProfile(boolean value)
 ```
 
 
-Sets a value indicating whether embedded color profile is ignored. If embedded color profile is ignored, default color profile is used.
+Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag, users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management, facilitating adjustments for consistency and compatibility across various platforms and applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,7 +768,7 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-Sets the resolution for this `RasterImage`.
+Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), ensuring accurate scaling and printing capabilities. This method empowers users to tailor the image resolution to suit their specific requirements, whether for digital display or physical reproduction. By setting the resolution, users can optimize image quality and ensure compatibility with various output devices and mediums, enhancing the overall visual experience and usability of the image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -818,5 +818,5 @@ public void autoRotate()
 ```
 
 
-Perform automatic rotate of image depending on orientation data provided by Exif.
+Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations.
 

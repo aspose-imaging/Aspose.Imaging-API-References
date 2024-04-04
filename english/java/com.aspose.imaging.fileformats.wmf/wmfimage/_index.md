@@ -17,31 +17,31 @@ Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly hand
 
 | Constructor | Description |
 | --- | --- |
-| [WmfImage()](#WmfImage--) | Initializes a new instance of the `WmfImage` class. |
-| [WmfImage(int width, int height)](#WmfImage-int-int-) | Initializes a new instance of the `WmfImage` class. |
+| [WmfImage()](#WmfImage--) | Create a new instance of the [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) class, initializing it for further manipulation and processing of Windows Metafile (WMF) image data. |
+| [WmfImage(int width, int height)](#WmfImage-int-int-) | Instantiate a new instance of the [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) class with customizable width and height parameters, facilitating the creation of blank WMF images tailored to specific dimensions. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [getInch()](#getInch--) | Gets or sets the inch. |
-| [setInch(int value)](#setInch-int-) | Gets or sets the inch. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getFrameBounds()](#getFrameBounds--) | Gets the frame bounds. |
-| [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
-| [getUsedFonts()](#getUsedFonts--) | Returns the list of font which used inside metafile. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
-| [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resizes the canvas. |
-| [addRecord(WmfObject record)](#addRecord-com.aspose.imaging.fileformats.wmf.objects.WmfObject-) | Adds the record. |
-| [getPostScript()](#getPostScript--) | Gets the post script. |
+| [isCached()](#isCached--) | Retrieve a boolean value indicating whether the object's data is currently cached, eliminating the need for additional data reading operations. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the count of bits per pixel for the image, indicating the level of color depth or granularity. |
+| [getWidth()](#getWidth--) | Access the width of the image, indicating the number of pixels along its horizontal axis. |
+| [getHeight()](#getHeight--) | Access the image's height, representing the number of pixels along its vertical axis. |
+| [getInch()](#getInch--) | Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. |
+| [setInch(int value)](#setInch-int-) | Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. |
+| [getFileFormat()](#getFileFormat--) | Access the file format value associated with the image, providing information about the format in which the image is stored. |
+| [getFrameBounds()](#getFrameBounds--) | Access the bounds of the frame, indicating its position and dimensions within the image. |
+| [cacheData()](#cacheData--) | Efficiently cache the data, eliminating the need for additional loading from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image with the specified resizing type, allowing for flexible adjustment of dimensions while preserving aspect ratio or applying specific scaling algorithms. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjust the size of the image based on specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Perform rotation, flipping, or a combination of both operations on the image. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Apply a specified palette to the image, enabling customization of color representation. |
+| [getUsedFonts()](#getUsedFonts--) | Retrieve the list of fonts used within the metafile, providing insight into the font resources utilized in the image. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options associated with the image, providing access to predefined settings or configurations. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the image to the specified rectangle, retaining only the selected region while discarding the rest. |
+| [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resize the canvas of the image, adjusting its dimensions while retaining the image content. |
+| [addRecord(WmfObject record)](#addRecord-com.aspose.imaging.fileformats.wmf.objects.WmfObject-) | Incorporate the specified record object into the image, enriching its content with additional data or metadata. |
+| [getPostScript()](#getPostScript--) | Access the PostScript data associated with the image, providing detailed information about its structure or content. |
 
 ## Example: The following example shows how to convert a compressed images (*.
 The following example shows how to convert a compressed images (*.emz,*.wmz, *.svgz) to raster format
@@ -111,7 +111,7 @@ public WmfImage()
 ```
 
 
-Initializes a new instance of the `WmfImage` class.
+Create a new instance of the [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) class, initializing it for further manipulation and processing of Windows Metafile (WMF) image data. This constructor provides a foundational object for working with WMF images, enabling seamless integration of WMF image handling capabilities into your application's functionality.
 
 ### WmfImage(int width, int height) {#WmfImage-int-int-}
 ```
@@ -119,7 +119,7 @@ public WmfImage(int width, int height)
 ```
 
 
-Initializes a new instance of the `WmfImage` class.
+Instantiate a new instance of the [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) class with customizable width and height parameters, facilitating the creation of blank WMF images tailored to specific dimensions. Utilize this constructor to dynamically generate WMF images with precise dimensions, enabling flexible image creation and manipulation within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,7 +133,7 @@ public boolean isCached()
 ```
 
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+Retrieve a boolean value indicating whether the object's data is currently cached, eliminating the need for additional data reading operations. Utilize this property to optimize performance by determining if the object's data is readily available without the need for costly data retrieval processes within your application.
 
 **Returns:**
 boolean
@@ -143,7 +143,7 @@ public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Retrieve the count of bits per pixel for the image, indicating the level of color depth or granularity. Utilize this property to determine the image's color representation and precision, facilitating compatibility checks and color-related processing within your application.
 
 **Returns:**
 int
@@ -153,29 +153,27 @@ public int getWidth()
 ```
 
 
-Gets the image width.
+Access the width of the image, indicating the number of pixels along its horizontal axis. Utilize this property to determine the image's spatial dimensions and aspect ratio, enabling precise layout and rendering adjustments within your application.
 
 **Returns:**
-int
+int - The image width in pixels.
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
 ```
 
 
-Gets the image height.
+Access the image's height, representing the number of pixels along its vertical axis. Utilize this property to ascertain the image's spatial dimensions and aspect ratio, enabling accurate layout and rendering adjustments within your application.
 
 **Returns:**
-int
+int - The image height in pixels.
 ### getInch() {#getInch--}
 ```
 public int getInch()
 ```
 
 
-Gets or sets the inch.
-
-Value: The inch.
+Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. Utilize this property to establish or retrieve inch values associated with the image, facilitating accurate representation of physical dimensions within your application.
 
 **Returns:**
 int
@@ -185,9 +183,7 @@ public void setInch(int value)
 ```
 
 
-Gets or sets the inch.
-
-Value: The inch.
+Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. Utilize this property to establish or retrieve inch values associated with the image, facilitating accurate representation of physical dimensions within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,7 +196,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Access the file format value associated with the image, providing information about the format in which the image is stored. Utilize this property to determine the file format of the image, facilitating compatibility checks and format-specific processing within your application.
 
 **Returns:**
 long
@@ -210,9 +206,7 @@ public final Rectangle getFrameBounds()
 ```
 
 
-Gets the frame bounds.
-
-Value: The frame bounds.
+Access the bounds of the frame, indicating its position and dimensions within the image. Utilize this property to retrieve detailed information about the frame's spatial location, enabling precise manipulation and rendering within your application.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the frame bounds.
@@ -222,7 +216,7 @@ public void cacheData()
 ```
 
 
-Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`.
+Efficiently cache the data, eliminating the need for additional loading from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). Utilize this method to optimize performance and minimize resource usage within your application by storing and accessing local data cache.
 
 
 **Example: This example shows how to load a WMF image from a file and list all of its records.**
@@ -300,7 +294,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Resize the image with the specified resizing type, allowing for flexible adjustment of dimensions while preserving aspect ratio or applying specific scaling algorithms. Integrate this method into your image processing workflow to achieve precise resizing operations tailored to your application's requirements.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +348,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Adjust the size of the image based on specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -369,7 +363,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the image.
+Perform rotation, flipping, or a combination of both operations on the image. Integrate this method into your image processing workflow to achieve precise manipulation of image orientation and alignment within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +376,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-Sets the image palette.
+Apply a specified palette to the image, enabling customization of color representation. Utilize this method to enhance visual rendering and achieve specific color effects within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,7 +390,7 @@ public String[] getUsedFonts()
 ```
 
 
-Returns the list of font which used inside metafile.
+Retrieve the list of fonts used within the metafile, providing insight into the font resources utilized in the image. Utilize this method to analyze font usage and ensure font availability for rendering or further processing within your application.
 
 **Returns:**
 java.lang.String[] - The font list
@@ -406,7 +400,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve the default options associated with the image, providing access to predefined settings or configurations. Utilize this method to access default settings for image processing operations, facilitating consistency and convenience within your application's functionality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +415,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-Crops the specified rectangle.
+Crop the image to the specified rectangle, retaining only the selected region while discarding the rest. Integrate this method into your image processing workflow to extract specific areas of interest and customize the composition of the image within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -434,7 +428,7 @@ public void resizeCanvas(Rectangle newRectangle)
 ```
 
 
-Resizes the canvas.
+Resize the canvas of the image, adjusting its dimensions while retaining the image content. Utilize this method to modify the size of the canvas without altering the content, facilitating layout adjustments and composition changes within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -447,7 +441,7 @@ public int addRecord(WmfObject record)
 ```
 
 
-Adds the record.
+Incorporate the specified record object into the image, enriching its content with additional data or metadata. Utilize this method to seamlessly integrate record objects into the image, facilitating comprehensive data storage and organization within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -462,7 +456,7 @@ public final String getPostScript()
 ```
 
 
-Gets the post script.
+Access the PostScript data associated with the image, providing detailed information about its structure or content. Utilize this method to retrieve PostScript data for further analysis or processing within your application, enabling advanced functionality related to PostScript rendering or manipulation.
 
 **Returns:**
 java.lang.String - The post script

@@ -17,25 +17,25 @@ Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the 
 
 | Constructor | Description |
 | --- | --- |
-| [SvgImage(String path)](#SvgImage-java.lang.String-) | Initializes a new instance of the `SvgImage` class. |
-| [SvgImage(InputStream stream)](#SvgImage-java.io.InputStream-) | Initializes a new instance of the `SvgImage` class. |
-| [SvgImage(int width, int height)](#SvgImage-int-int-) | Initializes a new instance of the `SvgImage` class. |
-| [SvgImage(SvgOptions svgOptions, int width, int height)](#SvgImage-com.aspose.imaging.imageoptions.SvgOptions-int-int-) | Initializes a new instance of the `SvgImage` class. |
+| [SvgImage(String path)](#SvgImage-java.lang.String-) | Instantiates a new object of the [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) class, utilizing the specified path to locate and load the image. |
+| [SvgImage(InputStream stream)](#SvgImage-java.io.InputStream-) | Creates a new instance of the [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) class, loading the image from the provided stream. |
+| [SvgImage(int width, int height)](#SvgImage-int-int-) | Instantiates a new [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) object with the specified width and height. |
+| [SvgImage(SvgOptions svgOptions, int width, int height)](#SvgImage-com.aspose.imaging.imageoptions.SvgOptions-int-int-) | Creates a new instance of the [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) class with specified SVG options, image width, and height parameters. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count this parameter is not applicable to vector images |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
-| [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
+| [isCached()](#isCached--) | Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Retrieves the bits per pixel count of the image. |
+| [getHeight()](#getHeight--) | Retrieves the height of the image, indicating its vertical size in pixels. |
+| [getWidth()](#getWidth--) | Returns the width of the image, denoting its horizontal size in pixels. |
+| [getFileFormat()](#getFileFormat--) | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. |
+| [cacheData()](#cacheData--) | Cache the data and guarantee that there will be no further loading of data from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image to fit the specified dimensions while preserving its aspect ratio. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Applies rotation, flipping, or both to the image as per the specified parameters. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Applies a specified palette to the image, enabling customization of color schemes for aesthetic or functional purposes. |
 
 ## Example: This example shows how to load an SVG image from a file stream and rasterize it to PNG.
 
@@ -123,7 +123,7 @@ public SvgImage(String path)
 ```
 
 
-Initializes a new instance of the `SvgImage` class.
+Instantiates a new object of the [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) class, utilizing the specified path to locate and load the image. This constructor facilitates the creation of SVG image instances from external files, enabling seamless integration into software systems and workflows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -136,7 +136,7 @@ public SvgImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the `SvgImage` class.
+Creates a new instance of the [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) class, loading the image from the provided stream. This constructor enables the direct loading of SVG images from streams, enhancing flexibility and efficiency in handling image resources within software applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ public SvgImage(int width, int height)
 ```
 
 
-Initializes a new instance of the `SvgImage` class.
+Instantiates a new [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) object with the specified width and height. This constructor allows developers to create SVG images with predefined dimensions, facilitating precise control over the image's size during initialization.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -163,7 +163,7 @@ public SvgImage(SvgOptions svgOptions, int width, int height)
 ```
 
 
-Initializes a new instance of the `SvgImage` class.
+Creates a new instance of the [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) class with specified SVG options, image width, and height parameters. This constructor enables developers to initialize SVG images with custom options and dimensions, providing flexibility in managing SVG content and layout.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,7 +178,7 @@ public boolean isCached()
 ```
 
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. This property provides insight into the current caching status, optimizing data retrieval and processing workflows for enhanced performance and efficiency.
 
 **Returns:**
 boolean - `true` if object's data is cached; otherwise, `false`.
@@ -188,7 +188,7 @@ public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count this parameter is not applicable to vector images
+Retrieves the bits per pixel count of the image. It's important to note that this parameter is not applicable to vector images, as they are not measured in pixels. This property provides crucial information about the image's color depth, aiding in processing and manipulation tasks.
 
 **Returns:**
 int - The image bits per pixel count.
@@ -198,27 +198,27 @@ public int getHeight()
 ```
 
 
-Gets the image height.
+Retrieves the height of the image, indicating its vertical size in pixels. This property provides essential information for layout calculations and rendering processes, ensuring accurate display and manipulation of the image.
 
 **Returns:**
-int - The image height.
+int - The image height in pixels.
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
 ```
 
 
-Gets the image width.
+Returns the width of the image, denoting its horizontal size in pixels. This property is crucial for layout computations and display rendering, ensuring precise positioning and visualization of the image content.
 
 **Returns:**
-int - The image width.
+int - The image width in pixels.
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. This property is instrumental in determining the appropriate decoding and encoding strategies for handling the image data effectively across different systems and applications.
 
 **Returns:**
 long - file format
@@ -228,7 +228,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. This method is pivotal in ensuring consistent behavior and quality standards across image processing tasks without the need for explicit parameterization.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public void cacheData()
 ```
 
 
-Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`.
+Cache the data and guarantee that there will be no further loading of data from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). This optimization enhances performance by eliminating redundant data retrieval operations, especially beneficial in scenarios requiring frequent access to the image data.
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
@@ -251,7 +251,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Resize the image to fit the specified dimensions while preserving its aspect ratio. This method provides a convenient way to adjust the size of the image without distorting its proportions, ensuring optimal display or storage according to the desired dimensions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -266,7 +266,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. This method offers flexibility in resizing operations, allowing for precise control over aspects such as interpolation methods, aspect ratio preservation, and output quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the image.
+Applies rotation, flipping, or both to the image as per the specified parameters. This method offers versatility in image manipulation, allowing for seamless adjustment of orientation to achieve desired visual effects or correct orientation errors.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-Sets the image palette.
+Applies a specified palette to the image, enabling customization of color schemes for aesthetic or functional purposes. This method provides flexibility in managing color palettes to suit various design or application requirements.
 
 **Parameters:**
 | Parameter | Type | Description |
