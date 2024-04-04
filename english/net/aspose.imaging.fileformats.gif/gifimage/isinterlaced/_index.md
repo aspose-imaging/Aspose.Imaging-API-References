@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/isinterlaced/
 ---
 ## GifImage.IsInterlaced property
 
-Gets a value indicating whether this image instance is interlaced.
+Determine if the image is interlaced, impacting its display during loading. This property offers insight into the image's rendering behavior, essential for optimizing loading strategies and enhancing overall viewing experience.
 
 ```csharp
 public bool IsInterlaced { get; }

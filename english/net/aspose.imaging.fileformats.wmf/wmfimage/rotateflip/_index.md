@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/rotateflip/
 ---
 ## WmfImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the image.
+Perform rotation, flipping, or a combination of both operations on the image. Integrate this method into your image processing workflow to achieve precise manipulation of image orientation and alignment within your application.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

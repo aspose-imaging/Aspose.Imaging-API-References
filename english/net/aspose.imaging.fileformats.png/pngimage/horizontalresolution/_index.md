@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/horizontalresolution/
 ---
 ## PngImage.HorizontalResolution property
 
-Gets or sets the horizontal resolution.
+Retrieve or modify the horizontal resolution of the image. This property represents the number of pixels per inch along the horizontal axis of the image. Adjusting this resolution can affect the physical size of the image when printed or displayed.
 
 ```csharp
 public override double HorizontalResolution { get; set; }

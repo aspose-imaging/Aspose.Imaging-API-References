@@ -3,7 +3,7 @@ title: GetProportionalHeight
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging/image/getproportionalheight/
 ---
 ## Image.GetProportionalHeight method

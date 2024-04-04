@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/boundingbox/
 ---
 ## EpsImage.BoundingBox property
 
-Gets the original bounding box of this [`EpsImage`](../../epsimage) instance in device independent points.
+Accessing the original bounding box in device-independent points, this property provides crucial geometric information about the [`EpsImage`](../../epsimage) dimensions. By retrieving this data, users can accurately assess the image's size and aspect ratio, facilitating precise layout and positioning in various applications.
 
 ```csharp
 public RectangleF BoundingBox { get; }

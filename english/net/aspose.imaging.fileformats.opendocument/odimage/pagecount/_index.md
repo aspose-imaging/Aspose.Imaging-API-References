@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/pagecount/
 ---
 ## OdImage.PageCount property
 
-Gets the page count.
+Retrieves the total count of pages within the image. This property is essential for applications managing multi-page images, enabling them to accurately determine the number of pages available for processing or display.
 
 ```csharp
 public override int PageCount { get; }

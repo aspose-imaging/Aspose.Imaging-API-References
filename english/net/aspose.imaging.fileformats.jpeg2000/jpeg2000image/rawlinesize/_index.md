@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/rawlinesize/
 ---
 ## Jpeg2000Image.RawLineSize property
 
-Gets the raw line size in bytes.
+This property retrieves the size of a single line of raw image data in bytes. It indicates the amount of memory occupied by a single row of pixels in the image's raw data format. Understanding the raw line size is essential for tasks such as memory allocation, data manipulation, and image processing algorithms that operate on individual image lines.
 
 ```csharp
 public override int RawLineSize { get; }

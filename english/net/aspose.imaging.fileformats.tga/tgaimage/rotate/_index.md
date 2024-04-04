@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/rotate/
 ---
 ## TgaImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+Rotates the image around its center by a specified angle while maintaining resize proportionality and preserving the background color. This method allows for precise image manipulation, ensuring that the rotation maintains visual balance and consistency with the specified background color. It's ideal for tasks where accurate rotation around the center is necessary, such as orientation correction or artistic adjustments.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

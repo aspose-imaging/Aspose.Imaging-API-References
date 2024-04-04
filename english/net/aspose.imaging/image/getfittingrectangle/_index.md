@@ -3,7 +3,7 @@ title: GetFittingRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.imaging/image/getfittingrectangle/
 ---
 ## Image.GetFittingRectangle method (1 of 2)

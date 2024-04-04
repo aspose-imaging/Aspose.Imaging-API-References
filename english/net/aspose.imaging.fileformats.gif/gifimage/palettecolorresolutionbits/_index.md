@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/palettecolorresolutionbits/
 ---
 ## GifImage.PaletteColorResolutionBits property
 
-Gets or sets the palette color resolution bits.
+Manage the palette color resolution of your GIF images with this property. Adjust the number of bits used to represent colors in the palette, providing fine control over color depth and image quality.
 
 ```csharp
 public byte PaletteColorResolutionBits { get; set; }

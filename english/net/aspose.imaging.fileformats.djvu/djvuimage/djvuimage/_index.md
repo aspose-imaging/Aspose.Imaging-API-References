@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/djvuimage/
 ---
 ## DjvuImage constructor (1 of 2)
 
-Initializes a new instance of the [`DjvuImage`](../../djvuimage) class.
+Start working with DjVu images by initializing a new instance of the [`DjvuImage`](../../djvuimage) class using a Stream parameter. Perfect for developers who want seamless integration of DjVu image processing into their projects.
 
 ```csharp
 public DjvuImage(Stream stream)
@@ -59,7 +59,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 
 ## DjvuImage constructor (2 of 2)
 
-Initializes a new instance of the [`DjvuImage`](../../djvuimage) class.
+Start working with DjVu images seamlessly with this constructor, which initializes a new [`DjvuImage`](../../djvuimage) class instance using a Stream and LoadOptions parameters. Perfect for developers who want precise control over DjVu image loading options while maintaining simplicity and efficiency.
 
 ```csharp
 public DjvuImage(Stream stream, LoadOptions loadOptions)

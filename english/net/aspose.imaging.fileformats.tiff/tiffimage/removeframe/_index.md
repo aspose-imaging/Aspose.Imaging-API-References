@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/removeframe/
 ---
 ## TiffImage.RemoveFrame method (1 of 2)
 
-Removes the frame by its index.
+Effortlessly eliminate the frame identified by its index from the image sequence, streamlining frame management within your application. Integrate this functionality to enhance efficiency and precision in frame manipulation, facilitating seamless organization and presentation of image content.
 
 ```csharp
 public TiffFrame RemoveFrame(int index)
@@ -85,7 +85,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
 
 ## TiffImage.RemoveFrame method (2 of 2)
 
-Removes the specified frame.
+Efficiently remove the specified frame from the image sequence, facilitating streamlined frame management within your application. Integrate this functionality to enhance precision and flexibility in frame manipulation, ensuring seamless organization and presentation of image content.
 
 ```csharp
 public void RemoveFrame(TiffFrame frame)

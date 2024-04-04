@@ -20,68 +20,68 @@ The API for Graphical Interchange Format (GIF) image file provides developers wi
 
 | Constructor | Description |
 | --- | --- |
-| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-) | Initializes a new instance of the `GifImage` class. |
-| [GifImage(GifFrameBlock firstFrame)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | Initializes a new instance of the `GifImage` class. |
-| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-) | Initializes a new instance of the `GifImage` class. |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-) | Initiate a new [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) object with specified parameters for the first frame and global palette. |
+| [GifImage(GifFrameBlock firstFrame)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-) | Get started effortlessly with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getXmpData()](#getXmpData--) | Gets the XMP metadata. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata. |
-| [hasTrailer()](#hasTrailer--) | Gets or sets a value indicating whether GIF has trailer. |
-| [setTrailer(boolean value)](#setTrailer-boolean-) | Gets or sets a value indicating whether GIF has trailer. |
-| [isPaletteSorted()](#isPaletteSorted--) | Gets or sets a value indicating whether palette is sorted. |
-| [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | Gets or sets a value indicating whether palette is sorted. |
-| [getLoopsCount()](#getLoopsCount--) | Gets the loops count (If gif image contains information about loops) |
-| [setLoopsCount(int value)](#setLoopsCount-int-) | The loops count (If gif image contains information about loops) |
-| [getPaletteColorResolutionBits()](#getPaletteColorResolutionBits--) | Gets or sets the palette color resolution bits. |
-| [setPaletteColorResolutionBits(byte value)](#setPaletteColorResolutionBits-byte-) | Sets the palette color resolution bits. |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getBlocks()](#getBlocks--) | Gets the GIF blocks. |
-| [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
-| [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds page to the image. |
-| [getActiveFrame()](#getActiveFrame--) | Gets the active frame. |
-| [setActiveFrame(GifFrameBlock value)](#setActiveFrame-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | Sets the active frame. |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets the background color. |
-| [getBackgroundColorIndex()](#getBackgroundColorIndex--) | Gets the background color index. |
-| [setBackgroundColorIndex(byte value)](#setBackgroundColorIndex-byte-) | Sets the background color index. |
-| [getPixelAspectRatio()](#getPixelAspectRatio--) | Gets the pixel aspect ratio. |
-| [setPixelAspectRatio(byte value)](#setPixelAspectRatio-byte-) | Sets the pixel aspect ratio. |
-| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether active frame has transparent color. |
-| [getTransparentColor()](#getTransparentColor--) | Gets active frame transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | A value indicating whether active frame has transparent color. |
-| [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether image has background color. |
-| [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image (active frame). |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resizeFullFrame(int newWidth, int newHeight, int resizeType)](#resizeFullFrame-int-int-int-) | Resizes the image using full frames for each GIF page. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the Active frame only. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filters the specified rectangle. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [setFrameTime(int time)](#setFrameTime-int-) | Sets all frames duration in milliseconds. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a `brightness` for image. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | Adjusts the contrast. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
-| [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
-| [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
-| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [orderBlocks()](#orderBlocks--) | Orders the GIF blocks according to the GIF specification. |
-| [clearBlocks()](#clearBlocks--) | Clears all the GIF blocks. |
-| [insertBlock(int index, IGifBlock block)](#insertBlock-int-com.aspose.imaging.fileformats.gif.IGifBlock-) | Adds a new GIF block. |
-| [addBlock(IGifBlock block)](#addBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | Adds a new GIF block. |
-| [removeBlock(IGifBlock block)](#removeBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | Removes the GIF block. |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Performs proportional resize on the image. |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | [RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center. |
+| [getFileFormat()](#getFileFormat--) | Retrieve the file format effortlessly with this property. |
+| [getXmpData()](#getXmpData--) | Manage XMP metadata with this property. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Manage XMP metadata with this property. |
+| [hasTrailer()](#hasTrailer--) | Manage the presence of a trailer in your GIF files with this property. |
+| [setTrailer(boolean value)](#setTrailer-boolean-) | Manage the presence of a trailer in your GIF files with this property. |
+| [isPaletteSorted()](#isPaletteSorted--) | Control the sorting of the palette in your GIF images using this property. |
+| [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | Control the sorting of the palette in your GIF images using this property. |
+| [getLoopsCount()](#getLoopsCount--) | Retrieve the loop count effortlessly with this property. |
+| [setLoopsCount(int value)](#setLoopsCount-int-) | Retrieve the loop count effortlessly with this property. |
+| [getPaletteColorResolutionBits()](#getPaletteColorResolutionBits--) | Manage the palette color resolution of your GIF images with this property. |
+| [setPaletteColorResolutionBits(byte value)](#setPaletteColorResolutionBits-byte-) | Manage the palette color resolution of your GIF images with this property. |
+| [getPageCount()](#getPageCount--) | Retrieve the total number of pages contained within the image with this straightforward property. |
+| [getPages()](#getPages--) | Gain access to the pages within the image through this convenient property, allowing seamless navigation and manipulation of individual pages as needed. |
+| [getBlocks()](#getBlocks--) | Gain access to the GIF blocks seamlessly with this property, facilitating easy retrieval and manipulation of the image's underlying data structures. |
+| [isInterlaced()](#isInterlaced--) | Determine if the image is interlaced, impacting its display during loading. |
+| [getOriginalOptions()](#getOriginalOptions--) | Retrieve the original file settings-based options, crucial for maintaining fidelity and consistency in image processing and manipulation. |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Incorporate a new page seamlessly into the existing image, enhancing its content and expanding its scope. |
+| [getActiveFrame()](#getActiveFrame--) | Manage and manipulate frames with this property, enabling smooth navigation and modification of the active frame within the GIF image. |
+| [setActiveFrame(GifFrameBlock value)](#setActiveFrame-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | Manage and manipulate frames with this property, enabling smooth navigation and modification of the active frame within the GIF image. |
+| [getBackgroundColor()](#getBackgroundColor--) | Manage the background color of the GIF image with this property. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Manage the background color of the GIF image with this property. |
+| [getBackgroundColorIndex()](#getBackgroundColorIndex--) | Control the background color index of the GIF image using this property. |
+| [setBackgroundColorIndex(byte value)](#setBackgroundColorIndex-byte-) | Control the background color index of the GIF image using this property. |
+| [getPixelAspectRatio()](#getPixelAspectRatio--) | Manage the pixel aspect ratio of the GIF image with this property. |
+| [setPixelAspectRatio(byte value)](#setPixelAspectRatio-byte-) | Manage the pixel aspect ratio of the GIF image with this property. |
+| [hasTransparentColor()](#hasTransparentColor--) | Determine whether the active frame of the GIF image includes a transparent color. |
+| [getTransparentColor()](#getTransparentColor--) | Retrieve the transparent color of the active frame in the GIF image. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Determine whether the active frame of the GIF image includes a transparent color. |
+| [hasBackgroundColor()](#hasBackgroundColor--) | This property determines whether the GIF image contains a background color. |
+| [getImageOpacity()](#getImageOpacity--) | Retrieve the opacity of the active frame within the image, offering insight into its transparency level. |
+| [getPageExportingAction()](#getPageExportingAction--) | This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Modify the size of the image while maintaining its aspect ratio and visual quality. |
+| [resizeFullFrame(int newWidth, int newHeight, int resizeType)](#resizeFullFrame-int-int-int-) | Resizing of the image while taking into account the full frames for each page in a GIF, thus preventing potential artifacts from appearing. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Perform rotation, flipping, or both on the active frame exclusively. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Apply dithering to the current image. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the image using a specified rectangle area. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | Enhance image quality by applying gamma correction. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Apply a specific filter to the designated area of the image, enhancing its visual quality or altering its appearance as desired. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resize the width and height of the image while maintaining its aspect ratio and applying additional settings as specified. |
+| [setFrameTime(int time)](#setFrameTime-int-) | Adjusts the duration of each frame in milliseconds, ensuring consistent timing throughout the image sequence. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjusts the brightness of the image according to the specified `brightness` parameter. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | Adjusts the contrast of the image, enhancing or reducing the difference in brightness between pixels. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image applies a nonlinear adjustment to the pixel values, enhancing or reducing brightness based on the specified coefficients for the red, green, and blue channels. |
+| [grayscale()](#grayscale--) | The transformation of an image to its grayscale representation converts the color image into a grayscale version by removing color information while preserving luminance. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with a predefined threshold converts a grayscale or color image into a binary image, where each pixel is classified as either black or white based on whether its intensity value exceeds a specified threshold. |
+| [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding is a method used to automatically determine the optimal threshold value for converting a grayscale image into a binary image. |
+| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm with integral image thresholding is a method for converting a grayscale image into a binary image. |
+| [orderBlocks()](#orderBlocks--) | Ordering the GIF blocks according to the GIF specification ensures proper GIF layout and compliance with the standard. |
+| [clearBlocks()](#clearBlocks--) | Clearing all the GIF blocks removes any existing data stored within the image. |
+| [insertBlock(int index, IGifBlock block)](#insertBlock-int-com.aspose.imaging.fileformats.gif.IGifBlock-) | Inserting a new GIF block allows you to add custom data at a specific position within the image. |
+| [addBlock(IGifBlock block)](#addBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | Adding a new GIF block allows you to include additional data within the image. |
+| [removeBlock(IGifBlock block)](#removeBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | Removing a GIF block removes specific data from the image, offering the ability to clean up or modify the image structure. |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Proportional resizing maintains the aspect ratio of the image while adjusting its size, ensuring that the image does not appear stretched or distorted. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | This method rotates the image around its center point. |
 
 ## Example: This example shows how to create a GIF image and save it to a file.
 
@@ -175,7 +175,7 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 ```
 
 
-Initializes a new instance of the `GifImage` class.
+Initiate a new [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) object with specified parameters for the first frame and global palette. Start managing GIF images swiftly, ensuring accurate representation with customizable settings for optimal results.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,7 +189,7 @@ public GifImage(GifFrameBlock firstFrame)
 ```
 
 
-Initializes a new instance of the `GifImage` class.
+Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. With just the firstFrame parameter, it enters in a world of dynamic visual communication.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -202,7 +202,7 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean i
 ```
 
 
-Initializes a new instance of the `GifImage` class.
+Get started effortlessly with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. With this simple method, you can dive into creating animated GIFs with ease. Just supply the firstFrame, globalPalette, paletteColorResolution, aspectRatio, and other parameters, and you're ready to bring your visuals to life.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieve the file format effortlessly with this property. It's your go-to source for identifying the format of your files. Seamlessly integrated into your workflow, it provides vital information without any hassle.
 
 **Returns:**
 long
@@ -231,7 +231,7 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets the XMP metadata.
+Manage XMP metadata with this property. Whether you're retrieving existing metadata or updating it with new information, this property streamlines the process. Keep your metadata organized and accessible, ensuring that your files contain the relevant information they need.
 
 **Returns:**
 [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
@@ -241,7 +241,7 @@ public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Sets the XMP metadata.
+Manage XMP metadata with this property. Whether you're retrieving existing metadata or updating it with new information, this property streamlines the process. Keep your metadata organized and accessible, ensuring that your files contain the relevant information they need.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public boolean hasTrailer()
 ```
 
 
-Gets or sets a value indicating whether GIF has trailer.
+Manage the presence of a trailer in your GIF files with this property. Whether you need to check if a trailer exists or set its presence, this property simplifies the process. Keep your GIF files structured and compliant with this intuitive feature.
 
 **Returns:**
 boolean - `true` if GIF has trailer; otherwise, `false`.
@@ -264,7 +264,7 @@ public void setTrailer(boolean value)
 ```
 
 
-Gets or sets a value indicating whether GIF has trailer.
+Manage the presence of a trailer in your GIF files with this property. Whether you need to check if a trailer exists or set its presence, this property simplifies the process. Keep your GIF files structured and compliant with this intuitive feature.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +277,7 @@ public boolean isPaletteSorted()
 ```
 
 
-Gets or sets a value indicating whether palette is sorted.
+Control the sorting of the palette in your GIF images using this property. Whether you need to check if the palette is sorted or set the sorting behavior, this property provides a straightforward way to manage the palette organization in your GIF files.
 
 **Returns:**
 boolean - `true` if palette is sorted; otherwise, `false`.
@@ -287,7 +287,7 @@ public void setPaletteSorted(boolean value)
 ```
 
 
-Gets or sets a value indicating whether palette is sorted.
+Control the sorting of the palette in your GIF images using this property. Whether you need to check if the palette is sorted or set the sorting behavior, this property provides a straightforward way to manage the palette organization in your GIF files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -300,26 +300,22 @@ public int getLoopsCount()
 ```
 
 
-Gets the loops count (If gif image contains information about loops)
-
-Value: The loops count or 1 (default value)
+Retrieve the loop count effortlessly with this property. If your GIF image includes loop information, this property gives you quick access to the loop count, enabling you to seamlessly manage looping behavior in your GIF files.
 
 **Returns:**
-int - the loops count (If gif image contains information about loops)
+int - The loops count or 1 (default value)
 ### setLoopsCount(int value) {#setLoopsCount-int-}
 ```
 public void setLoopsCount(int value)
 ```
 
 
-The loops count (If gif image contains information about loops)
-
-Value: The loops count or 1 (default value)
+Retrieve the loop count effortlessly with this property. If your GIF image includes loop information, this property gives you quick access to the loop count, enabling you to seamlessly manage looping behavior in your GIF files.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the loops count (If gif image contains information about loops) |
+| value | int | The loops count or 1 (default value) |
 
 ### getPaletteColorResolutionBits() {#getPaletteColorResolutionBits--}
 ```
@@ -327,7 +323,7 @@ public byte getPaletteColorResolutionBits()
 ```
 
 
-Gets or sets the palette color resolution bits.
+Manage the palette color resolution of your GIF images with this property. Adjust the number of bits used to represent colors in the palette, providing fine control over color depth and image quality.
 
 **Returns:**
 byte - The palette color resolution bits.
@@ -337,7 +333,7 @@ public void setPaletteColorResolutionBits(byte value)
 ```
 
 
-Sets the palette color resolution bits.
+Manage the palette color resolution of your GIF images with this property. Adjust the number of bits used to represent colors in the palette, providing fine control over color depth and image quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -350,9 +346,7 @@ public int getPageCount()
 ```
 
 
-Gets the page count.
-
-Value: The page count.
+Retrieve the total number of pages contained within the image with this straightforward property. Ideal for quickly assessing the extent of the image content.
 
 **Returns:**
 int - the page count.
@@ -362,9 +356,7 @@ public Image[] getPages()
 ```
 
 
-Gets the pages.
-
-Value: The pages.
+Gain access to the pages within the image through this convenient property, allowing seamless navigation and manipulation of individual pages as needed.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -374,7 +366,7 @@ public IGifBlock[] getBlocks()
 ```
 
 
-Gets the GIF blocks.
+Gain access to the GIF blocks seamlessly with this property, facilitating easy retrieval and manipulation of the image's underlying data structures.
 
 **Returns:**
 com.aspose.imaging.fileformats.gif.IGifBlock[] - the GIF blocks.
@@ -384,19 +376,17 @@ public boolean isInterlaced()
 ```
 
 
-Gets a value indicating whether this image instance is interlaced.
-
-Value: `true` if this image instance is interlaced; otherwise, `false`.
+Determine if the image is interlaced, impacting its display during loading. This property offers insight into the image's rendering behavior, essential for optimizing loading strategies and enhancing overall viewing experience.
 
 **Returns:**
-boolean - a value indicating whether this image instance is interlaced.
+boolean - `true` if this image instance is interlaced; otherwise, `false`.
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
 public ImageOptionsBase getOriginalOptions()
 ```
 
 
-Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
+Retrieve the original file settings-based options, crucial for maintaining fidelity and consistency in image processing and manipulation. This method allows seamless integration of file-specific parameters into subsequent operations, ensuring accurate rendition and adherence to the image's inherent characteristics. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -406,7 +396,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Adds page to the image.
+Incorporate a new page seamlessly into the existing image, enhancing its content and expanding its scope. This method augment image collections with additional content, fostering creativity and flexibility in image management and composition.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -464,9 +454,7 @@ public GifFrameBlock getActiveFrame()
 ```
 
 
-Gets the active frame.
-
-Value: The active frame.
+Manage and manipulate frames with this property, enabling smooth navigation and modification of the active frame within the GIF image.
 
 **Returns:**
 [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) - the active frame.
@@ -508,9 +496,7 @@ public void setActiveFrame(GifFrameBlock value)
 ```
 
 
-Sets the active frame.
-
-Value: The active frame.
+Manage and manipulate frames with this property, enabling smooth navigation and modification of the active frame within the GIF image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -523,9 +509,7 @@ public Color getBackgroundColor()
 ```
 
 
-Gets the background color.
-
-Value: The background color.
+Manage the background color of the GIF image with this property. You can set or retrieve the background color to ensure consistency and enhance visual appeal.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - the background color.
@@ -535,9 +519,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-Sets the background color.
-
-Value: The background color.
+Manage the background color of the GIF image with this property. You can set or retrieve the background color to ensure consistency and enhance visual appeal.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,9 +532,7 @@ public byte getBackgroundColorIndex()
 ```
 
 
-Gets the background color index.
-
-Value: The background color index.
+Control the background color index of the GIF image using this property. Set or retrieve the index to maintain consistency or achieve desired visual effects.
 
 **Returns:**
 byte - the background color index.
@@ -562,9 +542,7 @@ public void setBackgroundColorIndex(byte value)
 ```
 
 
-Sets the background color index.
-
-Value: The background color index.
+Control the background color index of the GIF image using this property. Set or retrieve the index to maintain consistency or achieve desired visual effects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,9 +555,7 @@ public byte getPixelAspectRatio()
 ```
 
 
-Gets the pixel aspect ratio.
-
-Value: The pixel aspect ratio.
+Manage the pixel aspect ratio of the GIF image with this property. Set or retrieve the aspect ratio to ensure accurate rendering and maintain visual fidelity.
 
 **Returns:**
 byte - the pixel aspect ratio.
@@ -589,9 +565,7 @@ public void setPixelAspectRatio(byte value)
 ```
 
 
-Sets the pixel aspect ratio.
-
-Value: The pixel aspect ratio.
+Manage the pixel aspect ratio of the GIF image with this property. Set or retrieve the aspect ratio to ensure accurate rendering and maintain visual fidelity.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -604,7 +578,7 @@ public boolean hasTransparentColor()
 ```
 
 
-Gets a value indicating whether active frame has transparent color.
+Determine whether the active frame of the GIF image includes a transparent color. This property provides a convenient way to check for transparency within the image.
 
 **Returns:**
 boolean - a value indicating whether active frame has transparent color.
@@ -614,7 +588,7 @@ public Color getTransparentColor()
 ```
 
 
-Gets active frame transparent color.
+Retrieve the transparent color of the active frame in the GIF image. This property allows you to access the specific color that has been designated as transparent within the currently active frame.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - active frame transparent color.
@@ -624,7 +598,7 @@ public void setTransparentColor(boolean value)
 ```
 
 
-A value indicating whether active frame has transparent color.
+Determine whether the active frame of the GIF image includes a transparent color. This property provides a convenient way to check for transparency within the image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -637,7 +611,7 @@ public boolean hasBackgroundColor()
 ```
 
 
-Gets a value indicating whether image has background color.
+This property determines whether the GIF image contains a background color. If true, it indicates that the image includes a background color.
 
 **Returns:**
 boolean - a value indicating whether image has background color.
@@ -647,9 +621,9 @@ public float getImageOpacity()
 ```
 
 
-Gets opacity of this image (active frame).
+Retrieve the opacity of the active frame within the image, offering insight into its transparency level. This property is particularly useful for understanding the degree of transparency or opaqueness of the active frame in the image.
 
-Value: The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
+The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
 
 **Returns:**
 float - opacity of this image (active frame).
@@ -659,7 +633,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. It provides flexibility in choosing export actions tailored to the needs of the application or workflow, enhancing customization and adaptability. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 Value: The page exporting action.
 
@@ -671,7 +645,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. It provides flexibility in choosing export actions tailored to the needs of the application or workflow, enhancing customization and adaptability. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 Value: The page exporting action.
 
@@ -686,7 +660,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Modify the size of the image while maintaining its aspect ratio and visual quality. This function allows for easy adjustment of the image dimensions to suit specific display or storage needs, ensuring optimal presentation without distortion or loss of detail.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -744,7 +718,7 @@ public void resizeFullFrame(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image using full frames for each GIF page. Required to avoid possible artifacts appearance.
+Resizing of the image while taking into account the full frames for each page in a GIF, thus preventing potential artifacts from appearing. This method is essential to maintain the integrity and quality of the image, especially when dealing with animated GIFs or sequences of frames.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -759,7 +733,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the Active frame only.
+Perform rotation, flipping, or both on the active frame exclusively. This operation applies transformations solely to the currently active frame of the image, preserving the integrity of other frames in the sequence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -844,7 +818,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-Performs dithering on the current image.
+Apply dithering to the current image. This process enhances image quality by reducing color banding and improving color transitions, resulting in a smoother appearance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -894,7 +868,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-Cropping the image.
+Crop the image using a specified rectangle area. This operation removes the outer portion of the image, leaving only the selected region defined by the rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -932,7 +906,7 @@ public void adjustGamma(float gamma)
 ```
 
 
-Gamma-correction of an image.
+Enhance image quality by applying gamma correction. This method adjusts the color gamma of the image to achieve optimal visual clarity. It modifies the gamma value of each pixel, resulting in improved color rendition and overall image appearance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -963,7 +937,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-Filters the specified rectangle.
+Apply a specific filter to the designated area of the image, enhancing its visual quality or altering its appearance as desired. This method selectively processes pixels within the defined rectangle, allowing for targeted adjustments to be made while preserving the integrity of the surrounding image data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1024,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Resize the width and height of the image while maintaining its aspect ratio and applying additional settings as specified. This method ensures that the image dimensions are adjusted proportionally, preserving the overall visual quality and appearance according to the provided settings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,7 +1076,7 @@ public void setFrameTime(int time)
 ```
 
 
-Sets all frames duration in milliseconds. Changing this value will reset delay for all frames.
+Adjusts the duration of each frame in milliseconds, ensuring consistent timing throughout the image sequence. This method uniformly sets the display time for every frame, allowing for precise control over animation speed. Changing this value will reset delay for all frames.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1089,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-Adjust of a `brightness` for image.
+Adjusts the brightness of the image according to the specified `brightness` parameter. This method modifies the brightness of the entire image uniformly, enhancing or reducing the overall luminance to achieve the desired effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1146,7 +1120,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-Adjusts the contrast.
+Adjusts the contrast of the image, enhancing or reducing the difference in brightness between pixels. This method modifies the image's overall tonal range, making darker areas darker and brighter areas brighter to improve visual clarity and detail.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1177,7 +1151,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-Gamma-correction of an image.
+Gamma-correction of an image applies a nonlinear adjustment to the pixel values, enhancing or reducing brightness based on the specified coefficients for the red, green, and blue channels. This method helps to fine-tune the color balance and luminance of the image, improving its overall appearance and visual quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1210,7 +1184,7 @@ public void grayscale()
 ```
 
 
-Transformation of an image to its grayscale representation
+The transformation of an image to its grayscale representation converts the color image into a grayscale version by removing color information while preserving luminance. This process simplifies the image to shades of gray, making it suitable for various applications such as printing, document processing, and grayscale analysis.
 
 
 **Example: The following example transforms a colored GIF image to its grayscale representation.**
@@ -1235,7 +1209,7 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-Binarization of an image with predefined threshold
+Binarization of an image with a predefined threshold converts a grayscale or color image into a binary image, where each pixel is classified as either black or white based on whether its intensity value exceeds a specified threshold.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1267,7 +1241,7 @@ public void binarizeOtsu()
 ```
 
 
-Binarization of an image with Otsu thresholding
+Binarization of an image with Otsu thresholding is a method used to automatically determine the optimal threshold value for converting a grayscale image into a binary image. The Otsu thresholding algorithm calculates the threshold that minimizes the intra-class variance of the pixel intensities in the two resulting classes (foreground and background). This technique is particularly useful when the optimal threshold value is unknown and needs to be determined adaptively based on the image's histogram.
 
 
 **Example: The following example binarizes a GIF image with Otsu thresholding.**
@@ -1293,7 +1267,7 @@ public void binarizeBradley(double brightnessDifference)
 ```
 
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Binarization of an image using Bradley's adaptive thresholding algorithm with integral image thresholding is a method for converting a grayscale image into a binary image. This algorithm calculates a local threshold for each pixel based on the average intensity of the surrounding pixels within a specified window. By adaptively adjusting the threshold based on local pixel intensities, Bradley's method is effective at handling variations in lighting and contrast across the image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1306,7 +1280,7 @@ public void orderBlocks()
 ```
 
 
-Orders the GIF blocks according to the GIF specification. Some [GifGraphicsControlBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) may be removed for proper GIF layout.
+Ordering the GIF blocks according to the GIF specification ensures proper GIF layout and compliance with the standard. This process involves arranging the blocks in the correct sequence as defined by the specification. Additionally, it may involve removing certain [GifGraphicsControlBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) instances that are not necessary for the final layout. By adhering to the GIF specification, the resulting image will be correctly structured and compatible with GIF viewing applications.
 
 ### clearBlocks() {#clearBlocks--}
 ```
@@ -1314,7 +1288,7 @@ public void clearBlocks()
 ```
 
 
-Clears all the GIF blocks.
+Clearing all the GIF blocks removes any existing data stored within the image. This operation effectively resets the image to an empty state, removing any previously added blocks. Use this method when you need to start fresh with a clean slate for creating or modifying a GIF image.
 
 
 **Example: The following example shows how to remove all blocks from a GIF image.**
@@ -1354,7 +1328,7 @@ public void insertBlock(int index, IGifBlock block)
 ```
 
 
-Adds a new GIF block.
+Inserting a new GIF block allows you to add custom data at a specific position within the image. This method enables you to place custom blocks at a desired location in the GIF image, providing flexibility in organizing and structuring the image data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1368,7 +1342,7 @@ public void addBlock(IGifBlock block)
 ```
 
 
-Adds a new GIF block.
+Adding a new GIF block allows you to include additional data within the image. This method enables you to append custom blocks to the GIF image, which can contain various types of information.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1426,7 +1400,7 @@ public void removeBlock(IGifBlock block)
 ```
 
 
-Removes the GIF block.
+Removing a GIF block removes specific data from the image, offering the ability to clean up or modify the image structure. This method enables you to remove unwanted or unnecessary blocks, optimizing the GIF image for efficient storage. Use this functionality to eliminate outdated information from the image while preserving its integrity and quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1443,7 +1417,7 @@ public void resizeProportional(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Performs proportional resize on the image. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
+Proportional resizing maintains the aspect ratio of the image while adjusting its size, ensuring that the image does not appear stretched or distorted. This method resizes the image proportionally, scaling both the width and height by the same factor. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1458,7 +1432,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-[RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center.
+This method rotates the image around its center point. By specifying the rotation angle, you can rotate the image clockwise or counterclockwise to achieve the desired orientation. This rotation helps adjust the image's presentation or alignment without distorting its content.
 
 **Parameters:**
 | Parameter | Type | Description |

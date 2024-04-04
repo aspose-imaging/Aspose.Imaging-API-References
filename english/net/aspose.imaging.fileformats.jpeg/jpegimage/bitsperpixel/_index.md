@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/bitsperpixel/
 ---
 ## JpegImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Retrieve the pixel depth of the image effortlessly with this property, offering insights into the richness of color or grayscale representation. Whether it's a vibrant photograph or a monochrome illustration, this property provides crucial information about the image's visual complexity.
 
 ```csharp
 public override int BitsPerPixel { get; }

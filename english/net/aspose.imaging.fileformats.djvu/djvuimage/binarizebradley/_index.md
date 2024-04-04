@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/binarizebradley/
 ---
 ## DjvuImage.BinarizeBradley method
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Binarization using Bradley's adaptive thresholding algorithm with integral image thresholding is a method that calculates a local threshold for each pixel based on a local neighborhood. It adapts to variations in illumination across the image, making it suitable for images with uneven lighting conditions. By computing the threshold using integral images, it efficiently handles large neighborhoods, making it applicable to real-time applications. This technique is commonly used in document processing, OCR (Optical Character Recognition), and image segmentation tasks where accurate binarization is essential for subsequent analysis.
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)

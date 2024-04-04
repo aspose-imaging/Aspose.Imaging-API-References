@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/odimage/
 ---
 ## OdImage constructor (1 of 2)
 
-Initializes a new instance of the [`OdImage`](../../odimage) class.
+Initialize a new [`OdImage`](../../odimage) object by providing a stream container along with load options, facilitating seamless integration into software applications. This constructor efficiently handle image data, offering flexibility and control over the loading process.
 
 ```csharp
 public OdImage(StreamContainer streamContainer, LoadOptions options)
@@ -31,7 +31,7 @@ public OdImage(StreamContainer streamContainer, LoadOptions options)
 
 ## OdImage constructor (2 of 2)
 
-Initializes a new instance of the [`OdImage`](../../odimage) class.
+Creates a new instance of the [`OdImage`](../../odimage) class, designed specifically for initialization with a stream container. This constructor enables seamless integration with stream-based data sources, facilitating efficient handling of OdImage instances within software systems.
 
 ```csharp
 public OdImage(StreamContainer streamContainer)

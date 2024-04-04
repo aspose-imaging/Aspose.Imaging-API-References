@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/jobnameorid/
 ---
 ## TgaImage.JobNameOrId property
 
-Gets or sets Job Name/ID.
+Retrieves or sets the job name or ID associated with the image. This property enables you to access or modify metadata related to the specific job or project associated with the image. By utilizing the Job Name/ID property, users can easily identify the project or task to which the image pertains, facilitating organization and management of image assets within larger workflows or projects.
 
 ```csharp
 public string JobNameOrId { get; set; }

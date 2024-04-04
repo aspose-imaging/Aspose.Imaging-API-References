@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/width/
 ---
 ## PngImage.Width property
 
-Gets the width.
+Allows retrieval of the width of the image, providing essential information about its dimensions. This property is frequently used by developers to determine the image's width, enabling them to perform various operations based on its size
 
 ```csharp
 public override int Width { get; }

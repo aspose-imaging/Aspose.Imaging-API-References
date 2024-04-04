@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/lastpage/
 ---
 ## DjvuImage.LastPage property
 
-Gets the last page of the document
+Retrieve the last page of your DjVu document using this property. Quickly access the final page for viewing or processing purposes with ease.
 
 ```csharp
 public DjvuPage LastPage { get; }

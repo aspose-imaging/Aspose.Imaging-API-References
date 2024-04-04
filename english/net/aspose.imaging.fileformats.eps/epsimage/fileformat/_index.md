@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/fileformat/
 ---
 ## EpsImage.FileFormat property
 
-Gets the file format.
+Access the file format of your image with this property. Retrieve essential information about the format of your image file, facilitating compatibility and efficient processing. Ideal for identifying the format of your image files for seamless integration into your projects.
 
 ```csharp
 public override FileFormat FileFormat { get; }

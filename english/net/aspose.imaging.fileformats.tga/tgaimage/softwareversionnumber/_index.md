@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/softwareversionnumber/
 ---
 ## TgaImage.SoftwareVersionNumber property
 
-Gets or sets Software Version number part.
+Retrieves or sets the numeric component of the software version associated with the image. This property represents the numerical part of the software version string, providing important information about the version of the software used to create or modify the image.
 
 ```csharp
 public ushort SoftwareVersionNumber { get; set; }

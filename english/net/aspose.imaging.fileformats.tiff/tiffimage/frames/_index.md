@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/frames/
 ---
 ## TiffImage.Frames property
 
-Gets the [`TiffFrame`](../../tiffframe) array.
+Retrieve an array of [`TiffFrame`](../../tiffframe) instances, enabling comprehensive access and manipulation of individual frames within the TIFF image. Harness the power of this array to streamline image processing workflows, ensuring precise control and optimization of visual content.
 
 ```csharp
 public TiffFrame[] Frames { get; }

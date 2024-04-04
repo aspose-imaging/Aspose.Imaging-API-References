@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/loopscount/
 ---
 ## GifImage.LoopsCount property
 
-Gets the loops count (If gif image contains information about loops)
+Retrieve the loop count effortlessly with this property. If your GIF image includes loop information, this property gives you quick access to the loop count, enabling you to seamlessly manage looping behavior in your GIF files.
 
 ```csharp
 public int LoopsCount { get; set; }

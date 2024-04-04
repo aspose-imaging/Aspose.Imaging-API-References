@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/resize/
 ---
 ## DjvuImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image using the `Resize` method, providing a simple and effective way to adjust the dimensions of your images according to your requirements. This versatile functionality empowers you to easily scale images to your desired size, enhancing their usability across various platforms and applications.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -77,7 +77,7 @@ using (Aspose.Imaging.FileFormats.Djvu.DjvuImage image = (Aspose.Imaging.FileFor
 
 ## DjvuImage.Resize method (2 of 2)
 
-Resizes the image.
+Resize the image to the specified width and height while applying additional settings as needed. This method enables users to adjust the dimensions of the image while maintaining desired attributes such as aspect ratio, image quality, and compression settings. By providing flexibility in resizing options, users can tailor the image to fit specific requirements and optimize its appearance for various applications and platforms.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

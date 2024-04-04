@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/insertblock/
 ---
 ## WebPImage.InsertBlock method
 
-Adds a new Webp block.
+Insert a new WebP block at the specified index within the image, enabling precise control over the block sequence. Integrate this method to seamlessly incorporate additional WebP blocks into the image data structure, facilitating advanced image processing and optimization within your application.
 
 ```csharp
 public void InsertBlock(int index, IFrame block)

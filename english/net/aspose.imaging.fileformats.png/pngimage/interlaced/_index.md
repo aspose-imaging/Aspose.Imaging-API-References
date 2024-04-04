@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/interlaced/
 ---
 ## PngImage.Interlaced property
 
-Gets a value indicating whether this [`PngImage`](../../pngimage) is interlaced.
+Retrieves a boolean value indicating whether the [`PngImage`](../../pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission.
 
 ```csharp
 public bool Interlaced { get; }

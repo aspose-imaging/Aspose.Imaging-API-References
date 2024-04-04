@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/comments/
 ---
 ## Jpeg2000Image.Comments property
 
-Gets or sets the comments.
+This property allows for retrieving or updating the comments associated with the image. Comments provide additional information about the image content, such as annotations, descriptions, or metadata. Modifying these comments can be useful for organizing and categorizing images, as well as conveying important details to viewers or users.
 
 ```csharp
 public string[] Comments { get; set; }

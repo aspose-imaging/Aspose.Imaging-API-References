@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/backgroundcolor/
 ---
 ## GifImage.BackgroundColor property
 
-Gets or sets the background color.
+Manage the background color of the GIF image with this property. You can set or retrieve the background color to ensure consistency and enhance visual appeal.
 
 ```csharp
 public override Color BackgroundColor { get; set; }

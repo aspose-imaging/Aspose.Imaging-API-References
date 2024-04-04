@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/wmfimage/
 ---
 ## WmfImage constructor (1 of 2)
 
-Initializes a new instance of the [`WmfImage`](../../wmfimage) class.
+Create a new instance of the [`WmfImage`](../../wmfimage) class, initializing it for further manipulation and processing of Windows Metafile (WMF) image data. This constructor provides a foundational object for working with WMF images, enabling seamless integration of WMF image handling capabilities into your application's functionality.
 
 ```csharp
 public WmfImage()
@@ -24,7 +24,7 @@ public WmfImage()
 
 ## WmfImage constructor (2 of 2)
 
-Initializes a new instance of the [`WmfImage`](../../wmfimage) class.
+Instantiate a new instance of the [`WmfImage`](../../wmfimage) class with customizable width and height parameters, facilitating the creation of blank WMF images tailored to specific dimensions. Utilize this constructor to dynamically generate WMF images with precise dimensions, enabling flexible image creation and manipulation within your application.
 
 ```csharp
 public WmfImage(int width, int height)

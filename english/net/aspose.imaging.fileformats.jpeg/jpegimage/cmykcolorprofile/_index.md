@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/cmykcolorprofile/
 ---
 ## JpegImage.CmykColorProfile property
 
-The CMYK color profile for CMYK and YCCK jpeg images. Must be in pair with RGBColorProfile for correct color conversion.
+The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. It works in conjunction with the RGBColorProfile to guarantee accurate color representation across various devices and applications. This pairing is crucial for maintaining consistency in color rendering and achieving optimal image quality.
 
 ```csharp
 public StreamSource CmykColorProfile { get; set; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/transparentcolor/
 ---
 ## TgaImage.TransparentColor property
 
-Gets or sets Key Color.
+Retrieves or sets the key color associated with the image. This property allows you to access or modify the color designated as the key color for specific image processing tasks or effects. Utilizing the Key Color property enables users to apply color-based operations such as chroma keying or color replacement, enhancing image manipulation capabilities and creative possibilities.
 
 The Key Color can be thought of as the ‘background color’ or ‘transparent color’. This is the color of the ‘non image’ area of the screen, and the same color that the screen would be cleared to if erased in the application.
 

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/adjustcontrast/
 ---
 ## DjvuImage.AdjustContrast method
 
-[`Image`](../../../aspose.imaging/image) contrasting
+Enhance [`Image`](../../../aspose.imaging/image) contrast to improve visual clarity and highlight details with this method, which adjusts the difference in brightness between light and dark areas. By fine-tuning contrast levels, users can achieve more vivid and impactful images, enhancing overall image quality and maximizing detail visibility. This adjustment helps to bring out subtle nuances in color and texture, resulting in more dynamic and visually appealing images.
 
 ```csharp
 public override void AdjustContrast(float contrast)

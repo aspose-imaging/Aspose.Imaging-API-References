@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/resize/
 ---
 ## WebPImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image, adjusting its dimensions while preserving the aspect ratio. Integrate this method into your image processing workflow to dynamically scale images to fit various display or storage requirements within your application.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -77,7 +77,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage image = (Aspose.Imaging.FileFor
 
 ## WebPImage.Resize method (2 of 2)
 
-Resizes the image.
+Resize the image according to specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

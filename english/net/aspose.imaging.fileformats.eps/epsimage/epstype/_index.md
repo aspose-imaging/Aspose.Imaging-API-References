@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/epstype/
 ---
 ## EpsImage.EpsType property
 
-Gets EPS subtype value.
+Access and interpret the subtype value of your EPS image, streamlining your workflow and enhancing compatibility across platforms. Ideal for optimizing EPS subtype retrieval in your projects with precision and efficiency.
 
 ```csharp
 public EpsType EpsType { get; }

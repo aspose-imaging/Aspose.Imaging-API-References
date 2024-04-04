@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/dither/
 ---
 ## TiffImage.Dither method
 
-Performs dithering on the current image.
+Execute dithering on the current image to enhance its visual quality and reduce color banding artifacts. Integrate this method into your image processing workflow to ensure smoother transitions between colors, resulting in improved overall image appearance and clarity.
 
 ```csharp
 public override void Dither(DitheringMethod ditheringMethod, int bitsCount, 

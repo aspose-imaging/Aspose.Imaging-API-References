@@ -3,7 +3,7 @@ title: Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.imaging/rastercachedmultipageimage/grayscale/
 ---
 ## RasterCachedMultipageImage.Grayscale method

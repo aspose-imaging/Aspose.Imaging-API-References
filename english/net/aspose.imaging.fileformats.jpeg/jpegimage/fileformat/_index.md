@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/fileformat/
 ---
 ## JpegImage.FileFormat property
 
-Gets a value of file format
+Retrieve the format of the image effortlessly with this property. It provides valuable insight into the file format, aiding in seamless integration and compatibility checks across various platforms and applications.
 
 ```csharp
 public override FileFormat FileFormat { get; }

@@ -59,6 +59,7 @@ public abstract class MetaImage : VectorImage
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | Gets the embedded images. |
 | [GetMissedFonts](../../aspose.imaging.fileformats.emf/metaimage/getmissedfonts)() | Returns the list of fonts which used inside metafile but not found. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
+| virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | abstract [GetUsedFonts](../../aspose.imaging.fileformats.emf/metaimage/getusedfonts)() | Returns the list of font which used inside metafile. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground)(RemoveBackgroundSettings) | Removes the background. |

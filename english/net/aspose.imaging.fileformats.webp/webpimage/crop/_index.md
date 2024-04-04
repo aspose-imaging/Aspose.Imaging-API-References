@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/crop/
 ---
 ## WebPImage.Crop method (1 of 2)
 
-Cropping the image.
+Crop the image using a specified rectangle region, removing unwanted portions while retaining the desired content. Integrate this method into your image processing workflow to precisely extract and focus on specific areas of interest within the image, enhancing clarity and composition for various applications.
 
 ```csharp
 public override void Crop(Rectangle rectangle)
@@ -29,7 +29,7 @@ public override void Crop(Rectangle rectangle)
 
 ## WebPImage.Crop method (2 of 2)
 
-Crop image with shifts.
+Crop the image by applying left, right, top, and bottom shifts, effectively selecting a region of interest within the image. Utilize this method to dynamically extract desired portions of the image while adjusting its composition and focus according to your application's requirements.
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)

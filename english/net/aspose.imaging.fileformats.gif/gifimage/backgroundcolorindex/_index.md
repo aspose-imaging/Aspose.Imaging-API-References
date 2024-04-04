@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/backgroundcolorindex/
 ---
 ## GifImage.BackgroundColorIndex property
 
-Gets or sets the background color index.
+Control the background color index of the GIF image using this property. Set or retrieve the index to maintain consistency or achieve desired visual effects.
 
 ```csharp
 public byte BackgroundColorIndex { get; set; }

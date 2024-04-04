@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/bitsperpixel/
 ---
 ## EpsImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Access the precise bit depth of the image effortlessly with this property. Retrieve the bits per pixel count, providing crucial insights into the image's color depth and aiding in optimizing processing tasks. Ideal for applications requiring fine-grained control over image manipulation and analysis.
 
 ```csharp
 public override int BitsPerPixel { get; }

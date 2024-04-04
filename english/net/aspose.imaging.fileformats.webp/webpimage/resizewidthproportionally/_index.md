@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/resizewidthproportionally/
 ---
 ## WebPImage.ResizeWidthProportionally method
 
-Resizes the width proportionally.
+Proportionally adjust the width of the image while maintaining its aspect ratio. Integrate this method into your image processing workflow to dynamically resize images with consistent proportions, ensuring optimal display or storage within your application.
 
 ```csharp
 public override void ResizeWidthProportionally(int newWidth, ResizeType resizeType)

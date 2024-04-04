@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/adjustcontrast/
 ---
 ## TiffImage.AdjustContrast method
 
-[`Image`](../../../aspose.imaging/image) contrasting
+Enhance the contrast of the [`Image`](../../../aspose.imaging/image) instance, amplifying the differences between its light and dark areas. Integrate this functionality to improve the visual clarity and overall quality of the image within your application.
 
 ```csharp
 public override void AdjustContrast(float contrast)

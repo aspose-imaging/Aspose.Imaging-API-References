@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/xmpdata/
 ---
 ## GifImage.XmpData property
 
-Gets or sets the XMP metadata.
+Manage XMP metadata with this property. Whether you're retrieving existing metadata or updating it with new information, this property streamlines the process. Keep your metadata organized and accessible, ensuring that your files contain the relevant information they need.
 
 ```csharp
 public override XmpPacketWrapper XmpData { get; set; }

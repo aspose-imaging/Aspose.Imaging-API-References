@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/horizontalresolution/
 ---
 ## TiffImage.HorizontalResolution property
 
-Gets the horizontal resolution, in pixels per inch, of this [`Image`](../../../aspose.imaging/image).
+Retrieve the horizontal resolution of the specified [`Image`](../../../aspose.imaging/image) in pixels per inch, facilitating precise adjustment and rendering capabilities. Access essential image metadata effortlessly, empowering streamlined image processing workflows for enhanced user experiences.
 
 ```csharp
 public override double HorizontalResolution { get; set; }

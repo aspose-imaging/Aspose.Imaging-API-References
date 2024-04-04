@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/resize/
 ---
 ## TgaImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image while applying specific settings to maintain the desired dimensions and aspect ratio. By customizing image settings, you can effectively resize the image while ensuring optimal visual quality and compatibility with different display devices or applications.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -31,7 +31,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 ## TgaImage.Resize method (2 of 2)
 
-Resizes the image.
+Adjusts the size of the image using a specified resize type, which determines how the resizing operation is performed. This method provides flexibility in resizing images according to different algorithms or techniques. By choosing the appropriate resize type, you can achieve the desired balance between image quality and computational efficiency based on specific requirements or preferences.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)

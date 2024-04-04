@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odgimage/rotateflip/
 ---
 ## OdgImage.RotateFlip method
 
-Rotates, flips, or rotates and flips the image.
+This versatile method apply various transformations to images, including rotation and flipping, to achieve desired orientations and visual effects. With intuitive parameters, you can specify the degree of rotation and the type of flipping (horizontal, vertical, or both) to precisely manipulate the image as needed.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

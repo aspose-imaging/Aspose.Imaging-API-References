@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/crop/
 ---
 ## DjvuImage.Crop method (1 of 2)
 
-Cropping the image.
+"Crop" trims your image to focus on specific details or remove unwanted elements, enhancing its composition and visual impact. Whether you're adjusting photos for social media, creating website banners, or designing print materials, this tool helps you refine your images with precision and clarity.
 
 ```csharp
 public override void Crop(Rectangle rectangle)
@@ -51,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 
 ## DjvuImage.Crop method (2 of 2)
 
-Crop image with shifts.
+Crop with shifts allows you to precisely adjust the position and dimensions of the cropped area within an image. This feature is invaluable for refining compositions, aligning elements, and emphasizing focal points in your visuals. By incorporating shifts into the cropping process, you can achieve pixel-perfect precision and fine-tune the framing of your images with ease.
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)

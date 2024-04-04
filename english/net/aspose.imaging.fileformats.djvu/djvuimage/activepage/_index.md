@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/activepage/
 ---
 ## DjvuImage.ActivePage property
 
-Gets or sets the currently active page
+Navigate through your DjVu document by accessing or setting the currently active page using this property. Seamlessly switch between pages to focus on specific content and enhance your document viewing experience.
 
 ```csharp
 public DjvuPage ActivePage { get; set; }

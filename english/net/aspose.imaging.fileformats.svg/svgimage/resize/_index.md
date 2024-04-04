@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/resize/
 ---
 ## SvgImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image to fit the specified dimensions while preserving its aspect ratio. This method provides a convenient way to adjust the size of the image without distorting its proportions, ensuring optimal display or storage according to the desired dimensions.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -31,7 +31,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 ## SvgImage.Resize method (2 of 2)
 
-Resizes the image.
+Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. This method offers flexibility in resizing operations, allowing for precise control over aspects such as interpolation methods, aspect ratio preservation, and output quality.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

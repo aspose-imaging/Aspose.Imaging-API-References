@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/hasalpha/
 ---
 ## DjvuImage.HasAlpha property
 
-Gets the Has alpha channel.
+Quickly determine whether your DjVu image file contains an alpha channel. Simplify your workflow by checking for the presence of transparency information in your images.
 
 ```csharp
 public override bool HasAlpha { get; }

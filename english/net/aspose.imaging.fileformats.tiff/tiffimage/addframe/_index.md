@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/addframe/
 ---
 ## TiffImage.AddFrame method
 
-Adds the frame to image
+Incorporate the specified frame seamlessly into the image, expanding its content and versatility. Utilize this method to enhance image composition and management, empowering efficient handling of multi-frame images within your application.
 
 ```csharp
 public void AddFrame(TiffFrame frame)

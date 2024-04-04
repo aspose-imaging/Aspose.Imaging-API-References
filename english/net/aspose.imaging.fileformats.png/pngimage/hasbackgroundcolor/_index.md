@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/hasbackgroundcolor/
 ---
 ## PngImage.HasBackgroundColor property
 
-Gets a value indicating whether has background color.
+Retrieves a boolean value indicating whether the image has a background color. This property is useful for applications needing to determine if an image includes a background color, which can be important for various processing tasks such as compositing, rendering, or exporting.
 
 ```csharp
 public override bool HasBackgroundColor { get; set; }

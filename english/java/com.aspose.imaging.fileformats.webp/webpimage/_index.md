@@ -20,48 +20,48 @@ Manipulate WebP raster images with our API, using its modern features for both l
 
 | Constructor | Description |
 | --- | --- |
-| [WebPImage(InputStream stream)](#WebPImage-java.io.InputStream-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from stream. |
-| [WebPImage(InputStream stream, LoadOptions loadOptions)](#WebPImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from stream. |
-| [WebPImage(String path)](#WebPImage-java.lang.String-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from file. |
-| [WebPImage(String path, LoadOptions loadOptions)](#WebPImage-java.lang.String-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from file. |
-| [WebPImage(RasterImage rasterImage)](#WebPImage-com.aspose.imaging.RasterImage-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from rasterImage. |
-| [WebPImage(RasterImage rasterImage, LoadOptions loadOptions)](#WebPImage-com.aspose.imaging.RasterImage-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from rasterImage. |
-| [WebPImage(int width, int height, WebPOptions options)](#WebPImage-int-int-com.aspose.imaging.imageoptions.WebPOptions-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with empty image. |
-| [WebPImage(int width, int height, WebPOptions options, LoadOptions loadOptions)](#WebPImage-int-int-com.aspose.imaging.imageoptions.WebPOptions-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with empty image. |
+| [WebPImage(InputStream stream)](#WebPImage-java.io.InputStream-) | Instantiate a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class, initialized from a provided stream source. |
+| [WebPImage(InputStream stream, LoadOptions loadOptions)](#WebPImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class using a stream and specified load options, facilitating versatile handling of WebP image data. |
+| [WebPImage(String path)](#WebPImage-java.lang.String-) | Instantiate a fresh instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class, initialized from a provided file source. |
+| [WebPImage(String path, LoadOptions loadOptions)](#WebPImage-java.lang.String-com.aspose.imaging.LoadOptions-) | Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class using a file and specified load options, facilitating flexible handling of WebP image data. |
+| [WebPImage(RasterImage rasterImage)](#WebPImage-com.aspose.imaging.RasterImage-) | Instantiate a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class, initialized from a provided rasterImage object. |
+| [WebPImage(RasterImage rasterImage, LoadOptions loadOptions)](#WebPImage-com.aspose.imaging.RasterImage-com.aspose.imaging.LoadOptions-) | Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class using a rasterImage object and specified load options, enabling flexible handling of image data. |
+| [WebPImage(int width, int height, WebPOptions options)](#WebPImage-int-int-com.aspose.imaging.imageoptions.WebPOptions-) | Instantiate a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with an empty image of specified width and height dimensions. |
+| [WebPImage(int width, int height, WebPOptions options, LoadOptions loadOptions)](#WebPImage-int-int-com.aspose.imaging.imageoptions.WebPOptions-com.aspose.imaging.LoadOptions-) | Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with an empty image and specified load options. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getOptions()](#getOptions--) | Gets the options. |
-| [getPages()](#getPages--) |  |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
-| [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds page to the image. |
-| [addBlock(IFrame block)](#addBlock-com.aspose.imaging.fileformats.webp.IFrame-) | Adds a new Webp block. |
-| [clearBlocks()](#clearBlocks--) | Clears all the Webp blocks. |
-| [insertBlock(int index, IFrame block)](#insertBlock-int-com.aspose.imaging.fileformats.webp.IFrame-) | Adds a new Webp block. |
-| [removeBlock(IFrame block)](#removeBlock-com.aspose.imaging.fileformats.webp.IFrame-) | Removes the Webp block. |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `!:RasterCachedMultipageImage.Rotate` image around the center. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Resizes the width proportionally. |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Resizes the width proportionally. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the Active frame only. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
-| [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a `brightness` for image. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | [Image](../../com.aspose.imaging/image) contrasting |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filters the specified rectangle. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
+| [getOptions()](#getOptions--) | Retrieve or modify the options associated with the specified property, enabling fine-tuned customization of behavior and settings. |
+| [getPages()](#getPages--) | Access the WebP blocks within the image, allowing detailed examination or manipulation of the underlying block structure. |
+| [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
+| [getFileFormat()](#getFileFormat--) | Access the file format value associated with the image, providing information about the format in which the image is stored. |
+| [hasAlpha()](#hasAlpha--) | Retrieve whether the image contains an alpha channel, indicating the presence of transparency information. |
+| [getPageExportingAction()](#getPageExportingAction--) | Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. |
+| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Append a new page to the image, expanding its content and accommodating additional visual elements. |
+| [addBlock(IFrame block)](#addBlock-com.aspose.imaging.fileformats.webp.IFrame-) | Incorporate a new WebP block into the image, enriching its content and facilitating advanced image manipulation. |
+| [clearBlocks()](#clearBlocks--) | Clear all existing WebP blocks from the image, facilitating a clean slate for subsequent modifications or additions. |
+| [insertBlock(int index, IFrame block)](#insertBlock-int-com.aspose.imaging.fileformats.webp.IFrame-) | Insert a new WebP block at the specified index within the image, enabling precise control over the block sequence. |
+| [removeBlock(IFrame block)](#removeBlock-com.aspose.imaging.fileformats.webp.IFrame-) | Remove the specified WebP block from the image, facilitating efficient management of image data structure. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate the image around its center by a specified angle, while proportionally resizing it and applying specified background color parameters. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image, adjusting its dimensions while preserving the aspect ratio. |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Proportionally adjust the width of the image while maintaining its aspect ratio. |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Adjust the height of the image proportionally, while preserving its aspect ratio for consistent resizing. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Apply rotation, flipping, or both operations exclusively to the active frame within the image. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Perform dithering on the current image to reduce color banding and enhance visual quality. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the image using a specified rectangle region, removing unwanted portions while retaining the desired content. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop the image by applying left, right, top, and bottom shifts, effectively selecting a region of interest within the image. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Perform binarization on the image using a predefined threshold value, converting it into a binary image where pixels are classified as foreground or background based on their intensity relative to the threshold. |
+| [binarizeOtsu()](#binarizeOtsu--) | Perform binarization on the image using Otsu's thresholding method, automatically determining the optimal threshold value based on the image's histogram. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Apply binarization to the image using Bradley's adaptive thresholding algorithm with integral image thresholding. |
+| [grayscale()](#grayscale--) | Apply binarization to the image using Bradley's adaptive thresholding algorithm with integral image thresholding. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | Apply gamma correction to the image, adjusting pixel intensities to achieve desired brightness and color balance. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Perform gamma correction on the image using individual coefficients for the red, green, and blue channels, allowing for fine-tuned adjustments of color balance and contrast. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Implement `brightness` adjustment for the image, allowing the modification of overall luminance levels. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | Enhance the contrast of the [Image](../../com.aspose.imaging/image), amplifying the differences between light and dark areas. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filter the content within the specified rectangle, applying a designated image processing filter to enhance or modify the selected region. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resize the image according to specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. |
 
 ## Example: This example shows how to load a WebP image from a file and save it to PNG.
 
@@ -85,7 +85,7 @@ public WebPImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from stream.
+Instantiate a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class, initialized from a provided stream source. Utilize this constructor to seamlessly create WebP image objects directly from streams, enabling efficient handling and manipulation of WebP image data within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -98,7 +98,7 @@ public WebPImage(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from stream.
+Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class using a stream and specified load options, facilitating versatile handling of WebP image data. Incorporate this constructor to seamlessly initialize WebP image objects from streams while customizing loading parameters as needed within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -112,7 +112,7 @@ public WebPImage(String path)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from file.
+Instantiate a fresh instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class, initialized from a provided file source. Utilize this constructor to seamlessly create WebP image objects directly from files, streamlining the process of loading and manipulating WebP image data within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -125,7 +125,7 @@ public WebPImage(String path, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from file.
+Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class using a file and specified load options, facilitating flexible handling of WebP image data. Utilize this constructor to seamlessly initialize WebP image objects from files while customizing loading parameters according to your application's requirements.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -139,7 +139,7 @@ public WebPImage(RasterImage rasterImage)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from rasterImage.
+Instantiate a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class, initialized from a provided rasterImage object. This constructor allows for seamless conversion of raster images to WebP format, enabling efficient handling and manipulation of image data within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -152,7 +152,7 @@ public WebPImage(RasterImage rasterImage, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class from rasterImage.
+Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class using a rasterImage object and specified load options, enabling flexible handling of image data. Utilize this constructor to seamlessly initialize WebP image objects from raster images while customizing loading parameters according to your application's requirements.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -166,7 +166,7 @@ public WebPImage(int width, int height, WebPOptions options)
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with empty image.
+Instantiate a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with an empty image of specified width and height dimensions. This constructor allows for the creation of blank WebP images, providing a foundation for subsequent image manipulation and content generation within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +181,7 @@ public WebPImage(int width, int height, WebPOptions options, LoadOptions loadOpt
 ```
 
 
-Initializes a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with empty image.
+Create a new instance of the [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage) class with an empty image and specified load options. This constructor allows for the initialization of WebP images with customizable loading parameters, providing flexibility in image creation and manipulation within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -197,9 +197,7 @@ public WebPOptions getOptions()
 ```
 
 
-Gets the options.
-
-Value: The options.
+Retrieve or modify the options associated with the specified property, enabling fine-tuned customization of behavior and settings. Utilize this property to seamlessly access and manipulate configurable parameters, facilitating versatile control and optimization within your application's functionality.
 
 **Returns:**
 [WebPOptions](../../com.aspose.imaging.imageoptions/webpoptions) - the options.
@@ -209,11 +207,7 @@ public Image[] getPages()
 ```
 
 
-Gets the blocks.
-
-Gets the Webp blocks.
-
-Value: The blocks.
+Access the WebP blocks within the image, allowing detailed examination or manipulation of the underlying block structure. Utilize this property to analyze or modify individual blocks within the WebP image data, facilitating advanced image processing techniques within your application.
 
 **Returns:**
 com.aspose.imaging.Image[]
@@ -223,9 +217,7 @@ public int getPageCount()
 ```
 
 
-Gets the page count.
-
-Value: The page count.
+Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
 
 **Returns:**
 int - the page count.
@@ -235,7 +227,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Access the file format value associated with the image, providing information about the format in which the image is stored. Utilize this property to determine the file format of the image, facilitating compatibility checks and format-specific processing within your application.
 
 **Returns:**
 long - a value of file format
@@ -245,12 +237,10 @@ public boolean hasAlpha()
 ```
 
 
-Gets the Has alpha channel.
-
-Value: The Has alpha channel.
+Retrieve whether the image contains an alpha channel, indicating the presence of transparency information. Utilize this property to determine whether the image includes transparency, enabling appropriate handling and processing of alpha-related operations within your application.
 
 **Returns:**
-boolean - the Has alpha channel.
+boolean - `true` if there is an alpha channel.
 
 **Example: The following example loads a WEBP image and prints information about raw data format and alpha channel.**
 
@@ -286,9 +276,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-Gets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. Please note that setting this property will automatically release page resources after execution. Utilize this feature to perform custom actions or cleanup tasks before exporting each page, ensuring optimal resource management and desired behavior during image saving operations within your application.
 
 **Returns:**
 [PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
@@ -298,9 +286,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-Sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
+Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. Please note that setting this property will automatically release page resources after execution. Utilize this feature to perform custom actions or cleanup tasks before exporting each page, ensuring optimal resource management and desired behavior during image saving operations within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -313,7 +299,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Adds page to the image.
+Append a new page to the image, expanding its content and accommodating additional visual elements. Integrate this method to facilitate dynamic page management within your application, enabling seamless creation and augmentation of multi-page documents or images.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -326,7 +312,7 @@ public void addBlock(IFrame block)
 ```
 
 
-Adds a new Webp block.
+Incorporate a new WebP block into the image, enriching its content and facilitating advanced image manipulation. Integrate this method to dynamically enhance the structure and complexity of the WebP image data within your application, enabling precise control and optimization of image rendering.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -389,7 +375,7 @@ public void clearBlocks()
 ```
 
 
-Clears all the Webp blocks.
+Clear all existing WebP blocks from the image, facilitating a clean slate for subsequent modifications or additions. Utilize this method to effectively reset the block structure within the WebP image data, ensuring optimal management and organization of image content within your application.
 
 ### insertBlock(int index, IFrame block) {#insertBlock-int-com.aspose.imaging.fileformats.webp.IFrame-}
 ```
@@ -397,7 +383,7 @@ public void insertBlock(int index, IFrame block)
 ```
 
 
-Adds a new Webp block.
+Insert a new WebP block at the specified index within the image, enabling precise control over the block sequence. Integrate this method to seamlessly incorporate additional WebP blocks into the image data structure, facilitating advanced image processing and optimization within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +397,7 @@ public void removeBlock(IFrame block)
 ```
 
 
-Removes the Webp block.
+Remove the specified WebP block from the image, facilitating efficient management of image data structure. Utilize this method to streamline image processing workflows by eliminating unnecessary blocks or components within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -428,7 +414,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-`!:RasterCachedMultipageImage.Rotate` image around the center.
+Rotate the image around its center by a specified angle, while proportionally resizing it and applying specified background color parameters. Incorporate this method into your image processing workflow to achieve precise transformations with customizable background colors, ensuring optimal visual presentation within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +429,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Resize the image, adjusting its dimensions while preserving the aspect ratio. Integrate this method into your image processing workflow to dynamically scale images to fit various display or storage requirements within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -509,7 +495,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+Proportionally adjust the width of the image while maintaining its aspect ratio. Integrate this method into your image processing workflow to dynamically resize images with consistent proportions, ensuring optimal display or storage within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -523,7 +509,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+Adjust the height of the image proportionally, while preserving its aspect ratio for consistent resizing. Integrate this method into your image processing workflow to dynamically resize images with uniform proportions, ensuring optimal display or storage within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +523,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the Active frame only.
+Apply rotation, flipping, or both operations exclusively to the active frame within the image. Integrate this method into your image processing workflow to achieve precise manipulation of individual frames, enhancing flexibility and control over frame transformations within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +536,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-Performs dithering on the current image.
+Perform dithering on the current image to reduce color banding and enhance visual quality. Integrate this method into your image processing workflow to achieve smoother transitions between colors and improve the overall appearance of the image within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -565,7 +551,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-Cropping the image.
+Crop the image using a specified rectangle region, removing unwanted portions while retaining the desired content. Integrate this method into your image processing workflow to precisely extract and focus on specific areas of interest within the image, enhancing clarity and composition for various applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -578,7 +564,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-Crop image with shifts.
+Crop the image by applying left, right, top, and bottom shifts, effectively selecting a region of interest within the image. Utilize this method to dynamically extract desired portions of the image while adjusting its composition and focus according to your application's requirements.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -594,12 +580,12 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-Binarization of an image with predefined threshold
+Perform binarization on the image using a predefined threshold value, converting it into a binary image where pixels are classified as foreground or background based on their intensity relative to the threshold. Integrate this method into your image processing workflow to facilitate segmentation and feature extraction tasks, enhancing the accuracy and efficiency of subsequent analysis within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
+| threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of (byte)255 will be assigned to it, 0 otherwise. |
 
 ### binarizeOtsu() {#binarizeOtsu--}
 ```
@@ -607,7 +593,7 @@ public void binarizeOtsu()
 ```
 
 
-Binarization of an image with Otsu thresholding
+Perform binarization on the image using Otsu's thresholding method, automatically determining the optimal threshold value based on the image's histogram. Integrate this method into your image processing workflow to achieve effective segmentation and feature extraction, enhancing the accuracy and reliability of image analysis tasks within your application.
 
 ### binarizeBradley(double brightnessDifference, int windowSize) {#binarizeBradley-double-int-}
 ```
@@ -615,7 +601,7 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Apply binarization to the image using Bradley's adaptive thresholding algorithm with integral image thresholding. This method dynamically computes local thresholds based on the image's neighborhood, enhancing adaptability to varying lighting conditions and ensuring robust segmentation for subsequent processing tasks within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -629,7 +615,7 @@ public void grayscale()
 ```
 
 
-Transformation of an image to its grayscale representation
+Apply binarization to the image using Bradley's adaptive thresholding algorithm with integral image thresholding. This method dynamically computes local thresholds based on the image's neighborhood, enhancing adaptability to varying lighting conditions and ensuring robust segmentation for subsequent processing tasks within your application.
 
 ### adjustGamma(float gamma) {#adjustGamma-float-}
 ```
@@ -637,7 +623,7 @@ public void adjustGamma(float gamma)
 ```
 
 
-Gamma-correction of an image.
+Apply gamma correction to the image, adjusting pixel intensities to achieve desired brightness and color balance. Incorporate this method into your image processing workflow to enhance visual quality and improve the accuracy of subsequent analysis or display tasks within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -650,7 +636,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-Gamma-correction of an image.
+Perform gamma correction on the image using individual coefficients for the red, green, and blue channels, allowing for fine-tuned adjustments of color balance and contrast. Integrate this method into your image processing pipeline to achieve precise control over color rendering and enhance visual fidelity within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -665,7 +651,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-Adjust of a `brightness` for image.
+Implement `brightness` adjustment for the image, allowing the modification of overall luminance levels. Incorporate this method into your image processing workflow to enhance visibility and improve the visual quality of images within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -678,7 +664,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-[Image](../../com.aspose.imaging/image) contrasting
+Enhance the contrast of the [Image](../../com.aspose.imaging/image), amplifying the differences between light and dark areas. Integrate this method into your image processing workflow to improve visual clarity and overall image quality within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,7 +677,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-Filters the specified rectangle.
+Filter the content within the specified rectangle, applying a designated image processing filter to enhance or modify the selected region. Integrate this method into your image manipulation workflow to achieve targeted enhancements or transformations within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -778,7 +764,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Resize the image according to specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application.
 
 **Parameters:**
 | Parameter | Type | Description |

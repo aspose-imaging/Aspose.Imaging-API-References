@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dng/dngimage/bitsperpixel/
 ---
 ## DngImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Discover the number of bits per pixel in the image effortlessly with this property. Ideal for understanding the image's pixel depth quickly and accurately.
 
 ```csharp
 public override int BitsPerPixel { get; }

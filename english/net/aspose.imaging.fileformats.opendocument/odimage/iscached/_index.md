@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odimage/iscached/
 ---
 ## OdImage.IsCached property
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+Obtains a boolean value indicating whether the data of the object is currently cached, thus eliminating the need for data reading. This property serves as an optimization indicator, enhancing performance by minimizing redundant data access operation.
 
 ```csharp
 public override bool IsCached { get; }

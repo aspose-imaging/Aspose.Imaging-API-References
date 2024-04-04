@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/setpalette/
 ---
 ## WmfImage.SetPalette method
 
-Sets the image palette.
+Apply a specified palette to the image, enabling customization of color representation. Utilize this method to enhance visual rendering and achieve specific color effects within your application.
 
 ```csharp
 public override void SetPalette(IColorPalette palette, bool updateColors)

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/authorname/
 ---
 ## TgaImage.AuthorName property
 
-Gets or sets Author Name. This field is a total of 40 ASCII characters for the name. If the field is used, it should contain the name of the person who created the image (author).
+Retrieves or sets the name of the author associated with the image. This property allows developers to access or modify the author's name metadata, providing valuable information about the creator of the image. By utilizing the Author Name property, users can easily identify the individual responsible for creating or contributing to the image, enhancing its overall metadata and providing valuable context for viewers. This field is a total of 40 ASCII characters for the name. If the field is used, it should contain the name of the person who created the image (author).
 
 ```csharp
 public string AuthorName { get; set; }

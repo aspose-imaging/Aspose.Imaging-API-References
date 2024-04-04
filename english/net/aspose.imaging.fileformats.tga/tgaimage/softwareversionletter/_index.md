@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/softwareversionletter/
 ---
 ## TgaImage.SoftwareVersionLetter property
 
-Gets or sets Software Version letter part.
+Retrieves or sets the letter component of the software version associated with the image. This property represents an additional detail within the software version string and can be useful for finer version differentiation.
 
 ```csharp
 public char SoftwareVersionLetter { get; set; }

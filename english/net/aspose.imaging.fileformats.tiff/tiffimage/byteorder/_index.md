@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/byteorder/
 ---
 ## TiffImage.ByteOrder property
 
-Gets or sets a value indicating the tiff byte order.
+Toggle the byte order for TIFF files seamlessly, ensuring precise control over data interpretation. Empower your applications with the flexibility to adapt to diverse file specifications, enhancing compatibility and efficiency in data processing.
 
 ```csharp
 public TiffByteOrder ByteOrder { get; set; }

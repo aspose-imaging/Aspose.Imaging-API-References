@@ -18,55 +18,55 @@ public class PngImage : RasterCachedImage
 
 | Name | Description |
 | --- | --- |
-| [PngImage](pngimage)(RasterImage) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(Stream) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(string) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(int, int) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(RasterImage, PngColorType) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(string, PngColorType) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(int, int, PngColorType) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
-| [PngImage](pngimage)(PngOptions, int, int) | Initializes a new instance of the [`PngImage`](../pngimage) class. |
+| [PngImage](pngimage)(RasterImage) | Creates a new instance of the [`PngImage`](../pngimage) class by providing a raster image as a parameter. This constructor allows developers to directly initialize a PNG image object using an existing raster image, streamlining the process of working with PNG images in their applications. |
+| [PngImage](pngimage)(Stream) | Creates a new instance of the [`PngImage`](../pngimage) class by initializing it with a stream. This constructor allows developers to load PNG images directly from a stream, providing flexibility in image retrieval from different sources. |
+| [PngImage](pngimage)(string) | Constructs a new instance of the [`PngImage`](../pngimage) class using the path parameter to specify the location of the image file to load. This constructor enables developers to conveniently create PNG images by loading them from a file, simplifying the process of working with PNG images in their applications. |
+| [PngImage](pngimage)(int, int) | Initialize a new object of the [`PngImage`](../pngimage) class by providing the width and height parameters. This constructor simplifies the creation of PNG images by allowing developers to specify the dimensions directly, facilitating efficient management of PNG image data within their applications. |
+| [PngImage](pngimage)(RasterImage, PngColorType) | Creates a new instance of the [`PngImage`](../pngimage) class by specifying a raster image and a color type. This constructor enables developers to directly convert raster images into PNG format while specifying the desired color type, offering flexibility in color representation. |
+| [PngImage](pngimage)(string, PngColorType) | Initializes a new instance of the [`PngImage`](../pngimage) class by specifying the path to the image file and the color type. This constructor allows for convenient creation of PNG images from files with different color types, providing flexibility in handling various image formats. |
+| [PngImage](pngimage)(int, int, PngColorType) | Instantiate a fresh instance of the [`PngImage`](../pngimage) class, specifying the desired width, height, and color type parameters. This constructor enables swift creation of PNG images with tailored dimensions and color configurations, facilitating streamlined image generation for various applications and workflows. |
+| [PngImage](pngimage)(PngOptions, int, int) | Initialize a new instance of the [`PngImage`](../pngimage) class, incorporating PNG options alongside width and height parameters. This constructor empowers developers to create PNG images with customizable settings and dimensions, offering flexibility in image generation for diverse use cases. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
-| override [BackgroundColor](../../aspose.imaging.fileformats.png/pngimage/backgroundcolor) { get; set; } | Gets the background color. |
-| override [BitsPerPixel](../../aspose.imaging.fileformats.png/pngimage/bitsperpixel) { get; } | Gets the bits per pixel. |
+| override [BackgroundColor](../../aspose.imaging.fileformats.png/pngimage/backgroundcolor) { get; set; } | Retrieves the background color of the image, if one is specified. This property is helpful for applications that need to identify and potentially manipulate the background color of an image. |
+| override [BitsPerPixel](../../aspose.imaging.fileformats.png/pngimage/bitsperpixel) { get; } | Retrieve the bits per pixel value for the image. This property provides crucial information regarding the color depth of the image, enabling developers to understand the level of detail and color accuracy present in the image data. |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Gets the image bounds. |
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| override [FileFormat](../../aspose.imaging.fileformats.png/pngimage/fileformat) { get; } | Gets a value of file format |
-| override [HasAlpha](../../aspose.imaging.fileformats.png/pngimage/hasalpha) { get; } | Get a value indicating whether this instance has alpha. |
-| override [HasBackgroundColor](../../aspose.imaging.fileformats.png/pngimage/hasbackgroundcolor) { get; set; } | Gets a value indicating whether has background color. |
-| override [HasTransparentColor](../../aspose.imaging.fileformats.png/pngimage/hastransparentcolor) { get; set; } | Gets a value indicating whether image has transparent color. |
-| override [Height](../../aspose.imaging.fileformats.png/pngimage/height) { get; } | Gets the height. |
-| override [HorizontalResolution](../../aspose.imaging.fileformats.png/pngimage/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution. |
+| override [FileFormat](../../aspose.imaging.fileformats.png/pngimage/fileformat) { get; } | Retrieves the format of the file associated with the image instance. This property provides essential information regarding the file type, enabling efficient handling and processing based on the specific format requirements. |
+| override [HasAlpha](../../aspose.imaging.fileformats.png/pngimage/hasalpha) { get; } | Returns a boolean value indicating whether the image has an alpha channel, which determines its transparency. This property is useful for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent areas in the image. |
+| override [HasBackgroundColor](../../aspose.imaging.fileformats.png/pngimage/hasbackgroundcolor) { get; set; } | Retrieves a boolean value indicating whether the image has a background color. This property is useful for applications needing to determine if an image includes a background color, which can be important for various processing tasks such as compositing, rendering, or exporting. |
+| override [HasTransparentColor](../../aspose.imaging.fileformats.png/pngimage/hastransparentcolor) { get; set; } | Provides a boolean value indicating whether the image contains a transparent color. This property is crucial for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent regions in the image. |
+| override [Height](../../aspose.imaging.fileformats.png/pngimage/height) { get; } | Obtain the height of the image. This property returns the vertical dimension of the image, allowing developers to determine its size in pixels along the vertical axis. |
+| override [HorizontalResolution](../../aspose.imaging.fileformats.png/pngimage/horizontalresolution) { get; set; } | Retrieve or modify the horizontal resolution of the image. This property represents the number of pixels per inch along the horizontal axis of the image. Adjusting this resolution can affect the physical size of the image when printed or displayed. |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity) { get; } | Gets opacity of this image. |
-| [Interlaced](../../aspose.imaging.fileformats.png/pngimage/interlaced) { get; } | Gets a value indicating whether this [`PngImage`](../pngimage) is interlaced. |
+| [Interlaced](../../aspose.imaging.fileformats.png/pngimage/interlaced) { get; } | Retrieves a boolean value indicating whether the [`PngImage`](../pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached) { get; } | Gets a value indicating whether image data is cached currently. |
-| [IsInterlaced](../../aspose.imaging.fileformats.png/pngimage/isinterlaced) { get; } | Gets a value indicating whether this image instance is interlaced. |
+| [IsInterlaced](../../aspose.imaging.fileformats.png/pngimage/isinterlaced) { get; } | Returns a boolean value indicating if the image instance is interlaced. This property is crucial for optimizing loading strategies and ensuring efficient performance during image processing or display tasks. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable) { get; } | Gets a value indicating whether raw data loading is available. |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter) { get; set; } | Gets or sets the custom color converter |
-| override [RawDataFormat](../../aspose.imaging.fileformats.png/pngimage/rawdataformat) { get; } | Gets the raw data format. |
+| override [RawDataFormat](../../aspose.imaging.fileformats.png/pngimage/rawdataformat) { get; } | Accesses the raw data format of the image. This property provides insight into how the image data is structured internally, which can be useful for advanced image processing tasks or format conversion. |
 | [RawDataSettings](../../aspose.imaging/rasterimage/rawdatasettings) { get; } | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 | [RawFallbackIndex](../../aspose.imaging/rasterimage/rawfallbackindex) { get; set; } | Gets or sets the fallback index to use when palette index is out of bounds |
 | [RawIndexedColorConverter](../../aspose.imaging/rasterimage/rawindexedcolorconverter) { get; set; } | Gets or sets the indexed color converter |
 | virtual [RawLineSize](../../aspose.imaging/rasterimage/rawlinesize) { get; } | Gets the raw line size in bytes. |
 | [Size](../../aspose.imaging/image/size) { get; } | Gets the image size. |
-| override [TransparentColor](../../aspose.imaging.fileformats.png/pngimage/transparentcolor) { get; set; } | Gets the transparent color. |
+| override [TransparentColor](../../aspose.imaging.fileformats.png/pngimage/transparentcolor) { get; set; } | Retrieves the transparent color of the image, if it exists. This property is valuable for applications requiring precise handling of transparent areas within images, allowing developers to access and manipulate the specific transparent color used. |
 | virtual [UpdateXmpData](../../aspose.imaging/rasterimage/updatexmpdata) { get; set; } | Gets or sets a value indicating whether to update the XMP metadata. |
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
-| override [VerticalResolution](../../aspose.imaging.fileformats.png/pngimage/verticalresolution) { get; set; } | Gets or sets the vertical resolution. |
-| override [Width](../../aspose.imaging.fileformats.png/pngimage/width) { get; } | Gets the width. |
-| override [XmpData](../../aspose.imaging.fileformats.png/pngimage/xmpdata) { get; set; } | Gets or sets the XMP metadata. |
+| override [VerticalResolution](../../aspose.imaging.fileformats.png/pngimage/verticalresolution) { get; set; } | Provides access to the vertical resolution of the image. Developers can use this property to retrieve or modify the resolution setting, which indicates the number of pixels per inch (PPI) along the vertical axis of the image. |
+| override [Width](../../aspose.imaging.fileformats.png/pngimage/width) { get; } | Allows retrieval of the width of the image, providing essential information about its dimensions. This property is frequently used by developers to determine the image's width, enabling them to perform various operations based on its size |
+| override [XmpData](../../aspose.imaging.fileformats.png/pngimage/xmpdata) { get; set; } | Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information. |
 
 ## Methods
 
@@ -96,9 +96,10 @@ public class PngImage : RasterCachedImage
 | [GetDefaultPixels](../../aspose.imaging/rasterimage/getdefaultpixels)(Rectangle, IPartialArgb32PixelLoader) | Gets the default pixels array using partial pixel loader. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, RawDataSettings) | Gets the default raw data array. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, IPartialRawDataLoader, RawDataSettings) | Gets the default raw data array using partial pixel loader. |
-| override [GetModifyDate](../../aspose.imaging.fileformats.png/pngimage/getmodifydate)(bool) | Gets the date and time the resource image was last modified. |
+| override [GetModifyDate](../../aspose.imaging.fileformats.png/pngimage/getmodifydate)(bool) | Retrieves the timestamp indicating the most recent modification of the resource image. This method provides access to vital metadata, enabling applications to ascertain when the image was last altered, facilitating version tracking and content management. |
 | override [GetOriginalOptions](../../aspose.imaging.fileformats.png/pngimage/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
 | [GetPixel](../../aspose.imaging/rasterimage/getpixel)(int, int) | Gets an image pixel. |
+| virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging/rastercachedimage/grayscale)() | Transformation of an image to its grayscale representation |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels)(Rectangle) | Loads 32-bit ARGB pixels. |

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/transparentcolor/
 ---
 ## PngImage.TransparentColor property
 
-Gets the transparent color.
+Retrieves the transparent color of the image, if it exists. This property is valuable for applications requiring precise handling of transparent areas within images, allowing developers to access and manipulate the specific transparent color used.
 
 ```csharp
 public override Color TransparentColor { get; set; }

@@ -20,58 +20,58 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 
 | Constructor | Description |
 | --- | --- |
-| [TiffImage(TiffFrame frame)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Initializes a new instance of the `TiffImage` class. |
-| [TiffImage(TiffFrame[] frames)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame---) | Initializes a new instance of the `TiffImage` class. |
+| [TiffImage(TiffFrame frame)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Initialize a new object of the [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) class, specifying the frame parameter. |
+| [TiffImage(TiffFrame[] frames)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame---) | Create a new instance of the [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) class, providing a list of frames as a parameter. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getPremultiplyComponents()](#getPremultiplyComponents--) | Gets or sets a value indicating whether components must be premultiplied. |
-| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | Gets or sets a value indicating whether components must be premultiplied. |
-| [getByteOrder()](#getByteOrder--) | Gets or sets a value indicating the tiff byte order. |
-| [setByteOrder(int value)](#setByteOrder-int-) | Gets or sets a value indicating the tiff byte order. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution, in pixels per inch, of this `Image`. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Gets the horizontal resolution, in pixels per inch, of this `Image`. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution, in pixels per inch, of this `Image`. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets the vertical resolution, in pixels per inch, of this `Image`. |
-| [getActiveFrame()](#getActiveFrame--) | Gets or sets the active frame. |
-| [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Gets or sets the active frame. |
-| [getFrames()](#getFrames--) | Gets the [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) array. |
-| [getExifData()](#getExifData--) | Gets EXIF data for the active frame. |
-| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets EXIF data for the active frame. |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
-| [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds page to the image. |
-| [alignResolutions()](#alignResolutions--) | Helper method to make horizontal and vertical resolutions equal. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this [RasterImage](../../com.aspose.imaging/rasterimage). |
-| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | Normalizes the angle. |
-| [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Adds the frame to image |
-| [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | Adds the specified image's frames to current frame. |
-| [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | Adds the frames array to image |
-| [insertFrame(int index, TiffFrame frameToInsert)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | The insert frame. |
-| [replaceFrame(int index, TiffFrame frameToReplace)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Replaces the frame at the specified position. |
-| [removeFrame(int index)](#removeFrame-int-) | Removes the frame by its index. |
-| [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Removes the specified frame. |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Performs proportional resize on the image. |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Resizes the width proportionally. |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Resizes the width proportionally. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the Active frame only. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
-| [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a `brightness` for image. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | [Image](../../com.aspose.imaging/image) contrasting |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filters the specified rectangle. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
+| [getFileFormat()](#getFileFormat--) | Retrieve the file format value associated with the image. |
+| [getPremultiplyComponents()](#getPremultiplyComponents--) | Indicate if components necessitate premultiplication, ensuring efficient handling of visual elements. |
+| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | Indicate if components necessitate premultiplication, ensuring efficient handling of visual elements. |
+| [getByteOrder()](#getByteOrder--) | Toggle the byte order for TIFF files seamlessly, ensuring precise control over data interpretation. |
+| [setByteOrder(int value)](#setByteOrder-int-) | Toggle the byte order for TIFF files seamlessly, ensuring precise control over data interpretation. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | Retrieve the horizontal resolution of the specified [Image](../../com.aspose.imaging/image) in pixels per inch, facilitating precise adjustment and rendering capabilities. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Modifies the horizontal resolution of the specified [Image](../../com.aspose.imaging/image) in pixels per inch, facilitating precise adjustment and rendering capabilities. |
+| [getVerticalResolution()](#getVerticalResolution--) | Access the vertical resolution of the designated [Image](../../com.aspose.imaging/image) in pixels per inch, enabling precise adjustments and rendering optimizations. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | Access the vertical resolution of the designated [Image](../../com.aspose.imaging/image) in pixels per inch, enabling precise adjustments and rendering optimizations. |
+| [getActiveFrame()](#getActiveFrame--) | Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. |
+| [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. |
+| [getFrames()](#getFrames--) | Retrieve an array of [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) instances, enabling comprehensive access and manipulation of individual frames within the TIFF image. |
+| [getExifData()](#getExifData--) | Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. |
+| [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
+| [getPages()](#getPages--) | Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. |
+| [hasAlpha()](#hasAlpha--) | Determine whether the image has an alpha channel, providing crucial information for rendering and compositing operations. |
+| [getOriginalOptions()](#getOriginalOptions--) | Retrieve options derived from the original file settings, facilitating seamless preservation of key parameters such as bit-depth and other essential attributes of the original image. |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Incorporate a new page into the existing image seamlessly, expanding its content and versatility. |
+| [alignResolutions()](#alignResolutions--) | Implement the AlignResolutions helper method to synchronize horizontal and vertical resolutions, ensuring uniformity in image dimensions. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), enabling precise control over image rendering and display properties. |
+| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | Utilize the NormalizeAngle method specifically designed for scanned text documents to rectify skewed scans, ensuring accurate alignment. |
+| [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Incorporate the specified frame seamlessly into the image, expanding its content and versatility. |
+| [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | Add the frames from the specified image seamlessly into the current frame, consolidating their content and enhancing compositional flexibility. |
+| [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | Integrate the array of frames seamlessly into the image, enriching its content and versatility. |
+| [insertFrame(int index, TiffFrame frameToInsert)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. |
+| [replaceFrame(int index, TiffFrame frameToReplace)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. |
+| [removeFrame(int index)](#removeFrame-int-) | Effortlessly eliminate the frame identified by its index from the image sequence, streamlining frame management within your application. |
+| [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Efficiently remove the specified frame from the image sequence, facilitating streamlined frame management within your application. |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Conduct a proportional resize operation on the image, preserving its aspect ratio while adjusting its dimensions. |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Adjust the width of the image while maintaining its aspect ratio, ensuring proportional resizing for optimal visual presentation. |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Conduct a proportional adjustment of the image's height, preserving its aspect ratio for consistent visual integrity. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Perform rotation, flipping, or a combination of both operations exclusively on the active frame. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Execute dithering on the current image to enhance its visual quality and reduce color banding artifacts. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the image using a specified rectangular region, allowing precise selection of desired content. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Perform cropping on the image by specifying shifts in the left, right, top, and bottom directions. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Apply binarization to the image using a predefined threshold, converting it into a binary image with distinct foreground and background regions. |
+| [binarizeOtsu()](#binarizeOtsu--) | Utilize Otsu thresholding to perform binarization on the image, automatically determining the optimal threshold value based on the image's histogram. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Implement binarization on the image employing Bradley's adaptive thresholding algorithm with integral image thresholding. |
+| [grayscale()](#grayscale--) | Convert the image to its grayscale representation, transforming it into a single-channel image where each pixel represents intensity. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | Apply gamma correction to the image, adjusting pixel intensities to achieve desired color balance. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Perform gamma correction on the image using individual coefficients for red, green, and blue channels, allowing for fine-tuned adjustments of color balance and contrast. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Implement `brightness` adjustment for the image, allowing the modification of overall luminance levels. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | Enhance the contrast of the [Image](../../com.aspose.imaging/image) instance, amplifying the differences between its light and dark areas. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filter the content within the specified rectangle, applying a designated image processing filter to enhance or modify the selected region. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjust the size of the image based on specified settings, allowing for precise control over dimensions, aspect ratio, and scaling behavior. |
 
 ## Example: Create Graphics Path from Path Resources in TIFF image.
 
@@ -141,7 +141,7 @@ public TiffImage(TiffFrame frame)
 ```
 
 
-Initializes a new instance of the `TiffImage` class.
+Initialize a new object of the [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) class, specifying the frame parameter. This constructor facilitates the creation of a TiffImage instance, allowing developers to specify the frame to be loaded or processed, streamlining Tiff image handling tasks within their applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ public TiffImage(TiffFrame[] frames)
 ```
 
 
-Initializes a new instance of the `TiffImage` class.
+Create a new instance of the [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) class, providing a list of frames as a parameter. This constructor enables the initialization of a TiffImage object with multiple frames, facilitating efficient handling and processing of TIFF image sequences within software applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Retrieve the file format value associated with the image. This property serves as a critical aspect of image metadata retrieval, allowing software applications to identify and interpret the format of the image data efficiently.
 
 **Returns:**
 long - a value of file format
@@ -177,7 +177,7 @@ public boolean getPremultiplyComponents()
 ```
 
 
-Gets or sets a value indicating whether components must be premultiplied.
+Indicate if components necessitate premultiplication, ensuring efficient handling of visual elements. Enhance rendering processes by toggling this property, streamlining graphic workflows for optimized performance.
 
 **Returns:**
 boolean - `true` if components must be premultiplied; otherwise, `false`.
@@ -187,7 +187,7 @@ public void setPremultiplyComponents(boolean value)
 ```
 
 
-Gets or sets a value indicating whether components must be premultiplied.
+Indicate if components necessitate premultiplication, ensuring efficient handling of visual elements. Enhance rendering processes by toggling this property, streamlining graphic workflows for optimized performance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public final int getByteOrder()
 ```
 
 
-Gets or sets a value indicating the tiff byte order.
+Toggle the byte order for TIFF files seamlessly, ensuring precise control over data interpretation. Empower your applications with the flexibility to adapt to diverse file specifications, enhancing compatibility and efficiency in data processing.
 
 **Returns:**
 int - The tiff byte order.
@@ -269,7 +269,7 @@ public final void setByteOrder(int value)
 ```
 
 
-Gets or sets a value indicating the tiff byte order.
+Toggle the byte order for TIFF files seamlessly, ensuring precise control over data interpretation. Empower your applications with the flexibility to adapt to diverse file specifications, enhancing compatibility and efficiency in data processing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public double getHorizontalResolution()
 ```
 
 
-Gets the horizontal resolution, in pixels per inch, of this `Image`.
+Retrieve the horizontal resolution of the specified [Image](../../com.aspose.imaging/image) in pixels per inch, facilitating precise adjustment and rendering capabilities. Access essential image metadata effortlessly, empowering streamlined image processing workflows for enhanced user experiences.
 
 **Returns:**
 double - The horizontal resolution.
@@ -327,7 +327,7 @@ public void setHorizontalResolution(double value)
 ```
 
 
-Gets the horizontal resolution, in pixels per inch, of this `Image`.
+Modifies the horizontal resolution of the specified [Image](../../com.aspose.imaging/image) in pixels per inch, facilitating precise adjustment and rendering capabilities. Access essential image metadata effortlessly, empowering streamlined image processing workflows for enhanced user experiences.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public double getVerticalResolution()
 ```
 
 
-Gets the vertical resolution, in pixels per inch, of this `Image`.
+Access the vertical resolution of the designated [Image](../../com.aspose.imaging/image) in pixels per inch, enabling precise adjustments and rendering optimizations. Utilize essential image data effortlessly to streamline image processing workflows, ensuring superior quality and performance in your applications.
 
 **Returns:**
 double - The vertical resolution.
@@ -387,7 +387,7 @@ public void setVerticalResolution(double value)
 ```
 
 
-Gets the vertical resolution, in pixels per inch, of this `Image`.
+Access the vertical resolution of the designated [Image](../../com.aspose.imaging/image) in pixels per inch, enabling precise adjustments and rendering optimizations. Utilize essential image data effortlessly to streamline image processing workflows, ensuring superior quality and performance in your applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -402,7 +402,7 @@ public final TiffFrame getActiveFrame()
 ```
 
 
-Gets or sets the active frame.
+Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. Empower your application to interact efficiently with multimedia content, enhancing user engagement and productivity.
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - Active frame.
@@ -460,7 +460,7 @@ public final void setActiveFrame(TiffFrame value)
 ```
 
 
-Gets or sets the active frame.
+Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. Empower your application to interact efficiently with multimedia content, enhancing user engagement and productivity.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -521,7 +521,7 @@ public final TiffFrame[] getFrames()
 ```
 
 
-Gets the [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) array.
+Retrieve an array of [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) instances, enabling comprehensive access and manipulation of individual frames within the TIFF image. Harness the power of this array to streamline image processing workflows, ensuring precise control and optimization of visual content.
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffFrame[] - the [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) array.
@@ -579,7 +579,7 @@ public final ExifData getExifData()
 ```
 
 
-Gets EXIF data for the active frame.
+Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. Enhance your application's capabilities by integrating this feature, ensuring accurate preservation and customization of essential image information.
 
 **Returns:**
 [ExifData](../../com.aspose.imaging.exif/exifdata)
@@ -589,7 +589,7 @@ public final void setExifData(ExifData value)
 ```
 
 
-Sets EXIF data for the active frame.
+Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. Enhance your application's capabilities by integrating this feature, ensuring accurate preservation and customization of essential image information.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,9 +602,7 @@ public int getPageCount()
 ```
 
 
-Gets the page count.
-
-Value: The page count.
+Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
 
 **Returns:**
 int - the page count.
@@ -614,9 +612,7 @@ public Image[] getPages()
 ```
 
 
-Gets the pages.
-
-Value: The pages.
+Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. Empower your application with efficient access to individual pages, facilitating streamlined document processing and enhanced user interaction.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -626,12 +622,10 @@ public boolean hasAlpha()
 ```
 
 
-Gets the Has alpha channel.
-
-Value: The Has alpha channel.
+Determine whether the image has an alpha channel, providing crucial information for rendering and compositing operations. Integrate this feature to optimize visual processing workflows, ensuring accurate representation and manipulation of transparent elements.
 
 **Returns:**
-boolean - the Has alpha channel.
+boolean - `true` if there is an alpha channel.
 
 **Example: The following example loads a TIFF image and prints information about raw data format and alpha channel.**
 
@@ -666,7 +660,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
+Retrieve options derived from the original file settings, facilitating seamless preservation of key parameters such as bit-depth and other essential attributes of the original image. Utilize this method to maintain fidelity and consistency in image processing tasks, ensuring optimal results without unnecessary alterations. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -676,7 +670,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Adds page to the image.
+Incorporate a new page into the existing image seamlessly, expanding its content and versatility. Utilize this method to enhance document composition and management, empowering efficient handling of multi-page images within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -689,7 +683,7 @@ public final void alignResolutions()
 ```
 
 
-Helper method to make horizontal and vertical resolutions equal.
+Implement the AlignResolutions helper method to synchronize horizontal and vertical resolutions, ensuring uniformity in image dimensions. This functionality facilitates streamlined image processing workflows by harmonizing resolution parameters, optimizing visual quality and consistency across various platforms and devices.
 
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```
@@ -697,7 +691,7 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-Sets the resolution for this [RasterImage](../../com.aspose.imaging/rasterimage).
+Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), enabling precise control over image rendering and display properties. Integrate this functionality to optimize visual output and ensure compatibility with diverse output devices and platforms, enhancing the overall user experience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -744,7 +738,7 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) and [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-) methods.
+Utilize the NormalizeAngle method specifically designed for scanned text documents to rectify skewed scans, ensuring accurate alignment. Seamlessly integrate this functionality into your text processing workflows to enhance document readability and quality, improving overall efficiency in text recognition and analysis tasks. This method uses [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) and [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-) methods.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -758,7 +752,7 @@ public final void addFrame(TiffFrame frame)
 ```
 
 
-Adds the frame to image
+Incorporate the specified frame seamlessly into the image, expanding its content and versatility. Utilize this method to enhance image composition and management, empowering efficient handling of multi-frame images within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -819,7 +813,7 @@ public final void add(TiffImage image)
 ```
 
 
-Adds the specified image's frames to current frame.
+Add the frames from the specified image seamlessly into the current frame, consolidating their content and enhancing compositional flexibility. Integrate this method to streamline frame management and manipulation within your application, facilitating efficient handling of multi-frame images.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -832,7 +826,7 @@ public final void addFrames(TiffFrame[] frames)
 ```
 
 
-Adds the frames array to image
+Integrate the array of frames seamlessly into the image, enriching its content and versatility. Utilize this method to enhance image composition and management, enabling efficient handling of multi-frame images within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -845,7 +839,7 @@ public final void insertFrame(int index, TiffFrame frameToInsert)
 ```
 
 
-The insert frame.
+Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. Employ this method to manage frame sequences effectively, facilitating dynamic manipulation and organization of image content within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -859,7 +853,7 @@ public final TiffFrame replaceFrame(int index, TiffFrame frameToReplace)
 ```
 
 
-Replaces the frame at the specified position.
+Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. Integrate this method to enhance flexibility and precision in frame manipulation, ensuring optimal organization and presentation of image content within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -867,9 +861,7 @@ Replaces the frame at the specified position.
 | index | int | The zero based frame position. |
 | frameToReplace | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frame to replace.
 
---------------------
-
-Note: do not forget to Dispose the frame if you will not add it to some other TiffImage. |
+Note: do not forget to dispose/close the frame if you will not add it to some other TiffImage. |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The removed frame.
@@ -879,7 +871,7 @@ public final TiffFrame removeFrame(int index)
 ```
 
 
-Removes the frame by its index.
+Effortlessly eliminate the frame identified by its index from the image sequence, streamlining frame management within your application. Integrate this functionality to enhance efficiency and precision in frame manipulation, facilitating seamless organization and presentation of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -946,7 +938,7 @@ public final void removeFrame(TiffFrame frame)
 ```
 
 
-Removes the specified frame.
+Efficiently remove the specified frame from the image sequence, facilitating streamlined frame management within your application. Integrate this functionality to enhance precision and flexibility in frame manipulation, ensuring seamless organization and presentation of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -963,7 +955,7 @@ public final void resizeProportional(int newWidth, int newHeight, int resizeType
 ```
 
 
-Performs proportional resize on the image. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
+Conduct a proportional resize operation on the image, preserving its aspect ratio while adjusting its dimensions. Employ this method to dynamically scale images within your application, ensuring consistent visual representation of content integrity. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -978,7 +970,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+Adjust the width of the image while maintaining its aspect ratio, ensuring proportional resizing for optimal visual presentation. Utilize this method to dynamically scale images within your application, facilitating consistent and aesthetically pleasing rendering across various display contexts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1043,7 +1035,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+Conduct a proportional adjustment of the image's height, preserving its aspect ratio for consistent visual integrity. Employ this method to dynamically resize images within your application, ensuring optimal display across diverse platforms and devices without compromising content quality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1108,7 +1100,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the Active frame only.
+Perform rotation, flipping, or a combination of both operations exclusively on the active frame. This method allows precise manipulation of individual frames within the image sequence, enhancing flexibility in image editing and composition within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1193,7 +1185,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-Performs dithering on the current image.
+Execute dithering on the current image to enhance its visual quality and reduce color banding artifacts. Integrate this method into your image processing workflow to ensure smoother transitions between colors, resulting in improved overall image appearance and clarity.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1243,7 +1235,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-Cropping the image.
+Crop the image using a specified rectangular region, allowing precise selection of desired content. Integrate this method into your image processing workflow to efficiently remove unwanted areas and focus on essential details, enhancing the overall clarity and composition of the image.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1278,7 +1270,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-Crop image with shifts.
+Perform cropping on the image by specifying shifts in the left, right, top, and bottom directions. This method enables precise selection of the desired portion of the image, facilitating efficient removal of unwanted areas and focusing on essential content. Integrate this functionality into your image processing pipeline to enhance clarity and composition as needed within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1316,7 +1308,7 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-Binarization of an image with predefined threshold
+Apply binarization to the image using a predefined threshold, converting it into a binary image with distinct foreground and background regions. Incorporate this method into your image processing workflow to facilitate segmentation and feature extraction tasks, enhancing the accuracy and efficiency of image analysis within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1348,7 +1340,7 @@ public void binarizeOtsu()
 ```
 
 
-Binarization of an image with Otsu thresholding
+Utilize Otsu thresholding to perform binarization on the image, automatically determining the optimal threshold value based on the image's histogram. Integrate this method into your image processing workflow to achieve effective segmentation and feature extraction, enhancing the accuracy and reliability of image analysis tasks within your application.
 
 
 **Example: The following example binarizes a TIFF image with Otsu thresholding.**
@@ -1374,7 +1366,7 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Implement binarization on the image employing Bradley's adaptive thresholding algorithm with integral image thresholding. This approach dynamically computes local thresholds based on the image's neighborhood, enhancing adaptability to varying lighting conditions and ensuring robust segmentation for subsequent processing tasks within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1406,7 +1398,7 @@ public void grayscale()
 ```
 
 
-Transformation of an image to its grayscale representation
+Convert the image to its grayscale representation, transforming it into a single-channel image where each pixel represents intensity. Integrate this method into your image processing pipeline to simplify analysis and enhance compatibility with grayscale-based algorithms, facilitating various computer vision and image analysis tasks within your application.
 
 
 **Example: The following example transforms a colored TIFF image to its grayscale representation.**
@@ -1431,7 +1423,7 @@ public void adjustGamma(float gamma)
 ```
 
 
-Gamma-correction of an image.
+Apply gamma correction to the image, adjusting pixel intensities to achieve desired color balance. Incorporate this method into your image processing workflow to enhance visual quality and improve the accuracy of subsequent analysis or display tasks within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1462,7 +1454,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-Gamma-correction of an image.
+Perform gamma correction on the image using individual coefficients for red, green, and blue channels, allowing for fine-tuned adjustments of color balance and contrast. Integrate this method into your image processing pipeline to achieve precise control over color rendering and enhance visual fidelity within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1495,7 +1487,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-Adjust of a `brightness` for image.
+Implement `brightness` adjustment for the image, allowing the modification of overall luminance levels. Incorporate this method into your image processing workflow to enhance visibility and improve the visual quality of images within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1526,7 +1518,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-[Image](../../com.aspose.imaging/image) contrasting
+Enhance the contrast of the [Image](../../com.aspose.imaging/image) instance, amplifying the differences between its light and dark areas. Integrate this functionality to improve the visual clarity and overall quality of the image within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1557,7 +1549,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-Filters the specified rectangle.
+Filter the content within the specified rectangle, applying a designated image processing filter to enhance or modify the selected region. Integrate this method into your image manipulation workflow to achieve targeted enhancements or transformations within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1644,7 +1636,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Adjust the size of the image based on specified settings, allowing for precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application.
 
 **Parameters:**
 | Parameter | Type | Description |

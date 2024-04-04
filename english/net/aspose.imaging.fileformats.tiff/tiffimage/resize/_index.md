@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/resize/
 ---
 ## TiffImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image according to a specified resizing type, facilitating flexible adjustment of image dimensions while preserving aspect ratio or applying specific scaling algorithms. Incorporate this method into your image processing workflow to achieve precise control over resizing operations within your application.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -77,7 +77,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFor
 
 ## TiffImage.Resize method (2 of 2)
 
-Resizes the image.
+Adjust the size of the image based on specified settings, allowing for precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

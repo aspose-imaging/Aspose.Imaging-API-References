@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.dng/dngimage/imgdata/
 ---
 ## DngImage.ImgData property
 
-Gets or sets the img data.
+Manage the image data with this property. Whether you're retrieving or updating, this property provides seamless access to the image data for efficient manipulation.
 
 ```csharp
 public RawData ImgData { get; set; }

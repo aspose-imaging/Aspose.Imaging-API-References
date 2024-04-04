@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/fileformat/
 ---
 ## TgaImage.FileFormat property
 
-Gets the file format.
+Get crucial information about the file format of the image represented by this instance of [`TgaImage`](../../tgaimage). Understanding the file format is essential for compatibility checks and ensuring seamless integration within software systems, enabling efficient processing and manipulation of images.
 
 ```csharp
 public override FileFormat FileFormat { get; }

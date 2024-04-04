@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/hasalpha/
 ---
 ## WebPImage.HasAlpha property
 
-Gets the Has alpha channel.
+Retrieve whether the image contains an alpha channel, indicating the presence of transparency information. Utilize this property to determine whether the image includes transparency, enabling appropriate handling and processing of alpha-related operations within your application.
 
 ```csharp
 public override bool HasAlpha { get; }

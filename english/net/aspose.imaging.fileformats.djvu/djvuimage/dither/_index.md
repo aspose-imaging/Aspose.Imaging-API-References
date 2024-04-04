@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/dither/
 ---
 ## DjvuImage.Dither method
 
-Performs dithering on the current image.
+The "Dither" function applies a dithering effect to your image, enhancing its visual quality by reducing banding and improving color transitions. Whether you're working on digital art, photography, or graphic design projects, this feature adds a professional touch to your images, making them appear smoother and more refined.
 
 ```csharp
 public override void Dither(DitheringMethod ditheringMethod, int bitsCount, 

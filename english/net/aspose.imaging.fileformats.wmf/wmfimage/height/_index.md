@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/height/
 ---
 ## WmfImage.Height property
 
-Gets the image height.
+Access the image's height, representing the number of pixels along its vertical axis. Utilize this property to ascertain the image's spatial dimensions and aspect ratio, enabling accurate layout and rendering adjustments within your application.
 
 ```csharp
 public override int Height { get; }

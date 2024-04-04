@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/addrecord/
 ---
 ## WmfImage.AddRecord method
 
-Adds the record.
+Incorporate the specified record object into the image, enriching its content with additional data or metadata. Utilize this method to seamlessly integrate record objects into the image, facilitating comprehensive data storage and organization within your application.
 
 ```csharp
 public int AddRecord(WmfObject record)

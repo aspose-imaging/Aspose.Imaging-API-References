@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/resize/
 ---
 ## EpsImage.Resize method (1 of 2)
 
-Resizes the image.
+This method resizes the image, adjusting its dimensions according to specified parameters. It offers a straightforward way to modify the size of the image, ensuring flexibility and ease of use for developers.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -49,7 +49,7 @@ using (var image = Image.Load("AstrixObelix.eps"))
 
 ## EpsImage.Resize method (2 of 2)
 
-Resizes the image.
+This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. It provides a convenient way to modify the image size while maintaining control over various parameters, ensuring optimal results for different use cases.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

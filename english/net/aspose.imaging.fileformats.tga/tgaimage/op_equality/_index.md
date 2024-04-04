@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/op_equality/
 ---
 ## TgaImage Equality operator
 
-Equality comparison.
+Performs an equality comparison between two TGA images, considering both the first and second images involved in the comparison process. This method facilitates straightforward assessment of image equality, ensuring accurate analysis and decision-making within image processing workflows.
 
 ```csharp
 public static bool operator ==(TgaImage first, TgaImage second)

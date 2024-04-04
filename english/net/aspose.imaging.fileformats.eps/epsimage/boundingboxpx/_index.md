@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/boundingboxpx/
 ---
 ## EpsImage.BoundingBoxPx property
 
-Gets the original bounding box of this [`EpsImage`](../../epsimage) instance in pixels.
+This property returns the original bounding box of the [`EpsImage`](../../epsimage) instance in pixels, providing essential geometric data for accurate rendering and manipulation. With this information, users can ensure precise placement and sizing /// of EPS images in their projects, enhancing overall visual presentation and quality.
 
 ```csharp
 public Rectangle BoundingBoxPx { get; }

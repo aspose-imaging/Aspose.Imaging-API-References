@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/creator/
 ---
 ## EpsImage.Creator property
 
-Gets the creator from the EPS DSC comments.
+This property offers access to the creator information sourced from EPS Document Structuring Conventions (DSC) comments found within the EPS file. Understanding the creator details provides insights into the software or tool used to generate the EPS file, facilitating compatibility assessment across various platforms and applications.
 
 ```csharp
 public string Creator { get; }

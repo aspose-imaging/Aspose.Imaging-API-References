@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/fileformat/
 ---
 ## TiffImage.FileFormat property
 
-Gets a value of file format
+Retrieve the file format value associated with the image. This property serves as a critical aspect of image metadata retrieval, allowing software applications to identify and interpret the format of the image data efficiently.
 
 ```csharp
 public override FileFormat FileFormat { get; }

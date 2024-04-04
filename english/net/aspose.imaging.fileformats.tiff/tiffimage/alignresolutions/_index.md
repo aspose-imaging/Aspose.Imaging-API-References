@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/alignresolutions/
 ---
 ## TiffImage.AlignResolutions method
 
-Helper method to make horizontal and vertical resolutions equal.
+Implement the AlignResolutions helper method to synchronize horizontal and vertical resolutions, ensuring uniformity in image dimensions. This functionality facilitates streamlined image processing workflows by harmonizing resolution parameters, optimizing visual quality and consistency across various platforms and devices.
 
 ```csharp
 public void AlignResolutions()

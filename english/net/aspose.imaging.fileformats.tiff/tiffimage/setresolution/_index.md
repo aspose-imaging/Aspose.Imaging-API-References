@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/setresolution/
 ---
 ## TiffImage.SetResolution method
 
-Sets the resolution for this [`RasterImage`](../../../aspose.imaging/rasterimage).
+Establishes the resolution for the specified [`RasterImage`](../../../aspose.imaging/rasterimage), enabling precise control over image rendering and display properties. Integrate this functionality to optimize visual output and ensure compatibility with diverse output devices and platforms, enhancing the overall user experience.
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)

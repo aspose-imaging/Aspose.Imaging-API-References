@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/djvupages/
 ---
 ## DjvuImage.DjvuPages property
 
-Gets the pages for the document
+Quickly retrieve all the pages contained within your DjVu document using this property. Simplify your document processing workflow by easily accessing and managing individual pages within your DjVu files. Improve efficiency and streamline your tasks with convenient page retrieval.
 
 ```csharp
 public DjvuPage[] DjvuPages { get; }

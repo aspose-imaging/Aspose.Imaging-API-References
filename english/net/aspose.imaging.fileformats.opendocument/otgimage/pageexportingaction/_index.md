@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/otgimage/pageexportingaction/
 ---
 ## OtgImage.PageExportingAction property
 
-Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
+This property allows for the retrieval or modification of the page exporting action associated with the image. It serves as a crucial parameter, dictating the behavior of the image when exported or processed further. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

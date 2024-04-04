@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/imageopacity/
 ---
 ## GifImage.ImageOpacity property
 
-Gets opacity of this image (active frame).
+Retrieve the opacity of the active frame within the image, offering insight into its transparency level. This property is particularly useful for understanding the degree of transparency or opaqueness of the active frame in the image.
 
 ```csharp
 public override float ImageOpacity { get; }

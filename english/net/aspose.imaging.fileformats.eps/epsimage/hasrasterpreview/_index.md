@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/hasrasterpreview/
 ---
 ## EpsImage.HasRasterPreview property
 
-Gets the value indicating whether this [`EpsImage`](../../epsimage) instane has a raster preview.
+Discover the presence of a raster preview effortlessly with this property. Access the boolean value indicating whether the [`EpsImage`](../../epsimage) instance includes a raster preview, empowering your image processing tasks with clarity and efficiency. Ideal for streamlining workflow decisions based on the presence or absence of raster previews in EPS images.
 
 ```csharp
 public bool HasRasterPreview { get; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/adjustgamma/
 ---
 ## GifImage.AdjustGamma method (1 of 2)
 
-Gamma-correction of an image.
+Enhance image quality by applying gamma correction. This method adjusts the color gamma of the image to achieve optimal visual clarity. It modifies the gamma value of each pixel, resulting in improved color rendition and overall image appearance.
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -47,7 +47,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 
 ## GifImage.AdjustGamma method (2 of 2)
 
-Gamma-correction of an image.
+Gamma-correction of an image applies a nonlinear adjustment to the pixel values, enhancing or reducing brightness based on the specified coefficients for the red, green, and blue channels. This method helps to fine-tune the color balance and luminance of the image, improving its overall appearance and visual quality.
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)

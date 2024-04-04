@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/height/
 ---
 ## SvgImage.Height property
 
-Gets the image height.
+Retrieves the height of the image, indicating its vertical size in pixels. This property provides essential information for layout calculations and rendering processes, ensuring accurate display and manipulation of the image.
 
 ```csharp
 public override int Height { get; }

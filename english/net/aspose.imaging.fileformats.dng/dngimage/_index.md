@@ -20,20 +20,20 @@ public class DngImage : RasterCachedImage
 | --- | --- |
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | Gets or sets a value for the background color. |
-| override [BitsPerPixel](../../aspose.imaging.fileformats.dng/dngimage/bitsperpixel) { get; } | Gets the image bits per pixel count. |
+| override [BitsPerPixel](../../aspose.imaging.fileformats.dng/dngimage/bitsperpixel) { get; } | Discover the number of bits per pixel in the image effortlessly with this property. Ideal for understanding the image's pixel depth quickly and accurately. |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Gets the image bounds. |
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| override [FileFormat](../../aspose.imaging.fileformats.dng/dngimage/fileformat) { get; } | Gets a value of file format |
+| override [FileFormat](../../aspose.imaging.fileformats.dng/dngimage/fileformat) { get; } | Identify the file format of your image with this property. Perfect for understanding the format - just straightforward details. |
 | virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor) { get; set; } | Gets a value indicating whether image has transparent color. |
-| override [Height](../../aspose.imaging.fileformats.dng/dngimage/height) { get; } | Gets the image height. |
+| override [Height](../../aspose.imaging.fileformats.dng/dngimage/height) { get; } | Retrieve the height of the image with this property. Perfect for determining the vertical size of the image without hassle. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity) { get; } | Gets opacity of this image. |
-| [ImgData](../../aspose.imaging.fileformats.dng/dngimage/imgdata) { get; set; } | Gets or sets the img data. |
+| [ImgData](../../aspose.imaging.fileformats.dng/dngimage/imgdata) { get; set; } | Manage the image data with this property. Whether you're retrieving or updating, this property provides seamless access to the image data for efficient manipulation. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable) { get; } | Gets a value indicating whether raw data loading is available. |
@@ -51,7 +51,7 @@ public class DngImage : RasterCachedImage
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
-| override [Width](../../aspose.imaging.fileformats.dng/dngimage/width) { get; } | Gets the image width. |
+| override [Width](../../aspose.imaging.fileformats.dng/dngimage/width) { get; } | Access the width of the image with this property. Ideal for obtaining the horizontal size of the image quickly and efficiently. |
 | virtual [XmpData](../../aspose.imaging/rasterimage/xmpdata) { get; set; } | Gets or sets the XMP metadata. |
 
 ## Methods
@@ -85,6 +85,7 @@ public class DngImage : RasterCachedImage
 | virtual [GetModifyDate](../../aspose.imaging/rasterimage/getmodifydate)(bool) | Gets the date and time the resource image was last modified. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
 | [GetPixel](../../aspose.imaging/rasterimage/getpixel)(int, int) | Gets an image pixel. |
+| virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging/rastercachedimage/grayscale)() | Transformation of an image to its grayscale representation |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels)(Rectangle) | Loads 32-bit ARGB pixels. |

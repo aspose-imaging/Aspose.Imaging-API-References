@@ -3,7 +3,7 @@ title: CanLoad
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.imaging/image/canload/
 ---
 ## Image.CanLoad method (1 of 4)

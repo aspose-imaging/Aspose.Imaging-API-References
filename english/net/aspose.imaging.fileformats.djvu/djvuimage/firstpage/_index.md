@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/firstpage/
 ---
 ## DjvuImage.FirstPage property
 
-Gets the first page of the document
+Access the first page of your DjVu document with this property. Quickly retrieve the initial page to begin viewing or processing your document efficiently.
 
 ```csharp
 public DjvuPage FirstPage { get; }

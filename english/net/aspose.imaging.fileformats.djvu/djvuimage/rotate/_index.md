@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/rotate/
 ---
 ## DjvuImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+Rotate the image around its center with the Rotate method of the RasterCachedMultipageImage class. This convenient feature allows you to easily adjust the orientation of images while maintaining their center position, enhancing your image manipulation capabilities.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

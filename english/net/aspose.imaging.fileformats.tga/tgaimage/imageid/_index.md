@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/imageid/
 ---
 ## TgaImage.ImageId property
 
-Gets or sets Image ID.
+Gets or sets the unique identifier associated with the image. This ID serves as a reference point for identifying and distinguishing the image from others within a system or application. By setting or retrieving the Image ID, you can manage and track images effectively, facilitating organized image management and retrieval processes.
 
 This optional field contains identifying information about the image. The maximum length for this field is 255 bytes.
 

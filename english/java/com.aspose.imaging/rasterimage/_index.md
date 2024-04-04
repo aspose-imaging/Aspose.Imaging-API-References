@@ -44,12 +44,12 @@ Represents a raster image supporting raster graphics operations.
 | [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [getTransparentColor()](#getTransparentColor--) | Gets the image transparent color. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the image transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
-| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Gets the date and time the resource image was last modified. |
+| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Retrieves the date and time when the resource image underwent its latest modification. |
 | [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | Performs dithering on the current image. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
 | [getDefaultPixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader)](#getDefaultPixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-) | Gets the default pixels array using partial pixel loader. |
@@ -571,19 +571,6 @@ Gets a value indicating whether image has transparent color.
 
 **Returns:**
 boolean
-### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
-```
-public void setTransparentColor(boolean value)
-```
-
-
-Gets a value indicating whether image has transparent color.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -634,6 +621,19 @@ Gets the image transparent color.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color)
+### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
+```
+public void setTransparentColor(boolean value)
+```
+
+
+Gets a value indicating whether image has transparent color.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
 public void setTransparentColor(Color value)
@@ -663,7 +663,7 @@ public Date getModifyDate(boolean useDefault)
 ```
 
 
-Gets the date and time the resource image was last modified.
+Retrieves the date and time when the resource image underwent its latest modification. This method provides valuable metadata, enabling users to track and manage updates to the image file effectively. By accessing this information, users can ensure the integrity and currency of their image assets, facilitating informed decision-making regarding image usage and maintenance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1319,7 +1319,7 @@ Loads pixels in CMYK format.
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle to load pixels from. |
 
 **Returns:**
-int[] - The loaded CMYK pixels presentes as 32-bit inateger values.
+int[] - The loaded CMYK pixels presents as 32-bit integer values.
 ### loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader) {#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-}
 ```
 public void loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)

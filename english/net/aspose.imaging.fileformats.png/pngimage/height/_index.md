@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/height/
 ---
 ## PngImage.Height property
 
-Gets the height.
+Obtain the height of the image. This property returns the vertical dimension of the image, allowing developers to determine its size in pixels along the vertical axis.
 
 ```csharp
 public override int Height { get; }

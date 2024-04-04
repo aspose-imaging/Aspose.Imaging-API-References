@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/jobtime/
 ---
 ## TgaImage.JobTime property
 
-Gets or sets Job Time.
+Retrieves or sets the timestamp indicating the job time associated with the image. This property allows developers to access or modify the time metadata related to the specific job or project associated with the image.
 
 ```csharp
 public TimeSpan? JobTime { get; set; }

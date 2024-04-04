@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/iscached/
 ---
 ## EpsImage.IsCached property
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. It offers a quick and efficient method to determine if the required information is readily available, optimizing performance and reducing resource overhead in data-intensive operations.
 
 ```csharp
 public override bool IsCached { get; }

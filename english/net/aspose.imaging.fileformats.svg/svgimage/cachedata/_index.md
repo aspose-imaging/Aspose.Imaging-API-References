@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/cachedata/
 ---
 ## SvgImage.CacheData method
 
-Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer).
+Cache the data and guarantee that there will be no further loading of data from the underlying [`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer). This optimization enhances performance by eliminating redundant data retrieval operations, especially beneficial in scenarios requiring frequent access to the image data.
 
 ```csharp
 public override void CacheData()

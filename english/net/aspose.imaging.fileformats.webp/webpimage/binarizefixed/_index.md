@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/binarizefixed/
 ---
 ## WebPImage.BinarizeFixed method
 
-Binarization of an image with predefined threshold
+Perform binarization on the image using a predefined threshold value, converting it into a binary image where pixels are classified as foreground or background based on their intensity relative to the threshold. Integrate this method into your image processing workflow to facilitate segmentation and feature extraction tasks, enhancing the accuracy and efficiency of subsequent analysis within your application.
 
 ```csharp
 public override void BinarizeFixed(byte threshold)

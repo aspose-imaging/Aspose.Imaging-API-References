@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/resizefullframe/
 ---
 ## GifImage.ResizeFullFrame method
 
-Resizes the image using full frames for each GIF page. Required to avoid possible artifacts appearance.
+Resizing of the image while taking into account the full frames for each page in a GIF, thus preventing potential artifacts from appearing. This method is essential to maintain the integrity and quality of the image, especially when dealing with animated GIFs or sequences of frames.
 
 ```csharp
 public void ResizeFullFrame(int newWidth, int newHeight, ResizeType resizeType)

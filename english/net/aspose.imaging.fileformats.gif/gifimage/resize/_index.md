@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/resize/
 ---
 ## GifImage.Resize method (1 of 2)
 
-Resizes the image.
+Modify the size of the image while maintaining its aspect ratio and visual quality. This function allows for easy adjustment of the image dimensions to suit specific display or storage needs, ensuring optimal presentation without distortion or loss of detail.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -69,7 +69,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileForma
 
 ## GifImage.Resize method (2 of 2)
 
-Resizes the image.
+Resize the width and height of the image while maintaining its aspect ratio and applying additional settings as specified. This method ensures that the image dimensions are adjusted proportionally, preserving the overall visual quality and appearance according to the provided settings.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

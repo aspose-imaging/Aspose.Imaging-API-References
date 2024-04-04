@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/pagecount/
 ---
 ## GifImage.PageCount property
 
-Gets the page count.
+Retrieve the total number of pages contained within the image with this straightforward property. Ideal for quickly assessing the extent of the image content.
 
 ```csharp
 public override int PageCount { get; }

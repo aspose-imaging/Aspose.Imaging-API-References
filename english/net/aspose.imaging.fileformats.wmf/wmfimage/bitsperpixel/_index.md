@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/bitsperpixel/
 ---
 ## WmfImage.BitsPerPixel property
 
-Gets the image bits per pixel count.
+Retrieve the count of bits per pixel for the image, indicating the level of color depth or granularity. Utilize this property to determine the image's color representation and precision, facilitating compatibility checks and color-related processing within your application.
 
 ```csharp
 public override int BitsPerPixel { get; }

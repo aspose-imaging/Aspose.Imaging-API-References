@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/tiffimage/
 ---
 ## TiffImage constructor (1 of 2)
 
-Initializes a new instance of the [`TiffImage`](../../tiffimage) class.
+Initialize a new object of the [`TiffImage`](../../tiffimage) class, specifying the frame parameter. This constructor facilitates the creation of a TiffImage instance, allowing developers to specify the frame to be loaded or processed, streamlining Tiff image handling tasks within their applications.
 
 ```csharp
 public TiffImage(TiffFrame frame)
@@ -83,7 +83,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 
 ## TiffImage constructor (2 of 2)
 
-Initializes a new instance of the [`TiffImage`](../../tiffimage) class.
+Create a new instance of the [`TiffImage`](../../tiffimage) class, providing a list of frames as a parameter. This constructor enables the initialization of a TiffImage object with multiple frames, facilitating efficient handling and processing of TIFF image sequences within software applications.
 
 ```csharp
 public TiffImage(TiffFrame[] frames)

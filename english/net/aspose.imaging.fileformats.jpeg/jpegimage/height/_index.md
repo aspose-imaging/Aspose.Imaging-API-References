@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/height/
 ---
 ## JpegImage.Height property
 
-Gets the image height.
+Retrieve the height of the image effortlessly with this property. It provides quick access to the vertical dimension of the image, allowing you to efficiently determine its size and aspect ratio without the need for complex calculations or additional methods.
 
 ```csharp
 public override int Height { get; }

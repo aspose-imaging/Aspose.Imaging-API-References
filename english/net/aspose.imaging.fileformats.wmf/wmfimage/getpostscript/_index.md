@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/getpostscript/
 ---
 ## WmfImage.GetPostScript method
 
-Gets the post script.
+Access the PostScript data associated with the image, providing detailed information about its structure or content. Utilize this method to retrieve PostScript data for further analysis or processing within your application, enabling advanced functionality related to PostScript rendering or manipulation.
 
 ```csharp
 public string GetPostScript()

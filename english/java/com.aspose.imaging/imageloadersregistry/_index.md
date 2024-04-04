@@ -19,7 +19,7 @@ Represents the image loaders registry.
 | --- | --- |
 | [getRegisteredFormats()](#getRegisteredFormats--) | Gets the registered image loading formats. |
 | [getRegisteredDescriptors()](#getRegisteredDescriptors--) | Gets the registered descriptors. |
-| [register(IImageLoaderDescriptor loaderDescriptor)](#register-com.aspose.imaging.IImageLoaderDescriptor-) | Registers the specified image loader descriptor. |
+| [register(IImageLoaderDescriptor imageLoaderDescriptor)](#register-com.aspose.imaging.IImageLoaderDescriptor-) | Registers the specified image loader descriptor. |
 | [getFirstSupportedDescriptorByTypeName(String descriptorTypeName)](#getFirstSupportedDescriptorByTypeName-java.lang.String-) | Gets the first supported descriptor by its type name. |
 | [getFirstSupportedDescriptorByFileFormat(long fileFormat)](#getFirstSupportedDescriptorByFileFormat-long-) | Gets the first supported file format by its type name. |
 | [getFirstSupportedDescriptor(InputStream stream, LoadOptions loadOptions)](#getFirstSupportedDescriptor-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Gets the fist found supported descriptor suitable for the specified `stream` and optionally the `loadOptions`. |
@@ -50,9 +50,9 @@ Value: The registered descriptors.
 
 **Returns:**
 com.aspose.imaging.IImageLoaderDescriptor[]
-### register(IImageLoaderDescriptor loaderDescriptor) {#register-com.aspose.imaging.IImageLoaderDescriptor-}
+### register(IImageLoaderDescriptor imageLoaderDescriptor) {#register-com.aspose.imaging.IImageLoaderDescriptor-}
 ```
-public static void register(IImageLoaderDescriptor loaderDescriptor)
+public static void register(IImageLoaderDescriptor imageLoaderDescriptor)
 ```
 
 
@@ -61,7 +61,7 @@ Registers the specified image loader descriptor.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loaderDescriptor | [IImageLoaderDescriptor](../../com.aspose.imaging/iimageloaderdescriptor) | The image loader descriptor. |
+| imageLoaderDescriptor | [IImageLoaderDescriptor](../../com.aspose.imaging/iimageloaderdescriptor) | The image loader descriptor. |
 
 ### getFirstSupportedDescriptorByTypeName(String descriptorTypeName) {#getFirstSupportedDescriptorByTypeName-java.lang.String-}
 ```

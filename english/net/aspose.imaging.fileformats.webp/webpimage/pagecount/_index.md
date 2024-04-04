@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/pagecount/
 ---
 ## WebPImage.PageCount property
 
-Gets the page count.
+Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
 
 ```csharp
 public override int PageCount { get; }

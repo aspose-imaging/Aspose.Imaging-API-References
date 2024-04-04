@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/resizecanvas/
 ---
 ## WmfImage.ResizeCanvas method
 
-Resizes the canvas.
+Resize the canvas of the image, adjusting its dimensions while retaining the image content. Utilize this method to modify the size of the canvas without altering the content, facilitating layout adjustments and composition changes within your application.
 
 ```csharp
 public override void ResizeCanvas(Rectangle newRectangle)

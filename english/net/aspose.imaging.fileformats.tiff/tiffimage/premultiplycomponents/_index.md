@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/premultiplycomponents/
 ---
 ## TiffImage.PremultiplyComponents property
 
-Gets or sets a value indicating whether components must be premultiplied.
+Indicate if components necessitate premultiplication, ensuring efficient handling of visual elements. Enhance rendering processes by toggling this property, streamlining graphic workflows for optimized performance.
 
 ```csharp
 public override bool PremultiplyComponents { get; set; }

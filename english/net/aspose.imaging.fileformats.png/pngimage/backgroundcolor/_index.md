@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/backgroundcolor/
 ---
 ## PngImage.BackgroundColor property
 
-Gets the background color.
+Retrieves the background color of the image, if one is specified. This property is helpful for applications that need to identify and potentially manipulate the background color of an image.
 
 ```csharp
 public override Color BackgroundColor { get; set; }

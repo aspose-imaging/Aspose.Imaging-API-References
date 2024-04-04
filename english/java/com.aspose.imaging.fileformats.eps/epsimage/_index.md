@@ -17,32 +17,32 @@ The API for Encapsulated PostScript (EPS) image file format support offers robus
 
 | Method | Description |
 | --- | --- |
-| [getPreviewImageCount()](#getPreviewImageCount--) | Gets the preview image count. |
-| [getPreviewImages()](#getPreviewImages--) | Gets the preview images. |
-| [getFileFormat()](#getFileFormat--) | Gets the file format. |
-| [getEpsType()](#getEpsType--) | Gets EPS subtype value. |
-| [hasRasterPreview()](#hasRasterPreview--) | Gets the value indicating whether this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance has a raster preview. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getHeight()](#getHeight--) | Gets the image height. |
-| [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
+| [getPreviewImageCount()](#getPreviewImageCount--) | Access the number of preview images available with ease. |
+| [getPreviewImages()](#getPreviewImages--) | Retrieve the preview images associated with your file. |
+| [getFileFormat()](#getFileFormat--) | Access the file format of your image with this property. |
+| [getEpsType()](#getEpsType--) | Access and interpret the subtype value of your EPS image, streamlining your workflow and enhancing compatibility across platforms. |
+| [hasRasterPreview()](#hasRasterPreview--) | Discover the presence of a raster preview effortlessly with this property. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Access the precise bit depth of the image effortlessly with this property. |
+| [getWidth()](#getWidth--) | Retrieve the width of the image with this convenient property. |
+| [getHeight()](#getHeight--) | Access the height of the image using this property. |
+| [isCached()](#isCached--) | This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. |
 | [getPsStream()](#getPsStream--) | Gets the stream containing the PostScript to execute. |
-| [getPostScriptVersion()](#getPostScriptVersion--) | Gets the PostScript version. |
-| [getTitle()](#getTitle--) | Gets the title from the EPS DSC comments. |
-| [getCreator()](#getCreator--) | Gets the creator from the EPS DSC comments. |
-| [getCreationDate()](#getCreationDate--) | Gets the creation date from the EPS DSC comments. |
-| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | The creation date from the EPS DSC comments. |
-| [getBoundingBox()](#getBoundingBox--) | Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in device independent points. |
-| [getBoundingBoxPx()](#getBoundingBoxPx--) | Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels. |
-| [cacheData()](#cacheData--) | Does nothing since currently [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) class does not cache data. |
-| [getPreviewImagesIter()](#getPreviewImagesIter--) | Gets the iterator with all preview images. |
-| [getPreviewImage()](#getPreviewImage--) | Gets the existing preview image by default. |
-| [getPreviewImage(long format)](#getPreviewImage-long-) | Gets the existing preview image of specified `format` or returns ``. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
+| [getPostScriptVersion()](#getPostScriptVersion--) | This property retrieves the PostScript version associated with the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance. |
+| [getTitle()](#getTitle--) | This property retrieves the title extracted from the EPS Document Structuring Conventions (DSC) comments embedded within the EPS file. |
+| [getCreator()](#getCreator--) | This property offers access to the creator information sourced from EPS Document Structuring Conventions (DSC) comments found within the EPS file. |
+| [getCreationDate()](#getCreationDate--) | Retrieving the creation date from EPS Document Structuring Conventions (DSC) comments, this property provides essential metadata indicating the EPS file's inception. |
+| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | Retrieving the creation date from EPS Document Structuring Conventions (DSC) comments, this property provides essential metadata indicating the EPS file's inception. |
+| [getBoundingBox()](#getBoundingBox--) | Accessing the original bounding box in device-independent points, this property provides crucial geometric information about the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) dimensions. |
+| [getBoundingBoxPx()](#getBoundingBoxPx--) | This property returns the original bounding box of the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels, providing essential geometric data for accurate rendering and manipulation. |
+| [cacheData()](#cacheData--) | This property returns the original bounding box of the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels, providing essential geometric data for accurate rendering and manipulation. |
+| [getPreviewImagesIter()](#getPreviewImagesIter--) | Accesses the preview images linked to the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance, allowing seamless retrieval for inspection or utilization in applications. |
+| [getPreviewImage()](#getPreviewImage--) | Retrieves the existing preview image in the specified `format` or returns `` if none is found. |
+| [getPreviewImage(long format)](#getPreviewImage-long-) | Retrieves the existing preview image in the specified `format` or returns `` if none is found. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | This method resizes the image, adjusting its dimensions according to specified parameters. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | This method facilitates versatile manipulation of the image by enabling rotation, flipping, or both rotation and flipping simultaneously. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize image palettes to achieve unique color schemes and enhance visual appeal. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve default options effortlessly to streamline image processing tasks. |
 
 ## Example: Convert EPS image to PNG using PostScript rendering.
 
@@ -121,94 +121,90 @@ public int getPreviewImageCount()
 ```
 
 
-Gets the preview image count.
+Access the number of preview images available with ease. This property allows you to effortlessly retrieve the count of preview images associated with your file, enabling efficient management and navigation of your image previews. Ideal for optimizing your workflow and organizing your image assets effectively.
 
 **Returns:**
-int - the preview image count.
+int
 ### getPreviewImages() {#getPreviewImages--}
 ```
 public Image[] getPreviewImages()
 ```
 
 
-Gets the preview images.
+Retrieve the preview images associated with your file. This property provides seamless access to the collection of preview images, allowing you to efficiently browse and manage them as needed. Ideal for quickly previewing and selecting the right image for your project.
 
 **Returns:**
-com.aspose.imaging.Image[] - the preview images.
+com.aspose.imaging.Image[]
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
 ```
 
 
-Gets the file format.
+Access the file format of your image with this property. Retrieve essential information about the format of your image file, facilitating compatibility and efficient processing. Ideal for identifying the format of your image files for seamless integration into your projects.
 
 **Returns:**
-long - the file format.
+long
 ### getEpsType() {#getEpsType--}
 ```
 public short getEpsType()
 ```
 
 
-Gets EPS subtype value.
+Access and interpret the subtype value of your EPS image, streamlining your workflow and enhancing compatibility across platforms. Ideal for optimizing EPS subtype retrieval in your projects with precision and efficiency.
 
 **Returns:**
-short - EPS subtype value.
+short
 ### hasRasterPreview() {#hasRasterPreview--}
 ```
 public boolean hasRasterPreview()
 ```
 
 
-Gets the value indicating whether this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance has a raster preview.
+Discover the presence of a raster preview effortlessly with this property. Access the boolean value indicating whether the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance includes a raster preview, empowering your image processing tasks with clarity and efficiency. Ideal for streamlining workflow decisions based on the presence or absence of raster previews in EPS images.
 
 **Returns:**
-boolean - the value indicating whether this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance has a raster preview.
+boolean
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Access the precise bit depth of the image effortlessly with this property. Retrieve the bits per pixel count, providing crucial insights into the image's color depth and aiding in optimizing processing tasks. Ideal for applications requiring fine-grained control over image manipulation and analysis.
 
 **Returns:**
-int - the image bits per pixel count.
+int
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
 ```
 
 
-Gets the image width.
-
-Value: The image width.
+Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices.
 
 **Returns:**
-int - the image width.
+int - The image width in pixels.
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
 ```
 
 
-Gets the image height.
-
-Value: The image height.
+Access the height of the image using this property. Obtain the image's height with ease, enabling seamless layout adjustments, aspect ratio calculations, and precise rendering across different screen resolutions and display environments.
 
 **Returns:**
-int - the image height.
+int - The image height in pixels.
 ### isCached() {#isCached--}
 ```
 public boolean isCached()
 ```
 
 
-Gets a value indicating whether object's data is cached currently and no data reading is required.
+This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. It offers a quick and efficient method to determine if the required information is readily available, optimizing performance and reducing resource overhead in data-intensive operations.
 
 **Returns:**
-boolean - a value indicating whether object's data is cached currently and no data reading is required.
+boolean
 ### getPsStream() {#getPsStream--}
 ```
 public InputStream getPsStream()
@@ -225,52 +221,52 @@ public String getPostScriptVersion()
 ```
 
 
-Gets the PostScript version.
+This property retrieves the PostScript version associated with the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance. It offers insight into the specific PostScript language version utilized within the EPS file, aiding in compatibility assessment and facilitating seamless integration with PostScript-compatible environments.
 
 **Returns:**
-java.lang.String - the PostScript version.
+java.lang.String
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
 ```
 
 
-Gets the title from the EPS DSC comments.
+This property retrieves the title extracted from the EPS Document Structuring Conventions (DSC) comments embedded within the EPS file. It provides valuable metadata about the content of the EPS file, aiding in document organization and identification within compatible software applications.
 
 **Returns:**
-java.lang.String - the title from the EPS DSC comments.
+java.lang.String
 ### getCreator() {#getCreator--}
 ```
 public String getCreator()
 ```
 
 
-Gets the creator from the EPS DSC comments.
+This property offers access to the creator information sourced from EPS Document Structuring Conventions (DSC) comments found within the EPS file. Understanding the creator details provides insights into the software or tool used to generate the EPS file, facilitating compatibility assessment across various platforms and applications.
 
 **Returns:**
-java.lang.String - the creator from the EPS DSC comments.
+java.lang.String
 ### getCreationDate() {#getCreationDate--}
 ```
 public Date getCreationDate()
 ```
 
 
-Gets the creation date from the EPS DSC comments.
+Retrieving the creation date from EPS Document Structuring Conventions (DSC) comments, this property provides essential metadata indicating the EPS file's inception. By accessing this information, users gain insights into the file's origin and chronology, enhancing file management and organization.
 
 **Returns:**
-java.util.Date - the creation date from the EPS DSC comments.
+java.util.Date
 ### setCreationDate(Date value) {#setCreationDate-java.util.Date-}
 ```
 public void setCreationDate(Date value)
 ```
 
 
-The creation date from the EPS DSC comments.
+Retrieving the creation date from EPS Document Structuring Conventions (DSC) comments, this property provides essential metadata indicating the EPS file's inception. By accessing this information, users gain insights into the file's origin and chronology, enhancing file management and organization.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date | the creation date from the EPS DSC comments. |
+| value | java.util.Date |  |
 
 ### getBoundingBox() {#getBoundingBox--}
 ```
@@ -278,27 +274,27 @@ public RectangleF getBoundingBox()
 ```
 
 
-Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in device independent points.
+Accessing the original bounding box in device-independent points, this property provides crucial geometric information about the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) dimensions. By retrieving this data, users can accurately assess the image's size and aspect ratio, facilitating precise layout and positioning in various applications.
 
 **Returns:**
-[RectangleF](../../com.aspose.imaging/rectanglef) - the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in device independent points.
+[RectangleF](../../com.aspose.imaging/rectanglef)
 ### getBoundingBoxPx() {#getBoundingBoxPx--}
 ```
 public Rectangle getBoundingBoxPx()
 ```
 
 
-Gets the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels.
+This property returns the original bounding box of the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels, providing essential geometric data for accurate rendering and manipulation. With this information, users can ensure precise placement and sizing of EPS images in their projects, enhancing overall visual presentation and quality.
 
 **Returns:**
-[Rectangle](../../com.aspose.imaging/rectangle) - the original bounding box of this [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels.
+[Rectangle](../../com.aspose.imaging/rectangle)
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()
 ```
 
 
-Does nothing since currently [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) class does not cache data.
+This property returns the original bounding box of the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance in pixels, providing essential geometric data for accurate rendering and manipulation. With this information, users can ensure precise placement and sizing of EPS images in their projects, enhancing overall visual presentation and quality.
 
 ### getPreviewImagesIter() {#getPreviewImagesIter--}
 ```
@@ -306,17 +302,17 @@ public Iterable<Image> getPreviewImagesIter()
 ```
 
 
-Gets the iterator with all preview images.
+Accesses the preview images linked to the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance, allowing seamless retrieval for inspection or utilization in applications. This method provides convenient access to preview images, enhancing user interaction with the image data.
 
 **Returns:**
-java.lang.Iterable<com.aspose.imaging.Image> - The preview images iterator.
+java.lang.Iterable<com.aspose.imaging.Image> - The preview images.
 ### getPreviewImage() {#getPreviewImage--}
 ```
 public Image getPreviewImage()
 ```
 
 
-Gets the existing preview image by default.
+Retrieves the existing preview image in the specified `format` or returns `` if none is found. This method offers flexibility in accessing preview images tailored to specific formats, optimizing compatibility and resource management within applications.
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The existing preview image or `null`.
@@ -326,7 +322,7 @@ public Image getPreviewImage(long format)
 ```
 
 
-Gets the existing preview image of specified `format` or returns ``.
+Retrieves the existing preview image in the specified `format` or returns `` if none is found. This method offers flexibility in accessing preview images tailored to specific formats, optimizing compatibility and resource management within applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +337,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+This method resizes the image, adjusting its dimensions according to specified parameters. It offers a straightforward way to modify the size of the image, ensuring flexibility and ease of use for developers.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -371,7 +367,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. It provides a convenient way to modify the image size while maintaining control over various parameters, ensuring optimal results for different use cases.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +407,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the image.
+This method facilitates versatile manipulation of the image by enabling rotation, flipping, or both rotation and flipping simultaneously. It offers flexibility in adjusting the orientation of the image to suit specific requirements, enhancing its usability and visual appeal.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +420,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-Sets the image palette.
+Customize image palettes to achieve unique color schemes and enhance visual appeal. Tailor colors for specific effects and optimize image quality across different platforms and devices with ease.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -438,7 +434,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-Gets the default options.
+Retrieve default options effortlessly to streamline image processing tasks. Access preconfigured settings to expedite workflow and ensure consistent output quality without manual configuration.
 
 **Parameters:**
 | Parameter | Type | Description |

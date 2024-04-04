@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/verticalresolution/
 ---
 ## TiffImage.VerticalResolution property
 
-Gets the vertical resolution, in pixels per inch, of this [`Image`](../../../aspose.imaging/image).
+Access the vertical resolution of the designated [`Image`](../../../aspose.imaging/image) in pixels per inch, enabling precise adjustments and rendering optimizations. Utilize essential image data effortlessly to streamline image processing workflows, ensuring superior quality and performance in your applications.
 
 ```csharp
 public override double VerticalResolution { get; set; }

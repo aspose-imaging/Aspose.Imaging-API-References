@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/filter/
 ---
 ## DjvuImage.Filter method
 
-Filters the specified rectangle.
+Apply filters to a specified rectangular area within the image to enhance or modify its appearance. By targeting specific regions, this method allows for precise adjustments, such as blurring, sharpening, or applying artistic effects, to achieve desired visual outcomes. Fine-tuning filters on selected areas empowers users to customize image aesthetics, improve clarity, and create artistic effects tailored to their preferences.
 
 ```csharp
 public override void Filter(Rectangle rectangle, FilterOptionsBase options)

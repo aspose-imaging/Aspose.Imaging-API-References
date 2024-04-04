@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/binarizefixed/
 ---
 ## GifImage.BinarizeFixed method
 
-Binarization of an image with predefined threshold
+Binarization of an image with a predefined threshold converts a grayscale or color image into a binary image, where each pixel is classified as either black or white based on whether its intensity value exceeds a specified threshold.
 
 ```csharp
 public override void BinarizeFixed(byte threshold)

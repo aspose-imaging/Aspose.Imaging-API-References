@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/binarizebradley/
 ---
 ## TiffImage.BinarizeBradley method
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Implement binarization on the image employing Bradley's adaptive thresholding algorithm with integral image thresholding. This approach dynamically computes local thresholds based on the image's neighborhood, enhancing adaptability to varying lighting conditions and ensuring robust segmentation for subsequent processing tasks within your application.
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)

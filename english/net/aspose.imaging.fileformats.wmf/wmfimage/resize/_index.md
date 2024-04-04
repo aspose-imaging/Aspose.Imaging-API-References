@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/resize/
 ---
 ## WmfImage.Resize method (1 of 2)
 
-Resizes the image.
+Resize the image with the specified resizing type, allowing for flexible adjustment of dimensions while preserving aspect ratio or applying specific scaling algorithms. Integrate this method into your image processing workflow to achieve precise resizing operations tailored to your application's requirements.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -71,7 +71,7 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileForma
 
 ## WmfImage.Resize method (2 of 2)
 
-Resizes the image.
+Adjust the size of the image based on specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)

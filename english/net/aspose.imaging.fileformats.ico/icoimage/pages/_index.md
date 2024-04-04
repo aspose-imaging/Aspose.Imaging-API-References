@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.ico/icoimage/pages/
 ---
 ## IcoImage.Pages property
 
-Gets the pages.
+Retrieve comprehensive information about the document's pages effortlessly through this property. By accessing this property, you gain access to a collection or array containing all the pages present within the document.
 
 ```csharp
 public override Image[] Pages { get; }

@@ -17,9 +17,9 @@ DjVu document class supports graphics file format and facilitates seamless manag
 
 | Constructor | Description |
 | --- | --- |
-| [DjvuImage(InputStream stream)](#DjvuImage-java.io.InputStream-) | Initializes a new instance of the `DjvuImage` class. |
-| [DjvuImage(InputStream stream, LoadOptions loadOptions)](#DjvuImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the `DjvuImage` class. |
-| [DjvuImage(System.IO.Stream stream, LoadOptions loadOptions)](#DjvuImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) | Initializes a new instance of the `DjvuImage` class. |
+| [DjvuImage(InputStream stream)](#DjvuImage-java.io.InputStream-) | Start working with DjVu images by initializing a new instance of the [DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) class using a Stream parameter. |
+| [DjvuImage(InputStream stream, LoadOptions loadOptions)](#DjvuImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Start working with DjVu images seamlessly with this constructor, which initializes a new [DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) class instance using a Stream and LoadOptions parameters. |
+| [DjvuImage(System.IO.Stream stream, LoadOptions loadOptions)](#DjvuImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) | Start working with DjVu images seamlessly with this constructor, which initializes a new [DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) class instance using a Stream and LoadOptions parameters. |
 ## Fields
 
 | Field | Description |
@@ -29,39 +29,39 @@ DjVu document class supports graphics file format and facilitates seamless manag
 
 | Method | Description |
 | --- | --- |
-| [loadDocument(InputStream stream)](#loadDocument-java.io.InputStream-) | Loads the document. |
+| [loadDocument(InputStream stream)](#loadDocument-java.io.InputStream-) | Load your DjVu document with this method. |
 | [loadDocument(InputStream stream, LoadOptions loadOptions)](#loadDocument-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Loads the document. |
 | [getIdentifier()](#getIdentifier--) | Gets the unique identifier for the document |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
-| [getDjvuPages()](#getDjvuPages--) | Gets the pages for the document |
-| [getActivePage()](#getActivePage--) | Gets or sets the currently active page |
-| [setActivePage(DjvuPage value)](#setActivePage-com.aspose.imaging.fileformats.djvu.DjvuPage-) | Gets or sets the currently active page |
-| [getFirstPage()](#getFirstPage--) | Gets the first page of the document |
-| [getLastPage()](#getLastPage--) | Gets the last page of the document |
-| [getNextPage()](#getNextPage--) | Gets the next page of the document |
-| [getPreviousPage()](#getPreviousPage--) | Gets the previous page of the document |
-| [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | [RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Resizes the width proportionally. |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | Resizes the width proportionally. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the Active frame only. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
-| [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a `brightness` for image. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | [Image](../../com.aspose.imaging/image) contrasting |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filters the specified rectangle. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [cacheData()](#cacheData--) | Caches the data private. |
+| [getPageCount()](#getPageCount--) | Retrieve the total number of pages in your DjVu image collection with this property. |
+| [getPages()](#getPages--) | Access the individual pages of your DjVu image collection with this property. |
+| [getDjvuPages()](#getDjvuPages--) | Quickly retrieve all the pages contained within your DjVu document using this property. |
+| [getActivePage()](#getActivePage--) | Navigate through your DjVu document by accessing or setting the currently active page using this property. |
+| [setActivePage(DjvuPage value)](#setActivePage-com.aspose.imaging.fileformats.djvu.DjvuPage-) | Navigate through your DjVu document by accessing or setting the currently active page using this property. |
+| [getFirstPage()](#getFirstPage--) | Access the first page of your DjVu document with this property. |
+| [getLastPage()](#getLastPage--) | Retrieve the last page of your DjVu document using this property. |
+| [getNextPage()](#getNextPage--) | Navigate through your DjVu document by accessing the next page with this convenient property. |
+| [getPreviousPage()](#getPreviousPage--) | Quickly move backward in your DjVu document viewing or processing tasks by accessing the previous page with this convenient property. |
+| [getFileFormat()](#getFileFormat--) | Obtain the file format information associated with your DjVu image file. |
+| [hasAlpha()](#hasAlpha--) | Quickly determine whether your DjVu image file contains an alpha channel. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate the image around its center with the Rotate method of the RasterCachedMultipageImage class. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image using the \`Resize\` method, providing a simple and effective way to adjust the dimensions of your images according to your requirements. |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | The \`ResizeWidthProportionally\` method offers a convenient solution to adjust the width of your image while maintaining its aspect ratio. |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | The \`ResizeHeightProportionally\` method allows you to adjust the height of your image while preserving its aspect ratio. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | The \`RotateFlip\` method offers versatile manipulation options for your image, allowing you to rotate, flip, or perform both operations on the active frame independently. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | The "Dither" function applies a dithering effect to your image, enhancing its visual quality by reducing banding and improving color transitions. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | "Crop" trims your image to focus on specific details or remove unwanted elements, enhancing its composition and visual impact. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop with shifts allows you to precisely adjust the position and dimensions of the cropped area within an image. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization with a predefined threshold simplifies complex images into binary representations, where pixels are categorized as either black or white based on their intensity compared to a specified threshold value. |
+| [binarizeOtsu()](#binarizeOtsu--) | Binarization using Otsu thresholding is a technique that automatically calculates an optimal threshold value based on the image's histogram. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization using Bradley's adaptive thresholding algorithm with integral image thresholding is a method that calculates a local threshold for each pixel based on a local neighborhood. |
+| [grayscale()](#grayscale--) | Grayscale transformation converts an image to a black-and-white representation, where each pixel's intensity is represented by a single value ranging from black to white. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma correction, specifically for the red, green, and blue channels, involves adjusting the brightness of each color component separately. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma correction is applied to an image with customizable parameters for the red, green, and blue channels, allowing precise adjustment of color balance and brightness. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust the `brightness` of an image using a specified parameter, providing control over luminance levels for optimal visual clarity. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | Enhance [Image](../../com.aspose.imaging/image) contrast to improve visual clarity and highlight details with this method, which adjusts the difference in brightness between light and dark areas. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Apply filters to a specified rectangular area within the image to enhance or modify its appearance. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resize the image to the specified width and height while applying additional settings as needed. |
+| [cacheData()](#cacheData--) | Cache the data privately to optimize performance and reduce the need for repeated data retrieval from external sources. |
 
 ## Example: This example shows how to load a DJVU image from a file stream.
 
@@ -90,7 +90,7 @@ public DjvuImage(InputStream stream)
 ```
 
 
-Initializes a new instance of the `DjvuImage` class.
+Start working with DjVu images by initializing a new instance of the [DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) class using a Stream parameter. Perfect for developers who want seamless integration of DjVu image processing into their projects.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -103,7 +103,7 @@ public DjvuImage(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the `DjvuImage` class.
+Start working with DjVu images seamlessly with this constructor, which initializes a new [DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) class instance using a Stream and LoadOptions parameters. Perfect for developers who want precise control over DjVu image loading options while maintaining simplicity and efficiency.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -117,12 +117,12 @@ public DjvuImage(System.IO.Stream stream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the `DjvuImage` class.
+Start working with DjVu images seamlessly with this constructor, which initializes a new [DjvuImage](../../com.aspose.imaging.fileformats.djvu/djvuimage) class instance using a Stream and LoadOptions parameters. Perfect for developers who want precise control over DjVu image loading options while maintaining simplicity and efficiency.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream. |
+| stream | com.aspose.ms.System.IO.Stream | The stream to load from. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | The load options. |
 
 ### PropertyChanged {#PropertyChanged}
@@ -139,7 +139,7 @@ public static DjvuImage loadDocument(InputStream stream)
 ```
 
 
-Loads the document.
+Load your DjVu document with this method. Streamline your process by quickly accessing and importing your DjVu files into your application.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,24 +180,20 @@ public int getPageCount()
 ```
 
 
-Gets the page count.
-
-Value: The page count.
+Retrieve the total number of pages in your DjVu image collection with this property. Ideal for quickly assessing the extent of your document or book stored in DjVu format. Improve your workflow efficiency with accurate page count information.
 
 **Returns:**
-int - the page count.
+int - The page count.
 ### getPages() {#getPages--}
 ```
 public Image[] getPages()
 ```
 
 
-Gets the pages.
-
-Value: The pages.
+Access the individual pages of your DjVu image collection with this property. Simplify navigation and manipulation of your document or book stored in DjVu format by accessing each page directly. Improve your workflow efficiency with easy page retrieval.
 
 **Returns:**
-com.aspose.imaging.Image[] - the pages.
+com.aspose.imaging.Image[] - The pages.
 
 **Example: This example shows how to load a DJVU image from a file stream.**
 
@@ -226,22 +222,20 @@ public DjvuPage[] getDjvuPages()
 ```
 
 
-Gets the pages for the document
-
-Value: The pages.
+Quickly retrieve all the pages contained within your DjVu document using this property. Simplify your document processing workflow by easily accessing and managing individual pages within your DjVu files. Improve efficiency and streamline your tasks with convenient page retrieval.
 
 **Returns:**
-com.aspose.imaging.fileformats.djvu.DjvuPage[] - the pages for the document
+com.aspose.imaging.fileformats.djvu.DjvuPage[] - The pages.
 ### getActivePage() {#getActivePage--}
 ```
 public DjvuPage getActivePage()
 ```
 
 
-Gets or sets the currently active page
+Navigate through your DjVu document by accessing or setting the currently active page using this property. Seamlessly switch between pages to focus on specific content and enhance your document viewing experience.
 
 **Returns:**
-[DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) - The active page.
+[DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage)
 
 **Example: This example shows how to load a DJVU image from a file stream and print information about the pages.**
 
@@ -292,7 +286,7 @@ public void setActivePage(DjvuPage value)
 ```
 
 
-Gets or sets the currently active page
+Navigate through your DjVu document by accessing or setting the currently active page using this property. Seamlessly switch between pages to focus on specific content and enhance your document viewing experience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,7 +299,7 @@ public DjvuPage getFirstPage()
 ```
 
 
-Gets the first page of the document
+Access the first page of your DjVu document with this property. Quickly retrieve the initial page to begin viewing or processing your document efficiently.
 
 **Returns:**
 [DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) - The first page.
@@ -359,7 +353,7 @@ public DjvuPage getLastPage()
 ```
 
 
-Gets the last page of the document
+Retrieve the last page of your DjVu document using this property. Quickly access the final page for viewing or processing purposes with ease.
 
 **Returns:**
 [DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) - The last page.
@@ -413,7 +407,7 @@ public DjvuPage getNextPage()
 ```
 
 
-Gets the next page of the document
+Navigate through your DjVu document by accessing the next page with this convenient property. Quickly move forward in your document viewing or processing tasks.
 
 **Returns:**
 [DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) - The next page.
@@ -423,7 +417,7 @@ public DjvuPage getPreviousPage()
 ```
 
 
-Gets the previous page of the document
+Quickly move backward in your DjVu document viewing or processing tasks by accessing the previous page with this convenient property. Efficiently navigate through your document with ease.
 
 **Returns:**
 [DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) - The previous page.
@@ -433,7 +427,7 @@ public long getFileFormat()
 ```
 
 
-Gets a value of file format
+Obtain the file format information associated with your DjVu image file. Quickly determine the format of your file for seamless integration into your workflow.
 
 **Returns:**
 long
@@ -443,19 +437,17 @@ public boolean hasAlpha()
 ```
 
 
-Gets the Has alpha channel.
-
-Value: The Has alpha channel.
+Quickly determine whether your DjVu image file contains an alpha channel. Simplify your workflow by checking for the presence of transparency information in your images.
 
 **Returns:**
-boolean - the Has alpha channel.
+boolean - The Has alpha channel.
 ### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
 public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-[RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center.
+Rotate the image around its center with the Rotate method of the RasterCachedMultipageImage class. This convenient feature allows you to easily adjust the orientation of images while maintaining their center position, enhancing your image manipulation capabilities.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +462,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Resizes the image.
+Resize the image using the \`Resize\` method, providing a simple and effective way to adjust the dimensions of your images according to your requirements. This versatile functionality empowers you to easily scale images to your desired size, enhancing their usability across various platforms and applications.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -536,7 +528,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+The \`ResizeWidthProportionally\` method offers a convenient solution to adjust the width of your image while maintaining its aspect ratio. By proportionally resizing the width, you can ensure that your images remain visually appealing and consistent across different devices and screen sizes, enhancing their versatility and usability in various contexts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +593,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-Resizes the width proportionally.
+The \`ResizeHeightProportionally\` method allows you to adjust the height of your image while preserving its aspect ratio. This ensures that your image maintains its proportions, preventing distortion and preserving its visual integrity. Whether you're optimizing images for web pages, mobile apps, or print media, this method ensures that your images look their best across different platforms and devices.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +658,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-Rotates, flips, or rotates and flips the Active frame only.
+The \`RotateFlip\` method offers versatile manipulation options for your image, allowing you to rotate, flip, or perform both operations on the active frame independently. Whether you're editing photos, creating graphics, or enhancing digital art, this method provides precise control over the orientation and composition of your images, ensuring they meet your creative vision with ease and efficiency.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -705,7 +697,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-Performs dithering on the current image.
+The "Dither" function applies a dithering effect to your image, enhancing its visual quality by reducing banding and improving color transitions. Whether you're working on digital art, photography, or graphic design projects, this feature adds a professional touch to your images, making them appear smoother and more refined.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -755,7 +747,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-Cropping the image.
+"Crop" trims your image to focus on specific details or remove unwanted elements, enhancing its composition and visual impact. Whether you're adjusting photos for social media, creating website banners, or designing print materials, this tool helps you refine your images with precision and clarity.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -790,7 +782,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-Crop image with shifts.
+Crop with shifts allows you to precisely adjust the position and dimensions of the cropped area within an image. This feature is invaluable for refining compositions, aligning elements, and emphasizing focal points in your visuals. By incorporating shifts into the cropping process, you can achieve pixel-perfect precision and fine-tune the framing of your images with ease.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -806,7 +798,7 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-Binarization of an image with predefined threshold
+Binarization with a predefined threshold simplifies complex images into binary representations, where pixels are categorized as either black or white based on their intensity compared to a specified threshold value. This technique is commonly used in image processing to enhance clarity, simplify analysis, and prepare images for further processing steps such as optical character recognition (OCR). By applying a fixed threshold, you can quickly transform grayscale images into binary form, making them easier to interpret and extract meaningful information from.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -838,7 +830,7 @@ public void binarizeOtsu()
 ```
 
 
-Binarization of an image with Otsu thresholding
+Binarization using Otsu thresholding is a technique that automatically calculates an optimal threshold value based on the image's histogram. It separates the image into foreground and background by minimizing the intra-class variance. Otsu's method is widely used for segmenting images into binary form, particularly when the distribution of pixel intensities is bimodal or multimodal. This approach is beneficial for tasks such as object detection, image segmentation, and feature extraction, where accurate delineation between foreground and background is crucial.
 
 
 **Example: The following example binarizes a DJVU image with Otsu thresholding.**
@@ -864,7 +856,7 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
+Binarization using Bradley's adaptive thresholding algorithm with integral image thresholding is a method that calculates a local threshold for each pixel based on a local neighborhood. It adapts to variations in illumination across the image, making it suitable for images with uneven lighting conditions. By computing the threshold using integral images, it efficiently handles large neighborhoods, making it applicable to real-time applications. This technique is commonly used in document processing, OCR (Optical Character Recognition), and image segmentation tasks where accurate binarization is essential for subsequent analysis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -896,7 +888,7 @@ public void grayscale()
 ```
 
 
-Transformation of an image to its grayscale representation
+Grayscale transformation converts an image to a black-and-white representation, where each pixel's intensity is represented by a single value ranging from black to white. This process removes color information, resulting in a monochromatic image. Grayscale images are commonly used in applications where color is unnecessary or where simplicity is preferred, such as document scanning, printing, and certain types of image analysis.
 
 
 **Example: The following example transforms a colored DJVU image to its grayscale representation.**
@@ -921,7 +913,7 @@ public void adjustGamma(float gamma)
 ```
 
 
-Gamma-correction of an image.
+Gamma correction, specifically for the red, green, and blue channels, involves adjusting the brightness of each color component separately. By applying different gamma coefficients to the RGB channels, you can fine-tune the overall brightness and contrast of an image. This technique ensures accurate color representation and improves the visual quality of the image across different display devices.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -952,7 +944,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-Gamma-correction of an image.
+Gamma correction is applied to an image with customizable parameters for the red, green, and blue channels, allowing precise adjustment of color balance and brightness. This method enhances image quality by fine-tuning color representation, ensuring optimal rendering across different display devices. Adjusting gamma values for individual channels improves color balance and visual appeal.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -985,7 +977,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-Adjust of a `brightness` for image.
+Adjust the `brightness` of an image using a specified parameter, providing control over luminance levels for optimal visual clarity. This method enhances or diminishes the overall brightness of the image, allowing for fine adjustments to achieve desired lighting effects. By modulating brightness, users can optimize image visibility and enhance detail reproduction for improved viewing experience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1016,7 +1008,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-[Image](../../com.aspose.imaging/image) contrasting
+Enhance [Image](../../com.aspose.imaging/image) contrast to improve visual clarity and highlight details with this method, which adjusts the difference in brightness between light and dark areas. By fine-tuning contrast levels, users can achieve more vivid and impactful images, enhancing overall image quality and maximizing detail visibility. This adjustment helps to bring out subtle nuances in color and texture, resulting in more dynamic and visually appealing images.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1047,7 +1039,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-Filters the specified rectangle.
+Apply filters to a specified rectangular area within the image to enhance or modify its appearance. By targeting specific regions, this method allows for precise adjustments, such as blurring, sharpening, or applying artistic effects, to achieve desired visual outcomes. Fine-tuning filters on selected areas empowers users to customize image aesthetics, improve clarity, and create artistic effects tailored to their preferences.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1134,7 +1126,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-Resizes the image.
+Resize the image to the specified width and height while applying additional settings as needed. This method enables users to adjust the dimensions of the image while maintaining desired attributes such as aspect ratio, image quality, and compression settings. By providing flexibility in resizing options, users can tailor the image to fit specific requirements and optimize its appearance for various applications and platforms.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1186,7 +1178,7 @@ public void cacheData()
 ```
 
 
-Caches the data private.
+Cache the data privately to optimize performance and reduce the need for repeated data retrieval from external sources. This approach also helps conserve resources, particularly in scenarios where data access is frequent or resources are limited.
 
 
 **Example: The following example shows how to cache all pages of a DJVU image.**

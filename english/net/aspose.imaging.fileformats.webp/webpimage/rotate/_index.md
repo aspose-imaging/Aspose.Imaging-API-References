@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/rotate/
 ---
 ## WebPImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate image around the center.
+Rotate the image around its center by a specified angle, while proportionally resizing it and applying specified background color parameters. Incorporate this method into your image processing workflow to achieve precise transformations with customizable background colors, ensuring optimal visual presentation within your application.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)

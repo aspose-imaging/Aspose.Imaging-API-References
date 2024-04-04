@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.emf/emfimage/header/
 ---
 ## EmfImage.Header property
 
-Gets or sets the header record
+Retrieve or modify the EMF metafile header record with this property. Ideal for managing metafile data efficiently within your application. Improve your workflow with streamlined access to metafile header information.
 
 ```csharp
 public EmfMetafileHeader Header { get; set; }

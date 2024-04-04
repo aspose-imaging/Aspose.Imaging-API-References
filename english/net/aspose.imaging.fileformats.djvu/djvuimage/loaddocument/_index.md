@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.djvu/djvuimage/loaddocument/
 ---
 ## DjvuImage.LoadDocument method (1 of 2)
 
-Loads the document.
+Load your DjVu document with this method. Streamline your process by quickly accessing and importing your DjVu files into your application.
 
 ```csharp
 public static DjvuImage LoadDocument(Stream stream)
@@ -32,7 +32,7 @@ Loaded djvu document
 
 ## DjvuImage.LoadDocument method (2 of 2)
 
-Loads the document.
+Import your DjVu document by utilizing this method with stream and loadOptions parameters. Streamline your process by quickly accessing and importing DjVu files into your application, providing flexibility and customization options to meet your needs.
 
 ```csharp
 public static DjvuImage LoadDocument(Stream stream, LoadOptions loadOptions)

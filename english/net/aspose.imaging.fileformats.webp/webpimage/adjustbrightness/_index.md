@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.webp/webpimage/adjustbrightness/
 ---
 ## WebPImage.AdjustBrightness method
 
-Adjust of a *brightness* for image.
+Implement *brightness* adjustment for the image, allowing the modification of overall luminance levels. Incorporate this method into your image processing workflow to enhance visibility and improve the visual quality of images within your application.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

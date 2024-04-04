@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.gif/gifimage/adjustbrightness/
 ---
 ## GifImage.AdjustBrightness method
 
-Adjust of a *brightness* for image.
+Adjusts the brightness of the image according to the specified *brightness* parameter. This method modifies the brightness of the entire image uniformly, enhancing or reducing the overall luminance to achieve the desired effect.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

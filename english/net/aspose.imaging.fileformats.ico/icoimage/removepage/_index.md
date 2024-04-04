@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.ico/icoimage/removepage/
 ---
 ## IcoImage.RemovePage method
 
-Removes an image entry at specified [index](index) from the ICO image.
+Fine-tune your ICO image by removing a specific image entry located at the designated [index](index) within the file. This method provides precise control over your image composition, allowing you to refine your ICO file with ease.
 
 ```csharp
 public void RemovePage(int index)

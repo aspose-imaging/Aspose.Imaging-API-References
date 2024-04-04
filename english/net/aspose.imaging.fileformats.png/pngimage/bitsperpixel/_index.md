@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.png/pngimage/bitsperpixel/
 ---
 ## PngImage.BitsPerPixel property
 
-Gets the bits per pixel.
+Retrieve the bits per pixel value for the image. This property provides crucial information regarding the color depth of the image, enabling developers to understand the level of detail and color accuracy present in the image data.
 
 ```csharp
 public override int BitsPerPixel { get; }

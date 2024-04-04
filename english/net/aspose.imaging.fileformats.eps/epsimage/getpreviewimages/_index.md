@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.eps/epsimage/getpreviewimages/
 ---
 ## EpsImage.GetPreviewImages method
 
-Gets the preview images.
+Accesses the preview images linked to the [`EpsImage`](../../epsimage) instance, allowing seamless retrieval for inspection or utilization in applications. This method provides convenient access to preview images, enhancing user interaction with the image data.
 
 ```csharp
 public IEnumerable<Image> GetPreviewImages()

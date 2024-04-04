@@ -83,6 +83,7 @@ The image is the base class for all type of images.
 | [save(OutputStream stream, ImageOptionsBase optionsBase)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save(OutputStream stream, ImageOptionsBase optionsBase, Rectangle boundsRectangle)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
+| [getSerializedStream(ImageOptionsBase imageOptions, Rectangle clippingRectangle, int[] pageNumber)](#getSerializedStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-int---) | Converts to aps. |
 
 ## Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.
 This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case.
@@ -1835,3 +1836,20 @@ Sets the image palette.
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
 | updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
+### getSerializedStream(ImageOptionsBase imageOptions, Rectangle clippingRectangle, int[] pageNumber) {#getSerializedStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-int---}
+```
+public InputStream getSerializedStream(ImageOptionsBase imageOptions, Rectangle clippingRectangle, int[] pageNumber)
+```
+
+
+Converts to aps.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | The image options. |
+| clippingRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The clipping rectangle. |
+| pageNumber | int[] | The page number. |
+
+**Returns:**
+java.io.InputStream - The serialized stream

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/otgimage/otgimage/
 ---
 ## OtgImage constructor (1 of 2)
 
-Initializes a new instance of the [`OtgImage`](../../otgimage) class.
+Initialize a new [`OtgImage`](../../otgimage) object by providing a stream container and loading options. This constructor empowers developers to efficiently load OTG images from streams while specifying custom loading configurations.
 
 ```csharp
 public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -31,7 +31,7 @@ public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
 
 ## OtgImage constructor (2 of 2)
 
-Initializes a new instance of the [`OtgImage`](../../otgimage) class.
+Create a new object of the [`OtgImage`](../../otgimage) class by supplying a stream container. This constructor enables developers to create OTG images directly from stream containers, streamlining the process of working with OTG image data.
 
 ```csharp
 public OtgImage(StreamContainer streamContainer)

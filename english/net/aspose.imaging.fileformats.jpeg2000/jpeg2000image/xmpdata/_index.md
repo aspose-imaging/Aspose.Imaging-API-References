@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/xmpdata/
 ---
 ## Jpeg2000Image.XmpData property
 
-Gets or sets the XMP metadata.
+Retrieve or modify the XMP metadata associated with the image. This property grants access to the Extensible Metadata Platform (XMP) information embedded within the image file, allowing for manipulation or extraction of metadata attributes such as author details, copyright information, and descriptive tags. Utilizing this property empowers you to manage and leverage metadata embedded within the image, enhancing interoperability and metadata-driven workflows in your image processing tasks.
 
 ```csharp
 public override XmpPacketWrapper XmpData { get; set; }

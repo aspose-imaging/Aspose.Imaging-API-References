@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.wmf/wmfimage/width/
 ---
 ## WmfImage.Width property
 
-Gets the image width.
+Access the width of the image, indicating the number of pixels along its horizontal axis. Utilize this property to determine the image's spatial dimensions and aspect ratio, enabling precise layout and rendering adjustments within your application.
 
 ```csharp
 public override int Width { get; }

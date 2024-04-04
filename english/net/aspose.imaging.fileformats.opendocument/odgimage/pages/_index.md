@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.opendocument/odgimage/pages/
 ---
 ## OdgImage.Pages property
 
-Gets the pages.
+Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. By accessing this property, developers can iterate through individual pages, retrieve specific pages based on their index, or perform batch operations on the entire collection.
 
 ```csharp
 public override Image[] Pages { get; }

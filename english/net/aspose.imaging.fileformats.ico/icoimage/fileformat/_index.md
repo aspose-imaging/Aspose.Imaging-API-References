@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.ico/icoimage/fileformat/
 ---
 ## IcoImage.FileFormat property
 
-Gets file format.
+Retrieve the file format effortlessly with this property, enabling seamless integration into your workflow. By using this property, you gain access to critical information about the format of your file, ensuring compatibility and efficient processing.
 
 ```csharp
 public override FileFormat FileFormat { get; }

@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/exifdata/
 ---
 ## TiffImage.ExifData property
 
-Gets or sets EXIF data for the active frame.
+Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. Enhance your application's capabilities by integrating this feature, ensuring accurate preservation and customization of essential image information.
 
 ```csharp
 public ExifData ExifData { get; set; }
