@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/
 
 **Inheritance:** MetafileRecorderGraphics2D
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

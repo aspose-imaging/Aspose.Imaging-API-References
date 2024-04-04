@@ -5,7 +5,7 @@ weight: 80
 url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 ---
 
-**Summary:** The Dxf file format creation options.
+**Summary:** API for Drawing Interchange Format (DXF) vector image creation offers<br/>            tailored solutions for generating AutoCAD drawing files with precision and<br/>            flexibility. Designed specifically for working with text lines and Bezier<br/>            curves, developers can efficiently manipulate these elements, count Bezier<br/>            points, and convert curves into polylines for seamless exporting, ensuring<br/>            compatibility and fidelity in DXF vector images.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

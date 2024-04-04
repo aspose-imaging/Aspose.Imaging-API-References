@@ -5,7 +5,7 @@ weight: 140
 url: /python-net/aspose.imaging.imageoptions/icooptions/
 ---
 
-**Summary:** The ICO file format creation options.
+**Summary:** Create custom ICO image files for application icons effortlessly with our API,<br/>            empowering you to represent your software seamlessly. Our API supports PNG and<br/>            BMP image frames with various bits per pixel values, ensuring versatility and<br/>            compatibility for your icon creation needs.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/icooptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

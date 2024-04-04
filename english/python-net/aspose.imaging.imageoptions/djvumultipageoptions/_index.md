@@ -5,7 +5,7 @@ weight: 70
 url: /python-net/aspose.imaging.imageoptions/djvumultipageoptions/
 ---
 
-**Summary:** Djvu format page options
+**Summary:** The API for DjVu graphics file format provides developers with seamless access<br/>            to DjVu documents, ideal for scanned documents and books. With image loading<br/>            options, developers can effortlessly integrate DjVu files into their applications,<br/>            unlocking the potential to work with multi-page content, including text,<br/>            drawings, and images, for versatile document processing solutions.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/djvumultipageoptions/
 
 **Inheritance:** MultiPageOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ The module handles Png file format processing.
 ## **Classes**
 | **Class** | **Description** |
 | :- | :- |
-| [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) | The new png image. |
+| [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) | Manipulate Portable Network Graphics (PNG) raster images with our versatile API,<br/>            featuring support for compression levels and various color depths including<br/>            Grayscale, Indexed Color, TrueColor, and alpha channels. Seamlessly process XMP metadata,<br/>            enabling comprehensive image metadata management, while easily loading PNG images,<br/>            performing diverse manipulations, applying filters, and converting images to other file<br/>            formats for optimal versatility and customization. |
 ## **Enumerations**
 | **Enumeration** | **Description** |
 | :- | :- |

@@ -11,7 +11,7 @@ Photometric interpolation enum
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffPhotometrics
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

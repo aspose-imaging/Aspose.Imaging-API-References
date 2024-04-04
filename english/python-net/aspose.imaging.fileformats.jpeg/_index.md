@@ -12,7 +12,7 @@ The module handles Jpeg file format processing.
 | **Class** | **Description** |
 | :- | :- |
 | [JFIFData](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdata/) | The jfif segment. |
-| [JpegImage](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegimage/) | A jpeg image. |
+| [JpegImage](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegimage/) | Efficiently manipulate JPEG raster images with our API, offering support<br/>            for various color profiles such as RGB and CMYK, customizable bits per pixel<br/>            resolution, and processing of EXIF, JFIF, and XMP metadata containers.<br/>            Enjoy automated rotation based on orientation data and choose from different<br/>            compression levels, including lossless JPEG, to achieve optimal image quality<br/>            and file size balance for your projects. |
 | [JpegLsPresetCodingParameters](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/) | Defines the JPEG-LS preset coding parameters as defined in ISO/IEC 14495-1, C.2.4.1.1.<br/>            JPEG-LS defines a default set of parameters, but custom parameters can be used.<br/>            When used these parameters are written into the encoded bit stream as they are needed for the decoding process. |
 ## **Enumerations**
 | **Enumeration** | **Description** |

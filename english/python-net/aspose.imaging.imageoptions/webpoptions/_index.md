@@ -5,7 +5,7 @@ weight: 350
 url: /python-net/aspose.imaging.imageoptions/webpoptions/
 ---
 
-**Summary:** Webp image options
+**Summary:** Create modern WebP raster web images using our API, featuring robust support for<br/>            lossless and lossy compression, as well as alpha channels and animation loops.<br/>            Enhance your web content with dynamic visuals while optimizing file sizes<br/>            for improved loading speeds and user experience.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/webpoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: IImageCreatorDescriptor Class
 type: docs
-weight: 5110
+weight: 5150
 url: /python-net/aspose.imaging/iimagecreatordescriptor/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/iimagecreatordescriptor/
 
 **Inheritance:** IImageDescriptor
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging/iimagecreatordescriptor/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [can_create(image_options)](#can_create_image_options_1) | Determines whether image creator can create a new image using the <paramref name="imageOptions" />. |
+| [can_create(image_options)](#can_create_image_options_1) | Determines whether image creator can create a new image using the _imageOptions_. |
 | [create_instance()](#create_instance__2) | Creates a new creator instance. |
 
 
@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging/iimagecreatordescriptor/
  can_create(image_options) 
 ```
 
-Determines whether image creator can create a new image using the <paramref name="imageOptions" />.
+Determines whether image creator can create a new image using the _imageOptions_.
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ Determines whether image creator can create a new image using the <paramref name
 
 | Type | Description |
 | :- | :- |
-| bool | <c>True</c> if image creator created by this descriptor can create image data using the specified <paramref name="imageOptions" />; otherwise, <c>false</c>. |
+| bool | <c>True</c> if image creator created by this descriptor can create image data using the specified _imageOptions_; otherwise, <c>false</c>. |
 
 
 ### Method: create_instance() {#create_instance__2}

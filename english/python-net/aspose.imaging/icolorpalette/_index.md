@@ -1,7 +1,7 @@
 ---
 title: IColorPalette Class
 type: docs
-weight: 5060
+weight: 5100
 url: /python-net/aspose.imaging/icolorpalette/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/icolorpalette/
 
 **Full Name:** aspose.imaging.IColorPalette
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -48,7 +48,7 @@ Gets the 32-bit ARGB palette color by index.
 
 | Type | Description |
 | :- | :- |
-| int | The color palette entry specified by the <paramref name="index" />. |
+| int | The color palette entry specified by the _index_. |
 
 
 ### Method: get_color(index) {#get_color_index_2}
@@ -70,7 +70,7 @@ Gets the palette color by index.
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The color palette entry specified by the <paramref name="index" />. |
+| [Color](/imaging/python-net/aspose.imaging/color) | The color palette entry specified by the _index_. |
 
 
 ### Method: get_nearest_color_index(argb_32_color) {#get_nearest_color_index_argb_32_color_3}

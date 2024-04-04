@@ -1,7 +1,7 @@
 ---
 title: ImageLoadersRegistry Class
 type: docs
-weight: 5510
+weight: 5550
 url: /python-net/aspose.imaging/imageloadersregistry/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/imageloadersregistry/
 
 **Full Name:** aspose.imaging.ImageLoadersRegistry
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -21,8 +21,8 @@ url: /python-net/aspose.imaging/imageloadersregistry/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_first_supported_loader(stream, load_options)](#create_first_supported_loader_stream_load_options_1) | Creates the first found loader suitable for the specified <paramref name="stream" /> and optionally the <paramref name="loadOptions" />. |
-| [get_first_supported_descriptor(stream, load_options)](#get_first_supported_descriptor_stream_load_options_2) | Gets the fist found supported descriptor suitable for the specified <paramref name="stream" /> and optionally the <paramref name="loadOptions" />. |
+| [create_first_supported_loader(stream, load_options)](#create_first_supported_loader_stream_load_options_1) | Creates the first found loader suitable for the specified _stream_ and optionally the _loadOptions_. |
+| [get_first_supported_descriptor(stream, load_options)](#get_first_supported_descriptor_stream_load_options_2) | Gets the fist found supported descriptor suitable for the specified _stream_ and optionally the _loadOptions_. |
 | [get_first_supported_descriptor_by_file_format(file_format)](#get_first_supported_descriptor_by_file_format_file_format_3) | Gets the first supported file format by its type name. |
 | [get_first_supported_descriptor_by_type_name(descriptor_type_name)](#get_first_supported_descriptor_by_type_name_descriptor_type_name_4) | Gets the first supported descriptor by its type name. |
 | [register(image_loader_descriptor)](#register_image_loader_descriptor_5) | Registers the specified image loader descriptor. |
@@ -37,7 +37,7 @@ url: /python-net/aspose.imaging/imageloadersregistry/
  create_first_supported_loader(stream, load_options) 
 ```
 
-Creates the first found loader suitable for the specified <paramref name="stream" /> and optionally the <paramref name="loadOptions" />.
+Creates the first found loader suitable for the specified _stream_ and optionally the _loadOptions_.
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Creates the first found loader suitable for the specified <paramref name="stream
 
 | Type | Description |
 | :- | :- |
-| [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader) | The loader which supports the specified <paramref name="stream" /> and <paramref name="loadOptions" /> or null if no such loader is found. |
+| [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader) | The loader which supports the specified _stream_ and _loadOptions_ or null if no such loader is found. |
 
 
 ### Method: get_first_supported_descriptor(stream, load_options)  [static] {#get_first_supported_descriptor_stream_load_options_2}
@@ -60,7 +60,7 @@ Creates the first found loader suitable for the specified <paramref name="stream
  get_first_supported_descriptor(stream, load_options) 
 ```
 
-Gets the fist found supported descriptor suitable for the specified <paramref name="stream" /> and optionally the <paramref name="loadOptions" />.
+Gets the fist found supported descriptor suitable for the specified _stream_ and optionally the _loadOptions_.
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ Gets the fist found supported descriptor suitable for the specified <paramref na
 
 | Type | Description |
 | :- | :- |
-| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The loader descriptor which supports the specified <paramref name="stream" /> and <paramref name="loadOptions" /> or null if no such descriptor is found. |
+| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The loader descriptor which supports the specified _stream_ and _loadOptions_ or null if no such descriptor is found. |
 
 
 ### Method: get_first_supported_descriptor_by_file_format(file_format)  [static] {#get_first_supported_descriptor_by_file_format_file_format_3}

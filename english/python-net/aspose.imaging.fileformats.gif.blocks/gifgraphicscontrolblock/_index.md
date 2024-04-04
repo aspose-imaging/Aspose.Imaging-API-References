@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
 
 **Inheritance:** IGifBlock, GifBlock
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -65,7 +65,7 @@ Initializes a new instance of the [GifGraphicsControlBlock](/imaging/python-net/
 | Parameter | Type | Description |
 | :- | :- | :- |
 | delay_time | ushort | The delay time expressed in 1/100 seconds. |
-| has_transparent_color | bool | if set to <c>true</c> the <paramref name="transparentColorIndex" /> is valid. |
+| has_transparent_color | bool | if set to <c>true</c> the _transparentColorIndex_ is valid. |
 | transparent_color_index | byte | The transparent color index. |
 | requires_user_input | bool | if set to <c>true</c> the user input is expected. |
 | disposal_method | [DisposalMethod](/imaging/python-net/aspose.imaging.fileformats.gif/disposalmethod) | The disposal method. |

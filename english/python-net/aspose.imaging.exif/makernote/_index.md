@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/makernote/
 
 **Full Name:** aspose.imaging.exif.MakerNote
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

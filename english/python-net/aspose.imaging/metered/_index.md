@@ -1,7 +1,7 @@
 ---
 title: Metered Class
 type: docs
-weight: 5920
+weight: 5960
 url: /python-net/aspose.imaging/metered/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/metered/
 
 **Full Name:** aspose.imaging.Metered
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

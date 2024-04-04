@@ -1,7 +1,7 @@
 ---
 title: IIndexedColorConverter Class
 type: docs
-weight: 5180
+weight: 5220
 url: /python-net/aspose.imaging/iindexedcolorconverter/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/iindexedcolorconverter/
 
 **Full Name:** aspose.imaging.IIndexedColorConverter
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Methods**
 | **Name** | **Description** |

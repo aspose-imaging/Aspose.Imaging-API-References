@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -399,7 +399,7 @@ Removes the tags.
 
 | Type | Description |
 | :- | :- |
-| bool | <see langword="true" /> if tag collection size changed. |
+| bool | **True** if tag collection size changed. |
 
 
 ## **Examples**

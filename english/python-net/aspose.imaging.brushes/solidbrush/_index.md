@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.brushes/solidbrush/
 
 **Inheritance:** Brush
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

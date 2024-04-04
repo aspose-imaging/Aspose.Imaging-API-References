@@ -11,7 +11,7 @@ The CombineMode enumeration defines modes for combining two graphics regions. <b
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCombineMode
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

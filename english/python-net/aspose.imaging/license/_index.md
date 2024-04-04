@@ -1,7 +1,7 @@
 ---
 title: License Class
 type: docs
-weight: 5720
+weight: 5760
 url: /python-net/aspose.imaging/license/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/license/
 
 **Full Name:** aspose.imaging.License
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -47,7 +47,7 @@ Licenses the component.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| license_name | string | Can be a full or short file name <ms> or name of an embedded resource</ms>. Use an empty string to switch to evaluation mode. |
+| license_name | string | Can be a full or short file name . Use an empty string to switch to evaluation mode. |
 
 ### Method: set_license(stream) {#set_license_stream_2}
 

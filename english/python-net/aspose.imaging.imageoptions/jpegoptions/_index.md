@@ -5,7 +5,7 @@ weight: 160
 url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 ---
 
-**Summary:** The jpeg file format create options.
+**Summary:** Create high-quality JPEG images effortlessly with our API, offering adjustable<br/>            levels of compression to optimize storage size without compromising image quality.<br/>            Benefit from support for various compression types, near lossless coding,<br/>            RGB and CMYK color profiles, as well as EXIF, JFIF image data, and XMP<br/>            containers, ensuring versatile and customizable options for your image creation needs.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -46,7 +46,7 @@ url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | resolution_unit | [ResolutionUnit](/imaging/python-net/aspose.imaging/resolutionunit) | r/w | Gets or sets the resolution unit. |
 | rgb_color_profile | [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) | r/w | The destination RGB color profile for CMYK jpeg images. Use for saving images. Must be in pair with CMYKColorProfile for correct color conversion. |
-| sample_rounding_mode | [SampleRoundingMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/sampleroundingmode/) | r/w | Gets or sets the sample rounding mode to fit an 8-bit value to an n-bit value. <see cref="P:JpegOptions.BitsPerChannel" /> |
+| sample_rounding_mode | [SampleRoundingMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/sampleroundingmode/) | r/w | Gets or sets the sample rounding mode to fit an 8-bit value to an n-bit value. _JpegOptions.BitsPerChannel_ |
 | scaled_quality | int | r | The scaled quality. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |

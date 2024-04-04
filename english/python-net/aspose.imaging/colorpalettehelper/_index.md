@@ -1,7 +1,7 @@
 ---
 title: ColorPaletteHelper Class
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.imaging/colorpalettehelper/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colorpalettehelper/
 
 **Full Name:** aspose.imaging.ColorPaletteHelper
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Methods**
 | **Name** | **Description** |
@@ -148,7 +148,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_7}
@@ -173,7 +173,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_8}
@@ -199,7 +199,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color, keep_transparency)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_keep_transparency_9}
@@ -226,7 +226,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, entries_count)  [static] {#get_close_image_palette_image_entries_count_10}
@@ -249,13 +249,15 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 
 **See also:**
 
 **[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
+
+**[Example # 2](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
 
 
 ### Method: get_close_image_palette(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_image_entries_count_palette_mining_method_11}
@@ -279,7 +281,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 
@@ -309,7 +311,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette_by_rect(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_by_rect_image_dest_bounds_entries_count_13}
@@ -333,7 +335,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_transparent_image_palette(image, entries_count)  [static] {#get_close_transparent_image_palette_image_entries_count_14}
@@ -356,7 +358,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_downscale_palette(image)  [static] {#get_downscale_palette_image_15}
@@ -492,6 +494,42 @@ with Image.load(sourceFilePath) as image:
 	image.save(outputFilePath, png_options);
 }
 # The output file size should be significantly reduced
+
+```
+
+### The following example loads a BMP image and saves it back to BMP using various save options. {#example_90}
+``` python
+from aspose.imaging import Image, RasterImage, ColorPaletteHelper, ResolutionSetting
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.fileformats.bmp import BitmapCompression
+import os
+import aspose.pycore as aspycore
+
+directory = "c:\\temp\\"
+
+with Image.load(os.path.join(directory, "sample.bmp")) as image:
+	
+	rasterImage = aspycore.as_of(image, RasterImage)
+
+	# Create BmpOptions
+	saveOptions = BmpOptions()
+
+	# Use 8 bits per pixel to reduce the size of the output image.
+	saveOptions.bits_per_pixel = 8
+
+	# Set the closest 8-bit color palette which covers the maximal number of image pixels, so that a palettized image
+	# is almost visually indistinguishable from a non-palletized one.
+	saveOptions.palette = ColorPaletteHelper.get_close_image_palette(rasterImage, 256)
+
+	# Save without compression.
+	# You can also use RLE-8 compression to reduce the size of the output image.
+	saveOptions.compression = BitmapCompression.RGB
+
+	# Set the horizontal and vertical resolution to 96 dpi.
+	saveOptions.resolution_settings = ResolutionSetting(96.0, 96.0)
+
+	image.save(os.path.join(directory, "sample.bmpoptions.bmp"), saveOptions)
+
 
 ```
 

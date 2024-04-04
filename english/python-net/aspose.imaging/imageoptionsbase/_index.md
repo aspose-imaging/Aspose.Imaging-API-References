@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5540
+weight: 5580
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 
 **Inheritance:** DisposableObject
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | [palette](#palette1) | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
-| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| [resolution_settings](#resolution_settings2) | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
@@ -42,6 +42,17 @@ Gets or sets the color palette.
 **[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
 
 **[Example # 2](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
+
+**[Example # 3](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+
+
+### Property: resolution_settings {#resolution_settings2}
+
+Gets or sets the resolution settings.
+
+**See also:**
+
+**[Example # 1](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
 
 
 ### Method: clone() {#clone__1}
@@ -127,6 +138,42 @@ with Image.load(sourceFilePath) as image:
 	image.save(outputFilePath, png_options);
 }
 # The output file size should be significantly reduced
+
+```
+
+### The following example loads a BMP image and saves it back to BMP using various save options. {#example_90}
+``` python
+from aspose.imaging import Image, RasterImage, ColorPaletteHelper, ResolutionSetting
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.fileformats.bmp import BitmapCompression
+import os
+import aspose.pycore as aspycore
+
+directory = "c:\\temp\\"
+
+with Image.load(os.path.join(directory, "sample.bmp")) as image:
+	
+	rasterImage = aspycore.as_of(image, RasterImage)
+
+	# Create BmpOptions
+	saveOptions = BmpOptions()
+
+	# Use 8 bits per pixel to reduce the size of the output image.
+	saveOptions.bits_per_pixel = 8
+
+	# Set the closest 8-bit color palette which covers the maximal number of image pixels, so that a palettized image
+	# is almost visually indistinguishable from a non-palletized one.
+	saveOptions.palette = ColorPaletteHelper.get_close_image_palette(rasterImage, 256)
+
+	# Save without compression.
+	# You can also use RLE-8 compression to reduce the size of the output image.
+	saveOptions.compression = BitmapCompression.RGB
+
+	# Set the horizontal and vertical resolution to 96 dpi.
+	saveOptions.resolution_settings = ResolutionSetting(96.0, 96.0)
+
+	image.save(os.path.join(directory, "sample.bmpoptions.bmp"), saveOptions)
+
 
 ```
 

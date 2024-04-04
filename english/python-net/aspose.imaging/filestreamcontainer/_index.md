@@ -1,7 +1,7 @@
 ---
 title: FileStreamContainer Class
 type: docs
-weight: 4710
+weight: 4740
 url: /python-net/aspose.imaging/filestreamcontainer/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/filestreamcontainer/
 
 **Inheritance:** StreamContainer
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -120,8 +120,8 @@ Reads a sequence of bytes from the current stream and advances the position with
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | byte | An array of bytes. When this method returns, the buffer contains the specified byte array with the values between <paramref name="offset" /> and (<paramref name="offset" /> + <paramref name="count" /> - 1) replaced by the bytes read from the current source. |
-| offset | int | The zero-based byte offset in <paramref name="buffer" /> at which to begin storing the data read from the current stream. |
+| buffer | byte | An array of bytes. When this method returns, the buffer contains the specified byte array with the values between _offset_ and (_offset_ + _count_ - 1) replaced by the bytes read from the current source. |
+| offset | int | The zero-based byte offset in _buffer_ at which to begin storing the data read from the current stream. |
 | count | int | The maximum number of bytes to be read from the current stream. |
 
 **Returns**
@@ -359,7 +359,7 @@ Sets the position within the current stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| offset | long | A byte offset relative to the <paramref name="origin" /> parameter. This value represents offset from the starting stream position passed in the StreamContainer constructor. |
+| offset | long | A byte offset relative to the _origin_ parameter. This value represents offset from the starting stream position passed in the StreamContainer constructor. |
 | origin | [SeekOrigin](/imaging/python-net/aspose.imaging/seekorigin) | A value of type SeekOrigin indicating the reference point used to obtain the new position. |
 
 **Returns**
@@ -421,8 +421,8 @@ Writes a sequence of bytes to the current stream and advances the current positi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | byte | An array of bytes. This method copies <paramref name="count" /> bytes from <paramref name="buffer" /> to the current stream. |
-| offset | int | The zero-based byte offset in <paramref name="buffer" /> at which to begin copying bytes to the current stream. |
+| buffer | byte | An array of bytes. This method copies _count_ bytes from _buffer_ to the current stream. |
+| offset | int | The zero-based byte offset in _buffer_ at which to begin copying bytes to the current stream. |
 | count | int | The number of bytes to be written to the current stream. |
 
 ### Method: write(bytes) {#write_bytes_21}

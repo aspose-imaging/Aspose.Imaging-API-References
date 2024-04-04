@@ -1,7 +1,7 @@
 ---
 title: PenAlignment Enumeration
 type: docs
-weight: 10730
+weight: 10770
 url: /python-net/aspose.imaging/penalignment/
 ---
 
@@ -11,7 +11,7 @@ Specifies the alignment of a [Pen](/imaging/python-net/aspose.imaging/pen/) obje
 
 **Full Name:** aspose.imaging.PenAlignment
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

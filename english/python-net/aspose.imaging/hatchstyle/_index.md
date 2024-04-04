@@ -1,7 +1,7 @@
 ---
 title: HatchStyle Enumeration
 type: docs
-weight: 10410
+weight: 10450
 url: /python-net/aspose.imaging/hatchstyle/
 ---
 
@@ -11,7 +11,7 @@ Specifies the different patterns available for [HatchBrush](/imaging/python-net/
 
 **Full Name:** aspose.imaging.HatchStyle
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

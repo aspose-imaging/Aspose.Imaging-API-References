@@ -5,7 +5,7 @@ weight: 130
 url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 
-**Summary:** The Html5 Canvas file format creation options.
+**Summary:** Create HTML5 Canvas files effortlessly with our API, allowing you to seamlessly<br/>            combine elements like forms, text, images, animations, and links. Benefit from<br/>            robust features including tag identifier and encoding settings support,<br/>            ensuring optimal performance and customization for your web projects.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | canvas_tag_id | string | r/w | Gets or sets the canvas tag identifier. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| encoding | System.Text.Encoding | r/w | Gets or sets the encoding. |
+| encoding | string | r/w | Gets or sets the encoding. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | full_html_page | bool | r/w | Gets or sets a value indicating whether the full HTML page should be generated. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |

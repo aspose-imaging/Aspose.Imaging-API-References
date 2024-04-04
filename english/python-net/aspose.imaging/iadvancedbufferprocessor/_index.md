@@ -1,7 +1,7 @@
 ---
 title: IAdvancedBufferProcessor Class
 type: docs
-weight: 4950
+weight: 4990
 url: /python-net/aspose.imaging/iadvancedbufferprocessor/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/iadvancedbufferprocessor/
 
 **Inheritance:** IBufferProcessor
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Methods**
 | **Name** | **Description** |

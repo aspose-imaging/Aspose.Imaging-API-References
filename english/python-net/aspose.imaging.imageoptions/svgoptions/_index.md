@@ -5,7 +5,7 @@ weight: 290
 url: /python-net/aspose.imaging.imageoptions/svgoptions/
 ---
 
-**Summary:** The SVG file format creation options.
+**Summary:** Create Scalar Vector Graphics (SVG) image files with our API, utilizing versatile<br/>            options for color types and compression levels. Seamlessly customize your<br/>            SVG images with precision, ensuring optimal quality and compatibility for your design needs.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/svgoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

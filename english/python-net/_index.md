@@ -31,7 +31,7 @@ url: /python-net/
 | [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/) | The module handles Tiff file format processing. |
 | [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/) | The module handles Tiff file format processing. |
 | [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/) | The module contains PSD Vector Paths. |
-| [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/) | The module handles Dicom file format processin |
+| [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/) | The module handles Dicom file format processing |
 | [aspose.imaging.fileformats.djvu](/imaging/python-net/aspose.imaging.fileformats.djvu/) | The module contains djvu classes |
 | [aspose.imaging.fileformats.dng](/imaging/python-net/aspose.imaging.fileformats.dng/) | The module contains DNG file format types |
 | [aspose.imaging.fileformats.dng.decoder](/imaging/python-net/aspose.imaging.fileformats.dng.decoder/) | The module contains DNG decoder types |
@@ -78,6 +78,8 @@ url: /python-net/
 | [aspose.imaging.fileformats.wmf.graphics](/imaging/python-net/aspose.imaging.fileformats.wmf.graphics/) | The module contains Wmf graphics. |
 | [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/) | The module contains types [MS-WMF]: Windows Metafile Format 2.2 WMF Objects |
 | [aspose.imaging.fileformats.wmf.objects.escaperecords](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/) | The module contains escape types [MS-WMF]: Windows |
+| [aspose.imaging.imagefilters.complexutils](/imaging/python-net/aspose.imaging.imagefilters.complexutils/) | The module contains the Complex class. |
+| [aspose.imaging.imagefilters.convolution](/imaging/python-net/aspose.imaging.imagefilters.convolution/) | The module contains the convolution filters and kernels. |
 | [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/) | The module handles Filter options. |
 | [aspose.imaging.imageloadoptions](/imaging/python-net/aspose.imaging.imageloadoptions/) | The module contains different file format load options. |
 | [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/) | The module contains classes suitable for export, save or creation of different file formats. |

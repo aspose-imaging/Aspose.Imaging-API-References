@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifblocksregistry/
 
 **Full Name:** aspose.imaging.fileformats.gif.GifBlocksRegistry
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifblocksregistry/
 | :- | :- |
 | [get_first_supported_descriptor(stream)](#get_first_supported_descriptor_stream_1) | Gets the first supported opener descriptor. |
 | [get_first_supported_descriptor_by_type_name(descriptor_type_name)](#get_first_supported_descriptor_by_type_name_descriptor_type_name_2) | Gets the first supported descriptor by its type name. |
-| [load_block_by_first_supported_descriptor(stream, container_palette)](#load_block_by_first_supported_descriptor_stream_container_palette_3) | Loads gif block using first found opener suitable for the specified <paramref name="stream" />. |
+| [load_block_by_first_supported_descriptor(stream, container_palette)](#load_block_by_first_supported_descriptor_stream_container_palette_3) | Loads gif block using first found opener suitable for the specified _stream_. |
 | [register_opener(opener_descriptor)](#register_opener_opener_descriptor_4) | Registers the opener. |
 | [unregister_opener(opener_descriptor)](#unregister_opener_opener_descriptor_5) | Unregisters the opener. |
 
@@ -78,7 +78,7 @@ Gets the first supported descriptor by its type name.
  load_block_by_first_supported_descriptor(stream, container_palette) 
 ```
 
-Loads gif block using first found opener suitable for the specified <paramref name="stream" />.
+Loads gif block using first found opener suitable for the specified _stream_.
 
 **Parameters:**
 

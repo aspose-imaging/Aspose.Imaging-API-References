@@ -1,7 +1,7 @@
 ---
 title: Rectangle Class
 type: docs
-weight: 6880
+weight: 6920
 url: /python-net/aspose.imaging/rectangle/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/rectangle/
 
 **Full Name:** aspose.imaging.Rectangle
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -39,12 +39,12 @@ url: /python-net/aspose.imaging/rectangle/
 | :- | :- |
 | [ceiling(value)](#ceiling_value_1) | Converts the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure by rounding the [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) values to the next higher integer values. |
 | [contains(point)](#contains_point_2) | Determines if the specified point is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
-| [contains(rect)](#contains_rect_3) | Determines if the rectangular region represented by <paramref name="rect" /> is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
+| [contains(rect)](#contains_rect_3) | Determines if the rectangular region represented by _rect_ is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | [contains(x, y)](#contains_x_y_4) | Determines if the specified point is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | [contains_point(point)](#contains_point_point_5) | Determines if the specified point is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
-| [contains_rect(rect)](#contains_rect_rect_6) | Determines if the rectangular region represented by <paramref name="rect" /> is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
+| [contains_rect(rect)](#contains_rect_rect_6) | Determines if the rectangular region represented by _rect_ is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | [from_left_top_right_bottom(left, top, right, bottom)](#from_left_top_right_bottom_left_top_right_bottom_7) | Creates a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure with the specified edge locations. |
-| [from_points(point1, point2)](#from_points_point1_point2_8) | Creates a new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) from two points specified. Two verticales of the created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) will be equal to the passed <paramref name="point1" /> and <paramref name="point2" />. These would be typically the opposite vertices. |
+| [from_points(point1, point2)](#from_points_point1_point2_8) | Creates a new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) from two points specified. Two verticales of the created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) will be equal to the passed _point1_ and _point2_. These would be typically the opposite vertices. |
 | [inflate(rect, x, y)](#inflate_rect_x_y_9) | Creates and returns an inflated copy of the specified [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. The copy is inflated by the specified amount. The original [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure remains unmodified. |
 | [inflate(size)](#inflate_size_10) | Inflates this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) by the specified amount. |
 | [inflate(width, height)](#inflate_width_height_11) | Inflates this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) by the specified amount. |
@@ -52,7 +52,7 @@ url: /python-net/aspose.imaging/rectangle/
 | [intersect(a, b)](#intersect_a_b_13) | Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the intersection of two other [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. If there is no intersection, an empty [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) is returned. |
 | [intersect(rect)](#intersect_rect_14) | Replaces this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with the intersection of itself and the specified [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 | [intersect_rects(a, b)](#intersect_rects_a_b_15) | Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the intersection of two other [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. If there is no intersection, an empty [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) is returned. |
-| [intersects_with(rect)](#intersects_with_rect_16) | Determines if this rectangle intersects with <paramref name="rect" />. |
+| [intersects_with(rect)](#intersects_with_rect_16) | Determines if this rectangle intersects with _rect_. |
 | normalize() | Normalizes the rectangle by making it's width and height positive, left less than right and top less than bottom. |
 | [offset(pos)](#offset_pos_17) | Adjusts the location of this rectangle by the specified amount. |
 | [offset(x, y)](#offset_x_y_18) | Adjusts the location of this rectangle by the specified amount. |
@@ -145,7 +145,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
 
 | Type | Description |
 | :- | :- |
-| bool | This method returns true if the point represented by <paramref name="point" /> is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
+| bool | This method returns true if the point represented by _point_ is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
 
 
 ### Method: contains(rect) {#contains_rect_3}
@@ -155,7 +155,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
  contains(rect) 
 ```
 
-Determines if the rectangular region represented by <paramref name="rect" /> is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure.
+Determines if the rectangular region represented by _rect_ is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure.
 
 **Parameters:**
 
@@ -167,7 +167,7 @@ Determines if the rectangular region represented by <paramref name="rect" /> is 
 
 | Type | Description |
 | :- | :- |
-| bool | This method returns true if the rectangular region represented by <paramref name="rect" /> is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
+| bool | This method returns true if the rectangular region represented by _rect_ is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
 
 
 ### Method: contains(x, y) {#contains_x_y_4}
@@ -190,7 +190,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
 
 | Type | Description |
 | :- | :- |
-| bool | This method returns true if the point defined by <paramref name="x" /> and <paramref name="y" /> is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
+| bool | This method returns true if the point defined by _x_ and _y_ is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
 
 
 ### Method: contains_point(point) {#contains_point_point_5}
@@ -212,7 +212,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
 
 | Type | Description |
 | :- | :- |
-| bool | This method returns true if the point represented by <paramref name="point" /> is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
+| bool | This method returns true if the point represented by _point_ is contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
 
 
 ### Method: contains_rect(rect) {#contains_rect_rect_6}
@@ -222,7 +222,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
  contains_rect(rect) 
 ```
 
-Determines if the rectangular region represented by <paramref name="rect" /> is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure.
+Determines if the rectangular region represented by _rect_ is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure.
 
 **Parameters:**
 
@@ -234,7 +234,7 @@ Determines if the rectangular region represented by <paramref name="rect" /> is 
 
 | Type | Description |
 | :- | :- |
-| bool | This method returns true if the rectangular region represented by <paramref name="rect" /> is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
+| bool | This method returns true if the rectangular region represented by _rect_ is entirely contained within this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure; otherwise false. |
 
 
 ### Method: from_left_top_right_bottom(left, top, right, bottom)  [static] {#from_left_top_right_bottom_left_top_right_bottom_7}
@@ -269,7 +269,7 @@ Creates a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure w
  from_points(point1, point2) 
 ```
 
-Creates a new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) from two points specified. Two verticales of the created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) will be equal to the passed <paramref name="point1" /> and <paramref name="point2" />. These would be typically the opposite vertices.
+Creates a new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) from two points specified. Two verticales of the created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) will be equal to the passed _point1_ and _point2_. These would be typically the opposite vertices.
 
 **Parameters:**
 
@@ -384,7 +384,7 @@ Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) struc
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of <paramref name="a" /> and <paramref name="b" />. |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of _a_ and _b_. |
 
 
 ### Method: intersect(rect) {#intersect_rect_14}
@@ -422,7 +422,7 @@ Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) struc
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of <paramref name="a" /> and <paramref name="b" />. |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of _a_ and _b_. |
 
 
 ### Method: intersects_with(rect) {#intersects_with_rect_16}
@@ -432,7 +432,7 @@ Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) struc
  intersects_with(rect) 
 ```
 
-Determines if this rectangle intersects with <paramref name="rect" />.
+Determines if this rectangle intersects with _rect_.
 
 **Parameters:**
 

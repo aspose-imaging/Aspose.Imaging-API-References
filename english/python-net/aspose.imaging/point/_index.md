@@ -1,7 +1,7 @@
 ---
 title: Point Class
 type: docs
-weight: 6720
+weight: 6760
 url: /python-net/aspose.imaging/point/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/point/
 
 **Full Name:** aspose.imaging.Point
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -112,7 +112,7 @@ Adds the specified [Size](/imaging/python-net/aspose.imaging/size/) to the speci
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) to add to. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) to add to the <paramref name="point" />. |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) to add to the _point_. |
 
 **Returns**
 
@@ -271,7 +271,7 @@ Returns the result of subtracting specified [Size](/imaging/python-net/aspose.im
 | Parameter | Type | Description |
 | :- | :- | :- |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) to be subtracted from. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) to subtract from the <paramref name="point" />. |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) to subtract from the _point_. |
 
 **Returns**
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 
 **Full Name:** aspose.imaging.fileformats.wmf.objects.WmfPitchAndFamily
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| byte_data | byte | r/w | Sets the <see langword="byte" /> data. |
+| byte_data | byte | r/w | Sets the **byte** data. |
 | family | [WmfFamilyFont](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmffamilyfont/) | r | Gets A property of a font that describes its general appearance.<br/>                This MUST be a value in the FamilyFont enumeration |
 | pitch | [WmfPitchFont](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfpitchfont/) | r | Gets A property of a font that describes the pitch, of the<br/>                characters. This MUST be a value in the PitchFont enumeration. |
 ## **Methods**
@@ -53,7 +53,7 @@ Initializes a new instance of the [WmfPitchAndFamily](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| byte_data | byte | The <see langword="byte" /> data. |
+| byte_data | byte | The **byte** data. |
 
 ### Constructor: WmfPitchAndFamily(pitch, family) {#WmfPitchAndFamily_pitch_family_3}
 

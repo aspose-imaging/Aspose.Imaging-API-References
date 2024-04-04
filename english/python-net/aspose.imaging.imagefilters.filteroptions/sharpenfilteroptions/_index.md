@@ -1,32 +1,34 @@
 ---
 title: SharpenFilterOptions Class
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 
-**Summary:** The Sharpen filter options
+**Summary:** The sharpen filter options.
 
 **Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
 **Full Name:** aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions
 
-**Inheritance:** ConvolutionFilterOptions
+**Inheritance:** GaussianBlurFilterOptions
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [SharpenFilterOptions()](#SharpenFilterOptions__1) | Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class.<br/>                With default settings. |
+| [SharpenFilterOptions()](#SharpenFilterOptions__1) | Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class. |
 | [SharpenFilterOptions(size, sigma)](#SharpenFilterOptions_size_sigma_2) | Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
 | factor | double | r/w | Gets or sets the factor. |
-| sigma | double | r/w | Gets or sets the sigma. |
-| size | int | r/w | Gets or sets the size. |
+| kernel_data | double | r | Gets the kernel. |
+| radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
+| sigma | double | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| size | int | r/w | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 
 
 ### Constructor: SharpenFilterOptions() {#SharpenFilterOptions__1}
@@ -36,7 +38,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
  SharpenFilterOptions() 
 ```
 
-Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class.<br/>                With default settings.
+Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class.
 
 ### Constructor: SharpenFilterOptions(size, sigma) {#SharpenFilterOptions_size_sigma_2}
 
@@ -51,7 +53,7 @@ Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/asp
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | int | Size of the kernel. |
+| size | int | The size of the kernel. |
 | sigma | double | The sigma. |
 
 ## **Examples**

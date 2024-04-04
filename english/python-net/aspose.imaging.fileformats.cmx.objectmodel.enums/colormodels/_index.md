@@ -11,7 +11,7 @@ Color models.
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.ColorModels
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Members**
 | **Member name** | **Description** |

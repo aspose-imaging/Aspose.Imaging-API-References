@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 4900
+weight: 4940
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/graphics/
 
 **Full Name:** aspose.imaging.Graphics
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -83,14 +83,14 @@ url: /python-net/aspose.imaging/graphics/
 | [draw_ellipse_by_xy(pen, x, y, width, height)](#draw_ellipse_by_xy_pen_x_y_width_height_44) | Draws an ellipse defined by a bounding rectangle specified by a pair of coordinates, a height, and a width. |
 | [draw_ellipse_by_xyf(pen, x, y, width, height)](#draw_ellipse_by_xyf_pen_x_y_width_height_45) | Draws an ellipse defined by a bounding rectangle specified by a pair of coordinates, a height, and a width. |
 | [draw_ellipse_f(pen, rect)](#draw_ellipse_f_pen_rect_46) | Draws an ellipse defined by a bounding [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
-| [draw_image(image, dest_points)](#draw_image_image_dest_points_47) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points)](#draw_image_image_dest_points_48) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points, src_rect)](#draw_image_image_dest_points_src_rect_49) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points, src_rect)](#draw_image_image_dest_points_src_rect_50) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points, src_rect, src_unit)](#draw_image_image_dest_points_src_rect_src_unit_51) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points, src_rect, src_unit)](#draw_image_image_dest_points_src_rect_src_unit_52) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_image_dest_points_src_rect_src_unit_image_attributes_53) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_image_dest_points_src_rect_src_unit_image_attributes_54) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
+| [draw_image(image, dest_points)](#draw_image_image_dest_points_47) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points)](#draw_image_image_dest_points_48) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points, src_rect)](#draw_image_image_dest_points_src_rect_49) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points, src_rect)](#draw_image_image_dest_points_src_rect_50) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points, src_rect, src_unit)](#draw_image_image_dest_points_src_rect_src_unit_51) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points, src_rect, src_unit)](#draw_image_image_dest_points_src_rect_src_unit_52) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_image_dest_points_src_rect_src_unit_image_attributes_53) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_image_dest_points_src_rect_src_unit_image_attributes_54) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
 | [draw_image(source_image, point)](#draw_image_source_image_point_55) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/), using its original physical size, at the specified location. |
 | [draw_image(source_image, point)](#draw_image_source_image_point_56) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/), using its original physical size, at the specified location. |
 | [draw_image(source_image, rect)](#draw_image_source_image_rect_57) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
@@ -111,19 +111,19 @@ url: /python-net/aspose.imaging/graphics/
 | [draw_image_at_point_f(source_image, point)](#draw_image_at_point_f_source_image_point_72) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/), using its original physical size, at the specified location. |
 | [draw_image_at_xy(source_image, x, y)](#draw_image_at_xy_source_image_x_y_73) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/), using its original physical size, at the specified location. |
 | [draw_image_at_xyf(source_image, x, y)](#draw_image_at_xyf_source_image_x_y_74) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/), using its original physical size, at the specified location. |
-| [draw_image_dest_point_f_src_rect_f_with_unit(image, dest_points, src_rect, src_unit)](#draw_image_dest_point_f_src_rect_f_with_unit_image_dest_points_src_rect_src_unit_75) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image_dest_point_f_src_rect_f_with_unit_and_attribs(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_dest_point_f_src_rect_f_with_unit_and_attribs_image_dest_points_src_rect_src_unit_image_attributes_76) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image_dest_points_f_src_rect_f(image, dest_points, src_rect)](#draw_image_dest_points_f_src_rect_f_image_dest_points_src_rect_77) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image_dest_points_src_rect(image, dest_points, src_rect)](#draw_image_dest_points_src_rect_image_dest_points_src_rect_78) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image_dest_points_src_rect_with_unit(image, dest_points, src_rect, src_unit)](#draw_image_dest_points_src_rect_with_unit_image_dest_points_src_rect_src_unit_79) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image_dest_points_src_rect_with_unit_and_attribs(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_dest_points_src_rect_with_unit_and_attribs_image_dest_points_src_rect_src_unit_image_attributes_80) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
+| [draw_image_dest_point_f_src_rect_f_with_unit(image, dest_points, src_rect, src_unit)](#draw_image_dest_point_f_src_rect_f_with_unit_image_dest_points_src_rect_src_unit_75) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image_dest_point_f_src_rect_f_with_unit_and_attribs(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_dest_point_f_src_rect_f_with_unit_and_attribs_image_dest_points_src_rect_src_unit_image_attributes_76) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image_dest_points_f_src_rect_f(image, dest_points, src_rect)](#draw_image_dest_points_f_src_rect_f_image_dest_points_src_rect_77) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image_dest_points_src_rect(image, dest_points, src_rect)](#draw_image_dest_points_src_rect_image_dest_points_src_rect_78) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image_dest_points_src_rect_with_unit(image, dest_points, src_rect, src_unit)](#draw_image_dest_points_src_rect_with_unit_image_dest_points_src_rect_src_unit_79) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image_dest_points_src_rect_with_unit_and_attribs(image, dest_points, src_rect, src_unit, image_attributes)](#draw_image_dest_points_src_rect_with_unit_and_attribs_image_dest_points_src_rect_src_unit_image_attributes_80) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
 | [draw_image_dest_rect_f_with_unit_attribs(source_image, rect_destination, graphics_unit, image_attributes)](#draw_image_dest_rect_f_with_unit_attribs_source_image_rect_destination_graphics_unit_image_attributes_81) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
 | [draw_image_dest_rect_with_unit_attribs(source_image, rect_destination, graphics_unit, image_attributes)](#draw_image_dest_rect_with_unit_attribs_source_image_rect_destination_graphics_unit_image_attributes_82) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
 | [draw_image_in_rect(source_image, x, y, width, height)](#draw_image_in_rect_source_image_x_y_width_height_83) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
 | [draw_image_in_rect_f(source_image, x, y, width, height)](#draw_image_in_rect_f_source_image_x_y_width_height_84) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
 | [draw_image_in_rectangle(source_image, rect)](#draw_image_in_rectangle_source_image_rect_85) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
-| [draw_image_points(image, dest_points)](#draw_image_points_image_dest_points_86) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
-| [draw_image_points_f(image, dest_points)](#draw_image_points_f_image_dest_points_87) | Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size. |
+| [draw_image_points(image, dest_points)](#draw_image_points_image_dest_points_86) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
+| [draw_image_points_f(image, dest_points)](#draw_image_points_f_image_dest_points_87) | Draws the specified portion of the specified _image_ at the specified location and with the specified size. |
 | [draw_image_rectangle_f(source_image, rect)](#draw_image_rectangle_f_source_image_rect_88) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
 | [draw_image_src_dest_rects_f_with_unit(source_image, rect_source, rect_destination, graphics_unit)](#draw_image_src_dest_rects_f_with_unit_source_image_rect_source_rect_destination_graphics_unit_89) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
 | [draw_image_src_dest_rects_with_unit(source_image, rect_source, rect_destination, graphics_unit)](#draw_image_src_dest_rects_with_unit_source_image_rect_source_rect_destination_graphics_unit_90) | Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics/) at the specified location and with the specified size. |
@@ -296,7 +296,7 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the arc. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 
 **See also:**
@@ -320,7 +320,7 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the arc. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 
 **See also:**
@@ -347,7 +347,7 @@ Draws an arc representing a portion of an ellipse specified by a pair of coordin
 | width | float | Width of the rectangle that defines the ellipse. |
 | height | float | Height of the rectangle that defines the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 ### Method: draw_arc(pen, x, y, width, height, start_angle, sweep_angle) {#draw_arc_pen_x_y_width_height_start_angle_sweep_angle_5}
 
@@ -368,7 +368,7 @@ Draws an arc representing a portion of an ellipse specified by a pair of coordin
 | width | int | Width of the rectangle that defines the ellipse. |
 | height | int | Height of the rectangle that defines the ellipse. |
 | start_angle | int | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | int | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | int | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 ### Method: draw_arc_in_rect(pen, rect, start_angle, sweep_angle) {#draw_arc_in_rect_pen_rect_start_angle_sweep_angle_6}
 
@@ -386,7 +386,7 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the arc. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 ### Method: draw_arc_in_rect_f(pen, rect, start_angle, sweep_angle) {#draw_arc_in_rect_f_pen_rect_start_angle_sweep_angle_7}
 
@@ -404,7 +404,7 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the arc. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 ### Method: draw_arc_xy(pen, x, y, width, height, start_angle, sweep_angle) {#draw_arc_xy_pen_x_y_width_height_start_angle_sweep_angle_8}
 
@@ -425,7 +425,7 @@ Draws an arc representing a portion of an ellipse specified by a pair of coordin
 | width | int | Width of the rectangle that defines the ellipse. |
 | height | int | Height of the rectangle that defines the ellipse. |
 | start_angle | int | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | int | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | int | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 ### Method: draw_arc_xyf(pen, x, y, width, height, start_angle, sweep_angle) {#draw_arc_xyf_pen_x_y_width_height_start_angle_sweep_angle_9}
 
@@ -446,7 +446,7 @@ Draws an arc representing a portion of an ellipse specified by a pair of coordin
 | width | float | Width of the rectangle that defines the ellipse. |
 | height | float | Height of the rectangle that defines the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to ending point of the arc. |
 
 ### Method: draw_bezier(pen, pt1, pt2, pt3, pt4) {#draw_bezier_pen_pt1_pt2_pt3_pt4_10}
 
@@ -814,7 +814,7 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| offset | int | Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve. |
+| offset | int | Offset from the first element in the array of the _points_ parameter to the starting point in the curve. |
 | number_of_segments | int | Number of segments after the starting point to include in the curve. |
 
 ### Method: draw_curve(pen, points, offset, number_of_segments, tension) {#draw_curve_pen_points_offset_number_of_segments_tension_30}
@@ -832,7 +832,7 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| offset | int | Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve. |
+| offset | int | Offset from the first element in the array of the _points_ parameter to the starting point in the curve. |
 | number_of_segments | int | Number of segments after the starting point to include in the curve. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
@@ -851,7 +851,7 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| offset | int | Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve. |
+| offset | int | Offset from the first element in the array of the _points_ parameter to the starting point in the curve. |
 | number_of_segments | int | Number of segments after the starting point to include in the curve. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
@@ -953,7 +953,7 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| offset | int | Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve. |
+| offset | int | Offset from the first element in the array of the _points_ parameter to the starting point in the curve. |
 | number_of_segments | int | Number of segments after the starting point to include in the curve. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
@@ -972,7 +972,7 @@ Draws a cardinal spline through a specified array of [Point](/imaging/python-net
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [Point](/imaging/python-net/aspose.imaging/point/) structures that define the spline. |
-| offset | int | Offset from the first element in the array of the <paramref name="points" /> parameter to the starting point in the curve. |
+| offset | int | Offset from the first element in the array of the _points_ parameter to the starting point in the curve. |
 | number_of_segments | int | Number of segments after the starting point to include in the curve. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
@@ -1136,7 +1136,7 @@ Draws an ellipse defined by a bounding [RectangleF](/imaging/python-net/aspose.i
  draw_image(image, dest_points) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1152,7 +1152,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1168,7 +1168,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points, src_rect) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1185,7 +1185,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points, src_rect) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1202,7 +1202,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points, src_rect, src_unit) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1220,7 +1220,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points, src_rect, src_unit) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1238,7 +1238,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points, src_rect, src_unit, image_attributes) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1257,7 +1257,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image(image, dest_points, src_rect, src_unit, image_attributes) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1622,7 +1622,7 @@ Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics
  draw_image_dest_point_f_src_rect_f_with_unit(image, dest_points, src_rect, src_unit) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1640,7 +1640,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image_dest_point_f_src_rect_f_with_unit_and_attribs(image, dest_points, src_rect, src_unit, image_attributes) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1659,7 +1659,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image_dest_points_f_src_rect_f(image, dest_points, src_rect) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1676,7 +1676,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image_dest_points_src_rect(image, dest_points, src_rect) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1693,7 +1693,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image_dest_points_src_rect_with_unit(image, dest_points, src_rect, src_unit) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1711,7 +1711,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image_dest_points_src_rect_with_unit_and_attribs(image, dest_points, src_rect, src_unit, image_attributes) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1820,7 +1820,7 @@ Draws the specified [Graphics.image](/imaging/python-net/aspose.imaging/graphics
  draw_image_points(image, dest_points) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -1836,7 +1836,7 @@ Draws the specified portion of the specified <paramref name="image" /> at the sp
  draw_image_points_f(image, dest_points) 
 ```
 
-Draws the specified portion of the specified <paramref name="image" /> at the specified location and with the specified size.
+Draws the specified portion of the specified _image_ at the specified location and with the specified size.
 
 **Parameters:**
 
@@ -2310,7 +2310,7 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the pie shape. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | float | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 
 **See also:**
@@ -2334,7 +2334,7 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the pie shape. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | float | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 
 **See also:**
@@ -2361,7 +2361,7 @@ Draws a pie shape defined by an ellipse specified by a coordinate pair, a width,
 | width | float | Width of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | height | float | Height of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | float | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 ### Method: draw_pie(pen, x, y, width, height, start_angle, sweep_angle) {#draw_pie_pen_x_y_width_height_start_angle_sweep_angle_116}
 
@@ -2382,7 +2382,7 @@ Draws a pie shape defined by an ellipse specified by a coordinate pair, a width,
 | width | int | Width of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | height | int | Height of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | int | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | int | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | int | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 ### Method: draw_pie_in_rect(pen, rect, start_angle, sweep_angle) {#draw_pie_in_rect_pen_rect_start_angle_sweep_angle_117}
 
@@ -2400,7 +2400,7 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the pie shape. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | float | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 ### Method: draw_pie_in_rect_f(pen, rect, start_angle, sweep_angle) {#draw_pie_in_rect_f_pen_rect_start_angle_sweep_angle_118}
 
@@ -2418,7 +2418,7 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the pie shape. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | float | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 ### Method: draw_pie_xy(pen, x, y, width, height, start_angle, sweep_angle) {#draw_pie_xy_pen_x_y_width_height_start_angle_sweep_angle_119}
 
@@ -2439,7 +2439,7 @@ Draws a pie shape defined by an ellipse specified by a coordinate pair, a width,
 | width | int | Width of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | height | int | Height of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | int | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | int | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | int | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 ### Method: draw_pie_xyf(pen, x, y, width, height, start_angle, sweep_angle) {#draw_pie_xyf_pen_x_y_width_height_start_angle_sweep_angle_120}
 
@@ -2460,7 +2460,7 @@ Draws a pie shape defined by an ellipse specified by a coordinate pair, a width,
 | width | float | Width of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | height | float | Height of the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
-| sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+| sweep_angle | float | Angle measured in degrees clockwise from the _startAngle_ parameter to the second side of the pie shape. |
 
 ### Method: draw_polygon(pen, points) {#draw_polygon_pen_points_121}
 
@@ -3289,7 +3289,13 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
+
+
+**See also:**
+
+**[Example # 1](#example_93)**: The following example shows how to compose an animated GIF image from individ...
+
 
 ### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_166}
 
@@ -3307,7 +3313,13 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
+
+
+**See also:**
+
+**[Example # 1](#example_93)**: The following example shows how to compose an animated GIF image from individ...
+
 
 ### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_167}
 
@@ -3328,7 +3340,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | width | float | Width of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | height | float | Height of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
 
 ### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_168}
 
@@ -3349,7 +3361,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | width | int | Width of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | height | int | Height of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | int | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | int | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | int | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
 
 ### Method: fill_pie_at_xy(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_at_xy_brush_x_y_width_height_start_angle_sweep_angle_169}
 
@@ -3370,7 +3382,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | width | int | Width of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | height | int | Height of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | int | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | int | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | int | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
 
 ### Method: fill_pie_at_xyf(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_at_xyf_brush_x_y_width_height_start_angle_sweep_angle_170}
 
@@ -3391,7 +3403,7 @@ Fills the interior of a pie section defined by an ellipse specified by a pair of
 | width | float | Width of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | height | float | Height of the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
 
 ### Method: fill_pie_in_rect(brush, rect, start_angle, sweep_angle) {#fill_pie_in_rect_brush_rect_start_angle_sweep_angle_171}
 
@@ -3409,7 +3421,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that represents the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
 
 ### Method: fill_pie_in_rect_f(brush, rect, start_angle, sweep_angle) {#fill_pie_in_rect_f_brush_rect_start_angle_sweep_angle_172}
 
@@ -3427,7 +3439,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse from which the pie section comes. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the first side of the pie section. |
-| sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie section. |
+| sweep_angle | float | Angle in degrees measured clockwise from the _startAngle_ parameter to the second side of the pie section. |
 
 ### Method: fill_polygon(brush, points) {#fill_polygon_brush_points_173}
 
@@ -4038,6 +4050,43 @@ with Image.create(bmpOptions, 500, 500) as image:
 
 	# save all changes.
 	image.save()
+
+
+```
+
+### The following example shows how to compose an animated GIF image from individual GIF blocks. {#example_93}
+``` python
+from aspose.imaging.fileformats.gif.blocks import GifFrameBlock
+from aspose.imaging.fileformats.gif import GifImage 
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging import Graphics, Color
+
+# Create a GIF image 100 x 100 px.
+# The first block is fully black by default.
+with GifFrameBlock(100, 100) as firstBlock:
+	with GifImage(firstBlock) as gifImage:
+		# The first circle is red
+		brush1 = SolidBrush(Color.red)
+
+		# The second circle is black
+		brush2 = SolidBrush(Color.black)
+
+		# Gradually increase the angle of the red arc shape.
+		for angle in range(10, 361, 10):
+			block = GifFrameBlock(100, 100)
+			gr = Graphics(block)
+			gr.fill_pie(brush1, block.bounds, 0, angle)
+			gifImage.add_block(block)
+		
+		# Gradually increase the angle of the black arc and wipe out the red arc.
+		for angle in range(10, 361, 10):
+			block = GifFrameBlock(100, 100)
+			gr = Graphics(block)
+			gr.fill_pie(brush2, block.bounds, 0, angle)
+			gr.fill_pie(brush1, block.bounds, angle, 360 - angle)
+			gifImage.add_block(block)
+
+		gifImage.save("animated_radar.gif")
 
 
 ```

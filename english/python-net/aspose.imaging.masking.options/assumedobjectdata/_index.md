@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.masking.options/assumedobjectdata/
 
 **Full Name:** aspose.imaging.masking.options.AssumedObjectData
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |

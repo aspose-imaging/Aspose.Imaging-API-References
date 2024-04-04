@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 ---
 
-**Summary:** The bmp file format creation options.
+**Summary:** The API for BMP and DIB raster image format creation options provides developers<br/>            with a versatile toolset for generating custom Bitmap (BMP) and Device<br/>            Independent Bitmap (DIB) images. With this API, you can precisely define<br/>            image characteristics such as bits per pixel, compression level and compression<br/>            type, tailoring the output to meet specific requirements. This feature-rich<br/>            API empowers developers to create high-quality, customized raster images<br/>            with ease and flexibility for diverse applications.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 
 **Inheritance:** ImageOptionsBase
 
-**Aspose.Imaging Version:** 23.12.0
+**Aspose.Imaging Version:** 24.4.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -49,6 +49,12 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 
 Initializes a new instance of the [BmpOptions](/imaging/python-net/aspose.imaging.imageoptions/bmpoptions/) class.
 
+
+**See also:**
+
+**[Example # 1](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+
+
 ### Constructor: BmpOptions(bmp_options) {#BmpOptions_bmp_options_2}
 
 
@@ -72,6 +78,8 @@ Gets or sets the image bits per pixel count.
 
 **[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
 
+**[Example # 2](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+
 
 ### Property: compression {#compression2}
 
@@ -79,7 +87,11 @@ Gets or sets the compression type. The default compression type is [BitmapCompre
 
 **See also:**
 
-**[Example # 1](#example_89)**: The example shows how to export a BMP with the RGB compression type.
+**[Example # 1](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+
+**[Example # 2](#example_97)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
+
+**[Example # 3](#example_98)**: The example shows how to export a BMP with the RGB compression type.
 
 
 ### Method: clone() {#clone__1}
@@ -186,7 +198,70 @@ with BmpImage(100, 100) as bmpImage:
 
 ```
 
-### The example shows how to export a BMP with the RGB compression type. {#example_89}
+### The following example loads a BMP image and saves it back to BMP using various save options. {#example_90}
+``` python
+from aspose.imaging import Image, RasterImage, ColorPaletteHelper, ResolutionSetting
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.fileformats.bmp import BitmapCompression
+import os
+import aspose.pycore as aspycore
+
+directory = "c:\\temp\\"
+
+with Image.load(os.path.join(directory, "sample.bmp")) as image:
+	
+	rasterImage = aspycore.as_of(image, RasterImage)
+
+	# Create BmpOptions
+	saveOptions = BmpOptions()
+
+	# Use 8 bits per pixel to reduce the size of the output image.
+	saveOptions.bits_per_pixel = 8
+
+	# Set the closest 8-bit color palette which covers the maximal number of image pixels, so that a palettized image
+	# is almost visually indistinguishable from a non-palletized one.
+	saveOptions.palette = ColorPaletteHelper.get_close_image_palette(rasterImage, 256)
+
+	# Save without compression.
+	# You can also use RLE-8 compression to reduce the size of the output image.
+	saveOptions.compression = BitmapCompression.RGB
+
+	# Set the horizontal and vertical resolution to 96 dpi.
+	saveOptions.resolution_settings = ResolutionSetting(96.0, 96.0)
+
+	image.save(os.path.join(directory, "sample.bmpoptions.bmp"), saveOptions)
+
+
+```
+
+### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_97}
+``` python
+from aspose.imaging import Image
+from aspose.imaging.fileformats.png import BmpOptions
+
+source_path = "input.png"
+output_path_def = "result_def.bmp"
+output_path_def_2 = "result_def-2.bmp"
+output_path_bitfields = "result_bitfields.bmp"
+# Load a PNG image from a file.
+with Image.load(source_path) as pngImage:
+	# BMP image is saved with transparency support by default. 
+	# If you want to explicitly specify such mode, the BmpOptions's `compression` property should be set to BitmapCompression.BITFIELDS.
+	# The BitmapCompression.BITFIELDS compression method is the default compression method in the BmpOptions.
+	# So the same result of exporting a Bmp image with transparency can be achieved by either one of the following ways.
+	# With an implicit default options:
+	pngImage.save(output_path_def)
+	# With an explicit default options:
+	pngImage.save(output_path_def_2, BmpOptions())
+	# Specifying the BitmapCompression.BITFIELDS compression method:
+	bmp_options = BmpOptions()
+	bmp_options.compression = BitmapCompression.BITFIELDS
+	pngImage.save(output_path_bitfields, bmp_options)
+
+
+```
+
+### The example shows how to export a BMP with the RGB compression type. {#example_98}
 ``` python
 
 from aspose.imaging import Image
