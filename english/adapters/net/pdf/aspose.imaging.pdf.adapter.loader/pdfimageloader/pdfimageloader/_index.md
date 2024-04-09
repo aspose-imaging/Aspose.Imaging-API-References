@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImageLoader constructor. The default constructor
 type: docs
 weight: 10
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter.loader/pdfimageloader/pdfimageloader/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/pdfimageloader/pdfimageloader/
 ---
 ## PdfImageLoader constructor
 

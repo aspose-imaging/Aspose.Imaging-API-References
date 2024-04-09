@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets the height
 type: docs
 weight: 40
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/height/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/height/
 ---
 ## PdfImage.Height property
 

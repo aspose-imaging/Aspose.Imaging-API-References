@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets the width
 type: docs
 weight: 90
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/width/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/width/
 ---
 ## PdfImage.Width property
 

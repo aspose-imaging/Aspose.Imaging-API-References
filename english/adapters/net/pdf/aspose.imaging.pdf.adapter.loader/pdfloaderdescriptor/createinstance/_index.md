@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfLoaderDescriptor method. Creates the instance
 type: docs
 weight: 40
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/createinstance/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/createinstance/
 ---
 ## PdfLoaderDescriptor.CreateInstance method
 

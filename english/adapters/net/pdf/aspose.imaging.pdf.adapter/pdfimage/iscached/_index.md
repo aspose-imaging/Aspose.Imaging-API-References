@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets a value indicating whether this instance is cached
 type: docs
 weight: 50
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/iscached/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/iscached/
 ---
 ## PdfImage.IsCached property
 

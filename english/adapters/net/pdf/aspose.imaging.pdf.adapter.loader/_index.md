@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter.loader/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/
 ---
 
 

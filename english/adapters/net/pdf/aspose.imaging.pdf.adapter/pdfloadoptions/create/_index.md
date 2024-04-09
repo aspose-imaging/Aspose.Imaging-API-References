@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfLoadOptions method. Creates this instance
 type: docs
 weight: 10
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfloadoptions/create/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfloadoptions/create/
 ---
 ## PdfLoadOptions.Create method
 

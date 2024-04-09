@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage method. Initializations this instance
 type: docs
 weight: 140
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/register/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/register/
 ---
 ## PdfImage.Register method
 

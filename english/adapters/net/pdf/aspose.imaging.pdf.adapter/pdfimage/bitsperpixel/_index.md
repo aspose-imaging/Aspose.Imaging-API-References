@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets the bits per pixel
 type: docs
 weight: 20
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/bitsperpixel/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/bitsperpixel/
 ---
 ## PdfImage.BitsPerPixel property
 

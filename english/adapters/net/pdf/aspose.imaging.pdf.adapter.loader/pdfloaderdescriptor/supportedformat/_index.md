@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfLoaderDescriptor property. Gets the supported format
 type: docs
 weight: 20
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/supportedformat/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/supportedformat/
 ---
 ## PdfLoaderDescriptor.SupportedFormat property
 

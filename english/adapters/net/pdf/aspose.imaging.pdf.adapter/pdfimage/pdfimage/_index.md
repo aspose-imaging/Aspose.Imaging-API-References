@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage constructor. Initializes a new instance of the PdfImage class
 type: docs
 weight: 10
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/pdfimage/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/pdfimage/
 ---
 ## PdfImage(Document) {#constructor}
 

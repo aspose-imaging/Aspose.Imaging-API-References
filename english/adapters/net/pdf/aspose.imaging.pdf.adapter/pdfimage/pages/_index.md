@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets the pages
 type: docs
 weight: 70
-url: /adapters/net/pdf/aspose.imaging.pdf.adapter/pdfimage/pages/
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/pages/
 ---
 ## PdfImage.Pages property
 
