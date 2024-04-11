@@ -1,0 +1,27 @@
+---
+title: PdfImage.DefaultPage
+second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
+description: PdfImage property. Gets the default page
+type: docs
+weight: 30
+url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/defaultpage/
+---
+## PdfImage.DefaultPage property
+
+Gets the default page.
+
+```csharp
+public override Image DefaultPage { get; }
+```
+
+### Property Value
+
+The default page.
+
+### See Also
+
+* class [PdfImage](../)
+* namespace [Aspose.Imaging.Pdf.Adapter](../../../aspose.imaging.pdf.adapter/)
+* assembly [Aspose.Imaging.Pdf.Adapter](../../../)
+
+
