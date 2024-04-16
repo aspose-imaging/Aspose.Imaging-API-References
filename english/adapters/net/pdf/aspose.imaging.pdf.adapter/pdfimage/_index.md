@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: Aspose.Imaging.Pdf.Adapter.PdfImage class. The pdf image
 type: docs
 weight: 10
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/
 ---
 ## PdfImage class
 

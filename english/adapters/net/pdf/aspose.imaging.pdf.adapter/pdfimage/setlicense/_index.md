@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage method. Sets the license
 type: docs
 weight: 150
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/setlicense/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
 

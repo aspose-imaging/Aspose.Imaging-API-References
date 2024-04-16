@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfLoaderDescriptor method. Determines whether this instance can load the specified stream container
 type: docs
 weight: 30
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/canload/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/canload/
 ---
 ## PdfLoaderDescriptor.CanLoad method
 

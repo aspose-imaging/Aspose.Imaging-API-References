@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: Aspose.Imaging.Pdf.Adapter.ImageOptions.PdfSaveOptionsExt class. The Pdf save options extended
 type: docs
 weight: 60
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter.imageoptions/pdfsaveoptionsext/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.imageoptions/pdfsaveoptionsext/
 ---
 ## PdfSaveOptionsExt class
 

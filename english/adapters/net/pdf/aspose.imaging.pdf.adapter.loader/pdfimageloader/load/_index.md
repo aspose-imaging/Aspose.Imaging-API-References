@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImageLoader method. Loads the specified stream container
 type: docs
 weight: 20
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/pdfimageloader/load/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.loader/pdfimageloader/load/
 ---
 ## PdfImageLoader.Load method
 

@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: ImageOptionsExt constructor. The default constructor
 type: docs
 weight: 10
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter.imageoptions/imageoptionsext-1/imageoptionsext/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.imageoptions/imageoptionsext-1/imageoptionsext/
 ---
 ## ImageOptionsExt&lt;T&gt; constructor
 

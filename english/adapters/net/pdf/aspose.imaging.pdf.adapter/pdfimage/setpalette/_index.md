@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage method. Sets the palette
 type: docs
 weight: 130
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/setpalette/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/setpalette/
 ---
 ## PdfImage.SetPalette method
 

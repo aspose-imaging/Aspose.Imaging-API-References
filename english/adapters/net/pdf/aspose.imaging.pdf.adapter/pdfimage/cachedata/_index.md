@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage method. Caches the data
 type: docs
 weight: 100
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/cachedata/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/cachedata/
 ---
 ## PdfImage.CacheData method
 

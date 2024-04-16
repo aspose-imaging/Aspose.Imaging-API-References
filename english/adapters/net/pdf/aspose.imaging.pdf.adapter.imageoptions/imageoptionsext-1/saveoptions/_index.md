@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: ImageOptionsExt property. Gets or sets the save options
 type: docs
 weight: 20
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter.imageoptions/imageoptionsext-1/saveoptions/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.imageoptions/imageoptionsext-1/saveoptions/
 ---
 ## ImageOptionsExt&lt;T&gt;.SaveOptions property
 
