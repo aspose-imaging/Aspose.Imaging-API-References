@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage method. Rotates the flip
 type: docs
 weight: 120
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/rotateflip/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/rotateflip/
 ---
 ## PdfImage.RotateFlip method
 

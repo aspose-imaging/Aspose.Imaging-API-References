@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage method. Resizes the specified new width
 type: docs
 weight: 110
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/resize/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}
 

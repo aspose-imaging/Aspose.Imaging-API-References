@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets the default page
 type: docs
 weight: 30
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/defaultpage/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/defaultpage/
 ---
 ## PdfImage.DefaultPage property
 

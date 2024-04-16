@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: PdfImage property. Gets the PDF document
 type: docs
 weight: 80
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter/pdfimage/pdfdocument/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/pdfdocument/
 ---
 ## PdfImage.PdfDocument property
 

@@ -4,7 +4,7 @@ second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
 description: Aspose.Imaging.Pdf.Adapter.Loader.PdfLoaderDescriptor class. The pdf loader descriptor
 type: docs
 weight: 40
-url: /net/adapters/pdf/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/
+url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/
 ---
 ## PdfLoaderDescriptor class
 
