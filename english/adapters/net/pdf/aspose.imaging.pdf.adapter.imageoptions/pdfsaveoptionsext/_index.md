@@ -24,7 +24,7 @@ public class PdfSaveOptionsExt : PdfSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [FormatConversionOptions](../../aspose.imaging.pdf.adapter.imageoptions/pdfsaveoptionsext/formatconversionoptions/) { get; set; } | Gets or sets the format conversion options. |
+| [FormatConversionOptions](../../aspose.imaging.pdf.adapter.imageoptions/pdfsaveoptionsext/formatconversionoptions/) { get; set; } | Gets or sets [PdfConversionOptions from Aspose.Pdf library](https://reference.aspose.com/pdf/net/aspose.pdf/pdfformatconversionoptions/pdfformatconversionoptions/) |
 
 ### See Also
 

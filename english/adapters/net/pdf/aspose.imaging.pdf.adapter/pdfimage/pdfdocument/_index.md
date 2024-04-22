@@ -8,7 +8,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimag
 ---
 ## PdfImage.PdfDocument property
 
-Gets the PDF document.
+Gets [the PDF document](https://reference.aspose.com/pdf/net/aspose.pdf/document/)
 
 ```csharp
 public Document PdfDocument { get; }

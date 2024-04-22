@@ -8,7 +8,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimag
 ---
 ## PdfImage.DefaultPage property
 
-Gets the default page.
+Gets the default [page.](https://reference.aspose.com/imaging/net/aspose.imaging/image/)
 
 ```csharp
 public override Image DefaultPage { get; }

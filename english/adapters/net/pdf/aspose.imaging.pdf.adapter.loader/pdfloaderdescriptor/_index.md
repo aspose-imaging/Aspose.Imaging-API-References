@@ -24,7 +24,7 @@ public class PdfLoaderDescriptor : IImageLoaderDescriptor
 
 | Name | Description |
 | --- | --- |
-| [SupportedFormat](../../aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/supportedformat/) { get; } | Gets the supported format. |
+| [SupportedFormat](../../aspose.imaging.pdf.adapter.loader/pdfloaderdescriptor/supportedformat/) { get; } | Gets the [supported format.](https://reference.aspose.com/imaging/net/aspose.imaging/fileformat/) |
 
 ## Methods
 

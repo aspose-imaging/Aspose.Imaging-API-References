@@ -16,7 +16,7 @@ public PdfImage(Document pdfDocument)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pdfDocument | Document | The PDF document. |
+| pdfDocument | Document | [The PDF document](https://reference.aspose.com/pdf/net/aspose.pdf/document/) |
 
 ### See Also
 

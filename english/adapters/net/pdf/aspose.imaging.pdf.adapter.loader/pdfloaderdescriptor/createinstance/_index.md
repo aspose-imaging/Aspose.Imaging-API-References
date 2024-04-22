@@ -14,6 +14,10 @@ Creates the instance.
 public IImageLoader CreateInstance()
 ```
 
+### Return Value
+
+[Aspose.Imaging.IImageLoader](https://reference.aspose.com/imaging/net/aspose.imaging/iimageloader/)
+
 ### See Also
 
 * class [PdfLoaderDescriptor](../)

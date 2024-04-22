@@ -8,7 +8,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimag
 ---
 ## PdfImage.Pages property
 
-Gets the pages.
+Gets the [pages.](https://reference.aspose.com/imaging/net/aspose.imaging/image/)
 
 ```csharp
 public override Image[] Pages { get; }

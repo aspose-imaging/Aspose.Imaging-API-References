@@ -1,14 +1,14 @@
 ---
 title: PdfImage.Resize
 second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
-description: PdfImage method. Resizes the specified new width
+description: PdfImage method. Image resize
 type: docs
 weight: 110
 url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}
 
-Resizes the specified new width.
+Image resize
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -18,7 +18,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 | --- | --- | --- |
 | newWidth | Int32 | The new width. |
 | newHeight | Int32 | The new height. |
-| resizeType | ResizeType | Type of the resize. |
+| resizeType | ResizeType | [Type](https://reference.aspose.com/imaging/net/aspose.imaging/resizetype/) of the resize. |
 
 ### Exceptions
 
@@ -36,7 +36,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-Resizes the specified new width.
+Image resize
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -46,7 +46,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 | --- | --- | --- |
 | newWidth | Int32 | The new width. |
 | newHeight | Int32 | The new height. |
-| settings | ImageResizeSettings | The settings. |
+| settings | ImageResizeSettings | The [settings.](https://reference.aspose.com/imaging/net/aspose.imaging/imageresizesettings/) |
 
 ### Exceptions
 

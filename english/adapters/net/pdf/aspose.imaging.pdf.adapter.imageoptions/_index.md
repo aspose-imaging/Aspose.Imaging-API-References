@@ -12,7 +12,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.imageop
 
 | Class | Description |
 | --- | --- |
-| [ImageOptionsExt&lt;T&gt;](./imageoptionsext-1/) | The image options extended |
+| [ImageOptionsExt&lt;T&gt;](./imageoptionsext-1/) | The extended image options |
 | [PdfSaveOptionsExt](./pdfsaveoptionsext/) | The Pdf save options extended |
 
 
