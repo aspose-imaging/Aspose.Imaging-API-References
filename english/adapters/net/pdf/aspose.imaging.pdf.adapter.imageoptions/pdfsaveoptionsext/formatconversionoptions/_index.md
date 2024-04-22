@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptionsExt.FormatConversionOptions
 second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
-description: PdfSaveOptionsExt property. Gets or sets the format conversion options
+description: PdfSaveOptionsExt property. Gets or sets PdfConversionOptions from Aspose.Pdf library
 type: docs
 weight: 20
 url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.imageoptions/pdfsaveoptionsext/formatconversionoptions/
 ---
 ## PdfSaveOptionsExt.FormatConversionOptions property
 
-Gets or sets the format conversion options.
+Gets or sets [PdfConversionOptions from Aspose.Pdf library](https://reference.aspose.com/pdf/net/aspose.pdf/pdfformatconversionoptions/pdfformatconversionoptions/)
 
 ```csharp
 public PdfFormatConversionOptions FormatConversionOptions { get; set; }

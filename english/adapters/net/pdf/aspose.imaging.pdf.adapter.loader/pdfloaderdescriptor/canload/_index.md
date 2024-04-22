@@ -16,8 +16,8 @@ public bool CanLoad(StreamContainer streamContainer, LoadOptions loadOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| streamContainer | StreamContainer | The stream container. |
-| loadOptions | LoadOptions | The load options. |
+| streamContainer | StreamContainer | [The stream container.](https://reference.aspose.com/imaging/net/aspose.imaging/streamcontainer/) |
+| loadOptions | LoadOptions | [The load options.](https://reference.aspose.com/imaging/net/aspose.imaging/loadoptions/) |
 
 ### Return Value
 

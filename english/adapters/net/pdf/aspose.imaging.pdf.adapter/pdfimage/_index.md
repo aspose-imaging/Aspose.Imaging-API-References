@@ -26,12 +26,12 @@ public class PdfImage : VectorMultipageImage
 | Name | Description |
 | --- | --- |
 | override [BitsPerPixel](../../aspose.imaging.pdf.adapter/pdfimage/bitsperpixel/) { get; } | Gets the bits per pixel. |
-| override [DefaultPage](../../aspose.imaging.pdf.adapter/pdfimage/defaultpage/) { get; } | Gets the default page. |
+| override [DefaultPage](../../aspose.imaging.pdf.adapter/pdfimage/defaultpage/) { get; } | Gets the default [page.](https://reference.aspose.com/imaging/net/aspose.imaging/image/) |
 | override [Height](../../aspose.imaging.pdf.adapter/pdfimage/height/) { get; } | Gets the height. |
 | override [IsCached](../../aspose.imaging.pdf.adapter/pdfimage/iscached/) { get; } | Gets a value indicating whether this instance is cached. |
 | override [PageCount](../../aspose.imaging.pdf.adapter/pdfimage/pagecount/) { get; } | Gets the page count. |
-| override [Pages](../../aspose.imaging.pdf.adapter/pdfimage/pages/) { get; } | Gets the pages. |
-| [PdfDocument](../../aspose.imaging.pdf.adapter/pdfimage/pdfdocument/) { get; } | Gets the PDF document. |
+| override [Pages](../../aspose.imaging.pdf.adapter/pdfimage/pages/) { get; } | Gets the [pages.](https://reference.aspose.com/imaging/net/aspose.imaging/image/) |
+| [PdfDocument](../../aspose.imaging.pdf.adapter/pdfimage/pdfdocument/) { get; } | Gets [the PDF document](https://reference.aspose.com/pdf/net/aspose.pdf/document/) |
 | override [Width](../../aspose.imaging.pdf.adapter/pdfimage/width/) { get; } | Gets the width. |
 
 ## Methods
@@ -39,13 +39,11 @@ public class PdfImage : VectorMultipageImage
 | Name | Description |
 | --- | --- |
 | override [CacheData](../../aspose.imaging.pdf.adapter/pdfimage/cachedata/)() | Caches the data. |
-| override [Resize](../../aspose.imaging.pdf.adapter/pdfimage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the specified new width. |
-| override [Resize](../../aspose.imaging.pdf.adapter/pdfimage/resize/#resize_2)(int, int, ResizeType) | Resizes the specified new width. |
-| override [RotateFlip](../../aspose.imaging.pdf.adapter/pdfimage/rotateflip/)(RotateFlipType) | Rotates the flip. |
+| override [Resize](../../aspose.imaging.pdf.adapter/pdfimage/resize/#resize_1)(int, int, ImageResizeSettings) | Image resize |
+| override [Resize](../../aspose.imaging.pdf.adapter/pdfimage/resize/#resize_2)(int, int, ResizeType) | Image resize |
+| override [RotateFlip](../../aspose.imaging.pdf.adapter/pdfimage/rotateflip/)(RotateFlipType) | Rotate and flip images |
 | override [SetPalette](../../aspose.imaging.pdf.adapter/pdfimage/setpalette/)(IColorPalette, bool) | Sets the palette. |
 | static [Register](../../aspose.imaging.pdf.adapter/pdfimage/register/)() | Initializations this instance. |
-| static [SetLicense](../../aspose.imaging.pdf.adapter/pdfimage/setlicense/#setlicense)(Stream) | Sets the license. |
-| static [SetLicense](../../aspose.imaging.pdf.adapter/pdfimage/setlicense/#setlicense_1)(string) | Sets the license. |
 
 ### See Also
 

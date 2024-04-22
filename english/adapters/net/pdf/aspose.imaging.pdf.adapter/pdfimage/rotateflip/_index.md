@@ -1,14 +1,14 @@
 ---
 title: PdfImage.RotateFlip
 second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
-description: PdfImage method. Rotates the flip
+description: PdfImage method. Rotate and flip images
 type: docs
 weight: 120
 url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimage/rotateflip/
 ---
 ## PdfImage.RotateFlip method
 
-Rotates the flip.
+Rotate and flip images
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)
@@ -16,7 +16,7 @@ public override void RotateFlip(RotateFlipType rotateFlipType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Type of the rotate flip. |
+| rotateFlipType | RotateFlipType | [Type of the rotate flip.](https://reference.aspose.com/imaging/net/aspose.imaging/rotatefliptype/) |
 
 ### Exceptions
 

@@ -8,7 +8,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.loader/
 ---
 ## PdfLoaderDescriptor.SupportedFormat property
 
-Gets the supported format.
+Gets the [supported format.](https://reference.aspose.com/imaging/net/aspose.imaging/fileformat/)
 
 ```csharp
 public FileFormat SupportedFormat { get; }
