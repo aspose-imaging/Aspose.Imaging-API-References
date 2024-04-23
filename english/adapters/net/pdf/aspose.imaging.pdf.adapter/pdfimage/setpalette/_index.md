@@ -16,7 +16,7 @@ public override void SetPalette(IColorPalette palette, bool updateColors)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| palette | IColorPalette | The [palette.](https://reference.aspose.com/imaging/net/aspose.imaging/icolorpalette/) |
+| palette | IColorPalette | [The palette.](https://reference.aspose.com/imaging/net/aspose.imaging/icolorpalette/) |
 | updateColors | Boolean | if set to `true` [update colors]. |
 
 ### Exceptions

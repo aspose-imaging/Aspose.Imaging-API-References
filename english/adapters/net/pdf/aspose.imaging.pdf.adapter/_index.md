@@ -12,7 +12,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/
 
 | Class | Description |
 | --- | --- |
-| [PdfImage](./pdfimage/) | The pdf image |
-| [PdfLoadOptions](./pdfloadoptions/) | The Pdf load options |
+| [PdfImage](./pdfimage/) | The pdf image of [VectorMultipageImage](https://reference.aspose.com/imaging/net/aspose.imaging/vectormultipageimage/) |
+| [PdfLoadOptions](./pdfloadoptions/) | The Pdf load options of [LoadOptions](https://reference.aspose.com/imaging/net/aspose.imaging/loadoptions/) |
 
 

@@ -1,14 +1,14 @@
 ---
 title: ImageOptionsExt1.SaveOptions
 second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
-description: ImageOptionsExt property. Gets or sets the SaveOptions from Aspose.Pdf library
+description: ImageOptionsExt property. Gets or sets the SaveOptions
 type: docs
 weight: 20
 url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.imageoptions/imageoptionsext-1/saveoptions/
 ---
 ## ImageOptionsExt&lt;T&gt;.SaveOptions property
 
-Gets or sets the [SaveOptions](https://reference.aspose.com/pdf/net/aspose.pdf.facades/form/saveoptions/) from Aspose.Pdf library.
+Gets or sets the [SaveOptions](https://reference.aspose.com/pdf/net/aspose.pdf.facades/form/saveoptions/).
 
 ```csharp
 public T SaveOptions { get; set; }
@@ -16,7 +16,7 @@ public T SaveOptions { get; set; }
 
 ### Property Value
 
-The save options from Aspose.Pdf library.
+The save options.
 
 ### See Also
 

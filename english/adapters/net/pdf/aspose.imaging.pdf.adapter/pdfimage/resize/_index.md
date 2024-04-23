@@ -36,7 +36,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-Image resize
+Image resize.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -46,7 +46,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 | --- | --- | --- |
 | newWidth | Int32 | The new width. |
 | newHeight | Int32 | The new height. |
-| settings | ImageResizeSettings | The [settings.](https://reference.aspose.com/imaging/net/aspose.imaging/imageresizesettings/) |
+| settings | ImageResizeSettings | [The settings.](https://reference.aspose.com/imaging/net/aspose.imaging/imageresizesettings/) |
 
 ### Exceptions
 

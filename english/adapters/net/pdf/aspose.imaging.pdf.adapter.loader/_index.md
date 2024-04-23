@@ -12,7 +12,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.loader/
 
 | Class | Description |
 | --- | --- |
-| [PdfImageLoader](./pdfimageloader/) | The Pdf image loader  See also |
+| [PdfImageLoader](./pdfimageloader/) | The Pdf image loader of [IImageLoader](https://reference.aspose.com/imaging/net/aspose.imaging/iimageloader/) |
 | [PdfLoaderDescriptor](./pdfloaderdescriptor/) | The pdf loader descriptor |
 
 
