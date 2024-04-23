@@ -14,6 +14,10 @@ Creates this instance.
 public static PdfLoadOptions Create()
 ```
 
+### Return Value
+
+[`PdfLoadOptions`](../)The Pdf load options
+
 ### See Also
 
 * class [PdfLoadOptions](../)

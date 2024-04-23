@@ -8,7 +8,7 @@ url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter/pdfimag
 ---
 ## PdfImage.RotateFlip method
 
-Rotate and flip images
+Rotate and flip images.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

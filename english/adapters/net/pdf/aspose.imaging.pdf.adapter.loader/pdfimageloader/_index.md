@@ -1,14 +1,14 @@
 ---
 title: Class PdfImageLoader
 second_title: Aspose.Imaging.Pdf Adapter for .NET API Reference
-description: Aspose.Imaging.Pdf.Adapter.Loader.PdfImageLoader class. The Pdf image loader  See also
+description: Aspose.Imaging.Pdf.Adapter.Loader.PdfImageLoader class. The Pdf image loader of IImageLoader
 type: docs
 weight: 30
 url: /adapters/net/aspose.imaging.pdf.adapter/aspose.imaging.pdf.adapter.loader/pdfimageloader/
 ---
 ## PdfImageLoader class
 
-The Pdf image loader  See also
+The Pdf image loader of [IImageLoader](https://reference.aspose.com/imaging/net/aspose.imaging/iimageloader/)
 
 ```csharp
 public class PdfImageLoader : IImageLoader
