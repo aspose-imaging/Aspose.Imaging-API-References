@@ -1,0 +1,21 @@
+---
+title: TiffThresholds Enumeration
+type: docs
+weight: 170
+url: /aspose.imaging.fileformats.tiff.enums/tiffthresholds/
+---
+
+Thresholding used on data.
+
+**Module:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
+
+**Full Name:** aspose.imaging.fileformats.tiff.enums.TiffThresholds
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Members**
+| **Member name** | **Description** |
+| :- | :- |
+| ERROR_DIFFUSE | Usually Floyd-Steinberg. |
+| HALF_TONE | Dithered scan. |
+| NO_DITHERING | No dithering is performed. |

@@ -1,0 +1,272 @@
+---
+title: AutoMaskingGraphCutOptions
+second_title: Riferimento all'API di Aspose.Imaging per .NET
+description: Le opzioni di mascheramento automatico di GraphCut.
+type: docs
+weight: 10460
+url: /it/aspose.imaging.masking.options/automaskinggraphcutoptions/
+---
+## AutoMaskingGraphCutOptions class
+
+Le opzioni di mascheramento automatico di GraphCut.
+
+```csharp
+public class AutoMaskingGraphCutOptions : GraphCutMaskingOptions
+```
+
+## Costruttori
+
+| Nome | Descrizione |
+| --- | --- |
+| [AutoMaskingGraphCutOptions](automaskinggraphcutoptions)() | Default_Costruttore |
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [Args](../../aspose.imaging.masking.options/maskingoptions/args) { get; set; } | Ottiene o imposta gli argomenti per l'algoritmo di segmentazione. |
+| [AssumedObjects](../../aspose.imaging.masking.options/automaskinggraphcutoptions/assumedobjects) { get; set; } | Ottiene o imposta gli oggetti assunti. |
+| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor) { get; set; } | Ottiene o imposta il colore di sostituzione dello sfondo. |
+| [CalculateDefaultStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/calculatedefaultstrokes) { get; set; } | Ottiene o imposta un valore che indica se devono essere calcolati i tratti predefiniti. |
+| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose) { get; set; } | Ottiene o imposta un valore che indica se non è necessario separare ciascuna forma dalla maschera come oggetto singolo o come oggetto unito dalla maschera separata dallo sfondo. |
+| [DefaultBackgroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultbackgroundstrokes) { get; } | Ottiene i tratti di sfondo predefiniti. |
+| [DefaultForegroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultforegroundstrokes) { get; } | Ottiene i tratti di primo piano predefiniti precalcolati. |
+| [DefaultObjectsRectangles](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultobjectsrectangles) { get; } | Ottiene i rettangoli degli oggetti predefiniti. |
+| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | Ottiene o imposta le opzioni di esportazione dell'immagine. |
+| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius) { get; set; } | Ottiene o imposta il raggio di sfumatura. |
+| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | Ottiene o imposta l'area di mascheratura. |
+| [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | Ottiene o imposta il metodo di segmentazione. |
+| [PrecalculationProgressEventHandler](../../aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler) { get; set; } | Ottiene o imposta il gestore dell'evento di avanzamento del processo di precalcolo punti predefinito. |
+
+### Esempi
+
+Salvataggio del risultato di mascheramento dell'immagine con sfumatura in base alla dimensione dell'immagine. La mascheratura dell'immagine viene eseguita utilizzando i tratti predefiniti calcolati automaticamente. La proprietà Args di AutoMaskingGraphCutOptions può essere omessa poiché i tratti predefiniti vengono inseriti alla fine.
+
+```csharp
+[C#]
+
+MaskingResult[] results;
+using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
+{
+    AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
+                                                {
+                                                    CalculateDefaultStrokes = true,
+                                                    FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
+                                                    Method = SegmentationMethod.GraphCut,
+                                                    Decompose = false,
+                                                    ExportOptions =
+                                                        new PngOptions()
+                                                            {
+                                                                ColorType = PngColorType.TruecolorWithAlpha,
+                                                                Source = new FileCreateSource("tempFile")
+                                                            },
+                                                    BackgroundReplacementColor = Color.Transparent
+    };
+
+    results = new ImageMasking(image).Decompose(options);
+}
+
+using (RasterImage resultImage = (RasterImage)results[1].GetImage())
+{
+    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+}
+```
+
+Salvataggio del risultato di mascheramento dell'immagine con sfumatura in base alla dimensione dell'immagine. La mascheratura dell'immagine viene eseguita utilizzando i tratti predefiniti calcolati automaticamente. Inoltre, i dati dei due oggetti presunti vengono specificati anche nella proprietà AssumedObjects di AutoMaskingGraphCutOptions.
+
+```csharp
+[C#]
+
+List<AssumedObjectData> assumedObjects = new List<AssumedObjectData>();
+assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
+assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(300, 100, 50, 30)));
+
+MaskingResult[] results;
+using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
+{
+    AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
+                                                {
+                                                    AssumedObjects = assumedObjects,
+                                                    CalculateDefaultStrokes = true,
+                                                    FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
+                                                    Method = SegmentationMethod.GraphCut,
+                                                    Decompose = false,
+                                                    ExportOptions =
+                                                        new PngOptions()
+                                                            {
+                                                                ColorType = PngColorType.TruecolorWithAlpha,
+                                                                Source = new FileCreateSource("tempFile")
+                                                            },
+                                                    BackgroundReplacementColor = Color.Transparent
+    };
+
+    results = new ImageMasking(image).Decompose(options);
+}
+
+using (RasterImage resultImage = (RasterImage)results[1].GetImage())
+{
+    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+}
+```
+
+Salvataggio del risultato della mascheratura dell'immagine con sfumatura in base alla dimensione dell'immagine e riutilizzo delle opzioni di mascheratura per la nuova iterazione della mascheratura. La mascheratura dell'immagine viene eseguita utilizzando i tratti predefiniti calcolati automaticamente. Inoltre, i dati dei due oggetti presunti vengono specificati anche nella proprietà AssumedObjects di AutoMaskingGraphCutOptions. Dopo aver ottenuto il risultato della mascheratura iniziale, i tratti di sfondo/primo piano applicati vengono modificati e viene eseguita un'altra iterazione della mascheratura.
+
+```csharp
+[C#]
+
+List<AssumedObjectData> assumedObjects = new List<AssumedObjectData>();
+assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
+assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(300, 100, 50, 30)));
+
+MaskingResult[] results;
+AutoMaskingGraphCutOptions options;
+using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
+{
+    options = new AutoMaskingGraphCutOptions
+                    {
+                        AssumedObjects = assumedObjects,
+                        CalculateDefaultStrokes = true,
+                        FeatheringRadius = 3,
+                        Method = SegmentationMethod.GraphCut,
+                        Decompose = false,
+                        ExportOptions =
+                            new PngOptions()
+                                {
+                                    ColorType = PngColorType.TruecolorWithAlpha,
+                                    Source = new FileCreateSource("tempFile")
+                                },
+                        BackgroundReplacementColor = Color.Transparent
+                    };
+
+    results = new ImageMasking(image).Decompose(options);
+}
+
+// A questo punto i tratti di primo piano/sfondo applicati possono essere analizzati e basati su di essi aggiuntivi 
+// I tratti di primo piano/sfondo possono essere forniti manualmente.
+Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
+Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
+Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
+using (RasterImage resultImage = (RasterImage)results[1].GetImage())
+{
+    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+}
+
+using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
+{
+    // Riutilizzando AutoMaskingGraphCutOptions non è necessario eseguire calcoli di tratti predefiniti una seconda volta.
+    options.CalculateDefaultStrokes = false;
+    // Quando vengono forniti sia i tratti predefiniti che ObjectsPoints nella proprietà Args di AutoMaskingArgs, le matrici di punti vengono combinate.
+    // Il primo array ObjectsPoints è considerato un array di punti di sfondo e 
+    // il secondo array ObjectsPoints è considerato un array di punti in primo piano.
+    // Quando vengono forniti sia DefaultObjectsRectangles che ObjectsRectangles nella proprietà Args di AutoMaskingArgs, 
+    // viene utilizzato solo l'array di Args.
+    options.Args = new AutoMaskingArgs()
+                        {
+                            ObjectsPoints = new Point[][]
+                                                {
+                                                    new Point[] { new Point(100, 100), new Point(150, 100) }, 
+                                                    new Point[] { new Point(500, 200) }, 
+                                                },
+                            ObjectsRectangles = new Rectangle[]
+                                                    {
+                                                        new Rectangle(100, 100, 300, 300), 
+                                                    }
+                        };
+    results = new ImageMasking(image).Decompose(options);
+}
+
+using (RasterImage resultImage = (RasterImage)results[1].GetImage())
+{
+    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+}
+```
+
+Salvataggio del risultato della mascheratura dell'immagine con sfumatura in base alla dimensione dell'immagine, modifica dei tratti predefiniti ottenuti e utilizzo per la nuova iterazione della mascheratura. La mascheratura dell'immagine viene eseguita utilizzando i tratti predefiniti calcolati automaticamente. Inoltre, i dati dei due oggetti presunti vengono specificati anche nella proprietà AssumedObjects di AutoMaskingGraphCutOptions. Dopo aver ottenuto il risultato della mascheratura iniziale, i tratti di sfondo/primo piano applicati vengono modificati e viene eseguita un'altra iterazione di mascheratura utilizzando la nuova istanza di GraphCutMaskingOptions.
+
+```csharp
+[C#]
+
+List<AssumedObjectData> assumedObjects = new List<AssumedObjectData>();
+assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
+assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(300, 100, 50, 30)));
+
+MaskingResult[] results;
+AutoMaskingGraphCutOptions options;
+
+using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
+{
+    options = new AutoMaskingGraphCutOptions
+                    {
+                        AssumedObjects = assumedObjects,
+                        CalculateDefaultStrokes = true,
+                        FeatheringRadius = 3,
+                        Method = SegmentationMethod.GraphCut,
+                        Decompose = false,
+                        ExportOptions =
+                            new PngOptions()
+                                {
+                                    ColorType = PngColorType.TruecolorWithAlpha,
+                                    Source = new FileCreateSource("tempFile")
+                                },
+                        BackgroundReplacementColor = Color.Transparent
+                    };
+
+    results = new ImageMasking(image).Decompose(options);
+}
+
+// A questo punto i tratti di primo piano/sfondo applicati possono essere analizzati e basati su di essi aggiuntivi 
+// I tratti di primo piano/sfondo possono essere forniti manualmente.
+Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
+Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
+Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
+using (RasterImage resultImage = (RasterImage)results[1].GetImage())
+{
+    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+}
+
+appliedBackgroundStrokes[5] = new Point(100, 100);
+appliedBackgroundStrokes[15] = new Point(150, 100);
+
+appliedForegroundStrokes[1] = new Point(500, 200);
+
+appliedObjectRectangles[0] = new Rectangle(100, 100, 300, 300);
+
+using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
+{
+    GraphCutMaskingOptions graphCutOptions = new GraphCutMaskingOptions()
+                                                    {
+                                                        FeatheringRadius = 3,
+                                                        Method = SegmentationMethod.GraphCut,
+                                                        Decompose = false,
+                                                        ExportOptions = new PngOptions()
+                                                                            {
+                                                                                ColorType = PngColorType.TruecolorWithAlpha,
+                                                                                Source = new FileCreateSource("tempFile")
+                                                                            },
+                                                        BackgroundReplacementColor = Color.Transparent,
+                                                        Args = new AutoMaskingArgs()
+                                                                {
+                                                                    ObjectsPoints = new Point[][]
+                                                                                        {
+                                                                                            appliedBackgroundStrokes,
+                                                                                            appliedForegroundStrokes
+                                                                                        },
+                                                                    ObjectsRectangles = appliedObjectRectangles
+                                                                }
+                                                    };
+    results = new ImageMasking(image).Decompose(graphCutOptions);
+}
+
+using (RasterImage resultImage = (RasterImage)results[1].GetImage())
+{
+    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
+}
+```
+
+### Guarda anche
+
+* class [GraphCutMaskingOptions](../graphcutmaskingoptions)
+* spazio dei nomi [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options)
+* assemblea [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

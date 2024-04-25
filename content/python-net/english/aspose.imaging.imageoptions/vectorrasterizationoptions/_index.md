@@ -1,0 +1,124 @@
+---
+title: VectorRasterizationOptions Class
+type: docs
+weight: 340
+url: /aspose.imaging.imageoptions/vectorrasterizationoptions/
+---
+
+**Summary:** The vector rasterization options.
+
+**Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
+
+**Full Name:** aspose.imaging.imageoptions.VectorRasterizationOptions
+
+**Inheritance:** ImageOptionsBase
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Constructors**
+| **Name** | **Description** |
+| :- | :- |
+| [VectorRasterizationOptions()](#VectorRasterizationOptions__1) | Initializes a new instance of the VectorRasterizationOptions class |
+## **Properties**
+| **Name** | **Type** | **Access** | **Description** |
+| :- | :- | :- | :- |
+| background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a background color. |
+| border_x | float | r/w | Gets or sets the border X. |
+| border_y | float | r/w | Gets or sets the border Y. |
+| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| center_drawing | bool | r/w | Gets or sets a value indicating whether center drawing. |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| draw_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a foreground color. |
+| full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
+| page_height | float | r/w | Gets or sets the page height. |
+| page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
+| page_width | float | r/w | Gets or sets the page width. |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
+| [positioning](#positioning1) | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
+| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| smoothing_mode | [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode) | r/w | Gets or sets the smoothing mode. |
+| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
+| text_rendering_hint | [TextRenderingHint](/imaging/python-net/aspose.imaging/textrenderinghint) | r/w | Gets or sets the text rendering hint. |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
+## **Methods**
+| **Name** | **Description** |
+| :- | :- |
+| [clone()](#clone__1) | Clones this instance. |
+| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies to. |
+
+
+### Constructor: VectorRasterizationOptions() {#VectorRasterizationOptions__1}
+
+
+```
+ VectorRasterizationOptions() 
+```
+
+Initializes a new instance of the VectorRasterizationOptions class
+
+### Property: positioning {#positioning1}
+
+Gets or sets the positioning.
+
+**See also:**
+
+**[Example # 1](#example_96)**: The following example shows how to set a memory limit when loading a CMX imag...
+
+
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+
+
+### Method: copy_to(vector_rasterization_options) {#copy_to_vector_rasterization_options_2}
+
+
+```
+ copy_to(vector_rasterization_options) 
+```
+
+Copies to.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
+
+## **Examples**
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_96}
+``` python
+from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
+from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions
+import os
+
+directory = "c:\\aspose.imaging\\issues\\net\\3419\\"
+	
+# Setting a memory limit of 10 megabytes for a target loaded image.
+load_options = LoadOptions()
+load_options.buffer_size_hint = 10
+with Image.load(os.path.join(directory, "example.cmx"), load_options) as image:
+	png_options = PngOptions()
+	cmx_spec = CmxRasterizationOptions()
+	cmx_spec.text_renderingHint = TextRenderingHint.SINGLE_BIT_PER_PIXEL
+	cmx_spec.smoothing_mode = SmoothingMode.ANTI_ALIAS
+	cmx_spec.positioning = PositioningTypes.DEFINED_BY_DOCUMENT
+	png_options.vector_rasterization_options = cmx_spec
+	image.save(os.path.join(directory, "output.png"), png_options)
+
+
+```
+

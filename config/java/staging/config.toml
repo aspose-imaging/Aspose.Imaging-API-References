@@ -1,0 +1,8 @@
+baseURL = "https://reference2.aspose.com/imaging/java"
+
+[[deployment.targets]]
+name = "Stage"
+URL = "s3://reference2.aspose.com/?prefix=imaging/java/&region=us-west-2"
+
+
+

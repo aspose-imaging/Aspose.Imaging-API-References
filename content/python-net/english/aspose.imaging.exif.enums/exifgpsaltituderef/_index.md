@@ -1,0 +1,20 @@
+---
+title: ExifGPSAltitudeRef Enumeration
+type: docs
+weight: 80
+url: /aspose.imaging.exif.enums/exifgpsaltituderef/
+---
+
+exif gps altitude ref enum.
+
+**Module:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
+
+**Full Name:** aspose.imaging.exif.enums.ExifGPSAltitudeRef
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Members**
+| **Member name** | **Description** |
+| :- | :- |
+| ABOVE_SEA_LEVEL | Above sea level. |
+| BELOW_SEA_LEVEL | Below sea level. |

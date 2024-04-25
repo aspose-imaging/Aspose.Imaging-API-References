@@ -1,0 +1,21 @@
+---
+title: ColorMode Enumeration
+type: docs
+weight: 50
+url: /aspose.imaging.xmp.types.complex.colorant/colormode/
+---
+
+Represents color mode.
+
+**Module:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
+
+**Full Name:** aspose.imaging.xmp.types.complex.colorant.ColorMode
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Members**
+| **Member name** | **Description** |
+| :- | :- |
+| CMYK | CMYK color mode. |
+| LAB | LAB color mode. |
+| RGB | RGB color mode. |

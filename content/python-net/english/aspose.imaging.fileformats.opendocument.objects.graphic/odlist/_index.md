@@ -1,0 +1,46 @@
+---
+title: OdList Class
+type: docs
+weight: 180
+url: /aspose.imaging.fileformats.opendocument.objects.graphic/odlist/
+---
+
+**Summary:** The List object
+
+**Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
+
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdList
+
+**Inheritance:** OdStyledObject
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Constructors**
+| **Name** | **Description** |
+| :- | :- |
+| [OdList(parent)](#OdList_parent_1) | Initializes a new instance of the [OdList](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlist/) class. |
+## **Properties**
+| **Name** | **Type** | **Access** | **Description** |
+| :- | :- | :- | :- |
+| absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+| items | list[OdObject] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the rectangle. |
+| style | [OdGraphicStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle) | r/w | Gets or sets the style. |
+
+
+### Constructor: OdList(parent) {#OdList_parent_1}
+
+
+```
+ OdList(parent) 
+```
+
+Initializes a new instance of the [OdList](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlist/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+

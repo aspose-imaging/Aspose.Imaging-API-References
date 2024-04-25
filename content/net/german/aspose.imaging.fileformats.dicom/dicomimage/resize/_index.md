@@ -1,0 +1,137 @@
+---
+title: Resize
+second_title: Aspose.Imaging für .NET-API-Referenz
+description: Ändert die Bildgröße.
+type: docs
+weight: 260
+url: /de/aspose.imaging.fileformats.dicom/dicomimage/resize/
+---
+## Resize(int, int, ResizeType) {#resize_2}
+
+Ändert die Bildgröße.
+
+```csharp
+public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| newWidth | Int32 | Die neue Breite. |
+| newHeight | Int32 | Die neue Höhe. |
+| resizeType | ResizeType | Der Größenänderungstyp. |
+
+### Beispiele
+
+In diesem Beispiel wird ein DICOM-Bild geladen und mit verschiedenen Methoden zur Größenänderung in der Größe angepasst.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
+{
+    // Auf das Zweifache skalieren mit Nearest Neighbor Resampling.
+    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+
+    // Mit Standardoptionen in PNG speichern.
+    image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+
+using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
+{
+    // Mit Nearest Neighbor Resampling um das Zweifache herunterskalieren.
+    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+        
+    // Mit Standardoptionen in PNG speichern.
+    image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+
+using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
+{
+    // Mit bilinearem Resampling um das Zweifache hochskalieren.
+    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
+        
+    // Mit Standardoptionen in PNG speichern.
+    image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+
+using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
+{
+    // Mit bilinearem Resampling um das Zweifache herunterskalieren.
+    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
+
+    // Mit Standardoptionen in PNG speichern.
+    image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+```
+
+### Siehe auch
+
+* enum [ResizeType](../../../aspose.imaging/resizetype)
+* class [DicomImage](../../dicomimage)
+* namensraum [Aspose.Imaging.FileFormats.Dicom](../../dicomimage)
+* Montage [Aspose.Imaging](../../../)
+
+---
+
+## Resize(int, int, ImageResizeSettings) {#resize_1}
+
+Ändert die Bildgröße.
+
+```csharp
+public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| newWidth | Int32 | Die neue Breite. |
+| newHeight | Int32 | Die neue Höhe. |
+| settings | ImageResizeSettings | Die Größenänderungseinstellungen. |
+
+### Beispiele
+
+In diesem Beispiel wird ein DICOM-Bild geladen und mithilfe verschiedener Größenanpassungseinstellungen in der Größe angepasst.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
+
+// Der adaptive Algorithmus basiert auf gewichteter und gemischter rationaler Funktion und Lanczos3-Interpolation.
+resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
+
+// Der kleine rechteckige Filter
+resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
+
+// Die Anzahl der Farben in der Palette.
+resizeSettings.EntriesCount = 256;
+
+// Die Farbquantisierung wird nicht verwendet
+resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
+
+// Die euklidische Methode
+resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
+
+using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
+{
+    Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
+
+    // Mit adaptivem Resampling um das Zweifache herunterskalieren.
+    dicomImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
+
+    // Als PNG speichern
+    dicomImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+```
+
+### Siehe auch
+
+* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings)
+* class [DicomImage](../../dicomimage)
+* namensraum [Aspose.Imaging.FileFormats.Dicom](../../dicomimage)
+* Montage [Aspose.Imaging](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

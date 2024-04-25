@@ -1,0 +1,52 @@
+---
+title: EmfStretchDiBits
+second_title: Aspose.Imaging for .NET API Referansı
+description: EMR_STRETCHDIBITS kaydı isteğe bağlı olarak belirtilen bir tarama işlemine göre bir fırça deseniyle birlikte bir kaynak bitmapten bir hedef dikdörtgene piksellerin blok aktarımını belirtir gerekli.
+type: docs
+weight: 4600
+url: /tr/aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/
+---
+## EmfStretchDiBits class
+
+EMR_STRETCHDIBITS kaydı, isteğe bağlı olarak, belirtilen bir tarama işlemine göre bir fırça deseniyle birlikte, bir kaynak bitmap'ten bir hedef dikdörtgene piksellerin blok aktarımını belirtir; gerekli.
+
+```csharp
+public sealed class EmfStretchDiBits : EmfBitmapRecordType
+```
+
+## yapıcılar
+
+| İsim | Tanım |
+| --- | --- |
+| [EmfStretchDiBits](emfstretchdibits)(EmfRecord) | Yeni bir örneğini başlatır[`EmfStretchDiBits`](../emfstretchdibits) sınıf. |
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/bitbltrasteroperation) { get; set; } | Bir tarama işlemi kodunu belirten 32 bit işaretsiz bir tamsayı alır veya ayarlar. Bu kodlar, nihai rengi elde etmek için kaynak dikdörtgenin renk verilerinin hedef dikdörtgenin renk verileri ve isteğe bağlı olarak bir fırça deseni ile nasıl birleştirileceğini tanımlar. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/bounds) { get; set; } | Aygıt birimlerinde hedef sınırlayıcı dikdörtgeni tanımlayan bir WMF RectL nesnesi ([MS-WMF] bölüm 2.2.2.19) alır veya ayarlar. |
+| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxdest) { get; set; } | Hedef dikdörtgenin mantıksal genişliğini belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxsrc) { get; set; } | Kaynak dikdörtgenin piksel cinsinden genişliğini belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cydest) { get; set; } | Hedef dikdörtgenin mantıksal yüksekliğini belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cysrc) { get; set; } | Kaynak dikdörtgenin piksel cinsinden yüksekliğini belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Rekorun boyutunu alır veya ayarlar |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/sourcebitmap) { get; set; } | EMR_STRETCHDIBITS kaydının sabit kısmıyla bitişik olması gerekmeyen kaynak bit eşlemi içeren bir arabellek alır veya ayarlar. Buna göre, bu arabellekte "UndefinedSpace" olarak etiketlenen alanlar isteğe bağlıdır ve MUTLAKA yoksayılmalıdır. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Türü alır veya ayarlar. |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/usagesrc) { get; set; } | Kaynak bit eşlem başlığındaki renk tablosundaki değerlerin nasıl yorumlanacağını belirten 32 bitlik işaretsiz bir tamsayı alır veya ayarlar. Bu değer DIBColors numaralandırmasında OLMALIDIR (bölüm 2.1.9). |
+| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xdest) { get; set; } | Hedef dikdörtgenin sol üst köşesinin mantıksal x koordinatını belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xsrc) { get; set; } | Kaynak dikdörtgenin sol üst köşesinin x koordinatını piksel cinsinden belirten 32 bit işaretli bir tamsayı alır veya ayarlar. |
+| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/ydest) { get; set; } | Hedef dikdörtgenin sol üst köşesinin mantıksal y koordinatını belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/ysrc) { get; set; } | Kaynak dikdörtgenin sol üst köşesindeki piksel cinsinden y koordinatını belirten 32 bitlik işaretli bir tamsayı alır veya ayarlar. |
+
+### Notlar
+
+Bu kayıt, JPEG ve PNG formatlarındaki kaynak görüntüleri destekler. Kaynak bitmap başlığındaki Sıkıştırma alanı, görüntü biçimini belirtir. Kaynak ve hedef yükseklik ve genişlik alanlarının işaretleri farklıysa, bu kayıt kaynak bit eşleminin hedefe bir ayna görüntüsü kopyasını belirtir. Yani, cxSrc ve cxDest farklı işaretlere sahipse, x ekseni boyunca kaynak bitmap'in ayna görüntüsü belirtilir. cySrc ve cyDest farklı işaretlere sahipse, y ekseni boyunca kaynak bitmap'in ayna görüntüsü belirtilir.
+
+### Ayrıca bakınız
+
+* class [EmfBitmapRecordType](../emfbitmaprecordtype)
+* ad alanı [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
+* toplantı [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

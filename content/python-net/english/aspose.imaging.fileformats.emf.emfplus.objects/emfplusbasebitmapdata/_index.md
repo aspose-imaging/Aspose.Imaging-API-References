@@ -1,0 +1,19 @@
+---
+title: EmfPlusBaseBitmapData Class
+type: docs
+weight: 10
+url: /aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebitmapdata/
+---
+
+**Summary:** Base class for bitmap data types.
+
+**Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
+
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseBitmapData
+
+**Inheritance:** EmfPlusStructureObjectType
+
+**Aspose.Imaging Version:** 24.4.0
+
+
+

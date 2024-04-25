@@ -1,0 +1,42 @@
+---
+title: EmfPlusDrawBeziers
+second_title: Aspose.Imaging für .NET-API-Referenz
+description: Der EmfPlusDrawBeziers-Datensatz gibt das Zeichnen einer Folge verbundener Bezier-Kurven an. Die Reihenfolge für Bezier-Datenpunkte ist Startpunkt Kontrollpunkt 1 Kontrollpunkt 2 und Endpunkt. Weitere Informationen finden Sie unter MSDN-DrawBeziers.
+type: docs
+weight: 5910
+url: /de/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/
+---
+## EmfPlusDrawBeziers class
+
+Der EmfPlusDrawBeziers-Datensatz gibt das Zeichnen einer Folge verbundener Bezier-Kurven an. Die Reihenfolge für Bezier-Datenpunkte ist Startpunkt, Kontrollpunkt 1, Kontrollpunkt 2 und Endpunkt. Weitere Informationen finden Sie unter [MSDN-DrawBeziers].
+
+```csharp
+public sealed class EmfPlusDrawBeziers : EmfPlusDrawingRecordType
+```
+
+## Konstrukteure
+
+| Name | Beschreibung |
+| --- | --- |
+| [EmfPlusDrawBeziers](emfplusdrawbeziers)(EmfPlusRecord) | Initialisiert eine neue Instanz von[`EmfPlusDrawBeziers`](../emfplusdrawbeziers) Klasse. |
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/compressed) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob PointData komprimiert ist. Falls gesetzt, gibt PointData absolute Positionen im Koordinatenraum mit 16-Bit-Ganzzahlkoordinaten an. Wenn leer, gibt PointData absolute Positionen im Koordinatenraum mit 32-Bit-Gleitkommakoordinaten an. Hinweis Wenn das Relative-Flag (unten) gesetzt ist, ist dieses Flag undefiniert und MUSS ignoriert werden. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Ruft eine 32-Bit-Ganzzahl ohne Vorzeichen ab oder legt diese fest, die die 32-Bit-ausgerichtete Anzahl von Bytes von Daten im folgenden RecordData-Feld definieren MUSS. Diese Nummer enthält nicht den 12-Byte-Datensatzheader. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Ruft eine 16-Bit-Ganzzahl ohne Vorzeichen ab oder legt sie fest, die für einige Datensätze Informationen darüber enthält, wie die Operation ausgeführt werden soll, und über die Struktur des Datensatzes. |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/objectid) { get; set; } | Ruft die Objektkennung ab oder setzt sie. Der Index eines EmfPlusPen-Objekts (Abschnitt 2.2.1.7) in der EMF+ -Objekttabelle zum Zeichnen der Bezier-Kurven. Der Wert MUSS null bis einschließlich 63 sein. |
+| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/pointdata) { get; set; } | Ruft den Punkt ab oder legt ihn fest. data Ein Array von Zählpunkten, die die Start-, End- und Kontrollpunkte der Bézier-Kurven angeben. Die Endkoordinate einer Bezier-Kurve ist die Startkoordinate der nächsten. Die Kontrollpunkte werden zum Erzeugen des Bezier-Effekts verwendet. Der Datentyp in diesem Array wird durch das Flags-Feld wie folgt angegeben: Datentyp Bedeutung EmfPlusPointR-Objekt (Abschnitt 2.2.2.37) Wenn das P-Flag in den Flags gesetzt ist , geben die Punkte relative Positionen an. EmfPlusPointF-Objekt (Abschnitt 2.2.2.36) Wenn die P- und C-Bits im Flags-Feld gelöscht sind, geben die Punkte absolute Positionen an. EmfPlusPoint-Objekt (Abschnitt 2.2.2.35) Wenn das P-Bit gelöscht ist und das C-Bit im Flags-Feld gesetzt ist, geben die Punkte relative Positionen an. Eine Bezier-Kurve verläuft nicht durch ihre Kontrollpunkte. Die Kontrollpunkte fungieren als |
+| [Relative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/relative) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob PointData relativ ist. Wenn gesetzt, gibt jedes Element in PointData eine Position im Koordinatenraum an, die relativ zu der durch das vorherige Element im Array angegebenen Position ist. Beim ersten Element in PointData wird ein vorheriger Standort bei den Koordinaten (0,0) angenommen. Wenn leer, gibt PointData absolute Positionen gemäß des C-Flags an. Hinweis Wenn dieses Flag gesetzt ist, ist das C-Flag (oben) undefiniert und MUSS ignoriert werden. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Ruft eine 32-Bit-Ganzzahl ohne Vorzeichen ab oder legt diese fest, die die 32-Bit-ausgerichtete Anzahl von Bytes im gesamten Datensatz angibt, einschließlich des 12-Byte-Datensatzheaders und datensatzspezifischer Daten. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Ruft eine 16-Bit-Ganzzahl ohne Vorzeichen ab, die den Datensatztyp identifiziert. |
+
+### Siehe auch
+
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
+* namensraum [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
+* Montage [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

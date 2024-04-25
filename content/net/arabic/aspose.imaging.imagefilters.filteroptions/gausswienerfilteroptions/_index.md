@@ -1,0 +1,105 @@
+---
+title: GaussWienerFilterOptions
+second_title: Aspose.Imaging لمرجع NET API
+description: خيارات مرشح Gauss Wiener Deblur gauss
+type: docs
+weight: 9770
+url: /ar/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
+---
+## GaussWienerFilterOptions class
+
+خيارات مرشح Gauss Wiener Deblur gauss
+
+```csharp
+public class GaussWienerFilterOptions : DeconvolutionFilterOptions
+```
+
+## المنشئون
+
+| اسم | وصف |
+| --- | --- |
+| [GaussWienerFilterOptions](gausswienerfilteroptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`GaussWienerFilterOptions`](../gausswienerfilteroptions) class. بالإعدادات الافتراضية . |
+| [GaussWienerFilterOptions](gausswienerfilteroptions#constructor_1)(int, double) | يقوم بتهيئة مثيل جديد لملف[`GaussWienerFilterOptions`](../gausswienerfilteroptions) فئة . |
+
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | الحصول على السطوع أو تعيينه . النطاق الموصى به 1 - 1.5 القيمة الافتراضية = 1.15 |
+| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`DeconvolutionFilterOptions`](../deconvolutionfilteroptions)هو تدرج الرمادي. إرجاع وضع التدرج الرمادي أو وضع RGB. |
+| [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل محملًا جزئيًا. |
+| [Radius](../../aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/radius) { get; set; } | الحصول على نصف القطر أو تحديده. |
+| [Smooth](../../aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/smooth) { get; set; } | الحصول على سلس أو تعيينه. |
+| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | الحصول على أو تعيين SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009 ، القيمة الافتراضية = 0.007 |
+
+### أمثلة
+
+يطبق المثال التالي أنواعًا مختلفة من المرشحات على صورة نقطية.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // قم بتطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
+    rasterImage.Save(dir + "sample.MedianFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // قم بتطبيق مرشح تجانس ثنائي بحجم نواة 5 على الصورة بأكملها.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
+    rasterImage.Save(dir + "sample.BilateralSmoothingFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // قم بتطبيق مرشح Gaussian blur بنصف قطر 5 وقيمة سيجما 4.0 على الصورة بأكملها.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
+    rasterImage.Save(dir + "sample.GaussianBlurFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // قم بتطبيق مرشح Gauss-Wiener بنصف قطر 5 وقيمة سلسة 4.0 للصورة بأكملها.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
+    rasterImage.Save(dir + "sample.GaussWienerFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // قم بتطبيق مرشح wiener للحركة بطول 5 ، وقيمة سلسة 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
+    rasterImage.Save(dir + "sample.MotionWienerFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // قم بتطبيق مرشح حاد بحجم نواة 5 وقيمة سيجما 4.0 على الصورة بأكملها.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
+    rasterImage.Save(dir + "sample.SharpenFilter.png");
+}
+```
+
+### أنظر أيضا
+
+* class [DeconvolutionFilterOptions](../deconvolutionfilteroptions)
+* مساحة الاسم [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
+* المجسم [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

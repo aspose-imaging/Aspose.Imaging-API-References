@@ -1,0 +1,9 @@
+baseURL = "https://reference.aspose.com/imaging/python-net"
+
+# Google Tag Manager settings
+[params.gtm]
+gtm_id = "GTM-NJMHSH"
+
+[[deployment.targets]]
+name = "Production"
+URL = "s3://reference.aspose.com/?prefix=imaging/python-net/&region=us-west-2"

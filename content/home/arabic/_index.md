@@ -1,0 +1,55 @@
+---
+title: Aspose.Imaging عائلة المنتج
+additionalTitle: مراجع Aspose API
+type: docs
+description: "قم بتطوير محول الصور ومعالجة صور المستندات المستضافة ذاتيًا أو التطبيقات السحابية باستخدام Aspose. تصوير واجهات برمجة تطبيقات سهلة الاستخدام. Aspose.Imaging متاح لـ .NET و Java والأنظمة الأساسية الأخرى."
+weight: 10
+url: /ar/
+---
+
+## Aspose.Imaging for .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.Imaging لشعار منتج .NET](../home_1.png)
+
+يوفر Aspose.Imaging for .NET عددًا من الإجراءات المرنة لإنشاء الصور ومعالجتها داخل تطبيقات .NET. تعمل بشكل مستقل عن تطبيقات الرسومات الأخرى ولا تتطلب تثبيت محرر صور على الجهاز. يوسع Aspose.Imaging الدعم الأصلي لتنسيقات الصور ووظائف معالجة الصور لـ .NET. Aspose.Imaging يسمح للمطورين بمعالجة الصور داخل برامجهم الخاصة ، بسرعة وسهولة.
+
+{{% /alert %}}
+
+هذه روابط لبعض المصادر المفيدة:
+- [Aspose.Imaging لمرجع NET API](/imaging/net/ar/)
+- [Aspose.Imaging لبرامج .NET API التعليمية](/tutorials/imaging/ar/net/)
+
+## Aspose.Imaging لجافا
+
+{{% alert color="primary" %}}
+
+![Aspose.Imaging لشعار منتج Java](../home_2.png)
+
+Aspose.Imaging for Java هي مكتبة تصوير سهلة الاستخدام وعالية الأداء وموثقة جيدًا. يوفر مجموعة الإجراءات الأكثر مرونة لإنشاء الصور ومعالجتها وحفظها في تطبيقات Java. Aspose.Imaging for Java يدعم أقصى تنسيقات الملفات من التصوير الرسومي النقطي ويوفر مجموعة واسعة من خوارزميات الضغط جنبًا إلى جنب مع العديد من عمليات معالجة الصور.
+
+Aspose.Maging for Java يقدم مجموعة واسعة من عمليات معالجة الصور التقليدية مثل تحويل صورة من تنسيق إلى آخر ، رسم كائنات أصلية بالإضافة إلى GraphicsPaths والتحويلات الهندسية مثل القياس والتدوير والتقليب. ميزة مطلوبة من Aspose.Maging for Java هو معالجة إطارات صور متعددة أو قراءة وكتابة تنسيقات الملفات التي تدعم إطارات الصور المتعددة.
+
+{{% /alert %}}
+
+هذه روابط لبعض المصادر المفيدة:
+
+- [Aspose.Imaging لمرجع Java API](/imaging/java/)
+- [Aspose.Imaging لبرامج Java API التعليمية](/tutorials/imaging/ar/java/)
+
+## Aspose.Imaging for Python عبر .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Imaging for Python عبر .NET Product Logo](../home_4.png)
+
+Aspose.Imaging for Python عبر .NET مكتبة قوية تسمح بإجراء عمليات معالجة الصور المتقدمة في تطبيقات Python باستخدام .NET framework. باستخدام Aspose.Imaging ، يمكنك تحميل وتحرير وتحويل وحفظ مجموعة متنوعة من تنسيقات الصور مثل JPEG و PNG و BMP و TIFF و GIF وما إلى ذلك. توفر المكتبة ميزات شاملة لمعالجة الصور ، بما في ذلك تغيير الحجم والقص وضبط الألوان ، تطبيق المرشحات والتأثيرات وإدارة البيانات الوصفية وغير ذلك الكثير. من خلال تكامل Python السلس مع .NET framework ، يتيح Aspose.Imaging لمطوري Python الوصول إلى إمكانات معالجة الصور المتقدمة لإنشاء تطبيقات غنية بالميزات وتلبية احتياجات معالجة الصور الخاصة بهم.
+
+مرجع Aspose.Imaging API لـ Python عبر .NET هو دليل شامل لمطوري Python. يوفر وثائق API شاملة ومقتطفات تعليمات برمجية وأمثلة لمساعدة مطوري Python على فهم Aspose ودمجها بسهولة. يقدم هذا المرجع جميع المعلومات اللازمة للاستفادة الكاملة من ميزات Aspose ، التصوير ، وتوفير الإرشادات خطوة بخطوة ، وأمثلة التعليمات البرمجية ، والعينات لتسهيل دمج هذه المكتبة القوية في مشاريع Python الخاصة بك.
+
+{{% /alert %}}
+
+هذه روابط لبعض المصادر المفيدة:
+
+- [Aspose.Imaging for Python عبر .NET API Reference](/imaging/python-net/)

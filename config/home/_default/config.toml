@@ -1,0 +1,384 @@
+baseURL = "/imaging"
+title = "Aspose API References"
+#publishdir = 'public/sites/aspose/html/imaging'
+staticdir = 'content/static'
+enableRobotsTXT = true
+enableGitInfo = true
+disableKinds = ["taxonomy", "taxonomyTerm", "page", "RSS"]
+
+# Hugo allows theme composition (and inheritance). The precedence is from left to right.
+theme = ["api-theme"]
+
+
+[params.menu]
+zh = "aspose-zh"
+ru = "aspose-ru"
+ar = "aspose-ar"
+cs = "aspose-cs"
+de = "aspose-de"
+el = "aspose-el"
+es = "aspose-es"
+fr = "aspose-fr"
+hi = "aspose-hi"
+hu = "aspose-hu"
+id = "aspose-id"
+it = "aspose-it"
+ja = "aspose-ja"
+ko = "aspose-ko"
+pl = "aspose-pl"
+pt = "aspose-pt"
+sv = "aspose-sv"
+th = "aspose-th"
+tr = "aspose-tr"
+vi = "aspose-vi"
+zh-hant = "aspose-zht"
+
+defaultContentLang = 'en'
+[languages]
+  [languages.en]
+    contentDir = 'content/home/english'
+    languageName = 'English'
+	languageCode = "en"
+    flag = "flag-us"
+    weight = 10
+    [languages.en.menu]
+    	[[languages.en.menu.main]]
+     	  name = "Aspose.Imaging for .NET"
+		  url = "/net/"
+		  weight = 10
+    	[[languages.en.menu.main]]
+     	  name = "Aspose.Imaging for Java"
+		  url = "/java/"
+		  weight = 20
+    	[[languages.en.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "/adapters/"
+		  weight = 40
+    	[[languages.en.menu.main]]
+     	  name = "Aspose.Imaging for Python via .NET"
+		  url = "/python-net/"
+		  weight = 50	
+  [languages.ru]
+    contentDir = 'content/home/russian'
+    languageName = 'Русский'
+	languageCode = "ru"
+    flag = "flag-ru"
+    weight = 11
+    [languages.ru.menu]
+    	[[languages.ru.menu.main]]
+     	  name = "Aspose.Imaging для .NET"
+		  url = "../net/ru/"
+		  weight = 10
+    	[[languages.ru.menu.main]]
+     	  name = "Aspose.Imaging для Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.ru.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.ru.menu.main]]
+     	  name = "Aspose.Imaging для Python через .NET"
+		  url = "../python-net/"
+		  weight = 50	
+    
+  [languages.zh]
+    contentDir = 'content/home/chinese'
+    languageName = "简体中文"
+    languageCode = "zh"
+    flag = "flag-cn"
+    weight = 12
+    [languages.zh.menu]
+    	[[languages.zh.menu.main]]
+     	  name = "用于 .NET 的 Aspose.Imaging"
+		  url = "../net/zh/"
+		  weight = 10
+    	[[languages.zh.menu.main]]
+     	  name = "用于 Java 的 Aspose.Imaging"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.zh.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.zh.menu.main]]
+     	  name = "Aspose.Imaging for Python 通过 .NET"
+		  url = "../python-net/"
+		  weight = 50	
+  [languages.fr]
+    contentDir = 'content/home/french'
+    languageName = "Français"
+    languageCode = "fr"
+    flag = "flag-fr"
+    weight = 13
+    [languages.fr.menu]
+    	[[languages.fr.menu.main]]
+     	  name = "Aspose.Imaging pour .NET"
+		  url = "../net/fr/"
+		  weight = 10
+    	[[languages.fr.menu.main]]
+     	  name = "Aspose.Imaging pour Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.fr.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.fr.menu.main]]
+     	  name = "Aspose.Imaging pour Python via .NET"
+		  url = "../python-net/"
+		  weight = 50	
+  [languages.de]
+    contentDir = 'content/home/german'
+    languageName = "Deutsch"
+    languageCode = "de"
+    flag = "flag-de"
+    weight = 14
+    [languages.de.menu]
+    	[[languages.de.menu.main]]
+     	  name = "Aspose.Imaging für .NET"
+		  url = "../net/de/"
+		  weight = 10
+    	[[languages.de.menu.main]]
+     	  name = "Aspose.Imaging für Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.de.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.de.menu.main]]
+     	  name = "Aspose.Imaging für Python über .NET"
+		  url = "../python-net/"
+		  weight = 50	
+  [languages.es]
+    contentDir = 'content/home/spanish'
+    languageName = "Español"
+    languageCode = "es"
+    flag = "flag-es"
+    weight = 15
+    [languages.es.menu]
+    	[[languages.es.menu.main]]
+     	  name = "Aspose.Imaging para .NET"
+		  url = "../net/es/"
+		  weight = 10
+    	[[languages.es.menu.main]]
+     	  name = "Aspose.Imaging para Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.es.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.es.menu.main]]
+     	  name = "Aspose.Imaging para Python a través de .NET"
+		  url = "../python-net/"
+		  weight = 50
+  [languages.it]
+	contentDir = 'content/home/italian'
+    languageName = "Italiano"
+    languageCode = "it"
+    flag = "flag-it"
+    weight = 16
+    [languages.it.menu]
+    	[[languages.it.menu.main]]
+     	  name = "Aspose.Imaging per .NET"
+		  url = "../net/it/"
+		  weight = 10
+    	[[languages.it.menu.main]]
+     	  name = "Aspose.Imaging per Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.it.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.it.menu.main]]
+     	  name = "Aspose.Imaging per Python tramite .NET"
+		  url = "../python-net/"
+		  weight = 50
+  [languages.ar]
+	contentDir = 'content/home/arabic'
+    languageName = "عربي"
+    languageCode = "ar"
+    flag = "flag-sa"
+    weight = 17
+    [languages.ar.menu]
+    	[[languages.ar.menu.main]]
+     	  name = "Aspose.Imaging لـ .NET"
+		  url = "../net/ar/"
+		  weight = 10
+    	[[languages.ar.menu.main]]
+     	  name = "Aspose.Imaging لـ Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.ar.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.ar.menu.main]]
+     	  name = "Aspose.Imaging لبيثون عبر .NET"
+		  url = "../python-net/"
+		  weight = 50	
+  [languages.sv]
+	contentDir = 'content/home/swedish'
+    languageName = "Svenska"
+    languageCode = "sv"
+    flag = "flag-se"
+    weight = 18
+    [languages.sv.menu]
+    	[[languages.sv.menu.main]]
+     	  name = "Aspose.Imaging för .NET"
+		  url = "../net/sv/"
+		  weight = 10
+    	[[languages.sv.menu.main]]
+     	  name = "Aspose.Imaging för Java"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.sv.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.sv.menu.main]]
+     	  name = "Aspose.Imaging för Python via .NET"
+		  url = "../python-net/"
+		  weight = 50
+  [languages.tr]
+	contentDir = 'content/home/turkish'
+    languageName = "Türkçe"
+    languageCode = "tr"
+    flag = "flag-tr"
+    weight = 19
+    [languages.tr.menu]
+    	[[languages.tr.menu.main]]
+     	  name = ".NET için Aspose.Imaging"
+		  url = "../net/tr/"
+		  weight = 10
+    	[[languages.tr.menu.main]]
+     	  name = "Java için Aspose.Imaging"
+		  url = "../java/"
+		  weight = 20
+    	[[languages.tr.menu.main]]
+     	  name = "Aspose.Imaging.Adapter"
+		  url = "../adapters/"
+		  weight = 40
+    	[[languages.tr.menu.main]]
+     	  name = ".NET aracılığıyla Python için Aspose.Imaging"
+		  url = "../python-net/"
+		  weight = 50		  
+ignoreFiles = ["(?i:readme.md)", '\.spin$']
+
+# Image processing configuration.
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
+[services]
+[services.googleAnalytics]
+# Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
+# id = "UA-00000000-0"
+
+[markup]
+	[markup.tableOfContents]
+		endLevel = 2
+		ordered = true
+		startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 4
+
+# Everything below this are Site Params
+
+[params]
+copyright = "The Aspose Authors"
+privacy_policy = "https://policies.google.com/privacy"
+topbar_search_active = false
+logo_rel_link = ""
+
+# Containerize Menu
+[params.containerize]
+menu = "aspose-en"
+
+[params.meta]
+msapplication_TileColor = "#2b5797"
+msapplication_config = "https://cms.admin.containerize.com/templates/asposecloud/images/browserconfig.xml"
+theme_color = "#ffffff"
+author = "Aspose"
+
+# Title of 404 page
+title_404_page = "404 - Page Not Found | Aspose API References"
+
+# Open Grapgh settings
+title = "Aspose API References"
+images = ["images/Aspose-image-for-open-graph.jpg"]
+description = "Class Libraries & REST APIs for the developers to manipulate & process Files from Word, Excel, PowerPoint, Visio, PDF, CAD & several other categories in Web, Desktop or Mobile apps. Develop & deploy on Windows, Linux, MacOS & Android platforms."
+
+# Specify a value here if your content directory is not in your repo's root directory
+# github_subdir = ""
+
+# Google Custom Search Engine ID. Remove or comment out to disable search.
+# gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+
+# User interface configuration
+[params.ui]
+# Enable to show the side bar menu in its compact state.
+sidebar_menu_compact = true
+#  Set to true to disable breadcrumb navigation.
+breadcrumb_disable = false
+#  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
+sidebar_search_disable = false
+#  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
+navbar_logo = false
+# Set to true to disable the About link in the site footer
+footer_about_disable = false
+
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      decimals = -1
+      keepCSS2 = true
+    [minify.tdewolff.html]
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+    [minify.tdewolff.json]
+    [minify.tdewolff.svg]
+      decimals = -1
+    [minify.tdewolff.xml]
+      keepWhitespace = false
+
+[Taxonomies]
+
+[deployment]
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+#pattern = "^sitemap\\.xml$"
+#pattern = "^[a-z]\\.xml$"
+pattern = "^.+\\.(xml)$"
+contentType = "application/xml"
+gzip = true
+force = true

@@ -1,0 +1,167 @@
+---
+title: Records
+second_title: Aspose.Imaging för .NET API-referens
+description: Hämtar eller sätter rekord.
+type: docs
+weight: 10
+url: /sv/aspose.imaging.fileformats.emf/metaimage/records/
+---
+## MetaImage.Records property
+
+Hämtar eller sätter rekord.
+
+```csharp
+public virtual MetaObjectList Records { get; set; }
+```
+
+### Fastighetsvärde
+
+Posterna.
+
+### Exempel
+
+Det här exemplet visar hur man laddar en WMF-bild från en fil och listar alla dess poster.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+// Att använda Aspose.Imaging.Image.Load är ett enhetligt sätt att ladda alla typer av bilder inklusive WMF.
+using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
+{
+    // Cache-data för att ladda alla poster.
+    wmfImage.CacheData();
+    System.Console.WriteLine("The total number of records: {0}", wmfImage.Records.Count);
+
+    // Nyckeln är en posttyp, värdet är antalet poster av den typen i WMF-bilden.
+    System.Collections.Generic.Dictionary<System.Type, int> types =
+        new System.Collections.Generic.Dictionary<System.Type, int>();
+
+    // Samla statistik 
+    foreach (Aspose.Imaging.FileFormats.Wmf.Objects.WmfObject obj in wmfImage.Records)
+    {
+        System.Type objType = obj.GetType();
+        if (!types.ContainsKey(objType))
+        {
+            types.Add(objType, 1);
+        }
+        else
+        {
+            types[objType]++;
+        }
+    }
+
+    // Skriv ut statistik
+    System.Console.WriteLine("Record Type                              Count");
+    System.Console.WriteLine("----------------------------------------------");
+    foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
+    {
+        string objectType = entry.Key.Name;
+        string alignmentGap = new string(' ', 40 - objectType.Length);
+        System.Console.WriteLine("{0}:{1}{2}", entry.Key.Name, alignmentGap, entry.Value);
+    }
+}
+
+//Utgången kan se ut så här:
+//Det totala antalet poster: 613
+//Rekordstyp
+//----------------------------------------------
+//WmfSetBkMode: 1
+//WmfSetTextAlign: 1
+//WmfSetRop2: 1
+//WmfSetWindowOrg: 1
+//WmfSetWindowExt: 1
+//WmfCreateBrushInDirect: 119
+//WmfSelectObject: 240
+//WmfCreatePenInDirect: 119
+//WmfSetPolyFillMode: 1
+//WmfPolyPolygon: 114
+//WmfPolyLine: 7
+//WmfSetTextColor: 2
+//WmfCreateFontInDirect: 2
+//WmfExtTextOut: 2
+//WmfDibStrechBlt: 1
+//WmfEof: 1
+```
+
+Det här exemplet visar hur man laddar en EMF-bild från en fil och listar alla dess poster.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+// Att använda Aspose.Imaging.Image.Load är ett enhetligt sätt att ladda alla typer av bilder inklusive WMF.
+using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+{
+    // Cache-data för att ladda alla poster.
+    emfImage.CacheData();
+    System.Console.WriteLine("The total number of records: {0}", emfImage.Records.Count);
+
+    // Nyckeln är en posttyp, värdet är antalet poster av den typen i WMF-bilden.
+    System.Collections.Generic.Dictionary<System.Type, int> types =
+        new System.Collections.Generic.Dictionary<System.Type, int>();
+
+    // Samla statistik 
+    foreach (Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRecord obj in emfImage.Records)
+    {
+        System.Type objType = obj.GetType();
+        if (!types.ContainsKey(objType))
+        {
+            types.Add(objType, 1);
+        }
+        else
+        {
+            types[objType]++;
+        }
+    }
+
+    // Skriv ut statistik
+    System.Console.WriteLine("Record Type                              Count");
+    System.Console.WriteLine("----------------------------------------------");
+    foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
+    {
+        string objectType = entry.Key.Name;
+        string alignmentGap = new string(' ', 40 - objectType.Length);
+        System.Console.WriteLine("{0}:{1}{2}", entry.Key.Name, alignmentGap, entry.Value);
+    }
+}
+
+//Utgången kan se ut så här:
+//Det totala antalet poster: 1188
+//Rekordstyp
+//----------------------------------------------
+//EmfMetafileHeader: 1
+//EmfSetBkMode: 1
+//EmfSetTextAlign: 1
+//EmfSetRop2: 1
+//EmfSetWorldTransform: 1
+//EmfExtSelectClipRgn: 1
+//EmfCreateBrushIndirect: 113
+//EmfSelectObject: 240
+//EmfCreatePen: 116
+//EmfSetPolyFillMode: 1
+//EmfBeginPath: 120
+//EmfMoveToEx: 122
+//EmfPolyBezierTo16: 36
+//EmfLineTo: 172
+//EmfCloseFigure: 14
+//EmfEndPath: 120
+//EmfStrokeAndFillPath: 113
+//EmfStrokePath: 7
+//EmfSetTextColor: 2
+//EmfExtCreateFontIndirectW: 2
+//EmfExtTextOutW: 2
+//EmfStretchBlt: 1
+//EmfEof: 1
+```
+
+### Se även
+
+* class [MetaObjectList](../../metaobjectlist)
+* class [MetaImage](../../metaimage)
+* namnutrymme [Aspose.Imaging.FileFormats.Emf](../../metaimage)
+* hopsättning [Aspose.Imaging](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

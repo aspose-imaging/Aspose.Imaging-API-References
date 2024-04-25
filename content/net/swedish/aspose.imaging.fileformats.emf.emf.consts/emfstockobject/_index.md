@@ -1,0 +1,46 @@
+---
+title: EmfStockObject
+second_title: Aspose.Imaging för .NET API-referens
+description: StockObject-uppräkningen anger indexen för fördefinierade logiska grafikobjekt som kan användas i grafikoperationer. De specifika strukturerna för lagerobjekt är implementeringsberoende dock SKA egenskaperna för lagerobjekt vara likvärdiga med egenskaperna för explicit skapade objekt av samma typ. Dessa egenskaper specificeras där så är möjligt för de lagerobjekt som definieras i denna uppräkning.
+type: docs
+weight: 2860
+url: /sv/aspose.imaging.fileformats.emf.emf.consts/emfstockobject/
+---
+## EmfStockObject enumeration
+
+StockObject-uppräkningen anger indexen för fördefinierade logiska grafikobjekt som kan användas i grafikoperationer. De specifika strukturerna för lagerobjekt är implementeringsberoende; dock SKA egenskaperna för lagerobjekt vara likvärdiga med egenskaperna för explicit skapade objekt av samma typ. Dessa egenskaper specificeras där så är möjligt för de lagerobjekt som definieras i denna uppräkning.
+
+```csharp
+public enum EmfStockObject
+```
+
+### Värderingar
+
+| namn | Värde | Beskrivning |
+| --- | --- | --- |
+| WHITE_BRUSH | `-2147483648` | En vit, enfärgad pensel som motsvarar en logisk pensel (LogBrushEx-objekt, avsnitt 2.2.12) med följande egenskaper: BrushStyle: BS_SOLID (WMF BrushStyle enumeration, [MS-WMF.1.0MF] avsnitt 4.0.d Färg: 0x00FFFFFF (WMF ColorRef-objekt, [MS-WMF] avsnitt 2.2.2.8) |
+| LTGRAY_BRUSH | `-2147483647` | En ljusgrå, enfärgad pensel som motsvarar en logisk pensel med följande egenskaper: BrushStyle: BS_SOLID Färg: 0x00C0C0C0 |
+| GRAY_BRUSH | `-2147483646` | En grå, enfärgad pensel som motsvarar en logisk pensel med följande egenskaper: BrushStyle: BS_SOLID Färg: 0x00808080 |
+| DKGRAY_BRUSH | `-2147483645` | En mörkgrå, enfärgad pensel som motsvarar en logisk pensel med följande egenskaper: BrushStyle: BS_SOLID Färg: 0x00404040 |
+| BLACK_BRUSH | `-2147483644` | En svart, enfärgad pensel som motsvarar en logisk pensel med följande egenskaper: BrushStyle: BS_SOLID Färg: 0x00000000 |
+| NULL_BRUSH | `-2147483643` | En nollpensel som motsvarar en logisk pensel med följande egenskaper: BrushStyle: BS_NULL |
+| WHITE_PEN | `-2147483642` | En vit, enfärgad penna som är likvärdig med en logisk penna (LogPen-objekt, avsnitt 2.2.19) med följande egenskaper: PenStyle: PS_COSMETIC + PS_SOLID (PenStyle-uppräkning, avsnitt 2.x0FFfd0) (Color_0FFd00 WMF ColorRef-objekt). |
+| BLACK_PEN | `-2147483641` | En svart, enfärgad penna som motsvarar en logisk penna med följande egenskaper: PenStyle: PS_COSMETIC + PS_SOLID ColorRef: 0x00000000 |
+| NULL_PEN | `-2147483640` | En nollpenna som motsvarar en logisk penna med följande egenskaper: PenStyle: PS_NULL |
+| OEM_FIXED_FONT | `-2147483638` | Ett OEM-teckenuppsättningstypsnitt med fast bredd som motsvarar ett logiskt teckensnitt (LogFont-objekt, avsnitt 2.2.13) med följande egenskaper: Teckenuppsättning: OEM_CHARSET (WMF CharacterSet-uppräkning, [MS-WMF] avsnitt 2.1.1.5. ) PitchAndFamily: FF_DONTCARE (WMF FamilyFont-uppräkning, [MS-WMF] avsnitt 2.1.1.8) + FIXED_PITCH (WMF PitchFont-uppräkning, [MS-WMF] avsnitt 2.1.1.004)_d |
+| ANSI_FIXED_FONT | `-2147483637` | Ett teckensnitt med fast bredd som motsvarar ett logiskt teckensnitt med följande egenskaper: Teckenuppsättning: ANSI_CHARSET PitchAndFamily: FF_DONTCARE + FIXED_PITCH |
+| ANSI_VAR_FONT | `-2147483636` | Ett teckensnitt med variabel bredd som motsvarar ett logiskt teckensnitt med följande egenskaper: Teckenuppsättning: ANSI_CHARSET PitchAndFamily: FF_DONTCARE + VARIABLE_PITCH |
+| SYSTEM_FONT | `-2147483635` | Ett teckensnitt som garanterat finns tillgängligt i operativsystemet. Det faktiska teckensnittet som anges av detta värde är implementeringsberoende |
+| DEVICE_DEFAULT_FONT | `-2147483634` | Standardteckensnittet som tillhandahålls av grafikenhetsdrivrutinen för den aktuella utenheten. Det faktiska teckensnittet som anges av detta värde är implementeringsberoende |
+| DEFAULT_PALETTE | `-2147483633` | Standardpaletten som är definierad för den aktuella utenheten. Den faktiska paletten som specificeras av detta värde är implementeringsberoende |
+| SYSTEM_FIXED_FONT | `-2147483632` | Ett typsnitt med fast bredd som garanterat är tillgängligt i operativsystemet. Det faktiska teckensnittet som anges av detta värde är implementeringsberoende |
+| DEFAULT_GUI_FONT | `-2147483631` | Ett typsnitt med fast bredd som garanterat är tillgängligt i operativsystemet. Det faktiska teckensnittet som anges av detta värde är implementeringsberoende |
+| DC_BRUSH | `-2147483630` | Den enfärgade penseln som för närvarande är vald i uppspelningsenheten context |
+| DC_PEN | `-2147483629` | Den enfärgade pennan som för närvarande är vald i uppspelningsenhetens sammanhang |
+
+### Se även
+
+* namnutrymme [Aspose.Imaging.FileFormats.Emf.Emf.Consts](../../aspose.imaging.fileformats.emf.emf.consts)
+* hopsättning [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

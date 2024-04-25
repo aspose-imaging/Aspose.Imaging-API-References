@@ -1,0 +1,20 @@
+---
+title: WmfMetafileVersion Enumeration
+type: docs
+weight: 160
+url: /aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/
+---
+
+The MetafileVersion Enumeration defines values that specify support for device-independent<br/>                bitmaps (DIBs) in metafiles.
+
+**Module:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
+
+**Full Name:** aspose.imaging.fileformats.wmf.consts.WmfMetafileVersion
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Members**
+| **Member name** | **Description** |
+| :- | :- |
+| METAVERSION100 | DIBs are not supported. |
+| METAVERSION300 | DIBs are supported. |

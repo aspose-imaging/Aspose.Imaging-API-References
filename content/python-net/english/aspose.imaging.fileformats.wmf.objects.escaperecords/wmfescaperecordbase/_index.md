@@ -1,0 +1,38 @@
+---
+title: WmfEscapeRecordBase Class
+type: docs
+weight: 30
+url: /aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/
+---
+
+**Summary:** The escape record base.
+
+**Module:** [aspose.imaging.fileformats.wmf.objects.escaperecords](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/)
+
+**Full Name:** aspose.imaging.fileformats.wmf.objects.escaperecords.WmfEscapeRecordBase
+
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Constructors**
+| **Name** | **Description** |
+| :- | :- |
+| [WmfEscapeRecordBase()](#WmfEscapeRecordBase__1) | Initializes a new instance of the WmfEscapeRecordBase class |
+## **Properties**
+| **Name** | **Type** | **Access** | **Description** |
+| :- | :- | :- | :- |
+| byte_count | int | r/w | Gets or sets the byte count. |
+| checked | bool | r/w | Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked. |
+| data | byte | r/w | Gets or sets the data. |
+
+
+### Constructor: WmfEscapeRecordBase() {#WmfEscapeRecordBase__1}
+
+
+```
+ WmfEscapeRecordBase() 
+```
+
+Initializes a new instance of the WmfEscapeRecordBase class
+

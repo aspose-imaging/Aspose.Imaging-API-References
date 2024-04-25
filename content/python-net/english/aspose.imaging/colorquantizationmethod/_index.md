@@ -1,0 +1,20 @@
+---
+title: ColorQuantizationMethod Enumeration
+type: docs
+weight: 9140
+url: /aspose.imaging/colorquantizationmethod/
+---
+
+Colors quantization  methods
+
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+
+**Full Name:** aspose.imaging.ColorQuantizationMethod
+
+**Aspose.Imaging Version:** 24.4.0
+
+## **Members**
+| **Member name** | **Description** |
+| :- | :- |
+| NONE | Nothing color quantization method is used |
+| POPULARITY | The popularity method |
