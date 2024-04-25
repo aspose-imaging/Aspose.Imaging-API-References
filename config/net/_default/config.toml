@@ -71,7 +71,31 @@ defaultContentLang = 'en'
     languageCode = "es"
     flag = "flag-es"
     weight = 15
-
+  [languages.it]
+    contentDir = 'content/net/italian'
+    languageName = "Italiano"
+    languageCode = "it"
+    flag = "flag-it"
+    weight = 16
+  [languages.ar]
+    contentDir = 'content/net/arabic'
+    languageName = "عربي"
+    languageCode = "ar"
+    flag = "flag-ar"
+    weight = 17
+  [languages.sv]
+    contentDir = 'content/net/swedish'
+    languageName = "Svenska"
+    languageCode = "sv"
+    flag = "flag-sv"
+    weight = 18	
+  [languages.tr]
+    contentDir = 'content/net/turkish'
+    languageName = "Türkçe"
+    languageCode = "tr"
+    flag = "flag-tr"
+    weight = 19
+	
 ignoreFiles = ["(?i:readme.md)", '\.spin$']
 
 # Image processing configuration.
