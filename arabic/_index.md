@@ -5,6 +5,7 @@ type: docs
 description: "قم بتطوير محول الصور ومعالجة صور المستندات المستضافة ذاتيًا أو التطبيقات السحابية باستخدام Aspose. تصوير واجهات برمجة تطبيقات سهلة الاستخدام. Aspose.Imaging متاح لـ .NET و Java والأنظمة الأساسية الأخرى."
 weight: 10
 url: /ar/
+override_menu: true
 ---
 
 ## Aspose.Imaging for .NET
