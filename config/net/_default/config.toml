@@ -89,12 +89,6 @@ defaultContentLang = 'en'
     languageCode = "sv"
     flag = "flag-sv"
     weight = 18	
-  [languages.tr]
-    contentDir = 'content/net/turkish'
-    languageName = "Türkçe"
-    languageCode = "tr"
-    flag = "flag-tr"
-    weight = 19
 	
 ignoreFiles = ["(?i:readme.md)", '\.spin$']
 
