@@ -5,6 +5,7 @@ type: docs
 description: "Разрабатывайте конвертер изображений и документируйте обработку изображений самостоятельно или в облаке с помощью простых в использовании API-интерфейсов Aspose.Imaging. Aspose.Imaging доступен для .NET, Java и других платформ."
 weight: 10
 url: /ru/
+override_menu: true
 ---
 
 ## Aspose.Imaging для .NET
