@@ -5,6 +5,7 @@ type: docs
 description: "使用 Aspose.Imaging 易于使用的 API 开发图像转换器和文档图像处理自托管或云应用程序。 Aspose.Imaging 可用于 .NET、Java 和其他平台。"
 weight: 10
 url: /zh/
+override_menu: true
 ---
 
 ## Aspose.Imaging for .NET
