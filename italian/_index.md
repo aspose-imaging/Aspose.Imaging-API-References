@@ -5,6 +5,7 @@ type: docs
 description: "Sviluppa convertitori di immagini e applicazioni cloud per l'elaborazione di immagini di documenti con le API Aspose.Imaging facili da usare. Aspose.Imaging è disponibile per .NET, Java e altre piattaforme."
 weight: 10
 url: /it/
+override_menu: true
 ---
 
 ## Aspose.Imaging per .NET
