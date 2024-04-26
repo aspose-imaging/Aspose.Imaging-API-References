@@ -5,6 +5,7 @@ type: docs
 description: "Aspose.Imaging kullanımı kolay API'leri ile görüntü dönüştürücü ve belge görüntü işleme kendi kendine barındırılan veya bulut uygulamaları geliştirin. Aspose.Imaging, .NET, Java ve diğer platformlar için mevcuttur."
 weight: 10
 url: /tr/
+override_menu: true
 ---
 
 ## .NET için Aspose.Imaging
