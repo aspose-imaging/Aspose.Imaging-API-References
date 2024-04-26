@@ -5,6 +5,7 @@ type: docs
 description: "Develop image converter and document image processing self-hosted or cloud apps with Aspose.Imaging easy-to-use APIs. Aspose.Imaging is available for .NET, Java, and other platforms."
 weight: 10
 url: /
+override_menu: true
 ---
 
 ## Aspose.Imaging for .NET

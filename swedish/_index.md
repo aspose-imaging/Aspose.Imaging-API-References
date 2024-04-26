@@ -5,6 +5,7 @@ type: docs
 description: "Utveckla bildkonverterare och dokumentbildsbearbetning av egen värd eller molnappar med lättanvända API:er från Aspose.Imaging. Aspose.Imaging är tillgängligt för .NET, Java och andra plattformar."
 weight: 10
 url: /sv/
+override_menu: true
 ---
 
 ## Aspose.Imaging för .NET
