@@ -12,4 +12,4 @@ is_root: true
 
 | Adapter | Description |
 | --- | --- |
-| [Aspose.Imaging.net.Adapter](https://reference.aspose.com/imaging/adapters/net/) | Adapters for .NET are designed to combine Aspose .NET products to increase conversion between formats. And ensure ease of use. |
+| [Aspose.Imaging.net.Adapter](https://reference.aspose.com/imaging/adapters/net/) | Adapters for .NET are designed to combine Aspose .NET products to  increase conversion between formats. And ensure ease of use. |
