@@ -1,7 +1,7 @@
 ---
-title: ApngOptions
+title: Class ApngOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.ApngOptions class. The API for Animated PNG Animated Portable Network Graphics image file format creation is a dynamic tool for developers seeking to generate captivating animated images. With customizable options such as frame duration and the number of times to loop this API allows for finetuning animated content according to specific needs. Whether creating engaging web graphics or interactive visuals you can leverage this API to seamlessly incorporate APNG images with precise control over animation parameters
 type: docs
 weight: 10020
 url: /net/aspose.imaging.imageoptions/apngoptions/
@@ -18,38 +18,38 @@ public class ApngOptions : PngOptions
 
 | Name | Description |
 | --- | --- |
-| [ApngOptions](apngoptions)() | Initializes a new instance of the [`ApngOptions`](../apngoptions) class. |
+| [ApngOptions](apngoptions/)() | Initializes a new instance of the `ApngOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth) { get; set; } | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype) { get; set; } | Gets or sets the type of the color. |
-| [CompressionLevel](../../aspose.imaging.imageoptions/pngoptions/compressionlevel) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression. |
-| [DefaultFrameTime](../../aspose.imaging.imageoptions/apngoptions/defaultframetime) { get; set; } | Gets or sets the default frame duration. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype) { get; set; } | Gets or sets the filter type used during png file save process. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| [NumPlays](../../aspose.imaging.imageoptions/apngoptions/numplays) { get; set; } | Gets or sets the number of times to loop animation. 0 indicates infinite looping. |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage) is progressive. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/pngoptions/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth/) { get; set; } | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
+| [CompressionLevel](../../aspose.imaging.imageoptions/pngoptions/compressionlevel/) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) compression level in the range of 0-9. The higher the value - the more efficient the compression. |
+| [DefaultFrameTime](../../aspose.imaging.imageoptions/apngoptions/defaultframetime/) { get; set; } | Gets or sets the default frame duration. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| [NumPlays](../../aspose.imaging.imageoptions/apngoptions/numplays/) { get; set; } | Gets or sets the number of times to loop animation. 0 indicates infinite looping. |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| override [XmpData](../../aspose.imaging.imageoptions/pngoptions/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
-### Examples
+## Examples
 
 The following example shows how to export apng APNG file format from other non-animated multi-page format.
 
@@ -137,8 +137,8 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 
 ### See Also
 
-* class [PngOptions](../pngoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [PngOptions](../pngoptions/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

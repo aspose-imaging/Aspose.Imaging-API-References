@@ -1,14 +1,14 @@
 ---
-title: PngImage
+title: PngImage.PngImage
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: PngImage constructor. Initialize a new object of the PngImage class by providing the width and height parameters. This constructor simplifies the creation of PNG images by allowing developers to specify the dimensions directly facilitating efficient management of PNG image data within their applications
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.png/pngimage/pngimage/
 ---
-## PngImage constructor (1 of 8)
+## PngImage(int, int) {#constructor_3}
 
-Initialize a new object of the [`PngImage`](../../pngimage) class by providing the width and height parameters. This constructor simplifies the creation of PNG images by allowing developers to specify the dimensions directly, facilitating efficient management of PNG image data within their applications.
+Initialize a new object of the [`PngImage`](../) class by providing the width and height parameters. This constructor simplifies the creation of PNG images by allowing developers to specify the dimensions directly, facilitating efficient management of PNG image data within their applications.
 
 ```csharp
 public PngImage(int width, int height)
@@ -19,7 +19,7 @@ public PngImage(int width, int height)
 | width | Int32 | The width. |
 | height | Int32 | The height. |
 
-### Examples
+## Examples
 
 This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file.
 
@@ -43,15 +43,15 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (2 of 8)
+## PngImage(string) {#constructor_6}
 
-Constructs a new instance of the [`PngImage`](../../pngimage) class using the path parameter to specify the location of the image file to load. This constructor enables developers to conveniently create PNG images by loading them from a file, simplifying the process of working with PNG images in their applications.
+Constructs a new instance of the [`PngImage`](../) class using the path parameter to specify the location of the image file to load. This constructor enables developers to conveniently create PNG images by loading them from a file, simplifying the process of working with PNG images in their applications.
 
 ```csharp
 public PngImage(string path)
@@ -61,7 +61,7 @@ public PngImage(string path)
 | --- | --- | --- |
 | path | String | The path to load an image. |
 
-### Examples
+## Examples
 
 This example shows how to load a PNG image from a file.
 
@@ -83,15 +83,15 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (3 of 8)
+## PngImage(RasterImage) {#constructor_1}
 
-Creates a new instance of the [`PngImage`](../../pngimage) class by providing a raster image as a parameter. This constructor allows developers to directly initialize a PNG image object using an existing raster image, streamlining the process of working with PNG images in their applications.
+Creates a new instance of the [`PngImage`](../) class by providing a raster image as a parameter. This constructor allows developers to directly initialize a PNG image object using an existing raster image, streamlining the process of working with PNG images in their applications.
 
 ```csharp
 public PngImage(RasterImage rasterImage)
@@ -101,7 +101,7 @@ public PngImage(RasterImage rasterImage)
 | --- | --- | --- |
 | rasterImage | RasterImage | The raster image. |
 
-### Examples
+## Examples
 
 This example shows how to load PNG image from a BMP image.
 
@@ -130,16 +130,16 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (4 of 8)
+## PngImage(string, PngColorType) {#constructor_7}
 
-Initializes a new instance of the [`PngImage`](../../pngimage) class by specifying the path to the image file and the color type. This constructor allows for convenient creation of PNG images from files with different color types, providing flexibility in handling various image formats.
+Initializes a new instance of the [`PngImage`](../) class by specifying the path to the image file and the color type. This constructor allows for convenient creation of PNG images from files with different color types, providing flexibility in handling various image formats.
 
 ```csharp
 public PngImage(string path, PngColorType colorType)
@@ -156,7 +156,7 @@ public PngImage(string path, PngColorType colorType)
 | --- | --- |
 | ArgumentNullException |  |
 
-### Examples
+## Examples
 
 This example shows how to load a PNG image from a file with the specified color type.
 
@@ -176,16 +176,16 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* enum [PngColorType](../../pngcolortype)
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* enum [PngColorType](../../pngcolortype/)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (5 of 8)
+## PngImage(RasterImage, PngColorType) {#constructor_2}
 
-Creates a new instance of the [`PngImage`](../../pngimage) class by specifying a raster image and a color type. This constructor enables developers to directly convert raster images into PNG format while specifying the desired color type, offering flexibility in color representation.
+Creates a new instance of the [`PngImage`](../) class by specifying a raster image and a color type. This constructor enables developers to directly convert raster images into PNG format while specifying the desired color type, offering flexibility in color representation.
 
 ```csharp
 public PngImage(RasterImage rasterImage, PngColorType colorType)
@@ -196,7 +196,7 @@ public PngImage(RasterImage rasterImage, PngColorType colorType)
 | rasterImage | RasterImage | The raster image. |
 | colorType | PngColorType | The color type. |
 
-### Examples
+## Examples
 
 This example shows how to load PNG image from a BMP image with the specified color type.
 
@@ -225,17 +225,17 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* enum [PngColorType](../../pngcolortype)
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* enum [PngColorType](../../pngcolortype/)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (6 of 8)
+## PngImage(Stream) {#constructor_5}
 
-Creates a new instance of the [`PngImage`](../../pngimage) class by initializing it with a stream. This constructor allows developers to load PNG images directly from a stream, providing flexibility in image retrieval from different sources.
+Creates a new instance of the [`PngImage`](../) class by initializing it with a stream. This constructor allows developers to load PNG images directly from a stream, providing flexibility in image retrieval from different sources.
 
 ```csharp
 public PngImage(Stream stream)
@@ -245,7 +245,7 @@ public PngImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to load an image. |
 
-### Examples
+## Examples
 
 This example shows how to load a PNG image from a file or a file stream.
 
@@ -270,15 +270,15 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.png"))
 
 ### See Also
 
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (7 of 8)
+## PngImage(int, int, PngColorType) {#constructor_4}
 
-Instantiate a fresh instance of the [`PngImage`](../../pngimage) class, specifying the desired width, height, and color type parameters. This constructor enables swift creation of PNG images with tailored dimensions and color configurations, facilitating streamlined image generation for various applications and workflows.
+Instantiate a fresh instance of the [`PngImage`](../) class, specifying the desired width, height, and color type parameters. This constructor enables swift creation of PNG images with tailored dimensions and color configurations, facilitating streamlined image generation for various applications and workflows.
 
 ```csharp
 public PngImage(int width, int height, PngColorType colorType)
@@ -290,7 +290,7 @@ public PngImage(int width, int height, PngColorType colorType)
 | height | Int32 | The height. |
 | colorType | PngColorType | The color type. |
 
-### Examples
+## Examples
 
 This example shows how to create a PNG image of the specified size with the specified color type, fill it with a solid color and save it to a file.
 
@@ -315,16 +315,16 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* enum [PngColorType](../../pngcolortype)
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* enum [PngColorType](../../pngcolortype/)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## PngImage constructor (8 of 8)
+## PngImage(PngOptions, int, int) {#constructor}
 
-Initialize a new instance of the [`PngImage`](../../pngimage) class, incorporating PNG options alongside width and height parameters. This constructor empowers developers to create PNG images with customizable settings and dimensions, offering flexibility in image generation for diverse use cases.
+Initialize a new instance of the [`PngImage`](../) class, incorporating PNG options alongside width and height parameters. This constructor empowers developers to create PNG images with customizable settings and dimensions, offering flexibility in image generation for diverse use cases.
 
 ```csharp
 public PngImage(PngOptions pngOptions, int width, int height)
@@ -336,7 +336,7 @@ public PngImage(PngOptions pngOptions, int width, int height)
 | width | Int32 | The width. |
 | height | Int32 | The height. |
 
-### Examples
+## Examples
 
 This example shows how to create a PNG image with the specified options, fill it with a linear gradient colors and save it to a file.
 
@@ -383,9 +383,9 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [PngOptions](../../../aspose.imaging.imageoptions/pngoptions)
-* class [PngImage](../../pngimage)
-* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage)
+* class [PngOptions](../../../aspose.imaging.imageoptions/pngoptions/)
+* class [PngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Png](../../pngimage/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

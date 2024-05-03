@@ -1,14 +1,14 @@
 ---
-title: WebPImage
+title: WebPImage.WebPImage
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: WebPImage constructor. Instantiate a new instance of the WebPImage class initialized from a provided stream source. Utilize this constructor to seamlessly create WebP image objects directly from streams enabling efficient handling and manipulation of WebP image data within your application
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.webp/webpimage/webpimage/
 ---
-## WebPImage constructor (1 of 8)
+## WebPImage(Stream) {#constructor_4}
 
-Instantiate a new instance of the [`WebPImage`](../../webpimage) class, initialized from a provided stream source. Utilize this constructor to seamlessly create WebP image objects directly from streams, enabling efficient handling and manipulation of WebP image data within your application.
+Instantiate a new instance of the [`WebPImage`](../) class, initialized from a provided stream source. Utilize this constructor to seamlessly create WebP image objects directly from streams, enabling efficient handling and manipulation of WebP image data within your application.
 
 ```csharp
 public WebPImage(Stream stream)
@@ -18,7 +18,7 @@ public WebPImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream WebP image. |
 
-### Examples
+## Examples
 
 This example shows how to load a WebP image from a file stream and save it to PNG.
 
@@ -39,15 +39,15 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ### See Also
 
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (2 of 8)
+## WebPImage(Stream, LoadOptions) {#constructor_5}
 
-Create a new instance of the [`WebPImage`](../../webpimage) class using a stream and specified load options, facilitating versatile handling of WebP image data. Incorporate this constructor to seamlessly initialize WebP image objects from streams while customizing loading parameters as needed within your application.
+Create a new instance of the [`WebPImage`](../) class using a stream and specified load options, facilitating versatile handling of WebP image data. Incorporate this constructor to seamlessly initialize WebP image objects from streams while customizing loading parameters as needed within your application.
 
 ```csharp
 public WebPImage(Stream stream, LoadOptions loadOptions)
@@ -60,16 +60,16 @@ public WebPImage(Stream stream, LoadOptions loadOptions)
 
 ### See Also
 
-* class [LoadOptions](../../../aspose.imaging/loadoptions)
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [LoadOptions](../../../aspose.imaging/loadoptions/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (3 of 8)
+## WebPImage(string) {#constructor_6}
 
-Instantiate a fresh instance of the [`WebPImage`](../../webpimage) class, initialized from a provided file source. Utilize this constructor to seamlessly create WebP image objects directly from files, streamlining the process of loading and manipulating WebP image data within your application.
+Instantiate a fresh instance of the [`WebPImage`](../) class, initialized from a provided file source. Utilize this constructor to seamlessly create WebP image objects directly from files, streamlining the process of loading and manipulating WebP image data within your application.
 
 ```csharp
 public WebPImage(string path)
@@ -79,7 +79,7 @@ public WebPImage(string path)
 | --- | --- | --- |
 | path | String | The path to file WebP Image |
 
-### Examples
+## Examples
 
 This example shows how to load a WebP image from a file and save it to PNG.
 
@@ -99,15 +99,15 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ### See Also
 
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (4 of 8)
+## WebPImage(string, LoadOptions) {#constructor_7}
 
-Create a new instance of the [`WebPImage`](../../webpimage) class using a file and specified load options, facilitating flexible handling of WebP image data. Utilize this constructor to seamlessly initialize WebP image objects from files while customizing loading parameters according to your application's requirements.
+Create a new instance of the [`WebPImage`](../) class using a file and specified load options, facilitating flexible handling of WebP image data. Utilize this constructor to seamlessly initialize WebP image objects from files while customizing loading parameters according to your application's requirements.
 
 ```csharp
 public WebPImage(string path, LoadOptions loadOptions)
@@ -120,16 +120,16 @@ public WebPImage(string path, LoadOptions loadOptions)
 
 ### See Also
 
-* class [LoadOptions](../../../aspose.imaging/loadoptions)
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [LoadOptions](../../../aspose.imaging/loadoptions/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (5 of 8)
+## WebPImage(RasterImage) {#constructor}
 
-Instantiate a new instance of the [`WebPImage`](../../webpimage) class, initialized from a provided rasterImage object. This constructor allows for seamless conversion of raster images to WebP format, enabling efficient handling and manipulation of image data within your application.
+Instantiate a new instance of the [`WebPImage`](../) class, initialized from a provided rasterImage object. This constructor allows for seamless conversion of raster images to WebP format, enabling efficient handling and manipulation of image data within your application.
 
 ```csharp
 public WebPImage(RasterImage rasterImage)
@@ -139,7 +139,7 @@ public WebPImage(RasterImage rasterImage)
 | --- | --- | --- |
 | rasterImage | RasterImage | The raster image. |
 
-### Examples
+## Examples
 
 This example shows how to create a WebP image from another raster image.
 
@@ -168,16 +168,16 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (6 of 8)
+## WebPImage(RasterImage, LoadOptions) {#constructor_1}
 
-Create a new instance of the [`WebPImage`](../../webpimage) class using a rasterImage object and specified load options, enabling flexible handling of image data. Utilize this constructor to seamlessly initialize WebP image objects from raster images while customizing loading parameters according to your application's requirements.
+Create a new instance of the [`WebPImage`](../) class using a rasterImage object and specified load options, enabling flexible handling of image data. Utilize this constructor to seamlessly initialize WebP image objects from raster images while customizing loading parameters according to your application's requirements.
 
 ```csharp
 public WebPImage(RasterImage rasterImage, LoadOptions loadOptions)
@@ -190,17 +190,17 @@ public WebPImage(RasterImage rasterImage, LoadOptions loadOptions)
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [LoadOptions](../../../aspose.imaging/loadoptions)
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [LoadOptions](../../../aspose.imaging/loadoptions/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (7 of 8)
+## WebPImage(int, int, WebPOptions) {#constructor_2}
 
-Instantiate a new instance of the [`WebPImage`](../../webpimage) class with an empty image of specified width and height dimensions. This constructor allows for the creation of blank WebP images, providing a foundation for subsequent image manipulation and content generation within your application.
+Instantiate a new instance of the [`WebPImage`](../) class with an empty image of specified width and height dimensions. This constructor allows for the creation of blank WebP images, providing a foundation for subsequent image manipulation and content generation within your application.
 
 ```csharp
 public WebPImage(int width, int height, WebPOptions options)
@@ -212,7 +212,7 @@ public WebPImage(int width, int height, WebPOptions options)
 | height | Int32 | The image height. |
 | options | WebPOptions | The options. |
 
-### Examples
+## Examples
 
 This example shows how to create a WebP image with the specified options from scratch.
 
@@ -293,16 +293,16 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ### See Also
 
-* class [WebPOptions](../../../aspose.imaging.imageoptions/webpoptions)
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [WebPOptions](../../../aspose.imaging.imageoptions/webpoptions/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## WebPImage constructor (8 of 8)
+## WebPImage(int, int, WebPOptions, LoadOptions) {#constructor_3}
 
-Create a new instance of the [`WebPImage`](../../webpimage) class with an empty image and specified load options. This constructor allows for the initialization of WebP images with customizable loading parameters, providing flexibility in image creation and manipulation within your application.
+Create a new instance of the [`WebPImage`](../) class with an empty image and specified load options. This constructor allows for the initialization of WebP images with customizable loading parameters, providing flexibility in image creation and manipulation within your application.
 
 ```csharp
 public WebPImage(int width, int height, WebPOptions options, LoadOptions loadOptions)
@@ -317,10 +317,10 @@ public WebPImage(int width, int height, WebPOptions options, LoadOptions loadOpt
 
 ### See Also
 
-* class [WebPOptions](../../../aspose.imaging.imageoptions/webpoptions)
-* class [LoadOptions](../../../aspose.imaging/loadoptions)
-* class [WebPImage](../../webpimage)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage)
+* class [WebPOptions](../../../aspose.imaging.imageoptions/webpoptions/)
+* class [LoadOptions](../../../aspose.imaging/loadoptions/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

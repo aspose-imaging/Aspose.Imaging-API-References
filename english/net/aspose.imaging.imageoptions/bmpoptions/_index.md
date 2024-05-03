@@ -1,7 +1,7 @@
 ---
-title: BmpOptions
+title: Class BmpOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.BmpOptions class. The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap BMP and Device Independent Bitmap DIB images. With this API you can precisely define image characteristics such as bits per pixel compression level and compression type tailoring the output to meet specific requirements. This featurerich API empowers developers to create highquality customized raster images with ease and flexibility for diverse applications
 type: docs
 weight: 10040
 url: /net/aspose.imaging.imageoptions/bmpoptions/
@@ -18,34 +18,34 @@ public class BmpOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [BmpOptions](bmpoptions)() | Initializes a new instance of the [`BmpOptions`](../bmpoptions) class. |
-| [BmpOptions](bmpoptions)(BmpOptions) | Initializes a new instance of the [`BmpOptions`](../bmpoptions) class. |
+| [BmpOptions](bmpoptions/#constructor)() | Initializes a new instance of the `BmpOptions` class. |
+| [BmpOptions](bmpoptions/#constructor_1)(BmpOptions) | Initializes a new instance of the `BmpOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BitsPerPixel](../../aspose.imaging.imageoptions/bmpoptions/bitsperpixel) { get; set; } | Gets or sets the image bits per pixel count. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [Compression](../../aspose.imaging.imageoptions/bmpoptions/compression) { get; set; } | Gets or sets the compression type. The default compression type is Bitfields, that allows saving a [`BmpImage`](../../aspose.imaging.fileformats.bmp/bmpimage) with transparency. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BitsPerPixel](../../aspose.imaging.imageoptions/bmpoptions/bitsperpixel/) { get; set; } | Gets or sets the image bits per pixel count. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Compression](../../aspose.imaging.imageoptions/bmpoptions/compression/) { get; set; } | Gets or sets the compression type. The default compression type is Bitfields, that allows saving a [`BmpImage`](../../aspose.imaging.fileformats.bmp/bmpimage/) with transparency. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
-### Examples
+## Examples
 
 This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case.
 
@@ -129,8 +129,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 
 ### See Also
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

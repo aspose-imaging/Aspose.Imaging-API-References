@@ -1,14 +1,14 @@
 ---
-title: GifFrameBlock
+title: GifFrameBlock.GifFrameBlock
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: GifFrameBlock constructor. Initializes a new instance of the GifFrameBlock class
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/gifframeblock/
 ---
-## GifFrameBlock constructor (1 of 12)
+## GifFrameBlock(ushort, ushort) {#constructor_9}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(ushort width, ushort height)
@@ -19,7 +19,7 @@ public GifFrameBlock(ushort width, ushort height)
 | width | UInt16 | The image width. |
 | height | UInt16 | The image height. |
 
-### Examples
+## Examples
 
 This example shows how to create a GIF image and save it to a file.
 
@@ -115,15 +115,15 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (2 of 12)
+## GifFrameBlock(ushort, ushort, ushort, ushort) {#constructor_10}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(ushort left, ushort top, ushort width, ushort height)
@@ -138,15 +138,15 @@ public GifFrameBlock(ushort left, ushort top, ushort width, ushort height)
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (3 of 12)
+## GifFrameBlock(ushort, ushort, ushort, ushort, IColorPalette, bool, bool, byte) {#constructor_11}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(ushort left, ushort top, ushort width, ushort height, 
@@ -166,16 +166,16 @@ public GifFrameBlock(ushort left, ushort top, ushort width, ushort height,
 
 ### See Also
 
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (4 of 12)
+## GifFrameBlock(RasterImage) {#constructor}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(RasterImage image)
@@ -187,16 +187,16 @@ public GifFrameBlock(RasterImage image)
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (5 of 12)
+## GifFrameBlock(RasterImage, ushort, ushort) {#constructor_1}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(RasterImage image, ushort left, ushort top)
@@ -210,16 +210,16 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top)
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (6 of 12)
+## GifFrameBlock(RasterImage, ushort, ushort, bool, bool, byte) {#constructor_2}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteSorted, 
@@ -237,16 +237,16 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteS
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (7 of 12)
+## GifFrameBlock(Stream) {#constructor_3}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(Stream stream)
@@ -258,15 +258,15 @@ public GifFrameBlock(Stream stream)
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (8 of 12)
+## GifFrameBlock(Stream, ushort, ushort) {#constructor_4}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(Stream stream, ushort left, ushort top)
@@ -280,15 +280,15 @@ public GifFrameBlock(Stream stream, ushort left, ushort top)
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (9 of 12)
+## GifFrameBlock(Stream, ushort, ushort, bool, bool, byte) {#constructor_5}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorted, 
@@ -306,15 +306,15 @@ public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorte
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (10 of 12)
+## GifFrameBlock(string) {#constructor_6}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(string path)
@@ -326,15 +326,15 @@ public GifFrameBlock(string path)
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (11 of 12)
+## GifFrameBlock(string, ushort, ushort) {#constructor_7}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(string path, ushort left, ushort top)
@@ -348,15 +348,15 @@ public GifFrameBlock(string path, ushort left, ushort top)
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifFrameBlock constructor (12 of 12)
+## GifFrameBlock(string, ushort, ushort, bool, bool, byte) {#constructor_8}
 
-Initializes a new instance of the [`GifFrameBlock`](../../gifframeblock) class.
+Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted, 
@@ -374,8 +374,8 @@ public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted,
 
 ### See Also
 
-* class [GifFrameBlock](../../gifframeblock)
-* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock)
+* class [GifFrameBlock](../)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../gifframeblock/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

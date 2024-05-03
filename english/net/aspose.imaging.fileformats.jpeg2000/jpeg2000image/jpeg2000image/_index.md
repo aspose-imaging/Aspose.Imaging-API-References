@@ -1,14 +1,14 @@
 ---
-title: Jpeg2000Image
+title: Jpeg2000Image.Jpeg2000Image
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Jpeg2000Image constructor. Start working with the Jpeg2000Image class by initializing a new instance with the path to the image you want to load. This constructor enables easy access to JPEG2000 images simplifying the process of loading and handling image files. By providing the file path you can quickly begin processing and manipulating JPEG2000 images in your application
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/jpeg2000image/
 ---
-## Jpeg2000Image constructor (1 of 9)
+## Jpeg2000Image(string) {#constructor_7}
 
-Start working with the [`Jpeg2000Image`](../../jpeg2000image) class by initializing a new instance with the path to the image you want to load. This constructor enables easy access to JPEG2000 images, simplifying the process of loading and handling image files. By providing the file path, you can quickly begin processing and manipulating JPEG2000 images in your application.
+Start working with the [`Jpeg2000Image`](../) class by initializing a new instance with the path to the image you want to load. This constructor enables easy access to JPEG2000 images, simplifying the process of loading and handling image files. By providing the file path, you can quickly begin processing and manipulating JPEG2000 images in your application.
 
 ```csharp
 public Jpeg2000Image(string path)
@@ -18,7 +18,7 @@ public Jpeg2000Image(string path)
 | --- | --- | --- |
 | path | String | The path to load image from and initialize pixel and palette data with. |
 
-### Examples
+## Examples
 
 This example shows how to load a JPEG2000 image from a file and save it to PNG.
 
@@ -37,15 +37,15 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ### See Also
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (2 of 9)
+## Jpeg2000Image(string, int) {#constructor_8}
 
-Get started easily with the [`Jpeg2000Image`](../../jpeg2000image) class by creating a new instance with both the file path and the desired bits per pixel parameter. This constructor allows for fine-tuning the image loading process, ensuring compatibility with various image formats and quality settings. With this flexibility, you can efficiently manage and manipulate JPEG2000 images according to your specific requirements.
+Get started easily with the [`Jpeg2000Image`](../) class by creating a new instance with both the file path and the desired bits per pixel parameter. This constructor allows for fine-tuning the image loading process, ensuring compatibility with various image formats and quality settings. With this flexibility, you can efficiently manage and manipulate JPEG2000 images according to your specific requirements.
 
 ```csharp
 public Jpeg2000Image(string path, int bitsPerPixel)
@@ -58,15 +58,15 @@ public Jpeg2000Image(string path, int bitsPerPixel)
 
 ### See Also
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (3 of 9)
+## Jpeg2000Image(Stream) {#constructor_5}
 
-Easily initialize a new instance of the [`Jpeg2000Image`](../../jpeg2000image) class by providing a stream object. This constructor simplifies the process of loading JPEG2000 images directly from streams, offering flexibility and convenience for handling image data from various sources.
+Easily initialize a new instance of the [`Jpeg2000Image`](../) class by providing a stream object. This constructor simplifies the process of loading JPEG2000 images directly from streams, offering flexibility and convenience for handling image data from various sources.
 
 ```csharp
 public Jpeg2000Image(Stream stream)
@@ -76,7 +76,7 @@ public Jpeg2000Image(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to load image from and initialize pixel and palette data with. |
 
-### Examples
+## Examples
 
 This example shows how to load a JPEG2000 image from a file stream and save it to PNG.
 
@@ -96,15 +96,15 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ### See Also
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (4 of 9)
+## Jpeg2000Image(Stream, int) {#constructor_6}
 
-Initialize a new instance of the [`Jpeg2000Image`](../../jpeg2000image) class with a stream to load the image, along with bits per pixel parameters. This constructor offers flexibility by allowing you to specify both the image data source and the desired bits per pixel, providing finer control over the image loading process.
+Initialize a new instance of the [`Jpeg2000Image`](../) class with a stream to load the image, along with bits per pixel parameters. This constructor offers flexibility by allowing you to specify both the image data source and the desired bits per pixel, providing finer control over the image loading process.
 
 ```csharp
 public Jpeg2000Image(Stream stream, int bitsPerPixel)
@@ -117,15 +117,15 @@ public Jpeg2000Image(Stream stream, int bitsPerPixel)
 
 ### See Also
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (5 of 9)
+## Jpeg2000Image(int, int) {#constructor_2}
 
-Create a new instance of the [`Jpeg2000Image`](../../jpeg2000image) class, specifying the width and height parameters. This constructor allows you to initialize a JPEG2000 image with specific dimensions, which is useful for scenarios where you need to create an image of a certain size programmatically.
+Create a new instance of the [`Jpeg2000Image`](../) class, specifying the width and height parameters. This constructor allows you to initialize a JPEG2000 image with specific dimensions, which is useful for scenarios where you need to create an image of a certain size programmatically.
 
 ```csharp
 public Jpeg2000Image(int width, int height)
@@ -136,7 +136,7 @@ public Jpeg2000Image(int width, int height)
 | width | Int32 | The image width |
 | height | Int32 | The image height |
 
-### Examples
+## Examples
 
 This example shows how to create a JPEG2000 image and save it to a file.
 
@@ -161,15 +161,15 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ### See Also
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (6 of 9)
+## Jpeg2000Image(int, int, Jpeg2000Options) {#constructor_3}
 
-Instantiate a new [`Jpeg2000Image`](../../jpeg2000image) object, providing the width, height, and image options parameters. This constructor allows for the creation of JPEG2000 images with specific dimensions and additional options, offering flexibility in image generation.
+Instantiate a new [`Jpeg2000Image`](../) object, providing the width, height, and image options parameters. This constructor allows for the creation of JPEG2000 images with specific dimensions and additional options, offering flexibility in image generation.
 
 ```csharp
 public Jpeg2000Image(int width, int height, Jpeg2000Options options)
@@ -181,7 +181,7 @@ public Jpeg2000Image(int width, int height, Jpeg2000Options options)
 | height | Int32 | The image height |
 | options | Jpeg2000Options | The options. |
 
-### Examples
+## Examples
 
 This example shows how to create a PNG image and save it to JPEG2000 with the desired options.
 
@@ -245,16 +245,16 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ### See Also
 
-* class [Jpeg2000Options](../../../aspose.imaging.imageoptions/jpeg2000options)
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Options](../../../aspose.imaging.imageoptions/jpeg2000options/)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (7 of 9)
+## Jpeg2000Image(int, int, int) {#constructor_4}
 
-Create a new instance of the [`Jpeg2000Image`](../../jpeg2000image) class with parameters for width, height, and bits count. This constructor allows for the creation of JPEG2000 images with specific dimensions and bit depths, providing flexibility for various imaging needs.
+Create a new instance of the [`Jpeg2000Image`](../) class with parameters for width, height, and bits count. This constructor allows for the creation of JPEG2000 images with specific dimensions and bit depths, providing flexibility for various imaging needs.
 
 ```csharp
 public Jpeg2000Image(int width, int height, int bitsCount)
@@ -268,15 +268,15 @@ public Jpeg2000Image(int width, int height, int bitsCount)
 
 ### See Also
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (8 of 9)
+## Jpeg2000Image(RasterImage) {#constructor}
 
-Instantiate a new [`Jpeg2000Image`](../../jpeg2000image) class with a raster image. This constructor facilitates the creation of a JPEG2000 image from an existing raster image, offering seamless integration and conversion between different image formats.
+Instantiate a new [`Jpeg2000Image`](../) class with a raster image. This constructor facilitates the creation of a JPEG2000 image from an existing raster image, offering seamless integration and conversion between different image formats.
 
 ```csharp
 public Jpeg2000Image(RasterImage image)
@@ -286,7 +286,7 @@ public Jpeg2000Image(RasterImage image)
 | --- | --- | --- |
 | image | RasterImage | The image. |
 
-### Examples
+## Examples
 
 This example shows how to create a JPEG2000 image with from another raster image.
 
@@ -315,16 +315,16 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Jpeg2000Image constructor (9 of 9)
+## Jpeg2000Image(RasterImage, int) {#constructor_1}
 
-Initialize a fresh [`Jpeg2000Image`](../../jpeg2000image) instance with a raster image and bits per pixel parameters. This constructor enables precise control over the quality and size of the resulting JPEG2000 image, making it ideal for scenarios where customization is crucial.
+Initialize a fresh [`Jpeg2000Image`](../) instance with a raster image and bits per pixel parameters. This constructor enables precise control over the quality and size of the resulting JPEG2000 image, making it ideal for scenarios where customization is crucial.
 
 ```csharp
 public Jpeg2000Image(RasterImage rasterImage, int bitsPerPixel)
@@ -337,9 +337,9 @@ public Jpeg2000Image(RasterImage rasterImage, int bitsPerPixel)
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [Jpeg2000Image](../../jpeg2000image)
-* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

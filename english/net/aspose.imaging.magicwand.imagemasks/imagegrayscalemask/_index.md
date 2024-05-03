@@ -1,7 +1,7 @@
 ---
-title: ImageGrayscaleMask
+title: Class ImageGrayscaleMask
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.MagicWand.ImageMasks.ImageGrayscaleMask class. Describes a grayscale image mask
 type: docs
 weight: 10640
 url: /net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/
@@ -18,45 +18,45 @@ public class ImageGrayscaleMask : IImageMask
 
 | Name | Description |
 | --- | --- |
-| [ImageGrayscaleMask](imagegrayscalemask)(RasterImage) | Initializes a new instance of the [`ImageGrayscaleMask`](../imagegrayscalemask) class with the size of the specified existing [`RasterImage`](../../aspose.imaging/rasterimage). Specified [`RasterImage`](../../aspose.imaging/rasterimage) will be stored as source image. |
-| [ImageGrayscaleMask](imagegrayscalemask)(int, int) | Initializes a new instance of the [`ImageGrayscaleMask`](../imagegrayscalemask) class with the specified width and height. |
+| [ImageGrayscaleMask](imagegrayscalemask/#constructor)(RasterImage) | Initializes a new instance of the `ImageGrayscaleMask` class with the size of the specified existing [`RasterImage`](../../aspose.imaging/rasterimage/). Specified [`RasterImage`](../../aspose.imaging/rasterimage/) will be stored as source image. |
+| [ImageGrayscaleMask](imagegrayscalemask/#constructor_1)(int, int) | Initializes a new instance of the `ImageGrayscaleMask` class with the specified width and height. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Bounds](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/bounds) { get; } | Gets the bounds, in pixels, of this mask. |
-| [Height](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/height) { get; } | Gets the height, in pixels, of this mask. |
-| [Item](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/item) { get; set; } | Gets or sets the opacity of the specified pixel. |
-| [SelectionBounds](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/selectionbounds) { get; } | Gets the bounds of the selected part of the mask, in pixels. |
-| [Source](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/source) { get; } | Gets the source image used to create this mask, if exists. |
-| [Width](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/width) { get; } | Gets the width, in pixels, of this mask. |
+| [Bounds](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/bounds/) { get; } | Gets the bounds, in pixels, of this mask. |
+| [Height](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/height/) { get; } | Gets the height, in pixels, of this mask. |
+| [Item](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/item/) { get; set; } | Gets or sets the opacity of the specified pixel. |
+| [SelectionBounds](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/selectionbounds/) { get; } | Gets the bounds of the selected part of the mask, in pixels. |
+| [Source](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/source/) { get; } | Gets the source image used to create this mask, if exists. |
+| [Width](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/width/) { get; } | Gets the width, in pixels, of this mask. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Apply](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/apply)() | Applies current mask to the [`RasterImage`](../../aspose.imaging/rasterimage) source, if exists. |
-| [ApplyTo](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/applyto)(RasterImage) | Applies current mask to the specified [`RasterImage`](../../aspose.imaging/rasterimage). |
-| [Clone](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/clone)() | Creates a new object that is a copy of the current instance. |
-| [Crop](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/crop)(Rectangle) | Crops mask with the specified rectangle. |
-| [Crop](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/crop)(Size) | Crops mask with the specified size. |
-| [Crop](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/crop)(int, int) | Crops mask with the specified width and height. |
-| [ExclusiveDisjunction](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/exclusivedisjunction)(ImageGrayscaleMask) | Gets the exclusive disjunction of current mask with provided. |
-| [GetByteOpacity](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/getbyteopacity)(int, int) | Gets the opacity of the specified pixel with byte precision. |
-| [Intersect](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/intersect)(ImageGrayscaleMask) | Gets the intersection of current mask with provided. |
-| [Invert](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/invert)() | Gets the inversion of the current mask. |
-| [IsOpaque](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/isopaque)(int, int) | Checks if the specified pixel is opaque. |
-| [IsTransparent](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/istransparent)(int, int) | Checks if the specified pixel is transparent. |
-| [Subtract](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/subtract)(ImageGrayscaleMask) | Gets the subtraction of the provided mask from current. |
-| [Union](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/union)(ImageGrayscaleMask) | Union of two masks. |
-| [operator +](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_addition) | Union of two masks. |
-| [operator ^](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_exclusiveor) | Exclusive disjunction of two masks. |
-| [operator !](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_logicalnot) | Inverts mask. |
-| [operator *](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_multiply) | Intersection of two masks. |
-| [operator -](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_subtraction) | Subtract second mask from first. |
+| [Apply](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/apply/)() | Applies current mask to the [`RasterImage`](../../aspose.imaging/rasterimage/) source, if exists. |
+| [ApplyTo](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/applyto/)(RasterImage) | Applies current mask to the specified [`RasterImage`](../../aspose.imaging/rasterimage/). |
+| [Clone](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/clone/)() | Creates a new object that is a copy of the current instance. |
+| [Crop](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/crop/#crop)(Rectangle) | Crops mask with the specified rectangle. |
+| [Crop](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/crop/#crop_1)(Size) | Crops mask with the specified size. |
+| [Crop](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/crop/#crop_2)(int, int) | Crops mask with the specified width and height. |
+| [ExclusiveDisjunction](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/exclusivedisjunction/)(ImageGrayscaleMask) | Gets the exclusive disjunction of current mask with provided. |
+| [GetByteOpacity](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/getbyteopacity/)(int, int) | Gets the opacity of the specified pixel with byte precision. |
+| [Intersect](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/intersect/)(ImageGrayscaleMask) | Gets the intersection of current mask with provided. |
+| [Invert](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/invert/)() | Gets the inversion of the current mask. |
+| [IsOpaque](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/isopaque/)(int, int) | Checks if the specified pixel is opaque. |
+| [IsTransparent](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/istransparent/)(int, int) | Checks if the specified pixel is transparent. |
+| [Subtract](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/subtract/)(ImageGrayscaleMask) | Gets the subtraction of the provided mask from current. |
+| [Union](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/union/)(ImageGrayscaleMask) | Union of two masks. |
+| [operator +](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_addition/) | Union of two masks. |
+| [operator ^](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_exclusiveor/) | Exclusive disjunction of two masks. |
+| [operator !](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_logicalnot/) | Inverts mask. |
+| [operator *](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_multiply/) | Intersection of two masks. |
+| [operator -](../../aspose.imaging.magicwand.imagemasks/imagegrayscalemask/op_subtraction/) | Subtract second mask from first. |
 
-### Examples
+## Examples
 
 The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, substract).
 
@@ -91,8 +91,8 @@ using (RasterImage image = (RasterImage)Image.Load(inputFilePath))
 
 ### See Also
 
-* interface [IImageMask](../iimagemask)
-* namespace [Aspose.Imaging.MagicWand.ImageMasks](../../aspose.imaging.magicwand.imagemasks)
+* interface [IImageMask](../iimagemask/)
+* namespace [Aspose.Imaging.MagicWand.ImageMasks](../../aspose.imaging.magicwand.imagemasks/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

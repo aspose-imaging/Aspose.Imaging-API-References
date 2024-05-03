@@ -1,7 +1,7 @@
 ---
-title: EmfPlusRecordType
+title: Enum EmfPlusRecordType
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusRecordType enum. The RecordType enumeration defines record types used in EMF metafiles
 type: docs
 weight: 5040
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/
@@ -18,7 +18,7 @@ public enum EmfPlusRecordType : short
 
 | Name | Value | Description |
 | --- | --- | --- |
-| EmfPlusHeader | `16385` | This record specifies the start of EMF+ data in the metafile. It MUST be embedded in the first EMF record after the [`EmfMetafileHeader`](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader) record ([MS-EMF] section 2.3.4.2 record). |
+| EmfPlusHeader | `16385` | This record specifies the start of EMF+ data in the metafile. It MUST be embedded in the first EMF record after the [`EmfMetafileHeader`](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/) record ([MS-EMF] section 2.3.4.2 record). |
 | EmfPlusEndOfFile | `16386` | This record specifies the end of EMF+ data in the metafile. |
 | EmfPlusComment | `16387` | This record specifies arbitrary private data. |
 | EmfPlusGetDC | `16388` | This record specifies that subsequent EMF records encountered in the metafile SHOULD be processed. EMF records cease being processed when the next EMF+ record is encountered. |
@@ -43,7 +43,7 @@ public enum EmfPlusRecordType : short
 | EmfPlusDrawClosedCurve | `16407` | This record defines the pen and strokes for drawing a closed cardinal spline. |
 | EmfPlusDrawCurve | `16408` | This record defines the pen strokes for drawing a cardinal spline. |
 | EmfPlusDrawBeziers | `16409` | This record defines the pen strokes for drawing a Bezier spline. |
-| EmfPlusDrawImage | `16410` | This record defines a scaled [`EmfPlusImage`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage) object (section 2.2.1.4). An image can consist of either bitmap or metafile data. |
+| EmfPlusDrawImage | `16410` | This record defines a scaled [`EmfPlusImage`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/) object (section 2.2.1.4). An image can consist of either bitmap or metafile data. |
 | EmfPlusDrawImagePoints | `16411` | This record defines a scaled EmfPlusImage object inside a parallelogram. An image can consist of either bitmap or metafile data. |
 | EmfPlusDrawString | `16412` | This record defines a text string based on a font, a layout rectangle, and a format. |
 | EmfPlusSetRenderingOrigin | `16413` | This record defines the origin of rendering to the specified horizontal and vertical coordinates. This applies to hatch brushes and to 8 and 16 bits per pixel dither patterns. |
@@ -54,8 +54,8 @@ public enum EmfPlusRecordType : short
 | EmfPlusSetPixelOffsetMode | `16418` | This record defines the pixel offset mode according to the specified pixel centering value. |
 | EmfPlusSetCompositingMode | `16419` | This record defines the compositing mode according to the state of alpha blending, which specifies how source colors are combined with background colors. |
 | EmfPlusSetCompositingQuality | `16420` | This record defines the compositing quality, which describes the desired level of quality for creating composite images from multiple objects. |
-| EmfPlusSave | `16421` | This record saves the graphics state, identified by a specified index, on a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is used by an [`EmfPlusRestore`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore) record (section 2.3.7.4) to restore the state. |
-| EmfPlusRestore | `16422` | This record restores the graphics state, identified by a specified index, from a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is defined by an [`EmfPlusSave`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussave) record (section 2.3.7.5) to save the state. |
+| EmfPlusSave | `16421` | This record saves the graphics state, identified by a specified index, on a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is used by an [`EmfPlusRestore`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/) record (section 2.3.7.4) to restore the state. |
+| EmfPlusRestore | `16422` | This record restores the graphics state, identified by a specified index, from a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is defined by an [`EmfPlusSave`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussave/) record (section 2.3.7.5) to save the state. |
 | EmfPlusBeginContainer | `16423` | This record opens a new graphics state container and specifies a transform for it. Graphics containers are used to retain elements of the graphics state. |
 | EmfPlusBeginContainerNoParams | `16424` | This record opens a new graphics state container. |
 | EmfPlusEndContainer | `16425` | This record closes a graphics state container that was previously opened by a begin container operation. |
@@ -79,7 +79,7 @@ public enum EmfPlusRecordType : short
 
 ### See Also
 
-* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

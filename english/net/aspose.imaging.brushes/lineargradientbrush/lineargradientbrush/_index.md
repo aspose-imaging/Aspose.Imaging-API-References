@@ -1,14 +1,14 @@
 ---
-title: LinearGradientBrush
+title: LinearGradientBrush.LinearGradientBrush
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: LinearGradientBrush constructor. Initializes a new instance of the LinearGradientBrush class
 type: docs
 weight: 10
 url: /net/aspose.imaging.brushes/lineargradientbrush/lineargradientbrush/
 ---
-## LinearGradientBrush constructor (1 of 7)
+## LinearGradientBrush(RectangleF, Color, Color, float, bool) {#constructor_6}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class.
+Initializes a new instance of the [`LinearGradientBrush`](../) class.
 
 ```csharp
 public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, 
@@ -25,17 +25,17 @@ public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float an
 
 ### See Also
 
-* struct [RectangleF](../../../aspose.imaging/rectanglef)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* struct [RectangleF](../../../aspose.imaging/rectanglef/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush constructor (2 of 7)
+## LinearGradientBrush(Rectangle, Color, Color, float, bool) {#constructor_4}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class.
+Initializes a new instance of the [`LinearGradientBrush`](../) class.
 
 ```csharp
 public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, 
@@ -52,17 +52,17 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 
 ### See Also
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush constructor (3 of 7)
+## LinearGradientBrush(RectangleF, Color, Color, float) {#constructor_5}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class.
+Initializes a new instance of the [`LinearGradientBrush`](../) class.
 
 ```csharp
 public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)
@@ -77,17 +77,17 @@ public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float an
 
 ### See Also
 
-* struct [RectangleF](../../../aspose.imaging/rectanglef)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* struct [RectangleF](../../../aspose.imaging/rectanglef/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush constructor (4 of 7)
+## LinearGradientBrush(Rectangle, Color, Color, float) {#constructor_3}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class.
+Initializes a new instance of the [`LinearGradientBrush`](../) class.
 
 ```csharp
 public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)
@@ -102,17 +102,17 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 
 ### See Also
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush constructor (5 of 7)
+## LinearGradientBrush(PointF, PointF, Color, Color) {#constructor_2}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class.
+Initializes a new instance of the [`LinearGradientBrush`](../) class.
 
 ```csharp
 public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)
@@ -127,17 +127,17 @@ public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color col
 
 ### See Also
 
-* struct [PointF](../../../aspose.imaging/pointf)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* struct [PointF](../../../aspose.imaging/pointf/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush constructor (6 of 7)
+## LinearGradientBrush(Point, Point, Color, Color) {#constructor_1}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class.
+Initializes a new instance of the [`LinearGradientBrush`](../) class.
 
 ```csharp
 public LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)
@@ -150,7 +150,7 @@ public LinearGradientBrush(Point point1, Point point2, Color color1, Color color
 | color1 | Color | The color1. |
 | color2 | Color | The color2. |
 
-### Examples
+## Examples
 
 The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.
 
@@ -199,17 +199,17 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
 
 ### See Also
 
-* struct [Point](../../../aspose.imaging/point)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* struct [Point](../../../aspose.imaging/point/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush constructor (7 of 7)
+## LinearGradientBrush() {#constructor}
 
-Initializes a new instance of the [`LinearGradientBrush`](../../lineargradientbrush) class with default parameters. The starting color is black, the ending color is white, the angle is 45 degrees and the rectangle is located in (0,0) with size (1,1).
+Initializes a new instance of the [`LinearGradientBrush`](../) class with default parameters. The starting color is black, the ending color is white, the angle is 45 degrees and the rectangle is located in (0,0) with size (1,1).
 
 ```csharp
 public LinearGradientBrush()
@@ -217,8 +217,8 @@ public LinearGradientBrush()
 
 ### See Also
 
-* class [LinearGradientBrush](../../lineargradientbrush)
-* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

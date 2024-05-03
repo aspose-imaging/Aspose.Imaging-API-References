@@ -1,12 +1,12 @@
 ---
-title: Save
+title: Image.Save
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Image method. Saves the image data to the underlying stream
 type: docs
 weight: 250
 url: /net/aspose.imaging/image/save/
 ---
-## Image.Save method (1 of 6)
+## Save() {#save}
 
 Saves the image data to the underlying stream.
 
@@ -14,7 +14,7 @@ Saves the image data to the underlying stream.
 public void Save()
 ```
 
-### Examples
+## Examples
 
 The following example shows how to save an entiree BMP image or part of it to a file or stream.
 
@@ -68,13 +68,13 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ### See Also
 
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Image.Save method (2 of 6)
+## Save(string) {#save_4}
 
 Saves the image to the specified file location.
 
@@ -88,13 +88,13 @@ public override void Save(string filePath)
 
 ### See Also
 
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Image.Save method (3 of 6)
+## Save(string, ImageOptionsBase) {#save_5}
 
 Saves the object's data to the specified file location in the specified file format according to save options.
 
@@ -107,7 +107,7 @@ public virtual void Save(string filePath, ImageOptionsBase options)
 | filePath | String | The file path. |
 | options | ImageOptionsBase | The options. |
 
-### Examples
+## Examples
 
 The following example loads a BMP image from a file, then saves the image to a PNG file.
 
@@ -194,14 +194,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ### See Also
 
-* class [ImageOptionsBase](../../imageoptionsbase)
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
+* class [ImageOptionsBase](../../imageoptionsbase/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Image.Save method (4 of 6)
+## Save(string, ImageOptionsBase, Rectangle) {#save_6}
 
 Saves the object's data to the specified file location in the specified file format according to save options.
 
@@ -220,9 +220,9 @@ public virtual void Save(string filePath, ImageOptionsBase options, Rectangle bo
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | options |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Image saving failed. |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception/) | Image saving failed. |
 
-### Examples
+## Examples
 
 The following example loads a BMP image from a file, then saves a rectangular part of the image to a PNG file.
 
@@ -292,15 +292,15 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ### See Also
 
-* class [ImageOptionsBase](../../imageoptionsbase)
-* struct [Rectangle](../../rectangle)
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
+* class [ImageOptionsBase](../../imageoptionsbase/)
+* struct [Rectangle](../../rectangle/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Image.Save method (5 of 6)
+## Save(Stream, ImageOptionsBase) {#save_2}
 
 Saves the image's data to the specified stream in the specified file format according to save options.
 
@@ -319,9 +319,9 @@ public void Save(Stream stream, ImageOptionsBase optionsBase)
 | --- | --- |
 | ArgumentNullException | optionsBase |
 | ArgumentException | Cannot save to the specified format as it is not supported at the moment.;optionsBase |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Image export failed. |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception/) | Image export failed. |
 
-### Examples
+## Examples
 
 The following example loads an image from a file, then saves the image to a PNG file stream.
 
@@ -413,14 +413,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ### See Also
 
-* class [ImageOptionsBase](../../imageoptionsbase)
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
+* class [ImageOptionsBase](../../imageoptionsbase/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Image.Save method (6 of 6)
+## Save(Stream, ImageOptionsBase, Rectangle) {#save_3}
 
 Saves the image's data to the specified stream in the specified file format according to save options.
 
@@ -440,9 +440,9 @@ public virtual void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle 
 | --- | --- |
 | ArgumentNullException | optionsBase |
 | ArgumentException | Cannot save to the specified format as it is not supported at the moment.;optionsBase |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Image export failed. |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception/) | Image export failed. |
 
-### Examples
+## Examples
 
 The following example loads an image from a file, then saves a rectangular part of the image to a PNG file stream.
 
@@ -515,10 +515,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ### See Also
 
-* class [ImageOptionsBase](../../imageoptionsbase)
-* struct [Rectangle](../../rectangle)
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
+* class [ImageOptionsBase](../../imageoptionsbase/)
+* struct [Rectangle](../../rectangle/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

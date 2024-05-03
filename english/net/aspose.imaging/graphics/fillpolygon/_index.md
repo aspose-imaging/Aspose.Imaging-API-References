@@ -1,14 +1,14 @@
 ---
-title: FillPolygon
+title: Graphics.FillPolygon
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Graphics method. Fills the interior of a polygon defined by an array of points specified by PointF structures and Alternate
 type: docs
 weight: 390
 url: /net/aspose.imaging/graphics/fillpolygon/
 ---
-## Graphics.FillPolygon method (1 of 4)
+## FillPolygon(Brush, PointF[]) {#fillpolygon}
 
-Fills the interior of a polygon defined by an array of points specified by [`PointF`](../../pointf) structures and Alternate.
+Fills the interior of a polygon defined by an array of points specified by [`PointF`](../../pointf/) structures and Alternate.
 
 ```csharp
 public void FillPolygon(Brush brush, PointF[] points)
@@ -16,8 +16,8 @@ public void FillPolygon(Brush brush, PointF[] points)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
-| points | PointF[] | Array of [`PointF`](../../pointf) structures that represent the vertices of the polygon to fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
+| points | PointF[] | Array of [`PointF`](../../pointf/) structures that represent the vertices of the polygon to fill. |
 
 ### Exceptions
 
@@ -27,17 +27,17 @@ public void FillPolygon(Brush brush, PointF[] points)
 
 ### See Also
 
-* class [Brush](../../brush)
-* struct [PointF](../../pointf)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* struct [PointF](../../pointf/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.FillPolygon method (2 of 4)
+## FillPolygon(Brush, PointF[], FillMode) {#fillpolygon_1}
 
-Fills the interior of a polygon defined by an array of points specified by [`PointF`](../../pointf) structures using the specified fill mode.
+Fills the interior of a polygon defined by an array of points specified by [`PointF`](../../pointf/) structures using the specified fill mode.
 
 ```csharp
 public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
@@ -45,9 +45,9 @@ public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
-| points | PointF[] | Array of [`PointF`](../../pointf) structures that represent the vertices of the polygon to fill. |
-| fillMode | FillMode | Member of the [`FillMode`](../../fillmode) enumeration that determines the style of the fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
+| points | PointF[] | Array of [`PointF`](../../pointf/) structures that represent the vertices of the polygon to fill. |
+| fillMode | FillMode | Member of the [`FillMode`](../../fillmode/) enumeration that determines the style of the fill. |
 
 ### Exceptions
 
@@ -57,18 +57,18 @@ public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
 
 ### See Also
 
-* class [Brush](../../brush)
-* struct [PointF](../../pointf)
-* enum [FillMode](../../fillmode)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* struct [PointF](../../pointf/)
+* enum [FillMode](../../fillmode/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.FillPolygon method (3 of 4)
+## FillPolygon(Brush, Point[]) {#fillpolygon_2}
 
-Fills the interior of a polygon defined by an array of points specified by [`Point`](../../point) structures and Alternate.
+Fills the interior of a polygon defined by an array of points specified by [`Point`](../../point/) structures and Alternate.
 
 ```csharp
 public void FillPolygon(Brush brush, Point[] points)
@@ -76,8 +76,8 @@ public void FillPolygon(Brush brush, Point[] points)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
-| points | Point[] | Array of [`Point`](../../point) structures that represent the vertices of the polygon to fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
+| points | Point[] | Array of [`Point`](../../point/) structures that represent the vertices of the polygon to fill. |
 
 ### Exceptions
 
@@ -87,17 +87,17 @@ public void FillPolygon(Brush brush, Point[] points)
 
 ### See Also
 
-* class [Brush](../../brush)
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* struct [Point](../../point/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.FillPolygon method (4 of 4)
+## FillPolygon(Brush, Point[], FillMode) {#fillpolygon_3}
 
-Fills the interior of a polygon defined by an array of points specified by [`Point`](../../point) structures using the specified fill mode.
+Fills the interior of a polygon defined by an array of points specified by [`Point`](../../point/) structures using the specified fill mode.
 
 ```csharp
 public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
@@ -105,9 +105,9 @@ public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
-| points | Point[] | Array of [`Point`](../../point) structures that represent the vertices of the polygon to fill. |
-| fillMode | FillMode | Member of the [`FillMode`](../../fillmode) enumeration that determines the style of the fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
+| points | Point[] | Array of [`Point`](../../point/) structures that represent the vertices of the polygon to fill. |
+| fillMode | FillMode | Member of the [`FillMode`](../../fillmode/) enumeration that determines the style of the fill. |
 
 ### Exceptions
 
@@ -117,11 +117,11 @@ public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
 
 ### See Also
 
-* class [Brush](../../brush)
-* struct [Point](../../point)
-* enum [FillMode](../../fillmode)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* struct [Point](../../point/)
+* enum [FillMode](../../fillmode/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

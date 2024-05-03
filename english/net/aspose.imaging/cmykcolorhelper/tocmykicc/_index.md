@@ -1,12 +1,12 @@
 ---
-title: ToCmykIcc
+title: CmykColorHelper.ToCmykIcc
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: CmykColorHelper method. The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles
 type: docs
 weight: 130
 url: /net/aspose.imaging/cmykcolorhelper/tocmykicc/
 ---
-## CmykColorHelper.ToCmykIcc method (1 of 8)
+## ToCmykIcc(Color[], Stream, Stream) {#tocmykicc_5}
 
 The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.
 
@@ -26,14 +26,14 @@ The CMYK colors presented as 32-bit integer values.
 
 ### See Also
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (2 of 8)
+## ToCmykIcc(int[], Stream, Stream) {#tocmykicc_7}
 
 The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.
 
@@ -53,13 +53,13 @@ The CMYK colors presented as 32-bit integer values.
 
 ### See Also
 
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (3 of 8)
+## ToCmykIcc(Color[]) {#tocmykicc_4}
 
 The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles.
 
@@ -77,14 +77,14 @@ The CMYK colors presented as 32-bit integer values.
 
 ### See Also
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (4 of 8)
+## ToCmykIcc(int[]) {#tocmykicc_6}
 
 The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles.
 
@@ -102,13 +102,13 @@ The CMYK colors presented as 32-bit integer values.
 
 ### See Also
 
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (5 of 8)
+## ToCmykIcc(Color) {#tocmykicc}
 
 The conversion from ARGB color to CMYK color using Icc conversion with default profiles.
 
@@ -124,7 +124,7 @@ public static int ToCmykIcc(Color pixel)
 
 The CMYK color presented as a 32-bit integer value.
 
-### Examples
+## Examples
 
 The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.
 
@@ -182,14 +182,14 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
 
 ### See Also
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (6 of 8)
+## ToCmykIcc(int) {#tocmykicc_2}
 
 The conversion from ARGB color to CMYK color using Icc conversion with default profiles.
 
@@ -207,13 +207,13 @@ The CMYK color presented as a 32-bit integer value.
 
 ### See Also
 
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (7 of 8)
+## ToCmykIcc(Color, Stream, Stream) {#tocmykicc_1}
 
 The conversion from ARGB color to CMYK color using Icc conversion with custom profiles.
 
@@ -231,7 +231,7 @@ public static int ToCmykIcc(Color pixel, Stream rgbIccStream, Stream cmykIccStre
 
 The CMYK color presented as a 32-bit integer value.
 
-### Examples
+## Examples
 
 The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.
 
@@ -289,14 +289,14 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
 
 ### See Also
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CmykColorHelper.ToCmykIcc method (8 of 8)
+## ToCmykIcc(int, Stream, Stream) {#tocmykicc_3}
 
 The conversion from ARGB color to CMYK color using Icc conversion with custom profiles.
 
@@ -316,8 +316,8 @@ The CMYK color presented as a 32-bit integer value.
 
 ### See Also
 
-* class [CmykColorHelper](../../cmykcolorhelper)
-* namespace [Aspose.Imaging](../../cmykcolorhelper)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
