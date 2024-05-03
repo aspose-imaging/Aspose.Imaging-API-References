@@ -1,7 +1,7 @@
 ---
 title: Aspose.Imaging.Adapter for .NET
 type: docs
-weight: 8
+weight: 9
 url: /adapters/net/
 keywords: "Aspose.Imaging.Adapter for .NET, Aspose Imaging.Adapter, Aspose API Reference."
 description: Aspose.Imaging.Adapter for .NET  Adapters are designed to combine Aspose products to increase conversion between formats. And ensure ease of use.
