@@ -41,7 +41,7 @@ The API for Graphical Interchange Format (GIF) image file provides developers wi
 | [getPageCount()](#getPageCount--) | Retrieve the total number of pages contained within the image with this straightforward property. |
 | [getPages()](#getPages--) | Gain access to the pages within the image through this convenient property, allowing seamless navigation and manipulation of individual pages as needed. |
 | [getBlocks()](#getBlocks--) | Gain access to the GIF blocks seamlessly with this property, facilitating easy retrieval and manipulation of the image's underlying data structures. |
-| [isInterlaced()](#isInterlaced--) | Determine if the image is interlaced, impacting its display during loading. |
+| [isInterlaced()](#isInterlaced--) | Determines if the image is interlaced, impacting its display during loading. |
 | [getOriginalOptions()](#getOriginalOptions--) | Retrieve the original file settings-based options, crucial for maintaining fidelity and consistency in image processing and manipulation. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Incorporate a new page seamlessly into the existing image, enhancing its content and expanding its scope. |
 | [getActiveFrame()](#getActiveFrame--) | Manage and manipulate frames with this property, enabling smooth navigation and modification of the active frame within the GIF image. |
@@ -376,7 +376,7 @@ public boolean isInterlaced()
 ```
 
 
-Determine if the image is interlaced, impacting its display during loading. This property offers insight into the image's rendering behavior, essential for optimizing loading strategies and enhancing overall viewing experience.
+Determines if the image is interlaced, impacting its display during loading. This property offers insight into the image's rendering behavior, essential for optimizing loading strategies and enhancing overall viewing experience.
 
 **Returns:**
 boolean - `true` if this image instance is interlaced; otherwise, `false`.

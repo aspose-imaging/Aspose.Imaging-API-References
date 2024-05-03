@@ -34,6 +34,8 @@ Represents the loading options.
 | [addCustomFontSource(CustomFontSource source, Object[] args)](#addCustomFontSource-com.aspose.imaging.CustomFontSource-java.lang.Object...-) | Adds the custom font source to supply image-specific fonts. |
 | [getBufferSizeHint()](#getBufferSizeHint--) | Gets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | Sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [getConcurrentImageProcessing()](#getConcurrentImageProcessing--) | Gets a value indicating whether [concurrent image processing]. |
+| [setConcurrentImageProcessing(boolean value)](#setConcurrentImageProcessing-boolean-) | Sets a value indicating whether [concurrent image processing]. |
 | [getIProgressEventHandler()](#getIProgressEventHandler--) | Gets the progress event handler. |
 | [setIProgressEventHandler(ProgressEventHandler value)](#setIProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | Sets the progress event handler. |
 ### LoadOptions() {#LoadOptions--}
@@ -191,6 +193,33 @@ try {
     image.close();
 }
 ```
+
+### getConcurrentImageProcessing() {#getConcurrentImageProcessing--}
+```
+public final boolean getConcurrentImageProcessing()
+```
+
+
+Gets a value indicating whether [concurrent image processing].
+
+Value: `true` if [concurrent image processing]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [concurrent image processing].
+### setConcurrentImageProcessing(boolean value) {#setConcurrentImageProcessing-boolean-}
+```
+public final void setConcurrentImageProcessing(boolean value)
+```
+
+
+Sets a value indicating whether [concurrent image processing].
+
+Value: `true` if [concurrent image processing]; otherwise, `false`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether [concurrent image processing]. |
 
 ### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```
