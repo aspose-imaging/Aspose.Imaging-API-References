@@ -1,12 +1,12 @@
 ---
-title: GetCloseImagePalette
+title: ColorPaletteHelper.GetCloseImagePalette
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: ColorPaletteHelper method. Gets color palette from raster image palletizes image in case the image does not have one. In case palette exists it will be used instead performing calculations
 type: docs
 weight: 60
 url: /net/aspose.imaging/colorpalettehelper/getcloseimagepalette/
 ---
-## ColorPaletteHelper.GetCloseImagePalette method (1 of 6)
+## GetCloseImagePalette(RasterImage, int) {#getcloseimagepalette_4}
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -23,7 +23,7 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 
 The color palette which starts with the most frequent colors from the *image* and contains *entriesCount* entries.
 
-### Examples
+## Examples
 
 The following example loads a BMP image and saves it back to BMP using various save options.
 
@@ -106,15 +106,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* namespace [Aspose.Imaging](../../colorpalettehelper)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (2 of 6)
+## GetCloseImagePalette(RasterImage, int, PaletteMiningMethod) {#getcloseimagepalette_5}
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used.
 
@@ -133,7 +133,7 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 
 The color palette which starts with the most frequent colors from the *image* and contains *entriesCount* entries.
 
-### Examples
+## Examples
 
 The following example shows how to compress a PNG image, using indexed color with best fit palette
 
@@ -162,16 +162,16 @@ The following example shows how to compress a PNG image, using indexed color wit
 
 ### See Also
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* enum [PaletteMiningMethod](../../paletteminingmethod)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* namespace [Aspose.Imaging](../../colorpalettehelper)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* enum [PaletteMiningMethod](../../paletteminingmethod/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (3 of 6)
+## GetCloseImagePalette(RasterImage, Rectangle, int) {#getcloseimagepalette}
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -192,16 +192,16 @@ The color palette which starts with the most frequent colors from the *image* an
 
 ### See Also
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* namespace [Aspose.Imaging](../../colorpalettehelper)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (4 of 6)
+## GetCloseImagePalette(RasterImage, Rectangle, int, bool) {#getcloseimagepalette_1}
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -223,16 +223,16 @@ The color palette which starts with the most frequent colors from the *image* an
 
 ### See Also
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* namespace [Aspose.Imaging](../../colorpalettehelper)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (5 of 6)
+## GetCloseImagePalette(RasterImage, Rectangle, int, bool, Color) {#getcloseimagepalette_2}
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -255,17 +255,17 @@ The color palette which starts with the most frequent colors from the *image* an
 
 ### See Also
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* struct [Color](../../color)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* namespace [Aspose.Imaging](../../colorpalettehelper)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* struct [Color](../../color/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (6 of 6)
+## GetCloseImagePalette(RasterImage, Rectangle, int, bool, Color, bool) {#getcloseimagepalette_3}
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -289,12 +289,12 @@ The color palette which starts with the most frequent colors from the *image* an
 
 ### See Also
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* struct [Color](../../color)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* namespace [Aspose.Imaging](../../colorpalettehelper)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* struct [Color](../../color/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: TiffFrame
+title: TiffFrame.TiffFrame
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: TiffFrame constructor. Initializes a new instance of the TiffFrame class
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/tiffframe/
 ---
-## TiffFrame constructor (1 of 7)
+## TiffFrame(Stream) {#constructor_3}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(Stream stream)
@@ -20,15 +20,15 @@ public TiffFrame(Stream stream)
 
 ### See Also
 
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffFrame constructor (2 of 7)
+## TiffFrame(Stream, TiffOptions) {#constructor_4}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(Stream stream, TiffOptions options)
@@ -41,16 +41,16 @@ public TiffFrame(Stream stream, TiffOptions options)
 
 ### See Also
 
-* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions)
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions/)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffFrame constructor (3 of 7)
+## TiffFrame(string) {#constructor_5}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(string path)
@@ -62,15 +62,15 @@ public TiffFrame(string path)
 
 ### See Also
 
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffFrame constructor (4 of 7)
+## TiffFrame(string, TiffOptions) {#constructor_6}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(string path, TiffOptions options)
@@ -83,16 +83,16 @@ public TiffFrame(string path, TiffOptions options)
 
 ### See Also
 
-* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions)
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions/)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffFrame constructor (5 of 7)
+## TiffFrame(RasterImage) {#constructor_1}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(RasterImage image)
@@ -102,7 +102,7 @@ public TiffFrame(RasterImage image)
 | --- | --- | --- |
 | image | RasterImage | The image to initialize frame pixel and palette data with. |
 
-### Examples
+## Examples
 
 The following example shows how to compose a mutlipage TIFF from individual raster images.
 
@@ -152,16 +152,16 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffFrame constructor (6 of 7)
+## TiffFrame(RasterImage, TiffOptions) {#constructor_2}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(RasterImage image, TiffOptions options)
@@ -174,17 +174,17 @@ public TiffFrame(RasterImage image, TiffOptions options)
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions)
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions/)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffFrame constructor (7 of 7)
+## TiffFrame(TiffOptions, int, int) {#constructor}
 
-Initializes a new instance of the [`TiffFrame`](../../tiffframe) class.
+Initializes a new instance of the [`TiffFrame`](../) class.
 
 ```csharp
 public TiffFrame(TiffOptions options, int width, int height)
@@ -202,7 +202,7 @@ public TiffFrame(TiffOptions options, int width, int height)
 | --- | --- |
 | ArgumentNullException | Options parameter is null. |
 
-### Examples
+## Examples
 
 This example shows how to create a TIFF image from scratch and save it to a file.
 
@@ -323,9 +323,9 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 
 ### See Also
 
-* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions)
-* class [TiffFrame](../../tiffframe)
-* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe)
+* class [TiffOptions](../../../aspose.imaging.imageoptions/tiffoptions/)
+* class [TiffFrame](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffframe/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

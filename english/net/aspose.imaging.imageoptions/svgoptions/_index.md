@@ -1,7 +1,7 @@
 ---
-title: SvgOptions
+title: Class SvgOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.SvgOptions class. Create Scalar Vector Graphics SVG image files with our API utilizing versatile options for color types and compression levels. Seamlessly customize your SVG images with precision ensuring optimal quality and compatibility for your design needs
 type: docs
 weight: 10340
 url: /net/aspose.imaging.imageoptions/svgoptions/
@@ -18,35 +18,35 @@ public class SvgOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [SvgOptions](svgoptions)() | The default constructor. |
+| [SvgOptions](svgoptions/)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback) { get; set; } | Gets or sets the storing strategy for embedded resousces of [`SvgImage`](../../aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
-| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype) { get; set; } | Gets or sets the color type for SVG image. |
-| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress) { get; set; } | Gets or sets a value indicating whether the output image must to be compressed. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes) { get; set; } | Gets or sets a value indicating whether text must be rendered as shapes. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback/) { get; set; } | Gets or sets the storing strategy for embedded resousces of [`SvgImage`](../../aspose.imaging.fileformats.svg/svgimage/) such as fonts, nested rasters. |
+| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype/) { get; set; } | Gets or sets the color type for SVG image. |
+| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress/) { get; set; } | Gets or sets a value indicating whether the output image must to be compressed. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes/) { get; set; } | Gets or sets a value indicating whether text must be rendered as shapes. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
-### Examples
+## Examples
 
 The following example shows how to convert a svgz images to svg fromat
 
@@ -115,8 +115,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 
 ### See Also
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

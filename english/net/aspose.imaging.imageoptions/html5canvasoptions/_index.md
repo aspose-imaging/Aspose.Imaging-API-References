@@ -1,7 +1,7 @@
 ---
-title: Html5CanvasOptions
+title: Class Html5CanvasOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.Html5CanvasOptions class. Create HTML5 Canvas files effortlessly with our API allowing you to seamlessly combine elements like forms text images animations and links. Benefit from robust features including tag identifier and encoding settings support ensuring optimal performance and customization for your web projects
 type: docs
 weight: 10140
 url: /net/aspose.imaging.imageoptions/html5canvasoptions/
@@ -18,34 +18,34 @@ public class Html5CanvasOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [Html5CanvasOptions](html5canvasoptions)() | The default constructor. |
+| [Html5CanvasOptions](html5canvasoptions/)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid) { get; set; } | Gets or sets the canvas tag identifier. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding) { get; set; } | Gets or sets the encoding. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [FullHtmlPage](../../aspose.imaging.imageoptions/html5canvasoptions/fullhtmlpage) { get; set; } | Gets or sets a value indicating whether the full HTML page should be generated. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid/) { get; set; } | Gets or sets the canvas tag identifier. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding/) { get; set; } | Gets or sets the encoding. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [FullHtmlPage](../../aspose.imaging.imageoptions/html5canvasoptions/fullhtmlpage/) { get; set; } | Gets or sets a value indicating whether the full HTML page should be generated. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
-### Examples
+## Examples
 
 Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image.
 
@@ -78,8 +78,8 @@ using (var image = Image.Load(@"Sample.svg"))
 
 ### See Also
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

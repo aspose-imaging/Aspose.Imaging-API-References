@@ -1,14 +1,14 @@
 ---
-title: DrawEllipse
+title: Graphics.DrawEllipse
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Graphics method. Draws an ellipse defined by a bounding RectangleF
 type: docs
 weight: 220
 url: /net/aspose.imaging/graphics/drawellipse/
 ---
-## Graphics.DrawEllipse method (1 of 4)
+## DrawEllipse(Pen, RectangleF) {#drawellipse_1}
 
-Draws an ellipse defined by a bounding [`RectangleF`](../../rectanglef).
+Draws an ellipse defined by a bounding [`RectangleF`](../../rectanglef/).
 
 ```csharp
 public void DrawEllipse(Pen pen, RectangleF rect)
@@ -16,8 +16,8 @@ public void DrawEllipse(Pen pen, RectangleF rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and style of the ellipse. |
-| rect | RectangleF | [`RectangleF`](../../rectanglef) structure that defines the boundaries of the ellipse. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and style of the ellipse. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef/) structure that defines the boundaries of the ellipse. |
 
 ### Exceptions
 
@@ -27,15 +27,15 @@ public void DrawEllipse(Pen pen, RectangleF rect)
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [RectangleF](../../rectanglef)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [RectangleF](../../rectanglef/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawEllipse method (2 of 4)
+## DrawEllipse(Pen, float, float, float, float) {#drawellipse_3}
 
 Draws an ellipse defined by a bounding rectangle specified by a pair of coordinates, a height, and a width.
 
@@ -45,7 +45,7 @@ public void DrawEllipse(Pen pen, float x, float y, float width, float height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and style of the ellipse. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and style of the ellipse. |
 | x | Single | The x-coordinate of the upper-left corner of the bounding rectangle that defines the ellipse. |
 | y | Single | The y-coordinate of the upper-left corner of the bounding rectangle that defines the ellipse. |
 | width | Single | Width of the bounding rectangle that defines the ellipse. |
@@ -59,16 +59,16 @@ public void DrawEllipse(Pen pen, float x, float y, float width, float height)
 
 ### See Also
 
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawEllipse method (3 of 4)
+## DrawEllipse(Pen, Rectangle) {#drawellipse}
 
-Draws an ellipse specified by a bounding [`Rectangle`](../../rectangle) structure.
+Draws an ellipse specified by a bounding [`Rectangle`](../../rectangle/) structure.
 
 ```csharp
 public void DrawEllipse(Pen pen, Rectangle rect)
@@ -76,8 +76,8 @@ public void DrawEllipse(Pen pen, Rectangle rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and style of the ellipse. |
-| rect | Rectangle | [`Rectangle`](../../rectangle) structure that defines the boundaries of the ellipse. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and style of the ellipse. |
+| rect | Rectangle | [`Rectangle`](../../rectangle/) structure that defines the boundaries of the ellipse. |
 
 ### Exceptions
 
@@ -85,7 +85,7 @@ public void DrawEllipse(Pen pen, Rectangle rect)
 | --- | --- |
 | ArgumentNullException | *pen* is null. |
 
-### Examples
+## Examples
 
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 
@@ -151,15 +151,15 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.p
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawEllipse method (4 of 4)
+## DrawEllipse(Pen, int, int, int, int) {#drawellipse_2}
 
 Draws an ellipse defined by a bounding rectangle specified by a pair of coordinates, a height, and a width.
 
@@ -169,7 +169,7 @@ public void DrawEllipse(Pen pen, int x, int y, int width, int height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and style of the ellipse. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and style of the ellipse. |
 | x | Int32 | The x-coordinate of the upper-left corner of the bounding rectangle that defines the ellipse. |
 | y | Int32 | The y-coordinate of the upper-left corner of the bounding rectangle that defines the ellipse. |
 | width | Int32 | Width of the bounding rectangle that defines the ellipse. |
@@ -183,9 +183,9 @@ public void DrawEllipse(Pen pen, int x, int y, int width, int height)
 
 ### See Also
 
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

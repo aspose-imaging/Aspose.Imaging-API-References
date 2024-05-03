@@ -1,12 +1,12 @@
 ---
-title: Write
+title: TiffStreamWriter.Write
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: TiffStreamWriter method. Writes the specified data
 type: docs
 weight: 40
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/
 ---
-## TiffStreamWriter.Write method (1 of 26)
+## Write(MemoryStream) {#write_19}
 
 Writes the specified data.
 
@@ -20,13 +20,13 @@ public void Write(MemoryStream stream)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (2 of 26)
+## Write(byte[], int, int) {#write_6}
 
 Writes the specified data.
 
@@ -42,13 +42,13 @@ public void Write(byte[] data, int offset, int dataLength)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (3 of 26)
+## Write(byte[]) {#write_5}
 
 Writes the specified data.
 
@@ -62,13 +62,13 @@ public void Write(byte[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (4 of 26)
+## Write(double) {#write_7}
 
 Writes a single double value to the stream.
 
@@ -82,13 +82,13 @@ public void Write(double data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (5 of 26)
+## Write(double[]) {#write_8}
 
 Writes an array of double values to the stream.
 
@@ -102,13 +102,13 @@ public void Write(double[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (6 of 26)
+## Write(float) {#write_17}
 
 Writes a single float value to the stream.
 
@@ -122,13 +122,13 @@ public void Write(float data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (7 of 26)
+## Write(float[]) {#write_18}
 
 Writes an array of float values to the stream.
 
@@ -142,13 +142,13 @@ public void Write(float[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (8 of 26)
+## Write(TiffRational) {#write}
 
 Writes a single rational number value to the stream.
 
@@ -162,14 +162,14 @@ public void Write(TiffRational data)
 
 ### See Also
 
-* class [TiffRational](../../../aspose.imaging.fileformats.tiff/tiffrational)
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffRational](../../../aspose.imaging.fileformats.tiff/tiffrational/)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (9 of 26)
+## Write(TiffSRational) {#write_2}
 
 Writes a single signed rational number value to the stream.
 
@@ -183,14 +183,14 @@ public void Write(TiffSRational data)
 
 ### See Also
 
-* class [TiffSRational](../../../aspose.imaging.fileformats.tiff/tiffsrational)
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffSRational](../../../aspose.imaging.fileformats.tiff/tiffsrational/)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (10 of 26)
+## Write(TiffRational[]) {#write_1}
 
 Writes an array of unsigned rational values to the stream.
 
@@ -204,14 +204,14 @@ public void Write(TiffRational[] data)
 
 ### See Also
 
-* class [TiffRational](../../../aspose.imaging.fileformats.tiff/tiffrational)
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffRational](../../../aspose.imaging.fileformats.tiff/tiffrational/)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (11 of 26)
+## Write(TiffSRational[]) {#write_3}
 
 Writes an array of signed rational values to the stream.
 
@@ -225,14 +225,14 @@ public void Write(TiffSRational[] data)
 
 ### See Also
 
-* class [TiffSRational](../../../aspose.imaging.fileformats.tiff/tiffsrational)
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffSRational](../../../aspose.imaging.fileformats.tiff/tiffsrational/)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (12 of 26)
+## Write(sbyte) {#write_15}
 
 Writes a single signed byte value to the stream.
 
@@ -246,13 +246,13 @@ public void Write(sbyte data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (13 of 26)
+## Write(sbyte[]) {#write_16}
 
 Writes an array of signed byte values to the stream.
 
@@ -266,13 +266,13 @@ public void Write(sbyte[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (14 of 26)
+## Write(int[]) {#write_12}
 
 Writes an array of integer values to the stream.
 
@@ -286,13 +286,13 @@ public void Write(int[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (15 of 26)
+## Write(short) {#write_9}
 
 Writes a single short value to the stream.
 
@@ -306,13 +306,13 @@ public void Write(short data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (16 of 26)
+## Write(short[]) {#write_10}
 
 Writes an array of short values to the stream.
 
@@ -326,13 +326,13 @@ public void Write(short[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (17 of 26)
+## Write(int) {#write_11}
 
 Writes a single integer value to the stream.
 
@@ -346,13 +346,13 @@ public void Write(int data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (18 of 26)
+## Write(byte) {#write_4}
 
 Writes a single byte value to the stream.
 
@@ -366,13 +366,13 @@ public void Write(byte data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (19 of 26)
+## Write(uint) {#write_22}
 
 Writes a single unsigned integer value to the stream.
 
@@ -386,13 +386,13 @@ public void Write(uint data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (20 of 26)
+## Write(uint[]) {#write_23}
 
 Writes an array of unsigned integer values to the stream.
 
@@ -406,13 +406,13 @@ public void Write(uint[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (21 of 26)
+## Write(ushort) {#write_20}
 
 Writes a single unsigned short value to the stream.
 
@@ -426,13 +426,13 @@ public void Write(ushort data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (22 of 26)
+## Write(ushort[]) {#write_21}
 
 Writes an array of unsigned short values to the stream.
 
@@ -446,13 +446,13 @@ public void Write(ushort[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (23 of 26)
+## Write(long) {#write_13}
 
 Writes an array of signed long values to the stream.
 
@@ -466,13 +466,13 @@ public void Write(long data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (24 of 26)
+## Write(long[]) {#write_14}
 
 Writes an array of signed long values to the stream.
 
@@ -486,13 +486,13 @@ public void Write(long[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (25 of 26)
+## Write(ulong) {#write_24}
 
 Writes an array of unsigned long values to the stream.
 
@@ -506,13 +506,13 @@ public void Write(ulong data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## TiffStreamWriter.Write method (26 of 26)
+## Write(ulong[]) {#write_25}
 
 Writes an array of unsigned long values to the stream.
 
@@ -526,8 +526,8 @@ public void Write(ulong[] data)
 
 ### See Also
 
-* class [TiffStreamWriter](../../tiffstreamwriter)
-* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* class [TiffStreamWriter](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

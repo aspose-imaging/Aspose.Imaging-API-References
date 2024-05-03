@@ -1,7 +1,7 @@
 ---
-title: PieShape
+title: Class PieShape
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.Shapes.PieShape class. Represents a pie shape
 type: docs
 weight: 11320
 url: /net/aspose.imaging.shapes/pieshape/
@@ -18,37 +18,37 @@ public class PieShape : EllipseShape
 
 | Name | Description |
 | --- | --- |
-| [PieShape](pieshape)() | Initializes a new instance of the [`PieShape`](../pieshape) class. |
-| [PieShape](pieshape)(RectangleF, float, float) | Initializes a new instance of the [`PieShape`](../pieshape) class. |
+| [PieShape](pieshape/#constructor)() | Initializes a new instance of the `PieShape` class. |
+| [PieShape](pieshape/#constructor_1)(RectangleF, float, float) | Initializes a new instance of the `PieShape` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| override [Bounds](../../aspose.imaging.shapes/rectangleprojectedshape/bounds) { get; } | Gets the object's bounds. |
-| override [Center](../../aspose.imaging.shapes/rectangleprojectedshape/center) { get; } | Gets the shape's center. |
-| override [HasSegments](../../aspose.imaging.shapes/rectangleprojectedshape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
-| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom) { get; } | Gets the left bottom rectangle point. |
-| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop) { get; } | Gets the left top rectangle point. |
-| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight) { get; } | Gets the rectangle height. |
-| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth) { get; } | Gets the rectangle width. |
-| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom) { get; } | Gets the right bottom rectangle point. |
-| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop) { get; } | Gets the right top rectangle point. |
-| override [Segments](../../aspose.imaging.shapes/pieshape/segments) { get; } | Gets the shape segments. |
-| [StartAngle](../../aspose.imaging.shapes/pieshape/startangle) { get; set; } | Gets or sets the start angle. |
-| [SweepAngle](../../aspose.imaging.shapes/pieshape/sweepangle) { get; set; } | Gets or sets the sweep angle. |
+| override [Bounds](../../aspose.imaging.shapes/rectangleprojectedshape/bounds/) { get; } | Gets the object's bounds. |
+| override [Center](../../aspose.imaging.shapes/rectangleprojectedshape/center/) { get; } | Gets the shape's center. |
+| override [HasSegments](../../aspose.imaging.shapes/rectangleprojectedshape/hassegments/) { get; } | Gets a value indicating whether shape has segments. |
+| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom/) { get; } | Gets the left bottom rectangle point. |
+| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop/) { get; } | Gets the left top rectangle point. |
+| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight/) { get; } | Gets the rectangle height. |
+| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth/) { get; } | Gets the rectangle width. |
+| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom/) { get; } | Gets the right bottom rectangle point. |
+| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop/) { get; } | Gets the right top rectangle point. |
+| override [Segments](../../aspose.imaging.shapes/pieshape/segments/) { get; } | Gets the shape segments. |
+| [StartAngle](../../aspose.imaging.shapes/pieshape/startangle/) { get; set; } | Gets or sets the start angle. |
+| [SweepAngle](../../aspose.imaging.shapes/pieshape/sweepangle/) { get; set; } | Gets or sets the sweep angle. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.imaging.shapes/pieshape/equals)(object) | Check if objects are equal. |
-| override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix) | Gets the object's bounds. |
-| override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| override [GetHashCode](../../aspose.imaging.shapes/pieshape/gethashcode)() | Get hash code of the current object. |
-| override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
+| override [Equals](../../aspose.imaging.shapes/pieshape/equals/)(object) | Check if objects are equal. |
+| override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds/)(Matrix) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds/)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging.shapes/pieshape/gethashcode/)() | Get hash code of the current object. |
+| override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform/)(Matrix) | Applies the specified transformation to the shape. |
 
-### Examples
+## Examples
 
 This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath on the Image surface
 
@@ -103,8 +103,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ### See Also
 
-* class [EllipseShape](../ellipseshape)
-* namespace [Aspose.Imaging.Shapes](../../aspose.imaging.shapes)
+* class [EllipseShape](../ellipseshape/)
+* namespace [Aspose.Imaging.Shapes](../../aspose.imaging.shapes/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

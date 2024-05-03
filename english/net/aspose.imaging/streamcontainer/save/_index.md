@@ -1,12 +1,12 @@
 ---
-title: Save
+title: StreamContainer.Save
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: StreamContainer method. Saves copies the streams data to the specified stream
 type: docs
 weight: 130
 url: /net/aspose.imaging/streamcontainer/save/
 ---
-## StreamContainer.Save method (1 of 6)
+## Save(Stream, int, long) {#save_2}
 
 Saves (copies) the stream's data to the specified stream.
 
@@ -17,20 +17,20 @@ public virtual void Save(Stream destinationStream, int bufferSize, long length)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationStream | Stream | The stream to save the data to. |
-| bufferSize | Int32 | The buffer size. By default [`ReadWriteBytesCount`](../readwritebytescount) value is used. |
-| length | Int64 | The stream data length to copy. By default the length is set to [`Length`](../length) value. |
+| bufferSize | Int32 | The buffer size. By default [`ReadWriteBytesCount`](../readwritebytescount/) value is used. |
+| length | Int64 | The stream data length to copy. By default the length is set to [`Length`](../length/) value. |
 
 ### See Also
 
-* class [StreamContainer](../../streamcontainer)
-* namespace [Aspose.Imaging](../../streamcontainer)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## StreamContainer.Save method (2 of 6)
+## Save(Stream) {#save}
 
-Saves (copies) the stream's data to the specified stream. Uses default buffer size [`ReadWriteBytesCount`](../readwritebytescount) and stream [`Length`](../length) value.
+Saves (copies) the stream's data to the specified stream. Uses default buffer size [`ReadWriteBytesCount`](../readwritebytescount/) and stream [`Length`](../length/) value.
 
 ```csharp
 public virtual void Save(Stream destinationStream)
@@ -42,15 +42,15 @@ public virtual void Save(Stream destinationStream)
 
 ### See Also
 
-* class [StreamContainer](../../streamcontainer)
-* namespace [Aspose.Imaging](../../streamcontainer)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## StreamContainer.Save method (3 of 6)
+## Save(Stream, int) {#save_1}
 
-Saves (copies) all the stream's data to the specified stream. Uses stream [`Length`](../length) value.
+Saves (copies) all the stream's data to the specified stream. Uses stream [`Length`](../length/) value.
 
 ```csharp
 public virtual void Save(Stream destinationStream, int bufferSize)
@@ -63,15 +63,15 @@ public virtual void Save(Stream destinationStream, int bufferSize)
 
 ### See Also
 
-* class [StreamContainer](../../streamcontainer)
-* namespace [Aspose.Imaging](../../streamcontainer)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## StreamContainer.Save method (4 of 6)
+## Save(string) {#save_3}
 
-Saves (copies) the stream's data to the specified stream. Uses default buffer size [`ReadWriteBytesCount`](../readwritebytescount) and stream [`Length`](../length) value.
+Saves (copies) the stream's data to the specified stream. Uses default buffer size [`ReadWriteBytesCount`](../readwritebytescount/) and stream [`Length`](../length/) value.
 
 ```csharp
 public virtual void Save(string filePath)
@@ -83,15 +83,15 @@ public virtual void Save(string filePath)
 
 ### See Also
 
-* class [StreamContainer](../../streamcontainer)
-* namespace [Aspose.Imaging](../../streamcontainer)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## StreamContainer.Save method (5 of 6)
+## Save(string, int) {#save_4}
 
-Saves (copies) the stream's data to the specified stream. Uses stream [`Length`](../length) value.
+Saves (copies) the stream's data to the specified stream. Uses stream [`Length`](../length/) value.
 
 ```csharp
 public virtual void Save(string filePath, int bufferSize)
@@ -100,17 +100,17 @@ public virtual void Save(string filePath, int bufferSize)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | The file path to save the stream data to. |
-| bufferSize | Int32 | The buffer size. By default [`ReadWriteBytesCount`](../readwritebytescount) value is used. |
+| bufferSize | Int32 | The buffer size. By default [`ReadWriteBytesCount`](../readwritebytescount/) value is used. |
 
 ### See Also
 
-* class [StreamContainer](../../streamcontainer)
-* namespace [Aspose.Imaging](../../streamcontainer)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## StreamContainer.Save method (6 of 6)
+## Save(string, int, long) {#save_5}
 
 Saves (copies) the stream's data to the specified stream.
 
@@ -121,13 +121,13 @@ public virtual void Save(string filePath, int bufferSize, long length)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | The file path to save the stream data to. |
-| bufferSize | Int32 | The buffer size. By default [`ReadWriteBytesCount`](../readwritebytescount) value is used. |
-| length | Int64 | The stream data length to copy. By default the length is set to [`Length`](../length) value. |
+| bufferSize | Int32 | The buffer size. By default [`ReadWriteBytesCount`](../readwritebytescount/) value is used. |
+| length | Int64 | The stream data length to copy. By default the length is set to [`Length`](../length/) value. |
 
 ### See Also
 
-* class [StreamContainer](../../streamcontainer)
-* namespace [Aspose.Imaging](../../streamcontainer)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

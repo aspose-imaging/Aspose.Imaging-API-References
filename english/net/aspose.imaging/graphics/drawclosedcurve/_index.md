@@ -1,14 +1,14 @@
 ---
-title: DrawClosedCurve
+title: Graphics.DrawClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Graphics method. Draws a closed cardinal spline defined by an array of PointF structures. This method uses a default tension of 0.5 and Alternate fill mode
 type: docs
 weight: 200
 url: /net/aspose.imaging/graphics/drawclosedcurve/
 ---
-## Graphics.DrawClosedCurve method (1 of 4)
+## DrawClosedCurve(Pen, PointF[]) {#drawclosedcurve}
 
-Draws a closed cardinal spline defined by an array of [`PointF`](../../pointf) structures. This method uses a default tension of 0.5 and Alternate fill mode.
+Draws a closed cardinal spline defined by an array of [`PointF`](../../pointf/) structures. This method uses a default tension of 0.5 and Alternate fill mode.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, PointF[] points)
@@ -16,8 +16,8 @@ public void DrawClosedCurve(Pen pen, PointF[] points)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and height of the curve. |
-| points | PointF[] | Array of [`PointF`](../../pointf) structures that define the spline. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and height of the curve. |
+| points | PointF[] | Array of [`PointF`](../../pointf/) structures that define the spline. |
 
 ### Exceptions
 
@@ -27,17 +27,17 @@ public void DrawClosedCurve(Pen pen, PointF[] points)
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [PointF](../../pointf)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [PointF](../../pointf/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawClosedCurve method (2 of 4)
+## DrawClosedCurve(Pen, PointF[], float) {#drawclosedcurve_1}
 
-Draws a closed cardinal spline defined by an array of [`PointF`](../../pointf) structures using a specified tension. This method uses a default Alternate fill mode.
+Draws a closed cardinal spline defined by an array of [`PointF`](../../pointf/) structures using a specified tension. This method uses a default Alternate fill mode.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
@@ -45,8 +45,8 @@ public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and height of the curve. |
-| points | PointF[] | Array of [`PointF`](../../pointf) structures that define the spline. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and height of the curve. |
+| points | PointF[] | Array of [`PointF`](../../pointf/) structures that define the spline. |
 | tension | Single | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
 ### Exceptions
@@ -57,17 +57,17 @@ public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [PointF](../../pointf)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [PointF](../../pointf/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawClosedCurve method (3 of 4)
+## DrawClosedCurve(Pen, Point[]) {#drawclosedcurve_2}
 
-Draws a closed cardinal spline defined by an array of [`Point`](../../point) structures. This method uses a default tension of 0.5 and Alternate fill mode.
+Draws a closed cardinal spline defined by an array of [`Point`](../../point/) structures. This method uses a default tension of 0.5 and Alternate fill mode.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, Point[] points)
@@ -75,8 +75,8 @@ public void DrawClosedCurve(Pen pen, Point[] points)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and height of the curve. |
-| points | Point[] | Array of [`Point`](../../point) structures that define the spline. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and height of the curve. |
+| points | Point[] | Array of [`Point`](../../point/) structures that define the spline. |
 
 ### Exceptions
 
@@ -86,17 +86,17 @@ public void DrawClosedCurve(Pen pen, Point[] points)
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [Point](../../point/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawClosedCurve method (4 of 4)
+## DrawClosedCurve(Pen, Point[], float) {#drawclosedcurve_3}
 
-Draws a closed cardinal spline defined by an array of [`Point`](../../point) structures using a specified tension. This method uses a default Alternate fill mode.
+Draws a closed cardinal spline defined by an array of [`Point`](../../point/) structures using a specified tension. This method uses a default Alternate fill mode.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, Point[] points, float tension)
@@ -104,8 +104,8 @@ public void DrawClosedCurve(Pen pen, Point[] points, float tension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and height of the curve. |
-| points | Point[] | Array of [`Point`](../../point) structures that define the spline. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and height of the curve. |
+| points | Point[] | Array of [`Point`](../../point/) structures that define the spline. |
 | tension | Single | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
 ### Exceptions
@@ -116,10 +116,10 @@ public void DrawClosedCurve(Pen pen, Point[] points, float tension)
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [Point](../../point/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

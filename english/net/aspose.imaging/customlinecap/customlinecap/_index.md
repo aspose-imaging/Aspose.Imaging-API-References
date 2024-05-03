@@ -1,14 +1,14 @@
 ---
-title: CustomLineCap
+title: CustomLineCap.CustomLineCap
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: CustomLineCap constructor. Initializes a new instance of the CustomLineCap class with the specified outline and fill
 type: docs
 weight: 10
 url: /net/aspose.imaging/customlinecap/customlinecap/
 ---
-## CustomLineCap constructor (1 of 3)
+## CustomLineCap(GraphicsPath, GraphicsPath) {#constructor}
 
-Initializes a new instance of the [`CustomLineCap`](../../customlinecap) class with the specified outline and fill.
+Initializes a new instance of the [`CustomLineCap`](../) class with the specified outline and fill.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
@@ -16,21 +16,21 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fillPath | GraphicsPath | A [`GraphicsPath`](../../graphicspath) object that defines the fill for the custom cap. |
-| strokePath | GraphicsPath | A [`GraphicsPath`](../../graphicspath) object that defines the outline of the custom cap. |
+| fillPath | GraphicsPath | A [`GraphicsPath`](../../graphicspath/) object that defines the fill for the custom cap. |
+| strokePath | GraphicsPath | A [`GraphicsPath`](../../graphicspath/) object that defines the outline of the custom cap. |
 
 ### See Also
 
-* class [GraphicsPath](../../graphicspath)
-* class [CustomLineCap](../../customlinecap)
-* namespace [Aspose.Imaging](../../customlinecap)
+* class [GraphicsPath](../../graphicspath/)
+* class [CustomLineCap](../)
+* namespace [Aspose.Imaging](../../customlinecap/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CustomLineCap constructor (2 of 3)
+## CustomLineCap(GraphicsPath, GraphicsPath, LineCap) {#constructor_1}
 
-Initializes a new instance of the [`CustomLineCap`](../../customlinecap) class from the specified existing [`LineCap`](../../linecap) enumeration with the specified outline and fill.
+Initializes a new instance of the [`CustomLineCap`](../) class from the specified existing [`LineCap`](../../linecap/) enumeration with the specified outline and fill.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap)
@@ -38,23 +38,23 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fillPath | GraphicsPath | A [`GraphicsPath`](../../graphicspath) object that defines the fill for the custom cap. |
-| strokePath | GraphicsPath | A [`GraphicsPath`](../../graphicspath) object that defines the outline of the custom cap. |
+| fillPath | GraphicsPath | A [`GraphicsPath`](../../graphicspath/) object that defines the fill for the custom cap. |
+| strokePath | GraphicsPath | A [`GraphicsPath`](../../graphicspath/) object that defines the outline of the custom cap. |
 | baseCap | LineCap | The line cap from which to create the custom cap. |
 
 ### See Also
 
-* class [GraphicsPath](../../graphicspath)
-* enum [LineCap](../../linecap)
-* class [CustomLineCap](../../customlinecap)
-* namespace [Aspose.Imaging](../../customlinecap)
+* class [GraphicsPath](../../graphicspath/)
+* enum [LineCap](../../linecap/)
+* class [CustomLineCap](../)
+* namespace [Aspose.Imaging](../../customlinecap/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## CustomLineCap constructor (3 of 3)
+## CustomLineCap(GraphicsPath, GraphicsPath, LineCap, float) {#constructor_2}
 
-Initializes a new instance of the [`CustomLineCap`](../../customlinecap) class from the specified existing [`LineCap`](../../linecap) enumeration with the specified outline, fill, and inset.
+Initializes a new instance of the [`CustomLineCap`](../) class from the specified existing [`LineCap`](../../linecap/) enumeration with the specified outline, fill, and inset.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap, 
@@ -63,17 +63,17 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fillPath | GraphicsPath | A [`GraphicsPath`](../../graphicspath) object that defines the fill for the custom cap. |
-| strokePath | GraphicsPath | A [`GraphicsPath`](../../graphicspath) object that defines the outline of the custom cap. |
+| fillPath | GraphicsPath | A [`GraphicsPath`](../../graphicspath/) object that defines the fill for the custom cap. |
+| strokePath | GraphicsPath | A [`GraphicsPath`](../../graphicspath/) object that defines the outline of the custom cap. |
 | baseCap | LineCap | The line cap from which to create the custom cap. |
 | baseInset | Single | The distance between the cap and the line. |
 
 ### See Also
 
-* class [GraphicsPath](../../graphicspath)
-* enum [LineCap](../../linecap)
-* class [CustomLineCap](../../customlinecap)
-* namespace [Aspose.Imaging](../../customlinecap)
+* class [GraphicsPath](../../graphicspath/)
+* enum [LineCap](../../linecap/)
+* class [CustomLineCap](../)
+* namespace [Aspose.Imaging](../../customlinecap/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

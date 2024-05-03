@@ -1,7 +1,7 @@
 ---
-title: PngOptions
+title: Class PngOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.PngOptions class. Create highquality Portable Network Graphics PNG raster images effortlessly with our API offering customizable options for compression levels bits per pixel depths and alpha bits. Seamlessly process XMP metadata containers ensuring comprehensive image metadata management and empowering you to tailor PNG images to your exact specifications with ease
 type: docs
 weight: 10270
 url: /net/aspose.imaging.imageoptions/pngoptions/
@@ -18,43 +18,43 @@ public class PngOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [PngOptions](pngoptions)() | Initializes a new instance of the [`PngOptions`](../pngoptions) class. |
-| [PngOptions](pngoptions)(PngOptions) | Initializes a new instance of the [`PngOptions`](../pngoptions) class. |
+| [PngOptions](pngoptions/#constructor)() | Initializes a new instance of the `PngOptions` class. |
+| [PngOptions](pngoptions/#constructor_1)(PngOptions) | Initializes a new instance of the `PngOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth) { get; set; } | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype) { get; set; } | Gets or sets the type of the color. |
-| [CompressionLevel](../../aspose.imaging.imageoptions/pngoptions/compressionlevel) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype) { get; set; } | Gets or sets the filter type used during png file save process. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage) is progressive. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/pngoptions/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth/) { get; set; } | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
+| [CompressionLevel](../../aspose.imaging.imageoptions/pngoptions/compressionlevel/) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) compression level in the range of 0-9. The higher the value - the more efficient the compression. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| override [XmpData](../../aspose.imaging.imageoptions/pngoptions/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
 ## Fields
 
 | Name | Description |
 | --- | --- |
-| const [DefaultCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/defaultcompressionlevel) | The default compression level. |
+| const [DefaultCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/defaultcompressionlevel/) | The default compression level. |
 
-### Examples
+## Examples
 
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
 
@@ -177,8 +177,8 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.p
 
 ### See Also
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

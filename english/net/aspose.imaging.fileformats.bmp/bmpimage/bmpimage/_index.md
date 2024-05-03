@@ -1,14 +1,14 @@
 ---
-title: BmpImage
+title: BmpImage.BmpImage
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: BmpImage constructor. Start using the BmpImage class effortlessly with this constructor that initializes a new instance. Perfect for developers who want to get up and running with BmpImage objects quickly and efficiently
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/bmpimage/
 ---
-## BmpImage constructor (1 of 9)
+## BmpImage(string) {#constructor_7}
 
-Start using the BmpImage class effortlessly with this constructor that initializes a new instance. Perfect for developers who want to get up and running with [`BmpImage`](../../bmpimage) objects quickly and efficiently.
+Start using the BmpImage class effortlessly with this constructor that initializes a new instance. Perfect for developers who want to get up and running with [`BmpImage`](../) objects quickly and efficiently.
 
 ```csharp
 public BmpImage(string path)
@@ -23,10 +23,10 @@ public BmpImage(string path)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | The raster image is null. |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to load a BmpImage from a file.
 
@@ -47,15 +47,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (2 of 9)
+## BmpImage(string, ushort, BitmapCompression, double, double) {#constructor_8}
 
-Effortlessly create a new instance of the [`BmpImage`](../../bmpimage) class with this constructor, using specified parameters like path, bitsPerPixel, and compression. Ideal for developers looking to initialize BmpImage objects quickly and efficiently, with precise control over image characteristics.
+Effortlessly create a new instance of the [`BmpImage`](../) class with this constructor, using specified parameters like path, bitsPerPixel, and compression. Ideal for developers looking to initialize BmpImage objects quickly and efficiently, with precise control over image characteristics.
 
 ```csharp
 public BmpImage(string path, ushort bitsPerPixel, BitmapCompression compression, 
@@ -75,10 +75,10 @@ public BmpImage(string path, ushort bitsPerPixel, BitmapCompression compression,
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | The raster image is null. |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to load a BmpImage from a file with the specified bit depth and resolution.
 
@@ -101,16 +101,16 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage =
 
 ### See Also
 
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (3 of 9)
+## BmpImage(Stream) {#constructor_5}
 
-Begin using the [`BmpImage`](../../bmpimage) class effortlessly by initializing a new instance with this constructor, using a stream as input. Perfect for developers seeking a convenient way to work with BmpImage objects from various data sources, ensuring flexibility and ease of integration.
+Begin using the [`BmpImage`](../) class effortlessly by initializing a new instance with this constructor, using a stream as input. Perfect for developers seeking a convenient way to work with BmpImage objects from various data sources, ensuring flexibility and ease of integration.
 
 ```csharp
 public BmpImage(Stream stream)
@@ -125,10 +125,10 @@ public BmpImage(Stream stream)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | The raster image is null. |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to load a BmpImage from a file stream.
 
@@ -152,15 +152,15 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 
 ### See Also
 
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (4 of 9)
+## BmpImage(Stream, ushort, BitmapCompression, double, double) {#constructor_6}
 
-Start working with the [`BmpImage`](../../bmpimage) class seamlessly by creating a new instance using a stream, along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects.
+Start working with the [`BmpImage`](../) class seamlessly by creating a new instance using a stream, along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects.
 
 ```csharp
 public BmpImage(Stream stream, ushort bitsPerPixel, BitmapCompression compression, 
@@ -180,10 +180,10 @@ public BmpImage(Stream stream, ushort bitsPerPixel, BitmapCompression compressio
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | The raster image is null. |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to load a BmpImage from a file stream with the specified bit depth and resolution.
 
@@ -209,16 +209,16 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 
 ### See Also
 
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (5 of 9)
+## BmpImage(RasterImage) {#constructor}
 
-Effortlessly create a new instance of the [`BmpImage`](../../bmpimage) class by initializing it with a RasterImage object. Perfect for developers looking to seamlessly convert existing raster images to the BmpImage format, ensuring compatibility and ease of integration into their projects.
+Effortlessly create a new instance of the [`BmpImage`](../) class by initializing it with a RasterImage object. Perfect for developers looking to seamlessly convert existing raster images to the BmpImage format, ensuring compatibility and ease of integration into their projects.
 
 ```csharp
 public BmpImage(RasterImage rasterImage)
@@ -233,10 +233,10 @@ public BmpImage(RasterImage rasterImage)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | The raster image is null. |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to load a BmpImage from another instance of RasterImage.
 
@@ -267,16 +267,16 @@ using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspo
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (6 of 9)
+## BmpImage(RasterImage, ushort, BitmapCompression, double, double) {#constructor_1}
 
-Start working with the [`BmpImage`](../../bmpimage) class seamlessly by creating a new instance using a rasterImage along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects.
+Start working with the [`BmpImage`](../) class seamlessly by creating a new instance using a rasterImage along with specified parameters like bitsPerPixel and compression. Perfect for developers seeking a straightforward way to handle BmpImage objects, ensuring flexibility and efficiency in their projects.
 
 ```csharp
 public BmpImage(RasterImage rasterImage, ushort bitsPerPixel, BitmapCompression compression, 
@@ -296,10 +296,10 @@ public BmpImage(RasterImage rasterImage, ushort bitsPerPixel, BitmapCompression 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | The raster image is null. |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to load a BmpImage from another instance of RasterImage with the specified bit depth and compression.
 
@@ -331,17 +331,17 @@ using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspo
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (7 of 9)
+## BmpImage(int, int) {#constructor_2}
 
-Start using the [`BmpImage`](../../bmpimage) class effortlessly by creating a new instance with specified width and height parameters. Ideal for developers seeking a convenient way to generate BmpImage objects of custom dimensions, ensuring flexibility and ease of integration into their projects.
+Start using the [`BmpImage`](../) class effortlessly by creating a new instance with specified width and height parameters. Ideal for developers seeking a convenient way to generate BmpImage objects of custom dimensions, ensuring flexibility and ease of integration into their projects.
 
 ```csharp
 public BmpImage(int width, int height)
@@ -356,10 +356,10 @@ public BmpImage(int width, int height)
 
 | exception | condition |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to create a BmpImage of the specified size.
 
@@ -430,15 +430,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (8 of 9)
+## BmpImage(int, int, ushort, IColorPalette) {#constructor_3}
 
-Begin using the [`BmpImage`](../../bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. Perfect for developers seeking a straightforward way to create BmpImage objects with custom dimensions and color configurations, ensuring flexibility and efficiency in their projects.
+Begin using the [`BmpImage`](../) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. Perfect for developers seeking a straightforward way to create BmpImage objects with custom dimensions and color configurations, ensuring flexibility and efficiency in their projects.
 
 ```csharp
 public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palette)
@@ -455,10 +455,10 @@ public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palett
 
 | exception | condition |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to create a BmpImage of the specified size with the specified palette.
 
@@ -496,16 +496,16 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## BmpImage constructor (9 of 9)
+## BmpImage(int, int, ushort, IColorPalette, BitmapCompression, double, double) {#constructor_4}
 
-Effortlessly create a new instance of the [`BmpImage`](../../bmpimage) class with this constructor, specifying parameters like width, height, bitsPerPixel, and palette. Perfect for developers seeking a convenient way to generate BmpImage objects with custom dimensions and color configurations, ensuring flexibility and ease of integration into their projects.
+Effortlessly create a new instance of the [`BmpImage`](../) class with this constructor, specifying parameters like width, height, bitsPerPixel, and palette. Perfect for developers seeking a convenient way to generate BmpImage objects with custom dimensions and color configurations, ensuring flexibility and ease of integration into their projects.
 
 ```csharp
 public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palette, 
@@ -526,10 +526,10 @@ public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palett
 
 | exception | condition |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | The height must be positive. |
 | ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
-### Examples
+## Examples
 
 The example shows how to create a BmpImage using various options.
 
@@ -568,10 +568,10 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

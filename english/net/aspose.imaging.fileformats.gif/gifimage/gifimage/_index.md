@@ -1,14 +1,14 @@
 ---
-title: GifImage
+title: GifImage.GifImage
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: GifImage constructor. Initiate a new GifImage object with specified parameters for the first frame and global palette. Start managing GIF images swiftly ensuring accurate representation with customizable settings for optimal results
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.gif/gifimage/gifimage/
 ---
-## GifImage constructor (1 of 3)
+## GifImage(GifFrameBlock, IColorPalette) {#constructor_1}
 
-Initiate a new [`GifImage`](../../gifimage) object with specified parameters for the first frame and global palette. Start managing GIF images swiftly, ensuring accurate representation with customizable settings for optimal results.
+Initiate a new [`GifImage`](../) object with specified parameters for the first frame and global palette. Start managing GIF images swiftly, ensuring accurate representation with customizable settings for optimal results.
 
 ```csharp
 public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
@@ -25,9 +25,9 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 | --- | --- |
 | ArgumentNullException | The *firstFrame* cannot be null |
 | ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception/) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
-### Examples
+## Examples
 
 This example shows how to create a GIF image with a custom palette and save it to a file.
 
@@ -56,17 +56,17 @@ using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspo
 
 ### See Also
 
-* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock)
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* class [GifImage](../../gifimage)
-* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage)
+* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock/)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* class [GifImage](../)
+* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifImage constructor (2 of 3)
+## GifImage(GifFrameBlock) {#constructor}
 
-Crafting GIF images becomes effortless with the [`GifImage`](../../gifimage) constructor. With just the firstFrame parameter, it enters in a world of dynamic visual communication.
+Crafting GIF images becomes effortless with the [`GifImage`](../) constructor. With just the firstFrame parameter, it enters in a world of dynamic visual communication.
 
 ```csharp
 public GifImage(GifFrameBlock firstFrame)
@@ -82,9 +82,9 @@ public GifImage(GifFrameBlock firstFrame)
 | --- | --- |
 | ArgumentNullException | The *firstFrame* cannot be null |
 | ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The palette specified must contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception/) | The palette specified must contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
-### Examples
+## Examples
 
 This example shows how to create a GIF image and save it to a file.
 
@@ -155,16 +155,16 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 ### See Also
 
-* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock)
-* class [GifImage](../../gifimage)
-* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage)
+* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock/)
+* class [GifImage](../)
+* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GifImage constructor (3 of 3)
+## GifImage(GifFrameBlock, IColorPalette, bool, byte, byte, byte, bool) {#constructor_2}
 
-Get started effortlessly with the [`GifImage`](../../gifimage) constructor. With this simple method, you can dive into creating animated GIFs with ease. Just supply the firstFrame, globalPalette, paletteColorResolution, aspectRatio, and other parameters, and you're ready to bring your visuals to life.
+Get started effortlessly with the [`GifImage`](../) constructor. With this simple method, you can dive into creating animated GIFs with ease. Just supply the firstFrame, globalPalette, paletteColorResolution, aspectRatio, and other parameters, and you're ready to bring your visuals to life.
 
 ```csharp
 public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, bool isPaletteSorted, 
@@ -188,14 +188,14 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, bool isPa
 | --- | --- |
 | ArgumentNullException | The *firstFrame* cannot be null |
 | ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception/) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
 ### See Also
 
-* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock)
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* class [GifImage](../../gifimage)
-* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage)
+* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock/)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* class [GifImage](../)
+* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

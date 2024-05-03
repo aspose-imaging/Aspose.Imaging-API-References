@@ -1,14 +1,14 @@
 ---
-title: FromArgb
+title: Color.FromArgb
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Color method. Creates a Color structure from a 32bit ARGB value
 type: docs
 weight: 1430
 url: /net/aspose.imaging/color/fromargb/
 ---
-## Color.FromArgb method (1 of 4)
+## FromArgb(int) {#fromargb}
 
-Creates a [`Color`](../../color) structure from a 32-bit ARGB value.
+Creates a [`Color`](../) structure from a 32-bit ARGB value.
 
 ```csharp
 public static Color FromArgb(int argb)
@@ -20,19 +20,19 @@ public static Color FromArgb(int argb)
 
 ### Return Value
 
-The [`Color`](../../color) structure that this method creates.
+The [`Color`](../) structure that this method creates.
 
 ### See Also
 
-* struct [Color](../../color)
-* namespace [Aspose.Imaging](../../color)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Color.FromArgb method (2 of 4)
+## FromArgb(int, int, int, int) {#fromargb_3}
 
-Creates a [`Color`](../../color) structure from the four ARGB component (alpha, red, green, and blue) values. Although this method allows a 32-bit value to be passed for each component, the value of each component is limited to 8 bits.
+Creates a [`Color`](../) structure from the four ARGB component (alpha, red, green, and blue) values. Although this method allows a 32-bit value to be passed for each component, the value of each component is limited to 8 bits.
 
 ```csharp
 public static Color FromArgb(int alpha, int red, int green, int blue)
@@ -47,7 +47,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 
 ### Return Value
 
-The [`Color`](../../color) that this method creates.
+The [`Color`](../) that this method creates.
 
 ### Exceptions
 
@@ -57,15 +57,15 @@ The [`Color`](../../color) that this method creates.
 
 ### See Also
 
-* struct [Color](../../color)
-* namespace [Aspose.Imaging](../../color)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Color.FromArgb method (3 of 4)
+## FromArgb(int, Color) {#fromargb_1}
 
-Creates a [`Color`](../../color) structure from the specified [`Color`](../../color) structure, but with the new specified alpha value. Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits.
+Creates a [`Color`](../) structure from the specified [`Color`](../) structure, but with the new specified alpha value. Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits.
 
 ```csharp
 public static Color FromArgb(int alpha, Color baseColor)
@@ -73,12 +73,12 @@ public static Color FromArgb(int alpha, Color baseColor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| alpha | Int32 | The alpha value for the new [`Color`](../../color). Valid values are 0 through 255. |
-| baseColor | Color | The [`Color`](../../color) from which to create the new [`Color`](../../color). |
+| alpha | Int32 | The alpha value for the new [`Color`](../). Valid values are 0 through 255. |
+| baseColor | Color | The [`Color`](../) from which to create the new [`Color`](../). |
 
 ### Return Value
 
-The [`Color`](../../color) that this method creates.
+The [`Color`](../) that this method creates.
 
 ### Exceptions
 
@@ -88,15 +88,15 @@ The [`Color`](../../color) that this method creates.
 
 ### See Also
 
-* struct [Color](../../color)
-* namespace [Aspose.Imaging](../../color)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Color.FromArgb method (4 of 4)
+## FromArgb(int, int, int) {#fromargb_2}
 
-Creates a [`Color`](../../color) structure from the specified 8-bit color values (red, green, and blue). The alpha value is implicitly 255 (fully opaque). Although this method allows a 32-bit value to be passed for each color component, the value of each component is limited to 8 bits.
+Creates a [`Color`](../) structure from the specified 8-bit color values (red, green, and blue). The alpha value is implicitly 255 (fully opaque). Although this method allows a 32-bit value to be passed for each color component, the value of each component is limited to 8 bits.
 
 ```csharp
 public static Color FromArgb(int red, int green, int blue)
@@ -104,13 +104,13 @@ public static Color FromArgb(int red, int green, int blue)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| red | Int32 | The red component value for the new [`Color`](../../color). Valid values are 0 through 255. |
-| green | Int32 | The green component value for the new [`Color`](../../color). Valid values are 0 through 255. |
-| blue | Int32 | The blue component value for the new [`Color`](../../color). Valid values are 0 through 255. |
+| red | Int32 | The red component value for the new [`Color`](../). Valid values are 0 through 255. |
+| green | Int32 | The green component value for the new [`Color`](../). Valid values are 0 through 255. |
+| blue | Int32 | The blue component value for the new [`Color`](../). Valid values are 0 through 255. |
 
 ### Return Value
 
-The [`Color`](../../color) that this method creates.
+The [`Color`](../) that this method creates.
 
 ### Exceptions
 
@@ -120,8 +120,8 @@ The [`Color`](../../color) that this method creates.
 
 ### See Also
 
-* struct [Color](../../color)
-* namespace [Aspose.Imaging](../../color)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

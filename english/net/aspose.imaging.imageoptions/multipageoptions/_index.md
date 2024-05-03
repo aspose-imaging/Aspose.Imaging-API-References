@@ -1,7 +1,7 @@
 ---
-title: MultiPageOptions
+title: Class MultiPageOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.MultiPageOptions class. Base class for multiple pages supported formats
 type: docs
 weight: 10210
 url: /net/aspose.imaging.imageoptions/multipageoptions/
@@ -18,40 +18,40 @@ public class MultiPageOptions
 
 | Name | Description |
 | --- | --- |
-| [MultiPageOptions](multipageoptions)() | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(int) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(IntRange) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(IntRange[]) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(int[]) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(string[]) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(int, Rectangle) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(IntRange, Rectangle) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(IntRange[], Rectangle) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(int[], Rectangle) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
-| [MultiPageOptions](multipageoptions)(string[], Rectangle) | Initializes a new instance of the [`MultiPageOptions`](../multipageoptions) class. |
+| [MultiPageOptions](multipageoptions/#constructor)() | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_5)(int) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_1)(IntRange) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_3)(IntRange[]) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_7)(int[]) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_9)(string[]) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_6)(int, Rectangle) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_2)(IntRange, Rectangle) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_4)(IntRange[], Rectangle) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_8)(int[], Rectangle) | Initializes a new instance of the `MultiPageOptions` class. |
+| [MultiPageOptions](multipageoptions/#constructor_10)(string[], Rectangle) | Initializes a new instance of the `MultiPageOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea) { get; set; } | Gets or sets the export area. |
-| [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers) { get; set; } | Gets or sets a value indicating whether [merege layers]. |
-| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode) { get; set; } | Gets or sets the mode. |
-| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames) { get; set; } | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
-| [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions) { get; set; } | Gets or sets the page rasterization options. |
-| [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages) { get; set; } | Gets or sets the pages. |
-| [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles) { get; set; } | Gets or sets the page titles. |
-| [TimeInterval](../../aspose.imaging.imageoptions/multipageoptions/timeinterval) { get; set; } | Gets or sets the time interval. |
+| [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea/) { get; set; } | Gets or sets the export area. |
+| [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers/) { get; set; } | Gets or sets a value indicating whether [merege layers]. |
+| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode/) { get; set; } | Gets or sets the mode. |
+| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames/) { get; set; } | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
+| [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions/) { get; set; } | Gets or sets the page rasterization options. |
+| [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages/) { get; set; } | Gets or sets the pages. |
+| [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles/) { get; set; } | Gets or sets the page titles. |
+| [TimeInterval](../../aspose.imaging.imageoptions/multipageoptions/timeinterval/) { get; set; } | Gets or sets the time interval. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages)(IntRange[]) | Initializes the pages from ranges array |
+| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages/)(IntRange[]) | Initializes the pages from ranges array |
 
 ### See Also
 
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

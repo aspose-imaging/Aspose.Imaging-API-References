@@ -1,7 +1,7 @@
 ---
-title: DicomOptions
+title: Class DicomOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.DicomOptions class. The API for Digital Imaging and Communications in Medicine DICOM raster image format creation is a specialized tool tailored for medical device applications. It enables the seamless generation of DICOM images crucial for storing medical data and containing vital identification information. With features to and set compression define color types and embed XMP metadata developers can ensure compliance and flexibility in managing DICOM images for medical imaging purposes
 type: docs
 weight: 10070
 url: /net/aspose.imaging.imageoptions/dicomoptions/
@@ -18,33 +18,33 @@ public class DicomOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [DicomOptions](dicomoptions)() | The default constructor. |
+| [DicomOptions](dicomoptions/)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype) { get; set; } | Gets or sets the type of the color. |
-| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression) { get; set; } | Gets or sets the compression. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata) { get; set; } | Gets or sets the Xmp data. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
+| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression/) { get; set; } | Gets or sets the compression. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
-### Examples
+## Examples
 
 Change Color Type in DICOM compression.
 
@@ -193,8 +193,8 @@ using (DicomImage image = (DicomImage)Image.Create(
 
 ### See Also
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

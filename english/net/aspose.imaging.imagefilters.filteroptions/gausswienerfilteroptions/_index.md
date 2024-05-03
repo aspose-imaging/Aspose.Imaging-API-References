@@ -1,7 +1,7 @@
 ---
-title: GaussWienerFilterOptions
+title: Class GaussWienerFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions class. Gauss Wiener filter options for image debluring
 type: docs
 weight: 9870
 url: /net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
@@ -18,23 +18,23 @@ public class GaussWienerFilterOptions : GaussianDeconvolutionFilterOptions
 
 | Name | Description |
 | --- | --- |
-| [GaussWienerFilterOptions](gausswienerfilteroptions)() | Initializes a new instance of the [`GaussWienerFilterOptions`](../gausswienerfilteroptions) class. |
-| [GaussWienerFilterOptions](gausswienerfilteroptions)(int, double) | Initializes a new instance of the [`GaussWienerFilterOptions`](../gausswienerfilteroptions) class. |
+| [GaussWienerFilterOptions](gausswienerfilteroptions/#constructor)() | Initializes a new instance of the `GaussWienerFilterOptions` class. |
+| [GaussWienerFilterOptions](gausswienerfilteroptions/#constructor_1)(int, double) | Initializes a new instance of the `GaussWienerFilterOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | Gets or sets the brightness. recommended range 1 - 1.5 default value = 1.15 |
-| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | Gets or sets a value indicating whether this [`DeconvolutionFilterOptions`](../deconvolutionfilteroptions) is grayscale. Return grayscale mode or RGB mode. |
-| [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | Gets a value indicating whether this instance is partial loaded. |
-| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/kernel) { get; } | Gets the kernel. |
-| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/radius) { get; set; } | Gets the radius of Gausseian ISquareConvolutionKernel. |
-| [Sigma](../../aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/sigma) { get; set; } | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
-| [Size](../../aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/size) { get; set; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
-| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, default value = 0.007 |
+| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness/) { get; set; } | Gets or sets the brightness. recommended range 1 - 1.5 default value = 1.15 |
+| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale/) { get; set; } | Gets or sets a value indicating whether this [`DeconvolutionFilterOptions`](../deconvolutionfilteroptions/) is grayscale. Return grayscale mode or RGB mode. |
+| [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded/) { get; } | Gets a value indicating whether this instance is partial loaded. |
+| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/kernel/) { get; } | Gets the kernel. |
+| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/radius/) { get; set; } | Gets the radius of Gausseian ISquareConvolutionKernel. |
+| [Sigma](../../aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/sigma/) { get; set; } | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/size/) { get; set; } | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
+| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr/) { get; set; } | Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, default value = 0.007 |
 
-### Examples
+## Examples
 
 The following example applies various types of filters to a raster image.
 
@@ -100,8 +100,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 
 ### See Also
 
-* class [GaussianDeconvolutionFilterOptions](../gaussiandeconvolutionfilteroptions)
-* namespace [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
+* class [GaussianDeconvolutionFilterOptions](../gaussiandeconvolutionfilteroptions/)
+* namespace [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

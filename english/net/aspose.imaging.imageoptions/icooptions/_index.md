@@ -1,7 +1,7 @@
 ---
-title: IcoOptions
+title: Class IcoOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Aspose.Imaging.ImageOptions.IcoOptions class. Create custom ICO image files for application icons effortlessly with our API empowering you to represent your software seamlessly. Our API supports PNG and BMP image frames with various bits per pixel values ensuring versatility and compatibility for your icon creation needs
 type: docs
 weight: 10150
 url: /net/aspose.imaging.imageoptions/icooptions/
@@ -18,37 +18,37 @@ public class IcoOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [IcoOptions](icooptions)() | Initializes a new instance of the [`IcoOptions`](../icooptions) class with the ICO frame format equals to Png and bitsPerPixel equals to 32. |
-| [IcoOptions](icooptions)(FileFormat, int) | Initializes a new instance of the [`IcoOptions`](../icooptions) class. |
+| [IcoOptions](icooptions/#constructor)() | Initializes a new instance of the `IcoOptions` class with the ICO frame format equals to Png and bitsPerPixel equals to 32. |
+| [IcoOptions](icooptions/#constructor_1)(FileFormat, int) | Initializes a new instance of the `IcoOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BitsPerPixel](../../aspose.imaging.imageoptions/icooptions/bitsperpixel) { get; set; } | Gets or sets the bits-per-pixel value. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
-| [Format](../../aspose.imaging.imageoptions/icooptions/format) { get; set; } | Gets or sets the ICO frame format. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BitsPerPixel](../../aspose.imaging.imageoptions/icooptions/bitsperpixel/) { get; set; } | Gets or sets the bits-per-pixel value. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Format](../../aspose.imaging.imageoptions/icooptions/format/) { get; set; } | Gets or sets the ICO frame format. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
 ### See Also
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

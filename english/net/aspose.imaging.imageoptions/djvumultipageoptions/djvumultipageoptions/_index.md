@@ -1,14 +1,14 @@
 ---
-title: DjvuMultiPageOptions
+title: DjvuMultiPageOptions.DjvuMultiPageOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: DjvuMultiPageOptions constructor. Initializes a new instance of the DjvuMultiPageOptions class
 type: docs
 weight: 10
 url: /net/aspose.imaging.imageoptions/djvumultipageoptions/djvumultipageoptions/
 ---
-## DjvuMultiPageOptions constructor (1 of 9)
+## DjvuMultiPageOptions() {#constructor}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions()
@@ -16,15 +16,15 @@ public DjvuMultiPageOptions()
 
 ### See Also
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (2 of 9)
+## DjvuMultiPageOptions(int[]) {#constructor_7}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages)
@@ -36,15 +36,15 @@ public DjvuMultiPageOptions(int[] pages)
 
 ### See Also
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (3 of 9)
+## DjvuMultiPageOptions(int[], Rectangle) {#constructor_8}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
@@ -57,16 +57,16 @@ public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 
 ### See Also
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (4 of 9)
+## DjvuMultiPageOptions(IntRange) {#constructor_1}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range)
@@ -78,16 +78,16 @@ public DjvuMultiPageOptions(IntRange range)
 
 ### See Also
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (5 of 9)
+## DjvuMultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
@@ -100,17 +100,17 @@ public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 
 ### See Also
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (6 of 9)
+## DjvuMultiPageOptions(IntRange[]) {#constructor_3}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges)
@@ -122,16 +122,16 @@ public DjvuMultiPageOptions(IntRange[] ranges)
 
 ### See Also
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (7 of 9)
+## DjvuMultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
@@ -144,17 +144,17 @@ public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 
 ### See Also
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (8 of 9)
+## DjvuMultiPageOptions(int) {#constructor_5}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(int page)
@@ -166,15 +166,15 @@ public DjvuMultiPageOptions(int page)
 
 ### See Also
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## DjvuMultiPageOptions constructor (9 of 9)
+## DjvuMultiPageOptions(int, Rectangle) {#constructor_6}
 
-Initializes a new instance of the [`DjvuMultiPageOptions`](../../djvumultipageoptions) class.
+Initializes a new instance of the [`DjvuMultiPageOptions`](../) class.
 
 ```csharp
 public DjvuMultiPageOptions(int page, Rectangle exportArea)
@@ -187,9 +187,9 @@ public DjvuMultiPageOptions(int page, Rectangle exportArea)
 
 ### See Also
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

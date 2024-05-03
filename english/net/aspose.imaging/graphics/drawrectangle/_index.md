@@ -1,14 +1,14 @@
 ---
-title: DrawRectangle
+title: Graphics.DrawRectangle
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Graphics method. Draws a rectangle specified by a RectangleF structure
 type: docs
 weight: 310
 url: /net/aspose.imaging/graphics/drawrectangle/
 ---
-## Graphics.DrawRectangle method (1 of 4)
+## DrawRectangle(Pen, RectangleF) {#drawrectangle_1}
 
-Draws a rectangle specified by a [`RectangleF`](../../rectanglef) structure.
+Draws a rectangle specified by a [`RectangleF`](../../rectanglef/) structure.
 
 ```csharp
 public void DrawRectangle(Pen pen, RectangleF rect)
@@ -16,8 +16,8 @@ public void DrawRectangle(Pen pen, RectangleF rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | A [`Pen`](../../pen) that determines the color, width, and style of the rectangle. |
-| rect | RectangleF | A [`RectangleF`](../../rectanglef) structure that represents the rectangle to draw. |
+| pen | Pen | A [`Pen`](../../pen/) that determines the color, width, and style of the rectangle. |
+| rect | RectangleF | A [`RectangleF`](../../rectanglef/) structure that represents the rectangle to draw. |
 
 ### Exceptions
 
@@ -27,17 +27,17 @@ public void DrawRectangle(Pen pen, RectangleF rect)
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [RectangleF](../../rectanglef)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [RectangleF](../../rectanglef/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawRectangle method (2 of 4)
+## DrawRectangle(Pen, Rectangle) {#drawrectangle}
 
-Draws a rectangle specified by a [`Rectangle`](../../rectangle) structure.
+Draws a rectangle specified by a [`Rectangle`](../../rectangle/) structure.
 
 ```csharp
 public void DrawRectangle(Pen pen, Rectangle rect)
@@ -45,8 +45,8 @@ public void DrawRectangle(Pen pen, Rectangle rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | A [`Pen`](../../pen) that determines the color, width, and style of the rectangle. |
-| rect | Rectangle | A [`Rectangle`](../../rectangle) structure that represents the rectangle to draw. |
+| pen | Pen | A [`Pen`](../../pen/) that determines the color, width, and style of the rectangle. |
+| rect | Rectangle | A [`Rectangle`](../../rectangle/) structure that represents the rectangle to draw. |
 
 ### Exceptions
 
@@ -54,7 +54,7 @@ public void DrawRectangle(Pen pen, Rectangle rect)
 | --- | --- |
 | ArgumentNullException | *pen* is null. |
 
-### Examples
+## Examples
 
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 
@@ -120,15 +120,15 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.p
 
 ### See Also
 
-* class [Pen](../../pen)
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawRectangle method (3 of 4)
+## DrawRectangle(Pen, float, float, float, float) {#drawrectangle_3}
 
 Draws a rectangle specified by a coordinate pair, a width, and a height.
 
@@ -138,7 +138,7 @@ public void DrawRectangle(Pen pen, float x, float y, float width, float height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | A [`Pen`](../../pen) that determines the color, width, and style of the rectangle. |
+| pen | Pen | A [`Pen`](../../pen/) that determines the color, width, and style of the rectangle. |
 | x | Single | The x-coordinate of the upper-left corner of the rectangle to draw. |
 | y | Single | The y-coordinate of the upper-left corner of the rectangle to draw. |
 | width | Single | The width of the rectangle to draw. |
@@ -152,14 +152,14 @@ public void DrawRectangle(Pen pen, float x, float y, float width, float height)
 
 ### See Also
 
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.DrawRectangle method (4 of 4)
+## DrawRectangle(Pen, int, int, int, int) {#drawrectangle_2}
 
 Draws a rectangle specified by a coordinate pair, a width, and a height.
 
@@ -169,7 +169,7 @@ public void DrawRectangle(Pen pen, int x, int y, int width, int height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen) that determines the color, width, and style of the rectangle. |
+| pen | Pen | [`Pen`](../../pen/) that determines the color, width, and style of the rectangle. |
 | x | Int32 | The x-coordinate of the upper-left corner of the rectangle to draw. |
 | y | Int32 | The y-coordinate of the upper-left corner of the rectangle to draw. |
 | width | Int32 | Width of the rectangle to draw. |
@@ -183,9 +183,9 @@ public void DrawRectangle(Pen pen, int x, int y, int width, int height)
 
 ### See Also
 
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Pen](../../pen/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

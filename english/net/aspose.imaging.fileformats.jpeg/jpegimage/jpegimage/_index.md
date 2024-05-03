@@ -1,14 +1,14 @@
 ---
-title: JpegImage
+title: JpegImage.JpegImage
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: JpegImage constructor. The JpegImage class initiates effortlessly by invoking its constructor with the specified path parameter. This constructor enables seamless creation of JPEG images ensuring swift integration into your projects with ease
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/jpegimage/
 ---
-## JpegImage constructor (1 of 5)
+## JpegImage(string) {#constructor_4}
 
-The [`JpegImage`](../../jpegimage) class initiates effortlessly by invoking its constructor with the specified path parameter. This constructor enables seamless creation of JPEG images, ensuring swift integration into your projects with ease.
+The [`JpegImage`](../) class initiates effortlessly by invoking its constructor with the specified path parameter. This constructor enables seamless creation of JPEG images, ensuring swift integration into your projects with ease.
 
 ```csharp
 public JpegImage(string path)
@@ -18,7 +18,7 @@ public JpegImage(string path)
 | --- | --- | --- |
 | path | String | The path to load image from and initialize pixel and palette data with. |
 
-### Examples
+## Examples
 
 The example shows how to load a JpegImage from a file.
 
@@ -38,15 +38,15 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 
 ### See Also
 
-* class [JpegImage](../../jpegimage)
-* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## JpegImage constructor (2 of 5)
+## JpegImage(Stream) {#constructor_3}
 
-Initialize a JPEG image object with the [`JpegImage`](../../jpegimage) class using a stream parameter. This constructor simplifies the process of working with JPEG images, offering a straightforward approach for integrating them into your projects effortlessly.
+Initialize a JPEG image object with the [`JpegImage`](../) class using a stream parameter. This constructor simplifies the process of working with JPEG images, offering a straightforward approach for integrating them into your projects effortlessly.
 
 ```csharp
 public JpegImage(Stream stream)
@@ -56,7 +56,7 @@ public JpegImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to load image from and initialize pixel and palette data with. |
 
-### Examples
+## Examples
 
 The example shows how to load a JpegImage from a file stream.
 
@@ -79,15 +79,15 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.jpg"))
 
 ### See Also
 
-* class [JpegImage](../../jpegimage)
-* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## JpegImage constructor (3 of 5)
+## JpegImage(RasterImage) {#constructor_1}
 
-Initialize a new instance of the [`JpegImage`](../../jpegimage) class with a raster image parameter. This constructor provides a convenient way to create JPEG images directly from raster images, streamlining the workflow for working with JPEG images in your applications.
+Initialize a new instance of the [`JpegImage`](../) class with a raster image parameter. This constructor provides a convenient way to create JPEG images directly from raster images, streamlining the workflow for working with JPEG images in your applications.
 
 ```csharp
 public JpegImage(RasterImage rasterImage)
@@ -97,7 +97,7 @@ public JpegImage(RasterImage rasterImage)
 | --- | --- | --- |
 | rasterImage | RasterImage | The image to initialize pixel and palette data with. |
 
-### Examples
+## Examples
 
 The example shows how to load a JpegImage from another RasterImage.
 
@@ -129,16 +129,16 @@ using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspo
 
 ### See Also
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [JpegImage](../../jpegimage)
-* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## JpegImage constructor (4 of 5)
+## JpegImage(int, int) {#constructor_2}
 
-Create a new instance of the [`JpegImage`](../../jpegimage) class with the specified width and height parameters. This constructor allows you to create JPEG images with custom dimensions, giving you flexibility in managing image sizes in your application.
+Create a new instance of the [`JpegImage`](../) class with the specified width and height parameters. This constructor allows you to create JPEG images with custom dimensions, giving you flexibility in managing image sizes in your application.
 
 ```csharp
 public JpegImage(int width, int height)
@@ -149,7 +149,7 @@ public JpegImage(int width, int height)
 | width | Int32 | The image width. |
 | height | Int32 | The image height. |
 
-### Examples
+## Examples
 
 The following example shows how to create JPEG image of the specified size.
 
@@ -208,15 +208,15 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ### See Also
 
-* class [JpegImage](../../jpegimage)
-* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## JpegImage constructor (5 of 5)
+## JpegImage(JpegOptions, int, int) {#constructor}
 
-Initialize a new [`JpegImage`](../../jpegimage) object with the provided JPEG options. This constructor empowers you to tailor various settings for the JPEG image, such as compression level, quality, and additional parameters, granting precise control over the resulting image format.
+Initialize a new [`JpegImage`](../) object with the provided JPEG options. This constructor empowers you to tailor various settings for the JPEG image, such as compression level, quality, and additional parameters, granting precise control over the resulting image format.
 
 ```csharp
 public JpegImage(JpegOptions jpegOptions, int width, int height)
@@ -228,7 +228,7 @@ public JpegImage(JpegOptions jpegOptions, int width, int height)
 | width | Int32 | Image width. |
 | height | Int32 | Image height. |
 
-### Examples
+## Examples
 
 The following example loads a BMP image and saves it to JPEG using various save options.
 
@@ -317,9 +317,9 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 
 ### See Also
 
-* class [JpegOptions](../../../aspose.imaging.imageoptions/jpegoptions)
-* class [JpegImage](../../jpegimage)
-* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
+* class [JpegOptions](../../../aspose.imaging.imageoptions/jpegoptions/)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

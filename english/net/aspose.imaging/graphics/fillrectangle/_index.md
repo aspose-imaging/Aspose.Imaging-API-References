@@ -1,14 +1,14 @@
 ---
-title: FillRectangle
+title: Graphics.FillRectangle
 second_title: Aspose.Imaging for .NET API Reference
-description: 
+description: Graphics method. Fills the interior of a rectangle specified by a Rectangle structure
 type: docs
 weight: 400
 url: /net/aspose.imaging/graphics/fillrectangle/
 ---
-## Graphics.FillRectangle method (1 of 4)
+## FillRectangle(Brush, Rectangle) {#fillrectangle}
 
-Fills the interior of a rectangle specified by a [`Rectangle`](../../rectangle) structure.
+Fills the interior of a rectangle specified by a [`Rectangle`](../../rectangle/) structure.
 
 ```csharp
 public void FillRectangle(Brush brush, Rectangle rect)
@@ -16,8 +16,8 @@ public void FillRectangle(Brush brush, Rectangle rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
-| rect | Rectangle | [`Rectangle`](../../rectangle) structure that represents the rectangle to fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
+| rect | Rectangle | [`Rectangle`](../../rectangle/) structure that represents the rectangle to fill. |
 
 ### Exceptions
 
@@ -27,17 +27,17 @@ public void FillRectangle(Brush brush, Rectangle rect)
 
 ### See Also
 
-* class [Brush](../../brush)
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.FillRectangle method (2 of 4)
+## FillRectangle(Brush, RectangleF) {#fillrectangle_1}
 
-Fills the interior of a rectangle specified by a [`RectangleF`](../../rectanglef) structure.
+Fills the interior of a rectangle specified by a [`RectangleF`](../../rectanglef/) structure.
 
 ```csharp
 public void FillRectangle(Brush brush, RectangleF rect)
@@ -45,8 +45,8 @@ public void FillRectangle(Brush brush, RectangleF rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
-| rect | RectangleF | [`RectangleF`](../../rectanglef) structure that represents the rectangle to fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef/) structure that represents the rectangle to fill. |
 
 ### Exceptions
 
@@ -56,15 +56,15 @@ public void FillRectangle(Brush brush, RectangleF rect)
 
 ### See Also
 
-* class [Brush](../../brush)
-* struct [RectangleF](../../rectanglef)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* struct [RectangleF](../../rectanglef/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.FillRectangle method (3 of 4)
+## FillRectangle(Brush, float, float, float, float) {#fillrectangle_3}
 
 Fills the interior of a rectangle specified by a pair of coordinates, a width and a height.
 
@@ -74,7 +74,7 @@ public void FillRectangle(Brush brush, float x, float y, float width, float heig
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
 | x | Single | The x-coordinate of the upper-left corner of the rectangle to fill. |
 | y | Single | The y-coordinate of the upper-left corner of the rectangle to fill. |
 | width | Single | Width of the rectangle to fill. |
@@ -88,14 +88,14 @@ public void FillRectangle(Brush brush, float x, float y, float width, float heig
 
 ### See Also
 
-* class [Brush](../../brush)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
 ---
 
-## Graphics.FillRectangle method (4 of 4)
+## FillRectangle(Brush, int, int, int, int) {#fillrectangle_2}
 
 Fills the interior of a rectangle specified by a pair of coordinates, a width and a height.
 
@@ -105,7 +105,7 @@ public void FillRectangle(Brush brush, int x, int y, int width, int height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) that determines the characteristics of the fill. |
+| brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
 | x | Int32 | The x-coordinate of the upper-left corner of the rectangle to fill. |
 | y | Int32 | The y-coordinate of the upper-left corner of the rectangle to fill. |
 | width | Int32 | Width of the rectangle to fill. |
@@ -119,9 +119,9 @@ public void FillRectangle(Brush brush, int x, int y, int width, int height)
 
 ### See Also
 
-* class [Brush](../../brush)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
+* class [Brush](../../brush/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
