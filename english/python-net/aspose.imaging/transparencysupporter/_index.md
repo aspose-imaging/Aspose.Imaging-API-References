@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/transparencysupporter/
 
 **Full Name:** aspose.imaging.TransparencySupporter
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

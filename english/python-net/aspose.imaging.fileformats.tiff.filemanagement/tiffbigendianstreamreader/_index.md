@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstr
 
 **Inheritance:** TiffStreamReader
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -45,7 +45,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | image_opacity | float | r | Retrieve the opacity of the active frame within the image, offering insight into <br/>            its transparency level. This property is particularly useful for understanding the <br/>            degree of transparency or opaqueness of the active frame in the image. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Gets a value indicating whether image data is cached currently. |
-| is_interlaced | bool | r | Determine if the image is interlaced, impacting its display during loading. This <br/>            property offers insight into the image's rendering behavior, essential for <br/>            optimizing loading strategies and enhancing overall viewing experience. |
+| is_interlaced | bool | r | Determines if the image is interlaced, impacting its display during loading. This <br/>            property offers insight into the image's rendering behavior, essential for <br/>            optimizing loading strategies and enhancing overall viewing experience. |
 | is_palette_sorted | bool | r/w | Control the sorting of the palette in your GIF images using this property. Whether <br/>            you need to check if the palette is sorted or set the sorting behavior, this <br/>            property provides a straightforward way to manage the palette organization in your <br/>            GIF files. |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is supported. |
 | loops_count | int | r/w | Retrieve the loop count effortlessly with this property. If your GIF image includes <br/>            loop information, this property gives you quick access to the loop count, enabling <br/>            you to seamlessly manage looping behavior in your GIF files. |

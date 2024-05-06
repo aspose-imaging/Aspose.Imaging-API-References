@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfbasepen/
 
 **Inheritance:** EmfObject
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

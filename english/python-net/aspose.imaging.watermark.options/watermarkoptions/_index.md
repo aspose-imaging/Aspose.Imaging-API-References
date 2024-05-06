@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.watermark.options/watermarkoptions/
 
 **Full Name:** aspose.imaging.watermark.options.WatermarkOptions
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

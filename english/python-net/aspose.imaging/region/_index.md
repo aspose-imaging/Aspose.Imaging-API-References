@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/region/
 
 **Full Name:** aspose.imaging.Region
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

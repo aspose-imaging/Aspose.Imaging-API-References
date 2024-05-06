@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgcolormode/
 
 **Full Name:** aspose.imaging.fileformats.svg.SvgColorMode
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

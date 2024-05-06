@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 
 **Inheritance:** IXmlValue, XmpPackage
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

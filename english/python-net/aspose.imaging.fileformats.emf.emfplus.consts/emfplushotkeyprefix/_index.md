@@ -11,7 +11,7 @@ The HotkeyPrefix enumeration defines output options for hotkey prefixes in graph
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusHotkeyPrefix
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

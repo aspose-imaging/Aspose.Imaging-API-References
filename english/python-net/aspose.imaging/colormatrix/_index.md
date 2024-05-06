@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colormatrix/
 
 **Full Name:** aspose.imaging.ColorMatrix
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |
