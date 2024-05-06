@@ -11,7 +11,7 @@ The StrokeVariation enumeration defines values for one of the characteristics in
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfStrokeVariation
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

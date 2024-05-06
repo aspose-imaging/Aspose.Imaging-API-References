@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.OdTransformInfo
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ The FloodFill enumeration defines values that specify how to determine the area 
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfFloodFill
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

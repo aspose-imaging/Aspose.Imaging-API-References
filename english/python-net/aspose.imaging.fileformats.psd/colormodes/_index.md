@@ -11,7 +11,7 @@ Represents the PSD file format color modes.
 
 **Full Name:** aspose.imaging.fileformats.psd.ColorModes
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

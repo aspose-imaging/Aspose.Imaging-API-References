@@ -11,7 +11,7 @@ Thresholding used on data.
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffThresholds
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

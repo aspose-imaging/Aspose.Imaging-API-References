@@ -11,7 +11,7 @@ The BackgroundMode enumeration is used to specify the background mode to be used
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfBackgroundMode
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

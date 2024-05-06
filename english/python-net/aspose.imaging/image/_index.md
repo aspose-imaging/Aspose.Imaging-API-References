@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/image/
 
 **Inheritance:** IObjectWithBounds, DataStreamSupporter
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

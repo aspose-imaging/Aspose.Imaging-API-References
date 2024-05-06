@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpframeblock/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IFrame, IAnimationFrame, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

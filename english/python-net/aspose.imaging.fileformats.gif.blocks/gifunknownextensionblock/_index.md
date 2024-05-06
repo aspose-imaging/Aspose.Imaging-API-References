@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
 
 **Inheritance:** IGifBlock, GifBlock
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |

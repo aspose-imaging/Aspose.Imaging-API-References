@@ -11,7 +11,7 @@ Specifies the type of warp transformation applied.
 
 **Full Name:** aspose.imaging.WarpMode
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

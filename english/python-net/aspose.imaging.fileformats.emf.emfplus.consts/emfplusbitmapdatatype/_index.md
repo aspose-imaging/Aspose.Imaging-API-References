@@ -11,7 +11,7 @@ The BitmapDataType enumeration defines types of bitmap data formats.
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusBitmapDataType
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Members**
 | **Member name** | **Description** |

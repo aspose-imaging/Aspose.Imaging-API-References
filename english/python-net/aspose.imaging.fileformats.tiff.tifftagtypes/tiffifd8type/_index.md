@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type/
 
 **Inheritance:** TiffLong8Type
 
-**Aspose.Imaging Version:** 24.4.0
+**Aspose.Imaging Version:** 24.5.0
 
 ## **Constructors**
 | **Name** | **Description** |
