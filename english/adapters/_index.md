@@ -1,7 +1,7 @@
 ---
 title: Aspose.Imaging.Adapter
 type: docs
-weight: 8
+weight: 10
 url: /adapters/
 keywords: "Aspose.Imaging.Adapter, Aspose Imaging.Adapter, Aspose API Reference."
 description: Aspose.Imaging.Adapter Adapters are designed to combine Aspose products to increase conversion between formats. And ensure ease of use.
