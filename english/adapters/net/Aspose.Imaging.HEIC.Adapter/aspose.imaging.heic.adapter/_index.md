@@ -12,7 +12,7 @@ url: /adapters/net/aspose.imaging.heic.adapter/aspose.imaging.heic.adapter/
 
 | Class | Description |
 | --- | --- |
-| [HEICImage](./heicimage/) | The heic Image of[RasterCachedMultipageImage](https://reference.aspose.com/imaging/net/aspose.imaging/rastercachedmultipageimage/) |
+| [HEICImage](./heicimage/) | The heic Image of [RasterCachedMultipageImage](https://reference.aspose.com/imaging/net/aspose.imaging/rastercachedmultipageimage/) |
 | [HEICLoadOptions](./heicloadoptions/) | The Heic load options of [LoadOptions](https://reference.aspose.com/imaging/net/aspose.imaging/loadoptions/) |
 
 
