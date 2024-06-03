@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5490
+weight: 5530
 url: /python-net/aspose.imaging/image/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/image/
 
 **Inheritance:** IObjectWithBounds, DataStreamSupporter
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -67,6 +67,7 @@ url: /python-net/aspose.imaging/image/
 | [load_stream(stream)](#load_stream_stream_26) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_27) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_28) | Loads a new image from the specified file. |
+| remove_metadata() | Removes metadata. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_29) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_30) | Resizes the image. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_31) | Resizes the image. |

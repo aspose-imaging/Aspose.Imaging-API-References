@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/imageparameters/
 
 **Full Name:** aspose.imaging.fileformats.dng.decoder.ImageParameters
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

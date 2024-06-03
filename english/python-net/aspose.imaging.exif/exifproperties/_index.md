@@ -1,7 +1,7 @@
 ---
 title: ExifProperties Enumeration
 type: docs
-weight: 170
+weight: 190
 url: /python-net/aspose.imaging.exif/exifproperties/
 ---
 
@@ -11,7 +11,7 @@ Exif tags list
 
 **Full Name:** aspose.imaging.exif.ExifProperties
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

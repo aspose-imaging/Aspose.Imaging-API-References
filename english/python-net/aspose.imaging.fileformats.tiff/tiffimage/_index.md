@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 
 **Full Name:** aspose.imaging.fileformats.tiff.TiffImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, IHasExifData, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -144,6 +144,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [remove_frame(frame)](#remove_frame_frame_71) | Efficiently remove the specified frame from the image sequence, facilitating <br/>            streamlined frame management within your application. Integrate this functionality <br/>            to enhance precision and flexibility in frame manipulation, ensuring seamless <br/>            organization and presentation of image content. |
 | [remove_frame(index)](#remove_frame_index_72) | Removes the frame by its index. |
 | [remove_frame_by_index(index)](#remove_frame_by_index_index_73) | Removes the frame by its index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) and [IHasExifData.exif_data](/imaging/python-net/aspose.imaging.exif/ihasexifdata/) values to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_74) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_75) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_76) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

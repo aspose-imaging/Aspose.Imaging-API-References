@@ -1,7 +1,7 @@
 ---
 title: JpegExifData Class
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.imaging.exif/jpegexifdata/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.exif/jpegexifdata/
 
 **Inheritance:** ExifData
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -21,6 +21,7 @@ url: /python-net/aspose.imaging.exif/jpegexifdata/
 | [JpegExifData()](#JpegExifData__1) | Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class. |
 | [JpegExifData(common_tags, exif_tags, gps_tags)](#JpegExifData_common_tags_exif_tags_gps_tags_2) | Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class with data from array. |
 | [JpegExifData(exifdata)](#JpegExifData_exifdata_3) | Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class with data from array. |
+| [JpegExifData(exifdata)](#JpegExifData_exifdata_4) | Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class with data from array. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -207,6 +208,21 @@ Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imag
 | Parameter | Type | Description |
 | :- | :- | :- |
 | exifdata | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | Array of EXIF tags together with common and GPS tags. |
+
+### Constructor: JpegExifData(exifdata) {#JpegExifData_exifdata_4}
+
+
+```
+ JpegExifData(exifdata) 
+```
+
+Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class with data from array.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| exifdata | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata) | Array of EXIF tags together with common and GPS tags. |
 
 ### Method: remove_tag(tag) {#remove_tag_tag_1}
 

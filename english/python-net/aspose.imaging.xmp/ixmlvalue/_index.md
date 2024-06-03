@@ -1,7 +1,7 @@
 ---
 title: IXmlValue Class
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.imaging.xmp/ixmlvalue/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/ixmlvalue/
 
 **Full Name:** aspose.imaging.xmp.IXmlValue
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Methods**
 | **Name** | **Description** |

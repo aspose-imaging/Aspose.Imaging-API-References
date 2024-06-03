@@ -1,7 +1,7 @@
 ---
 title: XmpArray Class
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.imaging.xmp/xmparray/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmparray/
 
 **Inheritance:** IXmlValue
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 
 **Inheritance:** EmfObject
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

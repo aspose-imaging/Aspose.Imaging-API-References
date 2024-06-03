@@ -1,7 +1,7 @@
 ---
 title: IRasterImageRawDataLoader Class
 type: docs
-weight: 5410
+weight: 5450
 url: /python-net/aspose.imaging/irasterimagerawdataloader/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/irasterimagerawdataloader/
 
 **Full Name:** aspose.imaging.IRasterImageRawDataLoader
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

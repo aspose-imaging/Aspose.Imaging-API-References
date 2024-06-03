@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 
 **Full Name:** aspose.imaging.fileformats.gif.GifImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -145,6 +145,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_65) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_66) | Reads the whole scan line by the specified scan line index. |
 | [remove_block(block)](#remove_block_block_67) | Removing a GIF block removes specific data from the image, offering the ability to <br/>            clean up or modify the image structure. This method enables you to remove unwanted <br/>            or unnecessary blocks, optimizing the GIF image for efficient storage. Use this <br/>            functionality to eliminate outdated information from the image while preserving <br/>            its integrity and quality. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_68) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_69) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_70) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

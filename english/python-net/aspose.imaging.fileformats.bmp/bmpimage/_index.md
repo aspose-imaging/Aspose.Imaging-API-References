@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 
 **Full Name:** aspose.imaging.fileformats.bmp.BmpImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, RasterCachedImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -65,7 +65,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 | use_raw_data | bool | r/w | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | [vertical_resolution](#vertical_resolution9) | double | r/w | Easily retrieve or set the vertical resolution, measured in pixels per inch,<br/>            of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) object with this property. Perfect for developers requiring<br/>            precise control over image resolution in their applications. |
 | [width](#width10) | int | r | Access the width of the image easily with this property. Ideal for developers<br/>            seeking quick information about the image dimensions. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -141,6 +141,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_66) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_67) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_68) | Reads the whole scan line by the specified scan line index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_69) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_70) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_71) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

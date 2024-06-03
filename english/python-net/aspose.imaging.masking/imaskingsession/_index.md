@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.masking/imaskingsession/
 
 **Full Name:** aspose.imaging.masking.IMaskingSession
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Methods**
 | **Name** | **Description** |

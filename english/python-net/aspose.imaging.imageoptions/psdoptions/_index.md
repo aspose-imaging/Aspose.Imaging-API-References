@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/psdoptions/
 
 **Full Name:** aspose.imaging.imageoptions.PsdOptions
 
-**Inheritance:** ImageOptionsBase
+**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -30,6 +30,7 @@ url: /python-net/aspose.imaging.imageoptions/psdoptions/
 | [compression_method](#compression_method2) | [CompressionMethod](/imaging/python-net/aspose.imaging.fileformats.psd/compressionmethod/) | r/w | Gets or sets the psd compression method. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | psd_version | [PsdVersion](/imaging/python-net/aspose.imaging.fileformats.psd/psdversion/) | r/w | Gets or sets the file format version. It can be PSD or PSB. |

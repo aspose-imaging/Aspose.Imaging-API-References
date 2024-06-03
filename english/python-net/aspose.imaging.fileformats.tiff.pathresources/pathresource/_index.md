@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 
 **Full Name:** aspose.imaging.fileformats.tiff.pathresources.PathResource
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

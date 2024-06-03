@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/colorpalette/
 
 **Inheritance:** IColorPalette
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

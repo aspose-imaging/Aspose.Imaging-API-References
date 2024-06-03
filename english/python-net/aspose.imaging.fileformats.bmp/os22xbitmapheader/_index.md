@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/os22xbitmapheader/
 
 **Inheritance:** BitmapInfoHeader
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

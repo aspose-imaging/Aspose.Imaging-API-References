@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 
 **Full Name:** aspose.imaging.fileformats.bigtiff.BigTiffImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, TiffImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, IHasExifData, TiffImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -62,7 +62,7 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | use_raw_data | bool | r/w | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | vertical_resolution | double | r/w | Access the vertical resolution of the designated [Image](/imaging/python-net/aspose.imaging/image/) in pixels per <br/>            inch, enabling precise adjustments and rendering optimizations. Utilize essential <br/>            image data effortlessly to streamline image processing workflows, ensuring <br/>            superior quality and performance in your applications. |
 | width | int | r | Gets the object width. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets XMP data from frame. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -144,6 +144,7 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | [remove_frame(frame)](#remove_frame_frame_71) | Efficiently remove the specified frame from the image sequence, facilitating <br/>            streamlined frame management within your application. Integrate this functionality <br/>            to enhance precision and flexibility in frame manipulation, ensuring seamless <br/>            organization and presentation of image content. |
 | [remove_frame(index)](#remove_frame_index_72) | Removes the frame by its index. |
 | [remove_frame_by_index(index)](#remove_frame_by_index_index_73) | Removes the frame by its index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) and [IHasExifData.exif_data](/imaging/python-net/aspose.imaging.exif/ihasexifdata/) values to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_74) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_75) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_76) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

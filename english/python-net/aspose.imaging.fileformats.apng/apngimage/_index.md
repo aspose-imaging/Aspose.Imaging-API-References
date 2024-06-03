@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 
 **Full Name:** aspose.imaging.fileformats.apng.ApngImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -141,6 +141,7 @@ url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_71) | Reads the whole scan line by the specified scan line index. |
 | remove_all_frames() | Clear your frame collection by removing all frames with this intuitive method.<br/>            Ideal for developers seeking to reset or refresh their animations. |
 | [remove_frame_at(index)](#remove_frame_at_index_72) | Remove the frame at the specified index from your frame collection seamlessly<br/>            with this method. Perfect for developers seeking streamlined management of frames<br/>            in their multi-frame images.<br/>            The frame to be deleted will be disposed. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_73) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_74) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_75) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

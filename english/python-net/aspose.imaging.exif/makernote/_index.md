@@ -1,7 +1,7 @@
 ---
 title: MakerNote Class
 type: docs
-weight: 30
+weight: 50
 url: /python-net/aspose.imaging.exif/makernote/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/makernote/
 
 **Full Name:** aspose.imaging.exif.MakerNote
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

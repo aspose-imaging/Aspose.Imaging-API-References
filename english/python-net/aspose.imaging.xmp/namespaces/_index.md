@@ -1,7 +1,7 @@
 ---
 title: Namespaces Class
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.imaging.xmp/namespaces/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/namespaces/
 
 **Full Name:** aspose.imaging.xmp.Namespaces
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

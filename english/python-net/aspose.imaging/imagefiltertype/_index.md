@@ -1,7 +1,7 @@
 ---
 title: ImageFilterType Enumeration
 type: docs
-weight: 10470
+weight: 10510
 url: /python-net/aspose.imaging/imagefiltertype/
 ---
 
@@ -11,7 +11,7 @@ Image filters to use
 
 **Full Name:** aspose.imaging.ImageFilterType
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

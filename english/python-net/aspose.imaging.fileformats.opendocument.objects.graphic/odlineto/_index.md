@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlinet
 
 **Inheritance:** OdGraphicObject
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

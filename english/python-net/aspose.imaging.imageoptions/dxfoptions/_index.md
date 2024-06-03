@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 
 **Full Name:** aspose.imaging.imageoptions.DxfOptions
 
-**Inheritance:** ImageOptionsBase
+**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -27,6 +27,7 @@ url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 | convert_text_beziers | bool | r/w | Works when [DxfOptions.text_as_lines](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) is set to <c>true</c>. Wether to convert Bezier curves in text contours to multipoint polylines. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |

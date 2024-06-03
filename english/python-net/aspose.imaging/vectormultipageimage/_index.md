@@ -1,7 +1,7 @@
 ---
 title: VectorMultipageImage Class
 type: docs
-weight: 7680
+weight: 7720
 url: /python-net/aspose.imaging/vectormultipageimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/vectormultipageimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, IMultipageImage, VectorImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -76,6 +76,7 @@ url: /python-net/aspose.imaging/vectormultipageimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_29) | Loads a new image from the specified file. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_30) | Removes the background. |
+| remove_metadata() | Removes metadata. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_31) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_32) | Resizes the image. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_33) | Resizes the image. |

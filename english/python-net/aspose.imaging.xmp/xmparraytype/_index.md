@@ -1,7 +1,7 @@
 ---
 title: XmpArrayType Enumeration
 type: docs
-weight: 570
+weight: 580
 url: /python-net/aspose.imaging.xmp/xmparraytype/
 ---
 
@@ -11,7 +11,7 @@ Represents array type in [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmpar
 
 **Full Name:** aspose.imaging.xmp.XmpArrayType
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

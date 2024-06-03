@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage
 
 **Inheritance:** ICmxObjectSpec
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

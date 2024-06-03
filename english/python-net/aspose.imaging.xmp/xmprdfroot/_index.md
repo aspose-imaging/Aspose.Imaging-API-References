@@ -1,7 +1,7 @@
 ---
 title: XmpRdfRoot Class
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.imaging.xmp/xmprdfroot/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmprdfroot/
 
 **Inheritance:** IXmlValue, XmpElementBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: XmpTrailerPi Class
 type: docs
-weight: 510
+weight: 520
 url: /python-net/aspose.imaging.xmp/xmptrailerpi/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmptrailerpi/
 
 **Inheritance:** IXmlValue
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

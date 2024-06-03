@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 
 **Full Name:** aspose.imaging.fileformats.tga.TgaImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, RasterCachedImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -75,7 +75,7 @@ url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 | vertical_resolution | double | r/w | Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | width | int | r | Retrieve the width of the image represented by this [TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/) <br/>            instance. This property provides developers with essential information about the <br/>            image dimensions, facilitating various image manipulation and processing tasks <br/>            within their software applications. |
 | x_origin | ushort | r/w | Gets or sets absolute horizontal coordinate for the lower left corner of the image<br/>            as it is positioned on a display device having an origin at the lower left of the<br/>            screen(e.g., the TARGA series). |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 | y_origin | ushort | r/w | Gets or sets absolute vertical coordinate for the lower left corner of the image<br/>            as it is positioned on a display device having an origin at the lower left of the<br/>            screen(e.g., the TARGA series). |
 ## **Methods**
 | **Name** | **Description** |
@@ -151,6 +151,7 @@ url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_65) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_66) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_67) | Reads the whole scan line by the specified scan line index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_68) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_69) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_70) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

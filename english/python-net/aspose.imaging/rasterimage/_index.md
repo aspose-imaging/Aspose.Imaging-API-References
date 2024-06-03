@@ -1,7 +1,7 @@
 ---
 title: RasterImage Class
 type: docs
-weight: 6860
+weight: 6900
 url: /python-net/aspose.imaging/rasterimage/
 ---
 
@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging/rasterimage/
 
 **Full Name:** aspose.imaging.RasterImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, Image
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, Image
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -122,6 +122,7 @@ url: /python-net/aspose.imaging/rasterimage/
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_61) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_62) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_63) | Reads the whole scan line by the specified scan line index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_64) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_65) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_66) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

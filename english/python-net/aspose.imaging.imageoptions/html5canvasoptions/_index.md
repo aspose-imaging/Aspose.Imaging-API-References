@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 
 **Full Name:** aspose.imaging.imageoptions.Html5CanvasOptions
 
-**Inheritance:** ImageOptionsBase
+**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -28,6 +28,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 | encoding | string | r/w | Gets or sets the encoding. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | full_html_page | bool | r/w | Gets or sets a value indicating whether the full HTML page should be generated. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/disposableobject/
 
 **Full Name:** aspose.imaging.DisposableObject
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

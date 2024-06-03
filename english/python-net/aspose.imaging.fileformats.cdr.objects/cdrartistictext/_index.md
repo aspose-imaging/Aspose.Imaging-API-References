@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrartistictext/
 
 **Inheritance:** CdrGraphicObject
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

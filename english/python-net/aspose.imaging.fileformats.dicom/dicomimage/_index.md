@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 
 **Full Name:** aspose.imaging.fileformats.dicom.DicomImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -63,7 +63,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | use_raw_data | bool | r/w | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | vertical_resolution | double | r/w | Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | width | int | r | Gets the image width. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Access or modify the XMP metadata associated with the image using this intuitive<br/>            property. Ideal for developers seeking to manage metadata information embedded within<br/>            the image file, ensuring seamless integration and customization in various image<br/>            processing workflows. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets XMP data from frame. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -137,6 +137,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_64) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_65) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_66) | Reads the whole scan line by the specified scan line index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
 | [remove_page(page_index)](#remove_page_page_index_67) | Eliminate the page at the specified index from the page list with this convenient method.<br/>            Ideal for developers seeking precise control over the management of multi-page images,<br/>            ensuring seamless organization and customization of image content. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_68) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_69) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
