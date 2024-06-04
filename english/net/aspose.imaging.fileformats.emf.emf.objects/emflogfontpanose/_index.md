@@ -3,7 +3,7 @@ title: Class EmfLogFontPanose
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFontPanose class. The LogFontPanose object specifies the PANOSE characteristics of a logical font
 type: docs
-weight: 3070
+weight: 3090
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogfontpanose/
 ---
 ## EmfLogFontPanose class

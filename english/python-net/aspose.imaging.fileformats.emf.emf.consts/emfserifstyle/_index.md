@@ -11,7 +11,7 @@ The SerifType enumeration defines values for one of the characteristics in the P
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfSerifStyle
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

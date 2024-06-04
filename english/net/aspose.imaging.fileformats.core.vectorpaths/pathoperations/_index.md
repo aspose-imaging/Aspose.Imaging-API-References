@@ -3,7 +3,7 @@ title: Enum PathOperations
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Core.VectorPaths.PathOperations enum. The operations for the path shapes combining Boolean operations
 type: docs
-weight: 2350
+weight: 2370
 url: /net/aspose.imaging.fileformats.core.vectorpaths/pathoperations/
 ---
 ## PathOperations enumeration

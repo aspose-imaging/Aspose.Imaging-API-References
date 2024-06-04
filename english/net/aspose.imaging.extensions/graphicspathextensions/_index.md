@@ -3,7 +3,7 @@ title: Class GraphicsPathExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.GraphicsPathExtensions class. Contains the GraphicsPath extension methods
 type: docs
-weight: 1190
+weight: 1210
 url: /net/aspose.imaging.extensions/graphicspathextensions/
 ---
 ## GraphicsPathExtensions class

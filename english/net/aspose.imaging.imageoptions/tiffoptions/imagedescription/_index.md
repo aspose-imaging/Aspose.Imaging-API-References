@@ -3,7 +3,7 @@ title: TiffOptions.ImageDescription
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the image description
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging.imageoptions/tiffoptions/imagedescription/
 ---
 ## TiffOptions.ImageDescription property

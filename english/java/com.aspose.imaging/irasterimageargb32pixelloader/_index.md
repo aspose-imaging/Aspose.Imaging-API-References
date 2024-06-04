@@ -3,7 +3,7 @@ title: IRasterImageArgb32PixelLoader
 second_title: Aspose.Imaging for Java API Reference
 description: The raster image 32-bit ARGB pixel loader.
 type: docs
-weight: 145
+weight: 146
 url: /java/com.aspose.imaging/irasterimageargb32pixelloader/
 ---
 **All Implemented Interfaces:**

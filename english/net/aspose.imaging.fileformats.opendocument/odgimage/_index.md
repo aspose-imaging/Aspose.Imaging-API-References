@@ -3,7 +3,7 @@ title: Class OdgImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.OdgImage class. Manipulate OpenDocument Graphic ODG vector image file format with our API widely used by OpenOffice and LibreOffice Draw applications for storing drawing elements in a vector format. Seamlessly parse documents access pages resize and rotate images ensuring efficient processing and customization of ODG files to meet your specific requirements
 type: docs
-weight: 7390
+weight: 7410
 url: /net/aspose.imaging.fileformats.opendocument/odgimage/
 ---
 ## OdgImage class
@@ -64,6 +64,7 @@ public class OdgImage : OdImage
 | override [GetSerializedStream](../../aspose.imaging/vectormultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.opendocument/odgimage/resize/#resize_1)(int, int, ImageResizeSettings) | This method helps developers to resize images programmatically. By invoking this function, you can dynamically adjust the dimensions of images, catering to specific requirements or constraints within their applications. |
 | override [Resize](../../aspose.imaging.fileformats.opendocument/odgimage/resize/#resize_2)(int, int, ResizeType) | This method facilitates image resizing with precise control over width, height, and resize type parameters. You can specify the desired dimensions and choose from different resizing algorithms or types to achieve optimal results based on application's requirements. |

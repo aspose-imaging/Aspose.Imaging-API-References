@@ -11,7 +11,7 @@ The CustomLineCapData flags specify data for custom line caps. These flags can b
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCustomLineCapDataFlags
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

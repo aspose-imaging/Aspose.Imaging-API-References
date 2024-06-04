@@ -3,7 +3,7 @@ title: Class Jpeg2000Options
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.Jpeg2000Options class. Create JPEG2000 JP2 image files with our API utilizing advanced wavelet technology for coding lossless content. Benefit from support for various codecs including irreversible and lossless compression as well as XMP metadata containers ensuring versatility and highquality image creation tailored to your needs
 type: docs
-weight: 10160
+weight: 10190
 url: /net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class
@@ -32,13 +32,14 @@ public class Jpeg2000Options : ImageOptionsBase
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible/) { get; set; } | Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
 | [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/jpeg2000options/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 

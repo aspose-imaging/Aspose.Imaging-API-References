@@ -3,7 +3,7 @@ title: Class DjvuImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Djvu.DjvuImage class. DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books integrating text drawings images and photos into a single format. Supporting multipage operations you can efficiently access unique document identifiers count pages set active pages and retrieve specific document pages. With features for resizing rotating dithering cropping grayscale transformation gamma corrections adjustments and filters application this class empowers precise manipulation and enhancement of DjVu images to meet diverse application needs with ease and precision
 type: docs
-weight: 2450
+weight: 2470
 url: /net/aspose.imaging.fileformats.djvu/djvuimage/
 ---
 ## DjvuImage class
@@ -119,6 +119,7 @@ public sealed class DjvuImage : RasterCachedMultipageImage, INotifyPropertyChang
 | override [NormalizeAngle](../../aspose.imaging/rastercachedmultipageimage/normalizeangle/)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle/) and [`Rotate`](../../aspose.imaging/rastercachedmultipageimage/rotate/) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |

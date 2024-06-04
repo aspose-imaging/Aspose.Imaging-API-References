@@ -1,7 +1,7 @@
 ---
 title: TiffDataTypeController Class
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.imaging.exif/tiffdatatypecontroller/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/tiffdatatypecontroller/
 
 **Full Name:** aspose.imaging.exif.TiffDataTypeController
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

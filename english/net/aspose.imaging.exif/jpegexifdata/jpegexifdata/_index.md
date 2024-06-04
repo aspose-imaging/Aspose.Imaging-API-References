@@ -22,7 +22,7 @@ public JpegExifData()
 
 ---
 
-## JpegExifData(TiffDataType[]) {#constructor_1}
+## JpegExifData(TiffDataType[]) {#constructor_2}
 
 Initializes a new instance of the [`JpegExifData`](../) class with data from array.
 
@@ -43,7 +43,7 @@ public JpegExifData(TiffDataType[] exifdata)
 
 ---
 
-## JpegExifData(TiffDataType[], TiffDataType[], TiffDataType[]) {#constructor_2}
+## JpegExifData(TiffDataType[], TiffDataType[], TiffDataType[]) {#constructor_3}
 
 Initializes a new instance of the [`JpegExifData`](../) class with data from array.
 
@@ -60,6 +60,27 @@ public JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffData
 ### See Also
 
 * class [TiffDataType](../../../aspose.imaging.fileformats.tiff/tiffdatatype/)
+* class [JpegExifData](../)
+* namespace [Aspose.Imaging.Exif](../../jpegexifdata/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## JpegExifData(ExifData) {#constructor_1}
+
+Initializes a new instance of the [`JpegExifData`](../) class with data from array.
+
+```csharp
+public JpegExifData(ExifData exifdata)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| exifdata | ExifData | Array of EXIF tags together with common and GPS tags. |
+
+### See Also
+
+* class [ExifData](../../exifdata/)
 * class [JpegExifData](../)
 * namespace [Aspose.Imaging.Exif](../../jpegexifdata/)
 * assembly [Aspose.Imaging](../../../)

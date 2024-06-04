@@ -3,7 +3,7 @@ title: DicomImage.BinarizeOtsu
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Apply Otsu thresholding to binarize the image automatically determining the optimal threshold value based on the images histogram. Perfect for developers seeking a reliable method to segment images into foreground and background regions with minimal manual intervention
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/binarizeotsu/
 ---
 ## DicomImage.BinarizeOtsu method

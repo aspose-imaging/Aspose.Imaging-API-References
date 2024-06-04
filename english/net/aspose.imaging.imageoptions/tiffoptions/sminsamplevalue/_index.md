@@ -3,7 +3,7 @@ title: TiffOptions.SminSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the min sample value. The value has a field type which best matches the sample data Byte Short or Long type
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.imaging.imageoptions/tiffoptions/sminsamplevalue/
 ---
 ## TiffOptions.SminSampleValue property

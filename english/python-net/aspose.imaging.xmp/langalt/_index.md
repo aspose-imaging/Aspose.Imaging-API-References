@@ -1,7 +1,7 @@
 ---
 title: LangAlt Class
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.imaging.xmp/langalt/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/langalt/
 
 **Inheritance:** IXmlValue
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfciexyz/
 
 **Full Name:** aspose.imaging.fileformats.wmf.objects.WmfCieXyz
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

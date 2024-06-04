@@ -3,7 +3,7 @@ title: Class FontStoringArgs
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Svg.FontStoringArgs class. The font storing arguments
 type: docs
-weight: 7510
+weight: 7530
 url: /net/aspose.imaging.fileformats.svg/fontstoringargs/
 ---
 ## FontStoringArgs class

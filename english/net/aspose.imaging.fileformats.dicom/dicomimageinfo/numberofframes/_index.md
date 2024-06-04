@@ -3,7 +3,7 @@ title: DicomImageInfo.NumberOfFrames
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the number of frames
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/numberofframes/
 ---
 ## DicomImageInfo.NumberOfFrames property

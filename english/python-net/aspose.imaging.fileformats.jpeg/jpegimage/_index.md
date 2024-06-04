@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegimage/
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JpegImage
 
-**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, RasterCachedImage
+**Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IHasExifData, IHasJpegExifData, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -68,7 +68,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegimage/
 | use_raw_data | bool | r/w | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | vertical_resolution | double | r/w | This property manages the vertical resolution, expressed in pixels per inch, for <br/>            the associated  [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). Adjusting this resolution impacts the <br/>            size and quality of the image when printed or displayed at a fixed physical size. <br/>            By setting this property, you control how densely the image's pixels are packed <br/>            vertically, affecting its overall sharpness and clarity. |
 | width | int | r | This property retrieves the width of the image, expressed in pixels. It provides <br/>            essential information about the image's dimensions, enabling accurate rendering, <br/>            manipulation, or display of the image data. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Handle XMP metadata with this property, enabling seamless integration of <br/>            descriptive information into the image file. Whether you're extracting existing XMP <br/>            metadata or updating it with new information, this property simplifies the <br/>            management of extended metadata, ensuring compatibility with various applications <br/>            and workflows. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets XMP metadata, enabling seamless integration of <br/>            descriptive information into the image file. Whether you're extracting existing XMP <br/>            metadata or updating it with new information, this property simplifies the <br/>            management of extended metadata, ensuring compatibility with various applications <br/>            and workflows. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -142,6 +142,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegimage/
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_63) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_64) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_65) | Reads the whole scan line by the specified scan line index. |
+| remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) and [IHasExifData.exif_data](/imaging/python-net/aspose.imaging.exif/ihasexifdata/) values to **None**. |
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_66) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_67) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_68) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

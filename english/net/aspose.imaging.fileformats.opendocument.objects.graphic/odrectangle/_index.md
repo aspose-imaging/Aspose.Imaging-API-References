@@ -3,7 +3,7 @@ title: Class OdRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdRectangle class. The rectangle object
 type: docs
-weight: 7240
+weight: 7260
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odrectangle/
 ---
 ## OdRectangle class

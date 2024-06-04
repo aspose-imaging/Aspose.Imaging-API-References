@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging/imageoptionsbase/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+
+**All Implemented Interfaces:**
+[com.aspose.imaging.xmp.IHasXmpData](../../com.aspose.imaging.xmp/ihasxmpdata)
 ```
-public abstract class ImageOptionsBase extends DisposableObject
+public abstract class ImageOptionsBase extends DisposableObject implements IHasXmpData
 ```
 
 The image base options.
@@ -17,6 +20,8 @@ The image base options.
 
 | Method | Description |
 | --- | --- |
+| [isKeepMetadata()](#isKeepMetadata--) | Gets a value whether to keep original image metadata on export. |
+| [setKeepMetadata(boolean value)](#setKeepMetadata-boolean-) | A value whether to keep original image metadata on export. |
 | [getXmpData()](#getXmpData--) | Gets the XMP metadata container. |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata container. |
 | [getSource()](#getSource--) | Gets the source to create image in. |
@@ -36,6 +41,29 @@ The image base options.
 | [getProgressEventHandler()](#getProgressEventHandler--) | Gets the progress event handler. |
 | [setProgressEventHandler(ProgressEventHandler value)](#setProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | Sets the progress event handler. |
 | [deepClone()](#deepClone--) | Clones this instance. |
+### isKeepMetadata() {#isKeepMetadata--}
+```
+public final boolean isKeepMetadata()
+```
+
+
+Gets a value whether to keep original image metadata on export.
+
+**Returns:**
+boolean - a value whether to keep original image metadata on export.
+### setKeepMetadata(boolean value) {#setKeepMetadata-boolean-}
+```
+public final void setKeepMetadata(boolean value)
+```
+
+
+A value whether to keep original image metadata on export.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value whether to keep original image metadata on export. |
+
 ### getXmpData() {#getXmpData--}
 ```
 public XmpPacketWrapper getXmpData()
@@ -44,8 +72,10 @@ public XmpPacketWrapper getXmpData()
 
 Gets the XMP metadata container.
 
+Value: The XMP data container.
+
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP data container.
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the XMP metadata container.
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)
@@ -54,10 +84,12 @@ public void setXmpData(XmpPacketWrapper value)
 
 Sets the XMP metadata container.
 
+Value: The XMP data container.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP data container. |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the XMP metadata container. |
 
 ### getSource() {#getSource--}
 ```

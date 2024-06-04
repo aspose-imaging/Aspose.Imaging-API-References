@@ -11,7 +11,7 @@ The PenData flags specify properties of graphics pens, including the presence of
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPenDataFlags
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

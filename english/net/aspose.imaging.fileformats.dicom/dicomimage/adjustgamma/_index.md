@@ -3,7 +3,7 @@ title: DicomImage.AdjustGamma
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Enhance image quality and adjust it with gamma correction a powerful technique for finetuning visual appearance. Perfect for developers aiming to optimize image presentation adjust color balance and ensure consistent rendering across different devices and environments
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}

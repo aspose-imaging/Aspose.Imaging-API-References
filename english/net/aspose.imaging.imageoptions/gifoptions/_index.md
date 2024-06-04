@@ -3,7 +3,7 @@ title: Class GifOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.GifOptions class. The API for Graphical Interchange Format GIF raster image file creation offers developers comprehensive options for generating GIF images with precise control. With features to set background color color palette resolution interlaced type transparent color XMP metadata container and image compression this API ensures flexibility and efficiency in creating optimized and visually appealing GIFs tailored to specific application requirements
 type: docs
-weight: 10130
+weight: 10160
 url: /net/aspose.imaging.imageoptions/gifoptions/
 ---
 ## GifOptions class
@@ -36,6 +36,7 @@ public class GifOptions : ImageOptionsBase
 | [HasTransparentColor](../../aspose.imaging.imageoptions/gifoptions/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether GIF image has transparent color. |
 | [Interlaced](../../aspose.imaging.imageoptions/gifoptions/interlaced/) { get; set; } | True if image should be interlaced. |
 | [IsPaletteSorted](../../aspose.imaging.imageoptions/gifoptions/ispalettesorted/) { get; set; } | Gets or sets a value indicating whether palette entries are sorted. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [LoopsCount](../../aspose.imaging.imageoptions/gifoptions/loopscount/) { get; set; } | Gets or sets the loops count (Default 1 loop) |
 | [MaxDiff](../../aspose.imaging.imageoptions/gifoptions/maxdiff/) { get; set; } | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy. It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain. The range of allowed values is [0, 1000]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -45,7 +46,7 @@ public class GifOptions : ImageOptionsBase
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
 | [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/gifoptions/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 

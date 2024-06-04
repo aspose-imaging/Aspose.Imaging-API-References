@@ -3,7 +3,7 @@ title: TiffOptions.FillOrder
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the byte bits fill order
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.imaging.imageoptions/tiffoptions/fillorder/
 ---
 ## TiffOptions.FillOrder property

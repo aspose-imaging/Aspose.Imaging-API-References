@@ -11,7 +11,7 @@ The HatchStyle enumeration is an extension to the WMF HatchStyle enumeration ([M
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfHatchStyle
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

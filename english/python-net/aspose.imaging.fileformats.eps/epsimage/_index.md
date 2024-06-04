@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, VectorImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -85,6 +85,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_31) | Loads a new image from the specified file. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_32) | Removes the background. |
+| remove_metadata() | Removes metadata. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_33) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_34) | This method resizes the image, adjusting its dimensions according to specified <br/>            parameters. It offers a straightforward way to modify the size of the image, <br/>            ensuring flexibility and ease of use for developers. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_35) | This method resizes the image using predefined settings, allowing for efficient <br/>            adjustment of dimensions. It provides a convenient way to modify the image size <br/>            while maintaining control over various parameters, ensuring optimal results for <br/>            different use cases. |

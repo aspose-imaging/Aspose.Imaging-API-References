@@ -39,6 +39,7 @@ The image is the base class for all type of images.
 | [getFittingRectangle(Rectangle rectangle, int[] pixels, int width, int height)](#getFittingRectangle-com.aspose.imaging.Rectangle-int---int-int-) | Gets rectangle which fits the current image. |
 | [getProportionalWidth(int width, int height, int newHeight)](#getProportionalWidth-int-int-int-) | Gets a proportional width. |
 | [getProportionalHeight(int width, int height, int newWidth)](#getProportionalHeight-int-int-int-) | Gets a proportional height. |
+| [removeMetadata()](#removeMetadata--) | Removes metadata. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getBounds()](#getBounds--) | Gets the image bounds. |
 | [getContainer()](#getContainer--) | Gets the `Image` container. |
@@ -667,6 +668,14 @@ Gets a proportional height.
 
 **Returns:**
 int - The proportional height.
+### removeMetadata() {#removeMetadata--}
+```
+public void removeMetadata()
+```
+
+
+Removes metadata.
+
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public abstract int getBitsPerPixel()

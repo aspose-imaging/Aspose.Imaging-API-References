@@ -3,7 +3,7 @@ title: Class JpegExifData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.JpegExifData class. EXIF data container for jpeg files
 type: docs
-weight: 1090
+weight: 1110
 url: /net/aspose.imaging.exif/jpegexifdata/
 ---
 ## JpegExifData class
@@ -19,8 +19,9 @@ public sealed class JpegExifData : ExifData
 | Name | Description |
 | --- | --- |
 | [JpegExifData](jpegexifdata/#constructor)() | Initializes a new instance of the `JpegExifData` class. |
-| [JpegExifData](jpegexifdata/#constructor_1)(TiffDataType[]) | Initializes a new instance of the `JpegExifData` class with data from array. |
-| [JpegExifData](jpegexifdata/#constructor_2)(TiffDataType[], TiffDataType[], TiffDataType[]) | Initializes a new instance of the `JpegExifData` class with data from array. |
+| [JpegExifData](jpegexifdata/#constructor_1)(ExifData) | Initializes a new instance of the `JpegExifData` class with data from array. |
+| [JpegExifData](jpegexifdata/#constructor_2)(TiffDataType[]) | Initializes a new instance of the `JpegExifData` class with data from array. |
+| [JpegExifData](jpegexifdata/#constructor_3)(TiffDataType[], TiffDataType[], TiffDataType[]) | Initializes a new instance of the `JpegExifData` class with data from array. |
 
 ## Properties
 

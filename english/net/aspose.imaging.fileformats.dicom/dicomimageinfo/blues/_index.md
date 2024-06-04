@@ -3,7 +3,7 @@ title: DicomImageInfo.Blues
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the array colors of the blue
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/blues/
 ---
 ## DicomImageInfo.Blues property

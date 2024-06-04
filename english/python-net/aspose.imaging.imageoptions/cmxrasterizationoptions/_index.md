@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 
 **Full Name:** aspose.imaging.imageoptions.CmxRasterizationOptions
 
-**Inheritance:** VectorRasterizationOptions
+**Inheritance:** IHasXmpData, IHasMetadata, VectorRasterizationOptions
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -30,6 +30,7 @@ url: /python-net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | draw_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a foreground color. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | page_height | float | r/w | Gets or sets the page height. |
 | page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
@@ -41,7 +42,7 @@ url: /python-net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
 | text_rendering_hint | [TextRenderingHint](/imaging/python-net/aspose.imaging/textrenderinghint) | r/w | Gets or sets the text rendering hint. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

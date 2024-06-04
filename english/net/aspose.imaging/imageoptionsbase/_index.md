@@ -3,7 +3,7 @@ title: Class ImageOptionsBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptionsBase class. The image base options
 type: docs
-weight: 10450
+weight: 10480
 url: /net/aspose.imaging/imageoptionsbase/
 ---
 ## ImageOptionsBase class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging/imageoptionsbase/
 The image base options.
 
 ```csharp
-public abstract class ImageOptionsBase : DisposableObject
+public abstract class ImageOptionsBase : DisposableObject, IHasXmpData
 ```
 
 ## Properties
@@ -21,6 +21,7 @@ public abstract class ImageOptionsBase : DisposableObject
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
@@ -39,6 +40,7 @@ public abstract class ImageOptionsBase : DisposableObject
 ### See Also
 
 * class [DisposableObject](../disposableobject/)
+* interface [IHasXmpData](../../aspose.imaging.xmp/ihasxmpdata/)
 * namespace [Aspose.Imaging](../../aspose.imaging/)
 * assembly [Aspose.Imaging](../../)
 

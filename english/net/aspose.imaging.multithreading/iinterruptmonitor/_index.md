@@ -3,7 +3,7 @@ title: Interface IInterruptMonitor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Multithreading.IInterruptMonitor interface. Represents information about interruption
 type: docs
-weight: 10900
+weight: 10930
 url: /net/aspose.imaging.multithreading/iinterruptmonitor/
 ---
 ## IInterruptMonitor interface

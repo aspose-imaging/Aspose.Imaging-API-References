@@ -3,7 +3,7 @@ title: TiffOptions.RowsPerStrip
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the rows per strip
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.imaging.imageoptions/tiffoptions/rowsperstrip/
 ---
 ## TiffOptions.RowsPerStrip property

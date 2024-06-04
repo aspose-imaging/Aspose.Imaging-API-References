@@ -3,7 +3,7 @@ title: Class WmfEscapeEnhancedMetafile
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords.WmfEscapeEnhancedMetafile class. The Escape Enhanced Meta file record
 type: docs
-weight: 8450
+weight: 8470
 url: /net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/
 ---
 ## WmfEscapeEnhancedMetafile class

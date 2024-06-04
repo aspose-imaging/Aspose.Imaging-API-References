@@ -3,7 +3,7 @@ title: TiffOptions.Tags
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the tags
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.imaging.imageoptions/tiffoptions/tags/
 ---
 ## TiffOptions.Tags property

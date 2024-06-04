@@ -3,7 +3,7 @@ title: Class MatrixExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.MatrixExtensions class. Contains the Matrix class extensions
 type: docs
-weight: 1220
+weight: 1240
 url: /net/aspose.imaging.extensions/matrixextensions/
 ---
 ## MatrixExtensions class

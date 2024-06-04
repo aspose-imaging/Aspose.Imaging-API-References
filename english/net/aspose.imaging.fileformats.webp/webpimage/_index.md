@@ -3,7 +3,7 @@ title: Class WebPImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Webp.WebPImage class. Manipulate WebP raster images with our API using its modern features for both lossless and lossy compression ensuring optimal image quality with reduced file sizes. Seamlessly handle extended file formats animations and alpha channels while easily updating dimensions resizing proportionally cropping rotating applying filters adjusting image parameters and converting to other image formats for versatile web image optimization
 type: docs
-weight: 8150
+weight: 8170
 url: /net/aspose.imaging.fileformats.webp/webpimage/
 ---
 ## WebPImage class
@@ -122,6 +122,7 @@ public sealed class WebPImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [RemoveBlock](../../aspose.imaging.fileformats.webp/webpimage/removeblock/)(IFrame) | Remove the specified WebP block from the image, facilitating efficient management of image data structure. Utilize this method to streamline image processing workflows by eliminating unnecessary blocks or components within your application. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |

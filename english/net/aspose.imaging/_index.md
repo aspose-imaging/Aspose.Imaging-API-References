@@ -93,6 +93,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [IBufferProcessor](./ibufferprocessor/) | The buffer processor. |
 | [IColorConverter](./icolorconverter/) | The color converter. |
 | [IColorPalette](./icolorpalette/) | The color palette interface. |
+| [IHasMetadata](./ihasmetadata/) | Image metadata interface. |
 | [IImageCreator](./iimagecreator/) | The image creator. |
 | [IImageCreatorDescriptor](./iimagecreatordescriptor/) | The image creator descriptor specifying the creator properties. The creator descriptor is used to overcome the necessity to contain each image creator instance in memory and multithreading issues. |
 | [IImageDescriptor](./iimagedescriptor/) | The image descriptor. Contains base properties and methods for all other image descriptor types. |

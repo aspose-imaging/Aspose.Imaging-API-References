@@ -3,7 +3,7 @@ title: Class CdrObjectContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrObjectContainer class. The cdr object container
 type: docs
-weight: 1660
+weight: 1680
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/
 ---
 ## CdrObjectContainer class

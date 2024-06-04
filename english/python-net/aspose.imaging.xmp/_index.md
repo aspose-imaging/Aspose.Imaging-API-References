@@ -11,6 +11,7 @@ The module contains XMP related helper classes and methods.
 ## **Classes**
 | **Class** | **Description** |
 | :- | :- |
+| [IHasXmpData](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) instance container interface. |
 | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue/) | Converts xmp values to the XML string representation. |
 | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/) | Represents XMP Language Alternative. |
 | [Namespaces](/imaging/python-net/aspose.imaging.xmp/namespaces/) | Contains namespaces used in RDF document. |

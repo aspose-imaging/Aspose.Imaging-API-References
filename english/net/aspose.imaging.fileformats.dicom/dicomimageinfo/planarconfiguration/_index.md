@@ -3,7 +3,7 @@ title: DicomImageInfo.PlanarConfiguration
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the planar configuration
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/planarconfiguration/
 ---
 ## DicomImageInfo.PlanarConfiguration property

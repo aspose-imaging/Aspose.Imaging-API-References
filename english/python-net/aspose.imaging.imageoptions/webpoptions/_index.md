@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/webpoptions/
 
 **Full Name:** aspose.imaging.imageoptions.WebPOptions
 
-**Inheritance:** ImageOptionsBase
+**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -27,6 +27,7 @@ url: /python-net/aspose.imaging.imageoptions/webpoptions/
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | lossless | bool | r/w | Gets or sets a value indicating whether this [WebPOptions](/imaging/python-net/aspose.imaging.imageoptions/webpoptions/) is lossless. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |

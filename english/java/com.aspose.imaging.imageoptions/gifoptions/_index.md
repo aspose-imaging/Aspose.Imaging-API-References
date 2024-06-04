@@ -23,8 +23,6 @@ The API for Graphical Interchange Format (GIF) raster image file creation offers
 
 | Method | Description |
 | --- | --- |
-| [getXmpData()](#getXmpData--) | Gets or sets the XMP metadata container. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Gets or sets the XMP metadata container. |
 | [getDoPaletteCorrection()](#getDoPaletteCorrection--) | Gets or sets a value indicating whether palette correction is applied. |
 | [setDoPaletteCorrection(boolean value)](#setDoPaletteCorrection-boolean-) | Gets or sets a value indicating whether palette correction is applied. |
 | [getLoopsCount()](#getLoopsCount--) | Gets the loops count (Default 1 loop) |
@@ -125,29 +123,6 @@ Initializes a new instance of the `GifOptions` class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | gifOptions | [GifOptions](../../com.aspose.imaging.imageoptions/gifoptions) | The GIF Options. |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets or sets the XMP metadata container.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP data container.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Gets or sets the XMP metadata container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP data container. |
 
 ### getDoPaletteCorrection() {#getDoPaletteCorrection--}
 ```

@@ -3,7 +3,7 @@ title: TiffOptions.ScannerModel
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the scanner model
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.imaging.imageoptions/tiffoptions/scannermodel/
 ---
 ## TiffOptions.ScannerModel property

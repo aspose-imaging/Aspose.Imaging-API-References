@@ -3,7 +3,7 @@ title: Enum FileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormat enum. One of supported imaging file formats
 type: docs
-weight: 1300
+weight: 1320
 url: /net/aspose.imaging/fileformat/
 ---
 ## FileFormat enumeration

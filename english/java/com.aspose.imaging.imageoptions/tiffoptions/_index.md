@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.imageoptions/tiffoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.IMetadataContainer
 ```
-public class TiffOptions extends ImageOptionsBase
+public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 ```
 
 The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method.
@@ -35,8 +38,6 @@ The tiff file format options. Note that width and height tags will get overwritt
 | [setDefaultMemoryAllocationLimit(int value)](#setDefaultMemoryAllocationLimit-int-) | Gets or sets the default memory allocation limit. |
 | [getPremultiplyComponents()](#getPremultiplyComponents--) | Gets or sets a value indicating whether components must be premultiplied. |
 | [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | Gets or sets a value indicating whether components must be premultiplied. |
-| [getXmpData()](#getXmpData--) | Gets or sets the XMP metadata container. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Gets or sets the XMP metadata container. |
 | [isValid()](#isValid--) | Gets a value indicating whether the `TiffOptions` have been properly configured. |
 | [getYCbCrSubsampling()](#getYCbCrSubsampling--) | Gets or sets the subsampling factors for YCbCr photometric. |
 | [setYCbCrSubsampling(int[] value)](#setYCbCrSubsampling-int---) | Gets or sets the subsampling factors for YCbCr photometric. |
@@ -163,6 +164,8 @@ The tiff file format options. Note that width and height tags will get overwritt
 | [setXPKeywords(String value)](#setXPKeywords-java.lang.String-) | Sets subject image, which used by Windows Explorer. |
 | [getXPSubject()](#getXPSubject--) | Gets information about image, which used by Windows Explorer. |
 | [setXPSubject(String value)](#setXPSubject-java.lang.String-) | Sets information about image, which used by Windows Explorer. |
+| [getExifData()](#getExifData--) | Gets Exif data. |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets Exif data. |
 | [removeTag(int tag)](#removeTag-int-) | Removes the tag. |
 | [removeTags(int[] tags)](#removeTags-int...-) | Removes the tags. |
 | [validate()](#validate--) | Validates if options have valid combination of tags |
@@ -373,29 +376,6 @@ Gets or sets a value indicating whether components must be premultiplied.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | `true` if components must be premultiplied; otherwise, `false`. |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets or sets the XMP metadata container.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP data container.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Gets or sets the XMP metadata container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP data container. |
 
 ### isValid() {#isValid--}
 ```
@@ -2270,6 +2250,29 @@ Value: Information about image, used by Windows Explorer.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | information about image, which used by Windows Explorer. |
+
+### getExifData() {#getExifData--}
+```
+public final ExifData getExifData()
+```
+
+
+Gets Exif data.
+
+**Returns:**
+[ExifData](../../com.aspose.imaging.exif/exifdata) - Exif data.
+### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
+```
+public final void setExifData(ExifData value)
+```
+
+
+Sets Exif data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ExifData](../../com.aspose.imaging.exif/exifdata) | Exif data. |
 
 ### removeTag(int tag) {#removeTag-int-}
 ```

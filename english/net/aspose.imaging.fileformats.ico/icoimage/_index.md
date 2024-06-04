@@ -3,7 +3,7 @@ title: Class IcoImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Ico.IcoImage class. Effortlessly manipulate ICO image files with our API supporting various file formats and frame types including PNG and BMP. Customize bits per pixel settings and update image dimensions seamlessly ensuring optimal representation and compatibility for your icons across different platforms
 type: docs
-weight: 6720
+weight: 6740
 url: /net/aspose.imaging.fileformats.ico/icoimage/
 ---
 ## IcoImage class
@@ -113,6 +113,7 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [NormalizeAngle](../../aspose.imaging/rastercachedmultipageimage/normalizeangle/)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle/) and [`Rotate`](../../aspose.imaging/rastercachedmultipageimage/rotate/) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [RemovePage](../../aspose.imaging.fileformats.ico/icoimage/removepage/)(int) | Fine-tune your ICO image by removing a specific image entry located at the designated [index](index) within the file. This method provides precise control over your image composition, allowing you to refine your ICO file with ease. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

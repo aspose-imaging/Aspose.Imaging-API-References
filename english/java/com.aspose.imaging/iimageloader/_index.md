@@ -3,7 +3,7 @@ title: IImageLoader
 second_title: Aspose.Imaging for Java API Reference
 description: The image loader.
 type: docs
-weight: 133
+weight: 134
 url: /java/com.aspose.imaging/iimageloader/
 ---```
 public interface IImageLoader

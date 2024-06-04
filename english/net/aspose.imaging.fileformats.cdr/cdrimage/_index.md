@@ -3,7 +3,7 @@ title: Class CdrImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.CdrImage class. The API for CorelDRAW CDR vector image format support is an essential toolkit for developers working with vector graphics. This API enables the seamless processing of CDR files allowing for the storage and manipulation of diverse elements such as text lines shapes images colors and effects. With its comprehensive capabilities developers can efficiently work with vector representations of image contents ensuring precision and flexibility in creating and editing CorelDRAW vector graphics programmatically
 type: docs
-weight: 1430
+weight: 1450
 url: /net/aspose.imaging.fileformats.cdr/cdrimage/
 ---
 ## CdrImage class
@@ -62,6 +62,7 @@ public class CdrImage : VectorMultipageImage, ICdrImage
 | override [GetSerializedStream](../../aspose.imaging/vectormultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.cdr/cdrimage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging.fileformats.cdr/cdrimage/resize/#resize_2)(int, int, ResizeType) | Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically, ensuring they fit the layout or requirements of their applications seamlessly. |

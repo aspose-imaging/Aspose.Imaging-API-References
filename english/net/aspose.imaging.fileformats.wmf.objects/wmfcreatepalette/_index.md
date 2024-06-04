@@ -3,7 +3,7 @@ title: Class WmfCreatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreatePalette class. The META_CREATEPALETTE record creates a Palette Object section 2.2.1.3
 type: docs
-weight: 8600
+weight: 8620
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
 ---
 ## WmfCreatePalette class

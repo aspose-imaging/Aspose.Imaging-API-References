@@ -3,7 +3,7 @@ title: DicomImageInfo.PixelRepresentation
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value of the pixel pixelRepresentation
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/pixelrepresentation/
 ---
 ## DicomImageInfo.PixelRepresentation property

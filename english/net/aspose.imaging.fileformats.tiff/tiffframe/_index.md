@@ -3,7 +3,7 @@ title: Class TiffFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffFrame class. The tiff frame
 type: docs
-weight: 7910
+weight: 7930
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/
 ---
 ## TiffFrame class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffframe/
 The tiff frame.
 
 ```csharp
-public sealed class TiffFrame : RasterCachedImage
+public sealed class TiffFrame : RasterCachedImage, IHasExifData
 ```
 
 ## Constructors
@@ -66,7 +66,7 @@ public sealed class TiffFrame : RasterCachedImage
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | override [VerticalResolution](../../aspose.imaging.fileformats.tiff/tiffframe/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [Width](../../aspose.imaging.fileformats.tiff/tiffframe/width/) { get; } | Gets the image width. |
-| override [XmpData](../../aspose.imaging.fileformats.tiff/tiffframe/xmpdata/) { get; set; } | Gets or sets XMP data from frame. |
+| override [XmpData](../../aspose.imaging.fileformats.tiff/tiffframe/xmpdata/) { get; set; } | Gets or sets Xmp data. |
 
 ## Methods
 
@@ -118,6 +118,7 @@ public sealed class TiffFrame : RasterCachedImage
 | virtual [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle/)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle/) and [`Rotate`](../../aspose.imaging/rasterimage/rotate/) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
+| override [RemoveMetadata](../../aspose.imaging.fileformats.tiff/tiffframe/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) and [`ExifData`](../../aspose.imaging.exif/ihasexifdata/exifdata/) values to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | virtual [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
@@ -205,6 +206,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 ### See Also
 
 * class [RasterCachedImage](../../aspose.imaging/rastercachedimage/)
+* interface [IHasExifData](../../aspose.imaging.exif/ihasexifdata/)
 * namespace [Aspose.Imaging.FileFormats.Tiff](../../aspose.imaging.fileformats.tiff/)
 * assembly [Aspose.Imaging](../../)
 

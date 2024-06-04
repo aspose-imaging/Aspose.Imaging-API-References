@@ -3,7 +3,7 @@ title: Class EmfPlusControlRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusControlRecordType class. The control record types specify global parameters for EMF metafile processing
 type: docs
-weight: 5900
+weight: 5920
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscontrolrecordtype/
 ---
 ## EmfPlusControlRecordType class

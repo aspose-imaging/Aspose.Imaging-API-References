@@ -33,7 +33,7 @@ A wrapper consisting of a pair of XML processing instructions (PIs) may be place
 | [getPackagesCount()](#getPackagesCount--) | Gets amount of packages inside XMP structure. |
 | [addPackage(XmpPackage package_)](#addPackage-com.aspose.imaging.xmp.XmpPackage-) | Adds the package. |
 | [getPackage(String namespaceUri)](#getPackage-java.lang.String-) | Gets package by namespace URI. |
-| [containsPackage(String namespaceUri)](#containsPackage-java.lang.String-) | Determines whethere package is exist in xmp wrapper. |
+| [containsPackage(String namespaceUri)](#containsPackage-java.lang.String-) | Determines whether package is exist in xmp wrapper. |
 | [removePackage(XmpPackage package_)](#removePackage-com.aspose.imaging.xmp.XmpPackage-) | Removes the XMP package. |
 | [clearPackages()](#clearPackages--) | Removes all `XmpPackage` inside XMP. |
 ### XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMeta) {#XmpPacketWrapper-com.aspose.imaging.xmp.XmpHeaderPi-com.aspose.imaging.xmp.XmpTrailerPi-com.aspose.imaging.xmp.XmpMeta-}
@@ -156,7 +156,7 @@ public boolean containsPackage(String namespaceUri)
 ```
 
 
-Determines whethere package is exist in xmp wrapper.
+Determines whether package is exist in xmp wrapper.
 
 **Parameters:**
 | Parameter | Type | Description |

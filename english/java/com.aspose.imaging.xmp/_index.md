@@ -32,4 +32,5 @@ The package contains XMP related helper classes and methods.
 
 | Interface | Description |
 | --- | --- |
+| [IHasXmpData](../com.aspose.imaging.xmp/ihasxmpdata) | [XmpPacketWrapper](../com.aspose.imaging.xmp/xmppacketwrapper) instance container interface. |
 | [IXmlValue](../com.aspose.imaging.xmp/ixmlvalue) | Converts xmp values to the XML string representation. |

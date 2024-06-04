@@ -3,7 +3,7 @@ title: Class CdrIcc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrIcc class. The cdr Icc profile
 type: docs
-weight: 1620
+weight: 1640
 url: /net/aspose.imaging.fileformats.cdr.objects/cdricc/
 ---
 ## CdrIcc class

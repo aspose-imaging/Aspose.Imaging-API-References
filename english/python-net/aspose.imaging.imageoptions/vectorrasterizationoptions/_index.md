@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 
 **Full Name:** aspose.imaging.imageoptions.VectorRasterizationOptions
 
-**Inheritance:** ImageOptionsBase
+**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -30,6 +30,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | draw_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a foreground color. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | page_height | float | r/w | Gets or sets the page height. |
 | page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |

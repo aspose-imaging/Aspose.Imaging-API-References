@@ -3,7 +3,7 @@ title: Enum PenType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PenType enum. Specifies the type of fill a Pen object uses to fill lines
 type: docs
-weight: 11020
+weight: 11050
 url: /net/aspose.imaging/pentype/
 ---
 ## PenType enumeration

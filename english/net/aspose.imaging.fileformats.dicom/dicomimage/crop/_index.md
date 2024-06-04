@@ -3,7 +3,7 @@ title: DicomImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Crop the image to remove unwanted areas and focus on essential content with this simple method. Ideal for developers seeking to customize the visual composition of images ensuring they convey the desired message effectively
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/crop/
 ---
 ## Crop(Rectangle) {#crop}

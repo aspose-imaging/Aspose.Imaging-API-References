@@ -1,7 +1,7 @@
 ---
 title: ImageExportersRegistry Class
 type: docs
-weight: 5530
+weight: 5570
 url: /python-net/aspose.imaging/imageexportersregistry/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/imageexportersregistry/
 
 **Full Name:** aspose.imaging.ImageExportersRegistry
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

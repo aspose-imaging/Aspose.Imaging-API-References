@@ -28,8 +28,6 @@ Create high-quality Portable Network Graphics (PNG) raster images effortlessly w
 
 | Method | Description |
 | --- | --- |
-| [getXmpData()](#getXmpData--) | Gets the XMP metadata container. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata container. |
 | [getColorType()](#getColorType--) | Gets the type of the color. |
 | [setColorType(int value)](#setColorType-int-) | Sets the type of the color. |
 | [getProgressive()](#getProgressive--) | Gets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. |
@@ -126,33 +124,6 @@ public static final int DEFAULT_COMPRESSION_LEVEL
 
 
 The default compression level.
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets the XMP metadata container.
-
-Value: The XMP data container.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the XMP metadata container.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets the XMP metadata container.
-
-Value: The XMP data container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the XMP metadata container. |
 
 ### getColorType() {#getColorType--}
 ```

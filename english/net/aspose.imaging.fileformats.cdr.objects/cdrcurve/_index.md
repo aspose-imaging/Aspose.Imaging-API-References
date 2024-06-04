@@ -3,7 +3,7 @@ title: Class CdrCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrCurve class. The cdr curve
 type: docs
-weight: 1520
+weight: 1540
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrcurve/
 ---
 ## CdrCurve class

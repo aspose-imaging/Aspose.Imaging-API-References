@@ -3,7 +3,7 @@ title: TiffOptions.InkNames
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the ink names
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.imaging.imageoptions/tiffoptions/inknames/
 ---
 ## TiffOptions.InkNames property

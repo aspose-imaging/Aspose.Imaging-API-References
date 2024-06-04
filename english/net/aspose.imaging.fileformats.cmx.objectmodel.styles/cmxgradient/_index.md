@@ -3,7 +3,7 @@ title: Class CmxGradient
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles.CmxGradient class. Represents a gradient info
 type: docs
-weight: 2250
+weight: 2270
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 ---
 ## CmxGradient class

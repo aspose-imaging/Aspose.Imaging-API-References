@@ -3,7 +3,7 @@ title: Class EmfPlusHatchBrushData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusHatchBrushData class. The EmfPlusHatchBrushData object specifies a hatch pattern for a graphics brush
 type: docs
-weight: 5490
+weight: 5510
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/
 ---
 ## EmfPlusHatchBrushData class

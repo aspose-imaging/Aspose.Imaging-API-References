@@ -1,7 +1,7 @@
 ---
 title: FillMode Enumeration
 type: docs
-weight: 10370
+weight: 10410
 url: /python-net/aspose.imaging/fillmode/
 ---
 
@@ -11,7 +11,7 @@ Specifies how the interior of a closed path is filled.
 
 **Full Name:** aspose.imaging.FillMode
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

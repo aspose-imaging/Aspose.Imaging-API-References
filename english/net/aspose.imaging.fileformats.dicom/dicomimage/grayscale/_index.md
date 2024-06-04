@@ -3,7 +3,7 @@ title: DicomImage.Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Easily transform images into their grayscale representation simplifying visual analysis and processing tasks. Perfect for developers seeking to enhance image clarity reduce complexity and facilitate efficient grayscalebased algorithms for diverse applications
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/grayscale/
 ---
 ## DicomImage.Grayscale method

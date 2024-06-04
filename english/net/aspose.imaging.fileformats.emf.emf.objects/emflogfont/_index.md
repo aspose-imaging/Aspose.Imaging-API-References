@@ -3,7 +3,7 @@ title: Class EmfLogFont
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFont class. The LogFont object specifies the basic attributes of a logical font
 type: docs
-weight: 3040
+weight: 3060
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/
 ---
 ## EmfLogFont class

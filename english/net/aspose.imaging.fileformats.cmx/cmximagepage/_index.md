@@ -3,7 +3,7 @@ title: Class CmxImagePage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.CmxImagePage class. The image of CMX page
 type: docs
-weight: 1920
+weight: 1940
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/
 ---
 ## CmxImagePage class
@@ -59,6 +59,7 @@ public class CmxImagePage : VectorImage, ICmxImage
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.cmx/cmximagepage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging.fileformats.cmx/cmximagepage/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |

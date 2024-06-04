@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 
 **Full Name:** aspose.imaging.imageoptions.BigTiffOptions
 
-**Inheritance:** TiffOptions
+**Inheritance:** IHasXmpData, IHasMetadata, IHasExifData, TiffOptions
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -40,6 +40,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | disable_icc_export | bool | r/w | Gets or sets a value indicating whether ICC profile export is disabled (ICC profile is applied to the source pixels beforehand). |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | document_name | string | r/w | Gets or sets the name of the document. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif data. |
 | exif_ifd | [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) | r | Gets or sets the pointer to EXIF IFD. |
 | extra_samples | ushort | r | Gets the extra samples values. |
 | fax_t4_options | [Group3Options](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/group3options/) | r/w | Gets or sets the fax t4 options. |
@@ -54,6 +55,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | is_extra_samples_present | bool | r | Gets a value indicating whether the extra samples is present. |
 | is_tiled | bool | r | Gets a value indicating whether image is tiled. |
 | is_valid | bool | r | Gets a value indicating whether the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | max_sample_value | ushort | r/w | Gets or sets the max sample value. |
 | min_sample_value | ushort | r/w | Gets or sets the min sample value. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
@@ -90,7 +92,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | total_pages | ushort | r | Gets the total pages. |
 | valid_tag_count | int | r | Gets the valid tag count. This is not the total tags count but the number of tags which may be preserved. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 | xp_author | string | r/w | Gets or sets image author, which used by Windows Explorer. |
 | xp_comment | string | r/w | Gets or sets comment on image, which used by Windows Explorer. |
 | xp_keywords | string | r/w | Gets or sets subject image, which used by Windows Explorer. |

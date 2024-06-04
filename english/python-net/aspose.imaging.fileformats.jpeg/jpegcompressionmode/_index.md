@@ -11,7 +11,7 @@ Compression mode for jpeg images.
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JpegCompressionMode
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

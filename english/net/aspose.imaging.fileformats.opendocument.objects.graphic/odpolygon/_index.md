@@ -3,7 +3,7 @@ title: Class OdPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdPolygon class. The polygon
 type: docs
-weight: 7230
+weight: 7250
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/
 ---
 ## OdPolygon class

@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.imageoptions/jpegoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.IMetadataContainer, [com.aspose.imaging.exif.IHasJpegExifData](../../com.aspose.imaging.exif/ihasjpegexifdata)
 ```
-public class JpegOptions extends ImageOptionsBase
+public class JpegOptions extends ImageOptionsBase implements IMetadataContainer, IHasJpegExifData
 ```
 
 Create high-quality JPEG images effortlessly with our API, offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types, near lossless coding, RGB and CMYK color profiles, as well as EXIF, JFIF image data, and XMP containers, ensuring versatile and customizable options for your image creation needs.
@@ -25,14 +28,14 @@ Create high-quality JPEG images effortlessly with our API, offering adjustable l
 | --- | --- |
 | [getDefaultMemoryAllocationLimit()](#getDefaultMemoryAllocationLimit--) | Gets the default memory allocation limit. |
 | [setDefaultMemoryAllocationLimit(int value)](#setDefaultMemoryAllocationLimit-int-) | Sets the default memory allocation limit. |
-| [getXmpData()](#getXmpData--) | Gets the XMP metadata container. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata container. |
 | [getJfif()](#getJfif--) | Gets the jfif. |
 | [setJfif(JFIFData value)](#setJfif-com.aspose.imaging.fileformats.jpeg.JFIFData-) | Sets the jfif. |
 | [getComment()](#getComment--) | Gets the jpeg file comment. |
 | [setComment(String value)](#setComment-java.lang.String-) | Sets the jpeg file comment. |
-| [getExifData()](#getExifData--) | Get or set exif data container |
-| [setExifData(JpegExifData value)](#setExifData-com.aspose.imaging.exif.JpegExifData-) | Get or set exif data container |
+| [getExifData()](#getExifData--) | Gets Exif data container. |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets Exif data. |
+| [getJpegExifData()](#getJpegExifData--) | Get Exif data container. |
+| [setJpegExifData(JpegExifData value)](#setJpegExifData-com.aspose.imaging.exif.JpegExifData-) | Get or set exif data container |
 | [getCompressionType()](#getCompressionType--) | Gets the compression type. |
 | [setCompressionType(int value)](#setCompressionType-int-) | Sets the compression type. |
 | [getColorType()](#getColorType--) | Gets the color type for jpeg image. |
@@ -166,29 +169,6 @@ Sets the default memory allocation limit.
 | --- | --- | --- |
 | value | int | The default memory allocation limit. |
 
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets the XMP metadata container.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP data container.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets the XMP metadata container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP data container. |
-
 ### getJfif() {#getJfif--}
 ```
 public JFIFData getJfif()
@@ -237,17 +217,40 @@ Sets the jpeg file comment.
 
 ### getExifData() {#getExifData--}
 ```
-public JpegExifData getExifData()
+public ExifData getExifData()
 ```
 
 
-Get or set exif data container
+Gets Exif data container.
 
 **Returns:**
-[JpegExifData](../../com.aspose.imaging.exif/jpegexifdata)
-### setExifData(JpegExifData value) {#setExifData-com.aspose.imaging.exif.JpegExifData-}
+[ExifData](../../com.aspose.imaging.exif/exifdata) - Exif data container.
+### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
 ```
-public void setExifData(JpegExifData value)
+public final void setExifData(ExifData value)
+```
+
+
+Sets Exif data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ExifData](../../com.aspose.imaging.exif/exifdata) | Exif data. |
+
+### getJpegExifData() {#getJpegExifData--}
+```
+public final JpegExifData getJpegExifData()
+```
+
+
+Get Exif data container.
+
+**Returns:**
+[JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) - Exif data container.
+### setJpegExifData(JpegExifData value) {#setJpegExifData-com.aspose.imaging.exif.JpegExifData-}
+```
+public void setJpegExifData(JpegExifData value)
 ```
 
 

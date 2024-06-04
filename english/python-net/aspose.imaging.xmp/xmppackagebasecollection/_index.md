@@ -1,7 +1,7 @@
 ---
 title: XmpPackageBaseCollection Class
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.imaging.xmp/xmppackagebasecollection/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/xmppackagebasecollection/
 
 **Full Name:** aspose.imaging.xmp.XmpPackageBaseCollection
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

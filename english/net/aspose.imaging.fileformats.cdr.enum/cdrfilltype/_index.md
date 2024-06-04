@@ -3,7 +3,7 @@ title: Enum CdrFillType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Enum.CdrFillType enum. The cdr fill type
 type: docs
-weight: 1460
+weight: 1480
 url: /net/aspose.imaging.fileformats.cdr.enum/cdrfilltype/
 ---
 ## CdrFillType enumeration

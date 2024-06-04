@@ -3,7 +3,7 @@ title: TiffOptions.TileByteCounts
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the tile byte counts
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.imaging.imageoptions/tiffoptions/tilebytecounts/
 ---
 ## TiffOptions.TileByteCounts property

@@ -3,7 +3,7 @@ title: Class ColorBlendExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.ColorBlendExtensions class. Contains ColorBlend extension methods
 type: docs
-weight: 1130
+weight: 1150
 url: /net/aspose.imaging.extensions/colorblendextensions/
 ---
 ## ColorBlendExtensions class

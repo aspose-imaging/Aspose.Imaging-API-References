@@ -3,7 +3,7 @@ title: TiffOptions.ExtraSamples
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets the extra samples values
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging.imageoptions/tiffoptions/extrasamples/
 ---
 ## TiffOptions.ExtraSamples property

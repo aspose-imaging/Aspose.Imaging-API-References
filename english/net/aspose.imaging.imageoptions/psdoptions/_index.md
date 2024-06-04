@@ -3,7 +3,7 @@ title: Class PsdOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.PsdOptions class. Create Photoshop Document PSD images with our API offering versatile options with different format versions compression methods color modes and bits counts per color channel. Seamlessly handle XMP metadata containers ensuring comprehensive image processing with the power of PSD format features like image layers layer masks and file information for customization and creativity in your designs
 type: docs
-weight: 10290
+weight: 10320
 url: /net/aspose.imaging.imageoptions/psdoptions/
 ---
 ## PsdOptions class
@@ -32,6 +32,7 @@ public class PsdOptions : ImageOptionsBase
 | [CompressionMethod](../../aspose.imaging.imageoptions/psdoptions/compressionmethod/) { get; set; } | Gets or sets the psd compression method. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |

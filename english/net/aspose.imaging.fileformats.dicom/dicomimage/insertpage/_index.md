@@ -3,7 +3,7 @@ title: DicomImage.InsertPage
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Insert a new page into the images page list at a specified index with this intuitive method. Ideal for developers seeking precise control over the arrangement of pages in multipage images ensuring seamless organization and customization of image content
 type: docs
-weight: 240
+weight: 230
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/insertpage/
 ---
 ## DicomImage.InsertPage method

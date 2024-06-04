@@ -3,7 +3,7 @@ title: DicomImage.BinarizeBradley
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Binarize images with Bradleys adaptive thresholding algorithm leveraging integral image thresholding for improved performance. Ideal for developers looking to automatically segment images based on local variations in brightness ensuring accurate object detection and extraction in varying lighting conditions
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/binarizebradley/
 ---
 ## DicomImage.BinarizeBradley method

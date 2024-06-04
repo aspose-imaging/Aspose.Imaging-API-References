@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5580
+weight: 5620
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 
 **Full Name:** aspose.imaging.ImageOptionsBase
 
-**Inheritance:** DisposableObject
+**Inheritance:** IHasXmpData, IHasMetadata, DisposableObject
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -21,6 +21,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | [palette](#palette1) | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | [resolution_settings](#resolution_settings2) | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |

@@ -39,6 +39,7 @@ The module is the core for nested modules and the most basic objects used for As
 | [IBufferProcessor](/imaging/python-net/aspose.imaging/ibufferprocessor/) | The buffer processor. |
 | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter/) | The color converter. |
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette interface. |
+| [IHasMetadata](/imaging/python-net/aspose.imaging/ihasmetadata/) | Image metadata interface. |
 | [IImageCreator](/imaging/python-net/aspose.imaging/iimagecreator/) | The image creator. |
 | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | The image creator descriptor specifying the creator properties. The creator descriptor is used to overcome<br/>            the necessity to contain each image creator instance in memory and multithreading issues. |
 | [IImageDescriptor](/imaging/python-net/aspose.imaging/iimagedescriptor/) | The image descriptor. Contains base properties and methods for all other image descriptor types. |

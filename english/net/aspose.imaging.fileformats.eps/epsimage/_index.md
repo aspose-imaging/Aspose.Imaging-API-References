@@ -3,7 +3,7 @@ title: Class EpsImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Eps.EpsImage class. The API for Encapsulated PostScript EPS image file format support offers robust capabilities for manipulating compositions comprising text graphics and images. With features such as bitmap preview image handling orientation flipping bounding box retrieval for illustration bounds resizing rotating images and adding preview images this API ensures seamless processing and integration of EPS files into various applications with precision and versatility
 type: docs
-weight: 6560
+weight: 6580
 url: /net/aspose.imaging.fileformats.eps/epsimage/
 ---
 ## EpsImage class
@@ -64,6 +64,7 @@ public sealed class EpsImage : VectorImage
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize/#resize_1)(int, int, ImageResizeSettings) | This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. It provides a convenient way to modify the image size while maintaining control over various parameters, ensuring optimal results for different use cases. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize/#resize_2)(int, int, ResizeType) | This method resizes the image, adjusting its dimensions according to specified parameters. It offers a straightforward way to modify the size of the image, ensuring flexibility and ease of use for developers. |

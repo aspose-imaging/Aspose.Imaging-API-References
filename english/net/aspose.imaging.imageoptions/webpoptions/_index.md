@@ -3,7 +3,7 @@ title: Class WebPOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.WebPOptions class. Create modern WebP raster web images using our API featuring robust support for lossless and lossy compression as well as alpha channels and animation loops. Enhance your web content with dynamic visuals while optimizing file sizes for improved loading speeds and user experience
 type: docs
-weight: 10420
+weight: 10450
 url: /net/aspose.imaging.imageoptions/webpoptions/
 ---
 ## WebPOptions class
@@ -29,6 +29,7 @@ public class WebPOptions : ImageOptionsBase
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless/) { get; set; } | Gets or sets a value indicating whether this `WebPOptions` is lossless. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |

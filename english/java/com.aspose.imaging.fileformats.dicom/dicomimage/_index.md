@@ -38,8 +38,6 @@ This Class implements Digital Imaging and Communications in Medicine (DICOM) ras
 | [hasAlpha()](#hasAlpha--) | Retrieve whether the image has an alpha channel effortlessly with this intuitive property. |
 | [getPageExportingAction()](#getPageExportingAction--) | Manage the page exporting action with this intuitive property. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Manage the page exporting action with this intuitive property. |
-| [getXmpData()](#getXmpData--) | Access or modify the XMP metadata associated with the image using this intuitive property. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Access or modify the XMP metadata associated with the image using this intuitive property. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Expand your image collection by adding a new page with this intuitive method. |
 | [saveAll(String filePath, ImageOptionsBase options)](#saveAll-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | Preserve the object's data by saving it to the designated file (indexer + filename) location along with specified file format and options. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Adjust the resolution of this [RasterImage](../../com.aspose.imaging/rasterimage) with precision using this straightforward method. |
@@ -359,29 +357,6 @@ Manage the page exporting action with this intuitive property. Ideal for develop
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Access or modify the XMP metadata associated with the image using this intuitive property. Ideal for developers seeking to manage metadata information embedded within the image file, ensuring seamless integration and customization in various image processing workflows.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Access or modify the XMP metadata associated with the image using this intuitive property. Ideal for developers seeking to manage metadata information embedded within the image file, ensuring seamless integration and customization in various image processing workflows.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
 
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```

@@ -3,7 +3,7 @@ title: TiffOptions.ImageWidth
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the image width
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.imaging.imageoptions/tiffoptions/imagewidth/
 ---
 ## TiffOptions.ImageWidth property

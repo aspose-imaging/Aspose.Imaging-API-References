@@ -3,7 +3,7 @@ title: Class CdrFlgs
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrFlgs class. The cdr flags
 type: docs
-weight: 1590
+weight: 1610
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrflgs/
 ---
 ## CdrFlgs class

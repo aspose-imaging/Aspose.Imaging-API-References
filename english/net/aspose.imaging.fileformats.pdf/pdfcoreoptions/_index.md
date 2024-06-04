@@ -3,7 +3,7 @@ title: Class PdfCoreOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Pdf.PdfCoreOptions class. The common options for convertion to PDF
 type: docs
-weight: 7410
+weight: 7430
 url: /net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 ---
 ## PdfCoreOptions class

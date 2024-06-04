@@ -3,7 +3,7 @@ title: TiffOptions.ScannerManufacturer
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the scanner manufacturer
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.imaging.imageoptions/tiffoptions/scannermanufacturer/
 ---
 ## TiffOptions.ScannerManufacturer property

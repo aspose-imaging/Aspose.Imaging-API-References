@@ -3,7 +3,7 @@ title: TiffOptions.IsValid
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets a value indicating whether the TiffOptions have been properly configured. Use Validate method as to find the failure reason
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging.imageoptions/tiffoptions/isvalid/
 ---
 ## TiffOptions.IsValid property

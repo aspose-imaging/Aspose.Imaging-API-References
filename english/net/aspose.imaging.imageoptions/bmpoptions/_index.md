@@ -3,7 +3,7 @@ title: Class BmpOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.BmpOptions class. The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap BMP and Device Independent Bitmap DIB images. With this API you can precisely define image characteristics such as bits per pixel compression level and compression type tailoring the output to meet specific requirements. This featurerich API empowers developers to create highquality customized raster images with ease and flexibility for diverse applications
 type: docs
-weight: 10040
+weight: 10070
 url: /net/aspose.imaging.imageoptions/bmpoptions/
 ---
 ## BmpOptions class
@@ -30,6 +30,7 @@ public class BmpOptions : ImageOptionsBase
 | [Compression](../../aspose.imaging.imageoptions/bmpoptions/compression/) { get; set; } | Gets or sets the compression type. The default compression type is Bitfields, that allows saving a [`BmpImage`](../../aspose.imaging.fileformats.bmp/bmpimage/) with transparency. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |

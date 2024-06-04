@@ -137,6 +137,7 @@ The package is the core for nested packages and the most basic objects used for 
 | [IBufferProcessor](../com.aspose.imaging/ibufferprocessor) | The buffer processor. |
 | [IColorConverter](../com.aspose.imaging/icolorconverter) | The color converter. |
 | [IColorPalette](../com.aspose.imaging/icolorpalette) | The color palette interface. |
+| [IHasMetadata](../com.aspose.imaging/ihasmetadata) | Image metadata interface. |
 | [IImageCreator](../com.aspose.imaging/iimagecreator) | The image creator. |
 | [IImageCreatorDescriptor](../com.aspose.imaging/iimagecreatordescriptor) | The image creator descriptor specifying the creator properties. |
 | [IImageDescriptor](../com.aspose.imaging/iimagedescriptor) | The image descriptor. |

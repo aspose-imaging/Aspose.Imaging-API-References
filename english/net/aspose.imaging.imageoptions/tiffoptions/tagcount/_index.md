@@ -3,7 +3,7 @@ title: TiffOptions.TagCount
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets the tag count
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.imaging.imageoptions/tiffoptions/tagcount/
 ---
 ## TiffOptions.TagCount property

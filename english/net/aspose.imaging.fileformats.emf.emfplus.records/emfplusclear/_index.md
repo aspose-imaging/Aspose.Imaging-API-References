@@ -3,7 +3,7 @@ title: Class EmfPlusClear
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusClear class. The EmfPlusClear record clears the output coordinate space and initializes it with a background color and transparency
 type: docs
-weight: 5870
+weight: 5890
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/
 ---
 ## EmfPlusClear class

@@ -3,7 +3,7 @@ title: Class RawData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dng.Decoder.RawData class. The raw data in DNG format
 type: docs
-weight: 2510
+weight: 2530
 url: /net/aspose.imaging.fileformats.dng.decoder/rawdata/
 ---
 ## RawData class

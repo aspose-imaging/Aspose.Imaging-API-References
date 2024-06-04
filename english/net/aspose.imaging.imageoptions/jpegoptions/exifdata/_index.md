@@ -1,14 +1,14 @@
 ---
 title: JpegOptions.ExifData
 second_title: Aspose.Imaging for .NET API Reference
-description: JpegOptions property. Get or set exif data container
+description: JpegOptions property. Get or set Exif data container
 type: docs
 weight: 70
 url: /net/aspose.imaging.imageoptions/jpegoptions/exifdata/
 ---
 ## JpegOptions.ExifData property
 
-Get or set exif data container
+Get or set Exif data container.
 
 ```csharp
 public JpegExifData ExifData { get; set; }

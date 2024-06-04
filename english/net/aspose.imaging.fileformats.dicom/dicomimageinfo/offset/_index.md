@@ -3,7 +3,7 @@ title: DicomImageInfo.Offset
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the offset
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/offset/
 ---
 ## DicomImageInfo.Offset property

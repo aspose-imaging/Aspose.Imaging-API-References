@@ -3,7 +3,7 @@ title: DicomImageInfo.Width
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the width
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/width/
 ---
 ## DicomImageInfo.Width property

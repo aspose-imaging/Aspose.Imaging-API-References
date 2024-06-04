@@ -1,7 +1,7 @@
 ---
 title: XmpPackage Class
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.imaging.xmp/xmppackage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmppackage/
 
 **Inheritance:** IXmlValue
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

@@ -3,7 +3,7 @@ title: TiffOptions.ResolutionSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the resolution settings
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.imaging.imageoptions/tiffoptions/resolutionsettings/
 ---
 ## TiffOptions.ResolutionSettings property

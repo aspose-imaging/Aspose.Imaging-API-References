@@ -3,7 +3,7 @@ title: DicomImageInfo.Reds
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the array colors of the red
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/reds/
 ---
 ## DicomImageInfo.Reds property

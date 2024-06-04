@@ -3,7 +3,7 @@ title: TiffOptions.TotalPages
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets the total pages
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.imaging.imageoptions/tiffoptions/totalpages/
 ---
 ## TiffOptions.TotalPages property

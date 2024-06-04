@@ -3,7 +3,7 @@ title: Class WmfCieXyzTriple
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCieXyzTriple class. The CIEXYZTriple Object defines information about the CIEXYZTriple color object
 type: docs
-weight: 8570
+weight: 8590
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/
 ---
 ## WmfCieXyzTriple class

@@ -3,7 +3,7 @@ title: Class TiffImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffImage class. Process Tagged Image File Format TIFF raster images with our API offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels. Normalize angles for scanned images resize transform to grayscale and apply filters gamma corrections and image parameters adjustments with ease. Seamlessly handle multiframe TIFF files create graphics paths add shapes and effortlessly save images to different formats
 type: docs
-weight: 7920
+weight: 7940
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 ---
 ## TiffImage class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 Process Tagged Image File Format (TIFF) raster images with our API, offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels. Normalize angles for scanned images, resize, transform to grayscale, and apply filters, gamma corrections and image parameters adjustments with ease. Seamlessly handle multi-frame TIFF files, create graphics paths, add shapes, and effortlessly save images to different formats.
 
 ```csharp
-public class TiffImage : RasterCachedMultipageImage, IMultipageImageExt
+public class TiffImage : RasterCachedMultipageImage, IHasExifData, IMultipageImageExt
 ```
 
 ## Constructors
@@ -122,6 +122,7 @@ public class TiffImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [RemoveFrame](../../aspose.imaging.fileformats.tiff/tiffimage/removeframe/#removeframe)(int) | Effortlessly eliminate the frame identified by its index from the image sequence, streamlining frame management within your application. Integrate this functionality to enhance efficiency and precision in frame manipulation, facilitating seamless organization and presentation of image content. |
 | [RemoveFrame](../../aspose.imaging.fileformats.tiff/tiffimage/removeframe/#removeframe_1)(TiffFrame) | Efficiently remove the specified frame from the image sequence, facilitating streamlined frame management within your application. Integrate this functionality to enhance precision and flexibility in frame manipulation, ensuring seamless organization and presentation of image content. |
+| override [RemoveMetadata](../../aspose.imaging.fileformats.tiff/tiffimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) and [`ExifData`](../../aspose.imaging.exif/ihasexifdata/exifdata/) values to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceFrame](../../aspose.imaging.fileformats.tiff/tiffimage/replaceframe/)(int, TiffFrame) | Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. Integrate this method to enhance flexibility and precision in frame manipulation, ensuring optimal organization and presentation of image content within your application. |
@@ -222,6 +223,7 @@ private static IEnumerable<PointF> CoordinatesToBezierPoints(float[] coordinates
 ### See Also
 
 * class [RasterCachedMultipageImage](../../aspose.imaging/rastercachedmultipageimage/)
+* interface [IHasExifData](../../aspose.imaging.exif/ihasexifdata/)
 * interface [IMultipageImageExt](../../aspose.imaging/imultipageimageext/)
 * namespace [Aspose.Imaging.FileFormats.Tiff](../../aspose.imaging.fileformats.tiff/)
 * assembly [Aspose.Imaging](../../)

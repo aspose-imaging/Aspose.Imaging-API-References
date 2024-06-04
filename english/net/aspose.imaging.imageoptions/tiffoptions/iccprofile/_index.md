@@ -3,7 +3,7 @@ title: TiffOptions.IccProfile
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the Icc profile stream
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging.imageoptions/tiffoptions/iccprofile/
 ---
 ## TiffOptions.IccProfile property

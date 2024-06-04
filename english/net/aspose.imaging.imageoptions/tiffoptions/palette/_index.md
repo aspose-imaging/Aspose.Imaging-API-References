@@ -3,7 +3,7 @@ title: TiffOptions.Palette
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the color palette
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.imaging.imageoptions/tiffoptions/palette/
 ---
 ## TiffOptions.Palette property

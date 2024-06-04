@@ -3,7 +3,7 @@ title: Class GifBlocksRegistry
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.GifBlocksRegistry class. Represents the gif blocks openers registry
 type: docs
-weight: 6680
+weight: 6700
 url: /net/aspose.imaging.fileformats.gif/gifblocksregistry/
 ---
 ## GifBlocksRegistry class

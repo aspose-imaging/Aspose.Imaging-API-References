@@ -3,7 +3,7 @@ title: DicomImageInfo.RescaleIntercept
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value of the rescaleIntercept
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleintercept/
 ---
 ## DicomImageInfo.RescaleIntercept property

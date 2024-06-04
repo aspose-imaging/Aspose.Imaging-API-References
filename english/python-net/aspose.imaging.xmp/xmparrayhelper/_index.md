@@ -1,7 +1,7 @@
 ---
 title: XmpArrayHelper Class
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.imaging.xmp/xmparrayhelper/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/xmparrayhelper/
 
 **Full Name:** aspose.imaging.xmp.XmpArrayHelper
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Methods**
 | **Name** | **Description** |

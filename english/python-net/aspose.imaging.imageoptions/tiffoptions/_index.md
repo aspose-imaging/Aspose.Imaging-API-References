@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 
 **Full Name:** aspose.imaging.imageoptions.TiffOptions
 
-**Inheritance:** ImageOptionsBase
+**Inheritance:** IHasXmpData, IHasMetadata, IHasExifData, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -40,6 +40,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 | disable_icc_export | bool | r/w | Gets or sets a value indicating whether ICC profile export is disabled (ICC profile is applied to the source pixels beforehand). |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | document_name | string | r/w | Gets or sets the name of the document. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif data. |
 | exif_ifd | [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) | r | Gets or sets the pointer to EXIF IFD. |
 | extra_samples | ushort | r | Gets the extra samples values. |
 | fax_t4_options | [Group3Options](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/group3options/) | r/w | Gets or sets the fax t4 options. |
@@ -54,6 +55,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 | is_extra_samples_present | bool | r | Gets a value indicating whether the extra samples is present. |
 | is_tiled | bool | r | Gets a value indicating whether image is tiled. |
 | is_valid | bool | r | Gets a value indicating whether the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
+| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | max_sample_value | ushort | r/w | Gets or sets the max sample value. |
 | min_sample_value | ushort | r/w | Gets or sets the min sample value. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |

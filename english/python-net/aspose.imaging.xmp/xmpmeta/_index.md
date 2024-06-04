@@ -1,7 +1,7 @@
 ---
 title: XmpMeta Class
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.imaging.xmp/xmpmeta/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp/xmpmeta/
 
 **Inheritance:** IXmlValue, XmpElementBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

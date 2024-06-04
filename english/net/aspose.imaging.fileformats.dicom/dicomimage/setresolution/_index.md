@@ -3,7 +3,7 @@ title: DicomImage.SetResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Adjust the resolution of this RasterImage with precision using this straightforward method. Ideal for developers looking to tailor image resolution to specific requirements ensuring optimal display quality and file size management
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/setresolution/
 ---
 ## DicomImage.SetResolution method

@@ -3,7 +3,7 @@ title: Enum SampleRoundingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Jpeg.SampleRoundingMode enum. Defines a way in which an nbit value is converted to an 8bit value
 type: docs
-weight: 6800
+weight: 6820
 url: /net/aspose.imaging.fileformats.jpeg/sampleroundingmode/
 ---
 ## SampleRoundingMode enumeration

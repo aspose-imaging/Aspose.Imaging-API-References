@@ -3,7 +3,7 @@ title: Class EmfPlusTranslateWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTranslateWorldTransform class. The EmfPlusTranslateWorldTransform record performs a translation on the current world space transform
 type: docs
-weight: 6470
+weight: 6490
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/
 ---
 ## EmfPlusTranslateWorldTransform class

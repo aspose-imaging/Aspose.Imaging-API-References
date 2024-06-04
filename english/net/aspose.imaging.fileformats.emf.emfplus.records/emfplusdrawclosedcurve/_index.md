@@ -3,7 +3,7 @@ title: Class EmfPlusDrawClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawClosedCurve class. The EmfPlusDrawClosedCurve record specifies drawing a closed cardinal spline
 type: docs
-weight: 5930
+weight: 5950
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/
 ---
 ## EmfPlusDrawClosedCurve class

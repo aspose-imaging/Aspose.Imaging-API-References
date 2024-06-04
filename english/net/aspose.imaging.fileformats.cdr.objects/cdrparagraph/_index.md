@@ -3,7 +3,7 @@ title: Class CdrParagraph
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrParagraph class. The cdr Paragraph
 type: docs
-weight: 1690
+weight: 1710
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrparagraph/
 ---
 ## CdrParagraph class

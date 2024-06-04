@@ -3,7 +3,7 @@ title: Class EmfSetIcmProfileA
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetIcmProfileA class. The EMR_SETICMPROFILEA record specifies a color profile in a file with a name consisting of ASCII characters for graphics output
 type: docs
-weight: 4360
+weight: 4380
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/
 ---
 ## EmfSetIcmProfileA class

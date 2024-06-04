@@ -3,7 +3,7 @@ title: Class FontExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.FontExtensions class. Contains extension methods for the Font class
 type: docs
-weight: 1180
+weight: 1200
 url: /net/aspose.imaging.extensions/fontextensions/
 ---
 ## FontExtensions class

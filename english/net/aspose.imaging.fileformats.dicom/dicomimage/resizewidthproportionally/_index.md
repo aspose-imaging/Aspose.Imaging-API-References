@@ -3,7 +3,7 @@ title: DicomImage.ResizeWidthProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Adjust the width of the image while maintaining its aspect ratio with this convenient method. Ideal for developers seeking to resize images proportionally ensuring consistent and visually appealing results across different display environment
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/resizewidthproportionally/
 ---
 ## DicomImage.ResizeWidthProportionally method

@@ -3,7 +3,7 @@ title: DicomImage.ResizeHeightProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Adjust the height of the image while maintaining its aspect ratio with this userfriendly method. Perfect for developers seeking to dynamically resize images while preserving their proportions ensuring optimal display and usability in their applications
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/resizeheightproportionally/
 ---
 ## DicomImage.ResizeHeightProportionally method

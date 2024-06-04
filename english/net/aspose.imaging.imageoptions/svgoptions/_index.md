@@ -3,7 +3,7 @@ title: Class SvgOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.SvgOptions class. Create Scalar Vector Graphics SVG image files with our API utilizing versatile options for color types and compression levels. Seamlessly customize your SVG images with precision ensuring optimal quality and compatibility for your design needs
 type: docs
-weight: 10340
+weight: 10370
 url: /net/aspose.imaging.imageoptions/svgoptions/
 ---
 ## SvgOptions class
@@ -30,6 +30,7 @@ public class SvgOptions : ImageOptionsBase
 | [Compress](../../aspose.imaging.imageoptions/svgoptions/compress/) { get; set; } | Gets or sets a value indicating whether the output image must to be compressed. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |

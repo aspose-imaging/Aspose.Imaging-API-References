@@ -3,7 +3,7 @@ title: Class CdrColor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Types.CdrColor class. The cdr color
 type: docs
-weight: 1850
+weight: 1870
 url: /net/aspose.imaging.fileformats.cdr.types/cdrcolor/
 ---
 ## CdrColor class

@@ -1,7 +1,7 @@
 ---
 title: XmpPacketWrapper Class
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 
 **Full Name:** aspose.imaging.xmp.XmpPacketWrapper
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

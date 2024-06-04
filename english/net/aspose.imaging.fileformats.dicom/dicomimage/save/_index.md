@@ -3,7 +3,7 @@ title: DicomImage.Save
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Easily save your image data to a specified stream in the desired file format using this convenient method. Whether youre working with JPEG PNG or another format this function ensures that your image data is saved efficiently and accurately making it ideal for developers looking to streamline their filesaving processes
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/save/
 ---
 ## DicomImage.Save method

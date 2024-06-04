@@ -3,7 +3,7 @@ title: DicomImageInfo.AddTag
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo method. Add new Dicom tag
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/addtag/
 ---
 ## DicomImageInfo.AddTag method

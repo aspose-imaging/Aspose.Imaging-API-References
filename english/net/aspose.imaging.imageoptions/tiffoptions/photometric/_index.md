@@ -3,7 +3,7 @@ title: TiffOptions.Photometric
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the photometric
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.imaging.imageoptions/tiffoptions/photometric/
 ---
 ## TiffOptions.Photometric property

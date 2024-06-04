@@ -3,7 +3,7 @@ title: Class DicomImageInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.DicomImageInfo class. Contains all metainformation from Dicom file header
 type: docs
-weight: 2430
+weight: 2450
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 ---
 ## DicomImageInfo class
@@ -19,6 +19,7 @@ public sealed class DicomImageInfo
 | Name | Description |
 | --- | --- |
 | [BitsAllocated](../../aspose.imaging.fileformats.dicom/dicomimageinfo/bitsallocated/) { get; } | Gets a value of the "bitsAllocated". |
+| [BitsStored](../../aspose.imaging.fileformats.dicom/dicomimageinfo/bitsstored/) { get; } | Gets the number of stored bits. |
 | [Blues](../../aspose.imaging.fileformats.dicom/dicomimageinfo/blues/) { get; } | Gets the array colors of the blue |
 | [DicomHeaderInfoByBytes](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobybytes/) { get; } | Gets the dicom header information by bytes. |
 | [DicomInfo](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo/) { get; } | Gets the header information of the DICOM file. |

@@ -3,7 +3,7 @@ title: Interface IImageMask
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ImageMasks.IImageMask interface. Describes a mask
 type: docs
-weight: 10620
+weight: 10650
 url: /net/aspose.imaging.magicwand.imagemasks/iimagemask/
 ---
 ## IImageMask interface

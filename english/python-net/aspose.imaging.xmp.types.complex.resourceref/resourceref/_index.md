@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 
 **Inheritance:** IXmpType, ComplexTypeBase
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |

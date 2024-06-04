@@ -3,7 +3,7 @@ title: DicomImageInfo.UpdateTagAt
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo method. Update an existing tag
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/updatetagat/
 ---
 ## DicomImageInfo.UpdateTagAt method

@@ -3,7 +3,7 @@ title: DicomImageInfo.SignedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value indicating whether signedImage
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/signedimage/
 ---
 ## DicomImageInfo.SignedImage property

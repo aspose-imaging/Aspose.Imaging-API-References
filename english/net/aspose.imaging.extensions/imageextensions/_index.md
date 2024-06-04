@@ -3,7 +3,7 @@ title: Class ImageExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.ImageExtensions class. Contains extension methods for conversions based on Image and Image
 type: docs
-weight: 1210
+weight: 1230
 url: /net/aspose.imaging.extensions/imageextensions/
 ---
 ## ImageExtensions class

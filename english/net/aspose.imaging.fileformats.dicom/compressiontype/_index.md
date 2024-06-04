@@ -3,7 +3,7 @@ title: Enum CompressionType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.CompressionType enum. The DICOM image compression type
 type: docs
-weight: 2410
+weight: 2430
 url: /net/aspose.imaging.fileformats.dicom/compressiontype/
 ---
 ## CompressionType enumeration

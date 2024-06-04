@@ -20,6 +20,7 @@ EXIF data container for jpeg files.
 | [JpegExifData()](#JpegExifData--) | Initializes a new instance of the `JpegExifData` class. |
 | [JpegExifData(TiffDataType[] exifdata)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `JpegExifData` class with data from array. |
 | [JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `JpegExifData` class with data from array. |
+| [JpegExifData(ExifData exifdata)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | Initializes a new instance of the [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) class with data from array. |
 ## Fields
 
 | Field | Description |
@@ -113,6 +114,19 @@ Initializes a new instance of the `JpegExifData` class with data from array.
 | commonTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The common tags. |
 | exifTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The EXIF tags. |
 | gpsTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The GPS tags. |
+
+### JpegExifData(ExifData exifdata) {#JpegExifData-com.aspose.imaging.exif.ExifData-}
+```
+public JpegExifData(ExifData exifdata)
+```
+
+
+Initializes a new instance of the [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) class with data from array.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| exifdata | [ExifData](../../com.aspose.imaging.exif/exifdata) | Array of EXIF tags together with common and GPS tags. |
 
 ### MAX_EXIF_SEGMENT_SIZE {#MAX-EXIF-SEGMENT-SIZE}
 ```

@@ -11,7 +11,7 @@ Type of color.
 
 **Full Name:** aspose.imaging.xmp.types.complex.colorant.ColorType
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Members**
 | **Member name** | **Description** |

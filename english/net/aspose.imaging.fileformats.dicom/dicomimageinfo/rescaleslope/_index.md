@@ -3,7 +3,7 @@ title: DicomImageInfo.RescaleSlope
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value of the rescaleSlope
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleslope/
 ---
 ## DicomImageInfo.RescaleSlope property

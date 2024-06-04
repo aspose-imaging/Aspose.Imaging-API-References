@@ -3,7 +3,7 @@ title: Class DicomImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.DicomImage class. This Class implements Digital Imaging and Communications in Medicine DICOM raster image format support and offers a comprehensive solution for processing DICOM images with precision and flexibility. You can seamlessly manipulate image pages including operations to get add or remove pages and control the default and active pages. With capabilities to work with alpha channels embed XMP metadata resize rotate crop binarize adjust apply filters and convert to other raster formats. This API empowers developers to handle DICOM images effectively while meeting diverse application requirements in medical imaging contexts
 type: docs
-weight: 2420
+weight: 2440
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/
 ---
 ## DicomImage class
@@ -66,7 +66,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [Width](../../aspose.imaging/rastercachedmultipageimage/width/) { get; } | Gets the image width. |
-| override [XmpData](../../aspose.imaging.fileformats.dicom/dicomimage/xmpdata/) { get; set; } | Access or modify the XMP metadata associated with the image using this intuitive property. Ideal for developers seeking to manage metadata information embedded within the image file, ensuring seamless integration and customization in various image processing workflows. |
+| override [XmpData](../../aspose.imaging/rastercachedmultipageimage/xmpdata/) { get; set; } | Gets or sets XMP data from frame. |
 
 ## Methods
 
@@ -118,6 +118,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [NormalizeAngle](../../aspose.imaging/rastercachedmultipageimage/normalizeangle/)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle/) and [`Rotate`](../../aspose.imaging/rastercachedmultipageimage/rotate/) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [RemovePage](../../aspose.imaging.fileformats.dicom/dicomimage/removepage/)(int) | Eliminate the page at the specified index from the page list with this convenient method. Ideal for developers seeking precise control over the management of multi-page images, ensuring seamless organization and customization of image content. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |

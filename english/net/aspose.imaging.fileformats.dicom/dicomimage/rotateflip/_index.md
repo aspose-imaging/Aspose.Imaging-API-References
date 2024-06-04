@@ -3,7 +3,7 @@ title: DicomImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Easily manipulate the active frame by rotating flipping or performing both actions simultaneously with this straightforward method. Ideal for developers who need to dynamically adjust the orientation of specific frames within their image sequences ensuring optimal presentation and alignment
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/rotateflip/
 ---
 ## DicomImage.RotateFlip method

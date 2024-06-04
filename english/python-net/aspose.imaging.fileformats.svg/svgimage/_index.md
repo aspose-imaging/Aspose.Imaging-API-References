@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, VectorImage
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -81,6 +81,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_30) | Loads a new image from the specified file. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_31) | Removes the background. |
+| remove_metadata() | Removes metadata. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_32) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_33) | Resizes the image. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_34) | Resizes the image. |

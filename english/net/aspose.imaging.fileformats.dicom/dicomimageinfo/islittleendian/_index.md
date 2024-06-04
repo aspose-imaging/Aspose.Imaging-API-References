@@ -3,7 +3,7 @@ title: DicomImageInfo.IsLittleEndian
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value indicating whether this instance is little endian
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/islittleendian/
 ---
 ## DicomImageInfo.IsLittleEndian property

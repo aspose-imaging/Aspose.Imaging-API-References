@@ -3,7 +3,7 @@ title: Class CmxObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.CmxObject class. Object containing information about the graphic element
 type: docs
-weight: 1980
+weight: 2000
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxobject/
 ---
 ## CmxObject class

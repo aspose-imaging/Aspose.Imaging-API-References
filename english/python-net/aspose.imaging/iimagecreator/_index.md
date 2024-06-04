@@ -1,7 +1,7 @@
 ---
 title: IImageCreator Class
 type: docs
-weight: 5140
+weight: 5180
 url: /python-net/aspose.imaging/iimagecreator/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/iimagecreator/
 
 **Full Name:** aspose.imaging.IImageCreator
 
-**Aspose.Imaging Version:** 24.5.0
+**Aspose.Imaging Version:** 24.6.0
 
 ## **Methods**
 | **Name** | **Description** |

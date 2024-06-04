@@ -65,7 +65,6 @@ The complex number structure.
 | [subtract(double s, Complex a, Complex[] result)](#subtract-double-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex---) | Subtracts `a` from `s`. |
 | [multiply(Complex a, Complex b)](#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | Multiplies `a` by `b`. |
 | [multiply(Complex a, double s)](#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | Multiplies `a` by `s`. |
-| [multiply_internalize(double s)](#multiply-internalize-double-) | Multiplies `a` by `s`. |
 | [multiply(Complex a, Complex b, Complex[] result)](#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex---) | Multiplies `a` by `b`. |
 | [multiply(Complex a, double s, Complex[] result)](#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---) | Multiplies `a` by `s`. |
 | [divide(Complex a, Complex b)](#divide-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | Divides `a` by `b`. |
@@ -86,6 +85,7 @@ The complex number structure.
 | [cos(Complex a)](#cos-com.aspose.imaging.imagefilters.complexutils.Complex-) | Gets Cos of `a`. |
 | [tan(Complex a)](#tan-com.aspose.imaging.imagefilters.complexutils.Complex-) | Gets Tan of `a`. |
 | [isEquals(Complex obj1, Complex obj2)](#isEquals-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) |  |
+| [multiply_internalize(double s)](#multiply-internalize-double-) | Multiplies by `s`. |
 | [getRe()](#getRe--) | Gets the real part. |
 | [setRe(double value)](#setRe-double-) | Sets the real part. |
 | [getIm()](#getIm--) | Gets the imaginary part. |
@@ -629,21 +629,6 @@ Multiplies `a` by `s`.
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of multiplication.
-### multiply_internalize(double s) {#multiply-internalize-double-}
-```
-public Complex multiply_internalize(double s)
-```
-
-
-Multiplies `a` by `s`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| s | double | The s value. |
-
-**Returns:**
-[Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of multiplication.
 ### multiply(Complex a, Complex b, Complex[] result) {#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex---}
 ```
 public static void multiply(Complex a, Complex b, Complex[] result)
@@ -952,6 +937,21 @@ public static boolean isEquals(Complex obj1, Complex obj2)
 
 **Returns:**
 boolean
+### multiply_internalize(double s) {#multiply-internalize-double-}
+```
+public Complex multiply_internalize(double s)
+```
+
+
+Multiplies by `s`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | double | The s value. |
+
+**Returns:**
+[Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of multiplication.
 ### getRe() {#getRe--}
 ```
 public final double getRe()

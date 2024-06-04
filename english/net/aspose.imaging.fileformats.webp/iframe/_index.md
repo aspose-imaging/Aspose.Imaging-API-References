@@ -3,7 +3,7 @@ title: Interface IFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Webp.IFrame interface. Webp frame interface
 type: docs
-weight: 8130
+weight: 8150
 url: /net/aspose.imaging.fileformats.webp/iframe/
 ---
 ## IFrame interface

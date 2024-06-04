@@ -3,7 +3,7 @@ title: Class EmfNamedEscape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfNamedEscape class. The MR_NAMEDESCAPE record passes arbitrary information to a specified printer driver
 type: docs
-weight: 3870
+weight: 3890
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/
 ---
 ## EmfNamedEscape class

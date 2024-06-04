@@ -3,7 +3,7 @@ title: Class CdrVectorPattern
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrVectorPattern class. The cdr vector pattern
 type: docs
-weight: 1830
+weight: 1850
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrvectorpattern/
 ---
 ## CdrVectorPattern class

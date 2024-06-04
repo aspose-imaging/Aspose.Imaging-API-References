@@ -3,7 +3,7 @@ title: Enum EmfContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfContrast enum. The Contrast enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2610
+weight: 2630
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcontrast/
 ---
 ## EmfContrast enumeration

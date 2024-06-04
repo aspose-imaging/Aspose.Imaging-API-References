@@ -3,7 +3,7 @@ title: RasterImage.SaveArgb32Pixels
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Saves the 32bit ARGB pixels
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.imaging/rasterimage/saveargb32pixels/
 ---
 ## RasterImage.SaveArgb32Pixels method

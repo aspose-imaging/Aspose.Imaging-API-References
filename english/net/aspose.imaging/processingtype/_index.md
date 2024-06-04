@@ -3,7 +3,7 @@ title: Enum ProcessingType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ProcessingType enum. The type of processing
 type: docs
-weight: 11070
+weight: 11100
 url: /net/aspose.imaging/processingtype/
 ---
 ## ProcessingType enumeration

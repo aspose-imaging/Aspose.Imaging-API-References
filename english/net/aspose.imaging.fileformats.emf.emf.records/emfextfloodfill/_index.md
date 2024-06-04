@@ -3,7 +3,7 @@ title: Class EmfExtFloodFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExtFloodFill class. The EMR_EXTFLOODFILL record fills an area of the display surface with the current brush
 type: docs
-weight: 3660
+weight: 3680
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/
 ---
 ## EmfExtFloodFill class

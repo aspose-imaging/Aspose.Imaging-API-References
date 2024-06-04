@@ -3,7 +3,7 @@ title: Class SvgImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Svg.SvgImage class. Manipulate Scalar Vector Graphics SVG image files with our API utilizing the power of XMLbased text format for seamless customization and scalability. Easily load SVG images rasterize vector elements and convert to other formats while controlling compression levels to optimize file size and quality for your projects
 type: docs
-weight: 7550
+weight: 7570
 url: /net/aspose.imaging.fileformats.svg/svgimage/
 ---
 ## SvgImage class
@@ -61,6 +61,7 @@ public sealed class SvgImage : VectorImage
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. This method offers flexibility in resizing operations, allowing for precise control over aspects such as interpolation methods, aspect ratio preservation, and output quality. |
 | override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize/#resize_2)(int, int, ResizeType) | Resize the image to fit the specified dimensions while preserving its aspect ratio. This method provides a convenient way to adjust the size of the image without distorting its proportions, ensuring optimal display or storage according to the desired dimensions. |
