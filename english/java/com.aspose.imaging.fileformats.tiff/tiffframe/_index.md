@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.fileformats.tiff/tiffframe/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage)
+
+**All Implemented Interfaces:**
+com.aspose.internal.IMetadataContainer
 ```
-public final class TiffFrame extends RasterCachedImage
+public final class TiffFrame extends RasterCachedImage implements IMetadataContainer
 ```
 
 The tiff frame.
@@ -33,8 +36,8 @@ The tiff frame.
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
-| [getXmpData()](#getXmpData--) | Gets XMP data from frame. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP data from frame. |
+| [getXmpData()](#getXmpData--) | Gets Xmp data. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets Xmp data. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFrameOptions()](#getFrameOptions--) | Gets the frame create options. |
 | [getHeight()](#getHeight--) | Gets the image height. |
@@ -47,6 +50,7 @@ The tiff frame.
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [getPathResources()](#getPathResources--) | Gets the path resources. |
 | [setPathResources(List<PathResource> value)](#setPathResources-java.util.List-com.aspose.imaging.fileformats.tiff.pathresources.PathResource--) | Sets the path resources. |
+| [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to ``. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 | [alignResolutions()](#alignResolutions--) | Helper method to make horizontal and vertical resolutions equal. |
 | [copyFrame(TiffFrame tiffFrame)](#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Copies the entire frame (duplicates). |
@@ -288,22 +292,22 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-Gets XMP data from frame.
+Gets Xmp data.
 
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - XMP packet data wrapper
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - Xmp data.
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-Sets XMP data from frame.
+Sets Xmp data.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP packet data wrapper |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | Xmp data. |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -594,6 +598,14 @@ Value: The path resources.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.List<com.aspose.imaging.fileformats.tiff.pathresources.PathResource> | the path resources. |
+
+### removeMetadata() {#removeMetadata--}
+```
+public void removeMetadata()
+```
+
+
+Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to ``.
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```

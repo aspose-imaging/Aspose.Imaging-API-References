@@ -23,8 +23,6 @@ Create JPEG2000 (JP2) image files with our API, utilizing advanced wavelet techn
 
 | Method | Description |
 | --- | --- |
-| [getXmpData()](#getXmpData--) | Gets or sets the XMP metadata container. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Gets or sets the XMP metadata container. |
 | [getComments()](#getComments--) | Gets or sets the Jpeg comment markers. |
 | [setComments(String[] value)](#setComments-java.lang.String---) | Gets or sets the Jpeg comment markers. |
 | [getCodec()](#getCodec--) | Gets or sets the JPEG2000 codec |
@@ -86,29 +84,6 @@ Initializes a new instance of the `Jpeg2000Options` class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | jpeg2000Options | [Jpeg2000Options](../../com.aspose.imaging.imageoptions/jpeg2000options) | The Jpeg2000 file format options to copy settings from. |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets or sets the XMP metadata container.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP data container.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Gets or sets the XMP metadata container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP data container. |
 
 ### getComments() {#getComments--}
 ```
@@ -219,7 +194,7 @@ public boolean getIrreversible()
 Gets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default).
 
 **Returns:**
-boolean - a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression
+boolean - a value indicating whether you use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression
 ### setIrreversible(boolean value) {#setIrreversible-boolean-}
 ```
 public void setIrreversible(boolean value)
@@ -231,7 +206,7 @@ Sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossl
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression |
+| value | boolean | a value indicating whether you use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression |
 
 
 **Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**

@@ -23,7 +23,6 @@ Create Photoshop Document (PSD) images with our API, offering versatile options 
 
 | Method | Description |
 | --- | --- |
-| [getXmpData()](#getXmpData--) | Get or set XMP data container |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Get or set XMP data container |
 | [getVersion()](#getVersion--) | Gets or sets the PSD file version. |
 | [setVersion(int value)](#setVersion-int-) | Gets or sets the PSD file version. |
@@ -123,16 +122,6 @@ Initializes a new instance of the `PsdOptions` class.
 | --- | --- | --- |
 | options | [PsdOptions](../../com.aspose.imaging.imageoptions/psdoptions) | The options. |
 
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Get or set XMP data container
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
 ### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
 ```
 public void setXmpData(XmpPacketWrapper value)

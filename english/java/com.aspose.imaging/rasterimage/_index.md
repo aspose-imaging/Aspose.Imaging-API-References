@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging/rasterimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IRasterImageArgb32PixelLoader](../../com.aspose.imaging/irasterimageargb32pixelloader), com.aspose.internal.IPixelsSaver
+[com.aspose.imaging.IRasterImageArgb32PixelLoader](../../com.aspose.imaging/irasterimageargb32pixelloader), com.aspose.internal.IPixelsSaver, [com.aspose.imaging.xmp.IHasXmpData](../../com.aspose.imaging.xmp/ihasxmpdata)
 ```
-public abstract class RasterImage extends Image implements IRasterImageArgb32PixelLoader, IPixelsSaver
+public abstract class RasterImage extends Image implements IRasterImageArgb32PixelLoader, IPixelsSaver, IHasXmpData
 ```
 
 Represents a raster image supporting raster graphics operations.
@@ -49,6 +49,7 @@ Represents a raster image supporting raster graphics operations.
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the image transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
+| [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`. |
 | [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Retrieves the date and time when the resource image underwent its latest modification. |
 | [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | Performs dithering on the current image. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
@@ -73,7 +74,7 @@ Represents a raster image supporting raster graphics operations.
 | [loadCmykPixels(Rectangle rectangle)](#loadCmykPixels-com.aspose.imaging.Rectangle-) | Loads pixels in CMYK format. |
 | [loadCmyk32Pixels(Rectangle rectangle)](#loadCmyk32Pixels-com.aspose.imaging.Rectangle-) | Loads pixels in CMYK format. |
 | [loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)](#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-) | Loads raw image data using the partial processing mechanism. |
-| [loadRawData(Rectangle rectangle, Rectangle destImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)](#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-) | Loads raw data. |
+| [loadRawData(Rectangle rectangle, Rectangle dstImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)](#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-) | Loads raw data. |
 | [saveRawData(byte[] data, int dataOffset, Rectangle rectangle, RawDataSettings rawDataSettings)](#saveRawData-byte---int-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-) | Saves the raw data. |
 | [saveArgb32Pixels(Rectangle rectangle, int[] pixels)](#saveArgb32Pixels-com.aspose.imaging.Rectangle-int---) | Saves the 32-bit ARGB pixels. |
 | [savePixels(Rectangle rectangle, Color[] pixels)](#savePixels-com.aspose.imaging.Rectangle-com.aspose.imaging.Color---) | Saves the pixels. |
@@ -657,6 +658,14 @@ Gets opacity of this image.
 
 **Returns:**
 float - The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
+### removeMetadata() {#removeMetadata--}
+```
+public void removeMetadata()
+```
+
+
+Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`.
+
 ### getModifyDate(boolean useDefault) {#getModifyDate-boolean-}
 ```
 public Date getModifyDate(boolean useDefault)
@@ -1459,9 +1468,9 @@ try {
 // The total number of pixels is 120400
 ```
 
-### loadRawData(Rectangle rectangle, Rectangle destImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader) {#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-}
+### loadRawData(Rectangle rectangle, Rectangle dstImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader) {#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-}
 ```
-public void loadRawData(Rectangle rectangle, Rectangle destImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)
+public void loadRawData(Rectangle rectangle, Rectangle dstImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)
 ```
 
 
@@ -1471,7 +1480,7 @@ Loads raw data.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle to load raw data from. |
-| destImageBounds | [Rectangle](../../com.aspose.imaging/rectangle) | The dest image bounds. |
+| dstImageBounds | [Rectangle](../../com.aspose.imaging/rectangle) | The destination image bounds. |
 | rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | The raw data settings to use for loaded data. Note if data is not in the format specified then data conversion will be performed. |
 | rawDataLoader | [IPartialRawDataLoader](../../com.aspose.imaging/ipartialrawdataloader) | The raw data loader. |
 

@@ -3,7 +3,7 @@ title: IImageDescriptor
 second_title: Aspose.Imaging for Java API Reference
 description: The image descriptor.
 type: docs
-weight: 130
+weight: 131
 url: /java/com.aspose.imaging/iimagedescriptor/
 ---```
 public interface IImageDescriptor

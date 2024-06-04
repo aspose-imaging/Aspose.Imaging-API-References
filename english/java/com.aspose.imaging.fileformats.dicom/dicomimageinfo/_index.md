@@ -23,6 +23,7 @@ Contains all meta-information from Dicom file header
 | [getDicomInfo()](#getDicomInfo--) | Gets the header information of the DICOM file. |
 | [getSamplesPerPixel()](#getSamplesPerPixel--) | Gets a value of the "samplesPerPixel". |
 | [getBitsAllocated()](#getBitsAllocated--) | Gets a value of the "bitsAllocated". |
+| [getBitsStored()](#getBitsStored--) | Gets the number of stored bits. |
 | [getPhotoInterpretation()](#getPhotoInterpretation--) | Gets a value of the "PhotoInterpretation". |
 | [getWidth()](#getWidth--) | Gets the width. |
 | [getHeight()](#getHeight--) | Gets the height. |
@@ -179,6 +180,16 @@ Value: The value of the "bitsAllocated".
 
 **Returns:**
 int - a value of the "bitsAllocated".
+### getBitsStored() {#getBitsStored--}
+```
+public int getBitsStored()
+```
+
+
+Gets the number of stored bits.
+
+**Returns:**
+int - the number of stored bits.
 ### getPhotoInterpretation() {#getPhotoInterpretation--}
 ```
 public String getPhotoInterpretation()

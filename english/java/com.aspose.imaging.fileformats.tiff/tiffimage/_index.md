@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.tiff/tiffimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage), [com.aspose.imaging.RasterCachedMultipageImage](../../com.aspose.imaging/rastercachedmultipageimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext)
+[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), com.aspose.internal.IMetadataContainer
 ```
-public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt
+public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer
 ```
 
 Process Tagged Image File Format (TIFF) raster images with our API, offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels. Normalize angles for scanned images, resize, transform to grayscale, and apply filters, gamma corrections and image parameters adjustments with ease. Seamlessly handle multi-frame TIFF files, create graphics paths, add shapes, and effortlessly save images to different formats.
@@ -43,6 +43,7 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 | [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
 | [getPages()](#getPages--) | Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. |
 | [hasAlpha()](#hasAlpha--) | Determine whether the image has an alpha channel, providing crucial information for rendering and compositing operations. |
+| [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to ``. |
 | [getOriginalOptions()](#getOriginalOptions--) | Retrieve options derived from the original file settings, facilitating seamless preservation of key parameters such as bit-depth and other essential attributes of the original image. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Incorporate a new page into the existing image seamlessly, expanding its content and versatility. |
 | [alignResolutions()](#alignResolutions--) | Implement the AlignResolutions helper method to synchronize horizontal and vertical resolutions, ensuring uniformity in image dimensions. |
@@ -653,6 +654,14 @@ try {
 // Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 // Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 ```
+
+### removeMetadata() {#removeMetadata--}
+```
+public void removeMetadata()
+```
+
+
+Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to ``.
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```

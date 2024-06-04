@@ -3,7 +3,7 @@ title: IImageExporterDescriptor
 second_title: Aspose.Imaging for Java API Reference
 description: Represents the image exporter descriptor.
 type: docs
-weight: 132
+weight: 133
 url: /java/com.aspose.imaging/iimageexporterdescriptor/
 ---
 **All Implemented Interfaces:**

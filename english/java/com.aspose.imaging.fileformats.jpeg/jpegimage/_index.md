@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.fileformats.jpeg/jpegimage/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage)
+
+**All Implemented Interfaces:**
+com.aspose.internal.IMetadataContainer, [com.aspose.imaging.exif.IHasJpegExifData](../../com.aspose.imaging.exif/ihasjpegexifdata)
 ```
-public final class JpegImage extends RasterCachedImage
+public final class JpegImage extends RasterCachedImage implements IMetadataContainer, IHasJpegExifData
 ```
 
 Efficiently manipulate JPEG raster images with our API, offering support for various color profiles such as RGB and CMYK, customizable bits per pixel resolution, and processing of EXIF, JFIF, and XMP metadata containers. Enjoy automated rotation based on orientation data and choose from different compression levels, including lossless JPEG, to achieve optimal image quality and file size balance for your projects.
@@ -31,10 +34,12 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the pixel depth of the image effortlessly with this property, offering insights into the richness of color or grayscale representation. |
 | [getComment()](#getComment--) | Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. |
 | [setComment(String value)](#setComment-java.lang.String-) | Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. |
-| [getExifData()](#getExifData--) | Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. |
-| [setExifData(JpegExifData value)](#setExifData-com.aspose.imaging.exif.JpegExifData-) | Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. |
+| [getJpegExifData()](#getJpegExifData--) | Gets Exif instance. |
+| [setJpegExifData(JpegExifData value)](#setJpegExifData-com.aspose.imaging.exif.JpegExifData-) | Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. |
 | [getXmpData()](#getXmpData--) | Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP metadata, enabling seamless integration of descriptive information into the image file. |
+| [getExifData()](#getExifData--) | Gets Exif data; |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets Exif data; |
 | [getHeight()](#getHeight--) | Retrieve the height of the image effortlessly with this property. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | This property grants you access to the horizontal resolution of the [RasterImage](../../com.aspose.imaging/rasterimage), measured in pixels per inch. |
 | [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | This property grants you access to the horizontal resolution of the [RasterImage](../../com.aspose.imaging/rasterimage), measured in pixels per inch. |
@@ -54,6 +59,7 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 | [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
 | [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
 | [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
+| [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData()](../../com.aspose.imaging.exif/ihasexifdata\#getExifData--)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to `null`. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), ensuring accurate scaling and printing capabilities. |
 | [autoRotate()](#autoRotate--) | Automatically rotates the image based on orientation data extracted from Exif metadata. |
 
@@ -246,16 +252,62 @@ Manage JPEG file comments with this property, allowing you to add or retrieve de
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getExifData() {#getExifData--}
+### getJpegExifData() {#getJpegExifData--}
 ```
-public JpegExifData getExifData()
+public JpegExifData getJpegExifData()
+```
+
+
+Gets Exif instance.
+
+**Returns:**
+[JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) - Exif instance.
+### setJpegExifData(JpegExifData value) {#setJpegExifData-com.aspose.imaging.exif.JpegExifData-}
+```
+public void setJpegExifData(JpegExifData value)
 ```
 
 
 Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. Whether it's extracting information about the camera settings or modifying existing metadata, this property offers flexibility in managing the EXIF data container.
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) |  |
+
+### getXmpData() {#getXmpData--}
+```
+public XmpPacketWrapper getXmpData()
+```
+
+
+Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
+
 **Returns:**
-[JpegExifData](../../com.aspose.imaging.exif/jpegexifdata)
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - XMP metadata, enabling seamless integration of descriptive information into the image file.
+### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
+```
+public void setXmpData(XmpPacketWrapper value)
+```
+
+
+Sets XMP metadata, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP metadata, enabling seamless integration of descriptive information into the image file. |
+
+### getExifData() {#getExifData--}
+```
+public ExifData getExifData()
+```
+
+
+Gets Exif data;
+
+**Returns:**
+[ExifData](../../com.aspose.imaging.exif/exifdata) - Exif data;
 
 **Example: The following example shows how to extract EXIF tags from a JPEG image.**
 
@@ -334,41 +386,18 @@ try {
 //The software: Adobe Photoshop Camera Raw 9.9(Macintosh)
 ```
 
-### setExifData(JpegExifData value) {#setExifData-com.aspose.imaging.exif.JpegExifData-}
+### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
 ```
-public void setExifData(JpegExifData value)
+public void setExifData(ExifData value)
 ```
 
 
-Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. Whether it's extracting information about the camera settings or modifying existing metadata, this property offers flexibility in managing the EXIF data container.
+Sets Exif data;
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) |  |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP metadata. |
+| value | [ExifData](../../com.aspose.imaging.exif/exifdata) | Exif data; |
 
 ### getHeight() {#getHeight--}
 ```
@@ -761,6 +790,14 @@ Retrieves or modifies the flag denoting whether the embedded color profile is di
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### removeMetadata() {#removeMetadata--}
+```
+public void removeMetadata()
+```
+
+
+Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData()](../../com.aspose.imaging.exif/ihasexifdata\#getExifData--)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to `null`.
 
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```

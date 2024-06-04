@@ -3,7 +3,7 @@ title: IImageLoaderDescriptor
 second_title: Aspose.Imaging for Java API Reference
 description: The image loader descriptor specifying the loader properties.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.imaging/iimageloaderdescriptor/
 ---
 **All Implemented Interfaces:**

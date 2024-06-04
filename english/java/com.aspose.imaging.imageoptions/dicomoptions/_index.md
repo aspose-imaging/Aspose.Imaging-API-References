@@ -27,8 +27,6 @@ The API for Digital Imaging and Communications in Medicine (DICOM) raster image 
 | [setCompression(Compression value)](#setCompression-com.aspose.imaging.fileformats.dicom.Compression-) | Sets the compression. |
 | [getColorType()](#getColorType--) | Gets the type of the color. |
 | [setColorType(int value)](#setColorType-int-) | Sets the type of the color. |
-| [getXmpData()](#getXmpData--) | Gets the Xmp data. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the Xmp data. |
 
 ## Example: The following example shows export to DICOM file format (single and multipage).
 
@@ -318,27 +316,4 @@ try (Image inputImage = Image.load("original.jpg"))
     inputImage.save("original_8Bit.dcm", options);
 }
 ```
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets the Xmp data.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the Xmp data.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets the Xmp data.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the Xmp data. |
 

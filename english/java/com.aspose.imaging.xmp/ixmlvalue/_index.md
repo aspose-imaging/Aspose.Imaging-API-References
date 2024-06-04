@@ -3,7 +3,7 @@ title: IXmlValue
 second_title: Aspose.Imaging for Java API Reference
 description: Converts xmp values to the XML string representation.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.imaging.xmp/ixmlvalue/
 ---```
 public interface IXmlValue
