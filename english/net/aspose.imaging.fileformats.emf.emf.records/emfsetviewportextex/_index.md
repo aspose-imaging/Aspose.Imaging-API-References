@@ -3,7 +3,7 @@ title: Class EmfSetViewportExtEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetViewportExtEx class. The EMR_SETVIEWPORTEXTEX record defines the viewport extent
 type: docs
-weight: 4530
+weight: 4550
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/
 ---
 ## EmfSetViewportExtEx class

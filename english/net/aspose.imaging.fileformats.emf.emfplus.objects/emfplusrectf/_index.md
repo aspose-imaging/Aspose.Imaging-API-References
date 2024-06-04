@@ -3,7 +3,7 @@ title: Class EmfPlusRectF
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusRectF class. The EmfPlusRectF object specifies a rectangles origin height and width as 32bit floatingpoint values
 type: docs
-weight: 5700
+weight: 5720
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/
 ---
 ## EmfPlusRectF class

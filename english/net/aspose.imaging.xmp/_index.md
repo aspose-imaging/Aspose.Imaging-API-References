@@ -28,6 +28,7 @@ The namespace contains XMP related helper classes and methods.
 
 | Interface | Description |
 | --- | --- |
+| [IHasXmpData](./ihasxmpdata/) | [`XmpPacketWrapper`](../aspose.imaging.xmp/xmppacketwrapper/) instance container interface. |
 | [IXmlValue](./ixmlvalue/) | Converts xmp values to the XML string representation. |
 ## Enumeration
 

@@ -3,7 +3,7 @@ title: TiffOptions.SamplesPerPixel
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets the samples per pixel. To change this property value use the BitsPerSample property setter
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.imaging.imageoptions/tiffoptions/samplesperpixel/
 ---
 ## TiffOptions.SamplesPerPixel property

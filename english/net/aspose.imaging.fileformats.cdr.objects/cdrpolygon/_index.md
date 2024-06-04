@@ -3,7 +3,7 @@ title: Class CdrPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrPolygon class. The cdr polygon
 type: docs
-weight: 1720
+weight: 1740
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrpolygon/
 ---
 ## CdrPolygon class

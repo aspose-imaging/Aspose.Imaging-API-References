@@ -3,7 +3,7 @@ title: Class RectangleExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.RectangleExtensions class. Contains extension methods for Rectangle
 type: docs
-weight: 1250
+weight: 1270
 url: /net/aspose.imaging.extensions/rectangleextensions/
 ---
 ## RectangleExtensions class

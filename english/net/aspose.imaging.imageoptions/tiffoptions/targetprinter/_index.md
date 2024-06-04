@@ -3,7 +3,7 @@ title: TiffOptions.TargetPrinter
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the target printer
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.imaging.imageoptions/tiffoptions/targetprinter/
 ---
 ## TiffOptions.TargetPrinter property

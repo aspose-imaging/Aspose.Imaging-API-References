@@ -3,7 +3,7 @@ title: Class GifImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.GifImage class. The API for Graphical Interchange Format GIF image file provides developers with versatile tools for processing compressed raster images and animated GIFs. Offering features like XMP metadata handling color palette settings background and transparent color control opacity settings resize crop filter application gamma corrections contrast adjustment grayscale transformation and conversion to other formats. This API empowers seamless manipulation and enhancement of GIF images for a wide range of applications
 type: docs
-weight: 6690
+weight: 6710
 url: /net/aspose.imaging.fileformats.gif/gifimage/
 ---
 ## GifImage class
@@ -126,6 +126,7 @@ public sealed class GifImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [RemoveBlock](../../aspose.imaging.fileformats.gif/gifimage/removeblock/)(IGifBlock) | Removing a GIF block removes specific data from the image, offering the ability to clean up or modify the image structure. This method enables you to remove unwanted or unnecessary blocks, optimizing the GIF image for efficient storage. Use this functionality to eliminate outdated information from the image while preserving its integrity and quality. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |

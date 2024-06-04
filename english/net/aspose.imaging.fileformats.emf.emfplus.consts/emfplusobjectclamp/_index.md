@@ -3,7 +3,7 @@ title: Enum EmfPlusObjectClamp
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusObjectClamp enum. EmfPlusObjectClamp specifies the object clamping behavior. It is not used until this object is applied to an image being drawn
 type: docs
-weight: 4940
+weight: 4960
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjectclamp/
 ---
 ## EmfPlusObjectClamp enumeration

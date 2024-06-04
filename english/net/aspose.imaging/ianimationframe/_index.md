@@ -3,7 +3,7 @@ title: Interface IAnimationFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IAnimationFrame interface. The Animation frame
 type: docs
-weight: 9490
+weight: 9510
 url: /net/aspose.imaging/ianimationframe/
 ---
 ## IAnimationFrame interface

@@ -3,7 +3,7 @@ title: DicomImage.AddPage
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Expand your image collection by adding a new page with this intuitive method. Ideal for developers seeking to dynamically append pages to multipage images ensuring seamless expansion and organization of image content
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/addpage/
 ---
 ## AddPage(RasterImage) {#addpage_1}

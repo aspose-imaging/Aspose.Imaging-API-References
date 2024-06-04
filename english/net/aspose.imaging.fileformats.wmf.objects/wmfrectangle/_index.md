@@ -3,7 +3,7 @@ title: Class WmfRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle class. The META_RECTANGLE record paints a rectangle. The rectangle is outlined by using the pen and filled by using the brush that are defined in the playback device context
 type: docs
-weight: 8990
+weight: 9010
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfrectangle/
 ---
 ## WmfRectangle class

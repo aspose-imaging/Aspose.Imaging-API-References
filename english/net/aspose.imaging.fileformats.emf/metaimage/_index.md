@@ -3,7 +3,7 @@ title: Class MetaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.MetaImage class. Base class for Meta object classes
 type: docs
-weight: 6520
+weight: 6540
 url: /net/aspose.imaging.fileformats.emf/metaimage/
 ---
 ## MetaImage class
@@ -63,6 +63,7 @@ public abstract class MetaImage : VectorImage
 | abstract [GetUsedFonts](../../aspose.imaging.fileformats.emf/metaimage/getusedfonts/)() | Returns the list of font which used inside metafile. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | abstract [Resize](../../aspose.imaging/image/resize/)(int, int, ImageResizeSettings) | Resizes the image. |
 | abstract [Resize](../../aspose.imaging/image/resize/)(int, int, ResizeType) | Resizes the image. |

@@ -3,7 +3,7 @@ title: Enum GradientTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.GradientTypes enum. Gradient fill types
 type: docs
-weight: 2050
+weight: 2070
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/
 ---
 ## GradientTypes enumeration

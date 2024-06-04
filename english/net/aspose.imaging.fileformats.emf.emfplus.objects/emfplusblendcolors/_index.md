@@ -3,7 +3,7 @@ title: Class EmfPlusBlendColors
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBlendColors class. The EmfPlusBlendColors object specifies positions and colors for the blend pattern of a gradient brush
 type: docs
-weight: 5210
+weight: 5230
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/
 ---
 ## EmfPlusBlendColors class

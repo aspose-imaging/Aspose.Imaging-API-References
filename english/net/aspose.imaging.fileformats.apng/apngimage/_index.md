@@ -3,7 +3,7 @@ title: Class ApngImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Apng.ApngImage class. The API for Animated PNG Animated Portable Network Graphics image file format is a versatile solution for developers looking to integrate animated content into their applications. This API offers extensive control over frame settings allowing users to define framespecific parameters including loop duration and PNG file settings. With this featurerich tool you can effortlessly manage and optimize the display of APNG images import and export images enhancing the dynamic and interactive aspects of your applications
 type: docs
-weight: 1320
+weight: 1340
 url: /net/aspose.imaging.fileformats.apng/apngimage/
 ---
 ## ApngImage class
@@ -122,6 +122,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [RemoveAllFrames](../../aspose.imaging.fileformats.apng/apngimage/removeallframes/)() | Clear your frame collection by removing all frames with this intuitive method. Ideal for developers seeking to reset or refresh their animations. |
 | [RemoveFrameAt](../../aspose.imaging.fileformats.apng/apngimage/removeframeat/)(int) | Remove the frame at the specified index from your frame collection seamlessly with this method. Perfect for developers seeking streamlined management of frames in their multi-frame images. The frame to be deleted will be disposed. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | override [ReplaceColor](../../aspose.imaging/rastercachedmultipageimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |

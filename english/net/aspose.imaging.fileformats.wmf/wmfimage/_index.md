@@ -3,7 +3,7 @@ title: Class WmfImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.WmfImage class. Manipulate Microsoft Windows Metafile WMF images with our API seamlessly handling both vector and bitmap data stored within variablelength records. Resize rotate and flip images with ease while setting custom image palettes. Convert WMF files to compressed WMZ formats or save them in raster image formats for versatile usage across platforms and applications
 type: docs
-weight: 9350
+weight: 9370
 url: /net/aspose.imaging.fileformats.wmf/wmfimage/
 ---
 ## WmfImage class
@@ -68,6 +68,7 @@ public class WmfImage : MetaImage
 | override [GetUsedFonts](../../aspose.imaging.fileformats.wmf/wmfimage/getusedfonts/)() | Retrieve the list of fonts used within the metafile, providing insight into the font resources utilized in the image. Utilize this method to analyze font usage and ensure font availability for rendering or further processing within your application. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.wmf/wmfimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjust the size of the image based on specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application. |
 | override [Resize](../../aspose.imaging.fileformats.wmf/wmfimage/resize/#resize_2)(int, int, ResizeType) | Resize the image with the specified resizing type, allowing for flexible adjustment of dimensions while preserving aspect ratio or applying specific scaling algorithms. Integrate this method into your image processing workflow to achieve precise resizing operations tailored to your application's requirements. |

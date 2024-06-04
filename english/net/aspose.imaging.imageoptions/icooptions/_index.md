@@ -3,7 +3,7 @@ title: Class IcoOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.IcoOptions class. Create custom ICO image files for application icons effortlessly with our API empowering you to represent your software seamlessly. Our API supports PNG and BMP image frames with various bits per pixel values ensuring versatility and compatibility for your icon creation needs
 type: docs
-weight: 10150
+weight: 10180
 url: /net/aspose.imaging.imageoptions/icooptions/
 ---
 ## IcoOptions class
@@ -30,6 +30,7 @@ public class IcoOptions : ImageOptionsBase
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [Format](../../aspose.imaging.imageoptions/icooptions/format/) { get; set; } | Gets or sets the ICO frame format. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |

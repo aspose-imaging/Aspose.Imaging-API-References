@@ -3,7 +3,7 @@ title: Class CdrText
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrText class. The cdr text
 type: docs
-weight: 1790
+weight: 1810
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrtext/
 ---
 ## CdrText class

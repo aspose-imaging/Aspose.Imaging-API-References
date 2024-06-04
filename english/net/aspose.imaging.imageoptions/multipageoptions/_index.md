@@ -3,7 +3,7 @@ title: Class MultiPageOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.MultiPageOptions class. Base class for multiple pages supported formats
 type: docs
-weight: 10210
+weight: 10240
 url: /net/aspose.imaging.imageoptions/multipageoptions/
 ---
 ## MultiPageOptions class

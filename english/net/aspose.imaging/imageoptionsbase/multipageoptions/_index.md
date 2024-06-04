@@ -3,7 +3,7 @@ title: ImageOptionsBase.MultiPageOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. The multipage options
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging/imageoptionsbase/multipageoptions/
 ---
 ## ImageOptionsBase.MultiPageOptions property

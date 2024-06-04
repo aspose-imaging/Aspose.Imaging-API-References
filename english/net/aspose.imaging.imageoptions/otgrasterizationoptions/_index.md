@@ -3,7 +3,7 @@ title: Class OtgRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.OtgRasterizationOptions class. The Otg rasterization options
 type: docs
-weight: 10240
+weight: 10270
 url: /net/aspose.imaging.imageoptions/otgrasterizationoptions/
 ---
 ## OtgRasterizationOptions class
@@ -32,6 +32,7 @@ public class OtgRasterizationOptions : OdRasterizationOptions
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor/) { get; set; } | Gets or sets a foreground color. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight/) { get; set; } | Gets or sets the page height. |
 | [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/) { get; set; } | Gets or sets the page size. |

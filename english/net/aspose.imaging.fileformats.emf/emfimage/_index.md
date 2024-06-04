@@ -3,7 +3,7 @@ title: Class EmfImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfImage class. The API for Enhanced Metafile Format EMF vector image format support is a comprehensive tool for processing graphical images in a deviceindependent manner while preserving their original properties. Developed to maintain proportions dimensions colors and other graphic attributes it includes EMF Plus format support and features for cropping regions resizing canvas and images rotating flipping setting image palettes exporting and importing to APS device context compressing and converting EMF to other formats ensuring versatile manipulation and seamless integration of EMF images across applications
 type: docs
-weight: 4680
+weight: 4700
 url: /net/aspose.imaging.fileformats.emf/emfimage/
 ---
 ## EmfImage class
@@ -65,6 +65,7 @@ public sealed class EmfImage : MetaImage
 | override [GetUsedFonts](../../aspose.imaging.fileformats.emf/emfimage/getusedfonts/)() | Retrieve the list of fonts utilized within the metafile with this method. Gain insights into font usage, facilitating efficient management and optimization of font resources for enhanced rendering and display fidelity. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.emf/emfimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjust your image size with customizable settings, ensuring optimal dimensions and clarity. Perfect for tailoring images to specific requirements while maintaining quality. |
 | override [Resize](../../aspose.imaging.fileformats.emf/emfimage/resize/#resize_2)(int, int, ResizeType) | Resize your image effortlessly with this function, specifying the desired width, height, and type. Perfect for adjusting images to fit specific dimensions while maintaining clarity and quality. Ideal for optimizing images for various platforms and applications. |

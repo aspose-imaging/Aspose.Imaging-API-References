@@ -3,7 +3,7 @@ title: Class BitmapV4Header
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Bmp.BitmapV4Header class. The BitmapV4Header structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure. The BitmapV4Header structure is extended to allow a JPEG or PNG image to be passed as the source image to StretchDIBits
 type: docs
-weight: 1370
+weight: 1390
 url: /net/aspose.imaging.fileformats.bmp/bitmapv4header/
 ---
 ## BitmapV4Header class

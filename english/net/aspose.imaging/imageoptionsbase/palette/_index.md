@@ -3,7 +3,7 @@ title: ImageOptionsBase.Palette
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. Gets or sets the color palette
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging/imageoptionsbase/palette/
 ---
 ## ImageOptionsBase.Palette property

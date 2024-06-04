@@ -3,7 +3,7 @@ title: TiffOptions.SmaxSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the max sample value. The value has a field type which best matches the sample data Byte Short or Long type
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.imaging.imageoptions/tiffoptions/smaxsamplevalue/
 ---
 ## TiffOptions.SmaxSampleValue property

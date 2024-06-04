@@ -3,7 +3,7 @@ title: DicomImageInfo.DicomHeaderInfoByBytes
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the dicom header information by bytes
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobybytes/
 ---
 ## DicomImageInfo.DicomHeaderInfoByBytes property

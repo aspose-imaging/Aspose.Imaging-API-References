@@ -3,7 +3,7 @@ title: TiffOptions.MinSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the min sample value
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging.imageoptions/tiffoptions/minsamplevalue/
 ---
 ## TiffOptions.MinSampleValue property

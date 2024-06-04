@@ -3,7 +3,7 @@ title: Enum EpsType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Eps.Consts.EpsType enum. Subtypes of Encapsulated PostScript format
 type: docs
-weight: 6550
+weight: 6570
 url: /net/aspose.imaging.fileformats.eps.consts/epstype/
 ---
 ## EpsType enumeration

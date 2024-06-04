@@ -3,7 +3,7 @@ title: Class WmfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.WmfOptions class. The wmf options
 type: docs
-weight: 10430
+weight: 10460
 url: /net/aspose.imaging.imageoptions/wmfoptions/
 ---
 ## WmfOptions class
@@ -28,6 +28,7 @@ public class WmfOptions : MetafileOptions
 | [Compress](../../aspose.imaging.imageoptions/metafileoptions/compress/) { get; set; } | Gets or sets a value indicating whether this ICompressedOptions is compressed. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |

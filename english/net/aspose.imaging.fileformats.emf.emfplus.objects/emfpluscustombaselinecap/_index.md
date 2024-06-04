@@ -3,7 +3,7 @@ title: Class EmfPlusCustomBaseLineCap
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomBaseLineCap class. Base class for custom line cap types
 type: docs
-weight: 5360
+weight: 5380
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustombaselinecap/
 ---
 ## EmfPlusCustomBaseLineCap class

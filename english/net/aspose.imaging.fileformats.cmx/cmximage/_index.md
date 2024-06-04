@@ -3,7 +3,7 @@ title: Class CmxImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.CmxImage class. The API for Corel Metafile Exchange CMX vector image format with metadata descriptions support is a comprehensive solution for developers working with CMX files. This API allows for the seamless loading of CMX images extracting metadata such as bits per pixel object dimensions and more. With additional functionalities like resizing rotating setting palettes and converting to other formats this API empowers developers to efficiently manipulate and customize CMX vector images to meet their specific application requirements
 type: docs
-weight: 1910
+weight: 1930
 url: /net/aspose.imaging.fileformats.cmx/cmximage/
 ---
 ## CmxImage class
@@ -63,6 +63,7 @@ public class CmxImage : VectorMultipageImage, ICmxImage
 | override [GetSerializedStream](../../aspose.imaging/vectormultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.cmx/cmximage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging.fileformats.cmx/cmximage/resize/#resize_2)(int, int, ResizeType) | Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically, ensuring they fit the layout or requirements of their applications seamlessly. |

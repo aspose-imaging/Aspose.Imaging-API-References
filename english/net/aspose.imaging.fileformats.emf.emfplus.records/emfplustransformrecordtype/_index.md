@@ -3,7 +3,7 @@ title: Class EmfPlusTransformRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTransformRecordType class. The Transform Record Types specify properties and transforms on coordinate spaces
 type: docs
-weight: 6460
+weight: 6480
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplustransformrecordtype/
 ---
 ## EmfPlusTransformRecordType class

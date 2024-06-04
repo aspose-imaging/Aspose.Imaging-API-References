@@ -3,7 +3,7 @@ title: DicomImageInfo.SamplesPerPixel
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value of the samplesPerPixel
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/samplesperpixel/
 ---
 ## DicomImageInfo.SamplesPerPixel property

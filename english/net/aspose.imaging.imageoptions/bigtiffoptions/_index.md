@@ -3,7 +3,7 @@ title: Class BigTiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.BigTiffOptions class. The API for BigTIFF raster image format creation is specifically designed to serve to the unique requirements of applications utilizing largescale imaging data from scanners. This API facilitates the seamless generation of BigTIFF format which combines multiple TIFF images into a single comprehensive image. It ensures efficient processing of extensive image data providing developers with a powerful tool for creating and manipulating highresolution multiimage formats
 type: docs
-weight: 10030
+weight: 10060
 url: /net/aspose.imaging.imageoptions/bigtiffoptions/
 ---
 ## BigTiffOptions class
@@ -41,6 +41,7 @@ public sealed class BigTiffOptions : TiffOptions
 | [DisableIccExport](../../aspose.imaging.imageoptions/tiffoptions/disableiccexport/) { get; set; } | Gets or sets a value indicating whether ICC profile export is disabled (ICC profile is applied to the source pixels beforehand). |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [DocumentName](../../aspose.imaging.imageoptions/tiffoptions/documentname/) { get; set; } | Gets or sets the name of the document. |
+| [ExifData](../../aspose.imaging.imageoptions/tiffoptions/exifdata/) { get; set; } | Gets or sets Exif data. |
 | [ExifIfd](../../aspose.imaging.imageoptions/tiffoptions/exififd/) { get; } | Gets or sets the pointer to EXIF IFD. |
 | [ExtraSamples](../../aspose.imaging.imageoptions/tiffoptions/extrasamples/) { get; } | Gets the extra samples values. |
 | [FaxT4Options](../../aspose.imaging.imageoptions/tiffoptions/faxt4options/) { get; set; } | Gets or sets the fax t4 options. |
@@ -56,6 +57,7 @@ public sealed class BigTiffOptions : TiffOptions
 | [IsExtraSamplesPresent](../../aspose.imaging.imageoptions/tiffoptions/isextrasamplespresent/) { get; } | Gets a value indicating whether the extra samples is present. |
 | [IsTiled](../../aspose.imaging.imageoptions/tiffoptions/istiled/) { get; } | Gets a value indicating whether image is tiled. |
 | [IsValid](../../aspose.imaging.imageoptions/tiffoptions/isvalid/) { get; } | Gets a value indicating whether the [`TiffOptions`](../tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MaxSampleValue](../../aspose.imaging.imageoptions/tiffoptions/maxsamplevalue/) { get; set; } | Gets or sets the max sample value. |
 | [MinSampleValue](../../aspose.imaging.imageoptions/tiffoptions/minsamplevalue/) { get; set; } | Gets or sets the min sample value. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -93,7 +95,7 @@ public sealed class BigTiffOptions : TiffOptions
 | [TotalPages](../../aspose.imaging.imageoptions/tiffoptions/totalpages/) { get; } | Gets the total pages. |
 | [ValidTagCount](../../aspose.imaging.imageoptions/tiffoptions/validtagcount/) { get; } | Gets the valid tag count. This is not the total tags count but the number of tags which may be preserved. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/tiffoptions/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 | [XPAuthor](../../aspose.imaging.imageoptions/tiffoptions/xpauthor/) { get; set; } | Gets or sets image author, which used by Windows Explorer. |
 | [XPComment](../../aspose.imaging.imageoptions/tiffoptions/xpcomment/) { get; set; } | Gets or sets comment on image, which used by Windows Explorer. |
 | [XPKeywords](../../aspose.imaging.imageoptions/tiffoptions/xpkeywords/) { get; set; } | Gets or sets subject image, which used by Windows Explorer. |

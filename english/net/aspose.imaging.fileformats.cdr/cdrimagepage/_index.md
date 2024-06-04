@@ -3,7 +3,7 @@ title: Class CdrImagePage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.CdrImagePage class. The Cdr image page
 type: docs
-weight: 1440
+weight: 1460
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/
 ---
 ## CdrImagePage class
@@ -55,6 +55,7 @@ public class CdrImagePage : VectorImage, ICdrImage
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.cdr/cdrimagepage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging.fileformats.cdr/cdrimagepage/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |

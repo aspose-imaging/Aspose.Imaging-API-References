@@ -3,7 +3,7 @@ title: Class VectorImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.VectorImage class. The vector image is the base class for all type of vector images
 type: docs
-weight: 11540
+weight: 11570
 url: /net/aspose.imaging/vectorimage/
 ---
 ## VectorImage class
@@ -52,6 +52,7 @@ public abstract class VectorImage : Image, IObjectWithSizeF
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/#removebackground)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/#removebackground_1)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | abstract [Resize](../../aspose.imaging/image/resize/)(int, int, ImageResizeSettings) | Resizes the image. |
 | abstract [Resize](../../aspose.imaging/image/resize/)(int, int, ResizeType) | Resizes the image. |

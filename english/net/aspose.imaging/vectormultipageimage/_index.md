@@ -3,7 +3,7 @@ title: Class VectorMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.VectorMultipageImage class. The Vector multipage image
 type: docs
-weight: 11550
+weight: 11580
 url: /net/aspose.imaging/vectormultipageimage/
 ---
 ## VectorMultipageImage class
@@ -55,6 +55,7 @@ public abstract class VectorMultipageImage : VectorImage, IMultipageImage
 | override [GetSerializedStream](../../aspose.imaging/vectormultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectormultipageimage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging/vectormultipageimage/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |

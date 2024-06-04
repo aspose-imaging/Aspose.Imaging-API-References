@@ -3,7 +3,7 @@ title: TiffOptions.PageName
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the page name
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.imaging.imageoptions/tiffoptions/pagename/
 ---
 ## TiffOptions.PageName property

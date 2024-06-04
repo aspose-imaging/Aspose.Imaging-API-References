@@ -3,7 +3,7 @@ title: TiffOptions.ExifIfd
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the pointer to EXIF IFD
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging.imageoptions/tiffoptions/exififd/
 ---
 ## TiffOptions.ExifIfd property

@@ -3,7 +3,7 @@ title: DicomImageInfo.WindowWidth
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the width of the window
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/windowwidth/
 ---
 ## DicomImageInfo.WindowWidth property

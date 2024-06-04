@@ -3,7 +3,7 @@ title: Class Os22XBitmapHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Bmp.Os22XBitmapHeader class. An OS/2 2.x OS22XBITMAPHEADER aka BITMAPCOREHEADER2
 type: docs
-weight: 1400
+weight: 1420
 url: /net/aspose.imaging.fileformats.bmp/os22xbitmapheader/
 ---
 ## Os22XBitmapHeader class

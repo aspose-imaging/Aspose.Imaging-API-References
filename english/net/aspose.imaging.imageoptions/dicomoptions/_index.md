@@ -3,7 +3,7 @@ title: Class DicomOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.DicomOptions class. The API for Digital Imaging and Communications in Medicine DICOM raster image format creation is a specialized tool tailored for medical device applications. It enables the seamless generation of DICOM images crucial for storing medical data and containing vital identification information. With features to and set compression define color types and embed XMP metadata developers can ensure compliance and flexibility in managing DICOM images for medical imaging purposes
 type: docs
-weight: 10070
+weight: 10100
 url: /net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class
@@ -29,13 +29,14 @@ public class DicomOptions : ImageOptionsBase
 | [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression/) { get; set; } | Gets or sets the compression. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
 | [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 

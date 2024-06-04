@@ -3,7 +3,7 @@ title: DicomImageInfo.DicomInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the header information of the DICOM file
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo/
 ---
 ## DicomImageInfo.DicomInfo property

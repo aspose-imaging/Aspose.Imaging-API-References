@@ -3,7 +3,7 @@ title: Enum LineTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.LineTypes enum. Flags to describe the type of line
 type: docs
-weight: 2070
+weight: 2090
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/linetypes/
 ---
 ## LineTypes enumeration

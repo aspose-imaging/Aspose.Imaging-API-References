@@ -3,7 +3,7 @@ title: Class OdImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.OdImage class. The open document
 type: docs
-weight: 7370
+weight: 7390
 url: /net/aspose.imaging.fileformats.opendocument/odimage/
 ---
 ## OdImage class
@@ -64,6 +64,7 @@ public abstract class OdImage : VectorMultipageImage
 | override [GetSerializedStream](../../aspose.imaging/vectormultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging.fileformats.opendocument/odimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjusts the dimensions of the image according to specified width, height, and resize settings. This method provides flexibility in resizing images while maintaining desired proportions and adhering to defined resize configurations, ensuring accurate adjustment of image dimensions to meet specific requirements or display criteria. |
 | override [Resize](../../aspose.imaging.fileformats.opendocument/odimage/resize/#resize_2)(int, int, ResizeType) | This method resizes the image, adjusting both width and height based on the specified dimensions and resize type. It offers a comprehensive approach to resizing, allowing for precise adjustments while maintaining image quality and integrity. By incorporating the resize type parameter, users can choose from various resizing algorithms or methods to achieve optimal results for different use cases or preferences. |

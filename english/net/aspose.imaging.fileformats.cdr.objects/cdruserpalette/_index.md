@@ -3,7 +3,7 @@ title: Class CdrUserPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrUserPalette class. The cdr user palette
 type: docs
-weight: 1820
+weight: 1840
 url: /net/aspose.imaging.fileformats.cdr.objects/cdruserpalette/
 ---
 ## CdrUserPalette class

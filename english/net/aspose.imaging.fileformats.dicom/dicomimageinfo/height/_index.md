@@ -3,7 +3,7 @@ title: DicomImageInfo.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the height
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/height/
 ---
 ## DicomImageInfo.Height property

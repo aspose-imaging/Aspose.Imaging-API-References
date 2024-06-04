@@ -3,7 +3,7 @@ title: DicomImageInfo.Greens
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the array colors of the green
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/greens/
 ---
 ## DicomImageInfo.Greens property

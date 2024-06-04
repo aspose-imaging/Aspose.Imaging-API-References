@@ -3,7 +3,7 @@ title: Class WmfPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfPolygon class. The polygon object
 type: docs
-weight: 8960
+weight: 8980
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpolygon/
 ---
 ## WmfPolygon class

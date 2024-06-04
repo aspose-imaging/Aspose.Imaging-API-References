@@ -3,7 +3,7 @@ title: Interface IPartialRawDataLoader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IPartialRawDataLoader interface. The partial data loader
 type: docs
-weight: 9690
+weight: 9720
 url: /net/aspose.imaging/ipartialrawdataloader/
 ---
 ## IPartialRawDataLoader interface

@@ -3,7 +3,7 @@ title: ImageOptionsBase.Clone
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase method. Clones this instance
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging/imageoptionsbase/clone/
 ---
 ## ImageOptionsBase.Clone method

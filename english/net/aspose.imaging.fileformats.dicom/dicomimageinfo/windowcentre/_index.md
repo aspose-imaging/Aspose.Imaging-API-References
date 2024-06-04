@@ -3,7 +3,7 @@ title: DicomImageInfo.WindowCentre
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets the window centre
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/windowcentre/
 ---
 ## DicomImageInfo.WindowCentre property

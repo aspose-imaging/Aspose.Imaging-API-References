@@ -3,7 +3,7 @@ title: Class EmfCommentEmfPlus
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentEmfPlus class. The EMR_COMMENT_EMFPLUS record contains embedded EMF records. Note Fields that are not described in this section are specified in section 2.3.3
 type: docs
-weight: 3370
+weight: 3390
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 ---
 ## EmfCommentEmfPlus class

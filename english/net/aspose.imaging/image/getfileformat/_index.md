@@ -3,7 +3,7 @@ title: Image.GetFileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Gets the file format
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.imaging/image/getfileformat/
 ---
 ## GetFileFormat(string) {#getfileformat_1}

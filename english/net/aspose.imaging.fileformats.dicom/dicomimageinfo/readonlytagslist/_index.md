@@ -3,7 +3,7 @@ title: DicomImageInfo.ReadonlyTagsList
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. The readonly tags list. These tag values will be reset according to the actual image data upon image save
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/readonlytagslist/
 ---
 ## DicomImageInfo.ReadonlyTagsList property

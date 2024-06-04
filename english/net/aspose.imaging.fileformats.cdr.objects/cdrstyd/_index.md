@@ -3,7 +3,7 @@ title: Class CdrStyd
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrStyd class. The cdr style
 type: docs
-weight: 1770
+weight: 1790
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrstyd/
 ---
 ## CdrStyd class

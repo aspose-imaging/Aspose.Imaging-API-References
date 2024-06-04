@@ -3,7 +3,7 @@ title: Class TiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TiffOptions class. The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method
 type: docs
-weight: 10370
+weight: 10400
 url: /net/aspose.imaging.imageoptions/tiffoptions/
 ---
 ## TiffOptions class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/
 The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method.
 
 ```csharp
-public class TiffOptions : ImageOptionsBase
+public class TiffOptions : ImageOptionsBase, IHasExifData
 ```
 
 ## Constructors
@@ -41,6 +41,7 @@ public class TiffOptions : ImageOptionsBase
 | [DisableIccExport](../../aspose.imaging.imageoptions/tiffoptions/disableiccexport/) { get; set; } | Gets or sets a value indicating whether ICC profile export is disabled (ICC profile is applied to the source pixels beforehand). |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [DocumentName](../../aspose.imaging.imageoptions/tiffoptions/documentname/) { get; set; } | Gets or sets the name of the document. |
+| [ExifData](../../aspose.imaging.imageoptions/tiffoptions/exifdata/) { get; set; } | Gets or sets Exif data. |
 | [ExifIfd](../../aspose.imaging.imageoptions/tiffoptions/exififd/) { get; } | Gets or sets the pointer to EXIF IFD. |
 | [ExtraSamples](../../aspose.imaging.imageoptions/tiffoptions/extrasamples/) { get; } | Gets the extra samples values. |
 | [FaxT4Options](../../aspose.imaging.imageoptions/tiffoptions/faxt4options/) { get; set; } | Gets or sets the fax t4 options. |
@@ -56,6 +57,7 @@ public class TiffOptions : ImageOptionsBase
 | [IsExtraSamplesPresent](../../aspose.imaging.imageoptions/tiffoptions/isextrasamplespresent/) { get; } | Gets a value indicating whether the extra samples is present. |
 | [IsTiled](../../aspose.imaging.imageoptions/tiffoptions/istiled/) { get; } | Gets a value indicating whether image is tiled. |
 | [IsValid](../../aspose.imaging.imageoptions/tiffoptions/isvalid/) { get; } | Gets a value indicating whether the `TiffOptions` have been properly configured. Use Validate method as to find the failure reason. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MaxSampleValue](../../aspose.imaging.imageoptions/tiffoptions/maxsamplevalue/) { get; set; } | Gets or sets the max sample value. |
 | [MinSampleValue](../../aspose.imaging.imageoptions/tiffoptions/minsamplevalue/) { get; set; } | Gets or sets the min sample value. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -93,7 +95,7 @@ public class TiffOptions : ImageOptionsBase
 | [TotalPages](../../aspose.imaging.imageoptions/tiffoptions/totalpages/) { get; } | Gets the total pages. |
 | [ValidTagCount](../../aspose.imaging.imageoptions/tiffoptions/validtagcount/) { get; } | Gets the valid tag count. This is not the total tags count but the number of tags which may be preserved. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
-| override [XmpData](../../aspose.imaging.imageoptions/tiffoptions/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 | [XPAuthor](../../aspose.imaging.imageoptions/tiffoptions/xpauthor/) { get; set; } | Gets or sets image author, which used by Windows Explorer. |
 | [XPComment](../../aspose.imaging.imageoptions/tiffoptions/xpcomment/) { get; set; } | Gets or sets comment on image, which used by Windows Explorer. |
 | [XPKeywords](../../aspose.imaging.imageoptions/tiffoptions/xpkeywords/) { get; set; } | Gets or sets subject image, which used by Windows Explorer. |
@@ -229,6 +231,7 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.t
 ### See Also
 
 * class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* interface [IHasExifData](../../aspose.imaging.exif/ihasexifdata/)
 * namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 

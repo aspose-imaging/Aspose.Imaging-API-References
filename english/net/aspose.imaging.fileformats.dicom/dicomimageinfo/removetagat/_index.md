@@ -3,7 +3,7 @@ title: DicomImageInfo.RemoveTagAt
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo method. Remove an existing tag
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/removetagat/
 ---
 ## DicomImageInfo.RemoveTagAt method

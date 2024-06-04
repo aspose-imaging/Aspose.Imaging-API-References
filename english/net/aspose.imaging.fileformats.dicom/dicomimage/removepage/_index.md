@@ -3,7 +3,7 @@ title: DicomImage.RemovePage
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Eliminate the page at the specified index from the page list with this convenient method. Ideal for developers seeking precise control over the management of multipage images ensuring seamless organization and customization of image content
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/removepage/
 ---
 ## DicomImage.RemovePage method

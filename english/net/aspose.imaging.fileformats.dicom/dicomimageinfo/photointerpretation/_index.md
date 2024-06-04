@@ -3,7 +3,7 @@ title: DicomImageInfo.PhotoInterpretation
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImageInfo property. Gets a value of the PhotoInterpretation
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/photointerpretation/
 ---
 ## DicomImageInfo.PhotoInterpretation property

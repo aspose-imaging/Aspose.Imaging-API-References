@@ -3,7 +3,7 @@ title: TiffOptions.PageNumber
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the page number tag
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.imaging.imageoptions/tiffoptions/pagenumber/
 ---
 ## TiffOptions.PageNumber property

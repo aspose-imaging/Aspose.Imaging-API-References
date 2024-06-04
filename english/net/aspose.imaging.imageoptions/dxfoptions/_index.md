@@ -3,7 +3,7 @@ title: Class DxfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.DxfOptions class. API for Drawing Interchange Format DXF vector image creation offers tailored solutions for generating AutoCAD drawing files with precision and flexibility. Designed specifically for working with text lines and Bezier curves developers can efficiently manipulate these elements count Bezier points and convert curves into polylines for seamless exporting ensuring compatibility and fidelity in DXF vector images
 type: docs
-weight: 10090
+weight: 10120
 url: /net/aspose.imaging.imageoptions/dxfoptions/
 ---
 ## DxfOptions class
@@ -29,6 +29,7 @@ public class DxfOptions : ImageOptionsBase
 | [ConvertTextBeziers](../../aspose.imaging.imageoptions/dxfoptions/converttextbeziers/) { get; set; } | Works when  is set to `true`. Wether to convert Bezier curves in text contours to multipoint polylines. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |

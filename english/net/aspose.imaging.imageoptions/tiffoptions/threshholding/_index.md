@@ -3,7 +3,7 @@ title: TiffOptions.Threshholding
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the threshholding
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.imaging.imageoptions/tiffoptions/threshholding/
 ---
 ## TiffOptions.Threshholding property

@@ -3,7 +3,7 @@ title: Class ColorExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.ColorExtensions class. The Color extension methods
 type: docs
-weight: 1140
+weight: 1160
 url: /net/aspose.imaging.extensions/colorextensions/
 ---
 ## ColorExtensions class

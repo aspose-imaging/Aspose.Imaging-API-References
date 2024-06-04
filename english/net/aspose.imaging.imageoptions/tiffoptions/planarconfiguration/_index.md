@@ -3,7 +3,7 @@ title: TiffOptions.PlanarConfiguration
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the planar configuration
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.imaging.imageoptions/tiffoptions/planarconfiguration/
 ---
 ## TiffOptions.PlanarConfiguration property

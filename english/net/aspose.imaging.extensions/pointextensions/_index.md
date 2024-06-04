@@ -3,7 +3,7 @@ title: Class PointExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.PointExtensions class. Contains extension methods for Point and PointF structures
 type: docs
-weight: 1240
+weight: 1260
 url: /net/aspose.imaging.extensions/pointextensions/
 ---
 ## PointExtensions class

@@ -3,7 +3,7 @@ title: Class CmxRectangleSpec
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs.CmxRectangleSpec class. Represents geometric info specified for a rectangle
 type: docs
-weight: 2200
+weight: 2220
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/
 ---
 ## CmxRectangleSpec class

@@ -3,7 +3,7 @@ title: Class RasterImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterImage class. Represents a raster image supporting raster graphics operations
 type: docs
-weight: 11130
+weight: 11160
 url: /net/aspose.imaging/rasterimage/
 ---
 ## RasterImage class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging/rasterimage/
 Represents a raster image supporting raster graphics operations.
 
 ```csharp
-public abstract class RasterImage : Image, IRasterImageArgb32PixelLoader
+public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelLoader
 ```
 
 ## Properties
@@ -100,6 +100,7 @@ public abstract class RasterImage : Image, IRasterImageArgb32PixelLoader
 | virtual [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle/#normalizeangle_1)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](./getskewangle/) and [`Rotate`](./rotate/) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
+| override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/#replacecolor)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | virtual [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/#replacecolor_1)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/#replacenontransparentcolors)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
@@ -189,6 +190,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 ### See Also
 
 * class [Image](../image/)
+* interface [IHasXmpData](../../aspose.imaging.xmp/ihasxmpdata/)
 * interface [IRasterImageArgb32PixelLoader](../irasterimageargb32pixelloader/)
 * namespace [Aspose.Imaging](../../aspose.imaging/)
 * assembly [Aspose.Imaging](../../)

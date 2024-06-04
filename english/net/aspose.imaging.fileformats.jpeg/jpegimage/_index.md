@@ -3,7 +3,7 @@ title: Class JpegImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Jpeg.JpegImage class. Efficiently manipulate JPEG raster images with our API offering support for various color profiles such as RGB and CMYK customizable bits per pixel resolution and processing of EXIF JFIF and XMP metadata containers. Enjoy automated rotation based on orientation data and choose from different compression levels including lossless JPEG to achieve optimal image quality and file size balance for your projects
 type: docs
-weight: 6770
+weight: 6790
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/
 ---
 ## JpegImage class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegimage/
 Efficiently manipulate JPEG raster images with our API, offering support for various color profiles such as RGB and CMYK, customizable bits per pixel resolution, and processing of EXIF, JFIF, and XMP metadata containers. Enjoy automated rotation based on orientation data and choose from different compression levels, including lossless JPEG, to achieve optimal image quality and file size balance for your projects.
 
 ```csharp
-public sealed class JpegImage : RasterCachedImage
+public sealed class JpegImage : RasterCachedImage, IHasJpegExifData
 ```
 
 ## Constructors
@@ -70,7 +70,7 @@ public sealed class JpegImage : RasterCachedImage
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | override [VerticalResolution](../../aspose.imaging.fileformats.jpeg/jpegimage/verticalresolution/) { get; set; } | This property manages the vertical resolution, expressed in pixels per inch, for the associated [`RasterImage`](../../aspose.imaging/rasterimage/). Adjusting this resolution impacts the size and quality of the image when printed or displayed at a fixed physical size. By setting this property, you control how densely the image's pixels are packed vertically, affecting its overall sharpness and clarity. |
 | override [Width](../../aspose.imaging.fileformats.jpeg/jpegimage/width/) { get; } | This property retrieves the width of the image, expressed in pixels. It provides essential information about the image's dimensions, enabling accurate rendering, manipulation, or display of the image data. |
-| override [XmpData](../../aspose.imaging.fileformats.jpeg/jpegimage/xmpdata/) { get; set; } | Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows. |
+| override [XmpData](../../aspose.imaging.fileformats.jpeg/jpegimage/xmpdata/) { get; set; } | Gets or sets XMP metadata, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows. |
 
 ## Methods
 
@@ -120,6 +120,7 @@ public sealed class JpegImage : RasterCachedImage
 | virtual [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle/)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle/) and [`Rotate`](../../aspose.imaging/rasterimage/rotate/) methods. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
+| override [RemoveMetadata](../../aspose.imaging.fileformats.jpeg/jpegimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) and [`ExifData`](../../aspose.imaging.exif/ihasexifdata/exifdata/) values to `null`. |
 | [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(Color, byte, Color) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | virtual [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor/)(int, byte, int) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
@@ -191,6 +192,7 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 ### See Also
 
 * class [RasterCachedImage](../../aspose.imaging/rastercachedimage/)
+* interface [IHasJpegExifData](../../aspose.imaging.exif/ihasjpegexifdata/)
 * namespace [Aspose.Imaging.FileFormats.Jpeg](../../aspose.imaging.fileformats.jpeg/)
 * assembly [Aspose.Imaging](../../)
 

@@ -3,7 +3,7 @@ title: TiffOptions.Predictor
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffOptions property. Gets or sets the predictor for LZW compression
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.imaging.imageoptions/tiffoptions/predictor/
 ---
 ## TiffOptions.Predictor property

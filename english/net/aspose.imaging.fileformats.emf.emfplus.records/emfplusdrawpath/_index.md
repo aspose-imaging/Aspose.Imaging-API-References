@@ -3,7 +3,7 @@ title: Class EmfPlusDrawPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawPath class. The EmfPlusDrawPath record specifies drawing a graphics path
 type: docs
-weight: 6000
+weight: 6020
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpath/
 ---
 ## EmfPlusDrawPath class

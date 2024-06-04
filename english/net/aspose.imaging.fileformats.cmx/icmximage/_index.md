@@ -3,7 +3,7 @@ title: Interface ICmxImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ICmxImage interface. The CMX image interface
 type: docs
-weight: 1930
+weight: 1950
 url: /net/aspose.imaging.fileformats.cmx/icmximage/
 ---
 ## ICmxImage interface

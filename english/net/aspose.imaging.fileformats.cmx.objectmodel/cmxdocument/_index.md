@@ -3,7 +3,7 @@ title: Class CmxDocument
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.CmxDocument class. The CMX document
 type: docs
-weight: 1950
+weight: 1970
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/
 ---
 ## CmxDocument class

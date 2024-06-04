@@ -3,7 +3,7 @@ title: Class EmfFillRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfFillRgn class. The EMR_FILLRGN record fills the specified region by using the specified brush
 type: docs
-weight: 3710
+weight: 3730
 url: /net/aspose.imaging.fileformats.emf.emf.records/emffillrgn/
 ---
 ## EmfFillRgn class

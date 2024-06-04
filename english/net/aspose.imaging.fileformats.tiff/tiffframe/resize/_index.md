@@ -3,7 +3,7 @@ title: TiffFrame.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame method. Resizes the image
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/resize/
 ---
 ## TiffFrame.Resize method

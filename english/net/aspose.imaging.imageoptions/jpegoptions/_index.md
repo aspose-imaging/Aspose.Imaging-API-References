@@ -3,7 +3,7 @@ title: Class JpegOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.JpegOptions class. Create highquality JPEG images effortlessly with our API offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types near lossless coding RGB and CMYK color profiles as well as EXIF JFIF image data and XMP containers ensuring versatile and customizable options for your image creation needs
 type: docs
-weight: 10170
+weight: 10200
 url: /net/aspose.imaging.imageoptions/jpegoptions/
 ---
 ## JpegOptions class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/jpegoptions/
 Create high-quality JPEG images effortlessly with our API, offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types, near lossless coding, RGB and CMYK color profiles, as well as EXIF, JFIF image data, and XMP containers, ensuring versatile and customizable options for your image creation needs.
 
 ```csharp
-public class JpegOptions : ImageOptionsBase
+public class JpegOptions : ImageOptionsBase, IHasJpegExifData
 ```
 
 ## Constructors
@@ -32,13 +32,14 @@ public class JpegOptions : ImageOptionsBase
 | [Comment](../../aspose.imaging.imageoptions/jpegoptions/comment/) { get; set; } | Gets or sets the jpeg file comment. |
 | [CompressionType](../../aspose.imaging.imageoptions/jpegoptions/compressiontype/) { get; set; } | Gets or sets the compression type. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
-| [ExifData](../../aspose.imaging.imageoptions/jpegoptions/exifdata/) { get; set; } | Get or set exif data container |
+| [ExifData](../../aspose.imaging.imageoptions/jpegoptions/exifdata/) { get; set; } | Get or set Exif data container. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [HorizontalSampling](../../aspose.imaging.imageoptions/jpegoptions/horizontalsampling/) { get; set; } | Gets or sets the horizontal subsamplings for each component. |
 | [Jfif](../../aspose.imaging.imageoptions/jpegoptions/jfif/) { get; set; } | Gets or sets the jfif. |
 | [JpegLsAllowedLossyError](../../aspose.imaging.imageoptions/jpegoptions/jpeglsallowedlossyerror/) { get; set; } | Gets or sets the JPEG-LS difference bound for near-lossless coding (NEAR parameter from the JPEG-LS specification). |
 | [JpegLsInterleaveMode](../../aspose.imaging.imageoptions/jpegoptions/jpeglsinterleavemode/) { get; set; } | Gets or sets the JPEG-LS interleave mode. |
 | [JpegLsPreset](../../aspose.imaging.imageoptions/jpegoptions/jpeglspreset/) { get; set; } | Gets or sets the JPEG-LS preset parameters. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [PreblendAlphaIfPresent](../../aspose.imaging.imageoptions/jpegoptions/preblendalphaifpresent/) { get; set; } | Gets or sets a value indicating whether red, green and blue components should be mixed with a background color, if alpha channel is present. |
@@ -53,7 +54,7 @@ public class JpegOptions : ImageOptionsBase
 | [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
 | [VerticalSampling](../../aspose.imaging.imageoptions/jpegoptions/verticalsampling/) { get; set; } | Gets or sets the vertical subsamplings for each component. |
-| override [XmpData](../../aspose.imaging.imageoptions/jpegoptions/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
@@ -146,6 +147,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 ### See Also
 
 * class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* interface [IHasJpegExifData](../../aspose.imaging.exif/ihasjpegexifdata/)
 * namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 
