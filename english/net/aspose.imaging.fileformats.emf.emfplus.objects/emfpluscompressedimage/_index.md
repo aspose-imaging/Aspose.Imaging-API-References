@@ -3,7 +3,7 @@ title: Class EmfPlusCompressedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCompressedImage class. The EmfPlusCompressedImage object specifies an image with compressed data
 type: docs
-weight: 5370
+weight: 5400
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
 ---
 ## EmfPlusCompressedImage class

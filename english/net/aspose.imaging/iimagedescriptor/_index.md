@@ -3,7 +3,7 @@ title: Interface IImageDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IImageDescriptor interface. The image descriptor. Contains base properties and methods for all other image descriptor types
 type: docs
-weight: 9580
+weight: 9610
 url: /net/aspose.imaging/iimagedescriptor/
 ---
 ## IImageDescriptor interface

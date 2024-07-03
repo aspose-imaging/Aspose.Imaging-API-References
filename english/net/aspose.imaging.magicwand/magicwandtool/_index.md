@@ -3,7 +3,7 @@ title: Class MagicWandTool
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.MagicWandTool class. The class for magic wand algorithm main logic
 type: docs
-weight: 10720
+weight: 10750
 url: /net/aspose.imaging.magicwand/magicwandtool/
 ---
 ## MagicWandTool class

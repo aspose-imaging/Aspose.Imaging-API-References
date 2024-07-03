@@ -3,7 +3,7 @@ title: Class EmfPolyPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyPolygon class. The EMR_POLYPOLYGON record specifies a series of closed polygons
 type: docs
-weight: 4050
+weight: 4070
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 ---
 ## EmfPolyPolygon class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 The EMR_POLYPOLYGON record specifies a series of closed polygons.
 
 ```csharp
-public sealed class EmfPolyPolygon : EmfDrawingRecordType
+public sealed class EmfPolyPolygon : EmfPolyPolyShape
 ```
 
 ## Constructors
@@ -25,8 +25,8 @@ public sealed class EmfPolyPolygon : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints/) { get; set; } | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that specifies the points for all polygons in logical units. The number of points is specified by the Count field value. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/bounds/) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyshape/apoints/) { get; set; } | Gets or sets an array of WMF PointS objects, specified in [MS-WMF] section 2.2.2.16, which specifies the array of points. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfboundedrecord/bounds/) { get; set; } | Gets or sets an 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | Gets or sets the size of the record |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | Gets or sets the type. |
 
@@ -36,7 +36,7 @@ Each polygon SHOULD be outlined using the current pen, and filled using the curr
 
 ### See Also
 
-* class [EmfDrawingRecordType](../emfdrawingrecordtype/)
+* class [EmfPolyPolyShape](../emfpolypolyshape/)
 * namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
 * assembly [Aspose.Imaging](../../)
 

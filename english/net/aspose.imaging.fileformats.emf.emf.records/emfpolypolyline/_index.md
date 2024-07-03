@@ -3,7 +3,7 @@ title: Class EmfPolyPolyline
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyPolyline class. The EMR_POLYPOLYLINE record specifies multiple series of connected line segments
 type: docs
-weight: 4070
+weight: 4090
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/
 ---
 ## EmfPolyPolyline class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/
 The EMR_POLYPOLYLINE record specifies multiple series of connected line segments.
 
 ```csharp
-public sealed class EmfPolyPolyline : EmfDrawingRecordType
+public sealed class EmfPolyPolyline : EmfPolyPolyShape
 ```
 
 ## Constructors
@@ -25,8 +25,8 @@ public sealed class EmfPolyPolyline : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/apoints/) { get; set; } | Gets or sets a Count-length array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that specify the point data, in logical units. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/bounds/) { get; set; } | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle in device units. |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyshape/apoints/) { get; set; } | Gets or sets an array of WMF PointS objects, specified in [MS-WMF] section 2.2.2.16, which specifies the array of points. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfboundedrecord/bounds/) { get; set; } | Gets or sets an 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | Gets or sets the size of the record |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | Gets or sets the type. |
 
@@ -36,7 +36,7 @@ The line segments SHOULD be drawn using the current pen. The figures formed by t
 
 ### See Also
 
-* class [EmfDrawingRecordType](../emfdrawingrecordtype/)
+* class [EmfPolyPolyShape](../emfpolypolyshape/)
 * namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
 * assembly [Aspose.Imaging](../../)
 

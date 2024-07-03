@@ -3,7 +3,7 @@ title: Class WmfPolyPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfPolyPolygon class. The PolyPolygon Object defines a series of closed polygons
 type: docs
-weight: 8970
+weight: 9000
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
 ---
 ## WmfPolyPolygon class

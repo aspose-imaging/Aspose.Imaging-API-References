@@ -3,7 +3,7 @@ title: Class EmfCommentEndGroup
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentEndGroup class. The EMR_COMMENT_ENDGROUP record specifies the end of a group of drawing records
 type: docs
-weight: 3420
+weight: 3430
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
 ---
 ## EmfCommentEndGroup class

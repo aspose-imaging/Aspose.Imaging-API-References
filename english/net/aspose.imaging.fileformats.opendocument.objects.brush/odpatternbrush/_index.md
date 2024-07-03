@@ -3,7 +3,7 @@ title: Class OdPatternBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Brush.OdPatternBrush class. The open document pattern brush
 type: docs
-weight: 6950
+weight: 6980
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/
 ---
 ## OdPatternBrush class

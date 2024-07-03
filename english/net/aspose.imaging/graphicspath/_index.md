@@ -3,7 +3,7 @@ title: Class GraphicsPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.GraphicsPath class. Represents a series of connected lines and curves. This class cannot be inherited
 type: docs
-weight: 9460
+weight: 9490
 url: /net/aspose.imaging/graphicspath/
 ---
 ## GraphicsPath class

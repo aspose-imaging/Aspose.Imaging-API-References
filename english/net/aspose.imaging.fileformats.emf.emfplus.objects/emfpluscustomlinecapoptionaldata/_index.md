@@ -3,7 +3,7 @@ title: Class EmfPlusCustomLineCapOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomLineCapOptionalData class. The EmfPlusCustomLineCapOptionalData object specifies optional fill and outline data for a custom line cap
 type: docs
-weight: 5430
+weight: 5460
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/
 ---
 ## EmfPlusCustomLineCapOptionalData class

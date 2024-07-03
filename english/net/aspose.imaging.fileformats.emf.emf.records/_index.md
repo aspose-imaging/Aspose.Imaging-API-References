@@ -20,6 +20,7 @@ The namespace contains types [MS-EMF]: Enhanced Metafile Format. 2.3 EMF Records
 | [EmfBeginPath](./emfbeginpath/) | This record opens a path bracket in the current playback device context. After a path bracket is open, an application can begin processing records to define the points that lie in the path.An application MUST close an open path bracket by processing the EMR_ENDPATH record. When an application processes the EMR_BEGINPATH record, all previous paths MUST be discarded from the playback device context. |
 | [EmfBitBlt](./emfbitblt/) | The EMR_BITBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle, optionally in combination with a brush pattern, according to a specified raster operation. |
 | [EmfBitmapRecordType](./emfbitmaprecordtype/) | The bitmap record types perform block transfers of bitmap images. |
+| [EmfBoundedRecord](./emfboundedrecord/) | Base EMF polyshape class. |
 | [EmfChord](./emfchord/) | The EMR_CHORD record specifies a chord, which is a region bounded by the intersection of an ellipse and a line segment, called a secant. The chord is outlined by using the current pen and filled by using the current brush. |
 | [EmfClippingRecordType](./emfclippingrecordtype/) | The clipping record types specify and manage clipping regions. Note The EMR_SETMETARGN record does not specify parameters. |
 | [EmfCloseFigure](./emfclosefigure/) | This record closes an open figure in a path. Processing the EMR_CLOSEFIGURE record MUST close the figure by drawing a line from the current position to the first point of the figure, and then it MUST connect the lines by using the line join style.If a figure is closed by processing the EMR_LINETO record instead of the EMR_CLOSEFIGURE record, end caps are used to create the corner instead of a join.EMR_LINETO is specified in section 2.3.5.13. The EMR_CLOSEFIGURE record SHOULD only be used if there is an open path bracket in the playback device context. A figure in a path is open unless it is explicitly closed by processing this record. |
@@ -101,6 +102,8 @@ The namespace contains types [MS-EMF]: Enhanced Metafile Format. 2.3 EMF Records
 | [EmfPolyPolygon16](./emfpolypolygon16/) | The EMR_POLYPOLYGON16 record specifies a series of closed polygons. Each polygon is outlined using the current pen, and filled using the current brush and polygon fill mode. The polygons drawn by this record can overlap. |
 | [EmfPolyPolyline](./emfpolypolyline/) | The EMR_POLYPOLYLINE record specifies multiple series of connected line segments. |
 | [EmfPolyPolyline16](./emfpolypolyline16/) | The EMR_POLYPOLYLINE16 record specifies multiple series of connected line segments. |
+| [EmfPolyPolyShape](./emfpolypolyshape/) | base EMF poly polyshape class. |
+| [EmfPolyShape](./emfpolyshape/) | Base EMF polyshape class. |
 | [EmfPolyTextOutA](./emfpolytextouta/) | The EMR_POLYTEXTOUTA record draws one or more ASCII text strings using the current font and text colors. |
 | [EmfPolyTextOutW](./emfpolytextoutw/) | The EMR_POLYTEXTOUTW record draws one or more Unicode text strings using the current font and text colors. |
 | [EmfRealizePalette](./emfrealizepalette/) | This record maps palette entries from the current LogPalette object (section 2.2.17) to the system_palette. This EMF record specifies no parameters. |

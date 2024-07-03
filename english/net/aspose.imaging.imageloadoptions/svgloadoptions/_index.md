@@ -3,7 +3,7 @@ title: Class SvgLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageLoadOptions.SvgLoadOptions class. The Svg load options
 type: docs
-weight: 10030
+weight: 10060
 url: /net/aspose.imaging.imageloadoptions/svgloadoptions/
 ---
 ## SvgLoadOptions class

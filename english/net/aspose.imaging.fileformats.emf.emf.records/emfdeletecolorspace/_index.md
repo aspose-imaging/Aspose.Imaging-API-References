@@ -3,7 +3,7 @@ title: Class EmfDeleteColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfDeleteColorSpace class. The EMR_DELETECOLORSPACE record deletes a logical color space object
 type: docs
-weight: 3560
+weight: 3570
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 ---
 ## EmfDeleteColorSpace class

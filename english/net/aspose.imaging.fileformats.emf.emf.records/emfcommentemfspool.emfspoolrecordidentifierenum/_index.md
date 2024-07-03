@@ -3,7 +3,7 @@ title: Enum EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentEmfSpoolEmfSpoolRecordIdentifierEnum enum. Identifies the type of EMR_COMMENT_EMFSPOOL record
 type: docs
-weight: 3410
+weight: 3420
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool.emfspoolrecordidentifierenum/
 ---
 ## EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum enumeration

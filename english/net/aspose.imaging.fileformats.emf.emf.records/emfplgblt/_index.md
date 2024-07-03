@@ -3,7 +3,7 @@ title: Class EmfPlgBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPlgBlt class. The EMR_PLGBLT record specifies a block transfer of pixels from a source bitmap to a destination parallelogram with the application of a color mask bitmap
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/
 ---
 ## EmfPlgBlt class

@@ -3,7 +3,7 @@ title: Enum ProjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpDm.ProjectType enum. Represents project type in XmpDynamicMediaPackage
 type: docs
-weight: 11790
+weight: 11820
 url: /net/aspose.imaging.xmp.schemas.xmpdm/projecttype/
 ---
 ## ProjectType enumeration

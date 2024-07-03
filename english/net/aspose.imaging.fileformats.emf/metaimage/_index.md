@@ -3,7 +3,7 @@ title: Class MetaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.MetaImage class. Base class for Meta object classes
 type: docs
-weight: 6540
+weight: 6570
 url: /net/aspose.imaging.fileformats.emf/metaimage/
 ---
 ## MetaImage class

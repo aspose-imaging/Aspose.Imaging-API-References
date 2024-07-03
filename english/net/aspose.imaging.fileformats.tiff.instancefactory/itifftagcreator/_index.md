@@ -3,7 +3,7 @@ title: Interface ITiffTagCreator
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.InstanceFactory.ITiffTagCreator interface. The tiff tag creator
 type: docs
-weight: 7870
+weight: 7900
 url: /net/aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator/
 ---
 ## ITiffTagCreator interface

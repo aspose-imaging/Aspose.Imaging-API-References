@@ -3,7 +3,7 @@ title: Class TiffBigEndianStreamWriter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffBigEndianStreamWriter class. Tiff stream writer for bigendian streams
 type: docs
-weight: 7830
+weight: 7860
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/
 ---
 ## TiffBigEndianStreamWriter class

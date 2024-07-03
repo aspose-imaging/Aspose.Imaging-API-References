@@ -3,7 +3,7 @@ title: Class BezierShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shapes.BezierShape class. Represents a bezier spline
 type: docs
-weight: 11320
+weight: 11350
 url: /net/aspose.imaging.shapes/beziershape/
 ---
 ## BezierShape class
