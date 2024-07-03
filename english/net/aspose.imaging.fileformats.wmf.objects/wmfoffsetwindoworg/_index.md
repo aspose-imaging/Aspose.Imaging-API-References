@@ -3,7 +3,7 @@ title: Class WmfOffsetWindowOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfOffsetWindowOrg class. The META_OFFSETWINDOWORG record moves the output window origin in the playback device context by specified horizontal and vertical offsets
 type: docs
-weight: 8900
+weight: 8930
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfoffsetwindoworg/
 ---
 ## WmfOffsetWindowOrg class

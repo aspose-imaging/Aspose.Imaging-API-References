@@ -3,7 +3,7 @@ title: EmfColorMatchToTargetW
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COLORMATCHTOTargetW record specifies whether to perform color matching with a color profile that is specified in a file with a name consisting of Unicode characters.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
 ---
 **Inheritance:**

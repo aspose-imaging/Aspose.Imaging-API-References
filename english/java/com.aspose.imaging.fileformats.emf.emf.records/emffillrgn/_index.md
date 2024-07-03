@@ -3,7 +3,7 @@ title: EmfFillRgn
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_FILLRGN record fills the specified region by using the specified brush.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emffillrgn/
 ---
 **Inheritance:**

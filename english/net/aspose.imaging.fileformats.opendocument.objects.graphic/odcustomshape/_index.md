@@ -3,7 +3,7 @@ title: Class OdCustomShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdCustomShape class. The open document customshape
 type: docs
-weight: 7050
+weight: 7080
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape/
 ---
 ## OdCustomShape class

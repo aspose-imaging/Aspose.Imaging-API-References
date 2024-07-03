@@ -3,7 +3,7 @@ title: Enum NoiseReductionType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageLoadOptions.NoiseReductionType enum. The type of dbdd noise reduction
 type: docs
-weight: 10010
+weight: 10040
 url: /net/aspose.imaging.imageloadoptions/noisereductiontype/
 ---
 ## NoiseReductionType enumeration

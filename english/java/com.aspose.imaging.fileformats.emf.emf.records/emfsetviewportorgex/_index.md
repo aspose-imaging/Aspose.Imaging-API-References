@@ -3,7 +3,7 @@ title: EmfSetViewportOrgEx
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETVIEWPORTORGEX record defines the viewport origin.
 type: docs
-weight: 140
+weight: 143
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 ---
 **Inheritance:**

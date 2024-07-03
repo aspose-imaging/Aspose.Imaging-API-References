@@ -3,7 +3,7 @@ title: EmfRealizePalette
 second_title: Aspose.Imaging for Java API Reference
 description: This record maps palette entries from the current LogPalette object section 2.2.17 to the system_palette.
 type: docs
-weight: 102
+weight: 105
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/
 ---
 **Inheritance:**

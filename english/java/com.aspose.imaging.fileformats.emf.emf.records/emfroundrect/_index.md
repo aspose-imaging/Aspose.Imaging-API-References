@@ -3,7 +3,7 @@ title: EmfRoundRect
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_ROUNDRECT record specifies a rectangle with rounded corners.
 type: docs
-weight: 108
+weight: 111
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 **Inheritance:**

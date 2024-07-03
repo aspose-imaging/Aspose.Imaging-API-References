@@ -3,7 +3,7 @@ title: EmfSetColorAdjustment
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETCOLORADJUSTMENT record specifies color adjustment properties in the playback device context.
 type: docs
-weight: 119
+weight: 122
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/
 ---
 **Inheritance:**

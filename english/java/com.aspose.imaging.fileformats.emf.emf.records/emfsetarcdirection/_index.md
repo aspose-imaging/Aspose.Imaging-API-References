@@ -3,7 +3,7 @@ title: EmfSetArcDirection
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETARCDIRECTION record specifies the drawing direction to be used for arc and rectangle output.
 type: docs
-weight: 115
+weight: 118
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
 ---
 **Inheritance:**

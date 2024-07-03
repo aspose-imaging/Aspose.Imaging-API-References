@@ -3,7 +3,7 @@ title: EmfPixelFormat
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_PIXELFORMAT record specifies the pixel format to use for graphics operations.
 type: docs
-weight: 82
+weight: 83
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 **Inheritance:**

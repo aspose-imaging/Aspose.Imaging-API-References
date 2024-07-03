@@ -3,7 +3,7 @@ title: EmfMoveToEx
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_MOVETOEX record specifies coordinates of the new current position in logical units.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfmovetoex/
 ---
 **Inheritance:**

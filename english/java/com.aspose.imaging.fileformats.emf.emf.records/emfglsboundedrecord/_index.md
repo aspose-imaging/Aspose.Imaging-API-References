@@ -3,7 +3,7 @@ title: EmfGlsBoundedRecord
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_GLSBOUNDEDRECORD record specifies an OpenGL function with a bounding rectangle for output.
 type: docs
-weight: 62
+weight: 63
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
 ---
 **Inheritance:**

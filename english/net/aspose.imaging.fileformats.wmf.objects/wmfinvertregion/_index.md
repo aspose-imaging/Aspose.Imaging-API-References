@@ -3,7 +3,7 @@ title: Class WmfInvertRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfInvertRegion class. The META_INVERTREGION record draws a region in which the colors are inverted
 type: docs
-weight: 8820
+weight: 8850
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/
 ---
 ## WmfInvertRegion class

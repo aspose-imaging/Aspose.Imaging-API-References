@@ -3,7 +3,7 @@ title: EmfObjectCreationRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The object creation record types create graphics objects.
 type: docs
-weight: 75
+weight: 76
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfobjectcreationrecordtype/
 ---
 **Inheritance:**

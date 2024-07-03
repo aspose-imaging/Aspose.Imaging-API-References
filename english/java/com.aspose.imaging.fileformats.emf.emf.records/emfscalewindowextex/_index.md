@@ -3,7 +3,7 @@ title: EmfScaleWindowExtex
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SCALEWINDOWEXTEX record respecifies the window for a playback device context by using the ratios formed by the specified multiplicands and divisors.
 type: docs
-weight: 111
+weight: 114
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 ---
 **Inheritance:**

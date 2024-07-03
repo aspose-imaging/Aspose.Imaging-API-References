@@ -3,7 +3,7 @@ title: EmfModifyWorldTransform
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_MODIFYWORLDTRANSFORM record modifies the current world-space to page-space transform in the playback device context.
 type: docs
-weight: 72
+weight: 73
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/
 ---
 **Inheritance:**

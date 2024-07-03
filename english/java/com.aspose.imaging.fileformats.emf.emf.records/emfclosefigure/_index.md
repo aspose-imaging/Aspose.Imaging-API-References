@@ -3,7 +3,7 @@ title: EmfCloseFigure
 second_title: Aspose.Imaging for Java API Reference
 description: This record closes an open figure in a path.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfclosefigure/
 ---
 **Inheritance:**

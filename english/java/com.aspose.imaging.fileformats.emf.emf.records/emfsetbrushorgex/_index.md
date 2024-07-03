@@ -3,7 +3,7 @@ title: EmfSetBrushOrgEx
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETBRUSHORGEX record specifies the origin of the current brush.
 type: docs
-weight: 118
+weight: 121
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/
 ---
 **Inheritance:**

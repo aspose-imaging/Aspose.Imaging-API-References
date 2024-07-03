@@ -3,7 +3,7 @@ title: EmfSetIcmProfileA
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETICMPROFILEA record specifies a color profile in a file with a name consisting of ASCII characters for graphics output.
 type: docs
-weight: 123
+weight: 126
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/
 ---
 **Inheritance:**

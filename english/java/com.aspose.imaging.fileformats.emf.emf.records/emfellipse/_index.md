@@ -3,7 +3,7 @@ title: EmfEllipse
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_ELLIPSE record specifies an ellipse.
 type: docs
-weight: 45
+weight: 46
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfellipse/
 ---
 **Inheritance:**

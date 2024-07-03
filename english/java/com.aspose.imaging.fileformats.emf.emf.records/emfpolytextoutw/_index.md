@@ -3,7 +3,7 @@ title: EmfPolyTextOutW
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_POLYTEXTOUTW record draws one or more Unicode text strings using the current font and text colors.
 type: docs
-weight: 95
+weight: 98
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfEof
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EOF record indicates the end of the metafile and specifies a palette.
 type: docs
-weight: 47
+weight: 48
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfeof/
 ---
 **Inheritance:**

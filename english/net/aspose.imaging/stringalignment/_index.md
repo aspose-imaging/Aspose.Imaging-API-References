@@ -3,7 +3,7 @@ title: Enum StringAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.StringAlignment enum. Specifies the alignment of a text string relative to its layout rectangle
 type: docs
-weight: 11500
+weight: 11530
 url: /net/aspose.imaging/stringalignment/
 ---
 ## StringAlignment enumeration

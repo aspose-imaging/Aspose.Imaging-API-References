@@ -3,7 +3,7 @@ title: EmfSetPolyFillMode
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETPOLYFILLMODE record defines polygon fill mode.
 type: docs
-weight: 133
+weight: 136
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 ---
 **Inheritance:**

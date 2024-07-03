@@ -3,7 +3,7 @@ title: EmfStateRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The state record types specify and manage graphics properties that define the state of the playback device context.
 type: docs
-weight: 145
+weight: 148
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype/
 ---
 **Inheritance:**

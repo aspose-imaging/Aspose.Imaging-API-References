@@ -3,7 +3,7 @@ title: EmfMaskBlt
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_MASKBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle optionally in combination with a brush pattern and with the application of a color mask bitmap according to specified foreground and background raster operations.
 type: docs
-weight: 68
+weight: 69
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfmaskblt/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfSetMetaRgn
 second_title: Aspose.Imaging for Java API Reference
 description: Inter sets the current meta region with the current clipping region to form a new meta region for the playback device context.
 type: docs
-weight: 129
+weight: 132
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 ---
 **Inheritance:**

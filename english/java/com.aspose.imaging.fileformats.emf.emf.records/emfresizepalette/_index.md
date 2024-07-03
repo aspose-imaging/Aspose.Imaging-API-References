@@ -3,7 +3,7 @@ title: EmfResizePalette
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_RESIZEPALETTE record increases or decreases the size of an existing LogPalette object section 2.2.17.
 type: docs
-weight: 105
+weight: 108
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
 ---
 **Inheritance:**

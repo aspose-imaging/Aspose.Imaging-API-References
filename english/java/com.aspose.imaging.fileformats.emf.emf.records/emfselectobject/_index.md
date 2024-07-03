@@ -3,7 +3,7 @@ title: EmfSelectObject
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SELECTOBJECT record adds a graphics object to the current metafile playback device context.
 type: docs
-weight: 113
+weight: 116
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfselectobject/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfSetBkColor
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETBKCOLOR record specifies the background color.
 type: docs
-weight: 116
+weight: 119
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/
 ---
 **Inheritance:**

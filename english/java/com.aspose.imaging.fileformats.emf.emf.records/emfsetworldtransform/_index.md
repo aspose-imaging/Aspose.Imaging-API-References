@@ -3,7 +3,7 @@ title: EmfSetWorldTransform
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETWORLDTRANSFORM record specifies a transform for the current world-space to page space transform in the playback device context.
 type: docs
-weight: 143
+weight: 146
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform/
 ---
 **Inheritance:**

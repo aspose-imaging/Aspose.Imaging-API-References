@@ -3,7 +3,7 @@ title: Class EmfDeleteObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfDeleteObject class. The EMR_DELETEOBJECT record deletes a graphics object which is specified by its index in the EMF Object Tablesection 3.1.1.1
 type: docs
-weight: 3570
+weight: 3580
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/
 ---
 ## EmfDeleteObject class

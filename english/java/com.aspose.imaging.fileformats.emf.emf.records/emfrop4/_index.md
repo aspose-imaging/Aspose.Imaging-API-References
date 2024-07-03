@@ -3,7 +3,7 @@ title: EmfRop4
 second_title: Aspose.Imaging for Java API Reference
 description: A quaternary raster operation which specifies ternary raster operations for the foreground and background colors of a bitmap.
 type: docs
-weight: 107
+weight: 110
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfrop4/
 ---
 **Inheritance:**

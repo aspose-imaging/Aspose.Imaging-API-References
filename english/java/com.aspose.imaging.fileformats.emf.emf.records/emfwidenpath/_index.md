@@ -3,7 +3,7 @@ title: EmfWidenPath
 second_title: Aspose.Imaging for Java API Reference
 description: This record redefines the current path as the area that would be painted if the path were drawn using the pen currently selected into the playback device context.
 type: docs
-weight: 153
+weight: 156
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfwidenpath/
 ---
 **Inheritance:**

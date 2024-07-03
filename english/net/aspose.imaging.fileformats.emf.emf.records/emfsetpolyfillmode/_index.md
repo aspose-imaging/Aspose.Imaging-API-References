@@ -3,7 +3,7 @@ title: Class EmfSetPolyFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetPolyFillMode class. The EMR_SETPOLYFILLMODE record defines polygon fill mode
 type: docs
-weight: 4490
+weight: 4520
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 ---
 ## EmfSetPolyFillMode class

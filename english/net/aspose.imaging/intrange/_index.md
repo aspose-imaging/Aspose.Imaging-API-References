@@ -3,7 +3,7 @@ title: Class IntRange
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IntRange class. Class for representing sequence of elements
 type: docs
-weight: 10500
+weight: 10530
 url: /net/aspose.imaging/intrange/
 ---
 ## IntRange class

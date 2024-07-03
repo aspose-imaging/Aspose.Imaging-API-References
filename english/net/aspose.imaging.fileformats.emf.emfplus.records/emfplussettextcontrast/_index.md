@@ -3,7 +3,7 @@ title: Class EmfPlusSetTextContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetTextContrast class. The EmfPlusSetTextContrast record specifies text contrast according to the gamma correction value
 type: docs
-weight: 6410
+weight: 6440
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast/
 ---
 ## EmfPlusSetTextContrast class

@@ -3,7 +3,7 @@ title: EmfDeleteObject
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_DELETEOBJECT record deletes a graphics object which is specified by its index in the EMF Object Tablesection 3.1.1.1.
 type: docs
-weight: 42
+weight: 43
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/
 ---
 **Inheritance:**

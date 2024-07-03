@@ -3,7 +3,7 @@ title: EmfRestoreDc
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_RESTOREDC record restores the playback device context to the specified state.
 type: docs
-weight: 106
+weight: 109
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfrestoredc/
 ---
 **Inheritance:**

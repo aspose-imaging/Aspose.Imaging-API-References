@@ -3,7 +3,7 @@ title: Interface IColorConverter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IColorConverter interface. The color converter
 type: docs
-weight: 9530
+weight: 9560
 url: /net/aspose.imaging/icolorconverter/
 ---
 ## IColorConverter interface

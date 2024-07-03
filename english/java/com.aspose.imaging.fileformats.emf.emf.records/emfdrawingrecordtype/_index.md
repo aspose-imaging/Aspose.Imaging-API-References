@@ -3,7 +3,7 @@ title: EmfDrawingRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The drawing record types perform graphics drawing.
 type: docs
-weight: 44
+weight: 45
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfdrawingrecordtype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Enum WmfMetafileVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfMetafileVersion enum. The MetafileVersion Enumeration defines values that specify support for deviceindependent bitmaps DIBs in metafiles
 type: docs
-weight: 8330
+weight: 8360
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/
 ---
 ## WmfMetafileVersion enumeration

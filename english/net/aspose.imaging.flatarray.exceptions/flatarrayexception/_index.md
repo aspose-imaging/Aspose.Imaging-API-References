@@ -3,7 +3,7 @@ title: Class FlatArrayException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FlatArray.Exceptions.FlatArrayException class. Special exception for FlatArray class
 type: docs
-weight: 9410
+weight: 9440
 url: /net/aspose.imaging.flatarray.exceptions/flatarrayexception/
 ---
 ## FlatArrayException class

@@ -3,7 +3,7 @@ title: EmfPathBracketRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The path bracket record types specify and manipulate paths in path brackets.
 type: docs
-weight: 80
+weight: 81
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecordtype/
 ---
 **Inheritance:**

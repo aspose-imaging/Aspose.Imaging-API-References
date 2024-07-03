@@ -3,7 +3,7 @@ title: EmfSetDiBitsToDevice
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETDIBITSTODEVICE record specifies a block transfer of pixels from specified scan lines of a source bitmap to a destination rectangle.
 type: docs
-weight: 121
+weight: 124
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Enum WmfHatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfHatchStyle enum. The HatchStyle Enumeration specifies the hatch pattern
 type: docs
-weight: 8290
+weight: 8320
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfhatchstyle/
 ---
 ## WmfHatchStyle enumeration

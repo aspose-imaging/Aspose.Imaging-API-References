@@ -3,7 +3,7 @@ title: EmfSetTextColor
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETTEXTCOLOR record defines the current text color.
 type: docs
-weight: 137
+weight: 140
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 ---
 **Inheritance:**

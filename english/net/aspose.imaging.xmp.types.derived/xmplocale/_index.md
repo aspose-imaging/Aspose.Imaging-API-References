@@ -3,7 +3,7 @@ title: Class XmpLocale
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Derived.XmpLocale class. Represents language code
 type: docs
-weight: 12090
+weight: 12120
 url: /net/aspose.imaging.xmp.types.derived/xmplocale/
 ---
 ## XmpLocale class

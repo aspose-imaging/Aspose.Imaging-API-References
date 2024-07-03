@@ -3,7 +3,7 @@ title: EmfDrawEscape
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_DRAWESCAPE record passes arbitrary information to a printer driver.
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfdrawescape/
 ---
 **Inheritance:**

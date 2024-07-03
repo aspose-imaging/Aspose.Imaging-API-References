@@ -3,7 +3,7 @@ title: EmfControlRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The control record types define the start and end of an EMF metafile and properties of the metafile.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype/
 ---
 **Inheritance:**

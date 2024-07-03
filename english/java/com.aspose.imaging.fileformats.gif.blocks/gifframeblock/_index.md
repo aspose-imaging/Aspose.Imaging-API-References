@@ -52,8 +52,8 @@ Gif frame block.
 | [getFrameTime()](#getFrameTime--) | Gets the duration. |
 | [setFrameTime(int value)](#setFrameTime-int-) | Sets the duration. |
 | [getInterlaced()](#getInterlaced--) | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
-| [setInterlaced(boolean value)](#setInterlaced-boolean-) | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
 | [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
+| [setInterlaced(boolean value)](#setInterlaced-boolean-) | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
 | [isPaletteSorted()](#isPaletteSorted--) | Gets or sets a value indicating whether color palette is sorted. |
 | [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | Gets or sets a value indicating whether color palette is sorted. |
 | [getGifFrameBitsPerPixel()](#getGifFrameBitsPerPixel--) | Gets or sets the GIF frame bits per pixel. |
@@ -70,8 +70,8 @@ Gif frame block.
 | [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getControlBlock()](#getControlBlock--) | Gets the graphics control block associated with this block. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether frame block has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether frame block has transparent color. |
 | [getTransparentColor()](#getTransparentColor--) | Gets the transparent color of frame block. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether frame block has transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the transparent color of frame block. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a value for the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
@@ -405,6 +405,18 @@ Gets or sets a value indicating whether this `GifFrameBlock` is interlaced.
 
 **Returns:**
 boolean - `true` if interlaced; otherwise, `false`.
+### isInterlaced() {#isInterlaced--}
+```
+public boolean isInterlaced()
+```
+
+
+Gets a value indicating whether this image instance is interlaced.
+
+Value: `true` if this image instance is interlaced; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether this image instance is interlaced.
 ### setInterlaced(boolean value) {#setInterlaced-boolean-}
 ```
 public void setInterlaced(boolean value)
@@ -418,18 +430,6 @@ Gets or sets a value indicating whether this `GifFrameBlock` is interlaced.
 | --- | --- | --- |
 | value | boolean | `true` if interlaced; otherwise, `false`. |
 
-### isInterlaced() {#isInterlaced--}
-```
-public boolean isInterlaced()
-```
-
-
-Gets a value indicating whether this image instance is interlaced.
-
-Value: `true` if this image instance is interlaced; otherwise, `false`.
-
-**Returns:**
-boolean - a value indicating whether this image instance is interlaced.
 ### isPaletteSorted() {#isPaletteSorted--}
 ```
 public boolean isPaletteSorted()
@@ -611,6 +611,16 @@ Gets a value indicating whether frame block has transparent color.
 
 **Returns:**
 boolean
+### getTransparentColor() {#getTransparentColor--}
+```
+public Color getTransparentColor()
+```
+
+
+Gets the transparent color of frame block.
+
+**Returns:**
+[Color](../../com.aspose.imaging/color)
 ### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
 ```
 public void setTransparentColor(boolean value)
@@ -624,16 +634,6 @@ Gets a value indicating whether frame block has transparent color.
 | --- | --- | --- |
 | value | boolean |  |
 
-### getTransparentColor() {#getTransparentColor--}
-```
-public Color getTransparentColor()
-```
-
-
-Gets the transparent color of frame block.
-
-**Returns:**
-[Color](../../com.aspose.imaging/color)
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
 public void setTransparentColor(Color value)
@@ -676,7 +676,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String,ImageOptionsBase)](../../com.aspose.imaging/image\#save-String-ImageOptionsBase-) method as the second parameter.
+Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.

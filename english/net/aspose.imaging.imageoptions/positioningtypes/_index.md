@@ -3,7 +3,7 @@ title: Enum PositioningTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.PositioningTypes enum. Positioning and size types for graphics scene
 type: docs
-weight: 10310
+weight: 10340
 url: /net/aspose.imaging.imageoptions/positioningtypes/
 ---
 ## PositioningTypes enumeration

@@ -24,6 +24,7 @@ The package contains types [MS-EMF]: Enhanced Metafile Format. 2.3 EMF Records
 | [EmfBitmapRecordType](../com.aspose.imaging.fileformats.emf.emf.records/emfbitmaprecordtype) | The bitmap record types perform block transfers of bitmap images. |
 | [EmfBlendFunction](../com.aspose.imaging.fileformats.emf.emf.records/emfblendfunction) | A structure that specifies the blending operations for source and destination bitmaps. |
 | [EmfBlendFunction.AlphaFormatEnum](../com.aspose.imaging.fileformats.emf.emf.records/emfblendfunction.alphaformatenum) | A structure that specifies how source and destination pixels are interpreted with respect to alpha transparency. |
+| [EmfBoundedRecord](../com.aspose.imaging.fileformats.emf.emf.records/emfboundedrecord) | Base EMF polyshape class. |
 | [EmfChord](../com.aspose.imaging.fileformats.emf.emf.records/emfchord) | The EMR\_CHORD record specifies a chord, which is a region bounded by the intersection of an ellipse and a line segment, called a secant. |
 | [EmfClippingRecordType](../com.aspose.imaging.fileformats.emf.emf.records/emfclippingrecordtype) | The clipping record types specify and manage clipping regions. |
 | [EmfCloseFigure](../com.aspose.imaging.fileformats.emf.emf.records/emfclosefigure) | This record closes an open figure in a path. |
@@ -97,10 +98,12 @@ The package contains types [MS-EMF]: Enhanced Metafile Format. 2.3 EMF Records
 | [EmfPolyBezierTo16](../com.aspose.imaging.fileformats.emf.emf.records/emfpolybezierto16) | The EMR\_POLYBEZIERTO16 record specifies one or more Bezier curves based on the current position. |
 | [EmfPolyDraw](../com.aspose.imaging.fileformats.emf.emf.records/emfpolydraw) | The EMR\_POLYDRAW record specifies a set of line segments and Bezier curves. |
 | [EmfPolyDraw16](../com.aspose.imaging.fileformats.emf.emf.records/emfpolydraw16) | The EMR\_POLYDRAW16 record specifies a set of line segments and Bezier curves. |
+| [EmfPolyPolyShape](../com.aspose.imaging.fileformats.emf.emf.records/emfpolypolyshape) | base EMF poly polyshape class. |
 | [EmfPolyPolygon](../com.aspose.imaging.fileformats.emf.emf.records/emfpolypolygon) | The EMR\_POLYPOLYGON record specifies a series of closed polygons. |
 | [EmfPolyPolygon16](../com.aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16) | The EMR\_POLYPOLYGON16 record specifies a series of closed polygons. |
 | [EmfPolyPolyline](../com.aspose.imaging.fileformats.emf.emf.records/emfpolypolyline) | The EMR\_POLYPOLYLINE record specifies multiple series of connected line segments. |
 | [EmfPolyPolyline16](../com.aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16) | The EMR\_POLYPOLYLINE16 record specifies multiple series of connected line segments. |
+| [EmfPolyShape](../com.aspose.imaging.fileformats.emf.emf.records/emfpolyshape) | Base EMF poly shape class. |
 | [EmfPolyTextOutA](../com.aspose.imaging.fileformats.emf.emf.records/emfpolytextouta) | The EMR\_POLYTEXTOUTA record draws one or more ASCII text strings using the current font and text colors. |
 | [EmfPolyTextOutW](../com.aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw) | The EMR\_POLYTEXTOUTW record draws one or more Unicode text strings using the current font and text colors. |
 | [EmfPolygon](../com.aspose.imaging.fileformats.emf.emf.records/emfpolygon) | The EMR\_POLYGON record specifies a polygon consisting of two or more vertexes connected by straight lines. |

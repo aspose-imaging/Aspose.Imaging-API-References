@@ -3,7 +3,7 @@ title: Class EmfSetTextJustification
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetTextJustification class. The EMR_SETTEXTJUSTIFICATION record specifies the amount of extra space to add to break characters for text justification
 type: docs
-weight: 4540
+weight: 4570
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/
 ---
 ## EmfSetTextJustification class

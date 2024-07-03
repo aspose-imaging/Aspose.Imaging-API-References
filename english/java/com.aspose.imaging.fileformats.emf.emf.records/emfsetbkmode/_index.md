@@ -3,7 +3,7 @@ title: EmfSetBkMode
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETBKMODE record specifies the background mix mode of the playback device context.
 type: docs
-weight: 117
+weight: 120
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Enum SegmentationMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.SegmentationMethod enum. Segmentation methods types
 type: docs
-weight: 10860
+weight: 10890
 url: /net/aspose.imaging.masking.options/segmentationmethod/
 ---
 ## SegmentationMethod enumeration

@@ -3,7 +3,7 @@ title: EmfStrokeAndFillPath
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_STROKEANDFILLPATH record closes any open figures in a path strokes the outline of the path by using the current pen and fills its interior by using the current brush.
 type: docs
-weight: 148
+weight: 151
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/
 ---
 **Inheritance:**

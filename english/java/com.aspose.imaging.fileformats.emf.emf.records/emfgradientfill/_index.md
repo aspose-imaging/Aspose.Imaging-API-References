@@ -3,7 +3,7 @@ title: EmfGradientFill
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_GRADIENTFILL record specifies filling rectangles or triangles with gradients of color.
 type: docs
-weight: 64
+weight: 65
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 ---
 **Inheritance:**

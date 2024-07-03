@@ -3,7 +3,7 @@ title: Class EmfPlusFillRects
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects class. The EmfPlusFillRects record specifies filling the interiors of a series of rectangles
 type: docs
-weight: 6140
+weight: 6170
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects/
 ---
 ## EmfPlusFillRects class

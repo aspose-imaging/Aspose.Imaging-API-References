@@ -3,7 +3,7 @@ title: EmfSetTextJustification
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETTEXTJUSTIFICATION record specifies the amount of extra space to add to break characters for text justification.
 type: docs
-weight: 138
+weight: 141
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/
 ---
 **Inheritance:**

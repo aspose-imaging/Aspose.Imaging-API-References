@@ -3,7 +3,7 @@ title: EmfSetWindowOrgEx
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETWINDOWORGEX record defines the window origin.
 type: docs
-weight: 142
+weight: 145
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/
 ---
 **Inheritance:**

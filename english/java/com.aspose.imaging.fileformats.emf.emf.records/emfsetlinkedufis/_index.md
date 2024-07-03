@@ -3,7 +3,7 @@ title: EmfSetLinkedUfis
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETLINKEDUFIS record sets the UniversalFontIds section 2.2.27 of the linked fonts to use during character lookup.
 type: docs
-weight: 126
+weight: 129
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/
 ---
 **Inheritance:**

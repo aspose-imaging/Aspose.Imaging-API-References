@@ -3,7 +3,7 @@ title: EmfCommentEmfSpool
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_EMFSPOOL record contains embedded EMFSPOOL records.
 type: docs
-weight: 27
+weight: 28
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/
 ---
 **Inheritance:**

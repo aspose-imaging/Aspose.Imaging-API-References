@@ -3,7 +3,7 @@ title: Class OdEndPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdEndPath class. The enhanced end path
 type: docs
-weight: 7070
+weight: 7100
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/
 ---
 ## OdEndPath class

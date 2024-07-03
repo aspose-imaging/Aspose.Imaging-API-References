@@ -3,7 +3,7 @@ title: EmfVertexData
 second_title: Aspose.Imaging for Java API Reference
 description: Objects that specify the vertexes of either rectangles or triangles and the colors that correspond to them.
 type: docs
-weight: 152
+weight: 155
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfvertexdata/
 ---
 **Inheritance:**

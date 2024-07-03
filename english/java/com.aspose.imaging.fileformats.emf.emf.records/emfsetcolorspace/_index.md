@@ -3,7 +3,7 @@ title: EmfSetColorSpace
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETCOLORSPACE record defines the current logical color space object for graphics operations.
 type: docs
-weight: 120
+weight: 123
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/
 ---
 **Inheritance:**

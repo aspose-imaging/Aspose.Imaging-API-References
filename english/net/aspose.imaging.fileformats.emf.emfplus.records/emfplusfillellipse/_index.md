@@ -3,7 +3,7 @@ title: Class EmfPlusFillEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse class. The EmfPlusFillEllipse record specifies filling the interior of an ellipse
 type: docs
-weight: 6100
+weight: 6130
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/
 ---
 ## EmfPlusFillEllipse class

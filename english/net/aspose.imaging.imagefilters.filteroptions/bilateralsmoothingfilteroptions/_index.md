@@ -3,7 +3,7 @@ title: Class BilateralSmoothingFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions class. The Bilateral Smoothing Filter Options
 type: docs
-weight: 9860
+weight: 9890
 url: /net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/
 ---
 ## BilateralSmoothingFilterOptions class

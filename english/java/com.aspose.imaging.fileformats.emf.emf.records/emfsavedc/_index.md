@@ -3,7 +3,7 @@ title: EmfSaveDc
 second_title: Aspose.Imaging for Java API Reference
 description: Saves the current state of playback device context on a stack of states saved by preceding EMR_SAVEDC records if any.
 type: docs
-weight: 109
+weight: 112
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsavedc/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfStrokePath
 second_title: Aspose.Imaging for Java API Reference
 description: EMR_STROKEPATH class
 type: docs
-weight: 149
+weight: 152
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
 ---
 **Inheritance:**

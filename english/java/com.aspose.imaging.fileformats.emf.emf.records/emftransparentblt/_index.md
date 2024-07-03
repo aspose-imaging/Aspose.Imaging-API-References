@@ -3,7 +3,7 @@ title: EmfTransparentBlt
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_TRANSPARENTBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle treating a specified color as transparent stretching or compressing the output to fit the dimensions of the destination if necessary
 type: docs
-weight: 151
+weight: 154
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
 ---
 **Inheritance:**

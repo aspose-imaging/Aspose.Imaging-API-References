@@ -3,7 +3,7 @@ title: EmfSetTextAlign
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETTEXTALIGN record specifies text alignment.
 type: docs
-weight: 136
+weight: 139
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 ---
 **Inheritance:**

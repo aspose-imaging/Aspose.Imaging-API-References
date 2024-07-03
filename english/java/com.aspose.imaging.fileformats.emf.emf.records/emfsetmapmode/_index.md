@@ -3,7 +3,7 @@ title: EmfSetMapMode
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETMAPMODE record specifies the mapping mode of the playback device context.
 type: docs
-weight: 127
+weight: 130
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
 ---
 **Inheritance:**

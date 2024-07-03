@@ -3,7 +3,7 @@ title: EmfCommentPublicRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_PUBLIC record types specify extensions to EMF processing.
 type: docs
-weight: 30
+weight: 31
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/
 ---
 **Inheritance:**
