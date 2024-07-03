@@ -3,7 +3,7 @@ title: EmfIntersectClipRect
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the intersection of the current clipping region and the specified rectangle.
 type: docs
-weight: 65
+weight: 66
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfCommentMultiFormats
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_MULTIFORMATS record specifies an image in multiple graphics formats.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfTransformRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The transform record types specify and modify world-space to page-space transforms.
 type: docs
-weight: 150
+weight: 153
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/
 ---
 **Inheritance:**

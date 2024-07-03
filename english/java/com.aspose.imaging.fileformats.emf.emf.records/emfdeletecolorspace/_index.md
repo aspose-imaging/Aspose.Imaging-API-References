@@ -3,7 +3,7 @@ title: EmfDeleteColorSpace
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_DELETECOLORSPACE record deletes a logical color space object.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 ---
 **Inheritance:**

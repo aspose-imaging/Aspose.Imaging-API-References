@@ -3,7 +3,7 @@ title: EmfExtTextOutW
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXTTEXTOUTW record draws an ASCII text string using the current font and text colors.
 type: docs
-weight: 56
+weight: 57
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/
 ---
 **Inheritance:**

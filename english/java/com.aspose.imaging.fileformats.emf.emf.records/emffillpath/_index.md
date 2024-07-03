@@ -3,7 +3,7 @@ title: EmfFillPath
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_FILLPATH record closes any open figures in the current path and fills the paths interior by using the current brush and polygon-filling mode.
 type: docs
-weight: 57
+weight: 58
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 **Inheritance:**

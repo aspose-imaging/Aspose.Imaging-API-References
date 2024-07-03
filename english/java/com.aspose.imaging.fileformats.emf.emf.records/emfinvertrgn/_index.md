@@ -3,7 +3,7 @@ title: EmfInvertRgn
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_INVERTRGN record inverts the colors in the specified region.
 type: docs
-weight: 66
+weight: 67
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfChord
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_CHORD record specifies a chord which is a region bounded by the intersection of an ellipse and a line segment called a secant.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfPlgBlt
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_PLGBLT record specifies a block transfer of pixels from a source bitmap to a destination  parallelogram with the application of a color mask bitmap.
 type: docs
-weight: 83
+weight: 84
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfplgblt/
 ---
 **Inheritance:**

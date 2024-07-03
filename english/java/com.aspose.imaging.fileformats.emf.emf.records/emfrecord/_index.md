@@ -3,7 +3,7 @@ title: EmfRecord
 second_title: Aspose.Imaging for Java API Reference
 description: Base class for EMF records All EMF records MUST have a length that is a multiple of 4 bytes.
 type: docs
-weight: 103
+weight: 106
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfrecord/
 ---
 **Inheritance:**

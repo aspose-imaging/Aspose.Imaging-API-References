@@ -3,7 +3,7 @@ title: EmfSetStrechBltMode
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETSTRETCHBLTMODE record specifies bitmap stretch mode.
 type: docs
-weight: 135
+weight: 138
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfCommentBeginGroup
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_BEGINGROUP record specifies the beginning of a group of drawing records.
 type: docs
-weight: 25
+weight: 26
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/
 ---
 **Inheritance:**

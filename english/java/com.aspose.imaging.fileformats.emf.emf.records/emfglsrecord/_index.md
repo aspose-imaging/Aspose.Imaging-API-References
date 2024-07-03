@@ -3,7 +3,7 @@ title: EmfGlsRecord
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_GLSRECORD record specifies an OpenGL function.
 type: docs
-weight: 63
+weight: 64
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 ---
 **Inheritance:**

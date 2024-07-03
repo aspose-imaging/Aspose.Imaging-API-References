@@ -3,7 +3,7 @@ title: EmfExtEscape
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXTESCAPE record passes arbitrary information to a printer driver.
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfextescape/
 ---
 **Inheritance:**

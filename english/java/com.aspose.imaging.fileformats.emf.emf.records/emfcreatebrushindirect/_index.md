@@ -3,7 +3,7 @@ title: EmfCreateBrushIndirect
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_CREATEBRUSHINDIRECT record defines a logical brush for graphics operations.
 type: docs
-weight: 34
+weight: 35
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/
 ---
 **Inheritance:**

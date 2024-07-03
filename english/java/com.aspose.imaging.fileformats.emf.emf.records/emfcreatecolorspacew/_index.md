@@ -3,7 +3,7 @@ title: EmfCreateColorSpaceW
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_CREATECOLORSPACEW record creates a logical color space object from a color profile with a name consisting of Unicode characters.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/
 ---
 **Inheritance:**

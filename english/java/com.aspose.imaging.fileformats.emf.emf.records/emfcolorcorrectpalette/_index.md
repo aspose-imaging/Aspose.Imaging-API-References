@@ -3,7 +3,7 @@ title: EmfColorCorrectPalette
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COLORCORRECTPALETTE record specifies how to correct the entries of a logical palette object using WCS 1.0 values.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/
 ---
 **Inheritance:**

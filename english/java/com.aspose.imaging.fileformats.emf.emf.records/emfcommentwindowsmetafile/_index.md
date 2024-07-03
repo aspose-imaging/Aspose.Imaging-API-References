@@ -3,7 +3,7 @@ title: EmfCommentWindowsMetaFile
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_WINDOWS_METAFILE record specifies an image in an embedded WMF metafile.
 type: docs
-weight: 32
+weight: 33
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/
 ---
 **Inheritance:**

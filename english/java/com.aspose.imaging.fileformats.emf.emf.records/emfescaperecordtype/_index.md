@@ -3,7 +3,7 @@ title: EmfEscapeRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The escape record types execute printer driver functions.
 type: docs
-weight: 48
+weight: 49
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/
 ---
 **Inheritance:**

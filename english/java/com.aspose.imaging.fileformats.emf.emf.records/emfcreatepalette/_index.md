@@ -3,7 +3,7 @@ title: EmfCreatePalette
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_CREATEPALETTE record defines a logical palette for graphics operations.
 type: docs
-weight: 39
+weight: 40
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfPaintRgn
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_PAINTRGN record paints the specified region by using the brush currently selected into the playback device context.
 type: docs
-weight: 79
+weight: 80
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/
 ---
 **Inheritance:**

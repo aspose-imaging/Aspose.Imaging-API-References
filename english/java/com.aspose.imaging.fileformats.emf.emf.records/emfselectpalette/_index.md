@@ -3,7 +3,7 @@ title: EmfSelectPalette
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SELECTPALETTE record specifies a logical palette for the playback device context.
 type: docs
-weight: 114
+weight: 117
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
 ---
 **Inheritance:**

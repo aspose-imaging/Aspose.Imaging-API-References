@@ -3,7 +3,7 @@ title: EmfCreateDibPatternBrushPt
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_CREATEDIBPATTERNBRUSHPT record defines a pattern brush for graphics operations.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
 ---
 **Inheritance:**

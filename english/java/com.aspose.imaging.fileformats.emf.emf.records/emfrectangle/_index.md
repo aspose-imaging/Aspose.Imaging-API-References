@@ -3,7 +3,7 @@ title: EmfRectangle
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_RECTANGLE record draws a rectangle.
 type: docs
-weight: 104
+weight: 107
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfrectangle/
 ---
 **Inheritance:**

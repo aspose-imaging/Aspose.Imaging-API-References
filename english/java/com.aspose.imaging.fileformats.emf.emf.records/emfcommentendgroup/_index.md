@@ -3,7 +3,7 @@ title: EmfCommentEndGroup
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_ENDGROUP record specifies the end of a group of drawing records.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
 ---
 **Inheritance:**

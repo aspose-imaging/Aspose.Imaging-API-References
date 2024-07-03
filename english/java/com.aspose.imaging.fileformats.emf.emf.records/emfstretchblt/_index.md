@@ -3,7 +3,7 @@ title: EmfStretchBlt
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_STRETCHBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle optionally in combination with a brush pattern according to a specified raster operation stretching or compressing the output to fit the dimensions of the destination if necessary.
 type: docs
-weight: 146
+weight: 149
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfstretchblt/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfSetMapperFlags
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching logical fonts to physical fonts which is performed by the font mapper.
 type: docs
-weight: 128
+weight: 131
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 **Inheritance:**

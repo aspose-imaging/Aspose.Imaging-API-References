@@ -3,7 +3,7 @@ title: EmfFrameRgn
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_FRAMERGN record draws a border around the specified region using the specified brush.
 type: docs
-weight: 61
+weight: 62
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfframergn/
 ---
 **Inheritance:**

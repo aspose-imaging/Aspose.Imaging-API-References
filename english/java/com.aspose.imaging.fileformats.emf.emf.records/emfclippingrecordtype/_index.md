@@ -3,7 +3,7 @@ title: EmfClippingRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The clipping record types specify and manage clipping regions.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfclippingrecordtype/
 ---
 **Inheritance:**

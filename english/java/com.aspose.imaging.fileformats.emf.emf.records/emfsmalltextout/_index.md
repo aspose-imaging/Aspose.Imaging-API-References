@@ -3,7 +3,7 @@ title: EmfSmallTextOut
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SMALLTEXTOUT record outputs a string.
 type: docs
-weight: 144
+weight: 147
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EmfSetViewportExtEx
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETVIEWPORTEXTEX record defines the viewport extent.
 type: docs
-weight: 139
+weight: 142
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/
 ---
 **Inheritance:**

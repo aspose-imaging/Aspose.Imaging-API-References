@@ -3,7 +3,7 @@ title: EmfLineTo
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_LINETO record specifies a line from the current position up to but not including the specified point.It resets the current position to the specified point.
 type: docs
-weight: 67
+weight: 68
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emflineto/
 ---
 **Inheritance:**

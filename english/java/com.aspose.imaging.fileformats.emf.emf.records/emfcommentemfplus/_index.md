@@ -3,7 +3,7 @@ title: EmfCommentEmfPlus
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT_EMFPLUS record contains embedded EMF records.
 type: docs
-weight: 26
+weight: 27
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 ---
 **Inheritance:**

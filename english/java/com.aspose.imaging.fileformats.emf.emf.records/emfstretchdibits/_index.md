@@ -3,7 +3,7 @@ title: EmfStretchDiBits
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_STRETCHDIBITS record specifies a block transfer of pixels from a source bitmap to a destination rectangle optionally in combination with a brush pattern according to a specified raster operation stretching or compressing the output to fit the dimensions of the destination if necessary.
 type: docs
-weight: 147
+weight: 150
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/
 ---
 **Inheritance:**

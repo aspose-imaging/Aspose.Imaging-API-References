@@ -3,7 +3,7 @@ title: EmfEndPath
 second_title: Aspose.Imaging for Java API Reference
 description: This record closes a path bracket and selects the path defined by the bracket into the playback device context.
 type: docs
-weight: 46
+weight: 47
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfendpath/
 ---
 **Inheritance:**

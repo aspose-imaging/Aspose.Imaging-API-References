@@ -3,7 +3,7 @@ title: EmfSetPaletteEntries
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETPALETTEENTRIES record defines RGB color values in a range of entries for an existing LogPalette section 2.2.17 object.
 type: docs
-weight: 131
+weight: 134
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/
 ---
 **Inheritance:**

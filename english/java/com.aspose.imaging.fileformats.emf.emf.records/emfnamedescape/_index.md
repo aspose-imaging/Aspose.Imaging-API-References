@@ -3,7 +3,7 @@ title: EmfNamedEscape
 second_title: Aspose.Imaging for Java API Reference
 description: The MR_NAMEDESCAPE record passes arbitrary information to a specified printer driver.
 type: docs
-weight: 74
+weight: 75
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfnamedescape/
 ---
 **Inheritance:**

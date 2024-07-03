@@ -3,7 +3,7 @@ title: EmfOffsetClipRgn
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_OFFSETCLIPRGN record moves the current clipping region in the playback device context by the specified offsets.
 type: docs
-weight: 77
+weight: 78
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
 ---
 **Inheritance:**

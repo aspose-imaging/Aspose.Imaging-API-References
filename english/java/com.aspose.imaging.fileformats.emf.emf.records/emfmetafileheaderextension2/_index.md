@@ -3,7 +3,7 @@ title: EmfMetafileHeaderExtension2
 second_title: Aspose.Imaging for Java API Reference
 description: The EmfMetafileHeaderExtension2 record is the header record used in the second extension to EMF metafiles.
 type: docs
-weight: 71
+weight: 72
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
 ---
 **Inheritance:**

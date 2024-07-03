@@ -3,7 +3,7 @@ title: EmfPolyTextOutA
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_POLYTEXTOUTA record draws one or more ASCII text strings using the current font and text colors.
 type: docs
-weight: 94
+weight: 97
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/
 ---
 **Inheritance:**

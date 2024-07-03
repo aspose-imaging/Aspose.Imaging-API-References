@@ -3,7 +3,7 @@ title: EmfFlatternPath
 second_title: Aspose.Imaging for Java API Reference
 description: This record transforms any curves in the selected path into the playback device context each curve MUST be turned into a sequence of lines.
 type: docs
-weight: 59
+weight: 60
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfflatternpath/
 ---
 **Inheritance:**

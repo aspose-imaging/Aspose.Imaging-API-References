@@ -3,7 +3,7 @@ title: EmfSetPixelV
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETPIXELV record defines the color of the pixel at the specified logical coordinates.
 type: docs
-weight: 132
+weight: 135
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
 ---
 **Inheritance:**

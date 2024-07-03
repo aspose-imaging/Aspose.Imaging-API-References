@@ -3,7 +3,7 @@ title: EmfExcludeClipRect
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXCLUDECLIPRECT record specifies a new clipping region that consists of the existing clipping region minus the specified rectangle.
 type: docs
-weight: 49
+weight: 50
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/
 ---
 **Inheritance:**

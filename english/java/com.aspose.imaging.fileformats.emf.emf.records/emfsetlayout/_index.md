@@ -3,7 +3,7 @@ title: EmfSetLayout
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETLAYOUT record specifies the order in which text and graphics are drawn.
 type: docs
-weight: 125
+weight: 128
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetlayout/
 ---
 **Inheritance:**

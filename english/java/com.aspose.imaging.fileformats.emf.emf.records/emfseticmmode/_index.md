@@ -3,7 +3,7 @@ title: EmfSetIcmMode
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETICMMODE record specifies the mode of Image Color Management ICM for graphics operations.
 type: docs
-weight: 122
+weight: 125
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 ---
 **Inheritance:**

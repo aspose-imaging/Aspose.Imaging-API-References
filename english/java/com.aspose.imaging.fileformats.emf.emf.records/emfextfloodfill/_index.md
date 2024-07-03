@@ -3,7 +3,7 @@ title: EmfExtFloodFill
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXTFLOODFILL record fills an area of the display surface with the current brush
 type: docs
-weight: 53
+weight: 54
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/
 ---
 **Inheritance:**

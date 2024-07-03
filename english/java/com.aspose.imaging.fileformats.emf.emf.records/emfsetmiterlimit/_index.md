@@ -3,7 +3,7 @@ title: EmfSetMiterLimit
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETMITERLIMIT record specifies the limit for the length of miter joins for the playback device context.
 type: docs
-weight: 130
+weight: 133
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/
 ---
 **Inheritance:**

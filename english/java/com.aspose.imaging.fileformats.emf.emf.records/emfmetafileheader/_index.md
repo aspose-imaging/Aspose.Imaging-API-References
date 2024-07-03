@@ -3,7 +3,7 @@ title: EmfMetafileHeader
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_HEADER record types define the starting points of EMF metafiles and specify properties of the device on which the image in the metafile was created.
 type: docs
-weight: 69
+weight: 70
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/
 ---
 **Inheritance:**

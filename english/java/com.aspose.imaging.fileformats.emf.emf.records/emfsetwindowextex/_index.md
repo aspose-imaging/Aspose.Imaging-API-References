@@ -3,7 +3,7 @@ title: EmfSetWindowExtEx
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETWINDOWEXTEX record defines the window extent.
 type: docs
-weight: 141
+weight: 144
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 ---
 **Inheritance:**

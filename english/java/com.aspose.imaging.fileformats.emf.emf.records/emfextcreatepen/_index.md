@@ -3,7 +3,7 @@ title: EmfExtCreatePen
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operations.
 type: docs
-weight: 51
+weight: 52
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 ---
 **Inheritance:**

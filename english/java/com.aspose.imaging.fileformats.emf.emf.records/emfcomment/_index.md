@@ -3,7 +3,7 @@ title: EmfComment
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_COMMENT record contains arbitrary private data.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcomment/
 ---
 **Inheritance:**

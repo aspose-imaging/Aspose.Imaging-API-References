@@ -3,7 +3,7 @@ title: EmfExtCreateFontIndirectW
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXTCREATEFONTINDIRECTW record defines a logical font for graphics operations.
 type: docs
-weight: 50
+weight: 51
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/
 ---
 **Inheritance:**

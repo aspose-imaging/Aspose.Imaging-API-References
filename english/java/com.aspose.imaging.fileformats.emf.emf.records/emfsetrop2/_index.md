@@ -3,7 +3,7 @@ title: EmfSetRop2
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SETROP2 record defines a binary raster operation mode.
 type: docs
-weight: 134
+weight: 137
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfsetrop2/
 ---
 **Inheritance:**

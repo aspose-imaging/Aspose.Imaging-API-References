@@ -3,7 +3,7 @@ title: EmfCreateMonoBrush
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_CREATEMONOBRUSH record defines a monochrome pattern brush for graphics operations.
 type: docs
-weight: 38
+weight: 39
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/
 ---
 **Inheritance:**

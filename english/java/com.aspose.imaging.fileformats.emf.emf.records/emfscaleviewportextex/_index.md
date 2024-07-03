@@ -3,7 +3,7 @@ title: EmfScaleViewportExtex
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_SCALEVIEWPORTEXTEX record respecifies the viewport for a device context by using the ratios formed by the specified multiplicands and divisors.
 type: docs
-weight: 110
+weight: 113
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 **Inheritance:**

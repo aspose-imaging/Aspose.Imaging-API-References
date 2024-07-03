@@ -3,7 +3,7 @@ title: EmfPie
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_PIE record specifies a pie-shaped wedge bounded by the intersection of an ellipse and two radials.
 type: docs
-weight: 81
+weight: 82
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfpie/
 ---
 **Inheritance:**

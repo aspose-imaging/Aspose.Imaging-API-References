@@ -3,7 +3,7 @@ title: EmfCommentRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The comment record types define formats for specifying arbitrary private data embedding records in other metafile formats and adding new or special-purpose commands.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/
 ---
 **Inheritance:**

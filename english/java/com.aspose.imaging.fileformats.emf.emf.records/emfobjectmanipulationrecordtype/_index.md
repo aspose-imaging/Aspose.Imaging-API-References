@@ -3,7 +3,7 @@ title: EmfObjectManipulationRecordType
 second_title: Aspose.Imaging for Java API Reference
 description: The object manipulation record types manage and modify graphics objects.
 type: docs
-weight: 76
+weight: 77
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfobjectmanipulationrecordtype/
 ---
 **Inheritance:**

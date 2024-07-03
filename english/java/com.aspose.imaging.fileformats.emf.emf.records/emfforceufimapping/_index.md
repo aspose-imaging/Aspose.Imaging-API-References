@@ -3,7 +3,7 @@ title: EmfForceUfiMapping
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_FORCEUFIMAPPING record forces the font mapper to match fonts based on their UniversalFontId in preference to their LogFont section 2.2.13 information.
 type: docs
-weight: 60
+weight: 61
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/
 ---
 **Inheritance:**

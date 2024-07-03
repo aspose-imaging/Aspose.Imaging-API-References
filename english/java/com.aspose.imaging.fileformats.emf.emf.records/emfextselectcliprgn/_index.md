@@ -3,7 +3,7 @@ title: EmfExtSelectClipRgn
 second_title: Aspose.Imaging for Java API Reference
 description: The EMR_EXTSELECTCLIPRGN record combines the specified region with the current clip region using the specified mode.
 type: docs
-weight: 54
+weight: 55
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/
 ---
 **Inheritance:**
