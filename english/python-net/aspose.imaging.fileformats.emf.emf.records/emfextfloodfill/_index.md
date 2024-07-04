@@ -1,7 +1,7 @@
 ---
 title: EmfExtFloodFill Class
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

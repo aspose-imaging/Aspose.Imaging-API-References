@@ -1,7 +1,7 @@
 ---
 title: PointF Class
 type: docs
-weight: 6820
+weight: 6850
 url: /python-net/aspose.imaging/pointf/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/pointf/
 
 **Full Name:** aspose.imaging.PointF
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

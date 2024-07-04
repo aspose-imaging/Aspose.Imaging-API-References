@@ -1,7 +1,7 @@
 ---
 title: TextRenderingHint Enumeration
 type: docs
-weight: 11050
+weight: 11080
 url: /python-net/aspose.imaging/textrenderinghint/
 ---
 
@@ -11,7 +11,7 @@ Specifies the quality of text rendering.
 
 **Full Name:** aspose.imaging.TextRenderingHint
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

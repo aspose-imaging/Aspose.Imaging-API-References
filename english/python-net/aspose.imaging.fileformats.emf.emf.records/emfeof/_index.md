@@ -1,7 +1,7 @@
 ---
 title: EmfEof Class
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/
 
 **Inheritance:** EmfControlRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

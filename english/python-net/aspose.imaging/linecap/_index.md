@@ -1,7 +1,7 @@
 ---
 title: LineCap Enumeration
 type: docs
-weight: 10610
+weight: 10640
 url: /python-net/aspose.imaging/linecap/
 ---
 
@@ -11,7 +11,7 @@ Specifies the available cap styles with which a [Pen](/imaging/python-net/aspose
 
 **Full Name:** aspose.imaging.LineCap
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

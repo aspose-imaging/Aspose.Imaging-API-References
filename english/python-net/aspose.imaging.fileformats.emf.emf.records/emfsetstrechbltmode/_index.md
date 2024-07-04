@@ -1,7 +1,7 @@
 ---
 title: EmfSetStrechBltMode Class
 type: docs
-weight: 1260
+weight: 1290
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

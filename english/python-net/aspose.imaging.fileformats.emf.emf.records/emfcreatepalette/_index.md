@@ -1,7 +1,7 @@
 ---
 title: EmfCreatePalette Class
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 
 **Inheritance:** EmfObjectCreationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

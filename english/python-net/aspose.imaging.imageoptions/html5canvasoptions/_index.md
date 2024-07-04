@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -65,4 +65,19 @@ Clones this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
 
+
+## **Examples**
+### Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image. {#example_101}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import Html5CanvasOptions, SvgRasterizationOptions
+
+with Image.load("Sample.svg") as image:
+	export_options = Html5CanvasOptions()
+	export_options.vector_rasterization_options = SvgRasterizationOptions()
+	image.save("Canvas.html", export_options)
+
+
+```
 

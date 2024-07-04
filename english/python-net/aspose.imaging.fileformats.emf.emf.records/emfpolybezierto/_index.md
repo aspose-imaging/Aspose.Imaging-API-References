@@ -1,7 +1,7 @@
 ---
 title: EmfPolyBezierTo Class
 type: docs
-weight: 770
+weight: 780
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/
 ---
 
@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyBezierTo
 
-**Inheritance:** EmfDrawingRecordType
+**Inheritance:** EmfPolyShape
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -23,8 +23,8 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| a_points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets a Count length array of WMF PointL objects ([MS-WMF] section 2.2.2.15) <br/>            that specifies the endpoints and control points of the Bezier curves in logical units. |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies <br/>            the bounding rectangle, in device units. |
+| a_points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that specifies the point data, in logical units. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets an 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**

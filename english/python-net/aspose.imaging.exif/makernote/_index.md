@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/makernote/
 
 **Full Name:** aspose.imaging.exif.MakerNote
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -19,4 +19,19 @@ url: /python-net/aspose.imaging.exif/makernote/
 | name | string | r | Gets the setting name. |
 | value | string | r | Gets the setting value. |
 
+
+## **Examples**
+### Access camera manufacturer maker notes in Jpeg image. {#example_110}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.jpeg import JpegImage
+
+with as_of(Image.load("Sample.jpg"), JpegImage) as image:
+	for makerNote in image.exif_data.maker_notes:
+		print(f"Name = {makerNote.name}, Value = {makerNote.value}")
+
+
+```
 

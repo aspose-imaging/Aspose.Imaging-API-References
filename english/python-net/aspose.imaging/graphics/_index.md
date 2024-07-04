@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 4940
+weight: 4970
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/graphics/
 
 **Full Name:** aspose.imaging.Graphics
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -3294,7 +3294,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 
 **See also:**
 
-**[Example # 1](#example_93)**: The following example shows how to compose an animated GIF image from individ...
+**[Example # 1](#example_95)**: The following example shows how to compose an animated GIF image from individ...
 
 
 ### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_166}
@@ -3318,7 +3318,7 @@ Fills the interior of a pie section defined by an ellipse specified by a [Rectan
 
 **See also:**
 
-**[Example # 1](#example_93)**: The following example shows how to compose an animated GIF image from individ...
+**[Example # 1](#example_95)**: The following example shows how to compose an animated GIF image from individ...
 
 
 ### Method: fill_pie(brush, x, y, width, height, start_angle, sweep_angle) {#fill_pie_brush_x_y_width_height_start_angle_sweep_angle_167}
@@ -4054,7 +4054,7 @@ with Image.create(bmpOptions, 500, 500) as image:
 
 ```
 
-### The following example shows how to compose an animated GIF image from individual GIF blocks. {#example_93}
+### The following example shows how to compose an animated GIF image from individual GIF blocks. {#example_95}
 ``` python
 from aspose.imaging.fileformats.gif.blocks import GifFrameBlock
 from aspose.imaging.fileformats.gif import GifImage 

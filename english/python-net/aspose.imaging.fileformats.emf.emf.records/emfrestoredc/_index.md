@@ -1,7 +1,7 @@
 ---
 title: EmfRestoreDc Class
 type: docs
-weight: 970
+weight: 1000
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

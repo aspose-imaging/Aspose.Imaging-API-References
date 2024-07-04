@@ -1,7 +1,7 @@
 ---
 title: EmfImage Class
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, MetaImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

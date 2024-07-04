@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/colorpalettehelper/
 
 **Full Name:** aspose.imaging.ColorPaletteHelper
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |
@@ -257,7 +257,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 **[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
 
-**[Example # 2](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+**[Example # 2](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
 
 
 ### Method: get_close_image_palette(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_image_entries_count_palette_mining_method_11}
@@ -497,7 +497,7 @@ with Image.load(sourceFilePath) as image:
 
 ```
 
-### The following example loads a BMP image and saves it back to BMP using various save options. {#example_90}
+### The following example loads a BMP image and saves it back to BMP using various save options. {#example_91}
 ``` python
 from aspose.imaging import Image, RasterImage, ColorPaletteHelper, ResolutionSetting
 from aspose.imaging.imageoptions import BmpOptions

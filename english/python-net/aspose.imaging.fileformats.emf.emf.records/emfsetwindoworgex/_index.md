@@ -1,7 +1,7 @@
 ---
 title: EmfSetWindowOrgEx Class
 type: docs
-weight: 1330
+weight: 1360
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

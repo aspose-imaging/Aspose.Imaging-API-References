@@ -1,7 +1,7 @@
 ---
 title: EmfDeleteColorSpace Class
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 
 **Inheritance:** EmfObjectManipulationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

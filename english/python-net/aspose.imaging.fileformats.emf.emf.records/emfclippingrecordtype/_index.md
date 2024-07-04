@@ -1,7 +1,7 @@
 ---
 title: EmfClippingRecordType Class
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfclippingrecordtype/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfclippingrecordtyp
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

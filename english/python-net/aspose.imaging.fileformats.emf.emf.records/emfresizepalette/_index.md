@@ -1,7 +1,7 @@
 ---
 title: EmfResizePalette Class
 type: docs
-weight: 960
+weight: 990
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
 
 **Inheritance:** EmfObjectManipulationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

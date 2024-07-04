@@ -1,7 +1,7 @@
 ---
 title: EmfSelectClipPath Class
 type: docs
-weight: 1030
+weight: 1060
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
 
 **Inheritance:** EmfClippingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

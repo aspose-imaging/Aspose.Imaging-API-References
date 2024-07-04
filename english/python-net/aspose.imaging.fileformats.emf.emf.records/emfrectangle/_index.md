@@ -1,7 +1,7 @@
 ---
 title: EmfRectangle Class
 type: docs
-weight: 950
+weight: 980
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrectangle/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrectangle/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

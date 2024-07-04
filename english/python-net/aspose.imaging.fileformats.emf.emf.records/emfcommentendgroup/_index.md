@@ -1,7 +1,7 @@
 ---
 title: EmfCommentEndGroup Class
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
 
 **Inheritance:** EmfCommentPublicRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

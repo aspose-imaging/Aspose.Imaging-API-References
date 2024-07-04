@@ -1,7 +1,7 @@
 ---
 title: EmfCloseFigure Class
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfclosefigure/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfclosefigure/
 
 **Inheritance:** EmfPathBracketRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

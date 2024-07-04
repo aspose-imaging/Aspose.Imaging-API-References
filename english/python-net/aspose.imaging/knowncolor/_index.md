@@ -1,7 +1,7 @@
 ---
 title: KnownColor Enumeration
 type: docs
-weight: 10590
+weight: 10620
 url: /python-net/aspose.imaging/knowncolor/
 ---
 
@@ -11,7 +11,7 @@ Specifies the known system colors.
 
 **Full Name:** aspose.imaging.KnownColor
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: EmfSetPixelV Class
 type: docs
-weight: 1230
+weight: 1260
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

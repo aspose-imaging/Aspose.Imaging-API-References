@@ -1,7 +1,7 @@
 ---
 title: EmfCreateDibPatternBrushPt Class
 type: docs
-weight: 280
+weight: 290
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternb
 
 **Inheritance:** EmfObjectCreationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

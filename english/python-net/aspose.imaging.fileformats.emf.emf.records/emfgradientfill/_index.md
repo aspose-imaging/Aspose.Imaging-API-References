@@ -1,7 +1,7 @@
 ---
 title: EmfGradientFill Class
 type: docs
-weight: 550
+weight: 560
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

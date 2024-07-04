@@ -1,7 +1,7 @@
 ---
 title: MetaObject Class
 type: docs
-weight: 3120
+weight: 3150
 url: /python-net/aspose.imaging.fileformats.emf/metaobject/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.emf/metaobject/
 
 **Full Name:** aspose.imaging.fileformats.emf.MetaObject
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

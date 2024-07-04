@@ -1,7 +1,7 @@
 ---
 title: EmfCreatePen Class
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/
 
 **Inheritance:** EmfObjectCreationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

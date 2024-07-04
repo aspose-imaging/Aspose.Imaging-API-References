@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IHasExifData, IHasJpegExifData, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -2294,4 +2294,19 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
+
+## **Examples**
+### Access camera manufacturer maker notes in Jpeg image. {#example_110}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.jpeg import JpegImage
+
+with as_of(Image.load("Sample.jpg"), JpegImage) as image:
+	for makerNote in image.exif_data.maker_notes:
+		print(f"Name = {makerNote.name}, Value = {makerNote.value}")
+
+
+```
 

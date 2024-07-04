@@ -11,7 +11,7 @@ The type of dbdd noise reduction.
 
 **Full Name:** aspose.imaging.imageloadoptions.NoiseReductionType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

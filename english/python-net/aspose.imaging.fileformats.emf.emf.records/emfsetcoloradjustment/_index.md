@@ -1,7 +1,7 @@
 ---
 title: EmfSetColorAdjustment Class
 type: docs
-weight: 1100
+weight: 1130
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustmen
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

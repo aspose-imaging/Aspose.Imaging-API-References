@@ -1,7 +1,7 @@
 ---
 title: EmfSelectObject Class
 type: docs
-weight: 1040
+weight: 1070
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectobject/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectobject/
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

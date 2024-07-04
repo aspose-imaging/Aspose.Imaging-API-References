@@ -1,7 +1,7 @@
 ---
 title: EmfDrawEscape Class
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/
 
 **Inheritance:** EmfEscapeRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

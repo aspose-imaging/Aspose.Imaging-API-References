@@ -1,7 +1,7 @@
 ---
 title: License Class
 type: docs
-weight: 5800
+weight: 5830
 url: /python-net/aspose.imaging/license/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/license/
 
 **Full Name:** aspose.imaging.License
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

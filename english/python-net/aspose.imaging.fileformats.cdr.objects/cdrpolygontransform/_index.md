@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/
 
 **Inheritance:** CdrObjectContainer
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.interfaces/iobjectwithsizef/
 
 **Full Name:** aspose.imaging.interfaces.IObjectWithSizeF
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

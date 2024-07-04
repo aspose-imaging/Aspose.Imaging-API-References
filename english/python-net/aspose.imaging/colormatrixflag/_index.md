@@ -1,7 +1,7 @@
 ---
 title: ColorMatrixFlag Enumeration
 type: docs
-weight: 9130
+weight: 9160
 url: /python-net/aspose.imaging/colormatrixflag/
 ---
 
@@ -11,7 +11,7 @@ Specifies the types of images and colors that will be affected by the color and 
 
 **Full Name:** aspose.imaging.ColorMatrixFlag
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

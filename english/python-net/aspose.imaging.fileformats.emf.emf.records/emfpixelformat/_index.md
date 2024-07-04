@@ -1,7 +1,7 @@
 ---
 title: EmfPixelFormat Class
 type: docs
-weight: 730
+weight: 740
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

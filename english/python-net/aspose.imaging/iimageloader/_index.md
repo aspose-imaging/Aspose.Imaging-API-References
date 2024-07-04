@@ -1,7 +1,7 @@
 ---
 title: IImageLoader Class
 type: docs
-weight: 5230
+weight: 5260
 url: /python-net/aspose.imaging/iimageloader/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/iimageloader/
 
 **Full Name:** aspose.imaging.IImageLoader
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |

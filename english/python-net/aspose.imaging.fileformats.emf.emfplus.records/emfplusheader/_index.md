@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/
 
 **Inheritance:** EmfPlusControlRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

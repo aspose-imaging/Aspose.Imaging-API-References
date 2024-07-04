@@ -1,7 +1,7 @@
 ---
 title: EmfMetafileHeaderExtension2 Class
 type: docs
-weight: 620
+weight: 630
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderext
 
 **Inheritance:** EmfMetafileHeaderExtension1
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

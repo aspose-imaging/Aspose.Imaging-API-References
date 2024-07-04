@@ -1,7 +1,7 @@
 ---
 title: EmfRop4 Class
 type: docs
-weight: 980
+weight: 1010
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfRop4
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

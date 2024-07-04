@@ -1,7 +1,7 @@
 ---
 title: EmfCommentEmfPlus Class
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 
 **Inheritance:** EmfCommentRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

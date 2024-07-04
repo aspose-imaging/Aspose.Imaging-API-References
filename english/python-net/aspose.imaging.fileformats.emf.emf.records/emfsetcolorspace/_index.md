@@ -1,7 +1,7 @@
 ---
 title: EmfSetColorSpace Class
 type: docs
-weight: 1110
+weight: 1140
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/
 
 **Inheritance:** EmfObjectManipulationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

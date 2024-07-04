@@ -1,7 +1,7 @@
 ---
 title: MetaObjectList Class
 type: docs
-weight: 3130
+weight: 3160
 url: /python-net/aspose.imaging.fileformats.emf/metaobjectlist/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf/metaobjectlist/
 
 **Inheritance:** NonGenericList
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: LoadOptions Class
 type: docs
-weight: 5850
+weight: 5880
 url: /python-net/aspose.imaging/loadoptions/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/loadoptions/
 
 **Full Name:** aspose.imaging.LoadOptions
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -42,11 +42,11 @@ Gets or sets the buffer size hint which is defined max allowed size for all inte
 
 **See also:**
 
-**[Example # 1](#example_96)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_100)**: The following example shows how to set a memory limit when loading a CMX imag...
 
 
 ## **Examples**
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_96}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_100}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
 from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions

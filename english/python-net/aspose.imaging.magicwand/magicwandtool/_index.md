@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.magicwand/magicwandtool/
 
 **Inheritance:** IPartialArgb32PixelLoader
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ The Letterform enumeration defines values for one of the characteristics in the 
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfLetterform
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

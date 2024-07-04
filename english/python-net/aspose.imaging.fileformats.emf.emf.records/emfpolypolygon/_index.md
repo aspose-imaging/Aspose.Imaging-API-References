@@ -1,7 +1,7 @@
 ---
 title: EmfPolyPolygon Class
 type: docs
-weight: 810
+weight: 830
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 ---
 
@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyPolygon
 
-**Inheritance:** EmfDrawingRecordType
+**Inheritance:** EmfPolyPolyShape
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -23,8 +23,8 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| a_points | Point[] | r/w | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that <br/>            specifies the points for all polygons in logical units. The number of points is specified by the <br/>            Count field value. |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the <br/>            bounding rectangle, in device units. |
+| a_points | Point[] | r/w | Gets or sets an array of WMF PointS objects, specified in [MS-WMF] <br/>            section 2.2.2.16, which specifies the array of points. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets an 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**

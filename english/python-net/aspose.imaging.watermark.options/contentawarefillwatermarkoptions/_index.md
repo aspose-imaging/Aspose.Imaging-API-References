@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptio
 
 **Inheritance:** WatermarkOptions
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -66,11 +66,11 @@ Gets or sets the maximum number of painting attempts.<br/>            The algori
 
 **See also:**
 
-**[Example # 1](#example_99)**: The example shows how to remove any object from the image using Graphics Path...
+**[Example # 1](#example_113)**: The example shows how to remove any object from the image using Graphics Path...
 
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_99}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_113}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

@@ -1,7 +1,7 @@
 ---
 title: EmfTransformRecordType Class
 type: docs
-weight: 1410
+weight: 1440
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emftransformrecordty
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

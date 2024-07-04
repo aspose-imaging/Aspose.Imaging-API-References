@@ -1,7 +1,7 @@
 ---
 title: EmfCreateColorSpaceW Class
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew
 
 **Inheritance:** EmfObjectCreationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

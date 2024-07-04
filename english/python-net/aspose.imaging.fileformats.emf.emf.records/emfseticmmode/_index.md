@@ -1,7 +1,7 @@
 ---
 title: EmfSetIcmMode Class
 type: docs
-weight: 1130
+weight: 1160
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

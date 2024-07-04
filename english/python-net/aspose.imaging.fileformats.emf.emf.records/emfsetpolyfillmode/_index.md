@@ -1,7 +1,7 @@
 ---
 title: EmfSetPolyFillMode Class
 type: docs
-weight: 1240
+weight: 1270
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

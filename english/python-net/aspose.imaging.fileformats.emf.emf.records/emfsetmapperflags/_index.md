@@ -1,7 +1,7 @@
 ---
 title: EmfSetMapperFlags Class
 type: docs
-weight: 1190
+weight: 1220
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

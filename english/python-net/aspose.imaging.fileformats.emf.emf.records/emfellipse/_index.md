@@ -1,7 +1,7 @@
 ---
 title: EmfEllipse Class
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfellipse/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfellipse/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

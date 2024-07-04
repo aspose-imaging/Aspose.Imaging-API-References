@@ -1,7 +1,7 @@
 ---
 title: WarpMode Enumeration
 type: docs
-weight: 11280
+weight: 11310
 url: /python-net/aspose.imaging/warpmode/
 ---
 
@@ -11,7 +11,7 @@ Specifies the type of warp transformation applied.
 
 **Full Name:** aspose.imaging.WarpMode
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,7 +11,7 @@ The RegionMode enumeration defines values that are used with EMR_SELECTCLIPPATH 
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfRegionMode
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

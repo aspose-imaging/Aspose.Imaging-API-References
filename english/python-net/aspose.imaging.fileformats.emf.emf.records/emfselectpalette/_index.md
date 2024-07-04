@@ -1,7 +1,7 @@
 ---
 title: EmfSelectPalette Class
 type: docs
-weight: 1050
+weight: 1080
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
 
 **Inheritance:** EmfObjectManipulationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

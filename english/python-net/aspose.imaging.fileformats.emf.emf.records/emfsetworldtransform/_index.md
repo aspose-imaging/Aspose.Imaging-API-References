@@ -1,7 +1,7 @@
 ---
 title: EmfSetWorldTransform Class
 type: docs
-weight: 1340
+weight: 1370
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform
 
 **Inheritance:** EmfTransformRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a background color. |
+| [background_color](#background_color1) | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a background color. |
 | border_x | float | r/w | Gets or sets the border X. |
 | border_y | float | r/w | Gets or sets the border Y. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
@@ -33,10 +33,10 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | page_height | float | r/w | Gets or sets the page height. |
-| page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
+| [page_size](#page_size2) | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
 | page_width | float | r/w | Gets or sets the page width. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
-| [positioning](#positioning1) | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
+| [positioning](#positioning3) | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | smoothing_mode | [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode) | r/w | Gets or sets the smoothing mode. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
@@ -59,13 +59,31 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 
 Initializes a new instance of the VectorRasterizationOptions class
 
-### Property: positioning {#positioning1}
+### Property: background_color {#background_color1}
+
+Gets or sets a background color.
+
+**See also:**
+
+**[Example # 1](#example_98)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+
+
+### Property: page_size {#page_size2}
+
+Gets or sets the page size.
+
+**See also:**
+
+**[Example # 1](#example_98)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+
+
+### Property: positioning {#positioning3}
 
 Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_96)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_100)**: The following example shows how to set a memory limit when loading a CMX imag...
 
 
 ### Method: clone() {#clone__1}
@@ -100,7 +118,33 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
 ## **Examples**
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_96}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_98}
+``` python
+
+from aspose.pycore import as_of, cast
+from aspose.imaging import Image, Color, SizeF
+from aspose.imaging.fileformats.wmf import WmfImage, WmfRenderMode
+from aspose.imaging.imageoptions import SvgOptions, WmfRasterizationOptions
+
+# Using Aspose.Imaging.Image.Load is a unified way to load all types of images including WMF.
+with as_of(Image.load("test.wmf") as image:
+	saveOptions = SvgOptions()
+	# Text will be converted to shapes.
+	saveOptions.text_as_shapes = True
+	rasterizationOptions = WmfRasterizationOptions()
+	# The background color of the drawing surface.
+	rasterizationOptions.background_color = Color.white_smoke
+	# The page size.
+	rasterizationOptions.page_size = cast(SizeF, wmfImage.size)
+	# If embedded emf exists, then render emf; otherwise render wmf.
+	rasterizationOptions.render_mode = WmfRenderMode.AUTO
+	saveOptions.vector_rasterization_options = rasterizationOptions
+	wmfImage.save("test.output.svg", saveOptions)
+
+
+```
+
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_100}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
 from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions

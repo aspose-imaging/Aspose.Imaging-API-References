@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -228,6 +228,12 @@ Create a new instance of the [TgaImage](/imaging/python-net/aspose.imaging.filef
 | Parameter | Type | Description |
 | :- | :- | :- |
 | raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+
+
+**See also:**
+
+**[Example # 1](#example_108)**: Loading of the PNG image, conversion of it to the TgaImage and saving as a TG...
+
 
 ### Constructor: TgaImage(stream) {#TgaImage_stream_3}
 
@@ -2301,4 +2307,30 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
+
+## **Examples**
+### Saving of the JPG image as a TGA image. {#example_107}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import TgaOptions
+
+with Image.load("test.jpg") as image:
+	image.save("test.tga"", TgaOptions())
+	
+
+```
+
+### Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image. {#example_108}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage
+from aspose.imaging.fileformats.tga import TgaImage
+
+with as_of(Image.load("test.png"), RasterImage) as image:
+	with TgaImage(image) as tgaImage:
+		tgaImage.save("test.tga")
+
+
+```
 

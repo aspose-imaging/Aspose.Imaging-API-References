@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 
 **Inheritance:** TiffDataTypeController
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -103,7 +103,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | make | string | r/w | Gets or sets the manufacturer of the recording equipment. |
 | maker_note_data | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r | Gets the maker note data. |
 | maker_note_raw_data | byte | r/w | Gets or sets the maker note raw data. |
-| maker_notes | [MakerNote[]](/imaging/python-net/aspose.imaging.exif/makernote) | r | Gets the maker notes. |
+| [maker_notes](#maker_notes1) | [MakerNote[]](/imaging/python-net/aspose.imaging.exif/makernote) | r | Gets the maker notes. |
 | max_aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the maximum aperture value. |
 | metering_mode | [ExifMeteringMode](/imaging/python-net/aspose.imaging.exif.enums/exifmeteringmode/) | r/w | Gets or sets the metering mode. |
 | oecf | byte | r/w | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
@@ -182,6 +182,15 @@ Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.
 | :- | :- | :- |
 | exifdata | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | Array of EXIF tags together with common and GPS tags. |
 
+### Property: maker_notes {#maker_notes1}
+
+Gets the maker notes.
+
+**See also:**
+
+**[Example # 1](#example_110)**: Access camera manufacturer maker notes in Jpeg image.
+
+
 ### Method: remove_tag(tag) {#remove_tag_tag_1}
 
 
@@ -226,4 +235,19 @@ Remove tag from container
 | Parameter | Type | Description |
 | :- | :- | :- |
 | tag_id | ushort | The tag identifier to remove. |
+
+## **Examples**
+### Access camera manufacturer maker notes in Jpeg image. {#example_110}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.jpeg import JpegImage
+
+with as_of(Image.load("Sample.jpg"), JpegImage) as image:
+	for makerNote in image.exif_data.maker_notes:
+		print(f"Name = {makerNote.name}, Value = {makerNote.value}")
+
+
+```
 

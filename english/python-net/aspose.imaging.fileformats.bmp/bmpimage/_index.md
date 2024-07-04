@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -3087,6 +3087,33 @@ with Image.load(r"c:\temp\sample.bmp") as image:
 #The number of bits per pixel: 24
 #The extra bits masks: 
 #The header size in bytes: 40
+
+```
+
+### Compress BMP image using DXT1 compression algorithm. {#example_105}
+``` python
+#cxFor:aspose.imaging.imageoptions.BmpOptions.compression
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.fileformats.bmp import BitmapCompression
+
+with Image.load("Tiger.bmp") as image:
+	bmp_options = BmpOptions()
+	bmp_options.compression = BitmapCompression.DXT1
+	image.save("CompressedTiger.bmp", bmp_options)
+
+```
+
+### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_106}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions
+
+with Image.load("CompressedTiger.bmp") as image:
+	image.save("DecompressedTiger.bmp", BmpOptions())
+
 
 ```
 

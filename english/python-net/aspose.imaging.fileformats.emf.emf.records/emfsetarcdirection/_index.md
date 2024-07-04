@@ -1,7 +1,7 @@
 ---
 title: EmfSetArcDirection Class
 type: docs
-weight: 1060
+weight: 1090
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasepoint
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBasePointType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 
 

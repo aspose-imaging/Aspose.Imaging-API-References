@@ -1,7 +1,7 @@
 ---
 title: EmfEndPath Class
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfendpath/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfendpath/
 
 **Inheritance:** EmfPathBracketRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

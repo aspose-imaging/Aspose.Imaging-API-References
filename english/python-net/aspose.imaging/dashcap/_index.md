@@ -1,7 +1,7 @@
 ---
 title: DashCap Enumeration
 type: docs
-weight: 9250
+weight: 9280
 url: /python-net/aspose.imaging/dashcap/
 ---
 
@@ -11,7 +11,7 @@ Specifies the type of graphic shape to use on both ends of each dash in a dashed
 
 **Full Name:** aspose.imaging.DashCap
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

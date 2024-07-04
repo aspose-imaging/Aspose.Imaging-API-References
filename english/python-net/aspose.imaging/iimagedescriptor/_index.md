@@ -1,7 +1,7 @@
 ---
 title: IImageDescriptor Class
 type: docs
-weight: 5200
+weight: 5230
 url: /python-net/aspose.imaging/iimagedescriptor/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/iimagedescriptor/
 
 **Full Name:** aspose.imaging.IImageDescriptor
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory/
 
 **Full Name:** aspose.imaging.fileformats.tiff.instancefactory.TiffTagFactory
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |

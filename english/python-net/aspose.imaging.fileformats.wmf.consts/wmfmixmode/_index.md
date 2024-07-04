@@ -11,7 +11,7 @@ The MixMode Enumeration specifies the background mix mode for text, hatched brus
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfMixMode
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

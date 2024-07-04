@@ -1,7 +1,7 @@
 ---
 title: EmfStateRecordType Class
 type: docs
-weight: 1360
+weight: 1390
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype/
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

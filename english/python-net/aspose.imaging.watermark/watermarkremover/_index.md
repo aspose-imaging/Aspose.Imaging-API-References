@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.watermark/watermarkremover/
 
 **Full Name:** aspose.imaging.watermark.WatermarkRemover
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |
@@ -43,7 +43,7 @@ Remove the watermark from the raster image.
 
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_99}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_113}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -68,7 +68,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_100}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_114}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

@@ -1,7 +1,7 @@
 ---
 title: EmfSetLayout Class
 type: docs
-weight: 1160
+weight: 1190
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

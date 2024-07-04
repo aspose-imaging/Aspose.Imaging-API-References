@@ -1,7 +1,7 @@
 ---
 title: EmfPolyTextOutA Class
 type: docs
-weight: 850
+weight: 880
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: EmfSetBkMode Class
 type: docs
-weight: 1080
+weight: 1110
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -53,7 +53,9 @@ Initializes a new instance of the [BmpOptions](/imaging/python-net/aspose.imagin
 
 **See also:**
 
-**[Example # 1](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+**[Example # 1](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
+
+**[Example # 2](#example_92)**: The following example creates a palettized grayscale BMP image and then saves...
 
 
 ### Constructor: BmpOptions(bmp_options) {#BmpOptions_bmp_options_2}
@@ -79,7 +81,9 @@ Gets or sets the image bits per pixel count.
 
 **[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
 
-**[Example # 2](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+**[Example # 2](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
+
+**[Example # 3](#example_92)**: The following example creates a palettized grayscale BMP image and then saves...
 
 
 ### Property: compression {#compression2}
@@ -88,11 +92,15 @@ Gets or sets the compression type. The default compression type is [BitmapCompre
 
 **See also:**
 
-**[Example # 1](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+**[Example # 1](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
 
-**[Example # 2](#example_97)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
+**[Example # 2](#example_92)**: The following example creates a palettized grayscale BMP image and then saves...
 
-**[Example # 3](#example_98)**: The example shows how to export a BMP with the RGB compression type.
+**[Example # 3](#example_106)**: Decompress BMP image which was previously compressed using DXT1 compression a...
+
+**[Example # 4](#example_111)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
+
+**[Example # 5](#example_112)**: The example shows how to export a BMP with the RGB compression type.
 
 
 ### Method: clone() {#clone__1}
@@ -199,7 +207,7 @@ with BmpImage(100, 100) as bmpImage:
 
 ```
 
-### The following example loads a BMP image and saves it back to BMP using various save options. {#example_90}
+### The following example loads a BMP image and saves it back to BMP using various save options. {#example_91}
 ``` python
 from aspose.imaging import Image, RasterImage, ColorPaletteHelper, ResolutionSetting
 from aspose.imaging.imageoptions import BmpOptions
@@ -235,7 +243,61 @@ with Image.load(os.path.join(directory, "sample.bmp")) as image:
 
 ```
 
-### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_97}
+### The following example creates a palettized grayscale BMP image and then saves it to a file. {#example_92}
+``` python
+
+from os.path import join as path_join
+from aspose.imaging import Image, ColorPaletteHelper, ResolutionSetting, Graphics, Point, Color
+from aspose.imaging.sources import FileCreateSource
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.fileformats.bmp import BitmapCompression
+from aspose.imaging.brushes import LinearGradientBrush
+
+directory = "c:\\temp\\"
+createOptions = BmpOptions()
+
+# Save to a file
+createOptions.source = FileCreateSource(path_join(directory, "output.palette8bit.bmp"), False)
+	
+# Use 8 bits per pixel to reduce the size of the output image.
+createOptions.bits_per_pixel = 8
+
+# Set the standard 8-bit grayscale color palette which covers all grayscale colors.
+# If the processed image contains only grayscale colors, then its palettized version
+# is visually indistinguishable from a non-palletized one.
+createOptions.palette = ColorPaletteHelper.create_8_bit_grayscale(False)
+
+# Save without compression.
+# You can also use RLE-8 compression to reduce the size of the output image.
+createOptions.compression = BitmapCompression.RGB
+
+# Set the horizontal and vertical resolution to 96 dpi.
+createOptions.resolution_settings = ResolutionSetting(96.0, 96.0)
+
+# Create a BMP image of 100 x 100 px and save it to a file.
+with Image.create(createOptions, 100, 100) as image:
+	graphics = Graphics(image)
+	gradientBrush = LinearGradientBrush(Point(0, 0), Point(image.width, image.height), Color.black, Color.white)
+	# Fill the image with a grayscale gradient
+	graphics.fill_rectangle(gradientBrush, image.bounds)
+	image.save()
+
+
+```
+
+### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_106}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions
+
+with Image.load("CompressedTiger.bmp") as image:
+	image.save("DecompressedTiger.bmp", BmpOptions())
+
+
+```
+
+### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_111}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.fileformats.png import BmpOptions
@@ -262,7 +324,7 @@ with Image.load(source_path) as pngImage:
 
 ```
 
-### The example shows how to export a BMP with the RGB compression type. {#example_98}
+### The example shows how to export a BMP with the RGB compression type. {#example_112}
 ``` python
 
 from aspose.imaging import Image

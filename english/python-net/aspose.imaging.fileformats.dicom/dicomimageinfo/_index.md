@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 
 **Full Name:** aspose.imaging.fileformats.dicom.DicomImageInfo
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 | bits_stored | int | r | Gets the number of stored bits. |
 | blues | byte | r | Gets the array colors of the blue |
 | dicom_header_info_by_bytes | byte | r | Gets the dicom header information by bytes. |
-| dicom_info | System.Collections.Generic.IList<string> | r | Gets the header information of the DICOM file. |
+| dicom_info | list[str] | r | Gets the header information of the DICOM file. |
 | greens | byte | r | Gets the array colors of the green |
 | height | int | r | Gets the height. |
 | is_little_endian | bool | r | Gets a value indicating whether this instance is little endian. |
@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 | photo_interpretation | string | r | Gets a value of the "PhotoInterpretation". |
 | pixel_representation | int | r | Gets a value of the pixel "pixelRepresentation". |
 | planar_configuration | int | r | Gets the planar configuration. |
-| readonly_tags_list [static] | System.Collections.Generic.IList<string> | r | The read-only tags list. These tag values will be reset according to the actual image data upon image save. |
+| readonly_tags_list [static] | list[str] | r | The read-only tags list. These tag values will be reset according to the actual image data upon image save. |
 | reds | byte | r | Gets the array colors of the red |
 | rescale_intercept | double | r | Gets a value of the "rescaleIntercept". |
 | rescale_slope | double | r | Gets a value of the "rescaleSlope". |

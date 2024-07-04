@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 
 **Full Name:** aspose.imaging.fileformats.pdf.PdfCoreOptions
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

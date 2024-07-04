@@ -1,7 +1,7 @@
 ---
 title: EmfExcludeClipRect Class
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/
 
 **Inheritance:** EmfClippingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

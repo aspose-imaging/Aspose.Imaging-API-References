@@ -1,7 +1,7 @@
 ---
 title: EmfForceUfiMapping Class
 type: docs
-weight: 510
+weight: 520
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

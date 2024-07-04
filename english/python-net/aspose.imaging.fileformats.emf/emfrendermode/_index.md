@@ -1,7 +1,7 @@
 ---
 title: EmfRenderMode Enumeration
 type: docs
-weight: 3910
+weight: 3940
 url: /python-net/aspose.imaging.fileformats.emf/emfrendermode/
 ---
 
@@ -11,7 +11,7 @@ The emf render mode
 
 **Full Name:** aspose.imaging.fileformats.emf.EmfRenderMode
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

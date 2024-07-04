@@ -1,7 +1,7 @@
 ---
 title: EmfPathBracketRecordType Class
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecordtype/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecord
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
