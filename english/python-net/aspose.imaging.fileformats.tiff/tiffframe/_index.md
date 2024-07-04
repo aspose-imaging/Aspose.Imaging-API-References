@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IHasExifData, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -49,7 +49,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | is_cached | bool | r | Gets a value indicating whether image data is cached currently. |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is supported. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
-| path_resources | list[aspose.imaging.fileformats.tiff.pathresources.PathResource] | r/w | Gets or sets the path resources. |
+| [path_resources](#path_resources1) | list[aspose.imaging.fileformats.tiff.pathresources.PathResource] | r/w | Gets or sets the path resources. |
 | premultiply_components | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
 | raw_custom_color_converter | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter) | r/w | Gets or sets the custom color converter |
 | raw_data_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the raw data format. |
@@ -300,6 +300,19 @@ Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to load an image from and initialize frame pixel and palette data with. |
 | options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) | The options to use for the newly created frame. |
+
+### Property: path_resources {#path_resources1}
+
+Gets or sets the path resources.
+
+**See also:**
+
+**[Example # 1](#example_102)**: The following example shows how to retrieve paths from TIFF image and display...
+
+**[Example # 2](#example_103)**: The following example shows how to modify already existing Clipping Paths. Fo...
+
+**[Example # 3](#example_104)**: Transfer Clipping Paths during export from TIFF to PSD image.
+
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
 
@@ -2441,4 +2454,46 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
+
+## **Examples**
+### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_102}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.tiff import TiffImage
+
+with as_of(Image.load("Sample.tif"), TiffImage) as image:
+	for path in image.active_frame.path_resources:
+		print(path.name)
+
+
+```
+
+### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_103}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.tiff import TiffImage
+
+with as_of(Image.load("Sample.tif"), TiffImage) as image:
+	frame = image.active_frame
+	paths = frame.path_resources
+	frame.path_resources = paths[0:1]
+	image.save()
+
+
+```
+
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_104}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import PsdOptions
+
+with Image.load("Sample.tif") as image:
+	image.save("SampleWithPaths.psd", PsdOptions())
+
+```
 

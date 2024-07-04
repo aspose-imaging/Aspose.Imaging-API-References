@@ -1,7 +1,7 @@
 ---
 title: EmfCommentMultiFormats Class
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiforma
 
 **Inheritance:** EmfCommentPublicRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

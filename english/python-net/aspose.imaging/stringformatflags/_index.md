@@ -1,7 +1,7 @@
 ---
 title: StringFormatFlags Enumeration
 type: docs
-weight: 11010
+weight: 11040
 url: /python-net/aspose.imaging/stringformatflags/
 ---
 
@@ -11,7 +11,7 @@ Specifies the display and layout information for text strings.
 
 **Full Name:** aspose.imaging.StringFormatFlags
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

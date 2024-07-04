@@ -1,7 +1,7 @@
 ---
 title: EmfDrawingRecordType Class
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawingrecordtype/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawingrecordtype
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: EmfTransparentBlt Class
 type: docs
-weight: 1420
+weight: 1450
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
 
 **Inheritance:** EmfBitmapRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

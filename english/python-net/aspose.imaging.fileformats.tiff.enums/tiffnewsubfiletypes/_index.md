@@ -11,7 +11,7 @@ The tiff new sub file type enum.
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffNewSubFileTypes
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

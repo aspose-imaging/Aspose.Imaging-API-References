@@ -1,7 +1,7 @@
 ---
 title: EmfSetWindowExtEx Class
 type: docs
-weight: 1320
+weight: 1350
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

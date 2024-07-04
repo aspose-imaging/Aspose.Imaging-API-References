@@ -1,7 +1,7 @@
 ---
 title: ColorQuantizationMethod Enumeration
 type: docs
-weight: 9180
+weight: 9210
 url: /python-net/aspose.imaging/colorquantizationmethod/
 ---
 
@@ -11,7 +11,7 @@ Colors quantization  methods
 
 **Full Name:** aspose.imaging.ColorQuantizationMethod
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

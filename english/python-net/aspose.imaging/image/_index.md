@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5530
+weight: 5560
 url: /python-net/aspose.imaging/image/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/image/
 
 **Inheritance:** IObjectWithBounds, DataStreamSupporter
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging/image/
 | is_cached | bool | r | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | size | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets the image size. |
-| use_palette | bool | r | Gets a value indicating whether the image palette is used. |
+| [use_palette](#use_palette1) | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the image width. |
 ## **Methods**
 | **Name** | **Description** |
@@ -96,6 +96,15 @@ url: /python-net/aspose.imaging/image/
 | [save_with_options(file_path, options)](#save_with_options_file_path_options_53) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_54) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [set_palette(palette, update_colors)](#set_palette_palette_update_colors_55) | Sets the image palette. |
+
+
+### Property: use_palette {#use_palette1}
+
+Gets a value indicating whether the image palette is used.
+
+**See also:**
+
+**[Example # 1](#example_109)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1067,6 +1076,8 @@ Saves the object's data to the specified file location in the specified file for
 
 **[Example # 2](#example_32)**: The following example loads a BMP image from a file, then saves the image to ...
 
+**[Example # 3](#example_90)**: The following example shows how to save an entire BMP image or part of it to ...
+
 
 ### Method: save(file_path, options, bounds_rectangle) {#save_file_path_options_bounds_rectangle_45}
 
@@ -1089,6 +1100,8 @@ Saves the object's data to the specified file location in the specified file for
 **See also:**
 
 **[Example # 1](#example_33)**: The following example loads a BMP image from a file, then saves a rectangular...
+
+**[Example # 2](#example_90)**: The following example shows how to save an entire BMP image or part of it to ...
 
 
 ### Method: save(file_path, over_write) {#save_file_path_over_write_46}
@@ -1145,6 +1158,8 @@ Saves the image's data to the specified stream in the specified file format acco
 
 **[Example # 2](#example_34)**: The following example loads an image from a file, then saves the image to a P...
 
+**[Example # 3](#example_90)**: The following example shows how to save an entire BMP image or part of it to ...
+
 
 ### Method: save(stream, options_base, bounds_rectangle) {#save_stream_options_base_bounds_rectangle_49}
 
@@ -1167,6 +1182,8 @@ Saves the image's data to the specified stream in the specified file format acco
 **See also:**
 
 **[Example # 1](#example_35)**: The following example loads an image from a file, then saves a rectangular pa...
+
+**[Example # 2](#example_90)**: The following example shows how to save an entire BMP image or part of it to ...
 
 
 ### Method: save_to_stream(stream) {#save_to_stream_stream_50}
@@ -1636,6 +1653,67 @@ with Image.load(path_join(dir, "sample.bmp")) as image:
 		# Save the upper half of the image to a file stream.
 		image.save(output_stream, save_options, bounds)
 
+
+```
+
+### The following example shows how to save an entire BMP image or part of it to a file or stream. {#example_90}
+``` python
+
+from os.path import join as path_join
+from aspose.pycore import as_of
+from aspose.imaging import Image, ColorPaletteHelper
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.extensions import StreamExtensions as strm_ext
+
+directory = "c:\\temp\\"
+with Image.load(path_join(directory, "sample.bmp")) as image:
+	bmpImage = as_of(image, BmpImage)
+		
+	# Convert to a black-white image
+	bmpImage.binarize_otsu()
+
+	# Save to the same location with default options.
+	image.save()
+
+	saveOptions = BmpOptions()
+
+	# A palette contains only two colors: Black and White in this case.
+	saveOptions.palette = ColorPaletteHelper.create_monochrome()
+
+	# For all monochrome images (including black-white ones) it is enough to allocate 1 bit per pixel.
+	saveOptions.bits_per_pixel = 1
+
+	# Save to another location with the specified options.
+	image.save(path_join(directory, "sample.bw.palettized.bmp"), saveOptions)
+
+	# Save only the central part of the image.
+	bounds = Rectangle(image.width // 4, image.height // 4, image.width // 2, image.height // 2)
+	image.save(path_join(directory, "sample.bw.palettized.part.bmp"), saveOptions, bounds)
+
+	# Save the entire image to a memory stream
+	with strm_ext.create_memory_stream() as stream:
+		image.save(stream, saveOptions);
+		print("The size of the whole image in bytes:", stream.tell())
+
+	# Save the central part of the image to a memory stream
+	with strm_ext.create_memory_stream() as stream:
+		image.save(stream, saveOptions, bounds)
+		print("The size of the central part of the image in bytes: ", stream.tell())
+
+#The output may look like this:
+#The size of the whole image in bytes: 24062
+#The size of the central part of the image in bytes: 6046
+
+```
+
+### Determine if the palette is used by the image. {#example_109}
+``` python
+
+from aspose.imaging import Image
+
+with Image.load("Sample.bmp") as image:
+	if image.use_palette:
+		print("The palette is used by the image")
 
 ```
 

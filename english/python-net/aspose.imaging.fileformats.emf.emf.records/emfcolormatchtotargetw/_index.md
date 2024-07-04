@@ -1,7 +1,7 @@
 ---
 title: EmfColorMatchToTargetW Class
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotarge
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

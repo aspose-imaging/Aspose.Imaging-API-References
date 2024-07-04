@@ -1,7 +1,7 @@
 ---
 title: EmfGlsBoundedRecord Class
 type: docs
-weight: 530
+weight: 540
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
 
 **Inheritance:** EmfOpenGlRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

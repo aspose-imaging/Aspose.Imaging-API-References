@@ -1,7 +1,7 @@
 ---
 title: EmfGlsRecord Class
 type: docs
-weight: 540
+weight: 550
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 
 **Inheritance:** EmfOpenGlRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

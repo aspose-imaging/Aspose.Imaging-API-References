@@ -1,7 +1,7 @@
 ---
 title: EmfSetDiBitsToDevice Class
 type: docs
-weight: 1120
+weight: 1150
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice
 
 **Inheritance:** EmfBitmapRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

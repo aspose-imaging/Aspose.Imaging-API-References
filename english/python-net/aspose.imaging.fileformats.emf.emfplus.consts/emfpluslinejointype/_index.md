@@ -11,7 +11,7 @@ The LineJoinType enumeration defines ways to join two lines that are drawn by th
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLineJoinType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

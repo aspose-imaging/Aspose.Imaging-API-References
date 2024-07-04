@@ -1,7 +1,7 @@
 ---
 title: EmfScaleViewportExtex Class
 type: docs
-weight: 1010
+weight: 1040
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportexte
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

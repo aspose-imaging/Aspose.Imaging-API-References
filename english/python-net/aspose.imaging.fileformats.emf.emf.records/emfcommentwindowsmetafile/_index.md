@@ -1,7 +1,7 @@
 ---
 title: EmfCommentWindowsMetaFile Class
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmet
 
 **Inheritance:** EmfCommentPublicRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

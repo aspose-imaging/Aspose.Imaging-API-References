@@ -1,7 +1,7 @@
 ---
 title: EmfLineTo Class
 type: docs
-weight: 580
+weight: 590
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emflineto/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emflineto/
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

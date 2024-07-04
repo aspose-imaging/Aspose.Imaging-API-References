@@ -1,7 +1,7 @@
 ---
 title: VectorImage Class
 type: docs
-weight: 7710
+weight: 7740
 url: /python-net/aspose.imaging/vectorimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/vectorimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, Image
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

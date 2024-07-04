@@ -1,7 +1,7 @@
 ---
 title: EmfSetTextAlign Class
 type: docs
-weight: 1270
+weight: 1300
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

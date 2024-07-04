@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/
 
 **Full Name:** aspose.imaging.fileformats.svg.graphics.SvgGraphics2D
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

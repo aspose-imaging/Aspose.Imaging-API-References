@@ -1,7 +1,7 @@
 ---
 title: EmfRoundRect Class
 type: docs
-weight: 990
+weight: 1020
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

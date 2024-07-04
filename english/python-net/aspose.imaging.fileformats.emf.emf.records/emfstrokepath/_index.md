@@ -1,7 +1,7 @@
 ---
 title: EmfStrokePath Class
 type: docs
-weight: 1400
+weight: 1430
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

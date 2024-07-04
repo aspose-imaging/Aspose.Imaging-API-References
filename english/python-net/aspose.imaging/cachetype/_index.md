@@ -1,7 +1,7 @@
 ---
 title: CacheType Enumeration
 type: docs
-weight: 9030
+weight: 9060
 url: /python-net/aspose.imaging/cachetype/
 ---
 
@@ -11,7 +11,7 @@ Specifies the cache type to use.
 
 **Full Name:** aspose.imaging.CacheType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

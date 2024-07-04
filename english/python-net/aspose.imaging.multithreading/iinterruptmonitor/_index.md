@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.multithreading/iinterruptmonitor/
 
 **Full Name:** aspose.imaging.multithreading.IInterruptMonitor
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

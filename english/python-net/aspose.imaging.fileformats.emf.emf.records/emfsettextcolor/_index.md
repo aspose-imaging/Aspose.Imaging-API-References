@@ -1,7 +1,7 @@
 ---
 title: EmfSetTextColor Class
 type: docs
-weight: 1280
+weight: 1310
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

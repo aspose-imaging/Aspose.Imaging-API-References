@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, MetaImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -1358,4 +1358,31 @@ Apply a specified palette to the image, enabling customization of color <br/>   
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>                indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>                corresponding palette entries. |
+
+## **Examples**
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_98}
+``` python
+
+from aspose.pycore import as_of, cast
+from aspose.imaging import Image, Color, SizeF
+from aspose.imaging.fileformats.wmf import WmfImage, WmfRenderMode
+from aspose.imaging.imageoptions import SvgOptions, WmfRasterizationOptions
+
+# Using Aspose.Imaging.Image.Load is a unified way to load all types of images including WMF.
+with as_of(Image.load("test.wmf") as image:
+	saveOptions = SvgOptions()
+	# Text will be converted to shapes.
+	saveOptions.text_as_shapes = True
+	rasterizationOptions = WmfRasterizationOptions()
+	# The background color of the drawing surface.
+	rasterizationOptions.background_color = Color.white_smoke
+	# The page size.
+	rasterizationOptions.page_size = cast(SizeF, wmfImage.size)
+	# If embedded emf exists, then render emf; otherwise render wmf.
+	rasterizationOptions.render_mode = WmfRenderMode.AUTO
+	saveOptions.vector_rasterization_options = rasterizationOptions
+	wmfImage.save("test.output.svg", saveOptions)
+
+
+```
 

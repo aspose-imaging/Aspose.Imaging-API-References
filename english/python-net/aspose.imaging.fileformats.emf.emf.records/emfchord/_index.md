@@ -1,7 +1,7 @@
 ---
 title: EmfChord Class
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

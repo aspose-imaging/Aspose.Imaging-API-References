@@ -1,7 +1,7 @@
 ---
 title: PixelFormat Enumeration
 type: docs
-weight: 10830
+weight: 10860
 url: /python-net/aspose.imaging/pixelformat/
 ---
 
@@ -11,7 +11,7 @@ The pixel data format actual meaning.
 
 **Full Name:** aspose.imaging.PixelFormat
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

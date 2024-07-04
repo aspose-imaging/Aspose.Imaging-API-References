@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.multithreading/interruptmonitor/
 
 **Inheritance:** IInterruptMonitor
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

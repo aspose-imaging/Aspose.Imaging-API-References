@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imagefilters.convolution/convolutionfilter/
 
 **Full Name:** aspose.imaging.imagefilters.convolution.ConvolutionFilter
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: RasterCachedMultipageImage Class
 type: docs
-weight: 6890
+weight: 6920
 url: /python-net/aspose.imaging/rastercachedmultipageimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/rastercachedmultipageimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

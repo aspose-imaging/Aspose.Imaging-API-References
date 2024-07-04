@@ -1,7 +1,7 @@
 ---
 title: EmfSetBrushOrgEx Class
 type: docs
-weight: 1090
+weight: 1120
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: EmfPolyDraw16 Class
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw16/
 ---
 
@@ -11,9 +11,9 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw16/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyDraw16
 
-**Inheritance:** EmfDrawingRecordType
+**Inheritance:** EmfPolyShape
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -22,9 +22,9 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw16/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| a_points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets a Count length array of WMF PointS objects, specified in [MS-WMF] <br/>            section 2.2.2.16, which specifies the array of points. |
+| a_points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that specifies the point data, in logical units. |
 | ab_types | [EmfPointEnum[]](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfpointenum/) | r/w | Gets or sets a Count length array of bytes that specifies the point types. This value <br/>            MUST be in the Point (section 2.1.26) enumeration. |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, <br/>            which specifies the bounding rectangle, in device units. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets an 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**

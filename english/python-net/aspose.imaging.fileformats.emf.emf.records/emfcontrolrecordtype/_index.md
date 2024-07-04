@@ -1,7 +1,7 @@
 ---
 title: EmfControlRecordType Class
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

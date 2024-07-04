@@ -1,7 +1,7 @@
 ---
 title: EmfFillPath Class
 type: docs
-weight: 480
+weight: 490
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

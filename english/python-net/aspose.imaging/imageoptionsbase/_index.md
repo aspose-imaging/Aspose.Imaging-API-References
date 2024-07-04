@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5620
+weight: 5650
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 
 **Inheritance:** IHasXmpData, IHasMetadata, DisposableObject
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
@@ -44,7 +44,7 @@ Gets or sets the color palette.
 
 **[Example # 2](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
 
-**[Example # 3](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+**[Example # 3](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
 
 
 ### Property: resolution_settings {#resolution_settings2}
@@ -53,7 +53,9 @@ Gets or sets the resolution settings.
 
 **See also:**
 
-**[Example # 1](#example_90)**: The following example loads a BMP image and saves it back to BMP using variou...
+**[Example # 1](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
+
+**[Example # 2](#example_92)**: The following example creates a palettized grayscale BMP image and then saves...
 
 
 ### Method: clone() {#clone__1}
@@ -142,7 +144,7 @@ with Image.load(sourceFilePath) as image:
 
 ```
 
-### The following example loads a BMP image and saves it back to BMP using various save options. {#example_90}
+### The following example loads a BMP image and saves it back to BMP using various save options. {#example_91}
 ``` python
 from aspose.imaging import Image, RasterImage, ColorPaletteHelper, ResolutionSetting
 from aspose.imaging.imageoptions import BmpOptions
@@ -174,6 +176,48 @@ with Image.load(os.path.join(directory, "sample.bmp")) as image:
 	saveOptions.resolution_settings = ResolutionSetting(96.0, 96.0)
 
 	image.save(os.path.join(directory, "sample.bmpoptions.bmp"), saveOptions)
+
+
+```
+
+### The following example creates a palettized grayscale BMP image and then saves it to a file. {#example_92}
+``` python
+
+from os.path import join as path_join
+from aspose.imaging import Image, ColorPaletteHelper, ResolutionSetting, Graphics, Point, Color
+from aspose.imaging.sources import FileCreateSource
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.fileformats.bmp import BitmapCompression
+from aspose.imaging.brushes import LinearGradientBrush
+
+directory = "c:\\temp\\"
+createOptions = BmpOptions()
+
+# Save to a file
+createOptions.source = FileCreateSource(path_join(directory, "output.palette8bit.bmp"), False)
+	
+# Use 8 bits per pixel to reduce the size of the output image.
+createOptions.bits_per_pixel = 8
+
+# Set the standard 8-bit grayscale color palette which covers all grayscale colors.
+# If the processed image contains only grayscale colors, then its palettized version
+# is visually indistinguishable from a non-palletized one.
+createOptions.palette = ColorPaletteHelper.create_8_bit_grayscale(False)
+
+# Save without compression.
+# You can also use RLE-8 compression to reduce the size of the output image.
+createOptions.compression = BitmapCompression.RGB
+
+# Set the horizontal and vertical resolution to 96 dpi.
+createOptions.resolution_settings = ResolutionSetting(96.0, 96.0)
+
+# Create a BMP image of 100 x 100 px and save it to a file.
+with Image.create(createOptions, 100, 100) as image:
+	graphics = Graphics(image)
+	gradientBrush = LinearGradientBrush(Point(0, 0), Point(image.width, image.height), Color.black, Color.white)
+	# Fill the image with a grayscale gradient
+	graphics.fill_rectangle(gradientBrush, image.bounds)
+	image.save()
 
 
 ```

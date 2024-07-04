@@ -1,7 +1,7 @@
 ---
 title: VectorMultipageImage Class
 type: docs
-weight: 7720
+weight: 7750
 url: /python-net/aspose.imaging/vectormultipageimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/vectormultipageimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, IMultipageImage, VectorImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

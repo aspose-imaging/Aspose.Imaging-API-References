@@ -1,7 +1,7 @@
 ---
 title: EmfSetMapMode Class
 type: docs
-weight: 1180
+weight: 1210
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
 
 **Inheritance:** EmfRecord
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

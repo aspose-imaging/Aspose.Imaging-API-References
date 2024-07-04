@@ -1,7 +1,7 @@
 ---
 title: EmfSetRop2 Class
 type: docs
-weight: 1250
+weight: 1280
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

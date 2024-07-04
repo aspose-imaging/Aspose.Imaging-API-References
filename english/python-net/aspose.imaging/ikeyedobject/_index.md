@@ -1,7 +1,7 @@
 ---
 title: IKeyedObject Class
 type: docs
-weight: 5280
+weight: 5310
 url: /python-net/aspose.imaging/ikeyedobject/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging/ikeyedobject/
 
 **Full Name:** aspose.imaging.IKeyedObject
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

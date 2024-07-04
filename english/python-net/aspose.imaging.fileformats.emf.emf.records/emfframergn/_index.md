@@ -1,7 +1,7 @@
 ---
 title: EmfFrameRgn Class
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

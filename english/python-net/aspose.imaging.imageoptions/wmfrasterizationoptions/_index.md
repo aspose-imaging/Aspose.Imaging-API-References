@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, MetafileRasterizationOptions
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -37,7 +37,7 @@ url: /python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 | page_width | float | r/w | Gets or sets the page width. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | positioning | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
-| render_mode | [WmfRenderMode](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfrendermode/) | r/w | Gets or sets the WMF render mode. |
+| [render_mode](#render_mode1) | [WmfRenderMode](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfrendermode/) | r/w | Gets or sets the WMF render mode. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | smoothing_mode | [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode) | r/w | Gets or sets the smoothing mode. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
@@ -59,6 +59,15 @@ url: /python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 ```
 
 Initializes a new instance of the [WmfRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/) class.
+
+### Property: render_mode {#render_mode1}
+
+Gets or sets the WMF render mode.
+
+**See also:**
+
+**[Example # 1](#example_98)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+
 
 ### Method: clone() {#clone__1}
 
@@ -90,4 +99,31 @@ Copies to.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
+
+## **Examples**
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_98}
+``` python
+
+from aspose.pycore import as_of, cast
+from aspose.imaging import Image, Color, SizeF
+from aspose.imaging.fileformats.wmf import WmfImage, WmfRenderMode
+from aspose.imaging.imageoptions import SvgOptions, WmfRasterizationOptions
+
+# Using Aspose.Imaging.Image.Load is a unified way to load all types of images including WMF.
+with as_of(Image.load("test.wmf") as image:
+	saveOptions = SvgOptions()
+	# Text will be converted to shapes.
+	saveOptions.text_as_shapes = True
+	rasterizationOptions = WmfRasterizationOptions()
+	# The background color of the drawing surface.
+	rasterizationOptions.background_color = Color.white_smoke
+	# The page size.
+	rasterizationOptions.page_size = cast(SizeF, wmfImage.size)
+	# If embedded emf exists, then render emf; otherwise render wmf.
+	rasterizationOptions.render_mode = WmfRenderMode.AUTO
+	saveOptions.vector_rasterization_options = rasterizationOptions
+	wmfImage.save("test.output.svg", saveOptions)
+
+
+```
 

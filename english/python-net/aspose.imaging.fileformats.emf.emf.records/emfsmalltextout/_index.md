@@ -1,7 +1,7 @@
 ---
 title: EmfSmallTextOut Class
 type: docs
-weight: 1350
+weight: 1380
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

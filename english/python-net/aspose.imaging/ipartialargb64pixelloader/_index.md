@@ -1,7 +1,7 @@
 ---
 title: IPartialArgb64PixelLoader Class
 type: docs
-weight: 5390
+weight: 5420
 url: /python-net/aspose.imaging/ipartialargb64pixelloader/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/ipartialargb64pixelloader/
 
 **Inheritance:** IPartialArgb32PixelLoader
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Methods**
 | **Name** | **Description** |

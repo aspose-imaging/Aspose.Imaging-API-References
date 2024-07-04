@@ -1,7 +1,7 @@
 ---
 title: RasterImage Class
 type: docs
-weight: 6900
+weight: 6930
 url: /python-net/aspose.imaging/rasterimage/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging/rasterimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, Image
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |

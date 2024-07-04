@@ -1,7 +1,7 @@
 ---
 title: EmfSetViewportOrgEx Class
 type: docs
-weight: 1310
+weight: 1340
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -642,6 +642,12 @@ Crop with shifts allows you to precisely adjust the position and dimensions of t
 | Parameter | Type | Description |
 | :- | :- | :- |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle. |
+
+
+**See also:**
+
+**[Example # 1](#example_97)**: The following example crops a DJVU image. The cropping area is be specified v...
+
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_23}
 
@@ -2260,4 +2266,24 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
+
+## **Examples**
+### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_97}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image, Rectangle
+from aspose.imaging.fileformats.djvu import DjvuImage
+from aspose.imaging.imageoptions import PngOptions
+
+with Image.load("sample.djvu") as image:
+	djvuImage = as_of(image, DjvuImage)
+	# Crop the image. The cropping area is the rectangular central area of the image.
+	area = Rectangle(djvuImage.width // 4, djvuImage.height // 4, djvuImage.width // 2, djvuImage.height // 2)
+	djvuImage.crop(area)
+	# Save the cropped image to PNG
+	djvuImage.save("sample.Crop.png", PngOptions())
+
+
+```
 

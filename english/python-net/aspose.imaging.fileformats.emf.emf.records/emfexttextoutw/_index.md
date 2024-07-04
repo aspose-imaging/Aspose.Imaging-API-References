@@ -1,7 +1,7 @@
 ---
 title: EmfExtTextOutW Class
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/
 
 **Inheritance:** EmfDrawingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

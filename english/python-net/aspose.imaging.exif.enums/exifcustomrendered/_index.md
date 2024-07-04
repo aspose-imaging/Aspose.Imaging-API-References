@@ -11,7 +11,7 @@ exif custom rendered enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifCustomRendered
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

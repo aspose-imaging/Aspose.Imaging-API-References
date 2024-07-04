@@ -1,7 +1,7 @@
 ---
 title: EmfExtCreateFontIndirectW Class
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindi
 
 **Inheritance:** EmfObjectCreationRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

@@ -1,7 +1,7 @@
 ---
 title: EmfSetMetaRgn Class
 type: docs
-weight: 1200
+weight: 1230
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 
 **Inheritance:** EmfClippingRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |

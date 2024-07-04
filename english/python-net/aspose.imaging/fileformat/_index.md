@@ -1,7 +1,7 @@
 ---
 title: FileFormat Enumeration
 type: docs
-weight: 10400
+weight: 10430
 url: /python-net/aspose.imaging/fileformat/
 ---
 
@@ -11,7 +11,7 @@ One of supported imaging file formats.
 
 **Full Name:** aspose.imaging.FileFormat
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

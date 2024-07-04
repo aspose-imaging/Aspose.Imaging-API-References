@@ -1,7 +1,7 @@
 ---
 title: StringDigitSubstitute Enumeration
 type: docs
-weight: 11000
+weight: 11030
 url: /python-net/aspose.imaging/stringdigitsubstitute/
 ---
 
@@ -11,7 +11,7 @@ The enumeration specifies how to substitute digits in a string according to a us
 
 **Full Name:** aspose.imaging.StringDigitSubstitute
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -215,9 +215,9 @@ Crafting GIF images becomes effortless with the [GifImage](/imaging/python-net/a
 
 **See also:**
 
-**[Example # 1](#example_91)**: This example shows how to create a GIF image and save it to a file.
+**[Example # 1](#example_93)**: This example shows how to create a GIF image and save it to a file.
 
-**[Example # 2](#example_93)**: The following example shows how to compose an animated GIF image from individ...
+**[Example # 2](#example_95)**: The following example shows how to compose an animated GIF image from individ...
 
 
 ### Constructor: GifImage(first_frame, global_palette) {#GifImage_first_frame_global_palette_2}
@@ -239,7 +239,7 @@ Initiate a new [GifImage](/imaging/python-net/aspose.imaging.fileformats.gif/gif
 
 **See also:**
 
-**[Example # 1](#example_92)**: This example shows how to create a GIF image with a custom palette and save i...
+**[Example # 1](#example_94)**: This example shows how to create a GIF image with a custom palette and save i...
 
 
 ### Constructor: GifImage(first_frame, global_palette, is_palette_sorted, palette_color_resolution, palette_background_color_index, aspect_ratio, has_trailer) {#GifImage_first_frame_global_palette_is_palette_sorted_palette_color_resolution_palette_background_color_index_aspect_ratio_has_trailer_3}
@@ -269,7 +269,7 @@ Manage and manipulate frames with this property, enabling smooth navigation and 
 
 **See also:**
 
-**[Example # 1](#example_94)**: The following example shows how to remove all blocks from a GIF image.
+**[Example # 1](#example_96)**: The following example shows how to remove all blocks from a GIF image.
 
 
 ### Method: add_block(block) {#add_block_block_1}
@@ -290,7 +290,7 @@ Adding a new GIF block allows you to include additional data within the image. <
 
 **See also:**
 
-**[Example # 1](#example_93)**: The following example shows how to compose an animated GIF image from individ...
+**[Example # 1](#example_95)**: The following example shows how to compose an animated GIF image from individ...
 
 
 ### Method: add_page(page) {#add_page_page_2}
@@ -2387,7 +2387,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to create a GIF image and save it to a file. {#example_91}
+### This example shows how to create a GIF image and save it to a file. {#example_93}
 ``` python
 from aspose.imaging.fileformats.gif.blocks import GifFrameBlock
 from aspose.imaging.fileformats.gif import GifImage 
@@ -2408,7 +2408,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### This example shows how to create a GIF image with a custom palette and save it to a file. {#example_92}
+### This example shows how to create a GIF image with a custom palette and save it to a file. {#example_94}
 ``` python
 from aspose.imaging.fileformats.gif.blocks import GifFrameBlock
 from aspose.imaging.fileformats.gif import GifImage 
@@ -2432,7 +2432,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### The following example shows how to compose an animated GIF image from individual GIF blocks. {#example_93}
+### The following example shows how to compose an animated GIF image from individual GIF blocks. {#example_95}
 ``` python
 from aspose.imaging.fileformats.gif.blocks import GifFrameBlock
 from aspose.imaging.fileformats.gif import GifImage 
@@ -2469,7 +2469,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### The following example shows how to remove all blocks from a GIF image. {#example_94}
+### The following example shows how to remove all blocks from a GIF image. {#example_96}
 ``` python
 from aspose.imaging.fileformats.gif.blocks import GifFrameBlock
 from aspose.imaging.fileformats.gif import GifImage 

@@ -1,7 +1,7 @@
 ---
 title: EmfSetBkColor Class
 type: docs
-weight: 1070
+weight: 1100
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/
 ---
 
@@ -13,7 +13,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.6.0
+**Aspose.Imaging Version:** 24.7.0
 
 ## **Constructors**
 | **Name** | **Description** |
