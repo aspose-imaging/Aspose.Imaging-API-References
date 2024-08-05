@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/removebackgroundsettings/
 
 **Full Name:** aspose.imaging.RemoveBackgroundSettings
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

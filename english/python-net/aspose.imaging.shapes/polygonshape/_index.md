@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.shapes/polygonshape/
 
 **Inheritance:** IOrderedShape, Shape
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

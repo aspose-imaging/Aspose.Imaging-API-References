@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.watermark/watermarkremover/
 
 **Full Name:** aspose.imaging.watermark.WatermarkRemover
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

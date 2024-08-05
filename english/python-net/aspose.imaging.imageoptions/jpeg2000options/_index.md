@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

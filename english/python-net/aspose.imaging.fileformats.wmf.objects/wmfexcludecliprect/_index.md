@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
 
 **Inheritance:** WmfRectangle
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

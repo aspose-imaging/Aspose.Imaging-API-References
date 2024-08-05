@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteropt
 
 **Inheritance:** ConvolutionFilterOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

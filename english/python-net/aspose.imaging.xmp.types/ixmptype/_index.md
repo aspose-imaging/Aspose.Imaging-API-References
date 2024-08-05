@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.xmp.types/ixmptype/
 
 **Full Name:** aspose.imaging.xmp.types.IXmpType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

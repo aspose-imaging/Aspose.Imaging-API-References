@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/metered/
 
 **Full Name:** aspose.imaging.Metered
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 
 **Full Name:** aspose.imaging.xmp.XmpPacketWrapper
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

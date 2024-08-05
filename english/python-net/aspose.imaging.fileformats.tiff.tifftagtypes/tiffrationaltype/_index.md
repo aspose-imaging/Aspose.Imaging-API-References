@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/
 
 **Inheritance:** TiffCommonArrayType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

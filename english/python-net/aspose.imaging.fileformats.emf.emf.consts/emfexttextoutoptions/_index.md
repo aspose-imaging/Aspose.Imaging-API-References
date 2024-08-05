@@ -11,7 +11,7 @@ The ExtTextOutOptions enumeration specifies parameters that control various aspe
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfExtTextOutOptions
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

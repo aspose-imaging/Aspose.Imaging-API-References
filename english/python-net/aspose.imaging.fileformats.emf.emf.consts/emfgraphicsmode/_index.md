@@ -11,7 +11,7 @@ The GraphicsMode enumeration is used to specify how to interpret shape data such
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfGraphicsMode
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

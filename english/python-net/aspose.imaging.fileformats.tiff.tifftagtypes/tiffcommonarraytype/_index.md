@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytyp
 
 **Inheritance:** TiffDataType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

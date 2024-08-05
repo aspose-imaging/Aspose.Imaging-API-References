@@ -11,7 +11,5 @@ url: /python-net/aspose.imaging.masking.options/imaskingargs/
 
 **Full Name:** aspose.imaging.masking.options.IMaskingArgs
 
-**Aspose.Imaging Version:** 24.7.0
-
 
 

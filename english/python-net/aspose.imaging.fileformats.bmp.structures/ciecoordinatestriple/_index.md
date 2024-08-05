@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/
 
 **Full Name:** aspose.imaging.fileformats.bmp.structures.CieCoordinatesTriple
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/
 
 **Inheritance:** IImageMask
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

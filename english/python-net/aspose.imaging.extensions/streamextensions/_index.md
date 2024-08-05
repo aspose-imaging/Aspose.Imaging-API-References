@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.extensions/streamextensions/
 
 **Full Name:** aspose.imaging.extensions.StreamExtensions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

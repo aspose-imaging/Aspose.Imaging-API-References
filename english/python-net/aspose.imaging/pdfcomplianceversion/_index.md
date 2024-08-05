@@ -11,7 +11,7 @@ Specifies the PDF compliance level to output file.
 
 **Full Name:** aspose.imaging.PdfComplianceVersion
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

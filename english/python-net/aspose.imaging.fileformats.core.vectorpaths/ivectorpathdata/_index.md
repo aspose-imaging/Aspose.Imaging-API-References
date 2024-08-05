@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/
 
 **Full Name:** aspose.imaging.fileformats.core.vectorpaths.IVectorPathData
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

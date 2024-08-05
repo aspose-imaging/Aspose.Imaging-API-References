@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxPage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

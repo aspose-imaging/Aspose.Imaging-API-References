@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/iimagecreator/
 
 **Full Name:** aspose.imaging.IImageCreator
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

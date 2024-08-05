@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/
 
 **Inheritance:** VectorPathRecord
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

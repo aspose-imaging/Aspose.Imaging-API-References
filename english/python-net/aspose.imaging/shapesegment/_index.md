@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/shapesegment/
 
 **Full Name:** aspose.imaging.ShapeSegment
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

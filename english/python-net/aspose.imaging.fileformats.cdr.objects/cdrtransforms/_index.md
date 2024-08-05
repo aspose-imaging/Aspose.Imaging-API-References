@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrtransforms/
 
 **Inheritance:** CdrObject
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

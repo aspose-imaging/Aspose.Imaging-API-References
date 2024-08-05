@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 
 **Full Name:** aspose.imaging.fileformats.dicom.DicomImageInfo
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

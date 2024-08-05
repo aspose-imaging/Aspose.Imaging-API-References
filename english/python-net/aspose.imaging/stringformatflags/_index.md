@@ -11,7 +11,7 @@ Specifies the display and layout information for text strings.
 
 **Full Name:** aspose.imaging.StringFormatFlags
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

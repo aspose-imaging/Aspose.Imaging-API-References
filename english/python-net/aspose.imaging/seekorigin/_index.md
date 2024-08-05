@@ -11,7 +11,7 @@ Provides the fields that represent reference points in [StreamContainer](/imagin
 
 **Full Name:** aspose.imaging.SeekOrigin
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

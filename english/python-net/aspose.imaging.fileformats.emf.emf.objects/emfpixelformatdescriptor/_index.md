@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescri
 
 **Inheritance:** EmfObject
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/graphics/
 
 **Full Name:** aspose.imaging.Graphics
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

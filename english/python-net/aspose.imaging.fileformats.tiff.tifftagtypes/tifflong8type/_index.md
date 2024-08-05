@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/
 
 **Inheritance:** TiffCommonArrayType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

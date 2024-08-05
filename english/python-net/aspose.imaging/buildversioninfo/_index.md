@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/buildversioninfo/
 
 **Full Name:** aspose.imaging.BuildVersionInfo
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

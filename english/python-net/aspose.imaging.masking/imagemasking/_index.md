@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.masking/imagemasking/
 
 **Full Name:** aspose.imaging.masking.ImageMasking
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging/splitstreamcontainer/
 
 **Inheritance:** StreamContainer
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

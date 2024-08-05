@@ -11,7 +11,7 @@ The ObjectType enumeration defines types of graphics objects that can be created
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusObjectType
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

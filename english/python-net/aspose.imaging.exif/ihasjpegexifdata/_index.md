@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.exif/ihasjpegexifdata/
 
 **Inheritance:** IHasExifData, IHasMetadata
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

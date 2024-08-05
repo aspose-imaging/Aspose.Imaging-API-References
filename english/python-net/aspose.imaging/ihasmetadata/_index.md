@@ -11,7 +11,5 @@ url: /python-net/aspose.imaging/ihasmetadata/
 
 **Full Name:** aspose.imaging.IHasMetadata
 
-**Aspose.Imaging Version:** 24.7.0
-
 
 

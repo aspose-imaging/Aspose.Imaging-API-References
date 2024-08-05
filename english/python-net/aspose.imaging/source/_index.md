@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/source/
 
 **Full Name:** aspose.imaging.Source
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

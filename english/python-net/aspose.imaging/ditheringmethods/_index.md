@@ -11,7 +11,7 @@ The dithering methods used to control color conversion.
 
 **Full Name:** aspose.imaging.DitheringMethods
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.progressmanagement/progresseventhandlerinfo/
 
 **Full Name:** aspose.imaging.progressmanagement.ProgressEventHandlerInfo
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

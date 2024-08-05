@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.bmp/bitmapcoreheader/
 
 **Full Name:** aspose.imaging.fileformats.bmp.BitmapCoreHeader
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

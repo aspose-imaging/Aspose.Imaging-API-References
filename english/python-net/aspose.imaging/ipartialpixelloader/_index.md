@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/ipartialpixelloader/
 
 **Full Name:** aspose.imaging.IPartialPixelLoader
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

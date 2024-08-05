@@ -11,7 +11,7 @@ The expected [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/) f
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

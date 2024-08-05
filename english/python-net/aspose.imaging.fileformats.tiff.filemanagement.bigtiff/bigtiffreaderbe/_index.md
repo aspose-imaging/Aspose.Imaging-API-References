@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffr
 
 **Inheritance:** TiffBigEndianStreamReader
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

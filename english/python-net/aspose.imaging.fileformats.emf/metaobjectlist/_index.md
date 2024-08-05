@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf/metaobjectlist/
 
 **Inheritance:** NonGenericList
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

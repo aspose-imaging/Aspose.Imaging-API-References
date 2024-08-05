@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging/graphicspath/
 
 **Inheritance:** ObjectWithBounds
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

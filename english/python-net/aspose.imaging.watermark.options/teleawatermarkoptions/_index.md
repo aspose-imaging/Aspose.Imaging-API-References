@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.watermark.options/teleawatermarkoptions/
 
 **Inheritance:** WatermarkOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

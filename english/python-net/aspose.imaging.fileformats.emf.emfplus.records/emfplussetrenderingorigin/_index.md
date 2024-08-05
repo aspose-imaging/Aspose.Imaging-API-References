@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetrender
 
 **Inheritance:** EmfPlusPropertyRecordType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

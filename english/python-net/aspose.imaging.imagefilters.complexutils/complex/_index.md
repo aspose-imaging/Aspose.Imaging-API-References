@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.imagefilters.complexutils/complex/
 
 **Full Name:** aspose.imaging.imagefilters.complexutils.Complex
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

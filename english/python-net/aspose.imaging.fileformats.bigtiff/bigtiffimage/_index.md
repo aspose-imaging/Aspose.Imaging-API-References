@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, IHasExifData, TiffImage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -120,8 +118,8 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | [get_skew_angle()](#get_skew_angle__49) | Gets the skew angle.<br/>            This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | grayscale() | Convert the image to its grayscale representation, transforming it into a <br/>            single-channel image where each pixel represents intensity. Integrate this method <br/>            into your image processing pipeline to simplify analysis and enhance <br/>            compatibility with grayscale-based algorithms, facilitating various computer <br/>            vision and image analysis tasks within your application. |
 | [insert_frame(index, frame_to_insert)](#insert_frame_index_frame_to_insert_50) | Insert the new frame at the specified index within the frame sequence, ensuring <br/>            precise control over frame arrangement. Employ this method to manage frame <br/>            sequences effectively, facilitating dynamic manipulation and organization of image <br/>            content within your application. |
-| [load(file_path)](#load_file_path_51) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_52) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_51) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_52) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_53) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_54) | Loads a new image from the specified stream. |
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_55) | Loads 32-bit ARGB pixels. |
@@ -136,7 +134,7 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_64) | Loads raw data. |
 | [load_stream(stream)](#load_stream_stream_65) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_66) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_68) | Utilize the NormalizeAngle method specifically designed for scanned text documents <br/>            to rectify skewed scans, ensuring accurate alignment. Seamlessly <br/>            integrate this functionality into your text processing workflows to enhance <br/>            document readability and quality, improving overall efficiency in text recognition <br/>            and analysis tasks.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [TiffImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_69) | Reads the whole scan line by the specified scan line index. |
@@ -1213,13 +1211,13 @@ Insert the new frame at the specified index within the frame sequence, ensuring 
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -1235,13 +1233,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1541,13 +1539,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**

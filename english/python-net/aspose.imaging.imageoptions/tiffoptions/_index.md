@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, IHasExifData, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

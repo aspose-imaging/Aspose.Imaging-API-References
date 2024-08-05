@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/rawdatasettings/
 
 **Full Name:** aspose.imaging.RawDataSettings
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

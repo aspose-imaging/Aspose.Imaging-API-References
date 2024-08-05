@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.sources/fileopensource/
 
 **Inheritance:** FileSource
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

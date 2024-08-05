@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odellip
 
 **Inheritance:** OdGraphicObject
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

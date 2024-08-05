@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/pixeldataformat/
 
 **Full Name:** aspose.imaging.PixelDataFormat
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

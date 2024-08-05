@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpboolean/
 
 **Inheritance:** IXmpType, XmpTypeBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

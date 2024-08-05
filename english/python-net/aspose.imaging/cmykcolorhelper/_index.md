@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/cmykcolorhelper/
 
 **Full Name:** aspose.imaging.CmykColorHelper
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

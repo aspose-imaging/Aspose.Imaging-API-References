@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/loadoptions/
 
 **Full Name:** aspose.imaging.LoadOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

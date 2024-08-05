@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/resolutionsetting/
 
 **Full Name:** aspose.imaging.ResolutionSetting
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/ibufferprocessor/
 
 **Full Name:** aspose.imaging.IBufferProcessor
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

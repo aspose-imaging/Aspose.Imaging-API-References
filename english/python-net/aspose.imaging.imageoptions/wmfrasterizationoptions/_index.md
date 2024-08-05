@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, MetafileRasterizationOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

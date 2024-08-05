@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.imageoptions/timeinterval/
 
 **Full Name:** aspose.imaging.imageoptions.TimeInterval
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

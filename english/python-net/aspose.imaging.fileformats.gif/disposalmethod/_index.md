@@ -11,7 +11,7 @@ Indicates the way in which the graphic is to be treated after being displayed.
 
 **Full Name:** aspose.imaging.fileformats.gif.DisposalMethod
 
-**Aspose.Imaging Version:** 24.7.0
+**Aspose.Imaging Version:** 24.8.0
 
 ## **Members**
 | **Member name** | **Description** |

@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/metafilerasterizationoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, VectorRasterizationOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
