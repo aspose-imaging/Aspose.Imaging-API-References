@@ -1,14 +1,14 @@
 ---
 title: Image.Load
 second_title: Aspose.Imaging for .NET API Reference
-description: Image method. Loads a new image from the specified file
+description: Image method. Loads a new image from the specified file path or URL. If filePath is a file path the method just opens the file. If filePath is an URL the method downloads the file stores it as a temporary one and opens it
 type: docs
 weight: 20
 url: /net/aspose.imaging/image/load/
 ---
 ## Load(string, LoadOptions) {#load_3}
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 ```csharp
 public static Image Load(string filePath, LoadOptions loadOptions)
@@ -16,7 +16,7 @@ public static Image Load(string filePath, LoadOptions loadOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | The file path to load image from. |
+| filePath | String | The file path or URL to load image from. |
 | loadOptions | LoadOptions | The load options. |
 
 ### Return Value
@@ -34,7 +34,7 @@ The loaded image.
 
 ## Load(string) {#load_2}
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 ```csharp
 public static Image Load(string filePath)
@@ -42,7 +42,7 @@ public static Image Load(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | The file path to load image from. |
+| filePath | String | The file path or URL to load image from. |
 
 ### Return Value
 
