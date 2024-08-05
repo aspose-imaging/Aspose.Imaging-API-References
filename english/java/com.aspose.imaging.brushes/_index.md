@@ -3,7 +3,7 @@ title: com.aspose.imaging.brushes
 second_title: Aspose.Imaging for Java API Reference
 description: The package provides helper classes and methods to work with different brush types.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.aspose.imaging.brushes/
 ---
 

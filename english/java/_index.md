@@ -13,6 +13,7 @@ is_root: true
 | [com.aspose.imaging](./com.aspose.imaging) | The package is the core for nested packages and the most basic objects used for Aspose.Imaging processing. |
 | [com.aspose.imaging.apsbuilder.dib](./com.aspose.imaging.apsbuilder.dib) | The package DIB header processing. |
 | [com.aspose.imaging.asynctask](./com.aspose.imaging.asynctask) | The package handles AsyncTask processing. |
+| [com.aspose.imaging.awt](./com.aspose.imaging.awt) | The package contains specific features for cooperating with java.awt.Graphic2D render. |
 | [com.aspose.imaging.brushes](./com.aspose.imaging.brushes) | The package provides helper classes and methods to work with different brush types. |
 | [com.aspose.imaging.coreexceptions](./com.aspose.imaging.coreexceptions) | The package contains exceptions thrown by any of the core Imaging components. |
 | [com.aspose.imaging.coreexceptions.compressors](./com.aspose.imaging.coreexceptions.compressors) | The package contains exceptions thrown by one of the compression algorithms supported. |

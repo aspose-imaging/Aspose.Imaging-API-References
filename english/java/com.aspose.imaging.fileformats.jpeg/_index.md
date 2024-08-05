@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.jpeg
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Jpeg file format processing.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.imaging.fileformats.jpeg/
 ---
 

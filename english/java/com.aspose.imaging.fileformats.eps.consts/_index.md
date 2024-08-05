@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.eps.consts
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains EPS format constants
 type: docs
-weight: 54
+weight: 55
 url: /java/com.aspose.imaging.fileformats.eps.consts/
 ---
 

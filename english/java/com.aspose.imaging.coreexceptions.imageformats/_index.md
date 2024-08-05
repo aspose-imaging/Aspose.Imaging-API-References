@@ -3,7 +3,7 @@ title: com.aspose.imaging.coreexceptions.imageformats
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains exceptions thrown by one of the file formats supported.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.aspose.imaging.coreexceptions.imageformats/
 ---
 

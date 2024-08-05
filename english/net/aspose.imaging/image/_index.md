@@ -44,9 +44,9 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | static [Create](../../aspose.imaging/image/create/#create_2)(Image[], bool) | Creates a new image the specified images as pages. |
 | static [Create](../../aspose.imaging/image/create/#create)(ImageOptionsBase, int, int) | Creates a new image using the specified create options. |
 | static [Load](../../aspose.imaging/image/load/#load)(Stream) | Loads a new image from the specified stream. |
-| static [Load](../../aspose.imaging/image/load/#load_2)(string) | Loads a new image from the specified file. |
+| static [Load](../../aspose.imaging/image/load/#load_2)(string) | Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | static [Load](../../aspose.imaging/image/load/#load_1)(Stream, LoadOptions) | Loads a new image from the specified stream. |
-| static [Load](../../aspose.imaging/image/load/#load_3)(string, LoadOptions) | Loads a new image from the specified file. |
+| static [Load](../../aspose.imaging/image/load/#load_3)(string, LoadOptions) | Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata/)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer/). |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |

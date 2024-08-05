@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.cmx.objectmodel.styles
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Tiff file format processing.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.imaging.fileformats.cmx.objectmodel.styles/
 ---
 

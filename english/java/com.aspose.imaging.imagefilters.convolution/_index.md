@@ -3,7 +3,7 @@ title: com.aspose.imaging.imagefilters.convolution
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace contains the convolution filters and kernels.
 type: docs
-weight: 88
+weight: 89
 url: /java/com.aspose.imaging.imagefilters.convolution/
 ---
 
