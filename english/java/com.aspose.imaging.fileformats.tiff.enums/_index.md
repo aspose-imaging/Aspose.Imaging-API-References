@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tiff.enums
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Tiff file format enumerations.
 type: docs
-weight: 74
+weight: 75
 url: /java/com.aspose.imaging.fileformats.tiff.enums/
 ---
 

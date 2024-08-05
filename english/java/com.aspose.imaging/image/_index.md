@@ -28,8 +28,8 @@ The image is the base class for all type of images.
 | [create(Image[] images)](#create-com.aspose.imaging.Image---) | Creates a new image using the specified images as pages |
 | [create(Image[] images, boolean disposeImages)](#create-com.aspose.imaging.Image---boolean-) | Creates a new image the specified images as pages. |
 | [getFileFormat(String filePath)](#getFileFormat-java.lang.String-) | Gets the file format. |
-| [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | Loads a new image from the specified file. |
-| [load(String filePath)](#load-java.lang.String-) | Loads a new image from the specified file. |
+| [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | Loads a new image from the specified file path or URL. |
+| [load(String filePath)](#load-java.lang.String-) | Loads a new image from the specified file path or URL. |
 | [load(RandomAccessFile file, LoadOptions loadOptions)](#load-java.io.RandomAccessFile-com.aspose.imaging.LoadOptions-) | Loads a new image from the specified stream. |
 | [load(RandomAccessFile file)](#load-java.io.RandomAccessFile-) | Loads a new image from the specified stream. |
 | [load(InputStream stream, LoadOptions loadOptions)](#load-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Loads a new image from the specified stream. |
@@ -387,12 +387,12 @@ public static Image load(String filePath, LoadOptions loadOptions)
 ```
 
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL. If `filePath` is a file path the method just opens the file. If `filePath` is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The file path to load image from. |
+| filePath | java.lang.String | The file path or URL to load image from. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | The load options. |
 
 **Returns:**
@@ -403,12 +403,12 @@ public static Image load(String filePath)
 ```
 
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL. If `filePath` is a file path the method just opens the file. If `filePath` is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The file path to load image from. |
+| filePath | java.lang.String | The file path or URL to load image from. |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The loaded image.

@@ -3,7 +3,7 @@ title: com.aspose.imaging.imageloadoptions
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains different file format load options.
 type: docs
-weight: 90
+weight: 91
 url: /java/com.aspose.imaging.imageloadoptions/
 ---
 

@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.opendocument.objects.graphic
 second_title: Aspose.Imaging for Java API Reference
 description: The Open document graphic objects
 type: docs
-weight: 65
+weight: 66
 url: /java/com.aspose.imaging.fileformats.opendocument.objects.graphic/
 ---
 

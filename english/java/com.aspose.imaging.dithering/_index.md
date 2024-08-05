@@ -3,7 +3,7 @@ title: com.aspose.imaging.dithering
 second_title: Aspose.Imaging for Java API Reference
 description: The package provides different helper classes for color dithering.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.imaging.dithering/
 ---
 

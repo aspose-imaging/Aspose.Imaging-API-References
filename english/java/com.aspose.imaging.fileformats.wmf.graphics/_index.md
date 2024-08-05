@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.wmf.graphics
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Wmf graphics.
 type: docs
-weight: 83
+weight: 84
 url: /java/com.aspose.imaging.fileformats.wmf.graphics/
 ---
 

@@ -3,7 +3,7 @@ title: com.aspose.imaging.exif
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains EXIF related helper classes and methods.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.aspose.imaging.exif/
 ---
 

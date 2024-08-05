@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tiff
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Tiff file format processing.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.imaging.fileformats.tiff/
 ---
 

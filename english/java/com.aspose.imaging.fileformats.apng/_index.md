@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.apng
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Apng file format processing.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.aspose.imaging.fileformats.apng/
 ---
 

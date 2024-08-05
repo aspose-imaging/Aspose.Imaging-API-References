@@ -3,7 +3,7 @@ title: com.aspose.imaging.exif.enums
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains EXIF related helper classes and methods.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.aspose.imaging.exif.enums/
 ---
 

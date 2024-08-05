@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.cdr
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Cdr file format processing.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.aspose.imaging.fileformats.cdr/
 ---
 

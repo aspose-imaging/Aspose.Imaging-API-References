@@ -26,8 +26,8 @@ Represents disposable object.
 | Method | Description |
 | --- | --- |
 | [getDisposed()](#getDisposed--) | Gets a value indicating whether this instance is disposed. |
-| [dispose()](#dispose--) | Disposes the current instance. |
 | [close()](#close--) | Implements the Closable interface and can be used in the try-with-resources statement since JDK 1.7. |
+| [dispose()](#dispose--) | Disposes the current instance. |
 ### DisposableObject() {#DisposableObject--}
 ```
 public DisposableObject()
@@ -44,9 +44,17 @@ Gets a value indicating whether this instance is disposed.
 
 **Returns:**
 boolean - `true` if disposed; otherwise, `false`.
+### close() {#close--}
+```
+public void close()
+```
+
+
+Implements the Closable interface and can be used in the try-with-resources statement since JDK 1.7. This method simply call dispose method.
+
 ### dispose() {#dispose--}
 ```
-public final void dispose()
+public void dispose()
 ```
 
 
@@ -99,12 +107,4 @@ try {
     tiffImage.dispose();
 }
 ```
-
-### close() {#close--}
-```
-public void close()
-```
-
-
-Implements the Closable interface and can be used in the try-with-resources statement since JDK 1.7. This method simply call dispose method.
 

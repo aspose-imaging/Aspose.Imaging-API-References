@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tiff.instancefactory
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Tiff file format tag factory helper classes and interfaces.
 type: docs
-weight: 77
+weight: 78
 url: /java/com.aspose.imaging.fileformats.tiff.instancefactory/
 ---
 

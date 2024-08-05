@@ -3,7 +3,7 @@ title: com.aspose.imaging.coreexceptions.compressors
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains exceptions thrown by one of the compression algorithms supported.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.aspose.imaging.coreexceptions.compressors/
 ---
 

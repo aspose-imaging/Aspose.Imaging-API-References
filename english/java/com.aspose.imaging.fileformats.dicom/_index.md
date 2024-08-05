@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.dicom
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Dicom file format processing
 type: docs
-weight: 39
+weight: 40
 url: /java/com.aspose.imaging.fileformats.dicom/
 ---
 
