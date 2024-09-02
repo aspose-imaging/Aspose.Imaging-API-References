@@ -11,8 +11,6 @@ The jfif density units.
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JfifDensityUnits
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

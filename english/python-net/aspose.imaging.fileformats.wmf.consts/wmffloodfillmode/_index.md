@@ -11,8 +11,6 @@ The FloodFill Enumeration specifies the type of fill operation to be<br/>       
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfFloodFillMode
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 Initializes a new instance of the PathResource class
 
 ## **Examples**
-### Transfer Clipping Paths during export from TIFF to PSD image. {#example_104}
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_108}
 ``` python
 
 from aspose.imaging import Image

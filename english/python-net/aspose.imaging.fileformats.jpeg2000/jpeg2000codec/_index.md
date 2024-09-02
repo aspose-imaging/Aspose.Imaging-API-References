@@ -11,8 +11,6 @@ Represents JPEG2000 image type
 
 **Full Name:** aspose.imaging.fileformats.jpeg2000.Jpeg2000Codec
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

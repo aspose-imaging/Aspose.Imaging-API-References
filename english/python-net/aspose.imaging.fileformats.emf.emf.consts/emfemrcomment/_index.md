@@ -11,8 +11,6 @@ The EmrComment enumeration defines the types of data that a public comment recor
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfEmrComment
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

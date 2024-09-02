@@ -11,8 +11,6 @@ exif normal soft hard enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifContrast
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

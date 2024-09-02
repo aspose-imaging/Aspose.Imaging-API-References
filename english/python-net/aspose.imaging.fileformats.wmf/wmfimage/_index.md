@@ -1358,7 +1358,7 @@ Apply a specified palette to the image, enabling customization of color <br/>   
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>                indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>                corresponding palette entries. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_98}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_101}
 ``` python
 
 from aspose.pycore import as_of, cast

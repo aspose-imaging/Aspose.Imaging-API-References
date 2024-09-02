@@ -11,8 +11,6 @@ TextAlignmentMode Flags specify the relationship between a reference point and a
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfTextAlignmentModeFlags
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

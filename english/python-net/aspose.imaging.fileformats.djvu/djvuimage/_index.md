@@ -644,7 +644,7 @@ Crop with shifts allows you to precisely adjust the position and dimensions of t
 
 **See also:**
 
-**[Example # 1](#example_97)**: The following example crops a DJVU image. The cropping area is be specified v...
+**[Example # 1](#example_100)**: The following example crops a DJVU image. The cropping area is be specified v...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_23}
@@ -2266,7 +2266,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_97}
+### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_100}
 ``` python
 
 from aspose.pycore import as_of

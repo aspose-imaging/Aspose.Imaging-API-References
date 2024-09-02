@@ -11,8 +11,6 @@ exif color space enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifColorSpace
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

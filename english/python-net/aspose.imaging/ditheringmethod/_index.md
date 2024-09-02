@@ -11,8 +11,6 @@ Dithering method.
 
 **Full Name:** aspose.imaging.DitheringMethod
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

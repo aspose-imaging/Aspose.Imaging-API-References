@@ -11,8 +11,6 @@ EmfPlusObjectClamp specifies the object clamping behavior. It<br/>            is
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusObjectClamp
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

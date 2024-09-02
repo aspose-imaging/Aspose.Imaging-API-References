@@ -11,8 +11,6 @@ The PathPointType enumeration defines types of points on a graphics path.
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPathPointTypeEnum
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ The MapMode enumeration is used to define the unit of measure for transforming p
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfMapMode
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

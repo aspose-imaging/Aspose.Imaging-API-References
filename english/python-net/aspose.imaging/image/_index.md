@@ -102,7 +102,7 @@ Gets a value indicating whether the image palette is used.
 
 **See also:**
 
-**[Example # 1](#example_109)**: Determine if the palette is used by the image.
+**[Example # 1](#example_116)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1704,7 +1704,7 @@ with Image.load(path_join(directory, "sample.bmp")) as image:
 
 ```
 
-### Determine if the palette is used by the image. {#example_109}
+### Determine if the palette is used by the image. {#example_116}
 ``` python
 
 from aspose.imaging import Image

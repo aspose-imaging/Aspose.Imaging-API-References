@@ -11,8 +11,6 @@ The MetafileDataType enumeration defines types of metafiles data that can be emb
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusMetafileDataType
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

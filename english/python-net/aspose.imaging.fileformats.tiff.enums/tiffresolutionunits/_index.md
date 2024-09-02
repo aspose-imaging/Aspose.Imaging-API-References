@@ -11,8 +11,6 @@ Tiff Resolution Unit Enum
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffResolutionUnits
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

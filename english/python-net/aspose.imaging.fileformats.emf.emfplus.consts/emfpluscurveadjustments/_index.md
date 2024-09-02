@@ -11,8 +11,6 @@ The CurveAdjustments enumeration defines adjustments that can be applied to the 
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCurveAdjustments
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

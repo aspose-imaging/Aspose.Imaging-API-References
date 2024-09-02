@@ -11,8 +11,6 @@ The gradient style
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdGradientStyle
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

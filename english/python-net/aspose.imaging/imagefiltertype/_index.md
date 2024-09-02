@@ -11,8 +11,6 @@ Image filters to use
 
 **Full Name:** aspose.imaging.ImageFilterType
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

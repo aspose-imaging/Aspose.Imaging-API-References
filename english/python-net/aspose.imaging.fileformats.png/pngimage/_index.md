@@ -203,6 +203,12 @@ Constructs a new instance of the [PngImage](/imaging/python-net/aspose.imaging.f
 | :- | :- | :- |
 | path | string | The path to load an image. |
 
+
+**See also:**
+
+**[Example # 1](#example_99)**: This example shows how to load a PNG image from a file.
+
+
 ### Constructor: PngImage(path, color_type) {#PngImage_path_color_type_2}
 
 
@@ -2460,7 +2466,24 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_113}
+### This example shows how to load a PNG image from a file. {#example_99}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.png import PngImage
+
+# Load a PNG image from a file.
+with as_of(Image.load("sample.png"), PngImage) as pngImage:
+	# Transform the image to grayscale representation
+	pngImage.grayscale()
+	# Save to a file.
+	pngImage.save("sample.grayscale.png")
+
+
+```
+
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_121}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2485,7 +2508,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_114}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_122}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

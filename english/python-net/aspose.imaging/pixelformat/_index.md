@@ -11,8 +11,6 @@ The pixel data format actual meaning.
 
 **Full Name:** aspose.imaging.PixelFormat
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

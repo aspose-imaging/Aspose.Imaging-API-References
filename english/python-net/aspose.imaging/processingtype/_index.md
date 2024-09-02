@@ -11,8 +11,6 @@ The type of processing.
 
 **Full Name:** aspose.imaging.ProcessingType
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

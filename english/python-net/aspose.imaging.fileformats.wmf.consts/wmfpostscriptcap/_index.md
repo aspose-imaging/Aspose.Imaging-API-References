@@ -11,8 +11,6 @@ The PostScriptCap Enumeration defines line-ending types for use with a PostScrip
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPostScriptCap
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

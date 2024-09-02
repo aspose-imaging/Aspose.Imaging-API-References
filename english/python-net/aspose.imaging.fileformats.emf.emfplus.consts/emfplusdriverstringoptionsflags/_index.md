@@ -11,8 +11,6 @@ The DriverStringOptions flags specify properties of graphics text positioning an
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusDriverStringOptionsFlags
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

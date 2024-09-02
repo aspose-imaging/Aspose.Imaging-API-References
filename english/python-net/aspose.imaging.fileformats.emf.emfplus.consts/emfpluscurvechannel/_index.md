@@ -11,8 +11,6 @@ The CurveChannel enumeration defines color channels that can be affected by a co
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCurveChannel
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

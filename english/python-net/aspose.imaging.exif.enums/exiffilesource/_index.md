@@ -11,8 +11,6 @@ exif file source enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifFileSource
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

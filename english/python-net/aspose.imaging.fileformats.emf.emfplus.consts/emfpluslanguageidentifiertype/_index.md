@@ -11,8 +11,6 @@ The LanguageIdentifier enumeration defines identifiers for natural languages in 
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLanguageIdentifierType
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

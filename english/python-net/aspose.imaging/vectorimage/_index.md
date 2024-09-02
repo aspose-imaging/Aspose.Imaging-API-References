@@ -389,6 +389,12 @@ Gets the embedded images.
 | [EmbeddedImage[]](/imaging/python-net/aspose.imaging/embeddedimage) | Array of images |
 
 
+
+**See also:**
+
+**[Example # 1](#example_118)**: Support extracting embedded raster images from a vector image
+
+
 ### Method: get_file_format(file_path)  [static] {#get_file_format_file_path_14}
 
 
@@ -1198,4 +1204,23 @@ Sets the image palette.
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+
+## **Examples**
+### Support extracting embedded raster images from a vector image {#example_118}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, VectorImage
+from aspose.imaging.imageoptions import PngOptions
+
+inputFileName = "test.cdr"
+with Image.load(inputFileName) as image:
+	vectorImage = as_of(image, VectorImage)
+	images = vectorImage.get_embedded_images()
+	for i, im in enumerate(images):
+		outFileName = f"image{i}.png"
+		with im as _:
+			im.image.save(outFileName, PngOptions())
+
+
+```
 

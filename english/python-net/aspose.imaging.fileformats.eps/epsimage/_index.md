@@ -848,6 +848,12 @@ This method resizes the image, adjusting its dimensions according to specified <
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype) | The resize type. |
 
+
+**See also:**
+
+**[Example # 1](#example_115)**: Resize EPS image and export it to PNG format.
+
+
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_35}
 
 
@@ -1248,4 +1254,38 @@ Customize image palettes to achieve unique color schemes and enhance visual appe
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+
+## **Examples**
+### Convert EPS image to PDF using PostScript rendering. {#example_109}
+``` python
+
+from aspose.imaging import Image, PdfComplianceVersion
+from aspose.imaging.imageoptions import PdfOptions
+from aspose.imaging.fileformats.pdf import PdfCoreOptions
+
+with Image.load("Sample.eps") as image:
+	options = PdfOptions()
+	options.pdf_core_options = PdfCoreOptions()
+	options.pdf_core_options.pdf_compliance = PdfComplianceVersion.PDF_A1B # Set required PDF compliance
+	image.save("Sample.pdf", options)
+
+
+```
+
+### Resize EPS image and export it to PNG format. {#example_115}
+``` python
+
+from aspose.imaging import Image, ResizeType
+from aspose.imaging.imageoptions import PngOptions
+
+# Load EPS image
+with Image.load("AstrixObelix.eps") as image:
+	# Resize the image using the Mitchell cubic interpolation method
+	image.resize(400, 400, ResizeType.MITCHELL)
+
+	# Export image to PNG format
+	image.save("ExportResult.png", PngOptions())
+
+
+```
 

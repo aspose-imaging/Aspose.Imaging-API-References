@@ -305,11 +305,11 @@ Gets or sets the path resources.
 
 **See also:**
 
-**[Example # 1](#example_102)**: The following example shows how to retrieve paths from TIFF image and display...
+**[Example # 1](#example_106)**: The following example shows how to retrieve paths from TIFF image and display...
 
-**[Example # 2](#example_103)**: The following example shows how to modify already existing Clipping Paths. Fo...
+**[Example # 2](#example_107)**: The following example shows how to modify already existing Clipping Paths. Fo...
 
-**[Example # 3](#example_104)**: Transfer Clipping Paths during export from TIFF to PSD image.
+**[Example # 3](#example_108)**: Transfer Clipping Paths during export from TIFF to PSD image.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -2454,7 +2454,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_102}
+### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_106}
 ``` python
 
 from aspose.pycore import as_of
@@ -2468,7 +2468,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_103}
+### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_107}
 ``` python
 
 from aspose.pycore import as_of
@@ -2484,7 +2484,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### Transfer Clipping Paths during export from TIFF to PSD image. {#example_104}
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_108}
 ``` python
 
 from aspose.imaging import Image

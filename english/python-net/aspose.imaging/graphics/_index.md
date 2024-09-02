@@ -182,7 +182,7 @@ url: /python-net/aspose.imaging/graphics/
 | end_update() | Finishes caching of the graphics operations started after BeginUpdate was called. The preceding graphics operations will be applied at once when calling this method. |
 | [fill_closed_curve(brush, points)](#fill_closed_curve_brush_points_145) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
 | [fill_closed_curve(brush, points)](#fill_closed_curve_brush_points_146) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures. This method uses a default tension of 0.5 and [FillMode.ALTERNATE](/imaging/python-net/aspose.imaging/fillmode/) fill mode. |
-| [fill_closed_curve(brush, points, fillmode)](#fill_closed_curve_brush_points_fillmode_147) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
+| [fill_closed_curve(brush, points, fill_mode)](#fill_closed_curve_brush_points_fill_mode_147) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
 | [fill_closed_curve(brush, points, fillmode)](#fill_closed_curve_brush_points_fillmode_148) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5. |
 | [fill_closed_curve(brush, points, fillmode, tension)](#fill_closed_curve_brush_points_fillmode_tension_149) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
 | [fill_closed_curve(brush, points, fillmode, tension)](#fill_closed_curve_brush_points_fillmode_tension_150) | Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode and tension. |
@@ -2960,11 +2960,11 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 
-### Method: fill_closed_curve(brush, points, fillmode) {#fill_closed_curve_brush_points_fillmode_147}
+### Method: fill_closed_curve(brush, points, fill_mode) {#fill_closed_curve_brush_points_fill_mode_147}
 
 
 ```
- fill_closed_curve(brush, points, fillmode) 
+ fill_closed_curve(brush, points, fill_mode) 
 ```
 
 Fills the interior of a closed cardinal spline curve defined by an array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures using the specified fill mode. This method uses a default tension of 0.5.
@@ -2975,7 +2975,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | :- | :- | :- |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
+| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
 
 ### Method: fill_closed_curve(brush, points, fillmode) {#fill_closed_curve_brush_points_fillmode_148}
 
@@ -2992,7 +2992,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of [Poi
 | :- | :- | :- |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the characteristics of the fill. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
-| fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | Member of the [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the curve is filled. |
+| fillmode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) |  |
 
 ### Method: fill_closed_curve(brush, points, fillmode, tension) {#fill_closed_curve_brush_points_fillmode_tension_149}
 

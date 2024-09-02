@@ -2334,3 +2334,19 @@ Writes the whole scan line to the specified scan line index.
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
+## **Examples**
+### Change the color type in DICOM compression. {#example_112}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import DicomOptions
+from aspose.imaging.fileformats.dicom import ColorType
+
+with Image.load("original.jpg") as inputImage:
+	options = DicomOptions()
+	options.color_type = ColorType.GRAYSCALE_8_BIT
+	inputImage.save("original_8Bit.dcm", options)
+
+
+```
+

@@ -11,8 +11,6 @@ Specifies how to join consecutive line or curve segments in a figure (subpath) c
 
 **Full Name:** aspose.imaging.LineJoin
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ The PixelOffsetMode enumeration defines how pixels are offset, which specifies t
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPixelOffsetMode
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ Specifies the unit of measure for the given data.
 
 **Full Name:** aspose.imaging.GraphicsUnit
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

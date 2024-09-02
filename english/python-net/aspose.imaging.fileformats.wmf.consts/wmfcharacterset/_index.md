@@ -11,8 +11,6 @@ The CharacterSet Enumeration defines the possible sets of character glyphs that 
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfCharacterSet
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ This enum describes possible progress event types that can occurred during image
 
 **Full Name:** aspose.imaging.progressmanagement.EventType
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

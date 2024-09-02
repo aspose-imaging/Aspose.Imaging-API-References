@@ -11,8 +11,6 @@ Represents types of entities to render
 
 **Full Name:** aspose.imaging.imageoptions.TypeOfEntities
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

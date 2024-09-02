@@ -11,8 +11,6 @@ Specifies the alignment of a text string relative to its layout rectangle.
 
 **Full Name:** aspose.imaging.StringAlignment
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

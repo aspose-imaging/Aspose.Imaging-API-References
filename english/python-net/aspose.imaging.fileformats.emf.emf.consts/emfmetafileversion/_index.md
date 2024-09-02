@@ -11,8 +11,6 @@ The MetafileVersion enumeration defines the interoperability version for EMF met
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfMetafileVersion
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

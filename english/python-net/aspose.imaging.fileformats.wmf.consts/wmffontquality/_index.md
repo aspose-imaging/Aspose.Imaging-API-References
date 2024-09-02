@@ -11,8 +11,6 @@ The FontQuality Enumeration specifies how closely the attributes of the logical 
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfFontQuality
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

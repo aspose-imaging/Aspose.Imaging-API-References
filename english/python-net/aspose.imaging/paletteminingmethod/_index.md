@@ -11,8 +11,6 @@ The image palette mining method
 
 **Full Name:** aspose.imaging.PaletteMiningMethod
 
-**Aspose.Imaging Version:** 24.8.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
