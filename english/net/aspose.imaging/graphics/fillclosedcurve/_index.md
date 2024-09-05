@@ -40,14 +40,14 @@ public void FillClosedCurve(Brush brush, PointF[] points)
 Fills the interior of a closed cardinal spline curve defined by an array of [`PointF`](../../pointf/) structures using the specified fill mode. This method uses a default tension of 0.5.
 
 ```csharp
-public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode)
+public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillMode)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | brush | Brush | [`Brush`](../../brush/) that determines the characteristics of the fill. |
 | points | PointF[] | Array of [`PointF`](../../pointf/) structures that define the spline. |
-| fillmode | FillMode | Member of the [`FillMode`](../../fillmode/) enumeration that determines how the curve is filled. |
+| fillMode | FillMode | Member of the [`FillMode`](../../fillmode/) enumeration that determines how the curve is filled. |
 
 ### Exceptions
 
