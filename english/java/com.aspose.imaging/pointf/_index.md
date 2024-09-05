@@ -24,11 +24,6 @@ Represents an ordered pair of floating-point x- and y-coordinates that defines a
 | Method | Description |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | Gets a new instance of the `com.aspose.imaging.PointF` structure that has `com.aspose.imaging.PointF.X` and `com.aspose.imaging.PointF.Y` values set to zero. |
-| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `com.aspose.imaging.PointF` is empty. |
-| [getX()](#getX--) | Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`. |
-| [setX(float value)](#setX-float-) | Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`. |
-| [getY()](#getY--) | Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`. |
-| [setY(float value)](#setY-float-) | Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`. |
 | [op_Addition(PointF point, Size size)](#op-Addition-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | Translates a `com.aspose.imaging.PointF` by a given `com.aspose.imaging.Size`. |
 | [op_Subtraction(PointF point, Size size)](#op-Subtraction-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | Translates a `com.aspose.imaging.PointF` by the negative of a given `com.aspose.imaging.Size`. |
 | [op_Addition(PointF point, SizeF size)](#op-Addition-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | Translates the `com.aspose.imaging.PointF` by the specified `com.aspose.imaging.SizeF`. |
@@ -39,12 +34,17 @@ Represents an ordered pair of floating-point x- and y-coordinates that defines a
 | [subtract(PointF point, Size size)](#subtract-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | Translates a `com.aspose.imaging.PointF` by the negative of a specified size. |
 | [add(PointF point, SizeF size)](#add-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | Translates a given `com.aspose.imaging.PointF` by a specified `com.aspose.imaging.SizeF`. |
 | [subtract(PointF point, SizeF size)](#subtract-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | Translates a `com.aspose.imaging.PointF` by the negative of a specified size. |
+| [isEquals(PointF obj1, PointF obj2)](#isEquals-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) |  |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `com.aspose.imaging.PointF` is empty. |
+| [getX()](#getX--) | Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`. |
+| [setX(float value)](#setX-float-) | Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`. |
+| [getY()](#getY--) | Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`. |
+| [setY(float value)](#setY-float-) | Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Specifies whether this `com.aspose.imaging.PointF` contains the same coordinates as the specified `System.Object`. |
 | [hashCode()](#hashCode--) | Returns a hash code for this `com.aspose.imaging.PointF` structure. |
 | [toString()](#toString--) | Converts this `com.aspose.imaging.PointF` to a human readable string. |
 | [CloneTo(PointF that)](#CloneTo-com.aspose.imaging.PointF-) |  |
 | [Clone()](#Clone--) |  |
-| [isEquals(PointF obj1, PointF obj2)](#isEquals-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) |  |
 ### PointF() {#PointF--}
 ```
 public PointF()
@@ -75,62 +75,6 @@ Gets a new instance of the `com.aspose.imaging.PointF` structure that has `com.a
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
-### isEmpty() {#isEmpty--}
-```
-public boolean isEmpty()
-```
-
-
-Gets a value indicating whether this `com.aspose.imaging.PointF` is empty.
-
-**Returns:**
-boolean - True if both `com.aspose.imaging.PointF.X` and `com.aspose.imaging.PointF.Y` are 0; otherwise, false.
-### getX() {#getX--}
-```
-public float getX()
-```
-
-
-Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`.
-
-**Returns:**
-float
-### setX(float value) {#setX-float-}
-```
-public void setX(float value)
-```
-
-
-Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | float |  |
-
-### getY() {#getY--}
-```
-public float getY()
-```
-
-
-Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`.
-
-**Returns:**
-float
-### setY(float value) {#setY-float-}
-```
-public void setY(float value)
-```
-
-
-Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | float |  |
-
 ### op_Addition(PointF point, Size size) {#op-Addition-com.aspose.imaging.PointF-com.aspose.imaging.Size-}
 ```
 public static PointF op_Addition(PointF point, Size size)
@@ -291,6 +235,78 @@ Translates a `com.aspose.imaging.PointF` by the negative of a specified size.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The translated `com.aspose.imaging.PointF`.
+### isEquals(PointF obj1, PointF obj2) {#isEquals-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
+```
+public static boolean isEquals(PointF obj1, PointF obj2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [PointF](../../com.aspose.imaging/pointf) |  |
+| obj2 | [PointF](../../com.aspose.imaging/pointf) |  |
+
+**Returns:**
+boolean
+### isEmpty() {#isEmpty--}
+```
+public boolean isEmpty()
+```
+
+
+Gets a value indicating whether this `com.aspose.imaging.PointF` is empty.
+
+**Returns:**
+boolean - True if both `com.aspose.imaging.PointF.X` and `com.aspose.imaging.PointF.Y` are 0; otherwise, false.
+### getX() {#getX--}
+```
+public float getX()
+```
+
+
+Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`.
+
+**Returns:**
+float
+### setX(float value) {#setX-float-}
+```
+public void setX(float value)
+```
+
+
+Gets or sets the x-coordinate of this `com.aspose.imaging.PointF`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getY() {#getY--}
+```
+public float getY()
+```
+
+
+Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`.
+
+**Returns:**
+float
+### setY(float value) {#setY-float-}
+```
+public void setY(float value)
+```
+
+
+Gets or sets the y-coordinate of this `com.aspose.imaging.PointF`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -349,19 +365,3 @@ public PointF Clone()
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
-### isEquals(PointF obj1, PointF obj2) {#isEquals-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
-```
-public static boolean isEquals(PointF obj1, PointF obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [PointF](../../com.aspose.imaging/pointf) |  |
-| obj2 | [PointF](../../com.aspose.imaging/pointf) |  |
-
-**Returns:**
-boolean

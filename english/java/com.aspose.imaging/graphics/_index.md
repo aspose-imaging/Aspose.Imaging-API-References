@@ -152,14 +152,14 @@ Represents the graphics according to the graphics engine used in the current ass
 | [fillPolygon(Brush brush, Point[] points)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures and `FillMode.Alternate`. |
 | [fillPolygon(Brush brush, Point[] points, int fillMode)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures using the specified fill mode. |
 | [fillClosedCurve(Brush brush, PointF[] points)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures. |
-| [fillClosedCurve(Brush brush, PointF[] points, int fillmode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode. |
-| [fillClosedCurve(Brush brush, PointF[] points, int fillmode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-float-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode and tension. |
+| [fillClosedCurve(Brush brush, PointF[] points, int fillMode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode. |
+| [fillClosedCurve(Brush brush, PointF[] points, int fillMode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-float-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode and tension. |
 | [fillClosedCurve(Brush brush, Point[] points)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures. |
-| [fillClosedCurve(Brush brush, Point[] points, int fillmode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode. |
-| [fillClosedCurve(Brush brush, Point[] points, int fillmode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-float-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode and tension. |
+| [fillClosedCurve(Brush brush, Point[] points, int fillMode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode. |
+| [fillClosedCurve(Brush brush, Point[] points, int fillMode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-float-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode and tension. |
 | [drawPath(Pen pen, GraphicsPath path)](#drawPath-com.aspose.imaging.Pen-com.aspose.imaging.GraphicsPath-) | Draws a `com.aspose.imaging.graphicsPath`. |
 | [fillPath(Brush brush, GraphicsPath path)](#fillPath-com.aspose.imaging.Brush-com.aspose.imaging.GraphicsPath-) | Fills the interior of a `com.aspose.imaging.graphicsPath`. |
-| [fillRegion(Brush brush, Region region)](#fillRegion-com.aspose.imaging.Brush-com.aspose.imaging.Region-) | Fills the interior of a `com.aspose.imaging.region`. |
+| [fillRegion(Brush brush, Region region)](#fillRegion-com.aspose.imaging.Brush-com.aspose.imaging.Region-) | Fills the interior of a [Region](../../com.aspose.imaging/region). |
 | [measureString(String text, Font font, SizeF layoutArea, StringFormat stringFormat)](#measureString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.SizeF-com.aspose.imaging.StringFormat-) | Measures the specified text string with specified parameters |
 
 ## Example: This example uses Graphics class to create primitive shapes on the Image surface.
@@ -3402,9 +3402,9 @@ Fills the interior of a closed cardinal spline curve defined by an array of `com
 | brush | [Brush](../../com.aspose.imaging/brush) | `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | Array of `com.aspose.imaging.PointF` structures that define the spline. |
 
-### fillClosedCurve(Brush brush, PointF[] points, int fillmode) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-}
+### fillClosedCurve(Brush brush, PointF[] points, int fillMode) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-}
 ```
-public void fillClosedCurve(Brush brush, PointF[] points, int fillmode)
+public void fillClosedCurve(Brush brush, PointF[] points, int fillMode)
 ```
 
 
@@ -3415,11 +3415,11 @@ Fills the interior of a closed cardinal spline curve defined by an array of `com
 | --- | --- | --- |
 | brush | [Brush](../../com.aspose.imaging/brush) | `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | Array of `com.aspose.imaging.PointF` structures that define the spline. |
-| fillmode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
+| fillMode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
 
-### fillClosedCurve(Brush brush, PointF[] points, int fillmode, float tension) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-float-}
+### fillClosedCurve(Brush brush, PointF[] points, int fillMode, float tension) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-float-}
 ```
-public void fillClosedCurve(Brush brush, PointF[] points, int fillmode, float tension)
+public void fillClosedCurve(Brush brush, PointF[] points, int fillMode, float tension)
 ```
 
 
@@ -3430,7 +3430,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of `com
 | --- | --- | --- |
 | brush | [Brush](../../com.aspose.imaging/brush) | A `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | Array of `com.aspose.imaging.PointF` structures that define the spline. |
-| fillmode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
+| fillMode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
 ### fillClosedCurve(Brush brush, Point[] points) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---}
@@ -3447,9 +3447,9 @@ Fills the interior of a closed cardinal spline curve defined by an array of `com
 | brush | [Brush](../../com.aspose.imaging/brush) | `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
 | points | [Point\[\]](../../com.aspose.imaging/point) | Array of `com.aspose.imaging.Point` structures that define the spline. |
 
-### fillClosedCurve(Brush brush, Point[] points, int fillmode) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-}
+### fillClosedCurve(Brush brush, Point[] points, int fillMode) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-}
 ```
-public void fillClosedCurve(Brush brush, Point[] points, int fillmode)
+public void fillClosedCurve(Brush brush, Point[] points, int fillMode)
 ```
 
 
@@ -3460,11 +3460,11 @@ Fills the interior of a closed cardinal spline curve defined by an array of `com
 | --- | --- | --- |
 | brush | [Brush](../../com.aspose.imaging/brush) | `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
 | points | [Point\[\]](../../com.aspose.imaging/point) | Array of `com.aspose.imaging.Point` structures that define the spline. |
-| fillmode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
+| fillMode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
 
-### fillClosedCurve(Brush brush, Point[] points, int fillmode, float tension) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-float-}
+### fillClosedCurve(Brush brush, Point[] points, int fillMode, float tension) {#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-float-}
 ```
-public void fillClosedCurve(Brush brush, Point[] points, int fillmode, float tension)
+public void fillClosedCurve(Brush brush, Point[] points, int fillMode, float tension)
 ```
 
 
@@ -3475,7 +3475,7 @@ Fills the interior of a closed cardinal spline curve defined by an array of `com
 | --- | --- | --- |
 | brush | [Brush](../../com.aspose.imaging/brush) | `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
 | points | [Point\[\]](../../com.aspose.imaging/point) | Array of `com.aspose.imaging.Point` structures that define the spline. |
-| fillmode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
+| fillMode | int | Member of the `com.aspose.imaging.FillMode` enumeration that determines how the curve is filled. |
 | tension | float | Value greater than or equal to 0.0F that specifies the tension of the curve. |
 
 ### drawPath(Pen pen, GraphicsPath path) {#drawPath-com.aspose.imaging.Pen-com.aspose.imaging.GraphicsPath-}
@@ -3565,13 +3565,13 @@ public void fillRegion(Brush brush, Region region)
 ```
 
 
-Fills the interior of a `com.aspose.imaging.region`.
+Fills the interior of a [Region](../../com.aspose.imaging/region).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | `com.aspose.imaging.Brush` that determines the characteristics of the fill. |
-| region | [Region](../../com.aspose.imaging/region) | `com.aspose.imaging.Region` that represents the area to fill. |
+| brush | [Brush](../../com.aspose.imaging/brush) | [Brush](../../com.aspose.imaging/brush) that determines the characteristics of the fill. |
+| region | [Region](../../com.aspose.imaging/region) | [Region](../../com.aspose.imaging/region) that represents the area to fill. |
 
 ### measureString(String text, Font font, SizeF layoutArea, StringFormat stringFormat) {#measureString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.SizeF-com.aspose.imaging.StringFormat-}
 ```

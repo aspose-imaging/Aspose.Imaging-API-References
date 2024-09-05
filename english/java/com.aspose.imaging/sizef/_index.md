@@ -26,11 +26,6 @@ Stores an ordered pair of floating-point numbers, typically the width and height
 | Method | Description |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | Gets a new instance of the `Aspose.Imaging.SizeF` structure that has `Aspose.Imaging.SizeF.Width` and `Aspose.Imaging.SizeF.Height` values set to zero. |
-| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `Aspose.Imaging.SizeF` has zero width and height. |
-| [getWidth()](#getWidth--) | Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`. |
-| [setWidth(float value)](#setWidth-float-) | Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`. |
-| [getHeight()](#getHeight--) | Gets or sets the vertical component of this `Aspose.Imaging.SizeF`. |
-| [setHeight(float value)](#setHeight-float-) | Gets or sets the vertical component of this `Aspose.Imaging.SizeF`. |
 | [op_Addition(SizeF size1, SizeF size2)](#op-Addition-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) | Adds the width and height of one `Aspose.Imaging.SizeF` structure to the width and height of another `Aspose.Imaging.SizeF` structure. |
 | [op_Subtraction(SizeF size1, SizeF size2)](#op-Subtraction-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) | Subtracts the width and height of one `Aspose.Imaging.SizeF` structure from the width and height of another `Aspose.Imaging.SizeF` structure. |
 | [op_Equality(SizeF size1, SizeF size2)](#op-Equality-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) | Tests whether two `Aspose.Imaging.SizeF` structures are equal. |
@@ -38,6 +33,12 @@ Stores an ordered pair of floating-point numbers, typically the width and height
 | [to_PointF(SizeF size)](#to-PointF-com.aspose.imaging.SizeF-) | Converts the specified `Aspose.Imaging.SizeF` to a `Aspose.Imaging.PointF`. |
 | [add(SizeF size1, SizeF size2)](#add-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) | Adds the width and height of one `Aspose.Imaging.SizeF` structure to the width and height of another `Aspose.Imaging.SizeF` structure. |
 | [subtract(SizeF size1, SizeF size2)](#subtract-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) | Subtracts the width and height of one `Aspose.Imaging.SizeF` structure from the width and height of another `Aspose.Imaging.SizeF` structure. |
+| [isEquals(SizeF obj1, SizeF obj2)](#isEquals-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) |  |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `Aspose.Imaging.SizeF` has zero width and height. |
+| [getWidth()](#getWidth--) | Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`. |
+| [setWidth(float value)](#setWidth-float-) | Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`. |
+| [getHeight()](#getHeight--) | Gets or sets the vertical component of this `Aspose.Imaging.SizeF`. |
+| [setHeight(float value)](#setHeight-float-) | Gets or sets the vertical component of this `Aspose.Imaging.SizeF`. |
 | [toPointF()](#toPointF--) | Converts a `Aspose.Imaging.SizeF` to a `Aspose.Imaging.PointF`. |
 | [toSize()](#toSize--) | Converts a `Aspose.Imaging.SizeF` to a `Aspose.Imaging.Size` structure with truncated size values. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Tests to see whether the specified object is a `Aspose.Imaging.SizeF` with the same dimensions as this `Aspose.Imaging.SizeF`. |
@@ -45,7 +46,6 @@ Stores an ordered pair of floating-point numbers, typically the width and height
 | [toString()](#toString--) | Creates a human-readable string that represents this `Aspose.Imaging.SizeF`. |
 | [CloneTo(SizeF that)](#CloneTo-com.aspose.imaging.SizeF-) |  |
 | [Clone()](#Clone--) |  |
-| [isEquals(SizeF obj1, SizeF obj2)](#isEquals-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-) |  |
 ### SizeF() {#SizeF--}
 ```
 public SizeF()
@@ -102,62 +102,6 @@ Gets a new instance of the `Aspose.Imaging.SizeF` structure that has `Aspose.Ima
 
 **Returns:**
 [SizeF](../../com.aspose.imaging/sizef)
-### isEmpty() {#isEmpty--}
-```
-public boolean isEmpty()
-```
-
-
-Gets a value indicating whether this `Aspose.Imaging.SizeF` has zero width and height.
-
-**Returns:**
-boolean - This property returns true when this `Aspose.Imaging.SizeF` has both a width and height of zero; otherwise, false.
-### getWidth() {#getWidth--}
-```
-public float getWidth()
-```
-
-
-Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`.
-
-**Returns:**
-float - The horizontal component of this `Aspose.Imaging.SizeF`, typically measured in pixels.
-### setWidth(float value) {#setWidth-float-}
-```
-public void setWidth(float value)
-```
-
-
-Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | float |  |
-
-### getHeight() {#getHeight--}
-```
-public float getHeight()
-```
-
-
-Gets or sets the vertical component of this `Aspose.Imaging.SizeF`.
-
-**Returns:**
-float - The vertical component of this `Aspose.Imaging.SizeF`, typically measured in pixels.
-### setHeight(float value) {#setHeight-float-}
-```
-public void setHeight(float value)
-```
-
-
-Gets or sets the vertical component of this `Aspose.Imaging.SizeF`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | float |  |
-
 ### op_Addition(SizeF size1, SizeF size2) {#op-Addition-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-}
 ```
 public static SizeF op_Addition(SizeF size1, SizeF size2)
@@ -269,6 +213,78 @@ Subtracts the width and height of one `Aspose.Imaging.SizeF` structure from the 
 
 **Returns:**
 [SizeF](../../com.aspose.imaging/sizef) - The `Aspose.Imaging.SizeF` that is a result of the subtraction operation.
+### isEquals(SizeF obj1, SizeF obj2) {#isEquals-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-}
+```
+public static boolean isEquals(SizeF obj1, SizeF obj2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [SizeF](../../com.aspose.imaging/sizef) |  |
+| obj2 | [SizeF](../../com.aspose.imaging/sizef) |  |
+
+**Returns:**
+boolean
+### isEmpty() {#isEmpty--}
+```
+public boolean isEmpty()
+```
+
+
+Gets a value indicating whether this `Aspose.Imaging.SizeF` has zero width and height.
+
+**Returns:**
+boolean - This property returns true when this `Aspose.Imaging.SizeF` has both a width and height of zero; otherwise, false.
+### getWidth() {#getWidth--}
+```
+public float getWidth()
+```
+
+
+Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`.
+
+**Returns:**
+float - The horizontal component of this `Aspose.Imaging.SizeF`, typically measured in pixels.
+### setWidth(float value) {#setWidth-float-}
+```
+public void setWidth(float value)
+```
+
+
+Gets or sets the horizontal component of this `Aspose.Imaging.SizeF`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getHeight() {#getHeight--}
+```
+public float getHeight()
+```
+
+
+Gets or sets the vertical component of this `Aspose.Imaging.SizeF`.
+
+**Returns:**
+float - The vertical component of this `Aspose.Imaging.SizeF`, typically measured in pixels.
+### setHeight(float value) {#setHeight-float-}
+```
+public void setHeight(float value)
+```
+
+
+Gets or sets the vertical component of this `Aspose.Imaging.SizeF`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
 ### toPointF() {#toPointF--}
 ```
 public PointF toPointF()
@@ -347,19 +363,3 @@ public SizeF Clone()
 
 **Returns:**
 [SizeF](../../com.aspose.imaging/sizef)
-### isEquals(SizeF obj1, SizeF obj2) {#isEquals-com.aspose.imaging.SizeF-com.aspose.imaging.SizeF-}
-```
-public static boolean isEquals(SizeF obj1, SizeF obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [SizeF](../../com.aspose.imaging/sizef) |  |
-| obj2 | [SizeF](../../com.aspose.imaging/sizef) |  |
-
-**Returns:**
-boolean
