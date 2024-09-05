@@ -11,8 +11,6 @@ The BrushData flags specify properties of graphics brushes, including the presen
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusBrushDataFlags
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

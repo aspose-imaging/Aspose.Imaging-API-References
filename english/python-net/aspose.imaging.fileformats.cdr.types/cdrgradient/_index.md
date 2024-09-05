@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 
 **Full Name:** aspose.imaging.fileformats.cdr.types.CdrGradient
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

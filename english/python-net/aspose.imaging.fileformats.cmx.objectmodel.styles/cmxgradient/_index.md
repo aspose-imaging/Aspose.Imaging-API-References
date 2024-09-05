@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxGradient
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

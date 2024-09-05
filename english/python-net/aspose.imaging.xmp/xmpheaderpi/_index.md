@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.xmp/xmpheaderpi/
 
 **Inheritance:** IXmlValue
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

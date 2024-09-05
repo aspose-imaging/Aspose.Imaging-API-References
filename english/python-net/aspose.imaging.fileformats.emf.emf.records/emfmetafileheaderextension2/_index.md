@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderext
 
 **Inheritance:** EmfMetafileHeaderExtension1
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

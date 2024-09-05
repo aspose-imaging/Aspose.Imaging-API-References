@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/
 
 **Inheritance:** ICmxObjectSpec, CmxPathSpec
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

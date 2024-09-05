@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpa
 
 **Full Name:** aspose.imaging.fileformats.emf.dtyp.commondatastructures.GuidPacketRepresentation
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

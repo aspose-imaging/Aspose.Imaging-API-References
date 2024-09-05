@@ -11,8 +11,6 @@ The RegionNodeDataType enumeration defines types of region node data.
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusRegionNodeDataType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

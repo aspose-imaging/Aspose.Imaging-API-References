@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader
 
 **Full Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

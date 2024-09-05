@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/svgoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -57,7 +55,7 @@ Gets or sets a value indicating whether text must be rendered as shapes.
 
 **See also:**
 
-**[Example # 1](#example_98)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_101)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Method: clone() {#clone__1}
@@ -77,7 +75,7 @@ Clones this instance.
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_98}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_101}
 ``` python
 
 from aspose.pycore import as_of, cast

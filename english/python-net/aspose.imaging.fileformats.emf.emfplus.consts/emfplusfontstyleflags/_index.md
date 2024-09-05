@@ -11,8 +11,6 @@ The FontStyle flags specify styles of graphics font typefaces. These flags can b
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusFontStyleFlags
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

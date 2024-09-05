@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/iimageexporter/
 
 **Full Name:** aspose.imaging.IImageExporter
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

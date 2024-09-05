@@ -11,8 +11,6 @@ VerticalTextAlignmentMode Flags specify the relationship between a reference poi
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfVerticalTextAlignmentModeFlags
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

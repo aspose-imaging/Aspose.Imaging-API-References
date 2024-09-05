@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 
 **Inheritance:** EmfStateRecordType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

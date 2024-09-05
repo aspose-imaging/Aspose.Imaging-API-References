@@ -11,8 +11,6 @@ The GraphicsVersion enumeration defines versions of operating system graphics th
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusGraphicsVersionEnum
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

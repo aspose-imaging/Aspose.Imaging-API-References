@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, VectorRasterizationOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

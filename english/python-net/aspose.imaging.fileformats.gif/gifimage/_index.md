@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -122,8 +120,8 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [get_skew_angle()](#get_skew_angle__45) | Gets the skew angle.<br/>            This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | grayscale() | The transformation of an image to its grayscale representation converts the color <br/>            image into a grayscale version by removing color information while preserving <br/>            luminance. This process simplifies the image to shades of gray, making it suitable <br/>            for various applications such as printing, document processing, and grayscale <br/>            analysis. |
 | [insert_block(index, block)](#insert_block_index_block_46) | Inserting a new GIF block allows you to add custom data at a specific position <br/>            within the image. This method enables you to place custom blocks at a desired <br/>            location in the GIF image, providing flexibility in organizing and structuring the <br/>            image data. |
-| [load(file_path)](#load_file_path_47) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_48) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_47) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_48) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_49) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_50) | Loads a new image from the specified stream. |
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_51) | Loads 32-bit ARGB pixels. |
@@ -138,7 +136,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_60) | Loads raw data. |
 | [load_stream(stream)](#load_stream_stream_61) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_62) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_63) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_63) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_64) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | order_blocks() | Ordering the GIF blocks according to the GIF specification ensures proper GIF <br/>            layout and compliance with the standard. This process involves arranging the <br/>            blocks in the correct sequence as defined by the specification. Additionally, it <br/>            may involve removing certain [GifGraphicsControlBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) instances that <br/>            are not necessary for the final layout. By adhering to the GIF specification, the <br/>            resulting image will be correctly structured and compatible with GIF viewing <br/>            applications. |
@@ -1192,13 +1190,13 @@ Inserting a new GIF block allows you to add custom data at a specific position <
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -1214,13 +1212,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1520,13 +1518,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**

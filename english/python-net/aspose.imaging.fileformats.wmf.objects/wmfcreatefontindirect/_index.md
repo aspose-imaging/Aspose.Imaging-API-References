@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/
 
 **Inheritance:** WmfGraphicObject
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

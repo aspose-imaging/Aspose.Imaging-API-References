@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
 
 **Inheritance:** TiffDataType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ The open document pen style
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.pen.OdPenStyle
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

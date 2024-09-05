@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.webp/iframe/
 
 **Full Name:** aspose.imaging.fileformats.webp.IFrame
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

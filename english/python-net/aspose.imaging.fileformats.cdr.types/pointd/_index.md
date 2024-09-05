@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/pointd/
 
 **Full Name:** aspose.imaging.fileformats.cdr.types.PointD
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

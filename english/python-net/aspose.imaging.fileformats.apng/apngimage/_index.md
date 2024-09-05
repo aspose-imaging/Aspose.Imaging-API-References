@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, IMultipageImage, IMultipageImageExt, RasterCachedMultipageImage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -117,8 +115,8 @@ url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 | [insert_frame(index)](#insert_frame_index_48) | Effortlessly insert a new frame into your frame collection at the specified<br/>            with this intuitive method. Ideal for developers seeking precise control over<br/>            the arrangement of frames in their animations of multi-frame images.<br/>            A new frame will be created according to the size of the current image. |
 | [insert_frame(index, frame_image)](#insert_frame_index_frame_image_49) | Inserts new frame into the own frame collection at the specified index.<br/>            The contents of the new frame will be filled from the specified image. |
 | [insert_frame(index, frame_image, frame_time)](#insert_frame_index_frame_image_frame_time_50) | Inserts new frame into the own frame collection at the specified index.<br/>            The contents of the new frame will be filled from the specified image. |
-| [load(file_path)](#load_file_path_51) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_52) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_51) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_52) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_53) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_54) | Loads a new image from the specified stream. |
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_55) | Loads 32-bit ARGB pixels. |
@@ -133,7 +131,7 @@ url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 | [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_64) | Loads raw data. |
 | [load_stream(stream)](#load_stream_stream_65) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_66) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_68) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | [pop_frame_at(index)](#pop_frame_at_index_69) | Remove and retrieve the frame at the specified index from your frame collection<br/>            with this intuitive method. Perfect for developers seeking efficient management<br/>            of frames in their animations. |
@@ -1194,13 +1192,13 @@ Inserts new frame into the own frame collection at the specified index.<br/>    
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -1216,13 +1214,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1522,13 +1520,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**

@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvupage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -111,8 +109,8 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvupage/
 | [get_text_for_location(rect)](#get_text_for_location_rect_47) | Gets the text for the rectangle location |
 | [get_text_image(subsample)](#get_text_image_subsample_48) | Gets the text image. |
 | grayscale() | Transformation of an image to its grayscale representation |
-| [load(file_path)](#load_file_path_49) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_50) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_49) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_50) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_51) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_52) | Loads a new image from the specified stream. |
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_53) | Loads 32-bit ARGB pixels. |
@@ -127,7 +125,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvupage/
 | [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_62) | Loads raw data. |
 | [load_stream(stream)](#load_stream_stream_63) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_64) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_65) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_65) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_66) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_67) | Reads the whole scan line by the specified scan line index. |
@@ -1146,13 +1144,13 @@ Gets the text image.
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -1168,13 +1166,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1474,13 +1472,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**

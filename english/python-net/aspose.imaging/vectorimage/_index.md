@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging/vectorimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, Image
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -64,13 +62,13 @@ url: /python-net/aspose.imaging/vectorimage/
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_20) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_21) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_22) | Converts to aps. |
-| [load(file_path)](#load_file_path_23) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_24) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_23) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_24) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_25) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_26) | Loads a new image from the specified stream. |
 | [load_stream(stream)](#load_stream_stream_27) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_28) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_29) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_29) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_30) | Removes the background. |
 | remove_metadata() | Removes metadata. |
@@ -391,6 +389,12 @@ Gets the embedded images.
 | [EmbeddedImage[]](/imaging/python-net/aspose.imaging/embeddedimage) | Array of images |
 
 
+
+**See also:**
+
+**[Example # 1](#example_118)**: Support extracting embedded raster images from a vector image
+
+
 ### Method: get_file_format(file_path)  [static] {#get_file_format_file_path_14}
 
 
@@ -601,13 +605,13 @@ Converts to aps.
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -623,13 +627,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -736,13 +740,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1200,4 +1204,23 @@ Sets the image palette.
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+
+## **Examples**
+### Support extracting embedded raster images from a vector image {#example_118}
+``` python
+from aspose.pycore import as_of
+from aspose.imaging import Image, VectorImage
+from aspose.imaging.imageoptions import PngOptions
+
+inputFileName = "test.cdr"
+with Image.load(inputFileName) as image:
+	vectorImage = as_of(image, VectorImage)
+	images = vectorImage.get_embedded_images()
+	for i, im in enumerate(images):
+		outFileName = f"image{i}.png"
+		with im as _:
+			im.image.save(outFileName, PngOptions())
+
+
+```
 

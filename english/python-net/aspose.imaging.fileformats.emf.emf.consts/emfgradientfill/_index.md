@@ -11,8 +11,6 @@ The GradientFill enumeration defines the modes for gradient fill operations.
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfGradientFill
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

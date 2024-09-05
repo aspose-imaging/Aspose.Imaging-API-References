@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/layer/
 
 **Inheritance:** IXmpType, XmpTypeBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

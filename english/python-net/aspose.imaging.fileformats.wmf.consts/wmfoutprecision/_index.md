@@ -11,8 +11,6 @@ The OutPrecision enumeration defines values for output precision, which is the r
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfOutPrecision
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

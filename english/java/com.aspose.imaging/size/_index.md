@@ -25,11 +25,6 @@ Represents size.
 | Method | Description |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | Gets a new instance of the `Aspose.Imaging.Size` structure that has `Aspose.Imaging.Size.Width` and `Aspose.Imaging.Size.Height` values set to zero. |
-| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `Aspose.Imaging.Size` has width and height of 0. |
-| [getWidth()](#getWidth--) | Gets or sets the horizontal component of this `Aspose.Imaging.Size`. |
-| [setWidth(int value)](#setWidth-int-) | Gets or sets the horizontal component of this `Aspose.Imaging.Size`. |
-| [getHeight()](#getHeight--) | Gets or sets the vertical component of this `Aspose.Imaging.Size`. |
-| [setHeight(int value)](#setHeight-int-) | Gets or sets the vertical component of this `Aspose.Imaging.Size`. |
 | [to_SizeF(Size size)](#to-SizeF-com.aspose.imaging.Size-) | Converts the specified `Aspose.Imaging.Size` to a `Aspose.Imaging.SizeF`. |
 | [op_Addition(Size size1, Size size2)](#op-Addition-com.aspose.imaging.Size-com.aspose.imaging.Size-) | Adds the width and height of one `Aspose.Imaging.Size` structure to the width and height of another `Aspose.Imaging.Size` structure. |
 | [op_Subtraction(Size size1, Size size2)](#op-Subtraction-com.aspose.imaging.Size-com.aspose.imaging.Size-) | Subtracts the width and height of one `Aspose.Imaging.Size` structure from the width and height of another `Aspose.Imaging.Size` structure. |
@@ -41,12 +36,17 @@ Represents size.
 | [subtract(Size size1, Size size2)](#subtract-com.aspose.imaging.Size-com.aspose.imaging.Size-) | Subtracts the width and height of one `Aspose.Imaging.Size` structure from the width and height of another `Aspose.Imaging.Size` structure. |
 | [truncate(SizeF size)](#truncate-com.aspose.imaging.SizeF-) | Converts the specified `Aspose.Imaging.SizeF` structure to a `Aspose.Imaging.Size` structure by truncating the values of the `Aspose.Imaging.SizeF` structure to the next lower integer values. |
 | [round(SizeF size)](#round-com.aspose.imaging.SizeF-) | Converts the specified `Aspose.Imaging.SizeF` structure to a `Aspose.Imaging.Size` structure by rounding the values of the `Aspose.Imaging.SizeF` structure to the nearest integer values. |
+| [isEquals(Size obj1, Size obj2)](#isEquals-com.aspose.imaging.Size-com.aspose.imaging.Size-) |  |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `Aspose.Imaging.Size` has width and height of 0. |
+| [getWidth()](#getWidth--) | Gets or sets the horizontal component of this `Aspose.Imaging.Size`. |
+| [setWidth(int value)](#setWidth-int-) | Gets or sets the horizontal component of this `Aspose.Imaging.Size`. |
+| [getHeight()](#getHeight--) | Gets or sets the vertical component of this `Aspose.Imaging.Size`. |
+| [setHeight(int value)](#setHeight-int-) | Gets or sets the vertical component of this `Aspose.Imaging.Size`. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Tests to see whether the specified object is a `Aspose.Imaging.Size` with the same dimensions as this `Aspose.Imaging.Size`. |
 | [hashCode()](#hashCode--) | Returns a hash code for this `Aspose.Imaging.Size` structure. |
 | [toString()](#toString--) | Creates a human-readable string that represents this `Aspose.Imaging.Size`. |
 | [CloneTo(Size that)](#CloneTo-com.aspose.imaging.Size-) |  |
 | [Clone()](#Clone--) |  |
-| [isEquals(Size obj1, Size obj2)](#isEquals-com.aspose.imaging.Size-com.aspose.imaging.Size-) |  |
 ### Size() {#Size--}
 ```
 public Size()
@@ -90,62 +90,6 @@ Gets a new instance of the `Aspose.Imaging.Size` structure that has `Aspose.Imag
 
 **Returns:**
 [Size](../../com.aspose.imaging/size)
-### isEmpty() {#isEmpty--}
-```
-public boolean isEmpty()
-```
-
-
-Gets a value indicating whether this `Aspose.Imaging.Size` has width and height of 0.
-
-**Returns:**
-boolean
-### getWidth() {#getWidth--}
-```
-public int getWidth()
-```
-
-
-Gets or sets the horizontal component of this `Aspose.Imaging.Size`.
-
-**Returns:**
-int
-### setWidth(int value) {#setWidth-int-}
-```
-public void setWidth(int value)
-```
-
-
-Gets or sets the horizontal component of this `Aspose.Imaging.Size`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getHeight() {#getHeight--}
-```
-public int getHeight()
-```
-
-
-Gets or sets the vertical component of this `Aspose.Imaging.Size`.
-
-**Returns:**
-int
-### setHeight(int value) {#setHeight-int-}
-```
-public void setHeight(int value)
-```
-
-
-Gets or sets the vertical component of this `Aspose.Imaging.Size`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### to_SizeF(Size size) {#to-SizeF-com.aspose.imaging.Size-}
 ```
 public static SizeF to_SizeF(Size size)
@@ -317,6 +261,78 @@ Converts the specified `Aspose.Imaging.SizeF` structure to a `Aspose.Imaging.Siz
 
 **Returns:**
 [Size](../../com.aspose.imaging/size) - The `Aspose.Imaging.Size` structure this method converts to.
+### isEquals(Size obj1, Size obj2) {#isEquals-com.aspose.imaging.Size-com.aspose.imaging.Size-}
+```
+public static boolean isEquals(Size obj1, Size obj2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [Size](../../com.aspose.imaging/size) |  |
+| obj2 | [Size](../../com.aspose.imaging/size) |  |
+
+**Returns:**
+boolean
+### isEmpty() {#isEmpty--}
+```
+public boolean isEmpty()
+```
+
+
+Gets a value indicating whether this `Aspose.Imaging.Size` has width and height of 0.
+
+**Returns:**
+boolean
+### getWidth() {#getWidth--}
+```
+public int getWidth()
+```
+
+
+Gets or sets the horizontal component of this `Aspose.Imaging.Size`.
+
+**Returns:**
+int
+### setWidth(int value) {#setWidth-int-}
+```
+public void setWidth(int value)
+```
+
+
+Gets or sets the horizontal component of this `Aspose.Imaging.Size`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getHeight() {#getHeight--}
+```
+public int getHeight()
+```
+
+
+Gets or sets the vertical component of this `Aspose.Imaging.Size`.
+
+**Returns:**
+int
+### setHeight(int value) {#setHeight-int-}
+```
+public void setHeight(int value)
+```
+
+
+Gets or sets the vertical component of this `Aspose.Imaging.Size`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -375,19 +391,3 @@ public Size Clone()
 
 **Returns:**
 [Size](../../com.aspose.imaging/size)
-### isEquals(Size obj1, Size obj2) {#isEquals-com.aspose.imaging.Size-com.aspose.imaging.Size-}
-```
-public static boolean isEquals(Size obj1, Size obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [Size](../../com.aspose.imaging/size) |  |
-| obj2 | [Size](../../com.aspose.imaging/size) |  |
-
-**Returns:**
-boolean

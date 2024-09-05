@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfarc/
 
 **Inheritance:** WmfRectangle
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

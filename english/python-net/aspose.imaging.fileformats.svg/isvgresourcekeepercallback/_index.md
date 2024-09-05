@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/
 
 **Full Name:** aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

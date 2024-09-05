@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/
 
 **Inheritance:** PathGradientBrushBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

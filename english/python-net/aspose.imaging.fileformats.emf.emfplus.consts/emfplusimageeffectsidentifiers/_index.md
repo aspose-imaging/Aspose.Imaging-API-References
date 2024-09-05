@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffec
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusImageEffectsIdentifiers
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

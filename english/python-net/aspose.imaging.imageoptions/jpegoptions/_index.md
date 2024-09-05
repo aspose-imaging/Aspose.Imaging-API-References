@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, IHasExifData, IHasJpegExifData, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

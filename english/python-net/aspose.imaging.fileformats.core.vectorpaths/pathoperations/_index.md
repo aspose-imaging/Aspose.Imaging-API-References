@@ -11,8 +11,6 @@ The operations for the path shapes combining (Boolean operations).
 
 **Full Name:** aspose.imaging.fileformats.core.vectorpaths.PathOperations
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

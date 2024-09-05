@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrtext/
 
 **Inheritance:** CdrDictionaryItem
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

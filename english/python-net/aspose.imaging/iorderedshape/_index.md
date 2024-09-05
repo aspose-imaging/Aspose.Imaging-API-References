@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/iorderedshape/
 
 **Full Name:** aspose.imaging.IOrderedShape
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

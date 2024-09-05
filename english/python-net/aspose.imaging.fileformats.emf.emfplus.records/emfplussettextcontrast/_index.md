@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextco
 
 **Inheritance:** EmfPlusPropertyRecordType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

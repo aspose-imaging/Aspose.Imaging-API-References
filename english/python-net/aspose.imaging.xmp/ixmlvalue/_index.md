@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.xmp/ixmlvalue/
 
 **Full Name:** aspose.imaging.xmp.IXmlValue
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

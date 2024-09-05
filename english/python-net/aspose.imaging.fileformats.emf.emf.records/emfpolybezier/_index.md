@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezier/
 
 **Inheritance:** EmfPolyShape
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

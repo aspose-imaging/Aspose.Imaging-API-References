@@ -11,8 +11,6 @@ Specifies the TIFF file format standards.
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffFileStandards
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

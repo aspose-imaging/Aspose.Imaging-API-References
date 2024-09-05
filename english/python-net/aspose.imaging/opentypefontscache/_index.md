@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/opentypefontscache/
 
 **Full Name:** aspose.imaging.OpenTypeFontsCache
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

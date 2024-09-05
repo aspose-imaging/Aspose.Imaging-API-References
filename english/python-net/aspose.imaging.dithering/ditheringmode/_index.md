@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.dithering/ditheringmode/
 
 **Full Name:** aspose.imaging.dithering.DitheringMode
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

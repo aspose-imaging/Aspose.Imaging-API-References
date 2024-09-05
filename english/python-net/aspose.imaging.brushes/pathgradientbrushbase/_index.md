@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.brushes/pathgradientbrushbase/
 
 **Inheritance:** TransformBrush
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

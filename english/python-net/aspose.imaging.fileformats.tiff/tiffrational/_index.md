@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffrational/
 
 **Full Name:** aspose.imaging.fileformats.tiff.TiffRational
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

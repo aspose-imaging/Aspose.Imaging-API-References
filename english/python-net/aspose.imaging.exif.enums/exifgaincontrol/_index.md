@@ -11,8 +11,6 @@ exif gain control enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifGainControl
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/pointf/
 
 **Full Name:** aspose.imaging.PointF
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

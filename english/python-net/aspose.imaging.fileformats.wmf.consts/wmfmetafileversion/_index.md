@@ -11,8 +11,6 @@ The MetafileVersion Enumeration defines values that specify support for device-i
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfMetafileVersion
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

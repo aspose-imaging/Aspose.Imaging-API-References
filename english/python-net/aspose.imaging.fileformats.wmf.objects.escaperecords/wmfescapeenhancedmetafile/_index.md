@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapee
 
 **Inheritance:** WmfEscapeRecordBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

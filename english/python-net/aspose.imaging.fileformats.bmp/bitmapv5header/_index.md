@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.bmp/bitmapv5header/
 
 **Inheritance:** BitmapV4Header
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

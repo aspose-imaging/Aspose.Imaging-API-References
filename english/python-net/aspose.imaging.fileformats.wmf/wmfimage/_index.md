@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 
 **Inheritance:** IObjectWithBounds, IObjectWithSizeF, MetaImage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -78,13 +76,13 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_26) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_27) | Converts to aps. |
 | [get_used_fonts()](#get_used_fonts__28) | Retrieve the list of fonts used within the metafile, providing insight into the <br/>            font resources utilized in the image. Utilize this method to analyze font usage <br/>            and ensure font availability for rendering or further processing within your application. |
-| [load(file_path)](#load_file_path_29) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_30) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_29) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_30) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_31) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_32) | Loads a new image from the specified stream. |
 | [load_stream(stream)](#load_stream_stream_33) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_34) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_35) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_35) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_36) | Removes the background. |
 | remove_metadata() | Removes metadata. |
@@ -744,13 +742,13 @@ Retrieve the list of fonts used within the metafile, providing insight into the 
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -766,13 +764,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -879,13 +877,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1360,7 +1358,7 @@ Apply a specified palette to the image, enabling customization of color <br/>   
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>                indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>                corresponding palette entries. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_98}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_101}
 ``` python
 
 from aspose.pycore import as_of, cast

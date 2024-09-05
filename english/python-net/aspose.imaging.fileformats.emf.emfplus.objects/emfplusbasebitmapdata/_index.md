@@ -13,7 +13,5 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebitma
 
 **Inheritance:** EmfPlusStructureObjectType
 
-**Aspose.Imaging Version:** 24.7.0
-
 
 

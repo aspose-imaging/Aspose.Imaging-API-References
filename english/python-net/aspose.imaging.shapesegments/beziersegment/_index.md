@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.shapesegments/beziersegment/
 
 **Inheritance:** LineSegment
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

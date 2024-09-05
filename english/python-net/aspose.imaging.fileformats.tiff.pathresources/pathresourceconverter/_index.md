@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconve
 
 **Full Name:** aspose.imaging.fileformats.tiff.pathresources.PathResourceConverter
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

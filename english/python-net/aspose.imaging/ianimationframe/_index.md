@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/ianimationframe/
 
 **Full Name:** aspose.imaging.IAnimationFrame
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

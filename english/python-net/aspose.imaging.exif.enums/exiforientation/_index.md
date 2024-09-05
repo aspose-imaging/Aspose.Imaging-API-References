@@ -11,8 +11,6 @@ Exif image orientation.
 
 **Full Name:** aspose.imaging.exif.enums.ExifOrientation
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrush/
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdBrush
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

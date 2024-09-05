@@ -11,7 +11,5 @@ url: /python-net/aspose.imaging.asynctask/asynctask/
 
 **Full Name:** aspose.imaging.asynctask.AsyncTask
 
-**Aspose.Imaging Version:** 24.7.0
-
 
 

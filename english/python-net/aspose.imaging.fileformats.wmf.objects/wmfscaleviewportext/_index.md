@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscaleviewportext/
 
 **Inheritance:** WmfScaleWindowExt
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

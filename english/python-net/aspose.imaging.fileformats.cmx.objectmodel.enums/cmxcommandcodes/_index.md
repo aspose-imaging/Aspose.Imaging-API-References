@@ -11,8 +11,6 @@ Page command codes
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.CmxCommandCodes
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

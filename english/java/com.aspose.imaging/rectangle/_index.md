@@ -364,7 +364,7 @@ public static Rectangle fromPoints(Point point1, Point point2)
 ```
 
 
-Creates a new `Rectangle` from two points specified. Two verticales of the created `Rectangle` will be equal to the passed `point1` and `point2`. These would be typically the opposite vertices.
+Creates a new `Rectangle` from two points specified. Two verticals of the created `Rectangle` will be equal to the passed `point1` and `point2`. These would be typically the opposite vertices.
 
 **Parameters:**
 | Parameter | Type | Description |

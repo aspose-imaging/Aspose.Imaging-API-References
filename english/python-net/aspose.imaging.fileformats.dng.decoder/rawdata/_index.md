@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/rawdata/
 
 **Full Name:** aspose.imaging.fileformats.dng.decoder.RawData
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

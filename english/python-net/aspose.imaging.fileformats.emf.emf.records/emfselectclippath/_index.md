@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
 
 **Inheritance:** EmfClippingRecordType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

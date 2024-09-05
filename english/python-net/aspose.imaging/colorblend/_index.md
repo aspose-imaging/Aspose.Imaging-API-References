@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/colorblend/
 
 **Full Name:** aspose.imaging.ColorBlend
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

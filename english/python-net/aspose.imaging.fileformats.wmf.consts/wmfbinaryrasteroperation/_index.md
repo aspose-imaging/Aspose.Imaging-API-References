@@ -11,8 +11,6 @@ The BinaryRasterOperation Enumeration section lists the binary raster-operation 
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfBinaryRasterOperation
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ The measure text kind
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdMeasureTextKind
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

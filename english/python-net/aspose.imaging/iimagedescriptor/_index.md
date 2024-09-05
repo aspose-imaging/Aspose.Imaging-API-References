@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/iimagedescriptor/
 
 **Full Name:** aspose.imaging.IImageDescriptor
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

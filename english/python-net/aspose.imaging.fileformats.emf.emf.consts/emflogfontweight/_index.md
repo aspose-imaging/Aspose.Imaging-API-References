@@ -11,8 +11,6 @@ The [EmfLogFont](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfLogFontWeight
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

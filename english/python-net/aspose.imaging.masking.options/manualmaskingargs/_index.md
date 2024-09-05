@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.masking.options/manualmaskingargs/
 
 **Inheritance:** IMaskingArgs
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

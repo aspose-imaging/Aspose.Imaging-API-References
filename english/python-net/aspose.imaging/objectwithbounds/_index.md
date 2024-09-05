@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/objectwithbounds/
 
 **Full Name:** aspose.imaging.ObjectWithBounds
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

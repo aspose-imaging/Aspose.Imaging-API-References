@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.xmp.types.complex.version/version/
 
 **Inheritance:** IXmpType, ComplexTypeBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

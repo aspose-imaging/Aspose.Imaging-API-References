@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/
 
 **Inheritance:** LoadOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

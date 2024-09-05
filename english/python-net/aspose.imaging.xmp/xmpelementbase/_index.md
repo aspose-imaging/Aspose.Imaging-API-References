@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.xmp/xmpelementbase/
 
 **Full Name:** aspose.imaging.xmp.XmpElementBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 
 **Full Name:** aspose.imaging.fileformats.pdf.PdfCoreOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -36,4 +34,21 @@ url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 ```
 
 Initializes a new instance of the PdfCoreOptions class
+
+## **Examples**
+### Convert EPS image to PDF using PostScript rendering. {#example_109}
+``` python
+
+from aspose.imaging import Image, PdfComplianceVersion
+from aspose.imaging.imageoptions import PdfOptions
+from aspose.imaging.fileformats.pdf import PdfCoreOptions
+
+with Image.load("Sample.eps") as image:
+	options = PdfOptions()
+	options.pdf_core_options = PdfCoreOptions()
+	options.pdf_core_options.pdf_compliance = PdfComplianceVersion.PDF_A1B # Set required PDF compliance
+	image.save("Sample.pdf", options)
+
+
+```
 

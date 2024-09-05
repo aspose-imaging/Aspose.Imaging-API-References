@@ -11,8 +11,6 @@ One of supported imaging file formats.
 
 **Full Name:** aspose.imaging.FileFormat
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

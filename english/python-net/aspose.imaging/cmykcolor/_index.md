@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/cmykcolor/
 
 **Full Name:** aspose.imaging.CmykColor
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

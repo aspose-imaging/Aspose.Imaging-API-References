@@ -11,7 +11,5 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/icmxdocelement/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.ICmxDocElement
 
-**Aspose.Imaging Version:** 24.7.0
-
 
 

@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/rectanglemask/
 
 **Inheritance:** IImageMask, ImageMask
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

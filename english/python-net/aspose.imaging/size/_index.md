@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/size/
 
 **Full Name:** aspose.imaging.Size
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

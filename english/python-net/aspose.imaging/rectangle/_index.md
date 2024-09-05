@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/rectangle/
 
 **Full Name:** aspose.imaging.Rectangle
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

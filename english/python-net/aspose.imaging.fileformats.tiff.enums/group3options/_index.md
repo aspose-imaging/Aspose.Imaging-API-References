@@ -11,8 +11,6 @@ Options for CCITT Group 3/4 fax encoding.<br /><br/>            Possible values 
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.Group3Options
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

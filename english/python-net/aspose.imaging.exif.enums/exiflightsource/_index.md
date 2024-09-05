@@ -11,8 +11,6 @@ The exif light source.
 
 **Full Name:** aspose.imaging.exif.enums.ExifLightSource
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphic
 
 **Full Name:** aspose.imaging.fileformats.emf.graphics.MetafileRecorderGraphics2D
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

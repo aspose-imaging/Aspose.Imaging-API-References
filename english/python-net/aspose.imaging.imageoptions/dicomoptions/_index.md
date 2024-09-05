@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -23,8 +21,8 @@ url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| color_type | [ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/) | r/w | Gets or sets the type of the color. |
-| compression | [Compression](/imaging/python-net/aspose.imaging.fileformats.dicom/compression/) | r/w | Gets or sets the compression. |
+| [color_type](#color_type1) | [ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/) | r/w | Gets or sets the type of the color. |
+| [compression](#compression2) | [Compression](/imaging/python-net/aspose.imaging.fileformats.dicom/compression/) | r/w | Gets or sets the compression. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
@@ -48,6 +46,24 @@ url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 ```
 
 Initializes a new instance of the [DicomOptions](/imaging/python-net/aspose.imaging.imageoptions/dicomoptions/) class.
+
+### Property: color_type {#color_type1}
+
+Gets or sets the type of the color.
+
+**See also:**
+
+**[Example # 1](#example_112)**: Change the color type in DICOM compression.
+
+
+### Property: compression {#compression2}
+
+Gets or sets the compression.
+
+**See also:**
+
+**[Example # 1](#example_112)**: Change the color type in DICOM compression.
+
 
 ### Method: clone() {#clone__1}
 
@@ -85,6 +101,21 @@ with Image.load(inputFileNameSingle) as image:
 # DICOM format supports multipage images. You can convert GIF or TIFF images to DICOM in the same way as JPEG images
 with Image.load(inputFileNameMultipage) as image_multiple:
 	image_multiple.save(outputFileNameMultipageDcm, DicomOptions())
+
+
+```
+
+### Change the color type in DICOM compression. {#example_112}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import DicomOptions
+from aspose.imaging.fileformats.dicom import ColorType
+
+with Image.load("original.jpg") as inputImage:
+	options = DicomOptions()
+	options.color_type = ColorType.GRAYSCALE_8_BIT
+	inputImage.save("original_8Bit.dcm", options)
 
 
 ```

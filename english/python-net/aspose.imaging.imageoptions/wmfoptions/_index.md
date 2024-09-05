@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/wmfoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, MetafileOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

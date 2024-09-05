@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/iindexedcolorconverter/
 
 **Full Name:** aspose.imaging.IIndexedColorConverter
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.svg/fontstoringargs/
 
 **Full Name:** aspose.imaging.fileformats.svg.FontStoringArgs
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

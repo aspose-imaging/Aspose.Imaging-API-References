@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/sizef/
 
 **Full Name:** aspose.imaging.SizeF
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

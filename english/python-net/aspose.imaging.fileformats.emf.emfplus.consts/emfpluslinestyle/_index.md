@@ -11,8 +11,6 @@ The LineStyle enumeration defines styles of lines that are drawn with graphics p
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLineStyle
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

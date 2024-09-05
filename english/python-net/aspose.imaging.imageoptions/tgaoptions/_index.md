@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.imageoptions/tgaoptions/
 
 **Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -51,7 +49,7 @@ Initializes a new instance of the [TgaOptions](/imaging/python-net/aspose.imagin
 
 **See also:**
 
-**[Example # 1](#example_107)**: Saving of the JPG image as a TGA image.
+**[Example # 1](#example_113)**: Saving of the JPG image as a TGA image.
 
 
 ### Constructor: TgaOptions(tga_options) {#TgaOptions_tga_options_2}
@@ -86,7 +84,7 @@ Clones this instance.
 
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_107}
+### Saving of the JPG image as a TGA image. {#example_113}
 ``` python
 
 from aspose.imaging import Image

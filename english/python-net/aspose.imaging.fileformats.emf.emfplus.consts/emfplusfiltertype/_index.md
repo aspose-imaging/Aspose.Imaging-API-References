@@ -11,8 +11,6 @@ The FilterType enumeration defines types of filtering algorithms that can be use
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusFilterType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

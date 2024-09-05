@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/ipartialargb32pixelloader/
 
 **Full Name:** aspose.imaging.IPartialArgb32PixelLoader
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ The emf render mode
 
 **Full Name:** aspose.imaging.fileformats.emf.EmfRenderMode
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

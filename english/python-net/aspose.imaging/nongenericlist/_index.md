@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging/nongenericlist/
 
 **Full Name:** aspose.imaging.NonGenericList
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

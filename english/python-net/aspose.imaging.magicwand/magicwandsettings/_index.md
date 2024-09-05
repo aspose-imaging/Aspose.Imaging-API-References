@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.magicwand/magicwandsettings/
 
 **Full Name:** aspose.imaging.magicwand.MagicWandSettings
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

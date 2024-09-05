@@ -11,8 +11,6 @@ Exif tags list
 
 **Full Name:** aspose.imaging.exif.ExifProperties
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

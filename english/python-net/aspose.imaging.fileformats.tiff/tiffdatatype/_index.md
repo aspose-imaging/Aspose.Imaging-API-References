@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffdatatype/
 
 **Full Name:** aspose.imaging.fileformats.tiff.TiffDataType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

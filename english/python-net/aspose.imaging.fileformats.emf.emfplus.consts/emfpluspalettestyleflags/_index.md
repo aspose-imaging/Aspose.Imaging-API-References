@@ -11,8 +11,6 @@ The PaletteStyle flags specify properties of graphics palettes. These flags can 
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPaletteStyleFlags
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

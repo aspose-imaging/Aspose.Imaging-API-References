@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/
 
 **Inheritance:** EmfHeaderObject
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

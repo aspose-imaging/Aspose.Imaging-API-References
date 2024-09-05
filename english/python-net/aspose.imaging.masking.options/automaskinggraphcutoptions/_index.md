@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.masking.options/automaskinggraphcutoptions/
 
 **Inheritance:** GraphCutMaskingOptions
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

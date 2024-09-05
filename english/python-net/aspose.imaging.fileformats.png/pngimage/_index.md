@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 
 **Inheritance:** IObjectWithBounds, IRasterImageArgb32PixelLoader, IRasterImageRawDataLoader, IHasXmpData, IHasMetadata, RasterCachedImage
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -121,8 +119,8 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_49) | Converts to aps. |
 | [get_skew_angle()](#get_skew_angle__50) | Gets the skew angle.<br/>            This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | grayscale() | Transformation of an image to its grayscale representation |
-| [load(file_path)](#load_file_path_51) | Loads a new image from the specified file. |
-| [load(file_path, load_options)](#load_file_path_load_options_52) | Loads a new image from the specified file. |
+| [load(file_path)](#load_file_path_51) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_52) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(stream)](#load_stream_53) | Loads a new image from the specified stream. |
 | [load(stream, load_options)](#load_stream_load_options_54) | Loads a new image from the specified stream. |
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_55) | Loads 32-bit ARGB pixels. |
@@ -137,7 +135,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_64) | Loads raw data. |
 | [load_stream(stream)](#load_stream_stream_65) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_66) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_68) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_69) | Reads the whole scan line by the specified scan line index. |
@@ -204,6 +202,12 @@ Constructs a new instance of the [PngImage](/imaging/python-net/aspose.imaging.f
 | Parameter | Type | Description |
 | :- | :- | :- |
 | path | string | The path to load an image. |
+
+
+**See also:**
+
+**[Example # 1](#example_99)**: This example shows how to load a PNG image from a file.
+
 
 ### Constructor: PngImage(path, color_type) {#PngImage_path_color_type_2}
 
@@ -1346,13 +1350,13 @@ Gets the skew angle.<br/>            This method is applicable to scanned text d
  load(file_path) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 
 **Returns**
 
@@ -1368,13 +1372,13 @@ Loads a new image from the specified file.
  load(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -1674,13 +1678,13 @@ Loads a new image from the specified stream.
  load_with_options(file_path, load_options) 
 ```
 
-Loads a new image from the specified file.
+Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | The file path to load image from. |
+| file_path | string | The file path or URL to load image from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
 
 **Returns**
@@ -2462,7 +2466,24 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_113}
+### This example shows how to load a PNG image from a file. {#example_99}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image
+from aspose.imaging.fileformats.png import PngImage
+
+# Load a PNG image from a file.
+with as_of(Image.load("sample.png"), PngImage) as pngImage:
+	# Transform the image to grayscale representation
+	pngImage.grayscale()
+	# Save to a file.
+	pngImage.save("sample.grayscale.png")
+
+
+```
+
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_121}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2487,7 +2508,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_114}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_122}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

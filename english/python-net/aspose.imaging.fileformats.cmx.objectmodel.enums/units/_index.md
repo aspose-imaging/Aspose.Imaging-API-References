@@ -11,8 +11,6 @@ Basic units for CMX document.
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.Units
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

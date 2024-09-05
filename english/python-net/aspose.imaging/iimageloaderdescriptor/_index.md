@@ -13,8 +13,6 @@ url: /python-net/aspose.imaging/iimageloaderdescriptor/
 
 **Inheritance:** IImageDescriptor
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

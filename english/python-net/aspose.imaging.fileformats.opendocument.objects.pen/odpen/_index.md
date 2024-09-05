@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.pen/odpen/
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.pen.OdPen
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ The FormatSignature enumeration defines values that are used to identify the for
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfFormatSignature
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

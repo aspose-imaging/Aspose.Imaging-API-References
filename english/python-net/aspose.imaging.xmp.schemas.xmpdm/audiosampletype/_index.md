@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 
 **Full Name:** aspose.imaging.xmp.schemas.xmpdm.AudioSampleType
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |

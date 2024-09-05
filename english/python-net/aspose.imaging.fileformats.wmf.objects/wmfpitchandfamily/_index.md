@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 
 **Full Name:** aspose.imaging.fileformats.wmf.objects.WmfPitchAndFamily
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

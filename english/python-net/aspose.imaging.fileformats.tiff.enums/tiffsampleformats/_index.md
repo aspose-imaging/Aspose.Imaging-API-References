@@ -11,8 +11,6 @@ Sample format enum
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffSampleFormats
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

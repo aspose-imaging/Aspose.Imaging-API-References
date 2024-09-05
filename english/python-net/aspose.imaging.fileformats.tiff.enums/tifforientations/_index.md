@@ -11,8 +11,6 @@ Image orientation.<br /><br/>            Possible values for ORIENTATION tag.
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffOrientations
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |

@@ -11,8 +11,6 @@ url: /python-net/aspose.imaging.asynctask/asynctaskprogress/
 
 **Full Name:** aspose.imaging.asynctask.AsyncTaskProgress
 
-**Aspose.Imaging Version:** 24.7.0
-
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |

@@ -26,11 +26,6 @@ Represents an ordered pair of integer x- and y-coordinates that defines a point 
 | Method | Description |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | Gets a new instance of the `Aspose.Imaging.Point` structure that has `Aspose.Imaging.Point.X` and `Aspose.Imaging.Point.Y` values set to zero. |
-| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `Aspose.Imaging.Point` is empty. |
-| [getX()](#getX--) | Gets or sets the x-coordinate of this `Aspose.Imaging.Point`. |
-| [setX(int value)](#setX-int-) | Gets or sets the x-coordinate of this `Aspose.Imaging.Point`. |
-| [getY()](#getY--) | Gets or sets the y-coordinate of this `Aspose.Imaging.Point`. |
-| [setY(int value)](#setY-int-) | Gets or sets the y-coordinate of this `Aspose.Imaging.Point`. |
 | [add(Point point, Size size)](#add-com.aspose.imaging.Point-com.aspose.imaging.Size-) | Adds the specified `Aspose.Imaging.Size` to the specified `Aspose.Imaging.Point`. |
 | [subtract(Point point, Size size)](#subtract-com.aspose.imaging.Point-com.aspose.imaging.Size-) | Returns the result of subtracting specified `Aspose.Imaging.Size` from the specified `Aspose.Imaging.Point`. |
 | [ceiling(PointF point)](#ceiling-com.aspose.imaging.PointF-) | Converts the specified `Aspose.Imaging.PointF` to a `Aspose.Imaging.Point` by rounding the values of the `Aspose.Imaging.PointF` to the next higher integer values. |
@@ -42,16 +37,21 @@ Represents an ordered pair of integer x- and y-coordinates that defines a point 
 | [op_Inequality(Point point1, Point point2)](#op-Inequality-com.aspose.imaging.Point-com.aspose.imaging.Point-) | Compares two `Aspose.Imaging.Point` objects. |
 | [to_Size(Point point)](#to-Size-com.aspose.imaging.Point-) | Converts the specified `Aspose.Imaging.Point` structure to a `Aspose.Imaging.Size` structure. |
 | [to_PointF(Point point)](#to-PointF-com.aspose.imaging.Point-) | Converts the specified `Point` structure to the `PointF` structure. |
+| [fromLong(long packedPoint, int[] x, int[] y)](#fromLong-long-int---int---) | Deconstruct a Point object packed into a long object to separate X and Y int values. |
+| [isEquals(Point obj1, Point obj2)](#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-) |  |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether this `Aspose.Imaging.Point` is empty. |
+| [getX()](#getX--) | Gets or sets the x-coordinate of this `Aspose.Imaging.Point`. |
+| [setX(int value)](#setX-int-) | Gets or sets the x-coordinate of this `Aspose.Imaging.Point`. |
+| [getY()](#getY--) | Gets or sets the y-coordinate of this `Aspose.Imaging.Point`. |
+| [setY(int value)](#setY-int-) | Gets or sets the y-coordinate of this `Aspose.Imaging.Point`. |
 | [offset(Point point)](#offset-com.aspose.imaging.Point-) | Translates this `Aspose.Imaging.Point` by the specified `Aspose.Imaging.Point`. |
 | [offset(int dx, int dy)](#offset-int-int-) | Translates this `Aspose.Imaging.Point` by the specified amount. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Specifies whether this `Aspose.Imaging.Point` contains the same coordinates as the specified `System.Object`. |
 | [hashCode()](#hashCode--) | Returns a hash code for this `Aspose.Imaging.Point`. |
 | [toLong()](#toLong--) | Convert this Point to a single long value, containing X and Y coordinates in high and low bits. |
-| [fromLong(long packedPoint, int[] x, int[] y)](#fromLong-long-int---int---) | Deconstruct a Point object packed into a long object to separate X and Y int values. |
 | [toString()](#toString--) | Converts this `Aspose.Imaging.Point` to a human-readable string. |
 | [CloneTo(Point that)](#CloneTo-com.aspose.imaging.Point-) |  |
 | [Clone()](#Clone--) |  |
-| [isEquals(Point obj1, Point obj2)](#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-) |  |
 ### Point() {#Point--}
 ```
 public Point()
@@ -108,62 +108,6 @@ Gets a new instance of the `Aspose.Imaging.Point` structure that has `Aspose.Ima
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
-### isEmpty() {#isEmpty--}
-```
-public boolean isEmpty()
-```
-
-
-Gets a value indicating whether this `Aspose.Imaging.Point` is empty.
-
-**Returns:**
-boolean - True if both `Aspose.Imaging.Point.X` and `Aspose.Imaging.Point.Y` are 0; otherwise, false.
-### getX() {#getX--}
-```
-public int getX()
-```
-
-
-Gets or sets the x-coordinate of this `Aspose.Imaging.Point`.
-
-**Returns:**
-int
-### setX(int value) {#setX-int-}
-```
-public void setX(int value)
-```
-
-
-Gets or sets the x-coordinate of this `Aspose.Imaging.Point`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getY() {#getY--}
-```
-public int getY()
-```
-
-
-Gets or sets the y-coordinate of this `Aspose.Imaging.Point`.
-
-**Returns:**
-int
-### setY(int value) {#setY-int-}
-```
-public void setY(int value)
-```
-
-
-Gets or sets the y-coordinate of this `Aspose.Imaging.Point`.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### add(Point point, Size size) {#add-com.aspose.imaging.Point-com.aspose.imaging.Size-}
 ```
 public static Point add(Point point, Size size)
@@ -335,6 +279,93 @@ Converts the specified `Point` structure to the `PointF` structure.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The `PointF` that results from the conversion.
+### fromLong(long packedPoint, int[] x, int[] y) {#fromLong-long-int---int---}
+```
+public static void fromLong(long packedPoint, int[] x, int[] y)
+```
+
+
+Deconstruct a Point object packed into a long object to separate X and Y int values.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| packedPoint | long | The Point object packed into one long value. |
+| x | int[] | The extracted from the packed Point X value. |
+| y | int[] | The extracted from the packed Point Y value. |
+
+### isEquals(Point obj1, Point obj2) {#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-}
+```
+public static boolean isEquals(Point obj1, Point obj2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [Point](../../com.aspose.imaging/point) |  |
+| obj2 | [Point](../../com.aspose.imaging/point) |  |
+
+**Returns:**
+boolean
+### isEmpty() {#isEmpty--}
+```
+public boolean isEmpty()
+```
+
+
+Gets a value indicating whether this `Aspose.Imaging.Point` is empty.
+
+**Returns:**
+boolean - True if both `Aspose.Imaging.Point.X` and `Aspose.Imaging.Point.Y` are 0; otherwise, false.
+### getX() {#getX--}
+```
+public int getX()
+```
+
+
+Gets or sets the x-coordinate of this `Aspose.Imaging.Point`.
+
+**Returns:**
+int
+### setX(int value) {#setX-int-}
+```
+public void setX(int value)
+```
+
+
+Gets or sets the x-coordinate of this `Aspose.Imaging.Point`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getY() {#getY--}
+```
+public int getY()
+```
+
+
+Gets or sets the y-coordinate of this `Aspose.Imaging.Point`.
+
+**Returns:**
+int
+### setY(int value) {#setY-int-}
+```
+public void setY(int value)
+```
+
+
+Gets or sets the y-coordinate of this `Aspose.Imaging.Point`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### offset(Point point) {#offset-com.aspose.imaging.Point-}
 ```
 public void offset(Point point)
@@ -397,21 +428,6 @@ Convert this Point to a single long value, containing X and Y coordinates in hig
 
 **Returns:**
 long - The Point object packed into one long value.
-### fromLong(long packedPoint, int[] x, int[] y) {#fromLong-long-int---int---}
-```
-public static void fromLong(long packedPoint, int[] x, int[] y)
-```
-
-
-Deconstruct a Point object packed into a long object to separate X and Y int values.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| packedPoint | long | The Point object packed into one long value. |
-| x | int[] | The extracted from the packed Point X value. |
-| y | int[] | The extracted from the packed Point Y value. |
-
 ### toString() {#toString--}
 ```
 public String toString()
@@ -445,19 +461,3 @@ public Point Clone()
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
-### isEquals(Point obj1, Point obj2) {#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-}
-```
-public static boolean isEquals(Point obj1, Point obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [Point](../../com.aspose.imaging/point) |  |
-| obj2 | [Point](../../com.aspose.imaging/point) |  |
-
-**Returns:**
-boolean
