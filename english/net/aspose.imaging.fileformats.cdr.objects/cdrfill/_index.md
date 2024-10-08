@@ -3,7 +3,7 @@ title: Class CdrFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrFill class. The cdr fill
 type: docs
-weight: 1590
+weight: 1600
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrfill/
 ---
 ## CdrFill class

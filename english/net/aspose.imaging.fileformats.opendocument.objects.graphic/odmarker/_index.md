@@ -3,7 +3,7 @@ title: Class OdMarker
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdMarker class. The Marker
 type: docs
-weight: 7200
+weight: 7210
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/
 ---
 ## OdMarker class

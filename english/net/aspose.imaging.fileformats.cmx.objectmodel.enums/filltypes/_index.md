@@ -3,7 +3,7 @@ title: Enum FillTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.FillTypes enum. Fill types for the brush
 type: docs
-weight: 2060
+weight: 2070
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/
 ---
 ## FillTypes enumeration

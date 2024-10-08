@@ -3,7 +3,7 @@ title: Class CmxPathSpec
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs.CmxPathSpec class. Represents geometric info specified for a path
 type: docs
-weight: 2200
+weight: 2210
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/
 ---
 ## CmxPathSpec class

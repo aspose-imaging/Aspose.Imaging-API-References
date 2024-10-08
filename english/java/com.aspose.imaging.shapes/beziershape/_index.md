@@ -30,9 +30,6 @@ Represents a bezier spline.
 | [hasSegments()](#hasSegments--) | Gets a value indicating whether shape has segments. |
 | [getEndPoint()](#getEndPoint--) | Gets the ending shape point. |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | Gets the object's bounds. |
-| [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Check if objects are equal. |
-| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### BezierShape() {#BezierShape--}
 ```
 public BezierShape()
@@ -143,44 +140,3 @@ Gets the object's bounds.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
-### getBounds(Matrix matrix, Pen pen) {#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-}
-```
-public RectangleF getBounds(Matrix matrix, Pen pen)
-```
-
-
-Gets the object's bounds.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-| pen | [Pen](../../com.aspose.imaging/pen) | The pen to use for object. This can influence the object's bounds size. |
-
-**Returns:**
-[RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Check if objects are equal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | The other object. |
-
-**Returns:**
-boolean - The equality comparison result.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Get hash code of the current object.
-
-**Returns:**
-int - The hash code.

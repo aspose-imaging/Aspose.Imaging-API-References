@@ -3,7 +3,7 @@ title: Class CmxEllipseSpec
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs.CmxEllipseSpec class. Represents geometric info specified for an ellipse
 type: docs
-weight: 2170
+weight: 2180
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/
 ---
 ## CmxEllipseSpec class

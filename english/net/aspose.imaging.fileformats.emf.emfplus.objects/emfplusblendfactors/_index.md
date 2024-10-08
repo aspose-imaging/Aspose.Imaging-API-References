@@ -3,7 +3,7 @@ title: Class EmfPlusBlendFactors
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBlendFactors class. The EmfPlusBlendFactors object specifies positions and factors for the blend pattern of a gradient brush
 type: docs
-weight: 5270
+weight: 5280
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendfactors/
 ---
 ## EmfPlusBlendFactors class

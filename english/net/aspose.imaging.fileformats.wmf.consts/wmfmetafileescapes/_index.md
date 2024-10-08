@@ -3,7 +3,7 @@ title: Enum WmfMetafileEscapes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfMetafileEscapes enum. The MetafileEscapes Enumeration specifies printer driver functionality that might not be directly accessible through WMF records defined in the RecordType Enumeration section 2.1.1.1
 type: docs
-weight: 8350
+weight: 8360
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/
 ---
 ## WmfMetafileEscapes enumeration

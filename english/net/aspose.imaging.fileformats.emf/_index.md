@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Emf
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSEMF MSEMFPLUS
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.imaging.fileformats.emf/
 ---
 The namespace contains types [MS-EMF], [MS-EMFPLUS]

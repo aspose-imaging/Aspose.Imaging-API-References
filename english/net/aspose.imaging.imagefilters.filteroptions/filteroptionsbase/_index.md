@@ -3,7 +3,7 @@ title: Class FilterOptionsBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.FilterOptionsBase class. Base filter options class
 type: docs
-weight: 9920
+weight: 9930
 url: /net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/
 ---
 ## FilterOptionsBase class

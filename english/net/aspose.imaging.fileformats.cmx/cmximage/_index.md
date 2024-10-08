@@ -3,7 +3,7 @@ title: Class CmxImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.CmxImage class. The API for Corel Metafile Exchange CMX vector image format with metadata descriptions support is a comprehensive solution for developers working with CMX files. This API allows for the seamless loading of CMX images extracting metadata such as bits per pixel object dimensions and more. With additional functionalities like resizing rotating setting palettes and converting to other formats this API empowers developers to efficiently manipulate and customize CMX vector images to meet their specific application requirements
 type: docs
-weight: 1930
+weight: 1940
 url: /net/aspose.imaging.fileformats.cmx/cmximage/
 ---
 ## CmxImage class

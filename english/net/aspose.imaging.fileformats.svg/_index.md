@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Svg
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles SVG file format processing
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.imaging.fileformats.svg/
 ---
 The namespace handles SVG file format processing.

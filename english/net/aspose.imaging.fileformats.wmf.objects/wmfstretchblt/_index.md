@@ -3,7 +3,7 @@ title: Class WmfStretchBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfStretchBlt class. The META_STRETCHBLT record specifies the transfer of a block of pixels according to a raster operation with possible expansion or contraction
 type: docs
-weight: 9360
+weight: 9370
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ---
 ## WmfStretchBlt class

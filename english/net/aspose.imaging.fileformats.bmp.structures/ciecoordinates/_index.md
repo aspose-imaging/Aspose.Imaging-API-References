@@ -3,7 +3,7 @@ title: Class CieCoordinates
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Bmp.Structures.CieCoordinates class. The class contains the xy and z coordinates of a specific color in a specified color space
 type: docs
-weight: 1430
+weight: 1440
 url: /net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
 ---
 ## CieCoordinates class

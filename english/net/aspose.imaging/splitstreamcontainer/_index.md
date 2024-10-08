@@ -3,7 +3,7 @@ title: Class SplitStreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.SplitStreamContainer class. Represents split stream container which contains the stream and provides stream processing routines
 type: docs
-weight: 11510
+weight: 11520
 url: /net/aspose.imaging/splitstreamcontainer/
 ---
 ## SplitStreamContainer class

@@ -3,7 +3,7 @@ title: Class OdCircle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdCircle class. The circle object
 type: docs
-weight: 7030
+weight: 7040
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odcircle/
 ---
 ## OdCircle class

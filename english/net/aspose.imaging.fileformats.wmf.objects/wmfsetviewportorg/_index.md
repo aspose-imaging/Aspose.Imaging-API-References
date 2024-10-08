@@ -3,7 +3,7 @@ title: Class WmfSetViewportOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetViewportOrg class. The META_SETVIEWPORTORG record defines the viewport origin in the playback device context
 type: docs
-weight: 9330
+weight: 9340
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
 ---
 ## WmfSetViewportOrg class

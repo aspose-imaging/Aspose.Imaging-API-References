@@ -50,6 +50,7 @@ public enum FileFormat : ulong
 | Wmz | `8000000` | The WMZ, compressed wmf |
 | Svgz | `10000000` | The SVGZ, compressed svg |
 | FOdg | `20000000` | The fodg, flat odg format |
+| Avif | `40000000` | The AVIF file format. |
 | BigTiff | `80000000` | The Big Tiff format. |
 
 ### See Also

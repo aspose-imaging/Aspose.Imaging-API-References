@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Cdr.Types
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Cdr file format processing
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.imaging.fileformats.cdr.types/
 ---
 The namespace handles Cdr file format processing.

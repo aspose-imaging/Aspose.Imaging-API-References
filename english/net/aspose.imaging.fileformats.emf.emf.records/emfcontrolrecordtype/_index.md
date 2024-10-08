@@ -3,7 +3,7 @@ title: Class EmfControlRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfControlRecordType class. The control record types define the start and end of an EMF metafile and properties of the metafile
 type: docs
-weight: 3490
+weight: 3500
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype/
 ---
 ## EmfControlRecordType class

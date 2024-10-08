@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.psd
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Psd file format processing.
 type: docs
-weight: 70
+weight: 71
 url: /java/com.aspose.imaging.fileformats.psd/
 ---
 

@@ -3,7 +3,7 @@ title: Interface ICmxDocElement
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.ICmxDocElement interface. Defines the type of the child element of the CMX document
 type: docs
-weight: 2150
+weight: 2160
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/icmxdocelement/
 ---
 ## ICmxDocElement interface

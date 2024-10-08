@@ -48,6 +48,7 @@ One of supported imaging file formats.
 | [Wmz](#Wmz) | The WMZ, compressed wmf |
 | [Svgz](#Svgz) | The SVGZ, compressed svg |
 | [FOdg](#FOdg) | The fodg, flat odg format |
+| [Avif](#Avif) | The AVIF file format. |
 | [BigTiff](#BigTiff) | The Big Tiff format. |
 
 ## Example: This example shows how to determine the image format without loading the entire image from a file.
@@ -350,6 +351,14 @@ public static final long FOdg
 
 
 The fodg, flat odg format
+
+### Avif {#Avif}
+```
+public static final long Avif
+```
+
+
+The AVIF file format.
 
 ### BigTiff {#BigTiff}
 ```

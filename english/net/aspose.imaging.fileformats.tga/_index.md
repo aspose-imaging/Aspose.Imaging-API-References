@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tga
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Tga file format processing
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.imaging.fileformats.tga/
 ---
 The namespace handles Tga file format processing.

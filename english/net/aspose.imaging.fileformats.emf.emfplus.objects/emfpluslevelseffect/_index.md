@@ -3,7 +3,7 @@ title: Class EmfPlusLevelsEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusLevelsEffect class. The LevelsEffect object specifies adjustments to the highlights midtones and shadows of an image
 type: docs
-weight: 5600
+weight: 5610
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslevelseffect/
 ---
 ## EmfPlusLevelsEffect class

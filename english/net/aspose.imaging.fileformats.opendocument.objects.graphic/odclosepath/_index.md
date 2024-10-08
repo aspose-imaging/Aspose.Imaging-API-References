@@ -3,7 +3,7 @@ title: Class OdClosePath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdClosePath class. The close path
 type: docs
-weight: 7040
+weight: 7050
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odclosepath/
 ---
 ## OdClosePath class

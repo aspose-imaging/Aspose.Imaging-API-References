@@ -3,7 +3,7 @@ title: Enum TiffResolutionUnits
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.Enums.TiffResolutionUnits enum. Tiff Resolution Unit Enum
 type: docs
-weight: 7770
+weight: 7780
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffresolutionunits/
 ---
 ## TiffResolutionUnits enumeration

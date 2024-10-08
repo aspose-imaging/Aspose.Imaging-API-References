@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Schemas.Dicom
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Dicom metadata related helper classes constants and methods
 type: docs
-weight: 990
+weight: 1000
 url: /net/aspose.imaging.xmp.schemas.dicom/
 ---
 The namespace contains Dicom metadata related helper classes, constants and methods.

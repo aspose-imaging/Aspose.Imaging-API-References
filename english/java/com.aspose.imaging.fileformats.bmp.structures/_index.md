@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.bmp.structures
 second_title: Aspose.Imaging for Java API Reference
 description: The logical structures used to support bitmap header.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.aspose.imaging.fileformats.bmp.structures/
 ---
 

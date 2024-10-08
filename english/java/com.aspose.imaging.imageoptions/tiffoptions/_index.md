@@ -30,8 +30,8 @@ The tiff file format options. Note that width and height tags will get overwritt
 
 | Method | Description |
 | --- | --- |
-| [getTagCount()](#getTagCount--) | Gets the tag count. |
 | [getValidTagsCount(TiffDataType[] tags)](#getValidTagsCount-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Gets the valid tags count. |
+| [getTagCount()](#getTagCount--) | Gets the tag count. |
 | [getFileStandard()](#getFileStandard--) | Gets or sets the TIFF file standard. |
 | [setFileStandard(int value)](#setFileStandard-int-) | Gets or sets the TIFF file standard. |
 | [getDefaultMemoryAllocationLimit()](#getDefaultMemoryAllocationLimit--) | Gets or sets the default memory allocation limit. |
@@ -283,16 +283,6 @@ Initializes a new instance of the `TiffOptions` class.
 | --- | --- | --- |
 | tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The tags to initialize options with. |
 
-### getTagCount() {#getTagCount--}
-```
-public final int getTagCount()
-```
-
-
-Gets the tag count.
-
-**Returns:**
-int - the tag count.
 ### getValidTagsCount(TiffDataType[] tags) {#getValidTagsCount-com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
 public static int getValidTagsCount(TiffDataType[] tags)
@@ -308,6 +298,16 @@ Gets the valid tags count.
 
 **Returns:**
 int - The valid tags count.
+### getTagCount() {#getTagCount--}
+```
+public final int getTagCount()
+```
+
+
+Gets the tag count.
+
+**Returns:**
+int - the tag count.
 ### getFileStandard() {#getFileStandard--}
 ```
 public int getFileStandard()

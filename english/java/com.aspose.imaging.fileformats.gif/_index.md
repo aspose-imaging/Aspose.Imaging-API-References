@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.gif
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Gif file format processing.
 type: docs
-weight: 56
+weight: 57
 url: /java/com.aspose.imaging.fileformats.gif/
 ---
 

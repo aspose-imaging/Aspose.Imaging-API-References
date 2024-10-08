@@ -3,7 +3,7 @@ title: Class CmxTextBlockSpec
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs.CmxTextBlockSpec class. Represents info specified for text blocks
 type: docs
-weight: 2230
+weight: 2240
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/
 ---
 ## CmxTextBlockSpec class

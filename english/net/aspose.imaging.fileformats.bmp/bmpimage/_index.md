@@ -3,7 +3,7 @@ title: Class BmpImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Bmp.BmpImage class. You can effortlessly handle Bitmap BMP and Device Independent Bitmap DIB files facilitating efficient manipulation and processing of raster images. Performing various operations on images this API streamlines the workflow offering developers a reliable toolkit for working with BMP and DIB formats in their software applications
 type: docs
-weight: 1410
+weight: 1420
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/
 ---
 ## BmpImage class

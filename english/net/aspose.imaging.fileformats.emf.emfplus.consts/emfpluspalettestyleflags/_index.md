@@ -3,7 +3,7 @@ title: Enum EmfPlusPaletteStyleFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusPaletteStyleFlags enum. The PaletteStyle flags specify properties of graphics palettes. These flags can be combined to specify multiple options
 type: docs
-weight: 5010
+weight: 5020
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags/
 ---
 ## EmfPlusPaletteStyleFlags enumeration

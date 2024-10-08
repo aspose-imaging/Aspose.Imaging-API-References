@@ -3,7 +3,7 @@ title: Class GaussWienerFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions class. Gauss Wiener filter options for image debluring
 type: docs
-weight: 9930
+weight: 9940
 url: /net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
 ---
 ## GaussWienerFilterOptions class

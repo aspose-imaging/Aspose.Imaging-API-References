@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tiff.PathResources
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Tiff file format processing
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.imaging.fileformats.tiff.pathresources/
 ---
 The namespace handles Tiff file format processing.

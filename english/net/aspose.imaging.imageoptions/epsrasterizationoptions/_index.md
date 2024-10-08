@@ -3,7 +3,7 @@ title: Class EpsRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.EpsRasterizationOptions class. The Eps rasterization options
 type: docs
-weight: 10180
+weight: 10190
 url: /net/aspose.imaging.imageoptions/epsrasterizationoptions/
 ---
 ## EpsRasterizationOptions class

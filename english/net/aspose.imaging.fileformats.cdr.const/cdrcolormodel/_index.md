@@ -3,7 +3,7 @@ title: Enum CdrColorModel
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Const.CdrColorModel enum. The cdr color models
 type: docs
-weight: 1470
+weight: 1480
 url: /net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/
 ---
 ## CdrColorModel enumeration

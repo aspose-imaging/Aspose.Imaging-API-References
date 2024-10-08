@@ -3,7 +3,7 @@ title: Enum EmfFamilyType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfFamilyType enum. The FamilyType enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2670
+weight: 2680
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emffamilytype/
 ---
 ## EmfFamilyType enumeration

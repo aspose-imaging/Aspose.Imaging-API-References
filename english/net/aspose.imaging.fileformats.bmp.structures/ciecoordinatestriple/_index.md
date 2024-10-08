@@ -3,7 +3,7 @@ title: Class CieCoordinatesTriple
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Bmp.Structures.CieCoordinatesTriple class. The class contains the xy and z coordinates of the three colors that correspond to the red green and blue endpoints for a specified logical color space
 type: docs
-weight: 1440
+weight: 1450
 url: /net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/
 ---
 ## CieCoordinatesTriple class

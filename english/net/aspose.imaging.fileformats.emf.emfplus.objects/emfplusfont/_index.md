@@ -3,7 +3,7 @@ title: Class EmfPlusFont
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusFont class. The EmfPlusFont object specifies properties that determine the appearance of text including typeface size and style
 type: docs
-weight: 5510
+weight: 5520
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/
 ---
 ## EmfPlusFont class

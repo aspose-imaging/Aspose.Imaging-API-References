@@ -3,7 +3,7 @@ title: Enum OdObjectKind
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Enums.OdObjectKind enum. The object kind
 type: docs
-weight: 6920
+weight: 6930
 url: /net/aspose.imaging.fileformats.opendocument.enums/odobjectkind/
 ---
 ## OdObjectKind enumeration
