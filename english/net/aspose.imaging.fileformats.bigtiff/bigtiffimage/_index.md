@@ -3,7 +3,7 @@ title: Class BigTiffImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.BigTiff.BigTiffImage class. With the BigTiffImage class you can effortlessly manipulate BigTiff image format files. Our API offering seamless handling and customization options ensuring optimal processing of largescale image data with versatile features tailored to your specific requirements
 type: docs
-weight: 1350
+weight: 1360
 url: /net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 ---
 ## BigTiffImage class

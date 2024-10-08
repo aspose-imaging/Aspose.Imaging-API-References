@@ -3,7 +3,7 @@ title: Class CdrOutline
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrOutline class. The cdr out line
 type: docs
-weight: 1690
+weight: 1700
 url: /net/aspose.imaging.fileformats.cdr.objects/cdroutline/
 ---
 ## CdrOutline class

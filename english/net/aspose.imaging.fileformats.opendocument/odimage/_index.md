@@ -3,7 +3,7 @@ title: Class OdImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.OdImage class. The open document
 type: docs
-weight: 7420
+weight: 7430
 url: /net/aspose.imaging.fileformats.opendocument/odimage/
 ---
 ## OdImage class

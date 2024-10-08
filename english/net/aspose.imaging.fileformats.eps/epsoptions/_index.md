@@ -3,7 +3,7 @@ title: Class EpsOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Eps.EpsOptions class. EPS options currently not used
 type: docs
-weight: 6630
+weight: 6640
 url: /net/aspose.imaging.fileformats.eps/epsoptions/
 ---
 ## EpsOptions class

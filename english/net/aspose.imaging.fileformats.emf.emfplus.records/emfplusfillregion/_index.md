@@ -3,7 +3,7 @@ title: Class EmfPlusFillRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion class. The EmfPlusFillRegion record specifies filling the interior of a graphics region
 type: docs
-weight: 6180
+weight: 6190
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion/
 ---
 ## EmfPlusFillRegion class

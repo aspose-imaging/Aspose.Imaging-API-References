@@ -3,7 +3,7 @@ title: Enum WmfFloodFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfFloodFillMode enum. The FloodFill Enumeration specifies the type of fill operation to be performed
 type: docs
-weight: 8290
+weight: 8300
 url: /net/aspose.imaging.fileformats.wmf.consts/wmffloodfillmode/
 ---
 ## WmfFloodFillMode enumeration

@@ -3,7 +3,7 @@ title: Class CmxImageFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles.CmxImageFill class. Image fill info
 type: docs
-weight: 2280
+weight: 2290
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/
 ---
 ## CmxImageFill class

@@ -3,7 +3,7 @@ title: Class EmfPlusDrawImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawImage class. The EmfPlusDrawImage record specifies drawing a scaled image
 type: docs
-weight: 6020
+weight: 6030
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/
 ---
 ## EmfPlusDrawImage class

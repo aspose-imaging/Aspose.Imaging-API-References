@@ -3,7 +3,7 @@ title: Class GaussianBlurFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions class. The Gaussian blur filter options
 type: docs
-weight: 9940
+weight: 9950
 url: /net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/
 ---
 ## GaussianBlurFilterOptions class

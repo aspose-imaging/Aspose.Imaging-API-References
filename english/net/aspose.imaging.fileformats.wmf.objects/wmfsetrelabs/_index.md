@@ -3,7 +3,7 @@ title: Class WmfSetRelabs
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetRelabs class. The META_SETRELABS record is reserved and not supported
 type: docs
-weight: 9250
+weight: 9260
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ---
 ## WmfSetRelabs class

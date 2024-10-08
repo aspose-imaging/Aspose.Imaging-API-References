@@ -3,7 +3,7 @@ title: Interface IColorPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IColorPalette interface. The color palette interface
 type: docs
-weight: 9570
+weight: 9580
 url: /net/aspose.imaging/icolorpalette/
 ---
 ## IColorPalette interface

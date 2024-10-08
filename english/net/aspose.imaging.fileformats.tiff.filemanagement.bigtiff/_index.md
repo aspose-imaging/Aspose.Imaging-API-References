@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tiff.FileManagement.BigTiff
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handling BigTiff file format processing
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/
 ---
 The namespace handling BigTiff file format processing.

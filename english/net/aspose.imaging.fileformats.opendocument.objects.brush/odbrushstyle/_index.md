@@ -3,7 +3,7 @@ title: Enum OdBrushStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Brush.OdBrushStyle enum. The brush styles
 type: docs
-weight: 6950
+weight: 6960
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle/
 ---
 ## OdBrushStyle enumeration

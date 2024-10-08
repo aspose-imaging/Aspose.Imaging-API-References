@@ -3,7 +3,7 @@ title: Class CmxColor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles.CmxColor class. Represents a color value
 type: docs
-weight: 2250
+weight: 2260
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/
 ---
 ## CmxColor class

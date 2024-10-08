@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Wmf.Objects
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSWMF Windows Metafile Format 2.2 WMF Objects
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.imaging.fileformats.wmf.objects/
 ---
 The `namespace` contains types [MS-WMF]: Windows Metafile Format 2.2 WMF Objects

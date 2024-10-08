@@ -3,7 +3,7 @@ title: Class EmfPlusSetInterpolationMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetInterpolationMode class. The EmfPlusSetInterpolationMode record specifies how image scaling including stretching and shrinking is performed
 type: docs
-weight: 6400
+weight: 6410
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode/
 ---
 ## EmfPlusSetInterpolationMode class

@@ -3,7 +3,7 @@ title: Class WmfSaveDc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSaveDc class. The META_SAVEDC record saves the playback device context for later retrieval
 type: docs
-weight: 9090
+weight: 9100
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsavedc/
 ---
 ## WmfSaveDc class

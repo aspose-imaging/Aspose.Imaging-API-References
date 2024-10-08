@@ -3,7 +3,7 @@ title: Class CdrGraphicObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrGraphicObject class. The cdr graphic object
 type: docs
-weight: 1630
+weight: 1640
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/
 ---
 ## CdrGraphicObject class

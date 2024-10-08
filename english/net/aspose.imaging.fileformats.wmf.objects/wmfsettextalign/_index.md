@@ -3,7 +3,7 @@ title: Class WmfSetTextAlign
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetTextAlign class. The Set text align
 type: docs
-weight: 9280
+weight: 9290
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 ---
 ## WmfSetTextAlign class

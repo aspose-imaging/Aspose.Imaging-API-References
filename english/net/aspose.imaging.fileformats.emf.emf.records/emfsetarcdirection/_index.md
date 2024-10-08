@@ -3,7 +3,7 @@ title: Class EmfSetArcDirection
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetArcDirection class. The EMR_SETARCDIRECTION record specifies the drawing direction to be used for arc and rectangle output
 type: docs
-weight: 4330
+weight: 4340
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
 ---
 ## EmfSetArcDirection class

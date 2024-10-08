@@ -3,7 +3,7 @@ title: Class XmpDate
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Basic.XmpDate class. Represents Date in XMP packet
 type: docs
-weight: 11900
+weight: 11910
 url: /net/aspose.imaging.xmp.types.basic/xmpdate/
 ---
 ## XmpDate class

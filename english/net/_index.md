@@ -25,6 +25,7 @@ is_root: true
 | [Aspose.Imaging.Exif.Enums](./aspose.imaging.exif.enums/) | The namespace contains EXIF enumerations. |
 | [Aspose.Imaging.Extensions](./aspose.imaging.extensions/) | The namespace contains extension methods. |
 | [Aspose.Imaging.FileFormats.Apng](./aspose.imaging.fileformats.apng/) | The namespace handles Apng file format processing. |
+| [Aspose.Imaging.FileFormats.Avif](./aspose.imaging.fileformats.avif/) | The namespace handling Avif file format processing. |
 | [Aspose.Imaging.FileFormats.BigTiff](./aspose.imaging.fileformats.bigtiff/) | The namespace handling BigTiff file format processing. |
 | [Aspose.Imaging.FileFormats.Bmp](./aspose.imaging.fileformats.bmp/) | The namespace handles Bmp file format processing. |
 | [Aspose.Imaging.FileFormats.Bmp.Structures](./aspose.imaging.fileformats.bmp.structures/) | The logical structures, used to support bitmap header. |

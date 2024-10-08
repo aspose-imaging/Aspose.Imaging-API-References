@@ -3,7 +3,7 @@ title: Class TiffFloatType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffFloatType class. The tiff float type
 type: docs
-weight: 8040
+weight: 8050
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype/
 ---
 ## TiffFloatType class

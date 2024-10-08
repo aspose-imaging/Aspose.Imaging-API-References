@@ -3,7 +3,7 @@ title: Class EmfBitmapRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfBitmapRecordType class. The bitmap record types perform block transfers of bitmap images
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfbitmaprecordtype/
 ---
 ## EmfBitmapRecordType class

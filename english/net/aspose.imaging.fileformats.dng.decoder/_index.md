@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Dng.Decoder
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains DNG decoder types
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.imaging.fileformats.dng.decoder/
 ---
 The namespace contains DNG decoder types

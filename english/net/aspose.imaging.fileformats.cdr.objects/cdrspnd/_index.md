@@ -3,7 +3,7 @@ title: Class CdrSpnd
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrSpnd class. The cdr span
 type: docs
-weight: 1780
+weight: 1790
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrspnd/
 ---
 ## CdrSpnd class

@@ -3,7 +3,7 @@ title: Class WebPFrameBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Webp.WebPFrameBlock class. Represents the webp blocks openers registry
 type: docs
-weight: 8190
+weight: 8200
 url: /net/aspose.imaging.fileformats.webp/webpframeblock/
 ---
 ## WebPFrameBlock class

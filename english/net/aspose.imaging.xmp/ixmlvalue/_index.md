@@ -3,7 +3,7 @@ title: Interface IXmlValue
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.IXmlValue interface. Converts xmp values to the XML string representation
 type: docs
-weight: 11690
+weight: 11700
 url: /net/aspose.imaging.xmp/ixmlvalue/
 ---
 ## IXmlValue interface

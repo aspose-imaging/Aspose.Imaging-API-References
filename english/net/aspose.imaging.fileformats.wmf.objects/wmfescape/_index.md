@@ -3,7 +3,7 @@ title: Class WmfEscape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfEscape class. The wmf escape object
 type: docs
-weight: 8760
+weight: 8770
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfescape/
 ---
 ## WmfEscape class

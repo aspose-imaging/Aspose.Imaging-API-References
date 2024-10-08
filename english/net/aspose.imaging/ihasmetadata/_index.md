@@ -3,7 +3,7 @@ title: Interface IHasMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IHasMetadata interface. Image metadata interface
 type: docs
-weight: 9580
+weight: 9590
 url: /net/aspose.imaging/ihasmetadata/
 ---
 ## IHasMetadata interface

@@ -3,7 +3,7 @@ title: Class RectangleShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shapes.RectangleShape class. Represents a rectangular shape
 type: docs
-weight: 11410
+weight: 11420
 url: /net/aspose.imaging.shapes/rectangleshape/
 ---
 ## RectangleShape class

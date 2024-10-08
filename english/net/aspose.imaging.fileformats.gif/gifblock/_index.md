@@ -3,7 +3,7 @@ title: Class GifBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.GifBlock class. The default gif block implementation
 type: docs
-weight: 6720
+weight: 6730
 url: /net/aspose.imaging.fileformats.gif/gifblock/
 ---
 ## GifBlock class

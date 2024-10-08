@@ -3,7 +3,7 @@ title: Enum WmfGamutMappingIntent
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfGamutMappingIntent enum. The GamutMappingIntent Enumeration specifies the relationship between logical and physical colors
 type: docs
-weight: 8310
+weight: 8320
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfgamutmappingintent/
 ---
 ## WmfGamutMappingIntent enumeration

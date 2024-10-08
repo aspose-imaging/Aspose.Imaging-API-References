@@ -3,7 +3,7 @@ title: Enum ImageFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilterType enum. Image filters to use
 type: docs
-weight: 9850
+weight: 9860
 url: /net/aspose.imaging/imagefiltertype/
 ---
 ## ImageFilterType enumeration

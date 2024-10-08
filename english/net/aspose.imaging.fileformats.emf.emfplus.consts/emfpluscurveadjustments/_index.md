@@ -3,7 +3,7 @@ title: Enum EmfPlusCurveAdjustments
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusCurveAdjustments enum. The CurveAdjustments enumeration defines adjustments that can be applied to the color curve of an image
 type: docs
-weight: 4800
+weight: 4810
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurveadjustments/
 ---
 ## EmfPlusCurveAdjustments enumeration

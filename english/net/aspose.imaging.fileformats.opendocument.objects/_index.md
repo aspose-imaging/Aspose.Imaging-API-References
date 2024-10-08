@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.OpenDocument.Objects
 second_title: Aspose.Imaging for .NET API Reference
 description: The Open document objects
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.imaging.fileformats.opendocument.objects/
 ---
 The Open document objects

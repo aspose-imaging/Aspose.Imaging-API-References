@@ -3,7 +3,7 @@ title: Enum TileOffsetTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.TileOffsetTypes enum. Offset types between tiles for texture brushes
 type: docs
-weight: 2120
+weight: 2130
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/tileoffsettypes/
 ---
 ## TileOffsetTypes enumeration

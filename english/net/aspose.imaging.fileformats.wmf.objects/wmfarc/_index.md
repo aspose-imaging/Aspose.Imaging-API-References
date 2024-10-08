@@ -3,7 +3,7 @@ title: Class WmfArc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfArc class. The META_ARC record draws an elliptical arc
 type: docs
-weight: 8540
+weight: 8550
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfarc/
 ---
 ## WmfArc class

@@ -3,7 +3,7 @@ title: Aspose.Imaging.Watermark.Options
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Watermark options processing
 type: docs
-weight: 970
+weight: 980
 url: /net/aspose.imaging.watermark.options/
 ---
 The namespace handles Watermark options processing.

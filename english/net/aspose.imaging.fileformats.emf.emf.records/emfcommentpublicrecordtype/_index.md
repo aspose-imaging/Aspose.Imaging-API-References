@@ -3,7 +3,7 @@ title: Class EmfCommentPublicRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentPublicRecordType class. The EMR_COMMENT_PUBLIC record types specify extensions to EMF processing
 type: docs
-weight: 3450
+weight: 3460
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/
 ---
 ## EmfCommentPublicRecordType class
