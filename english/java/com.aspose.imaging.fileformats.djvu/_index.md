@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.djvu
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains djvu classes
 type: docs
-weight: 41
+weight: 42
 url: /java/com.aspose.imaging.fileformats.djvu/
 ---
 

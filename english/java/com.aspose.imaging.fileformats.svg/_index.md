@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.svg
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles SVG file format processing.
 type: docs
-weight: 71
+weight: 72
 url: /java/com.aspose.imaging.fileformats.svg/
 ---
 

@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.emf
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains types MS-EMF MS-EMFPLUS
 type: docs
-weight: 44
+weight: 45
 url: /java/com.aspose.imaging.fileformats.emf/
 ---
 

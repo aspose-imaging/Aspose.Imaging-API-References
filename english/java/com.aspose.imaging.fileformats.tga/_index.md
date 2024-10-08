@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tga
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Tga file format processing.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.imaging.fileformats.tga/
 ---
 

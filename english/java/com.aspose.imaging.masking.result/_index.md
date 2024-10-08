@@ -3,7 +3,7 @@ title: com.aspose.imaging.masking.result
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles ImageMasking.Result processing.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.imaging.masking.result/
 ---
 
