@@ -1,7 +1,7 @@
 ---
 title: PsdVectorizationOptions Class
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.imaging.imageoptions/psdvectorizationoptions/
 ---
 

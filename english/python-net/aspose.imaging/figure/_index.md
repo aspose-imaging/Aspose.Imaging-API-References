@@ -1,7 +1,7 @@
 ---
 title: Figure Class
 type: docs
-weight: 4730
+weight: 4740
 url: /python-net/aspose.imaging/figure/
 ---
 

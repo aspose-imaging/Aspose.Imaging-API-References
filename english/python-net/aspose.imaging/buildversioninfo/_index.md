@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo Class
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.imaging/buildversioninfo/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: FileFormat Enumeration
 type: docs
-weight: 10430
+weight: 10450
 url: /python-net/aspose.imaging/fileformat/
 ---
 
@@ -15,6 +15,7 @@ One of supported imaging file formats.
 | **Member name** | **Description** |
 | :- | :- |
 | APNG | The animated Png file format. |
+| AVIF | The AVIF file format. |
 | BIG_TIFF | The Big Tiff format. |
 | BMP | Bmp (Dib) file format. |
 | CDR | The CDR file format |

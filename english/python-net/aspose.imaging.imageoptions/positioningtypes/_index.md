@@ -1,7 +1,7 @@
 ---
 title: PositioningTypes Enumeration
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.imaging.imageoptions/positioningtypes/
 ---
 

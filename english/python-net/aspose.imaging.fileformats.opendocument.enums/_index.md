@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.opendocument.enums
 type: docs
-weight: 530
+weight: 540
 url: /python-net/aspose.imaging.fileformats.opendocument.enums/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.core.vectorpaths
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.imaging.fileformats.core.vectorpaths/
 ---
 

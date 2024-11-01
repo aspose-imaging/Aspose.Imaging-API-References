@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.imagefilters.convolution
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.imaging.imagefilters.convolution/
 ---
 

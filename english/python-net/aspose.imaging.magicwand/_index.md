@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.magicwand
 type: docs
-weight: 850
+weight: 860
 url: /python-net/aspose.imaging.magicwand/
 ---
 

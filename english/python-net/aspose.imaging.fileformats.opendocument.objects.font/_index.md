@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.opendocument.objects.font
 type: docs
-weight: 560
+weight: 570
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.font/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.tiff.tifftagtypes
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/
 ---
 

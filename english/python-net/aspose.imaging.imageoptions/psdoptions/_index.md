@@ -1,7 +1,7 @@
 ---
 title: PsdOptions Class
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.imaging.imageoptions/psdoptions/
 ---
 

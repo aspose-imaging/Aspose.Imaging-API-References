@@ -1,7 +1,7 @@
 ---
 title: RdOptimizerSettings Class
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.imaging.imageoptions/rdoptimizersettings/
 ---
 

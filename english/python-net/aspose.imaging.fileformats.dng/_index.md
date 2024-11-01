@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.dng
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.imaging.fileformats.dng/
 ---
 

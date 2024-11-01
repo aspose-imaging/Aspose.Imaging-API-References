@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.imageoptions
 type: docs
-weight: 830
+weight: 840
 url: /python-net/aspose.imaging.imageoptions/
 ---
 
@@ -30,6 +30,7 @@ The module contains classes suitable for export, save or creation of different f
 | [MetafileOptions](/imaging/python-net/aspose.imaging.imageoptions/metafileoptions/) | The Metafiles base options. |
 | [MetafileRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/metafilerasterizationoptions/) | The metafile rasterization options |
 | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | Base class for multiple pages supported formats |
+| [MultipageCreateOptions](/imaging/python-net/aspose.imaging.imageoptions/multipagecreateoptions/) | The multipage create options |
 | [OdRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/odrasterizationoptions/) | The Od rasterization options |
 | [OdgRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/odgrasterizationoptions/) | The Odg rasterization options |
 | [OtgRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/otgrasterizationoptions/) | The Otg rasterization options |

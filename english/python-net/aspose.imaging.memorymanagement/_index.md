@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.memorymanagement
 type: docs
-weight: 900
+weight: 910
 url: /python-net/aspose.imaging.memorymanagement/
 ---
 

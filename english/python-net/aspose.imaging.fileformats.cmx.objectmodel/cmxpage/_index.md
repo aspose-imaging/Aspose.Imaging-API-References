@@ -11,6 +11,8 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxPage
 
+**Inheritance:** DisposableObject
+
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
@@ -19,6 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | flags | uint | r/w | Gets or sets the flags. |
 | height | float | r/w | Gets or sets the page height. |
 | layers | list[CmxPage] | r | Gets the page layers. |

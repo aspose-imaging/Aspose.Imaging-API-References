@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.wmf.objects.escaperecords
 type: docs
-weight: 770
+weight: 780
 url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/
 ---
 

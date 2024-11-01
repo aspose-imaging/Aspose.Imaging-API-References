@@ -1,7 +1,7 @@
 ---
 title: MultiPageMode Enumeration
 type: docs
-weight: 380
+weight: 390
 url: /python-net/aspose.imaging.imageoptions/multipagemode/
 ---
 

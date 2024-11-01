@@ -1,7 +1,7 @@
 ---
 title: PdfOptions Class
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.imaging.imageoptions/pdfoptions/
 ---
 

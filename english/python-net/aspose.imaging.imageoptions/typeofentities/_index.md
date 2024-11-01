@@ -1,7 +1,7 @@
 ---
 title: TypeOfEntities Enumeration
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.imaging.imageoptions/typeofentities/
 ---
 

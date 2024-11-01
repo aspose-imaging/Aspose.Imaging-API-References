@@ -25,13 +25,13 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | color_type | [PngColorType](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) | r/w | Gets or sets the type of the color. |
 | compression_level | int | r/w | Gets or sets the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) compression level in the range of 0-9. The higher the value - the more efficient the compression. |
-| default_frame_time | uint | r/w | Gets or sets the default frame duration. |
+| [default_frame_time](#default_frame_time1) | uint | r/w | Gets or sets the default frame duration. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | filter_type | [PngFilterType](/imaging/python-net/aspose.imaging.fileformats.png/pngfiltertype/) | r/w | Gets or sets the filter type used during png file save process. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| num_plays | int | r/w | Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping. |
+| [num_plays](#num_plays2) | int | r/w | Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | progressive | bool | r/w | Gets or sets a value indicating whether a [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) is progressive. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
@@ -53,6 +53,24 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 
 Initializes a new instance of the [ApngOptions](/imaging/python-net/aspose.imaging.imageoptions/apngoptions/) class.
 
+### Property: default_frame_time {#default_frame_time1}
+
+Gets or sets the default frame duration.
+
+**See also:**
+
+**[Example # 1](#example_144)**: The following example shows how to export apng APNG file format from other no...
+
+
+### Property: num_plays {#num_plays2}
+
+Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping.
+
+**See also:**
+
+**[Example # 1](#example_143)**: The following example shows how to export to APNG file format.
+
+
 ### Method: clone() {#clone__1}
 
 
@@ -68,4 +86,44 @@ Clones this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
 
+
+## **Examples**
+### The following example shows how to export to APNG file format. {#example_143}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import *
+from aspose.imaging.imageoptions import *
+
+with Image.load("Animation1.webp") as image:
+	# Export to APNG animation with unlimited animation cycles as default
+	image.save("Animation1.webp.png", ApngOptions())
+	# Setting up animation cycles
+	obj_init = ApngOptions()
+	# 5 cycles
+	obj_init.num_plays = 5
+	image.save("Animation2.webp.png", obj_init)
+
+
+```
+
+### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_144}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import ApngOptions
+
+with Image.load("img4.tif") as image:
+	# Setting up the default frame duration
+	obj_init = ApngOptions()
+	# 500 ms
+	obj_init.default_frame_time = 500
+	image.save("img4.tif.500ms.png", obj_init)
+	obj_init2 = ApngOptions()
+	# 250 ms
+	obj_init2.default_frame_time = 250
+	image.save("img4.tif.250ms.png", obj_init2)
+
+
+```
 

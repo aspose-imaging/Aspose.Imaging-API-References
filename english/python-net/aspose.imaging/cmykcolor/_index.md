@@ -1,7 +1,7 @@
 ---
 title: CmykColor Class
 type: docs
-weight: 1090
+weight: 1100
 url: /python-net/aspose.imaging/cmykcolor/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.cmx.objectmodel.specs
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/
 ---
 

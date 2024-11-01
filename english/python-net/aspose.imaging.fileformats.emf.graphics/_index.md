@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.emf.graphics
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.imaging.fileformats.emf.graphics/
 ---
 

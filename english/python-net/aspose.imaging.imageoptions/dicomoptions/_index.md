@@ -53,7 +53,9 @@ Gets or sets the type of the color.
 
 **See also:**
 
-**[Example # 1](#example_112)**: Change the color type in DICOM compression.
+**[Example # 1](#example_155)**: Use RLE compression in DICOM image.
+
+**[Example # 2](#example_156)**: Change the color type in DICOM compression.
 
 
 ### Property: compression {#compression2}
@@ -62,7 +64,9 @@ Gets or sets the compression.
 
 **See also:**
 
-**[Example # 1](#example_112)**: Change the color type in DICOM compression.
+**[Example # 1](#example_155)**: Use RLE compression in DICOM image.
+
+**[Example # 2](#example_156)**: Change the color type in DICOM compression.
 
 
 ### Method: clone() {#clone__1}
@@ -105,7 +109,25 @@ with Image.load(inputFileNameMultipage) as image_multiple:
 
 ```
 
-### Change the color type in DICOM compression. {#example_112}
+### Use RLE compression in DICOM image. {#example_155}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.fileformats.dicom import Compression, CompressionType, ColorType
+from aspose.imaging.imageoptions import DicomOptions
+
+with Image.load("original.jpg") as input_image:
+	compr = Compression()
+	compr.type_ = CompressionType.RLE
+	options = DicomOptions()
+	options.color_type = ColorType.RGB_24_BIT
+	options.compression = compr
+	input_image.save("original_RLE.dcm", options)
+
+
+```
+
+### Change the color type in DICOM compression. {#example_156}
 ``` python
 
 from aspose.imaging import Image

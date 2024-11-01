@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.masking.options
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.imaging.masking.options/
 ---
 

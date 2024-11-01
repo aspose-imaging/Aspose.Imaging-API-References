@@ -1,7 +1,7 @@
 ---
 title: TgaOptions Class
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.imaging.imageoptions/tgaoptions/
 ---
 
@@ -49,7 +49,7 @@ Initializes a new instance of the [TgaOptions](/imaging/python-net/aspose.imagin
 
 **See also:**
 
-**[Example # 1](#example_113)**: Saving of the JPG image as a TGA image.
+**[Example # 1](#example_157)**: Saving of the JPG image as a TGA image.
 
 
 ### Constructor: TgaOptions(tga_options) {#TgaOptions_tga_options_2}
@@ -84,7 +84,7 @@ Clones this instance.
 
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_113}
+### Saving of the JPG image as a TGA image. {#example_157}
 ``` python
 
 from aspose.imaging import Image
