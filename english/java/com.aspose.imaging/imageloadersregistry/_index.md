@@ -52,7 +52,7 @@ Value: The registered descriptors.
 com.aspose.imaging.IImageLoaderDescriptor[]
 ### register(IImageLoaderDescriptor imageLoaderDescriptor) {#register-com.aspose.imaging.IImageLoaderDescriptor-}
 ```
-public static void register(IImageLoaderDescriptor imageLoaderDescriptor)
+public static synchronized void register(IImageLoaderDescriptor imageLoaderDescriptor)
 ```
 
 
@@ -148,7 +148,7 @@ Registers the loader.
 
 ### unregisterLoader(IImageLoaderDescriptor loaderDescriptor) {#unregisterLoader-com.aspose.imaging.IImageLoaderDescriptor-}
 ```
-public static void unregisterLoader(IImageLoaderDescriptor loaderDescriptor)
+public static synchronized void unregisterLoader(IImageLoaderDescriptor loaderDescriptor)
 ```
 
 

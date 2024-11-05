@@ -3,7 +3,7 @@ title: OdgImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: OdgImage method. This versatile method apply various transformations to images including rotation and flipping to achieve desired orientations and visual effects. With intuitive parameters you can specify the degree of rotation and the type of flipping horizontal vertical or both to precisely manipulate the image as needed
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.imaging.fileformats.opendocument/odgimage/rotateflip/
 ---
 ## OdgImage.RotateFlip method

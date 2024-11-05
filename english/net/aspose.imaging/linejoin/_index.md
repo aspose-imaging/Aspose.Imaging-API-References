@@ -3,7 +3,7 @@ title: Enum LineJoin
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.LineJoin enum. Specifies how to join consecutive line or curve segments in a figure subpath contained in a GraphicsPath object
 type: docs
-weight: 10600
+weight: 10630
 url: /net/aspose.imaging/linejoin/
 ---
 ## LineJoin enumeration

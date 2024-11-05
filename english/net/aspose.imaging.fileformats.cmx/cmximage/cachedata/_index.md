@@ -3,7 +3,7 @@ title: CmxImage.CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImage method. Cache the data to prevent additional loading from the underlying source DataStreamContainer with this convenient method. Ideal for developers seeking to optimize performance by preloading data ensuring faster access and smoother operation in their applications
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.cmx/cmximage/cachedata/
 ---
 ## CmxImage.CacheData method

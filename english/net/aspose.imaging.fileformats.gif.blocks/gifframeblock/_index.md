@@ -1,12 +1,14 @@
 ---
 title: Class GifFrameBlock
 second_title: Aspose.Imaging for .NET API Reference
-description: Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock class. Gif frame block
+description: Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock class. GIF frame class
 type: docs
 weight: 6680
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/
 ---
 ## GifFrameBlock class
+
+GIF frame class.
 
 Gif frame block.
 
@@ -137,7 +139,7 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/)(Color) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
 | override [ReplaceNonTransparentColors](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/replacenontransparentcolors/#replacenontransparentcolors_1)(int) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
-| override [Resize](../../aspose.imaging/rastercachedimage/resize/)(int, int, ImageResizeSettings) | Resizes the image. |
+| override [Resize](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes this [`RasterCachedImage`](../../aspose.imaging/rastercachedimage/) instance. |
 | override [Resize](../../aspose.imaging/rastercachedimage/resize/)(int, int, ResizeType) | Resizes the image. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |

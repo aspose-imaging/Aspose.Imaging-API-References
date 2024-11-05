@@ -3,7 +3,7 @@ title: DicomImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Adjust the size of the image with this straightforward method. Ideal for developers looking to dynamically resize images ensuring they fit seamlessly into various contexts and layouts within their applications
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

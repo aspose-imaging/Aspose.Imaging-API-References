@@ -3,7 +3,7 @@ title: VectorRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The vector rasterization options.
 type: docs
-weight: 50
+weight: 51
 url: /java/com.aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 **Inheritance:**

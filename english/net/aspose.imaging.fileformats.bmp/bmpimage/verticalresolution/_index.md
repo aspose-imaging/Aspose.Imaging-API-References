@@ -3,7 +3,7 @@ title: BmpImage.VerticalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage property. Easily retrieve or set the vertical resolution measured in pixels per inch of this RasterImage object with this property. Perfect for developers requiring precise control over image resolution in their applications
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/verticalresolution/
 ---
 ## BmpImage.VerticalResolution property

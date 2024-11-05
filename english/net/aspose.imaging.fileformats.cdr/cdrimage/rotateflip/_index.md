@@ -3,7 +3,7 @@ title: CdrImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImage method. Adjust the orientation of the image by rotating flipping or applying both operations with this versatile method. Perfect for developers seeking to customize image orientation dynamically ensuring optimal presentation or alignment in their applications
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.cdr/cdrimage/rotateflip/
 ---
 ## CdrImage.RotateFlip method

@@ -7,7 +7,7 @@ weight: 16
 url: /java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxProcedure extends CmxContainer
 ```

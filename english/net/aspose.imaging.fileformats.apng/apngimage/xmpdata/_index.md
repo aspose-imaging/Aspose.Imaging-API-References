@@ -3,7 +3,7 @@ title: ApngImage.XmpData
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage property. Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.fileformats.apng/apngimage/xmpdata/
 ---
 ## ApngImage.XmpData property

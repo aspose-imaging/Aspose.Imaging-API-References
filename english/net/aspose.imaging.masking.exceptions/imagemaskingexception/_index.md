@@ -3,7 +3,7 @@ title: Class ImageMaskingException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Exceptions.ImageMaskingException class. The exceptions which specified for image masking system
 type: docs
-weight: 10780
+weight: 10810
 url: /net/aspose.imaging.masking.exceptions/imagemaskingexception/
 ---
 ## ImageMaskingException class

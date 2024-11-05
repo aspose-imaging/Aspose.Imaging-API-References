@@ -12,7 +12,9 @@ The namespace contains classes suitable for export, save or creation of differen
 
 | Class | Description |
 | --- | --- |
+| [AfterPageExportAction](./afterpageexportaction/) | After page export action |
 | [ApngOptions](./apngoptions/) | The API for Animated PNG (Animated Portable Network Graphics) image file format creation is a dynamic tool for developers seeking to generate captivating animated images. With customizable options such as frame duration and the number of times to loop, this API allows for fine-tuning animated content according to specific needs. Whether creating engaging web graphics or interactive visuals, you can leverage this API to seamlessly incorporate APNG images with precise control over animation parameters. |
+| [BeforePageExportAction](./beforepageexportaction/) | Before page export action |
 | [BigTiffOptions](./bigtiffoptions/) | The API for BigTIFF raster image format creation is specifically designed to serve to the unique requirements of applications utilizing large-scale imaging data from scanners. This API facilitates the seamless generation of BigTIFF format, which combines multiple TIFF images into a single, comprehensive image. It ensures efficient processing of extensive image data, providing developers with a powerful tool for creating and manipulating high-resolution, multi-image formats. |
 | [BmpOptions](./bmpoptions/) | The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap (BMP) and Device Independent Bitmap (DIB) images. With this API, you can precisely define image characteristics such as bits per pixel, compression level and compression type, tailoring the output to meet specific requirements. This feature-rich API empowers developers to create high-quality, customized raster images with ease and flexibility for diverse applications. |
 | [CdrRasterizationOptions](./cdrrasterizationoptions/) | With the ability to perform CDR image rasterization and set scale factors for both X and Y dimensions, this API provides precise control over the transformation process. Whether scaling for specific output requirements or converting vector graphics to raster formats, you can leverage this API for efficient and customizable CDR vector to raster image conversion. |
@@ -30,6 +32,7 @@ The namespace contains classes suitable for export, save or creation of differen
 | [JpegOptions](./jpegoptions/) | Create high-quality JPEG images effortlessly with our API, offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types, near lossless coding, RGB and CMYK color profiles, as well as EXIF, JFIF image data, and XMP containers, ensuring versatile and customizable options for your image creation needs. |
 | [MetafileOptions](./metafileoptions/) | The Metafiles base options. |
 | [MetafileRasterizationOptions](./metafilerasterizationoptions/) | The metafile rasterization options |
+| [MultipageCreateOptions](./multipagecreateoptions/) | The multipage create options |
 | [MultiPageOptions](./multipageoptions/) | Base class for multiple pages supported formats |
 | [OdgRasterizationOptions](./odgrasterizationoptions/) | The Odg rasterization options |
 | [OdRasterizationOptions](./odrasterizationoptions/) | The Od rasterization options |

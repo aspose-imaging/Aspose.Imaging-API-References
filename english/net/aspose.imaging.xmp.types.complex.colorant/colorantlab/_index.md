@@ -3,7 +3,7 @@ title: Class ColorantLab
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.Colorant.ColorantLab class. Represents LAB Colorant
 type: docs
-weight: 11990
+weight: 12020
 url: /net/aspose.imaging.xmp.types.complex.colorant/colorantlab/
 ---
 ## ColorantLab class

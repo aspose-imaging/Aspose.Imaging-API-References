@@ -3,7 +3,7 @@ title: Class XmpArray
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpArray class. Represents Xmp Array in XmpPackage. TODO Array may contain complex data
 type: docs
-weight: 12170
+weight: 12200
 url: /net/aspose.imaging.xmp/xmparray/
 ---
 ## XmpArray class

@@ -3,7 +3,7 @@ title: CmxImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImage method. Customize the color palette of the image with this intuitive method. Ideal for developers seeking to apply specific color schemes or adjustments dynamically ensuring precise control over the visual appearance of their images
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.imaging.fileformats.cmx/cmximage/setpalette/
 ---
 ## CmxImage.SetPalette method

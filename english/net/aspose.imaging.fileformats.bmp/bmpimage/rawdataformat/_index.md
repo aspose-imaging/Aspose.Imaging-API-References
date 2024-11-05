@@ -3,7 +3,7 @@ title: BmpImage.RawDataFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage property. Easily obtain the format of your raw data with this userfriendly function. Perfect for developers looking to quickly access crucial information about their data format
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/rawdataformat/
 ---
 ## BmpImage.RawDataFormat property

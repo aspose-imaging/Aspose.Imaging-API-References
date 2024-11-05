@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.imaging/image/create/
 ---
-## Create(ImageOptionsBase, int, int) {#create}
+## Create(ImageOptionsBase, int, int) {#create_1}
 
 Creates a new image using the specified create options.
 
@@ -58,7 +58,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ---
 
-## Create(Image[]) {#create_1}
+## Create(Image[]) {#create_2}
 
 Creates a new image using the specified images as pages
 
@@ -82,7 +82,81 @@ The Image as IMultipageImage
 
 ---
 
-## Create(Image[], bool) {#create_2}
+## Create(MultipageCreateOptions) {#create}
+
+Creates the specified multipage create options.
+
+```csharp
+public static Image Create(MultipageCreateOptions multipageCreateOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| multipageCreateOptions | MultipageCreateOptions | The multipage create options. |
+
+### Return Value
+
+The multipage image
+
+### See Also
+
+* class [MultipageCreateOptions](../../../aspose.imaging.imageoptions/multipagecreateoptions/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Create(string[], bool) {#create_5}
+
+Creates the specified files.
+
+```csharp
+public static Image Create(string[] files, bool throwExceptionOnLoadError)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| files | String[] | The files. |
+| throwExceptionOnLoadError | Boolean | if set to `true` [throw exception on load error]. |
+
+### Return Value
+
+The multipage image
+
+### See Also
+
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Create(string[]) {#create_4}
+
+Creates the specified files.
+
+```csharp
+public static Image Create(string[] files)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| files | String[] | The files. |
+
+### Return Value
+
+The multipage image
+
+### See Also
+
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Create(Image[], bool) {#create_3}
 
 Creates a new image the specified images as pages.
 

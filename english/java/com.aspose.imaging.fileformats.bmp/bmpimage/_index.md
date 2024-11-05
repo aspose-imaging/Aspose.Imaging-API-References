@@ -42,6 +42,7 @@ You can effortlessly handle Bitmap (BMP) and Device Independent Bitmap (DIB) fil
 | [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [RasterImage](../../com.aspose.imaging/rasterimage) object. |
 | [getVerticalResolution()](#getVerticalResolution--) | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. |
+| [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Adjust the resolution of your [RasterImage](../../com.aspose.imaging/rasterimage) effortlessly with this user-friendly method. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
 
@@ -957,6 +958,16 @@ Easily retrieve or set the vertical resolution, measured in pixels per inch, of 
 
 Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call. |
 
+### hasAlpha() {#hasAlpha--}
+```
+public boolean hasAlpha()
+```
+
+
+Gets a value indicating whether this instance has alpha.
+
+**Returns:**
+boolean - a value indicating whether this instance has alpha.
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```
 public void setResolution(double dpiX, double dpiY)

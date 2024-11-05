@@ -3,7 +3,7 @@ title: OdgImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: OdgImage method. This method helps developers to resize images programmatically. By invoking this function you can dynamically adjust the dimensions of images catering to specific requirements or constraints within their applications
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.imaging.fileformats.opendocument/odgimage/resize/
 ---
 ## Resize(int, int, ImageResizeSettings) {#resize_1}

@@ -3,7 +3,7 @@ title: OdgRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Odg rasterization options
 type: docs
-weight: 32
+weight: 33
 url: /java/com.aspose.imaging.imageoptions/odgrasterizationoptions/
 ---
 **Inheritance:**

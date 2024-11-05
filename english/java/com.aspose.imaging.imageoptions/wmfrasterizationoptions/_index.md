@@ -3,7 +3,7 @@ title: WmfRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Wmf rasterization options.
 type: docs
-weight: 53
+weight: 54
 url: /java/com.aspose.imaging.imageoptions/wmfrasterizationoptions/
 ---
 **Inheritance:**

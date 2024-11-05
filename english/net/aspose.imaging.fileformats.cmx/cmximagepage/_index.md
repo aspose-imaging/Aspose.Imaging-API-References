@@ -18,7 +18,8 @@ public class CmxImagePage : VectorImage, ICmxImage
 
 | Name | Description |
 | --- | --- |
-| [CmxImagePage](cmximagepage/)(CmxPage) | Initializes a new instance of the `CmxImagePage` class. |
+| [CmxImagePage](cmximagepage/#constructor)(CmxPage) | Initializes a new instance of the `CmxImagePage` class. |
+| [CmxImagePage](cmximagepage/#constructor_1)(CmxPage, Image) | Initializes a new instance of the `CmxImagePage` class. |
 
 ## Properties
 

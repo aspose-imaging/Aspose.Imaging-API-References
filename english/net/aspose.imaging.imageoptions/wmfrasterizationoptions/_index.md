@@ -3,7 +3,7 @@ title: Class WmfRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.WmfRasterizationOptions class. The Wmf rasterization options
 type: docs
-weight: 10510
+weight: 10540
 url: /net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 ---
 ## WmfRasterizationOptions class

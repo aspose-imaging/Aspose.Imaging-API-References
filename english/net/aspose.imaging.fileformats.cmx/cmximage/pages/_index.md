@@ -3,7 +3,7 @@ title: CmxImage.Pages
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImage property. Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multipage images ensuring efficient navigation and processing
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.cmx/cmximage/pages/
 ---
 ## CmxImage.Pages property

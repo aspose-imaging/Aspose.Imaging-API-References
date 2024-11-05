@@ -43,7 +43,7 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 | [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
 | [getPages()](#getPages--) | Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. |
 | [hasAlpha()](#hasAlpha--) | Determine whether the image has an alpha channel, providing crucial information for rendering and compositing operations. |
-| [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to ``. |
+| [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`. |
 | [getOriginalOptions()](#getOriginalOptions--) | Retrieve options derived from the original file settings, facilitating seamless preservation of key parameters such as bit-depth and other essential attributes of the original image. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Incorporate a new page into the existing image seamlessly, expanding its content and versatility. |
 | [alignResolutions()](#alignResolutions--) | Implement the AlignResolutions helper method to synchronize horizontal and vertical resolutions, ensuring uniformity in image dimensions. |
@@ -661,7 +661,7 @@ public void removeMetadata()
 ```
 
 
-Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to ``.
+Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`.
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```

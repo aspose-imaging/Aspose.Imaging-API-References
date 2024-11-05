@@ -3,7 +3,7 @@ title: Class RectangleMask
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ImageMasks.RectangleMask class. Describes a rectangle mask
 type: docs
-weight: 10730
+weight: 10760
 url: /net/aspose.imaging.magicwand.imagemasks/rectanglemask/
 ---
 ## RectangleMask class

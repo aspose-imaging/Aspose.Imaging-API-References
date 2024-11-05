@@ -3,7 +3,7 @@ title: WebPImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Apply rotation flipping or both operations exclusively to the active frame within the image. Integrate this method into your image processing workflow to achieve precise manipulation of individual frames enhancing flexibility and control over frame transformations within your application
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.imaging.fileformats.webp/webpimage/rotateflip/
 ---
 ## WebPImage.RotateFlip method

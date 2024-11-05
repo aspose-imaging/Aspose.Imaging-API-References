@@ -3,7 +3,7 @@ title: CdrImage.Width
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImage property. Retrieve the width of the image seamlessly with this intuitive property. Ideal for developers seeking to access the dimensions of their images dynamically ensuring precise layout and rendering in their applications
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.cdr/cdrimage/width/
 ---
 ## CdrImage.Width property

@@ -3,7 +3,7 @@ title: Class AdjustPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PaletteHelper.AdjustPalette class. Color palette adjustment class
 type: docs
-weight: 11040
+weight: 11070
 url: /net/aspose.imaging.palettehelper/adjustpalette/
 ---
 ## AdjustPalette class

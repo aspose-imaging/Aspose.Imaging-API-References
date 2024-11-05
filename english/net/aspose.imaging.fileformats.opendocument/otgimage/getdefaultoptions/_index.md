@@ -3,7 +3,7 @@ title: OtgImage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: OtgImage method. Retrieves the default options configured for the image providing a convenient way to access and modify the default settings. This property ensures consistency in operations by offering predefined settings that align with common use cases simplifying the development process
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.opendocument/otgimage/getdefaultoptions/
 ---
 ## OtgImage.GetDefaultOptions method

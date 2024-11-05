@@ -7,7 +7,7 @@ weight: 13
 url: /java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxLayer extends CmxContainer
 ```

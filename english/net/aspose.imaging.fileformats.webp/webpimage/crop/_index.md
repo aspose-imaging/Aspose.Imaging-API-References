@@ -3,7 +3,7 @@ title: WebPImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Crop the image using a specified rectangle region removing unwanted portions while retaining the desired content. Integrate this method into your image processing workflow to precisely extract and focus on specific areas of interest within the image enhancing clarity and composition for various applications
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.imaging.fileformats.webp/webpimage/crop/
 ---
 ## Crop(Rectangle) {#crop}

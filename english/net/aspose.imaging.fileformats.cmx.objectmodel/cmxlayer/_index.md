@@ -24,6 +24,7 @@ public class CmxLayer : CmxContainer
 
 | Name | Description |
 | --- | --- |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements/) { get; } | Gets the elements. |
 | [Flags](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/flags/) { get; set; } | Gets or sets the flags. |
 | [IsVisible](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/isvisible/) { get; set; } | Gets or sets a value indicating whether this layer is visible. |
@@ -34,6 +35,7 @@ public class CmxLayer : CmxContainer
 
 | Name | Description |
 | --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/equals/)(object) | Check if objects are equal. |
 | override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/gethashcode/)() | Get hash code of the current object. |
 

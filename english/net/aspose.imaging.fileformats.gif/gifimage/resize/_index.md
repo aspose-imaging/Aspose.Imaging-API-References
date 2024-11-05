@@ -1,14 +1,14 @@
 ---
 title: GifImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
-description: GifImage method. Modify the size of the image while maintaining its aspect ratio and visual quality. This function allows for easy adjustment of the image dimensions to suit specific display or storage needs ensuring optimal presentation without distortion or loss of detail
+description: GifImage method. Resizes this Image instance
 type: docs
-weight: 380
+weight: 370
 url: /net/aspose.imaging.fileformats.gif/gifimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}
 
-Modify the size of the image while maintaining its aspect ratio and visual quality. This function allows for easy adjustment of the image dimensions to suit specific display or storage needs, ensuring optimal presentation without distortion or loss of detail.
+Resizes this [`Image`](../../../aspose.imaging/image/) instance.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
@@ -69,7 +69,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileForma
 
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-Resize the width and height of the image while maintaining its aspect ratio and applying additional settings as specified. This method ensures that the image dimensions are adjusted proportionally, preserving the overall visual quality and appearance according to the provided settings.
+Resizes this [`Image`](../../../aspose.imaging/image/) instance.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -79,7 +79,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 | --- | --- | --- |
 | newWidth | Int32 | The new width. |
 | newHeight | Int32 | The new height. |
-| settings | ImageResizeSettings | The resize settings. |
+| settings | ImageResizeSettings | The settings. |
 
 ## Examples
 

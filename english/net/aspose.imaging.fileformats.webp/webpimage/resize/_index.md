@@ -3,7 +3,7 @@ title: WebPImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Resize the image adjusting its dimensions while preserving the aspect ratio. Integrate this method into your image processing workflow to dynamically scale images to fit various display or storage requirements within your application
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.imaging.fileformats.webp/webpimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

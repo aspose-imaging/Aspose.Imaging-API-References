@@ -3,7 +3,7 @@ title: DicomImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Enhance the current image by applying dithering effects with this straightforward method. Perfect for developers aiming to add texture and depth to images improving their visual quality and overall appeal
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/dither/
 ---
 ## DicomImage.Dither method

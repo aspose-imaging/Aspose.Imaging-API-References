@@ -40,9 +40,12 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 
 | Name | Description |
 | --- | --- |
-| static [Create](../../aspose.imaging/image/create/#create_1)(Image[]) | Creates a new image using the specified images as pages |
-| static [Create](../../aspose.imaging/image/create/#create_2)(Image[], bool) | Creates a new image the specified images as pages. |
-| static [Create](../../aspose.imaging/image/create/#create)(ImageOptionsBase, int, int) | Creates a new image using the specified create options. |
+| static [Create](../../aspose.imaging/image/create/#create_2)(Image[]) | Creates a new image using the specified images as pages |
+| static [Create](../../aspose.imaging/image/create/#create)(MultipageCreateOptions) | Creates the specified multipage create options. |
+| static [Create](../../aspose.imaging/image/create/#create_4)(string[]) | Creates the specified files. |
+| static [Create](../../aspose.imaging/image/create/#create_3)(Image[], bool) | Creates a new image the specified images as pages. |
+| static [Create](../../aspose.imaging/image/create/#create_5)(string[], bool) | Creates the specified files. |
+| static [Create](../../aspose.imaging/image/create/#create_1)(ImageOptionsBase, int, int) | Creates a new image using the specified create options. |
 | static [Load](../../aspose.imaging/image/load/#load)(Stream) | Loads a new image from the specified stream. |
 | static [Load](../../aspose.imaging/image/load/#load_2)(string) | Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | static [Load](../../aspose.imaging/image/load/#load_1)(Stream, LoadOptions) | Loads a new image from the specified stream. |

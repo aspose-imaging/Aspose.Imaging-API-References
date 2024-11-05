@@ -3,7 +3,7 @@ title: Class ArcShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shapes.ArcShape class. Represents an arc shape
 type: docs
-weight: 11350
+weight: 11380
 url: /net/aspose.imaging.shapes/arcshape/
 ---
 ## ArcShape class

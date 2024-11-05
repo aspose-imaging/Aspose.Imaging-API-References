@@ -3,7 +3,7 @@ title: BmpImage.ToBitmap
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage method. Easily convert your raster image to a bitmap with this simple method. Perfect for developers needing to seamlessly transition between different image formats
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/tobitmap/
 ---
 ## BmpImage.ToBitmap method

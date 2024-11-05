@@ -3,7 +3,7 @@ title: DicomImage.Filter
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Effortlessly enhance specific areas of your image by applying filters to designated rectangles. This method provides developers with precise control over image manipulation allowing for targeted adjustments to achieve desired visual effects with ease
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/filter/
 ---
 ## DicomImage.Filter method

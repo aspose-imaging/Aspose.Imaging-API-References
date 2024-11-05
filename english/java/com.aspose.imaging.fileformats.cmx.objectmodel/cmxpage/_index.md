@@ -7,9 +7,9 @@ weight: 15
 url: /java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
-public class CmxPage
+public class CmxPage extends DisposableObject
 ```
 
 The page of the CMX document.

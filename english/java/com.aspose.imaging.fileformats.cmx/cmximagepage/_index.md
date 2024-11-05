@@ -20,6 +20,7 @@ The image of CMX page
 
 | Constructor | Description |
 | --- | --- |
+| [CmxImagePage(CmxPage cmxPage, Image container)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-) | Initializes a new instance of the [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) class. |
 | [CmxImagePage(CmxPage cmxPage)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-) | Initializes a new instance of the [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) class. |
 ## Methods
 
@@ -37,6 +38,20 @@ The image of CMX page
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
+### CmxImagePage(CmxPage cmxPage, Image container) {#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-}
+```
+public CmxImagePage(CmxPage cmxPage, Image container)
+```
+
+
+Initializes a new instance of the [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cmxPage | [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) | The CMX page. |
+| container | [Image](../../com.aspose.imaging/image) | The container. |
+
 ### CmxImagePage(CmxPage cmxPage) {#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-}
 ```
 public CmxImagePage(CmxPage cmxPage)

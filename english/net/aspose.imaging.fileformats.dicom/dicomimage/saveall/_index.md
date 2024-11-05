@@ -3,7 +3,7 @@ title: DicomImage.SaveAll
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Preserve the objects data by saving it to the designated file indexer  filename location along with specified file format and options. Ideal for developers seeking to securely store data in various formats while maintaining flexibility and control over saving parameters
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/saveall/
 ---
 ## DicomImage.SaveAll method

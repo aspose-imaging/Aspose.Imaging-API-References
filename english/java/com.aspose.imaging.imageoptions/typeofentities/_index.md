@@ -3,7 +3,7 @@ title: TypeOfEntities
 second_title: Aspose.Imaging for Java API Reference
 description: Represents types of entities to render
 type: docs
-weight: 49
+weight: 50
 url: /java/com.aspose.imaging.imageoptions/typeofentities/
 ---
 **Inheritance:**

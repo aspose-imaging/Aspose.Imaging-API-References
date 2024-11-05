@@ -3,7 +3,7 @@ title: WebPImage.AddPage
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Append a new page to the image expanding its content and accommodating additional visual elements. Integrate this method to facilitate dynamic page management within your application enabling seamless creation and augmentation of multipage documents or images
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.fileformats.webp/webpimage/addpage/
 ---
 ## WebPImage.AddPage method

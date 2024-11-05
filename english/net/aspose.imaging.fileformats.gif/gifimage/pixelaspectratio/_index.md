@@ -3,7 +3,7 @@ title: GifImage.PixelAspectRatio
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage property. Manage the pixel aspect ratio of the GIF image with this property. Set or retrieve the aspect ratio to ensure accurate rendering and maintain visual fidelity
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.imaging.fileformats.gif/gifimage/pixelaspectratio/
 ---
 ## GifImage.PixelAspectRatio property

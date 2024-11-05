@@ -35,6 +35,7 @@ The package contains classes suitable for export, save or creation of different 
 | [MetafileRasterizationOptions](../com.aspose.imaging.imageoptions/metafilerasterizationoptions) | The metafile rasterization options |
 | [MultiPageMode](../com.aspose.imaging.imageoptions/multipagemode) | Represents multipage mode |
 | [MultiPageOptions](../com.aspose.imaging.imageoptions/multipageoptions) | Base class for multiple pages supported formats |
+| [MultipageCreateOptions](../com.aspose.imaging.imageoptions/multipagecreateoptions) | The multipage create options |
 | [OdRasterizationOptions](../com.aspose.imaging.imageoptions/odrasterizationoptions) | The Odg rasterization options |
 | [OdgRasterizationOptions](../com.aspose.imaging.imageoptions/odgrasterizationoptions) | The Odg rasterization options |
 | [OtgRasterizationOptions](../com.aspose.imaging.imageoptions/otgrasterizationoptions) | The Otg rasterization options |
@@ -58,3 +59,10 @@ The package contains classes suitable for export, save or creation of different 
 | [WebPOptions](../com.aspose.imaging.imageoptions/webpoptions) | Create modern WebP raster web images using our API, featuring robust support for lossless and lossy compression, as well as alpha channels and animation loops. |
 | [WmfOptions](../com.aspose.imaging.imageoptions/wmfoptions) | The wmf options. |
 | [WmfRasterizationOptions](../com.aspose.imaging.imageoptions/wmfrasterizationoptions) | The Wmf rasterization options. |
+
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [AfterPageExportAction](../com.aspose.imaging.imageoptions/afterpageexportaction) | After page export action |
+| [BeforePageExportAction](../com.aspose.imaging.imageoptions/beforepageexportaction) | Before page export action |
