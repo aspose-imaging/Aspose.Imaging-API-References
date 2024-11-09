@@ -3,7 +3,7 @@ title: ApngImage.InsertFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Effortlessly insert a new frame into your frame collection at the specified with this intuitive method. Ideal for developers seeking precise control over the arrangement of frames in their animations of multiframe images. A new frame will be created according to the size of the current image
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.fileformats.apng/apngimage/insertframe/
 ---
 ## InsertFrame(int) {#insertframe}

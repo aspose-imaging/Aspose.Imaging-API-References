@@ -3,7 +3,7 @@ title: GifImage.XmpData
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage property. Manage XMP metadata with this property. Whether youre retrieving existing metadata or updating it with new information this property streamlines the process. Keep your metadata organized and accessible ensuring that your files contain the relevant information they need
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.fileformats.gif/gifimage/xmpdata/
 ---
 ## GifImage.XmpData property

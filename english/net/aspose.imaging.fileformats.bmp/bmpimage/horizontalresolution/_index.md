@@ -3,7 +3,7 @@ title: BmpImage.HorizontalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage property. This property allows you to easily get or set the horizontal resolution measured in pixels per inch of the RasterImage object. Ideal for developers needing precise control over image resolution for their applications
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution/
 ---
 ## BmpImage.HorizontalResolution property

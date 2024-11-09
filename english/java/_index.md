@@ -26,7 +26,7 @@ is_root: true
 | [com.aspose.imaging.extensions](./com.aspose.imaging.extensions) | The package contains extension methods. |
 | [com.aspose.imaging.fileformats](./com.aspose.imaging.fileformats) | The package contains graphics files processing classes and methods. |
 | [com.aspose.imaging.fileformats.apng](./com.aspose.imaging.fileformats.apng) | The package handles Apng file format processing. |
-| [com.aspose.imaging.fileformats.avif](./com.aspose.imaging.fileformats.avif) | The namespace handling Avif file format processing. |
+| [com.aspose.imaging.fileformats.avif](./com.aspose.imaging.fileformats.avif) | The package handling Avif file format processing. |
 | [com.aspose.imaging.fileformats.bigtiff](./com.aspose.imaging.fileformats.bigtiff) | The package handling BigTiff file format processing. |
 | [com.aspose.imaging.fileformats.bmp](./com.aspose.imaging.fileformats.bmp) | The package handles Bmp file format processing. |
 | [com.aspose.imaging.fileformats.bmp.structures](./com.aspose.imaging.fileformats.bmp.structures) | The logical structures, used to support bitmap header. |

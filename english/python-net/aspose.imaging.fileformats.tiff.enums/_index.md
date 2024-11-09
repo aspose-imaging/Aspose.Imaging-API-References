@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.tiff.enums
 type: docs
-weight: 660
+weight: 670
 url: /python-net/aspose.imaging.fileformats.tiff.enums/
 ---
 

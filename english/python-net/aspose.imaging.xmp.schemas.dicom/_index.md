@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.schemas.dicom
 type: docs
-weight: 1010
+weight: 1020
 url: /python-net/aspose.imaging.xmp.schemas.dicom/
 ---
 

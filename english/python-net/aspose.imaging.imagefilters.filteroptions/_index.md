@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.imagefilters.filteroptions
 type: docs
-weight: 810
+weight: 820
 url: /python-net/aspose.imaging.imagefilters.filteroptions/
 ---
 

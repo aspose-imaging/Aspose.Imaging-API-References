@@ -1,7 +1,7 @@
 ---
 title: StringAlignment Enumeration
 type: docs
-weight: 11020
+weight: 11040
 url: /python-net/aspose.imaging/stringalignment/
 ---
 

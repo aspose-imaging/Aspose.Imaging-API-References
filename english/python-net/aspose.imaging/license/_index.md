@@ -1,7 +1,7 @@
 ---
 title: License Class
 type: docs
-weight: 5830
+weight: 5840
 url: /python-net/aspose.imaging/license/
 ---
 

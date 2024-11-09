@@ -35,8 +35,6 @@ The API for Animated PNG (Animated Portable Network Graphics) image file format 
 | [getDefaultFrameTime()](#getDefaultFrameTime--) | Easily adjust the default frame duration for creating new frames with this flexible property. |
 | [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Easily adjust the default frame duration for creating new frames with this flexible property. |
 | [getInterlaced()](#getInterlaced--) | Quickly determine whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. |
-| [getPageExportingAction()](#getPageExportingAction--) | Effortlessly manage the page exporting action with this versatile property. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Effortlessly manage the page exporting action with this versatile property. |
 | [getOriginalOptions()](#getOriginalOptions--) | Retrieve options based on the original file settings effortlessly with this intuitive method. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
 | [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Quickly obtain the date and time when the resource image was last modified with this user-friendly method. |
@@ -231,33 +229,6 @@ Value: `true` if interlaced; otherwise, `false`.
 
 **Returns:**
 boolean
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-Effortlessly manage the page exporting action with this versatile property. Perfect for developers seeking precise control over the exporting behavior of pages in their application. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction)
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-Effortlessly manage the page exporting action with this versatile property. Perfect for developers seeking precise control over the exporting behavior of pages in their application. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) |  |
-
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
 public ImageOptionsBase getOriginalOptions()

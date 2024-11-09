@@ -3,7 +3,7 @@ title: WebPImage.BinarizeBradley
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Apply binarization to the image using Bradleys adaptive thresholding algorithm with integral image thresholding. This method dynamically computes local thresholds based on the images neighborhood enhancing adaptability to varying lighting conditions and ensuring robust segmentation for subsequent processing tasks within your application
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.imaging.fileformats.webp/webpimage/binarizebradley/
 ---
 ## WebPImage.BinarizeBradley method

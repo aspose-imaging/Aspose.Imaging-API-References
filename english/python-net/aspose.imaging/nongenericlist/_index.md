@@ -1,7 +1,7 @@
 ---
 title: NonGenericList Class
 type: docs
-weight: 6080
+weight: 6100
 url: /python-net/aspose.imaging/nongenericlist/
 ---
 

@@ -36,8 +36,6 @@ This Class implements Digital Imaging and Communications in Medicine (DICOM) ras
 | [getActivePageIndex()](#getActivePageIndex--) | Retrieve the index of the active page effortlessly with this intuitive property. |
 | [getFileFormat()](#getFileFormat--) | Retrieve the file format value effortlessly with this intuitive property. |
 | [hasAlpha()](#hasAlpha--) | Retrieve whether the image has an alpha channel effortlessly with this intuitive property. |
-| [getPageExportingAction()](#getPageExportingAction--) | Manage the page exporting action with this intuitive property. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Manage the page exporting action with this intuitive property. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Expand your image collection by adding a new page with this intuitive method. |
 | [saveAll(String filePath, ImageOptionsBase options)](#saveAll-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | Preserve the object's data by saving it to the designated file (indexer + filename) location along with specified file format and options. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Adjust the resolution of this [RasterImage](../../com.aspose.imaging/rasterimage) with precision using this straightforward method. |
@@ -335,29 +333,6 @@ Retrieve whether the image has an alpha channel effortlessly with this intuitive
 
 **Returns:**
 boolean - true if image has alpha channel.
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-Manage the page exporting action with this intuitive property. Ideal for developers seeking to control the export behavior of image pages, ensuring seamless integration and customization in various image processing workflows.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-Manage the page exporting action with this intuitive property. Ideal for developers seeking to control the export behavior of image pages, ensuring seamless integration and customization in various image processing workflows. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
-
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```
 public void addPage(RasterImage page)

@@ -3,7 +3,7 @@ title: GifFrameBlock.CreateFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock method. Creates the flags
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/createflags/
 ---
 ## GifFrameBlock.CreateFlags method

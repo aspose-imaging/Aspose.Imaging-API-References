@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.bmp
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.imaging.fileformats.bmp/
 ---
 

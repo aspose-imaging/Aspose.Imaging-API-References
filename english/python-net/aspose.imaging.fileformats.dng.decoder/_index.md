@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.dng.decoder
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.imaging.fileformats.dng.decoder/
 ---
 

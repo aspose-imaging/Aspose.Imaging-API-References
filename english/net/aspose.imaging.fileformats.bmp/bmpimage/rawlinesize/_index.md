@@ -3,7 +3,7 @@ title: BmpImage.RawLineSize
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage property. Quickly access the size of each raw line in bytes with this straightforward property. Ideal for developers needing to efficiently handle raw image data
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/rawlinesize/
 ---
 ## BmpImage.RawLineSize property

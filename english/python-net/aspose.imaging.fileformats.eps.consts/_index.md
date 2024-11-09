@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.eps.consts
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.imaging.fileformats.eps.consts/
 ---
 

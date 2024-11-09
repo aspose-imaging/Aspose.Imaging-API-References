@@ -35,8 +35,6 @@ The API for Corel Metafile Exchange (CMX) vector image format with metadata desc
 | [getCmxPage()](#getCmxPage--) | Effortlessly retrieve the CMX page of the image with this intuitive property. |
 | [getPageCount()](#getPageCount--) | Retrieve the total page count of the image with this intuitive property. |
 | [getPages()](#getPages--) | Retrieve the pages of the image seamlessly with this intuitive property. |
-| [getPageExportingAction()](#getPageExportingAction--) | Effortlessly retrieve the page exporting action associated with the image using this intuitive property. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Effortlessly modify the page exporting action associated with the image using this intuitive property. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
 | [cacheData()](#cacheData--) | Cache the data to prevent additional loading from the underlying source [DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter) with this convenient method. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Effortlessly resize the image to desired dimensions with this intuitive method. |
@@ -198,31 +196,6 @@ try {
     image.dispose();
 }
 ```
-
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-Effortlessly retrieve the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-Effortlessly modify the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
 
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```

@@ -43,7 +43,7 @@ public sealed class BmpImage : RasterCachedImage
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | override [FileFormat](../../aspose.imaging.fileformats.bmp/bmpimage/fileformat/) { get; } | Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format. |
-| virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
+| override [HasAlpha](../../aspose.imaging.fileformats.bmp/bmpimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets a value indicating whether image has transparent color. |
 | override [Height](../../aspose.imaging.fileformats.bmp/bmpimage/height/) { get; } | Retrieve the height of the image effortlessly with this property. Ideal for developers needing quick access to information about image dimensions. |

@@ -3,7 +3,7 @@ title: WebPImage.AddBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Incorporate a new WebP block into the image enriching its content and facilitating advanced image manipulation. Integrate this method to dynamically enhance the structure and complexity of the WebP image data within your application enabling precise control and optimization of image rendering
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.imaging.fileformats.webp/webpimage/addblock/
 ---
 ## WebPImage.AddBlock method

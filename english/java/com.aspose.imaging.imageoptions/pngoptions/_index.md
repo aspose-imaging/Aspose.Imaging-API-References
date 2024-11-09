@@ -3,7 +3,7 @@ title: PngOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Create high-quality Portable Network Graphics PNG raster images effortlessly with our API offering customizable options for compression levels bits per pixel depths and alpha bits.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.aspose.imaging.imageoptions/pngoptions/
 ---
 **Inheritance:**

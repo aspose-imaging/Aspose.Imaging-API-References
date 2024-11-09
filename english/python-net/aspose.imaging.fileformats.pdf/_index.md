@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.pdf
 type: docs
-weight: 590
+weight: 600
 url: /python-net/aspose.imaging.fileformats.pdf/
 ---
 

@@ -64,3 +64,24 @@ Converts path resources to the [GraphicsPath](/imaging/python-net/aspose.imaging
 | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance. |
 
 
+## **Examples**
+### Create Graphics Path from Path Resources in TIFF image. {#example_154}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image, Graphics, Color, Pen
+from aspose.imaging.fileformats.tiff import TiffImage
+from aspose.imaging.fileformats.tiff.pathresources import PathResourceConverter
+
+with aspycore.as_of(Image.load("Bottle.tif"), TiffImage) as image:
+	# Create the GraphicsPath using PathResources from TIFF image
+	active_frame = image.active_frame
+	graphics_path = PathResourceConverter.to_graphics_path(active_frame.path_resource, active_frame.size)
+	graphics = Graphics(image)
+	# Draw red line and save the image
+	graphics.draw_path(Pen(Color.red, 10), graphics_path)
+	image.save("BottleWithRedBorder.tif")
+
+
+```
+

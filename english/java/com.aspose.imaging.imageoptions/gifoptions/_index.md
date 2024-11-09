@@ -43,8 +43,8 @@ The API for Graphical Interchange Format (GIF) raster image file creation offers
 | [setMaxDiff(int value)](#setMaxDiff-int-) | Gets or sets the maximum allowed pixel difference. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets the background color. |
-| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether GIF image has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Sets a value indicating whether GIF image has transparent color. |
+| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether a GIF image has transparent color. |
+| [setTransparentColor(Boolean value)](#setTransparentColor-java.lang.Boolean-) | Sets a value indicating whether a GIF image has transparent color. |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
@@ -620,24 +620,24 @@ Sets the background color.
 
 ### hasTransparentColor() {#hasTransparentColor--}
 ```
-public final boolean hasTransparentColor()
+public final Boolean hasTransparentColor()
 ```
 
 
-Gets a value indicating whether GIF image has transparent color.
+Gets a value indicating whether a GIF image has transparent color. If the return value is `null`, this property is overridden by the source image context.
 
 **Returns:**
-boolean - a value indicating whether GIF image has transparent color.
-### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
+java.lang.Boolean - a value indicating whether a GIF image has transparent color.
+### setTransparentColor(Boolean value) {#setTransparentColor-java.lang.Boolean-}
 ```
-public final void setTransparentColor(boolean value)
+public final void setTransparentColor(Boolean value)
 ```
 
 
-Sets a value indicating whether GIF image has transparent color.
+Sets a value indicating whether a GIF image has transparent color. If the return value is `null`, this property is overridden by the source image context.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether GIF image has transparent color. |
+| value | java.lang.Boolean | a value indicating whether a GIF image has transparent color. |
 

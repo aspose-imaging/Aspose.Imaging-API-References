@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.masking.result
 type: docs
-weight: 890
+weight: 900
 url: /python-net/aspose.imaging.masking.result/
 ---
 

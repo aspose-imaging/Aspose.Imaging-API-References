@@ -1,7 +1,7 @@
 ---
 title: TimeInterval Class
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.imaging.imageoptions/timeinterval/
 ---
 
@@ -37,4 +37,22 @@ Initializes a new instance of the [TimeInterval](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | from_address | uint | From milliseconds. |
 | to | uint | To milliseconds. |
+
+## **Examples**
+### Export of part of animation from GIF image based on time interval. {#example_162}
+``` python
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import GifOptions, MultiPageOptions, MultiPageMode, TimeInterval
+
+with Image.load("Animation.gif") as image:
+	obj_init = MultiPageOptions()
+	obj_init.mode = MultiPageMode.TIME_INTERVAL
+	obj_init.time_interval = TimeInterval(0, 400)
+	options = GifOptions()
+	options.full_frame = True
+	options.multi_page_options = obj_init
+	image.save("PartOfAnimation.gif", options)
+
+
+```
 

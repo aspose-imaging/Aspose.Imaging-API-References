@@ -3,7 +3,7 @@ title: CmxImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImage method. Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically ensuring they fit the layout or requirements of their applications seamlessly
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.cmx/cmximage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

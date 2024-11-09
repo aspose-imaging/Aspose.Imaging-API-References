@@ -3,7 +3,7 @@ title: Class AudioSampleType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpDm.AudioSampleType class. Represents Audio sample type in XmpDynamicMediaPackage
 type: docs
-weight: 11810
+weight: 11840
 url: /net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 ---
 ## AudioSampleType class

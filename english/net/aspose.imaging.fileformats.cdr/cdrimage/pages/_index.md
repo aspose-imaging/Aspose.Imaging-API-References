@@ -3,7 +3,7 @@ title: CdrImage.Pages
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImage property. Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multipage images ensuring efficient navigation and processing
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.fileformats.cdr/cdrimage/pages/
 ---
 ## CdrImage.Pages property

@@ -1,7 +1,7 @@
 ---
 title: ColorPaletteHelper Class
 type: docs
-weight: 1160
+weight: 1170
 url: /python-net/aspose.imaging/colorpalettehelper/
 ---
 

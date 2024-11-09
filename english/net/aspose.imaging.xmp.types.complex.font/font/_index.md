@@ -3,7 +3,7 @@ title: Class Font
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.Font.Font class. Represents XMP Font
 type: docs
-weight: 12030
+weight: 12060
 url: /net/aspose.imaging.xmp.types.complex.font/font/
 ---
 ## Font class

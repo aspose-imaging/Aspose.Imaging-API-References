@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 | do_palette_correction | bool | r/w | Gets or sets a value indicating whether palette correction is applied. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | has_trailer | bool | r/w | Gets or sets a value indicating whether GIF has trailer. |
-| has_transparent_color | bool | r/w | Gets or sets a value indicating whether GIF image has transparent color. |
+| has_transparent_color | Nullable<bool> | r/w | Gets or sets a value indicating whether a GIF image has transparent color. <br/>            If the return value is **None**, this property is overridden by the source image context. |
 | interlaced | bool | r/w | True if image should be interlaced. |
 | is_palette_sorted | bool | r/w | Gets or sets a value indicating whether palette entries are sorted. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |

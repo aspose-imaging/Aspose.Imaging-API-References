@@ -3,7 +3,7 @@ title: GifFrameBlock.GetColorPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock method. Gets the associated color palette
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/getcolorpalette/
 ---
 ## GifFrameBlock.GetColorPalette method

@@ -1,7 +1,7 @@
 ---
 title: IImageExporterDescriptor Class
 type: docs
-weight: 5250
+weight: 5260
 url: /python-net/aspose.imaging/iimageexporterdescriptor/
 ---
 

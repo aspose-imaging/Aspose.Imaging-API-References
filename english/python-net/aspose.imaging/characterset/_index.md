@@ -1,7 +1,7 @@
 ---
 title: CharacterSet Enumeration
 type: docs
-weight: 9100
+weight: 9120
 url: /python-net/aspose.imaging/characterset/
 ---
 

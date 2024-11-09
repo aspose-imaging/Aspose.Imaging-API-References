@@ -35,8 +35,6 @@ The API for CorelDRAW CDR vector image format support is an essential toolkit fo
 | [getPages()](#getPages--) | Retrieve the pages of the image seamlessly with this intuitive property. |
 | [getCdrDocument()](#getCdrDocument--) | Effortlessly retrieve or update the CDR document using this intuitive property. |
 | [getFileFormat()](#getFileFormat--) | Retrieve the file format of the image effortlessly with this intuitive property. |
-| [getPageExportingAction()](#getPageExportingAction--) | Effortlessly retrieve the page exporting action associated with the image using this intuitive property. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Effortlessly modify the page exporting action associated with the image using this intuitive property. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
 | [cacheData()](#cacheData--) | Effortlessly cache the data to prevent additional loading from the underlying source with this user-friendly method. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Effortlessly resize the image to desired dimensions with this intuitive method. |
@@ -209,29 +207,6 @@ Retrieve the file format of the image effortlessly with this intuitive property.
 
 **Returns:**
 long
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-Effortlessly retrieve the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-Effortlessly modify the page exporting action associated with the image using this intuitive property. Ideal for developers seeking to customize the export behavior of pages within multi-page images, ensuring flexibility and efficiency in their applications. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
-
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)

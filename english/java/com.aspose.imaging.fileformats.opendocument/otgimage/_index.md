@@ -24,8 +24,6 @@ Process OpenDocument Template (OTG) drawing image files with our API, leveraging
 | Method | Description |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | This property provides access to the OTG file format, offering crucial insights into the type of data encapsulated within the image file. |
-| [getPageExportingAction()](#getPageExportingAction--) | This property allows for the retrieval or modification of the page exporting action associated with the image. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | This property allows for the retrieval or modification of the page exporting action associated with the image. |
 | [getPages()](#getPages--) | Retrieves the collection of pages associated with the image, enabling software developers to access and manipulate each individual page efficiently. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieves the default options configured for the image, providing a convenient way to access and modify the default settings. |
 ### OtgImage(StreamContainer streamContainer, LoadOptions loadOptions) {#OtgImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-}
@@ -65,29 +63,6 @@ This property provides access to the OTG file format, offering crucial insights 
 
 **Returns:**
 long
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-This property allows for the retrieval or modification of the page exporting action associated with the image. It serves as a crucial parameter, dictating the behavior of the image when exported or processed further. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - The page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-This property allows for the retrieval or modification of the page exporting action associated with the image. It serves as a crucial parameter, dictating the behavior of the image when exported or processed further. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | The page exporting action. |
-
 ### getPages() {#getPages--}
 ```
 public Image[] getPages()

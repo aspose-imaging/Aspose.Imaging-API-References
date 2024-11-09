@@ -14,7 +14,7 @@ The namespace contains Gif file format entities.
 | --- | --- |
 | [GifApplicationExtensionBlock](./gifapplicationextensionblock/) | Gif application extension block. |
 | [GifCommentBlock](./gifcommentblock/) | Gif comment block. |
-| [GifFrameBlock](./gifframeblock/) | Gif frame block. |
+| [GifFrameBlock](./gifframeblock/) | GIF frame class. |
 | [GifGraphicsControlBlock](./gifgraphicscontrolblock/) | Gif graphics control block. |
 | [GifPlainTextRenderingBlock](./gifplaintextrenderingblock/) | Gif plain text extension block. The plain text extension contains textual data and the parameters necessary to render that data as a graphic, in a simple form. |
 | [GifUnknownExtensionBlock](./gifunknownextensionblock/) | Gif Unknown Extension Block. |

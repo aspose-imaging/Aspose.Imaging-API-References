@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.cmx.objectmodel.enums
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/
 ---
 

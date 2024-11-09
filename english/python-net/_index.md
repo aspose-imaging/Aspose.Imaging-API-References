@@ -17,6 +17,7 @@ url: /python-net/
 | [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/) | The module contains EXIF enumerations. |
 | [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/) | The module contains extension methods. |
 | [aspose.imaging.fileformats.apng](/imaging/python-net/aspose.imaging.fileformats.apng/) | The module handles Apng file format processing. |
+| [aspose.imaging.fileformats.avif](/imaging/python-net/aspose.imaging.fileformats.avif/) | The module handling Avif file format processing. |
 | [aspose.imaging.fileformats.bigtiff](/imaging/python-net/aspose.imaging.fileformats.bigtiff/) | The module handling BigTiff file format processing. |
 | [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/) | The module handles Bmp file format processing. |
 | [aspose.imaging.fileformats.bmp.structures](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/) | The logical structures, used to support bitmap header. |

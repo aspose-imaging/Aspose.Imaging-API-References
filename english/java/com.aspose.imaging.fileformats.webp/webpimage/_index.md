@@ -37,8 +37,6 @@ Manipulate WebP raster images with our API, using its modern features for both l
 | [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
 | [getFileFormat()](#getFileFormat--) | Access the file format value associated with the image, providing information about the format in which the image is stored. |
 | [hasAlpha()](#hasAlpha--) | Retrieve whether the image contains an alpha channel, indicating the presence of transparency information. |
-| [getPageExportingAction()](#getPageExportingAction--) | Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Append a new page to the image, expanding its content and accommodating additional visual elements. |
 | [addBlock(IFrame block)](#addBlock-com.aspose.imaging.fileformats.webp.IFrame-) | Incorporate a new WebP block into the image, enriching its content and facilitating advanced image manipulation. |
 | [clearBlocks()](#clearBlocks--) | Clear all existing WebP blocks from the image, facilitating a clean slate for subsequent modifications or additions. |
@@ -269,29 +267,6 @@ try {
 // ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 // Frame=0, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 ```
-
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. Please note that setting this property will automatically release page resources after execution. Utilize this feature to perform custom actions or cleanup tasks before exporting each page, ensuring optimal resource management and desired behavior during image saving operations within your application.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-Access or modify the page exporting action, which defines the specific action to be executed before each page is saved. Please note that setting this property will automatically release page resources after execution. Utilize this feature to perform custom actions or cleanup tasks before exporting each page, ensuring optimal resource management and desired behavior during image saving operations within your application.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
 
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```

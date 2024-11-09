@@ -26,6 +26,9 @@ The image is the base class for all type of images.
 | [canLoad(InputStream stream, LoadOptions loadOptions)](#canLoad-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Determines whether image can be loaded from the specified stream and optionally using the specified `loadOptions`. |
 | [create(ImageOptionsBase imageOptions, int width, int height)](#create-com.aspose.imaging.ImageOptionsBase-int-int-) | Creates a new image using the specified create options. |
 | [create(Image[] images)](#create-com.aspose.imaging.Image---) | Creates a new image using the specified images as pages |
+| [create(MultipageCreateOptions multipageCreateOptions)](#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-) | Creates the specified multipage create options. |
+| [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | Creates the specified files. |
+| [create(String[] files)](#create-java.lang.String---) | Creates the specified files. |
 | [create(Image[] images, boolean disposeImages)](#create-com.aspose.imaging.Image---boolean-) | Creates a new image the specified images as pages. |
 | [getFileFormat(String filePath)](#getFileFormat-java.lang.String-) | Gets the file format. |
 | [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | Loads a new image from the specified file path or URL. |
@@ -294,6 +297,52 @@ Creates a new image using the specified images as pages
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The Image as IMultipageImage
+### create(MultipageCreateOptions multipageCreateOptions) {#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-}
+```
+public static Image create(MultipageCreateOptions multipageCreateOptions)
+```
+
+
+Creates the specified multipage create options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| multipageCreateOptions | [MultipageCreateOptions](../../com.aspose.imaging.imageoptions/multipagecreateoptions) | The multipage create options. |
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - The multipage image
+### create(String[] files, boolean throwExceptionOnLoadError) {#create-java.lang.String---boolean-}
+```
+public static Image create(String[] files, boolean throwExceptionOnLoadError)
+```
+
+
+Creates the specified files.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| files | java.lang.String[] | The files. |
+| throwExceptionOnLoadError | boolean | if set to `true` [throw exception on load error]. |
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - The multipage image
+### create(String[] files) {#create-java.lang.String---}
+```
+public static Image create(String[] files)
+```
+
+
+Creates the specified files.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| files | java.lang.String[] | The files. |
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - The multipage image
 ### create(Image[] images, boolean disposeImages) {#create-com.aspose.imaging.Image---boolean-}
 ```
 public static Image create(Image[] images, boolean disposeImages)

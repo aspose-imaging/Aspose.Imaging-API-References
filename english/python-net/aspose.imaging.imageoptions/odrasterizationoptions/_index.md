@@ -1,7 +1,7 @@
 ---
 title: OdRasterizationOptions Class
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.imaging.imageoptions/odrasterizationoptions/
 ---
 

@@ -17,7 +17,11 @@ Image resize settings class
 
 | Constructor | Description |
 | --- | --- |
-| [ImageResizeSettings()](#ImageResizeSettings--) | Initializes a new instance of the `ImageResizeSettings` class. |
+| [ImageResizeSettings()](#ImageResizeSettings--) | Initializes a new instance of the `ImageResizeSettings` class with Resize type = ([ResizeType.BilinearResample](../../com.aspose.imaging/resizetype\#BilinearResample)) with Filter type = ([ImageFilterType.SmallRectangular](../../com.aspose.imaging/imagefiltertype\#SmallRectangular)) with Color quantization method = ([ColorQuantizationMethod.Popularity](../../com.aspose.imaging/colorquantizationmethod\#Popularity)) with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 256 ([.getEntriesCount()](../../null/\#getEntriesCount--)) |
+| [ImageResizeSettings(int resizeType)](#ImageResizeSettings-int-) | Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Filter type = ([ImageFilterType.None](../../com.aspose.imaging/imagefiltertype\#None)) with Color quantization method = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--)) |
+| [ImageResizeSettings(int resizeType, int filterType)](#ImageResizeSettings-int-int-) | Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Color quantization method = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--)) |
+| [ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod)](#ImageResizeSettings-int-int-int-) | Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--)) |
+| [ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod, int colorCompareMethod)](#ImageResizeSettings-int-int-int-int-) | Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--)) |
 ## Methods
 
 | Method | Description |
@@ -38,7 +42,65 @@ public ImageResizeSettings()
 ```
 
 
-Initializes a new instance of the `ImageResizeSettings` class.
+Initializes a new instance of the `ImageResizeSettings` class with Resize type = ([ResizeType.BilinearResample](../../com.aspose.imaging/resizetype\#BilinearResample)) with Filter type = ([ImageFilterType.SmallRectangular](../../com.aspose.imaging/imagefiltertype\#SmallRectangular)) with Color quantization method = ([ColorQuantizationMethod.Popularity](../../com.aspose.imaging/colorquantizationmethod\#Popularity)) with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 256 ([.getEntriesCount()](../../null/\#getEntriesCount--))
+
+### ImageResizeSettings(int resizeType) {#ImageResizeSettings-int-}
+```
+public ImageResizeSettings(int resizeType)
+```
+
+
+Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Filter type = ([ImageFilterType.None](../../com.aspose.imaging/imagefiltertype\#None)) with Color quantization method = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--))
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resizeType | int | Resize type. |
+
+### ImageResizeSettings(int resizeType, int filterType) {#ImageResizeSettings-int-int-}
+```
+public ImageResizeSettings(int resizeType, int filterType)
+```
+
+
+Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Color quantization method = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--))
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resizeType | int | Resize type. |
+| filterType | int | Filter type. |
+
+### ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod) {#ImageResizeSettings-int-int-int-}
+```
+public ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod)
+```
+
+
+Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Color compare method = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--))
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resizeType | int | Resize type. |
+| filterType | int | Filter type. |
+| colorQuantizationMethod | int | Color quantization method. |
+
+### ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod, int colorCompareMethod) {#ImageResizeSettings-int-int-int-int-}
+```
+public ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod, int colorCompareMethod)
+```
+
+
+Initializes a new instance of the [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) class with Color entry count = 0 ([.getEntriesCount()](../../null/\#getEntriesCount--))
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resizeType | int | Resize type. |
+| filterType | int | Filter type. |
+| colorQuantizationMethod | int | Color quantization method. |
+| colorCompareMethod | int | Color compare method. |
 
 ### getEntriesCount() {#getEntriesCount--}
 ```

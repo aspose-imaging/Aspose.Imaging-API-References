@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 4970
+weight: 4980
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -4085,6 +4085,29 @@ with GifFrameBlock(100, 100) as firstBlock:
 			gifImage.add_block(block)
 
 		gifImage.save("animated_radar.gif")
+
+
+```
+
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_109}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.fileformats.png import PngImage
+from os.path import join
+
+
+dir_ = "c:\\temp"
+# Create a PNG image of 100x100 px.
+with PngImage(100, 100) as png_image:
+	# Do some image processing, e.g. fill the entire image in red.
+	graphics = Graphics(png_image)
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, png_image.bounds)
+	# Save to a file.
+	png_image.save(join(dir_, "output.png"))
 
 
 ```

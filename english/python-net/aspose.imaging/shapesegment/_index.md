@@ -1,7 +1,7 @@
 ---
 title: ShapeSegment Class
 type: docs
-weight: 7120
+weight: 7140
 url: /python-net/aspose.imaging/shapesegment/
 ---
 

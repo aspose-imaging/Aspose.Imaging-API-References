@@ -3,7 +3,7 @@ title: BmpImage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage method. Retrieve the default options effortlessly with this straightforward method. Ideal for developers seeking quick access to default image settings or configurations
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/getdefaultoptions/
 ---
 ## BmpImage.GetDefaultOptions method

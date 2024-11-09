@@ -11,11 +11,12 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxContainer
 
-**Inheritance:** ICmxContainer, ICmxDocElement
+**Inheritance:** ICmxContainer, ICmxDocElement, DisposableObject
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | elements | list[ICmxDocElement] | r | Gets the elements. |
 
 

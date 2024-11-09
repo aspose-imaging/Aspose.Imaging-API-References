@@ -1,7 +1,7 @@
 ---
 title: CustomLineCap Class
 type: docs
-weight: 1310
+weight: 1320
 url: /python-net/aspose.imaging/customlinecap/
 ---
 

@@ -3,7 +3,7 @@ title: Class EmfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.EmfOptions class. The Emf options
 type: docs
-weight: 10170
+weight: 10190
 url: /net/aspose.imaging.imageoptions/emfoptions/
 ---
 ## EmfOptions class

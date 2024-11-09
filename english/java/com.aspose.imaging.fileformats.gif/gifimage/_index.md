@@ -57,16 +57,14 @@ The API for Graphical Interchange Format (GIF) image file provides developers wi
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Determine whether the active frame of the GIF image includes a transparent color. |
 | [hasBackgroundColor()](#hasBackgroundColor--) | This property determines whether the GIF image contains a background color. |
 | [getImageOpacity()](#getImageOpacity--) | Retrieve the opacity of the active frame within the image, offering insight into its transparency level. |
-| [getPageExportingAction()](#getPageExportingAction--) | This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Modify the size of the image while maintaining its aspect ratio and visual quality. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes this [Image](../../com.aspose.imaging/image) instance. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes this [Image](../../com.aspose.imaging/image) instance. |
 | [resizeFullFrame(int newWidth, int newHeight, int resizeType)](#resizeFullFrame-int-int-int-) | Resizing of the image while taking into account the full frames for each page in a GIF, thus preventing potential artifacts from appearing. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Perform rotation, flipping, or both on the active frame exclusively. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Apply dithering to the current image. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the image using a specified rectangle area. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | Enhance image quality by applying gamma correction. |
 | [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Apply a specific filter to the designated area of the image, enhancing its visual quality or altering its appearance as desired. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resize the width and height of the image while maintaining its aspect ratio and applying additional settings as specified. |
 | [setFrameTime(int time)](#setFrameTime-int-) | Adjusts the duration of each frame in milliseconds, ensuring consistent timing throughout the image sequence. |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjusts the brightness of the image according to the specified `brightness` parameter. |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | Adjusts the contrast of the image, enhancing or reducing the difference in brightness between pixels. |
@@ -627,40 +625,13 @@ The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
 
 **Returns:**
 float - opacity of this image (active frame).
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. It provides flexibility in choosing export actions tailored to the needs of the application or workflow, enhancing customization and adaptability. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - the page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-This property enables the manipulation of the export action for the page, allowing to specify the desired action when exporting the page data. It provides flexibility in choosing export actions tailored to the needs of the application or workflow, enhancing customization and adaptability. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-Value: The page exporting action.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
-
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
 public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Modify the size of the image while maintaining its aspect ratio and visual quality. This function allows for easy adjustment of the image dimensions to suit specific display or storage needs, ensuring optimal presentation without distortion or loss of detail.
+Resizes this [Image](../../com.aspose.imaging/image) instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -707,6 +678,58 @@ try {
     // Scale down by 2 times using Bilinear resampling.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
     image.save(dir + "downsample.bilinear.gif");
+} finally {
+    image.dispose();
+}
+```
+
+### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
+```
+public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
+```
+
+
+Resizes this [Image](../../com.aspose.imaging/image) instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newWidth | int | The new width. |
+| newHeight | int | The new height. |
+| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The settings. |
+
+
+**Example: This example loads a GIF image and resizes it using various resizing settings.**
+
+``` java
+String dir = "c:\\temp\\";
+
+com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
+
+// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
+resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
+
+// The small rectangular filter
+resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular);
+
+// The number of colors in the palette.
+resizeSettings.setEntriesCount(256);
+
+// The color quantization is not used
+resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
+
+// The Euclidian method
+resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
+
+com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
+try {
+    com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
+
+    // Scale down by 2 times using adaptive resampling.
+    gifImage.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
+
+    // Save to PNG
+    gifImage.save(dir + "downsample.adaptive.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
 }
@@ -1013,58 +1036,6 @@ try {
     // Apply a sharpen filter with a kernel size of 5 and a sigma value of 4.0 to the entire image.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     gifImage.save(dir + "sample.SharpenFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
-} finally {
-    image.dispose();
-}
-```
-
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-Resize the width and height of the image while maintaining its aspect ratio and applying additional settings as specified. This method ensures that the image dimensions are adjusted proportionally, preserving the overall visual quality and appearance according to the provided settings.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-
-**Example: This example loads a GIF image and resizes it using various resizing settings.**
-
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
-
-// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
-resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
-
-// The small rectangular filter
-resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular);
-
-// The number of colors in the palette.
-resizeSettings.setEntriesCount(256);
-
-// The color quantization is not used
-resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
-
-// The Euclidian method
-resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
-
-com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
-try {
-    com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
-
-    // Scale down by 2 times using adaptive resampling.
-    gifImage.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
-
-    // Save to PNG
-    gifImage.save(dir + "downsample.adaptive.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
 }

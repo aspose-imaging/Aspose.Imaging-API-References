@@ -1,7 +1,7 @@
 ---
 title: WebPOptions Class
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.imaging.imageoptions/webpoptions/
 ---
 

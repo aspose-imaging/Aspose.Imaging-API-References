@@ -3,7 +3,7 @@ title: WebPImage.AdjustGamma
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Apply gamma correction to the image adjusting pixel intensities to achieve desired brightness and color balance. Incorporate this method into your image processing workflow to enhance visual quality and improve the accuracy of subsequent analysis or display tasks within your application
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.webp/webpimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}

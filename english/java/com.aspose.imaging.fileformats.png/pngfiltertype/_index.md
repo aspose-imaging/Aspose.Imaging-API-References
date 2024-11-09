@@ -22,7 +22,7 @@ The png filter type.
 | [Up](#Up) | The up filter, means row-by-row substraction filter will be applied. |
 | [Avg](#Avg) | The avg filter, means, that average filter will be applied to image data. |
 | [Paeth](#Paeth) | The paeth predictor filter. |
-| [Adaptive](#Adaptive) | Adaptive filtering, means that saving process will choose most sutable filter for each data row. |
+| [Adaptive](#Adaptive) | Adaptive filtering, means that saving process will choose most suitable filter for each data row. |
 ### None {#None}
 ```
 public static final int None
@@ -69,5 +69,5 @@ public static final int Adaptive
 ```
 
 
-Adaptive filtering, means that saving process will choose most sutable filter for each data row. Best compression, slowest execution time.
+Adaptive filtering, means that saving process will choose most suitable filter for each data row. Best compression, slowest execution time.
 

@@ -3,7 +3,7 @@ title: DicomImage.AdjustBrightness
 second_title: Aspose.Imaging for .NET API Reference
 description: DicomImage method. Enhance image luminance with the adjustment of brightness a parameterized method that allows developers to finely tune the luminosity of images. This userfriendly function empowers developers to seamlessly manipulate image brightness offering flexibility and control over visual aesthetics
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/adjustbrightness/
 ---
 ## DicomImage.AdjustBrightness method

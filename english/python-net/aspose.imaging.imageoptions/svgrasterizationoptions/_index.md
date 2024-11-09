@@ -1,7 +1,7 @@
 ---
 title: SvgRasterizationOptions Class
 type: docs
-weight: 300
+weight: 310
 url: /python-net/aspose.imaging.imageoptions/svgrasterizationoptions/
 ---
 

@@ -3,7 +3,7 @@ title: SvgOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Create Scalar Vector Graphics SVG image files with our API utilizing versatile options for color types and compression levels.
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.imaging.imageoptions/svgoptions/
 ---
 **Inheritance:**

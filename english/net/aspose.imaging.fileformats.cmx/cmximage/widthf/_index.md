@@ -3,7 +3,7 @@ title: CmxImage.WidthF
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImage property. Retrieve the width of the object in inches with this intuitive property. Ideal for developers seeking precise measurements of objects in their applications ensuring accurate layout and presentation
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.imaging.fileformats.cmx/cmximage/widthf/
 ---
 ## CmxImage.WidthF property

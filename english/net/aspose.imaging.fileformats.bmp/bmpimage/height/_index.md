@@ -3,7 +3,7 @@ title: BmpImage.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage property. Retrieve the height of the image effortlessly with this property. Ideal for developers needing quick access to information about image dimensions
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/height/
 ---
 ## BmpImage.Height property

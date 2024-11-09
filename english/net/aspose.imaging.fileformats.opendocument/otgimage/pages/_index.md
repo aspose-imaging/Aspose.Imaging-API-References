@@ -3,7 +3,7 @@ title: OtgImage.Pages
 second_title: Aspose.Imaging for .NET API Reference
 description: OtgImage property. Retrieves the collection of pages associated with the image enabling software developers to access and manipulate each individual page efficiently. This property facilitates seamless iteration through the pages for various operations enhancing the functionality and versatility of image processing applications
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.imaging.fileformats.opendocument/otgimage/pages/
 ---
 ## OtgImage.Pages property

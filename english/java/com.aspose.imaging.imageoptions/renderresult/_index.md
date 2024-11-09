@@ -3,7 +3,7 @@ title: RenderResult
 second_title: Aspose.Imaging for Java API Reference
 description: Represents information with results of rendering
 type: docs
-weight: 42
+weight: 43
 url: /java/com.aspose.imaging.imageoptions/renderresult/
 ---
 **Inheritance:**

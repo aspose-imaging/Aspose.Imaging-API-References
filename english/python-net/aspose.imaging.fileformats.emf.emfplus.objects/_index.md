@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.emf.emfplus.objects
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/
 ---
 

@@ -3,7 +3,7 @@ title: BmpImage.SetResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: BmpImage method. Adjust the resolution of your RasterImage effortlessly with this userfriendly method. Perfect for developers seeking precise control over image resolution in their applications
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/setresolution/
 ---
 ## BmpImage.SetResolution method

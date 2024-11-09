@@ -24,8 +24,6 @@ Manipulate OpenDocument Graphic (ODG) vector image file format with our API, wid
 | Method | Description |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
-| [getPageExportingAction()](#getPageExportingAction--) | This property allows to effortlessly retrieve or modify the action associated with exporting pages. |
-| [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | This property allows to effortlessly retrieve or modify the action associated with exporting pages. |
 | [getPages()](#getPages--) | Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | This property provides access to the default options associated with an image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | This method helps developers to resize images programmatically. |
@@ -114,29 +112,6 @@ Easily retrieve the file format value with this user-friendly property. Ideal fo
 
 **Returns:**
 long - a value of file format
-### getPageExportingAction() {#getPageExportingAction--}
-```
-public PageExportingAction getPageExportingAction()
-```
-
-
-This property allows to effortlessly retrieve or modify the action associated with exporting pages. Through precise manipulation of this property, software solutions gain the flexibility to tailor page exporting behavior according to specific application requirements, ensuring optimal performance and enhanced user experience. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Returns:**
-[PageExportingAction](../../com.aspose.imaging/pageexportingaction) - The page exporting action.
-### setPageExportingAction(PageExportingAction value) {#setPageExportingAction-com.aspose.imaging.PageExportingAction-}
-```
-public void setPageExportingAction(PageExportingAction value)
-```
-
-
-This property allows to effortlessly retrieve or modify the action associated with exporting pages. Through precise manipulation of this property, software solutions gain the flexibility to tailor page exporting behavior according to specific application requirements, ensuring optimal performance and enhanced user experience. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | The page exporting action. |
-
 ### getPages() {#getPages--}
 ```
 public Image[] getPages()

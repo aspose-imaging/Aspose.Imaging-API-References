@@ -1,7 +1,7 @@
 ---
 title: Blend Class
 type: docs
-weight: 280
+weight: 290
 url: /python-net/aspose.imaging/blend/
 ---
 

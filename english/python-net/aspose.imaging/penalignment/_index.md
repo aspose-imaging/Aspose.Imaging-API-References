@@ -1,7 +1,7 @@
 ---
 title: PenAlignment Enumeration
 type: docs
-weight: 10840
+weight: 10860
 url: /python-net/aspose.imaging/penalignment/
 ---
 

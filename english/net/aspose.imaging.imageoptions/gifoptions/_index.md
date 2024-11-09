@@ -3,7 +3,7 @@ title: Class GifOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.GifOptions class. The API for Graphical Interchange Format GIF raster image file creation offers developers comprehensive options for generating GIF images with precise control. With features to set background color color palette resolution interlaced type transparent color XMP metadata container and image compression this API ensures flexibility and efficiency in creating optimized and visually appealing GIFs tailored to specific application requirements
 type: docs
-weight: 10200
+weight: 10220
 url: /net/aspose.imaging.imageoptions/gifoptions/
 ---
 ## GifOptions class
@@ -33,7 +33,7 @@ public class GifOptions : ImageOptionsBase
 | [DoPaletteCorrection](../../aspose.imaging.imageoptions/gifoptions/dopalettecorrection/) { get; set; } | Gets or sets a value indicating whether palette correction is applied. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [HasTrailer](../../aspose.imaging.imageoptions/gifoptions/hastrailer/) { get; set; } | Gets or sets a value indicating whether GIF has trailer. |
-| [HasTransparentColor](../../aspose.imaging.imageoptions/gifoptions/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether GIF image has transparent color. |
+| [HasTransparentColor](../../aspose.imaging.imageoptions/gifoptions/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether a GIF image has transparent color. If the return value is `null`, this property is overridden by the source image context. |
 | [Interlaced](../../aspose.imaging.imageoptions/gifoptions/interlaced/) { get; set; } | True if image should be interlaced. |
 | [IsPaletteSorted](../../aspose.imaging.imageoptions/gifoptions/ispalettesorted/) { get; set; } | Gets or sets a value indicating whether palette entries are sorted. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |

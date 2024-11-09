@@ -22,6 +22,7 @@ The Avif image.
 
 | Method | Description |
 | --- | --- |
+| [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the bits per pixel value. |
 | [getWidth()](#getWidth--) | Gets the AVIF image width. |
 | [getHeight()](#getHeight--) | Gets the AVIF image height. |
@@ -31,6 +32,16 @@ public AvifImage()
 ```
 
 
+### getFileFormat() {#getFileFormat--}
+```
+public long getFileFormat()
+```
+
+
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+
+**Returns:**
+long
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()

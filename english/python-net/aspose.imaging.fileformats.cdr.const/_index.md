@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.cdr.const
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.imaging.fileformats.cdr.const/
 ---
 

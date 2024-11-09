@@ -1,7 +1,7 @@
 ---
 title: VectorRasterizationOptions Class
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 
@@ -63,7 +63,7 @@ Gets or sets a background color.
 
 **See also:**
 
-**[Example # 1](#example_101)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_138)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: page_size {#page_size2}
@@ -72,7 +72,7 @@ Gets or sets the page size.
 
 **See also:**
 
-**[Example # 1](#example_101)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_138)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: positioning {#positioning3}
@@ -81,7 +81,7 @@ Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_103)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_141)**: The following example shows how to set a memory limit when loading a CMX imag...
 
 
 ### Method: clone() {#clone__1}
@@ -116,7 +116,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_101}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_138}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -142,7 +142,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_103}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_141}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
 from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions

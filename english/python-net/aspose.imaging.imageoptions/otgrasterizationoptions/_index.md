@@ -1,7 +1,7 @@
 ---
 title: OtgRasterizationOptions Class
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.imaging.imageoptions/otgrasterizationoptions/
 ---
 

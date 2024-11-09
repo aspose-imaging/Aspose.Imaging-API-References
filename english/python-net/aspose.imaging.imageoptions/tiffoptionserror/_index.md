@@ -1,7 +1,7 @@
 ---
 title: TiffOptionsError Enumeration
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.imaging.imageoptions/tiffoptionserror/
 ---
 

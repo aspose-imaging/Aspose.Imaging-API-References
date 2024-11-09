@@ -3,7 +3,7 @@ title: Delegate PageExportingAction
 second_title: Aspose.Imaging for .NET API Reference
 description: Delegate for firing before page is exported
 type: docs
-weight: 11030
+weight: 11060
 url: /net/aspose.imaging/pageexportingaction/
 ---
 ## PageExportingAction delegate

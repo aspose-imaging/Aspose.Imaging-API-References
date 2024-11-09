@@ -1,7 +1,7 @@
 ---
 title: PngOptions Class
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.imaging.imageoptions/pngoptions/
 ---
 

@@ -80,6 +80,7 @@ Gif frame block.
 | [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings imageResizeSettings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes this [RasterCachedImage](../../com.aspose.imaging/rastercachedimage) instance. |
 ### GifFrameBlock(int width, int height) {#GifFrameBlock-int-int-}
 ```
 public GifFrameBlock(int width, int height)
@@ -731,3 +732,18 @@ Gets the full frame.
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - he RasterImage with full frame
+### resize(int newWidth, int newHeight, ImageResizeSettings imageResizeSettings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
+```
+public void resize(int newWidth, int newHeight, ImageResizeSettings imageResizeSettings)
+```
+
+
+Resizes this [RasterCachedImage](../../com.aspose.imaging/rastercachedimage) instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newWidth | int | New width. |
+| newHeight | int | New height. |
+| imageResizeSettings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | Resize settings. |
+

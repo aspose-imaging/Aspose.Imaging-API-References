@@ -3,7 +3,7 @@ title: ApngImage.AdjustGamma
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Apply gamma correction to the image using a floatingpoint coefficient with this intuitive method. Ideal for developers seeking precise color control in their images
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.apng/apngimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}

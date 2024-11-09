@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.cmx
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.imaging.fileformats.cmx/
 ---
 

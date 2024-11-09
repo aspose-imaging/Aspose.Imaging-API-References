@@ -1,7 +1,7 @@
 ---
 title: ColorBlend Class
 type: docs
-weight: 1120
+weight: 1130
 url: /python-net/aspose.imaging/colorblend/
 ---
 
