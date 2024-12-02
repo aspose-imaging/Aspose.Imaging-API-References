@@ -30,9 +30,9 @@ url: /python-net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| page_height | float | r/w | Gets or sets the page height. |
-| page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
-| page_width | float | r/w | Gets or sets the page width. |
+| page_height | float | r/w | Gets or sets the page height.<br/>            If the value is 0, the source image aspect ratio will be preserved. |
+| page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-net/aspose.imaging/sizef/) dimensions is 0, the source image aspect ratio will be preserved. |
+| page_width | float | r/w | Gets or sets the page width.<br/>            If the value is 0, the source image aspect ratio will be preserved. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | positioning | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
@@ -46,7 +46,7 @@ url: /python-net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [clone()](#clone__1) | Clones this instance. |
+| [clone()](#clone__1) | Creates a memberwise clone of this instance. |
 | [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies to. |
 
 
@@ -66,13 +66,13 @@ Initializes a new instance of the [CdrRasterizationOptions](/imaging/python-net/
  clone() 
 ```
 
-Clones this instance.
+Creates a memberwise clone of this instance.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 
 ### Method: copy_to(vector_rasterization_options) {#copy_to_vector_rasterization_options_2}

@@ -37,7 +37,7 @@ url: /python-net/aspose.imaging.imageoptions/pdfoptions/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [clone()](#clone__1) | Clones this instance. |
+| [clone()](#clone__1) | Creates a memberwise clone of this instance. |
 
 
 ### Constructor: PdfOptions() {#PdfOptions__1}
@@ -56,12 +56,12 @@ Initializes a new instance of the [PdfOptions](/imaging/python-net/aspose.imagin
  clone() 
 ```
 
-Clones this instance.
+Creates a memberwise clone of this instance.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 

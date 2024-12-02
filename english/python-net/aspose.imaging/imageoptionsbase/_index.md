@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [clone()](#clone__1) | Clones this instance. |
+| [clone()](#clone__1) | Creates a memberwise clone of this instance. |
 
 
 ### Property: palette {#palette1}
@@ -63,13 +63,13 @@ Gets or sets the resolution settings.
  clone() 
 ```
 
-Clones this instance.
+Creates a memberwise clone of this instance.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 
 ## **Examples**
