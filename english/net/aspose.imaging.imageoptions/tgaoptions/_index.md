@@ -41,7 +41,7 @@ public class TgaOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
 ## Examples

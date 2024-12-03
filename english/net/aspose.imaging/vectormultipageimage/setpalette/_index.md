@@ -3,7 +3,7 @@ title: VectorMultipageImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Sets the image palette
 type: docs
-weight: 130
+weight: 160
 url: /net/aspose.imaging/vectormultipageimage/setpalette/
 ---
 ## VectorMultipageImage.SetPalette method

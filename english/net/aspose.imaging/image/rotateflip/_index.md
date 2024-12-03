@@ -3,7 +3,7 @@ title: Image.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Rotates flips or rotates and flips the image
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.imaging/image/rotateflip/
 ---
 ## Image.RotateFlip method
@@ -58,6 +58,32 @@ foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
     {
         image.RotateFlip(rotateFlipType);
         image.Save(dir + "sample." + rotateFlipType + ".bmp");
+    }
+}
+```
+
+This example loads a ODG image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipType[]
+{
+    Aspose.Imaging.RotateFlipType.Rotate90FlipNone,
+    Aspose.Imaging.RotateFlipType.Rotate90FlipX,
+    Aspose.Imaging.RotateFlipType.Rotate90FlipXY,
+    Aspose.Imaging.RotateFlipType.Rotate90FlipY,
+};
+
+foreach (Aspose.Imaging.Image rotateFlipType in rotateFlipTypes)
+{
+    // Rotate, flip and save to the output file.
+    using (Aspose.Imaging.Image image = (Aspose.Imaging.FileFormats.OpenDocument.OdImage)Aspose.Imaging.Image.Load(dir + "sample.odg"))
+    {
+        image.RotateFlip(rotateFlipType);
+        image.Save(dir + "sample." + rotateFlipType + ".png", new Aspose.Imaging.ImageOptions.PngOptions());
     }
 }
 ```

@@ -109,7 +109,7 @@ The multipage image
 
 ## Create(string[], bool) {#create_5}
 
-Creates the specified files.
+Creates the multipage image containing the specified files.
 
 ```csharp
 public static Image Create(string[] files, bool throwExceptionOnLoadError)
@@ -134,7 +134,7 @@ The multipage image
 
 ## Create(string[]) {#create_4}
 
-Creates the specified files.
+Creates the multipage image containing the specified files.
 
 ```csharp
 public static Image Create(string[] files)

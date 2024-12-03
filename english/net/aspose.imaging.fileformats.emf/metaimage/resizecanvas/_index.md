@@ -3,7 +3,7 @@ title: MetaImage.ResizeCanvas
 second_title: Aspose.Imaging for .NET API Reference
 description: MetaImage method. Resizes the canvas
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.imaging.fileformats.emf/metaimage/resizecanvas/
 ---
 ## MetaImage.ResizeCanvas method

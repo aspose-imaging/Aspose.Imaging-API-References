@@ -3,7 +3,7 @@ title: CdrImagePage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImagePage method. Gets the default options
 type: docs
-weight: 100
+weight: 80
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/getdefaultoptions/
 ---
 ## CdrImagePage.GetDefaultOptions method

@@ -69,8 +69,8 @@ public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelL
 | virtual [Blend](../../aspose.imaging/rasterimage/blend/#blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay* image. |
 | abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata/)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer/). |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
-| virtual [Crop](../../aspose.imaging/rasterimage/crop/#crop)(Rectangle) | Crops the specified rectangle. |
-| virtual [Crop](../../aspose.imaging/rasterimage/crop/#crop_1)(int, int, int, int) | Crop image with shifts. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(Rectangle) | Crops the specified rectangle. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/#dither)(DitheringMethod, int) | Performs dithering on the current image. |
 | abstract [Dither](../../aspose.imaging/rasterimage/dither/#dither_1)(DitheringMethod, int, IColorPalette) | Performs dithering on the current image. |
@@ -107,14 +107,14 @@ public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelL
 | virtual [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors/#replacenontransparentcolors_1)(int) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. Note: if you use it on images without transparency, all colors will be replaced with a single one. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/rasterimage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
-| override [Resize](../../aspose.imaging/rasterimage/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |
+| virtual [Resize](../../aspose.imaging/image/resize/)(int, int, ResizeType) | Resizes the image. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ResizeType) | Resizes the height proportionally. |
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| virtual [Rotate](../../aspose.imaging/rasterimage/rotate/#rotate)(float) | Rotate image around the center. |
+| override [Rotate](../../aspose.imaging/rasterimage/rotate/#rotate)(float) | Rotate image around the center. |
 | virtual [Rotate](../../aspose.imaging/rasterimage/rotate/#rotate_1)(float, bool, Color) | Rotate image around the center. |
 | abstract [RotateFlip](../../aspose.imaging/image/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |

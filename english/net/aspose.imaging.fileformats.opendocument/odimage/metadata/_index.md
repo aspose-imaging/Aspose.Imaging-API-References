@@ -3,7 +3,7 @@ title: OdImage.Metadata
 second_title: Aspose.Imaging for .NET API Reference
 description: OdImage property. Retrieves metadata specific to OpenDocument files. This property allows access to essential information embedded within OD files facilitating various operations such as extraction modification or analysis of metadata
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.opendocument/odimage/metadata/
 ---
 ## OdImage.Metadata property

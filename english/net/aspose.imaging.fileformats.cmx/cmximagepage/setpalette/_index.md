@@ -3,7 +3,7 @@ title: CmxImagePage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImagePage method. Sets the image palette
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/setpalette/
 ---
 ## CmxImagePage.SetPalette method

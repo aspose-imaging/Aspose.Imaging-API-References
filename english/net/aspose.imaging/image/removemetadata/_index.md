@@ -3,7 +3,7 @@ title: Image.RemoveMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Removes metadata
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging/image/removemetadata/
 ---
 ## Image.RemoveMetadata method

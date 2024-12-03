@@ -23,8 +23,8 @@ The API for Encapsulated PostScript (EPS) image file format support offers robus
 | [getEpsType()](#getEpsType--) | Access and interpret the subtype value of your EPS image, streamlining your workflow and enhancing compatibility across platforms. |
 | [hasRasterPreview()](#hasRasterPreview--) | Discover the presence of a raster preview effortlessly with this property. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Access the precise bit depth of the image effortlessly with this property. |
-| [getWidth()](#getWidth--) | Retrieve the width of the image with this convenient property. |
-| [getHeight()](#getHeight--) | Access the height of the image using this property. |
+| [getWidthF()](#getWidthF--) | Retrieve the width of the image with this convenient property. |
+| [getHeightF()](#getHeightF--) | Access the height of the image using this property. |
 | [isCached()](#isCached--) | This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. |
 | [getPsStream()](#getPsStream--) | Gets the stream containing the PostScript to execute. |
 | [getPostScriptVersion()](#getPostScriptVersion--) | This property retrieves the PostScript version associated with the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance. |
@@ -38,9 +38,6 @@ The API for Encapsulated PostScript (EPS) image file format support offers robus
 | [getPreviewImagesIter()](#getPreviewImagesIter--) | Accesses the preview images linked to the [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) instance, allowing seamless retrieval for inspection or utilization in applications. |
 | [getPreviewImage()](#getPreviewImage--) | Retrieves the existing preview image in the specified `format` or returns `` if none is found. |
 | [getPreviewImage(long format)](#getPreviewImage-long-) | Retrieves the existing preview image in the specified `format` or returns `` if none is found. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | This method resizes the image, adjusting its dimensions according to specified parameters. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | This method facilitates versatile manipulation of the image by enabling rotation, flipping, or both rotation and flipping simultaneously. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize image palettes to achieve unique color schemes and enhance visual appeal. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve default options effortlessly to streamline image processing tasks. |
 
@@ -175,26 +172,26 @@ Access the precise bit depth of the image effortlessly with this property. Retri
 
 **Returns:**
 int
-### getWidth() {#getWidth--}
+### getWidthF() {#getWidthF--}
 ```
-public int getWidth()
+public float getWidthF()
 ```
 
 
 Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices.
 
 **Returns:**
-int - The image width in pixels.
-### getHeight() {#getHeight--}
+float - The image width in pixels.
+### getHeightF() {#getHeightF--}
 ```
-public int getHeight()
+public float getHeightF()
 ```
 
 
 Access the height of the image using this property. Obtain the image's height with ease, enabling seamless layout adjustments, aspect ratio calculations, and precise rendering across different screen resolutions and display environments.
 
 **Returns:**
-int - The image height in pixels.
+float - The image height in pixels.
 ### isCached() {#isCached--}
 ```
 public boolean isCached()
@@ -331,89 +328,6 @@ Retrieves the existing preview image in the specified `format` or returns `` if 
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The existing preview image or ``.
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-This method resizes the image, adjusting its dimensions according to specified parameters. It offers a straightforward way to modify the size of the image, ensuring flexibility and ease of use for developers.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-
-**Example: Resize EPS image and export it to PNG format.**
-
-``` java
-// Load EPS image
-try (Image image = Image.load("AstrixObelix.eps"))
-{
-    // Resize the image using the Mitchell cubic interpolation method
-    image.resize(400, 400, ResizeType.Mitchell);
-
-    // Export image to PNG format
-    image.save("ExportResult.png", new PngOptions());
-}
-```
-
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. It provides a convenient way to modify the image size while maintaining control over various parameters, ensuring optimal results for different use cases.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-
-**Example: Resize EPS image using advanced settings.**
-
-``` java
-// Load EPS image
-try (Image image = Image.load("AstrixObelix.eps"))
-{
-    ImageResizeSettings resizeSettings = new ImageResizeSettings();
-    // Set the interpolation mode
-    resizeSettings.setMode(ResizeType.LanczosResample);
-    // Set the type of the filter
-    resizeSettings.setFilterType(ImageFilterType.SmallRectangular);
-    // Sets the color compare method
-    resizeSettings.setColorCompareMethod(ColorCompareMethod.Euclidian);
-    // Set the color quantization method
-    resizeSettings.setColorQuantizationMethod(ColorQuantizationMethod.Popularity);
-
-    // Resize the image using advanced resize settings
-    image.resize(400, 400, resizeSettings);
-
-    // Export image to PNG format
-    image.save("ExportResult.png", new PngOptions());
-}
-```
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-This method facilitates versatile manipulation of the image by enabling rotation, flipping, or both rotation and flipping simultaneously. It offers flexibility in adjusting the orientation of the image to suit specific requirements, enhancing its usability and visual appeal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of the rotate flip. |
-
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```
 public void setPalette(IColorPalette palette, boolean updateColors)

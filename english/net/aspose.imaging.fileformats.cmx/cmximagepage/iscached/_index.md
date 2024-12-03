@@ -3,7 +3,7 @@ title: CmxImagePage.IsCached
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImagePage property. Gets a value indicating whether objects data is cached currently and no data reading is required
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/iscached/
 ---
 ## CmxImagePage.IsCached property

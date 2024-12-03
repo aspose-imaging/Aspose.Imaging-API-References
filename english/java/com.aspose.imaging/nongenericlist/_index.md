@@ -3,7 +3,7 @@ title: NonGenericList
 second_title: Aspose.Imaging for Java API Reference
 description: Non generic list of objects
 type: docs
-weight: 77
+weight: 76
 url: /java/com.aspose.imaging/nongenericlist/
 ---
 **Inheritance:**

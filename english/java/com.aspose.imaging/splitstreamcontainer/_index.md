@@ -3,7 +3,7 @@ title: SplitStreamContainer
 second_title: Aspose.Imaging for Java API Reference
 description: Represents split stream container which contains the stream and provides stream processing routines.
 type: docs
-weight: 109
+weight: 108
 url: /java/com.aspose.imaging/splitstreamcontainer/
 ---
 **Inheritance:**

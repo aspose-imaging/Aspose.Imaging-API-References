@@ -3,7 +3,7 @@ title: SvgImage.IsCached
 second_title: Aspose.Imaging for .NET API Reference
 description: SvgImage property. Retrieves a boolean value indicating whether the objects data is presently cached eliminating the need for additional data reading operations. This property provides insight into the current caching status optimizing data retrieval and processing workflows for enhanced performance and efficiency
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.svg/svgimage/iscached/
 ---
 ## SvgImage.IsCached property

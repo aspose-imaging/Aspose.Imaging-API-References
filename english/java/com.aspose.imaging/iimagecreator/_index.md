@@ -3,7 +3,7 @@ title: IImageCreator
 second_title: Aspose.Imaging for Java API Reference
 description: The image creator.
 type: docs
-weight: 129
+weight: 128
 url: /java/com.aspose.imaging/iimagecreator/
 ---```
 public interface IImageCreator

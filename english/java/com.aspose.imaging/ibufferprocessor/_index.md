@@ -3,7 +3,7 @@ title: IBufferProcessor
 second_title: Aspose.Imaging for Java API Reference
 description: The buffer processor.
 type: docs
-weight: 125
+weight: 124
 url: /java/com.aspose.imaging/ibufferprocessor/
 ---```
 public interface IBufferProcessor

@@ -42,9 +42,9 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | --- | --- |
 | static [Create](../../aspose.imaging/image/create/#create_2)(Image[]) | Creates a new image using the specified images as pages |
 | static [Create](../../aspose.imaging/image/create/#create)(MultipageCreateOptions) | Creates the specified multipage create options. |
-| static [Create](../../aspose.imaging/image/create/#create_4)(string[]) | Creates the specified files. |
+| static [Create](../../aspose.imaging/image/create/#create_4)(string[]) | Creates the multipage image containing the specified files. |
 | static [Create](../../aspose.imaging/image/create/#create_3)(Image[], bool) | Creates a new image the specified images as pages. |
-| static [Create](../../aspose.imaging/image/create/#create_5)(string[], bool) | Creates the specified files. |
+| static [Create](../../aspose.imaging/image/create/#create_5)(string[], bool) | Creates the multipage image containing the specified files. |
 | static [Create](../../aspose.imaging/image/create/#create_1)(ImageOptionsBase, int, int) | Creates a new image using the specified create options. |
 | static [Load](../../aspose.imaging/image/load/#load)(Stream) | Loads a new image from the specified stream. |
 | static [Load](../../aspose.imaging/image/load/#load_2)(string) | Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
@@ -52,6 +52,8 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | static [Load](../../aspose.imaging/image/load/#load_3)(string, LoadOptions) | Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata/)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer/). |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
+| virtual [Crop](../../aspose.imaging/image/crop/#crop)(Rectangle) | Crops the specified rectangle. |
+| virtual [Crop](../../aspose.imaging/image/crop/#crop_1)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | virtual [GetDefaultOptions](../../aspose.imaging/image/getdefaultoptions/)(object[]) | Gets the default options. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions/)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../datastreamsupporter/save/) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](./save/) method as the second parameter. |
@@ -59,13 +61,14 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/#resize)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | abstract [Resize](../../aspose.imaging/image/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
-| abstract [Resize](../../aspose.imaging/image/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |
+| virtual [Resize](../../aspose.imaging/image/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/#resizeheightproportionally)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/#resizeheightproportionally_1)(int, ImageResizeSettings) | Resizes the height proportionally. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/#resizeheightproportionally_2)(int, ResizeType) | Resizes the height proportionally. |
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/#resizewidthproportionally)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/#resizewidthproportionally_1)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/#resizewidthproportionally_2)(int, ResizeType) | Resizes the width proportionally. |
+| virtual [Rotate](../../aspose.imaging/image/rotate/)(float) | Rotate image around the center. |
 | abstract [RotateFlip](../../aspose.imaging/image/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/#save)() | Saves the image data to the underlying stream. |
 | [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |

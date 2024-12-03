@@ -36,8 +36,8 @@ public sealed class EmfImage : MetaImage
 | override [FileFormat](../../aspose.imaging.fileformats.emf/emfimage/fileformat/) { get; } | Access the file format value associated with the object. Easily determine the format of the file associated with the object for streamlined processing and compatibility checks. Simplify your workflow by retrieving the file format information with ease. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | [Header](../../aspose.imaging.fileformats.emf/emfimage/header/) { get; set; } | Retrieve or modify the EMF metafile header record with this property. Ideal for managing metafile data efficiently within your application. Improve your workflow with streamlined access to metafile header information. |
-| override [Height](../../aspose.imaging.fileformats.emf/emfimage/height/) { get; } | Retrieve the image's height, facilitating accurate rendering and layout adjustments. Accessing the height property ensures compatibility and seamless integration across different platforms and applications. |
-| virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
+| override [Height](../../aspose.imaging/vectorimage/height/) { get; } | Gets the image height. |
+| override [HeightF](../../aspose.imaging.fileformats.emf/emfimage/heightf/) { get; } | Retrieve the image's height, facilitating accurate rendering and layout adjustments. Accessing the height property ensures compatibility and seamless integration across different platforms and applications. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.emf/emfimage/iscached/) { get; } | Access a value indicating whether the object's data is currently cached, eliminating the need for additional data reading. Enhance efficiency by quickly determining if cached data is available for immediate access. Optimize your workflow with streamlined data retrieval processes. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
@@ -45,8 +45,8 @@ public sealed class EmfImage : MetaImage
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
-| override [Width](../../aspose.imaging.fileformats.emf/emfimage/width/) { get; } | Access to the width of the image, providing essential information for precise rendering and processing. Quickly retrieve the image's width to ensure compatibility and proper layout within various applications and platforms. |
-| virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
+| override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
+| override [WidthF](../../aspose.imaging.fileformats.emf/emfimage/widthf/) { get; } | Access to the width of the image, providing essential information for precise rendering and processing. Quickly retrieve the image's width to ensure compatibility and proper layout within various applications and platforms. |
 
 ## Methods
 
@@ -54,8 +54,8 @@ public sealed class EmfImage : MetaImage
 | --- | --- |
 | override [CacheData](../../aspose.imaging.fileformats.emf/emfimage/cachedata/)() | Efficiently cache data and prevent redundant loading from the underlying [`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) with this method. Enhance performance and streamline data access in your application, optimizing resource utilization for improved responsiveness. |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
-| override [Crop](../../aspose.imaging.fileformats.emf/emfimage/crop/#crop)(Rectangle) | Crop the specified rectangle using this function. Ideal for refining image composition and focusing on specific areas of interest within the image. Improve visual clarity and highlight key details with precise cropping functionality. |
-| virtual [Crop](../../aspose.imaging.fileformats.emf/metaimage/crop/)(int, int, int, int) | Crop image with shifts. |
+| override [Crop](../../aspose.imaging/vectorimage/crop/)(Rectangle) | Crops the specified rectangle. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.emf/emfimage/getdefaultoptions/)(object[]) | Retrieve the default options for your image effortlessly. With this feature, you can quickly access the preset configurations, ensuring seamless integration and optimal performance for your projects. Ideal for streamlining your workflow and achieving consistent results across your images. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | Gets the embedded images. |
@@ -63,12 +63,12 @@ public sealed class EmfImage : MetaImage
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions/)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save/) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save/) method as the second parameter. |
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | override [GetUsedFonts](../../aspose.imaging.fileformats.emf/emfimage/getusedfonts/)() | Retrieve the list of fonts utilized within the metafile with this method. Gain insights into font usage, facilitating efficient management and optimization of font resources for enhanced rendering and display fidelity. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
 | virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
-| override [Resize](../../aspose.imaging.fileformats.emf/emfimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjust your image size with customizable settings, ensuring optimal dimensions and clarity. Perfect for tailoring images to specific requirements while maintaining quality. |
-| override [Resize](../../aspose.imaging.fileformats.emf/emfimage/resize/#resize_2)(int, int, ResizeType) | Resize your image effortlessly with this function, specifying the desired width, height, and type. Perfect for adjusting images to fit specific dimensions while maintaining clarity and quality. Ideal for optimizing images for various platforms and applications. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |
 | override [ResizeCanvas](../../aspose.imaging.fileformats.emf/emfimage/resizecanvas/)(Rectangle) | Resize the canvas with ease using this function. Perfect for adjusting the overall dimensions of the image without altering its content. Enhance presentation and prepare images for various display sizes effortlessly. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |
@@ -76,7 +76,8 @@ public sealed class EmfImage : MetaImage
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| override [RotateFlip](../../aspose.imaging.fileformats.emf/emfimage/rotateflip/)(RotateFlipType) | Easily rotate, flip, or perform both operations simultaneously on your image using this simple `RotateFlip()` method. Perfect for adjusting orientation and enhancing visual appeal without hassle. Ideal for achieving the desired presentation of your images in any project or application. |
+| override [Rotate](../../aspose.imaging/vectorimage/rotate/)(float) | Rotate image around the center. |
+| override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
 | [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
@@ -85,7 +86,7 @@ public sealed class EmfImage : MetaImage
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| override [SetPalette](../../aspose.imaging.fileformats.emf/emfimage/setpalette/)(IColorPalette, bool) | Enhance your image's color palette by setting it with the specified `IColorPalette`. Achieve vivid, vibrant visuals with ease, ensuring your images stand out and captivate viewers. Ideal for optimizing color schemes and achieving the perfect look for your projects. |
+| override [SetPalette](../../aspose.imaging.fileformats.emf/emfimage/setpalette/)(IColorPalette, bool) | Sets the image palette. |
 
 ## Examples
 

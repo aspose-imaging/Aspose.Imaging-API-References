@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage
 second_title: Aspose.Imaging for Java API Reference
 description: The raster multipage image
 type: docs
-weight: 91
+weight: 90
 url: /java/com.aspose.imaging/rastercachedmultipageimage/
 ---
 **Inheritance:**

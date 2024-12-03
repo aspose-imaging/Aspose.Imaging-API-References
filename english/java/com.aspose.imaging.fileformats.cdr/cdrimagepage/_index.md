@@ -24,15 +24,10 @@ The Cdr image page
 | [getPageNumber()](#getPageNumber--) | Gets the page number. |
 | [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
-| [getWidth()](#getWidth--) | Gets the image width. |
-| [getHeight()](#getHeight--) | Gets the image height. |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getCdrDocument()](#getCdrDocument--) | Gets the CDR document. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer`. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 ### getParentImage() {#getParentImage--}
 ```
@@ -78,26 +73,6 @@ Gets the image bits per pixel count.
 
 **Returns:**
 int - the image bits per pixel count.
-### getWidth() {#getWidth--}
-```
-public int getWidth()
-```
-
-
-Gets the image width.
-
-**Returns:**
-int - the image width.
-### getHeight() {#getHeight--}
-```
-public int getHeight()
-```
-
-
-Gets the image height.
-
-**Returns:**
-int - the image height.
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
@@ -140,49 +115,6 @@ public synchronized void cacheData()
 
 
 Caches the data and ensures no additional data loading will be performed from the underlying `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer`.
-
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-Resizes the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-Resizes the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-Rotates, flips, or rotates and flips the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of rotation and flipping. |
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

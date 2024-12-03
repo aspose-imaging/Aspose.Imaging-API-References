@@ -3,7 +3,7 @@ title: LineJoin
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies how to join consecutive line or curve segments in a figure subpath contained in a GraphicsPath object.
 type: docs
-weight: 70
+weight: 69
 url: /java/com.aspose.imaging/linejoin/
 ---
 **Inheritance:**

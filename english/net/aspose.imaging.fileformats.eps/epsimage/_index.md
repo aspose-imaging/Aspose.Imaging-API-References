@@ -34,8 +34,8 @@ public sealed class EpsImage : VectorImage
 | override [FileFormat](../../aspose.imaging.fileformats.eps/epsimage/fileformat/) { get; } | Access the file format of your image with this property. Retrieve essential information about the format of your image file, facilitating compatibility and efficient processing. Ideal for identifying the format of your image files for seamless integration into your projects. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | [HasRasterPreview](../../aspose.imaging.fileformats.eps/epsimage/hasrasterpreview/) { get; } | Discover the presence of a raster preview effortlessly with this property. Access the boolean value indicating whether the `EpsImage` instance includes a raster preview, empowering your image processing tasks with clarity and efficiency. Ideal for streamlining workflow decisions based on the presence or absence of raster previews in EPS images. |
-| override [Height](../../aspose.imaging.fileformats.eps/epsimage/height/) { get; } | Access the height of the image using this property. Obtain the image's height with ease, enabling seamless layout adjustments, aspect ratio calculations, and precise rendering across different screen resolutions and display environments. |
-| virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
+| override [Height](../../aspose.imaging/vectorimage/height/) { get; } | Gets the image height. |
+| override [HeightF](../../aspose.imaging.fileformats.eps/epsimage/heightf/) { get; } | Access the height of the image using this property. Obtain the image's height with ease, enabling seamless layout adjustments, aspect ratio calculations, and precise rendering across different screen resolutions and display environments. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.eps/epsimage/iscached/) { get; } | This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. It offers a quick and efficient method to determine if the required information is readily available, optimizing performance and reducing resource overhead in data-intensive operations. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
@@ -46,8 +46,8 @@ public sealed class EpsImage : VectorImage
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
 | [Title](../../aspose.imaging.fileformats.eps/epsimage/title/) { get; } | This property retrieves the title extracted from the EPS Document Structuring Conventions (DSC) comments embedded within the EPS file. It provides valuable metadata about the content of the EPS file, aiding in document organization and identification within compatible software applications. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
-| override [Width](../../aspose.imaging.fileformats.eps/epsimage/width/) { get; } | Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices. |
-| virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
+| override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
+| override [WidthF](../../aspose.imaging.fileformats.eps/epsimage/widthf/) { get; } | Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices. |
 
 ## Methods
 
@@ -55,6 +55,8 @@ public sealed class EpsImage : VectorImage
 | --- | --- |
 | override [CacheData](../../aspose.imaging.fileformats.eps/epsimage/cachedata/)() | This method does nothing as the current implementation of the `EpsImage` class does not involve caching data. While it may not perform any action, understanding this behavior is crucial for developers working with EPS images, ensuring efficient resource management and optimal performance within their applications. |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
+| override [Crop](../../aspose.imaging/vectorimage/crop/)(Rectangle) | Crops the specified rectangle. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.eps/epsimage/getdefaultoptions/)(object[]) | Retrieve default options effortlessly to streamline image processing tasks. Access preconfigured settings to expedite workflow and ensure consistent output quality without manual configuration. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | Gets the embedded images. |
@@ -62,19 +64,20 @@ public sealed class EpsImage : VectorImage
 | [GetPreviewImage](../../aspose.imaging.fileformats.eps/epsimage/getpreviewimage/)(EpsPreviewFormat) | Retrieves the existing preview image in the specified *format* or returns `null` if none is found. This method offers flexibility in accessing preview images tailored to specific formats, optimizing compatibility and resource management within applications. |
 | [GetPreviewImages](../../aspose.imaging.fileformats.eps/epsimage/getpreviewimages/)() | Accesses the preview images linked to the `EpsImage` instance, allowing seamless retrieval for inspection or utilization in applications. This method provides convenient access to preview images, enhancing user interaction with the image data. |
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
 | virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
-| override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize/#resize_1)(int, int, ImageResizeSettings) | This method resizes the image using predefined settings, allowing for efficient adjustment of dimensions. It provides a convenient way to modify the image size while maintaining control over various parameters, ensuring optimal results for different use cases. |
-| override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize/#resize_2)(int, int, ResizeType) | This method resizes the image, adjusting its dimensions according to specified parameters. It offers a straightforward way to modify the size of the image, ensuring flexibility and ease of use for developers. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ResizeType) | Resizes the height proportionally. |
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| override [RotateFlip](../../aspose.imaging.fileformats.eps/epsimage/rotateflip/)(RotateFlipType) | This method facilitates versatile manipulation of the image by enabling rotation, flipping, or both rotation and flipping simultaneously. It offers flexibility in adjusting the orientation of the image to suit specific requirements, enhancing its usability and visual appeal. |
+| override [Rotate](../../aspose.imaging/vectorimage/rotate/)(float) | Rotate image around the center. |
+| override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
 | [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |

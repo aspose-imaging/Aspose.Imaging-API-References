@@ -29,17 +29,14 @@ The API for CorelDRAW CDR vector image format support is an essential toolkit fo
 | [getDefaultPage()](#getDefaultPage--) | Retrieve the default page of the image with ease using this user-friendly property. |
 | [isCached()](#isCached--) | Effortlessly determine whether the object's data is currently cached, eliminating the need for data reading. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the bit depth of the image effortlessly with this user-friendly property. |
-| [getWidth()](#getWidth--) | Retrieve the width of the image seamlessly with this intuitive property. |
-| [getHeight()](#getHeight--) | Retrieve the height of the image effortlessly with this intuitive property. |
 | [getPageCount()](#getPageCount--) | Effortlessly retrieve or update the total page count of the image with this intuitive property. |
 | [getPages()](#getPages--) | Retrieve the pages of the image seamlessly with this intuitive property. |
 | [getCdrDocument()](#getCdrDocument--) | Effortlessly retrieve or update the CDR document using this intuitive property. |
 | [getFileFormat()](#getFileFormat--) | Retrieve the file format of the image effortlessly with this intuitive property. |
+| [getWidth()](#getWidth--) | Gets the image width. |
+| [getHeight()](#getHeight--) | Gets the image height. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
 | [cacheData()](#cacheData--) | Effortlessly cache the data to prevent additional loading from the underlying source with this user-friendly method. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Effortlessly resize the image to desired dimensions with this intuitive method. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize the color palette of the image with this intuitive method. |
 
 ## Example: The following example shows how to cache all pages of a CDR image.
@@ -118,26 +115,6 @@ Retrieve the bit depth of the image effortlessly with this user-friendly propert
 
 **Returns:**
 int - The image bits per pixel count.
-### getWidth() {#getWidth--}
-```
-public int getWidth()
-```
-
-
-Retrieve the width of the image seamlessly with this intuitive property. Ideal for developers seeking to access the dimensions of their images dynamically, ensuring precise layout and rendering in their applications.
-
-**Returns:**
-int - The image width in pixels.
-### getHeight() {#getHeight--}
-```
-public int getHeight()
-```
-
-
-Retrieve the height of the image effortlessly with this intuitive property. Perfect for developers seeking to access the dimensions of their images dynamically, ensuring accurate layout and rendering in their applications.
-
-**Returns:**
-int - the image height in pixels.
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()
@@ -207,6 +184,30 @@ Retrieve the file format of the image effortlessly with this intuitive property.
 
 **Returns:**
 long
+### getWidth() {#getWidth--}
+```
+public int getWidth()
+```
+
+
+Gets the image width.
+
+Value: The image width.
+
+**Returns:**
+int - the image width.
+### getHeight() {#getHeight--}
+```
+public int getHeight()
+```
+
+
+Gets the image height.
+
+Value: The image height.
+
+**Returns:**
+int - the image height.
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)
@@ -250,49 +251,6 @@ try {
     image.dispose();
 }
 ```
-
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-Effortlessly resize the image to desired dimensions with this intuitive method. Perfect for developers seeking to adjust the size of images dynamically, ensuring they fit the layout or requirements of their applications seamlessly.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-Resizes the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-Adjust the orientation of the image by rotating, flipping, or applying both operations with this versatile method. Perfect for developers seeking to customize image orientation dynamically, ensuring optimal presentation or alignment in their applications.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of rotating flip. |
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

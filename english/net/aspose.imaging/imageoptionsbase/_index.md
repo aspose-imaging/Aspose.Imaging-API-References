@@ -11,7 +11,7 @@ url: /net/aspose.imaging/imageoptionsbase/
 The image base options.
 
 ```csharp
-public abstract class ImageOptionsBase : DisposableObject, IHasXmpData
+public abstract class ImageOptionsBase : DisposableObject, ICloneable, IHasXmpData
 ```
 
 ## Properties
@@ -34,7 +34,7 @@ public abstract class ImageOptionsBase : DisposableObject, IHasXmpData
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 
 ### See Also

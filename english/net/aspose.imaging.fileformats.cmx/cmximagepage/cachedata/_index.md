@@ -3,7 +3,7 @@ title: CmxImagePage.CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImagePage method. Cache can not be used
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/cachedata/
 ---
 ## CmxImagePage.CacheData method

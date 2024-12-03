@@ -1,14 +1,14 @@
 ---
 title: ImageOptionsBase.Clone
 second_title: Aspose.Imaging for .NET API Reference
-description: ImageOptionsBase method. Clones this instance
+description: ImageOptionsBase method. Creates a memberwise clone of this instance
 type: docs
 weight: 110
 url: /net/aspose.imaging/imageoptionsbase/clone/
 ---
 ## ImageOptionsBase.Clone method
 
-Clones this instance.
+Creates a memberwise clone of this instance.
 
 ```csharp
 public virtual ImageOptionsBase Clone()
@@ -16,7 +16,7 @@ public virtual ImageOptionsBase Clone()
 
 ### Return Value
 
-Returns shallow copy of this instance
+A memberwise clone of this instance.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ImageResizeSettings
 second_title: Aspose.Imaging for Java API Reference
 description: Image resize settings class
 type: docs
-weight: 64
+weight: 63
 url: /java/com.aspose.imaging/imageresizesettings/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Pen
 second_title: Aspose.Imaging for Java API Reference
 description: Defines an object used to draw lines curves and figures.
 type: docs
-weight: 82
+weight: 81
 url: /java/com.aspose.imaging/pen/
 ---
 **Inheritance:**

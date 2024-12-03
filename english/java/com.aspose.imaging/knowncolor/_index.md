@@ -3,7 +3,7 @@ title: KnownColor
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the known system colors.
 type: docs
-weight: 67
+weight: 66
 url: /java/com.aspose.imaging/knowncolor/
 ---
 **Inheritance:**

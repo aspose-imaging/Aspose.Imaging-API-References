@@ -3,7 +3,7 @@ title: WmfImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: WmfImage method. Apply a specified palette to the image enabling customization of color representation. Utilize this method to enhance visual rendering and achieve specific color effects within your application
 type: docs
-weight: 180
+weight: 150
 url: /net/aspose.imaging.fileformats.wmf/wmfimage/setpalette/
 ---
 ## WmfImage.SetPalette method

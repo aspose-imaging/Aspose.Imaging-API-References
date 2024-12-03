@@ -3,7 +3,7 @@ title: ProgressEventHandler
 second_title: Aspose.Imaging for Java API Reference
 description: Progress event handler function reference
 type: docs
-weight: 89
+weight: 88
 url: /java/com.aspose.imaging/progresseventhandler/
 ---
 **Inheritance:**

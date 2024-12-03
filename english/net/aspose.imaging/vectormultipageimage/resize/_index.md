@@ -3,7 +3,7 @@ title: VectorMultipageImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Resizes the image
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.imaging/vectormultipageimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

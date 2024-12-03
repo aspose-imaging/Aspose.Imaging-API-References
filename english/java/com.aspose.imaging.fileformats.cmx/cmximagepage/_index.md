@@ -32,11 +32,11 @@ The image of CMX page
 | [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 | [getWidthF()](#getWidthF--) | Gets the object width, in inches. |
 | [getHeightF()](#getHeightF--) | Gets the object height, in inches. |
+| [getWidth()](#getWidth--) | Gets the image width. |
+| [getHeight()](#getHeight--) | Gets the image height. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [cacheData()](#cacheData--) | Cache can not be used. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 ### CmxImagePage(CmxPage cmxPage, Image container) {#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-}
 ```
@@ -127,6 +127,30 @@ Gets the object height, in inches.
 
 **Returns:**
 float - the object height, in inches.
+### getWidth() {#getWidth--}
+```
+public int getWidth()
+```
+
+
+Gets the image width.
+
+Value: The image width.
+
+**Returns:**
+int - the image width.
+### getHeight() {#getHeight--}
+```
+public int getHeight()
+```
+
+
+Gets the image height.
+
+Value: The image height.
+
+**Returns:**
+int - the image height.
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)
@@ -171,21 +195,6 @@ try {
 }
 ```
 
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-Resizes the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```
 public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -200,19 +209,6 @@ Resizes the image.
 | newWidth | int | The new width. |
 | newHeight | int | The new height. |
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-Rotates, flips, or rotates and flips the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of the rotation and flipping. |
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

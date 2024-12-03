@@ -146,7 +146,7 @@ public class TgaImage : RasterCachedImage
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| virtual [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
+| override [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
 | override [Rotate](../../aspose.imaging.fileformats.tga/tgaimage/rotate/#rotate_1)(float, bool, Color) | Rotates the image around its center by a specified angle while maintaining resize proportionality and preserving the background color. This method allows for precise image manipulation, ensuring that the rotation maintains visual balance and consistency with the specified background color. It's ideal for tasks where accurate rotation around the center is necessary, such as orientation correction or artistic adjustments. |
 | override [RotateFlip](../../aspose.imaging.fileformats.tga/tgaimage/rotateflip/)(RotateFlipType) | The "RotateFlip" method enables rotating and flipping operations on the image. It offers versatile functionality for manipulating image orientation, allowing users to perform rotations and flips according to their requirements, facilitating efficient image processing tasks within software applications. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |

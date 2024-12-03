@@ -3,7 +3,7 @@ title: ResolutionUnit
 second_title: Aspose.Imaging for Java API Reference
 description: Resolution unit enum.
 type: docs
-weight: 100
+weight: 99
 url: /java/com.aspose.imaging/resolutionunit/
 ---
 **Inheritance:**

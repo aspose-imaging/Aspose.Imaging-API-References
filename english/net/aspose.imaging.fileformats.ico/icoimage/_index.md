@@ -128,7 +128,7 @@ public class IcoImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | override [ResizeWidthProportionally](../../aspose.imaging/rastercachedmultipageimage/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| virtual [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
+| override [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
 | override [Rotate](../../aspose.imaging/rastercachedmultipageimage/rotate/)(float, bool, Color) | [`Rotate`](../../aspose.imaging/rastercachedmultipageimage/rotate/) image around the center. |
 | override [RotateFlip](../../aspose.imaging/rastercachedmultipageimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips all pages. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |

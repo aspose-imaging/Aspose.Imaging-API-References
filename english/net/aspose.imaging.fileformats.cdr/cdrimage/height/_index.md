@@ -1,14 +1,14 @@
 ---
 title: CdrImage.Height
 second_title: Aspose.Imaging for .NET API Reference
-description: CdrImage property. Retrieve the height of the image effortlessly with this intuitive property. Perfect for developers seeking to access the dimensions of their images dynamically ensuring accurate layout and rendering in their applications
+description: CdrImage property. Gets the image height
 type: docs
 weight: 50
 url: /net/aspose.imaging.fileformats.cdr/cdrimage/height/
 ---
 ## CdrImage.Height property
 
-Retrieve the height of the image effortlessly with this intuitive property. Perfect for developers seeking to access the dimensions of their images dynamically, ensuring accurate layout and rendering in their applications.
+Gets the image height.
 
 ```csharp
 public override int Height { get; }

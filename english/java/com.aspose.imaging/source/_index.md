@@ -3,7 +3,7 @@ title: Source
 second_title: Aspose.Imaging for Java API Reference
 description: The source is used to contain all relevant information for an object pipe.
 type: docs
-weight: 108
+weight: 107
 url: /java/com.aspose.imaging/source/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Image.Save
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Saves the image data to the underlying stream
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.imaging/image/save/
 ---
 ## Save() {#save}

@@ -29,14 +29,9 @@ The open document
 | [getDefaultPage()](#getDefaultPage--) | Retrieves the default page associated with the image, providing essential access to the primary page within the image collection. |
 | [isCached()](#isCached--) | Obtains a boolean value indicating whether the data of the object is currently cached, thus eliminating the need for data reading. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieves the count of bits per pixel for the image. |
-| [getWidth()](#getWidth--) | Retrieves the width of the image, indicating the horizontal dimension in pixels. |
-| [getHeight()](#getHeight--) | Returns the height of the image, denoting the vertical dimension in pixels. |
 | [getPageCount()](#getPageCount--) | Retrieves the total count of pages within the image. |
 | [getMetadata()](#getMetadata--) | Retrieves metadata specific to OpenDocument files. |
 | [getRecords()](#getRecords--) | Retrieves the OpenDocument records stored within the image. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjusts the dimensions of the image according to specified width, height, and resize settings. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | This method resizes the image, adjusting both width and height based on the specified dimensions and resize type. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | This method provides functionality to rotate, flip, or perform both operations simultaneously on the image. |
 ### OdImage(StreamContainer streamContainer, LoadOptions options) {#OdImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-}
 ```
 public OdImage(StreamContainer streamContainer, LoadOptions options)
@@ -94,26 +89,6 @@ Retrieves the count of bits per pixel for the image. This property provides insi
 
 **Returns:**
 int - the image bits per pixel count.
-### getWidth() {#getWidth--}
-```
-public int getWidth()
-```
-
-
-Retrieves the width of the image, indicating the horizontal dimension in pixels. This property provides essential information about the image's size, enabling precise rendering, manipulation, and analysis of image data.
-
-**Returns:**
-int - the image width in pixels.
-### getHeight() {#getHeight--}
-```
-public int getHeight()
-```
-
-
-Returns the height of the image, denoting the vertical dimension in pixels. This property is crucial for understanding the image's overall size and proportions, facilitating accurate display and processing of image content.
-
-**Returns:**
-int - the image height in pixels.
 ### getPageCount() {#getPageCount--}
 ```
 public int getPageCount()
@@ -144,46 +119,3 @@ Retrieves the OpenDocument records stored within the image. This property grants
 
 **Returns:**
 com.aspose.imaging.fileformats.opendocument.OdObject[] - the records.
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-Adjusts the dimensions of the image according to specified width, height, and resize settings. This method provides flexibility in resizing images while maintaining desired proportions and adhering to defined resize configurations, ensuring accurate adjustment of image dimensions to meet specific requirements or display criteria.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-This method resizes the image, adjusting both width and height based on the specified dimensions and resize type. It offers a comprehensive approach to resizing, allowing for precise adjustments while maintaining image quality and integrity. By incorporating the resize type parameter, users can choose from various resizing algorithms or methods to achieve optimal results for different use cases or preferences.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-This method provides functionality to rotate, flip, or perform both operations simultaneously on the image. It allows users to manipulate the orientation of the image according to their specific requirements. With support for rotation angles and flip directions, it offers flexibility in transforming the image to desired orientations or orientations.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of the rotate flip. |
-

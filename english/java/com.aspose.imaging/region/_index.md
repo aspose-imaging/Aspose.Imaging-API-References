@@ -3,7 +3,7 @@ title: Region
 second_title: Aspose.Imaging for Java API Reference
 description: Describes the interior of a graphics shape composed of rectangles and paths.
 type: docs
-weight: 96
+weight: 95
 url: /java/com.aspose.imaging/region/
 ---
 **Inheritance:**

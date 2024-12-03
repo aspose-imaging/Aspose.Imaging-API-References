@@ -137,7 +137,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | override [ResizeWidthProportionally](../../aspose.imaging.fileformats.apng/apngimage/resizewidthproportionally/#resizewidthproportionally_2)(int, ResizeType) | Proportionally resize the width of the image effortlessly with this intuitive method. Ideal for developers seeking to maintain the aspect ratio of their images while adjusting their dimensions. |
-| virtual [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
+| override [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
 | override [Rotate](../../aspose.imaging.fileformats.apng/apngimage/rotate/#rotate_1)(float, bool, Color) | Rotate the image around its center effortlessly with this intuitive method. Perfect for developers seeking to adjust the orientation of their images dynamically. |
 | override [RotateFlip](../../aspose.imaging.fileformats.apng/apngimage/rotateflip/)(RotateFlipType) | Effortlessly manipulate the active frame by rotating, flipping, or both with this intuitive method. Ideal for developers seeking to customize image frame orientations. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |

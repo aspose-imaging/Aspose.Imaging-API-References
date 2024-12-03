@@ -3,7 +3,7 @@ title: MetaImage.GetUsedFonts
 second_title: Aspose.Imaging for .NET API Reference
 description: MetaImage method. Returns the list of font which used inside metafile
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.emf/metaimage/getusedfonts/
 ---
 ## MetaImage.GetUsedFonts method

@@ -26,9 +26,6 @@ Manipulate OpenDocument Graphic (ODG) vector image file format with our API, wid
 | [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
 | [getPages()](#getPages--) | Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | This property provides access to the default options associated with an image. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | This method helps developers to resize images programmatically. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | This method facilitates image resizing with precise control over width, height, and resize type parameters. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | This versatile method apply various transformations to images, including rotation and flipping, to achieve desired orientations and visual effects. |
 
 ## Example: This example loads a multi-page ODG image.
 
@@ -137,46 +134,3 @@ This property provides access to the default options associated with an image. B
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-This method helps developers to resize images programmatically. By invoking this function, you can dynamically adjust the dimensions of images, catering to specific requirements or constraints within their applications.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-This method facilitates image resizing with precise control over width, height, and resize type parameters. You can specify the desired dimensions and choose from different resizing algorithms or types to achieve optimal results based on application's requirements.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-This versatile method apply various transformations to images, including rotation and flipping, to achieve desired orientations and visual effects. With intuitive parameters, you can specify the degree of rotation and the type of flipping (horizontal, vertical, or both) to precisely manipulate the image as needed.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of the rotate flip. |
-

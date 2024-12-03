@@ -3,7 +3,7 @@ title: TransparencySupporter
 second_title: Aspose.Imaging for Java API Reference
 description: The object supporting transparency.
 type: docs
-weight: 117
+weight: 116
 url: /java/com.aspose.imaging/transparencysupporter/
 ---
 **Inheritance:**

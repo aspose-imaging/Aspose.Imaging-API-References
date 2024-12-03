@@ -3,7 +3,7 @@ title: PenAlignment
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the alignment of a Pen object in relation to the theoretical zero-width line.
 type: docs
-weight: 83
+weight: 82
 url: /java/com.aspose.imaging/penalignment/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PixelFormat
 second_title: Aspose.Imaging for Java API Reference
 description: The pixel data format actual meaning.
 type: docs
-weight: 86
+weight: 85
 url: /java/com.aspose.imaging/pixelformat/
 ---
 **Inheritance:**

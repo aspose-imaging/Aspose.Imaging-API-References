@@ -3,7 +3,7 @@ title: IAdvancedBufferProcessor
 second_title: Aspose.Imaging for Java API Reference
 description: The advanced buffer processor.
 type: docs
-weight: 123
+weight: 122
 url: /java/com.aspose.imaging/iadvancedbufferprocessor/
 ---
 **All Implemented Interfaces:**

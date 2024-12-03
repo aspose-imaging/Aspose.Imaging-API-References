@@ -3,7 +3,7 @@ title: OpenTypeFontsCache
 second_title: Aspose.Imaging for Java API Reference
 description: OpenTypeInfoCacheProcessor
 type: docs
-weight: 79
+weight: 78
 url: /java/com.aspose.imaging/opentypefontscache/
 ---
 **Inheritance:**

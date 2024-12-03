@@ -3,7 +3,7 @@ title: RasterImage.LoadPartialArgb64Pixels
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Loads 64bit ARGB pixels partially by packs
 type: docs
-weight: 410
+weight: 400
 url: /net/aspose.imaging/rasterimage/loadpartialargb64pixels/
 ---
 ## RasterImage.LoadPartialArgb64Pixels method

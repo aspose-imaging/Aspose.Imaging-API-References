@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Imaging for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 68
+weight: 67
 url: /java/com.aspose.imaging/license/
 ---
 **Inheritance:**

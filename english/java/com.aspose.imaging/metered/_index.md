@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Imaging for Java API Reference
 description: Provides metered methods for integration
 type: docs
-weight: 75
+weight: 74
 url: /java/com.aspose.imaging/metered/
 ---
 **Inheritance:**
