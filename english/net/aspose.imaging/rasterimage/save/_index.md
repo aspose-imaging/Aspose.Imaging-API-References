@@ -3,7 +3,7 @@ title: RasterImage.Save
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Saves the images data to the specified stream in the specified file format according to save options
 type: docs
-weight: 530
+weight: 520
 url: /net/aspose.imaging/rasterimage/save/
 ---
 ## RasterImage.Save method

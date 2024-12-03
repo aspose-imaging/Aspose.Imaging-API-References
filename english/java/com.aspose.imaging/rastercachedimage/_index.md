@@ -3,7 +3,7 @@ title: RasterCachedImage
 second_title: Aspose.Imaging for Java API Reference
 description: Represents a raster image supporting raster graphics operations.
 type: docs
-weight: 90
+weight: 89
 url: /java/com.aspose.imaging/rastercachedimage/
 ---
 **Inheritance:**

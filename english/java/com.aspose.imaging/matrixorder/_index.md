@@ -3,7 +3,7 @@ title: MatrixOrder
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the order for matrix transform operations.
 type: docs
-weight: 74
+weight: 73
 url: /java/com.aspose.imaging/matrixorder/
 ---
 **Inheritance:**

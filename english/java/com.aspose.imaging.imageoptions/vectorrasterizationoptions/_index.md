@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class VectorRasterizationOptions extends ImageOptionsBase
 ```
 
-The vector rasterization options.
+The vector rasterization options. Please note that `VectorRasterizationOptions`([ImageOptionsBase.getVectorRasterizationOptions](../../com.aspose.imaging/imageoptionsbase\#getVectorRasterizationOptions)/[ImageOptionsBase.setVectorRasterizationOptions(VectorRasterizationOptions)](../../com.aspose.imaging/imageoptionsbase\#setVectorRasterizationOptions-VectorRasterizationOptions-)) will no longer derive from [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) since Aspose.Imaging 24.12 version.
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: CdrImagePage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImagePage method. Sets the image palette
 type: docs
-weight: 130
+weight: 90
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/setpalette/
 ---
 ## CdrImagePage.SetPalette method

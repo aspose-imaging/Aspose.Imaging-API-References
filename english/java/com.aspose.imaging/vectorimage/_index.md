@@ -3,7 +3,7 @@ title: VectorImage
 second_title: Aspose.Imaging for Java API Reference
 description: The vector image is the base class for all type of vector images.
 type: docs
-weight: 118
+weight: 117
 url: /java/com.aspose.imaging/vectorimage/
 ---
 **Inheritance:**
@@ -25,6 +25,11 @@ The vector image is the base class for all type of vector images.
 
 | Method | Description |
 | --- | --- |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the specified new width. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image with extended options. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
+| [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
 | [getSizeF()](#getSizeF--) | Gets the object size, in inches. |
 | [getWidthF()](#getWidthF--) | Gets the object width, in inches. |
 | [getHeightF()](#getHeightF--) | Gets the object height, in inches. |
@@ -71,6 +76,75 @@ try(com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePath
 public VectorImage()
 ```
 
+
+### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
+```
+public void resize(int newWidth, int newHeight, int resizeType)
+```
+
+
+Resizes the specified new width.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newWidth | int | The new width. |
+| newHeight | int | The new height. |
+| resizeType | int | Type of the resize. |
+
+### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
+```
+public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
+```
+
+
+Resizes the image with extended options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newWidth | int | The new width. |
+| newHeight | int | The new height. |
+| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
+
+### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
+```
+public void rotateFlip(int rotateFlipType)
+```
+
+
+Rotates, flips, or rotates and flips the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rotateFlipType | int | Type of the rotate&flip. |
+
+### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
+```
+public void crop(Rectangle rectangle)
+```
+
+
+Crops the specified rectangle.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
+
+### rotate(float angle) {#rotate-float-}
+```
+public void rotate(float angle)
+```
+
+
+Rotate image around the center.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
 
 ### getSizeF() {#getSizeF--}
 ```
@@ -158,7 +232,7 @@ try (Image image = com.aspose.imaging.Image.load(inputFileName))
 
 ### removeBackground() {#removeBackground--}
 ```
-public final void removeBackground()
+public void removeBackground()
 ```
 
 
@@ -166,7 +240,7 @@ Removes the background.
 
 ### removeBackground(RemoveBackgroundSettings settings) {#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-}
 ```
-public final void removeBackground(RemoveBackgroundSettings settings)
+public void removeBackground(RemoveBackgroundSettings settings)
 ```
 
 

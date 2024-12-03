@@ -48,7 +48,7 @@ The namespace contains classes suitable for export, save or creation of differen
 | [TgaOptions](./tgaoptions/) | The TGA file format create options. |
 | [TiffOptions](./tiffoptions/) | The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method. |
 | [TimeInterval](./timeinterval/) | Represents the time interval in milliseconds |
-| [VectorRasterizationOptions](./vectorrasterizationoptions/) | The vector rasterization options. |
+| [VectorRasterizationOptions](./vectorrasterizationoptions/) | The vector rasterization options. Please note that [`VectorRasterizationOptions`](../aspose.imaging.imageoptions/vectorrasterizationoptions/) will no longer derive from [`ImageOptionsBase`](../aspose.imaging/imageoptionsbase/) since Aspose.Imaging 24.12 version. |
 | [WebPOptions](./webpoptions/) | Create modern WebP raster web images using our API, featuring robust support for lossless and lossy compression, as well as alpha channels and animation loops. Enhance your web content with dynamic visuals while optimizing file sizes for improved loading speeds and user experience. |
 | [WmfOptions](./wmfoptions/) | The wmf options. |
 | [WmfRasterizationOptions](./wmfrasterizationoptions/) | The Wmf rasterization options. |

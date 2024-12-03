@@ -43,7 +43,7 @@ url: /python-net/aspose.imaging.imageoptions/psdoptions/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [clone()](#clone__1) | Clones this instance. |
+| [clone()](#clone__1) | Creates a memberwise clone of this instance. |
 
 
 ### Constructor: PsdOptions() {#PsdOptions__1}
@@ -95,13 +95,13 @@ Gets or sets the psd compression method.
  clone() 
 ```
 
-Clones this instance.
+Creates a memberwise clone of this instance.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 
 ## **Examples**

@@ -3,7 +3,7 @@ title: InterpolationMode
 second_title: Aspose.Imaging for Java API Reference
 description: The com.aspose.imaging.InterpolationMode enumeration specifies the algorithm that is used when images are scaled or rotated.
 type: docs
-weight: 66
+weight: 65
 url: /java/com.aspose.imaging/interpolationmode/
 ---
 **Inheritance:**

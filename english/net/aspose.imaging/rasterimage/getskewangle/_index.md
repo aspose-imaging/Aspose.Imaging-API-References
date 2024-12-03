@@ -3,7 +3,7 @@ title: RasterImage.GetSkewAngle
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Gets the skew angle. This method is applicable to scanned text documents to determine the skew angle when scanning
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.imaging/rasterimage/getskewangle/
 ---
 ## RasterImage.GetSkewAngle method

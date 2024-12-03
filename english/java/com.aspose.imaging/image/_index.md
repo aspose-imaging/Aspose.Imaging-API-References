@@ -27,8 +27,8 @@ The image is the base class for all type of images.
 | [create(ImageOptionsBase imageOptions, int width, int height)](#create-com.aspose.imaging.ImageOptionsBase-int-int-) | Creates a new image using the specified create options. |
 | [create(Image[] images)](#create-com.aspose.imaging.Image---) | Creates a new image using the specified images as pages |
 | [create(MultipageCreateOptions multipageCreateOptions)](#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-) | Creates the specified multipage create options. |
-| [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | Creates the specified files. |
-| [create(String[] files)](#create-java.lang.String---) | Creates the specified files. |
+| [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | Creates the multipage image containing the specified files. |
+| [create(String[] files)](#create-java.lang.String---) | Creates the multipage image containing the specified files. |
 | [create(Image[] images, boolean disposeImages)](#create-com.aspose.imaging.Image---boolean-) | Creates a new image the specified images as pages. |
 | [getFileFormat(String filePath)](#getFileFormat-java.lang.String-) | Gets the file format. |
 | [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | Loads a new image from the specified file path or URL. |
@@ -78,6 +78,9 @@ The image is the base class for all type of images.
 | [resizeWidthProportionally(int newWidth, ImageResizeSettings settings)](#resizeWidthProportionally-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the width proportionally. |
 | [resizeHeightProportionally(int newHeight, ImageResizeSettings settings)](#resizeHeightProportionally-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the height proportionally. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
+| [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
 | [save()](#save--) | Saves the image data to the underlying stream. |
 | [save(String filePath)](#save-java.lang.String-) | Saves the image to the specified file location. |
 | [save(String filePath, ImageOptionsBase options)](#save-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | Saves the object's data to the specified file location in the specified file format according to save options. |
@@ -318,7 +321,7 @@ public static Image create(String[] files, boolean throwExceptionOnLoadError)
 ```
 
 
-Creates the specified files.
+Creates the multipage image containing the specified files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -334,7 +337,7 @@ public static Image create(String[] files)
 ```
 
 
-Creates the specified files.
+Creates the multipage image containing the specified files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1136,7 +1139,7 @@ for (String inputFile : fileNames) {
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
-public abstract void resize(int newWidth, int newHeight, int resizeType)
+public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
@@ -1644,6 +1647,48 @@ try {
     image.dispose();
 }
 ```
+
+### rotate(float angle) {#rotate-float-}
+```
+public void rotate(float angle)
+```
+
+
+Rotate image around the center.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
+
+### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
+```
+public void crop(Rectangle rectangle)
+```
+
+
+Crops the specified rectangle.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
+
+### crop(int leftShift, int rightShift, int topShift, int bottomShift) {#crop-int-int-int-int-}
+```
+public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
+```
+
+
+Crop image with shifts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| leftShift | int | The left shift. |
+| rightShift | int | The right shift. |
+| topShift | int | The top shift. |
+| bottomShift | int | The bottom shift. |
 
 ### save() {#save--}
 ```

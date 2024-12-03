@@ -3,7 +3,7 @@ title: CdrImagePage.CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImagePage method. Caches the data and ensures no additional data loading will be performed from the underlying DataStreamContainer
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/cachedata/
 ---
 ## CdrImagePage.CacheData method

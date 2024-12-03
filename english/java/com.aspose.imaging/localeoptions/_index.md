@@ -3,7 +3,7 @@ title: LocaleOptions
 second_title: Aspose.Imaging for Java API Reference
 description: LocaleOptions type specifies locale configuration for Aspose.Imaging.
 type: docs
-weight: 72
+weight: 71
 url: /java/com.aspose.imaging/localeoptions/
 ---
 **Inheritance:**

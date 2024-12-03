@@ -30,17 +30,13 @@ The API for Enhanced Metafile Format (EMF) vector image format support is a comp
 | [setRecords(MetaObjectList value)](#setRecords-com.aspose.imaging.fileformats.emf.MetaObjectList-) | Modify the records associated with the object. |
 | [getFileFormat()](#getFileFormat--) | Access the file format value associated with the object. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the bit-per-pixel count specific to raster images, as this parameter doesn't apply to vector images. |
-| [getWidth()](#getWidth--) | Access to the width of the image, providing essential information for precise rendering and processing. |
-| [getHeight()](#getHeight--) | Retrieve the image's height, facilitating accurate rendering and layout adjustments. |
+| [getWidthF()](#getWidthF--) | Access to the width of the image, providing essential information for precise rendering and processing. |
+| [getHeightF()](#getHeightF--) | Retrieve the image's height, facilitating accurate rendering and layout adjustments. |
 | [cacheData()](#cacheData--) | Efficiently cache data and prevent redundant loading from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) with this method. |
 | [getUsedFonts()](#getUsedFonts--) | Retrieve the list of fonts utilized within the metafile with this method. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crop the specified rectangle using this function. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resize the canvas with ease using this function. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize your image effortlessly with this function, specifying the desired width, height, and type. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjust your image size with customizable settings, ensuring optimal dimensions and clarity. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Easily rotate, flip, or perform both operations simultaneously on your image using this simple \`rotateFlip()\` method. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Enhance your image's color palette by setting it with the specified \`IColorPalette\`. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options for your image effortlessly. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
 ## Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
 
@@ -240,26 +236,26 @@ Retrieve the bit-per-pixel count specific to raster images, as this parameter do
 
 **Returns:**
 int - The image bits per pixel count.
-### getWidth() {#getWidth--}
+### getWidthF() {#getWidthF--}
 ```
-public int getWidth()
+public float getWidthF()
 ```
 
 
 Access to the width of the image, providing essential information for precise rendering and processing. Quickly retrieve the image's width to ensure compatibility and proper layout within various applications and platforms.
 
 **Returns:**
-int - The image width in pixels.
-### getHeight() {#getHeight--}
+float - The image width in pixels.
+### getHeightF() {#getHeightF--}
 ```
-public int getHeight()
+public float getHeightF()
 ```
 
 
 Retrieve the image's height, facilitating accurate rendering and layout adjustments. Accessing the height property ensures compatibility and seamless integration across different platforms and applications.
 
 **Returns:**
-int - The image height in pixels.
+float - The image height in pixels.
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()
@@ -356,19 +352,6 @@ Retrieve the list of fonts utilized within the metafile with this method. Gain i
 
 **Returns:**
 java.lang.String[] - The font list
-### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
-```
-public void crop(Rectangle rectangle)
-```
-
-
-Crop the specified rectangle using this function. Ideal for refining image composition and focusing on specific areas of interest within the image. Improve visual clarity and highlight key details with precise cropping functionality.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
-
 ### resizeCanvas(Rectangle newRectangle) {#resizeCanvas-com.aspose.imaging.Rectangle-}
 ```
 public void resizeCanvas(Rectangle newRectangle)
@@ -381,63 +364,6 @@ Resize the canvas with ease using this function. Perfect for adjusting the overa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The new rectangle. |
-
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-Resize your image effortlessly with this function, specifying the desired width, height, and type. Perfect for adjusting images to fit specific dimensions while maintaining clarity and quality. Ideal for optimizing images for various platforms and applications.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
-```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-
-Adjust your image size with customizable settings, ensuring optimal dimensions and clarity. Perfect for tailoring images to specific requirements while maintaining quality.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
-
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
-```
-public void rotateFlip(int rotateFlipType)
-```
-
-
-Easily rotate, flip, or perform both operations simultaneously on your image using this simple \`rotateFlip()\` method. Perfect for adjusting orientation and enhancing visual appeal without hassle. Ideal for achieving the desired presentation of your images in any project or application.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rotateFlipType | int | Type of the rotating flip. |
-
-### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
-```
-public void setPalette(IColorPalette palette, boolean updateColors)
-```
-
-
-Enhance your image's color palette by setting it with the specified \`IColorPalette\`. Achieve vivid, vibrant visuals with ease, ensuring your images stand out and captivate viewers. Ideal for optimizing color schemes and achieving the perfect look for your projects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
-| updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
@@ -454,3 +380,17 @@ Retrieve the default options for your image effortlessly. With this feature, you
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
+### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
+```
+public void setPalette(IColorPalette palette, boolean updateColors)
+```
+
+
+Sets the image palette.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
+| updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+

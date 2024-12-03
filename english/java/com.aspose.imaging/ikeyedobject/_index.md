@@ -3,7 +3,7 @@ title: IKeyedObject
 second_title: Aspose.Imaging for Java API Reference
 description: Represents interface for objects with keys.
 type: docs
-weight: 137
+weight: 136
 url: /java/com.aspose.imaging/ikeyedobject/
 ---```
 public interface IKeyedObject

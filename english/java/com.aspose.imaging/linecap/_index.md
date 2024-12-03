@@ -3,7 +3,7 @@ title: LineCap
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the available cap styles with which a Pen object can end a line.
 type: docs
-weight: 69
+weight: 68
 url: /java/com.aspose.imaging/linecap/
 ---
 **Inheritance:**

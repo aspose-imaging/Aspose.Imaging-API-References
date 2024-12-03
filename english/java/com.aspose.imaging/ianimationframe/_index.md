@@ -3,7 +3,7 @@ title: IAnimationFrame
 second_title: Aspose.Imaging for Java API Reference
 description: The Animation frame
 type: docs
-weight: 124
+weight: 123
 url: /java/com.aspose.imaging/ianimationframe/
 ---```
 public interface IAnimationFrame

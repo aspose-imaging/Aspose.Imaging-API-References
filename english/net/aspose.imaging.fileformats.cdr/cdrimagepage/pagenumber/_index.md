@@ -3,7 +3,7 @@ title: CdrImagePage.PageNumber
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImagePage property. Gets the page number
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/pagenumber/
 ---
 ## CdrImagePage.PageNumber property

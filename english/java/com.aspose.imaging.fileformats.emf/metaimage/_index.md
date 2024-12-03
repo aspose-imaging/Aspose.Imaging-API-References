@@ -26,8 +26,6 @@ Base class for Meta object classes
 | [setRecords(MetaObjectList value)](#setRecords-com.aspose.imaging.fileformats.emf.MetaObjectList-) | Sets the records. |
 | [getUsedFonts()](#getUsedFonts--) | Returns the list of font which used inside metafile. |
 | [getMissedFonts()](#getMissedFonts--) | Returns the list of fonts which used inside metafile but not found. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resizes the canvas. |
 ### MetaImage() {#MetaImage--}
 ```
@@ -335,35 +333,6 @@ try {
 //        Missed fonts:
 //        Missed font: MICROSOFT SANS SERIF
 ```
-
-### crop(int leftShift, int rightShift, int topShift, int bottomShift) {#crop-int-int-int-int-}
-```
-public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
-```
-
-
-Crop image with shifts.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| leftShift | int | The left shift. |
-| rightShift | int | The right shift. |
-| topShift | int | The top shift. |
-| bottomShift | int | The bottom shift. |
-
-### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
-```
-public void crop(Rectangle rectangle)
-```
-
-
-Crops the specified rectangle.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
 ### resizeCanvas(Rectangle newRectangle) {#resizeCanvas-com.aspose.imaging.Rectangle-}
 ```

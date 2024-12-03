@@ -3,7 +3,7 @@ title: PdfComplianceVersion
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the PDF compliance level to output file.
 type: docs
-weight: 81
+weight: 80
 url: /java/com.aspose.imaging/pdfcomplianceversion/
 ---
 **Inheritance:**

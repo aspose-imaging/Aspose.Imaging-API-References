@@ -3,7 +3,7 @@ title: Matrix
 second_title: Aspose.Imaging for Java API Reference
 description: Replaces the GDI Matrix.
 type: docs
-weight: 73
+weight: 72
 url: /java/com.aspose.imaging/matrix/
 ---
 **Inheritance:**

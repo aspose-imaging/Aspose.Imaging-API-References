@@ -3,7 +3,7 @@ title: RasterImage.ReadArgb32ScanLine
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Reads the whole scan line by the specified scan line index
 type: docs
-weight: 460
+weight: 450
 url: /net/aspose.imaging/rasterimage/readargb32scanline/
 ---
 ## RasterImage.ReadArgb32ScanLine method

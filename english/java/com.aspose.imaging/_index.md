@@ -67,7 +67,6 @@ The package is the core for nested packages and the most basic objects used for 
 | [ImageFilterType](../com.aspose.imaging/imagefiltertype) | Image filters to use |
 | [ImageLoadersRegistry](../com.aspose.imaging/imageloadersregistry) | Represents the image loaders registry. |
 | [ImageOptionsBase](../com.aspose.imaging/imageoptionsbase) | The image base options. |
-| [ImageOptionsDefault](../com.aspose.imaging/imageoptionsdefault) | The image options default |
 | [ImageResizeSettings](../com.aspose.imaging/imageresizesettings) | Image resize settings class |
 | [IntRange](../com.aspose.imaging/intrange) | Class for representing sequence of elements |
 | [InterpolationMode](../com.aspose.imaging/interpolationmode) | The `com.aspose.imaging.InterpolationMode` enumeration specifies the algorithm that is used when images are scaled or rotated. |

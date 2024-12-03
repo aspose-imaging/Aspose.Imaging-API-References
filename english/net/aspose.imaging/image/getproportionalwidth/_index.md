@@ -3,7 +3,7 @@ title: Image.GetProportionalWidth
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Gets a proportional width
 type: docs
-weight: 320
+weight: 340
 url: /net/aspose.imaging/image/getproportionalwidth/
 ---
 ## Image.GetProportionalWidth method

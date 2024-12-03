@@ -3,7 +3,7 @@ title: CmxImagePage.HeightF
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImagePage property. Gets the object height in inches
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/heightf/
 ---
 ## CmxImagePage.HeightF property

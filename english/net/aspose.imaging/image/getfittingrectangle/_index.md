@@ -3,7 +3,7 @@ title: Image.GetFittingRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Gets rectangle which fits the current image
 type: docs
-weight: 300
+weight: 320
 url: /net/aspose.imaging/image/getfittingrectangle/
 ---
 ## GetFittingRectangle(Rectangle, int, int) {#getfittingrectangle}

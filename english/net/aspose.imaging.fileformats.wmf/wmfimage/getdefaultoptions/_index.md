@@ -3,7 +3,7 @@ title: WmfImage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: WmfImage method. Retrieve the default options associated with the image providing access to predefined settings or configurations. Utilize this method to access default settings for image processing operations facilitating consistency and convenience within your applications functionality
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.wmf/wmfimage/getdefaultoptions/
 ---
 ## WmfImage.GetDefaultOptions method

@@ -3,7 +3,7 @@ title: RemoveBackgroundSettings
 second_title: Aspose.Imaging for Java API Reference
 description: The remove background settings
 type: docs
-weight: 97
+weight: 96
 url: /java/com.aspose.imaging/removebackgroundsettings/
 ---
 **Inheritance:**

@@ -1,73 +1,12 @@
 ---
 title: RasterImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
-description: RasterImage method. Resizes the image
+description: RasterImage method. Resizes the image with extended options
 type: docs
-weight: 510
+weight: 500
 url: /net/aspose.imaging/rasterimage/resize/
 ---
-## Resize(int, int, ResizeType) {#resize_2}
-
-Resizes the image.
-
-```csharp
-public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | Int32 | The new width. |
-| newHeight | Int32 | The new height. |
-| resizeType | ResizeType | The resize type. |
-
-## Examples
-
-This example loads a raster image and resizes it using various resizing methods.
-
-```csharp
-[C#]
-
-string dir = "c:\\temp\\";
-
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // Scale up by 2 times using Nearest Neighbour resampling.
-    image.Resize(image.Width * 2, image.Height * 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-    image.Save(dir + "upsample.nearestneighbour.gif");
-}
-
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // Scale down by 2 times using Nearest Neighbour resampling.
-    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-    image.Save(dir + "downsample.nearestneighbour.gif");
-}
-
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // Scale up by 2 times using Bilinear resampling.
-    image.Resize(image.Width * 2, image.Height * 2, Aspose.Imaging.ResizeType.BilinearResample);
-    image.Save(dir + "upsample.bilinear.gif");
-}
-
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // Scale down by 2 times using Bilinear resampling.
-    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
-    image.Save(dir + "downsample.bilinear.gif");
-}
-```
-
-### See Also
-
-* enum [ResizeType](../../resizetype/)
-* class [RasterImage](../)
-* namespace [Aspose.Imaging](../../rasterimage/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## Resize(int, int, ImageResizeSettings) {#resize_1}
+## RasterImage.Resize method
 
 Resizes the image with extended options.
 
@@ -107,7 +46,7 @@ resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 // The euclidian method
 resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
     // Scale down by 2 times using adaptive resampling.
     image.Resize(image.Width / 2, image.Height / 2, resizeSettings);

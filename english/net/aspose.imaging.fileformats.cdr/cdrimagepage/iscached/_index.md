@@ -3,7 +3,7 @@ title: CdrImagePage.IsCached
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImagePage property. Gets a value indicating whether objects data is cached currently and no data readig is required
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/iscached/
 ---
 ## CdrImagePage.IsCached property

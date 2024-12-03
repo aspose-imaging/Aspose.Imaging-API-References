@@ -1,14 +1,14 @@
 ---
 title: VectorRasterizationOptions.PageSize
 second_title: Aspose.Imaging for .NET API Reference
-description: VectorRasterizationOptions property. Gets or sets the page size
+description: VectorRasterizationOptions property. Gets or sets the page size. If one of SizeF dimensions is 0 the source image aspect ratio will be preserved
 type: docs
 weight: 80
 url: /net/aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/
 ---
 ## VectorRasterizationOptions.PageSize property
 
-Gets or sets the page size.
+Gets or sets the page size. If one of [`SizeF`](../../../aspose.imaging/sizef/) dimensions is 0, the source image aspect ratio will be preserved.
 
 ```csharp
 public SizeF PageSize { get; set; }

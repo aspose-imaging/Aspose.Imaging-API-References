@@ -3,7 +3,7 @@ title: WarpMode
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the type of warp transformation applied.
 type: docs
-weight: 120
+weight: 119
 url: /java/com.aspose.imaging/warpmode/
 ---
 **Inheritance:**

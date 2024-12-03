@@ -3,7 +3,7 @@ title: RectangleF
 second_title: Aspose.Imaging for Java API Reference
 description: Stores a set of four floating-point numbers that represent the location and size of a rectangle.
 type: docs
-weight: 95
+weight: 94
 url: /java/com.aspose.imaging/rectanglef/
 ---
 **Inheritance:**

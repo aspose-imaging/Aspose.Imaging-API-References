@@ -3,7 +3,7 @@ title: ResizeType
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the resize type.
 type: docs
-weight: 98
+weight: 97
 url: /java/com.aspose.imaging/resizetype/
 ---
 **Inheritance:**

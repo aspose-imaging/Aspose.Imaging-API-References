@@ -3,7 +3,7 @@ title: MetaImage.GetMissedFonts
 second_title: Aspose.Imaging for .NET API Reference
 description: MetaImage method. Returns the list of fonts which used inside metafile but not found
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.imaging.fileformats.emf/metaimage/getmissedfonts/
 ---
 ## MetaImage.GetMissedFonts method

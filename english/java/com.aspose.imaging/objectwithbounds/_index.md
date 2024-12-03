@@ -3,7 +3,7 @@ title: ObjectWithBounds
 second_title: Aspose.Imaging for Java API Reference
 description: The object having bounds.
 type: docs
-weight: 78
+weight: 77
 url: /java/com.aspose.imaging/objectwithbounds/
 ---
 **Inheritance:**

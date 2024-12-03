@@ -1,14 +1,14 @@
 ---
 title: EmfImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
-description: EmfImage method. Enhance your images color palette by setting it with the specified IColorPalette. Achieve vivid vibrant visuals with ease ensuring your images stand out and captivate viewers. Ideal for optimizing color schemes and achieving the perfect look for your projects
+description: EmfImage method. Sets the image palette
 type: docs
-weight: 160
+weight: 130
 url: /net/aspose.imaging.fileformats.emf/emfimage/setpalette/
 ---
 ## EmfImage.SetPalette method
 
-Enhance your image's color palette by setting it with the specified `IColorPalette`. Achieve vivid, vibrant visuals with ease, ensuring your images stand out and captivate viewers. Ideal for optimizing color schemes and achieving the perfect look for your projects.
+Sets the image palette.
 
 ```csharp
 public override void SetPalette(IColorPalette palette, bool updateColors)
@@ -23,7 +23,7 @@ public override void SetPalette(IColorPalette palette, bool updateColors)
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Invalid for vector images |
+| NotImplementedException |  |
 
 ### See Also
 

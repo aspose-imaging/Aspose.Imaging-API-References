@@ -3,7 +3,7 @@ title: RasterImage
 second_title: Aspose.Imaging for Java API Reference
 description: Represents a raster image supporting raster graphics operations.
 type: docs
-weight: 92
+weight: 91
 url: /java/com.aspose.imaging/rasterimage/
 ---
 **Inheritance:**
@@ -83,9 +83,9 @@ Represents a raster image supporting raster graphics operations.
 | [saveCmyk32Pixels(Rectangle rectangle, int[] pixels)](#saveCmyk32Pixels-com.aspose.imaging.Rectangle-int---) | Saves the pixels. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image with extended options. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
+| [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
 | [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
 | [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -99,9 +99,6 @@ Represents a raster image supporting raster graphics operations.
 | [adjustContrast(float contrast)](#adjustContrast-float-) | Image contrasting |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
-| [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
 | [getSkewAngle()](#getSkewAngle--) | Gets the skew angle. |
 | [normalizeAngle()](#normalizeAngle--) | Normalizes the angle. |
 | [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | Normalizes the angle. |
@@ -1726,64 +1723,6 @@ Sets the image palette.
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
 | updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
-### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
-```
-public void resize(int newWidth, int newHeight, int resizeType)
-```
-
-
-Resizes the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| resizeType | int | The resize type. |
-
-
-**Example: This example loads a raster image and resizes it using various resizing methods.**
-
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.load(dir + "sample.gif");
-try {
-    // Scale up by 2 times using Nearest Neighbour resampling.
-    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
-    image.save(dir + "upsample.nearestneighbour.gif");
-} finally {
-    image.dispose();
-}
-
-image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.load(dir + "sample.gif");
-try {
-    // Scale down by 2 times using Nearest Neighbour resampling.
-    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
-    image.save(dir + "downsample.nearestneighbour.gif");
-} finally {
-    image.dispose();
-}
-
-image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.load(dir + "sample.gif");
-try {
-    // Scale up by 2 times using Bilinear resampling.
-    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
-    image.save(dir + "upsample.bilinear.gif");
-} finally {
-    image.dispose();
-}
-
-image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.load(dir + "sample.gif");
-try {
-    // Scale down by 2 times using Bilinear resampling.
-    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
-    image.save(dir + "downsample.bilinear.gif");
-} finally {
-    image.dispose();
-}
-```
-
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```
 public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -1832,39 +1771,33 @@ try {
 }
 ```
 
-### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
+### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
-public void crop(Rectangle rectangle)
+public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-Crops the specified rectangle.
+Rotate image around the center.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
+| resizeProportionally | boolean | if set to `true` you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only internal image contents are rotated. |
+| backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
 
-
-**Example: The following example crops a raster image.**
-The following example crops a raster image. The cropping area is be specified via com.aspose.imaging.Rectangle.
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png");
-try {
-    com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
-
-    // Crop the image. The cropping area is the rectangular central area of the image.
-    com.aspose.imaging.Rectangle area = new com.aspose.imaging.Rectangle(rasterImage.getWidth() / 4, rasterImage.getHeight() / 4, rasterImage.getWidth() / 2, rasterImage.getHeight() / 2);
-    rasterImage.crop(area);
-
-    // Save the cropped image to PNG
-    rasterImage.save(dir + "sample.Crop.png");
-} finally {
-    image.dispose();
-}
+### rotate(float angle) {#rotate-float-}
 ```
+public void rotate(float angle)
+```
+
+
+Rotate image around the center.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
 
 ### binarizeFixed(byte threshold) {#binarizeFixed-byte-}
 ```
@@ -2180,72 +2113,6 @@ try {
 }
 ```
 
-### crop(int leftShift, int rightShift, int topShift, int bottomShift) {#crop-int-int-int-int-}
-```
-public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
-```
-
-
-Crop image with shifts.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| leftShift | int | The left shift. |
-| rightShift | int | The right shift. |
-| topShift | int | The top shift. |
-| bottomShift | int | The bottom shift. |
-
-
-**Example: The following example crops a raster image.**
-The following example crops a raster image. The cropping area is specified via Left, Top, Right, Bottom margins.
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png");
-try {
-    com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
-
-    // Crop again. Set a margin of 10% of the image size.
-    int horizontalMargin = rasterImage.getWidth() / 10;
-    int verticalMargin = rasterImage.getHeight() / 10;
-    rasterImage.crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
-
-    // Save the cropped image to PNG.
-    rasterImage.save(dir + "sample.Crop.png");
-} finally {
-    image.dispose();
-}
-```
-
-### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
-```
-public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)
-```
-
-
-Rotate image around the center.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| angle | float | The rotation angle in degrees. Positive values will rotate clockwise. |
-| resizeProportionally | boolean | if set to `true` you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only internal image contents are rotated. |
-| backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
-
-### rotate(float angle) {#rotate-float-}
-```
-public void rotate(float angle)
-```
-
-
-Rotate image around the center.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| angle | float | The rotation angle in degrees. Positive values will rotate clockwise. |
-
 ### getSkewAngle() {#getSkewAngle--}
 ```
 public final float getSkewAngle()
@@ -2262,7 +2129,7 @@ public final void normalizeAngle()
 ```
 
 
-Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [.getSkewAngle](../../null/\#getSkewAngle) and [.rotate(float)](../../null/\#rotate-float-) methods.
+Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [.getSkewAngle](../../null/\#getSkewAngle) and [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-) methods.
 
 ### normalizeAngle(boolean resizeProportionally, Color backgroundColor) {#normalizeAngle-boolean-com.aspose.imaging.Color-}
 ```

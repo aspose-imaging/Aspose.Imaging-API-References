@@ -3,7 +3,7 @@ title: OdImage.IsCached
 second_title: Aspose.Imaging for .NET API Reference
 description: OdImage property. Obtains a boolean value indicating whether the data of the object is currently cached thus eliminating the need for data reading. This property serves as an optimization indicator enhancing performance by minimizing redundant data access operation
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.imaging.fileformats.opendocument/odimage/iscached/
 ---
 ## OdImage.IsCached property

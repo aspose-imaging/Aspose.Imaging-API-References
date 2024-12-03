@@ -3,7 +3,7 @@ title: RasterImage.RemoveMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Removes this image instance metadata by setting this XmpData value to null
 type: docs
-weight: 480
+weight: 470
 url: /net/aspose.imaging/rasterimage/removemetadata/
 ---
 ## RasterImage.RemoveMetadata method

@@ -3,7 +3,7 @@ title: VectorMultipageImage
 second_title: Aspose.Imaging for Java API Reference
 description: The Vector multipage image
 type: docs
-weight: 119
+weight: 118
 url: /java/com.aspose.imaging/vectormultipageimage/
 ---
 **Inheritance:**
@@ -33,9 +33,13 @@ The Vector multipage image
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
+| [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
+| [removeBackground(RemoveBackgroundSettings settings)](#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-) | Removes the background. |
+| [removeBackground()](#removeBackground--) | Removes the background. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 | [getEmbeddedImages()](#getEmbeddedImages--) | Gets the embedded images. |
 ### VectorMultipageImage() {#VectorMultipageImage--}
@@ -139,6 +143,19 @@ public void cacheData()
 
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
 
+### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
+```
+public void crop(Rectangle rectangle)
+```
+
+
+Crops the specified rectangle.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
+
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
 public void resize(int newWidth, int newHeight, int resizeType)
@@ -153,6 +170,19 @@ Resizes the image.
 | newWidth | int | The new width. |
 | newHeight | int | The new height. |
 | resizeType | int | The resize type. |
+
+### rotate(float angle) {#rotate-float-}
+```
+public void rotate(float angle)
+```
+
+
+Rotate image around the center.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
 
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```
@@ -181,6 +211,27 @@ Rotates, flips, or rotates and flips the image.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rotateFlipType | int | Type of the rotation and flip. |
+
+### removeBackground(RemoveBackgroundSettings settings) {#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-}
+```
+public void removeBackground(RemoveBackgroundSettings settings)
+```
+
+
+Removes the background.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| settings | [RemoveBackgroundSettings](../../com.aspose.imaging/removebackgroundsettings) | The settings. |
+
+### removeBackground() {#removeBackground--}
+```
+public void removeBackground()
+```
+
+
+Removes the background.
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

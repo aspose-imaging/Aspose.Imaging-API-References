@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Represents the loading options.
 type: docs
-weight: 71
+weight: 70
 url: /java/com.aspose.imaging/loadoptions/
 ---
 **Inheritance:**

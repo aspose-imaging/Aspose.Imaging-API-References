@@ -3,7 +3,7 @@ title: NonGenericDictionary
 second_title: Aspose.Imaging for Java API Reference
 description: Represents a non generic dictionary.
 type: docs
-weight: 76
+weight: 75
 url: /java/com.aspose.imaging/nongenericdictionary/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PenType
 second_title: Aspose.Imaging for Java API Reference
 description: Specifies the type of fill a Pen object uses to fill lines.
 type: docs
-weight: 84
+weight: 83
 url: /java/com.aspose.imaging/pentype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PointF
 second_title: Aspose.Imaging for Java API Reference
 description: Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane.
 type: docs
-weight: 88
+weight: 87
 url: /java/com.aspose.imaging/pointf/
 ---
 **Inheritance:**

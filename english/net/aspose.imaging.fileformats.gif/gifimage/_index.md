@@ -142,7 +142,7 @@ public sealed class GifImage : RasterCachedMultipageImage, IMultipageImageExt
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | override [ResizeWidthProportionally](../../aspose.imaging/rastercachedmultipageimage/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| virtual [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
+| override [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
 | override [Rotate](../../aspose.imaging.fileformats.gif/gifimage/rotate/#rotate_1)(float, bool, Color) | This method rotates the image around its center point. By specifying the rotation angle, you can rotate the image clockwise or counterclockwise to achieve the desired orientation. This rotation helps adjust the image's presentation or alignment without distorting its content. |
 | override [RotateFlip](../../aspose.imaging.fileformats.gif/gifimage/rotateflip/)(RotateFlipType) | Perform rotation, flipping, or both on the active frame exclusively. This operation applies transformations solely to the currently active frame of the image, preserving the integrity of other frames in the sequence. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |

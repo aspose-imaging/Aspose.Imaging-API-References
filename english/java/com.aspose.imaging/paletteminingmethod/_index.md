@@ -3,7 +3,7 @@ title: PaletteMiningMethod
 second_title: Aspose.Imaging for Java API Reference
 description: The image palette mining method
 type: docs
-weight: 80
+weight: 79
 url: /java/com.aspose.imaging/paletteminingmethod/
 ---
 **Inheritance:**

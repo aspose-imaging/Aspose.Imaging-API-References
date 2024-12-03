@@ -37,7 +37,7 @@ public sealed class SvgImage : VectorImage
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | override [FileFormat](../../aspose.imaging.fileformats.svg/svgimage/fileformat/) { get; } | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. This property is instrumental in determining the appropriate decoding and encoding strategies for handling the image data effectively across different systems and applications. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| override [Height](../../aspose.imaging.fileformats.svg/svgimage/height/) { get; } | Retrieves the height of the image, indicating its vertical size in pixels. This property provides essential information for layout calculations and rendering processes, ensuring accurate display and manipulation of the image. |
+| override [Height](../../aspose.imaging/vectorimage/height/) { get; } | Gets the image height. |
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.svg/svgimage/iscached/) { get; } | Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. This property provides insight into the current caching status, optimizing data retrieval and processing workflows for enhanced performance and efficiency. |
@@ -45,7 +45,7 @@ public sealed class SvgImage : VectorImage
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
-| override [Width](../../aspose.imaging.fileformats.svg/svgimage/width/) { get; } | Returns the width of the image, denoting its horizontal size in pixels. This property is crucial for layout computations and display rendering, ensuring precise positioning and visualization of the image content. |
+| override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
 
 ## Methods
@@ -54,16 +54,18 @@ public sealed class SvgImage : VectorImage
 | --- | --- |
 | override [CacheData](../../aspose.imaging.fileformats.svg/svgimage/cachedata/)() | Cache the data and guarantee that there will be no further loading of data from the underlying [`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer/). This optimization enhances performance by eliminating redundant data retrieval operations, especially beneficial in scenarios requiring frequent access to the image data. |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
+| override [Crop](../../aspose.imaging.fileformats.svg/svgimage/crop/#crop)(Rectangle) | Crops the specified rectangle. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.svg/svgimage/getdefaultoptions/)(object[]) | Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. This method is pivotal in ensuring consistent behavior and quality standards across image processing tasks without the need for explicit parameterization. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | Gets the embedded images. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions/)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save/) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save/) method as the second parameter. |
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
 | virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
-| override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. This method offers flexibility in resizing operations, allowing for precise control over aspects such as interpolation methods, aspect ratio preservation, and output quality. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize/#resize_2)(int, int, ResizeType) | Resize the image to fit the specified dimensions while preserving its aspect ratio. This method provides a convenient way to adjust the size of the image without distorting its proportions, ensuring optimal display or storage according to the desired dimensions. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |
@@ -71,7 +73,8 @@ public sealed class SvgImage : VectorImage
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| override [RotateFlip](../../aspose.imaging.fileformats.svg/svgimage/rotateflip/)(RotateFlipType) | Applies rotation, flipping, or both to the image as per the specified parameters. This method offers versatility in image manipulation, allowing for seamless adjustment of orientation to achieve desired visual effects or correct orientation errors. |
+| override [Rotate](../../aspose.imaging.fileformats.svg/svgimage/rotate/)(float) | Rotate image around the center. |
+| override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
 | [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |

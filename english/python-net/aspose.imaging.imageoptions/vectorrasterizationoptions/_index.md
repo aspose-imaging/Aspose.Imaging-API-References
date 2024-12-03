@@ -5,7 +5,7 @@ weight: 350
 url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 
-**Summary:** The vector rasterization options.
+**Summary:** The vector rasterization options.<br/>            Please note that [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) will no longer derive from [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) <br/>            since Aspose.Imaging 24.12 version.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -30,9 +30,9 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| page_height | float | r/w | Gets or sets the page height. |
-| [page_size](#page_size2) | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size. |
-| page_width | float | r/w | Gets or sets the page width. |
+| page_height | float | r/w | Gets or sets the page height.<br/>            If the value is 0, the source image aspect ratio will be preserved. |
+| [page_size](#page_size2) | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-net/aspose.imaging/sizef/) dimensions is 0, the source image aspect ratio will be preserved. |
+| page_width | float | r/w | Gets or sets the page width.<br/>            If the value is 0, the source image aspect ratio will be preserved. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | [positioning](#positioning3) | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes) | r/w | Gets or sets the positioning. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
@@ -44,7 +44,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [clone()](#clone__1) | Clones this instance. |
+| [clone()](#clone__1) | Creates a memberwise clone of this instance. |
 | [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies to. |
 
 
@@ -68,7 +68,7 @@ Gets or sets a background color.
 
 ### Property: page_size {#page_size2}
 
-Gets or sets the page size.
+Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-net/aspose.imaging/sizef/) dimensions is 0, the source image aspect ratio will be preserved.
 
 **See also:**
 
@@ -91,13 +91,13 @@ Gets or sets the positioning.
  clone() 
 ```
 
-Clones this instance.
+Creates a memberwise clone of this instance.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 
 ### Method: copy_to(vector_rasterization_options) {#copy_to_vector_rasterization_options_2}

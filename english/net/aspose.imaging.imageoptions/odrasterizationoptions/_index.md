@@ -34,9 +34,9 @@ public class OdRasterizationOptions : VectorRasterizationOptions
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
-| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight/) { get; set; } | Gets or sets the page height. |
-| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/) { get; set; } | Gets or sets the page size. |
-| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth/) { get; set; } | Gets or sets the page width. |
+| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight/) { get; set; } | Gets or sets the page height. If the value is 0, the source image aspect ratio will be preserved. |
+| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/) { get; set; } | Gets or sets the page size. If one of [`SizeF`](../../aspose.imaging/sizef/) dimensions is 0, the source image aspect ratio will be preserved. |
+| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth/) { get; set; } | Gets or sets the page width. If the value is 0, the source image aspect ratio will be preserved. |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning/) { get; set; } | Gets or sets the positioning. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
@@ -52,7 +52,7 @@ public class OdRasterizationOptions : VectorRasterizationOptions
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Clones this instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [CopyTo](../../aspose.imaging.imageoptions/vectorrasterizationoptions/copyto/)(VectorRasterizationOptions) | Copies to. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 

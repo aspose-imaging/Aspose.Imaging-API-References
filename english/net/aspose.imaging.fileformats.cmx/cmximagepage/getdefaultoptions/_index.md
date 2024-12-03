@@ -3,7 +3,7 @@ title: CmxImagePage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: CmxImagePage method. Gets the default options
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/getdefaultoptions/
 ---
 ## CmxImagePage.GetDefaultOptions method

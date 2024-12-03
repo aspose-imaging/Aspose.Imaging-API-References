@@ -3,7 +3,7 @@ title: VectorImage.RemoveBackground
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage method. Removes the background
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/vectorimage/removebackground/
 ---
 ## RemoveBackground() {#removebackground}
@@ -11,7 +11,7 @@ url: /net/aspose.imaging/vectorimage/removebackground/
 Removes the background.
 
 ```csharp
-public void RemoveBackground()
+public virtual void RemoveBackground()
 ```
 
 ### See Also
@@ -27,7 +27,7 @@ public void RemoveBackground()
 Removes the background.
 
 ```csharp
-public void RemoveBackground(RemoveBackgroundSettings settings)
+public virtual void RemoveBackground(RemoveBackgroundSettings settings)
 ```
 
 | Parameter | Type | Description |

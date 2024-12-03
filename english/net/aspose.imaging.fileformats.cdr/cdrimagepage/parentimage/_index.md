@@ -3,7 +3,7 @@ title: CdrImagePage.ParentImage
 second_title: Aspose.Imaging for .NET API Reference
 description: CdrImagePage property. Gets the parent image
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/parentimage/
 ---
 ## CdrImagePage.ParentImage property

@@ -3,7 +3,7 @@ title: RasterImage.SaveCmyk32Pixels
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Saves the pixels
 type: docs
-weight: 550
+weight: 540
 url: /net/aspose.imaging/rasterimage/savecmyk32pixels/
 ---
 ## RasterImage.SaveCmyk32Pixels method

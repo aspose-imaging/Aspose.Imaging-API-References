@@ -27,14 +27,12 @@ Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the 
 | --- | --- |
 | [isCached()](#isCached--) | Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieves the bits per pixel count of the image. |
-| [getHeight()](#getHeight--) | Retrieves the height of the image, indicating its vertical size in pixels. |
-| [getWidth()](#getWidth--) | Returns the width of the image, denoting its horizontal size in pixels. |
 | [getFileFormat()](#getFileFormat--) | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. |
 | [cacheData()](#cacheData--) | Cache the data and guarantee that there will be no further loading of data from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image to fit the specified dimensions while preserving its aspect ratio. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Applies rotation, flipping, or both to the image as per the specified parameters. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
+| [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Applies a specified palette to the image, enabling customization of color schemes for aesthetic or functional purposes. |
 
 ## Example: This example shows how to load an SVG image from a file stream and rasterize it to PNG.
@@ -192,26 +190,6 @@ Retrieves the bits per pixel count of the image. It's important to note that thi
 
 **Returns:**
 int - The image bits per pixel count.
-### getHeight() {#getHeight--}
-```
-public int getHeight()
-```
-
-
-Retrieves the height of the image, indicating its vertical size in pixels. This property provides essential information for layout calculations and rendering processes, ensuring accurate display and manipulation of the image.
-
-**Returns:**
-int - The image height in pixels.
-### getWidth() {#getWidth--}
-```
-public int getWidth()
-```
-
-
-Returns the width of the image, denoting its horizontal size in pixels. This property is crucial for layout computations and display rendering, ensuring precise positioning and visualization of the image content.
-
-**Returns:**
-int - The image width in pixels.
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
@@ -260,33 +238,31 @@ Resize the image to fit the specified dimensions while preserving its aspect rat
 | newHeight | int | The new height. |
 | resizeType | int | The resize type. |
 
-### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
+### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
 ```
-public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
+public void crop(Rectangle rectangle)
 ```
 
 
-Adjusts the image size according to the specified settings, enabling customization of the resizing process to meet specific requirements. This method offers flexibility in resizing operations, allowing for precise control over aspects such as interpolation methods, aspect ratio preservation, and output quality.
+Crops the specified rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newWidth | int | The new width. |
-| newHeight | int | The new height. |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
-### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
+### rotate(float angle) {#rotate-float-}
 ```
-public void rotateFlip(int rotateFlipType)
+public void rotate(float angle)
 ```
 
 
-Applies rotation, flipping, or both to the image as per the specified parameters. This method offers versatility in image manipulation, allowing for seamless adjustment of orientation to achieve desired visual effects or correct orientation errors.
+Rotate image around the center.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rotateFlipType | int | Type of the rotating flip. |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

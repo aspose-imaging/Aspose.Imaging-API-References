@@ -3,7 +3,7 @@ title: RawDataSettings
 second_title: Aspose.Imaging for Java API Reference
 description: The raw data settings
 type: docs
-weight: 93
+weight: 92
 url: /java/com.aspose.imaging/rawdatasettings/
 ---
 **Inheritance:**

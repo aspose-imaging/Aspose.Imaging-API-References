@@ -3,7 +3,7 @@ title: IntRange
 second_title: Aspose.Imaging for Java API Reference
 description: Class for representing sequence of elements
 type: docs
-weight: 65
+weight: 64
 url: /java/com.aspose.imaging/intrange/
 ---
 **Inheritance:**

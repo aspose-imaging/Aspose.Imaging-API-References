@@ -36,8 +36,8 @@ public class WmfImage : MetaImage
 | override [FileFormat](../../aspose.imaging.fileformats.wmf/wmfimage/fileformat/) { get; } | Access the file format value associated with the image, providing information about the format in which the image is stored. Utilize this property to determine the file format of the image, facilitating compatibility checks and format-specific processing within your application. |
 | [FrameBounds](../../aspose.imaging.fileformats.wmf/wmfimage/framebounds/) { get; } | Access the bounds of the frame, indicating its position and dimensions within the image. Utilize this property to retrieve detailed information about the frame's spatial location, enabling precise manipulation and rendering within your application. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| override [Height](../../aspose.imaging.fileformats.wmf/wmfimage/height/) { get; } | Access the image's height, representing the number of pixels along its vertical axis. Utilize this property to ascertain the image's spatial dimensions and aspect ratio, enabling accurate layout and rendering adjustments within your application. |
-| virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
+| override [Height](../../aspose.imaging/vectorimage/height/) { get; } | Gets the image height. |
+| override [HeightF](../../aspose.imaging.fileformats.wmf/wmfimage/heightf/) { get; } | Access the image's height, representing the number of pixels along its vertical axis. Utilize this property to ascertain the image's spatial dimensions and aspect ratio, enabling accurate layout and rendering adjustments within your application. |
 | [Inch](../../aspose.imaging.fileformats.wmf/wmfimage/inch/) { get; set; } | Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. Utilize this property to establish or retrieve inch values associated with the image, facilitating accurate representation of physical dimensions within your application. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.wmf/wmfimage/iscached/) { get; } | Retrieve a boolean value indicating whether the object's data is currently cached, eliminating the need for additional data reading operations. Utilize this property to optimize performance by determining if the object's data is readily available without the need for costly data retrieval processes within your application. |
@@ -46,8 +46,8 @@ public class WmfImage : MetaImage
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
-| override [Width](../../aspose.imaging.fileformats.wmf/wmfimage/width/) { get; } | Access the width of the image, indicating the number of pixels along its horizontal axis. Utilize this property to determine the image's spatial dimensions and aspect ratio, enabling precise layout and rendering adjustments within your application. |
-| virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
+| override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
+| override [WidthF](../../aspose.imaging.fileformats.wmf/wmfimage/widthf/) { get; } | Access the width of the image, indicating the number of pixels along its horizontal axis. Utilize this property to determine the image's spatial dimensions and aspect ratio, enabling precise layout and rendering adjustments within your application. |
 
 ## Methods
 
@@ -56,8 +56,8 @@ public class WmfImage : MetaImage
 | [AddRecord](../../aspose.imaging.fileformats.wmf/wmfimage/addrecord/)(WmfObject) | Incorporate the specified record object into the image, enriching its content with additional data or metadata. Utilize this method to seamlessly integrate record objects into the image, facilitating comprehensive data storage and organization within your application. |
 | override [CacheData](../../aspose.imaging.fileformats.wmf/wmfimage/cachedata/)() | Efficiently cache the data, eliminating the need for additional loading from the underlying [`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer/). Utilize this method to optimize performance and minimize resource usage within your application by storing and accessing local data cache. |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
-| override [Crop](../../aspose.imaging.fileformats.wmf/wmfimage/crop/#crop)(Rectangle) | Crop the image to the specified rectangle, retaining only the selected region while discarding the rest. Integrate this method into your image processing workflow to extract specific areas of interest and customize the composition of the image within your application. |
-| virtual [Crop](../../aspose.imaging.fileformats.emf/metaimage/crop/)(int, int, int, int) | Crop image with shifts. |
+| override [Crop](../../aspose.imaging/vectorimage/crop/)(Rectangle) | Crops the specified rectangle. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.wmf/wmfimage/getdefaultoptions/)(object[]) | Retrieve the default options associated with the image, providing access to predefined settings or configurations. Utilize this method to access default settings for image processing operations, facilitating consistency and convenience within your application's functionality. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | Gets the embedded images. |
@@ -66,12 +66,12 @@ public class WmfImage : MetaImage
 | [GetPostScript](../../aspose.imaging.fileformats.wmf/wmfimage/getpostscript/)() | Access the PostScript data associated with the image, providing detailed information about its structure or content. Utilize this method to retrieve PostScript data for further analysis or processing within your application, enabling advanced functionality related to PostScript rendering or manipulation. |
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | override [GetUsedFonts](../../aspose.imaging.fileformats.wmf/wmfimage/getusedfonts/)() | Retrieve the list of fonts used within the metafile, providing insight into the font resources utilized in the image. Utilize this method to analyze font usage and ensure font availability for rendering or further processing within your application. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
-| [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
 | virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
-| override [Resize](../../aspose.imaging.fileformats.wmf/wmfimage/resize/#resize_1)(int, int, ImageResizeSettings) | Adjust the size of the image based on specified settings, enabling precise control over dimensions, aspect ratio, and scaling behavior. Integrate this method into your image processing workflow to achieve customized resizing operations tailored to the specific requirements of your application. |
-| override [Resize](../../aspose.imaging.fileformats.wmf/wmfimage/resize/#resize_2)(int, int, ResizeType) | Resize the image with the specified resizing type, allowing for flexible adjustment of dimensions while preserving aspect ratio or applying specific scaling algorithms. Integrate this method into your image processing workflow to achieve precise resizing operations tailored to your application's requirements. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |
 | override [ResizeCanvas](../../aspose.imaging.fileformats.wmf/wmfimage/resizecanvas/)(Rectangle) | Resize the canvas of the image, adjusting its dimensions while retaining the image content. Utilize this method to modify the size of the canvas without altering the content, facilitating layout adjustments and composition changes within your application. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |
@@ -79,7 +79,8 @@ public class WmfImage : MetaImage
 | [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | Resizes the width proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
-| override [RotateFlip](../../aspose.imaging.fileformats.wmf/wmfimage/rotateflip/)(RotateFlipType) | Perform rotation, flipping, or a combination of both operations on the image. Integrate this method into your image processing workflow to achieve precise manipulation of image orientation and alignment within your application. |
+| override [Rotate](../../aspose.imaging/vectorimage/rotate/)(float) | Rotate image around the center. |
+| override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
 | [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |

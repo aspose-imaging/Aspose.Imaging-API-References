@@ -3,7 +3,7 @@ title: CustomFontSource
 second_title: Aspose.Imaging for Java API Reference
 description: Custom font source provider interface
 type: docs
-weight: 122
+weight: 121
 url: /java/com.aspose.imaging/customfontsource/
 ---```
 public interface CustomFontSource
