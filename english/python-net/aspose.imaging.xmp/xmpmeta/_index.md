@@ -1,7 +1,7 @@
 ---
 title: XmpMeta Class
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.imaging.xmp/xmpmeta/
 ---
 

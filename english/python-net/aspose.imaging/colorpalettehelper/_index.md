@@ -18,19 +18,20 @@ url: /python-net/aspose.imaging/colorpalettehelper/
 | [create_4_bit_grayscale(min_is_white)](#create_4_bit_grayscale_min_is_white_2) | Creates the 4 bit grayscale palette. |
 | [create_8_bit()](#create_8_bit__3) | Creates the 8 bit color palette. |
 | [create_8_bit_grayscale(min_is_white)](#create_8_bit_grayscale_min_is_white_4) | Creates the 8 bit grayscale palette. |
-| [create_monochrome()](#create_monochrome__5) | Creates a monochrome color palette containing 2 colors only. |
-| [get_close_image_palette(image, dest_bounds, entries_count)](#get_close_image_palette_image_dest_bounds_entries_count_6) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_close_image_palette(image, dest_bounds, entries_count, use_image_palette)](#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_7) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color)](#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_8) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color, keep_transparency)](#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_keep_transparency_9) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_close_image_palette(image, entries_count)](#get_close_image_palette_image_entries_count_10) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_close_image_palette(image, entries_count, palette_mining_method)](#get_close_image_palette_image_entries_count_palette_mining_method_11) | Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used. |
-| [get_close_image_palette_by_method(image, entries_count, palette_mining_method)](#get_close_image_palette_by_method_image_entries_count_palette_mining_method_12) | Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used. |
-| [get_close_image_palette_by_rect(image, dest_bounds, entries_count)](#get_close_image_palette_by_rect_image_dest_bounds_entries_count_13) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_close_transparent_image_palette(image, entries_count)](#get_close_transparent_image_palette_image_entries_count_14) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
-| [get_downscale_palette(image)](#get_downscale_palette_image_15) | Get 256 color palette, composed from upper bits of initial image color values. |
-| [get_uniform_color_palette(image)](#get_uniform_color_palette_image_16) | Get uniform 256 color palette. |
-| [has_transparent_colors(palette)](#has_transparent_colors_palette_17) | Determines whether the specified palette has transparent colors. |
+| [create_grayscale(bits)](#create_grayscale_bits_5) | Gets the grayscale palette of specified bit count. Allowed bit values are 1, 2, 4, 8. |
+| [create_monochrome()](#create_monochrome__6) | Creates a monochrome color palette containing 2 colors only. |
+| [get_close_image_palette(image, dest_bounds, entries_count)](#get_close_image_palette_image_dest_bounds_entries_count_7) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_close_image_palette(image, dest_bounds, entries_count, use_image_palette)](#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_8) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color)](#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_9) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color, keep_transparency)](#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_keep_transparency_10) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_close_image_palette(image, entries_count)](#get_close_image_palette_image_entries_count_11) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_close_image_palette(image, entries_count, palette_mining_method)](#get_close_image_palette_image_entries_count_palette_mining_method_12) | Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used. |
+| [get_close_image_palette_by_method(image, entries_count, palette_mining_method)](#get_close_image_palette_by_method_image_entries_count_palette_mining_method_13) | Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used. |
+| [get_close_image_palette_by_rect(image, dest_bounds, entries_count)](#get_close_image_palette_by_rect_image_dest_bounds_entries_count_14) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_close_transparent_image_palette(image, entries_count)](#get_close_transparent_image_palette_image_entries_count_15) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| [get_downscale_palette(image)](#get_downscale_palette_image_16) | Get 256 color palette, composed from upper bits of initial image color values. |
+| [get_uniform_color_palette(image)](#get_uniform_color_palette_image_17) | Get uniform 256 color palette. |
+| [has_transparent_colors(palette)](#has_transparent_colors_palette_18) | Determines whether the specified palette has transparent colors. |
 
 
 ### Method: create_4_bit()  [static] {#create_4_bit__1}
@@ -109,7 +110,29 @@ Creates the 8 bit grayscale palette.
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The 8 bit grayscale palette. |
 
 
-### Method: create_monochrome()  [static] {#create_monochrome__5}
+### Method: create_grayscale(bits)  [static] {#create_grayscale_bits_5}
+
+
+```
+ create_grayscale(bits) 
+```
+
+Gets the grayscale palette of specified bit count. Allowed bit values are 1, 2, 4, 8.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| bits | int | The bit count. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | Grayscale palette. |
+
+
+### Method: create_monochrome()  [static] {#create_monochrome__6}
 
 
 ```
@@ -125,7 +148,7 @@ Creates a monochrome color palette containing 2 colors only.
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | Color palette for monochrome images. |
 
 
-### Method: get_close_image_palette(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_6}
+### Method: get_close_image_palette(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_7}
 
 
 ```
@@ -149,7 +172,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_7}
+### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_8}
 
 
 ```
@@ -174,7 +197,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_8}
+### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_9}
 
 
 ```
@@ -200,7 +223,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color, keep_transparency)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_keep_transparency_9}
+### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color, keep_transparency)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_keep_transparency_10}
 
 
 ```
@@ -227,7 +250,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_close_image_palette(image, entries_count)  [static] {#get_close_image_palette_image_entries_count_10}
+### Method: get_close_image_palette(image, entries_count)  [static] {#get_close_image_palette_image_entries_count_11}
 
 
 ```
@@ -258,7 +281,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 **[Example # 2](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
 
 
-### Method: get_close_image_palette(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_image_entries_count_palette_mining_method_11}
+### Method: get_close_image_palette(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_image_entries_count_palette_mining_method_12}
 
 
 ```
@@ -288,7 +311,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 **[Example # 1](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
 
 
-### Method: get_close_image_palette_by_method(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_by_method_image_entries_count_palette_mining_method_12}
+### Method: get_close_image_palette_by_method(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_by_method_image_entries_count_palette_mining_method_13}
 
 
 ```
@@ -312,7 +335,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_close_image_palette_by_rect(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_by_rect_image_dest_bounds_entries_count_13}
+### Method: get_close_image_palette_by_rect(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_by_rect_image_dest_bounds_entries_count_14}
 
 
 ```
@@ -336,7 +359,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_close_transparent_image_palette(image, entries_count)  [static] {#get_close_transparent_image_palette_image_entries_count_14}
+### Method: get_close_transparent_image_palette(image, entries_count)  [static] {#get_close_transparent_image_palette_image_entries_count_15}
 
 
 ```
@@ -359,7 +382,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
-### Method: get_downscale_palette(image)  [static] {#get_downscale_palette_image_15}
+### Method: get_downscale_palette(image)  [static] {#get_downscale_palette_image_16}
 
 
 ```
@@ -381,7 +404,7 @@ Get 256 color palette, composed from upper bits of initial image color values.
 | [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/). |
 
 
-### Method: get_uniform_color_palette(image)  [static] {#get_uniform_color_palette_image_16}
+### Method: get_uniform_color_palette(image)  [static] {#get_uniform_color_palette_image_17}
 
 
 ```
@@ -403,7 +426,7 @@ Get uniform 256 color palette.
 | [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/). |
 
 
-### Method: has_transparent_colors(palette)  [static] {#has_transparent_colors_palette_17}
+### Method: has_transparent_colors(palette)  [static] {#has_transparent_colors_palette_18}
 
 
 ```

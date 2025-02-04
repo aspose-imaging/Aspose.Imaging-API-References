@@ -46,7 +46,7 @@ url: /python-net/aspose.imaging.imageoptions/emfrasterizationoptions/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
-| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies to. |
+| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies this to _vectorRasterizationOptions_. |
 
 
 ### Constructor: EmfRasterizationOptions() {#EmfRasterizationOptions__1}
@@ -81,11 +81,11 @@ Creates a memberwise clone of this instance.
  copy_to(vector_rasterization_options) 
 ```
 
-Copies to.
+Copies this to _vectorRasterizationOptions_.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | vectorRasterizationOptions |
 

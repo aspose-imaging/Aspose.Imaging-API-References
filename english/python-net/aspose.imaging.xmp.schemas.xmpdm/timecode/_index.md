@@ -25,7 +25,8 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Returns the string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Returns the string contained value in XMP format. |
 
 
 ### Constructor: Timecode(format, time_value) {#Timecode_format_time_value_1}
@@ -44,7 +45,23 @@ Initializes a new instance of the [Timecode](/imaging/python-net/aspose.imaging.
 | format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | The time format. |
 | time_value | string | The time value. |
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

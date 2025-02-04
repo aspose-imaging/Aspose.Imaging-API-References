@@ -26,7 +26,8 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpboolean/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Returns string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Returns string contained value in XMP format. |
 
 
 ### Constructor: XmpBoolean() {#XmpBoolean__1}
@@ -68,7 +69,23 @@ Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | value | string | The Boolean value. Allowed values are True or False. |
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

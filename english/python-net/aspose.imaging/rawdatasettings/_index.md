@@ -25,6 +25,10 @@ url: /python-net/aspose.imaging/rawdatasettings/
 | indexed_color_converter | [IIndexedColorConverter](/imaging/python-net/aspose.imaging/iindexedcolorconverter) | r/w | Gets or sets the indexed color converter |
 | line_size | int | r/w | Gets or sets the pixels line size in bytes for raw data processing |
 | pixel_data_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r/w | Gets or sets the pixel data format |
+## **Methods**
+| **Name** | **Description** |
+| :- | :- |
+| [clone()](#clone__1) | Creates a shalow clone. |
 
 
 ### Constructor: RawDataSettings() {#RawDataSettings__1}
@@ -35,4 +39,20 @@ url: /python-net/aspose.imaging/rawdatasettings/
 ```
 
 Initializes a new instance of the RawDataSettings class
+
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Creates a shalow clone.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings) | A shalow clone. |
+
 

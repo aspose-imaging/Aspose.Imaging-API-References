@@ -1,7 +1,7 @@
 ---
 title: XmpHeaderPi Class
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.imaging.xmp/xmpheaderpi/
 ---
 

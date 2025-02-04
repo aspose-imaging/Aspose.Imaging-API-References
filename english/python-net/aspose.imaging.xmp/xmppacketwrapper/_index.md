@@ -1,7 +1,7 @@
 ---
 title: XmpPacketWrapper Class
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 
@@ -10,6 +10,8 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Name:** aspose.imaging.xmp.XmpPacketWrapper
+
+**Inheritance:** IXmlValue
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -31,7 +33,8 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 | clear_packages() | Removes all [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside XMP. |
 | [contains_package(namespace_uri)](#contains_package_namespace_uri_2) | Determines whethere package is exist in xmp wrapper. |
 | [get_package(namespace_uri)](#get_package_namespace_uri_3) | Gets package by namespace URI. |
-| [remove_package(package)](#remove_package_package_4) | Removes the XMP package. |
+| [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
+| [remove_package(package)](#remove_package_package_5) | Removes the XMP package. |
 
 
 ### Constructor: XmpPacketWrapper() {#XmpPacketWrapper__1}
@@ -119,7 +122,23 @@ Gets package by namespace URI.
 | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns the XMP package for specified namespace URI. |
 
 
-### Method: remove_package(package) {#remove_package_package_4}
+### Method: get_xml_value() {#get_xml_value__4}
+
+
+```
+ get_xml_value() 
+```
+
+Converts XMP value to the XML representation.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| string | Returns converted XMP value to XML. |
+
+
+### Method: remove_package(package) {#remove_package_package_5}
 
 
 ```

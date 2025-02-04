@@ -1,7 +1,7 @@
 ---
 title: ProcessingType Enumeration
 type: docs
-weight: 10920
+weight: 10930
 url: /python-net/aspose.imaging/processingtype/
 ---
 

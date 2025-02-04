@@ -1,7 +1,7 @@
 ---
 title: XmpArrayType Enumeration
 type: docs
-weight: 580
+weight: 590
 url: /python-net/aspose.imaging.xmp/xmparraytype/
 ---
 

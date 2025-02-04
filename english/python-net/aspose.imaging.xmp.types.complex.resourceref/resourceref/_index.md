@@ -29,7 +29,8 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
 
 
 ### Constructor: ResourceRef() {#ResourceRef__1}
@@ -41,7 +42,23 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 
 Initializes a new instance of the [aspose.imaging.xmp.types.complex.dimensions](/imaging/python-net/aspose.imaging.xmp.types.complex.dimensions/) class.
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

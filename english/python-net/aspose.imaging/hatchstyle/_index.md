@@ -1,7 +1,7 @@
 ---
 title: HatchStyle Enumeration
 type: docs
-weight: 10540
+weight: 10550
 url: /python-net/aspose.imaging/hatchstyle/
 ---
 

@@ -1,26 +1,22 @@
 ---
-title: XmpArray Class
+title: XmpCollection Class
 type: docs
-weight: 310
-url: /python-net/aspose.imaging.xmp/xmparray/
+weight: 350
+url: /python-net/aspose.imaging.xmp/xmpcollection/
 ---
 
-**Summary:** Represents Xmp Array in [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
+**Summary:** An XMP element collection.
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
-**Full Name:** aspose.imaging.xmp.XmpArray
+**Full Name:** aspose.imaging.xmp.XmpCollection
 
-**Inheritance:** IXmpType, XmpCollection
+**Inheritance:** IXmpType
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [XmpArray(type, items)](#XmpArray_type_items_1) | Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class. |
-## **Properties**
-| **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- | :- |
-| values | string | r | Gets array of values inside [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/). |
+| [XmpCollection()](#XmpCollection__1) | Initializes a new instance of the [XmpCollection](/imaging/python-net/aspose.imaging.xmp/xmpcollection/) class. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -30,21 +26,14 @@ url: /python-net/aspose.imaging.xmp/xmparray/
 | [get_xmp_representation()](#get_xmp_representation__4) | Gets the XMP string value of this. |
 
 
-### Constructor: XmpArray(type, items) {#XmpArray_type_items_1}
+### Constructor: XmpCollection() {#XmpCollection__1}
 
 
 ```
- XmpArray(type, items) 
+ XmpCollection() 
 ```
 
-Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype) | The type of array. |
-| items | string | The items list. |
+Initializes a new instance of the [XmpCollection](/imaging/python-net/aspose.imaging.xmp/xmpcollection/) class.
 
 ### Method: add(item) {#add_item_1}
 

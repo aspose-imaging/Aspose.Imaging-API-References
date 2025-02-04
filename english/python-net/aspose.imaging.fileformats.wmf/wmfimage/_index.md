@@ -77,7 +77,7 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_27) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_28) | Gets rectangle which fits the current image. |
 | [get_missed_fonts()](#get_missed_fonts__29) | Returns the list of fonts which used inside metafile but not found. |
-| [get_original_options()](#get_original_options__30) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
+| [get_original_options()](#get_original_options__30) | Gets the original image options. |
 | [get_post_script()](#get_post_script__31) | Access the PostScript data associated with the image, providing detailed <br/>            information about its structure or content. Utilize this method to retrieve <br/>            PostScript data for further analysis or processing within your application, <br/>            enabling advanced functionality related to PostScript rendering or manipulation. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_32) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_33) | Gets a proportional width. |
@@ -114,7 +114,7 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 | [save(file_path, options)](#save_file_path_options_61) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_62) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save(file_path, over_write)](#save_file_path_over_write_63) | Saves the object's data to the specified file location. |
-| [save(stream)](#save_stream_64) | Saves the data. |
+| [save(stream)](#save_stream_64) | Saves the data to specified _stream_. |
 | [save(stream, options_base)](#save_stream_options_base_65) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_66) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_to_stream(stream)](#save_to_stream_stream_67) | Saves the object's data to the specified stream. |
@@ -787,13 +787,13 @@ Returns the list of fonts which used inside metafile but not found.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
+Gets the original image options.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The options based on the original file settings. |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The original image options. |
 
 
 ### Method: get_post_script() {#get_post_script__31}
@@ -1399,13 +1399,13 @@ Saves the object's data to the specified file location.
  save(stream) 
 ```
 
-Saves the data.
+Saves the data to specified _stream_.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom | The stream to save data to. |
+| stream | _io.BufferedRandom | The stream. |
 
 ### Method: save(stream, options_base) {#save_stream_options_base_65}
 

@@ -105,7 +105,7 @@ url: /python-net/aspose.imaging.fileformats.emf/metaimage/
 | [save(file_path, options)](#save_file_path_options_59) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_60) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save(file_path, over_write)](#save_file_path_over_write_61) | Saves the object's data to the specified file location. |
-| [save(stream)](#save_stream_62) | Saves the object's data to the specified stream. |
+| [save(stream)](#save_stream_62) | Saves the data to specified _stream_. |
 | [save(stream, options_base)](#save_stream_options_base_63) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_64) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_to_stream(stream)](#save_to_stream_stream_65) | Saves the object's data to the specified stream. |
@@ -1327,13 +1327,13 @@ Saves the object's data to the specified file location.
  save(stream) 
 ```
 
-Saves the object's data to the specified stream.
+Saves the data to specified _stream_.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom | The stream to save the object's data to. |
+| stream | _io.BufferedRandom | The stream. |
 
 ### Method: save(stream, options_base) {#save_stream_options_base_63}
 

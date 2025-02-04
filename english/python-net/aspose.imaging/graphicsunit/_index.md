@@ -1,7 +1,7 @@
 ---
 title: GraphicsUnit Enumeration
 type: docs
-weight: 10520
+weight: 10530
 url: /python-net/aspose.imaging/graphicsunit/
 ---
 

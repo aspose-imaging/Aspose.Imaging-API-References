@@ -105,6 +105,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | max_aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the maximum aperture value. |
 | metering_mode | [ExifMeteringMode](/imaging/python-net/aspose.imaging.exif.enums/exifmeteringmode/) | r/w | Gets or sets the metering mode. |
 | oecf | byte | r/w | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
+| orientation | [ExifOrientation](/imaging/python-net/aspose.imaging.exif.enums/exiforientation/) | r/w | Gets or sets the orientation. |
 | photographic_sensitivity | uint | r/w | Gets or sets the photographic sensitivity. |
 | pixel_x_dimension | uint | r/w | Gets or sets the pixel x dimension. |
 | pixel_y_dimension | uint | r/w | Gets or sets the pixel y dimension. |

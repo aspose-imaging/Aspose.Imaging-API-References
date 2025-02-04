@@ -1,7 +1,7 @@
 ---
 title: ColorCompareMethod Enumeration
 type: docs
-weight: 9160
+weight: 9170
 url: /python-net/aspose.imaging/colorcomparemethod/
 ---
 

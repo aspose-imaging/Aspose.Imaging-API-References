@@ -20,6 +20,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
+| count | int | r | Gets the XMP key count. |
 | namespace_uri | string | r | Gets the namespace URI. |
 | prefix | string | r | Gets the prefix. |
 | xml_namespace | string | r | Gets the XML namespace. |
@@ -27,39 +28,42 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 | **Name** | **Description** |
 | :- | :- |
 | [add_value(key, value)](#add_value_key_value_1) | Adds string property. |
+| [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
-| [contains_key(key)](#contains_key_key_2) | Determines whether the specified key contains key. |
-| [get_prop_value(key)](#get_prop_value_key_3) | Gets the object with the specified key. |
-| [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
-| [remove(key)](#remove_key_5) | Remove the value with the specified key. |
-| [set_abs_peak_audio_file_path(uri)](#set_abs_peak_audio_file_path_uri_6) | Sets the absolute peak audio file path. |
-| [set_alblum(album)](#set_alblum_album_7) | Sets the alblum. |
-| [set_alt_tape_name(alt_tape_name)](#set_alt_tape_name_alt_tape_name_8) | Sets the alternative tape name. |
-| [set_alt_time_code(timecode)](#set_alt_time_code_timecode_9) | Sets the alternative time code. |
-| [set_artist(artist)](#set_artist_artist_10) | Sets the artist. |
-| [set_audio_channel_type(audio_channel_type)](#set_audio_channel_type_audio_channel_type_11) | Sets the audio channel type. |
-| [set_audio_sample_rate(rate)](#set_audio_sample_rate_rate_12) | Sets the audio sample rate. |
-| [set_audio_sample_type(audio_sample_type)](#set_audio_sample_type_audio_sample_type_13) | Sets the audio sample type. |
-| [set_camera_angle(camera_angle)](#set_camera_angle_camera_angle_14) | Sets the camera angle. |
-| [set_camera_label(camera_label)](#set_camera_label_camera_label_15) | Sets the camera label. |
-| [set_camera_move(camera_move)](#set_camera_move_camera_move_16) | Sets the camera move. |
-| [set_client(client)](#set_client_client_17) | Sets the client. |
-| [set_comment(comment)](#set_comment_comment_18) | Sets the comment. |
-| [set_composer(composer)](#set_composer_composer_19) | Sets the composer. |
-| [set_director(director)](#set_director_director_20) | Sets the director. |
-| [set_director_photography(director_photography)](#set_director_photography_director_photography_21) | Sets the director of photography. |
-| [set_duration(duration)](#set_duration_duration_22) | Sets the duration. |
-| [set_engineer(engineer)](#set_engineer_engineer_23) | Sets the engineer. |
-| [set_file_data_rate(rate)](#set_file_data_rate_rate_24) | Sets the file data rate. |
-| [set_genre(genre)](#set_genre_genre_25) | Sets the genre. |
-| [set_good(good)](#set_good_good_26) | Sets the good. |
-| [set_instrument(instrument)](#set_instrument_instrument_27) | Sets the instrument. |
-| [set_intro_time(intro_time)](#set_intro_time_intro_time_28) | Sets the intro time. |
-| [set_key(key)](#set_key_key_29) | Sets the audio’s musical key. |
-| [set_log_comment(comment)](#set_log_comment_comment_30) | Sets the user's log comment. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_31) | Gets or sets the object with the specified key. |
-| [set_value(key, value)](#set_value_key_value_32) | Sets the value. |
-| [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_33) | Sets the XMP type value. |
+| [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
+| [get_prop_value(key)](#get_prop_value_key_4) | Gets the object with the specified key. |
+| [get_xml_value()](#get_xml_value__5) | Converts XMP value to the XML representation. |
+| [remove(key)](#remove_key_6) | Remove the value with the specified key. |
+| [set_abs_peak_audio_file_path(uri)](#set_abs_peak_audio_file_path_uri_7) | Sets the absolute peak audio file path. |
+| [set_alblum(album)](#set_alblum_album_8) | Sets the alblum. |
+| [set_alt_tape_name(alt_tape_name)](#set_alt_tape_name_alt_tape_name_9) | Sets the alternative tape name. |
+| [set_alt_time_code(timecode)](#set_alt_time_code_timecode_10) | Sets the alternative time code. |
+| [set_artist(artist)](#set_artist_artist_11) | Sets the artist. |
+| [set_audio_channel_type(audio_channel_type)](#set_audio_channel_type_audio_channel_type_12) | Sets the audio channel type. |
+| [set_audio_sample_rate(rate)](#set_audio_sample_rate_rate_13) | Sets the audio sample rate. |
+| [set_audio_sample_type(audio_sample_type)](#set_audio_sample_type_audio_sample_type_14) | Sets the audio sample type. |
+| [set_camera_angle(camera_angle)](#set_camera_angle_camera_angle_15) | Sets the camera angle. |
+| [set_camera_label(camera_label)](#set_camera_label_camera_label_16) | Sets the camera label. |
+| [set_camera_move(camera_move)](#set_camera_move_camera_move_17) | Sets the camera move. |
+| [set_client(client)](#set_client_client_18) | Sets the client. |
+| [set_comment(comment)](#set_comment_comment_19) | Sets the comment. |
+| [set_composer(composer)](#set_composer_composer_20) | Sets the composer. |
+| [set_director(director)](#set_director_director_21) | Sets the director. |
+| [set_director_photography(director_photography)](#set_director_photography_director_photography_22) | Sets the director of photography. |
+| [set_duration(duration)](#set_duration_duration_23) | Sets the duration. |
+| [set_engineer(engineer)](#set_engineer_engineer_24) | Sets the engineer. |
+| [set_file_data_rate(rate)](#set_file_data_rate_rate_25) | Sets the file data rate. |
+| [set_genre(genre)](#set_genre_genre_26) | Sets the genre. |
+| [set_good(good)](#set_good_good_27) | Sets the good. |
+| [set_instrument(instrument)](#set_instrument_instrument_28) | Sets the instrument. |
+| [set_intro_time(intro_time)](#set_intro_time_intro_time_29) | Sets the intro time. |
+| [set_key(key)](#set_key_key_30) | Sets the audio’s musical key. |
+| [set_log_comment(comment)](#set_log_comment_comment_31) | Sets the user's log comment. |
+| [set_prop_value(key, value)](#set_prop_value_key_value_32) | Gets or sets the object with the specified key. |
+| [set_value(key, value)](#set_value_key_value_33) | Sets the value. |
+| [set_value(key, value)](#set_value_key_value_34) | Sets the value. |
+| [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_35) | Sets the XMP type value. |
+| [try_get_value(key, value)](#try_get_value_key_value_36) | Gets the value by the _key_. |
 
 
 ### Constructor: XmpDynamicMediaPackage() {#XmpDynamicMediaPackage__1}
@@ -87,14 +91,30 @@ Adds string property.
 | key | string | The string representation of key that is identified with added value. |
 | value | string | The string value. |
 
-### Method: contains_key(key) {#contains_key_key_2}
+### Method: add_value(key, value) {#add_value_key_value_2}
+
+
+```
+ add_value(key, value) 
+```
+
+Adds string property.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The string representation of key that is identified with added value. |
+| value | object | The string value. |
+
+### Method: contains_key(key) {#contains_key_key_3}
 
 
 ```
  contains_key(key) 
 ```
 
-Determines whether the specified key contains key.
+Determines whether this collection specified key.
 
 **Parameters:**
 
@@ -106,10 +126,10 @@ Determines whether the specified key contains key.
 
 | Type | Description |
 | :- | :- |
-| bool | Returns true if the specified key contains key. |
+| bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_3}
+### Method: get_prop_value(key) {#get_prop_value_key_4}
 
 
 ```
@@ -131,7 +151,7 @@ Gets the object with the specified key.
 | object | Returns the object with the specified key. |
 
 
-### Method: get_xml_value() {#get_xml_value__4}
+### Method: get_xml_value() {#get_xml_value__5}
 
 
 ```
@@ -147,7 +167,7 @@ Converts XMP value to the XML representation.
 | string | Returns the XMP value converted to the XML representation. |
 
 
-### Method: remove(key) {#remove_key_5}
+### Method: remove(key) {#remove_key_6}
 
 
 ```
@@ -169,7 +189,7 @@ Remove the value with the specified key.
 | bool | Returns true if the value with the specified key was removed. |
 
 
-### Method: set_abs_peak_audio_file_path(uri) {#set_abs_peak_audio_file_path_uri_6}
+### Method: set_abs_peak_audio_file_path(uri) {#set_abs_peak_audio_file_path_uri_7}
 
 
 ```
@@ -184,7 +204,7 @@ Sets the absolute peak audio file path.
 | :- | :- | :- |
 | uri | string | The absolute path to the file’s peak audio file. |
 
-### Method: set_alblum(album) {#set_alblum_album_7}
+### Method: set_alblum(album) {#set_alblum_album_8}
 
 
 ```
@@ -199,7 +219,7 @@ Sets the alblum.
 | :- | :- | :- |
 | album | string | The album. |
 
-### Method: set_alt_tape_name(alt_tape_name) {#set_alt_tape_name_alt_tape_name_8}
+### Method: set_alt_tape_name(alt_tape_name) {#set_alt_tape_name_alt_tape_name_9}
 
 
 ```
@@ -214,7 +234,7 @@ Sets the alternative tape name.
 | :- | :- | :- |
 | alt_tape_name | string | Alternative tape name. |
 
-### Method: set_alt_time_code(timecode) {#set_alt_time_code_timecode_9}
+### Method: set_alt_time_code(timecode) {#set_alt_time_code_timecode_10}
 
 
 ```
@@ -229,7 +249,7 @@ Sets the alternative time code.
 | :- | :- | :- |
 | timecode | [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode) | Time code. |
 
-### Method: set_artist(artist) {#set_artist_artist_10}
+### Method: set_artist(artist) {#set_artist_artist_11}
 
 
 ```
@@ -244,7 +264,7 @@ Sets the artist.
 | :- | :- | :- |
 | artist | string | The artist. |
 
-### Method: set_audio_channel_type(audio_channel_type) {#set_audio_channel_type_audio_channel_type_11}
+### Method: set_audio_channel_type(audio_channel_type) {#set_audio_channel_type_audio_channel_type_12}
 
 
 ```
@@ -259,7 +279,7 @@ Sets the audio channel type.
 | :- | :- | :- |
 | audio_channel_type | [AudioChannelType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype) | Audio channel type. |
 
-### Method: set_audio_sample_rate(rate) {#set_audio_sample_rate_rate_12}
+### Method: set_audio_sample_rate(rate) {#set_audio_sample_rate_rate_13}
 
 
 ```
@@ -274,7 +294,7 @@ Sets the audio sample rate.
 | :- | :- | :- |
 | rate | int | The audio sample rate. |
 
-### Method: set_audio_sample_type(audio_sample_type) {#set_audio_sample_type_audio_sample_type_13}
+### Method: set_audio_sample_type(audio_sample_type) {#set_audio_sample_type_audio_sample_type_14}
 
 
 ```
@@ -289,7 +309,7 @@ Sets the audio sample type.
 | :- | :- | :- |
 | audio_sample_type | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | The audio sample type. |
 
-### Method: set_camera_angle(camera_angle) {#set_camera_angle_camera_angle_14}
+### Method: set_camera_angle(camera_angle) {#set_camera_angle_camera_angle_15}
 
 
 ```
@@ -304,7 +324,7 @@ Sets the camera angle.
 | :- | :- | :- |
 | camera_angle | string | The camera angle. |
 
-### Method: set_camera_label(camera_label) {#set_camera_label_camera_label_15}
+### Method: set_camera_label(camera_label) {#set_camera_label_camera_label_16}
 
 
 ```
@@ -319,7 +339,7 @@ Sets the camera label.
 | :- | :- | :- |
 | camera_label | string | The camera label. |
 
-### Method: set_camera_move(camera_move) {#set_camera_move_camera_move_16}
+### Method: set_camera_move(camera_move) {#set_camera_move_camera_move_17}
 
 
 ```
@@ -334,7 +354,7 @@ Sets the camera move.
 | :- | :- | :- |
 | camera_move | string | The camera move. |
 
-### Method: set_client(client) {#set_client_client_17}
+### Method: set_client(client) {#set_client_client_18}
 
 
 ```
@@ -349,7 +369,7 @@ Sets the client.
 | :- | :- | :- |
 | client | string | The client. |
 
-### Method: set_comment(comment) {#set_comment_comment_18}
+### Method: set_comment(comment) {#set_comment_comment_19}
 
 
 ```
@@ -364,7 +384,7 @@ Sets the comment.
 | :- | :- | :- |
 | comment | string | The comment. |
 
-### Method: set_composer(composer) {#set_composer_composer_19}
+### Method: set_composer(composer) {#set_composer_composer_20}
 
 
 ```
@@ -379,7 +399,7 @@ Sets the composer.
 | :- | :- | :- |
 | composer | string | The composer. |
 
-### Method: set_director(director) {#set_director_director_20}
+### Method: set_director(director) {#set_director_director_21}
 
 
 ```
@@ -394,7 +414,7 @@ Sets the director.
 | :- | :- | :- |
 | director | string | The director. |
 
-### Method: set_director_photography(director_photography) {#set_director_photography_director_photography_21}
+### Method: set_director_photography(director_photography) {#set_director_photography_director_photography_22}
 
 
 ```
@@ -409,7 +429,7 @@ Sets the director of photography.
 | :- | :- | :- |
 | director_photography | string | The director of photography. |
 
-### Method: set_duration(duration) {#set_duration_duration_22}
+### Method: set_duration(duration) {#set_duration_duration_23}
 
 
 ```
@@ -424,7 +444,7 @@ Sets the duration.
 | :- | :- | :- |
 | duration | [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time) | The duration. |
 
-### Method: set_engineer(engineer) {#set_engineer_engineer_23}
+### Method: set_engineer(engineer) {#set_engineer_engineer_24}
 
 
 ```
@@ -439,7 +459,7 @@ Sets the engineer.
 | :- | :- | :- |
 | engineer | string | The engineer. |
 
-### Method: set_file_data_rate(rate) {#set_file_data_rate_rate_24}
+### Method: set_file_data_rate(rate) {#set_file_data_rate_rate_25}
 
 
 ```
@@ -454,7 +474,7 @@ Sets the file data rate.
 | :- | :- | :- |
 | rate | [Rational](/imaging/python-net/aspose.imaging.xmp.types.derived/rational/) | The file data rate in megabytes per second. |
 
-### Method: set_genre(genre) {#set_genre_genre_25}
+### Method: set_genre(genre) {#set_genre_genre_26}
 
 
 ```
@@ -469,7 +489,7 @@ Sets the genre.
 | :- | :- | :- |
 | genre | string | The genre. |
 
-### Method: set_good(good) {#set_good_good_26}
+### Method: set_good(good) {#set_good_good_27}
 
 
 ```
@@ -484,7 +504,7 @@ Sets the good.
 | :- | :- | :- |
 | good | bool | if set to <c>true</c> a shot is a keeper. |
 
-### Method: set_instrument(instrument) {#set_instrument_instrument_27}
+### Method: set_instrument(instrument) {#set_instrument_instrument_28}
 
 
 ```
@@ -499,7 +519,7 @@ Sets the instrument.
 | :- | :- | :- |
 | instrument | string | The instrument. |
 
-### Method: set_intro_time(intro_time) {#set_intro_time_intro_time_28}
+### Method: set_intro_time(intro_time) {#set_intro_time_intro_time_29}
 
 
 ```
@@ -514,7 +534,7 @@ Sets the intro time.
 | :- | :- | :- |
 | intro_time | [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time) | The intro time. |
 
-### Method: set_key(key) {#set_key_key_29}
+### Method: set_key(key) {#set_key_key_30}
 
 
 ```
@@ -529,7 +549,7 @@ Sets the audio’s musical key.
 | :- | :- | :- |
 | key | string | The audio’s musical key. One of: C, C#, D, D#, E, F, F#, G, G#, A, A#, and B. |
 
-### Method: set_log_comment(comment) {#set_log_comment_comment_30}
+### Method: set_log_comment(comment) {#set_log_comment_comment_31}
 
 
 ```
@@ -544,7 +564,7 @@ Sets the user's log comment.
 | :- | :- | :- |
 | comment | string | The comment. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_31}
+### Method: set_prop_value(key, value) {#set_prop_value_key_value_32}
 
 
 ```
@@ -560,7 +580,7 @@ Gets or sets the object with the specified key.
 | key | string | The key that identifies value. |
 | value | object | The object with the specified key. |
 
-### Method: set_value(key, value) {#set_value_key_value_32}
+### Method: set_value(key, value) {#set_value_key_value_33}
 
 
 ```
@@ -576,7 +596,23 @@ Sets the value.
 | key | string | The string representation of key that is identified with added value. |
 | value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
 
-### Method: set_xmp_type_value(key, value) {#set_xmp_type_value_key_value_33}
+### Method: set_value(key, value) {#set_value_key_value_34}
+
+
+```
+ set_value(key, value) 
+```
+
+Sets the value.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The string representation of key that is identified with added value. |
+| value | [IXmpType](/imaging/python-net/aspose.imaging.xmp.types/ixmptype/) | The value to add to. |
+
+### Method: set_xmp_type_value(key, value) {#set_xmp_type_value_key_value_35}
 
 
 ```
@@ -591,4 +627,27 @@ Sets the XMP type value.
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with set value. |
 | value | [XmpTypeBase](/imaging/python-net/aspose.imaging.xmp.types/xmptypebase/) | The value to set to. |
+
+### Method: try_get_value(key, value) {#try_get_value_key_value_36}
+
+
+```
+ try_get_value(key, value) 
+```
+
+Gets the value by the _key_.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The XMP element key. |
+| value | Object | The XMP value. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | **True**, if the  contains the _key_; otherwise, **False**. |
+
 

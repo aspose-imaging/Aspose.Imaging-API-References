@@ -75,7 +75,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_26) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_27) | Gets rectangle which fits the current image. |
 | [get_missed_fonts()](#get_missed_fonts__28) | Returns the list of fonts which used inside metafile but not found. |
-| [get_original_options()](#get_original_options__29) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
+| [get_original_options()](#get_original_options__29) | Gets the original image options. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_30) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_31) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_32) | Converts to aps. |
@@ -111,7 +111,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 | [save(file_path, options)](#save_file_path_options_59) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_60) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save(file_path, over_write)](#save_file_path_over_write_61) | Saves the object's data to the specified file location. |
-| [save(stream)](#save_stream_62) | Saves the data. |
+| [save(stream)](#save_stream_62) | Saves the data to specified _stream_. |
 | [save(stream, options_base)](#save_stream_options_base_63) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_64) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_to_stream(stream)](#save_to_stream_stream_65) | Saves the object's data to the specified stream. |
@@ -762,13 +762,13 @@ Returns the list of fonts which used inside metafile but not found.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
+Gets the original image options.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The options based on the original file settings. |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The original image options. |
 
 
 ### Method: get_proportional_height(width, height, new_width)  [static] {#get_proportional_height_width_height_new_width_30}
@@ -1358,13 +1358,13 @@ Saves the object's data to the specified file location.
  save(stream) 
 ```
 
-Saves the data.
+Saves the data to specified _stream_.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | _io.BufferedRandom | The stream to save data to. |
+| stream | _io.BufferedRandom | The stream. |
 
 ### Method: save(stream, options_base) {#save_stream_options_base_63}
 
