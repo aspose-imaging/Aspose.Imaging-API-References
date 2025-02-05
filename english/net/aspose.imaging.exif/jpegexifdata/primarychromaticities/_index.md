@@ -3,7 +3,7 @@ title: JpegExifData.PrimaryChromaticities
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the chromaticity of the three primary colors of the image
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.exif/jpegexifdata/primarychromaticities/
 ---
 ## JpegExifData.PrimaryChromaticities property

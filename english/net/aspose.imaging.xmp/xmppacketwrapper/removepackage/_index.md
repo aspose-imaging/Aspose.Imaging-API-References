@@ -3,7 +3,7 @@ title: XmpPacketWrapper.RemovePackage
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper method. Removes the XMP package
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging.xmp/xmppacketwrapper/removepackage/
 ---
 ## XmpPacketWrapper.RemovePackage method

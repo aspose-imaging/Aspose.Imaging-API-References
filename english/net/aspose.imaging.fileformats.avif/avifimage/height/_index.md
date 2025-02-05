@@ -3,7 +3,7 @@ title: AvifImage.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: AvifImage property. Gets the AVIF image height
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.fileformats.avif/avifimage/height/
 ---
 ## AvifImage.Height property

@@ -3,7 +3,7 @@ title: ColorPaletteHelper.GetCloseTransparentImagePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: ColorPaletteHelper method. Gets color palette from raster image palletizes image in case the image does not have one. In case palette exists it will be used instead performing calculations
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/colorpalettehelper/getclosetransparentimagepalette/
 ---
 ## ColorPaletteHelper.GetCloseTransparentImagePalette method

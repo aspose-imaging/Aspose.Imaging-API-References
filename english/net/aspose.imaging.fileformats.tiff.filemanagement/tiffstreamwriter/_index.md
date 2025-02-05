@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/
 The Tiff stream writer.
 
 ```csharp
-public class TiffStreamWriter : #=zoZFYF645XiIaQ9ZQWyasEuZcv34nAqVVQfTZiy32YTwhWRVBmpo3OhI=
+public class TiffStreamWriter : #=zb2Mrt7vGPd7IrvU_M9X8O$BT1KdS801QdWuFTOJW1bU5YMQ9FCDoLQ0=
 ```
 
 ## Constructors

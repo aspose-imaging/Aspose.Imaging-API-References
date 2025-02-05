@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/
 Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the power of XML-based text format for seamless customization and scalability. Easily load SVG images, rasterize vector elements, and convert to other formats, while controlling compression levels to optimize file size and quality for your projects.
 
 ```csharp
-public sealed class SvgImage : VectorImage
+public sealed class SvgImage : VectorImage, IHasXmpData
 ```
 
 ## Constructors
@@ -47,6 +47,7 @@ public sealed class SvgImage : VectorImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
+| [XmpData](../../aspose.imaging.fileformats.svg/svgimage/xmpdata/) { get; set; } | Gets or sets XMP data. |
 
 ## Methods
 
@@ -161,6 +162,7 @@ foreach (var file in files)
 ### See Also
 
 * class [VectorImage](../../aspose.imaging/vectorimage/)
+* interface [IHasXmpData](../../aspose.imaging.xmp/ihasxmpdata/)
 * namespace [Aspose.Imaging.FileFormats.Svg](../../aspose.imaging.fileformats.svg/)
 * assembly [Aspose.Imaging](../../)
 

@@ -3,7 +3,7 @@ title: XmpArray.ToString
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpArray method. Returns a String that represents this instance
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.imaging.xmp/xmparray/tostring/
 ---
 ## XmpArray.ToString method

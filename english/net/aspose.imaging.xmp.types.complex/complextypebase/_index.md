@@ -31,7 +31,9 @@ public class ComplexTypeBase : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
+| virtual [Clone](../../aspose.imaging.xmp.types/xmptypebase/clone/)() | Clones this instance. |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex/complextypebase/getxmprepresentation/)() | Gets the string contained value in XMP format. |
+| override [ToString](../../aspose.imaging.xmp.types/xmptypebase/tostring/)() | Gets this XMP data as string. |
 
 ## Remarks
 

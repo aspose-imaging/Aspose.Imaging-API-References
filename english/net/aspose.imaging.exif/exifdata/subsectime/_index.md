@@ -3,7 +3,7 @@ title: ExifData.SubsecTime
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the fractions of seconds for the DateTime tag
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.imaging.exif/exifdata/subsectime/
 ---
 ## ExifData.SubsecTime property

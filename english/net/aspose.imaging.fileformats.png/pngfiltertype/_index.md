@@ -19,11 +19,11 @@ public enum PngFilterType
 | Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | The null-filter, means no filtering for image data rows. |
-| Sub | `1` | The sub filter, means substractive filtering will be applied to image data. |
-| Up | `2` | The up filter, means row-by-row substraction filter will be applied. |
+| Sub | `1` | The sub filter, means subtractive filtering will be applied to image data. |
+| Up | `2` | The up filter, means row-by-row subtraction filter will be applied. |
 | Avg | `3` | The avg filter, means, that average filter will be applied to image data. |
 | Paeth | `4` | The paeth predictor filter. |
-| Adaptive | `5` | Adaptive filtering, means that saving process will choose most sutable filter for each data row. Best compression, slowest execution time. |
+| Adaptive | `5` | Adaptive filtering, means that saving process will choose most suitable filter for each data row. Best compression, slowest execution time. |
 
 ### See Also
 

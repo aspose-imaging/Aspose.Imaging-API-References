@@ -3,7 +3,7 @@ title: JpegExifData.Software
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the software
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.imaging.exif/jpegexifdata/software/
 ---
 ## JpegExifData.Software property

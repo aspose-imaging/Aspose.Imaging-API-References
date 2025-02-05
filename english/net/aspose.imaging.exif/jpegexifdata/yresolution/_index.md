@@ -3,7 +3,7 @@ title: JpegExifData.YResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the y resolution
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.exif/jpegexifdata/yresolution/
 ---
 ## JpegExifData.YResolution property

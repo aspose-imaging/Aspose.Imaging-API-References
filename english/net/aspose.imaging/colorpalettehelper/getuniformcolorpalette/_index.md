@@ -3,7 +3,7 @@ title: ColorPaletteHelper.GetUniformColorPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: ColorPaletteHelper method. Get uniform 256 color palette
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging/colorpalettehelper/getuniformcolorpalette/
 ---
 ## ColorPaletteHelper.GetUniformColorPalette method

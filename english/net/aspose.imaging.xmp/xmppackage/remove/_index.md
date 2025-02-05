@@ -3,7 +3,7 @@ title: XmpPackage.Remove
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage method. Remove the value with the specified key
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging.xmp/xmppackage/remove/
 ---
 ## XmpPackage.Remove method

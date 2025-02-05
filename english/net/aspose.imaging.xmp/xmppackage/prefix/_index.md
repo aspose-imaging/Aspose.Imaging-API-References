@@ -3,7 +3,7 @@ title: XmpPackage.Prefix
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage property. Gets the prefix
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging.xmp/xmppackage/prefix/
 ---
 ## XmpPackage.Prefix property

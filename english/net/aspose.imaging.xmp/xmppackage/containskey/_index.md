@@ -1,14 +1,14 @@
 ---
 title: XmpPackage.ContainsKey
 second_title: Aspose.Imaging for .NET API Reference
-description: XmpPackage method. Determines whether the specified key contains key
+description: XmpPackage method. Determines whether this collection specified key
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging.xmp/xmppackage/containskey/
 ---
 ## XmpPackage.ContainsKey method
 
-Determines whether the specified key contains key.
+Determines whether this collection specified key.
 
 ```csharp
 public virtual bool ContainsKey(string key)
@@ -20,7 +20,7 @@ public virtual bool ContainsKey(string key)
 
 ### Return Value
 
-Returns true if the specified key contains key.
+`true` if the IDictionary contains the specified key; otherwise, `false`.
 
 ### See Also
 

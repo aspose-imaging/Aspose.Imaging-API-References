@@ -3,7 +3,7 @@ title: XmpPackage.NamespaceUri
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage property. Gets the namespace URI
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.xmp/xmppackage/namespaceuri/
 ---
 ## XmpPackage.NamespaceUri property

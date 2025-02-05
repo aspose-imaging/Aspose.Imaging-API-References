@@ -3,7 +3,7 @@ title: JpegExifData.Thumbnail
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the thumbnail image
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.imaging.exif/jpegexifdata/thumbnail/
 ---
 ## JpegExifData.Thumbnail property

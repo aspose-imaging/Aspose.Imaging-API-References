@@ -3,7 +3,7 @@ title: ColorPaletteHelper.GetDownscalePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: ColorPaletteHelper method. Get 256 color palette composed from upper bits of initial image color values
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging/colorpalettehelper/getdownscalepalette/
 ---
 ## ColorPaletteHelper.GetDownscalePalette method
