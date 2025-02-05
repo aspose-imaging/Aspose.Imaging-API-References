@@ -31,7 +31,7 @@ The PDF options.
 | [getPageSize()](#getPageSize--) | Gets the size of the page. |
 | [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | Sets the size of the page. |
 | [isUseOriginalImageSize()](#isUseOriginalImageSize--) | Gets a value indicating to use the original image DPI resolution |
-| [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | Sets a value indicating to use the original image DPI resolution |
+| [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | Sets a value indicating to use the original image DPI resolution WILL BE REMOVED SINCE 25.3 |
 
 ## Example: The following example shows how to convert a multipage vector image to PDF format in general way without referencing to a particular image type.
 
@@ -191,7 +191,7 @@ public void setUseOriginalImageSize(boolean useOriginalImageSize)
 ```
 
 
-Sets a value indicating to use the original image DPI resolution
+Sets a value indicating to use the original image DPI resolution WILL BE REMOVED SINCE 25.3
 
 Value: Indicator to use the original image DPI resolution
 

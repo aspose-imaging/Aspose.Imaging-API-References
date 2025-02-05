@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging/rawdatasettings/
 ---
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Cloneable
 ```
-public class RawDataSettings
+public class RawDataSettings implements Cloneable
 ```
 
 The raw data settings
@@ -36,6 +39,7 @@ The raw data settings
 | [setFallbackIndex(int value)](#setFallbackIndex-int-) | Sets the fallback index to use when palette index is out of bounds |
 | [getLineSize()](#getLineSize--) | Gets the pixels line size in bytes for raw data processing |
 | [setLineSize(int value)](#setLineSize-int-) | Sets the pixels line size in bytes for raw data processing |
+| [clone()](#clone--) | Creates a shallow clone. |
 ### RawDataSettings() {#RawDataSettings--}
 ```
 public RawDataSettings()
@@ -203,3 +207,13 @@ Sets the pixels line size in bytes for raw data processing
 | --- | --- | --- |
 | value | int | The pixels line size in bytes for raw data processing |
 
+### clone() {#clone--}
+```
+public RawDataSettings clone()
+```
+
+
+Creates a shallow clone.
+
+**Returns:**
+[RawDataSettings](../../com.aspose.imaging/rawdatasettings) - A shallow clone.

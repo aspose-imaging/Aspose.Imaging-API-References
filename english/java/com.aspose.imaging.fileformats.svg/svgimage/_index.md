@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.fileformats.svg/svgimage/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.VectorImage](../../com.aspose.imaging/vectorimage)
+
+**All Implemented Interfaces:**
+[com.aspose.imaging.xmp.IHasXmpData](../../com.aspose.imaging.xmp/ihasxmpdata)
 ```
-public final class SvgImage extends VectorImage
+public final class SvgImage extends VectorImage implements IHasXmpData
 ```
 
 Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the power of XML-based text format for seamless customization and scalability. Easily load SVG images, rasterize vector elements, and convert to other formats, while controlling compression levels to optimize file size and quality for your projects.
@@ -28,6 +31,8 @@ Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the 
 | [isCached()](#isCached--) | Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieves the bits per pixel count of the image. |
 | [getFileFormat()](#getFileFormat--) | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. |
+| [getXmpData()](#getXmpData--) | Gets XMP data. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP data. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. |
 | [cacheData()](#cacheData--) | Cache the data and guarantee that there will be no further loading of data from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image to fit the specified dimensions while preserving its aspect ratio. |
@@ -200,6 +205,29 @@ Retrieves the file format of the image, providing essential metadata for process
 
 **Returns:**
 long - file format
+### getXmpData() {#getXmpData--}
+```
+public XmpPacketWrapper getXmpData()
+```
+
+
+Gets XMP data.
+
+**Returns:**
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - XMP data.
+### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
+```
+public void setXmpData(XmpPacketWrapper value)
+```
+
+
+Sets XMP data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP data. |
+
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)

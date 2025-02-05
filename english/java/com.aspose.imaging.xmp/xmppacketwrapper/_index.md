@@ -3,13 +3,16 @@ title: XmpPacketWrapper
 second_title: Aspose.Imaging for Java API Reference
 description: Contains serialized xmp package including header and trailer.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.aspose.imaging.xmp/xmppacketwrapper/
 ---
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue)
 ```
-public class XmpPacketWrapper
+public class XmpPacketWrapper implements IXmlValue
 ```
 
 Contains serialized xmp package including header and trailer.
@@ -36,6 +39,8 @@ A wrapper consisting of a pair of XML processing instructions (PIs) may be place
 | [containsPackage(String namespaceUri)](#containsPackage-java.lang.String-) | Determines whether package is exist in xmp wrapper. |
 | [removePackage(XmpPackage package_)](#removePackage-com.aspose.imaging.xmp.XmpPackage-) | Removes the XMP package. |
 | [clearPackages()](#clearPackages--) | Removes all `XmpPackage` inside XMP. |
+| [getXmlValue()](#getXmlValue--) | Converts XMP value to the XML representation. |
+| [toString()](#toString--) | Returns an XML string that represents the current object. |
 ### XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMeta) {#XmpPacketWrapper-com.aspose.imaging.xmp.XmpHeaderPi-com.aspose.imaging.xmp.XmpTrailerPi-com.aspose.imaging.xmp.XmpMeta-}
 ```
 public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMeta)
@@ -186,3 +191,23 @@ public void clearPackages()
 
 Removes all `XmpPackage` inside XMP.
 
+### getXmlValue() {#getXmlValue--}
+```
+public String getXmlValue()
+```
+
+
+Converts XMP value to the XML representation.
+
+**Returns:**
+java.lang.String - Returns converted XMP value to XML.
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns an XML string that represents the current object.
+
+**Returns:**
+java.lang.String - An XML string that represents the current object.

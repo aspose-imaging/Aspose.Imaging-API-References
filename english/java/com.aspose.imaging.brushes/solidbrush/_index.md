@@ -25,6 +25,8 @@ Solid brush is intended for drawing continiously with specific color. This class
 | --- | --- |
 | [getColor()](#getColor--) | Gets or sets the brush color. |
 | [setColor(Color value)](#setColor-com.aspose.imaging.Color-) | Gets or sets the brush color. |
+| [hashCode()](#hashCode--) |  |
+| [equals(Object object)](#equals-java.lang.Object-) |  |
 
 ## Example: This example uses Graphics class to create primitive shapes on the Image surface.
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
@@ -277,3 +279,28 @@ Value: The brush color.
 | --- | --- | --- |
 | value | [Color](../../com.aspose.imaging/color) |  |
 
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int
+### equals(Object object) {#equals-java.lang.Object-}
+```
+public boolean equals(Object object)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| object | java.lang.Object |  |
+
+**Returns:**
+boolean

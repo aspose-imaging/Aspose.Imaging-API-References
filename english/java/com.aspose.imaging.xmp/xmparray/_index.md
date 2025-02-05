@@ -1,48 +1,36 @@
 ---
 title: XmpArray
 second_title: Aspose.Imaging for Java API Reference
-description: Represents Xmp Array in XmpPackage.
+description: Represents Xmp Array in .
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.xmp/xmparray/
 ---
 **Inheritance:**
-java.lang.Object
-
-**All Implemented Interfaces:**
-[com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue)
+java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, java.util.ArrayList, [com.aspose.imaging.xmp.XmpCollection](../../com.aspose.imaging.xmp/xmpcollection)
 ```
-public class XmpArray implements IXmlValue
+public class XmpArray extends XmpCollection
 ```
 
-Represents Xmp Array in `XmpPackage`. todo: Array may contain complex data.
+Represents Xmp Array in [XmpPackage](../../com.aspose.imaging.xmp/xmppackage).
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [XmpArray(int type, String[] items)](#XmpArray-int-java.lang.String---) | Initializes a new instance of the `XmpArray` class. |
-| [XmpArray(int type)](#XmpArray-int-) | Initializes a new instance of the `XmpArray` class. |
+| [XmpArray()](#XmpArray--) |  |
+| [XmpArray(int type)](#XmpArray-int-) |  |
+| [XmpArray(int type, String[] items)](#XmpArray-int-java.lang.String---) | Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addItem(String item)](#addItem-java.lang.String-) | Adds new item. |
-| [getXmlValue()](#getXmlValue--) | Converts XMP value to the XML representation. |
-| [toString()](#toString--) | Returns a `System.String` that represents this instance. |
-| [getValues()](#getValues--) | Gets array of values inside `XmpArray`. |
-### XmpArray(int type, String[] items) {#XmpArray-int-java.lang.String---}
+| [getValues()](#getValues--) | Gets array of values inside [XmpArray](../../com.aspose.imaging.xmp/xmparray). |
+| [toString()](#toString--) | Returns a String that represents this instance. |
+### XmpArray() {#XmpArray--}
 ```
-public XmpArray(int type, String[] items)
+public XmpArray()
 ```
 
-
-Initializes a new instance of the `XmpArray` class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | The type of array. |
-| items | java.lang.String[] | The items list. |
 
 ### XmpArray(int type) {#XmpArray-int-}
 ```
@@ -50,53 +38,42 @@ public XmpArray(int type)
 ```
 
 
-Initializes a new instance of the `XmpArray` class.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int |  |
+
+### XmpArray(int type, String[] items) {#XmpArray-int-java.lang.String---}
+```
+public XmpArray(int type, String[] items)
+```
+
+
+Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | The type of array. |
+| items | java.lang.String[] | The items list. |
 
-### addItem(String item) {#addItem-java.lang.String-}
+### getValues() {#getValues--}
 ```
-public void addItem(String item)
-```
-
-
-Adds new item.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| item | java.lang.String | The item to be added to list of items. |
-
-### getXmlValue() {#getXmlValue--}
-```
-public String getXmlValue()
+public final String[] getValues()
 ```
 
 
-Converts XMP value to the XML representation.
+Gets array of values inside [XmpArray](../../com.aspose.imaging.xmp/xmparray).
 
 **Returns:**
-java.lang.String - Returns the XMP value converted to the XML representation.
+java.lang.String[] - array of values inside [XmpArray](../../com.aspose.imaging.xmp/xmparray).
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a `System.String` that represents this instance.
+Returns a String that represents this instance.
 
 **Returns:**
-java.lang.String - A `System.String` that represents this instance.
-### getValues() {#getValues--}
-```
-public String[] getValues()
-```
-
-
-Gets array of values inside `XmpArray`.
-
-**Returns:**
-java.lang.String[]
+java.lang.String - A String that represents this instance.

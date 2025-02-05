@@ -33,7 +33,7 @@ The package is the core for nested packages and the most basic objects used for 
 | [ColorMatrix](../com.aspose.imaging/colormatrix) | Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. |
 | [ColorMatrixFlag](../com.aspose.imaging/colormatrixflag) | Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [ImageAttributes](../com.aspose.imaging/imageattributes). |
 | [ColorPalette](../com.aspose.imaging/colorpalette) | Defines an array of colors that make up a color palette. |
-| [ColorPaletteHelper](../com.aspose.imaging/colorpalettehelper) | Helper class for color palettes manipulation. |
+| [ColorPaletteHelper](../com.aspose.imaging/colorpalettehelper) | Helper class for color palette manipulation. |
 | [ColorQuantizationMethod](../com.aspose.imaging/colorquantizationmethod) | Colors quantization methods |
 | [ColorTranslator](../com.aspose.imaging/colortranslator) | Translates colors to and from GDI+ Color structures. |
 | [CompositeException](../com.aspose.imaging/compositeexception) | The composite exception |

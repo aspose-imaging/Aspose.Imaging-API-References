@@ -38,6 +38,7 @@ Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly hand
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resize the canvas of the image, adjusting its dimensions while retaining the image content. |
 | [addRecord(WmfObject record)](#addRecord-com.aspose.imaging.fileformats.wmf.objects.WmfObject-) | Incorporate the specified record object into the image, enriching its content with additional data or metadata. |
 | [getPostScript()](#getPostScript--) | Access the PostScript data associated with the image, providing detailed information about its structure or content. |
+| [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options. |
 
 ## Example: The following example shows how to convert a compressed images (*.
 The following example shows how to convert a compressed images (*.emz,*.wmz, *.svgz) to raster format
@@ -361,3 +362,13 @@ Access the PostScript data associated with the image, providing detailed informa
 
 **Returns:**
 java.lang.String - The post script
+### getOriginalOptions() {#getOriginalOptions--}
+```
+public ImageOptionsBase getOriginalOptions()
+```
+
+
+Gets the original image options.
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The original image options.

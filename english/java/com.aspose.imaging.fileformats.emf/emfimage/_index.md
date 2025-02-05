@@ -36,6 +36,7 @@ The API for Enhanced Metafile Format (EMF) vector image format support is a comp
 | [getUsedFonts()](#getUsedFonts--) | Retrieve the list of fonts utilized within the metafile with this method. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resize the canvas with ease using this function. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options for your image effortlessly. |
+| [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
 ## Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
@@ -380,6 +381,16 @@ Retrieve the default options for your image effortlessly. With this feature, you
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
+### getOriginalOptions() {#getOriginalOptions--}
+```
+public ImageOptionsBase getOriginalOptions()
+```
+
+
+Gets the original image options.
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The original image options.
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```
 public void setPalette(IColorPalette palette, boolean updateColors)

@@ -184,6 +184,8 @@ EXIF data container.
 | [setMeteringMode(int value)](#setMeteringMode-int-) | Gets or sets the metering mode. |
 | [getOECF()](#getOECF--) | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
 | [setOECF(byte[] value)](#setOECF-byte---) | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
+| [getOrientation()](#getOrientation--) | Gets the orientation. |
+| [setOrientation(int value)](#setOrientation-int-) | Sets the orientation. |
 | [getPixelXDimension()](#getPixelXDimension--) | Gets or sets the pixel x dimension. |
 | [setPixelXDimension(long value)](#setPixelXDimension-long-) | Gets or sets the pixel x dimension. |
 | [getPixelYDimension()](#getPixelYDimension--) | Gets or sets the pixel y dimension. |
@@ -2467,6 +2469,33 @@ Value: The Opto-Electric Conversion Function (OECF) specified in ISO 14524.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] |  |
+
+### getOrientation() {#getOrientation--}
+```
+public final int getOrientation()
+```
+
+
+Gets the orientation.
+
+Value: The orientation.
+
+**Returns:**
+int - the orientation.
+### setOrientation(int value) {#setOrientation-int-}
+```
+public final void setOrientation(int value)
+```
+
+
+Sets the orientation.
+
+Value: The orientation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the orientation. |
 
 ### getPixelXDimension() {#getPixelXDimension--}
 ```

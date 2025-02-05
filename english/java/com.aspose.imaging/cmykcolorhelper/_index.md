@@ -31,6 +31,7 @@ Helper methods to work with CMYK color presented as a signed 32-bit integer valu
 | [toArgb(int[] cmykPixels)](#toArgb-int---) | The conversion from CMYK colors to ARGB colors. |
 | [toArgb(int cmykPixel)](#toArgb-int-) | The conversion from CMYK color to ARGB color. |
 | [toArgb32(int[] cmykPixels)](#toArgb32-int---) | The conversion from CMYK colors to ARGB colors. |
+| [toArgb32(int[] cmykPixels, boolean reuseArray)](#toArgb32-int---boolean-) | Performs conversion from CMYK colors to ARGB colors and stores the into the same array if `reuseArray` is true. |
 | [toArgbIcc(int[] cmykPixels)](#toArgbIcc-int---) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
 | [toArgbIcc(int[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int---java.io.InputStream-java.io.InputStream-) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
 | [toArgbIcc(int cmykPixel)](#toArgbIcc-int-) | The conversion from CMYK color to ARGB Color using Icc conversion with default profiles. |
@@ -473,6 +474,22 @@ The conversion from CMYK colors to ARGB colors.
 
 **Returns:**
 int[] - The ARGB colors presented as 32-bit integer values.
+### toArgb32(int[] cmykPixels, boolean reuseArray) {#toArgb32-int---boolean-}
+```
+public static int[] toArgb32(int[] cmykPixels, boolean reuseArray)
+```
+
+
+Performs conversion from CMYK colors to ARGB colors and stores the into the same array if `reuseArray` is true. Otherwise the new array will be allocated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cmykPixels | int[] | The CMYK colors presented as 32-bit integer values. |
+| reuseArray | boolean | if `true` the input `cmykPixels` array will be refilled by new values and returned; otherwise a new array will be allocated and returned. |
+
+**Returns:**
+int[] - The new allocated array or `cmykPixels` filled by ARGB colors presented as 32-bit integer values.
 ### toArgbIcc(int[] cmykPixels) {#toArgbIcc-int---}
 ```
 public static Color[] toArgbIcc(int[] cmykPixels)

@@ -3,7 +3,7 @@ title: XmpRdfRoot
 second_title: Aspose.Imaging for Java API Reference
 description: Represents rdfRDF element.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.aspose.imaging.xmp/xmprdfroot/
 ---
 **Inheritance:**

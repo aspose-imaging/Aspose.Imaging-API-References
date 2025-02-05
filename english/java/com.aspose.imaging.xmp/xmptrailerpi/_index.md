@@ -3,7 +3,7 @@ title: XmpTrailerPi
 second_title: Aspose.Imaging for Java API Reference
 description: Represents XMP trailer processing instruction.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.aspose.imaging.xmp/xmptrailerpi/
 ---
 **Inheritance:**

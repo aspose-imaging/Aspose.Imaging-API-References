@@ -24,6 +24,7 @@ The Wmf rasterization options.
 | --- | --- |
 | [getRenderMode()](#getRenderMode--) | Gets or sets the WMF render mode. |
 | [setRenderMode(int value)](#setRenderMode-int-) | Gets or sets the WMF render mode. |
+| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | Copies this to `vectorRasterizationOptions`. |
 ### WmfRasterizationOptions() {#WmfRasterizationOptions--}
 ```
 public WmfRasterizationOptions()
@@ -58,4 +59,17 @@ Value: The WMF render mode.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### copyTo(VectorRasterizationOptions vectorRasterizationOptions) {#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-}
+```
+public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
+```
+
+
+Copies this to `vectorRasterizationOptions`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | vectorRasterizationOptions |
 
