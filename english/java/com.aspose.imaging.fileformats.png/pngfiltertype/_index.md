@@ -18,8 +18,8 @@ The png filter type.
 | Field | Description |
 | --- | --- |
 | [None](#None) | The null-filter, means no filtering for image data rows. |
-| [Sub](#Sub) | The sub filter, means substractive filtering will be applied to image data. |
-| [Up](#Up) | The up filter, means row-by-row substraction filter will be applied. |
+| [Sub](#Sub) | The sub filter, means subtractive filtering will be applied to image data. |
+| [Up](#Up) | The up filter, means row-by-row subtraction filter will be applied. |
 | [Avg](#Avg) | The avg filter, means, that average filter will be applied to image data. |
 | [Paeth](#Paeth) | The paeth predictor filter. |
 | [Adaptive](#Adaptive) | Adaptive filtering, means that saving process will choose most suitable filter for each data row. |
@@ -37,7 +37,7 @@ public static final int Sub
 ```
 
 
-The sub filter, means substractive filtering will be applied to image data.
+The sub filter, means subtractive filtering will be applied to image data.
 
 ### Up {#Up}
 ```
@@ -45,7 +45,7 @@ public static final int Up
 ```
 
 
-The up filter, means row-by-row substraction filter will be applied.
+The up filter, means row-by-row subtraction filter will be applied.
 
 ### Avg {#Avg}
 ```

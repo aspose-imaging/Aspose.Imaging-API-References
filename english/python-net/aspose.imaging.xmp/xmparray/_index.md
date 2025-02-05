@@ -5,19 +5,18 @@ weight: 310
 url: /python-net/aspose.imaging.xmp/xmparray/
 ---
 
-**Summary:** Represents Xmp Array in [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/). TODO: Array may contain complex data.
+**Summary:** Represents Xmp Array in [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Name:** aspose.imaging.xmp.XmpArray
 
-**Inheritance:** IXmlValue
+**Inheritance:** IXmpType, XmpCollection
 
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [XmpArray(type)](#XmpArray_type_1) | Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class. |
-| [XmpArray(type, items)](#XmpArray_type_items_2) | Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class. |
+| [XmpArray(type, items)](#XmpArray_type_items_1) | Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -25,26 +24,13 @@ url: /python-net/aspose.imaging.xmp/xmparray/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [add_item(item)](#add_item_item_1) | Adds new item. |
-| [get_xml_value()](#get_xml_value__2) | Converts XMP value to the XML representation. |
+| [add(item)](#add_item_1) | Adds new item. |
+| [add_item(item)](#add_item_item_2) | Adds new item. |
+| [get_xml_value()](#get_xml_value__3) | Converts XMP value to the XML representation. |
+| [get_xmp_representation()](#get_xmp_representation__4) | Gets the XMP string value of this. |
 
 
-### Constructor: XmpArray(type) {#XmpArray_type_1}
-
-
-```
- XmpArray(type) 
-```
-
-Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype) | The type of array. |
-
-### Constructor: XmpArray(type, items) {#XmpArray_type_items_2}
+### Constructor: XmpArray(type, items) {#XmpArray_type_items_1}
 
 
 ```
@@ -60,7 +46,22 @@ Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.
 | type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype) | The type of array. |
 | items | string | The items list. |
 
-### Method: add_item(item) {#add_item_item_1}
+### Method: add(item) {#add_item_1}
+
+
+```
+ add(item) 
+```
+
+Adds new item.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| item | object | The item to be added to list of items. |
+
+### Method: add_item(item) {#add_item_item_2}
 
 
 ```
@@ -75,7 +76,7 @@ Adds new item.
 | :- | :- | :- |
 | item | string | The item to be added to list of items. |
 
-### Method: get_xml_value() {#get_xml_value__2}
+### Method: get_xml_value() {#get_xml_value__3}
 
 
 ```
@@ -89,5 +90,21 @@ Converts XMP value to the XML representation.
 | Type | Description |
 | :- | :- |
 | string | Returns the XMP value converted to the XML representation. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__4}
+
+
+```
+ get_xmp_representation() 
+```
+
+Gets the XMP string value of this.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| string | Returns the string contained value in XMP format. |
 
 

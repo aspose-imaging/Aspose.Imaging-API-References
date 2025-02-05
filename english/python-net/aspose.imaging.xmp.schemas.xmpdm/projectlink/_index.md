@@ -25,7 +25,8 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Returns string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Returns string contained value in XMP format. |
 
 
 ### Constructor: ProjectLink() {#ProjectLink__1}
@@ -37,7 +38,23 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 
 Initializes a new instance of the ProjectLink class
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

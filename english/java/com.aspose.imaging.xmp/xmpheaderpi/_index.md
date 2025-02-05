@@ -3,7 +3,7 @@ title: XmpHeaderPi
 second_title: Aspose.Imaging for Java API Reference
 description: Represents XMP header processing instruction.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.aspose.imaging.xmp/xmpheaderpi/
 ---
 **Inheritance:**

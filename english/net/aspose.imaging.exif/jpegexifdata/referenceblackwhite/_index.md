@@ -3,7 +3,7 @@ title: JpegExifData.ReferenceBlackWhite
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the reference black white
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.imaging.exif/jpegexifdata/referenceblackwhite/
 ---
 ## JpegExifData.ReferenceBlackWhite property

@@ -1,7 +1,7 @@
 ---
 title: XmpTrailerPi Class
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.imaging.xmp/xmptrailerpi/
 ---
 

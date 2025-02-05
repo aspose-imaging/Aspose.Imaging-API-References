@@ -135,7 +135,7 @@ Gets or sets a value indicating whether palette correction is applied.
 **Returns:**
 boolean - `true` if palette correction is applied; otherwise, `false`.
 
-Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analyze process takes some time however the output image will have the best matching color palette and result is visually better.
+Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analysis process takes some time however the output image will have the best matching color palette and result is visually better.
 ### setDoPaletteCorrection(boolean value) {#setDoPaletteCorrection-boolean-}
 ```
 public void setDoPaletteCorrection(boolean value)
@@ -149,7 +149,7 @@ Gets or sets a value indicating whether palette correction is applied.
 | --- | --- | --- |
 | value | boolean | `true` if palette correction is applied; otherwise, `false`.
 
-Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analyze process takes some time however the output image will have the best matching color palette and result is visually better. |
+Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analysis process takes some time however the output image will have the best matching color palette and result is visually better. |
 
 
 **Example: This example shows how to save a BMP image to GIF format using various options.**

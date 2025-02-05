@@ -27,7 +27,8 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpdate/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Returns string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Returns string contained value in XMP format. |
 
 
 ### Constructor: XmpDate(date_string) {#XmpDate_date_string_1}
@@ -60,7 +61,23 @@ Initializes a new instance of the [XmpDate](/imaging/python-net/aspose.imaging.x
 | :- | :- | :- |
 | date_time | datetime | A date-time value which is represented using a subset of ISO RFC 8601 formatting. |
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

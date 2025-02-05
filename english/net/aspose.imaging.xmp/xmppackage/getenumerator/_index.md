@@ -3,7 +3,7 @@ title: XmpPackage.GetEnumerator
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage method. Returns an enumerator that iterates through the collection
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.xmp/xmppackage/getenumerator/
 ---
 ## XmpPackage.GetEnumerator method

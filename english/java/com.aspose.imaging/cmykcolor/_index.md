@@ -99,7 +99,7 @@ public static Color[] toColor(CmykColor[] cmykPixels)
 ```
 
 
-The conversion from CMYKColor to Color using icc conversion with default profiles. This method is deprecated. Please use more effective `CmykColorHelper.toArgb(int[])`.
+The conversion from CMYKColor to Color using icc conversion with default profiles. This method is deprecated. Please use more effective [CmykColorHelper.toArgb(int)](../../com.aspose.imaging/cmykcolorhelper\#toArgb-int-)\}.
 
 **Parameters:**
 | Parameter | Type | Description |

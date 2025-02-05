@@ -1,7 +1,7 @@
 ---
 title: XmpElementBase Class
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.imaging.xmp/xmpelementbase/
 ---
 

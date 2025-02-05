@@ -3,7 +3,7 @@ title: ColorPaletteHelper.HasTransparentColors
 second_title: Aspose.Imaging for .NET API Reference
 description: ColorPaletteHelper method. Determines whether the specified palette has transparent colors
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging/colorpalettehelper/hastransparentcolors/
 ---
 ## ColorPaletteHelper.HasTransparentColors method

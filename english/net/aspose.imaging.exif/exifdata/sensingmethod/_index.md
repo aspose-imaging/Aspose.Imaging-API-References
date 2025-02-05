@@ -3,7 +3,7 @@ title: ExifData.SensingMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the sensing method
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.imaging.exif/exifdata/sensingmethod/
 ---
 ## ExifData.SensingMethod property

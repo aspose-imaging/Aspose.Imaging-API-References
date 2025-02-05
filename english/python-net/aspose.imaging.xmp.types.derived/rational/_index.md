@@ -26,7 +26,8 @@ url: /python-net/aspose.imaging.xmp.types.derived/rational/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Gets thestring contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Gets thestring contained value in XMP format. |
 
 
 ### Constructor: Rational(numerator, denominator) {#Rational_numerator_denominator_1}
@@ -45,7 +46,23 @@ Initializes a new instance of the [Rational](/imaging/python-net/aspose.imaging.
 | numerator | int | The numerator. |
 | denominator | int | The denominator. |
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

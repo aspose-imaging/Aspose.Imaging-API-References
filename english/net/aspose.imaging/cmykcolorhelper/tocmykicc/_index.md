@@ -1,37 +1,11 @@
 ---
 title: CmykColorHelper.ToCmykIcc
 second_title: Aspose.Imaging for .NET API Reference
-description: CmykColorHelper method. The conversion from ARGB color to CMYK color using Icc conversion with custom profiles
+description: CmykColorHelper method. The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles
 type: docs
 weight: 130
 url: /net/aspose.imaging/cmykcolorhelper/tocmykicc/
 ---
-## ToCmykIcc(int, Stream, Stream) {#tocmykicc_3}
-
-The conversion from ARGB color to CMYK color using Icc conversion with custom profiles.
-
-```csharp
-public static int ToCmykIcc(int argb, Stream rgbIccStream, Stream cmykIccStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| argb | Int32 | The ARGB color. |
-| rgbIccStream | Stream | The stream containing RGB Icc profile. |
-| cmykIccStream | Stream | The stream containing CMYK Icc profile. |
-
-### Return Value
-
-The CMYK color presented as a 32-bit integer value.
-
-### See Also
-
-* class [CmykColorHelper](../)
-* namespace [Aspose.Imaging](../../cmykcolorhelper/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
 ## ToCmykIcc(Color[], Stream, Stream) {#tocmykicc_5}
 
 The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.
@@ -316,6 +290,32 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
 ### See Also
 
 * struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## ToCmykIcc(int, Stream, Stream) {#tocmykicc_3}
+
+The conversion from ARGB color to CMYK color using Icc conversion with custom profiles.
+
+```csharp
+public static int ToCmykIcc(int argb, Stream rgbIccStream, Stream cmykIccStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| argb | Int32 | The ARGB color. |
+| rgbIccStream | Stream | The stream containing RGB Icc profile. |
+| cmykIccStream | Stream | The stream containing CMYK Icc profile. |
+
+### Return Value
+
+The CMYK color presented as a 32-bit integer value.
+
+### See Also
+
 * class [CmykColorHelper](../)
 * namespace [Aspose.Imaging](../../cmykcolorhelper/)
 * assembly [Aspose.Imaging](../../../)

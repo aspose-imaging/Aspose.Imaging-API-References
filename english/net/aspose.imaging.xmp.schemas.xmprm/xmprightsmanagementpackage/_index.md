@@ -24,6 +24,7 @@ public sealed class XmpRightsManagementPackage : XmpPackage
 
 | Name | Description |
 | --- | --- |
+| [Count](../../aspose.imaging.xmp/xmppackage/count/) { get; } | Gets the XMP key count. |
 | virtual [Item](../../aspose.imaging.xmp/xmppackage/item/) { get; set; } | Gets or sets the Object with the specified key. |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys/) { get; } | Gets the keys in XMP package. |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri/) { get; } | Gets the namespace URI. |
@@ -34,9 +35,10 @@ public sealed class XmpRightsManagementPackage : XmpPackage
 
 | Name | Description |
 | --- | --- |
-| override [AddValue](../../aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/addvalue/)(string, string) | Adds string property. |
+| virtual [AddValue](../../aspose.imaging.xmp/xmppackage/addvalue/)(string, object) | Adds the value to the specified key. |
+| override [AddValue](../../aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/addvalue/#addvalue_1)(string, string) | Adds string property. |
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear/)() | Clears this instance. |
-| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey/)(string) | Determines whether the specified key contains key. |
+| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey/)(string) | Determines whether this collection specified key. |
 | [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator/)() | Returns an enumerator that iterates through the collection. |
 | virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue/)() | Converts XMP value to the XML representation. |
 | virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove/)(string) | Remove the value with the specified key. |
@@ -45,8 +47,10 @@ public sealed class XmpRightsManagementPackage : XmpPackage
 | [SetOwners](../../aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/setowners/)(string[]) | Sets owners. |
 | [SetUsageTerms](../../aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/setusageterms/)(LangAlt) | Sets the usage terms. |
 | virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue/)(string, IXmlValue) | Sets the value. |
+| virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue/)(string, IXmpType) | Sets the value. |
 | [SetWebStatement](../../aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/setwebstatement/)(string) | Sets the web statement. |
 | virtual [SetXmpTypeValue](../../aspose.imaging.xmp/xmppackage/setxmptypevalue/)(string, XmpTypeBase) | Sets the XMP type value. |
+| [TryGetValue](../../aspose.imaging.xmp/xmppackage/trygetvalue/)(string, out object) | Gets the value by the *key*. |
 
 ### See Also
 

@@ -509,7 +509,7 @@ Value: The text replace mapping.
 
 ### copyTo(VectorRasterizationOptions vectorRasterizationOptions) {#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-}
 ```
-public final void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
+public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
 ```
 
 

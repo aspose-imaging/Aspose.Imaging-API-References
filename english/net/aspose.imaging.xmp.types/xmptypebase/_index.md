@@ -11,14 +11,16 @@ url: /net/aspose.imaging.xmp.types/xmptypebase/
 Represents base class for basic XMP type.
 
 ```csharp
-public abstract class XmpTypeBase : IXmpType
+public abstract class XmpTypeBase : ICloneable, IXmpType
 ```
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| virtual [Clone](../../aspose.imaging.xmp.types/xmptypebase/clone/)() | Clones this instance. |
 | abstract [GetXmpRepresentation](../../aspose.imaging.xmp.types/xmptypebase/getxmprepresentation/)() | Gets the string contained value in XMP format. |
+| override [ToString](../../aspose.imaging.xmp.types/xmptypebase/tostring/)() | Gets this XMP data as string. |
 
 ### See Also
 

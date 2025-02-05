@@ -3,7 +3,7 @@ title: XmpMeta
 second_title: Aspose.Imaging for Java API Reference
 description: Represents xmp meta.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.imaging.xmp/xmpmeta/
 ---
 **Inheritance:**

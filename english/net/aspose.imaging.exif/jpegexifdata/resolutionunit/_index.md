@@ -3,7 +3,7 @@ title: JpegExifData.ResolutionUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the resolution unit
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.imaging.exif/jpegexifdata/resolutionunit/
 ---
 ## JpegExifData.ResolutionUnit property

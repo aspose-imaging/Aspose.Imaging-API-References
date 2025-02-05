@@ -3,7 +3,7 @@ title: RotateFlipExtensions
 second_title: Aspose.Imaging for Java API Reference
 description: Contains extension methods for conversion the System.Drawing.RotateFlipType and the RotateFlipType classes.
 type: docs
-weight: 24
+weight: 23
 url: /java/com.aspose.imaging.extensions/rotateflipextensions/
 ---
 **Inheritance:**

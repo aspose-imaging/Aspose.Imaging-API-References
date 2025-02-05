@@ -1,7 +1,7 @@
 ---
 title: FontStyle Enumeration
 type: docs
-weight: 10500
+weight: 10510
 url: /python-net/aspose.imaging/fontstyle/
 ---
 

@@ -14,8 +14,9 @@ The namespace contains XMP related helper classes and methods.
 | --- | --- |
 | [LangAlt](./langalt/) | Represents XMP Language Alternative. |
 | [Namespaces](./namespaces/) | Contains namespaces used in RDF document. |
-| [XmpArray](./xmparray/) | Represents Xmp Array in [`XmpPackage`](../aspose.imaging.xmp/xmppackage/). TODO: Array may contain complex data. |
+| [XmpArray](./xmparray/) | Represents Xmp Array in [`XmpPackage`](../aspose.imaging.xmp/xmppackage/). |
 | [XmpArrayHelper](./xmparrayhelper/) | The helper class for processing RDF logic |
+| [XmpCollection](./xmpcollection/) | An XMP element collection. |
 | [XmpElementBase](./xmpelementbase/) | Represents base xmp element contains attributes. |
 | [XmpHeaderPi](./xmpheaderpi/) | Represents XMP header processing instruction. |
 | [XmpMeta](./xmpmeta/) | Represents xmpmeta. Optional. The purpose of this element is to identify XMP metadata within general XML text that might contain other non-XMP uses of RDF. |

@@ -3,7 +3,7 @@ title: JpegExifData.PhotometricInterpretation
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the photometric interpretation
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.exif/jpegexifdata/photometricinterpretation/
 ---
 ## JpegExifData.PhotometricInterpretation property

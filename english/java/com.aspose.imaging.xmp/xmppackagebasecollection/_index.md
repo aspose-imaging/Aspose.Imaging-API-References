@@ -3,7 +3,7 @@ title: XmpPackageBaseCollection
 second_title: Aspose.Imaging for Java API Reference
 description: Represents collection of XmpPackage.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.imaging.xmp/xmppackagebasecollection/
 ---
 **Inheritance:**
@@ -29,7 +29,7 @@ Represents collection of `XmpPackage`.
 | [add(XmpPackage package_)](#add-com.aspose.imaging.xmp.XmpPackage-) | Adds new instance of `XmpPackage`. |
 | [remove(XmpPackage package_)](#remove-com.aspose.imaging.xmp.XmpPackage-) | Removes the specified XMP package. |
 | [getPackages()](#getPackages--) | Get array of `XmpPackage`. |
-| [getPackage(String namespaceUri)](#getPackage-java.lang.String-) | Gets `XmpPackage` by it's namespaceURI. |
+| [getPackage(String namespaceUri)](#getPackage-java.lang.String-) | Gets `XmpPackage` by its namespaceURI. |
 | [clear()](#clear--) | Clear all `XmpPackage` inside collection. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through a collection. |
 ### XmpPackageBaseCollection() {#XmpPackageBaseCollection--}
@@ -94,7 +94,7 @@ public XmpPackage getPackage(String namespaceUri)
 ```
 
 
-Gets `XmpPackage` by it's namespaceURI.
+Gets `XmpPackage` by its namespaceURI.
 
 **Parameters:**
 | Parameter | Type | Description |

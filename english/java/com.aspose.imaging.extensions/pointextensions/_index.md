@@ -3,7 +3,7 @@ title: PointExtensions
 second_title: Aspose.Imaging for Java API Reference
 description: Contains extension methods for Point and PointF structures.
 type: docs
-weight: 21
+weight: 20
 url: /java/com.aspose.imaging.extensions/pointextensions/
 ---
 **Inheritance:**

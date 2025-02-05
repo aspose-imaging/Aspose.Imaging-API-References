@@ -3,7 +3,7 @@ title: JpegExifData.PlanarConfiguration
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the planar configuration
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.imaging.exif/jpegexifdata/planarconfiguration/
 ---
 ## JpegExifData.PlanarConfiguration property

@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/vectorrasterizationoptions/copyto/
 Copies to.
 
 ```csharp
-public void CopyTo(VectorRasterizationOptions vectorRasterizationOptions)
+public virtual void CopyTo(VectorRasterizationOptions vectorRasterizationOptions)
 ```
 
 | Parameter | Type | Description |

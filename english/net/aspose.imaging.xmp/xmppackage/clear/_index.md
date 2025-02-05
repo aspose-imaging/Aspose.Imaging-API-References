@@ -3,7 +3,7 @@ title: XmpPackage.Clear
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage method. Clears this instance
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging.xmp/xmppackage/clear/
 ---
 ## XmpPackage.Clear method

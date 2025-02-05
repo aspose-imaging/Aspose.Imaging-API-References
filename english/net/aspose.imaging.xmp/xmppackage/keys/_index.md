@@ -3,7 +3,7 @@ title: XmpPackage.Keys
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage property. Gets the keys in XMP package
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.xmp/xmppackage/keys/
 ---
 ## XmpPackage.Keys property

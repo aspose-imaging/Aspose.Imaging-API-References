@@ -24,6 +24,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 | RATING_MAX [static] | int | r | Rating max value. |
 | RATING_MIN [static] | int | r | Rating min value. |
 | RATING_REJECTED [static] | int | r | Rating rejected value. |
+| count | int | r | Gets the XMP key count. |
 | namespace_uri | string | r | Gets the namespace URI. |
 | prefix | string | r | Gets the prefix. |
 | xml_namespace | string | r | Gets the XML namespace. |
@@ -31,27 +32,30 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 | **Name** | **Description** |
 | :- | :- |
 | [add_value(key, value)](#add_value_key_value_1) | Adds string property. |
+| [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
-| [contains_key(key)](#contains_key_key_2) | Determines whether the specified key contains key. |
-| [get_prop_value(key)](#get_prop_value_key_3) | Gets the object with the specified key. |
-| [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
-| [remove(key)](#remove_key_5) | Remove the value with the specified key. |
-| [set_created_date(created_date)](#set_created_date_created_date_6) | Adds resource created date. |
+| [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
+| [get_prop_value(key)](#get_prop_value_key_4) | Gets the object with the specified key. |
+| [get_xml_value()](#get_xml_value__5) | Converts XMP value to the XML representation. |
+| [remove(key)](#remove_key_6) | Remove the value with the specified key. |
 | [set_created_date(created_date)](#set_created_date_created_date_7) | Adds resource created date. |
-| [set_created_date_str(created_date)](#set_created_date_str_created_date_8) | Adds resource created date. |
-| [set_creator_tool(creator_tool)](#set_creator_tool_creator_tool_9) | Sets the creator tool. |
-| [set_identifier(idenfifier)](#set_identifier_idenfifier_10) | Sets the identifier. |
-| [set_label(label)](#set_label_label_11) | Sets the label. |
-| [set_metadata_date(metadata_date)](#set_metadata_date_metadata_date_12) | Adds metadata last changed date. |
+| [set_created_date(created_date)](#set_created_date_created_date_8) | Adds resource created date. |
+| [set_created_date_str(created_date)](#set_created_date_str_created_date_9) | Adds resource created date. |
+| [set_creator_tool(creator_tool)](#set_creator_tool_creator_tool_10) | Sets the creator tool. |
+| [set_identifier(idenfifier)](#set_identifier_idenfifier_11) | Sets the identifier. |
+| [set_label(label)](#set_label_label_12) | Sets the label. |
 | [set_metadata_date(metadata_date)](#set_metadata_date_metadata_date_13) | Adds metadata last changed date. |
-| [set_metadata_date_str(metadata_date)](#set_metadata_date_str_metadata_date_14) | Adds metadata last changed date. |
-| [set_modify_date(modified_date)](#set_modify_date_modified_date_15) | Adds resource last modified date. |
+| [set_metadata_date(metadata_date)](#set_metadata_date_metadata_date_14) | Adds metadata last changed date. |
+| [set_metadata_date_str(metadata_date)](#set_metadata_date_str_metadata_date_15) | Adds metadata last changed date. |
 | [set_modify_date(modified_date)](#set_modify_date_modified_date_16) | Adds resource last modified date. |
-| [set_modify_date_str(modified_date)](#set_modify_date_str_modified_date_17) | Adds resource last modified date. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_18) | Gets or sets the object with the specified key. |
-| [set_rating(choise)](#set_rating_choise_19) | Sets rating. |
-| [set_value(key, value)](#set_value_key_value_20) | Sets the value. |
-| [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_21) | Sets the XMP type value. |
+| [set_modify_date(modified_date)](#set_modify_date_modified_date_17) | Adds resource last modified date. |
+| [set_modify_date_str(modified_date)](#set_modify_date_str_modified_date_18) | Adds resource last modified date. |
+| [set_prop_value(key, value)](#set_prop_value_key_value_19) | Gets or sets the object with the specified key. |
+| [set_rating(choise)](#set_rating_choise_20) | Sets rating. |
+| [set_value(key, value)](#set_value_key_value_21) | Sets the value. |
+| [set_value(key, value)](#set_value_key_value_22) | Sets the value. |
+| [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_23) | Sets the XMP type value. |
+| [try_get_value(key, value)](#try_get_value_key_value_24) | Gets the value by the _key_. |
 
 
 ### Constructor: XmpBasicPackage() {#XmpBasicPackage__1}
@@ -95,14 +99,30 @@ Adds string property.
 | key | string | The string representation of key that is identified with added value. |
 | value | string | The string value. |
 
-### Method: contains_key(key) {#contains_key_key_2}
+### Method: add_value(key, value) {#add_value_key_value_2}
+
+
+```
+ add_value(key, value) 
+```
+
+Adds string property.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The string representation of key that is identified with added value. |
+| value | object | The string value. |
+
+### Method: contains_key(key) {#contains_key_key_3}
 
 
 ```
  contains_key(key) 
 ```
 
-Determines whether the specified key contains key.
+Determines whether this collection specified key.
 
 **Parameters:**
 
@@ -114,10 +134,10 @@ Determines whether the specified key contains key.
 
 | Type | Description |
 | :- | :- |
-| bool | Returns true if the specified key contains key. |
+| bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_3}
+### Method: get_prop_value(key) {#get_prop_value_key_4}
 
 
 ```
@@ -139,7 +159,7 @@ Gets the object with the specified key.
 | object | Returns the object with the specified key. |
 
 
-### Method: get_xml_value() {#get_xml_value__4}
+### Method: get_xml_value() {#get_xml_value__5}
 
 
 ```
@@ -155,7 +175,7 @@ Converts XMP value to the XML representation.
 | string | Returns the XMP value converted to the XML representation. |
 
 
-### Method: remove(key) {#remove_key_5}
+### Method: remove(key) {#remove_key_6}
 
 
 ```
@@ -177,7 +197,7 @@ Remove the value with the specified key.
 | bool | Returns true if the value with the specified key was removed. |
 
 
-### Method: set_created_date(created_date) {#set_created_date_created_date_6}
+### Method: set_created_date(created_date) {#set_created_date_created_date_7}
 
 
 ```
@@ -192,7 +212,7 @@ Adds resource created date.
 | :- | :- | :- |
 | created_date | datetime | Created date. |
 
-### Method: set_created_date(created_date) {#set_created_date_created_date_7}
+### Method: set_created_date(created_date) {#set_created_date_created_date_8}
 
 
 ```
@@ -207,7 +227,7 @@ Adds resource created date.
 | :- | :- | :- |
 | created_date | string | Created date. |
 
-### Method: set_created_date_str(created_date) {#set_created_date_str_created_date_8}
+### Method: set_created_date_str(created_date) {#set_created_date_str_created_date_9}
 
 
 ```
@@ -222,7 +242,7 @@ Adds resource created date.
 | :- | :- | :- |
 | created_date | string | Created date. |
 
-### Method: set_creator_tool(creator_tool) {#set_creator_tool_creator_tool_9}
+### Method: set_creator_tool(creator_tool) {#set_creator_tool_creator_tool_10}
 
 
 ```
@@ -237,7 +257,7 @@ Sets the creator tool.
 | :- | :- | :- |
 | creator_tool | string | Name of tool. |
 
-### Method: set_identifier(idenfifier) {#set_identifier_idenfifier_10}
+### Method: set_identifier(idenfifier) {#set_identifier_idenfifier_11}
 
 
 ```
@@ -252,7 +272,7 @@ Sets the identifier.
 | :- | :- | :- |
 | idenfifier | string | The idenfifier. |
 
-### Method: set_label(label) {#set_label_label_11}
+### Method: set_label(label) {#set_label_label_12}
 
 
 ```
@@ -267,7 +287,7 @@ Sets the label.
 | :- | :- | :- |
 | label | string | The label. |
 
-### Method: set_metadata_date(metadata_date) {#set_metadata_date_metadata_date_12}
+### Method: set_metadata_date(metadata_date) {#set_metadata_date_metadata_date_13}
 
 
 ```
@@ -282,7 +302,7 @@ Adds metadata last changed date.
 | :- | :- | :- |
 | metadata_date | datetime | Metadata date. |
 
-### Method: set_metadata_date(metadata_date) {#set_metadata_date_metadata_date_13}
+### Method: set_metadata_date(metadata_date) {#set_metadata_date_metadata_date_14}
 
 
 ```
@@ -297,7 +317,7 @@ Adds metadata last changed date.
 | :- | :- | :- |
 | metadata_date | string | Metadata date. |
 
-### Method: set_metadata_date_str(metadata_date) {#set_metadata_date_str_metadata_date_14}
+### Method: set_metadata_date_str(metadata_date) {#set_metadata_date_str_metadata_date_15}
 
 
 ```
@@ -312,7 +332,7 @@ Adds metadata last changed date.
 | :- | :- | :- |
 | metadata_date | string | Metadata date. |
 
-### Method: set_modify_date(modified_date) {#set_modify_date_modified_date_15}
+### Method: set_modify_date(modified_date) {#set_modify_date_modified_date_16}
 
 
 ```
@@ -327,7 +347,7 @@ Adds resource last modified date.
 | :- | :- | :- |
 | modified_date | datetime | Last modified date. |
 
-### Method: set_modify_date(modified_date) {#set_modify_date_modified_date_16}
+### Method: set_modify_date(modified_date) {#set_modify_date_modified_date_17}
 
 
 ```
@@ -342,7 +362,7 @@ Adds resource last modified date.
 | :- | :- | :- |
 | modified_date | string | Last modified date. |
 
-### Method: set_modify_date_str(modified_date) {#set_modify_date_str_modified_date_17}
+### Method: set_modify_date_str(modified_date) {#set_modify_date_str_modified_date_18}
 
 
 ```
@@ -357,7 +377,7 @@ Adds resource last modified date.
 | :- | :- | :- |
 | modified_date | string | Last modified date. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_18}
+### Method: set_prop_value(key, value) {#set_prop_value_key_value_19}
 
 
 ```
@@ -373,7 +393,7 @@ Gets or sets the object with the specified key.
 | key | string | The key that identifies value. |
 | value | object | The object with the specified key. |
 
-### Method: set_rating(choise) {#set_rating_choise_19}
+### Method: set_rating(choise) {#set_rating_choise_20}
 
 
 ```
@@ -388,7 +408,7 @@ Sets rating.
 | :- | :- | :- |
 | choise | int | From -1 till 5 |
 
-### Method: set_value(key, value) {#set_value_key_value_20}
+### Method: set_value(key, value) {#set_value_key_value_21}
 
 
 ```
@@ -404,7 +424,23 @@ Sets the value.
 | key | string | The string representation of key that is identified with added value. |
 | value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
 
-### Method: set_xmp_type_value(key, value) {#set_xmp_type_value_key_value_21}
+### Method: set_value(key, value) {#set_value_key_value_22}
+
+
+```
+ set_value(key, value) 
+```
+
+Sets the value.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The string representation of key that is identified with added value. |
+| value | [IXmpType](/imaging/python-net/aspose.imaging.xmp.types/ixmptype/) | The value to add to. |
+
+### Method: set_xmp_type_value(key, value) {#set_xmp_type_value_key_value_23}
 
 
 ```
@@ -419,4 +455,27 @@ Sets the XMP type value.
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with set value. |
 | value | [XmpTypeBase](/imaging/python-net/aspose.imaging.xmp.types/xmptypebase/) | The value to set to. |
+
+### Method: try_get_value(key, value) {#try_get_value_key_value_24}
+
+
+```
+ try_get_value(key, value) 
+```
+
+Gets the value by the _key_.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The XMP element key. |
+| value | Object | The XMP value. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | **True**, if the  contains the _key_; otherwise, **False**. |
+
 

@@ -24,7 +24,8 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmptext/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
 
 
 ### Constructor: XmpText(value) {#XmpText_value_1}
@@ -42,7 +43,23 @@ Initializes a new instance of the [XmpText](/imaging/python-net/aspose.imaging.x
 | :- | :- | :- |
 | value | string | The value. |
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

@@ -3,7 +3,7 @@ title: RegionExtensions
 second_title: Aspose.Imaging for Java API Reference
 description: Contains extension methods for the Region class.
 type: docs
-weight: 23
+weight: 22
 url: /java/com.aspose.imaging.extensions/regionextensions/
 ---
 **Inheritance:**

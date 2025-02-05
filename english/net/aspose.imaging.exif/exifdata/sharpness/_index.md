@@ -3,7 +3,7 @@ title: ExifData.Sharpness
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the sharpness
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.imaging.exif/exifdata/sharpness/
 ---
 ## ExifData.Sharpness property

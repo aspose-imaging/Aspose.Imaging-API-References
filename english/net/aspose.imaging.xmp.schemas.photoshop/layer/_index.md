@@ -32,10 +32,12 @@ public class Layer : XmpTypeBase, IEquatable<Layer>
 
 | Name | Description |
 | --- | --- |
+| virtual [Clone](../../aspose.imaging.xmp.types/xmptypebase/clone/)() | Clones this instance. |
 | [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals/#equals)(Layer) | Indicates whether the current object is equal to another object of the same type. |
 | override [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals/#equals_1)(object) | Determines whether the specified Object, is equal to this instance. |
 | override [GetHashCode](../../aspose.imaging.xmp.schemas.photoshop/layer/gethashcode/)() | Returns a hash code for this instance. |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.photoshop/layer/getxmprepresentation/)() | Returns string contained value in XMP format. |
+| override [ToString](../../aspose.imaging.xmp.types/xmptypebase/tostring/)() | Gets this XMP data as string. |
 
 ### See Also
 

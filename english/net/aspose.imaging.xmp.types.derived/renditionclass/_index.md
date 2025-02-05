@@ -33,7 +33,9 @@ public sealed class RenditionClass : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
+| virtual [Clone](../../aspose.imaging.xmp.types/xmptypebase/clone/)() | Clones this instance. |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.derived/renditionclass/getxmprepresentation/)() | Gets the string contained value in XMP format. |
+| override [ToString](../../aspose.imaging.xmp.types/xmptypebase/tostring/)() | Gets this XMP data as string. |
 
 ### See Also
 

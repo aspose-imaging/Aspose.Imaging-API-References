@@ -24,7 +24,6 @@ The package contains extension methods.
 | [ImageAttributesExtensions](../com.aspose.imaging.extensions/imageattributesextensions) | Contains extension methods for `ImageAttributes` and `System.Drawing.Imaging.ImageAttributes`. |
 | [ImageExtensions](../com.aspose.imaging.extensions/imageextensions) | Contains extension methods for conversions based on `System.Drawing.Image` and `Image`. |
 | [MatrixExtensions](../com.aspose.imaging.extensions/matrixextensions) | Contains the `Matrix` class extensions. |
-| [PenExtensions](../com.aspose.imaging.extensions/penextensions) | Contains extension methods for `Pen` and `System.Drawing.Pen`. |
 | [PointExtensions](../com.aspose.imaging.extensions/pointextensions) | Contains extension methods for `Point` and `PointF` structures. |
 | [RectangleExtensions](../com.aspose.imaging.extensions/rectangleextensions) | Contains extension methods for `Rectangle`. |
 | [RegionExtensions](../com.aspose.imaging.extensions/regionextensions) | Contains extension methods for the `Region` class. |

@@ -1,7 +1,7 @@
 ---
 title: ImageFilterType Enumeration
 type: docs
-weight: 10560
+weight: 10570
 url: /python-net/aspose.imaging/imagefiltertype/
 ---
 

@@ -20,34 +20,34 @@ The Metafiles base options.
 
 | Method | Description |
 | --- | --- |
-| [getCompress()](#getCompress--) | Gets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
-| [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
+| [getCompress()](#getCompress--) | Gets a value indicating whether the output image must be compressed. |
+| [setCompress(boolean value)](#setCompress-boolean-) | SSets a value indicating whether the output image must be compressed. |
 ### getCompress() {#getCompress--}
 ```
 public final boolean getCompress()
 ```
 
 
-Gets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed.
+Gets a value indicating whether the output image must be compressed.
 
 Value: `true` if compressed; otherwise, `false`.
 
 **Returns:**
-boolean - a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed.
+boolean - a value indicating whether the output image must be compressed.
 ### setCompress(boolean value) {#setCompress-boolean-}
 ```
 public final void setCompress(boolean value)
 ```
 
 
-Sets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed.
+SSets a value indicating whether the output image must be compressed.
 
 Value: `true` if compressed; otherwise, `false`.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
+| value | boolean | a value indicating whether the output image must be compressed. |
 
 
 **Example: The following example shows how to convert a emf images to emz format**

@@ -11,7 +11,7 @@ url: /net/aspose.imaging.exif.enums/exiforientation/
 Exif image orientation.
 
 ```csharp
-public enum ExifOrientation
+public enum ExifOrientation : ushort
 ```
 
 ### Values

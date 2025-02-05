@@ -48,8 +48,6 @@ EXIF data container for jpeg files.
 | [setImageWidth(long value)](#setImageWidth-long-) | Gets or sets the image width. |
 | [getModel()](#getModel--) | Gets or sets the model. |
 | [setModel(String value)](#setModel-java.lang.String-) | Gets or sets the model. |
-| [getOrientation()](#getOrientation--) | Gets or sets the orientation. |
-| [setOrientation(int value)](#setOrientation-int-) | Gets or sets the orientation. |
 | [getPhotometricInterpretation()](#getPhotometricInterpretation--) | Gets or sets the photometric interpretation. |
 | [setPhotometricInterpretation(int value)](#setPhotometricInterpretation-int-) | Gets or sets the photometric interpretation. |
 | [getPlanarConfiguration()](#getPlanarConfiguration--) | Gets or sets the planar configuration. |
@@ -378,33 +376,6 @@ Value: The model.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### getOrientation() {#getOrientation--}
-```
-public int getOrientation()
-```
-
-
-Gets or sets the orientation.
-
-Value: The orientation.
-
-**Returns:**
-int
-### setOrientation(int value) {#setOrientation-int-}
-```
-public void setOrientation(int value)
-```
-
-
-Gets or sets the orientation.
-
-Value: The orientation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### getPhotometricInterpretation() {#getPhotometricInterpretation--}
 ```

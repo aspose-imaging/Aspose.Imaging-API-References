@@ -1,7 +1,7 @@
 ---
 title: ColorPaletteHelper
 second_title: Aspose.Imaging for Java API Reference
-description: Helper class for color palettes manipulation.
+description: Helper class for color palette manipulation.
 type: docs
 weight: 29
 url: /java/com.aspose.imaging/colorpalettehelper/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorPaletteHelper
 ```
 
-Helper class for color palettes manipulation.
+Helper class for color palette manipulation.
 ## Methods
 
 | Method | Description |
@@ -32,6 +32,7 @@ Helper class for color palettes manipulation.
 | [getUniformColorPalette(RasterImage image)](#getUniformColorPalette-com.aspose.imaging.RasterImage-) | Get uniform 256 color palette. |
 | [getDownscalePalette(RasterImage image)](#getDownscalePalette-com.aspose.imaging.RasterImage-) | Get 256 color palette, composed from upper bits of initial image color values. |
 | [hasTransparentColors(IColorPalette palette)](#hasTransparentColors-com.aspose.imaging.IColorPalette-) | Determines whether the specified palette has transparent colors. |
+| [createGrayscale(int bits)](#createGrayscale-int-) | Gets the grayscale palette of specified bits count. |
 ### createMonochrome() {#createMonochrome--}
 ```
 public static IColorPalette createMonochrome()
@@ -385,3 +386,18 @@ Determines whether the specified palette has transparent colors.
 
 **Returns:**
 boolean - `true` if the specified palette has transparent colors; otherwise, `false`.
+### createGrayscale(int bits) {#createGrayscale-int-}
+```
+public static IColorPalette createGrayscale(int bits)
+```
+
+
+Gets the grayscale palette of specified bits count. Allowed bit values are 1, 2, 4, 8.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bits | int | The bit count. |
+
+**Returns:**
+[IColorPalette](../../com.aspose.imaging/icolorpalette) - Grayscale palette.

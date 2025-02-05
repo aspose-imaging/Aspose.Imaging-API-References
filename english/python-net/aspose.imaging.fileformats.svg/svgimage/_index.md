@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 
 **Full Name:** aspose.imaging.fileformats.svg.SvgImage
 
-**Inheritance:** IObjectWithBounds, IObjectWithSizeF, VectorImage
+**Inheritance:** IObjectWithBounds, IObjectWithSizeF, IHasXmpData, IHasMetadata, VectorImage
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -43,6 +43,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the image width. |
 | width_f | float | r | Gets the object width, in inches. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets XMP data. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

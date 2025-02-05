@@ -3,7 +3,7 @@ title: Class XmpPacketWrapper
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpPacketWrapper class. Contains serialized xmp package including header and trailer
 type: docs
-weight: 12280
+weight: 12290
 url: /net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 ## XmpPacketWrapper class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.xmp/xmppacketwrapper/
 Contains serialized xmp package including header and trailer.
 
 ```csharp
-public class XmpPacketWrapper
+public class XmpPacketWrapper : IXmlValue
 ```
 
 ## Constructors
@@ -39,7 +39,9 @@ public class XmpPacketWrapper
 | [ClearPackages](../../aspose.imaging.xmp/xmppacketwrapper/clearpackages/)() | Removes all [`XmpPackage`](../xmppackage/) inside XMP. |
 | [ContainsPackage](../../aspose.imaging.xmp/xmppacketwrapper/containspackage/)(string) | Determines whethere package is exist in xmp wrapper. |
 | [GetPackage](../../aspose.imaging.xmp/xmppacketwrapper/getpackage/)(string) | Gets package by namespace URI. |
+| [GetXmlValue](../../aspose.imaging.xmp/xmppacketwrapper/getxmlvalue/)() | Converts XMP value to the XML representation. |
 | [RemovePackage](../../aspose.imaging.xmp/xmppacketwrapper/removepackage/)(XmpPackage) | Removes the XMP package. |
+| override [ToString](../../aspose.imaging.xmp/xmppacketwrapper/tostring/)() | Returns an XML string that represents the current object. |
 
 ## Remarks
 
@@ -47,6 +49,7 @@ A wrapper consisting of a pair of XML processing instructions (PIs) may be place
 
 ### See Also
 
+* interface [IXmlValue](../ixmlvalue/)
 * namespace [Aspose.Imaging.Xmp](../../aspose.imaging.xmp/)
 * assembly [Aspose.Imaging](../../)
 

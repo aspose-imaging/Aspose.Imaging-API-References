@@ -1851,7 +1851,7 @@ The conversion from Color to CMYKColor. This method is deprecated. Please use mo
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | The pixels of Color type in RGB format. |
 
 **Returns:**
-com.aspose.imaging.CmykColor[] - The CmykColor[].
+com.aspose.imaging.CmykColor[] - The [CmykColor](../../com.aspose.imaging/cmykcolor)[].
 ### toCmyk(Color pixel) {#toCmyk-com.aspose.imaging.Color-}
 ```
 public static CmykColor toCmyk(Color pixel)

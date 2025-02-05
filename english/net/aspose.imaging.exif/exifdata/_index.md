@@ -109,6 +109,7 @@ public class ExifData : TiffDataTypeController
 | [MaxApertureValue](../../aspose.imaging.exif/exifdata/maxaperturevalue/) { get; set; } | Gets or sets the maximum aperture value. |
 | [MeteringMode](../../aspose.imaging.exif/exifdata/meteringmode/) { get; set; } | Gets or sets the metering mode. |
 | [OECF](../../aspose.imaging.exif/exifdata/oecf/) { get; set; } | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
+| [Orientation](../../aspose.imaging.exif/exifdata/orientation/) { get; set; } | Gets or sets the orientation. |
 | [PhotographicSensitivity](../../aspose.imaging.exif/exifdata/photographicsensitivity/) { get; set; } | Gets or sets the photographic sensitivity. |
 | [PixelXDimension](../../aspose.imaging.exif/exifdata/pixelxdimension/) { get; set; } | Gets or sets the pixel x dimension. |
 | [PixelYDimension](../../aspose.imaging.exif/exifdata/pixelydimension/) { get; set; } | Gets or sets the pixel y dimension. |

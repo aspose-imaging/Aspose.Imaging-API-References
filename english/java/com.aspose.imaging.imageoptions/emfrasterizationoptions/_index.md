@@ -24,6 +24,7 @@ The Emf rasterization options.
 | --- | --- |
 | [getRenderMode()](#getRenderMode--) | Gets or sets the render mode. |
 | [setRenderMode(int value)](#setRenderMode-int-) | Gets or sets the render mode. |
+| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | Copies this to `vectorRasterizationOptions`. |
 ### EmfRasterizationOptions() {#EmfRasterizationOptions--}
 ```
 public EmfRasterizationOptions()
@@ -91,4 +92,17 @@ try {
     emfImage.dispose();
 }
 ```
+
+### copyTo(VectorRasterizationOptions vectorRasterizationOptions) {#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-}
+```
+public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
+```
+
+
+Copies this to `vectorRasterizationOptions`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | vectorRasterizationOptions |
 

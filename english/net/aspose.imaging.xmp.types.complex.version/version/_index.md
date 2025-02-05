@@ -36,7 +36,9 @@ public sealed class Version : ComplexTypeBase
 
 | Name | Description |
 | --- | --- |
+| virtual [Clone](../../aspose.imaging.xmp.types/xmptypebase/clone/)() | Clones this instance. |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.version/version/getxmprepresentation/)() | Gets the string contained value in XMP format. |
+| override [ToString](../../aspose.imaging.xmp.types/xmptypebase/tostring/)() | Gets this XMP data as string. |
 
 ### See Also
 

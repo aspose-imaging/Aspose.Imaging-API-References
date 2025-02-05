@@ -23,7 +23,7 @@ The cdr transforms object
 | Method | Description |
 | --- | --- |
 | [getTransforms()](#getTransforms--) | Gets the transforms. |
-| [setTransforms(List<DrMatrix> value)](#setTransforms-java.util.List-com.aspose.foundation.drawing.DrMatrix--) | Sets the transforms. |
+| [setTransforms(List<Matrix> value)](#setTransforms-java.util.List-com.aspose.imaging.Matrix--) | Sets the transforms. |
 ### CdrTransforms() {#CdrTransforms--}
 ```
 public CdrTransforms()
@@ -32,17 +32,17 @@ public CdrTransforms()
 
 ### getTransforms() {#getTransforms--}
 ```
-public final List<DrMatrix> getTransforms()
+public final List<Matrix> getTransforms()
 ```
 
 
 Gets the transforms.
 
 **Returns:**
-java.util.List<com.aspose.foundation.drawing.DrMatrix> - the transforms.
-### setTransforms(List<DrMatrix> value) {#setTransforms-java.util.List-com.aspose.foundation.drawing.DrMatrix--}
+java.util.List<com.aspose.imaging.Matrix> - the transforms.
+### setTransforms(List<Matrix> value) {#setTransforms-java.util.List-com.aspose.imaging.Matrix--}
 ```
-public final void setTransforms(List<DrMatrix> value)
+public final void setTransforms(List<Matrix> value)
 ```
 
 
@@ -51,5 +51,5 @@ Sets the transforms.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.List<com.aspose.foundation.drawing.DrMatrix> | the transforms. |
+| value | java.util.List<com.aspose.imaging.Matrix> | the transforms. |
 

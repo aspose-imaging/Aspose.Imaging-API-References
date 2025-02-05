@@ -11,7 +11,7 @@ url: /net/aspose.imaging/rawdatasettings/
 The raw data settings
 
 ```csharp
-public class RawDataSettings
+public class RawDataSettings : ICloneable
 ```
 
 ## Constructors
@@ -31,6 +31,12 @@ public class RawDataSettings
 | [IndexedColorConverter](../../aspose.imaging/rawdatasettings/indexedcolorconverter/) { get; set; } | Gets or sets the indexed color converter |
 | [LineSize](../../aspose.imaging/rawdatasettings/linesize/) { get; set; } | Gets or sets the pixels line size in bytes for raw data processing |
 | [PixelDataFormat](../../aspose.imaging/rawdatasettings/pixeldataformat/) { get; set; } | Gets or sets the pixel data format |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Clone](../../aspose.imaging/rawdatasettings/clone/)() | Creates a shalow clone. |
 
 ### See Also
 

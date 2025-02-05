@@ -3,7 +3,7 @@ title: IHasXmpData
 second_title: Aspose.Imaging for Java API Reference
 description: instance container interface.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.imaging.xmp/ihasxmpdata/
 ---
 **All Implemented Interfaces:**

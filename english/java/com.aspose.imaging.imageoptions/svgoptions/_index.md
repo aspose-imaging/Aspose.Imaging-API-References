@@ -31,8 +31,8 @@ Create Scalar Vector Graphics (SVG) image files with our API, utilizing versatil
 | [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | Sets a value indicating whether text must be rendered as shapes. |
 | [getCallback()](#getCallback--) | Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
 | [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
-| [getCompress()](#getCompress--) | Gets a value indicating whether the output image must to be compressed. |
-| [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether the output image must to be compressed. |
+| [getCompress()](#getCompress--) | Gets a value indicating whether the output image must be compressed. |
+| [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether the output image must be compressed. |
 
 ## Example: The following example shows how to convert a multipage vector image to SVG format in general way without referencing to a particular image type.
 
@@ -227,7 +227,7 @@ public final boolean getCompress()
 ```
 
 
-Gets a value indicating whether the output image must to be compressed.
+Gets a value indicating whether the output image must be compressed.
 
 **Returns:**
 boolean - a value indicating whether the output image must be compressed.
@@ -237,7 +237,7 @@ public final void setCompress(boolean value)
 ```
 
 
-Sets a value indicating whether the output image must to be compressed.
+Sets a value indicating whether the output image must be compressed.
 
 **Parameters:**
 | Parameter | Type | Description |

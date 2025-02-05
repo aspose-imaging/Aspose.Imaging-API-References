@@ -30,7 +30,8 @@ url: /python-net/aspose.imaging.xmp.types.complex.version/version/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
 
 
 ### Constructor: Version() {#Version__1}
@@ -42,7 +43,23 @@ url: /python-net/aspose.imaging.xmp.types.complex.version/version/
 
 Initializes a new instance of the [Version](/imaging/python-net/aspose.imaging.xmp.types.complex.version/version/) class.
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

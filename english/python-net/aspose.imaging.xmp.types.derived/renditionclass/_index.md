@@ -27,7 +27,8 @@ url: /python-net/aspose.imaging.xmp.types.derived/renditionclass/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
+| [clone()](#clone__1) | Clones this instance. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
 
 
 ### Constructor: RenditionClass() {#RenditionClass__1}
@@ -55,7 +56,23 @@ Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.im
 | token | string | The token. |
 | value | string | The value. |
 
-### Method: get_xmp_representation() {#get_xmp_representation__1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | A memberwise clone. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
 
 
 ```

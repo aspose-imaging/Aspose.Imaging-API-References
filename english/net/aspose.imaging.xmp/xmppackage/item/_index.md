@@ -3,7 +3,7 @@ title: XmpPackage.Item
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage property. Gets or sets the Object with the specified key
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.imaging.xmp/xmppackage/item/
 ---
 ## XmpPackage indexer

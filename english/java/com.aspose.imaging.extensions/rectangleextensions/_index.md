@@ -3,7 +3,7 @@ title: RectangleExtensions
 second_title: Aspose.Imaging for Java API Reference
 description: Contains extension methods for Rectangle.
 type: docs
-weight: 22
+weight: 21
 url: /java/com.aspose.imaging.extensions/rectangleextensions/
 ---
 **Inheritance:**
