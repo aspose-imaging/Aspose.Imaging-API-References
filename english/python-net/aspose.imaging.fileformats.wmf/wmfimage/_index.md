@@ -1538,7 +1538,7 @@ Apply a specified palette to the image, enabling customization of color <br/>   
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>                indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>                corresponding palette entries. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_138}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_141}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -1560,6 +1560,27 @@ with as_of(Image.load("test.wmf") as image:
 	rasterizationOptions.render_mode = WmfRenderMode.AUTO
 	saveOptions.vector_rasterization_options = rasterizationOptions
 	wmfImage.save("test.output.svg", saveOptions)
+
+
+```
+
+### The following example shows how to convert a wmz images to wmf fromat {#example_148}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import WmfRasterizationOptions, WmfOptions
+from os.path import join
+
+file: str = "example.wmz"
+base_folder: str = join("D:", "Compressed")
+input_file: str = join(base_folder, file)
+out_file: str = input_file + ".wmf"
+with Image.load(input_file) as image:
+	obj_init = WmfRasterizationOptions()
+	obj_init.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = WmfOptions()
+	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
 
 
 ```

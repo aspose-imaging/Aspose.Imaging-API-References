@@ -38,7 +38,7 @@ url: /python-net/aspose.imaging.fileformats.cmx/cmximage/
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Determine whether the object's data is currently cached, eliminating the need<br/>            for data reading. Ideal for developers seeking to optimize performance by<br/>            leveraging cached data efficiently, ensuring faster access to object information. |
 | page_count | int | r | Retrieve the total page count of the image with this intuitive property.<br/>            Ideal for developers seeking to manage multi-page images dynamically,<br/>            ensuring efficient navigation and manipulation of image content. |
-| pages | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Retrieve the pages of the image seamlessly with this intuitive property.<br/>            Ideal for developers seeking to access and manipulate individual pages<br/>            within multi-page images, ensuring efficient navigation and processing. |
+| [pages](#pages1) | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Retrieve the pages of the image seamlessly with this intuitive property.<br/>            Ideal for developers seeking to access and manipulate individual pages<br/>            within multi-page images, ensuring efficient navigation and processing. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | size | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets the object size. |
 | size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r | Gets the object size, in inches. |
@@ -136,6 +136,15 @@ Start working with the [CmxImage](/imaging/python-net/aspose.imaging.fileformats
 | :- | :- | :- |
 | stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
+
+### Property: pages {#pages1}
+
+Retrieve the pages of the image seamlessly with this intuitive property.<br/>            Ideal for developers seeking to access and manipulate individual pages<br/>            within multi-page images, ensuring efficient navigation and processing.
+
+**See also:**
+
+**[Example # 1](#example_143)**: The following example shows how to cache all pages of a CMX image.
+
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
 
@@ -1438,4 +1447,24 @@ Customize the color palette of the image with this intuitive method. Ideal for<b
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+
+## **Examples**
+### The following example shows how to cache all pages of a CMX image. {#example_143}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.fileformats.cmx import CmxImage
+from os.path import join
+
+dir_: str = "c:\\temp"
+# Load an image from a CMX file.
+with aspycore.as_of(Image.load(join(dir_, "sample.cmx")), CmxImage) as image:
+	# This call caches only the default page.
+	image.cache_data()
+	# Cache all pages so that no additional data loading will be performed from the underlying data stream.
+	for page in image.pages:
+		page.cache_data()
+
+
+```
 

@@ -62,3 +62,25 @@ Creates a memberwise clone of this instance.
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 
+## **Examples**
+### The following example shows how to convert a wmz images to wmf fromat {#example_148}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import WmfRasterizationOptions, WmfOptions
+from os.path import join
+
+file: str = "example.wmz"
+base_folder: str = join("D:", "Compressed")
+input_file: str = join(base_folder, file)
+out_file: str = input_file + ".wmf"
+with Image.load(input_file) as image:
+	obj_init = WmfRasterizationOptions()
+	obj_init.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = WmfOptions()
+	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
+
+
+```
+
