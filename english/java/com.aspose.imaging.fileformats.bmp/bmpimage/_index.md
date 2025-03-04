@@ -24,7 +24,7 @@ You can effortlessly handle Bitmap (BMP) and Device Independent Bitmap (DIB) fil
 | [BmpImage(RasterImage rasterImage)](#BmpImage-com.aspose.imaging.RasterImage-) | Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class by initializing it with a RasterImage object. |
 | [BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-com.aspose.imaging.RasterImage-int-long-double-double-) | Start working with the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by creating a new instance using a rasterImage along with specified parameters like bitsPerPixel and compression. |
 | [BmpImage(int width, int height)](#BmpImage-int-int-) | Start using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class effortlessly by creating a new instance with specified width and height parameters. |
-| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-) | Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. |
+| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-) | Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit-depth, and palette. |
 | [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-long-double-double-) | Effortlessly create a new instance of the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class with this constructor, specifying parameters like width, height, bitsPerPixel, and palette. |
 ## Methods
 
@@ -274,7 +274,7 @@ public BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)
 ```
 
 
-Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit depth, and palette. Perfect for developers seeking a straightforward way to create BmpImage objects with custom dimensions and color configurations, ensuring flexibility and efficiency in their projects.
+Begin using the [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) class seamlessly by initializing a new instance with parameters such as width, height, bit-depth, and palette. Perfect for developers seeking a straightforward way to create BmpImage objects with custom dimensions and color configurations, ensuring flexibility and efficiency in their projects.
 
 **Parameters:**
 | Parameter | Type | Description |

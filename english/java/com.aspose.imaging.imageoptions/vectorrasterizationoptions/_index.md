@@ -47,7 +47,7 @@ The vector rasterization options. Please note that `VectorRasterizationOptions`(
 | [setPositioning(int value)](#setPositioning-int-) | Sets the positioning. |
 | [getReplaceTextMapping()](#getReplaceTextMapping--) | Gets the text replace mapping. |
 | [setReplaceTextMapping(HashMap<String,String> value)](#setReplaceTextMapping-java.util.HashMap-java.lang.String-java.lang.String--) | Sets the text replace mapping. |
-| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | Copies to. |
+| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | Copies this instance to `vectorRasterizationOptions`. |
 ### VectorRasterizationOptions() {#VectorRasterizationOptions--}
 ```
 public VectorRasterizationOptions()
@@ -513,7 +513,7 @@ public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
 ```
 
 
-Copies to.
+Copies this instance to `vectorRasterizationOptions`.
 
 **Parameters:**
 | Parameter | Type | Description |
