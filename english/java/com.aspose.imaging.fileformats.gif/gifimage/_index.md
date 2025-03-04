@@ -187,7 +187,7 @@ public GifImage(GifFrameBlock firstFrame)
 ```
 
 
-Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. With just the firstFrame parameter, it enters in a world of dynamic visual communication.
+Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. With just the firstFrame parameter, it enters a world of dynamic visual communication.
 
 **Parameters:**
 | Parameter | Type | Description |

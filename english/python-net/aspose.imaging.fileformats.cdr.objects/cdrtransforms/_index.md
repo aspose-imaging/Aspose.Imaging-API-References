@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrtransforms/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
 | parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
-| transforms | System.Collections.Generic.List<Matrix> | r/w | Gets or sets the transforms. |
+| transforms | list[Matrix] | r/w | Gets or sets the transforms. |
 
 
 ### Constructor: CdrTransforms() {#CdrTransforms__1}

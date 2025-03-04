@@ -291,7 +291,7 @@ Enhance image luminance with the adjustment of _brightness_, a<br/>            p
 
 **See also:**
 
-**[Example # 1](#example_122)**: The following example performs brightness correction of a DICOM image.
+**[Example # 1](#example_125)**: The following example performs brightness correction of a DICOM image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_4}
@@ -312,7 +312,7 @@ Enhance [Image](/imaging/python-net/aspose.imaging/image/) contrast with this us
 
 **See also:**
 
-**[Example # 1](#example_123)**: The following example performs contrast correction of a DICOM image.
+**[Example # 1](#example_126)**: The following example performs contrast correction of a DICOM image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_5}
@@ -333,7 +333,7 @@ Enhance image quality and adjust it with gamma correction, a powerful technique<
 
 **See also:**
 
-**[Example # 1](#example_120)**: The following example performs gamma-correction of a DICOM image.
+**[Example # 1](#example_123)**: The following example performs gamma-correction of a DICOM image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_6}
@@ -356,7 +356,7 @@ Achieve precise color adjustments by applying gamma correction independently<br/
 
 **See also:**
 
-**[Example # 1](#example_121)**: The following example performs gamma-correction of a DICOM image applying dif...
+**[Example # 1](#example_124)**: The following example performs gamma-correction of a DICOM image applying dif...
 
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_7}
@@ -404,6 +404,12 @@ Easily convert the image into a binary format using a predefined threshold<br/> 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of<br/>            255 will be assigned to it, 0 otherwise. |
+
+
+**See also:**
+
+**[Example # 1](#example_120)**: The following example binarizes a DICOM image with the predefined threshold. ...
+
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_10}
 
@@ -2523,7 +2529,26 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example performs gamma-correction of a DICOM image. {#example_120}
+### The following example binarizes a DICOM image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_120}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.fileformats.dicom import DicomImage
+from os.path import join
+
+dir_: str = "c:\\temp"
+with Image.load(join(dir_, "sample.dicom")) as image:
+	dicom_image = aspycore.as_of(image, DicomImage)
+	# Binarize the image with a threshold value of 127.
+	# If a corresponding gray value of a pixel is greater than 127, a value of 255 will be assigned to it, 0 otherwise.
+	dicom_image.binarize_fixed(127)
+	dicom_image.save(join(dir_, "sample.BinarizeFixed.png"), PngOptions())
+
+
+```
+
+### The following example performs gamma-correction of a DICOM image. {#example_123}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2542,7 +2567,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DICOM image applying different coefficients for color components. {#example_121}
+### The following example performs gamma-correction of a DICOM image applying different coefficients for color components. {#example_124}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2561,7 +2586,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs brightness correction of a DICOM image. {#example_122}
+### The following example performs brightness correction of a DICOM image. {#example_125}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2580,7 +2605,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs contrast correction of a DICOM image. {#example_123}
+### The following example performs contrast correction of a DICOM image. {#example_126}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2599,7 +2624,29 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### Use RLE compression in DICOM image. {#example_155}
+### Use JPEG 2000 compression in DICOM image. {#example_162}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import Jpeg2000Options, DicomOptions
+from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Codec, Compression, CompressionType, ColorType
+
+with Image.load("original.jpg") as input_image:
+	obj_init = Jpeg2000Options()
+	obj_init.codec = Jpeg2000Codec.JP2
+	obj_init.irreversible = False
+	obj_init2 = Compression()
+	obj_init2.type_ = CompressionType.JPEG2000
+	obj_init2.jpeg2000 = obj_init
+	options = DicomOptions()
+	options.color_type = ColorType.RGB_24_BIT
+	options.compression = obj_init2
+	input_image.save("original_JPEG2000.dcm", options)
+
+
+```
+
+### Use RLE compression in DICOM image. {#example_163}
 ``` python
 
 from aspose.imaging import Image
@@ -2617,7 +2664,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Change the color type in DICOM compression. {#example_156}
+### Change the color type in DICOM compression. {#example_164}
 ``` python
 
 from aspose.imaging import Image

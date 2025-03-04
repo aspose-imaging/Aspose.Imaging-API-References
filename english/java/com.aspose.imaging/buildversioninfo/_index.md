@@ -21,8 +21,8 @@ Provides information about the current product name and version.
 | [FILE_VERSION](#FILE-VERSION) | Gets the file version number. |
 | [PRODUCT](#PRODUCT) | Gets the product name. |
 | [PRODUCT_MAJOR](#PRODUCT-MAJOR) | Gets the product major version. |
-| [PRODUCT_MINOR](#PRODUCT-MINOR) | Gets the the product minor version. |
-| [PRODUCT_HOTFIX](#PRODUCT-HOTFIX) | Gets the the product hotfix version. |
+| [PRODUCT_MINOR](#PRODUCT-MINOR) | Gets the product minor version. |
+| [PRODUCT_HOTFIX](#PRODUCT-HOTFIX) | Gets the product hotfix version. |
 | [RELEASE_DATE](#RELEASE-DATE) | Gets the date of release. |
 ### ASSEMBLY_VERSION {#ASSEMBLY-VERSION}
 ```
@@ -62,7 +62,7 @@ public static final int PRODUCT_MINOR
 ```
 
 
-Gets the the product minor version.
+Gets the product minor version.
 
 ### PRODUCT_HOTFIX {#PRODUCT-HOTFIX}
 ```
@@ -70,7 +70,7 @@ public static final int PRODUCT_HOTFIX
 ```
 
 
-Gets the the product hotfix version.
+Gets the product hotfix version.
 
 ### RELEASE_DATE {#RELEASE-DATE}
 ```

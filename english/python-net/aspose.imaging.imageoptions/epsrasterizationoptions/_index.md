@@ -46,7 +46,7 @@ url: /python-net/aspose.imaging.imageoptions/epsrasterizationoptions/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
-| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies to. |
+| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies this instance to _vectorRasterizationOptions_. |
 
 
 ### Constructor: EpsRasterizationOptions() {#EpsRasterizationOptions__1}
@@ -81,7 +81,7 @@ Creates a memberwise clone of this instance.
  copy_to(vector_rasterization_options) 
 ```
 
-Copies to.
+Copies this instance to _vectorRasterizationOptions_.
 
 **Parameters:**
 

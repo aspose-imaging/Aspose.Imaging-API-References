@@ -62,3 +62,25 @@ Creates a memberwise clone of this instance.
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
 
+## **Examples**
+### The following example shows how to convert a emz images to emf format {#example_147}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import EmfRasterizationOptions, EmfOptions
+from os.path import join
+
+file: str = "example.emz"
+base_folder: str = join("D:", "Compressed")
+input_file: str = join(base_folder, file)
+out_file: str = input_file + ".emf"
+with Image.load(input_file) as image:
+	obj_init = EmfRasterizationOptions()
+	obj_init.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = EmfOptions()
+	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
+
+
+```
+

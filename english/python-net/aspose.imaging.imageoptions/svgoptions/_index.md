@@ -55,7 +55,7 @@ Gets or sets a value indicating whether text must be rendered as shapes.
 
 **See also:**
 
-**[Example # 1](#example_138)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_141)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Method: clone() {#clone__1}
@@ -75,7 +75,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_138}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_141}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -97,6 +97,27 @@ with as_of(Image.load("test.wmf") as image:
 	rasterizationOptions.render_mode = WmfRenderMode.AUTO
 	saveOptions.vector_rasterization_options = rasterizationOptions
 	wmfImage.save("test.output.svg", saveOptions)
+
+
+```
+
+### The following example shows how to convert a svgz images to svg fromat {#example_149}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import SvgRasterizationOptions, SvgOptions
+from os.path import join
+
+file: str = "example.svgz"
+base_folder: str = join("D:", "Compressed")
+input_file: str = join(base_folder, file)
+out_file: str = input_file + ".svg"
+with Image.load(input_file) as image:
+	obj_init = SvgRasterizationOptions()
+	obj_init.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = SvgOptions()
+	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
 
 
 ```

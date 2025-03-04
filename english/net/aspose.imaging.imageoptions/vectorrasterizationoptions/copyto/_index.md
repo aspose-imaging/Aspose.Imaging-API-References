@@ -1,14 +1,14 @@
 ---
 title: VectorRasterizationOptions.CopyTo
 second_title: Aspose.Imaging for .NET API Reference
-description: VectorRasterizationOptions method. Copies to
+description: VectorRasterizationOptions method. Copies this instance to vectorRasterizationOptions
 type: docs
 weight: 140
 url: /net/aspose.imaging.imageoptions/vectorrasterizationoptions/copyto/
 ---
 ## VectorRasterizationOptions.CopyTo method
 
-Copies to.
+Copies this instance to *vectorRasterizationOptions*.
 
 ```csharp
 public virtual void CopyTo(VectorRasterizationOptions vectorRasterizationOptions)

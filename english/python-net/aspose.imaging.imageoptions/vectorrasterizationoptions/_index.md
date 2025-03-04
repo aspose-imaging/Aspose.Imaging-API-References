@@ -45,7 +45,7 @@ url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
-| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies to. |
+| [copy_to(vector_rasterization_options)](#copy_to_vector_rasterization_options_2) | Copies this instance to _vectorRasterizationOptions_. |
 
 
 ### Constructor: VectorRasterizationOptions() {#VectorRasterizationOptions__1}
@@ -63,7 +63,7 @@ Gets or sets a background color.
 
 **See also:**
 
-**[Example # 1](#example_138)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_141)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: page_size {#page_size2}
@@ -72,7 +72,7 @@ Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-ne
 
 **See also:**
 
-**[Example # 1](#example_138)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_141)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: positioning {#positioning3}
@@ -81,7 +81,7 @@ Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_141)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_145)**: The following example shows how to set a memory limit when loading a CMX imag...
 
 
 ### Method: clone() {#clone__1}
@@ -107,7 +107,7 @@ Creates a memberwise clone of this instance.
  copy_to(vector_rasterization_options) 
 ```
 
-Copies to.
+Copies this instance to _vectorRasterizationOptions_.
 
 **Parameters:**
 
@@ -116,7 +116,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_138}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_141}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -142,7 +142,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_141}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_145}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
 from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions

@@ -1508,3 +1508,25 @@ Applies a specified palette to the image, enabling customization of color <br/> 
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
+## **Examples**
+### The following example shows how to convert a svgz images to svg fromat {#example_149}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import SvgRasterizationOptions, SvgOptions
+from os.path import join
+
+file: str = "example.svgz"
+base_folder: str = join("D:", "Compressed")
+input_file: str = join(base_folder, file)
+out_file: str = input_file + ".svg"
+with Image.load(input_file) as image:
+	obj_init = SvgRasterizationOptions()
+	obj_init.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = SvgOptions()
+	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
+
+
+```
+

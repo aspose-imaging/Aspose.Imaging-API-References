@@ -26,6 +26,7 @@ The SVG rasterization options.
 | [setScaleX(float value)](#setScaleX-float-) | Gets or sets the scale x. |
 | [getScaleY()](#getScaleY--) | Gets or sets the scale y. |
 | [setScaleY(float value)](#setScaleY-float-) | Gets or sets the scale y. |
+| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | Copies this instance to `vectorRasterizationOptions`. |
 ### SvgRasterizationOptions() {#SvgRasterizationOptions--}
 ```
 public SvgRasterizationOptions()
@@ -155,4 +156,17 @@ try {
     svgImage.dispose();
 }
 ```
+
+### copyTo(VectorRasterizationOptions vectorRasterizationOptions) {#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-}
+```
+public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
+```
+
+
+Copies this instance to `vectorRasterizationOptions`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
