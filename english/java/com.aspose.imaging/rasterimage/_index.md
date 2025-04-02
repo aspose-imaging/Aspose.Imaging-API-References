@@ -95,6 +95,7 @@ Represents a raster image supporting raster graphics operations.
 | [blend(Point origin, RasterImage overlay)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-) | Blends this image instance with the `overlay` with alpha == 255. |
 | [blend(Point origin, RasterImage overlay, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-) | Blends this image instance with the `overlay`. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
+| [normalizeHistogram()](#normalizeHistogram--) | Normalizes the image histogram \\u2014 adjust pixel values to use all available range. |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a brightness for image. |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | Image contrasting |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
@@ -1986,6 +1987,14 @@ try {
     image.dispose();
 }
 ```
+
+### normalizeHistogram() {#normalizeHistogram--}
+```
+public void normalizeHistogram()
+```
+
+
+Normalizes the image histogram \\u2014 adjust pixel values to use all available range.
 
 ### adjustBrightness(int brightness) {#adjustBrightness-int-}
 ```

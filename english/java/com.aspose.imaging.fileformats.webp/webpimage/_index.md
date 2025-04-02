@@ -34,7 +34,7 @@ Manipulate WebP raster images with our API, using its modern features for both l
 | --- | --- |
 | [getOptions()](#getOptions--) | Retrieve or modify the options associated with the specified property, enabling fine-tuned customization of behavior and settings. |
 | [getPages()](#getPages--) | Access the WebP blocks within the image, allowing detailed examination or manipulation of the underlying block structure. |
-| [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
+| [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multipage content. |
 | [getFileFormat()](#getFileFormat--) | Access the file format value associated with the image, providing information about the format in which the image is stored. |
 | [hasAlpha()](#hasAlpha--) | Retrieve whether the image contains an alpha channel, indicating the presence of transparency information. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Append a new page to the image, expanding its content and accommodating additional visual elements. |
@@ -215,7 +215,7 @@ public int getPageCount()
 ```
 
 
-Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
+Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multipage content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
 
 **Returns:**
 int - the page count.
@@ -274,7 +274,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Append a new page to the image, expanding its content and accommodating additional visual elements. Integrate this method to facilitate dynamic page management within your application, enabling seamless creation and augmentation of multi-page documents or images.
+Append a new page to the image, expanding its content and accommodating additional visual elements. Integrate this method to facilitate dynamic page management within your application, enabling seamless creation and augmentation of multipage documents or images.
 
 **Parameters:**
 | Parameter | Type | Description |

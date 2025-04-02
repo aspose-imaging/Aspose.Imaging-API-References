@@ -48,6 +48,7 @@ The raster multipage image
 | [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | Crop image with shifts. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
+| [normalizeHistogram()](#normalizeHistogram--) | Normalizes the image histogram \\u2014 adjust pixel values to use all available range. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCachedMultipageImage.rotate` image around the center. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips all pages. |
 | [rotateFlipAll(int rotateFlip)](#rotateFlipAll-int-) | Rotates the flip all. |
@@ -445,6 +446,14 @@ public void grayscale()
 
 
 Transformation of an image to its grayscale representation
+
+### normalizeHistogram() {#normalizeHistogram--}
+```
+public void normalizeHistogram()
+```
+
+
+Normalizes the image histogram \\u2014 adjust pixel values to use all available range.
 
 ### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
