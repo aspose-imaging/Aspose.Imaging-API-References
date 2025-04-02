@@ -112,7 +112,7 @@ Gets a value indicating whether the image palette is used.
 
 **See also:**
 
-**[Example # 1](#example_160)**: Determine if the palette is used by the image.
+**[Example # 1](#example_183)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1004,7 +1004,7 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 
 **See also:**
 
-**[Example # 1](#example_142)**: The following example shows how to resize a metafile (WMF and EMF).
+**[Example # 1](#example_157)**: The following example shows how to resize a metafile (WMF and EMF).
 
 
 ### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_39}
@@ -1023,6 +1023,12 @@ Resizes the image.
 | new_width | int | The new width. |
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype) | The resize type. |
+
+
+**See also:**
+
+**[Example # 1](#example_173)**: Resize image using specific Resize Type.
+
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_40}
 
@@ -1045,6 +1051,8 @@ Resizes the image.
 **See also:**
 
 **[Example # 1](#example_28)**: This example loads an image and resizes it using various resizing settings.
+
+**[Example # 2](#example_173)**: Resize image using specific Resize Type.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_41}
@@ -1925,7 +1933,7 @@ with Image.load(path_join(directory, "sample.bmp")) as image:
 
 ```
 
-### The following example shows how to resize a metafile (WMF and EMF). {#example_142}
+### The following example shows how to resize a metafile (WMF and EMF). {#example_157}
 ``` python
 
 import aspose.pycore as aspycore
@@ -1945,7 +1953,25 @@ for file_name in file_names:
 
 ```
 
-### Determine if the palette is used by the image. {#example_160}
+### Resize image using specific Resize Type. {#example_173}
+``` python
+from aspose.imaging import Image, ResizeType, ImageResizeSettings, ImageFilterType
+
+with Image.load("Photo.jpg") as image:
+	image.resize(640, 480, ResizeType.CATMULL_ROM)
+	image.save("ResizedPhoto.jpg")
+	image.resize(1024, 768, ResizeType.CUBIC_CONVOLUTION)
+	image.save("ResizedPhoto2.jpg")
+	resize_settings = ImageResizeSettings()
+	resize_settings.mode = ResizeType.CUBIC_BSPLINE
+	resize_settings.filter_type = ImageFilterType.SMALL_RECTANGULAR
+	image.resize(800, 800, resize_settings)
+	image.save("ResizedPhoto3.jpg")
+
+
+```
+
+### Determine if the palette is used by the image. {#example_183}
 ``` python
 
 from aspose.imaging import Image

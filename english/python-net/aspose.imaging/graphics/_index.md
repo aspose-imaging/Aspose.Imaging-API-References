@@ -4089,7 +4089,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_109}
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_110}
 ``` python
 
 import aspose.pycore as aspycore

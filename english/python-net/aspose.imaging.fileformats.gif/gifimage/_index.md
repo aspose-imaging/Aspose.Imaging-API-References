@@ -146,6 +146,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_70) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_71) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | order_blocks() | Ordering the GIF blocks according to the GIF specification ensures proper GIF <br/>            layout and compliance with the standard. This process involves arranging the <br/>            blocks in the correct sequence as defined by the specification. Additionally, it <br/>            may involve removing certain [GifGraphicsControlBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) instances that <br/>            are not necessary for the final layout. By adhering to the GIF specification, the <br/>            resulting image will be correctly structured and compatible with GIF viewing <br/>            applications. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_72) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_73) | Reads the whole scan line by the specified scan line index. |
@@ -2827,7 +2828,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### Export of part of animation from GIF image based on time interval. {#example_170}
+### Export of part of animation from GIF image based on time interval. {#example_185}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.imageoptions import GifOptions, MultiPageOptions, MultiPageMode, TimeInterval

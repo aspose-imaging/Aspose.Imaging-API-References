@@ -147,6 +147,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_75) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_76) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_77) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_78) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -230,7 +231,7 @@ Start working with the [Jpeg2000Image](/imaging/python-net/aspose.imaging.filefo
 
 **See also:**
 
-**[Example # 1](#example_133)**: This example shows how to load a JPEG2000 image from a file and save it to PNG.
+**[Example # 1](#example_141)**: This example shows how to load a JPEG2000 image from a file and save it to PNG.
 
 
 ### Constructor: Jpeg2000Image(path, bits_per_pixel) {#Jpeg2000Image_path_bits_per_pixel_3}
@@ -283,7 +284,7 @@ Easily initialize a new instance of the [Jpeg2000Image](/imaging/python-net/aspo
 
 **See also:**
 
-**[Example # 1](#example_134)**: This example shows how to load a JPEG2000 image from a file stream and save i...
+**[Example # 1](#example_142)**: This example shows how to load a JPEG2000 image from a file stream and save i...
 
 
 ### Constructor: Jpeg2000Image(stream, bits_per_pixel) {#Jpeg2000Image_stream_bits_per_pixel_6}
@@ -321,7 +322,7 @@ Create a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.
 
 **See also:**
 
-**[Example # 1](#example_135)**: This example shows how to create a JPEG2000 image and save it to a file.
+**[Example # 1](#example_143)**: This example shows how to create a JPEG2000 image and save it to a file.
 
 
 ### Constructor: Jpeg2000Image(width, height, bits_count) {#Jpeg2000Image_width_height_bits_count_8}
@@ -2683,7 +2684,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a JPEG2000 image from a file and save it to PNG. {#example_133}
+### This example shows how to load a JPEG2000 image from a file and save it to PNG. {#example_141}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Image
@@ -2699,7 +2700,7 @@ with Jpeg2000Image(join(dir_, "sample.jp2")) as jpeg2000_image:
 
 ```
 
-### This example shows how to load a JPEG2000 image from a file stream and save it to PNG. {#example_134}
+### This example shows how to load a JPEG2000 image from a file stream and save it to PNG. {#example_142}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Image
@@ -2716,7 +2717,7 @@ with open(join(dir_, "sample.jp2"), "rb") as stream:
 
 ```
 
-### This example shows how to create a JPEG2000 image and save it to a file. {#example_135}
+### This example shows how to create a JPEG2000 image and save it to a file. {#example_143}
 ``` python
 
 import aspose.pycore as aspycore

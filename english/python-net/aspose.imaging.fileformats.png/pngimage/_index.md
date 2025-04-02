@@ -145,6 +145,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_74) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_76) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_77) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -213,7 +214,7 @@ Constructs a new instance of the [PngImage](/imaging/python-net/aspose.imaging.f
 
 **See also:**
 
-**[Example # 1](#example_106)**: This example shows how to load a PNG image from a file.
+**[Example # 1](#example_107)**: This example shows how to load a PNG image from a file.
 
 
 ### Constructor: PngImage(path, color_type) {#PngImage_path_color_type_2}
@@ -235,7 +236,7 @@ Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.
 
 **See also:**
 
-**[Example # 1](#example_107)**: This example shows how to load a PNG image from a file with the specified col...
+**[Example # 1](#example_108)**: This example shows how to load a PNG image from a file with the specified col...
 
 
 ### Constructor: PngImage(png_options, width, height) {#PngImage_png_options_width_height_3}
@@ -304,7 +305,7 @@ Creates a new instance of the [PngImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_108)**: This example shows how to load a PNG image from a file or a file stream.
+**[Example # 1](#example_109)**: This example shows how to load a PNG image from a file or a file stream.
 
 
 ### Constructor: PngImage(width, height) {#PngImage_width_height_7}
@@ -326,7 +327,7 @@ Initialize a new object of the [PngImage](/imaging/python-net/aspose.imaging.fil
 
 **See also:**
 
-**[Example # 1](#example_109)**: This example shows how to create a PNG image of the specified size, fill it w...
+**[Example # 1](#example_110)**: This example shows how to create a PNG image of the specified size, fill it w...
 
 
 ### Constructor: PngImage(width, height, color_type) {#PngImage_width_height_color_type_8}
@@ -2648,7 +2649,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a PNG image from a file. {#example_106}
+### This example shows how to load a PNG image from a file. {#example_107}
 ``` python
 
 from aspose.pycore import as_of
@@ -2665,7 +2666,7 @@ with as_of(Image.load("sample.png"), PngImage) as pngImage:
 
 ```
 
-### This example shows how to load a PNG image from a file with the specified color type. {#example_107}
+### This example shows how to load a PNG image from a file with the specified color type. {#example_108}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2682,7 +2683,7 @@ with PngImage(join(dir_, "sample.png"), PngColorType.GRAYSCALE) as png_image:
 
 ```
 
-### This example shows how to load a PNG image from a file or a file stream. {#example_108}
+### This example shows how to load a PNG image from a file or a file stream. {#example_109}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2702,7 +2703,7 @@ with open(join(dir_, "sample.png"), "rb") as stream:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_109}
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_110}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2725,7 +2726,7 @@ with PngImage(100, 100) as png_image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_166}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_189}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2750,7 +2751,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_167}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_190}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

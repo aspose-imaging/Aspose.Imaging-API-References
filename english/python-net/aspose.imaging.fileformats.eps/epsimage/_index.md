@@ -1051,7 +1051,7 @@ Resizes the specified new width.
 
 **See also:**
 
-**[Example # 1](#example_159)**: Resize EPS image and export it to PNG format.
+**[Example # 1](#example_181)**: Resize EPS image and export it to PNG format.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_44}
@@ -1070,6 +1070,12 @@ Resizes the image with extended options.
 | new_width | int | The new width. |
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings) | The resize settings. |
+
+
+**See also:**
+
+**[Example # 1](#example_182)**: Resize EPS image using advanced settings.
+
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_45}
 
@@ -1471,7 +1477,7 @@ Customize image palettes to achieve unique color schemes and enhance visual appe
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### Convert EPS image to PNG using PostScript rendering. {#example_150}
+### Convert EPS image to PNG using PostScript rendering. {#example_169}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -1491,7 +1497,7 @@ with aspycore.as_of(Image.load("Sample.eps"), EpsImage) as image:
 
 ```
 
-### Convert EPS image to PDF using PostScript rendering. {#example_151}
+### Convert EPS image to PDF using PostScript rendering. {#example_170}
 ``` python
 
 from aspose.imaging import Image, PdfComplianceVersion
@@ -1507,7 +1513,7 @@ with Image.load("Sample.eps") as image:
 
 ```
 
-### Resize EPS image and export it to PNG format. {#example_159}
+### Resize EPS image and export it to PNG format. {#example_181}
 ``` python
 
 from aspose.imaging import Image, ResizeType
@@ -1518,6 +1524,28 @@ with Image.load("AstrixObelix.eps") as image:
 	# Resize the image using the Mitchell cubic interpolation method
 	image.resize(400, 400, ResizeType.MITCHELL)
 
+	# Export image to PNG format
+	image.save("ExportResult.png", PngOptions())
+
+
+```
+
+### Resize EPS image using advanced settings. {#example_182}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image, ImageResizeSettings, ResizeType, ImageFilterType, ColorCompareMethod, ColorQuantizationMethod
+from aspose.imaging.imageoptions import PngOptions
+
+#Load EPS image
+with Image.load("AstrixObelix.eps") as image:
+	# Resize the image using advanced resize settings
+	obj_init = ImageResizeSettings()
+	obj_init.mode = ResizeType.LANCZOS_RESAMPLE
+	obj_init.filter_type = ImageFilterType.SMALL_RECTANGULAR
+	obj_init.color_compare_method = ColorCompareMethod.EUCLIDIAN
+	obj_init.color_quantization_method = ColorQuantizationMethod.POPULARITY
+	image.resize(400, 400, obj_init)
 	# Export image to PNG format
 	image.save("ExportResult.png", PngOptions())
 

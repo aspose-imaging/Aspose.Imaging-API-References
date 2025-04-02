@@ -46,7 +46,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | last_page | [DjvuPage](/imaging/python-net/aspose.imaging.fileformats.djvu/djvupage) | r | Retrieve the last page of your DjVu document using this property. Quickly access<br/>            the final page for viewing or processing purposes with ease. |
 | next_page | [DjvuPage](/imaging/python-net/aspose.imaging.fileformats.djvu/djvupage) | r | Navigate through your DjVu document by accessing the next page with this<br/>            convenient property. Quickly move forward in your document viewing or<br/>            processing tasks. |
 | page_count | int | r | Retrieve the total number of pages in your DjVu image collection with this property.<br/>            Ideal for quickly assessing the extent of your document or book stored in DjVu format.<br/>            Improve your workflow efficiency with accurate page count information. |
-| pages | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Access the individual pages of your DjVu image collection with this property.<br/>            Simplify navigation and manipulation of your document or book stored in DjVu format<br/>            by accessing each page directly. Improve your workflow efficiency with easy<br/>            page retrieval. |
+| [pages](#pages1) | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Access the individual pages of your DjVu image collection with this property.<br/>            Simplify navigation and manipulation of your document or book stored in DjVu format<br/>            by accessing each page directly. Improve your workflow efficiency with easy<br/>            page retrieval. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | premultiply_components | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
 | previous_page | [DjvuPage](/imaging/python-net/aspose.imaging.fileformats.djvu/djvupage) | r | Quickly move backward in your DjVu document viewing or processing tasks by<br/>            accessing the previous page with this convenient property. Efficiently navigate<br/>            through your document with ease. |
@@ -141,6 +141,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_69) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_70) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_71) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_72) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -207,6 +208,12 @@ Start working with DjVu images by initializing a new instance of the<br/>       
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
 
+
+**See also:**
+
+**[Example # 1](#example_131)**: This example shows how to load a DJVU image from a file stream.
+
+
 ### Constructor: DjvuImage(stream, load_options) {#DjvuImage_stream_load_options_2}
 
 
@@ -222,6 +229,15 @@ Start working with DjVu images seamlessly with this constructor, which<br/>     
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to load from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
+
+### Property: pages {#pages1}
+
+Access the individual pages of your DjVu image collection with this property.<br/>            Simplify navigation and manipulation of your document or book stored in DjVu format<br/>            by accessing each page directly. Improve your workflow efficiency with easy<br/>            page retrieval.
+
+**See also:**
+
+**[Example # 1](#example_131)**: This example shows how to load a DJVU image from a file stream.
+
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
 
@@ -241,7 +257,7 @@ Adjust the _brightness_ of an image using a specified parameter, <br/>          
 
 **See also:**
 
-**[Example # 1](#example_131)**: The following example performs brightness correction of a DJVU image.
+**[Example # 1](#example_139)**: The following example performs brightness correction of a DJVU image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_2}
@@ -262,7 +278,7 @@ Enhance [Image](/imaging/python-net/aspose.imaging/image/) contrast to improve v
 
 **See also:**
 
-**[Example # 1](#example_132)**: The following example performs contrast correction of a DJVU image.
+**[Example # 1](#example_140)**: The following example performs contrast correction of a DJVU image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_3}
@@ -283,7 +299,7 @@ Gamma correction, specifically for the red, green, and blue channels, involves a
 
 **See also:**
 
-**[Example # 1](#example_129)**: The following example performs gamma-correction of a DJVU image.
+**[Example # 1](#example_137)**: The following example performs gamma-correction of a DJVU image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_4}
@@ -306,7 +322,7 @@ Gamma correction is applied to an image with customizable parameters for the red
 
 **See also:**
 
-**[Example # 1](#example_130)**: The following example performs gamma-correction of a DJVU image applying diff...
+**[Example # 1](#example_138)**: The following example performs gamma-correction of a DJVU image applying diff...
 
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_5}
@@ -358,7 +374,7 @@ Binarization with a predefined threshold simplifies complex images into binary<b
 
 **See also:**
 
-**[Example # 1](#example_126)**: The following example binarizes a DJVU image with the predefined threshold. B...
+**[Example # 1](#example_134)**: The following example binarizes a DJVU image with the predefined threshold. B...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_8}
@@ -838,7 +854,7 @@ Crop with shifts allows you to precisely adjust the position and dimensions of t
 
 **See also:**
 
-**[Example # 1](#example_125)**: The following example crops a DJVU image. The cropping area is be specified v...
+**[Example # 1](#example_133)**: The following example crops a DJVU image. The cropping area is be specified v...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_30}
@@ -2460,7 +2476,26 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_125}
+### This example shows how to load a DJVU image from a file stream. {#example_131}
+``` python
+from os.path import join
+from aspose.imaging.fileformats.djvu import DjvuImage
+from aspose.imaging.imageoptions import PngOptions       
+
+dir_: str = "c:\\temp"
+# Load a DJVU image from a file stream.
+with open(join(dir_, "sample.djvu"), "rb") as stream:
+	with DjvuImage(stream) as djvu_image:
+		# Save each page as an individual PNG image.
+		for djvu_page in djvu_image.pages:
+			# Generate a file name based on the page number.
+			file_name: str = "sample.{0}.png".format(djvu_page.page_number)
+			djvu_page.save(join(dir_, file_name), PngOptions())
+
+
+```
+
+### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_133}
 ``` python
 
 from aspose.pycore import as_of
@@ -2479,7 +2514,7 @@ with Image.load("sample.djvu") as image:
 
 ```
 
-### The following example binarizes a DJVU image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_126}
+### The following example binarizes a DJVU image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_134}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2499,7 +2534,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DJVU image. {#example_129}
+### The following example performs gamma-correction of a DJVU image. {#example_137}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2517,7 +2552,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DJVU image applying different coefficients for color components. {#example_130}
+### The following example performs gamma-correction of a DJVU image applying different coefficients for color components. {#example_138}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2536,7 +2571,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs brightness correction of a DJVU image. {#example_131}
+### The following example performs brightness correction of a DJVU image. {#example_139}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2555,7 +2590,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs contrast correction of a DJVU image. {#example_132}
+### The following example performs contrast correction of a DJVU image. {#example_140}
 ``` python
 
 import aspose.pycore as aspycore

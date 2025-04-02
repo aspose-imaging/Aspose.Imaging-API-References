@@ -55,7 +55,7 @@ Gets or sets a value indicating whether text must be rendered as shapes.
 
 **See also:**
 
-**[Example # 1](#example_141)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_150)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Method: clone() {#clone__1}
@@ -75,7 +75,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_141}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_150}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -101,7 +101,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_149}
+### The following example shows how to convert a svgz images to svg fromat {#example_160}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF

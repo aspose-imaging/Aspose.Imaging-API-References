@@ -145,6 +145,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_69) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_70) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_71) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_72) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) and [IHasExifData.exif_data](/imaging/python-net/aspose.imaging.exif/ihasexifdata/) values to **None**. |
@@ -230,7 +231,7 @@ The [JpegImage](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegimage/) 
 
 **See also:**
 
-**[Example # 1](#example_104)**: The example shows how to load a JpegImage from a file.
+**[Example # 1](#example_105)**: The example shows how to load a JpegImage from a file.
 
 
 ### Constructor: JpegImage(raster_image) {#JpegImage_raster_image_3}
@@ -282,7 +283,7 @@ Create a new instance of the [JpegImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_105)**: The following example shows how to create JPEG image of the specified size.
+**[Example # 1](#example_106)**: The following example shows how to create JPEG image of the specified size.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -2470,7 +2471,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The example shows how to load a JpegImage from a file. {#example_104}
+### The example shows how to load a JpegImage from a file. {#example_105}
 ``` python
 
 from aspose.imaging.fileformats.jpeg import JpegImage
@@ -2484,7 +2485,7 @@ with JpegImage("sample.jpg") as jpegImage:
 
 ```
 
-### The following example shows how to create JPEG image of the specified size. {#example_105}
+### The following example shows how to create JPEG image of the specified size. {#example_106}
 ``` python
 
 from aspose.imaging.fileformats.jpeg import JpegImage
@@ -2498,7 +2499,7 @@ with JpegImage(100, 100) as jpegImage:
 
 ```
 
-### Access camera manufacturer maker notes in Jpeg image. {#example_161}
+### Access camera manufacturer maker notes in Jpeg image. {#example_184}
 ``` python
 
 from aspose.pycore import as_of

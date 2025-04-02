@@ -592,7 +592,7 @@ Gets the embedded images.
 
 **See also:**
 
-**[Example # 1](#example_163)**: Support extracting embedded raster images from a vector image
+**[Example # 1](#example_186)**: Support extracting embedded raster images from a vector image
 
 
 ### Method: get_file_format(file_path)  [static] {#get_file_format_file_path_23}
@@ -1421,7 +1421,7 @@ Sets the image palette.
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### Support extracting embedded raster images from a vector image {#example_163}
+### Support extracting embedded raster images from a vector image {#example_186}
 ``` python
 from aspose.pycore import as_of
 from aspose.imaging import Image, VectorImage

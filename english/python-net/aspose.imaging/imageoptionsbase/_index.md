@@ -16,13 +16,13 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [buffer_size_hint](#buffer_size_hint1) | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
-| [palette](#palette1) | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
-| [resolution_settings](#resolution_settings2) | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| [palette](#palette2) | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
+| [resolution_settings](#resolution_settings3) | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
@@ -32,7 +32,16 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
 
 
-### Property: palette {#palette1}
+### Property: buffer_size_hint {#buffer_size_hint1}
+
+Gets or sets the buffer size hint which is defined max allowed size for all internal buffers.
+
+**See also:**
+
+**[Example # 1](#example_156)**: The following example shows how to set a memory limit when creating a new JPE...
+
+
+### Property: palette {#palette2}
 
 Gets or sets the color palette.
 
@@ -45,7 +54,7 @@ Gets or sets the color palette.
 **[Example # 3](#example_91)**: The following example loads a BMP image and saves it back to BMP using variou...
 
 
-### Property: resolution_settings {#resolution_settings2}
+### Property: resolution_settings {#resolution_settings3}
 
 Gets or sets the resolution settings.
 
@@ -215,6 +224,27 @@ with Image.create(createOptions, 100, 100) as image:
 	gradientBrush = LinearGradientBrush(Point(0, 0), Point(image.width, image.height), Color.black, Color.white)
 	# Fill the image with a grayscale gradient
 	graphics.fill_rectangle(gradientBrush, image.bounds)
+	image.save()
+
+
+```
+
+### The following example shows how to set a memory limit when creating a new JPEG image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_156}
+``` python
+from os.path import join
+from aspose.imaging import Image
+from aspose.imaging.sources import FileCreateSource
+from aspose.imaging.imageoptions import JpegOptions
+from aspose.imaging.fileformats.jpeg import JpegCompressionMode
+
+dir_: str = "c:\\aspose.imaging\\issues\\net\\3404\\"
+# Setting a memory limit of 50 megabytes for target created image
+create_options = JpegOptions()
+create_options.compression_type = JpegCompressionMode.PROGRESSIVE
+create_options.buffer_size_hint = 50
+create_options.source = FileCreateSource(join(dir_, "createdFile.jpg"), False)
+with Aspose.Imaging.Image.create(create_options, 1000, 1000) as image:
+	# save to same location
 	image.save()
 
 

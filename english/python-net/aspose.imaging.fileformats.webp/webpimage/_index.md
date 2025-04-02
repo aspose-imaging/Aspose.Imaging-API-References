@@ -148,6 +148,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_75) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_76) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_77) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_78) | Reads the whole scan line by the specified scan line index. |
 | [remove_block(block)](#remove_block_block_79) | Remove the specified WebP block from the image, facilitating efficient management <br/>            of image data structure. Utilize this method to streamline image processing <br/>            workflows by eliminating unnecessary blocks or components within your application. |
@@ -218,7 +219,7 @@ Instantiate a fresh instance of the [WebPImage](/imaging/python-net/aspose.imagi
 
 **See also:**
 
-**[Example # 1](#example_136)**: This example shows how to load a WebP image from a file and save it to PNG.
+**[Example # 1](#example_145)**: This example shows how to load a WebP image from a file and save it to PNG.
 
 
 ### Constructor: WebPImage(path, load_options) {#WebPImage_path_load_options_2}
@@ -251,6 +252,12 @@ Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging
 | Parameter | Type | Description |
 | :- | :- | :- |
 | raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+
+
+**See also:**
+
+**[Example # 1](#example_147)**: This example shows how to create a WebP image from another raster image.
+
 
 ### Constructor: WebPImage(raster_image, load_options) {#WebPImage_raster_image_load_options_4}
 
@@ -286,7 +293,7 @@ Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging
 
 **See also:**
 
-**[Example # 1](#example_137)**: This example shows how to load a WebP image from a file stream and save it to...
+**[Example # 1](#example_146)**: This example shows how to load a WebP image from a file stream and save it to...
 
 
 ### Constructor: WebPImage(stream, load_options) {#WebPImage_stream_load_options_6}
@@ -2670,7 +2677,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a WebP image from a file and save it to PNG. {#example_136}
+### This example shows how to load a WebP image from a file and save it to PNG. {#example_145}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2688,7 +2695,7 @@ with WebPImage(join(dir_, "test.webp")) as web_pimage:
 
 ```
 
-### This example shows how to load a WebP image from a file stream and save it to PNG. {#example_137}
+### This example shows how to load a WebP image from a file stream and save it to PNG. {#example_146}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2703,6 +2710,30 @@ with open(join(dir_, "test.webp"), "w+b") as stream:
 		# Save to PNG
 		# Note that only the active frame will be stored to PNG, since PNG is not a multi-page format.
 		web_pimage.save(join(dir_, "test.output.png"), PngOptions())
+
+
+```
+
+### This example shows how to create a WebP image from another raster image. {#example_147}
+``` python
+from os.path import join
+from aspose.imaging import Graphics, Color
+from aspose.imaging.fileformats.png import PngImage
+from aspose.imaging.fileformats.webp import WebPImage
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import WebPOptions      
+
+dir_: str = "c:\\temp"
+# Load a PNG image of 100x100 px.
+with PngImage(100, 100) as png_image:
+	graphics = Graphics(png_image)
+	# Fill the entire image in red.
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, png_image.bounds)
+	# Create a WebP image based on the PNG image.
+	with WebPImage(png_image) as web_pimage:
+		# Save to a WebP file with default options
+		web_pimage.save(join(dir_, "output.webp"), WebPOptions())
 
 
 ```

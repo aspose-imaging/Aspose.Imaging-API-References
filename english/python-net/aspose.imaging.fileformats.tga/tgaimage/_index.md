@@ -154,6 +154,7 @@ url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_71) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_72) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_73) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_74) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -237,7 +238,7 @@ Create a new instance of the [TgaImage](/imaging/python-net/aspose.imaging.filef
 
 **See also:**
 
-**[Example # 1](#example_158)**: Loading of the PNG image, conversion of it to the TgaImage and saving as a TG...
+**[Example # 1](#example_180)**: Loading of the PNG image, conversion of it to the TgaImage and saving as a TG...
 
 
 ### Constructor: TgaImage(stream) {#TgaImage_stream_3}
@@ -2471,7 +2472,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_157}
+### Saving of the JPG image as a TGA image. {#example_179}
 ``` python
 
 from aspose.imaging import Image
@@ -2483,7 +2484,7 @@ with Image.load("test.jpg") as image:
 
 ```
 
-### Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image. {#example_158}
+### Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image. {#example_180}
 ``` python
 from aspose.pycore import as_of
 from aspose.imaging import Image, RasterImage
