@@ -30,11 +30,12 @@ protected enum ImageOperation
 | BinarizeOtsu | `9` | Binarize otsu operation |
 | BinarizeBradley | `10` | Binarize bradley operation |
 | Grayscale | `11` | Grayscale operation |
-| AdjustBrightness | `12` | Adjust brightness operation |
-| AdjustContrast | `13` | Adjust contrast operation |
-| AdjustGamma | `14` | Adjust gamma operation |
-| Rotate | `15` | Rotate operation |
-| RotateFlip | `16` | Rotate flip operation |
+| HistogramNormalization | `12` | Histogram normalization operation |
+| AdjustBrightness | `13` | Adjust brightness operation |
+| AdjustContrast | `14` | Adjust contrast operation |
+| AdjustGamma | `15` | Adjust gamma operation |
+| Rotate | `16` | Rotate operation |
+| RotateFlip | `17` | Rotate flip operation |
 
 ### See Also
 

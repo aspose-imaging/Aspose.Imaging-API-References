@@ -3,7 +3,7 @@ title: RasterImage.ReplaceColor
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.imaging/rasterimage/replacecolor/
 ---
 ## ReplaceColor(Color, byte, Color) {#replacecolor}

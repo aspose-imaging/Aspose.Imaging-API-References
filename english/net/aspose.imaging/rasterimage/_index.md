@@ -98,6 +98,7 @@ public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelL
 | [LoadRawData](../../aspose.imaging/rasterimage/loadrawdata/#loadrawdata_1)(Rectangle, Rectangle, RawDataSettings, IPartialRawDataLoader) | Loads raw data. |
 | [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle/#normalizeangle)() | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](./getskewangle/) and [`Rotate`](./rotate/) methods. |
 | virtual [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle/#normalizeangle_1)(bool, Color) | Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [`GetSkewAngle`](./getskewangle/) and [`Rotate`](./rotate/) methods. |
+| virtual [NormalizeHistogram](../../aspose.imaging/rasterimage/normalizehistogram/)() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | [ReadScanLine](../../aspose.imaging/rasterimage/readscanline/)(int) | Reads the whole scan line by the specified scan line index. |
 | override [RemoveMetadata](../../aspose.imaging/rasterimage/removemetadata/)() | Removes this image instance metadata by setting this [`XmpData`](../../aspose.imaging.xmp/ihasxmpdata/xmpdata/) value to `null`. |
