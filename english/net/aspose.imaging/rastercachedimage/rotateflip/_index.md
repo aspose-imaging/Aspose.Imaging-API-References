@@ -3,7 +3,7 @@ title: RasterCachedImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Rotates flips or rotates and flips the image
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging/rastercachedimage/rotateflip/
 ---
 ## RasterCachedImage.RotateFlip method

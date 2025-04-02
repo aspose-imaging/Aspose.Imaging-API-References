@@ -27,6 +27,7 @@ Represents a raster image supporting raster graphics operations. This image cach
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
+| [normalizeHistogram()](#normalizeHistogram--) | Normalizes the image histogram \\u2014 adjust pixel values to use all available range. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
 | [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
 | [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -434,6 +435,14 @@ try {
     image.dispose();
 }
 ```
+
+### normalizeHistogram() {#normalizeHistogram--}
+```
+public void normalizeHistogram()
+```
+
+
+Normalizes the image histogram \\u2014 adjust pixel values to use all available range.
 
 ### binarizeFixed(byte threshold) {#binarizeFixed-byte-}
 ```
