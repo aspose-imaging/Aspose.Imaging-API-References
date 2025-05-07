@@ -86,6 +86,12 @@ Draws an arc representing a portion of an ellipse specified by a Rectangle struc
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | arc_angle | float | Angle in degrees measured clockwise from the startAngle parameter to ending point of the arc. |
 
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
+
 ### Method: draw_cubic_bezier(pen, pt1, pt2, pt3, pt4) {#draw_cubic_bezier_pen_pt1_pt2_pt3_pt4_2}
 
 
@@ -104,6 +110,12 @@ Draws the cubic bezier.
 | pt2 | [Point](/imaging/python-net/aspose.imaging/point) | The first control point for the curve. |
 | pt3 | [Point](/imaging/python-net/aspose.imaging/point) | The second control point for the curve. |
 | pt4 | [Point](/imaging/python-net/aspose.imaging/point) | The ending point of the curve. |
+
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
 
 ### Method: draw_ellipse(pen, rect) {#draw_ellipse_pen_rect_3}
 
@@ -138,6 +150,12 @@ Draws the specified portion of the specified Image at the specified location and
 | dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Rectangle structure that specifies the location and size of the drawn image. The image is scaled to fit the rectangle. |
 | src_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Rectangle structure that specifies the portion of the image object to draw. |
 | src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The units of measure used by the srcRect parameter. |
+
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
 
 ### Method: draw_image(image, location) {#draw_image_image_location_5}
 
@@ -259,6 +277,12 @@ Draws the line.
 | x2 | int | The x-coordinate of the second point. |
 | y2 | int | The y-coordinate of the second point. |
 
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
+
 ### Method: draw_path(pen, path) {#draw_path_pen_path_12}
 
 
@@ -274,6 +298,12 @@ Draws the path.
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
 | path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The path to draw. |
+
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
 
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_13}
 
@@ -376,6 +406,12 @@ Draws the rectangle.
 | width | int | The width of the rectangle to draw. |
 | height | int | The height of the rectangle to draw. |
 
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
+
 ### Method: draw_string(string, font, color, x, y) {#draw_string_string_font_color_x_y_19}
 
 
@@ -394,6 +430,12 @@ Draws the string.
 | color | [Color](/imaging/python-net/aspose.imaging/color) | The text color. |
 | x | int | The x-coordinate of the upper-left corner of the drawn text. |
 | y | int | The y-coordinate of the upper-left corner of the drawn text. |
+
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
 
 ### Method: draw_string(string, font, color, x, y, angle) {#draw_string_string_font_color_x_y_angle_20}
 
@@ -508,6 +550,12 @@ Fills the path.
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
 | path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The path to fill. |
 
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
+
 ### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_27}
 
 
@@ -525,6 +573,12 @@ Fills the pie.
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | sweep_angle | float | Angle in degrees measured clockwise from the startAngle parameter to ending point of the arc. |
+
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
 
 ### Method: fill_polygon(brush, points) {#fill_polygon_brush_points_28}
 
@@ -574,6 +628,12 @@ Fills the rectangle.
 | :- | :- | :- |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to fill. |
+
+
+**See also:**
+
+**[Example # 1](#example_151)**: This example shows how to create a EMF image and draw some geometric shapes o...
+
 
 ### Method: get_transform() {#get_transform__31}
 
@@ -794,4 +854,75 @@ Changes the origin of the coordinate system by applying the specified translatio
 | x | float | The x-coordinate of the translation. |
 | y | float | The y-coordinate of the translation. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | Specifies whether the translation is prepended or appended to the transformation matrix. |
+
+## **Examples**
+### This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D. {#example_151}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Rectangle, Pen, Color, Point, Image, RasterImage, GraphicsUnit, Font, FontStyle, Figure, GraphicsPath,\
+	PointF, RectangleF, Size
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.shapes import ArcShape, BezierShape, PolygonShape, RectangleShape
+from aspose.imaging.imageoptions import SvgRasterizationOptions, PngOptions
+from aspose.imaging.fileformats.emf.graphics import EmfRecorderGraphics2D
+from os.path import join
+
+dir_: str = "c:\\temp"
+# The image size in pixels
+device_width: int = 600
+device_height: int = 400
+# The image size in millimeters
+device_width_mm = device_width // 100
+device_height_mm = device_height // 100
+frame = Rectangle(0, 0, device_width, device_height)
+# Create a EMF image.
+graphics = EmfRecorderGraphics2D(frame, Size(device_width, device_height), Size(device_width_mm, device_height_mm))
+# Draw a black rectangle along the image borders using a 1-pixel-wide black pen.
+graphics.draw_rectangle(Pen(Color.black, 1), 0, 0, device_width, device_height)
+# Fill a rectangle with the color of white-smoke.
+graphics.fill_rectangle(SolidBrush(Color.white_smoke), Rectangle(10, 10, 580, 380))
+# Draw two diagonal lines using a 1-pixel-wide darkgreen pen.
+graphics.draw_line(Pen(Color.dark_green, 1), 0, 0, device_width, device_height)
+graphics.draw_line(Pen(Color.dark_green, 1), 0, device_height, device_width, 0)
+# Draw an arc within the rectangle {0, 0, 200, 200} using a 2-pixel-wide blue pen.
+graphics.draw_arc(Pen(Color.blue, 2), Rectangle(0, 0, 200, 200), 90, 270)
+# Fill an arc
+graphics.fill_pie(SolidBrush(Color.light_sky_blue), Rectangle(0, 0, 150, 150), 90, 270)
+# Draw a cubic bezier using a 2-pixel-wide red pen.
+graphics.draw_cubic_bezier(Pen(Color.red, 2), Point(0, 0), Point(200, 133), Point(400, 166), Point(600, 400))
+
+# Draw a raster image of the specified size at the specified location.
+# The image is scaled to fit the desired rectangle.
+with aspycore.as_of(Image.load(join(dir_, "sample.bmp")), RasterImage) as image_to_draw:
+	graphics.draw_image(image_to_draw, Rectangle(400, 200, 100, 50), Rectangle(0, 0, device_width, device_height), GraphicsUnit.PIXEL)
+
+# Draw a text string
+graphics.draw_string("Hello World!", Font("Arial", 48, FontStyle.REGULAR), Color.dark_red, 200, 300)
+
+# Create a path to fill
+figure_to_fill = Figure()
+figure_to_fill.is_closed = True
+path_to_fill = GraphicsPath()
+path_to_fill.add_figure(figure_to_fill)
+figure_to_fill.add_shapes([ArcShape(Rectangle(400, 0, 200, 100), 45, 300), BezierShape([PointF(300, 200), PointF(400, 200), PointF(500, 100), PointF(600, 200)]), PolygonShape([PointF(300, 100)]), RectangleShape(RectangleF(0, 100, 200, 200))])
+
+# Fill the path using a yellow brush and a green pen to draw outline
+graphics.fill_path(Pen(Color.green, 2), SolidBrushColor.yellow), path_to_fill)
+
+# Create a path to draw
+path_to_draw = GraphicsPath()
+figure_to_draw = Figure()
+path_to_draw.add_figure(figure_to_draw)
+figure_to_draw.add_shapes([ArcShape(RectangleF(200, 200, 200, 200), 0, 360)])
+
+# Draw the path using a 5-pixel-wide orange pen.
+graphics.draw_path(Pen(Color.orange, 5), path_to_draw)
+
+# Get the final WMF image which includes all drawing commands
+with graphics.end_recording() as emf_image:
+	emf_image.save(join(dir_, "test.output.emf"))
+
+
+```
 

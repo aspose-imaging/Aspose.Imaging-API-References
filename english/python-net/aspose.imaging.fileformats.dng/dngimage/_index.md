@@ -126,6 +126,7 @@ url: /python-net/aspose.imaging.fileformats.dng/dngimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_67) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_68) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_69) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_70) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -2315,4 +2316,65 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
+
+## **Examples**
+### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_148}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.fileformats.dng import DngImage
+from aspose.imaging.imageoptions import PngOptions
+from os.path import join
+
+
+dir_: str = "c:\\temp"
+with Image.load(join(dir_, "test.dng")) as image:
+	dng_image = aspycore.as_of(image, DngImage)
+	raw_data = dng_image.img_data
+	parameters = raw_data.image_data_parameters
+	if parameters is not None:
+		print("The camera manufacturer:              ", str(parameters.camera_manufacturer))
+		print("The camera model:                     ", str(parameters.model))
+		print("The colors count:                     ", str(parameters.colors_count))
+		print("The colors description:               ", str(parameters.description))
+		print("The DNG version:                      ", str(parameters.dng_version))
+		print("The number of RAW images in the file: ", str(parameters.raw_count))
+		print("The software:                         ", str(parameters.software))
+		print("The order of the color pixels:        ", bin(parameters.filters))
+		translation_cfa_dng = parameters.translation_cfa_dng
+		if translation_cfa_dng is not None:
+			print("The translation array for CFA mosaic :", translation_cfa_dng.length)
+			for s in translation_cfa_dng:
+				print("- ", s)
+
+	other_parameters = raw_data.image_other_parameters
+	if other_parameters is not None:
+		print("The aperture:                         ", other_parameters.aperture)
+		print("The description:                      ", other_parameters.description)
+		print("The focal length:                     ", other_parameters.focal_length)
+		print("The ISO sensitivity:                  ", other_parameters.iso_speed)
+		print("The serial number of the image:       ", other_parameters.shot_order)
+		print("The shutter speed:                    ", other_parameters.shutter_speed)
+		print("The date of shooting:                 ", System.DateTime.from_file_time(other_parameters.timestamp))
+
+	# Export to PNG with default options.
+	dng_image.save(join(dir_, "test.png"), PngOptions())
+
+# The camera manufacturer:              Leica
+# The camera model:                     M8 Digital Camera
+# The colors count:                     3
+# The colors description:               RGBG
+# The DNG version:                      16777216
+# The number of RAW images in the file: 1
+# The software:                         1.107
+# The order of the color pixels:        0b10110100101101001011010010110100
+# The aperture:                         0
+# The description:                      
+# The focal length:                     50
+# The ISO sensitivity:                  160
+# The serial number of the image:       0
+# The shutter speed:                    12
+# The date of shooting:                 8/3/2007 3:13:49 AM
+
+```
 

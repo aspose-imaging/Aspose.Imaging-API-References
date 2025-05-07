@@ -25,7 +25,6 @@ Manipulate OpenDocument Graphic (ODG) vector image file format with our API, wid
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
 | [getPages()](#getPages--) | Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | This property provides access to the default options associated with an image. |
 
 ## Example: This example loads a multi-page ODG image.
 
@@ -119,18 +118,3 @@ Retrieving the collection of pages, this property empowers to access the entiret
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-This property provides access to the default options associated with an image. By retrieving these options, developers can quickly ascertain the default settings applied to the image, facilitating the creation of new instances or the modification of existing ones based on these presets.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options

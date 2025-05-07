@@ -65,7 +65,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image. {#example_145}
+### Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image. {#example_163}
 ``` python
 
 from aspose.imaging import Image
@@ -79,7 +79,7 @@ with Image.load("Sample.svg") as image:
 
 ```
 
-### You can embed more than one Canvas image within HTML page or update already exsiting page. In order to do that you need to export only the Canvas tag. {#example_146}
+### You can embed more than one Canvas image within HTML page or update already exsiting page. In order to do that you need to export only the Canvas tag. {#example_164}
 ``` python
 
 from aspose.imaging import Image

@@ -35,7 +35,6 @@ The API for Corel Metafile Exchange (CMX) vector image format with metadata desc
 | [getCmxPage()](#getCmxPage--) | Effortlessly retrieve the CMX page of the image with this intuitive property. |
 | [getPageCount()](#getPageCount--) | Retrieve the total page count of the image with this intuitive property. |
 | [getPages()](#getPages--) | Retrieve the pages of the image seamlessly with this intuitive property. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
 | [cacheData()](#cacheData--) | Cache the data to prevent additional loading from the underlying source [DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter) with this convenient method. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize the color palette of the image with this intuitive method. |
 
@@ -194,21 +193,6 @@ try {
 }
 ```
 
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieve the default options effortlessly with this user-friendly method. Perfect for developers seeking quick access to the default settings or configurations associated with an object, ensuring efficient customization and streamlined workflow.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()

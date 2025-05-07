@@ -142,7 +142,7 @@ Retrieve the pages of the image seamlessly with this intuitive property.<br/>   
 
 **See also:**
 
-**[Example # 1](#example_139)**: The following example shows how to cache all pages of a CDR image.
+**[Example # 1](#example_152)**: The following example shows how to cache all pages of a CDR image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1448,7 +1448,7 @@ Customize the color palette of the image with this intuitive method. Ideal for<b
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>            indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>            corresponding palette entries. |
 
 ## **Examples**
-### The following example shows how to cache all pages of a CDR image. {#example_139}
+### The following example shows how to cache all pages of a CDR image. {#example_152}
 ``` python
 
 import aspose.pycore as aspycore

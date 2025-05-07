@@ -146,6 +146,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_74) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_76) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_77) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) and [IHasExifData.exif_data](/imaging/python-net/aspose.imaging.exif/ihasexifdata/) values to **None**. |
@@ -312,11 +313,13 @@ Gets or sets the path resources.
 
 **See also:**
 
-**[Example # 1](#example_147)**: The following example shows how to retrieve paths from TIFF image and display...
+**[Example # 1](#example_165)**: The following example shows how to retrieve paths from TIFF image and display...
 
-**[Example # 2](#example_148)**: The following example shows how to modify already existing Clipping Paths. Fo...
+**[Example # 2](#example_166)**: The following example shows how to modify already existing Clipping Paths. Fo...
 
-**[Example # 3](#example_149)**: Transfer Clipping Paths during export from TIFF to PSD image.
+**[Example # 3](#example_167)**: The following example shows how to create Clipping Path in TIFF image. In ord...
+
+**[Example # 4](#example_168)**: Transfer Clipping Paths during export from TIFF to PSD image.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -2618,7 +2621,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_147}
+### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_165}
 ``` python
 
 from aspose.pycore import as_of
@@ -2632,7 +2635,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_148}
+### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_166}
 ``` python
 
 from aspose.pycore import as_of
@@ -2648,7 +2651,29 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### Transfer Clipping Paths during export from TIFF to PSD image. {#example_149}
+### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_167}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging.imageoptions import TiffOptions   
+from aspose.imaging.fileformats.tiff import TiffImage, TiffFrame
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from aspose.imaging.fileformats.tiff.pathresources import PathResource
+
+options = TiffOptions(TiffExpectedFormat.DEFAULT)
+frame = TiffFrame(options, 800, 600)
+with TiffImage(frame) as image:
+	obj_init = PathResource()
+	obj_init.block_id = 2000
+	obj_init.name = "My Clipping Path"
+	obj_init.records = []
+	image.active_frame.path_resources = [obj_init]
+	image.save("ImageWithEmptyPath.tiff")
+
+
+```
+
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_168}
 ``` python
 
 from aspose.imaging import Image

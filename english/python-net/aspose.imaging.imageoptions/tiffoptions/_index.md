@@ -30,7 +30,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | byte_order | [TiffByteOrder](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffbyteorder/) | r/w | Gets or sets a value indicating the tiff byte order. |
 | color_map | ushort | r/w | Gets or sets the color map. |
-| compressed_quality | int | r/w | Gets or sets compressed image quality.<br/>            Used with the Jpeg compression. |
+| [compressed_quality](#compressed_quality1) | int | r/w | Gets or sets compressed image quality.<br/>            Used with the Jpeg compression. |
 | compression | [TiffCompressions](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffcompressions/) | r/w | Gets or sets the compression. |
 | copyright | string | r/w | Gets or sets the copyright. |
 | date_time | string | r/w | Gets or sets the date and time. |
@@ -179,6 +179,15 @@ Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imagi
 | Parameter | Type | Description |
 | :- | :- | :- |
 | tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The tags to initialize options with. |
+
+### Property: compressed_quality {#compressed_quality1}
+
+Gets or sets compressed image quality.<br/>            Used with the Jpeg compression.
+
+**See also:**
+
+**[Example # 1](#example_111)**: This example shows how to create a TIFF image with the Jpeg compression and t...
+
 
 ### Method: add_tag(tag_to_add) {#add_tag_tag_to_add_1}
 
@@ -463,6 +472,29 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 	image.save(path_join(directory, "output.png"), PngOptions())
 	# Export to TIFF file format using the default options
 	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
+
+
+```
+
+### This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality. {#example_111}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import TiffOptions   
+from aspose.imaging.fileformats.tiff import TiffImage
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat, TiffPhotometrics, TiffCompressions
+
+with aspycore.as_of(Image.load("zeebra.tif"), TiffImage) as image:
+	tiff_options = TiffOptions(TiffExpectedFormat.DEFAULT)
+	# Set the RGB color model.
+	tiff_options.photometric = TiffPhotometrics.RGB
+	# Set the Jpeg compression.
+	tiff_options.compression = TiffCompressions.JPEG
+	tiff_options.compressed_quality = 50
+	# Set 8 bits for each color component.
+	tiff_options.bits_per_sample = [8, 8, 8]
+	image.save("zeebra.tif-50.tiff", tiff_options)
 
 
 ```

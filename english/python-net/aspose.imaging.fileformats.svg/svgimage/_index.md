@@ -151,6 +151,12 @@ Creates a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.file
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to load image from and initialize pixel and palette data with. |
 
+
+**See also:**
+
+**[Example # 1](#example_149)**: This example shows how to load an SVG image from a file stream and rasterize ...
+
+
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
 
 
@@ -1509,7 +1515,27 @@ Applies a specified palette to the image, enabling customization of color <br/> 
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### The following example shows how to convert a svgz images to svg fromat {#example_149}
+### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_149}
+``` python
+import aspose.pycore as aspycore
+from os.path import join
+from aspose.imaging.fileformats.svg import SvgImage
+from aspose.imaging.imageoptions import PngOptions, SvgRasterizationOptions
+
+dir_: str = "c:\\temp"
+# Load an SVG image from a file stream.
+with open(join(dir_, "test.svg"), "rb") as stream:
+	with SvgImage(stream) as svg_image:
+		# In order to rasterize SVG we need to specify rasterization options.
+		rasterization_options = SvgRasterizationOptions()
+		save_options = PngOptions()
+		save_options.vector_rasterization_options = rasterization_options
+		svg_image.save(join(dir_, "test.output.png"), save_options)
+
+
+```
+
+### The following example shows how to convert a svgz images to svg fromat {#example_160}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF

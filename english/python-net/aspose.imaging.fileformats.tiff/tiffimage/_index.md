@@ -144,6 +144,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_74) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Utilize the NormalizeAngle method specifically designed for scanned text documents <br/>            to rectify skewed scans, ensuring accurate alignment. Seamlessly <br/>            integrate this functionality into your text processing workflows to enhance <br/>            document readability and quality, improving overall efficiency in text recognition <br/>            and analysis tasks.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [TiffImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_76) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_77) | Reads the whole scan line by the specified scan line index. |
 | [remove_frame(frame)](#remove_frame_frame_78) | Efficiently remove the specified frame from the image sequence, facilitating <br/>            streamlined frame management within your application. Integrate this functionality <br/>            to enhance precision and flexibility in frame manipulation, ensuring seamless <br/>            organization and presentation of image content. |
@@ -308,7 +309,7 @@ Implement _brightness_ adjustment for the image, allowing the <br/>            m
 
 **See also:**
 
-**[Example # 1](#example_117)**: The following example performs brightness correction of a TIFF image.
+**[Example # 1](#example_119)**: The following example performs brightness correction of a TIFF image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_6}
@@ -329,7 +330,7 @@ Enhance the contrast of the [Image](/imaging/python-net/aspose.imaging/image/) i
 
 **See also:**
 
-**[Example # 1](#example_118)**: The following example performs contrast correction of a TIFF image.
+**[Example # 1](#example_120)**: The following example performs contrast correction of a TIFF image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_7}
@@ -350,7 +351,7 @@ Apply gamma correction to the image, adjusting pixel intensities to achieve <br/
 
 **See also:**
 
-**[Example # 1](#example_115)**: The following example performs gamma-correction of a TIFF image.
+**[Example # 1](#example_117)**: The following example performs gamma-correction of a TIFF image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_8}
@@ -373,7 +374,7 @@ Perform gamma correction on the image using individual coefficients for red, <br
 
 **See also:**
 
-**[Example # 1](#example_116)**: The following example performs gamma-correction of a TIFF image applying diff...
+**[Example # 1](#example_118)**: The following example performs gamma-correction of a TIFF image applying diff...
 
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_9}
@@ -425,7 +426,7 @@ Apply binarization to the image using a predefined threshold, converting it into
 
 **See also:**
 
-**[Example # 1](#example_112)**: The following example binarizes a TIFF image with the predefined threshold. B...
+**[Example # 1](#example_114)**: The following example binarizes a TIFF image with the predefined threshold. B...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_12}
@@ -931,6 +932,12 @@ Perform cropping on the image by specifying shifts in the left, right, top, and 
 | top_shift | int | The top shift. |
 | bottom_shift | int | The bottom shift. |
 
+
+**See also:**
+
+**[Example # 1](#example_113)**: The following example crops a TIFF image. The cropping area is specified via ...
+
+
 ### Method: crop(rectangle) {#crop_rectangle_35}
 
 
@@ -949,7 +956,7 @@ Crop the image using a specified rectangular region, allowing precise selection 
 
 **See also:**
 
-**[Example # 1](#example_111)**: The following example crops a TIFF image. The cropping area is be specified v...
+**[Example # 1](#example_112)**: The following example crops a TIFF image. The cropping area is be specified v...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_36}
@@ -2641,7 +2648,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example crops a TIFF image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_111}
+### The following example crops a TIFF image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_112}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, Rectangle
@@ -2662,7 +2669,28 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example binarizes a TIFF image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_112}
+### The following example crops a TIFF image. The cropping area is specified via Left, Top, Right, Bottom margins. {#example_113}
+``` python
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image       
+from aspose.imaging.fileformats.tiff import TiffImage
+from aspose.imaging.imageoptions import PngOptions
+
+dir_: str = r"c:\temp"
+with Image.load(join(dir_, "sample.tif")) as image:
+	tiff_image = aspycore.as_of(image, TiffImage)
+	# Crop again. Set a margin of 10% of the image size.
+	horizontal_margin: int = tiff_image.width // 10
+	vertical_margin: int = tiff_image.height // 10
+	tiff_image.crop(horizontal_margin, horizontal_margin, vertical_margin, vertical_margin)
+	# Save the cropped image to PNG.
+	tiff_image.save(join(dir_, "sample.Crop.png"), PngOptions())
+
+
+```
+
+### The following example binarizes a TIFF image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_114}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2682,7 +2710,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs gamma-correction of a TIFF image. {#example_115}
+### The following example performs gamma-correction of a TIFF image. {#example_117}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2700,7 +2728,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs gamma-correction of a TIFF image applying different coefficients for color components. {#example_116}
+### The following example performs gamma-correction of a TIFF image applying different coefficients for color components. {#example_118}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2719,7 +2747,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs brightness correction of a TIFF image. {#example_117}
+### The following example performs brightness correction of a TIFF image. {#example_119}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2738,7 +2766,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs contrast correction of a TIFF image. {#example_118}
+### The following example performs contrast correction of a TIFF image. {#example_120}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2757,7 +2785,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### Create Graphics Path from Path Resources in TIFF image. {#example_161}
+### Create Graphics Path from Path Resources in TIFF image. {#example_174}
 ``` python
 
 import aspose.pycore as aspycore

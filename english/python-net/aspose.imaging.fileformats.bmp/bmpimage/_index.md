@@ -144,6 +144,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_72) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_73) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_74) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_75) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -3252,7 +3253,7 @@ with Image.load(r"c:\temp\sample.bmp") as image:
 
 ```
 
-### Compress BMP image using DXT1 compression algorithm. {#example_152}
+### Compress BMP image using DXT1 compression algorithm. {#example_171}
 ``` python
 #cxFor:aspose.imaging.imageoptions.BmpOptions.compression
 
@@ -3267,7 +3268,7 @@ with Image.load("Tiger.bmp") as image:
 
 ```
 
-### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_153}
+### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_172}
 ``` python
 
 from aspose.imaging import Image

@@ -7,7 +7,7 @@ weight: 14
 url: /java/com.aspose.imaging.imageoptions/cmxrasterizationoptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase), [com.aspose.imaging.imageoptions.VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions)
+java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions)
 ```
 public class CmxRasterizationOptions extends VectorRasterizationOptions
 ```
@@ -18,6 +18,12 @@ the CMX exporter options.
 | Constructor | Description |
 | --- | --- |
 | [CmxRasterizationOptions()](#CmxRasterizationOptions--) | Initializes a new instance of the [CmxRasterizationOptions](../../com.aspose.imaging.imageoptions/cmxrasterizationoptions) class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getResolutionSettings()](#getResolutionSettings--) | Gets the resolution settings. |
+| [setResolutionSettings(ResolutionSetting value)](#setResolutionSettings-com.aspose.imaging.ResolutionSetting-) | Sets the resolution settings. |
 ### CmxRasterizationOptions() {#CmxRasterizationOptions--}
 ```
 public CmxRasterizationOptions()
@@ -25,4 +31,27 @@ public CmxRasterizationOptions()
 
 
 Initializes a new instance of the [CmxRasterizationOptions](../../com.aspose.imaging.imageoptions/cmxrasterizationoptions) class.
+
+### getResolutionSettings() {#getResolutionSettings--}
+```
+public final ResolutionSetting getResolutionSettings()
+```
+
+
+Gets the resolution settings.
+
+**Returns:**
+[ResolutionSetting](../../com.aspose.imaging/resolutionsetting) - the resolution settings.
+### setResolutionSettings(ResolutionSetting value) {#setResolutionSettings-com.aspose.imaging.ResolutionSetting-}
+```
+public final void setResolutionSettings(ResolutionSetting value)
+```
+
+
+Sets the resolution settings.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ResolutionSetting](../../com.aspose.imaging/resolutionsetting) | the resolution settings. |
 

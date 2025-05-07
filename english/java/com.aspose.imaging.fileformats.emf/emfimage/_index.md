@@ -35,7 +35,6 @@ The API for Enhanced Metafile Format (EMF) vector image format support is a comp
 | [cacheData()](#cacheData--) | Efficiently cache data and prevent redundant loading from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) with this method. |
 | [getUsedFonts()](#getUsedFonts--) | Retrieve the list of fonts utilized within the metafile with this method. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resize the canvas with ease using this function. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options for your image effortlessly. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
@@ -366,21 +365,6 @@ Resize the canvas with ease using this function. Perfect for adjusting the overa
 | --- | --- | --- |
 | newRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The new rectangle. |
 
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieve the default options for your image effortlessly. With this feature, you can quickly access the preset configurations, ensuring seamless integration and optimal performance for your projects. Ideal for streamlining your workflow and achieving consistent results across your images.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
 public ImageOptionsBase getOriginalOptions()

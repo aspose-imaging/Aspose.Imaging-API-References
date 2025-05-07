@@ -140,6 +140,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_70) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_71) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
+| normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_72) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_73) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) value to **None**. |
@@ -291,7 +292,7 @@ Enhance image luminance with the adjustment of _brightness_, a<br/>            p
 
 **See also:**
 
-**[Example # 1](#example_125)**: The following example performs brightness correction of a DICOM image.
+**[Example # 1](#example_129)**: The following example performs brightness correction of a DICOM image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_4}
@@ -312,7 +313,7 @@ Enhance [Image](/imaging/python-net/aspose.imaging/image/) contrast with this us
 
 **See also:**
 
-**[Example # 1](#example_126)**: The following example performs contrast correction of a DICOM image.
+**[Example # 1](#example_130)**: The following example performs contrast correction of a DICOM image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_5}
@@ -333,7 +334,7 @@ Enhance image quality and adjust it with gamma correction, a powerful technique<
 
 **See also:**
 
-**[Example # 1](#example_123)**: The following example performs gamma-correction of a DICOM image.
+**[Example # 1](#example_127)**: The following example performs gamma-correction of a DICOM image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_6}
@@ -356,7 +357,7 @@ Achieve precise color adjustments by applying gamma correction independently<br/
 
 **See also:**
 
-**[Example # 1](#example_124)**: The following example performs gamma-correction of a DICOM image applying dif...
+**[Example # 1](#example_128)**: The following example performs gamma-correction of a DICOM image applying dif...
 
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_7}
@@ -408,7 +409,7 @@ Easily convert the image into a binary format using a predefined threshold<br/> 
 
 **See also:**
 
-**[Example # 1](#example_120)**: The following example binarizes a DICOM image with the predefined threshold. ...
+**[Example # 1](#example_124)**: The following example binarizes a DICOM image with the predefined threshold. ...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_10}
@@ -884,6 +885,12 @@ Crop the image to remove unwanted areas and focus on essential content with this
 | Parameter | Type | Description |
 | :- | :- | :- |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle. |
+
+
+**See also:**
+
+**[Example # 1](#example_123)**: The following example crops a DICOM image. The cropping area is be specified ...
+
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_32}
 
@@ -2251,6 +2258,12 @@ Easily save your image data to a specified stream in the desired file format<br/
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The save options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The destination image bounds rectangle. Set the empty rectangle for use sourse bounds. |
 
+
+**See also:**
+
+**[Example # 1](#example_121)**: The following example loads a DICOM image from a file, then saves the image t...
+
+
 ### Method: save_all(file_path, options) {#save_all_file_path_options_105}
 
 
@@ -2529,7 +2542,49 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example binarizes a DICOM image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_120}
+### The following example loads a DICOM image from a file, then saves the image to a PNG file stream. {#example_121}
+``` python
+
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, Rectangle
+from aspose.imaging.fileformats.dicom import DicomImage
+from aspose.imaging.imageoptions import PngOptions     
+
+dir_: str = "c:\\temp"
+with aspycore.as_of(Image.load(join(dir_, "sample.dicom")), DicomImage) as image:
+	save_options = PngOptions()
+	bounds = Rectangle(0, 0, image.width // 2, image.height // 2)
+	with open(join(dir_, "output.png"), "wb") as output_stream:
+		# Save the upper-left quarter of the image to a file stream.
+		image.save(output_stream, save_options, bounds)
+
+
+```
+
+### The following example crops a DICOM image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_123}
+``` python
+
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, Rectangle
+from aspose.imaging.fileformats.dicom import DicomImage
+from aspose.imaging.imageoptions import PngOptions    
+
+
+dir_: str = "c:\\temp"
+with Image.load(join(dir_, "sample.dicom")) as image:
+	dicom_image = aspycore.as_of(image, DicomImage)
+	# Crop the image. The cropping area is the rectangular central area of the image.
+	area = Rectangle(dicom_image.width // 4, dicom_image.height // 4, dicom_image.width // 2, dicom_image.height // 2)
+	dicom_image.crop(area)
+	# Save the cropped image to PNG
+	dicom_image.save(join(dir_, "sample.Crop.png"), PngOptions())
+
+
+```
+
+### The following example binarizes a DICOM image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_124}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2548,7 +2603,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DICOM image. {#example_123}
+### The following example performs gamma-correction of a DICOM image. {#example_127}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2567,7 +2622,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DICOM image applying different coefficients for color components. {#example_124}
+### The following example performs gamma-correction of a DICOM image applying different coefficients for color components. {#example_128}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2586,7 +2641,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs brightness correction of a DICOM image. {#example_125}
+### The following example performs brightness correction of a DICOM image. {#example_129}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2605,7 +2660,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs contrast correction of a DICOM image. {#example_126}
+### The following example performs contrast correction of a DICOM image. {#example_130}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2624,7 +2679,32 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### Use JPEG 2000 compression in DICOM image. {#example_162}
+### Use JPEG compression in DICOM image. {#example_175}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import JpegOptions, DicomOptions
+from aspose.imaging.fileformats.jpeg import JpegCompressionMode, SampleRoundingMode
+from aspose.imaging.imageoptions import DicomOptions
+from aspose.imaging.fileformats.dicom import Compression, ColorType, CompressionType
+
+with Image.load("original.jpg") as input_image:
+	obj_init = JpegOptions()
+	obj_init.compression_type = JpegCompressionMode.BASELINE
+	obj_init.sample_rounding_mode = SampleRoundingMode.TRUNCATE
+	obj_init.quality = 50
+	obj_init2 = Compression()
+	obj_init2.type = CompressionType.JPEG
+	obj_init2.jpeg = obj_init
+	options = DicomOptions()
+	options.color_type = ColorType.RGB_24_BIT
+	options.compression = obj_init2
+	input_image.save("original_JPEG.dcm", options)
+
+
+```
+
+### Use JPEG 2000 compression in DICOM image. {#example_176}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2646,7 +2726,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Use RLE compression in DICOM image. {#example_163}
+### Use RLE compression in DICOM image. {#example_177}
 ``` python
 
 from aspose.imaging import Image
@@ -2664,7 +2744,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Change the color type in DICOM compression. {#example_164}
+### Change the color type in DICOM compression. {#example_178}
 ``` python
 
 from aspose.imaging import Image

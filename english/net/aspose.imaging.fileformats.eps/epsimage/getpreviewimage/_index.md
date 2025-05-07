@@ -3,7 +3,7 @@ title: EpsImage.GetPreviewImage
 second_title: Aspose.Imaging for .NET API Reference
 description: EpsImage method. Retrieves the existing preview image in the specified format or returns null if none is found. This method offers flexibility in accessing preview images tailored to specific formats optimizing compatibility and resource management within applications
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.imaging.fileformats.eps/epsimage/getpreviewimage/
 ---
 ## EpsImage.GetPreviewImage method

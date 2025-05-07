@@ -3,7 +3,7 @@ title: VectorImage.GetEmbeddedImages
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage method. Gets the embedded images
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/vectorimage/getembeddedimages/
 ---
 ## VectorImage.GetEmbeddedImages method

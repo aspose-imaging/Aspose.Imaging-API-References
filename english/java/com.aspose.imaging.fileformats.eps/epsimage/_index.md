@@ -39,7 +39,6 @@ The API for Encapsulated PostScript (EPS) image file format support offers robus
 | [getPreviewImage()](#getPreviewImage--) | Retrieves the existing preview image in the specified `format` or returns `` if none is found. |
 | [getPreviewImage(long format)](#getPreviewImage-long-) | Retrieves the existing preview image in the specified `format` or returns `` if none is found. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize image palettes to achieve unique color schemes and enhance visual appeal. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve default options effortlessly to streamline image processing tasks. |
 
 ## Example: Convert EPS image to PNG using PostScript rendering.
 
@@ -342,18 +341,3 @@ Customize image palettes to achieve unique color schemes and enhance visual appe
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
 | updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieve default options effortlessly to streamline image processing tasks. Access preconfigured settings to expedite workflow and ensure consistent output quality without manual configuration.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options

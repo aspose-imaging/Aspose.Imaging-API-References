@@ -59,7 +59,7 @@ Gets or sets the default frame duration.
 
 **See also:**
 
-**[Example # 1](#example_144)**: The following example shows how to export apng APNG file format from other no...
+**[Example # 1](#example_162)**: The following example shows how to export apng APNG file format from other no...
 
 
 ### Property: num_plays {#num_plays2}
@@ -68,7 +68,7 @@ Gets or sets the number of times to loop animation.<br/>            0 indicates 
 
 **See also:**
 
-**[Example # 1](#example_143)**: The following example shows how to export to APNG file format.
+**[Example # 1](#example_161)**: The following example shows how to export to APNG file format.
 
 
 ### Method: clone() {#clone__1}
@@ -88,7 +88,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### The following example shows how to export to APNG file format. {#example_143}
+### The following example shows how to export to APNG file format. {#example_161}
 ``` python
 
 import aspose.pycore as aspycore
@@ -107,7 +107,7 @@ with Image.load("Animation1.webp") as image:
 
 ```
 
-### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_144}
+### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_162}
 ``` python
 
 from aspose.imaging import Image

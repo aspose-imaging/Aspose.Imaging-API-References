@@ -1497,7 +1497,7 @@ Sets the image palette.
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### The following example shows how to convert a emz images to emf format {#example_147}
+### The following example shows how to convert a emz images to emf format {#example_158}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF

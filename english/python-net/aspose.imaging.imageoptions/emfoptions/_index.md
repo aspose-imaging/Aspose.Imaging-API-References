@@ -63,7 +63,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### The following example shows how to convert a emz images to emf format {#example_147}
+### The following example shows how to convert a emz images to emf format {#example_158}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF

@@ -7,12 +7,12 @@ weight: 51
 url: /java/com.aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
+java.lang.Object
 ```
-public class VectorRasterizationOptions extends ImageOptionsBase
+public class VectorRasterizationOptions
 ```
 
-The vector rasterization options. Please note that `VectorRasterizationOptions`([ImageOptionsBase.getVectorRasterizationOptions](../../com.aspose.imaging/imageoptionsbase\#getVectorRasterizationOptions)/[ImageOptionsBase.setVectorRasterizationOptions(VectorRasterizationOptions)](../../com.aspose.imaging/imageoptionsbase\#setVectorRasterizationOptions-VectorRasterizationOptions-)) will no longer derive from [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) since Aspose.Imaging 24.12 version.
+The vector rasterization options. Please note that [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) will no longer derive from [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) since Aspose.Imaging 24.12 version.
 ## Constructors
 
 | Constructor | Description |
@@ -48,6 +48,7 @@ The vector rasterization options. Please note that `VectorRasterizationOptions`(
 | [getReplaceTextMapping()](#getReplaceTextMapping--) | Gets the text replace mapping. |
 | [setReplaceTextMapping(HashMap<String,String> value)](#setReplaceTextMapping-java.util.HashMap-java.lang.String-java.lang.String--) | Sets the text replace mapping. |
 | [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | Copies this instance to `vectorRasterizationOptions`. |
+| [deepClone()](#deepClone--) | Makes a shallow clone of object. |
 ### VectorRasterizationOptions() {#VectorRasterizationOptions--}
 ```
 public VectorRasterizationOptions()
@@ -520,3 +521,13 @@ Copies this instance to `vectorRasterizationOptions`.
 | --- | --- | --- |
 | vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |
 
+### deepClone() {#deepClone--}
+```
+public VectorRasterizationOptions deepClone()
+```
+
+
+Makes a shallow clone of object.
+
+**Returns:**
+[VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) - The shallow clone of object.

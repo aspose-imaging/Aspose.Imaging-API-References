@@ -63,7 +63,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### The following example shows how to convert a wmz images to wmf fromat {#example_148}
+### The following example shows how to convert a wmz images to wmf fromat {#example_159}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
