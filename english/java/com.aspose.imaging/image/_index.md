@@ -455,7 +455,7 @@ public static Image load(String filePath)
 ```
 
 
-Loads a new image from the specified file path or URL. If `filePath` is a file path the method just opens the file. If `filePath` is an URL, the method downloads the file, stores it as a temporary one, and opens it.
+Loads a new image from the specified file path or URL. If `filePath` is a file path the method just opens the file. If `filePath` is a URL, the method downloads the file, stores it as a temporary one, and opens it.
 
 **Parameters:**
 | Parameter | Type | Description |

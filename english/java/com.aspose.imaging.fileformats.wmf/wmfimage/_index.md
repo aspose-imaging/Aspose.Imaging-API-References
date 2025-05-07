@@ -34,7 +34,6 @@ Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly hand
 | [cacheData()](#cacheData--) | Efficiently cache the data, eliminating the need for additional loading from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Apply a specified palette to the image, enabling customization of color representation. |
 | [getUsedFonts()](#getUsedFonts--) | Retrieve the list of fonts used within the metafile, providing insight into the font resources utilized in the image. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options associated with the image, providing access to predefined settings or configurations. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | Resize the canvas of the image, adjusting its dimensions while retaining the image content. |
 | [addRecord(WmfObject record)](#addRecord-com.aspose.imaging.fileformats.wmf.objects.WmfObject-) | Incorporate the specified record object into the image, enriching its content with additional data or metadata. |
 | [getPostScript()](#getPostScript--) | Access the PostScript data associated with the image, providing detailed information about its structure or content. |
@@ -309,21 +308,6 @@ Retrieve the list of fonts used within the metafile, providing insight into the 
 
 **Returns:**
 java.lang.String[] - The font list
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieve the default options associated with the image, providing access to predefined settings or configurations. Utilize this method to access default settings for image processing operations, facilitating consistency and convenience within your application's functionality.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### resizeCanvas(Rectangle newRectangle) {#resizeCanvas-com.aspose.imaging.Rectangle-}
 ```
 public void resizeCanvas(Rectangle newRectangle)

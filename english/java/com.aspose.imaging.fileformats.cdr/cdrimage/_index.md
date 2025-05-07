@@ -35,7 +35,6 @@ The API for CorelDRAW CDR vector image format support is an essential toolkit fo
 | [getFileFormat()](#getFileFormat--) | Retrieve the file format of the image effortlessly with this intuitive property. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this user-friendly method. |
 | [cacheData()](#cacheData--) | Effortlessly cache the data to prevent additional loading from the underlying source with this user-friendly method. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Customize the color palette of the image with this intuitive method. |
 
@@ -208,21 +207,6 @@ Value: The image height.
 
 **Returns:**
 int - the image height.
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieve the default options effortlessly with this user-friendly method. Perfect for developers seeking quick access to the default settings or configurations associated with an object, ensuring efficient customization and streamlined workflow.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()

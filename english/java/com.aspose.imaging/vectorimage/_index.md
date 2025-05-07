@@ -35,6 +35,7 @@ The vector image is the base class for all type of vector images.
 | [getHeightF()](#getHeightF--) | Gets the object height, in inches. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default image options. |
 | [getEmbeddedImages()](#getEmbeddedImages--) | Gets the embedded images. |
 | [removeBackground()](#removeBackground--) | Removes the background. |
 | [removeBackground(RemoveBackgroundSettings settings)](#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-) | Removes the background. |
@@ -196,6 +197,21 @@ Gets the image height.
 
 **Returns:**
 int - the image height.
+### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
+```
+public ImageOptionsBase getDefaultOptions(Object[] args)
+```
+
+
+Gets the default image options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | java.lang.Object[] | The arguments. |
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The default image options.
 ### getEmbeddedImages() {#getEmbeddedImages--}
 ```
 public EmbeddedImage[] getEmbeddedImages()

@@ -33,7 +33,6 @@ Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the 
 | [getFileFormat()](#getFileFormat--) | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. |
 | [getXmpData()](#getXmpData--) | Gets XMP data. |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP data. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. |
 | [cacheData()](#cacheData--) | Cache the data and guarantee that there will be no further loading of data from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image to fit the specified dimensions while preserving its aspect ratio. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
@@ -228,21 +227,6 @@ Sets XMP data.
 | --- | --- | --- |
 | value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP data. |
 
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieve the default options configured for the image, providing a baseline setting for various operations such as resizing, compression, or encoding. This method is pivotal in ensuring consistent behavior and quality standards across image processing tasks without the need for explicit parameterization.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()

@@ -25,7 +25,6 @@ Process OpenDocument Template (OTG) drawing image files with our API, leveraging
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | This property provides access to the OTG file format, offering crucial insights into the type of data encapsulated within the image file. |
 | [getPages()](#getPages--) | Retrieves the collection of pages associated with the image, enabling software developers to access and manipulate each individual page efficiently. |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieves the default options configured for the image, providing a convenient way to access and modify the default settings. |
 ### OtgImage(StreamContainer streamContainer, LoadOptions loadOptions) {#OtgImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-}
 ```
 public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -73,18 +72,3 @@ Retrieves the collection of pages associated with the image, enabling software d
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
-```
-public ImageOptionsBase getDefaultOptions(Object[] args)
-```
-
-
-Retrieves the default options configured for the image, providing a convenient way to access and modify the default settings. This property ensures consistency in operations by offering predefined settings that align with common use cases, simplifying the development process.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | java.lang.Object[] | The arguments. |
-
-**Returns:**
-[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
