@@ -3,7 +3,7 @@ title: EpsImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: EpsImage method. Customize image palettes to achieve unique color schemes and enhance visual appeal. Tailor colors for specific effects and optimize image quality across different platforms and devices with ease
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.fileformats.eps/epsimage/setpalette/
 ---
 ## EpsImage.SetPalette method

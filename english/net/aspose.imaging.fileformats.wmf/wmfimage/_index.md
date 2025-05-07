@@ -59,7 +59,7 @@ public class WmfImage : MetaImage
 | override [Crop](../../aspose.imaging/vectorimage/crop/)(Rectangle) | Crops the specified rectangle. |
 | virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
-| override [GetDefaultOptions](../../aspose.imaging.fileformats.wmf/wmfimage/getdefaultoptions/)(object[]) | Retrieve the default options associated with the image, providing access to predefined settings or configurations. Utilize this method to access default settings for image processing operations, facilitating consistency and convenience within your application's functionality. |
+| override [GetDefaultOptions](../../aspose.imaging/vectorimage/getdefaultoptions/)(object[]) | Gets the default image options. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | Gets the embedded images. |
 | [GetMissedFonts](../../aspose.imaging.fileformats.emf/metaimage/getmissedfonts/)() | Returns the list of fonts which used inside metafile but not found. |
 | override [GetOriginalOptions](../../aspose.imaging.fileformats.wmf/wmfimage/getoriginaloptions/)() | Gets the original image options. |

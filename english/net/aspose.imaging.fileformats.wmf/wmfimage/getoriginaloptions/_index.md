@@ -3,7 +3,7 @@ title: WmfImage.GetOriginalOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: WmfImage method. Gets the original image options
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.wmf/wmfimage/getoriginaloptions/
 ---
 ## WmfImage.GetOriginalOptions method

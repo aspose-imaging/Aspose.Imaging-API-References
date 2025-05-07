@@ -3,7 +3,7 @@ title: EmfImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: EmfImage method. Sets the image palette
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.emf/emfimage/setpalette/
 ---
 ## EmfImage.SetPalette method

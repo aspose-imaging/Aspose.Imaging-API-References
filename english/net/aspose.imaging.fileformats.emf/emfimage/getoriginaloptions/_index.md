@@ -3,7 +3,7 @@ title: EmfImage.GetOriginalOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: EmfImage method. Gets the original image options
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.imaging.fileformats.emf/emfimage/getoriginaloptions/
 ---
 ## EmfImage.GetOriginalOptions method

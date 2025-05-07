@@ -3,7 +3,7 @@ title: VectorImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage method. Resizes the specified new width
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging/vectorimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

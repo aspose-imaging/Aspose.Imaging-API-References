@@ -57,7 +57,7 @@ public sealed class EmfImage : MetaImage
 | override [Crop](../../aspose.imaging/vectorimage/crop/)(Rectangle) | Crops the specified rectangle. |
 | virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | Crop image with shifts. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
-| override [GetDefaultOptions](../../aspose.imaging.fileformats.emf/emfimage/getdefaultoptions/)(object[]) | Retrieve the default options for your image effortlessly. With this feature, you can quickly access the preset configurations, ensuring seamless integration and optimal performance for your projects. Ideal for streamlining your workflow and achieving consistent results across your images. |
+| override [GetDefaultOptions](../../aspose.imaging/vectorimage/getdefaultoptions/)(object[]) | Gets the default image options. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | Gets the embedded images. |
 | [GetMissedFonts](../../aspose.imaging.fileformats.emf/metaimage/getmissedfonts/)() | Returns the list of fonts which used inside metafile but not found. |
 | override [GetOriginalOptions](../../aspose.imaging.fileformats.emf/emfimage/getoriginaloptions/)() | Gets the original image options. |

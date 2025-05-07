@@ -3,7 +3,7 @@ title: VectorImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage method. Rotate image around the center
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging/vectorimage/rotate/
 ---
 ## VectorImage.Rotate method

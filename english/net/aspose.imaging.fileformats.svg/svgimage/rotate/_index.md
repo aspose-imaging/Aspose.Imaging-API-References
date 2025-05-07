@@ -3,7 +3,7 @@ title: SvgImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: SvgImage method. Rotate image around the center
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.svg/svgimage/rotate/
 ---
 ## SvgImage.Rotate method
