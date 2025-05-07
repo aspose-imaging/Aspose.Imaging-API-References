@@ -63,7 +63,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### The following example shows how to convert a wmz images to wmf fromat {#example_159}
+### The following example shows how to convert a wmz images to wmf fromat {#example_170}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -80,6 +80,29 @@ with Image.load(input_file) as image:
 	obj_init2 = WmfOptions()
 	obj_init2.vector_rasterization_options = obj_init
 	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a wmf images to wmz format {#example_173}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import WmfRasterizationOptions, WmfOptions
+
+file = "castle.wmf"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".wmz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = WmfRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = WmfOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
+	image.save(out_file, obj_init2)            
 
 
 ```

@@ -69,7 +69,7 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_19) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_20) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_21) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_22) | Retrieve the default options associated with the image, providing access to <br/>            predefined settings or configurations. Utilize this method to access default <br/>            settings for image processing operations, facilitating consistency and convenience <br/>            within your application's functionality. |
+| [get_default_options(args)](#get_default_options_args_22) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__23) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_24) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_25) | Gets the file format. |
@@ -618,7 +618,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Retrieve the default options associated with the image, providing access to <br/>            predefined settings or configurations. Utilize this method to access default <br/>            settings for image processing operations, facilitating consistency and convenience <br/>            within your application's functionality.
+Gets the default image options.
 
 **Parameters:**
 
@@ -630,7 +630,7 @@ Retrieve the default options associated with the image, providing access to <br/
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__23}
@@ -1538,7 +1538,7 @@ Apply a specified palette to the image, enabling customization of color <br/>   
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>                indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>                corresponding palette entries. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_150}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_158}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -1564,7 +1564,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to convert a wmz images to wmf fromat {#example_159}
+### The following example shows how to convert a wmz images to wmf fromat {#example_170}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1581,6 +1581,29 @@ with Image.load(input_file) as image:
 	obj_init2 = WmfOptions()
 	obj_init2.vector_rasterization_options = obj_init
 	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a wmf images to wmz format {#example_173}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import WmfRasterizationOptions, WmfOptions
+
+file = "castle.wmf"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".wmz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = WmfRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = WmfOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
+	image.save(out_file, obj_init2)            
 
 
 ```

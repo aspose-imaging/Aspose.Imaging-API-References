@@ -231,7 +231,7 @@ The [JpegImage](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegimage/) 
 
 **See also:**
 
-**[Example # 1](#example_105)**: The example shows how to load a JpegImage from a file.
+**[Example # 1](#example_106)**: The example shows how to load a JpegImage from a file.
 
 
 ### Constructor: JpegImage(raster_image) {#JpegImage_raster_image_3}
@@ -283,7 +283,7 @@ Create a new instance of the [JpegImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_106)**: The following example shows how to create JPEG image of the specified size.
+**[Example # 1](#example_107)**: The following example shows how to create JPEG image of the specified size.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -2471,7 +2471,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The example shows how to load a JpegImage from a file. {#example_105}
+### The example shows how to load a JpegImage from a file. {#example_106}
 ``` python
 
 from aspose.imaging.fileformats.jpeg import JpegImage
@@ -2485,7 +2485,7 @@ with JpegImage("sample.jpg") as jpegImage:
 
 ```
 
-### The following example shows how to create JPEG image of the specified size. {#example_106}
+### The following example shows how to create JPEG image of the specified size. {#example_107}
 ``` python
 
 from aspose.imaging.fileformats.jpeg import JpegImage
@@ -2499,7 +2499,7 @@ with JpegImage(100, 100) as jpegImage:
 
 ```
 
-### Access camera manufacturer maker notes in Jpeg image. {#example_184}
+### Access camera manufacturer maker notes in Jpeg image. {#example_198}
 ``` python
 
 from aspose.pycore import as_of

@@ -332,7 +332,7 @@ Adjusts the brightness of the image according to the specified<br/>            _
 
 **See also:**
 
-**[Example # 1](#example_103)**: The following example performs brightness correction of a GIF image.
+**[Example # 1](#example_104)**: The following example performs brightness correction of a GIF image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_4}
@@ -353,7 +353,7 @@ Adjusts the contrast of the image, enhancing or reducing the difference in <br/>
 
 **See also:**
 
-**[Example # 1](#example_104)**: The following example performs contrast correction of a GIF image.
+**[Example # 1](#example_105)**: The following example performs contrast correction of a GIF image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_5}
@@ -374,7 +374,7 @@ Enhance image quality by applying gamma correction. This method adjusts the colo
 
 **See also:**
 
-**[Example # 1](#example_101)**: The following example performs gamma-correction of a GIF image.
+**[Example # 1](#example_102)**: The following example performs gamma-correction of a GIF image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_6}
@@ -397,7 +397,7 @@ Gamma-correction of an image applies a nonlinear adjustment to the pixel values,
 
 **See also:**
 
-**[Example # 1](#example_102)**: The following example performs gamma-correction of a GIF image applying diffe...
+**[Example # 1](#example_103)**: The following example performs gamma-correction of a GIF image applying diffe...
 
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_7}
@@ -449,7 +449,7 @@ Binarization of an image with a predefined threshold converts a grayscale or col
 
 **See also:**
 
-**[Example # 1](#example_98)**: The following example binarizes a GIF image with the predefined threshold. Bi...
+**[Example # 1](#example_99)**: The following example binarizes a GIF image with the predefined threshold. Bi...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_10}
@@ -929,7 +929,7 @@ Crop the image using a specified rectangle area. This operation removes the oute
 
 **See also:**
 
-**[Example # 1](#example_97)**: The following example crops a GIF image. The cropping area is be specified vi...
+**[Example # 1](#example_98)**: The following example crops a GIF image. The cropping area is be specified vi...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_32}
@@ -2182,6 +2182,12 @@ Perform rotation, flipping, or both on the active frame exclusively. This operat
 | :- | :- | :- |
 | rotate_flip_type | [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype) | The rotate flip type. |
 
+
+**See also:**
+
+**[Example # 1](#example_97)**: This example loads a GIF image, rotates it by 90 degrees clockwise and option...
+
+
 ### Method: rotate_flip_all(rotate_flip) {#rotate_flip_all_rotate_flip_98}
 
 
@@ -2697,7 +2703,27 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### The following example crops a GIF image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_97}
+### This example loads a GIF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_97}
+``` python
+
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, RotateFlipType
+from aspose.imaging.fileformats.gif import GifImage
+from aspose.imaging.imageoptions import PngOptions
+
+dir_: str = "c:\\temp"
+rotate_flip_types = [RotateFlipType.ROTATE_90_FLIP_NONE, RotateFlipType.ROTATE_90_FLIP_X, RotateFlipType.ROTATE_90_FLIP_XY, RotateFlipType.ROTATE_90_FLIP_Y]
+for rotate_flip_type in rotate_flip_types:
+	# Rotate, flip and save to the output file.
+	with aspycore.as_of(Image.load(join(dir_, "sample.gif")), GifImage) as image:
+		image.rotate_flip(rotate_flip_type)
+		image.save(join(dir_, "sample." + rotate_flip_type + ".png"), PngOptions())
+
+
+```
+
+### The following example crops a GIF image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_98}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, Rectangle
@@ -2718,7 +2744,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### The following example binarizes a GIF image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_98}
+### The following example binarizes a GIF image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_99}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2738,7 +2764,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### The following example performs gamma-correction of a GIF image. {#example_101}
+### The following example performs gamma-correction of a GIF image. {#example_102}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2756,7 +2782,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### The following example performs gamma-correction of a GIF image applying different coefficients for color components. {#example_102}
+### The following example performs gamma-correction of a GIF image applying different coefficients for color components. {#example_103}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2775,7 +2801,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### The following example performs brightness correction of a GIF image. {#example_103}
+### The following example performs brightness correction of a GIF image. {#example_104}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2794,7 +2820,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### The following example performs contrast correction of a GIF image. {#example_104}
+### The following example performs contrast correction of a GIF image. {#example_105}
 ``` python
 
 
@@ -2828,7 +2854,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### Export of part of animation from GIF image based on time interval. {#example_185}
+### Export of part of animation from GIF image based on time interval. {#example_199}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.imageoptions import GifOptions, MultiPageOptions, MultiPageMode, TimeInterval

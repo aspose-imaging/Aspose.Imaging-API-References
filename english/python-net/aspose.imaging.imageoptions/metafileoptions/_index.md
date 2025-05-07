@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/metafileoptions/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| compress | bool | r/w | Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed. |
+| [compress](#compress1) | bool | r/w | Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
@@ -46,6 +46,17 @@ url: /python-net/aspose.imaging.imageoptions/metafileoptions/
 
 Initializes a new instance of the [MetafileOptions](/imaging/python-net/aspose.imaging.imageoptions/metafileoptions/) class.
 
+### Property: compress {#compress1}
+
+Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed.
+
+**See also:**
+
+**[Example # 1](#example_172)**: The following example shows how to convert a emf images to emz format
+
+**[Example # 2](#example_173)**: The following example shows how to convert a wmf images to wmz format
+
+
 ### Method: clone() {#clone__1}
 
 
@@ -61,4 +72,51 @@ Creates a memberwise clone of this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
 
+
+## **Examples**
+### The following example shows how to convert a emf images to emz format {#example_172}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import EmfRasterizationOptions, EmfOptions
+
+file = "input.emf"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".emz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = EmfRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = EmfOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
+	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a wmf images to wmz format {#example_173}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import WmfRasterizationOptions, WmfOptions
+
+file = "castle.wmf"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".wmz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = WmfRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = WmfOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
+	image.save(out_file, obj_init2)            
+
+
+```
 

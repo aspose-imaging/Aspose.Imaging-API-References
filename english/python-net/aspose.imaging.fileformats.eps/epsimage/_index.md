@@ -70,7 +70,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_18) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_19) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_20) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_21) | Retrieve default options effortlessly to streamline image processing tasks. Access <br/>            preconfigured settings to expedite workflow and ensure consistent output quality <br/>            without manual configuration. |
+| [get_default_options(args)](#get_default_options_args_21) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__22) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_23) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_24) | Gets the file format. |
@@ -570,7 +570,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Retrieve default options effortlessly to streamline image processing tasks. Access <br/>            preconfigured settings to expedite workflow and ensure consistent output quality <br/>            without manual configuration.
+Gets the default image options.
 
 **Parameters:**
 
@@ -582,7 +582,7 @@ Retrieve default options effortlessly to streamline image processing tasks. Acce
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__22}
@@ -1051,7 +1051,7 @@ Resizes the specified new width.
 
 **See also:**
 
-**[Example # 1](#example_181)**: Resize EPS image and export it to PNG format.
+**[Example # 1](#example_195)**: Resize EPS image and export it to PNG format.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_44}
@@ -1074,7 +1074,7 @@ Resizes the image with extended options.
 
 **See also:**
 
-**[Example # 1](#example_182)**: Resize EPS image using advanced settings.
+**[Example # 1](#example_196)**: Resize EPS image using advanced settings.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_45}
@@ -1477,7 +1477,7 @@ Customize image palettes to achieve unique color schemes and enhance visual appe
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### Convert EPS image to PNG using PostScript rendering. {#example_169}
+### Convert EPS image to PNG using PostScript rendering. {#example_183}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -1497,7 +1497,7 @@ with aspycore.as_of(Image.load("Sample.eps"), EpsImage) as image:
 
 ```
 
-### Convert EPS image to PDF using PostScript rendering. {#example_170}
+### Convert EPS image to PDF using PostScript rendering. {#example_184}
 ``` python
 
 from aspose.imaging import Image, PdfComplianceVersion
@@ -1513,7 +1513,7 @@ with Image.load("Sample.eps") as image:
 
 ```
 
-### Resize EPS image and export it to PNG format. {#example_181}
+### Resize EPS image and export it to PNG format. {#example_195}
 ``` python
 
 from aspose.imaging import Image, ResizeType
@@ -1530,7 +1530,7 @@ with Image.load("AstrixObelix.eps") as image:
 
 ```
 
-### Resize EPS image using advanced settings. {#example_182}
+### Resize EPS image using advanced settings. {#example_196}
 ``` python
 
 import aspose.pycore as aspycore

@@ -69,7 +69,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | [create_from_stream(stream)](#create_from_stream_stream_19) | Initializes a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) class. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_20) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_21) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_22) | Retrieve the default options configured for the image, providing a baseline <br/>            setting for various operations such as resizing, compression, or encoding. This <br/>            method is pivotal in ensuring consistent behavior and quality standards across <br/>            image processing tasks without the need for explicit parameterization. |
+| [get_default_options(args)](#get_default_options_args_22) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__23) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_24) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_25) | Gets the file format. |
@@ -154,7 +154,7 @@ Creates a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_149)**: This example shows how to load an SVG image from a file stream and rasterize ...
+**[Example # 1](#example_157)**: This example shows how to load an SVG image from a file stream and rasterize ...
 
 
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
@@ -658,7 +658,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Retrieve the default options configured for the image, providing a baseline <br/>            setting for various operations such as resizing, compression, or encoding. This <br/>            method is pivotal in ensuring consistent behavior and quality standards across <br/>            image processing tasks without the need for explicit parameterization.
+Gets the default image options.
 
 **Parameters:**
 
@@ -670,7 +670,7 @@ Retrieve the default options configured for the image, providing a baseline <br/
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__23}
@@ -1515,7 +1515,7 @@ Applies a specified palette to the image, enabling customization of color <br/> 
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_149}
+### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_157}
 ``` python
 import aspose.pycore as aspycore
 from os.path import join
@@ -1535,7 +1535,7 @@ with open(join(dir_, "test.svg"), "rb") as stream:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_160}
+### The following example shows how to convert a svgz images to svg fromat {#example_171}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1552,6 +1552,29 @@ with Image.load(input_file) as image:
 	obj_init2 = SvgOptions()
 	obj_init2.vector_rasterization_options = obj_init
 	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a svg images to svgz format {#example_174}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import SvgRasterizationOptions, SvgOptions
+
+file = "juanmontoya_lingerie.svg"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".svgz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = SvgRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = SvgOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
+	image.save(out_file, obj_init2)            
 
 
 ```

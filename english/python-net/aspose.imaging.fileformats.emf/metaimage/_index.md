@@ -61,7 +61,7 @@ url: /python-net/aspose.imaging.fileformats.emf/metaimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_18) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_19) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_20) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_21) | Gets the default options. |
+| [get_default_options(args)](#get_default_options_args_21) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__22) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_23) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_24) | Gets the file format. |
@@ -562,7 +562,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Gets the default options.
+Gets the default image options.
 
 **Parameters:**
 
@@ -574,7 +574,7 @@ Gets the default options.
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__22}
@@ -1100,6 +1100,12 @@ Resizes the canvas.
 | :- | :- | :- |
 | new_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The new rectangle. |
 
+
+**See also:**
+
+**[Example # 1](#example_166)**: The following example shows how to add a border with the specified margins ar...
+
+
 ### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_48}
 
 
@@ -1464,4 +1470,27 @@ Sets the image palette.
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+
+## **Examples**
+### The following example shows how to add a border with the specified margins around a metafile (WMF and EMF). {#example_166}
+``` python
+import aspose.pycore as aspycore
+from aspose.imaging import Image, Rectangle
+from aspose.imaging.fileformats.emf import MetaImage
+
+border_left: int = 50
+border_top: int = 50
+border_right: int = 50
+border_bottom: int = 50
+dir_: str = "c:\\aspose.imaging\\issues\\net\\3280\\"
+file_names = ["image1.emf", "image2.wmf"]
+for file_name in file_names:
+	input_file_path: str = dir_ + file_name
+	output_file_path: str = dir_ + "AddBorder_" + file_name
+	with aspycore.as_of(Image.load(input_file_path), MetaImage) as image:
+		image.resize_canvas(Rectangle(-border_left, -border_top, image.width + border_left + border_right, image.height + border_top + border_bottom))
+		image.save(output_file_path)
+
+
+```
 

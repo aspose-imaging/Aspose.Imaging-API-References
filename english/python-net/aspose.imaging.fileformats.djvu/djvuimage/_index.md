@@ -211,7 +211,7 @@ Start working with DjVu images by initializing a new instance of the<br/>       
 
 **See also:**
 
-**[Example # 1](#example_131)**: This example shows how to load a DJVU image from a file stream.
+**[Example # 1](#example_137)**: This example shows how to load a DJVU image from a file stream.
 
 
 ### Constructor: DjvuImage(stream, load_options) {#DjvuImage_stream_load_options_2}
@@ -236,7 +236,7 @@ Access the individual pages of your DjVu image collection with this property.<br
 
 **See also:**
 
-**[Example # 1](#example_131)**: This example shows how to load a DJVU image from a file stream.
+**[Example # 1](#example_137)**: This example shows how to load a DJVU image from a file stream.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -257,7 +257,7 @@ Adjust the _brightness_ of an image using a specified parameter, <br/>          
 
 **See also:**
 
-**[Example # 1](#example_139)**: The following example performs brightness correction of a DJVU image.
+**[Example # 1](#example_147)**: The following example performs brightness correction of a DJVU image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_2}
@@ -278,7 +278,7 @@ Enhance [Image](/imaging/python-net/aspose.imaging/image/) contrast to improve v
 
 **See also:**
 
-**[Example # 1](#example_140)**: The following example performs contrast correction of a DJVU image.
+**[Example # 1](#example_148)**: The following example performs contrast correction of a DJVU image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_3}
@@ -299,7 +299,7 @@ Gamma correction, specifically for the red, green, and blue channels, involves a
 
 **See also:**
 
-**[Example # 1](#example_137)**: The following example performs gamma-correction of a DJVU image.
+**[Example # 1](#example_145)**: The following example performs gamma-correction of a DJVU image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_4}
@@ -322,7 +322,7 @@ Gamma correction is applied to an image with customizable parameters for the red
 
 **See also:**
 
-**[Example # 1](#example_138)**: The following example performs gamma-correction of a DJVU image applying diff...
+**[Example # 1](#example_146)**: The following example performs gamma-correction of a DJVU image applying diff...
 
 
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_5}
@@ -356,6 +356,12 @@ Binarization using Bradley's adaptive thresholding algorithm with integral image
 | brightness_difference | double | The brightness difference between pixel and the average of an s x s window of pixels<br/>            centered around this pixel. |
 | window_size | int | The size of s x s window of pixels centered around this pixel |
 
+
+**See also:**
+
+**[Example # 1](#example_143)**: The following example binarizes a DJVU image with Bradley's adaptive threshol...
+
+
 ### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_7}
 
 
@@ -374,7 +380,7 @@ Binarization with a predefined threshold simplifies complex images into binary<b
 
 **See also:**
 
-**[Example # 1](#example_134)**: The following example binarizes a DJVU image with the predefined threshold. B...
+**[Example # 1](#example_141)**: The following example binarizes a DJVU image with the predefined threshold. B...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_8}
@@ -854,7 +860,7 @@ Crop with shifts allows you to precisely adjust the position and dimensions of t
 
 **See also:**
 
-**[Example # 1](#example_133)**: The following example crops a DJVU image. The cropping area is be specified v...
+**[Example # 1](#example_140)**: The following example crops a DJVU image. The cropping area is be specified v...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_30}
@@ -2087,6 +2093,12 @@ The `RotateFlip` method offers versatile manipulation options for your image, al
 | :- | :- | :- |
 | rotate_flip_type | [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype) | The rotate flip type. |
 
+
+**See also:**
+
+**[Example # 1](#example_138)**: This example loads a DJVU image, rotates it by 90 degrees clockwise and optio...
+
+
 ### Method: rotate_flip_all(rotate_flip) {#rotate_flip_all_rotate_flip_94}
 
 
@@ -2476,7 +2488,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a DJVU image from a file stream. {#example_131}
+### This example shows how to load a DJVU image from a file stream. {#example_137}
 ``` python
 from os.path import join
 from aspose.imaging.fileformats.djvu import DjvuImage
@@ -2495,7 +2507,27 @@ with open(join(dir_, "sample.djvu"), "rb") as stream:
 
 ```
 
-### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_133}
+### This example loads a DJVU image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_138}
+``` python
+
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, RotateFlipType
+from aspose.imaging.fileformats.djvu import DjvuImage
+from aspose.imaging.imageoptions import PngOptions
+
+dir_: str = "c:\\temp"
+rotate_flip_types = [RotateFlipType.ROTATE_90_FLIP_NONE, RotateFlipType.ROTATE_90_FLIP_X, RotateFlipType.ROTATE_90_FLIP_XY, RotateFlipType.ROTATE_90_FLIP_Y]
+for rotate_flip_type in rotate_flip_types:
+	# Rotate, flip and save to the output file.
+	with aspycore.as_of(Image.load(join(dir_, "sample.djvu")), DjvuImage) as image:
+		image.rotate_flip(rotate_flip_type)
+		image.save(join(dir_, "sample." + rotate_flip_type + ".png"), PngOptions())
+
+
+```
+
+### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_140}
 ``` python
 
 from aspose.pycore import as_of
@@ -2514,7 +2546,7 @@ with Image.load("sample.djvu") as image:
 
 ```
 
-### The following example binarizes a DJVU image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_134}
+### The following example binarizes a DJVU image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_141}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2534,7 +2566,25 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DJVU image. {#example_137}
+### The following example binarizes a DJVU image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_143}
+``` python
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.fileformats.djvu import DjvuImage
+from aspose.imaging.imageoptions import PngOptions
+
+dir_ = "c:\\temp"
+with Image.load(join(dir_, "sample.djvu")) as image:
+	djvu_image = aspycore.as_of(image, DjvuImage)
+	# Binarize the image with a brightness difference of 5. The brightness is a difference between a pixel and the average of an 10 x 10 window of pixels centered around this pixel.
+	djvu_image.binarize_bradley(5, 10)
+	djvu_image.save(join(dir_, "sample.BinarizeBradley5_10x10.png"), PngOptions())
+
+
+```
+
+### The following example performs gamma-correction of a DJVU image. {#example_145}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2552,7 +2602,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DJVU image applying different coefficients for color components. {#example_138}
+### The following example performs gamma-correction of a DJVU image applying different coefficients for color components. {#example_146}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2571,7 +2621,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs brightness correction of a DJVU image. {#example_139}
+### The following example performs brightness correction of a DJVU image. {#example_147}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2590,7 +2640,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs contrast correction of a DJVU image. {#example_140}
+### The following example performs contrast correction of a DJVU image. {#example_148}
 ``` python
 
 import aspose.pycore as aspycore

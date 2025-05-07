@@ -214,7 +214,7 @@ Constructs a new instance of the [PngImage](/imaging/python-net/aspose.imaging.f
 
 **See also:**
 
-**[Example # 1](#example_107)**: This example shows how to load a PNG image from a file.
+**[Example # 1](#example_108)**: This example shows how to load a PNG image from a file.
 
 
 ### Constructor: PngImage(path, color_type) {#PngImage_path_color_type_2}
@@ -236,7 +236,7 @@ Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.
 
 **See also:**
 
-**[Example # 1](#example_108)**: This example shows how to load a PNG image from a file with the specified col...
+**[Example # 1](#example_109)**: This example shows how to load a PNG image from a file with the specified col...
 
 
 ### Constructor: PngImage(png_options, width, height) {#PngImage_png_options_width_height_3}
@@ -305,7 +305,7 @@ Creates a new instance of the [PngImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_109)**: This example shows how to load a PNG image from a file or a file stream.
+**[Example # 1](#example_110)**: This example shows how to load a PNG image from a file or a file stream.
 
 
 ### Constructor: PngImage(width, height) {#PngImage_width_height_7}
@@ -327,7 +327,7 @@ Initialize a new object of the [PngImage](/imaging/python-net/aspose.imaging.fil
 
 **See also:**
 
-**[Example # 1](#example_110)**: This example shows how to create a PNG image of the specified size, fill it w...
+**[Example # 1](#example_111)**: This example shows how to create a PNG image of the specified size, fill it w...
 
 
 ### Constructor: PngImage(width, height, color_type) {#PngImage_width_height_color_type_8}
@@ -2649,7 +2649,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a PNG image from a file. {#example_107}
+### This example shows how to load a PNG image from a file. {#example_108}
 ``` python
 
 from aspose.pycore import as_of
@@ -2666,7 +2666,7 @@ with as_of(Image.load("sample.png"), PngImage) as pngImage:
 
 ```
 
-### This example shows how to load a PNG image from a file with the specified color type. {#example_108}
+### This example shows how to load a PNG image from a file with the specified color type. {#example_109}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2683,7 +2683,7 @@ with PngImage(join(dir_, "sample.png"), PngColorType.GRAYSCALE) as png_image:
 
 ```
 
-### This example shows how to load a PNG image from a file or a file stream. {#example_109}
+### This example shows how to load a PNG image from a file or a file stream. {#example_110}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2703,7 +2703,7 @@ with open(join(dir_, "sample.png"), "rb") as stream:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_110}
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_111}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2726,7 +2726,7 @@ with PngImage(100, 100) as png_image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_189}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_203}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2751,7 +2751,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_190}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_204}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

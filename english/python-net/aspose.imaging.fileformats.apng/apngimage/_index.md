@@ -2540,7 +2540,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example shows how to export to APNG file format. {#example_161}
+### The following example shows how to export to APNG file format. {#example_175}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2559,7 +2559,7 @@ with Image.load("Animation1.webp") as image:
 
 ```
 
-### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_162}
+### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_176}
 ``` python
 
 from aspose.imaging import Image

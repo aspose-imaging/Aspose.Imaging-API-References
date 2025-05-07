@@ -2318,7 +2318,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_148}
+### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_156}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
