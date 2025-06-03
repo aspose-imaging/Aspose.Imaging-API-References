@@ -41,6 +41,7 @@ The package contains classes suitable for export, save or creation of different 
 | [OtgRasterizationOptions](../com.aspose.imaging.imageoptions/otgrasterizationoptions) | The Otg rasterization options |
 | [PdfImageCompressionOptions](../com.aspose.imaging.imageoptions/pdfimagecompressionoptions) | Pdf image compression options |
 | [PdfOptions](../com.aspose.imaging.imageoptions/pdfoptions) | The PDF options. |
+| [PngCompressionLevel](../com.aspose.imaging.imageoptions/pngcompressionlevel) | The png compression level enum. |
 | [PngOptions](../com.aspose.imaging.imageoptions/pngoptions) | Create high-quality Portable Network Graphics (PNG) raster images effortlessly with our API, offering customizable options for compression levels, bits per pixel depths, and alpha bits. |
 | [PositioningTypes](../com.aspose.imaging.imageoptions/positioningtypes) | Positioning and size types for graphics scene. |
 | [PsdOptions](../com.aspose.imaging.imageoptions/psdoptions) | Create Photoshop Document (PSD) images with our API, offering versatile options with different format versions, compression methods, color modes, and bits counts per color channel. |

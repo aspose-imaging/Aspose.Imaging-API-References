@@ -39,6 +39,37 @@ Manipulate Microsoft Windows Metafile (WMF) images with our API, seamlessly hand
 | [getPostScript()](#getPostScript--) | Access the PostScript data associated with the image, providing detailed information about its structure or content. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options. |
 
+## Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.
+
+``` java
+String dir = "c:\\temp\\";
+
+// Using Aspose.Imaging.Image.Load is a unified way to load all types of images including WMF.
+try (com.aspose.imaging.fileformats.wmf.WmfImage wmfImage = (com.aspose.imaging.fileformats.wmf.WmfImage)com.aspose.imaging.Image.load(dir + "test.wmf"))
+{
+    com.aspose.imaging.imageoptions.SvgOptions saveOptions = new com.aspose.imaging.imageoptions.SvgOptions();
+                    
+    // Text will be converted to shapes.
+    saveOptions.setTextAsShapes(true);
+
+    com.aspose.imaging.imageoptions.WmfRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.WmfRasterizationOptions();
+
+    // The background color of the drawing surface.
+    rasterizationOptions.setBackgroundColor(com.aspose.imaging.Color.getWhiteSmoke());
+
+    // The page size.
+    rasterizationOptions.setPageSize(Size.to_SizeF(wmfImage.getSize()));
+
+    // If embedded emf exists, then render emf; otherwise render wmf.
+    rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.wmf.WmfRenderMode.Auto);
+
+    saveOptions.setVectorRasterizationOptions(rasterizationOptions);
+
+    wmfImage.save(dir + "test.output.svg", saveOptions);
+}
+```
+
+
 ## Example: The following example shows how to convert a compressed images (*.
 The following example shows how to convert a compressed images (*.emz,*.wmz, *.svgz) to raster format
 ``` java

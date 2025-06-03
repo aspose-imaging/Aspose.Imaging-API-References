@@ -8,11 +8,8 @@ url: /java/com.aspose.imaging/rawdatasettings/
 ---
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-java.lang.Cloneable
 ```
-public class RawDataSettings implements Cloneable
+public class RawDataSettings
 ```
 
 The raw data settings
@@ -20,7 +17,8 @@ The raw data settings
 
 | Constructor | Description |
 | --- | --- |
-| [RawDataSettings()](#RawDataSettings--) |  |
+| [RawDataSettings()](#RawDataSettings--) | Initialized an empty instance. |
+| [RawDataSettings(RawDataSettings origin)](#RawDataSettings-com.aspose.imaging.RawDataSettings-) | Initialize a copy of `origin`. |
 ## Methods
 
 | Method | Description |
@@ -39,12 +37,27 @@ The raw data settings
 | [setFallbackIndex(int value)](#setFallbackIndex-int-) | Sets the fallback index to use when palette index is out of bounds |
 | [getLineSize()](#getLineSize--) | Gets the pixels line size in bytes for raw data processing |
 | [setLineSize(int value)](#setLineSize-int-) | Sets the pixels line size in bytes for raw data processing |
-| [clone()](#clone--) | Creates a shallow clone. |
+| [<T>copy()](#-T-copy--) | Creates a shallow copy. |
 ### RawDataSettings() {#RawDataSettings--}
 ```
 public RawDataSettings()
 ```
 
+
+Initialized an empty instance.
+
+### RawDataSettings(RawDataSettings origin) {#RawDataSettings-com.aspose.imaging.RawDataSettings-}
+```
+public RawDataSettings(RawDataSettings origin)
+```
+
+
+Initialize a copy of `origin`. Used in [copy()](../../com.aspose.imaging/rawdatasettings\#copy--).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | The instance to make a copy of. |
 
 ### getPixelDataFormat() {#getPixelDataFormat--}
 ```
@@ -207,13 +220,13 @@ Sets the pixels line size in bytes for raw data processing
 | --- | --- | --- |
 | value | int | The pixels line size in bytes for raw data processing |
 
-### clone() {#clone--}
+### <T>copy() {#-T-copy--}
 ```
-public RawDataSettings clone()
+public T <T>copy()
 ```
 
 
-Creates a shallow clone.
+Creates a shallow copy.
 
 **Returns:**
-[RawDataSettings](../../com.aspose.imaging/rawdatasettings) - A shallow clone.
+T - A shallow copy.

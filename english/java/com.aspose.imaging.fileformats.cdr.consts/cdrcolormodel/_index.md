@@ -33,8 +33,8 @@ The cdr color models
 | [LabX12](#LabX12) | The colorscheme lab |
 | [LabX0C](#LabX0C) | The colorscheme lab |
 | [Rgb255](#Rgb255) | The RGB255 |
-| [paletteX19](#paletteX19) | The palette |
-| [paletteX1E](#paletteX1E) | The palette |
+| [PaletteX19](#PaletteX19) | The palette |
+| [PaletteX1E](#PaletteX1E) | The palette |
 | [Model0x0e](#Model0x0e) | The model0e |
 ### Cmyk100X01 {#Cmyk100X01}
 ```
@@ -164,17 +164,17 @@ public static final int Rgb255
 
 The RGB255
 
-### paletteX19 {#paletteX19}
+### PaletteX19 {#PaletteX19}
 ```
-public static final int paletteX19
+public static final int PaletteX19
 ```
 
 
 The palette
 
-### paletteX1E {#paletteX1E}
+### PaletteX1E {#PaletteX1E}
 ```
-public static final int paletteX1E
+public static final int PaletteX1E
 ```
 
 

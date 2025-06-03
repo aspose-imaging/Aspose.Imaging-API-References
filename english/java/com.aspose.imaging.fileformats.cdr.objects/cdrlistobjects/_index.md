@@ -30,8 +30,8 @@ The cdr list objects
 | [setFillId(int value)](#setFillId-int-) | Sets the fill identifier. |
 | [getOpacityFillId()](#getOpacityFillId--) | Gets the opacity fill identifier. |
 | [setOpacityFillId(int value)](#setOpacityFillId-int-) | Sets the opacity fill identifier. |
-| [getOutLineId()](#getOutLineId--) | Gets the out line identifier. |
-| [setOutLineId(int value)](#setOutLineId-int-) | Sets the out line identifier. |
+| [getOutLineId()](#getOutLineId--) | Gets the outline identifier. |
+| [setOutLineId(int value)](#setOutLineId-int-) | Sets the outline identifier. |
 | [getStyleId()](#getStyleId--) | Gets the style identifier. |
 | [setStyleId(int value)](#setStyleId-int-) | Sets the style identifier. |
 | [getOpacity()](#getOpacity--) | Gets the opacity. |
@@ -146,22 +146,22 @@ public final int getOutLineId()
 ```
 
 
-Gets the out line identifier.
+Gets the outline identifier.
 
 **Returns:**
-int - the out line identifier.
+int - the outline identifier.
 ### setOutLineId(int value) {#setOutLineId-int-}
 ```
 public final void setOutLineId(int value)
 ```
 
 
-Sets the out line identifier.
+Sets the outline identifier.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the out line identifier. |
+| value | int | the outline identifier. |
 
 ### getStyleId() {#getStyleId--}
 ```

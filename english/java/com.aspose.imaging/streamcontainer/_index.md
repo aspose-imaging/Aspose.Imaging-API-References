@@ -45,7 +45,7 @@ Represents stream container which contains the stream and provides stream proces
 | [canSeek()](#canSeek--) | Gets a value indicating whether stream supports seeking. |
 | [canWrite()](#canWrite--) | Gets a value indicating whether stream supports writing. |
 | [flush()](#flush--) | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
-| [write(byte[] bytes)](#write-byte---) | Writes all of the specified bytes to the stream. |
+| [write(byte[] bytes)](#write-byte---) | Writes all specified bytes to the stream. |
 | [writeByte(byte value)](#writeByte-byte-) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
 | [read(byte[] bytes)](#read-byte---) | Reads bytes to fill the specified bytes buffer. |
 | [toBytes()](#toBytes--) | Converts the stream data to the `byte` array. |
@@ -280,7 +280,7 @@ public void write(byte[] bytes)
 ```
 
 
-Writes all of the specified bytes to the stream.
+Writes all specified bytes to the stream.
 
 **Parameters:**
 | Parameter | Type | Description |

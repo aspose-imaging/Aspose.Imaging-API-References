@@ -3,7 +3,7 @@ title: PositioningTypes
 second_title: Aspose.Imaging for Java API Reference
 description: Positioning and size types for graphics scene.
 type: docs
-weight: 38
+weight: 39
 url: /java/com.aspose.imaging.imageoptions/positioningtypes/
 ---
 **Inheritance:**

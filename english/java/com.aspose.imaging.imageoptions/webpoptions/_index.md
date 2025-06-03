@@ -3,7 +3,7 @@ title: WebPOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Create modern WebP raster web images using our API featuring robust support for lossless and lossy compression as well as alpha channels and animation loops.
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.imaging.imageoptions/webpoptions/
 ---
 **Inheritance:**

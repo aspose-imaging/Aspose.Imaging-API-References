@@ -3,7 +3,7 @@ title: SvgOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Create Scalar Vector Graphics SVG image files with our API utilizing versatile options for color types and compression levels.
 type: docs
-weight: 44
+weight: 45
 url: /java/com.aspose.imaging.imageoptions/svgoptions/
 ---
 **Inheritance:**
@@ -158,6 +158,37 @@ Value: `true` if all text is turned into SVG shapes in the conversion; otherwise
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether text must be rendered as shapes. |
+
+
+**Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**
+
+``` java
+String dir = "c:\\temp\\";
+
+// Using Aspose.Imaging.Image.Load is a unified way to load all types of images including WMF.
+try (com.aspose.imaging.fileformats.wmf.WmfImage wmfImage = (com.aspose.imaging.fileformats.wmf.WmfImage)com.aspose.imaging.Image.load(dir + "test.wmf"))
+{
+    com.aspose.imaging.imageoptions.SvgOptions saveOptions = new com.aspose.imaging.imageoptions.SvgOptions();
+                    
+    // Text will be converted to shapes.
+    saveOptions.setTextAsShapes(true);
+
+    com.aspose.imaging.imageoptions.WmfRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.WmfRasterizationOptions();
+
+    // The background color of the drawing surface.
+    rasterizationOptions.setBackgroundColor(com.aspose.imaging.Color.getWhiteSmoke());
+
+    // The page size.
+    rasterizationOptions.setPageSize(Size.to_SizeF(wmfImage.getSize()));
+
+    // If embedded emf exists, then render emf; otherwise render wmf.
+    rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.wmf.WmfRenderMode.Auto);
+
+    saveOptions.setVectorRasterizationOptions(rasterizationOptions);
+
+    wmfImage.save(dir + "test.output.svg", saveOptions);
+}
+```
 
 
 **Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**

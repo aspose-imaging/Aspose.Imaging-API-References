@@ -3,7 +3,7 @@ title: BeforePageExportAction
 second_title: Aspose.Imaging for Java API Reference
 description: Before page export action
 type: docs
-weight: 56
+weight: 57
 url: /java/com.aspose.imaging.imageoptions/beforepageexportaction/
 ---```
 public interface BeforePageExportAction

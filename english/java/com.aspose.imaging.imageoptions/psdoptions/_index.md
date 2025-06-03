@@ -3,7 +3,7 @@ title: PsdOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Create Photoshop Document PSD images with our API offering versatile options with different format versions compression methods color modes and bits counts per color channel.
 type: docs
-weight: 39
+weight: 40
 url: /java/com.aspose.imaging.imageoptions/psdoptions/
 ---
 **Inheritance:**
