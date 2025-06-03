@@ -70,7 +70,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument/odgimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_18) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_19) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_20) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_21) | This property provides access to the default options associated with an image. <br/>            By retrieving these options, developers can quickly ascertain the default <br/>            settings applied to the image, facilitating the creation of new instances or the <br/>            modification of existing ones based on these presets. |
+| [get_default_options(args)](#get_default_options_args_21) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__22) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_23) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_24) | Gets the file format. |
@@ -599,7 +599,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-This property provides access to the default options associated with an image. <br/>            By retrieving these options, developers can quickly ascertain the default <br/>            settings applied to the image, facilitating the creation of new instances or the <br/>            modification of existing ones based on these presets.
+Gets the default image options.
 
 **Parameters:**
 
@@ -611,7 +611,7 @@ This property provides access to the default options associated with an image. <
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__22}
@@ -1246,6 +1246,12 @@ Rotates, flips, or rotates and flips the image.
 | :- | :- | :- |
 | rotate_flip_type | [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype) | Type of the rotate flip. |
 
+
+**See also:**
+
+**[Example # 1](#example_160)**: This example loads a ODG image, rotates it by 90 degrees clockwise and option...
+
+
 ### Method: save(file_path) {#save_file_path_55}
 
 
@@ -1454,4 +1460,46 @@ Sets the image palette.
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>                indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>                corresponding palette entries. |
+
+## **Examples**
+### This example loads a ODG image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_160}
+``` python
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, RotateFlipType
+from aspose.imaging.fileformats.opendocument import OdImage
+from aspose.imaging.imageoptions import PngOptions
+
+dir_: str = "c:\\temp"
+rotate_flip_types = [RotateFlipType.ROTATE_90_FLIP_NONE, RotateFlipType.ROTATE_90_FLIP_X, RotateFlipType.ROTATE_90_FLIP_XY, RotateFlipType.ROTATE_90_FLIP_Y]
+for rotate_flip_type in rotate_flip_types:
+	# Rotate, flip and save to the output file.
+	with aspycore.as_of(Image.load(join(dir_, "sample.odg")), OdImage) as image:
+		image.rotate_flip(rotate_flip_type)
+		image.save(join(dir_, "sample." + rotate_flip_type + ".png"), PngOptions())
+
+
+```
+
+### The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format. {#example_168}
+``` python
+from os.path import join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, Color, SizeF
+from aspose.imaging.fileformats.tiff import TiffImage
+from aspose.imaging.imageoptions import OdgRasterizationOptions, PdfOptions
+
+dir_: str = "c:\\aspose.imaging\\issues\\net\\3635"
+input_file_name: str = join(dir_, "VariousObjectsMultiPage.fodg")
+output_file_name: str = input_file_name + ".pdf"
+with Image.load(input_file_name) as image:
+	rasterization_options = OdgRasterizationOptions()
+	rasterization_options.background_color = Color.white
+	rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	save_options = PdfOptions()
+	save_options.vector_rasterization_options = rasterization_options
+	image.save(output_file_name, save_options)
+
+
+```
 

@@ -67,7 +67,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_18) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_19) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_20) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_21) | Retrieve the default options for your image effortlessly. With this feature, you <br/>            can quickly access the preset configurations, ensuring seamless integration and <br/>            optimal performance for your projects. Ideal for streamlining your workflow and <br/>            achieving consistent results across your images. |
+| [get_default_options(args)](#get_default_options_args_21) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__22) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_23) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_24) | Gets the file format. |
@@ -593,7 +593,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Retrieve the default options for your image effortlessly. With this feature, you <br/>            can quickly access the preset configurations, ensuring seamless integration and <br/>            optimal performance for your projects. Ideal for streamlining your workflow and <br/>            achieving consistent results across your images.
+Gets the default image options.
 
 **Parameters:**
 
@@ -605,7 +605,7 @@ Retrieve the default options for your image effortlessly. With this feature, you
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__22}
@@ -1497,7 +1497,7 @@ Sets the image palette.
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
 ## **Examples**
-### The following example shows how to convert a emz images to emf format {#example_158}
+### The following example shows how to convert a emz images to emf format {#example_169}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1513,6 +1513,29 @@ with Image.load(input_file) as image:
 	obj_init.page_size = aspycore.cast(SizeF, image.size)
 	obj_init2 = EmfOptions()
 	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a emf images to emz format {#example_172}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import EmfRasterizationOptions, EmfOptions
+
+file = "input.emf"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".emz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = EmfRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = EmfOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
 	image.save(out_file, obj_init2)
 
 

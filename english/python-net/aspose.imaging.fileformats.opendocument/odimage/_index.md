@@ -65,7 +65,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument/odimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_18) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_19) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_20) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_21) | Gets the default options. |
+| [get_default_options(args)](#get_default_options_args_21) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__22) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_23) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_24) | Gets the file format. |
@@ -563,7 +563,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Gets the default options.
+Gets the default image options.
 
 **Parameters:**
 
@@ -575,7 +575,7 @@ Gets the default options.
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__22}

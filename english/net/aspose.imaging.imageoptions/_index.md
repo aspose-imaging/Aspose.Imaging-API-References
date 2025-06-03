@@ -58,6 +58,7 @@ The namespace contains classes suitable for export, save or creation of differen
 | --- | --- |
 | [MultiPageMode](./multipagemode/) | Represents multipage mode |
 | [PdfImageCompressionOptions](./pdfimagecompressionoptions/) | Pdf image compression options |
+| [PngCompressionLevel](./pngcompressionlevel/) | The png compression level enum. |
 | [PositioningTypes](./positioningtypes/) | Positioning and size types for graphics scene. |
 | [RenderErrorCode](./rendererrorcode/) | Represents possible missing sections in CAD file |
 | [TiffOptionsError](./tiffoptionserror/) | The tiff options error codes. |

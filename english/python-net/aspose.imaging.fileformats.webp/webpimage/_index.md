@@ -219,7 +219,7 @@ Instantiate a fresh instance of the [WebPImage](/imaging/python-net/aspose.imagi
 
 **See also:**
 
-**[Example # 1](#example_145)**: This example shows how to load a WebP image from a file and save it to PNG.
+**[Example # 1](#example_153)**: This example shows how to load a WebP image from a file and save it to PNG.
 
 
 ### Constructor: WebPImage(path, load_options) {#WebPImage_path_load_options_2}
@@ -256,7 +256,7 @@ Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging
 
 **See also:**
 
-**[Example # 1](#example_147)**: This example shows how to create a WebP image from another raster image.
+**[Example # 1](#example_155)**: This example shows how to create a WebP image from another raster image.
 
 
 ### Constructor: WebPImage(raster_image, load_options) {#WebPImage_raster_image_load_options_4}
@@ -293,7 +293,7 @@ Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging
 
 **See also:**
 
-**[Example # 1](#example_146)**: This example shows how to load a WebP image from a file stream and save it to...
+**[Example # 1](#example_154)**: This example shows how to load a WebP image from a file stream and save it to...
 
 
 ### Constructor: WebPImage(stream, load_options) {#WebPImage_stream_load_options_6}
@@ -2677,7 +2677,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a WebP image from a file and save it to PNG. {#example_145}
+### This example shows how to load a WebP image from a file and save it to PNG. {#example_153}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2695,7 +2695,7 @@ with WebPImage(join(dir_, "test.webp")) as web_pimage:
 
 ```
 
-### This example shows how to load a WebP image from a file stream and save it to PNG. {#example_146}
+### This example shows how to load a WebP image from a file stream and save it to PNG. {#example_154}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2714,7 +2714,7 @@ with open(join(dir_, "test.webp"), "w+b") as stream:
 
 ```
 
-### This example shows how to create a WebP image from another raster image. {#example_147}
+### This example shows how to create a WebP image from another raster image. {#example_155}
 ``` python
 from os.path import join
 from aspose.imaging import Graphics, Color

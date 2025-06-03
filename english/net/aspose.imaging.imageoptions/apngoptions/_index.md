@@ -27,7 +27,6 @@ public class ApngOptions : PngOptions
 | [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth/) { get; set; } | Gets or sets the bit depth values in range of 1, 2, 4, 8, 16. |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
-| [CompressionLevel](../../aspose.imaging.imageoptions/pngoptions/compressionlevel/) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) compression level in the range of 0-9. The higher the value - the more efficient the compression. |
 | [DefaultFrameTime](../../aspose.imaging.imageoptions/apngoptions/defaultframetime/) { get; set; } | Gets or sets the default frame duration. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
@@ -36,6 +35,7 @@ public class ApngOptions : PngOptions
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | [NumPlays](../../aspose.imaging.imageoptions/apngoptions/numplays/) { get; set; } | Gets or sets the number of times to loop animation. 0 indicates infinite looping. |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| [PngCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/pngcompressionlevel/) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) compression level. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
 | [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |

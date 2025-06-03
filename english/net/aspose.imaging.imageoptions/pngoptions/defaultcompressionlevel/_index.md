@@ -11,11 +11,12 @@ url: /net/aspose.imaging.imageoptions/pngoptions/defaultcompressionlevel/
 The default compression level.
 
 ```csharp
-public const int DefaultCompressionLevel;
+public const PngCompressionLevel DefaultCompressionLevel;
 ```
 
 ### See Also
 
+* enum [PngCompressionLevel](../../pngcompressionlevel/)
 * class [PngOptions](../)
 * namespace [Aspose.Imaging.ImageOptions](../../pngoptions/)
 * assembly [Aspose.Imaging](../../../)

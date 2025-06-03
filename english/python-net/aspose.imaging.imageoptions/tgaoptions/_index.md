@@ -49,7 +49,7 @@ Initializes a new instance of the [TgaOptions](/imaging/python-net/aspose.imagin
 
 **See also:**
 
-**[Example # 1](#example_179)**: Saving of the JPG image as a TGA image.
+**[Example # 1](#example_193)**: Saving of the JPG image as a TGA image.
 
 
 ### Constructor: TgaOptions(tga_options) {#TgaOptions_tga_options_2}
@@ -84,7 +84,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_179}
+### Saving of the JPG image as a TGA image. {#example_193}
 ``` python
 
 from aspose.imaging import Image

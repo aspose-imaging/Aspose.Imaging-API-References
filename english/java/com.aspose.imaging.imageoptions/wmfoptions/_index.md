@@ -3,7 +3,7 @@ title: WmfOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The wmf options.
 type: docs
-weight: 53
+weight: 54
 url: /java/com.aspose.imaging.imageoptions/wmfoptions/
 ---
 **Inheritance:**

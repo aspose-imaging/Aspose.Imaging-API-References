@@ -25,8 +25,8 @@ The Cdr image page
 | [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getCdrDocument()](#getCdrDocument--) | Gets the CDR document. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer`. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 ### getParentImage() {#getParentImage--}
@@ -83,6 +83,18 @@ Gets a value of file format
 
 **Returns:**
 long - a value of file format
+### getCdrDocument() {#getCdrDocument--}
+```
+public final CdrDocument getCdrDocument()
+```
+
+
+Gets the CDR document.
+
+Value: The CDR document.
+
+**Returns:**
+[CdrDocument](../../com.aspose.imaging.fileformats.cdr.objects/cdrdocument) - the CDR document.
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)
@@ -98,16 +110,6 @@ Gets the default options.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
-### getCdrDocument() {#getCdrDocument--}
-```
-public final CdrDocument getCdrDocument()
-```
-
-
-Gets the CDR document.
-
-**Returns:**
-[CdrDocument](../../com.aspose.imaging.fileformats.cdr.objects/cdrdocument) - the CDR document.
 ### cacheData() {#cacheData--}
 ```
 public synchronized void cacheData()

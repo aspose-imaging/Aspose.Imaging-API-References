@@ -3,7 +3,7 @@ title: PngOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Create high-quality Portable Network Graphics PNG raster images effortlessly with our API offering customizable options for compression levels bits per pixel depths and alpha bits.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.imaging.imageoptions/pngoptions/
 ---
 **Inheritance:**
@@ -34,8 +34,10 @@ Create high-quality Portable Network Graphics (PNG) raster images effortlessly w
 | [setProgressive(boolean value)](#setProgressive-boolean-) | Sets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. |
 | [getFilterType()](#getFilterType--) | Gets the filter type used during png file save process. |
 | [setFilterType(int value)](#setFilterType-int-) | Sets the filter type used during png file save process. |
-| [getCompressionLevel()](#getCompressionLevel--) | Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. |
-| [setCompressionLevel(int value)](#setCompressionLevel-int-) | Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. |
+| [getCompressionLevel()](#getCompressionLevel--) | Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
+| [setCompressionLevel(int value)](#setCompressionLevel-int-) | Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
+| [getPngCompressionLevel()](#getPngCompressionLevel--) | Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
+| [setPngCompressionLevel(int value)](#setPngCompressionLevel-int-) | Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
 | [getBitDepth()](#getBitDepth--) | Gets the bit depth values in range of 1, 2, 4, 8, 16. |
 | [setBitDepth(byte value)](#setBitDepth-byte-) | Sets the bit depth values in range of 1, 2, 4, 8, 16. |
 
@@ -427,22 +429,22 @@ public final int getCompressionLevel()
 ```
 
 
-Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression.
+Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level.
 
 **Returns:**
-int - the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9.
+int - the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level.
 ### setCompressionLevel(int value) {#setCompressionLevel-int-}
 ```
 public final void setCompressionLevel(int value)
 ```
 
 
-Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. The higher the value - the more efficient the compression.
+Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level in the range of 0-9. |
+| value | int | the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
@@ -518,6 +520,29 @@ try {
     pngImage.dispose();
 }
 ```
+
+### getPngCompressionLevel() {#getPngCompressionLevel--}
+```
+public final int getPngCompressionLevel()
+```
+
+
+Gets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level.
+
+**Returns:**
+int - the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level.
+### setPngCompressionLevel(int value) {#setPngCompressionLevel-int-}
+```
+public final void setPngCompressionLevel(int value)
+```
+
+
+Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
 
 ### getBitDepth() {#getBitDepth--}
 ```

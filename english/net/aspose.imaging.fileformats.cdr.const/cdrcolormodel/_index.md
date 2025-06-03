@@ -34,8 +34,8 @@ public enum CdrColorModel
 | LabX12 | `18` | The colorscheme lab |
 | LabX0C | `12` | The colorscheme lab |
 | Rgb255 | `255` | The RGB255 |
-| paletteX19 | `25` | The palette |
-| paletteX1E | `30` | The palette |
+| PaletteX19 | `25` | The palette |
+| PaletteX1E | `30` | The palette |
 | Model0x0e | `14` | The model0e |
 
 ### See Also

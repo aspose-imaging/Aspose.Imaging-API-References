@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.imageoptions/svgoptions/
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | callback | [ISvgResourceKeeperCallback](/imaging/python-net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/) | r/w | Gets or sets the storing strategy for embedded resousces of [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) such as fonts, nested rasters. |
 | color_type | [SvgColorMode](/imaging/python-net/aspose.imaging.fileformats.svg/svgcolormode/) | r/w | Gets or sets the color type for SVG image. |
-| compress | bool | r/w | Gets or sets a value indicating whether the output image must to be compressed. |
+| [compress](#compress1) | bool | r/w | Gets or sets a value indicating whether the output image must to be compressed. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
@@ -31,7 +31,7 @@ url: /python-net/aspose.imaging.imageoptions/svgoptions/
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
 | source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
-| [text_as_shapes](#text_as_shapes1) | bool | r/w | Gets or sets a value indicating whether text must be rendered as shapes. |
+| [text_as_shapes](#text_as_shapes2) | bool | r/w | Gets or sets a value indicating whether text must be rendered as shapes. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
 ## **Methods**
@@ -49,13 +49,22 @@ url: /python-net/aspose.imaging.imageoptions/svgoptions/
 
 Initializes a new instance of the [SvgOptions](/imaging/python-net/aspose.imaging.imageoptions/svgoptions/).
 
-### Property: text_as_shapes {#text_as_shapes1}
+### Property: compress {#compress1}
+
+Gets or sets a value indicating whether the output image must to be compressed.
+
+**See also:**
+
+**[Example # 1](#example_174)**: The following example shows how to convert a svg images to svgz format
+
+
+### Property: text_as_shapes {#text_as_shapes2}
 
 Gets or sets a value indicating whether text must be rendered as shapes.
 
 **See also:**
 
-**[Example # 1](#example_150)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_158)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Method: clone() {#clone__1}
@@ -75,7 +84,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_150}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_158}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -101,7 +110,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_160}
+### The following example shows how to convert a svgz images to svg fromat {#example_171}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -118,6 +127,29 @@ with Image.load(input_file) as image:
 	obj_init2 = SvgOptions()
 	obj_init2.vector_rasterization_options = obj_init
 	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a svg images to svgz format {#example_174}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import SvgRasterizationOptions, SvgOptions
+
+file = "juanmontoya_lingerie.svg"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".svgz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = SvgRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = SvgOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
+	image.save(out_file, obj_init2)            
 
 
 ```

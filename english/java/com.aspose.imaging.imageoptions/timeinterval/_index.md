@@ -3,7 +3,7 @@ title: TimeInterval
 second_title: Aspose.Imaging for Java API Reference
 description: Represents the time interval in milliseconds
 type: docs
-weight: 49
+weight: 50
 url: /java/com.aspose.imaging.imageoptions/timeinterval/
 ---
 **Inheritance:**

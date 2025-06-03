@@ -3,7 +3,7 @@ title: Enum PaletteMiningMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PaletteMiningMethod enum. The image palette mining method
 type: docs
-weight: 11080
+weight: 11090
 url: /net/aspose.imaging/paletteminingmethod/
 ---
 ## PaletteMiningMethod enumeration

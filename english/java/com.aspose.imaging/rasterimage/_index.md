@@ -1739,39 +1739,6 @@ Resizes the image with extended options.
 | newHeight | int | The new height. |
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
-
-**Example: This example loads a raster image and resizes it using various resizing settings.**
-
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
-
-// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
-resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
-
-// The small rectangular filter
-resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular);
-
-// The number of colors in the palette.
-resizeSettings.setEntriesCount(256);
-
-// The color quantization is not used
-resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
-
-// The euclidian method
-resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
-
-com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.load(dir + "sample.gif");
-try {
-    // Scale down by 2 times using adaptive resampling.
-    image.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
-    image.save(dir + "downsample.adaptive.gif");
-} finally {
-    image.dispose();
-}
-```
-
 ### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
 public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)

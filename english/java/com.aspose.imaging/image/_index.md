@@ -1196,6 +1196,102 @@ try {
 ```
 
 
+**Example: This example loads a raster image and resizes it using various resizing methods.**
+
+``` java
+String dir = "c:\\temp\\";
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif")) {
+    // Scale up by 2 times using Nearest Neighbour resampling.
+    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
+    image.save(dir + "upsample.nearestneighbour.gif");
+}
+            
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif")) {
+    // Scale down by 2 times using Nearest Neighbour resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
+    image.save(dir + "downsample.nearestneighbour.gif");
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif")) {
+    // Scale up by 2 times using Bilinear resampling.
+    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
+    image.save(dir + "upsample.bilinear.gif");
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif")) {
+    // Scale down by 2 times using Bilinear resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
+    image.save(dir + "downsample.bilinear.gif");
+}
+```
+
+
+**Example: This example loads a WMF image and resizes it using various resizing methods.**
+
+``` java
+String dir = "c:\\temp\\";
+            
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.wmf")) {
+    // Scale up by 2 times using Nearest Neighbour resampling.
+    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.wmf")) {
+    // Scale down by 2 times using Nearest Neighbour resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.wmf")) {
+    // Scale up by 2 times using Bilinear resampling.
+    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.wmf")) {
+    // Scale down by 2 times using Bilinear resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
+}
+```
+
+
+**Example: This example loads a multi-page ODG image and resizes it using various resizing methods.**
+
+``` java
+String dir = "c:\\temp\\";
+            
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.odg")) {
+    // Scale up by 2 times using Nearest Neighbour resampling.
+    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
+
+    // Save to PNG with default options.
+    image.save(dir + "upsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.odg")) {
+    // Scale down by 2 times using Nearest Neighbour resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
+
+    // Save to PNG with default options.
+    image.save(dir + "downsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.odg")) {
+    // Scale up by 2 times using Bilinear resampling.
+    image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
+
+    // Save to PNG with default options.
+    image.save(dir + "upsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
+}
+
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.odg")) {
+    // Scale down by 2 times using Bilinear resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
+
+    // Save to PNG with default options.
+    image.save(dir + "downsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
+}
+```
+
+
 **Example: Using a segment mask to speed up the segmentation process**
 
 ``` java
@@ -1287,6 +1383,21 @@ try (Image image = Image.load("Photo.jpg"))
 }
 ```
 
+
+**Example: Resize EPS image and export it to PNG format.**
+
+``` java
+// Load EPS image
+try (Image image = Image.load("AstrixObelix.eps"))
+{
+    // Resize the image using the Mitchell cubic interpolation method
+    image.resize(400, 400, ResizeType.Mitchell);
+
+    // Export image to PNG format
+    image.save("ExportResult.png", new PngOptions());
+}
+```
+
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```
 public abstract void resize(int newWidth, int newHeight, ImageResizeSettings settings)
@@ -1336,6 +1447,36 @@ try {
 ```
 
 
+**Example: This example loads a raster image and resizes it using various resizing settings.**
+
+``` java
+String dir = "c:\\temp\\";
+
+com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
+
+// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
+resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
+
+// The small rectangular filter
+resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular);
+
+// The number of colors in the palette.
+resizeSettings.setEntriesCount(256);
+
+// The color quantization is not used
+resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
+
+// The euclidian method
+resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
+            
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif")) {
+    // Scale down by 2 times using adaptive resampling.
+    image.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
+    image.save(dir + "downsample.adaptive.gif");
+}
+```
+
+
 **Example: Resize image using specific Resize Type.**
 
 ``` java
@@ -1353,6 +1494,31 @@ try (Image image = Image.load("Photo.jpg"))
 
     image.resize(800, 800, resizeSettings);
     image.save("ResizedPhoto3.jpg");
+}
+```
+
+
+**Example: Resize EPS image using advanced settings.**
+
+``` java
+// Load EPS image
+try (Image image = Image.load("AstrixObelix.eps"))
+{
+    ImageResizeSettings resizeSettings = new ImageResizeSettings();
+    // Set the interpolation mode
+    resizeSettings.setMode(ResizeType.LanczosResample);
+    // Set the type of the filter
+    resizeSettings.setFilterType(ImageFilterType.SmallRectangular);
+    // Sets the color compare method
+    resizeSettings.setColorCompareMethod(ColorCompareMethod.Euclidian);
+    // Set the color quantization method
+    resizeSettings.setColorQuantizationMethod(ColorQuantizationMethod.Popularity);
+
+    // Resize the image using advanced resize settings
+    image.resize(400, 400, resizeSettings);
+
+    // Export image to PNG format
+    image.save("ExportResult.png", new PngOptions());
 }
 ```
 
@@ -1674,6 +1840,22 @@ Crops the specified rectangle.
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
+
+**Example: The following example crops a raster image.**
+The following example crops a raster image. The cropping area is be specified via com.aspose.imaging.Rectangle.
+``` java
+String dir = "c:\\temp\\";
+            
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png")) {
+    // Crop the image. The cropping area is the rectangular central area of the image.
+    com.aspose.imaging.Rectangle area = new com.aspose.imaging.Rectangle(rasterImage.getWidth() / 4, rasterImage.getHeight() / 4, rasterImage.getWidth() / 2, rasterImage.getHeight() / 2);
+    image.crop(area);
+
+    // Save the cropped image to PNG
+    image.save(dir + "sample.Crop.png");
+}
+```
+
 ### crop(int leftShift, int rightShift, int topShift, int bottomShift) {#crop-int-int-int-int-}
 ```
 public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
@@ -1689,6 +1871,23 @@ Crop image with shifts.
 | rightShift | int | The right shift. |
 | topShift | int | The top shift. |
 | bottomShift | int | The bottom shift. |
+
+
+**Example: The following example crops a raster image.**
+The following example crops a raster image. The cropping area is specified via Left, Top, Right, Bottom margins.
+``` java
+String dir = "c:\\temp\\";
+            
+try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png")) {
+    // Crop again. Set a margin of 10% of the image size.
+    int horizontalMargin = rasterImage.getWidth() / 10;
+    int verticalMargin = rasterImage.getHeight() / 10;
+    image.crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
+
+    // Save the cropped image to PNG.
+    image.save(dir + "sample.Crop.png");
+}
+```
 
 ### save() {#save--}
 ```

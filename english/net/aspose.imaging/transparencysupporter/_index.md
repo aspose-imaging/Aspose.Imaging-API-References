@@ -3,7 +3,7 @@ title: Class TransparencySupporter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.TransparencySupporter class. The object supporting transparency
 type: docs
-weight: 11630
+weight: 11640
 url: /net/aspose.imaging/transparencysupporter/
 ---
 ## TransparencySupporter class

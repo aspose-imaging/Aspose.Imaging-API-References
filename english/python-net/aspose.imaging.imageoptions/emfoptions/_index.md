@@ -63,7 +63,7 @@ Creates a memberwise clone of this instance.
 
 
 ## **Examples**
-### The following example shows how to convert a emz images to emf format {#example_158}
+### The following example shows how to convert a emz images to emf format {#example_169}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -79,6 +79,29 @@ with Image.load(input_file) as image:
 	obj_init.page_size = aspycore.cast(SizeF, image.size)
 	obj_init2 = EmfOptions()
 	obj_init2.vector_rasterization_options = obj_init
+	image.save(out_file, obj_init2)
+
+
+```
+
+### The following example shows how to convert a emf images to emz format {#example_172}
+``` python
+
+from os.path import join as path_combine
+import aspose.pycore as aspycore
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import EmfRasterizationOptions, EmfOptions
+
+file = "input.emf"
+base_folder = path_combine("D:", "Compressed")
+input_file = path_combine(base_folder, file)
+out_file = input_file + ".emz"
+with Image.load(input_file) as image:
+	vector_rasterization_options = EmfRasterizationOptions()
+	vector_rasterization_options.page_size = aspycore.cast(SizeF, image.size)
+	obj_init2 = EmfOptions()
+	obj_init2.vector_rasterization_options = vector_rasterization_options
+	obj_init2.compress = True
 	image.save(out_file, obj_init2)
 
 

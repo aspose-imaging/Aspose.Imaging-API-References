@@ -68,7 +68,7 @@ url: /python-net/aspose.imaging.fileformats.cdr/cdrimage/
 | [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_18) | Creates a new image the specified images as pages. |
 | [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_19) | Crop image with shifts. |
 | [crop(rectangle)](#crop_rectangle_20) | Crops the specified rectangle. |
-| [get_default_options(args)](#get_default_options_args_21) | Retrieve the default options effortlessly with this user-friendly method.<br/>            Perfect for developers seeking quick access to the default settings or<br/>            configurations associated with an object, ensuring efficient customization<br/>            and streamlined workflow. |
+| [get_default_options(args)](#get_default_options_args_21) | Gets the default image options. |
 | [get_embedded_images()](#get_embedded_images__22) | Gets the embedded images. |
 | [get_file_format(file_path)](#get_file_format_file_path_23) | Gets the file format. |
 | [get_file_format(stream)](#get_file_format_stream_24) | Gets the file format. |
@@ -142,7 +142,7 @@ Retrieve the pages of the image seamlessly with this intuitive property.<br/>   
 
 **See also:**
 
-**[Example # 1](#example_152)**: The following example shows how to cache all pages of a CDR image.
+**[Example # 1](#example_161)**: The following example shows how to cache all pages of a CDR image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -591,7 +591,7 @@ Crops the specified rectangle.
  get_default_options(args) 
 ```
 
-Retrieve the default options effortlessly with this user-friendly method.<br/>            Perfect for developers seeking quick access to the default settings or<br/>            configurations associated with an object, ensuring efficient customization<br/>            and streamlined workflow.
+Gets the default image options.
 
 **Parameters:**
 
@@ -603,7 +603,7 @@ Retrieve the default options effortlessly with this user-friendly method.<br/>  
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Default options |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The default image options. |
 
 
 ### Method: get_embedded_images() {#get_embedded_images__22}
@@ -1448,7 +1448,7 @@ Customize the color palette of the image with this intuitive method. Ideal for<b
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color<br/>            indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no<br/>            corresponding palette entries. |
 
 ## **Examples**
-### The following example shows how to cache all pages of a CDR image. {#example_152}
+### The following example shows how to cache all pages of a CDR image. {#example_161}
 ``` python
 
 import aspose.pycore as aspycore
