@@ -3,7 +3,7 @@ title: Delegate MagicWandSettings.ColorComparison
 second_title: Aspose.Imaging for .NET API Reference
 description: Delegate for Color comparison with a defined threshold
 type: docs
-weight: 10780
+weight: 10790
 url: /net/aspose.imaging.magicwand/magicwandsettings.colorcomparison/
 ---
 ## MagicWandSettings.ColorComparison delegate

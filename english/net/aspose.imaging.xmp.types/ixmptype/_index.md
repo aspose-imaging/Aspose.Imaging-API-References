@@ -3,7 +3,7 @@ title: Interface IXmpType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.IXmpType interface. Base interface for XMP type
 type: docs
-weight: 12180
+weight: 12190
 url: /net/aspose.imaging.xmp.types/ixmptype/
 ---
 ## IXmpType interface

@@ -3,7 +3,7 @@ title: Enum StringTrimming
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.StringTrimming enum. Specifies how to trim characters from a string that does not completely fit into a layout shape
 type: docs
-weight: 11610
+weight: 11620
 url: /net/aspose.imaging/stringtrimming/
 ---
 ## StringTrimming enumeration

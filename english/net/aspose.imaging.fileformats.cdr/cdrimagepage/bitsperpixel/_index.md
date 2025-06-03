@@ -22,7 +22,7 @@ The image bits per pixel count.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | NotImplementedException |
 
 ### See Also
 

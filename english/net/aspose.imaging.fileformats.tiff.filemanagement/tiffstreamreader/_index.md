@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/
 The tiff stream for handling little endian tiff file format.
 
 ```csharp
-public class TiffStreamReader : #=z5D7sgc_JXXMVn4Qv63Nj$m$R7BrpP82Nelir$_n$YuukNe4vqKBpujg=
+public class TiffStreamReader : #=zydxW5Qjh$vni46JMiO11FxRm7nvh5$zif02$aOsSG6uv4MHVZPNJZI8=
 ```
 
 ## Constructors

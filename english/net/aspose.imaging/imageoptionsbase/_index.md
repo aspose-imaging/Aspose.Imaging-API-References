@@ -3,7 +3,7 @@ title: Class ImageOptionsBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptionsBase class. The image base options
 type: docs
-weight: 10550
+weight: 10560
 url: /net/aspose.imaging/imageoptionsbase/
 ---
 ## ImageOptionsBase class

@@ -23,7 +23,7 @@ public override void SetPalette(IColorPalette palette, bool updateColors)
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException |  |
+| NotImplementedException | NotImplementedException |
 
 ### See Also
 
