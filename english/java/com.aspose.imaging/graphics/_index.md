@@ -62,8 +62,8 @@ Represents the graphics according to the graphics engine used in the current ass
 | [drawLine(Pen pen, float x1, float y1, float x2, float y2)](#drawLine-com.aspose.imaging.Pen-float-float-float-float-) | Draws a line connecting the two points specified by the coordinate pairs. |
 | [drawLines(Pen pen, Point[] points)](#drawLines-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a series of line segments that connect an array of `Point` structures. |
 | [drawLines(Pen pen, PointF[] points)](#drawLines-com.aspose.imaging.Pen-com.aspose.imaging.PointF---) | Draws a series of line segments that connect an array of `PointF` structures. |
-| [fillRectangle(Brush brush, Rectangle rect)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | Fills the interior of a rectangle specified by a `Rectangle` structure. |
-| [fillRectangle(Brush brush, RectangleF rect)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-) | Fills the interior of a rectangle specified by a `RectangleF` structure. |
+| [fillRectangle(Brush brush, Rectangle rect)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | Fills the rectangle specified by a `Rectangle` structure. |
+| [fillRectangle(Brush brush, RectangleF rect)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-) | Fills the rectangle specified by a `RectangleF` structure. |
 | [fillRectangle(Brush brush, float x, float y, float width, float height)](#fillRectangle-com.aspose.imaging.Brush-float-float-float-float-) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
 | [fillRectangle(Brush brush, int x, int y, int width, int height)](#fillRectangle-com.aspose.imaging.Brush-int-int-int-int-) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
 | [fillRectangles(Brush brush, Rectangle[] rects)](#fillRectangles-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle---) | Fills the interiors of a series of rectangles specified by `Rectangle` structures. |
@@ -686,7 +686,7 @@ public void beginUpdate()
 ```
 
 
-Starts caching of the following graphics operations. The graphics effects applied afterwards will not be applied immediately instead the EndUpdate will cause applying all the effects at once.
+Starts caching of the following graphics operations. The graphics effects applied afterward will not be applied immediately instead the EndUpdate will cause applying all the effects at once.
 
 Note the effects after BeginUpdate is called will not be applied in case EndUpdate is not called.
 
@@ -1112,7 +1112,7 @@ public void fillRectangle(Brush brush, Rectangle rect)
 ```
 
 
-Fills the interior of a rectangle specified by a `Rectangle` structure.
+Fills the rectangle specified by a `Rectangle` structure.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1126,7 +1126,7 @@ public void fillRectangle(Brush brush, RectangleF rect)
 ```
 
 
-Fills the interior of a rectangle specified by a `RectangleF` structure.
+Fills the rectangle specified by a `RectangleF` structure.
 
 **Parameters:**
 | Parameter | Type | Description |
