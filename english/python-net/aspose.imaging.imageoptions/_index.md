@@ -54,6 +54,7 @@ The module contains classes suitable for export, save or creation of different f
 | :- | :- |
 | [MultiPageMode](/imaging/python-net/aspose.imaging.imageoptions/multipagemode/) | Represents multipage mode |
 | [PdfImageCompressionOptions](/imaging/python-net/aspose.imaging.imageoptions/pdfimagecompressionoptions/) | Pdf image compression options |
+| [PngCompressionLevel](/imaging/python-net/aspose.imaging.imageoptions/pngcompressionlevel/) | The png compression level enum. |
 | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes/) | Positioning and size types for graphics scene. |
 | [RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode/) | Represents possible missing sections in CAD file |
 | [TiffOptionsError](/imaging/python-net/aspose.imaging.imageoptions/tiffoptionserror/) | The tiff options error codes. |

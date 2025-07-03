@@ -64,7 +64,7 @@ public class CmxImagePage : VectorImage, ICmxImage
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
 | virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
-| override [Resize](../../aspose.imaging.fileformats.cmx/cmximagepage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |
 | [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | Resizes the height proportionally. The default NearestNeighbourResample is used. |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | Resizes the height proportionally. |

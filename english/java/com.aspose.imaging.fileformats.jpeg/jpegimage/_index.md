@@ -59,6 +59,7 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 | [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
 | [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
 | [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
+| [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options of this [Image](../../com.aspose.imaging/image) instance. |
 | [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData()](../../com.aspose.imaging.exif/ihasexifdata\#getExifData--)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to `null`. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), ensuring accurate scaling and printing capabilities. |
 | [autoRotate()](#autoRotate--) | Automatically rotates the image based on orientation data extracted from Exif metadata. |
@@ -791,6 +792,16 @@ Retrieves or modifies the flag denoting whether the embedded color profile is di
 | --- | --- | --- |
 | value | boolean |  |
 
+### getOriginalOptions() {#getOriginalOptions--}
+```
+public ImageOptionsBase getOriginalOptions()
+```
+
+
+Gets the original image options of this [Image](../../com.aspose.imaging/image) instance.
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - A clone of original image options.
 ### removeMetadata() {#removeMetadata--}
 ```
 public void removeMetadata()
