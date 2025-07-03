@@ -1,11 +1,40 @@
 ---
 title: Graphics.DrawImageUnscaled
 second_title: Aspose.Imaging for .NET API Reference
-description: Graphics method. Draws the specified image using its original physical size at the location specified by a coordinate pair
+description: Graphics method. Draws a specified image using its original physical size at a specified location
 type: docs
 weight: 240
 url: /net/aspose.imaging/graphics/drawimageunscaled/
 ---
+## DrawImageUnscaled(Image, Point) {#drawimageunscaled}
+
+Draws a specified image using its original physical size at a specified location.
+
+```csharp
+public void DrawImageUnscaled(Image sourceImage, Point point)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceImage | Image | The image to draw with. |
+| point | Point | [`Point`](../../point/) structure that specifies the upper-left corner of the drawn image. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceImage* is null. |
+
+### See Also
+
+* class [Image](../../image/)
+* struct [Point](../../point/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
 ## DrawImageUnscaled(Image, int, int) {#drawimageunscaled_2}
 
 Draws the specified image using its original physical size at the location specified by a coordinate pair.
@@ -89,35 +118,6 @@ public void DrawImageUnscaled(Image sourceImage, int x, int y, int width, int he
 ### See Also
 
 * class [Image](../../image/)
-* class [Graphics](../)
-* namespace [Aspose.Imaging](../../graphics/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## DrawImageUnscaled(Image, Point) {#drawimageunscaled}
-
-Draws a specified image using its original physical size at a specified location.
-
-```csharp
-public void DrawImageUnscaled(Image sourceImage, Point point)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceImage | Image | The image to draw with. |
-| point | Point | [`Point`](../../point/) structure that specifies the upper-left corner of the drawn image. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *sourceImage* is null. |
-
-### See Also
-
-* class [Image](../../image/)
-* struct [Point](../../point/)
 * class [Graphics](../)
 * namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)

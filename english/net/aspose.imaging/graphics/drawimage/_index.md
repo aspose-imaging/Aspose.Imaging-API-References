@@ -1,11 +1,100 @@
 ---
 title: Graphics.DrawImage
 second_title: Aspose.Imaging for .NET API Reference
-description: Graphics method. Draws the specified Image using its original physical size at the specified location
+description: Graphics method. Draws the specified image using its original physical size at the location specified by a coordinate pair
 type: docs
 weight: 230
 url: /net/aspose.imaging/graphics/drawimage/
 ---
+## DrawImage(Image, int, int) {#drawimage_20}
+
+Draws the specified image, using its original physical size, at the location specified by a coordinate pair.
+
+```csharp
+public void DrawImage(Image sourceImage, int x, int y)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceImage | Image | The image to draw with. |
+| x | Int32 | The x-coordinate of the upper-left corner of the drawn image. |
+| y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceImage* is null. |
+
+### See Also
+
+* class [Image](../../image/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## DrawImage(Image, Rectangle) {#drawimage_10}
+
+Draws the specified [`Image`](../image/) at the specified location and with the specified size.
+
+```csharp
+public void DrawImage(Image sourceImage, Rectangle rect)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceImage | Image | The image to draw with. |
+| rect | Rectangle | [`Rectangle`](../../rectangle/) structure that specifies the location and size of the drawn image. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceImage* is null. |
+
+### See Also
+
+* class [Image](../../image/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## DrawImage(Image, int, int, int, int) {#drawimage_21}
+
+Draws the specified [`Image`](../image/) at the specified location and with the specified size.
+
+```csharp
+public void DrawImage(Image sourceImage, int x, int y, int width, int height)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceImage | Image | The image to draw with. |
+| x | Int32 | The x-coordinate of the upper-left corner of the drawn image. |
+| y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
+| width | Int32 | Width of the drawn image. |
+| height | Int32 | Height of the drawn image. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceImage* is null. |
+
+### See Also
+
+* class [Image](../../image/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
 ## DrawImage(Image, PointF) {#drawimage_1}
 
 Draws the specified [`Image`](../image/), using its original physical size, at the specified location.
@@ -629,95 +718,6 @@ public void DrawImage(Image sourceImage, Point point)
 
 * class [Image](../../image/)
 * struct [Point](../../point/)
-* class [Graphics](../)
-* namespace [Aspose.Imaging](../../graphics/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## DrawImage(Image, int, int) {#drawimage_20}
-
-Draws the specified image, using its original physical size, at the location specified by a coordinate pair.
-
-```csharp
-public void DrawImage(Image sourceImage, int x, int y)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceImage | Image | The image to draw with. |
-| x | Int32 | The x-coordinate of the upper-left corner of the drawn image. |
-| y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *sourceImage* is null. |
-
-### See Also
-
-* class [Image](../../image/)
-* class [Graphics](../)
-* namespace [Aspose.Imaging](../../graphics/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## DrawImage(Image, Rectangle) {#drawimage_10}
-
-Draws the specified [`Image`](../image/) at the specified location and with the specified size.
-
-```csharp
-public void DrawImage(Image sourceImage, Rectangle rect)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceImage | Image | The image to draw with. |
-| rect | Rectangle | [`Rectangle`](../../rectangle/) structure that specifies the location and size of the drawn image. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *sourceImage* is null. |
-
-### See Also
-
-* class [Image](../../image/)
-* struct [Rectangle](../../rectangle/)
-* class [Graphics](../)
-* namespace [Aspose.Imaging](../../graphics/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## DrawImage(Image, int, int, int, int) {#drawimage_21}
-
-Draws the specified [`Image`](../image/) at the specified location and with the specified size.
-
-```csharp
-public void DrawImage(Image sourceImage, int x, int y, int width, int height)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceImage | Image | The image to draw with. |
-| x | Int32 | The x-coordinate of the upper-left corner of the drawn image. |
-| y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
-| width | Int32 | Width of the drawn image. |
-| height | Int32 | Height of the drawn image. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *sourceImage* is null. |
-
-### See Also
-
-* class [Image](../../image/)
 * class [Graphics](../)
 * namespace [Aspose.Imaging](../../graphics/)
 * assembly [Aspose.Imaging](../../../)
