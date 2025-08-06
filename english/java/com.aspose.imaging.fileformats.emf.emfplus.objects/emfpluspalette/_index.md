@@ -70,7 +70,7 @@ Gets or sets the palette entries.
 Value: PaletteEntries (variable): An array of PaletteCount 32-bit ARGB objects that specify the data in the palette.
 
 **Returns:**
-int[]
+int[] - The copy of the palette entries.
 ### setArgb32Entries(int[] value) {#setArgb32Entries-int---}
 ```
 public void setArgb32Entries(int[] value)

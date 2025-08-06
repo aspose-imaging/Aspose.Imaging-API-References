@@ -13,16 +13,3 @@ public abstract class MetafileRasterizationOptions extends VectorRasterizationOp
 ```
 
 The metafile rasterization options
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MetafileRasterizationOptions()](#MetafileRasterizationOptions--) | Initializes a new instance of the `MetafileRasterizationOptions` class. |
-### MetafileRasterizationOptions() {#MetafileRasterizationOptions--}
-```
-public MetafileRasterizationOptions()
-```
-
-
-Initializes a new instance of the `MetafileRasterizationOptions` class.
-

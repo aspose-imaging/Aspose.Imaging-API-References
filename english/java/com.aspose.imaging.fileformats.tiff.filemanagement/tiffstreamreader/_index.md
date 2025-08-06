@@ -49,7 +49,7 @@ The tiff stream for handling little endian tiff file format.
 | [readUShort(long position)](#readUShort-long-) | Read unsigned short value from the stream. |
 | [readUShortArray(long position, long count)](#readUShortArray-long-long-) | Reads an array of unsigned integer values from the stream. |
 | [readLong(long position)](#readLong-long-) | Read unsigned long value from the stream. |
-| [readLongArray(long position, long count)](#readLongArray-long-long-) | Reads an array of ulong values from the stream. |
+| [readLongArray(long position, long count)](#readLongArray-long-long-) | Reads an array of long values from the stream. |
 | [readULong(long position)](#readULong-long-) | Read unsigned long value from the stream. |
 | [readULongArray(long position, long count)](#readULongArray-long-long-) | Reads an array of ulong values from the stream. |
 | [toStreamContainer(long startPosition)](#toStreamContainer-long-) | Converts the underlying data to the stream container. |
@@ -481,7 +481,7 @@ public final long[] readLongArray(long position, long count)
 ```
 
 
-Reads an array of ulong values from the stream.
+Reads an array of long values from the stream.
 
 **Parameters:**
 | Parameter | Type | Description |

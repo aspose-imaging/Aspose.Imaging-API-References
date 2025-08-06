@@ -16,11 +16,6 @@ public abstract class TiffDataType implements Comparable<TiffDataType>
 ```
 
 The TIFF data type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TiffDataType()](#TiffDataType--) |  |
 ## Methods
 
 | Method | Description |
@@ -44,12 +39,6 @@ The TIFF data type.
 | [writeTag(TiffStreamWriter dataStream, long additionalDataOffset)](#writeTag-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-long-) | Writes the tag data. |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | Writes the additional tag data. |
 | [toString()](#toString--) | Returns a `System.String` that represents this instance. |
-### TiffDataType() {#TiffDataType--}
-```
-public TiffDataType()
-```
-
-
 ### getElementSize() {#getElementSize--}
 ```
 public byte getElementSize()

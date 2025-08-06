@@ -16,12 +16,6 @@ public abstract class OdImage extends VectorMultipageImage implements IOdImage
 ```
 
 The open document
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OdImage(StreamContainer streamContainer, LoadOptions options)](#OdImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-) | Initialize a new [OdImage](../../com.aspose.imaging.fileformats.opendocument/odimage) object by providing a stream container along with load options, facilitating seamless integration into software applications. |
-| [OdImage(StreamContainer streamContainer)](#OdImage-com.aspose.imaging.StreamContainer-) | Creates a new instance of the [OdImage](../../com.aspose.imaging.fileformats.opendocument/odimage) class, designed specifically for initialization with a stream container. |
 ## Methods
 
 | Method | Description |
@@ -32,33 +26,6 @@ The open document
 | [getPageCount()](#getPageCount--) | Retrieves the total count of pages within the image. |
 | [getMetadata()](#getMetadata--) | Retrieves metadata specific to OpenDocument files. |
 | [getRecords()](#getRecords--) | Retrieves the OpenDocument records stored within the image. |
-### OdImage(StreamContainer streamContainer, LoadOptions options) {#OdImage-com.aspose.imaging.StreamContainer-com.aspose.imaging.LoadOptions-}
-```
-public OdImage(StreamContainer streamContainer, LoadOptions options)
-```
-
-
-Initialize a new [OdImage](../../com.aspose.imaging.fileformats.opendocument/odimage) object by providing a stream container along with load options, facilitating seamless integration into software applications. This constructor efficiently handle image data, offering flexibility and control over the loading process.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| streamContainer | [StreamContainer](../../com.aspose.imaging/streamcontainer) | The stream. |
-| options | [LoadOptions](../../com.aspose.imaging/loadoptions) | The load options. |
-
-### OdImage(StreamContainer streamContainer) {#OdImage-com.aspose.imaging.StreamContainer-}
-```
-public OdImage(StreamContainer streamContainer)
-```
-
-
-Creates a new instance of the [OdImage](../../com.aspose.imaging.fileformats.opendocument/odimage) class, designed specifically for initialization with a stream container. This constructor enables seamless integration with stream-based data sources, facilitating efficient handling of OdImage instances within software systems.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| streamContainer | [StreamContainer](../../com.aspose.imaging/streamcontainer) | The stream container. |
-
 ### getDefaultPage() {#getDefaultPage--}
 ```
 public Image getDefaultPage()
@@ -95,7 +62,7 @@ public int getPageCount()
 ```
 
 
-Retrieves the total count of pages within the image. This property is essential for applications managing multi-page images, enabling them to accurately determine the number of pages available for processing or display.
+Retrieves the total count of pages within the image. This property is essential for applications managing multipage images, enabling them to accurately determine the number of pages available for processing or display.
 
 **Returns:**
 int - the page count.

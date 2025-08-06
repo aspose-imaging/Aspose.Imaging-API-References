@@ -20,7 +20,7 @@ Helper class for color palette manipulation.
 | [createMonochrome()](#createMonochrome--) | Creates a monochrome color palette containing 2 colors only. |
 | [create4Bit()](#create4Bit--) | Creates the 4 bit color palette. |
 | [create4BitGrayscale(boolean minIsWhite)](#create4BitGrayscale-boolean-) | Creates the 4 bit grayscale palette. |
-| [create8Bit()](#create8Bit--) | Creates the 8 bit color palette. |
+| [create8Bit()](#create8Bit--) | Creates the 8-bit color palette. |
 | [create8BitGrayscale(boolean minIsWhite)](#create8BitGrayscale-boolean-) | Creates the 8 bit grayscale palette. |
 | [getCloseImagePalette(RasterImage image, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getCloseTransparentImagePalette(RasterImage image, int entriesCount)](#getCloseTransparentImagePalette-com.aspose.imaging.RasterImage-int-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
@@ -30,7 +30,7 @@ Helper class for color palette manipulation.
 | [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor, boolean keepTransparency)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-boolean-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getUniformColorPalette(RasterImage image)](#getUniformColorPalette-com.aspose.imaging.RasterImage-) | Get uniform 256 color palette. |
-| [getDownscalePalette(RasterImage image)](#getDownscalePalette-com.aspose.imaging.RasterImage-) | Get 256 color palette, composed from upper bits of initial image color values. |
+| [getDownscalePalette(RasterImage image)](#getDownscalePalette-com.aspose.imaging.RasterImage-) | Get 256 color palette, composed of upper bits of initial image color values. |
 | [hasTransparentColors(IColorPalette palette)](#hasTransparentColors-com.aspose.imaging.IColorPalette-) | Determines whether the specified palette has transparent colors. |
 | [createGrayscale(int bits)](#createGrayscale-int-) | Gets the grayscale palette of specified bits count. |
 ### createMonochrome() {#createMonochrome--}
@@ -74,7 +74,7 @@ public static IColorPalette create8Bit()
 ```
 
 
-Creates the 8 bit color palette.
+Creates the 8-bit color palette.
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The 8bit color palette.
@@ -362,7 +362,7 @@ public static ColorPalette getDownscalePalette(RasterImage image)
 ```
 
 
-Get 256 color palette, composed from upper bits of initial image color values.
+Get 256 color palette, composed of upper bits of initial image color values.
 
 **Parameters:**
 | Parameter | Type | Description |

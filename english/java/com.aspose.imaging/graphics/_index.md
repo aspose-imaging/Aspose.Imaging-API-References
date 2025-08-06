@@ -64,10 +64,10 @@ Represents the graphics according to the graphics engine used in the current ass
 | [drawLines(Pen pen, PointF[] points)](#drawLines-com.aspose.imaging.Pen-com.aspose.imaging.PointF---) | Draws a series of line segments that connect an array of `PointF` structures. |
 | [fillRectangle(Brush brush, Rectangle rect)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | Fills the rectangle specified by a `Rectangle` structure. |
 | [fillRectangle(Brush brush, RectangleF rect)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-) | Fills the rectangle specified by a `RectangleF` structure. |
-| [fillRectangle(Brush brush, float x, float y, float width, float height)](#fillRectangle-com.aspose.imaging.Brush-float-float-float-float-) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
-| [fillRectangle(Brush brush, int x, int y, int width, int height)](#fillRectangle-com.aspose.imaging.Brush-int-int-int-int-) | Fills the interior of a rectangle specified by a pair of coordinates, a width and a height. |
-| [fillRectangles(Brush brush, Rectangle[] rects)](#fillRectangles-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle---) | Fills the interiors of a series of rectangles specified by `Rectangle` structures. |
-| [fillRectangles(Brush brush, RectangleF[] rects)](#fillRectangles-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF---) | Fills the interiors of a series of rectangles specified by `RectangleF` structures. |
+| [fillRectangle(Brush brush, float x, float y, float width, float height)](#fillRectangle-com.aspose.imaging.Brush-float-float-float-float-) | Fills a rectangle specified by a pair of coordinates, a width and a height. |
+| [fillRectangle(Brush brush, int x, int y, int width, int height)](#fillRectangle-com.aspose.imaging.Brush-int-int-int-int-) | Fills a rectangle specified by a pair of coordinates, a width and a height. |
+| [fillRectangles(Brush brush, Rectangle[] rects)](#fillRectangles-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle---) | Fills rectangles specified by `Rectangle` structures. |
+| [fillRectangles(Brush brush, RectangleF[] rects)](#fillRectangles-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF---) | Fills the rectangles specified by `RectangleF` structures. |
 | [drawRectangle(Pen pen, RectangleF rect)](#drawRectangle-com.aspose.imaging.Pen-com.aspose.imaging.RectangleF-) | Draws a rectangle specified by a `RectangleF` structure. |
 | [drawRectangle(Pen pen, Rectangle rect)](#drawRectangle-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-) | Draws a rectangle specified by a `Rectangle` structure. |
 | [drawRectangle(Pen pen, float x, float y, float width, float height)](#drawRectangle-com.aspose.imaging.Pen-float-float-float-float-) | Draws a rectangle specified by a coordinate pair, a width, and a height. |
@@ -139,27 +139,27 @@ Represents the graphics according to the graphics engine used in the current ass
 | [drawString(String s, Font font, Brush brush, PointF point, StringFormat format)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-com.aspose.imaging.PointF-com.aspose.imaging.StringFormat-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects using the formatting attributes of the specified `com.aspose.imaging.stringFormat`. |
 | [drawString(String s, Font font, Brush brush, RectangleF layoutRectangle)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-) | Draws the specified text string in the specified rectangle with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects. |
 | [drawString(String s, Font font, Brush brush, RectangleF layoutRectangle, StringFormat format)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-com.aspose.imaging.StringFormat-) | Draws the specified text string in the specified rectangle with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects using the formatting attributes of the specified `com.aspose.imaging.stringFormat`. |
-| [fillEllipse(Brush brush, RectangleF rect)](#fillEllipse-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-) | Fills the interior of an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.RectangleF` structure. |
-| [fillEllipse(Brush brush, float x, float y, float width, float height)](#fillEllipse-com.aspose.imaging.Brush-float-float-float-float-) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
-| [fillEllipse(Brush brush, Rectangle rect)](#fillEllipse-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | Fills the interior of an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.Rectangle` structure. |
-| [fillEllipse(Brush brush, int x, int y, int width, int height)](#fillEllipse-com.aspose.imaging.Brush-int-int-int-int-) | Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
-| [fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-) | Fills the interior of a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines. |
-| [fillPie(Brush brush, RectangleF rect, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-float-float-) | Fills the interior of a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines. |
-| [fillPie(Brush brush, float x, float y, float width, float height, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-float-float-float-float-float-float-) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
-| [fillPie(Brush brush, int x, int y, int width, int height, int startAngle, int sweepAngle)](#fillPie-com.aspose.imaging.Brush-int-int-int-int-int-int-) | Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
-| [fillPolygon(Brush brush, PointF[] points)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.PointF---) | Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures and `FillMode.Alternate`. |
-| [fillPolygon(Brush brush, PointF[] points, int fillMode)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-) | Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures using the specified fill mode. |
-| [fillPolygon(Brush brush, Point[] points)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures and `FillMode.Alternate`. |
-| [fillPolygon(Brush brush, Point[] points, int fillMode)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures using the specified fill mode. |
-| [fillClosedCurve(Brush brush, PointF[] points)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures. |
-| [fillClosedCurve(Brush brush, PointF[] points, int fillMode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode. |
-| [fillClosedCurve(Brush brush, PointF[] points, int fillMode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-float-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode and tension. |
-| [fillClosedCurve(Brush brush, Point[] points)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures. |
-| [fillClosedCurve(Brush brush, Point[] points, int fillMode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode. |
-| [fillClosedCurve(Brush brush, Point[] points, int fillMode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-float-) | Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode and tension. |
+| [fillEllipse(Brush brush, RectangleF rect)](#fillEllipse-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-) | Fills an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.RectangleF` structure. |
+| [fillEllipse(Brush brush, float x, float y, float width, float height)](#fillEllipse-com.aspose.imaging.Brush-float-float-float-float-) | Fills an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
+| [fillEllipse(Brush brush, Rectangle rect)](#fillEllipse-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | Fills an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.Rectangle` structure. |
+| [fillEllipse(Brush brush, int x, int y, int width, int height)](#fillEllipse-com.aspose.imaging.Brush-int-int-int-int-) | Fills an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height. |
+| [fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-) | Fills a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines. |
+| [fillPie(Brush brush, RectangleF rect, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.RectangleF-float-float-) | Fills a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines. |
+| [fillPie(Brush brush, float x, float y, float width, float height, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-float-float-float-float-float-float-) | Fills a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
+| [fillPie(Brush brush, int x, int y, int width, int height, int startAngle, int sweepAngle)](#fillPie-com.aspose.imaging.Brush-int-int-int-int-int-int-) | Fills a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines. |
+| [fillPolygon(Brush brush, PointF[] points)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.PointF---) | Fills a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures and `FillMode.Alternate`. |
+| [fillPolygon(Brush brush, PointF[] points, int fillMode)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-) | Fills a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures using the specified fill mode. |
+| [fillPolygon(Brush brush, Point[] points)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | Fills a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures and `FillMode.Alternate`. |
+| [fillPolygon(Brush brush, Point[] points, int fillMode)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures using the specified fill mode. |
+| [fillClosedCurve(Brush brush, PointF[] points)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---) | Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures. |
+| [fillClosedCurve(Brush brush, PointF[] points, int fillMode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-) | Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode. |
+| [fillClosedCurve(Brush brush, PointF[] points, int fillMode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.PointF---int-float-) | Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode and tension. |
+| [fillClosedCurve(Brush brush, Point[] points)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures. |
+| [fillClosedCurve(Brush brush, Point[] points, int fillMode)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode. |
+| [fillClosedCurve(Brush brush, Point[] points, int fillMode, float tension)](#fillClosedCurve-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-float-) | Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode and tension. |
 | [drawPath(Pen pen, GraphicsPath path)](#drawPath-com.aspose.imaging.Pen-com.aspose.imaging.GraphicsPath-) | Draws a `com.aspose.imaging.graphicsPath`. |
-| [fillPath(Brush brush, GraphicsPath path)](#fillPath-com.aspose.imaging.Brush-com.aspose.imaging.GraphicsPath-) | Fills the interior of a `com.aspose.imaging.graphicsPath`. |
-| [fillRegion(Brush brush, Region region)](#fillRegion-com.aspose.imaging.Brush-com.aspose.imaging.Region-) | Fills the interior of a [Region](../../com.aspose.imaging/region). |
+| [fillPath(Brush brush, GraphicsPath path)](#fillPath-com.aspose.imaging.Brush-com.aspose.imaging.GraphicsPath-) | Fills a `com.aspose.imaging.graphicsPath`. |
+| [fillRegion(Brush brush, Region region)](#fillRegion-com.aspose.imaging.Brush-com.aspose.imaging.Region-) | Fills a [Region](../../com.aspose.imaging/region). |
 | [measureString(String text, Font font, SizeF layoutArea, StringFormat stringFormat)](#measureString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.SizeF-com.aspose.imaging.StringFormat-) | Measures the specified text string with specified parameters |
 
 ## Example: This example uses Graphics class to create primitive shapes on the Image surface.
@@ -1140,7 +1140,7 @@ public void fillRectangle(Brush brush, float x, float y, float width, float heig
 ```
 
 
-Fills the interior of a rectangle specified by a pair of coordinates, a width and a height.
+Fills a rectangle specified by a pair of coordinates, a width and a height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1157,7 +1157,7 @@ public void fillRectangle(Brush brush, int x, int y, int width, int height)
 ```
 
 
-Fills the interior of a rectangle specified by a pair of coordinates, a width and a height.
+Fills a rectangle specified by a pair of coordinates, a width and a height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1174,7 +1174,7 @@ public void fillRectangles(Brush brush, Rectangle[] rects)
 ```
 
 
-Fills the interiors of a series of rectangles specified by `Rectangle` structures.
+Fills rectangles specified by `Rectangle` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1188,7 +1188,7 @@ public void fillRectangles(Brush brush, RectangleF[] rects)
 ```
 
 
-Fills the interiors of a series of rectangles specified by `RectangleF` structures.
+Fills the rectangles specified by `RectangleF` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3159,7 +3159,7 @@ public void fillEllipse(Brush brush, RectangleF rect)
 ```
 
 
-Fills the interior of an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.RectangleF` structure.
+Fills an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.RectangleF` structure.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3173,7 +3173,7 @@ public void fillEllipse(Brush brush, float x, float y, float width, float height
 ```
 
 
-Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height.
+Fills an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3190,7 +3190,7 @@ public void fillEllipse(Brush brush, Rectangle rect)
 ```
 
 
-Fills the interior of an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.Rectangle` structure.
+Fills an ellipse defined by a bounding rectangle specified by a `com.aspose.imaging.Rectangle` structure.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3204,7 +3204,7 @@ public void fillEllipse(Brush brush, int x, int y, int width, int height)
 ```
 
 
-Fills the interior of an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height.
+Fills an ellipse defined by a bounding rectangle specified by a pair of coordinates, a width, and a height.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3221,7 +3221,7 @@ public void fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAn
 ```
 
 
-Fills the interior of a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines.
+Fills a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3282,7 +3282,7 @@ public void fillPie(Brush brush, RectangleF rect, float startAngle, float sweepA
 ```
 
 
-Fills the interior of a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines.
+Fills a pie section defined by an ellipse specified by a `com.aspose.imaging.RectangleF` structure and two radial lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3298,7 +3298,7 @@ public void fillPie(Brush brush, float x, float y, float width, float height, fl
 ```
 
 
-Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines.
+Fills a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3317,7 +3317,7 @@ public void fillPie(Brush brush, int x, int y, int width, int height, int startA
 ```
 
 
-Fills the interior of a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines.
+Fills a pie section defined by an ellipse specified by a pair of coordinates, a width, a height, and two radial lines.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3336,7 +3336,7 @@ public void fillPolygon(Brush brush, PointF[] points)
 ```
 
 
-Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures and `FillMode.Alternate`.
+Fills a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures and `FillMode.Alternate`.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3350,7 +3350,7 @@ public void fillPolygon(Brush brush, PointF[] points, int fillMode)
 ```
 
 
-Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures using the specified fill mode.
+Fills a polygon defined by an array of points specified by `com.aspose.imaging.PointF` structures using the specified fill mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3365,7 +3365,7 @@ public void fillPolygon(Brush brush, Point[] points)
 ```
 
 
-Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures and `FillMode.Alternate`.
+Fills a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures and `FillMode.Alternate`.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3379,7 +3379,7 @@ public void fillPolygon(Brush brush, Point[] points, int fillMode)
 ```
 
 
-Fills the interior of a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures using the specified fill mode.
+Fills a polygon defined by an array of points specified by `com.aspose.imaging.Point` structures using the specified fill mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3394,7 +3394,7 @@ public void fillClosedCurve(Brush brush, PointF[] points)
 ```
 
 
-Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures. This method uses a default tension of 0.5 and `FillMode.Alternate` fill mode.
+Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures. This method uses a default tension of 0.5 and `FillMode.Alternate` fill mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3408,7 +3408,7 @@ public void fillClosedCurve(Brush brush, PointF[] points, int fillMode)
 ```
 
 
-Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode. This method uses a default tension of 0.5.
+Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode. This method uses a default tension of 0.5.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3423,7 +3423,7 @@ public void fillClosedCurve(Brush brush, PointF[] points, int fillMode, float te
 ```
 
 
-Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode and tension.
+Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.PointF` structures using the specified fill mode and tension.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3439,7 +3439,7 @@ public void fillClosedCurve(Brush brush, Point[] points)
 ```
 
 
-Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures. This method uses a default tension of 0.5 and `FillMode.Alternate` fill mode.
+Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures. This method uses a default tension of 0.5 and `FillMode.Alternate` fill mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3453,7 +3453,7 @@ public void fillClosedCurve(Brush brush, Point[] points, int fillMode)
 ```
 
 
-Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode. This method uses a default tension of 0.5.
+Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode. This method uses a default tension of 0.5.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3468,7 +3468,7 @@ public void fillClosedCurve(Brush brush, Point[] points, int fillMode, float ten
 ```
 
 
-Fills the interior of a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode and tension.
+Fills a closed cardinal spline curve defined by an array of `com.aspose.imaging.Point` structures using the specified fill mode and tension.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3551,7 +3551,7 @@ public void fillPath(Brush brush, GraphicsPath path)
 ```
 
 
-Fills the interior of a `com.aspose.imaging.graphicsPath`.
+Fills a `com.aspose.imaging.graphicsPath`.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3565,7 +3565,7 @@ public void fillRegion(Brush brush, Region region)
 ```
 
 
-Fills the interior of a [Region](../../com.aspose.imaging/region).
+Fills a [Region](../../com.aspose.imaging/region).
 
 **Parameters:**
 | Parameter | Type | Description |

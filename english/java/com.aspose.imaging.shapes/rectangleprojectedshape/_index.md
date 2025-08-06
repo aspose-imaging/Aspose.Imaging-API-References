@@ -13,12 +13,6 @@ public abstract class RectangleProjectedShape extends Shape
 ```
 
 Represents a shape which is projected over rectangle turned to a particular orientation. Specified by four points which can be rotated in space maintaining the same edges length and 90 degrees between adjacent edges.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RectangleProjectedShape()](#RectangleProjectedShape--) | Initializes a new instance of the `RectangleProjectedShape` class. |
-| [RectangleProjectedShape(RectangleF rectangle)](#RectangleProjectedShape-com.aspose.imaging.RectangleF-) | Initializes a new instance of the `RectangleProjectedShape` class. |
 ## Methods
 
 | Method | Description |
@@ -37,27 +31,6 @@ Represents a shape which is projected over rectangle turned to a particular orie
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `Object` is equal to this instance. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
-### RectangleProjectedShape() {#RectangleProjectedShape--}
-```
-public RectangleProjectedShape()
-```
-
-
-Initializes a new instance of the `RectangleProjectedShape` class.
-
-### RectangleProjectedShape(RectangleF rectangle) {#RectangleProjectedShape-com.aspose.imaging.RectangleF-}
-```
-public RectangleProjectedShape(RectangleF rectangle)
-```
-
-
-Initializes a new instance of the `RectangleProjectedShape` class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | The rectangle to initialize from. |
-
 ### getLeftTop() {#getLeftTop--}
 ```
 public PointF getLeftTop()

@@ -24,8 +24,8 @@ RD optimizer settings class
 | --- | --- |
 | [getBppScale()](#getBppScale--) | Gets the BPP (bits per pixel) scale factor. |
 | [setBppScale(int value)](#setBppScale-int-) | Sets the BPP (bits per pixel) scale factor. |
-| [getBppMax()](#getBppMax--) | Gets the maximum R value for consideration in in bits per pixel |
-| [setBppMax(double value)](#setBppMax-double-) | Sets the maximum R value for consideration in in bits per pixel |
+| [getBppMax()](#getBppMax--) | Gets the maximum R value for consideration in bits per pixel |
+| [setBppMax(double value)](#setBppMax-double-) | Sets the maximum R value for consideration in bits per pixel |
 | [getMaxQ()](#getMaxQ--) | Gets the maximum quantization value. |
 | [setMaxQ(int value)](#setMaxQ-int-) | Sets the maximum quantization value. |
 | [getMinQ()](#getMinQ--) | Gets the minimum allowed quantization value. |
@@ -70,7 +70,7 @@ public double getBppMax()
 ```
 
 
-Gets the maximum R value for consideration in in bits per pixel
+Gets the maximum R value for consideration in bits per pixel
 
 **Returns:**
 double - The maximum R value for consideration in bits per pixel.
@@ -80,7 +80,7 @@ public void setBppMax(double value)
 ```
 
 
-Sets the maximum R value for consideration in in bits per pixel
+Sets the maximum R value for consideration in bits per pixel
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -16,11 +16,6 @@ public abstract class GaussianDeconvolutionFilterOptions extends DeconvolutionFi
 ```
 
 The deconvolution filter options using Gaussian blurring.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GaussianDeconvolutionFilterOptions(int size, double sigma)](#GaussianDeconvolutionFilterOptions-int-double-) | Initializes a new instance of the [GaussianDeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions) class. |
 ## Methods
 
 | Method | Description |
@@ -31,20 +26,6 @@ The deconvolution filter options using Gaussian blurring.
 | [setSigma(double value)](#setSigma-double-) | The Gaussian kernel sigma (smoothing). |
 | [getRadius()](#getRadius--) | Gets the radius of Gausseian ISquareConvolutionKernel. |
 | [setRadius(int value)](#setRadius-int-) | The radius of Gausseian ISquareConvolutionKernel. |
-### GaussianDeconvolutionFilterOptions(int size, double sigma) {#GaussianDeconvolutionFilterOptions-int-double-}
-```
-public GaussianDeconvolutionFilterOptions(int size, double sigma)
-```
-
-
-Initializes a new instance of the [GaussianDeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| size | int | The Gaussian kernel size. |
-| sigma | double | The Gaussian kernel sigma. |
-
 ### getSize() {#getSize--}
 ```
 public final int getSize()
