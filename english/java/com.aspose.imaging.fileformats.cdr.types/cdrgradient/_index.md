@@ -28,8 +28,8 @@ The cdr gradient
 | [setMode(int value)](#setMode-int-) | Sets the mode. |
 | [getAngle()](#getAngle--) | Gets the angle. |
 | [setAngle(double value)](#setAngle-double-) | Sets the angle. |
-| [getMidPoint()](#getMidPoint--) | Gets the mid point. |
-| [setMidPoint(double value)](#setMidPoint-double-) | Sets the mid point. |
+| [getMidPoint()](#getMidPoint--) | Gets the midpoint. |
+| [setMidPoint(double value)](#setMidPoint-double-) | Sets the midpoint. |
 | [getEdgeOffset()](#getEdgeOffset--) | Gets the edge offset. |
 | [setEdgeOffset(int value)](#setEdgeOffset-int-) | Sets the edge offset. |
 | [getCenterXOffset()](#getCenterXOffset--) | Gets the center x offset. |
@@ -121,22 +121,22 @@ public final double getMidPoint()
 ```
 
 
-Gets the mid point.
+Gets the midpoint.
 
 **Returns:**
-double - the mid point.
+double - the midpoint.
 ### setMidPoint(double value) {#setMidPoint-double-}
 ```
 public final void setMidPoint(double value)
 ```
 
 
-Sets the mid point.
+Sets the midpoint.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the mid point. |
+| value | double | the midpoint. |
 
 ### getEdgeOffset() {#getEdgeOffset--}
 ```

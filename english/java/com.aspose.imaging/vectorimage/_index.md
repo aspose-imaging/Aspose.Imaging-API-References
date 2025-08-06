@@ -16,11 +16,6 @@ public abstract class VectorImage extends Image implements IObjectWithSizeF
 ```
 
 The vector image is the base class for all type of vector images.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VectorImage()](#VectorImage--) |  |
 ## Methods
 
 | Method | Description |
@@ -71,12 +66,6 @@ try(com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePath
     image.save(outputFilePath, exportOptions);
 }
 ```
-
-### VectorImage() {#VectorImage--}
-```
-public VectorImage()
-```
-
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```

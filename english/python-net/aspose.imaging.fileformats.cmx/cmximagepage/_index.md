@@ -89,7 +89,7 @@ url: /python-net/aspose.imaging.fileformats.cmx/cmximagepage/
 | remove_metadata() | Removes metadata. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_40) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_41) | Resizes the specified new width. |
-| [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_42) | Resizes the image. |
+| [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_42) | Resizes the image with extended options. |
 | [resize_by_settings(new_width, new_height, settings)](#resize_by_settings_new_width_new_height_settings_43) | Resizes the image. |
 | [resize_by_type(new_width, new_height, resize_type)](#resize_by_type_new_width_new_height_resize_type_44) | Resizes the image. |
 | [resize_height_proportionally(new_height)](#resize_height_proportionally_new_height_45) | Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
@@ -1042,7 +1042,7 @@ Resizes the specified new width.
  resize(new_width, new_height, settings) 
 ```
 
-Resizes the image.
+Resizes the image with extended options.
 
 **Parameters:**
 

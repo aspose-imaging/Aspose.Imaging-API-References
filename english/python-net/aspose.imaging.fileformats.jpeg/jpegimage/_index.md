@@ -119,7 +119,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_44) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_45) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_46) | Retrieves the date and time when the resource image underwent its latest <br/>            modification. This method provides valuable metadata, enabling users to track and <br/>            manage updates to the image file effectively. By accessing this information, users <br/>            can ensure the integrity and currency of their image assets, facilitating informed <br/>            decision-making regarding image usage and maintenance. |
-| [get_original_options()](#get_original_options__47) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
+| [get_original_options()](#get_original_options__47) | Gets the original image options of this [Image](/imaging/python-net/aspose.imaging/image/) instance. |
 | [get_pixel(x, y)](#get_pixel_x_y_48) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_49) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_50) | Gets a proportional width. |
@@ -1228,13 +1228,13 @@ Retrieves the date and time when the resource image underwent its latest <br/>  
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
+Gets the original image options of this [Image](/imaging/python-net/aspose.imaging/image/) instance.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The options based on the original file settings. |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A clone of original image options. |
 
 
 ### Method: get_pixel(x, y) {#get_pixel_x_y_48}

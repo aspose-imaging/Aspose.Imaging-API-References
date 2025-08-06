@@ -40,7 +40,7 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 | [getFrames()](#getFrames--) | Retrieve an array of [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) instances, enabling comprehensive access and manipulation of individual frames within the TIFF image. |
 | [getExifData()](#getExifData--) | Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. |
-| [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. |
+| [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multipage content. |
 | [getPages()](#getPages--) | Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. |
 | [hasAlpha()](#hasAlpha--) | Determine whether the image has an alpha channel, providing crucial information for rendering and compositing operations. |
 | [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`. |
@@ -603,7 +603,7 @@ public int getPageCount()
 ```
 
 
-Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multi-page content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
+Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multipage content. Incorporate this functionality to enhance user experience, enabling seamless access to comprehensive document structures.
 
 **Returns:**
 int - the page count.
@@ -679,7 +679,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Incorporate a new page into the existing image seamlessly, expanding its content and versatility. Utilize this method to enhance document composition and management, empowering efficient handling of multi-page images within your application.
+Incorporate a new page into the existing image seamlessly, expanding its content and versatility. Utilize this method to enhance document composition and management, empowering efficient handling of multipage images within your application.
 
 **Parameters:**
 | Parameter | Type | Description |
