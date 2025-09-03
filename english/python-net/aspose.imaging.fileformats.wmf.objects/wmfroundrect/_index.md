@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfroundrect/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| height | short | r/w | Gets or sets the height. |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
-| width | short | r/w | Gets or sets the width. |
+| height | int | r/w | Gets or sets the height. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets the rectangle. |
+| width | int | r/w | Gets or sets the width. |
 
 
 ### Constructor: WmfRoundRect() {#WmfRoundRect__1}

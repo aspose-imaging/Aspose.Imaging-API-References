@@ -21,15 +21,15 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| count | ulong | r | Gets the count of elements. |
-| data | byte | r/w | Gets or sets the data. |
-| data_size | ulong | r | Gets the tag value size. |
-| element_size | byte | r | Gets the element size in bytes. |
-| id | ushort | r | Gets tag id as number. |
+| count | int | r | Gets the count of elements. |
+| data | System.Byte | r/w | Gets or sets the data. |
+| data_size | int | r | Gets the tag value size. |
+| element_size | System.Byte | r | Gets the element size in bytes. |
+| id | int | r | Gets tag id as number. |
 | is_valid | bool | r | Gets a value indicating whether tag data is valid. The valid tag contains data which may be preserved. The invalid tag cannot be stored. |
 | tag_id | [TiffTags](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) | r | Gets the tag id. |
 | tag_type | [TiffDataTypes](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffdatatypes/) | r | Gets the tag type. |
-| value | object | r/w | Gets or sets the value this data type contains. |
+| value | System.Object | r/w | Gets or sets the value this data type contains. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -72,7 +72,7 @@ Initializes a new instance of the [TiffUndefinedType](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | ushort | The tag id. |
+| tag_id | int | The tag id. |
 
 ### Method: compare_to(obj) {#compare_to_obj_1}
 
@@ -87,7 +87,7 @@ Compares the current instance with another object of the same type and returns a
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| obj | object | An object to compare with this instance. |
+| obj | System.Object | An object to compare with this instance. |
 
 **Returns**
 
@@ -115,7 +115,7 @@ Initializes a new instance of the [TiffUndefinedType](/imaging/python-net/aspose
 
 | Type | Description |
 | :- | :- |
-| [TiffUndefinedType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype) |  |
+| [TiffUndefinedType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/) |  |
 
 
 ### Method: create_with_tag_id(tag_id)  [static] {#create_with_tag_id_tag_id_3}
@@ -131,13 +131,13 @@ Initializes a new instance of the [TiffUndefinedType](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | ushort | The tag id. |
+| tag_id | int | The tag id. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffUndefinedType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype) |  |
+| [TiffUndefinedType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/) |  |
 
 
 ### Method: deep_clone() {#deep_clone__4}
@@ -153,7 +153,7 @@ Performs a deep clone of this instance.
 
 | Type | Description |
 | :- | :- |
-| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype) | A deep clone of the current instance. |
+| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | A deep clone of the current instance. |
 
 
 ### Method: get_additional_data_size(size_of_tag_value) {#get_additional_data_size_size_of_tag_value_5}
@@ -169,13 +169,13 @@ Gets the additional tag value size in bytes (in case the tag can not fit the who
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size_of_tag_value | byte | Size of tag value: 4 or 8 for BigTiff. |
+| size_of_tag_value | System.Byte | Size of tag value: 4 or 8 for BigTiff. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| ulong | The additional data size in bytes. |
+| int | The additional data size in bytes. |
 
 
 ### Method: get_aligned_data_size(size_of_tag_value) {#get_aligned_data_size_size_of_tag_value_6}
@@ -191,13 +191,13 @@ Gets the data size aligned in 4-byte (int) or 8-byte (long) boundary.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size_of_tag_value | byte | Size of tag value. |
+| size_of_tag_value | System.Byte | Size of tag value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| ulong | The aligned data size in bytes. |
+| int | The aligned data size in bytes. |
 
 
 ### Method: read_tag(data_stream, position)  [static] {#read_tag_data_stream_position_7}
@@ -214,13 +214,13 @@ Reads the tag data.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data_stream | [TiffStreamReader](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/) | The data stream. |
-| position | long | The tag position. |
+| position | int | The tag position. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype) | The read tag. |
+| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The read tag. |
 
 
 ### Method: write_additional_data(data_stream) {#write_additional_data_data_stream_8}
@@ -242,7 +242,7 @@ Writes the additional tag data.
 
 | Type | Description |
 | :- | :- |
-| long | The actual bytes written. |
+| int | The actual bytes written. |
 
 
 ### Method: write_tag(data_stream, additional_data_offset) {#write_tag_data_stream_additional_data_offset_9}
@@ -259,5 +259,5 @@ Writes the tag value or additional offset.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data_stream | [TiffStreamWriter](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/) | The data stream. |
-| additional_data_offset | long | The additional data offset. |
+| additional_data_offset | int | The additional data offset. |
 

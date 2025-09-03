@@ -105,7 +105,7 @@ Adds string property.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | object | The string value. |
+| value | System.Object | The string value. |
 
 ### Method: contains_key(key) {#contains_key_key_3}
 
@@ -148,7 +148,7 @@ Gets the object with the specified key.
 
 | Type | Description |
 | :- | :- |
-| object | Returns the object with the specified key. |
+| System.Object | Returns the object with the specified key. |
 
 
 ### Method: get_xml_value() {#get_xml_value__5}
@@ -247,7 +247,7 @@ Sets the alternative time code.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| timecode | [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode) | Time code. |
+| timecode | [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/) | Time code. |
 
 ### Method: set_artist(artist) {#set_artist_artist_11}
 
@@ -277,7 +277,7 @@ Sets the audio channel type.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| audio_channel_type | [AudioChannelType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype) | Audio channel type. |
+| audio_channel_type | [AudioChannelType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/) | Audio channel type. |
 
 ### Method: set_audio_sample_rate(rate) {#set_audio_sample_rate_rate_13}
 
@@ -307,7 +307,7 @@ Sets the audio sample type.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| audio_sample_type | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | The audio sample type. |
+| audio_sample_type | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/) | The audio sample type. |
 
 ### Method: set_camera_angle(camera_angle) {#set_camera_angle_camera_angle_15}
 
@@ -442,7 +442,7 @@ Sets the duration.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| duration | [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time) | The duration. |
+| duration | [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time/) | The duration. |
 
 ### Method: set_engineer(engineer) {#set_engineer_engineer_24}
 
@@ -532,7 +532,7 @@ Sets the intro time.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| intro_time | [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time) | The intro time. |
+| intro_time | [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time/) | The intro time. |
 
 ### Method: set_key(key) {#set_key_key_30}
 
@@ -578,7 +578,7 @@ Gets or sets the object with the specified key.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | object | The object with the specified key. |
+| value | System.Object | The object with the specified key. |
 
 ### Method: set_value(key, value) {#set_value_key_value_33}
 
@@ -594,7 +594,7 @@ Sets the value.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
+| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue/) | The value to add to. |
 
 ### Method: set_value(key, value) {#set_value_key_value_34}
 
@@ -642,7 +642,7 @@ Gets the value by the _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The XMP element key. |
-| value | Object | The XMP value. |
+| value | System.Object | The XMP value. |
 
 **Returns**
 

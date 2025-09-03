@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpinteger/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| value | long | r/w | Gets or sets the value. |
+| value | int | r/w | Gets or sets the value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -43,7 +43,7 @@ Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imagin
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | long | The value. |
+| value | int | The value. |
 
 ### Constructor: XmpInteger(value) {#XmpInteger_value_2}
 
@@ -88,7 +88,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

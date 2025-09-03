@@ -1,7 +1,7 @@
 ---
 title: ImageLoadersRegistry Class
 type: docs
-weight: 5630
+weight: 5650
 url: /python-net/aspose.imaging/imageloadersregistry/
 ---
 
@@ -14,8 +14,8 @@ url: /python-net/aspose.imaging/imageloadersregistry/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| registered_descriptors [static] | [IImageLoaderDescriptor[]](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | r | Gets the registered descriptors. |
-| registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the registered image loading formats. |
+| registered_descriptors [static] | [IImageLoaderDescriptor[]](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | r | Gets the registered descriptors. |
+| registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets the registered image loading formats. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -42,13 +42,13 @@ Creates the first found loader suitable for the specified _stream_ and optionall
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader) | The loader which supports the specified _stream_ and _loadOptions_ or null if no such loader is found. |
+| [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader/) | The loader which supports the specified _stream_ and _loadOptions_ or null if no such loader is found. |
 
 
 ### Method: get_first_supported_descriptor(stream, load_options)  [static] {#get_first_supported_descriptor_stream_load_options_2}
@@ -65,13 +65,13 @@ Gets the fist found supported descriptor suitable for the specified _stream_ and
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The loader descriptor which supports the specified _stream_ and _loadOptions_ or null if no such descriptor is found. |
+| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The loader descriptor which supports the specified _stream_ and _loadOptions_ or null if no such descriptor is found. |
 
 
 ### Method: get_first_supported_descriptor_by_file_format(file_format)  [static] {#get_first_supported_descriptor_by_file_format_file_format_3}
@@ -87,13 +87,13 @@ Gets the first supported file format by its type name.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | The supported descriptor file format. |
+| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | The supported descriptor file format. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The first found loader descriptor or null if not such descriptor is found. |
+| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The first found loader descriptor or null if not such descriptor is found. |
 
 
 ### Method: get_first_supported_descriptor_by_type_name(descriptor_type_name)  [static] {#get_first_supported_descriptor_by_type_name_descriptor_type_name_4}
@@ -115,7 +115,7 @@ Gets the first supported descriptor by its type name.
 
 | Type | Description |
 | :- | :- |
-| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The first found loader descriptor or null if not such descriptor is found. |
+| [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The first found loader descriptor or null if not such descriptor is found. |
 
 
 ### Method: register(image_loader_descriptor)  [static] {#register_image_loader_descriptor_5}
@@ -131,7 +131,7 @@ Registers the specified image loader descriptor.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_loader_descriptor | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The image loader descriptor. |
+| image_loader_descriptor | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The image loader descriptor. |
 
 ### Method: register_loader(loader_descriptor)  [static] {#register_loader_loader_descriptor_6}
 
@@ -146,7 +146,7 @@ Registers the loader.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| loader_descriptor | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The loader descriptor to register. |
+| loader_descriptor | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The loader descriptor to register. |
 
 ### Method: unregister_loader(loader_descriptor)  [static] {#unregister_loader_loader_descriptor_7}
 
@@ -161,5 +161,5 @@ Unregisters the loader.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| loader_descriptor | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | The loader descriptor to unregister. |
+| loader_descriptor | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The loader descriptor to unregister. |
 

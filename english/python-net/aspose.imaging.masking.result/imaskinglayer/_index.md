@@ -35,7 +35,7 @@ Provides result image.
 
 | Type | Description |
 | :- | :- |
-| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Result image. |
+| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Result image. |
 
 
 ### Method: get_mask() {#get_mask__2}
@@ -51,6 +51,6 @@ Gets the image mask.
 
 | Type | Description |
 | :- | :- |
-| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Result image mask. |
+| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Result image mask. |
 
 

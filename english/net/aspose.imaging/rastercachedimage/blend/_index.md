@@ -3,7 +3,7 @@ title: RasterCachedImage.Blend
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Blends this image instance with the overlay image
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.imaging/rastercachedimage/blend/
 ---
 ## RasterCachedImage.Blend method

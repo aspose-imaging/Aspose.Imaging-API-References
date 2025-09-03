@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.interfaces/iobjectwithsizef/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | height_f | float | r | Gets the object height, in inches. |
-| size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r | Gets the object size, in inches. |
+| size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r | Gets the object size, in inches. |
 | width_f | float | r | Gets the object width, in inches. |
 
 

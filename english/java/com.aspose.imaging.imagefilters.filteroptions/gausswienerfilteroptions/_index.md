@@ -3,7 +3,7 @@ title: GaussWienerFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Gauss Wiener filter options for image debluring.
 type: docs
-weight: 15
+weight: 18
 url: /java/com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
 ---
 **Inheritance:**

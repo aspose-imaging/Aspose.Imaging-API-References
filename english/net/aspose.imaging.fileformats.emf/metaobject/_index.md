@@ -3,7 +3,7 @@ title: Class MetaObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.MetaObject class. Base class for EMF WMF EMF objects
 type: docs
-weight: 6590
+weight: 6600
 url: /net/aspose.imaging.fileformats.emf/metaobject/
 ---
 ## MetaObject class

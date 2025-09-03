@@ -20,19 +20,19 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| childs | list[CdrObject] | r | Gets or sets the objects. |
+| childs | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Cdr.Objects.CdrObject]] | r | Gets or sets the objects. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
 | fill_id | int | r/w | Gets or sets the fill identifier. |
 | hidden | bool | r/w | Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible. |
-| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the last child. |
+| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the last child. |
 | load_to_last_child | bool | r/w | Gets or sets a value indicating whether [load to last child]. |
-| opacity | double | r/w | Gets or sets the opacity. |
+| opacity | float | r/w | Gets or sets the opacity. |
 | opacity_fill_id | int | r/w | Gets or sets the opacity fill identifier. |
 | out_line_id | int | r/w | Gets or sets the out line identifier. |
-| page_height | double | r/w | Gets or sets the height of the page. |
-| page_width | double | r/w | Gets or sets the width of the page. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| page_height | float | r/w | Gets or sets the height of the page. |
+| page_width | float | r/w | Gets or sets the width of the page. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 | style_id | int | r/w | Gets or sets the style identifier. |
 ## **Methods**
 | **Name** | **Description** |
@@ -63,7 +63,7 @@ Adds the child object.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 
 ### Method: insert_object(cdr_object) {#insert_object_cdr_object_2}
 
@@ -78,5 +78,5 @@ Inserts the object
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 

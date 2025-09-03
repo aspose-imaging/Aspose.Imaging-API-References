@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.GetSerializedStream
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Converts to aps
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.imaging/rastercachedmultipageimage/getserializedstream/
 ---
 ## RasterCachedMultipageImage.GetSerializedStream method

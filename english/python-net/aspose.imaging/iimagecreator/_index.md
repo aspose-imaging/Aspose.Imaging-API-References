@@ -1,7 +1,7 @@
 ---
 title: IImageCreator Class
 type: docs
-weight: 5220
+weight: 5250
 url: /python-net/aspose.imaging/iimagecreator/
 ---
 
@@ -30,8 +30,8 @@ Creates a new image instance with _imageOptions_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container to create image data in. |
-| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The image options. |
+| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container to create image data in. |
+| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The image options. |
 | width | int | width of new image |
 | height | int | height of new image |
 
@@ -39,6 +39,6 @@ Creates a new image instance with _imageOptions_.
 
 | Type | Description |
 | :- | :- |
-| [Image](/imaging/python-net/aspose.imaging/image) | A new image instance. |
+| [Image](/imaging/python-net/aspose.imaging/image/) | A new image instance. |
 
 

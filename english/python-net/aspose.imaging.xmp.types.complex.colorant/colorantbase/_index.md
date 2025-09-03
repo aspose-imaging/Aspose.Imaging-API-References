@@ -16,8 +16,8 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantbase/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype) | r/w | Gets or sets the type of the color. |
-| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
+| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype/) | r/w | Gets or sets the type of the color. |
+| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |
 | swatch_name | string | r/w | Gets or sets the name of the swatch. |
@@ -41,7 +41,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

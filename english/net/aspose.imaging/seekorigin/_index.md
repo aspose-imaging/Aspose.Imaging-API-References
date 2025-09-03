@@ -3,7 +3,7 @@ title: Enum SeekOrigin
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.SeekOrigin enum. Provides the fields that represent reference points in StreamContainer for seeking
 type: docs
-weight: 11340
+weight: 11370
 url: /net/aspose.imaging/seekorigin/
 ---
 ## SeekOrigin enumeration

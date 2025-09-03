@@ -21,9 +21,9 @@ url: /python-net/aspose.imaging.watermark.options/teleawatermarkoptions/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| graphics_path_mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w | Gets or sets the mask. |
+| graphics_path_mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | r/w | Gets or sets the mask. |
 | half_patch_size | int | r/w | Gets or sets the half patch size. |
-| mask | iter[Point] | r/w | Gets or sets the mask. |
+| mask | System.Collections.Generic.IEnumerable`1[[Aspose.Imaging.Point]] | r/w | Gets or sets the mask. |
 
 
 ### Constructor: TeleaWatermarkOptions(mask) {#TeleaWatermarkOptions_mask_1}
@@ -39,7 +39,7 @@ Initializes a new instance of the [TeleaWatermarkOptions](/imaging/python-net/as
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [Point[]](/imaging/python-net/aspose.imaging/point) | The mask for the unknown area. |
+| mask | [Point[]](/imaging/python-net/aspose.imaging/point/) | The mask for the unknown area. |
 
 ### Constructor: TeleaWatermarkOptions(mask) {#TeleaWatermarkOptions_mask_2}
 
@@ -54,7 +54,7 @@ Initializes a new instance of the [TeleaWatermarkOptions](/imaging/python-net/as
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The mask for the unknown area. |
+| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The mask for the unknown area. |
 
 ## **Examples**
 ### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_204}

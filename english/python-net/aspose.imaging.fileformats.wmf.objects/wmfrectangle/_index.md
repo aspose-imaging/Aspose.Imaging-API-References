@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfrectangle/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets the rectangle. |
 
 
 ### Constructor: WmfRectangle() {#WmfRectangle__1}

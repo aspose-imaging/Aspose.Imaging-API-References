@@ -1,7 +1,7 @@
 ---
 title: RemoveBackgroundSettings Class
 type: docs
-weight: 7070
+weight: 7090
 url: /python-net/aspose.imaging/removebackgroundsettings/
 ---
 
@@ -18,10 +18,10 @@ url: /python-net/aspose.imaging/removebackgroundsettings/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | RectangleF | r/w | Gets or sets the bounds. |
-| color1 | Color | r/w | Gets or sets the color. |
-| color2 | Color | r/w | Gets or sets the color2. |
-| detection_level | int | r/w | Gets or sets the detection level. |
+| bounds | System.Nullable`1[[Aspose.Imaging.RectangleF]] | r/w | Gets or sets the bounds. |
+| color1 | System.Nullable`1[[Aspose.Imaging.Color]] | r/w | Gets or sets the color. |
+| color2 | System.Nullable`1[[Aspose.Imaging.Color]] | r/w | Gets or sets the color2. |
+| detection_level | System.Nullable`1[[System.Int32]] | r/w | Gets or sets the detection level. |
 
 
 ### Constructor: RemoveBackgroundSettings() {#RemoveBackgroundSettings__1}

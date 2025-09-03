@@ -17,6 +17,6 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| elements | list[ICmxDocElement] | r | Gets the elements. |
+| elements | System.Collections.Generic.IList`1[[Aspose.Imaging.FileFormats.Cmx.ObjectModel.ICmxDocElement]] | r | Gets the elements. |
 
 

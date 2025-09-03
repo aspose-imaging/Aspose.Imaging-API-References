@@ -3,7 +3,7 @@ title: Class WmfFrameRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfFrameRegion class. The wmf frame region object
 type: docs
-weight: 8830
+weight: 8840
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfframeregion/
 ---
 ## WmfFrameRegion class

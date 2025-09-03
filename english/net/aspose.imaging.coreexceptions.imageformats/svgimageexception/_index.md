@@ -3,7 +3,7 @@ title: Class SvgImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.SvgImageException class. The SVG image exception class
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.imaging.coreexceptions.imageformats/svgimageexception/
 ---
 ## SvgImageException class

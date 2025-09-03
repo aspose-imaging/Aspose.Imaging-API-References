@@ -14,8 +14,11 @@ The package handles filter options.
 
 | Class | Description |
 | --- | --- |
+| [AdaptiveWhiteStretchFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/adaptivewhitestretchfilteroptions) | Provides options for configuring the Adaptive White Stretch filter. |
+| [AutoWhiteBalanceFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions) | Provides configuration options for the Auto White Balance filter. |
 | [BigRectangularFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/bigrectangularfilteroptions) | Big Rectangular Filter Options |
 | [BilateralSmoothingFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions) | The Bilateral Smoothing Filter Options. |
+| [ClaheFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) | Provides options for configuring the Contrast-Limited Adaptive Histogram Equalization (CLAHE) filter. |
 | [ConvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) | The convolution filter options. |
 | [DeconvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) | Deconvolution Filter Options, abstract class |
 | [FilterOptionsBase](../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | Base filter options class. |

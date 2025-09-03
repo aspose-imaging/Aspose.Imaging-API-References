@@ -3,7 +3,7 @@ title: RasterCachedImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Performs dithering on the current image
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.imaging/rastercachedimage/dither/
 ---
 ## RasterCachedImage.Dither method

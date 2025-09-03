@@ -1,7 +1,7 @@
 ---
 title: IPartialArgb32PixelLoader Class
 type: docs
-weight: 5420
+weight: 5440
 url: /python-net/aspose.imaging/ipartialargb32pixelloader/
 ---
 
@@ -30,8 +30,8 @@ Processes the loaded pixels.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The pixels rectangle. |
-| pixels | int | The 32-bit ARGB pixels. |
-| start | [Point](/imaging/python-net/aspose.imaging/point) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
-| end | [Point](/imaging/python-net/aspose.imaging/point) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
+| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The pixels rectangle. |
+| pixels | int[] | The 32-bit ARGB pixels. |
+| start | [Point](/imaging/python-net/aspose.imaging/point/) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
+| end | [Point](/imaging/python-net/aspose.imaging/point/) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
 

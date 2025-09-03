@@ -3,7 +3,7 @@ title: Interface IHasJpegExifData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.IHasJpegExifData interface. JpegExifData instance container interface
 type: docs
-weight: 1100
+weight: 1110
 url: /net/aspose.imaging.exif/ihasjpegexifdata/
 ---
 ## IHasJpegExifData interface

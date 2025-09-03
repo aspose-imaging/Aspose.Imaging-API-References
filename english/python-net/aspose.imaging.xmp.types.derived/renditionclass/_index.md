@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/renditionclass/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| defined_values [static] | string | r | The defined values |
+| defined_values [static] | string[] | r | The defined values |
 | token | string | r/w | Gets or sets the token. |
 | value | string | r/w | Gets or sets the value. |
 ## **Methods**
@@ -69,7 +69,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

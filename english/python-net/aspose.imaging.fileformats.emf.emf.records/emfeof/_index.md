@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| palette_argb_32_entries | int | r/w | Gets or sets an optional buffer that contains palette data, which is not <br/>            required to be contiguous with the fixed portion of the EMR_EOF <br/>            record. Accordingly, fields in this buffer that are labeled <br/>            "UndefinedSpace" are optional and MUST be ignored. <br/>            The size of this field MUST be a multiple of 4 bytes |
+| palette_argb_32_entries | int[] | r/w | Gets or sets an optional buffer that contains palette data, which is not <br/>            required to be contiguous with the fixed portion of the EMR_EOF <br/>            record. Accordingly, fields in this buffer that are labeled <br/>            "UndefinedSpace" are optional and MUST be ignored. <br/>            The size of this field MUST be a multiple of 4 bytes |
 | size | int | r/w | Gets or sets the size of the record |
 | size_last | int | r/w | Gets or sets a 32-bit unsigned integer that MUST be the same as Size and MUST be the last <br/>            field of the record and hence the metafile. LogPaletteEntry objects, if they <br/>            exist, MUST precede this field. |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
@@ -54,7 +54,7 @@ Initializes a new instance of the [EmfEof](/imaging/python-net/aspose.imaging.fi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| record | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The record. |
+| record | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | The record. |
 
 ### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
@@ -69,13 +69,13 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | The source. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
 
 
 ### Method: create_from_type(type)  [static] {#create_from_type_type_2}
@@ -97,6 +97,6 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 
 | Type | Description |
 | :- | :- |
-| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
 
 

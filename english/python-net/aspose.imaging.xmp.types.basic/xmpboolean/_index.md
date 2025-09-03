@@ -82,7 +82,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

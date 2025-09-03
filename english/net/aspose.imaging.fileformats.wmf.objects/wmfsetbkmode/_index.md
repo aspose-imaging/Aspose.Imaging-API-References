@@ -3,7 +3,7 @@ title: Class WmfSetBkMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetBkMode class. The set bk mode
 type: docs
-weight: 9180
+weight: 9190
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
 ---
 ## WmfSetBkMode class

@@ -3,7 +3,7 @@ title: LinqWrapperException
 second_title: Aspose.Imaging for Java API Reference
 description: LinqWrapper exceptions class.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.aspose.imaging.coreexceptions/linqwrapperexception/
 ---
 **Inheritance:**

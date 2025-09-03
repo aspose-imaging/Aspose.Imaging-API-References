@@ -3,7 +3,7 @@ title: Class ApngImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Apng.ApngImage class. The API for Animated PNG Animated Portable Network Graphics image file format is a versatile solution for developers looking to integrate animated content into their applications. This API offers extensive control over frame settings allowing users to define framespecific parameters including loop duration and PNG file settings. With this featurerich tool you can effortlessly manage and optimize the display of APNG images import and export images enhancing the dynamic and interactive aspects of your applications
 type: docs
-weight: 1340
+weight: 1350
 url: /net/aspose.imaging.fileformats.apng/apngimage/
 ---
 ## ApngImage class
@@ -77,6 +77,8 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [AdjustContrast](../../aspose.imaging.fileformats.apng/apngimage/adjustcontrast/)(float) | Enhance the contrast of the [`Image`](../../aspose.imaging/image/) to make details stand out with this intuitive method. Ideal for developers seeking to improve the visual clarity and impact of their images dynamically. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma/#adjustgamma)(float) | Apply gamma correction to the image using a floating-point coefficient with this intuitive method. Ideal for developers seeking precise color control in their images. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma/#adjustgamma_1)(float, float, float) | Perform gamma correction on the image separately for the red, green, and blue channels using individual coefficients with this intuitive method. Ideal for developers seeking to fine-tune color balance and enhance the visual quality of their images. |
+| override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.apng/apngimage/binarizebradley/#binarizebradley_1)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.apng/apngimage/binarizefixed/)(byte) | Effortlessly binarize the image using a predefined threshold with this intuitive method. Ideal for developers seeking to convert images into binary form, simplifying them for further processing or analysis. |
@@ -90,6 +92,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/)(DitheringMethod, int) | Performs dithering on the current image. |
 | override [Dither](../../aspose.imaging.fileformats.apng/apngimage/dither/#dither_1)(DitheringMethod, int, IColorPalette) | Easily apply dithering effects to the current image with this intuitive method. Ideal for developers looking to add texture or reduce color banding in their images. |
+| override [EmbedDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into each page of the image. |
 | override [Filter](../../aspose.imaging.fileformats.apng/apngimage/filter/)(Rectangle, FilterOptionsBase) | Effortlessly apply filters to the specified rectangle of the image with this intuitive method. Perfect for developers seeking to enhance or modify specific areas. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel/)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels/)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
@@ -106,6 +109,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe/#insertframe)(int) | Effortlessly insert a new frame into your frame collection at the specified with this intuitive method. Ideal for developers seeking precise control over the arrangement of frames in their animations of multi-frame images. A new frame will be created according to the size of the current image. |
 | [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe/#insertframe_1)(int, RasterImage) | Inserts new frame into the own frame collection at the specified index. The contents of the new frame will be filled from the specified image. |
 | [InsertFrame](../../aspose.imaging.fileformats.apng/apngimage/insertframe/#insertframe_2)(int, RasterImage, uint) | Inserts new frame into the own frame collection at the specified index. The contents of the new frame will be filled from the specified image. |
+| override [IsDigitalSigned](../../aspose.imaging/rastercachedmultipageimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

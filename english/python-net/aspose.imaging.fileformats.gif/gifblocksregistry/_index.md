@@ -14,7 +14,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifblocksregistry/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| registered_descriptors [static] | [IGifBlockLoaderDescriptor[]](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | r | Gets the registered descriptors. |
+| registered_descriptors [static] | [IGifBlockLoaderDescriptor[]](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/) | r | Gets the registered descriptors. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -44,7 +44,7 @@ Gets the first supported opener descriptor.
 
 | Type | Description |
 | :- | :- |
-| [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | The gif block opener descriptor or null if no opener descriptor supported for such stream. |
+| [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/) | The gif block opener descriptor or null if no opener descriptor supported for such stream. |
 
 
 ### Method: get_first_supported_descriptor_by_type_name(descriptor_type_name)  [static] {#get_first_supported_descriptor_by_type_name_descriptor_type_name_2}
@@ -66,7 +66,7 @@ Gets the first supported descriptor by its type name.
 
 | Type | Description |
 | :- | :- |
-| [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | The first found opener descriptor or null if not such descriptor is found. |
+| [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/) | The first found opener descriptor or null if not such descriptor is found. |
 
 
 ### Method: load_block_by_first_supported_descriptor(stream, container_palette)  [static] {#load_block_by_first_supported_descriptor_stream_container_palette_3}
@@ -83,13 +83,13 @@ Loads gif block using first found opener suitable for the specified _stream_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
-| container_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The container palette. |
+| container_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The container palette. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IGifBlock](/imaging/python-net/aspose.imaging.fileformats.gif/igifblock) | The loaded gif block or null if no opener is found. |
+| [IGifBlock](/imaging/python-net/aspose.imaging.fileformats.gif/igifblock/) | The loaded gif block or null if no opener is found. |
 
 
 ### Method: register_opener(opener_descriptor)  [static] {#register_opener_opener_descriptor_4}
@@ -105,7 +105,7 @@ Registers the opener.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| opener_descriptor | [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | The opener descriptor to register. |
+| opener_descriptor | [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/) | The opener descriptor to register. |
 
 ### Method: unregister_opener(opener_descriptor)  [static] {#unregister_opener_opener_descriptor_5}
 
@@ -120,5 +120,5 @@ Unregisters the opener.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| opener_descriptor | [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | The opener descriptor to unregister. |
+| opener_descriptor | [IGifBlockLoaderDescriptor](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/) | The opener descriptor to unregister. |
 

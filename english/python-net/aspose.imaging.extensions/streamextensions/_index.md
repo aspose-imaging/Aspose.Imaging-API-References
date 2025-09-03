@@ -85,7 +85,7 @@ Creates a MemoryStream with a given array inside.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | byte | The array for wrapping. |
+| array | System.Byte | The array for wrapping. |
 
 **Returns**
 

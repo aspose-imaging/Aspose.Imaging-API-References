@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush
 | :- | :- | :- | :- |
 | color_usage | [WmfColorUsageEnum](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/) | r/w | Gets or sets the color usage. |
 | index | int | r/w | Gets or sets the index. |
-| source_bitmap | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap) | r/w | Gets or sets the source bitmap. |
+| source_bitmap | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets the source bitmap. |
 | style | [WmfBrushStyle](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/) | r/w | Gets or sets the style. |
 
 

@@ -1,7 +1,7 @@
 ---
 title: ColorMatrix Class
 type: docs
-weight: 1150
+weight: 1180
 url: /python-net/aspose.imaging/colormatrix/
 ---
 
@@ -77,7 +77,7 @@ Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imagi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | float[] | The values of the elements for the new [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
+| new_color_matrix | System.Single[] | The values of the elements for the new [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 
 ### Method: get(row, column) {#get_row_column_1}
 
@@ -115,7 +115,7 @@ Gets the matrix values.
 
 | Type | Description |
 | :- | :- |
-| float[] | The matrix values array. |
+| System.Single[] | The matrix values array. |
 
 
 ### Method: set(row, column, value) {#set_row_column_value_3}

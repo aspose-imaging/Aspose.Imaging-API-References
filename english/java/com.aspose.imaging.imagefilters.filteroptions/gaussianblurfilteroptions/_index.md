@@ -3,7 +3,7 @@ title: GaussianBlurFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Gaussian blur filter options.
 type: docs
-weight: 16
+weight: 19
 url: /java/com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/
 ---
 **Inheritance:**

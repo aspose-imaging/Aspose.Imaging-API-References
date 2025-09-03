@@ -3,7 +3,7 @@ title: RasterImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Performs dithering on the current image
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.imaging/rasterimage/dither/
 ---
 ## Dither(DitheringMethod, int, IColorPalette) {#dither_1}

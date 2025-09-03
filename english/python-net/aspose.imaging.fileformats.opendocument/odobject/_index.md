@@ -19,8 +19,8 @@ url: /python-net/aspose.imaging.fileformats.opendocument/odobject/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| items | list[OdObject] | r | Gets the items. |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| items | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.OpenDocument.OdObject]] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | r | Gets the parent object. |
 
 
 ### Constructor: OdObject() {#OdObject__1}
@@ -45,5 +45,5 @@ Initializes a new instance of the [OdObject](/imaging/python-net/aspose.imaging.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | The parent. |
 

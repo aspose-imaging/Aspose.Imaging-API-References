@@ -1,7 +1,7 @@
 ---
 title: IIndexedColorConverter Class
 type: docs
-weight: 5300
+weight: 5330
 url: /python-net/aspose.imaging/iindexedcolorconverter/
 ---
 
@@ -30,7 +30,7 @@ Fills the indexed to indexed image conversion map.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| map | byte | The conversion map. |
-| source_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The source format. |
-| dest_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The destination format. |
+| map | System.Byte | The conversion map. |
+| source_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The source format. |
+| dest_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The destination format. |
 

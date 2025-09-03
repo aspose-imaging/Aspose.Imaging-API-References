@@ -3,7 +3,7 @@ title: Enum EmfPlusCompositingQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusCompositingQuality enum. The CompositingQuality enumeration defines levels of quality for creating composite images
 type: docs
-weight: 4800
+weight: 4810
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingquality/
 ---
 ## EmfPlusCompositingQuality enumeration

@@ -1,7 +1,7 @@
 ---
 title: Blend Class
 type: docs
-weight: 290
+weight: 310
 url: /python-net/aspose.imaging/blend/
 ---
 
@@ -19,8 +19,8 @@ url: /python-net/aspose.imaging/blend/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| factors | float | r/w | Gets or sets the array of blend factors for the gradient. |
-| positions | float | r/w | Gets or sets the array of blend positions for the gradient. |
+| factors | float[] | r/w | Gets or sets the array of blend factors for the gradient. |
+| positions | float[] | r/w | Gets or sets the array of blend positions for the gradient. |
 
 
 ### Constructor: Blend() {#Blend__1}

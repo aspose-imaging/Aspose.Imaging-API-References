@@ -3,7 +3,7 @@ title: Class EmfPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolygon class. The EMR_POLYGON record specifies a polygon consisting of two or more vertexes connected by straight lines
 type: docs
-weight: 4150
+weight: 4160
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolygon/
 ---
 ## EmfPolygon class

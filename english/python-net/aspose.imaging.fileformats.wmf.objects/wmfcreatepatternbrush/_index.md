@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bitmap | [WmfBitmap16](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16) | r/w | Gets or sets the bitmap. |
+| bitmap | [WmfBitmap16](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/) | r/w | Gets or sets the bitmap. |
 | index | int | r/w | Gets or sets the index. |
-| pattern | byte | r/w | Gets or sets the pattern. |
-| reserved | byte | r/w | Gets or sets the reserved. |
+| pattern | System.Byte | r/w | Gets or sets the pattern. |
+| reserved | System.Byte | r/w | Gets or sets the reserved. |
 
 
 ### Constructor: WmfCreatePatternBrush() {#WmfCreatePatternBrush__1}

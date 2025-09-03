@@ -21,16 +21,16 @@ url: /python-net/aspose.imaging.shapes/rectangleshape/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
-| center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
+| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Gets the object's bounds. |
+| center | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the shape's center. |
 | has_segments | bool | r | Gets a value indicating whether shape has segments. |
-| left_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left bottom rectangle point. |
-| left_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left top rectangle point. |
-| rectangle_height | double | r | Gets the rectangle height. |
-| rectangle_width | double | r | Gets the rectangle width. |
-| right_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right bottom rectangle point. |
-| right_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right top rectangle point. |
-| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
+| left_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the left bottom rectangle point. |
+| left_top | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the left top rectangle point. |
+| rectangle_height | float | r | Gets the rectangle height. |
+| rectangle_width | float | r | Gets the rectangle width. |
+| right_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the right bottom rectangle point. |
+| right_top | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the right top rectangle point. |
+| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment/) | r | Gets the shape segments. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -61,7 +61,7 @@ Initializes a new instance of the [RectangleShape](/imaging/python-net/aspose.im
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The rectangle. |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The rectangle. |
 
 
 **See also:**
@@ -84,13 +84,13 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
@@ -106,14 +106,14 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The pen to use for object. This can influence the object's bounds size. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The pen to use for object. This can influence the object's bounds size. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: transform(transform) {#transform_transform_3}
@@ -129,7 +129,7 @@ Applies the specified transformation to the shape.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The transformation to apply. |
 
 ## **Examples**
 ### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_13}

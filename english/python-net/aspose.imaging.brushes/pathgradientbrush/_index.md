@@ -24,19 +24,19 @@ url: /python-net/aspose.imaging.brushes/pathgradientbrush/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| blend | [Blend](/imaging/python-net/aspose.imaging/blend) | r/w | Gets or sets a [Blend](/imaging/python-net/aspose.imaging/blend/) that specifies positions and factors that define a custom falloff for the gradient. |
-| center_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color at the center of the path gradient. |
-| center_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the center point of the path gradient. |
+| blend | [Blend](/imaging/python-net/aspose.imaging/blend/) | r/w | Gets or sets a [Blend](/imaging/python-net/aspose.imaging/blend/) that specifies positions and factors that define a custom falloff for the gradient. |
+| center_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the color at the center of the path gradient. |
+| center_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the center point of the path gradient. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| focus_scales | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the focus point for the gradient falloff. |
-| graphics_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r | Gets the graphics path this brush was build upon. |
-| interpolation_colors | [ColorBlend](/imaging/python-net/aspose.imaging/colorblend) | r/w | Gets or sets a [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) that defines a multicolor linear gradient. |
+| focus_scales | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the focus point for the gradient falloff. |
+| graphics_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | r | Gets the graphics path this brush was build upon. |
+| interpolation_colors | [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) | r/w | Gets or sets a [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) that defines a multicolor linear gradient. |
 | is_transform_changed | bool | r | Gets a value indicating whether transformations were changed in some way. For example setting the transformation matrix or<br/>            calling any of the methods altering the transformation matrix. The property is introduced for backward compatibility with GDI+. |
 | opacity | float | r/w | Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 means that brush is fully visible, value of 1 means the brush is fully opaque. |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r | Gets the path points this brush was build upon. |
-| surround_colors | [Color[]](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets an array of colors that correspond to the points in the path this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) fills. |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets a copy [Matrix](/imaging/python-net/aspose.imaging/matrix/) that defines a local geometric transform for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | r/w | Gets or sets a [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) enumeration that indicates the wrap mode for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the path points this brush was build upon. |
+| surround_colors | [Color[]](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets an array of colors that correspond to the points in the path this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) fills. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | r/w | Gets or sets a copy [Matrix](/imaging/python-net/aspose.imaging/matrix/) that defines a local geometric transform for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | r/w | Gets or sets a [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) enumeration that indicates the wrap mode for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -74,7 +74,7 @@ Initializes a new instance of the PathGradientBrush class
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) |  |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) |  |
 
 ### Constructor: PathGradientBrush(path_points) {#PathGradientBrush_path_points_2}
 
@@ -89,7 +89,7 @@ Initializes a new instance of the PathGradientBrush class
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) |  |
 
 ### Constructor: PathGradientBrush(path_points) {#PathGradientBrush_path_points_3}
 
@@ -104,7 +104,7 @@ Initializes a new instance of the PathGradientBrush class
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) |  |
+| path_points | [Point[]](/imaging/python-net/aspose.imaging/point/) |  |
 
 ### Constructor: PathGradientBrush(path_points, wrap_mode) {#PathGradientBrush_path_points_wrap_mode_4}
 
@@ -119,8 +119,8 @@ Initializes a new instance of the PathGradientBrush class
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) |  |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) |  |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) |  |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) |  |
 
 ### Constructor: PathGradientBrush(path_points, wrap_mode) {#PathGradientBrush_path_points_wrap_mode_5}
 
@@ -135,8 +135,8 @@ Initializes a new instance of the PathGradientBrush class
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) |  |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) |  |
+| path_points | [Point[]](/imaging/python-net/aspose.imaging/point/) |  |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) |  |
 
 ### Method: create_with_path(path)  [static] {#create_with_path_path_1}
 
@@ -151,13 +151,13 @@ Initializes a new instance of the [PathGradientBrush](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that defines the area filled by this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/). |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that defines the area filled by this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush) |  |
+| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) |  |
 
 
 ### Method: create_with_points(path_points)  [static] {#create_with_points_path_points_2}
@@ -173,13 +173,13 @@ Initializes a new instance of the [PathGradientBrush](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
+| path_points | [Point[]](/imaging/python-net/aspose.imaging/point/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush) |  |
+| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) |  |
 
 
 ### Method: create_with_points_f(path_points)  [static] {#create_with_points_f_path_points_3}
@@ -195,13 +195,13 @@ Initializes a new instance of the [PathGradientBrush](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush) |  |
+| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) |  |
 
 
 ### Method: create_with_points_f_wrap_mode(path_points, wrap_mode)  [static] {#create_with_points_f_wrap_mode_path_points_wrap_mode_4}
@@ -217,14 +217,14 @@ Initializes a new instance of the [PathGradientBrush](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how fills drawn with this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) are tiled. |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points that make up the vertices of the path. |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how fills drawn with this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) are tiled. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush) |  |
+| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) |  |
 
 
 ### Method: create_with_points_wrap_mode(path_points, wrap_mode)  [static] {#create_with_points_wrap_mode_path_points_wrap_mode_5}
@@ -240,14 +240,14 @@ Initializes a new instance of the [PathGradientBrush](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_points | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of [Point](/imaging/python-net/aspose.imaging/point/) structures that represents the points that make up the vertices of the path. |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how fills drawn with this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) are tiled. |
+| path_points | [Point[]](/imaging/python-net/aspose.imaging/point/) | An array of [Point](/imaging/python-net/aspose.imaging/point/) structures that represents the points that make up the vertices of the path. |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | A [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how fills drawn with this [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) are tiled. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush) |  |
+| [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) |  |
 
 
 ### Method: deep_clone() {#deep_clone__6}
@@ -263,7 +263,7 @@ Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imagi
 
 | Type | Description |
 | :- | :- |
-| [Brush](/imaging/python-net/aspose.imaging/brush) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
+| [Brush](/imaging/python-net/aspose.imaging/brush/) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
 
 
 ### Method: multiply_transform(matrix) {#multiply_transform_matrix_7}
@@ -279,7 +279,7 @@ Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represe
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
 
 ### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_8}
 
@@ -294,8 +294,8 @@ Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represe
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies in which order to multiply the two matrices. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies in which order to multiply the two matrices. |
 
 ### Method: rotate_transform(angle) {#rotate_transform_angle_9}
 
@@ -326,7 +326,7 @@ Rotates the local geometric transform by the specified amount in the specified o
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | The angle of rotation. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
 
 ### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_11}
 
@@ -359,7 +359,7 @@ Scales the local geometric transform by the specified amounts in the specified o
 | :- | :- | :- |
 | sx | float | The amount by which to scale the transform in the x-axis direction. |
 | sy | float | The amount by which to scale the transform in the y-axis direction. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
 
 ### Method: set_blend_triangular_shape(focus) {#set_blend_triangular_shape_focus_13}
 
@@ -454,5 +454,5 @@ Translates the local geometric transform by the specified dimensions in the spec
 | :- | :- | :- |
 | dx | float | The value of the translation in x. |
 | dy | float | The value of the translation in y. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order (prepend or append) in which to apply the translation. |
 

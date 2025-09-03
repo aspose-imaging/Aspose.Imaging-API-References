@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Resizes the image
 type: docs
-weight: 300
+weight: 330
 url: /net/aspose.imaging/rastercachedmultipageimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

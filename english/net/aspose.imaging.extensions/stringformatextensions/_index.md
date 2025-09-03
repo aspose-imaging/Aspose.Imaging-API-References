@@ -3,7 +3,7 @@ title: Class StringFormatExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.StringFormatExtensions class. Contains extension methods for the StringFormat class
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.imaging.extensions/stringformatextensions/
 ---
 ## StringFormatExtensions class

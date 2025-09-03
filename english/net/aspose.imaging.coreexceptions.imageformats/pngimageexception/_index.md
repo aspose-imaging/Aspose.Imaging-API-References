@@ -3,7 +3,7 @@ title: Class PngImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.PngImageException class. The png image exception
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.imaging.coreexceptions.imageformats/pngimageexception/
 ---
 ## PngImageException class

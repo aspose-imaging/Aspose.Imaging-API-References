@@ -3,7 +3,7 @@ title: Class EmfPlusBlendBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBlendBase class. Base object for blend objects
 type: docs
-weight: 5260
+weight: 5270
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/
 ---
 ## EmfPlusBlendBase class

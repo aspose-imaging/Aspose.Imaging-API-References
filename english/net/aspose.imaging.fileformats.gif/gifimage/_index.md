@@ -3,7 +3,7 @@ title: Class GifImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.GifImage class. The API for Graphical Interchange Format GIF image file provides developers with versatile tools for processing compressed raster images and animated GIFs. Offering features like XMP metadata handling color palette settings background and transparent color control opacity settings resize crop filter application gamma corrections contrast adjustment grayscale transformation and conversion to other formats. This API empowers seamless manipulation and enhancement of GIF images for a wide range of applications
 type: docs
-weight: 6750
+weight: 6760
 url: /net/aspose.imaging.fileformats.gif/gifimage/
 ---
 ## GifImage class
@@ -83,6 +83,8 @@ public sealed class GifImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [AdjustContrast](../../aspose.imaging.fileformats.gif/gifimage/adjustcontrast/)(float) | Adjusts the contrast of the image, enhancing or reducing the difference in brightness between pixels. This method modifies the image's overall tonal range, making darker areas darker and brighter areas brighter to improve visual clarity and detail. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.gif/gifimage/adjustgamma/#adjustgamma)(float) | Enhance image quality by applying gamma correction. This method adjusts the color gamma of the image to achieve optimal visual clarity. It modifies the gamma value of each pixel, resulting in improved color rendition and overall image appearance. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.gif/gifimage/adjustgamma/#adjustgamma_1)(float, float, float) | Gamma-correction of an image applies a nonlinear adjustment to the pixel values, enhancing or reducing brightness based on the specified coefficients for the red, green, and blue channels. This method helps to fine-tune the color balance and luminance of the image, improving its overall appearance and visual quality. |
+| override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.gif/gifimage/binarizebradley/#binarizebradley)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm with integral image thresholding is a method for converting a grayscale image into a binary image. This algorithm calculates a local threshold for each pixel based on the average intensity of the surrounding pixels within a specified window. By adaptively adjusting the threshold based on local pixel intensities, Bradley's method is effective at handling variations in lighting and contrast across the image. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.gif/gifimage/binarizefixed/)(byte) | Binarization of an image with a predefined threshold converts a grayscale or color image into a binary image, where each pixel is classified as either black or white based on whether its intensity value exceeds a specified threshold. |
@@ -97,6 +99,7 @@ public sealed class GifImage : RasterCachedMultipageImage, IMultipageImageExt
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/)(DitheringMethod, int) | Performs dithering on the current image. |
 | override [Dither](../../aspose.imaging.fileformats.gif/gifimage/dither/#dither_1)(DitheringMethod, int, IColorPalette) | Apply dithering to the current image. This process enhances image quality by reducing color banding and improving color transitions, resulting in a smoother appearance. |
+| override [EmbedDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into each page of the image. |
 | override [Filter](../../aspose.imaging.fileformats.gif/gifimage/filter/)(Rectangle, FilterOptionsBase) | Apply a specific filter to the designated area of the image, enhancing its visual quality or altering its appearance as desired. This method selectively processes pixels within the defined rectangle, allowing for targeted adjustments to be made while preserving the integrity of the surrounding image data. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel/)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels/)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
@@ -111,6 +114,7 @@ public sealed class GifImage : RasterCachedMultipageImage, IMultipageImageExt
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle/)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging.fileformats.gif/gifimage/grayscale/)() | The transformation of an image to its grayscale representation converts the color image into a grayscale version by removing color information while preserving luminance. This process simplifies the image to shades of gray, making it suitable for various applications such as printing, document processing, and grayscale analysis. |
 | [InsertBlock](../../aspose.imaging.fileformats.gif/gifimage/insertblock/)(int, IGifBlock) | Inserting a new GIF block allows you to add custom data at a specific position within the image. This method enables you to place custom blocks at a desired location in the GIF image, providing flexibility in organizing and structuring the image data. |
+| override [IsDigitalSigned](../../aspose.imaging/rastercachedmultipageimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

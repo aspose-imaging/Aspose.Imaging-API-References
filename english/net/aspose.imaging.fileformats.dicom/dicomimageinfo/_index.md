@@ -3,7 +3,7 @@ title: Class DicomImageInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.DicomImageInfo class. Contains all metainformation from Dicom file header
 type: docs
-weight: 2460
+weight: 2470
 url: /net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 ---
 ## DicomImageInfo class

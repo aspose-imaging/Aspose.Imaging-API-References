@@ -1,7 +1,7 @@
 ---
 title: StringFormat Class
 type: docs
-weight: 7250
+weight: 7270
 url: /python-net/aspose.imaging/stringformat/
 ---
 
@@ -22,19 +22,19 @@ url: /python-net/aspose.imaging/stringformat/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| alignment | [StringAlignment](/imaging/python-net/aspose.imaging/stringalignment) | r/w | Gets or sets text alignment information on the vertical plane. |
-| custom_char_ident | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the custom character ident. |
+| alignment | [StringAlignment](/imaging/python-net/aspose.imaging/stringalignment/) | r/w | Gets or sets text alignment information on the vertical plane. |
+| custom_char_ident | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the custom character ident. |
 | digit_substitution_language | int | r/w | Gets or sets the language that is used when local digits are substituted for western digits. |
-| digit_substitution_method | [StringDigitSubstitute](/imaging/python-net/aspose.imaging/stringdigitsubstitute) | r/w | Gets or sets the method to be used for digit substitution. |
+| digit_substitution_method | [StringDigitSubstitute](/imaging/python-net/aspose.imaging/stringdigitsubstitute/) | r/w | Gets or sets the method to be used for digit substitution. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | first_tab_offset | float | r | Gets the number of spaces between the beginning of a line of text and the first tab stop. |
-| format_flags | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags) | r/w | Gets or sets a [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration that contains formatting information. |
-| generic_default [static] | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | r | Gets a generic default [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
-| generic_typographic [static] | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | r | Gets a generic typographic [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
-| hotkey_prefix | [HotkeyPrefix](/imaging/python-net/aspose.imaging/hotkeyprefix) | r/w | Gets or sets the [HotkeyPrefix](/imaging/python-net/aspose.imaging/hotkeyprefix/) object for this [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
-| line_alignment | [StringAlignment](/imaging/python-net/aspose.imaging/stringalignment) | r/w | Gets or sets the line alignment on the horizontal plane. |
-| tab_stops | float | r | Gets an array of distances between tab stops in the units specified by the [Graphics.page_unit](/imaging/python-net/aspose.imaging/graphics/) property. |
-| trimming | [StringTrimming](/imaging/python-net/aspose.imaging/stringtrimming) | r/w | Gets or sets the [StringTrimming](/imaging/python-net/aspose.imaging/stringtrimming/) enumeration for this [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| format_flags | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) | r/w | Gets or sets a [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration that contains formatting information. |
+| generic_default [static] | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) | r | Gets a generic default [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| generic_typographic [static] | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) | r | Gets a generic typographic [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| hotkey_prefix | [HotkeyPrefix](/imaging/python-net/aspose.imaging/hotkeyprefix/) | r/w | Gets or sets the [HotkeyPrefix](/imaging/python-net/aspose.imaging/hotkeyprefix/) object for this [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| line_alignment | [StringAlignment](/imaging/python-net/aspose.imaging/stringalignment/) | r/w | Gets or sets the line alignment on the horizontal plane. |
+| tab_stops | float[] | r | Gets an array of distances between tab stops in the units specified by the [Graphics.page_unit](/imaging/python-net/aspose.imaging/graphics/) property. |
+| trimming | [StringTrimming](/imaging/python-net/aspose.imaging/stringtrimming/) | r/w | Gets or sets the [StringTrimming](/imaging/python-net/aspose.imaging/stringtrimming/) enumeration for this [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -66,7 +66,7 @@ Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | The [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from which to initialize the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) | The [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from which to initialize the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 
 ### Constructor: StringFormat(options) {#StringFormat_options_3}
 
@@ -81,7 +81,7 @@ Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags) | The [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration for the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| options | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) | The [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration for the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 
 ### Method: create_from_flags(options)  [static] {#create_from_flags_options_1}
 
@@ -96,13 +96,13 @@ Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags) | The [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration for the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| options | [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) | The [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) enumeration for the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [StringFormat](/imaging/python-net/aspose.imaging/stringformat) |  |
+| [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) |  |
 
 
 ### Method: create_from_format(format)  [static] {#create_from_format_format_2}
@@ -118,13 +118,13 @@ Initializes a new [StringFormat](/imaging/python-net/aspose.imaging/stringformat
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | The [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from which to initialize the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
+| format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) | The [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object from which to initialize the new [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) object. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [StringFormat](/imaging/python-net/aspose.imaging/stringformat) |  |
+| [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) |  |
 
 
 ### Method: deep_clone() {#deep_clone__3}
@@ -140,7 +140,7 @@ Creates a deep clone of this [StringFormat](/imaging/python-net/aspose.imaging/s
 
 | Type | Description |
 | :- | :- |
-| [StringFormat](/imaging/python-net/aspose.imaging/stringformat) | The deep clone of the current [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
+| [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) | The deep clone of the current [StringFormat](/imaging/python-net/aspose.imaging/stringformat/). |
 
 
 ### Method: set_tab_stops(first_tab_offset, tab_stops) {#set_tab_stops_first_tab_offset_tab_stops_4}
@@ -157,5 +157,5 @@ Sets tab stops for this [StringFormat](/imaging/python-net/aspose.imaging/string
 | Parameter | Type | Description |
 | :- | :- | :- |
 | first_tab_offset | float | The number of spaces between the beginning of a line of text and the first tab stop. |
-| tab_stops | float | An array of distances between tab stops in the units specified by the [Graphics.page_unit](/imaging/python-net/aspose.imaging/graphics/) property. |
+| tab_stops | float[] | An array of distances between tab stops in the units specified by the [Graphics.page_unit](/imaging/python-net/aspose.imaging/graphics/) property. |
 

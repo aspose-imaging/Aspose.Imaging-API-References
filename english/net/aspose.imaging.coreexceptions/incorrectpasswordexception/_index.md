@@ -3,7 +3,7 @@ title: Class IncorrectPasswordException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.IncorrectPasswordException class. The incorrect password exception
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.imaging.coreexceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

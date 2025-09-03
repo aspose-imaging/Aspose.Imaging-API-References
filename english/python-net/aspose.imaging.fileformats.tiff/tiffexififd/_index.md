@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffexififd/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | has_value | bool | r | Gets a value indicating whether this instance has value. |
-| offset | uint | r/w | Gets or sets the pointer to EXIF IFD. |
+| offset | int | r/w | Gets or sets the pointer to EXIF IFD. |
 
 
 ### Constructor: TiffExifIfd() {#TiffExifIfd__1}
@@ -45,5 +45,5 @@ Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imagi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ifd_offset | uint | A pointer to the Exif IFD. |
+| ifd_offset | int | A pointer to the Exif IFD. |
 

@@ -47,6 +47,6 @@ Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.ima
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The region. |
-| brush | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The brush. |
+| region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/) | The region. |
+| brush | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/) | The brush. |
 

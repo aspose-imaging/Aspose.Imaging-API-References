@@ -3,7 +3,7 @@ title: Enum EmfProportion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfProportion enum. The Proportion enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2850
+weight: 2860
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfproportion/
 ---
 ## EmfProportion enumeration

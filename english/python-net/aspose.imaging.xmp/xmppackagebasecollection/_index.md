@@ -51,7 +51,7 @@ Adds new instance of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppack
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The XMP package to add. |
+| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | The XMP package to add. |
 
 ### Method: get_package(namespace_uri) {#get_package_namespace_uri_2}
 
@@ -72,7 +72,7 @@ Gets [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) by it's na
 
 | Type | Description |
 | :- | :- |
-| [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns XMP package for specified namespace Uri. |
+| [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | Returns XMP package for specified namespace Uri. |
 
 
 ### Method: get_packages() {#get_packages__3}
@@ -88,7 +88,7 @@ Get array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
 
 | Type | Description |
 | :- | :- |
-| [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns an array of XMP packages. |
+| [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | Returns an array of XMP packages. |
 
 
 ### Method: remove(package) {#remove_package_4}
@@ -104,5 +104,5 @@ Removes the specified XMP package.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The XMP package to remove. |
+| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | The XMP package to remove. |
 

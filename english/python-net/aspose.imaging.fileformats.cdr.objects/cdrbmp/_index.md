@@ -24,11 +24,11 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrbmp/
 | bytes_per_line | int | r/w | Gets or sets the bytes per line. |
 | color_model | int | r/w | Gets or sets the color model. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
 | height | int | r/w | Gets or sets the height. |
 | id | int | r/w | Gets or sets the identifier. |
-| palette | int | r/w | Gets or sets the palette. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| palette | int[] | r/w | Gets or sets the palette. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 | width | int | r/w | Gets or sets the width. |
 
 

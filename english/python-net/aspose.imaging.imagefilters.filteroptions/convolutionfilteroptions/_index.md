@@ -1,7 +1,7 @@
 ---
 title: ConvolutionFilterOptions Class
 type: docs
-weight: 30
+weight: 60
 url: /python-net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 
@@ -23,8 +23,8 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/convolutionfilteropti
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
-| factor | double | r/w | Gets or sets the factor. |
-| kernel_data | double | r | Gets the kernel. |
+| factor | float | r/w | Gets or sets the factor. |
+| kernel_data | float[] | r | Gets the kernel. |
 
 
 ### Constructor: ConvolutionFilterOptions(kernel) {#ConvolutionFilterOptions_kernel_1}
@@ -40,7 +40,7 @@ Initializes a new instance of the [ConvolutionFilterOptions](/imaging/python-net
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| kernel | double | The convolution kernel for X-axis direction. |
+| kernel | float[] | The convolution kernel for X-axis direction. |
 
 ### Constructor: ConvolutionFilterOptions(kernel, factor) {#ConvolutionFilterOptions_kernel_factor_2}
 
@@ -55,8 +55,8 @@ Initializes a new instance of the [ConvolutionFilterOptions](/imaging/python-net
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| kernel | double | The convolution kernel for X-axis direction. |
-| factor | double | The factor. |
+| kernel | float[] | The convolution kernel for X-axis direction. |
+| factor | float | The factor. |
 
 ### Constructor: ConvolutionFilterOptions(kernel, factor, bias) {#ConvolutionFilterOptions_kernel_factor_bias_3}
 
@@ -71,7 +71,7 @@ Initializes a new instance of the [ConvolutionFilterOptions](/imaging/python-net
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| kernel | double | The convolution kernel for X-axis direction. |
-| factor | double | The factor. |
+| kernel | float[] | The convolution kernel for X-axis direction. |
+| factor | float | The factor. |
 | bias | int | The bias value. |
 

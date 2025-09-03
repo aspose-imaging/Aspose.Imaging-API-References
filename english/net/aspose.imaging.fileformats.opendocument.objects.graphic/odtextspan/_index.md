@@ -3,7 +3,7 @@ title: Class OdTextSpan
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdTextSpan class. The text span
 type: docs
-weight: 7370
+weight: 7380
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/
 ---
 ## OdTextSpan class

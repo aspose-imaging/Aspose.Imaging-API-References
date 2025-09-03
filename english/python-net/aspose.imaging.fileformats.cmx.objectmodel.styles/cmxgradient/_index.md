@@ -19,16 +19,16 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the angle. |
-| center_x_offset | uint | r/w | Gets or sets the center x offset. |
-| center_y_offset | uint | r/w | Gets or sets the center y offset. |
-| colors | [CmxColor[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | r/w | Gets or sets the colors. |
-| edge_offset | ushort | r/w | Gets or sets the edge offset. |
-| mode | ushort | r/w | Gets or sets the mode. |
-| offsets | float | r/w | Gets or sets the offsets. |
-| rate_method | ushort | r/w | Gets or sets the rate method. |
-| rate_value | ushort | r/w | Gets or sets the rate value. |
-| screen | ushort | r/w | Gets or sets the screen. |
-| steps | ushort | r/w | Gets or sets the steps. |
+| center_x_offset | int | r/w | Gets or sets the center x offset. |
+| center_y_offset | int | r/w | Gets or sets the center y offset. |
+| colors | [CmxColor[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/) | r/w | Gets or sets the colors. |
+| edge_offset | int | r/w | Gets or sets the edge offset. |
+| mode | int | r/w | Gets or sets the mode. |
+| offsets | float[] | r/w | Gets or sets the offsets. |
+| rate_method | int | r/w | Gets or sets the rate method. |
+| rate_value | int | r/w | Gets or sets the rate value. |
+| screen | int | r/w | Gets or sets the screen. |
+| steps | int | r/w | Gets or sets the steps. |
 | type | [GradientTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/) | r/w | Gets or sets the type. |
 
 

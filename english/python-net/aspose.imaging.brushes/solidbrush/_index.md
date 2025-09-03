@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.brushes/solidbrush/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| [color](#color1) | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the brush color. |
+| [color](#color1) | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the brush color. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | opacity | float | r/w | Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 means that brush is fully visible, value of 1 means the brush is fully opaque. |
 ## **Methods**
@@ -58,7 +58,7 @@ Initializes a new instance of the [SolidBrush](/imaging/python-net/aspose.imagin
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | The solid brush color. |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | The solid brush color. |
 
 ### Property: color {#color1}
 
@@ -82,7 +82,7 @@ Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imagi
 
 | Type | Description |
 | :- | :- |
-| [Brush](/imaging/python-net/aspose.imaging/brush) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
+| [Brush](/imaging/python-net/aspose.imaging/brush/) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
 
 
 ## **Examples**

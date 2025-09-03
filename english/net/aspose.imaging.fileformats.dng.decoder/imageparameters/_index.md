@@ -3,7 +3,7 @@ title: Class ImageParameters
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dng.Decoder.ImageParameters class. Dng image parameters
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.imaging.fileformats.dng.decoder/imageparameters/
 ---
 ## ImageParameters class

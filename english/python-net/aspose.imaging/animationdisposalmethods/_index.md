@@ -1,7 +1,7 @@
 ---
 title: AnimationDisposalMethods Enumeration
 type: docs
-weight: 9070
+weight: 9090
 url: /python-net/aspose.imaging/animationdisposalmethods/
 ---
 

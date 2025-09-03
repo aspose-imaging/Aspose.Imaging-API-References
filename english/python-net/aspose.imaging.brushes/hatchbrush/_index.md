@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.brushes/hatchbrush/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of spaces between the hatch lines. |
+| background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the color of spaces between the hatch lines. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| foreground_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of hatch lines. |
-| hatch_style | [HatchStyle](/imaging/python-net/aspose.imaging/hatchstyle) | r/w | Gets or sets the hatch style of this brush. |
+| foreground_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the color of hatch lines. |
+| hatch_style | [HatchStyle](/imaging/python-net/aspose.imaging/hatchstyle/) | r/w | Gets or sets the hatch style of this brush. |
 | opacity | float | r/w | Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 means that brush is fully visible, value of 1 means the brush is fully opaque. |
 ## **Methods**
 | **Name** | **Description** |
@@ -53,6 +53,6 @@ Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imagi
 
 | Type | Description |
 | :- | :- |
-| [Brush](/imaging/python-net/aspose.imaging/brush) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
+| [Brush](/imaging/python-net/aspose.imaging/brush/) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
 
 

@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/
 | :- | :- | :- | :- |
 | color_model | [CdrColorModel](/imaging/python-net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/) | r/w | Gets or sets the color model. |
 | color_value | int | r/w | Gets or sets the color value. |
-| opacity | byte | r/w | Gets or sets the opacity. |
+| opacity | System.Byte | r/w | Gets or sets the opacity. |
 | rgb_color_value | int | r/w | Gets or sets the RGB color value. |
 
 

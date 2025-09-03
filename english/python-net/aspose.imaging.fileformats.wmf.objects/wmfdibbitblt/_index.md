@@ -20,13 +20,13 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| dst_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the DST position. |
-| height | short | r/w | Gets or sets the height. |
+| dst_pos | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the DST position. |
+| height | int | r/w | Gets or sets the height. |
 | raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Gets or sets the raster operation. |
 | reserved | int | r/w | Gets or sets the reserved. |
-| source | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap) | r/w | Gets or sets the source. |
-| src_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the source position. |
-| width | short | r/w | Gets or sets the width. |
+| source | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets the source. |
+| src_pos | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the source position. |
+| width | int | r/w | Gets or sets the width. |
 
 
 ### Constructor: WmfDibBitBlt() {#WmfDibBitBlt__1}

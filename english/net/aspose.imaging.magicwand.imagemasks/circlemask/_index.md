@@ -3,7 +3,7 @@ title: Class CircleMask
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ImageMasks.CircleMask class. Describes a circle mask
 type: docs
-weight: 10690
+weight: 10720
 url: /net/aspose.imaging.magicwand.imagemasks/circlemask/
 ---
 ## CircleMask class

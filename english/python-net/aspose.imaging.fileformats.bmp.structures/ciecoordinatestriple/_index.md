@@ -18,9 +18,9 @@ url: /python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| cie_xyz_blue | [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates) | r | Gets the xyz coordinates of blue endpoint. |
-| cie_xyz_green | [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates) | r | Gets the xyz coordinates of green endpoint. |
-| cie_xyz_red | [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates) | r | Gets the xyz coordinates of red endpoint. |
+| cie_xyz_blue | [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/) | r | Gets the xyz coordinates of blue endpoint. |
+| cie_xyz_green | [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/) | r | Gets the xyz coordinates of green endpoint. |
+| cie_xyz_red | [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/) | r | Gets the xyz coordinates of red endpoint. |
 
 
 ### Constructor: CieCoordinatesTriple(bytes) {#CieCoordinatesTriple_bytes_1}
@@ -36,5 +36,5 @@ Initializes a new instance of the [CieCoordinatesTriple](/imaging/python-net/asp
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| bytes | byte | The bytes. |
+| bytes | System.Byte | The bytes. |
 

@@ -3,7 +3,7 @@ title: Enum ExifFlash
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifFlash enum. Flash mode
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.imaging.exif.enums/exifflash/
 ---
 ## ExifFlash enumeration

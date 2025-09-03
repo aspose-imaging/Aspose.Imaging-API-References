@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.masking.options/manualmaskingargs/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w | Gets or sets the set of graphic shapes that form mask. |
+| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | r/w | Gets or sets the set of graphic shapes that form mask. |
 
 
 ### Constructor: ManualMaskingArgs() {#ManualMaskingArgs__1}

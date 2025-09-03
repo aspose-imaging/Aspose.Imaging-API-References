@@ -43,15 +43,15 @@ Gets the close image palette.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The image. |
 | entries_count | int | The entries count. |
-| color_quantization_method | [ColorQuantizationMethod](/imaging/python-net/aspose.imaging/colorquantizationmethod) | The color quantization method. |
-| color_compare_method | [ColorCompareMethod](/imaging/python-net/aspose.imaging/colorcomparemethod) | The color compare method. |
+| color_quantization_method | [ColorQuantizationMethod](/imaging/python-net/aspose.imaging/colorquantizationmethod/) | The color quantization method. |
+| color_compare_method | [ColorCompareMethod](/imaging/python-net/aspose.imaging/colorcomparemethod/) | The color compare method. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | Optimized for image palette |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | Optimized for image palette |
 
 

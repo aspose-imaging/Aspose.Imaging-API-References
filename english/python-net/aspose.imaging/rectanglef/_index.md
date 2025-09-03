@@ -1,7 +1,7 @@
 ---
 title: RectangleF Class
 type: docs
-weight: 7020
+weight: 7040
 url: /python-net/aspose.imaging/rectanglef/
 ---
 
@@ -21,13 +21,13 @@ url: /python-net/aspose.imaging/rectanglef/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bottom | float | r/w | Gets or sets the y-coordinate that is the sum of [RectangleF.y](/imaging/python-net/aspose.imaging/rectanglef/) and [RectangleF.height](/imaging/python-net/aspose.imaging/rectanglef/) of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| empty [static] | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets a new instance of the [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that has [RectangleF.x](/imaging/python-net/aspose.imaging/rectanglef/), [RectangleF.y](/imaging/python-net/aspose.imaging/rectanglef/), [RectangleF.width](/imaging/python-net/aspose.imaging/rectanglef/) and [RectangleF.height](/imaging/python-net/aspose.imaging/rectanglef/) values set to zero. |
+| empty [static] | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Gets a new instance of the [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that has [RectangleF.x](/imaging/python-net/aspose.imaging/rectanglef/), [RectangleF.y](/imaging/python-net/aspose.imaging/rectanglef/), [RectangleF.width](/imaging/python-net/aspose.imaging/rectanglef/) and [RectangleF.height](/imaging/python-net/aspose.imaging/rectanglef/) values set to zero. |
 | height | float | r/w | Gets or sets the height of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | is_empty | bool | r | Gets a value indicating whether the [RectangleF.width](/imaging/python-net/aspose.imaging/rectanglef/) or [RectangleF.height](/imaging/python-net/aspose.imaging/rectanglef/) property of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) has a value of zero. |
 | left | float | r/w | Gets or sets the x-coordinate of the left edge of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| location | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the coordinates of the upper-left corner of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| location | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the coordinates of the upper-left corner of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | right | float | r/w | Gets or sets the x-coordinate that is the sum of [RectangleF.x](/imaging/python-net/aspose.imaging/rectanglef/) and [RectangleF.width](/imaging/python-net/aspose.imaging/rectanglef/) of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r/w | Gets or sets the size of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r/w | Gets or sets the size of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
 | top | float | r/w | Gets or sets the y-coordinate of the top edge of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | width | float | r/w | Gets or sets the width of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | x | float | r/w | Gets or sets the x-coordinate of the upper-left corner of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
@@ -78,8 +78,8 @@ Initializes a new instance of the [RectangleF](/imaging/python-net/aspose.imagin
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| location | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the upper-left corner of the rectangular region. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | A [SizeF](/imaging/python-net/aspose.imaging/sizef/) that represents the width and height of the rectangular region. |
+| location | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the upper-left corner of the rectangular region. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | A [SizeF](/imaging/python-net/aspose.imaging/sizef/) that represents the width and height of the rectangular region. |
 
 ### Constructor: RectangleF(x, y, width, height) {#RectangleF_x_y_width_height_3}
 
@@ -112,7 +112,7 @@ Determines if the specified point is contained within this [RectangleF](/imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to test. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to test. |
 
 **Returns**
 
@@ -134,7 +134,7 @@ Determines if the rectangular region represented by _rect_ is entirely contained
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to test. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to test. |
 
 **Returns**
 
@@ -179,7 +179,7 @@ Determines if the specified point is contained within this [RectangleF](/imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to test. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to test. |
 
 **Returns**
 
@@ -201,7 +201,7 @@ Determines if the rectangular region represented by _rect_ is entirely contained
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to test. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to test. |
 
 **Returns**
 
@@ -232,7 +232,7 @@ Creates a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The new [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that this method creates. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The new [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that this method creates. |
 
 
 ### Method: from_points(point1, point2)  [static] {#from_points_point1_point2_7}
@@ -248,14 +248,14 @@ Creates a new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) from tw
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) | The first [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
-| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) | The second [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The first [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The second [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A newly created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A newly created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: inflate(rect, x, y)  [static] {#inflate_rect_x_y_8}
@@ -271,7 +271,7 @@ Creates and returns an inflated copy of the specified [RectangleF](/imaging/pyth
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be copied. This rectangle is not modified. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be copied. This rectangle is not modified. |
 | x | float | The amount to inflate the copy of the rectangle horizontally. |
 | y | float | The amount to inflate the copy of the rectangle vertically. |
 
@@ -279,7 +279,7 @@ Creates and returns an inflated copy of the specified [RectangleF](/imaging/pyth
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The inflated [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The inflated [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
 
 
 ### Method: inflate(size) {#inflate_size_9}
@@ -295,7 +295,7 @@ Inflates this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) by th
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The amount to inflate this rectangle. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The amount to inflate this rectangle. |
 
 ### Method: inflate(x, y) {#inflate_x_y_10}
 
@@ -326,7 +326,7 @@ Creates and returns an inflated copy of the specified [RectangleF](/imaging/pyth
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be copied. This rectangle is not modified. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be copied. This rectangle is not modified. |
 | x | float | The amount to inflate the copy of the rectangle horizontally. |
 | y | float | The amount to inflate the copy of the rectangle vertically. |
 
@@ -334,7 +334,7 @@ Creates and returns an inflated copy of the specified [RectangleF](/imaging/pyth
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The inflated [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The inflated [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/). |
 
 
 ### Method: intersect(a, b)  [static] {#intersect_a_b_12}
@@ -350,14 +350,14 @@ Returns a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A first rectangle to intersect. |
-| b | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A second rectangle to intersect. |
+| a | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A first rectangle to intersect. |
+| b | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A second rectangle to intersect. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A third [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure the size of which represents the overlapped area of the two specified rectangles. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A third [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure the size of which represents the overlapped area of the two specified rectangles. |
 
 
 ### Method: intersect(rect) {#intersect_rect_13}
@@ -373,7 +373,7 @@ Replaces this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) struc
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The rectangle to intersect. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The rectangle to intersect. |
 
 ### Method: intersect_rects(a, b)  [static] {#intersect_rects_a_b_14}
 
@@ -388,14 +388,14 @@ Returns a [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A first rectangle to intersect. |
-| b | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A second rectangle to intersect. |
+| a | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A first rectangle to intersect. |
+| b | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A second rectangle to intersect. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A third [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure the size of which represents the overlapped area of the two specified rectangles. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A third [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure the size of which represents the overlapped area of the two specified rectangles. |
 
 
 ### Method: intersects_with(rect) {#intersects_with_rect_15}
@@ -411,7 +411,7 @@ Determines if this rectangle intersects with _rect_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The rectangle to test. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The rectangle to test. |
 
 **Returns**
 
@@ -433,7 +433,7 @@ Adjusts the location of this rectangle by the specified amount.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pos | [PointF](/imaging/python-net/aspose.imaging/pointf) | The amount to offset the location. |
+| pos | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The amount to offset the location. |
 
 ### Method: offset(x, y) {#offset_x_y_17}
 
@@ -464,13 +464,13 @@ Creates the smallest possible third rectangle that can contain both of two recta
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A first rectangle to union. |
-| b | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A second rectangle to union. |
+| a | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A first rectangle to union. |
+| b | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A second rectangle to union. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A third [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that contains both of the two rectangles that form the union. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A third [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that contains both of the two rectangles that form the union. |
 
 

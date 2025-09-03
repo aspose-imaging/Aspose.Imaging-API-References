@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.xmp/xmparray/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| values | string | r | Gets array of values inside [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/). |
+| values | string[] | r | Gets array of values inside [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/). |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -43,8 +43,8 @@ Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype) | The type of array. |
-| items | string | The items list. |
+| type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype/) | The type of array. |
+| items | string[] | The items list. |
 
 ### Method: add(item) {#add_item_1}
 
@@ -59,7 +59,7 @@ Adds new item.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | object | The item to be added to list of items. |
+| item | System.Object | The item to be added to list of items. |
 
 ### Method: add_item(item) {#add_item_item_2}
 

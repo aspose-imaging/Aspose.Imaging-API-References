@@ -3,7 +3,7 @@ title: Class TiffStreamFactory
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffStreamFactory class. The Tiff stream factory based on byte endianness
 type: docs
-weight: 7880
+weight: 7890
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/
 ---
 ## TiffStreamFactory class

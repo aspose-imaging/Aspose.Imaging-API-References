@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.NormalizeAngle
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses GetSkewAngle and Rotate methods
 type: docs
-weight: 260
+weight: 290
 url: /net/aspose.imaging/rastercachedmultipageimage/normalizeangle/
 ---
 ## RasterCachedMultipageImage.NormalizeAngle method

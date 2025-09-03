@@ -18,7 +18,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| pages | list[CmxPage] | r | Gets the pages of current document. |
+| pages | System.Collections.Generic.IList`1[[Aspose.Imaging.FileFormats.Cmx.ObjectModel.CmxPage]] | r | Gets the pages of current document. |
 
 
 ### Constructor: CmxDocument() {#CmxDocument__1}

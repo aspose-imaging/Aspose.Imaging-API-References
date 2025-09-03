@@ -3,7 +3,7 @@ title: Class BmpImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.BmpImageException class. The bmp image exception
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.imaging.coreexceptions.imageformats/bmpimageexception/
 ---
 ## BmpImageException class

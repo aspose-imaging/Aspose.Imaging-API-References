@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.svg/fontstoringargs/
 | dest_font_stream | _io.BufferedRandom | r/w | Gets or sets the dest font stream. |
 | dispose_stream | bool | r/w | Gets or sets a value indicating whether [dispose stream]. |
 | font_file_uri | string | r/w | Gets or sets the font file URI. |
-| font_store_type | [FontStoreType](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoretype) | r/w | Gets or sets a value indicating whether [use embedded font]. |
+| font_store_type | [FontStoreType](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoretype/) | r/w | Gets or sets a value indicating whether [use embedded font]. |
 | source_font_file_name | string | r | Gets the source font file. |
 | source_font_stream | _io.BufferedRandom | r | Gets the source font stream. |
 

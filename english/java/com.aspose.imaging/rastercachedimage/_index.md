@@ -28,6 +28,7 @@ Represents a raster image supporting raster graphics operations. This image cach
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
 | [normalizeHistogram()](#normalizeHistogram--) | Normalizes the image histogram \\u2014 adjust pixel values to use all available range. |
+| [autoBrightnessContrast()](#autoBrightnessContrast--) | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
 | [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
 | [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -36,6 +37,9 @@ Represents a raster image supporting raster graphics operations. This image cach
 | [adjustContrast(float contrast)](#adjustContrast-float-) | Image contrasting |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
+| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | Embed digital sign based on provided password into the image using steganography. |
+| [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | Calculates the percentage similarity between the extracted data and the original password. |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 
 ## Example: The following example transforms a colored raster cached image to its grayscale representation.
 The following example transforms a colored raster cached image to its grayscale representation. Grayscale images are composed exclusively of shades of gray and carry only intensity information.
@@ -444,6 +448,36 @@ public void normalizeHistogram()
 
 Normalizes the image histogram \\u2014 adjust pixel values to use all available range.
 
+### autoBrightnessContrast() {#autoBrightnessContrast--}
+```
+public void autoBrightnessContrast()
+```
+
+
+Performs automatic adaptive brightness and contrast normalization for the entire image.
+
+--------------------
+
+> ```
+> // Example usage in image pre-processing:
+>  image.AutoBrightnessContrast();
+> ```
+
+--------------------
+
+This method applies a pipeline of advanced adaptive filters (CLAHE, adaptive white stretch, and auto white balance) to improve the visual quality of the image by enhancing contrast, local brightness, and color fidelity.
+
+`**Filter pipeline:**`
+
+1.  Contrast-Limited Adaptive Histogram Equalization (CLAHE) \\u2013 improves local contrast and enhances faint details.
+2.  Adaptive White Stretch \\u2013 increases effective white level while protecting dark features.
+3.  Auto White Balance \\u2013 corrects color casts by balancing channel histograms.
+
+`**Note:**`
+
+ *  
+ *  
+
 ### binarizeFixed(byte threshold) {#binarizeFixed-byte-}
 ```
 public void binarizeFixed(byte threshold)
@@ -694,3 +728,51 @@ try {
 }
 ```
 
+### embedDigitalSignature(String password) {#embedDigitalSignature-java.lang.String-}
+```
+public void embedDigitalSignature(String password)
+```
+
+
+Embed digital sign based on provided password into the image using steganography.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password used for generate digital sign data |
+
+### analyzePercentageDigitalSignature(String password) {#analyzePercentageDigitalSignature-java.lang.String-}
+```
+public int analyzePercentageDigitalSignature(String password)
+```
+
+
+Calculates the percentage similarity between the extracted data and the original password.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password used to extract the embedded data. |
+
+**Returns:**
+int - The percentage similarity value.
+### isDigitalSigned(String password, int percentageThreshold) {#isDigitalSigned-java.lang.String-int-}
+```
+public boolean isDigitalSigned(String password, int percentageThreshold)
+```
+
+
+Performs a fast check to determine if the image is digitally signed, using the provided password and threshold.
+
+--------------------
+
+This method provides the fastest detection by leveraging `GetSignPercentage`. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to check the signing. |
+| percentageThreshold | int | The threshold (in percentage)[0-100] that determines if the image is considered signed. If not specified, a default threshold (`75`) will be applied. |
+
+**Returns:**
+boolean - True if the image is signed, otherwise false.

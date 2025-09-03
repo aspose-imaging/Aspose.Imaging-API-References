@@ -30,13 +30,13 @@ Creates a new data type instance.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data_type | ushort | The data type instance. |
-| tag_id | ushort | The tag id. |
+| data_type | int | The data type instance. |
+| tag_id | int | The tag id. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype) | Tiff tag data type |
+| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | Tiff tag data type |
 
 

@@ -1,7 +1,7 @@
 ---
 title: Figure Class
 type: docs
-weight: 4740
+weight: 4770
 url: /python-net/aspose.imaging/figure/
 ---
 
@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging/figure/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets or sets the object's bounds. |
+| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Gets or sets the object's bounds. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether this figure is closed. A closed figure will make a difference only in case where<br/>            the first and the last figure's shapes are continuous shapes. In such case the first point of the first shape will be<br/>            connected by a straight line from the last point of the last shape. |
-| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the whole figure segments. |
-| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | r | Gets the shapes. |
+| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment/) | r | Gets the whole figure segments. |
+| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape/) | r | Gets the shapes. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -59,7 +59,7 @@ Adds a shape to the figure.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | [Shape](/imaging/python-net/aspose.imaging/shape) | The shape to add. |
+| shape | [Shape](/imaging/python-net/aspose.imaging/shape/) | The shape to add. |
 
 
 **See also:**
@@ -82,7 +82,7 @@ Adds a range of shapes to the figure.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | The shapes to add. |
+| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape/) | The shapes to add. |
 
 ### Method: get_bounds(matrix) {#get_bounds_matrix_3}
 
@@ -97,13 +97,13 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_4}
@@ -119,14 +119,14 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The pen to use for object. This can influence the object's bounds size. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The pen to use for object. This can influence the object's bounds size. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: remove_shape(shape) {#remove_shape_shape_5}
@@ -142,7 +142,7 @@ Removes a shape from the figure.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | [Shape](/imaging/python-net/aspose.imaging/shape) | The shape to remove. |
+| shape | [Shape](/imaging/python-net/aspose.imaging/shape/) | The shape to remove. |
 
 ### Method: remove_shapes(shapes) {#remove_shapes_shapes_6}
 
@@ -157,7 +157,7 @@ Removes a range of shapes from the figure.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | The shapes range to remove. |
+| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape/) | The shapes range to remove. |
 
 ### Method: transform(transform) {#transform_transform_7}
 
@@ -172,7 +172,7 @@ Applies the specified transformation to the shape.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The transformation to apply. |
 
 ## **Examples**
 ### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_13}

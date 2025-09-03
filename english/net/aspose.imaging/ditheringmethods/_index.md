@@ -3,7 +3,7 @@ title: Enum DitheringMethods
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.DitheringMethods enum. The dithering methods used to control color conversion
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.imaging/ditheringmethods/
 ---
 ## DitheringMethods enumeration

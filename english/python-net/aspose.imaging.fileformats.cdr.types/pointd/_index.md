@@ -19,8 +19,8 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/pointd/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| x | double | r/w | Gets or sets the x. |
-| y | double | r/w | Gets or sets the y. |
+| x | float | r/w | Gets or sets the x. |
+| y | float | r/w | Gets or sets the y. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -50,8 +50,8 @@ Initializes a new instance of the [PointD](/imaging/python-net/aspose.imaging.fi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | double | The x value. |
-| y | double | The y value. |
+| x | float | The x value. |
+| y | float | The y value. |
 
 ### Method: from_point_f(point) {#from_point_f_point_1}
 
@@ -66,7 +66,7 @@ Converts [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/point
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) structure. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) structure. |
 
 ### Method: to_point_f() {#to_point_f__2}
 
@@ -81,6 +81,6 @@ Converts [PointF](/imaging/python-net/aspose.imaging/pointf/)  to the [PointD](/
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure |
 
 

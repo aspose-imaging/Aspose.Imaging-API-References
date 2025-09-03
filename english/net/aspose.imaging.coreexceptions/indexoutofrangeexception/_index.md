@@ -3,7 +3,7 @@ title: Class IndexOutOFRangeException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.IndexOutOFRangeException class. The compressor exception
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.imaging.coreexceptions/indexoutofrangeexception/
 ---
 ## IndexOutOFRangeException class

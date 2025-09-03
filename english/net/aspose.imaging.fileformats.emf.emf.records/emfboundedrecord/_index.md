@@ -3,7 +3,7 @@ title: Class EmfBoundedRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfBoundedRecord class. Base EMF polyshape class
 type: docs
-weight: 3330
+weight: 3340
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfboundedrecord/
 ---
 ## EmfBoundedRecord class

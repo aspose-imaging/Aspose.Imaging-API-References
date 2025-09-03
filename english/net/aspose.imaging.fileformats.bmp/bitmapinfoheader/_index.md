@@ -3,7 +3,7 @@ title: Class BitmapInfoHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Bmp.BitmapInfoHeader class. Specifies BITMAPINFOHEADER. OS Support Windows NT 3.1x or later. Features Adds 16 bpp and 32 bpp formats. Adds RLE compression
 type: docs
-weight: 1390
+weight: 1400
 url: /net/aspose.imaging.fileformats.bmp/bitmapinfoheader/
 ---
 ## BitmapInfoHeader class

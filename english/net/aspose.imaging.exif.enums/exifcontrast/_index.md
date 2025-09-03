@@ -3,7 +3,7 @@ title: Enum ExifContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifContrast enum. exif normal soft hard enum
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.imaging.exif.enums/exifcontrast/
 ---
 ## ExifContrast enumeration

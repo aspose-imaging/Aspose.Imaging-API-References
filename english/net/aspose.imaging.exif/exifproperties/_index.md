@@ -3,7 +3,7 @@ title: Enum ExifProperties
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.ExifProperties enum. Exif tags list
 type: docs
-weight: 1080
+weight: 1090
 url: /net/aspose.imaging.exif/exifproperties/
 ---
 ## ExifProperties enumeration

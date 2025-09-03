@@ -3,7 +3,7 @@ title: Class CustomFontData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CustomFontHandler.CustomFontData class. Custom font data class
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.imaging.customfonthandler/customfontdata/
 ---
 ## CustomFontData class

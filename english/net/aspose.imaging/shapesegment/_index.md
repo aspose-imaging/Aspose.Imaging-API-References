@@ -3,7 +3,7 @@ title: Class ShapeSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ShapeSegment class. Represents a shape segment. A segment is a line or curve connecting two points
 type: docs
-weight: 11360
+weight: 11390
 url: /net/aspose.imaging/shapesegment/
 ---
 ## ShapeSegment class

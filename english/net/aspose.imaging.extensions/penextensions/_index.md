@@ -3,7 +3,7 @@ title: Class PenExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.PenExtensions class. Contains extension methods for Pen and Pen
 type: docs
-weight: 1250
+weight: 1260
 url: /net/aspose.imaging.extensions/penextensions/
 ---
 ## PenExtensions class

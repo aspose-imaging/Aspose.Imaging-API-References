@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaper
 | :- | :- | :- | :- |
 | byte_count | int | r/w | Gets or sets the byte count. |
 | checked | bool | r/w | Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked. |
-| data | byte | r/w | Gets or sets the data. |
+| data | System.Byte | r/w | Gets or sets the data. |
 
 
 ### Constructor: WmfEscapeRecordBase() {#WmfEscapeRecordBase__1}

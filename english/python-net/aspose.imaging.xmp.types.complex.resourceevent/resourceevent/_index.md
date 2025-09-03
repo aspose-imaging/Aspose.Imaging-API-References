@@ -21,9 +21,9 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | action | string | r/w | Gets or sets action. |
-| action_date | datetime | r/w | Gets or sets the action date. |
+| action_date | System.DateTime | r/w | Gets or sets the action date. |
 | changed | string | r/w | Gets or sets the semicolon-delimited list of the parts of the resource that were changed since the previous event history. |
-| instance_id | Guid | r/w | Gets or sets value of the xmpMM:InstanceId. |
+| instance_id | System.Guid | r/w | Gets or sets value of the xmpMM:InstanceId. |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | parameters | string | r/w | Gets or sets the additional description of the action. |
 | prefix | string | r | Gets the prefix. |
@@ -57,7 +57,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

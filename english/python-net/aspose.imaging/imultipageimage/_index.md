@@ -1,7 +1,7 @@
 ---
 title: IMultipageImage Class
 type: docs
-weight: 5370
+weight: 5390
 url: /python-net/aspose.imaging/imultipageimage/
 ---
 
@@ -15,6 +15,6 @@ url: /python-net/aspose.imaging/imultipageimage/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | page_count | int | r | Gets the page count. |
-| pages | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Gets the pages. |
+| pages | [Image[]](/imaging/python-net/aspose.imaging/image/) | r | Gets the pages. |
 
 

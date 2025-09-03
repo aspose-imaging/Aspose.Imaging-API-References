@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.ReplaceColor
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges
 type: docs
-weight: 280
+weight: 310
 url: /net/aspose.imaging/rastercachedmultipageimage/replacecolor/
 ---
 ## RasterCachedMultipageImage.ReplaceColor method

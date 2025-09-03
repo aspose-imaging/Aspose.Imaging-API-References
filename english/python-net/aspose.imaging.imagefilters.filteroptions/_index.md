@@ -11,8 +11,11 @@ The module handles Filter options.
 ## **Classes**
 | **Class** | **Description** |
 | :- | :- |
+| [AdaptiveWhiteStretchFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/adaptivewhitestretchfilteroptions/) | Provides options for configuring the Adaptive White Stretch filter.<br/>            Allows customization of histogram stretch parameters to enhance the white level<br/>            and improve the readability of faint-text or low-contrast document images. |
+| [AutoWhiteBalanceFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions/) | Provides configuration options for the Auto White Balance filter.<br/>            Allows tuning of contrast stretching parameters and channel scaling<br/>            to improve the appearance of digital images. |
 | [BigRectangularFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/bigrectangularfilteroptions/) | Big Rectangular Filter Options |
 | [BilateralSmoothingFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/) | The Bilateral Smoothing Filter Options. |
+| [ClaheFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/clahefilteroptions/) | Provides options for configuring the Contrast-Limited Adaptive Histogram Equalization (CLAHE) filter. |
 | [ConvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/) | The convolution filter options. |
 | [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) | Deconvolution Filter Options, abstract class |
 | [FilterOptionsBase](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/) | Base filter options class. |

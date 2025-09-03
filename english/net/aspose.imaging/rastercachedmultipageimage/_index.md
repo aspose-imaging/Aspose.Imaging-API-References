@@ -3,7 +3,7 @@ title: Class RasterCachedMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterCachedMultipageImage class. The raster multipage image
 type: docs
-weight: 11230
+weight: 11260
 url: /net/aspose.imaging/rastercachedmultipageimage/
 ---
 ## RasterCachedMultipageImage class
@@ -64,6 +64,8 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | override [AdjustContrast](../../aspose.imaging/rastercachedmultipageimage/adjustcontrast/)(float) | [`Image`](../image/) contrasting |
 | override [AdjustGamma](../../aspose.imaging/rastercachedmultipageimage/adjustgamma/#adjustgamma)(float) | Gamma-correction of an image. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedmultipageimage/adjustgamma/#adjustgamma_1)(float, float, float) | Gamma-correction of an image. |
+| override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/#binarizebradley)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/#binarizebradley_1)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedmultipageimage/binarizefixed/)(byte) | Binarization of an image with predefined threshold |
@@ -77,6 +79,7 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/)(DitheringMethod, int) | Performs dithering on the current image. |
 | override [Dither](../../aspose.imaging/rastercachedmultipageimage/dither/#dither_1)(DitheringMethod, int, IColorPalette) | Performs dithering on the current image. |
+| override [EmbedDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into each page of the image. |
 | override [Filter](../../aspose.imaging/rastercachedmultipageimage/filter/)(Rectangle, FilterOptionsBase) | Filters the specified rectangle. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel/)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels/)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
@@ -90,6 +93,7 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | override [GetSerializedStream](../../aspose.imaging/rastercachedmultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle/)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging/rastercachedmultipageimage/grayscale/)() | Transformation of an image to its grayscale representation |
+| override [IsDigitalSigned](../../aspose.imaging/rastercachedmultipageimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

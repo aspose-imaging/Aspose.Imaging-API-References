@@ -31,7 +31,7 @@ Applies [IImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/iim
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image to apply mask to. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image to apply mask to. |
 | mask | [IImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/iimagemask/) | The mask to be applied. |
 
 ### Method: select_mask(source, settings)  [static] {#select_mask_source_settings_2}
@@ -47,8 +47,8 @@ Creates a [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Raster image for the algorithm to work over. |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | The settings used to process the selection, includes the reference point. |
+| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Raster image for the algorithm to work over. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | The settings used to process the selection, includes the reference point. |
 
 **Returns**
 

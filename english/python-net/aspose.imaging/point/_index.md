@@ -1,7 +1,7 @@
 ---
 title: Point Class
 type: docs
-weight: 6850
+weight: 6870
 url: /python-net/aspose.imaging/point/
 ---
 
@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/point/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| empty [static] | [Point](/imaging/python-net/aspose.imaging/point) | r | Gets a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure that has [Point.x](/imaging/python-net/aspose.imaging/point/) and [Point.y](/imaging/python-net/aspose.imaging/point/) values set to zero. |
+| empty [static] | [Point](/imaging/python-net/aspose.imaging/point/) | r | Gets a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure that has [Point.x](/imaging/python-net/aspose.imaging/point/) and [Point.y](/imaging/python-net/aspose.imaging/point/) values set to zero. |
 | is_empty | bool | r | Gets a value indicating whether this [Point](/imaging/python-net/aspose.imaging/point/) is empty. |
 | x | int | r/w | Gets or sets the x-coordinate of this [Point](/imaging/python-net/aspose.imaging/point/). |
 | y | int | r/w | Gets or sets the y-coordinate of this [Point](/imaging/python-net/aspose.imaging/point/). |
@@ -78,7 +78,7 @@ Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/poi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | Contains the new point coordinates. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | Contains the new point coordinates. |
 
 ### Constructor: Point(x, y) {#Point_x_y_4}
 
@@ -109,14 +109,14 @@ Adds the specified [Size](/imaging/python-net/aspose.imaging/size/) to the speci
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) to add to. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) to add to the _point_. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) to add to. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) to add to the _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) that is the result of the addition operation. |
+| [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) that is the result of the addition operation. |
 
 
 ### Method: ceiling(point)  [static] {#ceiling_point_2}
@@ -132,13 +132,13 @@ Converts the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) to a
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to convert. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to convert. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) this method converts to. |
+| [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) this method converts to. |
 
 
 ### Method: create_from_d_word(dw)  [static] {#create_from_d_word_dw_3}
@@ -160,7 +160,7 @@ Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/poi
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) |  |
+| [Point](/imaging/python-net/aspose.imaging/point/) |  |
 
 
 ### Method: create_from_size(size)  [static] {#create_from_size_size_4}
@@ -176,13 +176,13 @@ Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/poi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | Contains the new point coordinates. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | Contains the new point coordinates. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) |  |
+| [Point](/imaging/python-net/aspose.imaging/point/) |  |
 
 
 ### Method: from_long(packed_point, x, y)  [static] {#from_long_packed_point_x_y_5}
@@ -198,7 +198,7 @@ Deconstruct a Point object packed into a long object to separate X and Y int val
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| packed_point | long | The Point object packed into one long value. |
+| packed_point | int | The Point object packed into one long value. |
 | x | int[] | The extracted from the packed Point X value. |
 | y | int[] | The extracted from the packed Point Y value. |
 
@@ -231,7 +231,7 @@ Translates this [Point](/imaging/python-net/aspose.imaging/point/) by the specif
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) used to offset this [Point](/imaging/python-net/aspose.imaging/point/). |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) used to offset this [Point](/imaging/python-net/aspose.imaging/point/). |
 
 ### Method: round(point)  [static] {#round_point_8}
 
@@ -246,13 +246,13 @@ Converts the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) to a
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to convert. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to convert. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) this method converts to. |
+| [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) this method converts to. |
 
 
 ### Method: subtract(point, size)  [static] {#subtract_point_size_9}
@@ -268,14 +268,14 @@ Returns the result of subtracting specified [Size](/imaging/python-net/aspose.im
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) to be subtracted from. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) to subtract from the _point_. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) to be subtracted from. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) to subtract from the _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) that is the result of the subtraction operation. |
+| [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) that is the result of the subtraction operation. |
 
 
 ### Method: to_long() {#to_long__10}
@@ -291,7 +291,7 @@ Convert this Point to a single long value, containing X and Y coordinates in hig
 
 | Type | Description |
 | :- | :- |
-| long | The Point object packed into one long value. |
+| int | The Point object packed into one long value. |
 
 
 ### Method: truncate(point)  [static] {#truncate_point_11}
@@ -307,12 +307,12 @@ Converts the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) to a
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to convert. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to convert. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) this method converts to. |
+| [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) this method converts to. |
 
 

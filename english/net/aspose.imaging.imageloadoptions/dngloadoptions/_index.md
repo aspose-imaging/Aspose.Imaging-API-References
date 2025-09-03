@@ -3,7 +3,7 @@ title: Class DngLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageLoadOptions.DngLoadOptions class. The DNG load options
 type: docs
-weight: 10030
+weight: 10060
 url: /net/aspose.imaging.imageloadoptions/dngloadoptions/
 ---
 ## DngLoadOptions class

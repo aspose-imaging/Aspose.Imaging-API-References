@@ -3,7 +3,7 @@ title: RasterCachedImage.BinarizeBradley
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Binarization of an image using Bradleys adaptive thresholding algorithm using the integral image thresholding
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.imaging/rastercachedimage/binarizebradley/
 ---
 ## BinarizeBradley(double, int) {#binarizebradley_1}

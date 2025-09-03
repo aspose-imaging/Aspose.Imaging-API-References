@@ -3,7 +3,7 @@ title: IOrderedShape
 second_title: Aspose.Imaging for Java API Reference
 description: Represents an ordered shape.
 type: docs
-weight: 140
+weight: 139
 url: /java/com.aspose.imaging/iorderedshape/
 ---```
 public interface IOrderedShape

@@ -3,7 +3,7 @@ title: Class EmfOpenGlRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfOpenGlRecordType class. The OpenGL record types specify OpenGL functions
 type: docs
-weight: 3950
+weight: 3960
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfopenglrecordtype/
 ---
 ## EmfOpenGlRecordType class

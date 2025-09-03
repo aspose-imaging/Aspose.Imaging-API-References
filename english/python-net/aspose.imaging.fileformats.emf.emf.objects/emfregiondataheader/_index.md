@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19), which specifies <br/>            the bounds of the region. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19), which specifies <br/>            the bounds of the region. |
 | count_rects | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of rectangles in this region. |
 | rgn_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of the buffer of rectangles in bytes. |
 | size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of this object in bytes. This MUST be 0x00000020. |

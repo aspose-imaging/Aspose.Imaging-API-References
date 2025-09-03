@@ -3,7 +3,7 @@ title: Enum TiffExpectedFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat enum. The expected Tiff file format
 type: docs
-weight: 7700
+weight: 7710
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffexpectedformat/
 ---
 ## TiffExpectedFormat enumeration

@@ -3,7 +3,7 @@ title: Class BrushExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.BrushExtensions class. Contains extension methods for Brush and Brush
 type: docs
-weight: 1140
+weight: 1150
 url: /net/aspose.imaging.extensions/brushextensions/
 ---
 ## BrushExtensions class

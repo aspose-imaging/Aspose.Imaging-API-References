@@ -20,18 +20,18 @@ url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bezier_point_count | byte | r/w | How many points to generate when converting Bezier curves to polylines, minimum 4. Used when [DxfOptions.text_as_lines](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) and [DxfOptions.convert_text_beziers](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) are both  	/// set to <c>true</c> |
+| bezier_point_count | System.Byte | r/w | How many points to generate when converting Bezier curves to polylines, minimum 4. Used when [DxfOptions.text_as_lines](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) and [DxfOptions.convert_text_beziers](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) are both  	/// set to <c>true</c> |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | convert_text_beziers | bool | r/w | Works when [DxfOptions.text_as_lines](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) is set to <c>true</c>. Wether to convert Bezier curves in text contours to multipoint polylines. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
-| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
-| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
-| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
+| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
+| source | [Source](/imaging/python-net/aspose.imaging/source/) | r/w | Gets or sets the source to create image in. |
 | text_as_lines | bool | r/w | Whether text should be exported as contours consisting of polylines (default) or as editable Autocad TEXT entities.<br/>            If this option set |
-| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
 ## **Methods**
 | **Name** | **Description** |
@@ -61,7 +61,7 @@ Creates a memberwise clone of this instance.
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | A memberwise clone of this instance. |
 
 
 ## **Examples**

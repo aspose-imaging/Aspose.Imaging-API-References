@@ -1,7 +1,7 @@
 ---
 title: PixelDataFormat Class
 type: docs
-weight: 6810
+weight: 6830
 url: /python-net/aspose.imaging/pixeldataformat/
 ---
 
@@ -14,28 +14,28 @@ url: /python-net/aspose.imaging/pixeldataformat/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| GRAYSCALE16 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity. |
+| GRAYSCALE16 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity. |
 | bits_per_pixel | int | r | Gets the bits per pixel. |
 | caption | string | r | Gets the pixel data format caption. |
-| channel_bits | int | r | Gets the bits count for each channel. |
+| channel_bits | int[] | r | Gets the bits count for each channel. |
 | channels_count | int | r | Gets the channels count. |
-| cmyk [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the cyan, magenta, yellow and black. |
-| cmyka [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the acmyk. |
-| grayscale [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r/w | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval. |
-| grayscale_alpha [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval and additional 8 bit alpha component. |
-| pixel_format | [PixelFormat](/imaging/python-net/aspose.imaging/pixelformat) | r | Gets the pixel format. |
-| rgb_16_bpp_555 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for each of the red, green and blue, alpha is not defined. |
-| rgb_16_bpp_565 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for red, 6 bits for green and 5 bits for blue, alpha is not defined. |
-| rgb_24_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined. |
-| rgb_24_bpp_png [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined. |
-| rgb_32_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue. |
-| rgb_indexed_1_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 1 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
-| rgb_indexed_2_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 2 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
-| rgb_indexed_4_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 4 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
-| rgb_indexed_8_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 8 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
-| rgba_32_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue. |
-| y_cb_cr [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components. |
-| ycck [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the luma, blue-difference, red-difference and black chroma components. |
+| cmyk [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the cyan, magenta, yellow and black. |
+| cmyka [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the acmyk. |
+| grayscale [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r/w | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval. |
+| grayscale_alpha [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval and additional 8 bit alpha component. |
+| pixel_format | [PixelFormat](/imaging/python-net/aspose.imaging/pixelformat/) | r | Gets the pixel format. |
+| rgb_16_bpp_555 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for each of the red, green and blue, alpha is not defined. |
+| rgb_16_bpp_565 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for red, 6 bits for green and 5 bits for blue, alpha is not defined. |
+| rgb_24_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined. |
+| rgb_24_bpp_png [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined. |
+| rgb_32_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue. |
+| rgb_indexed_1_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 1 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
+| rgb_indexed_2_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 2 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
+| rgb_indexed_4_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 4 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
+| rgb_indexed_8_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 8 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model. |
+| rgba_32_bpp [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue. |
+| y_cb_cr [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components. |
+| ycck [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the luma, blue-difference, red-difference and black chroma components. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -77,7 +77,7 @@ Gets BGRA color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The BGRA color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The BGRA color. |
 
 
 ### Method: get_bgra(bits_per_sample)  [static] {#get_bgra_bits_per_sample_2}
@@ -99,7 +99,7 @@ Gets BGRA color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The BGRA color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The BGRA color. |
 
 
 ### Method: get_cie_lab(bits_per_l, bits_per_a, bits_per_b)  [static] {#get_cie_lab_bits_per_l_bits_per_a_bits_per_b_3}
@@ -123,7 +123,7 @@ Gets CIE Lab color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The CIE Lab color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The CIE Lab color. |
 
 
 ### Method: get_cmyk(bits_per_cyan_channel, bits_per_magenta_channel, bits_per_yellow_channel, bits_per_key_channel)  [static] {#get_cmyk_bits_per_cyan_channel_bits_per_magenta_channel_bits_per_yellow_channel_bits_per_key_channel_4}
@@ -148,7 +148,7 @@ Gets CMYK color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The CMYK color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The CMYK color. |
 
 
 ### Method: get_cmyk(bits_per_sample)  [static] {#get_cmyk_bits_per_sample_5}
@@ -170,7 +170,7 @@ Gets CMYK color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The CMYK color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The CMYK color. |
 
 
 ### Method: get_cmyka(bits_per_cyan_channel, bits_per_magenta_channel, bits_per_yellow_channel, bits_per_key_channel, bits_per_alpha_channel)  [static] {#get_cmyka_bits_per_cyan_channel_bits_per_magenta_channel_bits_per_yellow_channel_bits_per_key_channel_bits_per_alpha_channel_6}
@@ -196,7 +196,7 @@ Gets CMYKA color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The CMYK color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The CMYK color. |
 
 
 ### Method: get_grayscale(bits_per_sample)  [static] {#get_grayscale_bits_per_sample_7}
@@ -218,7 +218,7 @@ Gets Grayscale color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The Grayscale color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The Grayscale color. |
 
 
 ### Method: get_grayscale_alpha(bits_per_sample)  [static] {#get_grayscale_alpha_bits_per_sample_8}
@@ -240,7 +240,7 @@ Gets GrayscaleAlpha color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The GrayscaleAlpha color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The GrayscaleAlpha color. |
 
 
 ### Method: get_grayscale_alpha(bits_per_sample, alpha_channel_bits)  [static] {#get_grayscale_alpha_bits_per_sample_alpha_channel_bits_9}
@@ -263,7 +263,7 @@ Gets GrayscaleAlpha color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The GrayscaleAlpha color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The GrayscaleAlpha color. |
 
 
 ### Method: get_rgb(bits_per_red_channel, bits_per_green_channel, bits_per_blue_channel)  [static] {#get_rgb_bits_per_red_channel_bits_per_green_channel_bits_per_blue_channel_10}
@@ -287,7 +287,7 @@ Gets RGB color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The RGB color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The RGB color. |
 
 
 ### Method: get_rgb(bits_per_sample)  [static] {#get_rgb_bits_per_sample_11}
@@ -309,7 +309,7 @@ Gets RGB color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The RGB color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The RGB color. |
 
 
 ### Method: get_rgb_indexed(bits_per_sample)  [static] {#get_rgb_indexed_bits_per_sample_12}
@@ -331,7 +331,7 @@ Gets BGRA indexed color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The BGRA color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The BGRA color. |
 
 
 ### Method: get_rgba(bits_per_red_channel, bits_per_green_channel, bits_per_blue_channel, bits_per_alpha_channel)  [static] {#get_rgba_bits_per_red_channel_bits_per_green_channel_bits_per_blue_channel_bits_per_alpha_channel_13}
@@ -356,7 +356,7 @@ Gets RGBA color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The RGBA color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The RGBA color. |
 
 
 ### Method: get_rgba(bits_per_sample)  [static] {#get_rgba_bits_per_sample_14}
@@ -378,7 +378,7 @@ Gets RGBA color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The RGBA color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The RGBA color. |
 
 
 ### Method: get_y_cb_cr(bits_per_sample)  [static] {#get_y_cb_cr_bits_per_sample_15}
@@ -400,7 +400,7 @@ Gets YCbCr color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The YCbCr color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The YCbCr color. |
 
 
 ### Method: get_y_cb_cr(bits_per_y, bits_per_cb, bits_per_cr)  [static] {#get_y_cb_cr_bits_per_y_bits_per_cb_bits_per_cr_16}
@@ -424,7 +424,7 @@ Gets YCbCr color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The YCbCr color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The YCbCr color. |
 
 
 ### Method: get_ycck(bits_per_sample)  [static] {#get_ycck_bits_per_sample_17}
@@ -446,6 +446,6 @@ Gets YCCK color with a specified number of bits per sample.
 
 | Type | Description |
 | :- | :- |
-| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | The YCCK color. |
+| [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | The YCCK color. |
 
 

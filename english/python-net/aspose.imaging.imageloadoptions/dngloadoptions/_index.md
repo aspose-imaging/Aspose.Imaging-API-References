@@ -23,9 +23,9 @@ url: /python-net/aspose.imaging.imageloadoptions/dngloadoptions/
 | adjust_white_balance | bool | r/w | Gets or sets the flag indicating that the white balance of the loaded DNG image should be adjusted. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | concurrent_image_processing | bool | r/w | Gets or sets a value indicating whether [concurrent image processing]. |
-| data_background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |
-| data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode) | r/w | Gets or sets the data recovery mode. |
-| fbdd | [NoiseReductionType](/imaging/python-net/aspose.imaging.imageloadoptions/noisereductiontype) | r/w | Gets or sets the FBDD. |
+| data_background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |
+| data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode/) | r/w | Gets or sets the data recovery mode. |
+| fbdd | [NoiseReductionType](/imaging/python-net/aspose.imaging.imageloadoptions/noisereductiontype/) | r/w | Gets or sets the FBDD. |
 | use_icc_profile_conversion | bool | r/w | Gets or sets a value indicating whether ICC profile conversion should be applied. |
 
 

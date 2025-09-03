@@ -3,7 +3,7 @@ title: Class OperationInterruptedException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.OperationInterruptedException class. Occurs when an operation is interrupted
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.imaging.coreexceptions/operationinterruptedexception/
 ---
 ## OperationInterruptedException class

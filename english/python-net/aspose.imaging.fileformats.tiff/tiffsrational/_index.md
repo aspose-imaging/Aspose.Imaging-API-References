@@ -20,11 +20,11 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffsrational/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| EPSILON [static] | double | r | The epsilon for fraction calculation |
+| EPSILON [static] | float | r | The epsilon for fraction calculation |
 | denominator | int | r | Gets the denominator. |
 | nominator | int | r | Gets the nominator. |
 | value | float | r | Gets the float value. |
-| value_d | double | r | Gets the double value. |
+| value_d | float | r | Gets the double value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -91,13 +91,13 @@ Approximates the provided value to a fraction.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | double | The value. |
+| value | float | The value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
 
 
 ### Method: approximate_double_fraction_eps(value, epsilon)  [static] {#approximate_double_fraction_eps_value_epsilon_2}
@@ -113,14 +113,14 @@ Approximates the provided value to a fraction.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | double | The value. |
-| epsilon | double | The error allowed. |
+| value | float | The value. |
+| epsilon | float | The error allowed. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than _epsilon_. |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than _epsilon_. |
 
 
 ### Method: approximate_float_fraction(value)  [static] {#approximate_float_fraction_value_3}
@@ -142,7 +142,7 @@ Approximates the provided value to a fraction.
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
 
 
 ### Method: approximate_float_fraction_eps(value, epsilon)  [static] {#approximate_float_fraction_eps_value_epsilon_4}
@@ -159,13 +159,13 @@ Approximates the provided value to a fraction.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | value | float | The value. |
-| epsilon | double | The error allowed. |
+| epsilon | float | The error allowed. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than _epsilon_. |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than _epsilon_. |
 
 
 ### Method: approximate_fraction(value)  [static] {#approximate_fraction_value_5}
@@ -181,13 +181,13 @@ Approximates the provided value to a fraction.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | double | The value. |
+| value | float | The value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
 
 
 ### Method: approximate_fraction(value)  [static] {#approximate_fraction_value_6}
@@ -209,7 +209,7 @@ Approximates the provided value to a fraction.
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than [TiffSRational.EPSILON](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/). |
 
 
 ### Method: approximate_fraction(value, epsilon)  [static] {#approximate_fraction_value_epsilon_7}
@@ -225,14 +225,14 @@ Approximates the provided value to a fraction.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | double | The value. |
-| epsilon | double | The error allowed. |
+| value | float | The value. |
+| epsilon | float | The error allowed. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than _epsilon_. |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than _epsilon_. |
 
 
 ### Method: approximate_fraction(value, epsilon)  [static] {#approximate_fraction_value_epsilon_8}
@@ -249,12 +249,12 @@ Approximates the provided value to a fraction.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | value | float | The value. |
-| epsilon | double | The error allowed. |
+| epsilon | float | The error allowed. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | A rational number having error less than _epsilon_. |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | A rational number having error less than _epsilon_. |
 
 

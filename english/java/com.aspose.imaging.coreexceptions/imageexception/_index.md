@@ -3,7 +3,7 @@ title: ImageException
 second_title: Aspose.Imaging for Java API Reference
 description: The image exception.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.aspose.imaging.coreexceptions/imageexception/
 ---
 **Inheritance:**

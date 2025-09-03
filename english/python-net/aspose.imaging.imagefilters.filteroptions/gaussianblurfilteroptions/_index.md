@@ -1,7 +1,7 @@
 ---
 title: GaussianBlurFilterOptions Class
 type: docs
-weight: 70
+weight: 100
 url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/
 ---
 
@@ -22,10 +22,10 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteropt
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
-| factor | double | r/w | Gets or sets the factor. |
-| kernel_data | double | r | Gets the Gaussian kernel. |
+| factor | float | r/w | Gets or sets the factor. |
+| kernel_data | float[] | r | Gets the Gaussian kernel. |
 | radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
-| sigma | double | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| sigma | float | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
 | size | int | r/w | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
 
 
@@ -52,7 +52,7 @@ Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-ne
 | Parameter | Type | Description |
 | :- | :- | :- |
 | size | int | The Gaussian kernel size.. |
-| sigma | double | The Gaussian kernel sigma. |
+| sigma | float | The Gaussian kernel sigma. |
 
 ## **Examples**
 ### The following example applies various types of filters to a raster image. {#example_59}

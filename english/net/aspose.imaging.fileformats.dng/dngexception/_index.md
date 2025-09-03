@@ -3,7 +3,7 @@ title: Class DngException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dng.DngException class. The DNG exception class
 type: docs
-weight: 2550
+weight: 2560
 url: /net/aspose.imaging.fileformats.dng/dngexception/
 ---
 ## DngException class

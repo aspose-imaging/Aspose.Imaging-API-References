@@ -1,7 +1,7 @@
 ---
 title: ImageAttributes Class
 type: docs
-weight: 5580
+weight: 5600
 url: /python-net/aspose.imaging/imageattributes/
 ---
 
@@ -83,7 +83,7 @@ Clears the color key (transparency range) for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color key is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color key is cleared. |
 
 ### Method: clear_color_matrix(type) {#clear_color_matrix_type_2}
 
@@ -98,7 +98,7 @@ Clears the color-adjustment matrix for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-adjustment matrix is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-adjustment matrix is cleared. |
 
 ### Method: clear_gamma(type) {#clear_gamma_type_3}
 
@@ -113,7 +113,7 @@ Disables gamma correction for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which gamma correction is disabled. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which gamma correction is disabled. |
 
 ### Method: clear_no_op(type) {#clear_no_op_type_4}
 
@@ -128,7 +128,7 @@ Clears the NoOp setting for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the NoOp setting is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the NoOp setting is cleared. |
 
 ### Method: clear_output_channel(type) {#clear_output_channel_type_5}
 
@@ -143,7 +143,7 @@ Clears the (cyan-magenta-yellow-black) output channel setting for a specified ca
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel setting is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel setting is cleared. |
 
 ### Method: clear_output_channel_color_profile(type) {#clear_output_channel_color_profile_type_6}
 
@@ -158,7 +158,7 @@ Clears the output channel color profile setting for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel profile setting is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel profile setting is cleared. |
 
 ### Method: clear_remap_table(type) {#clear_remap_table_type_7}
 
@@ -173,7 +173,7 @@ Clears the color-remap table for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the remap table is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the remap table is cleared. |
 
 ### Method: clear_threshold(type) {#clear_threshold_type_8}
 
@@ -188,7 +188,7 @@ Clears the threshold value for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the threshold is cleared. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the threshold is cleared. |
 
 ### Method: set_brush_remap_table(map) {#set_brush_remap_table_map_9}
 
@@ -203,7 +203,7 @@ Sets the color-remap table for the brush category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| map | [ColorMap[]](/imaging/python-net/aspose.imaging/colormap) | An array of [ColorMap](/imaging/python-net/aspose.imaging/colormap/) objects. |
+| map | [ColorMap[]](/imaging/python-net/aspose.imaging/colormap/) | An array of [ColorMap](/imaging/python-net/aspose.imaging/colormap/) objects. |
 
 ### Method: set_color_key(color_low, color_high) {#set_color_key_color_low_color_high_10}
 
@@ -218,8 +218,8 @@ Sets the color key for the default category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color_low | [Color](/imaging/python-net/aspose.imaging/color) | The low color-key value. |
-| color_high | [Color](/imaging/python-net/aspose.imaging/color) | The high color-key value. |
+| color_low | [Color](/imaging/python-net/aspose.imaging/color/) | The low color-key value. |
+| color_high | [Color](/imaging/python-net/aspose.imaging/color/) | The high color-key value. |
 
 ### Method: set_color_key(color_low, color_high, type) {#set_color_key_color_low_color_high_type_11}
 
@@ -234,9 +234,9 @@ Sets the color key (transparency range) for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color_low | [Color](/imaging/python-net/aspose.imaging/color) | The low color-key value. |
-| color_high | [Color](/imaging/python-net/aspose.imaging/color) | The high color-key value. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color key is set. |
+| color_low | [Color](/imaging/python-net/aspose.imaging/color/) | The low color-key value. |
+| color_high | [Color](/imaging/python-net/aspose.imaging/color/) | The high color-key value. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color key is set. |
 
 ### Method: set_color_matrices(new_color_matrix, gray_matrix) {#set_color_matrices_new_color_matrix_gray_matrix_12}
 
@@ -251,8 +251,8 @@ Sets the color-adjustment matrix and the grayscale-adjustment matrix for the def
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The color-adjustment matrix. |
-| gray_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The grayscale-adjustment matrix. |
+| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The color-adjustment matrix. |
+| gray_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The grayscale-adjustment matrix. |
 
 ### Method: set_color_matrices(new_color_matrix, gray_matrix, flags) {#set_color_matrices_new_color_matrix_gray_matrix_flags_13}
 
@@ -267,9 +267,9 @@ Sets the color-adjustment matrix and the grayscale-adjustment matrix for the def
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The color-adjustment matrix. |
-| gray_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The grayscale-adjustment matrix. |
-| flags | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment and grayscale-adjustment matrices. |
+| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The color-adjustment matrix. |
+| gray_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The grayscale-adjustment matrix. |
+| flags | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment and grayscale-adjustment matrices. |
 
 ### Method: set_color_matrices(new_color_matrix, gray_matrix, mode, type) {#set_color_matrices_new_color_matrix_gray_matrix_mode_type_14}
 
@@ -284,10 +284,10 @@ Sets the color-adjustment matrix and the grayscale-adjustment matrix for a speci
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The color-adjustment matrix. |
-| gray_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The grayscale-adjustment matrix. |
-| mode | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment and grayscale-adjustment matrices. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-adjustment and grayscale-adjustment matrices are set. |
+| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The color-adjustment matrix. |
+| gray_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The grayscale-adjustment matrix. |
+| mode | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment and grayscale-adjustment matrices. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-adjustment and grayscale-adjustment matrices are set. |
 
 ### Method: set_color_matrix(new_color_matrix) {#set_color_matrix_new_color_matrix_15}
 
@@ -302,7 +302,7 @@ Sets the color-adjustment matrix for the default category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The color-adjustment matrix. |
+| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The color-adjustment matrix. |
 
 ### Method: set_color_matrix(new_color_matrix, flags) {#set_color_matrix_new_color_matrix_flags_16}
 
@@ -317,8 +317,8 @@ Sets the color-adjustment matrix for the default category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The color-adjustment matrix. |
-| flags | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment matrix. |
+| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The color-adjustment matrix. |
+| flags | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment matrix. |
 
 ### Method: set_color_matrix(new_color_matrix, mode, type) {#set_color_matrix_new_color_matrix_mode_type_17}
 
@@ -333,9 +333,9 @@ Sets the color-adjustment matrix for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix) | The color-adjustment matrix. |
-| mode | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment matrix. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-adjustment matrix is set. |
+| new_color_matrix | [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) | The color-adjustment matrix. |
+| mode | [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) | An element of [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) that specifies the type of image and color that will be affected by the color-adjustment matrix. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-adjustment matrix is set. |
 
 ### Method: set_gamma(gamma) {#set_gamma_gamma_18}
 
@@ -366,7 +366,7 @@ Sets the gamma value for a specified category.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | gamma | float | The gamma correction value. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of the [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) enumeration that specifies the category for which the gamma value is set. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of the [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) enumeration that specifies the category for which the gamma value is set. |
 
 ### Method: set_no_op(type) {#set_no_op_type_20}
 
@@ -381,7 +381,7 @@ Turns off color adjustment for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which color correction is turned off. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which color correction is turned off. |
 
 ### Method: set_output_channel(flags) {#set_output_channel_flags_21}
 
@@ -396,7 +396,7 @@ Sets the CMYK (cyan-magenta-yellow-black) output channel for the default categor
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| flags | [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag) | An element of [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) that specifies the output channel. |
+| flags | [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) | An element of [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) that specifies the output channel. |
 
 ### Method: set_output_channel(flags, type) {#set_output_channel_flags_type_22}
 
@@ -411,8 +411,8 @@ Sets the CMYK (cyan-magenta-yellow-black) output channel for a specified categor
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| flags | [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag) | An element of [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) that specifies the output channel. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel is set. |
+| flags | [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) | An element of [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) that specifies the output channel. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel is set. |
 
 ### Method: set_output_channel_color_profile(color_profile_filename) {#set_output_channel_color_profile_color_profile_filename_23}
 
@@ -443,7 +443,7 @@ Sets the output channel color-profile file for a specified category.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | color_profile_filename | string | The path name of a color-profile file. If the color-profile file is in the %SystemRoot%\System32\Spool\Drivers\Color directory, this parameter can be the file name. Otherwise, this parameter must be the fully qualified path name. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel color-profile file is set. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the output channel color-profile file is set. |
 
 ### Method: set_remap_table(map) {#set_remap_table_map_25}
 
@@ -458,7 +458,7 @@ Sets the color-remap table for the default category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| map | [ColorMap[]](/imaging/python-net/aspose.imaging/colormap) | An array of color pairs of type [ColorMap](/imaging/python-net/aspose.imaging/colormap/). Each color pair contains an existing color (the first value) and the color that it will be mapped to (the second value). |
+| map | [ColorMap[]](/imaging/python-net/aspose.imaging/colormap/) | An array of color pairs of type [ColorMap](/imaging/python-net/aspose.imaging/colormap/). Each color pair contains an existing color (the first value) and the color that it will be mapped to (the second value). |
 
 ### Method: set_remap_table(map, type) {#set_remap_table_map_type_26}
 
@@ -473,8 +473,8 @@ Sets the color-remap table for a specified category.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| map | [ColorMap[]](/imaging/python-net/aspose.imaging/colormap) | An array of color pairs of type [ColorMap](/imaging/python-net/aspose.imaging/colormap/). Each color pair contains an existing color (the first value) and the color that it will be mapped to (the second value). |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-remap table is set. |
+| map | [ColorMap[]](/imaging/python-net/aspose.imaging/colormap/) | An array of color pairs of type [ColorMap](/imaging/python-net/aspose.imaging/colormap/). Each color pair contains an existing color (the first value) and the color that it will be mapped to (the second value). |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color-remap table is set. |
 
 ### Method: set_threshold(threshold) {#set_threshold_threshold_27}
 
@@ -505,7 +505,7 @@ Sets the threshold (transparency range) for a specified category.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | threshold | float | A threshold value from 0.0 to 1.0 that is used as a breakpoint to sort colors that will be mapped to either a maximum or a minimum value. |
-| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color threshold is set. |
+| type | [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | An element of [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) that specifies the category for which the color threshold is set. |
 
 ### Method: set_wrap_mode(mode) {#set_wrap_mode_mode_29}
 
@@ -520,7 +520,7 @@ Sets the wrap mode that is used to decide how to tile a texture across a shape, 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | An element of [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how repeated copies of an image are used to tile an area. |
+| mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | An element of [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how repeated copies of an image are used to tile an area. |
 
 ### Method: set_wrap_mode(mode, color) {#set_wrap_mode_mode_color_30}
 
@@ -535,8 +535,8 @@ Sets the wrap mode and color used to decide how to tile a texture across a shape
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | An element of [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how repeated copies of an image are used to tile an area. |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | An [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object that specifies the color of pixels outside of a rendered image. This color is visible if the mode parameter is set to [WrapMode.CLAMP](/imaging/python-net/aspose.imaging/wrapmode/) and the source rectangle passed to DrawImage is larger than the image itself. |
+| mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | An element of [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how repeated copies of an image are used to tile an area. |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | An [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object that specifies the color of pixels outside of a rendered image. This color is visible if the mode parameter is set to [WrapMode.CLAMP](/imaging/python-net/aspose.imaging/wrapmode/) and the source rectangle passed to DrawImage is larger than the image itself. |
 
 ### Method: set_wrap_mode(mode, color, clamp) {#set_wrap_mode_mode_color_clamp_31}
 
@@ -551,7 +551,7 @@ Sets the wrap mode and color used to decide how to tile a texture across a shape
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | An element of [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how repeated copies of an image are used to tile an area. |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | A color object that specifies the color of pixels outside of a rendered image. This color is visible if the mode parameter is set to [WrapMode.CLAMP](/imaging/python-net/aspose.imaging/wrapmode/) and the source rectangle passed to DrawImage is larger than the image itself. |
+| mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | An element of [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) that specifies how repeated copies of an image are used to tile an area. |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | A color object that specifies the color of pixels outside of a rendered image. This color is visible if the mode parameter is set to [WrapMode.CLAMP](/imaging/python-net/aspose.imaging/wrapmode/) and the source rectangle passed to DrawImage is larger than the image itself. |
 | clamp | bool | This parameter has no effect. Set it to false. |
 

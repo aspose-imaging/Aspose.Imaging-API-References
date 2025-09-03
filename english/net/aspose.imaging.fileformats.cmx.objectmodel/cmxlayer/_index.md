@@ -3,7 +3,7 @@ title: Class CmxLayer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.CmxLayer class. The graphic layer located on the page of the CMX document
 type: docs
-weight: 2000
+weight: 2010
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 ## CmxLayer class

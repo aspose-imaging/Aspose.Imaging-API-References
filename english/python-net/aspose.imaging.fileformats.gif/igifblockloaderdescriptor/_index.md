@@ -31,7 +31,7 @@ Determines whether loader can load the specified data.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container to load data from. |
+| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container to load data from. |
 
 **Returns**
 
@@ -53,13 +53,13 @@ Loads the gif block.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container. |
-| container_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The container palette. |
+| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container. |
+| container_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The container palette. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IGifBlock](/imaging/python-net/aspose.imaging.fileformats.gif/igifblock) | A new gif block. |
+| [IGifBlock](/imaging/python-net/aspose.imaging.fileformats.gif/igifblock/) | A new gif block. |
 
 

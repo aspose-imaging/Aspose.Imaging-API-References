@@ -1,7 +1,7 @@
 ---
 title: SizeF Class
 type: docs
-weight: 7170
+weight: 7190
 url: /python-net/aspose.imaging/sizef/
 ---
 
@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/sizef/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| empty [static] | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r | Gets a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure that has [SizeF.width](/imaging/python-net/aspose.imaging/sizef/) and [SizeF.height](/imaging/python-net/aspose.imaging/sizef/) values set to zero. |
+| empty [static] | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r | Gets a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure that has [SizeF.width](/imaging/python-net/aspose.imaging/sizef/) and [SizeF.height](/imaging/python-net/aspose.imaging/sizef/) values set to zero. |
 | height | float | r/w | Gets or sets the vertical component of this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 | is_empty | bool | r | Gets a value indicating whether this [SizeF](/imaging/python-net/aspose.imaging/sizef/) has zero width and height. |
 | width | float | r/w | Gets or sets the horizontal component of this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
@@ -58,7 +58,7 @@ Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/siz
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) from which to initialize this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) from which to initialize this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 
 ### Constructor: SizeF(size) {#SizeF_size_3}
 
@@ -73,7 +73,7 @@ Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/siz
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) from which to create the new [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) from which to create the new [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 
 ### Constructor: SizeF(width, height) {#SizeF_width_height_4}
 
@@ -104,14 +104,14 @@ Adds the width and height of one [SizeF](/imaging/python-net/aspose.imaging/size
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size1 | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The first [SizeF](/imaging/python-net/aspose.imaging/sizef/) to add. |
-| size2 | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The second [SizeF](/imaging/python-net/aspose.imaging/sizef/) to add. |
+| size1 | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The first [SizeF](/imaging/python-net/aspose.imaging/sizef/) to add. |
+| size2 | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The second [SizeF](/imaging/python-net/aspose.imaging/sizef/) to add. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [SizeF](/imaging/python-net/aspose.imaging/sizef) | A [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure that is the result of the addition operation. |
+| [SizeF](/imaging/python-net/aspose.imaging/sizef/) | A [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure that is the result of the addition operation. |
 
 
 ### Method: create_from_point_f(point)  [static] {#create_from_point_f_point_2}
@@ -127,13 +127,13 @@ Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/siz
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) from which to initialize this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) from which to initialize this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [SizeF](/imaging/python-net/aspose.imaging/sizef) |  |
+| [SizeF](/imaging/python-net/aspose.imaging/sizef/) |  |
 
 
 ### Method: create_from_size_f(size)  [static] {#create_from_size_f_size_3}
@@ -149,13 +149,13 @@ Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/siz
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) from which to create the new [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) from which to create the new [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [SizeF](/imaging/python-net/aspose.imaging/sizef) |  |
+| [SizeF](/imaging/python-net/aspose.imaging/sizef/) |  |
 
 
 ### Method: subtract(size1, size2)  [static] {#subtract_size1_size2_4}
@@ -171,14 +171,14 @@ Subtracts the width and height of one [SizeF](/imaging/python-net/aspose.imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size1 | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure on the left side of the subtraction operator. |
-| size2 | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure on the right side of the subtraction operator. |
+| size1 | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure on the left side of the subtraction operator. |
+| size2 | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure on the right side of the subtraction operator. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that is a result of the subtraction operation. |
+| [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that is a result of the subtraction operation. |
 
 
 ### Method: to_point_f() {#to_point_f__5}
@@ -194,7 +194,7 @@ Converts a [SizeF](/imaging/python-net/aspose.imaging/sizef/) to a [PointF](/ima
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | Returns a [PointF](/imaging/python-net/aspose.imaging/pointf/) structure. |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | Returns a [PointF](/imaging/python-net/aspose.imaging/pointf/) structure. |
 
 
 ### Method: to_size() {#to_size__6}
@@ -210,6 +210,6 @@ Converts a [SizeF](/imaging/python-net/aspose.imaging/sizef/) to a [Size](/imagi
 
 | Type | Description |
 | :- | :- |
-| [Size](/imaging/python-net/aspose.imaging/size) | Returns a [Size](/imaging/python-net/aspose.imaging/size/) structure. |
+| [Size](/imaging/python-net/aspose.imaging/size/) | Returns a [Size](/imaging/python-net/aspose.imaging/size/) structure. |
 
 

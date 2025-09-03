@@ -1,7 +1,7 @@
 ---
 title: Pen Class
 type: docs
-weight: 6780
+weight: 6800
 url: /python-net/aspose.imaging/pen/
 ---
 
@@ -23,23 +23,23 @@ url: /python-net/aspose.imaging/pen/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| alignment | [PenAlignment](/imaging/python-net/aspose.imaging/penalignment) | r/w | Gets or sets the alignment for this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | r/w | Gets or sets the [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines attributes of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| compound_array | float | r/w | Gets or sets an array of values that specifies a compound pen. A compound pen draws a compound line made up of parallel lines and spaces. |
-| custom_end_cap | [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap) | r/w | Gets or sets a custom cap to use at the end of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| custom_start_cap | [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap) | r/w | Gets or sets a custom cap to use at the beginning of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| dash_cap | [DashCap](/imaging/python-net/aspose.imaging/dashcap) | r/w | Gets or sets the cap style used at the end of the dashes that make up dashed lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| alignment | [PenAlignment](/imaging/python-net/aspose.imaging/penalignment/) | r/w | Gets or sets the alignment for this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | r/w | Gets or sets the [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines attributes of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| compound_array | float[] | r/w | Gets or sets an array of values that specifies a compound pen. A compound pen draws a compound line made up of parallel lines and spaces. |
+| custom_end_cap | [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) | r/w | Gets or sets a custom cap to use at the end of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| custom_start_cap | [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) | r/w | Gets or sets a custom cap to use at the beginning of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| dash_cap | [DashCap](/imaging/python-net/aspose.imaging/dashcap/) | r/w | Gets or sets the cap style used at the end of the dashes that make up dashed lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | dash_offset | float | r/w | Gets or sets the distance from the start of a line to the beginning of a dash pattern. |
-| dash_pattern | float | r/w | Gets or sets an array of custom dashes and spaces. |
-| dash_style | [DashStyle](/imaging/python-net/aspose.imaging/dashstyle) | r/w | Gets or sets the style used for dashed lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| end_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap) | r/w | Gets or sets the cap style used at the end of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| line_join | [LineJoin](/imaging/python-net/aspose.imaging/linejoin) | r/w | Gets or sets the join style for the ends of two consecutive lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| dash_pattern | float[] | r/w | Gets or sets an array of custom dashes and spaces. |
+| dash_style | [DashStyle](/imaging/python-net/aspose.imaging/dashstyle/) | r/w | Gets or sets the style used for dashed lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| end_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap/) | r/w | Gets or sets the cap style used at the end of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| line_join | [LineJoin](/imaging/python-net/aspose.imaging/linejoin/) | r/w | Gets or sets the join style for the ends of two consecutive lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | miter_limit | float | r/w | Gets or sets the limit of the thickness of the join on a mitered corner. |
 | opacity | float | r/w | Gets or sets the object's opacity. The value should be between 0 and 1. Value of 0 means that object is fully visible, value of 1 means the object is fully opaque. |
-| pen_type | [PenType](/imaging/python-net/aspose.imaging/pentype) | r | Gets the style of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| start_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap) | r/w | Gets or sets the cap style used at the beginning of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets a copy of the geometric transformation for this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| pen_type | [PenType](/imaging/python-net/aspose.imaging/pentype/) | r | Gets the style of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| start_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap/) | r/w | Gets or sets the cap style used at the beginning of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | r/w | Gets or sets a copy of the geometric transformation for this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | width | float | r/w | Gets or sets the width of this [Pen](/imaging/python-net/aspose.imaging/pen/), in units of the Graphics object used for drawing. |
 ## **Methods**
 | **Name** | **Description** |
@@ -73,7 +73,7 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the fill properties of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the fill properties of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Constructor: Pen(brush, width) {#Pen_brush_width_2}
 
@@ -88,7 +88,7 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the characteristics of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the characteristics of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | width | float | The width of the new [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Constructor: Pen(color) {#Pen_color_3}
@@ -104,7 +104,7 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Constructor: Pen(color, width) {#Pen_color_width_4}
 
@@ -119,7 +119,7 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | width | float | A value indicating the width of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 
@@ -141,13 +141,13 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the fill properties of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the fill properties of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Pen](/imaging/python-net/aspose.imaging/pen) |  |
+| [Pen](/imaging/python-net/aspose.imaging/pen/) |  |
 
 
 ### Method: create_with_brush_width(brush, width)  [static] {#create_with_brush_width_brush_width_2}
@@ -163,14 +163,14 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the characteristics of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | A [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines the characteristics of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | width | float | The width of the new [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Pen](/imaging/python-net/aspose.imaging/pen) |  |
+| [Pen](/imaging/python-net/aspose.imaging/pen/) |  |
 
 
 ### Method: create_with_color(color)  [static] {#create_with_color_color_3}
@@ -186,13 +186,13 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Pen](/imaging/python-net/aspose.imaging/pen) |  |
+| [Pen](/imaging/python-net/aspose.imaging/pen/) |  |
 
 
 ### Method: create_with_color_width(color, width)  [static] {#create_with_color_width_color_width_4}
@@ -208,14 +208,14 @@ Initializes a new instance of the [Pen](/imaging/python-net/aspose.imaging/pen/)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | A [Pen.color](/imaging/python-net/aspose.imaging/pen/) structure that indicates the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | width | float | A value indicating the width of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Pen](/imaging/python-net/aspose.imaging/pen) |  |
+| [Pen](/imaging/python-net/aspose.imaging/pen/) |  |
 
 
 ### Method: multiply_transform(matrix) {#multiply_transform_matrix_5}
@@ -231,7 +231,7 @@ Multiplies the transformation matrix for this [Pen](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) object by which to multiply the transformation matrix. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) object by which to multiply the transformation matrix. |
 
 ### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_6}
 
@@ -246,8 +246,8 @@ Multiplies the transformation matrix for this [Pen](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the transformation matrix. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order in which to perform the multiplication operation. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the transformation matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order in which to perform the multiplication operation. |
 
 ### Method: rotate_transform(angle) {#rotate_transform_angle_7}
 
@@ -278,7 +278,7 @@ Rotates the local geometric transformation by the specified angle in the specifi
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | The angle of rotation. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
 
 ### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_9}
 
@@ -311,7 +311,7 @@ Scales the local geometric transformation by the specified factors in the specif
 | :- | :- | :- |
 | sx | float | The factor by which to scale the transformation in the x-axis direction. |
 | sy | float | The factor by which to scale the transformation in the y-axis direction. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
 
 ### Method: set_line_cap(start_cap, end_cap, dash_cap) {#set_line_cap_start_cap_end_cap_dash_cap_11}
 
@@ -326,9 +326,9 @@ Sets the values that determine the style of cap used to end lines drawn by this 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap) | A [LineCap](/imaging/python-net/aspose.imaging/linecap/) that represents the cap style to use at the beginning of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| end_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap) | A [LineCap](/imaging/python-net/aspose.imaging/linecap/) that represents the cap style to use at the end of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
-| dash_cap | [DashCap](/imaging/python-net/aspose.imaging/dashcap) | A [LineCap](/imaging/python-net/aspose.imaging/linecap/) that represents the cap style to use at the beginning or end of dashed lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| start_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap/) | A [LineCap](/imaging/python-net/aspose.imaging/linecap/) that represents the cap style to use at the beginning of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| end_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap/) | A [LineCap](/imaging/python-net/aspose.imaging/linecap/) that represents the cap style to use at the end of lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
+| dash_cap | [DashCap](/imaging/python-net/aspose.imaging/dashcap/) | A [LineCap](/imaging/python-net/aspose.imaging/linecap/) that represents the cap style to use at the beginning or end of dashed lines drawn with this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 
 ### Method: translate_transform(dx, dy) {#translate_transform_dx_dy_12}
 
@@ -361,7 +361,7 @@ Translates the local geometric transformation by the specified dimensions in the
 | :- | :- | :- |
 | dx | float | The value of the translation in x. |
 | dy | float | The value of the translation in y. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order (prepend or append) in which to apply the translation. |
 
 ## **Examples**
 ### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_14}

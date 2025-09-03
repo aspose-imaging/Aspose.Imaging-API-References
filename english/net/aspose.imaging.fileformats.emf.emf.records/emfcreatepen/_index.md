@@ -3,7 +3,7 @@ title: Class EmfCreatePen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreatePen class. The EMR_CREATEPEN record defines a logical pen for graphics operations
 type: docs
-weight: 3570
+weight: 3580
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/
 ---
 ## EmfCreatePen class

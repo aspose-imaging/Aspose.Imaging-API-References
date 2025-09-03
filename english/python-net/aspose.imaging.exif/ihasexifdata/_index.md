@@ -11,11 +11,9 @@ url: /python-net/aspose.imaging.exif/ihasexifdata/
 
 **Full Name:** aspose.imaging.exif.IHasExifData
 
-**Inheritance:** IHasMetadata
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata) | r/w | Gets or sets Exif instance. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 
 

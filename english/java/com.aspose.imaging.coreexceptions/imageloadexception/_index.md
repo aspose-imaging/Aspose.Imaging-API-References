@@ -3,7 +3,7 @@ title: ImageLoadException
 second_title: Aspose.Imaging for Java API Reference
 description: The image load exception.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.aspose.imaging.coreexceptions/imageloadexception/
 ---
 **Inheritance:**

@@ -1,7 +1,7 @@
 ---
 title: BilateralSmoothingFilterOptions Class
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/
 ---
 
@@ -21,11 +21,11 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfil
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| color_factor | double | r/w | Gets or sets the color factor. |
-| color_power | double | r/w | Gets or sets the color power. |
+| color_factor | float | r/w | Gets or sets the color factor. |
+| color_power | float | r/w | Gets or sets the color power. |
 | size | int | r/w | Gets or sets the size of the kernel. |
-| spatial_factor | double | r/w | Gets or sets the spatial factor. |
-| spatial_power | double | r/w | Gets or sets the spatial power. |
+| spatial_factor | float | r/w | Gets or sets the spatial factor. |
+| spatial_power | float | r/w | Gets or sets the spatial power. |
 
 
 ### Constructor: BilateralSmoothingFilterOptions() {#BilateralSmoothingFilterOptions__1}

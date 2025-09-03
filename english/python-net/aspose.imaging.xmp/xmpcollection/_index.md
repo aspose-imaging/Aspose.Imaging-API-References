@@ -48,7 +48,7 @@ Adds new item.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | object | The item to be added to list of items. |
+| item | System.Object | The item to be added to list of items. |
 
 ### Method: add_item(item) {#add_item_item_2}
 

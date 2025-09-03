@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | r/w | Gets or sets the format used in the [Timecode.time_value](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/). |
+| format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat/) | r/w | Gets or sets the format used in the [Timecode.time_value](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/). |
 | time_value | string | r/w | Gets or sets the time value in the specified format. |
 ## **Methods**
 | **Name** | **Description** |
@@ -42,7 +42,7 @@ Initializes a new instance of the [Timecode](/imaging/python-net/aspose.imaging.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | The time format. |
+| format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat/) | The time format. |
 | time_value | string | The time value. |
 
 ### Method: clone() {#clone__1}
@@ -58,7 +58,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

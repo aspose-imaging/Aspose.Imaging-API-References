@@ -3,7 +3,7 @@ title: Class TiffASCIIType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffASCIIType class. The tiff ascii type
 type: docs
-weight: 8010
+weight: 8020
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/
 ---
 ## TiffASCIIType class

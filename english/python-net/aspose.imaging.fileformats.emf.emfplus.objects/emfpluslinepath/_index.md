@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| line_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) | r/w | Gets or sets an [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/) object that defines the outline. |
+| line_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/) | r/w | Gets or sets an [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/) object that defines the outline. |
 
 
 ### Constructor: EmfPlusLinePath() {#EmfPlusLinePath__1}

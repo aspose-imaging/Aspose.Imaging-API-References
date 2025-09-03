@@ -3,7 +3,7 @@ title: Class WmfRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfRegion class. The Region Object defines a potentially nonrectilinear shape defined by an array of scanlines
 type: docs
-weight: 9060
+weight: 9070
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfregion/
 ---
 ## WmfRegion class

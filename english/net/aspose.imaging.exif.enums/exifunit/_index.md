@@ -3,7 +3,7 @@ title: Enum ExifUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifUnit enum. exif unit enum
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.imaging.exif.enums/exifunit/
 ---
 ## ExifUnit enumeration

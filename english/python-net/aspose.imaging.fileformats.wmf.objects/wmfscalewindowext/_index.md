@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| x_denom | short | r/w | Gets or sets the x denom. |
-| x_num | short | r/w | Gets or sets the x number. |
-| y_denom | short | r/w | Gets or sets the y denom. |
-| y_num | short | r/w | Gets or sets the y num. |
+| x_denom | int | r/w | Gets or sets the x denom. |
+| x_num | int | r/w | Gets or sets the x number. |
+| y_denom | int | r/w | Gets or sets the y denom. |
+| y_num | int | r/w | Gets or sets the y num. |
 
 
 ### Constructor: WmfScaleWindowExt() {#WmfScaleWindowExt__1}

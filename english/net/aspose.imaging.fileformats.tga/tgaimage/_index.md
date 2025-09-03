@@ -3,7 +3,7 @@ title: Class TgaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tga.TgaImage class. Manipulate TGA raster image files with our API tailored for the TARGA Truevision Advanced Raster Adapter format enabling seamless loading and customization. Easily update public properties such as author timestamp image ID and software version while using various bits per pixel settings alpha channel and color transparency. Additionally you can export TGA images to other popular raster formats ensuring compatibility for your projects
 type: docs
-weight: 7640
+weight: 7650
 url: /net/aspose.imaging.fileformats.tga/tgaimage/
 ---
 ## TgaImage class
@@ -88,6 +88,8 @@ public class TgaImage : RasterCachedImage
 | override [AdjustContrast](../../aspose.imaging/rastercachedimage/adjustcontrast/)(float) | Image contrasting |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float) | Gamma-correction of an image. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float, float, float) | Gamma-correction of an image. |
+| override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed/)(byte) | Binarization of an image with predefined threshold |
@@ -103,6 +105,7 @@ public class TgaImage : RasterCachedImage
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/)(DitheringMethod, int) | Performs dithering on the current image. |
 | override [Dither](../../aspose.imaging/rastercachedimage/dither/)(DitheringMethod, int, IColorPalette) | Performs dithering on the current image. |
+| override [EmbedDigitalSignature](../../aspose.imaging/rastercachedimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into the image using steganography. |
 | override [Equals](../../aspose.imaging.fileformats.tga/tgaimage/equals/#equals_1)(object) | The method performs an equality comparison between the current `TgaImage` instance and another object provided as a parameter. Specifically, it evaluates whether the properties of the current image match those of the second object, assisting in determining their equivalence for comparison purposes within image processing workflows. |
 | [Equals](../../aspose.imaging.fileformats.tga/tgaimage/equals/#equals)(TgaImage) | In an equality comparison, the method evaluates whether the current `TgaImage` instance is equal to the second image provided as a parameter. This operation facilitates determining if two TGA images are identical, aiding in image processing and comparison tasks. |
 | virtual [Filter](../../aspose.imaging/rasterimage/filter/)(Rectangle, FilterOptionsBase) | Filters the specified rectangle. |
@@ -119,6 +122,7 @@ public class TgaImage : RasterCachedImage
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle/)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging/rastercachedimage/grayscale/)() | Transformation of an image to its grayscale representation |
+| override [IsDigitalSigned](../../aspose.imaging/rastercachedimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

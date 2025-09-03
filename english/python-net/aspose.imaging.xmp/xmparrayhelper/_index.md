@@ -30,7 +30,7 @@ Gets the RDF code for specific [XmpArrayType](/imaging/python-net/aspose.imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| xmp_array_type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype) | Type of the XMP array. |
+| xmp_array_type | [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype/) | Type of the XMP array. |
 
 **Returns**
 

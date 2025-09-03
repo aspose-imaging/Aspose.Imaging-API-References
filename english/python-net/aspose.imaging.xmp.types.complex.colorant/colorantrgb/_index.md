@@ -21,13 +21,13 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| blue | byte | r/w | Gets or sets the blue component value. |
-| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype) | r/w | Gets or sets the type of the color. |
-| green | byte | r/w | Gets or sets the green component value. |
-| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
+| blue | System.Byte | r/w | Gets or sets the blue component value. |
+| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype/) | r/w | Gets or sets the type of the color. |
+| green | System.Byte | r/w | Gets or sets the green component value. |
+| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |
-| red | byte | r/w | Gets or sets the red component value. |
+| red | System.Byte | r/w | Gets or sets the red component value. |
 | swatch_name | string | r/w | Gets or sets the name of the swatch. |
 ## **Methods**
 | **Name** | **Description** |
@@ -58,9 +58,9 @@ Initializes a new instance of the [ColorantRgb](/imaging/python-net/aspose.imagi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| red | byte | The red component value. |
-| green | byte | The green component value. |
-| blue | byte | The blue component value. |
+| red | System.Byte | The red component value. |
+| green | System.Byte | The green component value. |
+| blue | System.Byte | The blue component value. |
 
 ### Method: clone() {#clone__1}
 
@@ -75,7 +75,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

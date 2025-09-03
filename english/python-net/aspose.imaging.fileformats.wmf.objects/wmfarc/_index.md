@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfarc/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| end_arc | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the end arc. |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
-| start_arc | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the start arc. |
+| end_arc | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the end arc. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets the rectangle. |
+| start_arc | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the start arc. |
 
 
 ### Constructor: WmfArc() {#WmfArc__1}

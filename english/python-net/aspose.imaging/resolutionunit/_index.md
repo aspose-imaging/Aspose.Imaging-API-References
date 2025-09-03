@@ -1,7 +1,7 @@
 ---
 title: ResolutionUnit Enumeration
 type: docs
-weight: 10990
+weight: 11010
 url: /python-net/aspose.imaging/resolutionunit/
 ---
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odgradien
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the angle. |
-| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
+| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle/) | r | Gets the style. |
 | end_color | int | r/w | Gets or sets the end color. |
 | gradient_style | [OdGradientStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/odgradientstyle/) | r/w | Gets or sets the gradient style. |
 | start_color | int | r/w | Gets or sets the start color. |
@@ -53,6 +53,6 @@ Clone this instance.
 
 | Type | Description |
 | :- | :- |
-| object | The return new instance of source brush |
+| System.Object | The return new instance of source brush |
 
 

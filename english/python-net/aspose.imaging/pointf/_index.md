@@ -1,7 +1,7 @@
 ---
 title: PointF Class
 type: docs
-weight: 6870
+weight: 6890
 url: /python-net/aspose.imaging/pointf/
 ---
 
@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/pointf/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| empty [static] | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets a new instance of the [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that has [PointF.x](/imaging/python-net/aspose.imaging/pointf/) and [PointF.y](/imaging/python-net/aspose.imaging/pointf/) values set to zero. |
+| empty [static] | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets a new instance of the [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that has [PointF.x](/imaging/python-net/aspose.imaging/pointf/) and [PointF.y](/imaging/python-net/aspose.imaging/pointf/) values set to zero. |
 | is_empty | bool | r | Gets a value indicating whether this [PointF](/imaging/python-net/aspose.imaging/pointf/) is empty. |
 | x | float | r/w | Gets or sets the x-coordinate of this [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 | y | float | r/w | Gets or sets the y-coordinate of this [PointF](/imaging/python-net/aspose.imaging/pointf/). |
@@ -74,14 +74,14 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by the s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: add(point, size)  [static] {#add_point_size_2}
@@ -97,14 +97,14 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by the s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: add_size(point, size)  [static] {#add_size_point_size_3}
@@ -120,14 +120,14 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by the s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: add_size_f(point, size)  [static] {#add_size_f_point_size_4}
@@ -143,14 +143,14 @@ Translates a given [PointF](/imaging/python-net/aspose.imaging/pointf/) by a spe
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to add to the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to add to the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: subtract(point, size)  [static] {#subtract_point_size_5}
@@ -166,14 +166,14 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: subtract(point, size)  [static] {#subtract_point_size_6}
@@ -189,14 +189,14 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: subtract_size(point, size)  [static] {#subtract_size_point_size_7}
@@ -212,14 +212,14 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 
 ### Method: subtract_size_f(point, size)  [static] {#subtract_size_f_point_size_8}
@@ -235,13 +235,13 @@ Translates a [PointF](/imaging/python-net/aspose.imaging/pointf/) by the negativ
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to subtract from the coordinates of _point_. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) to translate. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) that specifies the numbers to subtract from the coordinates of _point_. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [PointF](/imaging/python-net/aspose.imaging/pointf) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
+| [PointF](/imaging/python-net/aspose.imaging/pointf/) | The translated [PointF](/imaging/python-net/aspose.imaging/pointf/). |
 
 

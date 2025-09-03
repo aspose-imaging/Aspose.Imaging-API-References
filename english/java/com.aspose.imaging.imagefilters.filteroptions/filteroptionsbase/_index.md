@@ -3,7 +3,7 @@ title: FilterOptionsBase
 second_title: Aspose.Imaging for Java API Reference
 description: Base filter options class.
 type: docs
-weight: 14
+weight: 17
 url: /java/com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase/
 ---
 **Inheritance:**

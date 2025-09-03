@@ -3,7 +3,7 @@ title: MotionWienerFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The motion de-blurring filter options.
 type: docs
-weight: 19
+weight: 22
 url: /java/com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/
 ---
 **Inheritance:**

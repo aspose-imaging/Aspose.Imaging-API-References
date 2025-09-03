@@ -3,7 +3,7 @@ title: RasterCachedImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Resizes the image
 type: docs
-weight: 140
+weight: 180
 url: /net/aspose.imaging/rastercachedimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

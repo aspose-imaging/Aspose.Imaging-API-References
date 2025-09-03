@@ -1,7 +1,7 @@
 ---
 title: Rectangle Class
 type: docs
-weight: 7010
+weight: 7030
 url: /python-net/aspose.imaging/rectangle/
 ---
 
@@ -21,13 +21,13 @@ url: /python-net/aspose.imaging/rectangle/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bottom | int | r/w | Gets or sets the y-coordinate that is the sum of the [Rectangle.y](/imaging/python-net/aspose.imaging/rectangle/) and [Rectangle.height](/imaging/python-net/aspose.imaging/rectangle/) property values of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
-| empty [static] | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets a new instance of the [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that has [Rectangle.x](/imaging/python-net/aspose.imaging/rectangle/), [Rectangle.y](/imaging/python-net/aspose.imaging/rectangle/), [Rectangle.width](/imaging/python-net/aspose.imaging/rectangle/) and [Rectangle.height](/imaging/python-net/aspose.imaging/rectangle/) values set to zero. |
+| empty [static] | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets a new instance of the [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that has [Rectangle.x](/imaging/python-net/aspose.imaging/rectangle/), [Rectangle.y](/imaging/python-net/aspose.imaging/rectangle/), [Rectangle.width](/imaging/python-net/aspose.imaging/rectangle/) and [Rectangle.height](/imaging/python-net/aspose.imaging/rectangle/) values set to zero. |
 | height | int | r/w | Gets or sets the height of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | is_empty | bool | r | Gets a value indicating whether all numeric properties of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) have values of zero. |
 | left | int | r/w | Gets or sets the x-coordinate of the left edge of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
-| location | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the coordinates of the upper-left corner of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
+| location | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the coordinates of the upper-left corner of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | right | int | r/w | Gets or sets the x-coordinate that is the sum of [Rectangle.x](/imaging/python-net/aspose.imaging/rectangle/) and [Rectangle.width](/imaging/python-net/aspose.imaging/rectangle/) property values of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | r/w | Gets or sets the size of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | r/w | Gets or sets the size of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 | top | int | r/w | Gets or sets the y-coordinate of the top edge of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | width | int | r/w | Gets or sets the width of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | x | int | r/w | Gets or sets the x-coordinate of the upper-left corner of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
@@ -81,8 +81,8 @@ Initializes a new instance of the [Rectangle](/imaging/python-net/aspose.imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| location | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) that represents the upper-left corner of the rectangular region. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | A [Size](/imaging/python-net/aspose.imaging/size/) that represents the width and height of the rectangular region. |
+| location | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) that represents the upper-left corner of the rectangular region. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | A [Size](/imaging/python-net/aspose.imaging/size/) that represents the width and height of the rectangular region. |
 
 ### Constructor: Rectangle(x, y, width, height) {#Rectangle_x_y_width_height_3}
 
@@ -115,13 +115,13 @@ Converts the specified [RectangleF](/imaging/python-net/aspose.imaging/rectangle
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to be converted. |
+| value | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to be converted. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Returns a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Returns a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: contains(point) {#contains_point_2}
@@ -137,7 +137,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) to test. |
 
 **Returns**
 
@@ -159,7 +159,7 @@ Determines if the rectangular region represented by _rect_ is entirely contained
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) to test. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) to test. |
 
 **Returns**
 
@@ -204,7 +204,7 @@ Determines if the specified point is contained within this [Rectangle](/imaging/
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) to test. |
 
 **Returns**
 
@@ -226,7 +226,7 @@ Determines if the rectangular region represented by _rect_ is entirely contained
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) to test. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) to test. |
 
 **Returns**
 
@@ -257,7 +257,7 @@ Creates a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure w
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that this method creates. |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that this method creates. |
 
 
 ### Method: from_points(point1, point2)  [static] {#from_points_point1_point2_8}
@@ -273,14 +273,14 @@ Creates a new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) from tw
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [Point](/imaging/python-net/aspose.imaging/point) | The first [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
-| point2 | [Point](/imaging/python-net/aspose.imaging/point) | The second [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
+| point1 | [Point](/imaging/python-net/aspose.imaging/point/) | The first [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
+| point2 | [Point](/imaging/python-net/aspose.imaging/point/) | The second [Point](/imaging/python-net/aspose.imaging/point/) for the new rectangle. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A newly created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A newly created [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: inflate(rect, x, y)  [static] {#inflate_rect_x_y_9}
@@ -296,7 +296,7 @@ Creates and returns an inflated copy of the specified [Rectangle](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with which to start. This rectangle is not modified. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with which to start. This rectangle is not modified. |
 | x | int | The amount to inflate this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) horizontally. |
 | y | int | The amount to inflate this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) vertically. |
 
@@ -304,7 +304,7 @@ Creates and returns an inflated copy of the specified [Rectangle](/imaging/pytho
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The inflated [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The inflated [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: inflate(size) {#inflate_size_10}
@@ -320,7 +320,7 @@ Inflates this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) by the 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The amount to inflate this rectangle. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The amount to inflate this rectangle. |
 
 ### Method: inflate(width, height) {#inflate_width_height_11}
 
@@ -351,7 +351,7 @@ Creates and returns an inflated copy of the specified [Rectangle](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with which to start. This rectangle is not modified. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with which to start. This rectangle is not modified. |
 | x | int | The amount to inflate this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) horizontally. |
 | y | int | The amount to inflate this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) vertically. |
 
@@ -359,7 +359,7 @@ Creates and returns an inflated copy of the specified [Rectangle](/imaging/pytho
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The inflated [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The inflated [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: intersect(a, b)  [static] {#intersect_a_b_13}
@@ -375,14 +375,14 @@ Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) struc
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A first rectangle to intersect. |
-| b | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A second rectangle to intersect. |
+| a | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A first rectangle to intersect. |
+| b | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A second rectangle to intersect. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of _a_ and _b_. |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of _a_ and _b_. |
 
 
 ### Method: intersect(rect) {#intersect_rect_14}
@@ -398,7 +398,7 @@ Replaces this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with th
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with which to intersect. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) with which to intersect. |
 
 ### Method: intersect_rects(a, b)  [static] {#intersect_rects_a_b_15}
 
@@ -413,14 +413,14 @@ Returns a third [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) struc
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A first rectangle to intersect. |
-| b | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A second rectangle to intersect. |
+| a | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A first rectangle to intersect. |
+| b | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A second rectangle to intersect. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of _a_ and _b_. |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) that represents the intersection of _a_ and _b_. |
 
 
 ### Method: intersects_with(rect) {#intersects_with_rect_16}
@@ -436,7 +436,7 @@ Determines if this rectangle intersects with _rect_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to test. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to test. |
 
 **Returns**
 
@@ -458,7 +458,7 @@ Adjusts the location of this rectangle by the specified amount.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pos | [Point](/imaging/python-net/aspose.imaging/point) | Amount to offset the location. |
+| pos | [Point](/imaging/python-net/aspose.imaging/point/) | Amount to offset the location. |
 
 ### Method: offset(x, y) {#offset_x_y_18}
 
@@ -489,13 +489,13 @@ Converts the specified [RectangleF](/imaging/python-net/aspose.imaging/rectangle
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be converted. |
+| value | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be converted. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: truncate(value)  [static] {#truncate_value_20}
@@ -511,13 +511,13 @@ Converts the specified [RectangleF](/imaging/python-net/aspose.imaging/rectangle
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be converted. |
+| value | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) to be converted. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A new [Rectangle](/imaging/python-net/aspose.imaging/rectangle/). |
 
 
 ### Method: union(a, b)  [static] {#union_a_b_21}
@@ -533,13 +533,13 @@ Gets a [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A first rectangle to union. |
-| b | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A second rectangle to union. |
+| a | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A first rectangle to union. |
+| b | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A second rectangle to union. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that bounds the union of the two [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. |
+| [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that bounds the union of the two [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structures. |
 
 

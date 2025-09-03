@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.BinarizeFixed
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Binarization of an image with predefined threshold
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.imaging/rastercachedmultipageimage/binarizefixed/
 ---
 ## RasterCachedMultipageImage.BinarizeFixed method

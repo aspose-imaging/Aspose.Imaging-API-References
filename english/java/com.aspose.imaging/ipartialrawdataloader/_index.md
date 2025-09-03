@@ -3,7 +3,7 @@ title: IPartialRawDataLoader
 second_title: Aspose.Imaging for Java API Reference
 description: The partial data loader.
 type: docs
-weight: 144
+weight: 143
 url: /java/com.aspose.imaging/ipartialrawdataloader/
 ---```
 public interface IPartialRawDataLoader

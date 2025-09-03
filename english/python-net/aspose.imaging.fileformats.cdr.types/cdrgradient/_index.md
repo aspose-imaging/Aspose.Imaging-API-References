@@ -18,13 +18,13 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| angle | double | r/w | Gets or sets the angle. |
+| angle | float | r/w | Gets or sets the angle. |
 | center_x_offset | int | r/w | Gets or sets the center x offset. |
 | center_y_offset | int | r/w | Gets or sets the center y offset. |
 | edge_offset | int | r/w | Gets or sets the edge offset. |
-| mid_point | double | r/w | Gets or sets the mid point. |
+| mid_point | float | r/w | Gets or sets the mid point. |
 | mode | int | r/w | Gets or sets the mode. |
-| stops | list[CdrGradientStop] | r/w | Gets or sets the stops. |
+| stops | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Cdr.Types.CdrGradientStop]] | r/w | Gets or sets the stops. |
 | type | int | r/w | Gets or sets the type. |
 
 

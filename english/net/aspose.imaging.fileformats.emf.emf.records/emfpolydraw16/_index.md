@@ -3,7 +3,7 @@ title: Class EmfPolyDraw16
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyDraw16 class. The EMR_POLYDRAW16 record specifies a set of line segments and Bezier curves
 type: docs
-weight: 4060
+weight: 4070
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw16/
 ---
 ## EmfPolyDraw16 class

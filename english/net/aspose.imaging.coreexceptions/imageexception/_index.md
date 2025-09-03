@@ -3,7 +3,7 @@ title: Class ImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageException class. The image exception
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.imaging.coreexceptions/imageexception/
 ---
 ## ImageException class

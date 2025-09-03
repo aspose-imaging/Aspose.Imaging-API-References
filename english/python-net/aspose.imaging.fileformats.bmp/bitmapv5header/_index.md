@@ -25,29 +25,29 @@ url: /python-net/aspose.imaging.fileformats.bmp/bitmapv5header/
 | OS_22X_BITMAP_HEADER_FULL_SIZE [static] | int | r | The bitmap core header2 size |
 | OS_22X_BITMAP_HEADER_SIZE [static] | int | r | The bitmap core header2 size |
 | alpha_mask | int | r/w | Gets or sets the color mask that specifies the alpha component of each pixel. |
-| bitmap_colors_important | uint | r/w | Gets or sets number of important palette colors. |
-| bitmap_colors_used | uint | r/w | Gets or sets number of palette colors used. |
-| bitmap_compression | uint | r/w | Gets or sets bitmap compression. |
+| bitmap_colors_important | int | r/w | Gets or sets number of important palette colors. |
+| bitmap_colors_used | int | r/w | Gets or sets number of palette colors used. |
+| bitmap_compression | int | r/w | Gets or sets bitmap compression. |
 | bitmap_height | int | r/w | Gets or sets bitmap height. |
-| bitmap_image_size | uint | r/w | Gets or sets specifies bitmap raw data size in bytes. |
-| bitmap_planes | ushort | r/w | Gets or sets number of planes. |
+| bitmap_image_size | int | r/w | Gets or sets specifies bitmap raw data size in bytes. |
+| bitmap_planes | int | r/w | Gets or sets number of planes. |
 | bitmap_width | int | r/w | Gets or sets bitmap width. |
 | bitmap_x_pels_per_meter | int | r/w | Gets or sets horizontal pixels resolution. |
 | bitmap_y_pels_per_meter | int | r/w | Gets or sets vertical pixels resolution. |
-| bits_per_pixel | ushort | r/w | Gets or sets bits per pixel count. |
+| bits_per_pixel | int | r/w | Gets or sets bits per pixel count. |
 | blue_mask | int | r/w | Gets or sets the color mask that specifies the blue component of each pixel, valid only if bV4Compression is set to BI_BITFIELDS. |
 | cs_type | int | r/w | Gets or sets the color space of the DIB. |
 | endpoints | [CieCoordinatesTriple](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/) | r/w | Gets or sets the CoordinatesTriple class. |
-| extra_bit_masks | int | r/w | Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [BitmapInfoHeader.bitmap_compression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BitmapCompression.BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [BitmapCompression.ALPHA_BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA). |
+| extra_bit_masks | int[] | r/w | Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [BitmapInfoHeader.bitmap_compression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BitmapCompression.BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [BitmapCompression.ALPHA_BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA). |
 | gamma_blue | int | r/w | Gets or sets the gamma blue. |
 | gamma_green | int | r/w | Gets or sets the gamma green. |
 | gamma_red | int | r/w | Gets or sets the gamma red. |
 | green_mask | int | r/w | Gets or sets the color mask that specifies the green component of each pixel, valid only if bV4Compression is set to BI_BITFIELDS. |
-| header_size | uint | r/w | Gets or sets size of this structure in bytes. |
-| intent | long | r/w | Gets or sets the rendering intent for bitmap. |
-| profile_data | long | r/w | Gets or sets the profile data. |
-| profile_size | long | r/w | Gets or sets the size of the profile. |
+| header_size | int | r/w | Gets or sets size of this structure in bytes. |
+| intent | int | r/w | Gets or sets the rendering intent for bitmap. |
+| profile_data | int | r/w | Gets or sets the profile data. |
+| profile_size | int | r/w | Gets or sets the size of the profile. |
 | red_mask | int | r/w | Gets or sets the color mask that specifies the red component of each pixel, valid only if bV4Compression is set to BI_BITFIELDS. |
-| reserved | long | r/w | Gets or sets the reserved member. |
+| reserved | int | r/w | Gets or sets the reserved member. |
 
 

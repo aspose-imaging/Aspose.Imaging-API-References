@@ -1,7 +1,7 @@
 ---
 title: WarpMode Enumeration
 type: docs
-weight: 11350
+weight: 11370
 url: /python-net/aspose.imaging/warpmode/
 ---
 

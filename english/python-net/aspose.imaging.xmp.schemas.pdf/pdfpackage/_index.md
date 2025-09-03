@@ -84,7 +84,7 @@ Adds string property.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | object | The string value. |
+| value | System.Object | The string value. |
 
 ### Method: contains_key(key) {#contains_key_key_3}
 
@@ -127,7 +127,7 @@ Gets the object with the specified key.
 
 | Type | Description |
 | :- | :- |
-| object | Returns the object with the specified key. |
+| System.Object | Returns the object with the specified key. |
 
 
 ### Method: get_xml_value() {#get_xml_value__5}
@@ -227,7 +227,7 @@ Gets or sets the object with the specified key.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | object | The object with the specified key. |
+| value | System.Object | The object with the specified key. |
 
 ### Method: set_trapped(is_trapped) {#set_trapped_is_trapped_11}
 
@@ -258,7 +258,7 @@ Sets the value.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
+| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue/) | The value to add to. |
 
 ### Method: set_value(key, value) {#set_value_key_value_13}
 
@@ -306,7 +306,7 @@ Gets the value by the _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The XMP element key. |
-| value | Object | The XMP value. |
+| value | System.Object | The XMP value. |
 
 **Returns**
 

@@ -11,11 +11,9 @@ url: /python-net/aspose.imaging.exif/ihasjpegexifdata/
 
 **Full Name:** aspose.imaging.exif.IHasJpegExifData
 
-**Inheritance:** IHasExifData, IHasMetadata
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| exif_data | [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata) | r/w | Gets or sets Exif instance. |
+| exif_data | [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) | r/w | Gets or sets Exif instance. |
 
 

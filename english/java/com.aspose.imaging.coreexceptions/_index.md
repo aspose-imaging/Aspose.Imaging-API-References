@@ -16,6 +16,7 @@ The package contains exceptions thrown by any of the core Imaging components.
 | --- | --- |
 | [CompressorException](../com.aspose.imaging.coreexceptions/compressorexception) | The compressor exception. |
 | [DataMismatchError](../com.aspose.imaging.coreexceptions/datamismatcherror) | Data mismatch exception class |
+| [DigitalSignatureException](../com.aspose.imaging.coreexceptions/digitalsignatureexception) | Represents errors that occur during steganography operations. |
 | [FrameworkException](../com.aspose.imaging.coreexceptions/frameworkexception) | The imaging framework exception. |
 | [ImageCreateException](../com.aspose.imaging.coreexceptions/imagecreateexception) | The image create exception. |
 | [ImageException](../com.aspose.imaging.coreexceptions/imageexception) | The image exception. |

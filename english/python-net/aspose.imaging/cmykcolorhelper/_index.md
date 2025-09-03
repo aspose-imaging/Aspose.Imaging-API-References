@@ -1,7 +1,7 @@
 ---
 title: CmykColorHelper Class
 type: docs
-weight: 1110
+weight: 1140
 url: /python-net/aspose.imaging/cmykcolorhelper/
 ---
 
@@ -104,13 +104,13 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: argb_32_to_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#argb_32_to_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_3}
@@ -126,7 +126,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -134,7 +134,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: argb_32_to_cmyk_with_icc(argb, rgb_icc_stream, cmyk_icc_stream)  [static] {#argb_32_to_cmyk_with_icc_argb_rgb_icc_stream_cmyk_icc_stream_4}
@@ -196,13 +196,13 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
+| int[] | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
 
 
 ### Method: argb_32_to_psd_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#argb_32_to_psd_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_7}
@@ -218,7 +218,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -226,7 +226,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
+| int[] | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
 
 
 ### Method: argb_32_to_psd_cmyk_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#argb_32_to_psd_cmyk_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_8}
@@ -409,7 +409,7 @@ The conversion from CMYK colors to ARGB colors.
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb(cmyk_pixels)  [static] {#to_argb_cmyk_pixels_15}
@@ -425,13 +425,13 @@ The conversion from CMYK colors to ARGB colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK colors presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK colors presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb32(cmyk_pixels)  [static] {#to_argb32_cmyk_pixels_16}
@@ -447,13 +447,13 @@ The conversion from CMYK colors to ARGB colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK colors presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK colors presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The ARGB colors presented as 32-bit integer values. |
+| int[] | The ARGB colors presented as 32-bit integer values. |
 
 
 ### Method: to_argb_color(cmyk_pixel)  [static] {#to_argb_color_cmyk_pixel_17}
@@ -475,7 +475,7 @@ The conversion from CMYK colors to ARGB colors.
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_color_with_def_icc(cmyk_pixel)  [static] {#to_argb_color_with_def_icc_cmyk_pixel_18}
@@ -497,7 +497,7 @@ The conversion from CMYK color to ARGB Color using Icc conversion with default p
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The ARGB color. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 
 
 ### Method: to_argb_color_with_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_color_with_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_19}
@@ -521,7 +521,7 @@ The conversion from CMYK color to ARGB color using Icc conversion with custom pr
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The ARGB color. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 
 
 ### Method: to_argb_colors(cmyk_pixels)  [static] {#to_argb_colors_cmyk_pixels_20}
@@ -537,13 +537,13 @@ The conversion from CMYK colors to ARGB colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK colors presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK colors presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_colors_with_def_icc(cmyk_pixels)  [static] {#to_argb_colors_with_def_icc_cmyk_pixels_21}
@@ -559,13 +559,13 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK pixels presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK pixels presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_colors_with_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_colors_with_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_22}
@@ -581,7 +581,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK colors presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK colors presented as 32-bit integer values. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 
@@ -589,7 +589,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_icc(cmyk_pixel)  [static] {#to_argb_icc_cmyk_pixel_23}
@@ -611,7 +611,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with default
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_24}
@@ -635,7 +635,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_icc(cmyk_pixels)  [static] {#to_argb_icc_cmyk_pixels_25}
@@ -651,13 +651,13 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK pixels presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK pixels presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_argb_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_26}
@@ -673,7 +673,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cmyk_pixels | int | The CMYK colors presented as 32-bit integer values. |
+| cmyk_pixels | int[] | The CMYK colors presented as 32-bit integer values. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 
@@ -681,7 +681,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
 ### Method: to_cmyk(argb_pixel)  [static] {#to_cmyk_argb_pixel_27}
@@ -719,13 +719,13 @@ The conversion from ARGB colors to CMYK colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_pixels | int | The ARGB colors presented as 32-bit integer values. |
+| argb_pixels | int[] | The ARGB colors presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 
@@ -747,7 +747,7 @@ The conversion from ARGB colors to CMYK colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color/) |  |
 
 **Returns**
 
@@ -775,13 +775,13 @@ The conversion from ARGB colors to CMYK colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) |  |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) |  |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_array(argb_pixels)  [static] {#to_cmyk_array_argb_pixels_31}
@@ -797,13 +797,13 @@ The conversion from ARGB colors to CMYK colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_pixels | int | The ARGB colors presented as 32-bit integer values. |
+| argb_pixels | int[] | The ARGB colors presented as 32-bit integer values. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_array_with_def_icc(pixels)  [static] {#to_cmyk_array_with_def_icc_pixels_32}
@@ -819,13 +819,13 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_33}
@@ -841,7 +841,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -849,7 +849,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_bytes(argb_pixels, start_index, length)  [static] {#to_cmyk_bytes_argb_pixels_start_index_length_34}
@@ -865,7 +865,7 @@ Converts ARGB to CMYK.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_pixels | int | The RGB colors presented as 32-bit integer values. |
+| argb_pixels | int[] | The RGB colors presented as 32-bit integer values. |
 | start_index | int | The start index of RGB color. |
 | length | int | The number of RGB pixels to convert. |
 
@@ -873,7 +873,7 @@ Converts ARGB to CMYK.
 
 | Type | Description |
 | :- | :- |
-| byte | The CMYK colors presented as a byte array. |
+| System.Byte | The CMYK colors presented as a byte array. |
 
 
 ### Method: to_cmyk_color(pixel)  [static] {#to_cmyk_color_pixel_35}
@@ -889,7 +889,7 @@ The conversion from ARGB color to CMYK color.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) | The ARGB color. |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 
 **Returns**
 
@@ -911,13 +911,13 @@ The conversion from ARGB colors to CMYK colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_icc(argb)  [static] {#to_cmyk_icc_argb_37}
@@ -979,7 +979,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color/) |  |
 
 **Returns**
 
@@ -1001,7 +1001,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color/) |  |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -1025,13 +1025,13 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_icc(pixels)  [static] {#to_cmyk_icc_pixels_42}
@@ -1047,13 +1047,13 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_43}
@@ -1069,7 +1069,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The ARGB colors. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -1077,7 +1077,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_44}
@@ -1093,7 +1093,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -1101,7 +1101,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values. |
+| int[] | The CMYK colors presented as 32-bit integer values. |
 
 
 ### Method: to_cmyk_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_45}
@@ -1117,7 +1117,7 @@ Converts RGB to CMYK using custom ICC profiles.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The RGB colors presented as 32-bit integer values. |
+| pixels | int[] | The RGB colors presented as 32-bit integer values. |
 | start_index | int | The start index of RGB color. |
 | length | int | The number of RGB pixels to convert. |
 | rgb_icc_stream | _io.BufferedRandom | The RGB profile stream. |
@@ -1127,7 +1127,7 @@ Converts RGB to CMYK using custom ICC profiles.
 
 | Type | Description |
 | :- | :- |
-| byte | The CMYK colors presented as a byte array. |
+| System.Byte | The CMYK colors presented as a byte array. |
 
 
 ### Method: to_cmyk_with_def_icc(pixel)  [static] {#to_cmyk_with_def_icc_pixel_46}
@@ -1143,7 +1143,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with default p
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) | The ARGB color. |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 
 **Returns**
 
@@ -1165,7 +1165,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with custom pr
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) | The ARGB color. |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -1189,7 +1189,7 @@ Converts ARGB to CMYKA (with transparency).
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_pixels | int | The RGB colors presented as 32-bit integer values. |
+| argb_pixels | int[] | The RGB colors presented as 32-bit integer values. |
 | start_index | int | The start index of RGB color. |
 | length | int | The number of RGB pixels to convert. |
 
@@ -1197,7 +1197,7 @@ Converts ARGB to CMYKA (with transparency).
 
 | Type | Description |
 | :- | :- |
-| byte | The CMYK colors presented as a byte array. |
+| System.Byte | The CMYK colors presented as a byte array. |
 
 
 ### Method: to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyka_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_49}
@@ -1213,7 +1213,7 @@ Converts RGB to CMYKA (with alpha) using custom ICC profiles.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The RGB colors presented as 32-bit integer values. |
+| pixels | int[] | The RGB colors presented as 32-bit integer values. |
 | start_index | int | The start index of RGB color. |
 | length | int | The number of RGB pixels to convert. |
 | rgb_icc_stream | _io.BufferedRandom | The RGB profile stream. |
@@ -1223,7 +1223,7 @@ Converts RGB to CMYKA (with alpha) using custom ICC profiles.
 
 | Type | Description |
 | :- | :- |
-| byte | The CMYK colors presented as a byte array. |
+| System.Byte | The CMYK colors presented as a byte array. |
 
 
 ### Method: to_psd_cmyk_icc(argb)  [static] {#to_psd_cmyk_icc_argb_50}
@@ -1285,13 +1285,13 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
+| int[] | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
 
 
 ### Method: to_psd_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_psd_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_53}
@@ -1307,7 +1307,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int | The ARGB colors. |
+| pixels | int[] | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
 
@@ -1315,7 +1315,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Type | Description |
 | :- | :- |
-| int | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
+| int[] | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
 
 
 ## **Examples**

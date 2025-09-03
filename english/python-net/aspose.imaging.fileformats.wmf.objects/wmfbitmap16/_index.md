@@ -20,13 +20,13 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bits | byte | r/w | Gets or sets the bits. |
-| bits_pixel | byte | r/w | Gets or sets the bits pixel. |
-| height | short | r/w | Gets or sets the height. |
-| planes | byte | r/w | Gets or sets the planes. |
-| type | short | r/w | Gets or sets the type. |
-| width | short | r/w | Gets or sets the width. |
-| width_bytes | short | r/w | Gets or sets the width bytes. |
+| bits | System.Byte | r/w | Gets or sets the bits. |
+| bits_pixel | System.Byte | r/w | Gets or sets the bits pixel. |
+| height | int | r/w | Gets or sets the height. |
+| planes | System.Byte | r/w | Gets or sets the planes. |
+| type | int | r/w | Gets or sets the type. |
+| width | int | r/w | Gets or sets the width. |
+| width_bytes | int | r/w | Gets or sets the width bytes. |
 
 
 ### Constructor: WmfBitmap16() {#WmfBitmap16__1}

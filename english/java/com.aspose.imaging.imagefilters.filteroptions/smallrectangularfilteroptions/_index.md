@@ -3,7 +3,7 @@ title: SmallRectangularFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Small rectangular filter options
 type: docs
-weight: 21
+weight: 24
 url: /java/com.aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions/
 ---
 **Inheritance:**

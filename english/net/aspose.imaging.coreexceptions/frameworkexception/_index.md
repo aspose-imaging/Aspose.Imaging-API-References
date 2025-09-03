@@ -3,7 +3,7 @@ title: Class FrameworkException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.FrameworkException class. The imaging framework exception. This class is a core class for all Aspose.Imaging exceptions. Introduced to discriminate between the exceptions thrown by the Aspose.Imaging engine and all other exception types
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.imaging.coreexceptions/frameworkexception/
 ---
 ## FrameworkException class

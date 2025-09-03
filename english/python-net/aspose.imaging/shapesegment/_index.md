@@ -1,7 +1,7 @@
 ---
 title: ShapeSegment Class
 type: docs
-weight: 7140
+weight: 7160
 url: /python-net/aspose.imaging/shapesegment/
 ---
 
@@ -14,7 +14,7 @@ url: /python-net/aspose.imaging/shapesegment/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending point. |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting point. |
+| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the ending point. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the starting point. |
 
 

@@ -3,7 +3,7 @@ title: Interface ICmxContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.ICmxContainer interface. Defines the container for child elements
 type: docs
-weight: 2150
+weight: 2160
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/icmxcontainer/
 ---
 ## ICmxContainer interface

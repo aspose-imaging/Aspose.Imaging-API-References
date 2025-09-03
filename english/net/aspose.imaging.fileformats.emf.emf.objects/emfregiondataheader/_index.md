@@ -3,7 +3,7 @@ title: Class EmfRegionDataHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfRegionDataHeader class. The RegionDataHeader object describes the properties of a RegionData object
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
 ---
 ## EmfRegionDataHeader class

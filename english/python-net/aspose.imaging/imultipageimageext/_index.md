@@ -1,7 +1,7 @@
 ---
 title: IMultipageImageExt Class
 type: docs
-weight: 5380
+weight: 5400
 url: /python-net/aspose.imaging/imultipageimageext/
 ---
 
@@ -11,13 +11,6 @@ url: /python-net/aspose.imaging/imultipageimageext/
 
 **Full Name:** aspose.imaging.IMultipageImageExt
 
-**Inheritance:** IMultipageImage
-
-## **Properties**
-| **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- | :- |
-| page_count | int | r | Gets the page count. |
-| pages | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Gets the pages. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -37,5 +30,5 @@ Adds page to the image.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The page to add. |
+| page | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The page to add. |
 

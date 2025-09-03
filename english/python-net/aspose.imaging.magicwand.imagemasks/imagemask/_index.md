@@ -16,10 +16,10 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagemask/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets the bounds, in pixels, of this mask. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the bounds, in pixels, of this mask. |
 | height | int | r | Gets the height, in pixels, of this mask. |
-| selection_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets the bounds of the selected part of the mask, in pixels. |
-| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | r | Gets the source image used to create this mask, if exists. |
+| selection_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the bounds of the selected part of the mask, in pixels. |
+| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | r | Gets the source image used to create this mask, if exists. |
 | width | int | r | Gets the width, in pixels, of this mask. |
 ## **Methods**
 | **Name** | **Description** |
@@ -64,7 +64,7 @@ Applies current mask to the specified [RasterImage](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image to apply mask to. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image to apply mask to. |
 
 ### Method: clone() {#clone__2}
 
@@ -79,7 +79,7 @@ Creates a new object that is a copy of the current instance.
 
 | Type | Description |
 | :- | :- |
-| object | A new object that is a copy of this instance. |
+| System.Object | A new object that is a copy of this instance. |
 
 
 ### Method: crop(rectangle) {#crop_rectangle_3}
@@ -95,13 +95,13 @@ Crops mask with the specified rectangle.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The specified rectangle. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The specified rectangle. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | An ImageMask. |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | An ImageMask. |
 
 
 ### Method: crop(size) {#crop_size_4}
@@ -117,13 +117,13 @@ Crops mask with the specified size.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The specified size. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The specified size. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | An ImageMask. |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | An ImageMask. |
 
 
 ### Method: crop(width, height) {#crop_width_height_5}
@@ -146,7 +146,7 @@ Crops mask with the specified width and height.
 
 | Type | Description |
 | :- | :- |
-| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | An ImageMask. |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | An ImageMask. |
 
 
 ### Method: exclusive_disjunction(image, settings) {#exclusive_disjunction_image_settings_6}
@@ -162,14 +162,14 @@ Gets the exclusive disjunction of the current mask with the result of magic wand
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image for magic wand. |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image for magic wand. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: exclusive_disjunction(mask) {#exclusive_disjunction_mask_7}
@@ -185,13 +185,13 @@ Gets the exclusive disjunction of current mask with provided.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | Provided mask |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: exclusive_disjunction(settings) {#exclusive_disjunction_settings_8}
@@ -207,13 +207,13 @@ Gets the exclusive disjunction of the current mask with the result of magic wand
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: get(x, y) {#get_x_y_9}
@@ -259,7 +259,7 @@ Gets the opacity of the specified pixel with byte precision.
 
 | Type | Description |
 | :- | :- |
-| byte | Byte value, representing the opacity of the specified pixel. |
+| System.Byte | Byte value, representing the opacity of the specified pixel. |
 
 
 ### Method: get_feathered(settings) {#get_feathered_settings_11}
@@ -275,13 +275,13 @@ Gets grayscale mask with the border feathered with the specified settings.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| settings | [FeatheringSettings](/imaging/python-net/aspose.imaging.magicwand.imagemasks/featheringsettings) | Feathering settings. |
+| settings | [FeatheringSettings](/imaging/python-net/aspose.imaging.magicwand.imagemasks/featheringsettings/) | Feathering settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) with feathered border. |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) with feathered border. |
 
 
 ### Method: inflate(size) {#inflate_size_12}
@@ -303,7 +303,7 @@ Inflates this mask by the specified amount.
 
 | Type | Description |
 | :- | :- |
-| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | An ImageMask. |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | An ImageMask. |
 
 
 ### Method: intersect(image, settings) {#intersect_image_settings_13}
@@ -319,14 +319,14 @@ Gets the intersection of the current mask with the result of magic wand selectio
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image for magic wand. |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image for magic wand. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: intersect(mask) {#intersect_mask_14}
@@ -342,13 +342,13 @@ Gets the intersection of current mask with provided.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | Provided mask |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: intersect(settings) {#intersect_settings_15}
@@ -364,13 +364,13 @@ Gets the intersection of the current mask with the result of magic wand selectio
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: invert() {#invert__16}
@@ -386,7 +386,7 @@ Gets the inversion of the current mask.
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: is_opaque(x, y) {#is_opaque_x_y_17}
@@ -448,14 +448,14 @@ Gets the result of magic wand selection applied to the provided image subtracted
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image for magic wand. |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image for magic wand. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: subtract(mask) {#subtract_mask_20}
@@ -471,13 +471,13 @@ Gets the subtraction of the provided mask from current.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | Provided mask |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: subtract(settings) {#subtract_settings_21}
@@ -493,13 +493,13 @@ Gets the result of magic wand selection applied to the source of the current mas
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: union(image, settings) {#union_image_settings_22}
@@ -515,14 +515,14 @@ Gets the union of the current mask with the result of magic wand selection appli
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image for magic wand. |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image for magic wand. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: union(mask) {#union_mask_23}
@@ -538,13 +538,13 @@ Gets the union of the current mask with provided.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask) | Provided mask |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 
 ### Method: union(settings) {#union_settings_24}
@@ -560,12 +560,12 @@ Gets the union of the current mask with the result of magic wand selection appli
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Magic wand settings. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | New [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
 
 

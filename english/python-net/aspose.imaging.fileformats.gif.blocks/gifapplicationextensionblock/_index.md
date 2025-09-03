@@ -24,11 +24,11 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionbl
 | APPLICATION_AUTHENTICATION_CODE_SIZE [static] | int | r | Specifies the application authentication code size. |
 | APPLICATION_IDENTIFIER_SIZE [static] | int | r | Specifies the application identifier size. |
 | BLOCK_HEADER_SIZE [static] | int | r | Specifies the block header size. |
-| BLOCK_SIZE [static] | byte | r | Extension name + version block size |
-| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
-| EXTENSION_LABEL [static] | byte | r | Extension label. |
-| application_authentication_code | byte | r/w | Gets or sets the application authentication code. |
-| application_data | byte | r/w | Gets or sets the application data. |
+| BLOCK_SIZE [static] | System.Byte | r | Extension name + version block size |
+| EXTENSION_INTRODUCER [static] | System.Byte | r | Extension introducer. |
+| EXTENSION_LABEL [static] | System.Byte | r | Extension label. |
+| application_authentication_code | System.Byte | r/w | Gets or sets the application authentication code. |
+| application_data | System.Byte | r/w | Gets or sets the application data. |
 | application_identifier | string | r/w | Gets or sets the application identifier. |
 | is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
 ## **Methods**
@@ -60,8 +60,8 @@ Initializes a new instance of the [GifApplicationExtensionBlock](/imaging/python
 | Parameter | Type | Description |
 | :- | :- | :- |
 | application_identifier | string | The application identifier. |
-| application_authentication_code | byte | The application authentication code. |
-| application_data | byte | The application data. |
+| application_authentication_code | System.Byte | The application authentication code. |
+| application_data | System.Byte | The application data. |
 
 ### Method: save(stream) {#save_stream_1}
 

@@ -1,7 +1,7 @@
 ---
 title: GaussianDeconvolutionFilterOptions Class
 type: docs
-weight: 80
+weight: 110
 url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/
 ---
 
@@ -16,14 +16,14 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussiandeconvolution
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| brightness | double | r/w | Gets or sets the brightness.<br/>            recommended range 1 - 1.5<br/>            default value = 1.15 |
+| brightness | float | r/w | Gets or sets the brightness.<br/>            recommended range 1 - 1.5<br/>            default value = 1.15 |
 | grayscale | bool | r/w | Gets or sets a value indicating whether this [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) is grayscale.<br/>            Return grayscale mode or RGB mode. |
 | is_partial_loaded | bool | r | Gets a value indicating whether this instance is partial loaded. |
 | kernel_data | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | r | Gets the kernel. |
 | radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
-| sigma | double | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
+| sigma | float | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |
 | size | int | r/w | Gets the Gaussian kernel size. Must be a positive non-zero odd value. |
-| snr | double | r/w | Gets or sets the SNR(signal-to-noise ratio)<br/>            recommended range 0.002 - 0.009, default value = 0.007 |
+| snr | float | r/w | Gets or sets the SNR(signal-to-noise ratio)<br/>            recommended range 0.002 - 0.009, default value = 0.007 |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -50,7 +50,7 @@ Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-n
 
 | Type | Description |
 | :- | :- |
-| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |  |
+| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) |  |
 
 
 ### Method: create_with_double(kernel)  [static] {#create_with_double_kernel_2}
@@ -66,12 +66,12 @@ Initializes a new instance of the [DeconvolutionFilterOptions](/imaging/python-n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| kernel | double | The double[] kernel. |
+| kernel | float[] | The double[] kernel. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |  |
+| [DeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/) |  |
 
 

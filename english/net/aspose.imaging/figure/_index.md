@@ -3,7 +3,7 @@ title: Class Figure
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Figure class. The figure. A container for shapes
 type: docs
-weight: 1310
+weight: 1320
 url: /net/aspose.imaging/figure/
 ---
 ## Figure class

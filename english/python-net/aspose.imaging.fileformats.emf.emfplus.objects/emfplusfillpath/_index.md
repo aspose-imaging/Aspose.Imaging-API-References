@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| fill_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) | r/w | Gets or sets EmfPlusPath object (section 2.2.1.6) that specifies the area to fill. |
+| fill_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/) | r/w | Gets or sets EmfPlusPath object (section 2.2.1.6) that specifies the area to fill. |
 
 
 ### Constructor: EmfPlusFillPath() {#EmfPlusFillPath__1}

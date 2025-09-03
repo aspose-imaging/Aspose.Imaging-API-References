@@ -3,7 +3,7 @@ title: Enum DataRecoveryMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.DataRecoveryMode enum. The data recovery mode
 type: docs
-weight: 800
+weight: 810
 url: /net/aspose.imaging/datarecoverymode/
 ---
 ## DataRecoveryMode enumeration

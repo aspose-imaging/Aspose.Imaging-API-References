@@ -3,7 +3,7 @@ title: IRasterImagePixelLoader
 second_title: Aspose.Imaging for Java API Reference
 description: The raster image pixel loader.
 type: docs
-weight: 147
+weight: 146
 url: /java/com.aspose.imaging/irasterimagepixelloader/
 ---
 **All Implemented Interfaces:**

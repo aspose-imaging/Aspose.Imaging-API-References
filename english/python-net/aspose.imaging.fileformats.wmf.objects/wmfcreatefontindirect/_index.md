@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| extended_bytes | byte | r/w | Gets or sets the extended bytes. |
+| extended_bytes | System.Byte | r/w | Gets or sets the extended bytes. |
 | index | int | r/w | Gets or sets the index. |
 | log_font | [EmfLogFont](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/) | r/w | Gets or sets the log font. |
 

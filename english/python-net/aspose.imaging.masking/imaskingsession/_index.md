@@ -51,7 +51,7 @@ Creates the asynchronous task which can perform first rough decompose operation
 
 | Type | Description |
 | :- | :- |
-| [IMaskingAsyncTask](/imaging/python-net/aspose.imaging.masking/imaskingasynctask) | The asynchronous decompose task |
+| [IMaskingAsyncTask](/imaging/python-net/aspose.imaging.masking/imaskingasynctask/) | The asynchronous decompose task |
 
 
 ### Method: improve_decomposition(masking_arguments) {#improve_decomposition_masking_arguments_3}
@@ -95,7 +95,7 @@ Creates the asynchronous task which can perform retraining decompose operation
 
 | Type | Description |
 | :- | :- |
-| [IMaskingAsyncTask](/imaging/python-net/aspose.imaging.masking/imaskingasynctask) | The asynchronous decompose task |
+| [IMaskingAsyncTask](/imaging/python-net/aspose.imaging.masking/imaskingasynctask/) | The asynchronous decompose task |
 
 
 ### Method: save(file_path) {#save_file_path_5}

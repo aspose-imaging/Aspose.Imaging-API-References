@@ -20,8 +20,8 @@ url: /python-net/aspose.imaging.shapesegments/linesegment/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending point. |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting point. |
+| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the ending point. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the starting point. |
 
 
 ### Constructor: LineSegment(start_point, end_point) {#LineSegment_start_point_end_point_1}
@@ -37,6 +37,6 @@ Initializes a new instance of the [LineSegment](/imaging/python-net/aspose.imagi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The start point. |
-| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The end point. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The start point. |
+| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The end point. |
 

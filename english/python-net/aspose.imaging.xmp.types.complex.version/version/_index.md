@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.version/version/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | comments | string | r/w | Gets or sets the comments. |
-| modified_date | datetime | r/w | Gets or sets the modified date. |
+| modified_date | System.DateTime | r/w | Gets or sets the modified date. |
 | modifier | string | r/w | Gets or sets the modifier. |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |
@@ -56,7 +56,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

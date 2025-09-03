@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that defines the <br/>            destination bounding rectangle in device units. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that defines the <br/>            destination bounding rectangle in device units. |
 | c_scans | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of scan lines. |
 | cx_src | int | r/w | Gets or sets a 32-bit signed integer that specifies the width in pixels of the source rectangle. |
 | cy_src | int | r/w | Gets or sets a 32-bit signed integer that specifies the height in pixels of the source rectangle |
@@ -53,7 +53,7 @@ Initializes a new instance of the [EmfSetDiBitsToDevice](/imaging/python-net/asp
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | The source. |
 
 ### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
@@ -68,13 +68,13 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | The source. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
 
 
 ### Method: create_from_type(type)  [static] {#create_from_type_type_2}
@@ -96,6 +96,6 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 
 | Type | Description |
 | :- | :- |
-| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
 
 

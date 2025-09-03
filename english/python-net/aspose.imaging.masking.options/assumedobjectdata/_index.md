@@ -20,8 +20,8 @@ url: /python-net/aspose.imaging.masking.options/assumedobjectdata/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the object's bounds. |
-| type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype) | r/w | Gets or sets the object's type. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets the object's bounds. |
+| type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype/) | r/w | Gets or sets the object's type. |
 
 
 ### Constructor: AssumedObjectData() {#AssumedObjectData__1}
@@ -46,8 +46,8 @@ Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype) | The object's type. |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The object's bounds. |
+| type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype/) | The object's type. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The object's bounds. |
 
 ### Constructor: AssumedObjectData(type, bounds) {#AssumedObjectData_type_bounds_3}
 
@@ -63,5 +63,5 @@ Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose
 | Parameter | Type | Description |
 | :- | :- | :- |
 | type | string | The object's type. |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The object's bounds. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The object's bounds. |
 

@@ -3,7 +3,7 @@ title: RasterImage.LoadCmyk32Pixels
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Loads pixels in CMYK format
 type: docs
-weight: 380
+weight: 420
 url: /net/aspose.imaging/rasterimage/loadcmyk32pixels/
 ---
 ## RasterImage.LoadCmyk32Pixels method

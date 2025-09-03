@@ -20,18 +20,18 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| childs | list[CdrObject] | r | Gets or sets the objects. |
+| childs | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Cdr.Objects.CdrObject]] | r | Gets or sets the objects. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
 | hidden | bool | r/w | Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible. |
-| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the last child. |
+| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the last child. |
 | load_to_last_child | bool | r/w | Gets or sets a value indicating whether [load to last child]. |
 | next_point | int | r/w | Gets or sets the next point. |
 | num_angles | int | r/w | Gets or sets the number angles. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 | position | [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) | r/w | Gets or sets the position. |
-| x_radius | double | r/w | Gets or sets the x radius. |
-| y_radius | double | r/w | Gets or sets the y radius. |
+| x_radius | float | r/w | Gets or sets the x radius. |
+| y_radius | float | r/w | Gets or sets the y radius. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -61,7 +61,7 @@ Adds the child object.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 
 ### Method: insert_object(cdr_object) {#insert_object_cdr_object_2}
 
@@ -76,5 +76,5 @@ Inserts the object
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 

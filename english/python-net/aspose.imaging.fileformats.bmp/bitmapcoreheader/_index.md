@@ -23,9 +23,9 @@ url: /python-net/aspose.imaging.fileformats.bmp/bitmapcoreheader/
 | OS_22X_BITMAP_HEADER_FULL_SIZE [static] | int | r | The bitmap core header2 size |
 | OS_22X_BITMAP_HEADER_SIZE [static] | int | r | The bitmap core header2 size |
 | bitmap_height | int | r/w | Gets or sets bitmap height. |
-| bitmap_planes | ushort | r/w | Gets or sets number of planes. |
+| bitmap_planes | int | r/w | Gets or sets number of planes. |
 | bitmap_width | int | r/w | Gets or sets bitmap width. |
-| bits_per_pixel | ushort | r/w | Gets or sets bits per pixel count. |
-| header_size | uint | r/w | Gets or sets size of this structure in bytes. |
+| bits_per_pixel | int | r/w | Gets or sets bits per pixel count. |
+| header_size | int | r/w | Gets or sets size of this structure in bytes. |
 
 

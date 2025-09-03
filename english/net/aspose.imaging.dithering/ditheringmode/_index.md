@@ -3,7 +3,7 @@ title: Class DitheringMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Dithering.DitheringMode class. Dithering settings to be applied to image upon saving
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.imaging.dithering/ditheringmode/
 ---
 ## DitheringMode class

@@ -32,7 +32,7 @@ Called when the font resource is ready for export.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| args | [FontStoringArgs](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoringargs) | The font storing options. |
+| args | [FontStoringArgs](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoringargs/) | The font storing options. |
 
 ### Method: on_image_resource_ready(image_data, image_type, suggested_file_name, use_embedded_image) {#on_image_resource_ready_image_data_image_type_suggested_file_name_use_embedded_image_2}
 
@@ -47,10 +47,10 @@ Called when the image resource is ready for export.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_data | byte | The resource data. |
-| image_type | [SvgImageType](/imaging/python-net/aspose.imaging.fileformats.svg/svgimagetype) | Type of the image. |
+| image_data | System.Byte | The resource data. |
+| image_type | [SvgImageType](/imaging/python-net/aspose.imaging.fileformats.svg/svgimagetype/) | Type of the image. |
 | suggested_file_name | string | Name of the suggested file. |
-| use_embedded_image | Boolean | if set to <c>true</c> the embedded image must be used. |
+| use_embedded_image | bool[] | if set to <c>true</c> the embedded image must be used. |
 
 **Returns**
 
@@ -72,7 +72,7 @@ Called when the SVG document is ready for export.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| html_data | byte | The SVG data. |
+| html_data | System.Byte | The SVG data. |
 | suggested_file_name | string | Name of the suggested file. |
 
 **Returns**

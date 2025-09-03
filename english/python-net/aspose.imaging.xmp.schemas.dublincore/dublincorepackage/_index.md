@@ -97,7 +97,7 @@ Adds string property.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | object | The string value. |
+| value | System.Object | The string value. |
 
 ### Method: contains_key(key) {#contains_key_key_3}
 
@@ -140,7 +140,7 @@ Gets the object with the specified key.
 
 | Type | Description |
 | :- | :- |
-| object | Returns the object with the specified key. |
+| System.Object | Returns the object with the specified key. |
 
 
 ### Method: get_xml_value() {#get_xml_value__5}
@@ -209,7 +209,7 @@ Adds the author.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| author | string | The author. |
+| author | string[] | The author. |
 
 ### Method: set_author_array(author) {#set_author_array_author_9}
 
@@ -224,7 +224,7 @@ Adds the author.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| author | string | The author. |
+| author | string[] | The author. |
 
 ### Method: set_description(desc) {#set_description_desc_10}
 
@@ -254,7 +254,7 @@ Adds the description.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| desc | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt) | The description. |
+| desc | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/) | The description. |
 
 ### Method: set_description_lang_alt(desc) {#set_description_lang_alt_desc_12}
 
@@ -269,7 +269,7 @@ Adds the description.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| desc | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt) | The description. |
+| desc | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/) | The description. |
 
 ### Method: set_description_str(desc) {#set_description_str_desc_13}
 
@@ -300,7 +300,7 @@ Gets or sets the object with the specified key.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | object | The object with the specified key. |
+| value | System.Object | The object with the specified key. |
 
 ### Method: set_publisher(publisher) {#set_publisher_publisher_15}
 
@@ -330,7 +330,7 @@ Adds the publisher.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| publisher | string | The publisher. |
+| publisher | string[] | The publisher. |
 
 ### Method: set_publisher_array(publisher) {#set_publisher_array_publisher_17}
 
@@ -345,7 +345,7 @@ Adds the publisher.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| publisher | string | The publisher. |
+| publisher | string[] | The publisher. |
 
 ### Method: set_subject(subject) {#set_subject_subject_18}
 
@@ -375,7 +375,7 @@ Adds the subject.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subject | string | The subject. |
+| subject | string[] | The subject. |
 
 ### Method: set_subject_array(subject) {#set_subject_array_subject_20}
 
@@ -390,7 +390,7 @@ Adds the subject.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subject | string | The subject. |
+| subject | string[] | The subject. |
 
 ### Method: set_title(title) {#set_title_title_21}
 
@@ -420,7 +420,7 @@ Adds Dublin Core title.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| title | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt) | The title. |
+| title | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/) | The title. |
 
 ### Method: set_title_lang_alt(title) {#set_title_lang_alt_title_23}
 
@@ -435,7 +435,7 @@ Adds Dublin Core title for different languages.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| title | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt) | Instance of [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/). |
+| title | [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/) | Instance of [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/). |
 
 ### Method: set_title_str(title) {#set_title_str_title_24}
 
@@ -466,7 +466,7 @@ Sets the value.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
+| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue/) | The value to add to. |
 
 ### Method: set_value(key, value) {#set_value_key_value_26}
 
@@ -514,7 +514,7 @@ Gets the value by the _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The XMP element key. |
-| value | Object | The XMP value. |
+| value | System.Object | The XMP value. |
 
 **Returns**
 

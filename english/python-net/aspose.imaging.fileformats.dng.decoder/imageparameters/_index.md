@@ -17,13 +17,13 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/imageparameters/
 | [camera_manufacturer](#camera_manufacturer1) | string | r | Gets the camera manufacturer. |
 | [colors_count](#colors_count2) | int | r | Gets the colors. |
 | [description](#description3) | string | r | Gets the description of colors (RGBG,RGBE,GMCY, or GBTG). |
-| [dng_version](#dng_version4) | uint | r | Gets the DNG version. |
-| [filters](#filters5) | uint | r | Gets the Bit mask describing the order of color pixels in the matrix. |
-| is_foveon | uint | r | Gets the is foveon matrix. |
+| [dng_version](#dng_version4) | int | r | Gets the DNG version. |
+| [filters](#filters5) | int | r | Gets the Bit mask describing the order of color pixels in the matrix. |
+| is_foveon | int | r | Gets the is foveon matrix. |
 | [model](#model6) | string | r | Gets the camera model. |
-| [raw_count](#raw_count7) | uint | r | Gets the number of RAW images in file (0 means that the file has not been recognized). |
+| [raw_count](#raw_count7) | int | r | Gets the number of RAW images in file (0 means that the file has not been recognized). |
 | [software](#software8) | string | r | Gets the software. |
-| [translation_cfa_dng](#translation_cfa_dng9) | string | r | Gets the translation array for CFA mosaic DNG format. |
+| [translation_cfa_dng](#translation_cfa_dng9) | string[] | r | Gets the translation array for CFA mosaic DNG format. |
 | xmp_data | string | r | Gets the XMP data. |
 
 

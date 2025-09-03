@@ -3,7 +3,7 @@ title: Class CdrVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrVersion class. The cdr Version
 type: docs
-weight: 1870
+weight: 1880
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrversion/
 ---
 ## CdrVersion class

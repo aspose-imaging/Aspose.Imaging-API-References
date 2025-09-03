@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.font/font/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| child_font_files | string | r/w | Gets or sets the array of file names for the fonts that make up a composite font. |
+| child_font_files | string[] | r/w | Gets or sets the array of file names for the fonts that make up a composite font. |
 | font_face | string | r/w | Gets or sets the font face. |
 | font_family | string | r/w | Gets or sets the font family. |
 | font_file_name | string | r/w | Gets or sets the font file name without full path. |
@@ -75,7 +75,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

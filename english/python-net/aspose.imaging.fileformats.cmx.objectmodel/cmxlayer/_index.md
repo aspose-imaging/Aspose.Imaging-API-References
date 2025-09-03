@@ -22,8 +22,8 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 | :- | :- | :- | :- |
 | MASTER_DESKTOP_LAYER_NAME [static] | string | r | The master desktop layer name |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| elements | list[ICmxDocElement] | r | Gets the elements. |
-| flags | uint | r/w | Gets or sets the flags. |
+| elements | System.Collections.Generic.IList`1[[Aspose.Imaging.FileFormats.Cmx.ObjectModel.ICmxDocElement]] | r | Gets the elements. |
+| flags | int | r/w | Gets or sets the flags. |
 | is_visible | bool | r/w | Gets or sets a value indicating whether this layer is visible. |
 | name | string | r/w | Gets or sets the name of the layer. |
 | number | int | r/w | Gets or sets the layer order number. |

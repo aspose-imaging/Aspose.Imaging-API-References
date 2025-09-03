@@ -3,7 +3,7 @@ title: Class CdrEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrEllipse class. The cdr Ellipse
 type: docs
-weight: 1590
+weight: 1600
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrellipse/
 ---
 ## CdrEllipse class

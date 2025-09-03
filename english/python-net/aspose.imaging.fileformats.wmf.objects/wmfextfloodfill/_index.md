@@ -22,8 +22,8 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
 | :- | :- | :- | :- |
 | color_ref | int | r/w | Gets or sets the color reference. |
 | mode | [WmfFloodFillMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmffloodfillmode/) | r/w | Gets or sets the mode. |
-| x_start | short | r/w | Gets or sets the x start. |
-| y_start | short | r/w | Gets or sets the y start. |
+| x_start | int | r/w | Gets or sets the x start. |
+| y_start | int | r/w | Gets or sets the y start. |
 
 
 ### Constructor: WmfExtFloodFill() {#WmfExtFloodFill__1}

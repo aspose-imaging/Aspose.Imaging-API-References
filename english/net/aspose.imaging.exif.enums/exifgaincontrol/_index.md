@@ -3,7 +3,7 @@ title: Enum ExifGainControl
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifGainControl enum. exif gain control enum
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.imaging.exif.enums/exifgaincontrol/
 ---
 ## ExifGainControl enumeration

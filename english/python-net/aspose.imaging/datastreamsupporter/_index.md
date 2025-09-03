@@ -1,7 +1,7 @@
 ---
 title: DataStreamSupporter Class
 type: docs
-weight: 1330
+weight: 1360
 url: /python-net/aspose.imaging/datastreamsupporter/
 ---
 
@@ -16,7 +16,7 @@ url: /python-net/aspose.imaging/datastreamsupporter/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | r | Gets the object's data stream. |
+| data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | r | Gets the object's data stream. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | is_cached | bool | r | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 ## **Methods**

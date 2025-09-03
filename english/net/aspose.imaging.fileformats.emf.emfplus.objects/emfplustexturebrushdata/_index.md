@@ -3,7 +3,7 @@ title: Class EmfPlusTextureBrushData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusTextureBrushData class. The EmfPlusTextureBrushData object specifies a texture image for a graphics brush
 type: docs
-weight: 5880
+weight: 5890
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/
 ---
 ## EmfPlusTextureBrushData class

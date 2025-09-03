@@ -18,8 +18,8 @@ url: /python-net/aspose.imaging.imageoptions/timeinterval/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| from_address | uint | r/w | Gets or sets From milliseconds. |
-| to | uint | r/w | Gets or sets To milliseconds. |
+| from_address | int | r/w | Gets or sets From milliseconds. |
+| to | int | r/w | Gets or sets To milliseconds. |
 
 
 ### Constructor: TimeInterval(from_address, to) {#TimeInterval_from_address_to_1}
@@ -35,8 +35,8 @@ Initializes a new instance of the [TimeInterval](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| from_address | uint | From milliseconds. |
-| to | uint | To milliseconds. |
+| from_address | int | From milliseconds. |
+| to | int | To milliseconds. |
 
 ## **Examples**
 ### Export of part of animation from GIF image based on time interval. {#example_199}

@@ -21,20 +21,20 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingbloc
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| BLOCK_SIZE [static] | byte | r | The overall block size. |
-| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
-| EXTENSION_LABEL [static] | byte | r | The plain text extension label. |
-| SUB_BLOCK_SIZE [static] | byte | r | The size of the sub block. |
-| character_cell_height | byte | r/w | Gets or sets the character cell height, in pixels, of each cell in the grid. |
-| character_cell_width | byte | r/w | Gets or sets the character cell width, in pixels, of each cell in the grid. |
+| BLOCK_SIZE [static] | System.Byte | r | The overall block size. |
+| EXTENSION_INTRODUCER [static] | System.Byte | r | Extension introducer. |
+| EXTENSION_LABEL [static] | System.Byte | r | The plain text extension label. |
+| SUB_BLOCK_SIZE [static] | System.Byte | r | The size of the sub block. |
+| character_cell_height | System.Byte | r/w | Gets or sets the character cell height, in pixels, of each cell in the grid. |
+| character_cell_width | System.Byte | r/w | Gets or sets the character cell width, in pixels, of each cell in the grid. |
 | is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
-| plain_text_data | byte | r/w | Gets or sets the plain text data. |
-| text_background_color_index | byte | r/w | Gets or sets the index of the color in the global color palette used to draw the text background. |
-| text_foreground_color_index | byte | r/w | Gets or sets the index of the color in the global color palette used to draw the text foreground. |
-| text_grid_height | ushort | r/w | Gets or sets the text grid height in pixels |
-| text_grid_left_position | ushort | r/w | Gets or sets the text grid left position. |
-| text_grid_top_position | ushort | r/w | Gets or sets the text grid top position. |
-| text_grid_width | ushort | r/w | Gets or sets the text grid with in pixels |
+| plain_text_data | System.Byte | r/w | Gets or sets the plain text data. |
+| text_background_color_index | System.Byte | r/w | Gets or sets the index of the color in the global color palette used to draw the text background. |
+| text_foreground_color_index | System.Byte | r/w | Gets or sets the index of the color in the global color palette used to draw the text foreground. |
+| text_grid_height | int | r/w | Gets or sets the text grid height in pixels |
+| text_grid_left_position | int | r/w | Gets or sets the text grid left position. |
+| text_grid_top_position | int | r/w | Gets or sets the text grid top position. |
+| text_grid_width | int | r/w | Gets or sets the text grid with in pixels |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -63,15 +63,15 @@ Initializes a new instance of the [GifPlainTextRenderingBlock](/imaging/python-n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text_grid_left_position | ushort | The text grid left position. |
-| text_grid_top_position | ushort | The text grid top position. |
-| text_grid_width | ushort | The text grid width. |
-| text_grid_height | ushort | The text grid height. |
-| character_cell_width | byte | The character cell width. |
-| character_cell_height | byte | The character cell height. |
-| text_foreground_color_index | byte | The foreground color index. |
-| text_background_color_index | byte | The background color index. |
-| data | byte | The plain text data. |
+| text_grid_left_position | int | The text grid left position. |
+| text_grid_top_position | int | The text grid top position. |
+| text_grid_width | int | The text grid width. |
+| text_grid_height | int | The text grid height. |
+| character_cell_width | System.Byte | The character cell width. |
+| character_cell_height | System.Byte | The character cell height. |
+| text_foreground_color_index | System.Byte | The foreground color index. |
+| text_background_color_index | System.Byte | The background color index. |
+| data | System.Byte | The plain text data. |
 
 ### Method: save(stream) {#save_stream_1}
 

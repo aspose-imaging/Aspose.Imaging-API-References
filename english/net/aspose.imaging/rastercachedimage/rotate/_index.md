@@ -3,7 +3,7 @@ title: RasterCachedImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Rotate image around the center
 type: docs
-weight: 150
+weight: 190
 url: /net/aspose.imaging/rastercachedimage/rotate/
 ---
 ## RasterCachedImage.Rotate method

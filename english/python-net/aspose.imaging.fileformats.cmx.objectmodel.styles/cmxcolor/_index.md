@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | color_model | [ColorModels](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/colormodels/) | r/w | Gets or sets the color model. |
-| value | uint | r/w | Gets or sets the color value. |
+| value | int | r/w | Gets or sets the color value. |
 
 
 ### Constructor: CmxColor() {#CmxColor__1}

@@ -1,7 +1,7 @@
 ---
 title: IImageExporterDescriptor Class
 type: docs
-weight: 5260
+weight: 5290
 url: /python-net/aspose.imaging/iimageexporterdescriptor/
 ---
 
@@ -11,12 +11,6 @@ url: /python-net/aspose.imaging/iimageexporterdescriptor/
 
 **Full Name:** aspose.imaging.IImageExporterDescriptor
 
-**Inheritance:** IImageDescriptor
-
-## **Properties**
-| **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- | :- |
-| supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -37,8 +31,8 @@ Determines whether image exporter can export the specified image to the specifie
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [Image](/imaging/python-net/aspose.imaging/image) | The image to export. |
-| options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The options base. |
+| image | [Image](/imaging/python-net/aspose.imaging/image/) | The image to export. |
+| options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options base. |
 
 **Returns**
 
@@ -60,6 +54,6 @@ Creates a new exporter instance.
 
 | Type | Description |
 | :- | :- |
-| [IImageExporter](/imaging/python-net/aspose.imaging/iimageexporter) | A new exporter instance. |
+| [IImageExporter](/imaging/python-net/aspose.imaging/iimageexporter/) | A new exporter instance. |
 
 

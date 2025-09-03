@@ -3,7 +3,7 @@ title: LicenseException
 second_title: Aspose.Imaging for Java API Reference
 description: Represents the exception thrown when a component cannot be granted a license.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.imaging.coreexceptions/licenseexception/
 ---
 **Inheritance:**

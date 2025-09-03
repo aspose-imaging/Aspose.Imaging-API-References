@@ -14,8 +14,8 @@ url: /python-net/aspose.imaging.fileformats.webp/iframe/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| duration | short | r/w | Gets or sets the frame duration. |
-| left | short | r/w | Gets or sets the frame position left. |
-| top | short | r/w | Gets or sets the frame position top. |
+| duration | int | r/w | Gets or sets the frame duration. |
+| left | int | r/w | Gets or sets the frame position left. |
+| top | int | r/w | Gets or sets the frame position top. |
 
 

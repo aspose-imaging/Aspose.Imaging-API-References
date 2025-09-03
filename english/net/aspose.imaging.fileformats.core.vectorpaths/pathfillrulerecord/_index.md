@@ -3,7 +3,7 @@ title: Class PathFillRuleRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Core.VectorPaths.PathFillRuleRecord class. Path Fill Rule Record Class
 type: docs
-weight: 2370
+weight: 2380
 url: /net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/
 ---
 ## PathFillRuleRecord class

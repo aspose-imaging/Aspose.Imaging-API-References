@@ -20,21 +20,21 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrbbox/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| childs | list[CdrObject] | r | Gets or sets the objects. |
+| childs | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Cdr.Objects.CdrObject]] | r | Gets or sets the objects. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
-| height | double | r | Gets the height. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
+| height | float | r | Gets the height. |
 | hidden | bool | r/w | Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible. |
-| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the last child. |
+| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the last child. |
 | load_to_last_child | bool | r/w | Gets or sets a value indicating whether [load to last child]. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
-| width | double | r | Gets the width. |
-| x | double | r | Gets the x. |
-| x0 | double | r/w | Gets or sets the x0. |
-| x1 | double | r/w | Gets or sets the x1. |
-| y | double | r | Gets the y. |
-| y0 | double | r/w | Gets or sets the y0. |
-| y1 | double | r/w | Gets or sets the y1. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
+| width | float | r | Gets the width. |
+| x | float | r | Gets the x. |
+| x0 | float | r/w | Gets or sets the x0. |
+| x1 | float | r/w | Gets or sets the x1. |
+| y | float | r | Gets the y. |
+| y0 | float | r/w | Gets or sets the y0. |
+| y1 | float | r/w | Gets or sets the y1. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -64,7 +64,7 @@ Adds the child object.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 
 ### Method: insert_object(cdr_object) {#insert_object_cdr_object_2}
 
@@ -79,5 +79,5 @@ Inserts the object
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 

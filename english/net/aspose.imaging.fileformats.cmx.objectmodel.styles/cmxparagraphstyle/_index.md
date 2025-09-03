@@ -3,7 +3,7 @@ title: Class CmxParagraphStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles.CmxParagraphStyle class. The paragraph style
 type: docs
-weight: 2310
+weight: 2320
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/
 ---
 ## CmxParagraphStyle class

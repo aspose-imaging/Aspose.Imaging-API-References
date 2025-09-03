@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of the background. |
+| background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the color of the background. |
 | background_mode | [EmfBackgroundMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/) | r/w | Gets or sets the background mode. |
-| clip | [Region](/imaging/python-net/aspose.imaging/region) | r/w | Gets or sets a Region that limits the drawing region of this Graphics |
-| clip_bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the clip bounds. |
+| clip | [Region](/imaging/python-net/aspose.imaging/region/) | r/w | Gets or sets a Region that limits the drawing region of this Graphics |
+| clip_bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Gets the clip bounds. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -90,9 +90,9 @@ Initializes a new instance of the [EmfRecorderGraphics2D](/imaging/python-net/as
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The frame. |
-| device_size | [Size](/imaging/python-net/aspose.imaging/size) | Size of the device. |
-| device_size_mm | [Size](/imaging/python-net/aspose.imaging/size) | The device size mm. |
+| frame | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The frame. |
+| device_size | [Size](/imaging/python-net/aspose.imaging/size/) | Size of the device. |
+| device_size_mm | [Size](/imaging/python-net/aspose.imaging/size/) | The device size mm. |
 
 
 **See also:**
@@ -113,8 +113,8 @@ Draws an arc representing a portion of an ellipse specified by a Rectangle struc
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The boundaries of the ellipse. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | arc_angle | float | Angle in degrees measured clockwise from the startAngle parameter to ending point of the arc. |
 
@@ -131,11 +131,11 @@ Draws the cubic bezier.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| pt1 | [Point](/imaging/python-net/aspose.imaging/point) | The starting point of the curve. |
-| pt2 | [Point](/imaging/python-net/aspose.imaging/point) | The first control point for the curve. |
-| pt3 | [Point](/imaging/python-net/aspose.imaging/point) | The second control point for the curve. |
-| pt4 | [Point](/imaging/python-net/aspose.imaging/point) | The ending point of the curve. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| pt1 | [Point](/imaging/python-net/aspose.imaging/point/) | The starting point of the curve. |
+| pt2 | [Point](/imaging/python-net/aspose.imaging/point/) | The first control point for the curve. |
+| pt3 | [Point](/imaging/python-net/aspose.imaging/point/) | The second control point for the curve. |
+| pt4 | [Point](/imaging/python-net/aspose.imaging/point/) | The ending point of the curve. |
 
 ### Method: draw_ellipse(pen, rect) {#draw_ellipse_pen_rect_3}
 
@@ -150,8 +150,8 @@ Draws the ellipse.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The boundaries of the ellipse. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The boundaries of the ellipse. |
 
 ### Method: draw_image(image, dest_rect, src_rect, src_unit) {#draw_image_image_dest_rect_src_rect_src_unit_4}
 
@@ -166,10 +166,10 @@ Draws the specified portion of the specified Image at the specified location and
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image to draw. |
-| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Rectangle structure that specifies the location and size of the drawn image. The image is scaled to fit the rectangle. |
-| src_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Rectangle structure that specifies the portion of the image object to draw. |
-| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The units of measure used by the srcRect parameter. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The image to draw. |
+| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Rectangle structure that specifies the location and size of the drawn image. The image is scaled to fit the rectangle. |
+| src_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Rectangle structure that specifies the portion of the image object to draw. |
+| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | The units of measure used by the srcRect parameter. |
 
 ### Method: draw_image(image, location) {#draw_image_image_location_5}
 
@@ -184,8 +184,8 @@ Draws the specified Image, using its original physical size, at the specified lo
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image to draw. |
-| location | [Point](/imaging/python-net/aspose.imaging/point) | The location of the upper-left corner of the drawn image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The image to draw. |
+| location | [Point](/imaging/python-net/aspose.imaging/point/) | The location of the upper-left corner of the drawn image. |
 
 ### Method: draw_image(image_bytes, dest_rect, src_unit) {#draw_image_image_bytes_dest_rect_src_unit_6}
 
@@ -200,9 +200,9 @@ Draws the image.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_bytes | byte | The image bytes. |
-| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The dest rect. |
-| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The source unit. |
+| image_bytes | System.Byte | The image bytes. |
+| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The dest rect. |
+| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | The source unit. |
 
 ### Method: draw_image(stream, dest_rect, src_unit) {#draw_image_stream_dest_rect_src_unit_7}
 
@@ -218,8 +218,8 @@ Draws the image.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
-| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The dest rect. |
-| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The source unit. |
+| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The dest rect. |
+| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | The source unit. |
 
 ### Method: draw_image_from_bytes(image_bytes, dest_rect, src_unit) {#draw_image_from_bytes_image_bytes_dest_rect_src_unit_8}
 
@@ -234,9 +234,9 @@ Draws the image.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_bytes | byte | The image bytes. |
-| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The dest rect. |
-| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The source unit. |
+| image_bytes | System.Byte | The image bytes. |
+| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The dest rect. |
+| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | The source unit. |
 
 ### Method: draw_image_from_stream(stream, dest_rect, src_unit) {#draw_image_from_stream_stream_dest_rect_src_unit_9}
 
@@ -252,8 +252,8 @@ Draws the image.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
-| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The dest rect. |
-| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit) | The source unit. |
+| dest_rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The dest rect. |
+| src_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | The source unit. |
 
 ### Method: draw_line(pen, pt1, pt2) {#draw_line_pen_pt1_pt2_10}
 
@@ -268,9 +268,9 @@ Draws the line.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| pt1 | [Point](/imaging/python-net/aspose.imaging/point) | The first point. |
-| pt2 | [Point](/imaging/python-net/aspose.imaging/point) | The second point. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| pt1 | [Point](/imaging/python-net/aspose.imaging/point/) | The first point. |
+| pt2 | [Point](/imaging/python-net/aspose.imaging/point/) | The second point. |
 
 ### Method: draw_line(pen, x1, y1, x2, y2) {#draw_line_pen_x1_y1_x2_y2_11}
 
@@ -285,7 +285,7 @@ Draws the line.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
 | x1 | int | The x-coordinate of the first point. |
 | y1 | int | The y-coordinate of the first point. |
 | x2 | int | The x-coordinate of the second point. |
@@ -304,8 +304,8 @@ Draws the path.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The path to draw. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The path to draw. |
 
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_13}
 
@@ -320,8 +320,8 @@ Draws the pie.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The boundaries of the ellipse. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | sweep_angle | float | Angle in degrees measured clockwise from the startAngle parameter to ending point of the arc. |
 
@@ -338,8 +338,8 @@ Draws the poly cubic bezier.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | The points. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point/) | The points. |
 
 ### Method: draw_polygon(pen, points) {#draw_polygon_pen_points_15}
 
@@ -354,8 +354,8 @@ Draws the polygon.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | The points. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point/) | The points. |
 
 ### Method: draw_polyline(pen, points) {#draw_polyline_pen_points_16}
 
@@ -370,8 +370,8 @@ Draws the polyline.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | The points. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point/) | The points. |
 
 ### Method: draw_rectangle(pen, rectangle) {#draw_rectangle_pen_rectangle_17}
 
@@ -386,8 +386,8 @@ Draws the rectangle.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to draw. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to draw. |
 
 ### Method: draw_rectangle(pen, x, y, width, height) {#draw_rectangle_pen_x_y_width_height_18}
 
@@ -402,7 +402,7 @@ Draws the rectangle.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
 | x | int | The x-coordinate of the upper-left corner of the rectangle to draw. |
 | y | int | The y-coordinate of the upper-left corner of the rectangle to draw. |
 | width | int | The width of the rectangle to draw. |
@@ -422,8 +422,8 @@ Draws the string.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | string | string | The string. |
-| font | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | Font that defines the text format of the string. |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | The text color. |
+| font | [Font](/imaging/python-net/aspose.imaging/font/) | Font that defines the text format of the string. |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | The text color. |
 | x | int | The x-coordinate of the upper-left corner of the drawn text. |
 | y | int | The y-coordinate of the upper-left corner of the drawn text. |
 
@@ -441,8 +441,8 @@ Draws the string.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | string | string | The string. |
-| font | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | Font that defines the text format of the string. |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | The text color. |
+| font | [Font](/imaging/python-net/aspose.imaging/font/) | Font that defines the text format of the string. |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | The text color. |
 | x | int | The x-coordinate of the upper-left corner of the drawn text. |
 | y | int | The y-coordinate of the upper-left corner of the drawn text. |
 | angle | float | The angle in degrees, between the escapement vector and the x-axis of the device. <br/>            The escapement vector is parallel to the base line of a row of text. |
@@ -460,7 +460,7 @@ Ends the recording.
 
 | Type | Description |
 | :- | :- |
-| [EmfImage](/imaging/python-net/aspose.imaging.fileformats.emf/emfimage) | The result image. |
+| [EmfImage](/imaging/python-net/aspose.imaging.fileformats.emf/emfimage/) | The result image. |
 
 
 ### Method: exclude_clip(rect) {#exclude_clip_rect_22}
@@ -476,7 +476,7 @@ Updates the clip region of this Graphics to exclude the area specified by a Rect
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Rectangle structure that specifies the rectangle to exclude from the clip region. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Rectangle structure that specifies the rectangle to exclude from the clip region. |
 
 ### Method: exclude_clip(region) {#exclude_clip_region_23}
 
@@ -491,7 +491,7 @@ Updates the clip region of this Graphics to exclude the area specified by a Regi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | Region that specifies the region to exclude from the clip region. |
+| region | [Region](/imaging/python-net/aspose.imaging/region/) | Region that specifies the region to exclude from the clip region. |
 
 ### Method: exclude_clip_rect(rect) {#exclude_clip_rect_rect_24}
 
@@ -506,7 +506,7 @@ Updates the clip region of this Graphics to exclude the area specified by a Rect
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | Rectangle structure that specifies the rectangle to exclude from the clip region. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Rectangle structure that specifies the rectangle to exclude from the clip region. |
 
 ### Method: exclude_clip_rgn(region) {#exclude_clip_rgn_region_25}
 
@@ -521,7 +521,7 @@ Updates the clip region of this Graphics to exclude the area specified by a Regi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | Region that specifies the region to exclude from the clip region. |
+| region | [Region](/imaging/python-net/aspose.imaging/region/) | Region that specifies the region to exclude from the clip region. |
 
 ### Method: fill_ellipse(brush, rect) {#fill_ellipse_brush_rect_26}
 
@@ -536,8 +536,8 @@ Fills the ellipse.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The boundaries of the ellipse. |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | Brush that determines the characteristics of the fill. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The boundaries of the ellipse. |
 
 ### Method: fill_path(pen, brush, path) {#fill_path_pen_brush_path_27}
 
@@ -552,9 +552,9 @@ Fills the path.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | Pen that determines the color, width, and style of the figure. |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The path to fill. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | Pen that determines the color, width, and style of the figure. |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | Brush that determines the characteristics of the fill. |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The path to fill. |
 
 ### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_28}
 
@@ -569,8 +569,8 @@ Fills the pie.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The boundaries of the ellipse. |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | Brush that determines the characteristics of the fill. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | sweep_angle | float | Angle in degrees measured clockwise from the startAngle parameter to ending point of the arc. |
 
@@ -587,8 +587,8 @@ Fills the polygon.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | The points. |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | Brush that determines the characteristics of the fill. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point/) | The points. |
 
 ### Method: fill_polygon(brush, points, fill_mode) {#fill_polygon_brush_points_fill_mode_30}
 
@@ -603,9 +603,9 @@ Fills the polygon.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | The points. |
-| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | The fill mode. |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | Brush that determines the characteristics of the fill. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point/) | The points. |
+| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode/) | The fill mode. |
 
 ### Method: fill_rectangle(brush, rectangle) {#fill_rectangle_brush_rectangle_31}
 
@@ -620,8 +620,8 @@ Fills the rectangle.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brush | [Brush](/imaging/python-net/aspose.imaging/brush) | Brush that determines the characteristics of the fill. |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to fill. |
+| brush | [Brush](/imaging/python-net/aspose.imaging/brush/) | Brush that determines the characteristics of the fill. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to fill. |
 
 ### Method: from_emf_image(emf_image)  [static] {#from_emf_image_emf_image_32}
 
@@ -636,13 +636,13 @@ Gets an instance of the [EmfRecorderGraphics2D](/imaging/python-net/aspose.imagi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| emf_image | [EmfImage](/imaging/python-net/aspose.imaging.fileformats.emf/emfimage) | The Emf image to read records from. |
+| emf_image | [EmfImage](/imaging/python-net/aspose.imaging.fileformats.emf/emfimage/) | The Emf image to read records from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [EmfRecorderGraphics2D](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) | An instance of the [EmfRecorderGraphics2D](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/) |
+| [EmfRecorderGraphics2D](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/) | An instance of the [EmfRecorderGraphics2D](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/) |
 
 
 ### Method: get_transform() {#get_transform__33}
@@ -658,7 +658,7 @@ Gets the world transform.
 
 | Type | Description |
 | :- | :- |
-| [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transform matrix. |
+| [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The transform matrix. |
 
 
 ### Method: intersect_clip(rect) {#intersect_clip_rect_34}
@@ -674,7 +674,7 @@ Updates the clip region of this Graphics to the intersection of the current clip
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | Rectangle structure to intersect with the current clip region. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Rectangle structure to intersect with the current clip region. |
 
 ### Method: intersect_clip(region) {#intersect_clip_region_35}
 
@@ -689,7 +689,7 @@ Updates the clip region of this Graphics to the intersection of the current clip
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | Region to intersect with the current region. |
+| region | [Region](/imaging/python-net/aspose.imaging/region/) | Region to intersect with the current region. |
 
 ### Method: intersect_clip_rect_f(rect) {#intersect_clip_rect_f_rect_36}
 
@@ -704,7 +704,7 @@ Updates the clip region of this Graphics to the intersection of the current clip
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | Rectangle structure to intersect with the current clip region. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Rectangle structure to intersect with the current clip region. |
 
 ### Method: intersect_clip_rgn(region) {#intersect_clip_rgn_region_37}
 
@@ -719,7 +719,7 @@ Updates the clip region of this Graphics to the intersection of the current clip
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | Region to intersect with the current region. |
+| region | [Region](/imaging/python-net/aspose.imaging/region/) | Region to intersect with the current region. |
 
 ### Method: multiply_transform(matrix) {#multiply_transform_matrix_38}
 
@@ -734,7 +734,7 @@ Multiplies the world transformation of this Graphics and specified the Matrix.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix that multiplies the world transformation. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix that multiplies the world transformation. |
 
 ### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_39}
 
@@ -749,8 +749,8 @@ Multiplies the world transformation of this Graphics and specified the Matrix in
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix that multiplies the world transformation. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order of the multiplication. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix that multiplies the world transformation. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order of the multiplication. |
 
 ### Method: rotate_transform(angle) {#rotate_transform_angle_40}
 
@@ -781,8 +781,8 @@ Applies the specified rotation to the transformation matrix of this Graphics in 
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | Angle of rotation in degrees. |
-| center | [PointF](/imaging/python-net/aspose.imaging/pointf) | The rotating center. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | Specifies whether the rotation is appended or prepended to the matrix transformation.. |
+| center | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The rotating center. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the rotation is appended or prepended to the matrix transformation.. |
 
 ### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_42}
 
@@ -815,7 +815,7 @@ Applies the specified scaling operation to the transformation matrix of this Gra
 | :- | :- | :- |
 | sx | float | Scale factor in the x direction. |
 | sy | float | Scale factor in the y direction. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | Specifies whether the scaling operation is prepended or appended to the transformation matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the scaling operation is prepended or appended to the transformation matrix. |
 
 ### Method: set_transform(transform) {#set_transform_transform_44}
 
@@ -830,7 +830,7 @@ Sets the transform.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The new transform matrix. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The new transform matrix. |
 
 ### Method: translate_transform(x, y) {#translate_transform_x_y_45}
 
@@ -863,7 +863,7 @@ Changes the origin of the coordinate system by applying the specified translatio
 | :- | :- | :- |
 | x | float | The x-coordinate of the translation. |
 | y | float | The y-coordinate of the translation. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | Specifies whether the translation is prepended or appended to the transformation matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the translation is prepended or appended to the transformation matrix. |
 
 ## **Examples**
 ### This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D. {#example_159}

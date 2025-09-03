@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/
 | bottom | int | r/w | Gets or sets the bottom. |
 | count | int | r/w | Gets or sets the count. |
 | count2 | int | r/w | Gets or sets the count2. |
-| scan_lines | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the scan lines. |
+| scan_lines | [Point[]](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the scan lines. |
 | top | int | r/w | Gets or sets the top. |
 
 
