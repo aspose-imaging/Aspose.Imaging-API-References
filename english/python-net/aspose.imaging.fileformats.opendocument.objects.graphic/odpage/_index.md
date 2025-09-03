@@ -21,10 +21,10 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
-| items | list[OdObject] | r | Gets the items. |
+| items | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.OpenDocument.OdObject]] | r | Gets the items. |
 | master_page_name | string | r/w | Gets or sets the name of the master page. |
 | name | string | r/w | Gets or sets the name. |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | r | Gets the parent object. |
 | style_name | string | r/w | Gets or sets the name of the style. |
 
 
@@ -41,5 +41,5 @@ Initializes a new instance of the [OdPage](/imaging/python-net/aspose.imaging.fi
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | The parent. |
 

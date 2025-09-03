@@ -21,10 +21,10 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
-| extension_label | byte | r/w | Gets or sets the block's extension label. |
+| EXTENSION_INTRODUCER [static] | System.Byte | r | Extension introducer. |
+| extension_label | System.Byte | r/w | Gets or sets the block's extension label. |
 | is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
-| unknown_data | byte | r/w | Gets or sets the unknown data. |
+| unknown_data | System.Byte | r/w | Gets or sets the unknown data. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -53,8 +53,8 @@ Initializes a new instance of the [GifUnknownExtensionBlock](/imaging/python-net
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| extension_label | byte | The extension label. |
-| data | byte | The block data. |
+| extension_label | System.Byte | The extension label. |
+| data | System.Byte | The block data. |
 
 ### Method: save(stream) {#save_stream_1}
 

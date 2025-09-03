@@ -56,6 +56,6 @@ Gets the stream container.
 
 | Type | Description |
 | :- | :- |
-| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | the stream container. |
+| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | the stream container. |
 
 

@@ -21,11 +21,11 @@ url: /python-net/aspose.imaging.watermark.options/contentawarefillwatermarkoptio
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| graphics_path_mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w | Gets or sets the mask. |
-| interest_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the area to take patches. |
-| mask | iter[Point] | r/w | Gets or sets the mask. |
+| graphics_path_mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | r/w | Gets or sets the mask. |
+| interest_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets the area to take patches. |
+| mask | System.Collections.Generic.IEnumerable`1[[Aspose.Imaging.Point]] | r/w | Gets or sets the mask. |
 | [max_painting_attempts](#max_painting_attempts1) | int | r/w | Gets or sets the maximum number of painting attempts.<br/>            The algorithm will chose the best variant. |
-| patch_size | byte | r/w | Gets or sets the patch size (should be odd). |
+| patch_size | System.Byte | r/w | Gets or sets the patch size (should be odd). |
 
 
 ### Constructor: ContentAwareFillWatermarkOptions(mask) {#ContentAwareFillWatermarkOptions_mask_1}
@@ -41,7 +41,7 @@ Initializes a new instance of the [ContentAwareFillWatermarkOptions](/imaging/py
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [Point[]](/imaging/python-net/aspose.imaging/point) | The mask for the unknown area. |
+| mask | [Point[]](/imaging/python-net/aspose.imaging/point/) | The mask for the unknown area. |
 
 ### Constructor: ContentAwareFillWatermarkOptions(mask) {#ContentAwareFillWatermarkOptions_mask_2}
 
@@ -56,7 +56,7 @@ Initializes a new instance of the [ContentAwareFillWatermarkOptions](/imaging/py
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The mask for the unknown area. |
+| mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The mask for the unknown area. |
 
 ### Property: max_painting_attempts {#max_painting_attempts1}
 

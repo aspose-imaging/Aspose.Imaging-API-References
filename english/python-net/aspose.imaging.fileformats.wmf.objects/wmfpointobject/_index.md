@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpointobject/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the point. |
 
 
 ### Constructor: WmfPointObject() {#WmfPointObject__1}

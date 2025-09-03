@@ -29,9 +29,9 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantlab/
 | MIN_L [static] | float | r | The minimum L component value |
 | a | int | r/w | Gets or sets the A component. |
 | b | int | r/w | Gets or sets the B component. |
-| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype) | r/w | Gets or sets the type of the color. |
+| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype/) | r/w | Gets or sets the type of the color. |
 | l | float | r/w | Gets or sets the L component. |
-| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
+| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |
 | swatch_name | string | r/w | Gets or sets the name of the swatch. |
@@ -81,7 +81,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

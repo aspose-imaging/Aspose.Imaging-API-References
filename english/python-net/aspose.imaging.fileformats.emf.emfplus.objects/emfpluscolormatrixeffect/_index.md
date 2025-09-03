@@ -20,12 +20,12 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatr
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| matrix | int[] | r/w | Gets or sets the matrix. |
-| matrix_n0 | int | r/w | Gets or sets the Matrix[N][0] of the 5x5 color matrix. This row is used for transforms. |
-| matrix_n1 | int | r/w | Gets or sets the Matrix[N][1] of the 5x5 color matrix. This row is used for transforms. |
-| matrix_n2 | int | r/w | Gets or sets the Matrix[N][2] of the 5x5 color matrix. This row is used for transforms. |
-| matrix_n3 | int | r/w | Gets or sets the Matrix[N][3] of the 5x5 color matrix. This row is used for transforms. |
-| matrix_n4 | int | r/w | Gets or sets the Matrix[N][4] of the 5x5 color matrix. This row is used for color translations. |
+| matrix | System.Int32[] | r/w | Gets or sets the matrix. |
+| matrix_n0 | int[] | r/w | Gets or sets the Matrix[N][0] of the 5x5 color matrix. This row is used for transforms. |
+| matrix_n1 | int[] | r/w | Gets or sets the Matrix[N][1] of the 5x5 color matrix. This row is used for transforms. |
+| matrix_n2 | int[] | r/w | Gets or sets the Matrix[N][2] of the 5x5 color matrix. This row is used for transforms. |
+| matrix_n3 | int[] | r/w | Gets or sets the Matrix[N][3] of the 5x5 color matrix. This row is used for transforms. |
+| matrix_n4 | int[] | r/w | Gets or sets the Matrix[N][4] of the 5x5 color matrix. This row is used for color translations. |
 
 
 ### Constructor: EmfPlusColorMatrixEffect() {#EmfPlusColorMatrixEffect__1}

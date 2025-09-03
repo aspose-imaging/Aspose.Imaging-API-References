@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging.magicwand/coloryuv/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| u | double | r | Gets the blue projection component value of this [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/) structure. |
-| v | double | r | Gets the red projection component value of this [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/) structure. |
-| y | double | r | Gets the luminance component value of this [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/) structure. |
+| u | float | r | Gets the blue projection component value of this [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/) structure. |
+| v | float | r | Gets the red projection component value of this [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/) structure. |
+| y | float | r | Gets the luminance component value of this [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/) structure. |
 
 
 ### Constructor: ColorYUV() {#ColorYUV__1}
@@ -47,7 +47,7 @@ Initializes a new instance of the [ColorYUV](/imaging/python-net/aspose.imaging.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | The Color from which to create the new [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/). |
+| color | [Color](/imaging/python-net/aspose.imaging/color/) | The Color from which to create the new [ColorYUV](/imaging/python-net/aspose.imaging.magicwand/coloryuv/). |
 
 ### Constructor: ColorYUV(y, u, v) {#ColorYUV_y_u_v_3}
 

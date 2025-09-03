@@ -1,7 +1,7 @@
 ---
 title: ResolutionSetting Class
 type: docs
-weight: 7100
+weight: 7120
 url: /python-net/aspose.imaging/resolutionsetting/
 ---
 
@@ -19,8 +19,8 @@ url: /python-net/aspose.imaging/resolutionsetting/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| horizontal_resolution | double | r/w | Gets or sets the horizontal resolution. |
-| vertical_resolution | double | r/w | Gets or sets the vertical resolution. |
+| horizontal_resolution | float | r/w | Gets or sets the horizontal resolution. |
+| vertical_resolution | float | r/w | Gets or sets the vertical resolution. |
 
 
 ### Constructor: ResolutionSetting() {#ResolutionSetting__1}
@@ -45,6 +45,6 @@ Initializes a new instance of the [ResolutionSetting](/imaging/python-net/aspose
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| horizontal_resolution | double | The horizontal resolution. |
-| vertical_resolution | double | The vertical resolution. |
+| horizontal_resolution | float | The horizontal resolution. |
+| vertical_resolution | float | The vertical resolution. |
 

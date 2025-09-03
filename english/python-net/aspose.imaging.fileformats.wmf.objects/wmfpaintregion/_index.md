@@ -46,5 +46,5 @@ Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspo
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The region. |
+| region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/) | The region. |
 

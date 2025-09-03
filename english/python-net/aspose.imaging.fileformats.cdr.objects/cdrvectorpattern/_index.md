@@ -20,11 +20,11 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrvectorpattern/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| data | byte | r/w | Gets or sets the data. |
+| data | System.Byte | r/w | Gets or sets the data. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
 | id | int | r/w | Gets or sets the identifier. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 
 
 ### Constructor: CdrVectorPattern() {#CdrVectorPattern__1}

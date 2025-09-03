@@ -11,11 +11,9 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/icmxcontainer/
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.ICmxContainer
 
-**Inheritance:** ICmxDocElement
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| elements | list[ICmxDocElement] | r | Gets the elements. |
+| elements | System.Collections.Generic.IList`1[[Aspose.Imaging.FileFormats.Cmx.ObjectModel.ICmxDocElement]] | r | Gets the elements. |
 
 

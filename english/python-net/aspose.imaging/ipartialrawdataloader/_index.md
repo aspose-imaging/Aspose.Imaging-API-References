@@ -1,7 +1,7 @@
 ---
 title: IPartialRawDataLoader Class
 type: docs
-weight: 5450
+weight: 5470
 url: /python-net/aspose.imaging/ipartialrawdataloader/
 ---
 
@@ -31,10 +31,10 @@ Processes the loaded data.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The data rectangle. |
-| data | byte | The raw data. |
-| start | [Point](/imaging/python-net/aspose.imaging/point) | The start data point. If not equal to (left,top) meaning that it is not full rectangle we have. |
-| end | [Point](/imaging/python-net/aspose.imaging/point) | The end data point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The data rectangle. |
+| data | System.Byte | The raw data. |
+| start | [Point](/imaging/python-net/aspose.imaging/point/) | The start data point. If not equal to (left,top) meaning that it is not full rectangle we have. |
+| end | [Point](/imaging/python-net/aspose.imaging/point/) | The end data point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
 
 ### Method: process(rectangle, data, start, end, load_options) {#process_rectangle_data_start_end_load_options_2}
 
@@ -49,9 +49,9 @@ Processes the loaded data.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The data rectangle. |
-| data | byte | The raw data. |
-| start | [Point](/imaging/python-net/aspose.imaging/point) | The start data point. If not equal to (left,top) meaning that it is not full rectangle we have. |
-| end | [Point](/imaging/python-net/aspose.imaging/point) | The end data point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The data rectangle. |
+| data | System.Byte | The raw data. |
+| start | [Point](/imaging/python-net/aspose.imaging/point/) | The start data point. If not equal to (left,top) meaning that it is not full rectangle we have. |
+| end | [Point](/imaging/python-net/aspose.imaging/point/) | The end data point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
 

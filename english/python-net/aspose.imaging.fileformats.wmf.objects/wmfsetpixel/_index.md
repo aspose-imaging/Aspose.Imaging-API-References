@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpixel/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | color_ref | int | r/w | Gets or sets the color reference. |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the point. |
 
 
 ### Constructor: WmfSetPixel() {#WmfSetPixel__1}

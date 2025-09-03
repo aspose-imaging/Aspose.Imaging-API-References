@@ -1,7 +1,7 @@
 ---
 title: IOrderedShape Class
 type: docs
-weight: 5410
+weight: 5430
 url: /python-net/aspose.imaging/iorderedshape/
 ---
 
@@ -14,9 +14,9 @@ url: /python-net/aspose.imaging/iorderedshape/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending shape point. |
+| end_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the ending shape point. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning. |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting shape point. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r | Gets the starting shape point. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |

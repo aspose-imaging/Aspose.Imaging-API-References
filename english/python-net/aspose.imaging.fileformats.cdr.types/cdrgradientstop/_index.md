@@ -18,8 +18,8 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradientstop/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| color | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor) | r/w | Gets or sets the color. |
-| offset | double | r/w | Gets or sets the offset. |
+| color | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/) | r/w | Gets or sets the color. |
+| offset | float | r/w | Gets or sets the offset. |
 
 
 ### Constructor: CdrGradientStop() {#CdrGradientStop__1}

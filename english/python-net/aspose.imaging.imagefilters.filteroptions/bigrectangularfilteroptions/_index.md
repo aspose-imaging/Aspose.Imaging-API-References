@@ -1,7 +1,7 @@
 ---
 title: BigRectangularFilterOptions Class
 type: docs
-weight: 10
+weight: 30
 url: /python-net/aspose.imaging.imagefilters.filteroptions/bigrectangularfilteroptions/
 ---
 

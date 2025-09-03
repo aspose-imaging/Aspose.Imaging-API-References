@@ -22,9 +22,9 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odellip
 | :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | axis_x | bool | r/w | Gets or sets a value indicating whether [axis x]. |
-| items | list[OdObject] | r | Gets the items. |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the point. |
+| items | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.OpenDocument.OdObject]] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | r | Gets the parent object. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the point. |
 
 
 ### Constructor: OdEllipticalQundrant(parent) {#OdEllipticalQundrant_parent_1}
@@ -40,5 +40,5 @@ Initializes a new instance of the [OdEllipticalQundrant](/imaging/python-net/asp
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | The parent. |
 

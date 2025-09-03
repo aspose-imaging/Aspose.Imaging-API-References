@@ -55,7 +55,7 @@ Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| record | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The record. |
+| record | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | The record. |
 
 ### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
@@ -70,13 +70,13 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | The source. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
 
 
 ### Method: create_from_type(type)  [static] {#create_from_type_type_2}
@@ -98,6 +98,6 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 
 | Type | Description |
 | :- | :- |
-| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
 
 

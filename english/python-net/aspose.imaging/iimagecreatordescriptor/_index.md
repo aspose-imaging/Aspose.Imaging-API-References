@@ -1,7 +1,7 @@
 ---
 title: IImageCreatorDescriptor Class
 type: docs
-weight: 5230
+weight: 5260
 url: /python-net/aspose.imaging/iimagecreatordescriptor/
 ---
 
@@ -11,12 +11,6 @@ url: /python-net/aspose.imaging/iimagecreatordescriptor/
 
 **Full Name:** aspose.imaging.IImageCreatorDescriptor
 
-**Inheritance:** IImageDescriptor
-
-## **Properties**
-| **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- | :- |
-| supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -37,7 +31,7 @@ Determines whether image creator can create a new image using the _imageOptions_
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The image options. |
+| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The image options. |
 
 **Returns**
 
@@ -59,6 +53,6 @@ Creates a new creator instance.
 
 | Type | Description |
 | :- | :- |
-| [IImageCreator](/imaging/python-net/aspose.imaging/iimagecreator) | A new creator instance. |
+| [IImageCreator](/imaging/python-net/aspose.imaging/iimagecreator/) | A new creator instance. |
 
 

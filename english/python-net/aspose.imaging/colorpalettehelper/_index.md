@@ -1,7 +1,7 @@
 ---
 title: ColorPaletteHelper Class
 type: docs
-weight: 1170
+weight: 1200
 url: /python-net/aspose.imaging/colorpalettehelper/
 ---
 
@@ -47,7 +47,7 @@ Creates the 4 bit color palette.
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The 4 bit color palette. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The 4 bit color palette. |
 
 
 ### Method: create_4_bit_grayscale(min_is_white)  [static] {#create_4_bit_grayscale_min_is_white_2}
@@ -69,7 +69,7 @@ Creates the 4 bit grayscale palette.
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The 4 bit grayscale palette. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The 4 bit grayscale palette. |
 
 
 ### Method: create_8_bit()  [static] {#create_8_bit__3}
@@ -85,7 +85,7 @@ Creates the 8 bit color palette.
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The 8 bit color palette. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The 8 bit color palette. |
 
 
 ### Method: create_8_bit_grayscale(min_is_white)  [static] {#create_8_bit_grayscale_min_is_white_4}
@@ -107,7 +107,7 @@ Creates the 8 bit grayscale palette.
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The 8 bit grayscale palette. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The 8 bit grayscale palette. |
 
 
 ### Method: create_grayscale(bits)  [static] {#create_grayscale_bits_5}
@@ -129,7 +129,7 @@ Gets the grayscale palette of specified bit count. Allowed bit values are 1, 2, 
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | Grayscale palette. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | Grayscale palette. |
 
 
 ### Method: create_monochrome()  [static] {#create_monochrome__6}
@@ -145,7 +145,7 @@ Creates a monochrome color palette containing 2 colors only.
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | Color palette for monochrome images. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | Color palette for monochrome images. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_7}
@@ -161,15 +161,15 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
-| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The destination image bounds. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
+| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds. |
 | entries_count | int | The desired entries count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_8}
@@ -185,8 +185,8 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
-| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The destination image bounds. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
+| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds. |
 | entries_count | int | The desired entries count. |
 | use_image_palette | bool | If set, it will use its own image palette if available |
 
@@ -194,7 +194,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_9}
@@ -210,17 +210,17 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
-| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The destination image bounds. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
+| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds. |
 | entries_count | int | The desired entries count. |
 | use_image_palette | bool | If set, it will use its own image palette if available |
-| alpha_blend_in_color | [Color](/imaging/python-net/aspose.imaging/color) | The color that should be used as a background color for semi-transparent alpha replacement. |
+| alpha_blend_in_color | [Color](/imaging/python-net/aspose.imaging/color/) | The color that should be used as a background color for semi-transparent alpha replacement. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, dest_bounds, entries_count, use_image_palette, alpha_blend_in_color, keep_transparency)  [static] {#get_close_image_palette_image_dest_bounds_entries_count_use_image_palette_alpha_blend_in_color_keep_transparency_10}
@@ -236,18 +236,18 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
-| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The destination image bounds. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
+| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds. |
 | entries_count | int | The desired entries count. |
 | use_image_palette | bool | If set, it will use its own image palette if available |
-| alpha_blend_in_color | [Color](/imaging/python-net/aspose.imaging/color) | The color that should be used as a background color for semi-transparent alpha replacement. |
+| alpha_blend_in_color | [Color](/imaging/python-net/aspose.imaging/color/) | The color that should be used as a background color for semi-transparent alpha replacement. |
 | keep_transparency | bool | If set, it will consider alpha channel bits of the image colors. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette(image, entries_count)  [static] {#get_close_image_palette_image_entries_count_11}
@@ -263,14 +263,14 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
 | entries_count | int | The desired entries count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 
@@ -294,15 +294,15 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
 | entries_count | int | The desired entries count. |
-| palette_mining_method | [PaletteMiningMethod](/imaging/python-net/aspose.imaging/paletteminingmethod) | The palette mining method. |
+| palette_mining_method | [PaletteMiningMethod](/imaging/python-net/aspose.imaging/paletteminingmethod/) | The palette mining method. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 
@@ -324,15 +324,15 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
 | entries_count | int | The desired entries count. |
-| palette_mining_method | [PaletteMiningMethod](/imaging/python-net/aspose.imaging/paletteminingmethod) | The palette mining method. |
+| palette_mining_method | [PaletteMiningMethod](/imaging/python-net/aspose.imaging/paletteminingmethod/) | The palette mining method. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_image_palette_by_rect(image, dest_bounds, entries_count)  [static] {#get_close_image_palette_by_rect_image_dest_bounds_entries_count_14}
@@ -348,15 +348,15 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
-| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The destination image bounds. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
+| dest_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds. |
 | entries_count | int | The desired entries count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_close_transparent_image_palette(image, entries_count)  [static] {#get_close_transparent_image_palette_image_entries_count_15}
@@ -372,14 +372,14 @@ Gets color palette from raster image (palletizes image) in case the image does n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The raster image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
 | entries_count | int | The desired entries count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
+| [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The color palette which starts with the most frequent colors from the _image_ and contains _entriesCount_ entries. |
 
 
 ### Method: get_downscale_palette(image)  [static] {#get_downscale_palette_image_16}
@@ -395,13 +395,13 @@ Get 256 color palette, composed from upper bits of initial image color values.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The image. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/). |
+| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) | The [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/). |
 
 
 ### Method: get_uniform_color_palette(image)  [static] {#get_uniform_color_palette_image_17}
@@ -417,13 +417,13 @@ Get uniform 256 color palette.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The image. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/). |
+| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) | The [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/). |
 
 
 ### Method: has_transparent_colors(palette)  [static] {#has_transparent_colors_palette_18}
@@ -439,7 +439,7 @@ Determines whether the specified palette has transparent colors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The palette. |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The palette. |
 
 **Returns**
 

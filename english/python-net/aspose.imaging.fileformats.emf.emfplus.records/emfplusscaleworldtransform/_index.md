@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworl
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
-| flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |
+| flags | int | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |
 | post_multiplied_matrix | bool | r | Gets a value indicating whether [post multiplied matrix].<br/>            If set, the transform matrix should be post-multipled. If clear, it should be premultiplied. |
 | size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
 | sx | float | r/w | Gets or sets a 32-bit floating-point value that defines the horizontal scale factor. The scaling<br/>            is performed by constructing a new transform matrix from the Sx and Sy field values, as<br/>            shown in the following table.<br/>            -----------------<br/>            |  Sx |   0 | 0 |<br/>            |   0 |  Sx | 0 |<br/>            -----------------<br/>            Figure 3: Scale Transform Matrix |
@@ -42,5 +42,5 @@ Initializes a new instance of the [EmfPlusScaleWorldTransform](/imaging/python-n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | The source. |
+| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/) | The source. |
 

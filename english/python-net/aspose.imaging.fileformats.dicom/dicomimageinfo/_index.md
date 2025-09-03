@@ -16,10 +16,10 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 | :- | :- | :- | :- |
 | bits_allocated | int | r | Gets a value of the "bitsAllocated". |
 | bits_stored | int | r | Gets the number of stored bits. |
-| blues | byte | r | Gets the array colors of the blue |
-| dicom_header_info_by_bytes | byte | r | Gets the dicom header information by bytes. |
-| dicom_info | list[str] | r | Gets the header information of the DICOM file. |
-| greens | byte | r | Gets the array colors of the green |
+| blues | System.Byte | r | Gets the array colors of the blue |
+| dicom_header_info_by_bytes | System.Byte | r | Gets the dicom header information by bytes. |
+| dicom_info | System.Collections.Generic.IList`1[[System.String]] | r | Gets the header information of the DICOM file. |
+| greens | System.Byte | r | Gets the array colors of the green |
 | height | int | r | Gets the height. |
 | is_little_endian | bool | r | Gets a value indicating whether this instance is little endian. |
 | number_of_frames | int | r | Gets the number of frames. |
@@ -27,15 +27,15 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 | photo_interpretation | string | r | Gets a value of the "PhotoInterpretation". |
 | pixel_representation | int | r | Gets a value of the pixel "pixelRepresentation". |
 | planar_configuration | int | r | Gets the planar configuration. |
-| readonly_tags_list [static] | list[str] | r | The read-only tags list. These tag values will be reset according to the actual image data upon image save. |
-| reds | byte | r | Gets the array colors of the red |
-| rescale_intercept | double | r | Gets a value of the "rescaleIntercept". |
-| rescale_slope | double | r | Gets a value of the "rescaleSlope". |
+| readonly_tags_list [static] | System.Collections.Generic.IList`1[[System.String]] | r | The read-only tags list. These tag values will be reset according to the actual image data upon image save. |
+| reds | System.Byte | r | Gets the array colors of the red |
+| rescale_intercept | float | r | Gets a value of the "rescaleIntercept". |
+| rescale_slope | float | r | Gets a value of the "rescaleSlope". |
 | samples_per_pixel | int | r | Gets a value of the "samplesPerPixel". |
 | signed_image | bool | r | Gets a value indicating whether "signedImage". |
 | width | int | r | Gets the width. |
-| window_centre | double | r | Gets the window centre. |
-| window_width | double | r | Gets the width of the window. |
+| window_centre | float | r | Gets the window centre. |
+| window_width | float | r | Gets the width of the window. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -61,7 +61,7 @@ Add new Dicom tag.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | tag_description | string | The tag description. Can not be null or whitespace. |
-| value | object | The tag value. Can not be null. |
+| value | System.Object | The tag value. Can not be null. |
 
 ### Method: remove_tag_at(index) {#remove_tag_at_index_2}
 
@@ -92,7 +92,7 @@ Add new Dicom tag.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | tag_description | string | The tag description. Can not be null or whitespace. |
-| value | object | The tag value. Can not be null. |
+| value | System.Object | The tag value. Can not be null. |
 
 **Returns**
 
@@ -137,7 +137,7 @@ Update an existing tag.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The index of the tag to be updated. |
-| new_value | object | The tag value. Can not be null. |
+| new_value | System.Object | The tag value. Can not be null. |
 
 **Returns**
 
@@ -160,5 +160,5 @@ Update an existing tag.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The index of the tag to be updated. |
-| new_value | object | The tag value. Can not be null. |
+| new_value | System.Object | The tag value. Can not be null. |
 

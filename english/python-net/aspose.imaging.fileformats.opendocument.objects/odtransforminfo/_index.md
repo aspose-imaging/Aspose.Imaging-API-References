@@ -51,6 +51,6 @@ Copies this instance.
 
 | Type | Description |
 | :- | :- |
-| [OdTransformInfo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo) | Get the instance of OdTransformInfo |
+| [OdTransformInfo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/) | Get the instance of OdTransformInfo |
 
 

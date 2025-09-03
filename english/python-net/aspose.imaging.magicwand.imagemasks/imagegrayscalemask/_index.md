@@ -21,10 +21,10 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets the bounds, in pixels, of this mask. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the bounds, in pixels, of this mask. |
 | height | int | r | Gets the height, in pixels, of this mask. |
-| selection_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets the bounds of the selected part of the mask, in pixels. |
-| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | r | Gets the source image used to create this mask, if exists. |
+| selection_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the bounds of the selected part of the mask, in pixels. |
+| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | r | Gets the source image used to create this mask, if exists. |
 | width | int | r | Gets the width, in pixels, of this mask. |
 ## **Methods**
 | **Name** | **Description** |
@@ -60,7 +60,7 @@ Initializes a new instance of the [ImageGrayscaleMask](/imaging/python-net/aspos
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Source image. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Source image. |
 
 ### Constructor: ImageGrayscaleMask(width, height) {#ImageGrayscaleMask_width_height_2}
 
@@ -91,7 +91,7 @@ Applies current mask to the specified [RasterImage](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | Image to apply mask to. |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Image to apply mask to. |
 
 ### Method: clone() {#clone__2}
 
@@ -106,7 +106,7 @@ Creates a new object that is a copy of the current instance.
 
 | Type | Description |
 | :- | :- |
-| object | A new object that is a copy of this instance. |
+| System.Object | A new object that is a copy of this instance. |
 
 
 ### Method: crop(rectangle) {#crop_rectangle_3}
@@ -122,13 +122,13 @@ Crops mask with the specified rectangle.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The specified rectangle. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The specified rectangle. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | A cropped [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | A cropped [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: crop(size) {#crop_size_4}
@@ -144,13 +144,13 @@ Crops mask with the specified size.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | The specified size. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | The specified size. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | An cropped [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | An cropped [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: crop(width, height) {#crop_width_height_5}
@@ -173,7 +173,7 @@ Crops mask with the specified width and height.
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | An cropped [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | An cropped [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: exclusive_disjunction(mask) {#exclusive_disjunction_mask_6}
@@ -189,13 +189,13 @@ Gets the exclusive disjunction of current mask with provided.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | Provided mask |
+| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: get(x, y) {#get_x_y_7}
@@ -218,7 +218,7 @@ Gets or sets the opacity of the specified pixel.
 
 | Type | Description |
 | :- | :- |
-| byte | Byte value; 0 if transparent; 255 if opaque. |
+| System.Byte | Byte value; 0 if transparent; 255 if opaque. |
 
 
 ### Method: get_byte_opacity(x, y) {#get_byte_opacity_x_y_8}
@@ -241,7 +241,7 @@ Gets the opacity of the specified pixel with byte precision.
 
 | Type | Description |
 | :- | :- |
-| byte | Byte value, representing the opacity of the specified pixel. |
+| System.Byte | Byte value, representing the opacity of the specified pixel. |
 
 
 ### Method: intersect(mask) {#intersect_mask_9}
@@ -257,13 +257,13 @@ Gets the intersection of current mask with provided.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | Provided mask |
+| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: invert() {#invert__10}
@@ -279,7 +279,7 @@ Gets the inversion of the current mask.
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: is_opaque(x, y) {#is_opaque_x_y_11}
@@ -343,7 +343,7 @@ Sets the opacity of the specified pixel.
 | :- | :- | :- |
 | x | int | The x-coordinate of the pixel. |
 | y | int | The y-coordinate of the pixel. |
-| value | byte | Byte value; 0 if transparent; 255 if opaque. |
+| value | System.Byte | Byte value; 0 if transparent; 255 if opaque. |
 
 ### Method: subtract(mask) {#subtract_mask_14}
 
@@ -358,13 +358,13 @@ Gets the subtraction of the provided mask from current.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | Provided mask |
+| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 
 ### Method: union(mask) {#union_mask_15}
@@ -380,12 +380,12 @@ Union of two masks.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | Provided mask |
+| mask | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | Provided mask |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | New [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/). |
 
 

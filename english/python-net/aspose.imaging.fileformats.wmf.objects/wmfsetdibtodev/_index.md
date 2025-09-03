@@ -21,9 +21,9 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | color_usage | [WmfColorUsageEnum](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/) | r/w | Gets or sets the color usage. |
-| dest_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the dest position. |
-| dib | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap) | r/w | Gets or sets the dib. |
-| dib_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the dib position. |
+| dest_pos | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the dest position. |
+| dib | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets the dib. |
+| dib_pos | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the dib position. |
 | height | int | r/w | Gets or sets the height. |
 | scan_count | int | r/w | Gets or sets the scan count. |
 | start_scan | int | r/w | Gets or sets the start scan. |

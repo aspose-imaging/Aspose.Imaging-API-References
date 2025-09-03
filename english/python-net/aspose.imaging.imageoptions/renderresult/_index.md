@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.imageoptions/renderresult/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | message | string | r/w | Gets or sets string message |
-| render_code | [RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode) | r/w | Gets or sets code of error |
+| render_code | [RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode/) | r/w | Gets or sets code of error |
 
 
 ### Constructor: RenderResult() {#RenderResult__1}

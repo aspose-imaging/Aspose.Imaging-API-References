@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/xmpguid/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | prefix | string | r/w | Gets or sets the prefix like uuid. |
-| value | Guid | r/w | Gets or sets the value. |
+| value | System.Guid | r/w | Gets or sets the value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -43,7 +43,7 @@ Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.x
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| guid | Guid | The unique identifier. |
+| guid | System.Guid | The unique identifier. |
 
 ### Constructor: XmpGuid(value) {#XmpGuid_value_2}
 
@@ -73,7 +73,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

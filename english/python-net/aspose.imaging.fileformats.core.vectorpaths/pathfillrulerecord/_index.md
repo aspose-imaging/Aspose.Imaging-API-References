@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
+| type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/) | r | Gets the type. |
 
 
 ### Constructor: PathFillRuleRecord() {#PathFillRuleRecord__1}
@@ -46,5 +46,5 @@ Initializes a new instance of the [PathFillRuleRecord](/imaging/python-net/aspos
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | byte | The record data. |
+| data | System.Byte | The record data. |
 

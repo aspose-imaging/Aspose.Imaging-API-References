@@ -1,7 +1,7 @@
 ---
 title: ColorTranslator Class
 type: docs
-weight: 1180
+weight: 1210
 url: /python-net/aspose.imaging/colortranslator/
 ---
 
@@ -41,7 +41,7 @@ Takes color from the HTML color.
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The color. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The color. |
 
 
 ### Method: from_ole(ole_color)  [static] {#from_ole_ole_color_2}
@@ -63,7 +63,7 @@ Takes color from the OLE color.
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The color. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The color. |
 
 
 ### Method: from_win32(win_32_color)  [static] {#from_win32_win_32_color_3}
@@ -85,7 +85,7 @@ Takes color from the HTML color.
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The color. |
+| [Color](/imaging/python-net/aspose.imaging/color/) | The color. |
 
 
 ### Method: to_html(c)  [static] {#to_html_c_4}
@@ -101,7 +101,7 @@ Creates HTML color  from the color.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| c | [Color](/imaging/python-net/aspose.imaging/color) | The color class. |
+| c | [Color](/imaging/python-net/aspose.imaging/color/) | The color class. |
 
 **Returns**
 
@@ -123,7 +123,7 @@ Translates OLE color to color.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| c | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
+| c | [Color](/imaging/python-net/aspose.imaging/color/) | The color. |
 
 **Returns**
 
@@ -145,7 +145,7 @@ Translates the color to win32 color.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| c | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
+| c | [Color](/imaging/python-net/aspose.imaging/color/) | The color. |
 
 **Returns**
 

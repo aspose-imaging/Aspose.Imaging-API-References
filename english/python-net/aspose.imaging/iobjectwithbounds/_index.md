@@ -1,7 +1,7 @@
 ---
 title: IObjectWithBounds Class
 type: docs
-weight: 5390
+weight: 5410
 url: /python-net/aspose.imaging/iobjectwithbounds/
 ---
 
@@ -14,9 +14,9 @@ url: /python-net/aspose.imaging/iobjectwithbounds/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets the object bounds. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the object bounds. |
 | height | int | r | Gets the object height. |
-| size | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets the object size. |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the object size. |
 | width | int | r | Gets the object width. |
 
 

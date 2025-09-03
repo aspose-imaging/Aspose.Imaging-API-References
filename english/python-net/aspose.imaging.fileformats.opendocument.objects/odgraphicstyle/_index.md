@@ -40,7 +40,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
 | style_position | float | r/w | Gets or sets the style position. |
 | text_align | [OdTextAlignModeFlags](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/) | r/w | Gets or sets the text align. |
 | text_color | int | r/w | Gets or sets the color of the text. |
-| transform_info | [OdTransformInfo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo) | r | Gets the transform information. |
+| transform_info | [OdTransformInfo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/) | r | Gets the transform information. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -69,6 +69,6 @@ Copies this instance.
 
 | Type | Description |
 | :- | :- |
-| [OdGraphicStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle) | Gets the copy of this instance. |
+| [OdGraphicStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/) | Gets the copy of this instance. |
 
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfrecord/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | record_type | [WmfRecordType](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfrecordtype/) | r/w | [WmfRecord.record_type](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfrecord/) number (defined in WINDOWS.H) |
-| size | long | r/w | Gets or sets the size. |
+| size | int | r/w | Gets or sets the size. |
 
 
 ### Constructor: WmfRecord() {#WmfRecord__1}

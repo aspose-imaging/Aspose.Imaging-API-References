@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| parameters | int | r/w | Gets or sets the parameters. |
+| parameters | int[] | r/w | Gets or sets the parameters. |
 
 
 ### Constructor: WmfUntyped() {#WmfUntyped__1}

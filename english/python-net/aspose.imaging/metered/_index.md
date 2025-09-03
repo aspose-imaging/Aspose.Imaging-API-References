@@ -1,7 +1,7 @@
 ---
 title: Metered Class
 type: docs
-weight: 6040
+weight: 6060
 url: /python-net/aspose.imaging/metered/
 ---
 
@@ -45,7 +45,7 @@ Gets consumption credit
 
 | Type | Description |
 | :- | :- |
-| decimal | consumption quantity |
+| System.Decimal | consumption quantity |
 
 
 ### Method: get_consumption_quantity()  [static] {#get_consumption_quantity__2}
@@ -61,7 +61,7 @@ Gets consumption file size
 
 | Type | Description |
 | :- | :- |
-| decimal | consumption quantity |
+| System.Decimal | consumption quantity |
 
 
 ### Method: set_metered_key(public_key, private_key) {#set_metered_key_public_key_private_key_3}

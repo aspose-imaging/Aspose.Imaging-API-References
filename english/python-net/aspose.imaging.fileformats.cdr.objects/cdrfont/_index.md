@@ -21,11 +21,11 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrfont/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
-| encoding | short | r/w | Gets or sets the encoding. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
+| encoding | int | r/w | Gets or sets the encoding. |
 | font_name | string | r/w | Gets or sets the name of the font. |
 | id | int | r/w | Gets or sets the identifier. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 
 
 ### Constructor: CdrFont() {#CdrFont__1}

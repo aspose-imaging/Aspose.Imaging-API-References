@@ -40,7 +40,7 @@ Initializes a new instance of the [ImageMasking](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The source image. |
+| source_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The source image. |
 
 ### Method: apply_mask(target_image, mask, masking_options)  [static] {#apply_mask_target_image_mask_masking_options_1}
 
@@ -55,8 +55,8 @@ Applies the mask to specified source image.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| target_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The target image. |
-| mask | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The mask image to apply. |
+| target_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The target image. |
+| mask | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The mask image to apply. |
 | masking_options | [MaskingOptions](/imaging/python-net/aspose.imaging.masking.options/maskingoptions/) | The masking options. |
 
 ### Method: create_session(options) {#create_session_options_2}
@@ -78,7 +78,7 @@ Creates the masking session which can perform retraining decompose operations.
 
 | Type | Description |
 | :- | :- |
-| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession) | the masking session which can perform retraining decompose operations. |
+| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession/) | the masking session which can perform retraining decompose operations. |
 
 
 ### Method: decompose(options) {#decompose_options_3}
@@ -122,7 +122,7 @@ Creates the asynchronous decompose task using specified masking options.
 
 | Type | Description |
 | :- | :- |
-| [IMaskingAsyncTask](/imaging/python-net/aspose.imaging.masking/imaskingasynctask) | The asynchronous decompose task |
+| [IMaskingAsyncTask](/imaging/python-net/aspose.imaging.masking/imaskingasynctask/) | The asynchronous decompose task |
 
 
 ### Method: load_session(file_path) {#load_session_file_path_5}
@@ -144,7 +144,7 @@ Load the session from the specified file.
 
 | Type | Description |
 | :- | :- |
-| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession) | the masking session which can perform retraining decompose operations. |
+| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession/) | the masking session which can perform retraining decompose operations. |
 
 
 ### Method: load_session(stream) {#load_session_stream_6}
@@ -166,7 +166,7 @@ Load the session from the specified stream.
 
 | Type | Description |
 | :- | :- |
-| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession) | the masking session which can perform retraining decompose operations. |
+| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession/) | the masking session which can perform retraining decompose operations. |
 
 
 ### Method: load_session_from_stream(stream) {#load_session_from_stream_stream_7}
@@ -188,6 +188,6 @@ Load the session from the specified stream.
 
 | Type | Description |
 | :- | :- |
-| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession) | the masking session which can perform retraining decompose operations. |
+| [IMaskingSession](/imaging/python-net/aspose.imaging.masking/imaskingsession/) | the masking session which can perform retraining decompose operations. |
 
 

@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomend
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| custom_end_cap | [EmfPlusCustomLineCap](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap) | r/w | Gets or sets a custom line cap that defines the shape to draw at the end<br/>            of a line. It can be any of various shapes, including a<br/>            square, circle, or diamond |
+| custom_end_cap | [EmfPlusCustomLineCap](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/) | r/w | Gets or sets a custom line cap that defines the shape to draw at the end<br/>            of a line. It can be any of various shapes, including a<br/>            square, circle, or diamond |
 
 
 ### Constructor: EmfPlusCustomEndCapData() {#EmfPlusCustomEndCapData__1}

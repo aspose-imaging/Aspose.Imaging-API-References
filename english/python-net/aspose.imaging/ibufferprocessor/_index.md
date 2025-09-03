@@ -1,7 +1,7 @@
 ---
 title: IBufferProcessor Class
 type: docs
-weight: 5070
+weight: 5100
 url: /python-net/aspose.imaging/ibufferprocessor/
 ---
 
@@ -30,6 +30,6 @@ Processes the buffer.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | byte | The buffer to process. |
+| buffer | System.Byte | The buffer to process. |
 | buffer_length | int | The buffer length to process. |
 

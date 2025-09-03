@@ -18,7 +18,7 @@ url: /python-net/aspose.imaging.imageoptions/rdoptimizersettings/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bpp_max | double | r/w | Gets or sets the maximum R value for consideration in  in bits per pixel |
+| bpp_max | float | r/w | Gets or sets the maximum R value for consideration in  in bits per pixel |
 | bpp_scale | int | r/w | Gets or sets the BPP (bits per pixel) scale factor. |
 | discretized_bpp_max | int | r | Gets the maximum R value for consideration. |
 | max_pixel_value | int | r | Gets the maximum pixel value. |
@@ -53,6 +53,6 @@ Creates this instance.
 
 | Type | Description |
 | :- | :- |
-| [RdOptimizerSettings](/imaging/python-net/aspose.imaging.imageoptions/rdoptimizersettings) | returns RDOptimizerSettings class instance |
+| [RdOptimizerSettings](/imaging/python-net/aspose.imaging.imageoptions/rdoptimizersettings/) | returns RDOptimizerSettings class instance |
 
 

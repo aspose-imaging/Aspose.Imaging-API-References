@@ -11,11 +11,9 @@ url: /python-net/aspose.imaging.xmp/ihasxmpdata/
 
 **Full Name:** aspose.imaging.xmp.IHasXmpData
 
-**Inheritance:** IHasMetadata
-
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper) | r/w | Gets or sets Xmp data. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 
 

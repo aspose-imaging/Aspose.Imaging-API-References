@@ -18,7 +18,7 @@ url: /python-net/aspose.imaging.magicwand.imagemasks/featheringsettings/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| mode | [FeatheringMode](/imaging/python-net/aspose.imaging.magicwand.imagemasks/featheringmode) | r/w | Gets or sets the feathering algorithm mode. |
+| mode | [FeatheringMode](/imaging/python-net/aspose.imaging.magicwand.imagemasks/featheringmode/) | r/w | Gets or sets the feathering algorithm mode. |
 | size | int | r/w | Gets or sets the feathering size. |
 
 

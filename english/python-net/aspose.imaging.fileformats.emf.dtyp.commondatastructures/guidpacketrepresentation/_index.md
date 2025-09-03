@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpa
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | data1 | int | r/w | Gets or sets the value of the Data1 member (section 2.3.4), in little-endian byte order. |
-| data2 | short | r/w | Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byte order. |
-| data3 | short | r/w | Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byte order. |
-| data4 | long | r/w | Gets or sets the value of the Data4 member (section 2.3.4), in little-endian byte order. |
+| data2 | int | r/w | Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byte order. |
+| data3 | int | r/w | Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byte order. |
+| data4 | int | r/w | Gets or sets the value of the Data4 member (section 2.3.4), in little-endian byte order. |
 
 
 ### Constructor: GuidPacketRepresentation() {#GuidPacketRepresentation__1}
@@ -48,7 +48,7 @@ Initializes a new instance of the [GuidPacketRepresentation](/imaging/python-net
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data1 | int | The data1. |
-| data2 | short | The data2. |
-| data3 | short | The data3. |
-| data4 | long | The data4. |
+| data2 | int | The data2. |
+| data3 | int | The data3. |
+| data4 | int | The data4. |
 

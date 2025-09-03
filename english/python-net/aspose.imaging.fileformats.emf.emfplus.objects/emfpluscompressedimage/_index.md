@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompresse
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| compressed_image_data | byte | r/w | Gets or sets an array of bytes, which specify the compressed image.<br/>            The type of compression MUST be determined from the data itself. |
+| compressed_image_data | System.Byte | r/w | Gets or sets an array of bytes, which specify the compressed image.<br/>            The type of compression MUST be determined from the data itself. |
 
 
 ### Constructor: EmfPlusCompressedImage() {#EmfPlusCompressedImage__1}

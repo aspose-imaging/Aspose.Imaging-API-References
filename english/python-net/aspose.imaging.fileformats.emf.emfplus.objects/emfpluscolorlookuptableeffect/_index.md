@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlook
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| alpha_lookup_table | byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the alpha color channel. |
-| blue_lookup_table | byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the blue color channel. |
-| green_lookup_table | byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the green color channel. |
-| red_lookup_table | byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the red color channel. |
+| alpha_lookup_table | System.Byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the alpha color channel. |
+| blue_lookup_table | System.Byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the blue color channel. |
+| green_lookup_table | System.Byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the green color channel. |
+| red_lookup_table | System.Byte | r/w | Gets or sets an array of 256 bytes that specifies the adjustment for the red color channel. |
 
 
 ### Constructor: EmfPlusColorLookupTableEffect() {#EmfPlusColorLookupTableEffect__1}

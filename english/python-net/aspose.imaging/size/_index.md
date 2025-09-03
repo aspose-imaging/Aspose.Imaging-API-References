@@ -1,7 +1,7 @@
 ---
 title: Size Class
 type: docs
-weight: 7160
+weight: 7180
 url: /python-net/aspose.imaging/size/
 ---
 
@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/size/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| empty [static] | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets a new instance of the [Size](/imaging/python-net/aspose.imaging/size/) structure that has [Size.width](/imaging/python-net/aspose.imaging/size/) and [Size.height](/imaging/python-net/aspose.imaging/size/) values set to zero. |
+| empty [static] | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets a new instance of the [Size](/imaging/python-net/aspose.imaging/size/) structure that has [Size.width](/imaging/python-net/aspose.imaging/size/) and [Size.height](/imaging/python-net/aspose.imaging/size/) values set to zero. |
 | height | int | r/w | Gets or sets the vertical component of this [Size](/imaging/python-net/aspose.imaging/size/). |
 | is_empty | bool | r | Gets a value indicating whether this [Size](/imaging/python-net/aspose.imaging/size/) has width and height of 0. |
 | width | int | r/w | Gets or sets the horizontal component of this [Size](/imaging/python-net/aspose.imaging/size/). |
@@ -56,7 +56,7 @@ Initializes a new instance of the [Size](/imaging/python-net/aspose.imaging/size
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) from which to initialize this [Size](/imaging/python-net/aspose.imaging/size/). |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | The [Point](/imaging/python-net/aspose.imaging/point/) from which to initialize this [Size](/imaging/python-net/aspose.imaging/size/). |
 
 ### Constructor: Size(width, height) {#Size_width_height_3}
 
@@ -87,14 +87,14 @@ Adds the width and height of one [Size](/imaging/python-net/aspose.imaging/size/
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size1 | [Size](/imaging/python-net/aspose.imaging/size) | The first [Size](/imaging/python-net/aspose.imaging/size/) to add. |
-| size2 | [Size](/imaging/python-net/aspose.imaging/size) | The second [Size](/imaging/python-net/aspose.imaging/size/) to add. |
+| size1 | [Size](/imaging/python-net/aspose.imaging/size/) | The first [Size](/imaging/python-net/aspose.imaging/size/) to add. |
+| size2 | [Size](/imaging/python-net/aspose.imaging/size/) | The second [Size](/imaging/python-net/aspose.imaging/size/) to add. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Size](/imaging/python-net/aspose.imaging/size) | A [Size](/imaging/python-net/aspose.imaging/size/) structure that is the result of the addition operation. |
+| [Size](/imaging/python-net/aspose.imaging/size/) | A [Size](/imaging/python-net/aspose.imaging/size/) structure that is the result of the addition operation. |
 
 
 ### Method: ceiling(size)  [static] {#ceiling_size_2}
@@ -110,13 +110,13 @@ Converts the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/) struct
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to convert. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to convert. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) structure this method converts to. |
+| [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) structure this method converts to. |
 
 
 ### Method: round(size)  [static] {#round_size_3}
@@ -132,13 +132,13 @@ Converts the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/) struct
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to convert. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to convert. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) structure this method converts to. |
+| [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) structure this method converts to. |
 
 
 ### Method: subtract(size1, size2)  [static] {#subtract_size1_size2_4}
@@ -154,14 +154,14 @@ Subtracts the width and height of one [Size](/imaging/python-net/aspose.imaging/
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size1 | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) structure on the left side of the subtraction operator. |
-| size2 | [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) structure on the right side of the subtraction operator. |
+| size1 | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) structure on the left side of the subtraction operator. |
+| size2 | [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) structure on the right side of the subtraction operator. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) that is a result of the subtraction operation. |
+| [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) that is a result of the subtraction operation. |
 
 
 ### Method: truncate(size)  [static] {#truncate_size_5}
@@ -177,12 +177,12 @@ Converts the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/) struct
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size | [SizeF](/imaging/python-net/aspose.imaging/sizef) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to convert. |
+| size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | The [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to convert. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Size](/imaging/python-net/aspose.imaging/size) | The [Size](/imaging/python-net/aspose.imaging/size/) structure this method converts to. |
+| [Size](/imaging/python-net/aspose.imaging/size/) | The [Size](/imaging/python-net/aspose.imaging/size/) structure this method converts to. |
 
 

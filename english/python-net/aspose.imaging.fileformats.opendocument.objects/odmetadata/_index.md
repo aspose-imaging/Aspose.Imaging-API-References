@@ -31,11 +31,11 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects/odmetadata/
 | generator | string | r/w | Gets or sets the generator. |
 | hyperlink_behavior | string | r/w | Gets or sets the hyperlink behavior. |
 | initial_creator | string | r/w | Gets or sets the initial creator. |
-| items | list[OdObject] | r | Gets the items. |
+| items | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.OpenDocument.OdObject]] | r | Gets the items. |
 | keywords | string | r/w | Gets or sets the keywords. |
 | language | string | r/w | Gets or sets the language. |
 | modification_date_time | string | r/w | Gets or sets the modification date time. |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | r | Gets the parent object. |
 | print_date_time | string | r/w | Gets or sets the print date time. |
 | printed_by | string | r/w | Gets or sets the printed by. |
 | subject | string | r/w | Gets or sets the subject. |
@@ -55,5 +55,5 @@ Initializes a new instance of the [OdMetadata](/imaging/python-net/aspose.imagin
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | The parent. |
 

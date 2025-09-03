@@ -18,11 +18,11 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/imageotherparameters/
 | artist | string | r | Gets the author of image. |
 | [description](#description2) | string | r | Gets the image description. |
 | [focal_length](#focal_length3) | float | r | Gets the length of the focal. |
-| gps_data | uint | r | Gets the GPS data. |
+| gps_data | int[] | r | Gets the GPS data. |
 | [iso_speed](#iso_speed4) | float | r | Gets the ISO sensitivity. |
-| [shot_order](#shot_order5) | uint | r | Gets serial number of image. |
+| [shot_order](#shot_order5) | int | r | Gets serial number of image. |
 | [shutter_speed](#shutter_speed6) | float | r | Gets the shutter speed. |
-| [timestamp](#timestamp7) | long | r | Gets the date of shooting. |
+| [timestamp](#timestamp7) | int | r | Gets the date of shooting. |
 
 
 ### Property: aperture {#aperture1}

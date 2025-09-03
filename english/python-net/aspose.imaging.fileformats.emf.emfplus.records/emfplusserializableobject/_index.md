@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializa
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| buffer | byte | r/w | Gets or sets an array of BufferSize bytes that contain the serialized image effects<br/>            parameter block that corresponds to the GUID in the ObjectGUID field. This MUST be one of<br/>            the Image Effects objects (section 2.2.3). |
+| buffer | System.Byte | r/w | Gets or sets an array of BufferSize bytes that contain the serialized image effects<br/>            parameter block that corresponds to the GUID in the ObjectGUID field. This MUST be one of<br/>            the Image Effects objects (section 2.2.3). |
 | buffer_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size in bytes of the 32-bitaligned Buffer field. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
-| flags | short | r/w | Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero<br/>            and MUST be ignored upon receipt. |
+| flags | int | r/w | Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero<br/>            and MUST be ignored upon receipt. |
 | image_effect | [EmfPlusImageEffectsObjectType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype/) | r/w | Gets or sets the image effect. |
 | object_guid | [GuidPacketRepresentation](/imaging/python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/) | r/w | Gets or sets the GUID packet representation value ([MS-DTYP] section 2.3.4.2)<br/>            for the image effect. This MUST correspond to one of the ImageEffects identifiers (section 2.1.3.1). |
 | size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
@@ -43,5 +43,5 @@ Initializes a new instance of the [EmfPlusSerializableObject](/imaging/python-ne
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | The source. |
+| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/) | The source. |
 

@@ -1,7 +1,7 @@
 ---
 title: IntRange Class
 type: docs
-weight: 5710
+weight: 5730
 url: /python-net/aspose.imaging/intrange/
 ---
 
@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/intrange/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| range | int | r/w | Gets or sets the range. |
+| range | int[] | r/w | Gets or sets the range. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -41,7 +41,7 @@ Initializes a new instance of the [IntRange](/imaging/python-net/aspose.imaging/
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| range | int | The range. |
+| range | int[] | The range. |
 
 ### Constructor: IntRange(start, count) {#IntRange_start_count_2}
 
@@ -95,7 +95,7 @@ Returns one item array from specified index
 
 | Type | Description |
 | :- | :- |
-| int | The array of string |
+| int[] | The array of string |
 
 
 ### Method: get_range(start, count, delta)  [static] {#get_range_start_count_delta_2}
@@ -119,6 +119,6 @@ Gets the count range of int elements starting at start
 
 | Type | Description |
 | :- | :- |
-| iter[int] | Array of items |
+| System.Collections.Generic.IEnumerable`1[[System.Int32]] | Array of items |
 
 

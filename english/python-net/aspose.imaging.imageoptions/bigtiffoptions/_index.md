@@ -26,10 +26,10 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | alpha_storage | [TiffAlphaStorage](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/) | r/w | Gets or sets the alpha storage option. Options other than [TiffAlphaStorage.UNSPECIFIED](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/)<br/>            are used when there are more than 3 [TiffOptions.samples_per_pixel](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) defined. |
 | artist | string | r/w | Gets or sets the artist. |
 | bits_per_pixel | int | r | Gets the bits per pixel. |
-| bits_per_sample | ushort | r/w | Gets or sets the bits per sample. |
+| bits_per_sample | int[] | r/w | Gets or sets the bits per sample. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | byte_order | [TiffByteOrder](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffbyteorder/) | r/w | Gets or sets a value indicating the tiff byte order. |
-| color_map | ushort | r/w | Gets or sets the color map. |
+| color_map | int[] | r/w | Gets or sets the color map. |
 | compressed_quality | int | r/w | Gets or sets compressed image quality.<br/>            Used with the Jpeg compression. |
 | compression | [TiffCompressions](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffcompressions/) | r/w | Gets or sets the compression. |
 | copyright | string | r/w | Gets or sets the copyright. |
@@ -40,56 +40,56 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | document_name | string | r/w | Gets or sets the name of the document. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif data. |
 | exif_ifd | [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) | r | Gets or sets the pointer to EXIF IFD. |
-| extra_samples | ushort | r | Gets the extra samples values. |
+| extra_samples | int[] | r | Gets the extra samples values. |
 | fax_t4_options | [Group3Options](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/group3options/) | r/w | Gets or sets the fax t4 options. |
 | file_standard | [TiffFileStandards](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifffilestandards/) | r/w | Gets or sets the TIFF file standard. |
 | fill_order | [TiffFillOrders](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifffillorders/) | r/w | Gets or sets the byte bits fill order. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| half_tone_hints | ushort | r/w | Gets or sets the halftone hints. |
+| half_tone_hints | int[] | r/w | Gets or sets the halftone hints. |
 | image_description | string | r/w | Gets or sets the image description. |
-| image_length | uint | r/w | Gets or sets the image length. |
-| image_width | uint | r/w | Gets or sets the image width. |
+| image_length | int | r/w | Gets or sets the image length. |
+| image_width | int | r/w | Gets or sets the image width. |
 | ink_names | string | r/w | Gets or sets the ink names. |
 | is_extra_samples_present | bool | r | Gets a value indicating whether the extra samples is present. |
 | is_tiled | bool | r | Gets a value indicating whether image is tiled. |
 | is_valid | bool | r | Gets a value indicating whether the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
-| max_sample_value | ushort | r/w | Gets or sets the max sample value. |
-| min_sample_value | ushort | r/w | Gets or sets the min sample value. |
-| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
+| max_sample_value | int[] | r/w | Gets or sets the max sample value. |
+| min_sample_value | int[] | r/w | Gets or sets the min sample value. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | orientation | [TiffOrientations](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifforientations/) | r/w | Gets or sets the orientation. |
 | page_name | string | r/w | Gets or sets the page name. |
-| page_number | ushort | r/w | Gets or sets the page number tag. |
-| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
+| page_number | int[] | r/w | Gets or sets the page number tag. |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | photometric | [TiffPhotometrics](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffphotometrics/) | r/w | Gets or sets the photometric. |
 | planar_configuration | [TiffPlanarConfigs](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffplanarconfigs/) | r/w | Gets or sets the planar configuration. |
 | predictor | [TiffPredictor](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffpredictor/) | r/w | Gets or sets the predictor for LZW compression. |
 | premultiply_components | bool | r/w | Gets or sets a value indicating whether components must be premultiplied. |
-| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
 | resolution_unit | [TiffResolutionUnits](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffresolutionunits/) | r/w | Gets or sets the resolution unit. |
-| rows_per_strip | uint | r/w | Gets or sets the rows per strip. |
+| rows_per_strip | int | r/w | Gets or sets the rows per strip. |
 | sample_format | [TiffSampleFormats[]](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffsampleformats/) | r/w | Gets or sets the sample format. |
-| samples_per_pixel | ushort | r | Gets the samples per pixel. To change this property value use the [TiffOptions.bits_per_sample](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) property setter. |
+| samples_per_pixel | int | r | Gets the samples per pixel. To change this property value use the [TiffOptions.bits_per_sample](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) property setter. |
 | scanner_manufacturer | string | r/w | Gets or sets the scanner manufacturer. |
 | scanner_model | string | r/w | Gets or sets the scanner model. |
-| smax_sample_value | uint | r/w | Gets or sets the max sample value. The value has a field type which best matches the sample data (Byte, Short or Long type). |
-| smin_sample_value | uint | r/w | Gets or sets the min sample value. The value has a field type which best matches the sample data (Byte, Short or Long type). |
+| smax_sample_value | int[] | r/w | Gets or sets the max sample value. The value has a field type which best matches the sample data (Byte, Short or Long type). |
+| smin_sample_value | int[] | r/w | Gets or sets the min sample value. The value has a field type which best matches the sample data (Byte, Short or Long type). |
 | software_type | string | r/w | Gets or sets the software type. |
-| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
-| strip_byte_counts | ulong | r/w | Gets or sets the strip byte counts. |
-| strip_offsets | ulong | r/w | Gets or sets the strip offsets. |
+| source | [Source](/imaging/python-net/aspose.imaging/source/) | r/w | Gets or sets the source to create image in. |
+| strip_byte_counts | int[] | r/w | Gets or sets the strip byte counts. |
+| strip_offsets | int[] | r/w | Gets or sets the strip offsets. |
 | sub_file_type | [TiffNewSubFileTypes](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes/) | r/w | Gets or sets a general indication of the kind of data contained in this subfile. |
 | tag_count | int | r | Gets the tag count. |
 | tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r/w | Gets or sets the tags. |
 | target_printer | string | r/w | Gets or sets the target printer. |
 | threshholding | [TiffThresholds](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffthresholds/) | r/w | Gets or sets the threshholding. |
-| tile_byte_counts | ulong | r/w | Gets or sets the tile byte counts. |
-| tile_length | uint | r/w | Gets ot sets tile length. |
-| tile_offsets | ulong | r/w | Gets or sets the tile offsets. |
-| tile_width | uint | r/w | Gets ot sets tile width. |
-| total_pages | ushort | r | Gets the total pages. |
+| tile_byte_counts | int[] | r/w | Gets or sets the tile byte counts. |
+| tile_length | int | r/w | Gets ot sets tile length. |
+| tile_offsets | int[] | r/w | Gets or sets the tile offsets. |
+| tile_width | int | r/w | Gets ot sets tile width. |
+| total_pages | int | r | Gets the total pages. |
 | valid_tag_count | int | r | Gets the valid tag count. This is not the total tags count but the number of tags which may be preserved. |
-| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
 | xp_author | string | r/w | Gets or sets image author, which used by Windows Explorer. |
 | xp_comment | string | r/w | Gets or sets comment on image, which used by Windows Explorer. |
@@ -99,7 +99,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | xposition | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the x position. |
 | xresolution | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the x resolution. |
 | y_cb_cr_coefficients | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the YCbCrCoefficients. |
-| y_cb_cr_subsampling | ushort | r/w | Gets or sets the subsampling factors for YCbCr photometric. |
+| y_cb_cr_subsampling | int[] | r/w | Gets or sets the subsampling factors for YCbCr photometric. |
 | yposition | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the y position. |
 | yresolution | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the y resolution. |
 ## **Methods**
@@ -163,7 +163,7 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions) | The options source. |
+| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) | The options source. |
 
 ### Constructor: BigTiffOptions(tags) {#BigTiffOptions_tags_4}
 
@@ -223,7 +223,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns a deep clone. |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | Returns a deep clone. |
 
 
 ### Method: create_with_format(expected_format)  [static] {#create_with_format_expected_format_4}
@@ -245,7 +245,7 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Type | Description |
 | :- | :- |
-| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) | A new BigTiffOptions object. |
+| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) | A new BigTiffOptions object. |
 
 
 ### Method: create_with_options(options)  [static] {#create_with_options_options_5}
@@ -261,13 +261,13 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions) | The options source. |
+| options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) | The options source. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) | A copy of options. |
+| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) | A copy of options. |
 
 
 ### Method: create_with_tags(tags)  [static] {#create_with_tags_tags_6}
@@ -289,7 +289,7 @@ Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.im
 
 | Type | Description |
 | :- | :- |
-| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions) | A new BigTiffOptions object with tags. |
+| [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) | A new BigTiffOptions object with tags. |
 
 
 ### Method: get_tag_by_type(tag_key) {#get_tag_by_type_tag_key_7}

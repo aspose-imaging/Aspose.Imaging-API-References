@@ -22,8 +22,8 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | BLOCK_HEADER_SIZE [static] | int | r | Defines the block header size. |
-| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
-| EXTENSION_LABEL [static] | byte | r | Gif comment block extension label. |
+| EXTENSION_INTRODUCER [static] | System.Byte | r | Extension introducer. |
+| EXTENSION_LABEL [static] | System.Byte | r | Gif comment block extension label. |
 | comment | string | r/w | Gets or sets the comment. Note that comment must use ASCII encoding and will be stored accordingly. |
 | is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
 ## **Methods**

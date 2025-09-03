@@ -20,8 +20,8 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odpattern
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
-| pattern | byte | r/w | Gets or sets the pattern. |
+| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle/) | r | Gets the style. |
+| pattern | System.Byte | r/w | Gets or sets the pattern. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -50,6 +50,6 @@ Clone this instance.
 
 | Type | Description |
 | :- | :- |
-| object | The return new instance of source brush |
+| System.Object | The return new instance of source brush |
 
 

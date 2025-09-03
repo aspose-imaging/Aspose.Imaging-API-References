@@ -1,7 +1,7 @@
 ---
 title: IPartialPixelLoader Class
 type: docs
-weight: 5440
+weight: 5460
 url: /python-net/aspose.imaging/ipartialpixelloader/
 ---
 
@@ -30,8 +30,8 @@ Processes the loaded pixels.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The pixels rectangle. |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels. |
-| start | [Point](/imaging/python-net/aspose.imaging/point) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
-| end | [Point](/imaging/python-net/aspose.imaging/point) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
+| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The pixels rectangle. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixels. |
+| start | [Point](/imaging/python-net/aspose.imaging/point/) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
+| end | [Point](/imaging/python-net/aspose.imaging/point/) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
 

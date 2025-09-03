@@ -1,7 +1,7 @@
 ---
 title: IImageDescriptor Class
 type: docs
-weight: 5240
+weight: 5270
 url: /python-net/aspose.imaging/iimagedescriptor/
 ---
 
@@ -14,6 +14,6 @@ url: /python-net/aspose.imaging/iimagedescriptor/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
+| supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets the supported format. |
 
 

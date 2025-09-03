@@ -29,13 +29,13 @@ url: /python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/
 | angle | float | r/w | Gets or sets the gradient angle. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | gamma_correction | bool | r/w | Gets or sets a value indicating whether gamma correction is enabled for this [LinearGradientBrushBase](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/). |
-| interpolation_colors | [ColorBlend](/imaging/python-net/aspose.imaging/colorblend) | r/w | Gets or sets a [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) that defines a multicolor linear gradient. |
+| interpolation_colors | [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) | r/w | Gets or sets a [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) that defines a multicolor linear gradient. |
 | is_angle_scalable | bool | r/w | Gets or sets a value indicating whether [LinearGradientBrushBase.angle](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/) is changed during trasnformations with this [LinearGradientBrushBase](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/). |
 | is_transform_changed | bool | r | Gets a value indicating whether transformations were changed in some way. For example setting the transformation matrix or<br/>            calling any of the methods altering the transformation matrix. The property is introduced for backward compatibility with GDI+. |
 | opacity | float | r/w | Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 means that brush is fully visible, value of 1 means the brush is fully opaque. |
-| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets a rectangular region that defines the starting and ending points of the gradient. |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets a copy [Matrix](/imaging/python-net/aspose.imaging/matrix/) that defines a local geometric transform for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
-| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode) | r/w | Gets or sets a [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) enumeration that indicates the wrap mode for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r/w | Gets or sets a rectangular region that defines the starting and ending points of the gradient. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | r/w | Gets or sets a copy [Matrix](/imaging/python-net/aspose.imaging/matrix/) that defines a local geometric transform for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | r/w | Gets or sets a [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) enumeration that indicates the wrap mode for this [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -79,8 +79,8 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
-| point2 | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
+| point1 | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
+| point2 | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
 
 ### Constructor: LinearMulticolorGradientBrush(point1, point2) {#LinearMulticolorGradientBrush_point1_point2_3}
 
@@ -95,8 +95,8 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
-| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle) {#LinearMulticolorGradientBrush_rect_angle_4}
 
@@ -111,7 +111,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle) {#LinearMulticolorGradientBrush_rect_angle_5}
@@ -127,7 +127,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 
 ### Constructor: LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) {#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_6}
@@ -143,7 +143,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 | is_angle_scalable | bool | if set to <c>true</c> the angle is changed during transformations with this [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
 
@@ -160,7 +160,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 | is_angle_scalable | bool | if set to <c>true</c> the angle is changed during transformations with this [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
 
@@ -177,14 +177,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
-| point2 | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
+| point1 | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the starting point of the linear gradient. |
+| point2 | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the endpoint of the linear gradient. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush) |  |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
 
 
 ### Method: create_with_points_f(point1, point2)  [static] {#create_with_points_f_point1_point2_2}
@@ -200,14 +200,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the starting point of the linear gradient. |
-| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the endpoint of the linear gradient. |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the starting point of the linear gradient. |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the endpoint of the linear gradient. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush) |  |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
 
 
 ### Method: create_with_rect(rect, angle)  [static] {#create_with_rect_rect_angle_3}
@@ -223,14 +223,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush) |  |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
 
 
 ### Method: create_with_rect_angle_scalable(rect, angle, is_angle_scalable)  [static] {#create_with_rect_angle_scalable_rect_angle_is_angle_scalable_4}
@@ -246,7 +246,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 | is_angle_scalable | bool | if set to <c>true</c> the angle is changed during transformations with this [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
 
@@ -254,7 +254,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Type | Description |
 | :- | :- |
-| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush) |  |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
 
 
 ### Method: create_with_rect_f(rect, angle)  [static] {#create_with_rect_f_rect_angle_5}
@@ -270,14 +270,14 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush) |  |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
 
 
 ### Method: create_with_rect_f_angle_scalable(rect, angle, is_angle_scalable)  [static] {#create_with_rect_f_angle_scalable_rect_angle_is_angle_scalable_6}
@@ -293,7 +293,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that specifies the bounds of the linear gradient. |
 | angle | float | The angle, measured in degrees clockwise from the x-axis, of the gradient's orientation line. |
 | is_angle_scalable | bool | if set to <c>true</c> the angle is changed during transformations with this [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
 
@@ -301,7 +301,7 @@ Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/pytho
 
 | Type | Description |
 | :- | :- |
-| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush) |  |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
 
 
 ### Method: deep_clone() {#deep_clone__7}
@@ -317,7 +317,7 @@ Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imagi
 
 | Type | Description |
 | :- | :- |
-| [Brush](/imaging/python-net/aspose.imaging/brush) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
+| [Brush](/imaging/python-net/aspose.imaging/brush/) | A new [Brush](/imaging/python-net/aspose.imaging/brush/) which is the deep clone of this [Brush](/imaging/python-net/aspose.imaging/brush/) instance. |
 
 
 ### Method: multiply_transform(matrix) {#multiply_transform_matrix_8}
@@ -333,7 +333,7 @@ Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represe
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
 
 ### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_9}
 
@@ -348,8 +348,8 @@ Multiplies the [Matrix](/imaging/python-net/aspose.imaging/matrix/) that represe
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies in which order to multiply the two matrices. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to multiply the geometric transform. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies in which order to multiply the two matrices. |
 
 ### Method: rotate_transform(angle) {#rotate_transform_angle_10}
 
@@ -380,7 +380,7 @@ Rotates the local geometric transform by the specified amount in the specified o
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | The angle of rotation. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the rotation matrix. |
 
 ### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_12}
 
@@ -413,7 +413,7 @@ Scales the local geometric transform by the specified amounts in the specified o
 | :- | :- | :- |
 | sx | float | The amount by which to scale the transform in the x-axis direction. |
 | sy | float | The amount by which to scale the transform in the y-axis direction. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | A [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) that specifies whether to append or prepend the scaling matrix. |
 
 ### Method: translate_transform(dx, dy) {#translate_transform_dx_dy_14}
 
@@ -446,5 +446,5 @@ Translates the local geometric transform by the specified dimensions in the spec
 | :- | :- | :- |
 | dx | float | The value of the translation in x. |
 | dy | float | The value of the translation in y. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order (prepend or append) in which to apply the translation. |
 

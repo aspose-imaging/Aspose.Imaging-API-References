@@ -1,7 +1,7 @@
 ---
 title: FilterOptionsBase Class
 type: docs
-weight: 50
+weight: 80
 url: /python-net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/
 ---
 

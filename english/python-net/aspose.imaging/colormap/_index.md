@@ -1,7 +1,7 @@
 ---
 title: ColorMap Class
 type: docs
-weight: 1140
+weight: 1170
 url: /python-net/aspose.imaging/colormap/
 ---
 
@@ -18,8 +18,8 @@ url: /python-net/aspose.imaging/colormap/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| new_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the new [Color](/imaging/python-net/aspose.imaging/color/) structure to which to convert. |
-| old_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the existing [Color](/imaging/python-net/aspose.imaging/color/) structure to be converted. |
+| new_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the new [Color](/imaging/python-net/aspose.imaging/color/) structure to which to convert. |
+| old_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the existing [Color](/imaging/python-net/aspose.imaging/color/) structure to be converted. |
 
 
 ### Constructor: ColorMap() {#ColorMap__1}

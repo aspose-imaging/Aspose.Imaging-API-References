@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/compression/
 | :- | :- | :- | :- |
 | jpeg | [JpegOptions](/imaging/python-net/aspose.imaging.imageoptions/jpegoptions/) | r/w | Gets or sets the JPEG options. |
 | jpeg2000 | [Jpeg2000Options](/imaging/python-net/aspose.imaging.imageoptions/jpeg2000options/) | r/w | Gets or sets the JPEG 2000 options. |
-| type | [CompressionType](/imaging/python-net/aspose.imaging.fileformats.dicom/compressiontype) | r/w | Gets or sets the type. |
+| type | [CompressionType](/imaging/python-net/aspose.imaging.fileformats.dicom/compressiontype/) | r/w | Gets or sets the type. |
 
 
 ### Constructor: Compression() {#Compression__1}

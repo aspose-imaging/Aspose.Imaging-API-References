@@ -21,20 +21,20 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrstyle/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | align | int | r/w | Gets or sets the align. |
-| charset | short | r/w | Gets or sets the character set. |
+| charset | int | r/w | Gets or sets the character set. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
-| fill | [CdrFill](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrfill) | r/w | Gets or sets the fill. |
-| first_indent | double | r/w | Gets or sets the first indent. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
+| fill | [CdrFill](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrfill/) | r/w | Gets or sets the fill. |
+| first_indent | float | r/w | Gets or sets the first indent. |
 | font_name | string | r/w | Gets or sets the name of the font. |
-| font_size | double | r/w | Gets or sets the size of the font. |
+| font_size | float | r/w | Gets or sets the size of the font. |
 | font_weight | int | r/w | Gets or sets the font weight. |
 | id | int | r/w | Gets or sets the identifier. |
-| left_indent | double | r/w | Gets or sets the left indent. |
-| out_line | [CdrOutline](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdroutline) | r/w | Gets or sets the out line. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| left_indent | float | r/w | Gets or sets the left indent. |
+| out_line | [CdrOutline](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdroutline/) | r/w | Gets or sets the out line. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 | parent_id | int | r/w | Gets or sets the parent identifier. |
-| right_indent | double | r/w | Gets or sets the right indent. |
+| right_indent | float | r/w | Gets or sets the right indent. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -63,6 +63,6 @@ Copies this instance.
 
 | Type | Description |
 | :- | :- |
-| [CdrStyle](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrstyle) | The current style copy |
+| [CdrStyle](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrstyle/) | The current style copy |
 
 

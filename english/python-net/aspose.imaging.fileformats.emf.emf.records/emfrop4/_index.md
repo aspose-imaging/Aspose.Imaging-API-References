@@ -18,8 +18,8 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| background_rop3 | byte | r | Gets the background ROP3.<br/>            The unsigned, most-significant 8 bits of a 24-bit ternary <br/>            raster operation value from the WMF Ternary Raster Operation enumeration ([MS-WMF] section 2.1.1.31). This code defines how to combine the background color data of <br/>            the source and destination bitmaps and brush pattern. |
-| foreground_rop3 | byte | r | Gets the foreground ROP3.<br/>            The unsigned, most-significant 8 bits of a 24-bit ternary <br/>            raster operation value from the WMF Ternary Raster Operation enumeration. This <br/>            code defines how to combine the foreground color data of the source and destination <br/>            bitmaps and brush pattern. |
+| background_rop3 | System.Byte | r | Gets the background ROP3.<br/>            The unsigned, most-significant 8 bits of a 24-bit ternary <br/>            raster operation value from the WMF Ternary Raster Operation enumeration ([MS-WMF] section 2.1.1.31). This code defines how to combine the background color data of <br/>            the source and destination bitmaps and brush pattern. |
+| foreground_rop3 | System.Byte | r | Gets the foreground ROP3.<br/>            The unsigned, most-significant 8 bits of a 24-bit ternary <br/>            raster operation value from the WMF Ternary Raster Operation enumeration. This <br/>            code defines how to combine the foreground color data of the source and destination <br/>            bitmaps and brush pattern. |
 
 
 ### Constructor: EmfRop4(dword_data) {#EmfRop4_dword_data_1}

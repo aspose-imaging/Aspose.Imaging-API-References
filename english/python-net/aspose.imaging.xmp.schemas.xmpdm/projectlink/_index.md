@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | path | string | r/w | Gets or sets full path to the project. |
-| type | [ProjectType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/projecttype) | r/w | Gets or sets file type. |
+| type | [ProjectType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/projecttype/) | r/w | Gets or sets file type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -51,7 +51,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

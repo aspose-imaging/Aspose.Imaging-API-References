@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfrestoredc/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| n_saved_dc | short | r/w | Gets or sets the n saved dc. |
+| n_saved_dc | int | r/w | Gets or sets the n saved dc. |
 
 
 ### Constructor: WmfRestoreDc() {#WmfRestoreDc__1}

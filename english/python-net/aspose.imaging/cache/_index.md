@@ -1,7 +1,7 @@
 ---
 title: Cache Class
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.imaging/cache/
 ---
 
@@ -14,10 +14,10 @@ url: /python-net/aspose.imaging/cache/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| [allocated_disk_bytes_count](#allocated_disk_bytes_count1) [static] | long | r | Gets the allocated disk bytes count. |
-| [allocated_memory_bytes_count](#allocated_memory_bytes_count2) [static] | long | r | Gets the allocated in-memory bytes count. |
+| [allocated_disk_bytes_count](#allocated_disk_bytes_count1) [static] | int | r | Gets the allocated disk bytes count. |
+| [allocated_memory_bytes_count](#allocated_memory_bytes_count2) [static] | int | r | Gets the allocated in-memory bytes count. |
 | cache_folder [static] | string | r/w | Gets or sets the cache folder. |
-| [cache_type](#cache_type3) [static] | [CacheType](/imaging/python-net/aspose.imaging/cachetype) | r/w | Gets or sets the cache scheme used. |
+| [cache_type](#cache_type3) [static] | [CacheType](/imaging/python-net/aspose.imaging/cachetype/) | r/w | Gets or sets the cache scheme used. |
 | [exact_reallocate_only](#exact_reallocate_only4) [static] | bool | r/w | Gets or sets a value indicating whether reallocation should be exact or not. If reallocation is non exact the performance should be higher. |
 | [max_disk_space_for_cache](#max_disk_space_for_cache5) [static] | int | r/w | Gets or sets the maximum available disk space for cache. The value specified is megabytes count. |
 | [max_memory_for_cache](#max_memory_for_cache6) [static] | int | r/w | Gets or sets the maximum available memory for cache in memory. The value specified is megabytes count. |

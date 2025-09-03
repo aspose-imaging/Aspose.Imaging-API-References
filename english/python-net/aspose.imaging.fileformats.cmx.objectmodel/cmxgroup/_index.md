@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
+| bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r/w | Gets or sets the bounding box. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| elements | list[ICmxDocElement] | r | Gets the elements. |
+| elements | System.Collections.Generic.IList`1[[Aspose.Imaging.FileFormats.Cmx.ObjectModel.ICmxDocElement]] | r | Gets the elements. |
 
 
 ### Constructor: CmxGroup() {#CmxGroup__1}

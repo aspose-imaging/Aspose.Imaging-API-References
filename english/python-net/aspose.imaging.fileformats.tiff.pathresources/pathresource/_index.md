@@ -18,9 +18,9 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| block_id | short | r/w | Gets or sets the block identifier. |
+| block_id | int | r/w | Gets or sets the block identifier. |
 | name | string | r/w | Gets or sets the name. |
-| records | list[aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord] | r/w | Gets or sets the records. |
+| records | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Core.VectorPaths.VectorPathRecord]] | r/w | Gets or sets the records. |
 
 
 ### Constructor: PathResource() {#PathResource__1}

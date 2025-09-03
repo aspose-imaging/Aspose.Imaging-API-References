@@ -20,15 +20,15 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bitmap | [WmfBitmap16](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16) | r/w | Gets or sets the bitmap. |
-| dest_height | short | r/w | Gets or sets the height of the dest. |
-| dest_width | short | r/w | Gets or sets the width of the dest. |
-| dst_position | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the DST position. |
+| bitmap | [WmfBitmap16](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/) | r/w | Gets or sets the bitmap. |
+| dest_height | int | r/w | Gets or sets the height of the dest. |
+| dest_width | int | r/w | Gets or sets the width of the dest. |
+| dst_position | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the DST position. |
 | raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Gets or sets the raster operation. |
-| reserved | short | r/w | Gets or sets the reserved. |
-| src_height | short | r/w | Gets or sets the height of the source. |
-| src_position | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the source position. |
-| src_width | short | r/w | Gets or sets the width of the source. |
+| reserved | int | r/w | Gets or sets the reserved. |
+| src_height | int | r/w | Gets or sets the height of the source. |
+| src_position | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the source position. |
+| src_width | int | r/w | Gets or sets the width of the source. |
 
 
 ### Constructor: WmfStretchBlt() {#WmfStretchBlt__1}

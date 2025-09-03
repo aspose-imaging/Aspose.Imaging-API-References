@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo Class
 type: docs
-weight: 330
+weight: 350
 url: /python-net/aspose.imaging/buildversioninfo/
 ---
 
@@ -19,6 +19,6 @@ url: /python-net/aspose.imaging/buildversioninfo/
 | PRODUCT [static] | string | r | The product title. |
 | PRODUCT_MAJOR [static] | int | r | The major product version. |
 | PRODUCT_MINOR [static] | int | r | The minor product version. |
-| RELEASE_DATE [static] | datetime | r | The product release date. |
+| RELEASE_DATE [static] | System.DateTime | r | The product release date. |
 
 

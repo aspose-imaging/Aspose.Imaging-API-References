@@ -20,16 +20,16 @@ url: /python-net/aspose.imaging.imagefilters.complexutils/complex/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| I [static] | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | r | I complex having [Complex.im](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) equal to 1. |
-| ONE [static] | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | r | One complex having [Complex.re](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) and [Complex.im](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) equal to 1. |
+| I [static] | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | r | I complex having [Complex.im](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) equal to 1. |
+| ONE [static] | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | r | One complex having [Complex.re](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) and [Complex.im](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) equal to 1. |
 | SIZE_OF_COMPLEX [static] | int | r | The size of complex. |
 | SIZE_OF_DOUBLE [static] | int | r | The size of float. |
-| ZERO [static] | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | r | Zero complex. |
-| im | double | r/w | Gets or sets the imaginary part. |
-| magnitude | double | r | Gets the magnitude. |
-| phase | double | r | Gets the phase. |
-| re | double | r/w | Gets or sets the real part. |
-| squared_magnitude | double | r | Gets the squared magnitude. |
+| ZERO [static] | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | r | Zero complex. |
+| im | float | r/w | Gets or sets the imaginary part. |
+| magnitude | float | r | Gets the magnitude. |
+| phase | float | r | Gets the phase. |
+| re | float | r/w | Gets or sets the real part. |
+| squared_magnitude | float | r | Gets the squared magnitude. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -89,7 +89,7 @@ Initializes a new instance of the [Complex](/imaging/python-net/aspose.imaging.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| c | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The complex number. |
+| c | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The complex number. |
 
 ### Constructor: Complex(real, imaginary) {#Complex_real_imaginary_3}
 
@@ -104,8 +104,8 @@ Initializes a new instance of the [Complex](/imaging/python-net/aspose.imaging.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| real | double | The real part. |
-| imaginary | double | The imaginary part. |
+| real | float | The real part. |
+| imaginary | float | The imaginary part. |
 
 ### Method: add(a, b)  [static] {#add_a_b_1}
 
@@ -120,14 +120,14 @@ Adds _a_ and _b_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The sum complex. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The sum complex. |
 
 
 ### Method: add(a, b, result)  [static] {#add_a_b_result_2}
@@ -143,9 +143,9 @@ Adds _a_ and _b_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: add(a, s)  [static] {#add_a_s_3}
 
@@ -160,14 +160,14 @@ Adds _a_ and _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The complex with its Re increased by _s_. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The complex with its Re increased by _s_. |
 
 
 ### Method: add(a, s, result)  [static] {#add_a_s_result_4}
@@ -183,9 +183,9 @@ Adds _a_ and _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: approx_equal(a, b)  [static] {#approx_equal_a_b_5}
 
@@ -200,8 +200,8 @@ Checks approximate equality.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
 
 **Returns**
 
@@ -223,9 +223,9 @@ Checks approximate equality.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
-| tolerance | double | The tolerance. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
+| tolerance | float | The tolerance. |
 
 **Returns**
 
@@ -247,7 +247,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | A clone of this complex. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | A clone of this complex. |
 
 
 ### Method: cos(a)  [static] {#cos_a_8}
@@ -263,13 +263,13 @@ Gets Cos of _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | Cos of _a_. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | Cos of _a_. |
 
 
 ### Method: divide(a, b)  [static] {#divide_a_b_9}
@@ -285,14 +285,14 @@ Divides _a_ by _b_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of division. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of division. |
 
 
 ### Method: divide(a, b, result)  [static] {#divide_a_b_result_10}
@@ -308,9 +308,9 @@ Divides _a_ by _b_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: divide(a, s)  [static] {#divide_a_s_11}
 
@@ -325,14 +325,14 @@ Divides _a_ by _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of division. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of division. |
 
 
 ### Method: divide(a, s, result)  [static] {#divide_a_s_result_12}
@@ -348,9 +348,9 @@ Divides _a_ by _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: divide(s, a)  [static] {#divide_s_a_13}
 
@@ -365,14 +365,14 @@ Divides _a_ by _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | double | The s value. |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| s | float | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of division. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of division. |
 
 
 ### Method: divide(s, a, result)  [static] {#divide_s_a_result_14}
@@ -388,9 +388,9 @@ Divides _s_ by _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | double | The s value. |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| s | float | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: exp(a)  [static] {#exp_a_15}
 
@@ -405,13 +405,13 @@ Raises e by _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | e raised by _a_. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | e raised by _a_. |
 
 
 ### Method: log(a)  [static] {#log_a_16}
@@ -427,13 +427,13 @@ Gets log of _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The log of _a_. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The log of _a_. |
 
 
 ### Method: multiply(a, b)  [static] {#multiply_a_b_17}
@@ -449,14 +449,14 @@ Multiplies _a_ by _b_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of multiplication. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of multiplication. |
 
 
 ### Method: multiply(a, b, result)  [static] {#multiply_a_b_result_18}
@@ -472,9 +472,9 @@ Multiplies _a_ by _b_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: multiply(a, s)  [static] {#multiply_a_s_19}
 
@@ -489,14 +489,14 @@ Multiplies _a_ by _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of multiplication. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of multiplication. |
 
 
 ### Method: multiply(a, s, result)  [static] {#multiply_a_s_result_20}
@@ -512,9 +512,9 @@ Multiplies _a_ by _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: negate(a)  [static] {#negate_a_21}
 
@@ -529,13 +529,13 @@ Negates _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of negation. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of negation. |
 
 
 ### Method: parse(s)  [static] {#parse_s_22}
@@ -557,7 +557,7 @@ Parses the specified _s_ into a [Complex](/imaging/python-net/aspose.imaging.ima
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The complex number. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The complex number. |
 
 
 ### Method: sin(a)  [static] {#sin_a_23}
@@ -573,13 +573,13 @@ Gets Sin of _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | Sin of _a_. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | Sin of _a_. |
 
 
 ### Method: sqrt(a)  [static] {#sqrt_a_24}
@@ -595,13 +595,13 @@ Gets square root of _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The square root. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The square root. |
 
 
 ### Method: subtract(a, b)  [static] {#subtract_a_b_25}
@@ -617,14 +617,14 @@ Subtracts _b_ from _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of subtraction. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of subtraction. |
 
 
 ### Method: subtract(a, b, result)  [static] {#subtract_a_b_result_26}
@@ -640,9 +640,9 @@ Subtracts _b_ from _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The b complex. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| b | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The b complex. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: subtract(a, s)  [static] {#subtract_a_s_27}
 
@@ -657,14 +657,14 @@ Subtracts _s_ from _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of subtraction. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of subtraction. |
 
 
 ### Method: subtract(a, s, result)  [static] {#subtract_a_s_result_28}
@@ -680,9 +680,9 @@ Subtracts _s_ from _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| s | double | The s value. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| s | float | The s value. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: subtract(s, a)  [static] {#subtract_s_a_29}
 
@@ -697,14 +697,14 @@ Subtracts _s_ from _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | double | The s value. |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| s | float | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result of subtraction. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result of subtraction. |
 
 
 ### Method: subtract(s, a, result)  [static] {#subtract_s_a_result_30}
@@ -720,9 +720,9 @@ Subtracts _a_ from _s_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | double | The s value. |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| s | float | The s value. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 ### Method: tan(a)  [static] {#tan_a_31}
 
@@ -737,13 +737,13 @@ Gets Tan of _a_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The a complex. |
+| a | [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The a complex. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | Tan of _a_. |
+| [Complex](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | Tan of _a_. |
 
 
 ### Method: try_parse(s, result)  [static] {#try_parse_s_result_32}
@@ -760,7 +760,7 @@ Tries to parse the specified _s_ into a [Complex](/imaging/python-net/aspose.ima
 | Parameter | Type | Description |
 | :- | :- | :- |
 | s | string | The s value. |
-| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex) | The result. |
+| result | [Complex[]](/imaging/python-net/aspose.imaging.imagefilters.complexutils/complex/) | The result. |
 
 **Returns**
 

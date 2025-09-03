@@ -1,7 +1,7 @@
 ---
 title: GraphicsPath Class
 type: docs
-weight: 4990
+weight: 5020
 url: /python-net/aspose.imaging/graphicspath/
 ---
 
@@ -23,9 +23,9 @@ url: /python-net/aspose.imaging/graphicspath/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets or sets the object's bounds. |
-| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure) | r | Gets the path figures. |
-| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | r/w | Gets or sets a [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the interiors of shapes in this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) are filled. |
+| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Gets or sets the object's bounds. |
+| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure/) | r | Gets the path figures. |
+| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode/) | r/w | Gets or sets a [FillMode](/imaging/python-net/aspose.imaging/fillmode/) enumeration that determines how the interiors of shapes in this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) are filled. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -113,7 +113,7 @@ Initializes a new instance of the [GraphicsPath](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure) | The figures to initialize from. |
+| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure/) | The figures to initialize from. |
 
 ### Constructor: GraphicsPath(figures, fill_mode) {#GraphicsPath_figures_fill_mode_3}
 
@@ -128,8 +128,8 @@ Initializes a new instance of the [GraphicsPath](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure) | The figures to initialize from. |
-| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | The fill mode. |
+| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure/) | The figures to initialize from. |
+| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode/) | The fill mode. |
 
 ### Constructor: GraphicsPath(fill_mode) {#GraphicsPath_fill_mode_4}
 
@@ -144,7 +144,7 @@ Initializes a new instance of the [GraphicsPath](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode) | The fill mode. |
+| fill_mode | [FillMode](/imaging/python-net/aspose.imaging/fillmode/) | The fill mode. |
 
 ### Method: add_figure(figure) {#add_figure_figure_1}
 
@@ -159,7 +159,7 @@ Adds a new figure.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| figure | [Figure](/imaging/python-net/aspose.imaging/figure) | The figure to add. |
+| figure | [Figure](/imaging/python-net/aspose.imaging/figure/) | The figure to add. |
 
 
 **See also:**
@@ -180,7 +180,7 @@ Adds new figures.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure) | The figures to add. |
+| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure/) | The figures to add. |
 
 
 **See also:**
@@ -201,7 +201,7 @@ Appends the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphics
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| adding_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to add. |
+| adding_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to add. |
 
 ### Method: add_path(adding_path, connect) {#add_path_adding_path_connect_4}
 
@@ -216,7 +216,7 @@ Appends the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphics
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| adding_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to add. |
+| adding_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to add. |
 | connect | bool | A Boolean value that specifies whether the first figure in the added path is part of the last figure in this path. A value of true specifies that the first figure in the added path is part of the last figure in this path. A value of false specifies that the first figure in the added path is separate from the last figure in this path. |
 
 ### Method: deep_clone() {#deep_clone__5}
@@ -232,7 +232,7 @@ Performs a deep clone of this graphics path.
 
 | Type | Description |
 | :- | :- |
-| [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | A deep clone of the graphics path. |
+| [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) | A deep clone of the graphics path. |
 
 
 ### Method: flatten(matrix) {#flatten_matrix_6}
@@ -248,7 +248,7 @@ Applies the specified transform and then converts each curve in this [GraphicsPa
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to transform this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) before flattening. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to transform this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) before flattening. |
 
 ### Method: flatten(matrix, flatness) {#flatten_matrix_flatness_7}
 
@@ -263,7 +263,7 @@ Converts each curve in this [GraphicsPath](/imaging/python-net/aspose.imaging/gr
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to transform this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) before flattening. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to transform this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) before flattening. |
 | flatness | float | Specifies the maximum permitted error between the curve and its flattened approximation. A value of 0.25 is the default. Reducing the flatness value will increase the number of line segments in the approximation. |
 
 ### Method: get_bounds(matrix) {#get_bounds_matrix_8}
@@ -279,13 +279,13 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_9}
@@ -301,14 +301,14 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The pen to use for object. This can influence the object's bounds size. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The pen to use for object. This can influence the object's bounds size. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: is_outline_visible(point, pen) {#is_outline_visible_point_pen_10}
@@ -324,8 +324,8 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -347,8 +347,8 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -370,9 +370,9 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -394,9 +394,9 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [Point](/imaging/python-net/aspose.imaging/point) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [Point](/imaging/python-net/aspose.imaging/point/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -420,7 +420,7 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | float | The x-coordinate of the point to test. |
 | y | float | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -444,7 +444,7 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | int | The x-coordinate of the point to test. |
 | y | int | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -468,8 +468,8 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | float | The x-coordinate of the point to test. |
 | y | float | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -493,8 +493,8 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | int | The x-coordinate of the point to test. |
 | y | int | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -516,8 +516,8 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -539,8 +539,8 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -562,9 +562,9 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -586,9 +586,9 @@ Indicates whether the specified point is contained within (under) the outline of
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) that specifies the location to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) that specifies the location to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -612,7 +612,7 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | int | The x-coordinate of the point to test. |
 | y | int | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -636,8 +636,8 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | int | The x-coordinate of the point to test. |
 | y | int | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -661,7 +661,7 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | float | The x-coordinate of the point to test. |
 | y | float | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
 
 **Returns**
 
@@ -685,8 +685,8 @@ Indicates whether the specified point is contained within (under) the outline of
 | :- | :- | :- |
 | x | float | The x-coordinate of the point to test. |
 | y | float | The y-coordinate of the point to test. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The [Pen](/imaging/python-net/aspose.imaging/pen/) to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -708,7 +708,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
 
 **Returns**
 
@@ -730,7 +730,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
 
 **Returns**
 
@@ -752,8 +752,8 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -775,8 +775,8 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [Point](/imaging/python-net/aspose.imaging/point) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [Point](/imaging/python-net/aspose.imaging/point/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -846,7 +846,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 | :- | :- | :- |
 | x | float | The x-coordinate of the point to test. |
 | y | float | The y-coordinate of the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -870,7 +870,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 | :- | :- | :- |
 | x | int | The x-coordinate of the point to test. |
 | y | int | The y-coordinate of the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -892,7 +892,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
 
 **Returns**
 
@@ -914,7 +914,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
 
 **Returns**
 
@@ -936,8 +936,8 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [PointF](/imaging/python-net/aspose.imaging/pointf) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [PointF](/imaging/python-net/aspose.imaging/pointf/) | A [PointF](/imaging/python-net/aspose.imaging/pointf/) that represents the point to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -959,8 +959,8 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pt | [Point](/imaging/python-net/aspose.imaging/point) | A [Point](/imaging/python-net/aspose.imaging/point/) that represents the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| pt | [Point](/imaging/python-net/aspose.imaging/point/) | A [Point](/imaging/python-net/aspose.imaging/point/) that represents the point to test. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -1007,7 +1007,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 | :- | :- | :- |
 | x | int | The x-coordinate of the point to test. |
 | y | int | The y-coordinate of the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -1054,7 +1054,7 @@ Indicates whether the specified point is contained within this [GraphicsPath](/i
 | :- | :- | :- |
 | x | float | The x-coordinate of the point to test. |
 | y | float | The y-coordinate of the point to test. |
-| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
+| graphics | [Graphics](/imaging/python-net/aspose.imaging/graphics/) | The [Graphics](/imaging/python-net/aspose.imaging/graphics/) for which to test visibility. |
 
 **Returns**
 
@@ -1076,7 +1076,7 @@ Removes a figure.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| figure | [Figure](/imaging/python-net/aspose.imaging/figure) | The figure to remove. |
+| figure | [Figure](/imaging/python-net/aspose.imaging/figure/) | The figure to remove. |
 
 ### Method: remove_figures(figures) {#remove_figures_figures_43}
 
@@ -1091,7 +1091,7 @@ Removes figures.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure) | The figures to remove. |
+| figures | [Figure[]](/imaging/python-net/aspose.imaging/figure/) | The figures to remove. |
 
 ### Method: transform(transform) {#transform_transform_44}
 
@@ -1106,7 +1106,7 @@ Applies the specified transformation to the shape.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The transformation to apply. |
 
 ### Method: warp(dest_points, src_rect) {#warp_dest_points_src_rect_45}
 
@@ -1121,8 +1121,8 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
 
 ### Method: warp(dest_points, src_rect, matrix) {#warp_dest_points_src_rect_matrix_46}
 
@@ -1137,9 +1137,9 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
 
 ### Method: warp(dest_points, src_rect, matrix, warp_mode) {#warp_dest_points_src_rect_matrix_warp_mode_47}
 
@@ -1154,10 +1154,10 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that defines a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
-| warp_mode | [WarpMode](/imaging/python-net/aspose.imaging/warpmode) | A [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) enumeration that specifies whether this warp operation uses perspective or bilinear mode. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that defines a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
+| warp_mode | [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) | A [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) enumeration that specifies whether this warp operation uses perspective or bilinear mode. |
 
 ### Method: warp(dest_points, src_rect, matrix, warp_mode, flatness) {#warp_dest_points_src_rect_matrix_warp_mode_flatness_48}
 
@@ -1172,10 +1172,10 @@ Applies a warp transform, defined by a rectangle and a parallelogram, to this [G
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
-| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
-| warp_mode | [WarpMode](/imaging/python-net/aspose.imaging/warpmode) | A [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) enumeration that specifies whether this warp operation uses perspective or bilinear mode. |
+| dest_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define a parallelogram to which the rectangle defined by _srcRect_ is transformed. The array can contain either three or four elements. If the array contains three elements, the lower-right corner of the parallelogram is implied by the first three points. |
+| src_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) that represents the rectangle that is transformed to the parallelogram defined by _destPoints_. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a geometric transform to apply to the path. |
+| warp_mode | [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) | A [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) enumeration that specifies whether this warp operation uses perspective or bilinear mode. |
 | flatness | float | A value from 0 through 1 that specifies how flat the resulting path is. For more information, see the [GraphicsPath.flatten()](/imaging/python-net/aspose.imaging/graphicspath/) methods. |
 
 ### Method: widen(pen) {#widen_pen_49}
@@ -1191,7 +1191,7 @@ Adds an additional outline to the path.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that specifies the width between the original outline of the path and the new outline this method creates. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that specifies the width between the original outline of the path and the new outline this method creates. |
 
 ### Method: widen(pen, matrix) {#widen_pen_matrix_50}
 
@@ -1206,8 +1206,8 @@ Adds an additional outline to the [GraphicsPath](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that specifies the width between the original outline of the path and the new outline this method creates. |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a transform to apply to the path before widening. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that specifies the width between the original outline of the path and the new outline this method creates. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a transform to apply to the path before widening. |
 
 ### Method: widen(pen, matrix, flatness) {#widen_pen_matrix_flatness_51}
 
@@ -1222,8 +1222,8 @@ Replaces this [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) w
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that specifies the width between the original outline of the path and the new outline this method creates. |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a transform to apply to the path before widening. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that specifies the width between the original outline of the path and the new outline this method creates. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A [Matrix](/imaging/python-net/aspose.imaging/matrix/) that specifies a transform to apply to the path before widening. |
 | flatness | float | A value that specifies the flatness for curves. |
 
 ## **Examples**

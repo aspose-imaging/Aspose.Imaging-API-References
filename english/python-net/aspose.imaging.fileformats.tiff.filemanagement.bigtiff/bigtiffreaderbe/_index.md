@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffr
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| length | long | r | Gets the reader length. |
+| length | int | r | Gets the reader length. |
 | throw_exceptions | bool | r/w | Gets or sets a value indicating whether exceptions are thrown on incorrect data processing (reading or writing to stream). |
 ## **Methods**
 | **Name** | **Description** |
@@ -68,7 +68,7 @@ Initializes a new instance of the [BigTiffReaderBE](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | byte | The byte array data. |
+| data | System.Byte | The byte array data. |
 
 ### Constructor: BigTiffReaderBE(data, start_index) {#BigTiffReaderBE_data_start_index_2}
 
@@ -83,7 +83,7 @@ Initializes a new instance of the [BigTiffReaderBE](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | byte | The byte array data. |
+| data | System.Byte | The byte array data. |
 | start_index | int | The start index into _data_. |
 
 ### Constructor: BigTiffReaderBE(data, start_index, data_length) {#BigTiffReaderBE_data_start_index_data_length_3}
@@ -99,7 +99,7 @@ Initializes a new instance of the [BigTiffReaderBE](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | byte | The byte array data. |
+| data | System.Byte | The byte array data. |
 | start_index | int | The start index into _data_. |
 | data_length | int | Length of the data. |
 
@@ -116,7 +116,7 @@ Initializes a new instance of the [BigTiffReaderBE](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container. |
+| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container. |
 
 ### Method: read_bytes(array, array_index, position, count) {#read_bytes_array_array_index_position_count_1}
 
@@ -131,16 +131,16 @@ Reads an array of byte values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | byte | The array to fill. |
+| array | System.Byte | The array to fill. |
 | array_index | int | The array index to start putting values to. |
-| position | long | The stream position to read from. |
-| count | long | The elements count to read. |
+| position | int | The stream position to read from. |
+| count | int | The elements count to read. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| long | The array of byte values. |
+| int | The array of byte values. |
 
 
 ### Method: read_bytes(position, count) {#read_bytes_position_count_2}
@@ -156,14 +156,14 @@ Reads an array of unsigned byte values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| byte | The array of unsigned byte values. |
+| System.Byte | The array of unsigned byte values. |
 
 
 ### Method: read_double(position) {#read_double_position_3}
@@ -179,13 +179,13 @@ Read a single double value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| double | The single double value. |
+| float | The single double value. |
 
 
 ### Method: read_double_array(position, count) {#read_double_array_position_count_4}
@@ -201,14 +201,14 @@ Reads an array of double values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| double | The array of double values. |
+| float[] | The array of double values. |
 
 
 ### Method: read_float(position) {#read_float_position_5}
@@ -224,7 +224,7 @@ Read a single float value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
@@ -246,14 +246,14 @@ Reads an array of float values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| float | The array of float values. |
+| float[] | The array of float values. |
 
 
 ### Method: read_long(position) {#read_long_position_7}
@@ -269,13 +269,13 @@ Read unsigned long value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| long | An unsigned short value. |
+| int | An unsigned short value. |
 
 
 ### Method: read_long_array(position, count) {#read_long_array_position_count_8}
@@ -291,14 +291,14 @@ Reads an array of ulong values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| long | The ulong array. |
+| int[] | The ulong array. |
 
 
 ### Method: read_rational(position) {#read_rational_position_9}
@@ -314,13 +314,13 @@ Read a single rational number value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The rational number. |
+| [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | The rational number. |
 
 
 ### Method: read_rational_array(position, count) {#read_rational_array_position_count_10}
@@ -336,14 +336,14 @@ Reads an array of rational values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The array of rational values. |
+| [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | The array of rational values. |
 
 
 ### Method: read_s_byte(position) {#read_s_byte_position_11}
@@ -359,13 +359,13 @@ Reads signed byte data from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| sbyte | The signed byte value. |
+| System.SByte | The signed byte value. |
 
 
 ### Method: read_s_byte_array(position, count) {#read_s_byte_array_position_count_12}
@@ -381,14 +381,14 @@ Reads an array of signed byte values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| sbyte | The array of signed byte values. |
+| System.SByte | The array of signed byte values. |
 
 
 ### Method: read_s_int(position) {#read_s_int_position_13}
@@ -404,7 +404,7 @@ Read signed integer value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
@@ -426,14 +426,14 @@ Reads an array of signed integer values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| int | The array of signed integer values. |
+| int[] | The array of signed integer values. |
 
 
 ### Method: read_s_rational(position) {#read_s_rational_position_15}
@@ -449,13 +449,13 @@ Read a single signed rational number value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The signed rational number. |
+| [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | The signed rational number. |
 
 
 ### Method: read_s_rational_array(position, count) {#read_s_rational_array_position_count_16}
@@ -471,14 +471,14 @@ Reads an array of signed rational values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffSRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The array of signed rational values. |
+| [TiffSRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | The array of signed rational values. |
 
 
 ### Method: read_s_short(position) {#read_s_short_position_17}
@@ -494,13 +494,13 @@ Read signed short value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| short | A signed short value. |
+| int | A signed short value. |
 
 
 ### Method: read_s_short_array(position, count) {#read_s_short_array_position_count_18}
@@ -516,14 +516,14 @@ Reads an array of signed short values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| short | The array of signed short values. |
+| int[] | The array of signed short values. |
 
 
 ### Method: read_u_int(position) {#read_u_int_position_19}
@@ -539,13 +539,13 @@ Read unsigned integer value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| uint | An unsigned integer value. |
+| int | An unsigned integer value. |
 
 
 ### Method: read_u_int_array(position, count) {#read_u_int_array_position_count_20}
@@ -561,14 +561,14 @@ Reads an array of unsigned integer values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| uint | The array of unsigned integer values. |
+| int[] | The array of unsigned integer values. |
 
 
 ### Method: read_u_long(position) {#read_u_long_position_21}
@@ -584,13 +584,13 @@ Read unsigned long value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| ulong | An unsigned short value. |
+| int | An unsigned short value. |
 
 
 ### Method: read_u_long_array(position, count) {#read_u_long_array_position_count_22}
@@ -606,14 +606,14 @@ Reads an array of ulong values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| ulong | The ulong array. |
+| int[] | The ulong array. |
 
 
 ### Method: read_u_short(position) {#read_u_short_position_23}
@@ -629,13 +629,13 @@ Read unsigned short value from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
+| position | int | The position to read from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| ushort | An unsigned short value. |
+| int | An unsigned short value. |
 
 
 ### Method: read_u_short_array(position, count) {#read_u_short_array_position_count_24}
@@ -651,14 +651,14 @@ Reads an array of unsigned integer values from the stream.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | long | The position to read from. |
-| count | long | The elements count. |
+| position | int | The position to read from. |
+| count | int | The elements count. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| ushort | The array of unsigned integer values. |
+| int[] | The array of unsigned integer values. |
 
 
 ### Method: to_stream_container(start_position) {#to_stream_container_start_position_25}
@@ -674,12 +674,12 @@ Converts the underlying data to the stream container.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_position | long | The start position to start conversion from. |
+| start_position | int | The start position to start conversion from. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) with converted data. |
+| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) with converted data. |
 
 

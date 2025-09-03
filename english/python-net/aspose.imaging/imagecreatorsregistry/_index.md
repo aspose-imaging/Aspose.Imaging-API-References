@@ -1,7 +1,7 @@
 ---
 title: ImageCreatorsRegistry Class
 type: docs
-weight: 5600
+weight: 5620
 url: /python-net/aspose.imaging/imagecreatorsregistry/
 ---
 
@@ -14,8 +14,8 @@ url: /python-net/aspose.imaging/imagecreatorsregistry/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| registered_descriptors [static] | [IImageCreatorDescriptor[]](/imaging/python-net/aspose.imaging/iimagecreatordescriptor) | r | Gets the registered descriptors. |
-| registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the registered image creation formats. |
+| registered_descriptors [static] | [IImageCreatorDescriptor[]](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | r | Gets the registered descriptors. |
+| registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets the registered image creation formats. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -39,13 +39,13 @@ Creates the first found creator suitable for the specified.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The image options. |
+| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The image options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IImageCreator](/imaging/python-net/aspose.imaging/iimagecreator) | The creator which supports the specified or null if no such creator is found. |
+| [IImageCreator](/imaging/python-net/aspose.imaging/iimagecreator/) | The creator which supports the specified or null if no such creator is found. |
 
 
 ### Method: get_first_supported_descriptor(image_options)  [static] {#get_first_supported_descriptor_image_options_2}
@@ -61,13 +61,13 @@ Gets the fist found supported descriptor suitable for the specified.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | The image options. |
+| image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The image options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor) | The creator descriptor which supports the specified or null if no such descriptor is found. |
+| [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | The creator descriptor which supports the specified or null if no such descriptor is found. |
 
 
 ### Method: register(image_creator_descriptor)  [static] {#register_image_creator_descriptor_3}
@@ -83,7 +83,7 @@ Registers the specified image creator descriptor.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_creator_descriptor | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor) | The image creator descriptor. |
+| image_creator_descriptor | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | The image creator descriptor. |
 
 ### Method: register_creator(creator_descriptor)  [static] {#register_creator_creator_descriptor_4}
 
@@ -98,7 +98,7 @@ Registers the creator.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| creator_descriptor | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor) | The creator descriptor to register. |
+| creator_descriptor | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | The creator descriptor to register. |
 
 ### Method: unregister_creator(creator_descriptor)  [static] {#unregister_creator_creator_descriptor_5}
 
@@ -113,5 +113,5 @@ Unregisters the creator.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| creator_descriptor | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor) | The creator descriptor. |
+| creator_descriptor | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | The creator descriptor. |
 

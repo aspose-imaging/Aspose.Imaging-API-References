@@ -1,7 +1,7 @@
 ---
 title: ColorBlend Class
 type: docs
-weight: 1130
+weight: 1160
 url: /python-net/aspose.imaging/colorblend/
 ---
 
@@ -19,8 +19,8 @@ url: /python-net/aspose.imaging/colorblend/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| colors | [Color[]](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets an array of colors that represents the colors to use at corresponding positions along a gradient. |
-| positions | float | r/w | Gets or sets the positions along a gradient line. |
+| colors | [Color[]](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets an array of colors that represents the colors to use at corresponding positions along a gradient. |
+| positions | float[] | r/w | Gets or sets the positions along a gradient line. |
 
 
 ### Constructor: ColorBlend() {#ColorBlend__1}

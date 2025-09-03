@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpdate/
 | :- | :- | :- | :- |
 | ISO_8601_FORMAT [static] | string | r | The ISO 8601 (roundtrip) format string. |
 | format | string | r | Gets the format string for current value. |
-| value | datetime | r/w | Gets or sets the date value. |
+| value | System.DateTime | r/w | Gets or sets the date value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -59,7 +59,7 @@ Initializes a new instance of the [XmpDate](/imaging/python-net/aspose.imaging.x
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| date_time | datetime | A date-time value which is represented using a subset of ISO RFC 8601 formatting. |
+| date_time | System.DateTime | A date-time value which is represented using a subset of ISO RFC 8601 formatting. |
 
 ### Method: clone() {#clone__1}
 
@@ -74,7 +74,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

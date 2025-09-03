@@ -18,11 +18,11 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jfifdata/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| density_units | [JfifDensityUnits](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits) | r/w | Gets or sets the density units. |
-| thumbnail | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | r/w | Gets or sets the thumbnail. |
-| version | short | r/w | Gets or sets the version. |
-| x_density | short | r/w | Gets or sets the x density. |
-| y_density | short | r/w | Gets or sets the y density. |
+| density_units | [JfifDensityUnits](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits/) | r/w | Gets or sets the density units. |
+| thumbnail | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | r/w | Gets or sets the thumbnail. |
+| version | int | r/w | Gets or sets the version. |
+| x_density | int | r/w | Gets or sets the x density. |
+| y_density | int | r/w | Gets or sets the y density. |
 
 
 ### Constructor: JFIFData() {#JFIFData__1}

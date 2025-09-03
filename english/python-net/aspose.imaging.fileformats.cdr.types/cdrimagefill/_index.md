@@ -18,14 +18,14 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrimagefill/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| flags | byte | r/w | Gets or sets the flags. |
-| height | double | r/w | Gets or sets the height. |
+| flags | System.Byte | r/w | Gets or sets the flags. |
+| height | float | r/w | Gets or sets the height. |
 | id | int | r/w | Gets or sets the identifier. |
 | is_relative | bool | r/w | Gets or sets a value indicating whether this instance is relative. |
-| rcp_offset | double | r/w | Gets or sets the RCP offset. |
-| width | double | r/w | Gets or sets the width. |
-| x_offset | double | r/w | Gets or sets the x offset. |
-| y_offset | double | r/w | Gets or sets the y offset. |
+| rcp_offset | float | r/w | Gets or sets the RCP offset. |
+| width | float | r/w | Gets or sets the width. |
+| x_offset | float | r/w | Gets or sets the x offset. |
+| y_offset | float | r/w | Gets or sets the y offset. |
 
 
 ### Constructor: CdrImageFill(id, width, height, is_relative, x_offset, y_offset, rcp_offset, flags) {#CdrImageFill_id_width_height_is_relative_x_offset_y_offset_rcp_offset_flags_1}
@@ -42,11 +42,11 @@ Initializes a new instance of the [CdrImageFill](/imaging/python-net/aspose.imag
 | Parameter | Type | Description |
 | :- | :- | :- |
 | id | int | The identifier. |
-| width | double | The width. |
-| height | double | The height. |
+| width | float | The width. |
+| height | float | The height. |
 | is_relative | bool | if set to <c>true</c> [is relative]. |
-| x_offset | double | The x offset. |
-| y_offset | double | The y offset. |
-| rcp_offset | double | The RPC offset. |
-| flags | byte | The flags. |
+| x_offset | float | The x offset. |
+| y_offset | float | The y offset. |
+| rcp_offset | float | The RPC offset. |
+| flags | System.Byte | The flags. |
 

@@ -16,15 +16,15 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| childs | list[CdrObject] | r | Gets or sets the objects. |
-| clip_ids | list[int] | r/w | Gets or sets the clip ids. |
+| childs | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Cdr.Objects.CdrObject]] | r | Gets or sets the objects. |
+| clip_ids | System.Collections.Generic.List`1[[System.Int16]] | r/w | Gets or sets the clip ids. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r/w | Gets or sets the document. |
 | hidden | bool | r/w | Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible. |
-| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the last child. |
+| last_child | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the last child. |
 | last_text_index | int | r/w | Gets the text indexes. |
 | load_to_last_child | bool | r/w | Gets or sets a value indicating whether [load to last child]. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) | r/w | Gets or sets the parent. |
 | texts | [CdrTextCollection](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrtextcollection/) | r | Gets the texts. |
 | version | int | r/w | Gets or sets the version. |
 ## **Methods**
@@ -47,7 +47,7 @@ Adds the child object.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 
 ### Method: insert_object(cdr_object) {#insert_object_cdr_object_2}
 
@@ -62,5 +62,5 @@ Inserts the object
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject) | The CDR object. |
+| cdr_object | [CdrObject](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobject/) | The CDR object. |
 

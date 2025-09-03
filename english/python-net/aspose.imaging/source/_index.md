@@ -1,7 +1,7 @@
 ---
 title: Source Class
 type: docs
-weight: 7200
+weight: 7220
 url: /python-net/aspose.imaging/source/
 ---
 
@@ -30,6 +30,6 @@ Gets the stream container.
 
 | Type | Description |
 | :- | :- |
-| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | the stream container. |
+| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | the stream container. |
 
 

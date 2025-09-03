@@ -20,10 +20,10 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpatblt/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| height | short | r/w | Gets or sets the height. |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
+| height | int | r/w | Gets or sets the height. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the point. |
 | raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Gets or sets the raster operation. |
-| width | short | r/w | Gets or sets the width. |
+| width | int | r/w | Gets or sets the width. |
 
 
 ### Constructor: WmfPatBlt() {#WmfPatBlt__1}

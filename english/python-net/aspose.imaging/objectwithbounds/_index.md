@@ -1,7 +1,7 @@
 ---
 title: ObjectWithBounds Class
 type: docs
-weight: 6110
+weight: 6130
 url: /python-net/aspose.imaging/objectwithbounds/
 ---
 
@@ -14,7 +14,7 @@ url: /python-net/aspose.imaging/objectwithbounds/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
+| bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Gets the object's bounds. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -36,13 +36,13 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
@@ -58,14 +58,14 @@ Gets the object's bounds.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-| pen | [Pen](/imaging/python-net/aspose.imaging/pen) | The pen to use for object. This can influence the object's bounds size. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to apply before bounds will be calculated. |
+| pen | [Pen](/imaging/python-net/aspose.imaging/pen/) | The pen to use for object. This can influence the object's bounds size. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
+| [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | The estimated object's bounds. |
 
 
 ### Method: transform(transform) {#transform_transform_3}
@@ -81,5 +81,5 @@ Applies the specified transformation to the shape.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The transformation to apply. |
 

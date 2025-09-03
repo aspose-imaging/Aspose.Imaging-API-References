@@ -43,12 +43,12 @@ Produces the path record.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | byte | The record data. |
+| data | System.Byte | The record data. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [VectorPathRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord) | Created [VectorPathRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/) |
+| [VectorPathRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/) | Created [VectorPathRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/) |
 
 

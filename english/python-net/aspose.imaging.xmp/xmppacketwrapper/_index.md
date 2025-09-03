@@ -21,11 +21,11 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| header_pi | [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi) | r | Gets the header processing instruction. |
-| meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta) | r/w | Gets the XMP meta. Optional. |
-| packages | [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage) | r | Gets array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside XMP. |
+| header_pi | [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) | r | Gets the header processing instruction. |
+| meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) | r/w | Gets the XMP meta. Optional. |
+| packages | [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | r | Gets array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside XMP. |
 | packages_count | int | r | Gets amount of packages inside XMP structure. |
-| trailer_pi | [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi) | r | Gets the trailer processing instruction. |
+| trailer_pi | [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi/) | r | Gets the trailer processing instruction. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -59,9 +59,9 @@ Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| header | [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi) | The XMP header of processing instruction. |
-| trailer | [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi) | The XMP trailer of processing instruction. |
-| xmp_meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta) | The XMP metadata. |
+| header | [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) | The XMP header of processing instruction. |
+| trailer | [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi/) | The XMP trailer of processing instruction. |
+| xmp_meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) | The XMP metadata. |
 
 ### Method: add_package(package) {#add_package_package_1}
 
@@ -76,7 +76,7 @@ Adds the package.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The package. |
+| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | The package. |
 
 ### Method: contains_package(namespace_uri) {#contains_package_namespace_uri_2}
 
@@ -119,7 +119,7 @@ Gets package by namespace URI.
 
 | Type | Description |
 | :- | :- |
-| [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns the XMP package for specified namespace URI. |
+| [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | Returns the XMP package for specified namespace URI. |
 
 
 ### Method: get_xml_value() {#get_xml_value__4}
@@ -151,5 +151,5 @@ Removes the XMP package.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The package. |
+| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | The package. |
 

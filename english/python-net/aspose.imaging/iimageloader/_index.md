@@ -1,7 +1,7 @@
 ---
 title: IImageLoader Class
 type: docs
-weight: 5270
+weight: 5300
 url: /python-net/aspose.imaging/iimageloader/
 ---
 
@@ -30,13 +30,13 @@ Opens a new image with _loadOptions_.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container. |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The load options. |
+| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Image](/imaging/python-net/aspose.imaging/image) | A newly opened image instance. |
+| [Image](/imaging/python-net/aspose.imaging/image/) | A newly opened image instance. |
 
 

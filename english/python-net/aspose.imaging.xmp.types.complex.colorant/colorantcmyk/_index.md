@@ -24,10 +24,10 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
 | COLOR_VALUE_MAX [static] | float | r | Color max value in CMYK colorant. |
 | COLOR_VALUE_MIN [static] | float | r | Color min value in CMYK colorant. |
 | black | float | r/w | Gets or sets the black component value. |
-| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype) | r/w | Gets or sets the type of the color. |
+| color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype/) | r/w | Gets or sets the type of the color. |
 | cyan | float | r/w | Gets or sets the cyan component value. |
 | magenta | float | r/w | Gets or sets the magenta component value. |
-| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
+| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |
 | swatch_name | string | r/w | Gets or sets the name of the swatch. |
@@ -79,7 +79,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| object | A memberwise clone. |
+| System.Object | A memberwise clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

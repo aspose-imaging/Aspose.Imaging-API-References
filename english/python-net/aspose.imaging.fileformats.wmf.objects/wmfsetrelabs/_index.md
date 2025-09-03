@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| parameters | short | r/w | Gets or sets the parameter. |
+| parameters | int[] | r/w | Gets or sets the parameter. |
 
 
 ### Constructor: WmfSetRelabs() {#WmfSetRelabs__1}

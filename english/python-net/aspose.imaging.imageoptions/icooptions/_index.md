@@ -24,14 +24,14 @@ url: /python-net/aspose.imaging.imageoptions/icooptions/
 | bits_per_pixel | int | r/w | Gets or sets the bits-per-pixel value. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r/w | Gets or sets the ICO frame format. |
+| format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r/w | Gets or sets the ICO frame format. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
-| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
-| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
-| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
-| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
+| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
+| source | [Source](/imaging/python-net/aspose.imaging/source/) | r/w | Gets or sets the source to create image in. |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
 ## **Methods**
 | **Name** | **Description** |
@@ -61,7 +61,7 @@ Initializes a new instance of the [IcoOptions](/imaging/python-net/aspose.imagin
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | The ICO frame format.<br/>            Note that ICO image supports only [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/) and [FileFormat.BMP](/imaging/python-net/aspose.imaging/fileformat/) images as entries. |
+| format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | The ICO frame format.<br/>            Note that ICO image supports only [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/) and [FileFormat.BMP](/imaging/python-net/aspose.imaging/fileformat/) images as entries. |
 | bits_per_pixel | int | The bits-per-pixel value. |
 
 ### Method: clone() {#clone__1}
@@ -77,6 +77,6 @@ Creates a memberwise clone of this instance.
 
 | Type | Description |
 | :- | :- |
-| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | A memberwise clone of this instance. |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | A memberwise clone of this instance. |
 
 

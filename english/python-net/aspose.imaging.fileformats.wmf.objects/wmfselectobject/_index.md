@@ -46,5 +46,5 @@ Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.i
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| wmf_object | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The WMF object. |
+| wmf_object | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/) | The WMF object. |
 

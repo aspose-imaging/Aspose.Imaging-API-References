@@ -20,11 +20,11 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| dx | short | r/w | Gets or sets the dx. |
-| extended_byte | byte | r/w | Gets or sets the extended byte. |
+| dx | int[] | r/w | Gets or sets the dx. |
+| extended_byte | System.Byte | r/w | Gets or sets the extended byte. |
 | fw_opts | int | r/w | Gets or sets the fw opts. |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
+| point | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Gets or sets the point. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r/w | Gets or sets the rectangle. |
 | string_length | int | r/w | Gets or sets the length of the string. |
 | text | string | r/w | Gets or sets the text. |
 

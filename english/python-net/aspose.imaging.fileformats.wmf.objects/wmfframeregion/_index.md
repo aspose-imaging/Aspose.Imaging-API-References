@@ -22,9 +22,9 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfframeregion/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | brush_index | int | r/w | Gets or sets the index of the brush. |
-| height | short | r/w | Gets or sets the height. |
+| height | int | r/w | Gets or sets the height. |
 | region_index | int | r/w | Gets or sets the index of the region. |
-| width | short | r/w | Gets or sets the width. |
+| width | int | r/w | Gets or sets the width. |
 
 
 ### Constructor: WmfFrameRegion() {#WmfFrameRegion__1}
@@ -49,6 +49,6 @@ Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.ima
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The region. |
-| brush | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The brush. |
+| region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/) | The region. |
+| brush | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/) | The brush. |
 

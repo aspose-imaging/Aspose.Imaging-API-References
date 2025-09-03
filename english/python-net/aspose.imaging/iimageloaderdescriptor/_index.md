@@ -1,7 +1,7 @@
 ---
 title: IImageLoaderDescriptor Class
 type: docs
-weight: 5280
+weight: 5310
 url: /python-net/aspose.imaging/iimageloaderdescriptor/
 ---
 
@@ -11,12 +11,6 @@ url: /python-net/aspose.imaging/iimageloaderdescriptor/
 
 **Full Name:** aspose.imaging.IImageLoaderDescriptor
 
-**Inheritance:** IImageDescriptor
-
-## **Properties**
-| **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- | :- |
-| supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -37,8 +31,8 @@ Determines whether image loader can read a new image from the specified stream a
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream container. |
-| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions) | The file format details specified by _loadOptions_. The _loadOptions_ may be null. |
+| stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container. |
+| load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The file format details specified by _loadOptions_. The _loadOptions_ may be null. |
 
 **Returns**
 
@@ -60,6 +54,6 @@ Creates a new loader instance.
 
 | Type | Description |
 | :- | :- |
-| [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader) | A new loader instance. |
+| [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader/) | A new loader instance. |
 
 

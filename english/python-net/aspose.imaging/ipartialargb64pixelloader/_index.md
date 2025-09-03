@@ -1,7 +1,7 @@
 ---
 title: IPartialArgb64PixelLoader Class
 type: docs
-weight: 5430
+weight: 5450
 url: /python-net/aspose.imaging/ipartialargb64pixelloader/
 ---
 
@@ -11,34 +11,13 @@ url: /python-net/aspose.imaging/ipartialargb64pixelloader/
 
 **Full Name:** aspose.imaging.IPartialArgb64PixelLoader
 
-**Inheritance:** IPartialArgb32PixelLoader
-
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [process(pixels_rectangle, pixels, start, end)](#process_pixels_rectangle_pixels_start_end_1) | Processes the loaded pixels. |
-| [process64(pixels_rectangle, pixels, start, end)](#process64_pixels_rectangle_pixels_start_end_2) | Processes the loaded pixels. |
+| [process64(pixels_rectangle, pixels, start, end)](#process64_pixels_rectangle_pixels_start_end_1) | Processes the loaded pixels. |
 
 
-### Method: process(pixels_rectangle, pixels, start, end) {#process_pixels_rectangle_pixels_start_end_1}
-
-
-```
- process(pixels_rectangle, pixels, start, end) 
-```
-
-Processes the loaded pixels.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The pixels rectangle. |
-| pixels | int | The 64-bit ARGB pixels. |
-| start | [Point](/imaging/python-net/aspose.imaging/point) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
-| end | [Point](/imaging/python-net/aspose.imaging/point) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
-
-### Method: process64(pixels_rectangle, pixels, start, end) {#process64_pixels_rectangle_pixels_start_end_2}
+### Method: process64(pixels_rectangle, pixels, start, end) {#process64_pixels_rectangle_pixels_start_end_1}
 
 
 ```
@@ -51,8 +30,8 @@ Processes the loaded pixels.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The pixels rectangle. |
-| pixels | long | The 64-bit ARGB pixels. |
-| start | [Point](/imaging/python-net/aspose.imaging/point) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
-| end | [Point](/imaging/python-net/aspose.imaging/point) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
+| pixels_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The pixels rectangle. |
+| pixels | int[] | The 64-bit ARGB pixels. |
+| start | [Point](/imaging/python-net/aspose.imaging/point/) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
+| end | [Point](/imaging/python-net/aspose.imaging/point/) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
 

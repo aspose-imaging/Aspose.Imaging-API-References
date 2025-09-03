@@ -100,7 +100,7 @@ Adds string property.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | object | The string value. |
+| value | System.Object | The string value. |
 
 ### Method: contains_key(key) {#contains_key_key_3}
 
@@ -143,7 +143,7 @@ Gets the object with the specified key.
 
 | Type | Description |
 | :- | :- |
-| object | Returns the object with the specified key. |
+| System.Object | Returns the object with the specified key. |
 
 
 ### Method: get_xml_value() {#get_xml_value__5}
@@ -257,7 +257,7 @@ Sets the color mode.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color_mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | The color mode. |
+| color_mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/colormode/) | The color mode. |
 
 ### Method: set_country(country) {#set_country_country_12}
 
@@ -287,7 +287,7 @@ Sets created date.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| created_date | datetime | The created date. |
+| created_date | System.DateTime | The created date. |
 
 ### Method: set_credit(credit) {#set_credit_credit_14}
 
@@ -317,7 +317,7 @@ Sets the document ancestors.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ancestors | string | The ancestors. |
+| ancestors | string[] | The ancestors. |
 
 ### Method: set_headline(headline) {#set_headline_headline_16}
 
@@ -393,7 +393,7 @@ Gets or sets the object with the specified key.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | object | The object with the specified key. |
+| value | System.Object | The object with the specified key. |
 
 ### Method: set_source(source) {#set_source_source_21}
 
@@ -438,7 +438,7 @@ Sets supplemental categories.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| supplemental_categories | string | The supplemental categories. |
+| supplemental_categories | string[] | The supplemental categories. |
 
 ### Method: set_transmission_reference(transmission_reference) {#set_transmission_reference_transmission_reference_24}
 
@@ -484,7 +484,7 @@ Sets the value.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with added value. |
-| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
+| value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue/) | The value to add to. |
 
 ### Method: set_value(key, value) {#set_value_key_value_27}
 
@@ -532,7 +532,7 @@ Gets the value by the _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The XMP element key. |
-| value | Object | The XMP value. |
+| value | System.Object | The XMP value. |
 
 **Returns**
 

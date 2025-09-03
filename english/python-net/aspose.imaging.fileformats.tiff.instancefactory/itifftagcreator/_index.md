@@ -30,12 +30,12 @@ Creates a new tag instance.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tag_id | ushort | The tag id. |
+| tag_id | int | The tag id. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype) | The newly created instance. |
+| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The newly created instance. |
 
 

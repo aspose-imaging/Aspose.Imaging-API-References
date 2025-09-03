@@ -16,7 +16,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifblock/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
+| EXTENSION_INTRODUCER [static] | System.Byte | r | Extension introducer. |
 | is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
 ## **Methods**
 | **Name** | **Description** |

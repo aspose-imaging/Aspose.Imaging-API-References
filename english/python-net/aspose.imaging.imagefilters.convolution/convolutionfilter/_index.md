@@ -43,7 +43,7 @@ Gets the box blur kernel.
 
 | Type | Description |
 | :- | :- |
-| double | The box blur kernel. |
+| float[] | The box blur kernel. |
 
 
 ### Method: get_blur_motion(size, angle)  [static] {#get_blur_motion_size_angle_2}
@@ -60,13 +60,13 @@ Gets the motion blur kernel.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | size | int | The kernel size. |
-| angle | double | The motion angle. |
+| angle | float | The motion angle. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| double | The motion blur kernel. |
+| float[] | The motion blur kernel. |
 
 
 ### Method: get_emboss_3x3()  [static] {#get_emboss_3x3__3}
@@ -82,7 +82,7 @@ Gets the 3x3 Emboss kernel.
 
 | Type | Description |
 | :- | :- |
-| double |  |
+| float[] |  |
 
 
 ### Method: get_emboss_5x5()  [static] {#get_emboss_5x5__4}
@@ -98,7 +98,7 @@ Gets the 5x5 Emboss kernel.
 
 | Type | Description |
 | :- | :- |
-| double |  |
+| float[] |  |
 
 
 ### Method: get_gaussian(size, sigma)  [static] {#get_gaussian_size_sigma_5}
@@ -115,13 +115,13 @@ Gets the Gaussian kernel.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | size | int | The kernel size. |
-| sigma | double | The sigma value in range (0...]. |
+| sigma | float | The sigma value in range (0...]. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| double | The Gaussian kernel. |
+| float[] | The Gaussian kernel. |
 
 
 ### Method: get_sharpen_3x3()  [static] {#get_sharpen_3x3__6}
@@ -137,7 +137,7 @@ Gets the 3x3 sharpen kernel.
 
 | Type | Description |
 | :- | :- |
-| double |  |
+| float[] |  |
 
 
 ### Method: get_sharpen_5x5()  [static] {#get_sharpen_5x5__7}
@@ -153,7 +153,7 @@ Gets the 5x5 sharpen kernel.
 
 | Type | Description |
 | :- | :- |
-| double |  |
+| float[] |  |
 
 
 ### Method: to_complex(kernel)  [static] {#to_complex_kernel_8}
@@ -169,7 +169,7 @@ Converts _kernel_ to a [Complex](/imaging/python-net/aspose.imaging.imagefilters
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| kernel | double | The kernel. |
+| kernel | float[] | The kernel. |
 
 **Returns**
 

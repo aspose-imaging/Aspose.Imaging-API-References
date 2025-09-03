@@ -1,7 +1,7 @@
 ---
 title: Matrix Class
 type: docs
-weight: 5960
+weight: 5980
 url: /python-net/aspose.imaging/matrix/
 ---
 
@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging/matrix/
 | TYPE_QUADRANT_ROTATION [static] | int | r | This flag bit indicates that the transform defined by this object<br/>            performs a quadrant rotation by some multiple of 90 degrees in<br/>            addition to the conversions indicated by other flag bits.<br/>            A rotation changes the angles of vectors by the same amount<br/>            regardless of the original direction of the vector and without<br/>            changing the length of the vector.<br/>            This flag bit is mutually exclusive with the TypeGeneralRotation flag. |
 | TYPE_TRANSLATION [static] | int | r | A translation moves the coordinates by a constant amount in x<br/>            and y without changing the length or angle of vectors. |
 | TYPE_UNIFORM_SCALE [static] | int | r | A uniform scale multiplies the length of vectors by the same amount<br/>            in both the x and y directions without changing the angle between<br/>            vectors.<br/>            This flag bit is mutually exclusive with the TypeGeneralScale flag. |
-| elements | float | r | Gets an array of floating-point values that represents the elements of this [Matrix](/imaging/python-net/aspose.imaging/matrix/). |
+| elements | float[] | r | Gets an array of floating-point values that represents the elements of this [Matrix](/imaging/python-net/aspose.imaging/matrix/). |
 | m11 | float | r | Gets the matrix element at first row first column. Represents scale along X axis. |
 | m12 | float | r | Gets the matrix element at first row second column. Represents shear along Y axis. |
 | m21 | float | r | Gets the matrix element at second row first column. Represents shear along X axis. |
@@ -101,7 +101,7 @@ Makes a copy of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| origin | [Matrix](/imaging/python-net/aspose.imaging/matrix) | A base matrix for coping |
+| origin | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | A base matrix for coping |
 
 ### Constructor: Matrix(rect, plgpts) {#Matrix_rect_plgpts_4}
 
@@ -116,8 +116,8 @@ Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/ma
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
-| plgpts | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
+| plgpts | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 ### Constructor: Matrix(rect, plgpts) {#Matrix_rect_plgpts_5}
 
@@ -132,8 +132,8 @@ Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/ma
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
-| plgpts | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
+| plgpts | [Point[]](/imaging/python-net/aspose.imaging/point/) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 ### Method: create_with_rect(rect, plgpts)  [static] {#create_with_rect_rect_plgpts_1}
 
@@ -148,14 +148,14 @@ Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/ma
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
-| plgpts | [Point[]](/imaging/python-net/aspose.imaging/point) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
+| plgpts | [Point[]](/imaging/python-net/aspose.imaging/point/) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Matrix](/imaging/python-net/aspose.imaging/matrix) |  |
+| [Matrix](/imaging/python-net/aspose.imaging/matrix/) |  |
 
 
 ### Method: create_with_rect_f(rect, plgpts)  [static] {#create_with_rect_f_rect_plgpts_2}
@@ -171,14 +171,14 @@ Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/ma
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
-| plgpts | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to be transformed. |
+| plgpts | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | An array of three [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed. The lower-right corner of the parallelogram is implied by the first three corners. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Matrix](/imaging/python-net/aspose.imaging/matrix) |  |
+| [Matrix](/imaging/python-net/aspose.imaging/matrix/) |  |
 
 
 ### Method: get_elements() {#get_elements__3}
@@ -194,7 +194,7 @@ Gets the copy of matrix elements.
 
 | Type | Description |
 | :- | :- |
-| float | A matrix elements copy. |
+| float[] | A matrix elements copy. |
 
 
 ### Method: multiply(t_tx) {#multiply_t_tx_4}
@@ -210,7 +210,7 @@ Multiplies this Matrix by the matrix specified in the matrix parameter using (de
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| t_tx | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The matrix to multiply with. |
+| t_tx | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The matrix to multiply with. |
 
 ### Method: multiply(t_tx, order) {#multiply_t_tx_order_5}
 
@@ -225,8 +225,8 @@ Multiplies this Matrix by the matrix specified in the matrix parameter, and in t
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| t_tx | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The tx. The tx. The tx. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order. The order. The order. |
+| t_tx | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | The tx. The tx. The tx. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order. The order. The order. |
 
 ### Method: rotate(angle) {#rotate_angle_6}
 
@@ -257,7 +257,7 @@ Applies a clockwise rotation of an amount specified in the angle parameter, arou
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | The rotate angle. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The matrix order. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The matrix order. |
 
 ### Method: rotate_at(angle, point) {#rotate_at_angle_point_8}
 
@@ -273,7 +273,7 @@ Applies a clockwise rotation about the specified point to this Matrix in the def
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | The angle. |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The point. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The point. |
 
 ### Method: rotate_at(angle, point, order) {#rotate_at_angle_point_order_9}
 
@@ -289,8 +289,8 @@ Applies a clockwise rotation about the specified point to this Matrix in the spe
 | Parameter | Type | Description |
 | :- | :- | :- |
 | angle | float | The angle. |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The point. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order. |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | The point. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order. |
 
 ### Method: scale(scale_x, scale_y, order) {#scale_scale_x_scale_y_order_10}
 
@@ -307,7 +307,7 @@ Applies the specified scale vector (scaleX and scaleY) to this [Matrix](/imaging
 | :- | :- | :- |
 | scale_x | float | The scale X. |
 | scale_y | float | The scale Y. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order. |
 
 ### Method: scale(sx, sy) {#scale_sx_sy_11}
 
@@ -338,7 +338,7 @@ Applies the geometric transform represented by this [Matrix](/imaging/python-net
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | The points. |
+| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | The points. |
 
 ### Method: translate(offset_x, offset_y, order) {#translate_offset_x_offset_y_order_13}
 
@@ -355,7 +355,7 @@ Applies the specified translation vector to this Matrix in the specified order.
 | :- | :- | :- |
 | offset_x | float | The offset X. |
 | offset_y | float | The offset Y. |
-| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | The order. |
 
 ### Method: translate(tx, ty) {#translate_tx_ty_14}
 

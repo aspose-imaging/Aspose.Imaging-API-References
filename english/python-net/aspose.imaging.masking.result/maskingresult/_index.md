@@ -18,7 +18,7 @@ url: /python-net/aspose.imaging.masking.result/maskingresult/
 | :- | :- | :- | :- |
 | MASKING_OPTIONS | [MaskingOptions](/imaging/python-net/aspose.imaging.masking.options/maskingoptions/) | r | The masking options |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| layers | [IMaskingLayer[]](/imaging/python-net/aspose.imaging.masking.result/imaskinglayer) | r | Gets the layers. |
+| layers | [IMaskingLayer[]](/imaging/python-net/aspose.imaging.masking.result/imaskinglayer/) | r | Gets the layers. |
 | length | int | r | Gets the length. |
 
 

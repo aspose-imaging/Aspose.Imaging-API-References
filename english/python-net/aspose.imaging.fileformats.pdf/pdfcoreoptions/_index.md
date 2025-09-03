@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 | expanded_outline_levels | int | r/w | Specifies how many levels in the document outline to show expanded when the PDF file is viewed.<br/>            0 - the document outline is not expanded.<br/>            1 - first level items in the document are expanded and so on.<br/>            Default is 0. |
 | headings_outline_levels | int | r/w | Specifies how many levels of outline items to include in the document outline.<br/>            0 - no outline, 1 - one outline level and so on.<br/>            Default is 0. |
 | jpeg_quality | int | r/w | Specifies the quality of JPEG compression for images (if JPEG compression is used).<br/>            Default is 95. |
-| pdf_compliance | [PdfComplianceVersion](/imaging/python-net/aspose.imaging/pdfcomplianceversion) | r/w | Gets or sets the PDF compliance. |
+| pdf_compliance | [PdfComplianceVersion](/imaging/python-net/aspose.imaging/pdfcomplianceversion/) | r/w | Gets or sets the PDF compliance. |
 
 
 ### Constructor: PdfCoreOptions() {#PdfCoreOptions__1}

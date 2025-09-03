@@ -1,7 +1,7 @@
 ---
 title: NonGenericDictionary Class
 type: docs
-weight: 6090
+weight: 6110
 url: /python-net/aspose.imaging/nongenericdictionary/
 ---
 
@@ -39,8 +39,8 @@ Adds an element with the provided key and value to the <br/>             object.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | object | The <br/>            object to use as the key of the element to add. |
-| value | object | The <br/>            object to use as the value of the element to add. |
+| key | System.Object | The <br/>            object to use as the key of the element to add. |
+| value | System.Object | The <br/>            object to use as the value of the element to add. |
 
 ### Method: remove(key) {#remove_key_2}
 
@@ -55,5 +55,5 @@ Removes the element with the specified key from the <br/>             object.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | object | The key of the element to remove. |
+| key | System.Object | The key of the element to remove. |
 

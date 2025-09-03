@@ -25,12 +25,12 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/
 | is_arc_to | bool | r/w | Gets or sets a value indicating whether this instance is arc to. |
 | is_elliptical_qundrant_x | bool | r/w | Gets or sets a value indicating whether this instance is elliptical quadrant x. |
 | is_elliptical_qundrant_y | bool | r/w | Gets or sets a value indicating whether this instance is elliptical quadrant y. |
-| items | list[OdObject] | r | Gets the items. |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the point1. |
-| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the point2. |
-| point3 | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the point3. |
-| point4 | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the point4. |
+| items | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.OpenDocument.OdObject]] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | r | Gets the parent object. |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the point1. |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the point2. |
+| point3 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the point3. |
+| point4 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the point4. |
 
 
 ### Constructor: OdArc(parent) {#OdArc_parent_1}
@@ -46,5 +46,5 @@ Initializes a new instance of the [OdArc](/imaging/python-net/aspose.imaging.fil
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | The parent. |
 

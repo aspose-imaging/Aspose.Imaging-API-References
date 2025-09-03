@@ -20,9 +20,9 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblocksp
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| char_locations | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the character locations. |
-| font | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | r/w | Gets or sets the font. |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets the transformation matrix. |
+| char_locations | [PointF[]](/imaging/python-net/aspose.imaging/pointf/) | r/w | Gets or sets the character locations. |
+| font | [Font](/imaging/python-net/aspose.imaging/font/) | r/w | Gets or sets the font. |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | r/w | Gets or sets the transformation matrix. |
 | paragraph_style | [CmxParagraphStyle](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/) | r/w | Gets or sets the paragraph style. |
 | text | string | r/w | Gets or sets the text. |
 

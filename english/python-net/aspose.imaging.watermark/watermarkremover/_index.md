@@ -30,14 +30,14 @@ Remove the watermark from the raster image.
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The source raster image. |
+| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The source raster image. |
 | options | [WatermarkOptions](/imaging/python-net/aspose.imaging.watermark.options/watermarkoptions/) | The watermark options. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | The resulting image. |
+| [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The resulting image. |
 
 
 ## **Examples**
