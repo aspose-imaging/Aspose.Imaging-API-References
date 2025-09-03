@@ -3,7 +3,7 @@ title: Class EmfPlusRegionNodePath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusRegionNodePath class. The EmfPlusRegionNodePath object specifies a graphics path for drawing the boundary of a region node
 type: docs
-weight: 5820
+weight: 5830
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath/
 ---
 ## EmfPlusRegionNodePath class

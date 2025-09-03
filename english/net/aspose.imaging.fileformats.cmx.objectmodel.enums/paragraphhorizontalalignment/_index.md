@@ -3,7 +3,7 @@ title: Enum ParagraphHorizontalAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.ParagraphHorizontalAlignment enum. Horizontal alignment
 type: docs
-weight: 2110
+weight: 2120
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/paragraphhorizontalalignment/
 ---
 ## ParagraphHorizontalAlignment enumeration

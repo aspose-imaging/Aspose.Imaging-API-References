@@ -3,7 +3,7 @@ title: Class BezierKnotRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Core.VectorPaths.BezierKnotRecord class. Bezier Knot Record Class
 type: docs
-weight: 2320
+weight: 2330
 url: /net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 ---
 ## BezierKnotRecord class

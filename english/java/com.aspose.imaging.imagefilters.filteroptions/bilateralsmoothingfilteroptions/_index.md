@@ -3,7 +3,7 @@ title: BilateralSmoothingFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Bilateral Smoothing Filter Options.
 type: docs
-weight: 11
+weight: 13
 url: /java/com.aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/
 ---
 **Inheritance:**

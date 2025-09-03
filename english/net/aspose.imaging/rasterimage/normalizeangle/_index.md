@@ -3,7 +3,7 @@ title: RasterImage.NormalizeAngle
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses GetSkewAngle and Rotate methods
 type: docs
-weight: 440
+weight: 480
 url: /net/aspose.imaging/rasterimage/normalizeangle/
 ---
 ## NormalizeAngle() {#normalizeangle}

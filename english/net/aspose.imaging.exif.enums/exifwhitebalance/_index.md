@@ -3,7 +3,7 @@ title: Enum ExifWhiteBalance
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifWhiteBalance enum. exif white balance enum
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.imaging.exif.enums/exifwhitebalance/
 ---
 ## ExifWhiteBalance enumeration

@@ -145,7 +145,6 @@ The package is the core for nested packages and the most basic objects used for 
 | [IImageLoader](../com.aspose.imaging/iimageloader) | The image loader. |
 | [IImageLoaderDescriptor](../com.aspose.imaging/iimageloaderdescriptor) | The image loader descriptor specifying the loader properties. |
 | [IIndexedColorConverter](../com.aspose.imaging/iindexedcolorconverter) | The color converter for indexed image formats. |
-| [IKeyedObject](../com.aspose.imaging/ikeyedobject) | Represents interface for objects with keys. |
 | [IMultipageImage](../com.aspose.imaging/imultipageimage) | The multipage image interface |
 | [IMultipageImageExt](../com.aspose.imaging/imultipageimageext) | The extended multipage image interface |
 | [IObjectWithBounds](../com.aspose.imaging/iobjectwithbounds) | Represents an object with bounds. |

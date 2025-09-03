@@ -3,7 +3,7 @@ title: XmpException
 second_title: Aspose.Imaging for Java API Reference
 description: The exception that is thrown when XMP has invalid structure.
 type: docs
-weight: 25
+weight: 26
 url: /java/com.aspose.imaging.coreexceptions/xmpexception/
 ---
 **Inheritance:**

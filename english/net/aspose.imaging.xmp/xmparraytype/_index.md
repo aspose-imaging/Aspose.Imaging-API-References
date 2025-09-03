@@ -3,7 +3,7 @@ title: Enum XmpArrayType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpArrayType enum. Represents array type in XmpArray
 type: docs
-weight: 12230
+weight: 12260
 url: /net/aspose.imaging.xmp/xmparraytype/
 ---
 ## XmpArrayType enumeration

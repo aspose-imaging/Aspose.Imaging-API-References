@@ -3,7 +3,7 @@ title: Class LengthRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Core.VectorPaths.LengthRecord class. Subpath Length Record Class
 type: docs
-weight: 2360
+weight: 2370
 url: /net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/
 ---
 ## LengthRecord class

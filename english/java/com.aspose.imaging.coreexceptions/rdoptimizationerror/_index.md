@@ -3,7 +3,7 @@ title: RdOptimizationError
 second_title: Aspose.Imaging for Java API Reference
 description: RD optimization error exception class
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.imaging.coreexceptions/rdoptimizationerror/
 ---
 **Inheritance:**

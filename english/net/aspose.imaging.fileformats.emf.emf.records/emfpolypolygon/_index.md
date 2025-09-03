@@ -3,7 +3,7 @@ title: Class EmfPolyPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyPolygon class. The EMR_POLYPOLYGON record specifies a series of closed polygons
 type: docs
-weight: 4080
+weight: 4090
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 ---
 ## EmfPolyPolygon class

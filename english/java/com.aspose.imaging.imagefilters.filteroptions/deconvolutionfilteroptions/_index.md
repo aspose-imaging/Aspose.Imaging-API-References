@@ -3,7 +3,7 @@ title: DeconvolutionFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Deconvolution Filter Options abstract class
 type: docs
-weight: 13
+weight: 16
 url: /java/com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/
 ---
 **Inheritance:**

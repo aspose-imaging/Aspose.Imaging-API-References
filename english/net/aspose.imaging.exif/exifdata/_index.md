@@ -3,7 +3,7 @@ title: Class ExifData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.ExifData class. EXIF data container
 type: docs
-weight: 1070
+weight: 1080
 url: /net/aspose.imaging.exif/exifdata/
 ---
 ## ExifData class

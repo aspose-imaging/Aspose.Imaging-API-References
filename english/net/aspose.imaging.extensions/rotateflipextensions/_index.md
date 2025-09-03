@@ -3,7 +3,7 @@ title: Class RotateFlipExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.RotateFlipExtensions class. Contains extension methods for conversion the RotateFlipType and the RotateFlipType classes
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.imaging.extensions/rotateflipextensions/
 ---
 ## RotateFlipExtensions class

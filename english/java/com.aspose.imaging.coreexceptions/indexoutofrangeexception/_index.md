@@ -3,7 +3,7 @@ title: IndexOutOFRangeException
 second_title: Aspose.Imaging for Java API Reference
 description: The compressor exception.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.imaging.coreexceptions/indexoutofrangeexception/
 ---
 **Inheritance:**

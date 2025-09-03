@@ -3,7 +3,7 @@ title: Class RasterImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterImage class. Represents a raster image supporting raster graphics operations
 type: docs
-weight: 11240
+weight: 11270
 url: /net/aspose.imaging/rasterimage/
 ---
 ## RasterImage class
@@ -61,6 +61,8 @@ public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelL
 | virtual [AdjustContrast](../../aspose.imaging/rasterimage/adjustcontrast/)(float) | Image contrasting |
 | virtual [AdjustGamma](../../aspose.imaging/rasterimage/adjustgamma/#adjustgamma)(float) | Gamma-correction of an image. |
 | virtual [AdjustGamma](../../aspose.imaging/rasterimage/adjustgamma/#adjustgamma_1)(float, float, float) | Gamma-correction of an image. |
+| virtual [AnalyzePercentageDigitalSignature](../../aspose.imaging/rasterimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| virtual [AutoBrightnessContrast](../../aspose.imaging/rasterimage/autobrightnesscontrast/)() | Automatic adaptive brightness and contrast normalization for the entire image. |
 | virtual [BinarizeBradley](../../aspose.imaging/rasterimage/binarizebradley/#binarizebradley)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | virtual [BinarizeBradley](../../aspose.imaging/rasterimage/binarizebradley/#binarizebradley_1)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | virtual [BinarizeFixed](../../aspose.imaging/rasterimage/binarizefixed/)(byte) | Binarization of an image with predefined threshold |
@@ -74,6 +76,7 @@ public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelL
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/#dither)(DitheringMethod, int) | Performs dithering on the current image. |
 | abstract [Dither](../../aspose.imaging/rasterimage/dither/#dither_1)(DitheringMethod, int, IColorPalette) | Performs dithering on the current image. |
+| virtual [EmbedDigitalSignature](../../aspose.imaging/rasterimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into the image using steganography. |
 | virtual [Filter](../../aspose.imaging/rasterimage/filter/)(Rectangle, FilterOptionsBase) | Filters the specified rectangle. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel/)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels/)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
@@ -87,6 +90,7 @@ public abstract class RasterImage : Image, IHasXmpData, IRasterImageArgb32PixelL
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle/)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | virtual [Grayscale](../../aspose.imaging/rasterimage/grayscale/)() | Transformation of an image to its grayscale representation |
+| virtual [IsDigitalSigned](../../aspose.imaging/rasterimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

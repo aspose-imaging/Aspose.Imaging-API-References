@@ -3,7 +3,7 @@ title: RasterCachedImage.BinarizeFixed
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Binarization of an image with predefined threshold
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.imaging/rastercachedimage/binarizefixed/
 ---
 ## RasterCachedImage.BinarizeFixed method

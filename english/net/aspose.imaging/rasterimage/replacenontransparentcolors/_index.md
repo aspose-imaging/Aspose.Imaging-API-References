@@ -3,7 +3,7 @@ title: RasterImage.ReplaceNonTransparentColors
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Replaces all nontransparent colors with new color and preserves original alpha value to save smooth edges. Note if you use it on images without transparency all colors will be replaced with a single one
 type: docs
-weight: 500
+weight: 540
 url: /net/aspose.imaging/rasterimage/replacenontransparentcolors/
 ---
 ## ReplaceNonTransparentColors(Color) {#replacenontransparentcolors}

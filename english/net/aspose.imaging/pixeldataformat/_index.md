@@ -3,7 +3,7 @@ title: Class PixelDataFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PixelDataFormat class. The pixel data format. This is an immutable object
 type: docs
-weight: 11140
+weight: 11170
 url: /net/aspose.imaging/pixeldataformat/
 ---
 ## PixelDataFormat class

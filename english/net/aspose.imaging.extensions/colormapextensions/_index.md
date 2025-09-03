@@ -3,7 +3,7 @@ title: Class ColorMapExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.ColorMapExtensions class. The ColorMap extension methods
 type: docs
-weight: 1170
+weight: 1180
 url: /net/aspose.imaging.extensions/colormapextensions/
 ---
 ## ColorMapExtensions class

@@ -3,7 +3,7 @@ title: Class Compression
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.Compression class. Contains the image compression settings
 type: docs
-weight: 2430
+weight: 2440
 url: /net/aspose.imaging.fileformats.dicom/compression/
 ---
 ## Compression class

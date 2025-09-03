@@ -3,7 +3,7 @@ title: Enum CapsTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.CapsTypes enum. Types of caps for the line
 type: docs
-weight: 2040
+weight: 2050
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/capstypes/
 ---
 ## CapsTypes enumeration

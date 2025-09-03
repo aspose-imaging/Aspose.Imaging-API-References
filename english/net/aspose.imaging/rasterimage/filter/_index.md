@@ -3,7 +3,7 @@ title: RasterImage.Filter
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Filters the specified rectangle
 type: docs
-weight: 270
+weight: 300
 url: /net/aspose.imaging/rasterimage/filter/
 ---
 ## RasterImage.Filter method

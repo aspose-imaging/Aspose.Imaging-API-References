@@ -3,7 +3,7 @@ title: Class JpegLoadException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.JpegLoadException class. Represents the JPEG image loading exception
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.imaging.coreexceptions.imageformats/jpegloadexception/
 ---
 ## JpegLoadException class

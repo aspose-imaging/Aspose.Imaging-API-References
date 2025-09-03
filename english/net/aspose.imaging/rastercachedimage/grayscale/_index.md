@@ -3,7 +3,7 @@ title: RasterCachedImage.Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Transformation of an image to its grayscale representation
 type: docs
-weight: 120
+weight: 150
 url: /net/aspose.imaging/rastercachedimage/grayscale/
 ---
 ## RasterCachedImage.Grayscale method

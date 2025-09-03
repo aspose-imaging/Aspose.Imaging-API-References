@@ -3,7 +3,7 @@ title: GaussianDeconvolutionFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The deconvolution filter options using Gaussian blurring.
 type: docs
-weight: 17
+weight: 20
 url: /java/com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/
 ---
 **Inheritance:**

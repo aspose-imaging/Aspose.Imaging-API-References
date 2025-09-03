@@ -3,7 +3,7 @@ title: ImageSaveException
 second_title: Aspose.Imaging for Java API Reference
 description: The image save exception.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.aspose.imaging.coreexceptions/imagesaveexception/
 ---
 **Inheritance:**

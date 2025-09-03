@@ -3,7 +3,7 @@ title: Class TiffBigEndianStreamReader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffBigEndianStreamReader class. The tiff stream for handling big endian tiff file format
 type: docs
-weight: 7860
+weight: 7870
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/
 ---
 ## TiffBigEndianStreamReader class

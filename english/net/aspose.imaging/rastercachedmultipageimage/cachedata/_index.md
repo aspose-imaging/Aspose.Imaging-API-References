@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Caches the data private
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging/rastercachedmultipageimage/cachedata/
 ---
 ## RasterCachedMultipageImage.CacheData method

@@ -3,7 +3,7 @@ title: RasterImage.Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Transformation of an image to its grayscale representation
 type: docs
-weight: 350
+weight: 380
 url: /net/aspose.imaging/rasterimage/grayscale/
 ---
 ## RasterImage.Grayscale method

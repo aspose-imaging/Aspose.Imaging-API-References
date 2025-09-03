@@ -3,7 +3,7 @@ title: RasterImage.LoadRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Loads raw data
 type: docs
-weight: 430
+weight: 470
 url: /net/aspose.imaging/rasterimage/loadrawdata/
 ---
 ## LoadRawData(Rectangle, RawDataSettings, IPartialRawDataLoader) {#loadrawdata}

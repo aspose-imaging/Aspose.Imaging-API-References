@@ -40,6 +40,9 @@ The raster multipage image
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
 | [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | Blends this image instance with the `overlay` image. |
+| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | Embed digital sign based on provided password into each page of the image. |
+| [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | Calculates the percentage similarity between the extracted data and the original password. |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with predefined threshold |
 | [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -347,6 +350,60 @@ Blends this image instance with the `overlay` image.
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | The overlay area. |
 | overlayAlpha | byte | The overlay alpha. |
 
+### embedDigitalSignature(String password) {#embedDigitalSignature-java.lang.String-}
+```
+public void embedDigitalSignature(String password)
+```
+
+
+Embed digital sign based on provided password into each page of the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password used for generate digital sign data |
+
+### analyzePercentageDigitalSignature(String password) {#analyzePercentageDigitalSignature-java.lang.String-}
+```
+public int analyzePercentageDigitalSignature(String password)
+```
+
+
+Calculates the percentage similarity between the extracted data and the original password.
+
+--------------------
+
+Due to multipage images, the result represents the `MIDDLE AVERAGED signing percentage` calculated
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password used to extract the embedded data. |
+
+**Returns:**
+int - The percentage similarity value.
+### isDigitalSigned(String password, int percentageThreshold) {#isDigitalSigned-java.lang.String-int-}
+```
+public boolean isDigitalSigned(String password, int percentageThreshold)
+```
+
+
+Performs a fast check to determine if the image is digitally signed, using the provided password and threshold.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to check the signing. |
+| percentageThreshold | int | The threshold (in percentage)[0-100] that determines if the image is considered signed. If not specified, a default threshold (`75`) will be applied.
+
+--------------------
+
+This method provides the fastest detection by leveraging `GetSignPercentage`. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
+
+The result is `true` only if all pages in the multipage image are recognized as signed; otherwise, the image is considered unsigned. |
+
+**Returns:**
+boolean - True if the image is signed, otherwise false.
 ### binarizeFixed(byte threshold) {#binarizeFixed-byte-}
 ```
 public void binarizeFixed(byte threshold)

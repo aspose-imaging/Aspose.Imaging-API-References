@@ -3,7 +3,7 @@ title: Class PsdImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.PsdImageException class. The psd image exception
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.imaging.coreexceptions.imageformats/psdimageexception/
 ---
 ## PsdImageException class

@@ -3,7 +3,7 @@ title: RasterImage.Blend
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Blends this image instance with the overlay image
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.imaging/rasterimage/blend/
 ---
 ## Blend(Point, RasterImage, Rectangle, byte) {#blend}

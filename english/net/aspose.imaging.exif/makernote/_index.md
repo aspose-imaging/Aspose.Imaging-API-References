@@ -3,7 +3,7 @@ title: Class MakerNote
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.MakerNote class. Represents a single Maker Note record
 type: docs
-weight: 1120
+weight: 1130
 url: /net/aspose.imaging.exif/makernote/
 ---
 ## MakerNote class

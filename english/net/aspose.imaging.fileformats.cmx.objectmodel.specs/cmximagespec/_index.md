@@ -3,7 +3,7 @@ title: Class CmxImageSpec
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs.CmxImageSpec class. Represents info specified for raster images
 type: docs
-weight: 2190
+weight: 2200
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/
 ---
 ## CmxImageSpec class

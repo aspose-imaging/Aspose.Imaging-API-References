@@ -14,6 +14,7 @@ The namespace contains exceptions thrown by any of the core Imaging components.
 | --- | --- |
 | [CompressorException](./compressorexception/) | The compressor exception. |
 | [DataMissmatchError](./datamissmatcherror/) | Data mismatch exception class |
+| [DigitalSignatureException](./digitalsignatureexception/) | Represents errors that occur during steganography operations. |
 | [FrameworkException](./frameworkexception/) | The imaging framework exception. This class is a core class for all Aspose.Imaging exceptions. Introduced to discriminate between the exceptions thrown by the Aspose.Imaging engine and all other exception types. |
 | [ImageCreateException](./imagecreateexception/) | The image create exception. Occurs during image creation. |
 | [ImageException](./imageexception/) | The image exception. |

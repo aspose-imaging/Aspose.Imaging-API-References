@@ -3,7 +3,7 @@ title: RasterImage.LoadPartialPixels
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Loads pixels partially by packs
 type: docs
-weight: 410
+weight: 450
 url: /net/aspose.imaging/rasterimage/loadpartialpixels/
 ---
 ## RasterImage.LoadPartialPixels method

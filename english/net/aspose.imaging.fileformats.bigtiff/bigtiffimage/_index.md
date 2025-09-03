@@ -3,7 +3,7 @@ title: Class BigTiffImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.BigTiff.BigTiffImage class. With the BigTiffImage class you can effortlessly manipulate BigTiff image format files. Our API offering seamless handling and customization options ensuring optimal processing of largescale image data with versatile features tailored to your specific requirements
 type: docs
-weight: 1360
+weight: 1370
 url: /net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 ---
 ## BigTiffImage class
@@ -80,6 +80,8 @@ public sealed class BigTiffImage : TiffImage
 | override [AdjustGamma](../../aspose.imaging.fileformats.tiff/tiffimage/adjustgamma/)(float) | Apply gamma correction to the image, adjusting pixel intensities to achieve desired color balance. Incorporate this method into your image processing workflow to enhance visual quality and improve the accuracy of subsequent analysis or display tasks within your application. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.tiff/tiffimage/adjustgamma/)(float, float, float) | Perform gamma correction on the image using individual coefficients for red, green, and blue channels, allowing for fine-tuned adjustments of color balance and contrast. Integrate this method into your image processing pipeline to achieve precise control over color rendering and enhance visual fidelity within your application. |
 | [AlignResolutions](../../aspose.imaging.fileformats.tiff/tiffimage/alignresolutions/)() | Implement the AlignResolutions helper method to synchronize horizontal and vertical resolutions, ensuring uniformity in image dimensions. This functionality facilitates streamlined image processing workflows by harmonizing resolution parameters, optimizing visual quality and consistency across various platforms and devices. |
+| override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.tiff/tiffimage/binarizebradley/)(double, int) | Implement binarization on the image employing Bradley's adaptive thresholding algorithm with integral image thresholding. This approach dynamically computes local thresholds based on the image's neighborhood, enhancing adaptability to varying lighting conditions and ensuring robust segmentation for subsequent processing tasks within your application. |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.tiff/tiffimage/binarizefixed/)(byte) | Apply binarization to the image using a predefined threshold, converting it into a binary image with distinct foreground and background regions. Incorporate this method into your image processing workflow to facilitate segmentation and feature extraction tasks, enhancing the accuracy and efficiency of image analysis within your application. |
@@ -93,6 +95,7 @@ public sealed class BigTiffImage : TiffImage
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/)(DitheringMethod, int) | Performs dithering on the current image. |
 | override [Dither](../../aspose.imaging.fileformats.tiff/tiffimage/dither/)(DitheringMethod, int, IColorPalette) | Execute dithering on the current image to enhance its visual quality and reduce color banding artifacts. Integrate this method into your image processing workflow to ensure smoother transitions between colors, resulting in improved overall image appearance and clarity. |
+| override [EmbedDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into each page of the image. |
 | override [Filter](../../aspose.imaging.fileformats.tiff/tiffimage/filter/)(Rectangle, FilterOptionsBase) | Filter the content within the specified rectangle, applying a designated image processing filter to enhance or modify the selected region. Integrate this method into your image manipulation workflow to achieve targeted enhancements or transformations within your application. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel/)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels/)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
@@ -107,6 +110,7 @@ public sealed class BigTiffImage : TiffImage
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle/)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging.fileformats.tiff/tiffimage/grayscale/)() | Convert the image to its grayscale representation, transforming it into a single-channel image where each pixel represents intensity. Integrate this method into your image processing pipeline to simplify analysis and enhance compatibility with grayscale-based algorithms, facilitating various computer vision and image analysis tasks within your application. |
 | [InsertFrame](../../aspose.imaging.fileformats.tiff/tiffimage/insertframe/)(int, TiffFrame) | Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. Employ this method to manage frame sequences effectively, facilitating dynamic manipulation and organization of image content within your application. |
+| override [IsDigitalSigned](../../aspose.imaging/rastercachedmultipageimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

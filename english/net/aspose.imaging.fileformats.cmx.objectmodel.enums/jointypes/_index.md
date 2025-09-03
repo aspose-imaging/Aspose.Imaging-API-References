@@ -3,7 +3,7 @@ title: Enum JoinTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.JoinTypes enum. Connection types between lines
 type: docs
-weight: 2090
+weight: 2100
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/jointypes/
 ---
 ## JoinTypes enumeration

@@ -3,7 +3,7 @@ title: Class ImageAttributesExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Extensions.ImageAttributesExtensions class. Contains extension methods for ImageAttributes and ImageAttributes
 type: docs
-weight: 1220
+weight: 1230
 url: /net/aspose.imaging.extensions/imageattributesextensions/
 ---
 ## ImageAttributesExtensions class

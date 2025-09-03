@@ -3,7 +3,7 @@ title: LimitMemoryException
 second_title: Aspose.Imaging for Java API Reference
 description: The limit memory exception.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.aspose.imaging.coreexceptions/limitmemoryexception/
 ---
 **Inheritance:**

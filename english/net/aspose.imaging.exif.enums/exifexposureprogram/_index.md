@@ -3,7 +3,7 @@ title: Enum ExifExposureProgram
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifExposureProgram enum. exif exposure program enum
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.imaging.exif.enums/exifexposureprogram/
 ---
 ## ExifExposureProgram enumeration

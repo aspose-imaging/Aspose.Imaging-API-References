@@ -3,7 +3,7 @@ title: Class DicomImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.DicomImage class. This Class implements Digital Imaging and Communications in Medicine DICOM raster image format support and offers a comprehensive solution for processing DICOM images with precision and flexibility. You can seamlessly manipulate image pages including operations to get add or remove pages and control the default and active pages. With capabilities to work with alpha channels embed XMP metadata resize rotate crop binarize adjust apply filters and convert to other raster formats. This API empowers developers to handle DICOM images effectively while meeting diverse application requirements in medical imaging contexts
 type: docs
-weight: 2450
+weight: 2460
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/
 ---
 ## DicomImage class
@@ -78,6 +78,8 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [AdjustContrast](../../aspose.imaging.fileformats.dicom/dicomimage/adjustcontrast/)(float) | Enhance [`Image`](../../aspose.imaging/image/) contrast with this user-friendly method, which adjusts the disparity between light and dark areas. Improve visual clarity and definition effortlessly, providing developers with intuitive control over image contrast for optimal rendering. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.dicom/dicomimage/adjustgamma/#adjustgamma)(float) | Enhance image quality and adjust it with gamma correction, a powerful technique for fine-tuning visual appearance. Perfect for developers aiming to optimize image presentation, adjust color balance, and ensure consistent rendering across different devices and environments. |
 | override [AdjustGamma](../../aspose.imaging.fileformats.dicom/dicomimage/adjustgamma/#adjustgamma_1)(float, float, float) | Achieve precise color adjustments by applying gamma correction independently to the red, green, and blue components of an image. This method ensures accurate color balance and optimal visual output, catering to developers seeking granular control over image rendering and color accuracy. |
+| override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.dicom/dicomimage/binarizebradley/#binarizebradley_1)(double, int) | Binarize images with Bradley's adaptive thresholding algorithm, leveraging integral image thresholding for improved performance. Ideal for developers looking to automatically segment images based on local variations in brightness, ensuring accurate object detection and extraction in varying lighting conditions. |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.dicom/dicomimage/binarizefixed/)(byte) | Easily convert the image into a binary format using a predefined threshold with this straightforward method. Ideal for developers looking to simplify image processing tasks by segmenting the image into foreground and background components based on specified intensity levels. |
@@ -91,6 +93,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
 | [Dither](../../aspose.imaging/rasterimage/dither/)(DitheringMethod, int) | Performs dithering on the current image. |
 | override [Dither](../../aspose.imaging.fileformats.dicom/dicomimage/dither/#dither_1)(DitheringMethod, int, IColorPalette) | Enhance the current image by applying dithering effects with this straightforward method. Perfect for developers aiming to add texture and depth to images, improving their visual quality and overall appeal. |
+| override [EmbedDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/embeddigitalsignature/)(string) | Embed digital sign based on provided password into each page of the image. |
 | override [Filter](../../aspose.imaging.fileformats.dicom/dicomimage/filter/)(Rectangle, FilterOptionsBase) | Effortlessly enhance specific areas of your image by applying filters to designated rectangles. This method provides developers with precise control over image manipulation, allowing for targeted adjustments to achieve desired visual effects with ease. |
 | [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel/)(int, int) | Gets an image 32-bit ARGB pixel. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels/)(Rectangle) | Gets the default 32-bit ARGB pixels array. |
@@ -105,6 +108,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle/)() | Gets the skew angle. This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | override [Grayscale](../../aspose.imaging.fileformats.dicom/dicomimage/grayscale/)() | Easily transform images into their grayscale representation, simplifying visual analysis and processing tasks. Perfect for developers seeking to enhance image clarity, reduce complexity, and facilitate efficient grayscale-based algorithms for diverse applications. |
 | [InsertPage](../../aspose.imaging.fileformats.dicom/dicomimage/insertpage/)(int) | Insert a new page into the image's page list at a specified index with this intuitive method. Ideal for developers seeking precise control over the arrangement of pages in multi-page images, ensuring seamless organization and customization of image content. |
+| override [IsDigitalSigned](../../aspose.imaging/rastercachedmultipageimage/isdigitalsigned/)(string, int) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels/)(Rectangle) | Loads 32-bit ARGB pixels. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels/)(Rectangle) | Loads 64-bit ARGB pixels. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels/)(Rectangle) | Loads pixels in CMYK format. |

@@ -96,8 +96,13 @@ Represents a raster image supporting raster graphics operations.
 | [blend(Point origin, RasterImage overlay, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-) | Blends this image instance with the `overlay`. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
 | [normalizeHistogram()](#normalizeHistogram--) | Normalizes the image histogram \\u2014 adjust pixel values to use all available range. |
+| [autoBrightnessContrast()](#autoBrightnessContrast--) | Automatic adaptive brightness and contrast normalization for the entire image. |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a brightness for image. |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | Image contrasting |
+| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | Embed digital sign based on provided password into the image using steganography. |
+| [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | Calculates the percentage similarity between the extracted data and the original password. |
+| [isDigitalSigned(String password)](#isDigitalSigned-java.lang.String-) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
 | [getSkewAngle()](#getSkewAngle--) | Gets the skew angle. |
@@ -1963,6 +1968,14 @@ public void normalizeHistogram()
 
 Normalizes the image histogram \\u2014 adjust pixel values to use all available range.
 
+### autoBrightnessContrast() {#autoBrightnessContrast--}
+```
+public void autoBrightnessContrast()
+```
+
+
+Automatic adaptive brightness and contrast normalization for the entire image.
+
 ### adjustBrightness(int brightness) {#adjustBrightness-int-}
 ```
 public void adjustBrightness(int brightness)
@@ -2025,6 +2038,73 @@ try {
 }
 ```
 
+### embedDigitalSignature(String password) {#embedDigitalSignature-java.lang.String-}
+```
+public void embedDigitalSignature(String password)
+```
+
+
+Embed digital sign based on provided password into the image using steganography.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password used for generate digital sign data |
+
+### analyzePercentageDigitalSignature(String password) {#analyzePercentageDigitalSignature-java.lang.String-}
+```
+public int analyzePercentageDigitalSignature(String password)
+```
+
+
+Calculates the percentage similarity between the extracted data and the original password.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password used to extract the embedded data. |
+
+**Returns:**
+int - The percentage similarity value.
+### isDigitalSigned(String password) {#isDigitalSigned-java.lang.String-}
+```
+public boolean isDigitalSigned(String password)
+```
+
+
+Performs a fast check to determine if the image is digitally signed, using the provided password and threshold.
+
+--------------------
+
+This method provides the fastest detection by leveraging `GetSignPercentage`. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to check the signing. |
+
+**Returns:**
+boolean - True if the image is signed, otherwise false.
+### isDigitalSigned(String password, int percentageThreshold) {#isDigitalSigned-java.lang.String-int-}
+```
+public boolean isDigitalSigned(String password, int percentageThreshold)
+```
+
+
+Performs a fast check to determine if the image is digitally signed, using the provided password and threshold.
+
+--------------------
+
+This method provides the fastest detection by leveraging `GetSignPercentage`. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to check the signing. |
+| percentageThreshold | int | The threshold (in percentage)[0-100] that determines if the image is considered signed. If not specified, a default threshold (`75`) will be applied. |
+
+**Returns:**
+boolean - True if the image is signed, otherwise false.
 ### adjustGamma(float gammaRed, float gammaGreen, float gammaBlue) {#adjustGamma-float-float-float-}
 ```
 public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)

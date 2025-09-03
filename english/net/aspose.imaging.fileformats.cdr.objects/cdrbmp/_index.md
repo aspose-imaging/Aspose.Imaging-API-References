@@ -3,7 +3,7 @@ title: Class CdrBmp
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrBmp class. he cdr bmp
 type: docs
-weight: 1540
+weight: 1550
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrbmp/
 ---
 ## CdrBmp class

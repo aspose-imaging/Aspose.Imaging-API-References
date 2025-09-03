@@ -3,7 +3,7 @@ title: Class WmfDeleteObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject class. The Delete object
 type: docs
-weight: 8700
+weight: 8710
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfdeleteobject/
 ---
 ## WmfDeleteObject class

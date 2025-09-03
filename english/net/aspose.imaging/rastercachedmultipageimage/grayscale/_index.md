@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Transformation of an image to its grayscale representation
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.imaging/rastercachedmultipageimage/grayscale/
 ---
 ## RasterCachedMultipageImage.Grayscale method

@@ -3,7 +3,7 @@ title: Class LimitMemoryException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.LimitMemoryException class. The limit memory exception. Occurs when memory usage should be reduced
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.imaging.coreexceptions/limitmemoryexception/
 ---
 ## LimitMemoryException class

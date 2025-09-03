@@ -3,7 +3,7 @@ title: RasterCachedImage.NormalizeHistogram
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedImage method. Normalizes the image histogram  adjust pixel values to use all available range
 type: docs
-weight: 130
+weight: 170
 url: /net/aspose.imaging/rastercachedimage/normalizehistogram/
 ---
 ## RasterCachedImage.NormalizeHistogram method

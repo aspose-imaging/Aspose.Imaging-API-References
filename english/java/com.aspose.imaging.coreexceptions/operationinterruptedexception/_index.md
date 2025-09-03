@@ -3,7 +3,7 @@ title: OperationInterruptedException
 second_title: Aspose.Imaging for Java API Reference
 description: Occurs when an operation is interrupted.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.aspose.imaging.coreexceptions/operationinterruptedexception/
 ---
 **Inheritance:**

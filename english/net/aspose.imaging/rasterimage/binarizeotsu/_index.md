@@ -3,7 +3,7 @@ title: RasterImage.BinarizeOtsu
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Binarization of an image with Otsu thresholding
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.imaging/rasterimage/binarizeotsu/
 ---
 ## RasterImage.BinarizeOtsu method

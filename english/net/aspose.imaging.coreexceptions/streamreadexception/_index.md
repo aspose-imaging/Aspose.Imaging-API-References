@@ -3,7 +3,7 @@ title: Class StreamReadException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.StreamReadException class. The stream reading exception. Caused when stream reading failed due to incorrect offset and bytes count request
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.imaging.coreexceptions/streamreadexception/
 ---
 ## StreamReadException class

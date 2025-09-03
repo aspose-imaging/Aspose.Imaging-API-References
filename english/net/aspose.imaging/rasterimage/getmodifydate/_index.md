@@ -3,7 +3,7 @@ title: RasterImage.GetModifyDate
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Gets the date and time the resource image was last modified
 type: docs
-weight: 320
+weight: 350
 url: /net/aspose.imaging/rasterimage/getmodifydate/
 ---
 ## RasterImage.GetModifyDate method

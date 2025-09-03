@@ -3,7 +3,7 @@ title: FrameworkException
 second_title: Aspose.Imaging for Java API Reference
 description: The imaging framework exception.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.aspose.imaging.coreexceptions/frameworkexception/
 ---
 **Inheritance:**

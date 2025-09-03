@@ -3,7 +3,7 @@ title: Enum ExifMeteringMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Exif.Enums.ExifMeteringMode enum. exif metering mode enum
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.imaging.exif.enums/exifmeteringmode/
 ---
 ## ExifMeteringMode enumeration

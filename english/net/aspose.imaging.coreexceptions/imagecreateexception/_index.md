@@ -3,7 +3,7 @@ title: Class ImageCreateException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageCreateException class. The image create exception. Occurs during image creation
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.imaging.coreexceptions/imagecreateexception/
 ---
 ## ImageCreateException class

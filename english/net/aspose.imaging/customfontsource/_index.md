@@ -3,7 +3,7 @@ title: Delegate CustomFontSource
 second_title: Aspose.Imaging for .NET API Reference
 description: Custom font source provider function
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.imaging/customfontsource/
 ---
 ## CustomFontSource delegate

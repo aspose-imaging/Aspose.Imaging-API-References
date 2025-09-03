@@ -3,7 +3,7 @@ title: Class CdrPpdt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Objects.CdrPpdt class. The cdr knot vector object
 type: docs
-weight: 1770
+weight: 1780
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrppdt/
 ---
 ## CdrPpdt class

@@ -3,7 +3,7 @@ title: Class GifImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.GifImageException class. The Gif image exception
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.imaging.coreexceptions.imageformats/gifimageexception/
 ---
 ## GifImageException class

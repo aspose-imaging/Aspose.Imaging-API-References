@@ -3,7 +3,7 @@ title: Class EmfPlusResetWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetWorldTransform class. The EmfPlusResetWorldTransform record resets the current world space transform to the identify matrix
 type: docs
-weight: 6290
+weight: 6300
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform/
 ---
 ## EmfPlusResetWorldTransform class

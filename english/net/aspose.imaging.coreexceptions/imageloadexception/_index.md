@@ -3,7 +3,7 @@ title: Class ImageLoadException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageLoadException class. The image load exception. Occurs during image loading
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.imaging.coreexceptions/imageloadexception/
 ---
 ## ImageLoadException class

@@ -3,7 +3,7 @@ title: Class ImageSaveException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageSaveException class. The image save exception. Occurs during image saving
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.imaging.coreexceptions/imagesaveexception/
 ---
 ## ImageSaveException class

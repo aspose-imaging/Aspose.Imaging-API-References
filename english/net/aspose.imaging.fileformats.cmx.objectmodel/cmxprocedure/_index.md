@@ -3,7 +3,7 @@ title: Class CmxProcedure
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.CmxProcedure class. The CMX procedure
 type: docs
-weight: 2030
+weight: 2040
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/
 ---
 ## CmxProcedure class

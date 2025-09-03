@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Rotates flips or rotates and flips all pages
 type: docs
-weight: 340
+weight: 370
 url: /net/aspose.imaging/rastercachedmultipageimage/rotateflip/
 ---
 ## RasterCachedMultipageImage.RotateFlip method

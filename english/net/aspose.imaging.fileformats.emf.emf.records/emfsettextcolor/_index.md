@@ -3,7 +3,7 @@ title: Class EmfSetTextColor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetTextColor class. The EMR_SETTEXTCOLOR record defines the current text color
 type: docs
-weight: 4570
+weight: 4580
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 ---
 ## EmfSetTextColor class

@@ -3,7 +3,7 @@ title: Class XmpException
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.XmpException class. The exception that is thrown when XMP has invalid structure
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.imaging.coreexceptions/xmpexception/
 ---
 ## XmpException class

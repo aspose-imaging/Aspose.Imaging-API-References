@@ -3,7 +3,7 @@ title: Enum JpegLoadException.ErrorReason
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CoreExceptions.ImageFormats.JpegLoadExceptionErrorReason enum. Represents the reasons of error
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.imaging.coreexceptions.imageformats/jpegloadexception.errorreason/
 ---
 ## JpegLoadException.ErrorReason enumeration

@@ -3,7 +3,7 @@ title: Class XmpPacketWrapper
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpPacketWrapper class. Contains serialized xmp package including header and trailer
 type: docs
-weight: 12300
+weight: 12330
 url: /net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 ## XmpPacketWrapper class

@@ -3,7 +3,7 @@ title: ConvolutionFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The convolution filter options.
 type: docs
-weight: 12
+weight: 15
 url: /java/com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Enum OdTextAlignModeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Enums.OdTextAlignModeFlags enum. The open document text align mode flags
 type: docs
-weight: 6940
+weight: 6950
 url: /net/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/
 ---
 ## OdTextAlignModeFlags enumeration

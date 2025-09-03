@@ -3,7 +3,7 @@ title: Enum ResolutionUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ResolutionUnit enum. Resolution unit enum
 type: docs
-weight: 11320
+weight: 11350
 url: /net/aspose.imaging/resolutionunit/
 ---
 ## ResolutionUnit enumeration

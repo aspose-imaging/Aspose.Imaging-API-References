@@ -3,7 +3,7 @@ title: StreamReadException
 second_title: Aspose.Imaging for Java API Reference
 description: The stream reading exception.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.aspose.imaging.coreexceptions/streamreadexception/
 ---
 **Inheritance:**

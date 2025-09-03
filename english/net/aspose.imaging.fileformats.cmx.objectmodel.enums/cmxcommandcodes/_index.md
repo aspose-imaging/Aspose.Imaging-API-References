@@ -3,7 +3,7 @@ title: Enum CmxCommandCodes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums.CmxCommandCodes enum. Page command codes
 type: docs
-weight: 2050
+weight: 2060
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/cmxcommandcodes/
 ---
 ## CmxCommandCodes enumeration

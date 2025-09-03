@@ -3,7 +3,7 @@ title: Struct PointD
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Cdr.Types.PointD struct. The point double
 type: docs
-weight: 1930
+weight: 1940
 url: /net/aspose.imaging.fileformats.cdr.types/pointd/
 ---
 ## PointD structure

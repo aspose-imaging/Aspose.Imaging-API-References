@@ -3,7 +3,7 @@ title: Class SharpenFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions class. The sharpen filter options
 type: docs
-weight: 9990
+weight: 10020
 url: /net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions class

@@ -3,7 +3,7 @@ title: Class CustomLineCap
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.CustomLineCap class. Encapsulates a custom userdefined line cap
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.imaging/customlinecap/
 ---
 ## CustomLineCap class

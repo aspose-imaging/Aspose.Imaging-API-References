@@ -3,7 +3,7 @@ title: Enum EmfFloodFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfFloodFill enum. The FloodFill enumeration defines values that specify how to determine the area for a flood fill operation
 type: docs
-weight: 2690
+weight: 2700
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emffloodfill/
 ---
 ## EmfFloodFill enumeration

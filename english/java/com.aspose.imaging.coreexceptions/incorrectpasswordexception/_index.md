@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: Aspose.Imaging for Java API Reference
 description: The incorrect password exception.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.imaging.coreexceptions/incorrectpasswordexception/
 ---
 **Inheritance:**

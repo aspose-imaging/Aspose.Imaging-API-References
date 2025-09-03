@@ -3,7 +3,7 @@ title: RasterImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Rotate image around the center
 type: docs
-weight: 520
+weight: 560
 url: /net/aspose.imaging/rasterimage/rotate/
 ---
 ## Rotate(float, bool, Color) {#rotate_1}
