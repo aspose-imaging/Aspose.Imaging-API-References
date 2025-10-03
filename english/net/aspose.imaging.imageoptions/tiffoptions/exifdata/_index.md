@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/exifdata/
 Gets or sets Exif data.
 
 ```csharp
-public ExifData ExifData { get; set; }
+public override ExifData ExifData { get; set; }
 ```
 
 ### See Also

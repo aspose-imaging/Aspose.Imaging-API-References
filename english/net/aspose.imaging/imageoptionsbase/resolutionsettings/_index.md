@@ -3,7 +3,7 @@ title: ImageOptionsBase.ResolutionSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. Gets or sets the resolution settings
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/imageoptionsbase/resolutionsettings/
 ---
 ## ImageOptionsBase.ResolutionSettings property

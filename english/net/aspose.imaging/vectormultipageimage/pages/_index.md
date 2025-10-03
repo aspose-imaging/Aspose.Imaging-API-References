@@ -3,7 +3,7 @@ title: VectorMultipageImage.Pages
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage property. Gets the pages
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging/vectormultipageimage/pages/
 ---
 ## VectorMultipageImage.Pages property

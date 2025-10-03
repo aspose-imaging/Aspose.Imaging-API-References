@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.xmp/xmppacketwrapper/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue)
+[com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue), [com.aspose.imaging.metadata.IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)
 ```
-public class XmpPacketWrapper implements IXmlValue
+public class XmpPacketWrapper implements IXmlValue, IImageMetadataFormat
 ```
 
 Contains serialized xmp package including header and trailer.

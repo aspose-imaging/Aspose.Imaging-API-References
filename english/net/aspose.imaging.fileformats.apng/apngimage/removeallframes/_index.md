@@ -3,7 +3,7 @@ title: ApngImage.RemoveAllFrames
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Clear your frame collection by removing all frames with this intuitive method. Ideal for developers seeking to reset or refresh their animations
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.imaging.fileformats.apng/apngimage/removeallframes/
 ---
 ## ApngImage.RemoveAllFrames method

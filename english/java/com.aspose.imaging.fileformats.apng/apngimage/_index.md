@@ -26,8 +26,6 @@ The API for Animated PNG (Animated Portable Network Graphics) image file format 
 | Method | Description |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | Quickly access information about the file format with this convenient property. |
-| [getXmpData()](#getXmpData--) | Effortlessly manage XMP metadata associated with your files using this versatile property. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Effortlessly manage XMP metadata associated with your files using this versatile property. |
 | [getPageCount()](#getPageCount--) | Retrieve the total number of pages in your image file effortlessly with this property. |
 | [getPages()](#getPages--) | Effortlessly access the pages of your image with this convenient property. |
 | [getNumPlays()](#getNumPlays--) | Effortlessly control the number of times your animation loops with this versatile property. |
@@ -112,33 +110,6 @@ Quickly access information about the file format with this convenient property. 
 
 **Returns:**
 long
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease.
-
-Value: The XMP metadata.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper)
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease.
-
-Value: The XMP metadata.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
-
 ### getPageCount() {#getPageCount--}
 ```
 public int getPageCount()

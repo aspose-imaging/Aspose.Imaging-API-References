@@ -3,7 +3,7 @@ title: Image.ResizeWidthProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Resizes the width proportionally. The default NearestNeighbourResample is used
 type: docs
-weight: 250
+weight: 280
 url: /net/aspose.imaging/image/resizewidthproportionally/
 ---
 ## ResizeWidthProportionally(int) {#resizewidthproportionally}

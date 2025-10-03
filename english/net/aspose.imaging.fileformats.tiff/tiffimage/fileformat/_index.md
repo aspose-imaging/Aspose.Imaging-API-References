@@ -3,7 +3,7 @@ title: TiffImage.FileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Retrieve the file format value associated with the image. This property serves as a critical aspect of image metadata retrieval allowing software applications to identify and interpret the format of the image data efficiently
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/fileformat/
 ---
 ## TiffImage.FileFormat property

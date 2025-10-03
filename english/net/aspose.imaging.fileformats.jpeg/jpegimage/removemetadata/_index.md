@@ -3,7 +3,7 @@ title: JpegImage.RemoveMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegImage method. Removes this image instance metadata by setting this XmpData and ExifData values to null
 type: docs
-weight: 220
+weight: 200
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/removemetadata/
 ---
 ## JpegImage.RemoveMetadata method

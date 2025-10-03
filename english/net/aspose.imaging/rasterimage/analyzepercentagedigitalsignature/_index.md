@@ -3,7 +3,7 @@ title: RasterImage.AnalyzePercentageDigitalSignature
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Calculates the percentage similarity between the extracted data and the original password
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.imaging/rasterimage/analyzepercentagedigitalsignature/
 ---
 ## RasterImage.AnalyzePercentageDigitalSignature method

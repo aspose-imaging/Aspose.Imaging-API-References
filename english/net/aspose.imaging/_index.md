@@ -102,6 +102,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [IImageLoader](./iimageloader/) | The image loader. |
 | [IImageLoaderDescriptor](./iimageloaderdescriptor/) | The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome the necessity to contain each image loader instance in memory and multithreading issues. |
 | [IIndexedColorConverter](./iindexedcolorconverter/) | The color converter for indexed image formats. |
+| [IMetadataContainer](./imetadatacontainer/) | Image metadata container interface. |
 | [IMultipageImage](./imultipageimage/) | The multipage image interface |
 | [IMultipageImageExt](./imultipageimageext/) | The extended multipage image interface |
 | [IObjectWithBounds](./iobjectwithbounds/) | Represents an object with bounds. |

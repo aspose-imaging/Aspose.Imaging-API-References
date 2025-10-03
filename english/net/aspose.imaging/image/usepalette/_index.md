@@ -3,7 +3,7 @@ title: Image.UsePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Image property. Gets a value indicating whether the image palette is used
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.imaging/image/usepalette/
 ---
 ## Image.UsePalette property

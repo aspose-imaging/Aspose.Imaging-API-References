@@ -3,7 +3,7 @@ title: TiffImage.AddFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Incorporate the specified frame seamlessly into the image expanding its content and versatility. Utilize this method to enhance image composition and management empowering efficient handling of multiframe images within your application
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/addframe/
 ---
 ## TiffImage.AddFrame method

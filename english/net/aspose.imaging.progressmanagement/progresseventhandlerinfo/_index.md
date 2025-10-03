@@ -3,7 +3,7 @@ title: Class ProgressEventHandlerInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ProgressManagement.ProgressEventHandlerInfo class. This class represents information about image load/save/export operations progress that can be used in external application to show conversion progress to end user
 type: docs
-weight: 11240
+weight: 11270
 url: /net/aspose.imaging.progressmanagement/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class

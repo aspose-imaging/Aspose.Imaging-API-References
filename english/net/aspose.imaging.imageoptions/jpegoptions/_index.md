@@ -3,7 +3,7 @@ title: Class JpegOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.JpegOptions class. Create highquality JPEG images effortlessly with our API offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types near lossless coding RGB and CMYK color profiles as well as EXIF JFIF image data and XMP containers ensuring versatile and customizable options for your image creation needs
 type: docs
-weight: 10290
+weight: 10300
 url: /net/aspose.imaging.imageoptions/jpegoptions/
 ---
 ## JpegOptions class
@@ -33,6 +33,7 @@ public class JpegOptions : ImageOptionsBase, IHasJpegExifData
 | [CompressionType](../../aspose.imaging.imageoptions/jpegoptions/compressiontype/) { get; set; } | Gets or sets the compression type. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [ExifData](../../aspose.imaging.imageoptions/jpegoptions/exifdata/) { get; set; } | Get or set Exif data container. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [HorizontalSampling](../../aspose.imaging.imageoptions/jpegoptions/horizontalsampling/) { get; set; } | Gets or sets the horizontal subsamplings for each component. |
 | [Jfif](../../aspose.imaging.imageoptions/jpegoptions/jfif/) { get; set; } | Gets or sets the jfif. |
@@ -62,6 +63,7 @@ public class JpegOptions : ImageOptionsBase, IHasJpegExifData
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

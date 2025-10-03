@@ -3,7 +3,7 @@ title: Class AutoWhiteBalanceFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.AutoWhiteBalanceFilterOptions class. Provides configuration options for the Auto White Balance filter. Allows tuning of contrast stretching parameters and channel scaling to improve the appearance of digital images
 type: docs
-weight: 9900
+weight: 9910
 url: /net/aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions/
 ---
 ## AutoWhiteBalanceFilterOptions class

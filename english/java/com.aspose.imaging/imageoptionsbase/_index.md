@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging/imageoptionsbase/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.xmp.IHasXmpData](../../com.aspose.imaging.xmp/ihasxmpdata)
+[com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
 ```
-public abstract class ImageOptionsBase extends DisposableObject implements IHasXmpData
+public abstract class ImageOptionsBase extends DisposableObject implements IMetadataContainer
 ```
 
 The image base options.
@@ -24,6 +24,8 @@ The image base options.
 | [setKeepMetadata(boolean value)](#setKeepMetadata-boolean-) | A value whether to keep original image metadata on export. |
 | [getXmpData()](#getXmpData--) | Gets the XMP metadata container. |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata container. |
+| [getExifData()](#getExifData--) | Gets the Exif data. |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets the Exif data. |
 | [getSource()](#getSource--) | Gets the source to create image in. |
 | [setSource(Source value)](#setSource-com.aspose.imaging.Source-) | Gets or sets the source to create image in. |
 | [getPalette()](#getPalette--) | Gets the color palette. |
@@ -41,6 +43,7 @@ The image base options.
 | [getProgressEventHandler()](#getProgressEventHandler--) | Gets the progress event handler. |
 | [setProgressEventHandler(ProgressEventHandler value)](#setProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | Sets the progress event handler. |
 | [deepClone()](#deepClone--) | Clones this instance. |
+| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | Tries to set a `metadata` instance, if this [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) instance. |
 ### isKeepMetadata() {#isKeepMetadata--}
 ```
 public final boolean isKeepMetadata()
@@ -90,6 +93,29 @@ Value: The XMP data container.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the XMP metadata container. |
+
+### getExifData() {#getExifData--}
+```
+public ExifData getExifData()
+```
+
+
+Gets the Exif data.
+
+**Returns:**
+[ExifData](../../com.aspose.imaging.exif/exifdata) - the Exif data.
+### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
+```
+public void setExifData(ExifData value)
+```
+
+
+Sets the Exif data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ExifData](../../com.aspose.imaging.exif/exifdata) | the Exif data. |
 
 ### getSource() {#getSource--}
 ```
@@ -434,3 +460,18 @@ Clones this instance.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Returns shallow copy of this instance
+### trySetMetadata(IImageMetadataFormat metadata) {#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-}
+```
+public final boolean trySetMetadata(IImageMetadataFormat metadata)
+```
+
+
+Tries to set a `metadata` instance, if this [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| metadata | [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) | The metadata. |
+
+**Returns:**
+boolean - True, if the [IMetadataContainer](../../com.aspose.imaging/imetadatacontainer) instance supports and/or implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) instance; otherwise, false.

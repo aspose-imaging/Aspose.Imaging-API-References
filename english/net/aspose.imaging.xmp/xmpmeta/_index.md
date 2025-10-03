@@ -3,7 +3,7 @@ title: Class XmpMeta
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpMeta class. Represents xmpmeta. Optional. The purpose of this element is to identify XMP metadata within general XML text that might contain other nonXMP uses of RDF
 type: docs
-weight: 12300
+weight: 12330
 url: /net/aspose.imaging.xmp/xmpmeta/
 ---
 ## XmpMeta class

@@ -31,8 +31,6 @@ Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the 
 | [isCached()](#isCached--) | Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieves the bits per pixel count of the image. |
 | [getFileFormat()](#getFileFormat--) | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. |
-| [getXmpData()](#getXmpData--) | Gets XMP data. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP data. |
 | [cacheData()](#cacheData--) | Cache the data and guarantee that there will be no further loading of data from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image to fit the specified dimensions while preserving its aspect ratio. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
@@ -204,29 +202,6 @@ Retrieves the file format of the image, providing essential metadata for process
 
 **Returns:**
 long - file format
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets XMP data.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - XMP data.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets XMP data.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP data. |
-
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()

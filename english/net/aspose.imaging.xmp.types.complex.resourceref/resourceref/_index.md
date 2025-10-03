@@ -3,7 +3,7 @@ title: Class ResourceRef
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.ResourceRef.ResourceRef class. Used to indicate prior versions originals of renditions originals for derived documents and so on
 type: docs
-weight: 12120
+weight: 12150
 url: /net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 ---
 ## ResourceRef class

@@ -3,7 +3,7 @@ title: Class Html5CanvasOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.Html5CanvasOptions class. Create HTML5 Canvas files effortlessly with our API allowing you to seamlessly combine elements like forms text images animations and links. Benefit from robust features including tag identifier and encoding settings support ensuring optimal performance and customization for your web projects
 type: docs
-weight: 10260
+weight: 10270
 url: /net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 ## Html5CanvasOptions class
@@ -28,6 +28,7 @@ public class Html5CanvasOptions : ImageOptionsBase
 | [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid/) { get; set; } | Gets or sets the canvas tag identifier. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding/) { get; set; } | Gets or sets the encoding. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [FullHtmlPage](../../aspose.imaging.imageoptions/html5canvasoptions/fullhtmlpage/) { get; set; } | Gets or sets a value indicating whether the full HTML page should be generated. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
@@ -45,6 +46,7 @@ public class Html5CanvasOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

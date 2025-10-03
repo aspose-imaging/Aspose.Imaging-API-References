@@ -32,6 +32,7 @@ The Vector multipage image
 | [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
+| [getMetadata()](#getMetadata--) | Gets the image metadata. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
@@ -135,6 +136,16 @@ Value: The page exporting action.
 | --- | --- | --- |
 | value | [PageExportingAction](../../com.aspose.imaging/pageexportingaction) | the page exporting action. |
 
+### getMetadata() {#getMetadata--}
+```
+public ImageMetadata getMetadata()
+```
+
+
+Gets the image metadata.
+
+**Returns:**
+[ImageMetadata](../../com.aspose.imaging.metadata/imagemetadata) - the image metadata.
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()

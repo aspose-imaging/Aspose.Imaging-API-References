@@ -3,7 +3,7 @@ title: ApngImage.Filter
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Effortlessly apply filters to the specified rectangle of the image with this intuitive method. Perfect for developers seeking to enhance or modify specific areas
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.imaging.fileformats.apng/apngimage/filter/
 ---
 ## ApngImage.Filter method

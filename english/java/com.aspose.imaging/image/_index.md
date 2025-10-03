@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging/image/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IObjectWithBounds](../../com.aspose.imaging/iobjectwithbounds), com.aspose.internal.progressmanagement.IProgressInformer, com.aspose.internal.progressmanagement.IProgressEventHandler
+[com.aspose.imaging.IObjectWithBounds](../../com.aspose.imaging/iobjectwithbounds), com.aspose.internal.progressmanagement.IProgressInformer, com.aspose.internal.progressmanagement.IProgressEventHandler, [com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
 ```
-public abstract class Image extends DataStreamSupporter implements IObjectWithBounds, IProgressInformer, IProgressEventHandler
+public abstract class Image extends DataStreamSupporter implements IObjectWithBounds, IProgressInformer, IProgressEventHandler, IMetadataContainer
 ```
 
 The image is the base class for all type of images.
@@ -25,6 +25,7 @@ The image is the base class for all type of images.
 | [canLoad(InputStream stream)](#canLoad-java.io.InputStream-) | Determines whether image can be loaded from the specified stream. |
 | [canLoad(InputStream stream, LoadOptions loadOptions)](#canLoad-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Determines whether image can be loaded from the specified stream and optionally using the specified `loadOptions`. |
 | [create(ImageOptionsBase imageOptions, int width, int height)](#create-com.aspose.imaging.ImageOptionsBase-int-int-) | Creates a new image using the specified create options. |
+| [create(ImageOptionsBase imageOptions, int width, int height, int[] pixels)](#create-com.aspose.imaging.ImageOptionsBase-int-int-int---) | Creates a [RasterImage](../../com.aspose.imaging/rasterimage) instance from the provided pixel array. |
 | [create(Image[] images)](#create-com.aspose.imaging.Image---) | Creates a new image using the specified images as pages |
 | [create(MultipageCreateOptions multipageCreateOptions)](#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-) | Creates the specified multipage create options. |
 | [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | Creates the multipage image containing the specified files. |
@@ -43,6 +44,7 @@ The image is the base class for all type of images.
 | [getProportionalWidth(int width, int height, int newHeight)](#getProportionalWidth-int-int-int-) | Gets a proportional width. |
 | [getProportionalHeight(int width, int height, int newWidth)](#getProportionalHeight-int-int-int-) | Gets a proportional height. |
 | [removeMetadata()](#removeMetadata--) | Removes metadata. |
+| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | Tries to set a `metadata` instance, if this [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) type. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getBounds()](#getBounds--) | Gets the image bounds. |
 | [getContainer()](#getContainer--) | Gets the `Image` container. |
@@ -63,6 +65,11 @@ The image is the base class for all type of images.
 | [getBackgroundColor()](#getBackgroundColor--) | Gets or sets a value for the background color. |
 | [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Gets or sets a value indicating whether image has background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Gets or sets a value for the background color. |
+| [getMetadata()](#getMetadata--) | Gets the image metadata. |
+| [getExifData()](#getExifData--) | Gets the Exif data. |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets the Exif data. |
+| [getXmpData()](#getXmpData--) | Gets the Xmp data. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the Xmp data. |
 | [getIProgressEventHandler()](#getIProgressEventHandler--) | Gets the progress event handler information. |
 | [getProgressEventHandlerInfo()](#getProgressEventHandlerInfo--) | Gets the progress event handler information. |
 | [canSave(ImageOptionsBase options)](#canSave-com.aspose.imaging.ImageOptionsBase-) | Determines whether image can be saved to the specified file format represented by the passed save options. |
@@ -285,6 +292,24 @@ try {
 }
 ```
 
+### create(ImageOptionsBase imageOptions, int width, int height, int[] pixels) {#create-com.aspose.imaging.ImageOptionsBase-int-int-int---}
+```
+public static Image create(ImageOptionsBase imageOptions, int width, int height, int[] pixels)
+```
+
+
+Creates a [RasterImage](../../com.aspose.imaging/rasterimage) instance from the provided pixel array. Validates that the specified width and height match the dimensions of the pixel data. This method can only be used when the library is in Licensed mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | The options used to create the [RasterImage](../../com.aspose.imaging/rasterimage). |
+| width | int | The width of the [RasterImage](../../com.aspose.imaging/rasterimage). |
+| height | int | The height of the [RasterImage](../../com.aspose.imaging/rasterimage). |
+| pixels | int[] | The array of pixel values used to populate the image. |
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - A [RasterImage](../../com.aspose.imaging/rasterimage) populated with the provided pixel data.
 ### create(Image[] images) {#create-com.aspose.imaging.Image---}
 ```
 public static Image create(Image[] images)
@@ -728,6 +753,21 @@ public void removeMetadata()
 
 Removes metadata.
 
+### trySetMetadata(IImageMetadataFormat metadata) {#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-}
+```
+public boolean trySetMetadata(IImageMetadataFormat metadata)
+```
+
+
+Tries to set a `metadata` instance, if this [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| metadata | [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) | The metadata. |
+
+**Returns:**
+boolean - True, if the [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) type; otherwise, false.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public abstract int getBitsPerPixel()
@@ -1012,6 +1052,62 @@ Gets or sets a value for the background color.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Color](../../com.aspose.imaging/color) |  |
+
+### getMetadata() {#getMetadata--}
+```
+public ImageMetadata getMetadata()
+```
+
+
+Gets the image metadata.
+
+**Returns:**
+[ImageMetadata](../../com.aspose.imaging.metadata/imagemetadata) - the image metadata.
+### getExifData() {#getExifData--}
+```
+public ExifData getExifData()
+```
+
+
+Gets the Exif data.
+
+**Returns:**
+[ExifData](../../com.aspose.imaging.exif/exifdata) - the Exif data.
+### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
+```
+public void setExifData(ExifData value)
+```
+
+
+Sets the Exif data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ExifData](../../com.aspose.imaging.exif/exifdata) | the Exif data. |
+
+### getXmpData() {#getXmpData--}
+```
+public final XmpPacketWrapper getXmpData()
+```
+
+
+Gets the Xmp data.
+
+**Returns:**
+[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - the Xmp data.
+### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
+```
+public final void setXmpData(XmpPacketWrapper value)
+```
+
+
+Sets the Xmp data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | the Xmp data. |
 
 ### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```

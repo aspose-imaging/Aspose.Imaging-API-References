@@ -3,7 +3,7 @@ title: GifImage.ResizeFullFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Resizing of the image while taking into account the full frames for each page in a GIF thus preventing potential artifacts from appearing. This method is essential to maintain the integrity and quality of the image especially when dealing with animated GIFs or sequences of frames
 type: docs
-weight: 380
+weight: 370
 url: /net/aspose.imaging.fileformats.gif/gifimage/resizefullframe/
 ---
 ## GifImage.ResizeFullFrame method

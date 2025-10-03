@@ -3,7 +3,7 @@ title: Class Source
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Source class. The source is used to contain all relevant information for an object pipe
 type: docs
-weight: 11540
+weight: 11570
 url: /net/aspose.imaging/source/
 ---
 ## Source class

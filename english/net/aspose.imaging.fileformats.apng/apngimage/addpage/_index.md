@@ -3,7 +3,7 @@ title: ApngImage.AddPage
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Add a new page to the image effortlessly with this intuitive method. Perfect for developers seeking to expand the content of their image files dynamically
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.apng/apngimage/addpage/
 ---
 ## ApngImage.AddPage method

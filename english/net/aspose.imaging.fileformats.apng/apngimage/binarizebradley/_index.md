@@ -3,7 +3,7 @@ title: ApngImage.BinarizeBradley
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Binarization of an image using Bradleys adaptive thresholding algorithm using the integral image thresholding
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.apng/apngimage/binarizebradley/
 ---
 ## ApngImage.BinarizeBradley method

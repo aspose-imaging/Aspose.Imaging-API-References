@@ -3,7 +3,7 @@ title: TiffImage.Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Convert the image to its grayscale representation transforming it into a singlechannel image where each pixel represents intensity. Integrate this method into your image processing pipeline to simplify analysis and enhance compatibility with grayscalebased algorithms facilitating various computer vision and image analysis tasks within your application
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/grayscale/
 ---
 ## TiffImage.Grayscale method

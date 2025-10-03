@@ -3,7 +3,7 @@ title: Interface IRasterImageArgb32PixelLoader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IRasterImageArgb32PixelLoader interface. The raster image 32bit ARGB pixel loader
 type: docs
-weight: 9770
+weight: 9780
 url: /net/aspose.imaging/irasterimageargb32pixelloader/
 ---
 ## IRasterImageArgb32PixelLoader interface

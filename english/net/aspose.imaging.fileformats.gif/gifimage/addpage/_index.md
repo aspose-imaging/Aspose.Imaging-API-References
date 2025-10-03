@@ -3,7 +3,7 @@ title: GifImage.AddPage
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Incorporate a new page seamlessly into the existing image enhancing its content and expanding its scope. This method augment image collections with additional content fostering creativity and flexibility in image management and composition
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.imaging.fileformats.gif/gifimage/addpage/
 ---
 ## GifImage.AddPage method

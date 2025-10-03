@@ -3,7 +3,7 @@ title: TiffImage.PremultiplyComponents
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Indicate if components necessitate premultiplication ensuring efficient handling of visual elements. Enhance rendering processes by toggling this property streamlining graphic workflows for optimized performance
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/premultiplycomponents/
 ---
 ## TiffImage.PremultiplyComponents property

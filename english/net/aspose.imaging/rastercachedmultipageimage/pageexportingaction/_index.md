@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.PageExportingAction
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage property. Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging/rastercachedmultipageimage/pageexportingaction/
 ---
 ## RasterCachedMultipageImage.PageExportingAction property

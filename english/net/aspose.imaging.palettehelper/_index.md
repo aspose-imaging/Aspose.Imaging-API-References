@@ -3,7 +3,7 @@ title: Aspose.Imaging.PaletteHelper
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes for adjustment of color palette to the image colors and visa versa
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.imaging.palettehelper/
 ---
 The namespace contains classes for adjustment of color palette to the image colors and visa versa.

@@ -3,7 +3,7 @@ title: ApngImage.RemoveFrameAt
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Remove the frame at the specified index from your frame collection seamlessly with this method. Perfect for developers seeking streamlined management of frames in their multiframe images. The frame to be deleted will be disposed
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.imaging.fileformats.apng/apngimage/removeframeat/
 ---
 ## ApngImage.RemoveFrameAt method

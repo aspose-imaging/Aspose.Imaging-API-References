@@ -102,6 +102,7 @@ is_root: true
 | [com.aspose.imaging.masking.options](./com.aspose.imaging.masking.options) | The package handles ImageMasking.Options processing. |
 | [com.aspose.imaging.masking.result](./com.aspose.imaging.masking.result) | The package handles ImageMasking.Result processing. |
 | [com.aspose.imaging.memorymanagement](./com.aspose.imaging.memorymanagement) | The package contains memory management routines. |
+| [com.aspose.imaging.metadata](./com.aspose.imaging.metadata) | The namespace contains metada related entities. |
 | [com.aspose.imaging.multithreading](./com.aspose.imaging.multithreading) | The package contains multithreading classes. |
 | [com.aspose.imaging.palettehelper](./com.aspose.imaging.palettehelper) | The package contains classes for adjustment of color palette to the image colors and visa versa. |
 | [com.aspose.imaging.progressmanagement](./com.aspose.imaging.progressmanagement) | The package contains progress handler classes |

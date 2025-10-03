@@ -3,7 +3,7 @@ title: Image.Size
 second_title: Aspose.Imaging for .NET API Reference
 description: Image property. Gets the image size
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.imaging/image/size/
 ---
 ## Image.Size property

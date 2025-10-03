@@ -26,8 +26,6 @@ Represents a raster image supporting raster graphics operations.
 | [setUseRawData(boolean value)](#setUseRawData-boolean-) | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | [getUpdateXmpData()](#getUpdateXmpData--) | Gets or sets a value indicating whether to update the XMP metadata. |
 | [setUpdateXmpData(boolean value)](#setUpdateXmpData-boolean-) | Gets or sets a value indicating whether to update the XMP metadata. |
-| [getXmpData()](#getXmpData--) | Gets or sets the XMP metadata. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Gets or sets the XMP metadata. |
 | [getRawIndexedColorConverter()](#getRawIndexedColorConverter--) | Gets or sets the indexed color converter |
 | [setRawIndexedColorConverter(IIndexedColorConverter value)](#setRawIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | Gets or sets the indexed color converter |
 | [getRawCustomColorConverter()](#getRawCustomColorConverter--) | Gets or sets the custom color converter |
@@ -83,6 +81,7 @@ Represents a raster image supporting raster graphics operations.
 | [saveCmyk32Pixels(Rectangle rectangle, int[] pixels)](#saveCmyk32Pixels-com.aspose.imaging.Rectangle-int---) | Saves the pixels. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
+| [autoRotate()](#autoRotate--) | Automatically rotates the image based on orientation data extracted from Exif metadata. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image with extended options. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
 | [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
@@ -264,29 +263,6 @@ Gets or sets a value indicating whether to update the XMP metadata.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | `true` if update the XMP metadata; otherwise, `false`. |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets or sets the XMP metadata.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Gets or sets the XMP metadata.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP metadata. |
 
 ### getRawIndexedColorConverter() {#getRawIndexedColorConverter--}
 ```
@@ -1728,6 +1704,14 @@ Sets the image palette.
 | --- | --- | --- |
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
 | updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+
+### autoRotate() {#autoRotate--}
+```
+public final void autoRotate()
+```
+
+
+Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations.
 
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```

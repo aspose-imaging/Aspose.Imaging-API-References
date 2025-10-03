@@ -33,6 +33,7 @@ public class WmfImage : MetaImage
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.wmf/wmfimage/fileformat/) { get; } | Access the file format value associated with the image, providing information about the format in which the image is stored. Utilize this property to determine the file format of the image, facilitating compatibility checks and format-specific processing within your application. |
 | [FrameBounds](../../aspose.imaging.fileformats.wmf/wmfimage/framebounds/) { get; } | Access the bounds of the frame, indicating its position and dimensions within the image. Utilize this property to retrieve detailed information about the frame's spatial location, enabling precise manipulation and rendering within your application. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
@@ -41,6 +42,7 @@ public class WmfImage : MetaImage
 | [Inch](../../aspose.imaging.fileformats.wmf/wmfimage/inch/) { get; set; } | Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. Utilize this property to establish or retrieve inch values associated with the image, facilitating accurate representation of physical dimensions within your application. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.wmf/wmfimage/iscached/) { get; } | Retrieve a boolean value indicating whether the object's data is currently cached, eliminating the need for additional data reading operations. Utilize this property to optimize performance by determining if the object's data is readily available without the need for costly data retrieval processes within your application. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [Records](../../aspose.imaging.fileformats.emf/metaimage/records/) { get; set; } | Gets or sets the records. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
@@ -48,6 +50,7 @@ public class WmfImage : MetaImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.wmf/wmfimage/widthf/) { get; } | Access the width of the image, indicating the number of pixels along its horizontal axis. Utilize this property to determine the image's spatial dimensions and aspect ratio, enabling precise layout and rendering adjustments within your application. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -90,6 +93,7 @@ public class WmfImage : MetaImage
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging.fileformats.wmf/wmfimage/setpalette/)(IColorPalette, bool) | Apply a specified palette to the image, enabling customization of color representation. Utilize this method to enhance visual rendering and achieve specific color effects within your application. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ## Examples
 

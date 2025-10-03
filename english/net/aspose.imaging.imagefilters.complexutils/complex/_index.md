@@ -3,7 +3,7 @@ title: Struct Complex
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.ComplexUtils.Complex struct. The complex number structure
 type: docs
-weight: 9870
+weight: 9880
 url: /net/aspose.imaging.imagefilters.complexutils/complex/
 ---
 ## Complex structure

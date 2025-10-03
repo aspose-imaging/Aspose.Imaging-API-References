@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.webp/webpimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage), [com.aspose.imaging.RasterCachedMultipageImage](../../com.aspose.imaging/rastercachedmultipageimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext)
+[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), [com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
 ```
-public final class WebPImage extends RasterCachedMultipageImage implements IMultipageImageExt
+public final class WebPImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer
 ```
 
 Manipulate WebP raster images with our API, using its modern features for both lossless and lossy compression, ensuring optimal image quality with reduced file sizes. Seamlessly handle extended file formats, animations, and alpha channels, while easily updating dimensions, resizing proportionally, cropping, rotating, applying filters, adjusting image parameters, and converting to other image formats for versatile web image optimization.
@@ -42,6 +42,7 @@ Manipulate WebP raster images with our API, using its modern features for both l
 | [clearBlocks()](#clearBlocks--) | Clear all existing WebP blocks from the image, facilitating a clean slate for subsequent modifications or additions. |
 | [insertBlock(int index, IFrame block)](#insertBlock-int-com.aspose.imaging.fileformats.webp.IFrame-) | Insert a new WebP block at the specified index within the image, enabling precise control over the block sequence. |
 | [removeBlock(IFrame block)](#removeBlock-com.aspose.imaging.fileformats.webp.IFrame-) | Remove the specified WebP block from the image, facilitating efficient management of image data structure. |
+| [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate the image around its center by a specified angle, while proportionally resizing it and applying specified background color parameters. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resize the image, adjusting its dimensions while preserving the aspect ratio. |
 | [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | Proportionally adjust the width of the image while maintaining its aspect ratio. |
@@ -383,6 +384,16 @@ Remove the specified WebP block from the image, facilitating efficient managemen
 
 Note: do not forget to Dispose the `block` if you will not add it to some other WebPImage. |
 
+### getOriginalOptions() {#getOriginalOptions--}
+```
+public ImageOptionsBase getOriginalOptions()
+```
+
+
+Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) method as the second parameter.
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
 ### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
 public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)

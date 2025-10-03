@@ -3,7 +3,7 @@ title: Image.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Rotate image around the center
 type: docs
-weight: 260
+weight: 290
 url: /net/aspose.imaging/image/rotate/
 ---
 ## Image.Rotate method

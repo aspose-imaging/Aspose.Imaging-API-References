@@ -3,7 +3,7 @@ title: com.aspose.imaging.sources
 second_title: Aspose.Imaging for Java API Reference
 description: Package contains different stream sources which are suitable for input or output data flow.
 type: docs
-weight: 107
+weight: 108
 url: /java/com.aspose.imaging.sources/
 ---
 

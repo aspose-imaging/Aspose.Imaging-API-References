@@ -3,7 +3,7 @@ title: JpegExifData.XResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the x resolution
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.exif/jpegexifdata/xresolution/
 ---
 ## JpegExifData.XResolution property

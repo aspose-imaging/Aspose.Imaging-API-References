@@ -3,7 +3,7 @@ title: GifImage.AdjustGamma
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Enhance image quality by applying gamma correction. This method adjusts the color gamma of the image to achieve optimal visual clarity. It modifies the gamma value of each pixel resulting in improved color rendition and overall image appearance
 type: docs
-weight: 240
+weight: 230
 url: /net/aspose.imaging.fileformats.gif/gifimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}

@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.imageoptions/jpegoptions/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
 
 **All Implemented Interfaces:**
-com.aspose.internal.IMetadataContainer, [com.aspose.imaging.exif.IHasJpegExifData](../../com.aspose.imaging.exif/ihasjpegexifdata)
+[com.aspose.imaging.exif.IHasJpegExifData](../../com.aspose.imaging.exif/ihasjpegexifdata)
 ```
-public class JpegOptions extends ImageOptionsBase implements IMetadataContainer, IHasJpegExifData
+public class JpegOptions extends ImageOptionsBase implements IHasJpegExifData
 ```
 
 Create high-quality JPEG images effortlessly with our API, offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types, near lossless coding, RGB and CMYK color profiles, as well as EXIF, JFIF image data, and XMP containers, ensuring versatile and customizable options for your image creation needs.

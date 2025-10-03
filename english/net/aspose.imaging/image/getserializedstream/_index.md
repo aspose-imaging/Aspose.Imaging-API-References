@@ -3,7 +3,7 @@ title: Image.GetSerializedStream
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Converts to aps
 type: docs
-weight: 210
+weight: 240
 url: /net/aspose.imaging/image/getserializedstream/
 ---
 ## Image.GetSerializedStream method

@@ -3,7 +3,7 @@ title: Class Jpeg2000Options
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.Jpeg2000Options class. Create JPEG2000 JP2 image files with our API utilizing advanced wavelet technology for coding lossless content. Benefit from support for various codecs including irreversible and lossless compression as well as XMP metadata containers ensuring versatility and highquality image creation tailored to your needs
 type: docs
-weight: 10280
+weight: 10290
 url: /net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class
@@ -30,6 +30,7 @@ public class Jpeg2000Options : ImageOptionsBase
 | [Comments](../../aspose.imaging.imageoptions/jpeg2000options/comments/) { get; set; } | Gets or sets the Jpeg comment markers. |
 | [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios/) { get; set; } | Gets or sets the Array of compression ratio. Different compression ratios for successive layers. The rate specified for each quality level is the desired compression factor. Decreasing ratios required. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible/) { get; set; } | Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
@@ -47,6 +48,7 @@ public class Jpeg2000Options : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

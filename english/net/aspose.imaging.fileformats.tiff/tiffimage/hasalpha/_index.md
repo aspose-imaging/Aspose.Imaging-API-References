@@ -3,7 +3,7 @@ title: TiffImage.HasAlpha
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Determine whether the image has an alpha channel providing crucial information for rendering and compositing operations. Integrate this feature to optimize visual processing workflows ensuring accurate representation and manipulation of transparent elements
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/hasalpha/
 ---
 ## TiffImage.HasAlpha property

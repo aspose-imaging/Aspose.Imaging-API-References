@@ -286,7 +286,7 @@ public DicomPage getActivePage()
 ```
 
 
-Access to the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multi-page images, ensuring efficient navigation and processing.
+Access to the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multipage images, ensuring efficient navigation and processing.
 
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - the active page.
@@ -296,7 +296,7 @@ public void setActivePage(DicomPage value)
 ```
 
 
-Manage the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multi-page images, ensuring efficient navigation and processing.
+Manage the active page of the image with this intuitive property. Ideal for developers seeking to dynamically switch between pages within multipage images, ensuring efficient navigation and processing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -309,7 +309,7 @@ public int getActivePageIndex()
 ```
 
 
-Retrieve the index of the active page effortlessly with this intuitive property. Ideal for developers seeking quick access to the current page index within multi-page images, ensuring efficient navigation and processing.
+Retrieve the index of the active page effortlessly with this intuitive property. Ideal for developers seeking quick access to the current page index within multipage images, ensuring efficient navigation and processing.
 
 **Returns:**
 int - the index active page.
@@ -339,7 +339,7 @@ public void addPage(RasterImage page)
 ```
 
 
-Expand your image collection by adding a new page with this intuitive method. Ideal for developers seeking to dynamically append pages to multi-page images, ensuring seamless expansion and organization of image content.
+Expand your image collection by adding a new page with this intuitive method. Ideal for developers seeking to dynamically append pages to multipage images, ensuring seamless expansion and organization of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,7 +395,7 @@ public DicomPage addPage()
 ```
 
 
-Append a new page to the end of the image's page list with this straightforward method. Ideal for developers seeking to dynamically expand multi-page images, ensuring seamless integration and organization of image content.
+Append a new page to the end of the image's page list with this straightforward method. Ideal for developers seeking to dynamically expand multipage images, ensuring seamless integration and organization of image content.
 
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - The newly created [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage).
@@ -405,7 +405,7 @@ public DicomPage insertPage(int pageIndex)
 ```
 
 
-Insert a new page into the image's page list at a specified index with this intuitive method. Ideal for developers seeking precise control over the arrangement of pages in multi-page images, ensuring seamless organization and customization of image content.
+Insert a new page into the image's page list at a specified index with this intuitive method. Ideal for developers seeking precise control over the arrangement of pages in multipage images, ensuring seamless organization and customization of image content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -464,7 +464,7 @@ public void removePage(int pageIndex)
 ```
 
 
-Eliminate the page at the specified index from the page list with this convenient method. Ideal for developers seeking precise control over the management of multi-page images, ensuring seamless organization and customization of image content.
+Eliminate the page at the specified index from the page list with this convenient method. Ideal for developers seeking precise control over the management of multipage images, ensuring seamless organization and customization of image content.
 
 **Parameters:**
 | Parameter | Type | Description |

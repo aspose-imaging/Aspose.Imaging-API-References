@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Types.Basic
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes that represent the basic type values of XMP properties
 type: docs
-weight: 1090
+weight: 1100
 url: /net/aspose.imaging.xmp.types.basic/
 ---
 The namespace contains classes that represent the basic type values of XMP properties.

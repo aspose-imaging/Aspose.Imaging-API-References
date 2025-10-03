@@ -3,7 +3,7 @@ title: VectorMultipageImage.PageExportingAction
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage property. Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging/vectormultipageimage/pageexportingaction/
 ---
 ## VectorMultipageImage.PageExportingAction property

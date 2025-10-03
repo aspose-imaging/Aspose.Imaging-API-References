@@ -3,7 +3,7 @@ title: TiffFrame.HasTransparentColor
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets a value indicating whether image has transparent color
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/hastransparentcolor/
 ---
 ## TiffFrame.HasTransparentColor property

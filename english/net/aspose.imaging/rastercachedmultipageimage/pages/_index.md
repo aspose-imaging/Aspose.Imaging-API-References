@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Pages
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage property. Gets the pages
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging/rastercachedmultipageimage/pages/
 ---
 ## RasterCachedMultipageImage.Pages property

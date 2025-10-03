@@ -3,7 +3,7 @@ title: JpegImage.GetModifyDate
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegImage method. Retrieves the date and time when the resource image underwent its latest modification. This method provides valuable metadata enabling users to track and manage updates to the image file effectively. By accessing this information users can ensure the integrity and currency of their image assets facilitating informed decisionmaking regarding image usage and maintenance
 type: docs
-weight: 200
+weight: 180
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/getmodifydate/
 ---
 ## JpegImage.GetModifyDate method

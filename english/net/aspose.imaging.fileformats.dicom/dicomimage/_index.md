@@ -37,6 +37,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [DicomPages](../../aspose.imaging.fileformats.dicom/dicomimage/dicompages/) { get; } | Access the pages of the image with this intuitive property. Ideal for developers seeking to interact with individual pages within the image, ensuring seamless navigation and manipulation. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.dicom/dicomimage/fileformat/) { get; } | Retrieve the file format value effortlessly with this intuitive property. Ideal for developers seeking quick access to the format of the image file, ensuring efficient handling and processing based on the file type. |
 | [FileInfo](../../aspose.imaging.fileformats.dicom/dicomimage/fileinfo/) { get; } | Retrieve valuable header information from the DICOM file effortlessly with this intuitive property. Ideal for developers seeking quick access to essential details encapsulated within the DICOM file, ensuring efficient data extraction and analysis. |
 | override [HasAlpha](../../aspose.imaging.fileformats.dicom/dicomimage/hasalpha/) { get; } | Retrieve whether the image has an alpha channel effortlessly with this intuitive property. Ideal for developers seeking to determine if the image contains transparency information, ensuring precise handling of alpha channel data in image processing tasks. |
@@ -48,6 +49,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedmultipageimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
+| override [Metadata](../../aspose.imaging/rastercachedmultipageimage/metadata/) { get; } | Gets or sets XMP data from frame. |
 | override [PageCount](../../aspose.imaging.fileformats.dicom/dicomimage/pagecount/) { get; } | Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking quick access to the number of pages within an image, ensuring efficient navigation and management. |
 | virtual [PageExportingAction](../../aspose.imaging/rastercachedmultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | override [Pages](../../aspose.imaging.fileformats.dicom/dicomimage/pages/) { get; } | Access the pages of the image with this intuitive property. Ideal for developers seeking to interact with individual pages within the image, ensuring seamless navigation and manipulation. |
@@ -66,7 +68,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [Width](../../aspose.imaging/rastercachedmultipageimage/width/) { get; } | Gets the image width. |
-| override [XmpData](../../aspose.imaging/rastercachedmultipageimage/xmpdata/) { get; set; } | Gets or sets XMP data from frame. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -80,6 +82,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [AdjustGamma](../../aspose.imaging.fileformats.dicom/dicomimage/adjustgamma/#adjustgamma_1)(float, float, float) | Achieve precise color adjustments by applying gamma correction independently to the red, green, and blue components of an image. This method ensures accurate color balance and optimal visual output, catering to developers seeking granular control over image rendering and color accuracy. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
+| [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.dicom/dicomimage/binarizebradley/#binarizebradley_1)(double, int) | Binarize images with Bradley's adaptive thresholding algorithm, leveraging integral image thresholding for improved performance. Ideal for developers looking to automatically segment images based on local variations in brightness, ensuring accurate object detection and extraction in varying lighting conditions. |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.dicom/dicomimage/binarizefixed/)(byte) | Easily convert the image into a binary format using a predefined threshold with this straightforward method. Ideal for developers looking to simplify image processing tasks by segmenting the image into foreground and background components based on specified intensity levels. |
@@ -160,6 +163,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel/)(int, int, Color) | Sets an image pixel for the specified position. |
 | override [SetResolution](../../aspose.imaging.fileformats.dicom/dicomimage/setresolution/)(double, double) | Adjust the resolution of this [`RasterImage`](../../aspose.imaging/rasterimage/) with precision using this straightforward method. Ideal for developers looking to tailor image resolution to specific requirements, ensuring optimal display quality and file size management. |
 | virtual [ToBitmap](../../aspose.imaging/rasterimage/tobitmap/)() | Converts raster image to the bitmap. This method is not supported in versions from .Net7.0 and higher |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline/)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline/)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 

@@ -23,6 +23,12 @@ public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, ul
 | count | UInt64 | The count value. |
 | offsetOrValue | UInt64 | The offset or value. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidDataException | Tiff tag value exceeds data length. |
+
 ### See Also
 
 * class [TiffStreamReader](../../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/)

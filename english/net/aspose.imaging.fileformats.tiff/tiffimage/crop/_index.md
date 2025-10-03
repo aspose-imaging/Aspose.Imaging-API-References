@@ -3,7 +3,7 @@ title: TiffImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Crop the image using a specified rectangular region allowing precise selection of desired content. Integrate this method into your image processing workflow to efficiently remove unwanted areas and focus on essential details enhancing the overall clarity and composition of the image
 type: docs
-weight: 240
+weight: 230
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/crop/
 ---
 ## Crop(Rectangle) {#crop}

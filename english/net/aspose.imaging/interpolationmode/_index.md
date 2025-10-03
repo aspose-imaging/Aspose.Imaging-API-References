@@ -3,7 +3,7 @@ title: Enum InterpolationMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.InterpolationMode enum. The InterpolationMode enumeration specifies the algorithm that is used when images are scaled or rotated
 type: docs
-weight: 10630
+weight: 10640
 url: /net/aspose.imaging/interpolationmode/
 ---
 ## InterpolationMode enumeration

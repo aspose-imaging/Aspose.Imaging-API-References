@@ -3,7 +3,7 @@ title: Class XmpPacketWrapper
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpPacketWrapper class. Contains serialized xmp package including header and trailer
 type: docs
-weight: 12330
+weight: 12360
 url: /net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 ## XmpPacketWrapper class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.xmp/xmppacketwrapper/
 Contains serialized xmp package including header and trailer.
 
 ```csharp
-public class XmpPacketWrapper : IXmlValue
+public class XmpPacketWrapper : IImageMetadataFormat, IXmlValue
 ```
 
 ## Constructors
@@ -49,6 +49,7 @@ A wrapper consisting of a pair of XML processing instructions (PIs) may be place
 
 ### See Also
 
+* interface [IImageMetadataFormat](../../aspose.imaging.metadata/iimagemetadataformat/)
 * interface [IXmlValue](../ixmlvalue/)
 * namespace [Aspose.Imaging.Xmp](../../aspose.imaging.xmp/)
 * assembly [Aspose.Imaging](../../)

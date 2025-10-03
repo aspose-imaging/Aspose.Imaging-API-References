@@ -3,7 +3,7 @@ title: TiffImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Perform rotation flipping or a combination of both operations exclusively on the active frame. This method allows precise manipulation of individual frames within the image sequence enhancing flexibility in image editing and composition within your application
 type: docs
-weight: 390
+weight: 380
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/rotateflip/
 ---
 ## TiffImage.RotateFlip method

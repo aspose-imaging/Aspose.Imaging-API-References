@@ -3,7 +3,7 @@ title: TiffImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Rotate the image around its center point by a specified angle enabling precise orientation adjustments. Incorporate this functionality into your image processing pipeline to facilitate accurate transformations ensuring optimal alignment and presentation of visual content within your application
 type: docs
-weight: 380
+weight: 370
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/rotate/
 ---
 ## TiffImage.Rotate method

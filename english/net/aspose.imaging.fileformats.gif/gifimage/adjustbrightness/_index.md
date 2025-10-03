@@ -3,7 +3,7 @@ title: GifImage.AdjustBrightness
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Adjusts the brightness of the image according to the specified brightness parameter. This method modifies the brightness of the entire image uniformly enhancing or reducing the overall luminance to achieve the desired effect
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.imaging.fileformats.gif/gifimage/adjustbrightness/
 ---
 ## GifImage.AdjustBrightness method

@@ -3,7 +3,7 @@ title: VectorMultipageImage.GetEmbeddedImages
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Gets the embedded images
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging/vectormultipageimage/getembeddedimages/
 ---
 ## VectorMultipageImage.GetEmbeddedImages method

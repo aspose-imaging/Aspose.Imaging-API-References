@@ -3,7 +3,7 @@ title: JpegExifData.YCbCrCoefficients
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the matrix coefficients for transformation from RGB to YCbCr image data
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.imaging.exif/jpegexifdata/ycbcrcoefficients/
 ---
 ## JpegExifData.YCbCrCoefficients property

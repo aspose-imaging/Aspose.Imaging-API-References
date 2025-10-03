@@ -3,7 +3,7 @@ title: GifImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Crop the image using a specified rectangle area. This operation removes the outer portion of the image leaving only the selected region defined by the rectangle
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.imaging.fileformats.gif/gifimage/crop/
 ---
 ## GifImage.Crop method

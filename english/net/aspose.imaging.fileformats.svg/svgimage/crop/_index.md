@@ -3,7 +3,7 @@ title: SvgImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: SvgImage method. Crops the specified rectangle
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.imaging.fileformats.svg/svgimage/crop/
 ---
 ## SvgImage.Crop method

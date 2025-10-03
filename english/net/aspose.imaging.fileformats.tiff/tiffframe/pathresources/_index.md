@@ -3,7 +3,7 @@ title: TiffFrame.PathResources
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets or sets the path resources
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/pathresources/
 ---
 ## TiffFrame.PathResources property

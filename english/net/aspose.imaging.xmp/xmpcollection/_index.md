@@ -3,7 +3,7 @@ title: Class XmpCollection
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpCollection class. An XMP element collection
 type: docs
-weight: 12270
+weight: 12300
 url: /net/aspose.imaging.xmp/xmpcollection/
 ---
 ## XmpCollection class

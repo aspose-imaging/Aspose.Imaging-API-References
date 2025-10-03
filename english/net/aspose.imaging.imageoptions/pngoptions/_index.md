@@ -3,7 +3,7 @@ title: Class PngOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.PngOptions class. Create highquality Portable Network Graphics PNG raster images effortlessly with our API offering customizable options for compression levels bits per pixel depths and alpha bits. Seamlessly process XMP metadata containers ensuring comprehensive image metadata management and empowering you to tailor PNG images to your exact specifications with ease
 type: docs
-weight: 10410
+weight: 10420
 url: /net/aspose.imaging.imageoptions/pngoptions/
 ---
 ## PngOptions class
@@ -29,6 +29,7 @@ public class PngOptions : ImageOptionsBase
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
@@ -48,6 +49,7 @@ public class PngOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Fields
 

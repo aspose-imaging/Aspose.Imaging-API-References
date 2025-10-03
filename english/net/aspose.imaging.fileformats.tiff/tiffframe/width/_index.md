@@ -3,7 +3,7 @@ title: TiffFrame.Width
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets the image width
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/width/
 ---
 ## TiffFrame.Width property

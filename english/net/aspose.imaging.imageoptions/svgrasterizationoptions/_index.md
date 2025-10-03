@@ -3,7 +3,7 @@ title: Class SvgRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.SvgRasterizationOptions class. The SVG rasterization options
 type: docs
-weight: 10490
+weight: 10500
 url: /net/aspose.imaging.imageoptions/svgrasterizationoptions/
 ---
 ## SvgRasterizationOptions class

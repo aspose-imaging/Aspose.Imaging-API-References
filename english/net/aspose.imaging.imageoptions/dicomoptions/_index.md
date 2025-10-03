@@ -3,7 +3,7 @@ title: Class DicomOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.DicomOptions class. The API for Digital Imaging and Communications in Medicine DICOM raster image format creation is a specialized tool tailored for medical device applications. It enables the seamless generation of DICOM images crucial for storing medical data and containing vital identification information. With features to and set compression define color types and embed XMP metadata developers can ensure compliance and flexibility in managing DICOM images for medical imaging purposes
 type: docs
-weight: 10190
+weight: 10200
 url: /net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class
@@ -28,6 +28,7 @@ public class DicomOptions : ImageOptionsBase
 | [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
 | [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression/) { get; set; } | Gets or sets the compression. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -44,6 +45,7 @@ public class DicomOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

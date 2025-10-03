@@ -3,7 +3,7 @@ title: TiffImage.Pages
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Access the pages of the document seamlessly enabling dynamic navigation and manipulation within the content structure. Empower your application with efficient access to individual pages facilitating streamlined document processing and enhanced user interaction
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/pages/
 ---
 ## TiffImage.Pages property

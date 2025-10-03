@@ -3,7 +3,7 @@ title: com.aspose.imaging.shapes
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains different shapes combined from shape segments.
 type: docs
-weight: 105
+weight: 106
 url: /java/com.aspose.imaging.shapes/
 ---
 

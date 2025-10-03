@@ -3,7 +3,7 @@ title: TiffFrame.FrameOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets the frame create options
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/frameoptions/
 ---
 ## TiffFrame.FrameOptions property

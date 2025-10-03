@@ -3,7 +3,7 @@ title: Class WebPOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.WebPOptions class. Create modern WebP raster web images using our API featuring robust support for lossless and lossy compression as well as alpha channels and animation loops. Enhance your web content with dynamic visuals while optimizing file sizes for improved loading speeds and user experience
 type: docs
-weight: 10560
+weight: 10570
 url: /net/aspose.imaging.imageoptions/webpoptions/
 ---
 ## WebPOptions class
@@ -28,6 +28,7 @@ public class WebPOptions : ImageOptionsBase
 | [AnimLoopCount](../../aspose.imaging.imageoptions/webpoptions/animloopcount/) { get; set; } | Gets or sets the animation loop count. |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless/) { get; set; } | Gets or sets a value indicating whether this `WebPOptions` is lossless. |
@@ -46,6 +47,7 @@ public class WebPOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

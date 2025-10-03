@@ -3,7 +3,7 @@ title: Class ProjectLink
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpDm.ProjectLink class. Represents path of the project
 type: docs
-weight: 11890
+weight: 11920
 url: /net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 ---
 ## ProjectLink class

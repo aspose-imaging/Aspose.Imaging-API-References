@@ -3,7 +3,7 @@ title: ImageOptionsBase.VectorRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. Gets or sets the vector rasterization options
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging/imageoptionsbase/vectorrasterizationoptions/
 ---
 ## ImageOptionsBase.VectorRasterizationOptions property

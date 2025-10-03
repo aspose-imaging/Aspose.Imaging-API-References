@@ -3,7 +3,7 @@ title: TiffFrame.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets the image height
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/height/
 ---
 ## TiffFrame.Height property

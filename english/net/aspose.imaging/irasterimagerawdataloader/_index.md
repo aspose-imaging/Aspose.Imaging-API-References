@@ -3,7 +3,7 @@ title: Interface IRasterImageRawDataLoader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IRasterImageRawDataLoader interface. The raster image raw data loader
 type: docs
-weight: 9800
+weight: 9810
 url: /net/aspose.imaging/irasterimagerawdataloader/
 ---
 ## IRasterImageRawDataLoader interface

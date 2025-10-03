@@ -3,7 +3,7 @@ title: GifImage.Filter
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Apply a specific filter to the designated area of the image enhancing its visual quality or altering its appearance as desired. This method selectively processes pixels within the defined rectangle allowing for targeted adjustments to be made while preserving the integrity of the surrounding image data
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.imaging.fileformats.gif/gifimage/filter/
 ---
 ## GifImage.Filter method

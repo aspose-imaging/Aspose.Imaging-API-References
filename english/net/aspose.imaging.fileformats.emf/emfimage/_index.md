@@ -33,6 +33,7 @@ public sealed class EmfImage : MetaImage
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.emf/emfimage/fileformat/) { get; } | Access the file format value associated with the object. Easily determine the format of the file associated with the object for streamlined processing and compatibility checks. Simplify your workflow by retrieving the file format information with ease. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | [Header](../../aspose.imaging.fileformats.emf/emfimage/header/) { get; set; } | Retrieve or modify the EMF metafile header record with this property. Ideal for managing metafile data efficiently within your application. Improve your workflow with streamlined access to metafile header information. |
@@ -40,6 +41,7 @@ public sealed class EmfImage : MetaImage
 | override [HeightF](../../aspose.imaging.fileformats.emf/emfimage/heightf/) { get; } | Retrieve the image's height, facilitating accurate rendering and layout adjustments. Accessing the height property ensures compatibility and seamless integration across different platforms and applications. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.emf/emfimage/iscached/) { get; } | Access a value indicating whether the object's data is currently cached, eliminating the need for additional data reading. Enhance efficiency by quickly determining if cached data is available for immediate access. Optimize your workflow with streamlined data retrieval processes. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | override [Records](../../aspose.imaging.fileformats.emf/emfimage/records/) { get; set; } | Retrieve or modify the records associated with the object. Efficiently access and manage the collection of records for enhanced data manipulation and processing. Optimize your workflow by seamlessly interacting with the object's records. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
@@ -47,6 +49,7 @@ public sealed class EmfImage : MetaImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.emf/emfimage/widthf/) { get; } | Access to the width of the image, providing essential information for precise rendering and processing. Quickly retrieve the image's width to ensure compatibility and proper layout within various applications and platforms. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -87,6 +90,7 @@ public sealed class EmfImage : MetaImage
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging.fileformats.emf/emfimage/setpalette/)(IColorPalette, bool) | Sets the image palette. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ## Examples
 

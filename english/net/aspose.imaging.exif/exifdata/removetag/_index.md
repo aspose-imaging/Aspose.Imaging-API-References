@@ -3,7 +3,7 @@ title: ExifData.RemoveTag
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData method. Remove tag from container
 type: docs
-weight: 1120
+weight: 1130
 url: /net/aspose.imaging.exif/exifdata/removetag/
 ---
 ## RemoveTag(ExifProperties) {#removetag}

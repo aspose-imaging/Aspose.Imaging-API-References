@@ -3,7 +3,7 @@ title: WebPImage.ResizeHeightProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Adjust the height of the image proportionally while preserving its aspect ratio for consistent resizing. Integrate this method into your image processing workflow to dynamically resize images with uniform proportions ensuring optimal display or storage within your application
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.imaging.fileformats.webp/webpimage/resizeheightproportionally/
 ---
 ## WebPImage.ResizeHeightProportionally method

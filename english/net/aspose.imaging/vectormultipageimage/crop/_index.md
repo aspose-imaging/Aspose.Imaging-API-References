@@ -3,7 +3,7 @@ title: VectorMultipageImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Crops the specified rectangle
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging/vectormultipageimage/crop/
 ---
 ## VectorMultipageImage.Crop method

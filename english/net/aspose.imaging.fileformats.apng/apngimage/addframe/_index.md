@@ -3,7 +3,7 @@ title: ApngImage.AddFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Easily append a new frame to the end of your frame collection with this straightforward method. Ideal for developers looking to expand their frame collection dynamically for animations with multiframe images. A new frame will be created according to the size of the current image
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.fileformats.apng/apngimage/addframe/
 ---
 ## AddFrame() {#addframe}

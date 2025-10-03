@@ -3,7 +3,7 @@ title: Class AdaptiveWhiteStretchFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.AdaptiveWhiteStretchFilterOptions class. Provides options for configuring the Adaptive White Stretch filter. Allows customization of histogram stretch parameters to enhance the white level and improve the readability of fainttext or lowcontrast document images
 type: docs
-weight: 9890
+weight: 9900
 url: /net/aspose.imaging.imagefilters.filteroptions/adaptivewhitestretchfilteroptions/
 ---
 ## AdaptiveWhiteStretchFilterOptions class

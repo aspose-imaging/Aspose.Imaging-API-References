@@ -3,7 +3,7 @@ title: ImageOptionsBase.Source
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. Gets or sets the source to create image in
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging/imageoptionsbase/source/
 ---
 ## ImageOptionsBase.Source property

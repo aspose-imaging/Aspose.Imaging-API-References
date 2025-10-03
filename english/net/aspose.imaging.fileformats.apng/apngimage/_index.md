@@ -33,6 +33,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [DefaultFrameTime](../../aspose.imaging.fileformats.apng/apngimage/defaultframetime/) { get; set; } | Easily adjust the default frame duration for creating new frames with this flexible property. Perfect for developers seeking to customize frame timing efficiently in their animations. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.apng/apngimage/fileformat/) { get; } | Quickly access information about the file format with this convenient property. Ideal for developers who need to retrieve details about the format of their Apng files easily. |
 | override [HasAlpha](../../aspose.imaging/rastercachedmultipageimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
@@ -44,6 +45,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedmultipageimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
+| override [Metadata](../../aspose.imaging/rastercachedmultipageimage/metadata/) { get; } | Gets or sets XMP data from frame. |
 | [NumPlays](../../aspose.imaging.fileformats.apng/apngimage/numplays/) { get; set; } | Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0. |
 | override [PageCount](../../aspose.imaging.fileformats.apng/apngimage/pagecount/) { get; } | Retrieve the total number of pages in your image file effortlessly with this property. Ideal for developers needing quick access to page count information. |
 | virtual [PageExportingAction](../../aspose.imaging/rastercachedmultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
@@ -63,7 +65,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [Width](../../aspose.imaging/rastercachedmultipageimage/width/) { get; } | Gets the image width. |
-| override [XmpData](../../aspose.imaging.fileformats.apng/apngimage/xmpdata/) { get; set; } | Effortlessly manage XMP metadata associated with your files using this versatile property. Perfect for developers seeking to access or update metadata information with ease. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -79,6 +81,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [AdjustGamma](../../aspose.imaging.fileformats.apng/apngimage/adjustgamma/#adjustgamma_1)(float, float, float) | Perform gamma correction on the image separately for the red, green, and blue channels using individual coefficients with this intuitive method. Ideal for developers seeking to fine-tune color balance and enhance the visual quality of their images. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
+| [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging.fileformats.apng/apngimage/binarizebradley/#binarizebradley_1)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.apng/apngimage/binarizefixed/)(byte) | Effortlessly binarize the image using a predefined threshold with this intuitive method. Ideal for developers seeking to convert images into binary form, simplifying them for further processing or analysis. |
@@ -163,6 +166,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel/)(int, int, Color) | Sets an image pixel for the specified position. |
 | virtual [SetResolution](../../aspose.imaging/rasterimage/setresolution/)(double, double) | Sets the resolution for this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | virtual [ToBitmap](../../aspose.imaging/rasterimage/tobitmap/)() | Converts raster image to the bitmap. This method is not supported in versions from .Net7.0 and higher |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline/)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline/)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 

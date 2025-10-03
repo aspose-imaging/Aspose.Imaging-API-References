@@ -3,7 +3,7 @@ title: Class MaskingOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.MaskingOptions class. Represents the common image masking options
 type: docs
-weight: 10960
+weight: 10970
 url: /net/aspose.imaging.masking.options/maskingoptions/
 ---
 ## MaskingOptions class

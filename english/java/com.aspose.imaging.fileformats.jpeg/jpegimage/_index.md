@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.jpeg/jpegimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage)
 
 **All Implemented Interfaces:**
-com.aspose.internal.IMetadataContainer, [com.aspose.imaging.exif.IHasJpegExifData](../../com.aspose.imaging.exif/ihasjpegexifdata)
+[com.aspose.imaging.exif.IHasJpegExifData](../../com.aspose.imaging.exif/ihasjpegexifdata)
 ```
-public final class JpegImage extends RasterCachedImage implements IMetadataContainer, IHasJpegExifData
+public final class JpegImage extends RasterCachedImage implements IHasJpegExifData
 ```
 
 Efficiently manipulate JPEG raster images with our API, offering support for various color profiles such as RGB and CMYK, customizable bits per pixel resolution, and processing of EXIF, JFIF, and XMP metadata containers. Enjoy automated rotation based on orientation data and choose from different compression levels, including lossless JPEG, to achieve optimal image quality and file size balance for your projects.
@@ -36,8 +36,6 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 | [setComment(String value)](#setComment-java.lang.String-) | Manage JPEG file comments with this property, allowing you to add or retrieve descriptive annotations associated with the image. |
 | [getJpegExifData()](#getJpegExifData--) | Gets Exif instance. |
 | [setJpegExifData(JpegExifData value)](#setJpegExifData-com.aspose.imaging.exif.JpegExifData-) | Manage EXIF data with this property, allowing you to add or retrieve metadata associated with the image. |
-| [getXmpData()](#getXmpData--) | Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP metadata, enabling seamless integration of descriptive information into the image file. |
 | [getExifData()](#getExifData--) | Gets Exif data; |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets Exif data; |
 | [getHeight()](#getHeight--) | Retrieve the height of the image effortlessly with this property. |
@@ -62,7 +60,6 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options of this [Image](../../com.aspose.imaging/image) instance. |
 | [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) and `IHasExifData.ExifData`([IHasExifData.getExifData()](../../com.aspose.imaging.exif/ihasexifdata\#getExifData--)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) values to `null`. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), ensuring accurate scaling and printing capabilities. |
-| [autoRotate()](#autoRotate--) | Automatically rotates the image based on orientation data extracted from Exif metadata. |
 
 ## Example: The example shows how to load a JpegImage from a file.
 
@@ -276,39 +273,16 @@ Manage EXIF data with this property, allowing you to add or retrieve metadata as
 | --- | --- | --- |
 | value | [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) |  |
 
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Handle XMP metadata with this property, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - XMP metadata, enabling seamless integration of descriptive information into the image file.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets XMP metadata, enabling seamless integration of descriptive information into the image file. Whether you're extracting existing XMP metadata or updating it with new information, this property simplifies the management of extended metadata, ensuring compatibility with various applications and workflows.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP metadata, enabling seamless integration of descriptive information into the image file. |
-
 ### getExifData() {#getExifData--}
 ```
-public ExifData getExifData()
+public JpegExifData getExifData()
 ```
 
 
 Gets Exif data;
 
 **Returns:**
-[ExifData](../../com.aspose.imaging.exif/exifdata) - Exif data;
+[JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) - Exif data;
 
 **Example: The following example shows how to extract EXIF tags from a JPEG image.**
 
@@ -859,12 +833,4 @@ try {
 // The horizontal resolution, in pixels per inch: 96.0
 // The vertical resolution, in pixels per inch: 96.0
 ```
-
-### autoRotate() {#autoRotate--}
-```
-public void autoRotate()
-```
-
-
-Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations.
 

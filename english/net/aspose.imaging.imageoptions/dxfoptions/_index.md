@@ -3,7 +3,7 @@ title: Class DxfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.DxfOptions class. API for Drawing Interchange Format DXF vector image creation offers tailored solutions for generating AutoCAD drawing files with precision and flexibility. Designed specifically for working with text lines and Bezier curves developers can efficiently manipulate these elements count Bezier points and convert curves into polylines for seamless exporting ensuring compatibility and fidelity in DXF vector images
 type: docs
-weight: 10210
+weight: 10220
 url: /net/aspose.imaging.imageoptions/dxfoptions/
 ---
 ## DxfOptions class
@@ -28,6 +28,7 @@ public class DxfOptions : ImageOptionsBase
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [ConvertTextBeziers](../../aspose.imaging.imageoptions/dxfoptions/converttextbeziers/) { get; set; } | Works when  is set to `true`. Wether to convert Bezier curves in text contours to multipoint polylines. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -45,6 +46,7 @@ public class DxfOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: VectorMultipageImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Rotate image around the center
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging/vectormultipageimage/rotate/
 ---
 ## VectorMultipageImage.Rotate method

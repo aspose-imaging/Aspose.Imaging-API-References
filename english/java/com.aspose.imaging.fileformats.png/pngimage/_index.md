@@ -52,8 +52,6 @@ Manipulate Portable Network Graphics (PNG) raster images with our versatile API,
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Retrieves the background color of the image, if one is specified. |
 | [getInterlaced()](#getInterlaced--) | Retrieves a boolean value indicating whether the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission. |
 | [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
-| [getXmpData()](#getXmpData--) | Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 
@@ -710,29 +708,6 @@ Value: `true` if this image instance is interlaced; otherwise, `false`.
 
 **Returns:**
 boolean - a value indicating whether this image instance is interlaced.
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP metadata. |
-
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)

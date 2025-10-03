@@ -3,7 +3,7 @@ title: ApngImage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Retrieve the default options effortlessly with this straightforward method. Ideal for developers seeking quick access to default Apng image settings
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.fileformats.apng/apngimage/getdefaultoptions/
 ---
 ## ApngImage.GetDefaultOptions method

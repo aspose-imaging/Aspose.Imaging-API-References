@@ -3,7 +3,7 @@ title: Class CmxLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageLoadOptions.CmxLoadOptions class. The CMX load options
 type: docs
-weight: 10050
+weight: 10060
 url: /net/aspose.imaging.imageloadoptions/cmxloadoptions/
 ---
 ## CmxLoadOptions class

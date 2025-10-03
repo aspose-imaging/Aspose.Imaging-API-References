@@ -3,7 +3,7 @@ title: Class ImageAttributes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageAttributes class. An ImageAttributes object contains information about how bitmap and metafile colors are manipulated during rendering. An ImageAttributes object maintains several coloradjustment settings including coloradjustment matrices grayscaleadjustment matrices gammacorrection values colormap tables and colorthreshold values. During rendering colors can be corrected darkened lightened and removed. To apply such manipulations initialize an ImageAttributes object and pass the path of that ImageAttributes object along with the path of an Image to the DrawImage method
 type: docs
-weight: 9830
+weight: 9840
 url: /net/aspose.imaging/imageattributes/
 ---
 ## ImageAttributes class

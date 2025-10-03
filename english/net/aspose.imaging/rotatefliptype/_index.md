@@ -3,7 +3,7 @@ title: Enum RotateFlipType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RotateFlipType enum. Specifies how much an image is rotated and the axis used to flip the image
 type: docs
-weight: 11360
+weight: 11390
 url: /net/aspose.imaging/rotatefliptype/
 ---
 ## RotateFlipType enumeration

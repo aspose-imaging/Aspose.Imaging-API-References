@@ -3,7 +3,7 @@ title: TiffImage.HorizontalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Retrieve the horizontal resolution of the specified Image in pixels per inch facilitating precise adjustment and rendering capabilities. Access essential image metadata effortlessly empowering streamlined image processing workflows for enhanced user experiences
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/horizontalresolution/
 ---
 ## TiffImage.HorizontalResolution property

@@ -3,7 +3,7 @@ title: IObjectWithBounds
 second_title: Aspose.Imaging for Java API Reference
 description: Represents an object with bounds.
 type: docs
-weight: 138
+weight: 139
 url: /java/com.aspose.imaging/iobjectwithbounds/
 ---```
 public interface IObjectWithBounds

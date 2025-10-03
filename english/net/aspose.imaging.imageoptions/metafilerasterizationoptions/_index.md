@@ -3,7 +3,7 @@ title: Class MetafileRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.MetafileRasterizationOptions class. The metafile rasterization options
 type: docs
-weight: 10310
+weight: 10320
 url: /net/aspose.imaging.imageoptions/metafilerasterizationoptions/
 ---
 ## MetafileRasterizationOptions class

@@ -3,7 +3,7 @@ title: GifImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Apply dithering to the current image. This process enhances image quality by reducing color banding and improving color transitions resulting in a smoother appearance
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.imaging.fileformats.gif/gifimage/dither/
 ---
 ## GifImage.Dither method

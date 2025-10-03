@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains XMP related helper classes and methods.
 type: docs
-weight: 110
+weight: 111
 url: /java/com.aspose.imaging.xmp/
 ---
 

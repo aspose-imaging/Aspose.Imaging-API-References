@@ -3,7 +3,7 @@ title: ApngImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Easily apply dithering effects to the current image with this intuitive method. Ideal for developers looking to add texture or reduce color banding in their images
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.imaging.fileformats.apng/apngimage/dither/
 ---
 ## ApngImage.Dither method

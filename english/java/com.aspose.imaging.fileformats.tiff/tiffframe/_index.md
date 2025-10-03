@@ -8,11 +8,8 @@ url: /java/com.aspose.imaging.fileformats.tiff/tiffframe/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage)
-
-**All Implemented Interfaces:**
-com.aspose.internal.IMetadataContainer
 ```
-public final class TiffFrame extends RasterCachedImage implements IMetadataContainer
+public final class TiffFrame extends RasterCachedImage
 ```
 
 The tiff frame.
@@ -36,14 +33,10 @@ The tiff frame.
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
-| [getXmpData()](#getXmpData--) | Gets Xmp data. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets Xmp data. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFrameOptions()](#getFrameOptions--) | Gets the frame create options. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getWidth()](#getWidth--) | Gets the image width. |
-| [getExifData()](#getExifData--) | Gets EXIF data from frame. |
-| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets EXIF data from frame. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
 | [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Sets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
 | [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution, in pixels per inch, of this `RasterImage`. |
@@ -56,6 +49,7 @@ The tiff frame.
 | [copyFrame(TiffFrame tiffFrame)](#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Copies the entire frame (duplicates). |
 | [createFrameFrom(TiffFrame tiffFrame, TiffOptions options)](#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-) | Creates the frame from specified `tiffFrame` using the specified `options`. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
 
@@ -286,29 +280,6 @@ Gets a value indicating whether image has transparent color.
 | --- | --- | --- |
 | value | boolean |  |
 
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Gets Xmp data.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - Xmp data.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets Xmp data.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | Xmp data. |
-
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -349,29 +320,6 @@ Gets the image width.
 
 **Returns:**
 int - The image width.
-### getExifData() {#getExifData--}
-```
-public ExifData getExifData()
-```
-
-
-Gets EXIF data from frame.
-
-**Returns:**
-[ExifData](../../com.aspose.imaging.exif/exifdata) - EXIF data container
-### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
-```
-public void setExifData(ExifData value)
-```
-
-
-Sets EXIF data from frame.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ExifData](../../com.aspose.imaging.exif/exifdata) | EXIF data container |
-
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public double getHorizontalResolution()
@@ -719,6 +667,19 @@ Resizes the image.
 | newWidth | int | The new width. |
 | newHeight | int | The new height. |
 | resizeType | int | The resize type. |
+
+### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
+```
+public void rotateFlip(int rotateFlipType)
+```
+
+
+Rotates, flips, or rotates and flips the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rotateFlipType | int | The rotate flip type. |
 
 ### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
 ```
