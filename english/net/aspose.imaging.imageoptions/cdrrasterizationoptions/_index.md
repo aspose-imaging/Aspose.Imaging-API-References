@@ -3,7 +3,7 @@ title: Class CdrRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.CdrRasterizationOptions class. With the ability to perform CDR image rasterization and set scale factors for both X and Y dimensions this API provides precise control over the transformation process. Whether scaling for specific output requirements or converting vector graphics to raster formats you can leverage this API for efficient and customizable CDR vector to raster image conversion
 type: docs
-weight: 10170
+weight: 10180
 url: /net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 ---
 ## CdrRasterizationOptions class

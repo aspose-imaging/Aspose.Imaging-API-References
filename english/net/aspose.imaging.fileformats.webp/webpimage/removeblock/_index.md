@@ -3,7 +3,7 @@ title: WebPImage.RemoveBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Remove the specified WebP block from the image facilitating efficient management of image data structure. Utilize this method to streamline image processing workflows by eliminating unnecessary blocks or components within your application
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging.fileformats.webp/webpimage/removeblock/
 ---
 ## WebPImage.RemoveBlock method

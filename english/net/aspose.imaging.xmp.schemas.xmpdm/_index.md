@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Schemas.XmpDm
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains XMP related helper classes constants and methods used by the Adobe dynamic media group
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.imaging.xmp.schemas.xmpdm/
 ---
 The namespace contains XMP related helper classes, constants and methods used by the Adobe dynamic media group.

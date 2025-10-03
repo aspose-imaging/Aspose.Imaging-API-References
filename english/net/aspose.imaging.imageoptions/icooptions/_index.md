@@ -3,7 +3,7 @@ title: Class IcoOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.IcoOptions class. Create custom ICO image files for application icons effortlessly with our API empowering you to represent your software seamlessly. Our API supports PNG and BMP image frames with various bits per pixel values ensuring versatility and compatibility for your icon creation needs
 type: docs
-weight: 10270
+weight: 10280
 url: /net/aspose.imaging.imageoptions/icooptions/
 ---
 ## IcoOptions class
@@ -28,6 +28,7 @@ public class IcoOptions : ImageOptionsBase
 | [BitsPerPixel](../../aspose.imaging.imageoptions/icooptions/bitsperpixel/) { get; set; } | Gets or sets the bits-per-pixel value. |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [Format](../../aspose.imaging.imageoptions/icooptions/format/) { get; set; } | Gets or sets the ICO frame format. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
@@ -45,6 +46,7 @@ public class IcoOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ### See Also
 

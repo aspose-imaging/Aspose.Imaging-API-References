@@ -3,7 +3,7 @@ title: GifImage.BinarizeFixed
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Binarization of an image with a predefined threshold converts a grayscale or color image into a binary image where each pixel is classified as either black or white based on whether its intensity value exceeds a specified threshold
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.imaging.fileformats.gif/gifimage/binarizefixed/
 ---
 ## GifImage.BinarizeFixed method

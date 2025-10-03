@@ -31,8 +31,7 @@ The raster multipage image
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a value for the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
-| [getXmpData()](#getXmpData--) | Gets XMP data from frame. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets XMP data from frame. |
+| [getMetadata()](#getMetadata--) | Gets XMP data from frame. |
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a `brightness` for image. |
@@ -226,9 +225,9 @@ Sets a value for the background color.
 | --- | --- | --- |
 | value | [Color](../../com.aspose.imaging/color) | a value for the background color. |
 
-### getXmpData() {#getXmpData--}
+### getMetadata() {#getMetadata--}
 ```
-public XmpPacketWrapper getXmpData()
+public ImageMetadata getMetadata()
 ```
 
 
@@ -237,22 +236,7 @@ Gets XMP data from frame.
 Value: XMP packet data wrapper
 
 **Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - XMP data from frame.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Sets XMP data from frame.
-
-Value: XMP packet data wrapper
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | XMP data from frame. |
-
+[ImageMetadata](../../com.aspose.imaging.metadata/imagemetadata) - XMP data from frame.
 ### getPageExportingAction() {#getPageExportingAction--}
 ```
 public PageExportingAction getPageExportingAction()

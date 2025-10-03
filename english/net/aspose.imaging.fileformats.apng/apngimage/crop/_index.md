@@ -3,7 +3,7 @@ title: ApngImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Effortlessly crop the image to focus on specific areas with this intuitive method. Perfect for developers seeking to refine the composition of their images dynamically
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.imaging.fileformats.apng/apngimage/crop/
 ---
 ## Crop(Rectangle) {#crop}

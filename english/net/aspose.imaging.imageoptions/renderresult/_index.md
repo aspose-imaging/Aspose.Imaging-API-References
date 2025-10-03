@@ -3,7 +3,7 @@ title: Class RenderResult
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.RenderResult class. Represents information with results of rendering
 type: docs
-weight: 10470
+weight: 10480
 url: /net/aspose.imaging.imageoptions/renderresult/
 ---
 ## RenderResult class

@@ -3,7 +3,7 @@ title: Image.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Gets the default options
 type: docs
-weight: 190
+weight: 220
 url: /net/aspose.imaging/image/getdefaultoptions/
 ---
 ## Image.GetDefaultOptions method

@@ -3,7 +3,7 @@ title: TiffImage.Frames
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Retrieve an array of TiffFrame instances enabling comprehensive access and manipulation of individual frames within the TIFF image. Harness the power of this array to streamline image processing workflows ensuring precise control and optimization of visual content
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/frames/
 ---
 ## TiffImage.Frames property

@@ -11,7 +11,7 @@ url: /net/aspose.imaging.exif/exifdata/
 EXIF data container.
 
 ```csharp
-public class ExifData : TiffDataTypeController
+public class ExifData : TiffDataTypeController, IImageMetadataFormat
 ```
 
 ## Constructors
@@ -19,8 +19,9 @@ public class ExifData : TiffDataTypeController
 | Name | Description |
 | --- | --- |
 | [ExifData](exifdata/#constructor)() | Initializes a new instance of the `ExifData` class. |
-| [ExifData](exifdata/#constructor_1)(TiffDataType[]) | Initializes a new instance of the `ExifData` class with data from array. |
-| [ExifData](exifdata/#constructor_2)(TiffDataType[], TiffDataType[], TiffDataType[]) | Initializes a new instance of the `ExifData` class with data from array. |
+| [ExifData](exifdata/#constructor_1)(ExifData) | Initializes a new instance of the `ExifData` class with data from array. |
+| [ExifData](exifdata/#constructor_2)(TiffDataType[]) | Initializes a new instance of the `ExifData` class with data from array. |
+| [ExifData](exifdata/#constructor_3)(TiffDataType[], TiffDataType[], TiffDataType[]) | Initializes a new instance of the `ExifData` class with data from array. |
 
 ## Properties
 
@@ -109,7 +110,7 @@ public class ExifData : TiffDataTypeController
 | [MaxApertureValue](../../aspose.imaging.exif/exifdata/maxaperturevalue/) { get; set; } | Gets or sets the maximum aperture value. |
 | [MeteringMode](../../aspose.imaging.exif/exifdata/meteringmode/) { get; set; } | Gets or sets the metering mode. |
 | [OECF](../../aspose.imaging.exif/exifdata/oecf/) { get; set; } | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
-| [Orientation](../../aspose.imaging.exif/exifdata/orientation/) { get; set; } | Gets or sets the orientation. |
+| virtual [Orientation](../../aspose.imaging.exif/exifdata/orientation/) { get; set; } | Gets or sets the orientation. |
 | [PhotographicSensitivity](../../aspose.imaging.exif/exifdata/photographicsensitivity/) { get; set; } | Gets or sets the photographic sensitivity. |
 | [PixelXDimension](../../aspose.imaging.exif/exifdata/pixelxdimension/) { get; set; } | Gets or sets the pixel x dimension. |
 | [PixelYDimension](../../aspose.imaging.exif/exifdata/pixelydimension/) { get; set; } | Gets or sets the pixel y dimension. |
@@ -133,6 +134,7 @@ public class ExifData : TiffDataTypeController
 | [SubsecTime](../../aspose.imaging.exif/exifdata/subsectime/) { get; set; } | Gets or sets the fractions of seconds for the DateTime tag. |
 | [SubsecTimeDigitized](../../aspose.imaging.exif/exifdata/subsectimedigitized/) { get; set; } | Gets or sets the fractions of seconds for the DateTimeDigitized tag. |
 | [SubsecTimeOriginal](../../aspose.imaging.exif/exifdata/subsectimeoriginal/) { get; set; } | Gets or sets the fractions of seconds for the DateTimeOriginal tag. |
+| [Thumbnail](../../aspose.imaging.exif/exifdata/thumbnail/) { get; set; } | Gets or sets the thumbnail image. |
 | [UserComment](../../aspose.imaging.exif/exifdata/usercomment/) { get; set; } | Gets or sets the user comment. |
 | [WhiteBalance](../../aspose.imaging.exif/exifdata/whitebalance/) { get; set; } | Gets or sets the white balance. |
 | [WhitePoint](../../aspose.imaging.exif/exifdata/whitepoint/) { get; set; } | Gets or sets the chromaticity of the white point of the image. |
@@ -163,6 +165,7 @@ using (var image = (JpegImage)Image.Load("Sample.jpg"))
 ### See Also
 
 * class [TiffDataTypeController](../tiffdatatypecontroller/)
+* interface [IImageMetadataFormat](../../aspose.imaging.metadata/iimagemetadataformat/)
 * namespace [Aspose.Imaging.Exif](../../aspose.imaging.exif/)
 * assembly [Aspose.Imaging](../../)
 

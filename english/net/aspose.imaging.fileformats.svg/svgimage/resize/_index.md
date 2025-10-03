@@ -3,7 +3,7 @@ title: SvgImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: SvgImage method. Resize the image to fit the specified dimensions while preserving its aspect ratio. This method provides a convenient way to adjust the size of the image without distorting its proportions ensuring optimal display or storage according to the desired dimensions
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.imaging.fileformats.svg/svgimage/resize/
 ---
 ## SvgImage.Resize method

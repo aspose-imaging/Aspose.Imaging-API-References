@@ -3,7 +3,7 @@ title: ImageOptionsBase.ProgressEventHandler
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. Gets or sets the progress event handler
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging/imageoptionsbase/progresseventhandler/
 ---
 ## ImageOptionsBase.ProgressEventHandler property

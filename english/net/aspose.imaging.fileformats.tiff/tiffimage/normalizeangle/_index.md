@@ -3,7 +3,7 @@ title: TiffImage.NormalizeAngle
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Utilize the NormalizeAngle method specifically designed for scanned text documents to rectify skewed scans ensuring accurate alignment. Seamlessly integrate this functionality into your text processing workflows to enhance document readability and quality improving overall efficiency in text recognition and analysis tasks. This method uses GetSkewAngle and Rotate methods
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/normalizeangle/
 ---
 ## TiffImage.NormalizeAngle method

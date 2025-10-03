@@ -3,7 +3,7 @@ title: JpegExifData.SerializeExifData
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData method. Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.exif/jpegexifdata/serializeexifdata/
 ---
 ## JpegExifData.SerializeExifData method

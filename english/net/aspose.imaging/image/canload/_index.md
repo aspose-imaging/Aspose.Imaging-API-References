@@ -3,7 +3,7 @@ title: Image.CanLoad
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Determines whether image can be loaded from the specified file path
 type: docs
-weight: 300
+weight: 340
 url: /net/aspose.imaging/image/canload/
 ---
 ## CanLoad(string) {#canload_2}

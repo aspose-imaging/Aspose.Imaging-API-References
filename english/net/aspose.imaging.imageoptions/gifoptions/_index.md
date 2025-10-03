@@ -3,7 +3,7 @@ title: Class GifOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.GifOptions class. The API for Graphical Interchange Format GIF raster image file creation offers developers comprehensive options for generating GIF images with precise control. With features to set background color color palette resolution interlaced type transparent color XMP metadata container and image compression this API ensures flexibility and efficiency in creating optimized and visually appealing GIFs tailored to specific application requirements
 type: docs
-weight: 10250
+weight: 10260
 url: /net/aspose.imaging.imageoptions/gifoptions/
 ---
 ## GifOptions class
@@ -31,6 +31,7 @@ public class GifOptions : ImageOptionsBase
 | [ColorResolution](../../aspose.imaging.imageoptions/gifoptions/colorresolution/) { get; set; } | Gets or sets the GIF color resolution. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [DoPaletteCorrection](../../aspose.imaging.imageoptions/gifoptions/dopalettecorrection/) { get; set; } | Gets or sets a value indicating whether palette correction is applied. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [HasTrailer](../../aspose.imaging.imageoptions/gifoptions/hastrailer/) { get; set; } | Gets or sets a value indicating whether GIF has trailer. |
 | [HasTransparentColor](../../aspose.imaging.imageoptions/gifoptions/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether a GIF image has transparent color. If the return value is `null`, this property is overridden by the source image context. |
@@ -54,6 +55,7 @@ public class GifOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

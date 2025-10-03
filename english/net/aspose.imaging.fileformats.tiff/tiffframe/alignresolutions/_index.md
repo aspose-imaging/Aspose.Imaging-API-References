@@ -3,7 +3,7 @@ title: TiffFrame.AlignResolutions
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame method. Helper method to make horizontal and vertical resolutions equal
 type: docs
-weight: 160
+weight: 140
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/alignresolutions/
 ---
 ## TiffFrame.AlignResolutions method

@@ -3,7 +3,7 @@ title: Image.CanSave
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Determines whether image can be saved to the specified file format represented by the passed save options
 type: docs
-weight: 170
+weight: 200
 url: /net/aspose.imaging/image/cansave/
 ---
 ## Image.CanSave method

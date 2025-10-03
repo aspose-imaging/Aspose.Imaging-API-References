@@ -3,7 +3,7 @@ title: TiffImage.BinarizeOtsu
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Utilize Otsu thresholding to perform binarization on the image automatically determining the optimal threshold value based on the images histogram. Integrate this method into your image processing workflow to achieve effective segmentation and feature extraction enhancing the accuracy and reliability of image analysis tasks within your application
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/binarizeotsu/
 ---
 ## TiffImage.BinarizeOtsu method

@@ -3,7 +3,7 @@ title: TiffFrame.HasAlpha
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets a value indicating whether this instance has alpha
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/hasalpha/
 ---
 ## TiffFrame.HasAlpha property

@@ -3,7 +3,7 @@ title: GifImage.ClearBlocks
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Clearing all the GIF blocks removes any existing data stored within the image. This operation effectively resets the image to an empty state removing any previously added blocks. Use this method when you need to start fresh with a clean slate for creating or modifying a GIF image
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.imaging.fileformats.gif/gifimage/clearblocks/
 ---
 ## GifImage.ClearBlocks method

@@ -11,7 +11,7 @@ url: /net/aspose.imaging.exif/exifdata/orientation/
 Gets or sets the orientation.
 
 ```csharp
-public ExifOrientation Orientation { get; set; }
+public virtual ExifOrientation Orientation { get; set; }
 ```
 
 ### Property Value

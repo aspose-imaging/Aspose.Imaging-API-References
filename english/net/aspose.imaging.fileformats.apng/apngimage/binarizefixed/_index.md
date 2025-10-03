@@ -3,7 +3,7 @@ title: ApngImage.BinarizeFixed
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Effortlessly binarize the image using a predefined threshold with this intuitive method. Ideal for developers seeking to convert images into binary form simplifying them for further processing or analysis
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.imaging.fileformats.apng/apngimage/binarizefixed/
 ---
 ## ApngImage.BinarizeFixed method

@@ -28,8 +28,6 @@ The API for Graphical Interchange Format (GIF) image file provides developers wi
 | Method | Description |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | Retrieve the file format effortlessly with this property. |
-| [getXmpData()](#getXmpData--) | Manage XMP metadata with this property. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Manage XMP metadata with this property. |
 | [hasTrailer()](#hasTrailer--) | Manage the presence of a trailer in your GIF files with this property. |
 | [setTrailer(boolean value)](#setTrailer-boolean-) | Manage the presence of a trailer in your GIF files with this property. |
 | [isPaletteSorted()](#isPaletteSorted--) | Control the sorting of the palette in your GIF images using this property. |
@@ -223,29 +221,6 @@ Retrieve the file format effortlessly with this property. It's your go-to source
 
 **Returns:**
 long
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Manage XMP metadata with this property. Whether you're retrieving existing metadata or updating it with new information, this property streamlines the process. Keep your metadata organized and accessible, ensuring that your files contain the relevant information they need.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Manage XMP metadata with this property. Whether you're retrieving existing metadata or updating it with new information, this property streamlines the process. Keep your metadata organized and accessible, ensuring that your files contain the relevant information they need.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP metadata. |
-
 ### hasTrailer() {#hasTrailer--}
 ```
 public boolean hasTrailer()

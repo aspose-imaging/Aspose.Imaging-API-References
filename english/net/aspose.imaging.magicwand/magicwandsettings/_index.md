@@ -3,7 +3,7 @@ title: Class MagicWandSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.MagicWandSettings class. A magic wand selection settings class
 type: docs
-weight: 10810
+weight: 10820
 url: /net/aspose.imaging.magicwand/magicwandsettings/
 ---
 ## MagicWandSettings class

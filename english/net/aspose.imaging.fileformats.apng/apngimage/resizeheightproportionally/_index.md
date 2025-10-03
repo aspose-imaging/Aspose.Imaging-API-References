@@ -3,7 +3,7 @@ title: ApngImage.ResizeHeightProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Effortlessly adjust the height of your image while maintaining its proportions with this intuitive method. Perfect for developers looking to resize images dynamically while preserving their aspect ratio
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.imaging.fileformats.apng/apngimage/resizeheightproportionally/
 ---
 ## ApngImage.ResizeHeightProportionally method

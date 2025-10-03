@@ -42,6 +42,7 @@ public sealed class BmpImage : RasterCachedImage
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.bmp/bmpimage/fileformat/) { get; } | Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format. |
 | override [HasAlpha](../../aspose.imaging.fileformats.bmp/bmpimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
@@ -52,6 +53,7 @@ public sealed class BmpImage : RasterCachedImage
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents/) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter/) { get; set; } | Gets or sets the custom color converter |
@@ -67,7 +69,7 @@ public sealed class BmpImage : RasterCachedImage
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | override [VerticalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/verticalresolution/) { get; set; } | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/) object with this property. Perfect for developers requiring precise control over image resolution in their applications. |
 | override [Width](../../aspose.imaging.fileformats.bmp/bmpimage/width/) { get; } | Access the width of the image easily with this property. Ideal for developers seeking quick information about the image dimensions. |
-| virtual [XmpData](../../aspose.imaging/rasterimage/xmpdata/) { get; set; } | Gets or sets the XMP metadata. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -79,6 +81,7 @@ public sealed class BmpImage : RasterCachedImage
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float, float, float) | Gamma-correction of an image. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
+| [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed/)(byte) | Binarization of an image with predefined threshold |
@@ -155,6 +158,7 @@ public sealed class BmpImage : RasterCachedImage
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel/)(int, int, Color) | Sets an image pixel for the specified position. |
 | override [SetResolution](../../aspose.imaging.fileformats.bmp/bmpimage/setresolution/)(double, double) | Adjust the resolution of your [`RasterImage`](../../aspose.imaging/rasterimage/) effortlessly with this user-friendly method. Perfect for developers seeking precise control over image resolution in their applications. |
 | override [ToBitmap](../../aspose.imaging.fileformats.bmp/bmpimage/tobitmap/)() | Easily convert your raster image to a bitmap with this simple method. Perfect for developers needing to seamlessly transition between different image formats. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline/)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline/)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 

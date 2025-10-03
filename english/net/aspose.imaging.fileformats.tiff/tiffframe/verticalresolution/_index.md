@@ -3,7 +3,7 @@ title: TiffFrame.VerticalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets or sets the vertical resolution in pixels per inch of this RasterImage
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/verticalresolution/
 ---
 ## TiffFrame.VerticalResolution property

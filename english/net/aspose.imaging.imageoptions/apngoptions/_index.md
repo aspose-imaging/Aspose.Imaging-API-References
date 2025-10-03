@@ -3,7 +3,7 @@ title: Class ApngOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.ApngOptions class. The API for Animated PNG Animated Portable Network Graphics image file format creation is a dynamic tool for developers seeking to generate captivating animated images. With customizable options such as frame duration and the number of times to loop this API allows for finetuning animated content according to specific needs. Whether creating engaging web graphics or interactive visuals you can leverage this API to seamlessly incorporate APNG images with precise control over animation parameters
 type: docs
-weight: 10130
+weight: 10140
 url: /net/aspose.imaging.imageoptions/apngoptions/
 ---
 ## ApngOptions class
@@ -29,6 +29,7 @@ public class ApngOptions : PngOptions
 | [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype/) { get; set; } | Gets or sets the type of the color. |
 | [DefaultFrameTime](../../aspose.imaging.imageoptions/apngoptions/defaultframetime/) { get; set; } | Gets or sets the default frame duration. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
@@ -49,6 +50,7 @@ public class ApngOptions : PngOptions
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

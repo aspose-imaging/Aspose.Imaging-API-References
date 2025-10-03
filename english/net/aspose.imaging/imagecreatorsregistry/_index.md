@@ -3,7 +3,7 @@ title: Class ImageCreatorsRegistry
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageCreatorsRegistry class. Represents the image creators registry
 type: docs
-weight: 9840
+weight: 9850
 url: /net/aspose.imaging/imagecreatorsregistry/
 ---
 ## ImageCreatorsRegistry class

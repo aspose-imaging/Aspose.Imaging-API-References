@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.types.complex.resourceevent
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains class that is a high level event that occured in the processing of this document.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.imaging.xmp.types.complex.resourceevent/
 ---
 

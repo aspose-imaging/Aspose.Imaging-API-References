@@ -3,7 +3,7 @@ title: Image.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: Image property. Gets the image height
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging/image/height/
 ---
 ## Image.Height property

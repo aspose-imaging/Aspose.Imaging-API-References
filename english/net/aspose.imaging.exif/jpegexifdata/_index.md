@@ -119,7 +119,7 @@ public sealed class JpegExifData : ExifData
 | [MeteringMode](../../aspose.imaging.exif/exifdata/meteringmode/) { get; set; } | Gets or sets the metering mode. |
 | [Model](../../aspose.imaging.exif/jpegexifdata/model/) { get; set; } | Gets or sets the model. |
 | [OECF](../../aspose.imaging.exif/exifdata/oecf/) { get; set; } | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
-| [Orientation](../../aspose.imaging.exif/exifdata/orientation/) { get; set; } | Gets or sets the orientation. |
+| virtual [Orientation](../../aspose.imaging.exif/exifdata/orientation/) { get; set; } | Gets or sets the orientation. |
 | [PhotographicSensitivity](../../aspose.imaging.exif/exifdata/photographicsensitivity/) { get; set; } | Gets or sets the photographic sensitivity. |
 | [PhotometricInterpretation](../../aspose.imaging.exif/jpegexifdata/photometricinterpretation/) { get; set; } | Gets or sets the photometric interpretation. |
 | [PixelXDimension](../../aspose.imaging.exif/exifdata/pixelxdimension/) { get; set; } | Gets or sets the pixel x dimension. |
@@ -150,7 +150,7 @@ public sealed class JpegExifData : ExifData
 | [SubsecTime](../../aspose.imaging.exif/exifdata/subsectime/) { get; set; } | Gets or sets the fractions of seconds for the DateTime tag. |
 | [SubsecTimeDigitized](../../aspose.imaging.exif/exifdata/subsectimedigitized/) { get; set; } | Gets or sets the fractions of seconds for the DateTimeDigitized tag. |
 | [SubsecTimeOriginal](../../aspose.imaging.exif/exifdata/subsectimeoriginal/) { get; set; } | Gets or sets the fractions of seconds for the DateTimeOriginal tag. |
-| [Thumbnail](../../aspose.imaging.exif/jpegexifdata/thumbnail/) { get; set; } | Gets or sets the thumbnail image. |
+| [Thumbnail](../../aspose.imaging.exif/exifdata/thumbnail/) { get; set; } | Gets or sets the thumbnail image. |
 | [TransferFunction](../../aspose.imaging.exif/jpegexifdata/transferfunction/) { get; set; } | Gets or sets the transfer function. |
 | [UserComment](../../aspose.imaging.exif/exifdata/usercomment/) { get; set; } | Gets or sets the user comment. |
 | [WhiteBalance](../../aspose.imaging.exif/exifdata/whitebalance/) { get; set; } | Gets or sets the white balance. |

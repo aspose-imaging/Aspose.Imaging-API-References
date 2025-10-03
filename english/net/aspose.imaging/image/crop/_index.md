@@ -3,7 +3,7 @@ title: Image.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Crops the specified rectangle
 type: docs
-weight: 180
+weight: 210
 url: /net/aspose.imaging/image/crop/
 ---
 ## Crop(Rectangle) {#crop}

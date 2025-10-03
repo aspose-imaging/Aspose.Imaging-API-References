@@ -3,7 +3,7 @@ title: TiffImage.VerticalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Access the vertical resolution of the designated Image in pixels per inch enabling precise adjustments and rendering optimizations. Utilize essential image data effortlessly to streamline image processing workflows ensuring superior quality and performance in your applications
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/verticalresolution/
 ---
 ## TiffImage.VerticalResolution property

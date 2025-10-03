@@ -30,8 +30,6 @@ Efficiently manipulate JPEG2000 (JP2) image files with our API, supporting a ran
 
 | Method | Description |
 | --- | --- |
-| [getXmpData()](#getXmpData--) | Retrieve the XMP metadata associated with the image. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Modify the XMP metadata associated with the image. |
 | [getFileFormat()](#getFileFormat--) | Retrieve the format of the image file. |
 | [getRawDataFormat()](#getRawDataFormat--) | This property retrieves the raw data format of the image. |
 | [getRawLineSize()](#getRawLineSize--) | This property retrieves the size of a single line of raw image data in bytes. |
@@ -186,29 +184,6 @@ Initialize a fresh [Jpeg2000Image](../../com.aspose.imaging.fileformats.jpeg2000
 | --- | --- | --- |
 | rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | The image to initialize pixel and palette data with. |
 | bitsPerPixel | int | The bits per pixel. |
-
-### getXmpData() {#getXmpData--}
-```
-public XmpPacketWrapper getXmpData()
-```
-
-
-Retrieve the XMP metadata associated with the image. This property grants access to the Extensible Metadata Platform (XMP) information embedded within the image file, allowing for manipulation or extraction of metadata attributes such as author details, copyright information, and descriptive tags. Utilizing this property empowers you to manage and leverage metadata embedded within the image, enhancing interoperability and metadata-driven workflows in your image processing tasks.
-
-**Returns:**
-[XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) - The XMP metadata.
-### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
-```
-public void setXmpData(XmpPacketWrapper value)
-```
-
-
-Modify the XMP metadata associated with the image. This property grants access to the Extensible Metadata Platform (XMP) information embedded within the image file, allowing for manipulation or extraction of metadata attributes such as author details, copyright information, and descriptive tags. Utilizing this property empowers you to manage and leverage metadata embedded within the image, enhancing interoperability and metadata-driven workflows in your image processing tasks.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | The XMP metadata. |
 
 ### getFileFormat() {#getFileFormat--}
 ```

@@ -3,7 +3,7 @@ title: Interface IMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IMultipageImage interface. The multipage image interface
 type: docs
-weight: 9690
+weight: 9700
 url: /net/aspose.imaging/imultipageimage/
 ---
 ## IMultipageImage interface

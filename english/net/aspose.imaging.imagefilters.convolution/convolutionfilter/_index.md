@@ -3,7 +3,7 @@ title: Class ConvolutionFilter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.Convolution.ConvolutionFilter class. The kernel matrix provider class
 type: docs
-weight: 9880
+weight: 9890
 url: /net/aspose.imaging.imagefilters.convolution/convolutionfilter/
 ---
 ## ConvolutionFilter class

@@ -3,7 +3,7 @@ title: SvgImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: SvgImage method. Applies a specified palette to the image enabling customization of color schemes for aesthetic or functional purposes. This method provides flexibility in managing color palettes to suit various design or application requirements
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.svg/svgimage/setpalette/
 ---
 ## SvgImage.SetPalette method

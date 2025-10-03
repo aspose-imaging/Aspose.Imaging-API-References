@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.exif/exifdata/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.exif.TiffDataTypeController](../../com.aspose.imaging.exif/tiffdatatypecontroller)
+
+**All Implemented Interfaces:**
+[com.aspose.imaging.metadata.IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)
 ```
-public class ExifData extends TiffDataTypeController
+public class ExifData extends TiffDataTypeController implements IImageMetadataFormat
 ```
 
 EXIF data container.
@@ -20,6 +23,7 @@ EXIF data container.
 | [ExifData()](#ExifData--) | Initializes a new instance of the `ExifData` class. |
 | [ExifData(TiffDataType[] exifdata)](#ExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `ExifData` class with data from array. |
 | [ExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#ExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `ExifData` class with data from array. |
+| [ExifData(ExifData exifdata)](#ExifData-com.aspose.imaging.exif.ExifData-) | Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class with data from array. |
 ## Methods
 
 | Method | Description |
@@ -184,8 +188,8 @@ EXIF data container.
 | [setMeteringMode(int value)](#setMeteringMode-int-) | Gets or sets the metering mode. |
 | [getOECF()](#getOECF--) | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
 | [setOECF(byte[] value)](#setOECF-byte---) | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
-| [getOrientation()](#getOrientation--) | Gets the orientation. |
-| [setOrientation(int value)](#setOrientation-int-) | Sets the orientation. |
+| [getOrientation()](#getOrientation--) | Gets the orientation [ExifOrientation](../../com.aspose.imaging.exif.enums/exiforientation). |
+| [setOrientation(int value)](#setOrientation-int-) | Sets the orientation [ExifOrientation](../../com.aspose.imaging.exif.enums/exiforientation). |
 | [getPixelXDimension()](#getPixelXDimension--) | Gets or sets the pixel x dimension. |
 | [setPixelXDimension(long value)](#setPixelXDimension-long-) | Gets or sets the pixel x dimension. |
 | [getPixelYDimension()](#getPixelYDimension--) | Gets or sets the pixel y dimension. |
@@ -242,6 +246,8 @@ EXIF data container.
 | [setExifTags(TiffDataType[] value)](#setExifTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Gets or sets tags which belong to EXIF section only. |
 | [getGPSTags()](#getGPSTags--) | Gets or sets tags, which belong to GPS section only. |
 | [setGPSTags(TiffDataType[] value)](#setGPSTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Gets or sets tags, which belong to GPS section only. |
+| [getThumbnail()](#getThumbnail--) | Gets the thumbnail image. |
+| [setThumbnail(RasterImage value)](#setThumbnail-com.aspose.imaging.RasterImage-) | Sets the thumbnail image. |
 | [removeTag(int tagId)](#removeTag-int-) | Remove tag from container |
 
 ## Example: Access camera manufacturer maker notes in Jpeg image.
@@ -291,6 +297,19 @@ Initializes a new instance of the `ExifData` class with data from array.
 | commonTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The common tags. |
 | exifTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The EXIF tags. |
 | gpsTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The GPS tags. |
+
+### ExifData(ExifData exifdata) {#ExifData-com.aspose.imaging.exif.ExifData-}
+```
+public ExifData(ExifData exifdata)
+```
+
+
+Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class with data from array.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| exifdata | [ExifData](../../com.aspose.imaging.exif/exifdata) | Array of EXIF tags together with common and GPS tags. |
 
 ### isBigEndian() {#isBigEndian--}
 ```
@@ -2472,11 +2491,11 @@ Value: The Opto-Electric Conversion Function (OECF) specified in ISO 14524.
 
 ### getOrientation() {#getOrientation--}
 ```
-public final int getOrientation()
+public int getOrientation()
 ```
 
 
-Gets the orientation.
+Gets the orientation [ExifOrientation](../../com.aspose.imaging.exif.enums/exiforientation).
 
 Value: The orientation.
 
@@ -2484,11 +2503,11 @@ Value: The orientation.
 int - the orientation.
 ### setOrientation(int value) {#setOrientation-int-}
 ```
-public final void setOrientation(int value)
+public void setOrientation(int value)
 ```
 
 
-Sets the orientation.
+Sets the orientation [ExifOrientation](../../com.aspose.imaging.exif.enums/exiforientation).
 
 Value: The orientation.
 
@@ -3252,6 +3271,29 @@ Value: The GPS tags.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) |  |
+
+### getThumbnail() {#getThumbnail--}
+```
+public final RasterImage getThumbnail()
+```
+
+
+Gets the thumbnail image.
+
+**Returns:**
+[RasterImage](../../com.aspose.imaging/rasterimage) - the thumbnail image.
+### setThumbnail(RasterImage value) {#setThumbnail-com.aspose.imaging.RasterImage-}
+```
+public final void setThumbnail(RasterImage value)
+```
+
+
+Sets the thumbnail image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [RasterImage](../../com.aspose.imaging/rasterimage) | the thumbnail image. |
 
 ### removeTag(int tagId) {#removeTag-int-}
 ```

@@ -3,7 +3,7 @@ title: VectorMultipageImage.GetSerializedStream
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Converts to aps
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging/vectormultipageimage/getserializedstream/
 ---
 ## VectorMultipageImage.GetSerializedStream method

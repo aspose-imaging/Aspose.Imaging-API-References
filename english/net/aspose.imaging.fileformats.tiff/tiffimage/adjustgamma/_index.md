@@ -3,7 +3,7 @@ title: TiffImage.AdjustGamma
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Apply gamma correction to the image adjusting pixel intensities to achieve desired color balance. Incorporate this method into your image processing workflow to enhance visual quality and improve the accuracy of subsequent analysis or display tasks within your application
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}

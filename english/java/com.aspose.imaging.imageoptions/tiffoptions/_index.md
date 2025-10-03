@@ -10,7 +10,7 @@ url: /java/com.aspose.imaging.imageoptions/tiffoptions/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
 
 **All Implemented Interfaces:**
-com.aspose.internal.IMetadataContainer
+[com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
 ```
 public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 ```
@@ -250,7 +250,7 @@ public TiffOptions(int expectedFormat)
 ```
 
 
-Initializes a new instance of the `TiffOptions` class. By default little endian convention is used.
+Initializes a new instance of the `TiffOptions` class. By default, little endian convention is used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1232,7 +1232,7 @@ public int getOrientation()
 Gets or sets the orientation.
 
 **Returns:**
-int - The orientation.
+int - The orientation [TiffOrientations](../../com.aspose.imaging.fileformats.tiff.enums/tifforientations).
 ### setOrientation(int value) {#setOrientation-int-}
 ```
 public void setOrientation(int value)
@@ -1244,7 +1244,7 @@ Gets or sets the orientation.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The orientation. |
+| value | int | The orientation [TiffOrientations](../../com.aspose.imaging.fileformats.tiff.enums/tifforientations). |
 
 ### getPageName() {#getPageName--}
 ```
@@ -2253,7 +2253,7 @@ Value: Information about image, used by Windows Explorer.
 
 ### getExifData() {#getExifData--}
 ```
-public final ExifData getExifData()
+public ExifData getExifData()
 ```
 
 
@@ -2263,7 +2263,7 @@ Gets Exif data.
 [ExifData](../../com.aspose.imaging.exif/exifdata) - Exif data.
 ### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
 ```
-public final void setExifData(ExifData value)
+public void setExifData(ExifData value)
 ```
 
 

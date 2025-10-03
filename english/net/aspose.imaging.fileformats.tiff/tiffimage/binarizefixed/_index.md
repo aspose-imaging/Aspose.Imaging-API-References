@@ -3,7 +3,7 @@ title: TiffImage.BinarizeFixed
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Apply binarization to the image using a predefined threshold converting it into a binary image with distinct foreground and background regions. Incorporate this method into your image processing workflow to facilitate segmentation and feature extraction tasks enhancing the accuracy and efficiency of image analysis within your application
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/binarizefixed/
 ---
 ## TiffImage.BinarizeFixed method

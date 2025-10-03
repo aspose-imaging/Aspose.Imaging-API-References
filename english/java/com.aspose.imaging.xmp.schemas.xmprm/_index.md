@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.schemas.xmprm
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains related to rights management helper classes constants and methods.
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.imaging.xmp.schemas.xmprm/
 ---
 

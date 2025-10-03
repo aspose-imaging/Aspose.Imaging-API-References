@@ -31,6 +31,7 @@ public sealed class EpsImage : VectorImage
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [EpsType](../../aspose.imaging.fileformats.eps/epsimage/epstype/) { get; } | Access and interpret the subtype value of your EPS image, streamlining your workflow and enhancing compatibility across platforms. Ideal for optimizing EPS subtype retrieval in your projects with precision and efficiency. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.eps/epsimage/fileformat/) { get; } | Access the file format of your image with this property. Retrieve essential information about the format of your image file, facilitating compatibility and efficient processing. Ideal for identifying the format of your image files for seamless integration into your projects. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | [HasRasterPreview](../../aspose.imaging.fileformats.eps/epsimage/hasrasterpreview/) { get; } | Discover the presence of a raster preview effortlessly with this property. Access the boolean value indicating whether the `EpsImage` instance includes a raster preview, empowering your image processing tasks with clarity and efficiency. Ideal for streamlining workflow decisions based on the presence or absence of raster previews in EPS images. |
@@ -38,6 +39,7 @@ public sealed class EpsImage : VectorImage
 | override [HeightF](../../aspose.imaging.fileformats.eps/epsimage/heightf/) { get; } | Access the height of the image using this property. Obtain the image's height with ease, enabling seamless layout adjustments, aspect ratio calculations, and precise rendering across different screen resolutions and display environments. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.eps/epsimage/iscached/) { get; } | This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. It offers a quick and efficient method to determine if the required information is readily available, optimizing performance and reducing resource overhead in data-intensive operations. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [PostScriptVersion](../../aspose.imaging.fileformats.eps/epsimage/postscriptversion/) { get; } | This property retrieves the PostScript version associated with the `EpsImage` instance. It offers insight into the specific PostScript language version utilized within the EPS file, aiding in compatibility assessment and facilitating seamless integration with PostScript-compatible environments. |
 | [PreviewImageCount](../../aspose.imaging.fileformats.eps/epsimage/previewimagecount/) { get; } | Access the number of preview images available with ease. This property allows you to effortlessly retrieve the count of preview images associated with your file, enabling efficient management and navigation of your image previews. Ideal for optimizing your workflow and organizing your image assets effectively. |
@@ -48,6 +50,7 @@ public sealed class EpsImage : VectorImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.eps/epsimage/widthf/) { get; } | Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -87,6 +90,7 @@ public sealed class EpsImage : VectorImage
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging.fileformats.eps/epsimage/setpalette/)(IColorPalette, bool) | Customize image palettes to achieve unique color schemes and enhance visual appeal. Tailor colors for specific effects and optimize image quality across different platforms and devices with ease. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ## Examples
 

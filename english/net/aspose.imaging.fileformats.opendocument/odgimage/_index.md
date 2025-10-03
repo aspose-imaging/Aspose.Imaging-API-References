@@ -33,6 +33,7 @@ public class OdgImage : OdImage
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.opendocument/odgimage/fileformat/) { get; } | Gets a value of file format |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [Height](../../aspose.imaging/vectormultipageimage/height/) { get; } | Gets the image height. |
@@ -40,6 +41,7 @@ public class OdgImage : OdImage
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.opendocument/odimage/iscached/) { get; } | Obtains a boolean value indicating whether the data of the object is currently cached, thus eliminating the need for data reading. This property serves as an optimization indicator, enhancing performance by minimizing redundant data access operation. |
 | [Metadata](../../aspose.imaging.fileformats.opendocument/odimage/metadata/) { get; } | Retrieves metadata specific to OpenDocument files. This property allows access to essential information embedded within OD files, facilitating various operations such as extraction, modification, or analysis of metadata. |
+| override [Metadata](../../aspose.imaging/vectormultipageimage/metadata/) { get; } | Gets the image metadata. |
 | override [PageCount](../../aspose.imaging.fileformats.opendocument/odimage/pagecount/) { get; } | Retrieves the total count of pages within the image. This property is essential for applications managing multi-page images, enabling them to accurately determine the number of pages available for processing or display. |
 | virtual [PageExportingAction](../../aspose.imaging/vectormultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | override [Pages](../../aspose.imaging.fileformats.opendocument/odgimage/pages/) { get; } | Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. By accessing this property, developers can iterate through individual pages, retrieve specific pages based on their index, or perform batch operations on the entire collection. |
@@ -50,6 +52,7 @@ public class OdgImage : OdImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectormultipageimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -87,6 +90,7 @@ public class OdgImage : OdImage
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging/vectormultipageimage/setpalette/)(IColorPalette, bool) | Sets the image palette. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: Enum MatrixOrder
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MatrixOrder enum. Specifies the order for matrix transform operations
 type: docs
-weight: 11010
+weight: 11020
 url: /net/aspose.imaging/matrixorder/
 ---
 ## MatrixOrder enumeration

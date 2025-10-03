@@ -3,7 +3,7 @@ title: VectorMultipageImage.RotateFlip
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Rotates flips or rotates and flips the image
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging/vectormultipageimage/rotateflip/
 ---
 ## VectorMultipageImage.RotateFlip method

@@ -3,7 +3,7 @@ title: VectorMultipageImage.PageCount
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage property. Gets the page count
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging/vectormultipageimage/pagecount/
 ---
 ## VectorMultipageImage.PageCount property

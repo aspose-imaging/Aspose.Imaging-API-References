@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Types.Derived
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes that represent the derived type values of XMP properties
 type: docs
-weight: 1180
+weight: 1190
 url: /net/aspose.imaging.xmp.types.derived/
 ---
 The namespace contains classes that represent the derived type values of XMP properties.

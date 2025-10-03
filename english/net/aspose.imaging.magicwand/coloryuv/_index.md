@@ -3,7 +3,7 @@ title: Struct ColorYUV
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ColorYUV struct. Represents an YUV color
 type: docs
-weight: 10700
+weight: 10710
 url: /net/aspose.imaging.magicwand/coloryuv/
 ---
 ## ColorYUV structure

@@ -18,9 +18,9 @@ EXIF data container for jpeg files.
 | Constructor | Description |
 | --- | --- |
 | [JpegExifData()](#JpegExifData--) | Initializes a new instance of the `JpegExifData` class. |
-| [JpegExifData(TiffDataType[] exifdata)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `JpegExifData` class with data from array. |
+| [JpegExifData(TiffDataType[] exifData)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `JpegExifData` class with data from array. |
 | [JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `JpegExifData` class with data from array. |
-| [JpegExifData(ExifData exifdata)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | Initializes a new instance of the [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) class with data from array. |
+| [JpegExifData(ExifData exifData)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | Initializes a new instance of the [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) class with data from array. |
 ## Fields
 
 | Field | Description |
@@ -62,8 +62,6 @@ EXIF data container for jpeg files.
 | [setSamplesPerPixel(int value)](#setSamplesPerPixel-int-) | Gets or sets the samples per pixel. |
 | [getSoftware()](#getSoftware--) | Gets or sets the software. |
 | [setSoftware(String value)](#setSoftware-java.lang.String-) | Gets or sets the software. |
-| [getThumbnail()](#getThumbnail--) | Gets or sets the thumbnail image. |
-| [setThumbnail(RasterImage value)](#setThumbnail-com.aspose.imaging.RasterImage-) | Gets or sets the thumbnail image. |
 | [getTransferFunction()](#getTransferFunction--) | Gets or sets the transfer function. |
 | [setTransferFunction(int[] value)](#setTransferFunction-int---) | Gets or sets the transfer function. |
 | [getXResolution()](#getXResolution--) | Gets or sets the x resolution. |
@@ -85,9 +83,9 @@ public JpegExifData()
 
 Initializes a new instance of the `JpegExifData` class.
 
-### JpegExifData(TiffDataType[] exifdata) {#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---}
+### JpegExifData(TiffDataType[] exifData) {#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
-public JpegExifData(TiffDataType[] exifdata)
+public JpegExifData(TiffDataType[] exifData)
 ```
 
 
@@ -96,7 +94,7 @@ Initializes a new instance of the `JpegExifData` class with data from array.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| exifdata | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | Array of EXIF tags together with common and GPS tags. |
+| exifData | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | Array of EXIF tags together with common and GPS tags. |
 
 ### JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags) {#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
@@ -113,9 +111,9 @@ Initializes a new instance of the `JpegExifData` class with data from array.
 | exifTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The EXIF tags. |
 | gpsTags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | The GPS tags. |
 
-### JpegExifData(ExifData exifdata) {#JpegExifData-com.aspose.imaging.exif.ExifData-}
+### JpegExifData(ExifData exifData) {#JpegExifData-com.aspose.imaging.exif.ExifData-}
 ```
-public JpegExifData(ExifData exifdata)
+public JpegExifData(ExifData exifData)
 ```
 
 
@@ -124,7 +122,7 @@ Initializes a new instance of the [JpegExifData](../../com.aspose.imaging.exif/j
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| exifdata | [ExifData](../../com.aspose.imaging.exif/exifdata) | Array of EXIF tags together with common and GPS tags. |
+| exifData | [ExifData](../../com.aspose.imaging.exif/exifdata) | Array of EXIF tags together with common and GPS tags. |
 
 ### MAX_EXIF_SEGMENT_SIZE {#MAX-EXIF-SEGMENT-SIZE}
 ```
@@ -565,33 +563,6 @@ Value: The software.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### getThumbnail() {#getThumbnail--}
-```
-public RasterImage getThumbnail()
-```
-
-
-Gets or sets the thumbnail image.
-
-Value: The thumbnail.
-
-**Returns:**
-[RasterImage](../../com.aspose.imaging/rasterimage)
-### setThumbnail(RasterImage value) {#setThumbnail-com.aspose.imaging.RasterImage-}
-```
-public void setThumbnail(RasterImage value)
-```
-
-
-Gets or sets the thumbnail image.
-
-Value: The thumbnail.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [RasterImage](../../com.aspose.imaging/rasterimage) |  |
 
 ### getTransferFunction() {#getTransferFunction--}
 ```

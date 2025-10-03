@@ -3,7 +3,7 @@ title: Class TgaOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TgaOptions class. The TGA file format create options
 type: docs
-weight: 10500
+weight: 10510
 url: /net/aspose.imaging.imageoptions/tgaoptions/
 ---
 ## TgaOptions class
@@ -27,6 +27,7 @@ public class TgaOptions : ImageOptionsBase
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -43,6 +44,7 @@ public class TgaOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: Enum StringDigitSubstitute
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.StringDigitSubstitute enum. The enumeration specifies how to substitute digits in a string according to a users locale or language
 type: docs
-weight: 11620
+weight: 11650
 url: /net/aspose.imaging/stringdigitsubstitute/
 ---
 ## StringDigitSubstitute enumeration

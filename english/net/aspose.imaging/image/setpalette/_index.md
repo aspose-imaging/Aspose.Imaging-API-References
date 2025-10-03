@@ -3,7 +3,7 @@ title: Image.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Sets the image palette
 type: docs
-weight: 290
+weight: 320
 url: /net/aspose.imaging/image/setpalette/
 ---
 ## Image.SetPalette method

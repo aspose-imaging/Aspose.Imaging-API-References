@@ -3,7 +3,7 @@ title: VectorMultipageImage.Width
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage property. Gets the image width
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/vectormultipageimage/width/
 ---
 ## VectorMultipageImage.Width property

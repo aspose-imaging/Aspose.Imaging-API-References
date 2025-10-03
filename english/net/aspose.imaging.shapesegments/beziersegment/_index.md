@@ -3,7 +3,7 @@ title: Class BezierSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ShapeSegments.BezierSegment class. The bezier segment going from one point to the next point and using two control points
 type: docs
-weight: 11400
+weight: 11430
 url: /net/aspose.imaging.shapesegments/beziersegment/
 ---
 ## BezierSegment class

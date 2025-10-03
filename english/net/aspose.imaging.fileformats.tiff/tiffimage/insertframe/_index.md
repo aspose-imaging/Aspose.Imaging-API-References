@@ -3,7 +3,7 @@ title: TiffImage.InsertFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Insert the new frame at the specified index within the frame sequence ensuring precise control over frame arrangement. Employ this method to manage frame sequences effectively facilitating dynamic manipulation and organization of image content within your application
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/insertframe/
 ---
 ## TiffImage.InsertFrame method

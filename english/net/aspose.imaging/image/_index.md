@@ -3,7 +3,7 @@ title: Class Image
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Image class. The image is the base class for all type of images
 type: docs
-weight: 9810
+weight: 9820
 url: /net/aspose.imaging/image/
 ---
 ## Image class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging/image/
 The image is the base class for all type of images.
 
 ```csharp
-public abstract class Image : DataStreamSupporter, IObjectWithBounds
+public abstract class Image : DataStreamSupporter, IMetadataContainer, IObjectWithBounds
 ```
 
 ## Properties
@@ -26,26 +26,30 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the `Image` container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets a value of file format |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | abstract [Height](../../aspose.imaging/image/height/) { get; } | Gets the image height. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | abstract [IsCached](../../aspose.imaging/datastreamsupporter/iscached/) { get; } | Gets a value indicating whether object's data is cached currently and no data reading is required. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | abstract [Width](../../aspose.imaging/image/width/) { get; } | Gets the image width. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Create](../../aspose.imaging/image/create/#create_2)(Image[]) | Creates a new image using the specified images as pages |
+| static [Create](../../aspose.imaging/image/create/#create_3)(Image[]) | Creates a new image using the specified images as pages |
 | static [Create](../../aspose.imaging/image/create/#create)(MultipageCreateOptions) | Creates the specified multipage create options. |
-| static [Create](../../aspose.imaging/image/create/#create_4)(string[]) | Creates the multipage image containing the specified files. |
-| static [Create](../../aspose.imaging/image/create/#create_3)(Image[], bool) | Creates a new image the specified images as pages. |
-| static [Create](../../aspose.imaging/image/create/#create_5)(string[], bool) | Creates the multipage image containing the specified files. |
+| static [Create](../../aspose.imaging/image/create/#create_5)(string[]) | Creates the multipage image containing the specified files. |
+| static [Create](../../aspose.imaging/image/create/#create_4)(Image[], bool) | Creates a new image the specified images as pages. |
+| static [Create](../../aspose.imaging/image/create/#create_6)(string[], bool) | Creates the multipage image containing the specified files. |
 | static [Create](../../aspose.imaging/image/create/#create_1)(ImageOptionsBase, int, int) | Creates a new image using the specified create options. |
+| static [Create](../../aspose.imaging/image/create/#create_2)(ImageOptionsBase, int, int, int[]) | Creates a [`RasterImage`](../rasterimage/) instance from the provided pixel array. Validates that the specified width and height match the dimensions of the pixel data. This method can only be used when the library is in Licensed mode. |
 | static [Load](../../aspose.imaging/image/load/#load)(Stream) | Loads a new image from the specified stream. |
 | static [Load](../../aspose.imaging/image/load/#load_2)(string) | Loads a new image from the specified file path or URL. If *filePath* is a file path the method just opens the file. If *filePath* is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | static [Load](../../aspose.imaging/image/load/#load_1)(Stream, LoadOptions) | Loads a new image from the specified stream. |
@@ -79,6 +83,7 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | virtual [Save](../../aspose.imaging/image/save/#save_3)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/#save_6)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | abstract [SetPalette](../../aspose.imaging/image/setpalette/)(IColorPalette, bool) | Sets the image palette. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this `Image` instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 | static [CanLoad](../../aspose.imaging/image/canload/#canload)(Stream) | Determines whether image can be loaded from the specified stream. |
 | static [CanLoad](../../aspose.imaging/image/canload/#canload_2)(string) | Determines whether image can be loaded from the specified file path. |
 | static [CanLoad](../../aspose.imaging/image/canload/#canload_1)(Stream, LoadOptions) | Determines whether image can be loaded from the specified stream and optionally using the specified *loadOptions*. |
@@ -157,6 +162,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 * class [DataStreamSupporter](../datastreamsupporter/)
 * interface [IObjectWithBounds](../iobjectwithbounds/)
+* interface [IMetadataContainer](../imetadatacontainer/)
 * namespace [Aspose.Imaging](../../aspose.imaging/)
 * assembly [Aspose.Imaging](../../)
 

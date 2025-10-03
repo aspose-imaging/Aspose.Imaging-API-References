@@ -3,7 +3,7 @@ title: Class RemoveBackgroundSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RemoveBackgroundSettings class. The remve background settings
 type: docs
-weight: 11320
+weight: 11350
 url: /net/aspose.imaging/removebackgroundsettings/
 ---
 ## RemoveBackgroundSettings class

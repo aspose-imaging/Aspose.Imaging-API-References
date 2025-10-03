@@ -3,7 +3,7 @@ title: Class TiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TiffOptions class. The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method
 type: docs
-weight: 10510
+weight: 10520
 url: /net/aspose.imaging.imageoptions/tiffoptions/
 ---
 ## TiffOptions class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/
 The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method.
 
 ```csharp
-public class TiffOptions : ImageOptionsBase, IHasExifData
+public class TiffOptions : ImageOptionsBase
 ```
 
 ## Constructors
@@ -41,7 +41,7 @@ public class TiffOptions : ImageOptionsBase, IHasExifData
 | [DisableIccExport](../../aspose.imaging.imageoptions/tiffoptions/disableiccexport/) { get; set; } | Gets or sets a value indicating whether ICC profile export is disabled (ICC profile is applied to the source pixels beforehand). |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [DocumentName](../../aspose.imaging.imageoptions/tiffoptions/documentname/) { get; set; } | Gets or sets the name of the document. |
-| [ExifData](../../aspose.imaging.imageoptions/tiffoptions/exifdata/) { get; set; } | Gets or sets Exif data. |
+| override [ExifData](../../aspose.imaging.imageoptions/tiffoptions/exifdata/) { get; set; } | Gets or sets Exif data. |
 | [ExifIfd](../../aspose.imaging.imageoptions/tiffoptions/exififd/) { get; } | Gets or sets the pointer to EXIF IFD. |
 | [ExtraSamples](../../aspose.imaging.imageoptions/tiffoptions/extrasamples/) { get; } | Gets the extra samples values. |
 | [FaxT4Options](../../aspose.imaging.imageoptions/tiffoptions/faxt4options/) { get; set; } | Gets or sets the fax t4 options. |
@@ -120,6 +120,7 @@ public class TiffOptions : ImageOptionsBase, IHasExifData
 | [IsTagPresent](../../aspose.imaging.imageoptions/tiffoptions/istagpresent/)(TiffTags) | Determines whether tag is present in the options or not. |
 | [RemoveTag](../../aspose.imaging.imageoptions/tiffoptions/removetag/)(TiffTags) | Removes the tag. |
 | [RemoveTags](../../aspose.imaging.imageoptions/tiffoptions/removetags/)(params TiffTags[]) | Removes the tags. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 | [Validate](../../aspose.imaging.imageoptions/tiffoptions/validate/)() | Validates if options have valid combination of tags |
 | static [GetValidTagsCount](../../aspose.imaging.imageoptions/tiffoptions/getvalidtagscount/)(TiffDataType[]) | Gets the valid tags count. |
 
@@ -231,7 +232,6 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.t
 ### See Also
 
 * class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
-* interface [IHasExifData](../../aspose.imaging.exif/ihasexifdata/)
 * namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
 * assembly [Aspose.Imaging](../../)
 

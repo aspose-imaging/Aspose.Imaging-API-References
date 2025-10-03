@@ -3,7 +3,7 @@ title: TiffFrame.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame method. Cropping the image
 type: docs
-weight: 170
+weight: 150
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/crop/
 ---
 ## TiffFrame.Crop method

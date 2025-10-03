@@ -34,12 +34,14 @@ public class CmxImage : VectorMultipageImage, ICmxImage
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [Document](../../aspose.imaging.fileformats.cmx/cmximage/document/) { get; } | Retrieve the CMX document effortlessly with this intuitive property. Ideal for developers seeking to access or modify CMX images, ensuring flexibility and efficiency in their applications. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.cmx/cmximage/fileformat/) { get; } | Retrieve the file format of the image effortlessly with this user-friendly property. Ideal for developers seeking to determine the format of their images dynamically, ensuring compatibility and accurate processing in their applications. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [Height](../../aspose.imaging/vectormultipageimage/height/) { get; } | Gets the image height. |
 | override [HeightF](../../aspose.imaging.fileformats.cmx/cmximage/heightf/) { get; } | Effortlessly obtain the height of the object, measured in inches, with this user-friendly property. Ideal for developers seeking precise dimensional information for effective layout and presentation in their applications. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.cmx/cmximage/iscached/) { get; } | Determine whether the object's data is currently cached, eliminating the need for data reading. Ideal for developers seeking to optimize performance by leveraging cached data efficiently, ensuring faster access to object information. |
+| override [Metadata](../../aspose.imaging/vectormultipageimage/metadata/) { get; } | Gets the image metadata. |
 | override [PageCount](../../aspose.imaging.fileformats.cmx/cmximage/pagecount/) { get; } | Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking to manage multi-page images dynamically, ensuring efficient navigation and manipulation of image content. |
 | virtual [PageExportingAction](../../aspose.imaging/vectormultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | override [Pages](../../aspose.imaging.fileformats.cmx/cmximage/pages/) { get; } | Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multi-page images, ensuring efficient navigation and processing. |
@@ -49,6 +51,7 @@ public class CmxImage : VectorMultipageImage, ICmxImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectormultipageimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.cmx/cmximage/widthf/) { get; } | Retrieve the width of the object in inches with this intuitive property. Ideal for developers seeking precise measurements of objects in their applications, ensuring accurate layout and presentation. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -86,6 +89,7 @@ public class CmxImage : VectorMultipageImage, ICmxImage
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging.fileformats.cmx/cmximage/setpalette/)(IColorPalette, bool) | Customize the color palette of the image with this intuitive method. Ideal for developers seeking to apply specific color schemes or adjustments dynamically, ensuring precise control over the visual appearance of their images. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ## Examples
 

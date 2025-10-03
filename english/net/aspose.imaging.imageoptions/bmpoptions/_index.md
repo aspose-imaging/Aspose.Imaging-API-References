@@ -3,7 +3,7 @@ title: Class BmpOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.BmpOptions class. The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap BMP and Device Independent Bitmap DIB images. With this API you can precisely define image characteristics such as bits per pixel compression level and compression type tailoring the output to meet specific requirements. This featurerich API empowers developers to create highquality customized raster images with ease and flexibility for diverse applications
 type: docs
-weight: 10160
+weight: 10170
 url: /net/aspose.imaging.imageoptions/bmpoptions/
 ---
 ## BmpOptions class
@@ -29,6 +29,7 @@ public class BmpOptions : ImageOptionsBase
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Compression](../../aspose.imaging.imageoptions/bmpoptions/compression/) { get; set; } | Gets or sets the compression type. The default compression type is Bitfields, that allows saving a [`BmpImage`](../../aspose.imaging.fileformats.bmp/bmpimage/) with transparency. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
@@ -45,6 +46,7 @@ public class BmpOptions : ImageOptionsBase
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | Creates a memberwise clone of this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose/)() | Disposes the current instance. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 ## Examples
 

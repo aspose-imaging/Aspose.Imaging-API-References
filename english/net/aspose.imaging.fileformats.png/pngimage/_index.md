@@ -39,6 +39,7 @@ public class PngImage : RasterCachedImage
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.png/pngimage/fileformat/) { get; } | Retrieves the format of the file associated with the image instance. This property provides essential information regarding the file type, enabling efficient handling and processing based on the specific format requirements. |
 | override [HasAlpha](../../aspose.imaging.fileformats.png/pngimage/hasalpha/) { get; } | Returns a boolean value indicating whether the image has an alpha channel, which determines its transparency. This property is useful for applications that need to handle transparency, allowing developers to determine whether additional processing is required to handle transparent areas in the image. |
 | override [HasBackgroundColor](../../aspose.imaging.fileformats.png/pngimage/hasbackgroundcolor/) { get; set; } | Retrieves a boolean value indicating whether the image has a background color. This property is useful for applications needing to determine if an image includes a background color, which can be important for various processing tasks such as compositing, rendering, or exporting. |
@@ -51,6 +52,7 @@ public class PngImage : RasterCachedImage
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsInterlaced](../../aspose.imaging.fileformats.png/pngimage/isinterlaced/) { get; } | Returns a boolean value indicating if the image instance is interlaced. This property is crucial for optimizing loading strategies and ensuring efficient performance during image processing or display tasks. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents/) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter/) { get; set; } | Gets or sets the custom color converter |
@@ -66,7 +68,7 @@ public class PngImage : RasterCachedImage
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | override [VerticalResolution](../../aspose.imaging.fileformats.png/pngimage/verticalresolution/) { get; set; } | Provides access to the vertical resolution of the image. Developers can use this property to retrieve or modify the resolution setting, which indicates the number of pixels per inch (PPI) along the vertical axis of the image. |
 | override [Width](../../aspose.imaging.fileformats.png/pngimage/width/) { get; } | Allows retrieval of the width of the image, providing essential information about its dimensions. This property is frequently used by developers to determine the image's width, enabling them to perform various operations based on its size |
-| override [XmpData](../../aspose.imaging.fileformats.png/pngimage/xmpdata/) { get; set; } | Accesses or modifies the Extensible Metadata Platform (XMP) metadata associated with the image. This property facilitates the extraction, modification, or addition of metadata, enabling comprehensive management of image-related information. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -78,6 +80,7 @@ public class PngImage : RasterCachedImage
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float, float, float) | Gamma-correction of an image. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
+| [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed/)(byte) | Binarization of an image with predefined threshold |
@@ -154,6 +157,7 @@ public class PngImage : RasterCachedImage
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel/)(int, int, Color) | Sets an image pixel for the specified position. |
 | virtual [SetResolution](../../aspose.imaging/rasterimage/setresolution/)(double, double) | Sets the resolution for this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | virtual [ToBitmap](../../aspose.imaging/rasterimage/tobitmap/)() | Converts raster image to the bitmap. This method is not supported in versions from .Net7.0 and higher |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline/)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline/)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 

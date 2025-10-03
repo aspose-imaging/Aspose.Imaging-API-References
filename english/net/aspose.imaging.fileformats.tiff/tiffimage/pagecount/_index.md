@@ -3,7 +3,7 @@ title: TiffImage.PageCount
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage property. Retrieve the total count of pages within the specified document facilitating efficient navigation and management of multipage content. Incorporate this functionality to enhance user experience enabling seamless access to comprehensive document structures
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/pagecount/
 ---
 ## TiffImage.PageCount property

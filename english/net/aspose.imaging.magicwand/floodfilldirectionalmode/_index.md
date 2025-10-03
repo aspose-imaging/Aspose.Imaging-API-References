@@ -3,7 +3,7 @@ title: Enum FloodFillDirectionalMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.FloodFillDirectionalMode enum. Specifies how a Magic Wand algorithm is working
 type: docs
-weight: 10710
+weight: 10720
 url: /net/aspose.imaging.magicwand/floodfilldirectionalmode/
 ---
 ## FloodFillDirectionalMode enumeration

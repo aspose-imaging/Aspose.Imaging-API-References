@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.svg/svgimage/
 Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the power of XML-based text format for seamless customization and scalability. Easily load SVG images, rasterize vector elements, and convert to other formats, while controlling compression levels to optimize file size and quality for your projects.
 
 ```csharp
-public sealed class SvgImage : VectorImage, IHasXmpData
+public sealed class SvgImage : VectorImage
 ```
 
 ## Constructors
@@ -35,19 +35,21 @@ public sealed class SvgImage : VectorImage, IHasXmpData
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.svg/svgimage/fileformat/) { get; } | Retrieves the file format of the image, providing essential metadata for processing and compatibility checks. This property is instrumental in determining the appropriate decoding and encoding strategies for handling the image data effectively across different systems and applications. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [Height](../../aspose.imaging/vectorimage/height/) { get; } | Gets the image height. |
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.svg/svgimage/iscached/) { get; } | Retrieves a boolean value indicating whether the object's data is presently cached, eliminating the need for additional data reading operations. This property provides insight into the current caching status, optimizing data retrieval and processing workflows for enhanced performance and efficiency. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
-| [XmpData](../../aspose.imaging.fileformats.svg/svgimage/xmpdata/) { get; set; } | Gets or sets XMP data. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -85,6 +87,7 @@ public sealed class SvgImage : VectorImage, IHasXmpData
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging.fileformats.svg/svgimage/setpalette/)(IColorPalette, bool) | Applies a specified palette to the image, enabling customization of color schemes for aesthetic or functional purposes. This method provides flexibility in managing color palettes to suit various design or application requirements. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ## Examples
 
@@ -162,7 +165,6 @@ foreach (var file in files)
 ### See Also
 
 * class [VectorImage](../../aspose.imaging/vectorimage/)
-* interface [IHasXmpData](../../aspose.imaging.xmp/ihasxmpdata/)
 * namespace [Aspose.Imaging.FileFormats.Svg](../../aspose.imaging.fileformats.svg/)
 * assembly [Aspose.Imaging](../../)
 

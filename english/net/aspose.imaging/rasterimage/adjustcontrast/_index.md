@@ -3,7 +3,7 @@ title: RasterImage.AdjustContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Image contrasting
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging/rasterimage/adjustcontrast/
 ---
 ## RasterImage.AdjustContrast method

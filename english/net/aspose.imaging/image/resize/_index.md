@@ -3,7 +3,7 @@ title: Image.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Resizes the image. The default NearestNeighbourResample is used
 type: docs
-weight: 230
+weight: 260
 url: /net/aspose.imaging/image/resize/
 ---
 ## Resize(int, int) {#resize}

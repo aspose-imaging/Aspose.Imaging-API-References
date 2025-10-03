@@ -24,7 +24,7 @@ The open document
 | [isCached()](#isCached--) | Obtains a boolean value indicating whether the data of the object is currently cached, thus eliminating the need for data reading. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieves the count of bits per pixel for the image. |
 | [getPageCount()](#getPageCount--) | Retrieves the total count of pages within the image. |
-| [getMetadata()](#getMetadata--) | Retrieves metadata specific to OpenDocument files. |
+| [getOdMetadata()](#getOdMetadata--) | Retrieves metadata specific to OpenDocument files. |
 | [getRecords()](#getRecords--) | Retrieves the OpenDocument records stored within the image. |
 ### getDefaultPage() {#getDefaultPage--}
 ```
@@ -66,9 +66,9 @@ Retrieves the total count of pages within the image. This property is essential 
 
 **Returns:**
 int - the page count.
-### getMetadata() {#getMetadata--}
+### getOdMetadata() {#getOdMetadata--}
 ```
-public final OdMetadata getMetadata()
+public final OdMetadata getOdMetadata()
 ```
 
 

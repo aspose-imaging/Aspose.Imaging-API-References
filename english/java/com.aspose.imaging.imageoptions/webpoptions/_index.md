@@ -124,7 +124,7 @@ public int getAnimLoopCount()
 Gets or sets the animation loop count.
 
 **Returns:**
-int - The animartion loop count, 0 - infinity.
+int - The animation loop count, 0 - infinity.
 ### setAnimLoopCount(int value) {#setAnimLoopCount-int-}
 ```
 public void setAnimLoopCount(int value)
@@ -136,7 +136,7 @@ Gets or sets the animation loop count.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The animartion loop count, 0 - infinity. |
+| value | int | The animation loop count, 0 - infinity. |
 
 ### getAnimBackgroundColor() {#getAnimBackgroundColor--}
 ```

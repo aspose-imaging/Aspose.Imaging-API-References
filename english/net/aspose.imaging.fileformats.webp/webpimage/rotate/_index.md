@@ -3,7 +3,7 @@ title: WebPImage.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: WebPImage method. Rotate the image around its center by a specified angle while proportionally resizing it and applying specified background color parameters. Incorporate this method into your image processing workflow to achieve precise transformations with customizable background colors ensuring optimal visual presentation within your application
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging.fileformats.webp/webpimage/rotate/
 ---
 ## WebPImage.Rotate method

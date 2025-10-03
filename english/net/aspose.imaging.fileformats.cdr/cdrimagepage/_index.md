@@ -27,12 +27,14 @@ public class CdrImagePage : VectorImage, ICdrImage
 | [Container](../../aspose.imaging/image/container/) { get; } | Gets the [`Image`](../../aspose.imaging/image/) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | override [FileFormat](../../aspose.imaging.fileformats.cdr/cdrimagepage/fileformat/) { get; } | Gets a value of file format |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [Height](../../aspose.imaging/vectorimage/height/) { get; } | Gets the image height. |
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.cdr/cdrimagepage/iscached/) { get; } | Gets a value indicating whether object's data is cached currently and no data readig is required. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [PageNumber](../../aspose.imaging.fileformats.cdr/cdrimagepage/pagenumber/) { get; } | Gets the page number. |
 | [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [ParentImage](../../aspose.imaging.fileformats.cdr/cdrimagepage/parentimage/) { get; } | Gets the parent image. |
@@ -41,6 +43,7 @@ public class CdrImagePage : VectorImage, ICdrImage
 | virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 
@@ -78,6 +81,7 @@ public class CdrImagePage : VectorImage, ICdrImage
 | virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | override [SetPalette](../../aspose.imaging.fileformats.cdr/cdrimagepage/setpalette/)(IColorPalette, bool) | Sets the image palette. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | Tries to set a *metadata* instance, if this [`Image`](../../aspose.imaging/image/) instance supports and implements [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) type. |
 
 ### See Also
 

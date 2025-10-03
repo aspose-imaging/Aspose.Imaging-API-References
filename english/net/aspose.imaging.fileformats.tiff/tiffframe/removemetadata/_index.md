@@ -3,7 +3,7 @@ title: TiffFrame.RemoveMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame method. Removes this image instance metadata by setting this XmpData and ExifData values to null
 type: docs
-weight: 190
+weight: 170
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/removemetadata/
 ---
 ## TiffFrame.RemoveMetadata method

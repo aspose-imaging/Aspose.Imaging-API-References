@@ -3,7 +3,7 @@ title: TiffImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Resize the image according to a specified resizing type facilitating flexible adjustment of image dimensions while preserving aspect ratio or applying specific scaling algorithms. Incorporate this method into your image processing workflow to achieve precise control over resizing operations within your application
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

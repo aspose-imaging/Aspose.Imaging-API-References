@@ -3,7 +3,7 @@ title: GifImage.AddBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Adding a new GIF block allows you to include additional data within the image. This method enables you to append custom blocks to the GIF image which can contain various types of information
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.imaging.fileformats.gif/gifimage/addblock/
 ---
 ## GifImage.AddBlock method

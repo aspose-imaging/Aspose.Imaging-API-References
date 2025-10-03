@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Types.Complex.ResourceEvent
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains class that is a high level event that occured in the processing of this document
 type: docs
-weight: 1140
+weight: 1150
 url: /net/aspose.imaging.xmp.types.complex.resourceevent/
 ---
 The namespace contains class that is a high level event that occured in the processing of this document.

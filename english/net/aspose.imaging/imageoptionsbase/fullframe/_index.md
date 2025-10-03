@@ -3,7 +3,7 @@ title: ImageOptionsBase.FullFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: ImageOptionsBase property. Gets or sets a value indicating whether full frame
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging/imageoptionsbase/fullframe/
 ---
 ## ImageOptionsBase.FullFrame property

@@ -3,7 +3,7 @@ title: Interface IObjectWithSizeF
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Interfaces.IObjectWithSizeF interface. Represents object with Size which are expressed in real numbers in inches
 type: docs
-weight: 10620
+weight: 10630
 url: /net/aspose.imaging.interfaces/iobjectwithsizef/
 ---
 ## IObjectWithSizeF interface

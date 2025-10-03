@@ -3,7 +3,7 @@ title: TiffImage.Filter
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Filter the content within the specified rectangle applying a designated image processing filter to enhance or modify the selected region. Integrate this method into your image manipulation workflow to achieve targeted enhancements or transformations within your application
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/filter/
 ---
 ## TiffImage.Filter method

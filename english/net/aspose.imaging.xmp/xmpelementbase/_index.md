@@ -3,7 +3,7 @@ title: Class XmpElementBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpElementBase class. Represents base xmp element contains attributes
 type: docs
-weight: 12280
+weight: 12310
 url: /net/aspose.imaging.xmp/xmpelementbase/
 ---
 ## XmpElementBase class

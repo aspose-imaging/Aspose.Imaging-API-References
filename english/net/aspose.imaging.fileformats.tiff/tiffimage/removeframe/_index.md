@@ -3,7 +3,7 @@ title: TiffImage.RemoveFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Effortlessly eliminate the frame identified by its index from the image sequence streamlining frame management within your application. Integrate this functionality to enhance efficiency and precision in frame manipulation facilitating seamless organization and presentation of image content
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/removeframe/
 ---
 ## RemoveFrame(int) {#removeframe}

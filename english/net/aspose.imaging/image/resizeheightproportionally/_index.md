@@ -3,7 +3,7 @@ title: Image.ResizeHeightProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: Image method. Resizes the height proportionally. The default NearestNeighbourResample is used
 type: docs
-weight: 240
+weight: 270
 url: /net/aspose.imaging/image/resizeheightproportionally/
 ---
 ## ResizeHeightProportionally(int) {#resizeheightproportionally}

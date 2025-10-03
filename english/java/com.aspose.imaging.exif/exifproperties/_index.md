@@ -51,7 +51,7 @@ Exif tags list
 | [ExifVersion](#ExifVersion) | The exif version. |
 | [DateTimeOriginal](#DateTimeOriginal) | The date and time when the original image data was generated. |
 | [DateTimeDigitized](#DateTimeDigitized) | The date time digitized. |
-| [ComponentsConfiguration](#ComponentsConfiguration) | The components configuration. |
+| [ComponentsConfiguration](#ComponentsConfiguration) | The components' configuration. |
 | [CompressedBitsPerPixel](#CompressedBitsPerPixel) | Specific to compressed data; states the compressed bits per pixel. |
 | [ShutterSpeedValue](#ShutterSpeedValue) | The shutter speed value. |
 | [ApertureValue](#ApertureValue) | The lens aperture value. |
@@ -147,7 +147,7 @@ Exif tags list
 | [BodySerialNumber](#BodySerialNumber) | Contains camera body serial number |
 | [LensMake](#LensMake) | This tag records lens manufacturer |
 | [LensModel](#LensModel) | This tag records lens\`s model name and model number |
-| [LensSerialNumber](#LensSerialNumber) | This tag records the serial number of interchangable lens |
+| [LensSerialNumber](#LensSerialNumber) | This tag records the serial number of interchangeable lens |
 | [LensSpecification](#LensSpecification) | This tag notes minimum focal length, maximum focal length, minimum F number in the minimum focal length and minimum F number in maximum focal length |
 ### ImageWidth {#ImageWidth}
 ```
@@ -347,7 +347,7 @@ public static final int Copyright
 ```
 
 
-Copyright information. In this standard the tag is used to indicate both the photographer and editor copyrights. It is the copyright notice of the person or organization claiming rights to the image. The Interoperability copyright statement including date and rights should be written in this field; e.g., "Copyright, John Smith, 19xx. All rights reserved.". In this standard the field records both the photographer and editor copyrights, with each recorded in a separate part of the statement. When there is a clear distinction between the photographer and editor copyrights, these are to be written in the order of photographer followed by editor copyright, separated by NULL (in this case since the statement also ends with a NULL, there are two NULL codes). When only the photographer copyright is given, it is terminated by one NULL code . When only the editor copyright is given, the photographer copyright part consists of one space followed by a terminating NULL code, then the editor copyright is given. When the field is left blank, it is treated as unknown.
+Copyright information. In this standard the tag is used to indicate both the photographer and editor copyrights. It is the copyright notice of the person or organization claiming rights to the image. The Interoperability copyright statement including date and rights should be written in this field; e.g., "Copyright, John Smith, 19xx. All rights reserved." In this standard the field records both the photographer and editor copyrights, with each recorded in a separate part of the statement. When there is a clear distinction between the photographer and editor copyrights, these are to be written in the order of photographer followed by editor copyright, separated by NULL (in this case since the statement also ends with a NULL, there are two NULL codes). When only the photographer copyright is given, it is terminated by one NULL code . When only the editor copyright is given, the photographer copyright part consists of one space followed by a terminating NULL code, then the editor copyright is given. When the field is left blank, it is treated as unknown.
 
 ### ExposureTime {#ExposureTime}
 ```
@@ -427,7 +427,7 @@ public static final int ComponentsConfiguration
 ```
 
 
-The components configuration.
+The components' configuration.
 
 ### CompressedBitsPerPixel {#CompressedBitsPerPixel}
 ```
@@ -867,7 +867,7 @@ public static final int GPSMeasureMode
 ```
 
 
-Indicates the GPS measurement mode. - 2- or 3- dimensional.
+Indicates the GPS measurement mode. - 2- or 3-dimensional.
 
 ### GPSDOP {#GPSDOP}
 ```
@@ -1091,7 +1091,7 @@ public static final int PixelXDimension
 ```
 
 
-Information specific to compressed data. When a compressed file is recorded, the valid width of the meaningful image shall be recorded in this tag, whether or not there is padding data or a restart marker.
+Information specific to compressed data. When a compressed file is recorded, the valid width of the meaningful image shall be recorded in this tag, whether there is padding data or a restart marker.
 
 ### PixelYDimension {#PixelYDimension}
 ```
@@ -1195,7 +1195,7 @@ public static final int LensSerialNumber
 ```
 
 
-This tag records the serial number of interchangable lens
+This tag records the serial number of interchangeable lens
 
 ### LensSpecification {#LensSpecification}
 ```

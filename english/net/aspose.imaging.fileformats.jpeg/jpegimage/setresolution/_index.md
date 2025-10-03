@@ -3,7 +3,7 @@ title: JpegImage.SetResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegImage method. Establishes the resolution for the specified RasterImage ensuring accurate scaling and printing capabilities. This method empowers users to tailor the image resolution to suit their specific requirements whether for digital display or physical reproduction. By setting the resolution users can optimize image quality and ensure compatibility with various output devices and mediums enhancing the overall visual experience and usability of the image
 type: docs
-weight: 230
+weight: 210
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/setresolution/
 ---
 ## JpegImage.SetResolution method

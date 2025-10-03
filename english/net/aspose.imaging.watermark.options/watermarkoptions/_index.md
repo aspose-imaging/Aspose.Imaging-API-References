@@ -3,7 +3,7 @@ title: Class WatermarkOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Watermark.Options.WatermarkOptions class. The common watermark remover algorithm options
 type: docs
-weight: 11730
+weight: 11760
 url: /net/aspose.imaging.watermark.options/watermarkoptions/
 ---
 ## WatermarkOptions class

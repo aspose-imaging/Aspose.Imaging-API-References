@@ -3,7 +3,7 @@ title: GifImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Resizes this Image instance
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.imaging.fileformats.gif/gifimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

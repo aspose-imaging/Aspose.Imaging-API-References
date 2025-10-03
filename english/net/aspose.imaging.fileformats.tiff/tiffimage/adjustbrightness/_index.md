@@ -3,7 +3,7 @@ title: TiffImage.AdjustBrightness
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Implement brightness adjustment for the image allowing the modification of overall luminance levels. Incorporate this method into your image processing workflow to enhance visibility and improve the visual quality of images within your application
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/adjustbrightness/
 ---
 ## TiffImage.AdjustBrightness method

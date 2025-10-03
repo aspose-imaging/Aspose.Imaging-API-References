@@ -3,7 +3,7 @@ title: IRasterImageRawDataLoader
 second_title: Aspose.Imaging for Java API Reference
 description: The raster image raw data loader.
 type: docs
-weight: 147
+weight: 148
 url: /java/com.aspose.imaging/irasterimagerawdataloader/
 ---```
 public interface IRasterImageRawDataLoader

@@ -3,7 +3,7 @@ title: TiffImage.ResizeHeightProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Conduct a proportional adjustment of the images height preserving its aspect ratio for consistent visual integrity. Employ this method to dynamically resize images within your application ensuring optimal display across diverse platforms and devices without compromising content quality
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/resizeheightproportionally/
 ---
 ## TiffImage.ResizeHeightProportionally method

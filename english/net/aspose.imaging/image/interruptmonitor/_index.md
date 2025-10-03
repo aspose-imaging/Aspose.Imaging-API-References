@@ -3,7 +3,7 @@ title: Image.InterruptMonitor
 second_title: Aspose.Imaging for .NET API Reference
 description: Image property. Gets or sets the interrupt monitor
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging/image/interruptmonitor/
 ---
 ## Image.InterruptMonitor property

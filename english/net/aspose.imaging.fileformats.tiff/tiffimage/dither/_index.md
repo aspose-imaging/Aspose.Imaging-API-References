@@ -3,7 +3,7 @@ title: TiffImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffImage method. Execute dithering on the current image to enhance its visual quality and reduce color banding artifacts. Integrate this method into your image processing workflow to ensure smoother transitions between colors resulting in improved overall image appearance and clarity
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/dither/
 ---
 ## TiffImage.Dither method

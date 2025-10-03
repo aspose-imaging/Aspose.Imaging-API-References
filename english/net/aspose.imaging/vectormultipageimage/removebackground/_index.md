@@ -3,7 +3,7 @@ title: VectorMultipageImage.RemoveBackground
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorMultipageImage method. Removes the background
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging/vectormultipageimage/removebackground/
 ---
 ## RemoveBackground(RemoveBackgroundSettings) {#removebackground_1}

@@ -58,7 +58,41 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ---
 
-## Create(Image[]) {#create_2}
+## Create(ImageOptionsBase, int, int, int[]) {#create_2}
+
+Creates a [`RasterImage`](../../rasterimage/) instance from the provided pixel array. Validates that the specified width and height match the dimensions of the pixel data. This method can only be used when the library is in Licensed mode.
+
+```csharp
+public static Image Create(ImageOptionsBase imageOptions, int width, int height, int[] pixels)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageOptions | ImageOptionsBase | The options used to create the [`RasterImage`](../../rasterimage/). |
+| width | Int32 | The width of the [`RasterImage`](../../rasterimage/). |
+| height | Int32 | The height of the [`RasterImage`](../../rasterimage/). |
+| pixels | Int32[] | The array of pixel values used to populate the image. |
+
+### Return Value
+
+A [`RasterImage`](../../rasterimage/) populated with the provided pixel data.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [ImageCreateException](../../../aspose.imaging.coreexceptions/imagecreateexception/) | Thrown if the image dimensions do not match the size of the pixel array, if the image creation fails due to the specified *imageOptions*, or if the method is called when the library is not in Licensed mode. |
+
+### See Also
+
+* class [ImageOptionsBase](../../imageoptionsbase/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Create(Image[]) {#create_3}
 
 Creates a new image using the specified images as pages
 
@@ -107,7 +141,7 @@ The multipage image
 
 ---
 
-## Create(string[], bool) {#create_5}
+## Create(string[], bool) {#create_6}
 
 Creates the multipage image containing the specified files.
 
@@ -132,7 +166,7 @@ The multipage image
 
 ---
 
-## Create(string[]) {#create_4}
+## Create(string[]) {#create_5}
 
 Creates the multipage image containing the specified files.
 
@@ -156,7 +190,7 @@ The multipage image
 
 ---
 
-## Create(Image[], bool) {#create_3}
+## Create(Image[], bool) {#create_4}
 
 Creates a new image the specified images as pages.
 

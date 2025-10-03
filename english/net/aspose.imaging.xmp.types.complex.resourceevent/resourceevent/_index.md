@@ -3,7 +3,7 @@ title: Class ResourceEvent
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.ResourceEvent.ResourceEvent class. Containing dimensions for a drawn object
 type: docs
-weight: 12110
+weight: 12140
 url: /net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 ---
 ## ResourceEvent class

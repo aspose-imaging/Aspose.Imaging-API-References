@@ -3,7 +3,7 @@ title: PngImage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: PngImage method. Gets the default options
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.imaging.fileformats.png/pngimage/getdefaultoptions/
 ---
 ## PngImage.GetDefaultOptions method

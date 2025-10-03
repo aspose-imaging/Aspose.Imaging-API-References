@@ -3,7 +3,7 @@ title: ApngImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Resize the image seamlessly with this intuitive method. Perfect for developers seeking to adjust the dimensions of their images dynamically
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.imaging.fileformats.apng/apngimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}

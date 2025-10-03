@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.schemas.dicom
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Dicom metadata related helper classes constants and methods.
 type: docs
-weight: 111
+weight: 112
 url: /java/com.aspose.imaging.xmp.schemas.dicom/
 ---
 

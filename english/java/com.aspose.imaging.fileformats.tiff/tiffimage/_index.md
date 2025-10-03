@@ -10,7 +10,7 @@ url: /java/com.aspose.imaging.fileformats.tiff/tiffimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage), [com.aspose.imaging.RasterCachedMultipageImage](../../com.aspose.imaging/rastercachedmultipageimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), com.aspose.internal.IMetadataContainer
+[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), [com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
 ```
 public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer
 ```
@@ -38,8 +38,6 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 | [getActiveFrame()](#getActiveFrame--) | Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. |
 | [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Manage the active frame seamlessly, facilitating dynamic navigation and manipulation within the designated context. |
 | [getFrames()](#getFrames--) | Retrieve an array of [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) instances, enabling comprehensive access and manipulation of individual frames within the TIFF image. |
-| [getExifData()](#getExifData--) | Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. |
-| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. |
 | [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multipage content. |
 | [getPages()](#getPages--) | Access the pages of the document seamlessly, enabling dynamic navigation and manipulation within the content structure. |
 | [hasAlpha()](#hasAlpha--) | Determine whether the image has an alpha channel, providing crucial information for rendering and compositing operations. |
@@ -573,29 +571,6 @@ try {
     tiffImage.dispose();
 }
 ```
-
-### getExifData() {#getExifData--}
-```
-public final ExifData getExifData()
-```
-
-
-Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. Enhance your application's capabilities by integrating this feature, ensuring accurate preservation and customization of essential image information.
-
-**Returns:**
-[ExifData](../../com.aspose.imaging.exif/exifdata)
-### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
-```
-public final void setExifData(ExifData value)
-```
-
-
-Access or modify EXIF data associated with the active frame seamlessly, empowering precise control over image metadata. Enhance your application's capabilities by integrating this feature, ensuring accurate preservation and customization of essential image information.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ExifData](../../com.aspose.imaging.exif/exifdata) |  |
 
 ### getPageCount() {#getPageCount--}
 ```

@@ -3,7 +3,7 @@ title: GifImage.RemoveBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: GifImage method. Removing a GIF block removes specific data from the image offering the ability to clean up or modify the image structure. This method enables you to remove unwanted or unnecessary blocks optimizing the GIF image for efficient storage. Use this functionality to eliminate outdated information from the image while preserving its integrity and quality
 type: docs
-weight: 360
+weight: 350
 url: /net/aspose.imaging.fileformats.gif/gifimage/removeblock/
 ---
 ## GifImage.RemoveBlock method

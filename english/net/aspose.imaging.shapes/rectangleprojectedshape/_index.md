@@ -3,7 +3,7 @@ title: Class RectangleProjectedShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shapes.RectangleProjectedShape class. Represents a shape which is projected over rectangle turned to a particular orientation. Specified by four points which can be rotated in space maintaining the same edges length and 90 degrees between adjacent edges
 type: docs
-weight: 11480
+weight: 11510
 url: /net/aspose.imaging.shapes/rectangleprojectedshape/
 ---
 ## RectangleProjectedShape class
