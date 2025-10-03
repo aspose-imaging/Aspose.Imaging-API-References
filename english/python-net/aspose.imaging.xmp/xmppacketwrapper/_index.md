@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 
 **Full Name:** aspose.imaging.xmp.XmpPacketWrapper
 
-**Inheritance:** IXmlValue
+**Inheritance:** IXmlValue, IImageMetadataFormat
 
 ## **Constructors**
 | **Name** | **Description** |

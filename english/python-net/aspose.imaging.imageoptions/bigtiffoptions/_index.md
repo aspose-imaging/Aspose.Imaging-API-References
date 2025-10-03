@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 
 **Full Name:** aspose.imaging.imageoptions.BigTiffOptions
 
-**Inheritance:** IHasXmpData, IHasMetadata, IHasExifData, TiffOptions
+**Inheritance:** IMetadataContainer, IHasExifData, IHasMetadata, IHasXmpData, TiffOptions
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -116,6 +116,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | [is_tag_present(tag)](#is_tag_present_tag_9) | Determines whether tag is present in the options or not. |
 | [remove_tag(tag)](#remove_tag_tag_10) | Removes the tag. |
 | [remove_tags(tags)](#remove_tags_tags_11) | Removes the tags. |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_12) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
 | validate() | Validates if options have valid combination of tags |
 
 
@@ -400,5 +401,27 @@ Removes the tags.
 | Type | Description |
 | :- | :- |
 | bool | **True** if tag collection size changed. |
+
+
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_12}
+
+
+```
+ try_set_metadata(metadata) 
+```
+
+Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| metadata | [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) | The metadata. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | True if _metadata_ is not null and the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance <br/>            supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 

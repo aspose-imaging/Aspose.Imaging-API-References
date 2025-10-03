@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/jpegexifdata/
 
 **Full Name:** aspose.imaging.exif.JpegExifData
 
-**Inheritance:** ExifData
+**Inheritance:** IImageMetadataFormat, ExifData
 
 ## **Constructors**
 | **Name** | **Description** |

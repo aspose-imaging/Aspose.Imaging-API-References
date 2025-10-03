@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.complex.resourceevent
 type: docs
-weight: 1160
+weight: 1170
 url: /python-net/aspose.imaging.xmp.types.complex.resourceevent/
 ---
 

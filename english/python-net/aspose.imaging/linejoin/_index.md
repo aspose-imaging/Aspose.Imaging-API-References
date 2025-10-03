@@ -1,7 +1,7 @@
 ---
 title: LineJoin Enumeration
 type: docs
-weight: 10700
+weight: 10730
 url: /python-net/aspose.imaging/linejoin/
 ---
 

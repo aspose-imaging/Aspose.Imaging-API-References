@@ -1,7 +1,7 @@
 ---
 title: PdfComplianceVersion Enumeration
 type: docs
-weight: 10870
+weight: 10900
 url: /python-net/aspose.imaging/pdfcomplianceversion/
 ---
 

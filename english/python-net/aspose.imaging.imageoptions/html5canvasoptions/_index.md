@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 
 **Full Name:** aspose.imaging.imageoptions.Html5CanvasOptions
 
-**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
+**Inheritance:** IMetadataContainer, IHasExifData, IHasMetadata, IHasXmpData, ImageOptionsBase
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -24,6 +24,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 | canvas_tag_id | string | r/w | Gets or sets the canvas tag identifier. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | encoding | string | r/w | Gets or sets the encoding. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | full_html_page | bool | r/w | Gets or sets a value indicating whether the full HTML page should be generated. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
@@ -37,6 +38,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_2) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 
 ### Constructor: Html5CanvasOptions() {#Html5CanvasOptions__1}
@@ -62,6 +64,28 @@ Creates a memberwise clone of this instance.
 | Type | Description |
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | A memberwise clone of this instance. |
+
+
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_2}
+
+
+```
+ try_set_metadata(metadata) 
+```
+
+Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| metadata | [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) | The metadata. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | True, if the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 
 ## **Examples**

@@ -1,7 +1,7 @@
 ---
 title: SeekOrigin Enumeration
 type: docs
-weight: 11040
+weight: 11070
 url: /python-net/aspose.imaging/seekorigin/
 ---
 

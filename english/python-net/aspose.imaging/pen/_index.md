@@ -1,7 +1,7 @@
 ---
 title: Pen Class
 type: docs
-weight: 6800
+weight: 6830
 url: /python-net/aspose.imaging/pen/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.schemas.xmpdm
 type: docs
-weight: 1070
+weight: 1080
 url: /python-net/aspose.imaging.xmp.schemas.xmpdm/
 ---
 

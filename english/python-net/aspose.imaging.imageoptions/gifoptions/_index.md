@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 
 **Full Name:** aspose.imaging.imageoptions.GifOptions
 
-**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
+**Inheritance:** IMetadataContainer, IHasExifData, IHasMetadata, IHasXmpData, ImageOptionsBase
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -27,6 +27,7 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 | color_resolution | System.Byte | r/w | Gets or sets the GIF color resolution. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | do_palette_correction | bool | r/w | Gets or sets a value indicating whether palette correction is applied. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | has_trailer | bool | r/w | Gets or sets a value indicating whether GIF has trailer. |
 | has_transparent_color | System.Nullable`1[[System.Boolean]] | r/w | Gets or sets a value indicating whether a GIF image has transparent color. <br/>            If the return value is **None**, this property is overridden by the source image context. |
@@ -46,6 +47,7 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_2) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 
 ### Constructor: GifOptions() {#GifOptions__1}
@@ -86,6 +88,28 @@ Creates a memberwise clone of this instance.
 | Type | Description |
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | A memberwise clone of this instance. |
+
+
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_2}
+
+
+```
+ try_set_metadata(metadata) 
+```
+
+Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| metadata | [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) | The metadata. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | True, if the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 
 ## **Examples**

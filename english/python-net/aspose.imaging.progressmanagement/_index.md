@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.progressmanagement
 type: docs
-weight: 940
+weight: 950
 url: /python-net/aspose.imaging.progressmanagement/
 ---
 

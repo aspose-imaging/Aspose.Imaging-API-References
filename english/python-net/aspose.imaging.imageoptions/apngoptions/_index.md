@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 
 **Full Name:** aspose.imaging.imageoptions.ApngOptions
 
-**Inheritance:** IHasXmpData, IHasMetadata, PngOptions
+**Inheritance:** IMetadataContainer, IHasExifData, IHasMetadata, IHasXmpData, PngOptions
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -27,6 +27,7 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 | compression_level | int | r/w | Gets or sets the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) compression level. |
 | [default_frame_time](#default_frame_time1) | int | r/w | Gets or sets the default frame duration. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 | filter_type | [PngFilterType](/imaging/python-net/aspose.imaging.fileformats.png/pngfiltertype/) | r/w | Gets or sets the filter type used during png file save process. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
@@ -43,6 +44,7 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_2) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 
 ### Constructor: ApngOptions() {#ApngOptions__1}
@@ -86,6 +88,28 @@ Creates a memberwise clone of this instance.
 | Type | Description |
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | A memberwise clone of this instance. |
+
+
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_2}
+
+
+```
+ try_set_metadata(metadata) 
+```
+
+Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| metadata | [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) | The metadata. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | True if _metadata_ is not null and the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance <br/>            supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 
 ## **Examples**
