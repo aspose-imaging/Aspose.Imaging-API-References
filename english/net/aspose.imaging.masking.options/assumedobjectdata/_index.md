@@ -3,7 +3,7 @@ title: Class AssumedObjectData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.AssumedObjectData class. The assumed objects data. Includes objects type and area
 type: docs
-weight: 10900
+weight: 10920
 url: /net/aspose.imaging.masking.options/assumedobjectdata/
 ---
 ## AssumedObjectData class

@@ -84,4 +84,24 @@ public ExifData(ExifData exifdata)
 * namespace [Aspose.Imaging.Exif](../../exifdata/)
 * assembly [Aspose.Imaging](../../../)
 
+---
+
+## ExifData(byte[]) {#constructor_4}
+
+Initializes a new instance of the [`ExifData`](../) class.
+
+```csharp
+public ExifData(byte[] binaryData)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| binaryData | Byte[] | The binary data. |
+
+### See Also
+
+* class [ExifData](../)
+* namespace [Aspose.Imaging.Exif](../../exifdata/)
+* assembly [Aspose.Imaging](../../../)
+
 

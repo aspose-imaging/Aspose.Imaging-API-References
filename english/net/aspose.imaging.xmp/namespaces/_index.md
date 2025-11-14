@@ -3,7 +3,7 @@ title: Class Namespaces
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Namespaces class. Contains namespaces used in RDF document
 type: docs
-weight: 11820
+weight: 11840
 url: /net/aspose.imaging.xmp/namespaces/
 ---
 ## Namespaces class

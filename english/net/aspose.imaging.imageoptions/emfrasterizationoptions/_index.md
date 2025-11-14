@@ -3,7 +3,7 @@ title: Class EmfRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.EmfRasterizationOptions class. The Emf rasterization options
 type: docs
-weight: 10240
+weight: 10260
 url: /net/aspose.imaging.imageoptions/emfrasterizationoptions/
 ---
 ## EmfRasterizationOptions class

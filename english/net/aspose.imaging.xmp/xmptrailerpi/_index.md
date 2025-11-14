@@ -3,7 +3,7 @@ title: Class XmpTrailerPi
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpTrailerPi class. Represents XMP trailer processing instruction
 type: docs
-weight: 12380
+weight: 12400
 url: /net/aspose.imaging.xmp/xmptrailerpi/
 ---
 ## XmpTrailerPi class

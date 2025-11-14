@@ -3,7 +3,7 @@ title: Delegate AfterPageExportAction
 second_title: Aspose.Imaging for .NET API Reference
 description: After page export action
 type: docs
-weight: 10130
+weight: 10150
 url: /net/aspose.imaging.imageoptions/afterpageexportaction/
 ---
 ## AfterPageExportAction delegate

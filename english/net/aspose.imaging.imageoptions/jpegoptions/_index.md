@@ -3,7 +3,7 @@ title: Class JpegOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.JpegOptions class. Create highquality JPEG images effortlessly with our API offering adjustable levels of compression to optimize storage size without compromising image quality. Benefit from support for various compression types near lossless coding RGB and CMYK color profiles as well as EXIF JFIF image data and XMP containers ensuring versatile and customizable options for your image creation needs
 type: docs
-weight: 10300
+weight: 10320
 url: /net/aspose.imaging.imageoptions/jpegoptions/
 ---
 ## JpegOptions class

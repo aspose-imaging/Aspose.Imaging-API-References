@@ -3,7 +3,7 @@ title: Class ConvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.ConvolutionFilterOptions class. The convolution filter options
 type: docs
-weight: 9950
+weight: 9960
 url: /net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 ## ConvolutionFilterOptions class
@@ -25,7 +25,9 @@ public class ConvolutionFilterOptions : FilterOptionsBase
 | Name | Description |
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias/) { get; set; } | Gets or sets the bias. |
+| [BordersProcessing](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bordersprocessing/) { get; set; } | Gets or sets a value indicating whether [borders processing]. |
 | [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor/) { get; set; } | Gets or sets the factor. |
+| [IgnoreAlpha](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/ignorealpha/) { get; set; } | Gets or sets a value indicating whether [ignore alpha]. |
 | virtual [Kernel](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/kernel/) { get; } | Gets the kernel. |
 
 ### See Also

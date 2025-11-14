@@ -3,7 +3,7 @@ title: Class LineSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ShapeSegments.LineSegment class. Represents a segment leading derectly from a specific point to the next point
 type: docs
-weight: 11440
+weight: 11460
 url: /net/aspose.imaging.shapesegments/linesegment/
 ---
 ## LineSegment class

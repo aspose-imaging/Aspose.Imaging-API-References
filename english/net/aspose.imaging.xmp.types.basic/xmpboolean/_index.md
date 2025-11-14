@@ -3,7 +3,7 @@ title: Class XmpBoolean
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Basic.XmpBoolean class. Represents XMP Boolean basic type
 type: docs
-weight: 12000
+weight: 12020
 url: /net/aspose.imaging.xmp.types.basic/xmpboolean/
 ---
 ## XmpBoolean class

@@ -3,7 +3,7 @@ title: Enum PixelFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PixelFormat enum. The pixel data format actual meaning
 type: docs
-weight: 11210
+weight: 11230
 url: /net/aspose.imaging/pixelformat/
 ---
 ## PixelFormat enumeration

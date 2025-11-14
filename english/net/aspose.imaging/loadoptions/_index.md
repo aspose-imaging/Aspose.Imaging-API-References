@@ -3,7 +3,7 @@ title: Class LoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.LoadOptions class. Represents the loading options
 type: docs
-weight: 10690
+weight: 10710
 url: /net/aspose.imaging/loadoptions/
 ---
 ## LoadOptions class

@@ -19,6 +19,7 @@ public class ExifData : TiffDataTypeController, IImageMetadataFormat
 | Name | Description |
 | --- | --- |
 | [ExifData](exifdata/#constructor)() | Initializes a new instance of the `ExifData` class. |
+| [ExifData](exifdata/#constructor_4)(byte[]) | Initializes a new instance of the `ExifData` class. |
 | [ExifData](exifdata/#constructor_1)(ExifData) | Initializes a new instance of the `ExifData` class with data from array. |
 | [ExifData](exifdata/#constructor_2)(TiffDataType[]) | Initializes a new instance of the `ExifData` class with data from array. |
 | [ExifData](exifdata/#constructor_3)(TiffDataType[], TiffDataType[], TiffDataType[]) | Initializes a new instance of the `ExifData` class with data from array. |
@@ -138,11 +139,14 @@ public class ExifData : TiffDataTypeController, IImageMetadataFormat
 | [UserComment](../../aspose.imaging.exif/exifdata/usercomment/) { get; set; } | Gets or sets the user comment. |
 | [WhiteBalance](../../aspose.imaging.exif/exifdata/whitebalance/) { get; set; } | Gets or sets the white balance. |
 | [WhitePoint](../../aspose.imaging.exif/exifdata/whitepoint/) { get; set; } | Gets or sets the chromaticity of the white point of the image. |
+| [XResolution](../../aspose.imaging.exif/exifdata/xresolution/) { get; set; } | Gets or sets the x resolution. |
+| [YResolution](../../aspose.imaging.exif/exifdata/yresolution/) { get; set; } | Gets or sets the y resolution. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| [GetTagValue](../../aspose.imaging.exif/exifdata/gettagvalue/)(ExifProperties) | Gets the tag value. |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/#removetag)(ExifProperties) | Remove tag from container |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/#removetag_1)(ushort) | Remove tag from container |
 

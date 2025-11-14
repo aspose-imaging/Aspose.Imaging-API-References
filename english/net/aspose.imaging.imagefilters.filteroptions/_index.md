@@ -23,9 +23,15 @@ The namespace handles Filter options.
 | [GaussianBlurFilterOptions](./gaussianblurfilteroptions/) | The Gaussian blur filter options. |
 | [GaussianDeconvolutionFilterOptions](./gaussiandeconvolutionfilteroptions/) | The deconvolution filter options using Gaussian bluring. |
 | [GaussWienerFilterOptions](./gausswienerfilteroptions/) | Gauss Wiener filter options for image debluring. |
+| [ImageBlendingFilterOptions](./imageblendingfilteroptions/) | The image blending filter options |
 | [MedianFilterOptions](./medianfilteroptions/) | Median filter |
 | [MotionWienerFilterOptions](./motionwienerfilteroptions/) | The motion debluring filter options. |
 | [SharpenFilterOptions](./sharpenfilteroptions/) | The sharpen filter options. |
 | [SmallRectangularFilterOptions](./smallrectangularfilteroptions/) | Small rectangular filter options |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| [BlendingMode](./blendingmode/) | The blending mode |
 
 

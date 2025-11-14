@@ -3,7 +3,7 @@ title: Struct Point
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Point struct. Represents an ordered pair of integer x and ycoordinates that defines a point in a twodimensional plane
 type: docs
-weight: 11220
+weight: 11240
 url: /net/aspose.imaging/point/
 ---
 ## Point structure

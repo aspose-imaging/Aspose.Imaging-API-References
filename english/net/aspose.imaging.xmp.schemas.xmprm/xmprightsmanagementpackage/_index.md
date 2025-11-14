@@ -3,7 +3,7 @@ title: Class XmpRightsManagementPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpRm.XmpRightsManagementPackage class. Represents XMP Rights Management namespace
 type: docs
-weight: 11990
+weight: 12010
 url: /net/aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/
 ---
 ## XmpRightsManagementPackage class

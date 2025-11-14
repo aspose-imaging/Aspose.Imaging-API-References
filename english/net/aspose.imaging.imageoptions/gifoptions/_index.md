@@ -3,7 +3,7 @@ title: Class GifOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.GifOptions class. The API for Graphical Interchange Format GIF raster image file creation offers developers comprehensive options for generating GIF images with precise control. With features to set background color color palette resolution interlaced type transparent color XMP metadata container and image compression this API ensures flexibility and efficiency in creating optimized and visually appealing GIFs tailored to specific application requirements
 type: docs
-weight: 10260
+weight: 10280
 url: /net/aspose.imaging.imageoptions/gifoptions/
 ---
 ## GifOptions class

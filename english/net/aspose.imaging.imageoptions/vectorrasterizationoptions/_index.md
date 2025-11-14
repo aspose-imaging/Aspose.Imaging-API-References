@@ -3,7 +3,7 @@ title: Class VectorRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.VectorRasterizationOptions class. The vector rasterization options. Please note that VectorRasterizationOptions will no longer derive from ImageOptionsBase since Aspose.Imaging 24.12 version
 type: docs
-weight: 10560
+weight: 10580
 url: /net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 ## VectorRasterizationOptions class

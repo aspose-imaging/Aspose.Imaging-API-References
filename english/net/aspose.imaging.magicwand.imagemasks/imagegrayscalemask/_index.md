@@ -3,7 +3,7 @@ title: Class ImageGrayscaleMask
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ImageMasks.ImageGrayscaleMask class. Describes a grayscale image mask
 type: docs
-weight: 10790
+weight: 10810
 url: /net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/
 ---
 ## ImageGrayscaleMask class

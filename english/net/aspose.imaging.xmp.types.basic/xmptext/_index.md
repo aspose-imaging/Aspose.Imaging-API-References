@@ -3,7 +3,7 @@ title: Class XmpText
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Basic.XmpText class. Represents XMP Text basic type
 type: docs
-weight: 12040
+weight: 12060
 url: /net/aspose.imaging.xmp.types.basic/xmptext/
 ---
 ## XmpText class

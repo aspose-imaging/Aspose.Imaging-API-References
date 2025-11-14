@@ -3,7 +3,7 @@ title: Class CurveShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shapes.CurveShape class. Represents a curved spline shape
 type: docs
-weight: 11470
+weight: 11490
 url: /net/aspose.imaging.shapes/curveshape/
 ---
 ## CurveShape class

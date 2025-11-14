@@ -3,7 +3,7 @@ title: Class XmpBasicPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpBaseSchema.XmpBasicPackage class. Represents XMP basic namespace
 type: docs
-weight: 11890
+weight: 11910
 url: /net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 ---
 ## XmpBasicPackage class

@@ -3,7 +3,7 @@ title: ConvolutionFilterOptions.Kernel
 second_title: Aspose.Imaging for .NET API Reference
 description: ConvolutionFilterOptions property. Gets the kernel
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/kernel/
 ---
 ## ConvolutionFilterOptions.Kernel property

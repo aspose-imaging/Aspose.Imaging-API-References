@@ -3,7 +3,7 @@ title: Enum ResizeType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ResizeType enum. Specifies the resize type
 type: docs
-weight: 11360
+weight: 11380
 url: /net/aspose.imaging/resizetype/
 ---
 ## ResizeType enumeration

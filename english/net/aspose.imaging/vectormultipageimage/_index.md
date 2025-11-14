@@ -3,7 +3,7 @@ title: Class VectorMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.VectorMultipageImage class. The Vector multipage image
 type: docs
-weight: 11720
+weight: 11740
 url: /net/aspose.imaging/vectormultipageimage/
 ---
 ## VectorMultipageImage class

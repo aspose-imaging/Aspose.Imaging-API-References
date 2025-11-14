@@ -3,7 +3,7 @@ title: Class PdfPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.Pdf.PdfPackage class. Represents Adobe Pdf namespace
 type: docs
-weight: 11850
+weight: 11870
 url: /net/aspose.imaging.xmp.schemas.pdf/pdfpackage/
 ---
 ## PdfPackage class
