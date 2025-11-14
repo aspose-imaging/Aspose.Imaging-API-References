@@ -3,7 +3,7 @@ title: Class XmpMediaManagementPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpMm.XmpMediaManagementPackage class. Represents XMP Media Management namespace
 type: docs
-weight: 11980
+weight: 12000
 url: /net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 ---
 ## XmpMediaManagementPackage class

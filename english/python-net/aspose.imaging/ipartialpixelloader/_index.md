@@ -1,7 +1,7 @@
 ---
 title: IPartialPixelLoader Class
 type: docs
-weight: 5460
+weight: 5480
 url: /python-net/aspose.imaging/ipartialpixelloader/
 ---
 

@@ -3,7 +3,7 @@ title: ConvolutionFilterOptions.Factor
 second_title: Aspose.Imaging for .NET API Reference
 description: ConvolutionFilterOptions property. Gets or sets the factor
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor/
 ---
 ## ConvolutionFilterOptions.Factor property

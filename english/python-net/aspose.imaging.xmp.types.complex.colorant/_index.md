@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.complex.colorant
 type: docs
-weight: 1130
+weight: 1140
 url: /python-net/aspose.imaging.xmp.types.complex.colorant/
 ---
 

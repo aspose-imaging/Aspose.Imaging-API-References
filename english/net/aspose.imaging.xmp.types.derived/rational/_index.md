@@ -3,7 +3,7 @@ title: Class Rational
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Derived.Rational class. Represents XMP Rational
 type: docs
-weight: 12180
+weight: 12200
 url: /net/aspose.imaging.xmp.types.derived/rational/
 ---
 ## Rational class

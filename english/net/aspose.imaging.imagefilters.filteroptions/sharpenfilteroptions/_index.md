@@ -3,7 +3,7 @@ title: Class SharpenFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions class. The sharpen filter options
 type: docs
-weight: 10030
+weight: 10050
 url: /net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions class
@@ -26,7 +26,9 @@ public class SharpenFilterOptions : GaussianBlurFilterOptions
 | Name | Description |
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias/) { get; set; } | Gets or sets the bias. |
+| [BordersProcessing](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bordersprocessing/) { get; set; } | Gets or sets a value indicating whether [borders processing]. |
 | [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor/) { get; set; } | Gets or sets the factor. |
+| [IgnoreAlpha](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/ignorealpha/) { get; set; } | Gets or sets a value indicating whether [ignore alpha]. |
 | override [Kernel](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/kernel/) { get; } | Gets the kernel. |
 | [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius/) { get; set; } | Gets the radius of Gausseian ISquareConvolutionKernel. |
 | override [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma/) { get; set; } | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |

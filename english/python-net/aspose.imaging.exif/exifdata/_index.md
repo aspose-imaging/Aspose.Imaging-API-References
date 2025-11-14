@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 
 **Full Name:** aspose.imaging.exif.ExifData
 
-**Inheritance:** TiffDataTypeController
+**Inheritance:** IImageMetadataFormat, TiffDataTypeController
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -19,6 +19,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | [ExifData()](#ExifData__1) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class. |
 | [ExifData(common_tags, exif_tags, gps_tags)](#ExifData_common_tags_exif_tags_gps_tags_2) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
 | [ExifData(exifdata)](#ExifData_exifdata_3) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
+| [ExifData(exifdata)](#ExifData_exifdata_4) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -129,6 +130,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | subsec_time | string | r/w | Gets or sets the fractions of seconds for the DateTime tag. |
 | subsec_time_digitized | string | r/w | Gets or sets the fractions of seconds for the DateTimeDigitized tag. |
 | subsec_time_original | string | r/w | Gets or sets the fractions of seconds for the DateTimeOriginal tag. |
+| thumbnail | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | r/w | Gets or sets the thumbnail image. |
 | user_comment | string | r/w | Gets or sets the user comment. |
 | white_balance | [ExifWhiteBalance](/imaging/python-net/aspose.imaging.exif.enums/exifwhitebalance/) | r/w | Gets or sets the white balance. |
 | white_point | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the chromaticity of the white point of the image. |
@@ -180,6 +182,21 @@ Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | exifdata | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | Array of EXIF tags together with common and GPS tags. |
+
+### Constructor: ExifData(exifdata) {#ExifData_exifdata_4}
+
+
+```
+ ExifData(exifdata) 
+```
+
+Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| exifdata | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | Array of EXIF tags together with common and GPS tags. |
 
 ### Property: maker_notes {#maker_notes1}
 

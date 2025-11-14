@@ -25,7 +25,14 @@ The package handles filter options.
 | [GaussWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) | Gauss Wiener filter options for image debluring. |
 | [GaussianBlurFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions) | The Gaussian blur filter options. |
 | [GaussianDeconvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions) | The deconvolution filter options using Gaussian blurring. |
+| [ImageBlendingFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/imageblendingfilteroptions) | The image blending filter options |
 | [MedianFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/medianfilteroptions) | Median filter |
 | [MotionWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions) | The motion de-blurring filter options. |
 | [SharpenFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) | The sharpen filter options. |
 | [SmallRectangularFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions) | Small rectangular filter options |
+
+## Enumerations
+
+| Enum | Description |
+| --- | --- |
+| [BlendingMode](../com.aspose.imaging.imagefilters.filteroptions/blendingmode) | The blending mode |

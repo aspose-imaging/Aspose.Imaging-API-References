@@ -3,7 +3,7 @@ title: Class OtgRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.OtgRasterizationOptions class. The Otg rasterization options
 type: docs
-weight: 10380
+weight: 10400
 url: /net/aspose.imaging.imageoptions/otgrasterizationoptions/
 ---
 ## OtgRasterizationOptions class

@@ -3,7 +3,7 @@ title: Class XmpArrayHelper
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpArrayHelper class. The helper class for processing RDF logic
 type: docs
-weight: 12280
+weight: 12300
 url: /net/aspose.imaging.xmp/xmparrayhelper/
 ---
 ## XmpArrayHelper class

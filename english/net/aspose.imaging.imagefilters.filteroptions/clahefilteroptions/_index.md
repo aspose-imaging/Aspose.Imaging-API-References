@@ -3,7 +3,7 @@ title: Class ClaheFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.ClaheFilterOptions class. Provides options for configuring the ContrastLimited Adaptive Histogram Equalization CLAHE filter
 type: docs
-weight: 9940
+weight: 9950
 url: /net/aspose.imaging.imagefilters.filteroptions/clahefilteroptions/
 ---
 ## ClaheFilterOptions class

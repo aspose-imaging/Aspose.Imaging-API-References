@@ -3,7 +3,7 @@ title: Class ComplexTypeBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.ComplexTypeBase class. Represents base abstraction for XMP Complex value type
 type: docs
-weight: 12110
+weight: 12130
 url: /net/aspose.imaging.xmp.types.complex/complextypebase/
 ---
 ## ComplexTypeBase class

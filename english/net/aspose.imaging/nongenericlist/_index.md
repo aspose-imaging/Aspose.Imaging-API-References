@@ -3,7 +3,7 @@ title: Class NonGenericList
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.NonGenericList class. Non generic list of objects
 type: docs
-weight: 11100
+weight: 11120
 url: /net/aspose.imaging/nongenericlist/
 ---
 ## NonGenericList class

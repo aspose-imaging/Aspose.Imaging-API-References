@@ -3,7 +3,7 @@ title: Class SvgOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.SvgOptions class. Create Scalar Vector Graphics SVG image files with our API utilizing versatile options for color types and compression levels. Seamlessly customize your SVG images with precision ensuring optimal quality and compatibility for your design needs
 type: docs
-weight: 10490
+weight: 10510
 url: /net/aspose.imaging.imageoptions/svgoptions/
 ---
 ## SvgOptions class

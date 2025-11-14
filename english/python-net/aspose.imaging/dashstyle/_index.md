@@ -1,7 +1,7 @@
 ---
 title: DashStyle Enumeration
 type: docs
-weight: 9340
+weight: 9370
 url: /python-net/aspose.imaging/dashstyle/
 ---
 

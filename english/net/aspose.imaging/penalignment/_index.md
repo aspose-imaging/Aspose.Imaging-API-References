@@ -3,7 +3,7 @@ title: Enum PenAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PenAlignment enum. Specifies the alignment of a Pen object in relation to the theoretical zerowidth line
 type: docs
-weight: 11180
+weight: 11200
 url: /net/aspose.imaging/penalignment/
 ---
 ## PenAlignment enumeration

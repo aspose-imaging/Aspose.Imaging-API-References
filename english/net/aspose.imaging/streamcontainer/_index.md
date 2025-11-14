@@ -3,7 +3,7 @@ title: Class StreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.StreamContainer class. Represents stream container which contains the stream and provides stream processing routines
 type: docs
-weight: 11630
+weight: 11650
 url: /net/aspose.imaging/streamcontainer/
 ---
 ## StreamContainer class

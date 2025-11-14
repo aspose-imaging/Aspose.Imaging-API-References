@@ -3,7 +3,7 @@ title: Class IcoOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.IcoOptions class. Create custom ICO image files for application icons effortlessly with our API empowering you to represent your software seamlessly. Our API supports PNG and BMP image frames with various bits per pixel values ensuring versatility and compatibility for your icon creation needs
 type: docs
-weight: 10280
+weight: 10300
 url: /net/aspose.imaging.imageoptions/icooptions/
 ---
 ## IcoOptions class

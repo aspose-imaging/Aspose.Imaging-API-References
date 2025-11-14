@@ -20,11 +20,16 @@ Describes a binary image mask.
 
 | Method | Description |
 | --- | --- |
+| [to_ImageGrayscaleMask(ImageMask mask)](#to-ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Casting `mask` to a [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask). |
+| [op_LogicalNot(ImageMask a)](#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Inverts mask. |
+| [op_Addition(ImageMask a, ImageMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Union of two masks. |
+| [op_Subtraction(ImageMask a, ImageMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Subtract second mask from first. |
+| [op_Multiply(ImageMask a, ImageMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Intersection of two masks. |
+| [op_ExclusiveOr(ImageMask a, ImageMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Exclusive disjunction of two masks. |
 | [getSource()](#getSource--) | Gets the source image used to create this mask, if exists. |
 | [getWidth()](#getWidth--) | Gets the width, in pixels, of this mask. |
 | [getHeight()](#getHeight--) | Gets the height, in pixels, of this mask. |
 | [getBounds()](#getBounds--) | Gets the bounds, in pixels, of this mask. |
-| [getSelectionBounds()](#getSelectionBounds--) | Gets the bounds of the selected part of the mask, in pixels. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | Gets the opacity of the specified pixel. |
 | [inflate(int size)](#inflate-int-) | Inflates this mask by the specified amount. |
 | [crop(Size size)](#crop-com.aspose.imaging.Size-) | Crops mask with the specified size. |
@@ -59,12 +64,6 @@ Describes a binary image mask.
 | [exclusiveDisjunction(MagicWandSettings settings)](#exclusiveDisjunction-com.aspose.imaging.magicwand.MagicWandSettings-) | Gets the exclusive disjunction of the current mask with the result of magic wand selection applied to the source of the mask. |
 | [exclusiveDisjunction(RasterImage image)](#exclusiveDisjunction-com.aspose.imaging.RasterImage-) | Gets the exclusive disjunction of the current mask with the result of magic wand selection applied to the provided image. |
 | [exclusiveDisjunction(RasterImage image, MagicWandSettings settings)](#exclusiveDisjunction-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | Gets the exclusive disjunction of the current mask with the result of magic wand selection applied to the provided image. |
-| [to_ImageGrayscaleMask(ImageMask mask)](#to-ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Casting `mask` to a [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask). |
-| [op_LogicalNot(ImageMask a)](#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Inverts mask. |
-| [op_Addition(ImageMask a, ImageMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Union of two masks. |
-| [op_Subtraction(ImageMask a, ImageMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Subtract second mask from first. |
-| [op_Multiply(ImageMask a, ImageMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Intersection of two masks. |
-| [op_ExclusiveOr(ImageMask a, ImageMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | Exclusive disjunction of two masks. |
 
 ## Example: The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, subtract).
 
@@ -97,6 +96,100 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 
 ```
 
+### to_ImageGrayscaleMask(ImageMask mask) {#to-ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
+```
+public static ImageGrayscaleMask to_ImageGrayscaleMask(ImageMask mask)
+```
+
+
+Casting `mask` to a [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mask | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The mask value. |
+
+**Returns:**
+[ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - The new [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) base on `mask`.
+### op_LogicalNot(ImageMask a) {#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
+```
+public static ImageBitMask op_LogicalNot(ImageMask a)
+```
+
+
+Inverts mask.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The mask to be inverted. |
+
+**Returns:**
+[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
+### op_Addition(ImageMask a, ImageMask b) {#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
+```
+public static ImageBitMask op_Addition(ImageMask a, ImageMask b)
+```
+
+
+Union of two masks.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
+| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
+
+**Returns:**
+[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
+### op_Subtraction(ImageMask a, ImageMask b) {#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
+```
+public static ImageBitMask op_Subtraction(ImageMask a, ImageMask b)
+```
+
+
+Subtract second mask from first.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
+| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
+
+**Returns:**
+[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
+### op_Multiply(ImageMask a, ImageMask b) {#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
+```
+public static ImageBitMask op_Multiply(ImageMask a, ImageMask b)
+```
+
+
+Intersection of two masks.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
+| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
+
+**Returns:**
+[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
+### op_ExclusiveOr(ImageMask a, ImageMask b) {#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
+```
+public static ImageBitMask op_ExclusiveOr(ImageMask a, ImageMask b)
+```
+
+
+Exclusive disjunction of two masks.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
+| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
+
+**Returns:**
+[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
 ### getSource() {#getSource--}
 ```
 public final RasterImage getSource()
@@ -137,16 +230,6 @@ Gets the bounds, in pixels, of this mask.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds, in pixels, of this mask.
-### getSelectionBounds() {#getSelectionBounds--}
-```
-public abstract Rectangle getSelectionBounds()
-```
-
-
-Gets the bounds of the selected part of the mask, in pixels.
-
-**Returns:**
-[Rectangle](../../com.aspose.imaging/rectangle) - the bounds of the selected part of the mask, in pixels.
 ### get_Item(int x, int y) {#get-Item-int-int-}
 ```
 public abstract boolean get_Item(int x, int y)
@@ -674,100 +757,6 @@ Gets the exclusive disjunction of the current mask with the result of magic wand
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | Image for magic wand. |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | Magic wand settings. |
-
-**Returns:**
-[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
-### to_ImageGrayscaleMask(ImageMask mask) {#to-ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
-```
-public static ImageGrayscaleMask to_ImageGrayscaleMask(ImageMask mask)
-```
-
-
-Casting `mask` to a [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mask | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The mask value. |
-
-**Returns:**
-[ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - The new [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) base on `mask`.
-### op_LogicalNot(ImageMask a) {#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
-```
-public static ImageBitMask op_LogicalNot(ImageMask a)
-```
-
-
-Inverts mask.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The mask to be inverted. |
-
-**Returns:**
-[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
-### op_Addition(ImageMask a, ImageMask b) {#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
-```
-public static ImageBitMask op_Addition(ImageMask a, ImageMask b)
-```
-
-
-Union of two masks.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
-| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
-
-**Returns:**
-[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
-### op_Subtraction(ImageMask a, ImageMask b) {#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
-```
-public static ImageBitMask op_Subtraction(ImageMask a, ImageMask b)
-```
-
-
-Subtract second mask from first.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
-| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
-
-**Returns:**
-[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
-### op_Multiply(ImageMask a, ImageMask b) {#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
-```
-public static ImageBitMask op_Multiply(ImageMask a, ImageMask b)
-```
-
-
-Intersection of two masks.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
-| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
-
-**Returns:**
-[ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
-### op_ExclusiveOr(ImageMask a, ImageMask b) {#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-}
-```
-public static ImageBitMask op_ExclusiveOr(ImageMask a, ImageMask b)
-```
-
-
-Exclusive disjunction of two masks.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The first mask. |
-| b | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | The second mask. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).

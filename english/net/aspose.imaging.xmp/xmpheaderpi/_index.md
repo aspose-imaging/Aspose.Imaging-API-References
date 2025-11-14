@@ -3,7 +3,7 @@ title: Class XmpHeaderPi
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpHeaderPi class. Represents XMP header processing instruction
 type: docs
-weight: 12320
+weight: 12340
 url: /net/aspose.imaging.xmp/xmpheaderpi/
 ---
 ## XmpHeaderPi class

@@ -48,6 +48,7 @@ The module is the core for nested modules and the most basic objects used for As
 | [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader/) | The image loader. |
 | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome<br/>            the necessity to contain each image loader instance in memory and multithreading issues. |
 | [IIndexedColorConverter](/imaging/python-net/aspose.imaging/iindexedcolorconverter/) | The color converter for indexed image formats. |
+| [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) | Image metadata container interface. |
 | [IMultipageImage](/imaging/python-net/aspose.imaging/imultipageimage/) | The multipage image interface |
 | [IMultipageImageExt](/imaging/python-net/aspose.imaging/imultipageimageext/) | The extended multipage image interface |
 | [IObjectWithBounds](/imaging/python-net/aspose.imaging/iobjectwithbounds/) | Represents an object with bounds. |

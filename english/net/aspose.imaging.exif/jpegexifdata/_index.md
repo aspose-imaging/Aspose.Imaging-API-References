@@ -155,16 +155,17 @@ public sealed class JpegExifData : ExifData
 | [UserComment](../../aspose.imaging.exif/exifdata/usercomment/) { get; set; } | Gets or sets the user comment. |
 | [WhiteBalance](../../aspose.imaging.exif/exifdata/whitebalance/) { get; set; } | Gets or sets the white balance. |
 | [WhitePoint](../../aspose.imaging.exif/exifdata/whitepoint/) { get; set; } | Gets or sets the chromaticity of the white point of the image. |
-| [XResolution](../../aspose.imaging.exif/jpegexifdata/xresolution/) { get; set; } | Gets or sets the x resolution. |
+| [XResolution](../../aspose.imaging.exif/jpegexifdata/xresolution/) { get; set; } | Gets or sets the x resolution. (2 properties) |
 | [YCbCrCoefficients](../../aspose.imaging.exif/jpegexifdata/ycbcrcoefficients/) { get; set; } | Gets or sets the matrix coefficients for transformation from RGB to YCbCr image data. |
 | [YCbCrPositioning](../../aspose.imaging.exif/jpegexifdata/ycbcrpositioning/) { get; set; } | Gets or sets the position of chrominance components in relation to the luminance component. |
 | [YCbCrSubSampling](../../aspose.imaging.exif/jpegexifdata/ycbcrsubsampling/) { get; set; } | Gets or sets the sampling ratio of chrominance components in relation to the luminance component. |
-| [YResolution](../../aspose.imaging.exif/jpegexifdata/yresolution/) { get; set; } | Gets or sets the y resolution. |
+| [YResolution](../../aspose.imaging.exif/jpegexifdata/yresolution/) { get; set; } | Gets or sets the y resolution. (2 properties) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| [GetTagValue](../../aspose.imaging.exif/exifdata/gettagvalue/)(ExifProperties) | Gets the tag value. |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/)(ExifProperties) | Remove tag from container |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/)(ushort) | Remove tag from container |
 | [SerializeExifData](../../aspose.imaging.exif/jpegexifdata/serializeexifdata/)() | Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents. |

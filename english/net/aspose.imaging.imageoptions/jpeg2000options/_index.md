@@ -3,7 +3,7 @@ title: Class Jpeg2000Options
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.Jpeg2000Options class. Create JPEG2000 JP2 image files with our API utilizing advanced wavelet technology for coding lossless content. Benefit from support for various codecs including irreversible and lossless compression as well as XMP metadata containers ensuring versatility and highquality image creation tailored to your needs
 type: docs
-weight: 10290
+weight: 10310
 url: /net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class

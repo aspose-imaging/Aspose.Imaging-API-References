@@ -3,7 +3,7 @@ title: Class PsdVectorizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.PsdVectorizationOptions class. The vectorized PSD rasterization options
 type: docs
-weight: 10450
+weight: 10470
 url: /net/aspose.imaging.imageoptions/psdvectorizationoptions/
 ---
 ## PsdVectorizationOptions class

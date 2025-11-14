@@ -1,7 +1,7 @@
 ---
 title: ImageLoadersRegistry Class
 type: docs
-weight: 5650
+weight: 5670
 url: /python-net/aspose.imaging/imageloadersregistry/
 ---
 

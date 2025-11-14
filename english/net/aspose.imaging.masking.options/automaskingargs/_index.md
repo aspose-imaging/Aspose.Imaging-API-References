@@ -3,7 +3,7 @@ title: Class AutoMaskingArgs
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.AutoMaskingArgs class. Represents the arguments that are specified for automated masking methods
 type: docs
-weight: 10910
+weight: 10930
 url: /net/aspose.imaging.masking.options/automaskingargs/
 ---
 ## AutoMaskingArgs class

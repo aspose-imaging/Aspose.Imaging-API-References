@@ -1,7 +1,7 @@
 ---
 title: RectangleF Class
 type: docs
-weight: 7040
+weight: 7070
 url: /python-net/aspose.imaging/rectanglef/
 ---
 

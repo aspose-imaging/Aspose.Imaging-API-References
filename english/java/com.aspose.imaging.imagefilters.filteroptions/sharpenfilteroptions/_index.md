@@ -3,7 +3,7 @@ title: SharpenFilterOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The sharpen filter options.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 **Inheritance:**

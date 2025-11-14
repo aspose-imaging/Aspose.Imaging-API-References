@@ -17,11 +17,7 @@ Provides options for configuring the Adaptive White Stretch filter. Allows custo
 
 | Constructor | Description |
 | --- | --- |
-| [AdaptiveWhiteStretchFilterOptions()](#AdaptiveWhiteStretchFilterOptions--) |  |
-| [AdaptiveWhiteStretchFilterOptions(boolean isGrayscale)](#AdaptiveWhiteStretchFilterOptions-boolean-) |  |
-| [AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile)](#AdaptiveWhiteStretchFilterOptions-boolean-int-) |  |
-| [AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile)](#AdaptiveWhiteStretchFilterOptions-boolean-int-int-) |  |
-| [AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile, int targetWhite)](#AdaptiveWhiteStretchFilterOptions-boolean-int-int-int-) |  |
+| [AdaptiveWhiteStretchFilterOptions()](#AdaptiveWhiteStretchFilterOptions--) | Initializes a new instance of the AdaptiveWhiteStretchFilter class. |
 | [AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile, int targetWhite, float maxScale)](#AdaptiveWhiteStretchFilterOptions-boolean-int-int-int-float-) | Initializes a new instance of the AdaptiveWhiteStretchFilter class. |
 ## Methods
 
@@ -38,55 +34,7 @@ public AdaptiveWhiteStretchFilterOptions()
 ```
 
 
-### AdaptiveWhiteStretchFilterOptions(boolean isGrayscale) {#AdaptiveWhiteStretchFilterOptions-boolean-}
-```
-public AdaptiveWhiteStretchFilterOptions(boolean isGrayscale)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isGrayscale | boolean |  |
-
-### AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile) {#AdaptiveWhiteStretchFilterOptions-boolean-int-}
-```
-public AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isGrayscale | boolean |  |
-| lowPercentile | int |  |
-
-### AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile) {#AdaptiveWhiteStretchFilterOptions-boolean-int-int-}
-```
-public AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isGrayscale | boolean |  |
-| lowPercentile | int |  |
-| highPercentile | int |  |
-
-### AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile, int targetWhite) {#AdaptiveWhiteStretchFilterOptions-boolean-int-int-int-}
-```
-public AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile, int targetWhite)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isGrayscale | boolean |  |
-| lowPercentile | int |  |
-| highPercentile | int |  |
-| targetWhite | int |  |
+Initializes a new instance of the AdaptiveWhiteStretchFilter class.
 
 ### AdaptiveWhiteStretchFilterOptions(boolean isGrayscale, int lowPercentile, int highPercentile, int targetWhite, float maxScale) {#AdaptiveWhiteStretchFilterOptions-boolean-int-int-int-float-}
 ```

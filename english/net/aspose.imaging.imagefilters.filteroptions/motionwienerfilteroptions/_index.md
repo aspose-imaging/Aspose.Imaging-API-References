@@ -3,7 +3,7 @@ title: Class MotionWienerFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions class. The motion debluring filter options
 type: docs
-weight: 10020
+weight: 10040
 url: /net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/
 ---
 ## MotionWienerFilterOptions class

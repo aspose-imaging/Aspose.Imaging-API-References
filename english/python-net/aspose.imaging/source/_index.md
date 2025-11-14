@@ -1,7 +1,7 @@
 ---
 title: Source Class
 type: docs
-weight: 7220
+weight: 7250
 url: /python-net/aspose.imaging/source/
 ---
 

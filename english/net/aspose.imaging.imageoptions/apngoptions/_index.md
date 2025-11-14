@@ -3,7 +3,7 @@ title: Class ApngOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.ApngOptions class. The API for Animated PNG Animated Portable Network Graphics image file format creation is a dynamic tool for developers seeking to generate captivating animated images. With customizable options such as frame duration and the number of times to loop this API allows for finetuning animated content according to specific needs. Whether creating engaging web graphics or interactive visuals you can leverage this API to seamlessly incorporate APNG images with precise control over animation parameters
 type: docs
-weight: 10140
+weight: 10160
 url: /net/aspose.imaging.imageoptions/apngoptions/
 ---
 ## ApngOptions class

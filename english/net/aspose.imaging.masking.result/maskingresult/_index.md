@@ -3,7 +3,7 @@ title: Class MaskingResult
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Result.MaskingResult class. Base abstract class which can provide result image from image masking system
 type: docs
-weight: 11000
+weight: 11020
 url: /net/aspose.imaging.masking.result/maskingresult/
 ---
 ## MaskingResult class
