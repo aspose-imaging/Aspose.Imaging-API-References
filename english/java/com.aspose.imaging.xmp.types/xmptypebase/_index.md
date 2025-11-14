@@ -25,7 +25,6 @@ Represents base class for basic XMP type.
 
 | Method | Description |
 | --- | --- |
-| [getXmpRepresentation()](#getXmpRepresentation--) | Gets the string contained value in XMP format. |
 | [toString()](#toString--) | Gets this XMP data as string. |
 | [deepClone()](#deepClone--) | Clones this instance. |
 ### XmpTypeBase() {#XmpTypeBase--}
@@ -34,16 +33,6 @@ public XmpTypeBase()
 ```
 
 
-### getXmpRepresentation() {#getXmpRepresentation--}
-```
-public abstract String getXmpRepresentation()
-```
-
-
-Gets the string contained value in XMP format.
-
-**Returns:**
-java.lang.String - Returns the string containing xmp representation.
 ### toString() {#toString--}
 ```
 public String toString()

@@ -32,6 +32,10 @@ The convolution filter options.
 | [setFactor(double value)](#setFactor-double-) | Sets the factor. |
 | [getBias()](#getBias--) | Gets the bias. |
 | [setBias(int value)](#setBias-int-) | Sets the bias. |
+| [getIgnoreAlpha()](#getIgnoreAlpha--) | Gets a value indicating whether [ignore alpha]. |
+| [setIgnoreAlpha(boolean value)](#setIgnoreAlpha-boolean-) | Sets a value indicating whether [ignore alpha]. |
+| [getBordersProcessing()](#getBordersProcessing--) | Gets a value indicating whether [borders processing]. |
+| [setBordersProcessing(boolean value)](#setBordersProcessing-boolean-) | Sets a value indicating whether [borders processing]. |
 ### ConvolutionFilterOptions(double[][] kernel) {#ConvolutionFilterOptions-double-----}
 ```
 public ConvolutionFilterOptions(double[][] kernel)
@@ -133,4 +137,58 @@ Value: The bias.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | the bias. |
+
+### getIgnoreAlpha() {#getIgnoreAlpha--}
+```
+public final boolean getIgnoreAlpha()
+```
+
+
+Gets a value indicating whether [ignore alpha].
+
+Value: `true` if [ignore alpha]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [ignore alpha].
+### setIgnoreAlpha(boolean value) {#setIgnoreAlpha-boolean-}
+```
+public final void setIgnoreAlpha(boolean value)
+```
+
+
+Sets a value indicating whether [ignore alpha].
+
+Value: `true` if [ignore alpha]; otherwise, `false`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether [ignore alpha]. |
+
+### getBordersProcessing() {#getBordersProcessing--}
+```
+public final boolean getBordersProcessing()
+```
+
+
+Gets a value indicating whether [borders processing].
+
+Value: `true` if [borders processing]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [borders processing].
+### setBordersProcessing(boolean value) {#setBordersProcessing-boolean-}
+```
+public final void setBordersProcessing(boolean value)
+```
+
+
+Sets a value indicating whether [borders processing].
+
+Value: `true` if [borders processing]; otherwise, `false`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether [borders processing]. |
 

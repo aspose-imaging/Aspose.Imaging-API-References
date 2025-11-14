@@ -24,8 +24,6 @@ The raster multipage image
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [isCached()](#isCached--) | Gets a value indicating whether image data is cached currently. |
-| [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getPages()](#getPages--) | Gets the pages. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
@@ -144,30 +142,6 @@ Value: `true` if image data is cached; otherwise, `false`.
 
 **Returns:**
 boolean - a value indicating whether image data is cached currently.
-### getPageCount() {#getPageCount--}
-```
-public abstract int getPageCount()
-```
-
-
-Gets the page count.
-
-Value: The page count.
-
-**Returns:**
-int - the page count.
-### getPages() {#getPages--}
-```
-public abstract Image[] getPages()
-```
-
-
-Gets the pages.
-
-Value: The pages.
-
-**Returns:**
-com.aspose.imaging.Image[] - the pages.
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()

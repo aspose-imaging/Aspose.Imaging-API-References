@@ -24,6 +24,7 @@ EXIF data container.
 | [ExifData(TiffDataType[] exifdata)](#ExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `ExifData` class with data from array. |
 | [ExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#ExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `ExifData` class with data from array. |
 | [ExifData(ExifData exifdata)](#ExifData-com.aspose.imaging.exif.ExifData-) | Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class with data from array. |
+| [ExifData(byte[] binaryData)](#ExifData-byte---) | Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class. |
 ## Methods
 
 | Method | Description |
@@ -248,7 +249,12 @@ EXIF data container.
 | [setGPSTags(TiffDataType[] value)](#setGPSTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Gets or sets tags, which belong to GPS section only. |
 | [getThumbnail()](#getThumbnail--) | Gets the thumbnail image. |
 | [setThumbnail(RasterImage value)](#setThumbnail-com.aspose.imaging.RasterImage-) | Sets the thumbnail image. |
+| [getXResolutionInt()](#getXResolutionInt--) | Gets the x resolution. |
+| [setXResolution(int value)](#setXResolution-int-) | Sets the x resolution. |
+| [getYResolutionInt()](#getYResolutionInt--) | Gets the y resolution. |
+| [setYResolution(int value)](#setYResolution-int-) | Sets the y resolution. |
 | [removeTag(int tagId)](#removeTag-int-) | Remove tag from container |
+| [getTagValue(int key)](#getTagValue-int-) | Gets the tag value. |
 
 ## Example: Access camera manufacturer maker notes in Jpeg image.
 
@@ -310,6 +316,19 @@ Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifd
 | Parameter | Type | Description |
 | --- | --- | --- |
 | exifdata | [ExifData](../../com.aspose.imaging.exif/exifdata) | Array of EXIF tags together with common and GPS tags. |
+
+### ExifData(byte[] binaryData) {#ExifData-byte---}
+```
+public ExifData(byte[] binaryData)
+```
+
+
+Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| binaryData | byte[] | The binary data. |
 
 ### isBigEndian() {#isBigEndian--}
 ```
@@ -3295,6 +3314,60 @@ Sets the thumbnail image.
 | --- | --- | --- |
 | value | [RasterImage](../../com.aspose.imaging/rasterimage) | the thumbnail image. |
 
+### getXResolutionInt() {#getXResolutionInt--}
+```
+public final int getXResolutionInt()
+```
+
+
+Gets the x resolution.
+
+Value: The x resolution.
+
+**Returns:**
+int - the x resolution.
+### setXResolution(int value) {#setXResolution-int-}
+```
+public final void setXResolution(int value)
+```
+
+
+Sets the x resolution.
+
+Value: The x resolution.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the x resolution. |
+
+### getYResolutionInt() {#getYResolutionInt--}
+```
+public final int getYResolutionInt()
+```
+
+
+Gets the y resolution.
+
+Value: The y resolution.
+
+**Returns:**
+int - the y resolution.
+### setYResolution(int value) {#setYResolution-int-}
+```
+public final void setYResolution(int value)
+```
+
+
+Sets the y resolution.
+
+Value: The y resolution.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the y resolution. |
+
 ### removeTag(int tagId) {#removeTag-int-}
 ```
 public void removeTag(int tagId)
@@ -3308,3 +3381,18 @@ Remove tag from container
 | --- | --- | --- |
 | tagId | int | The tag identifier to remove. |
 
+### getTagValue(int key) {#getTagValue-int-}
+```
+public final TiffDataType getTagValue(int key)
+```
+
+
+Gets the tag value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int | The tag key [ExifProperties](../../com.aspose.imaging.exif/exifproperties). |
+
+**Returns:**
+[TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) - The TiffDataType

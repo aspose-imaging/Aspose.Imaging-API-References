@@ -26,7 +26,6 @@ The open document brush
 | Method | Description |
 | --- | --- |
 | [getBrushStyle()](#getBrushStyle--) | Gets the style. |
-| [deepClone()](#deepClone--) | Clone this instance. |
 ### OdBrush() {#OdBrush--}
 ```
 public OdBrush()
@@ -43,13 +42,3 @@ Gets the style.
 
 **Returns:**
 int - the style.
-### deepClone() {#deepClone--}
-```
-public abstract Object deepClone()
-```
-
-
-Clone this instance.
-
-**Returns:**
-java.lang.Object - The return new instance of source brush

@@ -291,7 +291,7 @@ public static final int Artist
 ```
 
 
-This tag records the name of the camera owner, photographer or image creator. The detailed format is not specified, but it is recommended that the information be written as in the example below for ease of Interoperability. When the field is left blank, it is treated as unknown. Ex.) "Camera owner, John Smith; Photographer, Michael Brown; Image creator, Ken James"
+This tag records the name of the camera owner, photographer or image creator. The detailed format is not specified, but it is recommended that the information be written as in the example below for ease of Interoperability. When the field is left blank, it is treated as unknown. (Ex. "Camera owner, John Smith; Photographer, Michael Brown; Image creator, Ken James")
 
 ### WhitePoint {#WhitePoint}
 ```
