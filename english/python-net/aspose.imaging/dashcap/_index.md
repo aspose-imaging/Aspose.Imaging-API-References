@@ -1,7 +1,7 @@
 ---
 title: DashCap Enumeration
 type: docs
-weight: 9330
+weight: 9360
 url: /python-net/aspose.imaging/dashcap/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ColorMatrixFlag Enumeration
 type: docs
-weight: 9210
+weight: 9240
 url: /python-net/aspose.imaging/colormatrixflag/
 ---
 

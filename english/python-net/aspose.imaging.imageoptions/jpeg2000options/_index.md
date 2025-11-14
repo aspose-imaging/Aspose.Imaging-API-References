@@ -11,7 +11,7 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 
 **Full Name:** aspose.imaging.imageoptions.Jpeg2000Options
 
-**Inheritance:** IHasXmpData, IHasMetadata, ImageOptionsBase
+**Inheritance:** IMetadataContainer, IHasExifData, IHasMetadata, IHasXmpData, ImageOptionsBase
 
 ## **Constructors**
 | **Name** | **Description** |
@@ -26,6 +26,7 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 | comments | string[] | r/w | Gets or sets the Jpeg comment markers. |
 | compression_ratios | int[] | r/w | Gets or sets the Array of compression ratio.<br/>            Different compression ratios for successive layers.<br/>            The rate specified for each quality level is the desired<br/>            compression factor.<br/>            Decreasing ratios required. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | irreversible | bool | r/w | Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
@@ -39,6 +40,7 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Creates a memberwise clone of this instance. |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_2) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 
 ### Constructor: Jpeg2000Options() {#Jpeg2000Options__1}
@@ -79,5 +81,27 @@ Creates a memberwise clone of this instance.
 | Type | Description |
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | A memberwise clone of this instance. |
+
+
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_2}
+
+
+```
+ try_set_metadata(metadata) 
+```
+
+Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| metadata | [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) | The metadata. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | True, if the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 

@@ -1,7 +1,7 @@
 ---
 title: ColorChannelFlag Enumeration
 type: docs
-weight: 9180
+weight: 9210
 url: /python-net/aspose.imaging/colorchannelflag/
 ---
 

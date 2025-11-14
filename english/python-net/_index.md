@@ -91,6 +91,7 @@ url: /python-net/
 | [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/) | The module handles ImageMasking.Options processing. |
 | [aspose.imaging.masking.result](/imaging/python-net/aspose.imaging.masking.result/) | The module handles ImageMasking.Result processing. |
 | [aspose.imaging.memorymanagement](/imaging/python-net/aspose.imaging.memorymanagement/) | The module contains memory management routines. |
+| [aspose.imaging.metadata](/imaging/python-net/aspose.imaging.metadata/) |  |
 | [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/) | The module contains multi-threading classes. |
 | [aspose.imaging.palettehelper](/imaging/python-net/aspose.imaging.palettehelper/) | The module contains classes for adjustment of color palette to the image colors and visa versa. |
 | [aspose.imaging.progressmanagement](/imaging/python-net/aspose.imaging.progressmanagement/) | The module contains progress handler classes |

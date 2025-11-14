@@ -1,7 +1,7 @@
 ---
 title: Matrix Class
 type: docs
-weight: 5980
+weight: 6010
 url: /python-net/aspose.imaging/matrix/
 ---
 

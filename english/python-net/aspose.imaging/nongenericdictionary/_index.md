@@ -1,7 +1,7 @@
 ---
 title: NonGenericDictionary Class
 type: docs
-weight: 6110
+weight: 6140
 url: /python-net/aspose.imaging/nongenericdictionary/
 ---
 

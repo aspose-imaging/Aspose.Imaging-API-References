@@ -1,7 +1,7 @@
 ---
 title: StringDigitSubstitute Enumeration
 type: docs
-weight: 11090
+weight: 11120
 url: /python-net/aspose.imaging/stringdigitsubstitute/
 ---
 

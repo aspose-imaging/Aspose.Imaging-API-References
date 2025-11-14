@@ -1,7 +1,7 @@
 ---
 title: RemoveBackgroundSettings Class
 type: docs
-weight: 7090
+weight: 7120
 url: /python-net/aspose.imaging/removebackgroundsettings/
 ---
 

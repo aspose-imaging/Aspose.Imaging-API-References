@@ -1,7 +1,7 @@
 ---
 title: PixelDataFormat Class
 type: docs
-weight: 6830
+weight: 6860
 url: /python-net/aspose.imaging/pixeldataformat/
 ---
 

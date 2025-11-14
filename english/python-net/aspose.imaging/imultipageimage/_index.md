@@ -1,7 +1,7 @@
 ---
 title: IMultipageImage Class
 type: docs
-weight: 5390
+weight: 5410
 url: /python-net/aspose.imaging/imultipageimage/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.sources
 type: docs
-weight: 970
+weight: 980
 url: /python-net/aspose.imaging.sources/
 ---
 
