@@ -67,7 +67,7 @@ url: /python-net/aspose.imaging/image/
 | [get_file_format_of_stream(stream)](#get_file_format_of_stream_stream_25) | Gets the file format. |
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_26) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_27) | Gets rectangle which fits the current image. |
-| [get_original_options()](#get_original_options__28) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__28) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_29) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_30) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_31) | Converts to aps. |
@@ -117,7 +117,7 @@ Gets a value indicating whether the image palette is used.
 
 **See also:**
 
-**[Example # 1](#example_197)**: Determine if the palette is used by the image.
+**[Example # 1](#example_218)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -764,7 +764,7 @@ Gets rectangle which fits the current image.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1034,7 +1034,9 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 
 **See also:**
 
-**[Example # 1](#example_167)**: The following example shows how to resize a metafile (WMF and EMF).
+**[Example # 1](#example_180)**: The following example shows how to resize a metafile (WMF and EMF).
+
+**[Example # 2](#example_183)**: The following example shows how to resize SVG image and save it to PNG.
 
 
 ### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_40}
@@ -1057,7 +1059,7 @@ Resizes the image.
 
 **See also:**
 
-**[Example # 1](#example_187)**: Resize image using specific Resize Type.
+**[Example # 1](#example_206)**: Resize image using specific Resize Type.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_41}
@@ -1082,7 +1084,7 @@ Resizes the image.
 
 **[Example # 1](#example_28)**: This example loads an image and resizes it using various resizing settings.
 
-**[Example # 2](#example_187)**: Resize image using specific Resize Type.
+**[Example # 2](#example_206)**: Resize image using specific Resize Type.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_42}
@@ -1985,7 +1987,7 @@ with Image.load(path_join(directory, "sample.bmp")) as image:
 
 ```
 
-### The following example shows how to resize a metafile (WMF and EMF). {#example_167}
+### The following example shows how to resize a metafile (WMF and EMF). {#example_180}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2005,7 +2007,27 @@ for file_name in file_names:
 
 ```
 
-### Resize image using specific Resize Type. {#example_187}
+### The following example shows how to resize SVG image and save it to PNG. {#example_183}
+``` python
+
+from aspose.imaging import PointF, Image
+from aspose.imaging.imageoptions import PngOptions
+from os import path
+
+dir_ = "c:\\aspose.imaging\\net\\issues\\3549"
+file_names = ["Logotype.svg", "sample_car.svg", "rg1024_green_grapes.svg", "MidMarkerFigure.svg", "embeddedFonts.svg"]
+scales = [PointF(0.5, 0.5), PointF(1.0, 1.0), PointF(2.0, 2.0), PointF(3.5, 9.2)]
+for input_file in file_names:
+	for scale in scales:
+		output_file = "{0}_{1}_{2}.png".format(input_file, str(scale.x), str(scale.y))
+		with Image.load(path.join(dir_, input_file)) as image:
+			image.resize(int(image.width * scale.x), int(image.height * scale.y))
+			image.save(path.join(dir_, output_file), PngOptions())
+
+
+```
+
+### Resize image using specific Resize Type. {#example_206}
 ``` python
 from aspose.imaging import Image, ResizeType, ImageResizeSettings, ImageFilterType
 
@@ -2023,7 +2045,7 @@ with Image.load("Photo.jpg") as image:
 
 ```
 
-### Determine if the palette is used by the image. {#example_197}
+### Determine if the palette is used by the image. {#example_218}
 ``` python
 
 from aspose.imaging import Image

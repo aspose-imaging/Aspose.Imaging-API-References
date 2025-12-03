@@ -36,7 +36,7 @@ url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 Initializes a new instance of the PdfCoreOptions class
 
 ## **Examples**
-### Convert EPS image to PDF using PostScript rendering. {#example_184}
+### Convert EPS image to PDF using PostScript rendering. {#example_203}
 ``` python
 
 from aspose.imaging import Image, PdfComplianceVersion

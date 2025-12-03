@@ -23,7 +23,9 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/convolutionfilteropti
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
+| borders_processing | bool | r/w | Gets or sets a value indicating whether [borders processing]. |
 | factor | float | r/w | Gets or sets the factor. |
+| ignore_alpha | bool | r/w | Gets or sets a value indicating whether [ignore alpha]. |
 | kernel_data | float[] | r | Gets the kernel. |
 
 

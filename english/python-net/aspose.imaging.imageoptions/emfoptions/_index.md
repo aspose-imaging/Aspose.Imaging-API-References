@@ -87,7 +87,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert a emz images to emf format {#example_169}
+### The following example shows how to convert a emz images to emf format {#example_188}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -108,7 +108,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a emf images to emz format {#example_172}
+### The following example shows how to convert a emf images to emz format {#example_191}
 ``` python
 
 from os.path import join as path_combine

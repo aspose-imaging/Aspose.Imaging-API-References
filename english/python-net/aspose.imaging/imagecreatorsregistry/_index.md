@@ -1,7 +1,7 @@
 ---
 title: ImageCreatorsRegistry Class
 type: docs
-weight: 5640
+weight: 5650
 url: /python-net/aspose.imaging/imagecreatorsregistry/
 ---
 

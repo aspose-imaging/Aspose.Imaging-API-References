@@ -160,10 +160,11 @@ url: /python-net/aspose.imaging.exif/jpegexifdata/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [remove_tag(tag)](#remove_tag_tag_1) | Remove tag from container |
-| [remove_tag(tag_id)](#remove_tag_tag_id_2) | Remove tag from container |
-| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_3) | Remove tag from container |
-| [serialize_exif_data()](#serialize_exif_data__4) | Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents. |
+| [get_tag_value(key)](#get_tag_value_key_1) | Gets the tag value. |
+| [remove_tag(tag)](#remove_tag_tag_2) | Remove tag from container |
+| [remove_tag(tag_id)](#remove_tag_tag_id_3) | Remove tag from container |
+| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_4) | Remove tag from container |
+| [serialize_exif_data()](#serialize_exif_data__5) | Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents. |
 
 
 ### Constructor: JpegExifData() {#JpegExifData__1}
@@ -222,7 +223,29 @@ Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | exifdata | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | Array of EXIF tags together with common and GPS tags. |
 
-### Method: remove_tag(tag) {#remove_tag_tag_1}
+### Method: get_tag_value(key) {#get_tag_value_key_1}
+
+
+```
+ get_tag_value(key) 
+```
+
+Gets the tag value.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/) | The tag key. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The TiffDataType |
+
+
+### Method: remove_tag(tag) {#remove_tag_tag_2}
 
 
 ```
@@ -237,7 +260,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag | [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/) | The tag to remove |
 
-### Method: remove_tag(tag_id) {#remove_tag_tag_id_2}
+### Method: remove_tag(tag_id) {#remove_tag_tag_id_3}
 
 
 ```
@@ -252,7 +275,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag_id | int | The tag identifier to remove. |
 
-### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_3}
+### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_4}
 
 
 ```
@@ -267,7 +290,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag_id | int | The tag identifier to remove. |
 
-### Method: serialize_exif_data() {#serialize_exif_data__4}
+### Method: serialize_exif_data() {#serialize_exif_data__5}
 
 
 ```

@@ -34,7 +34,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Retrieve the file format value associated with the image. This property serves as <br/>            a critical aspect of image metadata retrieval, allowing software applications to <br/>            identify and interpret the format of the image data efficiently. |
 | frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | r | Retrieve an array of [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) instances, enabling comprehensive <br/>            access and manipulation of individual frames within the TIFF image. Harness the <br/>            power of this array to streamline image processing workflows, ensuring precise <br/>            control and optimization of visual content. |
-| has_alpha | bool | r | Determine whether the image has an alpha channel, providing crucial information <br/>            for rendering and compositing operations. Integrate this feature to optimize <br/>            visual processing workflows, ensuring accurate representation and manipulation of <br/>            transparent elements. |
+| [has_alpha](#has_alpha1) | bool | r | Determine whether the image has an alpha channel, providing crucial information <br/>            for rendering and compositing operations. Integrate this feature to optimize <br/>            visual processing workflows, ensuring accurate representation and manipulation of <br/>            transparent elements. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
 | height | int | r | Gets the image height. |
@@ -123,7 +123,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_51) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_52) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_53) | Gets the date and time the resource image was last modified. |
-| [get_original_options()](#get_original_options__54) | Retrieve options derived from the original file settings, facilitating seamless <br/>            preservation of key parameters such as bit-depth and other essential attributes of <br/>            the original image. Utilize this method to maintain fidelity and consistency in <br/>            image processing tasks, ensuring optimal results without unnecessary alterations.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__54) | Retrieve options derived from the original file settings, facilitating seamless <br/>            preservation of key parameters such as bit-depth and other essential attributes of <br/>            the original image. Utilize this method to maintain fidelity and consistency in <br/>            image processing tasks, ensuring optimal results without unnecessary alterations.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_pixel(x, y)](#get_pixel_x_y_55) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_56) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_57) | Gets a proportional width. |
@@ -139,7 +139,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_66) | Loads 32-bit ARGB pixels. |
 | [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_67) | Loads 64-bit ARGB pixels. |
 | [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_68) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_69) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_69) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_70) | Loads 32-bit ARGB pixels partially (by blocks). |
 | [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_71) | Loads 64-bit ARGB pixels partially by packs. |
 | [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_72) | Loads pixels partially by packs. |
@@ -149,8 +149,8 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [load_stream(stream)](#load_stream_stream_76) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_77) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_78) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_79) | Utilize the NormalizeAngle method specifically designed for scanned text documents <br/>            to rectify skewed scans, ensuring accurate alignment. Seamlessly <br/>            integrate this functionality into your text processing workflows to enhance <br/>            document readability and quality, improving overall efficiency in text recognition <br/>            and analysis tasks.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.FileFormats.Tiff.TiffImage.Rotate(float,bool,Aspose.Imaging.Color) methods. |
+| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_79) | Utilize the NormalizeAngle method specifically designed for scanned text documents <br/>            to rectify skewed scans, ensuring accurate alignment. Seamlessly <br/>            integrate this functionality into your text processing workflows to enhance <br/>            document readability and quality, improving overall efficiency in text recognition <br/>            and analysis tasks.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [TiffImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_80) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_81) | Reads the whole scan line by the specified scan line index. |
@@ -192,7 +192,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_115) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_116) | Saves the 32-bit ARGB pixels. |
 | [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_117) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_118) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_118) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_119) | Saves the pixels internal main. |
 | [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_120) | Saves the raw data. |
 | [save_to_stream(stream)](#save_to_stream_stream_121) | Saves image to stream |
@@ -238,6 +238,15 @@ Create a new instance of the [TiffImage](/imaging/python-net/aspose.imaging.file
 | Parameter | Type | Description |
 | :- | :- | :- |
 | frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frames. |
+
+### Property: has_alpha {#has_alpha1}
+
+Determine whether the image has an alpha channel, providing crucial information <br/>            for rendering and compositing operations. Integrate this feature to optimize <br/>            visual processing workflows, ensuring accurate representation and manipulation of <br/>            transparent elements.
+
+**See also:**
+
+**[Example # 1](#example_119)**: The following example loads a TIFF image and prints information about raw dat...
+
 
 ### Method: add(image) {#add_image_1}
 
@@ -317,7 +326,7 @@ Implement _brightness_ adjustment for the image, allowing the <br/>            m
 
 **See also:**
 
-**[Example # 1](#example_122)**: The following example performs brightness correction of a TIFF image.
+**[Example # 1](#example_128)**: The following example performs brightness correction of a TIFF image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_6}
@@ -338,7 +347,7 @@ Enhance the contrast of the [Image](/imaging/python-net/aspose.imaging/image/) i
 
 **See also:**
 
-**[Example # 1](#example_123)**: The following example performs contrast correction of a TIFF image.
+**[Example # 1](#example_129)**: The following example performs contrast correction of a TIFF image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_7}
@@ -359,7 +368,7 @@ Apply gamma correction to the image, adjusting pixel intensities to achieve <br/
 
 **See also:**
 
-**[Example # 1](#example_120)**: The following example performs gamma-correction of a TIFF image.
+**[Example # 1](#example_126)**: The following example performs gamma-correction of a TIFF image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_8}
@@ -382,7 +391,7 @@ Perform gamma correction on the image using individual coefficients for red, <br
 
 **See also:**
 
-**[Example # 1](#example_121)**: The following example performs gamma-correction of a TIFF image applying diff...
+**[Example # 1](#example_127)**: The following example performs gamma-correction of a TIFF image applying diff...
 
 
 ### Method: analyze_percentage_digital_signature(password) {#analyze_percentage_digital_signature_password_9}
@@ -441,7 +450,7 @@ Implement binarization on the image employing Bradley's adaptive thresholding <b
 
 **See also:**
 
-**[Example # 1](#example_118)**: The following example binarizes a TIFF image with Bradley's adaptive threshol...
+**[Example # 1](#example_124)**: The following example binarizes a TIFF image with Bradley's adaptive threshol...
 
 
 ### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_12}
@@ -462,7 +471,7 @@ Apply binarization to the image using a predefined threshold, converting it into
 
 **See also:**
 
-**[Example # 1](#example_116)**: The following example binarizes a TIFF image with the predefined threshold. B...
+**[Example # 1](#example_122)**: The following example binarizes a TIFF image with the predefined threshold. B...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_13}
@@ -996,7 +1005,7 @@ Perform cropping on the image by specifying shifts in the left, right, top, and 
 
 **See also:**
 
-**[Example # 1](#example_115)**: The following example crops a TIFF image. The cropping area is specified via ...
+**[Example # 1](#example_121)**: The following example crops a TIFF image. The cropping area is specified via ...
 
 
 ### Method: crop(rectangle) {#crop_rectangle_37}
@@ -1017,7 +1026,7 @@ Crop the image using a specified rectangular region, allowing precise selection 
 
 **See also:**
 
-**[Example # 1](#example_114)**: The following example crops a TIFF image. The cropping area is be specified v...
+**[Example # 1](#example_120)**: The following example crops a TIFF image. The cropping area is be specified v...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_38}
@@ -1351,7 +1360,7 @@ Gets the date and time the resource image was last modified.
  get_original_options() 
 ```
 
-Retrieve options derived from the original file settings, facilitating seamless <br/>            preservation of key parameters such as bit-depth and other essential attributes of <br/>            the original image. Utilize this method to maintain fidelity and consistency in <br/>            image processing tasks, ensuring optimal results without unnecessary alterations.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Retrieve options derived from the original file settings, facilitating seamless <br/>            preservation of key parameters such as bit-depth and other essential attributes of <br/>            the original image. Utilize this method to maintain fidelity and consistency in <br/>            image processing tasks, ensuring optimal results without unnecessary alterations.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1673,7 +1682,7 @@ Loads pixels in CMYK format.
  load_cmyk_pixels(rectangle) 
 ```
 
-Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method.
+Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -1868,7 +1877,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Utilize the NormalizeAngle method specifically designed for scanned text documents <br/>            to rectify skewed scans, ensuring accurate alignment. Seamlessly <br/>            integrate this functionality into your text processing workflows to enhance <br/>            document readability and quality, improving overall efficiency in text recognition <br/>            and analysis tasks.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.FileFormats.Tiff.TiffImage.Rotate(float,bool,Aspose.Imaging.Color) methods.
+Utilize the NormalizeAngle method specifically designed for scanned text documents <br/>            to rectify skewed scans, ensuring accurate alignment. Seamlessly <br/>            integrate this functionality into your text processing workflows to enhance <br/>            document readability and quality, improving overall efficiency in text recognition <br/>            and analysis tasks.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [TiffImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffimage/) methods.
 
 **Parameters:**
 
@@ -2361,7 +2370,7 @@ Perform rotation, flipping, or a combination of both operations exclusively on t
 
 **See also:**
 
-**[Example # 1](#example_113)**: This example loads a TIFF image, rotates it by 90 degrees clockwise and optio...
+**[Example # 1](#example_118)**: This example loads a TIFF image, rotates it by 90 degrees clockwise and optio...
 
 
 ### Method: rotate_flip_all(rotate_flip) {#rotate_flip_all_rotate_flip_108}
@@ -2530,7 +2539,7 @@ Saves the pixels.
  save_cmyk_pixels(rectangle, pixels) 
 ```
 
-Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method.
+Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2775,7 +2784,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### This example loads a TIFF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_113}
+### This example loads a TIFF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_118}
 ``` python
 
 from os.path import join
@@ -2795,7 +2804,35 @@ for rotate_flip_type in rotate_flip_types:
 
 ```
 
-### The following example crops a TIFF image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_114}
+### The following example loads a TIFF image and prints information about raw data format and alpha channel. {#example_119}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.fileformats.tiff import TiffImage
+from os.path import join as path_join
+
+
+dir_ = "c:\\temp"
+file_name = path_join(dir_, "sample.tif")
+with Image.load(file_name) as image:
+	tiff_image = aspycore.as_of(image, TiffImage)
+	# If the active TIFF frame has alpha channel, then the entire TIFF image is considered to have alpha channel.
+	print("ImageFile={0}, FileFormat={1}, HasAlpha={2}".format(file_name, tiff_image.raw_data_format, tiff_image.has_alpha))
+	i = 1
+	for frame in tiff_image.frames:
+		print("Frame={0}, FileFormat={1}, HasAlpha={2}".format(i, frame.raw_data_format, frame.has_alpha))
+		i += 1
+
+# The output may look like this:
+# ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+# Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+# Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+
+
+```
+
+### The following example crops a TIFF image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_120}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, Rectangle
@@ -2816,7 +2853,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example crops a TIFF image. The cropping area is specified via Left, Top, Right, Bottom margins. {#example_115}
+### The following example crops a TIFF image. The cropping area is specified via Left, Top, Right, Bottom margins. {#example_121}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore
@@ -2837,7 +2874,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example binarizes a TIFF image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_116}
+### The following example binarizes a TIFF image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_122}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2857,7 +2894,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example binarizes a TIFF image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_118}
+### The following example binarizes a TIFF image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_124}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore
@@ -2875,7 +2912,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs gamma-correction of a TIFF image. {#example_120}
+### The following example performs gamma-correction of a TIFF image. {#example_126}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2893,7 +2930,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs gamma-correction of a TIFF image applying different coefficients for color components. {#example_121}
+### The following example performs gamma-correction of a TIFF image applying different coefficients for color components. {#example_127}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2912,7 +2949,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs brightness correction of a TIFF image. {#example_122}
+### The following example performs brightness correction of a TIFF image. {#example_128}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2931,7 +2968,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### The following example performs contrast correction of a TIFF image. {#example_123}
+### The following example performs contrast correction of a TIFF image. {#example_129}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2950,7 +2987,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### Create Graphics Path from Path Resources in TIFF image. {#example_188}
+### Create Graphics Path from Path Resources in TIFF image. {#example_207}
 ``` python
 
 import aspose.pycore as aspycore

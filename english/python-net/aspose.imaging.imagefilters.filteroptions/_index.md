@@ -22,7 +22,12 @@ The module handles Filter options.
 | [GaussWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/) | Gauss Wiener filter options for image debluring. |
 | [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) | The Gaussian blur filter options. |
 | [GaussianDeconvolutionFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/) | The deconvolution filter options using Gaussian bluring. |
+| [ImageBlendingFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/imageblendingfilteroptions/) | The image blending filter options |
 | [MedianFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/) | Median filter |
 | [MotionWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/) | The motion debluring filter options. |
 | [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) | The sharpen filter options. |
 | [SmallRectangularFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions/) | Small rectangular filter options |
+## **Enumerations**
+| **Enumeration** | **Description** |
+| :- | :- |
+| [BlendingMode](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/blendingmode/) | The blending mode |

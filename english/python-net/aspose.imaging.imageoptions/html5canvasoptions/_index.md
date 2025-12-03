@@ -89,7 +89,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image. {#example_177}
+### Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image. {#example_196}
 ``` python
 
 from aspose.imaging import Image
@@ -103,7 +103,7 @@ with Image.load("Sample.svg") as image:
 
 ```
 
-### You can embed more than one Canvas image within HTML page or update already exsiting page. In order to do that you need to export only the Canvas tag. {#example_178}
+### You can embed more than one Canvas image within HTML page or update already exsiting page. In order to do that you need to export only the Canvas tag. {#example_197}
 ``` python
 
 from aspose.imaging import Image

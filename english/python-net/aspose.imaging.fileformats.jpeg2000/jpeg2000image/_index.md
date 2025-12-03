@@ -128,7 +128,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_53) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_54) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_55) | Gets the date and time the resource image was last modified. |
-| [get_original_options()](#get_original_options__56) | Retrieve the image options based on the original file settings. This method is <br/>            beneficial for maintaining the bit-depth and other parameters of the original <br/>            image, ensuring consistency and preserving the integrity of the image data. <br/>            Accessing these options facilitates seamless handling and processing of the image <br/>            while retaining its original characteristics.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__56) | Retrieve the image options based on the original file settings. This method is <br/>            beneficial for maintaining the bit-depth and other parameters of the original <br/>            image, ensuring consistency and preserving the integrity of the image data. <br/>            Accessing these options facilitates seamless handling and processing of the image <br/>            while retaining its original characteristics.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_pixel(x, y)](#get_pixel_x_y_57) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_58) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_59) | Gets a proportional width. |
@@ -143,7 +143,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_67) | Loads 32-bit ARGB pixels. |
 | [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_68) | Loads 64-bit ARGB pixels. |
 | [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_69) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_70) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_70) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_71) | Loads 32-bit ARGB pixels partially (by blocks). |
 | [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_72) | Loads 64-bit ARGB pixels partially by packs. |
 | [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_73) | Loads pixels partially by packs. |
@@ -153,8 +153,8 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 | [load_stream(stream)](#load_stream_stream_77) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_78) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_79) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_80) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float,bool,Aspose.Imaging.Color) methods. |
+| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_80) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_81) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_82) | Reads the whole scan line by the specified scan line index. |
@@ -190,7 +190,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_110) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_111) | Saves the 32-bit ARGB pixels. |
 | [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_112) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_113) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_113) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_114) | Saves pixels (format specific method). |
 | [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_115) | Saves the raw data. |
 | [save_to_stream(stream)](#save_to_stream_stream_116) | Saves the object's data to the specified stream. |
@@ -240,7 +240,7 @@ Start working with the [Jpeg2000Image](/imaging/python-net/aspose.imaging.filefo
 
 **See also:**
 
-**[Example # 1](#example_149)**: This example shows how to load a JPEG2000 image from a file and save it to PNG.
+**[Example # 1](#example_158)**: This example shows how to load a JPEG2000 image from a file and save it to PNG.
 
 
 ### Constructor: Jpeg2000Image(path, bits_per_pixel) {#Jpeg2000Image_path_bits_per_pixel_3}
@@ -293,7 +293,7 @@ Easily initialize a new instance of the [Jpeg2000Image](/imaging/python-net/aspo
 
 **See also:**
 
-**[Example # 1](#example_150)**: This example shows how to load a JPEG2000 image from a file stream and save i...
+**[Example # 1](#example_159)**: This example shows how to load a JPEG2000 image from a file stream and save i...
 
 
 ### Constructor: Jpeg2000Image(stream, bits_per_pixel) {#Jpeg2000Image_stream_bits_per_pixel_6}
@@ -331,7 +331,7 @@ Create a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.
 
 **See also:**
 
-**[Example # 1](#example_151)**: This example shows how to create a JPEG2000 image and save it to a file.
+**[Example # 1](#example_160)**: This example shows how to create a JPEG2000 image and save it to a file.
 
 
 ### Constructor: Jpeg2000Image(width, height, bits_count) {#Jpeg2000Image_width_height_bits_count_8}
@@ -367,6 +367,14 @@ Instantiate a new [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats
 | width | int | The image width |
 | height | int | The image height |
 | options | [Jpeg2000Options](/imaging/python-net/aspose.imaging.imageoptions/jpeg2000options/) | The options. |
+
+
+**See also:**
+
+**[Example # 1](#example_161)**: This example shows how to create a JPEG2000 image with the desired options an...
+
+**[Example # 2](#example_163)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
 
@@ -1512,7 +1520,7 @@ Gets the date and time the resource image was last modified.
  get_original_options() 
 ```
 
-Retrieve the image options based on the original file settings. This method is <br/>            beneficial for maintaining the bit-depth and other parameters of the original <br/>            image, ensuring consistency and preserving the integrity of the image data. <br/>            Accessing these options facilitates seamless handling and processing of the image <br/>            while retaining its original characteristics.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Retrieve the image options based on the original file settings. This method is <br/>            beneficial for maintaining the bit-depth and other parameters of the original <br/>            image, ensuring consistency and preserving the integrity of the image data. <br/>            Accessing these options facilitates seamless handling and processing of the image <br/>            while retaining its original characteristics.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1818,7 +1826,7 @@ Loads pixels in CMYK format.
  load_cmyk_pixels(rectangle) 
 ```
 
-Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method.
+Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2013,7 +2021,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float,bool,Aspose.Imaging.Color) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods.
 
 **Parameters:**
 
@@ -2555,7 +2563,7 @@ Saves the pixels.
  save_cmyk_pixels(rectangle, pixels) 
 ```
 
-Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method.
+Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2800,7 +2808,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a JPEG2000 image from a file and save it to PNG. {#example_149}
+### This example shows how to load a JPEG2000 image from a file and save it to PNG. {#example_158}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Image
@@ -2816,7 +2824,7 @@ with Jpeg2000Image(join(dir_, "sample.jp2")) as jpeg2000_image:
 
 ```
 
-### This example shows how to load a JPEG2000 image from a file stream and save it to PNG. {#example_150}
+### This example shows how to load a JPEG2000 image from a file stream and save it to PNG. {#example_159}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Image
@@ -2833,7 +2841,7 @@ with open(join(dir_, "sample.jp2"), "rb") as stream:
 
 ```
 
-### This example shows how to create a JPEG2000 image and save it to a file. {#example_151}
+### This example shows how to create a JPEG2000 image and save it to a file. {#example_160}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2852,6 +2860,65 @@ with Jpeg2000Image(100, 100) as jpeg2000_image:
 	graphics.fill_rectangle(brush, jpeg2000_image.bounds)
 	# Save to a file
 	jpeg2000_image.save(join(dir_, "sample.output.jp2"), Jpeg2000Options())
+
+
+```
+
+### This example shows how to create a JPEG2000 image with the desired options and save it to a file. {#example_161}
+``` python
+
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import Jpeg2000Options
+from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Codec, Jpeg2000Image
+from os.path import join as path_join     
+
+
+dir_ = "c:\\temp"
+create_options = Jpeg2000Options()
+# Use the irreversible Discrete Wavelet Transform 9-7
+create_options.irreversible = True
+# JP2 is the "container" format for JPEG 2000 codestreams.
+# J2K is raw compressed data, without a wrapper.
+create_options.codec = Jpeg2000Codec.J2K
+# Create a JPEG2000 image of 100x100 px.
+with Jpeg2000Image(100, 100, create_options) as jpeg2000_image:
+	graphics = Graphics(jpeg2000_image)
+	# Fill the entire image in red.
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, jpeg2000_image.bounds)
+	# Save to a file
+	jpeg2000_image.save(path_join(dir_, "sample.output.j2k"))
+
+
+```
+
+### This example shows how to create a PNG image and save it to JPEG2000 with the desired options. {#example_163}
+``` python
+
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import Jpeg2000Options
+from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Codec
+from aspose.imaging.fileformats.png import PngImage
+from os.path import join as path_join
+
+
+dir_ = "c:\\temp"
+# Create a PNG image of 100x100 px.
+with PngImage(100, 100) as png_image:
+	graphics = Graphics(png_image)
+	# Fill the entire image in red.
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, png_image.bounds)
+	save_options = Jpeg2000Options()
+	# Use the irreversible Discrete Wavelet Transform 9-7
+	save_options.irreversible = True
+	# JP2 is the "container" format for JPEG 2000 codestreams.
+	# J2K is raw compressed data, without a wrapper.
+	save_options.codec = Jpeg2000Codec.J2K
+	# Save to a file
+	png_image.save(path_join(dir_, "output.j2k"), save_options)
 
 
 ```

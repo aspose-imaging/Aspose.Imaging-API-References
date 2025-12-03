@@ -64,11 +64,11 @@ Gets or sets the maximum number of painting attempts.<br/>            The algori
 
 **See also:**
 
-**[Example # 1](#example_203)**: The example shows how to remove any object from the image using Graphics Path...
+**[Example # 1](#example_224)**: The example shows how to remove any object from the image using Graphics Path...
 
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_203}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_224}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

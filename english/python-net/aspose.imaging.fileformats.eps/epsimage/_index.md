@@ -81,7 +81,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | [get_file_format_of_stream(stream)](#get_file_format_of_stream_stream_26) | Gets the file format. |
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_27) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_28) | Gets rectangle which fits the current image. |
-| [get_original_options()](#get_original_options__29) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__29) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_preview_image(format)](#get_preview_image_format_30) | Retrieves the existing preview image in the specified _format_ or <br/>            returns **None** if none is found. This method offers flexibility in <br/>            accessing preview images tailored to specific formats, optimizing compatibility and <br/>            resource management within applications. |
 | [get_preview_images()](#get_preview_images__31) | Accesses the preview images linked to the [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) instance, allowing <br/>            seamless retrieval for inspection or utilization in applications. This method <br/>            provides convenient access to preview images, enhancing user interaction with the <br/>            image data. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_32) | Gets a proportional height. |
@@ -753,7 +753,7 @@ Gets rectangle which fits the current image.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1081,7 +1081,7 @@ Resizes the specified new width.
 
 **See also:**
 
-**[Example # 1](#example_195)**: Resize EPS image and export it to PNG format.
+**[Example # 1](#example_215)**: Resize EPS image and export it to PNG format.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_45}
@@ -1104,7 +1104,7 @@ Resizes the image with extended options.
 
 **See also:**
 
-**[Example # 1](#example_196)**: Resize EPS image using advanced settings.
+**[Example # 1](#example_216)**: Resize EPS image using advanced settings.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_46}
@@ -1529,7 +1529,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Convert EPS image to PNG using PostScript rendering. {#example_183}
+### Convert EPS image to PNG using PostScript rendering. {#example_202}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -1549,7 +1549,7 @@ with aspycore.as_of(Image.load("Sample.eps"), EpsImage) as image:
 
 ```
 
-### Convert EPS image to PDF using PostScript rendering. {#example_184}
+### Convert EPS image to PDF using PostScript rendering. {#example_203}
 ``` python
 
 from aspose.imaging import Image, PdfComplianceVersion
@@ -1565,7 +1565,7 @@ with Image.load("Sample.eps") as image:
 
 ```
 
-### Resize EPS image and export it to PNG format. {#example_195}
+### Resize EPS image and export it to PNG format. {#example_215}
 ``` python
 
 from aspose.imaging import Image, ResizeType
@@ -1582,7 +1582,7 @@ with Image.load("AstrixObelix.eps") as image:
 
 ```
 
-### Resize EPS image using advanced settings. {#example_196}
+### Resize EPS image using advanced settings. {#example_216}
 ``` python
 
 import aspose.pycore as aspycore

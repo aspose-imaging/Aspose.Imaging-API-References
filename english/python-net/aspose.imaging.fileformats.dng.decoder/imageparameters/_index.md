@@ -33,7 +33,7 @@ Gets the camera manufacturer.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: colors_count {#colors_count2}
@@ -42,7 +42,7 @@ Gets the colors.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: description {#description3}
@@ -51,7 +51,7 @@ Gets the description of colors (RGBG,RGBE,GMCY, or GBTG).
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: dng_version {#dng_version4}
@@ -60,7 +60,7 @@ Gets the DNG version.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: filters {#filters5}
@@ -69,7 +69,7 @@ Gets the Bit mask describing the order of color pixels in the matrix.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: model {#model6}
@@ -78,7 +78,7 @@ Gets the camera model.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: raw_count {#raw_count7}
@@ -87,7 +87,7 @@ Gets the number of RAW images in file (0 means that the file has not been recogn
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: software {#software8}
@@ -96,7 +96,7 @@ Gets the software.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: translation_cfa_dng {#translation_cfa_dng9}
@@ -105,11 +105,11 @@ Gets the translation array for CFA mosaic DNG format.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ## **Examples**
-### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_156}
+### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_168}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image

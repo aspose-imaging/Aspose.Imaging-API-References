@@ -22,7 +22,7 @@ Exif tags list
 | CAMERA_OWNER_NAME | Contains camera owner name |
 | CFA_PATTERN | Indicates the color filter array (CFA) geometric pattern of the image sensor when a one-chip color area sensor is used. It does not apply to all sensing methods. |
 | COLOR_SPACE | The color space information tag (ColorSpace) is always recorded as the color space specifier. |
-| COMPONENTS_CONFIGURATION | The components configuration. |
+| COMPONENTS_CONFIGURATION | The components' configuration. |
 | COMPRESSED_BITS_PER_PIXEL | Specific to compressed data; states the compressed bits per pixel. |
 | COMPRESSION | The compression scheme used for the image data. When a primary image is JPEG compressed, this designation is not necessary and is omitted. |
 | CONTRAST | This tag indicates the direction of contrast processing applied by the camera when the image was shot. |
@@ -34,7 +34,7 @@ Exif tags list
 | DEVICE_SETTING_DESCRIPTION | This tag indicates information on the picture-taking conditions of a particular camera model. The tag is used only to indicate the picture-taking conditions in the reader. |
 | DIGITAL_ZOOM_RATIO | This tag indicates the digital zoom ratio when the image was shot. If the numerator of the recorded value is 0, this indicates that digital zoom was not used. |
 | EXIF_IFD_POINTER | A pointer to the Exif IFD. Interoperability, Exif IFD has the same structure as that of the IFD specified in TIFF. ordinarily, however, it does not contain image data as in the case of TIFF. |
-| EXIF_VERSION | The exif version. |
+| EXIF_VERSION | The Exif version. |
 | EXPOSURE_BIAS_VALUE | The exposure bias value. |
 | EXPOSURE_INDEX | Indicates the exposure index selected on the camera or input device at the time the image is captured. |
 | EXPOSURE_MODE | This tag indicates the exposure mode set when the image was shot. In auto-bracketing mode, the camera shoots a series of frames of the same scene at different exposure settings. |
@@ -88,14 +88,14 @@ Exif tags list
 | IMAGE_LENGTH | The number of rows of image data. |
 | IMAGE_UNIQUE_ID | The image unique id. |
 | IMAGE_WIDTH | The number of columns of image data, equal to the number of pixels per row. |
-| ISO_SPEED | Information about iso speed value as defined in ISO 12232 |
+| ISO_SPEED | Information about ISO speed value as defined in ISO 12232 |
 | ISO_SPEED_LATITUDE_YYY | This tag indicates ISO speed latitude yyy value as defined in ISO 12232 |
 | ISO_SPEED_LATITUDE_ZZZ | This tag indicates ISO speed latitude zzz value as defined in ISO 12232 |
 | JPEG_INTERCHANGE_FORMAT | The offset to the start byte (SOI) of JPEG compressed thumbnail data. This is not used for primary image JPEG data. |
 | JPEG_INTERCHANGE_FORMAT_LENGTH | The number of bytes of JPEG compressed thumbnail data. This is not used for primary image JPEG data. JPEG thumbnails are not divided but are recorded as a continuous JPEG bitstream from SOI to EOI. Appn and COM markers should not be recorded. Compressed thumbnails must be recorded in no more than 64 Kbytes, including all other data to be recorded in APP1. |
 | LENS_MAKE | This tag records lens manufacturer |
 | LENS_MODEL | This tag records lens`s model name and model number |
-| LENS_SERIAL_NUMBER | This tag records the serial number of interchangable lens |
+| LENS_SERIAL_NUMBER | This tag records the serial number of interchangeable lens |
 | LENS_SPECIFICATION | This tag notes minimum focal length, maximum focal length, minimum F number in the minimum focal length and minimum F number in maximum focal length |
 | LIGHT_SOURCE | The kind light source. |
 | MAKE | The manufacturer of the recording equipment. This is the manufacturer of the DSC, scanner, video digitizer or other equipment that generated the image. When the field is left blank, it is treated as unknown. |
@@ -107,7 +107,7 @@ Exif tags list
 | ORIENTATION | The image orientation viewed in terms of rows and columns. |
 | PHOTOGRAPHIC_SENSITIVITY | Indicates the ISO Speed and ISO Latitude of the camera or input device as specified in ISO 12232. |
 | PHOTOMETRIC_INTERPRETATION | The pixel composition. |
-| PIXEL_X_DIMENSION | Information specific to compressed data. When a compressed file is recorded, the valid width of the meaningful image shall be recorded in this tag, whether or not there is padding data or a restart marker. |
+| PIXEL_X_DIMENSION | Information specific to compressed data. When a compressed file is recorded, the valid width of the meaningful image shall be recorded in this tag, whether there is padding data or a restart marker. |
 | PIXEL_Y_DIMENSION | Information specific to compressed data. When a compressed file is recorded, the valid height of the meaningful image shall be recorded in this tag |
 | PLANAR_CONFIGURATION | Indicates whether pixel components are recorded in a chunky or planar format. If this field does not exist, the TIFF default of 1 (chunky) is assumed. |
 | PRIMARY_CHROMATICITIES | The chromaticity of the three primary colors of the image. Normally this tag is not necessary, since colorspace is specified in the colorspace information ColorSpace tag. |

@@ -303,7 +303,7 @@ Gets the cyan component value.
 
 **See also:**
 
-**[Example # 1](#example_163)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_176)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_k(cmyk)  [static] {#get_k_cmyk_11}
@@ -331,7 +331,7 @@ Gets the black component value.
 
 **See also:**
 
-**[Example # 1](#example_163)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_176)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_m(cmyk)  [static] {#get_m_cmyk_12}
@@ -359,7 +359,7 @@ Gets the magenta component value.
 
 **See also:**
 
-**[Example # 1](#example_163)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_176)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_y(cmyk)  [static] {#get_y_cmyk_13}
@@ -387,7 +387,7 @@ Gets the yellow component value.
 
 **See also:**
 
-**[Example # 1](#example_163)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_176)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: to_argb(cmyk_pixel)  [static] {#to_argb_cmyk_pixel_14}
@@ -731,7 +731,7 @@ The conversion from ARGB colors to CMYK colors.
 
 **See also:**
 
-**[Example # 1](#example_163)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_176)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: to_cmyk(pixel)  [static] {#to_cmyk_pixel_29}
@@ -1343,7 +1343,7 @@ with Image.load(join_path(directory, "sample.png")) as image:
 
 ```
 
-### The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles. {#example_163}
+### The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles. {#example_176}
 ``` python
 
 from aspose.imaging import Color, CmykColorHelper

@@ -78,3 +78,25 @@ Copies to.
 | :- | :- | :- |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | The vector rasterization options. |
 
+## **Examples**
+### The following code snippet demonstrates how to convert an OTG image to PDF and other image formats. {#example_181}
+``` python
+
+from aspose.pycore import cast
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import PngOptions, PdfOptions, OtgRasterizationOptions
+
+dir_: str = "c:\\3567\\"
+input_file_path: str = dir_ + "VariousObjectsMultiPage.otg"
+options = [PngOptions(), PdfOptions()]
+for save_options in options:
+	extension: str = ".png" if aspycore.is_assignable(save_options, PngOptions) else ".pdf"
+	with Image.load(input_file_path) as image:
+		otg_rasterization_options = OtgRasterizationOptions()
+		otg_rasterization_options.page_size = cast(SizeF, image.size)
+		save_options.vector_rasterization_options = otg_rasterization_options
+		image.save(input_file_path + extension, save_options)
+
+
+```
+

@@ -68,6 +68,12 @@ Initializes a new instance of the [SvgGraphics2D](/imaging/python-net/aspose.ima
 | height | int | The width of the output Svg image. |
 | dpi | int | The device resolution, e.g. 96 dots per inch. |
 
+
+**See also:**
+
+**[Example # 1](#example_170)**: This example shows how to create an SVG image of the specified size and raste...
+
+
 ### Method: draw_arc(pen, rect, start_angle, arc_angle) {#draw_arc_pen_rect_start_angle_arc_angle_1}
 
 
@@ -332,4 +338,30 @@ Fills the rectangle.
 | y | int | The y-coordinate of the upper-left corner of the rectangle to draw. |
 | width | int | The width of the rectangle to draw. |
 | height | int | The height of the rectangle to draw. |
+
+## **Examples**
+### This example shows how to create an SVG image of the specified size and rasterize it to PNG. {#example_170}
+``` python
+from aspose.imaging.fileformats.svg.graphics import SvgGraphics2D
+from aspose.imaging import Graphics, Color, Pen
+from aspose.imaging.brushes import SolidBrush
+from os.path import join
+
+dir_: str = "c:\\temp"
+image_width: int = 100
+image_height: int = 100
+dpi: int = 96
+# Create an SVG image of 100x100 px.
+graphics = SvgGraphics2D(image_width, image_height, dpi)
+pen = Pen(Color.yellow, 10)
+brush = SolidBrush(Color.red)
+# Fill the entire image in red.
+# Draw a yellow rectangle of 10px wide along the image boundaries.
+graphics.fill_rectangle(pen, brush, 0, 0, image_width, image_height)
+# Get the final Svg image which includes all drawing commands
+with graphics.end_recording() as svg_image:
+	svg_image.save(join(dir_, "test.output.svg"))
+
+
+```
 

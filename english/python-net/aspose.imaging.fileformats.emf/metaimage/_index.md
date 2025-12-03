@@ -73,7 +73,7 @@ url: /python-net/aspose.imaging.fileformats.emf/metaimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_27) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_28) | Gets rectangle which fits the current image. |
 | [get_missed_fonts()](#get_missed_fonts__29) | Returns the list of fonts which used inside metafile but not found. |
-| [get_original_options()](#get_original_options__30) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__30) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_31) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_32) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_33) | Converts to aps. |
@@ -761,7 +761,7 @@ Returns the list of fonts which used inside metafile but not found.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1133,7 +1133,7 @@ Resizes the canvas.
 
 **See also:**
 
-**[Example # 1](#example_166)**: The following example shows how to add a border with the specified margins ar...
+**[Example # 1](#example_179)**: The following example shows how to add a border with the specified margins ar...
 
 
 ### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_49}
@@ -1524,7 +1524,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to add a border with the specified margins around a metafile (WMF and EMF). {#example_166}
+### The following example shows how to add a border with the specified margins around a metafile (WMF and EMF). {#example_179}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, Rectangle

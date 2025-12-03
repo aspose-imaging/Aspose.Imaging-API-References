@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5710
+weight: 5720
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -40,7 +40,7 @@ Gets or sets the buffer size hint which is defined max allowed size for all inte
 
 **See also:**
 
-**[Example # 1](#example_165)**: The following example shows how to set a memory limit when creating a new JPE...
+**[Example # 1](#example_178)**: The following example shows how to set a memory limit when creating a new JPE...
 
 
 ### Property: palette {#palette2}
@@ -253,7 +253,7 @@ with Image.create(createOptions, 100, 100) as image:
 
 ```
 
-### The following example shows how to set a memory limit when creating a new JPEG image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_165}
+### The following example shows how to set a memory limit when creating a new JPEG image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_178}
 ``` python
 from os.path import join
 from aspose.imaging import Image

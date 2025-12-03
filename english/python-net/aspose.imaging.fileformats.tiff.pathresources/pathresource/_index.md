@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 Initializes a new instance of the PathResource class
 
 ## **Examples**
-### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_181}
+### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_200}
 ``` python
 
 import aspose.pycore as aspycore
@@ -55,7 +55,7 @@ with TiffImage(frame) as image:
 
 ```
 
-### Transfer Clipping Paths during export from TIFF to PSD image. {#example_182}
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_201}
 ``` python
 
 from aspose.imaging import Image
@@ -66,7 +66,7 @@ with Image.load("Sample.tif") as image:
 
 ```
 
-### Create Graphics Path from Path Resources in TIFF image. {#example_188}
+### Create Graphics Path from Path Resources in TIFF image. {#example_207}
 ``` python
 
 import aspose.pycore as aspycore

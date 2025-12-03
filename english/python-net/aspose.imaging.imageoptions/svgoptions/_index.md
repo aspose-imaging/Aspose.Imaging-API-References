@@ -57,7 +57,7 @@ Gets or sets a value indicating whether the output image must to be compressed.
 
 **See also:**
 
-**[Example # 1](#example_174)**: The following example shows how to convert a svg images to svgz format
+**[Example # 1](#example_193)**: The following example shows how to convert a svg images to svgz format
 
 
 ### Property: text_as_shapes {#text_as_shapes2}
@@ -66,7 +66,7 @@ Gets or sets a value indicating whether text must be rendered as shapes.
 
 **See also:**
 
-**[Example # 1](#example_158)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_171)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Method: clone() {#clone__1}
@@ -108,7 +108,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_158}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_171}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -134,7 +134,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_171}
+### The following example shows how to convert a svgz images to svg fromat {#example_190}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -155,7 +155,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a svg images to svgz format {#example_174}
+### The following example shows how to convert a svg images to svgz format {#example_193}
 ``` python
 
 from os.path import join as path_combine

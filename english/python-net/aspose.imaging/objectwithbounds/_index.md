@@ -1,7 +1,7 @@
 ---
 title: ObjectWithBounds Class
 type: docs
-weight: 6160
+weight: 6170
 url: /python-net/aspose.imaging/objectwithbounds/
 ---
 

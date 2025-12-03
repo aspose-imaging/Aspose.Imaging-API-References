@@ -1,7 +1,7 @@
 ---
 title: LineCap Enumeration
 type: docs
-weight: 10720
+weight: 10740
 url: /python-net/aspose.imaging/linecap/
 ---
 

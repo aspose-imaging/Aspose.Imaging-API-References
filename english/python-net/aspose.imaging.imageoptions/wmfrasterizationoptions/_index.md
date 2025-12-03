@@ -54,7 +54,7 @@ Gets or sets the WMF render mode.
 
 **See also:**
 
-**[Example # 1](#example_158)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_171)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Method: clone() {#clone__1}
@@ -89,7 +89,7 @@ Copies this to _vectorRasterizationOptions_.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | vectorRasterizationOptions |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_158}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_171}
 ``` python
 
 from aspose.pycore import as_of, cast

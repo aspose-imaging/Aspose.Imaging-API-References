@@ -120,7 +120,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_45) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_46) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_47) | Gets the date and time the resource image was last modified. |
-| [get_original_options()](#get_original_options__48) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__48) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_pixel(x, y)](#get_pixel_x_y_49) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_50) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_51) | Gets a proportional width. |
@@ -135,7 +135,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_59) | Loads 32-bit ARGB pixels. |
 | [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_60) | Loads 64-bit ARGB pixels. |
 | [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_61) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_62) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_62) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [load_document(stream)](#load_document_stream_63) | Load your DjVu document with this method. Streamline your process by quickly<br/>            accessing and importing your DjVu files into your application. |
 | [load_document(stream, load_options)](#load_document_stream_load_options_64) | Import your DjVu document by utilizing this method with stream and loadOptions<br/>            parameters. Streamline your process by quickly accessing and importing DjVu files<br/>            into your application, providing flexibility and customization options to meet<br/>            your needs. |
 | [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_65) | Loads 32-bit ARGB pixels partially (by blocks). |
@@ -147,8 +147,8 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [load_stream(stream)](#load_stream_stream_71) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_72) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_73) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_74) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterCachedMultipageImage.Rotate(float,bool,Aspose.Imaging.Color) methods. |
+| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_74) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_75) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_76) | Reads the whole scan line by the specified scan line index. |
@@ -185,7 +185,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_105) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_106) | Saves the 32-bit ARGB pixels. |
 | [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_107) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_108) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_108) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_109) | Saves pixels (format specific method). |
 | [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_110) | Saves the raw data. |
 | [save_to_stream(stream)](#save_to_stream_stream_111) | Saves the object's data to the specified stream. |
@@ -220,7 +220,7 @@ Start working with DjVu images by initializing a new instance of the<br/>       
 
 **See also:**
 
-**[Example # 1](#example_137)**: This example shows how to load a DJVU image from a file stream.
+**[Example # 1](#example_145)**: This example shows how to load a DJVU image from a file stream.
 
 
 ### Constructor: DjvuImage(stream, load_options) {#DjvuImage_stream_load_options_2}
@@ -239,13 +239,19 @@ Start working with DjVu images seamlessly with this constructor, which<br/>     
 | stream | _io.BufferedRandom | The stream to load from. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
 
+
+**See also:**
+
+**[Example # 1](#example_146)**: This example shows how to load a DJVU image from a file stream to stay within...
+
+
 ### Property: pages {#pages1}
 
 Access the individual pages of your DjVu image collection with this property.<br/>            Simplify navigation and manipulation of your document or book stored in DjVu format<br/>            by accessing each page directly. Improve your workflow efficiency with easy<br/>            page retrieval.
 
 **See also:**
 
-**[Example # 1](#example_137)**: This example shows how to load a DJVU image from a file stream.
+**[Example # 1](#example_145)**: This example shows how to load a DJVU image from a file stream.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -266,7 +272,7 @@ Adjust the _brightness_ of an image using a specified parameter, <br/>          
 
 **See also:**
 
-**[Example # 1](#example_147)**: The following example performs brightness correction of a DJVU image.
+**[Example # 1](#example_156)**: The following example performs brightness correction of a DJVU image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_2}
@@ -287,7 +293,7 @@ Enhance [Image](/imaging/python-net/aspose.imaging/image/) contrast to improve v
 
 **See also:**
 
-**[Example # 1](#example_148)**: The following example performs contrast correction of a DJVU image.
+**[Example # 1](#example_157)**: The following example performs contrast correction of a DJVU image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_3}
@@ -308,7 +314,7 @@ Gamma correction, specifically for the red, green, and blue channels, involves a
 
 **See also:**
 
-**[Example # 1](#example_145)**: The following example performs gamma-correction of a DJVU image.
+**[Example # 1](#example_154)**: The following example performs gamma-correction of a DJVU image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_4}
@@ -331,7 +337,7 @@ Gamma correction is applied to an image with customizable parameters for the red
 
 **See also:**
 
-**[Example # 1](#example_146)**: The following example performs gamma-correction of a DJVU image applying diff...
+**[Example # 1](#example_155)**: The following example performs gamma-correction of a DJVU image applying diff...
 
 
 ### Method: analyze_percentage_digital_signature(password) {#analyze_percentage_digital_signature_password_5}
@@ -390,7 +396,7 @@ Binarization using Bradley's adaptive thresholding algorithm with integral image
 
 **See also:**
 
-**[Example # 1](#example_143)**: The following example binarizes a DJVU image with Bradley's adaptive threshol...
+**[Example # 1](#example_152)**: The following example binarizes a DJVU image with Bradley's adaptive threshol...
 
 
 ### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_8}
@@ -411,7 +417,7 @@ Binarization with a predefined threshold simplifies complex images into binary<b
 
 **See also:**
 
-**[Example # 1](#example_141)**: The following example binarizes a DJVU image with the predefined threshold. B...
+**[Example # 1](#example_150)**: The following example binarizes a DJVU image with the predefined threshold. B...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_9}
@@ -916,7 +922,7 @@ Crop with shifts allows you to precisely adjust the position and dimensions of t
 
 **See also:**
 
-**[Example # 1](#example_140)**: The following example crops a DJVU image. The cropping area is be specified v...
+**[Example # 1](#example_149)**: The following example crops a DJVU image. The cropping area is be specified v...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_32}
@@ -1250,7 +1256,7 @@ Gets the date and time the resource image was last modified.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1556,7 +1562,7 @@ Loads pixels in CMYK format.
  load_cmyk_pixels(rectangle) 
 ```
 
-Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method.
+Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -1796,7 +1802,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterCachedMultipageImage.Rotate(float,bool,Aspose.Imaging.Color) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
 
 **Parameters:**
 
@@ -2190,7 +2196,7 @@ The `RotateFlip` method offers versatile manipulation options for your image, al
 
 **See also:**
 
-**[Example # 1](#example_138)**: This example loads a DJVU image, rotates it by 90 degrees clockwise and optio...
+**[Example # 1](#example_147)**: This example loads a DJVU image, rotates it by 90 degrees clockwise and optio...
 
 
 ### Method: rotate_flip_all(rotate_flip) {#rotate_flip_all_rotate_flip_98}
@@ -2359,7 +2365,7 @@ Saves the pixels.
  save_cmyk_pixels(rectangle, pixels) 
 ```
 
-Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method.
+Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2604,7 +2610,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a DJVU image from a file stream. {#example_137}
+### This example shows how to load a DJVU image from a file stream. {#example_145}
 ``` python
 from os.path import join
 from aspose.imaging.fileformats.djvu import DjvuImage
@@ -2623,7 +2629,30 @@ with open(join(dir_, "sample.djvu"), "rb") as stream:
 
 ```
 
-### This example loads a DJVU image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_138}
+### This example shows how to load a DJVU image from a file stream to stay within the specified memory limit. {#example_146}
+``` python
+from aspose.imaging.fileformats.djvu import DjvuImage
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging import LoadOptions
+from os.path import join
+
+dir_: str = "c:\\temp"
+# Load a DJVU image from a file stream.
+with open(join(dir_, "sample.djvu"), "rb") as stream:
+	# The max allowed size for all internal buffers is 1MB.
+	load_options = LoadOptions()
+	load_options.buffer_size_hint = 1 * 1024 * 1024
+	with DjvuImage(stream, load_options) as djvu_image:
+		# Save each page as an individual PNG image.
+		for djvu_page in djvu_image.pages:
+			# Generate a file name based on the page number.
+			file_name: str = "sample.{0}.png".format(djvu_page.page_number)
+			djvu_page.save(join(dir_, file_name), PngOptions())
+
+
+```
+
+### This example loads a DJVU image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_147}
 ``` python
 
 from os.path import join
@@ -2643,7 +2672,7 @@ for rotate_flip_type in rotate_flip_types:
 
 ```
 
-### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_140}
+### The following example crops a DJVU image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_149}
 ``` python
 
 from aspose.pycore import as_of
@@ -2662,7 +2691,7 @@ with Image.load("sample.djvu") as image:
 
 ```
 
-### The following example binarizes a DJVU image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_141}
+### The following example binarizes a DJVU image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_150}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2682,7 +2711,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example binarizes a DJVU image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_143}
+### The following example binarizes a DJVU image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_152}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore
@@ -2700,7 +2729,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DJVU image. {#example_145}
+### The following example performs gamma-correction of a DJVU image. {#example_154}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2718,7 +2747,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DJVU image applying different coefficients for color components. {#example_146}
+### The following example performs gamma-correction of a DJVU image applying different coefficients for color components. {#example_155}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2737,7 +2766,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs brightness correction of a DJVU image. {#example_147}
+### The following example performs brightness correction of a DJVU image. {#example_156}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2756,7 +2785,7 @@ with Image.load(join(dir_, "sample.djvu")) as image:
 
 ```
 
-### The following example performs contrast correction of a DJVU image. {#example_148}
+### The following example performs contrast correction of a DJVU image. {#example_157}
 ``` python
 
 import aspose.pycore as aspycore

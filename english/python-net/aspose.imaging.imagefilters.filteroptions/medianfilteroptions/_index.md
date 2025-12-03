@@ -1,7 +1,7 @@
 ---
 title: MedianFilterOptions Class
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/
 ---
 

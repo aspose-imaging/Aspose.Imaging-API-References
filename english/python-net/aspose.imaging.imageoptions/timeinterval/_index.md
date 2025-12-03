@@ -39,7 +39,7 @@ Initializes a new instance of the [TimeInterval](/imaging/python-net/aspose.imag
 | to | int | To milliseconds. |
 
 ## **Examples**
-### Export of part of animation from GIF image based on time interval. {#example_199}
+### Export of part of animation from GIF image based on time interval. {#example_220}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.imageoptions import GifOptions, MultiPageOptions, MultiPageMode, TimeInterval

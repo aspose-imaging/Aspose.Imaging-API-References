@@ -43,7 +43,7 @@ The module is the core for nested modules and the most basic objects used for As
 | [IImageCreator](/imaging/python-net/aspose.imaging/iimagecreator/) | The image creator. |
 | [IImageCreatorDescriptor](/imaging/python-net/aspose.imaging/iimagecreatordescriptor/) | The image creator descriptor specifying the creator properties. The creator descriptor is used to overcome<br/>            the necessity to contain each image creator instance in memory and multithreading issues. |
 | [IImageDescriptor](/imaging/python-net/aspose.imaging/iimagedescriptor/) | The image descriptor. Contains base properties and methods for all other image descriptor types. |
-| [IImageExporter](/imaging/python-net/aspose.imaging/iimageexporter/) | The image exporter. Can export data from internal Aspose.Imaging format to a specified data format. |
+| [IImageExporter](/imaging/python-net/aspose.imaging/iimageexporter/) | The image exporter. Can export data from internal `aspose.imaging` format to a specified data format. |
 | [IImageExporterDescriptor](/imaging/python-net/aspose.imaging/iimageexporterdescriptor/) | Represents the image exporter descriptor. The exporter descriptor is used to overcome the necessity to contain each exporter instance<br/>            in memory and multithreading issues. |
 | [IImageLoader](/imaging/python-net/aspose.imaging/iimageloader/) | The image loader. |
 | [IImageLoaderDescriptor](/imaging/python-net/aspose.imaging/iimageloaderdescriptor/) | The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome<br/>            the necessity to contain each image loader instance in memory and multithreading issues. |

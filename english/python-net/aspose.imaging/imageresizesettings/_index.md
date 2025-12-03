@@ -1,7 +1,7 @@
 ---
 title: ImageResizeSettings Class
 type: docs
-weight: 5740
+weight: 5750
 url: /python-net/aspose.imaging/imageresizesettings/
 ---
 

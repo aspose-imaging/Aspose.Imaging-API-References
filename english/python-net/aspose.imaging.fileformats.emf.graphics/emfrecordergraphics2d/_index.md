@@ -97,7 +97,7 @@ Initializes a new instance of the [EmfRecorderGraphics2D](/imaging/python-net/as
 
 **See also:**
 
-**[Example # 1](#example_159)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 1](#example_172)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_arc(pen, rect, start_angle, arc_angle) {#draw_arc_pen_rect_start_angle_arc_angle_1}
@@ -866,7 +866,7 @@ Changes the origin of the coordinate system by applying the specified translatio
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the translation is prepended or appended to the transformation matrix. |
 
 ## **Examples**
-### This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D. {#example_159}
+### This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D. {#example_172}
 ``` python
 
 import aspose.pycore as aspycore

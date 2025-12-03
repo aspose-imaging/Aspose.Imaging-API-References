@@ -1,7 +1,7 @@
 ---
 title: Region Class
 type: docs
-weight: 7110
+weight: 7120
 url: /python-net/aspose.imaging/region/
 ---
 

@@ -41,7 +41,7 @@ Remove the watermark from the raster image.
 
 
 ## **Examples**
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_203}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_224}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -66,7 +66,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_204}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_225}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

@@ -37,7 +37,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Retrieves the format of the file associated with the image instance. This <br/>            property provides essential information regarding the file type, enabling <br/>            efficient handling and processing based on the specific format requirements. |
-| has_alpha | bool | r | Returns a boolean value indicating whether the image has an alpha channel, <br/>            which determines its transparency. This property is useful for applications <br/>            that need to handle transparency, allowing developers to determine whether <br/>            additional processing is required to handle transparent areas in the image. |
+| [has_alpha](#has_alpha1) | bool | r | Returns a boolean value indicating whether the image has an alpha channel, <br/>            which determines its transparency. This property is useful for applications <br/>            that need to handle transparency, allowing developers to determine whether <br/>            additional processing is required to handle transparent areas in the image. |
 | has_background_color | bool | r/w | Retrieves a boolean value indicating whether the image has a background color. <br/>            This property is useful for applications needing to determine if an image <br/>            includes a background color, which can be important for various processing <br/>            tasks such as compositing, rendering, or exporting. |
 | has_transparent_color | bool | r/w | Provides a boolean value indicating whether the image contains a transparent <br/>            color. This property is crucial for applications that need to handle <br/>            transparency, allowing developers to determine whether additional processing is <br/>            required to handle transparent regions in the image. |
 | height | int | r | Obtain the height of the image. This property returns the vertical dimension of <br/>            the image, allowing developers to determine its size in pixels along the <br/>            vertical axis. |
@@ -126,7 +126,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_52) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_53) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_54) | Retrieves the timestamp indicating the most recent modification of the resource <br/>            image. This method provides access to vital metadata, enabling applications to <br/>            ascertain when the image was last altered, facilitating version tracking and <br/>            content management. |
-| [get_original_options()](#get_original_options__55) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__55) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_pixel(x, y)](#get_pixel_x_y_56) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_57) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_58) | Gets a proportional width. |
@@ -141,7 +141,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_66) | Loads 32-bit ARGB pixels. |
 | [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_67) | Loads 64-bit ARGB pixels. |
 | [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_68) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_69) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_69) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_70) | Loads 32-bit ARGB pixels partially (by blocks). |
 | [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_71) | Loads 64-bit ARGB pixels partially by packs. |
 | [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_72) | Loads pixels partially by packs. |
@@ -151,8 +151,8 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [load_stream(stream)](#load_stream_stream_76) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_77) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_78) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_79) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float,bool,Aspose.Imaging.Color) methods. |
+| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_79) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_80) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_81) | Reads the whole scan line by the specified scan line index. |
@@ -188,7 +188,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_109) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_110) | Saves the 32-bit ARGB pixels. |
 | [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_111) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_112) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_112) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_113) | Saves pixels (format specific method). |
 | [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_114) | Saves the raw data. |
 | [save_to_stream(stream)](#save_to_stream_stream_115) | Saves the object's data to the specified stream. |
@@ -223,7 +223,7 @@ Constructs a new instance of the [PngImage](/imaging/python-net/aspose.imaging.f
 
 **See also:**
 
-**[Example # 1](#example_108)**: This example shows how to load a PNG image from a file.
+**[Example # 1](#example_109)**: This example shows how to load a PNG image from a file.
 
 
 ### Constructor: PngImage(path, color_type) {#PngImage_path_color_type_2}
@@ -245,7 +245,7 @@ Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.
 
 **See also:**
 
-**[Example # 1](#example_109)**: This example shows how to load a PNG image from a file with the specified col...
+**[Example # 1](#example_110)**: This example shows how to load a PNG image from a file with the specified col...
 
 
 ### Constructor: PngImage(png_options, width, height) {#PngImage_png_options_width_height_3}
@@ -280,6 +280,12 @@ Creates a new instance of the [PngImage](/imaging/python-net/aspose.imaging.file
 | :- | :- | :- |
 | raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
 
+
+**See also:**
+
+**[Example # 1](#example_112)**: This example shows how to load PNG image from a BMP image.
+
+
 ### Constructor: PngImage(raster_image, color_type) {#PngImage_raster_image_color_type_5}
 
 
@@ -295,6 +301,12 @@ Creates a new instance of the [PngImage](/imaging/python-net/aspose.imaging.file
 | :- | :- | :- |
 | raster_image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The raster image. |
 | color_type | [PngColorType](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) | The color type. |
+
+
+**See also:**
+
+**[Example # 1](#example_113)**: This example shows how to load PNG image from a BMP image with the specified ...
+
 
 ### Constructor: PngImage(stream) {#PngImage_stream_6}
 
@@ -314,7 +326,7 @@ Creates a new instance of the [PngImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_110)**: This example shows how to load a PNG image from a file or a file stream.
+**[Example # 1](#example_111)**: This example shows how to load a PNG image from a file or a file stream.
 
 
 ### Constructor: PngImage(width, height) {#PngImage_width_height_7}
@@ -336,7 +348,7 @@ Initialize a new object of the [PngImage](/imaging/python-net/aspose.imaging.fil
 
 **See also:**
 
-**[Example # 1](#example_111)**: This example shows how to create a PNG image of the specified size, fill it w...
+**[Example # 1](#example_114)**: This example shows how to create a PNG image of the specified size, fill it w...
 
 
 ### Constructor: PngImage(width, height, color_type) {#PngImage_width_height_color_type_8}
@@ -355,6 +367,21 @@ Instantiate a fresh instance of the [PngImage](/imaging/python-net/aspose.imagin
 | width | int | The width. |
 | height | int | The height. |
 | color_type | [PngColorType](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) | The color type. |
+
+
+**See also:**
+
+**[Example # 1](#example_115)**: This example shows how to create a PNG image of the specified size with the s...
+
+
+### Property: has_alpha {#has_alpha1}
+
+Returns a boolean value indicating whether the image has an alpha channel, <br/>            which determines its transparency. This property is useful for applications <br/>            that need to handle transparency, allowing developers to determine whether <br/>            additional processing is required to handle transparent areas in the image.
+
+**See also:**
+
+**[Example # 1](#example_116)**: The following example shows how to check if a PNG image supports alpha-channel.
+
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
 
@@ -1477,7 +1504,7 @@ Retrieves the timestamp indicating the most recent modification of the resource 
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1783,7 +1810,7 @@ Loads pixels in CMYK format.
  load_cmyk_pixels(rectangle) 
 ```
 
-Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method.
+Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -1978,7 +2005,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float,bool,Aspose.Imaging.Color) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods.
 
 **Parameters:**
 
@@ -2520,7 +2547,7 @@ Saves the pixels.
  save_cmyk_pixels(rectangle, pixels) 
 ```
 
-Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method.
+Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2765,7 +2792,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### This example shows how to load a PNG image from a file. {#example_108}
+### This example shows how to load a PNG image from a file. {#example_109}
 ``` python
 
 from aspose.pycore import as_of
@@ -2782,7 +2809,7 @@ with as_of(Image.load("sample.png"), PngImage) as pngImage:
 
 ```
 
-### This example shows how to load a PNG image from a file with the specified color type. {#example_109}
+### This example shows how to load a PNG image from a file with the specified color type. {#example_110}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2799,7 +2826,7 @@ with PngImage(join(dir_, "sample.png"), PngColorType.GRAYSCALE) as png_image:
 
 ```
 
-### This example shows how to load a PNG image from a file or a file stream. {#example_110}
+### This example shows how to load a PNG image from a file or a file stream. {#example_111}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2819,7 +2846,57 @@ with open(join(dir_, "sample.png"), "rb") as stream:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_111}
+### This example shows how to load PNG image from a BMP image. {#example_112}
+``` python
+from aspose.imaging.fileformats.bmp import BmpImage
+from aspose.imaging.fileformats.png import PngImage
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from os.path import join
+
+dir_: str = "c:\\temp"
+# Load a TrueColor PNG image from a BMP image.
+# First, create a temporal BMP image that will be a foundation for building a PNG image.
+# You can also load BMP image from a file or use an image of any other raster format.
+with BmpImage(100, 100) as bmp_image:
+	# Fill the entire BMP image in red.
+	gr = Graphics(bmp_image)
+	brush = SolidBrush(Color.red)
+	gr.fill_rectangle(brush, bmp_image.bounds)
+	with PngImage(bmp_image) as png_image:
+		png_image.save(join(dir_, "output.png"))
+
+
+```
+
+### This example shows how to load PNG image from a BMP image with the specified color type. {#example_113}
+``` python
+
+from aspose.imaging import LoadOptions, Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.fileformats.bmp import BmpImage
+from aspose.imaging.fileformats.png import PngImage, PngColorType
+from os.path import join as path_join
+
+
+dir_ = "c:\\temp"
+# Load a grayscale PNG image from a colored BMP image.
+# First, create a temporal BMP image that will be a foundation for building a PNG image.
+# You can also load BMP image from a file or use an image of any other raster format.
+with BmpImage(100, 100) as bmp_image:
+	# Fill the entire BMP image in red.
+	gr = Graphics(bmp_image)
+	brush = SolidBrush(Color.red)
+	gr.fill_rectangle(brush, bmp_image.bounds)
+	# The colors of the image pixels will be converted to their grayscale counterparts.
+	with PngImage(bmp_image, PngColorType.GRAYSCALE) as png_image:
+		png_image.save(path_join(dir_, "output.grayscale.png"))
+
+
+```
+
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_114}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2842,7 +2919,58 @@ with PngImage(100, 100) as png_image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_203}
+### This example shows how to create a PNG image of the specified size with the specified color type, fill it with a solid color and save it to a file. {#example_115}
+``` python
+from aspose.imaging.fileformats.png import PngImage, PngColorType
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from os.path import join
+
+dir_: str = "c:\\temp"
+# Create a grayscale PNG image of 100x100 px.
+# All colors will be automatically converted to the grayscale format.
+with PngImage(100, 100, PngColorType.GRAYSCALE) as png_image:
+	# Do some image processing, e.g. fill the entire image in red.
+	graphics = Graphics(png_image)
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, png_image.bounds)
+	# Save to a file.
+	png_image.save(join(dir_, "output.grayscale.png"))
+
+
+```
+
+### The following example shows how to check if a PNG image supports alpha-channel. {#example_116}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.fileformats.png import PngColorType, PngImage
+
+
+# Get all supported PNG color types.
+color_types = [it for it in PngColorType]
+for color_type in color_types:
+	create_options = PngOptions()
+	create_options.color_type = color_type
+	with Image.create(create_options, 100, 100) as image:
+		png_image = aspycore.as_of(image, PngImage)
+		if png_image.has_alpha:
+			print("A {0} PNG image supports alpha channel".format(create_options.color_type))
+		else:
+			print("A {0} PNG image doesn't support alpha channel".format(create_options.color_type))
+
+# The output looks like this:
+# A Grayscale PNG image doesn't support alpha channel
+# A Truecolor PNG image doesn't support alpha channel
+# A IndexedColor PNG image doesn't support alpha channel
+# A GrayscaleWithAlpha PNG image supports alpha channel
+# A TruecolorWithAlpha PNG image supports alpha channel
+
+
+```
+
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_224}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2867,7 +2995,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_204}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_225}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

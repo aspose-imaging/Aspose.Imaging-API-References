@@ -20,13 +20,13 @@ url: /python-net/aspose.imaging/graphics/
 | :- | :- | :- | :- |
 | clip | [Region](/imaging/python-net/aspose.imaging/region/) | r/w | Gets or sets the clip region. |
 | compositing_quality | [CompositingQuality](/imaging/python-net/aspose.imaging/compositingquality/) | r/w | Gets or sets the compositing quality. |
-| dpi_x | float | r | Gets the horizontal resolution of this Aspose.Imaging.Graphics. |
-| dpi_y | float | r | Gets the vertical resolution of this Aspose.Imaging.Graphics. |
+| dpi_x | float | r | Gets the horizontal resolution of this `aspose.imaging.Graphics`. |
+| dpi_y | float | r | Gets the vertical resolution of this `aspose.imaging.Graphics`. |
 | image | [Image](/imaging/python-net/aspose.imaging/image/) | r | Gets the image. |
 | interpolation_mode | [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) | r/w | Gets or sets the interpolation mode. |
 | is_in_begin_update_call | bool | r | Gets a value indicating whether graphics is in BeginUpdate call state. |
-| page_scale | float | r/w | Gets or sets the scaling between world units and page units for this Aspose.Imaging.Graphics. |
-| page_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | r/w | Gets or sets the unit of measure used for page coordinates in this Aspose.Imaging.Graphics. |
+| page_scale | float | r/w | Gets or sets the scaling between world units and page units for this `aspose.imaging.Graphics`. |
+| page_unit | [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | r/w | Gets or sets the unit of measure used for page coordinates in this `aspose.imaging.Graphics`. |
 | paintable_image_options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | r/w | Gets or sets image options, used to create paintable vactor images to draw. |
 | smoothing_mode | [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode/) | r/w | Gets or sets the smoothing mode. |
 | text_rendering_hint | [TextRenderingHint](/imaging/python-net/aspose.imaging/textrenderinghint/) | r/w | Gets or sets the text rendering hint. |
@@ -4089,7 +4089,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_111}
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_114}
 ``` python
 
 import aspose.pycore as aspycore

@@ -126,7 +126,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_47) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_48) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_49) | Gets the date and time the resource image was last modified. |
-| [get_original_options()](#get_original_options__50) | Retrieve the original file settings-based options, crucial for maintaining fidelity <br/>            and consistency in image processing and manipulation. This method allows seamless <br/>            integration of file-specific parameters into subsequent operations, ensuring <br/>            accurate rendition and adherence to the image's inherent characteristics.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__50) | Retrieve the original file settings-based options, crucial for maintaining fidelity <br/>            and consistency in image processing and manipulation. This method allows seamless <br/>            integration of file-specific parameters into subsequent operations, ensuring <br/>            accurate rendition and adherence to the image's inherent characteristics.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_pixel(x, y)](#get_pixel_x_y_51) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_52) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_53) | Gets a proportional width. |
@@ -142,7 +142,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_62) | Loads 32-bit ARGB pixels. |
 | [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_63) | Loads 64-bit ARGB pixels. |
 | [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_64) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_65) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_65) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_66) | Loads 32-bit ARGB pixels partially (by blocks). |
 | [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_67) | Loads 64-bit ARGB pixels partially by packs. |
 | [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_68) | Loads pixels partially by packs. |
@@ -152,8 +152,8 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [load_stream(stream)](#load_stream_stream_72) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_73) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_74) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterCachedMultipageImage.Rotate(float,bool,Aspose.Imaging.Color) methods. |
+| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | order_blocks() | Ordering the GIF blocks according to the GIF specification ensures proper GIF <br/>            layout and compliance with the standard. This process involves arranging the <br/>            blocks in the correct sequence as defined by the specification. Additionally, it <br/>            may involve removing certain [GifGraphicsControlBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) instances that <br/>            are not necessary for the final layout. By adhering to the GIF specification, the <br/>            resulting image will be correctly structured and compatible with GIF viewing <br/>            applications. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_76) | Reads the whole scan line by the specified scan line index. |
@@ -194,7 +194,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 | [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_109) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_110) | Saves the 32-bit ARGB pixels. |
 | [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_111) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_112) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_112) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_113) | Saves the pixels internal main. |
 | [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_114) | Saves the raw data. |
 | [save_to_stream(stream)](#save_to_stream_stream_115) | Saves the object's data to the specified stream. |
@@ -322,6 +322,12 @@ Incorporate a new page seamlessly into the existing image, enhancing its content
 | Parameter | Type | Description |
 | :- | :- | :- |
 | page | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The page to add. |
+
+
+**See also:**
+
+**[Example # 1](#example_214)**: Create multipage GIF image using single page raster images.
+
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_3}
 
@@ -1319,7 +1325,7 @@ Gets the date and time the resource image was last modified.
  get_original_options() 
 ```
 
-Retrieve the original file settings-based options, crucial for maintaining fidelity <br/>            and consistency in image processing and manipulation. This method allows seamless <br/>            integration of file-specific parameters into subsequent operations, ensuring <br/>            accurate rendition and adherence to the image's inherent characteristics.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Retrieve the original file settings-based options, crucial for maintaining fidelity <br/>            and consistency in image processing and manipulation. This method allows seamless <br/>            integration of file-specific parameters into subsequent operations, ensuring <br/>            accurate rendition and adherence to the image's inherent characteristics.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1641,7 +1647,7 @@ Loads pixels in CMYK format.
  load_cmyk_pixels(rectangle) 
 ```
 
-Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method.
+Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -1836,7 +1842,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterCachedMultipageImage.Rotate(float,bool,Aspose.Imaging.Color) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
 
 **Parameters:**
 
@@ -2448,7 +2454,7 @@ Saves the pixels.
  save_cmyk_pixels(rectangle, pixels) 
 ```
 
-Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method.
+Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2970,7 +2976,40 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### Export of part of animation from GIF image based on time interval. {#example_199}
+### Create multipage GIF image using single page raster images. {#example_214}
+``` python
+from aspose.imaging import Image, RasterImage
+from aspose.pycore import as_of
+from os import listdir
+from os.path import isfile, join
+
+def load_frames(directory):
+	for f in listdir(directory):
+		full_path = join(directory, f)
+		if isfile(full_path):
+			yield as_of(Image.load(file_path), RasterImage)
+
+
+# Load frames
+frames = list(load_frames("Animation frames"))
+# Create GIF image using the first frame
+with GifImage(GifFrameBlock(frames[0])) as image:
+	# Add frames to the GIF image using the AddPage method
+	for index in range(1, len(frames)):
+		image.add_page(frames[index])
+
+	# Save GIF image
+	image.save("Multipage.gif")
+	
+for it in frames:
+	with it as _:
+		# dispose the images
+		pass
+
+
+```
+
+### Export of part of animation from GIF image based on time interval. {#example_220}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.imageoptions import GifOptions, MultiPageOptions, MultiPageMode, TimeInterval
