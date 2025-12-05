@@ -30,8 +30,8 @@ Image fill info
 | [setTileOffsetX(float value)](#setTileOffsetX-float-) | Sets the tile offset X. |
 | [getTileOffsetY()](#getTileOffsetY--) | Gets the tile offset Y. |
 | [setTileOffsetY(float value)](#setTileOffsetY-float-) | Sets the tile offset Y. |
-| [getRcpOffset()](#getRcpOffset--) | Gets the relative offset between tile rows or columns (depends on `OffsetType`([.getOffsetType](../../null/\#getOffsetType)/[.setOffsetType(int)](../../null/\#setOffsetType-int-))). |
-| [setRcpOffset(float value)](#setRcpOffset-float-) | Sets the relative offset between tile rows or columns (depends on `OffsetType`([.getOffsetType](../../null/\#getOffsetType)/[.setOffsetType(int)](../../null/\#setOffsetType-int-))). |
+| [getRcpOffset()](#getRcpOffset--) | Gets the relative offset between tile rows or columns (depends on `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). |
+| [setRcpOffset(float value)](#setRcpOffset-float-) | Sets the relative offset between tile rows or columns (depends on `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). |
 | [getOffsetType()](#getOffsetType--) | Gets the type of the offset between adjacent tiles. |
 | [setOffsetType(int value)](#setOffsetType-int-) | Sets the type of the offset between adjacent tiles. |
 | [getPatternWidth()](#getPatternWidth--) | Gets the width of the pattern. |
@@ -149,22 +149,22 @@ public final float getRcpOffset()
 ```
 
 
-Gets the relative offset between tile rows or columns (depends on `OffsetType`([.getOffsetType](../../null/\#getOffsetType)/[.setOffsetType(int)](../../null/\#setOffsetType-int-))). Dimension is fractions of height of width.
+Gets the relative offset between tile rows or columns (depends on `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). Dimension is fractions of height of width.
 
 **Returns:**
-float - the relative offset between tile rows or columns (depends on `OffsetType`([.getOffsetType](../../null/\#getOffsetType)/[.setOffsetType(int)](../../null/\#setOffsetType-int-))).
+float - the relative offset between tile rows or columns (depends on `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))).
 ### setRcpOffset(float value) {#setRcpOffset-float-}
 ```
 public final void setRcpOffset(float value)
 ```
 
 
-Sets the relative offset between tile rows or columns (depends on `OffsetType`([.getOffsetType](../../null/\#getOffsetType)/[.setOffsetType(int)](../../null/\#setOffsetType-int-))). Dimension is fractions of height of width.
+Sets the relative offset between tile rows or columns (depends on `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). Dimension is fractions of height of width.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float | the relative offset between tile rows or columns (depends on `OffsetType`([.getOffsetType](../../null/\#getOffsetType)/[.setOffsetType(int)](../../null/\#setOffsetType-int-))). |
+| value | float | the relative offset between tile rows or columns (depends on `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). |
 
 ### getOffsetType() {#getOffsetType--}
 ```
@@ -195,7 +195,7 @@ public final float getPatternWidth()
 ```
 
 
-Gets the width of the pattern. Uses common document distance measure unit in case if `IsRelative`([.isRelative](../../null/\#isRelative)/[.setRelative(boolean)](../../null/\#setRelative-boolean-)) is `false`, otherwise has the dimension of the image pixel width fraction.
+Gets the width of the pattern. Uses common document distance measure unit in case if `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) is `false`, otherwise has the dimension of the image pixel width fraction.
 
 **Returns:**
 float - the width of the pattern.
@@ -205,7 +205,7 @@ public final void setPatternWidth(float value)
 ```
 
 
-Sets the width of the pattern. Uses common document distance measure unit in case if `IsRelative`([.isRelative](../../null/\#isRelative)/[.setRelative(boolean)](../../null/\#setRelative-boolean-)) is `false`, otherwise has the dimension of the image pixel width fraction.
+Sets the width of the pattern. Uses common document distance measure unit in case if `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) is `false`, otherwise has the dimension of the image pixel width fraction.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public final float getPatternHeight()
 ```
 
 
-Gets the height of the pattern. Uses common document distance measure unit in case if `IsRelative`([.isRelative](../../null/\#isRelative)/[.setRelative(boolean)](../../null/\#setRelative-boolean-)) is `false`, otherwise has the dimension of the image pixel height fraction.
+Gets the height of the pattern. Uses common document distance measure unit in case if `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) is `false`, otherwise has the dimension of the image pixel height fraction.
 
 **Returns:**
 float - the height of the pattern.
@@ -228,7 +228,7 @@ public final void setPatternHeight(float value)
 ```
 
 
-Sets the height of the pattern. Uses common document distance measure unit in case if `IsRelative`([.isRelative](../../null/\#isRelative)/[.setRelative(boolean)](../../null/\#setRelative-boolean-)) is `false`, otherwise has the dimension of the image pixel height fraction.
+Sets the height of the pattern. Uses common document distance measure unit in case if `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) is `false`, otherwise has the dimension of the image pixel height fraction.
 
 **Parameters:**
 | Parameter | Type | Description |

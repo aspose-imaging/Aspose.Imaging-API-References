@@ -58,7 +58,7 @@ public final float getAngle1()
 ```
 
 
-Gets the first angle used for defining of pie sector. Does no affect if `Pie`([.getPie](../../null/\#getPie)/[.setPie(boolean)](../../null/\#setPie-boolean-)) is `false`. Measures in radians.
+Gets the first angle used for defining of pie sector. Does no affect if `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) is `false`. Measures in radians.
 
 **Returns:**
 float - the first angle used for defining of pie sector.
@@ -68,7 +68,7 @@ public final void setAngle1(float value)
 ```
 
 
-Sets the first angle used for defining of pie sector. Does no affect if `Pie`([.getPie](../../null/\#getPie)/[.setPie(boolean)](../../null/\#setPie-boolean-)) is `false`. Measures in radians.
+Sets the first angle used for defining of pie sector. Does no affect if `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) is `false`. Measures in radians.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,7 +81,7 @@ public final float getAngle2()
 ```
 
 
-Gets the second angle used for defining of pie sector. Does no affect if `Pie`([.getPie](../../null/\#getPie)/[.setPie(boolean)](../../null/\#setPie-boolean-)) is `false`. Measures in radians.
+Gets the second angle used for defining of pie sector. Does no affect if `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) is `false`. Measures in radians.
 
 **Returns:**
 float - the second angle used for defining of pie sector.
@@ -91,7 +91,7 @@ public final void setAngle2(float value)
 ```
 
 
-Sets the second angle used for defining of pie sector. Does no affect if `Pie`([.getPie](../../null/\#getPie)/[.setPie(boolean)](../../null/\#setPie-boolean-)) is `false`. Measures in radians.
+Sets the second angle used for defining of pie sector. Does no affect if `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) is `false`. Measures in radians.
 
 **Parameters:**
 | Parameter | Type | Description |

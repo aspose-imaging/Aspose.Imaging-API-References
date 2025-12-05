@@ -21,8 +21,8 @@ The blending mode
 | [MULTIPLY](#MULTIPLY) | The multiply |
 | [SCREEN](#SCREEN) | The screen |
 | [OVERLAY](#OVERLAY) | The overlay |
-| [DARKEN](#DARKEN) | The darken |
-| [LIGHTEN](#LIGHTEN) | The lighten |
+| [DARKEN](#DARKEN) | The darken mode |
+| [LIGHTEN](#LIGHTEN) | The lighten mode |
 | [COLOR_DODGE](#COLOR-DODGE) | The color dodge |
 | [COLOR_BURN](#COLOR-BURN) | The color burn |
 | [HARD_LIGHT](#HARD-LIGHT) | The hard light |
@@ -78,7 +78,7 @@ public static final BlendingMode DARKEN
 ```
 
 
-The darken
+The darken mode
 
 ### LIGHTEN {#LIGHTEN}
 ```
@@ -86,7 +86,7 @@ public static final BlendingMode LIGHTEN
 ```
 
 
-The lighten
+The lighten mode
 
 ### COLOR_DODGE {#COLOR-DODGE}
 ```

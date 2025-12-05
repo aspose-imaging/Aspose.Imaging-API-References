@@ -34,8 +34,8 @@ A magic wand selection settings class.
 | [setDirectionalMode(int value)](#setDirectionalMode-int-) | Sets the mode of flood fill search algorithm: four of eight direction search. |
 | [getColorCompareMode()](#getColorCompareMode--) | Gets the algorithm how colors are compared. |
 | [setColorCompareMode(int value)](#setColorCompareMode-int-) | Sets the algorithm how colors are compared. |
-| [getColorComparisonDelegate()](#getColorComparisonDelegate--) | Gets the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
-| [setColorComparisonDelegate(MagicWandSettings.ColorComparison value)](#setColorComparisonDelegate-com.aspose.imaging.magicwand.MagicWandSettings.ColorComparison-) | Sets the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
+| [getColorComparisonDelegate()](#getColorComparisonDelegate--) | Gets the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
+| [setColorComparisonDelegate(MagicWandSettings.ColorComparison value)](#setColorComparisonDelegate-com.aspose.imaging.magicwand.MagicWandSettings.ColorComparison-) | Sets the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
 
 ## Example: The example shows how to select a simple area of an image based on tone and color of any pixel using Magic Wand tool.
 
@@ -271,24 +271,24 @@ public final MagicWandSettings.ColorComparison getColorComparisonDelegate()
 ```
 
 
-Gets the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
+Gets the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
 
 Value: The color compare delegate.
 
 **Returns:**
-[ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) - the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
+[ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) - the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
 ### setColorComparisonDelegate(MagicWandSettings.ColorComparison value) {#setColorComparisonDelegate-com.aspose.imaging.magicwand.MagicWandSettings.ColorComparison-}
 ```
 public final void setColorComparisonDelegate(MagicWandSettings.ColorComparison value)
 ```
 
 
-Sets the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
+Sets the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
 
 Value: The color compare delegate.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) | the custom color comparison algorithm if `ColorCompareMode`([.getColorCompareMode](../../null/\#getColorCompareMode)/[.setColorCompareMode(int)](../../null/\#setColorCompareMode-int-)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
+| value | [ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) | the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
 

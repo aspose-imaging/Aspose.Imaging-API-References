@@ -25,8 +25,6 @@ The shape. A continuous set of points connected using a specific rule.
 | [getCenter()](#getCenter--) | Gets the shape's center. |
 | [getSegments()](#getSegments--) | Gets the shape segments. |
 | [hasSegments()](#hasSegments--) | Gets a value indicating whether shape has segments. |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [hashCode()](#hashCode--) |  |
 ### Shape() {#Shape--}
 ```
 public Shape()
@@ -63,28 +61,3 @@ Gets a value indicating whether shape has segments.
 
 **Returns:**
 boolean - `True` if shape has segments; otherwise, `false`.
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public abstract boolean equals(Object obj)
-```
-
-
-Check if objects are equal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
-
-**Returns:**
-boolean
-### hashCode() {#hashCode--}
-```
-public abstract int hashCode()
-```
-
-
-
-
-**Returns:**
-int

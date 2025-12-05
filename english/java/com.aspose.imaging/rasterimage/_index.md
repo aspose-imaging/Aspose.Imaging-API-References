@@ -2169,7 +2169,7 @@ public final void normalizeAngle()
 ```
 
 
-Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [.getSkewAngle](../../null/\#getSkewAngle) and [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-) methods.
+Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses \#getSkewAngle.getSkewAngle and [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-) methods.
 
 ### normalizeAngle(boolean resizeProportionally, Color backgroundColor) {#normalizeAngle-boolean-com.aspose.imaging.Color-}
 ```
@@ -2177,7 +2177,7 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses [.getSkewAngle](../../null/\#getSkewAngle) and [.rotate(float, boolean, Color)](../../null/\#rotate-float--boolean--Color-) methods.
+Normalizes the angle. This method is applicable to scanned text documents to get rid of the skewed scan. This method uses \#getSkewAngle.getSkewAngle and \#rotate(float, boolean, Color).rotate(float, boolean, Color) methods.
 
 **Parameters:**
 | Parameter | Type | Description |

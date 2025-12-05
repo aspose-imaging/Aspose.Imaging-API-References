@@ -374,7 +374,7 @@ public final ImageGrayscaleMask getFeathered()
 Gets grayscale mask with the border feathered with the default settings.
 
 **Returns:**
-[ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - [.to\_ImageGrayscaleMask(ImageMask)](../../null/\#to-ImageGrayscaleMask-ImageMask-)\} with feathered border.
+[ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - \#to\_ImageGrayscaleMask(ImageMask).to\_ImageGrayscaleMask(ImageMask)\} with feathered border.
 ### getFeathered(FeatheringSettings settings) {#getFeathered-com.aspose.imaging.magicwand.imagemasks.FeatheringSettings-}
 ```
 public final ImageGrayscaleMask getFeathered(FeatheringSettings settings)
@@ -389,7 +389,7 @@ Gets grayscale mask with the border feathered with the specified settings.
 | settings | [FeatheringSettings](../../com.aspose.imaging.magicwand.imagemasks/featheringsettings) | Feathering settings. |
 
 **Returns:**
-[ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - [.to\_ImageGrayscaleMask(ImageMask)](../../null/\#to-ImageGrayscaleMask-ImageMask-)\} with feathered border.
+[ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - \#to\_ImageGrayscaleMask(ImageMask).to\_ImageGrayscaleMask(ImageMask)\} with feathered border.
 ### apply() {#apply--}
 ```
 public final void apply()
