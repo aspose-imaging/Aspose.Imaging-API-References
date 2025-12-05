@@ -181,18 +181,18 @@ url: /python-net/aspose.imaging/color/
 | [get_hue()](#get_hue__8) | Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | [get_saturation()](#get_saturation__9) | Gets the hue-saturation-brightness (HSB) saturation value for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | [to_argb()](#to_argb__10) | Gets the 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| [to_cmyk(pixel)](#to_cmyk_pixel_11) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[]). |
-| [to_cmyk(pixels)](#to_cmyk_pixels_12) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[]). |
-| [to_cmyk_color(pixel)](#to_cmyk_color_pixel_13) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color). |
-| [to_cmyk_color_with_def_icc(pixel)](#to_cmyk_color_with_def_icc_pixel_14) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color). |
-| [to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_color_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_15) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color,_io.BufferedRandom,_io.BufferedRandom). |
-| [to_cmyk_colors(pixels)](#to_cmyk_colors_pixels_16) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[]). |
-| [to_cmyk_colors_with_def_icc(pixels)](#to_cmyk_colors_with_def_icc_pixels_17) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[]). |
-| [to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_colors_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_18) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom). |
-| [to_cmyk_icc(pixel)](#to_cmyk_icc_pixel_19) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color). |
-| [to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_20) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom). |
-| [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_21) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[]). |
-| [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_22) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom). |
+| [to_cmyk(pixel)](#to_cmyk_pixel_11) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk(pixels)](#to_cmyk_pixels_12) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color(pixel)](#to_cmyk_color_pixel_13) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color_with_def_icc(pixel)](#to_cmyk_color_with_def_icc_pixel_14) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_color_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_15) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_colors(pixels)](#to_cmyk_colors_pixels_16) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_colors_with_def_icc(pixels)](#to_cmyk_colors_with_def_icc_pixels_17) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_colors_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_18) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_icc(pixel)](#to_cmyk_icc_pixel_19) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_20) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_21) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_22) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
 | [to_known_color()](#to_known_color__23) | Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 
 
@@ -414,7 +414,7 @@ Gets the 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/co
  to_cmyk(pixel) 
 ```
 
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[]).
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -436,7 +436,7 @@ The conversion from Color to CMYKColor.<br/>            This method is deprecate
  to_cmyk(pixels) 
 ```
 
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[]).
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -458,7 +458,7 @@ The conversion from Color to CMYKColor.<br/>            This method is deprecate
  to_cmyk_color(pixel) 
 ```
 
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color).
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -480,7 +480,7 @@ The conversion from Color to CMYKColor.<br/>            This method is deprecate
  to_cmyk_color_with_def_icc(pixel) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color).
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -502,7 +502,7 @@ The conversion from Color to CMYKColor using icc conversion with default profile
  to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color,_io.BufferedRandom,_io.BufferedRandom).
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -526,7 +526,7 @@ The conversion from Color to CMYKColor using icc conversion with default profile
  to_cmyk_colors(pixels) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[]).
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -548,7 +548,7 @@ The conversion from Color to CMYKColor using icc conversion with default profile
  to_cmyk_colors_with_def_icc(pixels) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[]).
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -570,7 +570,7 @@ The conversion from Color to CMYKColor using icc conversion with default profile
  to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom).
+The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -594,7 +594,7 @@ The conversion from Color to CMYKColor using icc conversion.<br/>            Thi
  to_cmyk_icc(pixel) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color).
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -616,7 +616,7 @@ The conversion from Color to CMYKColor using icc conversion with default profile
  to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom).
+The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -640,7 +640,7 @@ The conversion from Color to CMYKColor using icc conversion.<br/>            Thi
  to_cmyk_icc(pixels) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[]).
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -662,7 +662,7 @@ The conversion from Color to CMYKColor using icc conversion with default profile
  to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom).
+The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -692,6 +692,6 @@ Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of t
 
 | Type | Description |
 | :- | :- |
-| [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) | An element of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration, if the [Color](/imaging/python-net/aspose.imaging/color/) is created from a predefined color by using either the Aspose.Imaging.Color.FromName(string) method or the Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor) method; otherwise, 0. |
+| [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) | An element of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration, if the [Color](/imaging/python-net/aspose.imaging/color/) is created from a predefined color by using either the [Color.from_name(name)](/imaging/python-net/aspose.imaging/color/) method or the [Color.from_known_color(color)](/imaging/python-net/aspose.imaging/color/) method; otherwise, 0. |
 
 

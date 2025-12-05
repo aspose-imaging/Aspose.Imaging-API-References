@@ -1,7 +1,7 @@
 ---
 title: MotionWienerFilterOptions Class
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/
 ---
 

@@ -5,7 +5,7 @@ weight: 350
 url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 
-**Summary:** The vector rasterization options.<br/>            Please note that [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) will no longer derive from [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) <br/>            since Aspose.Imaging 24.12 version.
+**Summary:** The vector rasterization options.<br/>            Please note that [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) will no longer derive from [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) <br/>            since `aspose.imaging` 24.12 version.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -51,7 +51,7 @@ Gets or sets a background color.
 
 **See also:**
 
-**[Example # 1](#example_158)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_171)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: page_size {#page_size2}
@@ -60,7 +60,7 @@ Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-ne
 
 **See also:**
 
-**[Example # 1](#example_158)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_171)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: positioning {#positioning3}
@@ -69,7 +69,9 @@ Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_164)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_177)**: The following example shows how to set a memory limit when loading a CMX imag...
+
+**[Example # 2](#example_185)**: The following example shows how to export all pages of CDR document to PDF.
 
 
 ### Method: clone() {#clone__1}
@@ -104,7 +106,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | The vector rasterization options. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_158}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_171}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -130,7 +132,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_164}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_177}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
 from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions
@@ -149,6 +151,27 @@ with Image.load(os.path.join(directory, "example.cmx"), load_options) as image:
 	cmx_spec.positioning = PositioningTypes.DEFINED_BY_DOCUMENT
 	png_options.vector_rasterization_options = cmx_spec
 	image.save(os.path.join(directory, "output.png"), png_options)
+
+
+```
+
+### The following example shows how to export all pages of CDR document to PDF. {#example_185}
+``` python
+from aspose.imaging import Image, TextRenderingHint, SmoothingMode
+from aspose.imaging.imageoptions import PdfOptions, CdrRasterizationOptions, PositioningTypes
+from os.path import join
+
+dir_: str = "c:\\3570"
+input_cdr_file_name: str = join(dir_, "tiger.cdr")
+output_pdf_file_name: str = join(dir_, "tiger.cdr.pdf")
+with Image.load(input_cdr_file_name) as image:
+	pdf_options = PdfOptions()
+	rasterization_options = CdrRasterizationOptions()
+	rasterization_options.text_rendering_hint = TextRenderingHint.SINGLE_BIT_PER_PIXEL
+	rasterization_options.smoothing_mode = SmoothingMode.NONE
+	rasterization_options.positioning = PositioningTypes.DEFINED_BY_DOCUMENT
+	pdf_options.vector_rasterization_options = rasterization_options
+	image.save(output_pdf_file_name, pdf_options)
 
 
 ```

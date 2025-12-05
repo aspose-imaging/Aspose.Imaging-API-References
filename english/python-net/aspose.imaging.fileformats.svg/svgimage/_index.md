@@ -79,7 +79,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | [get_file_format_of_stream(stream)](#get_file_format_of_stream_stream_27) | Gets the file format. |
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_28) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_29) | Gets rectangle which fits the current image. |
-| [get_original_options()](#get_original_options__30) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__30) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_31) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_32) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_33) | Converts to aps. |
@@ -158,7 +158,7 @@ Creates a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_157)**: This example shows how to load an SVG image from a file stream and rasterize ...
+**[Example # 1](#example_169)**: This example shows how to load an SVG image from a file stream and rasterize ...
 
 
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
@@ -840,7 +840,7 @@ Gets rectangle which fits the current image.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1566,7 +1566,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_157}
+### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_169}
 ``` python
 import aspose.pycore as aspycore
 from os.path import join
@@ -1586,7 +1586,28 @@ with open(join(dir_, "test.svg"), "rb") as stream:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_171}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_187}
+``` python
+from aspose.imaging import Image, Color
+from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
+from os.path import join
+from aspose.pycore import as_of
+
+files = ["example.emz", "example.wmz", "example.svgz"]
+base_folder: str = join("D:", "Compressed")
+for file in files:
+	input_file: str = join(base_folder, file)
+	out_file: str = input_file + ".png"
+	with Image.load(input_file) as image:
+		vector_rasterization_options = aspycore.as_of(image.get_default_options([Color.white, image.width, image.height]), VectorRasterizationOptions)
+		obj_init = PngOptions()
+		obj_init.vector_rasterization_options = vector_rasterization_options
+		image.save(out_file, obj_init)
+
+
+```
+
+### The following example shows how to convert a svgz images to svg fromat {#example_190}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1607,7 +1628,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a svg images to svgz format {#example_174}
+### The following example shows how to convert a svg images to svgz format {#example_193}
 ``` python
 
 from os.path import join as path_combine

@@ -26,7 +26,6 @@ The object having bounds.
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | Gets the object's bounds. |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Check if objects are equal. |
 ### ObjectWithBounds() {#ObjectWithBounds--}
 ```
 public ObjectWithBounds()
@@ -87,18 +86,3 @@ Applies the specified transformation to the shape.
 | --- | --- | --- |
 | transform | [Matrix](../../com.aspose.imaging/matrix) | The transformation to apply. |
 
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Check if objects are equal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | The other object. |
-
-**Returns:**
-boolean - The equality comparison result.

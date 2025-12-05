@@ -65,7 +65,7 @@ Converts path resources to the [GraphicsPath](/imaging/python-net/aspose.imaging
 
 
 ## **Examples**
-### Create Graphics Path from Path Resources in TIFF image. {#example_188}
+### Create Graphics Path from Path Resources in TIFF image. {#example_207}
 ``` python
 
 import aspose.pycore as aspycore

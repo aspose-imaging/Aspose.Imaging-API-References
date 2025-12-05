@@ -1,7 +1,7 @@
 ---
 title: PixelFormat Enumeration
 type: docs
-weight: 10940
+weight: 10960
 url: /python-net/aspose.imaging/pixelformat/
 ---
 

@@ -120,7 +120,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_47) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_48) | Gets rectangle which fits the current image. |
 | [get_modify_date(use_default)](#get_modify_date_use_default_49) | Gets the date and time the resource image was last modified. |
-| [get_original_options()](#get_original_options__50) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__50) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_pixel(x, y)](#get_pixel_x_y_51) | Gets an image pixel. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_52) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_53) | Gets a proportional width. |
@@ -136,7 +136,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_62) | Loads 32-bit ARGB pixels. |
 | [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_63) | Loads 64-bit ARGB pixels. |
 | [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_64) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_65) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_65) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_66) | Loads 32-bit ARGB pixels partially (by blocks). |
 | [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_67) | Loads 64-bit ARGB pixels partially by packs. |
 | [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_68) | Loads pixels partially by packs. |
@@ -146,8 +146,8 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [load_stream(stream)](#load_stream_stream_72) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_73) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_74) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterImage.Rotate(float) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterCachedMultipageImage.Rotate(float,bool,Aspose.Imaging.Color) methods. |
+| normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_75) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
 | [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_76) | Reads the whole scan line by the specified scan line index. |
 | [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_77) | Reads the whole scan line by the specified scan line index. |
@@ -187,7 +187,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [save_all(file_path, options)](#save_all_file_path_options_109) | Preserve the object's data by saving it to the designated file (indexer + filename)<br/>            location along with specified file format and options. Ideal for developers seeking to<br/>            securely store data in various formats while maintaining flexibility and control over<br/>            saving parameters. |
 | [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_110) | Saves the 32-bit ARGB pixels. |
 | [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_111) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_112) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_112) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
 | [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_113) | Saves pixels (format specific method). |
 | [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_114) | Saves the raw data. |
 | [save_to_stream(stream)](#save_to_stream_stream_115) | Saves the object's data to the specified stream. |
@@ -236,6 +236,12 @@ Create a new instance of the DicomImage class by utilizing a stream parameter<br
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
 
+
+**See also:**
+
+**[Example # 1](#example_130)**: This example shows how to load a DICOM image from a file stream.
+
+
 ### Constructor: DicomImage(stream, load_options) {#DicomImage_stream_load_options_3}
 
 
@@ -251,6 +257,12 @@ Initiate a new instance of the DicomImage class smoothly by employing a stream a
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
+
+
+**See also:**
+
+**[Example # 1](#example_131)**: This example shows how to load a DICOM image from a file stream to stay withi...
+
 
 ### Method: add_page() {#add_page__1}
 
@@ -301,7 +313,7 @@ Enhance image luminance with the adjustment of _brightness_, a<br/>            p
 
 **See also:**
 
-**[Example # 1](#example_135)**: The following example performs brightness correction of a DICOM image.
+**[Example # 1](#example_143)**: The following example performs brightness correction of a DICOM image.
 
 
 ### Method: adjust_contrast(contrast) {#adjust_contrast_contrast_4}
@@ -322,7 +334,7 @@ Enhance [Image](/imaging/python-net/aspose.imaging/image/) contrast with this us
 
 **See also:**
 
-**[Example # 1](#example_136)**: The following example performs contrast correction of a DICOM image.
+**[Example # 1](#example_144)**: The following example performs contrast correction of a DICOM image.
 
 
 ### Method: adjust_gamma(gamma) {#adjust_gamma_gamma_5}
@@ -343,7 +355,7 @@ Enhance image quality and adjust it with gamma correction, a powerful technique<
 
 **See also:**
 
-**[Example # 1](#example_133)**: The following example performs gamma-correction of a DICOM image.
+**[Example # 1](#example_141)**: The following example performs gamma-correction of a DICOM image.
 
 
 ### Method: adjust_gamma(gamma_red, gamma_green, gamma_blue) {#adjust_gamma_gamma_red_gamma_green_gamma_blue_6}
@@ -366,7 +378,7 @@ Achieve precise color adjustments by applying gamma correction independently<br/
 
 **See also:**
 
-**[Example # 1](#example_134)**: The following example performs gamma-correction of a DICOM image applying dif...
+**[Example # 1](#example_142)**: The following example performs gamma-correction of a DICOM image applying dif...
 
 
 ### Method: analyze_percentage_digital_signature(password) {#analyze_percentage_digital_signature_password_7}
@@ -425,7 +437,7 @@ Binarize images with Bradley's adaptive thresholding algorithm, leveraging integ
 
 **See also:**
 
-**[Example # 1](#example_131)**: The following example binarizes a DICOM image with Bradley's adaptive thresho...
+**[Example # 1](#example_139)**: The following example binarizes a DICOM image with Bradley's adaptive thresho...
 
 
 ### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_10}
@@ -446,7 +458,7 @@ Easily convert the image into a binary format using a predefined threshold<br/> 
 
 **See also:**
 
-**[Example # 1](#example_129)**: The following example binarizes a DICOM image with the predefined threshold. ...
+**[Example # 1](#example_137)**: The following example binarizes a DICOM image with the predefined threshold. ...
 
 
 ### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_11}
@@ -936,7 +948,7 @@ Adjust the cropping area of the image by applying shifts with this versatile met
 
 **See also:**
 
-**[Example # 1](#example_128)**: The following example crops a DICOM image. The cropping area is specified via...
+**[Example # 1](#example_136)**: The following example crops a DICOM image. The cropping area is specified via...
 
 
 ### Method: crop(rectangle) {#crop_rectangle_33}
@@ -957,7 +969,7 @@ Crop the image to remove unwanted areas and focus on essential content with this
 
 **See also:**
 
-**[Example # 1](#example_127)**: The following example crops a DICOM image. The cropping area is be specified ...
+**[Example # 1](#example_135)**: The following example crops a DICOM image. The cropping area is be specified ...
 
 
 ### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_34}
@@ -1291,7 +1303,7 @@ Gets the date and time the resource image was last modified.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1619,7 +1631,7 @@ Loads pixels in CMYK format.
  load_cmyk_pixels(rectangle) 
 ```
 
-Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.LoadCmyk32Pixels(Aspose.Imaging.Rectangle) method.
+Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -1814,7 +1826,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
  normalize_angle(resize_proportionally, background_color) 
 ```
 
-Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and Aspose.Imaging.RasterCachedMultipageImage.Rotate(float,bool,Aspose.Imaging.Color) methods.
+Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterCachedMultipageImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rastercachedmultipageimage/) methods.
 
 **Parameters:**
 
@@ -2240,7 +2252,7 @@ Easily manipulate the active frame by rotating, flipping, or performing both act
 
 **See also:**
 
-**[Example # 1](#example_124)**: This example loads a DICOM image, rotates it by 90 degrees clockwise and opti...
+**[Example # 1](#example_132)**: This example loads a DICOM image, rotates it by 90 degrees clockwise and opti...
 
 
 ### Method: rotate_flip_all(rotate_flip) {#rotate_flip_all_rotate_flip_101}
@@ -2373,7 +2385,7 @@ Easily save your image data to a specified stream in the desired file format<br/
 
 **See also:**
 
-**[Example # 1](#example_125)**: The following example loads a DICOM image from a file, then saves the image t...
+**[Example # 1](#example_133)**: The following example loads a DICOM image from a file, then saves the image t...
 
 
 ### Method: save_all(file_path, options) {#save_all_file_path_options_109}
@@ -2431,7 +2443,7 @@ Saves the pixels.
  save_cmyk_pixels(rectangle, pixels) 
 ```
 
-Saves the pixels.<br/>            This method is deprecated. Please use more effective the Aspose.Imaging.RasterImage.SaveCmyk32Pixels(Aspose.Imaging.Rectangle,int[]) method.
+Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method.
 
 **Parameters:**
 
@@ -2676,7 +2688,52 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### This example loads a DICOM image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_124}
+### This example shows how to load a DICOM image from a file stream. {#example_130}
+``` python
+from aspose.imaging.fileformats.dicom import DicomImage
+from aspose.imaging.imageoptions import PngOptions
+from os.path import join
+
+dir_: str = "c:\\temp"
+# Load a DICOM image from a file stream.
+with open(join(dir_, "sample.dicom"), "rb") as stream:
+	with DicomImage(stream) as dicom_image:
+		# Save each page as an individual PNG image.                    
+		for dicom_page in dicom_image.dicom_pages:
+			# Generate a file name based on the page index.
+			file_name = "sample.{0}.png".format(dicom_page.index)
+			# A DICOM page is a raster image, so all allowed operations with a raster image are applicable to a DICOM page.
+			dicom_page.save(join(dir_, file_name), PngOptions())
+
+
+```
+
+### This example shows how to load a DICOM image from a file stream to stay within the specified memory limit. {#example_131}
+``` python
+from aspose.imaging import LoadOptions, Image
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.fileformats.dicom import DicomImage
+from os.path import join as path_join
+
+
+dir_: str = "c:\\temp"
+# Load a DICOM image from a file stream.
+with open(path_join(dir_, "multiframe.dicom"), "rb") as stream:
+	# The max allowed size for all internal buffers is 256KB.
+	load_options = LoadOptions()
+	load_options.buffer_size_hint = 256 * 1024
+	with DicomImage(stream, load_options) as dicom_image:
+		# Save each page as an individual PNG image.
+		for dicom_page in dicom_image.dicom_pages:
+			# Generate a file name based on the page index.
+			file_name = "multiframe.{0}.png".format(dicom_page.index)
+			# A DICOM page is a raster image, so all allowed operations with a raster image are applicable to a DICOM page.
+			dicom_page.save(path_join(dir_, file_name), PngOptions())
+
+
+```
+
+### This example loads a DICOM image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_132}
 ``` python
 
 from os.path import join
@@ -2696,7 +2753,7 @@ for rotate_flip_type in rotate_flip_types:
 
 ```
 
-### The following example loads a DICOM image from a file, then saves the image to a PNG file stream. {#example_125}
+### The following example loads a DICOM image from a file, then saves the image to a PNG file stream. {#example_133}
 ``` python
 
 from os.path import join
@@ -2716,7 +2773,7 @@ with aspycore.as_of(Image.load(join(dir_, "sample.dicom")), DicomImage) as image
 
 ```
 
-### The following example crops a DICOM image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_127}
+### The following example crops a DICOM image. The cropping area is be specified via aspose.imaging.Rectangle. {#example_135}
 ``` python
 
 from os.path import join
@@ -2738,7 +2795,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example crops a DICOM image. The cropping area is specified via Left, Top, Right, Bottom margins. {#example_128}
+### The following example crops a DICOM image. The cropping area is specified via Left, Top, Right, Bottom margins. {#example_136}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore
@@ -2759,7 +2816,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example binarizes a DICOM image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_129}
+### The following example binarizes a DICOM image with the predefined threshold. Binarized images contain only 2 colors - black and white. {#example_137}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2778,7 +2835,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example binarizes a DICOM image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_131}
+### The following example binarizes a DICOM image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white. {#example_139}
 ``` python
 
 from os.path import join
@@ -2797,7 +2854,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DICOM image. {#example_133}
+### The following example performs gamma-correction of a DICOM image. {#example_141}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2816,7 +2873,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs gamma-correction of a DICOM image applying different coefficients for color components. {#example_134}
+### The following example performs gamma-correction of a DICOM image applying different coefficients for color components. {#example_142}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2835,7 +2892,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs brightness correction of a DICOM image. {#example_135}
+### The following example performs brightness correction of a DICOM image. {#example_143}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2854,7 +2911,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### The following example performs contrast correction of a DICOM image. {#example_136}
+### The following example performs contrast correction of a DICOM image. {#example_144}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2873,7 +2930,7 @@ with Image.load(join(dir_, "sample.dicom")) as image:
 
 ```
 
-### Use JPEG compression in DICOM image. {#example_189}
+### Use JPEG compression in DICOM image. {#example_208}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2898,7 +2955,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Use JPEG 2000 compression in DICOM image. {#example_190}
+### Use JPEG 2000 compression in DICOM image. {#example_209}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -2920,7 +2977,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Use RLE compression in DICOM image. {#example_191}
+### Use RLE compression in DICOM image. {#example_210}
 ``` python
 
 from aspose.imaging import Image
@@ -2938,7 +2995,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Change the color type in DICOM compression. {#example_192}
+### Change the color type in DICOM compression. {#example_211}
 ``` python
 
 from aspose.imaging import Image

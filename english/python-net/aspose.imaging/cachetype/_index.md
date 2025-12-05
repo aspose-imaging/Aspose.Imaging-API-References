@@ -1,7 +1,7 @@
 ---
 title: CacheType Enumeration
 type: docs
-weight: 9140
+weight: 9160
 url: /python-net/aspose.imaging/cachetype/
 ---
 

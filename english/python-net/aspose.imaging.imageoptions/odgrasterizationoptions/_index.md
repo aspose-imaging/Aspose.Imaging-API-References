@@ -79,7 +79,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | The vector rasterization options. |
 
 ## **Examples**
-### The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format. {#example_168}
+### The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format. {#example_186}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore

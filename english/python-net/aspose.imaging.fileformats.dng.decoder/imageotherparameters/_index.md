@@ -31,7 +31,7 @@ Gets the aperture.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: description {#description2}
@@ -40,7 +40,7 @@ Gets the image description.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: focal_length {#focal_length3}
@@ -49,7 +49,7 @@ Gets the length of the focal.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: iso_speed {#iso_speed4}
@@ -58,7 +58,7 @@ Gets the ISO sensitivity.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: shot_order {#shot_order5}
@@ -67,7 +67,7 @@ Gets serial number of image.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: shutter_speed {#shutter_speed6}
@@ -76,7 +76,7 @@ Gets the shutter speed.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ### Property: timestamp {#timestamp7}
@@ -85,11 +85,11 @@ Gets the date of shooting.
 
 **See also:**
 
-**[Example # 1](#example_156)**: This example shows how to load a DNG image from a file, print its properties ...
+**[Example # 1](#example_168)**: This example shows how to load a DNG image from a file, print its properties ...
 
 
 ## **Examples**
-### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_156}
+### This example shows how to load a DNG image from a file, print its properties and save it to PNG. {#example_168}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image

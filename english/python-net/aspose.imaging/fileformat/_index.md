@@ -1,7 +1,7 @@
 ---
 title: FileFormat Enumeration
 type: docs
-weight: 10510
+weight: 10530
 url: /python-net/aspose.imaging/fileformat/
 ---
 

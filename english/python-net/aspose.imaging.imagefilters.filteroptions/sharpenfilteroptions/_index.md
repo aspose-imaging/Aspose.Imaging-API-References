@@ -1,7 +1,7 @@
 ---
 title: SharpenFilterOptions Class
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 
@@ -22,7 +22,9 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
+| borders_processing | bool | r/w | Gets or sets a value indicating whether [borders processing]. |
 | factor | float | r/w | Gets or sets the factor. |
+| ignore_alpha | bool | r/w | Gets or sets a value indicating whether [ignore alpha]. |
 | kernel_data | float[] | r | Gets the kernel. |
 | radius | int | r/w | Gets the radius of Gausseian [ISquareConvolutionKernel](/imaging/python-net/aspose.imaging.imagefilters.convolution/isquareconvolutionkernel/). |
 | sigma | float | r/w | Gets the Gaussian kernel sigma (smoothing). Must be a positive non-zero value. |

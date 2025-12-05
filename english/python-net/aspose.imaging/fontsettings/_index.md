@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging/fontsettings/
 | [get_default_fonts_folders()](#get_default_fonts_folders__1) | Gets the default fonts folders. |
 | [get_fonts_folders()](#get_fonts_folders__2) | Gets a copy of the array that contains the list of folders where Aspose.Words looks for TrueType fonts. |
 | reset() | Resets the fonts folder and default font name to the system default. |
-| [set_fonts_folder(font_folder)](#set_fonts_folder_font_folder_3) | This is a shortcut to Aspose.Imaging.FontSettings.SetFontsFolders(string[],bool) for setting only one font directory.<br/>            There are no checks performed on the fonts folder. |
+| [set_fonts_folder(font_folder)](#set_fonts_folder_font_folder_3) | This is a shortcut to [FontSettings.set_fonts_folders(fonts_folders, recursive)](/imaging/python-net/aspose.imaging/fontsettings/) for setting only one font directory.<br/>            There are no checks performed on the fonts folder. |
 | [set_fonts_folders(fonts_folders, recursive)](#set_fonts_folders_fonts_folders_recursive_4) | Sets the folders where TrueType fonts are loaded from and clears all loaded fonts.<br/>            There are no checks performed on the fonts folders. |
 | update_fonts() | Updates fonts cache for PSD files that contain text layers. This method guarantees that fonts from folder fontsFolder using<br/>            method FontSettings.SetFontsFolder(fontsFolder) or after reset fonts using FontSettings.Reset() will be taken into consideration when processing PSD files. Please use this method each time when  <br/>            FontSettings.SetFontsFolder(fontsFolder) or FontSettings.Reset() called for PSD images. Without calling this Method there is no guarantee that fonts will be updated. |
 
@@ -66,7 +66,7 @@ Gets a copy of the array that contains the list of folders where Aspose.Words lo
  set_fonts_folder(font_folder) 
 ```
 
-This is a shortcut to Aspose.Imaging.FontSettings.SetFontsFolders(string[],bool) for setting only one font directory.<br/>            There are no checks performed on the fonts folder.
+This is a shortcut to [FontSettings.set_fonts_folders(fonts_folders, recursive)](/imaging/python-net/aspose.imaging/fontsettings/) for setting only one font directory.<br/>            There are no checks performed on the fonts folder.
 
 **Parameters:**
 

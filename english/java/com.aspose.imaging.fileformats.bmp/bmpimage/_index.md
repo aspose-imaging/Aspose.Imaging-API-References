@@ -837,7 +837,7 @@ This property allows you to easily get or set the horizontal resolution, measure
 **Returns:**
 double - The horizontal resolution.
 
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call.
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the \#setResolution(double, double).setResolution(double, double) method for updating both resolution values in single call.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
 
@@ -889,7 +889,7 @@ This property allows you to easily get or set the horizontal resolution, measure
 
 --------------------
 
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call. |
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the \#setResolution(double, double).setResolution(double, double) method for updating both resolution values in single call. |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -904,7 +904,7 @@ double - The vertical resolution.
 
 --------------------
 
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call.
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the \#setResolution(double, double).setResolution(double, double) method for updating both resolution values in single call.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
 
@@ -956,7 +956,7 @@ Easily retrieve or set the vertical resolution, measured in pixels per inch, of 
 
 --------------------
 
-Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the [.setResolution(double, double)](../../null/\#setResolution-double--double-) method for updating both resolution values in single call. |
+Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the \#setResolution(double, double).setResolution(double, double) method for updating both resolution values in single call. |
 
 ### hasAlpha() {#hasAlpha--}
 ```

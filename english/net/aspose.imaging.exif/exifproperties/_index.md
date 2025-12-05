@@ -49,10 +49,10 @@ public enum ExifProperties : ushort
 | SpectralSensitivity | `34852` | Indicates the spectral sensitivity of each channel of the camera used. |
 | PhotographicSensitivity | `34855` | Indicates the ISO Speed and ISO Latitude of the camera or input device as specified in ISO 12232. |
 | OECF | `34856` | Indicates the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
-| ExifVersion | `36864` | The exif version. |
+| ExifVersion | `36864` | The Exif version. |
 | DateTimeOriginal | `36867` | The date and time when the original image data was generated. |
 | DateTimeDigitized | `36868` | The date time digitized. |
-| ComponentsConfiguration | `37121` | The components configuration. |
+| ComponentsConfiguration | `37121` | The components' configuration. |
 | CompressedBitsPerPixel | `37122` | Specific to compressed data; states the compressed bits per pixel. |
 | ShutterSpeedValue | `37377` | The shutter speed value. |
 | ApertureValue | `37378` | The lens aperture value. |
@@ -135,20 +135,20 @@ public enum ExifProperties : ushort
 | GPSIfdPointer | `34853` | The gps ifd pointer. |
 | RowsPerStrip | `278` | The number of rows per strip. This is the number of rows in the image of one strip when an image is divided into strips. |
 | StripByteCounts | `279` | The total number of bytes in each strip. |
-| PixelXDimension | `40962` | Information specific to compressed data. When a compressed file is recorded, the valid width of the meaningful image shall be recorded in this tag, whether or not there is padding data or a restart marker. |
+| PixelXDimension | `40962` | Information specific to compressed data. When a compressed file is recorded, the valid width of the meaningful image shall be recorded in this tag, whether there is padding data or a restart marker. |
 | PixelYDimension | `40963` | Information specific to compressed data. When a compressed file is recorded, the valid height of the meaningful image shall be recorded in this tag |
 | Gamma | `42240` | Gamma value |
 | SensitivityType | `34864` | Type of photographic sensitivity |
 | StandardOutputSensitivity | `34865` | Indicates standard output sensitivity of camera |
 | RecommendedExposureIndex | `34866` | Indicates recommended exposure index |
-| ISOSpeed | `34867` | Information about iso speed value as defined in ISO 12232 |
+| ISOSpeed | `34867` | Information about ISO speed value as defined in ISO 12232 |
 | ISOSpeedLatitudeYYY | `34868` | This tag indicates ISO speed latitude yyy value as defined in ISO 12232 |
 | ISOSpeedLatitudeZZZ | `34869` | This tag indicates ISO speed latitude zzz value as defined in ISO 12232 |
 | CameraOwnerName | `42032` | Contains camera owner name |
 | BodySerialNumber | `42033` | Contains camera body serial number |
 | LensMake | `42035` | This tag records lens manufacturer |
 | LensModel | `42036` | This tag records lens`s model name and model number |
-| LensSerialNumber | `42037` | This tag records the serial number of interchangable lens |
+| LensSerialNumber | `42037` | This tag records the serial number of interchangeable lens |
 | LensSpecification | `42034` | This tag notes minimum focal length, maximum focal length, minimum F number in the minimum focal length and minimum F number in maximum focal length |
 
 ### See Also

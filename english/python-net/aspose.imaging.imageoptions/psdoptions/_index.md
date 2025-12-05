@@ -78,7 +78,7 @@ Gets or sets the psd color mode.
 
 **See also:**
 
-**[Example # 1](#example_11)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
+**[Example # 1](#example_11)**: This example demonstrates the use of `aspose.imaging` API to convert Images t...
 
 
 ### Property: compression_method {#compression_method2}
@@ -87,7 +87,7 @@ Gets or sets the psd compression method.
 
 **See also:**
 
-**[Example # 1](#example_11)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
+**[Example # 1](#example_11)**: This example demonstrates the use of `aspose.imaging` API to convert Images t...
 
 
 ### Method: clone() {#clone__1}
@@ -129,7 +129,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example demonstrates the use of Aspose.Imaging API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format. {#example_11}
+### This example demonstrates the use of `aspose.imaging` API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format. {#example_11}
 ``` python
 
 from aspose.imaging import Image, RotateFlipType

@@ -30,8 +30,8 @@ The complex number structure.
 | [SIZE_OF_DOUBLE](#SIZE-OF-DOUBLE) | The size of `double`. |
 | [SIZE_OF_COMPLEX](#SIZE-OF-COMPLEX) | The size of complex. |
 | [ZERO](#ZERO) | Zero complex. |
-| [ONE](#ONE) | One complex having `Re`([.getRe](../../null/\#getRe)/[.setRe(double)](../../null/\#setRe-double-)) and `Im`([.getIm](../../null/\#getIm)/[.setIm(double)](../../null/\#setIm-double-)) equal to 1. |
-| [I](#I) | I complex having `Im`([.getIm](../../null/\#getIm)/[.setIm(double)](../../null/\#setIm-double-)) equal to 1. |
+| [ONE](#ONE) | One complex having `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) and `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) equal to 1. |
+| [I](#I) | I complex having `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) equal to 1. |
 ## Methods
 
 | Method | Description |
@@ -163,7 +163,7 @@ public static final Complex ONE
 ```
 
 
-One complex having `Re`([.getRe](../../null/\#getRe)/[.setRe(double)](../../null/\#setRe-double-)) and `Im`([.getIm](../../null/\#getIm)/[.setIm(double)](../../null/\#setIm-double-)) equal to 1.
+One complex having `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) and `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) equal to 1.
 
 ### I {#I}
 ```
@@ -171,7 +171,7 @@ public static final Complex I
 ```
 
 
-I complex having `Im`([.getIm](../../null/\#getIm)/[.setIm(double)](../../null/\#setIm-double-)) equal to 1.
+I complex having `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) equal to 1.
 
 ### to_Complex(double value) {#to-Complex-double-}
 ```

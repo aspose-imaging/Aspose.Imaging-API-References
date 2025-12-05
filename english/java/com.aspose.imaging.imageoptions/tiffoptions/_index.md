@@ -128,8 +128,8 @@ The tiff file format options. Note that width and height tags will get overwritt
 | [setSubFileType(long value)](#setSubFileType-long-) | Gets or sets a general indication of the kind of data contained in this subfile. |
 | [getTargetPrinter()](#getTargetPrinter--) | Gets or sets the target printer. |
 | [setTargetPrinter(String value)](#setTargetPrinter-java.lang.String-) | Gets or sets the target printer. |
-| [getThreshholding()](#getThreshholding--) | Gets or sets the threshholding. |
-| [setThreshholding(int value)](#setThreshholding-int-) | Gets or sets the threshholding. |
+| [getThreshholding()](#getThreshholding--) | Gets or sets the thresholding. |
+| [setThreshholding(int value)](#setThreshholding-int-) | Gets or sets the thresholding. |
 | [getTotalPages()](#getTotalPages--) | Gets the total pages. |
 | [getXposition()](#getXposition--) | Gets or sets the x position. |
 | [setXposition(TiffRational value)](#setXposition-com.aspose.imaging.fileformats.tiff.TiffRational-) | Gets or sets the x position. |
@@ -1773,22 +1773,22 @@ public int getThreshholding()
 ```
 
 
-Gets or sets the threshholding.
+Gets or sets the thresholding.
 
 **Returns:**
-int - The threshholding.
+int - The thresholding.
 ### setThreshholding(int value) {#setThreshholding-int-}
 ```
 public void setThreshholding(int value)
 ```
 
 
-Gets or sets the threshholding.
+Gets or sets the thresholding.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The threshholding. |
+| value | int | The thresholding. |
 
 ### getTotalPages() {#getTotalPages--}
 ```
@@ -2124,7 +2124,7 @@ public final String getXPTitle()
 
 Gets information about image, which used by Windows Explorer.
 
-Value: Information about image, used by Windows Explorer. The `XPTitle`(`\#getXPTitle`/[.setXPTitle(String)](../../null/\#setXPTitle-String-)) is ignored by Windows Explorer if the `ImageDescription`([.getImageDescription](../../null/\#getImageDescription)/[.setImageDescription(String)](../../null/\#setImageDescription-String-)) tag exists.
+Value: Information about image, used by Windows Explorer. The `XPTitle`(`\#getXPTitle`/\#setXPTitle(String).setXPTitle(String)) is ignored by Windows Explorer if the `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) tag exists.
 
 **Returns:**
 java.lang.String - information about image, which used by Windows Explorer.
@@ -2136,7 +2136,7 @@ public final void setXPTitle(String value)
 
 Sets information about image, which used by Windows Explorer.
 
-Value: Information about image, used by Windows Explorer. The `XPTitle`([.getXPTitle](../../null/\#getXPTitle)/`\#setXPTitle(String)`) is ignored by Windows Explorer if the `ImageDescription`([.getImageDescription](../../null/\#getImageDescription)/[.setImageDescription(String)](../../null/\#setImageDescription-String-)) tag exists.
+Value: Information about image, used by Windows Explorer. The `XPTitle`(\#getXPTitle.getXPTitle/`\#setXPTitle(String)`) is ignored by Windows Explorer if the `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) tag exists.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2178,7 +2178,7 @@ public final String getXPAuthor()
 
 Gets image author, which used by Windows Explorer.
 
-Value: Image Author, used by Windows Explorer. The `XPAuthor`(`\#getXPAuthor`/[.setXPAuthor(String)](../../null/\#setXPAuthor-String-)) is ignored by Windows Explorer if the `Artist`([.getArtist](../../null/\#getArtist)/[.setArtist(String)](../../null/\#setArtist-String-)) tag exists.
+Value: Image Author, used by Windows Explorer. The `XPAuthor`(`\#getXPAuthor`/\#setXPAuthor(String).setXPAuthor(String)) is ignored by Windows Explorer if the `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) tag exists.
 
 **Returns:**
 java.lang.String - image author, which used by Windows Explorer.
@@ -2190,7 +2190,7 @@ public final void setXPAuthor(String value)
 
 Sets image author, which used by Windows Explorer.
 
-Value: Image Author, used by Windows Explorer. The `XPAuthor`([.getXPAuthor](../../null/\#getXPAuthor)/`\#setXPAuthor(String)`) is ignored by Windows Explorer if the `Artist`([.getArtist](../../null/\#getArtist)/[.setArtist(String)](../../null/\#setArtist-String-)) tag exists.
+Value: Image Author, used by Windows Explorer. The `XPAuthor`(\#getXPAuthor.getXPAuthor/`\#setXPAuthor(String)`) is ignored by Windows Explorer if the `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) tag exists.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -80,7 +80,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument/otgimage/
 | [get_file_format_of_stream(stream)](#get_file_format_of_stream_stream_26) | Gets the file format. |
 | [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_27) | Gets rectangle which fits the current image. |
 | [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_28) | Gets rectangle which fits the current image. |
-| [get_original_options()](#get_original_options__29) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter. |
+| [get_original_options()](#get_original_options__29) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_30) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_31) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_32) | Converts to aps. |
@@ -781,7 +781,7 @@ Gets rectangle which fits the current image.
  get_original_options() 
 ```
 
-Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            <DOM Element: class at 0x20a547ca310>.DataStreamSupporter.save()(string) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the <DOM Element: class at 0x20a54950280>.Image.save()(string,Aspose.Imaging.ImageOptionsBase) method as the second parameter.
+Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter.
 
 **Returns**
 
@@ -1505,4 +1505,26 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 | :- | :- |
 | bool | True if _metadata_ is not null and the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance <br/>            supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
+
+## **Examples**
+### The following code snippet demonstrates how to convert an OTG image to PDF and other image formats. {#example_181}
+``` python
+
+from aspose.pycore import cast
+from aspose.imaging import Image, SizeF
+from aspose.imaging.imageoptions import PngOptions, PdfOptions, OtgRasterizationOptions
+
+dir_: str = "c:\\3567\\"
+input_file_path: str = dir_ + "VariousObjectsMultiPage.otg"
+options = [PngOptions(), PdfOptions()]
+for save_options in options:
+	extension: str = ".png" if aspycore.is_assignable(save_options, PngOptions) else ".pdf"
+	with Image.load(input_file_path) as image:
+		otg_rasterization_options = OtgRasterizationOptions()
+		otg_rasterization_options.page_size = cast(SizeF, image.size)
+		save_options.vector_rasterization_options = otg_rasterization_options
+		image.save(input_file_path + extension, save_options)
+
+
+```
 

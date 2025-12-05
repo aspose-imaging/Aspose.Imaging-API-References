@@ -22,13 +22,13 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| codec | [Jpeg2000Codec](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/) | r/w | Gets or sets the JPEG2000 codec |
+| [codec](#codec1) | [Jpeg2000Codec](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/) | r/w | Gets or sets the JPEG2000 codec |
 | comments | string[] | r/w | Gets or sets the Jpeg comment markers. |
 | compression_ratios | int[] | r/w | Gets or sets the Array of compression ratio.<br/>            Different compression ratios for successive layers.<br/>            The rate specified for each quality level is the desired<br/>            compression factor.<br/>            Decreasing ratios required. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| irreversible | bool | r/w | Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
+| [irreversible](#irreversible2) | bool | r/w | Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
 | keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
@@ -67,6 +67,28 @@ Initializes a new instance of the [Jpeg2000Options](/imaging/python-net/aspose.i
 | :- | :- | :- |
 | jpeg_2000_options | [Jpeg2000Options](/imaging/python-net/aspose.imaging.imageoptions/jpeg2000options/) | The Jpeg2000 file format options to copy settings from. |
 
+### Property: codec {#codec1}
+
+Gets or sets the JPEG2000 codec
+
+**See also:**
+
+**[Example # 1](#example_161)**: This example shows how to create a JPEG2000 image with the desired options an...
+
+**[Example # 2](#example_163)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+
+
+### Property: irreversible {#irreversible2}
+
+Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default).
+
+**See also:**
+
+**[Example # 1](#example_161)**: This example shows how to create a JPEG2000 image with the desired options an...
+
+**[Example # 2](#example_163)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+
+
 ### Method: clone() {#clone__1}
 
 
@@ -104,4 +126,64 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 | :- | :- |
 | bool | True, if the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
+
+## **Examples**
+### This example shows how to create a JPEG2000 image with the desired options and save it to a file. {#example_161}
+``` python
+
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import Jpeg2000Options
+from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Codec, Jpeg2000Image
+from os.path import join as path_join     
+
+
+dir_ = "c:\\temp"
+create_options = Jpeg2000Options()
+# Use the irreversible Discrete Wavelet Transform 9-7
+create_options.irreversible = True
+# JP2 is the "container" format for JPEG 2000 codestreams.
+# J2K is raw compressed data, without a wrapper.
+create_options.codec = Jpeg2000Codec.J2K
+# Create a JPEG2000 image of 100x100 px.
+with Jpeg2000Image(100, 100, create_options) as jpeg2000_image:
+	graphics = Graphics(jpeg2000_image)
+	# Fill the entire image in red.
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, jpeg2000_image.bounds)
+	# Save to a file
+	jpeg2000_image.save(path_join(dir_, "sample.output.j2k"))
+
+
+```
+
+### This example shows how to create a PNG image and save it to JPEG2000 with the desired options. {#example_163}
+``` python
+
+from aspose.imaging import Graphics, Color
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import Jpeg2000Options
+from aspose.imaging.fileformats.jpeg2000 import Jpeg2000Codec
+from aspose.imaging.fileformats.png import PngImage
+from os.path import join as path_join
+
+
+dir_ = "c:\\temp"
+# Create a PNG image of 100x100 px.
+with PngImage(100, 100) as png_image:
+	graphics = Graphics(png_image)
+	# Fill the entire image in red.
+	brush = SolidBrush(Color.red)
+	graphics.fill_rectangle(brush, png_image.bounds)
+	save_options = Jpeg2000Options()
+	# Use the irreversible Discrete Wavelet Transform 9-7
+	save_options.irreversible = True
+	# JP2 is the "container" format for JPEG 2000 codestreams.
+	# J2K is raw compressed data, without a wrapper.
+	save_options.codec = Jpeg2000Codec.J2K
+	# Save to a file
+	png_image.save(path_join(dir_, "output.j2k"), save_options)
+
+
+```
 

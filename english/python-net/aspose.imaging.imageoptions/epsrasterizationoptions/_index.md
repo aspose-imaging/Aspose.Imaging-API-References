@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.imageoptions/epsrasterizationoptions/
 | page_size | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r/w | Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-net/aspose.imaging/sizef/) dimensions is 0, the source image aspect ratio will be preserved. |
 | page_width | float | r/w | Gets or sets the page width.<br/>            If the value is 0, the source image aspect ratio will be preserved. |
 | positioning | [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes/) | r/w | Gets or sets the positioning. |
-| preview_to_export | [EpsPreviewFormat](/imaging/python-net/aspose.imaging.fileformats.eps/epspreviewformat/) | r/w | Use Aspose.Imaging.FileFormats.Eps.EpsImage.GetPreviewImage(Aspose.Imaging.FileFormats.Eps.EpsPreviewFormat) for preview export. |
+| preview_to_export | [EpsPreviewFormat](/imaging/python-net/aspose.imaging.fileformats.eps/epspreviewformat/) | r/w | Use [EpsImage.get_preview_image(format)](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) for preview export. |
 | smoothing_mode | [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode/) | r/w | Gets or sets the smoothing mode. |
 | text_rendering_hint | [TextRenderingHint](/imaging/python-net/aspose.imaging/textrenderinghint/) | r/w | Gets or sets the text rendering hint. |
 ## **Methods**

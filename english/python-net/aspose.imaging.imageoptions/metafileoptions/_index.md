@@ -54,9 +54,9 @@ Gets or sets a value indicating whether this [ICompressedOptions](/imaging/pytho
 
 **See also:**
 
-**[Example # 1](#example_172)**: The following example shows how to convert a emf images to emz format
+**[Example # 1](#example_191)**: The following example shows how to convert a emf images to emz format
 
-**[Example # 2](#example_173)**: The following example shows how to convert a wmf images to wmz format
+**[Example # 2](#example_192)**: The following example shows how to convert a wmf images to wmz format
 
 
 ### Method: clone() {#clone__1}
@@ -98,7 +98,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert a emf images to emz format {#example_172}
+### The following example shows how to convert a emf images to emz format {#example_191}
 ``` python
 
 from os.path import join as path_combine
@@ -121,7 +121,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a wmf images to wmz format {#example_173}
+### The following example shows how to convert a wmf images to wmz format {#example_192}
 ``` python
 
 from os.path import join as path_combine

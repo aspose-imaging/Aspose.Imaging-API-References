@@ -51,7 +51,7 @@ Initializes a new instance of the [TgaOptions](/imaging/python-net/aspose.imagin
 
 **See also:**
 
-**[Example # 1](#example_193)**: Saving of the JPG image as a TGA image.
+**[Example # 1](#example_212)**: Saving of the JPG image as a TGA image.
 
 
 ### Constructor: TgaOptions(tga_options) {#TgaOptions_tga_options_2}
@@ -108,7 +108,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_193}
+### Saving of the JPG image as a TGA image. {#example_212}
 ``` python
 
 from aspose.imaging import Image

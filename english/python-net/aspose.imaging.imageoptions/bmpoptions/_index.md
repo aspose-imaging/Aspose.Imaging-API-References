@@ -96,11 +96,11 @@ Gets or sets the compression type. The default compression type is [BitmapCompre
 
 **[Example # 2](#example_92)**: The following example creates a palettized grayscale BMP image and then saves...
 
-**[Example # 3](#example_186)**: Decompress BMP image which was previously compressed using DXT1 compression a...
+**[Example # 3](#example_205)**: Decompress BMP image which was previously compressed using DXT1 compression a...
 
-**[Example # 4](#example_201)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
+**[Example # 4](#example_222)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
 
-**[Example # 5](#example_202)**: The example shows how to export a BMP with the RGB compression type.
+**[Example # 5](#example_223)**: The example shows how to export a BMP with the RGB compression type.
 
 
 ### Method: clone() {#clone__1}
@@ -307,7 +307,7 @@ with Image.create(createOptions, 100, 100) as image:
 
 ```
 
-### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_186}
+### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_205}
 ``` python
 
 from aspose.imaging import Image
@@ -319,7 +319,7 @@ with Image.load("CompressedTiger.bmp") as image:
 
 ```
 
-### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_201}
+### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_222}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.fileformats.png import BmpOptions
@@ -346,7 +346,7 @@ with Image.load(source_path) as pngImage:
 
 ```
 
-### The example shows how to export a BMP with the RGB compression type. {#example_202}
+### The example shows how to export a BMP with the RGB compression type. {#example_223}
 ``` python
 
 from aspose.imaging import Image

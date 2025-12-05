@@ -48,7 +48,7 @@ Exif tags list
 | [SpectralSensitivity](#SpectralSensitivity) | Indicates the spectral sensitivity of each channel of the camera used. |
 | [PhotographicSensitivity](#PhotographicSensitivity) | Indicates the ISO Speed and ISO Latitude of the camera or input device as specified in ISO 12232. |
 | [OECF](#OECF) | Indicates the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
-| [ExifVersion](#ExifVersion) | The exif version. |
+| [ExifVersion](#ExifVersion) | The Exif version. |
 | [DateTimeOriginal](#DateTimeOriginal) | The date and time when the original image data was generated. |
 | [DateTimeDigitized](#DateTimeDigitized) | The date time digitized. |
 | [ComponentsConfiguration](#ComponentsConfiguration) | The components' configuration. |
@@ -140,7 +140,7 @@ Exif tags list
 | [SensitivityType](#SensitivityType) | Type of photographic sensitivity |
 | [StandardOutputSensitivity](#StandardOutputSensitivity) | Indicates standard output sensitivity of camera |
 | [RecommendedExposureIndex](#RecommendedExposureIndex) | Indicates recommended exposure index |
-| [ISOSpeed](#ISOSpeed) | Information about iso speed value as defined in ISO 12232 |
+| [ISOSpeed](#ISOSpeed) | Information about ISO speed value as defined in ISO 12232 |
 | [ISOSpeedLatitudeYYY](#ISOSpeedLatitudeYYY) | This tag indicates ISO speed latitude yyy value as defined in ISO 12232 |
 | [ISOSpeedLatitudeZZZ](#ISOSpeedLatitudeZZZ) | This tag indicates ISO speed latitude zzz value as defined in ISO 12232 |
 | [CameraOwnerName](#CameraOwnerName) | Contains camera owner name |
@@ -403,7 +403,7 @@ public static final int ExifVersion
 ```
 
 
-The exif version.
+The Exif version.
 
 ### DateTimeOriginal {#DateTimeOriginal}
 ```
@@ -1035,7 +1035,7 @@ public static final int StripOffsets
 ```
 
 
-For each strip, the byte offset of that strip. It is recommended that this be selected so the number of strip bytes does not exceed 64 Kbytes. Aux tag.
+For each strip, the byte offset of that strip. It is recommended that this be selected so the number of strip bytes does not exceed 64 KBytes. Aux tag.
 
 ### JPEGInterchangeFormat {#JPEGInterchangeFormat}
 ```
@@ -1051,7 +1051,7 @@ public static final int JPEGInterchangeFormatLength
 ```
 
 
-The number of bytes of JPEG compressed thumbnail data. This is not used for primary image JPEG data. JPEG thumbnails are not divided but are recorded as a continuous JPEG bitstream from SOI to EOI. Appn and COM markers should not be recorded. Compressed thumbnails must be recorded in no more than 64 Kbytes, including all other data to be recorded in APP1.
+The number of bytes of JPEG compressed thumbnail data. This is not used for primary image JPEG data. JPEG thumbnails are not divided but are recorded as a continuous JPEG bitstream from SOI to EOI. Appn and COM markers should not be recorded. Compressed thumbnails must be recorded in no more than 64 KBytes, including all other data to be recorded in APP1.
 
 ### ExifIfdPointer {#ExifIfdPointer}
 ```
@@ -1139,7 +1139,7 @@ public static final int ISOSpeed
 ```
 
 
-Information about iso speed value as defined in ISO 12232
+Information about ISO speed value as defined in ISO 12232
 
 ### ISOSpeedLatitudeYYY {#ISOSpeedLatitudeYYY}
 ```

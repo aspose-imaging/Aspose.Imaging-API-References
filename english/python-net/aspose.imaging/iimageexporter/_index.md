@@ -5,7 +5,7 @@ weight: 5280
 url: /python-net/aspose.imaging/iimageexporter/
 ---
 
-**Summary:** The image exporter. Can export data from internal Aspose.Imaging format to a specified data format.
+**Summary:** The image exporter. Can export data from internal `aspose.imaging` format to a specified data format.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 

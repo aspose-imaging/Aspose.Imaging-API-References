@@ -87,7 +87,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert a wmz images to wmf fromat {#example_170}
+### The following example shows how to convert a wmz images to wmf fromat {#example_189}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -108,7 +108,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a wmf images to wmz format {#example_173}
+### The following example shows how to convert a wmf images to wmz format {#example_192}
 ``` python
 
 from os.path import join as path_combine
