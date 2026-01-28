@@ -95,6 +95,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | iso_speed | int | r/w | Gets or sets ISO speed |
 | iso_speed_latitude_yyy | int | r/w | Gets or sets the ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232. |
 | iso_speed_latitude_zzz | int | r/w | Gets or sets the ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232. |
+| iso_speed_value | int | r/w | Gets or sets the iso speed value. |
 | lens_make | string | r/w | Gets or sets the maker of lens. |
 | lens_model | string | r/w | Gets or sets the lens model. |
 | lens_serial_number | string | r/w | Gets or sets the lens serial number. |

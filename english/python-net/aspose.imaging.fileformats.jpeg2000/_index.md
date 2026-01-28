@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.jpeg2000
 type: docs
-weight: 520
+weight: 540
 url: /python-net/aspose.imaging.fileformats.jpeg2000/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.complex.version
 type: docs
-weight: 1200
+weight: 1220
 url: /python-net/aspose.imaging.xmp.types.complex.version/
 ---
 

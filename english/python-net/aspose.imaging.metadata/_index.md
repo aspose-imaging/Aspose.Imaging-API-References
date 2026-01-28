@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.metadata
 type: docs
-weight: 920
+weight: 940
 url: /python-net/aspose.imaging.metadata/
 ---
 

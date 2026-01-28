@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.webp
 type: docs
-weight: 730
+weight: 750
 url: /python-net/aspose.imaging.fileformats.webp/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.tiff.pathresources
 type: docs
-weight: 710
+weight: 730
 url: /python-net/aspose.imaging.fileformats.tiff.pathresources/
 ---
 

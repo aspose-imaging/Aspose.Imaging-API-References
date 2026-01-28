@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.tiff.instancefactory
 type: docs
-weight: 700
+weight: 720
 url: /python-net/aspose.imaging.fileformats.tiff.instancefactory/
 ---
 

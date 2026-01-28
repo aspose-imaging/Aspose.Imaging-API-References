@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.watermark.options
 type: docs
-weight: 1000
+weight: 1020
 url: /python-net/aspose.imaging.watermark.options/
 ---
 

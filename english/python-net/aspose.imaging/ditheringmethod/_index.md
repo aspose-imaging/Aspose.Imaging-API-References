@@ -1,7 +1,7 @@
 ---
 title: DitheringMethod Enumeration
 type: docs
-weight: 9440
+weight: 9490
 url: /python-net/aspose.imaging/ditheringmethod/
 ---
 

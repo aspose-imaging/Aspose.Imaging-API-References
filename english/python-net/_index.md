@@ -31,6 +31,8 @@ url: /python-net/
 | [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/) | The module handles Tiff file format processing. |
 | [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/) | The module handles Tiff file format processing. |
 | [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/) | The module handles Tiff file format processing. |
+| [aspose.imaging.fileformats.core.photo](/imaging/python-net/aspose.imaging.fileformats.core.photo/) |  |
+| [aspose.imaging.fileformats.core.photo.hdr](/imaging/python-net/aspose.imaging.fileformats.core.photo.hdr/) |  |
 | [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/) | The module contains PSD Vector Paths. |
 | [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/) | The module handles Dicom file format processing |
 | [aspose.imaging.fileformats.djvu](/imaging/python-net/aspose.imaging.fileformats.djvu/) | The module contains djvu classes |

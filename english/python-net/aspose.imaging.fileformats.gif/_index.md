@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.gif
 type: docs
-weight: 480
+weight: 500
 url: /python-net/aspose.imaging.fileformats.gif/
 ---
 

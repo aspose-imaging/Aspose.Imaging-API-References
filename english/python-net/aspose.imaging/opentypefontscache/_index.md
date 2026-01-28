@@ -1,7 +1,7 @@
 ---
 title: OpenTypeFontsCache Class
 type: docs
-weight: 6700
+weight: 6750
 url: /python-net/aspose.imaging/opentypefontscache/
 ---
 

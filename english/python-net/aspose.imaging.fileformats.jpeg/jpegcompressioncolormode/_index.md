@@ -14,6 +14,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| AUTO | The automatic |
 | CMYK | 4-component CMYK image. |
 | GRAYSCALE | The Grayscale image. |
 | RGB | The RGB Color mode. |

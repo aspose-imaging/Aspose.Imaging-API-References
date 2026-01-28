@@ -1,7 +1,7 @@
 ---
 title: OdLoadOptions Class
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.imaging.imageloadoptions/odloadoptions/
 ---
 

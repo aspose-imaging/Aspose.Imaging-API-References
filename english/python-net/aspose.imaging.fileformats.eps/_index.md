@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.eps
 type: docs
-weight: 460
+weight: 480
 url: /python-net/aspose.imaging.fileformats.eps/
 ---
 

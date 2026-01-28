@@ -1,7 +1,7 @@
 ---
 title: IImageCreatorDescriptor Class
 type: docs
-weight: 5260
+weight: 5300
 url: /python-net/aspose.imaging/iimagecreatordescriptor/
 ---
 

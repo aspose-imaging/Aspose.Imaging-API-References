@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.tga
 type: docs
-weight: 650
+weight: 670
 url: /python-net/aspose.imaging.fileformats.tga/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.wmf.objects
 type: docs
-weight: 770
+weight: 790
 url: /python-net/aspose.imaging.fileformats.wmf.objects/
 ---
 

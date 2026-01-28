@@ -1,7 +1,7 @@
 ---
 title: ImageAttributes Class
 type: docs
-weight: 5620
+weight: 5660
 url: /python-net/aspose.imaging/imageattributes/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SvgLoadOptions Class
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.imaging.imageloadoptions/svgloadoptions/
 ---
 

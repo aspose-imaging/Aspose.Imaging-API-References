@@ -1,7 +1,7 @@
 ---
 title: PenType Enumeration
 type: docs
-weight: 10950
+weight: 11010
 url: /python-net/aspose.imaging/pentype/
 ---
 

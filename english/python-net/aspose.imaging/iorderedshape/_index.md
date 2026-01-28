@@ -1,7 +1,7 @@
 ---
 title: IOrderedShape Class
 type: docs
-weight: 5450
+weight: 5490
 url: /python-net/aspose.imaging/iorderedshape/
 ---
 

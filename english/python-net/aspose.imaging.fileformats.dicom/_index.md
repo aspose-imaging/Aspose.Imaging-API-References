@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.dicom
 type: docs
-weight: 280
+weight: 300
 url: /python-net/aspose.imaging.fileformats.dicom/
 ---
 

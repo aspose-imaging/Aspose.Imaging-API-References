@@ -1,7 +1,7 @@
 ---
 title: ColorAdjustType Enumeration
 type: docs
-weight: 9220
+weight: 9270
 url: /python-net/aspose.imaging/coloradjusttype/
 ---
 

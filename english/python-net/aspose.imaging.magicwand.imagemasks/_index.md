@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.magicwand.imagemasks
 type: docs
-weight: 870
+weight: 890
 url: /python-net/aspose.imaging.magicwand.imagemasks/
 ---
 

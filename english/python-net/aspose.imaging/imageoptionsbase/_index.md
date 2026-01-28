@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5720
+weight: 5760
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 

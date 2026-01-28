@@ -1,7 +1,7 @@
 ---
 title: IMetadataContainer Class
 type: docs
-weight: 5400
+weight: 5440
 url: /python-net/aspose.imaging/imetadatacontainer/
 ---
 

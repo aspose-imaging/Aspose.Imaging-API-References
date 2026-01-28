@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.emf.dtyp.commondatastructures
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/
 ---
 

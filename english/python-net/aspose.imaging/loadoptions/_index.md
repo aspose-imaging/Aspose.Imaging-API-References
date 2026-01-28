@@ -1,7 +1,7 @@
 ---
 title: LoadOptions Class
 type: docs
-weight: 5950
+weight: 6000
 url: /python-net/aspose.imaging/loadoptions/
 ---
 

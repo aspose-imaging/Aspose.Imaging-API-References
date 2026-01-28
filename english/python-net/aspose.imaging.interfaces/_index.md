@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.interfaces
 type: docs
-weight: 850
+weight: 870
 url: /python-net/aspose.imaging.interfaces/
 ---
 

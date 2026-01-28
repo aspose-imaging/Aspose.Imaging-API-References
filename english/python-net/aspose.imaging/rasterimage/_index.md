@@ -1,7 +1,7 @@
 ---
 title: RasterImage Class
 type: docs
-weight: 7010
+weight: 7060
 url: /python-net/aspose.imaging/rasterimage/
 ---
 

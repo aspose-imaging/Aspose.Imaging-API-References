@@ -11,10 +11,6 @@ url: /python-net/aspose.imaging.extensions/streamextensions/
 
 **Full Name:** aspose.imaging.extensions.StreamExtensions
 
-## **Constructors**
-| **Name** | **Description** |
-| :- | :- |
-| [StreamExtensions()](#StreamExtensions__1) | Initializes a new instance of the StreamExtensions class |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
@@ -23,15 +19,6 @@ url: /python-net/aspose.imaging.extensions/streamextensions/
 | [create_memory_stream_from_bytes(array)](#create_memory_stream_from_bytes_array_3) | Creates a MemoryStream with a given array inside. |
 | [create_memory_stream_with_size(capacity)](#create_memory_stream_with_size_capacity_4) | Creates a MemoryStream with a given capacity. |
 
-
-### Constructor: StreamExtensions() {#StreamExtensions__1}
-
-
-```
- StreamExtensions() 
-```
-
-Initializes a new instance of the StreamExtensions class
 
 ### Method: create_file_stream(path, file_mode)  [static] {#create_file_stream_path_file_mode_1}
 
