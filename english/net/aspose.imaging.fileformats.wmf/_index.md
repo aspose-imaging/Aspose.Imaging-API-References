@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Wmf
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles WMF file format processing
 type: docs
-weight: 720
+weight: 740
 url: /net/aspose.imaging.fileformats.wmf/
 ---
 The namespace handles WMF file format processing.

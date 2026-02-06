@@ -3,7 +3,7 @@ title: Class ContentAwareFillWatermarkOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Watermark.Options.ContentAwareFillWatermarkOptions class. The common Content Aware Fill Algorithm options
 type: docs
-weight: 11760
+weight: 11820
 url: /net/aspose.imaging.watermark.options/contentawarefillwatermarkoptions/
 ---
 ## ContentAwareFillWatermarkOptions class

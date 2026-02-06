@@ -3,7 +3,7 @@ title: Class OdEllipticalQundrant
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdEllipticalQundrant class. The elliptical quadrant
 type: docs
-weight: 7110
+weight: 7150
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/
 ---
 ## OdEllipticalQundrant class

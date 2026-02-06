@@ -3,7 +3,7 @@ title: Enum EmfPlusWrapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusWrapMode enum. The WrapMode enumeration defines how the pattern from a texture or gradient brush is tiled across a shape or at shape boundaries when it is smaller than the area being filled
 type: docs
-weight: 5200
+weight: 5240
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluswrapmode/
 ---
 ## EmfPlusWrapMode enumeration

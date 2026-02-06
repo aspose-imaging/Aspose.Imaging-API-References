@@ -3,7 +3,7 @@ title: Class TeleaWatermarkOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Watermark.Options.TeleaWatermarkOptions class. The common Telea Algorithm options
 type: docs
-weight: 11770
+weight: 11830
 url: /net/aspose.imaging.watermark.options/teleawatermarkoptions/
 ---
 ## TeleaWatermarkOptions class

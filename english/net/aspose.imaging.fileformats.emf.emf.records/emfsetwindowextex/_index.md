@@ -3,7 +3,7 @@ title: Class EmfSetWindowExtEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetWindowExtEx class. The EMR_SETWINDOWEXTEX record defines the window extent
 type: docs
-weight: 4620
+weight: 4660
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 ---
 ## EmfSetWindowExtEx class

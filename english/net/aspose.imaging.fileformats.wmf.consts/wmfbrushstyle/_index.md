@@ -3,7 +3,7 @@ title: Enum WmfBrushStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfBrushStyle enum. The BrushStyle Enumeration specifies the different possible brush types that can be used in graphics operations. For more information see the specification of the Brush Object section 2.2.1.1
 type: docs
-weight: 8250
+weight: 8290
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/
 ---
 ## WmfBrushStyle enumeration

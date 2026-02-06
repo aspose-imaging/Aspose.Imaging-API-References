@@ -3,7 +3,7 @@ title: Class OdNoFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdNoFillPath class. The no fill path marker
 type: docs
-weight: 7250
+weight: 7290
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath/
 ---
 ## OdNoFillPath class

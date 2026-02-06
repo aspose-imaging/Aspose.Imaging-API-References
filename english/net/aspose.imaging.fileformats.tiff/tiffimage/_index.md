@@ -3,7 +3,7 @@ title: Class TiffImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffImage class. Process Tagged Image File Format TIFF raster images with our API offering comprehensive support for various resolutions and advanced editing capabilities like EXIF data manipulation and alpha channels. Normalize angles for scanned images resize transform to grayscale and apply filters gamma corrections and image parameters adjustments with ease. Seamlessly handle multiframe TIFF files create graphics paths add shapes and effortlessly save images to different formats
 type: docs
-weight: 7990
+weight: 8030
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 ---
 ## TiffImage class

@@ -3,7 +3,7 @@ title: Interface IImageCreatorDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IImageCreatorDescriptor interface. The image creator descriptor specifying the creator properties. The creator descriptor is used to overcome the necessity to contain each image creator instance in memory and multithreading issues
 type: docs
-weight: 9620
+weight: 9660
 url: /net/aspose.imaging/iimagecreatordescriptor/
 ---
 ## IImageCreatorDescriptor interface

@@ -3,7 +3,7 @@ title: Enum EmfPlusPenAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusPenAlignment enum. The PenAlignment enumeration defines the distribution of the width of the pen with respect to the line being drawn
 type: docs
-weight: 5070
+weight: 5110
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspenalignment/
 ---
 ## EmfPlusPenAlignment enumeration

@@ -3,7 +3,7 @@ title: Class EmfScaleViewportExtex
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfScaleViewportExtex class. The EMR_SCALEVIEWPORTEXTEX record respecifies the viewport for a device context by using the ratios formed by the specified multiplicands and divisors
 type: docs
-weight: 4300
+weight: 4340
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 ## EmfScaleViewportExtex class

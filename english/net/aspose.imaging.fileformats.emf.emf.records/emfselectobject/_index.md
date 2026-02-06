@@ -3,7 +3,7 @@ title: Class EmfSelectObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectObject class. The EMR_SELECTOBJECT record adds a graphics object to the current metafile playback device context. The object is specified either by its index in the EMF Object Tablesection 3.1.1.1 or by its value from the StockObject enumerationsection 2.1.31
 type: docs
-weight: 4330
+weight: 4370
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfselectobject/
 ---
 ## EmfSelectObject class

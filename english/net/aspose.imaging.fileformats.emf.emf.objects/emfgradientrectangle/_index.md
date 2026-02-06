@@ -3,7 +3,7 @@ title: Class EmfGradientRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfGradientRectangle class. The GradientRectangle object defines a rectangle using TriVertex objects section 2.2.26 in an EMR_GRADIENTFILL record section 2.3.5.12
 type: docs
-weight: 3020
+weight: 3060
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle/
 ---
 ## EmfGradientRectangle class

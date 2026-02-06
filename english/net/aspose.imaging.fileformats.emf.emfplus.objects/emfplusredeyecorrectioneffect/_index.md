@@ -3,7 +3,7 @@ title: Class EmfPlusRedEyeCorrectionEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusRedEyeCorrectionEffect class. The RedEyeCorrectionEffect object specifies areas of an image to which a redeye correction is applied
 type: docs
-weight: 5780
+weight: 5820
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/
 ---
 ## EmfPlusRedEyeCorrectionEffect class

@@ -3,7 +3,7 @@ title: Class EmfCommentBeginGroup
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentBeginGroup class. The EMR_COMMENT_BEGINGROUP record specifies the beginning of a group of drawing records
 type: docs
-weight: 3410
+weight: 3450
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/
 ---
 ## EmfCommentBeginGroup class

@@ -3,7 +3,7 @@ title: Class EmfPlusSetTextRenderingHint
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetTextRenderingHint class. The EmfPlusSetTextRenderingHint record specifies the quality of text rendering including the type of antialiasing
 type: docs
-weight: 6470
+weight: 6510
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint/
 ---
 ## EmfPlusSetTextRenderingHint class

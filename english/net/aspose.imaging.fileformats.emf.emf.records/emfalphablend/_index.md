@@ -3,7 +3,7 @@ title: Class EmfAlphaBlend
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfAlphaBlend class. The EMR_ALPHABLEND record specifies a block transfer of pixels from a source bitmap to a destination rectangle including alpha transparency data according to a specified blending operation
 type: docs
-weight: 3250
+weight: 3290
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/
 ---
 ## EmfAlphaBlend class

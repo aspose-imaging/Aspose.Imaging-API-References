@@ -3,7 +3,7 @@ title: Enum EmfPlusPenDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusPenDataFlags enum. The PenData flags specify properties of graphics pens including the presence of optional data fields. These flags can be combined to specify multiple options
 type: docs
-weight: 5080
+weight: 5120
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspendataflags/
 ---
 ## EmfPlusPenDataFlags enumeration

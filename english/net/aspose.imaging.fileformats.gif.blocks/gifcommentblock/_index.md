@@ -3,7 +3,7 @@ title: Class GifCommentBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.Blocks.GifCommentBlock class. Gif comment block
 type: docs
-weight: 6680
+weight: 6720
 url: /net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 ---
 ## GifCommentBlock class

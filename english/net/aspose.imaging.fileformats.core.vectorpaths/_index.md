@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Core.VectorPaths
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains PSD Vector Paths
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.imaging.fileformats.core.vectorpaths/
 ---
 The namespace contains PSD Vector Paths.

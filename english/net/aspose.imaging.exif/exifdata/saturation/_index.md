@@ -3,7 +3,7 @@ title: ExifData.Saturation
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the saturation
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.imaging.exif/exifdata/saturation/
 ---
 ## ExifData.Saturation property

@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.OpenDocument.Objects.Pen
 second_title: Aspose.Imaging for .NET API Reference
 description: The Open document objects
 type: docs
-weight: 570
+weight: 590
 url: /net/aspose.imaging.fileformats.opendocument.objects.pen/
 ---
 The Open document objects

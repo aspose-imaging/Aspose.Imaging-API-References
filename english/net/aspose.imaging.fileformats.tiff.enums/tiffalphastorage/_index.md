@@ -3,7 +3,7 @@ title: Enum TiffAlphaStorage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.Enums.TiffAlphaStorage enum. Specifies the alpha storage for tiff documents
 type: docs
-weight: 7670
+weight: 7710
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/
 ---
 ## TiffAlphaStorage enumeration

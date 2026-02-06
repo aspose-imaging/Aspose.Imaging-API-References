@@ -3,7 +3,7 @@ title: Class WmfDibStrechBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfDibStrechBlt class. The META_DIBSTRETCHBLT record specifies the transfer of a block of pixels in deviceindependent format according to a raster operation with possible expansion or contraction
 type: docs
-weight: 8750
+weight: 8790
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
 ---
 ## WmfDibStrechBlt class

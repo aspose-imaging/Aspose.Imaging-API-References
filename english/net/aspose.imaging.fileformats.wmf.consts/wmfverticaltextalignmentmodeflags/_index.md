@@ -3,7 +3,7 @@ title: Enum WmfVerticalTextAlignmentModeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfVerticalTextAlignmentModeFlags enum. VerticalTextAlignmentMode Flags specify the relationship between a reference point and a bounding rectangle for text alignment. These flags can be combined to specify multiple options with the restriction that only one flag can be chosen that alters the drawing position in the playback device context. Vertical text alignment is performed when the font has a vertical default baseline such as Kanji
 type: docs
-weight: 8500
+weight: 8540
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags/
 ---
 ## WmfVerticalTextAlignmentModeFlags enumeration

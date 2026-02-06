@@ -3,7 +3,7 @@ title: Class EmfSetWindowOrgEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetWindowOrgEx class. The EMR_SETWINDOWORGEX record defines the window origin
 type: docs
-weight: 4630
+weight: 4670
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/
 ---
 ## EmfSetWindowOrgEx class

@@ -3,7 +3,7 @@ title: Enum EmfPlusRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusRecordType enum. The RecordType enumeration defines record types used in EMF metafiles
 type: docs
-weight: 5110
+weight: 5150
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/
 ---
 ## EmfPlusRecordType enumeration

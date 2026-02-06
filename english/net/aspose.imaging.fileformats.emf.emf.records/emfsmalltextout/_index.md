@@ -3,7 +3,7 @@ title: Class EmfSmallTextOut
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSmallTextOut class. The EMR_SMALLTEXTOUT record outputs a string
 type: docs
-weight: 4650
+weight: 4690
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 ---
 ## EmfSmallTextOut class

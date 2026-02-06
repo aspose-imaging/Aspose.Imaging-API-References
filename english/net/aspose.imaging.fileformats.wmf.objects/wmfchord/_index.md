@@ -3,7 +3,7 @@ title: Class WmfChord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfChord class. The META_CHORD record draws a chord which is defined by a region bounded by the intersection of an ellipse with a line segment. The chord is outlined using the pen and filled using the brush that are defined in the playback device context
 type: docs
-weight: 8620
+weight: 8660
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfchord/
 ---
 ## WmfChord class

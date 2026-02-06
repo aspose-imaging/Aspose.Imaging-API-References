@@ -3,7 +3,7 @@ title: Class EmfSetPaletteEntries
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetPaletteEntries class. The EMR_SETPALETTEENTRIES record defines RGB color values in a range of entries for an existing LogPalette section 2.2.17 object
 type: docs
-weight: 4520
+weight: 4560
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/
 ---
 ## EmfSetPaletteEntries class

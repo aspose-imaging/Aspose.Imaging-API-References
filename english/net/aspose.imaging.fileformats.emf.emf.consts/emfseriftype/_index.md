@@ -3,7 +3,7 @@ title: Enum EmfSerifType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfSerifType enum. The SerifType enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2900
+weight: 2940
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfseriftype/
 ---
 ## EmfSerifType enumeration

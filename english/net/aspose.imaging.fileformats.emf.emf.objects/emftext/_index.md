@@ -3,7 +3,7 @@ title: Class EmfText
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfText class. The EmrText object contains values for text output
 type: docs
-weight: 3210
+weight: 3250
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emftext/
 ---
 ## EmfText class

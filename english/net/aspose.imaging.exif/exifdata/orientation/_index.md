@@ -3,7 +3,7 @@ title: ExifData.Orientation
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the orientation
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.imaging.exif/exifdata/orientation/
 ---
 ## ExifData.Orientation property

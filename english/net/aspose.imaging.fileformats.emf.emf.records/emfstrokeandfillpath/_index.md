@@ -3,7 +3,7 @@ title: Class EmfStrokeAndFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfStrokeAndFillPath class. The EMR_STROKEANDFILLPATH record closes any open figures in a path strokes the outline of the path by using the current pen and fills its interior by using the current brush
 type: docs
-weight: 4690
+weight: 4730
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/
 ---
 ## EmfStrokeAndFillPath class

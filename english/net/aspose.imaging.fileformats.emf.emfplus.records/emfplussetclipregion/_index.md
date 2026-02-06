@@ -3,7 +3,7 @@ title: Class EmfPlusSetClipRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRegion class. The EmfPlusSetClipRegion record combines the current clipping region with another graphics region. The new current clipping region is set to the result of performing the CombineMode operation on the previous current clipping region and the specified EmfPlusRegion object
 type: docs
-weight: 6390
+weight: 6430
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/
 ---
 ## EmfPlusSetClipRegion class

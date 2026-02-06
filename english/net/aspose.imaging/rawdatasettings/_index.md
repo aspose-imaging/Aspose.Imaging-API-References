@@ -3,7 +3,7 @@ title: Class RawDataSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RawDataSettings class. The raw data settings
 type: docs
-weight: 11330
+weight: 11390
 url: /net/aspose.imaging/rawdatasettings/
 ---
 ## RawDataSettings class

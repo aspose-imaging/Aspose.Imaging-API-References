@@ -3,7 +3,7 @@ title: Enum WmfTernaryRasterOperationOperand
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfTernaryRasterOperationOperand enum. Each ternary raster operation code represents a Boolean operation in which the values of the pixels in the source the selected brush and the destination are combined. Following are the three operands used in these operations
 type: docs
-weight: 8480
+weight: 8520
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperationoperand/
 ---
 ## WmfTernaryRasterOperationOperand enumeration

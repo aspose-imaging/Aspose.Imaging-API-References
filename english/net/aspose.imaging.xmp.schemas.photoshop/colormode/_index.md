@@ -3,7 +3,7 @@ title: Enum ColorMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.Photoshop.ColorMode enum. Represents color mode in PhotoshopPackage
 type: docs
-weight: 11880
+weight: 11940
 url: /net/aspose.imaging.xmp.schemas.photoshop/colormode/
 ---
 ## ColorMode enumeration

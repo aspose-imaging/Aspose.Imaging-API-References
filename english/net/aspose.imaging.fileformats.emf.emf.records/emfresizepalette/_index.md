@@ -3,7 +3,7 @@ title: Class EmfResizePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfResizePalette class. The EMR_RESIZEPALETTE record increases or decreases the size of an existing LogPalette object section 2.2.17
 type: docs
-weight: 4250
+weight: 4290
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
 ---
 ## EmfResizePalette class

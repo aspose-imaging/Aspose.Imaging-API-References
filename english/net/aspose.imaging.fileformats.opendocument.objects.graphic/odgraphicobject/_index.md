@@ -3,7 +3,7 @@ title: Class OdGraphicObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdGraphicObject class. The open document graphic object
 type: docs
-weight: 7160
+weight: 7200
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/
 ---
 ## OdGraphicObject class

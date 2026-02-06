@@ -3,7 +3,7 @@ title: Enum EmfBlendFunction.AlphaFormatEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfBlendFunctionAlphaFormatEnum enum. A structure that specifies how source and destination pixels are interpreted with respect to alpha transparency
 type: docs
-weight: 3330
+weight: 3370
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction.alphaformatenum/
 ---
 ## EmfBlendFunction.AlphaFormatEnum enumeration

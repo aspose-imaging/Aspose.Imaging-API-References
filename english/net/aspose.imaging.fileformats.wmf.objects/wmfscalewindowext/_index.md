@@ -3,7 +3,7 @@ title: Class WmfScaleWindowExt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfScaleWindowExt class. The META_SCALEWINDOWEXT record scales the horizontal and vertical extents of the output window that is defined in the playback device context by using the ratios formed by specified multiplicands and divisors
 type: docs
-weight: 9130
+weight: 9170
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ---
 ## WmfScaleWindowExt class

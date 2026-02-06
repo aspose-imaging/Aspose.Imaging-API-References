@@ -3,7 +3,7 @@ title: Enum EmfPlusMetafileDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusMetafileDataType enum. The MetafileDataType enumeration defines types of metafiles data that can be embedded in an EMF metafile
 type: docs
-weight: 5000
+weight: 5040
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusmetafiledatatype/
 ---
 ## EmfPlusMetafileDataType enumeration

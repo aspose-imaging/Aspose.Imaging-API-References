@@ -3,7 +3,7 @@ title: Struct RectangleF
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RectangleF struct. Stores a set of four floatingpoint numbers that represent the location and size of a rectangle
 type: docs
-weight: 11350
+weight: 11410
 url: /net/aspose.imaging/rectanglef/
 ---
 ## RectangleF structure

@@ -3,7 +3,7 @@ title: Class OdBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Brush.OdBrush class. The open document brush
 type: docs
-weight: 6960
+weight: 7000
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odbrush/
 ---
 ## OdBrush class

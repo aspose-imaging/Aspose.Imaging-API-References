@@ -3,7 +3,7 @@ title: Class EmfCommentEmfSpool
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentEmfSpool class. The EMR_COMMENT_EMFSPOOL record contains embedded EMFSPOOL records. Note Fields that are not described in this section are specified in section 2.3.3
 type: docs
-weight: 3430
+weight: 3470
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/
 ---
 ## EmfCommentEmfSpool class

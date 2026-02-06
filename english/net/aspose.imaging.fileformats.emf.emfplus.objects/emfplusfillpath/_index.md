@@ -3,7 +3,7 @@ title: Class EmfPlusFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusFillPath class. The EmfPlusFillPath object specifies a graphics path for filling a custom line cap
 type: docs
-weight: 5510
+weight: 5550
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath/
 ---
 ## EmfPlusFillPath class

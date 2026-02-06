@@ -3,7 +3,7 @@ title: Class EmfMetafileHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfMetafileHeader class. The EMR_HEADER record types define the starting points of EMF metafiles and specify properties of the device on which the image in the metafile was created. The information in the header record makes it possible for EMF metafiles to be independent of any specific output device. The value of the Size field can be used to distinguish between the different EMR_HEADER record types listed earlier in this section. There are three possible headers The base header which is the EmfMetafileHeader record. The fixedsize part of this header is 88 bytes and it contains a Header object. The first extension header which is the EmfMetafileHeaderExtension1 record. The fixedsize part of this header is 100 bytes and it contains a Header object and a HeaderExtension1 object section 2.2.10. The second extension header which is the EmfMetafileHeaderExtension2 record. The fixedsize part of this header is 108 bytes and it contains a Header object a HeaderExtension1 object and a HeaderExtension2 object section 2.2.11
 type: docs
-weight: 3870
+weight: 3910
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/
 ---
 ## EmfMetafileHeader class

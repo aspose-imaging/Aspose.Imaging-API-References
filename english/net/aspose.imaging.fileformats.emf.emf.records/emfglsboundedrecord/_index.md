@@ -3,7 +3,7 @@ title: Class EmfGlsBoundedRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfGlsBoundedRecord class. The EMR_GLSBOUNDEDRECORD record specifies an OpenGL function with a bounding rectangle for output
 type: docs
-weight: 3800
+weight: 3840
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
 ---
 ## EmfGlsBoundedRecord class

@@ -3,7 +3,7 @@ title: Class EmfImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfImage class. The API for Enhanced Metafile Format EMF vector image format support is a comprehensive tool for processing graphical images in a deviceindependent manner while preserving their original properties. Developed to maintain proportions dimensions colors and other graphic attributes it includes EMF Plus format support and features for cropping regions resizing canvas and images rotating flipping setting image palettes exporting and importing to APS device context compressing and converting EMF to other formats ensuring versatile manipulation and seamless integration of EMF images across applications
 type: docs
-weight: 4750
+weight: 4790
 url: /net/aspose.imaging.fileformats.emf/emfimage/
 ---
 ## EmfImage class

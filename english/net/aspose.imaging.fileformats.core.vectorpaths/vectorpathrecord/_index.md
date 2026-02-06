@@ -3,7 +3,7 @@ title: Class VectorPathRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Core.VectorPaths.VectorPathRecord class. Vector Path Record Class
 type: docs
-weight: 2400
+weight: 2440
 url: /net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/
 ---
 ## VectorPathRecord class

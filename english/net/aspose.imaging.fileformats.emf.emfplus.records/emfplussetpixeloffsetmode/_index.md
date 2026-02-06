@@ -3,7 +3,7 @@ title: Class EmfPlusSetPixelOffsetMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetPixelOffsetMode class. The EmfPlusSetPixelOffsetMode record specifies how pixels are centered with respect to the coordinates of the drawing surface
 type: docs
-weight: 6440
+weight: 6480
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode/
 ---
 ## EmfPlusSetPixelOffsetMode class

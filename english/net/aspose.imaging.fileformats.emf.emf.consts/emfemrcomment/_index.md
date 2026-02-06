@@ -3,7 +3,7 @@ title: Enum EmfEmrComment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfEmrComment enum. The EmrComment enumeration defines the types of data that a public comment record can contain as specified in section 2.3.3.4
 type: docs
-weight: 2670
+weight: 2710
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfemrcomment/
 ---
 ## EmfEmrComment enumeration

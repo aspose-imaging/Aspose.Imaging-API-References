@@ -3,7 +3,7 @@ title: Class EmfPoint28To4
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfPoint28To4 class. The Point28_4 object represents the location of a point on a device surface with coordinates in 28.4 bit FIX notation
 type: docs
-weight: 3180
+weight: 3220
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 ## EmfPoint28To4 class

@@ -3,7 +3,7 @@ title: ExifData.MakerNoteRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the maker note raw data
 type: docs
-weight: 800
+weight: 810
 url: /net/aspose.imaging.exif/exifdata/makernoterawdata/
 ---
 ## ExifData.MakerNoteRawData property

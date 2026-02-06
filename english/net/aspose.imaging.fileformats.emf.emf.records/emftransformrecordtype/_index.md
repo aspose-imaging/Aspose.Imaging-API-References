@@ -3,7 +3,7 @@ title: Class EmfTransformRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfTransformRecordType class. The transform record types specify and modify worldspace to pagespace transforms
 type: docs
-weight: 4710
+weight: 4750
 url: /net/aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/
 ---
 ## EmfTransformRecordType class

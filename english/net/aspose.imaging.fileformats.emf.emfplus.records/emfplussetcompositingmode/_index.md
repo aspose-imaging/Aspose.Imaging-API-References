@@ -3,7 +3,7 @@ title: Class EmfPlusSetCompositingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingMode class. The EmfPlusSetCompositingMode record specifies how source colors are combined with background colors
 type: docs
-weight: 6400
+weight: 6440
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingmode/
 ---
 ## EmfPlusSetCompositingMode class

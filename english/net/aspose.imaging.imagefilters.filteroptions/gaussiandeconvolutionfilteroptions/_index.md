@@ -3,7 +3,7 @@ title: Class GaussianDeconvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.GaussianDeconvolutionFilterOptions class. The deconvolution filter options using Gaussian bluring
 type: docs
-weight: 10010
+weight: 10050
 url: /net/aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions/
 ---
 ## GaussianDeconvolutionFilterOptions class

@@ -3,7 +3,7 @@ title: Class EmfPlusTintEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusTintEffect class. The TintEffect object specifies an addition of black or white to a specified hue in an image
 type: docs
-weight: 5910
+weight: 5950
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/
 ---
 ## EmfPlusTintEffect class

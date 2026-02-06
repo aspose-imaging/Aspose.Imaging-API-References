@@ -3,7 +3,7 @@ title: ExifData.SpatialFrequencyResponse
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the spatial frequency response
 type: docs
-weight: 990
+weight: 1000
 url: /net/aspose.imaging.exif/exifdata/spatialfrequencyresponse/
 ---
 ## ExifData.SpatialFrequencyResponse property

@@ -3,7 +3,7 @@ title: Class OdgImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.OdgImage class. Manipulate OpenDocument Graphic ODG vector image file format with our API widely used by OpenOffice and LibreOffice Draw applications for storing drawing elements in a vector format. Seamlessly parse documents access pages resize and rotate images ensuring efficient processing and customization of ODG files to meet your specific requirements
 type: docs
-weight: 7460
+weight: 7500
 url: /net/aspose.imaging.fileformats.opendocument/odgimage/
 ---
 ## OdgImage class

@@ -3,7 +3,7 @@ title: Class EmfStrokePath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfStrokePath class. EMR_STROKEPATH class
 type: docs
-weight: 4700
+weight: 4740
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
 ---
 ## EmfStrokePath class

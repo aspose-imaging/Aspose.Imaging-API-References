@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tiff.FileManagement
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Tiff file format stream handling classes
 type: docs
-weight: 660
+weight: 680
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/
 ---
 The namespace contains Tiff file format stream handling classes.

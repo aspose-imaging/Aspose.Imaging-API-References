@@ -3,7 +3,7 @@ title: Enum EmfPlusInterpolationMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusInterpolationMode enum. The InterpolationMode enumeration defines ways to perform scaling including stretching and shrinking
 type: docs
-weight: 4950
+weight: 4990
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusinterpolationmode/
 ---
 ## EmfPlusInterpolationMode enumeration

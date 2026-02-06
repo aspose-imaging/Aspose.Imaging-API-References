@@ -3,7 +3,7 @@ title: Class EmfPolyPolyline16
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyPolyline16 class. The EMR_POLYPOLYLINE16 record specifies multiple series of connected line segments
 type: docs
-weight: 4120
+weight: 4160
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/
 ---
 ## EmfPolyPolyline16 class

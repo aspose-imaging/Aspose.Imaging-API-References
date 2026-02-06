@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Png
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Png file format processing
 type: docs
-weight: 590
+weight: 610
 url: /net/aspose.imaging.fileformats.png/
 ---
 The namespace handles Png file format processing.

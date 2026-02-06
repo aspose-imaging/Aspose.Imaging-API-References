@@ -3,7 +3,7 @@ title: Class EmfModifyWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfModifyWorldTransform class. The EMR_MODIFYWORLDTRANSFORM record modifies the current worldspace to pagespace transform in the playback device context
 type: docs
-weight: 3900
+weight: 3940
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/
 ---
 ## EmfModifyWorldTransform class

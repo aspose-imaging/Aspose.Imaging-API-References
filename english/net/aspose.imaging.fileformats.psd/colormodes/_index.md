@@ -3,7 +3,7 @@ title: Enum ColorModes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Psd.ColorModes enum. Represents the PSD file format color modes
 type: docs
-weight: 7530
+weight: 7570
 url: /net/aspose.imaging.fileformats.psd/colormodes/
 ---
 ## ColorModes enumeration

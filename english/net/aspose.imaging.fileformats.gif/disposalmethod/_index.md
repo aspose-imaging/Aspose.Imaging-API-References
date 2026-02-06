@@ -3,7 +3,7 @@ title: Enum DisposalMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.DisposalMethod enum. Indicates the way in which the graphic is to be treated after being displayed
 type: docs
-weight: 6730
+weight: 6770
 url: /net/aspose.imaging.fileformats.gif/disposalmethod/
 ---
 ## DisposalMethod enumeration

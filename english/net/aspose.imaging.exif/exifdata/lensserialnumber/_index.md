@@ -3,7 +3,7 @@ title: ExifData.LensSerialNumber
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the lens serial number
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.imaging.exif/exifdata/lensserialnumber/
 ---
 ## ExifData.LensSerialNumber property

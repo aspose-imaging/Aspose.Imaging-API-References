@@ -3,7 +3,7 @@ title: Enum EmfMapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfMapMode enum. The MapMode enumeration is used to define the unit of measure for transforming page space units into device space units and for defining the orientation of the drawing axes
 type: docs
-weight: 2790
+weight: 2830
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/
 ---
 ## EmfMapMode enumeration

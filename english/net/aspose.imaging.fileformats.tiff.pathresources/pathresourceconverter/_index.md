@@ -3,7 +3,7 @@ title: Class PathResourceConverter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.PathResources.PathResourceConverter class. Converts PathResource to GraphicsPath and vice versa
 type: docs
-weight: 7950
+weight: 7990
 url: /net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/
 ---
 ## PathResourceConverter class

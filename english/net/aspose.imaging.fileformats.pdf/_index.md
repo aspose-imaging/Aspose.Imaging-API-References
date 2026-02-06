@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Pdf
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes for PDF file format integration
 type: docs
-weight: 580
+weight: 600
 url: /net/aspose.imaging.fileformats.pdf/
 ---
 The namespace contains classes for PDF file format integration.

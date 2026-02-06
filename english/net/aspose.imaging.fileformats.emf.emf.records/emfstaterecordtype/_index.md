@@ -3,7 +3,7 @@ title: Class EmfStateRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfStateRecordType class. The state record types specify and manage graphics properties that define the state of the playback device context
 type: docs
-weight: 4660
+weight: 4700
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype/
 ---
 ## EmfStateRecordType class

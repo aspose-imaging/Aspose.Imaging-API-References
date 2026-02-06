@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSEMFPLUS Enhanced Metafile Format Plus Extensions 2.1 EMF Constants
 type: docs
-weight: 390
+weight: 410
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/
 ---
 The namespace contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.1 EMF+ Constants

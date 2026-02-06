@@ -3,7 +3,7 @@ title: Class EmfHeaderExtension2
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfHeaderExtension2 class. The HeaderExtension2 object defines the second extension to the EMF metafile header. It adds the ability to measure device surfaces in micrometers which enhances the resolution and scalability of EMF metafiles
 type: docs
-weight: 3050
+weight: 3090
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension2/
 ---
 ## EmfHeaderExtension2 class

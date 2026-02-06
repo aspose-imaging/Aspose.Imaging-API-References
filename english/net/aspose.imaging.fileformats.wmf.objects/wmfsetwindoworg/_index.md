@@ -3,7 +3,7 @@ title: Class WmfSetWindowOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetWindowOrg class. The set window org object
 type: docs
-weight: 9370
+weight: 9410
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
 ---
 ## WmfSetWindowOrg class

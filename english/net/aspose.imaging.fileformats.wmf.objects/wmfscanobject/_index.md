@@ -3,7 +3,7 @@ title: Class WmfScanObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfScanObject class. The Scan Object specifies a collection of scanlines
 type: docs
-weight: 9140
+weight: 9180
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/
 ---
 ## WmfScanObject class

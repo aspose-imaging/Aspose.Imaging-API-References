@@ -3,7 +3,7 @@ title: Class WmfFloodFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfFloodFill class. The META_FLOODFILL record fills an area of the output surface with the brush that is defined in the playback device context
 type: docs
-weight: 8830
+weight: 8870
 url: /net/aspose.imaging.fileformats.wmf.objects/wmffloodfill/
 ---
 ## WmfFloodFill class

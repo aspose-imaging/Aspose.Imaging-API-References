@@ -3,7 +3,7 @@ title: Class WmfCreateFontInDirect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateFontInDirect class. The Create font
 type: docs
-weight: 8660
+weight: 8700
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/
 ---
 ## WmfCreateFontInDirect class

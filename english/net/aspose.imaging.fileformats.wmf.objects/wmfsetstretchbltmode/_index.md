@@ -3,7 +3,7 @@ title: Class WmfSetStretchbltMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetStretchbltMode class. The META_SETSTRETCHBLTMODE record defines the bitmap stretching mode in the playback device context
 type: docs
-weight: 9290
+weight: 9330
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 ## WmfSetStretchbltMode class

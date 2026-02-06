@@ -3,7 +3,7 @@ title: Class SvgGraphics2D
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Svg.Graphics.SvgGraphics2D class. Provides drawing commmands to compose an Svg image
 type: docs
-weight: 7590
+weight: 7630
 url: /net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/
 ---
 ## SvgGraphics2D class

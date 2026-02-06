@@ -3,7 +3,7 @@ title: Class EmfLogBrushEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogBrushEx class. The LogBrushEx object defines the style color and pattern of a deviceindependent brush
 type: docs
-weight: 3070
+weight: 3110
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/
 ---
 ## EmfLogBrushEx class

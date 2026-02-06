@@ -3,7 +3,7 @@ title: Class XmpChoiseT
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Derived.XmpChoise1T class. Represents a value from vocabulary of values
 type: docs
-weight: 12230
+weight: 12290
 url: /net/aspose.imaging.xmp.types.derived/xmpchoise-1/
 ---
 ## XmpChoise&lt;T&gt; class

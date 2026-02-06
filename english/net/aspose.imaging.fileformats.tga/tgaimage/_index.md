@@ -3,7 +3,7 @@ title: Class TgaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tga.TgaImage class. Manipulate TGA raster image files with our API tailored for the TARGA Truevision Advanced Raster Adapter format enabling seamless loading and customization. Easily update public properties such as author timestamp image ID and software version while using various bits per pixel settings alpha channel and color transparency. Additionally you can export TGA images to other popular raster formats ensuring compatibility for your projects
 type: docs
-weight: 7650
+weight: 7690
 url: /net/aspose.imaging.fileformats.tga/tgaimage/
 ---
 ## TgaImage class

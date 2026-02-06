@@ -3,7 +3,7 @@ title: Enum EmfRenderMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfRenderMode enum. The emf render mode
 type: docs
-weight: 6550
+weight: 6590
 url: /net/aspose.imaging.fileformats.emf/emfrendermode/
 ---
 ## EmfRenderMode enumeration

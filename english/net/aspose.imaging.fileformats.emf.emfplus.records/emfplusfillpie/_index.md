@@ -3,7 +3,7 @@ title: Class EmfPlusFillPie
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie class. The EmfPlusFillPie record specifies filling a section of the interior of an ellipse
 type: docs
-weight: 6170
+weight: 6210
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/
 ---
 ## EmfPlusFillPie class

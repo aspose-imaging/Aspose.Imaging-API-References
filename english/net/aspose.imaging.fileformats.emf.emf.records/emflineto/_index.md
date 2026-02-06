@@ -3,7 +3,7 @@ title: Class EmfLineTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfLineTo class. The EMR_LINETO record specifies a line from the current position up to but not including the specified point.It resets the current position to the specified point
 type: docs
-weight: 3850
+weight: 3890
 url: /net/aspose.imaging.fileformats.emf.emf.records/emflineto/
 ---
 ## EmfLineTo class

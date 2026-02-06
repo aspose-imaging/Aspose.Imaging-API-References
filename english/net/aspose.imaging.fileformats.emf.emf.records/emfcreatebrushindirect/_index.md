@@ -3,7 +3,7 @@ title: Class EmfCreateBrushIndirect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateBrushIndirect class. The EMR_CREATEBRUSHINDIRECT record defines a logical brush for graphics operations
 type: docs
-weight: 3520
+weight: 3560
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/
 ---
 ## EmfCreateBrushIndirect class

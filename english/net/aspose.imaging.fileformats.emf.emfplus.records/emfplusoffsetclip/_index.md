@@ -3,7 +3,7 @@ title: Class EmfPlusOffsetClip
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusOffsetClip class. The EmfPlusOffsetClip record applies a translation transform on the current clipping region for the world space. The new current clipping region is set to the result of the translation transform
 type: docs
-weight: 6260
+weight: 6300
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip/
 ---
 ## EmfPlusOffsetClip class

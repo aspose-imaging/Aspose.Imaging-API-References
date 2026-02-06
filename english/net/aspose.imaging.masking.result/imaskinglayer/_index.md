@@ -3,7 +3,7 @@ title: Interface IMaskingLayer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Result.IMaskingLayer interface. Masking layer
 type: docs
-weight: 11010
+weight: 11070
 url: /net/aspose.imaging.masking.result/imaskinglayer/
 ---
 ## IMaskingLayer interface

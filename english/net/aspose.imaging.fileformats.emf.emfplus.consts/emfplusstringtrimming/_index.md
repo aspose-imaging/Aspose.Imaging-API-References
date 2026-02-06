@@ -3,7 +3,7 @@ title: Enum EmfPlusStringTrimming
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusStringTrimming enum. The StringTrimming enumeration defines how to trim characters from a string that is too large for the text layout rectangle
 type: docs
-weight: 5170
+weight: 5210
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringtrimming/
 ---
 ## EmfPlusStringTrimming enumeration

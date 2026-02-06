@@ -99,6 +99,7 @@ public class ExifData : TiffDataTypeController, IImageMetadataFormat
 | [ISOSpeed](../../aspose.imaging.exif/exifdata/isospeed/) { get; set; } | Gets or sets ISO speed |
 | [ISOSpeedLatitudeYYY](../../aspose.imaging.exif/exifdata/isospeedlatitudeyyy/) { get; set; } | Gets or sets the ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232. |
 | [ISOSpeedLatitudeZZZ](../../aspose.imaging.exif/exifdata/isospeedlatitudezzz/) { get; set; } | Gets or sets the ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232. |
+| [ISOSpeedValue](../../aspose.imaging.exif/exifdata/isospeedvalue/) { get; set; } | Gets or sets the iso speed value. |
 | [LensMake](../../aspose.imaging.exif/exifdata/lensmake/) { get; set; } | Gets or sets the maker of lens. |
 | [LensModel](../../aspose.imaging.exif/exifdata/lensmodel/) { get; set; } | Gets or sets the lens model. |
 | [LensSerialNumber](../../aspose.imaging.exif/exifdata/lensserialnumber/) { get; set; } | Gets or sets the lens serial number. |

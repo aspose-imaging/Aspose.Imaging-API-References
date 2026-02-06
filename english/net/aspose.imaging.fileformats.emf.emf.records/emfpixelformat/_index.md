@@ -3,7 +3,7 @@ title: Class EmfPixelFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPixelFormat class. The EMR_PIXELFORMAT record specifies the pixel format to use for graphics operations
 type: docs
-weight: 4000
+weight: 4040
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 ## EmfPixelFormat class

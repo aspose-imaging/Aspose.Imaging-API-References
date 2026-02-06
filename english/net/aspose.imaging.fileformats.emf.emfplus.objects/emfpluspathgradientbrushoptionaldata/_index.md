@@ -3,7 +3,7 @@ title: Class EmfPlusPathGradientBrushOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPathGradientBrushOptionalData class. The EmfPlusPathGradientBrushOptionalData object specifies optional data for a path gradient brush
 type: docs
-weight: 5710
+weight: 5750
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/
 ---
 ## EmfPlusPathGradientBrushOptionalData class

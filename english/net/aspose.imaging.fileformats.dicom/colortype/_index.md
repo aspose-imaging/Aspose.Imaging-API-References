@@ -3,7 +3,7 @@ title: Enum ColorType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.ColorType enum. The type of the color
 type: docs
-weight: 2430
+weight: 2470
 url: /net/aspose.imaging.fileformats.dicom/colortype/
 ---
 ## ColorType enumeration

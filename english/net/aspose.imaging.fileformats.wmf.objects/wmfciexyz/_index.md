@@ -3,7 +3,7 @@ title: Struct WmfCieXyz
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCieXyz struct. The CIEXYZ Object defines information about the CIEXYZ chromaticity object
 type: docs
-weight: 8630
+weight: 8670
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfciexyz/
 ---
 ## WmfCieXyz structure

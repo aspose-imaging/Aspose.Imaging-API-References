@@ -3,7 +3,7 @@ title: Class WmfPie
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfPie class. The META_PIE record draws a pieshaped wedge bounded by the intersection of an ellipse and two radials. The pie is outlined by using the pen and filled by using the brush that are defined in the playback device context
 type: docs
-weight: 8980
+weight: 9020
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 ---
 ## WmfPie class

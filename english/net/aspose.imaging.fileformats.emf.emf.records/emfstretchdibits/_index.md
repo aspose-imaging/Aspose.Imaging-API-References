@@ -3,7 +3,7 @@ title: Class EmfStretchDiBits
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfStretchDiBits class. The EMR_STRETCHDIBITS record specifies a block transfer of pixels from a source bitmap to a destination rectangle optionally in combination with a brush pattern according to a specified raster operation stretching or compressing the output to fit the dimensions of the destination if necessary
 type: docs
-weight: 4680
+weight: 4720
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/
 ---
 ## EmfStretchDiBits class

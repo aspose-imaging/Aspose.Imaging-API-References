@@ -3,7 +3,7 @@ title: Enum FontStoreType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Svg.FontStoreType enum. The font store type
 type: docs
-weight: 7570
+weight: 7610
 url: /net/aspose.imaging.fileformats.svg/fontstoretype/
 ---
 ## FontStoreType enumeration

@@ -3,7 +3,7 @@ title: Class EmfHeaderExtension1
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfHeaderExtension1 class. The HeaderExtension1 object defines the first extension to the EMF metafile header. It adds support for a PixelFormatDescriptor object section 2.2.22 and OpenGL OPENGL records section 2.3.9
 type: docs
-weight: 3040
+weight: 3080
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/
 ---
 ## EmfHeaderExtension1 class

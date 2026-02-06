@@ -3,7 +3,7 @@ title: Class EmfPlusLanguageIdentifier
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusLanguageIdentifier class. The EmfPlusLanguageIdentifier object specifies a language identifier that corresponds to the natural language in a locale including countries geographical regions and administrative districts. Each language identifier is an encoding of a primary language value and sublanguage value
 type: docs
-weight: 5610
+weight: 5650
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/
 ---
 ## EmfPlusLanguageIdentifier class

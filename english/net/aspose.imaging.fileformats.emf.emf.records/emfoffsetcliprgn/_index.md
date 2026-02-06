@@ -3,7 +3,7 @@ title: Class EmfOffsetClipRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfOffsetClipRgn class. The EMR_OFFSETCLIPRGN record moves the current clipping region in the playback device context by the specified offsets
 type: docs
-weight: 3950
+weight: 3990
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
 ---
 ## EmfOffsetClipRgn class

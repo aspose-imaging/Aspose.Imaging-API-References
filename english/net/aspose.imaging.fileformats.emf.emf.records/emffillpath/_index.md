@@ -3,7 +3,7 @@ title: Class EmfFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfFillPath class. The EMR_FILLPATH record closes any open figures in the current path and fills the paths interior by using the current brush and polygonfilling mode
 type: docs
-weight: 3750
+weight: 3790
 url: /net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 ## EmfFillPath class

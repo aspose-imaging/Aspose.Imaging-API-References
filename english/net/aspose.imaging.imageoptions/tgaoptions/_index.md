@@ -3,7 +3,7 @@ title: Class TgaOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TgaOptions class. The TGA file format create options
 type: docs
-weight: 10530
+weight: 10590
 url: /net/aspose.imaging.imageoptions/tgaoptions/
 ---
 ## TgaOptions class

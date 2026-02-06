@@ -3,7 +3,7 @@ title: Class WmfPaintRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfPaintRegion class. The META_PAINTREGION record paints the specified region by using the brush that is defined in the playback device context
 type: docs
-weight: 8960
+weight: 9000
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpaintregion/
 ---
 ## WmfPaintRegion class

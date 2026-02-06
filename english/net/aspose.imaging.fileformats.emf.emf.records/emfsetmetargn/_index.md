@@ -3,7 +3,7 @@ title: Class EmfSetMetaRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetMetaRgn class. Inter sets the current meta region with the current clipping region to form a new meta region for the playback device context. The current clipping region SHOULD be reset to null. This EMF record specifies no parameters
 type: docs
-weight: 4500
+weight: 4540
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 ---
 ## EmfSetMetaRgn class

@@ -3,7 +3,7 @@ title: Class ImageMask
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ImageMasks.ImageMask class. Describes a binary image mask
 type: docs
-weight: 10820
+weight: 10880
 url: /net/aspose.imaging.magicwand.imagemasks/imagemask/
 ---
 ## ImageMask class

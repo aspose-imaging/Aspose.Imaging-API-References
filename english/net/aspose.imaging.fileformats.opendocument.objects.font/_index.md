@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.OpenDocument.Objects.Font
 second_title: Aspose.Imaging for .NET API Reference
 description: The Open document objects
 type: docs
-weight: 550
+weight: 570
 url: /net/aspose.imaging.fileformats.opendocument.objects.font/
 ---
 The Open document objects

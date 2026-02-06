@@ -3,7 +3,7 @@ title: Class EmfTriVertex
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfTriVertex class. The TriVertex object specifies color and position information for the definition of a rectangle or triangle vertex
 type: docs
-weight: 3220
+weight: 3260
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
 ---
 ## EmfTriVertex class

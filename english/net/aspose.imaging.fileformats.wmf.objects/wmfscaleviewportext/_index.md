@@ -3,7 +3,7 @@ title: Class WmfScaleViewportExt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfScaleViewportExt class. The META_SCALEVIEWPORTEXT record scales the horizontal and vertical extents of the viewport that is defined in the playback device context by using the ratios formed by the specified multiplicands and divisors
 type: docs
-weight: 9120
+weight: 9160
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfscaleviewportext/
 ---
 ## WmfScaleViewportExt class

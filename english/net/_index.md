@@ -39,6 +39,8 @@ is_root: true
 | [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Enums](./aspose.imaging.fileformats.cmx.objectmodel.enums/) | The namespace handles Tiff file format processing. |
 | [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs](./aspose.imaging.fileformats.cmx.objectmodel.specs/) | The namespace handles Tiff file format processing. |
 | [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles](./aspose.imaging.fileformats.cmx.objectmodel.styles/) | The namespace handles Tiff file format processing. |
+| [Aspose.Imaging.FileFormats.Core.Photo](./aspose.imaging.fileformats.core.photo/) | The namespace Photo for photo processing modules |
+| [Aspose.Imaging.FileFormats.Core.Photo.Hdr](./aspose.imaging.fileformats.core.photo.hdr/) | The namespace HDR for hdr processing modules |
 | [Aspose.Imaging.FileFormats.Core.VectorPaths](./aspose.imaging.fileformats.core.vectorpaths/) | The namespace contains PSD Vector Paths. |
 | [Aspose.Imaging.FileFormats.Dicom](./aspose.imaging.fileformats.dicom/) | The namespace handles Dicom file format processin |
 | [Aspose.Imaging.FileFormats.Djvu](./aspose.imaging.fileformats.djvu/) | The namespace contains djvu classes |

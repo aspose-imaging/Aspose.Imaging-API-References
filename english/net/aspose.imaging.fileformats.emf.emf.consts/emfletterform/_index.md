@@ -3,7 +3,7 @@ title: Enum EmfLetterform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfLetterform enum. The Letterform enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2770
+weight: 2810
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfletterform/
 ---
 ## EmfLetterform enumeration

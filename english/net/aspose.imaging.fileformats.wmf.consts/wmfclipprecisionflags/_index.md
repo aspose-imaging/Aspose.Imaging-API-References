@@ -3,7 +3,7 @@ title: Enum WmfClipPrecisionFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfClipPrecisionFlags enum. ClipPrecision Flags specify clipping precision which defines how to clip characters that are partially outside a clipping region. These flags can be combined to specify multiple options
 type: docs
-weight: 8270
+weight: 8310
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/
 ---
 ## WmfClipPrecisionFlags enumeration

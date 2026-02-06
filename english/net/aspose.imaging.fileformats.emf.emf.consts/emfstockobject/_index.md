@@ -3,7 +3,7 @@ title: Enum EmfStockObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfStockObject enum. The StockObject enumeration specifies the indexes of predefined logical graphics objects that can be used in graphics operations.The specific structures of stock objects are implementationdependent however the properties of stock objects SHOULD be equivalent to the properties of explicitly created objects of the same type. These properties are specified where possible for the stock objects defined in this enumeration
 type: docs
-weight: 2910
+weight: 2950
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstockobject/
 ---
 ## EmfStockObject enumeration

@@ -3,7 +3,7 @@ title: Class EmfPlusColorLookupTableEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusColorLookupTableEffect class. The ColorLookupTableEffect object specifies adjustments to the colors in an image
 type: docs
-weight: 5390
+weight: 5430
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/
 ---
 ## EmfPlusColorLookupTableEffect class

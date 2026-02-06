@@ -3,7 +3,7 @@ title: Class WmfTextOut
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfTextOut class. The META_EXTTEXTOUT record outputs text by using the font background color and text color that are defined in the playback device context. Optionally dimensions can be provided for clipping opaquing or both
 type: docs
-weight: 9400
+weight: 9440
 url: /net/aspose.imaging.fileformats.wmf.objects/wmftextout/
 ---
 ## WmfTextOut class

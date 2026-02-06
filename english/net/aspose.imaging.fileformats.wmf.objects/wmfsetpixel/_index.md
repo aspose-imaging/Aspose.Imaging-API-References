@@ -3,7 +3,7 @@ title: Class WmfSetPixel
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetPixel class. The META_SETPIXEL record sets the pixel at the specified coordinates to the specified color
 type: docs
-weight: 9250
+weight: 9290
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetpixel/
 ---
 ## WmfSetPixel class

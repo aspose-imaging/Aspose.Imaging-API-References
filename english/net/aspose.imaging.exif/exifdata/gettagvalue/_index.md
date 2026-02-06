@@ -3,7 +3,7 @@ title: ExifData.GetTagValue
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData method. Gets the tag value
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.imaging.exif/exifdata/gettagvalue/
 ---
 ## ExifData.GetTagValue method

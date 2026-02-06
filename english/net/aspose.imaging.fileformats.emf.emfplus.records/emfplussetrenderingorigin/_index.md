@@ -3,7 +3,7 @@ title: Class EmfPlusSetRenderingOrigin
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetRenderingOrigin class. The EmfPlusSetRenderingOrigin record specifies the rendering origin for graphics output
 type: docs
-weight: 6450
+weight: 6490
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin/
 ---
 ## EmfPlusSetRenderingOrigin class

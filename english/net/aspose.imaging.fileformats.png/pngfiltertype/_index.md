@@ -3,7 +3,7 @@ title: Enum PngFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Png.PngFilterType enum. The png filter type
 type: docs
-weight: 7510
+weight: 7550
 url: /net/aspose.imaging.fileformats.png/pngfiltertype/
 ---
 ## PngFilterType enumeration

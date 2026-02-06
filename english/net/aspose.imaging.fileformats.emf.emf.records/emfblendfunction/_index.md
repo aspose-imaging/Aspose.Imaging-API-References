@@ -3,7 +3,7 @@ title: Struct EmfBlendFunction
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfBlendFunction struct. A structure that specifies the blending operations for source and destination bitmaps
 type: docs
-weight: 3320
+weight: 3360
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
 ---
 ## EmfBlendFunction structure

@@ -3,7 +3,7 @@ title: Class WmfDibBitBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfDibBitBlt class. The META_DIBBITBLT record specifies the transfer of a block of pixels in deviceindependent format according to a raster operation
 type: docs
-weight: 8730
+weight: 8770
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/
 ---
 ## WmfDibBitBlt class

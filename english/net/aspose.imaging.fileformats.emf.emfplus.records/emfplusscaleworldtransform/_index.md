@@ -3,7 +3,7 @@ title: Class EmfPlusScaleWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform class. The EmfPlusScaleWorldTransform record performs a scaling on the current world space transform
 type: docs
-weight: 6340
+weight: 6380
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/
 ---
 ## EmfPlusScaleWorldTransform class

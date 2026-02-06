@@ -3,7 +3,7 @@ title: Class JpegLsPresetCodingParameters
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Jpeg.JpegLsPresetCodingParameters class. Defines the JPEGLS preset coding parameters as defined in ISO/IEC 144951 C.2.4.1.1. JPEGLS defines a default set of parameters but custom parameters can be used. When used these parameters are written into the encoded bit stream as they are needed for the decoding process
 type: docs
-weight: 6860
+weight: 6900
 url: /net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/
 ---
 ## JpegLsPresetCodingParameters class

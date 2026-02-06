@@ -3,7 +3,7 @@ title: Class EmfPlusDrawEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawEllipse class. The EmfPlusDrawEllipse record specifies drawing an ellipse
 type: docs
-weight: 6030
+weight: 6070
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/
 ---
 ## EmfPlusDrawEllipse class

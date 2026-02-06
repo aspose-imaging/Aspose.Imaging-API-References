@@ -3,7 +3,7 @@ title: Class EmfPlusPenData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPenData class. The EmfPlusPenData object specifies properties of a graphics pen
 type: docs
-weight: 5750
+weight: 5790
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/
 ---
 ## EmfPlusPenData class

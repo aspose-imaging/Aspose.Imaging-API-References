@@ -3,7 +3,7 @@ title: Class EmfLogFontExDv
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFontExDv class. The LogFontExDv object specifies the design vector for an extended logical font
 type: docs
-weight: 3100
+weight: 3140
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/
 ---
 ## EmfLogFontExDv class

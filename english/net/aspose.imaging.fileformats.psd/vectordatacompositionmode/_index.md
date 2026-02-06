@@ -3,7 +3,7 @@ title: Enum VectorDataCompositionMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Psd.VectorDataCompositionMode enum. Defines the vector data composition mode that is used on export from vector formats to PSD
 type: docs
-weight: 7560
+weight: 7600
 url: /net/aspose.imaging.fileformats.psd/vectordatacompositionmode/
 ---
 ## VectorDataCompositionMode enumeration

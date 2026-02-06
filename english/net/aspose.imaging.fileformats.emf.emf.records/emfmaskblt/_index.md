@@ -3,7 +3,7 @@ title: Class EmfMaskBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfMaskBlt class. The EMR_MASKBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle optionally in combination with a brush pattern and with the application of a color mask bitmap according to specified foreground and background raster operations
 type: docs
-weight: 3860
+weight: 3900
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/
 ---
 ## EmfMaskBlt class

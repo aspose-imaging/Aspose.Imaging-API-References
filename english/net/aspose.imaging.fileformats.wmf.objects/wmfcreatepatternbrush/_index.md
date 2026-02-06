@@ -3,7 +3,7 @@ title: Class WmfCreatePatternBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreatePatternBrush class. The META_CREATEPATTERNBRUSH record creates a brush object with a pattern specified by a bitmap
 type: docs
-weight: 8680
+weight: 8720
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/
 ---
 ## WmfCreatePatternBrush class

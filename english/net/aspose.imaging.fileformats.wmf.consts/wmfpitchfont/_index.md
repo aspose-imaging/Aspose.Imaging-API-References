@@ -3,7 +3,7 @@ title: Enum WmfPitchFont
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfPitchFont enum. The PitchFont enumeration defines values that are used for specifying characteristics of a font. The values are used to indicate whether the characters in a font have a fixed or variable width or pitch
 type: docs
-weight: 8420
+weight: 8460
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpitchfont/
 ---
 ## WmfPitchFont enumeration

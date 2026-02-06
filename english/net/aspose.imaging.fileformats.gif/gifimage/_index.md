@@ -3,7 +3,7 @@ title: Class GifImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.GifImage class. The API for Graphical Interchange Format GIF image file provides developers with versatile tools for processing compressed raster images and animated GIFs. Offering features like XMP metadata handling color palette settings background and transparent color control opacity settings resize crop filter application gamma corrections contrast adjustment grayscale transformation and conversion to other formats. This API empowers seamless manipulation and enhancement of GIF images for a wide range of applications
 type: docs
-weight: 6760
+weight: 6800
 url: /net/aspose.imaging.fileformats.gif/gifimage/
 ---
 ## GifImage class

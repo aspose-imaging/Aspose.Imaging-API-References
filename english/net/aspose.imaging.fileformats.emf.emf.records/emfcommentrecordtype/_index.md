@@ -3,7 +3,7 @@ title: Class EmfCommentRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentRecordType class. The comment record types define formats for specifying arbitrary private data embedding records in other metafile formats and adding new or specialpurpose commands
 type: docs
-weight: 3480
+weight: 3520
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/
 ---
 ## EmfCommentRecordType class

@@ -3,7 +3,7 @@ title: Class EmfVertexData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfVertexData class. Objects that specify the vertexes of either rectangles or triangles and the colors that correspond to them
 type: docs
-weight: 4730
+weight: 4770
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfvertexdata/
 ---
 ## EmfVertexData class

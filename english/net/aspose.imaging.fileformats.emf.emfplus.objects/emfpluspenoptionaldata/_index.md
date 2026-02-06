@@ -3,7 +3,7 @@ title: Class EmfPlusPenOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPenOptionalData class. The EmfPlusPenOptionalData object specifies optional data for a graphics pen
 type: docs
-weight: 5760
+weight: 5800
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/
 ---
 ## EmfPlusPenOptionalData class

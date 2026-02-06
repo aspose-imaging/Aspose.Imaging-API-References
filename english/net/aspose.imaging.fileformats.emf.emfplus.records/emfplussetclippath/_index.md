@@ -3,7 +3,7 @@ title: Class EmfPlusSetClipPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipPath class. The EmfPlusSetClipPath record combines the current clipping region with a graphics path. The new current clipping region is set to the result of the CombineMode operation
 type: docs
-weight: 6370
+weight: 6410
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/
 ---
 ## EmfPlusSetClipPath class

@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Emf.Emf.Consts
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSEMF Enhanced Metafile Format. 2.1 EMF Enumerations
 type: docs
-weight: 360
+weight: 380
 url: /net/aspose.imaging.fileformats.emf.emf.consts/
 ---
 The namespace contains types [MS-EMF]: Enhanced Metafile Format. 2.1 EMF Enumerations

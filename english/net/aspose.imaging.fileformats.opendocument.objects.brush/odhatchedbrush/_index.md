@@ -3,7 +3,7 @@ title: Class OdHatchedBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Brush.OdHatchedBrush class. The Hatched brush
 type: docs
-weight: 6990
+weight: 7030
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/
 ---
 ## OdHatchedBrush class

@@ -3,7 +3,7 @@ title: Class EmfPlusSetWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetWorldTransform class. The EmfPlusSetWorldTransform record sets the world transform according to the values in a specified transform matrix
 type: docs
-weight: 6500
+weight: 6540
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetworldtransform/
 ---
 ## EmfPlusSetWorldTransform class

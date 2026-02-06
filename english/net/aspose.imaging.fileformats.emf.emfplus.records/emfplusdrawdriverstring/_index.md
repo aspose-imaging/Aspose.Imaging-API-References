@@ -3,7 +3,7 @@ title: Class EmfPlusDrawDriverString
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawDriverString class. The EmfPlusDrawDriverString record specifies text output with character positions
 type: docs
-weight: 6020
+weight: 6060
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/
 ---
 ## EmfPlusDrawDriverString class

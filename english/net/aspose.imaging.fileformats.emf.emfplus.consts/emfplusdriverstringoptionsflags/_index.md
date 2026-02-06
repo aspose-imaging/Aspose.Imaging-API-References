@@ -3,7 +3,7 @@ title: Enum EmfPlusDriverStringOptionsFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusDriverStringOptionsFlags enum. The DriverStringOptions flags specify properties of graphics text positioning and rendering. These flags can be combined to specify multiple options
 type: docs
-weight: 4870
+weight: 4910
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdriverstringoptionsflags/
 ---
 ## EmfPlusDriverStringOptionsFlags enumeration

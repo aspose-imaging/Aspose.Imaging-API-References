@@ -3,7 +3,7 @@ title: Class EmfPlusBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBrush class. The EmfPlusBrush object specifies a graphics brush for filling regions
 type: docs
-weight: 5350
+weight: 5390
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/
 ---
 ## EmfPlusBrush class

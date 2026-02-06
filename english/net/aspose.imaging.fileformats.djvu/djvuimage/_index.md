@@ -3,7 +3,7 @@ title: Class DjvuImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Djvu.DjvuImage class. DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books integrating text drawings images and photos into a single format. Supporting multipage operations you can efficiently access unique document identifiers count pages set active pages and retrieve specific document pages. With features for resizing rotating dithering cropping grayscale transformation gamma corrections adjustments and filters application this class empowers precise manipulation and enhancement of DjVu images to meet diverse application needs with ease and precision
 type: docs
-weight: 2490
+weight: 2530
 url: /net/aspose.imaging.fileformats.djvu/djvuimage/
 ---
 ## DjvuImage class

@@ -3,7 +3,7 @@ title: Class EmfTransparentBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfTransparentBlt class. The EMR_TRANSPARENTBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle treating a specified color as transparent stretching or compressing the output to fit the dimensions of the destination if necessary
 type: docs
-weight: 4720
+weight: 4760
 url: /net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
 ---
 ## EmfTransparentBlt class

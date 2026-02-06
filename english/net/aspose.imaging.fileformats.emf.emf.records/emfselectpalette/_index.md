@@ -3,7 +3,7 @@ title: Class EmfSelectPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectPalette class. The EMR_SELECTPALETTE record specifies a logical palette for the playback device context
 type: docs
-weight: 4340
+weight: 4380
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
 ---
 ## EmfSelectPalette class

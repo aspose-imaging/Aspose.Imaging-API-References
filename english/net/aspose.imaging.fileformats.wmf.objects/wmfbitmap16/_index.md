@@ -3,7 +3,7 @@ title: Class WmfBitmap16
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfBitmap16 class. The Bitmap16 Object specifies information about the dimensions and color format of a bitmap
 type: docs
-weight: 8580
+weight: 8620
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
 ---
 ## WmfBitmap16 class

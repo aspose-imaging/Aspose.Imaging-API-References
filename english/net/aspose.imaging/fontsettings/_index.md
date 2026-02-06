@@ -3,7 +3,7 @@ title: Class FontSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FontSettings class. General imaging vector formats renderer font settings
 type: docs
-weight: 9480
+weight: 9520
 url: /net/aspose.imaging/fontsettings/
 ---
 ## FontSettings class

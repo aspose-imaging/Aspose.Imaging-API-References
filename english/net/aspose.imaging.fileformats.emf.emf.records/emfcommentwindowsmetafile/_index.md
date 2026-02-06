@@ -3,7 +3,7 @@ title: Class EmfCommentWindowsMetaFile
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentWindowsMetaFile class. The EMR_COMMENT_WINDOWS_METAFILE record specifies an image in an embedded WMF metafile
 type: docs
-weight: 3500
+weight: 3540
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/
 ---
 ## EmfCommentWindowsMetaFile class

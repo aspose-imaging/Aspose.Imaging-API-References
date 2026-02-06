@@ -3,7 +3,7 @@ title: Class PngOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.PngOptions class. Create highquality Portable Network Graphics PNG raster images effortlessly with our API offering customizable options for compression levels bits per pixel depths and alpha bits. Seamlessly process XMP metadata containers ensuring comprehensive image metadata management and empowering you to tailor PNG images to your exact specifications with ease
 type: docs
-weight: 10440
+weight: 10500
 url: /net/aspose.imaging.imageoptions/pngoptions/
 ---
 ## PngOptions class

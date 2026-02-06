@@ -3,7 +3,7 @@ title: Class DxfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.DxfOptions class. API for Drawing Interchange Format DXF vector image creation offers tailored solutions for generating AutoCAD drawing files with precision and flexibility. Designed specifically for working with text lines and Bezier curves developers can efficiently manipulate these elements count Bezier points and convert curves into polylines for seamless exporting ensuring compatibility and fidelity in DXF vector images
 type: docs
-weight: 10240
+weight: 10300
 url: /net/aspose.imaging.imageoptions/dxfoptions/
 ---
 ## DxfOptions class

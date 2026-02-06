@@ -3,7 +3,7 @@ title: Class EmfSetColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetColorSpace class. The EMR_SETCOLORSPACE record defines the current logical color space object for graphics operations
 type: docs
-weight: 4400
+weight: 4440
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/
 ---
 ## EmfSetColorSpace class

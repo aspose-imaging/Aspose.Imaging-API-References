@@ -3,7 +3,7 @@ title: Enum EmfPlusStringFormatFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusStringFormatFlags enum. The StringFormat flags specify options for graphics text layout including direction clipping and font handling. These flags can be combined to specify multiple options
 type: docs
-weight: 5160
+weight: 5200
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringformatflags/
 ---
 ## EmfPlusStringFormatFlags enumeration

@@ -3,7 +3,7 @@ title: Class Font
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Font class. Defines a particular format for text including font face size and style attributes. This class cannot be inherited
 type: docs
-weight: 9470
+weight: 9510
 url: /net/aspose.imaging/font/
 ---
 ## Font class

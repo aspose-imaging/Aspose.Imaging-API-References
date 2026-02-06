@@ -3,7 +3,7 @@ title: Class EmfExtCreateFontIndirectW
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExtCreateFontIndirectW class. The EMR_EXTCREATEFONTINDIRECTW record defines a logical font for graphics operations
 type: docs
-weight: 3680
+weight: 3720
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/
 ---
 ## EmfExtCreateFontIndirectW class

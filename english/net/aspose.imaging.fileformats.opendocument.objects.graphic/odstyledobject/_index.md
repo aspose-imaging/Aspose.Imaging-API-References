@@ -3,7 +3,7 @@ title: Class OdStyledObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdStyledObject class. The open document styled graphic object
 type: docs
-weight: 7330
+weight: 7370
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/
 ---
 ## OdStyledObject class

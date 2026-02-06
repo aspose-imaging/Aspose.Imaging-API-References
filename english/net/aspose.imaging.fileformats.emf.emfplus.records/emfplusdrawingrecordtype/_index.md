@@ -3,7 +3,7 @@ title: Class EmfPlusDrawingRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawingRecordType class. The drawing record types specify graphics output
 type: docs
-weight: 6110
+weight: 6150
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawingrecordtype/
 ---
 ## EmfPlusDrawingRecordType class

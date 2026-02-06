@@ -3,7 +3,7 @@ title: Enum WmfMixMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfMixMode enum. The MixMode Enumeration specifies the background mix mode for text hatched brushes and other nonsolid pen styles
 type: docs
-weight: 8390
+weight: 8430
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmixmode/
 ---
 ## WmfMixMode enumeration

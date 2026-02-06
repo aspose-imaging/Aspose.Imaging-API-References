@@ -3,7 +3,7 @@ title: Class EmfSetIcmMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetIcmMode class. The EMR_SETICMMODE record specifies the mode of Image Color Management ICM for graphics operations
 type: docs
-weight: 4420
+weight: 4460
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 ---
 ## EmfSetIcmMode class

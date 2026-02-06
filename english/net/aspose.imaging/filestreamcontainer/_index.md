@@ -3,7 +3,7 @@ title: Class FileStreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileStreamContainer class. Helper for file stream processing
 type: docs
-weight: 9440
+weight: 9480
 url: /net/aspose.imaging/filestreamcontainer/
 ---
 ## FileStreamContainer class

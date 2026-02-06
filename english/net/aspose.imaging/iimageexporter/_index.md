@@ -3,7 +3,7 @@ title: Interface IImageExporter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IImageExporter interface. The image exporter. Can export data from internal Aspose.Imaging format to a specified data format
 type: docs
-weight: 9640
+weight: 9680
 url: /net/aspose.imaging/iimageexporter/
 ---
 ## IImageExporter interface

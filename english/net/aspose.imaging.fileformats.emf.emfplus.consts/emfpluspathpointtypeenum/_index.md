@@ -3,7 +3,7 @@ title: Enum EmfPlusPathPointTypeEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusPathPointTypeEnum enum. The PathPointType enumeration defines types of points on a graphics path
 type: docs
-weight: 5050
+weight: 5090
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointtypeenum/
 ---
 ## EmfPlusPathPointTypeEnum enumeration

@@ -3,7 +3,7 @@ title: Class WmfSetTextJustification
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetTextJustification class. The META_SETTEXTJUSTIFICATION record defines the amount of space to add to break characters in a string of justified text
 type: docs
-weight: 9330
+weight: 9370
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 ---
 ## WmfSetTextJustification class

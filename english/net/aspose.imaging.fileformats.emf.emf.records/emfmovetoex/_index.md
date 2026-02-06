@@ -3,7 +3,7 @@ title: Class EmfMoveToEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfMoveToEx class. The EMR_MOVETOEX record specifies coordinates of the new current position in logical units
 type: docs
-weight: 3910
+weight: 3950
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/
 ---
 ## EmfMoveToEx class

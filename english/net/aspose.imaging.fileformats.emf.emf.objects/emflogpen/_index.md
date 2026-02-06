@@ -3,7 +3,7 @@ title: Class EmfLogPen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogPen class. The LogPen object defines the style width and color of a logical pen
 type: docs
-weight: 3130
+weight: 3170
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/
 ---
 ## EmfLogPen class

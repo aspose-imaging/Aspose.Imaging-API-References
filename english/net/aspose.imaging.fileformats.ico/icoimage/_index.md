@@ -3,7 +3,7 @@ title: Class IcoImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Ico.IcoImage class. Effortlessly manipulate ICO image files with our API supporting various file formats and frame types including PNG and BMP. Customize bits per pixel settings and update image dimensions seamlessly ensuring optimal representation and compatibility for your icons across different platforms
 type: docs
-weight: 6790
+weight: 6830
 url: /net/aspose.imaging.fileformats.ico/icoimage/
 ---
 ## IcoImage class

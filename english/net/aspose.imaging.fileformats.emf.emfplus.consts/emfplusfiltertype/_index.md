@@ -3,7 +3,7 @@ title: Enum EmfPlusFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusFilterType enum. The FilterType enumeration defines types of filtering algorithms that can be used for text and graphics quality enhancement and image rendering
 type: docs
-weight: 4880
+weight: 4920
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfiltertype/
 ---
 ## EmfPlusFilterType enumeration

@@ -3,7 +3,7 @@ title: Class GifGraphicsControlBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.Blocks.GifGraphicsControlBlock class. Gif graphics control block
 type: docs
-weight: 6700
+weight: 6740
 url: /net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
 ---
 ## GifGraphicsControlBlock class

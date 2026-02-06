@@ -3,7 +3,7 @@ title: Class EmfSetTextAlign
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetTextAlign class. The EMR_SETTEXTALIGN record specifies text alignment
 type: docs
-weight: 4570
+weight: 4610
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 ---
 ## EmfSetTextAlign class

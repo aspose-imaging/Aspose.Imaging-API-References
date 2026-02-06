@@ -3,7 +3,7 @@ title: Class WmfBitBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfBitBlt class. The META_BITBLT record specifies the transfer of a block of pixels according to a raster operation. The destination of the transfer is the current output region in the playback device context
 type: docs
-weight: 8570
+weight: 8610
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfbitblt/
 ---
 ## WmfBitBlt class

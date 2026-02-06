@@ -3,7 +3,7 @@ title: Enum EmfHatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfHatchStyle enum. The HatchStyle enumeration is an extension to the WMF HatchStyle enumeration MSWMF section 2.1.1.12
 type: docs
-weight: 2740
+weight: 2780
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfhatchstyle/
 ---
 ## EmfHatchStyle enumeration

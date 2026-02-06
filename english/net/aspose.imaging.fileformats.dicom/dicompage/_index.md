@@ -3,7 +3,7 @@ title: Class DicomPage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dicom.DicomPage class. It is class for work with DICOM files of the type multi frame
 type: docs
-weight: 2480
+weight: 2520
 url: /net/aspose.imaging.fileformats.dicom/dicompage/
 ---
 ## DicomPage class

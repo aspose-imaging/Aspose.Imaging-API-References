@@ -3,7 +3,7 @@ title: Class EmfRestoreDc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRestoreDc class. The EMR_RESTOREDC record restores the playback device context to the specified state. The playback device context is restored by popping state information off a stack that was created by prior EMR_SAVEDC records section 2.3.11
 type: docs
-weight: 4260
+weight: 4300
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/
 ---
 ## EmfRestoreDc class

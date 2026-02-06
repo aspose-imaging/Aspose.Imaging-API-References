@@ -3,7 +3,7 @@ title: Enum EmfWeight
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfWeight enum. The Weight enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2940
+weight: 2980
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfweight/
 ---
 ## EmfWeight enumeration

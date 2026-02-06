@@ -3,7 +3,7 @@ title: Class EpsLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Eps.EpsLoadOptions class. The EpsImage load options
 type: docs
-weight: 6640
+weight: 6680
 url: /net/aspose.imaging.fileformats.eps/epsloadoptions/
 ---
 ## EpsLoadOptions class

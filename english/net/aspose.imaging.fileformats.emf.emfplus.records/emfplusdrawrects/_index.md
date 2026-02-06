@@ -3,7 +3,7 @@ title: Class EmfPlusDrawRects
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawRects class. The EmfPlusDrawRects record specifies drawing a series of rectangles
 type: docs
-weight: 6090
+weight: 6130
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/
 ---
 ## EmfPlusDrawRects class

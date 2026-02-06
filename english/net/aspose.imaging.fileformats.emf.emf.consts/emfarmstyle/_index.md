@@ -3,7 +3,7 @@ title: Enum EmfArmStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfArmStyle enum. The ArmStyle enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2600
+weight: 2640
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfarmstyle/
 ---
 ## EmfArmStyle enumeration

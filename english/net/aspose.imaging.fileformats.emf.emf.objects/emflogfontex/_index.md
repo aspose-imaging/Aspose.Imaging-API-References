@@ -3,7 +3,7 @@ title: Class EmfLogFontEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFontEx class. The LogFontEx object specifies the extended attributes of a logical font
 type: docs
-weight: 3090
+weight: 3130
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/
 ---
 ## EmfLogFontEx class

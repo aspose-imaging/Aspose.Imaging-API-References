@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Emf.Emf.Records
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSEMF Enhanced Metafile Format. 2.3 EMF Records
 type: docs
-weight: 380
+weight: 400
 url: /net/aspose.imaging.fileformats.emf.emf.records/
 ---
 The namespace contains types [MS-EMF]: Enhanced Metafile Format. 2.3 EMF Records

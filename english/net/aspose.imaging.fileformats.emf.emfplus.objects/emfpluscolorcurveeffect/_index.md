@@ -3,7 +3,7 @@ title: Class EmfPlusColorCurveEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusColorCurveEffect class. The ColorCurveEffect object specifies one of eight adjustments to the color curve of an image
 type: docs
-weight: 5380
+weight: 5420
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorcurveeffect/
 ---
 ## EmfPlusColorCurveEffect class

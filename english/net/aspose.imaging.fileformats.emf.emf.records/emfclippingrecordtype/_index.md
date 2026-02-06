@@ -3,7 +3,7 @@ title: Class EmfClippingRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfClippingRecordType class. The clipping record types specify and manage clipping regions. Note The EMR_SETMETARGN record does not specify parameters
 type: docs
-weight: 3360
+weight: 3400
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfclippingrecordtype/
 ---
 ## EmfClippingRecordType class

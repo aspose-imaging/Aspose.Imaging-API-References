@@ -3,7 +3,7 @@ title: Class WmfRealizePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfRealizePalette class. The META_REALIZEPALETTE record maps entries from the logical palette that is defined in the playback device context to the system palette
 type: docs
-weight: 9040
+weight: 9080
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfrealizepalette/
 ---
 ## WmfRealizePalette class

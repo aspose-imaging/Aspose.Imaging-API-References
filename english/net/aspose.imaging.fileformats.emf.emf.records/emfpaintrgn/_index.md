@@ -3,7 +3,7 @@ title: Class EmfPaintRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPaintRgn class. The EMR_PAINTRGN record paints the specified region by using the brush currently selected into the playback device context
 type: docs
-weight: 3970
+weight: 4010
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/
 ---
 ## EmfPaintRgn class

@@ -3,7 +3,7 @@ title: ExifData.MakerNoteData
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets the maker note data
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.imaging.exif/exifdata/makernotedata/
 ---
 ## ExifData.MakerNoteData property

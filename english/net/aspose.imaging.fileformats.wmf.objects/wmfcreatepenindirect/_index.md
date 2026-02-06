@@ -3,7 +3,7 @@ title: Class WmfCreatePenInDirect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreatePenInDirect class. The create pen in direct
 type: docs
-weight: 8690
+weight: 8730
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 ---
 ## WmfCreatePenInDirect class

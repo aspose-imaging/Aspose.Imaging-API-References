@@ -3,7 +3,7 @@ title: Enum EmfPlusStringDigitSubstitution
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusStringDigitSubstitution enum. The StringDigitSubstitution enumeration defines ways to substitute digits in a string according to a users locale or language
 type: docs
-weight: 5150
+weight: 5190
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/
 ---
 ## EmfPlusStringDigitSubstitution enumeration

@@ -3,7 +3,7 @@ title: Enum WmfRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfRecordType enum. wmf Record type
 type: docs
-weight: 8460
+weight: 8500
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfrecordtype/
 ---
 ## WmfRecordType enumeration

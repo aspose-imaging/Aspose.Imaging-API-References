@@ -3,7 +3,7 @@ title: Class WmfCreateRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateRegion class. The META_CREATEREGION record creates a Region Object section 2.2.1.5
 type: docs
-weight: 8700
+weight: 8740
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreateregion/
 ---
 ## WmfCreateRegion class

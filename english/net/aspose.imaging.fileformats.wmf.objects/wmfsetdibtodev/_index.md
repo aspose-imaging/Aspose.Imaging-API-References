@@ -3,7 +3,7 @@ title: Class WmfSetDibToDev
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetDibToDev class. The META_SETDIBTODEV record sets a block of pixels in the playback device context using deviceindependent color data. The source of the color data is a DIB
 type: docs
-weight: 9200
+weight: 9240
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 ---
 ## WmfSetDibToDev class

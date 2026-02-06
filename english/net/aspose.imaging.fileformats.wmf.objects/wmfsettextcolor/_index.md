@@ -3,7 +3,7 @@ title: Class WmfSetTextColor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetTextColor class. The Set text color
 type: docs
-weight: 9320
+weight: 9360
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/
 ---
 ## WmfSetTextColor class

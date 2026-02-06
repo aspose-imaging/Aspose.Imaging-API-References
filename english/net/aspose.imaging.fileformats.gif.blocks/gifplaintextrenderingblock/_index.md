@@ -3,7 +3,7 @@ title: Class GifPlainTextRenderingBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.Blocks.GifPlainTextRenderingBlock class. Gif plain text extension block. The plain text extension contains textual data and the parameters necessary to render that data as a graphic in a simple form
 type: docs
-weight: 6710
+weight: 6750
 url: /net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
 ---
 ## GifPlainTextRenderingBlock class

@@ -3,7 +3,7 @@ title: Enum WmfPolyFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfPolyFillMode enum. The PolyFillMode Enumeration specifies the method used for filling a polygon
 type: docs
-weight: 8430
+weight: 8470
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/
 ---
 ## WmfPolyFillMode enumeration

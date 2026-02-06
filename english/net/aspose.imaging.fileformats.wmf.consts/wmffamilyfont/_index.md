@@ -3,7 +3,7 @@ title: Enum WmfFamilyFont
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfFamilyFont enum. The FamilyFont enumeration specifies the font family. Font families describe the look of a font in a general way. They are intended for specifying fonts when the exact typeface desired is not available
 type: docs
-weight: 8300
+weight: 8340
 url: /net/aspose.imaging.fileformats.wmf.consts/wmffamilyfont/
 ---
 ## WmfFamilyFont enumeration

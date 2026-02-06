@@ -3,7 +3,7 @@ title: Class EmfPixelFormatDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfPixelFormatDescriptor class. The PixelFormatDescriptor object can be used in EMR_HEADER records section 2.3.4.2 to specify the pixel format of the output surface for the playback device context
 type: docs
-weight: 3170
+weight: 3210
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/
 ---
 ## EmfPixelFormatDescriptor class

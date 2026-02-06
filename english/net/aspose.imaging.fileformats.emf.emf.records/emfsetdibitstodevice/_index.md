@@ -3,7 +3,7 @@ title: Class EmfSetDiBitsToDevice
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetDiBitsToDevice class. The EMR_SETDIBITSTODEVICE record specifies a block transfer of pixels from specified scan lines of a source bitmap to a destination rectangle
 type: docs
-weight: 4410
+weight: 4450
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
 ---
 ## EmfSetDiBitsToDevice class

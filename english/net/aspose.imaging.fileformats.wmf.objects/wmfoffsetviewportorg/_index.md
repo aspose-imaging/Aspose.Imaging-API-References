@@ -3,7 +3,7 @@ title: Class WmfOffsetViewPortOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfOffsetViewPortOrg class. The META_OFFSETVIEWPORTORG record moves the viewport origin in the playback device context by specified horizontal and vertical offsets
 type: docs
-weight: 8940
+weight: 8980
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfoffsetviewportorg/
 ---
 ## WmfOffsetViewPortOrg class

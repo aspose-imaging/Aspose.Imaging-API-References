@@ -3,7 +3,7 @@ title: Class EmfPlusHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader class. The EmfPlusHeader record specifies the start of EMF data in the metafile. The EmfPlusHeader record MUST be embedded in an EMF EMR_COMMENT_EMFPLUS record which MUST be the record immediately following the EMF header in the metafile. The EMR_COMMENT_EMFPLUS record is specified in MSEMF section 2.3.3.2
 type: docs
-weight: 6220
+weight: 6260
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/
 ---
 ## EmfPlusHeader class

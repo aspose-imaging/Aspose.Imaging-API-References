@@ -3,7 +3,7 @@ title: Class EmfPlusEndOfFile
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndOfFile class. The EmfPlusEndOfFile record specifies the end of EMF data in the metafile
 type: docs
-weight: 6130
+weight: 6170
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendoffile/
 ---
 ## EmfPlusEndOfFile class

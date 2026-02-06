@@ -3,7 +3,7 @@ title: Class EmfObjectCreationRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfObjectCreationRecordType class. The object creation record types create graphics objects
 type: docs
-weight: 3930
+weight: 3970
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfobjectcreationrecordtype/
 ---
 ## EmfObjectCreationRecordType class

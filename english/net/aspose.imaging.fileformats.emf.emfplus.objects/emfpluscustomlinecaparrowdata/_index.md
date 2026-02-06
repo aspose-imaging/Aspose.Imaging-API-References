@@ -3,7 +3,7 @@ title: Class EmfPlusCustomLineCapArrowData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomLineCapArrowData class. The EmfPlusCustomLineCapArrowData object specifies adjustable arrow data for a custom line cap
 type: docs
-weight: 5460
+weight: 5500
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/
 ---
 ## EmfPlusCustomLineCapArrowData class

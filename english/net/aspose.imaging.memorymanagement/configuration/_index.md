@@ -3,7 +3,7 @@ title: Class Configuration
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MemoryManagement.Configuration class. The memory management global configuration
 type: docs
-weight: 11050
+weight: 11110
 url: /net/aspose.imaging.memorymanagement/configuration/
 ---
 ## Configuration class

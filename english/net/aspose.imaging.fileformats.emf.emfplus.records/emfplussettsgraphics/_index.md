@@ -3,7 +3,7 @@ title: Class EmfPlusSetTsGraphics
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetTsGraphics class. The EmfPlusSetTSGraphics record specifies the state of a graphics device context for a terminal server
 type: docs
-weight: 6490
+weight: 6530
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/
 ---
 ## EmfPlusSetTsGraphics class

@@ -3,7 +3,7 @@ title: Class EmfPlusStringFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusStringFormat class. The EmfPlusStringFormat object specifies text layout display manipulations and language identification
 type: docs
-weight: 5860
+weight: 5900
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/
 ---
 ## EmfPlusStringFormat class

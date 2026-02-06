@@ -3,7 +3,7 @@ title: Enum EmfMidLine
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfMidLine enum. The MidLine enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2810
+weight: 2850
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmidline/
 ---
 ## EmfMidLine enumeration

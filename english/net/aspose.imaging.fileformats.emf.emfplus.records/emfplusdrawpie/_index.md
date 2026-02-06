@@ -3,7 +3,7 @@ title: Class EmfPlusDrawPie
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawPie class. The EmfPlusDrawPie record specifies drawing a section of the interior of an ellipse
 type: docs
-weight: 6080
+weight: 6120
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/
 ---
 ## EmfPlusDrawPie class

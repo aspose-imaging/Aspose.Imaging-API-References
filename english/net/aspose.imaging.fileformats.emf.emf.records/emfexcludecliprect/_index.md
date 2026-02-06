@@ -3,7 +3,7 @@ title: Class EmfExcludeClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExcludeClipRect class. The EMR_EXCLUDECLIPRECT record specifies a new clipping region that consists of the existing clipping region minus the specified rectangle. Note Fields that are not described in this section are specified in section 2.3.2
 type: docs
-weight: 3670
+weight: 3710
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/
 ---
 ## EmfExcludeClipRect class

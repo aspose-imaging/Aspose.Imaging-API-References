@@ -3,7 +3,7 @@ title: Enum ColorType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.Colorant.ColorType enum. Type of color
 type: docs
-weight: 12080
+weight: 12140
 url: /net/aspose.imaging.xmp.types.complex.colorant/colortype/
 ---
 ## ColorType enumeration

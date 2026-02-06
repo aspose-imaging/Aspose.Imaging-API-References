@@ -3,7 +3,7 @@ title: Class EmfSetColorAdjustment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetColorAdjustment class. The EMR_SETCOLORADJUSTMENT record specifies color adjustment properties in the playback device context
 type: docs
-weight: 4390
+weight: 4430
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/
 ---
 ## EmfSetColorAdjustment class

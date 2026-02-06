@@ -3,7 +3,7 @@ title: Class BmpOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.BmpOptions class. The API for BMP and DIB raster image format creation options provides developers with a versatile toolset for generating custom Bitmap BMP and Device Independent Bitmap DIB images. With this API you can precisely define image characteristics such as bits per pixel compression level and compression type tailoring the output to meet specific requirements. This featurerich API empowers developers to create highquality customized raster images with ease and flexibility for diverse applications
 type: docs
-weight: 10190
+weight: 10250
 url: /net/aspose.imaging.imageoptions/bmpoptions/
 ---
 ## BmpOptions class

@@ -3,7 +3,7 @@ title: Enum EmfGraphicsMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfGraphicsMode enum. The GraphicsMode enumeration is used to specify how to interpret shape data such as rectangle coordinates
 type: docs
-weight: 2730
+weight: 2770
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfgraphicsmode/
 ---
 ## EmfGraphicsMode enumeration

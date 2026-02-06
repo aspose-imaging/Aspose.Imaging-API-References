@@ -3,7 +3,7 @@ title: Class EmfPlusBlurEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBlurEffect class. The BlurEffect object specifies a decrease in the difference in intensity between pixels in an image
 type: docs
-weight: 5300
+weight: 5340
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/
 ---
 ## EmfPlusBlurEffect class

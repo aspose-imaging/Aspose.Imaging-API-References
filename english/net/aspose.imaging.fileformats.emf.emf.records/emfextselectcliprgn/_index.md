@@ -3,7 +3,7 @@ title: Class EmfExtSelectClipRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExtSelectClipRgn class. The EMR_EXTSELECTCLIPRGN record combines the specified region with the current clip region using the specified mode. Note Fields that are not described in this section are specified in section 2.3.2
 type: docs
-weight: 3720
+weight: 3760
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/
 ---
 ## EmfExtSelectClipRgn class

@@ -3,7 +3,7 @@ title: Enum EmfCommentRecordType.CommentIdentifierEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentRecordTypeCommentIdentifierEnum enum. Valid comment identifier values
 type: docs
-weight: 3490
+weight: 3530
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype.commentidentifierenum/
 ---
 ## EmfCommentRecordType.CommentIdentifierEnum enumeration

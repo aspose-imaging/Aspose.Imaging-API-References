@@ -3,7 +3,7 @@ title: Enum EmfPlusLineCapType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusLineCapType enum. The LineCapType enumeration defines types of line caps to use at the ends of lines that are drawn with graphics pens
 type: docs
-weight: 4970
+weight: 5010
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinecaptype/
 ---
 ## EmfPlusLineCapType enumeration

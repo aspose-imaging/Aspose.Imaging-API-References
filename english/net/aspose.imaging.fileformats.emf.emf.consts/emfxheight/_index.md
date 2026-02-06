@@ -3,7 +3,7 @@ title: Enum EmfXHeight
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfXHeight enum. The XHeight enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2950
+weight: 2990
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfxheight/
 ---
 ## EmfXHeight enumeration

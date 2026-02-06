@@ -3,7 +3,7 @@ title: Enum EmfStrokeVariation
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfStrokeVariation enum. The StrokeVariation enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces
 type: docs
-weight: 2930
+weight: 2970
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstrokevariation/
 ---
 ## EmfStrokeVariation enumeration

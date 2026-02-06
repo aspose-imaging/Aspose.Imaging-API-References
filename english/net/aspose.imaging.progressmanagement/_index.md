@@ -3,7 +3,7 @@ title: Aspose.Imaging.ProgressManagement
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains progress handler classes
 type: docs
-weight: 940
+weight: 960
 url: /net/aspose.imaging.progressmanagement/
 ---
 The namespace contains progress handler classes

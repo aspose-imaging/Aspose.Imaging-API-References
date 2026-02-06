@@ -3,7 +3,7 @@ title: Enum EpsPreviewFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Eps.EpsPreviewFormat enum. The EpsImage preview image formats
 type: docs
-weight: 6660
+weight: 6700
 url: /net/aspose.imaging.fileformats.eps/epspreviewformat/
 ---
 ## EpsPreviewFormat enumeration

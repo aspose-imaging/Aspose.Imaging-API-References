@@ -3,7 +3,7 @@ title: Class EmfPlusSetAntiAliasMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetAntiAliasMode class. The EmfPlusSetAntiAliasMode record specifies the antialiasing mode for text output
 type: docs
-weight: 6360
+weight: 6400
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/
 ---
 ## EmfPlusSetAntiAliasMode class

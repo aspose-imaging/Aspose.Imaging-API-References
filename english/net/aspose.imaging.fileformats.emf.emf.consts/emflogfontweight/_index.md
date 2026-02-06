@@ -3,7 +3,7 @@ title: Enum EmfLogFontWeight
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfLogFontWeight enum. The EmfLogFont Weight
 type: docs
-weight: 2780
+weight: 2820
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emflogfontweight/
 ---
 ## EmfLogFontWeight enumeration

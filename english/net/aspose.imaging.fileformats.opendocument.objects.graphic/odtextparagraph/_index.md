@@ -3,7 +3,7 @@ title: Class OdTextParagraph
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdTextParagraph class. The text paragraph
 type: docs
-weight: 7370
+weight: 7410
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextparagraph/
 ---
 ## OdTextParagraph class

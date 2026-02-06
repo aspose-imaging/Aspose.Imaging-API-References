@@ -3,7 +3,7 @@ title: Enum EmfPlusLineStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusLineStyle enum. The LineStyle enumeration defines styles of lines that are drawn with graphics pens
 type: docs
-weight: 4990
+weight: 5030
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinestyle/
 ---
 ## EmfPlusLineStyle enumeration

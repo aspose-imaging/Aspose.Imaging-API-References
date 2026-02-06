@@ -3,7 +3,7 @@ title: Enum EmfExtTextOutOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfExtTextOutOptions enum. The ExtTextOutOptions enumeration specifies parameters that control various aspects of the output of text by EMR_SMALLTEXTOUTsection 2.3.5.37 records and in EmrText objects
 type: docs
-weight: 2680
+weight: 2720
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfexttextoutoptions/
 ---
 ## EmfExtTextOutOptions enumeration

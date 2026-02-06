@@ -3,7 +3,7 @@ title: Class EmfCreateMonoBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateMonoBrush class. The EMR_CREATEMONOBRUSH record defines a monochrome pattern brush for graphics operations. The pattern is specified by a monochrome DIB
 type: docs
-weight: 3560
+weight: 3600
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/
 ---
 ## EmfCreateMonoBrush class

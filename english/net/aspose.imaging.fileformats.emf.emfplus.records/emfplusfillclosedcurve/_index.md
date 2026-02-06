@@ -3,7 +3,7 @@ title: Class EmfPlusFillClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve class. The EmfPlusFillClosedCurve record specifies filling the interior of a closed cardinal spline
 type: docs
-weight: 6140
+weight: 6180
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/
 ---
 ## EmfPlusFillClosedCurve class

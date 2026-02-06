@@ -3,7 +3,7 @@ title: Class EmfAngleArc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfAngleArc class. The EMR_ANGLEARC record specifies a line segment of an arc. The line segment is drawn from the current position to the beginning of the arc. The arc is drawn along the perimeter of a circle with the given radius and center. The length of the arc is defined by the given start and sweep angles
 type: docs
-weight: 3260
+weight: 3300
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/
 ---
 ## EmfAngleArc class

@@ -3,7 +3,7 @@ title: Class EmfStretchBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfStretchBlt class. The EMR_STRETCHBLT record specifies a block transfer of pixels from a source bitmap to a destination rectangle optionally in combination with a brush pattern according to a specified raster operation stretching or compressing the output to fit the dimensions of the destination if necessary
 type: docs
-weight: 4670
+weight: 4710
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/
 ---
 ## EmfStretchBlt class

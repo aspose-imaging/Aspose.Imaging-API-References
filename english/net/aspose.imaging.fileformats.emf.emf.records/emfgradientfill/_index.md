@@ -3,7 +3,7 @@ title: Class EmfGradientFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfGradientFill class. The EMR_GRADIENTFILL record specifies filling rectangles or triangles with gradients of color
 type: docs
-weight: 3820
+weight: 3860
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 ---
 ## EmfGradientFill class

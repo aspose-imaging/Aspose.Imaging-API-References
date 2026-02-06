@@ -3,7 +3,7 @@ title: Class EmfLogPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogPalette class. The LogPalette object specifies a logical_palette that contains deviceindependent color definitions
 type: docs
-weight: 3120
+weight: 3160
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/
 ---
 ## EmfLogPalette class

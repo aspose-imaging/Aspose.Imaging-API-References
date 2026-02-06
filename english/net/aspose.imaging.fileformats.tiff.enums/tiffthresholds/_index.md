@@ -3,7 +3,7 @@ title: Enum TiffThresholds
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.Enums.TiffThresholds enum. Thresholding used on data
 type: docs
-weight: 7820
+weight: 7860
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffthresholds/
 ---
 ## TiffThresholds enumeration

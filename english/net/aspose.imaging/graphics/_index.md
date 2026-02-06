@@ -3,7 +3,7 @@ title: Class Graphics
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Graphics class. Represents the graphics according to the graphics engine used in the current assembly
 type: docs
-weight: 9500
+weight: 9540
 url: /net/aspose.imaging/graphics/
 ---
 ## Graphics class

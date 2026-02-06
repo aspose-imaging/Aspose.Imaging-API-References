@@ -3,7 +3,7 @@ title: Class EmfIntersectClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfIntersectClipRect class. The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the intersection of the current clipping region and the specified rectangle. Note Fields that are not described in this section are specified in section 2.3.2
 type: docs
-weight: 3830
+weight: 3870
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
 ---
 ## EmfIntersectClipRect class

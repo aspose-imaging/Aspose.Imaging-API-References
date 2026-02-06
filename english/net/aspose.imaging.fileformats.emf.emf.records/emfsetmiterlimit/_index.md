@@ -3,7 +3,7 @@ title: Class EmfSetMiterLimit
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetMiterLimit class. The EMR_SETMITERLIMIT record specifies the limit for the length of miter joins for the playback device context
 type: docs
-weight: 4510
+weight: 4550
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/
 ---
 ## EmfSetMiterLimit class

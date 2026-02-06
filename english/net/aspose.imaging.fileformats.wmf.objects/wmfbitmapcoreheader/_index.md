@@ -3,7 +3,7 @@ title: Class WmfBitmapCoreHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfBitmapCoreHeader class. The BitmapCoreHeader Object contains information about the dimensions and color format of a deviceindependent bitmapDIB
 type: docs
-weight: 8600
+weight: 8640
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/
 ---
 ## WmfBitmapCoreHeader class

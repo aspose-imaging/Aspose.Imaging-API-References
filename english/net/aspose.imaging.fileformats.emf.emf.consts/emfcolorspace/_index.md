@@ -3,7 +3,7 @@ title: Enum EmfColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfColorSpace enum. The ColorSpace enumeration is used to specify when to turn color proofing on and off and when to delete transforms
 type: docs
-weight: 2640
+weight: 2680
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcolorspace/
 ---
 ## EmfColorSpace enumeration

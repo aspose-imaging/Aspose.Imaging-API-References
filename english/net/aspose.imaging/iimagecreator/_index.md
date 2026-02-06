@@ -3,7 +3,7 @@ title: Interface IImageCreator
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IImageCreator interface. The image creator
 type: docs
-weight: 9610
+weight: 9650
 url: /net/aspose.imaging/iimagecreator/
 ---
 ## IImageCreator interface

@@ -3,7 +3,7 @@ title: Class EmfEndPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfEndPath class. This record closes a path bracket and selects the path defined by the bracket into the playback device context
 type: docs
-weight: 3640
+weight: 3680
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfendpath/
 ---
 ## EmfEndPath class

@@ -3,7 +3,7 @@ title: Class WmfEscapePostScript
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords.WmfEscapePostScript class. The Escape PostScript data record
 type: docs
-weight: 8530
+weight: 8570
 url: /net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/
 ---
 ## WmfEscapePostScript class

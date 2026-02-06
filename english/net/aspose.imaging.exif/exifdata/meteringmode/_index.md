@@ -3,7 +3,7 @@ title: ExifData.MeteringMode
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the metering mode
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.imaging.exif/exifdata/meteringmode/
 ---
 ## ExifData.MeteringMode property

@@ -3,7 +3,7 @@ title: Class EmfPlusPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPath class. The EmfPlusPath object specifies a series of line and curve segments that form a graphics path. The order for Bezier data points is the start point control point 1 control point 2 and end point.For more information seeMSDN  DrawBeziers
 type: docs
-weight: 5690
+weight: 5730
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/
 ---
 ## EmfPlusPath class

@@ -3,7 +3,7 @@ title: Class EmfFrameRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfFrameRgn class. The EMR_FRAMERGN record draws a border around the specified region using the specified brush
 type: docs
-weight: 3790
+weight: 3830
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 ---
 ## EmfFrameRgn class

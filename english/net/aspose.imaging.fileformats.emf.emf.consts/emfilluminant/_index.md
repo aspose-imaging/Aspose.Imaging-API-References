@@ -3,7 +3,7 @@ title: Enum EmfIlluminant
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfIlluminant enum. The Illuminant enumeration defines values that specify the illuminant value of an image which determines the standard light source under which the image is viewed so that the color can be adjusted appropriately
 type: docs
-weight: 2760
+weight: 2800
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/
 ---
 ## EmfIlluminant enumeration

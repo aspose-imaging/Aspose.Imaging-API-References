@@ -3,7 +3,7 @@ title: Class EmfUniversalFontId
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfUniversalFontId class. The UniversalFontId object defines a mechanism for identifying fonts in EMF metafiles
 type: docs
-weight: 3230
+weight: 3270
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfuniversalfontid/
 ---
 ## EmfUniversalFontId class

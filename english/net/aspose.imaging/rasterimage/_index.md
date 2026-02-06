@@ -3,7 +3,7 @@ title: Class RasterImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterImage class. Represents a raster image supporting raster graphics operations
 type: docs
-weight: 11320
+weight: 11380
 url: /net/aspose.imaging/rasterimage/
 ---
 ## RasterImage class

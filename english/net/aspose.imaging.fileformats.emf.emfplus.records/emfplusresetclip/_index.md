@@ -3,7 +3,7 @@ title: Class EmfPlusResetClip
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetClip class. The EmfPlusResetClip record resets the current clipping region for the world space to infinity
 type: docs
-weight: 6290
+weight: 6330
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetclip/
 ---
 ## EmfPlusResetClip class

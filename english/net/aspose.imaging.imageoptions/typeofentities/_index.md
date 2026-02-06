@@ -3,7 +3,7 @@ title: Enum TypeOfEntities
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TypeOfEntities enum. Represents types of entities to render
 type: docs
-weight: 10570
+weight: 10630
 url: /net/aspose.imaging.imageoptions/typeofentities/
 ---
 ## TypeOfEntities enumeration

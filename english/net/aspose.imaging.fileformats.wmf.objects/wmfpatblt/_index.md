@@ -3,7 +3,7 @@ title: Class WmfPatBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfPatBlt class. The META_PATBLT record paints a specified rectangle using the brush that is defined in the playback device context. The brush color and the surface color or colors are combined using the specified raster operation
 type: docs
-weight: 8970
+weight: 9010
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpatblt/
 ---
 ## WmfPatBlt class

@@ -3,7 +3,7 @@ title: Class EmfPlusMetafile
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusMetafile class. The EmfPlusMetafileData object specifies a metafile that contains a graphics image
 type: docs
-weight: 5660
+weight: 5700
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/
 ---
 ## EmfPlusMetafile class

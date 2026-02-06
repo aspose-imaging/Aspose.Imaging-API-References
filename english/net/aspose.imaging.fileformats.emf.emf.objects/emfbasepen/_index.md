@@ -3,7 +3,7 @@ title: Class EmfBasePen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfBasePen class. The base pen object
 type: docs
-weight: 2960
+weight: 3000
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfbasepen/
 ---
 ## EmfBasePen class

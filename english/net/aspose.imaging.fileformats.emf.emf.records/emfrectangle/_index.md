@@ -3,7 +3,7 @@ title: Class EmfRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRectangle class. The EMR_RECTANGLE record draws a rectangle. The rectangle is outlined by using the current pen and filled by using the current brush
 type: docs
-weight: 4240
+weight: 4280
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrectangle/
 ---
 ## EmfRectangle class

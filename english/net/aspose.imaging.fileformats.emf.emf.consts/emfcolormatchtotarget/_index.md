@@ -3,7 +3,7 @@ title: Enum EmfColorMatchToTarget
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfColorMatchToTarget enum. The ColorMatchToTarget enumeration is used to determine whether a color profile has been embedded in the metafile
 type: docs
-weight: 2630
+weight: 2670
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcolormatchtotarget/
 ---
 ## EmfColorMatchToTarget enumeration
