@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.types
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains classes that represent the values of XMP properties in three basic categories basic types complex and derived types.
 type: docs
-weight: 120
+weight: 122
 url: /java/com.aspose.imaging.xmp.types/
 ---
 

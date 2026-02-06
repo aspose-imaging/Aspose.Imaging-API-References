@@ -34,7 +34,6 @@ Represents an arc shape.
 | [setClosed(boolean value)](#setClosed-boolean-) | Gets or sets a value indicating whether ordered shape is closed. |
 | [reverse()](#reverse--) | Reverses the order of points for this shape. |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | Gets the object's bounds. |
-| [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Check if objects are equal. |
 | [hashCode()](#hashCode--) | Get hash code of the current object. |
 
@@ -223,22 +222,6 @@ Gets the object's bounds.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | matrix | [Matrix](../../com.aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-
-**Returns:**
-[RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
-### getBounds(Matrix matrix, Pen pen) {#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-}
-```
-public RectangleF getBounds(Matrix matrix, Pen pen)
-```
-
-
-Gets the object's bounds.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | The matrix to apply before bounds will be calculated. |
-| pen | [Pen](../../com.aspose.imaging/pen) | The pen to use for object. This can influence the object's bounds size. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

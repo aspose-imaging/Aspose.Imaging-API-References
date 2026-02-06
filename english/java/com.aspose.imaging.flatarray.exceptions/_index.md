@@ -3,7 +3,7 @@ title: com.aspose.imaging.flatarray.exceptions
 second_title: Aspose.Imaging for Java API Reference
 description: 
 type: docs
-weight: 88
+weight: 90
 url: /java/com.aspose.imaging.flatarray.exceptions/
 ---
 

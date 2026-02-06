@@ -28,6 +28,7 @@ Represents information about interruption.
 | [getThreadLocalInstance()](#getThreadLocalInstance--) | Gets the IInterruptMonitor instance which is unique for each thread. |
 | [setThreadLocalInstance(IInterruptMonitor value)](#setThreadLocalInstance-com.aspose.imaging.multithreading.IInterruptMonitor-) | Sets the IInterruptMonitor instance which is unique for each thread. |
 | [isThreadInterrupted()](#isThreadInterrupted--) | Returns `true` if interrupt monitor for current thread exists, and it was interrupted otherwise `false`. |
+| [removeAllMonitors()](#removeAllMonitors--) | Removes all thread monitors, included the ones for alive threads. |
 | [isInterrupted()](#isInterrupted--) | Gets the value indicating whether operations should be interrupted. |
 | [interrupt()](#interrupt--) | Sends a request to interrupt operations. |
 
@@ -177,6 +178,14 @@ Returns `true` if interrupt monitor for current thread exists, and it was interr
 
 **Returns:**
 boolean - `true` if interrupt monitor for current thread exists, and it was interrupted otherwise `false`.
+### removeAllMonitors() {#removeAllMonitors--}
+```
+public static void removeAllMonitors()
+```
+
+
+Removes all thread monitors, included the ones for alive threads.
+
 ### isInterrupted() {#isInterrupted--}
 ```
 public boolean isInterrupted()

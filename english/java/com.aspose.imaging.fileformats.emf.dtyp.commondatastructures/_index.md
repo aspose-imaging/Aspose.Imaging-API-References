@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.emf.dtyp.commondatastructures
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains types MS-DTYP Windows Data Types 2.3 Common Data Structures
 type: docs
-weight: 46
+weight: 48
 url: /java/com.aspose.imaging.fileformats.emf.dtyp.commondatastructures/
 ---
 

@@ -3,7 +3,7 @@ title: com.aspose.imaging.metadata
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace contains metada related entities.
 type: docs
-weight: 102
+weight: 104
 url: /java/com.aspose.imaging.metadata/
 ---
 

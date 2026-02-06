@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.emf.graphics
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Emf/Emf graphics.
 type: docs
-weight: 54
+weight: 56
 url: /java/com.aspose.imaging.fileformats.emf.graphics/
 ---
 

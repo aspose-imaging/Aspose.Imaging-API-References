@@ -176,7 +176,7 @@ Initiate a new [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) obj
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize gif image with. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize GIF image with. |
 | globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The global palette to use. Note if both `firstFrame` and `globalPalette` are null then default global palette is used. |
 
 ### GifImage(GifFrameBlock firstFrame) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-}
@@ -190,7 +190,7 @@ Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imag
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize gif image with. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize GIF image with. |
 
 ### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-}
 ```
@@ -203,13 +203,13 @@ Get started effortlessly with the [GifImage](../../com.aspose.imaging.fileformat
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize gif image with. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize GIF image with. |
 | globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The global palette to use. Note if both `firstFrame` and `globalPalette` are null then default global palette is used. |
 | isPaletteSorted | boolean | if set to `true` the palette is sorted. Note the parameter is used when `globalPalette` is not null. |
 | paletteColorResolution | byte | The palette color resolution. Note the parameter is used when `globalPalette` is not null. |
 | paletteBackgroundColorIndex | byte | The palette background color index. |
 | aspectRatio | byte | The aspect ratio. |
-| hasTrailer | boolean | if set to `true` the gif image has trailer otherwise no trailer written at the end of the stream. |
+| hasTrailer | boolean | if set to `true` the GIF image has trailer otherwise no trailer written at the end of the stream. |
 
 ### getFileFormat() {#getFileFormat--}
 ```

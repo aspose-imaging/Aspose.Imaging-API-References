@@ -3,7 +3,7 @@ title: OdLoadOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Open Document Load Options
 type: docs
-weight: 15
+weight: 17
 url: /java/com.aspose.imaging.imageloadoptions/odloadoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.schemas.photoshop
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains related helper classes constants and methods used by Adobe Photoshop.
 type: docs
-weight: 115
+weight: 117
 url: /java/com.aspose.imaging.xmp.schemas.photoshop/
 ---
 

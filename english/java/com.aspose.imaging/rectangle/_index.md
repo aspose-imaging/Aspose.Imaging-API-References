@@ -66,7 +66,7 @@ Stores a set of four integers that represent the location and size of a rectangl
 | [intersectsWith(Rectangle rect)](#intersectsWith-com.aspose.imaging.Rectangle-) | Determines if this rectangle intersects with `rect`. |
 | [offset(Point pos)](#offset-com.aspose.imaging.Point-) | Adjusts the location of this rectangle by the specified amount. |
 | [offset(int x, int y)](#offset-int-int-) | Adjusts the location of this rectangle by the specified amount. |
-| [normalize()](#normalize--) | Normalizes the rectangle by making it's width and height positive, left less than right and top less than bottom. |
+| [normalize()](#normalize--) | Normalizes the rectangle by making its width and height positive, left less than right and top less than bottom. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Tests whether `obj` is a `com.aspose.imaging.Rectangle` structure with the same location and size of this `com.aspose.imaging.Rectangle` structure. |
 | [hashCode()](#hashCode--) | Returns the hash code for this `com.aspose.imaging.Rectangle` structure. |
 | [toString()](#toString--) | Converts the attributes of this `com.aspose.imaging.Rectangle` to a human-readable string. |
@@ -668,7 +668,7 @@ public void normalize()
 ```
 
 
-Normalizes the rectangle by making it's width and height positive, left less than right and top less than bottom.
+Normalizes the rectangle by making its width and height positive, left less than right and top less than bottom.
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```

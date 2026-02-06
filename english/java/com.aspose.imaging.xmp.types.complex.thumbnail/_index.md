@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.types.complex.thumbnail
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains class that is a thumbnail image for a file.
 type: docs
-weight: 128
+weight: 130
 url: /java/com.aspose.imaging.xmp.types.complex.thumbnail/
 ---
 

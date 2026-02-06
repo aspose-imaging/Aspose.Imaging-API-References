@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.pdf
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains classes for PDF file format integration.
 type: docs
-weight: 69
+weight: 71
 url: /java/com.aspose.imaging.fileformats.pdf/
 ---
 

@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.opendocument.objects.brush
 second_title: Aspose.Imaging for Java API Reference
 description: The Open document objects
 type: docs
-weight: 65
+weight: 67
 url: /java/com.aspose.imaging.fileformats.opendocument.objects.brush/
 ---
 

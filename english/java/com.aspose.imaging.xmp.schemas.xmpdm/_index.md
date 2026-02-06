@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.schemas.xmpdm
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains XMP related helper classes constants and methods used by the Adobe dynamic media group.
 type: docs
-weight: 117
+weight: 119
 url: /java/com.aspose.imaging.xmp.schemas.xmpdm/
 ---
 

@@ -3,7 +3,7 @@ title: com.aspose.imaging.watermark.options
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Watermark options processing.
 type: docs
-weight: 110
+weight: 112
 url: /java/com.aspose.imaging.watermark.options/
 ---
 

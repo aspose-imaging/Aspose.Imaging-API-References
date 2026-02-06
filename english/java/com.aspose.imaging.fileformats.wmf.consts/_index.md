@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.wmf.consts
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains types MS-WMF Windows Metafile Format 2.1 WMF Constants
 type: docs
-weight: 84
+weight: 86
 url: /java/com.aspose.imaging.fileformats.wmf.consts/
 ---
 

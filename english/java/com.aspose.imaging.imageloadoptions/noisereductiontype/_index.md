@@ -3,7 +3,7 @@ title: NoiseReductionType
 second_title: Aspose.Imaging for Java API Reference
 description: The type of dbdd noise reduction.
 type: docs
-weight: 14
+weight: 16
 url: /java/com.aspose.imaging.imageloadoptions/noisereductiontype/
 ---
 **Inheritance:**

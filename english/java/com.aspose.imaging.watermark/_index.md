@@ -3,7 +3,7 @@ title: com.aspose.imaging.watermark
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles the Watermark remove processing.
 type: docs
-weight: 109
+weight: 111
 url: /java/com.aspose.imaging.watermark/
 ---
 

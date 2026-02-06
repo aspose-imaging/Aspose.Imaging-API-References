@@ -3,7 +3,7 @@ title: com.aspose.imaging.magicwand.imagemasks
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles image masks processing.
 type: docs
-weight: 96
+weight: 98
 url: /java/com.aspose.imaging.magicwand.imagemasks/
 ---
 
