@@ -3,7 +3,7 @@ title: Class GifApplicationExtensionBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.Blocks.GifApplicationExtensionBlock class. Gif application extension block
 type: docs
-weight: 6670
+weight: 6710
 url: /net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
 ---
 ## GifApplicationExtensionBlock class

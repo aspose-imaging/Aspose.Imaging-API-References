@@ -3,7 +3,7 @@ title: Class EmfPlusRotateWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform class. The EmfPlusRotateWorldTransform record performs a rotation on the current world space transform
 type: docs
-weight: 6320
+weight: 6360
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/
 ---
 ## EmfPlusRotateWorldTransform class

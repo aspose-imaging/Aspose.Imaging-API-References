@@ -130,7 +130,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_58) | Converts to aps. |
 | [get_skew_angle()](#get_skew_angle__59) | Gets the skew angle.<br/>            This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | grayscale() | Convert the image to its grayscale representation, transforming it into a <br/>            single-channel image where each pixel represents intensity. Integrate this method <br/>            into your image processing pipeline to simplify analysis and enhance <br/>            compatibility with grayscale-based algorithms, facilitating various computer <br/>            vision and image analysis tasks within your application. |
-| [insert_frame(index, frame_to_insert)](#insert_frame_index_frame_to_insert_60) | Insert the new frame at the specified index within the frame sequence, ensuring <br/>            precise control over frame arrangement. Employ this method to manage frame <br/>            sequences effectively, facilitating dynamic manipulation and organization of image <br/>            content within your application. |
+| [insert_frame(index, frame)](#insert_frame_index_frame_60) | Insert the new frame at the specified index within the frame sequence, ensuring <br/>            precise control over frame arrangement. Employ this method to manage frame <br/>            sequences effectively, facilitating dynamic manipulation and organization of image <br/>            content within your application. |
 | [is_digital_signed(password, percentage_threshold)](#is_digital_signed_password_percentage_threshold_61) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
 | [load(file_path)](#load_file_path_62) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | [load(file_path, load_options)](#load_file_path_load_options_63) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
@@ -1480,11 +1480,11 @@ Gets the skew angle.<br/>            This method is applicable to scanned text d
 | float | The skew angle, in degrees. |
 
 
-### Method: insert_frame(index, frame_to_insert) {#insert_frame_index_frame_to_insert_60}
+### Method: insert_frame(index, frame) {#insert_frame_index_frame_60}
 
 
 ```
- insert_frame(index, frame_to_insert) 
+ insert_frame(index, frame) 
 ```
 
 Insert the new frame at the specified index within the frame sequence, ensuring <br/>            precise control over frame arrangement. Employ this method to manage frame <br/>            sequences effectively, facilitating dynamic manipulation and organization of image <br/>            content within your application.
@@ -1493,8 +1493,8 @@ Insert the new frame at the specified index within the frame sequence, ensuring 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of new frame in list of frames |
-| frame_to_insert | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frame To Insert. |
+| index | int | The index of _frame_. |
+| frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frame for insertion. |
 
 ### Method: is_digital_signed(password, percentage_threshold) {#is_digital_signed_password_percentage_threshold_61}
 

@@ -3,7 +3,7 @@ title: Class EpsImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Eps.EpsImage class. The API for Encapsulated PostScript EPS image file format support offers robust capabilities for manipulating compositions comprising text graphics and images. With features such as bitmap preview image handling orientation flipping bounding box retrieval for illustration bounds resizing rotating images and adding preview images this API ensures seamless processing and integration of EPS files into various applications with precision and versatility
 type: docs
-weight: 6630
+weight: 6670
 url: /net/aspose.imaging.fileformats.eps/epsimage/
 ---
 ## EpsImage class

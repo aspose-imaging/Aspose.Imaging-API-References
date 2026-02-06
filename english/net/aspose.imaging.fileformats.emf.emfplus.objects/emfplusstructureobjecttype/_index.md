@@ -3,7 +3,7 @@ title: Class EmfPlusStructureObjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusStructureObjectType class. The Structure Objects specify containers for data structures that are embedded in EMF metafile records.Structure objects unlike graphics objects are not explicitly created they are components that make up more complex structures
 type: docs
-weight: 5880
+weight: 5920
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype/
 ---
 ## EmfPlusStructureObjectType class

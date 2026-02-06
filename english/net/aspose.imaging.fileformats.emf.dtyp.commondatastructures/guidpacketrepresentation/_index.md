@@ -3,7 +3,7 @@ title: Struct GuidPacketRepresentation
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Dtyp.CommonDataStructures.GuidPacketRepresentation struct. The packet version is used within block protocols. The following diagram represents a GUID as an opaque sequence of bytes. A GUID also known as a UUID is a 16byte structure intended to serve as a unique identifier for an object. There are three representations of a GUID as described in the following sections
 type: docs
-weight: 2580
+weight: 2620
 url: /net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/
 ---
 ## GuidPacketRepresentation structure

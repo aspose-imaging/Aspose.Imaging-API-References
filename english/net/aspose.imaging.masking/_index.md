@@ -3,7 +3,7 @@ title: Aspose.Imaging.Masking
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles ImageMasking processing
 type: docs
-weight: 860
+weight: 880
 url: /net/aspose.imaging.masking/
 ---
 The namespace handles ImageMasking processing.

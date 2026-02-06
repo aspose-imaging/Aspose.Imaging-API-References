@@ -3,7 +3,7 @@ title: Class EmfPlusLinearGradientBrushOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusLinearGradientBrushOptionalData class. The EmfPlusLinearGradientBrushOptionalData object specifies optional data for a linear gradient brush
 type: docs
-weight: 5650
+weight: 5690
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/
 ---
 ## EmfPlusLinearGradientBrushOptionalData class

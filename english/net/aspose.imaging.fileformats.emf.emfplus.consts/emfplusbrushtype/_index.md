@@ -3,7 +3,7 @@ title: Enum EmfPlusBrushType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusBrushType enum. The BrushType enumeration defines types of graphics brushes which are used to fill graphics regions
 type: docs
-weight: 4780
+weight: 4820
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype/
 ---
 ## EmfPlusBrushType enumeration

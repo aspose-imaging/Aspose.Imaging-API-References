@@ -3,7 +3,7 @@ title: Interface IOrderedShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IOrderedShape interface. Represents an ordered shape. An ordered shape is a continuous set of points having a start point and end point. The continuous set of points connected using a specific rule
 type: docs
-weight: 9730
+weight: 9770
 url: /net/aspose.imaging/iorderedshape/
 ---
 ## IOrderedShape interface

@@ -3,7 +3,7 @@ title: Class WmfDibCreatePatternBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfDibCreatePatternBrush class. The META_DIBCREATEPATTERNBRUSH record creates a Brush Object section 2.2.1.1 with a pattern specified by a DeviceIndependentBitmap DIB Object section 2.2.2.9
 type: docs
-weight: 8740
+weight: 8780
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/
 ---
 ## WmfDibCreatePatternBrush class

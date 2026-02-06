@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.opendocument.objects.pen
 type: docs
-weight: 590
+weight: 610
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.pen/
 ---
 

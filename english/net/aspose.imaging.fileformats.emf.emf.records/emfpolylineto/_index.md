@@ -3,7 +3,7 @@ title: Class EmfPolylineTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolylineTo class. The EMR_POLYLINETO record specifies one or more straight lines based upon the current position
 type: docs
-weight: 4200
+weight: 4240
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolylineto/
 ---
 ## EmfPolylineTo class

@@ -3,7 +3,7 @@ title: Class EmfPlusMultiplyWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusMultiplyWorldTransform class. The EmfPlusMultiplyWorldTransform record multiplies the current world space transform by a specified transform matrix
 type: docs
-weight: 6230
+weight: 6270
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/
 ---
 ## EmfPlusMultiplyWorldTransform class

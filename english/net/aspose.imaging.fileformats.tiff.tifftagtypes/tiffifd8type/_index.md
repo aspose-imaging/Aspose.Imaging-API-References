@@ -3,7 +3,7 @@ title: Class TiffIfd8Type
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffIfd8Type class. The Tiff unsigned 64bit Image File Directory type
 type: docs
-weight: 8070
+weight: 8110
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type/
 ---
 ## TiffIfd8Type class

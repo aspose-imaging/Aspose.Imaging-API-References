@@ -3,7 +3,7 @@ title: Class EmfColorMatchToTargetW
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfColorMatchToTargetW class. The EMR_COLORMATCHTOTargetW record specifies whether to perform color matching with a color profile that is specified in a file with a name consisting of Unicode characters
 type: docs
-weight: 3390
+weight: 3430
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
 ---
 ## EmfColorMatchToTargetW class

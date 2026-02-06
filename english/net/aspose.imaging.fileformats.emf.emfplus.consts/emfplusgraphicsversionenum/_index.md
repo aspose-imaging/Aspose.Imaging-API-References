@@ -3,7 +3,7 @@ title: Enum EmfPlusGraphicsVersionEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusGraphicsVersionEnum enum. The GraphicsVersion enumeration defines versions of operating system graphics that are used to create EMF metafiles
 type: docs
-weight: 4900
+weight: 4940
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusgraphicsversionenum/
 ---
 ## EmfPlusGraphicsVersionEnum enumeration

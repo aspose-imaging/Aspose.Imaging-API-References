@@ -161,6 +161,8 @@ EXIF data container.
 | [setGamma(TiffRational value)](#setGamma-com.aspose.imaging.fileformats.tiff.TiffRational-) | Gets or sets the gamma. |
 | [getISOSpeed()](#getISOSpeed--) | Gets or sets ISO speed |
 | [setISOSpeed(long value)](#setISOSpeed-long-) | Gets or sets ISO speed |
+| [getISOSpeedValue()](#getISOSpeedValue--) | Gets the iso speed value. |
+| [setISOSpeedValue(long value)](#setISOSpeedValue-long-) | Sets the iso speed value. |
 | [getISOSpeedLatitudeYYY()](#getISOSpeedLatitudeYYY--) | Gets or sets the ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232. |
 | [setISOSpeedLatitudeYYY(long value)](#setISOSpeedLatitudeYYY-long-) | Gets or sets the ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232. |
 | [getISOSpeedLatitudeZZZ()](#getISOSpeedLatitudeZZZ--) | Gets or sets the ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232. |
@@ -2112,6 +2114,33 @@ Value: The ISO speed.
 | --- | --- | --- |
 | value | long |  |
 
+### getISOSpeedValue() {#getISOSpeedValue--}
+```
+public final long getISOSpeedValue()
+```
+
+
+Gets the iso speed value.
+
+Value: The iso speed value.
+
+**Returns:**
+long - the iso speed value.
+### setISOSpeedValue(long value) {#setISOSpeedValue-long-}
+```
+public final void setISOSpeedValue(long value)
+```
+
+
+Sets the iso speed value.
+
+Value: The iso speed value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | long | the iso speed value. |
+
 ### getISOSpeedLatitudeYYY() {#getISOSpeedLatitudeYYY--}
 ```
 public long getISOSpeedLatitudeYYY()
@@ -2122,7 +2151,7 @@ Gets or sets the ISO speed latitude yyy value of a camera or input device that i
 
 Value: The ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232.
 
-This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudezzz
+This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudeZZZ
 
 **Returns:**
 long
@@ -2136,7 +2165,7 @@ Gets or sets the ISO speed latitude yyy value of a camera or input device that i
 
 Value: The ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232.
 
-This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudezzz
+This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudeZZZ
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2153,7 +2182,7 @@ Gets or sets the ISO speed latitude zzz value of a camera or input device that i
 
 Value: The ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232.
 
-This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudeyyy
+This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudeYYY
 
 **Returns:**
 long
@@ -2167,7 +2196,7 @@ Gets or sets the ISO speed latitude zzz value of a camera or input device that i
 
 Value: The ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232.
 
-This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudeyyy
+This tag shall not be recorded without ISOSpeed and ISOSpeedLatitudeYYY
 
 **Parameters:**
 | Parameter | Type | Description |

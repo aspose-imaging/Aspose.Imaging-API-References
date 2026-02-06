@@ -3,7 +3,7 @@ title: Class WmfExtFloodFill
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfExtFloodFill class. The META_EXTFLOODFILL record fills an area with the brush that is defined in the playback device context
 type: docs
-weight: 8800
+weight: 8840
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
 ---
 ## WmfExtFloodFill class

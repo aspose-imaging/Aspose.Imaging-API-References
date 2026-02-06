@@ -3,7 +3,7 @@ title: ExifData.RelatedSoundFile
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the related sound file
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.imaging.exif/exifdata/relatedsoundfile/
 ---
 ## ExifData.RelatedSoundFile property

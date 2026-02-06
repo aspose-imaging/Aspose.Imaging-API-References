@@ -3,7 +3,7 @@ title: Enum OdMarkerType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Enums.OdMarkerType enum. The od marker types for connectors
 type: docs
-weight: 6920
+weight: 6960
 url: /net/aspose.imaging.fileformats.opendocument.enums/odmarkertype/
 ---
 ## OdMarkerType enumeration

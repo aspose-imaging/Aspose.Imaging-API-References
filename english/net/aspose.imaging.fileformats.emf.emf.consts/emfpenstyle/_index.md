@@ -3,7 +3,7 @@ title: Enum EmfPenStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfPenStyle enum. The PenStyle enumeration defines the attributes of pens that can be used in graphics operations. A pen style is a combination of pen type line style line cap and line join
 type: docs
-weight: 2830
+weight: 2870
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/
 ---
 ## EmfPenStyle enumeration

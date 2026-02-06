@@ -3,7 +3,7 @@ title: Class EmfPlusRegionNode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusRegionNode class. The EmfPlusRegionNode object specifies nodes of a graphics region
 type: docs
-weight: 5800
+weight: 5840
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/
 ---
 ## EmfPlusRegionNode class

@@ -3,7 +3,7 @@ title: Class Jpeg2000Image
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image class. Efficiently manipulate JPEG2000 JP2 image files with our API supporting a range of bits per pixel depths and seamless processing of XMP metadata containing essential image information. With capabilities for lossless compression ensure optimal image quality while maintaining file integrity empowering you to tailor JP2 images to your exact specifications with ease
 type: docs
-weight: 6900
+weight: 6940
 url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 ---
 ## Jpeg2000Image class

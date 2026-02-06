@@ -3,7 +3,7 @@ title: Class WmfFillRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfFillRegion class. The META_FILLREGION record fills a region using a specified brush
 type: docs
-weight: 8820
+weight: 8860
 url: /net/aspose.imaging.fileformats.wmf.objects/wmffillregion/
 ---
 ## WmfFillRegion class

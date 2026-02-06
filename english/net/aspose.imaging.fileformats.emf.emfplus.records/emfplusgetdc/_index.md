@@ -3,7 +3,7 @@ title: Class EmfPlusGetDc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusGetDc class. The EmfPlusGetDC record specifies that subsequent EMF records encountered in the metafile SHOULD be processed
 type: docs
-weight: 6210
+weight: 6250
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
 ---
 ## EmfPlusGetDc class

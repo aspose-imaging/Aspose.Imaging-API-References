@@ -3,7 +3,7 @@ title: Enum ColorComparisonMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ColorComparisonMode enum. Specifies how colors are compared during the Magic Wand algorithm
 type: docs
-weight: 10720
+weight: 10780
 url: /net/aspose.imaging.magicwand/colorcomparisonmode/
 ---
 ## ColorComparisonMode enumeration

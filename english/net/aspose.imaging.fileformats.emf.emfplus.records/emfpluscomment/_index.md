@@ -3,7 +3,7 @@ title: Class EmfPlusComment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusComment class. The EmfPlusComment record specifies arbitrary private data
 type: docs
-weight: 5960
+weight: 6000
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/
 ---
 ## EmfPlusComment class

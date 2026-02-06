@@ -3,7 +3,7 @@ title: Class EmfPlusFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath class. Fill path record FLAGS 16bit unsigned integer that provides information about how the operation is to be performed and about the structure of the record. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 S X X X X X X X  ObjectId  S 1 bit This bit indicates the type of data in the BrushId field. If set BrushId specifies a color as an EmfPlusARGB object section 2.2.2.1. If clear BrushId contains the index of an EmfPlusBrush object section 2.2.1.1 in the EMF Object Table. X 1 bit Reserved and MUST be ignored. ObjectId 1 byte The index of the EmfPlusPath object section 2.2.1.6 to fill in the EMF Object Table. The value MUST be zero to 63 inclusive
 type: docs
-weight: 6160
+weight: 6200
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpath/
 ---
 ## EmfPlusFillPath class

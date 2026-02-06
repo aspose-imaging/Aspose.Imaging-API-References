@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains XMP related helper classes and methods
 type: docs
-weight: 1000
+weight: 1020
 url: /net/aspose.imaging.xmp/
 ---
 The namespace contains XMP related helper classes and methods.

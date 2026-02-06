@@ -3,7 +3,7 @@ title: Class GifFrameBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock class. GIF frame class
 type: docs
-weight: 6690
+weight: 6730
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/
 ---
 ## GifFrameBlock class

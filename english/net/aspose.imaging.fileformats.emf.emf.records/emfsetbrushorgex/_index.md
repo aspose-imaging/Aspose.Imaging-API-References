@@ -3,7 +3,7 @@ title: Class EmfSetBrushOrgEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetBrushOrgEx class. The EMR_SETBRUSHORGEX record specifies the origin of the current brush
 type: docs
-weight: 4380
+weight: 4420
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/
 ---
 ## EmfSetBrushOrgEx class

@@ -3,7 +3,7 @@ title: Class EmfPie
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPie class. The EMR_PIE record specifies a pieshaped wedge bounded by the intersection of an ellipse and two radials. The pie is outlined by using the current pen and filled by using the current brush
 type: docs
-weight: 3990
+weight: 4030
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpie/
 ---
 ## EmfPie class

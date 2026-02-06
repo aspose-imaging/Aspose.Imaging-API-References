@@ -3,7 +3,7 @@ title: Class OdPen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Pen.OdPen class. The open document pen
 type: docs
-weight: 7420
+weight: 7460
 url: /net/aspose.imaging.fileformats.opendocument.objects.pen/odpen/
 ---
 ## OdPen class

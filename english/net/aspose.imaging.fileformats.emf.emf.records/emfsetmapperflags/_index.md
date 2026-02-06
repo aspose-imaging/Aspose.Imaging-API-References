@@ -3,7 +3,7 @@ title: Class EmfSetMapperFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetMapperFlags class. The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching logical fonts to physical fonts which is performed by the font mapper
 type: docs
-weight: 4490
+weight: 4530
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 ## EmfSetMapperFlags class

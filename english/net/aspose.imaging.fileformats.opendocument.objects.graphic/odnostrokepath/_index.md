@@ -3,7 +3,7 @@ title: Class OdNoStrokePath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdNoStrokePath class. Specifies that the current set of subpaths will not be stroked
 type: docs
-weight: 7260
+weight: 7300
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath/
 ---
 ## OdNoStrokePath class

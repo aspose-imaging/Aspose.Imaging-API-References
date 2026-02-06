@@ -11,13 +11,20 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/insertframe/
 Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. Employ this method to manage frame sequences effectively, facilitating dynamic manipulation and organization of image content within your application.
 
 ```csharp
-public void InsertFrame(int index, TiffFrame frameToInsert)
+public void InsertFrame(int index, TiffFrame frame)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index of new frame in list of frames |
-| frameToInsert | TiffFrame | The frame To Insert. |
+| index | Int32 | The index of *frame*. |
+| frame | TiffFrame | The frame for insertion. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | ArgumentNullException |
+| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception/) | [`TiffImageException`](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception/) |
 
 ### See Also
 

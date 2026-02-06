@@ -3,7 +3,7 @@ title: Class EmfPolyBezier16
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyBezier16 class. The EMR_POLYBEZIER16 record specifies one or more Bezier curves. The curves are drawn using the current pen
 type: docs
-weight: 4030
+weight: 4070
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/
 ---
 ## EmfPolyBezier16 class

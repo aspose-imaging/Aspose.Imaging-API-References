@@ -3,7 +3,7 @@ title: Enum EmfPlusPixelOffsetMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusPixelOffsetMode enum. The PixelOffsetMode enumeration defines how pixels are offset which specifies the tradeoff between rendering speed and quality
 type: docs
-weight: 5100
+weight: 5140
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixeloffsetmode/
 ---
 ## EmfPlusPixelOffsetMode enumeration

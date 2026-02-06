@@ -3,7 +3,7 @@ title: Enum TiffOptionsError
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TiffOptionsError enum. The tiff options error codes
 type: docs
-weight: 10550
+weight: 10610
 url: /net/aspose.imaging.imageoptions/tiffoptionserror/
 ---
 ## TiffOptionsError enumeration

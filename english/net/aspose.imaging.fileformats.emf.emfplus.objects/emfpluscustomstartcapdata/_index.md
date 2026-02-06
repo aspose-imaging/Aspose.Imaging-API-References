@@ -3,7 +3,7 @@ title: Class EmfPlusCustomStartCapData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomStartCapData class. The EmfPlusCustomStartCapData object specifies a custom line cap for the start of a line
 type: docs
-weight: 5490
+weight: 5530
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/
 ---
 ## EmfPlusCustomStartCapData class

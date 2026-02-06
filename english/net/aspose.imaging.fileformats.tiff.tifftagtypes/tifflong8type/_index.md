@@ -3,7 +3,7 @@ title: Class TiffLong8Type
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffLong8Type class. The Tiff unsigned 64bit type
 type: docs
-weight: 8090
+weight: 8130
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/
 ---
 ## TiffLong8Type class

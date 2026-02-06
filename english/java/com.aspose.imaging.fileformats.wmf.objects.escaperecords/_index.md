@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.wmf.objects.escaperecords
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains escape types MS-WMF Windows
 type: docs
-weight: 87
+weight: 89
 url: /java/com.aspose.imaging.fileformats.wmf.objects.escaperecords/
 ---
 

@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.OpenDocument.Enums
 second_title: Aspose.Imaging for .NET API Reference
 description: The Enumerations of open document
 type: docs
-weight: 520
+weight: 540
 url: /net/aspose.imaging.fileformats.opendocument.enums/
 ---
 The Enumerations of open document

@@ -3,7 +3,7 @@ title: Class XmpPackageBaseCollection
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpPackageBaseCollection class. Represents collection of XmpPackage
 type: docs
-weight: 12370
+weight: 12430
 url: /net/aspose.imaging.xmp/xmppackagebasecollection/
 ---
 ## XmpPackageBaseCollection class

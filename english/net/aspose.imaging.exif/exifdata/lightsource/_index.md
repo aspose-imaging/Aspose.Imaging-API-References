@@ -3,7 +3,7 @@ title: ExifData.LightSource
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the light source
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.imaging.exif/exifdata/lightsource/
 ---
 ## ExifData.LightSource property

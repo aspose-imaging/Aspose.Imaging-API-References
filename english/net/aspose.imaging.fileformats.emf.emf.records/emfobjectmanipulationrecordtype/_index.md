@@ -3,7 +3,7 @@ title: Class EmfObjectManipulationRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfObjectManipulationRecordType class. The object manipulation record types manage and modify graphics objects
 type: docs
-weight: 3940
+weight: 3980
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfobjectmanipulationrecordtype/
 ---
 ## EmfObjectManipulationRecordType class

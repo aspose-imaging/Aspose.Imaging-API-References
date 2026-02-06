@@ -3,7 +3,7 @@ title: Class EmfPlusRestore
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRestore class. The EmfPlusRestore record restores the graphics state identified by a specified index from a stack of saved graphics states
 type: docs
-weight: 6310
+weight: 6350
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/
 ---
 ## EmfPlusRestore class

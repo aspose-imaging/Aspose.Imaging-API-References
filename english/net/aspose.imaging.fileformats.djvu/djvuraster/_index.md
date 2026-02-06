@@ -3,7 +3,7 @@ title: Class DjvuRaster
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Djvu.DjvuRaster class. Class for representing Djvu raster image where located result of some operation
 type: docs
-weight: 2510
+weight: 2550
 url: /net/aspose.imaging.fileformats.djvu/djvuraster/
 ---
 ## DjvuRaster class

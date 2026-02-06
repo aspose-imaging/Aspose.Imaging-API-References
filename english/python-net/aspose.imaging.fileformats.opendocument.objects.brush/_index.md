@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.opendocument.objects.brush
 type: docs
-weight: 560
+weight: 580
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/
 ---
 

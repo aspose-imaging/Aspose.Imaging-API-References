@@ -326,7 +326,7 @@ Retrieves the existing preview image in the specified `format` or returns `` if 
 | format | long | The EPS preview image format. |
 
 **Returns:**
-[Image](../../com.aspose.imaging/image) - The existing preview image or ``.
+[Image](../../com.aspose.imaging/image) - The existing preview image or `null`.
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```
 public void setPalette(IColorPalette palette, boolean updateColors)

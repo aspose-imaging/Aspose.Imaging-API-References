@@ -33,9 +33,9 @@ Craft animated PNG (APNG) image frames from single-page raster images with our A
 | [getTransparentColor()](#getTransparentColor--) | Gets the transparent color. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | A value indicating whether image has transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | The transparent color. |
-| [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether has background color. |
+| [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether it has background color. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
-| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | A value indicating whether has background color. |
+| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | A value indicating whether it has background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | The background color. |
 | [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
@@ -185,7 +185,7 @@ public boolean hasBackgroundColor()
 ```
 
 
-Gets a value indicating whether has background color.
+Gets a value indicating whether it has background color.
 
 **Returns:**
 boolean - a value indicating whether it has background color.
@@ -205,7 +205,7 @@ public void setBackgroundColor(boolean value)
 ```
 
 
-A value indicating whether has background color.
+A value indicating whether it has background color.
 
 **Parameters:**
 | Parameter | Type | Description |

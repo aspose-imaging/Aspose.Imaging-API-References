@@ -3,7 +3,7 @@ title: Enum EmfPlusHatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusHatchStyle enum. The HatchStyle enumeration defines hatch patterns used by graphics brushes. A hatch pattern consists of a solid background color and lines drawn over the background
 type: docs
-weight: 4910
+weight: 4950
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/
 ---
 ## EmfPlusHatchStyle enumeration

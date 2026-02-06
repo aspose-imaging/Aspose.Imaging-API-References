@@ -3,7 +3,7 @@ title: Class EmfRoundRect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRoundRect class. The EMR_ROUNDRECT record specifies a rectangle with rounded corners. The rectangle is outlined by using the current pen and filled by using the current brush
 type: docs
-weight: 4280
+weight: 4320
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 ## EmfRoundRect class

@@ -3,7 +3,7 @@ title: Class EmfDesignVector
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfDesignVector class. The DesignVector section 2.2.3 object defines the design vector which specifies values for the font axes of a multiple master font
 type: docs
-weight: 2990
+weight: 3030
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/
 ---
 ## EmfDesignVector class

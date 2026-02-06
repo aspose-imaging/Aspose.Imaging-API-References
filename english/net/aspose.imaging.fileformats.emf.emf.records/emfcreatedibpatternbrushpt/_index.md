@@ -3,7 +3,7 @@ title: Class EmfCreateDibPatternBrushPt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateDibPatternBrushPt class. The EMR_CREATEDIBPATTERNBRUSHPT record defines a pattern brush for graphics operations. The pattern is specified by a DIB
 type: docs
-weight: 3550
+weight: 3590
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
 ---
 ## EmfCreateDibPatternBrushPt class

@@ -3,7 +3,7 @@ title: Interface IImageExporterDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IImageExporterDescriptor interface. Represents the image exporter descriptor. The exporter descriptor is used to overcome the necessity to contain each exporter instance in memory and multithreading issues
 type: docs
-weight: 9650
+weight: 9690
 url: /net/aspose.imaging/iimageexporterdescriptor/
 ---
 ## IImageExporterDescriptor interface

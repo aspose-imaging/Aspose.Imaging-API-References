@@ -3,7 +3,7 @@ title: Class EmfPlusSetClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRect class. The EmfPlusSetClipRect record combines the current clipping region with a rectangle
 type: docs
-weight: 6380
+weight: 6420
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect/
 ---
 ## EmfPlusSetClipRect class

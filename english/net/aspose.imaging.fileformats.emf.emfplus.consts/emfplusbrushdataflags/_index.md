@@ -3,7 +3,7 @@ title: Enum EmfPlusBrushDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusBrushDataFlags enum. The BrushData flags specify properties of graphics brushes including the presence of optional data fields. These flags can be combined to specify multiple options
 type: docs
-weight: 4770
+weight: 4810
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/
 ---
 ## EmfPlusBrushDataFlags enumeration

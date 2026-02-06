@@ -38,7 +38,6 @@ Describes a binary image mask.
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | Checks if the specified pixel is opaque. |
 | [isTransparent(int x, int y)](#isTransparent-int-int-) | Checks if the specified pixel is transparent. |
 | [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | Gets the opacity of the specified pixel with byte precision. |
-| [deepClone()](#deepClone--) | Creates a new object that is a copy of the current instance. |
 | [getFeathered()](#getFeathered--) | Gets grayscale mask with the border feathered with the default settings. |
 | [getFeathered(FeatheringSettings settings)](#getFeathered-com.aspose.imaging.magicwand.imagemasks.FeatheringSettings-) | Gets grayscale mask with the border feathered with the specified settings. |
 | [apply()](#apply--) | Applies current mask to the [RasterImage](../../com.aspose.imaging/rasterimage) source, if exists. |
@@ -355,16 +354,6 @@ Gets the opacity of the specified pixel with byte precision.
 
 **Returns:**
 byte - Byte value, representing the opacity of the specified pixel.
-### deepClone() {#deepClone--}
-```
-public abstract Object deepClone()
-```
-
-
-Creates a new object that is a copy of the current instance.
-
-**Returns:**
-java.lang.Object - A new object that is a copy of this instance.
 ### getFeathered() {#getFeathered--}
 ```
 public final ImageGrayscaleMask getFeathered()

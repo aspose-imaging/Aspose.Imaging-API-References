@@ -1,7 +1,7 @@
 ---
 title: TransparencySupporter Class
 type: docs
-weight: 7810
+weight: 7860
 url: /python-net/aspose.imaging/transparencysupporter/
 ---
 

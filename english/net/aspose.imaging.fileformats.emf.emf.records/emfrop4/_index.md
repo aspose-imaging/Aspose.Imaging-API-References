@@ -3,7 +3,7 @@ title: Class EmfRop4
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRop4 class. A quaternary raster operation which specifies ternary raster operations for the foreground and background colors of a bitmap. These values define how the color data of the source rectangle is to be combined with the color data of the destination rectangle
 type: docs
-weight: 4270
+weight: 4310
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 ---
 ## EmfRop4 class

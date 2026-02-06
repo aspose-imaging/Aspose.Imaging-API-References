@@ -3,7 +3,7 @@ title: Class EmfAbortPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfAbortPath class. This record aborts a path bracket or discards the path from a closed path bracket
 type: docs
-weight: 3240
+weight: 3280
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfabortpath/
 ---
 ## EmfAbortPath class

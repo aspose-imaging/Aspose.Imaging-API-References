@@ -1,7 +1,7 @@
 ---
 title: NoiseReductionType Enumeration
 type: docs
-weight: 80
+weight: 100
 url: /python-net/aspose.imaging.imageloadoptions/noisereductiontype/
 ---
 

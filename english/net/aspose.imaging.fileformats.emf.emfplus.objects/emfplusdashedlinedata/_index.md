@@ -3,7 +3,7 @@ title: Class EmfPlusDashedLineData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusDashedLineData class. The EmfPlusDashedLineData object specifies properties of a dashed line for a graphics pen
 type: docs
-weight: 5500
+weight: 5540
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/
 ---
 ## EmfPlusDashedLineData class

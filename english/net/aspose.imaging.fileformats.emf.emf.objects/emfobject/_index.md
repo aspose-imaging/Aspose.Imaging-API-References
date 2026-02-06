@@ -3,7 +3,7 @@ title: Class EmfObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfObject class. Base class for Emf objects
 type: docs
-weight: 3150
+weight: 3190
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfobject/
 ---
 ## EmfObject class

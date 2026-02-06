@@ -3,7 +3,7 @@ title: Class EmfPlusBeginContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusBeginContainer class. The EmfPlusBeginContainer record opens a new graphics state container and specifies a transform for it
 type: docs
-weight: 5920
+weight: 5960
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/
 ---
 ## EmfPlusBeginContainer class

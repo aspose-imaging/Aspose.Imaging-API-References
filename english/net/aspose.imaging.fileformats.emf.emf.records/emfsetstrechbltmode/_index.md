@@ -3,7 +3,7 @@ title: Class EmfSetStrechBltMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetStrechBltMode class. The EMR_SETSTRETCHBLTMODE record specifies bitmap stretch mode
 type: docs
-weight: 4560
+weight: 4600
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/
 ---
 ## EmfSetStrechBltMode class

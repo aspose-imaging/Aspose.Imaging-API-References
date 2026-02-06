@@ -3,7 +3,7 @@ title: com.aspose.imaging.masking.options
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles ImageMasking.Options processing.
 type: docs
-weight: 99
+weight: 101
 url: /java/com.aspose.imaging.masking.options/
 ---
 

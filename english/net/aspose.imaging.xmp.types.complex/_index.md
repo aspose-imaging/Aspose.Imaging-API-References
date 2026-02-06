@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Types.Complex
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes that represent the complex type values of XMP properties
 type: docs
-weight: 1110
+weight: 1130
 url: /net/aspose.imaging.xmp.types.complex/
 ---
 The namespace contains classes that represent the complex type values of XMP properties.

@@ -3,7 +3,7 @@ title: Enum EmfColorAdjustmentEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfColorAdjustmentEnum enum. The ColorAdjustment enumeration is used to specify how the output image should be prepared when the stretch mode is HALFTONE
 type: docs
-weight: 2620
+weight: 2660
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcoloradjustmentenum/
 ---
 ## EmfColorAdjustmentEnum enumeration

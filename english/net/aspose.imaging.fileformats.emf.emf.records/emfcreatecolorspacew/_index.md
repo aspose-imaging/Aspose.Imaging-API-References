@@ -3,7 +3,7 @@ title: Class EmfCreateColorSpaceW
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateColorSpaceW class. The EMR_CREATECOLORSPACEW record creates a logical color space object from a color profile with a name consisting of Unicode characters
 type: docs
-weight: 3540
+weight: 3580
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/
 ---
 ## EmfCreateColorSpaceW class

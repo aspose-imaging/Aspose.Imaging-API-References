@@ -3,7 +3,7 @@ title: Class OdGradientBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Brush.OdGradientBrush class. The gradient fill
 type: docs
-weight: 6980
+weight: 7020
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/
 ---
 ## OdGradientBrush class

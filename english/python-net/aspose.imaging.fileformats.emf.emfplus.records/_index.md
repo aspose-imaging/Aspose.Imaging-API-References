@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.emf.emfplus.records
 type: docs
-weight: 420
+weight: 440
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/
 ---
 

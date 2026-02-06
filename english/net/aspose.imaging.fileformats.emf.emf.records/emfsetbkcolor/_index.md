@@ -3,7 +3,7 @@ title: Class EmfSetBkColor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetBkColor class. The EMR_SETBKCOLOR record specifies the background color
 type: docs
-weight: 4360
+weight: 4400
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/
 ---
 ## EmfSetBkColor class

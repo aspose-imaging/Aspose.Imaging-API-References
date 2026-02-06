@@ -3,7 +3,7 @@ title: Class EmfPathBracketRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPathBracketRecordType class. The path bracket record types specify and manipulate paths in path brackets. Note None of the path bracket records specify parameters
 type: docs
-weight: 3980
+weight: 4020
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecordtype/
 ---
 ## EmfPathBracketRecordType class

@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Jpeg2000
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Jpeg2000 file format processing
 type: docs
-weight: 500
+weight: 520
 url: /net/aspose.imaging.fileformats.jpeg2000/
 ---
 The namespace handles Jpeg2000 file format processing.

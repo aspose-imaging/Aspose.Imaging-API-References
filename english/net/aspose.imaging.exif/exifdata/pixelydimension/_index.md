@@ -3,7 +3,7 @@ title: ExifData.PixelYDimension
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the pixel y dimension
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.imaging.exif/exifdata/pixelydimension/
 ---
 ## ExifData.PixelYDimension property

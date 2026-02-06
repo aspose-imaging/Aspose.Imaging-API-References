@@ -22,6 +22,7 @@ Color mode for jpeg images.
 | [Cmyk](#Cmyk) | 4-component CMYK image. |
 | [Ycck](#Ycck) | The ycck color jpeg image. |
 | [Rgb](#Rgb) | The RGB Color mode. |
+| [Auto](#Auto) | The automatic |
 ### Grayscale {#Grayscale}
 ```
 public static final int Grayscale
@@ -61,4 +62,12 @@ public static final int Rgb
 
 
 The RGB Color mode.
+
+### Auto {#Auto}
+```
+public static final int Auto
+```
+
+
+The automatic
 

@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.tiff.filemanagement
 type: docs
-weight: 680
+weight: 700
 url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/
 ---
 

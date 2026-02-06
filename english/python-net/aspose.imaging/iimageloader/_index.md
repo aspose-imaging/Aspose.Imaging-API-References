@@ -1,7 +1,7 @@
 ---
 title: IImageLoader Class
 type: docs
-weight: 5300
+weight: 5340
 url: /python-net/aspose.imaging/iimageloader/
 ---
 

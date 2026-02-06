@@ -3,7 +3,7 @@ title: Class EmfPlusImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusImage class. The EmfPlusImage object specifies a graphics image in the form of a bitmap or metafile
 type: docs
-weight: 5580
+weight: 5620
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/
 ---
 ## EmfPlusImage class

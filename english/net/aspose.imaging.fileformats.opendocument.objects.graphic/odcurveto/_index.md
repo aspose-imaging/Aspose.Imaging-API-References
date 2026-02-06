@@ -3,7 +3,7 @@ title: Class OdCurveTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdCurveTo class. The Enhanced CurveTo
 type: docs
-weight: 7090
+weight: 7130
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/
 ---
 ## OdCurveTo class

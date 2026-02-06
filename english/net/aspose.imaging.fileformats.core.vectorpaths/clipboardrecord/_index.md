@@ -3,7 +3,7 @@ title: Class ClipboardRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Core.VectorPaths.ClipboardRecord class. Clipboard Record Class
 type: docs
-weight: 2340
+weight: 2380
 url: /net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
 ---
 ## ClipboardRecord class

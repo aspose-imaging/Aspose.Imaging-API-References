@@ -3,7 +3,7 @@ title: Enum WmfTextAlignmentModeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfTextAlignmentModeFlags enum. TextAlignmentMode Flags specify the relationship between a reference point and a bounding rectangle for text alignment. These flags can be combined to specify multiple options with the restriction that only one flag can be chosen that alters the drawing position in the playback device context. Horizontal text alignment is performed when the font has a horizontal default baseline
 type: docs
-weight: 8490
+weight: 8530
 url: /net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/
 ---
 ## WmfTextAlignmentModeFlags enumeration

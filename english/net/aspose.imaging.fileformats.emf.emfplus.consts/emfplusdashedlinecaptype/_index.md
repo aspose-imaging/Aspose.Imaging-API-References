@@ -3,7 +3,7 @@ title: Enum EmfPlusDashedLineCapType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusDashedLineCapType enum. The DashedLineCapType enumeration defines types of line caps to use at the ends of dashed lines that are drawn with graphics pens
 type: docs
-weight: 4860
+weight: 4900
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdashedlinecaptype/
 ---
 ## EmfPlusDashedLineCapType enumeration

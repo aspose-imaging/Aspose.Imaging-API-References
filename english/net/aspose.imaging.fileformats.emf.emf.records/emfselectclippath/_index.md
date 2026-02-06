@@ -3,7 +3,7 @@ title: Class EmfSelectClipPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectClipPath class. The EMR_SELECTCLIPPATH record specifies the current path as a clipping region for a playback device context combining the new region with any existing clipping region using the specified mode
 type: docs
-weight: 4320
+weight: 4360
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
 ---
 ## EmfSelectClipPath class

@@ -1,7 +1,7 @@
 ---
 title: RasterCachedMultipageImage Class
 type: docs
-weight: 7000
+weight: 7050
 url: /python-net/aspose.imaging/rastercachedmultipageimage/
 ---
 

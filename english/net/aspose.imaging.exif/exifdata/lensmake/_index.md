@@ -3,7 +3,7 @@ title: ExifData.LensMake
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the maker of lens
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.imaging.exif/exifdata/lensmake/
 ---
 ## ExifData.LensMake property

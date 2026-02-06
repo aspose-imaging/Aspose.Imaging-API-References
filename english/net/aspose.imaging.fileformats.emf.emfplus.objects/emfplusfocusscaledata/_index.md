@@ -3,7 +3,7 @@ title: Class EmfPlusFocusScaleData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusFocusScaleData class. The EmfPlusFocusScaleData object specifies focus scales for the blend pattern of a path gradient brush
 type: docs
-weight: 5520
+weight: 5560
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/
 ---
 ## EmfPlusFocusScaleData class

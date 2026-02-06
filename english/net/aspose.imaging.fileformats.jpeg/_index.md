@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Jpeg
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Jpeg file format processing
 type: docs
-weight: 490
+weight: 510
 url: /net/aspose.imaging.fileformats.jpeg/
 ---
 The namespace handles Jpeg file format processing.

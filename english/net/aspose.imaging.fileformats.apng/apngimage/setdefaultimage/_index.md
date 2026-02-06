@@ -1,14 +1,14 @@
 ---
 title: ApngImage.SetDefaultImage
 second_title: Aspose.Imaging for .NET API Reference
-description: ApngImage method. Set the specified raster image as the default image for the current animation effortlessly with this method. Perfect for developers seeking to customize the default image in their animations
+description: ApngImage method. Sets the default image taht is displayed by decoders that do not support APNG. ApngImage class uses first element of Pages as the default main page
 type: docs
 weight: 330
 url: /net/aspose.imaging.fileformats.apng/apngimage/setdefaultimage/
 ---
 ## ApngImage.SetDefaultImage method
 
-Set the specified raster image as the default image for the current animation effortlessly with this method. Perfect for developers seeking to customize the default image in their animations.
+Sets the "default image" taht is displayed by decoders that do not support APNG. [`ApngImage`](../) class uses first element of [`Pages`](../pages/) as the default (main) page.
 
 ```csharp
 public void SetDefaultImage(RasterImage image)

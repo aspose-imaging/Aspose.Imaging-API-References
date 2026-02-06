@@ -3,7 +3,7 @@ title: Enum WmfBinaryRasterOperation
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfBinaryRasterOperation enum. The BinaryRasterOperation Enumeration section lists the binary rasteroperation codes. Raster operation codes define how metafile processing combines the bits from the selected pen with the bits in the destination bitmap
 type: docs
-weight: 8240
+weight: 8280
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/
 ---
 ## WmfBinaryRasterOperation enumeration

@@ -3,7 +3,7 @@ title: Class EmfPlusColorMatrixEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusColorMatrixEffect class. The ColorMatrixEffect object specifies an affine transform to be applied to an image
 type: docs
-weight: 5400
+weight: 5440
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/
 ---
 ## EmfPlusColorMatrixEffect class

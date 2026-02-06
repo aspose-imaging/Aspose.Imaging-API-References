@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.imagefilters.complexutils
 type: docs
-weight: 800
+weight: 820
 url: /python-net/aspose.imaging.imagefilters.complexutils/
 ---
 

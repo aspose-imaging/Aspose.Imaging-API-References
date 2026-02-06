@@ -3,7 +3,7 @@ title: Class WmfSetViewportExt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetViewportExt class. The META_SETVIEWPORTEXT record sets the horizontal and vertical extents of the viewport in the playback device context
 type: docs
-weight: 9340
+weight: 9380
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportext/
 ---
 ## WmfSetViewportExt class

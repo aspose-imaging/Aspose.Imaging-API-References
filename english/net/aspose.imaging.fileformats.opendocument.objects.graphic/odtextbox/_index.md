@@ -3,7 +3,7 @@ title: Class OdTextBox
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdTextBox class. The text box
 type: docs
-weight: 7350
+weight: 7390
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextbox/
 ---
 ## OdTextBox class

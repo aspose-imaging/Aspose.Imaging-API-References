@@ -3,7 +3,7 @@ title: Class EmfGlsRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfGlsRecord class. The EMR_GLSRECORD record specifies an OpenGL function
 type: docs
-weight: 3810
+weight: 3850
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 ---
 ## EmfGlsRecord class

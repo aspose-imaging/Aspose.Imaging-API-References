@@ -3,7 +3,7 @@ title: Class EmfPlusCompoundLineData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCompoundLineData class. The EmfPlusCompoundLineData object specifies line and space data for a compound line
 type: docs
-weight: 5410
+weight: 5450
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/
 ---
 ## EmfPlusCompoundLineData class

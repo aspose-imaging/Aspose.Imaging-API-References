@@ -3,7 +3,7 @@ title: Class EmfPlusBoundaryPathData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBoundaryPathData class. The EmfPlusBoundaryPathData object specifies a graphics path boundary for a gradient brush
 type: docs
-weight: 5320
+weight: 5360
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/
 ---
 ## EmfPlusBoundaryPathData class

@@ -3,7 +3,7 @@ title: Enum WmfColorUsageEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfColorUsageEnum enum. The ColorUsage Enumeration specifies whether a color table exists in a deviceindependent bitmapDIB and how to interpret its values
 type: docs
-weight: 8280
+weight: 8320
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/
 ---
 ## WmfColorUsageEnum enumeration

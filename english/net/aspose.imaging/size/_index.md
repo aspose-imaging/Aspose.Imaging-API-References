@@ -3,7 +3,7 @@ title: Struct Size
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Size struct. Represents size
 type: docs
-weight: 11560
+weight: 11620
 url: /net/aspose.imaging/size/
 ---
 ## Size structure

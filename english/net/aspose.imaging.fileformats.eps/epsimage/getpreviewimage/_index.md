@@ -20,7 +20,7 @@ public Image GetPreviewImage(EpsPreviewFormat format = EpsPreviewFormat.Default)
 
 ### Return Value
 
-The exisiting preview image or `null`.
+The existing preview image or `null`.
 
 ### Exceptions
 

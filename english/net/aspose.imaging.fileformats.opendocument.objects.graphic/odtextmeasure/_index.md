@@ -3,7 +3,7 @@ title: Class OdTextMeasure
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdTextMeasure class. The text measure
 type: docs
-weight: 7360
+weight: 7400
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/
 ---
 ## OdTextMeasure class

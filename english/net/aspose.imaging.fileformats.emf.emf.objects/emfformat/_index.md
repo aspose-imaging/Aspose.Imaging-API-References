@@ -3,7 +3,7 @@ title: Class EmfFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfFormat class. The EmrFormat object contains information that identifies the format of image data in an EMR_COMMENT_MULTIFORMATS recordsection 2.3.3.4.3
 type: docs
-weight: 3010
+weight: 3050
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfformat/
 ---
 ## EmfFormat class

@@ -3,7 +3,7 @@ title: Class WmfEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfEllipse class. The META_ELLIPSE record draws an ellipse. The center of the ellipse is the center of the specified bounding rectangle. The ellipse is outlined by using the pen and is filled by using the brush these are defined in the playback device context
 type: docs
-weight: 8760
+weight: 8800
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfellipse/
 ---
 ## WmfEllipse class

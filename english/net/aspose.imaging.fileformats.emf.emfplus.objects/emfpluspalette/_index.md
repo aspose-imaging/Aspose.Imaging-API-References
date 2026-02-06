@@ -3,7 +3,7 @@ title: Class EmfPlusPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPalette class. The EmfPlusPalette object specifies the colors that make up a palette
 type: docs
-weight: 5680
+weight: 5720
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette/
 ---
 ## EmfPlusPalette class

@@ -3,7 +3,7 @@ title: Class OdPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdPath class. The open document object path
 type: docs
-weight: 7280
+weight: 7320
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/
 ---
 ## OdPath class

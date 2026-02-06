@@ -3,7 +3,7 @@ title: Class EmfPanose
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfPanose class. The Panose object describes the PANOSE fontclassification values for a TrueType font. These characteristics are used to associate the font with other fonts of similar appearance but different names
 type: docs
-weight: 3160
+weight: 3200
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/
 ---
 ## EmfPanose class

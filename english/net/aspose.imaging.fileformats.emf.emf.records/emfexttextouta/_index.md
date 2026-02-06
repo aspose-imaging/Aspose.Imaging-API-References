@@ -3,7 +3,7 @@ title: Class EmfExtTextOutA
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExtTextOutA class. The EMR_EXTTEXTOUTA record draws an ASCII text string using the current font and text colors
 type: docs
-weight: 3730
+weight: 3770
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/
 ---
 ## EmfExtTextOutA class

@@ -3,7 +3,7 @@ title: Class EmfArcTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfArcTo class. The EMR_ARCTO record specifies an elliptical arc. It resets the current position to the end point of the arc
 type: docs
-weight: 3280
+weight: 3320
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfarcto/
 ---
 ## EmfArcTo class

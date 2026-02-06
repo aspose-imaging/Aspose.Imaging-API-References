@@ -3,7 +3,7 @@ title: Class DngImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Dng.DngImage class. The API for processing DNG Digital Negative image file format used for digital photography needs by providing comprehensive support for raw files and metadata. Designed for use with digital cameras across various manufacturers it enables developers to manipulate aspects like bits per pixel extract internal data and adjust image balance efficiently. With capabilities to update and save image data seamlessly this API empowers developers to work with DNG files ensuring highquality results and versatile processing options
 type: docs
-weight: 2570
+weight: 2610
 url: /net/aspose.imaging.fileformats.dng/dngimage/
 ---
 ## DngImage class

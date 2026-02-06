@@ -3,7 +3,7 @@ title: Class EmfRegionData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfRegionData class. The RegionData object specifies data that defines a region which is made of nonoverlapping rectangles
 type: docs
-weight: 3190
+weight: 3230
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/
 ---
 ## EmfRegionData class

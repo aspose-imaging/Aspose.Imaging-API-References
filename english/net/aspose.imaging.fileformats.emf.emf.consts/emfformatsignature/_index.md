@@ -3,7 +3,7 @@ title: Enum EmfFormatSignature
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfFormatSignature enum. The FormatSignature enumeration defines values that are used to identify the format of embedded data in EMF records
 type: docs
-weight: 2710
+weight: 2750
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfformatsignature/
 ---
 ## EmfFormatSignature enumeration

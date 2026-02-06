@@ -3,7 +3,7 @@ title: Enum EmfPlusCompositingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusCompositingMode enum. The CompositingMode enumeration defines modes for combining source colors with background colors. The compositing mode represents the enable state of alpha blending
 type: docs
-weight: 4800
+weight: 4840
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
 ---
 ## EmfPlusCompositingMode enumeration

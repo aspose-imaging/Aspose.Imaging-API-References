@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 5010
+weight: 5030
 url: /python-net/aspose.imaging/graphics/
 ---
 

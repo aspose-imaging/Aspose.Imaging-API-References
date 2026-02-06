@@ -1,7 +1,7 @@
 ---
 title: Shape Class
 type: docs
-weight: 7190
+weight: 7240
 url: /python-net/aspose.imaging/shape/
 ---
 

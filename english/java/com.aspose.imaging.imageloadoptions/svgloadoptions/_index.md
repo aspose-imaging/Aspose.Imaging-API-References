@@ -3,7 +3,7 @@ title: SvgLoadOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Svg load options.
 type: docs
-weight: 17
+weight: 19
 url: /java/com.aspose.imaging.imageloadoptions/svgloadoptions/
 ---
 **Inheritance:**

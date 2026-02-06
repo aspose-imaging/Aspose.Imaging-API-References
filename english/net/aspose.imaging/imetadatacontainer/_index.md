@@ -3,7 +3,7 @@ title: Interface IMetadataContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IMetadataContainer interface. Image metadata container interface
 type: docs
-weight: 9690
+weight: 9730
 url: /net/aspose.imaging/imetadatacontainer/
 ---
 ## IMetadataContainer interface

@@ -3,7 +3,7 @@ title: Class WmfEscapeRecordBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords.WmfEscapeRecordBase class. The escape record base
 type: docs
-weight: 8540
+weight: 8580
 url: /net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/
 ---
 ## WmfEscapeRecordBase class

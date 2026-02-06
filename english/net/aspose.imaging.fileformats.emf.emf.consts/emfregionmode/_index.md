@@ -3,7 +3,7 @@ title: Enum EmfRegionMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfRegionMode enum. The RegionMode enumeration defines values that are used with EMR_SELECTCLIPPATH and EMR_EXTSELECTCLIPRGN specifying the current path or a new region that is being combined with the current clip region
 type: docs
-weight: 2880
+weight: 2920
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfregionmode/
 ---
 ## EmfRegionMode enumeration

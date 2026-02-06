@@ -3,7 +3,7 @@ title: Enum OdPenStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Pen.OdPenStyle enum. The open document pen style
 type: docs
-weight: 7430
+weight: 7470
 url: /net/aspose.imaging.fileformats.opendocument.objects.pen/odpenstyle/
 ---
 ## OdPenStyle enumeration

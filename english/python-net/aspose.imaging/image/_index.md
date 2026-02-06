@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5610
+weight: 5650
 url: /python-net/aspose.imaging/image/
 ---
 

@@ -3,7 +3,7 @@ title: Class WmfSetPolyFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetPolyFillMode class. The set poly fill mode
 type: docs
-weight: 9260
+weight: 9300
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 ---
 ## WmfSetPolyFillMode class

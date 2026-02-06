@@ -3,7 +3,7 @@ title: Class EmfPlusSerializableObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject class. The EmfPlusSerializableObject record defines an image effects parameter block that has been serialized into a data buffer
 type: docs
-weight: 6350
+weight: 6390
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/
 ---
 ## EmfPlusSerializableObject class

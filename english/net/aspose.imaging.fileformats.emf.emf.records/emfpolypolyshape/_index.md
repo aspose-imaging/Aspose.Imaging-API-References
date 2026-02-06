@@ -3,7 +3,7 @@ title: Class EmfPolyPolyShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyPolyShape class. base EMF poly polyshape class
 type: docs
-weight: 4080
+weight: 4120
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyshape/
 ---
 ## EmfPolyPolyShape class

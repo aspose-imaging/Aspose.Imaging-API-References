@@ -3,7 +3,7 @@ title: Class EmfBitFix28To4
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfBitFix28To4 class. The BitFIX28_4 object defines a numeric value in 28.4 bit FIX notation
 type: docs
-weight: 2970
+weight: 3010
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/
 ---
 ## EmfBitFix28To4 class

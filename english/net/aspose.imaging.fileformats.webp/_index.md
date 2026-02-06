@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Webp
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles WebP file format processing
 type: docs
-weight: 710
+weight: 730
 url: /net/aspose.imaging.fileformats.webp/
 ---
 The namespace handles WebP file format processing.

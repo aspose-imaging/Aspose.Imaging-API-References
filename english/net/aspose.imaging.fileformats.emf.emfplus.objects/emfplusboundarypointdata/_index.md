@@ -3,7 +3,7 @@ title: Class EmfPlusBoundaryPointData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBoundaryPointData class. The EmfPlusBoundaryPointData object specifies a closed cardinal spline boundary for a gradient brush
 type: docs
-weight: 5330
+weight: 5370
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/
 ---
 ## EmfPlusBoundaryPointData class

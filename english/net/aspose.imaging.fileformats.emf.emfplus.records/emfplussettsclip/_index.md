@@ -3,7 +3,7 @@ title: Class EmfPlusSetTsClip
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetTsClip class. The EmfPlusSetTSClip record specifies clipping areas in the graphics device context for a terminal server
 type: docs
-weight: 6480
+weight: 6520
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/
 ---
 ## EmfPlusSetTsClip class

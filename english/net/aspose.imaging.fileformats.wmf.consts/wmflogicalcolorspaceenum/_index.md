@@ -3,7 +3,7 @@ title: Enum WmfLogicalColorSpaceEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfLogicalColorSpaceEnum enum. The LogicalColorSpace Enumeration specifies the type of color space
 type: docs
-weight: 8350
+weight: 8390
 url: /net/aspose.imaging.fileformats.wmf.consts/wmflogicalcolorspaceenum/
 ---
 ## WmfLogicalColorSpaceEnum enumeration

@@ -1,7 +1,7 @@
 ---
 title: Size Class
 type: docs
-weight: 7220
+weight: 7270
 url: /python-net/aspose.imaging/size/
 ---
 

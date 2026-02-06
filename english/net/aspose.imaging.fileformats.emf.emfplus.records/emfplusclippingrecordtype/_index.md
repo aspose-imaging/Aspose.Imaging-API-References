@@ -3,7 +3,7 @@ title: Class EmfPlusClippingRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusClippingRecordType class. The clipping record types specify clipping regions and operations
 type: docs
-weight: 5950
+weight: 5990
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclippingrecordtype/
 ---
 ## EmfPlusClippingRecordType class

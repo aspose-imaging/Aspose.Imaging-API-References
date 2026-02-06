@@ -3,7 +3,7 @@ title: Class EmfPlusObjectRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObjectRecordType class. The Object Record Types define reusable graphics objects
 type: docs
-weight: 6250
+weight: 6290
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobjectrecordtype/
 ---
 ## EmfPlusObjectRecordType class

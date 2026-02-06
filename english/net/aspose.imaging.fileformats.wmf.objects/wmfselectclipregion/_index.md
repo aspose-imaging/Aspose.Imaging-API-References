@@ -3,7 +3,7 @@ title: Class WmfSelectClipRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectClipRegion class. The META_SELECTCLIPREGION record specifies a Region Object section 2.2.1.5 to be the current clipping region
 type: docs
-weight: 9150
+weight: 9190
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/
 ---
 ## WmfSelectClipRegion class

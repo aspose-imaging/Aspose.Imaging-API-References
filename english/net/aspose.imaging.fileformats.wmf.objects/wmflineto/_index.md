@@ -3,7 +3,7 @@ title: Class WmfLineTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfLineTo class. The META_LINETO record draws a line from the drawing position that is defined in the playback device context up to but not including the specified point
 type: docs
-weight: 8880
+weight: 8920
 url: /net/aspose.imaging.fileformats.wmf.objects/wmflineto/
 ---
 ## WmfLineTo class

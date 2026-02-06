@@ -3,7 +3,7 @@ title: Class EmfPlusBrightnessContrastEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusBrightnessContrastEffect class. The BrightnessContrastEffect object specifies an expansion or contraction of the lightest and darkest areas of an image
 type: docs
-weight: 5340
+weight: 5380
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/
 ---
 ## EmfPlusBrightnessContrastEffect class

@@ -3,7 +3,7 @@ title: Class EmfPlusEndContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndContainer class. The EmfPlusEndContainer record closes a graphics state container that was previously opened by a begin container operation
 type: docs
-weight: 6120
+weight: 6160
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer/
 ---
 ## EmfPlusEndContainer class

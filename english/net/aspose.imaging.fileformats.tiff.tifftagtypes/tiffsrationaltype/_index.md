@@ -3,7 +3,7 @@ title: Class TiffSRationalType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffSRationalType class. The tiff signed rational type
 type: docs
-weight: 8150
+weight: 8190
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsrationaltype/
 ---
 ## TiffSRationalType class

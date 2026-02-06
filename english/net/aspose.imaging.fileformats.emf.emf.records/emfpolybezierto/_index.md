@@ -3,7 +3,7 @@ title: Class EmfPolyBezierTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyBezierTo class. The EMR_POLYBEZIERTO record specifies one or more Bezier curves based upon the current position
 type: docs
-weight: 4040
+weight: 4080
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/
 ---
 ## EmfPolyBezierTo class

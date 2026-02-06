@@ -3,7 +3,7 @@ title: Class EmfPlusObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject class. The EmfPlusObject record specifies an object for use in graphics operations. The object definition can span multiple records which is indicated by the value of the Flags field
 type: docs
-weight: 6240
+weight: 6280
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/
 ---
 ## EmfPlusObject class

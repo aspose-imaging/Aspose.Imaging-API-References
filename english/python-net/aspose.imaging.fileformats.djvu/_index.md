@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.djvu
 type: docs
-weight: 290
+weight: 310
 url: /python-net/aspose.imaging.fileformats.djvu/
 ---
 

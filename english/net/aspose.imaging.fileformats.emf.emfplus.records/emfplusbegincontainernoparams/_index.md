@@ -3,7 +3,7 @@ title: Class EmfPlusBeginContainerNoParams
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusBeginContainerNoParams class. The EmfPlusBeginContainerNoParams record opens a new graphics state container
 type: docs
-weight: 5930
+weight: 5970
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainernoparams/
 ---
 ## EmfPlusBeginContainerNoParams class

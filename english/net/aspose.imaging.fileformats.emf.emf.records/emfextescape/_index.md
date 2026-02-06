@@ -3,7 +3,7 @@ title: Class EmfExtEscape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExtEscape class. The EMR_EXTESCAPE record passes arbitrary information to a printer driver. The intent is that the information will not result in drawing being done
 type: docs
-weight: 3700
+weight: 3740
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextescape/
 ---
 ## EmfExtEscape class

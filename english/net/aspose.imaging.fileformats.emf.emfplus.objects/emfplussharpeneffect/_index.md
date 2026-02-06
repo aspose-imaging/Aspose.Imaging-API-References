@@ -3,7 +3,7 @@ title: Class EmfPlusSharpenEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusSharpenEffect class. The SharpenEffect object specifies an increase in the difference in intensity between pixels in an image
 type: docs
-weight: 5840
+weight: 5880
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/
 ---
 ## EmfPlusSharpenEffect class

@@ -3,7 +3,7 @@ title: Interface IIndexedColorConverter
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IIndexedColorConverter interface. The color converter for indexed image formats
 type: docs
-weight: 9680
+weight: 9720
 url: /net/aspose.imaging/iindexedcolorconverter/
 ---
 ## IIndexedColorConverter interface

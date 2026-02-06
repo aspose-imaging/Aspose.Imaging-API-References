@@ -3,7 +3,7 @@ title: Class EmfColorCorrectPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfColorCorrectPalette class. The EMR_COLORCORRECTPALETTE record specifies how to correct the entries of a logical palette object using WCS 1.0 values
 type: docs
-weight: 3380
+weight: 3420
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/
 ---
 ## EmfColorCorrectPalette class

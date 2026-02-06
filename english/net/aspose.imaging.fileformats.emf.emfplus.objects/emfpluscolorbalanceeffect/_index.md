@@ -3,7 +3,7 @@ title: Class EmfPlusColorBalanceEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusColorBalanceEffect class. The ColorBalanceEffect object specifies adjustments to the relative amounts of red green and blue in an image
 type: docs
-weight: 5370
+weight: 5410
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/
 ---
 ## EmfPlusColorBalanceEffect class

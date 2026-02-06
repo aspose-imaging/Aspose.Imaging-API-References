@@ -3,7 +3,7 @@ title: Class EmfSetBkMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetBkMode class. The EMR_SETBKMODE record specifies the background mix mode of the playback device context. The background mix mode is used with text hatched brushes and pen styles that are not solid lines
 type: docs
-weight: 4370
+weight: 4410
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
 ---
 ## EmfSetBkMode class

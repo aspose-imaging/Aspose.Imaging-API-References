@@ -3,7 +3,7 @@ title: Class EmfPlusCustomEndCapData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomEndCapData class. The EmfPlusCustomEndCapData object specifies a custom line cap for the end of a line
 type: docs
-weight: 5440
+weight: 5480
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/
 ---
 ## EmfPlusCustomEndCapData class

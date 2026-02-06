@@ -3,7 +3,7 @@ title: Class EmfPlusFillPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon class. The EmfPlusFillPolygon record specifies filling the interior of a polygon
 type: docs
-weight: 6180
+weight: 6220
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/
 ---
 ## EmfPlusFillPolygon class

@@ -3,7 +3,7 @@ title: ExifData.LensSpecification
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the lens specification
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.imaging.exif/exifdata/lensspecification/
 ---
 ## ExifData.LensSpecification property

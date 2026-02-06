@@ -3,7 +3,7 @@ title: Class EmfPlusDrawLines
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawLines class. The EmfPlusDrawlLines record specifies drawing a series of connected lines
 type: docs
-weight: 6060
+weight: 6100
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines/
 ---
 ## EmfPlusDrawLines class

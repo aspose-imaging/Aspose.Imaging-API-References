@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tiff.tifftagtypes
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Tiff file format tag classes.
 type: docs
-weight: 81
+weight: 83
 url: /java/com.aspose.imaging.fileformats.tiff.tifftagtypes/
 ---
 

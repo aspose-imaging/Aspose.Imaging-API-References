@@ -3,7 +3,7 @@ title: Enum GraphicsUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.GraphicsUnit enum. Specifies the unit of measure for the given data
 type: docs
-weight: 9520
+weight: 9560
 url: /net/aspose.imaging/graphicsunit/
 ---
 ## GraphicsUnit enumeration

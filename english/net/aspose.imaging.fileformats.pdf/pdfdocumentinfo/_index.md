@@ -3,7 +3,7 @@ title: Class PdfDocumentInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Pdf.PdfDocumentInfo class. This class represents set of metadata for document description
 type: docs
-weight: 7490
+weight: 7530
 url: /net/aspose.imaging.fileformats.pdf/pdfdocumentinfo/
 ---
 ## PdfDocumentInfo class

@@ -3,7 +3,7 @@ title: Class DicomOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.DicomOptions class. The API for Digital Imaging and Communications in Medicine DICOM raster image format creation is a specialized tool tailored for medical device applications. It enables the seamless generation of DICOM images crucial for storing medical data and containing vital identification information. With features to and set compression define color types and embed XMP metadata developers can ensure compliance and flexibility in managing DICOM images for medical imaging purposes
 type: docs
-weight: 10220
+weight: 10280
 url: /net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class

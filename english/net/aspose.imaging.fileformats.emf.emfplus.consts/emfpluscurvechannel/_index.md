@@ -3,7 +3,7 @@ title: Enum EmfPlusCurveChannel
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusCurveChannel enum. The CurveChannel enumeration defines color channels that can be affected by a color curve effect adjustment to an image
 type: docs
-weight: 4830
+weight: 4870
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurvechannel/
 ---
 ## EmfPlusCurveChannel enumeration

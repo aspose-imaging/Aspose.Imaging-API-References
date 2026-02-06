@@ -3,7 +3,7 @@ title: Class EmfEscapeRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfEscapeRecordType class. The escape record types execute printer driver functions
 type: docs
-weight: 3660
+weight: 3700
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/
 ---
 ## EmfEscapeRecordType class

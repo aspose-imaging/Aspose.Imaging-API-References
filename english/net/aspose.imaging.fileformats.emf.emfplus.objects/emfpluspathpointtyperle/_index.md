@@ -3,7 +3,7 @@ title: Class EmfPlusPathPointTypeRle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPathPointTypeRle class. The EmfPlusPathPointTypeRle object specifies type values associated with points on a graphics path using RLE compression. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B1RunCount  PointType  B 1 bit If set the path points are on a Bezier curve. If clear the path points are on a graphics line. RunCount 6 bits The run count which is the number of path points to be associated with the type in the PointType field. PointType 1 byte An EmfPlusPathPointType object section 2.2.2.31 that specifies the type to associate with the path points
 type: docs
-weight: 5730
+weight: 5770
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/
 ---
 ## EmfPlusPathPointTypeRle class

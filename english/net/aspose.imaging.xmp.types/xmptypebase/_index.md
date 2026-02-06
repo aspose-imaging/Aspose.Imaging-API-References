@@ -3,7 +3,7 @@ title: Class XmpTypeBase
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.XmpTypeBase class. Represents base class for basic XMP type
 type: docs
-weight: 12280
+weight: 12340
 url: /net/aspose.imaging.xmp.types/xmptypebase/
 ---
 ## XmpTypeBase class

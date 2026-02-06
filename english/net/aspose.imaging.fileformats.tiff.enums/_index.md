@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tiff.Enums
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Tiff file format enumerations
 type: docs
-weight: 650
+weight: 670
 url: /net/aspose.imaging.fileformats.tiff.enums/
 ---
 The namespace contains Tiff file format enumerations.

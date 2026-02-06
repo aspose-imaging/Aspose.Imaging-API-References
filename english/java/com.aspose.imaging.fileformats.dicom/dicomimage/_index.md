@@ -20,7 +20,7 @@ This Class implements Digital Imaging and Communications in Medicine (DICOM) ras
 
 | Constructor | Description |
 | --- | --- |
-| [DicomImage(DicomOptions dicomImage, int width, int height)](#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-) | Initialize a fresh instance of the DicomImage class effortlessly with this constructor, utilizing dicomOptions parameters. |
+| [DicomImage(DicomOptions dicomOptions, int width, int height)](#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-) | Initialize a fresh instance of the DicomImage class effortlessly with this constructor, utilizing dicomOptions parameters. |
 | [DicomImage(InputStream stream, LoadOptions loadOptions)](#DicomImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Initiate a new instance of the DicomImage class smoothly by employing a stream and loadOptions parameters in this constructor. |
 | [DicomImage(InputStream stream)](#DicomImage-java.io.InputStream-) | Create a new instance of the DicomImage class by utilizing a stream parameter in this constructor. |
 ## Methods
@@ -198,9 +198,9 @@ try (Image inputImage = Image.load("original.jpg"))
 }
 ```
 
-### DicomImage(DicomOptions dicomImage, int width, int height) {#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-}
+### DicomImage(DicomOptions dicomOptions, int width, int height) {#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-}
 ```
-public DicomImage(DicomOptions dicomImage, int width, int height)
+public DicomImage(DicomOptions dicomOptions, int width, int height)
 ```
 
 
@@ -209,7 +209,7 @@ Initialize a fresh instance of the DicomImage class effortlessly with this const
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dicomImage | [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) | The dicom options (ignoring now). |
+| dicomOptions | [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) | The dicom options (ignoring now). |
 | width | int | The width. |
 | height | int | The height. |
 

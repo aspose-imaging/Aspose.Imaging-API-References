@@ -3,7 +3,7 @@ title: Aspose.Imaging.Sources
 second_title: Aspose.Imaging for .NET API Reference
 description: Namespace contains different stream sources which are suitable for input or output data flow
 type: docs
-weight: 970
+weight: 990
 url: /net/aspose.imaging.sources/
 ---
 Namespace contains different stream sources which are suitable for input or output data flow.

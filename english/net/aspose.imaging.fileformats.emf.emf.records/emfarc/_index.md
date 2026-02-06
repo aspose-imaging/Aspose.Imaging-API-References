@@ -3,7 +3,7 @@ title: Class EmfArc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfArc class. The EMR_ARC record specifies an elliptical arc
 type: docs
-weight: 3270
+weight: 3310
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfarc/
 ---
 ## EmfArc class

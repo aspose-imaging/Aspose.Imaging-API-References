@@ -3,7 +3,7 @@ title: Class EmfSetLayout
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetLayout class. The EMR_SETLAYOUT record specifies the order in which text and graphics are drawn
 type: docs
-weight: 4450
+weight: 4490
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/
 ---
 ## EmfSetLayout class

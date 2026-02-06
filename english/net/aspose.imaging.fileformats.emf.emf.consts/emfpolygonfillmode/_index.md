@@ -3,7 +3,7 @@ title: Enum EmfPolygonFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfPolygonFillMode enum. The PolygonFillMode enumeration defines values that specify how to calculate the region of a polygon that is to be filled
 type: docs
-weight: 2850
+weight: 2890
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
 ---
 ## EmfPolygonFillMode enumeration

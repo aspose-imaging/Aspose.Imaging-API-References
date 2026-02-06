@@ -3,7 +3,7 @@ title: Class FileOpenSource
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Sources.FileOpenSource class. Represents a file source for opening
 type: docs
-weight: 11610
+weight: 11670
 url: /net/aspose.imaging.sources/fileopensource/
 ---
 ## FileOpenSource class

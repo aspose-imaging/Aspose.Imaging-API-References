@@ -3,7 +3,7 @@ title: Enum WmfRenderMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.WmfRenderMode enum. The render mode enumeration
 type: docs
-weight: 9430
+weight: 9470
 url: /net/aspose.imaging.fileformats.wmf/wmfrendermode/
 ---
 ## WmfRenderMode enumeration

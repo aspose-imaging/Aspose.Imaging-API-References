@@ -3,7 +3,7 @@ title: Class EmfPlusLinePath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusLinePath class. The EmfPlusLinePath object specifies a graphics path for outlining a custom line cap
 type: docs
-weight: 5630
+weight: 5670
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/
 ---
 ## EmfPlusLinePath class

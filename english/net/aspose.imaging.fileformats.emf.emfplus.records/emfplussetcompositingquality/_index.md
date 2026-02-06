@@ -3,7 +3,7 @@ title: Class EmfPlusSetCompositingQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingQuality class. The EmfPlusSetCompositingQuality record specifies the desired level of quality for creating composite images from multiple objects
 type: docs
-weight: 6410
+weight: 6450
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/
 ---
 ## EmfPlusSetCompositingQuality class

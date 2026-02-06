@@ -3,7 +3,7 @@ title: Enum EmfStretchMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfStretchMode enum. The StretchMode enumeration is used to specify how color data is added to or removed from bitmaps that are stretched or compressed
 type: docs
-weight: 2920
+weight: 2960
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/
 ---
 ## EmfStretchMode enumeration

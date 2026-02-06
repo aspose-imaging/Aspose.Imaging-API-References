@@ -3,7 +3,7 @@ title: Class RasterImageExtension
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.RasterImageExtension class. Class with masks extension methods for RasterImage
 type: docs
-weight: 10870
+weight: 10930
 url: /net/aspose.imaging.magicwand/rasterimageextension/
 ---
 ## RasterImageExtension class

@@ -3,7 +3,7 @@ title: Class EmfSetIcmProfileW
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetIcmProfileW class. The EMR_SETICMPROFILEW record specifies a color profile in a file with a name consisting of Unicode characters for graphics output
 type: docs
-weight: 4440
+weight: 4480
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/
 ---
 ## EmfSetIcmProfileW class

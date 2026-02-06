@@ -209,7 +209,7 @@ public long getLength()
 ```
 
 
-Gets or sets the stream length in bytes. This value is less than the `System.IO.Stream.Length` by the starting stream position passed in the StreamContainer constructor.
+Gets or sets the stream length in bytes. This value is less than the Stream\#getLength().getLength() by the starting stream position passed in the StreamContainer constructor.
 
 Value: The stream length.
 
@@ -221,7 +221,7 @@ public void setLength(long value)
 ```
 
 
-Gets or sets the stream length in bytes. This value is less than the `System.IO.Stream.Length` by the starting stream position passed in the StreamContainer constructor.
+Gets or sets the stream length in bytes. This value is less than the Stream\#getLength().getLength() by the starting stream position passed in the StreamContainer constructor.
 
 Value: The stream length.
 

@@ -3,7 +3,7 @@ title: Class MetaObjectList
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.MetaObjectList class. The list of meta objects for EMF EMF and WMF classes
 type: docs
-weight: 6610
+weight: 6650
 url: /net/aspose.imaging.fileformats.emf/metaobjectlist/
 ---
 ## MetaObjectList class

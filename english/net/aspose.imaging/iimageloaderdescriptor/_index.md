@@ -3,7 +3,7 @@ title: Interface IImageLoaderDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.IImageLoaderDescriptor interface. The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome the necessity to contain each image loader instance in memory and multithreading issues
 type: docs
-weight: 9670
+weight: 9710
 url: /net/aspose.imaging/iimageloaderdescriptor/
 ---
 ## IImageLoaderDescriptor interface

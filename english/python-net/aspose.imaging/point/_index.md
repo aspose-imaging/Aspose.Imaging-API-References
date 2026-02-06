@@ -1,7 +1,7 @@
 ---
 title: Point Class
 type: docs
-weight: 6910
+weight: 6960
 url: /python-net/aspose.imaging/point/
 ---
 

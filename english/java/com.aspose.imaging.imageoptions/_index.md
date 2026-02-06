@@ -3,7 +3,7 @@ title: com.aspose.imaging.imageoptions
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains classes suitable for export save or creation of different file formats.
 type: docs
-weight: 93
+weight: 95
 url: /java/com.aspose.imaging.imageoptions/
 ---
 

@@ -3,7 +3,7 @@ title: Class EmfPlusTextureBrushOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusTextureBrushOptionalData class. he EmfPlusTextureBrushOptionalData object specifies optional data for a texture brush
 type: docs
-weight: 5900
+weight: 5940
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/
 ---
 ## EmfPlusTextureBrushOptionalData class

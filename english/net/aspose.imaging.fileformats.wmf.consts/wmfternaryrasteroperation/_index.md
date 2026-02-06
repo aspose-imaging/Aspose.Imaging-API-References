@@ -3,7 +3,7 @@ title: Enum WmfTernaryRasterOperation
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfTernaryRasterOperation enum. Enumeration specifies ternary raster operation codes which define how to combine the bits in a source bitmap with the bits in a destination bitmap
 type: docs
-weight: 8470
+weight: 8510
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
 ---
 ## WmfTernaryRasterOperation enumeration

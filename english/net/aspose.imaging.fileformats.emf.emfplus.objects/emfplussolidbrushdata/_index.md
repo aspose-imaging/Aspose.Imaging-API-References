@@ -3,7 +3,7 @@ title: Class EmfPlusSolidBrushData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusSolidBrushData class. The EmfPlusSolidBrushData object specifies a solid color for a graphics brush
 type: docs
-weight: 5850
+weight: 5890
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrushdata/
 ---
 ## EmfPlusSolidBrushData class

@@ -3,7 +3,7 @@ title: Class EmfFlatternPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfFlatternPath class. This record transforms any curves in the selected path into the playback device context each curve MUST be turned into a sequence of lines
 type: docs
-weight: 3770
+weight: 3810
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/
 ---
 ## EmfFlatternPath class

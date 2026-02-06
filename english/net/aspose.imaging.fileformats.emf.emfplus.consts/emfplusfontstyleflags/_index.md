@@ -3,7 +3,7 @@ title: Enum EmfPlusFontStyleFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusFontStyleFlags enum. The FontStyle flags specify styles of graphics font typefaces. These flags can be combined to specify multiple options
 type: docs
-weight: 4890
+weight: 4930
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfontstyleflags/
 ---
 ## EmfPlusFontStyleFlags enumeration

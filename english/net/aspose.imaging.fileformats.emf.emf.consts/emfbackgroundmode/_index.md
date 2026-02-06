@@ -3,7 +3,7 @@ title: Enum EmfBackgroundMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfBackgroundMode enum. The BackgroundMode enumeration is used to specify the background mode to be used with text hatched brushes and pen styles that are not solid.The background mode determines how to combine the background with foreground text hatched brushes and pen styles that are not solid lines
 type: docs
-weight: 2610
+weight: 2650
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/
 ---
 ## EmfBackgroundMode enumeration

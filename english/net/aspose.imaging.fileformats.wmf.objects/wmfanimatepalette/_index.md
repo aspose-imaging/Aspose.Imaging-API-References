@@ -3,7 +3,7 @@ title: Class WmfAnimatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfAnimatePalette class. The META_ANIMATEPALETTE record redefines entries in the logical palette that is defined in the playback device context with the specified Palette object section 2.2.1.3
 type: docs
-weight: 8550
+weight: 8590
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfanimatepalette/
 ---
 ## WmfAnimatePalette class

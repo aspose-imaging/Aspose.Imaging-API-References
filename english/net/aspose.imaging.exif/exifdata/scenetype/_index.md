@@ -3,7 +3,7 @@ title: ExifData.SceneType
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the scene type
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.imaging.exif/exifdata/scenetype/
 ---
 ## ExifData.SceneType property

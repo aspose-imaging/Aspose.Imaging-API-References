@@ -3,7 +3,7 @@ title: Class EmfForceUfiMapping
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfForceUfiMapping class. The EMR_FORCEUFIMAPPING record forces the font mapper to match fonts based on their UniversalFontId in preference to their LogFont section 2.2.13 information
 type: docs
-weight: 3780
+weight: 3820
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/
 ---
 ## EmfForceUfiMapping class

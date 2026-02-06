@@ -3,7 +3,7 @@ title: Class EmfPlusDrawString
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawString class. The EmfPlusDrawString record specifies text output with string formatting
 type: docs
-weight: 6100
+weight: 6140
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/
 ---
 ## EmfPlusDrawString class

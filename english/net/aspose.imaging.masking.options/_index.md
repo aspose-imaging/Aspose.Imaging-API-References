@@ -3,7 +3,7 @@ title: Aspose.Imaging.Masking.Options
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles ImageMasking.Options processing
 type: docs
-weight: 880
+weight: 900
 url: /net/aspose.imaging.masking.options/
 ---
 The namespace handles ImageMasking.Options processing.

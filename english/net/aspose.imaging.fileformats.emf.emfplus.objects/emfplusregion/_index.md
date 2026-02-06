@@ -3,7 +3,7 @@ title: Class EmfPlusRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusRegion class. The EmfPlusRegion object specifies line and curve segments that define a non rectilinear shape
 type: docs
-weight: 5790
+weight: 5830
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/
 ---
 ## EmfPlusRegion class

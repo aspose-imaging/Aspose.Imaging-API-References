@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.ico
 type: docs
-weight: 500
+weight: 520
 url: /python-net/aspose.imaging.fileformats.ico/
 ---
 

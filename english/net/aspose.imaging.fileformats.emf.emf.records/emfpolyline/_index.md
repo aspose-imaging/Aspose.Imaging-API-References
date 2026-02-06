@@ -3,7 +3,7 @@ title: Class EmfPolyline
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyline class. The EMR_POLYLINE record specifies a series of line segments by connecting the points in the specified array
 type: docs
-weight: 4180
+weight: 4220
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolyline/
 ---
 ## EmfPolyline class

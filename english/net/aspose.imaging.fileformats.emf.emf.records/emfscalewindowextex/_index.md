@@ -3,7 +3,7 @@ title: Class EmfScaleWindowExtex
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfScaleWindowExtex class. The EMR_SCALEWINDOWEXTEX record respecifies the window for a playback device context by using the ratios formed by the specified multiplicands and divisors
 type: docs
-weight: 4310
+weight: 4350
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 ---
 ## EmfScaleWindowExtex class

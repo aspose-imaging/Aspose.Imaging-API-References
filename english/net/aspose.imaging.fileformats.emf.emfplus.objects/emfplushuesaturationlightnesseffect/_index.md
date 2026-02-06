@@ -3,7 +3,7 @@ title: Class EmfPlusHueSaturationLightnessEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusHueSaturationLightnessEffect class. The HueSaturationLightnessEffect object specifies adjustments to the hue saturation and lightness of an image
 type: docs
-weight: 5570
+weight: 5610
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/
 ---
 ## EmfPlusHueSaturationLightnessEffect class

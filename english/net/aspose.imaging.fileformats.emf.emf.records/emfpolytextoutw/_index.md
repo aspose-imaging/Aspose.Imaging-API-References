@@ -3,7 +3,7 @@ title: Class EmfPolyTextOutW
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyTextOutW class. The EMR_POLYTEXTOUTW record draws one or more Unicode text strings using the current font and text colors
 type: docs
-weight: 4150
+weight: 4190
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/
 ---
 ## EmfPolyTextOutW class

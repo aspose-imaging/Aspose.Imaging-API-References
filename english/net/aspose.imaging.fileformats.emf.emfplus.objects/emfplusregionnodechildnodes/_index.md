@@ -3,7 +3,7 @@ title: Class EmfPlusRegionNodeChildNodes
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusRegionNodeChildNodes class. The EmfPlusRegionNodeChildNodes object specifies child nodes of a graphics region node
 type: docs
-weight: 5810
+weight: 5850
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/
 ---
 ## EmfPlusRegionNodeChildNodes class

@@ -3,7 +3,7 @@ title: Enum EmfPlusHotkeyPrefix
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusHotkeyPrefix enum. The HotkeyPrefix enumeration defines output options for hotkey prefixes in graphics text
 type: docs
-weight: 4920
+weight: 4960
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushotkeyprefix/
 ---
 ## EmfPlusHotkeyPrefix enumeration

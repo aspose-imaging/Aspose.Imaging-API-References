@@ -3,7 +3,7 @@ title: Class OdFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdFrame class. The open document object frame
 type: docs
-weight: 7150
+weight: 7190
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odframe/
 ---
 ## OdFrame class

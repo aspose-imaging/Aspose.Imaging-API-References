@@ -3,7 +3,7 @@ title: Class EmfRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRecord class. Base class for EMF records All EMF records MUST have a length that is a multiple of 4 bytes. This is depicted in the generic structures of the preceding EMF record types by including AlignmentPadding fields where appropriate at the ends of these structures. The contents of AlignmentPadding fields MUST always be ignored. For brevity these fields are not shown in every individual EMF record definition
 type: docs
-weight: 4230
+weight: 4270
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrecord/
 ---
 ## EmfRecord class

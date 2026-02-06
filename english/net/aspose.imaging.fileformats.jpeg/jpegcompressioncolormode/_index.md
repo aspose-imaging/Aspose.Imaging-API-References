@@ -3,7 +3,7 @@ title: Enum JpegCompressionColorMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode enum. Сolor mode for jpeg images
 type: docs
-weight: 6820
+weight: 6860
 url: /net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/
 ---
 ## JpegCompressionColorMode enumeration
@@ -23,6 +23,7 @@ public enum JpegCompressionColorMode
 | Cmyk | `2` | 4-component CMYK image. |
 | Ycck | `3` | The ycck color jpeg image. Needs icc profile for saving. |
 | Rgb | `4` | The RGB Color mode. |
+| Auto | `5` | The automatic |
 
 ### See Also
 

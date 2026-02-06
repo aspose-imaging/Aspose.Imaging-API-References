@@ -3,7 +3,7 @@ title: Enum EmfPlusCustomLineCapDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusCustomLineCapDataType enum. The CustomLineCapDataType enumeration defines types of custom line cap data which specify styles and shapes for the ends of graphics lines
 type: docs
-weight: 4850
+weight: 4890
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomlinecapdatatype/
 ---
 ## EmfPlusCustomLineCapDataType enumeration

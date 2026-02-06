@@ -3,7 +3,7 @@ title: Class EmfPlusTerminalServerRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTerminalServerRecordType class. The Terminal Server Record Types specify graphics processing on a terminal server. The following are EMF terminal server record types
 type: docs
-weight: 6520
+weight: 6560
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusterminalserverrecordtype/
 ---
 ## EmfPlusTerminalServerRecordType class

@@ -3,7 +3,7 @@ title: Class EmfMetafileHeaderExtension2
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfMetafileHeaderExtension2 class. The EmfMetafileHeaderExtension2 record is the header record used in the second extension to EMF metafiles. Following the EmfHeaderExtension2 field the remaining fields are optional and can be present in any order
 type: docs
-weight: 3890
+weight: 3930
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
 ---
 ## EmfMetafileHeaderExtension2 class

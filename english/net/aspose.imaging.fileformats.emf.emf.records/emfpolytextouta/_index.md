@@ -3,7 +3,7 @@ title: Class EmfPolyTextOutA
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyTextOutA class. The EMR_POLYTEXTOUTA record draws one or more ASCII text strings using the current font and text colors
 type: docs
-weight: 4140
+weight: 4180
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/
 ---
 ## EmfPolyTextOutA class

@@ -3,7 +3,7 @@ title: Class EmfPlusPen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPen class. The EmfPlusPen object specifies a graphics pen for the drawing of lines
 type: docs
-weight: 5740
+weight: 5780
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/
 ---
 ## EmfPlusPen class

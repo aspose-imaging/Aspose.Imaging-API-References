@@ -3,7 +3,7 @@ title: Class EmfWidenPath
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfWidenPath class. This record redefines the current path as the area that would be painted if the path were drawn using the pen currently selected into the playback device context
 type: docs
-weight: 4740
+weight: 4780
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfwidenpath/
 ---
 ## EmfWidenPath class

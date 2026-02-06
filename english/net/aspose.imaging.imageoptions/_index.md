@@ -3,7 +3,7 @@ title: Aspose.Imaging.ImageOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes suitable for export save or creation of different file formats
 type: docs
-weight: 820
+weight: 840
 url: /net/aspose.imaging.imageoptions/
 ---
 The namespace contains classes suitable for export, save or creation of different file formats.

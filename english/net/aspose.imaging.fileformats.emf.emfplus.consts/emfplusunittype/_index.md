@@ -3,7 +3,7 @@ title: Enum EmfPlusUnitType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusUnitType enum. The UnitType enumeration defines units of measurement in different coordinate systems
 type: docs
-weight: 5190
+weight: 5230
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusunittype/
 ---
 ## EmfPlusUnitType enumeration

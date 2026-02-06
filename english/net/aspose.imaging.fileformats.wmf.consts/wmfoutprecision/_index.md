@@ -3,7 +3,7 @@ title: Enum WmfOutPrecision
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfOutPrecision enum. The OutPrecision enumeration defines values for output precision which is the requirement for the font mapper to match specific font parameters including height width character orientation escapement pitch and font type
 type: docs
-weight: 8400
+weight: 8440
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfoutprecision/
 ---
 ## WmfOutPrecision enumeration

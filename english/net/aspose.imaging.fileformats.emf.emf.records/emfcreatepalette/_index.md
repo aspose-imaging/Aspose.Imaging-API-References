@@ -3,7 +3,7 @@ title: Class EmfCreatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreatePalette class. The EMR_CREATEPALETTE record defines a logical palette for graphics operations
 type: docs
-weight: 3570
+weight: 3610
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 ---
 ## EmfCreatePalette class

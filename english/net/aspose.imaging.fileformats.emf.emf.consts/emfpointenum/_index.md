@@ -3,7 +3,7 @@ title: Enum EmfPointEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfPointEnum enum. The Point enumeration is used to specify how a point is to be used in a drawing call
 type: docs
-weight: 2840
+weight: 2880
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpointenum/
 ---
 ## EmfPointEnum enumeration

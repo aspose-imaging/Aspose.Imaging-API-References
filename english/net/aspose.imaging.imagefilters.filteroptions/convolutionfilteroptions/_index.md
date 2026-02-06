@@ -3,7 +3,7 @@ title: Class ConvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.ConvolutionFilterOptions class. The convolution filter options
 type: docs
-weight: 9960
+weight: 10000
 url: /net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 ## ConvolutionFilterOptions class

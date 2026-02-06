@@ -3,7 +3,7 @@ title: Class EmfPolylineTo16
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolylineTo16 class. The EMR_POLYLINETO16 record specifies one or more straight lines based upon the current position. A line is drawn from the current position to the first point specified by the aPoints field by using the current pen. For each additional line drawing is performed from the ending point of the previous line to the next point specified by aPoints
 type: docs
-weight: 4210
+weight: 4250
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/
 ---
 ## EmfPolylineTo16 class

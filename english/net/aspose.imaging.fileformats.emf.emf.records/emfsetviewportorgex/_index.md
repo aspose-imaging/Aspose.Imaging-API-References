@@ -3,7 +3,7 @@ title: Class EmfSetViewportOrgEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetViewportOrgEx class. The EMR_SETVIEWPORTORGEX record defines the viewport origin
 type: docs
-weight: 4610
+weight: 4650
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 ---
 ## EmfSetViewportOrgEx class

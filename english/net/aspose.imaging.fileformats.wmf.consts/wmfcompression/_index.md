@@ -3,7 +3,7 @@ title: Enum WmfCompression
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfCompression enum. The Compression Enumeration specifies the type of compression for a bitmap image
 type: docs
-weight: 8290
+weight: 8330
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfcompression/
 ---
 ## WmfCompression enumeration

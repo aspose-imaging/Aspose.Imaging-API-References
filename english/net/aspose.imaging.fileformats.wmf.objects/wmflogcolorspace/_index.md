@@ -3,7 +3,7 @@ title: Class WmfLogColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfLogColorSpace class. The LogColorSpace object specifies a logical color space for the playback device context which can be the name of a color profile in ASCII characters
 type: docs
-weight: 8890
+weight: 8930
 url: /net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/
 ---
 ## WmfLogColorSpace class

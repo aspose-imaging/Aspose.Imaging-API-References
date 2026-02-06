@@ -3,7 +3,7 @@ title: Class ManualMaskingArgs
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.ManualMaskingArgs class. Represents the arguments that are specified for manual masking method
 type: docs
-weight: 10980
+weight: 11040
 url: /net/aspose.imaging.masking.options/manualmaskingargs/
 ---
 ## ManualMaskingArgs class

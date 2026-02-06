@@ -3,7 +3,7 @@ title: Class EmfPlusDrawCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawCurve class. The EmfPlusDrawCurve record specifies drawing a cardinal spline NOTE ObjectID 1 byte The index of an EmfPlusPen object section 2.2.1.7 in the EMF Object Table to draw the curve. The value MUST be zero to 63 inclusive
 type: docs
-weight: 6010
+weight: 6050
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/
 ---
 ## EmfPlusDrawCurve class

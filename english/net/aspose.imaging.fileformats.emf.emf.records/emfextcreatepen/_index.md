@@ -3,7 +3,7 @@ title: Class EmfExtCreatePen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfExtCreatePen class. The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operations. An optional DIB can be specified to use as the line style
 type: docs
-weight: 3690
+weight: 3730
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 ---
 ## EmfExtCreatePen class

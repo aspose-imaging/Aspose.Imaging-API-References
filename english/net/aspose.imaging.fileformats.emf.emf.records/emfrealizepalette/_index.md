@@ -3,7 +3,7 @@ title: Class EmfRealizePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRealizePalette class. This record maps palette entries from the current LogPalette object section 2.2.17 to the system_palette. This EMF record specifies no parameters
 type: docs
-weight: 4220
+weight: 4260
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/
 ---
 ## EmfRealizePalette class

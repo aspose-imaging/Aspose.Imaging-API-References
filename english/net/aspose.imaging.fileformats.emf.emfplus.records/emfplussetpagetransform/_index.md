@@ -3,7 +3,7 @@ title: Class EmfPlusSetPageTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetPageTransform class. The EmfPlusSetPageTransform record specifies scaling factors and units for converting page space coordinates to device space coordinates
 type: docs
-weight: 6430
+weight: 6470
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/
 ---
 ## EmfPlusSetPageTransform class

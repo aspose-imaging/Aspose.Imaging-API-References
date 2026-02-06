@@ -3,7 +3,7 @@ title: Enum WmfFontQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfFontQuality enum. The FontQuality Enumeration specifies how closely the attributes of the logical font should match those of the physical font when rendering text
 type: docs
-weight: 8320
+weight: 8360
 url: /net/aspose.imaging.fileformats.wmf.consts/wmffontquality/
 ---
 ## WmfFontQuality enumeration

@@ -3,7 +3,7 @@ title: Class WmfSelectPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectPalette class. The META_SELECTPALETTE record defines the current logical palette with a specified Palette Object
 type: docs
-weight: 9170
+weight: 9210
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 ---
 ## WmfSelectPalette class

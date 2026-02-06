@@ -3,7 +3,7 @@ title: Class RasterCachedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterCachedImage class. Represents a raster image supporting raster graphics operations. This image caches pixel data when required
 type: docs
-weight: 11300
+weight: 11360
 url: /net/aspose.imaging/rastercachedimage/
 ---
 ## RasterCachedImage class

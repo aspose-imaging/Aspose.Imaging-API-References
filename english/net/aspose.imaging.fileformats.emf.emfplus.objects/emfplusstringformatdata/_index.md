@@ -3,7 +3,7 @@ title: Class EmfPlusStringFormatData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusStringFormatData class. The EmfPlusStringFormatData object specifies tab stops and character positions for a graphics string
 type: docs
-weight: 5870
+weight: 5910
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/
 ---
 ## EmfPlusStringFormatData class

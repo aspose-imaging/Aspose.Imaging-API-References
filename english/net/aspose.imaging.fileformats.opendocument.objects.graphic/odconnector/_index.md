@@ -3,7 +3,7 @@ title: Class OdConnector
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdConnector class. The connector
 type: docs
-weight: 7070
+weight: 7110
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/
 ---
 ## OdConnector class

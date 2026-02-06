@@ -3,7 +3,7 @@ title: Class EmfLogPenEx
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogPenEx class. The LogPenEx object specifies the style width and color of an extended logical pen
 type: docs
-weight: 3140
+weight: 3180
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/
 ---
 ## EmfLogPenEx class

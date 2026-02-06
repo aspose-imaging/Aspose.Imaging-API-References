@@ -3,7 +3,7 @@ title: Class Image
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Image class. The image is the base class for all type of images
 type: docs
-weight: 9820
+weight: 9860
 url: /net/aspose.imaging/image/
 ---
 ## Image class

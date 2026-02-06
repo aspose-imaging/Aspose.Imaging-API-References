@@ -161,7 +161,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | [SavePixels](../../aspose.imaging/rasterimage/savepixels/)(Rectangle, Color[]) | Saves the pixels. |
 | [SaveRawData](../../aspose.imaging/rasterimage/saverawdata/)(byte[], int, Rectangle, RawDataSettings) | Saves the raw data. |
 | [SetArgb32Pixel](../../aspose.imaging/rasterimage/setargb32pixel/)(int, int, int) | Sets an image 32-bit ARGB pixel for the specified position. |
-| [SetDefaultImage](../../aspose.imaging.fileformats.apng/apngimage/setdefaultimage/)(RasterImage) | Set the specified raster image as the default image for the current animation effortlessly with this method. Perfect for developers seeking to customize the default image in their animations. |
+| [SetDefaultImage](../../aspose.imaging.fileformats.apng/apngimage/setdefaultimage/)(RasterImage) | Sets the "default image" taht is displayed by decoders that do not support APNG. `ApngImage` class uses first element of [`Pages`](./pages/) as the default (main) page. |
 | override [SetPalette](../../aspose.imaging/rasterimage/setpalette/)(IColorPalette, bool) | Sets the image palette. |
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel/)(int, int, Color) | Sets an image pixel for the specified position. |
 | virtual [SetResolution](../../aspose.imaging/rasterimage/setresolution/)(double, double) | Sets the resolution for this [`RasterImage`](../../aspose.imaging/rasterimage/). |

@@ -3,7 +3,7 @@ title: Enum EmfRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfRecordType enum. The RecordType enumeration defines values that uniquely identify EMF records. These values are provided in the Type field of each record
 type: docs
-weight: 2870
+weight: 2910
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/
 ---
 ## EmfRecordType enumeration

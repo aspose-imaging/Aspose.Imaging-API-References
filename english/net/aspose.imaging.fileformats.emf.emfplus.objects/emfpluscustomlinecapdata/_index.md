@@ -3,7 +3,7 @@ title: Class EmfPlusCustomLineCapData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomLineCapData class. The EmfPlusCustomLineCapData object specifies default data for a custom line cap
 type: docs
-weight: 5470
+weight: 5510
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/
 ---
 ## EmfPlusCustomLineCapData class

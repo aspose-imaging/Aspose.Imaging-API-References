@@ -3,7 +3,7 @@ title: Class EmfCommentMultiFormats
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCommentMultiFormats class. The EMR_COMMENT_MULTIFORMATS record specifies an image in multiple graphics formats
 type: docs
-weight: 3460
+weight: 3500
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
 ---
 ## EmfCommentMultiFormats class

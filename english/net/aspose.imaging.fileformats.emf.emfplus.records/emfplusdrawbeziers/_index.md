@@ -3,7 +3,7 @@ title: Class EmfPlusDrawBeziers
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawBeziers class. The EmfPlusDrawBeziers record specifies drawing a sequence of connected Bezier curves. The order for Bezier data points is the start point control point 1 control point 2 and end point. For more information see MSDNDrawBeziers
 type: docs
-weight: 5990
+weight: 6030
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/
 ---
 ## EmfPlusDrawBeziers class

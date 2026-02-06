@@ -3,7 +3,7 @@ title: Aspose.Imaging.Shapes
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains different shapes combined from shape segments
 type: docs
-weight: 950
+weight: 970
 url: /net/aspose.imaging.shapes/
 ---
 The namespace contains different shapes combined from shape segments.

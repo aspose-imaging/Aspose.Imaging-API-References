@@ -3,7 +3,7 @@ title: Class EmfEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfEllipse class. The EMR_ELLIPSE record specifies an ellipse. The center of the ellipse is the center of the specified bounding rectangle. The ellipse is outlined by using the current pen and is filled by using the current brush
 type: docs
-weight: 3630
+weight: 3670
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfellipse/
 ---
 ## EmfEllipse class

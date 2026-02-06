@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.opendocument
 type: docs
-weight: 530
+weight: 550
 url: /python-net/aspose.imaging.fileformats.opendocument/
 ---
 

@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSEMFPLUS Enhanced Metafile Format Plus Extensions 2.2 EMF Objects
 type: docs
-weight: 400
+weight: 420
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/
 ---
 The namespace contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.2 EMF+ Objects

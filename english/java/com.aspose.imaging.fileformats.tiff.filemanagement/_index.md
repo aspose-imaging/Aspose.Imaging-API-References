@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tiff.filemanagement
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Tiff file format stream handling classes.
 type: docs
-weight: 77
+weight: 79
 url: /java/com.aspose.imaging.fileformats.tiff.filemanagement/
 ---
 

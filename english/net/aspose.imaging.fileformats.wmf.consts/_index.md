@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Wmf.Consts
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains types MSWMF Windows Metafile Format 2.1 WMF Constants
 type: docs
-weight: 730
+weight: 750
 url: /net/aspose.imaging.fileformats.wmf.consts/
 ---
 The namespace contains types [MS-WMF]: Windows Metafile Format 2.1 WMF Constants

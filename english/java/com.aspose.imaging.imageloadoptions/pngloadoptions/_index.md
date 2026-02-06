@@ -3,7 +3,7 @@ title: PngLoadOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The png load options.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.aspose.imaging.imageloadoptions/pngloadoptions/
 ---
 **Inheritance:**

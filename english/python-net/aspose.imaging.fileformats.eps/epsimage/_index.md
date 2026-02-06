@@ -781,7 +781,7 @@ Retrieves the existing preview image in the specified _format_ or <br/>         
 
 | Type | Description |
 | :- | :- |
-| [Image](/imaging/python-net/aspose.imaging/image/) | The exisiting preview image or **None**. |
+| [Image](/imaging/python-net/aspose.imaging/image/) | The existing preview image or **None**. |
 
 
 ### Method: get_preview_images() {#get_preview_images__31}

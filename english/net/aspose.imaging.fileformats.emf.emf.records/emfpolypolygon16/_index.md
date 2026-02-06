@@ -3,7 +3,7 @@ title: Class EmfPolyPolygon16
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPolyPolygon16 class. The EMR_POLYPOLYGON16 record specifies a series of closed polygons. Each polygon is outlined using the current pen and filled using the current brush and polygon fill mode. The polygons drawn by this record can overlap
 type: docs
-weight: 4100
+weight: 4140
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/
 ---
 ## EmfPolyPolygon16 class

@@ -3,7 +3,7 @@ title: Class EmfPlusStateRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusStateRecordType class. The State Record Types specify operations on the state of the playback device context
 type: docs
-weight: 6510
+weight: 6550
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusstaterecordtype/
 ---
 ## EmfPlusStateRecordType class

@@ -3,7 +3,7 @@ title: Class PathResource
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.PathResources.PathResource class. Represents Photoshop Path Resource
 type: docs
-weight: 7940
+weight: 7980
 url: /net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 ---
 ## PathResource class

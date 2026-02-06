@@ -3,7 +3,7 @@ title: Class EmfPlusDrawImagePoints
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawImagePoints class. The EmfPlusDrawImagePoints record specifies drawing a scaled image inside a parallelogram
 type: docs
-weight: 6050
+weight: 6090
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/
 ---
 ## EmfPlusDrawImagePoints class

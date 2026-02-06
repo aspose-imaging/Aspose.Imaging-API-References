@@ -3,7 +3,7 @@ title: Class ImageBlendingFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.ImageBlendingFilterOptions class. The image blending filter options
 type: docs
-weight: 10020
+weight: 10060
 url: /net/aspose.imaging.imagefilters.filteroptions/imageblendingfilteroptions/
 ---
 ## ImageBlendingFilterOptions class

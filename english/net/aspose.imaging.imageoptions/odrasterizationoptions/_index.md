@@ -3,7 +3,7 @@ title: Class OdRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.OdRasterizationOptions class. The Od rasterization options
 type: docs
-weight: 10380
+weight: 10440
 url: /net/aspose.imaging.imageoptions/odrasterizationoptions/
 ---
 ## OdRasterizationOptions class

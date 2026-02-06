@@ -3,7 +3,7 @@ title: Class EmfEpsData
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfEpsData class. The EpsData object is a container for EPS data
 type: docs
-weight: 3000
+weight: 3040
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfepsdata/
 ---
 ## EmfEpsData class

@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.dng
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains DNG file format types
 type: docs
-weight: 43
+weight: 45
 url: /java/com.aspose.imaging.fileformats.dng/
 ---
 

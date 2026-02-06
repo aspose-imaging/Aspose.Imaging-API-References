@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.gif.blocks
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains Gif file format entities.
 type: docs
-weight: 58
+weight: 60
 url: /java/com.aspose.imaging.fileformats.gif.blocks/
 ---
 

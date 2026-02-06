@@ -3,7 +3,7 @@ title: Class EmfEof
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfEof class. The EMR_EOF record indicates the end of the metafile and specifies a palette
 type: docs
-weight: 3650
+weight: 3690
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfeof/
 ---
 ## EmfEof class

@@ -3,7 +3,7 @@ title: Aspose.Imaging.MagicWand
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles MagicWand processing
 type: docs
-weight: 840
+weight: 860
 url: /net/aspose.imaging.magicwand/
 ---
 The namespace handles MagicWand processing.

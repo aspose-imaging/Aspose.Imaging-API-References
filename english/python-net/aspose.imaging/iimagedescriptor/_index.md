@@ -1,7 +1,7 @@
 ---
 title: IImageDescriptor Class
 type: docs
-weight: 5270
+weight: 5310
 url: /python-net/aspose.imaging/iimagedescriptor/
 ---
 

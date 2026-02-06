@@ -3,7 +3,7 @@ title: Class Html5CanvasOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.Html5CanvasOptions class. Create HTML5 Canvas files effortlessly with our API allowing you to seamlessly combine elements like forms text images animations and links. Benefit from robust features including tag identifier and encoding settings support ensuring optimal performance and customization for your web projects
 type: docs
-weight: 10290
+weight: 10350
 url: /net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 ## Html5CanvasOptions class

@@ -3,7 +3,7 @@ title: Class EmfSetRop2
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetRop2 class. The EMR_SETROP2 record defines a binary raster operation mode
 type: docs
-weight: 4550
+weight: 4590
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/
 ---
 ## EmfSetRop2 class

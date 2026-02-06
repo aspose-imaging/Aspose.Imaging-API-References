@@ -3,7 +3,7 @@ title: Class EmfChord
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfChord class. The EMR_CHORD record specifies a chord which is a region bounded by the intersection of an ellipse and a line segment called a secant. The chord is outlined by using the current pen and filled by using the current brush
 type: docs
-weight: 3350
+weight: 3390
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 ## EmfChord class

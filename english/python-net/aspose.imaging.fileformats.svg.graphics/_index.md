@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.fileformats.svg.graphics
 type: docs
-weight: 640
+weight: 660
 url: /python-net/aspose.imaging.fileformats.svg.graphics/
 ---
 

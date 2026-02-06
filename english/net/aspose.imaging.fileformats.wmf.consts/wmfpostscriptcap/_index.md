@@ -3,7 +3,7 @@ title: Enum WmfPostScriptCap
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfPostScriptCap enum. The PostScriptCap Enumeration defines lineending types for use with a PostScript printer driver
 type: docs
-weight: 8440
+weight: 8480
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptcap/
 ---
 ## WmfPostScriptCap enumeration

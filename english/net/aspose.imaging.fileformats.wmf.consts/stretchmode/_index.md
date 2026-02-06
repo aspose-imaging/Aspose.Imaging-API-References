@@ -3,7 +3,7 @@ title: Enum StretchMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.StretchMode enum. The StretchMode Enumeration specifies the bitmap stretching mode which defines how the system combines rows or columns of a bitmap with existing pixels
 type: docs
-weight: 8230
+weight: 8270
 url: /net/aspose.imaging.fileformats.wmf.consts/stretchmode/
 ---
 ## StretchMode enumeration

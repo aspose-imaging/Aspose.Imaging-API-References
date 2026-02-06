@@ -3,7 +3,7 @@ title: Enum EventType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ProgressManagement.EventType enum. This enum describes possible progress event types that can occurred during image processing operations
 type: docs
-weight: 11280
+weight: 11340
 url: /net/aspose.imaging.progressmanagement/eventtype/
 ---
 ## EventType enumeration

@@ -3,7 +3,7 @@ title: Class EmfHeaderObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfHeaderObject class. The Header object defines the EMF metafile header. It specifies properties of the device on which the image in the metafile was created
 type: docs
-weight: 3060
+weight: 3100
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/
 ---
 ## EmfHeaderObject class

@@ -3,7 +3,7 @@ title: Class EmfSaveDc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSaveDc class. Saves the current state of playback device context on a stack of states saved by preceding EMR_SAVEDC records if any. The state consists of graphics properties and objects including the currently selected bitmap brush palette font pen and region. An EMR_RESTOREDC record is used to restore the state. This EMF record specifies no parameters
 type: docs
-weight: 4290
+weight: 4330
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsavedc/
 ---
 ## EmfSaveDc class

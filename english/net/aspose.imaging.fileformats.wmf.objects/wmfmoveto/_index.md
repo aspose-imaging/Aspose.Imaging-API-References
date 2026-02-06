@@ -3,7 +3,7 @@ title: Class WmfMoveTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfMoveTo class. The META_MOVETO record sets the output position in the playback device context to a specified point
 type: docs
-weight: 8910
+weight: 8950
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfmoveto/
 ---
 ## WmfMoveTo class

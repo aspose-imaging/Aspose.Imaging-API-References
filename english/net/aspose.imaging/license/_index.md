@@ -3,7 +3,7 @@ title: Class License
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.License class. Provides methods to license the component
 type: docs
-weight: 10680
+weight: 10740
 url: /net/aspose.imaging/license/
 ---
 ## License class

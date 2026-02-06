@@ -3,7 +3,7 @@ title: Class EmfSetPixelV
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetPixelV class. The EMR_SETPIXELV record defines the color of the pixel at the specified logical coordinates
 type: docs
-weight: 4530
+weight: 4570
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
 ---
 ## EmfSetPixelV class

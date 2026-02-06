@@ -3,7 +3,7 @@ title: Class OdLine
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdLine class. The line object
 type: docs
-weight: 7180
+weight: 7220
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odline/
 ---
 ## OdLine class

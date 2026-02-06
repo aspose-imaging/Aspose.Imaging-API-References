@@ -3,7 +3,7 @@ title: Class Shape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shape class. The shape. A continuous set of points connected using a specific rule
 type: docs
-weight: 11430
+weight: 11490
 url: /net/aspose.imaging/shape/
 ---
 ## Shape class

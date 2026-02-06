@@ -3,7 +3,7 @@ title: Class EmfSetWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetWorldTransform class. The EMR_SETWORLDTRANSFORM record specifies a transform for the current worldspace to page space transform in the playback device context
 type: docs
-weight: 4640
+weight: 4680
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform/
 ---
 ## EmfSetWorldTransform class

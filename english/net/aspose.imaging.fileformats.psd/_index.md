@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Psd
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Psd file format processing
 type: docs
-weight: 600
+weight: 620
 url: /net/aspose.imaging.fileformats.psd/
 ---
 The namespace handles Psd file format processing.

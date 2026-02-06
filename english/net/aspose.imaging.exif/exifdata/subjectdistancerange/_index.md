@@ -3,7 +3,7 @@ title: ExifData.SubjectDistanceRange
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the subject distance range
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.imaging.exif/exifdata/subjectdistancerange/
 ---
 ## ExifData.SubjectDistanceRange property

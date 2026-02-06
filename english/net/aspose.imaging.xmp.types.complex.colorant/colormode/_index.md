@@ -3,7 +3,7 @@ title: Enum ColorMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Complex.Colorant.ColorMode enum. Represents color mode
 type: docs
-weight: 12070
+weight: 12130
 url: /net/aspose.imaging.xmp.types.complex.colorant/colormode/
 ---
 ## ColorMode enumeration

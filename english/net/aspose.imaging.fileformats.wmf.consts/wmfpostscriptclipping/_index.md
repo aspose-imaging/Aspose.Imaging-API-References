@@ -3,7 +3,7 @@ title: Enum WmfPostScriptClipping
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfPostScriptClipping enum. The PostScriptClipping Enumeration defines functions that can be applied to the clipping path used for PostScript output
 type: docs
-weight: 8450
+weight: 8490
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptclipping/
 ---
 ## WmfPostScriptClipping enumeration

@@ -3,7 +3,7 @@ title: Class EmfColorAdjustment
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfColorAdjustment class. The ColorAdjustment object defines values for adjusting the colors in source bitmaps in bitblock transfers
 type: docs
-weight: 2980
+weight: 3020
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/
 ---
 ## EmfColorAdjustment class

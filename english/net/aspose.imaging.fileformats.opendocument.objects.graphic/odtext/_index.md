@@ -3,7 +3,7 @@ title: Class OdText
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdText class. The text object
 type: docs
-weight: 7340
+weight: 7380
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odtext/
 ---
 ## OdText class

@@ -3,7 +3,7 @@ title: Class EmfPlusPropertyRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusPropertyRecordType class. The Property Record Types specify properties of the playback device context
 type: docs
-weight: 6270
+weight: 6310
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfpluspropertyrecordtype/
 ---
 ## EmfPlusPropertyRecordType class

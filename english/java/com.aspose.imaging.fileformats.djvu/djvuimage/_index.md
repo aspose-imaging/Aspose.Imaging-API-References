@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class DjvuImage extends RasterCachedMultipageImage
 ```
 
-DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books, integrating text, drawings, images, and photos into a single format. Supporting multi-page operations, you can efficiently access unique document identifiers, count pages, set active pages, and retrieve specific document pages. With features for resizing, rotating, dithering, cropping, grayscale transformation, gamma corrections, adjustments, and filters application, this class empowers precise manipulation and enhancement of DjVu images to meet diverse application needs with ease and precision.
+DjVu document class supports graphics file format and facilitates seamless management of scanned documents and books, integrating text, drawings, images, and photos into a single format. Supporting multipage operations, you can efficiently access unique document identifiers, count pages, set active pages, and retrieve specific document pages. With features for resizing, rotating, dithering, cropping, grayscale transformation, gamma corrections, adjustments, and filters application, this class empowers precise manipulation and enhancement of DjVu images to meet diverse application needs with ease and precision.
 ## Constructors
 
 | Constructor | Description |

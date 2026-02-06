@@ -3,7 +3,7 @@ title: ExifData.LensModel
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the lens model
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.imaging.exif/exifdata/lensmodel/
 ---
 ## ExifData.LensModel property

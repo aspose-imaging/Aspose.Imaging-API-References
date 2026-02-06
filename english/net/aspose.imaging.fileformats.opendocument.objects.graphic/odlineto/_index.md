@@ -3,7 +3,7 @@ title: Class OdLineTo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.Graphic.OdLineTo class. The enhanced lineTo
 type: docs
-weight: 7190
+weight: 7230
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/
 ---
 ## OdLineTo class

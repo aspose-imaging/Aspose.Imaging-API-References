@@ -3,7 +3,7 @@ title: Struct WmfPitchAndFamily
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfPitchAndFamily struct. The PitchAndFamily object specifies the pitch and family properties of a Font object section 2.2.1.2. Pitch refers to the width of the characters and family refers to the general appearance of a font
 type: docs
-weight: 8990
+weight: 9030
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 ---
 ## WmfPitchAndFamily structure

@@ -3,7 +3,7 @@ title: Delegate BeforePageExportAction
 second_title: Aspose.Imaging for .NET API Reference
 description: Before page export action
 type: docs
-weight: 10170
+weight: 10230
 url: /net/aspose.imaging.imageoptions/beforepageexportaction/
 ---
 ## BeforePageExportAction delegate

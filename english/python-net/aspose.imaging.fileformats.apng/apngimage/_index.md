@@ -198,7 +198,7 @@ url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 | [save_with_options(file_path, options)](#save_with_options_file_path_options_121) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_122) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [set_argb_32_pixel(x, y, argb_32_color)](#set_argb_32_pixel_x_y_argb_32_color_123) | Sets an image 32-bit ARGB pixel for the specified position. |
-| [set_default_image(image)](#set_default_image_image_124) | Set the specified raster image as the default image for the current animation<br/>            effortlessly with this method. Perfect for developers seeking to customize<br/>            the default image in their animations. |
+| [set_default_image(image)](#set_default_image_image_124) | Sets the "default image" taht is displayed by decoders that do not support APNG.<br/>            [ApngImage](/imaging/python-net/aspose.imaging.fileformats.apng/apngimage/) class uses first element of [ApngImage.pages](/imaging/python-net/aspose.imaging.fileformats.apng/apngimage/) as the default (main) page. |
 | [set_palette(palette, update_colors)](#set_palette_palette_update_colors_125) | Sets the image palette. |
 | [set_pixel(x, y, color)](#set_pixel_x_y_color_126) | Sets an image pixel for the specified position. |
 | [set_resolution(dpi_x, dpi_y)](#set_resolution_dpi_x_dpi_y_127) | Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
@@ -2544,7 +2544,7 @@ Sets an image 32-bit ARGB pixel for the specified position.
  set_default_image(image) 
 ```
 
-Set the specified raster image as the default image for the current animation<br/>            effortlessly with this method. Perfect for developers seeking to customize<br/>            the default image in their animations.
+Sets the "default image" taht is displayed by decoders that do not support APNG.<br/>            [ApngImage](/imaging/python-net/aspose.imaging.fileformats.apng/apngimage/) class uses first element of [ApngImage.pages](/imaging/python-net/aspose.imaging.fileformats.apng/apngimage/) as the default (main) page.
 
 **Parameters:**
 

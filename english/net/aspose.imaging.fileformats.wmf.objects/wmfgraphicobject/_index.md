@@ -3,7 +3,7 @@ title: Class WmfGraphicObject
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfGraphicObject class. The WMF Graphics Objects specify parameters for graphics output
 type: docs
-weight: 8850
+weight: 8890
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/
 ---
 ## WmfGraphicObject class

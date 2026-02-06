@@ -3,7 +3,7 @@ title: Enum EmfMetafileVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfMetafileVersion enum. The MetafileVersion enumeration defines the interoperability version for EMF metafile
 type: docs
-weight: 2800
+weight: 2840
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmetafileversion/
 ---
 ## EmfMetafileVersion enumeration

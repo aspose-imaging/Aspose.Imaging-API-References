@@ -3,7 +3,7 @@ title: Class WmfStretchDib
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfStretchDib class. The wmf Stretch DIB objetc
 type: docs
-weight: 9390
+weight: 9430
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
 ---
 ## WmfStretchDib class

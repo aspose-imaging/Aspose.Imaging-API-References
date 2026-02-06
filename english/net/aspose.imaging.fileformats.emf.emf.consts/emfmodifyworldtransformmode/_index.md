@@ -3,7 +3,7 @@ title: Enum EmfModifyWorldTransformMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Consts.EmfModifyWorldTransformMode enum. The ModifyWorldTransformMode enumeration defines modes for using specified transform data to modify the worldspace to pagespace transform that is currently defined in the playback device context
 type: docs
-weight: 2820
+weight: 2860
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransformmode/
 ---
 ## EmfModifyWorldTransformMode enumeration

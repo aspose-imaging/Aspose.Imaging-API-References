@@ -3,7 +3,7 @@ title: Class EmfCloseFigure
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCloseFigure class. This record closes an open figure in a path. Processing the EMR_CLOSEFIGURE record MUST close the figure by drawing a line from the current position to the first point of the figure and then it MUST connect the lines by using the line join style.If a figure is closed by processing the EMR_LINETO record instead of the EMR_CLOSEFIGURE record end caps are used to create the corner instead of a join.EMR_LINETO is specified in section 2.3.5.13. The EMR_CLOSEFIGURE record SHOULD only be used if there is an open path bracket in the playback device context. A figure in a path is open unless it is explicitly closed by processing this record
 type: docs
-weight: 3370
+weight: 3410
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfclosefigure/
 ---
 ## EmfCloseFigure class

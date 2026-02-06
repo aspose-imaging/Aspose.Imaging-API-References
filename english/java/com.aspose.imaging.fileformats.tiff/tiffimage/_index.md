@@ -50,7 +50,7 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 | [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Incorporate the specified frame seamlessly into the image, expanding its content and versatility. |
 | [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | Add the frames from the specified image seamlessly into the current frame, consolidating their content and enhancing compositional flexibility. |
 | [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | Integrate the array of frames seamlessly into the image, enriching its content and versatility. |
-| [insertFrame(int index, TiffFrame frameToInsert)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. |
+| [insertFrame(int index, TiffFrame frame)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. |
 | [replaceFrame(int index, TiffFrame frameToReplace)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. |
 | [removeFrame(int index)](#removeFrame-int-) | Effortlessly eliminate the frame identified by its index from the image sequence, streamlining frame management within your application. |
 | [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Efficiently remove the specified frame from the image sequence, facilitating streamlined frame management within your application. |
@@ -817,9 +817,9 @@ Integrate the array of frames seamlessly into the image, enriching its content a
 | --- | --- | --- |
 | frames | [TiffFrame\[\]](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frames array to add |
 
-### insertFrame(int index, TiffFrame frameToInsert) {#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
+### insertFrame(int index, TiffFrame frame) {#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public final void insertFrame(int index, TiffFrame frameToInsert)
+public final void insertFrame(int index, TiffFrame frame)
 ```
 
 
@@ -828,8 +828,8 @@ Insert the new frame at the specified index within the frame sequence, ensuring 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Index of new frame in list of frames |
-| frameToInsert | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frame To Insert. |
+| index | int | The index of `frame`. |
+| frame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frame for insertion. |
 
 ### replaceFrame(int index, TiffFrame frameToReplace) {#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```

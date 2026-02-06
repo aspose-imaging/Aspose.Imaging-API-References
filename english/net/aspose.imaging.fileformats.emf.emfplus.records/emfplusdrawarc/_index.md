@@ -3,7 +3,7 @@ title: Class EmfPlusDrawArc
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawArc class. The EmfPlusDrawArc record specifies drawing the arc of an ellipse
 type: docs
-weight: 5980
+weight: 6020
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/
 ---
 ## EmfPlusDrawArc class

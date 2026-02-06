@@ -3,7 +3,7 @@ title: Class EmfPlusSave
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSave class. The EmfPlusSave record saves the graphics state identified by a specified index on a stack of saved graphics states
 type: docs
-weight: 6330
+weight: 6370
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussave/
 ---
 ## EmfPlusSave class

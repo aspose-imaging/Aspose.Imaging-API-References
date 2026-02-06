@@ -3,7 +3,7 @@ title: Class EmfPlusImageEffectsIdentifiers
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusImageEffectsIdentifiers class. The ImageEffects identifiers define standard GUIDs for specifying graphics image effects. These identifiers are used by device drivers to publish their levels of support for these effects. The identifier constants are defined using the GUID curlybraced string representation MSDTYP section 2.3.4.3
 type: docs
-weight: 4940
+weight: 4980
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
 ---
 ## EmfPlusImageEffectsIdentifiers class

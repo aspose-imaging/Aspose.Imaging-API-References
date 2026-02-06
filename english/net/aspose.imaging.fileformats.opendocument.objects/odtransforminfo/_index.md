@@ -3,7 +3,7 @@ title: Class OdTransformInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.OpenDocument.Objects.OdTransformInfo class. The open document translate info
 type: docs
-weight: 7410
+weight: 7450
 url: /net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
 ---
 ## OdTransformInfo class

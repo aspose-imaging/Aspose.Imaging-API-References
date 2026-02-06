@@ -3,7 +3,7 @@ title: Class WmfSetBkColor
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfSetBkColor class. The META_SETBKCOLOR record sets the background color in the playback device context to a specified color or to the nearest physical color if the device cannot represent the specified color
 type: docs
-weight: 9180
+weight: 9220
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetbkcolor/
 ---
 ## WmfSetBkColor class

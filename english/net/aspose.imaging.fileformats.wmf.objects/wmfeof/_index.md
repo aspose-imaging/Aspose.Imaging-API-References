@@ -3,7 +3,7 @@ title: Class WmfEof
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfEof class. The Eof object
 type: docs
-weight: 8770
+weight: 8810
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfeof/
 ---
 ## WmfEof class
