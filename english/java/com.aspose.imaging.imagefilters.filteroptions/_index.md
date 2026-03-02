@@ -28,6 +28,7 @@ The package handles filter options.
 | [ImageBlendingFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/imageblendingfilteroptions) | The image blending filter options |
 | [MedianFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/medianfilteroptions) | Median filter |
 | [MotionWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions) | The motion de-blurring filter options. |
+| [ShadowFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/shadowfilteroptions) | The shadow filter options |
 | [SharpenFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) | The sharpen filter options. |
 | [SmallRectangularFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions) | Small rectangular filter options |
 
