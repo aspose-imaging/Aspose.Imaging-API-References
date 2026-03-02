@@ -3,7 +3,7 @@ title: Class AutoMaskingGraphCutOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.AutoMaskingGraphCutOptions class. The GraphCut auto masking options
 type: docs
-weight: 11000
+weight: 11010
 url: /net/aspose.imaging.masking.options/automaskinggraphcutoptions/
 ---
 ## AutoMaskingGraphCutOptions class

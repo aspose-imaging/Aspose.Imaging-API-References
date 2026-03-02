@@ -3,7 +3,7 @@ title: Class VectorImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.VectorImage class. The vector image is the base class for all type of vector images
 type: docs
-weight: 11790
+weight: 11800
 url: /net/aspose.imaging/vectorimage/
 ---
 ## VectorImage class

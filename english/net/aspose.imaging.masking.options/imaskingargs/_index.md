@@ -3,7 +3,7 @@ title: Interface IMaskingArgs
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Masking.Options.IMaskingArgs interface. The masking arguments
 type: docs
-weight: 11030
+weight: 11040
 url: /net/aspose.imaging.masking.options/imaskingargs/
 ---
 ## IMaskingArgs interface

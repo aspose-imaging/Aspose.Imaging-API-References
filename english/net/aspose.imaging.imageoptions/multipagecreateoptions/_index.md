@@ -3,7 +3,7 @@ title: Class MultipageCreateOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.MultipageCreateOptions class. The multipage create options
 type: docs
-weight: 10430
+weight: 10440
 url: /net/aspose.imaging.imageoptions/multipagecreateoptions/
 ---
 ## MultipageCreateOptions class
