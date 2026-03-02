@@ -3,7 +3,7 @@ title: Class EllipseShape
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Shapes.EllipseShape class. Represents an ellipse shape
 type: docs
-weight: 11560
+weight: 11570
 url: /net/aspose.imaging.shapes/ellipseshape/
 ---
 ## EllipseShape class

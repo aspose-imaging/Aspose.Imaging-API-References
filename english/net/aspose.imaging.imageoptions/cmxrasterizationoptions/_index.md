@@ -3,7 +3,7 @@ title: Class CmxRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.CmxRasterizationOptions class. the CMX exporter options
 type: docs
-weight: 10270
+weight: 10280
 url: /net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 ---
 ## CmxRasterizationOptions class

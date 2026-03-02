@@ -3,7 +3,7 @@ title: Enum PngCompressionLevel
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.PngCompressionLevel enum. The png compression level enum
 type: docs
-weight: 10490
+weight: 10500
 url: /net/aspose.imaging.imageoptions/pngcompressionlevel/
 ---
 ## PngCompressionLevel enumeration

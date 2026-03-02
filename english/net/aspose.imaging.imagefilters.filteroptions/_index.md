@@ -26,6 +26,7 @@ The namespace handles Filter options.
 | [ImageBlendingFilterOptions](./imageblendingfilteroptions/) | The image blending filter options |
 | [MedianFilterOptions](./medianfilteroptions/) | Median filter |
 | [MotionWienerFilterOptions](./motionwienerfilteroptions/) | The motion debluring filter options. |
+| [ShadowFilterOptions](./shadowfilteroptions/) | The shadow filter options |
 | [SharpenFilterOptions](./sharpenfilteroptions/) | The sharpen filter options. |
 | [SmallRectangularFilterOptions](./smallrectangularfilteroptions/) | Small rectangular filter options |
 ## Enumeration

@@ -3,7 +3,7 @@ title: Class JpegLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageLoadOptions.JpegLoadOptions class. Load options class for Jpeg images
 type: docs
-weight: 10160
+weight: 10170
 url: /net/aspose.imaging.imageloadoptions/jpegloadoptions/
 ---
 ## JpegLoadOptions class

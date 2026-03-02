@@ -3,7 +3,7 @@ title: BlendingMode
 second_title: Aspose.Imaging for Java API Reference
 description: The blending mode
 type: docs
-weight: 26
+weight: 27
 url: /java/com.aspose.imaging.imagefilters.filteroptions/blendingmode/
 ---
 **Inheritance:**
