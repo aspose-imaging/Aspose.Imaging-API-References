@@ -17,10 +17,9 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | **Name** | **Description** |
 | :- | :- |
 | [ExifData()](#ExifData__1) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class. |
-| [ExifData(binary_data)](#ExifData_binary_data_2) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class. |
-| [ExifData(common_tags, exif_tags, gps_tags)](#ExifData_common_tags_exif_tags_gps_tags_3) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
+| [ExifData(common_tags, exif_tags, gps_tags)](#ExifData_common_tags_exif_tags_gps_tags_2) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
+| [ExifData(exifdata)](#ExifData_exifdata_3) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
 | [ExifData(exifdata)](#ExifData_exifdata_4) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
-| [ExifData(exifdata)](#ExifData_exifdata_5) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -142,9 +141,10 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | **Name** | **Description** |
 | :- | :- |
 | [get_tag_value(key)](#get_tag_value_key_1) | Gets the tag value. |
-| [remove_tag(tag)](#remove_tag_tag_2) | Remove tag from container |
-| [remove_tag(tag_id)](#remove_tag_tag_id_3) | Remove tag from container |
-| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_4) | Remove tag from container |
+| [load_from_bytes(binary_data)](#load_from_bytes_binary_data_2) | Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class by load it from the byte array. |
+| [remove_tag(tag)](#remove_tag_tag_3) | Remove tag from container |
+| [remove_tag(tag_id)](#remove_tag_tag_id_4) | Remove tag from container |
+| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_5) | Remove tag from container |
 
 
 ### Constructor: ExifData() {#ExifData__1}
@@ -156,22 +156,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 
 Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class.
 
-### Constructor: ExifData(binary_data) {#ExifData_binary_data_2}
-
-
-```
- ExifData(binary_data) 
-```
-
-Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| binary_data | System.Byte | The binary data. |
-
-### Constructor: ExifData(common_tags, exif_tags, gps_tags) {#ExifData_common_tags_exif_tags_gps_tags_3}
+### Constructor: ExifData(common_tags, exif_tags, gps_tags) {#ExifData_common_tags_exif_tags_gps_tags_2}
 
 
 ```
@@ -188,7 +173,7 @@ Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.
 | exif_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The EXIF tags. |
 | gps_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The GPS tags. |
 
-### Constructor: ExifData(exifdata) {#ExifData_exifdata_4}
+### Constructor: ExifData(exifdata) {#ExifData_exifdata_3}
 
 
 ```
@@ -203,7 +188,7 @@ Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.
 | :- | :- | :- |
 | exifdata | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | Array of EXIF tags together with common and GPS tags. |
 
-### Constructor: ExifData(exifdata) {#ExifData_exifdata_5}
+### Constructor: ExifData(exifdata) {#ExifData_exifdata_4}
 
 
 ```
@@ -249,7 +234,29 @@ Gets the tag value.
 | [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The TiffDataType |
 
 
-### Method: remove_tag(tag) {#remove_tag_tag_2}
+### Method: load_from_bytes(binary_data)  [static] {#load_from_bytes_binary_data_2}
+
+
+```
+ load_from_bytes(binary_data) 
+```
+
+Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class by load it from the byte array.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| binary_data | System.Byte | The binary data. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | The loaded ExifData instance. |
+
+
+### Method: remove_tag(tag) {#remove_tag_tag_3}
 
 
 ```
@@ -264,7 +271,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag | [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/) | The tag to remove |
 
-### Method: remove_tag(tag_id) {#remove_tag_tag_id_3}
+### Method: remove_tag(tag_id) {#remove_tag_tag_id_4}
 
 
 ```
@@ -279,7 +286,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag_id | int | The tag identifier to remove. |
 
-### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_4}
+### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_5}
 
 
 ```

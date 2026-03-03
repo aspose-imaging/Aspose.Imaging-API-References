@@ -1,7 +1,7 @@
 ---
 title: WrapMode Enumeration
 type: docs
-weight: 11770
+weight: 11780
 url: /python-net/aspose.imaging/wrapmode/
 ---
 

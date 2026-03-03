@@ -1,7 +1,7 @@
 ---
 title: VectorMultipageImage Class
 type: docs
-weight: 7880
+weight: 7890
 url: /python-net/aspose.imaging/vectormultipageimage/
 ---
 

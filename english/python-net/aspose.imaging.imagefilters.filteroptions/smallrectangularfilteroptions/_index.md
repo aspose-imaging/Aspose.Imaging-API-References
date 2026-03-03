@@ -1,7 +1,7 @@
 ---
 title: SmallRectangularFilterOptions Class
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions/
 ---
 

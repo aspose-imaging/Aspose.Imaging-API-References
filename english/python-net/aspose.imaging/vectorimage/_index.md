@@ -1,7 +1,7 @@
 ---
 title: VectorImage Class
 type: docs
-weight: 7870
+weight: 7880
 url: /python-net/aspose.imaging/vectorimage/
 ---
 

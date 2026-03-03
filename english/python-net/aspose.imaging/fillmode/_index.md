@@ -1,7 +1,7 @@
 ---
 title: FillMode Enumeration
 type: docs
-weight: 10590
+weight: 10600
 url: /python-net/aspose.imaging/fillmode/
 ---
 

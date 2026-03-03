@@ -1,7 +1,7 @@
 ---
 title: BlendingMode Enumeration
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.imaging.imagefilters.filteroptions/blendingmode/
 ---
 

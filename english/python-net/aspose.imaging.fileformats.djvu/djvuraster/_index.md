@@ -41,7 +41,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuraster/
 | premultiply_components | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
 | raw_custom_color_converter | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter/) | r/w | Gets or sets the custom color converter |
 | raw_data_format | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) | r | Gets the raw data format. |
-| raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings/) | r | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
+| raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings/) | r | Gets the raw data settings. |
 | raw_fallback_index | int | r/w | Gets or sets the fallback index to use when palette index is out of bounds |
 | raw_indexed_color_converter | [IIndexedColorConverter](/imaging/python-net/aspose.imaging/iindexedcolorconverter/) | r/w | Gets or sets the indexed color converter |
 | raw_line_size | int | r | Gets the raw line size in bytes. |
