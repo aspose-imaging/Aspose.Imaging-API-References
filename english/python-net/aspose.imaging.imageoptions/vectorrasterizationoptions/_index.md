@@ -51,7 +51,7 @@ Gets or sets a background color.
 
 **See also:**
 
-**[Example # 1](#example_171)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_173)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: page_size {#page_size2}
@@ -60,7 +60,7 @@ Gets or sets the page size.<br/>            If one of [SizeF](/imaging/python-ne
 
 **See also:**
 
-**[Example # 1](#example_171)**: This example shows how to load a WMF image from a file and convert it to SVG ...
+**[Example # 1](#example_173)**: This example shows how to load a WMF image from a file and convert it to SVG ...
 
 
 ### Property: positioning {#positioning3}
@@ -69,9 +69,9 @@ Gets or sets the positioning.
 
 **See also:**
 
-**[Example # 1](#example_177)**: The following example shows how to set a memory limit when loading a CMX imag...
+**[Example # 1](#example_179)**: The following example shows how to set a memory limit when loading a CMX imag...
 
-**[Example # 2](#example_185)**: The following example shows how to export all pages of CDR document to PDF.
+**[Example # 2](#example_187)**: The following example shows how to export all pages of CDR document to PDF.
 
 
 ### Method: clone() {#clone__1}
@@ -106,7 +106,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | The vector rasterization options. |
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_171}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_173}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -132,7 +132,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_177}
+### The following example shows how to set a memory limit when loading a CMX image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_179}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode, PositioningTypes, LoadOptions
 from aspose.imaging.imageoptions import PngOptions, CmxRasterizationOptions
@@ -155,7 +155,7 @@ with Image.load(os.path.join(directory, "example.cmx"), load_options) as image:
 
 ```
 
-### The following example shows how to export all pages of CDR document to PDF. {#example_185}
+### The following example shows how to export all pages of CDR document to PDF. {#example_187}
 ``` python
 from aspose.imaging import Image, TextRenderingHint, SmoothingMode
 from aspose.imaging.imageoptions import PdfOptions, CdrRasterizationOptions, PositioningTypes

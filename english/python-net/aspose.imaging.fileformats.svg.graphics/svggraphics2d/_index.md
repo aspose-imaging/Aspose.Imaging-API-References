@@ -71,7 +71,7 @@ Initializes a new instance of the [SvgGraphics2D](/imaging/python-net/aspose.ima
 
 **See also:**
 
-**[Example # 1](#example_170)**: This example shows how to create an SVG image of the specified size and raste...
+**[Example # 1](#example_171)**: This example shows how to create an SVG image of the specified size and raste...
 
 
 ### Method: draw_arc(pen, rect, start_angle, arc_angle) {#draw_arc_pen_rect_start_angle_arc_angle_1}
@@ -340,7 +340,7 @@ Fills the rectangle.
 | height | int | The height of the rectangle to draw. |
 
 ## **Examples**
-### This example shows how to create an SVG image of the specified size and rasterize it to PNG. {#example_170}
+### This example shows how to create an SVG image of the specified size and rasterize it to PNG. {#example_171}
 ``` python
 from aspose.imaging.fileformats.svg.graphics import SvgGraphics2D
 from aspose.imaging import Graphics, Color, Pen

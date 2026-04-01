@@ -158,7 +158,7 @@ Creates a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_169)**: This example shows how to load an SVG image from a file stream and rasterize ...
+**[Example # 1](#example_170)**: This example shows how to load an SVG image from a file stream and rasterize ...
 
 
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
@@ -1566,7 +1566,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_169}
+### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_170}
 ``` python
 import aspose.pycore as aspycore
 from os.path import join
@@ -1586,7 +1586,7 @@ with open(join(dir_, "test.svg"), "rb") as stream:
 
 ```
 
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_187}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_190}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1607,7 +1607,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_190}
+### The following example shows how to convert a svgz images to svg fromat {#example_193}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1628,7 +1628,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a svg images to svgz format {#example_193}
+### The following example shows how to convert a svg images to svgz format {#example_196}
 ``` python
 
 from os.path import join as path_combine

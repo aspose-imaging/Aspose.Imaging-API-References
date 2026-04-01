@@ -93,6 +93,12 @@ Initializes a new instance of the [WmfRecorderGraphics2D](/imaging/python-net/as
 | frame | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Destination rectangle, measured in twips, for displaying the metafile. |
 | inch | int | The number of pixel per inch. |
 
+
+**See also:**
+
+**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+
+
 ### Method: draw_arc(pen, rect, start_angle, arc_angle) {#draw_arc_pen_rect_start_angle_arc_angle_1}
 
 
@@ -454,6 +460,12 @@ Ends the recording.
 | Type | Description |
 | :- | :- |
 | [WmfImage](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfimage/) | The result image. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
 
 ### Method: exclude_clip(rect) {#exclude_clip_rect_22}
@@ -857,4 +869,73 @@ Changes the origin of the coordinate system by applying the specified translatio
 | x | float | The x-coordinate of the translation. |
 | y | float | The y-coordinate of the translation. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the translation is prepended or appended to the transformation matrix. |
+
+## **Examples**
+### This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D. {#example_172}
+``` python
+
+from os.path import join as path_join
+import aspose.pycore as aspycore
+from aspose.imaging import Rectangle, Pen, Color, Point, Image, RasterImage, GraphicsUnit, Font, FontStyle, Figure,\
+   GraphicsPath, RectangleF, PointF
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.shapes import ArcShape, BezierShape, PolygonShape, RectangleShape
+from aspose.imaging.fileformats.wmf.graphics import WmfRecorderGraphics2D
+from aspose.imaging.imageoptions import SvgRasterizationOptions, PngOptions
+
+dir_ = "c:\\temp"
+image_width = 600
+image_height = 400
+# This is the default screen resolution.
+dpi = 96
+frame = Rectangle(0, 0, image_width, image_height)
+# Create a WMF image.
+graphics = WmfRecorderGraphics2D(frame, dpi)
+# Draw a black rectangle along the image borders using a 1-pixel-wide black pen.
+graphics.draw_rectangle(Pen(Color.black, 1), 0, 0, image_width, image_height)
+# Fill a rectangle with the color of white-smoke.
+graphics.fill_rectangle(SolidBrush(Color.white_smoke), Rectangle(10, 10, 580, 380))
+# Draw two diagonal lines using a 1-pixel-wide darkgreen pen.
+graphics.draw_line(Pen(Color.dark_green, 1), 0, 0, image_width, image_height)
+graphics.draw_line(Pen(Color.dark_green, 1), 0, image_height, image_width, 0)
+# Draw an arc within the rectangle {0, 0, 200, 200} using a 2-pixel-wide blue pen.
+graphics.draw_arc(Pen(Color.blue, 2), Rectangle(0, 0, 200, 200), 90, 270)
+# Fill an arc
+graphics.fill_pie(SolidBrush(Color.light_sky_blue), Rectangle(0, 0, 150, 150), 90, 270)
+# Draw a cubic bezier using a 2-pixel-wide red pen.
+graphics.draw_cubic_bezier(Pen(Color.red, 2), Point(0, 0), Point(200, 133), Point(400, 166), Point(600, 400))
+# Draw a raster image of the specified size at the specified location.
+# The image is scaled to fit the desired rectangle.
+with aspycore.as_of(Image.load(path_join(dir_, "sample.bmp")), RasterImage) as image_to_draw:
+	graphics.draw_image(image_to_draw, Rectangle(400, 200, 100, 50), Rectangle(0, 0, image_width, image_height), GraphicsUnit.PIXEL)
+
+# Draw a text string
+graphics.draw_string("Hello World!", Font("Arial", 48, FontStyle.REGULAR), Color.dark_red, 200, 300)
+# Create a path to fill
+figure_to_fill = Figure()
+figure_to_fill.is_closed = True
+path_to_fill = GraphicsPath()
+path_to_fill.add_figure(figure_to_fill)
+figure_to_fill.add_shapes([ArcShape(Rectangle(400, 0, 200, 100), 45, 300),
+	BezierShape([PointF(300, 200), PointF(400, 200), PointF(500, 100), Aspose.Imaging.PointF(600, 200)]), 
+	PolygonShape([PointF(300, 100)]), RectangleShape(RectangleF(0, 100, 200, 200))])
+# Fill the path using a yellow brush and a green pen to draw outline
+graphics.fill_path(Pen(Color.green, 2), SolidBrush(Color.yellow), path_to_fill)
+# Create a path to draw
+path_to_draw = GraphicsPath()
+figure_to_draw = Figure()
+path_to_draw.add_figure(figure_to_draw)
+figure_to_draw.add_shapes([ArcShape(RectangleF(200, 200, 200, 200), 0, 360)])
+# Draw the path using a 5-pixel-wide orange pen.
+graphics.draw_path(Pen(Color.orange, 5), path_to_draw)
+# In order to rasterize SVG we need to specify rasterization options.
+rasterization_options = SvgRasterizationOptions()
+save_options = PngOptions()
+save_options.vector_rasterization_options = rasterization_options
+# Get the final WMF image which includes all drawing commands
+with graphics.end_recording() as wmf_image:
+	wmf_image.save(path_join(dir_, "test.output.wmf"))
+
+
+```
 

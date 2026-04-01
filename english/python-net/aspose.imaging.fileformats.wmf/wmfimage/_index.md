@@ -1590,7 +1590,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_171}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_173}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -1616,7 +1616,7 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_187}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_190}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1637,7 +1637,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a wmz images to wmf fromat {#example_189}
+### The following example shows how to convert a wmz images to wmf fromat {#example_192}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1658,7 +1658,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a wmf images to wmz format {#example_192}
+### The following example shows how to convert a wmf images to wmz format {#example_195}
 ``` python
 
 from os.path import join as path_combine

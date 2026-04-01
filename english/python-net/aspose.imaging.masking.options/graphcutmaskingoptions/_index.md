@@ -45,11 +45,11 @@ Gets or sets the feathering radius.
 
 **See also:**
 
-**[Example # 1](#example_217)**: Saving Graph Cut image masking result with feathering set to 3. Image masking...
+**[Example # 1](#example_220)**: Saving Graph Cut image masking result with feathering set to 3. Image masking...
 
 
 ## **Examples**
-### Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array. {#example_217}
+### Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array. {#example_220}
 ``` python
 
 import aspose.pycore as aspycore

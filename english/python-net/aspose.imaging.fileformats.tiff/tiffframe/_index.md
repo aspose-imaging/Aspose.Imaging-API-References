@@ -321,13 +321,13 @@ Gets or sets the path resources.
 
 **See also:**
 
-**[Example # 1](#example_198)**: The following example shows how to retrieve paths from TIFF image and display...
+**[Example # 1](#example_201)**: The following example shows how to retrieve paths from TIFF image and display...
 
-**[Example # 2](#example_199)**: The following example shows how to modify already existing Clipping Paths. Fo...
+**[Example # 2](#example_202)**: The following example shows how to modify already existing Clipping Paths. Fo...
 
-**[Example # 3](#example_200)**: The following example shows how to create Clipping Path in TIFF image. In ord...
+**[Example # 3](#example_203)**: The following example shows how to create Clipping Path in TIFF image. In ord...
 
-**[Example # 4](#example_201)**: Transfer Clipping Paths during export from TIFF to PSD image.
+**[Example # 4](#example_204)**: Transfer Clipping Paths during export from TIFF to PSD image.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -2736,7 +2736,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_198}
+### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_201}
 ``` python
 
 from aspose.pycore import as_of
@@ -2750,7 +2750,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_199}
+### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_202}
 ``` python
 
 from aspose.pycore import as_of
@@ -2766,7 +2766,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_200}
+### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_203}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2788,7 +2788,7 @@ with TiffImage(frame) as image:
 
 ```
 
-### Transfer Clipping Paths during export from TIFF to PSD image. {#example_201}
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_204}
 ``` python
 
 from aspose.imaging import Image

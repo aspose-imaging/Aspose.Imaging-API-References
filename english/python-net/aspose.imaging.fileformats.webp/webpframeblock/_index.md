@@ -36,7 +36,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpframeblock/
 | frame_left | int | r | Gets the frame left offset. |
 | frame_time | int | r | Gets the frame duration. |
 | frame_top | int | r | Gets the frame top offset. |
-| has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
+| [has_alpha](#has_alpha1) | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
 | height | int | r | Gets the image height. |
@@ -229,6 +229,15 @@ Initializes a new instance of the [WebPFrameBlock](/imaging/python-net/aspose.im
 | :- | :- | :- |
 | width | int | The width. |
 | height | int | The height. |
+
+### Property: has_alpha {#has_alpha1}
+
+Gets a value indicating whether this instance has alpha.
+
+**See also:**
+
+**[Example # 1](#example_168)**: The following example loads a WEBP image and prints information about raw dat...
+
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
 
@@ -2492,4 +2501,32 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
+
+## **Examples**
+### The following example loads a WEBP image and prints information about raw data format and alpha channel. {#example_168}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.fileformats.webp import WebPImage, WebPFrameBlock
+
+dir_ = "c:\\temp"
+file_name = dir_ + "sample.webp"
+with Image.load(file_name) as image:
+	webp_image = aspycore.as_of(image, WebPImage)
+	# If the active TIFF frame has alpha channel, then the entire TIFF image is considered to have alpha channel.
+	print(f"ImageFile={file_name}, FileFormat={webp_image.raw_data_format}, HasAlpha={webp_image.has_alpha}")
+	i: int = 0
+	for frame in webp_image.blocks:
+		if aspycore.is_assignable(frame, WebPFrameBlock):
+			frame_block = aspycore.as_of(frame, WebPFrameBlock)
+			print(f"Frame={i}, FileFormat={frame_block.raw_data_format}, HasAlpha={frame_block.has_alpha}")
+			i += 1
+
+# The output may look like this:
+# ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+# Frame=0, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+
+
+```
 

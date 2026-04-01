@@ -148,7 +148,7 @@ Retrieve the pages of the image seamlessly with this intuitive property.<br/>   
 
 **See also:**
 
-**[Example # 1](#example_175)**: The following example shows how to cache all pages of a CMX image.
+**[Example # 1](#example_177)**: The following example shows how to cache all pages of a CMX image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1501,7 +1501,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to cache all pages of a CMX image. {#example_175}
+### The following example shows how to cache all pages of a CMX image. {#example_177}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image

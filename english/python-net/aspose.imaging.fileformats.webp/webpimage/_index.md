@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 | [WebPImage(raster_image)](#WebPImage_raster_image_3) | Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class, initialized <br/>            from a provided rasterImage object. This constructor allows for seamless <br/>            conversion of raster images to WebP format, enabling efficient handling and <br/>            manipulation of image data within your application. |
 | [WebPImage(raster_image, load_options)](#WebPImage_raster_image_load_options_4) | Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class using a rasterImage object and <br/>            specified load options, enabling flexible handling of image data. Utilize this <br/>            constructor to seamlessly initialize WebP image objects from raster images while <br/>            customizing loading parameters according to your application's requirements. |
 | [WebPImage(stream)](#WebPImage_stream_5) | Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class, initialized <br/>            from a provided stream source. Utilize this constructor to seamlessly create WebP <br/>            image objects directly from streams, enabling efficient handling and manipulation <br/>            of WebP image data within your application. |
-| [WebPImage(stream, load_options)](#WebPImage_stream_load_options_6) | Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class using a stream and <br/>            specified load options, facilitating versatile handling of WebP image data. <br/>            Incorporate this constructor to seamlessly initialize WebP image objects from <br/>            streams while customizing loading parameters as needed within your application. |
+| [WebPImage(stream, load_options)](#WebPImage_stream_load_options_6) | Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from a stream,  <br/>            incorporating specified load options and memory management settings. This <br/>            constructor offers flexibility in loading WebP images from streams while <br/>            efficiently managing memory resources, ensuring optimal performance and resource <br/>            utilization within your application. |
 | [WebPImage(width, height, options)](#WebPImage_width_height_options_7) | Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class with an empty <br/>            image of specified width and height dimensions. This constructor allows for the <br/>            creation of blank WebP images, providing a foundation for subsequent image <br/>            manipulation and content generation within your application. |
 | [WebPImage(width, height, options, load_options)](#WebPImage_width_height_options_load_options_8) | Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class with an empty image and specified <br/>            load options. This constructor allows for the initialization of WebP images with <br/>            customizable loading parameters, providing flexibility in image creation and <br/>            manipulation within your application. |
 ## **Properties**
@@ -37,7 +37,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Access the file format value associated with the image, providing information <br/>            about the format in which the image is stored. Utilize this property to determine <br/>            the file format of the image, facilitating compatibility checks and <br/>            format-specific processing within your application. |
-| has_alpha | bool | r | Retrieve whether the image contains an alpha channel, indicating the presence of <br/>            transparency information. Utilize this property to determine whether the image <br/>            includes transparency, enabling appropriate handling and processing of <br/>            alpha-related operations within your application. |
+| [has_alpha](#has_alpha1) | bool | r | Retrieve whether the image contains an alpha channel, indicating the presence of <br/>            transparency information. Utilize this property to determine whether the image <br/>            includes transparency, enabling appropriate handling and processing of <br/>            alpha-related operations within your application. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
 | height | int | r | Gets the image height. |
@@ -312,7 +312,7 @@ Instantiate a new instance of the [WebPImage](/imaging/python-net/aspose.imaging
  WebPImage(stream, load_options) 
 ```
 
-Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class using a stream and <br/>            specified load options, facilitating versatile handling of WebP image data. <br/>            Incorporate this constructor to seamlessly initialize WebP image objects from <br/>            streams while customizing loading parameters as needed within your application.
+Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from a stream,  <br/>            incorporating specified load options and memory management settings. This <br/>            constructor offers flexibility in loading WebP images from streams while <br/>            efficiently managing memory resources, ensuring optimal performance and resource <br/>            utilization within your application.
 
 **Parameters:**
 
@@ -361,6 +361,15 @@ Create a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.file
 | height | int | The image height. |
 | options | [WebPOptions](/imaging/python-net/aspose.imaging.imageoptions/webpoptions/) | The options. |
 | load_options | [LoadOptions](/imaging/python-net/aspose.imaging/loadoptions/) | The load options. |
+
+### Property: has_alpha {#has_alpha1}
+
+Retrieve whether the image contains an alpha channel, indicating the presence of <br/>            transparency information. Utilize this property to determine whether the image <br/>            includes transparency, enabling appropriate handling and processing of <br/>            alpha-related operations within your application.
+
+**See also:**
+
+**[Example # 1](#example_168)**: The following example loads a WEBP image and prints information about raw dat...
+
 
 ### Method: add_block(block) {#add_block_block_1}
 
@@ -2882,6 +2891,33 @@ with WebPImage(100, 100, create_options) as web_pimage:
 	graphics.fill_rectangle(brush, web_pimage.bounds)
 	# Save to a WebP file
 	web_pimage.save(join(dir_, "output.webp"))
+
+
+```
+
+### The following example loads a WEBP image and prints information about raw data format and alpha channel. {#example_168}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image
+from aspose.imaging.fileformats.webp import WebPImage, WebPFrameBlock
+
+dir_ = "c:\\temp"
+file_name = dir_ + "sample.webp"
+with Image.load(file_name) as image:
+	webp_image = aspycore.as_of(image, WebPImage)
+	# If the active TIFF frame has alpha channel, then the entire TIFF image is considered to have alpha channel.
+	print(f"ImageFile={file_name}, FileFormat={webp_image.raw_data_format}, HasAlpha={webp_image.has_alpha}")
+	i: int = 0
+	for frame in webp_image.blocks:
+		if aspycore.is_assignable(frame, WebPFrameBlock):
+			frame_block = aspycore.as_of(frame, WebPFrameBlock)
+			print(f"Frame={i}, FileFormat={frame_block.raw_data_format}, HasAlpha={frame_block.has_alpha}")
+			i += 1
+
+# The output may look like this:
+# ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+# Frame=0, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 
 
 ```

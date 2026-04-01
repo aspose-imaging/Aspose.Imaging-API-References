@@ -161,7 +161,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_85) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_86) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_87) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
-| [replace_frame(index, frame_to_replace)](#replace_frame_index_frame_to_replace_88) | Substitute the frame at the designated position with another frame seamlessly, <br/>            facilitating dynamic frame management within the image sequence. Integrate this <br/>            method to enhance flexibility and precision in frame manipulation, ensuring <br/>            optimal organization and presentation of image content within your application. |
+| [replace_frame(index, new_frame)](#replace_frame_index_new_frame_88) | Substitute the frame at the designated position with another frame seamlessly, <br/>            facilitating dynamic frame management within the image sequence. Integrate this <br/>            method to enhance flexibility and precision in frame manipulation, ensuring <br/>            optimal organization and presentation of image content within your application. |
 | [replace_non_transparent_colors(new_color)](#replace_non_transparent_colors_new_color_89) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>                Note: if you use it on images without transparency, all colors will be replaced with a single one. |
 | [replace_non_transparent_colors(new_color_argb)](#replace_non_transparent_colors_new_color_argb_90) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>                Note: if you use it on images without transparency, all colors will be replaced with a single one. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_91) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
@@ -2040,11 +2040,11 @@ Replaces one color to another with allowed difference and preserves original alp
 | old_color_diff | System.Byte | Allowed difference in old color to be able to widen replaced color tone. |
 | new_color_argb | int | New color ARGB value to replace old color with. |
 
-### Method: replace_frame(index, frame_to_replace) {#replace_frame_index_frame_to_replace_88}
+### Method: replace_frame(index, new_frame) {#replace_frame_index_new_frame_88}
 
 
 ```
- replace_frame(index, frame_to_replace) 
+ replace_frame(index, new_frame) 
 ```
 
 Substitute the frame at the designated position with another frame seamlessly, <br/>            facilitating dynamic frame management within the image sequence. Integrate this <br/>            method to enhance flexibility and precision in frame manipulation, ensuring <br/>            optimal organization and presentation of image content within your application.
@@ -2054,7 +2054,7 @@ Substitute the frame at the designated position with another frame seamlessly, <
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The zero based frame position. |
-| frame_to_replace | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frame to replace. |
+| new_frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The frame to replace the one at specified _index_. |
 
 **Returns**
 
@@ -2987,7 +2987,7 @@ with Image.load(join(dir_, "sample.tif")) as image:
 
 ```
 
-### Create Graphics Path from Path Resources in TIFF image. {#example_207}
+### Create Graphics Path from Path Resources in TIFF image. {#example_210}
 ``` python
 
 import aspose.pycore as aspycore
