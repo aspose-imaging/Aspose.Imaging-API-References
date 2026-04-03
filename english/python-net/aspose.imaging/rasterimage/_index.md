@@ -322,6 +322,12 @@ Calculates the percentage similarity between the extracted data and the original
 | int | The percentage similarity value. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_234)**: The example illustrates how to determine the probability (from 0% to 100%) th...
+
+
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_6}
 
 
@@ -945,6 +951,12 @@ Embed digital sign based on provided password into the image using steganography
 | :- | :- | :- |
 | password | string | The password used for generate digital sign data |
 
+
+**See also:**
+
+**[Example # 1](#example_232)**: The example shows how to embed digital signature based on provided password i...
+
+
 ### Method: filter(rectangle, options) {#filter_rectangle_options_35}
 
 
@@ -1391,6 +1403,14 @@ Performs a fast check to determine if the image is digitally signed, using the p
 | bool | True if the image is signed, otherwise false. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_231)**: The example shows how to validate that the embedded digital signature matches...
+
+**[Example # 2](#example_233)**: The example demonstrates how to verify that the embedded digital signature ma...
+
+
 ### Method: load(file_path)  [static] {#load_file_path_55}
 
 
@@ -1781,7 +1801,7 @@ Normalizes the angle.<br/>            This method is applicable to scanned text 
 
 **See also:**
 
-**[Example # 1](#example_182)**: Skew is an artifact that might appear during document scanning process when t...
+**[Example # 1](#example_184)**: Skew is an artifact that might appear during document scanning process when t...
 
 
 ### Method: read_argb_32_scan_line(scan_line_index) {#read_argb_32_scan_line_scan_line_index_73}
@@ -3265,7 +3285,7 @@ with BmpImage(100, 100, 24, None) as bmp_image:
 
 ```
 
-### Skew is an artifact that might appear during document scanning process when the text/images of the document get rotated at a slight angle. It can have various causes but the most common is that the paper get misplaced during a scan. Therefore, deskew is the process of detecting and fixing this issue on scanned files(i.e. bitmap) so deskewed documents will have the text/images correctly and horizontally adjusted. {#example_182}
+### Skew is an artifact that might appear during document scanning process when the text/images of the document get rotated at a slight angle. It can have various causes but the most common is that the paper get misplaced during a scan. Therefore, deskew is the process of detecting and fixing this issue on scanned files(i.e. bitmap) so deskewed documents will have the text/images correctly and horizontally adjusted. {#example_184}
 ``` python
 from aspose.imaging import Image, RasterImage, Color
 from aspose.pycore import as_of
@@ -3278,6 +3298,54 @@ with as_of(Image.load(input_file_path), RasterImage) as image:
 	# Deskew
 	image.normalize_angle(False, Color.light_gray)
 	image.save(output_file_path)
+
+
+```
+
+### The example shows how to validate that the embedded digital signature matches the provided password. {#example_231}
+``` python
+
+from aspose.imaging import Image
+
+with Image.load(output_path) as image:
+	is_signed = image.is_digital_signed(password, -1)
+
+
+```
+
+### The example shows how to embed digital signature based on provided password into image pixel data. {#example_232}
+``` python
+
+from aspose.imaging import Image
+
+image_file_path = "ball.png"
+password = "veryStr0ngPassword"
+with Image.load(image_file_path) as image:
+	image.embed_digital_signature(password)
+	image.save(output_path)
+
+
+```
+
+### The example demonstrates how to verify that the embedded digital signature matches the provided password against the specified probability threshold. {#example_233}
+``` python
+
+from aspose.imaging import Image
+  
+threshold = 100
+with Image.load(output_path) as image:
+	is_signed = image.is_digital_signed(password, threshold)
+
+
+```
+
+### The example illustrates how to determine the probability (from 0% to 100%) that an image contains a digital signature created with the specified password. {#example_234}
+``` python
+
+from aspose.imaging import Image
+
+with Image.load(output_path) as image:
+	signed_percentage = image.analyze_percentage_digital_signature(password)
 
 
 ```

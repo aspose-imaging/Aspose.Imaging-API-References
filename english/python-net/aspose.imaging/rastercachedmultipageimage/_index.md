@@ -272,6 +272,12 @@ Calculates the percentage similarity between the extracted data and the original
 | int | The percentage similarity value. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_234)**: The example illustrates how to determine the probability (from 0% to 100%) th...
+
+
 ### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_6}
 
 
@@ -865,6 +871,12 @@ Embed digital sign based on provided password into each page of the image.
 | :- | :- | :- |
 | password | string | The password used for generate digital sign data |
 
+
+**See also:**
+
+**[Example # 1](#example_232)**: The example shows how to embed digital signature based on provided password i...
+
+
 ### Method: filter(rectangle, options) {#filter_rectangle_options_35}
 
 
@@ -1289,6 +1301,14 @@ Performs a fast check to determine if the image is digitally signed, using the p
 | Type | Description |
 | :- | :- |
 | bool | True if the image is signed, otherwise false. |
+
+
+
+**See also:**
+
+**[Example # 1](#example_231)**: The example shows how to validate that the embedded digital signature matches...
+
+**[Example # 2](#example_233)**: The example demonstrates how to verify that the embedded digital signature ma...
 
 
 ### Method: load(file_path)  [static] {#load_file_path_55}
@@ -2449,4 +2469,53 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
+
+## **Examples**
+### The example shows how to validate that the embedded digital signature matches the provided password. {#example_231}
+``` python
+
+from aspose.imaging import Image
+
+with Image.load(output_path) as image:
+	is_signed = image.is_digital_signed(password, -1)
+
+
+```
+
+### The example shows how to embed digital signature based on provided password into image pixel data. {#example_232}
+``` python
+
+from aspose.imaging import Image
+
+image_file_path = "ball.png"
+password = "veryStr0ngPassword"
+with Image.load(image_file_path) as image:
+	image.embed_digital_signature(password)
+	image.save(output_path)
+
+
+```
+
+### The example demonstrates how to verify that the embedded digital signature matches the provided password against the specified probability threshold. {#example_233}
+``` python
+
+from aspose.imaging import Image
+  
+threshold = 100
+with Image.load(output_path) as image:
+	is_signed = image.is_digital_signed(password, threshold)
+
+
+```
+
+### The example illustrates how to determine the probability (from 0% to 100%) that an image contains a digital signature created with the specified password. {#example_234}
+``` python
+
+from aspose.imaging import Image
+
+with Image.load(output_path) as image:
+	signed_percentage = image.analyze_percentage_digital_signature(password)
+
+
+```
 

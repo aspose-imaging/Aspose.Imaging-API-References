@@ -27,6 +27,20 @@ True if the image is signed, otherwise false.
 
 This method provides the fastest detection by leveraging !:GetSignPercentage. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
 
+## Examples
+
+The example demonstrates how to verify that the embedded digital signature matches the provided password against the specified probability threshold.
+
+```csharp
+[C#]
+
+var threshold = 100;
+using (var image = Image.Load(outputPath))
+{
+    var isSigned = image.IsDigitalSigned(password, threshold);
+}
+```
+
 ### See Also
 
 * class [RasterCachedImage](../)

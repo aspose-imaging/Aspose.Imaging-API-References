@@ -147,7 +147,9 @@ Retrieve the pages of the image seamlessly with this intuitive property.<br/>   
 
 **See also:**
 
-**[Example # 1](#example_174)**: The following example shows how to cache all pages of a CDR image.
+**[Example # 1](#example_176)**: The following example shows how to cache all pages of a CDR image.
+
+**[Example # 2](#example_188)**: The following example shows how to export a single page of CDR document to PDF.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1500,7 +1502,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to cache all pages of a CDR image. {#example_174}
+### The following example shows how to cache all pages of a CDR image. {#example_176}
 ``` python
 
 import aspose.pycore as aspycore
@@ -1517,6 +1519,34 @@ with aspycore.as_of(Image.load(join(dir_, "sample.cdr")), CdrImage) as image:
 	# Cache all pages so that no additional data loading will be performed from the underlying data stream.
 	for page in image.pages:
 		page.cache_data()
+
+
+```
+
+### The following example shows how to export a single page of CDR document to PDF. {#example_188}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image, TextRenderingHint, SmoothingMode
+from aspose.imaging.fileformats.cdr import CdrImage, CdrImagePage
+from aspose.imaging.imageoptions import PdfOptions, CdrRasterizationOptions
+from os.path import join as path_combine
+
+
+page_number: int = 0 # the page index for export
+dir_ = "c:\\aspose.imaging\\issues\\net\\3635\\testdata\\3570"
+input_cdr_file_name: str = path_combine(dir_, "tiger.cdr")
+output_pdf_file_name: str = path_combine(dir_, "tiger.cdr.page" + page_number + ".pdf")
+with aspycore.as_of(Image.load(input_cdr_file_name), CdrImage) as image:
+	image_page = aspycore.as_of(image.pages[page_number], CdrImagePage)
+	pdf_options = PdfOptions()
+	obj_init = CdrRasterizationOptions()
+	obj_init.text_rendering_hint = TextRenderingHint.SINGLE_BIT_PER_PIXEL
+	obj_init.smoothing_mode = SmoothingMode.NONE
+	obj_init.page_width = image_page.width
+	obj_init.page_height = image_page.height
+	pdf_options.vector_rasterization_options = obj_init
+	image_page.save(output_pdf_file_name, pdf_options)
 
 
 ```

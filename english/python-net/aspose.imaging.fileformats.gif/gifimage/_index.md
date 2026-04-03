@@ -326,7 +326,7 @@ Incorporate a new page seamlessly into the existing image, enhancing its content
 
 **See also:**
 
-**[Example # 1](#example_214)**: Create multipage GIF image using single page raster images.
+**[Example # 1](#example_217)**: Create multipage GIF image using single page raster images.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_3}
@@ -2976,7 +2976,7 @@ with Image.load(join(dir_, "sample.gif")) as image:
 
 ```
 
-### Create multipage GIF image using single page raster images. {#example_214}
+### Create multipage GIF image using single page raster images. {#example_217}
 ``` python
 from aspose.imaging import Image, RasterImage
 from aspose.pycore import as_of
@@ -3009,7 +3009,7 @@ for it in frames:
 
 ```
 
-### Export of part of animation from GIF image based on time interval. {#example_220}
+### Export of part of animation from GIF image based on time interval. {#example_223}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.imageoptions import GifOptions, MultiPageOptions, MultiPageMode, TimeInterval

@@ -1,7 +1,7 @@
 ---
 title: KnownColor Enumeration
 type: docs
-weight: 10780
+weight: 10790
 url: /python-net/aspose.imaging/knowncolor/
 ---
 

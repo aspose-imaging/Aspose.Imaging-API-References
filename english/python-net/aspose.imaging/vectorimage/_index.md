@@ -1,7 +1,7 @@
 ---
 title: VectorImage Class
 type: docs
-weight: 7870
+weight: 7880
 url: /python-net/aspose.imaging/vectorimage/
 ---
 
@@ -622,7 +622,7 @@ Gets the embedded images.
 
 **See also:**
 
-**[Example # 1](#example_221)**: Support extracting embedded raster images from a vector image
+**[Example # 1](#example_224)**: Support extracting embedded raster images from a vector image
 
 
 ### Method: get_file_format(file_path)  [static] {#get_file_format_file_path_24}
@@ -1473,7 +1473,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Support extracting embedded raster images from a vector image {#example_221}
+### Support extracting embedded raster images from a vector image {#example_224}
 ``` python
 from aspose.pycore import as_of
 from aspose.imaging import Image, VectorImage

@@ -1,7 +1,7 @@
 ---
 title: HotkeyPrefix Enumeration
 type: docs
-weight: 10680
+weight: 10690
 url: /python-net/aspose.imaging/hotkeyprefix/
 ---
 

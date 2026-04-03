@@ -2970,7 +2970,7 @@ for color_type in color_types:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_224}
+### The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm. {#example_227}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape
@@ -2995,7 +2995,7 @@ with Image.load(image_file_path) as image:
 
 ```
 
-### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_225}
+### The example shows how to remove any object from the image using Graphics Path with Telea algorithm. {#example_228}
 ``` python
 from aspose.imaging import Image, Figure, GraphicsPath, RectangleF
 from aspose.imaging.shapes import EllipseShape

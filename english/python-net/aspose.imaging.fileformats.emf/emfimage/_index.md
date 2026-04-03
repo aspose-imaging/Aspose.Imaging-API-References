@@ -1549,7 +1549,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_187}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_190}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1570,7 +1570,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a emz images to emf format {#example_188}
+### The following example shows how to convert a emz images to emf format {#example_191}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1591,7 +1591,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a emf images to emz format {#example_191}
+### The following example shows how to convert a emf images to emz format {#example_194}
 ``` python
 
 from os.path import join as path_combine

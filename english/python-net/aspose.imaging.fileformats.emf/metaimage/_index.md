@@ -1133,7 +1133,7 @@ Resizes the canvas.
 
 **See also:**
 
-**[Example # 1](#example_179)**: The following example shows how to add a border with the specified margins ar...
+**[Example # 1](#example_181)**: The following example shows how to add a border with the specified margins ar...
 
 
 ### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_49}
@@ -1524,7 +1524,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to add a border with the specified margins around a metafile (WMF and EMF). {#example_179}
+### The following example shows how to add a border with the specified margins around a metafile (WMF and EMF). {#example_181}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, Rectangle

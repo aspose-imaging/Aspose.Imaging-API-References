@@ -79,7 +79,7 @@ Copies to.
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | The vector rasterization options. |
 
 ## **Examples**
-### The following code snippet demonstrates how to convert an OTG image to PDF and other image formats. {#example_181}
+### The following code snippet demonstrates how to convert an OTG image to PDF and other image formats. {#example_183}
 ``` python
 
 from aspose.pycore import cast

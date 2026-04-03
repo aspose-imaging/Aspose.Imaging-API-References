@@ -48,12 +48,10 @@ The image is the base class for all type of images.
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getBounds()](#getBounds--) | Gets the image bounds. |
 | [getContainer()](#getContainer--) | Gets the `Image` container. |
-| [getHeight()](#getHeight--) | Gets the image height. |
 | [getPalette()](#getPalette--) | Gets the color palette. |
 | [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | Sets the color palette. |
 | [isUsePalette()](#isUsePalette--) | Gets a value indicating whether the image palette is used. |
 | [getSize()](#getSize--) | Gets the image size. |
-| [getWidth()](#getWidth--) | Gets the image width. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [setInterruptMonitor(InterruptMonitor value)](#setInterruptMonitor-com.aspose.imaging.multithreading.InterruptMonitor-) | Sets the interrupt monitor. |
 | [getBufferSizeHint()](#getBufferSizeHint--) | Gets the buffer size hint which is defined max allowed size for all internal buffers. |
@@ -802,16 +800,6 @@ If this property is not null it indicates the image is contained within another 
 
 **Returns:**
 [Image](../../com.aspose.imaging/image)
-### getHeight() {#getHeight--}
-```
-public abstract int getHeight()
-```
-
-
-Gets the image height.
-
-**Returns:**
-int - The image height.
 ### getPalette() {#getPalette--}
 ```
 public IColorPalette getPalette()
@@ -914,16 +902,6 @@ try {
 //Page raw format: RgbIndexed1Bpp, used channels: 1
 ```
 
-### getWidth() {#getWidth--}
-```
-public abstract int getWidth()
-```
-
-
-Gets the image width.
-
-**Returns:**
-int - The image width.
 ### getInterruptMonitor() {#getInterruptMonitor--}
 ```
 public InterruptMonitor getInterruptMonitor()

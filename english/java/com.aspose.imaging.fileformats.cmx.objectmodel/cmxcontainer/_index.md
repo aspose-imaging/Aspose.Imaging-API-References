@@ -25,14 +25,14 @@ the container for child elements.
 | [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### getElements() {#getElements--}
 ```
-public System.Collections.Generic.IGenericList<ICmxDocElement> getElements()
+public List<ICmxDocElement> getElements()
 ```
 
 
 Gets the elements.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.imaging.fileformats.cmx.objectmodel.ICmxDocElement> - the elements.
+java.util.List<com.aspose.imaging.fileformats.cmx.objectmodel.ICmxDocElement> - the elements.
 ### equals(Object o) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object o)

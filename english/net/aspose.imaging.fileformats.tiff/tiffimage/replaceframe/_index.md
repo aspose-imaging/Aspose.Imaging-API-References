@@ -11,13 +11,13 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/replaceframe/
 Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. Integrate this method to enhance flexibility and precision in frame manipulation, ensuring optimal organization and presentation of image content within your application.
 
 ```csharp
-public TiffFrame ReplaceFrame(int index, TiffFrame frameToReplace)
+public TiffFrame ReplaceFrame(int index, TiffFrame newFrame)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | Int32 | The zero based frame position. |
-| frameToReplace | TiffFrame | The frame to replace. |
+| newFrame | TiffFrame | The frame to replace the one at specified *index*. |
 
 ### Return Value
 

@@ -1507,7 +1507,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following code snippet demonstrates how to convert an OTG image to PDF and other image formats. {#example_181}
+### The following code snippet demonstrates how to convert an OTG image to PDF and other image formats. {#example_183}
 ``` python
 
 from aspose.pycore import cast

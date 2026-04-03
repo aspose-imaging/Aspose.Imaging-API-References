@@ -117,7 +117,7 @@ Gets a value indicating whether the image palette is used.
 
 **See also:**
 
-**[Example # 1](#example_218)**: Determine if the palette is used by the image.
+**[Example # 1](#example_221)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1034,9 +1034,9 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 
 **See also:**
 
-**[Example # 1](#example_180)**: The following example shows how to resize a metafile (WMF and EMF).
+**[Example # 1](#example_182)**: The following example shows how to resize a metafile (WMF and EMF).
 
-**[Example # 2](#example_183)**: The following example shows how to resize SVG image and save it to PNG.
+**[Example # 2](#example_185)**: The following example shows how to resize SVG image and save it to PNG.
 
 
 ### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_40}
@@ -1059,7 +1059,7 @@ Resizes the image.
 
 **See also:**
 
-**[Example # 1](#example_206)**: Resize image using specific Resize Type.
+**[Example # 1](#example_209)**: Resize image using specific Resize Type.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_41}
@@ -1084,7 +1084,7 @@ Resizes the image.
 
 **[Example # 1](#example_28)**: This example loads an image and resizes it using various resizing settings.
 
-**[Example # 2](#example_206)**: Resize image using specific Resize Type.
+**[Example # 2](#example_209)**: Resize image using specific Resize Type.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_42}
@@ -1987,7 +1987,7 @@ with Image.load(path_join(directory, "sample.bmp")) as image:
 
 ```
 
-### The following example shows how to resize a metafile (WMF and EMF). {#example_180}
+### The following example shows how to resize a metafile (WMF and EMF). {#example_182}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2007,7 +2007,7 @@ for file_name in file_names:
 
 ```
 
-### The following example shows how to resize SVG image and save it to PNG. {#example_183}
+### The following example shows how to resize SVG image and save it to PNG. {#example_185}
 ``` python
 
 from aspose.imaging import PointF, Image
@@ -2027,7 +2027,7 @@ for input_file in file_names:
 
 ```
 
-### Resize image using specific Resize Type. {#example_206}
+### Resize image using specific Resize Type. {#example_209}
 ``` python
 from aspose.imaging import Image, ResizeType, ImageResizeSettings, ImageFilterType
 
@@ -2045,7 +2045,7 @@ with Image.load("Photo.jpg") as image:
 
 ```
 
-### Determine if the palette is used by the image. {#example_218}
+### Determine if the palette is used by the image. {#example_221}
 ``` python
 
 from aspose.imaging import Image

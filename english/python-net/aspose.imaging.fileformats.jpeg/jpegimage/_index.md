@@ -2648,7 +2648,7 @@ with JpegImage(100, 100) as jpegImage:
 
 ```
 
-### Access camera manufacturer maker notes in Jpeg image. {#example_219}
+### Access camera manufacturer maker notes in Jpeg image. {#example_222}
 ``` python
 
 from aspose.pycore import as_of

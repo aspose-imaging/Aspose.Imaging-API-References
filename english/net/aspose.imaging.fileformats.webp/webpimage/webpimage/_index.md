@@ -45,28 +45,6 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ---
 
-## WebPImage(Stream, LoadOptions) {#constructor_5}
-
-Create a new instance of the [`WebPImage`](../) class using a stream and specified load options, facilitating versatile handling of WebP image data. Incorporate this constructor to seamlessly initialize WebP image objects from streams while customizing loading parameters as needed within your application.
-
-```csharp
-public WebPImage(Stream stream, LoadOptions loadOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The stream WebP image. |
-| loadOptions | LoadOptions | The load options. |
-
-### See Also
-
-* class [LoadOptions](../../../aspose.imaging/loadoptions/)
-* class [WebPImage](../)
-* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
 ## WebPImage(string) {#constructor_6}
 
 Instantiate a fresh instance of the [`WebPImage`](../) class, initialized from a provided file source. Utilize this constructor to seamlessly create WebP image objects directly from files, streamlining the process of loading and manipulating WebP image data within your application.
@@ -318,6 +296,28 @@ public WebPImage(int width, int height, WebPOptions options, LoadOptions loadOpt
 ### See Also
 
 * class [WebPOptions](../../../aspose.imaging.imageoptions/webpoptions/)
+* class [LoadOptions](../../../aspose.imaging/loadoptions/)
+* class [WebPImage](../)
+* namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## WebPImage(Stream, LoadOptions) {#constructor_5}
+
+Create a new instance of the [`WebPImage`](../) class from a stream, incorporating specified load options and memory management settings. This constructor offers flexibility in loading WebP images from streams while efficiently managing memory resources, ensuring optimal performance and resource utilization within your application.
+
+```csharp
+public WebPImage(Stream stream, LoadOptions loadOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream WebP image. |
+| loadOptions | LoadOptions | The load options. |
+
+### See Also
+
 * class [LoadOptions](../../../aspose.imaging/loadoptions/)
 * class [WebPImage](../)
 * namespace [Aspose.Imaging.FileFormats.Webp](../../webpimage/)

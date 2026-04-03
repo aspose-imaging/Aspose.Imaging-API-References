@@ -25,6 +25,7 @@ The module handles Filter options.
 | [ImageBlendingFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/imageblendingfilteroptions/) | The image blending filter options |
 | [MedianFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/) | Median filter |
 | [MotionWienerFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/) | The motion debluring filter options. |
+| [ShadowFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/shadowfilteroptions/) | The shadow filter options |
 | [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) | The sharpen filter options. |
 | [SmallRectangularFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions/) | Small rectangular filter options |
 ## **Enumerations**

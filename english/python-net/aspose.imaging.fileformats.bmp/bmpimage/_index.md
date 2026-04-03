@@ -3369,7 +3369,7 @@ with Image.load(r"c:\temp\sample.bmp") as image:
 
 ```
 
-### Compress BMP image using DXT1 compression algorithm. {#example_204}
+### Compress BMP image using DXT1 compression algorithm. {#example_207}
 ``` python
 #cxFor:aspose.imaging.imageoptions.BmpOptions.compression
 
@@ -3384,7 +3384,7 @@ with Image.load("Tiger.bmp") as image:
 
 ```
 
-### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_205}
+### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_208}
 ``` python
 
 from aspose.imaging import Image

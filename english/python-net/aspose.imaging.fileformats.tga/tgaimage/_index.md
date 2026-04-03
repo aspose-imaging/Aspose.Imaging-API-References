@@ -247,7 +247,7 @@ Create a new instance of the [TgaImage](/imaging/python-net/aspose.imaging.filef
 
 **See also:**
 
-**[Example # 1](#example_213)**: Loading of the PNG image, conversion of it to the TgaImage and saving as a TG...
+**[Example # 1](#example_216)**: Loading of the PNG image, conversion of it to the TgaImage and saving as a TG...
 
 
 ### Constructor: TgaImage(stream) {#TgaImage_stream_3}
@@ -2588,7 +2588,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_212}
+### Saving of the JPG image as a TGA image. {#example_215}
 ``` python
 
 from aspose.imaging import Image
@@ -2600,7 +2600,7 @@ with Image.load("test.jpg") as image:
 
 ```
 
-### Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image. {#example_213}
+### Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image. {#example_216}
 ``` python
 from aspose.pycore import as_of
 from aspose.imaging import Image, RasterImage
