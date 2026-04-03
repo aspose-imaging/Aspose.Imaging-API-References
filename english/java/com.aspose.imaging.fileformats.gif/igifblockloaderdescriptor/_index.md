@@ -15,7 +15,7 @@ Gif block Loader descriptor.
 | Method | Description |
 | --- | --- |
 | [canLoad(StreamContainer streamContainer)](#canLoad-com.aspose.imaging.StreamContainer-) | Determines whether loader can load the specified data. |
-| [load(StreamContainer streamContainer, IColorPalette containerPalette)](#load-com.aspose.imaging.StreamContainer-com.aspose.imaging.IColorPalette-) | Loads the gif block. |
+| [load(StreamContainer streamContainer, IColorPalette containerPalette)](#load-com.aspose.imaging.StreamContainer-com.aspose.imaging.IColorPalette-) | Loads the GIF block. |
 ### canLoad(StreamContainer streamContainer) {#canLoad-com.aspose.imaging.StreamContainer-}
 ```
 public abstract boolean canLoad(StreamContainer streamContainer)
@@ -37,7 +37,7 @@ public abstract IGifBlock load(StreamContainer streamContainer, IColorPalette co
 ```
 
 
-Loads the gif block.
+Loads the GIF block.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -46,4 +46,4 @@ Loads the gif block.
 | containerPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The container palette. |
 
 **Returns:**
-[IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) - A new gif block.
+[IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) - A new GIF block.

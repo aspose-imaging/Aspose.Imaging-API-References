@@ -21,7 +21,7 @@ The API for CorelDRAW CDR vector image format support is an essential toolkit fo
 | Constructor | Description |
 | --- | --- |
 | [CdrImage(InputStream stream, LoadOptions loadOptions)](#CdrImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | Start working with the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class effortlessly by initializing a new instance with a stream and loadOptions parameters. |
-| [CdrImage(System.IO.Stream stream, LoadOptions loadOptions)](#CdrImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) |  |
+| [CdrImage(System.IO.Stream stream, LoadOptions loadOptions)](#CdrImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) | Start working with the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class effortlessly by initializing a new instance with a stream and loadOptions parameters. |
 ## Methods
 
 | Method | Description |
@@ -78,11 +78,13 @@ public CdrImage(System.IO.Stream stream, LoadOptions loadOptions)
 ```
 
 
+Start working with the [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) class effortlessly by initializing a new instance with a stream and loadOptions parameters. Ideal for developers seeking a convenient way to load CDR images from various data sources while customizing the loading process as needed.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
-| loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) |  |
+| stream | com.aspose.ms.System.IO.Stream | The stream. |
+| loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | The load options. |
 
 ### getDefaultPage() {#getDefaultPage--}
 ```

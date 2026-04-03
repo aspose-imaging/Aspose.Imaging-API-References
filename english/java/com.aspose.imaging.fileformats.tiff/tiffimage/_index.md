@@ -51,7 +51,7 @@ Process Tagged Image File Format (TIFF) raster images with our API, offering com
 | [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | Add the frames from the specified image seamlessly into the current frame, consolidating their content and enhancing compositional flexibility. |
 | [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | Integrate the array of frames seamlessly into the image, enriching its content and versatility. |
 | [insertFrame(int index, TiffFrame frame)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Insert the new frame at the specified index within the frame sequence, ensuring precise control over frame arrangement. |
-| [replaceFrame(int index, TiffFrame frameToReplace)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. |
+| [replaceFrame(int index, TiffFrame newFrame)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Substitute the frame at the designated position with another frame seamlessly, facilitating dynamic frame management within the image sequence. |
 | [removeFrame(int index)](#removeFrame-int-) | Effortlessly eliminate the frame identified by its index from the image sequence, streamlining frame management within your application. |
 | [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Efficiently remove the specified frame from the image sequence, facilitating streamlined frame management within your application. |
 | [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Conduct a proportional resize operation on the image, preserving its aspect ratio while adjusting its dimensions. |
@@ -831,9 +831,9 @@ Insert the new frame at the specified index within the frame sequence, ensuring 
 | index | int | The index of `frame`. |
 | frame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frame for insertion. |
 
-### replaceFrame(int index, TiffFrame frameToReplace) {#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
+### replaceFrame(int index, TiffFrame newFrame) {#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public final TiffFrame replaceFrame(int index, TiffFrame frameToReplace)
+public final TiffFrame replaceFrame(int index, TiffFrame newFrame)
 ```
 
 
@@ -843,7 +843,7 @@ Substitute the frame at the designated position with another frame seamlessly, f
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based frame position. |
-| frameToReplace | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frame to replace.
+| newFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frame to replace.
 
 Note: do not forget to dispose/close the frame if you will not add it to some other TiffImage. |
 

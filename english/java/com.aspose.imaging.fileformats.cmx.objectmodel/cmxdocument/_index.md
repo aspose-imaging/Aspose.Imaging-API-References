@@ -34,14 +34,14 @@ Initializes a new instance of the [CmxDocument](../../com.aspose.imaging.filefor
 
 ### getPages() {#getPages--}
 ```
-public System.Collections.Generic.IGenericList<CmxPage> getPages()
+public List<CmxPage> getPages()
 ```
 
 
 Gets the pages of current document.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage> - the pages of current document.
+java.util.List<com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage> - the pages of current document.
 ### toString() {#toString--}
 ```
 public String toString()

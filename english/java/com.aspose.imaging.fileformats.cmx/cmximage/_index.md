@@ -158,7 +158,7 @@ public int getPageCount()
 ```
 
 
-Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking to manage multi-page images dynamically, ensuring efficient navigation and manipulation of image content.
+Retrieve the total page count of the image with this intuitive property. Ideal for developers seeking to manage multipage images dynamically, ensuring efficient navigation and manipulation of image content.
 
 **Returns:**
 int - the page count.
@@ -168,7 +168,7 @@ public Image[] getPages()
 ```
 
 
-Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multi-page images, ensuring efficient navigation and processing.
+Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multipage images, ensuring efficient navigation and processing.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.

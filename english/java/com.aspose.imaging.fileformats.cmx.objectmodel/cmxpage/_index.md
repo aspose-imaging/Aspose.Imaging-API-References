@@ -91,14 +91,14 @@ Sets the flags.
 
 ### getLayers() {#getLayers--}
 ```
-public System.Collections.Generic.IGenericList<CmxLayer> getLayers()
+public List<CmxLayer> getLayers()
 ```
 
 
 Gets the page layers.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.imaging.fileformats.cmx.objectmodel.CmxLayer> - the page layers.
+java.util.List<com.aspose.imaging.fileformats.cmx.objectmodel.CmxLayer> - the page layers.
 ### getPageNumber() {#getPageNumber--}
 ```
 public final int getPageNumber()

@@ -294,4 +294,4 @@ public DjvuRaster extractThumbnailImage()
 Extracts the thumbnail image from the Djvu page.
 
 **Returns:**
-[DjvuRaster](../../com.aspose.imaging.fileformats.djvu/djvuraster) - The Djvu raster image.
+[DjvuRaster](../../com.aspose.imaging.fileformats.djvu/djvuraster) - The DjVu raster image.

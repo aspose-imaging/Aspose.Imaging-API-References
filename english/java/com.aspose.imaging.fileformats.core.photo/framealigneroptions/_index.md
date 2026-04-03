@@ -30,6 +30,40 @@ The frame aligner options
 | [setMaxOffset(int value)](#setMaxOffset-int-) | Sets the maximum offset. |
 | [getModifyImages()](#getModifyImages--) | Gets a value indicating whether [modify image]. |
 | [setModifyImages(boolean value)](#setModifyImages-boolean-) | Sets a value indicating whether [modify image]. |
+
+## Example: The example shows how to align a series of images relative to the first one.
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### FrameAlignerOptions() {#FrameAlignerOptions--}
 ```
 public FrameAlignerOptions()
@@ -48,6 +82,40 @@ Value: The index of the standard image.
 
 **Returns:**
 int - the index of the standard image.
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### setStandardImageIndex(int value) {#setStandardImageIndex-int-}
 ```
 public final void setStandardImageIndex(int value)
@@ -63,6 +131,40 @@ Value: The index of the standard image.
 | --- | --- | --- |
 | value | int | the index of the standard image. |
 
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### getThreshold() {#getThreshold--}
 ```
 public final float getThreshold()
@@ -75,6 +177,40 @@ Value: The threshold.
 
 **Returns:**
 float - the threshold.
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### setThreshold(float value) {#setThreshold-float-}
 ```
 public final void setThreshold(float value)
@@ -90,6 +226,40 @@ Value: The threshold.
 | --- | --- | --- |
 | value | float | the threshold. |
 
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### getMaxOffset() {#getMaxOffset--}
 ```
 public final int getMaxOffset()
@@ -102,6 +272,40 @@ Value: The maximum offset.
 
 **Returns:**
 int - the maximum offset.
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### setMaxOffset(int value) {#setMaxOffset-int-}
 ```
 public final void setMaxOffset(int value)
@@ -117,6 +321,40 @@ Value: The maximum offset.
 | --- | --- | --- |
 | value | int | the maximum offset. |
 
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### getModifyImages() {#getModifyImages--}
 ```
 public final boolean getModifyImages()
@@ -129,6 +367,40 @@ Value: `true` if [modify image]; otherwise, `false`.
 
 **Returns:**
 boolean - a value indicating whether [modify image].
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
+
 ### setModifyImages(boolean value) {#setModifyImages-boolean-}
 ```
 public final void setModifyImages(boolean value)
@@ -143,4 +415,38 @@ Value: `true` if [modify image]; otherwise, `false`.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether [modify image]. |
+
+
+**Example: The example shows how to align a series of images relative to the first one.**
+
+``` java
+final int imagesCount = 5;
+final boolean modify = true;
+            
+RasterImage[] images = new RasterImage[imagesCount];
+images[0] = (RasterImage)Image.load("DSC_5715.JPG");
+images[1] = (RasterImage)Image.load("DSC_5715_l10t7.jpg");
+images[2] = (RasterImage)Image.load("DSC_5715_l-10t-7.jpg");
+images[3] = (RasterImage)Image.load("DSC_5715_l-19.jpg");
+images[4] = (RasterImage)Image.load("manor_plus2ev.jpg");
+            
+FrameAlignerOptions alignOptions = new FrameAlignerOptions();
+alignOptions.setModifyImages(modify);
+List<Point> results = FrameAligner.process(images, alignOptions);
+            
+System.out.println(results.get(0));
+System.out.println(results.get(1));
+System.out.println(results.get(2));
+System.out.println(results.get(3));
+System.out.println(results.get(4));
+            
+int i = 0;
+for (RasterImage image : images)
+{
+    i++;
+    String outputFilePath = i + "_result.jpg";
+    image.save(outputFilePath);
+    image.close();
+}
+```
 

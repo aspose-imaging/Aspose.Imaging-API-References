@@ -20,11 +20,11 @@ Defines the container for child elements.
 | [getElements()](#getElements--) | Gets the elements. |
 ### getElements() {#getElements--}
 ```
-public abstract System.Collections.Generic.IGenericList<ICmxDocElement> getElements()
+public abstract List<ICmxDocElement> getElements()
 ```
 
 
 Gets the elements.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.imaging.fileformats.cmx.objectmodel.ICmxDocElement> - the elements.
+java.util.List<com.aspose.imaging.fileformats.cmx.objectmodel.ICmxDocElement> - the elements.

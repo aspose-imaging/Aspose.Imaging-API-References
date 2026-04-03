@@ -321,6 +321,19 @@ Embed digital sign based on provided password into each page of the image.
 | --- | --- | --- |
 | password | java.lang.String | The password used for generate digital sign data |
 
+
+**Example: The example shows how to embed digital signature based on provided password into image pixel data.**
+
+``` java
+String imageFilePath = "ball.png";
+String password = "veryStr0ngPassword";
+try (Image image = Image.load(imageFilePath))
+{
+    image.embedDigitalSignature(password);
+    image.save(outputPath);
+}
+```
+
 ### analyzePercentageDigitalSignature(String password) {#analyzePercentageDigitalSignature-java.lang.String-}
 ```
 public int analyzePercentageDigitalSignature(String password)

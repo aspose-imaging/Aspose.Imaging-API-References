@@ -46,6 +46,44 @@ Value: The smooth factor.
 
 **Returns:**
 int - the smooth factor.
+
+**Example: The example shows how HDR processing is carried out.**
+
+``` java
+String image1 = "DSC_6912.JPG";
+String image2 = "DSC_6913.JPG";
+String image3 = "DSC_6914.JPG";
+boolean align = true;
+            
+String resultFilePath = image1 + "_result.jpg";
+RasterImage[] images = new RasterImage[3];
+images[0] = (RasterImage)Image.load(image1);
+images[1] = (RasterImage)Image.load(image2);
+images[2] = (RasterImage)Image.load(image3);
+            
+try
+{
+    HdrImageOptions hdrOptions = new HdrImageOptions();
+    hdrOptions.setSampleCount(100);
+    hdrOptions.setSmoothFactor(200);
+    hdrOptions.setAlignImages(align);
+    int[] pixels = HdrProcessor.process(images, hdrOptions);
+            
+    try (PngImage image = new PngImage(images[0].getWidth(), images[0].getHeight()))
+    {
+        image.saveArgb32Pixels(image.getBounds(), pixels);
+        image.save(resultFilePath);
+    }
+}
+finally
+{
+    for (RasterImage image : images)
+    {
+        image.close();
+    }
+}
+```
+
 ### setSmoothFactor(int value) {#setSmoothFactor-int-}
 ```
 public final void setSmoothFactor(int value)
@@ -61,6 +99,44 @@ Value: The smooth factor.
 | --- | --- | --- |
 | value | int | the smooth factor. |
 
+
+**Example: The example shows how HDR processing is carried out.**
+
+``` java
+String image1 = "DSC_6912.JPG";
+String image2 = "DSC_6913.JPG";
+String image3 = "DSC_6914.JPG";
+boolean align = true;
+            
+String resultFilePath = image1 + "_result.jpg";
+RasterImage[] images = new RasterImage[3];
+images[0] = (RasterImage)Image.load(image1);
+images[1] = (RasterImage)Image.load(image2);
+images[2] = (RasterImage)Image.load(image3);
+            
+try
+{
+    HdrImageOptions hdrOptions = new HdrImageOptions();
+    hdrOptions.setSampleCount(100);
+    hdrOptions.setSmoothFactor(200);
+    hdrOptions.setAlignImages(align);
+    int[] pixels = HdrProcessor.process(images, hdrOptions);
+            
+    try (PngImage image = new PngImage(images[0].getWidth(), images[0].getHeight()))
+    {
+        image.saveArgb32Pixels(image.getBounds(), pixels);
+        image.save(resultFilePath);
+    }
+}
+finally
+{
+    for (RasterImage image : images)
+    {
+        image.close();
+    }
+}
+```
+
 ### getSampleCount() {#getSampleCount--}
 ```
 public final int getSampleCount()
@@ -73,6 +149,44 @@ Value: The sample count.
 
 **Returns:**
 int - the sample count.
+
+**Example: The example shows how HDR processing is carried out.**
+
+``` java
+String image1 = "DSC_6912.JPG";
+String image2 = "DSC_6913.JPG";
+String image3 = "DSC_6914.JPG";
+boolean align = true;
+            
+String resultFilePath = image1 + "_result.jpg";
+RasterImage[] images = new RasterImage[3];
+images[0] = (RasterImage)Image.load(image1);
+images[1] = (RasterImage)Image.load(image2);
+images[2] = (RasterImage)Image.load(image3);
+            
+try
+{
+    HdrImageOptions hdrOptions = new HdrImageOptions();
+    hdrOptions.setSampleCount(100);
+    hdrOptions.setSmoothFactor(200);
+    hdrOptions.setAlignImages(align);
+    int[] pixels = HdrProcessor.process(images, hdrOptions);
+            
+    try (PngImage image = new PngImage(images[0].getWidth(), images[0].getHeight()))
+    {
+        image.saveArgb32Pixels(image.getBounds(), pixels);
+        image.save(resultFilePath);
+    }
+}
+finally
+{
+    for (RasterImage image : images)
+    {
+        image.close();
+    }
+}
+```
+
 ### setSampleCount(int value) {#setSampleCount-int-}
 ```
 public final void setSampleCount(int value)
@@ -88,6 +202,44 @@ Value: The sample count.
 | --- | --- | --- |
 | value | int | the sample count. |
 
+
+**Example: The example shows how HDR processing is carried out.**
+
+``` java
+String image1 = "DSC_6912.JPG";
+String image2 = "DSC_6913.JPG";
+String image3 = "DSC_6914.JPG";
+boolean align = true;
+            
+String resultFilePath = image1 + "_result.jpg";
+RasterImage[] images = new RasterImage[3];
+images[0] = (RasterImage)Image.load(image1);
+images[1] = (RasterImage)Image.load(image2);
+images[2] = (RasterImage)Image.load(image3);
+            
+try
+{
+    HdrImageOptions hdrOptions = new HdrImageOptions();
+    hdrOptions.setSampleCount(100);
+    hdrOptions.setSmoothFactor(200);
+    hdrOptions.setAlignImages(align);
+    int[] pixels = HdrProcessor.process(images, hdrOptions);
+            
+    try (PngImage image = new PngImage(images[0].getWidth(), images[0].getHeight()))
+    {
+        image.saveArgb32Pixels(image.getBounds(), pixels);
+        image.save(resultFilePath);
+    }
+}
+finally
+{
+    for (RasterImage image : images)
+    {
+        image.close();
+    }
+}
+```
+
 ### getAlignImages() {#getAlignImages--}
 ```
 public final boolean getAlignImages()
@@ -100,6 +252,44 @@ Value: `true` if [align images]; otherwise, `false`.
 
 **Returns:**
 boolean - a value indicating whether [align images].
+
+**Example: The example shows how HDR processing is carried out.**
+
+``` java
+String image1 = "DSC_6912.JPG";
+String image2 = "DSC_6913.JPG";
+String image3 = "DSC_6914.JPG";
+boolean align = true;
+            
+String resultFilePath = image1 + "_result.jpg";
+RasterImage[] images = new RasterImage[3];
+images[0] = (RasterImage)Image.load(image1);
+images[1] = (RasterImage)Image.load(image2);
+images[2] = (RasterImage)Image.load(image3);
+            
+try
+{
+    HdrImageOptions hdrOptions = new HdrImageOptions();
+    hdrOptions.setSampleCount(100);
+    hdrOptions.setSmoothFactor(200);
+    hdrOptions.setAlignImages(align);
+    int[] pixels = HdrProcessor.process(images, hdrOptions);
+            
+    try (PngImage image = new PngImage(images[0].getWidth(), images[0].getHeight()))
+    {
+        image.saveArgb32Pixels(image.getBounds(), pixels);
+        image.save(resultFilePath);
+    }
+}
+finally
+{
+    for (RasterImage image : images)
+    {
+        image.close();
+    }
+}
+```
+
 ### setAlignImages(boolean value) {#setAlignImages-boolean-}
 ```
 public final void setAlignImages(boolean value)
@@ -114,4 +304,42 @@ Value: `true` if [align images]; otherwise, `false`.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether [align images]. |
+
+
+**Example: The example shows how HDR processing is carried out.**
+
+``` java
+String image1 = "DSC_6912.JPG";
+String image2 = "DSC_6913.JPG";
+String image3 = "DSC_6914.JPG";
+boolean align = true;
+            
+String resultFilePath = image1 + "_result.jpg";
+RasterImage[] images = new RasterImage[3];
+images[0] = (RasterImage)Image.load(image1);
+images[1] = (RasterImage)Image.load(image2);
+images[2] = (RasterImage)Image.load(image3);
+            
+try
+{
+    HdrImageOptions hdrOptions = new HdrImageOptions();
+    hdrOptions.setSampleCount(100);
+    hdrOptions.setSmoothFactor(200);
+    hdrOptions.setAlignImages(align);
+    int[] pixels = HdrProcessor.process(images, hdrOptions);
+            
+    try (PngImage image = new PngImage(images[0].getWidth(), images[0].getHeight()))
+    {
+        image.saveArgb32Pixels(image.getBounds(), pixels);
+        image.save(resultFilePath);
+    }
+}
+finally
+{
+    for (RasterImage image : images)
+    {
+        image.close();
+    }
+}
+```
 

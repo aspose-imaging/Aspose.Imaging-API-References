@@ -32,7 +32,7 @@ public GraphicsRenderer(Image image)
 ```
 
 
-Creates a new render. By default render will be proceed using the [SmoothingMode.HighQuality](../../com.aspose.imaging/smoothingmode\#HighQuality), [TextRenderingHint.ClearTypeGridFit](../../com.aspose.imaging/textrenderinghint\#ClearTypeGridFit), and with a white background color.
+Creates a new render. By default, render will be proceeded using the [SmoothingMode.HighQuality](../../com.aspose.imaging/smoothingmode\#HighQuality), [TextRenderingHint.ClearTypeGridFit](../../com.aspose.imaging/textrenderinghint\#ClearTypeGridFit), and with a white background color.
 
 **Parameters:**
 | Parameter | Type | Description |

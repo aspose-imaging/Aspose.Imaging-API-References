@@ -38,6 +38,8 @@ Defines an array of colors that make up a color palette. The colors are 32-bit A
 | [getNearestColorIndex(Color color)](#getNearestColorIndex-com.aspose.imaging.Color-) | Gets the index of the nearest color. |
 | [getArgb32Color(int index)](#getArgb32Color-int-) | Gets the 32-bit ARGB palette color by index. |
 | [getColor(int index)](#getColor-int-) | Gets the palette color by index. |
+| [hashCode()](#hashCode--) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) |  |
 ### ColorPalette(int[] argb32Entries, boolean isCompactPalette) {#ColorPalette-int---boolean-}
 ```
 public ColorPalette(int[] argb32Entries, boolean isCompactPalette)
@@ -225,3 +227,28 @@ Gets the palette color by index.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The color palette entry specified by the `index`.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
