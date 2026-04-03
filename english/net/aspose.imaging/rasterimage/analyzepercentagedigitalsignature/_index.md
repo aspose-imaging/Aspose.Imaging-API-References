@@ -22,6 +22,19 @@ public virtual int AnalyzePercentageDigitalSignature(string password)
 
 The percentage similarity value.
 
+## Examples
+
+The example illustrates how to determine the probability (from 0% to 100%) that an image contains a digital signature created with the specified password.
+
+```csharp
+[C#]
+
+using (var image = Image.Load(outputPath))
+{
+    var signedPercentage = image.AnalyzePercentageDigitalSignature(password);
+}
+```
+
 ### See Also
 
 * class [RasterImage](../)

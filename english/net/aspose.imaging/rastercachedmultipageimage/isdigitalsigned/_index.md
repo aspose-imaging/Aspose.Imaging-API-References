@@ -29,6 +29,20 @@ This method provides the fastest detection by leveraging !:GetSignPercentage. On
 
 The result is `true` only if all pages in the multi-page image are recognized as signed; otherwise, the image is considered unsigned.
 
+## Examples
+
+The example demonstrates how to verify that the embedded digital signature matches the provided password against the specified probability threshold.
+
+```csharp
+[C#]
+
+var threshold = 100;
+using (var image = Image.Load(outputPath))
+{
+    var isSigned = image.IsDigitalSigned(password, threshold);
+}
+```
+
 ### See Also
 
 * class [RasterCachedMultipageImage](../)

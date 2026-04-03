@@ -18,6 +18,22 @@ public virtual void EmbedDigitalSignature(string password)
 | --- | --- | --- |
 | password | String | The password used for generate digital sign data |
 
+## Examples
+
+The example shows how to embed digital signature based on provided password into image pixel data.
+
+```csharp
+[C#]
+
+var imageFilePath = "ball.png";
+var password = "veryStr0ngPassword";
+using (var image = Image.Load(imageFilePath))
+{
+    image.EmbedDigitalSignature(password);
+    image.Save(outputPath);
+}
+```
+
 ### See Also
 
 * class [RasterImage](../)
