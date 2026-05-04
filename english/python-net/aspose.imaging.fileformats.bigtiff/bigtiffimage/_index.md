@@ -32,11 +32,11 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/bigtiffimage/
 | data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | r | Gets the object's data stream. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
-| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Retrieve the file format value associated with the image. This property serves as <br/>            a critical aspect of image metadata retrieval, allowing software applications to <br/>            identify and interpret the format of the image data efficiently. |
+| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets the file format of this [Image](/imaging/python-net/aspose.imaging/image/) instance. |
 | frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | r | Retrieve an array of [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) instances, enabling comprehensive <br/>            access and manipulation of individual frames within the TIFF image. Harness the <br/>            power of this array to streamline image processing workflows, ensuring precise <br/>            control and optimization of visual content. |
 | has_alpha | bool | r | Determine whether the image has an alpha channel, providing crucial information <br/>            for rendering and compositing operations. Integrate this feature to optimize <br/>            visual processing workflows, ensuring accurate representation and manipulation of <br/>            transparent elements. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets a value indicating whether the image has a transparent color. |
 | height | int | r | Gets the object height. |
 | horizontal_resolution | float | r/w | Retrieve the horizontal resolution of the specified [Image](/imaging/python-net/aspose.imaging/image/) in pixels <br/>            per inch, facilitating precise adjustment and rendering capabilities. Access <br/>            essential image metadata effortlessly, empowering streamlined image processing <br/>            workflows for enhanced user experiences. |
 | image_opacity | float | r | Gets opacity of this image. |

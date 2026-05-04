@@ -23,6 +23,7 @@ With the [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimag
 
 | Method | Description |
 | --- | --- |
+| [getFileFormat()](#getFileFormat--) | Gets the file format of this [Image](../../com.aspose.imaging/image) instance. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Effortlessly expand your BigTiff image by adding a new page with this intuitive method. |
 ### BigTiffImage(TiffFrame frame) {#BigTiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
@@ -50,6 +51,16 @@ Begin utilizing the [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/
 | --- | --- | --- |
 | frames | [TiffFrame\[\]](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The frames. |
 
+### getFileFormat() {#getFileFormat--}
+```
+public long getFileFormat()
+```
+
+
+Gets the file format of this [Image](../../com.aspose.imaging/image) instance.
+
+**Returns:**
+long - the file format of this [Image](../../com.aspose.imaging/image) instance.
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```
 public void addPage(RasterImage page)

@@ -39,7 +39,7 @@ url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Access the file format value associated with the image, providing information <br/>            about the format in which the image is stored. Utilize this property to determine <br/>            the file format of the image, facilitating compatibility checks and <br/>            format-specific processing within your application. |
 | [has_alpha](#has_alpha1) | bool | r | Retrieve whether the image contains an alpha channel, indicating the presence of <br/>            transparency information. Utilize this property to determine whether the image <br/>            includes transparency, enabling appropriate handling and processing of <br/>            alpha-related operations within your application. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets a value indicating whether the image has a transparent color. |
 | height | int | r | Gets the image height. |
 | horizontal_resolution | float | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | image_opacity | float | r | Gets opacity of this image. |

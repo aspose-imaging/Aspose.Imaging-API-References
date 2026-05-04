@@ -42,7 +42,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 | [file_format](#file_format4) | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Easily retrieve the file format value with this user-friendly property.<br/>            Ideal for developers seeking quick access to information about the file format. |
 | has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets or sets a value indicating whether this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance has a transparent color. |
 | [height](#height5) | int | r | Retrieve the height of the image effortlessly with this property. Ideal for developers<br/>            needing quick access to information about image dimensions. |
 | [horizontal_resolution](#horizontal_resolution6) | float | r/w | This property allows you to easily get or set the horizontal resolution,<br/>            measured in pixels per inch, of the [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) object. Ideal for<br/>            developers needing precise control over image resolution for their applications. |
 | image_opacity | float | r | Gets opacity of this image. |

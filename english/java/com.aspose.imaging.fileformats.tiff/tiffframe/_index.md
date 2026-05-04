@@ -31,8 +31,6 @@ The tiff frame.
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a value for the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
-| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFrameOptions()](#getFrameOptions--) | Gets the frame create options. |
 | [getHeight()](#getHeight--) | Gets the image height. |
@@ -256,29 +254,6 @@ try {
 // Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 // Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 ```
-
-### hasTransparentColor() {#hasTransparentColor--}
-```
-public boolean hasTransparentColor()
-```
-
-
-Gets a value indicating whether image has transparent color.
-
-**Returns:**
-boolean
-### setTransparentColor(boolean value) {#setTransparentColor-boolean-}
-```
-public void setTransparentColor(boolean value)
-```
-
-
-Gets a value indicating whether image has transparent color.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```

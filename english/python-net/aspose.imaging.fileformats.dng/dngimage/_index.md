@@ -28,7 +28,7 @@ url: /python-net/aspose.imaging.fileformats.dng/dngimage/
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Identify the file format of your image with this property. Perfect for <br/>            understanding the format - just straightforward details. |
 | has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets or sets a value indicating whether this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance has a transparent color. |
 | height | int | r | Retrieve the height of the image with this property. Perfect for determining the <br/>            vertical size of the image without hassle. |
 | horizontal_resolution | float | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | image_opacity | float | r | Gets opacity of this image. |

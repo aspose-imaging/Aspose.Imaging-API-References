@@ -41,10 +41,10 @@ Represents a raster image supporting raster graphics operations.
 | [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Gets or sets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
 | [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
-| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
+| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [getTransparentColor()](#getTransparentColor--) | Gets the image transparent color. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether image has transparent color. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Sets a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the image transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
 | [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`. |
@@ -547,10 +547,14 @@ public boolean hasTransparentColor()
 ```
 
 
-Gets a value indicating whether image has transparent color.
+Gets a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color.
+
+--------------------
+
+The base implementation effectively returns `` if not overridden in a specific implementation that supports this feature. This property is primarily used by [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng), [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png), [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif), [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) to set a transparent color if an image does not support transparency via alpha channel.
 
 **Returns:**
-boolean
+boolean - a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color.
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -607,12 +611,16 @@ public void setTransparentColor(boolean value)
 ```
 
 
-Gets a value indicating whether image has transparent color.
+Sets a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color.
+
+--------------------
+
+The base implementation effectively returns `` if not overridden in a specific implementation that supports this feature. This property is primarily used by [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng), [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png), [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif), [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) to set a transparent color if an image does not support transparency via alpha channel.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color. |
 
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```

@@ -39,7 +39,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | frame_options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) | r | Gets the frame create options. |
 | has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets or sets a value indicating whether this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance has a transparent color. |
 | height | int | r | Gets the image height. |
 | horizontal_resolution | float | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | image_opacity | float | r | Gets opacity of this image. |
