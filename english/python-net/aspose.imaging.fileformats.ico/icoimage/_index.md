@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging.fileformats.ico/icoimage/
 | file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Retrieve the file format effortlessly with this property, enabling seamless <br/>            integration into your workflow. By using this property, you gain access to critical <br/>            information about the format of your file, ensuring compatibility and efficient processing. |
 | has_alpha | bool | r | Determine whether alpha channel is present in this instance with this property. It <br/>            offers a quick way to check if the image or document contains an alpha channel, <br/>            which is crucial for various image processing and rendering tasks. Ideal for <br/>            ensuring compatibility and handling transparency effects in images or documents. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets a value indicating whether the image has a transparent color. |
 | height | int | r | Gets the image height. |
 | horizontal_resolution | float | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | image_opacity | float | r | Gets opacity of this image. |

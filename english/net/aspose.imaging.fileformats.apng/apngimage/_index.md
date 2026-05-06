@@ -37,7 +37,7 @@ public sealed class ApngImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [FileFormat](../../aspose.imaging.fileformats.apng/apngimage/fileformat/) { get; } | Quickly access information about the file format with this convenient property. Ideal for developers who need to retrieve details about the format of their Apng files easily. |
 | override [HasAlpha](../../aspose.imaging/rastercachedmultipageimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether image has transparent color. |
+| override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether the image has a transparent color. |
 | override [Height](../../aspose.imaging/rastercachedmultipageimage/height/) { get; } | Gets the image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [ImageOpacity](../../aspose.imaging/rastercachedmultipageimage/imageopacity/) { get; } | Gets opacity of this image. |

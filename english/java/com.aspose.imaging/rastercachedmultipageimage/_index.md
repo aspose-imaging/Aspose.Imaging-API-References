@@ -25,7 +25,7 @@ The raster multipage image
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [isCached()](#isCached--) | Gets a value indicating whether image data is cached currently. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
-| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
+| [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether the image has a transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a value for the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
@@ -160,10 +160,14 @@ public boolean hasTransparentColor()
 ```
 
 
-Gets a value indicating whether image has transparent color.
+Gets a value indicating whether the image has a transparent color.
+
+--------------------
+
+This implementation checks the `RasterImage.HasTransparentColor`([RasterImage.hasTransparentColor](../../com.aspose.imaging/rasterimage\#hasTransparentColor)/[RasterImage.setTransparentColor(boolean)](../../com.aspose.imaging/rasterimage\#setTransparentColor-boolean-)) value of the `DefaultPage`(\#getDefaultPage\_internalized.getDefaultPage\_internalized).
 
 **Returns:**
-boolean - a value indicating whether image has transparent color.
+boolean - a value indicating whether the image has a transparent color.
 ### getImageOpacity() {#getImageOpacity--}
 ```
 public float getImageOpacity()

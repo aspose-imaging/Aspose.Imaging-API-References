@@ -40,7 +40,7 @@ public sealed class DjvuImage : RasterCachedMultipageImage, INotifyPropertyChang
 | [FirstPage](../../aspose.imaging.fileformats.djvu/djvuimage/firstpage/) { get; } | Access the first page of your DjVu document with this property. Quickly retrieve the initial page to begin viewing or processing your document efficiently. |
 | override [HasAlpha](../../aspose.imaging.fileformats.djvu/djvuimage/hasalpha/) { get; } | Quickly determine whether your DjVu image file contains an alpha channel. Simplify your workflow by checking for the presence of transparency information in your images. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether image has transparent color. |
+| override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether the image has a transparent color. |
 | override [Height](../../aspose.imaging/rastercachedmultipageimage/height/) { get; } | Gets the image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | [Identifier](../../aspose.imaging.fileformats.djvu/djvuimage/identifier/) { get; } | Gets the unique identifier for the document |

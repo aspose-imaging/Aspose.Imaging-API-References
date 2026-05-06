@@ -36,7 +36,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | first_page | [DjvuPage](/imaging/python-net/aspose.imaging.fileformats.djvu/djvupage/) | r | Access the first page of your DjVu document with this property. Quickly retrieve<br/>            the initial page to begin viewing or processing your document efficiently. |
 | has_alpha | bool | r | Quickly determine whether your DjVu image file contains an alpha channel.<br/>            Simplify your workflow by checking for the presence of transparency information<br/>            in your images. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets a value indicating whether the image has a transparent color. |
 | height | int | r | Gets the image height. |
 | horizontal_resolution | float | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | identifier | int | r | Gets the unique identifier for the document |

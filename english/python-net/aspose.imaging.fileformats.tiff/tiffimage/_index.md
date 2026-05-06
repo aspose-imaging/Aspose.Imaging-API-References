@@ -36,7 +36,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | frames | [TiffFrame[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | r | Retrieve an array of [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) instances, enabling comprehensive <br/>            access and manipulation of individual frames within the TIFF image. Harness the <br/>            power of this array to streamline image processing workflows, ensuring precise <br/>            control and optimization of visual content. |
 | [has_alpha](#has_alpha1) | bool | r | Determine whether the image has an alpha channel, providing crucial information <br/>            for rendering and compositing operations. Integrate this feature to optimize <br/>            visual processing workflows, ensuring accurate representation and manipulation of <br/>            transparent elements. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets a value indicating whether the image has a transparent color. |
 | height | int | r | Gets the image height. |
 | horizontal_resolution | float | r/w | Retrieve the horizontal resolution of the specified [Image](/imaging/python-net/aspose.imaging/image/) in pixels <br/>            per inch, facilitating precise adjustment and rendering capabilities. Access <br/>            essential image metadata effortlessly, empowering streamlined image processing <br/>            workflows for enhanced user experiences. |
 | image_opacity | float | r | Gets opacity of this image. |

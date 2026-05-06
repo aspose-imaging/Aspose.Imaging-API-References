@@ -26,7 +26,7 @@ Processes the loaded pixels.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pixelsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The pixels rectangle. |
+| pixelsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The pixel rectangle. |
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | The pixels. |
 | start | [Point](../../com.aspose.imaging/point) | The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have. |
 | end | [Point](../../com.aspose.imaging/point) | The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |

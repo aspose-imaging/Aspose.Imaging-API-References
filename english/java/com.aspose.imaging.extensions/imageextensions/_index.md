@@ -22,7 +22,7 @@ Contains extension methods for conversions based on `System.Drawing.Image` and `
 | [toJava(Image image)](#toJava-com.aspose.imaging.Image-) | Converts the `Image` to the `BufferedImage` with TYPE\_INT\_ARGB. |
 | [toJava(Image image, int bufferedImageType)](#toJava-com.aspose.imaging.Image-int-) | Converts the `Image` to the `BufferedImage` with bufferedImageType. |
 | [toJava(Image image, Rectangle subImageRect)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-) | Takes the subimage from `Image` and converts to the `BufferedImage` with BufferedImage.TYPE\_INT\_ARGB. |
-| [wrap(BufferedImage image)](#wrap-java.awt.image.BufferedImage-) | Create a wrapper over the BufferedImage without copying the pixels data. |
+| [wrap(BufferedImage image)](#wrap-java.awt.image.BufferedImage-) | Create a wrapper over the BufferedImage without copying the pixels' data. |
 | [toJava(Image image, Rectangle subImageRect, int bufferedImageType)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-int-) | Takes the subimage from `Image` and converts to the `BufferedImage` with bufferedImageType. |
 | [toJava(Image image, Rectangle subImageRect, BufferedImage dstImage)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-java.awt.image.BufferedImage-) | Takes the subimage from `Image` and converts to the `BufferedImage` with bufferedImageType. |
 ### fromJava(BufferedImage image, Rectangle rect) {#fromJava-java.awt.image.BufferedImage-com.aspose.imaging.Rectangle-}
@@ -111,7 +111,7 @@ public static RasterImage wrap(BufferedImage image)
 ```
 
 
-Create a wrapper over the BufferedImage without copying the pixels data. It uses the source `image` under the hood but allows to manipulate with it as with a [RasterImage](../../com.aspose.imaging/rasterimage).
+Create a wrapper over the BufferedImage without copying the pixels' data. It uses the source `image` under the hood but allows to manipulate with it as with a [RasterImage](../../com.aspose.imaging/rasterimage).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -38,7 +38,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | file_info | [DicomImageInfo](/imaging/python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/) | r | Retrieve valuable header information from the DICOM file effortlessly with this<br/>            intuitive property. Ideal for developers seeking quick access to essential details<br/>            encapsulated within the DICOM file, ensuring efficient data extraction and analysis. |
 | has_alpha | bool | r | Retrieve whether the image has an alpha channel effortlessly with this intuitive<br/>            property. Ideal for developers seeking to determine if the image contains transparency<br/>            information, ensuring precise handling of alpha channel data in image processing tasks. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
-| has_transparent_color | bool | r/w | Gets a value indicating whether image has transparent color. |
+| has_transparent_color | bool | r/w | Gets a value indicating whether the image has a transparent color. |
 | height | int | r | Gets the image height. |
 | horizontal_resolution | float | r/w | Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | image_opacity | float | r | Gets opacity of this image. |

@@ -3,7 +3,7 @@ title: TiffFrame.HorizontalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame property. Gets or sets the horizontal resolution in pixels per inch of this RasterImage
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/horizontalresolution/
 ---
 ## TiffFrame.HorizontalResolution property
