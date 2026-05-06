@@ -3,7 +3,7 @@ title: TiffFrame.Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: TiffFrame method. Rotate image around the center
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.imaging.fileformats.tiff/tiffframe/rotate/
 ---
 ## TiffFrame.Rotate method

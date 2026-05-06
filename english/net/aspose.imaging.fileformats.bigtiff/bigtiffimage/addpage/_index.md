@@ -3,7 +3,7 @@ title: BigTiffImage.AddPage
 second_title: Aspose.Imaging for .NET API Reference
 description: BigTiffImage method. Effortlessly expand your BigTiff image by adding a new page with this intuitive method. Perfect for developers seeking to dynamically enhance the content of their multipage images
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.fileformats.bigtiff/bigtiffimage/addpage/
 ---
 ## BigTiffImage.AddPage method

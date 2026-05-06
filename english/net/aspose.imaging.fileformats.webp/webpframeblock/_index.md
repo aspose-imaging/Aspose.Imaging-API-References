@@ -42,7 +42,7 @@ public class WebPFrameBlock : RasterCachedImage, IAnimationFrame, IFrame
 | [FrameTop](../../aspose.imaging.fileformats.webp/webpframeblock/frametop/) { get; } | Gets the frame top offset. |
 | override [HasAlpha](../../aspose.imaging.fileformats.webp/webpframeblock/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets a value indicating whether image has transparent color. |
+| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether this [`RasterImage`](../../aspose.imaging/rasterimage/) instance has a transparent color. |
 | override [Height](../../aspose.imaging.fileformats.webp/webpframeblock/height/) { get; } | Gets the image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity/) { get; } | Gets opacity of this image. |

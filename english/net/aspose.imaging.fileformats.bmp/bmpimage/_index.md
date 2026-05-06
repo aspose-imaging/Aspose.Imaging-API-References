@@ -46,7 +46,7 @@ public sealed class BmpImage : RasterCachedImage
 | override [FileFormat](../../aspose.imaging.fileformats.bmp/bmpimage/fileformat/) { get; } | Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format. |
 | override [HasAlpha](../../aspose.imaging.fileformats.bmp/bmpimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets a value indicating whether image has transparent color. |
+| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether this [`RasterImage`](../../aspose.imaging/rasterimage/) instance has a transparent color. |
 | override [Height](../../aspose.imaging.fileformats.bmp/bmpimage/height/) { get; } | Retrieve the height of the image effortlessly with this property. Ideal for developers needing quick access to information about image dimensions. |
 | override [HorizontalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution/) { get; set; } | This property allows you to easily get or set the horizontal resolution, measured in pixels per inch, of the [`RasterImage`](../../aspose.imaging/rasterimage/) object. Ideal for developers needing precise control over image resolution for their applications. |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity/) { get; } | Gets opacity of this image. |

@@ -36,7 +36,7 @@ public class AvifImage : RasterCachedImage
 | override [FileFormat](../../aspose.imaging.fileformats.avif/avifimage/fileformat/) { get; } | Gets a value of file format |
 | virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets a value indicating whether image has transparent color. |
+| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether this [`RasterImage`](../../aspose.imaging/rasterimage/) instance has a transparent color. |
 | override [Height](../../aspose.imaging.fileformats.avif/avifimage/height/) { get; } | Gets the AVIF image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity/) { get; } | Gets opacity of this image. |

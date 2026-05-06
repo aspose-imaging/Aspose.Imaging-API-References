@@ -42,7 +42,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | [FileInfo](../../aspose.imaging.fileformats.dicom/dicomimage/fileinfo/) { get; } | Retrieve valuable header information from the DICOM file effortlessly with this intuitive property. Ideal for developers seeking quick access to essential details encapsulated within the DICOM file, ensuring efficient data extraction and analysis. |
 | override [HasAlpha](../../aspose.imaging.fileformats.dicom/dicomimage/hasalpha/) { get; } | Retrieve whether the image has an alpha channel effortlessly with this intuitive property. Ideal for developers seeking to determine if the image contains transparency information, ensuring precise handling of alpha channel data in image processing tasks. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether image has transparent color. |
+| override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether the image has a transparent color. |
 | override [Height](../../aspose.imaging/rastercachedmultipageimage/height/) { get; } | Gets the image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [ImageOpacity](../../aspose.imaging/rastercachedmultipageimage/imageopacity/) { get; } | Gets opacity of this image. |

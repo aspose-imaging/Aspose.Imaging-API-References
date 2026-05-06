@@ -30,7 +30,7 @@ public class DngImage : RasterCachedImage
 | override [FileFormat](../../aspose.imaging.fileformats.dng/dngimage/fileformat/) { get; } | Identify the file format of your image with this property. Perfect for understanding the format - just straightforward details. |
 | virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
-| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets a value indicating whether image has transparent color. |
+| virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether this [`RasterImage`](../../aspose.imaging/rasterimage/) instance has a transparent color. |
 | override [Height](../../aspose.imaging.fileformats.dng/dngimage/height/) { get; } | Retrieve the height of the image with this property. Perfect for determining the vertical size of the image without hassle. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity/) { get; } | Gets opacity of this image. |
