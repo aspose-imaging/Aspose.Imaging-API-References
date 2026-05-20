@@ -1,0 +1,30 @@
+---
+title: "AsyncTaskAction"
+second_title: "مرجع API لـ Aspose.Imaging للـ Java"
+description: "المندوب الخاص بالعملية الطويلة للمهمة غير المتزامنة دون أي نتيجة."
+type: docs
+weight: 14
+url: /ar/java/com.aspose.imaging.asynctask/asynctaskaction/
+---```
+public interface AsyncTaskAction
+```
+
+The long operation delegate for the asynchronous task without any result.
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [run(IAsyncTaskState taskState)](#run-com.aspose.imaging.asynctask.IAsyncTaskState-) | The long operation delegate for the asynchronous task without any result. |
+### run(IAsyncTaskState taskState) {#run-com.aspose.imaging.asynctask.IAsyncTaskState-}
+```
+public abstract void run(IAsyncTaskState taskState)
+```
+
+
+The long operation delegate for the asynchronous task without any result.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| taskState | [IAsyncTaskState](../../com.aspose.imaging.asynctask/iasynctaskstate) | State of the asynchronous task. |
+

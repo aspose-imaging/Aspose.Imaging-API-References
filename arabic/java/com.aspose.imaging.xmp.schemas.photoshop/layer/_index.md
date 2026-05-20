@@ -1,0 +1,162 @@
+---
+title: "طبقة"
+second_title: "مرجع API لـ Aspose.Imaging للـ Java"
+description: "يمثل طبقة النص في Photoshop."
+type: docs
+weight: 11
+url: /ar/java/com.aspose.imaging.xmp.schemas.photoshop/layer/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.imaging.xmp.types/xmptypebase)
+
+**All Implemented Interfaces:**
+com.aspose.ms.System.IEquatable
+```
+public class Layer extends XmpTypeBase implements System.IEquatable<Layer>
+```
+
+يمثل طبقة النص في Photoshop.
+## المنشئات
+
+| المنشئ | الوصف |
+| --- | --- |
+| [Layer(String layerName, String layerText)](#Layer-java.lang.String-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `Layer`. |
+| [Layer()](#Layer--) | ينشئ مثيلاً جديداً من الفئة `Layer`. |
+## الطرق
+
+| طريقة | الوصف |
+| --- | --- |
+| [getName()](#getName--) | يحصل أو يضبط اسم طبقة النص. |
+| [setName(String value)](#setName-java.lang.String-) | يحصل أو يضبط اسم طبقة النص. |
+| [getText()](#getText--) | يحصل أو يضبط محتوى النص للطبقة. |
+| [setText(String value)](#setText-java.lang.String-) | يحصل أو يضبط محتوى النص للطبقة. |
+| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة النصية المحتواة بتنسيق XMP. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `System.Object` المحدد يساوي هذه المثيلة. |
+| [isEquals(Layer other)](#isEquals-com.aspose.imaging.xmp.schemas.photoshop.Layer-) | يشير إلى ما إذا كان الكائن الحالي يساوي كائنًا آخر من نفس النوع. |
+| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+### Layer(String layerName, String layerText) {#Layer-java.lang.String-java.lang.String-}
+```
+public Layer(String layerName, String layerText)
+```
+
+
+ينشئ مثيلاً جديداً من الفئة `Layer`.
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| layerName | java.lang.String | اسم الطبقة. |
+| layerText | java.lang.String | نص الطبقة. |
+
+### Layer() {#Layer--}
+```
+public Layer()
+```
+
+
+ينشئ مثيلاً جديداً من الفئة `Layer`.
+
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+يحصل أو يضبط اسم طبقة النص.
+
+القيمة: اسم طبقة النص.
+
+**Returns:**
+java.lang.String
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+يحصل أو يضبط اسم طبقة النص.
+
+القيمة: اسم طبقة النص.
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| القيمة | java.lang.String |  |
+
+### getText() {#getText--}
+```
+public String getText()
+```
+
+
+يحصل أو يضبط محتوى النص للطبقة.
+
+القيمة: محتوى النص للطبقة.
+
+**Returns:**
+java.lang.String
+### setText(String value) {#setText-java.lang.String-}
+```
+public void setText(String value)
+```
+
+
+يحصل أو يضبط محتوى النص للطبقة.
+
+القيمة: محتوى النص للطبقة.
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| القيمة | java.lang.String |  |
+
+### getXmpRepresentation() {#getXmpRepresentation--}
+```
+public String getXmpRepresentation()
+```
+
+
+يرجع القيمة النصية المحتواة بتنسيق XMP.
+
+**Returns:**
+java.lang.String - يُرجع قيمة السلسلة المحتواة بتنسيق XMP.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+يحدد ما إذا كان `System.Object` المحدد يساوي هذه المثيلة.
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| obj | java.lang.Object | الـ `System.Object` للمقارنة مع هذا المثيل. |
+
+**Returns:**
+منطقي - `true` إذا كان الـ `System.Object` المحدد يساوي هذا المثيل؛ وإلا، `false`.
+### isEquals(Layer other) {#isEquals-com.aspose.imaging.xmp.schemas.photoshop.Layer-}
+```
+public boolean isEquals(Layer other)
+```
+
+
+يشير إلى ما إذا كان الكائن الحالي يساوي كائنًا آخر من نفس النوع.
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| other | [Layer](../../com.aspose.imaging.xmp.schemas.photoshop/layer) | كائن للمقارنة مع هذا الكائن. |
+
+**Returns:**
+boolean - true إذا كان الكائن الحالي مساويًا للمعامل `other`؛ وإلا، false.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+يرجع رمز تجزئة (hash code) لهذه المثيل.
+
+**Returns:**
+int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
