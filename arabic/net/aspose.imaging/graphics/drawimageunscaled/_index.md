@@ -1,125 +1,125 @@
 ---
-title: DrawImageUnscaled
-second_title: Aspose.Imaging لمرجع NET API
-description: رسم صورة محددة باستخدام حجمها الفعلي الأصلي في مكان محدد.
+title: "Graphics.DrawImageUnscaled"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Graphics. ترسم صورة محددة باستخدام حجمها الفيزيائي الأصلي في موقع محدد"
 type: docs
-weight: 230
+weight: 240
 url: /ar/net/aspose.imaging/graphics/drawimageunscaled/
 ---
 ## DrawImageUnscaled(Image, Point) {#drawimageunscaled}
 
-رسم صورة محددة باستخدام حجمها الفعلي الأصلي في مكان محدد.
+يرسم صورة محددة باستخدام حجمها الفيزيائي الأصلي في موقع محدد.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, Point point)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| sourceImage | Image | الصورة المراد رسمها. |
-| point | Point | [`Point`](../../point) الهيكل الذي يحدد الزاوية العلوية اليسرى للصورة المرسومة. |
+| sourceImage | صورة | الصورة التي سيتم الرسم بها. |
+| point | Point | [`Point`](../../point/) بنية التي تحدد الزاوية العليا اليسرى للصورة المرسومة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *sourceImage* باطل. |
+| ArgumentNullException | *sourceImage* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../../image/)
+* struct [Point](../../point/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DrawImageUnscaled(Image, int, int) {#drawimageunscaled_2}
 
-يرسم الصورة المحددة باستخدام حجمها المادي الأصلي في الموقع المحدد بواسطة زوج إحداثيات .
+يرسم الصورة المحددة باستخدام حجمها الفيزيائي الأصلي في الموقع المحدد بواسطة زوج من الإحداثيات.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, int x, int y)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| sourceImage | Image | الصورة المراد رسمها. |
-| x | Int32 | إحداثي x للركن الأيسر العلوي للصورة المرسومة. |
-| y | Int32 | إحداثي ص للركن الأيسر العلوي للصورة المرسومة. |
+| sourceImage | صورة | الصورة التي سيتم الرسم بها. |
+| x | Int32 | الإحداثي السيني للزاوية العليا اليسرى للصورة المرسومة. |
+| y | Int32 | الإحداثي الصادي للزاوية العليا اليسرى للصورة المرسومة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *sourceImage* باطل. |
+| ArgumentNullException | *sourceImage* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../../image/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DrawImageUnscaled(Image, Rectangle) {#drawimageunscaled_1}
 
-رسم صورة محددة باستخدام حجمها الفعلي الأصلي في مكان محدد.
+يرسم صورة محددة باستخدام حجمها الفيزيائي الأصلي في موقع محدد.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, Rectangle rect)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| sourceImage | Image | الصورة المراد رسمها. |
-| rect | Rectangle | [`Rectangle`](../../rectangle) يحدد الزاوية العلوية اليسرى للصورة المرسومة. تحدد خصائص المستطيل X و Y الزاوية اليسرى العليا. يتم تجاهل خصائص العرض والارتفاع. |
+| sourceImage | صورة | الصورة التي سيتم الرسم بها. |
+| rect | Rectangle | [`Rectangle`](../../rectangle/) التي تحدد الزاوية العليا اليسرى للصورة المرسومة. خصائص X و Y للمستطيل تحدد الزاوية العليا اليسرى. خصائص Width و Height يتم تجاهلها. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *sourceImage* باطل. |
+| ArgumentNullException | *sourceImage* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../../image/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DrawImageUnscaled(Image, int, int, int, int) {#drawimageunscaled_3}
 
-رسم صورة محددة باستخدام حجمها الفعلي الأصلي في مكان محدد.
+يرسم صورة محددة باستخدام حجمها الفيزيائي الأصلي في موقع محدد.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, int x, int y, int width, int height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| sourceImage | Image | الصورة المراد رسمها. |
-| x | Int32 | إحداثي x للركن الأيسر العلوي للصورة المرسومة. |
-| y | Int32 | إحداثي ص للركن الأيسر العلوي للصورة المرسومة. |
-| width | Int32 | لا يتم استخدام المعلمة. |
-| height | Int32 | لا يتم استخدام المعلمة. |
+| sourceImage | صورة | الصورة التي سيتم الرسم بها. |
+| x | Int32 | الإحداثي السيني للزاوية العليا اليسرى للصورة المرسومة. |
+| y | Int32 | الإحداثي الصادي للزاوية العليا اليسرى للصورة المرسومة. |
+| العرض | Int32 | المعامل غير مستخدم. |
+| الارتفاع | Int32 | المعامل غير مستخدم. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *sourceImage* باطل. |
+| ArgumentNullException | *sourceImage* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../../image/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

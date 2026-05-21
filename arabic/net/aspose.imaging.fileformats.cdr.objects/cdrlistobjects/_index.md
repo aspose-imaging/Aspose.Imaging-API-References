@@ -1,56 +1,56 @@
 ---
-title: CdrListObjects
-second_title: Aspose.Imaging لمرجع NET API
-description: كائنات قائمة cdr
+title: "الفئة CdrListObjects"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Cdr.Objects.CdrListObjects الفئة. كائنات قائمة cdr"
 type: docs
-weight: 1620
+weight: 1670
 url: /ar/net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/
 ---
 ## CdrListObjects class
 
-كائنات قائمة cdr
+ال cdr list objects
 
 ```csharp
 public class CdrListObjects : CdrObjectContainer
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CdrListObjects](cdrlistobjects)() | Default_Constructor |
+| [CdrListObjects](cdrlistobjects/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs) { get; } | الحصول على الكائنات أو تعيينها. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | الحصول على المستند أو تعيينه. |
-| [FillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/fillid) { get; set; } | الحصول على أو تحديد معرف التعبئة. |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`CdrObjectContainer`](../cdrobjectcontainer) مرئي . |
-| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | الحصول على أو تعيين الطفل الأخير . |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | الحصول على أو تعيين قيمة تشير إلى [تحميل آخر طفل] . |
-| [Opacity](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacity) { get; set; } | الحصول على التعتيم أو تعيينه. |
-| [OpacityFillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacityfillid) { get; set; } | الحصول على أو تعيين معرف تعبئة التعتيم. |
-| [OutLineId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/outlineid) { get; set; } | الحصول على أو تحديد معرف الخط الخارجي. |
-| [PageHeight](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/pageheight) { get; set; } | الحصول على ارتفاع الصفحة أو تحديده . |
-| [PageWidth](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/pagewidth) { get; set; } | الحصول على عرض الصفحة أو تحديده . |
-| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | الحصول على أو تعيين الأصل. |
-| [StyleId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/styleid) { get; set; } | الحصول على أو تحديد معرف النمط. |
+| [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs/) { get; } | يحصل أو يضبط الكائنات. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document/) { get; set; } | يحصل أو يضبط المستند. |
+| [FillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/fillid/) { get; set; } | يحصل أو يضبط معرف التعبئة. |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا [`CdrObjectContainer`](../cdrobjectcontainer/) مرئي. |
+| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild/) { get; set; } | يحصل أو يضبط الطفل الأخير. |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان [load to last child]. |
+| [Opacity](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacity/) { get; set; } | يحصل أو يضبط الشفافية. |
+| [OpacityFillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacityfillid/) { get; set; } | يحصل أو يضبط معرف تعبئة الشفافية. |
+| [OutLineId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/outlineid/) { get; set; } | يحصل أو يضبط معرف الخط الخارجي. |
+| [PageHeight](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/pageheight/) { get; set; } | يحصل أو يضبط ارتفاع الصفحة. |
+| [PageWidth](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/pagewidth/) { get; set; } | يحصل أو يضبط عرض الصفحة. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent/) { get; set; } | يحصل أو يضبط الأصل. |
+| [StyleId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/styleid/) { get; set; } | يحصل أو يضبط معرف النمط. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddChildObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/addchildobject)(CdrObject) | يضيف الكائن الفرعي . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
-| [InsertObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/insertobject)(CdrObject) | يُدرج الكائن |
+| [AddChildObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/addchildobject/)(CdrObject) | يضيف كائن الطفل. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| [InsertObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/insertobject/)(CdrObject) | يدرج الكائن |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CdrObjectContainer](../cdrobjectcontainer)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [CdrObjectContainer](../cdrobjectcontainer/)
+* namespace [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

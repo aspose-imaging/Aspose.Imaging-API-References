@@ -1,47 +1,47 @@
 ---
-title: WmfEscapeEnhancedMetafile
-second_title: Aspose.Imaging لمرجع NET API
-description: سجل ملف التعريف Escape Enhanced Meta .
+title: "الفئة WmfEscapeEnhancedMetafile"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords.WmfEscapeEnhancedMetafile. سجل ملف Escape Enhanced Meta المحسن"
 type: docs
-weight: 8380
+weight: 8560
 url: /ar/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/
 ---
 ## WmfEscapeEnhancedMetafile class
 
-سجل ملف التعريف Escape Enhanced Meta .
+سجل ملف Escape Enhanced Meta.
 
 ```csharp
 public class WmfEscapeEnhancedMetafile : WmfEscapeRecordBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [WmfEscapeEnhancedMetafile](wmfescapeenhancedmetafile)() | Default_Constructor |
+| [WmfEscapeEnhancedMetafile](wmfescapeenhancedmetafile/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | الحصول على أو تعيين عدد البايت. |
-| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | يحصل على قيمة تشير إلى ما إذا كان هذا[`WmfEscapeRecordBase`](../wmfescaperecordbase) محددًا . |
-| [Checksum](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/checksum) { get; set; } | الحصول على المجموع الاختباري أو تعيينه. |
-| [CommentIdentifier](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentidentifier) { get; set; } | الحصول على أو تحديد معرف التعليق. |
-| [CommentRecordCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentrecordcount) { get; set; } | الحصول على عدد سجل التعليق أو تعيينه . |
-| [CommentType](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commenttype) { get; set; } | الحصول على نوع التعليق أو تحديده. |
-| [CurrentRecordSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/currentrecordsize) { get; set; } | الحصول على أو تحديد حجم السجل الحالي. |
-| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | الحصول على البيانات أو تعيينها . |
-| [EnhancedMetafileData](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledata) { get; set; } | الحصول على بيانات ملف التعريف المحسنة أو تعيينها. |
-| [EnhancedMetafileDataSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledatasize) { get; set; } | الحصول على أو تعيين حجم بيانات ملف التعريف المحسن. |
-| [Flags](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/flags) { get; set; } | الحصول على العلامات أو تعيينها . |
-| [RemainingBytes](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes) { get; set; } | الحصول على أو تعيين وحدات البايت المتبقية. |
-| [Version](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/version) { get; set; } | الحصول على الإصدار أو تعيينه. |
+| [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount/) { get; set; } | يحصل أو يعيّن عدد البايتات. |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked/) { get; set; } | يحصل على قيمة تشير إلى ما إذا كان هذا [`WmfEscapeRecordBase`](../wmfescaperecordbase/) محددًا. |
+| [Checksum](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/checksum/) { get; set; } | يحصل أو يعيّن قيمة التحقق. |
+| [CommentIdentifier](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentidentifier/) { get; set; } | يحصل أو يعيّن معرف التعليق. |
+| [CommentRecordCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentrecordcount/) { get; set; } | يحصل أو يعيّن عدد سجلات التعليق. |
+| [CommentType](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commenttype/) { get; set; } | يحصل أو يعيّن نوع التعليق. |
+| [CurrentRecordSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/currentrecordsize/) { get; set; } | يحصل أو يعيّن حجم السجل الحالي. |
+| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data/) { get; set; } | يسترجع أو يعيّن البيانات. |
+| [EnhancedMetafileData](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledata/) { get; set; } | يحصل أو يعيّن بيانات ملف الميتا المحسن. |
+| [EnhancedMetafileDataSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledatasize/) { get; set; } | يحصل أو يعيّن حجم بيانات ملف الميتا المحسن. |
+| [Flags](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/flags/) { get; set; } | يحصل أو يعيّن العلامات. |
+| [RemainingBytes](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes/) { get; set; } | يحصل أو يعيّن البايتات المتبقية. |
+| [Version](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/version/) { get; set; } | الحصول أو تعيين الإصدار. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [WmfEscapeRecordBase](../wmfescaperecordbase)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords](../../aspose.imaging.fileformats.wmf.objects.escaperecords)
-* المجسم [Aspose.Imaging](../../)
+* class [WmfEscapeRecordBase](../wmfescaperecordbase/)
+* namespace [Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords](../../aspose.imaging.fileformats.wmf.objects.escaperecords/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,86 +1,89 @@
 ---
-title: PngOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات إنشاء تنسيق ملف png .
+title: "فئة PngOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.ImageOptions.PngOptions. أنشئ صور PNG نقطية عالية الجودة بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا التي توفر خيارات قابلة للتخصيص لمستويات الضغط، عدد البتات لكل بكسل، عمق اللون وبتات ألفا. عالج حاويات بيانات تعريف XMP بسلاسة لضمان إدارة شاملة لبيانات تعريف الصور، وتمكينك من تخصيص صور PNG وفقًا لمواصفاتك الدقيقة بسهولة."
 type: docs
-weight: 10120
+weight: 10510
 url: /ar/net/aspose.imaging.imageoptions/pngoptions/
 ---
 ## PngOptions class
 
-خيارات إنشاء تنسيق ملف png .
+أنشئ صورًا نقطية عالية الجودة بصيغة Portable Network Graphics (PNG) بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع توفير خيارات قابلة للتخصيص لمستويات الضغط، وعدد البتات لكل بكسل، وبتات ألفا. عالج حاويات بيانات التعريف XMP بسلاسة، مما يضمن إدارة شاملة لبيانات تعريف الصورة، ويمكنك من تخصيص صور PNG وفقًا لمواصفاتك الدقيقة بسهولة.
 
 ```csharp
 public class PngOptions : ImageOptionsBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PngOptions](pngoptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`PngOptions`](../pngoptions) فئة . |
-| [PngOptions](pngoptions#constructor_1)(PngOptions) | يقوم بتهيئة مثيل جديد لملف[`PngOptions`](../pngoptions) فئة . |
+| [PngOptions](pngoptions/#constructor)() | يُنشئ مثيلًا جديدًا من فئة `PngOptions`. |
+| [PngOptions](pngoptions/#constructor_1)(PngOptions) | يُنشئ مثيلًا جديدًا من فئة `PngOptions`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth) { get; set; } | عمق البت . |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype) { get; set; } | الحصول على أو تحديد نوع اللون. |
-| [CompressionLevel](../../aspose.imaging.imageoptions/pngoptions/compressionlevel) { get; set; } | مستوى ضغط الصورة png في النطاق من 0 إلى 9 ، حيث يمثل 9 أقصى ضغط ويكون 0 هو وضع التخزين. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype) { get; set; } | الحصول على أو تحديد نوع المرشح المستخدم أثناء عملية حفظ ملف png. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [إطار كامل] . |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | خيارات متعدد الصفحات |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها . |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | الحصول على معالج حدث التقدم أو تعيينه. |
-| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`PngOptions`](../pngoptions) تقدمية. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | الحصول على إعدادات الدقة أو تعيينها . |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | الحصول على أو تعيين المصدر لإنشاء الصورة فيه. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | الحصول على أو تعيين خيارات التحويل النقطي للمتجه. |
-| override [XmpData](../../aspose.imaging.imageoptions/pngoptions/xmpdata) { get; set; } | الحصول على أو تعيين حاوية بيانات تعريف XMP. |
+| [BitDepth](../../aspose.imaging.imageoptions/pngoptions/bitdepth/) { get; set; } | يحصل أو يعيّن قيم عمق البت في النطاق 1، 2، 4، 8، 16. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي يحدد الحد الأقصى المسموح به لجميع المخازن الداخلية. |
+| [ColorType](../../aspose.imaging.imageoptions/pngoptions/colortype/) { get; set; } | يحصل أو يضبط نوع اللون. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | الحصول على أو تعيين بيانات Exif. |
+| [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | يحصل أو يعيّن نوع الفلتر المستخدم أثناء عملية حفظ ملف png. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | خيارات الصفحات المتعددة |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | يحصل أو يضبط لوحة الألوان. |
+| [PngCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/pngcompressionlevel/) { get; set; } | يحصل أو يعيّن مستوى ضغط [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/). |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | يحصل أو يضبط معالج حدث التقدم. |
+| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) تقدميًا. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | يحصل أو يضبط إعدادات الدقة. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | يحصل أو يضبط المصدر لإنشاء الصورة فيه. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | يحصل أو يضبط خيارات تحويل المتجه إلى نقطية. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | يحصل أو يضبط حاوية بيانات تعريف XMP. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | استنساخ هذا المثال . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | ينشئ نسخة عضوية من هذه الحالة. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | يحاول تعيين مثيل *metadata*، إذا كان مثيل [`Image`](../../aspose.imaging/image/) يدعم ويطبق مثيل [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/). |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [DefaultCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/defaultcompressionlevel) | مستوى الضغط الافتراضي . |
+| const [DefaultCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/defaultcompressionlevel/) | مستوى الضغط الافتراضي. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال استخدام فئات مختلفة من SaveOptions Namespace لأغراض التصدير. يتم تحميل صورة من نوع Gif في مثيل Image ثم تصديرها إلى عدة تنسيقات.
+يوضح هذا المثال استخدام فئات مختلفة من مساحة الأسماء SaveOptions لأغراض التصدير. يتم تحميل صورة من نوع Gif في مثيل من الفئة Image ثم يتم تصديرها إلى عدة تنسيقات.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة موجودة (من النوع Gif) في مثيل لفئة Image
+//حمّل صورة موجودة (من نوع Gif) في مثيل من الفئة Image
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصدير إلى تنسيق ملف BMP باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف BMP باستخدام الخيارات الافتراضية
     image.Save(dir + "output.bmp", new Aspose.Imaging.ImageOptions.BmpOptions());
 
-    // تصدير إلى تنسيق ملف JPEG باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف JPEG باستخدام الخيارات الافتراضية
     image.Save(dir + "output.jpg", new Aspose.Imaging.ImageOptions.JpegOptions());
 
-    // تصدير إلى تنسيق ملف PNG باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف PNG باستخدام الخيارات الافتراضية
     image.Save(dir + "output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 
-    // تصدير إلى تنسيق ملف TIFF باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف TIFF باستخدام الخيارات الافتراضية
     image.Save(dir + "output.tif", new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default));
 }
 ```
 
-يوضح المثال التالي كيفية تحويل صورة متجهية متعددة الصفحات إلى تنسيق PNG بطريقة عامة دون الرجوع إلى نوع صورة معين.
+المثال التالي يوضح كيفية تحويل صورة متجهة متعددة الصفحات إلى تنسيق PNG بطريقة عامة دون الإشارة إلى نوع صورة معين.
 
 ```csharp
 [C#]
@@ -95,7 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-    // تصدير أول صفحتين فقط. في الواقع ، سيتم تحويل صفحة واحدة فقط إلى نقطية لأن PNG ليس تنسيقًا متعدد الصفحات.
+    // تصدير الصفحتين الأوليين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط إلى نقطية لأن تنسيق PNG ليس تنسيقًا متعدد الصفحات.
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {
@@ -113,60 +116,60 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 }
 ```
 
-يستخدم هذا المثال فئة الرسومات لإنشاء أشكال بدائية على سطح الصورة. لتوضيح العملية ، يقوم المثال بإنشاء صورة جديدة بتنسيق PNG ورسم أشكال بدائية على سطح الصورة باستخدام طرق الرسم المكشوفة بواسطة فئة الرسومات
+يستخدم هذا المثال فئة Graphics لإنشاء أشكال أولية على سطح Image. لتوضيح العملية، ينشئ المثال صورة جديدة بصيغة PNG ويرسم أشكالًا أولية على سطح Image باستخدام طرق Draw التي توفرها فئة Graphics.
 
 ```csharp
 [C#]
 
-// ينشئ مثيلاً من FileStream
+//ينشئ مثيلًا من FileStream
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.png", System.IO.FileMode.Create))
 {
-    // قم بإنشاء مثيل لـ PngOptions وقم بتعيين خصائصه المختلفة
+    //إنشاء مثيل من PngOptions وتعيين خصائصه المتنوعة
     Aspose.Imaging.ImageOptions.PngOptions pngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 
-    // تعيين المصدر لخيارات PngOptions
+    //تعيين المصدر لـ PngOptions
     pngOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-    // إنشاء مثيل للصورة 
+    //إنشاء مثيل من Image
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(pngOptions, 500, 500))
     {
-        // إنشاء وتهيئة مثيل لفئة الرسومات
+        //إنشاء وتهيئة مثيل من فئة Graphics
         Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-        // مسح سطح الرسومات
+        //مسح سطح Graphics
         graphics.Clear(Aspose.Imaging.Color.Wheat);
 
-        // ارسم قوسًا بتحديد كائن القلم ذي اللون الأسود ، 
-        // أ مستطيل يحيط بالقوس وزاوية البدء وزاوية المسح
+        //رسم قوس بتحديد كائن Pen الذي له اللون الأسود،
+        //مستطيل يحيط بالقوس، زاوية البداية وزاوية المسح
         graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), new Aspose.Imaging.Rectangle(200, 200, 100, 200), 0, 300);
 
-        // ارسم بيزير عن طريق تحديد كائن القلم ذي اللون الأزرق ونقاط التنسيق.
+        //رسم منحنى بيزيير بتحديد كائن Pen الذي له اللون الأزرق ونقاط الإحداثيات.
         graphics.DrawBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Point(250, 100), new Aspose.Imaging.Point(300, 30), new Aspose.Imaging.Point(450, 100), new Aspose.Imaging.Point(235, 25));
 
-        // ارسم منحنى عن طريق تحديد كائن القلم ذي اللون الأخضر ومجموعة من النقاط
+        //رسم منحنى بتحديد كائن Pen الذي له اللون الأخضر ومصفوفة من النقاط
         graphics.DrawCurve(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new[] { new Aspose.Imaging.Point(100, 200), new Aspose.Imaging.Point(100, 350), new Aspose.Imaging.Point(200, 450) });
 
-        // ارسم شكل بيضاوي باستخدام كائن القلم والمستطيل المحيط
+        //رسم إهليلج باستخدام كائن Pen ومستطيل محيط
         graphics.DrawEllipse(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Yellow, 2), new Aspose.Imaging.Rectangle(300, 300, 100, 100));
 
-        //ارسم خطا 
+        //رسم خط
         graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Violet, 2), new Aspose.Imaging.Point(100, 100), new Aspose.Imaging.Point(200, 200));
 
-        // ارسم مقطع دائري
+        //رسم قطعة فطيرة
         graphics.DrawPie(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Silver, 2), new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(200, 20), new Aspose.Imaging.Size(200, 200)), 0, 45);
 
-        // ارسم مضلعًا بتحديد كائن القلم ذي اللون الأحمر ومجموعة من النقاط
+        //رسم مضلع بتحديد كائن Pen الذي له اللون الأحمر ومصفوفة من النقاط
         graphics.DrawPolygon(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2), new[] { new Aspose.Imaging.Point(20, 100), new Aspose.Imaging.Point(20, 200), new Aspose.Imaging.Point(220, 20) });
 
-        // ارسم مستطيلاً
+        //رسم مستطيل
         graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 2), new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(250, 250), new Aspose.Imaging.Size(100, 100)));
 
-        // إنشاء كائن SolidBrush وضبط خصائصه المختلفة
+        //إنشاء كائن SolidBrush وتعيين خصائصه المتنوعة
         Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush();
         brush.Color = Color.Purple;
         brush.Opacity = 100;
 
-        // ارسم سلسلة باستخدام كائن SolidBrush والخط ، عند نقطة معينة
+        //رسم نص باستخدام كائن SolidBrush والخط، عند نقطة محددة
         graphics.DrawString("This image is created by Aspose.Imaging API", new Aspose.Imaging.Font("Times New Roman", 16), brush, new Aspose.Imaging.PointF(50, 400));
 
         // احفظ جميع التغييرات.
@@ -175,10 +178,10 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.p
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

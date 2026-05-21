@@ -1,14 +1,14 @@
 ---
-title: BitmapInfoHeader
-second_title: Aspose.Imaging لمرجع NET API
-description: تحديد BITMAPINFOHEADER. دعم نظام التشغيل Windows NT  الإصدار 3.1x أو الأحدث. الميزات يضيف تنسيقات 16 bpp و 32 bpp. يضيف ضغط RLE.
+title: "الفئة BitmapInfoHeader"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Bmp.BitmapInfoHeader. تحدد BITMAPINFOHEADER. يدعم نظام التشغيل Windows NT 3.1x أو أحدث. الميزات: إضافة صيغ 16 بت و 32 بت. إضافة ضغط RLE"
 type: docs
-weight: 1350
+weight: 1400
 url: /ar/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/
 ---
 ## BitmapInfoHeader class
 
-تحديد BITMAPINFOHEADER. دعم نظام التشغيل: Windows NT ، الإصدار 3.1x أو الأحدث. الميزات: يضيف تنسيقات 16 bpp و 32 bpp. يضيف ضغط RLE.
+يحدد BITMAPINFOHEADER. دعم نظام التشغيل: Windows NT، 3.1x أو أحدث. الميزات: يضيف صيغ 16 بت و 32 بت لكل بكسل. يضيف ضغط RLE.
 
 ```csharp
 public class BitmapInfoHeader : BitmapCoreHeader
@@ -16,25 +16,25 @@ public class BitmapInfoHeader : BitmapCoreHeader
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BitmapColorsImportant](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsimportant) { get; set; } | الحصول على أو تعيين عدد من ألوان اللوحة المهمة. |
-| [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused) { get; set; } | الحصول على أو تعيين عدد ألوان اللوحة المستخدمة. |
-| [BitmapCompression](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression) { get; set; } | الحصول على ضغط الصورة النقطية أو تعيينه. |
-| [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | الحصول على ارتفاع الصورة النقطية أو تعيينه . |
-| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | الحصول على أو تعيين يحدد حجم البيانات الأولية للصورة النقطية بالبايت. |
-| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | الحصول على أو تحديد عدد الطائرات . |
-| [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | الحصول على عرض الصورة النقطية أو تعيينه . |
-| [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter) { get; set; } | الحصول على دقة البكسل الأفقية أو تعيينها . |
-| [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter) { get; set; } | الحصول على دقة البكسل العمودية أو تعيينها . |
-| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | الحصول على أو تعيين بت لكل عدد بكسل . |
-| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | الحصول على أقنعة البت الإضافية أو تعيينها. موجودة فقط في حالة كون رأس DIB هو BITMAPINFOHEADER و[`BitmapCompression`](./bitmapcompression) على أي منهماBitfields (RGB) أوAlphaBitfields (RGBA) . |
-| [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | الحصول على أو تعيين حجم هذه البنية بالبايت. |
+| [BitmapColorsImportant](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsimportant/) { get; set; } | الحصول أو تعيين عدد ألوان اللوحة المهمة. |
+| [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused/) { get; set; } | الحصول أو تعيين عدد ألوان اللوحة المستخدمة. |
+| [BitmapCompression](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression/) { get; set; } | الحصول أو تعيين ضغط البت ماب. |
+| [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight/) { get; set; } | الحصول أو تعيين ارتفاع البت ماب. |
+| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize/) { get; set; } | الحصول أو تعيين حجم البيانات الخام للبت ماب بالبايت. |
+| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes/) { get; set; } | الحصول أو تعيين عدد المستويات. |
+| [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth/) { get; set; } | الحصول أو تعيين عرض البت ماب. |
+| [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter/) { get; set; } | الحصول أو تعيين دقة البكسلات الأفقية. |
+| [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter/) { get; set; } | الحصول أو تعيين دقة البكسلات العمودية. |
+| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel/) { get; set; } | الحصول أو تعيين عدد البتات لكل بكسل. |
+| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks/) { get; set; } | يحصل أو يضبط أقنعة البت الإضافية. تظهر فقط في حالة كون رأس DIB هو BITMAPINFOHEADER وأن الـ[`BitmapCompression`](./bitmapcompression/) مضبوط إما على Bitfields (RGB) أو AlphaBitfields (RGBA). |
+| [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize/) { get; set; } | يحصل أو يضبط حجم هذا الهيكل بالبايت. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BitmapCoreHeader](../bitmapcoreheader)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../aspose.imaging.fileformats.bmp)
-* المجسم [Aspose.Imaging](../../)
+* class [BitmapCoreHeader](../bitmapcoreheader/)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../aspose.imaging.fileformats.bmp/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,50 +1,53 @@
 ---
-title: DicomOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات إنشاء تنسيق ملف DICOM .
+title: "فئة DicomOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.ImageOptions.DicomOptions. واجهة برمجة التطبيقات لإنشاء تنسيق صورة نقطية DICOM (التصوير الرقمي والاتصالات في الطب) هي أداة متخصصة موجهة لتطبيقات الأجهزة الطبية. تتيح توليد صور DICOM بسلاسة، وهو أمر حيوي لتخزين البيانات الطبية واحتواء معلومات التعريف الحيوية. مع ميزات لتعيين الضغط، تعريف أنواع الألوان وتضمين بيانات تعريف XMP، يمكن للمطورين ضمان الامتثال والمرونة في إدارة صور DICOM لأغراض التصوير الطبي."
 type: docs
-weight: 9940
+weight: 10290
 url: /ar/net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class
 
-خيارات إنشاء تنسيق ملف DICOM .
+واجهة برمجة التطبيقات لإنشاء صيغة صورة DICOM (Digital Imaging and Communications in Medicine) النقطية هي أداة متخصصة مخصصة لتطبيقات الأجهزة الطبية. تتيح إنشاء صور DICOM بسلاسة، وهو أمر حيوي لتخزين البيانات الطبية واحتواء معلومات التعريف الضرورية. مع ميزات لضبط الضغط، تعريف أنواع الألوان، وتضمين بيانات التعريف XMP، يمكن للمطورين ضمان الامتثال والمرونة في إدارة صور DICOM لأغراض التصوير الطبي.
 
 ```csharp
 public class DicomOptions : ImageOptionsBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DicomOptions](dicomoptions)() | Default_Constructor |
+| [DicomOptions](dicomoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype) { get; set; } | الحصول على أو تحديد نوع اللون. |
-| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression) { get; set; } | الحصول على الضغط أو تعيينه . |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [إطار كامل] . |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | خيارات متعدد الصفحات |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها . |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | الحصول على معالج حدث التقدم أو تعيينه. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | الحصول على إعدادات الدقة أو تعيينها . |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | الحصول على أو تعيين المصدر لإنشاء الصورة فيه. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | الحصول على أو تعيين خيارات التحويل النقطي للمتجه. |
-| override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata) { get; set; } | الحصول على أو تعيين بيانات Xmp . |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي يحدد الحد الأقصى المسموح به لجميع المخازن الداخلية. |
+| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype/) { get; set; } | يحصل أو يضبط نوع اللون. |
+| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression/) { get; set; } | الحصول أو تعيين الضغط. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | الحصول على أو تعيين بيانات Exif. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | خيارات الصفحات المتعددة |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | يحصل أو يضبط لوحة الألوان. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | يحصل أو يضبط معالج حدث التقدم. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | يحصل أو يضبط إعدادات الدقة. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | يحصل أو يضبط المصدر لإنشاء الصورة فيه. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | يحصل أو يضبط خيارات تحويل المتجه إلى نقطية. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | يحصل أو يضبط حاوية بيانات تعريف XMP. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | استنساخ هذا المثال . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | ينشئ نسخة عضوية من هذه الحالة. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | يحاول تعيين مثيل *metadata*، إذا كان مثيل [`Image`](../../aspose.imaging/image/) يدعم ويطبق مثيل [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/). |
 
-### أمثلة
+## أمثلة
 
 تغيير نوع اللون في ضغط DICOM.
 
@@ -59,7 +62,7 @@ using (var inputImage = Image.Load("original.jpg"))
 }
 ```
 
-استخدم ضغط RLE في صورة DICOM.
+استخدام ضغط RLE في صورة DICOM.
 
 ```csharp
 [C#]
@@ -76,7 +79,7 @@ using (var inputImage = Image.Load("original.jpg"))
 }
 ```
 
-استخدم ضغط JPEG 2000 في صورة DICOM.
+استخدام ضغط JPEG 2000 في صورة DICOM.
 
 ```csharp
 [C#]
@@ -101,7 +104,7 @@ using (var inputImage = Image.Load("original.jpg"))
 }
 ```
 
-استخدم ضغط JPEG في صورة DICOM.
+استخدام ضغط JPEG في صورة DICOM.
 
 ```csharp
 [C#]
@@ -127,7 +130,7 @@ using (var inputImage = Image.Load("original.jpg"))
 }
 ```
 
-يوضح المثال التالي التصدير إلى تنسيق ملف DICOM (فردي ومتعدد الصفحات).
+المثال التالي يوضح تصدير إلى تنسيق ملف DICOM (صفحة واحدة ومتعددة الصفحات).
 
 ```csharp
 [C#]
@@ -138,20 +141,20 @@ string inputFileNameMultipage = "multipage.tif";
 string outputFileNameSingleDcm = "output.dcm";
 string outputFileNameMultipageDcm = "outputMultipage.dcm";
 
-// يحول نموذج الكود التالي صورة JPEG إلى تنسيق ملف DICOM
+// عينة الشيفرة التالية تحول صورة JPEG إلى تنسيق ملف DICOM
 using (var image = Aspose.Imaging.Image.Load(inputFileNameSingle))
 {
     image.Save(outputFileNameSingleDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
 }
 
-// يدعم تنسيق DICOM الصور متعددة الصفحات. يمكنك تحويل صور GIF أو TIFF إلى DICOM بنفس طريقة صور JPEG
+// يدعم تنسيق DICOM الصور متعددة الصفحات. يمكنك تحويل صور GIF أو TIFF إلى DICOM بنفس طريقة تحويل صور JPEG.
 using (var imageMultiple = Aspose.Imaging.Image.Load(inputFileNameMultipage))
 {
     imageMultiple.Save(outputFileNameMultipageDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
 }
 ```
 
-قم بإنشاء صورة Dicom متعددة الصفحات.
+إنشاء صورة DICOM متعددة الصفحات.
 
 ```csharp
 [C#]
@@ -167,10 +170,10 @@ using (DicomImage image = (DicomImage)Image.Create(
     graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
     graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
 
-    // احفظ وحدات البكسل للصورة المرسومة. هم الآن على الصفحة الأولى من صورة Dicom.
+    // احفظ بكسلات الصورة المرسومة. الآن هي على الصفحة الأولى من صورة DICOM.
     int[] pixels = image.LoadArgb32Pixels(image.Bounds);
 
-    // أضف بضع صفحات بعد ذلك ، مما يجعلها أكثر قتامة
+    // أضف بعض الصفحات بعد ذلك، لتجعلها أغمق
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.AddPage();
@@ -178,7 +181,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(i * 30);
     }
 
-    // أضف بضع صفحات أمام الصفحة الرئيسية ، مما يجعلها أكثر إشراقًا
+    // أضف بعض الصفحات أمام الصفحة الرئيسية، لتجعلها أكثر سطوعًا
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.InsertPage(0);
@@ -186,15 +189,15 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(-i * 30);
     }
 
-    // احفظ الصورة متعددة الصفحات التي تم إنشاؤها في ملف الإخراج
+    // احفظ الصورة المتعددة الصفحات التي تم إنشاؤها إلى ملف الإخراج
     image.Save("MultiPage.dcm");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,59 +1,59 @@
 ---
-title: GraphicsPath
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفGraphicsPathaspose.imaging/graphicspath فئة .
+title: "GraphicsPath.GraphicsPath"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ GraphicsPath. يهيئ مثيلًا جديدًا لفئة GraphicsPath"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging/graphicspath/graphicspath/
 ---
 ## GraphicsPath() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`GraphicsPath`](../../graphicspath) فئة .
+يهيئ مثيلًا جديدًا للفئة [`GraphicsPath`](../).
 
 ```csharp
 public GraphicsPath()
 ```
 
-### أمثلة
+## أمثلة
 
-تستخدم هذه الأمثلة فئة GraphicsPath و Graphics لإنشاء الأشكال ومعالجتها على سطح الصورة. ينشئ المثال صورة جديدة (من النوع Tiff) ، ويمسح السطح ويرسم المسارات بمساعدة فئة GraphicsPath. في النهاية ، يتم استدعاء طريقة DrawPath المعروضة بواسطة فئة الرسومات لعرض المسارات على السطح.
+تستخدم هذه الأمثلة فئة GraphicsPath وفئة Graphics لإنشاء وتعديل الأشكال على سطح صورة. ينشئ المثال صورة جديدة (من نوع Tiff)، يمسح السطح ويرسم المسارات بمساعدة فئة GraphicsPath. في النهاية يتم استدعاء طريقة DrawPath التي توفرها فئة Graphics لعرض المسارات على السطح.
 
 ```csharp
 [C#]
 
-// إنشاء مثيل لـ FileStream
+//إنشاء مثيل من FileStream
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.tiff", System.IO.FileMode.Create))
 {
-    // قم بإنشاء مثيل لـ TiffOptions وعيّن خصائصه المتنوعة
+    //إنشاء مثيل من TiffOptions وتعيين خصائصه المتنوعة
     Aspose.Imaging.ImageOptions.TiffOptions tiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-    // تعيين المصدر لمثيل ImageOptions
+    //تعيين المصدر لمثيل ImageOptions
     tiffOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-    // إنشاء مثيل للصورة 
+    //إنشاء مثيل من Image
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(tiffOptions, 500, 500))
     {
-        // إنشاء وتهيئة مثيل لفئة الرسومات
+        //إنشاء وتهيئة مثيل من فئة Graphics
         Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-        // مسح سطح الرسومات
+        //مسح سطح Graphics
         graphics.Clear(Color.Wheat);
 
-        // إنشاء مثيل لفئة GraphicsPath
+        //إنشاء مثيل من فئة GraphicsPath
         Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-        // إنشاء مثيل لفئة الشكل
+        //إنشاء كائن من الفئة Figure
         Aspose.Imaging.Figure figure = new Aspose.Imaging.Figure();
 
-        // إضافة أشكال إلى كائن الشكل
+        //إضافة أشكال إلى كائن Figure
         figure.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(10f, 10f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new Aspose.Imaging.RectangleF(50f, 50f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.PieShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.PointF(250f, 250f), new Aspose.Imaging.SizeF(200f, 200f)), 0f, 45f));
 
-        // إضافة كائن الشكل إلى GraphicsPath
+        //إضافة كائن Figure إلى GraphicsPath
         graphicspath.AddFigure(figure);
 
-        // رسم المسار باستخدام كائن القلم ذي اللون الأسود
+        //رسم المسار باستخدام كائن Pen باللون الأسود
         graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
         // احفظ جميع التغييرات.
@@ -62,75 +62,75 @@ using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.t
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## GraphicsPath(Figure[]) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`GraphicsPath`](../../graphicspath) فئة .
+يهيئ مثيلًا جديدًا للفئة [`GraphicsPath`](../).
 
 ```csharp
 public GraphicsPath(Figure[] figures)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| figures | Figure[] | الأرقام المطلوب التهيئة منها. |
+| الأشكال | Figure[] | الأشكال التي سيتم التهيئة منها. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Figure](../../figure)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Figure](../../figure/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## GraphicsPath(Figure[], FillMode) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`GraphicsPath`](../../graphicspath) فئة .
+يهيئ مثيلًا جديدًا للفئة [`GraphicsPath`](../).
 
 ```csharp
 public GraphicsPath(Figure[] figures, FillMode fillMode)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| figures | Figure[] | الأرقام المطلوب التهيئة منها. |
-| fillMode | FillMode | وضع الملء. |
+| الأشكال | Figure[] | الأشكال التي سيتم التهيئة منها. |
+| fillMode | FillMode | وضع التعبئة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Figure](../../figure)
-* enum [FillMode](../../fillmode)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Figure](../../figure/)
+* enum [FillMode](../../fillmode/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## GraphicsPath(FillMode) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`GraphicsPath`](../../graphicspath) فئة .
+يهيئ مثيلًا جديدًا للفئة [`GraphicsPath`](../).
 
 ```csharp
 public GraphicsPath(FillMode fillMode)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fillMode | FillMode | وضع الملء. |
+| fillMode | FillMode | وضع التعبئة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [FillMode](../../fillmode)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* enum [FillMode](../../fillmode/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

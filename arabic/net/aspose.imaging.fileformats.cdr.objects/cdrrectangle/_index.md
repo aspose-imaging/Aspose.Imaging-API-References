@@ -1,55 +1,55 @@
 ---
-title: CdrRectangle
-second_title: Aspose.Imaging لمرجع NET API
-description: مستطيل cdr
+title: "الفئة CdrRectangle"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.FileFormats.Cdr.Objects.CdrRectangle. مستطيل cdr"
 type: docs
-weight: 1740
+weight: 1790
 url: /ar/net/aspose.imaging.fileformats.cdr.objects/cdrrectangle/
 ---
 ## CdrRectangle class
 
-مستطيل cdr
+ال cdr rectangle
 
 ```csharp
 public class CdrRectangle : CdrGraphicObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CdrRectangle](cdrrectangle)() | Default_Constructor |
+| [CdrRectangle](cdrrectangle/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BoundsInPixels](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/boundsinpixels) { get; set; } | الحصول على أو تعيين الحدود بالبكسل . |
-| [ClipId](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/clipid) { get; set; } | الحصول على أو تحديد معرف المقطع. |
-| [CornerType](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/cornertype) { get; set; } | الحصول على أو تحديد نوع الزاوية. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | الحصول على المستند أو تعيينه. |
-| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | الحصول على أو تحديد y. |
-| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | الحصول على أو تعيين الأصل. |
-| [R0](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r0) { get; set; } | الحصول على أو تعيين r0. |
-| [R1](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r1) { get; set; } | الحصول على أو تعيين r1. |
-| [R2](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r2) { get; set; } | الحصول على أو تعيين r2. |
-| [R3](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r3) { get; set; } | الحصول على أو تعيين r3. |
-| [ScaleX](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scalex) { get; set; } | الحصول على المقياس أو تعيينه x. |
-| [ScaleY](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scaley) { get; set; } | الحصول على المقياس أو تعيينه y. |
-| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | الحصول على أو تعيين x. |
+| [BoundsInPixels](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/boundsinpixels/) { get; set; } | الحصول أو تعيين الحدود بالبكسل. |
+| [ClipId](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/clipid/) { get; set; } | الحصول أو تعيين معرف القص. |
+| [CornerType](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/cornertype/) { get; set; } | يحصل أو يضبط نوع الزاوية. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document/) { get; set; } | يحصل أو يضبط المستند. |
+| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height/) { get; set; } | الحصول أو تعيين y. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent/) { get; set; } | يحصل أو يضبط الأصل. |
+| [R0](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r0/) { get; set; } | يحصل أو يضبط r0. |
+| [R1](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r1/) { get; set; } | الحصول أو تعيين r1. |
+| [R2](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r2/) { get; set; } | الحصول أو تعيين r2. |
+| [R3](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r3/) { get; set; } | الحصول أو تعيين r3. |
+| [ScaleX](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scalex/) { get; set; } | الحصول أو تعيين مقياس x. |
+| [ScaleY](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scaley/) { get; set; } | الحصول أو تعيين مقياس y. |
+| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width/) { get; set; } | الحصول أو تعيين x. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CdrObjectContainer](../cdrobjectcontainer)
-* class [CdrGraphicObject](../cdrgraphicobject)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [CdrObjectContainer](../cdrobjectcontainer/)
+* class [CdrGraphicObject](../cdrgraphicobject/)
+* namespace [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

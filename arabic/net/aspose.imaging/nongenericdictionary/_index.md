@@ -1,9 +1,9 @@
 ---
-title: NonGenericDictionary
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل قاموسًا غير عام.
+title: "الفئة NonGenericDictionary"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.NonGenericDictionary. تمثّل قاموسًا غير عام"
 type: docs
-weight: 10610
+weight: 11180
 url: /ar/net/aspose.imaging/nongenericdictionary/
 ---
 ## NonGenericDictionary class
@@ -14,39 +14,39 @@ url: /ar/net/aspose.imaging/nongenericdictionary/
 public class NonGenericDictionary : IDictionary
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NonGenericDictionary](nongenericdictionary)(IDictionary) | يقوم بتهيئة مثيل جديد لملف[`NonGenericDictionary`](../nongenericdictionary) فئة . |
+| [NonGenericDictionary](nongenericdictionary/)(IDictionary) | يُنشئ مثلاً جديدًا من الفئة `NonGenericDictionary`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.imaging/nongenericdictionary/count) { get; } | الحصول على عدد العناصر الموجودة في ICollection . |
-| [IsFixedSize](../../aspose.imaging/nongenericdictionary/isfixedsize) { get; } | يحصل على قيمة تشير إلى ما إذا كان IDictionary الكائن له حجم ثابت. |
-| [IsReadOnly](../../aspose.imaging/nongenericdictionary/isreadonly) { get; } | يحصل على قيمة تشير إلى ما إذا كان IDictionary الكائن للقراءة فقط. |
-| [IsSynchronized](../../aspose.imaging/nongenericdictionary/issynchronized) { get; } | يحصل على قيمة تشير إلى ما إذا كان الوصول إلى ICollection متزامن (مؤشر ترابط آمن) . |
-| [Item](../../aspose.imaging/nongenericdictionary/item) { get; set; } | الحصول على العنصر بالمفتاح المحدد أو تعيينه. |
-| [Keys](../../aspose.imaging/nongenericdictionary/keys) { get; } | يحصل على ICollection كائن يحتوي على مفاتيح IDictionary الكائن . |
-| [SyncRoot](../../aspose.imaging/nongenericdictionary/syncroot) { get; } | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى ICollection . |
-| [Values](../../aspose.imaging/nongenericdictionary/values) { get; } | يحصل على ICollection كائن يحتوي على القيم في IDictionary الكائن . |
+| [Count](../../aspose.imaging/nongenericdictionary/count/) { get; } | يحصل على عدد العناصر الموجودة في ICollection. |
+| [IsFixedSize](../../aspose.imaging/nongenericdictionary/isfixedsize/) { get; } | يحصل على قيمة تشير إلى ما إذا كان كائن IDictionary له حجم ثابت. |
+| [IsReadOnly](../../aspose.imaging/nongenericdictionary/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كان كائن IDictionary للقراءة فقط. |
+| [IsSynchronized](../../aspose.imaging/nongenericdictionary/issynchronized/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الوصول إلى ICollection متزامنًا (آمن للخطوط المتعددة). |
+| [Item](../../aspose.imaging/nongenericdictionary/item/) { get; set; } | يحصل أو يعيّن العنصر بالمفتاح المحدد. |
+| [Keys](../../aspose.imaging/nongenericdictionary/keys/) { get; } | يحصل على كائن ICollection يحتوي على مفاتيح كائن IDictionary. |
+| [SyncRoot](../../aspose.imaging/nongenericdictionary/syncroot/) { get; } | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى ICollection. |
+| [Values](../../aspose.imaging/nongenericdictionary/values/) { get; } | يحصل على كائن ICollection يحتوي على القيم في كائن IDictionary. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.imaging/nongenericdictionary/add)(object, object) | إضافة عنصر بالمفتاح والقيمة المقدمين إلى IDictionary الكائن . |
-| [Clear](../../aspose.imaging/nongenericdictionary/clear)() | يزيل كافة العناصر من IDictionary الكائن . |
-| [Contains](../../aspose.imaging/nongenericdictionary/contains)(object) | يحدد ما إذا كان IDictionary يحتوي الكائن على عنصر بالمفتاح المحدد. |
-| [CopyTo](../../aspose.imaging/nongenericdictionary/copyto)(Array, int) | ينسخ عناصر ICollection إلى Array ، بدءًا من معينًاArray الفهرس . |
-| [GetEnumerator](../../aspose.imaging/nongenericdictionary/getenumerator)() | يحصل على العداد . |
-| [Remove](../../aspose.imaging/nongenericdictionary/remove)(object) | يزيل العنصر بالمفتاح المحدد من IDictionary الكائن . |
+| [Add](../../aspose.imaging/nongenericdictionary/add/)(object, object) | يضيف عنصرًا بالمفتاح والقيمة المقدمة إلى كائن IDictionary. |
+| [Clear](../../aspose.imaging/nongenericdictionary/clear/)() | يزيل جميع العناصر من كائن IDictionary. |
+| [Contains](../../aspose.imaging/nongenericdictionary/contains/)(object) | يحدد ما إذا كان كائن IDictionary يحتوي على عنصر بالمفتاح المحدد. |
+| [CopyTo](../../aspose.imaging/nongenericdictionary/copyto/)(Array, int) | ينسخ عناصر ICollection إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
+| [GetEnumerator](../../aspose.imaging/nongenericdictionary/getenumerator/)() | يحصل على المُعدِّد. |
+| [Remove](../../aspose.imaging/nongenericdictionary/remove/)(object) | يزيل العنصر بالمفتاح المحدد من كائن IDictionary. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging](../../aspose.imaging)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

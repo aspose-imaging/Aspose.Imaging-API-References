@@ -1,7 +1,7 @@
 ---
-title: Save
-second_title: Aspose.Imaging لمرجع NET API
-description: يحفظ ينسخ بيانات الدفق إلى الدفق المحدد.
+title: "StreamContainer.Save"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة StreamContainer. تحفظ نسخ بيانات التدفق إلى التدفق المحدد"
 type: docs
 weight: 130
 url: /ar/net/aspose.imaging/streamcontainer/save/
@@ -14,99 +14,99 @@ url: /ar/net/aspose.imaging/streamcontainer/save/
 public virtual void Save(Stream destinationStream, int bufferSize, long length)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| destinationStream | Stream | الدفق لحفظ البيانات فيه. |
-| bufferSize | Int32 | حجم المخزن المؤقت. بشكل افتراضي[`ReadWriteBytesCount`](../readwritebytescount) القيمة المستخدمة. |
-| length | Int64 | طول تدفق البيانات المراد نسخها. بشكل افتراضي ، يتم تعيين الطول على[`Length`](../length) القيمة. |
+| destinationStream | Stream | التدفق لحفظ البيانات إليه. |
+| bufferSize | Int32 | حجم المخزن المؤقت. يتم استخدام القيمة الافتراضية لـ [`ReadWriteBytesCount`](../readwritebytescount/). |
+| length | Int64 | طول بيانات التدفق المراد نسخها. بشكل افتراضي يتم تعيين الطول إلى قيمة [`Length`](../length/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamContainer](../../streamcontainer)
-* مساحة الاسم [Aspose.Imaging](../../streamcontainer)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Save(Stream) {#save}
 
-يحفظ (ينسخ) بيانات الدفق إلى الدفق المحدد. يستخدم حجم المخزن المؤقت الافتراضي[`ReadWriteBytesCount`](../readwritebytescount) والدفق[`Length`](../length) القيمة .
+تحفظ (تنسخ) بيانات التدفق إلى التدفق المحدد. تستخدم حجم المخزن المؤقت الافتراضي [`ReadWriteBytesCount`](../readwritebytescount/) وقيمة طول التدفق [`Length`](../length/).
 
 ```csharp
 public virtual void Save(Stream destinationStream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| destinationStream | Stream | الدفق لحفظ البيانات فيه. |
+| destinationStream | Stream | التدفق لحفظ البيانات إليه. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamContainer](../../streamcontainer)
-* مساحة الاسم [Aspose.Imaging](../../streamcontainer)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Save(Stream, int) {#save_1}
 
-يحفظ (ينسخ) جميع بيانات الدفق إلى الدفق المحدد. يستخدم تيار[`Length`](../length) القيمة .
+تحفظ (تنسخ) جميع بيانات التدفق إلى التدفق المحدد. تستخدم قيمة طول التدفق [`Length`](../length/).
 
 ```csharp
 public virtual void Save(Stream destinationStream, int bufferSize)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| destinationStream | Stream | الدفق لحفظ البيانات فيه. |
-| bufferSize | Int32 | العازلة. |
+| destinationStream | Stream | التدفق لحفظ البيانات إليه. |
+| bufferSize | Int32 | المخزن المؤقت. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamContainer](../../streamcontainer)
-* مساحة الاسم [Aspose.Imaging](../../streamcontainer)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Save(string) {#save_3}
 
-يحفظ (ينسخ) بيانات الدفق إلى الدفق المحدد. يستخدم حجم المخزن المؤقت الافتراضي[`ReadWriteBytesCount`](../readwritebytescount) والدفق[`Length`](../length) القيمة .
+تحفظ (تنسخ) بيانات التدفق إلى التدفق المحدد. تستخدم حجم المخزن المؤقت الافتراضي [`ReadWriteBytesCount`](../readwritebytescount/) وقيمة طول التدفق [`Length`](../length/).
 
 ```csharp
 public virtual void Save(string filePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filePath | String | مسار الملف المراد حفظ دفق البيانات فيه. |
+| filePath | String | مسار الملف لحفظ بيانات التدفق فيه. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamContainer](../../streamcontainer)
-* مساحة الاسم [Aspose.Imaging](../../streamcontainer)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Save(string, int) {#save_4}
 
-يحفظ (ينسخ) بيانات الدفق إلى الدفق المحدد. يستخدم تيار[`Length`](../length) القيمة .
+تحفظ (تنسخ) بيانات التدفق إلى التدفق المحدد. تستخدم قيمة طول التدفق [`Length`](../length/).
 
 ```csharp
 public virtual void Save(string filePath, int bufferSize)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filePath | String | مسار الملف المراد حفظ دفق البيانات فيه. |
-| bufferSize | Int32 | حجم المخزن المؤقت. بشكل افتراضي[`ReadWriteBytesCount`](../readwritebytescount) القيمة المستخدمة. |
+| filePath | String | مسار الملف لحفظ بيانات التدفق فيه. |
+| bufferSize | Int32 | حجم المخزن المؤقت. يتم استخدام القيمة الافتراضية لـ [`ReadWriteBytesCount`](../readwritebytescount/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamContainer](../../streamcontainer)
-* مساحة الاسم [Aspose.Imaging](../../streamcontainer)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
@@ -118,16 +118,16 @@ public virtual void Save(string filePath, int bufferSize)
 public virtual void Save(string filePath, int bufferSize, long length)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filePath | String | مسار الملف المراد حفظ دفق البيانات فيه. |
-| bufferSize | Int32 | حجم المخزن المؤقت. بشكل افتراضي[`ReadWriteBytesCount`](../readwritebytescount) القيمة المستخدمة. |
-| length | Int64 | طول تدفق البيانات المراد نسخها. بشكل افتراضي ، يتم تعيين الطول على[`Length`](../length) القيمة. |
+| filePath | String | مسار الملف لحفظ بيانات التدفق فيه. |
+| bufferSize | Int32 | حجم المخزن المؤقت. يتم استخدام القيمة الافتراضية لـ [`ReadWriteBytesCount`](../readwritebytescount/). |
+| length | Int64 | طول بيانات التدفق المراد نسخها. بشكل افتراضي يتم تعيين الطول إلى قيمة [`Length`](../length/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamContainer](../../streamcontainer)
-* مساحة الاسم [Aspose.Imaging](../../streamcontainer)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamContainer](../)
+* namespace [Aspose.Imaging](../../streamcontainer/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,45 +1,45 @@
 ---
-title: EmfPlusFillClosedCurve
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusFillClosedCurve ملء الجزء الداخلي من شريحة أساسية مغلقة
+title: "الفئة EmfPlusFillClosedCurve"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve. سجل EmfPlusFillClosedCurve يحدد تعبئة داخل منحنى كاردينال مغلق."
 type: docs
-weight: 6060
+weight: 6180
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/
 ---
 ## EmfPlusFillClosedCurve class
 
-يحدد سجل EmfPlusFillClosedCurve ملء الجزء الداخلي من شريحة أساسية مغلقة
+سجل EmfPlusFillClosedCurve يحدد تعبئة داخل منحنى كاردينال مغلق.
 
 ```csharp
 public sealed class EmfPlusFillClosedCurve : EmfPlusDrawingRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusFillClosedCurve](emfplusfillclosedcurve)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusFillClosedCurve`](../emfplusfillclosedcurve) فئة . |
+| [EmfPlusFillClosedCurve](emfplusfillclosedcurve/)(EmfPlusRecord) | ينشئ مثيلاً جديداً من الفئة `EmfPlusFillClosedCurve`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/brushid) { get; set; } | الحصول على أو تحديد معرّف الفرشاة عدد صحيح بدون إشارة 32 بت يحدد EmfPlusBrush ، محتواه محددًا بواسطة بت S في حقل الإشارات. تستخدم هذه الفرشاة لملء الداخلية من العمود الأساسي المغلق. |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/compressed) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`EmfPlusFillClosedCurve`](../emfplusfillclosedcurve)مضغوط . يشير هذا البت إلى ما إذا كان حقل PointData يحدد البيانات المضغوطة. إذا تم تعيينه ، تحدد PointData المواقع المطلقة في مساحة الإحداثيات مع إحداثيات عدد صحيح 16 بت . إذا كان واضحًا ، تحدد PointData المواقع المطلقة في مساحة إحداثيات بإحداثيات فاصلة عائمة 32 بت. تملأ العملية المناطق وفقًا لقاعدة "التكافؤ الزوجي الفردي". وفقًا لهذه القاعدة ، يمكن تحديد نقطة الاختبار لتكون داخل أو خارج منحنى مغلق كما يلي: ارسم خطًا من نقطة الاختبار إلى نقطة بعيدة من المنحنى. إذا تجاوز هذا الخط المنحنى بعدد فردي من المرات ، تكون نقطة الاختبار داخل المنحنى ؛ خلاف ذلك ، تكون نقطة الاختبار خارج المنحنى. --------------------- عملية تعبئة "بديلة" تملأ المناطق وفقًا لقاعدة "غير الصفر" . وفقًا لهذه القاعدة ، يمكن تحديد نقطة الاختبار لتكون داخل أو خارج منحنى مغلق على النحو التالي: ارسم خطًا من نقطة اختبار إلى نقطة بعيدة عن المنحنى. احسب عدد المرات التي يعبر فيها المنحنى خط الاختبار من اليسار إلى اليمين ، واحسب عدد المرات التي يعبر فيها المنحنى خط الاختبار من اليمين إلى اليسار. إذا كان هذان الرقمان متماثلين ، فإن نقطة الاختبار تقع خارج المنحنى ؛ خلاف ذلك ، تكون نقطة الاختبار داخل المنحنى. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/iscolor) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا المثيل ملونًا. إذا تم تعيينه ، تحدد BrushId لونًا ككائن EmfPlusARGB (القسم 2.2.2.1) . إذا كان مسحًا ، يحتوي BrushId على فهرس كائن EmfPlusBrush (القسم 2.2.1.1 ) في EMF + Object Table . |
-| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/pointdata) { get; set; } | الحصول على أو تعيين بيانات النقطة مصفوفة من نقاط العد التي تحدد نقاط نهاية الخطوط التي تحدد الشريحة. في سلسلة أساسية مغلقة ، يستمر المنحنى خلال النقطة الأخيرة في مصفوفة PointData ويتصل بالنقطة الأولى في المصفوفة |
-| [Relative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/relative) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`EmfPlusFillClosedCurve`](../emfplusfillclosedcurve) نسبي . يشير هذا البت إلى ما إذا كان حقل PointData يحدد مواقع نسبية أو مطلقة. إذا تم تعيينه ، يحدد كل عنصر في PointData موقعًا في مساحة الإحداثيات يكون بالنسبة إلى الموقع المحدد بواسطة العنصر السابق في المصفوفة. في حالة للعنصر الأول في PointData ، يفترض وجود موقع سابق عند الإحداثيات (0،0). إذا كان واضحًا ، تحدد PointData المواقع المطلقة وفقًا للعلامة C . ملاحظة إذا تم تعيين هذه العلامة ، فإن علامة C (أعلاه) غير معرَّفة ويجب تجاهلها. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [Tension](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/tension) { get; set; } | الحصول على أو ضبط تحدد القيمة 0.0 أن الشريحة عبارة عن سلسلة من الخطوط المستقيمة . مع زيادة القيمة ، يصبح المنحنى أكثر تقريبًا. لمزيد من المعلومات ، راجع [SPLINE77] و [PETZOLD] . |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
-| [Winding](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/winding) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`EmfPlusFillClosedCurve`](../emfplusfillclosedcurve)هو ملف . يشير هذا البت إلى كيفية تنفيذ عملية التعبئة. إذا تم ضبطه ، فإن التعبئة هي تعبئة "متعرجة". إذا كان واضحًا ، فإن التعبئة تكون تعبئة "بديلة". |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/brushid/) { get; set; } | يحصل أو يعيّن معرف الفرشاة عددًا صحيحًا غير موقع 32‑بت يحدد EmfPlusBrush، محتواه يُحدّد بواسطة بتة S في حقل Flags. تُستخدم هذه الفرشاة لتعبئة داخل المنحنى الكاردينال المغلق. |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/compressed/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusFillClosedCurve` مضغوطاً. تشير هذه البتة إلى ما إذا كان حقل PointData يحدد بيانات مضغوطة. إذا تم التعيين، يحدد PointData المواقع المطلقة في مساحة الإحداثيات باستخدام إحداثيات صحيحة 16‑بت. إذا لم يتم التعيين، يحدد PointData المواقع المطلقة باستخدام إحداثيات عائمة 32‑بت. ---------------------- عملية تعبئة "winding" تملأ المناطق وفقاً لقاعدة "even-odd parity". وفقاً لهذه القاعدة، يمكن تحديد ما إذا كانت نقطة الاختبار داخل أو خارج منحنى مغلق كما يلي: ارسم خطاً من نقطة الاختبار إلى نقطة تقع بعيداً عن المنحنى. إذا قطع ذلك الخط المنحنى عددًا فرديًا من المرات، تكون نقطة الاختبار داخل المنحنى؛ وإلا تكون خارج المنحنى. --------------------- عملية تعبئة "alternate" تملأ المناطق وفقاً لقاعدة "non-zero". وفقاً لهذه القاعدة، يمكن تحديد ما إذا كانت نقطة الاختبار داخل أو خارج منحنى مغلق كما يلي: ارسم خطاً من نقطة الاختبار إلى نقطة تقع بعيداً عن المنحنى. عدّ عدد المرات التي يقطع فيها المنحنى الخط من اليسار إلى اليمين، وعدّ عدد المرات التي يقطع فيها المنحنى الخط من اليمين إلى اليسار. إذا كان العددان متساويين، تكون نقطة الاختبار خارج المنحنى؛ وإلا تكون داخل المنحنى. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/iscolor/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت هذه النسخة لونًا. إذا تم تعيينها، يحدد BrushId لونًا ككائن EmfPlusARGB (القسم 2.2.2.1). إذا لم تُحدد، يحتوي BrushId على فهرس كائن EmfPlusBrush (القسم 2.2.1.1) في جدول كائنات EMF+. |
+| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/pointdata/) { get; set; } | يحصل أو يعيّن بيانات النقاط مصفوفة من Count نقاط تحدد نقاط النهاية للخطوط التي تُعرّف المنحنى. في منحنى كاردينال مغلق، يستمر المنحنى عبر النقطة الأخيرة في مصفوفة PointData ويتصل بالنقطة الأولى في المصفوفة. |
+| [Relative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/relative/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusFillClosedCurve` نسبياً. تشير هذه البتة إلى ما إذا كان حقل PointData يحدد مواقع نسبية أو مطلقة. إذا تم التعيين، كل عنصر في PointData يحدد موقعاً في مساحة الإحداثيات يكون نسبياً إلى الموقع المحدد بالعنصر السابق في المصفوة. في حالة العنصر الأول في PointData، يُفترض وجود موقع سابق عند الإحداثيات (0,0). إذا لم يتم التعيين، يحدد PointData مواقع مطلقة وفقاً لعلامة C. ملاحظة: إذا تم تعيين هذه العلامة، تكون علامة C (أعلاه) غير معرفة ويجب تجاهلها. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [Tension](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/tension/) { get; set; } | يحصل أو يعيّن التوتر قيمة عائمة 32‑بت تحدد مدى انحناء المنحنى عند مروره عبر النقاط. القيمة 0.0 تشير إلى أن المنحنى هو سلسلة من الخطوط المستقيمة. كلما زادت القيمة، يصبح المنحنى أكثر انحناءً. لمزيد من المعلومات، راجع [SPLINE77] و [PETZOLD]. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
+| [Winding](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/winding/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusFillClosedCurve` من نوع "winding". تشير هذه البتة إلى طريقة تنفيذ عملية التعبئة. إذا تم التعيين، تكون التعبئة من نوع "winding". إذا لم يتم التعيين، تكون التعبئة من نوع "alternate". |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,37 +1,37 @@
 ---
-title: EmfPlusObjectType
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد تعداد ObjectType أنواع الكائنات الرسومية التي يمكن إنشاؤها واستخدامها في عمليات الرسومات.
+title: "Enum EmfPlusObjectType"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusObjectType enum. يعرّف تعداد ObjectType أنواع كائنات الرسوميات التي يمكن إنشاؤها واستخدامها في عمليات الرسوميات."
 type: docs
-weight: 4940
+weight: 5060
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjecttype/
 ---
 ## EmfPlusObjectType enumeration
 
-يحدد تعداد ObjectType أنواع الكائنات الرسومية التي يمكن إنشاؤها واستخدامها في عمليات الرسومات.
+تحدد تعداد ObjectType أنواع كائنات الرسومات التي يمكن إنشاؤها واستخدامها في عمليات الرسومات.
 
 ```csharp
 public enum EmfPlusObjectType : byte
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| ObjectTypeInvalid | `0` | الكائن ليس كائنًا صالحًا . |
-| ObjectTypeBrush | `1` | يحدد ملف[`EmfPlusBrush`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush) الكائن (القسم 2.2.1.1). تملأ كائنات الفرشاة مناطق الرسومات. |
-| ObjectTypePen | `2` | يحدد ملف[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) الكائن (القسم 2.2.1.7). كائنات القلم ترسم خطوطًا رسومية. |
-| ObjectTypePath | `3` | يحدد ملف[`EmfPlusPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)الكائن (القسم 2.2.1.6). تحدد كائنات المسار تسلسل الخطوط والمنحنيات والأشكال. |
-| ObjectTypeRegion | `4` | يحدد ملف[`EmfPlusRegion`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion) الكائن (القسم 2.2.1.8). تحدد كائنات المنطقة مناطق سطح الإخراج. |
-| ObjectTypeImage | `5` | يحدد ملف[`EmfPlusImage`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage) الكائن (القسم 2.2.1.4). تقوم كائنات الصورة بتغليف الصور النقطية وملفات التعريف. |
-| ObjectTypeFont | `6` | يحدد ملف[`EmfPlusFont`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont) الكائن (القسم 2.2.1.3). تحدد كائنات الخط خصائص الخط ، بما في ذلك نمط الخط وحجم EM وعائلة الخط. |
-| ObjectTypeStringFormat | `7` | يحدد ملف[`EmfPlusStringFormat`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat) الكائن (القسم 2.2.1.9). تحدد كائنات تنسيق السلسلة تخطيط النص ، بما في ذلك المحاذاة والاتجاه وعلامات الجدولة والقص واستبدال الأرقام للغات التي لا تستخدم أرقام أوروبا الغربية. |
-| ObjectTypeImageAttributes | `8` | يحدد ملف[`EmfPlusImageAttributes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes) الكائن (القسم 2.2.1.5). تحدد كائنات سمة الصورة العمليات على وحدات البكسل أثناء عرض الصورة ، بما في ذلك ضبط اللون ، وضبط التدرج الرمادي ، وتصحيح جاما ، وتعيين الألوان. |
-| ObjectTypeCustomLineCap | `9` | يحدد ملف[`EmfPlusCustomLineCap`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap)الكائن (القسم 2.2.1.2). تحدد كائنات غطاء الخط المخصص الأشكال التي يتم رسمها في نهايات خط الرسومات ، بما في ذلك المربعات والدوائر والماس. |
+| ObjectTypeInvalid | `0` | الكائن ليس كائنًا صالحًا. |
+| ObjectTypeBrush | `1` | يحدد كائن [`EmfPlusBrush`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/) (القسم 2.2.1.1). كائنات الفرشاة تملأ مناطق الرسوميات. |
+| ObjectTypePen | `2` | يحدد كائن [`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/) (القسم 2.2.1.7). كائنات القلم ترسم خطوط الرسومات. |
+| ObjectTypePath | `3` | يحدد كائن [`EmfPlusPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/) (القسم 2.2.1.6). كائنات المسار تحدد تسلسلات من الخطوط والمنحنيات والأشكال. |
+| ObjectTypeRegion | `4` | يحدد كائن [`EmfPlusRegion`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/) (القسم 2.2.1.8). كائنات المنطقة تحدد مناطق سطح الإخراج. |
+| ObjectTypeImage | `5` | يحدد كائن [`EmfPlusImage`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/) (القسم 2.2.1.4). كائنات الصورة تحتوي على ملفات البت ماب وملفات الميتا. |
+| ObjectTypeFont | `6` | يحدد كائن [`EmfPlusFont`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/) (القسم 2.2.1.3). كائنات الخط تحدد خصائص الخط، بما في ذلك نمط الخط، حجم EM، وعائلة الخط. |
+| ObjectTypeStringFormat | `7` | يحدد كائن [`EmfPlusStringFormat`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/) (القسم 2.2.1.9). كائنات تنسيق السلسلة تحدد تخطيط النص، بما في ذلك المحاذاة، الاتجاه، نقاط التبويب، القص، واستبدال الأرقام للغات التي لا تستخدم أرقام أوروبا الغربية. |
+| ObjectTypeImageAttributes | `8` | يحدد كائن [`EmfPlusImageAttributes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/) (القسم 2.2.1.5). كائنات خصائص الصورة تحدد عمليات على البكسلات أثناء عرض الصورة، بما في ذلك تعديل اللون، تعديل التدرج الرمادي، تصحيح جاما، وتعيين الألوان. |
+| ObjectTypeCustomLineCap | `9` | يحدد كائن [`EmfPlusCustomLineCap`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/) (القسم 2.2.1.2). كائنات غطاء الخط المخصص تحدد أشكالًا تُرسم في نهايات خط الرسومات، بما في ذلك المربعات والدوائر والماس. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

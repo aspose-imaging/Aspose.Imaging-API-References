@@ -1,55 +1,55 @@
 ---
-title: MetaObjectList
-second_title: Aspose.Imaging لمرجع NET API
-description: قائمة كائنات التعريف لفئات EMF و EMF  و WMF
+title: "الفئة MetaObjectList"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.MetaObjectList. قائمة الكائنات الوصفية لفئات EMF EMF و WMF"
 type: docs
-weight: 6530
+weight: 6650
 url: /ar/net/aspose.imaging.fileformats.emf/metaobjectlist/
 ---
 ## MetaObjectList class
 
-قائمة كائنات التعريف لفئات EMF و EMF + و WMF
+قائمة كائنات meta لفئات EMF و EMF+ و WMF
 
 ```csharp
 public class MetaObjectList : NonGenericList
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [MetaObjectList](metaobjectlist#constructor)() | يقوم بتهيئة مثيل جديد لملف[`MetaObjectList`](../metaobjectlist) فئة . |
-| [MetaObjectList](metaobjectlist#constructor_1)(IList) | يقوم بتهيئة مثيل جديد لملف[`MetaObjectList`](../metaobjectlist) فئة . |
+| [MetaObjectList](metaobjectlist/#constructor)() | يُنشئ مثيلاً جديدًا من الفئة `MetaObjectList`. |
+| [MetaObjectList](metaobjectlist/#constructor_1)(IList) | يُنشئ مثيلاً جديدًا من الفئة `MetaObjectList`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.imaging/nongenericlist/count) { get; } | الحصول على عدد العناصر الموجودة في ملفICollection . |
-| [IsFixedSize](../../aspose.imaging/nongenericlist/isfixedsize) { get; } | يحصل على قيمة تشير إلى ما إذا كان ملفIList له حجم ثابت. |
-| [IsReadOnly](../../aspose.imaging/nongenericlist/isreadonly) { get; } | يحصل على قيمة تشير إلى ما إذا كان ملفIList للقراءة فقط. |
-| [IsSynchronized](../../aspose.imaging/nongenericlist/issynchronized) { get; } | يحصل على قيمة تشير إلى ما إذا كان الوصول إلى ملفICollection متزامن (مؤشر ترابط آمن) . |
-| [Item](../../aspose.imaging/nongenericlist/item) { get; set; } | الحصول على العنصر أو تحديده في الفهرس المحدد. |
-| [SyncRoot](../../aspose.imaging/nongenericlist/syncroot) { get; } | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلىICollection . |
+| [Count](../../aspose.imaging/nongenericlist/count/) { get; } | يحصل على عدد العناصر الموجودة في ICollection. |
+| [IsFixedSize](../../aspose.imaging/nongenericlist/isfixedsize/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت IList ذات حجم ثابت. |
+| [IsReadOnly](../../aspose.imaging/nongenericlist/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت IList للقراءة فقط. |
+| [IsSynchronized](../../aspose.imaging/nongenericlist/issynchronized/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الوصول إلى ICollection متزامنًا (آمن للخطوط المتعددة). |
+| [Item](../../aspose.imaging/nongenericlist/item/) { get; set; } | يحصل أو يضبط العنصر في الفهرس المحدد. |
+| [SyncRoot](../../aspose.imaging/nongenericlist/syncroot/) { get; } | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى ICollection. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.imaging/nongenericlist/add)(object) | يضيف عنصرًا إلى ملفIList . |
-| [Clear](../../aspose.imaging/nongenericlist/clear)() | يزيل كافة العناصر من ملفIList . |
-| [Contains](../../aspose.imaging/nongenericlist/contains)(object) | يحدد ما إذا كان ملفIList يحتوي على قيمة محددة. |
-| [CopyTo](../../aspose.imaging/nongenericlist/copyto)(Array, int) | ينسخ عناصر ملفICollection إلىArray ، بدءًا من نقطة معينةArray الفهرس . |
-| [GetEnumerator](../../aspose.imaging/nongenericlist/getenumerator)() | إرجاع عداد يتكرر خلال مجموعة. |
-| [IndexOf](../../aspose.imaging/nongenericlist/indexof)(object) | يحدد فهرس عنصر معين في ملفIList . |
-| [Insert](../../aspose.imaging/nongenericlist/insert)(int, object) | يقوم بإدراج عنصر في ملفIList في الفهرس المحدد. |
-| [Remove](../../aspose.imaging/nongenericlist/remove)(object) | يزيل التواجد الأول لكائن معين من ملفIList . |
-| [RemoveAt](../../aspose.imaging/nongenericlist/removeat)(int) | يزيل ملفIList العنصر في الفهرس المحدد. |
+| [Add](../../aspose.imaging/nongenericlist/add/)(object) | يضيف عنصرًا إلى IList. |
+| [Clear](../../aspose.imaging/nongenericlist/clear/)() | يزيل جميع العناصر من IList. |
+| [Contains](../../aspose.imaging/nongenericlist/contains/)(object) | يحدد ما إذا كانت IList تحتوي على قيمة معينة. |
+| [CopyTo](../../aspose.imaging/nongenericlist/copyto/)(Array, int) | ينسخ عناصر ICollection إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
+| [GetEnumerator](../../aspose.imaging/nongenericlist/getenumerator/)() | يرجع عدّادًا يتنقل عبر مجموعة. |
+| [IndexOf](../../aspose.imaging/nongenericlist/indexof/)(object) | يحدد فهرس عنصر معين في IList. |
+| [Insert](../../aspose.imaging/nongenericlist/insert/)(int, object) | يدرج عنصرًا في IList عند الفهرس المحدد. |
+| [Remove](../../aspose.imaging/nongenericlist/remove/)(object) | يزيل أول ظهور لكائن معين من IList. |
+| [RemoveAt](../../aspose.imaging/nongenericlist/removeat/)(int) | يزيل عنصر IList عند الفهرس المحدد. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [NonGenericList](../../aspose.imaging/nongenericlist)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf](../../aspose.imaging.fileformats.emf)
-* المجسم [Aspose.Imaging](../../)
+* class [NonGenericList](../../aspose.imaging/nongenericlist/)
+* namespace [Aspose.Imaging.FileFormats.Emf](../../aspose.imaging.fileformats.emf/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

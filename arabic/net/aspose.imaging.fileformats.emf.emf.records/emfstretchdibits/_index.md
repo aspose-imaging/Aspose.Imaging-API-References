@@ -1,52 +1,52 @@
 ---
-title: EmfStretchDiBits
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EMR_STRETCHDIBITS كتلة نقل وحدات البكسل من الصورة النقطية المصدر إلى مستطيل الوجهة  اختياريًا بالاقتران مع نمط الفرشاة  وفقًا لعملية تحديد نقطية  أو تمديد أو ضغط الإخراج لملاءمة أبعاد الوجهة  إذا من الضروري.
+title: "الفئة EmfStretchDiBits"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfStretchDiBits class. السجل EMR_STRETCHDIBITS يحدد نقل كتلة من البكسلات من بت ماب المصدر إلى مستطيل الوجهة اختياريًا مع نمط فرشاة وفق عملية رستر محددة مع تمديد أو ضغط المخرجات لتتناسب مع أبعاد الوجهة إذا لزم الأمر"
 type: docs
-weight: 4600
+weight: 4720
 url: /ar/net/aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/
 ---
 ## EmfStretchDiBits class
 
-يحدد سجل EMR_STRETCHDIBITS كتلة نقل وحدات البكسل من الصورة النقطية المصدر إلى مستطيل الوجهة ، اختياريًا بالاقتران مع نمط الفرشاة ، وفقًا لعملية تحديد نقطية ، أو تمديد أو ضغط الإخراج لملاءمة أبعاد الوجهة ، إذا من الضروري.
+سجل EMR_STRETCHDIBITS يحدد نقل كتلة من البكسلات من صورة نقطية مصدر إلى مستطيل هدف، اختياريًا مع نمط فرشاة، وفق عملية نقطية محددة، مع تمديد أو ضغط المخرجات لتناسب أبعاد الهدف إذا لزم الأمر.
 
 ```csharp
 public sealed class EmfStretchDiBits : EmfBitmapRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfStretchDiBits](emfstretchdibits)(EmfRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfStretchDiBits`](../emfstretchdibits) فئة . |
+| [EmfStretchDiBits](emfstretchdibits/)(EmfRecord) | يُنشئ مثيلاً جديدًا للفئة `EmfStretchDiBits`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/bitbltrasteroperation) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عملية نقطية code. تحدد هذه الأكواد كيفية دمج بيانات اللون الخاصة بالمستطيل المصدر مع بيانات لون المستطيل الوجهة واختيارياً نمط الفرشاة ، لتحقيق اللون النهائي. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/bounds) { get; set; } | الحصول على أو تعيين كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل المحيط للوجهة في وحدات الجهاز. |
-| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxdest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد العرض المنطقي لمستطيل الوجهة. |
-| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد العرض بالبكسل لمستطيل المصدر. |
-| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cydest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد الارتفاع المنطقي لمستطيل الوجهة. |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد ارتفاع مستطيل المصدر بالبكسل. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | الحصول على أو تحديد حجم السجل |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/sourcebitmap) { get; set; } | الحصول على أو تعيين مخزن مؤقت يحتوي على الصورة النقطية المصدر ، والتي لا يلزم أن تكون متجاورة مع الجزء الثابت من سجل EMR_STRETCHDIBITS. وفقًا لذلك ، الحقول الموجودة في هذا المخزن المؤقت التي تسمى "UndefinedSpace" اختيارية ويجب تجاهلها. |
-| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | الحصول على النوع أو تحديده. |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/usagesrc) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس الصورة النقطية المصدر. يجب أن تكون هذه القيمة في تعداد ألوان DIBC (القسم 2.1.9). |
-| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xdest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x المنطقي للزاوية العلوية اليسرى من المستطيل الوجهة. |
-| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x بالبكسل في الزاوية العلوية اليسرى من المستطيل المصدر. |
-| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/ydest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y المنطقي للزاوية العلوية اليسرى من المستطيل الوجهة. |
-| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/ysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y بالبكسل في الزاوية العلوية اليسرى من المستطيل المصدر. |
+| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/bitbltrasteroperation/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رمز عملية الرستر. تُعرّف هذه الرموز كيفية دمج بيانات اللون للمستطيل المصدر مع بيانات اللون للمستطيل الوجهة واختياريًا نمط الفرشاة، لتحقيق اللون النهائي. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/bounds/) { get; set; } | يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدودي للوجهة بوحدات الجهاز. |
+| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxdest/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد العرض المنطقي للمستطيل الوجهة. |
+| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxsrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد العرض بالبكسل للمستطيل المصدر. |
+| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cydest/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد الارتفاع المنطقي للمستطيل الوجهة. |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cysrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد الارتفاع بالبكسل للمستطيل المصدر. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | يحصل أو يعيّن حجم السجل |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/sourcebitmap/) { get; set; } | يحصل أو يعيّن مخزنًا يحتوي على بت ماب المصدر، والذي لا يُشترط أن يكون متجاورًا مع الجزء الثابت من سجل EMR_STRETCHDIBITS. وبالتالي، الحقول في هذا المخزن التي تم تسمية "UndefinedSpace" اختيارية ويجب تجاهلها. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | يحصل أو يعيّن النوع. |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/usagesrc/) { get; set; } | يحصل أو يضبط عدد صحيح غير موقع 32‑بت يحدد كيفية تفسير القيم في جدول الألوان في رأس البت ماب المصدر. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9). |
+| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xdest/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي السيني المنطقي للزاوية العليا اليسرى للمستطيل الوجهة. |
+| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xsrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد إحداثي x بالبكسل للزاوية العلوية اليسرى للمستطيل المصدر. |
+| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/ydest/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي الصادي المنطقي للزاوية العليا اليسرى للمستطيل الوجهة. |
+| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/ysrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد إحداثي y بالبكسل للزاوية العلوية اليسرى للمستطيل المصدر. |
 
-### ملاحظات
+## ملاحظات
 
-يدعم هذا السجل الصور المصدر بتنسيقات JPEG و PNG. يحدد حقل الضغط في رأس الصورة النقطية المصدر تنسيق الصورة. في حالة اختلاف إشارات حقلي العرض والارتفاع للمصدر والوجهة ، يحدد هذا السجل نسخة طبق الأصل من الصورة النقطية المصدر إلى الوجهة. بمعنى ، إذا كان لكل من cxSrc و cxDest علامات مختلفة ، فسيتم تحديد صورة معكوسة للصورة النقطية المصدر على طول المحور x. إذا كان لكل من cySrc و cyDest علامات مختلفة ، فسيتم تحديد صورة معكوسة للصورة النقطية المصدر على طول المحور الصادي.
+يدعم هذا السجل صور المصدر بصيغ JPEG و PNG. حقل Compression في رأس بت ماب المصدر يحدد صيغة الصورة. إذا اختلفت إشارات حقول الارتفاع والعرض للمصدر والوجهة، يحدد هذا السجل نسخة مرآة من بت ماب المصدر إلى الوجهة. أي أنه إذا كان لـ cxSrc و cxDest إشارات مختلفة، يتم تحديد نسخة مرآة من بت ماب المصدر على محور x. وإذا كان لـ cySrc و cyDest إشارات مختلفة، يتم تحديد نسخة مرآة من بت ماب المصدر على محور y.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfBitmapRecordType](../emfbitmaprecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfBitmapRecordType](../emfbitmaprecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,62 +1,62 @@
 ---
-title: CompressionMethod
-second_title: Aspose.Imaging لمرجع NET API
-description: الحصول على أو تعيين طريقة ضغط psd.
+title: "PsdOptions.CompressionMethod"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "خاصية PsdOptions. يحصل أو يضبط طريقة ضغط psd"
 type: docs
 weight: 50
 url: /ar/net/aspose.imaging.imageoptions/psdoptions/compressionmethod/
 ---
 ## PsdOptions.CompressionMethod property
 
-الحصول على أو تعيين طريقة ضغط psd.
+يحصل أو يعيّن طريقة ضغط PSD.
 
 ```csharp
 public CompressionMethod CompressionMethod { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
 طريقة الضغط.
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال استخدام Aspsoe.Imaging لـ NET API لتحويل الصور إلى تنسيق PSD. لتحقيق هذا الهدف ، يقوم هذا المثال بتحميل صورة موجودة ثم يحفظها مرة أخرى بتنسيق PSD.
+يوضح هذا المثال استخدام Aspsoe.Imaging لواجهة برمجة التطبيقات .Net لتحويل الصور إلى تنسيق PSD. لتحقيق هذا الهدف، يقوم المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بتنسيق PSD.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// ينشئ مثيلاً لفئة الصورة وتهيئته بملف موجود من خلال مسار الملف
+//ينشئ مثيلاً من فئة الصورة ويُهيئه بملف موجود عبر مسار الملف
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    // إنشاء مثيل لفئة PsdOptions
+    //إنشاء مثيل من فئة PsdOptions
     Aspose.Imaging.ImageOptions.PsdOptions psdOptions = new Aspose.Imaging.ImageOptions.PsdOptions();
 
-    // قم بتعيين CompressionMethod كـ RLE
-    // ملاحظة: طريقة الضغط المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط]
+    //ضبط CompressionMethod كـ RLE
+    //ملاحظة: CompressionMethod المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط]
     psdOptions.CompressionMethod = Aspose.Imaging.FileFormats.Psd.CompressionMethod.RLE;
 
-    // اضبط ColorMode على GrayScale
-    // ملاحظة: رموز ColorModes الأخرى المدعومة هي ColorModes.Bitmap و ColorModes.RGB
+    //ضبط ColorMode إلى GrayScale
+    //ملاحظة: ColorModes المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB
     psdOptions.ColorMode = Aspose.Imaging.FileFormats.Psd.ColorModes.Grayscale;
 
-    // احفظ الصورة في موقع القرص باستخدام إعدادات PsdOptions المتوفرة
+    //احفظ الصورة إلى موقع القرص باستخدام إعدادات PsdOptions المقدمة
     image.Save(dir + "output.psd", psdOptions);
 }
 ```
 
-يوضح هذا المثال كيفية حفظ صورة PNG بتنسيق PSD باستخدام خيارات مختلفة خاصة بـ PSD.
+يوضح هذا المثال كيفية حفظ صورة PNG إلى تنسيق PSD باستخدام خيارات PSD المتنوعة.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// أنشئ صورة PNG بحجم 100 × 100 بكسل.
+// إنشاء صورة PNG بحجم 100×100 بكسل.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100, Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha))
 {
-    // تحديد تدرج خطي أزرق شفاف.
+    // حدد تدرجًا خطيًا أزرقًا شفافًا.
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
             new Aspose.Imaging.Point(pngImage.Width, pngImage.Height),
@@ -65,22 +65,22 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-    // املأ صورة PNG بالتدرج الخطي الأزرق الشفاف.
+    // املأ صورة PNG بالتدرج الخطّي الأزرق الشفاف.
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
-    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بتنسيق PSD.
+    // سيتم استخدام الخيارات التالية لحفظ صورة PNG إلى تنسيق PSD.
     Aspose.Imaging.ImageOptions.PsdOptions saveOptions = new Aspose.Imaging.ImageOptions.PsdOptions();
 
     // عدد البتات لكل قناة
     saveOptions.ChannelBitsCount = 8;
 
-    // عدد القنوات. قناة واحدة لكل مكون لوني R ، G ، B ، A
+    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A
     saveOptions.ChannelsCount = 4;
 
     // وضع اللون
     saveOptions.ColorMode = Aspose.Imaging.FileFormats.Psd.ColorModes.Rgb;
 
-    // لا يوجد ضغط
+    // بدون ضغط
     saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.Raw;
 
     // الإصدار الافتراضي هو 6
@@ -94,24 +94,24 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.RLE.psd"))
     {
-        // يسمح ضغط RLE بتقليل حجم الصورة الناتجة
+        // ضغط RLE يسمح بتقليل حجم الصورة الناتجة
         saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.RLE;
 
         pngImage.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the PSD image with RLE compression: {0}", stream.Length);
     }
 
-    // قد يبدو الإخراج كالتالي:
-    // حجم صورة PSD بضغط RAW: 40090
-    // حجم صورة PSD بضغط RLE: 16185
+    // قد يبدو الإخراج هكذا:
+    // حجم صورة PSD مع ضغط RAW: 40090
+    // حجم صورة PSD مع ضغط RLE: 16185
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [CompressionMethod](../../../aspose.imaging.fileformats.psd/compressionmethod)
-* class [PsdOptions](../../psdoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../psdoptions)
-* المجسم [Aspose.Imaging](../../../)
+* enum [CompressionMethod](../../../aspose.imaging.fileformats.psd/compressionmethod/)
+* class [PsdOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../psdoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

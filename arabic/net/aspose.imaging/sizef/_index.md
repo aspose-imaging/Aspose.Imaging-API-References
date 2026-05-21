@@ -1,56 +1,56 @@
 ---
-title: SizeF
-second_title: Aspose.Imaging لمرجع NET API
-description: يخزن زوجًا مرتبًا من أرقام الفاصلة العائمة  وعادة ما يكون عرض المستطيل وارتفاعه.
+title: "الهيكل SizeF"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الهيكل Aspose.Imaging.SizeF. يخزن زوجًا مرتبًا من الأعداد العشرية عادةً العرض والارتفاع لمستطيل."
 type: docs
-weight: 11050
+weight: 11640
 url: /ar/net/aspose.imaging/sizef/
 ---
 ## SizeF structure
 
-يخزن زوجًا مرتبًا من أرقام الفاصلة العائمة ، وعادة ما يكون عرض المستطيل وارتفاعه.
+يخزن زوجًا مرتبًا من الأعداد العائمة، عادةً العرض والارتفاع للمستطيل.
 
 ```csharp
 public struct SizeF
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SizeF](sizef#constructor)(PointF) | يقوم بتهيئة مثيل جديد لملف[`SizeF`](../sizef) هيكل من المحدد[`PointF`](../pointf) . |
-| [SizeF](sizef#constructor_1)(SizeF) | يقوم بتهيئة مثيل جديد لملف[`SizeF`](../sizef) هيكل من المحدد[`SizeF`](../sizef) . |
-| [SizeF](sizef#constructor_2)(float, float) | يقوم بتهيئة مثيل جديد لملف[`SizeF`](../sizef) هيكل من الأبعاد المحددة. |
+| [SizeF](sizef/#constructor)(PointF) | ينشئ نسخة جديدة من بنية `SizeF` من الـ [`PointF`](../pointf/) المحدد. |
+| [SizeF](sizef/#constructor_1)(SizeF) | ينشئ نسخة جديدة من بنية `SizeF` من الـ `SizeF` المحدد. |
+| [SizeF](sizef/#constructor_2)(float, float) | ينشئ نسخة جديدة من بنية `SizeF` من الأبعاد المحددة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [Empty](../../aspose.imaging/sizef/empty) { get; } | يحصل على مثيل جديد لملف[`SizeF`](../sizef) هيكل لديه[`Width`](./width) و[`Height`](./height) تم ضبط القيم على الصفر. |
-| [Height](../../aspose.imaging/sizef/height) { get; set; } | الحصول على أو تحديد المكون الرأسي لهذا[`SizeF`](../sizef) . |
-| [IsEmpty](../../aspose.imaging/sizef/isempty) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا[`SizeF`](../sizef) العرض والارتفاع صفر. |
-| [Width](../../aspose.imaging/sizef/width) { get; set; } | الحصول على أو تحديد المكون الأفقي لهذا[`SizeF`](../sizef) . |
+| static [Empty](../../aspose.imaging/sizef/empty/) { get; } | يحصل على نسخة جديدة من بنية `SizeF` التي لها قيم [`Width`](./width/) و[`Height`](./height/) مضبوطة على الصفر. |
+| [Height](../../aspose.imaging/sizef/height/) { get; set; } | يحصل أو يضبط المكوّن العمودي لهذه `SizeF`. |
+| [IsEmpty](../../aspose.imaging/sizef/isempty/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه `SizeF` ذات عرض وارتفاع صفر. |
+| [Width](../../aspose.imaging/sizef/width/) { get; set; } | يحصل أو يضبط المكوّن الأفقي لهذه `SizeF`. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [Add](../../aspose.imaging/sizef/add)(SizeF, SizeF) | إضافة عرض وارتفاع واحد[`SizeF`](../sizef) هيكل لعرض وارتفاع آخر[`SizeF`](../sizef) هيكل . |
-| static [Subtract](../../aspose.imaging/sizef/subtract)(SizeF, SizeF) | طرح عرض وارتفاع واحد[`SizeF`](../sizef) هيكل من عرض وارتفاع آخر[`SizeF`](../sizef) هيكل . |
-| override [Equals](../../aspose.imaging/sizef/equals)(object) | اختبارات لمعرفة ما إذا كان الكائن المحدد بتنسيق[`SizeF`](../sizef)بنفس أبعاد هذا[`SizeF`](../sizef) . |
-| override [GetHashCode](../../aspose.imaging/sizef/gethashcode)() | إرجاع رمز تجزئة لهذا[`Size`](../size) هيكل . |
-| [ToPointF](../../aspose.imaging/sizef/topointf)() | تحويل أ[`SizeF`](../sizef) إلى أ[`PointF`](../pointf) . |
-| [ToSize](../../aspose.imaging/sizef/tosize)() | تحويل أ[`SizeF`](../sizef) إلى أ[`Size`](../size) هيكل بقيم حجم مقطوعة. |
-| override [ToString](../../aspose.imaging/sizef/tostring)() | لإنشاء سلسلة يمكن للبشر قراءتها تمثل هذا[`SizeF`](../sizef) . |
-| [operator +](../../aspose.imaging/sizef/op_addition) | إضافة عرض وارتفاع واحد[`SizeF`](../sizef) هيكل لعرض وارتفاع آخر[`SizeF`](../sizef) هيكل . |
-| [operator ==](../../aspose.imaging/sizef/op_equality) | اختبارات ما إذا كان اثنان[`SizeF`](../sizef) الهياكل متساوية. |
-| [explicit operator](../../aspose.imaging/sizef/op_explicit) | تحويل المحدد[`SizeF`](../sizef) إلى أ[`PointF`](../pointf) . |
-| [operator !=](../../aspose.imaging/sizef/op_inequality) | اختبارات ما إذا كان اثنان[`SizeF`](../sizef) الهياكل مختلفة. |
-| [operator -](../../aspose.imaging/sizef/op_subtraction) | طرح عرض وارتفاع واحد[`SizeF`](../sizef) هيكل من عرض وارتفاع آخر[`SizeF`](../sizef) هيكل . |
+| static [Add](../../aspose.imaging/sizef/add/)(SizeF, SizeF) | يضيف عرض وارتفاع بنية `SizeF` واحدة إلى عرض وارتفاع بنية `SizeF` أخرى. |
+| static [Subtract](../../aspose.imaging/sizef/subtract/)(SizeF, SizeF) | يطرح عرض وارتفاع بنية `SizeF` واحدة من عرض وارتفاع بنية `SizeF` أخرى. |
+| override [Equals](../../aspose.imaging/sizef/equals/)(object) | يفحص ما إذا كان الكائن المحدد هو `SizeF` بنفس الأبعاد لهذه `SizeF`. |
+| override [GetHashCode](../../aspose.imaging/sizef/gethashcode/)() | يعيد رمز التجزئة لهذه بنية [`Size`](../size/). |
+| [ToPointF](../../aspose.imaging/sizef/topointf/)() | يحوّل `SizeF` إلى [`PointF`](../pointf/). |
+| [ToSize](../../aspose.imaging/sizef/tosize/)() | يحوّل `SizeF` إلى بنية [`Size`](../size/) مع قيم حجم مقطوعة. |
+| override [ToString](../../aspose.imaging/sizef/tostring/)() | ينشئ سلسلة قابلة للقراءة البشرية تمثل هذه `SizeF`. |
+| [operator +](../../aspose.imaging/sizef/op_addition/) | يضيف عرض وارتفاع بنية `SizeF` واحدة إلى عرض وارتفاع بنية `SizeF` أخرى. |
+| [operator ==](../../aspose.imaging/sizef/op_equality/) | يفحص ما إذا كان هيكلا `SizeF` متساويين. |
+| [explicit operator](../../aspose.imaging/sizef/op_explicit/) | يحوّل `SizeF` المحدد إلى [`PointF`](../pointf/). |
+| [operator !=](../../aspose.imaging/sizef/op_inequality/) | يفحص ما إذا كان هيكلا `SizeF` مختلفين. |
+| [operator -](../../aspose.imaging/sizef/op_subtraction/) | يطرح عرض وارتفاع بنية `SizeF` واحدة من عرض وارتفاع بنية `SizeF` أخرى. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging](../../aspose.imaging)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

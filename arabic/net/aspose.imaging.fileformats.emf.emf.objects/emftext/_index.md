@@ -1,41 +1,41 @@
 ---
-title: EmfText
-second_title: Aspose.Imaging لمرجع NET API
-description: يحتوي كائن EmrText على قيم لإخراج النص.
+title: "الفئة EmfText"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfText class. يحتوي كائن EmrText على قيم لإخراج النص."
 type: docs
-weight: 3160
+weight: 3250
 url: /ar/net/aspose.imaging.fileformats.emf.emf.objects/emftext/
 ---
 ## EmfText class
 
-يحتوي كائن EmrText على قيم لإخراج النص.
+كائن EmrText يحتوي على قيم لإخراج النص.
 
 ```csharp
 public sealed class EmfText : EmfObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfText](emftext)() | Default_Constructor |
+| [EmfText](emftext/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Chars](../../aspose.imaging.fileformats.emf.emf.objects/emftext/chars) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد الأحرف في السلسلة |
-| [DxBuffer](../../aspose.imaging.fileformats.emf.emf.objects/emftext/dxbuffer) { get; set; } | الحصول على أو تعيين المخزن المؤقت لتباعد الأحرف الاختياري UndefinedSpace2 (متغير): عدد اختياري من وحدات البايت غير المستخدمة. حقل OutputDx غير مطلوب من أجل متابعة الجزء السابق من هذه البنية مباشرةً. OutputDx (متغير): مصفوفة من الأعداد الصحيحة غير الموقعة ذات 32 بت والتي تحدد تباعد الإخراج بين أصول خلايا الأحرف المجاورة في الوحدات المنطقية. يتم تحديد موقع هذا الحقل بواسطة قيمة offDx بالبايت من بداية هذا السجل. إذا تم تحديد التباعد ، فإن هذا الحقل يحتوي على نفس عدد القيم مثل الأحرف في سلسلة الإخراج. إذا كان حقل الخيارات لكائن EmrText يحتوي على علامة ETO_PDY ، فإن هذا المخزن المؤقت يحتوي على ضعف عدد القيم الموجودة في سلسلة الإخراج ، واحدة أفقية وإزاحة رأسية واحدة لكل منهما ، بهذا الترتيب. إذا تم تحديد ETO_RTLREADING ، فسيتم وضع الأحرف من اليمين إلى اليسار بدلاً من اليسار إلى اليمين. لا توجد خيارات أخرى تؤثر على تفسير هذا الحقل. |
-| [GlyphIndexBuffer](../../aspose.imaging.fileformats.emf.emf.objects/emftext/glyphindexbuffer) { get; set; } | الحصول على المخزن المؤقت الاختياري لمؤشر الصورة الرمزية أو تعيينه. إذا كانت الخيارات تحتوي على علامة ETO_GLYPH_INDEX ، فإن رموز الأحرف في سلسلة نصية ناتجة هي في الواقع indexes من الحروف الرسومية في خط TrueType (تعداد ExtTextOutOptions 2.1.11). فهارس Glyph خاصة بالخط ، لذلك لعرض الأحرف الصحيحة عند التشغيل ، يجب أن يكون الخط المستخدم مطابقًا للخط المستخدم في لإنشاء الفهارس. |
-| [Options](../../aspose.imaging.fileformats.emf.emf.objects/emftext/options) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد كيفية استخدام المستطيل المحدد في حقل المستطيل . يمكن أن يكون هذا الحقل مجموعة من أكثر من ExtTextOutOptions تعداد (القسم 2.1.11) قيم |
-| [Rectangle](../../aspose.imaging.fileformats.emf.emf.objects/emftext/rectangle) { get; set; } | الحصول على أو تعيين كائن WMF RectL اختياري ([MS-WMF] القسم 2.2.2.19) الذي يحدد قطع و / أو مستطيل غير مكتمل في وحدات منطقية. يتم تطبيق هذا المستطيل على إخراج النص الذي يؤديه السجل المحتوي. |
-| [Reference](../../aspose.imaging.fileformats.emf.emf.objects/emftext/reference) { get; set; } | الحصول على أو تعيين كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد إحداثيات النقطة المرجعية المستخدمة لوضع السلسلة. يتم تحديد النقطة المرجعية بواسطة آخر سجل EMR_SETTEXTALIGN (القسم 2.3.11.25). إذا لم يتم تعيين مثل هذا السجل ، المحاذاة الافتراضية هي TA_LEFT ، TA_TOP. |
-| [StringBuffer](../../aspose.imaging.fileformats.emf.emf.objects/emftext/stringbuffer) { get; set; } | الحصول على أو تعيين سلسلة الأحرف buffer UndefinedSpace1 (متغير): عدد اختياري من وحدات البايت غير المستخدمة. حقل OutputString غير مطلوب لمتابعة الجزء السابق من هذه البنية على الفور. OutputString (متغير): مصفوفة من الأحرف التي تحدد السلسلة المراد إخراجها. يتم تحديد موقع هذا الحقل بقيمة offString بالبايت من بداية هذا السجل. يتم تحديد عدد الأحرف بقيمة Chars. |
+| [Chars](../../aspose.imaging.fileformats.emf.emf.objects/emftext/chars/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد الأحرف في السلسلة |
+| [DxBuffer](../../aspose.imaging.fileformats.emf.emf.objects/emftext/dxbuffer/) { get; set; } | يحصل أو يعيّن مخزن تباعد الأحرف الاختياري UndefinedSpace2 (متغيّر): عدد اختياري من البايتات غير المستخدمة. لا يُشترط أن يتبع حقل OutputDx مباشرةً الجزء السابق من هذا الهيكل. OutputDx (متغيّر): مصفوفة من الأعداد الصحيحة غير الموقعة 32‑بت تحدد تباعد الإخراج بين أصول خلايا الأحرف المتجاورة بوحدات منطقية. يتم تحديد موقع هذا الحقل بقيمة offDx بالبايتات من بداية هذا السجل. إذا تم تعريف التباعد، يحتوي هذا الحقل على نفس عدد القيم كعدد الأحرف في سلسلة الإخراج. إذا كان حقل Options لكائن EmrText يحتوي على علم ETO_PDY، فإن هذا المخزن يحتوي على ضعف عدد القيم مقارنةً بعدد الأحرف في سلسلة الإخراج، إزاحة أفقية وإزاحة رأسية لكل حرف، بهذا الترتيب. إذا تم تحديد ETO_RTLREADING، تُرتّب الأحرف من اليمين إلى اليسار بدلاً من اليسار إلى اليمين. لا تؤثر أي خيارات أخرى على تفسير هذا الحقل. |
+| [GlyphIndexBuffer](../../aspose.imaging.fileformats.emf.emf.objects/emftext/glyphindexbuffer/) { get; set; } | يحصل أو يعيّن مخزن فهارس القوالب الاختياري. إذا كان للخيارات علم ETO_GLYPH_INDEX فإن رموز الأحرف في سلسلة النص المُخرجة هي في الواقع فهارس لقوالب الأحرف في خط TrueType (تعداد ExtTextOutOptions القسم 2.1.11). فهارس القوالب خاصة بالخط، لذا لعرض الأحرف الصحيحة عند التشغيل، يجب أن يكون الخط المستخدم متماثلًا تمامًا مع الخط المستخدم لإنشاء الفهارس. |
+| [Options](../../aspose.imaging.fileformats.emf.emf.objects/emftext/options/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد طريقة استخدام المستطيل المحدد في حقل Rectangle. يمكن أن يكون هذا الحقل مزيجًا من أكثر من قيمة لتعداد ExtTextOutOptions (القسم 2.1.11). |
+| [Rectangle](../../aspose.imaging.fileformats.emf.emf.objects/emftext/rectangle/) { get; set; } | يحصل أو يعيّن كائن WMF RectL اختياري ([MS-WMF] القسم 2.2.2.19) يحدد مستطيل قص و/أو تعتيم بوحدات منطقية. يُطبق هذا المستطيل على إخراج النص الذي ينفذه السجل الحاوي. |
+| [Reference](../../aspose.imaging.fileformats.emf.emf.objects/emftext/reference/) { get; set; } | يحصل أو يعيّن كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) يحدد إحداثيات نقطة المرجع المستخدمة لتحديد موضع السلسلة. تُعرّف نقطة المرجع بواسطة سجل EMR_SETTEXTALIGN الأخير (القسم 2.3.11.25). إذا لم يتم ضبط أي سجل من هذا النوع، يكون المحاذاة الافتراضية هي TA_LEFT,TA_TOP. |
+| [StringBuffer](../../aspose.imaging.fileformats.emf.emf.objects/emftext/stringbuffer/) { get; set; } | يحصل أو يعيّن مخزن سلسلة الأحرف UndefinedSpace1 (متغيّر): عدد اختياري من البايتات غير المستخدمة. لا يُشترط أن يتبع حقل OutputString مباشرةً الجزء السابق من هذا الهيكل. OutputString (متغيّر): مصفوفة من الأحرف تحدد السلسلة المطلوب إخراجها. يتم تحديد موقع هذا الحقل بقيمة offString بالبايتات من بداية هذا السجل. يتم تحديد عدد الأحرف بقيمة Chars. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfObject](../emfobject)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfObject](../emfobject/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

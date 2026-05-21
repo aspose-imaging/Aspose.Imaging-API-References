@@ -1,195 +1,195 @@
 ---
-title: DjvuMultiPageOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفDjvuMultiPageOptionsaspose.imaging.imageoptions/djvumultipageoptions فئة .
+title: "DjvuMultiPageOptions.DjvuMultiPageOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ DjvuMultiPageOptions. يهيئ نسخة جديدة من الفئة DjvuMultiPageOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.imageoptions/djvumultipageoptions/djvumultipageoptions/
 ---
 ## DjvuMultiPageOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int[]) {#constructor_7}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pages | Int32[] | فهارس الصفحات. |
+| الصفحات | Int32[] | فهارس الصفحات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int[], Rectangle) {#constructor_8}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pages | Int32[] | فهارس الصفحات. |
+| الصفحات | Int32[] | فهارس الصفحات. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| range | IntRange | النطاق. |
+| النطاق | IntRange | النطاق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| range | IntRange | النطاق. |
+| النطاق | IntRange | النطاق. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange[]) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| ranges | IntRange[] | النطاق. |
+| النطاقات | IntRange[] | النطاق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| ranges | IntRange[] | النطاق. |
+| النطاقات | IntRange[] | النطاق. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int) {#constructor_5}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(int page)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | page | Int32 | فهرس الصفحة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int, Rectangle) {#constructor_6}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuMultiPageOptions`](../../djvumultipageoptions) فئة .
+إنشاء نسخة جديدة من الفئة [`DjvuMultiPageOptions`](../).
 
 ```csharp
 public DjvuMultiPageOptions(int page, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | page | Int32 | فهرس الصفحة. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

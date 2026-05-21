@@ -1,0 +1,28 @@
+---
+title: "WatermarkOptions.Mask"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "خاصية WatermarkOptions. تحصل أو تعيين القناع."
+type: docs
+weight: 20
+url: /ar/net/aspose.imaging.watermark.options/watermarkoptions/mask/
+---
+## WatermarkOptions.Mask property
+
+تحصل أو تعين القناع.
+
+```csharp
+public IEnumerable<Point> Mask { get; set; }
+```
+
+### Property Value
+
+القناع.
+
+### انظر أيضًا
+
+* struct [Point](../../../aspose.imaging/point/)
+* class [WatermarkOptions](../)
+* namespace [Aspose.Imaging.Watermark.Options](../../watermarkoptions/)
+* assembly [Aspose.Imaging](../../../)
+
+

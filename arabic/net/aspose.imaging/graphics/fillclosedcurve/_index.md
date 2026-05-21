@@ -1,191 +1,191 @@
 ---
-title: FillClosedCurve
-second_title: Aspose.Imaging لمرجع NET API
-description: يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة منPointFaspose.imaging/pointf الهياكل. تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5 وAlternate وضع الملء .
+title: "Graphics.FillClosedCurve"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Graphics. تملأ داخل منحنى كاردينال سبلين مغلق معرف بمصفوفة من هياكل PointF. تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5 ووضع تعبئة بديل"
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/aspose.imaging/graphics/fillclosedcurve/
 ---
 ## FillClosedCurve(Brush, PointF[]) {#fillclosedcurve}
 
-يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة من[`PointF`](../../pointf) الهياكل. تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5 وAlternate وضع الملء .
+تملأ داخل منحنى كاردينال سبلين مغلق معرف بمصفوفة من هياكل [`PointF`](../../pointf/). تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5 ووضع تعبئة بديل.
 
 ```csharp
 public void FillClosedCurve(Brush brush, PointF[] points)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| points | PointF[] | مصفوفة من[`PointF`](../../pointf) الهياكل التي تحدد الشريحة. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| points | PointF[] | مصفوفة من هياكل [`PointF`](../../pointf/) التي تحدد المنحنى. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* فارغ. -أو *points* باطل. |
+| ArgumentNullException | *brush* فارغ. -أو- *points* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [PointF](../../pointf)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [PointF](../../pointf/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillClosedCurve(Brush, PointF[], FillMode) {#fillclosedcurve_1}
 
-يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة من[`PointF`](../../pointf) الهياكل باستخدام وضع التعبئة المحدد. تستخدم هذه الطريقة معدل توتر افتراضي 0.5 .
+تملأ داخل منحنى كاردينال سبلين مغلق معرف بمصفوفة من هياكل [`PointF`](../../pointf/) باستخدام وضع التعبئة المحدد. تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5.
 
 ```csharp
-public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode)
+public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillMode)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| points | PointF[] | مصفوفة من[`PointF`](../../pointf) الهياكل التي تحدد الشريحة. |
-| fillmode | FillMode | عضو في[`FillMode`](../../fillmode) التعداد الذي يحدد كيفية ملء المنحنى. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| points | PointF[] | مصفوفة من هياكل [`PointF`](../../pointf/) التي تحدد المنحنى. |
+| fillMode | FillMode | عضو من تعداد [`FillMode`](../../fillmode/) الذي يحدد طريقة تعبئة المنحنى. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* فارغ. -أو *points* باطل. |
+| ArgumentNullException | *brush* فارغ. -أو- *points* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [PointF](../../pointf)
-* enum [FillMode](../../fillmode)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [PointF](../../pointf/)
+* enum [FillMode](../../fillmode/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillClosedCurve(Brush, PointF[], FillMode, float) {#fillclosedcurve_2}
 
-يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة من[`PointF`](../../pointf) الهياكل باستخدام وضع التعبئة والتوتر المحدد.
+تملأ داخل منحنى كاردينال سبلين مغلق معرف بمصفوفة من هياكل [`PointF`](../../pointf/) باستخدام وضع التعبئة والتوتر المحددين.
 
 ```csharp
 public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode, float tension)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | أ[`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| points | PointF[] | مصفوفة من[`PointF`](../../pointf) الهياكل التي تحدد الشريحة. |
-| fillmode | FillMode | عضو في[`FillMode`](../../fillmode) التعداد الذي يحدد كيفية ملء المنحنى. |
-| tension | Single | القيمة أكبر من أو تساوي 0.0F التي تحدد شد المنحنى. |
+| brush | Brush | ـ [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| points | PointF[] | مصفوفة من هياكل [`PointF`](../../pointf/) التي تحدد المنحنى. |
+| fillmode | FillMode | عضو من تعداد [`FillMode`](../../fillmode/) الذي يحدد طريقة تعبئة المنحنى. |
+| توتر | فردي | قيمة أكبر من أو تساوي 0.0F تحدد توتر المنحنى. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* فارغ. -أو *points* باطل. |
+| ArgumentNullException | *brush* فارغ. -أو- *points* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [PointF](../../pointf)
-* enum [FillMode](../../fillmode)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [PointF](../../pointf/)
+* enum [FillMode](../../fillmode/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillClosedCurve(Brush, Point[]) {#fillclosedcurve_3}
 
-يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة من[`Point`](../../point) الهياكل. تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5 وAlternate وضع الملء .
+تملأ داخل منحنى كاردينال سبلين مغلق معرف بمصفوفة من هياكل [`Point`](../../point/). تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5 ووضع تعبئة بديل.
 
 ```csharp
 public void FillClosedCurve(Brush brush, Point[] points)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| points | Point[] | مصفوفة من[`Point`](../../point) الهياكل التي تحدد الشريحة. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| points | Point[] | مصفوفة من هياكل [`Point`](../../point/) التي تحدد المنحنى. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* فارغ. -أو *points* باطل. |
+| ArgumentNullException | *brush* فارغ. -أو- *points* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [Point](../../point/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillClosedCurve(Brush, Point[], FillMode) {#fillclosedcurve_4}
 
-يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة من[`Point`](../../point) الهياكل باستخدام وضع التعبئة المحدد. تستخدم هذه الطريقة معدل توتر افتراضي 0.5 .
+تملأ داخل منحنى كاردينال سبلين مغلق معرف بمصفوفة من هياكل [`Point`](../../point/) باستخدام وضع التعبئة المحدد. تستخدم هذه الطريقة توترًا افتراضيًا قدره 0.5.
 
 ```csharp
 public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| points | Point[] | مصفوفة من[`Point`](../../point) الهياكل التي تحدد الشريحة. |
-| fillmode | FillMode | عضو في[`FillMode`](../../fillmode) التعداد الذي يحدد كيفية ملء المنحنى. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| points | Point[] | مصفوفة من هياكل [`Point`](../../point/) التي تحدد المنحنى. |
+| fillmode | FillMode | عضو من تعداد [`FillMode`](../../fillmode/) الذي يحدد طريقة تعبئة المنحنى. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* فارغ. -أو *points* باطل. |
+| ArgumentNullException | *brush* فارغ. -أو- *points* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [Point](../../point)
-* enum [FillMode](../../fillmode)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [Point](../../point/)
+* enum [FillMode](../../fillmode/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillClosedCurve(Brush, Point[], FillMode, float) {#fillclosedcurve_5}
 
-يملأ الجزء الداخلي لمنحنى العمود الفقري الأساسي المحدد بواسطة مصفوفة من[`Point`](../../point) الهياكل باستخدام وضع التعبئة والتوتر المحدد.
+يملأ داخل منحنى سبلين كاردينال مغلق معرف بمصفوفة من هياكل [`Point`](../../point/) باستخدام وضع التعبئة المحدد والتوتر.
 
 ```csharp
 public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode, float tension)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| points | Point[] | مصفوفة من[`Point`](../../point) الهياكل التي تحدد الشريحة. |
-| fillmode | FillMode | عضو في[`FillMode`](../../fillmode) التعداد الذي يحدد كيفية ملء المنحنى. |
-| tension | Single | القيمة أكبر من أو تساوي 0.0F التي تحدد شد المنحنى. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| points | Point[] | مصفوفة من هياكل [`Point`](../../point/) التي تحدد المنحنى. |
+| fillmode | FillMode | عضو من تعداد [`FillMode`](../../fillmode/) الذي يحدد طريقة تعبئة المنحنى. |
+| توتر | فردي | قيمة أكبر من أو تساوي 0.0F تحدد توتر المنحنى. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* فارغ. -أو *points* باطل. |
+| ArgumentNullException | *brush* فارغ. -أو- *points* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [Point](../../point)
-* enum [FillMode](../../fillmode)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [Point](../../point/)
+* enum [FillMode](../../fillmode/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

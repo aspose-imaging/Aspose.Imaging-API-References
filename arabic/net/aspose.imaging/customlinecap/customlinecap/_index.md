@@ -1,79 +1,79 @@
 ---
-title: CustomLineCap
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفCustomLineCapaspose.imaging/customlinecap فئة مع المخطط التفصيلي المحدد والتعبئة .
+title: "CustomLineCap.CustomLineCap"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ CustomLineCap. يهيئ نسخة جديدة من فئة CustomLineCap بالمخطط والتعبئة المحددين."
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging/customlinecap/customlinecap/
 ---
 ## CustomLineCap(GraphicsPath, GraphicsPath) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`CustomLineCap`](../../customlinecap) فئة مع المخطط التفصيلي المحدد والتعبئة .
+يهيئ نسخة جديدة من فئة [`CustomLineCap`](../) بالمخطط والتعبئة المحددين.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fillPath | GraphicsPath | أ[`GraphicsPath`](../../graphicspath) الذي يعرّف التعبئة للحرف الاستهلالي المخصص. |
-| strokePath | GraphicsPath | أ[`GraphicsPath`](../../graphicspath) الذي يعرّف المخطط التفصيلي للحرف الاستهلالي المخصص. |
+| fillPath | GraphicsPath | كائن [`GraphicsPath`](../../graphicspath/) يحدد التعبئة للقبة المخصصة. |
+| strokePath | GraphicsPath | كائن [`GraphicsPath`](../../graphicspath/) يحدد المخطط الخارجي للقبة المخصصة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../graphicspath)
-* class [CustomLineCap](../../customlinecap)
-* مساحة الاسم [Aspose.Imaging](../../customlinecap)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../../graphicspath/)
+* class [CustomLineCap](../)
+* namespace [Aspose.Imaging](../../customlinecap/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## CustomLineCap(GraphicsPath, GraphicsPath, LineCap) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`CustomLineCap`](../../customlinecap) فئة من القائمة المحددة[`LineCap`](../../linecap) التعداد مع المخطط التفصيلي المحدد والتعبئة .
+يهيئ نسخة جديدة من فئة [`CustomLineCap`](../) من تعداد [`LineCap`](../../linecap/) الموجود المحدد مع المخطط والتعبئة المحددين.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fillPath | GraphicsPath | أ[`GraphicsPath`](../../graphicspath) الذي يعرّف التعبئة للحرف الاستهلالي المخصص. |
-| strokePath | GraphicsPath | أ[`GraphicsPath`](../../graphicspath) الذي يعرّف المخطط التفصيلي للحرف الاستهلالي المخصص. |
-| baseCap | LineCap | غطاء الخط الذي يتم من خلاله إنشاء الغطاء المخصص. |
+| fillPath | GraphicsPath | كائن [`GraphicsPath`](../../graphicspath/) يحدد التعبئة للقبة المخصصة. |
+| strokePath | GraphicsPath | كائن [`GraphicsPath`](../../graphicspath/) يحدد المخطط الخارجي للقبة المخصصة. |
+| baseCap | LineCap | قمة الخط التي يُنشأ منها القمة المخصصة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../graphicspath)
-* enum [LineCap](../../linecap)
-* class [CustomLineCap](../../customlinecap)
-* مساحة الاسم [Aspose.Imaging](../../customlinecap)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../../graphicspath/)
+* enum [LineCap](../../linecap/)
+* class [CustomLineCap](../)
+* namespace [Aspose.Imaging](../../customlinecap/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## CustomLineCap(GraphicsPath, GraphicsPath, LineCap, float) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`CustomLineCap`](../../customlinecap) فئة من القائمة المحددة[`LineCap`](../../linecap) التعداد مع المخطط التفصيلي والتعبئة والإدراج المحدد .
+يُهيئ نسخة جديدة من الفئة [`CustomLineCap`](../) من تعداد [`LineCap`](../../linecap/) الموجود المحدد مع المخطط المحدد، التعبئة، والمسافة الداخلية.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap, 
     float baseInset)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fillPath | GraphicsPath | أ[`GraphicsPath`](../../graphicspath) الذي يعرّف التعبئة للحرف الاستهلالي المخصص. |
-| strokePath | GraphicsPath | أ[`GraphicsPath`](../../graphicspath) الذي يعرّف المخطط التفصيلي للحرف الاستهلالي المخصص. |
-| baseCap | LineCap | غطاء الخط الذي يتم من خلاله إنشاء الغطاء المخصص. |
-| baseInset | Single | المسافة بين الغطاء والخط. |
+| fillPath | GraphicsPath | كائن [`GraphicsPath`](../../graphicspath/) يحدد التعبئة للقبة المخصصة. |
+| strokePath | GraphicsPath | كائن [`GraphicsPath`](../../graphicspath/) يحدد المخطط الخارجي للقبة المخصصة. |
+| baseCap | LineCap | قمة الخط التي يُنشأ منها القمة المخصصة. |
+| baseInset | فردي | المسافة بين القمة والخط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../graphicspath)
-* enum [LineCap](../../linecap)
-* class [CustomLineCap](../../customlinecap)
-* مساحة الاسم [Aspose.Imaging](../../customlinecap)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../../graphicspath/)
+* enum [LineCap](../../linecap/)
+* class [CustomLineCap](../)
+* namespace [Aspose.Imaging](../../customlinecap/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

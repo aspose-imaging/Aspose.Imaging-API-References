@@ -1,43 +1,43 @@
 ---
-title: EmfPlusDrawArc
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusDrawArc رسم قوس القطع الناقص.
+title: "الفئة EmfPlusDrawArc"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawArc الفئة. السجل EmfPlusDrawArc يحدد رسم قوس إهليلج"
 type: docs
-weight: 5900
+weight: 6020
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/
 ---
 ## EmfPlusDrawArc class
 
-يحدد سجل EmfPlusDrawArc رسم قوس القطع الناقص.
+سجل EmfPlusDrawArc يحدد رسم قوس من إهليلج.
 
 ```csharp
 public sealed class EmfPlusDrawArc : EmfPlusDrawingRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusDrawArc](emfplusdrawarc)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusDrawArc`](../emfplusdrawarc) فئة . |
+| [EmfPlusDrawArc](emfplusdrawarc/)(EmfPlusRecord) | يقوم بإنشاء نسخة جديدة من الفئة `EmfPlusDrawArc`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/datasize) { get; set; } | الحصول على حجم البيانات أو تعيينه. عدد صحيح بدون إشارة 32 بت يحدد عدد 32 بت المحاذاة من بايت من البيانات الخاصة بالسجل التي تلي . بالنسبة لنوع السجل هذا ، يجب أن تكون القيمة واحدة مما يلي : 0x00000010 إذا تم تعيين بت C في حقل الإشارات. 0x00000018 إذا كان بت C واضحًا في حقل الإشارات. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/objectid) { get; set; } | الحصول على أو تحديد معرف الكائن . فهرس كائن EmfPlusPen (القسم 2.2.1.7) في EMF + Object Table لرسم القوس. يجب أن تكون القيمة من صفر إلى 63 ، شاملة . |
-| [RectangleData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectangledata) { get; set; } | الحصول على أو تعيين بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط للقطع الناقص الذي يتعامل مع القوس. يحدد هذا المستطيل موضع القوس وحجمه وشكله. نوع الكائن في هذا الحقل هو المحدد بواسطة قيمة حقل الإشارات. |
-| [RectFloat](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectfloat) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كانت البيانات تحتوي على EmfPlusRectF أو EmfPlusRect records يشير هذا البت إلى ما إذا كانت البيانات في حقل RectData مضغوطة. يحتوي على كائن EmfPlusRectF (القسم 2.2.2.39) . |
-| override [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/size) { get; set; } | الحصول على الحجم أو تعيينه. عدد صحيح بدون إشارة 32 بت يحدد عدد 32 بت المحاذاة من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت و البيانات الخاصة بالسجل. بالنسبة لنوع السجل هذا ، يجب أن تكون القيمة واحدة مما يلي: 0x0000001C إذا تم تعيين بت C في حقل الإشارات . 0x00000024 إذا كان بت C واضحًا في حقل الإشارات |
-| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/startangle) { get; set; } | الحصول على أو تعيين زاوية البداية قيمة نقطة عائمة غير سالبة 32 بت تحدد الزاوية بين المحور x ونقطة بداية القوس. أي قيمة مقبولة ، ولكن يجب تفسيرها بطريقة modulo 360 ، والنتيجة المستخدمة هي في النطاق 0.0 شاملاً 360.0 حصريًا . |
-| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/sweepangle) { get; set; } | الحصول على أو تعيين زاوية المسح قيمة النقطة العائمة 32 بت التي تحدد مدى القوس المراد رسمه ، كزاوية بالدرجات المقاسة من نقطة البداية المحددة بواسطة قيمة StartAngle. أي قيمة مقبولة ، ولكن يجب تثبيتها على -360.0 إلى 360.0 شاملة. تشير القيمة الموجبة إلى أن عملية المسح محددة في اتجاه عقارب الساعة ، وتشير القيمة السالبة إلى أن عملية المسح هي محددة في اتجاه عكس اتجاه عقارب الساعة. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| override [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/datasize/) { get; set; } | يحصل أو يعيّن حجم البيانات. عدد صحيح غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت للبيانات الخاصة بالسجل التي تلي ذلك. لهذا النوع من السجلات، يجب أن تكون القيمة واحدة من القيم التالية: 0x00000010 إذا كان بت C مضبوطًا في حقل Flags. 0x00000018 إذا كان بت C غير مضبوط في حقل Flags. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/objectid/) { get; set; } | يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم القوس. يجب أن تكون القيمة بين 0 و 63 شاملًا. |
+| [RectangleData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectangledata/) { get; set; } | يحصل أو يعيّن بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للإهليلج المتوازي مع القوس. هذا المستطيل يحدد موضع القوس وحجمه وشكله. نوع الكائن في هذا الحقل يُحدد بقيمة حقل Flags. |
+| [RectFloat](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectfloat/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت البيانات تحتوي على سجلات EmfPlusRectF أو EmfPlusRect. هذا البت يحدد ما إذا كانت البيانات في حقل RectData مضغوطة. إذا كان مضبوطًا، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا كان غير مضبوط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39). |
+| override [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/size/) { get; set; } | يحصل أو يعيّن الحجم. عدد صحيح غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايتًا والبيانات الخاصة بالسجل. لهذا النوع من السجلات، يجب أن تكون القيمة واحدة من القيم التالية: 0x0000001C إذا كان بت C مضبوطًا في حقل Flags. 0x00000024 إذا كان بت C غير مضبوط في حقل Flags. |
+| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/startangle/) { get; set; } | يحصل أو يعيّن زاوية البداية قيمة عائمة 32‑بت غير سالبة تحدد الزاوية بين محور x والنقطة البداية للقوس. أي قيمة مقبولة، ولكن يجب تفسيرها modulo 360، بحيث تكون النتيجة ضمن النطاق من 0.0 شاملًا إلى 360.0 حصريًا. |
+| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/sweepangle/) { get; set; } | يحصل أو يعيّن زاوية المسح قيمة عائمة 32‑بت تحدد مدى القوس المراد رسمه، كزاوية بالدرجات تُقاس من النقطة البداية المحددة بقيمة StartAngle. أي قيمة مقبولة، ولكن يجب حصرها بين -360.0 و 360.0 شاملًا. القيمة الموجبة تشير إلى أن المسح يُعرف باتجاه عقارب الساعة، والقيمة السالبة تشير إلى أن المسح يُعرف باتجاه عكس عقارب الساعة. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

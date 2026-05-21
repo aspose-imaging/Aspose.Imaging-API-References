@@ -1,48 +1,48 @@
 ---
-title: EmfBitBlt
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EMR_BITBLT كتلة نقل وحدات البكسل من الصورة النقطية المصدر إلى مستطيل الوجهة  اختياريًا بالاقتران مع نمط الفرشاة  وفقًا لعملية البيانات النقطية المحددة.
+title: "الفئة EmfBitBlt"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfBitBlt class. سجل EMR_BITBLT يحدد نقل كتلة من البكسلات من صورة المصدر إلى مستطيل الوجهة اختياريًا مع نمط فرشاة وفق عملية رستر محددة"
 type: docs
-weight: 3250
+weight: 3340
 url: /ar/net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/
 ---
 ## EmfBitBlt class
 
-يحدد سجل EMR_BITBLT كتلة نقل وحدات البكسل من الصورة النقطية المصدر إلى مستطيل الوجهة ، اختياريًا بالاقتران مع نمط الفرشاة ، وفقًا لعملية البيانات النقطية المحددة.
+يسجل EMR_BITBLT عملية نقل كتلة من البكسلات من صورة نقطية مصدر إلى مستطيل هدف، اختياريًا مع نمط فرشاة، وفقًا لعملية نقطية محددة.
 
 ```csharp
 public sealed class EmfBitBlt : EmfBitmapRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfBitBlt](emfbitblt)(EmfRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfBitBlt`](../emfbitblt) فئة . |
+| [EmfBitBlt](emfbitblt/)(EmfRecord) | يُنشئ مثيلًا جديدًا من الفئة `EmfBitBlt`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bitbltrasteroperation) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد العملية النقطية code. يحدد هذا الكود كيفية دمج بيانات اللون الخاصة بالمستطيل المصدر مع بيانات اللون للمستطيل الوجهة واختيارياً نمط الفرشاة ، لتحقيق اللون النهائي. |
-| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bksrcargb32color) { get; set; } | الحصول على كائن WMF ColorRef أو تعيينه ([MS-WMF] القسم 2.2.2.8 الذي يحدد لون الخلفية للصورة النقطية المصدر. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bounds) { get; set; } | الحصول على أو تعيين كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل المحيط للوجهة في وحدات الجهاز. |
-| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/cxdest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد العرض المنطقي للمصدر ومستطيلات الوجهة . |
-| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/cydest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد الارتفاع المنطقي للمصدر ومستطيلات الوجهة . |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | الحصول على أو تحديد حجم السجل |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/sourcebitmap) { get; set; } | الحصول على أو تعيين مخزن مؤقت يحتوي على الصورة النقطية المصدر ، والتي لا يلزم أن تكون متجاورة مع الجزء الثابت من سجل EMR_BITBLT. وفقًا لذلك ، فإن الحقول الموجودة في هذا المخزن المؤقت التي تسمى "UndefinedSpace" اختيارية ويجب تجاهلها. |
-| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | الحصول على النوع أو تحديده. |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/usagesrc) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس الصورة النقطية المصدر. يجب أن تكون هذه القيمة في تعداد ألوان DIBC (القسم 2.1.9). |
-| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xdest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x المنطقي للزاوية العلوية اليسرى من المستطيل الوجهة. |
-| [XformSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xformsrc) { get; set; } | الحصول على كائن XForm أو تعيينه (القسم 2.2.28) الذي يحدد تحويل مساحة العالم إلى مساحة الصفحة لتطبيقه على الصورة النقطية المصدر. |
-| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x المنطقي للزاوية العلوية اليسرى من المستطيل المصدر. |
-| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ydest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y المنطقي للزاوية العلوية اليسرى من المستطيل الوجهة. |
-| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y المنطقي للزاوية العلوية اليسرى من المستطيل المصدر. |
+| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bitbltrasteroperation/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رمز عملية الرستر. يحدد هذا الرمز كيفية دمج بيانات اللون للمستطيل المصدر مع بيانات اللون للمستطيل الوجهة واختياريًا نمط الفرشاة، لتحقيق اللون النهائي. |
+| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bksrcargb32color/) { get; set; } | يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8) الذي يحدد لون الخلفية للبت ماب المصدر. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bounds/) { get; set; } | يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدودي للوجهة بوحدات الجهاز. |
+| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/cxdest/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد العرض المنطقي للمستطيلات المصدر والوجهة. |
+| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/cydest/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد الارتفاع المنطقي للمستطيلات المصدر والوجهة. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | يحصل أو يعيّن حجم السجل |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/sourcebitmap/) { get; set; } | يحصل أو يعيّن مخزنًا يحتوي على صورة المصدر، والذي لا يُشترط أن يكون متجاورًا مع الجزء الثابت من سجل EMR_BITBLT. وبالتالي، الحقول في هذا المخزن التي تم تسميةها "UndefinedSpace" هي اختيارية ويجب تجاهلها. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | يحصل أو يعيّن النوع. |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/usagesrc/) { get; set; } | يحصل أو يضبط عدد صحيح غير موقع 32‑بت يحدد كيفية تفسير القيم في جدول الألوان في رأس البت ماب المصدر. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9). |
+| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xdest/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي السيني المنطقي للزاوية العليا اليسرى للمستطيل الوجهة. |
+| [XformSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xformsrc/) { get; set; } | يحصل أو يضبط كائن XForm (القسم 2.2.28) الذي يحدد تحويل من الفضاء العالمي إلى فضاء الصفحة لتطبيقه على البت ماب المصدر. |
+| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xsrc/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي السيني المنطقي للزاوية العليا اليسرى للمستطيل المصدر. |
+| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ydest/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي الصادي المنطقي للزاوية العليا اليسرى للمستطيل الوجهة. |
+| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ysrc/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي الصادي المنطقي للزاوية العليا اليسرى للمستطيل المصدر. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfBitmapRecordType](../emfbitmaprecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfBitmapRecordType](../emfbitmaprecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,63 +1,54 @@
 ---
-title: CmxRasterizationOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات مصدر CMX .
+title: "الفئة CmxRasterizationOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.ImageOptions.CmxRasterizationOptions. خيارات مُصدّر CMX"
 type: docs
-weight: 9930
+weight: 10280
 url: /ar/net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 ---
 ## CmxRasterizationOptions class
 
-خيارات مصدر CMX .
+خيارات مُصدّر CMX.
 
 ```csharp
 public class CmxRasterizationOptions : VectorRasterizationOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CmxRasterizationOptions](cmxrasterizationoptions)() | Default_Constructor |
+| [CmxRasterizationOptions](cmxrasterizationoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BackgroundColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/backgroundcolor) { get; set; } | الحصول على أو تعيين لون الخلفية . |
-| [BorderX](../../aspose.imaging.imageoptions/vectorrasterizationoptions/borderx) { get; set; } | الحصول على أو تعيين الحد X. |
-| [BorderY](../../aspose.imaging.imageoptions/vectorrasterizationoptions/bordery) { get; set; } | الحصول على أو تعيين الحد Y. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [CenterDrawing](../../aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الرسم المركزي . |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor) { get; set; } | الحصول على لون المقدمة أو تعيينه. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [إطار كامل] . |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | خيارات متعدد الصفحات |
-| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight) { get; set; } | الحصول على ارتفاع الصفحة أو تحديده . |
-| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize) { get; set; } | الحصول على حجم الصفحة أو تعيينه. |
-| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth) { get; set; } | الحصول على عرض الصفحة أو تحديده . |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها . |
-| [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning) { get; set; } | الحصول على تحديد المواقع أو تعيينه. |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | الحصول على معالج حدث التقدم أو تعيينه. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | الحصول على إعدادات الدقة أو تعيينها . |
-| [SmoothingMode](../../aspose.imaging.imageoptions/vectorrasterizationoptions/smoothingmode) { get; set; } | الحصول على أو تحديد وضع التجانس . |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | الحصول على أو تعيين المصدر لإنشاء الصورة فيه. |
-| [TextRenderingHint](../../aspose.imaging.imageoptions/vectorrasterizationoptions/textrenderinghint) { get; set; } | الحصول على تلميح عرض النص أو تعيينه. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | الحصول على أو تعيين خيارات التحويل النقطي للمتجه. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | الحصول على أو تعيين حاوية بيانات تعريف XMP. |
+| [BackgroundColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/backgroundcolor/) { get; set; } | يحصل أو يعيّن لون الخلفية. |
+| [BorderX](../../aspose.imaging.imageoptions/vectorrasterizationoptions/borderx/) { get; set; } | يحصل أو يعيّن الحد X. |
+| [BorderY](../../aspose.imaging.imageoptions/vectorrasterizationoptions/bordery/) { get; set; } | الحصول أو تعيين الحد Y. |
+| [CenterDrawing](../../aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing/) { get; set; } | الحصول أو تعيين قيمة تشير إلى ما إذا كان الرسم مركزيًا. |
+| [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor/) { get; set; } | الحصول أو تعيين لون المقدمة. |
+| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight/) { get; set; } | الحصول أو تعيين ارتفاع الصفحة. إذا كانت القيمة 0، سيتم الحفاظ على نسبة أبعاد الصورة الأصلية. |
+| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/) { get; set; } | الحصول أو تعيين حجم الصفحة. إذا كان أحد أبعاد [`SizeF`](../../aspose.imaging/sizef/) هو 0، سيتم الحفاظ على نسبة أبعاد الصورة الأصلية. |
+| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth/) { get; set; } | الحصول أو تعيين عرض الصفحة. إذا كانت القيمة 0، سيتم الحفاظ على نسبة أبعاد الصورة الأصلية. |
+| [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning/) { get; set; } | الحصول أو تعيين التموضع. |
+| [ReplaceTextMapping](../../aspose.imaging.imageoptions/vectorrasterizationoptions/replacetextmapping/) { get; set; } | الحصول أو تعيين خريطة استبدال النص. |
+| [ResolutionSettings](../../aspose.imaging.imageoptions/cmxrasterizationoptions/resolutionsettings/) { get; set; } | يحصل أو يضبط إعدادات الدقة. |
+| [SmoothingMode](../../aspose.imaging.imageoptions/vectorrasterizationoptions/smoothingmode/) { get; set; } | يحصل أو يعيّن وضع التنعيم. |
+| [TextRenderingHint](../../aspose.imaging.imageoptions/vectorrasterizationoptions/textrenderinghint/) { get; set; } | يحصل أو يعيّن تلميح عرض النص. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | استنساخ هذا المثال . |
-| [CopyTo](../../aspose.imaging.imageoptions/vectorrasterizationoptions/copyto)(VectorRasterizationOptions) | نُسخ إلى . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| [Clone](../../aspose.imaging.imageoptions/vectorrasterizationoptions/clone/)() | ينشئ كائنًا جديدًا هو نسخة سطحية من المثيل الحالي. |
+| virtual [CopyTo](../../aspose.imaging.imageoptions/vectorrasterizationoptions/copyto/)(VectorRasterizationOptions) | ينسخ إلى. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [VectorRasterizationOptions](../vectorrasterizationoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* class [VectorRasterizationOptions](../vectorrasterizationoptions/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

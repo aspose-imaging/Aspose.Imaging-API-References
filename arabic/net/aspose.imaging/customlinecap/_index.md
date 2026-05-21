@@ -1,48 +1,50 @@
 ---
-title: CustomLineCap
-second_title: Aspose.Imaging لمرجع NET API
-description: يغلف حدًا أقصى للسطر معرفًا من قبل المستخدم .
+title: "الفئة CustomLineCap"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.CustomLineCap. تغلف رأس خط مخصص معرف من قبل المستخدم"
 type: docs
-weight: 770
+weight: 780
 url: /ar/net/aspose.imaging/customlinecap/
 ---
 ## CustomLineCap class
 
-يغلف حدًا أقصى للسطر معرفًا من قبل المستخدم .
+يحتوي على غطاء خط مخصص يحدده المستخدم.
 
 ```csharp
 public class CustomLineCap
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CustomLineCap](customlinecap#constructor)(GraphicsPath, GraphicsPath) | يقوم بتهيئة مثيل جديد لملف[`CustomLineCap`](../customlinecap) فئة مع المخطط التفصيلي المحدد والتعبئة . |
-| [CustomLineCap](customlinecap#constructor_1)(GraphicsPath, GraphicsPath, LineCap) | يقوم بتهيئة مثيل جديد لملف[`CustomLineCap`](../customlinecap) فئة من القائمة المحددة[`LineCap`](../linecap) التعداد مع المخطط التفصيلي المحدد والتعبئة . |
-| [CustomLineCap](customlinecap#constructor_2)(GraphicsPath, GraphicsPath, LineCap, float) | يقوم بتهيئة مثيل جديد لملف[`CustomLineCap`](../customlinecap) فئة من القائمة المحددة[`LineCap`](../linecap) التعداد مع المخطط التفصيلي والتعبئة والإدراج المحدد . |
+| [CustomLineCap](customlinecap/#constructor)(GraphicsPath, GraphicsPath) | يُهيئ مثيلًا جديدًا من الفئة `CustomLineCap` مع المخطط والملء المحددين. |
+| [CustomLineCap](customlinecap/#constructor_1)(GraphicsPath, GraphicsPath, LineCap) | يُهيئ مثيلًا جديدًا من الفئة `CustomLineCap` من تعداد [`LineCap`](../linecap/) الموجود المحدد مع المخطط والملء المحددين. |
+| [CustomLineCap](customlinecap/#constructor_2)(GraphicsPath, GraphicsPath, LineCap, float) | يُهيئ مثيلًا جديدًا من الفئة `CustomLineCap` من تعداد [`LineCap`](../linecap/) الموجود المحدد مع المخطط والملء والداخلية المحددة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BaseCap](../../aspose.imaging/customlinecap/basecap) { get; set; } | يحصل أو يحدد ملف[`LineCap`](../linecap) التعداد الذي على هذا[`CustomLineCap`](../customlinecap) يستند . |
-| [BaseInset](../../aspose.imaging/customlinecap/baseinset) { get; set; } | الحصول على أو تحديد المسافة بين الغطاء والخط . |
-| [FillPath](../../aspose.imaging/customlinecap/fillpath) { get; set; } | الحصول على أو تعيين الكائن الذي يحدد التعبئة للحد الأقصى المخصص. |
-| [StrokeJoin](../../aspose.imaging/customlinecap/strokejoin) { get; set; } | يحصل أو يحدد ملف[`LineJoin`](../linejoin) التعداد الذي يحدد كيفية إنشاء الخطوط[`CustomLineCap`](../customlinecap) تم ضم الكائن. |
-| [StrokePath](../../aspose.imaging/customlinecap/strokepath) { get; set; } | الحصول على أو تعيين الكائن الذي يحدد مخطط الحد الأقصى المخصص. |
-| [WidthScale](../../aspose.imaging/customlinecap/widthscale) { get; set; } | الحصول على أو تحديد المقدار الذي يتم من خلاله قياس هذا[`CustomLineCap`](../customlinecap) كائن فئة فيما يتعلق بعرضPen الكائن . |
+| [BaseCap](../../aspose.imaging/customlinecap/basecap/) { get; set; } | يحصل أو يعيّن تعداد [`LineCap`](../linecap/) الذي تستند إليه هذه `CustomLineCap`. |
+| [BaseInset](../../aspose.imaging/customlinecap/baseinset/) { get; set; } | يحصل أو يعيّن المسافة بين الرأس والخط. |
+| [FillPath](../../aspose.imaging/customlinecap/fillpath/) { get; set; } | يحصل أو يعيّن الكائن الذي يحدد الملء للرأس المخصص. |
+| [StrokeJoin](../../aspose.imaging/customlinecap/strokejoin/) { get; set; } | يحصل أو يعيّن تعداد [`LineJoin`](../linejoin/) الذي يحدد كيفية ربط الخطوط التي تُكوّن كائن `CustomLineCap` هذا. |
+| [StrokePath](../../aspose.imaging/customlinecap/strokepath/) { get; set; } | يحصل أو يعيّن الكائن الذي يحدد المخطط الخارجي للرأس المخصص. |
+| [WidthScale](../../aspose.imaging/customlinecap/widthscale/) { get; set; } | يحصل أو يعيّن المقدار الذي يُستخدم لتوسيع كائن الفئة `CustomLineCap` بالنسبة إلى عرض كائن القلم. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetStrokeCaps](../../aspose.imaging/customlinecap/getstrokecaps)(out LineCap, out LineCap) | يتم استخدام الأحرف الاستهلالية لبدء ونهاية الأسطر التي تشكل هذا الغطاء المخصص . |
-| [SetStrokeCaps](../../aspose.imaging/customlinecap/setstrokecaps)(LineCap, LineCap) | يحدد الأحرف الاستهلالية المستخدمة في سطور البداية والنهاية التي تشكل هذا الحد الأقصى المخصص. |
+| override [Equals](../../aspose.imaging/customlinecap/equals/)(object) | تحقق مما إذا كانت الكائنات متساوية. |
+| override [GetHashCode](../../aspose.imaging/customlinecap/gethashcode/)() | احصل على قيمة التجزئة للكائن الحالي. |
+| [GetStrokeCaps](../../aspose.imaging/customlinecap/getstrokecaps/)(out LineCap, out LineCap) | يحصل على الرؤوس المستخدمة لبدء وإنهاء الخطوط التي تُكوّن هذا الرأس المخصص. |
+| [SetStrokeCaps](../../aspose.imaging/customlinecap/setstrokecaps/)(LineCap, LineCap) | يعيّن الرؤوس المستخدمة لبدء وإنهاء الخطوط التي تُكوّن هذا الرأس المخصص. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging](../../aspose.imaging)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

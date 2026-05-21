@@ -1,39 +1,39 @@
 ---
-title: AutoMaskingArgs
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل الوسيطات المحددة لطرق التقنيع الآلية
+title: "فئة AutoMaskingArgs"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.Masking.Options.AutoMaskingArgs. تمثل الوسائط المحددة لطرق القناع الآلية"
 type: docs
-weight: 10450
+weight: 11000
 url: /ar/net/aspose.imaging.masking.options/automaskingargs/
 ---
 ## AutoMaskingArgs class
 
-يمثل الوسيطات المحددة لطرق التقنيع الآلية
+يمثل الوسائط المحددة لطرق الإخفاء الآلية
 
 ```csharp
 public class AutoMaskingArgs : IMaskingArgs
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutoMaskingArgs](automaskingargs)() | Default_Constructor |
+| [AutoMaskingArgs](automaskingargs/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [MaxIterationNumber](../../aspose.imaging.masking.options/automaskingargs/maxiterationnumber) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد التكرارات . |
-| [NumberOfObjects](../../aspose.imaging.masking.options/automaskingargs/numberofobjects) { get; set; } | الحصول على أو تعيين عدد الكائنات لفصل الصورة الأولية إلى (اختياري) ، القيمة الافتراضية هي 2 (الكائن والخلفية) . |
-| [ObjectsPoints](../../aspose.imaging.masking.options/automaskingargs/objectspoints) { get; set; } | الحصول على أو تعيين النقاط التي تنتمي إلى الكائنات المنفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects للصورة الأولية . يتم استخدام هذه المعلمة لزيادة دقة أسلوب التجزئة. |
-| [ObjectsRectangles](../../aspose.imaging.masking.options/automaskingargs/objectsrectangles) { get; set; } | الحصول على أو تعيين مستطيلات الكائنات التي تنتمي إلى كائنات منفصلة (اختياري) . يتم استخدام هذه المعلمة لزيادة دقة طريقة التجزئة. |
-| [OrphanedPoints](../../aspose.imaging.masking.options/automaskingargs/orphanedpoints) { get; set; } | الحصول على أو تعيين النقاط التي لم تعد تنتمي إلى أي كائن (اختياري) . يتم استخدام هذه المعلمة فقط في حالة إعادة التقسيم . |
-| [Precision](../../aspose.imaging.masking.options/automaskingargs/precision) { get; set; } | الحصول على أو تعيين دقة طريقة التجزئة (اختياري) . |
+| [MaxIterationNumber](../../aspose.imaging.masking.options/automaskingargs/maxiterationnumber/) { get; set; } | يحصل أو يعيّن الحد الأقصى لعدد التكرارات. |
+| [NumberOfObjects](../../aspose.imaging.masking.options/automaskingargs/numberofobjects/) { get; set; } | يحصل أو يعيّن عدد الكائنات التي سيتم فصل الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية). |
+| [ObjectsPoints](../../aspose.imaging.masking.options/automaskingargs/objectspoints/) { get; set; } | يحصل أو يعيّن النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects في الصورة الأولية. يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة. |
+| [ObjectsRectangles](../../aspose.imaging.masking.options/automaskingargs/objectsrectangles/) { get; set; } | يحصل أو يعيّن مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري). يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة. |
+| [OrphanedPoints](../../aspose.imaging.masking.options/automaskingargs/orphanedpoints/) { get; set; } | يحصل أو يعيّن النقاط التي لم تعد تنتمي إلى أي كائن (اختياري). يُستخدم هذا المعامل فقط في حالة إعادة التجزئة. |
+| [Precision](../../aspose.imaging.masking.options/automaskingargs/precision/) { get; set; } | يحصل أو يعيّن دقة طريقة التجزئة (اختياري). |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحليل صورة نقطية إلى صور متعددة باستخدام إخفاء الصورة وخوارزمية التجزئة K-mean. إخفاء الصورة عبارة عن تقنية لمعالجة الصور تُستخدم لفصل الخلفية عن كائنات الصورة الأمامية.
+يوضح هذا المثال كيفية تفكيك صورة نقطية إلى صور متعددة باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 
 ```csharp
 [C#]
@@ -44,39 +44,39 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-    // تعيين عدد المجموعات (كائنات منفصلة). القيمة الافتراضية هي 2 ، الكائن الأمامي والخلفية.
+    // حدد عدد المجموعات (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
     args.NumberOfObjects = 3;
 
-    // تعيين الحد الأقصى لعدد التكرارات.
+    // حدد الحد الأقصى لعدد التكرارات.
     args.MaxIterationNumber = 50;
 
-    // ضبط دقة طريقة التجزئة (اختياري)
+    // حدد دقة طريقة التجزئة (اختياري)
     args.Precision = 1;
         
-    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
+    // سيتم حفظ كل مجموعة (مقطع) في ملف PNG منفصل.
     Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
     exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
 
     Aspose.Imaging.Masking.Options.MaskingOptions maskingOptions = new Aspose.Imaging.Masking.Options.MaskingOptions();
 
-    // استخدم K- الوسائل العنقودية.
-    // K-mean clustering يسمح بتقسيم الصورة إلى عدة مجموعات (شرائح) مستقلة.
+    // استخدم تجميع K-means.
+    // يتيح تجميع K-means تقسيم الصورة إلى عدة مجموعات مستقلة (مقاطع).
     maskingOptions.Method = Masking.Options.SegmentationMethod.KMeans;
     maskingOptions.Decompose = true;
     maskingOptions.Args = args;
         
-    // سيكون لون backgroung برتقالي.
+    // لون الخلفية سيكون برتقاليًا.
     maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
     maskingOptions.ExportOptions = exportOptions;
 
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-    // قسّم الصورة المصدر إلى عدة مجموعات (شرائح).
+    // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-        // الحصول على صور من نتيجة التقنيع وحفظها في PNG.
+        // احصل على الصور من نتيجة القناع واحفظها بصيغة PNG.
         for (int i = 0; i < maskingResult.Length; i++)
         {
             string outputFileName = string.Format("Blue hills.Segment{0}.png", maskingResult[i].ObjectNumber);
@@ -89,12 +89,12 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-استخدام قناع مقطعي لتسريع عملية التجزئة
+استخدام قناع الجزء لتسريع عملية التجزئة
 
 ```csharp
 [C#]
 
-// إخفاء خيارات التصدير
+// خيارات تصدير القناع
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -106,7 +106,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-// سيكون لون backgroung شفافًا.
+// لون الخلفية سيكون شفافًا.
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -115,22 +115,22 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Size imageSize = image.Size;
 
-    // تصغير حجم الصورة لتسريع عملية التجزئة
+    // تقليل حجم الصورة لتسريع عملية التجزئة
     image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
 
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-    // قسّم الصورة المصدر إلى عدة مجموعات (شرائح).
+    // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-        // الحصول على القناع الأمامي
+        // الحصول على قناع المقدمة
         using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
         {
-            // قم بزيادة حجم القناع إلى حجم الصورة الأصلية
+            // زيادة حجم القناع إلى حجم الصورة الأصلية
             foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-            // تطبيق القناع على الصورة الأصلية للحصول على مقطع أمامي
+            // تطبيق القناع على الصورة الأصلية للحصول على جزء من المقدمة
             using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
             {
                 Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
@@ -141,7 +141,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-يوضح هذا المثال كيفية تحديد اقتراحات لخوارزمية إخفاء الصورة لتحسين دقة طريقة التجزئة (التجميع). إخفاء الصورة عبارة عن تقنية لمعالجة الصور تُستخدم لفصل الخلفية عن كائنات الصورة الأمامية.
+يوضح هذا المثال كيفية تحديد الاقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
 
 ```csharp
 [C#]
@@ -152,15 +152,15 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-    // الاقتراح رقم 1.
-    // تحليل الصورة بصريًا وتعيين منطقة الاهتمام. ستشمل نتيجة التجزئة فقط الكائنات التي سيتم تحديد موقعها بالكامل داخل هذه المنطقة.
+    // الاقتراح #1.
+    // قم بتحليل الصورة بصريًا وحدد منطقة الاهتمام. سيتضمن نتيجة التجزئة فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
     args.ObjectsRectangles = new Rectangle[]
     {
         new Rectangle(86, 6, 270, 364),
     };
 
-    // الاقتراح رقم 2.
-    // تحليل الصورة بصريًا وتعيين النقاط التي تنتمي إلى كائنات منفصلة.
+    // الاقتراح #2.
+    // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
     args.ObjectsPoints = new Point[][]
     {
         new Point[] { new Point(103, 326) },
@@ -168,7 +168,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
         new Point[] { new Point(319, 86) },
     };
 
-    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
+    // سيتم حفظ كل مجموعة (مقطع) في ملف PNG منفصل.
     Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
     exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -180,17 +180,17 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     maskingOptions.Decompose = false;
     maskingOptions.Args = args;
 
-    // سيكون لون backgroung برتقالي.
+    // لون الخلفية سيكون برتقاليًا.
     maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
     maskingOptions.ExportOptions = exportOptions;
 
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-    // قسّم الصورة المصدر إلى عدة مجموعات (شرائح).
+    // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-        // الحصول على صور من نتيجة التقنيع وحفظها في PNG.
+        // احصل على الصور من نتيجة القناع واحفظها بصيغة PNG.
         for (int i = 0; i < maskingResult.Length; i++)
         {
             string outputFileName = string.Format("Gorilla.Segment{0}.png", maskingResult[i].ObjectNumber);
@@ -203,7 +203,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-حفظ جلسة التقنيع في ملف لجلسات طويلة وكذلك لإمكانية استئناف الجلسة في بيئة أخرى.
+حفظ جلسة القناع إلى ملف للجلسات الطويلة، وكذلك لإمكانية استئناف الجلسة في بيئة أخرى.
 
 ```csharp
 [C#]
@@ -211,7 +211,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 string dir = "c:\\temp\\";
 string sessionBackupFile = dir + "session.bak";
 
-// إخفاء خيارات التصدير
+// خيارات تصدير القناع
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -223,14 +223,14 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-// سيكون لون backgroung برتقالي.
+// لون الخلفية سيكون برتقاليًا.
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
 maskingOptions.ExportOptions = exportOptions;
 
-// بدء جلسة لأول مرة وحفظها في ملف
+// بدء جلسة للمرة الأولى وحفظها إلى ملف
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
     using (Aspose.Imaging.Masking.IMaskingSession session = masking.CreateSession(maskingOptions))
@@ -247,17 +247,17 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     }
 }
 
-// استئناف جلسة اخفاء من ملف
+// استئناف جلسة القناع من ملف
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
     using (Aspose.Imaging.Masking.IMaskingSession session = masking.LoadSession(sessionBackupFile))
     {
         Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-        // تحليل الصورة بصريًا وتعيين النقاط التي تنتمي إلى كائنات منفصلة.
+        // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
         args.ObjectsPoints = new Point[][]
                                      {
                                          new Point[]
@@ -269,7 +269,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
                                      };
         using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = session.ImproveDecomposition(args))
         {
-            // النقل الصريح لخيارات التصدير ، نظرًا لأنه غير قابل للتسلسل
+            // نقل صريح لخيارات التصدير، لأنها غير قابلة للتسلسل
             maskingResult.MaskingOptions.ExportOptions = exportOptions;
 
             using (Aspose.Imaging.RasterImage segmentImage = maskingResult[1].GetImage())
@@ -281,10 +281,10 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IMaskingArgs](../imaskingargs)
-* مساحة الاسم [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options)
-* المجسم [Aspose.Imaging](../../)
+* interface [IMaskingArgs](../imaskingargs/)
+* namespace [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

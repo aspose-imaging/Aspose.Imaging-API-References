@@ -1,62 +1,67 @@
 ---
-title: TiffBigEndianStreamWriter
-second_title: Aspose.Imaging لمرجع NET API
-description: كاتب تيار Tiff للتيارات الكبيرة.
+title: "الفئة TiffBigEndianStreamWriter"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffBigEndianStreamWriter. كاتب تدفق Tiff للتيارات bigendian."
 type: docs
-weight: 7770
+weight: 7920
 url: /ar/net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/
 ---
 ## TiffBigEndianStreamWriter class
 
-كاتب تيار Tiff للتيارات الكبيرة.
+كاتب تدفق Tiff لتدفقات big-endian.
 
 ```csharp
-public sealed class TiffBigEndianStreamWriter : TiffStreamWriter
+public class TiffBigEndianStreamWriter : TiffStreamWriter
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TiffBigEndianStreamWriter](tiffbigendianstreamwriter)(StreamContainer) | يقوم بتهيئة مثيل جديد لملف[`TiffBigEndianStreamWriter`](../tiffbigendianstreamwriter) فئة . |
+| [TiffBigEndianStreamWriter](tiffbigendianstreamwriter/)(StreamContainer) | يُهيئ مثيلًا جديدًا من الفئة `TiffBigEndianStreamWriter`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Position](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/position) { get; set; } | الحصول على أو تحديد موضع الدفق. |
-| [SyncRoot](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/syncroot) { get; } | الحصول على كائن يمكن استخدامه لمزامنة الوصول إلى المورد المتزامن. |
+| [Position](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/position/) { get; set; } | يحصل أو يضبط موضع الدفق. |
+| [SyncRoot](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/syncroot/) { get; } | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى المورد المتزامن. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(byte[]) | يكتب البيانات المحددة. |
-| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(byte[], int, int) | يكتب البيانات المحددة. |
-| [WriteDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedouble)(double) | يكتب قيمة مزدوجة مفردة للدفق. |
-| [WriteDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedoublearray)(double[]) | يكتب مصفوفة من القيم المزدوجة إلى الدفق. |
-| [WriteFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloat)(float) | يكتب قيمة عائمة واحدة للتيار. |
-| [WriteFloatArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloatarray)(float[]) | يكتب مصفوفة من القيم العائمة للتيار. |
-| [WriteRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writerational)(TiffRational) | يكتب قيمة رقم منطقي واحدة إلى الدفق. |
-| [WriteRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writerationalarray)(TiffRational[]) | يكتب مصفوفة من القيم المنطقية غير الموقعة إلى الدفق. |
-| [WriteSByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbyte)(sbyte) | يكتب قيمة بايت واحدة موقعة إلى الدفق. |
-| [WriteSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbytearray)(sbyte[]) | يكتب صفيفًا من قيم البايت الموقعة إلى الدفق. |
-| [WriteSlong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeslong)(int) | يكتب قيمة عددية واحدة للتيار. |
-| [WriteSLongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeslongarray)(int[]) | يكتب مصفوفة من القيم الصحيحة للتيار. |
-| [WriteSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrational)(TiffSRational) | يكتب قيمة رقم منطقي واحدة إلى الدفق. |
-| [WriteSRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrationalarray)(TiffSRational[]) | يكتب مصفوفة من القيم المنطقية الموقعة إلى الدفق. |
-| [WriteSShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshort)(short) | يكتب قيمة واحدة قصيرة للدفق. |
-| [WriteSShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshortarray)(short[]) | يكتب مصفوفة من القيم القصيرة للدفق. |
-| [WriteUByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeubyte)(byte) | يكتب قيمة بايت واحد إلى الدفق. |
-| [WriteULong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeulong)(uint) | يكتب قيمة عددية واحدة بدون إشارة إلى الدفق. |
-| [WriteULongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeulongarray)(uint[]) | يكتب مصفوفة من قيم الأعداد الصحيحة بدون إشارة إلى الدفق. |
-| [WriteUShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeushort)(ushort) | يكتب قيمة قصيرة واحدة غير موقعة للتيار. |
-| [WriteUShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeushortarray)(ushort[]) | يكتب مصفوفة من القيم القصيرة غير الموقعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(byte) | يكتب قيمة بايت واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(byte[]) | يكتب البيانات المحددة. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(double) | يكتب قيمة double واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(double[]) | يكتب مصفوفة من قيم double إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(float) | يكتب قيمة عائمة واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(float[]) | يكتب مصفوفة من القيم العائمة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(int) | يكتب قيمة عدد صحيح واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(int[]) | يكتب مصفوفة من القيم الصحيحة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(long) | يكتب مصفوفة من القيم الطويلة الموقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(long[]) | يكتب مصفوفة من القيم الطويلة الموقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(MemoryStream) | يكتب البيانات المحددة. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(sbyte) | يكتب قيمة بايت موقّعة واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(sbyte[]) | يكتب مصفوفة من القيم الموقّعة للبايت إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(short) | يكتب قيمة قصيرة واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(short[]) | يكتب مصفوفة من القيم القصيرة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffRational) | يكتب قيمة عدد كسري واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffRational[]) | يكتب مصفوفة من القيم الكسرية غير موقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffSRational) | يكتب قيمة عدد كسري موقّعة واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffSRational[]) | يكتب مصفوفة من القيم الكسرية الموقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(uint) | يكتب قيمة عدد صحيح غير موقّعة واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(uint[]) | يكتب مصفوفة من القيم الصحيحة غير موقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ulong) | يكتب مصفوفة من القيم الطويلة غير موقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ulong[]) | يكتب مصفوفة من القيم الطويلة غير موقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ushort) | يكتب قيمة قصيرة غير موقّعة واحدة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ushort[]) | يكتب مصفوفة من القيم القصيرة غير موقّعة إلى الدفق. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(byte[], int, int) | يكتب البيانات المحددة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [TiffStreamWriter](../tiffstreamwriter)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../aspose.imaging.fileformats.tiff.filemanagement)
-* المجسم [Aspose.Imaging](../../)
+* class [TiffStreamWriter](../tiffstreamwriter/)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../aspose.imaging.fileformats.tiff.filemanagement/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

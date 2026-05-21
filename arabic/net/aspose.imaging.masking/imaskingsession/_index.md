@@ -1,33 +1,33 @@
 ---
-title: IMaskingSession
-second_title: Aspose.Imaging لمرجع NET API
-description: جلسة التقنيع
+title: "واجهة IMaskingSession"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.Masking.IM maskingSession واجهة. جلسة القناع"
 type: docs
-weight: 10420
+weight: 10970
 url: /ar/net/aspose.imaging.masking/imaskingsession/
 ---
 ## IMaskingSession interface
 
-جلسة التقنيع
+جلسة التمويه
 
 ```csharp
 public interface IMaskingSession : IDisposable
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Decompose](../../aspose.imaging.masking/imaskingsession/decompose)() | تنفيذ أول عملية تحلل تقريبية |
-| [DecomposeAsync](../../aspose.imaging.masking/imaskingsession/decomposeasync)() | ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ أول عملية تفكيك تقريبية |
-| [ImproveDecomposition](../../aspose.imaging.masking/imaskingsession/improvedecomposition)(IMaskingArgs) | إجراء عملية تحلل إعادة التدريب |
-| [ImproveDecompositionAsync](../../aspose.imaging.masking/imaskingsession/improvedecompositionasync)(IMaskingArgs) | ينشئ المهمة غير المتزامنة التي يمكن أن تؤدي عملية تحليل إعادة التدريب |
-| [Save](../../aspose.imaging.masking/imaskingsession/save#save)(Stream) | احفظ حالة الجلسة إلى الدفق المحدد. |
-| [Save](../../aspose.imaging.masking/imaskingsession/save#save_1)(string) | يحفظ حالة الجلسة إلى الملف المحدد. |
+| [Decompose](../../aspose.imaging.masking/imaskingsession/decompose/)() | ينفّذ عملية تفكيك أولية تقريبية |
+| [DecomposeAsync](../../aspose.imaging.masking/imaskingsession/decomposeasync/)() | ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية التفكيك الأولية التقريبية |
+| [ImproveDecomposition](../../aspose.imaging.masking/imaskingsession/improvedecomposition/)(IMaskingArgs) | ينفّذ عملية تفكيك إعادة التدريب |
+| [ImproveDecompositionAsync](../../aspose.imaging.masking/imaskingsession/improvedecompositionasync/)(IMaskingArgs) | ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية تفكيك إعادة التدريب |
+| [Save](../../aspose.imaging.masking/imaskingsession/save/#save)(Stream) | احفظ حالة الجلسة إلى الدفق المحدد. |
+| [Save](../../aspose.imaging.masking/imaskingsession/save/#save_1)(string) | يحفظ حالة الجلسة إلى الملف المحدد. |
 
-### أمثلة
+## أمثلة
 
-حفظ جلسة التقنيع في ملف لجلسات طويلة وكذلك لإمكانية استئناف الجلسة في بيئة أخرى.
+حفظ جلسة القناع إلى ملف للجلسات الطويلة، وكذلك لإمكانية استئناف الجلسة في بيئة أخرى.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ public interface IMaskingSession : IDisposable
 string dir = "c:\\temp\\";
 string sessionBackupFile = dir + "session.bak";
 
-// إخفاء خيارات التصدير
+// خيارات تصدير القناع
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -47,14 +47,14 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-// سيكون لون backgroung برتقالي.
+// لون الخلفية سيكون برتقاليًا.
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
 maskingOptions.ExportOptions = exportOptions;
 
-// بدء جلسة لأول مرة وحفظها في ملف
+// بدء جلسة للمرة الأولى وحفظها إلى ملف
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
     using (Aspose.Imaging.Masking.IMaskingSession session = masking.CreateSession(maskingOptions))
@@ -71,17 +71,17 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     }
 }
 
-// استئناف جلسة اخفاء من ملف
+// استئناف جلسة القناع من ملف
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
     using (Aspose.Imaging.Masking.IMaskingSession session = masking.LoadSession(sessionBackupFile))
     {
         Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-        // تحليل الصورة بصريًا وتعيين النقاط التي تنتمي إلى كائنات منفصلة.
+        // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
         args.ObjectsPoints = new Point[][]
                                      {
                                          new Point[]
@@ -93,7 +93,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
                                      };
         using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = session.ImproveDecomposition(args))
         {
-            // النقل الصريح لخيارات التصدير ، نظرًا لأنه غير قابل للتسلسل
+            // نقل صريح لخيارات التصدير، لأنها غير قابلة للتسلسل
             maskingResult.MaskingOptions.ExportOptions = exportOptions;
 
             using (Aspose.Imaging.RasterImage segmentImage = maskingResult[1].GetImage())
@@ -105,9 +105,9 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.Masking](../../aspose.imaging.masking)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.Masking](../../aspose.imaging.masking/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

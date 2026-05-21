@@ -1,57 +1,57 @@
 ---
-title: Size
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل الحجم .
+title: "حجم البنية"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "هيكل Aspose.Imaging.Size. يمثل الحجم"
 type: docs
-weight: 11040
+weight: 11630
 url: /ar/net/aspose.imaging/size/
 ---
 ## Size structure
 
-يمثل الحجم .
+يمثل الحجم.
 
 ```csharp
 public struct Size
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Size](size#constructor)(Point) | يقوم بتهيئة مثيل جديد لملف[`Size`](../size) هيكل من المحدد[`Point`](../point) . |
-| [Size](size#constructor_1)(int, int) | يقوم بتهيئة مثيل جديد لملف[`Size`](../size) هيكل من الأبعاد المحددة. |
+| [Size](size/#constructor)(Point) | يُنشئ نسخة جديدة من بنية `Size` من الـ [`Point`](../point/) المحدد. |
+| [Size](size/#constructor_1)(int, int) | يُنشئ نسخة جديدة من بنية `Size` من الأبعاد المحددة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [Empty](../../aspose.imaging/size/empty) { get; } | يحصل على مثيل جديد لملف[`Size`](../size) هيكل لديه[`Width`](./width) و[`Height`](./height) تم ضبط القيم على الصفر. |
-| [Height](../../aspose.imaging/size/height) { get; set; } | الحصول على أو تحديد المكون الرأسي لهذا[`Size`](../size) . |
-| [IsEmpty](../../aspose.imaging/size/isempty) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا[`Size`](../size) يبلغ عرضه وارتفاعه 0. |
-| [Width](../../aspose.imaging/size/width) { get; set; } | الحصول على أو تحديد المكون الأفقي لهذا[`Size`](../size) . |
+| static [Empty](../../aspose.imaging/size/empty/) { get; } | يحصل على نسخة جديدة من بنية `Size` التي تحتوي على قيم [`Width`](./width/) و[`Height`](./height/) مضبوطة على الصفر. |
+| [Height](../../aspose.imaging/size/height/) { get; set; } | يحصل أو يضبط المكوّن العمودي لهذا `Size`. |
+| [IsEmpty](../../aspose.imaging/size/isempty/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا `Size` له عرض وارتفاع يساويان 0. |
+| [Width](../../aspose.imaging/size/width/) { get; set; } | يحصل أو يضبط المكوّن الأفقي لهذا `Size`. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [Add](../../aspose.imaging/size/add)(Size, Size) | إضافة عرض وارتفاع واحد[`Size`](../size) هيكل لعرض وارتفاع آخر[`Size`](../size) هيكل . |
-| static [Ceiling](../../aspose.imaging/size/ceiling)(SizeF) | تحويل المحدد[`SizeF`](../sizef) هيكل ل[`Size`](../size) عن طريق تقريب قيم[`Size`](../size) بنية لقيم الأعداد الصحيحة الأعلى التالية. |
-| static [Round](../../aspose.imaging/size/round)(SizeF) | تحويل المحدد[`SizeF`](../sizef) هيكل ل[`Size`](../size) عن طريق تقريب قيم[`SizeF`](../sizef) بنية لأقرب قيم عدد صحيح. |
-| static [Subtract](../../aspose.imaging/size/subtract)(Size, Size) | طرح عرض وارتفاع واحد[`Size`](../size) هيكل من عرض وارتفاع آخر[`Size`](../size) هيكل . |
-| static [Truncate](../../aspose.imaging/size/truncate)(SizeF) | تحويل المحدد[`SizeF`](../sizef) هيكل ل[`Size`](../size) هيكل عن طريق اقتطاع قيم[`SizeF`](../sizef) بنية لقيم الأعداد الصحيحة التالية. |
-| override [Equals](../../aspose.imaging/size/equals)(object) | اختبارات لمعرفة ما إذا كان الكائن المحدد بتنسيق[`Size`](../size)بنفس أبعاد هذا[`Size`](../size) . |
-| override [GetHashCode](../../aspose.imaging/size/gethashcode)() | إرجاع رمز تجزئة لهذا[`Size`](../size) هيكل . |
-| override [ToString](../../aspose.imaging/size/tostring)() | لإنشاء سلسلة يمكن للبشر قراءتها تمثل هذا[`Size`](../size) . |
-| [operator +](../../aspose.imaging/size/op_addition) | إضافة عرض وارتفاع واحد[`Size`](../size) هيكل لعرض وارتفاع آخر[`Size`](../size) هيكل . |
-| [operator ==](../../aspose.imaging/size/op_equality) | اختبارات ما إذا كان اثنان[`Size`](../size) الهياكل متساوية. |
-| [explicit operator](../../aspose.imaging/size/op_explicit) | تحويل المحدد[`Size`](../size) إلى أ[`Point`](../point) . |
-| [implicit operator](../../aspose.imaging/size/op_implicit) | تحويل المحدد[`Size`](../size) إلى أ[`SizeF`](../sizef) . |
-| [operator !=](../../aspose.imaging/size/op_inequality) | اختبارات ما إذا كان اثنان[`Size`](../size) الهياكل مختلفة. |
-| [operator -](../../aspose.imaging/size/op_subtraction) | طرح عرض وارتفاع واحد[`Size`](../size) هيكل من عرض وارتفاع آخر[`Size`](../size) هيكل . |
+| static [Add](../../aspose.imaging/size/add/)(Size, Size) | يضيف العرض والارتفاع لهيكل `Size` واحد إلى العرض والارتفاع لهيكل `Size` آخر. |
+| static [Ceiling](../../aspose.imaging/size/ceiling/)(SizeF) | يحوّل الهيكل [`SizeF`](../sizef/) المحدد إلى هيكل `Size` عن طريق تقريب قيم هيكل `Size` إلى القيم الصحيحة الأعلى. |
+| static [Round](../../aspose.imaging/size/round/)(SizeF) | يحوّل الهيكل [`SizeF`](../sizef/) المحدد إلى هيكل `Size` عن طريق تقريب قيم الهيكل [`SizeF`](../sizef/) إلى أقرب قيمة صحيحة. |
+| static [Subtract](../../aspose.imaging/size/subtract/)(Size, Size) | يطرح العرض والارتفاع لهيكل `Size` واحد من العرض والارتفاع لهيكل `Size` آخر. |
+| static [Truncate](../../aspose.imaging/size/truncate/)(SizeF) | يحوّل الهيكل [`SizeF`](../sizef/) المحدد إلى هيكل `Size` عن طريق قطع قيم الهيكل [`SizeF`](../sizef/) إلى القيم الصحيحة الأدنى. |
+| override [Equals](../../aspose.imaging/size/equals/)(object) | يفحص ما إذا كان الكائن المحدد هو `Size` له نفس الأبعاد مثل هذا `Size`. |
+| override [GetHashCode](../../aspose.imaging/size/gethashcode/)() | يرجع رمز تجزئة لهذا الهيكل `Size`. |
+| override [ToString](../../aspose.imaging/size/tostring/)() | ينشئ سلسلة قابلة للقراءة تمثل هذا `Size`. |
+| [operator +](../../aspose.imaging/size/op_addition/) | يضيف العرض والارتفاع لهيكل `Size` واحد إلى العرض والارتفاع لهيكل `Size` آخر. |
+| [operator ==](../../aspose.imaging/size/op_equality/) | يفحص ما إذا كان هيكلي `Size` اثنان متساويين. |
+| [explicit operator](../../aspose.imaging/size/op_explicit/) | يحوّل الـ `Size` المحدد إلى [`Point`](../point/). |
+| [implicit operator](../../aspose.imaging/size/op_implicit/) | يحوّل الـ `Size` المحدد إلى [`SizeF`](../sizef/). |
+| [operator !=](../../aspose.imaging/size/op_inequality/) | يفحص ما إذا كان هيكلي `Size` اثنان مختلفين. |
+| [operator -](../../aspose.imaging/size/op_subtraction/) | يطرح العرض والارتفاع لهيكل `Size` واحد من العرض والارتفاع لهيكل `Size` آخر. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging](../../aspose.imaging)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

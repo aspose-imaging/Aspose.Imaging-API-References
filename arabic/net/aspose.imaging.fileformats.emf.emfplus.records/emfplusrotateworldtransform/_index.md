@@ -1,40 +1,40 @@
 ---
-title: EmfPlusRotateWorldTransform
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم سجل EmfPlusRotateWorldTransform بإجراء دوران على تحويل الفضاء العالمي الحالي.
+title: "الفئة EmfPlusRotateWorldTransform"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform. سجل EmfPlusRotateWorldTransform يقوم بإجراء دوران على تحويل الفضاء العالمي الحالي."
 type: docs
-weight: 6240
+weight: 6360
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/
 ---
 ## EmfPlusRotateWorldTransform class
 
-يقوم سجل EmfPlusRotateWorldTransform بإجراء دوران على تحويل الفضاء العالمي الحالي.
+السجل EmfPlusRotateWorldTransform يُجري دورانًا على التحويل الحالي للفضاء العالمي.
 
 ```csharp
 public sealed class EmfPlusRotateWorldTransform : EmfPlusTerminalServerRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusRotateWorldTransform](emfplusrotateworldtransform)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusRotateWorldTransform`](../emfplusrotateworldtransform) فئة . |
+| [EmfPlusRotateWorldTransform](emfplusrotateworldtransform/)(EmfPlusRecord) | يهيئ مثيلاً جديداً من الفئة `EmfPlusRotateWorldTransform`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Angle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/angle) { get; set; } | الحصول على أو تعيين قيمة النقطة العائمة 32 بت التي تحدد زاوية الدوران بالدرجات . يتم تنفيذ العملية عن طريق إنشاء مصفوفة تحويل جديدة من الرسم التخطيطي التالي : ------------ --------------------- &#x7C; الخطيئة (الزاوية) &#x7C; كوس (زاوية) &#x7C; 0 &#x7C; &#x7C; كوس (زاوية) &#x7C; الخطيئة (الزاوية) &#x7C; 0 &#x7C; --------------------------------- الشكل 2: مصفوفة تحويل الدوران تحويل الفضاء العالمي الحالي مضروب بهذه المصفوفة ، والنتيجة تصبح the تحويل الفضاء العالمي الحالي الجديد. يحدد حقل الإشارات ترتيب الضرب. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/postmultipliedmatrix) { get; } | يحصل على قيمة تشير إلى ما إذا كان [post المصفوفة المضاعفة] . إذا تم ضبطه ، يجب أن يتم ضرب مصفوفة التحويل لاحقًا. إذا كان واضحًا ، فيجب أن يكون مضروبًا مسبقًا. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| [Angle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/angle/) { get; set; } | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد زاوية الدوران بالدرجات. يتم تنفيذ العملية بإنشاء مصفوفة تحويل جديدة من المخطط التالي: --------------------------------- &#x7C; sin(Angle) &#x7C; cos(Angle) &#x7C; 0 &#x7C; &#x7C; cos(Angle) &#x7C; sin(Angle) &#x7C; 0 &#x7C; --------------------------------- الشكل 2: مصفوفة تحويل الدوران يتم ضرب تحويل الفضاء العالمي الحالي بهذه المصفوفة، وتصبح النتيجة التحويل الحالي للفضاء العالمي الجديد. يحدد حقل Flags ترتيب الضرب. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/postmultipliedmatrix/) { get; } | يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. إذا تم تعيينها، يجب أن تُضرب مصفوفة التحويل بعديًا. إذا لم تُحدد، يجب أن تُضرب مسبقًا. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusTerminalServerRecordType](../emfplusterminalserverrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusTerminalServerRecordType](../emfplusterminalserverrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

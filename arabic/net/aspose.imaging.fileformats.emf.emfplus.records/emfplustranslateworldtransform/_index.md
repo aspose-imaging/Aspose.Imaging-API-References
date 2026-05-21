@@ -1,41 +1,41 @@
 ---
-title: EmfPlusTranslateWorldTransform
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم سجل EmfPlusTranslateWorldTransform بترجمة تحويل الفضاء العالمي الحالي.
+title: "الفئة EmfPlusTranslateWorldTransform"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTranslateWorldTransform الفئة. سجل EmfPlusTranslateWorldTransform ينفّذ ترجمة على التحويل الحالي لفضاء العالم."
 type: docs
-weight: 6460
+weight: 6580
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/
 ---
 ## EmfPlusTranslateWorldTransform class
 
-يقوم سجل EmfPlusTranslateWorldTransform بترجمة تحويل الفضاء العالمي الحالي.
+سجل EmfPlusTranslateWorldTransform ينفذ ترجمة على تحويل مساحة العالم الحالية.
 
 ```csharp
 public sealed class EmfPlusTranslateWorldTransform : EmfPlusTerminalServerRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusTranslateWorldTransform](emfplustranslateworldtransform)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusTranslateWorldTransform`](../emfplustranslateworldtransform) فئة . |
+| [EmfPlusTranslateWorldTransform](emfplustranslateworldtransform/)(EmfPlusRecord) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusTranslateWorldTransform`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| [Dx](../../aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/dx) { get; set; } | الحصول على أو تعيين قيمة النقطة العائمة 32 بت التي تحدد المسافة الأفقية. يتم تنفيذ translation من خلال إنشاء مصفوفة تحويل عالمية جديدة من حقلي dx و dy |
-| [Dy](../../aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/dy) { get; set; } | الحصول على أو تعيين قيمة النقطة العائمة 32 بت التي تحدد قيمة المسافة العمودية. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/postmultipliedmatrix) { get; } | يحصل على قيمة تشير إلى ما إذا كان [post المصفوفة المضاعفة] . إذا تم ضبطه ، يجب أن يتم ضرب مصفوفة التحويل لاحقًا. إذا كان واضحًا ، فيجب أن يكون مضروبًا مسبقًا. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| [Dx](../../aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/dx/) { get; set; } | يحصل أو يعيّن قيمة عائمة 32-بت تحدد المسافة الأفقية. يتم تنفيذ الترجمة بإنشاء مصفوفة تحويل عالمية جديدة من حقلي dx و dy. |
+| [Dy](../../aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/dy/) { get; set; } | يحصل أو يعيّن قيمة عائمة 32-بت تحدد قيمة المسافة العمودية. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/postmultipliedmatrix/) { get; } | يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. إذا تم تعيينها، يجب أن تُضرب مصفوفة التحويل بعديًا. إذا لم تُحدد، يجب أن تُضرب مسبقًا. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusTerminalServerRecordType](../emfplusterminalserverrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusTerminalServerRecordType](../emfplusterminalserverrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

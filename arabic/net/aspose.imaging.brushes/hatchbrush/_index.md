@@ -1,79 +1,81 @@
 ---
-title: HatchBrush
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد فرشاة مستطيلة بنمط فتحة ولون في المقدمة ولون للخلفية. لا يمكن توريث هذه الفئة.
+title: "الفئة HatchBrush"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.Brushes.HatchBrush. تُعرّف فرشاة مستطيلة بنمط تظليل ولون أمامي ولون خلفي. لا يمكن وراثة هذه الفئة"
 type: docs
 weight: 140
 url: /ar/net/aspose.imaging.brushes/hatchbrush/
 ---
 ## HatchBrush class
 
-يحدد فرشاة مستطيلة بنمط فتحة ولون في المقدمة ولون للخلفية. لا يمكن توريث هذه الفئة.
+يعرف فرشاة مستطيلة مع نمط تظليل، ولون أمامي، ولون خلفية. لا يمكن وراثة هذه الفئة.
 
 ```csharp
 public sealed class HatchBrush : Brush
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [HatchBrush](hatchbrush)() | Default_Constructor |
+| [HatchBrush](hatchbrush/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BackgroundColor](../../aspose.imaging.brushes/hatchbrush/backgroundcolor) { get; set; } | الحصول على أو تحديد لون المسافات بين خطوط التظليل. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [ForegroundColor](../../aspose.imaging.brushes/hatchbrush/foregroundcolor) { get; set; } | الحصول على أو تحديد لون خطوط التظليل . |
-| [HatchStyle](../../aspose.imaging.brushes/hatchbrush/hatchstyle) { get; set; } | الحصول على أو تحديد نمط الفتحة لهذه الفرشاة. |
-| [Opacity](../../aspose.imaging/brush/opacity) { get; set; } | الحصول على عتامة الفرشاة أو ضبطها. يجب أن تكون القيمة بين 0 و 1. تعني القيمة 0 أن الفرشاة مرئية بالكامل ، وتعني القيمة 1 أن الفرشاة غير شفافة تمامًا. |
+| [BackgroundColor](../../aspose.imaging.brushes/hatchbrush/backgroundcolor/) { get; set; } | يحصل أو يعيّن لون الفراغات بين خطوط التظليل. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [ForegroundColor](../../aspose.imaging.brushes/hatchbrush/foregroundcolor/) { get; set; } | يحصل أو يعيّن لون خطوط التظليل. |
+| [HatchStyle](../../aspose.imaging.brushes/hatchbrush/hatchstyle/) { get; set; } | يحصل أو يعيّن نمط التظليل لهذه الفرشاة. |
+| [Opacity](../../aspose.imaging/brush/opacity/) { get; set; } | يحصل أو يعيّن شفافية الفرشاة. يجب أن تكون القيمة بين 0 و 1. القيمة 0 تعني أن الفرشاة مرئية بالكامل، والقيمة 1 تعني أن الفرشاة معتمة بالكامل. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | ينشئ استنساخًا عميقًا جديدًا للتيار[`Brush`](../../aspose.imaging/brush) . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| virtual [DeepClone](../../aspose.imaging/brush/deepclone/)() | ينشئ نسخة عميقة جديدة من [`Brush`](../../aspose.imaging/brush/) الحالي. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| override [Equals](../../aspose.imaging/brush/equals/)(object) | تحقق مما إذا كانت الكائنات متساوية. |
+| override [GetHashCode](../../aspose.imaging/brush/gethashcode/)() | احصل على قيمة التجزئة للكائن الحالي. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال إنشاء كائنات القلم واستخدامها. يقوم المثال بإنشاء صورة جديدة ورسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 
 ```csharp
 [C#]
 
-// قم بإنشاء مثيل لـ BmpOptions وقم بتعيين خصائصه المختلفة
+//أنشئ مثيلاً من BmpOptions وعيّن خصائصه المتنوعة
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-// قم بإنشاء مثيل لـ FileCreateSource وقم بتعيينه كمصدر لمثيل BmpOptions
-// تحدد المعلمة المنطقية الثانية ما إذا كان الملف المراد إنشاؤه ثابتًا أم لا
+//أنشئ مثيلاً من FileCreateSource وعيّنها كمصدر للمثيل من BmpOptions
+//المعامل المنطقي الثاني يحدد ما إذا كان الملف الذي سيُنشأ مؤقتًا أم لا
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-// إنشاء مثيل للصورة في المسار المحدد
+//أنشئ مثيلاً من Image في المسار المحدد
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    // قم بإنشاء مثيل للرسومات وقم بتهيئته باستخدام كائن صورة
+    //أنشئ مثيلاً من Graphics وابدأه باستخدام كائن Image
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    // مسح واجهة الرسومات باللون الأبيض
+    //امسح سطح Graphics باللون الأبيض
     graphics.Clear(Aspose.Imaging.Color.White);
 
-    // إنشاء مثيل من القلم باللون الأحمر والعرض 5
+    //أنشئ مثيلاً من Pen باللون الأحمر وعرض 5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-    // قم بإنشاء مثيل لـ HatchBrush وعيّن خصائصه
+    //أنشئ مثيلاً من HatchBrush وعيّن خصائصه
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-    // إنشاء مثيل من Pen
-    // قم بتهيئته باستخدام كائن وعرض HatchBrush
+    //أنشئ مثيلاً من Pen
+    //ابدأه بكائن HatchBrush والعرض
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    // رسم مستطيلات عن طريق تحديد كائن القلم
+    //ارسم مستطيلات بتحديد كائن Pen
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -81,7 +83,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    // رسم مستطيلات عن طريق تحديد كائن القلم
+    //ارسم مستطيلات بتحديد كائن Pen
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
@@ -93,10 +95,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../aspose.imaging/brush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../aspose.imaging.brushes)
-* المجسم [Aspose.Imaging](../../)
+* class [Brush](../../aspose.imaging/brush/)
+* namespace [Aspose.Imaging.Brushes](../../aspose.imaging.brushes/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,57 +1,57 @@
 ---
-title: CdrStyle
-second_title: Aspose.Imaging لمرجع NET API
-description: نمط cdr
+title: "الفئة CdrStyle"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Cdr.Objects.CdrStyle الفئة. الـ cdr النمط"
 type: docs
-weight: 1770
+weight: 1820
 url: /ar/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/
 ---
 ## CdrStyle class
 
-نمط cdr
+ال cdr style
 
 ```csharp
 public class CdrStyle : CdrDictionaryItem
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CdrStyle](cdrstyle)() | Default_Constructor |
+| [CdrStyle](cdrstyle/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align) { get; set; } | الحصول على المحاذاة أو تعيينها. |
-| [Charset](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/charset) { get; set; } | الحصول على مجموعة الأحرف أو تعيينها. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | الحصول على المستند أو تعيينه. |
-| [Fill](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fill) { get; set; } | الحصول على التعبئة أو تعيينها. |
-| [FirstIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/firstindent) { get; set; } | الحصول على المسافة البادئة الأولى أو تعيينها . |
-| [FontName](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontname) { get; set; } | الحصول على اسم الخط أو تحديده. |
-| [FontSize](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontsize) { get; set; } | الحصول على حجم الخط أو تحديده. |
-| [FontWeight](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight) { get; set; } | الحصول على أو تحديد وزن الخط. |
-| [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | الحصول على المعرف أو تعيينه. |
-| [LeftIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/leftindent) { get; set; } | الحصول على المسافة البادئة اليسرى أو تعيينها . |
-| [OutLine](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/outline) { get; set; } | الحصول على خط الإخراج أو تعيينه. |
-| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | الحصول على أو تعيين الأصل. |
-| [ParentId](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/parentid) { get; set; } | الحصول على أو تحديد المعرف الأصل. |
-| [RightIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/rightindent) { get; set; } | الحصول على المسافة البادئة الصحيحة أو تعيينها . |
+| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align/) { get; set; } | يحصل أو يضبط المحاذاة. |
+| [Charset](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/charset/) { get; set; } | يحصل أو يضبط مجموعة الأحرف. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document/) { get; set; } | يحصل أو يضبط المستند. |
+| [Fill](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fill/) { get; set; } | يحصل أو يضبط التعبئة. |
+| [FirstIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/firstindent/) { get; set; } | يحصل أو يضبط المسافة البادئة الأولى. |
+| [FontName](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontname/) { get; set; } | يحصل أو يضبط اسم الخط. |
+| [FontSize](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontsize/) { get; set; } | يحصل أو يضبط حجم الخط. |
+| [FontWeight](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight/) { get; set; } | يحصل أو يضبط وزن الخط. |
+| [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id/) { get; set; } | الحصول أو تعيين المعرف. |
+| [LeftIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/leftindent/) { get; set; } | يحصل أو يضبط المسافة البادئة اليسرى. |
+| [OutLine](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/outline/) { get; set; } | يحصل أو يضبط الخط الخارجي. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent/) { get; set; } | يحصل أو يضبط الأصل. |
+| [ParentId](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/parentid/) { get; set; } | يحصل أو يضبط معرف الأب. |
+| [RightIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/rightindent/) { get; set; } | يحصل أو يضبط المسافة البادئة اليمنى. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Copy](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/copy)() | ينسخ هذا المثال . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| [Copy](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/copy/)() | ينسخ هذه المثيلة. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CdrObjectContainer](../cdrobjectcontainer)
-* class [CdrDictionaryItem](../cdrdictionaryitem)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [CdrObjectContainer](../cdrobjectcontainer/)
+* class [CdrDictionaryItem](../cdrdictionaryitem/)
+* namespace [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

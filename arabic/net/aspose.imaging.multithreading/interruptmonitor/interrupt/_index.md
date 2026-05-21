@@ -1,28 +1,28 @@
 ---
-title: Interrupt
-second_title: Aspose.Imaging لمرجع NET API
-description: يرسل طلبًا بمقاطعة العمليات.
+title: "InterruptMonitor.Interrupt"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة InterruptMonitor. ترسل طلبًا لإيقاف العمليات"
 type: docs
 weight: 30
 url: /ar/net/aspose.imaging.multithreading/interruptmonitor/interrupt/
 ---
 ## InterruptMonitor.Interrupt method
 
-يرسل طلبًا بمقاطعة العمليات.
+يرسل طلبًا لمقاطعة العمليات.
 
 ```csharp
 public virtual void Interrupt()
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية إجراء تحويل الصورة في سلسلة مخصصة ومقاطعة العملية في بضع ثوانٍ بعد البدء.
+المثال التالي يوضح كيفية إجراء تحويل الصورة في خيط مخصص ومقاطعة العملية بعد بضع ثوانٍ من بدءها.
 
 ```csharp
 [C#]
 
 /// <summary>
-/// هذه فئة مساعدة تبدأ تحويل الصورة وتنتظر مقاطعتها.
+/// هذه فئة مساعدة تقوم ببدء تحويل الصورة وتنتظر مقاطعتها.
 /// </summary>
 private class Worker
 {
@@ -32,7 +32,7 @@ private class Worker
     private readonly string inputPath;
 
     /// <summary>
-    /// المسار إلى الصورة الناتجة.
+    /// المسار إلى صورة الإخراج.
     /// </summary>
     private readonly string outputPath;
 
@@ -47,12 +47,12 @@ private class Worker
     private readonly Aspose.Imaging.Multithreading.InterruptMonitor monitor;
 
     /// <summary>
-    /// تهيئة نسخة جديدة من < see cref = "Worker" / > صف دراسي.
+    /// يهيئ نسخة جديدة من الفئة <see cref="Worker" />.
     /// </summary>
-    /// < param name = "inputPath" > المسار إلى صورة الإدخال. < / param >
-    /// < param name = "outputPath" >; المسار إلى صورة الإخراج. < / param >
-    /// < param name = "saveOptions" > خيارات الحفظ. < / param >
-    /// < param name = "monitor" > شاشة المقاطعة. < / param >
+    /// <param name="inputPath">المسار إلى صورة الإدخال.</param>
+    /// <param name="outputPath">المسار إلى صورة الإخراج.</param>
+    /// <param name="saveOptions">خيارات الحفظ.</param>
+    /// <param name="monitor">مراقب المقاطعة.</param>
     public Worker(string inputPath, string outputPath, Aspose.Imaging.ImageOptionsBase saveOptions, Aspose.Imaging.Multithreading.InterruptMonitor monitor)
     {
         this.inputPath = inputPath;
@@ -62,7 +62,7 @@ private class Worker
     }
 
     /// <summary>
-    /// يحول صورة من تنسيق إلى آخر. يعالج الانقطاع.
+    /// يحول صورة من تنسيق إلى آخر. يتعامل مع الانقطاع.
     /// </summary>
     public void ThreadProc()
     {
@@ -70,7 +70,7 @@ private class Worker
         {
             Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(this.inputPath);
             
-            // تعيين مثيل مؤشر ترابط محلي لرصد المقاطعة.
+            // تعيين كائن محلي للموضوع لمراقب الانقطاع.
             Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance = this.monitor;
 
             try
@@ -88,51 +88,51 @@ private class Worker
             {
                 image.Dispose();
 
-                // إعادة تعيين مثيل مؤشر الترابط المحلي لجهاز مراقبة المقاطعة.
+                // إعادة تعيين الكائن المحلي للموضوع لمراقب الانقطاع.
                 Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance = null;
             }
         }
         catch (System.Exception e)
         {
-            // طباعة معلومات مفصلة عن أي استثناء غير متوقع.
+            // طباعة معلومات مفصلة حول أي استثناء غير متوقع.
             System.Console.WriteLine(e);
         }
     }
 }
 
-// هنا هو المثال الرئيسي باستخدام فئة العمال.
+// إليك المثال الرئيسي باستخدام الفئة Worker.
 string baseDir = "c:\\temp\\";
 
 Aspose.Imaging.Multithreading.InterruptMonitor monitor = new Aspose.Imaging.Multithreading.InterruptMonitor();
 Worker worker = new Worker(baseDir + "big.png", baseDir + "big.bmp", new Aspose.Imaging.ImageOptions.BmpOptions(), monitor);
 
-// بدء العامل في موضوع مخصص.
+// ابدأ العامل في خيط مخصص.
 System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(worker.ThreadProc));
 thread.Start();
 
-// قم ببعض الأعمال المفيدة هنا
+// قم ببعض العمل المفيد هنا
 System.Threading.Thread.Sleep(2000);
 
-// طلب مقاطعة الخيط العامل
+// طلب لإيقاف خيط العامل
 monitor.Interrupt();
 System.Console.WriteLine("Interrupting the worker thread #{0} at {1}", thread.ManagedThreadId, System.DateTime.Now);
 
-// انتظر المقاطعة.
+// انتظر الانقطاع.
 thread.Join();
 
 System.Console.WriteLine("Done. Press ENTER to exit.");
 System.Console.ReadLine();
 
-// قد يبدو الإخراج كالتالي:
-// مقاطعة الخيط العامل # 14 في 8/6/2019 3:57:53 مساءً
-// تمت مقاطعة مؤشر ترابط العامل # 14 في 8/6/2019 3:58:09 مساءً
-// فعله. اضغط على ENTER للخروج.
+// قد يبدو الإخراج هكذا:
+// جاري إيقاف خيط العامل #14 في 8/6/2019 3:57:53 م
+// تم إيقاف خيط العامل #14 في 8/6/2019 3:58:09 م
+// تم. اضغط ENTER للخروج.
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [InterruptMonitor](../../interruptmonitor)
-* مساحة الاسم [Aspose.Imaging.Multithreading](../../interruptmonitor)
-* المجسم [Aspose.Imaging](../../../)
+* class [InterruptMonitor](../)
+* namespace [Aspose.Imaging.Multithreading](../../interruptmonitor/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,58 +1,60 @@
 ---
-title: StringFormat
-second_title: Aspose.Imaging لمرجع NET API
-description: يحتوي على معلومات تخطيط النص مثل المحاذاة والاتجاه وعلامات الجدولة معالجات العرض مثل إدراج القطع واستبدال الأرقام الوطنية وميزات OpenType. لا يمكن توريث هذه الفئة.
+title: "فئة StringFormat"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.StringFormat. تُغلف معلومات تخطيط النص مثل توجيه المحاذاة وإيقافات التبويب وتعديلات العرض مثل إدراج ثلاث نقاط واستبدال الأرقام الوطنية وميزات OpenType. لا يمكن وراثة هذه الفئة."
 type: docs
-weight: 11160
+weight: 11750
 url: /ar/net/aspose.imaging/stringformat/
 ---
 ## StringFormat class
 
-يحتوي على معلومات تخطيط النص (مثل المحاذاة والاتجاه وعلامات الجدولة) معالجات العرض (مثل إدراج القطع واستبدال الأرقام الوطنية) وميزات OpenType. لا يمكن توريث هذه الفئة.
+يحتوي على معلومات تخطيط النص (مثل المحاذاة، الاتجاه وإيقافات الجدولة) وتعديلات العرض (مثل إدراج الحذف الثلاثي واستبدال الأرقام الوطنية) وميزات OpenType. لا يمكن وراثة هذه الفئة.
 
 ```csharp
 public sealed class StringFormat : DisposableObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [StringFormat](stringformat#constructor)() | يقوم بتهيئة ملف[`StringFormat`](../stringformat) الكائن . |
-| [StringFormat](stringformat#constructor_1)(StringFormat) | يقوم بتهيئة ملف[`StringFormat`](../stringformat) كائن من المحدد الموجود[`StringFormat`](../stringformat) الكائن . |
-| [StringFormat](stringformat#constructor_2)(StringFormatFlags) | يقوم بتهيئة ملف[`StringFormat`](../stringformat) كائن مع المحدد[`StringFormatFlags`](../stringformatflags) التعداد واللغة. |
+| [StringFormat](stringformat/#constructor)() | يُنشئ كائنًا جديدًا من نوع `StringFormat`. |
+| [StringFormat](stringformat/#constructor_1)(StringFormat) | يُنشئ كائنًا جديدًا من نوع `StringFormat` من الكائن `StringFormat` الموجود المحدد. |
+| [StringFormat](stringformat/#constructor_2)(StringFormatFlags) | يُنشئ كائنًا جديدًا من نوع `StringFormat` باستخدام تعداد [`StringFormatFlags`](../stringformatflags/) المحدد واللغة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [GenericDefault](../../aspose.imaging/stringformat/genericdefault) { get; } | يحصل على افتراضي عام[`StringFormat`](../stringformat) الكائن . |
-| static [GenericTypographic](../../aspose.imaging/stringformat/generictypographic) { get; } | يحصل على طباعة عامة[`StringFormat`](../stringformat) الكائن . |
-| [Alignment](../../aspose.imaging/stringformat/alignment) { get; set; } | الحصول على معلومات محاذاة النص على المستوى العمودي أو تعيينها. |
-| [CustomCharIdent](../../aspose.imaging/stringformat/customcharident) { get; set; } | الحصول على أو تعيين معرف الحرف المخصص. |
-| [DigitSubstitutionLanguage](../../aspose.imaging/stringformat/digitsubstitutionlanguage) { get; set; } | الحصول على أو تعيين اللغة المستخدمة عند استبدال الأرقام المحلية بالأرقام الغربية. |
-| [DigitSubstitutionMethod](../../aspose.imaging/stringformat/digitsubstitutionmethod) { get; set; } | الحصول على أو تعيين الطريقة التي سيتم استخدامها لاستبدال الأرقام. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [FirstTabOffset](../../aspose.imaging/stringformat/firsttaboffset) { get; } | الحصول على عدد المسافات بين بداية سطر من النص وعلامة الجدولة الأولى. |
-| [FormatFlags](../../aspose.imaging/stringformat/formatflags) { get; set; } | يحصل أو يحدد أ[`StringFormatFlags`](../stringformatflags) التعداد الذي يحتوي على معلومات التنسيق. |
-| [HotkeyPrefix](../../aspose.imaging/stringformat/hotkeyprefix) { get; set; } | يحصل أو يحدد ملف[`HotkeyPrefix`](../hotkeyprefix) كائن لهذا[`StringFormat`](../stringformat) الكائن . |
-| [LineAlignment](../../aspose.imaging/stringformat/linealignment) { get; set; } | الحصول على محاذاة الخط على المستوى الأفقي أو تعيينها. |
-| [TabStops](../../aspose.imaging/stringformat/tabstops) { get; } | الحصول على صفيف من المسافات بين علامات الجدولة في الوحدات المحددة بواسطة[`PageUnit`](../graphics/pageunit) الملكية . |
-| [Trimming](../../aspose.imaging/stringformat/trimming) { get; set; } | يحصل أو يحدد ملف[`StringTrimming`](../stringtrimming) تعداد لهذا[`StringFormat`](../stringformat) الكائن . |
+| static [GenericDefault](../../aspose.imaging/stringformat/genericdefault/) { get; } | يحصل على كائن `StringFormat` افتراضي عام. |
+| static [GenericTypographic](../../aspose.imaging/stringformat/generictypographic/) { get; } | يحصل على كائن `StringFormat` طباعي عام. |
+| [Alignment](../../aspose.imaging/stringformat/alignment/) { get; set; } | يحصل أو يضبط معلومات محاذاة النص على المستوى العمودي. |
+| [CustomCharIdent](../../aspose.imaging/stringformat/customcharident/) { get; set; } | يحصل أو يضبط معرّف الحرف المخصص. |
+| [DigitSubstitutionLanguage](../../aspose.imaging/stringformat/digitsubstitutionlanguage/) { get; set; } | يحصل أو يضبط اللغة المستخدمة عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. |
+| [DigitSubstitutionMethod](../../aspose.imaging/stringformat/digitsubstitutionmethod/) { get; set; } | يحصل أو يضبط الطريقة المستخدمة لاستبدال الأرقام. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [FirstTabOffset](../../aspose.imaging/stringformat/firsttaboffset/) { get; } | يحصل على عدد المسافات بين بداية سطر النص وأول إيقاف تبويب. |
+| [FormatFlags](../../aspose.imaging/stringformat/formatflags/) { get; set; } | يحصل أو يضبط تعداد [`StringFormatFlags`](../stringformatflags/) الذي يحتوي على معلومات التنسيق. |
+| [HotkeyPrefix](../../aspose.imaging/stringformat/hotkeyprefix/) { get; set; } | يحصل أو يضبط كائن [`HotkeyPrefix`](../hotkeyprefix/) لهذا الكائن `StringFormat`. |
+| [LineAlignment](../../aspose.imaging/stringformat/linealignment/) { get; set; } | يحصل أو يضبط محاذاة السطر على المستوى الأفقي. |
+| [TabStops](../../aspose.imaging/stringformat/tabstops/) { get; } | يحصل على مصفوفة من المسافات بين إيقافات التبويب بالوحدات المحددة بواسطة الخاصية [`PageUnit`](../graphics/pageunit/). |
+| [Trimming](../../aspose.imaging/stringformat/trimming/) { get; set; } | يحصل أو يضبط تعداد [`StringTrimming`](../stringtrimming/) لهذا الكائن `StringFormat`. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeepClone](../../aspose.imaging/stringformat/deepclone)() | لإنشاء نسخة عميقة من هذا[`StringFormat`](../stringformat) الكائن . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
-| [SetTabStops](../../aspose.imaging/stringformat/settabstops)(float, float[]) | تعيين علامات الجدولة لهذا الغرض[`StringFormat`](../stringformat) الكائن . |
-| override [ToString](../../aspose.imaging/stringformat/tostring)() | يحول هذا[`StringFormat`](../stringformat) كائن لسلسلة يمكن للبشر قراءتها. |
+| [DeepClone](../../aspose.imaging/stringformat/deepclone/)() | ينشئ نسخة عميقة من هذا الكائن `StringFormat`. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| override [Equals](../../aspose.imaging/stringformat/equals/)(object) | تحقق مما إذا كانت الكائنات متساوية. |
+| override [GetHashCode](../../aspose.imaging/stringformat/gethashcode/)() | احصل على قيمة التجزئة للكائن الحالي. |
+| [SetTabStops](../../aspose.imaging/stringformat/settabstops/)(float, float[]) | يضبط نقاط التبويب لهذا الكائن `StringFormat`. |
+| override [ToString](../../aspose.imaging/stringformat/tostring/)() | يحوّل هذا الكائن `StringFormat` إلى سلسلة قابلة للقراءة من قبل الإنسان. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [DisposableObject](../disposableobject)
-* مساحة الاسم [Aspose.Imaging](../../aspose.imaging)
-* المجسم [Aspose.Imaging](../../)
+* class [DisposableObject](../disposableobject/)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

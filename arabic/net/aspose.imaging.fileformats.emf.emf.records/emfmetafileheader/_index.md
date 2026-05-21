@@ -1,42 +1,42 @@
 ---
-title: EmfMetafileHeader
-second_title: Aspose.Imaging لمرجع NET API
-description: تحدد أنواع سجلات EMR_HEADER نقاط البداية لملفات تعريف EMF وتحدد خصائص الجهاز الذي تم إنشاء الصورة في ملف التعريف عليه. تتيح المعلومات الموجودة في سجل الرأس إمكانية أن تكون ملفات تعريف EMF مستقلة عن أي جهاز إخراج محدد. headers رأس القاعدة  وهو سجل EmfMetafileHeader . الجزء ذو الحجم الثابت من هذا الرأس هو 88 بايت  ويحتوي على كائن Header . رأس الامتداد الأول  وهو سجل EmfMetafileHeaderExtension1 . الحجم الثابت جزء من هذا الرأس هو 100 بايت  ويحتوي على كائن Header وكائن HeaderExtension1 القسم 2.2.10 . رأس التمديد الثاني  وهو سجل EmfMetafileHeaderExtension2 . الجزء ذي الحجم الثابت من هذا الرأس هو 108 بايت  ويحتوي على كائن رأس  كائن HeaderExtension1  وكائن HeaderExtension2 القسم 2.2.11 .
+title: "الفئة EmfMetafileHeader"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfMetafileHeader. أنواع سجلات EMR_HEADER تحدد نقاط البداية لملفات EMF وتحدد خصائص الجهاز الذي تم إنشاء الصورة فيه داخل ملف التعريف. تجعل المعلومات في سجل الرأس من الممكن أن تكون ملفات EMF مستقلة عن أي جهاز إخراج محدد. يمكن استخدام قيمة حقل Size للتمييز بين أنواع سجلات EMR_HEADER المختلفة المذكورة سابقًا في هذا القسم. هناك ثلاثة رؤوس محتملة: الرأس الأساسي وهو سجل EmfMetafileHeader. الجزء الثابت من هذا الرأس يبلغ 88 بايت ويحتوي على كائن Header. الرأس الأول للامتداد وهو سجل EmfMetafileHeaderExtension1. الجزء الثابت من هذا الرأس يبلغ 100 بايت ويحتوي على كائن Header وكائن HeaderExtension1 (القسم 2.2.10). الرأس الثاني للامتداد وهو سجل EmfMetafileHeaderExtension2. الجزء الثابت من هذا الرأس يبلغ 108 بايت ويحتوي على كائن Header وكائن HeaderExtension1 وكائن HeaderExtension2 (القسم 2.2.11)."
 type: docs
-weight: 3810
+weight: 3910
 url: /ar/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/
 ---
 ## EmfMetafileHeader class
 
-تحدد أنواع سجلات EMR_HEADER نقاط البداية لملفات تعريف EMF وتحدد خصائص الجهاز الذي تم إنشاء الصورة في ملف التعريف عليه. تتيح المعلومات الموجودة في سجل الرأس إمكانية أن تكون ملفات تعريف EMF مستقلة عن أي جهاز إخراج محدد. headers: رأس القاعدة ، وهو سجل EmfMetafileHeader . الجزء ذو الحجم الثابت من هذا الرأس هو 88 بايت ، ويحتوي على كائن Header . رأس الامتداد الأول ، وهو سجل EmfMetafileHeaderExtension1 . الحجم الثابت جزء من هذا الرأس هو 100 بايت ، ويحتوي على كائن Header وكائن HeaderExtension1 (القسم 2.2.10) . رأس التمديد الثاني ، وهو سجل EmfMetafileHeaderExtension2 . الجزء ذي الحجم الثابت من هذا الرأس هو 108 بايت ، ويحتوي على كائن رأس ، كائن HeaderExtension1 ، وكائن HeaderExtension2 (القسم 2.2.11) .
+أنواع سجلات EMR_HEADER تحدد نقاط البداية لملفات EMF الوصفية وتحدد خصائص الجهاز الذي تم إنشاء الصورة فيه داخل الملف الوصفي. تجعل المعلومات في سجل الرأس ملفات EMF مستقلة عن أي جهاز إخراج محدد. يمكن استخدام قيمة حقل Size للتمييز بين أنواع سجلات EMR_HEADER المختلفة المذكورة سابقًا في هذا القسم. هناك ثلاثة رؤوس محتملة: الرأس الأساسي، وهو سجل EmfMetafileHeader. الجزء ثابت الحجم من هذا الرأس هو 88 بايت، ويحتوي على كائن Header. رأس الامتداد الأول، وهو سجل EmfMetafileHeaderExtension1. الجزء ثابت الحجم من هذا الرأس هو 100 بايت، ويحتوي على كائن Header وكائن HeaderExtension1 (القسم 2.2.10). رأس الامتداد الثاني، وهو سجل EmfMetafileHeaderExtension2. الجزء ثابت الحجم من هذا الرأس هو 108 بايت، ويحتوي على كائن Header، وكائن HeaderExtension1، وكائن HeaderExtension2 (القسم 2.2.11).
 
 ```csharp
 public class EmfMetafileHeader : EmfRecord
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfMetafileHeader](emfmetafileheader#constructor)() | يقوم بتهيئة مثيل جديد لملف[`EmfMetafileHeader`](../emfmetafileheader) فئة . |
-| [EmfMetafileHeader](emfmetafileheader#constructor_1)(EmfMetafileHeader) | يقوم بتهيئة مثيل جديد لملف[`EmfMetafileHeader`](../emfmetafileheader) فئة . |
-| [EmfMetafileHeader](emfmetafileheader#constructor_2)(EmfRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfMetafileHeader`](../emfmetafileheader) فئة . |
+| [EmfMetafileHeader](emfmetafileheader/#constructor)() | ينشئ مثيلًا جديدًا للفئة `EmfMetafileHeader`. |
+| [EmfMetafileHeader](emfmetafileheader/#constructor_1)(EmfMetafileHeader) | ينشئ مثيلًا جديدًا للفئة `EmfMetafileHeader`. |
+| [EmfMetafileHeader](emfmetafileheader/#constructor_2)(EmfRecord) | ينشئ مثيلًا جديدًا للفئة `EmfMetafileHeader`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfDescription](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescription) { get; set; } | الحصول على أو تعيين وصف EMF سلسلة اختيارية منتهية بقيمة خالية من Unicode UTF16-LE ذات طول ومحتوى عشوائي. يتم تحديد موقعه في السجل وعدد الأحرف بواسطة حقلي offDescription و nDescription ، على التوالي ، في EmfHeader. إذا كانت قيمة أي من الحقول صفرًا ، فلا توجد سلسلة وصف . |
-| [EmfDescriptionBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer) { get; set; } | الحصول على أو تعيين المخزن المؤقت لوصف EMF مصفوفة اختيارية من البايت تحتوي على سلسلة وصف EMF ، والتي لا يلزم أن تكون متجاورة مع الجزء الثابت من سجل EmfMetafileHeader . وفقًا لذلك ، يعد الحقل الموجود في هذا المخزن المؤقت المسمى "UndefinedSpace" اختياريًا ويجب تجاهله. |
-| [EmfHeader](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader) { get; set; } | الحصول على كائن Header أو تعيينه (القسم 2.2.9) ، والذي يحتوي على معلومات حول content وهيكل ملف التعريف |
-| [EmfHeaderRecordBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer) { get; set; } | الحصول على أو تعيين صفيف اختياري من البايت يحتوي على باقي سجل رأس EMF. يجب أن يكون حجم هذا الحقل من مضاعفات 4 بايت |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | الحصول على أو تحديد حجم السجل |
-| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | الحصول على النوع أو تحديده. |
+| [EmfDescription](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescription/) { get; set; } | يحصل أو يعيّن وصف EMF. سلسلة Unicode UTF16-LE منتهية بصفر، اختيارية، بطول ومحتوى عشوائي. موقعها في السجل وعدد الأحرف محددان بواسطة حقلي offDescription و nDescription، على التوالي، في EmfHeader. إذا كانت قيمة أي من الحقلين صفرًا، فلا توجد سلسلة وصف. |
+| [EmfDescriptionBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer/) { get; set; } | يحصل أو يعيّن مخزن وصف EMF. مصفوفة اختيارية من البايتات تحتوي على سلسلة وصف EMF، والتي لا يلزم أن تكون متجاورة مع الجزء الثابت من سجل EmfMetafileHeader. وبالتالي، الحقل في هذا المخزن المسمى "UndefinedSpace" هو اختياري ويجب تجاهله. |
+| [EmfHeader](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader/) { get; set; } | يحصل أو يعيّن كائن Header (القسم 2.2.9)، الذي يحتوي على معلومات حول محتوى وبنية ملف الميتافيل. |
+| [EmfHeaderRecordBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer/) { get; set; } | يحصل أو يعيّن مصفوفة اختيارية من البايتات تحتوي على باقي سجل رأس EMF. يجب أن يكون حجم هذا الحقل مضاعفًا لعدد 4 بايتات. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | يحصل أو يعيّن حجم السجل |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | يحصل أو يعيّن النوع. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfRecord](../emfrecord)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfRecord](../emfrecord/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

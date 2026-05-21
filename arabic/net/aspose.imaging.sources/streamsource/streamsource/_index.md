@@ -1,66 +1,82 @@
 ---
-title: StreamSource
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفStreamSourceaspose.imaging.sources/streamsource فئة .
+title: "StreamSource.StreamSource"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ StreamSource. ينشئ مثلاً جديداً من الفئة StreamSource"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.sources/streamsource/streamsource/
 ---
-## StreamSource(Stream) {#constructor}
+## StreamSource() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`StreamSource`](../../streamsource) فئة .
+ينشئ مثلاً جديداً من الفئة [`StreamSource`](../).
+
+```csharp
+public StreamSource()
+```
+
+### انظر أيضًا
+
+* class [StreamSource](../)
+* namespace [Aspose.Imaging.Sources](../../streamsource/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## StreamSource(Stream) {#constructor_1}
+
+ينشئ مثلاً جديداً من الفئة [`StreamSource`](../).
 
 ```csharp
 public StreamSource(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لفتح. |
+| stream | Stream | الـ stream للفتح. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحميل معلومات البكسل في مصفوفة من نوع اللون ، ومعالجة المصفوفة وإعادة تعيينها إلى الصورة. لإجراء هذه العمليات ، يقوم هذا المثال بإنشاء ملف صورة جديد (بتنسيق GIF) كائن MemoryStream.
+يوضح هذا المثال كيفية تحميل معلومات البكسل في مصفوفة من النوع Color، تعديل المصفوفة وإعادتها إلى الصورة. لتنفيذ هذه العمليات، ينشئ هذا المثال ملف صورة جديد (بتنسيق GIF) باستخدام كائن MemoryStream.
 
 ```csharp
 [C#]
 
-// إنشاء مثيل MemoryStream
+//إنشاء مثيل من MemoryStream
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-    // إنشاء مثيل لـ GifOptions وتعيين خصائصه المختلفة بما في ذلك خاصية المصدر
+    //إنشاء مثيل من GifOptions وتعيين خصائصه المتنوعة بما في ذلك خاصية Source
     Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
     gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-    // إنشاء مثيل للصورة
+    //إنشاء مثيل من Image
     using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
     {
-        // احصل على وحدات البكسل في الصورة عن طريق تحديد المنطقة كحدود للصورة
+        //احصل على بكسلات الصورة عن طريق تحديد المنطقة كحدود الصورة
         Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
 
-        // حلقة فوق المصفوفة وتعيين لون البكسل المفهرس
+        //التكرار عبر المصفوفة وتعيين لون البكسل المفهرس البديل
         for (int index = 0; index < pixels.Length; index++)
         {
             if (index % 2 == 0)
             {
-                // اضبط لون البكسل المفهرس على اللون الأصفر
+                //تعيين لون البكسل المفهرس إلى الأصفر
                 pixels[index] = Aspose.Imaging.Color.Yellow;
             }
             else
             {
-                // اضبط لون البكسل المفهرس على اللون الأزرق
+                //تعيين لون البكسل المفهرس إلى الأزرق
                 pixels[index] = Aspose.Imaging.Color.Blue;
             }
         }
 
-        // قم بتطبيق تغييرات البكسل على الصورة
+        //تطبيق تغييرات البكسل على الصورة
         image.SavePixels(image.Bounds, pixels);
 
         // احفظ جميع التغييرات.
         image.Save();
     }
 
-    // اكتب MemoryStream إلى ملف
+    // كتابة MemoryStream إلى ملف
     using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
     {
         stream.WriteTo(fileStream);
@@ -68,55 +84,55 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamSource](../../streamsource)
-* مساحة الاسم [Aspose.Imaging.Sources](../../streamsource)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamSource](../)
+* namespace [Aspose.Imaging.Sources](../../streamsource/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
-## StreamSource(Stream, bool) {#constructor_1}
+## StreamSource(Stream, bool) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`StreamSource`](../../streamsource) فئة .
+ينشئ مثلاً جديداً من الفئة [`StreamSource`](../).
 
 ```csharp
 public StreamSource(Stream stream, bool disposeStream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لفتح. |
-| disposeStream | Boolean | إذا تم التعيين على`حقيقي` سيتم التخلص من الدفق. |
+| stream | Stream | الـ stream للفتح. |
+| disposeStream | Boolean | إذا تم تعيينه إلى `true` سيتم تحرير الـ stream. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال استخدام System.IO.Stream لإنشاء ملف صورة جديد (نوع JPEG)
+يوضح هذا المثال استخدام System.IO.Stream لإنشاء ملف صورة جديد (نوع JPEG).
 
 ```csharp
 [C#]
 
-// ينشئ مثيلاً لـ JpegOptions ويضبط خصائصه المختلفة
+//ينشئ مثيلًا من JpegOptions ويضبط خصائصه المتنوعة.
 Aspose.Imaging.ImageOptions.JpegOptions jpegOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
 
-// إنشاء مثيل System.IO.Stream
+//إنشاء مثيل من System.IO.Stream
 System.IO.Stream stream = new System.IO.FileStream(@"C:\temp\sample.jpeg", System.IO.FileMode.Create);
 
-// حدد خاصية المصدر لمثيل JpegOptions
-// تحدد المعلمة المنطقية الثانية ما إذا كان سيتم التخلص من الدفق بمجرد الخروج من النطاق
+//حدد خاصية المصدر للمثيل من JpegOptions.
+//المعامل المنطقي الثاني يحدد ما إذا كان سيتم التخلص من الـ Stream بمجرد الخروج من النطاق.
 jpegOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream, true);
 
-// ينشئ مثيلًا للصورة واستدعاء طريقة الإنشاء مع JpegOptions كمعامل لتهيئة كائن الصورة   
+//ينشئ مثيلًا من Image ويستدعي طريقة Create مع JpegOptions كمعامل لتهيئة كائن Image.
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(jpegOptions, 500, 500))
 {
-    // القيام ببعض معالجة الصور
+    //قم ببعض معالجة الصورة.
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [StreamSource](../../streamsource)
-* مساحة الاسم [Aspose.Imaging.Sources](../../streamsource)
-* المجسم [Aspose.Imaging](../../../)
+* class [StreamSource](../)
+* namespace [Aspose.Imaging.Sources](../../streamsource/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

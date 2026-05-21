@@ -1,57 +1,57 @@
 ---
-title: MultiPageOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: الصنف الأساسي للعديد من الصفحات المدعومة بالصيغ
+title: "الفئة MultiPageOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.ImageOptions.MultiPageOptions. الفئة الأساسية للتنسيقات التي تدعم صفحات متعددة"
 type: docs
-weight: 10060
+weight: 10430
 url: /ar/net/aspose.imaging.imageoptions/multipageoptions/
 ---
 ## MultiPageOptions class
 
-الصنف الأساسي للعديد من الصفحات المدعومة بالصيغ
+الفئة الأساسية للتنسيقات المدعومة للصفحات المتعددة
 
 ```csharp
 public class MultiPageOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [MultiPageOptions](multipageoptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_5)(int) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_1)(IntRange) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_3)(IntRange[]) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_7)(int[]) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_9)(string[]) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_6)(int, Rectangle) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_2)(IntRange, Rectangle) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_4)(IntRange[], Rectangle) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_8)(int[], Rectangle) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
-| [MultiPageOptions](multipageoptions#constructor_10)(string[], Rectangle) | يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../multipageoptions) فئة . |
+| [MultiPageOptions](multipageoptions/#constructor)() | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_5)(int) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_1)(IntRange) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_3)(IntRange[]) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_7)(int[]) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_9)(string[]) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_6)(int, Rectangle) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_2)(IntRange, Rectangle) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_4)(IntRange[], Rectangle) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_8)(int[], Rectangle) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions](multipageoptions/#constructor_10)(string[], Rectangle) | يُهيئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea) { get; set; } | الحصول على منطقة التصدير أو تعيينها. |
-| [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [دمج الطبقات] . |
-| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode) { get; set; } | الحصول على الوضع أو تحديده. |
-| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames) { get; set; } | الحصول على أسماء طبقات الإخراج أو تعيينها (يعمل إذا كان تنسيق التصدير يدعم تسمية الطبقات ، على سبيل المثال لـ Psd) |
-| [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions) { get; set; } | الحصول على خيارات تنقيط الصفحة أو تعيينها. |
-| [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages) { get; set; } | الحصول على الصفحات أو تعيينها . |
-| [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles) { get; set; } | الحصول على عناوين الصفحة أو تعيينها. |
-| [TimeInterval](../../aspose.imaging.imageoptions/multipageoptions/timeinterval) { get; set; } | الحصول على أو تحديد الفاصل الزمني . |
+| [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea/) { get; set; } | الحصول أو تعيين منطقة التصدير. |
+| [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers/) { get; set; } | الحصول أو تعيين قيمة تشير إلى ما إذا كان [merege layers]. |
+| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode/) { get; set; } | يحصل أو يضبط الوضع. |
+| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames/) { get; set; } | الحصول أو تعيين أسماء طبقات الإخراج(يعمل إذا كان تنسيق التصدير يدعم تسمية الطبقات، على سبيل المثال لـ Psd) |
+| [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions/) { get; set; } | الحصول أو تعيين خيارات تمثيل الصفحة بنقطة. |
+| [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages/) { get; set; } | الحصول أو تعيين الصفحات. |
+| [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles/) { get; set; } | الحصول أو تعيين عناوين الصفحات. |
+| [TimeInterval](../../aspose.imaging.imageoptions/multipageoptions/timeinterval/) { get; set; } | الحصول أو تعيين الفاصل الزمني. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages)(IntRange[]) | تهيئة الصفحات من مصفوفة النطاقات |
+| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages/)(IntRange[]) | يُهيئ الصفحات من مصفوفة النطاقات |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,28 +1,28 @@
 ---
-title: Resize
-second_title: Aspose.Imaging لمرجع NET API
-description: يغير حجم الصورة.
+title: "GifImage.Resize"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة GifImage. تعيد تحجيم هذا المثال من الصورة"
 type: docs
-weight: 380
+weight: 360
 url: /ar/net/aspose.imaging.fileformats.gif/gifimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}
 
-يغير حجم الصورة.
+يعيد تحجيم هذا المثيل من [`Image`](../../../aspose.imaging/image/).
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
 | resizeType | ResizeType | نوع تغيير الحجم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل صورة GIF وتغيير حجمها باستخدام طرق مختلفة لتغيير الحجم.
+يقوم هذا المثال بتحميل صورة GIF ويعيد تحجيمها باستخدام طرق تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -31,59 +31,59 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // قم بالزيادة بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "downsample.nearestneighbour.gif");
 }
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // قم بالارتقاء بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [ResizeType](../../../aspose.imaging/resizetype)
-* class [GifImage](../../gifimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Gif](../../gifimage)
-* المجسم [Aspose.Imaging](../../../)
+* enum [ResizeType](../../../aspose.imaging/resizetype/)
+* class [GifImage](../)
+* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-يغير حجم الصورة.
+يعيد تحجيم هذا المثيل من [`Image`](../../../aspose.imaging/image/).
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
-| settings | ImageResizeSettings | إعدادات تغيير الحجم. |
+| الإعدادات | ImageResizeSettings | الإعدادات. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل صورة GIF وتغيير حجمها باستخدام إعدادات تغيير الحجم المختلفة.
+يقوم هذا المثال بتحميل صورة GIF ويعيد تحجيمها باستخدام إعدادات تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -92,16 +92,16 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية القائمة على الوظيفة المنطقية الموزونة والمختلطة واستيفاء lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
-// مرشح صغير مستطيل
+// المرشح المستطيل الصغير
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
-// عدد الألوان في اللوحة.
+// عدد الألوان في لوحة الألوان.
 resizeSettings.EntriesCount = 256;
 
-// لا يتم استخدام تكميم اللون
+// لم يتم استخدام تقليل الألوان
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
 // الطريقة الإقليدية
@@ -111,19 +111,19 @@ using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.L
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل التكيفية.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     gifImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
 
-    // حفظ في PNG
+    // حفظ إلى PNG
     gifImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings)
-* class [GifImage](../../gifimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Gif](../../gifimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings/)
+* class [GifImage](../)
+* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,48 +1,48 @@
 ---
-title: WmfLogColorSpace
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد كائن LogColorSpace مساحة لونية منطقية لسياق جهاز التشغيل  والذي يمكن أن يكون اسم ملف تعريف اللون في أحرف ASCII.
+title: "الفئة WmfLogColorSpace"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Wmf.Objects.WmfLogColorSpace. يحدد كائن LogColorSpace مساحة لون منطقية لسياق جهاز التشغيل يمكن أن تكون اسم ملف تعريف لون بأحرف ASCII."
 type: docs
-weight: 8750
+weight: 8930
 url: /ar/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/
 ---
 ## WmfLogColorSpace class
 
-يحدد كائن LogColorSpace مساحة لونية منطقية لسياق جهاز التشغيل ، والذي يمكن أن يكون اسم ملف تعريف اللون في أحرف ASCII.
+كائن LogColorSpace يحدد مساحة ألوان منطقية لسياق جهاز التشغيل، والتي يمكن أن تكون اسم ملف تعريف لون بأحرف ASCII.
 
 ```csharp
 public class WmfLogColorSpace : MetaObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [WmfLogColorSpace](wmflogcolorspace)() | Default_Constructor |
+| [WmfLogColorSpace](wmflogcolorspace/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ColorSpaceType](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد نوع مساحة اللون . يجب تعريفه في LogicalColorSpace enumeration (القسم 2.1.1.14). إذا كانت هذه القيمة LCS_sRGB or LCS_WINDOWS_COLOR_SPACE ، فيجب استخدام مساحة ألوان sRGB. |
-| [Endpoints](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/endpoints) { get; set; } | الحصول على أو تعيين كائن CIEXYZTriple (القسم 2.2.2.7) الذي يحدد اللونية CIE إحداثيات x و y و z للألوان الثلاثة التي تتوافق مع RGBendpoints لمساحة اللون logical المرتبطة بالصورة النقطية. إذا كان[`ColorSpaceType`](./colorspacetype) لا يحدد الحقل LCS_CALIBRATED_RGB ، يجب تجاهل هذا الحقل. |
-| [Filename](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/filename) { get; set; } | الحصول على أو تعيين سلسلة حروف ASCII اختيارية تحدد اسم لملف يحتوي على ملف تعريف ألوان. إذا كان اسم الملف هو محددًا ، وامتداد[`ColorSpaceType`](./colorspacetype) تم تعيين الحقل إلى LCS_CALIBRATED_RGB ، يجب أن يتم تجاهل الحقول الأخرى في هذا الهيكل. |
-| [GammaBlue](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammablue) { get; set; } | الحصول على أو تعيين قيمة نقطة ثابتة 32 بت تحدد منحنى استجابة toned للأزرق. إذا كان[`ColorSpaceType`](./colorspacetype) لا يحدد field LCS_CALIBRATED_RGB ، يجب تجاهل هذا الحقل. |
-| [GammaGreen](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammagreen) { get; set; } | الحصول على أو تعيين قيمة نقطة ثابتة 32 بت تحدد منحنى استجابة toned للأخضر. إذا كان[`ColorSpaceType`](./colorspacetype) لا يحدد field LCS_CALIBRATED_RGB ، يجب تجاهل هذا الحقل. |
-| [GammaRed](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammared) { get; set; } | الحصول على أو تعيين قيمة نقطة ثابتة 32 بت تحدد منحنى استجابة toned للأحمر. إذا كان[`ColorSpaceType`](./colorspacetype) لا يحدد field LCS_CALIBRATED_RGB ، يجب تجاهل هذا الحقل. |
-| [Intent](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/intent) { get; set; } | الحصول على أو تعيين عدد صحيح موقّع 32 بت يحدد نطاق تعيين النطاق اللوني intent. يجب تعريفه في GamutMappingIntent enumeration (القسم 2.1.1.11). |
-| [Signature](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/signature) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد signature من كائنات الفضاء اللوني ؛ يجب أن يتم تعيينه إلى القيمة 0x50534F43 ، وهو ترميز ASCII لسلسلة string "PSOC" . |
-| [Size](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد size من هذا الكائن بالبايت. |
-| [Version](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/version) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة يبلغ 32 بت يحدد a version رقم؛ يجب أن يكون 0x00000400. |
+| [ColorSpaceType](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32‑بت يحدد نوع مساحة اللون. يجب أن يكون معرفًا في تعداد LogicalColorSpace (القسم 2.1.1.14). إذا كانت هذه القيمة LCS_sRGB أو LCS_WINDOWS_COLOR_SPACE، يجب استخدام مساحة اللون sRGB. |
+| [Endpoints](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/endpoints/) { get; set; } | يحصل أو يعيّن كائن CIEXYZTriple (القسم 2.2.2.7) الذي يحدد إحداثيات اللون CIE x, y, z للثلاثة ألوان التي تتطابق مع نقاط النهاية RGB لمساحة اللون المنطقية المرتبطة بالبت ماب. إذا كان الحقل [`ColorSpaceType`](./colorspacetype/) لا يحدد LCS_CALIBRATED_RGB، يجب تجاهل هذا الحقل. |
+| [Filename](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/filename/) { get; set; } | يسترجع أو يعيّن سلسلة اختيارية من أحرف ASCII تحدد اسم ملف يحتوي على ملف تعريف لون. إذا تم تحديد اسم ملف، وكان حقل [`ColorSpaceType`](./colorspacetype/) مضبوطًا على LCS_CALIBRATED_RGB، يجب تجاهل الحقول الأخرى في هذه البنية. |
+| [GammaBlue](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammablue/) { get; set; } | يحصل أو يعيّن قيمة ثابتة 32‑بت تحدد منحنى الاستجابة للون الأزرق. إذا كان الحقل [`ColorSpaceType`](./colorspacetype/) لا يحدد LCS_CALIBRATED_RGB، يجب تجاهل هذا الحقل. |
+| [GammaGreen](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammagreen/) { get; set; } | يسترجع أو يعيّن قيمة ثابتة بنقطة عائمة 32‑بت تُعرّف منحنى الاستجابة الملون للأخضر. إذا لم يُحدد حقل [`ColorSpaceType`](./colorspacetype/) القيمة LCS_CALIBRATED_RGB، يجب تجاهل هذا الحقل. |
+| [GammaRed](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammared/) { get; set; } | يسترجع أو يعيّن قيمة ثابتة بنقطة عائمة 32‑بت تُعرّف منحنى الاستجابة الملون للأحمر. إذا لم يُحدد حقل [`ColorSpaceType`](./colorspacetype/) القيمة LCS_CALIBRATED_RGB، يجب تجاهل هذا الحقل. |
+| [Intent](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/intent/) { get; set; } | يسترجع أو يعيّن عددًا صحيحًا موقعًا 32‑بت يُعرّف نية تخطيط النطاق اللوني. يجب أن يكون مُعرّفًا في تعداد GamutMappingIntent (القسم 2.1.1.11). |
+| [Signature](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/signature/) { get; set; } | يسترجع أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدّد توقيع كائنات مساحة اللون؛ يجب تعيينه إلى القيمة 0x50534F43، وهي ترميز ASCII للسلسلة "PSOC". |
+| [Size](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم هذا الكائن بالبايتات. |
+| [Version](../../aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/version/) { get; set; } | يسترجع أو يعيّن عددًا صحيحًا غير موقع 32‑بت يُعرّف رقم الإصدار؛ يجب أن يكون 0x00000400. |
 
-### ملاحظات
+## ملاحظات
 
-يتم استخدام حقول نقاط النهاية و GammaRed و GammaGreen و GammaBlue لتحديد مساحة لونية منطقية. حقل نقاط النهاية هو كائن CIEXYZTriple يحتوي على قيم x و y و z لنقطة نهاية RGB لمساحة اللون_ . يتم التعبير عن العلاقة بين قيم التحفيز الثلاثي X و Y و Z و قيم اللونية x و y و z على النحو التالي. x = X / (X + Y + Z) y = Y / (X + Y + Z) z = Z / (X + Y + Z) تحتوي حقول GammaRed و GammaGreen و GammaBlue على قيم في "8.8 نقطة ثابتة" تنسيق ، وهو أسلوب لـ يمثل أرقامًا غير صحيحة. وتتكون كل قيمة من مقدار 8 بتات ممدود بقيمة صفر ممدود متبوعًا بكسر مكون من 8 بتات ، مع إزاحة 16 بتات إلى اليسار بمقدار 8 بتات. وهكذا ، في 32 بت ، القيمة الحقيقية NF هي 00000000nnnnnnnnffffffff00000000 ، حيث "nnnnnnnn" و "ffffffff" هي تمثيلات ثنائية لـ N و F ، على التوالي. على سبيل المثال ، بالنسبة إلى الرقم الحقيقي 10.5 ، سيكون nnnnnnnn هو 00001010 (ثنائي 10) وسيكون ffffffff 00000101 (ثنائي 5) ، وستكون القيمة الثنائية 32 بت الكاملة 00000000000010100000010100000000 ، وهي القيمة السداسية العشرية 0 x000.
+تُستخدم حقول Endpoints و GammaRed و GammaGreen و GammaBlue لتحديد مساحة لون منطقية. حقل Endpoints هو كائن CIEXYZTriple يحتوي على قيم x و y و z لنقطة النهاية RGB لمساحة اللون. تُعبّر العلاقة بين قيم الثلاثية X,Y,Z وقيم الإشعاعية x,y,z كما يلي. x = X/(X+Y+Z) y = Y/(X+Y+Z) z = Z/(X+Y+Z) تحتوي حقول GammaRed و GammaGreen و GammaBlue على قيم بتنسيق "8.8 fixed point"، وهو أسلوب لتمثيل الأعداد غير الصحيحة. كل قيمة تتكوّن من مقدار 8‑بت ممتد بالصفر يليه جزء كسر 8‑بت، مع إزاحة الـ 16‑بت المدمجة إلى اليسار بمقدار 8‑بت. وبالتالي، في 32‑بت، القيمة الحقيقية N.F هي 00000000nnnnnnnnffffffff00000000، حيث "nnnnnnnn" و "ffffffff" تمثيلات ثنائية لـ N و F على التوالي. على سبيل المثال، للعدد الحقيقي 10.5، سيكون nnnnnnnn هو 00001010 (ثنائي 10) و ffffffff هو 00000101 (ثنائي 5)، وستكون القيمة الثنائية الكاملة 32‑بت هي 00000000000010100000010100000000، وهي القيمة السداسية عشرية 0x0A50.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [MetaObject](../../aspose.imaging.fileformats.emf/metaobject)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Wmf.Objects](../../aspose.imaging.fileformats.wmf.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [MetaObject](../../aspose.imaging.fileformats.emf/metaobject/)
+* namespace [Aspose.Imaging.FileFormats.Wmf.Objects](../../aspose.imaging.fileformats.wmf.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

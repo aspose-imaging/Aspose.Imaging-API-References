@@ -1,62 +1,62 @@
 ---
-title: OdGraphicStyle
-second_title: Aspose.Imaging لمرجع NET API
-description: نمط رسم المستند المفتوح.
+title: "الفئة OdGraphicStyle"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.OpenDocument.Objects.OdGraphicStyle. نمط الرسومات للمستند المفتوح"
 type: docs
-weight: 7320
+weight: 7430
 url: /ar/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
 ---
 ## OdGraphicStyle class
 
-نمط رسم المستند المفتوح.
+نمط الرسومات للمستند المفتوح.
 
 ```csharp
 public class OdGraphicStyle
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [OdGraphicStyle](odgraphicstyle)() | Default_Constructor |
+| [OdGraphicStyle](odgraphicstyle/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Brush](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/brush) { get; set; } | يحصل على الفرشاة. |
-| [EndGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endguide) { get; set; } | الحصول على دليل النهاية أو تعيينه . |
-| [EndMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarker) { get; set; } | الحصول على أو تحديد علامة النهاية . |
-| [EndMarkerWidth](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarkerwidth) { get; set; } | الحصول على أو تحديد عرض نهاية العلامة. |
-| [Font](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/font) { get; } | يحصل على الخط . |
-| [LineHeight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/lineheight) { get; set; } | الحصول على ارتفاع الخط أو تحديده . |
-| [MarginBottom](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/marginbottom) { get; set; } | الحصول على الهامش السفلي أو تحديده . |
-| [MarginTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/margintop) { get; set; } | الحصول على الهامش العلوي أو تحديده . |
-| [MeasureLineDistance](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/measurelinedistance) { get; set; } | الحصول على أو تحديد مسافة خط القياس . |
-| [Opacity](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/opacity) { get; set; } | الحصول على التعتيم أو تعيينه. |
-| [PaddingBottom](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingbottom) { get; set; } | الحصول على أو تحديد الجزء السفلي من المساحة المتروكة . |
-| [PaddingLeft](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingleft) { get; set; } | الحصول على المساحة المتروكة أو تعيينها لليسار . |
-| [PaddingRight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingright) { get; set; } | الحصول على المساحة المتروكة أو تعيينها بشكل صحيح . |
-| [PaddingTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingtop) { get; set; } | الحصول على أو تعيين الجزء العلوي من المساحة المتروكة . |
-| [Pen](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/pen) { get; } | يحصل على القلم. |
-| [SpaceBefore](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/spacebefore) { get; set; } | الحصول على المسافة أو تحديدها من قبل . |
-| [StartGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startguide) { get; set; } | الحصول على دليل البدء أو تعيينه. |
-| [StartMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarker) { get; set; } | الحصول على أو تعيين علامة البداية . |
-| [StartMarkerWidth](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarkerwidth) { get; set; } | الحصول على عرض بداية العلامة أو تحديده. |
-| [StylePosition](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/styleposition) { get; set; } | الحصول على وضع النمط أو تحديده. |
-| [TextAlign](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/textalign) { get; set; } | الحصول على محاذاة النص أو تعيينها. |
-| [TextColor](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/textcolor) { get; set; } | الحصول على لون النص أو تحديده. |
-| [TransformInfo](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/transforminfo) { get; } | يحصل على معلومات التحويل . |
+| [Brush](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/brush/) { get; set; } | يسترجع الفرشاة. |
+| [EndGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endguide/) { get; set; } | يسترجع أو يضبط دليل النهاية. |
+| [EndMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarker/) { get; set; } | يسترجع أو يضبط علامة النهاية. |
+| [EndMarkerWidth](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarkerwidth/) { get; set; } | يسترجع أو يضبط عرض النهاية للعلامة. |
+| [Font](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/font/) { get; } | يسترجع الخط. |
+| [LineHeight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/lineheight/) { get; set; } | يسترجع أو يضبط ارتفاع السطر. |
+| [MarginBottom](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/marginbottom/) { get; set; } | يسترجع أو يضبط الهامش السفلي. |
+| [MarginTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/margintop/) { get; set; } | يسترجع أو يضبط الهامش العلوي. |
+| [MeasureLineDistance](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/measurelinedistance/) { get; set; } | يسترجع أو يضبط مسافة خط القياس. |
+| [Opacity](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/opacity/) { get; set; } | يحصل أو يضبط الشفافية. |
+| [PaddingBottom](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingbottom/) { get; set; } | يسترجع أو يضبط الحشو السفلي. |
+| [PaddingLeft](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingleft/) { get; set; } | يسترجع أو يضبط الحشو الأيسر. |
+| [PaddingRight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingright/) { get; set; } | يسترجع أو يضبط الحشو الأيمن. |
+| [PaddingTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingtop/) { get; set; } | يسترجع أو يضبط الحشو العلوي |
+| [Pen](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/pen/) { get; } | يسترجع القلم. |
+| [SpaceBefore](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/spacebefore/) { get; set; } | يسترجع أو يضبط المسافة قبل. |
+| [StartGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startguide/) { get; set; } | يسترجع أو يضبط دليل البداية. |
+| [StartMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarker/) { get; set; } | يسترجع أو يضبط علامة البداية. |
+| [StartMarkerWidth](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarkerwidth/) { get; set; } | يسترجع أو يضبط عرض البداية للعلامة. |
+| [StylePosition](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/styleposition/) { get; set; } | يسترجع أو يضبط موضع النمط. |
+| [TextAlign](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/textalign/) { get; set; } | يسترجع أو يضبط محاذاة النص. |
+| [TextColor](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/textcolor/) { get; set; } | يسترجع أو يضبط لون النص. |
+| [TransformInfo](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/transforminfo/) { get; } | يسترجع معلومات التحويل. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Copy](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/copy)() | ينسخ هذا المثال . |
+| [Copy](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/copy/)() | ينسخ هذه المثيلة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.OpenDocument.Objects](../../aspose.imaging.fileformats.opendocument.objects)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.OpenDocument.Objects](../../aspose.imaging.fileformats.opendocument.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
