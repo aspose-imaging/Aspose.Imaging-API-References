@@ -1,0 +1,146 @@
+---
+title: "TiffLongType"
+second_title: "Aspose.Imaging för Java API-referens"
+description: "tiff long-typen."
+type: docs
+weight: 18
+url: /sv/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+```
+public final class TiffLongType extends TiffCommonArrayType
+```
+
+tiff long-typen.
+## Konstruktörer
+
+| Konstruktor | Beskrivning |
+| --- | --- |
+| [TiffLongType(int tagId)](#TiffLongType-int-) | Initierar en ny instans av klassen `TiffLongType`. |
+## Metoder
+
+| Metod | Beskrivning |
+| --- | --- |
+| [getValues()](#getValues--) | Hämtar eller anger värdena. |
+| [setValues(long[] value)](#setValues-long---) | Hämtar eller anger värdena. |
+| [getValuesContainer()](#getValuesContainer--) | Hämtar värdebehållaren. |
+| [getElementSize()](#getElementSize--) | Hämtar elementets storlek i byte. |
+| [getTagType()](#getTagType--) | Hämtar taggtypen. |
+| [getValue()](#getValue--) | Hämtar eller anger värdet som den här datatypen innehåller. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Hämtar eller anger värdet som den här datatypen innehåller. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | Skriver den extra taggdata. |
+### TiffLongType(int tagId) {#TiffLongType-int-}
+```
+public TiffLongType(int tagId)
+```
+
+
+Initierar en ny instans av klassen `TiffLongType`.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| tagId | int | Tagg‑id‑et. |
+
+### getValues() {#getValues--}
+```
+public long[] getValues()
+```
+
+
+Hämtar eller anger värdena.
+
+Värde: Värdena.
+
+**Returns:**
+long[]
+### setValues(long[] value) {#setValues-long---}
+```
+public void setValues(long[] value)
+```
+
+
+Hämtar eller anger värdena.
+
+Värde: Värdena.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | long[] |  |
+
+### getValuesContainer() {#getValuesContainer--}
+```
+public System.Array getValuesContainer()
+```
+
+
+Hämtar värdebehållaren.
+
+Värde: Behållaren för värdena.
+
+**Returns:**
+com.aspose.ms.System.Array
+### getElementSize() {#getElementSize--}
+```
+public byte getElementSize()
+```
+
+
+Hämtar elementets storlek i byte.
+
+Värde: Elementets storlek i byte.
+
+**Returns:**
+byte
+### getTagType() {#getTagType--}
+```
+public int getTagType()
+```
+
+
+Hämtar taggtypen.
+
+Värde: Taggtypen.
+
+**Returns:**
+int
+### getValue() {#getValue--}
+```
+public Object getValue()
+```
+
+
+Hämtar eller anger värdet som den här datatypen innehåller.
+
+**Returns:**
+java.lang.Object
+### setValue(Object value) {#setValue-java.lang.Object-}
+```
+public void setValue(Object value)
+```
+
+
+Hämtar eller anger värdet som den här datatypen innehåller.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | java.lang.Object |  |
+
+### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
+```
+public long writeAdditionalData(TiffStreamWriter dataStream)
+```
+
+
+Skriver den extra taggdata.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | Datastreamen. |
+
+**Returns:**
+long - De faktiska skrivna byten.
