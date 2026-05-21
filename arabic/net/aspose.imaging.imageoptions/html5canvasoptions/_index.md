@@ -1,53 +1,56 @@
 ---
-title: Html5CanvasOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات إنشاء تنسيق ملف Html5 Canvas .
+title: "الفئة Html5CanvasOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.ImageOptions.Html5CanvasOptions. أنشئ ملفات HTML5 Canvas بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تتيح لك دمج العناصر مثل النماذج والنصوص والصور والرسوم المتحركة والروابط بسلاسة. استفد من ميزات قوية تشمل معرف العلامة وإعدادات الترميز لضمان الأداء الأمثل وتخصيص مشاريع الويب الخاصة بك"
 type: docs
-weight: 10010
+weight: 10360
 url: /ar/net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 ## Html5CanvasOptions class
 
-خيارات إنشاء تنسيق ملف Html5 Canvas .
+أنشئ ملفات HTML5 Canvas بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مما يتيح لك دمج العناصر مثل النماذج والنصوص والصور والرسوم المتحركة والروابط بسلاسة. استفد من ميزات قوية تشمل دعم معرف العلامة وإعدادات الترميز، لضمان أداء مثالي وتخصيص لمشاريع الويب الخاصة بك.
 
 ```csharp
 public class Html5CanvasOptions : ImageOptionsBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Html5CanvasOptions](html5canvasoptions)() | Default_Constructor |
+| [Html5CanvasOptions](html5canvasoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid) { get; set; } | الحصول على معرف علامة اللوحة القماشية أو تعيينه. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding) { get; set; } | الحصول على الترميز أو تعيينه . |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [إطار كامل] . |
-| [FullHtmlPage](../../aspose.imaging.imageoptions/html5canvasoptions/fullhtmlpage) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إنشاء صفحة HTML كاملة . |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | خيارات متعدد الصفحات |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها . |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | الحصول على معالج حدث التقدم أو تعيينه. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | الحصول على إعدادات الدقة أو تعيينها . |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | الحصول على أو تعيين المصدر لإنشاء الصورة فيه. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | الحصول على أو تعيين خيارات التحويل النقطي للمتجه. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | الحصول على أو تعيين حاوية بيانات تعريف XMP. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي يحدد الحد الأقصى المسموح به لجميع المخازن الداخلية. |
+| [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid/) { get; set; } | يحصل أو يعيّن معرف وسم الـ canvas. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding/) { get; set; } | يسترجع أو يعيّن الترميز. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | الحصول على أو تعيين بيانات Exif. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان [full frame]. |
+| [FullHtmlPage](../../aspose.imaging.imageoptions/html5canvasoptions/fullhtmlpage/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إنشاء صفحة HTML كاملة. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | خيارات الصفحات المتعددة |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | يحصل أو يضبط لوحة الألوان. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | يحصل أو يضبط معالج حدث التقدم. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | يحصل أو يضبط إعدادات الدقة. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | يحصل أو يضبط المصدر لإنشاء الصورة فيه. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | يحصل أو يضبط خيارات تحويل المتجه إلى نقطية. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | يحصل أو يضبط حاوية بيانات تعريف XMP. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | استنساخ هذا المثال . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | ينشئ نسخة عضوية من هذه الحالة. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | يحاول تعيين مثيل *metadata*، إذا كان مثيل [`Image`](../../aspose.imaging/image/) يدعم ويطبق مثيل [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/). |
 
-### أمثلة
+## أمثلة
 
-يمكن استخدام أي صورة متجهة (SVG ، و WMF ، و CMX ، وما إلى ذلك) كمصدر لصور Canvas الخاصة بك. الكود التالي ينشئ صورة قماشية بسيطة.
+يمكن استخدام أي صورة متجهة (SVG، WMF، CMX، إلخ) كمصدر لصور الـ Canvas الخاصة بك. الشيفرة التالية تنشئ صورة Canvas بسيطة.
 
 ```csharp
 [C#]
@@ -61,7 +64,7 @@ using (var image = Image.Load(@"Sample.svg"))
 }
 ```
 
-يمكنك تضمين أكثر من صورة Canvas واحدة في صفحة HTML أو تحديث الصفحة الخارجة بالفعل. للقيام بذلك ، تحتاج إلى تصدير علامة Canvas فقط.
+يمكنك تضمين أكثر من صورة Canvas داخل صفحة HTML أو تحديث صفحة موجودة بالفعل. للقيام بذلك تحتاج إلى تصدير وسم الـ Canvas فقط.
 
 ```csharp
 [C#]
@@ -76,10 +79,10 @@ using (var image = Image.Load(@"Sample.svg"))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

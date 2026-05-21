@@ -1,48 +1,48 @@
 ---
-title: EmfPlusImageEffectsIdentifiers
-second_title: Aspose.Imaging لمرجع NET API
-description: تعرف معرفات ImageEffects GUIDs القياسية لتحديد تأثيرات صورة الرسومات. يتم استخدام هذه المعرفات بواسطة برامج تشغيل الأجهزة لنشر مستويات دعمها لهذه التأثيرات. يتم تعريف ثوابت المعرف باستخدام تمثيل سلسلة GUID المتعرج المتعرج القسم MS-DTYP 2.3.4.3 .
+title: "الفئة EmfPlusImageEffectsIdentifiers"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusImageEffectsIdentifiers. تُعرّف معرفات ImageEffects GUIDs قياسية لتحديد تأثيرات الصور الرسومية. تُستخدم هذه المعرفات بواسطة برامج تشغيل الأجهزة لنشر مستويات الدعم لهذه التأثيرات. تُعرّف ثوابت المعرف باستخدام تمثيل السلسلة الملتفة بـ GUID وفقًا لقسم MSDTYP 2.3.4.3"
 type: docs
-weight: 4860
+weight: 4980
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
 ---
 ## EmfPlusImageEffectsIdentifiers class
 
-تعرف معرفات ImageEffects GUIDs القياسية لتحديد تأثيرات صورة الرسومات. يتم استخدام هذه المعرفات بواسطة برامج تشغيل الأجهزة لنشر مستويات دعمها لهذه التأثيرات. يتم تعريف ثوابت المعرف باستخدام تمثيل سلسلة GUID المتعرج المتعرج (القسم [MS-DTYP] 2.3.4.3) .
+معرفات ImageEffects تعرف GUIDs قياسية لتحديد تأثيرات صور الرسومات. تُستخدم هذه المعرفات بواسطة برامج تشغيل الأجهزة لنشر مستويات دعمها لهذه التأثيرات. تُعرّف ثوابت المعرف باستخدام تمثيل سلسلة GUID بين أقواس معقوفة ([MS-DTYP] القسم 2.3.4.3).
 
 ```csharp
 public static class EmfPlusImageEffectsIdentifiers
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [Contain](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/contain)(string) | يحتوي على المعرف الفريد للكائن المحدد. |
+| static [Contain](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/contain/)(string) | يحتوي على معرف الكائن الفريد المحدد. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [BlurEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/blureffectguid) | يحدد تأثير التمويه . |
-| const [BrightnessContrastEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/brightnesscontrasteffectguid) | يحدد تأثير تباين السطوع . |
-| const [ColorBalanceEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorbalanceeffectguid) | يحدد تأثير توازن اللون. |
-| const [ColorCurveEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorcurveeffectguid) | يحدد تأثير منحنى اللون. |
-| const [ColorLookupTableEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorlookuptableeffectguid) | يحدد تأثير جدول البحث عن اللون. |
-| const [ColorMatrixEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colormatrixeffectguid) | يحدد تأثير مصفوفة اللون. |
-| const [HueSaturationLightnessEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/huesaturationlightnesseffectguid) | يحدد تأثير إضاءة تشبع الصبغة. |
-| const [LevelsEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/levelseffectguid) | يحدد تأثير المستويات . |
-| const [RedEyeCorrectionEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/redeyecorrectioneffectguid) | يحدد تأثير تصحيح العين الحمراء. |
-| const [SharpenEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/sharpeneffectguid) | يحدد تأثير الوضوح . |
-| const [TintEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/tinteffectguid) | يحدد تأثير الصبغة . |
+| const [BlurEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/blureffectguid/) | يحدد تأثير الضبابية. |
+| const [BrightnessContrastEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/brightnesscontrasteffectguid/) | يحدد تأثير سطوع وتباين. |
+| const [ColorBalanceEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorbalanceeffectguid/) | يحدد تأثير توازن اللون. |
+| const [ColorCurveEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorcurveeffectguid/) | يحدد تأثير منحنى اللون. |
+| const [ColorLookupTableEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorlookuptableeffectguid/) | يحدد تأثير جدول البحث اللوني. |
+| const [ColorMatrixEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colormatrixeffectguid/) | يحدد تأثير مصفوفة اللون. |
+| const [HueSaturationLightnessEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/huesaturationlightnesseffectguid/) | يحدد تأثير درجة اللون والتشبع والإضاءة. |
+| const [LevelsEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/levelseffectguid/) | يحدد تأثير المستويات. |
+| const [RedEyeCorrectionEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/redeyecorrectioneffectguid/) | يحدد تأثير تصحيح العين الحمراء. |
+| const [SharpenEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/sharpeneffectguid/) | يحدد تأثير الشحذ. |
+| const [TintEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/tinteffectguid/) | يحدد تأثير الصبغة. |
 
-### ملاحظات
+## ملاحظات
 
-معرفات تأثيرات الصورة وكتل معلمات تأثيرات الصورة محددة بواسطة[`EmfPlusSerializableObject`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject) سجلات[`EmfPlusDrawImagePoints`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints) السجلات .
+يتم تحديد معرفات تأثيرات الصورة وكتل معلمات تأثيرات الصورة بواسطة سجلات [`EmfPlusSerializableObject`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/) لسجلات [`EmfPlusDrawImagePoints`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/).
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

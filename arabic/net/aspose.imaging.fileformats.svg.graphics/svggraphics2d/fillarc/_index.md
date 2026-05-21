@@ -1,28 +1,28 @@
 ---
-title: FillArc
-second_title: Aspose.Imaging لمرجع NET API
-description: يملأ قوسًا يمثل جزءًا من القطع الناقص المحدد بواسطة بنية مستطيل.
+title: "SvgGraphics2D.FillArc"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة SvgGraphics2D. تملأ قوسًا يمثل جزءًا من إهليلج محدد بواسطة بنية Rectangle"
 type: docs
 weight: 100
 url: /ar/net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/fillarc/
 ---
 ## SvgGraphics2D.FillArc method
 
-يملأ قوسًا يمثل جزءًا من القطع الناقص المحدد بواسطة بنية مستطيل.
+يملأ قوسًا يمثل جزءًا من قطع ناقص محدد بواسطة بنية Rectangle.
 
 ```csharp
 public void FillArc(Pen pen, Brush brush, Rectangle rect, float startAngle, float arcAngle)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pen | Pen | القلم لرسم الخطوط العريضة للشكل. |
-| brush | Brush | الفرشاة لملء الجزء الداخلي من الشكل. |
+| قلم | قلم | القلم لرسم حدود الشكل. |
+| فرشاة | فرشاة | الفرشاة لملء داخل الشكل. |
 | rect | Rectangle | حدود القطع الناقص. |
-| startAngle | Single | يتم قياس الزاوية بالدرجات في اتجاه عقارب الساعة من المحور x إلى نقطة بداية القوس. |
-| arcAngle | Single | يتم قياس الزاوية بالدرجات في اتجاه عقارب الساعة من معلمة startAngle إلى نقطة نهاية القوس. |
+| startAngle | فردي | الزاوية بالدرجات المقاسة باتجاه عقارب الساعة من محور x إلى نقطة بدء القوس. |
+| arcAngle | فردي | الزاوية بالدرجات المقاسة باتجاه عقارب الساعة من معامل startAngle إلى نقطة انتهاء القوس. |
 
-### أمثلة
+## أمثلة
 
 يوضح هذا المثال كيفية إنشاء صورة SVG بالحجم المحدد ورسم أشكال مختلفة عليها باستخدام SvgGraphics2D.
 
@@ -37,23 +37,23 @@ int dpi = 96;
 
 Aspose.Imaging.FileFormats.Svg.Graphics.SvgGraphics2D graphics = new Aspose.Imaging.FileFormats.Svg.Graphics.SvgGraphics2D(imageWidth, imageHeight, dpi);
 
-// ارسم مستطيلًا أسود على طول حدود الصورة باستخدام قلم أسود بعرض 1 بكسل.
+// ارسم مستطيلًا أسود على حدود الصورة باستخدام قلم أسود بعرض بكسل واحد.
 graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 1), 0, 0, imageWidth, imageHeight);
 
-// املأ مستطيلاً بلون الدخان الأبيض.
+// املأ مستطيلًا بلون الدخان الأبيض.
 graphics.FillRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.WhiteSmoke, 1), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.WhiteSmoke), 10, 10, 580, 380);
 
-// ارسم خطين قطريين باستخدام قلم أخضر غامق بعرض 1 بكسل.
+// ارسم خطين قطريين باستخدام قلم أخضر داكن بعرض بكسل واحد.
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, 0, imageWidth, imageHeight);
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, imageHeight, imageWidth, 0);
 
-// ارسم قوسًا داخل المستطيل {0 ، 0 ، 200 ، 200} باستخدام قلم أزرق بعرض 2 بكسل.
+// ارسم قوسًا داخل المستطيل {0, 0, 200, 200} باستخدام قلم أزرق بعرض بكسلين.
 graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
 // املأ قوسًا
 graphics.FillArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.LightCoral, 10), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.LightSkyBlue), new Aspose.Imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// ارسم بيزيرًا مكعبًا باستخدام قلم أحمر بعرض 2 بكسل.
+// ارسم منحنى بيزير مكعب باستخدام قلم أحمر بعرض بكسلين.
 graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.PointF(0, 0),
     new Aspose.Imaging.PointF(200, 133),
@@ -61,7 +61,7 @@ graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.PointF(600, 400));
 
 // ارسم صورة نقطية بالحجم المحدد في الموقع المحدد.
-// تم تحجيم الصورة لتناسب المستطيل المطلوب.
+// يتم تحجيم الصورة لتناسب المستطيل المطلوب.
 using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
     graphics.DrawImage(imageToDraw, new Aspose.Imaging.Point(400, 200), new Aspose.Imaging.Size(100, 50));
@@ -70,7 +70,7 @@ using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspo
 // ارسم سلسلة نصية
 graphics.DrawString(new Aspose.Imaging.Font("Arial", 48, Aspose.Imaging.FontStyle.Regular), "Hello World!", new Aspose.Imaging.Point(200, 300), Aspose.Imaging.Color.DarkRed);
 
-// إنشاء مسار لملء
+// إنشاء مسار للتعبئة
 Aspose.Imaging.Figure figureToFill = new Aspose.Imaging.Figure();
 figureToFill.IsClosed = true;
 
@@ -96,7 +96,7 @@ figureToFill.AddShapes(new Shape[]
         new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(0, 100, 200, 200)),
     });
 
-// املأ المسار باستخدام فرشاة صفراء وقلم أخضر لرسم مخطط تفصيلي
+// املأ المسار باستخدام فرشاة صفراء وقلم أخضر لرسم الحدود
 graphics.FillPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Yellow), pathToFill);
 
 // إنشاء مسار للرسم
@@ -112,20 +112,20 @@ figureToDraw.AddShapes(new Aspose.Imaging.Shape[]
 // ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسل.
 graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 5), pathToDraw);
 
-// احصل على صورة SVG النهائية التي تتضمن جميع أوامر الرسم
+// احصل على صورة SVG النهائية التي تشمل جميع أوامر الرسم.
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = graphics.EndRecording())
 {
     svgImage.Save(dir + "test.output.svg");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../../aspose.imaging/pen)
-* class [Brush](../../../aspose.imaging/brush)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [SvgGraphics2D](../../svggraphics2d)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Svg.Graphics](../../svggraphics2d)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../../aspose.imaging/pen/)
+* class [Brush](../../../aspose.imaging/brush/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [SvgGraphics2D](../)
+* namespace [Aspose.Imaging.FileFormats.Svg.Graphics](../../svggraphics2d/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

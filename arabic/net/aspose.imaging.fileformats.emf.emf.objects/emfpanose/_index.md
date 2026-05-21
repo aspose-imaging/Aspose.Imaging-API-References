@@ -1,44 +1,44 @@
 ---
-title: EmfPanose
-second_title: Aspose.Imaging لمرجع NET API
-description: يصف كائن Panose قيم تصنيف الخط PANOSE لخط TrueType. تُستخدم خصائص هذه لربط الخط بخطوط أخرى ذات مظهر مشابه ولكن بأسماء مختلفة.
+title: "الفئة EmfPanose"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfPanose. كائن Panose يصف قيم تصنيف الخط PANOSE لخط TrueType. تُستخدم هذه الخصائص لربط الخط بخطوط أخرى ذات مظهر مشابه لكن بأسماء مختلفة."
 type: docs
-weight: 3110
+weight: 3200
 url: /ar/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/
 ---
 ## EmfPanose class
 
-يصف كائن Panose قيم تصنيف الخط PANOSE لخط TrueType. تُستخدم خصائص هذه لربط الخط بخطوط أخرى ذات مظهر مشابه ولكن بأسماء مختلفة.
+كائن Panose يصف قيم تصنيف الخط PANOSE لخط TrueType. تُستخدم هذه الخصائص لربط الخط بخطوط أخرى ذات مظهر مشابه ولكن بأسماء مختلفة.
 
 ```csharp
 public sealed class EmfPanose : EmfObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPanose](emfpanose)() | Default_Constructor |
+| [EmfPanose](emfpanose/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ArmStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/armstyle) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد نمط الذراع للخط. يجب أن تكون القيمة في جدول التعداد ArmStyle (القسم 2.1.3). |
-| [Contrast](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/contrast) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد تباين الخط. يجب أن تكون القيمة في جدول التباين (القسم 2.1.8). |
-| [FamilyType](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/familytype) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد نوع العائلة. يجب أن تكون القيمة في جدول التعداد FamilyType (القسم 2.1.12). |
-| [Letterform](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/letterform) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد شكل الحرف الخاص بالخط. يجب أن تكون قيمة في Letterform (القسم 2.1.20) جدول التعداد |
-| [Midline](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/midline) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد خط الوسط للخط. يجب أن تكون القيمة في MidLine (القسم 2.1.23) في جدول التعداد. |
-| [Proportion](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/proportion) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد نسبة الخط. يجب أن تكون قيمة في جدول التعداد النسبي (القسم 2.1.28). |
-| [SerifStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/serifstyle) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد نمط serif. يجب أن تكون القيمة في جدول التعداد SerifType (القسم 2.1.30). |
-| [StrokeVariation](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/strokevariation) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد تباين الحد للخط . يجب أن تكون القيمة في جدول تعداد StrokeVariation (القسم 2.1.33). |
-| [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/weight) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد وزن الخط. يجب أن تكون القيمة في جدول التعداد "الوزن" (القسم 2.1.34). |
-| [XHeight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/xheight) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد الارتفاع × للخط. يجب أن تكون القيمة في جدول تعداد XHeight (القسم 2.1.35). |
+| [ArmStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/armstyle/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد نمط الذراع للخط. يجب أن تكون القيمة ضمن جدول تعداد ArmStyle (القسم 2.1.3). |
+| [Contrast](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/contrast/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد التباين للخط. يجب أن تكون القيمة ضمن جدول تعداد Contrast (القسم 2.1.8). |
+| [FamilyType](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/familytype/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد نوع العائلة. يجب أن تكون القيمة ضمن جدول تعداد FamilyType (القسم 2.1.12). |
+| [Letterform](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/letterform/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد شكل الحرف للخط. يجب أن تكون القيمة ضمن جدول تعداد Letterform (القسم 2.1.20). |
+| [Midline](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/midline/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد الخط الأوسط للخط. يجب أن تكون القيمة ضمن جدول تعداد MidLine (القسم 2.1.23). |
+| [Proportion](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/proportion/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد النسبة للخط. يجب أن تكون القيمة ضمن جدول تعداد Proportion (القسم 2.1.28). |
+| [SerifStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/serifstyle/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد نمط السيريف. يجب أن تكون القيمة ضمن جدول تعداد SerifType (القسم 2.1.30). |
+| [StrokeVariation](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/strokevariation/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد تباين الضربة للخط. يجب أن تكون القيمة ضمن جدول تعداد StrokeVariation (القسم 2.1.33). |
+| [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/weight/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد وزن الخط. يجب أن تكون القيمة ضمن جدول تعداد Weight (القسم 2.1.34). |
+| [XHeight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/xheight/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد ارتفاع X للخط. يجب أن تكون القيمة ضمن جدول تعداد XHeight (القسم 2.1.35). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfObject](../emfobject)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfObject](../emfobject/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: CmxRasterImage
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل البيانات المحددة للصور النقطية.
+title: "الفئة CmxRasterImage"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs.CmxRasterImage. تمثّل البيانات المحددة للصور النقطية"
 type: docs
-weight: 2180
+weight: 2230
 url: /ar/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/
 ---
 ## CmxRasterImage class
@@ -14,39 +14,41 @@ url: /ar/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/
 public class CmxRasterImage : ICmxObjectSpec
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CmxRasterImage](cmxrasterimage)() | Default_Constructor |
+| [CmxRasterImage](cmxrasterimage/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel) { get; set; } | الحصول على أو تعيين وحدات البت لكل بكسل. |
-| [BytesPerLine](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bytesperline) { get; set; } | الحصول على حجم الخط أو تعيينه . المقاييس بالبايت . |
-| [ColorModel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colormodel) { get; set; } | الحصول على نموذج اللون أو تعيينه . |
-| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette) { get; set; } | الحصول على أو تعيين مصفوفة لوحة الألوان . العناصر هي ARGB تمثل قيم اللون فيInt32 |
-| [CompressedSize](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compressedsize) { get; set; } | الحصول على أو تحديد الحجم المضغوط للصورة. المقاييس بالبايت . |
-| [Compression](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compression) { get; set; } | الحصول على الضغط أو تعيينه . |
-| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/height) { get; set; } | الحصول على ارتفاع الصورة أو تحديده. المقاييس بالبكسل . |
-| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا المثيل قناعًا. |
-| [RawData](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/rawdata) { get; set; } | الحصول على أو تعيين بيانات البايت الأولية للصورة. |
-| [Size](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/size) { get; set; } | الحصول على حجم الصورة أو تعيينه . القياس بالبايت . |
-| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type) { get; set; } | الحصول على أو تحديد نوع الصورة. |
-| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/width) { get; set; } | الحصول على عرض الصورة أو تحديده. المقاييس بالبكسل . |
+| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel/) { get; set; } | يحصل أو يعيّن عدد البتات لكل بكسل |
+| [BytesPerLine](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bytesperline/) { get; set; } | يحصل أو يعيّن حجم السطر. يُقاس بالبايت |
+| [ColorModel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colormodel/) { get; set; } | الحصول أو تعيين نموذج اللون. |
+| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette/) { get; set; } | يحصل أو يعيّن مصفوفة لوحة الألوان. العناصر هي قيم ألوان ARGB ممثلة في Int32 |
+| [CompressedSize](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compressedsize/) { get; set; } | يحصل أو يعيّن الحجم المضغوط للصورة. يُقاس بالبايت |
+| [Compression](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compression/) { get; set; } | الحصول أو تعيين الضغط. |
+| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/height/) { get; set; } | يحصل أو يعيّن ارتفاع الصورة. يُقاس بالبكسل |
+| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا الكائن قناعًا |
+| [RawData](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/rawdata/) { get; set; } | يحصل أو يعيّن البيانات الخام للبايت للصورة |
+| [Size](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/size/) { get; set; } | يحصل أو يعيّن حجم الصورة. يُقاس بالبايت |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type/) { get; set; } | يحصل أو يعيّن نوع الصورة. |
+| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/width/) { get; set; } | يحصل أو يعيّن عرض الصورة. يُقاس بالبكسل |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | إرجاع أString الذي يمثل هذا المثال. |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/equals/)(object) | تحقق مما إذا كانت الكائنات متساوية. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/gethashcode/)() | احصل على قيمة التجزئة للكائن الحالي. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring/)() | يرجع سلسلة تمثل هذه الحالة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [ICmxObjectSpec](../icmxobjectspec)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs](../../aspose.imaging.fileformats.cmx.objectmodel.specs)
-* المجسم [Aspose.Imaging](../../)
+* interface [ICmxObjectSpec](../icmxobjectspec/)
+* namespace [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs](../../aspose.imaging.fileformats.cmx.objectmodel.specs/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

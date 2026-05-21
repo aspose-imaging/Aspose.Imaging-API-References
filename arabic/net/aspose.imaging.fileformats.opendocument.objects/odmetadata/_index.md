@@ -1,54 +1,54 @@
 ---
-title: OdMetadata
-second_title: Aspose.Imaging لمرجع NET API
-description: البيانات الوصفية للوثيقة المفتوحة
+title: "الفئة OdMetadata"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.OpenDocument.Objects.OdMetadata فئة. البيانات الوصفية للمستند المفتوح"
 type: docs
-weight: 7330
+weight: 7440
 url: /ar/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/
 ---
 ## OdMetadata class
 
-البيانات الوصفية للوثيقة المفتوحة
+البيانات الوصفية للمستند المفتوح.
 
 ```csharp
 public class OdMetadata : OdObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [OdMetadata](odmetadata)(OdObject) | يقوم بتهيئة مثيل جديد لملف[`OdMetadata`](../odmetadata) فئة . |
+| [OdMetadata](odmetadata/)(OdObject) | يُنشئ مثلاً جديداً من الفئة `OdMetadata`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutomaticReload](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/automaticreload) { get; set; } | الحصول على أو تعيين إعادة التحميل التلقائي. |
-| [CreationDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/creationdatetime) { get; set; } | الحصول على أو تحديد وقت تاريخ الإنشاء. |
-| [Creator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/creator) { get; set; } | الحصول على أو تعيين المنشئ. |
-| [Description](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/description) { get; set; } | الحصول على الوصف أو تعيينه . |
-| [DocumentStatistics](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/documentstatistics) { get; set; } | الحصول على أو تعيين إحصائيات المستند . |
-| [DocumentTemplate](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/documenttemplate) { get; set; } | الحصول على قالب المستند أو تعيينه. |
-| [EditingCycles](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/editingcycles) { get; set; } | الحصول على دورات التحرير أو تعيينها. |
-| [EditingDuration](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/editingduration) { get; set; } | الحصول على أو تحديد مدة التحرير . |
-| [Generator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/generator) { get; set; } | الحصول على أو تعيين المولد. |
-| [HyperlinkBehavior](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/hyperlinkbehavior) { get; set; } | الحصول على سلوك الارتباط التشعبي أو تعيينه. |
-| [InitialCreator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/initialcreator) { get; set; } | الحصول على أو تعيين المنشئ الأولي. |
-| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | يحصل على العناصر . |
-| [Keywords](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/keywords) { get; set; } | الحصول على الكلمات الأساسية أو تعيينها. |
-| [Language](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/language) { get; set; } | الحصول على اللغة أو تعيينها . |
-| [ModificationDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/modificationdatetime) { get; set; } | الحصول على أو تحديد وقت تاريخ التعديل. |
-| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | الحصول على الكائن الأصل . |
-| [PrintDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/printdatetime) { get; set; } | الحصول على وقت تاريخ الطباعة أو تعيينه. |
-| [PrintedBy](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/printedby) { get; set; } | يحصل أو يحدد المطبوع بواسطة . |
-| [Subject](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/subject) { get; set; } | الحصول على الموضوع أو تعيينه . |
-| [Title](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/title) { get; set; } | الحصول على العنوان أو تعيينه . |
+| [AutomaticReload](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/automaticreload/) { get; set; } | يحصل أو يضبط إعادة التحميل التلقائي. |
+| [CreationDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/creationdatetime/) { get; set; } | يحصل أو يضبط تاريخ ووقت الإنشاء. |
+| [Creator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/creator/) { get; set; } | يحصل أو يضبط المُنشئ. |
+| [Description](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/description/) { get; set; } | يحصل أو يضبط الوصف. |
+| [DocumentStatistics](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/documentstatistics/) { get; set; } | يحصل أو يضبط إحصائيات المستند. |
+| [DocumentTemplate](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/documenttemplate/) { get; set; } | يحصل أو يضبط قالب المستند. |
+| [EditingCycles](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/editingcycles/) { get; set; } | يحصل أو يضبط دورات التحرير. |
+| [EditingDuration](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/editingduration/) { get; set; } | يحصل أو يضبط مدة التحرير. |
+| [Generator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/generator/) { get; set; } | يحصل أو يضبط المُولِّد. |
+| [HyperlinkBehavior](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/hyperlinkbehavior/) { get; set; } | يحصل أو يضبط سلوك الارتباط التشعبي. |
+| [InitialCreator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/initialcreator/) { get; set; } | يحصل أو يضبط المُنشئ الأولي. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items/) { get; } | يحصل على العناصر. |
+| [Keywords](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/keywords/) { get; set; } | يحصل أو يضبط الكلمات المفتاحية. |
+| [Language](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/language/) { get; set; } | يحصل أو يضبط اللغة. |
+| [ModificationDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/modificationdatetime/) { get; set; } | يحصل أو يضبط تاريخ ووقت التعديل. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent/) { get; } | يحصل على الكائن الأب. |
+| [PrintDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/printdatetime/) { get; set; } | يحصل أو يضبط تاريخ ووقت الطباعة. |
+| [PrintedBy](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/printedby/) { get; set; } | يحصل أو يضبط تم الطباعة بواسطة. |
+| [Subject](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/subject/) { get; set; } | يحصل أو يضبط الموضوع. |
+| [Title](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/title/) { get; set; } | يحصل أو يضبط العنوان. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [OdObject](../../aspose.imaging.fileformats.opendocument/odobject)
-* مساحة الاسم [Aspose.Imaging.FileFormats.OpenDocument.Objects](../../aspose.imaging.fileformats.opendocument.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [OdObject](../../aspose.imaging.fileformats.opendocument/odobject/)
+* namespace [Aspose.Imaging.FileFormats.OpenDocument.Objects](../../aspose.imaging.fileformats.opendocument.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

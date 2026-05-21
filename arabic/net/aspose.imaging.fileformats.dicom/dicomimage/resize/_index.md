@@ -1,28 +1,28 @@
 ---
-title: Resize
-second_title: Aspose.Imaging لمرجع NET API
-description: يغير حجم الصورة.
+title: "DicomImage.Resize"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة DicomImage. ضبط حجم الصورة باستخدام هذه الطريقة البسيطة. مثالية للمطورين الذين يرغبون في تغيير حجم الصور ديناميكيًا لضمان توافقها بسلاسة مع مختلف السياقات والتصاميم داخل تطبيقاتهم."
 type: docs
-weight: 260
+weight: 240
 url: /ar/net/aspose.imaging.fileformats.dicom/dicomimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}
 
-يغير حجم الصورة.
+قم بضبط حجم الصورة باستخدام هذه الطريقة المباشرة. مثالي للمطورين الذين يرغبون في تغيير حجم الصور ديناميكيًا، مما يضمن توافقها بسلاسة مع مختلف السياقات والتصاميم داخل تطبيقاتهم.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
 | resizeType | ResizeType | نوع تغيير الحجم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل صورة DICOM وتغيير حجمها باستخدام طرق مختلفة لتغيير الحجم.
+هذا المثال يقوم بتحميل صورة DICOM ويعيد تحجيمها باستخدام طرق تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -31,67 +31,67 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-    // قم بالزيادة بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
         
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-    // قم بالارتقاء بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
         
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [ResizeType](../../../aspose.imaging/resizetype)
-* class [DicomImage](../../dicomimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Dicom](../../dicomimage)
-* المجسم [Aspose.Imaging](../../../)
+* enum [ResizeType](../../../aspose.imaging/resizetype/)
+* class [DicomImage](../)
+* namespace [Aspose.Imaging.FileFormats.Dicom](../../dicomimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-يغير حجم الصورة.
+قم بضبط حجم صورتك باستخدام طريقة التحجيم البسيطة هذه. سواء كنت بحاجة لتصغير أو تكبير صورتك، تضمن هذه الدالة تلبية احتياجات التحجيم بكفاءة ودقة، مما يجعلها مثالية للمطورين الذين يبحثون عن تعديلات سريعة وسهلة لحجم الصورة.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
-| settings | ImageResizeSettings | إعدادات تغيير الحجم. |
+| الإعدادات | ImageResizeSettings | إعدادات التحجيم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل صورة DICOM وتغيير حجمها باستخدام إعدادات تغيير الحجم المختلفة.
+هذا المثال يقوم بتحميل صورة DICOM ويعيد تحجيمها باستخدام إعدادات تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -100,16 +100,16 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية القائمة على الوظيفة المنطقية الموزونة والمختلطة واستيفاء lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
-// مرشح صغير مستطيل
+// المرشح المستطيل الصغير
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
-// عدد الألوان في اللوحة.
+// عدد الألوان في لوحة الألوان.
 resizeSettings.EntriesCount = 256;
 
-// لا يتم استخدام تكميم اللون
+// لم يتم استخدام تقليل الألوان
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
 // الطريقة الإقليدية
@@ -119,19 +119,19 @@ using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.L
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل التكيفية.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     dicomImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
 
-    // حفظ في PNG
+    // حفظ إلى PNG
     dicomImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings)
-* class [DicomImage](../../dicomimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Dicom](../../dicomimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings/)
+* class [DicomImage](../)
+* namespace [Aspose.Imaging.FileFormats.Dicom](../../dicomimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

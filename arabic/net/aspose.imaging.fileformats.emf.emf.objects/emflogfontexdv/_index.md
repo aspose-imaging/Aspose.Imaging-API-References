@@ -1,52 +1,52 @@
 ---
-title: EmfLogFontExDv
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد كائن LogFontExDv متجه التصميم لخط منطقي موسع.
+title: "الفئة EmfLogFontExDv"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFontExDv. كائن LogFontExDv يحدد متجه التصميم لخط منطقي موسع."
 type: docs
-weight: 3050
+weight: 3140
 url: /ar/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/
 ---
 ## EmfLogFontExDv class
 
-يحدد كائن LogFontExDv متجه التصميم لخط منطقي موسع.
+كائن LogFontExDv يحدد متجه التصميم لخط منطقي موسع.
 
 ```csharp
 public sealed class EmfLogFontExDv : EmfLogFontEx
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfLogFontExDv](emflogfontexdv)(EmfLogFontEx) | يقوم بتهيئة مثيل جديد لملف[`EmfLogFontExDv`](../emflogfontexdv) فئة . |
+| [EmfLogFontExDv](emflogfontexdv/)(EmfLogFontEx) | ينشئ مثيلاً جديداً من الفئة `EmfLogFontExDv`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CharSet](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/charset) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد مجموعة الحروف الرسومية للأحرف. يجب أن تكون قيمة في تعداد WMF CharacterSet (القسم [MS-WMF] 2.1.1.5). إذا كانت مجموعة الأحرف غير معروفة ، فيجب ألا تحاول معالجة ملف التعريف ترجمة أو تفسير سلاسل التي يتم تقديمها بهذا الخط. |
-| [ClipPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/clipprecision) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد دقة القطع. تحدد دقة القص كيفية قص الأحرف الموجودة جزئيًا خارج منطقة القطع. يمكن أن يكون واحدًا أو أكثر من WMF ClipPrecision Flags |
-| [DesignVector](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/designvector) { get; set; } | الحصول على كائن DesignVector أو تعيينه (القسم 2.2.3). يجب ألا يزيد هذا الحقل عن 72 بايت. |
-| [Escapement](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/escapement) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد الزاوية ، بعشر الدرجات ، بين متجه الميزان والمحور السيني للجهاز. متجه الميزان موازٍ للخط الأساسي لصف من النص. |
-| [Facename](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/facename) { get; set; } | الحصول على أو تعيين اسم الوجه (64 بايت): سلسلة لا تزيد عن 32 حرفًا من أحرف Unicode تحدد اسم محرف الخط . إذا كان طول هذه السلسلة أقل من 32 حرفًا ، فيجب وجود علامة إنهاء NULL ، وبعد ذلك يجب تجاهل باقي هذا الحقل. |
-| [FullName](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontex/fullname) { get; set; } | الحصول على سلسلة من 64 حرف Unicode تحتوي على الاسم الكامل للخط أو تعيينها. إذا كان طول هذه السلسلة أقل من 64 حرفًا ، فيجب أن يكون الإنهاء NULL موجودًا ، بعد حيث يجب تجاهل باقي هذا الحقل. |
-| [Height](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/height) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد الارتفاع ، بالوحدات المنطقية ، لخلية أو حرف الخط . قيمة ارتفاع الحرف ، والمعروفة أيضًا باسم حجم em ، هي قيمة ارتفاع خلية الحرف مطروحًا منها قيمة المسافة البادئة الداخلية. يجب أن يفسر معين الخط القيمة المحددة في حقل الارتفاع بالطريقة التالية. |
-| [Italic](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/italic) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد خطًا مائلًا إذا تم تعيينه على 0x01 ؛ وإلا ، يجب تعيين إلى 0x00. |
-| [Orientation](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/orientation) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد الزاوية ، بعشر الدرجات ، بين خط الأساس لكل حرف والمحور السيني للجهاز . |
-| [OutPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/outprecision) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد دقة الإخراج. تحدد دقة الإخراج مدى قرب الخط المطلوب لمطابقة الارتفاع المطلوب ، والعرض ، واتجاه الحرف ، والتخطي ، والخطوة ، ونوع الخط. يجب أن تكون قيمة من WMF OutPrecision enumeration |
-| [PitchAndFamily](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/pitchandfamily) { get; set; } | الحصول على أو تعيين كائن WMF PitchAndFamily ([MS-WMF] القسم 2.2.2.14) الذي يحدد درجة الخط وعائلة الخط. تصف عائلات الخطوط مظهر الخط بطريقة عامة. الغرض منها هو تحديد الخط عندما لا يكون المحرف المحدد متاحًا. |
-| [Quality](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/quality) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد جودة الإخراج. تحدد جودة الإخراج مدى قرب محاولة مطابقة سمات الخط المنطقي لتلك الخاصة بالخط الفعلي . يجب أن تكون إحدى القيم في تعداد جودة الخط في WMF ([MS-WMF] القسم 2.1.1.10) . |
-| [Script](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontex/script) { get; set; } | الحصول على أو تعيين سلسلة مكونة من 32 حرفًا من أحرف Unicode تحدد مجموعة أحرف الخط. إذا كان طول هذه السلسلة أقل من 32 حرفًا ، فيجب أن يكون الإنهاء NULL موجودًا ، وبعد ذلك يجب تجاهل باقي هذا الحقل. |
-| [Strikeout](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/strikeout) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد خط إضراب إذا تم تعيينه إلى 0x01 ؛ وإلا ، يجب تعيينه على 0x00. |
-| [Style](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontex/style) { get; set; } | الحصول على أو تعيين سلسلة من 32 حرفًا من أحرف Unicode تحدد نمط الخط. إذا كان طول هذه السلسلة أقل من 32 حرفًا ، فيجب أن يكون هناك إنهاء NULL ، وبعد ذلك يجب تجاهل باقي هذا الحقل. |
-| [Underline](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/underline) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 8 بت يحدد خطًا تحته خط إذا تم تعيينه على 0x01 ؛ وإلا ، يجب تعيينه على 0x00. |
-| [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/weight) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد وزن الخط في النطاق من صفر إلى 1000. على سبيل المثال ، 400 عادي و 700 غامق. إذا كانت هذه القيمة صفراً ، فيمكن استخدام وزن افتراضي . |
-| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/width) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد متوسط العرض ، بالوحدات المنطقية ، من حرفًا في الخط. إذا كانت قيمة حقل العرض تساوي صفرًا ، فيجب أن تكون القيمة المناسبة محسوبة من قيم LogFont الأخرى للعثور على الخط الذي يقصده المصمم نسبة العرض إلى الارتفاع |
+| [CharSet](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/charset/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 8‑بت يحدد مجموعة رموز الأحرف. يجب أن تكون القيمة قيمة في تعداد WMF CharacterSet ([MS-WMF] القسم 2.1.1.5). إذا كانت مجموعة الأحرف غير معروفة، يجب ألا تحاول معالجة ملف الميتا ترجمة أو تفسير السلاسل التي تم عرضها بهذا الخط. |
+| [ClipPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/clipprecision/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 8‑بت يحدد دقة القص. تحدد دقة القص كيفية قص الأحرف التي هي جزئياً خارج منطقة القص. يمكن أن تكون واحدة أو أكثر من أعلام WMF ClipPrecision. |
+| [DesignVector](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/designvector/) { get; set; } | الحصول أو تعيين كائن DesignVector (القسم 2.2.3). يجب ألا يكون هذا الحقل أطول من 72 بايت. |
+| [Escapement](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/escapement/) { get; set; } | الحصول أو تعيين عدد صحيح موقع 32‑بت يحدد الزاوية، بعشرات الدرجات، بين متجه الإزاحة ومحور x للجهاز. متجه الإزاحة موازٍ لخط الأساس لسطر النص. |
+| [Facename](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/facename/) { get; set; } | الحصول أو تعيين اسم الوجه (64 بايت): سلسلة لا تتجاوز 32 حرف يونيكود تحدد اسم الخط. إذا كان طول هذه السلسلة أقل من 32 حرفًا، يجب أن يكون هناك NULL نهائي، وبعده يجب تجاهل باقي الحقل. |
+| [FullName](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontex/fullname/) { get; set; } | الحصول أو تعيين سلسلة مكوّنة من 64 حرف يونيكود تحتوي على الاسم الكامل للخط. إذا كان طول هذه السلسلة أقل من 64 حرفًا، يجب أن يكون هناك NULL نهائي، وبعده يجب تجاهل باقي الحقل. |
+| [Height](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/height/) { get; set; } | الحصول أو تعيين عدد صحيح موقع 32‑بت يحدد الارتفاع، بوحدات منطقية، لخلية حرف الخط أو الحرف. قيمة ارتفاع الحرف، المعروفة أيضًا باسم حجم الـ em، هي قيمة ارتفاع خلية الحرف مطروحًا منها القيمة الداخلية للخط. يجب على مخطط الخط تفسير القيمة المحددة في حقل Height بالطريقة التالية. |
+| [Italic](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/italic/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 8‑بت يحدد خطًا مائلًا إذا تم ضبطه على 0x01؛ وإلا يجب ضبطه على 0x00. |
+| [Orientation](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/orientation/) { get; set; } | الحصول أو تعيين عدد صحيح موقع 32‑بت يحدد الزاوية، بعشرات الدرجات، بين خط أساس كل حرف ومحور x للجهاز. |
+| [OutPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/outprecision/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد دقة الإخراج. تحدد دقة الإخراج مدى قرب مطابقة الخط للارتفاع والعرض والاتجاه والحرف والمسافة والنوع المطلوب. يجب أن تكون قيمة من تعداد WMF OutPrecision enumeration |
+| [PitchAndFamily](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/pitchandfamily/) { get; set; } | يحصل أو يعيّن كائن WMF PitchAndFamily ([MS-WMF] القسم 2.2.2.14) يحدد درجة الخط وعائلته. تصف عائلات الخطوط مظهر الخط بشكل عام. تُستخدم لتحديد خط عندما لا يتوفر نوع الخط المحدد. |
+| [Quality](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/quality/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد جودة الإخراج. تحدد جودة الإخراج مدى محاولة مطابقة خصائص الخط المنطقي مع خصائص خط فعلي مادي. يجب أن تكون إحدى القيم في تعداد WMF FontQuality ([MS-WMF] القسم 2.1.1.10). |
+| [Script](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontex/script/) { get; set; } | يحصل أو يعيّن سلسلة مكوّنة من 32 حرف يونيكود تحدد مجموعة أحرف الخط. إذا كان طول هذه السلسلة أقل من 32 حرفًا، يجب أن يكون هناك NULL نهائي، وبعده يجب تجاهل باقي الحقل. |
+| [Strikeout](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/strikeout/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد خطًا مشطوبًا إذا تم تعيينه إلى 0x01؛ وإلا يجب تعيينه إلى 0x00. |
+| [Style](../../aspose.imaging.fileformats.emf.emf.objects/emflogfontex/style/) { get; set; } | يحصل أو يعيّن سلسلة مكوّنة من 32 حرف يونيكود تحدد نمط الخط. إذا كان طول هذه السلسلة أقل من 32 حرفًا، يجب أن يكون هناك NULL نهائي، وبعده يجب تجاهل باقي الحقل. |
+| [Underline](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/underline/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 8 بت يحدد خطًا مسطرًا إذا تم تعيينه إلى 0x01؛ وإلا يجب تعيينه إلى 0x00. |
+| [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/weight/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد وزن الخط في النطاق من صفر إلى 1000. على سبيل المثال، 400 هو عادي و700 هو عريض. إذا كانت هذه القيمة صفرًا، يمكن استخدام وزن افتراضي. |
+| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/width/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد العرض المتوسط، بوحدات منطقية، للأحرف في الخط. إذا كانت قيمة حقل العرض صفرًا، يجب حساب قيمة مناسبة من قيم LogFont الأخرى للعثور على خط يطابق نسبة الأبعاد المقصودة من قبل المصمم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfLogFontEx](../emflogfontex)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfLogFontEx](../emflogfontex/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

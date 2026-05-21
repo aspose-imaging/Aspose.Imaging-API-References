@@ -1,43 +1,43 @@
 ---
-title: AssumedObjectData
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفAssumedObjectDataaspose.imaging.masking.options/assumedobjectdata فئة .
+title: "AssumedObjectData.AssumedObjectData"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ AssumedObjectData. يهيء مثالًا جديدًا من الفئة AssumedObjectData"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.masking.options/assumedobjectdata/assumedobjectdata/
 ---
 ## AssumedObjectData() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`AssumedObjectData`](../../assumedobjectdata) فئة .
+يهيء مثالًا جديدًا من الفئة [`AssumedObjectData`](../).
 
 ```csharp
 public AssumedObjectData()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [AssumedObjectData](../../assumedobjectdata)
-* مساحة الاسم [Aspose.Imaging.Masking.Options](../../assumedobjectdata)
-* المجسم [Aspose.Imaging](../../../)
+* class [AssumedObjectData](../)
+* namespace [Aspose.Imaging.Masking.Options](../../assumedobjectdata/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## AssumedObjectData(DetectedObjectType, Rectangle) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`AssumedObjectData`](../../assumedobjectdata) فئة .
+يهيء مثالًا جديدًا من الفئة [`AssumedObjectData`](../).
 
 ```csharp
 public AssumedObjectData(DetectedObjectType type, Rectangle bounds)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| type | DetectedObjectType | نوع الكائن . |
-| bounds | Rectangle | حدود الكائن . |
+| نوع | DetectedObjectType | نوع الكائن. |
+| الحدود | Rectangle | حدود الكائن. |
 
-### أمثلة
+## أمثلة
 
-حفظ نتيجة إخفاء الصورة باستخدام التدرج بناءً على حجم الصورة. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. بالإضافة إلى ذلك ، يتم أيضًا تحديد بيانات الكائنين المفترضين في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions.
+حفظ نتيجة قناع الصورة مع التدرج بناءً على حجم الصورة. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects في AutoMaskingGraphCutOptions.
 
 ```csharp
 [C#]
@@ -74,7 +74,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-حفظ نتيجة إخفاء الصورة باستخدام التدرج بناءً على حجم الصورة وإعادة استخدام خيارات التقنيع لتكرار التقنيع الجديد. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. بالإضافة إلى ذلك ، يتم أيضًا تحديد بيانات الكائنين المفترضين في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions. بعد الحصول على نتيجة التقنيع الأولية ، يتم تعديل حدود الخلفية / المقدمة المطبقة ويتم إجراء تكرار آخر للقناع.
+حفظ نتيجة قناع الصورة مع التدرج بناءً على حجم الصورة وإعادة استخدام خيارات القناع للتكرار الجديد للقناع. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects في AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل الضربات الخلفية/الأمامية المطبقة ويتم إجراء تكرار قناع آخر.
 
 ```csharp
 [C#]
@@ -106,8 +106,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// في هذه المرحلة ، يمكن تحليل ضربات المقدمة / الخلفية المطبقة وبناءً عليها بشكل إضافي 
-يمكن توفير حدود // المقدمة / الخلفية يدويًا.
+// في هذه المرحلة يمكن تحليل الضربات الأمامية/الخلفية المطبقة وبناءً عليها إضافية 
+// يمكن توفير الضربات الأمامية/الخلفية يدويًا.
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -118,13 +118,13 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    // إعادة استخدام AutoMaskingGraphCutOptions ليست هناك حاجة لإجراء حسابات السكتات الدماغية الافتراضية مرة ثانية.
+    // إعادة استخدام AutoMaskingGraphCutOptions لا يلزم إجراء حسابات الضربات الافتراضية مرة ثانية.
     options.CalculateDefaultStrokes = false;
-    // عندما يتم توفير كل من حدود الشكل ونقاط الكائنات الافتراضية في خاصية Args الخاصة بـ AutoMaskingArgs ، يتم في النهاية تجميع مصفوفات النقاط.
-    // تعتبر أول مصفوفة ObjectsPoints مصفوفة نقاط الخلفية و 
-    // تعتبر مجموعة ObjectsPoints الثانية مصفوفة نقاط مقدمة.
-    // عندما يتم توفير كل من DefaultObjectsRectangles و ObjectsRectangles في خاصية Args الخاصة بـ AutoMaskingArgs ، 
-    // يتم استخدام المصفوفة من Args فقط.
+    // عند توفير كل من الضربات الافتراضية وObjectsPoints في خاصية Args الخاصة بـ AutoMaskingArgs، يتم دمج مصفوفات Point.
+    // يُعتبر مصفوفة ObjectsPoints الأولى مصفوفة نقاط خلفية و
+    // المصفوفة الثانية من ObjectsPoints تُعتبر مصفوفة نقاط أمامية.
+    // عند توفير كل من DefaultObjectsRectangles وObjectsRectangles في خاصية Args الخاصة بـ AutoMaskingArgs،
+    // يتم استخدام المصفوفة فقط من Args.
     options.Args = new AutoMaskingArgs()
                         {
                             ObjectsPoints = new Point[][]
@@ -146,7 +146,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-حفظ نتيجة إخفاء الصورة بالتدرج بناءً على حجم الصورة ، وتعديل الحدود الافتراضية التي تم الحصول عليها واستخدامها لتكرار التقنيع الجديد. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. بالإضافة إلى ذلك ، يتم أيضًا تحديد بيانات الكائنين المفترضين في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions. بعد الحصول على نتيجة التقنيع الأولية ، يتم تعديل حدود الخلفية / المقدمة المطبقة ويتم إجراء تكرار آخر للقناع باستخدام مثيل GraphCutMaskingOptions الجديد.
+حفظ نتيجة قناع الصورة مع تمويه يعتمد على حجم الصورة، تعديل الضربات الافتراضية المستحصلة واستخدامها في تكرار القناع الجديد. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل ضربات الخلفية/الأمام المطبقة ويتم إجراء تكرار قناع آخر باستخدام نسخة جديدة من GraphCutMaskingOptions.
 
 ```csharp
 [C#]
@@ -179,8 +179,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// في هذه المرحلة ، يمكن تحليل ضربات المقدمة / الخلفية المطبقة وبناءً عليها بشكل إضافي 
-يمكن توفير حدود // المقدمة / الخلفية يدويًا.
+// في هذه المرحلة يمكن تحليل الضربات الأمامية/الخلفية المطبقة وبناءً عليها إضافية 
+// يمكن توفير الضربات الأمامية/الخلفية يدويًا.
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -228,34 +228,34 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [DetectedObjectType](../../detectedobjecttype)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [AssumedObjectData](../../assumedobjectdata)
-* مساحة الاسم [Aspose.Imaging.Masking.Options](../../assumedobjectdata)
-* المجسم [Aspose.Imaging](../../../)
+* enum [DetectedObjectType](../../detectedobjecttype/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [AssumedObjectData](../)
+* namespace [Aspose.Imaging.Masking.Options](../../assumedobjectdata/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## AssumedObjectData(string, Rectangle) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`AssumedObjectData`](../../assumedobjectdata) فئة .
+يهيء مثالًا جديدًا من الفئة [`AssumedObjectData`](../).
 
 ```csharp
 public AssumedObjectData(string type, Rectangle bounds)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| type | String | نوع الكائن . |
-| bounds | Rectangle | حدود الكائن . |
+| نوع | String | نوع الكائن. |
+| الحدود | Rectangle | حدود الكائن. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [AssumedObjectData](../../assumedobjectdata)
-* مساحة الاسم [Aspose.Imaging.Masking.Options](../../assumedobjectdata)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [AssumedObjectData](../)
+* namespace [Aspose.Imaging.Masking.Options](../../assumedobjectdata/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

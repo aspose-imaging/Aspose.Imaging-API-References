@@ -1,215 +1,215 @@
 ---
-title: IsVisible
-second_title: Aspose.Imaging لمرجع NET API
-description: يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذاGraphicsPathaspose.imaging/graphicspath .
+title: "GraphicsPath.IsVisible"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة GraphicsPath. تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا GraphicsPath"
 type: docs
-weight: 120
+weight: 140
 url: /ar/net/aspose.imaging/graphicspath/isvisible/
 ---
 ## IsVisible(float, float) {#isvisible_6}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../).
 
 ```csharp
 public bool IsVisible(float x, float y)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Single | إحداثي x للنقطة المراد اختبارها. |
-| y | Single | إحداثي ص للنقطة المراد اختبارها. |
+| x | فردي | الإحداثي x للنقطة المراد اختبارها. |
+| y | فردي | الإحداثي y للنقطة المراد اختبارها. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(PointF) {#isvisible_2}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../).
 
 ```csharp
 public bool IsVisible(PointF point)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | PointF | أ[`PointF`](../../pointf) التي تمثل نقطة الاختبار. |
+| point | PointF | [`PointF`](../../pointf/) التي تمثل النقطة التي سيتم اختبارها. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../pointf)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../pointf/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(int, int) {#isvisible_4}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../).
 
 ```csharp
 public bool IsVisible(int x, int y)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Int32 | إحداثي x للنقطة المراد اختبارها. |
-| y | Int32 | إحداثي ص للنقطة المراد اختبارها. |
+| x | Int32 | الإحداثي x للنقطة المراد اختبارها. |
+| y | Int32 | الإحداثي y للنقطة المراد اختبارها. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(Point) {#isvisible}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../).
 
 ```csharp
 public bool IsVisible(Point point)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | Point | أ[`Point`](../../point) التي تمثل نقطة الاختبار. |
+| point | Point | [`Point`](../../point/) التي تمثل النقطة التي سيتم اختبارها. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../point)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../point/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(float, float, Graphics) {#isvisible_7}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) في منطقة المقطع المرئية للملف[`Graphics`](../../graphics) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../) في منطقة القص المرئية للـ [`Graphics`](../../graphics/) المحددة.
 
 ```csharp
 public bool IsVisible(float x, float y, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Single | إحداثي x للنقطة المراد اختبارها. |
-| y | Single | إحداثي ص للنقطة المراد اختبارها. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| x | فردي | الإحداثي x للنقطة المراد اختبارها. |
+| y | فردي | الإحداثي y للنقطة المراد اختبارها. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(PointF, Graphics) {#isvisible_3}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../).
 
 ```csharp
 public bool IsVisible(PointF pt, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pt | PointF | أ[`PointF`](../../pointf) التي تمثل نقطة الاختبار. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| pt | PointF | [`PointF`](../../pointf/) التي تمثل النقطة التي سيتم اختبارها. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة واردة في هذا ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../pointf)
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../pointf/)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(int, int, Graphics) {#isvisible_5}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) باستخدام المحدد[`Graphics`](../../graphics) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)، باستخدام الـ [`Graphics`](../../graphics/) المحدد.
 
 ```csharp
 public bool IsVisible(int x, int y, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Int32 | إحداثي x للنقطة المراد اختبارها. |
-| y | Int32 | إحداثي ص للنقطة المراد اختبارها. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| x | Int32 | الإحداثي x للنقطة المراد اختبارها. |
+| y | Int32 | الإحداثي y للنقطة المراد اختبارها. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(Point, Graphics) {#isvisible_1}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة في هذا[`GraphicsPath`](../../graphicspath) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../).
 
 ```csharp
 public bool IsVisible(Point pt, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pt | Point | أ[`Point`](../../point) التي تمثل نقطة الاختبار. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| pt | Point | [`Point`](../../point/) التي تمثل النقطة التي سيتم اختبارها. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في هذا[`GraphicsPath`](../../graphicspath) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل هذا [`GraphicsPath`](../)؛ وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../point/)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,44 +1,44 @@
 ---
-title: EmfPlusFillPie
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusFillPie ملء قسم من الجزء الداخلي من القطع الناقص
+title: "الفئة EmfPlusFillPie"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie. سجل EmfPlusFillPie يحدد تعبئة جزء من داخل إهليلج."
 type: docs
-weight: 6090
+weight: 6210
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/
 ---
 ## EmfPlusFillPie class
 
-يحدد سجل EmfPlusFillPie ملء قسم من الجزء الداخلي من القطع الناقص
+سجل EmfPlusFillPie يحدد تعبئة جزء من داخل إهليلج.
 
 ```csharp
 public sealed class EmfPlusFillPie : EmfPlusDrawingRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusFillPie](emfplusfillpie)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusFillPie`](../emfplusfillpie) فئة . |
+| [EmfPlusFillPie](emfplusfillpie/)(EmfPlusRecord) | يُهيئ مثيلًا جديدًا من الفئة `EmfPlusFillPie`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/brushid) { get; set; } | الحصول على معرف الفرشاة أو تعيينه عدد صحيح بدون إشارة 32 بت يحدد الفرشاة ، يتم تحديد محتوى بواسطة بت S في حقل الإشارات . |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/compressed) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت PointData مضغوطة أم لا. إذا تم تعيينها ، تحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38) . إذا تم مسحها ، تحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39) . |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/iscolor) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا المثيل ملونًا . في حالة الضبط ، تحدد BrushId لونًا ككائن EmfPlusARGB (القسم 2.2.2.1). إذا تم مسحه ، فإن BrushId يحتوي على فهرس كائن EmfPlusBrush (القسم 2.2.1.1) في EMF + Object Table . |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/rectdata) { get; set; } | الحصول على أو تعيين مستطيل datas إما كائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط للقطع الناقص الذي يحتوي على إسفين دائري. يحدد هذا المستطيل موضع الكعكة وحجمها وشكلها . يتم تحديد نوع الكائن في هذا الحقل بقيمة لحقل الإشارات. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/startangle) { get; set; } | الحصول على أو تعيين زاوية البدء قيمة النقطة العائمة غير السالبة 32 بت التي تحدد الزاوية بين المحور x ونقطة البداية للإسفين الدائري. أي قيمة مقبولة ، ولكن يجب أن يتم تفسيرها بطريقة modulo 360 ، والنتيجة التي يتم استخدامها في النطاق 0.0 شاملة حتى 360.0 حصريًا . |
-| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/sweepangle) { get; set; } | الحصول على زاوية المسح أو تعيينها قيمة النقطة العائمة 32 بت التي تحدد مدى القوس الذي يحدد الوتد الدائري المراد رسمه ، كزاوية بالدرجات المقاسة من نقطة البداية المحددة بواسطة قيمة StartAngle. أي قيمة مقبولة ، ولكن يجب تثبيتها إلى -360.0 إلى 360.0 شاملة. تشير القيمة الموجبة إلى أن عملية المسح محددة في اتجاه عقارب الساعة ، وتشير القيمة السالبة إلى أن عملية المسح محددة في اتجاه عكس اتجاه عقارب الساعة. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/brushid/) { get; set; } | يحصل أو يعيّن معرف الفرشاة: عدد صحيح غير موقع 32‑بت يحدد الفرشاة، محتواها يحدد بواسطة بت S في حقل Flags. |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/compressed/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطًا. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا تم الإلغاء، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39). |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/iscolor/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت هذه النسخة لونًا. إذا تم تعيينها، يحدد BrushId لونًا ككائن EmfPlusARGB (القسم 2.2.2.1). إذا لم تُحدد، يحتوي BrushId على فهرس كائن EmfPlusBrush (القسم 2.2.1.1) في جدول كائنات EMF+. |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/rectdata/) { get; set; } | يحصل أو يعيّن بيانات المستطيل. إما كائن EmfPlusRect أو EmfPlusRectF يحدد الصندوق المحيط بالإهليلج الذي يحتوي على قطعة الفطيرة. هذا المستطيل يحدد موضع الفطيرة وحجمها وشكلها. نوع الكائن في هذا الحقل يُحدد بواسطة قيمة حقل Flags. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/startangle/) { get; set; } | يحصل أو يعيّن زاوية البدء. عدد عائم 32 بت غير سالب يحدد الزاوية بين محور x والنقطة البداية لقطعة الفطيرة. أي قيمة مقبولة، لكن يجب تفسيرها modulo 360، بحيث تكون النتيجة في النطاق من 0.0 شامل إلى 360.0 حصري. |
+| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/sweepangle/) { get; set; } | يحصل أو يعيّن زاوية المسح. عدد عائم 32 بت يحدد مدى القوس الذي يحدد قطعة الفطيرة المراد رسمها، كزاوية بالدرجات مقاسة من النقطة البداية المحددة بقيمة StartAngle. أي قيمة مقبولة، لكن يجب تقييدها بين -360.0 إلى 360.0 شامل. القيمة الموجبة تشير إلى أن المسح يُعرف باتجاه عقارب الساعة، والقيمة السالبة تشير إلى أن المسح يُعرف باتجاه عكس عقارب الساعة. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

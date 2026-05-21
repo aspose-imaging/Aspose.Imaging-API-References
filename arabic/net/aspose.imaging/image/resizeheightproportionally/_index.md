@@ -1,47 +1,47 @@
 ---
-title: ResizeHeightProportionally
-second_title: Aspose.Imaging لمرجع NET API
-description: يغير حجم الارتفاع بشكل متناسب. الافتراضيNearestNeighbourResample يستخدم .
+title: "Image.ResizeHeightProportionally"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Image. تُعيد تحجيم الارتفاع بنسبة متناسبة. يتم استخدام NearestNeighbourResample الافتراضي"
 type: docs
-weight: 210
+weight: 270
 url: /ar/net/aspose.imaging/image/resizeheightproportionally/
 ---
 ## ResizeHeightProportionally(int) {#resizeheightproportionally}
 
-يغير حجم الارتفاع بشكل متناسب. الافتراضيNearestNeighbourResample يستخدم .
+يُعيد تحجيم الارتفاع بنسبية. يتم استخدام NearestNeighbourResample الافتراضي.
 
 ```csharp
 public void ResizeHeightProportionally(int newHeight)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newHeight | Int32 | الارتفاع الجديد. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## ResizeHeightProportionally(int, ResizeType) {#resizeheightproportionally_2}
 
-يغير حجم الارتفاع بشكل متناسب .
+يُعيد تحجيم الارتفاع بنسبية.
 
 ```csharp
 public virtual void ResizeHeightProportionally(int newHeight, ResizeType resizeType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newHeight | Int32 | الارتفاع الجديد. |
 | resizeType | ResizeType | نوع تغيير الحجم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل الصورة وتغيير حجمها بشكل متناسب باستخدام طرق مختلفة لتغيير الحجم. يتم تحديد الارتفاع فقط ، ويتم حساب العرض تلقائيًا.
+هذا المثال يحمل صورة ويعيد تحجيمها بنسبة متناسبة باستخدام طرق تحجيم مختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
 
 ```csharp
 [C#]
@@ -50,39 +50,39 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // قم بالزيادة بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.ResizeHeightProportionally(image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.ResizeHeightProportionally(image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // قم بالارتقاء بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.ResizeHeightProportionally(image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.ResizeHeightProportionally(image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }
 ```
 
-استخدام قناع مقطعي لتسريع عملية التجزئة
+استخدام قناع الجزء لتسريع عملية التجزئة
 
 ```csharp
 [C#]
 
-// إخفاء خيارات التصدير
+// خيارات تصدير القناع
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -94,7 +94,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-// سيكون لون backgroung شفافًا.
+// لون الخلفية سيكون شفافًا.
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -103,22 +103,22 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Size imageSize = image.Size;
 
-    // تصغير حجم الصورة لتسريع عملية التجزئة
+    // تقليل حجم الصورة لتسريع عملية التجزئة
     image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
 
-    // إنشاء مثيل لفئة ImageMasking.
+    // إنشاء نسخة من الفئة ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-    // قسّم الصورة المصدر إلى عدة مجموعات (شرائح).
+    // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-        // الحصول على القناع الأمامي
+        // الحصول على قناع المقدمة
         using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
         {
-            // قم بزيادة حجم القناع إلى حجم الصورة الأصلية
+            // زيادة حجم القناع إلى حجم الصورة الأصلية
             foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-            // تطبيق القناع على الصورة الأصلية للحصول على مقطع أمامي
+            // تطبيق القناع على الصورة الأصلية للحصول على جزء من المقدمة
             using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
             {
                 Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
@@ -129,33 +129,33 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [ResizeType](../../resizetype)
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* enum [ResizeType](../../resizetype/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## ResizeHeightProportionally(int, ImageResizeSettings) {#resizeheightproportionally_1}
 
-يغير حجم الارتفاع بشكل متناسب .
+يُعيد تحجيم الارتفاع بنسبية.
 
 ```csharp
 public virtual void ResizeHeightProportionally(int newHeight, ImageResizeSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newHeight | Int32 | الارتفاع الجديد. |
-| settings | ImageResizeSettings | إعدادات تغيير حجم الصورة. |
+| الإعدادات | ImageResizeSettings | إعدادات تحجيم الصورة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageResizeSettings](../../imageresizesettings)
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* class [ImageResizeSettings](../../imageresizesettings/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

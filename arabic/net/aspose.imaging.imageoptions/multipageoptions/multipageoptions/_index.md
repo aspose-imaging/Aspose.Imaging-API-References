@@ -1,237 +1,237 @@
 ---
-title: MultiPageOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفMultiPageOptionsaspose.imaging.imageoptions/multipageoptions فئة .
+title: "MultiPageOptions.MultiPageOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ MultiPageOptions. يهيئ مثيلاً جديدًا من فئة MultiPageOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.imageoptions/multipageoptions/multipageoptions/
 ---
 ## MultiPageOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(int[]) {#constructor_7}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(int[] pages)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pages | Int32[] | الصفحات. |
+| الصفحات | Int32[] | الصفحات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(int[], Rectangle) {#constructor_8}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(int[] pages, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pages | Int32[] | مصفوفة الصفحات. |
+| الصفحات | Int32[] | المصفوفة التي تحتوي على الصفحات. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(string[]) {#constructor_9}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(string[] pageTitles)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pageTitles | String[] | عناوين الصفحة. |
+| pageTitles | String[] | عناوين الصفحات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(string[], Rectangle) {#constructor_10}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(string[] pageTitles, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pageTitles | String[] | عناوين الصفحة. |
+| pageTitles | String[] | عناوين الصفحات. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(IntRange[]) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(IntRange[] ranges)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| ranges | IntRange[] | ال[`IntRange`](../../../aspose.imaging/intrange). |
+| ranges | IntRange[] | الـ [`IntRange`](../../../aspose.imaging/intrange/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| ranges | IntRange[] | ال[`IntRange`](../../../aspose.imaging/intrange). |
+| ranges | IntRange[] | الـ [`IntRange`](../../../aspose.imaging/intrange/). |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(IntRange) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(IntRange range)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| range | IntRange | ال[`IntRange`](../../../aspose.imaging/intrange). |
+| range | IntRange | الـ [`IntRange`](../../../aspose.imaging/intrange/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(IntRange range, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| range | IntRange | ال[`IntRange`](../../../aspose.imaging/intrange). |
+| range | IntRange | الـ [`IntRange`](../../../aspose.imaging/intrange/). |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(int) {#constructor_5}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(int page)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | page | Int32 | فهرس الصفحة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## MultiPageOptions(int, Rectangle) {#constructor_6}
 
-يقوم بتهيئة مثيل جديد لملف[`MultiPageOptions`](../../multipageoptions) فئة .
+يهيئ مثيلاً جديدًا من الفئة [`MultiPageOptions`](../).
 
 ```csharp
 public MultiPageOptions(int page, Rectangle exportArea)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | page | Int32 | فهرس الصفحة. |
 | exportArea | Rectangle | منطقة التصدير. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [MultiPageOptions](../../multipageoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../multipageoptions)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [MultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../multipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

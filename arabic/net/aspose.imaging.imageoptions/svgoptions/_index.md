@@ -1,54 +1,57 @@
 ---
-title: SvgOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات إنشاء تنسيق ملف SVG .
+title: "الفئة SvgOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.ImageOptions.SvgOptions class. أنشئ ملفات صور SVG (رسومات متجهية قياسية) باستخدام واجهة برمجة التطبيقات الخاصة بنا مستفيدًا من خيارات متعددة لأنواع الألوان ومستويات الضغط. خصّص صور SVG الخاصة بك بدقة لضمان جودة مثالية وتوافق مع احتياجات التصميم الخاصة بك."
 type: docs
-weight: 10190
+weight: 10580
 url: /ar/net/aspose.imaging.imageoptions/svgoptions/
 ---
 ## SvgOptions class
 
-خيارات إنشاء تنسيق ملف SVG .
+أنشئ ملفات صور Scalar Vector Graphics (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من خيارات متعددة لأنواع الألوان ومستويات الضغط. خصص صور SVG الخاصة بك بدقة وسلاسة، مما يضمن جودة مثالية وتوافقًا مع احتياجات التصميم الخاصة بك.
 
 ```csharp
 public class SvgOptions : ImageOptionsBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SvgOptions](svgoptions)() | Default_Constructor |
+| [SvgOptions](svgoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback) { get; set; } | الحصول على أو تعيين خيارات تخزين الخطوط. |
-| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype) { get; set; } | الحصول على أو تحديد نوع اللون لصورة SVG. |
-| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذاICompressedOptions مضغوط . |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [إطار كامل] . |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | خيارات متعدد الصفحات |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها . |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | الحصول على معالج حدث التقدم أو تعيينه. |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | الحصول على إعدادات الدقة أو تعيينها . |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | الحصول على أو تعيين المصدر لإنشاء الصورة فيه. |
-| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تحويل النص كأشكال. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | الحصول على أو تعيين خيارات التحويل النقطي للمتجه. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | الحصول على أو تعيين حاوية بيانات تعريف XMP. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي يحدد الحد الأقصى المسموح به لجميع المخازن الداخلية. |
+| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback/) { get; set; } | يحصل أو يعيّن استراتيجية التخزين للموارد المضمنة لـ [`SvgImage`](../../aspose.imaging.fileformats.svg/svgimage/) مثل الخطوط والصور النقطية المتداخلة. |
+| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype/) { get; set; } | يحصل أو يعيّن نوع اللون لصورة SVG. |
+| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | الحصول على أو تعيين بيانات Exif. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | خيارات الصفحات المتعددة |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | يحصل أو يضبط لوحة الألوان. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | يحصل أو يضبط معالج حدث التقدم. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | يحصل أو يضبط إعدادات الدقة. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | يحصل أو يضبط المصدر لإنشاء الصورة فيه. |
+| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | يحصل أو يضبط خيارات تحويل المتجه إلى نقطية. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | يحصل أو يضبط حاوية بيانات تعريف XMP. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | استنساخ هذا المثال . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | ينشئ نسخة عضوية من هذه الحالة. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | يحاول تعيين مثيل *metadata*، إذا كان مثيل [`Image`](../../aspose.imaging/image/) يدعم ويطبق مثيل [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/). |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية تحويل صور svgz إلى svg fromat
+المثال التالي يوضح كيفية تحويل صور svgz إلى صيغة svg.
 
 ```csharp
 [C#]
@@ -64,7 +67,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 }
 ```
 
-يوضح المثال التالي كيفية تحويل صور svg إلى svgz fromat
+المثال التالي يوضح كيفية تحويل صور svg إلى صيغة svgz.
 
 ```csharp
 [C#]
@@ -80,7 +83,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 }
 ```
 
-يوضح المثال التالي كيفية تحويل صورة متجهية متعددة الصفحات إلى تنسيق SVG بشكل عام دون الرجوع إلى نوع صورة معين.
+يوضح المثال التالي كيفية تحويل صورة متجه متعددة الصفحات إلى تنسيق SVG بطريقة عامة دون الإشارة إلى نوع صورة معين.
 
 ```csharp
 [C#]
@@ -95,7 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-    // تصدير أول صفحتين فقط. في الواقع ، سيتم تحويل صفحة واحدة فقط لأن تنسيق SVG ليس تنسيقًا متعدد الصفحات.
+    // تصدير الصفحتين الأوليين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط لأن SVG ليس تنسيقًا متعدد الصفحات.
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {
@@ -113,10 +116,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

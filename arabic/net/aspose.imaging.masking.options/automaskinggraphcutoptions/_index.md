@@ -1,46 +1,46 @@
 ---
-title: AutoMaskingGraphCutOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات التقنيع التلقائي لـ GraphCut .
+title: "الفئة AutoMaskingGraphCutOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.Masking.Options.AutoMaskingGraphCutOptions. خيارات القناع التلقائي GraphCut"
 type: docs
-weight: 10460
+weight: 11010
 url: /ar/net/aspose.imaging.masking.options/automaskinggraphcutoptions/
 ---
 ## AutoMaskingGraphCutOptions class
 
-خيارات التقنيع التلقائي لـ GraphCut .
+خيارات الإخفاء التلقائي GraphCut.
 
 ```csharp
 public class AutoMaskingGraphCutOptions : GraphCutMaskingOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutoMaskingGraphCutOptions](automaskinggraphcutoptions)() | Default_Constructor |
+| [AutoMaskingGraphCutOptions](automaskinggraphcutoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Args](../../aspose.imaging.masking.options/maskingoptions/args) { get; set; } | الحصول على أو تعيين وسيطات خوارزمية التجزئة. |
-| [AssumedObjects](../../aspose.imaging.masking.options/automaskinggraphcutoptions/assumedobjects) { get; set; } | الحصول على الكائنات المفترضة أو تعيينها. |
-| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor) { get; set; } | الحصول على أو تعيين لون استبدال الخلفية . |
-| [CalculateDefaultStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/calculatedefaultstrokes) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حساب الحدود الافتراضية. |
-| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان غير ضروري لفصل كل شكل عن قناع ككائن فردي أو ككائن موحد من قناع منفصل عن الخلفية. |
-| [DefaultBackgroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultbackgroundstrokes) { get; } | يحصل على ضربات الخلفية الافتراضية. |
-| [DefaultForegroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultforegroundstrokes) { get; } | يحصل على ضربات المقدمة الافتراضية المحسوبة مسبقًا. |
-| [DefaultObjectsRectangles](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultobjectsrectangles) { get; } | يحصل على مستطيلات الكائنات الافتراضية. |
-| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | الحصول على أو تعيين خيارات تصدير الصورة. |
-| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius) { get; set; } | الحصول على أو تحديد نصف قطر الحد المتدرج. |
-| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | الحصول على منطقة التقنيع أو تعيينها . |
-| [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | الحصول على أو تحديد طريقة التجزئة . |
-| [PrecalculationProgressEventHandler](../../aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler) { get; set; } | الحصول على أو تعيين معالج حدث تقدم عملية الحساب المسبق للنقاط. |
+| [Args](../../aspose.imaging.masking.options/maskingoptions/args/) { get; set; } | يحصل أو يضبط الوسائط لخوارزمية التجزئة. |
+| [AssumedObjects](../../aspose.imaging.masking.options/automaskinggraphcutoptions/assumedobjects/) { get; set; } | يحصل أو يضبط الكائنات المفترضة. |
+| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor/) { get; set; } | يحصل أو يضبط لون استبدال الخلفية. |
+| [CalculateDefaultStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/calculatedefaultstrokes/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب حساب الضربات الافتراضية. |
+| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان من غير الضروري فصل كل شكل عن القناع ككائن فردي أو ككائن موحد من القناع مفصول عن الخلفية. |
+| [DefaultBackgroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultbackgroundstrokes/) { get; } | يحصل على الضربات الخلفية الافتراضية. |
+| [DefaultForegroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultforegroundstrokes/) { get; } | يحصل على الضربات الأمامية الافتراضية المحسوبة مسبقًا. |
+| [DefaultObjectsRectangles](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultobjectsrectangles/) { get; } | يحصل على مستطيلات الكائنات الافتراضية. |
+| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions/) { get; set; } | يحصل أو يضبط خيارات تصدير الصورة. |
+| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius/) { get; set; } | يحصل أو يضبط نصف قطر التدرج. |
+| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea/) { get; set; } | يحصل أو يضبط منطقة القناع. |
+| [Method](../../aspose.imaging.masking.options/maskingoptions/method/) { get; set; } | يحصل أو يضبط طريقة التجزئة. |
+| [PrecalculationProgressEventHandler](../../aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler/) { get; set; } | يحصل أو يعيّن معالج حدث تقدم عملية ما قبل حساب النقاط الافتراضية. |
 
-### أمثلة
+## أمثلة
 
-حفظ نتيجة إخفاء الصورة باستخدام التدرج بناءً على حجم الصورة. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. يمكن حذف خاصية Args الخاصة بـ AutoMaskingGraphCutOptions حيث يتم وضع حدود الشكل الافتراضية هناك في النهاية.
+حفظ نتيجة قناع الصورة مع التدرج بناءً على حجم الصورة. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. يمكن حذف خاصية Args في AutoMaskingGraphCutOptions لأن الضربات الافتراضية توضع هناك في النهاية.
 
 ```csharp
 [C#]
@@ -72,7 +72,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-حفظ نتيجة إخفاء الصورة باستخدام التدرج بناءً على حجم الصورة. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. بالإضافة إلى ذلك ، يتم أيضًا تحديد بيانات الكائنين المفترضين في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions.
+حفظ نتيجة قناع الصورة مع التدرج بناءً على حجم الصورة. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects في AutoMaskingGraphCutOptions.
 
 ```csharp
 [C#]
@@ -109,7 +109,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-حفظ نتيجة إخفاء الصورة باستخدام التدرج بناءً على حجم الصورة وإعادة استخدام خيارات التقنيع لتكرار التقنيع الجديد. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. بالإضافة إلى ذلك ، يتم أيضًا تحديد بيانات الكائنين المفترضين في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions. بعد الحصول على نتيجة التقنيع الأولية ، يتم تعديل حدود الخلفية / المقدمة المطبقة ويتم إجراء تكرار آخر للقناع.
+حفظ نتيجة قناع الصورة مع التدرج بناءً على حجم الصورة وإعادة استخدام خيارات القناع للتكرار الجديد للقناع. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects في AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل الضربات الخلفية/الأمامية المطبقة ويتم إجراء تكرار قناع آخر.
 
 ```csharp
 [C#]
@@ -141,8 +141,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// في هذه المرحلة ، يمكن تحليل ضربات المقدمة / الخلفية المطبقة وبناءً عليها بشكل إضافي 
-يمكن توفير حدود // المقدمة / الخلفية يدويًا.
+// في هذه المرحلة يمكن تحليل الضربات الأمامية/الخلفية المطبقة وبناءً عليها إضافية 
+// يمكن توفير الضربات الأمامية/الخلفية يدويًا.
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -153,13 +153,13 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    // إعادة استخدام AutoMaskingGraphCutOptions ليست هناك حاجة لإجراء حسابات السكتات الدماغية الافتراضية مرة ثانية.
+    // إعادة استخدام AutoMaskingGraphCutOptions لا يلزم إجراء حسابات الضربات الافتراضية مرة ثانية.
     options.CalculateDefaultStrokes = false;
-    // عندما يتم توفير كل من حدود الشكل ونقاط الكائنات الافتراضية في خاصية Args الخاصة بـ AutoMaskingArgs ، يتم في النهاية تجميع مصفوفات النقاط.
-    // تعتبر أول مصفوفة ObjectsPoints مصفوفة نقاط الخلفية و 
-    // تعتبر مجموعة ObjectsPoints الثانية مصفوفة نقاط مقدمة.
-    // عندما يتم توفير كل من DefaultObjectsRectangles و ObjectsRectangles في خاصية Args الخاصة بـ AutoMaskingArgs ، 
-    // يتم استخدام المصفوفة من Args فقط.
+    // عند توفير كل من الضربات الافتراضية وObjectsPoints في خاصية Args الخاصة بـ AutoMaskingArgs، يتم دمج مصفوفات Point.
+    // يُعتبر مصفوفة ObjectsPoints الأولى مصفوفة نقاط خلفية و
+    // المصفوفة الثانية من ObjectsPoints تُعتبر مصفوفة نقاط أمامية.
+    // عند توفير كل من DefaultObjectsRectangles وObjectsRectangles في خاصية Args الخاصة بـ AutoMaskingArgs،
+    // يتم استخدام المصفوفة فقط من Args.
     options.Args = new AutoMaskingArgs()
                         {
                             ObjectsPoints = new Point[][]
@@ -181,7 +181,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-حفظ نتيجة إخفاء الصورة بالتدرج بناءً على حجم الصورة ، وتعديل الحدود الافتراضية التي تم الحصول عليها واستخدامها لتكرار التقنيع الجديد. يتم تنفيذ إخفاء الصورة باستخدام حدود افتراضية محسوبة تلقائيًا. بالإضافة إلى ذلك ، يتم أيضًا تحديد بيانات الكائنين المفترضين في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions. بعد الحصول على نتيجة التقنيع الأولية ، يتم تعديل حدود الخلفية / المقدمة المطبقة ويتم إجراء تكرار آخر للقناع باستخدام مثيل GraphCutMaskingOptions الجديد.
+حفظ نتيجة قناع الصورة مع تمويه يعتمد على حجم الصورة، تعديل الضربات الافتراضية المستحصلة واستخدامها في تكرار القناع الجديد. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects الخاصة بـ AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل ضربات الخلفية/الأمام المطبقة ويتم إجراء تكرار قناع آخر باستخدام نسخة جديدة من GraphCutMaskingOptions.
 
 ```csharp
 [C#]
@@ -214,8 +214,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// في هذه المرحلة ، يمكن تحليل ضربات المقدمة / الخلفية المطبقة وبناءً عليها بشكل إضافي 
-يمكن توفير حدود // المقدمة / الخلفية يدويًا.
+// في هذه المرحلة يمكن تحليل الضربات الأمامية/الخلفية المطبقة وبناءً عليها إضافية 
+// يمكن توفير الضربات الأمامية/الخلفية يدويًا.
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -263,10 +263,10 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphCutMaskingOptions](../graphcutmaskingoptions)
-* مساحة الاسم [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options)
-* المجسم [Aspose.Imaging](../../)
+* class [GraphCutMaskingOptions](../graphcutmaskingoptions/)
+* namespace [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

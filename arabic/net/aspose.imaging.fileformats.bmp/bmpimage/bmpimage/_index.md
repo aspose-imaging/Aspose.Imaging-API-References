@@ -1,32 +1,32 @@
 ---
-title: BmpImage
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفBmpImageaspose.imaging.fileformats.bmp/bmpimage فئة .
+title: "BmpImage.BmpImage"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ BmpImage. ابدأ باستخدام فئة BmpImage بسهولة مع هذا المنشئ الذي يهيئ نسخة جديدة. مثالي للمطورين الذين يرغبون في البدء بسرعة وكفاءة مع كائنات BmpImage"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.fileformats.bmp/bmpimage/bmpimage/
 ---
 ## BmpImage(string) {#constructor_7}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+ابدأ باستخدام فئة BmpImage بسهولة مع هذا المنشئ الذي يهيئ نسخة جديدة. مثالي للمطورين الذين يرغبون في البدء بسرعة وكفاءة مع كائنات [`BmpImage`](../).
 
 ```csharp
 public BmpImage(string path)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | مسار تحميل الصورة منه وتهيئة بيانات البكسل واللوحة به. |
+| المسار | String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | الصورة النقطية خالية ؛ rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| ArgumentNullException | صورة الراستر فارغة. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
 يوضح المثال كيفية تحميل BmpImage من ملف.
 
@@ -35,210 +35,210 @@ public BmpImage(string path)
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة BMP من ملف.
-// سيتم تحويل وحدات البكسل المصدر إلى تنسيق 32-bpp إذا لزم الأمر.
+// حمِّل صورة BMP من ملف.
+// سيتم تحويل بكسلات المصدر إلى تنسيق 32‑bpp إذا لزم الأمر.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(dir + "sample.bmp"))
 {
-    // قم ببعض معالجة الصور.
-    // حفظ في ملف BMP آخر.
+    // قم ببعض معالجة الصورة.
+    // احفظ إلى ملف BMP آخر.
     bmpImage.Save(dir + "sample.output.32bpp.bmp");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(string, ushort, BitmapCompression, double, double) {#constructor_8}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+أنشئ بسهولة نسخة جديدة من فئة [`BmpImage`](../) باستخدام هذا المنشئ، مع تحديد المعلمات مثل المسار، bitsPerPixel، والضغط. مثالي للمطورين الذين يرغبون في تهيئة كائنات BmpImage بسرعة وكفاءة، مع تحكم دقيق في خصائص الصورة.
 
 ```csharp
 public BmpImage(string path, ushort bitsPerPixel, BitmapCompression compression, 
     double horizontalResolution, double verticalResolution)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | مسار تحميل الصورة منه وتهيئة بيانات البكسل واللوحة به. |
-| bitsPerPixel | UInt16 | وحدات البت لكل بكسل. |
-| compression | BitmapCompression | ضغط الاستخدام. |
-| horizontalResolution | Double | الدقة الأفقية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
-| verticalResolution | Double | الدقة الرأسية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
+| المسار | String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| bitsPerPixel | UInt16 | عدد البتات لكل بكسل. |
+| ضغط | BitmapCompression | الضغط المراد استخدامه. |
+| horizontalResolution | Double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
+| verticalResolution | Double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن تكون الصورة النقطية خالية ؛ rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| ArgumentNullException | صورة الراستر فارغة. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية تحميل BmpImage من ملف بعمق البت المحدد ودقة الوضوح.
+يوضح المثال كيفية تحميل BmpImage من ملف مع عمق البت والدقة المحددين.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة BMP من ملف.
-// سيتم تحويل وحدات البكسل المصدر إلى تنسيق 24 bpp إذا لزم الأمر.
-// سيتم ضبط الدقة على 96 نقطة في البوصة.
+// حمِّل صورة BMP من ملف.
+// سيتم تحويل بكسلات المصدر إلى تنسيق 24‑bpp إذا لزم الأمر.
+// سيتم ضبط الدقة إلى 96 نقطة في البوصة.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage =
     new Aspose.Imaging.FileFormats.Bmp.BmpImage(dir + "sample.bmp", 24, Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb, 96.0, 96.0))
 {
-    // قم ببعض معالجة الصور.
-    // حفظ في ملف BMP آخر.
+    // قم ببعض معالجة الصورة.
+    // احفظ إلى ملف BMP آخر.
     bmpImage.Save(dir + "sample.output.24bpp.96dpi.bmp");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(Stream) {#constructor_5}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+ابدأ باستخدام فئة [`BmpImage`](../) بسهولة عن طريق تهيئة نسخة جديدة باستخدام هذا المنشئ، مع استخدام تدفق كمدخل. مثالي للمطورين الذين يبحثون عن طريقة مريحة للعمل مع كائنات BmpImage من مصادر بيانات مختلفة، مما يضمن المرونة وسهولة التكامل.
 
 ```csharp
 public BmpImage(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة باستخدام. |
+| stream | Stream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن تكون الصورة النقطية خالية ؛ rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| ArgumentNullException | صورة الراستر فارغة. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية تحميل BmpImage من دفق ملف.
+يوضح المثال كيفية تحميل BmpImage من تدفق ملف.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة BMP من دفق ملف.
-// سيتم تحويل وحدات البكسل المصدر إلى تنسيق 32-bpp إذا لزم الأمر.
+// حمِّل صورة BMP من تدفق ملف.
+// سيتم تحويل بكسلات المصدر إلى تنسيق 32‑bpp إذا لزم الأمر.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 {
     using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(stream))
     {
-        // قم ببعض معالجة الصور.
-        // حفظ في ملف BMP آخر.
+        // قم ببعض معالجة الصورة.
+        // احفظ إلى ملف BMP آخر.
         bmpImage.Save(dir + "sample.output.32bpp.bmp");
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(Stream, ushort, BitmapCompression, double, double) {#constructor_6}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+ابدأ العمل مع فئة [`BmpImage`](../) بسلاسة عن طريق إنشاء نسخة جديدة باستخدام تدفق، مع المعلمات المحددة مثل bitsPerPixel والضغط. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للتعامل مع كائنات BmpImage، مما يضمن المرونة والكفاءة في مشاريعهم.
 
 ```csharp
 public BmpImage(Stream stream, ushort bitsPerPixel, BitmapCompression compression, 
     double horizontalResolution, double verticalResolution)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة باستخدام. |
-| bitsPerPixel | UInt16 | وحدات البت لكل بكسل. |
-| compression | BitmapCompression | ضغط الاستخدام. |
-| horizontalResolution | Double | الدقة الأفقية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
-| verticalResolution | Double | الدقة الرأسية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
+| stream | Stream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| bitsPerPixel | UInt16 | عدد البتات لكل بكسل. |
+| ضغط | BitmapCompression | الضغط المراد استخدامه. |
+| horizontalResolution | Double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
+| verticalResolution | Double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن تكون الصورة النقطية خالية ؛ rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| ArgumentNullException | صورة الراستر فارغة. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية تحميل BmpImage من دفق ملف بعمق البت ودقة الوضوح المحددين.
+المثال يوضح كيفية تحميل BmpImage من تدفق ملف مع عمق البت والدقة المحددين.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة BMP من دفق ملف.
-// سيتم تحويل وحدات البكسل المصدر إلى تنسيق 24 bpp إذا لزم الأمر.
-// سيتم ضبط الدقة على 96 نقطة في البوصة.
+// حمِّل صورة BMP من تدفق ملف.
+// سيتم تحويل بكسلات المصدر إلى تنسيق 24‑bpp إذا لزم الأمر.
+// سيتم ضبط الدقة إلى 96 نقطة في البوصة.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 {
     using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage =
         new Aspose.Imaging.FileFormats.Bmp.BmpImage(stream, 24, Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb, 96.0, 96.0))
     {
-        // قم ببعض معالجة الصور.
-        // حفظ في ملف BMP آخر.
+        // قم ببعض معالجة الصورة.
+        // احفظ إلى ملف BMP آخر.
         bmpImage.Save(dir + "sample.output.24bpp.96dpi.bmp");
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(RasterImage) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+أنشئ بسهولة نسخة جديدة من فئة [`BmpImage`](../) عن طريق تهيئتها بكائن RasterImage. مثالي للمطورين الذين يرغبون في تحويل الصور النقطية الحالية إلى تنسيق BmpImage بسلاسة، مما يضمن التوافق وسهولة الدمج في مشاريعهم.
 
 ```csharp
 public BmpImage(RasterImage rasterImage)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| rasterImage | RasterImage | الصورة المراد تهيئة بيانات البكسل واللوحة بها. |
+| rasterImage | RasterImage | الصورة لتهيئة بيانات البكسل ولوحة الألوان بها. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن تكون الصورة النقطية خالية ؛ rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| ArgumentNullException | صورة الراستر فارغة. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية تحميل BmpImage من مثيل آخر لـ RasterImage.
+المثال يوضح كيفية تحميل BmpImage من نسخة أخرى من RasterImage.
 
 ```csharp
 [C#]
@@ -250,58 +250,58 @@ Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageO
 createOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), true);
 using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(createOptions, 100, 100))
 {
-    // املأ صورة PNG بأكملها باللون الأحمر.
+    // املأ صورة PNG بالكامل باللون الأحمر.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(rasterImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     gr.FillRectangle(brush, rasterImage.Bounds);
 
-    // قم بإنشاء صورة BMP بناءً على صورة PNG.
-    // سيتم تحويل وحدات البكسل المصدر إلى تنسيق 32-bpp إذا لزم الأمر.
+    // إنشاء صورة BMP بناءً على صورة PNG.
+    // سيتم تحويل بكسلات المصدر إلى تنسيق 32‑bpp إذا لزم الأمر.
     using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(rasterImage))
     {
-        // حفظ في ملف BMP
+        // حفظ إلى ملف BMP
         bmpImage.Save(dir + "output.32bpp.bmp");
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(RasterImage, ushort, BitmapCompression, double, double) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+ابدأ العمل مع فئة [`BmpImage`](../) بسلاسة عن طريق إنشاء نسخة جديدة باستخدام rasterImage مع المعلمات المحددة مثل bitsPerPixel والضغط. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للتعامل مع كائنات BmpImage، مما يضمن المرونة والكفاءة في مشاريعهم.
 
 ```csharp
 public BmpImage(RasterImage rasterImage, ushort bitsPerPixel, BitmapCompression compression, 
     double horizontalResolution, double verticalResolution)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| rasterImage | RasterImage | الصورة المراد تهيئة بيانات البكسل واللوحة بها. |
-| bitsPerPixel | UInt16 | وحدات البت لكل بكسل. |
-| compression | BitmapCompression | ضغط الاستخدام. |
-| horizontalResolution | Double | الدقة الأفقية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
-| verticalResolution | Double | الدقة الرأسية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
+| rasterImage | RasterImage | الصورة لتهيئة بيانات البكسل ولوحة الألوان بها. |
+| bitsPerPixel | UInt16 | عدد البتات لكل بكسل. |
+| ضغط | BitmapCompression | الضغط المراد استخدامه. |
+| horizontalResolution | Double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
+| verticalResolution | Double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن تكون الصورة النقطية خالية ؛ rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| ArgumentNullException | صورة الراستر فارغة. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية تحميل BmpImage من مثيل آخر لـ RasterImage بعمق البت والضغط المحددين.
+المثال يوضح كيفية تحميل BmpImage من نسخة أخرى من RasterImage مع عمق البت والضغط المحددين.
 
 ```csharp
 [C#]
@@ -313,83 +313,83 @@ Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageO
 createOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), true);
 using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(createOptions, 100, 100))
 {
-    // املأ صورة PNG بأكملها باللون الأحمر.
+    // املأ صورة PNG بالكامل باللون الأحمر.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(rasterImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     gr.FillRectangle(brush, rasterImage.Bounds);
 
-    // قم بإنشاء صورة BMP بناءً على صورة PNG.
-    // سيتم تحويل وحدات البكسل المصدر إلى تنسيق 24 bpp إذا لزم الأمر.
-    // سيتم ضبط الدقة على 96 نقطة في البوصة.
+    // إنشاء صورة BMP بناءً على صورة PNG.
+    // سيتم تحويل بكسلات المصدر إلى تنسيق 24‑bpp إذا لزم الأمر.
+    // سيتم ضبط الدقة إلى 96 نقطة في البوصة.
     using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(rasterImage, 24, Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb, 96.0, 96.0))
     {
-        // حفظ في ملف BMP
+        // حفظ إلى ملف BMP
         bmpImage.Save(dir + "output.24bpp.96dpi.bmp");
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(int, int) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+ابدأ باستخدام فئة [`BmpImage`](../) بسهولة عن طريق إنشاء نسخة جديدة مع معلمات العرض والارتفاع المحددة. مثالي للمطورين الذين يبحثون عن طريقة مريحة لإنشاء كائنات BmpImage بأبعاد مخصصة، مما يضمن المرونة وسهولة الدمج في مشاريعهم.
 
 ```csharp
 public BmpImage(int width, int height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية إنشاء صورة BmpImage بالحجم المحدد.
+المثال يوضح كيفية إنشاء BmpImage بالحجم المحدد.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// قم بإنشاء صورة BMP 32-bpp بحجم 100 × 100 بكسل.
+// إنشاء صورة BMP بعمق 32 بت بحجم 100 × 100 بكسل.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-    // املأ الصورة بأكملها باللون الأحمر.
+    // املأ الصورة بالكامل باللون الأحمر.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-    // حفظ في ملف BMP
+    // حفظ إلى ملف BMP
     bmpImage.Save(dir + "output.bmp");
 }
 ```
 
-يوضح المثال التالي كيفية نقل صورة BMP إلى منصات نقالة لتقليل حجم الإخراج.
+المثال التالي يوضح كيفية تلوين صورة BMP بلوحة ألوان لتقليل حجم الناتج.
 
 ```csharp
 [C#]
 
-// قم بإنشاء صورة BMP 100 × 100 بكسل.
+// أنشئ صورة BMP بحجم 100 × 100 بكسل.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-    // التدرج الخطي من الزاوية اليسرى العلوية إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -397,15 +397,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-    // املأ الصورة بأكملها بفرشاة التدرج الخطي.
+    // املأ الصورة بالكامل بفرشاة التدرج الخطي.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-    // احصل على أقرب لوحة ألوان 8 بت تغطي أكبر عدد ممكن من وحدات البكسل ، بحيث تكون الصورة ملوّنة
-    // يكاد لا يمكن تمييزه بصريًا عن غير المنقول.
+    // احصل على أقرب لوحة ألوان 8-بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة بلوحة ألوان
+    // تقريبًا لا يمكن تمييزها بصريًا عن صورة غير ملوّنة بلوحة ألوان.
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
 
-    // تحتوي اللوحة 8 بت على 256 لونًا بحد أقصى.
+    // لوحة الألوان 8‑bit تحتوي على ما لا يزيد عن 256 لونًا.
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
     saveOptions.Palette = palette;
     saveOptions.BitsPerPixel = 8;
@@ -423,44 +423,44 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     }
 }
 
-// يبدو الإخراج كالتالي:
-// حجم الصورة باليت هو 11078 بايت.
-// حجم الصورة غير المصقول هو 40054 بايت.
+// الإخراج يبدو هكذا:
+// حجم الصورة الملونة باللوحة هو 11078 بايت.
+// حجم الصورة غير الملونة باللوحة هو 40054 بايت.
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(int, int, ushort, IColorPalette) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+ابدأ باستخدام فئة [`BmpImage`](../) بسلاسة عن طريق تهيئة نسخة جديدة مع معلمات مثل العرض، الارتفاع، عمق البت، واللوحة. مثالي للمطورين الذين يبحثون عن طريقة مباشرة لإنشاء كائنات BmpImage بأبعاد مخصصة وتكوينات ألوان، مما يضمن المرونة والكفاءة في مشاريعهم.
 
 ```csharp
 public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palette)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
-| bitsPerPixel | UInt16 | وحدات البت لكل بكسل. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
+| bitsPerPixel | UInt16 | عدد البتات لكل بكسل. |
 | palette | IColorPalette | لوحة الألوان. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية إنشاء صورة BmpImage بالحجم المحدد باستخدام اللوحة المحددة.
+المثال يوضح كيفية إنشاء BmpImage بالحجم المحدد مع اللوحة المحددة.
 
 ```csharp
 [C#]
@@ -473,10 +473,10 @@ Aspose.Imaging.Color[] paletterColors = new Aspose.Imaging.Color[]
     Aspose.Imaging.Color.Green,
 };
 
-// قم بإنشاء لوحة أحادية اللون تحتوي فقط على ألوان حمراء وخضراء.
+// أنشئ لوحة ألوان أحادية اللون تحتوي فقط على اللونين الأحمر والأخضر.
 Aspose.Imaging.IColorPalette palette = new Aspose.Imaging.ColorPalette(paletterColors);
 
-// قم بإنشاء صورة BMP أحادية اللون 1-bpp بحجم 100 × 100 بكسل.
+// إنشاء صورة BMP أحادية اللون بدقة 1‑bpp بحجم 100 × 100 بكسل.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 1, palette))
 {
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
@@ -489,49 +489,49 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     Aspose.Imaging.Brushes.SolidBrush greenBrush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Green);
     gr.FillRectangle(greenBrush, new Aspose.Imaging.Rectangle(0, bmpImage.Height / 2, bmpImage.Width, bmpImage.Height / 2));
 
-    // حفظ في BMP
+    // حفظ إلى BMP
     bmpImage.Save(dir + "output.monochrome.bmp");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpImage(int, int, ushort, IColorPalette, BitmapCompression, double, double) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpImage`](../../bmpimage) فئة .
+أنشئ بسهولة نسخة جديدة من فئة [`BmpImage`](../) باستخدام هذا المُنشئ، مع تحديد المعلمات مثل العرض، الارتفاع، bitsPerPixel، واللوحة. مثالي للمطورين الذين يبحثون عن طريقة مريحة لإنشاء كائنات BmpImage بأبعاد مخصصة وتكوينات ألوان، مما يضمن المرونة وسهولة الدمج في مشاريعهم.
 
 ```csharp
 public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palette, 
     BitmapCompression compression, double horizontalResolution, double verticalResolution)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
-| bitsPerPixel | UInt16 | وحدات البت لكل بكسل. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
+| bitsPerPixel | UInt16 | عدد البتات لكل بكسل. |
 | palette | IColorPalette | لوحة الألوان. |
-| compression | BitmapCompression | ضغط الاستخدام. |
-| horizontalResolution | Double | الدقة الأفقية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
-| verticalResolution | Double | الدقة الرأسية. ملاحظة نظرًا لتقريب الدقة الناتجة قد تختلف قليلاً عن الدقة التي تم تمريرها. |
+| ضغط | BitmapCompression | الضغط المراد استخدامه. |
+| horizontalResolution | Double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
+| verticalResolution | Double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلًا عن القيمة المُمرَّرة. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | يجب أن يكون الارتفاع موجبًا. |
-| ArgumentException | يجب تحديد لوحة للصور ذات 8 بت لكل بكسل أو أقل. ؛ لوح |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception/) | يجب أن يكون الارتفاع إيجابيًا. |
+| ArgumentException | يجب تحديد لوحة الألوان للصور التي تحتوي على 8 بتات لكل بكسل أو أقل. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال كيفية إنشاء صورة BmpImage باستخدام خيارات متنوعة.
+المثال يوضح كيفية إنشاء BmpImage باستخدام خيارات متعددة.
 
 ```csharp
 [C#]
@@ -544,10 +544,10 @@ Aspose.Imaging.Color[] paletterColors = new Aspose.Imaging.Color[]
     Aspose.Imaging.Color.Green,
 };
 
-// قم بإنشاء لوحة أحادية اللون تحتوي فقط على ألوان حمراء وخضراء.
+// أنشئ لوحة ألوان أحادية اللون تحتوي فقط على اللونين الأحمر والأخضر.
 Aspose.Imaging.IColorPalette palette = new Aspose.Imaging.ColorPalette(paletterColors);
 
-// قم بإنشاء صورة BMP أحادية اللون 1-bpp بحجم 100 × 100 بكسل.
+// إنشاء صورة BMP أحادية اللون بدقة 1‑bpp بحجم 100 × 100 بكسل.
 // سيتم ضبط الدقة الأفقية والعمودية على 96 نقطة في البوصة.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 1, palette, Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb, 96.0, 96.0))
 {
@@ -561,17 +561,17 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     Aspose.Imaging.Brushes.SolidBrush greenBrush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Green);
     gr.FillRectangle(greenBrush, new Aspose.Imaging.Rectangle(0, bmpImage.Height / 2, bmpImage.Width, bmpImage.Height / 2));
 
-    // حفظ في ملف BMP
+    // حفظ إلى ملف BMP
     bmpImage.Save(dir + "output.monochrome.96dpi.bmp");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette)
-* enum [BitmapCompression](../../bitmapcompression)
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
+* enum [BitmapCompression](../../bitmapcompression/)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

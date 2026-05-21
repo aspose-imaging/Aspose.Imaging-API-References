@@ -1,139 +1,139 @@
 ---
-title: Load
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتحميل صورة جديدة من الملف المحدد.
+title: "Image.Load"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Image. تقوم بتحميل صورة جديدة من مسار الملف أو عنوان URL المحدد. إذا كان filePath مسار ملف فإن الطريقة تفتح الملف فقط. إذا كان filePath عنوان URL فإن الطريقة تقوم بتنزيل الملف وتخزينه مؤقتًا وتفتحه"
 type: docs
 weight: 20
 url: /ar/net/aspose.imaging/image/load/
 ---
 ## Load(string, LoadOptions) {#load_3}
 
-يقوم بتحميل صورة جديدة من الملف المحدد.
+يقوم بتحميل صورة جديدة من مسار الملف أو عنوان URL المحدد. إذا كان *filePath* مسار ملف، فإن الطريقة تفتح الملف فقط. إذا كان *filePath* عنوان URL، فإن الطريقة تقوم بتنزيل الملف، وتخزينه مؤقتًا، ثم فتحه.
 
 ```csharp
 public static Image Load(string filePath, LoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filePath | String | مسار الملف لتحميل الصورة منه. |
+| filePath | String | مسار الملف أو عنوان URL لتحميل الصورة منه. |
 | loadOptions | LoadOptions | خيارات التحميل. |
 
 ### قيمة الإرجاع
 
-الصورة المحملة .
+الصورة المحملة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [LoadOptions](../../loadoptions)
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* class [LoadOptions](../../loadoptions/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Load(string) {#load_2}
 
-يقوم بتحميل صورة جديدة من الملف المحدد.
+يقوم بتحميل صورة جديدة من مسار الملف أو عنوان URL المحدد. إذا كان *filePath* مسار ملف، فإن الطريقة تفتح الملف فقط. إذا كان *filePath* عنوان URL، فإن الطريقة تقوم بتنزيل الملف، وتخزينه مؤقتًا، ثم فتحه.
 
 ```csharp
 public static Image Load(string filePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filePath | String | مسار الملف المراد تحميل الصورة منه . |
+| filePath | String | مسار الملف أو عنوان URL لتحميل الصورة منه. |
 
 ### قيمة الإرجاع
 
-الصورة المحملة .
+الصورة المحملة.
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال تحميل ملف صورة موجود في مثيل Aspose.Imaging.Image باستخدام مسار ملف محدد
+هذا المثال يوضح تحميل ملف Image موجود إلى كائن من Aspose.Imaging.Image باستخدام مسار الملف المحدد
 
 ```csharp
 [C#]
 
-// إنشاء مثيل صورة وتهيئته بملف صورة موجود من موقع القرص
+//إنشاء كائن Image وتهيئته بملف صورة موجود من موقع القرص
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"C:\temp\sample.bmp"))
 {
-    // القيام ببعض معالجة الصور
+    //قم ببعض معالجة الصورة.
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Load(Stream, LoadOptions) {#load_1}
 
-يتم تحميل صورة جديدة من التدفق المحدد.
+يقوم بتحميل صورة جديدة من الدفق المحدد.
 
 ```csharp
 public static Image Load(Stream stream, LoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه. |
+| stream | Stream | دفق البيانات لتحميل الصورة منه. |
 | loadOptions | LoadOptions | خيارات التحميل. |
 
 ### قيمة الإرجاع
 
-الصورة المحملة .
+الصورة المحملة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [LoadOptions](../../loadoptions)
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* class [LoadOptions](../../loadoptions/)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Load(Stream) {#load}
 
-يتم تحميل صورة جديدة من التدفق المحدد.
+يقوم بتحميل صورة جديدة من الدفق المحدد.
 
 ```csharp
 public static Image Load(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه . |
+| stream | Stream | دفق البيانات لتحميل الصورة منه. |
 
 ### قيمة الإرجاع
 
-الصورة المحملة .
+الصورة المحملة.
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال استخدام كائنات System.IO.Stream لتحميل ملف صورة موجود
+هذا المثال يوضح استخدام كائنات System.IO.Stream لتحميل ملف Image موجود
 
 ```csharp
 [C#]
 
-// إنشاء مثيل لـ FileStream
+//إنشاء مثيل من FileStream
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\sample.bmp", System.IO.FileMode.Open))
 {
-    // إنشاء مثيل لفئة الصورة وتحميل ملف موجود من خلال كائن FileStream عن طريق استدعاء طريقة التحميل
+    //إنشاء مثال من فئة Image وتحميل ملف موجود عبر كائن FileStream عن طريق استدعاء طريقة Load
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(stream))
     {
-        // القيام ببعض معالجة الصور.
+        //إجراء بعض معالجة الصور.
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Image](../../image)
-* مساحة الاسم [Aspose.Imaging](../../image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Image](../)
+* namespace [Aspose.Imaging](../../image/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

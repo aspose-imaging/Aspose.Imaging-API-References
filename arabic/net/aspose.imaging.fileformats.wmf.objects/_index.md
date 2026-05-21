@@ -1,101 +1,107 @@
 ---
-title: Aspose.Imaging.FileFormats.Wmf.Objects
-second_title: Aspose.Imaging لمرجع NET API
-description: ملفnamespace يحتوي على أنواع MS-WMF Windows Metafile Format 2.2 WMF Objects
+title: "Aspose.Imaging.FileFormats.Wmf.Objects"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "تحتوي مساحة الاسم على أنواع MSWMF Windows Metafile Format 2.2 WMF Objects"
 type: docs
-weight: 710
+weight: 770
 url: /ar/net/aspose.imaging.fileformats.wmf.objects/
 ---
-ملف`namespace` يحتوي على أنواع [MS-WMF]: Windows Metafile Format 2.2 WMF Objects
+تحتوي `namespace` على الأنواع [MS-WMF]: Windows Metafile Format 2.2 WMF Objects
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [WmfAnimatePalette](./wmfanimatepalette) | يعيد سجل META_ANIMATEPALETTE تعريف الإدخالات في اللوح المنطقي المحدد في سياق جهاز التشغيل باستخدام كائن لوح الألوان المحدد (القسم 2.2.1.3) . |
-| [WmfArc](./wmfarc) | سجل META_ARC يرسم قوسًا بيضاويًا. |
-| [WmfBitBlt](./wmfbitblt) | يحدد سجل META_BITBLT نقل كتلة من البكسل وفقًا لعملية البيانات النقطية. وجهة النقل هي منطقة الإخراج الحالية في سياق جهاز التشغيل. |
-| [WmfBitmap16](./wmfbitmap16) | يحدد كائن Bitmap16 معلومات حول الأبعاد وتنسيق color للصورة النقطية. |
-| [WmfBitmapBaseHeader](./wmfbitmapbaseheader) | فئة رأس الصورة النقطية الأساسية. |
-| [WmfBitmapCoreHeader](./wmfbitmapcoreheader) | يحتوي كائن BitmapCoreHeader على معلومات حول أبعاد وتنسيق الألوان لصورة نقطية مستقلة عن الجهاز (DIB) . |
-| [WmfBitmapInfoHeader](./wmfbitmapinfoheader) | يحتوي كائن BitmapInfoHeader على معلومات حول الأبعاد وتنسيق الألوان لصورة نقطية (DIB) مستقلة عن الجهاز . |
-| [WmfChord](./wmfchord) | يرسم سجل META_CHORD وترًا محددًا بواسطة region يحدها تقاطع قطع ناقص مع مقطع خطي. تم تحديد chord باستخدام القلم وتم تعبئته باستخدام الفرشاة المحددة في سياق جهاز التشغيل. |
-| [WmfCieXyzTriple](./wmfciexyztriple) | يحدد كائن CIEXYZTriple معلومات حول كائن CIEXYZ ثلاثي الألوان . |
-| [WmfCreateBrushInDirect](./wmfcreatebrushindirect) | فرشاة الإنشاء مباشرة |
-| [WmfCreateFontInDirect](./wmfcreatefontindirect) | إنشاء font |
-| [WmfCreatePalette](./wmfcreatepalette) | ينشئ سجل META_CREATEPALETTE كائن لوح الألوان (القسم 2.2.1.3) . |
-| [WmfCreatePatternBrush](./wmfcreatepatternbrush) | ينشئ سجل META_CREATEPATTERNBRUSH كائن فرشاة بنمط محدد بواسطة صورة نقطية. |
-| [WmfCreatePenInDirect](./wmfcreatepenindirect) | قلم الإنشاء المباشر |
-| [WmfCreateRegion](./wmfcreateregion) | ينشئ سجل META_CREATEREGION كائن منطقة (القسم 2.2.1.5) . |
-| [WmfDeleteObject](./wmfdeleteobject) | حذف كائن |
-| [WmfDeviceIndependentBitmap](./wmfdeviceindependentbitmap) | يحدد كائن DeviceIndependentBitmap صورة بتنسيق صورة نقطية مستقلة عن الجهاز (DIB) |
-| [WmfDibBitBlt](./wmfdibbitblt) | يحدد سجل META_DIBBITBLT نقل كتلة من وحدات البكسل بتنسيق مستقل عن الجهاز في وفقًا لعملية البيانات النقطية. |
-| [WmfDibCreatePatternBrush](./wmfdibcreatepatternbrush) | ينشئ سجل META_DIBCREATEPATTERNBRUSH كائن فرشاة (section 2.2.1.1) بنمط محدد بواسطة كائن DeviceIndependentBitmap (DIB) (القسم 2.2.2.9) . |
-| [WmfDibStrechBlt](./wmfdibstrechblt) | يحدد سجل META_DIBSTRETCHBLT نقل كتلة بكسل بتنسيق مستقل عن الجهاز وفقًا لعملية المسح النقطي ، مع إمكانية التوسع أو الانكماش. |
-| [WmfEllipse](./wmfellipse) | سجل META_ELLIPSE يرسم قطع ناقص. مركز القطع الناقص هو مركز المستطيل المحيط المحدد. يتم تحديد القطع الناقص باستخدام القلم وتعبئته باستخدام الفرشاة ؛ يتم تحديد هذه في سياق جهاز التشغيل . |
-| [WmfEof](./wmfeof) | كائن Eof . |
-| [WmfEscape](./wmfescape) | كائن الهروب wmf . |
-| [WmfExcludeClipRect](./wmfexcludecliprect) | يعيّن سجل META_EXCLUDECLIPRECT منطقة القطع في سياق الجهاز playback إلى منطقة القطع الحالية مطروحًا منها المستطيل المحدد. |
-| [WmfExtFloodFill](./wmfextfloodfill) | يملأ سجل META_EXTFLOODFILL منطقة بالفرشاة المحددة في سياق جهاز التشغيل. |
-| [WmfExtTextOut](./wmfexttextout) | Wmf ext نص خارجي |
-| [WmfFillRegion](./wmffillregion) | يملأ سجل META_FILLREGION منطقة باستخدام فرشاة محددة. |
-| [WmfFloodFill](./wmffloodfill) | يملأ سجل META_FLOODFILL مساحة من سطح الإخراج بفرشاة المحددة في سياق جهاز التشغيل. |
-| [WmfFrameRegion](./wmfframeregion) | كائن منطقة إطار wmf . |
-| [WmfGraphicObject](./wmfgraphicobject) | تحدد كائنات WMF الرسومية معلمات لإخراج الرسومات. |
-| [WmfIntersectClipRect](./wmfintersectcliprect) | يعيّن سجل META_INTERSECTCLIPRECT منطقة القطع في سياق جهاز التشغيل إلى تقاطع منطقة clipping الحالية والمستطيل المحدد. |
-| [WmfInvertRegion](./wmfinvertregion) | يرسم سجل META_INVERTREGION منطقة تكون فيها الألوان مقلوبة . |
-| [WmfLineTo](./wmflineto) | يرسم سجل META_LINETO خطًا من موضع الرسم الذي هو المحدد في سياق جهاز التشغيل حتى النقطة المحددة ولكن لا تشملها. |
-| [WmfLogColorSpace](./wmflogcolorspace) | يحدد كائن LogColorSpace مساحة لونية منطقية لسياق جهاز التشغيل ، والذي يمكن أن يكون اسم ملف تعريف اللون في أحرف ASCII. |
-| [WmfLogColorSpaceW](./wmflogcolorspacew) | يحدد كائن LogColorSpaceW مساحة لونية منطقية ، والتي يمكن تعريفها بواسطة ملف ملف تعريف اللون باسم يتكون من أحرف Unicode 16-bit . |
-| [WmfMoveTo](./wmfmoveto) | يعيّن سجل META_MOVETO موضع الإخراج في سياق device التشغيل إلى نقطة محددة. |
-| [WmfObject](./wmfobject) | كائن wmf الأساسي . |
-| [WmfOffsetClipRgn](./wmfoffsetcliprgn) | ينقل سجل META_OFFSETCLIPRGN منطقة القطع في سياق جهاز playback بواسطة الإزاحات المحددة. |
-| [WmfOffsetViewPortOrg](./wmfoffsetviewportorg) | ينقل سجل META_OFFSETVIEWPORTORG أصل منفذ العرض في سياق جهاز التشغيل عن طريق إزاحات أفقية ورأسية محددة. |
-| [WmfOffsetWindowOrg](./wmfoffsetwindoworg) | ينقل سجل META_OFFSETWINDOWORG أصل نافذة الإخراج في سياق جهاز التشغيل عن طريق إزاحات أفقية ورأسية محددة. |
-| [WmfPaintRegion](./wmfpaintregion) | يرسم سجل META_PAINTREGION المنطقة المحددة باستخدام الفرشاة المحددة في سياق جهاز التشغيل. |
-| [WmfPatBlt](./wmfpatblt) | يرسم سجل META_PATBLT مستطيلًا محددًا باستخدام الفرشاة التي تم تعريفها في سياق جهاز التشغيل. يتم الجمع بين لون الفرشاة ولون السطح أو الألوان باستخدام عملية raster المحددة. |
-| [WmfPie](./wmfpie) | يرسم سجل META_PIE إسفينًا دائريًا يحده تقاطع للقطع الناقص واثنين من الشعاع. تم تحديد الدائرة باستخدام القلم و المملوءة باستخدام الفرشاة المحددة في سياق تشغيل device . |
-| [WmfPointObject](./wmfpointobject) | كائن النقطة . |
-| [WmfPolygon](./wmfpolygon) | كائن المضلع |
-| [WmfPolyLine](./wmfpolyline) | كائن خط بولي . |
-| [WmfPolyPolygon](./wmfpolypolygon) | يحدد كائن PolyPolygon سلسلة من المضلعات المغلقة. |
-| [WmfRealizePalette](./wmfrealizepalette) | يقوم سجل META_REALIZEPALETTE بتعيين الإدخالات من اللوح المنطقي المحدد في سياق جهاز التشغيل إلى لوحة النظام. |
-| [WmfRecord](./wmfrecord) | سجل Wmf |
-| [WmfRectangle](./wmfrectangle) | سجل META_RECTANGLE يرسم مستطيلاً. يتم تحديد المستطيل باستخدام القلم وتعبئته باستخدام الفرشاة المحددة في سياق جهاز التشغيل . |
-| [WmfRegion](./wmfregion) | يحدد كائن المنطقة شكلًا غير مستقيم الخطي محتمل تحديده بواسطة صفيف من خطوط المسح . |
-| [WmfResizePalette](./wmfresizepalette) | يعيد سجل META_RESIZEPALETTE تحديد حجم اللوحة المنطقية التي تم تحديدها في سياق جهاز التشغيل. |
-| [WmfRestoreDc](./wmfrestoredc) | استعادة كائن DC |
-| [WmfRoundRect](./wmfroundrect) | الكائن المستطيل . |
-| [WmfSaveDc](./wmfsavedc) | يحفظ سجل META_SAVEDC سياق جهاز التشغيل لاسترداده في وقت لاحق. |
-| [WmfScaleViewportExt](./wmfscaleviewportext) | يقاس سجل META_SCALEVIEWPORTEXT النطاقات الأفقية والعمودية لإطار العرض المحدد في سياق جهاز التشغيل باستخدام النسب التي شكلتها المضاعفات والمقسومات المحددة. |
-| [WmfScaleWindowExt](./wmfscalewindowext) | يقوم سجل META_SCALEWINDOWEXT بقياس النطاقات الأفقية والرأسية لنافذة الإخراج المحددة في سياق جهاز التشغيل باستخدام النسب المكونة من مضاعفات محددة و قواسم . |
-| [WmfScanObject](./wmfscanobject) | يحدد كائن المسح مجموعة من خطوط المسح. |
-| [WmfSelectClipRegion](./wmfselectclipregion) | يحدد سجل META_SELECTCLIPREGION كائن منطقة (القسم 2.2.1.5) ليكون منطقة القطع الحالية. |
-| [WmfSelectObject](./wmfselectobject) | تحديد الكائن . |
-| [WmfSelectPalette](./wmfselectpalette) | يحدد سجل META_SELECTPALETTE اللوح المنطقي الحالي باستخدام كائن لوح الألوان المحدد a . |
-| [WmfSetBkColor](./wmfsetbkcolor) | يعيّن سجل META_SETBKCOLOR لون الخلفية في سياق جهاز playback إلى لون محدد ، أو إلى أقرب لون مادي if لا يمكن للجهاز تمثيل اللون المحدد. |
-| [WmfSetBkMode](./wmfsetbkmode) | وضع bk المحدد . |
-| [WmfSetDibToDev](./wmfsetdibtodev) | يعيّن سجل META_SETDIBTODEV كتلة من وحدات البكسل في سياق جهاز playback باستخدام بيانات ألوان مستقلة عن الجهاز. مصدر بيانات اللون هو DIB. |
-| [WmfSetLayout](./wmfsetlayout) | يحدد سجل META_SETLAYOUT اتجاه التخطيط في سياق جهاز playback . يحدد اتجاه التخطيط الاتجاه الذي يتم فيه رسم النص والرسومات |
-| [WmfSetMapMode](./wmfsetmapmode) | وضع الخريطة المحدد . |
-| [WmfSetMapperFlags](./wmfsetmapperflags) | يحدد سجل META_SETMAPPERFLAGS الخوارزمية التي يستخدمها معين font عندما يقوم بتعيين الخطوط المنطقية للخطوط الفعلية. |
-| [WmfSetPalentries](./wmfsetpalentries) | يحدد سجل META_SETPALENTRIES قيم ألوان RGB في نطاق إدخالات في اللوحة المنطقية المحددة في سياق جهاز التشغيل . |
-| [WmfSetPixel](./wmfsetpixel) | يعيّن سجل META_SETPIXEL البكسل في الإحداثيات المحددة إلى اللون المحدد. |
-| [WmfSetPolyFillMode](./wmfsetpolyfillmode) | وضع ملء بولي المحدد . |
-| [WmfSetRelabs](./wmfsetrelabs) | سجل META_SETRELABS محجوز وغير مدعوم. |
-| [WmfSetRop2](./wmfsetrop2) | المجموعة rop2 |
-| [WmfSetStretchbltMode](./wmfsetstretchbltmode) | يحدد سجل META_SETSTRETCHBLTMODE وضع امتداد الصورة النقطية في سياق جهاز التشغيل. |
-| [WmfSetTextAlign](./wmfsettextalign) | ضبط محاذاة النص |
-| [WmfSetTextCharExtra](./wmfsettextcharextra) | يحدد سجل META_SETTEXTCHAREXTRA التباعد بين الأحرف لضبط النص في سياق جهاز التشغيل. تمت إضافة التباعد إلى المسافة البيضاء بين كل حرف ، بما في ذلك `break` الأحرف ، عندما يكون سطر النص المضبوط output . |
-| [WmfSetTextColor](./wmfsettextcolor) | تعيين لون النص . |
-| [WmfSetTextJustification](./wmfsettextjustification) | يحدد سجل META_SETTEXTJUSTIFICATION مقدار المساحة المراد إضافة إليها`break` أحرف في سلسلة نص مضبوط . |
-| [WmfSetViewportExt](./wmfsetviewportext) | يعيّن سجل META_SETVIEWPORTEXT النطاقات الأفقية والرأسية لإطار العرض في سياق جهاز التشغيل. |
-| [WmfSetViewportOrg](./wmfsetviewportorg) | يحدد سجل META_SETVIEWPORTORG أصل منفذ العرض في سياق جهاز التشغيل. |
-| [WmfSetWindowExt](./wmfsetwindowext) | كائن النافذة المحددة . |
-| [WmfSetWindowOrg](./wmfsetwindoworg) | تعيين النافذة org object |
-| [WmfStretchBlt](./wmfstretchblt) | يحدد سجل META_STRETCHBLT نقل كتلة من البكسل وفقًا لعملية خطوط المسح ، مع إمكانية التوسيع أو الانكماش. |
-| [WmfStretchDib](./wmfstretchdib) | نموذج wmf الممتد DIB objetc. |
-| [WmfTextOut](./wmftextout) | يخرج سجل META_EXTTEXTOUT النص باستخدام الخط ولون الخلفية ولون النص المحدد في سياق جهاز التشغيل. |
-| [WmfUntyped](./wmfuntyped) | wmf untype object |
+| [WmfAnimatePalette](./wmfanimatepalette/) | سجل META_ANIMATEPALETTE يعيد تعريف الإدخالات في اللوحة المنطقية التي تم تعريفها في سياق جهاز التشغيل باستخدام كائن Palette المحدد (القسم 2.2.1.3). |
+| [WmfArc](./wmfarc/) | سجل META_ARC يرسم قوسًا بيضاويًا. |
+| [WmfBitBlt](./wmfbitblt/) | سجل META_BITBLT يحدد نقل كتلة من البكسلات وفقًا لعملية نقطية. وجهة النقل هي منطقة الإخراج الحالية في سياق جهاز التشغيل. |
+| [WmfBitmap16](./wmfbitmap16/) | كائن Bitmap16 يحدد معلومات حول الأبعاد وتنسيق اللون لملف bitmap. |
+| [WmfBitmapBaseHeader](./wmfbitmapbaseheader/) | فئة رأس bitmap الأساسية. |
+| [WmfBitmapCoreHeader](./wmfbitmapcoreheader/) | كائن BitmapCoreHeader يحتوي على معلومات حول الأبعاد وتنسيق اللون لملف bitmap المستقل عن الجهاز (DIB). |
+| [WmfBitmapInfoHeader](./wmfbitmapinfoheader/) | كائن BitmapInfoHeader يحتوي على معلومات حول الأبعاد وتنسيق اللون لملف bitmap المستقل عن الجهاز (DIB). |
+| [WmfChord](./wmfchord/) | سجل META_CHORD يرسم وترًا، يتم تعريفه بمنطقة محصورة بتقاطع إهليلج مع قطعة خط. يتم تحديد حدود الوتر باستخدام القلم وتعبئته باستخدام الفرشاة المحددة في سياق جهاز التشغيل. |
+| [WmfCieXyzTriple](./wmfciexyztriple/) | كائن CIEXYZTriple يحدد معلومات حول كائن اللون CIEXYZTriple. |
+| [WmfCreateBrushInDirect](./wmfcreatebrushindirect/) | إنشاء فرشاة مباشرة |
+| [WmfCreateFontInDirect](./wmfcreatefontindirect/) | إنشاء خط |
+| [WmfCreatePalette](./wmfcreatepalette/) | يقوم سجل META_CREATEPALETTE بإنشاء كائن لوحة ألوان (القسم 2.2.1.3). |
+| [WmfCreatePatternBrush](./wmfcreatepatternbrush/) | يقوم سجل META_CREATEPATTERNBRUSH بإنشاء كائن فرشاة بنمط محدد بواسطة صورة نقطية. |
+| [WmfCreatePenInDirect](./wmfcreatepenindirect/) | إنشاء القلم في الوضع المباشر |
+| [WmfCreateRegion](./wmfcreateregion/) | يقوم سجل META_CREATEREGION بإنشاء كائن منطقة (القسم 2.2.1.5). |
+| [WmfDeleteObject](./wmfdeleteobject/) | كائن Delete. |
+| [WmfDeviceIndependentBitmap](./wmfdeviceindependentbitmap/) | كائن DeviceIndependentBitmap يعرّف صورة بتنسيق صورة نقطية مستقلة عن الجهاز (DIB). |
+| [WmfDibBitBlt](./wmfdibbitblt/) | يقوم سجل META_DIBBITBLT بتحديد نقل كتلة من البكسلات بتنسيق مستقل عن الجهاز وفقًا لعملية نقطية. |
+| [WmfDibCreatePatternBrush](./wmfdibcreatepatternbrush/) | يقوم سجل META_DIBCREATEPATTERNBRUSH بإنشاء كائن فرشاة (القسم 2.2.1.1) بنمط محدد بواسطة كائن DeviceIndependentBitmap (DIB) (القسم 2.2.2.9). |
+| [WmfDibStrechBlt](./wmfdibstrechblt/) | يقوم سجل META_DIBSTRETCHBLT بتحديد نقل كتلة من البكسلات بتنسيق مستقل عن الجهاز وفقًا لعملية نقطية، مع إمكانية التوسيع أو الانكماش. |
+| [WmfEllipse](./wmfellipse/) | يقوم سجل META_ELLIPSE برسم إهليلج. مركز الإهليلج هو مركز المستطيل المحدد المحيط. يتم تحديد حدود الإهليلج باستخدام القلم وتعبئته باستخدام الفرشاة؛ وهذه محددة في سياق جهاز التشغيل. |
+| [WmfEof](./wmfeof/) | كائن Eof. |
+| [WmfEscape](./wmfescape/) | كائن wmf escape. |
+| [WmfExcludeClipRect](./wmfexcludecliprect/) | يقوم سجل META_EXCLUDECLIPRECT بتعيين منطقة القص في سياق جهاز التشغيل إلى منطقة القص الحالية مطروحًا منها المستطيل المحدد. |
+| [WmfExtFloodFill](./wmfextfloodfill/) | يقوم سجل META_EXTFLOODFILL بملء مساحة بالفرشاة المحددة في سياق جهاز التشغيل. |
+| [WmfExtTextOut](./wmfexttextout/) | نص wmf ext خارج |
+| [WmfFillRegion](./wmffillregion/) | يقوم سجل META_FILLREGION بملء منطقة باستخدام فرشاة محددة. |
+| [WmfFloodFill](./wmffloodfill/) | يقوم سجل META_FLOODFILL بملء مساحة من سطح الإخراج بالفرشاة المحددة في سياق جهاز التشغيل. |
+| [WmfFrameRegion](./wmfframeregion/) | كائن wmf frame region. |
+| [WmfGraphicObject](./wmfgraphicobject/) | كائنات WMF Graphics تحدد معلمات إخراج الرسومات. |
+| [WmfIntersectClipRect](./wmfintersectcliprect/) | يقوم سجل META_INTERSECTCLIPRECT بتعيين منطقة القص في سياق جهاز التشغيل إلى تقاطع منطقة القص الحالية والمستطيل المحدد. |
+| [WmfInvertRegion](./wmfinvertregion/) | يقوم سجل META_INVERTREGION برسم منطقة يتم فيها عكس الألوان. |
+| [WmfLineTo](./wmflineto/) | يقوم سجل META_LINETO برسم خط من موضع الرسم المحدد في سياق جهاز التشغيل حتى النقطة المحددة دون تضمينها. |
+| [WmfLogColorSpace](./wmflogcolorspace/) | كائن LogColorSpace يحدد مساحة ألوان منطقية لسياق جهاز التشغيل، والتي يمكن أن تكون اسم ملف تعريف لون بأحرف ASCII. |
+| [WmfLogColorSpaceW](./wmflogcolorspacew/) | كائن LogColorSpaceW يحدد مساحة ألوان منطقية، ويمكن تعريفها بملف تعريف لون يحمل اسمًا مكوّنًا من أحرف Unicode 16-بت. |
+| [WmfMoveTo](./wmfmoveto/) | يقوم سجل META_MOVETO بتعيين موضع الإخراج في سياق جهاز التشغيل إلى نقطة محددة. |
+| [WmfObject](./wmfobject/) | كائن wmf الأساسي. |
+| [WmfOffsetClipRgn](./wmfoffsetcliprgn/) | سجل META_OFFSETCLIPRGN ينقل منطقة القص في سياق جهاز التشغيل وفق الإزاحات المحددة. |
+| [WmfOffsetViewPortOrg](./wmfoffsetviewportorg/) | سجل META_OFFSETVIEWPORTORG ينقل أصل منطقة العرض في سياق جهاز التشغيل وفق إزاحات أفقية ورأسية محددة. |
+| [WmfOffsetWindowOrg](./wmfoffsetwindoworg/) | سجل META_OFFSETWINDOWORG ينقل أصل نافذة الإخراج في سياق جهاز التشغيل وفق إزاحات أفقية ورأسية محددة. |
+| [WmfPaintRegion](./wmfpaintregion/) | سجل META_PAINTREGION يرسم المنطقة المحددة باستخدام الفرشاة المعرفة في سياق جهاز التشغيل. |
+| [WmfPatBlt](./wmfpatblt/) | سجل META_PATBLT يرسم مستطيلًا محددًا باستخدام الفرشاة المعرفة في سياق جهاز التشغيل. يتم دمج لون الفرشاة ولون أو ألوان السطح باستخدام عملية البكسل المحددة. |
+| [WmfPie](./wmfpie/) | سجل META_PIE يرسم شريحة على شكل فطيرة محصورة بتقاطع إهليلج وشعاعين. يتم تحديد حدود الفطيرة باستخدام القلم وتعبئتها باستخدام الفرشاة المعرفة في سياق جهاز التشغيل. |
+| [WmfPointObject](./wmfpointobject/) | كائن النقطة. |
+| [WmfPolygon](./wmfpolygon/) | كائن المضلع |
+| [WmfPolyLine](./wmfpolyline/) | كائن الخط المتعدد. |
+| [WmfPolyPolygon](./wmfpolypolygon/) | كائن PolyPolygon يعرّف سلسلة من المضلعات المغلقة. |
+| [WmfRealizePalette](./wmfrealizepalette/) | سجل META_REALIZEPALETTE يطابق الإدخالات من لوحة الألوان المنطقية المعرفة في سياق جهاز التشغيل مع لوحة ألوان النظام. |
+| [WmfRecord](./wmfrecord/) | سجل Wmf |
+| [WmfRectangle](./wmfrectangle/) | سجل META_RECTANGLE يرسم مستطيلًا. يتم تحديد حدود المستطيل باستخدام القلم وتعبئته باستخدام الفرشاة المعرفة في سياق جهاز التشغيل. |
+| [WmfRegion](./wmfregion/) | كائن Region يعرّف شكلاً قد يكون غير مستطيل يُحدَّد بواسطة مصفوفة من خطوط المسح. |
+| [WmfResizePalette](./wmfresizepalette/) | سجل META_RESIZEPALETTE يعيد تعريف حجم لوحة الألوان المنطقية المعرفة في سياق جهاز التشغيل. |
+| [WmfRestoreDc](./wmfrestoredc/) | كائن استعادة DC |
+| [WmfRoundRect](./wmfroundrect/) | كائن المستطيل. |
+| [WmfSaveDc](./wmfsavedc/) | سجل META_SAVEDC يحفظ سياق جهاز التشغيل لاسترجاعه لاحقًا. |
+| [WmfScaleViewportExt](./wmfscaleviewportext/) | سجل META_SCALEVIEWPORTEXT يضبط مقياس الأبعاد الأفقية والرأسية لمنطقة العرض المعرفة في سياق جهاز التشغيل باستخدام النسب التي تتكون من المضاعفات والمقاسم المحددة. |
+| [WmfScaleWindowExt](./wmfscalewindowext/) | سجل META_SCALEWINDOWEXT يضبط مقياس الأبعاد الأفقية والرأسية لنافذة الإخراج المعرفة في سياق جهاز التشغيل باستخدام النسب التي تتكون من المضاعفات والمقاسم المحددة. |
+| [WmfScanObject](./wmfscanobject/) | كائن Scan يحدد مجموعة من خطوط المسح. |
+| [WmfSelectClipRegion](./wmfselectclipregion/) | سجل META_SELECTCLIPREGION يحدد كائن Region (القسم 2.2.1.5) ليكون منطقة القص الحالية. |
+| [WmfSelectObject](./wmfselectobject/) | كائن التحديد. |
+| [WmfSelectPalette](./wmfselectpalette/) | سجل META_SELECTPALETTE يعرّف لوحة الألوان المنطقية الحالية باستخدام كائن Palette المحدد. |
+| [WmfSetBkColor](./wmfsetbkcolor/) | يقوم سجل META_SETBKCOLOR بتعيين لون الخلفية في سياق جهاز التشغيل إلى لون محدد، أو إلى أقرب لون مادي إذا كان الجهاز غير قادر على تمثيل اللون المحدد. |
+| [WmfSetBkMode](./wmfsetbkmode/) | وضع bk mode. |
+| [WmfSetDibToDev](./wmfsetdibtodev/) | يقوم سجل META_SETDIBTODEV بتعيين كتلة من البكسلات في سياق جهاز التشغيل باستخدام بيانات لون مستقلة عن الجهاز. مصدر بيانات اللون هو DIB. |
+| [WmfSetLayout](./wmfsetlayout/) | يقوم سجل META_SETLAYOUT بتعريف اتجاه التخطيط في سياق جهاز التشغيل. يحدد اتجاه التخطيط الاتجاه الذي يتم فيه رسم النص والرسومات. |
+| [WmfSetMapMode](./wmfsetmapmode/) | وضع map mode. |
+| [WmfSetMapperFlags](./wmfsetmapperflags/) | يقوم سجل META_SETMAPPERFLAGS بتعريف الخوارزمية التي يستخدمها محول الخطوط عند تحويل الخطوط المنطقية إلى خطوط مادية. |
+| [WmfSetPalentries](./wmfsetpalentries/) | يقوم سجل META_SETPALENTRIES بتعريف قيم ألوان RGB في مجموعة من الإدخالات في اللوحة المنطقية التي تم تعريفها في سياق جهاز التشغيل. |
+| [WmfSetPixel](./wmfsetpixel/) | يقوم سجل META_SETPIXEL بتعيين البكسل عند الإحداثيات المحددة إلى اللون المحدد. |
+| [WmfSetPolyFillMode](./wmfsetpolyfillmode/) | وضع poly fill mode. |
+| [WmfSetRelabs](./wmfsetrelabs/) | سجل META_SETRELABS محجوز وغير مدعوم. |
+| [WmfSetRop2](./wmfsetrop2/) | وضع rop2 |
+| [WmfSetStretchbltMode](./wmfsetstretchbltmode/) | يقوم سجل META_SETSTRETCHBLTMODE بتعريف وضع تمديد البت ماب في سياق جهاز التشغيل. |
+| [WmfSetTextAlign](./wmfsettextalign/) | تعيين محاذاة النص |
+| [WmfSetTextCharExtra](./wmfsettextcharextra/) | يقوم سجل META_SETTEXTCHAREXTRA بتعريف التباعد بين الأحرف لتبرير النص في سياق جهاز التشغيل. يتم إضافة التباعد إلى المسافة البيضاء بين كل حرف، بما في ذلك الأحرف `break`، عندما يتم إخراج سطر من النص المبرر. |
+| [WmfSetTextColor](./wmfsettextcolor/) | تعيين لون النص. |
+| [WmfSetTextJustification](./wmfsettextjustification/) | يقوم سجل META_SETTEXTJUSTIFICATION بتعريف مقدار المسافة التي تُضاف إلى الأحرف `break` في سلسلة من النص المبرر. |
+| [WmfSetViewportExt](./wmfsetviewportext/) | يقوم سجل META_SETVIEWPORTEXT بتعيين الامتدادات الأفقية والعمودية لمنطقة العرض في سياق جهاز التشغيل. |
+| [WmfSetViewportOrg](./wmfsetviewportorg/) | يقوم سجل META_SETVIEWPORTORG بتعريف أصل منطقة العرض في سياق جهاز التشغيل. |
+| [WmfSetWindowExt](./wmfsetwindowext/) | وضع كائن النافذة. |
+| [WmfSetWindowOrg](./wmfsetwindoworg/) | وضع كائن أصل النافذة |
+| [WmfStretchBlt](./wmfstretchblt/) | يقوم سجل META_STRETCHBLT بتحديد نقل كتلة من البكسلات وفقًا لعملية نقطية، مع إمكانية التوسع أو الانكماش. |
+| [WmfStretchDib](./wmfstretchdib/) | كائن wmf Stretch DIB. |
+| [WmfTextOut](./wmftextout/) | يقوم سجل META_EXTTEXTOUT بإخراج النص باستخدام الخط، لون الخلفية، ولون النص المحددة في سياق جهاز التشغيل. يمكن اختيارياً توفير الأبعاد للقص، أو للغموض، أو لكليهما. |
+| [WmfUntyped](./wmfuntyped/) | كائن wmf غير مكتوب النوع |
+## Structures
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+| بنية | الوصف |
+| --- | --- |
+| [WmfCieXyz](./wmfciexyz/) | كائن CIEXYZ يحدد معلومات حول كائن اللون CIEXYZ. |
+| [WmfPitchAndFamily](./wmfpitchandfamily/) | كائن PitchAndFamily يحدد خصائص pitch و family لكائن Font (القسم 2.2.1.2). يشير Pitch إلى عرض الأحرف، ويشير family إلى المظهر العام للخط. |
+
+

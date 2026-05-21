@@ -1,40 +1,40 @@
 ---
-title: EmfPlusRegionNodeDataType
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد تعداد RegionNodeDataType أنواع بيانات عقدة المنطقة.
+title: "تعداد EmfPlusRegionNodeDataType"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "تعداد Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusRegionNodeDataType. يحدد تعداد RegionNodeDataType أنواع بيانات عقد المنطقة."
 type: docs
-weight: 5040
+weight: 5160
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusregionnodedatatype/
 ---
 ## EmfPlusRegionNodeDataType enumeration
 
-يحدد تعداد RegionNodeDataType أنواع بيانات عقدة المنطقة.
+تحدد تعداد RegionNodeDataType أنواع بيانات عقد المنطقة.
 
 ```csharp
 public enum EmfPlusRegionNodeDataType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| RegionNodeDataTypeAnd | `1` | تحديد عقدة منطقة مع عقد فرعية. يجب تطبيق العملية المنطقية AND على العقد الفرعية اليمنى واليسرى المحددة بواسطة[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)الكائن (القسم 2.2.2.41) . |
-| RegionNodeDataTypeOr | `2` | تحديد عقدة منطقة مع عقد فرعية. يجب تطبيق عملية "أو" منطقية على العقد الفرعية اليمنى واليسرى المحددة بواسطة[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) الكائن . |
-| RegionNodeDataTypeXor | `3` | تحديد عقدة منطقة مع عقد فرعية. يجب تطبيق عملية Boolean XOR على العقد الفرعية اليمنى واليسرى المحددة بواسطة ملف[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) الكائن . |
-| RegionNodeDataTypeExclude | `4` | تحديد عقدة منطقة مع عقد فرعية. عملية منطقية ، مُعرَّفة على أنها "جزء المنطقة 1 المستبعدة من المنطقة 2" ، يجب تطبيقها على العقد الفرعية اليمنى واليسرى المحددة بواسطة[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) الكائن . |
-| RegionNodeDataTypeComplement | `5` | تحديد عقدة منطقة مع عقد فرعية. عملية منطقية ، مُعرَّفة على أنها "جزء المنطقة 2 المستبعدة من المنطقة 1" ، يجب تطبيقها على العقد الفرعية اليمنى واليسرى المحددة بواسطة[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) الكائن . |
-| RegionNodeDataTypeRect | `268435456` | تحديد عقدة منطقة بدون عقد فرعية. يجب أن يحدد الحقل RegionNodeData حدًا بامتداد[`EmfPlusRectF`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf) الكائن (القسم 2.2.2.39) . |
-| RegionNodeDataTypePath | `268435457` | تحديد عقدة منطقة بدون عقد فرعية. يجب أن يحدد الحقل RegionNodeData حدًا بامتداد[`EmfPlusRegionNodePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath)الكائن (القسم 2.2.2.42) . |
-| RegionNodeDataTypeEmpty | `268435458` | تحديد عقدة منطقة بدون عقد فرعية. يجب ألا يكون حقل RegionNodeData موجودًا |
-| RegionNodeDataTypeInfinite | `268435459` | تحدد عقدة منطقة بدون عقد فرعية ، ولم يتم تعريف حدودها. |
+| RegionNodeDataTypeAnd | `1` | يحدد عقدة منطقة مع عقد فرعية. يجب تطبيق عملية AND منطقية على عقد الطفل اليسرى واليمنى المحددة بواسطة كائن [`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/) (القسم 2.2.2.41). |
+| RegionNodeDataTypeOr | `2` | يحدد عقدة منطقة مع عقد فرعية. يجب تطبيق عملية OR منطقية على عقد الطفل اليسرى واليمنى المحددة بواسطة كائن [`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/) . |
+| RegionNodeDataTypeXor | `3` | يحدد عقدة منطقة مع عقد فرعية. يجب تطبيق عملية XOR منطقية على عقد الطفل اليسرى واليمنى المحددة بواسطة كائن [`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/) . |
+| RegionNodeDataTypeExclude | `4` | يحدد عقدة منطقة مع عقد فرعية. يجب تطبيق عملية منطقية، معرفة بأنها "الجزء من المنطقة 1 المستبعد من المنطقة 2"، على عقد الطفل اليسرى واليمنى المحددة بواسطة كائن [`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/) . |
+| RegionNodeDataTypeComplement | `5` | يحدد عقدة منطقة تحتوي على عقد فرعية. عملية بوليانية، معرفة بأنها "الجزء من المنطقة 2 المستبعد من المنطقة 1"، يجب تطبيقها على عقد الطفل اليسرى واليمنى المحددة بواسطة كائن [`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/) object. |
+| RegionNodeDataTypeRect | `268435456` | يحدد عقدة منطقة بدون عقد فرعية. يجب أن يحدد حقل RegionNodeData حدًا باستخدام كائن [`EmfPlusRectF`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/) (القسم 2.2.2.39). |
+| RegionNodeDataTypePath | `268435457` | يحدد عقدة منطقة بدون عقد فرعية. يجب أن يحدد حقل RegionNodeData حدًا باستخدام كائن [`EmfPlusRegionNodePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath/) (القسم 2.2.2.42). |
+| RegionNodeDataTypeEmpty | `268435458` | يحدد عقدة منطقة بدون عقد فرعية. يجب ألا يكون حقل RegionNodeData موجودًا |
+| RegionNodeDataTypeInfinite | `268435459` | يحدد عقدة منطقة بدون عقد فرعية، ولا يتم تعريف حدودها. |
 
-### ملاحظات
+## ملاحظات
 
-يتم تحديد بيانات عقدة المنطقة بواسطة[`EmfPlusRegionNode`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode) كائنات (القسم 2.2.2.40) .
+يتم تحديد بيانات عقدة المنطقة بواسطة كائنات [`EmfPlusRegionNode`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/) (القسم 2.2.2.40).
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

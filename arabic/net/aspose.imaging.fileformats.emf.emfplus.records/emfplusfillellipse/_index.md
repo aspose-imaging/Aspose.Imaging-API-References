@@ -1,42 +1,42 @@
 ---
-title: EmfPlusFillEllipse
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusFillEllipse ملء الجزء الداخلي من القطع الناقص
+title: "الفئة EmfPlusFillEllipse"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse class. سجل EmfPlusFillEllipse يحدد تعبئة داخلية لقطع ناقص."
 type: docs
-weight: 6070
+weight: 6190
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/
 ---
 ## EmfPlusFillEllipse class
 
-يحدد سجل EmfPlusFillEllipse ملء الجزء الداخلي من القطع الناقص
+سجل EmfPlusFillEllipse يحدد تعبئة داخل إهليلج.
 
 ```csharp
 public sealed class EmfPlusFillEllipse : EmfPlusDrawingRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusFillEllipse](emfplusfillellipse)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusFillEllipse`](../emfplusfillellipse) فئة . |
+| [EmfPlusFillEllipse](emfplusfillellipse/)(EmfPlusRecord) | يُهيئ مثيلًا جديدًا للفئة `EmfPlusFillEllipse`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid) { get; set; } | الحصول على أو تحديد معرّف الفرشاة عدد صحيح بدون إشارة 32 بت يحدد الفرشاة ، يتم تحديد محتوى الذي بواسطة بت S في حقل الإشارات. يستخدم هذا التعريف لملء الجزء الداخلي من القطع الناقص |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا المثيل ملونًا. إذا تم تعيينه ، تحدد BrushId لونًا ككائن EmfPlusARGB (القسم 2.2.2.1) . إذا كان مسحًا ، يحتوي BrushId على فهرس كائن EmfPlusBrush (القسم 2.2.1.1 ) في EMF + Object Table . |
-| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed) { get; set; } | الحصول على أو تحديد قيمة تشير إلى ما إذا كان هذا المثيل مضغوطًا. إذا تم تعيينه ، فإن RectData يحتوي على كائن EmfPlusRect (القسم 2.2.2.38). في حالة المسح ، تحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39) . |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/rectdata) { get; set; } | الحصول على أو تعيين البيانات المستقيمة إما كائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط للقطع الناقص |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid/) { get; set; } | يحصل أو يعيّن معرف الفرشاة عددًا صحيحًا غير موقع 32‑bit يحدد الفرشاة، محتواها يحدد بواسطة بت S في حقل Flags. يُستخدم هذا التعريف لتعبئة داخل القطع الناقص. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت هذه النسخة لونًا. إذا تم تعيينها، يحدد BrushId لونًا ككائن EmfPlusARGB (القسم 2.2.2.1). إذا لم تُحدد، يحتوي BrushId على فهرس كائن EmfPlusBrush (القسم 2.2.1.1) في جدول كائنات EMF+. |
+| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت هذه المثيلة مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم التعيين، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39). |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/rectdata/) { get; set; } | يحصل أو يعيّن بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF الذي يحدد صندوق الحدود للقطع الناقص |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

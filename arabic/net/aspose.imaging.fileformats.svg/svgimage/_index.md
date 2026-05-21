@@ -1,86 +1,97 @@
 ---
-title: SvgImage
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل فئة صورة SVG .
+title: "فئة SvgImage"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.FileFormats.Svg.SvgImage. تعامل مع ملفات صور SVG (Scalar Vector Graphics) باستخدام API الخاص بنا مستفيدًا من قوة تنسيق النص القائم على XML لتخصيص سلس وقابلية التوسع. حمّل صور SVG بسهولة، حول العناصر المتجهة إلى نقطية، وحوّلها إلى صيغ أخرى مع التحكم في مستويات الضغط لتحسين حجم الملف والجودة لمشاريعك"
 type: docs
-weight: 7550
+weight: 7660
 url: /ar/net/aspose.imaging.fileformats.svg/svgimage/
 ---
 ## SvgImage class
 
-يمثل فئة صورة SVG .
+تفاعل مع ملفات رسومات المتجهات القابلة للقياس (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML للتخصيص السلس والقابلية للتوسع. قم بتحميل صور SVG بسهولة، وتحويل العناصر المتجهية إلى نقطية، وتحويلها إلى تنسيقات أخرى، مع التحكم في مستويات الضغط لتحسين حجم الملف وجودته لمشاريعك.
 
 ```csharp
 public sealed class SvgImage : VectorImage
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SvgImage](svgimage#constructor_2)(Stream) | يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../svgimage) فئة . |
-| [SvgImage](svgimage#constructor_3)(string) | يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../svgimage) فئة . |
-| [SvgImage](svgimage#constructor_1)(int, int) | يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../svgimage) فئة . |
-| [SvgImage](svgimage#constructor)(SvgOptions, int, int) | يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../svgimage) فئة . |
+| [SvgImage](svgimage/#constructor_2)(Stream) | ينشئ مثيلًا جديدًا من فئة `SvgImage`، محملاً الصورة من الدفق المقدم. يتيح هذا المُنشئ تحميل صور SVG مباشرةً من الدفقات، مما يعزز المرونة والكفاءة في معالجة موارد الصور داخل تطبيقات البرمجيات. |
+| [SvgImage](svgimage/#constructor_3)(string) | ينشئ كائنًا جديدًا من فئة `SvgImage`، باستخدام المسار المحدد لتحديد موقع الصورة وتحميلها. يسهل هذا المُنشئ إنشاء مثيلات صور SVG من ملفات خارجية، مما يتيح دمجًا سلسًا في أنظمة البرمجيات وتدفقات العمل. |
+| [SvgImage](svgimage/#constructor_1)(int, int) | ينشئ كائن `SvgImage` جديد بالأبعاد المحددة للعرض والارتفاع. يتيح هذا المُنشئ للمطورين إنشاء صور SVG بأبعاد مسبقة التعريف، مما يسهل التحكم الدقيق في حجم الصورة أثناء التهيئة. |
+| [SvgImage](svgimage/#constructor)(SvgOptions, int, int) | ينشئ مثيلًا جديدًا من فئة `SvgImage` مع خيارات SVG المحددة، وعرض الصورة، ومعلمات الارتفاع. يتيح هذا المُنشئ للمطورين تهيئة صور SVG بخيارات وأبعاد مخصصة، مما يوفر مرونة في إدارة محتوى SVG وتخطيطه. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت لوحة الضبط التلقائي. |
-| virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | الحصول على أو تعيين قيمة للون الخلفية . |
-| override [BitsPerPixel](../../aspose.imaging.fileformats.svg/svgimage/bitsperpixel) { get; } | الحصول على عدد بتات الصورة لكل بكسل ، لا تنطبق هذه المعلمة على الصور المتجهة |
-| [Bounds](../../aspose.imaging/image/bounds) { get; } | يحصل على حدود الصورة . |
-| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [Container](../../aspose.imaging/image/container) { get; } | يحصل على ملف[`Image`](../../aspose.imaging/image) حاوية . |
-| [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | يحصل على دفق بيانات الكائن. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| override [FileFormat](../../aspose.imaging.fileformats.svg/svgimage/fileformat) { get; } | يحصل على قيمة تنسيق الملف |
-| virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الصورة لها لون خلفية. |
-| override [Height](../../aspose.imaging.fileformats.svg/svgimage/height) { get; } | الحصول على ارتفاع الصورة . |
-| virtual [HeightF](../../aspose.imaging/vectorimage/heightf) { get; } | الحصول على ارتفاع الكائن بالبوصة . |
-| [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | الحصول على أو تعيين شاشة المقاطعة. |
-| override [IsCached](../../aspose.imaging.fileformats.svg/svgimage/iscached) { get; } | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات. |
-| [Palette](../../aspose.imaging/image/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها. لا يتم استخدام لوحة الألوان عندما يتم تمثيل وحدات البكسل مباشرةً. |
-| [Size](../../aspose.imaging/image/size) { get; } | يحصل على حجم الصورة . |
-| [SizeF](../../aspose.imaging/vectorimage/sizef) { get; } | الحصول على حجم الكائن بالبوصة . |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette) { get; } | يحصل على قيمة تشير إلى ما إذا كانت لوحة الصور مستخدمة. |
-| override [Width](../../aspose.imaging.fileformats.svg/svgimage/width) { get; } | الحصول على عرض الصورة . |
-| virtual [WidthF](../../aspose.imaging/vectorimage/widthf) { get; } | الحصول على عرض الكائن بالبوصة . |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يتم تعديل اللوحة تلقائيًا. |
+| virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | الحصول على أو تعيين قيمة للون الخلفية. |
+| override [BitsPerPixel](../../aspose.imaging.fileformats.svg/svgimage/bitsperpixel/) { get; } | يسترجع عدد البتات لكل بكسل في الصورة. من المهم ملاحظة أن هذا المعامل غير قابل للتطبيق على الصور المتجهية، لأنها لا تُقاس بالبكسل. توفر هذه الخاصية معلومات حيوية حول عمق ألوان الصورة، مما يساعد في مهام المعالجة والتلاعب. |
+| [Bounds](../../aspose.imaging/image/bounds/) { get; } | الحصول على حدود الصورة. |
+| [BufferSizeHint](../../aspose.imaging/image/buffersizehint/) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي يحدد الحد الأقصى المسموح به لجميع المخازن الداخلية. |
+| [Container](../../aspose.imaging/image/container/) { get; } | الحصول على حاوية [`Image`](../../aspose.imaging/image/). |
+| [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | الحصول على تدفق بيانات الكائن. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | الحصول على أو تعيين بيانات Exif. |
+| override [FileFormat](../../aspose.imaging.fileformats.svg/svgimage/fileformat/) { get; } | يسترجع تنسيق ملف الصورة، موفرًا بيانات تعريفية أساسية للمعالجة وفحوصات التوافق. تُعد هذه الخاصية أساسية في تحديد استراتيجيات الترميز وفك الترميز المناسبة للتعامل مع بيانات الصورة بفعالية عبر الأنظمة والتطبيقات المختلفة. |
+| virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الصورة لها لون خلفية. |
+| override [Height](../../aspose.imaging/vectorimage/height/) { get; } | الحصول على ارتفاع الصورة. |
+| virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | يحصل على ارتفاع الكائن، بالبوصة. |
+| [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | الحصول على أو تعيين مراقب المقاطعة. |
+| override [IsCached](../../aspose.imaging.fileformats.svg/svgimage/iscached/) { get; } | يسترجع قيمة منطقية تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى عمليات قراءة إضافية للبيانات. توفر هذه الخاصية نظرة على حالة التخزين المؤقت الحالية، مما يُحسّن عمليات استرجاع البيانات وسير عمل المعالجة لأداء وكفاءة أعلى. |
+| virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | يحصل على بيانات تعريف الصورة. |
+| [Palette](../../aspose.imaging/image/palette/) { get; set; } | يحصل أو يعيّن لوحة الألوان. لا تُستخدم لوحة الألوان عندما يتم تمثيل البكسلات مباشرةً. |
+| [Size](../../aspose.imaging/image/size/) { get; } | يحصل على حجم الصورة. |
+| [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | يحصل على حجم الكائن، بالبوصة. |
+| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت لوحة ألوان الصورة مستخدمة. |
+| override [Width](../../aspose.imaging/vectorimage/width/) { get; } | يحصل على عرض الصورة. |
+| virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | يحصل على عرض الكائن، بالبوصة. |
+| [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | يحصل أو يعيّن بيانات Xmp. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [CacheData](../../aspose.imaging.fileformats.svg/svgimage/cachedata)() | يخزن البيانات ويضمن عدم إجراء أي تحميل إضافي للبيانات من الأساس[`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer) . |
-| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | يحدد ما إذا كان يمكن حفظ الصورة بتنسيق الملف المحدد الذي تم تمثيله بواسطة خيارات الحفظ التي تم تمريرها. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
-| override [GetDefaultOptions](../../aspose.imaging.fileformats.svg/svgimage/getdefaultoptions)(object[]) | يحصل على الخيارات الافتراضية . |
-| virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | الحصول على الصور المضمنة . |
-| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | الحصول على الخيارات بناءً على إعدادات الملف الأصلية. يمكن أن يكون هذا مفيدًا للحفاظ على عمق البت والمعلمات الأخرى للصورة الأصلية دون تغيير . على سبيل المثال ، إذا قمنا بتحميل صورة PNG أبيض وأسود مع 1 بت لكل بكسل ثم احفظه باستخدام the [`Save`](../../aspose.imaging/datastreamsupporter/save) الطريقة ، سيتم إنتاج صورة PNG الناتجة بمعدل 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بمعدل 1 بت لكل بكسل ، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة وتمريرها إلى[`Save`](../../aspose.imaging/image/save) الطريقة كمعامل ثاني. |
-| [Resize](../../aspose.imaging/image/resize)(int, int) | يغير حجم الصورة. الافتراضيNearestNeighbourResample يستخدم . |
-| override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize#resize_1)(int, int, ImageResizeSettings) | يغير حجم الصورة. |
-| override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize#resize_2)(int, int, ResizeType) | يغير حجم الصورة. |
-| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | يغير حجم الارتفاع بشكل متناسب. الافتراضيNearestNeighbourResample يستخدم . |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | يغير حجم الارتفاع بشكل متناسب . |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ResizeType) | يغير حجم الارتفاع بشكل متناسب . |
-| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | يغير حجم العرض بشكل متناسب. الافتراضيNearestNeighbourResample يستخدم . |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | يغير حجم العرض بشكل متناسب . |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ResizeType) | يغير حجم العرض بشكل متناسب . |
-| override [RotateFlip](../../aspose.imaging.fileformats.svg/svgimage/rotateflip)(RotateFlipType) | يقوم بتدوير الصورة أو قلبها أو تدويرها وقلبها. |
-| [Save](../../aspose.imaging/image/save)() | يحفظ بيانات الصورة في التدفق الأساسي. |
-| [Save](../../aspose.imaging/datastreamsupporter/save)(Stream) | يحفظ بيانات الكائن في الدفق المحدد. |
-| override [Save](../../aspose.imaging/image/save)(string) | يحفظ الصورة في موقع الملف المحدد. |
-| [Save](../../aspose.imaging/image/save)(Stream, ImageOptionsBase) | يحفظ بيانات الصورة إلى التدفق المحدد بتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| virtual [Save](../../aspose.imaging/datastreamsupporter/save)(string, bool) | يحفظ بيانات الكائن في موقع الملف المحدد. |
-| virtual [Save](../../aspose.imaging/image/save)(string, ImageOptionsBase) | يحفظ بيانات الكائن في موقع الملف المحدد بتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| virtual [Save](../../aspose.imaging/image/save)(Stream, ImageOptionsBase, Rectangle) | يحفظ بيانات الصورة إلى التدفق المحدد بتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| virtual [Save](../../aspose.imaging/image/save)(string, ImageOptionsBase, Rectangle) | يحفظ بيانات الكائن في موقع الملف المحدد بتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| override [SetPalette](../../aspose.imaging.fileformats.svg/svgimage/setpalette)(IColorPalette, bool) | يضبط لوحة الصور . |
+| override [CacheData](../../aspose.imaging.fileformats.svg/svgimage/cachedata/)() | قم بتخزين البيانات مؤقتًا وتأكد من عدم تحميل أي بيانات إضافية من الكائن الأساسي [`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer/). تعزز هذه التحسينات الأداء عن طريق القضاء على عمليات استرجاع البيانات المتكررة، وهو أمر مفيد بشكل خاص في السيناريوهات التي تتطلب وصولًا متكررًا إلى بيانات الصورة. |
+| [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | يحدد ما إذا كان يمكن حفظ الصورة بالتنسيق المحدد الممثل بخيارات الحفظ الممررة. |
+| override [Crop](../../aspose.imaging.fileformats.svg/svgimage/crop/#crop)(Rectangle) | يقص المستطيل المحدد. |
+| virtual [Crop](../../aspose.imaging/image/crop/)(int, int, int, int) | قص الصورة مع إزاحات. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| override [GetDefaultOptions](../../aspose.imaging/vectorimage/getdefaultoptions/)(object[]) | يحصل على خيارات الصورة الافتراضية. |
+| virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages/)() | يحصل على الصور المضمنة. |
+| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions/)() | يحصل على الخيارات بناءً على إعدادات الملف الأصلي. يمكن أن يكون هذا مفيدًا للحفاظ على عمق البت وغيرها من معلمات الصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [`Save`](../../aspose.imaging/datastreamsupporter/save/)، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومررها إلى طريقة [`Save`](../../aspose.imaging/image/save/) كمعامل ثاني. |
+| virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | يحول إلى aps. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | يزيل الخلفية. |
+| virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | يزيل الخلفية. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | يزيل البيانات الوصفية. |
+| [Resize](../../aspose.imaging/image/resize/)(int, int) | يُعيد تحجيم الصورة. يتم استخدام NearestNeighbourResample الافتراضي. |
+| override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | يعيد تحجيم الصورة باستخدام خيارات موسعة. |
+| override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize/#resize_2)(int, int, ResizeType) | قم بتغيير حجم الصورة لتتناسب مع الأبعاد المحددة مع الحفاظ على نسبة العرض إلى الارتفاع. توفر هذه الطريقة وسيلة مريحة لضبط حجم الصورة دون تشويه نسبها، مما يضمن عرضًا أو تخزينًا مثاليًا وفقًا للأبعاد المطلوبة. |
+| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int) | يُعيد تحجيم الارتفاع بنسبية. يتم استخدام NearestNeighbourResample الافتراضي. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ImageResizeSettings) | يُعيد تحجيم الارتفاع بنسبية. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally/)(int, ResizeType) | يُعيد تحجيم الارتفاع بنسبية. |
+| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int) | يقوم بتغيير عرض الصورة بشكل متناسب. يتم استخدام NearestNeighbourResample الافتراضي. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | يقوم بتغيير عرض الصورة بشكل متناسب. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | يقوم بتغيير عرض الصورة بشكل متناسب. |
+| override [Rotate](../../aspose.imaging.fileformats.svg/svgimage/rotate/)(float) | دوّر الصورة حول المركز. |
+| override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | يدور أو يقلب أو يدور ويقلب الصورة. |
+| [Save](../../aspose.imaging/image/save/)() | يحفظ بيانات الصورة إلى الدفق الأساسي. |
+| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | يحفظ بيانات الكائن إلى الدفق المحدد. |
+| override [Save](../../aspose.imaging/image/save/)(string) | يحفظ الصورة إلى موقع الملف المحدد. |
+| [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | يحفظ بيانات الكائن إلى موقع الملف المحدد. |
+| virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
+| virtual [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase, Rectangle) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
+| virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
+| override [SetPalette](../../aspose.imaging.fileformats.svg/svgimage/setpalette/)(IColorPalette, bool) | يطبق لوحة ألوان محددة على الصورة، مما يتيح تخصيص مخططات الألوان لأغراض جمالية أو وظيفية. توفر هذه الطريقة مرونة في إدارة لوحات الألوان لتلبية متطلبات التصميم أو التطبيق المختلفة. |
+| virtual [TrySetMetadata](../../aspose.imaging/image/trysetmetadata/)(IImageMetadataFormat) | يحاول تعيين كائن *metadata*، إذا كان هذا [`Image`](../../aspose.imaging/image/) يدعم ويطبق نوع [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/). |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية تحويل صور svgz إلى svg fromat
+المثال التالي يوضح كيفية تحويل صور svgz إلى صيغة svg.
 
 ```csharp
 [C#]
@@ -96,7 +107,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 }
 ```
 
-يوضح المثال التالي كيفية تحويل صور svg إلى svgz fromat
+المثال التالي يوضح كيفية تحويل صور svg إلى صيغة svgz.
 
 ```csharp
 [C#]
@@ -112,18 +123,18 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 }
 ```
 
-يوضح هذا المثال كيفية تحميل صورة SVG من دفق ملف وتنقيطها إلى PNG.
+يوضح هذا المثال كيفية تحميل صورة SVG من تدفق ملف وتحويلها إلى PNG.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة SVG من دفق ملف.
+// حمّل صورة SVG من تدفق ملف.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "test.svg"))
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.FileFormats.Svg.SvgImage(stream))
 {
-    // من أجل تحويل SVG إلى صيغة نقطية ، نحتاج إلى تحديد خيارات التنقيط.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل النقطي.
     Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
@@ -132,7 +143,7 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.Fil
 }
 ```
 
-يوضح المثال التالي كيفية تحويل الصور المضغوطة (* .emz ، *. wmz ، * .svgz) إلى نقطية من تنسيق
+المثال التالي يوضح كيفية تحويل الصور المضغوطة (*.emz,*.wmz, *.svgz) إلى صيغة نقطية.
 
 ```csharp
 [C#]
@@ -151,10 +162,10 @@ foreach (var file in files)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [VectorImage](../../aspose.imaging/vectorimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Svg](../../aspose.imaging.fileformats.svg)
-* المجسم [Aspose.Imaging](../../)
+* class [VectorImage](../../aspose.imaging/vectorimage/)
+* namespace [Aspose.Imaging.FileFormats.Svg](../../aspose.imaging.fileformats.svg/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

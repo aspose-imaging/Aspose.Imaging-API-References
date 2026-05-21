@@ -1,45 +1,45 @@
 ---
-title: EmfPlusHeader
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusHeader بداية بيانات EMF  في ملف التعريف. يجب تضمين سجل EmfPlusHeader في سجل EMF EMR_COMMENT_EMFPLUS  الذي يجب أن يكون السجل الذي يلي مباشرةً رأس EMF في ملف التعريف. تم تحديد سجل EMR_COMMENT_EMFPLUS في قسم MS-EMF 2.3.3.2.
+title: "الفئة EmfPlusHeader"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader. سجل EmfPlusHeader يحدد بداية بيانات EMF في ملف التعريف. يجب أن يكون سجل EmfPlusHeader مضمّنًا في سجل EMF EMR_COMMENT_EMFPLUS الذي يجب أن يكون السجل التالي مباشرةً بعد رأس EMF في ملف التعريف. يتم تحديد سجل EMR_COMMENT_EMFPLUS في قسم MSEMF 2.3.3.2."
 type: docs
-weight: 6140
+weight: 6260
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/
 ---
 ## EmfPlusHeader class
 
-يحدد سجل EmfPlusHeader بداية بيانات EMF + في ملف التعريف. يجب تضمين سجل EmfPlusHeader في سجل EMF EMR_COMMENT_EMFPLUS ، الذي يجب أن يكون السجل الذي يلي مباشرةً رأس EMF في ملف التعريف. تم تحديد سجل EMR_COMMENT_EMFPLUS في قسم [MS-EMF] 2.3.3.2.
+السجل EmfPlusHeader يحدد بداية بيانات EMF+ في ملف التعريف. يجب أن يكون السجل EmfPlusHeader مضمنًا في سجل EMF EMR_COMMENT_EMFPLUS، والذي يجب أن يكون السجل التالي مباشرةً بعد رأس EMF في ملف التعريف. يتم تحديد سجل EMR_COMMENT_EMFPLUS في القسم 2.3.3.2 من [MS-EMF].
 
 ```csharp
 public sealed class EmfPlusHeader : EmfPlusControlRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusHeader](emfplusheader)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusHeader`](../emfplusheader) فئة . |
+| [EmfPlusHeader](emfplusheader/)(EmfPlusRecord) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusHeader`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| [DualMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/dualmode) { get; set; } | الحصول على أو تعيين قيمة تشير إلى [الوضع المزدوج] . إذا تم تعيينها ، تشير هذه العلامة إلى أن ملف التعريف هذا هو "وضع مزدوج" ، مما يعني أنه يحتوي على مجموعتين من السجلات ، كل منهما تحدد تمامًا محتوى الرسومات. إذا كان واضحًا ، يتم تحديد محتوى الرسومات بواسطة سجلات EMF + ، وربما سجلات EMF التي يسبقها سجل EmfPlusGetDC. إذا تم تعيين هذه العلامة ، ينبغي أن تكفي سجلات EMF وحدها لتعريف محتوى الرسومات . لاحظ أنه سواء تم تعيين علامة "الوضع المزدوج" أم لا ، فإن بعض سجلات EMF موجودة دائمًا ، أي سجلات التحكم EMF وسجلات EMF التي تحتوي على سجلات EMF +. سجلات التحكم EMF محددة في [MS-EMF] القسم 2.3.4. |
-| [EmfPlusFlags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/emfplusflags) { get; set; } | الحصول على أو تعيين EMF بالإضافة إلى إشارات . عدد صحيح بدون إشارة 32 بت يحتوي على معلومات حول كيفية تسجيل ملف التعريف هذا . إذا تم تعيين بت 31 من الحقل ، تشير هذه العلامة إلى أنه تم تسجيل ملف التعريف باستخدام مرجع سياق الجهاز لعرض الفيديو. إذا تم مسح ملف التعريف ، فقد تم تسجيله باستخدام سياق جهاز مرجعي للطابعة. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [IsValid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/isvalid) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل صالحًا. |
-| [LogicalDpiX](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpix) { get; set; } | الحصول على أو تعيين نقطة البوصة المنطقية x. عدد صحيح بدون إشارة 32 بت يحدد الدقة الأفقية التي تم تسجيل ملف التعريف لها ، بوحدات بكسل لكل بوصة. |
-| [LogicalDpiY](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpiy) { get; set; } | الحصول على أو تعيين نقطة البوصة المنطقية y. عدد صحيح بدون إشارة 32 بت يحدد الدقة الرأسية التي تم تسجيل ملف التعريف لها ، بوحدات الأسطر في البوصة |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
-| [Version](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/version) { get; set; } | الحصول على الإصدار أو تعيينه. كائن EmfPlusGraphicsVersion (القسم 2.2.2.19) الذي يحدد إصدار رسومات النظام التشغيل التي تم استخدامها لإنشاء ملف التعريف هذا. |
-| [VideoDisplay](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/videodisplay) { get; set; } | الحصول على أو تعيين قيمة تشير إلى عرض الفيديو . إذا تم تعيينه ، تشير هذه العلامة إلى أنه تم تسجيل ملف التعريف بسياق مرجعي device لعرض الفيديو. إذا تم مسح ملف التعريف ، فقد تم تسجيله باستخدام سياق مرجعي device للطابعة. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| [DualMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/dualmode/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان [dual mode]. إذا تم تعيينها، فإن هذه العلامة تشير إلى أن ملف التعريف هذا هو \"dual-mode\", مما يعني أنه يحتوي على مجموعتين من السجلات، كل واحدة تحدد محتوى الرسومات بالكامل. إذا لم تُحدد، يتم تحديد محتوى الرسومات بواسطة سجلات EMF+, وربما سجلات EMF التي تسبقها سجل EmfPlusGetDC. إذا تم تعيين هذه العلامة، يجب أن تكون سجلات EMF وحدها كافية لتعريف محتوى الرسومات. لاحظ أنه سواء تم تعيين علامة \"dual-mode\" أم لا، فإن بعض سجلات EMF تكون موجودة دائمًا، وهي سجلات التحكم في EMF والسجلات التي تحتوي على سجلات EMF+. سجلات التحكم في EMF محددة في [MS-EMF] القسم 2.3.4. |
+| [EmfPlusFlags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/emfplusflags/) { get; set; } | يحصل أو يعيّن أعلام EMF plus. عدد صحيح غير موقع 32‑بت يحتوي على معلومات حول كيفية تسجيل ملف التعريف هذا. إذا تم تعيين البت الـ31 من الحقل، فإن هذه العلامة تشير إلى أن ملف التعريف سُجل باستخدام سياق جهاز مرجعي لشاشة فيديو. إذا لم تُحدد، سُجل ملف التعريف باستخدام سياق جهاز مرجعي لطابعة. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [IsValid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/isvalid/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل صالحًا. |
+| [LogicalDpiX](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpix/) { get; set; } | يحصل أو يعيّن قيمة DPI المنطقية للمحور x. عدد صحيح غير موقع 32‑بت يحدد الدقة الأفقية التي سُجل بها ملف التعريف، بوحدة بكسل لكل بوصة. |
+| [LogicalDpiY](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpiy/) { get; set; } | يحصل أو يعيّن قيمة DPI المنطقية للمحور y. عدد صحيح غير موقع 32‑بت يحدد الدقة العمودية التي سُجل بها ملف التعريف، بوحدة خطوط لكل بوصة. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
+| [Version](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/version/) { get; set; } | يحصل أو يعيّن الإصدار. كائن EmfPlusGraphicsVersion (القسم 2.2.2.19) يحدد نسخة رسومات نظام التشغيل التي استُخدمت لإنشاء ملف التعريف هذا. |
+| [VideoDisplay](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/videodisplay/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان عرض فيديو. إذا تم تعيينها، فإن هذه العلامة تشير إلى أن ملف التعريف سُجل باستخدام سياق جهاز مرجعي لشاشة فيديو. إذا لم تُحدد، سُجل ملف التعريف باستخدام سياق جهاز مرجعي لطابعة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusControlRecordType](../emfpluscontrolrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusControlRecordType](../emfpluscontrolrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

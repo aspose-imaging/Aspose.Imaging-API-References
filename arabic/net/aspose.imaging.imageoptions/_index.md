@@ -1,61 +1,67 @@
 ---
-title: Aspose.Imaging.ImageOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: تحتوي مساحة الاسم على فئات مناسبة لتصدير أو حفظ أو إنشاء تنسيقات ملفات مختلفة.
+title: "Aspose.Imaging.ImageOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "تحتوي مساحة الأسماء على فئات مناسبة للتصدير أو الحفظ أو إنشاء صيغ ملفات مختلفة"
 type: docs
-weight: 760
+weight: 840
 url: /ar/net/aspose.imaging.imageoptions/
 ---
-تحتوي مساحة الاسم على فئات مناسبة لتصدير أو حفظ أو إنشاء تنسيقات ملفات مختلفة.
+تحتوي مساحة الاسم على فئات مناسبة للتصدير أو الحفظ أو إنشاء تنسيقات ملفات مختلفة.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [ApngOptions](./apngoptions) | خيارات تنسيق ملف PNG المتحركة |
-| [BmpOptions](./bmpoptions) | خيارات إنشاء تنسيق ملف bmp . |
-| [CdrRasterizationOptions](./cdrrasterizationoptions) | خيارات التنقيط Cdr |
-| [CmxRasterizationOptions](./cmxrasterizationoptions) | خيارات مصدر CMX . |
-| [DicomOptions](./dicomoptions) | خيارات إنشاء تنسيق ملف DICOM . |
-| [DjvuMultiPageOptions](./djvumultipageoptions) | خيارات صفحة تنسيق Djvu |
-| [DxfOptions](./dxfoptions) | خيارات إنشاء تنسيق ملف Dxf . |
-| [EmfOptions](./emfoptions) | خيارات Emf . |
-| [EmfRasterizationOptions](./emfrasterizationoptions) | خيارات التنقيط Emf . |
-| [EpsRasterizationOptions](./epsrasterizationoptions) | خيارات التنقيط Eps . |
-| [GifOptions](./gifoptions) | خيارات إنشاء تنسيق ملف gif . |
-| [Html5CanvasOptions](./html5canvasoptions) | خيارات إنشاء تنسيق ملف Html5 Canvas . |
-| [Jpeg2000Options](./jpeg2000options) | خيارات تنسيق الملف Jpeg2000 . |
-| [JpegOptions](./jpegoptions) | خيارات إنشاء تنسيق ملف jpeg . |
-| [MetafileOptions](./metafileoptions) | خيارات قاعدة ملفات التعريف . |
-| [MultiPageOptions](./multipageoptions) | الصنف الأساسي للعديد من الصفحات المدعومة بالصيغ |
-| [OdgRasterizationOptions](./odgrasterizationoptions) | خيارات التنقيط Odg |
-| [OdRasterizationOptions](./odrasterizationoptions) | خيارات التنقيط Od |
-| [OtgRasterizationOptions](./otgrasterizationoptions) | خيارات التنقيط Otg |
-| [PdfOptions](./pdfoptions) | خيارات PDF . |
-| [PngOptions](./pngoptions) | خيارات إنشاء تنسيق ملف png . |
-| [PsdOptions](./psdoptions) | خيارات إنشاء تنسيق ملف psd . |
-| [PsdVectorizationOptions](./psdvectorizationoptions) | خيارات تنقيط PSD الموجهة . |
-| [RdOptimizerSettings](./rdoptimizersettings) | فئة إعدادات محسن RD |
-| [RenderResult](./renderresult) | يمثل المعلومات بنتائج التقديم |
-| [SvgOptions](./svgoptions) | خيارات إنشاء تنسيق ملف SVG . |
-| [SvgRasterizationOptions](./svgrasterizationoptions) | خيارات التحويل النقطي لـ SVG . |
-| [TgaOptions](./tgaoptions) | خيارات إنشاء تنسيق ملف TGA . |
-| [TiffOptions](./tiffoptions) | خيارات تنسيق ملف tiff . لاحظ أنه سيتم الكتابة فوق علامات العرض والارتفاع عند إنشاء الصورة بواسطة معلمات العرض والارتفاع ، لذلك ليست هناك حاجة لتحديدها مباشرة. لاحظ أن العديد من الخيارات ترجع قيمة افتراضية ولكن هذا لا يعني ذلك يتم تعيين هذا الخيار بشكل صريح كقيمة علامة. للتحقق من وجود العلامة ، استخدم خاصية العلامات أو طريقة IsTagPresent المقابلة. |
-| [TiffOptionsUtils](./tiffoptionsutils) | فئة الأداة المساعدة لخيارات تنسيق ملف tiff . |
-| [TimeInterval](./timeinterval) | يمثل الفاصل الزمني بالميلي ثانية |
-| [VectorRasterizationOptions](./vectorrasterizationoptions) | خيارات التحويل النقطي للمتجه . |
-| [WebPOptions](./webpoptions) | خيارات صورة Webp |
-| [WmfOptions](./wmfoptions) | خيارات wmf . |
-| [WmfRasterizationOptions](./wmfrasterizationoptions) | خيارات التنقيط Wmf . |
+| [AfterPageExportAction](./afterpageexportaction/) | بعد إجراء تصدير الصفحة |
+| [ApngOptions](./apngoptions/) | واجهة برمجة التطبيقات لإنشاء صيغة ملف صورة Animated PNG (Animated Portable Network Graphics) هي أداة ديناميكية للمطورين الذين يسعون لتوليد صور متحركة جذابة. مع خيارات قابلة للتخصيص مثل مدة الإطار وعدد مرات التكرار، تتيح هذه الواجهة ضبط المحتوى المتحرك وفقًا للاحتياجات المحددة. سواءً كنت تنشئ رسومات ويب جذابة أو مرئيات تفاعلية، يمكنك الاستفادة من هذه الواجهة لدمج صور APNG بسلاسة مع تحكم دقيق في معلمات الرسوم المتحركة. |
+| [BeforePageExportAction](./beforepageexportaction/) | قبل إجراء تصدير الصفحة |
+| [BigTiffOptions](./bigtiffoptions/) | واجهة برمجة التطبيقات لإنشاء صيغة صورة BigTIFF النقطية صُممت خصيصًا لتلبية المتطلبات الفريدة للتطبيقات التي تستخدم بيانات تصويرية واسعة النطاق من الماسحات الضوئية. تسهل هذه الواجهة إنشاء صيغة BigTIFF بسلاسة، التي تجمع عدة صور TIFF في صورة واحدة شاملة. تضمن معالجة فعّالة للبيانات الضخمة، وتوفر للمطورين أداة قوية لإنشاء ومعالجة صيغ عالية الدقة ومتعددة الصور. |
+| [BmpOptions](./bmpoptions/) | واجهة برمجة التطبيقات لإنشاء خيارات صيغة صورة BMP و DIB النقطية توفر للمطورين مجموعة أدوات متعددة الاستخدامات لتوليد صور Bitmap (BMP) و Device Independent Bitmap (DIB) مخصصة. باستخدام هذه الواجهة، يمكنك تحديد خصائص الصورة بدقة مثل عدد البتات لكل بكسل، مستوى الضغط ونوع الضغط، لتكييف النتيجة وفقًا للمتطلبات المحددة. تُمكّن هذه الواجهة الغنية بالميزات المطورين من إنشاء صور نقطية عالية الجودة ومخصصة بسهولة ومرونة لتطبيقات متنوعة. |
+| [CdrRasterizationOptions](./cdrrasterizationoptions/) | مع القدرة على تنفيذ تحويل صورة CDR إلى نقطية وتعيين عوامل القياس لكل من البعدين X و Y، توفر هذه الواجهة تحكمًا دقيقًا في عملية التحويل. سواءً كان ذلك لتكييف الحجم وفقًا لمتطلبات الإخراج المحددة أو لتحويل الرسومات المتجهية إلى صيغ نقطية، يمكنك الاستفادة من هذه الواجهة لتحويل CDR من متجه إلى صورة نقطية بكفاءة وقابلية تخصيص. |
+| [CmxRasterizationOptions](./cmxrasterizationoptions/) | خيارات مُصدّر CMX. |
+| [DicomOptions](./dicomoptions/) | واجهة برمجة التطبيقات لإنشاء صيغة صورة DICOM (Digital Imaging and Communications in Medicine) النقطية هي أداة متخصصة مخصصة لتطبيقات الأجهزة الطبية. تتيح إنشاء صور DICOM بسلاسة، وهو أمر حيوي لتخزين البيانات الطبية واحتواء معلومات التعريف الضرورية. مع ميزات لضبط الضغط، تعريف أنواع الألوان، وتضمين بيانات التعريف XMP، يمكن للمطورين ضمان الامتثال والمرونة في إدارة صور DICOM لأغراض التصوير الطبي. |
+| [DjvuMultiPageOptions](./djvumultipageoptions/) | واجهة برمجة التطبيقات لصيغة ملف رسومات DjVu توفر للمطورين وصولًا سلسًا إلى مستندات DjVu، وهي مثالية للمستندات والكتب الممسوحة ضوئيًا. مع خيارات تحميل الصور، يمكن للمطورين دمج ملفات DjVu بسهولة في تطبيقاتهم، مما يفتح الإمكانية للعمل مع محتوى متعدد الصفحات، بما في ذلك النصوص والرسومات والصور، لتوفير حلول معالجة مستندات متعددة الاستخدامات. |
+| [DxfOptions](./dxfoptions/) | واجهة برمجة التطبيقات لإنشاء صور متجهية بصيغة Drawing Interchange Format (DXF) تقدم حلولًا مخصصة لتوليد ملفات رسومات AutoCAD بدقة ومرونة. صُممت خصيصًا للعمل مع خطوط النص ومنحنيات بيزيه، يمكن للمطورين معالجة هذه العناصر بفعالية، عد نقاط بيزيه، وتحويل المنحنيات إلى خطوط متعددة النقاط لتصدير سلس، مما يضمن التوافق والدقة في صور DXF المتجهية. |
+| [EmfOptions](./emfoptions/) | خيارات Emf. |
+| [EmfRasterizationOptions](./emfrasterizationoptions/) | خيارات تحويل Emf إلى نقطية. |
+| [EpsRasterizationOptions](./epsrasterizationoptions/) | خيارات تحويل Eps إلى نقطية. |
+| [GifOptions](./gifoptions/) | واجهة برمجة التطبيقات لإنشاء ملفات صورة GIF (Graphical Interchange Format) النقطية توفر للمطورين خيارات شاملة لتوليد صور GIF مع تحكم دقيق. مع ميزات لتعيين لون الخلفية، لوحة الألوان، الدقة، نوع التداخل، اللون الشفاف، حاوية بيانات التعريف XMP، وضغط الصورة، تضمن هذه الواجهة المرونة والكفاءة في إنشاء GIFs محسّنة وجذابة بصريًا مخصصة وفقًا لمتطلبات التطبيق المحددة. |
+| [Html5CanvasOptions](./html5canvasoptions/) | أنشئ ملفات HTML5 Canvas بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مما يتيح لك دمج العناصر مثل النماذج والنصوص والصور والرسوم المتحركة والروابط بسلاسة. استفد من ميزات قوية تشمل دعم معرف العلامة وإعدادات الترميز، لضمان أداء مثالي وتخصيص لمشاريع الويب الخاصة بك. |
+| [IcoOptions](./icooptions/) | أنشئ ملفات صورة ICO مخصصة لأيقونات التطبيقات بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مما يمكّنك من تمثيل برنامجك بسلاسة. تدعم واجهتنا إطارات صور PNG و BMP مع قيم مختلفة لعدد البتات لكل بكسل، مما يضمن تنوعًا وتوافقًا لاحتياجات إنشاء الأيقونات الخاصة بك. |
+| [Jpeg2000Options](./jpeg2000options/) | أنشئ ملفات صورة JPEG2000 (JP2) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من تقنية الموجة المتقدمة لتشفير المحتوى بدون فقدان. استفد من الدعم لمختلف الترميزات، بما في ذلك الضغط غير القابل للعكس والضغط بدون فقدان، بالإضافة إلى حاويات بيانات التعريف XMP، مما يضمن تنوعًا وإنشاء صور عالية الجودة مخصصًا لاحتياجاتك. |
+| [JpegOptions](./jpegoptions/) | أنشئ صور JPEG عالية الجودة بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، حيث توفر مستويات ضغط قابلة للتعديل لتحسين حجم التخزين دون المساس بجودة الصورة. استفد من الدعم لأنواع مختلفة من الضغط، الترميز شبه غير الفاقد، ملفات تعريف الألوان RGB و CMYK، بالإضافة إلى بيانات EXIF و JFIF، وحاويات XMP، مما يضمن خيارات متعددة وقابلة للتخصيص لإنشاء الصور وفقًا لاحتياجاتك. |
+| [MetafileOptions](./metafileoptions/) | خيارات الأساس للملفات الوصفية. |
+| [MetafileRasterizationOptions](./metafilerasterizationoptions/) | خيارات تمثيل الملفات الوصفية |
+| [MultipageCreateOptions](./multipagecreateoptions/) | خيارات إنشاء الصفحات المتعددة |
+| [MultiPageOptions](./multipageoptions/) | الفئة الأساسية للتنسيقات المدعومة للصفحات المتعددة |
+| [OdgRasterizationOptions](./odgrasterizationoptions/) | خيارات تمثيل Odg |
+| [OdRasterizationOptions](./odrasterizationoptions/) | خيارات تمثيل Od |
+| [OtgRasterizationOptions](./otgrasterizationoptions/) | خيارات تمثيل Otg |
+| [PdfOptions](./pdfoptions/) | خيارات PDF. |
+| [PngOptions](./pngoptions/) | أنشئ صورًا نقطية عالية الجودة بصيغة Portable Network Graphics (PNG) بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع توفير خيارات قابلة للتخصيص لمستويات الضغط، وعدد البتات لكل بكسل، وبتات ألفا. عالج حاويات بيانات التعريف XMP بسلاسة، مما يضمن إدارة شاملة لبيانات تعريف الصورة، ويمكنك من تخصيص صور PNG وفقًا لمواصفاتك الدقيقة بسهولة. |
+| [PsdOptions](./psdoptions/) | أنشئ صور مستندات فوتوشوب (PSD) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع توفير خيارات متعددة لإصدارات الصيغة المختلفة، وطرق الضغط، وأنماط الألوان، وعدد البتات لكل قناة لون. عالج حاويات بيانات التعريف XMP بسلاسة، مما يضمن معالجة شاملة للصور باستخدام ميزات صيغة PSD مثل طبقات الصورة، وأقنعة الطبقات، ومعلومات الملف لتخصيص وإبداع تصاميمك. |
+| [PsdVectorizationOptions](./psdvectorizationoptions/) | خيارات تمثيل PSD المتجهة. |
+| [RdOptimizerSettings](./rdoptimizersettings/) | فئة إعدادات محسن RD |
+| [RenderResult](./renderresult/) | يمثل المعلومات مع نتائج التصيير |
+| [SvgOptions](./svgoptions/) | أنشئ ملفات صور Scalar Vector Graphics (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من خيارات متعددة لأنواع الألوان ومستويات الضغط. خصص صور SVG الخاصة بك بدقة وسلاسة، مما يضمن جودة مثالية وتوافقًا مع احتياجات التصميم الخاصة بك. |
+| [SvgRasterizationOptions](./svgrasterizationoptions/) | خيارات تمثيل SVG. |
+| [TgaOptions](./tgaoptions/) | خيارات إنشاء تنسيق ملف TGA. |
+| [TiffOptions](./tiffoptions/) | خيارات تنسيق ملف tiff. لاحظ أن وسمي العرض والارتفاع سيتم استبدالهما عند إنشاء الصورة بواسطة معلمات العرض والارتفاع، لذا لا حاجة لتحديدهما مباشرة. لاحظ أن العديد من الخيارات تُعيد قيمة افتراضية ولكن هذا لا يعني أن هذا الخيار تم تعيينه صراحةً كقيمة للوسم. للتحقق من وجود الوسم استخدم خاصية Tags أو الطريقة المقابلة IsTagPresent. |
+| [TimeInterval](./timeinterval/) | يمثل الفاصل الزمني بالمللي ثانية |
+| [VectorRasterizationOptions](./vectorrasterizationoptions/) | خيارات تمثيل المتجهات. يرجى ملاحظة أن [`VectorRasterizationOptions`](../aspose.imaging.imageoptions/vectorrasterizationoptions/) لن تكون مشتقة بعد الآن من [`ImageOptionsBase`](../aspose.imaging/imageoptionsbase/) منذ إصدار Aspose.Imaging 24.12. |
+| [WebPOptions](./webpoptions/) | أنشئ صور ويب نقطية حديثة بصيغة WebP باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم قوي للضغط غير الفاقد والفقدان، بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة. حسّن محتوى الويب الخاص بك بصور ديناميكية مع تحسين أحجام الملفات لزيادة سرعات التحميل وتحسين تجربة المستخدم. |
+| [WmfOptions](./wmfoptions/) | خيارات wmf. |
+| [WmfRasterizationOptions](./wmfrasterizationoptions/) | خيارات تمثيل Wmf. |
 ## تعداد
 
-| تعداد | وصف |
+| تعداد | الوصف |
 | --- | --- |
-| [MultiPageMode](./multipagemode) | يمثل وضع متعدد الصفحات |
-| [PdfImageCompressionOptions](./pdfimagecompressionoptions) | خيارات ضغط الصور بتنسيق PDF |
-| [PositioningTypes](./positioningtypes) | أنواع المواضع والحجم لمشهد الرسومات. |
-| [RenderErrorCode](./rendererrorcode) | يمثل الأقسام المفقودة المحتملة في ملف CAD |
-| [TiffOptionsError](./tiffoptionserror) | رموز خطأ خيارات tiff . |
-| [TypeOfEntities](./typeofentities) | يمثل أنواع الكيانات المطلوب تصييرها |
+| [MultiPageMode](./multipagemode/) | يمثل وضع الصفحات المتعددة |
+| [PdfImageCompressionOptions](./pdfimagecompressionoptions/) | خيارات ضغط صور PDF |
+| [PngCompressionLevel](./pngcompressionlevel/) | تعداد مستوى ضغط png. |
+| [PositioningTypes](./positioningtypes/) | أنواع التموضع والحجم لمشهد الرسومات. |
+| [RenderErrorCode](./rendererrorcode/) | يمثل الأقسام المحتملة المفقودة في ملف CAD |
+| [TiffOptionsError](./tiffoptionserror/) | رموز أخطاء خيارات TIFF. |
+| [TypeOfEntities](./typeofentities/) | يمثل أنواع الكيانات التي سيتم عرضها |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,56 +1,57 @@
 ---
-title: TiffSByteType
-second_title: Aspose.Imaging لمرجع NET API
-description: نوع البايت المُوقَّع من نوع tiff .
+title: "الفئة TiffSByteType"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffSByteType الفئة. نوع tiff البايت الموقّع"
 type: docs
-weight: 7990
+weight: 8160
 url: /ar/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/
 ---
 ## TiffSByteType class
 
-نوع البايت المُوقَّع من نوع tiff .
+نوع tiff signed byte.
 
 ```csharp
 public sealed class TiffSByteType : TiffCommonArrayType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TiffSByteType](tiffsbytetype#constructor)(TiffTags) | يقوم بتهيئة مثيل جديد لملف[`TiffSByteType`](../tiffsbytetype) فئة . |
-| [TiffSByteType](tiffsbytetype#constructor_1)(ushort) | يقوم بتهيئة مثيل جديد لملف[`TiffSByteType`](../tiffsbytetype) فئة . |
+| [TiffSByteType](tiffsbytetype/#constructor)(TiffTags) | ينشئ مثيلاً جديداً من الفئة `TiffSByteType`. |
+| [TiffSByteType](tiffsbytetype/#constructor_1)(ushort) | ينشئ مثيلاً جديداً من الفئة `TiffSByteType`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AlignedDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/aligneddatasize) { get; } | الحصول على حجم البيانات الإضافي بالبايت (في حالة عدم كفاية 12 بايت لملاءمة بيانات العلامة) . |
-| [Count](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/count) { get; } | يحصل على عدد العناصر . |
-| [DataSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/datasize) { get; } | الحصول على حجم البيانات الإضافي بالبايت (في حالة عدم كفاية 12 بايت لملاءمة بيانات العلامة) . |
-| override [ElementSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/elementsize) { get; } | الحصول على حجم العنصر بالبايت. |
-| [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id) { get; } | يحصل على تمثيل صحيح لمعرف العلامة . |
-| [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid) { get; } | يحصل على قيمة تشير إلى ما إذا كانت بيانات العلامة صالحة. تحتوي العلامة الصالحة على بيانات يمكن الاحتفاظ بها. لا يمكن تخزين العلامة غير الصالحة. |
-| [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid) { get; } | يحصل على معرف العلامة . |
-| override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/tagtype) { get; } | يحصل على نوع العلامة . |
-| override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/value) { get; set; } | الحصول على القيمة التي يحتوي عليها نوع البيانات هذا أو تعيينها. |
-| [Values](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/values) { get; set; } | الحصول على القيم أو تعيينها. |
-| override [ValuesContainer](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/valuescontainer) { get; } | يحصل على حاوية القيم. |
+| [Count](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/count/) { get; } | يحصل على عدد العناصر. |
+| virtual [DataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/datasize/) { get; } | يحصل على حجم قيمة الوسم. |
+| override [ElementSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/elementsize/) { get; } | يحصل على حجم العنصر بالبايت. |
+| [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id/) { get; } | يحصل على معرف الوسم كرقم. |
+| [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت بيانات الوسم صالحة. الوسم الصالح يحتوي على بيانات يمكن حفظها. الوسم غير الصالح لا يمكن تخزينه. |
+| [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid/) { get; } | يحصل على معرف الوسم. |
+| override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/tagtype/) { get; } | يحصل على نوع الوسم. |
+| override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/value/) { get; set; } | يحصل أو يعيّن القيمة التي يحتويها هذا النوع من البيانات. |
+| [Values](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/values/) { get; set; } | يحصل أو يعيّن القيم. |
+| override [ValuesContainer](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/valuescontainer/) { get; } | يحصل على حاوية القيم. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | يقارن المثيل الحالي بكائن آخر من نفس النوع ويعيد عددًا صحيحًا يشير إلى ما إذا كان المثيل الحالي يسبق أو يتبع أو يحدث في نفس الموضع في ترتيب الفرز مثل الكائن الآخر. |
-| virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | يقوم بعمل نسخة عميقة من هذا المثيل. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | إرجاع أString الذي يمثل هذا المثال. |
-| override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/writeadditionaldata)(TiffStreamWriter) | يكتب بيانات العلامة الإضافية . |
-| [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | يكتب بيانات العلامة . |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto/)(object) | يقارن المثيل الحالي مع كائن آخر من نفس النوع ويعيد عددًا صحيحًا يشير إلى ما إذا كان المثيل الحالي يسبق أو يتبع أو يقع في نفس الموضع في ترتيب الفرز مقارنةً بالكائن الآخر. |
+| virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone/)() | ينفّذ استنساخًا عميقًا لهذا المثيل. |
+| virtual [GetAdditionalDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/getadditionaldatasize/)(byte) | يحصل على حجم قيمة الوسم الإضافية بالبايت (في حال عدم قدرة الوسم على احتواء القيمة الكاملة للوسم). |
+| [GetAlignedDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/getaligneddatasize/)(byte) | يحصل على حجم البيانات محاذيًا على حد 4 بايت (int) أو 8 بايت (long). |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring/)() | يرجع سلسلة تمثل هذه الحالة. |
+| override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/writeadditionaldata/)(TiffStreamWriter) | يكتب بيانات الوسم الإضافية. |
+| [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag/)(TiffStreamWriter, long) | يكتب بيانات الوسم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [TiffCommonArrayType](../tiffcommonarraytype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff.TiffTagTypes](../../aspose.imaging.fileformats.tiff.tifftagtypes)
-* المجسم [Aspose.Imaging](../../)
+* class [TiffCommonArrayType](../tiffcommonarraytype/)
+* namespace [Aspose.Imaging.FileFormats.Tiff.TiffTagTypes](../../aspose.imaging.fileformats.tiff.tifftagtypes/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

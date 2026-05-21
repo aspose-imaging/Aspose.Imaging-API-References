@@ -1,107 +1,107 @@
 ---
-title: PolygonShape
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفPolygonShapeaspose.imaging.shapes/polygonshape فئة .
+title: "PolygonShape.PolygonShape"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ PolygonShape. يهيئ مثيلًا جديدًا من فئة PolygonShape"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.shapes/polygonshape/polygonshape/
 ---
 ## PolygonShape() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`PolygonShape`](../../polygonshape) فئة .
+يهيئ مثيلًا جديدًا من الفئة [`PolygonShape`](../).
 
 ```csharp
 public PolygonShape()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PolygonShape](../../polygonshape)
-* مساحة الاسم [Aspose.Imaging.Shapes](../../polygonshape)
-* المجسم [Aspose.Imaging](../../../)
+* class [PolygonShape](../)
+* namespace [Aspose.Imaging.Shapes](../../polygonshape/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## PolygonShape(PointF[]) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`PolygonShape`](../../polygonshape) فئة .
+يهيئ مثيلًا جديدًا من الفئة [`PolygonShape`](../).
 
 ```csharp
 public PolygonShape(PointF[] points)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | PointF[] | مجموعة النقاط. |
+| نقاط | PointF[] | مصفوفة النقاط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../../aspose.imaging/pointf)
-* class [PolygonShape](../../polygonshape)
-* مساحة الاسم [Aspose.Imaging.Shapes](../../polygonshape)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../../aspose.imaging/pointf/)
+* class [PolygonShape](../)
+* namespace [Aspose.Imaging.Shapes](../../polygonshape/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## PolygonShape(PointF[], bool) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`PolygonShape`](../../polygonshape) فئة .
+يهيئ مثيلًا جديدًا من الفئة [`PolygonShape`](../).
 
 ```csharp
 public PolygonShape(PointF[] points, bool isClosed)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | PointF[] | مجموعة النقاط. |
-| isClosed | Boolean | إذا تم التعيين على`حقيقي` المضلع مغلق. |
+| نقاط | PointF[] | مصفوفة النقاط. |
+| isClosed | Boolean | إذا تم تعيينه إلى `true` فإن المضلع مغلق. |
 
-### أمثلة
+## أمثلة
 
-ينشئ هذا المثال صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures and GraphicsPath على سطح الصورة
+هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة
 
 ```csharp
 [C#]
 
-// ينشئ مثيلاً لـ BmpOptions ويضبط خصائصه المختلفة            
+//ينشئ نسخة من BmpOptions ويضبط خصائصه المتنوعة
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-// قم بإنشاء مثيل لـ FileCreateSource وقم بتعيينه كمصدر لمثيل BmpOptions
-// تحدد المعلمة المنطقية الثانية ما إذا كان الملف المراد إنشاؤه ثابتًا أم لا
+//أنشئ مثيلاً من FileCreateSource وعيّنها كمصدر للمثيل من BmpOptions
+//المعامل المنطقي الثاني يحدد ما إذا كان الملف الذي سيُنشأ مؤقتًا أم لا
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"c:\temp\output.bmp", false);
 
-// إنشاء مثيل للصورة 
+//إنشاء مثيل من Image
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    // إنشاء وتهيئة مثيل لفئة الرسومات
+    //إنشاء وتهيئة مثيل من فئة Graphics
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    // مسح سطح الرسومات
+    //مسح سطح Graphics
     graphics.Clear(Color.Wheat);
 
-    // إنشاء مثيل لفئة GraphicsPath
+    //إنشاء مثيل من فئة GraphicsPath
     Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-    // إنشاء مثيل لفئة الشكل
+    //إنشاء كائن من الفئة Figure
     Aspose.Imaging.Figure figure1 = new Aspose.Imaging.Figure();
 
-    // إضافة شكل إلى كائن الشكل
+    //إضافة شكل إلى كائن Figure
     figure1.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new RectangleF(50, 50, 300, 300)));
     figure1.AddShape(new Aspose.Imaging.Shapes.PieShape(new Rectangle(new Point(110, 110), new Size(200, 200)), 0, 90));
 
-    // إنشاء مثيل لفئة الشكل
+    //إنشاء كائن من الفئة Figure
     Aspose.Imaging.Figure figure2 = new Aspose.Imaging.Figure();
 
-    // إضافة شكل إلى كائن الشكل
+    //إضافة شكل إلى كائن Figure
     figure2.AddShape(new Aspose.Imaging.Shapes.ArcShape(new Aspose.Imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.AddShape(new Aspose.Imaging.Shapes.PolygonShape(new[] { new Aspose.Imaging.PointF(150, 10), new Aspose.Imaging.PointF(150, 200), new Aspose.Imaging.PointF(250, 300), new Aspose.Imaging.PointF(350, 400) }, true));
     figure2.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.Point(250, 250), new Aspose.Imaging.Size(200, 200))));
 
-    // إضافة كائن الشكل إلى GraphicsPath
+    //إضافة كائن Figure إلى GraphicsPath
     graphicspath.AddFigures(new[] { figure1, figure2 });
 
-    // رسم المسار باستخدام كائن القلم ذي اللون الأسود
+    //رسم المسار باستخدام كائن Pen باللون الأسود
     graphics.DrawPath(new Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
     // احفظ جميع التغييرات.
@@ -109,11 +109,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../../aspose.imaging/pointf)
-* class [PolygonShape](../../polygonshape)
-* مساحة الاسم [Aspose.Imaging.Shapes](../../polygonshape)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../../aspose.imaging/pointf/)
+* class [PolygonShape](../)
+* namespace [Aspose.Imaging.Shapes](../../polygonshape/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

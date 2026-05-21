@@ -1,55 +1,55 @@
 ---
-title: GifApplicationExtensionBlock
-second_title: Aspose.Imaging لمرجع NET API
-description: كتلة امتداد تطبيق Gif .
+title: "الفئة GifApplicationExtensionBlock"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Gif.Blocks.GifApplicationExtensionBlock. كتلة امتداد تطبيق Gif"
 type: docs
-weight: 6610
+weight: 6710
 url: /ar/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
 ---
 ## GifApplicationExtensionBlock class
 
-كتلة امتداد تطبيق Gif .
+كتلة امتداد تطبيق Gif.
 
 ```csharp
 public class GifApplicationExtensionBlock : GifBlock
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GifApplicationExtensionBlock](gifapplicationextensionblock#constructor)() | يقوم بتهيئة مثيل جديد لملف[`GifApplicationExtensionBlock`](../gifapplicationextensionblock) فئة . |
-| [GifApplicationExtensionBlock](gifapplicationextensionblock#constructor_1)(string, byte[], byte[]) | يقوم بتهيئة مثيل جديد لملف[`GifApplicationExtensionBlock`](../gifapplicationextensionblock) فئة . |
+| [GifApplicationExtensionBlock](gifapplicationextensionblock/#constructor)() | يُهيئ نسخة جديدة من الفئة `GifApplicationExtensionBlock`. |
+| [GifApplicationExtensionBlock](gifapplicationextensionblock/#constructor_1)(string, byte[], byte[]) | يُهيئ نسخة جديدة من الفئة `GifApplicationExtensionBlock`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ApplicationAuthenticationCode](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcode) { get; set; } | الحصول على أو تعيين رمز مصادقة التطبيق. |
-| [ApplicationData](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationdata) { get; set; } | الحصول على بيانات التطبيق أو تعيينها. |
-| [ApplicationIdentifier](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifier) { get; set; } | الحصول على أو تحديد معرف التطبيق. |
-| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الكتلة قد تغيرت وتتطلب الحفظ. |
+| [ApplicationAuthenticationCode](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcode/) { get; set; } | يحصل أو يضبط رمز المصادقة للتطبيق. |
+| [ApplicationData](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationdata/) { get; set; } | يحصل أو يضبط بيانات التطبيق. |
+| [ApplicationIdentifier](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifier/) { get; set; } | يحصل أو يضبط معرف التطبيق. |
+| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان الكتلة قد تغيرت وتحتاج إلى حفظ. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/save)(Stream) | يحفظ الكتلة في الدفق المحدد. |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/save/)(Stream) | يحفظ الكتلة إلى الدفق المحدد. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [ApplicationAuthenticationCodeSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcodesize) | يحدد حجم رمز مصادقة التطبيق. |
-| const [ApplicationIdentifierSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifiersize) | يحدد حجم معرف التطبيق . |
-| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blockheadersize) | يحدد حجم رأس الكتلة . |
-| const [BlockSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blocksize) | اسم الامتداد + حجم كتلة الإصدار |
-| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/extensionlabel) | تسمية الملحق . |
+| const [ApplicationAuthenticationCodeSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcodesize/) | يحدد حجم رمز المصادقة للتطبيق. |
+| const [ApplicationIdentifierSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifiersize/) | يحدد حجم معرف التطبيق. |
+| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blockheadersize/) | يحدد حجم رأس الكتلة. |
+| const [BlockSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blocksize/) | حجم اسم الامتداد + حجم كتلة الإصدار |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/extensionlabel/) | تسمية الامتداد. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GifBlock](../../aspose.imaging.fileformats.gif/gifblock)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Gif.Blocks](../../aspose.imaging.fileformats.gif.blocks)
-* المجسم [Aspose.Imaging](../../)
+* class [GifBlock](../../aspose.imaging.fileformats.gif/gifblock/)
+* namespace [Aspose.Imaging.FileFormats.Gif.Blocks](../../aspose.imaging.fileformats.gif.blocks/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

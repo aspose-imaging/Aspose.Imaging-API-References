@@ -1,47 +1,47 @@
 ---
-title: DjvuImage
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفDjvuImageaspose.imaging.fileformats.djvu/djvuimage فئة .
+title: "DjvuImage.DjvuImage"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ DjvuImage. ابدأ العمل مع صور DjVu بإنشاء نسخة جديدة من فئة DjvuImage باستخدام معامل Stream. مثالي للمطورين الذين يرغبون في دمج سلس لمعالجة صور DjVu في مشاريعهم"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.fileformats.djvu/djvuimage/djvuimage/
 ---
 ## DjvuImage(Stream) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuImage`](../../djvuimage) فئة .
+ابدأ العمل مع صور DjVu بإنشاء نسخة جديدة من الفئة [`DjvuImage`](../) باستخدام معامل Stream. مثالي للمطورين الذين يرغبون في دمج سلس لمعالجة صور DjVu في مشاريعهم.
 
 ```csharp
 public DjvuImage(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق. |
+| stream | Stream | التدفق. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | الدفق فارغ |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception/) | Stream فارغ |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحميل صورة DJVU من دفق ملف.
+يوضح هذا المثال كيفية تحميل صورة DJVU من تدفق ملف.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// قم بتحميل صورة DJVU من دفق ملف.
+// حمِّل صورة DJVU من تدفق ملف.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
     {
-        // احفظ كل صفحة كصورة PNG فردية.
+        // احفظ كل صفحة كصورة PNG منفردة.
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-            // قم بإنشاء اسم ملف بناءً على رقم الصفحة.
+            // أنشئ اسم ملف استنادًا إلى رقم الصفحة.
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
@@ -49,55 +49,55 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [DjvuImage](../../djvuimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Djvu](../../djvuimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [DjvuImage](../)
+* namespace [Aspose.Imaging.FileFormats.Djvu](../../djvuimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuImage(Stream, LoadOptions) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`DjvuImage`](../../djvuimage) فئة .
+ابدأ العمل مع صور DjVu بسلاسة باستخدام هذا المنشئ، الذي ينشئ نسخة جديدة من الفئة [`DjvuImage`](../) باستخدام معاملين: Stream و LoadOptions. مثالي للمطورين الذين يرغبون في تحكم دقيق في خيارات تحميل صور DjVu مع الحفاظ على البساطة والكفاءة.
 
 ```csharp
 public DjvuImage(Stream stream, LoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق للتحميل منه. |
+| stream | Stream | التدفق للتحميل منه. |
 | loadOptions | LoadOptions | خيارات التحميل. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | الدفق فارغ |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception/) | Stream فارغ |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحميل صورة DJVU من دفق ملف للبقاء ضمن حد الذاكرة المحدد.
+يوضح هذا المثال كيفية تحميل صورة DJVU من تدفق ملف للبقاء ضمن الحد المحدد للذاكرة.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// قم بتحميل صورة DJVU من دفق ملف.
+// حمِّل صورة DJVU من تدفق ملف.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
-    // الحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية هو 1 ميغا بايت.
+    // الحد الأقصى المسموح لحجم جميع المخازن الداخلية هو 1 ميغابايت.
     Aspose.Imaging.LoadOptions loadOptions = new Aspose.Imaging.LoadOptions();
     loadOptions.BufferSizeHint = 1 * 1024 * 1024;
 
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream, loadOptions))
     {
-        // احفظ كل صفحة كصورة PNG فردية.
+        // احفظ كل صفحة كصورة PNG منفردة.
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-            // قم بإنشاء اسم ملف بناءً على رقم الصفحة.
+            // أنشئ اسم ملف استنادًا إلى رقم الصفحة.
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
@@ -105,11 +105,11 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [LoadOptions](../../../aspose.imaging/loadoptions)
-* class [DjvuImage](../../djvuimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Djvu](../../djvuimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [LoadOptions](../../../aspose.imaging/loadoptions/)
+* class [DjvuImage](../)
+* namespace [Aspose.Imaging.FileFormats.Djvu](../../djvuimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,28 +1,28 @@
 ---
-title: Resize
-second_title: Aspose.Imaging لمرجع NET API
-description: يغير حجم الصورة.
+title: "RasterCachedImage.Resize"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة RasterCachedImage. تغيير حجم الصورة"
 type: docs
-weight: 120
+weight: 180
 url: /ar/net/aspose.imaging/rastercachedimage/resize/
 ---
 ## Resize(int, int, ResizeType) {#resize_2}
 
-يغير حجم الصورة.
+تغيير حجم الصورة.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
 | resizeType | ResizeType | نوع تغيير الحجم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل الصورة النقطية المخزنة مؤقتًا وتغيير حجمها باستخدام طرق مختلفة لتغيير الحجم.
+هذا المثال يحمل صورة مخزنة مؤقتًا ويعيد تحجيمها باستخدام طرق تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -31,67 +31,67 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.RasterCachedImage image = (Aspose.Imaging.RasterCachedImage)Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    // قم بالزيادة بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);                
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.RasterCachedImage image = (Aspose.Imaging.RasterCachedImage)Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
         
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.RasterCachedImage image = (Aspose.Imaging.RasterCachedImage)Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    // قم بالارتقاء بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.RasterCachedImage image = (Aspose.Imaging.RasterCachedImage)Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
         
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [ResizeType](../../resizetype)
-* class [RasterCachedImage](../../rastercachedimage)
-* مساحة الاسم [Aspose.Imaging](../../rastercachedimage)
-* المجسم [Aspose.Imaging](../../../)
+* enum [ResizeType](../../resizetype/)
+* class [RasterCachedImage](../)
+* namespace [Aspose.Imaging](../../rastercachedimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-يغير حجم الصورة.
+تغيير حجم الصورة.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
-| settings | ImageResizeSettings | إعدادات تغيير الحجم. |
+| الإعدادات | ImageResizeSettings | إعدادات التحجيم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل الصورة النقطية المخزنة مؤقتًا وتغيير حجمها باستخدام إعدادات تغيير الحجم المختلفة.
+هذا المثال يحمل صورة مخزنة مؤقتًا ويعيد تحجيمها باستخدام إعدادات تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -100,16 +100,16 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية القائمة على الوظيفة المنطقية الموزونة والمختلطة واستيفاء lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
-// مرشح صغير مستطيل
+// المرشح المستطيل الصغير
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
-// عدد الألوان في اللوحة.
+// عدد الألوان في لوحة الألوان.
 resizeSettings.EntriesCount = 256;
 
-// لا يتم استخدام تكميم اللون
+// لم يتم استخدام تقليل الألوان
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
 // الطريقة الإقليدية
@@ -117,17 +117,17 @@ resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
 using (Aspose.Imaging.RasterCachedImage image = (Aspose.Imaging.RasterCachedImage)Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل التكيفية.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
     image.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageResizeSettings](../../imageresizesettings)
-* class [RasterCachedImage](../../rastercachedimage)
-* مساحة الاسم [Aspose.Imaging](../../rastercachedimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [ImageResizeSettings](../../imageresizesettings/)
+* class [RasterCachedImage](../)
+* namespace [Aspose.Imaging](../../rastercachedimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

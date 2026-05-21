@@ -1,45 +1,45 @@
 ---
-title: EmfPlusCustomLineCapData
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد كائن EmfPlusCustomLineCapData البيانات الافتراضية لسقف مخصص للسطر.
+title: "الفئة EmfPlusCustomLineCapData"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusCustomLineCapData. يحدد كائن EmfPlusCustomLineCapData البيانات الافتراضية لرأس خط مخصص."
 type: docs
-weight: 5390
+weight: 5510
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/
 ---
 ## EmfPlusCustomLineCapData class
 
-يحدد كائن EmfPlusCustomLineCapData البيانات الافتراضية لسقف مخصص للسطر.
+كائن EmfPlusCustomLineCapData يحدد البيانات الافتراضية لقبعة خط مخصصة.
 
 ```csharp
 public sealed class EmfPlusCustomLineCapData : EmfPlusCustomBaseLineCap
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusCustomLineCapData](emfpluscustomlinecapdata)() | Default_Constructor |
+| [EmfPlusCustomLineCapData](emfpluscustomlinecapdata/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BaseCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/basecap) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد القيمة من تعداد LineCap (القسم 2.1.1.18) الذي يستند إليه الحد الأقصى للسطر المخصص. |
-| [BaseInset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/baseinset) { get; set; } | الحصول على أو تعيين قيمة النقطة العائمة 32 بت التي تحدد المسافة بين بداية لغطاء السطر ونهاية السطر. |
-| [CustomLineCapDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/customlinecapdataflags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد البيانات في حقل OptionalData |
-| [FillHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/fillhotspot) { get; set; } | الحصول على أو تعيين كائن EmfPlusPointF غير المستخدم حاليًا. يجب ضبطها على {0.0، 0.0} . |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/optionaldata) { get; set; } | الحصول على أو تعيين كائن EmfPlusCustomLineCapOptionalData الاختياري (القسم 2.2.2.14) الذي يحدد بيانات إضافية لسقف خط الرسومات المخصص. T يتم تحديد المحتويات المحددة لهذا الحقل بواسطة قيمة الحقل CustomLineCapDataFlags. |
-| [StrokeEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokeendcap) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد القيمة في تعداد LineCap الذي يشير إلى غطاء سطر يجب استخدامه في نهاية السطر المراد رسمه. |
-| [StrokeHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokehotspot) { get; set; } | الحصول على أو تعيين كائن EmfPlusPointF غير المستخدم حاليًا. يجب ضبطها على {0.0، 0.0} . |
-| [StrokeJoin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokejoin) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد القيمة في تعداد LineJoin (القسم 2.1.1.19) ، والذي يحدد كيفية ربط سطرين يتم رسمهما بواسطة نفس القلم وتلتقي نهايتيهما. عند تقاطع طرفي الخط ، تجعل وصلة الخط الاتصال يبدو أكثر استمرارية . |
-| [StrokeMiterLimit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokemiterlimit) { get; set; } | الحصول على أو تعيين قيمة النقطة العائمة 32 بت التي تحتوي على حد السماكة للصلة في زاوية ميتري عن طريق تعيين الحد الأقصى المسموح به للنسبة لطول ميتري إلى عرض الخط. |
-| [StrokeStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokestartcap) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد القيمة في تعداد LineCap الذي يشير إلى غطاء السطر المستخدم في بداية السطر المراد رسمه |
-| [WidthScale](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/widthscale) { get; set; } | الحصول على أو تعيين قيمة النقطة العائمة 32 بت التي تحدد المقدار الذي يتم بواسطته تغيير سقف الخط المخصص فيما يتعلق بعرض كائن EmfPlusPen (القسم 2.2.1.7) المستخدم لرسم الخطوط. |
+| [BaseCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/basecap/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد القيمة من تعداد LineCap (القسم 2.1.1.18) الذي يُبنى عليه رأس الخط المخصص. |
+| [BaseInset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/baseinset/) { get; set; } | الحصول أو تعيين قيمة عشرية 32‑بت تحدد المسافة بين بداية رأس الخط ونهاية الخط. |
+| [CustomLineCapDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/customlinecapdataflags/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد البيانات في الحقل OptionalData. |
+| [FillHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/fillhotspot/) { get; set; } | الحصول أو تعيين كائن EmfPlusPointF غير مستخدم حاليًا. يجب تعيينه إلى {0.0, 0.0}. |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/optionaldata/) { get; set; } | الحصول أو تعيين كائن EmfPlusCustomLineCapOptionalData اختياري (القسم 2.2.2.14) يحدد بيانات إضافية لرأس الخط الرسومي المخصص. المحتويات المحددة لهذا الحقل تُحدد بقيمة الحقل CustomLineCapDataFlags. |
+| [StrokeEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokeendcap/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد القيمة في تعداد LineCap التي تشير إلى رأس الخط الذي سيُستخدم في نهاية الخط المراد رسمه. |
+| [StrokeHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokehotspot/) { get; set; } | الحصول أو تعيين كائن EmfPlusPointF غير مستخدم حاليًا. يجب تعيينه إلى {0.0, 0.0}. |
+| [StrokeJoin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokejoin/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد القيمة في تعداد LineJoin (القسم 2.1.1.19)، الذي يحدد طريقة ربط خطين يُرسمان بالقلم نفسه وتلتقي نهايتهما. عند تقاطع نهايتي الخطين، يجعل ربط الخط الاتصال يبدو أكثر استمرارية. |
+| [StrokeMiterLimit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokemiterlimit/) { get; set; } | الحصول أو تعيين قيمة عشرية 32‑بت تحتوي على حد سمك الربط عند زاوية مِتَر عن طريق ضبط النسبة القصوى المسموح بها لطول المِتَر إلى عرض الخط. |
+| [StrokeStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokestartcap/) { get; set; } | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد القيمة في تعداد LineCap التي تشير إلى رأس الخط المستخدم في بداية الخط المراد رسمه. |
+| [WidthScale](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/widthscale/) { get; set; } | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد مقدار تعديل مقياس غطاء الخط المخصص بالنسبة إلى عرض كائن EmfPlusPen (القسم 2.2.1.7) المستخدم لرسم الخطوط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusCustomBaseLineCap](../emfpluscustombaselinecap)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects](../../aspose.imaging.fileformats.emf.emfplus.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusCustomBaseLineCap](../emfpluscustombaselinecap/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects](../../aspose.imaging.fileformats.emf.emfplus.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

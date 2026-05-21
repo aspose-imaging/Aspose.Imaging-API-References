@@ -1,190 +1,190 @@
 ---
-title: Font
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة ملفFontaspose.imaging/font يستخدم المحدد الموجودFontaspose.imaging/font وFontStyleaspose.imaging/fontstyle التعداد .
+title: "Font.Font"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ Font. يهيئ Font جديد يستخدم Font الموجود المحدد وتعداد FontStyle."
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging/font/font/
 ---
 ## Font(Font, FontStyle) {#constructor}
 
-يقوم بتهيئة ملف[`Font`](../../font) يستخدم المحدد الموجود[`Font`](../../font) و[`FontStyle`](../../fontstyle) التعداد .
+يهيئ [`Font`](../) جديد يستخدم [`Font`](../) الموجود المحدد وتعداد [`FontStyle`](../../fontstyle/).
 
 ```csharp
 public Font(Font prototype, FontStyle newStyle)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| prototype | Font | الموجود[`Font`](../../font) التي يتم إنشاء الجديد منها[`Font`](../../font). |
-| newStyle | FontStyle | ال[`FontStyle`](../../fontstyle)للتقدم إلى الجديد[`Font`](../../font) . قيم متعددة لـ[`FontStyle`](../../fontstyle) يمكن دمج التعداد مع عامل التشغيل OR. |
+| prototype | Font | الـ[`Font`](../) الموجود الذي سيتم إنشاء [`Font`](../) الجديد منه. |
+| newStyle | FontStyle | الـ[`FontStyle`](../../fontstyle/) لتطبيقه على الـ[`Font`](../) الجديد. يمكن دمج قيم متعددة من تعداد [`FontStyle`](../../fontstyle/) باستخدام عامل OR. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *prototype* باطل. |
+| ArgumentNullException | *prototype* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [FontStyle](../../fontstyle)
-* class [Font](../../font)
-* مساحة الاسم [Aspose.Imaging](../../font)
-* المجسم [Aspose.Imaging](../../../)
+* enum [FontStyle](../../fontstyle/)
+* class [Font](../)
+* namespace [Aspose.Imaging](../../font/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Font(string, float) {#constructor_1}
 
-يقوم بتهيئة ملف[`Font`](../../font) باستخدام حجم محدد. تم تعيين مجموعة الأحرف علىDefault ، وحدة الرسوماتPoint ، نمط الخط إلىRegular .
+يهيئ [`Font`](../) جديد باستخدام حجم محدد. يتم تعيين مجموعة الأحرف إلى Default، ووحدة الرسومات إلى Point، ونمط الخط إلى Regular.
 
 ```csharp
 public Font(string fontName, float emSize)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fontName | String | تمثيل سلسلة من[`Font`](../../font) اسم. |
-| emSize | Single | حجم em ، بالنقاط ، للخط الجديد. |
+| fontName | String | تمثيل نصي لاسم الـ[`Font`](../). |
+| emSize | فردي | حجم الـem، بالنقاط، للخط الجديد. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize* أصغر من أو يساوي 0 ، يتم تقييمه إلى ما لا نهاية أو أنه ليس رقمًا صالحًا. |
-| ArgumentNullException | *fontName* باطل. |
+| ArgumentOutOfRangeException | *emSize* أقل من أو يساوي 0، أو يساوي ما لا نهائي، أو ليس رقمًا صالحًا. |
+| ArgumentNullException | *fontName* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Font](../../font)
-* مساحة الاسم [Aspose.Imaging](../../font)
-* المجسم [Aspose.Imaging](../../../)
+* class [Font](../)
+* namespace [Aspose.Imaging](../../font/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Font(string, float, FontStyle) {#constructor_2}
 
-يقوم بتهيئة ملف[`Font`](../../font) باستخدام حجم وأسلوب محددين. تم تعيين مجموعة الأحرف علىDefault ، وحدة الرسوماتPoint .
+يهيئ [`Font`](../) جديد باستخدام حجم ونمط محددين. يتم تعيين مجموعة الأحرف إلى Default، ووحدة الرسومات إلى Point.
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fontName | String | تمثيل سلسلة من[`Font`](../../font) اسم. |
-| emSize | Single | حجم em ، بالنقاط ، للخط الجديد. |
-| style | FontStyle | ال[`FontStyle`](../../fontstyle) من الخط الجديد. |
+| fontName | String | تمثيل نصي لاسم الـ[`Font`](../). |
+| emSize | فردي | حجم الـem، بالنقاط، للخط الجديد. |
+| style | FontStyle | الـ[`FontStyle`](../../fontstyle/) للخط الجديد. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize* أصغر من أو يساوي 0 ، يتم تقييمه إلى ما لا نهاية أو أنه ليس رقمًا صالحًا. |
-| ArgumentNullException | *fontName* باطل. |
+| ArgumentOutOfRangeException | *emSize* أقل من أو يساوي 0، أو يساوي ما لا نهائي، أو ليس رقمًا صالحًا. |
+| ArgumentNullException | *fontName* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [FontStyle](../../fontstyle)
-* class [Font](../../font)
-* مساحة الاسم [Aspose.Imaging](../../font)
-* المجسم [Aspose.Imaging](../../../)
+* enum [FontStyle](../../fontstyle/)
+* class [Font](../)
+* namespace [Aspose.Imaging](../../font/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Font(string, float, GraphicsUnit) {#constructor_5}
 
-يقوم بتهيئة ملف[`Font`](../../font) باستخدام حجم ووحدة محددين. تم تعيين مجموعة الأحرف علىDefault ، تم تعيين النمط علىRegular .
+يهيئ [`Font`](../) جديد باستخدام حجم ووحدة محددين. يتم تعيين مجموعة الأحرف إلى Default، والنمط إلى Regular.
 
 ```csharp
 public Font(string fontName, float emSize, GraphicsUnit unit)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fontName | String | تمثيل سلسلة من[`Font`](../../font) اسم. |
-| emSize | Single | حجم em للخط الجديد في الوحدات المحددة بواسطة*unit* معامل. |
-| unit | GraphicsUnit | ال[`GraphicsUnit`](../../graphicsunit) من الخط الجديد. |
+| fontName | String | تمثيل نصي لاسم الـ[`Font`](../). |
+| emSize | فردي | حجم الـem للخط الجديد بالوحدات المحددة بواسطة معامل *unit*. |
+| unit | GraphicsUnit | الـ[`GraphicsUnit`](../../graphicsunit/) للخط الجديد. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize* أصغر من أو يساوي 0 ، يتم تقييمه إلى ما لا نهاية أو أنه ليس رقمًا صالحًا. |
-| ArgumentNullException | *fontName* باطل. |
+| ArgumentOutOfRangeException | *emSize* أقل من أو يساوي 0، أو يساوي ما لا نهائي، أو ليس رقمًا صالحًا. |
+| ArgumentNullException | *fontName* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [GraphicsUnit](../../graphicsunit)
-* class [Font](../../font)
-* مساحة الاسم [Aspose.Imaging](../../font)
-* المجسم [Aspose.Imaging](../../../)
+* enum [GraphicsUnit](../../graphicsunit/)
+* class [Font](../)
+* namespace [Aspose.Imaging](../../font/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Font(string, float, FontStyle, GraphicsUnit, CharacterSet) {#constructor_4}
 
-يقوم بتهيئة ملف[`Font`](../../font) باستخدام حجم ونمط ووحدة ومجموعة أحرف محددة.
+يهيئ [`Font`](../) جديد باستخدام حجم، نمط، وحدة، ومجموعة أحرف محددة.
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit, 
     CharacterSet characterSet)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fontName | String | تمثيل سلسلة من[`Font`](../../font) اسم. |
-| emSize | Single | حجم em للخط الجديد في الوحدات المحددة بواسطة*unit* معامل. |
-| style | FontStyle | ال[`FontStyle`](../../fontstyle) من الخط الجديد. |
-| unit | GraphicsUnit | ال[`GraphicsUnit`](../../graphicsunit) من الخط الجديد. |
-| characterSet | CharacterSet | مجموعة أحرف لاستخدامها لهذا الخط. |
+| fontName | String | تمثيل نصي لاسم الـ[`Font`](../). |
+| emSize | فردي | حجم الـem للخط الجديد بالوحدات المحددة بواسطة معامل *unit*. |
+| style | FontStyle | الـ[`FontStyle`](../../fontstyle/) للخط الجديد. |
+| unit | GraphicsUnit | الـ[`GraphicsUnit`](../../graphicsunit/) للخط الجديد. |
+| characterSet | CharacterSet | مجموعة أحرف لاستخدامها مع هذا الخط. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize* أصغر من أو يساوي 0 ، يتم تقييمه إلى ما لا نهاية أو أنه ليس رقمًا صالحًا. |
-| ArgumentNullException | *fontName* باطل. |
+| ArgumentOutOfRangeException | *emSize* أقل من أو يساوي 0، أو يساوي ما لا نهائي، أو ليس رقمًا صالحًا. |
+| ArgumentNullException | *fontName* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [FontStyle](../../fontstyle)
-* enum [GraphicsUnit](../../graphicsunit)
-* enum [CharacterSet](../../characterset)
-* class [Font](../../font)
-* مساحة الاسم [Aspose.Imaging](../../font)
-* المجسم [Aspose.Imaging](../../../)
+* enum [FontStyle](../../fontstyle/)
+* enum [GraphicsUnit](../../graphicsunit/)
+* enum [CharacterSet](../../characterset/)
+* class [Font](../)
+* namespace [Aspose.Imaging](../../font/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Font(string, float, FontStyle, GraphicsUnit) {#constructor_3}
 
-يقوم بتهيئة ملف[`Font`](../../font) باستخدام حجم ونمط ووحدة محددة.
+يهيئ [`Font`](../) جديد باستخدام حجم، نمط، ووحدة محددة.
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fontName | String | تمثيل سلسلة من[`Font`](../../font) اسم. |
-| emSize | Single | حجم em للخط الجديد في الوحدات المحددة بواسطة*unit* معامل. |
-| style | FontStyle | ال[`FontStyle`](../../fontstyle) من الخط الجديد. |
-| unit | GraphicsUnit | ال[`GraphicsUnit`](../../graphicsunit) من الخط الجديد. |
+| fontName | String | تمثيل نصي لاسم الـ[`Font`](../). |
+| emSize | فردي | حجم الـem للخط الجديد بالوحدات المحددة بواسطة معامل *unit*. |
+| style | FontStyle | الـ[`FontStyle`](../../fontstyle/) للخط الجديد. |
+| unit | GraphicsUnit | الـ[`GraphicsUnit`](../../graphicsunit/) للخط الجديد. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize* أصغر من أو يساوي 0 ، يتم تقييمه إلى ما لا نهاية أو أنه ليس رقمًا صالحًا. |
-| ArgumentNullException | *fontName* باطل. |
+| ArgumentOutOfRangeException | *emSize* أقل من أو يساوي 0، أو يساوي ما لا نهائي، أو ليس رقمًا صالحًا. |
+| ArgumentNullException | *fontName* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [FontStyle](../../fontstyle)
-* enum [GraphicsUnit](../../graphicsunit)
-* class [Font](../../font)
-* مساحة الاسم [Aspose.Imaging](../../font)
-* المجسم [Aspose.Imaging](../../../)
+* enum [FontStyle](../../fontstyle/)
+* enum [GraphicsUnit](../../graphicsunit/)
+* class [Font](../)
+* namespace [Aspose.Imaging](../../font/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

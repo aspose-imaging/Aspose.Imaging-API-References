@@ -1,219 +1,219 @@
 ---
-title: Jpeg2000Image
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفJpeg2000Imageaspose.imaging.fileformats.jpeg2000/jpeg2000image فئة .
+title: "Jpeg2000Image.Jpeg2000Image"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ Jpeg2000Image. ابدأ العمل مع فئة Jpeg2000Image بإنشاء مثيل جديد باستخدام المسار إلى الصورة التي تريد تحميلها. يتيح هذا المنشئ وصولًا سهلاً إلى صور JPEG2000، مبسطًا عملية تحميل ومعالجة ملفات الصور. من خلال توفير مسار الملف، يمكنك بسرعة بدء معالجة وتعديل صور JPEG2000 في تطبيقك"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/jpeg2000image/
 ---
 ## Jpeg2000Image(string) {#constructor_7}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+ابدأ العمل مع فئة [`Jpeg2000Image`](../) عن طريق تهيئة نسخة جديدة مع المسار إلى الصورة التي تريد تحميلها. يتيح هذا المُنشئ الوصول السهل إلى صور JPEG2000، مبسطًا عملية تحميل ومعالجة ملفات الصور. من خلال توفير مسار الملف، يمكنك البدء بسرعة في معالجة وتعديل صور JPEG2000 في تطبيقك.
 
 ```csharp
 public Jpeg2000Image(string path)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | مسار تحميل الصورة منه وتهيئة بيانات البكسل واللوحة به. |
+| المسار | String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحميل صورة JPEG2000 من ملف وحفظها في PNG.
+يوضح هذا المثال كيفية تحميل صورة JPEG2000 من ملف وحفظها بصيغة PNG.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// قم بتحميل صورة JPEG2000.
+// حمّل صورة JPEG2000.
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(dir + "sample.jp2"))
 {
-    // حفظ في PNG
+    // حفظ إلى PNG
     jpeg2000Image.Save(dir + "sample.output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(string, int) {#constructor_8}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+ابدأ بسهولة مع فئة [`Jpeg2000Image`](../) بإنشاء نسخة جديدة باستخدام كل من مسار الملف ومعامل البتات لكل بكسل المطلوب. يتيح هذا المُنشئ ضبط عملية تحميل الصورة بدقة، مما يضمن التوافق مع صيغ الصور المختلفة وإعدادات الجودة. مع هذه المرونة، يمكنك إدارة وتعديل صور JPEG2000 بفعالية وفقًا لمتطلباتك الخاصة.
 
 ```csharp
 public Jpeg2000Image(string path, int bitsPerPixel)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | مسار تحميل الصورة منه وتهيئة بيانات البكسل واللوحة به |
-| bitsPerPixel | Int32 | وحدات البت لكل بكسل. |
+| المسار | String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية باستخدام |
+| bitsPerPixel | Int32 | عدد البتات لكل بكسل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(Stream) {#constructor_5}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+قم بتهيئة نسخة جديدة من فئة [`Jpeg2000Image`](../) بسهولة عن طريق توفير كائن تدفق. يبسط هذا المُنشئ عملية تحميل صور JPEG2000 مباشرةً من التدفقات، مقدماً مرونة وراحة في التعامل مع بيانات الصور من مصادر مختلفة.
 
 ```csharp
 public Jpeg2000Image(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة باستخدام. |
+| stream | Stream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحميل صورة JPEG2000 من دفق ملف وحفظها في PNG.
+يوضح هذا المثال كيفية تحميل صورة JPEG2000 من تدفق ملف وحفظها بصيغة PNG.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة JPEG2000 من الدفق.
+// تحميل صورة JPEG2000 من تدفق.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.jp2"))
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(stream))
 {
-    // حفظ في PNG
+    // حفظ إلى PNG
     jpeg2000Image.Save(dir + "sample.output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(Stream, int) {#constructor_6}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+تهيئة نسخة جديدة من فئة [`Jpeg2000Image`](../) باستخدام تدفق لتحميل الصورة، مع معاملات البتات لكل بكسل. يوفّر هذا المُنشئ مرونة من خلال السماح لك بتحديد كل من مصدر بيانات الصورة والبتات لكل بكسل المطلوبة، مما يمنح تحكمًا أدق في عملية تحميل الصورة.
 
 ```csharp
 public Jpeg2000Image(Stream stream, int bitsPerPixel)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة باستخدام. |
-| bitsPerPixel | Int32 | وحدات البت لكل بكسل. |
+| stream | Stream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| bitsPerPixel | Int32 | عدد البتات لكل بكسل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(int, int) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+إنشاء نسخة جديدة من فئة [`Jpeg2000Image`](../)، مع تحديد معلمات العرض والارتفاع. يتيح هذا المُنشئ تهيئة صورة JPEG2000 بأبعاد محددة، وهو مفيد في السيناريوهات التي تحتاج فيها إلى إنشاء صورة بحجم معين برمجيًا.
 
 ```csharp
 public Jpeg2000Image(int width, int height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة |
-| height | Int32 | ارتفاع الصورة |
+| العرض | Int32 | عرض الصورة |
+| الارتفاع | Int32 | ارتفاع الصورة |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية إنشاء صورة JPEG2000 وحفظها في ملف.
+يوضح هذا المثال كيفية إنشاء صورة JPEG2000 وحفظها إلى ملف.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// قم بإنشاء صورة بتنسيق JPEG2000 بحجم 100 × 100 بكسل.
+// إنشاء صورة JPEG2000 بحجم 100x100 بكسل.
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(jpeg2000Image);
 
-    // املأ الصورة بأكملها باللون الأحمر.
+    // املأ الصورة بالكامل باللون الأحمر.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, jpeg2000Image.Bounds);
 
-    // حفظ في ملف
+    // احفظ إلى ملف
     jpeg2000Image.Save(dir + "sample.output.jp2", new Aspose.Imaging.ImageOptions.Jpeg2000Options());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(int, int, Jpeg2000Options) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+إنشاء كائن جديد من [`Jpeg2000Image`](../)، مع توفير معلمات العرض والارتفاع وخيارات الصورة. يتيح هذا المُنشئ إنشاء صور JPEG2000 بأبعاد محددة وخيارات إضافية، مقدمًا مرونة في توليد الصور.
 
 ```csharp
 public Jpeg2000Image(int width, int height, Jpeg2000Options options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة |
-| height | Int32 | ارتفاع الصورة |
-| options | Jpeg2000Options | الخيارات. |
+| العرض | Int32 | عرض الصورة |
+| الارتفاع | Int32 | ارتفاع الصورة |
+| الخيارات | Jpeg2000Options | الخيارات. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية إنشاء صورة PNG وحفظها في JPEG2000 بالخيارات المطلوبة.
+يوضح هذا المثال كيفية إنشاء صورة PNG وحفظها إلى JPEG2000 مع الخيارات المطلوبة.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// أنشئ صورة PNG بحجم 100 × 100 بكسل.
+// إنشاء صورة PNG بحجم 100×100 بكسل.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-    // املأ الصورة بأكملها باللون الأحمر.
+    // املأ الصورة بالكامل باللون الأحمر.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, pngImage.Bounds);
 
     Aspose.Imaging.ImageOptions.Jpeg2000Options saveOptions = new Aspose.Imaging.ImageOptions.Jpeg2000Options();
 
-    // استخدم التحويل المويجي المنفصل الذي لا رجعة فيه 9-7
+    // استخدم تحويل الموجة المتقطعة غير القابل للعكس 9-7
     saveOptions.Irreversible = true;
 
-    // JP2 هو تنسيق "الحاوية" لتدفقات رموز JPEG 2000.
-    // J2K عبارة عن بيانات خام مضغوطة ، بدون غلاف.
+    // JP2 هو تنسيق \"الحاوية\" لتدفقات JPEG 2000.
+    // J2K هو بيانات مضغوطة خام، بدون غلاف.
     saveOptions.Codec = Imaging.FileFormats.Jpeg2000.Jpeg2000Codec.J2K;
 
-    // حفظ في ملف
+    // احفظ إلى ملف
     pngImage.Save(dir + "output.j2k", saveOptions);
 }
 ```
 
-يوضح هذا المثال كيفية إنشاء صورة JPEG2000 بالخيارات المطلوبة وحفظها في ملف.
+يوضح هذا المثال كيفية إنشاء صورة JPEG2000 مع الخيارات المطلوبة وحفظها إلى ملف.
 
 ```csharp
 [C#]
@@ -222,124 +222,124 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.Jpeg2000Options createOptions = new Aspose.Imaging.ImageOptions.Jpeg2000Options();
 
-// استخدم التحويل المويجي المنفصل الذي لا رجعة فيه 9-7
+// استخدم تحويل الموجة المتقطعة غير القابل للعكس 9-7
 createOptions.Irreversible = true;
 
-// JP2 هو تنسيق "الحاوية" لتدفقات رموز JPEG 2000.
-// J2K عبارة عن بيانات خام مضغوطة ، بدون غلاف.
+// JP2 هو تنسيق \"الحاوية\" لتدفقات JPEG 2000.
+// J2K هو بيانات مضغوطة خام، بدون غلاف.
 createOptions.Codec = Imaging.FileFormats.Jpeg2000.Jpeg2000Codec.J2K;
 
-// قم بإنشاء صورة بتنسيق JPEG2000 بحجم 100 × 100 بكسل.
+// إنشاء صورة JPEG2000 بحجم 100x100 بكسل.
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(100, 100, createOptions))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(jpeg2000Image);
 
-    // املأ الصورة بأكملها باللون الأحمر.
+    // املأ الصورة بالكامل باللون الأحمر.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, jpeg2000Image.Bounds);
 
-    // حفظ في ملف
+    // احفظ إلى ملف
     jpeg2000Image.Save(dir + "sample.output.j2k");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Options](../../../aspose.imaging.imageoptions/jpeg2000options)
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Options](../../../aspose.imaging.imageoptions/jpeg2000options/)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(int, int, int) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+إنشاء نسخة جديدة من فئة [`Jpeg2000Image`](../) مع معلمات العرض والارتفاع وعدد البتات. يتيح هذا المُنشئ إنشاء صور JPEG2000 بأبعاد محددة وعمق بتات، مقدماً مرونة لاحتياجات التصوير المختلفة.
 
 ```csharp
 public Jpeg2000Image(int width, int height, int bitsCount)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة |
-| height | Int32 | ارتفاع الصورة |
-| bitsCount | Int32 | البتات العد. |
+| العرض | Int32 | عرض الصورة |
+| الارتفاع | Int32 | ارتفاع الصورة |
+| bitsCount | Int32 | عدد البتات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(RasterImage) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+إنشاء نسخة جديدة من فئة [`Jpeg2000Image`](../) باستخدام صورة نقطية. يسهل هذا المُنشئ إنشاء صورة JPEG2000 من صورة نقطية موجودة، مقدماً تكاملًا سلسًا وتحويلًا بين صيغ الصور المختلفة.
 
 ```csharp
 public Jpeg2000Image(RasterImage image)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | RasterImage | الصورة. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية إنشاء صورة JPEG2000 باستخدام صورة نقطية أخرى.
+يوضح هذا المثال كيفية إنشاء صورة JPEG2000 من صورة نقطية أخرى.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// أنشئ صورة PNG بحجم 100 × 100 بكسل.
+// إنشاء صورة PNG بحجم 100×100 بكسل.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-    // املأ الصورة بأكملها باللون الأحمر.
+    // املأ الصورة بالكامل باللون الأحمر.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, pngImage.Bounds);
 
-    // قم بإنشاء صورة JPEG2000 بناءً على صورة PNG.
+    // إنشاء صورة JPEG2000 بناءً على صورة PNG.
     using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(pngImage))
     {
-        // حفظ في ملف
+        // احفظ إلى ملف
         jpeg2000Image.Save(dir + "output.jp2", new Aspose.Imaging.ImageOptions.Jpeg2000Options());
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Jpeg2000Image(RasterImage, int) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Jpeg2000Image`](../../jpeg2000image) فئة .
+تهيئة نسخة جديدة من [`Jpeg2000Image`](../) باستخدام صورة نقطية ومعاملات البتات لكل بكسل. يتيح هذا المُنشئ تحكمًا دقيقًا في جودة وحجم صورة JPEG2000 الناتجة، مما يجعلها مثالية للسيناريوهات التي تكون فيها التخصيصات ضرورية.
 
 ```csharp
 public Jpeg2000Image(RasterImage rasterImage, int bitsPerPixel)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| rasterImage | RasterImage | الصورة المراد تهيئة بيانات البكسل واللوحة بها. |
-| bitsPerPixel | Int32 | وحدات البت لكل بكسل. |
+| rasterImage | RasterImage | الصورة لتهيئة بيانات البكسل ولوحة الألوان بها. |
+| bitsPerPixel | Int32 | عدد البتات لكل بكسل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [Jpeg2000Image](../../jpeg2000image)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image)
-* المجسم [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [Jpeg2000Image](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg2000](../../jpeg2000image/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

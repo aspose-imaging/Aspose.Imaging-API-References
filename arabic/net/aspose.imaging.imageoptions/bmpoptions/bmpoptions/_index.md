@@ -1,22 +1,22 @@
 ---
-title: BmpOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفBmpOptionsaspose.imaging.imageoptions/bmpoptions فئة .
+title: "BmpOptions.BmpOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ BmpOptions. يهيئ مثيلاً جديداً من فئة BmpOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.imageoptions/bmpoptions/bmpoptions/
 ---
 ## BmpOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpOptions`](../../bmpoptions) فئة .
+يهيئ مثيلاً جديداً من فئة [`BmpOptions`](../).
 
 ```csharp
 public BmpOptions()
 ```
 
-### أمثلة
+## أمثلة
 
-يقوم المثال التالي بتحميل صورة BMP وحفظها مرة أخرى في BMP باستخدام خيارات حفظ متنوعة.
+المثال التالي يحمل صورة BMP ويحفظها مرة أخرى كـ BMP باستخدام خيارات حفظ مختلفة.
 
 ```csharp
 [C#]
@@ -30,25 +30,25 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
     // إنشاء BmpOptions
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-    // استخدم 8 بت لكل بكسل لتقليل حجم الصورة الناتجة.
+    // استخدم 8 بتات لكل بكسل لتقليل حجم صورة الإخراج.
     saveOptions.BitsPerPixel = 8;
 
-    // قم بتعيين أقرب لوحة ألوان 8 بت تغطي العدد الأقصى لوحدات البكسل للصورة ، بحيث تكون الصورة ذات لوحة الألوان
-    // يكاد لا يمكن تمييزه بصريًا عن غير المنقول.
+    // حدد أقرب لوحة ألوان 8‑bit التي تغطي الحد الأقصى من بكسلات الصورة، بحيث تكون الصورة مُلوَّنة بلوحة ألوان
+    // تقريبًا لا يمكن تمييزها بصريًا عن صورة غير ملوّنة بلوحة ألوان.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
 
-    // حفظ بدون ضغط.
+    // احفظ دون ضغط.
     // يمكنك أيضًا استخدام ضغط RLE-8 لتقليل حجم الصورة الناتجة.
     saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
-    // اضبط الدقة الأفقية والعمودية على 96 نقطة في البوصة.
+    // حدد الدقة الأفقية والعمودية إلى 96 نقطة في البوصة.
     saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
     image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
 }
 ```
 
-يُنشئ المثال التالي صورة BMP ذات تدرج رمادي متدرج ثم يحفظها في ملف.
+المثال التالي ينشئ صورة BMP بتدرج رمادي مُلوَّنة بلوحة ألوان ثم يحفظها إلى ملف
 
 ```csharp
 [C#]
@@ -57,25 +57,25 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-// حفظ في ملف
+// احفظ إلى ملف
 createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
     
-// استخدم 8 بت لكل بكسل لتقليل حجم الصورة الناتجة.
+// استخدم 8 بتات لكل بكسل لتقليل حجم صورة الإخراج.
 createOptions.BitsPerPixel = 8;
 
-// قم بتعيين لوحة الألوان القياسية ذات التدرج الرمادي 8 بت والتي تغطي جميع ألوان التدرج الرمادي.
-// إذا كانت الصورة المعالجة تحتوي على ألوان ذات تدرج رمادي فقط ، فإن نسختها الملونة
-// لا يمكن تمييزه بصريًا عن غير المنقول.
+// حدد لوحة ألوان تدرج رمادي قياسية 8‑bit التي تغطي جميع ألوان التدرج الرمادي.
+// إذا كانت الصورة المعالجة تحتوي فقط على ألوان تدرج رمادي، فإن نسختها المُلوَّنة بلوحة ألوان
+// تكون غير قابلة للتمييز بصريًا عن نسخة غير مُلوَّنة بلوحة ألوان.
 createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
 
-// حفظ بدون ضغط.
+// احفظ دون ضغط.
 // يمكنك أيضًا استخدام ضغط RLE-8 لتقليل حجم الصورة الناتجة.
 createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
-// اضبط الدقة الأفقية والعمودية على 96 نقطة في البوصة.
+// حدد الدقة الأفقية والعمودية إلى 96 نقطة في البوصة.
 createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
-// قم بإنشاء صورة BMP بحجم 100 × 100 بكسل واحفظها في ملف.
+// أنشئ صورة BMP بحجم 100 × 100 بكسل واحفظها إلى ملف
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
@@ -86,37 +86,37 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 1
         Aspose.Imaging.Color.Black,
         Aspose.Imaging.Color.White);
 
-    // املأ الصورة بتدرج الرمادي
+    // املأ الصورة بتدرج رمادي
     graphics.FillRectangle(gradientBrush, image.Bounds);
 
     image.Save();
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BmpOptions](../../bmpoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../bmpoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [BmpOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../bmpoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## BmpOptions(BmpOptions) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`BmpOptions`](../../bmpoptions) فئة .
+يهيئ مثيلاً جديداً من فئة [`BmpOptions`](../).
 
 ```csharp
 public BmpOptions(BmpOptions bmpOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | bmpOptions | BmpOptions | خيارات BMP. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BmpOptions](../../bmpoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../bmpoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [BmpOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../bmpoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

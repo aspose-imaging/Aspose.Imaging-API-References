@@ -1,45 +1,45 @@
 ---
-title: EmfPlusPenDataFlags
-second_title: Aspose.Imaging لمرجع NET API
-description: تحدد علامات PenData خصائص أقلام الرسومات  بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه العلامات لتحديد خيارات متعددة.
+title: "تعداد EmfPlusPenDataFlags"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts.EmfPlusPenDataFlags enum. تحدد أعلام PenData خصائص أقلام الرسومات بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه الأعلام لتحديد خيارات متعددة."
 type: docs
-weight: 5000
+weight: 5120
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspendataflags/
 ---
 ## EmfPlusPenDataFlags enumeration
 
-تحدد علامات PenData خصائص أقلام الرسومات ، بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه العلامات لتحديد خيارات متعددة.
+تحدد أعلام PenData خصائص أقلام الرسومات، بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه الأعلام لتحديد خيارات متعددة.
 
 ```csharp
 [Flags]
 public enum EmfPlusPenDataFlags
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| PenDataTransform | `1` | في حالة الضبط ، يجب تحديد مصفوفة تحويل 2x3 في حقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataStartCap | `2` | في حالة التعيين ، يجب تحديد نمط غطاء سطر البداية في حقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataEndCap | `4` | يشير إلى ما إذا كان يجب تحديد نمط حد أقصى لخط النهاية في حقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataJoin | `8` | يشير إلى ما إذا كان يجب تحديد نوع ربط السطر في الحقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataMiterLimit | `10` | يشير إلى ما إذا كان يجب تحديد حد متري في حقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataLineStyle | `20` | يشير إلى ما إذا كان يجب تحديد نمط الخط في الحقل OptionalData لملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataDashedLineCap | `40` | يشير إلى ما إذا كان يجب تحديد سقف سطر متقطع في حقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataDashedLineOffset | `80` | يشير إلى ما إذا كان يجب تحديد إزاحة سطر متقطع في حقل OptionalData بملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataDashedLine | `100` | يشير إلى ما إذا كان ملف[`EmfPlusDashedLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata) يجب تحديد الكائن في حقل OptionalData بملحق[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataNonCenter | `200` | يشير إلى ما إذا كان يجب تحديد محاذاة القلم في الحقل OptionalData لملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataCompoundLine | `400` | يشير إلى ما إذا كان طول ومحتوى ملف[`EmfPlusCompoundLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata)الكائن موجود في حقل OptionalData من ملف[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataCustomStartCap | `800` | يشير إلى ما إذا كان ملف[`EmfPlusCustomStartCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata) يجب تحديد الكائن في حقل OptionalData بملحق[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
-| PenDataCustomEndCap | `1000` | يشير إلى ما إذا كان ملف[`EmfPlusCustomEndCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata) يجب تحديد الكائن في حقل OptionalData بملحق[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) الكائن . |
+| PenDataTransform | `1` | إذا تم تعيينه، يجب تحديد مصفوفة تحويل 2x3 في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataStartCap | `2` | إذا تم تعيينه، يجب تحديد نمط قبعة الخط الابتدائية في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataEndCap | `4` | يشير إلى ما إذا كان يجب تحديد نمط قبعة الخط النهائية في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataJoin | `8` | يشير إلى ما إذا كان يجب تحديد نوع وصل الخط في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataMiterLimit | `10` | يشير إلى ما إذا كان يجب تحديد حد الميتر في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataLineStyle | `20` | يشير إلى ما إذا كان يجب تحديد نمط الخط في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataDashedLineCap | `40` | يشير إلى ما إذا كان يجب تحديد قبعة الخط المتقطعة في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataDashedLineOffset | `80` | يشير إلى ما إذا كان يجب تحديد إزاحة الخط المتقطع في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/). |
+| PenDataDashedLine | `100` | يشير إلى ما إذا كان يجب تحديد كائن [`EmfPlusDashedLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/) في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
+| PenDataNonCenter | `200` | يشير إلى ما إذا كان يجب تحديد محاذاة القلم في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
+| PenDataCompoundLine | `400` | يشير إلى ما إذا كان طول ومحتوى كائن [`EmfPlusCompoundLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/) موجودين في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
+| PenDataCustomStartCap | `800` | يشير إلى ما إذا كان يجب تحديد كائن [`EmfPlusCustomStartCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/) في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
+| PenDataCustomEndCap | `1000` | يشير إلى ما إذا كان يجب تحديد كائن [`EmfPlusCustomEndCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/) في حقل OptionalData لكائن [`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
 
-### ملاحظات
+## ملاحظات
 
-يتم تحديد أقلام الرسومات بواسطة[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) الكائنات .
+يتم تحديد أقلام الرسومات بواسطة كائنات [`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/) objects.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts](../../aspose.imaging.fileformats.emf.emfplus.consts/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

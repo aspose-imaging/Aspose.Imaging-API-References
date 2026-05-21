@@ -1,123 +1,123 @@
 ---
-title: TiffTags
-second_title: Aspose.Imaging لمرجع NET API
-description: تعداد علامة tiff .
+title: "تعداد TiffTags"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Tiff.Enums.TiffTags enum. تعداد وسوم tiff"
 type: docs
-weight: 7740
+weight: 7850
 url: /ar/net/aspose.imaging.fileformats.tiff.enums/tifftags/
 ---
 ## TiffTags enumeration
 
-تعداد علامة tiff .
+تعداد وسم tiff.
 
 ```csharp
 public enum TiffTags
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| SubFileType | `254` | واصف بيانات الملف الفرعي . |
-| OsubfileType | `255` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] نوع البيانات في الملف الفرعي. |
-| ImageWidth | `256` | عرض الصورة بالبكسل . |
-| ImageLength | `257` | ارتفاع الصورة بالبكسل . |
-| BitsPerSample | `258` | بت لكل قناة (عينة) . |
-| Compression | `259` | تقنية ضغط البيانات . |
-| Photometric | `262` | تفسير ضوئي . |
-| Thresholding | `263` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] العتبة المستخدمة في البيانات. |
-| CellWidth | `264` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] عرض مصفوفة التردد . |
-| CellLength | `265` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] ارتفاع مصفوفة التردد . |
-| FillOrder | `266` | ترتيب البيانات داخل بايت . |
-| DocumentName | `269` | اسم المستند الذي يحمل الصورة . |
-| ImageDescription | `270` | معلومات حول الصورة . |
-| Make | `271` | اسم الشركة المصنعة للماسح الضوئي . |
-| Model | `272` | اسم / رقم طراز الماسح. |
-| StripOffsets | `273` | إزاحة لشرائط البيانات. |
-| Orientation | `274` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] اتجاه الصورة. |
-| SamplesPerPixel | `277` | عينات لكل بكسل . |
-| RowsPerStrip | `278` | صفوف لكل شريط بيانات . |
-| StripByteCounts | `279` | عدد البايت للشرائط . |
-| MinSampleValue | `280` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] أدنى قيمة للعينة . |
-| MaxSampleValue | `281` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] الحد الأقصى لقيمة العينة . |
-| Xresolution | `282` | بكسل / دقة x. |
-| Yresolution | `283` | بكسل / الدقة في y. |
-| PlanarConfig | `284` | منظمة التخزين . |
-| PageName | `285` | صورة اسم الصفحة من . |
-| Xposition | `286` | إزاحة صفحة X للصورة lhs. |
-| Yposition | `287` | إزاحة صفحة Y للصورة lhs. |
-| FreeOffsets | `288` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] إزاحة البايت للكتلة الحرة . |
-| FreeByteCounts | `289` | [عفا عليها الزمن بواسطة TIFF rev. 5.0] أحجام الكتل المجانية. |
-| GrayResponseUnit | `290` | [عفا عليها الزمن بواسطة TIFF rev. 6.0] دقة منحنى المقياس الرمادي. |
-| GrayResponseCurve | `291` | [عفا عليها الزمن بواسطة TIFF rev. 6.0] منحنى استجابة المقياس الرمادي. |
-| T4Options | `292` | TIFF 6.0 الاسم المستعار لمجموعة GROUP3OPTIONS. خيارات لتشفير الفاكس CCITT Group 3. 32 بت العلم. |
-| T6Options | `293` | خيارات لتشفير الفاكس CCITT Group 4. 32 بت علم . TIFF 6.0 الاسم المستعار للاسم لمجموعة GROUP4OPTIONS. |
-| ResolutionUnit | `296` | وحدات القرارات . |
-| PageNumber | `297` | أرقام الصفحات متعددة الصفحات. |
-| ColorResponseUnit | `300` | [عفا عليها الزمن بواسطة TIFF rev. 6.0] دقة منحنى اللون. |
-| TransferFunction | `301` | معلومات قياس الألوان . |
-| Software | `305` | الاسم والإصدار . |
-| DateTime | `306` | تاريخ الإنشاء ووقته . |
-| Artist | `315` | منشئ الصورة . |
-| HostComputer | `316` | الجهاز حيث تم إنشاؤه . |
-| Predictor | `317` | مخطط التنبؤ ث / LZW. |
-| WhitePoint | `318` | النقطة البيضاء للصورة . |
-| PrimaryChromaticities | `319` | اللونية الأولية . |
-| ColorMap | `320` | خريطة RGB لصورة لوحة. |
-| HalftoneHints | `321` | تسليط الضوء + معلومات الظل . |
-| TileWidth | `322` | عرض البلاط بالبكسل . |
-| TileLength | `323` | ارتفاع البلاط بالبكسل . |
-| TileOffsets | `324` | إزاحة لمربعات البيانات . |
-| TileByteCounts | `325` | عدد البايت للبلاط . |
-| BadFaxLines | `326` | الخطوط ذات عدد وحدات البكسل الخطأ . |
-| CleanFaxData | `327` | معلومات الخط المعاد إنشاؤه . |
-| ConsecutiveBadFaxLines | `328` | الحد الأقصى للخطوط السيئة المتتالية . |
-| SubIfd | `330` | واصفات الصورة الفرعية . |
-| InkSet | `332` | أحبار في صورة منفصلة. |
-| InkNames | `333` | أسماء أحبار ASCII . |
-| NumberOfInks | `334` | عدد الأحبار . |
-| DotRange | `336` | 0٪ و 100٪ رموز نقطية . |
-| TargetPrinter | `337` | هدف الفصل . |
-| ExtraSamples | `338` | معلومات حول العينات الإضافية . |
-| SampleFormat | `339` | تنسيق نموذج البيانات . |
-| SminSampleValue | `340` | قيمة MinSampleVari المتغيرة. |
-| SmaxSampleValue | `341` | الحد الأقصى لقيمة المتغير. |
-| TransferRange | `342` | نطاق النقل المتغير |
-| ClipPath | `343` | ClipPath. تم تقديم المنشور TIFF rev 6.0 بواسطة Adobe TIFF technote 2. |
-| Xclippathunits | `344` | وحدات XClipPath. تم تقديم المنشور TIFF rev 6.0 بواسطة Adobe TIFF technote 2. |
-| Yclippathunits | `345` | وحدات YClipPath. تم تقديم المنشور TIFF rev 6.0 بواسطة Adobe TIFF technote 2. |
-| Indexed | `346` | مفهرسة. المنشور المقدم TIFF rev 6.0 بواسطة Adobe TIFF Technote 3. |
-| JpegTables | `347` | جدول تيار JPEG. المقدمة بعد TIFF rev 6.0. |
-| OpiProxy | `351` | وكيل OPI. تم تقديم المنشور TIFF rev 6.0 بواسطة Adobe TIFF technote . |
-| JpegProc | `512` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] خوارزمية معالجة JPEG . |
-| JpegInerchangeFormat | `513` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] المؤشر إلى علامة SOI . |
-| JpegInterchangeFormatLength | `514` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] طول دفق JFIF |
-| JpegRestartInterval | `515` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] طول الفاصل الزمني لإعادة التشغيل . |
-| JpegLosslessPredictors | `517` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] توقع proc بدون فقد . |
-| JpegPointTransform | `518` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] تحويل النقطة بلا خسارة . |
-| JpegQTables | `519` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] تعويضات Q matrice . |
-| JpegDCtables | `520` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] إزاحة جدول DCT . |
-| JpegACtables | `521` | [عفا عليه الزمن بواسطة الملاحظة الفنية رقم 2 التي تحدد مخطط JPEG-in-TIFF المنقح] تعويضات معامل التيار المتردد . |
-| YcbcrCoefficients | `529` | RGB -&gt; تحويل YCbCr . |
-| YcbcrSubSampling | `530` | عوامل أخذ العينات الفرعية من YCbCr. |
-| YcbcrPositioning | `531` | تحديد المواقع للعينة الفرعية . |
-| ReferenceBlackWhite | `532` | معلومات قياس الألوان . |
-| XmlPacket | `700` | حزمة XML. المنشور المقدم TIFF rev 6.0 بواسطة Adobe XMP Specification ، يناير 2004. |
-| OpiImageid | `32781` | OPI ImageID. تم تقديم المنشور TIFF rev 6.0 بواسطة Adobe TIFF technote . |
-| Refpts | `32953` | النقاط المرجعية للصورة. علامة خاصة مسجلة في Island Graphics . |
-| Copyright | `33432` | سلسلة حقوق النشر. تم سرد هذه العلامة في TIFF rev. 6.0 مع ملكية غير معروفة. |
-| PhotoshopResources | `34377` | موارد صور Photoshop . |
-| IccProfile | `34675` | ملف تعريف جهاز ICC المضمن |
-| ExifIfdPointer | `34665` | مؤشر إلى Exif IFD . |
-| XPTitle | `40091` | معلومات حول الصورة ، يستخدمها مستكشف Windows . ملفXPTitle يتم تجاهله بواسطة مستكشف Windows إذا كان ملفImageDescription العلامة موجودة . |
-| XPComment | `40092` | تعليق على الصورة ، مستخدم بواسطة مستكشف Windows . |
-| XPAuthor | `40093` | مؤلف الصورة ، المستخدم بواسطة مستكشف Windows . ملفXPAuthor يتم تجاهله بواسطة مستكشف Windows إذا كان ملفArtist العلامة موجودة . |
-| XPKeywords | `40094` | الكلمات الأساسية للصورة ، المستخدمة بواسطة مستكشف Windows . |
-| XPSubject | `40095` | صورة الموضوع ، مستخدمة بواسطة مستكشف Windows . |
+| SubFileType | `254` | وصف بيانات الملف الفرعي. |
+| OsubfileType | `255` | [تم إهماله بواسطة TIFF rev. 5.0] نوع البيانات في الملف الفرعي. |
+| ImageWidth | `256` | عرض الصورة بالبكسل. |
+| ImageLength | `257` | ارتفاع الصورة بالبكسل. |
+| BitsPerSample | `258` | بتات لكل قناة (عينة). |
+| Compression | `259` | تقنية ضغط البيانات. |
+| Photometric | `262` | تفسير فوتومتري. |
+| Thresholding | `263` | [تم إهماله بواسطة TIFF rev. 5.0] العتبة المستخدمة على البيانات. |
+| CellWidth | `264` | [تم إهماله بواسطة TIFF rev. 5.0] عرض مصفوفة التمويه. |
+| CellLength | `265` | [تم إهماله بواسطة TIFF rev. 5.0] ارتفاع مصفوفة التمويه. |
+| FillOrder | `266` | ترتيب البيانات داخل بايت. |
+| DocumentName | `269` | اسم المستند الذي يحمل الصورة. |
+| ImageDescription | `270` | معلومات عن الصورة. |
+| Make | `271` | اسم شركة صانع الماسح الضوئي. |
+| Model | `272` | اسم/رقم طراز الماسح الضوئي. |
+| StripOffsets | `273` | إزاحات إلى شرائط البيانات. |
+| Orientation | `274` | [تم إهماله بواسطة TIFF rev. 5.0] اتجاه الصورة. |
+| SamplesPerPixel | `277` | عينات لكل بكسل. |
+| RowsPerStrip | `278` | صفوف لكل شريط من البيانات. |
+| StripByteCounts | `279` | عدد البايتات للشرائط. |
+| MinSampleValue | `280` | [تم إهماله بواسطة TIFF rev. 5.0] الحد الأدنى لقيمة العينة. |
+| MaxSampleValue | `281` | [تم إهماله بواسطة TIFF rev. 5.0] الحد الأقصى لقيمة العينة. |
+| Xresolution | `282` | بكسلات/دقة في x. |
+| Yresolution | `283` | البكسلات/الدقة في y. |
+| PlanarConfig | `284` | تنظيم التخزين. |
+| PageName | `285` | اسم الصفحة التي يأتي منها الصورة. |
+| Xposition | `286` | إزاحة الصفحة X للصورة على اليسار. |
+| Yposition | `287` | إزاحة الصفحة Y للصورة على اليسار. |
+| FreeOffsets | `288` | [obsoleted by TIFF rev. 5.0] إزاحة البايت إلى الكتلة الحرة. |
+| FreeByteCounts | `289` | [obsoleted by TIFF rev. 5.0] أحجام الكتل الحرة. |
+| GrayResponseUnit | `290` | [obsoleted by TIFF rev. 6.0] دقة منحنى التدرج الرمادي. |
+| GrayResponseCurve | `291` | [obsoleted by TIFF rev. 6.0] منحنى استجابة التدرج الرمادي. |
+| T4Options | `292` | TIFF 6.0 الاسم المناسب المستعار لـ GROUP3OPTIONS. خيارات ترميز الفاكس CCITT Group 3. 32 بت علم. |
+| T6Options | `293` | خيارات ترميز الفاكس CCITT Group 4. 32 بت علم. TIFF 6.0 الاسم المناسب المستعار لـ GROUP4OPTIONS. |
+| ResolutionUnit | `296` | وحدات الدقة. |
+| PageNumber | `297` | أرقام الصفحات في المستند متعدد الصفحات. |
+| ColorResponseUnit | `300` | [obsoleted by TIFF rev. 6.0] دقة منحنى اللون. |
+| TransferFunction | `301` | معلومات قياس الألوان. |
+| Software | `305` | الاسم والإصدار. |
+| DateTime | `306` | تاريخ ووقت الإنشاء. |
+| Artist | `315` | منشئ الصورة. |
+| HostComputer | `316` | الجهاز الذي تم الإنشاء عليه. |
+| Predictor | `317` | نظام التنبؤ باستخدام LZW. |
+| WhitePoint | `318` | نقطة بيضاء الصورة. |
+| PrimaryChromaticities | `319` | الألوان الأولية. |
+| ColorMap | `320` | خريطة RGB لصورة اللوحة. |
+| HalftoneHints | `321` | معلومات الإبراز والظل. |
+| TileWidth | `322` | عرض البلاط بالبكسل. |
+| TileLength | `323` | ارتفاع البلاطة بالبكسل. |
+| TileOffsets | `324` | الإزاحات إلى بلاطات البيانات. |
+| TileByteCounts | `325` | عدد البايتات للبلاطات. |
+| BadFaxLines | `326` | السطور ذات عدد بكسلات غير صحيح. |
+| CleanFaxData | `327` | معلومات السطر المعاد توليده. |
+| ConsecutiveBadFaxLines | `328` | الحد الأقصى للسطور السيئة المتتالية. |
+| SubIfd | `330` | واصفات الصورة الفرعية. |
+| InkSet | `332` | الأحبار في الصورة المفصولة. |
+| InkNames | `333` | أسماء الأحبار بنظام ASCII. |
+| NumberOfInks | `334` | عدد الأحبار. |
+| DotRange | `336` | رموز النقاط 0% و 100%. |
+| TargetPrinter | `337` | هدف الفصل. |
+| ExtraSamples | `338` | معلومات حول العينات الإضافية. |
+| SampleFormat | `339` | تنسيق عينة البيانات. |
+| SminSampleValue | `340` | المتغير MinSampleValue. |
+| SmaxSampleValue | `341` | المتغير MaxSampleValue. |
+| TransferRange | `342` | المتغير TransferRange |
+| ClipPath | `343` | ClipPath. تم تقديمه بعد إصدار TIFF 6.0 بواسطة ملاحظة تقنية Adobe TIFF رقم 2. |
+| Xclippathunits | `344` | XClipPathUnits. تم تقديمه بعد إصدار TIFF 6.0 بواسطة ملاحظة تقنية Adobe TIFF رقم 2. |
+| Yclippathunits | `345` | YClipPathUnits. تم تقديمه بعد إصدار TIFF 6.0 بواسطة ملاحظة تقنية Adobe TIFF رقم 2. |
+| Indexed | `346` | Indexed. تم تقديمه بعد إصدار TIFF 6.0 بواسطة ملاحظة تقنية Adobe TIFF رقم 3. |
+| JpegTables | `347` | دفق جدول JPEG. تم تقديمه بعد إصدار TIFF 6.0. |
+| OpiProxy | `351` | OPI Proxy. تم تقديمه بعد إصدار TIFF 6.0 بواسطة ملاحظة تقنية Adobe TIFF. |
+| JpegProc | `512` | [تم إهماله بملاحظة تقنية #2 التي تحدد مخطط JPEG في TIFF المعدل] خوارزمية معالجة JPEG. |
+| JpegInerchangeFormat | `513` | [تم إهماله بملاحظة تقنية #2 التي تحدد مخطط JPEG في TIFF المعدل] مؤشر إلى علامة SOI. |
+| JpegInterchangeFormatLength | `514` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] طول تدفق JFIF |
+| JpegRestartInterval | `515` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] طول فترة إعادة التشغيل. |
+| JpegLosslessPredictors | `517` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] متنبئ proc غير مضغوط. |
+| JpegPointTransform | `518` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] تحويل نقطة غير مضغوط. |
+| JpegQTables | `519` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] إزاحات مصفوفة Q. |
+| JpegDCtables | `520` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] إزاحات جدول DCT. |
+| JpegACtables | `521` | [تم إهماله بواسطة الملاحظة التقنية #2 التي تحدد مخطط JPEG-in-TIFF المعدل] إزاحات معامل AC. |
+| YcbcrCoefficients | `529` | تحويل RGB -&gt; YCbCr. |
+| YcbcrSubSampling | `530` | عوامل أخذ العينات الفرعية YCbCr. |
+| YcbcrPositioning | `531` | موضع العينة الفرعية. |
+| ReferenceBlackWhite | `532` | معلومات قياس الألوان. |
+| XmlPacket | `700` | حزمة XML. تم تقديمها بعد TIFF الإصدار 6.0 بواسطة مواصفة Adobe XMP، يناير 2004. |
+| OpiImageid | `32781` | معرف OPI ImageID. تم تقديمه بعد TIFF الإصدار 6.0 بواسطة ملاحظة تقنية Adobe TIFF. |
+| Refpts | `32953` | نقاط مرجعية الصورة. علامة خاصة مسجلة لدى Island Graphics. |
+| Copyright | `33432` | سلسلة حقوق النشر. هذه العلامة مدرجة في TIFF الإصدار 6.0 مع ملكية غير معروفة. |
+| PhotoshopResources | `34377` | موارد صورة Photoshop. |
+| IccProfile | `34675` | ملف تعريف الجهاز المدمج ICC |
+| ExifIfdPointer | `34665` | مؤشر إلى Exif IFD. |
+| XPTitle | `40091` | معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. يتم تجاهل XPTitle من قبل Windows Explorer إذا كانت علامة ImageDescription موجودة. |
+| XPComment | `40092` | تعليق على الصورة، يُستخدم بواسطة Windows Explorer. |
+| XPAuthor | `40093` | مؤلف الصورة، يُستخدم بواسطة Windows Explorer. يتم تجاهل XPAuthor من قبل Windows Explorer إذا كانت علامة Artist موجودة. |
+| XPKeywords | `40094` | كلمات مفتاحية للصورة، تُستخدم بواسطة Windows Explorer. |
+| XPSubject | `40095` | صورة الموضوع، تُستخدم بواسطة Windows Explorer. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff.Enums](../../aspose.imaging.fileformats.tiff.enums)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.Enums](../../aspose.imaging.fileformats.tiff.enums/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,26 +1,26 @@
 ---
-title: Compression
-second_title: Aspose.Imaging لمرجع NET API
-description: الحصول على الضغط أو تعيينه .
+title: "TiffOptions.Compression"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "خاصية TiffOptions. تحصل أو تعيين الضغط"
 type: docs
 weight: 90
 url: /ar/net/aspose.imaging.imageoptions/tiffoptions/compression/
 ---
 ## TiffOptions.Compression property
 
-الحصول على الضغط أو تعيينه .
+الحصول أو تعيين الضغط.
 
 ```csharp
 public TiffCompressions Compression { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-الضغط .
+الضغط.
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية إنشاء صورة TIFF من البداية وحفظها في ملف.
+يوضح هذا المثال كيفية إنشاء صورة TIFF من الصفر وحفظها إلى ملف.
 
 ```csharp
 [C#]
@@ -29,27 +29,27 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.TiffOptions createOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
     
-// اضبط 8 بت لكل مكون من مكونات اللون.
+// حدد 8 بتات لكل مكوّن لوني.
 createOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-// تعيين ترتيب بايت Endian الكبير (Motorola)
+// حدد ترتيب البايت Big Endian (Motorola)
 createOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
-// اضبط ضغط LZW.
+// حدد ضغط LZW.
 createOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
-// اضبط نموذج ألوان RGB.
+// حدد نموذج اللون RGB.
 createOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-// سيتم تخزين جميع مكونات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 createOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-// قم بإنشاء إطار TIFF بحجم 100 × 100 بكسل.
-// لاحظ أنه لا يتعين عليك التخلص من إطار بشكل صريح إذا تم تضمينه في TiffImage.
-// عندما يتم التخلص من الحاوية ، سيتم التخلص من جميع الإطارات تلقائيًا.
+// إنشاء إطار TIFF بحجم 100x100 بكسل.
+// لاحظ أنك لست مضطرًا لتفريغ الإطار صراحةً إذا تم تضمينه في TiffImage.
+// عند تفريغ الحاوية سيتم تفريغ جميع الإطارات تلقائيًا.
 Aspose.Imaging.FileFormats.Tiff.TiffFrame firstFrame = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions, 100, 100);
     
-// املأ الإطار بالكامل بالتدرج اللوني الأزرق والأصفر.
+// املأ الإطار بالكامل بالتدرج الأزرق-الأصفر.
 Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
         new Aspose.Imaging.Point(0, 0),
         new Aspose.Imaging.Point(firstFrame.Width, firstFrame.Height),
@@ -66,7 +66,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 }
 ```
 
-يوضح هذا المثال كيفية حفظ صورة نقطية بتنسيق TIFF باستخدام خيارات متنوعة.
+يوضح هذا المثال كيفية حفظ صورة نقطية إلى تنسيق TIFF باستخدام خيارات مختلفة.
 
 ```csharp
 [C#]
@@ -75,38 +75,38 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.TiffOptions saveOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-// اضبط 8 بت لكل مكون من مكونات اللون.
+// حدد 8 بتات لكل مكوّن لوني.
 saveOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-// تعيين ترتيب بايت Endian الكبير (Motorola)
+// حدد ترتيب البايت Big Endian (Motorola)
 saveOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
-// اضبط ضغط LZW.
+// حدد ضغط LZW.
 saveOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
-// السماح بتقليل حجم الصور ذات الدرجة اللونية المستمرة.
-// حاليًا يُستخدم هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون مخطط ترميز TIFF الوحيد
-// التي تستفيد بشكل كبير من خطوة التنبؤ.
+// يسمح بتقليل حجم الصور ذات النغمات المستمرة.
+// حاليًا يتم استخدام هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لتنسيق TIFF
+// الذي يستفيد بشكل كبير من خطوة التنبؤ.
 saveOptions.Predictor = Imaging.FileFormats.Tiff.Enums.TiffPredictor.Horizontal;
 
-// اضبط نموذج ألوان RGB.
+// حدد نموذج اللون RGB.
 saveOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-// بالنسبة إلى YCbCr ، يمكنك استخدام أحد الخيارات التالية:
-// YCbCrSubSubSampling Field عوامل أخذ عينات JPEG
+// بالنسبة إلى YCbCr، يمكنك استخدام أحد الخيارات التالية:
+// حقل YCbCrSubSampling   عوامل أخذ عينات JPEG
 // ----------------------------------------------
-// 1،1 1x1، 1x1، 1x1
-// 2،1 2x1، 1x1، 1x1
-// 2،2 (القيمة الافتراضية) 2x2، 1x1، 1x1
-// saveOptions.YCbCrSubsampling = new ushort [] {2، 2};
+// 1,1                      1x1, 1x1, 1x1
+// 2,1                      2x1, 1x1, 1x1
+// 2,2(default value)       2x2, 1x1, 1x1
+// saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
 // سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 saveOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-// قم بإنشاء إطار TIFF بحجم 100 × 100 بكسل.
+// إنشاء إطار TIFF بحجم 100x100 بكسل.
 using (Aspose.Imaging.Image image = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-    // املأ الصورة بأكملها بالتدرج اللوني الأزرق والأصفر.
+    // املأ الصورة بالكامل بالتدرج الأزرق-الأصفر.
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
             new Aspose.Imaging.Point(image.Width, image.Height),
@@ -120,7 +120,7 @@ using (Aspose.Imaging.Image image = new Aspose.Imaging.FileFormats.Bmp.BmpImage(
 }
 ```
 
-يوضح هذا المثال كيفية إنشاء صورة TIFF بإطارين وحفظها في ملف.
+يوضح هذا المثال كيفية إنشاء صورة TIFF باثنين من الإطارات وحفظها إلى ملف.
 
 ```csharp
 [C#]
@@ -130,27 +130,27 @@ string dir = "c:\\temp\\";
 // خيارات الإطار الأول
 Aspose.Imaging.ImageOptions.TiffOptions createOptions1 = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-// اضبط 8 بت لكل مكون من مكونات اللون.
+// حدد 8 بتات لكل مكوّن لوني.
 createOptions1.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-// تعيين ترتيب بايت Endian الكبير (Motorola)
+// حدد ترتيب البايت Big Endian (Motorola)
 createOptions1.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
-// اضبط ضغط LZW.
+// حدد ضغط LZW.
 createOptions1.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
-// اضبط نموذج ألوان RGB.
+// حدد نموذج اللون RGB.
 createOptions1.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-// سيتم تخزين جميع مكونات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 createOptions1.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-// أنشئ أول إطار TIFF بحجم 100x100 بكسل.
-// لاحظ أنه لا يتعين عليك التخلص من الإطارات بشكل صريح إذا تم تضمينها في TiffImage.
-// عندما يتم التخلص من الحاوية ، سيتم التخلص من جميع الإطارات تلقائيًا.
+// إنشاء الإطار الأول من TIFF بحجم 100×100 بكسل.
+// لاحظ أنه لا يلزمك التخلص من الإطارات صراحةً إذا تم تضمينها في TiffImage.
+// عند تفريغ الحاوية سيتم تفريغ جميع الإطارات تلقائيًا.
 Aspose.Imaging.FileFormats.Tiff.TiffFrame frame1 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions1, 100, 100);
 
-// املأ الإطار الأول بالتدرج اللوني الأزرق والأصفر.
+// ملء الإطار الأول بتدرج اللون الأزرق-الأصفر.
 Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
         new Aspose.Imaging.Point(0, 0),
         new Aspose.Imaging.Point(frame1.Width, frame1.Height),
@@ -163,23 +163,23 @@ graphics.FillRectangle(gradientBrush, frame1.Bounds);
 // خيارات الإطار الأول
 Aspose.Imaging.ImageOptions.TiffOptions createOptions2 = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-// ضبط 1 بت لكل بكسل لصورة B / W.
+// تعيين 1 بت لكل بكسل لصورة بالأبيض والأسود.
 createOptions2.BitsPerSample = new ushort[] { 1 };
 
-// تعيين ترتيب بايت Little Endian (Intel)
+// تعيين ترتيب البايت Little Endian (Intel)
 createOptions2.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.LittleEndian;
 
 // تعيين ضغط الفاكس CCITT Group 3.
 createOptions2.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.CcittFax3;
 
-// اضبط نموذج اللون B / W حيث يكون 0 أسود و 1 أبيض.
+// تعيين نموذج ألوان الأبيض والأسود حيث 0 هو الأسود، 1 هو الأبيض.
 createOptions2.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
 
-// أنشئ إطار TIFF الثاني بحجم 200 × 200 بكسل.
+// إنشاء الإطار الثاني من TIFF بحجم 200×200 بكسل.
 Aspose.Imaging.FileFormats.Tiff.TiffFrame frame2 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions2, 200, 200);
 
-// املأ الإطار الثاني بالتدرج اللوني الأزرق والأصفر.
-// سيتم تحويله تلقائيًا إلى تنسيق B / W بسبب الإعدادات المقابلة للإطار.
+// ملء الإطار الثاني بتدرج اللون الأزرق-الأصفر.
+// سيتم تحويله تلقائيًا إلى تنسيق الأبيض والأسود بسبب الإعدادات المقابلة للإطار.
 Aspose.Imaging.Graphics graphics2 = new Aspose.Imaging.Graphics(frame2);
 graphics2.FillRectangle(gradientBrush, frame2.Bounds);
 
@@ -191,11 +191,11 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [TiffCompressions](../../../aspose.imaging.fileformats.tiff.enums/tiffcompressions)
-* class [TiffOptions](../../tiffoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../tiffoptions)
-* المجسم [Aspose.Imaging](../../../)
+* enum [TiffCompressions](../../../aspose.imaging.fileformats.tiff.enums/tiffcompressions/)
+* class [TiffOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../tiffoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

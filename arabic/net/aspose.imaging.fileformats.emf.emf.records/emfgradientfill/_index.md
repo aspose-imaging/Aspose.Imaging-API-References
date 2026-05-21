@@ -1,45 +1,45 @@
 ---
-title: EmfGradientFill
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EMR_GRADIENTFILL تعبئة المستطيلات أو المثلثات بتدرجات اللون.
+title: "الفئة EmfGradientFill"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfGradientFill. سجل EMR_GRADIENTFILL يحدد تعبئة المستطيلات أو المثلثات بتدرجات اللون."
 type: docs
-weight: 3760
+weight: 3860
 url: /ar/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 ---
 ## EmfGradientFill class
 
-يحدد سجل EMR_GRADIENTFILL تعبئة المستطيلات أو المثلثات بتدرجات اللون.
+سجل EMR_GRADIENTFILL يحدد ملء المستطيلات أو المثلثات بتدرجات اللون.
 
 ```csharp
 public sealed class EmfGradientFill : EmfDrawingRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfGradientFill](emfgradientfill)(EmfRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfGradientFill`](../emfgradientfill) فئة . |
+| [EmfGradientFill](emfgradientfill/)(EmfRecord) | ينشئ مثيلًا جديدًا من الفئة `EmfGradientFill`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds) { get; set; } | الحصول على أو تعيين كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيل إحاطة ، في وحدات جهاز شاملة. |
-| [NTri](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ntri) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد المستطيلات أو المثلثات المراد تعبئتها . |
-| [NVer](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/nver) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد الرؤوس. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | الحصول على أو تحديد حجم السجل |
-| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | الحصول على النوع أو تحديده. |
-| [UlMode](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد وضع تعبئة التدرج. يجب أن تكون القيمة في تعداد GradientFill (القسم 2.1.15) . |
-| [VertexData](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata) { get; set; } | الحصول على أو تعيين الكائنات التي تحدد رؤوس المستطيلات أو المثلثات و الألوان التي تتوافق معها. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds/) { get; set; } | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيلًا محيطًا، بوحدات جهاز شاملة-شاملة. |
+| [NTri](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ntri/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد المستطيلات أو المثلثات التي سيتم تعبئتها. |
+| [NVer](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/nver/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد الرؤوس. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | يحصل أو يعيّن حجم السجل |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | يحصل أو يعيّن النوع. |
+| [UlMode](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد وضع تعبئة التدرج. يجب أن تكون القيمة ضمن تعداد GradientFill (القسم 2.1.15). |
+| [VertexData](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata/) { get; set; } | يحصل أو يعيّن كائنات تحدد رؤوس المستطيلات أو المثلثات والألوان المقابلة لها. |
 
-### ملاحظات
+## ملاحظات
 
-سجل EMR_GRADIENTFILL الذي يحدد أن الرؤوس الثلاثة للمثلث يجب أن تملأ الشكل بتدرجات ألوان متجانسة. الشكل مع تدرجات اللون على نحو سلس. هناك وضعان للتعبئة بالتدرج في تعداد GradientFill الذي يمكن استخدامه عند رسم مستطيل. في وضع GRADIENT_FILL_RECT_H ، يتم تعبئة المستطيل من اليسار إلى اليمين. في وضع GRADIENT_FILL_RECT_V ، يتم تعبئة المستطيل من أعلى إلى أسفل. ملاحظة يجب أن يتجاهل سجل EMR_GRADIENTFILL حقول Alpha في كائنات TriVertex. يمكن استخدام سجل EMR_ALPHABLEND (القسم 2.3.1.1) الذي يتبع مباشرةً سجل EMR_GRADIENTFILL لتطبيق تدرج شفافية ألفا على المنطقة المعبأة.
+سجل EMR_GRADIENTFILL يحدد أن رؤوس المثلث الثلاثة يجب أن تعبئ الشكل بتدرجات لونية ناعمة.[85] سجل EMR_GRADIENTFILL يحدد أن رؤوس المستطيل العلوية اليسرى والسفلية اليمنى يجب أن تعبئ الشكل بتدرجات لونية ناعمة. هناك وضعا تعبئة تدرج في تعداد GradientFill يمكن استخدامها عند رسم مستطيل. في وضع GRADIENT_FILL_RECT_H، يُملأ المستطيل من اليسار إلى اليمين. في وضع GRADIENT_FILL_RECT_V، يُملأ المستطيل من الأعلى إلى الأسفل. ملاحظة: يجب أن يتجاهل سجل EMR_GRADIENTFILL حقول Alpha في كائنات TriVertex. يمكن استخدام سجل EMR_ALPHABLEND (القسم 2.3.1.1) الذي يتبع مباشرة سجل EMR_GRADIENTFILL لتطبيق تدرج شفافية ألفا على المنطقة المملوءة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfDrawingRecordType](../emfdrawingrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfDrawingRecordType](../emfdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,28 +1,28 @@
 ---
-title: DrawLine
-second_title: Aspose.Imaging لمرجع NET API
-description: يرسم الخط .
+title: "MetafileRecorderGraphics2D.DrawLine"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة MetafileRecorderGraphics2D. ترسم الخط"
 type: docs
 weight: 90
 url: /ar/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawline/
 ---
 ## DrawLine(Pen, int, int, int, int) {#drawline_1}
 
-يرسم الخط .
+يرسم الخط.
 
 ```csharp
 public void DrawLine(Pen pen, int x1, int y1, int x2, int y2)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pen | Pen | قلم يحدد لون الشكل وعرضه ونمطه. |
-| x1 | Int32 | إحداثي x للنقطة الأولى. |
-| y1 | Int32 | إحداثي ص للنقطة الأولى. |
-| x2 | Int32 | إحداثي x للنقطة الثانية. |
-| y2 | Int32 | إحداثي ص للنقطة الثانية. |
+| قلم | قلم | قلم يحدد اللون والعرض والنمط للشكل. |
+| x1 | Int32 | الإحداثي السيني للنقطة الأولى. |
+| y1 | Int32 | الإحداثي الصادي للنقطة الأولى. |
+| x2 | Int32 | الإحداثي السيني للنقطة الثانية. |
+| y2 | Int32 | الإحداثي الصادي للنقطة الثانية. |
 
-### أمثلة
+## أمثلة
 
 يوضح هذا المثال كيفية إنشاء صورة WMF ورسم بعض الأشكال الهندسية باستخدام WmfRecorderGraphics2D.
 
@@ -39,27 +39,27 @@ int dpi = 96;
 
 Aspose.Imaging.Rectangle frame = new Aspose.Imaging.Rectangle(0, 0, imageWidth, imageHeight);
 
-// قم بإنشاء صورة WMF.
+// إنشاء صورة WMF.
 Aspose.Imaging.FileFormats.Wmf.Graphics.WmfRecorderGraphics2D graphics =
     new Aspose.Imaging.FileFormats.Wmf.Graphics.WmfRecorderGraphics2D(frame, dpi);
 
-// ارسم مستطيلًا أسود على طول حدود الصورة باستخدام قلم أسود بعرض 1 بكسل.
+// ارسم مستطيلًا أسود على حدود الصورة باستخدام قلم أسود بعرض بكسل واحد.
 graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 1), 0, 0, imageWidth, imageHeight);
 
-// املأ مستطيلاً بلون الدخان الأبيض.
+// املأ مستطيلًا بلون الدخان الأبيض.
 graphics.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.WhiteSmoke), new Aspose.Imaging.Rectangle(10, 10, 580, 380));
 
-// ارسم خطين قطريين باستخدام قلم أخضر غامق بعرض 1 بكسل.
+// ارسم خطين قطريين باستخدام قلم أخضر داكن بعرض بكسل واحد.
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, 0, imageWidth, imageHeight);
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, imageHeight, imageWidth, 0);
 
-// ارسم قوسًا داخل المستطيل {0 ، 0 ، 200 ، 200} باستخدام قلم أزرق بعرض 2 بكسل.
+// ارسم قوسًا داخل المستطيل {0, 0, 200, 200} باستخدام قلم أزرق بعرض بكسلين.
 graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
 // املأ قوسًا
 graphics.FillPie(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.LightSkyBlue), new Aspose.Imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// ارسم بيزيرًا مكعبًا باستخدام قلم أحمر بعرض 2 بكسل.
+// ارسم منحنى بيزير مكعب باستخدام قلم أحمر بعرض بكسلين.
 graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.Point(0, 0),
     new Aspose.Imaging.Point(200, 133),
@@ -67,7 +67,7 @@ graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.Point(600, 400));
 
 // ارسم صورة نقطية بالحجم المحدد في الموقع المحدد.
-// تم تحجيم الصورة لتناسب المستطيل المطلوب.
+// يتم تحجيم الصورة لتناسب المستطيل المطلوب.
 using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
     graphics.DrawImage(imageToDraw,
@@ -79,7 +79,7 @@ using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspo
 // ارسم سلسلة نصية
 graphics.DrawString("Hello World!", new Aspose.Imaging.Font("Arial", 48, Aspose.Imaging.FontStyle.Regular), Aspose.Imaging.Color.DarkRed, 200, 300);
 
-// إنشاء مسار لملء
+// إنشاء مسار للتعبئة
 Aspose.Imaging.Figure figureToFill = new Aspose.Imaging.Figure();
 figureToFill.IsClosed = true;
 
@@ -105,7 +105,7 @@ figureToFill.AddShapes(new Shape[]
         new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(0, 100, 200, 200)),
     });
 
-// املأ المسار باستخدام فرشاة صفراء وقلم أخضر لرسم مخطط تفصيلي
+// املأ المسار باستخدام فرشاة صفراء وقلم أخضر لرسم الحدود
 graphics.FillPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Yellow), pathToFill);
 
 // إنشاء مسار للرسم
@@ -121,12 +121,12 @@ figureToDraw.AddShapes(new Aspose.Imaging.Shape[]
 // ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسل.
 graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 5), pathToDraw);
 
-// من أجل تحويل SVG إلى صيغة نقطية ، نحتاج إلى تحديد خيارات التنقيط.
+// من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل النقطي.
 Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
 Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-// احصل على صورة WMF النهائية التي تتضمن جميع أوامر الرسم
+// احصل على صورة WMF النهائية التي تشمل جميع أوامر الرسم
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = graphics.EndRecording())
 {
     wmfImage.Save(dir + "test.output.wmf");
@@ -144,7 +144,7 @@ string dir = "c:\\temp\\";
 int deviceWidth = 600;
 int deviceHeight = 400;
 
-// حجم الصورة بالميليمتر
+// حجم الصورة بالمليمتر
 int deviceWidthMm = (int)(deviceWidth / 100f);
 int deviceHeightMm = (int)(deviceHeight / 100f);
 
@@ -157,23 +157,23 @@ Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D graphics =
         new Aspose.Imaging.Size(deviceWidth, deviceHeight),
         new Aspose.Imaging.Size(deviceWidthMm, deviceHeightMm));
 
-// ارسم مستطيلًا أسود على طول حدود الصورة باستخدام قلم أسود بعرض 1 بكسل.
+// ارسم مستطيلًا أسود على حدود الصورة باستخدام قلم أسود بعرض بكسل واحد.
 graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 1), 0, 0, deviceWidth, deviceHeight);
 
-// املأ مستطيلاً بلون الدخان الأبيض.
+// املأ مستطيلًا بلون الدخان الأبيض.
 graphics.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.WhiteSmoke), new Aspose.Imaging.Rectangle(10, 10, 580, 380));
 
-// ارسم خطين قطريين باستخدام قلم أخضر غامق بعرض 1 بكسل.
+// ارسم خطين قطريين باستخدام قلم أخضر داكن بعرض بكسل واحد.
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, 0, deviceWidth, deviceHeight);
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, deviceHeight, deviceWidth, 0);
 
-// ارسم قوسًا داخل المستطيل {0 ، 0 ، 200 ، 200} باستخدام قلم أزرق بعرض 2 بكسل.
+// ارسم قوسًا داخل المستطيل {0, 0, 200, 200} باستخدام قلم أزرق بعرض بكسلين.
 graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
 // املأ قوسًا
 graphics.FillPie(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.LightSkyBlue), new Aspose.Imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// ارسم بيزيرًا مكعبًا باستخدام قلم أحمر بعرض 2 بكسل.
+// ارسم منحنى بيزير مكعب باستخدام قلم أحمر بعرض بكسلين.
 graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.Point(0, 0),
     new Aspose.Imaging.Point(200, 133),
@@ -181,7 +181,7 @@ graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.Point(600, 400));
 
 // ارسم صورة نقطية بالحجم المحدد في الموقع المحدد.
-// تم تحجيم الصورة لتناسب المستطيل المطلوب.
+// يتم تحجيم الصورة لتناسب المستطيل المطلوب.
 using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
     graphics.DrawImage(imageToDraw,
@@ -193,7 +193,7 @@ using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspo
 // ارسم سلسلة نصية
 graphics.DrawString("Hello World!", new Aspose.Imaging.Font("Arial", 48, Aspose.Imaging.FontStyle.Regular), Aspose.Imaging.Color.DarkRed, 200, 300);
 
-// إنشاء مسار لملء
+// إنشاء مسار للتعبئة
 Aspose.Imaging.Figure figureToFill = new Aspose.Imaging.Figure();
 figureToFill.IsClosed = true;
 
@@ -219,7 +219,7 @@ figureToFill.AddShapes(new Shape[]
         new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(0, 100, 200, 200)),
     });
 
-// املأ المسار باستخدام فرشاة صفراء وقلم أخضر لرسم مخطط تفصيلي
+// املأ المسار باستخدام فرشاة صفراء وقلم أخضر لرسم الحدود
 graphics.FillPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Yellow), pathToFill);
 
 // إنشاء مسار للرسم
@@ -235,47 +235,47 @@ figureToDraw.AddShapes(new Aspose.Imaging.Shape[]
 // ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسل.
 graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 5), pathToDraw);
 
-// من أجل تحويل SVG إلى صيغة نقطية ، نحتاج إلى تحديد خيارات التنقيط.
+// من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل النقطي.
 Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
 Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-// احصل على صورة WMF النهائية التي تتضمن جميع أوامر الرسم
+// احصل على صورة WMF النهائية التي تشمل جميع أوامر الرسم
 using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = graphics.EndRecording())
 {
     emfImage.Save(dir + "test.output.emf");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../../aspose.imaging/pen)
-* class [MetafileRecorderGraphics2D](../../metafilerecordergraphics2d)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Graphics](../../metafilerecordergraphics2d)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../../aspose.imaging/pen/)
+* class [MetafileRecorderGraphics2D](../)
+* namespace [Aspose.Imaging.FileFormats.Emf.Graphics](../../metafilerecordergraphics2d/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DrawLine(Pen, Point, Point) {#drawline}
 
-يرسم الخط .
+يرسم الخط.
 
 ```csharp
 public void DrawLine(Pen pen, Point pt1, Point pt2)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pen | Pen | قلم يحدد لون الشكل وعرضه ونمطه. |
+| قلم | قلم | قلم يحدد اللون والعرض والنمط للشكل. |
 | pt1 | Point | النقطة الأولى. |
 | pt2 | Point | النقطة الثانية. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../../aspose.imaging/pen)
-* struct [Point](../../../aspose.imaging/point)
-* class [MetafileRecorderGraphics2D](../../metafilerecordergraphics2d)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Graphics](../../metafilerecordergraphics2d)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../../aspose.imaging/pen/)
+* struct [Point](../../../aspose.imaging/point/)
+* class [MetafileRecorderGraphics2D](../)
+* namespace [Aspose.Imaging.FileFormats.Emf.Graphics](../../metafilerecordergraphics2d/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

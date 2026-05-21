@@ -1,82 +1,132 @@
 ---
-title: ToCmykIcc
-second_title: Aspose.Imaging لمرجع NET API
-description: التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف المخصصة.
+title: "CmykColorHelper.ToCmykIcc"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "CmykColorHelper method. التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة"
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.imaging/cmykcolorhelper/tocmykicc/
 ---
-## ToCmykIcc(Color[], Stream, Stream) {#tocmykicc_3}
+## ToCmykIcc(Color[], Stream, Stream) {#tocmykicc_5}
 
-التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف المخصصة.
+التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة.
 
 ```csharp
 public static int[] ToCmykIcc(Color[] pixels, Stream rgbIccStream, Stream cmykIccStream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixels | Color[] | ألوان ARGB. |
-| rgbIccStream | Stream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
-| cmykIccStream | Stream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
+| البكسلات | Color[] | ألوان ARGB. |
+| rgbIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
+| cmykIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
 
 ### قيمة الإرجاع
 
-يتم تقديم ألوان CMYK كقيم عدد صحيح 32 بت.
+ألوان CMYK معروضة كقيم صحيحة 32-بت.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
-## ToCmykIcc(Color[]) {#tocmykicc_2}
+## ToCmykIcc(int[], Stream, Stream) {#tocmykicc_7}
 
-التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة.
+
+```csharp
+public static int[] ToCmykIcc(int[] pixels, Stream rgbIccStream, Stream cmykIccStream)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| البكسلات | Int32[] | ألوان ARGB. |
+| rgbIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
+| cmykIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+
+### قيمة الإرجاع
+
+ألوان CMYK معروضة كقيم صحيحة 32-بت.
+
+### انظر أيضًا
+
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## ToCmykIcc(Color[]) {#tocmykicc_4}
+
+التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 ```csharp
 public static int[] ToCmykIcc(Color[] pixels)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixels | Color[] | ألوان ARGB. |
+| البكسلات | Color[] | ألوان ARGB. |
 
 ### قيمة الإرجاع
 
-يتم تقديم ألوان CMYK كقيم عدد صحيح 32 بت.
+ألوان CMYK معروضة كقيم صحيحة 32-بت.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## ToCmykIcc(int[]) {#tocmykicc_6}
+
+التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
+
+```csharp
+public static int[] ToCmykIcc(int[] pixels)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| البكسلات | Int32[] | ألوان ARGB. |
+
+### قيمة الإرجاع
+
+ألوان CMYK معروضة كقيم صحيحة 32-بت.
+
+### انظر أيضًا
+
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## ToCmykIcc(Color) {#tocmykicc}
 
-التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 ```csharp
 public static int ToCmykIcc(Color pixel)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixel | Color | لون ARGB. |
+| بكسل | لون | لون ARGB. |
 
 ### قيمة الإرجاع
 
-يتم تقديم لون CMYK كقيمة عدد صحيح 32 بت.
+لون CMYK معروض كقيمة صحيحة 32-بت.
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية تحويل ألوان RGB إلى نظيراتها في CMYK باستخدام ملفات تعريف ICC.
+المثال التالي يوضح كيفية تحويل ألوان RGB إلى نظيراتها في CMYK باستخدام ملفات تعريف ICC.
 
 ```csharp
 [C#]
@@ -100,7 +150,7 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
-// حدد مسارك إلى ملفات تعريف RGB و CMYK ICC.
+// حدد المسار إلى ملفات تعريف ICC لـ RGB و CMYK.
 string dir = "c:\\temp\\iccprofiles\\";
 
 System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
@@ -119,47 +169,71 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
-// يبدو الإخراج كالتالي:
-// تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC الافتراضية.
-// RGB (255،0،0) = > ; CMYK (0،254،249،15)
-// RGB (0،128،0) = > ; CMYK (247،21،254،85)
-// RGB (0،0،255) = > ; CMYK (254،195،0،134)
-// تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC المخصصة.
-// RGB (255،0،0) = > ; CMYK (0،207،219،0)
-// RGB (0،128،0) = > ; CMYK (238،16،254،80)
-// RGB (0،0،255) = > ; CMYK (242،182،0،0)
+//الإخراج يبدو هكذا:
+//حوّل RGB إلى CMYK باستخدام ملفات تعريف ICC الافتراضية.
+//RGB(255,0,0)        => CMYK(0,254,249,15)
+//RGB(0,128,0)        => CMYK(247,21,254,85)
+//RGB(0,0,255)        => CMYK(254,195,0,134)
+//حوّل RGB إلى CMYK باستخدام ملفات تعريف ICC مخصصة.
+//RGB(255,0,0)        => CMYK(0,207,219,0)
+//RGB(0,128,0)        => CMYK(238,16,254,80)
+//RGB(0,0,255)        => CMYK(242,182,0,0)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## ToCmykIcc(int) {#tocmykicc_2}
+
+التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
+
+```csharp
+public static int ToCmykIcc(int argb)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| argb | Int32 | لون ARGB. |
+
+### قيمة الإرجاع
+
+لون CMYK معروض كقيمة صحيحة 32-بت.
+
+### انظر أيضًا
+
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## ToCmykIcc(Color, Stream, Stream) {#tocmykicc_1}
 
-التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف المخصصة.
+التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة.
 
 ```csharp
 public static int ToCmykIcc(Color pixel, Stream rgbIccStream, Stream cmykIccStream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixel | Color | لون ARGB. |
-| rgbIccStream | Stream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
-| cmykIccStream | Stream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
+| بكسل | لون | لون ARGB. |
+| rgbIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
+| cmykIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
 
 ### قيمة الإرجاع
 
-يتم تقديم لون CMYK كقيمة عدد صحيح 32 بت.
+لون CMYK معروض كقيمة صحيحة 32-بت.
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية تحويل ألوان RGB إلى نظيراتها في CMYK باستخدام ملفات تعريف ICC.
+المثال التالي يوضح كيفية تحويل ألوان RGB إلى نظيراتها في CMYK باستخدام ملفات تعريف ICC.
 
 ```csharp
 [C#]
@@ -183,7 +257,7 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
-// حدد مسارك إلى ملفات تعريف RGB و CMYK ICC.
+// حدد المسار إلى ملفات تعريف ICC لـ RGB و CMYK.
 string dir = "c:\\temp\\iccprofiles\\";
 
 System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
@@ -202,22 +276,48 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
-// يبدو الإخراج كالتالي:
-// تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC الافتراضية.
-// RGB (255،0،0) = > ; CMYK (0،254،249،15)
-// RGB (0،128،0) = > ; CMYK (247،21،254،85)
-// RGB (0،0،255) = > ; CMYK (254،195،0،134)
-// تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC المخصصة.
-// RGB (255،0،0) = > ; CMYK (0،207،219،0)
-// RGB (0،128،0) = > ; CMYK (238،16،254،80)
-// RGB (0،0،255) = > ; CMYK (242،182،0،0)
+//الإخراج يبدو هكذا:
+//حوّل RGB إلى CMYK باستخدام ملفات تعريف ICC الافتراضية.
+//RGB(255,0,0)        => CMYK(0,254,249,15)
+//RGB(0,128,0)        => CMYK(247,21,254,85)
+//RGB(0,0,255)        => CMYK(254,195,0,134)
+//حوّل RGB إلى CMYK باستخدام ملفات تعريف ICC مخصصة.
+//RGB(255,0,0)        => CMYK(0,207,219,0)
+//RGB(0,128,0)        => CMYK(238,16,254,80)
+//RGB(0,0,255)        => CMYK(242,182,0,0)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+---
+
+## ToCmykIcc(int, Stream, Stream) {#tocmykicc_3}
+
+التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة.
+
+```csharp
+public static int ToCmykIcc(int argb, Stream rgbIccStream, Stream cmykIccStream)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| argb | Int32 | لون ARGB. |
+| rgbIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
+| cmykIccStream | Stream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+
+### قيمة الإرجاع
+
+لون CMYK معروض كقيمة صحيحة 32-بت.
+
+### انظر أيضًا
+
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
+
+

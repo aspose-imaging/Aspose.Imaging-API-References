@@ -1,50 +1,50 @@
 ---
-title: EmfPlgBlt
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EMR_PLGBLT كتلة نقل وحدات البكسل من الصورة النقطية المصدر إلى الوجهة متوازي الأضلاع  مع تطبيق صورة نقطية لقناع اللون.
+title: "الفئة EmfPlgBlt"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfPlgBlt class. سجل EMR_PLGBLT يحدد نقل كتلة من البكسلات من صورة مصدر إلى متوازي أضلاع الوجهة مع تطبيق صورة قناع لوني."
 type: docs
-weight: 3950
+weight: 4050
 url: /ar/net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/
 ---
 ## EmfPlgBlt class
 
-يحدد سجل EMR_PLGBLT كتلة نقل وحدات البكسل من الصورة النقطية المصدر إلى الوجهة متوازي الأضلاع ، مع تطبيق صورة نقطية لقناع اللون.
+سجل EMR_PLGBLT يحدد نقل كتلة من البكسلات من صورة مصدر إلى متوازي أضلاع هدف، مع تطبيق صورة قناع لوني.
 
 ```csharp
 public sealed class EmfPlgBlt : EmfBitmapRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlgBlt](emfplgblt)(EmfRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlgBlt`](../emfplgblt) فئة . |
+| [EmfPlgBlt](emfplgblt/)(EmfRecord) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlgBlt`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AptlDest](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/aptldest) { get; set; } | الحصول على أو تعيين مصفوفة من ثلاثة كائنات WMF PointL ([MS-WMF] القسم 2.2.2.15) التي تحدد ثلاث زوايا منطقة وجهة متوازي الأضلاع لنقل الكتلة. يتم تعيين الزاوية العلوية اليسرى للمستطيل المصدر إلى النقطة الأولى في هذه المجموعة ، الزاوية اليمنى العليا إلى النقطة الثانية ، والزاوية اليسرى السفلية إلى النقطة الثالثة. يتم تعيين الزاوية اليمنى السفلية من المستطيل المصدر إلى النقطة الرابعة الضمنية في متوازي الأضلاع ، والتي يتم حسابها من النقاط الثلاث الأولى (A و B و C) من خلال معاملتها كمتجهات . D = B + C A |
-| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bksrcargb32color) { get; set; } | الحصول على كائن WMF ColorRef أو تعيينه (القسم [MS-WMF] 2.2.2.8) الذي يحدد لون الخلفية للصورة النقطية المصدر. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bounds) { get; set; } | الحصول على أو تعيين كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل المحيط ، في وحدات الجهاز ، للإخراج إلى الوجهة. |
-| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cxsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد العرض المنطقي لمستطيل المصدر. |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد الارتفاع المنطقي لمستطيل المصدر. |
-| [MaskBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/maskbitmap) { get; set; } | الحصول على أو تعيين مخزن مؤقت يحتوي على الصورة النقطية للقناع ، والتي ليست مطلوبة لتكون متجاورة مع الجزء الثابت من سجل EMR_PLGBLT أو مع بعضها البعض. وفقًا لذلك ، تعد الحقول الموجودة في هذا المخزن المؤقت والتي تسمى "UndefinedSpace" اختيارية ويجب تجاهلها. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | الحصول على أو تحديد حجم السجل |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/sourcebitmap) { get; set; } | الحصول على أو تعيين مخزن مؤقت يحتوي على الصورة النقطية المصدر ، والتي ليست مطلوبة لتكون متجاورة مع الجزء الثابت من سجل EMR_PLGBLT أو مع بعضها البعض. وفقًا لذلك ، تعد الحقول الموجودة في هذا المخزن المؤقت والتي تسمى "UndefinedSpace" اختيارية ويجب تجاهلها. |
-| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | الحصول على النوع أو تحديده. |
-| [UsageMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagemask) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس الصورة النقطية للقناع. يجب أن تكون هذه القيمة في تعداد ألوان DIBC. |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagesrc) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس الصورة النقطية المصدر. يجب أن تكون هذه القيمة في تعداد ألوان DIBC |
-| [XFormSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xformsrc) { get; set; } | الحصول على كائن XForm أو تعيينه (القسم 2.2.28) الذي يحدد تحويل مساحة العالم إلى مساحة الصفحة لتطبيقه على الصورة النقطية المصدر. |
-| [XMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xmask) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x المنطقي للركن الأيسر العلوي من الصورة النقطية للقناع. |
-| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x المنطقي للزاوية العلوية اليسرى من المستطيل المصدر. |
-| [YMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ymask) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y المنطقي للركن الأيسر العلوي من الصورة النقطية للقناع. |
-| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y المنطقي للزاوية العلوية اليسرى من المستطيل المصدر. |
+| [AptlDest](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/aptldest/) { get; set; } | يحصل أو يعيّن مصفوفة من ثلاثة كائنات WMF PointL ([MS-WMF] القسم 2.2.2.15) التي تحدد ثلاثة زوايا لمنطقة متوازي أضلاع الوجهة لنقل الكتلة. الزاوية العلوية اليسرى لمستطيل المصدر تُطابق النقطة الأولى في هذه المصفوفة، والزاوية العلوية اليمنى تُطابق النقطة الثانية، والزاوية السفلية اليسرى تُطابق النقطة الثالثة. الزاوية السفلية اليمنى لمستطيل المصدر تُطابق النقطة الرابعة الضمنية في متوازي الأضلاع، والتي تُحسب من الثلاث نقاط الأولى (A, B, و C) باعتبارها متجهات. D = B + C A |
+| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bksrcargb32color/) { get; set; } | يحصل أو يعيّن كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8) الذي يحدد لون خلفية صورة المصدر. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bounds/) { get; set; } | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي، بوحدات الجهاز، للإخراج إلى الوجهة. |
+| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cxsrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد العرض المنطقي للمستطيل المصدر. |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cysrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد الارتفاع المنطقي للمستطيل المصدر. |
+| [MaskBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/maskbitmap/) { get; set; } | يحصل أو يعيّن مخزنًا يحتوي على صورة القناع، والتي لا يُشترط أن تكون متجاورة مع الجزء الثابت من سجل EMR_PLGBLT أو مع بعضها البعض. وبالتالي، الحقول في هذا المخزن التي تحمل تسمية "UndefinedSpace" هي اختيارية ويجب تجاهلها. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | يحصل أو يعيّن حجم السجل |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/sourcebitmap/) { get; set; } | يحصل أو يعيّن مخزنًا يحتوي على صورة المصدر، والتي لا يُشترط أن تكون متجاورة مع الجزء الثابت من سجل EMR_PLGBLT أو مع بعضها البعض. وبالتالي، الحقول في هذا المخزن التي تحمل تسمية "UndefinedSpace" هي اختيارية ويجب تجاهلها. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | يحصل أو يعيّن النوع. |
+| [UsageMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagemask/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد طريقة تفسير القيم في جدول الألوان في رأس صورة القناع. يجب أن تكون هذه القيمة ضمن تعداد DIBColors. |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagesrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد كيفية تفسير القيم في جدول الألوان في رأس صورة المصدر. يجب أن تكون هذه القيمة ضمن تعداد DIBColors. |
+| [XFormSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xformsrc/) { get; set; } | يحصل أو يضبط كائن XForm (القسم 2.2.28) الذي يحدد تحويل من الفضاء العالمي إلى فضاء الصفحة لتطبيقه على البت ماب المصدر. |
+| [XMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xmask/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد الإحداثي x المنطقي للزاوية العليا اليسرى لصورة القناع. |
+| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xsrc/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي السيني المنطقي للزاوية العليا اليسرى للمستطيل المصدر. |
+| [YMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ymask/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد الإحداثي y المنطقي للزاوية العليا اليسرى لصورة القناع. |
+| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ysrc/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي الصادي المنطقي للزاوية العليا اليسرى للمستطيل المصدر. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfBitmapRecordType](../emfbitmaprecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfBitmapRecordType](../emfbitmaprecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
