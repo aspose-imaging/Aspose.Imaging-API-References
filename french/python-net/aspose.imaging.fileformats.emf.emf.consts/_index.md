@@ -1,0 +1,50 @@
+---
+title: "aspose.imaging.fileformats.emf.emf.consts"
+type: docs
+weight: 380
+url: /fr/python-net/aspose.imaging.fileformats.emf.emf.consts/
+---
+
+
+Le module contient des types [MS-EMF] : Format Métafile Amélioré. 2.1 Énumérations EMF
+
+## **Enumerations**
+| **Énumération** | **Description** |
+| :- | :- |
+| [EmfArcDirection](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/) | L'énumération ArcDirection est utilisée pour définir la direction de dessin pour la sortie d'arcs et de rectangles. |
+| [EmfArmStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfarmstyle/) | L'énumération ArmStyle définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfBackgroundMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/) | L'énumération BackgroundMode est utilisée pour spécifier le mode d'arrière-plan à utiliser avec le texte,<br/>            les pinceaux hachurés et les styles de stylo qui ne sont pas solides. Le mode d'arrière-plan détermine comment<br/>            combiner l'arrière-plan avec le texte au premier plan, les pinceaux hachurés et les styles de stylo qui ne sont pas des lignes solides. |
+| [EmfColorAdjustmentEnum](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfcoloradjustmentenum/) | L'énumération ColorAdjustment est utilisée pour spécifier comment l'image de sortie doit être préparée<br/>            lorsque le mode d'étirement est HALFTONE. |
+| [EmfColorMatchToTarget](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfcolormatchtotarget/) | L'énumération ColorMatchToTarget est utilisée pour déterminer si un profil couleur a été intégré dans le métafichier. |
+| [EmfColorSpace](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfcolorspace/) | L'énumération ColorSpace est utilisée pour spécifier quand activer ou désactiver la preuve couleur, et quand supprimer les transformations. |
+| [EmfContrast](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfcontrast/) | L'énumération Contrast définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfDibColors](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfdibcolors/) | L'énumération DIBColors définit comment interpréter les valeurs dans la table de couleurs d'un DIB. |
+| [EmfEmrComment](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfemrcomment/) | L'énumération EmrComment définit les types de données qu'un enregistrement de commentaire public peut<br/>            contenir, comme indiqué dans la section 2.3.3.4. |
+| [EmfExtTextOutOptions](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfexttextoutoptions/) | L'énumération ExtTextOutOptions spécifie les paramètres qui contrôlent divers aspects de la<br/>            sortie de texte par les enregistrements EMR_SMALLTEXTOUT (section 2.3.5.37) et dans les objets EmrText. |
+| [EmfFamilyType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emffamilytype/) | L'énumération FamilyType définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfFloodFill](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emffloodfill/) | L'énumération FloodFill définit des valeurs qui spécifient comment déterminer la zone pour une opération de remplissage. |
+| [EmfFormatSignature](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfformatsignature/) | L'énumération FormatSignature définit des valeurs utilisées pour identifier le format des données intégrées dans les enregistrements EMF. |
+| [EmfGradientFill](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfgradientfill/) | L'énumération GradientFill définit les modes pour les opérations de remplissage en dégradé. |
+| [EmfGraphicsMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfgraphicsmode/) | L'énumération GraphicsMode est utilisée pour spécifier comment interpréter les données de forme telles que les coordonnées de rectangle. |
+| [EmfHatchStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfhatchstyle/) | L'énumération HatchStyle est une extension de l'énumération WMF HatchStyle ([MS-WMF] section 2.1.1.12). |
+| [EmfIcmMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emficmmode/) | L'énumération ICMMode définit des valeurs qui spécifient quand activer ou désactiver l'ICM. |
+| [EmfIlluminant](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/) | L'énumération Illuminant définit des valeurs qui spécifient la valeur d'illuminant d'une image, qui<br/>            détermine la source lumineuse standard sous laquelle l'image est visualisée afin que la couleur puisse être ajustée correctement. |
+| [EmfLetterform](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfletterform/) | L'énumération Letterform définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfLogFontWeight](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emflogfontweight/) | Le poids de [EmfLogFont](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/). |
+| [EmfMapMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/) | L'énumération MapMode est utilisée pour définir l'unité de mesure pour transformer les unités d'espace de page <br/>            en unités d'espace dispositif et pour définir l'orientation des axes de dessin. |
+| [EmfMetafileVersion](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfmetafileversion/) | L'énumération MetafileVersion définit la version d'interopérabilité pour le métafichier EMF. |
+| [EmfMidLine](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfmidline/) | L'énumération MidLine définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfModifyWorldTransformMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransformmode/) | L'énumération ModifyWorldTransformMode définit des modes pour utiliser les données de transformation spécifiées<br/>            afin de modifier la transformation de l'espace monde vers l'espace page qui est actuellement définie dans le contexte de périphérique de lecture. |
+| [EmfPenStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/) | L'énumération PenStyle définit les attributs des stylos qui peuvent être utilisés dans les opérations graphiques.<br/>             Un style de stylo est une combinaison du type de stylo, du style de ligne, du bout de ligne et de la jointure de ligne. |
+| [EmfPointEnum](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfpointenum/) | L'énumération Point est utilisée pour spécifier comment un point doit être utilisé dans un appel de dessin. |
+| [EmfPolygonFillMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/) | L'énumération PolygonFillMode définit des valeurs qui spécifient comment calculer la région d'un polygone à remplir. |
+| [EmfProportion](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfproportion/) | L'énumération Proportion définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | L'énumération RecordType définit des valeurs qui identifient de manière unique les enregistrements EMF.<br/>            Ces valeurs sont fournies dans le champ Type de chaque enregistrement. |
+| [EmfRegionMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfregionmode/) | L'énumération RegionMode définit des valeurs utilisées avec EMR_SELECTCLIPPATH et EMR_EXTSELECTCLIPRGN, <br/>            spécifiant le chemin actuel ou une nouvelle région qui est combinée avec la région de découpe actuelle. |
+| [EmfSerifStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfserifstyle/) | L'énumération SerifType définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices |
+| [EmfSerifType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfseriftype/) | L'énumération SerifType définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfStockObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfstockobject/) | L'énumération StockObject spécifie les index des objets graphiques logiques prédéfinis <br/>            qui peuvent être utilisés dans les opérations graphiques. Les structures spécifiques des objets stock sont <br/>            dépendantes de l'implémentation ; cependant, les propriétés des objets stock DOIVENT être équivalentes aux <br/>            propriétés des objets créés explicitement du même type. <br/>            Ces propriétés sont spécifiées, lorsque cela est possible, pour les objets stock définis dans cette énumération. |
+| [EmfStretchMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/) | L'énumération StretchMode est utilisée pour spécifier comment les données de couleur sont ajoutées ou supprimées des images bitmap qui sont étirées ou compressées. |
+| [EmfStrokeVariation](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfstrokevariation/) | L'énumération StrokeVariation définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfWeight](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfweight/) | L'énumération Weight définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |
+| [EmfXHeight](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfxheight/) | L'énumération XHeight définit des valeurs pour l'une des caractéristiques du système PANOSE de classification des polices. |

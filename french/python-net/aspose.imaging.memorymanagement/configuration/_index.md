@@ -1,0 +1,19 @@
+---
+title: "Classe Configuration"
+type: docs
+weight: 10
+url: /fr/python-net/aspose.imaging.memorymanagement/configuration/
+---
+
+**Summary:** The memory management global configuration
+
+**Module:** [aspose.imaging.memorymanagement](/imaging/python-net/aspose.imaging.memorymanagement/)
+
+**Full Name:** aspose.imaging.memorymanagement.Configuration
+
+## **Properties**
+| **Name** | **Type** | **Access** | **Description** |
+| :- | :- | :- | :- |
+| buffer_size_hint [static] | int | r/w | Obtient ou définit l'indice de taille du tampon, qui correspond à la taille maximale autorisée pour tous les tampons internes. |
+
+
