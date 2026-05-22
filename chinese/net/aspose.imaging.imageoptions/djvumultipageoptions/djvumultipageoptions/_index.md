@@ -1,195 +1,195 @@
 ---
-title: DjvuMultiPageOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DjvuMultiPageOptionsaspose.imaging.imageoptions/djvumultipageoptions类.
+title: "DjvuMultiPageOptions.DjvuMultiPageOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "DjvuMultiPageOptions 构造函数。初始化 DjvuMultiPageOptions 类的新实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/djvumultipageoptions/djvumultipageoptions/
 ---
 ## DjvuMultiPageOptions() {#constructor}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions()
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int[]) {#constructor_7}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pages | Int32[] | 页面索引。 |
+| 页面 | Int32[] | 页面索引。 |
 
-### 也可以看看
+### 另请参见
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int[], Rectangle) {#constructor_8}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pages | Int32[] | 页面索引。 |
-| exportArea | Rectangle | 出口区。 |
+| 页面 | Int32[] | 页面索引。 |
+| exportArea | Rectangle | 导出区域。 |
 
-### 也可以看看
+### 另请参见
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange) {#constructor_1}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| range | IntRange | 范围。 |
+| 范围 | IntRange | 该范围。 |
 
-### 也可以看看
+### 另请参见
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| range | IntRange | 范围。 |
-| exportArea | Rectangle | 出口区。 |
+| 范围 | IntRange | 该范围。 |
+| exportArea | Rectangle | 导出区域。 |
 
-### 也可以看看
+### 另请参见
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange[]) {#constructor_3}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| ranges | IntRange[] | 范围。 |
+| ranges | IntRange[] | 该范围。 |
 
-### 也可以看看
+### 另请参见
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| ranges | IntRange[] | 范围。 |
-| exportArea | Rectangle | 出口区。 |
+| ranges | IntRange[] | 该范围。 |
+| exportArea | Rectangle | 导出区域。 |
 
-### 也可以看看
+### 另请参见
 
-* class [IntRange](../../../aspose.imaging/intrange)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [IntRange](../../../aspose.imaging/intrange/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int) {#constructor_5}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(int page)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | page | Int32 | 页面索引。 |
 
-### 也可以看看
+### 另请参见
 
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DjvuMultiPageOptions(int, Rectangle) {#constructor_6}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
+初始化 [`DjvuMultiPageOptions`](../) 类的新实例。
 
 ```csharp
 public DjvuMultiPageOptions(int page, Rectangle exportArea)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | page | Int32 | 页面索引。 |
-| exportArea | Rectangle | 出口区。 |
+| exportArea | Rectangle | 导出区域。 |
 
-### 也可以看看
+### 另请参见
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [DjvuMultiPageOptions](../../djvumultipageoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../djvumultipageoptions)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [DjvuMultiPageOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../djvumultipageoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

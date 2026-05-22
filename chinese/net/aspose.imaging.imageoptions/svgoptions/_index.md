@@ -1,14 +1,14 @@
 ---
-title: SvgOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: SVG 文件格式创建选项
+title: "类 SvgOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.ImageOptions.SvgOptions 类。使用我们的 API 创建可缩放矢量图形 SVG 图像文件，利用多种颜色类型和压缩级别选项。无缝地精确定制您的 SVG 图像，确保最佳质量和兼容性，以满足您的设计需求。"
 type: docs
-weight: 10190
+weight: 10580
 url: /zh/net/aspose.imaging.imageoptions/svgoptions/
 ---
 ## SvgOptions class
 
-SVG 文件格式创建选项。
+使用我们的 API 创建可缩放矢量图形 (SVG) 图像文件，利用多种颜色类型和压缩级别的灵活选项。精准地无缝自定义您的 SVG 图像，确保在设计需求中获得最佳质量和兼容性。
 
 ```csharp
 public class SvgOptions : ImageOptionsBase
@@ -16,39 +16,42 @@ public class SvgOptions : ImageOptionsBase
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [SvgOptions](svgoptions)() | 默认构造函数。 |
+| [SvgOptions](svgoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback) { get; set; } | 获取或设置字体存储选项。 |
-| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype) { get; set; } | 获取或设置 SVG 图像的颜色类型。 |
-| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress) { get; set; } | 获取或设置一个值，该值指示是否ICompressedOptions被压缩。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | 获取或设置分辨率设置。 |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | 获取或设置要在其中创建图像的源。 |
-| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes) { get; set; } | 获取或设置一个值，该值指示是否必须将文本转换为形状。 |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | 获取或设置矢量光栅化选项。 |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | 获取或设置 XMP 元数据容器。 |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
+| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback/) { get; set; } | 获取或设置嵌入资源（如字体、嵌套栅格）的存储策略，针对 [`SvgImage`](../../aspose.imaging.fileformats.svg/svgimage/)。 |
+| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype/) { get; set; } | 获取或设置 SVG 图像的颜色类型。 |
+| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress/) { get; set; } | 获取或设置一个值，指示输出图像是否必须压缩。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | 获取一个值，指示此实例是否已释放。 |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | 获取或设置 Exif 数据。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | 获取或设置指示是否为 [full frame] 的值。 |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | 获取在导出时是否保留原始图像元数据的值。 |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | 多页选项 |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | 获取或设置颜色调色板。 |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | 获取或设置进度事件处理程序。 |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | 获取或设置分辨率设置。 |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | 获取或设置创建图像的来源。 |
+| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes/) { get; set; } | 获取或设置一个值，指示文本是否必须渲染为形状。 |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | 获取或设置矢量光栅化选项。 |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | 获取或设置 XMP 元数据容器。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | 创建此实例的成员逐一克隆。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | 释放当前实例。 |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | 尝试设置一个 *metadata* 实例，如果此 [`Image`](../../aspose.imaging/image/) 实例支持并实现了 [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) 实例。 |
 
-### 例子
+## 示例
 
-以下示例显示如何将 svgz 图像转换为 svg fromat
+以下示例展示了如何将 svgz 图像转换为 svg 格式
 
 ```csharp
 [C#]
@@ -64,7 +67,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 }
 ```
 
-以下示例显示如何将 svg 图像转换为 svgz fromat
+以下示例展示了如何将 svg 图像转换为 svgz 格式
 
 ```csharp
 [C#]
@@ -80,7 +83,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 }
 ```
 
-以下示例显示了如何在不引用特定图像类型的情况下以一般方式将多页矢量图像转换为 SVG 格式。
+以下示例展示了如何在不引用特定图像类型的情况下，将多页矢量图像转换为 SVG 格式。
 
 ```csharp
 [C#]
@@ -95,7 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-    // 只导出前两页。事实上，只有一页会被转换，因为 SVG 不是多页格式。
+    // 仅导出前两页。实际上，只会转换一页，因为 SVG 不是多页格式。
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {
@@ -113,10 +116,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* 部件 [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Jpeg2000Options
-second_title: Aspose.Imaging for .NET API 参考
-description: Jpeg2000 文件格式选项
+title: "类 Jpeg2000Options"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.ImageOptions.Jpeg2000Options 类。使用我们的 API 创建 JPEG2000 JP2 图像文件，利用先进的小波技术对无损内容进行编码。受益于对包括有损和无损压缩在内的多种编解码器的支持，以及 XMP 元数据容器，确保多功能且高质量的图像创建，以满足您的需求。"
 type: docs
-weight: 10020
+weight: 10380
 url: /zh/net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class
 
-Jpeg2000 文件格式选项。
+使用我们的 API 创建 JPEG2000（JP2）图像文件，利用先进的小波技术对无损内容进行编码。受益于对包括有损和无损压缩在内的多种编解码器的支持，以及 XMP 元数据容器，确保在满足您需求的同时实现多功能且高质量的图像创建。
 
 ```csharp
 public class Jpeg2000Options : ImageOptionsBase
@@ -16,40 +16,43 @@ public class Jpeg2000Options : ImageOptionsBase
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Jpeg2000Options](jpeg2000options#constructor)() | 初始化[`Jpeg2000Options`](../jpeg2000options)类. |
-| [Jpeg2000Options](jpeg2000options#constructor_1)(Jpeg2000Options) | 初始化[`Jpeg2000Options`](../jpeg2000options)类. |
+| [Jpeg2000Options](jpeg2000options/#constructor)() | 初始化 `Jpeg2000Options` 类的新实例。 |
+| [Jpeg2000Options](jpeg2000options/#constructor_1)(Jpeg2000Options) | 初始化 `Jpeg2000Options` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [Codec](../../aspose.imaging.imageoptions/jpeg2000options/codec) { get; set; } | 获取或设置JPEG2000编解码器 |
-| [Comments](../../aspose.imaging.imageoptions/jpeg2000options/comments) { get; set; } | 获取或设置 Jpeg 注释标记。 |
-| [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios) { get; set; } | 获取或设置压缩比数组。 连续层的不同压缩比。 为每个质量级别指定的速率是期望的 压缩因子。 需要降低比。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
-| [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible) { get; set; } | 获取或设置一个值，该值指示是使用不可逆的 DWT 9-7（真）还是使用无损 DWT 5-3 压缩（默认）。 |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | 获取或设置分辨率设置。 |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | 获取或设置要在其中创建图像的源。 |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | 获取或设置矢量光栅化选项。 |
-| override [XmpData](../../aspose.imaging.imageoptions/jpeg2000options/xmpdata) { get; set; } | 获取或设置 XMP 元数据容器。 |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
+| [Codec](../../aspose.imaging.imageoptions/jpeg2000options/codec/) { get; set; } | 获取或设置 JPEG2000 编解码器 |
+| [Comments](../../aspose.imaging.imageoptions/jpeg2000options/comments/) { get; set; } | 获取或设置 JPEG 注释标记。 |
+| [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios/) { get; set; } | 获取或设置压缩比数组。为连续层提供不同的压缩比。为每个质量级别指定的比率是所需的压缩因子。需要递减的比率。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | 获取一个值，指示此实例是否已释放。 |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | 获取或设置 Exif 数据。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | 获取或设置指示是否为 [full frame] 的值。 |
+| [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible/) { get; set; } | 获取或设置一个值，指示是使用不可逆 DWT 9-7（true）还是使用无损 DWT 5-3 压缩（默认）。 |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | 获取在导出时是否保留原始图像元数据的值。 |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | 多页选项 |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | 获取或设置颜色调色板。 |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | 获取或设置进度事件处理程序。 |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | 获取或设置分辨率设置。 |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | 获取或设置创建图像的来源。 |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | 获取或设置矢量光栅化选项。 |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | 获取或设置 XMP 元数据容器。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | 创建此实例的成员逐一克隆。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | 释放当前实例。 |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | 尝试设置一个 *metadata* 实例，如果此 [`Image`](../../aspose.imaging/image/) 实例支持并实现了 [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) 实例。 |
 
-### 例子
+## 示例
 
-以下示例显示了如何在不引用特定图像类型的情况下以一般方式将多页矢量图像转换为 JPEG 2000 格式。
+以下示例展示了如何以通用方式将多页矢量图像转换为 JPEG 2000 格式，而不针对特定图像类型进行引用。
 
 ```csharp
 [C#]
@@ -64,7 +67,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-    // 只导出前两页。事实上，只有一页会被光栅化，因为 JPEG 2000 不是多页格式。
+    // 仅导出前两页。实际上，由于 JPEG 2000 不是多页格式，只会光栅化一页。
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {
@@ -82,10 +85,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* 部件 [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: DicomOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: DICOM 文件格式创建选项
+title: "类 DicomOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.ImageOptions.DicomOptions 类。用于医学数字成像与通信（DICOM）光栅图像格式创建的 API 是为医疗设备应用量身定制的专用工具。它实现了 DICOM 图像的无缝生成，这对于存储医疗数据和包含重要标识信息至关重要。通过设置压缩、定义颜色类型并嵌入 XMP 元数据等功能，开发人员可以确保合规性并在管理医学成像的 DICOM 图像时具备灵活性。"
 type: docs
-weight: 9940
+weight: 10290
 url: /zh/net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class
 
-DICOM 文件格式创建选项。
+Digital Imaging and Communications in Medicine（DICOM）栅格图像格式创建的 API 是为医疗设备应用量身定制的专业工具。它实现了 DICOM 图像的无缝生成，这对于存储医疗数据和包含关键识别信息至关重要。通过设置压缩、定义颜色类型以及嵌入 XMP 元数据等功能，开发者可以确保在管理用于医学成像的 DICOM 图像时的合规性和灵活性。
 
 ```csharp
 public class DicomOptions : ImageOptionsBase
@@ -16,37 +16,40 @@ public class DicomOptions : ImageOptionsBase
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [DicomOptions](dicomoptions)() | 默认构造函数。 |
+| [DicomOptions](dicomoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype) { get; set; } | 获取或设置颜色的类型。 |
-| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression) { get; set; } | 获取或设置压缩。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | 获取或设置分辨率设置。 |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | 获取或设置要在其中创建图像的源。 |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | 获取或设置矢量光栅化选项。 |
-| override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata) { get; set; } | 获取或设置 Xmp 数据。 |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
+| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype/) { get; set; } | 获取或设置颜色的类型。 |
+| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression/) { get; set; } | 获取或设置压缩。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | 获取一个值，指示此实例是否已释放。 |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | 获取或设置 Exif 数据。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | 获取或设置指示是否为 [full frame] 的值。 |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | 获取在导出时是否保留原始图像元数据的值。 |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | 多页选项 |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | 获取或设置颜色调色板。 |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | 获取或设置进度事件处理程序。 |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | 获取或设置分辨率设置。 |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | 获取或设置创建图像的来源。 |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | 获取或设置矢量光栅化选项。 |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | 获取或设置 XMP 元数据容器。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | 创建此实例的成员逐一克隆。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | 释放当前实例。 |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | 尝试设置一个 *metadata* 实例，如果此 [`Image`](../../aspose.imaging/image/) 实例支持并实现了 [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/) 实例。 |
 
-### 例子
+## 示例
 
-在 DICOM 压缩中更改颜色类型。
+更改 DICOM 压缩中的颜色类型。
 
 ```csharp
 [C#]
@@ -127,7 +130,7 @@ using (var inputImage = Image.Load("original.jpg"))
 }
 ```
 
-以下示例显示导出为 DICOM 文件格式（单页和多页）。
+以下示例展示了导出为 DICOM 文件格式（单页和多页）。
 
 ```csharp
 [C#]
@@ -138,13 +141,13 @@ string inputFileNameMultipage = "multipage.tif";
 string outputFileNameSingleDcm = "output.dcm";
 string outputFileNameMultipageDcm = "outputMultipage.dcm";
 
-// 下一个代码示例将 JPEG 图像转换为 DICOM 文件格式
+// 下面的代码示例将 JPEG 图像转换为 DICOM 文件格式
 using (var image = Aspose.Imaging.Image.Load(inputFileNameSingle))
 {
     image.Save(outputFileNameSingleDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
 }
 
-// DICOM 格式支持多页图像。您可以像 JPEG 图像一样将 GIF 或 TIFF 图像转换为 DICOM
+// DICOM 格式支持多页图像。您可以像处理 JPEG 图像一样，将 GIF 或 TIFF 图像转换为 DICOM。
 using (var imageMultiple = Aspose.Imaging.Image.Load(inputFileNameMultipage))
 {
     imageMultiple.Save(outputFileNameMultipageDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
@@ -161,7 +164,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         100,
         100))
 {
-    // 使用矢量图形绘制一些东西
+    // 使用矢量图形绘制内容
     Graphics graphics = new Graphics(image);
     graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
     graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
@@ -170,7 +173,7 @@ using (DicomImage image = (DicomImage)Image.Create(
     // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
     int[] pixels = image.LoadArgb32Pixels(image.Bounds);
 
-    // 之后添加几页，使它们变暗
+    // 在后面添加几页，使其更暗
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.AddPage();
@@ -178,7 +181,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(i * 30);
     }
 
-    // 在主页面前面添加几页，使它们更亮
+    // 在主页面前添加几页，使其更亮
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.InsertPage(0);
@@ -186,15 +189,15 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(-i * 30);
     }
 
-    // 将创建的多页图片保存到输出文件
+    // 将创建的多页图像保存到输出文件
     image.Save("MultiPage.dcm");
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* 部件 [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

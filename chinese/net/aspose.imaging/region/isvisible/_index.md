@@ -1,406 +1,406 @@
 ---
-title: IsVisible
-second_title: Aspose.Imaging for .NET API 参考
-description: 测试指定的点是否包含在这个Regionaspose.imaging/region .
+title: "Region.IsVisible"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Region 方法。测试指定的点是否包含在此 Region 中."
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/aspose.imaging/region/isvisible/
 ---
 ## IsVisible(float, float) {#isvisible_11}
 
-测试指定的点是否包含在这个[`Region`](../../region) .
+测试指定的点是否包含在此 [`Region`](../) 中.
 
 ```csharp
 public bool IsVisible(float x, float y)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 要测试的点的 x 坐标。 |
-| y | Single | 要测试的点的 y 坐标。 |
+| x | 单精度 | 要测试的点的 x 坐标。 |
+| y | 单精度 | 要测试的点的 y 坐标。 |
 
 ### 返回值
 
-当指定点包含在此范围内时为真[`Region`](../../region);否则为假。
+如果指定的点包含在此 [`Region`](../) 中则为 true；否则为 false.
 
-### 也可以看看
+### 另请参见
 
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(PointF) {#isvisible_2}
 
-测试是否指定[`PointF`](../../pointf)结构包含在这个[`Region`](../../region) .
+测试指定的 [`PointF`](../../pointf/) 结构是否包含在此 [`Region`](../) 中.
 
 ```csharp
 public bool IsVisible(PointF point)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | 这[`PointF`](../../pointf)结构进行测试。 |
+| point | PointF | 用于测试的 [`PointF`](../../pointf/) 结构。 |
 
 ### 返回值
 
-真时*point*包含在这个[`Region`](../../region);否则为假。
+当 *point* 位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [PointF](../../pointf)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [PointF](../../pointf/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(float, float, Graphics) {#isvisible_12}
 
-测试指定的点是否包含在这个[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定的点是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(float x, float y, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 要测试的点的 x 坐标。 |
-| y | Single | 要测试的点的 y 坐标。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| x | 单精度 | 要测试的点的 x 坐标。 |
+| y | 单精度 | 要测试的点的 y 坐标。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-当指定点包含在此范围内时为真[`Region`](../../region);否则为假。
+如果指定的点包含在此 [`Region`](../) 中则为 true；否则为 false.
 
-### 也可以看看
+### 另请参见
 
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(PointF, Graphics) {#isvisible_3}
 
-测试是否指定[`PointF`](../../pointf)结构包含在这个[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定的 [`PointF`](../../pointf/) 结构是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(PointF point, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | 这[`PointF`](../../pointf)结构进行测试。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| point | PointF | 用于测试的 [`PointF`](../../pointf/) 结构。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-真时*point*包含在这个[`Region`](../../region);否则为假。
+当 *point* 位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [PointF](../../pointf)
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [PointF](../../pointf/)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(float, float, float, float) {#isvisible_13}
 
-测试指定矩形的任何部分是否包含在此[`Region`](../../region) .
+测试指定矩形的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(float x, float y, float width, float height)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 要测试的矩形左上角的 x 坐标。 |
-| y | Single | 要测试的矩形左上角的 y 坐标。 |
-| width | Single | 要测试的矩形的宽度。 |
-| height | Single | 要测试的矩形的高度。 |
+| x | 单精度 | 要测试的矩形左上角的 x 坐标。 |
+| y | 单精度 | 要测试的矩形左上角的 y 坐标。 |
+| 宽度 | 单精度 | 要测试的矩形的宽度。 |
+| 高度 | 单精度 | 要测试的矩形的高度。 |
 
 ### 返回值
 
-当指定矩形的任何部分包含在此范围内时为真[`Region`](../../region)目的;否则为假。
+当指定矩形的任何部分位于此 [`Region`](../) 对象中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(RectangleF) {#isvisible_6}
 
-测试指定的任何部分是否[`RectangleF`](../../rectanglef)结构包含在这个[`Region`](../../region) .
+测试指定的 [`RectangleF`](../../rectanglef/) 结构的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(RectangleF rect)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | 这[`RectangleF`](../../rectanglef)结构进行测试。 |
+| rect | RectangleF | 用于测试的 [`RectangleF`](../../rectanglef/) 结构。 |
 
 ### 返回值
 
-true 当任何部分*rect*包含在这个[`Region`](../../region);否则为假。
+当 *rect* 的任何部分位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [RectangleF](../../rectanglef)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [RectangleF](../../rectanglef/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(float, float, float, float, Graphics) {#isvisible_14}
 
-测试指定矩形的任何部分是否包含在此[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定矩形的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(float x, float y, float width, float height, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 要测试的矩形左上角的 x 坐标。 |
-| y | Single | 要测试的矩形左上角的 y 坐标。 |
-| width | Single | 要测试的矩形的宽度。 |
-| height | Single | 要测试的矩形的高度。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| x | 单精度 | 要测试的矩形左上角的 x 坐标。 |
+| y | 单精度 | 要测试的矩形左上角的 y 坐标。 |
+| 宽度 | 单精度 | 要测试的矩形的宽度。 |
+| 高度 | 单精度 | 要测试的矩形的高度。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-当指定矩形的任何部分包含在此范围内时为真[`Region`](../../region);否则为假。
+当指定矩形的任何部分位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(RectangleF, Graphics) {#isvisible_7}
 
-测试指定的任何部分是否[`RectangleF`](../../rectanglef)结构包含在这个[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定的 [`RectangleF`](../../rectanglef/) 结构的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(RectangleF rect, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | 这[`RectangleF`](../../rectanglef)结构进行测试。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| rect | RectangleF | 用于测试的 [`RectangleF`](../../rectanglef/) 结构。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-真时*rect*包含在这个[`Region`](../../region);否则为假。
+当 *rect* 位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [RectangleF](../../rectanglef)
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [RectangleF](../../rectanglef/)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(int, int, Graphics) {#isvisible_8}
 
-测试指定的点是否包含在这个[`Region`](../../region)使用指定的对象绘制时[`Graphics`](../../graphics)对象.
+测试在使用指定的 [`Graphics`](../../graphics/) 对象绘制时，指定的点是否位于此 [`Region`](../) 对象中。
 
 ```csharp
 public bool IsVisible(int x, int y, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | x | Int32 | 要测试的点的 x 坐标。 |
 | y | Int32 | 要测试的点的 y 坐标。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-当指定点包含在此范围内时为真[`Region`](../../region);否则为假。
+当指定的点位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(Point) {#isvisible}
 
-测试是否指定[`Point`](../../point)结构包含在这个[`Region`](../../region) .
+测试指定的 [`Point`](../../point/) 结构是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(Point point)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | 这[`Point`](../../point)结构进行测试。 |
+| point | Point | 用于测试的 [`Point`](../../point/) 结构。 |
 
 ### 返回值
 
-真时*point*包含在这个[`Region`](../../region);否则为假。
+当 *point* 位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [Point](../../point)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Point](../../point/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(Point, Graphics) {#isvisible_1}
 
-测试是否指定[`Point`](../../point)结构包含在这个[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定的 [`Point`](../../point/) 结构是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(Point point, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | 这[`Point`](../../point)结构进行测试。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| point | Point | 用于测试的 [`Point`](../../point/) 结构。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-真时*point*包含在这个[`Region`](../../region);否则为假。
+当 *point* 位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Point](../../point/)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(int, int, int, int) {#isvisible_9}
 
-测试指定矩形的任何部分是否包含在此[`Region`](../../region) .
+测试指定矩形的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(int x, int y, int width, int height)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | x | Int32 | 要测试的矩形左上角的 x 坐标。 |
 | y | Int32 | 要测试的矩形左上角的 y 坐标。 |
-| width | Int32 | 要测试的矩形的宽度。 |
-| height | Int32 | 要测试的矩形的高度。 |
+| 宽度 | Int32 | 要测试的矩形的宽度。 |
+| 高度 | Int32 | 要测试的矩形的高度。 |
 
 ### 返回值
 
-当指定矩形的任何部分包含在此范围内时为真[`Region`](../../region);否则为假。
+当指定矩形的任何部分位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(Rectangle) {#isvisible_4}
 
-测试指定的任何部分是否[`Rectangle`](../../rectangle)结构包含在这个[`Region`](../../region) .
+测试指定的 [`Rectangle`](../../rectangle/) 结构的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(Rectangle rect)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | 这[`Rectangle`](../../rectangle)结构进行测试。 |
+| rect | Rectangle | 用于测试的 [`Rectangle`](../../rectangle/) 结构。 |
 
 ### 返回值
 
-当任何部分*rect*包含在这个[`Region`](../../region);否则为假。
+当 *rect* 的任何部分包含在此 [`Region`](../) 中时，此方法返回 true；否则返回 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [Rectangle](../../rectangle)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Rectangle](../../rectangle/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(int, int, int, int, Graphics) {#isvisible_10}
 
-测试指定矩形的任何部分是否包含在此[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定矩形的任何部分是否位于此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(int x, int y, int width, int height, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | x | Int32 | 要测试的矩形左上角的 x 坐标。 |
 | y | Int32 | 要测试的矩形左上角的 y 坐标。 |
-| width | Int32 | 要测试的矩形的宽度。 |
-| height | Int32 | 要测试的矩形的高度。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| 宽度 | Int32 | 要测试的矩形的宽度。 |
+| 高度 | Int32 | 要测试的矩形的高度。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-当指定矩形的任何部分包含在此范围内时为真[`Region`](../../region);否则为假。
+当指定矩形的任何部分位于此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsVisible(Rectangle, Graphics) {#isvisible_5}
 
-测试指定的任何部分是否[`Rectangle`](../../rectangle)结构包含在这个[`Region`](../../region)使用指定绘制时[`Graphics`](../../graphics) .
+测试在使用指定的 [`Graphics`](../../graphics/) 绘制时，指定的 [`Rectangle`](../../rectangle/) 结构的任何部分是否包含在此 [`Region`](../) 中。
 
 ```csharp
 public bool IsVisible(Rectangle rect, Graphics g)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | 这[`Rectangle`](../../rectangle)结构进行测试。 |
-| g | Graphics | 一个[`Graphics`](../../graphics)表示图形上下文。 |
+| rect | Rectangle | 用于测试的 [`Rectangle`](../../rectangle/) 结构。 |
+| g | Graphics | 表示图形上下文的 [`Graphics`](../../graphics/)。 |
 
 ### 返回值
 
-true 当*rect*包含在这个[`Region`](../../region);否则为假。
+当 *rect* 的任何部分包含在此 [`Region`](../) 中时为 true；否则为 false。
 
-### 也可以看看
+### 另请参见
 
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* class [Region](../../region)
-* 命名空间 [Aspose.Imaging](../../region)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../../graphics/)
+* class [Region](../)
+* namespace [Aspose.Imaging](../../region/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

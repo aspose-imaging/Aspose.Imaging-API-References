@@ -1,9 +1,9 @@
 ---
-title: ImageMasking
-second_title: Aspose.Imaging for .NET API 参考
-description: 提供图像遮罩操作
+title: "类 ImageMasking"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.Masking.ImageMasking 类。提供图像遮罩操作"
 type: docs
-weight: 10430
+weight: 10980
 url: /zh/net/aspose.imaging.masking/imagemasking/
 ---
 ## ImageMasking class
@@ -16,29 +16,29 @@ public class ImageMasking
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ImageMasking](imagemasking)(RasterImage) | 初始化[`ImageMasking`](../imagemasking)类. |
+| [ImageMasking](imagemasking/)(RasterImage) | 初始化 `ImageMasking` 类的新实例。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [CreateSession](../../aspose.imaging.masking/imagemasking/createsession)(MaskingOptions) | 创建可以执行再训练分解操作的屏蔽会话。 |
-| [Decompose](../../aspose.imaging.masking/imagemasking/decompose)(MaskingOptions) | 使用指定的掩码选项执行分解操作 |
-| [DecomposeAsync](../../aspose.imaging.masking/imagemasking/decomposeasync)(MaskingOptions) | 使用指定的屏蔽选项创建异步分解任务。 |
-| [LoadSession](../../aspose.imaging.masking/imagemasking/loadsession#loadsession)(Stream) | 从指定的流中加载会话。 |
-| [LoadSession](../../aspose.imaging.masking/imagemasking/loadsession#loadsession_1)(string) | 从指定文件加载会话。 |
-| static [ApplyMask](../../aspose.imaging.masking/imagemasking/applymask)(RasterImage, RasterImage, MaskingOptions) | 将遮罩应用到指定的源图像。 |
+| [CreateSession](../../aspose.imaging.masking/imagemasking/createsession/)(MaskingOptions) | 创建遮罩会话，可执行再训练分解操作。 |
+| [Decompose](../../aspose.imaging.masking/imagemasking/decompose/)(MaskingOptions) | 使用指定的遮罩选项执行分解操作 |
+| [DecomposeAsync](../../aspose.imaging.masking/imagemasking/decomposeasync/)(MaskingOptions) | 使用指定的遮罩选项创建异步分解任务。 |
+| [LoadSession](../../aspose.imaging.masking/imagemasking/loadsession/#loadsession)(Stream) | 从指定的流加载会话。 |
+| [LoadSession](../../aspose.imaging.masking/imagemasking/loadsession/#loadsession_1)(string) | 从指定的文件加载会话。 |
+| static [ApplyMask](../../aspose.imaging.masking/imagemasking/applymask/)(RasterImage, RasterImage, MaskingOptions) | 将遮罩应用于指定的源图像。 |
 
-### 例子
+## 示例
 
-使用分段掩码加快分段过程
+使用分段掩码加速分割过程
 
 ```csharp
 [C#]
 
-// 屏蔽导出选项
+// 掩码导出选项
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -50,7 +50,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-// 背景颜色将是透明的。
+// 背景颜色将变为透明。
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -59,19 +59,19 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Size imageSize = image.Size;
 
-    // 减小图像大小以加快分割过程
+    // 减小图像尺寸以加速分割过程
     image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
 
     // 创建 ImageMasking 类的实例。
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-    // 将源图像分成几个簇（段）。
+    // 将源图像划分为多个簇（段）。
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-        // 获取前景蒙版
+        // 获取前景掩码
         using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
         {
-            // 将蒙版的大小增加到原始图像的大小
+            // 将掩码大小增至原始图像的尺寸
             foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
             // 将掩码应用于原始图像以获得前景段
@@ -85,7 +85,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-将屏蔽会话保存到文件以用于长时间会话，以及在另一个环境中恢复会话的可能性。
+将遮罩会话保存到文件，以便长时间会话以及在其他环境中恢复会话的可能性。
 
 ```csharp
 [C#]
@@ -93,7 +93,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 string dir = "c:\\temp\\";
 string sessionBackupFile = dir + "session.bak";
 
-// 屏蔽导出选项
+// 掩码导出选项
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -105,7 +105,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-// 背景颜色为橙色。
+// 背景颜色将为橙色。
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -129,7 +129,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     }
 }
 
-// 从文件恢复屏蔽会话
+// 从文件恢复遮罩会话
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
     // 创建 ImageMasking 类的实例。
@@ -139,7 +139,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     {
         Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-        // 对图像进行可视化分析，并设置属于分离对象的点。
+        // 对图像进行视觉分析并设置属于分离对象的点。
         args.ObjectsPoints = new Point[][]
                                      {
                                          new Point[]
@@ -151,7 +151,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
                                      };
         using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = session.ImproveDecomposition(args))
         {
-            // 导出选项的显式传输，因为它不可序列化
+            // 显式转移导出选项，因为它不可序列化
             maskingResult.MaskingOptions.ExportOptions = exportOptions;
 
             using (Aspose.Imaging.RasterImage segmentImage = maskingResult[1].GetImage())
@@ -163,9 +163,9 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* 命名空间 [Aspose.Imaging.Masking](../../aspose.imaging.masking)
-* 部件 [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.Masking](../../aspose.imaging.masking/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

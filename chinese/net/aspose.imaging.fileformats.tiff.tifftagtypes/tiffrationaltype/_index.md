@@ -1,14 +1,14 @@
 ---
-title: TiffRationalType
-second_title: Aspose.Imaging for .NET API 参考
-description: tiff 有理类型
+title: "类 TiffRationalType"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Tiff.TiffTagTypes.TiffRationalType 类。tiff 有理数类型"
 type: docs
-weight: 7980
+weight: 8150
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/
 ---
 ## TiffRationalType class
 
-tiff 有理类型。
+tiff rational 类型。
 
 ```csharp
 public sealed class TiffRationalType : TiffCommonArrayType
@@ -16,41 +16,42 @@ public sealed class TiffRationalType : TiffCommonArrayType
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [TiffRationalType](tiffrationaltype#constructor)(TiffTags) | 初始化[`TiffRationalType`](../tiffrationaltype)类. |
-| [TiffRationalType](tiffrationaltype#constructor_1)(ushort) | 初始化[`TiffRationalType`](../tiffrationaltype)类. |
+| [TiffRationalType](tiffrationaltype/#constructor)(TiffTags) | 初始化 `TiffRationalType` 类的新实例。 |
+| [TiffRationalType](tiffrationaltype/#constructor_1)(ushort) | 初始化 `TiffRationalType` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [AlignedDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/aligneddatasize) { get; } | 获取以字节为单位的附加数据大小（如果 12 个字节不足以容纳标签数据）。 |
-| [Count](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/count) { get; } | 获取元素的计数。 |
-| [DataSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/datasize) { get; } | 获取以字节为单位的附加数据大小（如果 12 个字节不足以容纳标签数据）。 |
-| override [ElementSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/elementsize) { get; } | 以字节为单位获取元素大小。 |
-| [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id) { get; } | 获取标签 id 整数表示。 |
-| [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid) { get; } | 获取一个值，该值指示标签数据是否有效。有效标签包含可以保留的数据。无法存储无效标签。 |
-| [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid) { get; } | 获取标签id。 |
-| override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/tagtype) { get; } | 获取标签类型。 |
-| override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/value) { get; set; } | 获取或设置此数据类型包含的值。 |
-| [Values](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/values) { get; set; } | 获取或设置值。 |
-| override [ValuesContainer](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/valuescontainer) { get; } | 获取值容器。 |
+| [Count](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/count/) { get; } | 获取元素的计数。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/datasize/) { get; } | 获取标签值的大小。 |
+| override [ElementSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/elementsize/) { get; } | 获取元素的字节大小。 |
+| [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id/) { get; } | 获取标签 ID（数字）。 |
+| [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid/) { get; } | 获取一个值，指示标签数据是否有效。有效的标签包含可保留的数据。无效的标签无法存储。 |
+| [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid/) { get; } | 获取标签 ID。 |
+| override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/tagtype/) { get; } | 获取标签类型。 |
+| override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/value/) { get; set; } | 获取或设置此数据类型包含的值。 |
+| [Values](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/values/) { get; set; } | 获取或设置这些值。 |
+| override [ValuesContainer](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/valuescontainer/) { get; } | 获取值容器。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在与另一个对象相同的位置之前、之后还是出现在相同的位置。 |
-| virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | 执行此实例的深度克隆。 |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | 返回一个String代表这个实例。 |
-| override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/writeadditionaldata)(TiffStreamWriter) | 写入附加标签数据。 |
-| [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | 写入标签数据。 |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto/)(object) | 比较当前实例与同类型的另一个对象，并返回一个整数，指示当前实例在排序顺序中是位于前、后还是与另一个对象相同位置。 |
+| virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone/)() | 对该实例执行深度克隆。 |
+| virtual [GetAdditionalDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/getadditionaldatasize/)(byte) | 获取附加标签值的字节大小（如果标签无法容纳完整的标签值）。 |
+| [GetAlignedDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/getaligneddatasize/)(byte) | 获取对齐到 4 字节（int）或 8 字节（long）边界的数据大小。 |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring/)() | 返回表示此实例的 String。 |
+| override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/writeadditionaldata/)(TiffStreamWriter) | 写入附加标签数据。 |
+| [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag/)(TiffStreamWriter, long) | 写入标签数据。 |
 
-### 也可以看看
+### 另请参见
 
-* class [TiffCommonArrayType](../tiffcommonarraytype)
-* 命名空间 [Aspose.Imaging.FileFormats.Tiff.TiffTagTypes](../../aspose.imaging.fileformats.tiff.tifftagtypes)
-* 部件 [Aspose.Imaging](../../)
+* class [TiffCommonArrayType](../tiffcommonarraytype/)
+* namespace [Aspose.Imaging.FileFormats.Tiff.TiffTagTypes](../../aspose.imaging.fileformats.tiff.tifftagtypes/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

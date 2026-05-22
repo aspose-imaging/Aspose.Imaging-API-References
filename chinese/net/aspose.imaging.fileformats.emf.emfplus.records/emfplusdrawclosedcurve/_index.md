@@ -1,14 +1,14 @@
 ---
-title: EmfPlusDrawClosedCurve
-second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusDrawClosedCurve 记录指定绘制闭合基数样条
+title: "类 EmfPlusDrawClosedCurve"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawClosedCurve 类。EmfPlusDrawClosedCurve 记录指定绘制闭合基数样条曲线。"
 type: docs
-weight: 5920
+weight: 6040
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/
 ---
 ## EmfPlusDrawClosedCurve class
 
-EmfPlusDrawClosedCurve 记录指定绘制闭合基数样条
+EmfPlusDrawClosedCurve 记录指定绘制闭合的基数样条曲线。
 
 ```csharp
 public sealed class EmfPlusDrawClosedCurve : EmfPlusDrawingRecordType
@@ -16,28 +16,28 @@ public sealed class EmfPlusDrawClosedCurve : EmfPlusDrawingRecordType
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [EmfPlusDrawClosedCurve](emfplusdrawclosedcurve)(EmfPlusRecord) | 初始化[`EmfPlusDrawClosedCurve`](../emfplusdrawclosedcurve) class. RecordType - 一个 16 位无符号整数，用于将此记录类型标识为 RecordType 枚举（第 2.1.1.1 节）中的 EmfPlusDrawClosedCurve 。该值必须是 0x4017. |
+| [EmfPlusDrawClosedCurve](emfplusdrawclosedcurve/)(EmfPlusRecord) | 初始化 `EmfPlusDrawClosedCurve` 类的新实例。RecordType - 一个 16 位无符号整数，用于标识此记录类型为来自 RecordType 枚举（第 2.1.1.1 节）的 EmfPlusDrawClosedCurve。该值必须为 0x4017。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/compressed) { get; set; } | 获取或设置一个值，该值指示是否[`EmfPlusDrawClosedCurve`](../emfplusdrawclosedcurve)被压缩。 该位指示PointData字段是否指定压缩数据。 如果设置，PointData指定坐标空间中的绝对位置，具有16位整数坐标。 如果清除，PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置 注意如果设置了相对标志（如下），则该标志未定义并且必须被忽略 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/objectid) { get; set; } | 获取或设置对象标识符。 EmfPlusPen 对象（第 2.2.1.7 节）在 EMF+ 对象表中的索引，用于绘制闭合曲线。该值必须是 0 到 63，包括在内。 |
-| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/pointdata) { get; set; } | 获取或设置点 data Count 点数组，指定定义样条线的线的端点。在闭合基数样条中， 曲线继续通过 PointData 数组中的最后一个点并与数组中的第一个点相连。 此数组中的数据类型由 Flags 字段指定，如下所示： 数据类型含义 EmfPlusPointR对象（第 2.2.2.37 节） 如果在标志中设置了 P 标志，则点指定相对位置。 EmfPlusPointF 对象（第 2.2.2.36 节） 如果在标志字段中设置了 P 和 C 位，则点指定绝对位置。 EmfPlusPoint 对象（第 2.2.2.35 节） 如果 P 位清零并且在标志字段中设置了 C 位，则这些点指定相对位置。 |
-| [Relative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/relative) { get; set; } | 获取或设置一个值，该值指示是否[`EmfPlusDrawClosedCurve`](../emfplusdrawclosedcurve)是相对的。 该位指示 PointData 字段是指定相对位置还是绝对位置。 如果设置，PointData 中的每个元素都指定坐标空间中的位置，该位置与数组中前一个元素指定的位置相对 。对于 PointData 中的第一个 元素，假定坐标 (0,0) 处的先前位置。如果清除， PointData 根据 C 标志指定绝对位置。 注意如果设置了此标志，则压缩标志（上）未定义并且必须被忽略 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
-| [Tension](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/tension) { get; set; } | 获取或设置tension 一个 32 位浮点数，指定样条 在通过点时弯曲的紧密程度。值 0 指定 样条曲线是直线序列。随着值的增加， 曲线变得更加圆润。有关详细信息，请参阅 [SPLINE77] 和 [PETZOLD]。 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/compressed/) { get; set; } | 获取或设置一个值，指示此 `EmfPlusDrawClosedCurve` 是否被压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，PointData 使用 16 位整数坐标指定坐标空间中的绝对位置。如果清除，PointData 使用 32 位浮点坐标指定绝对位置。注意：如果下面的 Relative 标志被设置，则此标志未定义，必须被忽略。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | 获取或设置一个 32 位无符号整数，必须定义随后 RecordData 字段中数据的 32 位对齐字节数。此数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | 获取或设置一个 16 位无符号整数，包含某些记录的操作执行方式及记录结构的信息。 |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/objectid/) { get; set; } | 获取或设置对象标识符。该索引是 EMF+ 对象表中用于绘制闭合曲线的 EmfPlusPen 对象（第 2.2.1.7 节）的索引。该值必须在 0 到 63（含）之间。 |
+| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/pointdata/) { get; set; } | 获取或设置点数据。一个包含 Count 个点的数组，这些点指定定义样条曲线的线段的端点。在闭合基数样条中，曲线通过 PointData 数组中的最后一点继续，并与数组中的第一点相连。此数组中的数据类型由 Flags 字段指定，如下所示：数据类型 含义 EmfPlusPointR 对象（第 2.2.2.37 节）如果 Flags 中设置了 P 标志，则点指定相对位置。EmfPlusPointF 对象（第 2.2.2.36 节）如果 Flags 字段中同时设置了 P 和 C 位，则点指定绝对位置。EmfPlusPoint 对象（第 2.2.2.35 节）如果 Flags 字段中 P 位未设置且 C 位已设置，则点指定相对位置。 |
+| [Relative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/relative/) { get; set; } | 获取或设置一个值，指示此 `EmfPlusDrawClosedCurve` 是否为相对的。此位指示 PointData 字段是指定相对位置还是绝对位置。如果设置，PointData 中的每个元素指定相对于数组中前一个元素位置的坐标空间位置。对于 PointData 的第一个元素，假定前一个位置为坐标 (0,0)。如果清除，PointData 根据 C 标志指定绝对位置。注意：如果此标志被设置，上述压缩标志未定义，必须被忽略。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录的 32 位对齐字节数，包括 12 字节的记录头和记录特定数据。 |
+| [Tension](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/tension/) { get; set; } | 获取或设置张力。一个 32 位浮点数，指定样条曲线在经过各点时的弯曲程度。值为 0 表示样条是一系列直线。值越大，曲线越圆滑。更多信息，请参阅 [SPLINE77] 和 [PETZOLD]。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | 获取一个 16 位无符号整数，标识记录类型。 |
 
-### 也可以看看
+### 另请参见
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* 命名空间 [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* 部件 [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
