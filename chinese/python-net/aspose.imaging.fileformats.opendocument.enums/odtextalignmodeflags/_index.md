@@ -1,0 +1,28 @@
+---
+title: "OdTextAlignModeFlags 枚举"
+type: docs
+weight: 50
+url: /zh/python-net/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/
+---
+
+Open Document 文本对齐模式标志
+
+**Module:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/)
+
+**Full Name:** aspose.imaging.fileformats.opendocument.enums.OdTextAlignModeFlags
+
+## **Members**
+| **成员名称** | **描述** |
+| :- | :- |
+| BASELINE | 参考点必须位于文本的基线位置。 |
+| BOTTOM | 参考点必须位于边界矩形的底部边缘。 |
+| CENTER | 参考点必须水平对齐到边界矩形的中心。 |
+| HORIZONTAL | 表示水平文本对齐集合（左 | Right | Center) |
+| 两端对齐 | 文本必须以每行段落具有相同长度的方式对齐。 |
+| LEFT | 参考点必须位于边界矩形的左侧边缘。 |
+| NOUPDATECP | 在回放设备上下文中，绘图位置在每次<br/>                文本输出调用后必须不被更新。必须将参考点传递给文本输出函数。 |
+| RIGHT | 参考点必须位于边界矩形的右侧边缘。 |
+| RTLREADING | 文本必须以从右到左的阅读顺序布局，而不是默认的从左到右顺序。此应<br/>                仅在回放设备上下文中定义的字体为希伯来语或阿拉伯语时应用。 |
+| TOP | 参考点必须位于边界矩形的顶部边缘。 |
+| UPDATECP | 在回放设备上下文中，绘图位置必须在每次文本<br/>                输出调用后更新。它必须用作参考点。 |
+| VERTICAL | 表示垂直文本对齐设置（顶部 | Bottom | Baseline) |
