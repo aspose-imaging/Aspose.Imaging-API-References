@@ -1,0 +1,35 @@
+---
+title: "فئة IRasterImagePixelLoader"
+type: docs
+weight: 5560
+url: /ar/python-net/aspose.imaging/irasterimagepixelloader/
+---
+
+**Summary:** The raster image pixel loader.
+
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+
+**Full Name:** aspose.imaging.IRasterImagePixelLoader
+
+## **Methods**
+| **Name** | **الوصف** |
+| :- | :- |
+| [load_partial_pixels(rectangle, partial_pixel_loader)](#load_partial_pixels_rectangle_partial_pixel_loader_1) | يحمّل البكسلات جزئيًا (حسب الكتل). |
+
+
+### Method: load_partial_pixels(rectangle, partial_pixel_loader) {#load_partial_pixels_rectangle_partial_pixel_loader_1}
+
+
+```
+ load_partial_pixels(rectangle, partial_pixel_loader) 
+```
+
+يحمّل البكسلات جزئيًا (حسب الكتل).
+
+**Parameters:**
+
+| معامل | نوع | الوصف |
+| :- | :- | :- |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | المستطيل لتحميل البكسلات منه. |
+| partial_pixel_loader | [IPartialPixelLoader](/imaging/python-net/aspose.imaging/ipartialpixelloader/) | محمل البكسل الجزئي. |
+
