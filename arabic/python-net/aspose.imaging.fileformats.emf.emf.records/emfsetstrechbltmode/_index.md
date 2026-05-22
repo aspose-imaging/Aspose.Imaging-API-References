@@ -1,0 +1,91 @@
+---
+title: "EmfSetStrechBltMode فئة"
+type: docs
+weight: 1290
+url: /ar/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/
+---
+
+**Summary:** The EMR_SETSTRETCHBLTMODE record specifies bitmap stretch mode.
+
+**Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
+
+**Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetStrechBltMode
+
+**Inheritance:** EmfStateRecordType
+
+## **Constructors**
+| **Name** | **الوصف** |
+| :- | :- |
+| [EmfSetStrechBltMode(source)](#EmfSetStrechBltMode_source_1) | يُنشئ نسخة جديدة من الفئة [EmfSetStrechBltMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/). |
+## **Properties**
+| **Name** | **Type** | **Access** | **الوصف** |
+| :- | :- | :- | :- |
+| الحجم | int | r/w | يحصل أو يعيّن حجم السجل |
+| stretch_mode | [EmfStretchMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/) | r/w | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد وضع التمدد وقد يكون<br/> في تعداد StretchMode. |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | يحصل أو يحدد النوع. |
+## **Methods**
+| **Name** | **الوصف** |
+| :- | :- |
+| [create_from_record(source)](#create_from_record_source_1) | ينشئ مثيلًا جديدًا من الفئة [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/). |
+| [create_from_type(type)](#create_from_type_type_2) | ينشئ مثيلًا جديدًا من الفئة [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/). |
+
+
+### Constructor: EmfSetStrechBltMode(source) {#EmfSetStrechBltMode_source_1}
+
+
+```
+ EmfSetStrechBltMode(source) 
+```
+
+يُنشئ نسخة جديدة من الفئة [EmfSetStrechBltMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/).
+
+**Parameters:**
+
+| معامل | نوع | الوصف |
+| :- | :- | :- |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | المصدر. |
+
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
+
+
+```
+ create_from_record(source) 
+```
+
+ينشئ مثيلًا جديدًا من الفئة [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/).
+
+**Parameters:**
+
+| معامل | نوع | الوصف |
+| :- | :- | :- |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | المصدر. |
+
+**Returns**
+
+| نوع | الوصف |
+| :- | :- |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
+
+
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
+
+
+```
+ create_from_type(type) 
+```
+
+ينشئ مثيلًا جديدًا من الفئة [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/).
+
+**Parameters:**
+
+| معامل | نوع | الوصف |
+| :- | :- | :- |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | نوع السجل. |
+
+**Returns**
+
+| نوع | الوصف |
+| :- | :- |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
+
+
