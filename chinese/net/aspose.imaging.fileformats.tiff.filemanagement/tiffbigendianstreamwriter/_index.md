@@ -1,62 +1,67 @@
 ---
-title: TiffBigEndianStreamWriter
-second_title: Aspose.Imaging for .NET API 参考
-description: 用于大端流的 Tiff 流编写器
+title: "类 TiffBigEndianStreamWriter"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Tiff.FileManagement.TiffBigEndianStreamWriter 类。用于大端流的 Tiff 流写入器。"
 type: docs
-weight: 7770
+weight: 7920
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/
 ---
 ## TiffBigEndianStreamWriter class
 
-用于大端流的 Tiff 流编写器。
+大端序流的 Tiff 流写入器。
 
 ```csharp
-public sealed class TiffBigEndianStreamWriter : TiffStreamWriter
+public class TiffBigEndianStreamWriter : TiffStreamWriter
 ```
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [TiffBigEndianStreamWriter](tiffbigendianstreamwriter)(StreamContainer) | 初始化[`TiffBigEndianStreamWriter`](../tiffbigendianstreamwriter)类. |
+| [TiffBigEndianStreamWriter](tiffbigendianstreamwriter/)(StreamContainer) | 初始化 `TiffBigEndianStreamWriter` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Position](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/position) { get; set; } | 获取或设置流位置。 |
-| [SyncRoot](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/syncroot) { get; } | 获取可用于同步访问已同步资源的对象。 |
+| [Position](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/position/) { get; set; } | 获取或设置流位置。 |
+| [SyncRoot](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/syncroot/) { get; } | 获取可用于同步对同步资源访问的对象。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(byte[]) | 写入指定的数据。 |
-| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(byte[], int, int) | 写入指定的数据。 |
-| [WriteDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedouble)(double) | 将单个双精度值写入流。 |
-| [WriteDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedoublearray)(double[]) | 将双精度值数组写入流。 |
-| [WriteFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloat)(float) | 将单个浮点值写入流。 |
-| [WriteFloatArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloatarray)(float[]) | 将浮点值数组写入流。 |
-| [WriteRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writerational)(TiffRational) | 将单个有理数值写入流。 |
-| [WriteRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writerationalarray)(TiffRational[]) | 将一个无符号有理值数组写入流。 |
-| [WriteSByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbyte)(sbyte) | 将单个有符号字节值写入流。 |
-| [WriteSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbytearray)(sbyte[]) | 将有符号字节值数组写入流。 |
-| [WriteSlong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeslong)(int) | 将单个整数值写入流。 |
-| [WriteSLongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeslongarray)(int[]) | 将整数值数组写入流。 |
-| [WriteSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrational)(TiffSRational) | 将单个有符号有理数值写入流。 |
-| [WriteSRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrationalarray)(TiffSRational[]) | 将有符号有理值数组写入流。 |
-| [WriteSShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshort)(short) | 将单个短值写入流。 |
-| [WriteSShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshortarray)(short[]) | 将一个短值数组写入流。 |
-| [WriteUByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeubyte)(byte) | 将单个字节值写入流。 |
-| [WriteULong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeulong)(uint) | 将单个无符号整数值写入流。 |
-| [WriteULongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeulongarray)(uint[]) | 将一个无符号整数值数组写入流。 |
-| [WriteUShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeushort)(ushort) | 将单个无符号短值写入流。 |
-| [WriteUShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeushortarray)(ushort[]) | 将一个无符号短值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(byte) | 向流写入单个 byte 值。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(byte[]) | 写入指定的数据。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(double) | 向流写入单个 double 值。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(double[]) | 向流写入 double 值数组。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(float) | 将单个 float 值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(float[]) | 将 float 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(int) | 将单个 integer 值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(int[]) | 将 integer 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(long) | 将有符号 long 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(long[]) | 将有符号 long 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(MemoryStream) | 写入指定的数据。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(sbyte) | 将单个有符号 byte 值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(sbyte[]) | 将有符号 byte 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(short) | 将单个 short 值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(short[]) | 将 short 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffRational) | 将单个有理数值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffRational[]) | 将无符号有理数值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffSRational) | 将单个有符号有理数值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(TiffSRational[]) | 将有符号有理数值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(uint) | 将单个无符号整数值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(uint[]) | 将无符号整数值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ulong) | 将无符号 long 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ulong[]) | 将无符号 long 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ushort) | 将单个无符号 short 值写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(ushort[]) | 将无符号 short 值数组写入流。 |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/)(byte[], int, int) | 写入指定的数据。 |
 
-### 也可以看看
+### 另请参见
 
-* class [TiffStreamWriter](../tiffstreamwriter)
-* 命名空间 [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../aspose.imaging.fileformats.tiff.filemanagement)
-* 部件 [Aspose.Imaging](../../)
+* class [TiffStreamWriter](../tiffstreamwriter/)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../aspose.imaging.fileformats.tiff.filemanagement/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

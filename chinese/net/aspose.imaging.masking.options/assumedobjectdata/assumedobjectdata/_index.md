@@ -1,43 +1,43 @@
 ---
-title: AssumedObjectData
-second_title: Aspose.Imaging for .NET API 参考
-description: 初始化AssumedObjectDataaspose.imaging.masking.options/assumedobjectdata类.
+title: "AssumedObjectData.AssumedObjectData"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "AssumedObjectData 构造函数。初始化 AssumedObjectData 类的新实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.masking.options/assumedobjectdata/assumedobjectdata/
 ---
 ## AssumedObjectData() {#constructor}
 
-初始化[`AssumedObjectData`](../../assumedobjectdata)类.
+初始化 [`AssumedObjectData`](../) 类的新实例。
 
 ```csharp
 public AssumedObjectData()
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [AssumedObjectData](../../assumedobjectdata)
-* 命名空间 [Aspose.Imaging.Masking.Options](../../assumedobjectdata)
-* 部件 [Aspose.Imaging](../../../)
+* class [AssumedObjectData](../)
+* namespace [Aspose.Imaging.Masking.Options](../../assumedobjectdata/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## AssumedObjectData(DetectedObjectType, Rectangle) {#constructor_1}
 
-初始化[`AssumedObjectData`](../../assumedobjectdata)类.
+初始化 [`AssumedObjectData`](../) 类的新实例。
 
 ```csharp
 public AssumedObjectData(DetectedObjectType type, Rectangle bounds)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| type | DetectedObjectType | 对象的类型。 |
+| 类型 | DetectedObjectType | 对象的类型。 |
 | bounds | Rectangle | 对象的边界。 |
 
-### 例子
+## 示例
 
-根据图像大小使用羽化保存图像遮罩结果。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。
+根据图像尺寸进行羽化后保存图像掩模结果。图像掩模使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。
 
 ```csharp
 [C#]
@@ -74,7 +74,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-基于图像大小的羽化保存图像遮罩结果，并为新的遮罩迭代重新使用遮罩选项。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获得初始遮罩结果后，修改应用的背景/前景笔画并执行另一次遮罩迭代。
+根据图像尺寸进行羽化后保存图像掩模结果，并在新的掩模迭代中重复使用掩模选项。图像掩模使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获取初始掩模结果后，已应用的背景/前景笔画被修改，并进行另一次掩模迭代。
 
 ```csharp
 [C#]
@@ -106,8 +106,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-// 可以手动提供前景/背景笔触。
+// 此时可以分析已应用的前景/背景笔画，并基于此额外 
+// 前景/背景笔画可以手动提供。
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -118,13 +118,13 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    // 重新使用 AutoMaskingGraphCutOptions 不需要第二次执行默认笔画计算。
+    // 重新使用 AutoMaskingGraphCutOptions 时，无需第二次执行默认笔画计算。
     options.CalculateDefaultStrokes = false;
-    // 当 AutoMaskingArgs 的 Args 属性中的默认笔画和 ObjectsPoints 都提供时，点数组最终会合并。
-    // 第一个 ObjectsPoints 数组被认为是背景点数组，并且 
-    // 第二个 ObjectsPoints 数组被认为是前景点数组。
-    // 当 AutoMaskingArgs 的 Args 属性中的 DefaultObjectsRectangles 和 ObjectsRectangles 都提供时， 
-    // 仅使用 Args 中的数组。
+    // 当在 AutoMaskingArgs 的 Args 属性中同时提供 default strokes 和 ObjectsPoints 时，Point 数组最终会合并。
+    // 第一个 ObjectsPoints 数组被视为背景点数组，且 
+    // 第二个 ObjectsPoints 数组被视为前景点数组。
+    // 当在 AutoMaskingArgs 的 Args 属性中同时提供 DefaultObjectsRectangles 和 ObjectsRectangles 时，
+    // 仅使用来自 Args 的数组。
     options.Args = new AutoMaskingArgs()
                         {
                             ObjectsPoints = new Point[][]
@@ -146,7 +146,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-根据图像大小使用羽化保存图像遮罩结果，修改获得的默认笔画并将其用于新的遮罩迭代。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获得初始遮罩结果后，修改应用的背景/前景笔划，并使用新的 GraphCutMaskingOptions 实例执行另一次遮罩迭代。
+根据图像大小进行羽化后保存图像遮罩结果，修改获得的 default strokes 并将其用于新的遮罩迭代。图像遮罩使用自动计算的 default strokes 执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获取初始遮罩结果后，已应用的背景/前景 strokes 被修改，并使用新的 GraphCutMaskingOptions 实例执行另一次遮罩迭代。
 
 ```csharp
 [C#]
@@ -179,8 +179,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-// 可以手动提供前景/背景笔触。
+// 此时可以分析已应用的前景/背景笔画，并基于此额外 
+// 前景/背景笔画可以手动提供。
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -228,34 +228,34 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* enum [DetectedObjectType](../../detectedobjecttype)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [AssumedObjectData](../../assumedobjectdata)
-* 命名空间 [Aspose.Imaging.Masking.Options](../../assumedobjectdata)
-* 部件 [Aspose.Imaging](../../../)
+* enum [DetectedObjectType](../../detectedobjecttype/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [AssumedObjectData](../)
+* namespace [Aspose.Imaging.Masking.Options](../../assumedobjectdata/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## AssumedObjectData(string, Rectangle) {#constructor_2}
 
-初始化[`AssumedObjectData`](../../assumedobjectdata)类.
+初始化 [`AssumedObjectData`](../) 类的新实例。
 
 ```csharp
 public AssumedObjectData(string type, Rectangle bounds)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| type | String | 对象的类型。 |
+| 类型 | String | 对象的类型。 |
 | bounds | Rectangle | 对象的边界。 |
 
-### 也可以看看
+### 另请参见
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [AssumedObjectData](../../assumedobjectdata)
-* 命名空间 [Aspose.Imaging.Masking.Options](../../assumedobjectdata)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [AssumedObjectData](../)
+* namespace [Aspose.Imaging.Masking.Options](../../assumedobjectdata/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

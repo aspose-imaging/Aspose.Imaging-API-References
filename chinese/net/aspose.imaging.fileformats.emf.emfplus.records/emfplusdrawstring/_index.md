@@ -1,14 +1,14 @@
 ---
-title: EmfPlusDrawString
-second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusDrawString 记录使用字符串格式指定文本输出
+title: "类 EmfPlusDrawString"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawString 类。EmfPlusDrawString 记录指定带有字符串格式的文本输出。"
 type: docs
-weight: 6020
+weight: 6140
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/
 ---
 ## EmfPlusDrawString class
 
-EmfPlusDrawString 记录使用字符串格式指定文本输出
+EmfPlusDrawString 记录指定带有字符串格式化的文本输出。
 
 ```csharp
 public sealed class EmfPlusDrawString : EmfPlusDrawingRecordType
@@ -16,30 +16,30 @@ public sealed class EmfPlusDrawString : EmfPlusDrawingRecordType
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [EmfPlusDrawString](emfplusdrawstring)(EmfPlusRecord) | 初始化[`EmfPlusDrawString`](../emfplusdrawstring)类. |
+| [EmfPlusDrawString](emfplusdrawstring/)(EmfPlusRecord) | 初始化 `EmfPlusDrawString` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/brushid) { get; set; } | 获取或设置画笔标识符 32 位无符号整数，指定画笔， 的内容由Flags 字段中的S 位决定。这个定义用 来绘制前景文本颜色；也就是说，只是字形本身。 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
-| [FormatId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/formatid) { get; set; } | 获取或设置格式标识符 一个 32 位无符号整数，指定 EMF+ 对象表中可选的 EmfPlusStringFormat 对象（第 2.2.1.9 节）的索引。 此对象指定要应用于字符串的文本布局信息和显示操作 |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/iscolor) { get; set; } | 获取或设置一个指示此实例是否为颜色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EmfPlusBrush 对象的索引 （第 2.2.1.1 节) 在 EMF+ 对象表中。 |
-| [LayoutRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/layoutrect) { get; set; } | 获取或设置布局 rect 一个 EmfPlusRectF 对象（第 2.2.2.39 节），它定义将接收字符串的目标的边界区域 |
-| [Length](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/length) { get; set; } | 获取或设置长度 32 位无符号整数，指定字符串中的字符数。 |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/objectid) { get; set; } | 获取或设置对象标识符。 EmfPlusFont 对象（第 2.2.1.3 节）在 EMF+ 对象表中的索引以呈现文本。该值必须是 0 到 63，包括在内。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
-| [StringData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/stringdata) { get; set; } | 获取或设置字符串 data 指定要绘制的字符串的 16 位 Unicode 字符数组 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/brushid/) { get; set; } | 获取或设置画笔标识符，一个 32 位无符号整数，用于指定画笔，其内容由 Flags 字段中的 S 位决定。此定义用于绘制前景文本颜色；即仅绘制字形本身。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | 获取或设置一个 32 位无符号整数，必须定义随后 RecordData 字段中数据的 32 位对齐字节数。此数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | 获取或设置一个 16 位无符号整数，包含某些记录的操作执行方式及记录结构的信息。 |
+| [FormatId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/formatid/) { get; set; } | 获取或设置格式标识符，一个 32 位无符号整数，用于指定 EMF+ 对象表中可选的 EmfPlusStringFormat 对象（第 2.2.1.9 节）的索引。该对象指定要应用于字符串的文本布局信息和显示操作。 |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/iscolor/) { get; set; } | 获取或设置一个值，指示此实例是否为颜色。如果设置，则 BrushId 以 EmfPlusARGB 对象（第 2.2.2.1 节）指定颜色。如果未设置，则 BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。 |
+| [LayoutRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/layoutrect/) { get; set; } | 获取或设置布局矩形，一个 EmfPlusRectF 对象（第 2.2.2.39 节），定义将接收字符串的目标的边界区域。 |
+| [Length](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/length/) { get; set; } | 获取或设置长度，一个 32 位无符号整数，指定字符串中的字符数。 |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/objectid/) { get; set; } | 获取或设置对象标识符。EMF+ 对象表中用于渲染文本的 EmfPlusFont 对象（第 2.2.1.3 节）的索引。该值必须在 0 到 63（含）之间。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录的 32 位对齐字节数，包括 12 字节的记录头和记录特定数据。 |
+| [StringData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/stringdata/) { get; set; } | 获取或设置字符串数据，一个由 16 位 Unicode 字符组成的数组，指定要绘制的字符串。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | 获取一个 16 位无符号整数，标识记录类型。 |
 
-### 也可以看看
+### 另请参见
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* 命名空间 [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* 部件 [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

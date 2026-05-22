@@ -1,82 +1,82 @@
 ---
-title: Pen
-second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Penaspose.imaging/pen具有指定颜色的类
+title: "Pen.Pen"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Pen 构造函数。使用指定的颜色初始化 Pen 类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/pen/pen/
 ---
 ## Pen(Color) {#constructor_2}
 
-初始化[`Pen`](../../pen)具有指定颜色的类。
+使用指定的颜色初始化 [`Pen`](../) 类的新实例。
 
 ```csharp
 public Pen(Color color)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| color | Color | 一个[`Color`](../color)指示此颜色的结构[`Pen`](../../pen). |
+| color | Color | 一个指示此 [`Pen`](../) 颜色的 [`Color`](../color/) 结构。 |
 
-### 也可以看看
+### 另请参见
 
-* struct [Color](../../color)
-* class [Pen](../../pen)
-* 命名空间 [Aspose.Imaging](../../pen)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Pen(Color, float) {#constructor_3}
 
-初始化[`Pen`](../../pen)具有指定的类[`Color`](../color)和[`Width`](../width)属性.
+使用指定的 [`Color`](../color/) 和 [`Width`](../width/) 属性初始化 [`Pen`](../) 类的新实例。
 
 ```csharp
 public Pen(Color color, float width)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| color | Color | 一个[`Color`](../color)指示此颜色的结构[`Pen`](../../pen). |
-| width | Single | 表示此宽度的值[`Pen`](../../pen). |
+| color | Color | 一个指示此 [`Pen`](../) 颜色的 [`Color`](../color/) 结构。 |
+| width | Single | 一个指示此 [`Pen`](../) 宽度的值。 |
 
-### 例子
+## 示例
 
-这个例子展示了 Pen 对象的创建和使用。该示例创建一个新图像并在图像表面上绘制矩形。
+此示例展示了 Pen 对象的创建和使用。示例创建了一个新的 Image 并在图像表面绘制矩形。
 
 ```csharp
 [C#]
 
-//创建一个BmpOptions的实例并设置它的各种属性
+//创建 BmpOptions 的实例并设置其各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
-//第二个布尔参数确定要创建的文件是否为IsTemporal
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-//在指定路径创建一个Image实例
+//在指定路径创建 Image 的实例
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    //创建一个Graphics实例并用Image对象初始化
+    //创建 Graphics 的实例并使用 Image 对象进行初始化
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    //用白色清除图形表面
+    //使用白色清除 Graphics 表面
     graphics.Clear(Aspose.Imaging.Color.White);
 
-    //创建一个Pen实例，颜色为红色，宽度为5
+    //创建颜色为 Red、宽度为 5 的 Pen 实例
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-    //创建一个HatchBrush实例并设置它的属性
+    //创建 HatchBrush 的实例并设置其属性
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-    //创建一个Pen实例
-    //用 HatchBrush 对象和宽度初始化它
+    //创建 Pen 的实例
+    //使用 HatchBrush 对象和宽度进行初始化
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    //通过指定Pen对象绘制矩形
+    //通过指定 Pen 对象绘制矩形
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -84,7 +84,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    //通过指定Pen对象绘制矩形
+    //通过指定 Pen 对象绘制矩形
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
@@ -96,66 +96,66 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* struct [Color](../../color)
-* class [Pen](../../pen)
-* 命名空间 [Aspose.Imaging](../../pen)
-* 部件 [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Pen(Brush) {#constructor}
 
-初始化[`Pen`](../../pen)具有指定的类[`Brush`](../brush) .
+使用指定的 [`Brush`](../brush/) 初始化 [`Pen`](../) 类的新实例。
 
 ```csharp
 public Pen(Brush brush)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | 一个[`Brush`](../brush)决定了这个的填充属性[`Pen`](../../pen). |
+| brush | Brush | 一个决定此 [`Pen`](../) 填充属性的 [`Brush`](../brush/)。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | *brush*一片空白。 |
+| ArgumentNullException | *brush* 为 null。 |
 
-### 也可以看看
+### 另请参见
 
-* class [Brush](../../brush)
-* class [Pen](../../pen)
-* 命名空间 [Aspose.Imaging](../../pen)
-* 部件 [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Pen(Brush, float) {#constructor_1}
 
-初始化[`Pen`](../../pen)具有指定的类[`Brush`](../brush)和[`Width`](../width) .
+使用指定的 [`Brush`](../brush/) 和 [`Width`](../width/) 初始化 [`Pen`](../) 类的新实例。
 
 ```csharp
 public Pen(Brush brush, float width)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | 一个[`Brush`](../brush)这决定了它的特性[`Pen`](../../pen). |
-| width | Single | 新的宽度[`Pen`](../../pen). |
+| brush | Brush | 一个决定此 [`Pen`](../) 特性的 [`Brush`](../brush/)。 |
+| width | Single | 新 [`Pen`](../) 的宽度。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | *brush*一片空白。 |
+| ArgumentNullException | *brush* 为 null。 |
 
-### 也可以看看
+### 另请参见
 
-* class [Brush](../../brush)
-* class [Pen](../../pen)
-* 命名空间 [Aspose.Imaging](../../pen)
-* 部件 [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

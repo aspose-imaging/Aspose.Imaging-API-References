@@ -1,14 +1,14 @@
 ---
-title: Point
-second_title: Aspose.Imaging for .NET API 参考
-description: 表示整数 x 和 y 坐标的有序对定义二维平面中的点
+title: "结构体 Point"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.Point 结构体。表示整数 x 和 y 坐标的有序对，定义二维平面中的点"
 type: docs
-weight: 10740
+weight: 11310
 url: /zh/net/aspose.imaging/point/
 ---
 ## Point structure
 
-表示整数 x 和 y 坐标的有序对，定义二维平面中的点。
+表示整数 x 和 y 坐标的有序对，定义二维平面上的一点。
 
 ```csharp
 public struct Point
@@ -16,45 +16,47 @@ public struct Point
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Point](point#constructor_1)(int) | 初始化[`Point`](../point)结构使用由整数值指定的坐标。 |
-| [Point](point#constructor)(Size) | 初始化[`Point`](../point)从结构[`Size`](../size)结构. |
-| [Point](point#constructor_2)(int, int) | 初始化[`Point`](../point)具有指定坐标的结构。 |
+| [Point](point/#constructor_1)(int) | 使用整数值指定的坐标初始化 `Point` 结构的新实例。 |
+| [Point](point/#constructor)(Size) | 从 [`Size`](../size/) 结构初始化 `Point` 结构的新实例。 |
+| [Point](point/#constructor_2)(int, int) | 使用指定的坐标初始化 `Point` 结构的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| static [Empty](../../aspose.imaging/point/empty) { get; } | 获取一个新的实例[`Point`](../point)具有的结构[`X`](./x)和[`Y`](./y)值设置为零。 |
-| [IsEmpty](../../aspose.imaging/point/isempty) { get; } | 获取一个值，该值指示这是否[`Point`](../point)是空的。 |
-| [X](../../aspose.imaging/point/x) { get; set; } | 获取或设置 this 的 x 坐标[`Point`](../point) . |
-| [Y](../../aspose.imaging/point/y) { get; set; } | 获取或设置 this 的 y 坐标[`Point`](../point) . |
+| static [Empty](../../aspose.imaging/point/empty/) { get; } | 获取一个 `Point` 结构的新实例，其 [`X`](./x/) 和 [`Y`](./y/) 值设为零。 |
+| [IsEmpty](../../aspose.imaging/point/isempty/) { get; } | 获取一个值，指示此 `Point` 是否为空。 |
+| [X](../../aspose.imaging/point/x/) { get; set; } | 获取或设置此 `Point` 的 x 坐标。 |
+| [Y](../../aspose.imaging/point/y/) { get; set; } | 获取或设置此 `Point` 的 y 坐标。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| static [Add](../../aspose.imaging/point/add)(Point, Size) | 添加指定的[`Size`](../size)到指定的[`Point`](../point) . |
-| static [Ceiling](../../aspose.imaging/point/ceiling)(PointF) | 转换指定的[`PointF`](../pointf)到一个[`Point`](../point)通过四舍五入的值[`PointF`](../pointf)到下一个更高的整数值。 |
-| static [Round](../../aspose.imaging/point/round)(PointF) | 转换指定的[`PointF`](../pointf)到一个[`Point`](../point)通过四舍五入的对象[`Point`](../point)值到最接近的整数。 |
-| static [Subtract](../../aspose.imaging/point/subtract)(Point, Size) | 返回指定的减法结果[`Size`](../size)从指定的[`Point`](../point) . |
-| static [Truncate](../../aspose.imaging/point/truncate)(PointF) | 转换指定的[`PointF`](../pointf)到一个[`Point`](../point)通过截断的值[`Point`](../point) . |
-| override [Equals](../../aspose.imaging/point/equals)(object) | 指定这是否[`Point`](../point)包含与指定相同的坐标Object . |
-| override [GetHashCode](../../aspose.imaging/point/gethashcode)() | 为此返回哈希码[`Point`](../point) . |
-| [Offset](../../aspose.imaging/point/offset#offset)(Point) | 翻译这个[`Point`](../point)由指定的[`Point`](../point) . |
-| [Offset](../../aspose.imaging/point/offset#offset_1)(int, int) | 翻译这个[`Point`](../point)按指定数量。 |
-| override [ToString](../../aspose.imaging/point/tostring)() | 转换这个[`Point`](../point)到一个人类可读的字符串。 |
-| [operator +](../../aspose.imaging/point/op_addition) | 翻译一个[`Point`](../point)由给定的[`Size`](../size) . |
-| [operator ==](../../aspose.imaging/point/op_equality) | 比较两个[`Point`](../point)对象。结果指定的值是否[`X`](./x)和[`Y`](./y)两者的属性[`Point`](../point)对象是相等的。 |
-| [explicit operator](../../aspose.imaging/point/op_explicit) | 转换指定的[`Point`](../point)结构为[`Size`](../size)结构. |
-| [implicit operator](../../aspose.imaging/point/op_implicit) | 转换指定的[`Point`](../point)结构为[`PointF`](../pointf)结构. |
-| [operator !=](../../aspose.imaging/point/op_inequality) | 比较两个[`Point`](../point)对象。结果指定的值是否[`X`](./x)或者[`Y`](./y)两者的属性[`Point`](../point)对象不相等。 |
-| [operator -](../../aspose.imaging/point/op_subtraction) | 翻译一个[`Point`](../point)通过给定的否定[`Size`](../size) . |
+| static [Add](../../aspose.imaging/point/add/)(Point, Size) | 将指定的 [`Size`](../size/) 添加到指定的 `Point`。 |
+| static [Ceiling](../../aspose.imaging/point/ceiling/)(PointF) | 通过将指定的 [`PointF`](../pointf/) 的值向上取整到下一个更高的整数，将其转换为 `Point`。 |
+| static [Round](../../aspose.imaging/point/round/)(PointF) | 通过将指定的 [`PointF`](../pointf/) 的值四舍五入到最近的整数，将其转换为 `Point` 对象。 |
+| static [Subtract](../../aspose.imaging/point/subtract/)(Point, Size) | 返回从指定的 `Point` 中减去指定的 [`Size`](../size/) 的结果。 |
+| static [Truncate](../../aspose.imaging/point/truncate/)(PointF) | 通过截断 `Point` 的值，将指定的 [`PointF`](../pointf/) 转换为 `Point`。 |
+| override [Equals](../../aspose.imaging/point/equals/)(object) | 指定此 `Point` 是否包含与指定对象相同的坐标。 |
+| override [GetHashCode](../../aspose.imaging/point/gethashcode/)() | 返回此 `Point` 的哈希码。 |
+| [Offset](../../aspose.imaging/point/offset/#offset)(Point) | 按指定的 `Point` 平移此 `Point`。 |
+| [Offset](../../aspose.imaging/point/offset/#offset_1)(int, int) | 按指定的量平移此 `Point`。 |
+| [ToLong](../../aspose.imaging/point/tolong/)() | 将此 Point 转换为单个 long 值，其中高位和低位分别包含 X 和 Y 坐标。 |
+| override [ToString](../../aspose.imaging/point/tostring/)() | 将此 `Point` 转换为人类可读的字符串。 |
+| static [FromLong](../../aspose.imaging/point/fromlong/)(long, out int, out int) | 将打包在 long 对象中的 Point 对象解构为单独的 X 和 Y 整型值。 |
+| [operator +](../../aspose.imaging/point/op_addition/) | 按给定的 [`Size`](../size/) 平移 `Point`。 |
+| [operator ==](../../aspose.imaging/point/op_equality/) | 比较两个 `Point` 对象。结果指定两个 `Point` 对象的 [`X`](./x/) 和 [`Y`](./y/) 属性值是否相等。 |
+| [explicit operator](../../aspose.imaging/point/op_explicit/) | 将指定的 `Point` 结构转换为 [`Size`](../size/) 结构。 |
+| [implicit operator](../../aspose.imaging/point/op_implicit/) | 将指定的 `Point` 结构转换为 [`PointF`](../pointf/) 结构。 |
+| [operator !=](../../aspose.imaging/point/op_inequality/) | 比较两个 `Point` 对象。结果指定两个 `Point` 对象的 [`X`](./x/) 或 [`Y`](./y/) 属性值是否不相等。 |
+| [operator -](../../aspose.imaging/point/op_subtraction/) | 按给定 [`Size`](../size/) 的负值平移 `Point`。 |
 
-### 也可以看看
+### 另请参见
 
-* 命名空间 [Aspose.Imaging](../../aspose.imaging)
-* 部件 [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

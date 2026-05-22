@@ -1,63 +1,52 @@
 ---
-title: VectorRasterizationOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: 矢量光栅化选项
+title: "类 VectorRasterizationOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.ImageOptions.VectorRasterizationOptions 类。矢量光栅化选项。请注意，自 Aspose.Imaging 24.12 版本起，VectorRasterizationOptions 将不再继承自 ImageOptionsBase。"
 type: docs
-weight: 10270
+weight: 10650
 url: /zh/net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 ## VectorRasterizationOptions class
 
-矢量光栅化选项。
+矢量光栅化选项。请注意，`VectorRasterizationOptions` 将不再继承自 [`ImageOptionsBase`](../../aspose.imaging/imageoptionsbase/)，自 Aspose.Imaging 24.12 版本起。
 
 ```csharp
-public class VectorRasterizationOptions : ImageOptionsBase
+public class VectorRasterizationOptions : ICloneable
 ```
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [VectorRasterizationOptions](vectorrasterizationoptions)() | 默认构造函数。 |
+| [VectorRasterizationOptions](vectorrasterizationoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/backgroundcolor) { get; set; } | 获取或设置背景颜色。 |
-| [BorderX](../../aspose.imaging.imageoptions/vectorrasterizationoptions/borderx) { get; set; } | 获取或设置边框 X. |
-| [BorderY](../../aspose.imaging.imageoptions/vectorrasterizationoptions/bordery) { get; set; } | 获取或设置边界 Y. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [CenterDrawing](../../aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing) { get; set; } | 获取或设置一个值是否居中绘图。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
-| [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor) { get; set; } | 获取或设置前景色。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
-| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight) { get; set; } | 获取或设置页面高度。 |
-| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize) { get; set; } | 获取或设置页面大小。 |
-| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth) { get; set; } | 获取或设置页面宽度。 |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
-| [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning) { get; set; } | 获取或设置定位。 |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | 获取或设置分辨率设置。 |
-| [SmoothingMode](../../aspose.imaging.imageoptions/vectorrasterizationoptions/smoothingmode) { get; set; } | 获取或设置平滑模式。 |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | 获取或设置要在其中创建图像的源。 |
-| [TextRenderingHint](../../aspose.imaging.imageoptions/vectorrasterizationoptions/textrenderinghint) { get; set; } | 获取或设置文本渲染提示。 |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | 获取或设置矢量光栅化选项。 |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | 获取或设置 XMP 元数据容器。 |
+| [BackgroundColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/backgroundcolor/) { get; set; } | 获取或设置背景颜色。 |
+| [BorderX](../../aspose.imaging.imageoptions/vectorrasterizationoptions/borderx/) { get; set; } | 获取或设置边框 X。 |
+| [BorderY](../../aspose.imaging.imageoptions/vectorrasterizationoptions/bordery/) { get; set; } | 获取或设置边框 Y。 |
+| [CenterDrawing](../../aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing/) { get; set; } | 获取或设置一个值，指示是否居中绘制。 |
+| [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor/) { get; set; } | 获取或设置前景颜色。 |
+| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight/) { get; set; } | 获取或设置页面高度。如果该值为 0，则会保留源图像的宽高比。 |
+| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/) { get; set; } | 获取或设置页面大小。如果 [`SizeF`](../../aspose.imaging/sizef/) 的任一维度为 0，则会保留源图像的宽高比。 |
+| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth/) { get; set; } | 获取或设置页面宽度。如果该值为 0，则会保留源图像的宽高比。 |
+| [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning/) { get; set; } | 获取或设置定位。 |
+| [ReplaceTextMapping](../../aspose.imaging.imageoptions/vectorrasterizationoptions/replacetextmapping/) { get; set; } | 获取或设置文本替换映射。 |
+| [SmoothingMode](../../aspose.imaging.imageoptions/vectorrasterizationoptions/smoothingmode/) { get; set; } | 获取或设置平滑模式。 |
+| [TextRenderingHint](../../aspose.imaging.imageoptions/vectorrasterizationoptions/textrenderinghint/) { get; set; } | 获取或设置文本渲染提示。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [CopyTo](../../aspose.imaging.imageoptions/vectorrasterizationoptions/copyto)(VectorRasterizationOptions) | 复制到. |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
+| [Clone](../../aspose.imaging.imageoptions/vectorrasterizationoptions/clone/)() | 创建一个当前实例的浅拷贝新对象。 |
+| virtual [CopyTo](../../aspose.imaging.imageoptions/vectorrasterizationoptions/copyto/)(VectorRasterizationOptions) | 复制到。 |
 
-### 也可以看看
+### 另请参见
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* 部件 [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

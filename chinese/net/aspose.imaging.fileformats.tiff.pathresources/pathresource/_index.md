@@ -1,9 +1,9 @@
 ---
-title: PathResource
-second_title: Aspose.Imaging for .NET API 参考
-description: 表示 Photoshop 路径资源
+title: "类 PathResource"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Tiff.PathResources.PathResource 类。表示 Photoshop 路径资源"
 type: docs
-weight: 7830
+weight: 7980
 url: /zh/net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 ---
 ## PathResource class
@@ -16,21 +16,21 @@ public class PathResource
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [PathResource](pathresource)() | 默认构造函数。 |
+| [PathResource](pathresource/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BlockId](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/blockid) { get; set; } | 获取或设置块标识符。 |
-| [Name](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/name) { get; set; } | 获取或设置名称。 |
-| [Records](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/records) { get; set; } | 获取或设置记录。 |
+| [BlockId](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/blockid/) { get; set; } | 获取或设置块标识符。 |
+| [Name](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/name/) { get; set; } | 获取或设置名称。 |
+| [Records](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/records/) { get; set; } | 获取或设置记录。 |
 
-### 例子
+## 示例
 
-在从 TIFF 导出到 PSD 图像期间传输剪切路径。
+在从 TIFF 导出到 PSD 图像时传输剪切路径。
 
 ```csharp
 [C#]
@@ -41,7 +41,7 @@ using (var image = Image.Load("Sample.tif"))
 }
 ```
 
-以下示例显示如何在 TIFF 图像中创建剪切路径。为此，您需要创建 PathResource 类的实例。以下代码演示了如何在 TIFF 图像中创建空路径。
+以下示例展示了如何在 TIFF 图像中创建剪切路径。为此，您需要创建 PathResource 类的实例。下面的代码演示了如何在 TIFF 图像中创建空路径。
 
 ```csharp
 [C#]
@@ -65,7 +65,7 @@ using (var image = new TiffImage(frame))
 }
 ```
 
-从 TIFF 图像中的路径资源创建图形路径。
+从 TIFF 图像的路径资源创建图形路径。
 
 ```csharp
 [C#]
@@ -76,13 +76,13 @@ using (var image = (TiffImage)Image.Load("Bottle.tif"))
     var graphicsPath = PathResourceConverter.ToGraphicsPath(image.ActiveFrame.PathResources.ToArray(), image.ActiveFrame.Size);
     var graphics = new Graphics(image);
 
-    // 画红线并保存图片
+    // 绘制红色线条并保存图像
     graphics.DrawPath(new Pen(Color.Red, 10), graphicsPath);
     image.Save("BottleWithRedBorder.tif");
 }
 ```
 
-使用图形路径创建路径资源。
+使用 Graphics Path 创建路径资源。
 
 ```csharp
 [C#]
@@ -91,7 +91,7 @@ static void Main(string[] args)
 {
     using (var image = (TiffImage)Image.Load("Bottle.tif"))
     {
-        // 为 GraphicsPath 创建矩形图形
+        // 为 GraphicsPath 创建矩形 Figure
         var figure = new Figure();
         figure.AddShape(CreateBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
 
@@ -103,7 +103,7 @@ static void Main(string[] args)
         var pathResouze = PathResourceConverter.FromGraphicsPath(graphicsPath, image.Size);
         image.ActiveFrame.PathResources = new List<PathResource>(pathResouze);
 
-        // 保存图片
+        // 保存图像
         image.Save("BottleWithRectanglePath.tif");
     }
 }
@@ -122,7 +122,7 @@ private static IEnumerable<PointF> CoordinatesToBezierPoints(float[] coordinates
 }
 ```
 
-手动创建剪切路径。
+手动创建 Clipping Path。
 
 ```csharp
 [C#]
@@ -133,9 +133,9 @@ static void Main()
     {
         image.ActiveFrame.PathResources = new List<PathResource> { new PathResource
         {
-            BlockId = 2000,                                                          // 根据 Photoshop 规范的块 ID
-            Name = "My Clipping Path",                                               // 路径名
-            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)  // 使用坐标创建路径记录
+            BlockId = 2000,                                                          // Block Id according to Photoshop specification
+            Name = "My Clipping Path",                                               // Path name
+            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)  // Create path records using coordinates
         }};
 
         image.Save("ImageWithPath.tif");
@@ -144,12 +144,12 @@ static void Main()
 
 private static List<VectorPathRecord> CreateRecords(params float[] coordinates)
 {
-    var records = CreateBezierRecords(coordinates);                                  // 使用坐标创建 Bezier 记录
+    var records = CreateBezierRecords(coordinates);                                  // Create Bezier records using coordinates
 
-    records.Insert(0, new LengthRecord                                               // Photoshop 规范要求的 LengthRecord
+    records.Insert(0, new LengthRecord                                               // LengthRecord required by Photoshop specification
     {
-        IsOpen = false,                                                              // 让我们创建封闭路径
-        RecordCount = (ushort)records.Count                                          // 在路径中记录计数
+        IsOpen = false,                                                              // Lets create closed path
+        RecordCount = (ushort)records.Count                                          // Record count in the path
     });
 
     return records;
@@ -174,9 +174,9 @@ private static VectorPathRecord CreateBezierRecord(PointF point)
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* 命名空间 [Aspose.Imaging.FileFormats.Tiff.PathResources](../../aspose.imaging.fileformats.tiff.pathresources)
-* 部件 [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Tiff.PathResources](../../aspose.imaging.fileformats.tiff.pathresources/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

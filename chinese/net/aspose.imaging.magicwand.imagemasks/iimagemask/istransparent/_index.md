@@ -1,0 +1,32 @@
+---
+title: "IImageMask.IsTransparent"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "IImageMask 方法。检查指定像素是否透明"
+type: docs
+weight: 80
+url: /zh/net/aspose.imaging.magicwand.imagemasks/iimagemask/istransparent/
+---
+## IImageMask.IsTransparent method
+
+检查指定像素是否透明。
+
+```csharp
+public bool IsTransparent(int x, int y)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| x | Int32 | 像素的 x 坐标。 |
+| y | Int32 | 像素的 y 坐标。 |
+
+### 返回值
+
+如果指定像素是透明的，则为 true；否则为 false。
+
+### 另请参见
+
+* interface [IImageMask](../)
+* namespace [Aspose.Imaging.MagicWand.ImageMasks](../../iimagemask/)
+* assembly [Aspose.Imaging](../../../)
+
+

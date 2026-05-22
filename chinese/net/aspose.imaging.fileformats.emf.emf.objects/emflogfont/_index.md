@@ -1,14 +1,14 @@
 ---
-title: EmfLogFont
-second_title: Aspose.Imaging for .NET API 参考
-description: LogFont 对象指定逻辑字体的基本属性
+title: "类 EmfLogFont"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogFont 类。LogFont 对象指定逻辑字体的基本属性"
 type: docs
-weight: 3030
+weight: 3120
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/
 ---
 ## EmfLogFont class
 
-LogFont 对象指定逻辑字体的基本属性。
+LogFont 对象指定了逻辑字体的基本属性。
 
 ```csharp
 public class EmfLogFont : EmfObject
@@ -16,33 +16,33 @@ public class EmfLogFont : EmfObject
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [EmfLogFont](emflogfont)() | 默认构造函数。 |
+| [EmfLogFont](emflogfont/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [CharSet](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/charset) { get; set; } | 获取或设置一个 8 位无符号整数，用于指定字符字形集。它必须 是 WMF CharacterSet 枚举中的一个值（[MS-WMF] 第 2.1.1.5 节）。如果 字符集未知，元文件处理不应尝试翻译或解释使用该字体呈现的 字符串。 |
-| [ClipPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/clipprecision) { get; set; } | 获取或设置指定裁剪精度的 8 位无符号整数。 裁剪精度定义了如何裁剪部分位于裁剪区域之外的字符。 可以是WMF ClipPrecision Flags中的一个或多个 |
-| [Escapement](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/escapement) { get; set; } | 获取或设置一个 32 位有符号整数，它指定擒纵矢量和设备 x 轴之间的角度 ，以十分之一度为单位。擒纵矢量是 平行于一行文本的基线。 |
-| [Facename](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/facename) { get; set; } | 获取或设置 Facename（64 字节）：不超过 32 个 Unicode 字符的字符串，用于指定字体的 字体名称。如果此字符串的长度小于 32 个字符，则必须存在终止的 NULL，之后必须忽略此字段的其余部分。 |
-| [Height](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/height) { get; set; } | 获取或设置一个 32 位有符号整数，以逻辑单位指定字体的 字符单元或字符的高度。字符高度值，也称为 em 大小，是 字符单元格高度值减去内部前导值。字体映射器应该 以下列方式解释在高度字段中指定的值。 |
-| [Italic](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/italic) { get; set; } | 获取或设置一个 8 位无符号整数，如果设置为 0x01，则指定斜体字体；否则， 必须设置为 0x00. |
-| [Orientation](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/orientation) { get; set; } | 获取或设置一个 32 位有符号整数，它指定每个字符的基线和设备 x 轴之间的角度 ，以十分之一度为单位。 |
-| [OutPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/outprecision) { get; set; } | 获取或设置指定输出精度的 8 位无符号整数。 输出精度定义了字体与请求的高度、宽度、 字符方向、转义、间距和字体类型匹配的紧密程度。它必须是来自 WMF OutPrecision enumeration 的值 |
-| [PitchAndFamily](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/pitchandfamily) { get; set; } | 获取或设置一个 WMF PitchAndFamily 对象（[MS-WMF] 第 2.2.2.14 节）， 指定字体的间距和系列。字体系列以一般 方式描述字体的外观。它们用于在指定字体不可用时指定字体。 |
-| [Quality](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/quality) { get; set; } | 获取或设置指定输出质量的 8 位无符号整数。输出质量 定义尝试将逻辑字体属性与实际 物理字体的属性匹配的紧密程度。它必须是 WMF FontQuality 枚举中的值之一（[MS-WMF] 第 2.1.1.10 节）。 |
-| [Strikeout](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/strikeout) { get; set; } | 获取或设置一个 8 位无符号整数，如果设置为 0x01，则指定删除字体； 否则，它必须设置为 0x00。 |
-| [Underline](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/underline) { get; set; } | 获取或设置一个 8 位无符号整数，如果设置为 0x01，则指定带下划线的字体； 否则，它必须设置为 0x00. |
-| [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/weight) { get; set; } | 获取或设置一个 32 位有符号整数，指定从 零到 1000 范围内的字体粗细。例如，400 是正常的，700 是粗体。如果此值为零，则可以使用默认的 权重。 |
-| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/width) { get; set; } | 获取或设置一个 32 位有符号整数，它指定字体中 个字符的平均宽度（以逻辑单位表示）。如果 Width 字段值为零，则应从其他 LogFont 值计算出一个适当的值 以找到具有印刷者预期的 纵横比 的字体 |
+| [CharSet](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/charset/) { get; set; } | 获取或设置一个 8 位无符号整数，指定字符字形集合。它必须是 WMF CharacterSet 枚举（[MS-WMF] 第 2.1.1.5 节）中的一个值。如果字符集未知，元文件处理不应尝试翻译或解释使用该字体渲染的字符串。 |
+| [ClipPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/clipprecision/) { get; set; } | 获取或设置一个 8 位无符号整数，指定剪裁精度。剪裁精度定义如何剪裁部分位于剪裁区域之外的字符。它可以是一个或多个 WMF ClipPrecision 标志。 |
+| [Escapement](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/escapement/) { get; set; } | 获取或设置一个 32 位有符号整数，指定转向向量与设备 X 轴之间的角度（以十分之一度为单位）。转向向量与文本行的基线平行。 |
+| [Facename](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/facename/) { get; set; } | 获取或设置一个 Facename（64 字节）：一个不超过 32 个 Unicode 字符的字符串，指定字体的字形名称。如果该字符串长度少于 32 个字符，必须包含一个终止的 NULL，之后的字段内容必须被忽略。 |
+| [Height](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/height/) { get; set; } | 获取或设置一个 32 位有符号整数，指定字体字符单元或字符的高度（逻辑单位）。字符高度值，也称为 em 大小，是字符单元高度减去内部前导值。字体映射器应按以下方式解释 Height 字段中指定的值。 |
+| [Italic](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/italic/) { get; set; } | 获取或设置一个 8 位无符号整数，如果设置为 0x01 则表示斜体字体；否则必须设置为 0x00。 |
+| [Orientation](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/orientation/) { get; set; } | 获取或设置一个 32 位有符号整数，指定每个字符基线与设备 X 轴之间的角度（以十分之一度为单位）。 |
+| [OutPrecision](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/outprecision/) { get; set; } | 获取或设置一个 8 位无符号整数，指定输出精度。输出精度定义字体需要多接近匹配请求的高度、宽度、字符方向、倾斜角度、字距和字体类型。它必须是 WMF OutPrecision 枚举中的一个值。 |
+| [PitchAndFamily](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/pitchandfamily/) { get; set; } | 获取或设置一个 WMF PitchAndFamily 对象（[MS-WMF] 第 2.2.2.14 节），指定字体的字距和族。字体族以一般方式描述字体的外观。它们用于在指定的字体不可用时指定字体。 |
+| [Quality](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/quality/) { get; set; } | 获取或设置一个 8 位无符号整数，指定输出质量。输出质量定义尝试将逻辑字体属性与实际物理字体属性匹配的精确程度。它必须是 WMF FontQuality 枚举（[MS-WMF] 第 2.1.1.10 节）中的一个值。 |
+| [Strikeout](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/strikeout/) { get; set; } | 获取或设置一个 8 位无符号整数，如果设为 0x01 则指定删除线字体；否则必须设为 0x00。 |
+| [Underline](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/underline/) { get; set; } | 获取或设置一个 8 位无符号整数，如果设为 0x01 则指定下划线字体；否则必须设为 0x00。 |
+| [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/weight/) { get; set; } | 获取或设置一个 32 位有符号整数，指定字体的粗细，范围为 0 到 1000。例如，400 为常规，700 为粗体。如果该值为 0，则可以使用默认粗细。 |
+| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont/width/) { get; set; } | 获取或设置一个 32 位有符号整数，指定字体中字符的平均宽度（逻辑单位）。如果 Width 字段的值为 0，则应根据其他 LogFont 值计算出合适的值，以获得排版师预期的宽高比的字体。 |
 
-### 也可以看看
+### 另请参见
 
-* class [EmfObject](../emfobject)
-* 命名空间 [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects)
-* 部件 [Aspose.Imaging](../../)
+* class [EmfObject](../emfobject/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Objects](../../aspose.imaging.fileformats.emf.emf.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,30 +1,30 @@
 ---
-title: FillArc
-second_title: Aspose.Imaging for .NET API 参考
-description: 填充表示由 Rectangle 结构指定的椭圆的一部分的圆弧
+title: "SvgGraphics2D.FillArc"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "SvgGraphics2D 方法。填充由 Rectangle 结构指定的椭圆的一部分弧。"
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/fillarc/
 ---
 ## SvgGraphics2D.FillArc method
 
-填充表示由 Rectangle 结构指定的椭圆的一部分的圆弧。
+填充由 Rectangle 结构指定的椭圆的一部分弧线。
 
 ```csharp
 public void FillArc(Pen pen, Brush brush, Rectangle rect, float startAngle, float arcAngle)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | 画出人物轮廓的笔。 |
-| brush | Brush | 刷子填充图形的内部。 |
+| 笔 | 笔 | 用于绘制图形轮廓的笔。 |
+| 画刷 | 画刷 | 用于填充图形内部的画刷。 |
 | rect | Rectangle | 椭圆的边界。 |
-| startAngle | Single | 从 x 轴到圆弧起点顺时针测量的角度（以度为单位）。 |
-| arcAngle | Single | 从 startAngle 参数到圆弧终点顺时针测量的角度（以度为单位）。 |
+| startAngle | 单精度 | 以度为单位、顺时针从 x 轴测量到弧的起始点的角度。 |
+| arcAngle | 单精度 | 以度为单位、顺时针从 startAngle 参数测量到弧的结束点的角度。 |
 
-### 例子
+## 示例
 
-此示例说明如何使用 SvgGraphics2D 创建指定大小的 SVG 图像并在其上绘制不同的形状。
+此示例展示了如何使用 SvgGraphics2D 创建指定大小的 SVG 图像并在其上绘制不同的形状。
 
 ```csharp
 [C#]
@@ -37,23 +37,23 @@ int dpi = 96;
 
 Aspose.Imaging.FileFormats.Svg.Graphics.SvgGraphics2D graphics = new Aspose.Imaging.FileFormats.Svg.Graphics.SvgGraphics2D(imageWidth, imageHeight, dpi);
 
-// 使用 1 像素宽的黑色笔沿图像边框绘制一个黑色矩形。
+// 使用 1 像素宽的黑色笔在图像边缘绘制一个黑色矩形。
 graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 1), 0, 0, imageWidth, imageHeight);
 
-// 用白色烟雾填充一个矩形。
+// 使用 white-smoke 颜色填充矩形。
 graphics.FillRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.WhiteSmoke, 1), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.WhiteSmoke), 10, 10, 580, 380);
 
-// 使用 1 像素宽的深绿色笔绘制两条对角线。
+// 使用 1 像素宽的 darkgreen 笔绘制两条对角线。
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, 0, imageWidth, imageHeight);
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, imageHeight, imageWidth, 0);
 
 // 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
 graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
-// 填充圆弧
+// 填充弧线
 graphics.FillArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.LightCoral, 10), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.LightSkyBlue), new Aspose.Imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// 使用 2 像素宽的红笔绘制三次贝塞尔曲线。
+// 使用 2 像素宽的红色笔绘制三次贝塞尔曲线。
 graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.PointF(0, 0),
     new Aspose.Imaging.PointF(200, 133),
@@ -61,16 +61,16 @@ graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.PointF(600, 400));
 
 // 在指定位置绘制指定大小的光栅图像。
-// 图像被缩放以适合所需的矩形。
+// 图像已缩放以适应所需的矩形。
 using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
     graphics.DrawImage(imageToDraw, new Aspose.Imaging.Point(400, 200), new Aspose.Imaging.Size(100, 50));
 }
 
-// 绘制一个文本字符串
+// 绘制文本字符串
 graphics.DrawString(new Aspose.Imaging.Font("Arial", 48, Aspose.Imaging.FontStyle.Regular), "Hello World!", new Aspose.Imaging.Point(200, 300), Aspose.Imaging.Color.DarkRed);
 
-// 创建要填充的路径
+// 创建用于填充的路径
 Aspose.Imaging.Figure figureToFill = new Aspose.Imaging.Figure();
 figureToFill.IsClosed = true;
 
@@ -96,10 +96,10 @@ figureToFill.AddShapes(new Shape[]
         new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(0, 100, 200, 200)),
     });
 
-// 使用黄色画笔和绿色笔填充路径以绘制轮廓
+// 使用黄色画笔填充路径，并使用绿色钢笔绘制轮廓
 graphics.FillPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Yellow), pathToFill);
 
-// 创建绘制路径
+// 创建用于绘制的路径
 Aspose.Imaging.GraphicsPath pathToDraw = new Aspose.Imaging.GraphicsPath();
 Aspose.Imaging.Figure figureToDraw = new Aspose.Imaging.Figure();
 pathToDraw.AddFigure(figureToDraw);
@@ -109,7 +109,7 @@ figureToDraw.AddShapes(new Aspose.Imaging.Shape[]
         new Aspose.Imaging.Shapes.ArcShape(new Aspose.Imaging.RectangleF(200, 200, 200, 200), 0, 360),
     });
 
-// 使用 5 像素宽的橙色笔绘制路径。
+// 使用宽度为5像素的橙色钢笔绘制路径。
 graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 5), pathToDraw);
 
 // 获取包含所有绘图命令的最终 SVG 图像
@@ -119,13 +119,13 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = graphics.EndRecording(
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [Pen](../../../aspose.imaging/pen)
-* class [Brush](../../../aspose.imaging/brush)
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [SvgGraphics2D](../../svggraphics2d)
-* 命名空间 [Aspose.Imaging.FileFormats.Svg.Graphics](../../svggraphics2d)
-* 部件 [Aspose.Imaging](../../../)
+* class [Pen](../../../aspose.imaging/pen/)
+* class [Brush](../../../aspose.imaging/brush/)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [SvgGraphics2D](../)
+* namespace [Aspose.Imaging.FileFormats.Svg.Graphics](../../svggraphics2d/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

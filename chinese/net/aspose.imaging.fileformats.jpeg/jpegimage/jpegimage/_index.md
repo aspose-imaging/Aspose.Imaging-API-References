@@ -1,105 +1,105 @@
 ---
-title: JpegImage
-second_title: Aspose.Imaging for .NET API 参考
-description: 初始化JpegImageaspose.imaging.fileformats.jpeg/jpegimage类.
+title: "JpegImage.JpegImage"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "JpegImage 构造函数。JpegImage 类通过调用带有指定路径参数的构造函数轻松初始化。此构造函数实现了 JPEG 图像的无缝创建，确保快速将其集成到您的项目中。"
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.jpeg/jpegimage/jpegimage/
 ---
 ## JpegImage(string) {#constructor_4}
 
-初始化[`JpegImage`](../../jpegimage)类.
+[`JpegImage`](../) 类通过调用带有指定路径参数的构造函数轻松初始化。此构造函数实现了 JPEG 图像的无缝创建，确保快速将其集成到您的项目中。
 
 ```csharp
 public JpegImage(string path)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 加载图像和初始化像素和调色板数据的路径。 |
+| path | String | 加载图像的路径，并使用该路径初始化像素和调色板数据。 |
 
-### 例子
+## 示例
 
-该示例显示如何从文件加载 JpegImage。
+示例展示了如何从文件加载 JpegImage。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// 从文件中加载 JPEG 图像。
+// 从文件加载 JPEG 图像。
 using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(dir + "sample.jpg"))
 {
-    // 做一些图像处理。
-    // 保存到另一个 JPEG 文件。
+    // 进行一些图像处理。
+    // 保存为另一个 JPEG 文件。
     jpegImage.Save(dir + "sample.output.jpg");
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [JpegImage](../../jpegimage)
-* 命名空间 [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
-* 部件 [Aspose.Imaging](../../../)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## JpegImage(Stream) {#constructor_3}
 
-初始化[`JpegImage`](../../jpegimage)类.
+使用 [`JpegImage`](../) 类并通过流参数初始化 JPEG 图像对象。此构造函数简化了处理 JPEG 图像的过程，提供了一种直接将其集成到项目中的简便方法。
 
 ```csharp
 public JpegImage(Stream stream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 用于加载图像和初始化像素和调色板数据的流。 |
+| stream | Stream | 用于加载图像并初始化像素和调色板数据的流。 |
 
-### 例子
+## 示例
 
-该示例显示如何从文件流加载 JpegImage。
+示例展示了如何从文件流加载 JpegImage。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// 从文件流中加载 JPEG 图像。
+// 从文件流加载 JPEG 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.jpg"))
 {
     using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(stream))
     {
-        // 做一些图像处理。
-        // 保存到另一个 JPEG 文件。
+        // 进行一些图像处理。
+        // 保存为另一个 JPEG 文件。
         jpegImage.Save(dir + "sample.output.jpg");
     }
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [JpegImage](../../jpegimage)
-* 命名空间 [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
-* 部件 [Aspose.Imaging](../../../)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## JpegImage(RasterImage) {#constructor_1}
 
-初始化[`JpegImage`](../../jpegimage)类.
+使用带有栅格图像参数的 [`JpegImage`](../) 类初始化新实例。此构造函数提供了一种便捷方式，可直接从栅格图像创建 JPEG 图像，简化了在应用程序中使用 JPEG 图像的工作流。
 
 ```csharp
 public JpegImage(RasterImage rasterImage)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | rasterImage | RasterImage | 用于初始化像素和调色板数据的图像。 |
 
-### 例子
+## 示例
 
-该示例显示如何从另一个 RasterImage 加载 JpegImage。
+示例展示了如何从另一个 RasterImage 加载 JpegImage。
 
 ```csharp
 [C#]
@@ -107,8 +107,8 @@ public JpegImage(RasterImage rasterImage)
 string dir = "c:\\temp\\";
 
 // 从另一个光栅图像加载 JPEG 图像。
-// 首先，创建一个临时 PNG 图像，作为构建 JPEG 图像的基础。
-// 您还可以从文件中加载 PNG 图像或使用任何其他光栅格式的图像。
+// 首先，创建一个临时 PNG 图像，它将作为构建 JPEG 图像的基础。
+// 您也可以从文件加载 PNG 图像，或使用任何其他光栅格式的图像。
 Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 createOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), false);
 using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(createOptions, 100, 100))
@@ -118,7 +118,7 @@ using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspo
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, rasterImage.Bounds);
 
-    // 根据 PNG 图像创建 JPEG 图像。
+    // 基于 PNG 图像创建 JPEG 图像。
     using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(rasterImage))
     {
         // 保存为 JPEG 文件
@@ -127,31 +127,31 @@ using (Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)Aspo
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [JpegImage](../../jpegimage)
-* 命名空间 [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
-* 部件 [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## JpegImage(int, int) {#constructor_2}
 
-初始化[`JpegImage`](../../jpegimage)类.
+使用指定的宽度和高度参数创建 [`JpegImage`](../) 类的新实例。此构造函数允许您创建具有自定义尺寸的 JPEG 图像，为在应用程序中管理图像大小提供灵活性。
 
 ```csharp
 public JpegImage(int width, int height)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Int32 | 图像宽度。 |
-| height | Int32 | 图像高度。 |
+| 宽度 | Int32 | 图像宽度。 |
+| 高度 | Int32 | 图像高度。 |
 
-### 例子
+## 示例
 
-以下示例显示如何创建指定大小的 JPEG 图像。
+以下示例展示了如何创建指定尺寸的 JPEG 图像。
 
 ```csharp
 [C#]
@@ -161,7 +161,7 @@ string dir = "c:\\temp\\";
 // 创建一个 100x100 像素的 JPEG 图像。
 using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(100, 100))
 {
-    // 做一些图像处理。
+    // 进行一些图像处理。
     // 保存到文件。
     jpegImage.Save(dir + "output.jpg");
 }
@@ -174,10 +174,10 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 
 string dir = "c:\\temp\\";
 
-// 从文件中加载 BMP 图像。
+// 从文件加载 BMP 图像。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    // 做一些图像处理。
+    // 进行一些图像处理。
 
     // 使用附加选项来指定所需的图像参数。
     Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
@@ -189,7 +189,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
     // 设置渐进式压缩类型。
     saveOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
 
-    // 设置图像质量。它是一个介于 1 和 100 之间的值。
+    // 设置图像质量。取值范围为 1 到 100。
     saveOptions.Quality = 100;
 
     // 将水平/垂直分辨率设置为每英寸 96 点。
@@ -206,29 +206,29 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [JpegImage](../../jpegimage)
-* 命名空间 [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
-* 部件 [Aspose.Imaging](../../../)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## JpegImage(JpegOptions, int, int) {#constructor}
 
-初始化[`JpegImage`](../../jpegimage)类.
+使用提供的 JPEG 选项初始化一个新的 [`JpegImage`](../) 对象。此构造函数使您能够定制 JPEG 图像的各种设置，例如压缩级别、质量和其他参数，从而对生成的图像格式实现精确控制。
 
 ```csharp
 public JpegImage(JpegOptions jpegOptions, int width, int height)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | jpegOptions | JpegOptions | jpeg 选项。 |
-| width | Int32 | 图像宽度. |
-| height | Int32 | 图像高度。 |
+| 宽度 | Int32 | 图像宽度。 |
+| 高度 | Int32 | 图像高度。 |
 
-### 例子
+## 示例
 
 以下示例加载 BMP 图像并使用各种保存选项将其保存为 JPEG。
 
@@ -237,10 +237,10 @@ public JpegImage(JpegOptions jpegOptions, int width, int height)
 
 string dir = "c:\\temp\\";
 
-// 从文件中加载 BMP 图像。
+// 从文件加载 BMP 图像。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    // 做一些图像处理。
+    // 进行一些图像处理。
 
     // 使用附加选项来指定所需的图像参数。
     Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
@@ -252,7 +252,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
     // 设置渐进式压缩类型。
     saveOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
 
-    // 设置图像质量。它是一个介于 1 和 100 之间的值。
+    // 设置图像质量。取值范围为 1 到 100。
     saveOptions.Quality = 100;
 
     // 将水平/垂直分辨率设置为每英寸 96 点。
@@ -269,7 +269,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 }
 ```
 
-以下示例显示如何使用指定参数创建指定大小的 JPEG 图像。
+以下示例展示了如何使用指定的参数创建指定尺寸的 JPEG 图像。
 
 ```csharp
 [C#]
@@ -280,13 +280,13 @@ string dir = "c:\\temp\\";
 // 使用附加选项来指定所需的图像参数。
 Aspose.Imaging.ImageOptions.JpegOptions createOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
 
-// 对于 Y、Cr、Cb 分量，每个通道的位数分别为 8、8、8。
+// 各通道的位数分别为 Y、Cr、Cb 组件的 8、8、8 位。
 createOptions.BitsPerChannel = 8;
 
 // 设置渐进式压缩类型。
 createOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
 
-// 设置图像质量。它是一个介于 1 和 100 之间的值。
+// 设置图像质量。取值范围为 1 到 100。
 createOptions.Quality = 100;
 
 // 将水平/垂直分辨率设置为每英寸 96 点。
@@ -294,7 +294,7 @@ createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96
 createOptions.ResolutionUnit = Aspose.Imaging.ResolutionUnit.Inch;
 
 // 这是 JPEG 图像的标准选项。
-// 两个色度分量（Cb 和 Cr）可以进行带宽缩减、二次采样、压缩。
+// 两个色度分量（Cb 和 Cr）可以进行带宽降低、子采样和压缩。
 createOptions.ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.YCbCr;
 
 using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(createOptions, 100, 100))
@@ -315,11 +315,11 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [JpegOptions](../../../aspose.imaging.imageoptions/jpegoptions)
-* class [JpegImage](../../jpegimage)
-* 命名空间 [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage)
-* 部件 [Aspose.Imaging](../../../)
+* class [JpegOptions](../../../aspose.imaging.imageoptions/jpegoptions/)
+* class [JpegImage](../)
+* namespace [Aspose.Imaging.FileFormats.Jpeg](../../jpegimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
