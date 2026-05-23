@@ -1,0 +1,42 @@
+---
+title: "OdListItem Klasse"
+type: docs
+weight: 190
+url: /de/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/
+---
+
+**Summary:** The list item
+
+**Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
+
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdListItem
+
+**Inheritance:** OdGraphicObject
+
+## **Constructors**
+| **Name** | **Beschreibung** |
+| :- | :- |
+| [OdListItem(parent)](#OdListItem_parent_1) | Initialisiert eine neue Instanz der [OdListItem](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/) Klasse. |
+## **Properties**
+| **Name** | **Type** | **Access** | **Beschreibung** |
+| :- | :- | :- | :- |
+| absolute_coordinates | bool | r/w | Liest oder setzt einen Wert, der angibt, ob [absolute coordinates]. |
+| Elemente | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.OpenDocument.OdObject]] | r | Ruft die Elemente ab. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | r | Ruft das übergeordnete Objekt ab. |
+
+
+### Constructor: OdListItem(parent) {#OdListItem_parent_1}
+
+
+```
+ OdListItem(parent) 
+```
+
+Initialisiert eine neue Instanz der [OdListItem](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/) Klasse.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) | Das übergeordnete Element. |
+
