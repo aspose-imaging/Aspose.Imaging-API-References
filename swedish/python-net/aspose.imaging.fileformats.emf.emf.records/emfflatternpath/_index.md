@@ -1,0 +1,84 @@
+---
+title: "EmfFlatternPath klass"
+type: docs
+weight: 510
+url: /sv/python-net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/
+---
+
+**Summary:** This record transforms any curves in the selected path into the playback device<br/>            context; each curve MUST be turned into a sequence of lines.
+
+**Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
+
+**Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfFlatternPath
+
+**Inheritance:** EmfPathBracketRecordType
+
+## **Constructors**
+| **Name** | **Description** |
+| :- | :- |
+| [EmfFlatternPath()](#EmfFlatternPath__1) | Initierar en ny instans av [EmfFlatternPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/) klass. |
+## **Properties**
+| **Name** | **Type** | **Access** | **Description** |
+| :- | :- | :- | :- |
+| storlek | int | r/w | Hämtar eller anger storleken på posten |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Hämtar eller anger typen. |
+## **Methods**
+| **Name** | **Description** |
+| :- | :- |
+| [create_from_record(source)](#create_from_record_source_1) | Initierar en ny instans av klassen [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/). |
+| [create_from_type(type)](#create_from_type_type_2) | Initierar en ny instans av klassen [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/). |
+
+
+### Constructor: EmfFlatternPath() {#EmfFlatternPath__1}
+
+
+```
+ EmfFlatternPath() 
+```
+
+Initierar en ny instans av [EmfFlatternPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/) klass.
+
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
+
+
+```
+ create_from_record(source) 
+```
+
+Initierar en ny instans av klassen [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/).
+
+**Parameters:**
+
+| Parameter | Typ | Beskrivning |
+| :- | :- | :- |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | Källan. |
+
+**Returns**
+
+| Typ | Beskrivning |
+| :- | :- |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
+
+
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
+
+
+```
+ create_from_type(type) 
+```
+
+Initierar en ny instans av klassen [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/).
+
+**Parameters:**
+
+| Parameter | Typ | Beskrivning |
+| :- | :- | :- |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | Posttypen. |
+
+**Returns**
+
+| Typ | Beskrivning |
+| :- | :- |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
+
+
