@@ -1,0 +1,98 @@
+---
+title: "EmfCommentWindowsMetaFile Classe"
+type: docs
+weight: 240
+url: /it/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/
+---
+
+**Summary:** The EMR_COMMENT_WINDOWS_METAFILE record specifies an image in an embedded WMF metafile.
+
+**Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
+
+**Full Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentWindowsMetaFile
+
+**Inheritance:** EmfCommentPublicRecordType
+
+## **Constructors**
+| **Name** | **Descrizione** |
+| :- | :- |
+| [EmfCommentWindowsMetaFile(source)](#EmfCommentWindowsMetaFile_source_1) | Inizializza una nuova istanza della classe [EmfCommentWindowsMetaFile](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/). |
+## **Properties**
+| **Name** | **Type** | **Access** | **Descrizione** |
+| :- | :- | :- | :- |
+| checksum | int | r/w | Ottiene o imposta un intero senza segno a 32 bit che specifica il checksum per questo record. |
+| comment_identifier | [EmfCommentRecordType+CommentIdentifierEnum](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype+commentidentifierenum/) | r/w | Ottiene o imposta un intero senza segno a 32 bit che identifica questo record di commento <br/>            come contenente dati pubblici. Il valore 0x43494447, che è la stringa ASCII "CIDG", identifica <br/>            questo come un record EMR_COMMENT_PUBLIC. |
+| data_size | int | r/w | Ottiene o imposta un intero senza segno a 32 bit che specifica la dimensione, in byte, dei campi <br/>            CommentIdentifier e CommentRecordParm nel campo RecordBuffer che <br/>            segue. NON DEVE includere la dimensione di se stesso né la dimensione del campo AlignmentPadding, se <br/>            presente. |
+| flag | int | r/w | Ottiene o imposta un valore a 32 bit che DEVE essere 0x00000000 e DEVE essere ignorato. |
+| public_comment_identifier | [EmfEmrComment](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfemrcomment/) | r/w | Ottiene o imposta un intero senza segno a 32 bit che identifica il tipo di <br/>            record di commento pubblico. Questo DOVREBBE essere uno dei valori elencati nella tabella precedente, che <br/>            sono specificati nell'enumerazione EmrComment (sezione 2.1.10), a meno che tipi aggiuntivi di <br/>            record di commento pubblico siano stati implementati sul server di stampa. |
+| dimensione | int | r/w | Ottiene o imposta la dimensione del record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Ottiene o imposta il tipo. |
+| version | [WmfMetafileVersion](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/) | r/w | Ottiene o imposta un intero senza segno a 16 bit che specifica la versione del metafile WMF in termini <br/>            di supporto per bitmap indipendenti dal dispositivo (DIB), dalla enumerazione WMF MetafileVersion <br/>            ([MS-WMF] sezione 2.1.1.19). |
+| win_metafile | [MetaImage](/imaging/python-net/aspose.imaging.fileformats.emf/metaimage/) | r/w | Ottiene o imposta un buffer che contiene il metafile WMF. |
+| win_metafile_size | int | r/w | Ottiene o imposta un intero senza segno a 32 bit che specifica la dimensione, in byte, del <br/>            metafile WMF nel campo WinMetafile. |
+## **Methods**
+| **Name** | **Descrizione** |
+| :- | :- |
+| [create_from_record(source)](#create_from_record_source_1) | Inizializza una nuova istanza della classe [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/). |
+| [create_from_type(type)](#create_from_type_type_2) | Inizializza una nuova istanza della classe [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/). |
+
+
+### Constructor: EmfCommentWindowsMetaFile(source) {#EmfCommentWindowsMetaFile_source_1}
+
+
+```
+ EmfCommentWindowsMetaFile(source) 
+```
+
+Inizializza una nuova istanza della classe [EmfCommentWindowsMetaFile](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/).
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | La sorgente. |
+
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
+
+
+```
+ create_from_record(source) 
+```
+
+Inizializza una nuova istanza della classe [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/).
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) | La sorgente. |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
+
+
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
+
+
+```
+ create_from_type(type) 
+```
+
+Inizializza una nuova istanza della classe [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/).
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | Il tipo di record. |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) |  |
+
+
