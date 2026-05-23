@@ -1,0 +1,450 @@
+---
+title: "Classe LinearMulticolorGradientBrush"
+type: docs
+weight: 40
+url: /it/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/
+---
+
+**Summary:** Represents a [Brush](/imaging/python-net/aspose.imaging/brush/) with linear gradient defined by multiple colors and appropriate positions. This class cannot be inherited.
+
+**Module:** [aspose.imaging.brushes](/imaging/python-net/aspose.imaging.brushes/)
+
+**Full Name:** aspose.imaging.brushes.LinearMulticolorGradientBrush
+
+**Inheritance:** LinearGradientBrushBase
+
+## **Constructors**
+| **Name** | **Descrizione** |
+| :- | :- |
+| [LinearMulticolorGradientBrush()](#LinearMulticolorGradientBrush__1) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con parametri predefiniti.<br/>            Il colore iniziale è nero, il colore finale è bianco, l'angolo è 45 gradi e il rettangolo è posizionato in (0,0) con dimensioni (1,1). |
+| [LinearMulticolorGradientBrush(point1, point2)](#LinearMulticolorGradientBrush_point1_point2_2) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati. |
+| [LinearMulticolorGradientBrush(point1, point2)](#LinearMulticolorGradientBrush_point1_point2_3) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati. |
+| [LinearMulticolorGradientBrush(rect, angle)](#LinearMulticolorGradientBrush_rect_angle_4) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [LinearMulticolorGradientBrush(rect, angle)](#LinearMulticolorGradientBrush_rect_angle_5) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_6) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_7) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+## **Properties**
+| **Name** | **Type** | **Access** | **Descrizione** |
+| :- | :- | :- | :- |
+| angle | float | r/w | Ottiene o imposta l'angolo del gradiente. |
+| eliminato | bool | r | Ottiene un valore che indica se questa istanza è stata eliminata. |
+| gamma_correction | bool | r/w | Ottiene o imposta un valore che indica se la correzione gamma è abilitata per questo [LinearGradientBrushBase](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/). |
+| interpolation_colors | [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) | r/w | Ottiene o imposta un [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) che definisce un gradiente lineare multicolore. |
+| is_angle_scalable | bool | r/w | Ottiene o imposta un valore che indica se [LinearGradientBrushBase.angle](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/) viene modificato durante le trasformazioni con questo [LinearGradientBrushBase](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/). |
+| is_transform_changed | bool | r | Restituisce un valore che indica se le trasformazioni sono state modificate in qualche modo. Ad esempio impostando la matrice di trasformazione o<br/>            chiamando uno dei metodi che alterano la matrice di trasformazione. La proprietà è introdotta per compatibilità retroattiva con GDI+. |
+| opacity | float | r/w | Ottiene o imposta l'opacità del pennello. Il valore deve essere compreso tra 0 e 1. Un valore di 0 indica che il pennello è completamente visibile, un valore di 1 indica che il pennello è completamente opaco. |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r/w | Ottiene o imposta una regione rettangolare che definisce i punti iniziale e finale del gradiente. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | r/w | Ottiene o imposta una copia di [Matrix](/imaging/python-net/aspose.imaging/matrix/) che definisce una trasformazione geometrica locale per questo [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
+| wrap_mode | [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | r/w | Ottiene o imposta un'enumerazione [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) che indica la modalità di avvolgimento per questo [TransformBrush](/imaging/python-net/aspose.imaging.brushes/transformbrush/). |
+## **Methods**
+| **Name** | **Descrizione** |
+| :- | :- |
+| [create_with_points(point1, point2)](#create_with_points_point1_point2_1) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati. |
+| [create_with_points_f(point1, point2)](#create_with_points_f_point1_point2_2) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati. |
+| [create_with_rect(rect, angle)](#create_with_rect_rect_angle_3) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [create_with_rect_angle_scalable(rect, angle, is_angle_scalable)](#create_with_rect_angle_scalable_rect_angle_is_angle_scalable_4) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [create_with_rect_f(rect, angle)](#create_with_rect_f_rect_angle_5) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [create_with_rect_f_angle_scalable(rect, angle, is_angle_scalable)](#create_with_rect_f_angle_scalable_rect_angle_is_angle_scalable_6) | Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento. |
+| [deep_clone()](#deep_clone__7) | Crea una nuova copia profonda dell'attuale [Brush](/imaging/python-net/aspose.imaging/brush/). |
+| [multiply_transform(matrix)](#multiply_transform_matrix_8) | Moltiplica la [Matrix](/imaging/python-net/aspose.imaging/matrix/) che rappresenta la trasformazione geometrica locale di questo [LinearGradientBrush](/imaging/python-net/aspose.imaging.brushes/lineargradientbrush/) per la [Matrix](/imaging/python-net/aspose.imaging/matrix/) specificata, preponendo la [Matrix](/imaging/python-net/aspose.imaging/matrix/) specificata. |
+| [multiply_transform(matrix, order)](#multiply_transform_matrix_order_9) | Moltiplica la [Matrix](/imaging/python-net/aspose.imaging/matrix/) che rappresenta la trasformazione geometrica locale di questo [LinearGradientBrush](/imaging/python-net/aspose.imaging.brushes/lineargradientbrush/) per la [Matrix](/imaging/python-net/aspose.imaging/matrix/) specificata, nell'ordine specificato. |
+| reset_transform() | Reimposta la proprietà [TransformBrush.transform](/imaging/python-net/aspose.imaging.brushes/transformbrush/) a identità. |
+| [rotate_transform(angle)](#rotate_transform_angle_10) | Ruota la trasformazione geometrica locale della quantità specificata. Questo metodo prepone la rotazione alla trasformazione. |
+| [rotate_transform(angle, order)](#rotate_transform_angle_order_11) | Ruota la trasformazione geometrica locale della quantità specificata nell'ordine specificato. |
+| [scale_transform(sx, sy)](#scale_transform_sx_sy_12) | Scala la trasformazione geometrica locale delle quantità specificate. Questo metodo prepone la matrice di scala alla trasformazione. |
+| [scale_transform(sx, sy, order)](#scale_transform_sx_sy_order_13) | Scala la trasformazione geometrica locale delle quantità specificate nell'ordine specificato. |
+| [translate_transform(dx, dy)](#translate_transform_dx_dy_14) | Trasla la trasformazione geometrica locale delle dimensioni specificate. Questo metodo prepone la traslazione alla trasformazione. |
+| [translate_transform(dx, dy, order)](#translate_transform_dx_dy_order_15) | Trasla la trasformazione geometrica locale delle dimensioni specificate nell'ordine specificato. |
+
+
+### Constructor: LinearMulticolorGradientBrush() {#LinearMulticolorGradientBrush__1}
+
+
+```
+ LinearMulticolorGradientBrush() 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con parametri predefiniti.<br/>            Il colore iniziale è nero, il colore finale è bianco, l'angolo è 45 gradi e il rettangolo è posizionato in (0,0) con dimensioni (1,1).
+
+### Constructor: LinearMulticolorGradientBrush(point1, point2) {#LinearMulticolorGradientBrush_point1_point2_2}
+
+
+```
+ LinearMulticolorGradientBrush(point1, point2) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| point1 | [Point](/imaging/python-net/aspose.imaging/point/) | Una struttura [Point](/imaging/python-net/aspose.imaging/point/) che rappresenta il punto di partenza del gradiente lineare. |
+| point2 | [Point](/imaging/python-net/aspose.imaging/point/) | Una struttura [Point](/imaging/python-net/aspose.imaging/point/) che rappresenta il punto finale del gradiente lineare. |
+
+### Constructor: LinearMulticolorGradientBrush(point1, point2) {#LinearMulticolorGradientBrush_point1_point2_3}
+
+
+```
+ LinearMulticolorGradientBrush(point1, point2) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | Una struttura [Point](/imaging/python-net/aspose.imaging/point/) che rappresenta il punto di partenza del gradiente lineare. |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | Una struttura [Point](/imaging/python-net/aspose.imaging/point/) che rappresenta il punto finale del gradiente lineare. |
+
+### Constructor: LinearMulticolorGradientBrush(rect, angle) {#LinearMulticolorGradientBrush_rect_angle_4}
+
+
+```
+ LinearMulticolorGradientBrush(rect, angle) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+
+### Constructor: LinearMulticolorGradientBrush(rect, angle) {#LinearMulticolorGradientBrush_rect_angle_5}
+
+
+```
+ LinearMulticolorGradientBrush(rect, angle) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+
+### Constructor: LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) {#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_6}
+
+
+```
+ LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+| is_angle_scalable | bool | Se impostato su <c>true</c> l'angolo viene modificato durante le trasformazioni con questo [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
+
+### Constructor: LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) {#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_7}
+
+
+```
+ LinearMulticolorGradientBrush(rect, angle, is_angle_scalable) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+| is_angle_scalable | bool | Se impostato su <c>true</c> l'angolo viene modificato durante le trasformazioni con questo [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
+
+### Method: create_with_points(point1, point2)  [static] {#create_with_points_point1_point2_1}
+
+
+```
+ create_with_points(point1, point2) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| point1 | [Point](/imaging/python-net/aspose.imaging/point/) | Una struttura [Point](/imaging/python-net/aspose.imaging/point/) che rappresenta il punto di partenza del gradiente lineare. |
+| point2 | [Point](/imaging/python-net/aspose.imaging/point/) | Una struttura [Point](/imaging/python-net/aspose.imaging/point/) che rappresenta il punto finale del gradiente lineare. |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
+
+
+### Method: create_with_points_f(point1, point2)  [static] {#create_with_points_f_point1_point2_2}
+
+
+```
+ create_with_points_f(point1, point2) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) con i punti specificati.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| point1 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | Una struttura [PointF](/imaging/python-net/aspose.imaging/pointf/) che rappresenta il punto di partenza del gradiente lineare. |
+| point2 | [PointF](/imaging/python-net/aspose.imaging/pointf/) | Una struttura [PointF](/imaging/python-net/aspose.imaging/pointf/) che rappresenta il punto finale del gradiente lineare. |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
+
+
+### Method: create_with_rect(rect, angle)  [static] {#create_with_rect_rect_angle_3}
+
+
+```
+ create_with_rect(rect, angle) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
+
+
+### Method: create_with_rect_angle_scalable(rect, angle, is_angle_scalable)  [static] {#create_with_rect_angle_scalable_rect_angle_is_angle_scalable_4}
+
+
+```
+ create_with_rect_angle_scalable(rect, angle, is_angle_scalable) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+| is_angle_scalable | bool | Se impostato su <c>true</c> l'angolo viene modificato durante le trasformazioni con questo [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
+
+
+### Method: create_with_rect_f(rect, angle)  [static] {#create_with_rect_f_rect_angle_5}
+
+
+```
+ create_with_rect_f(rect, angle) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
+
+
+### Method: create_with_rect_f_angle_scalable(rect, angle, is_angle_scalable)  [static] {#create_with_rect_f_angle_scalable_rect_angle_is_angle_scalable_6}
+
+
+```
+ create_with_rect_f_angle_scalable(rect, angle, is_angle_scalable) 
+```
+
+Inizializza una nuova istanza della classe [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) basata su un rettangolo e un angolo di orientamento.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | Una struttura [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) che specifica i limiti del gradiente lineare. |
+| angle | float | L'angolo, misurato in gradi in senso orario dall'asse x, della linea di orientamento del gradiente. |
+| is_angle_scalable | bool | Se impostato su <c>true</c> l'angolo viene modificato durante le trasformazioni con questo [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/). |
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) |  |
+
+
+### Method: deep_clone() {#deep_clone__7}
+
+
+```
+ deep_clone() 
+```
+
+Crea una nuova copia profonda dell'attuale [Brush](/imaging/python-net/aspose.imaging/brush/).
+
+**Returns**
+
+| Tipo | Descrizione |
+| :- | :- |
+| [Brush](/imaging/python-net/aspose.imaging/brush/) | Un nuovo [Brush](/imaging/python-net/aspose.imaging/brush/) che è la copia profonda di questa istanza [Brush](/imaging/python-net/aspose.imaging/brush/). |
+
+
+### Method: multiply_transform(matrix) {#multiply_transform_matrix_8}
+
+
+```
+ multiply_transform(matrix) 
+```
+
+Moltiplica la [Matrix](/imaging/python-net/aspose.imaging/matrix/) che rappresenta la trasformazione geometrica locale di questo [LinearGradientBrush](/imaging/python-net/aspose.imaging.brushes/lineargradientbrush/) per la [Matrix](/imaging/python-net/aspose.imaging/matrix/) specificata, preponendo la [Matrix](/imaging/python-net/aspose.imaging/matrix/) specificata.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | La [Matrix](/imaging/python-net/aspose.imaging/matrix/) con cui moltiplicare la trasformazione geometrica. |
+
+### Method: multiply_transform(matrix, order) {#multiply_transform_matrix_order_9}
+
+
+```
+ multiply_transform(matrix, order) 
+```
+
+Moltiplica la [Matrix](/imaging/python-net/aspose.imaging/matrix/) che rappresenta la trasformazione geometrica locale di questo [LinearGradientBrush](/imaging/python-net/aspose.imaging.brushes/lineargradientbrush/) per la [Matrix](/imaging/python-net/aspose.imaging/matrix/) specificata, nell'ordine specificato.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix/) | La [Matrix](/imaging/python-net/aspose.imaging/matrix/) con cui moltiplicare la trasformazione geometrica. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Un [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) che specifica in quale ordine moltiplicare le due matrici. |
+
+### Method: rotate_transform(angle) {#rotate_transform_angle_10}
+
+
+```
+ rotate_transform(angle) 
+```
+
+Ruota la trasformazione geometrica locale della quantità specificata. Questo metodo prepone la rotazione alla trasformazione.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| angle | float | L'angolo di rotazione. |
+
+### Method: rotate_transform(angle, order) {#rotate_transform_angle_order_11}
+
+
+```
+ rotate_transform(angle, order) 
+```
+
+Ruota la trasformazione geometrica locale della quantità specificata nell'ordine specificato.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| angle | float | L'angolo di rotazione. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Un [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) che specifica se aggiungere o pre-pendere la matrice di rotazione. |
+
+### Method: scale_transform(sx, sy) {#scale_transform_sx_sy_12}
+
+
+```
+ scale_transform(sx, sy) 
+```
+
+Scala la trasformazione geometrica locale delle quantità specificate. Questo metodo prepone la matrice di scala alla trasformazione.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| sx | float | La quantità con cui scalare la trasformazione lungo l'asse x. |
+| sy | float | La quantità con cui scalare la trasformazione lungo l'asse y. |
+
+### Method: scale_transform(sx, sy, order) {#scale_transform_sx_sy_order_13}
+
+
+```
+ scale_transform(sx, sy, order) 
+```
+
+Scala la trasformazione geometrica locale delle quantità specificate nell'ordine specificato.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| sx | float | La quantità con cui scalare la trasformazione lungo l'asse x. |
+| sy | float | La quantità con cui scalare la trasformazione lungo l'asse y. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Un [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) che specifica se aggiungere o anteporre la matrice di scaling. |
+
+### Method: translate_transform(dx, dy) {#translate_transform_dx_dy_14}
+
+
+```
+ translate_transform(dx, dy) 
+```
+
+Trasla la trasformazione geometrica locale delle dimensioni specificate. Questo metodo prepone la traslazione alla trasformazione.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| dx | float | Il valore della traslazione in x. |
+| dy | float | Il valore della traslazione in y. |
+
+### Method: translate_transform(dx, dy, order) {#translate_transform_dx_dy_order_15}
+
+
+```
+ translate_transform(dx, dy, order) 
+```
+
+Trasla la trasformazione geometrica locale delle dimensioni specificate nell'ordine specificato.
+
+**Parameters:**
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| dx | float | Il valore della traslazione in x. |
+| dy | float | Il valore della traslazione in y. |
+| order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | L'ordine (anteporre o aggiungere) con cui applicare la traslazione. |
+
