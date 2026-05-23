@@ -1,0 +1,35 @@
+---
+title: "Clase CmxPathSpec"
+type: docs
+weight: 50
+url: /es/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/
+---
+
+**Summary:** Represents geometric info specified for a path.
+
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
+
+**Full Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxPathSpec
+
+**Inheritance:** ICmxObjectSpec
+
+## **Constructors**
+| **Name** | **Descripción** |
+| :- | :- |
+| [CmxPathSpec()](#CmxPathSpec__1) | Inicializa una nueva instancia de la clase CmxPathSpec |
+## **Properties**
+| **Name** | **Type** | **Access** | **Descripción** |
+| :- | :- | :- | :- |
+| points | [CmxPathPointSpec[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/) | r/w | Obtiene o establece los puntos. |
+| tipo | int | r/w | Obtiene o establece el tipo. |
+
+
+### Constructor: CmxPathSpec() {#CmxPathSpec__1}
+
+
+```
+ CmxPathSpec() 
+```
+
+Inicializa una nueva instancia de la clase CmxPathSpec
+
