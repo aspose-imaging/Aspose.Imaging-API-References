@@ -25,6 +25,7 @@ url: /python-net/aspose.imaging.imageloadoptions/cdrloadoptions/
 | data_background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |
 | data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode/) | r/w | Gets or sets the data recovery mode. |
 | default_font | [Font](/imaging/python-net/aspose.imaging/font/) | r/w | Gets or sets the default font. |
+| dispose_stream | bool | r/w | Gets or sets a value indicating whether to dispose the stream containing the image. |
 | optimal_memory_usage | bool | r/w | Gets or sets a value indicating whether [optimal memory usage]. |
 | use_icc_profile_conversion | bool | r/w | Gets or sets a value indicating whether ICC profile conversion should be applied. |
 
