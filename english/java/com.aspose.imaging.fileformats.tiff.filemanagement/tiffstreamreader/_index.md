@@ -490,7 +490,7 @@ Reads an array of long values from the stream.
 | count | long | The elements count. |
 
 **Returns:**
-long[] - The ulong array.
+long[] - The long array.
 ### readULong(long position) {#readULong-long-}
 ```
 public final long readULong(long position)
@@ -521,7 +521,7 @@ Reads an array of ulong values from the stream.
 | count | long | The elements count. |
 
 **Returns:**
-long[] - The ulong array.
+long[] - The long array.
 ### toStreamContainer(long startPosition) {#toStreamContainer-long-}
 ```
 public StreamContainer toStreamContainer(long startPosition)

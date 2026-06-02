@@ -2041,7 +2041,7 @@ Embed digital sign based on provided password into the image using steganography
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The password used for generate digital sign data |
+| password | java.lang.String | The password (minimum 4 symbols) used for generate digital sign data. |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**
@@ -2081,7 +2081,7 @@ Performs a fast check to determine if the image is digitally signed, using the p
 
 --------------------
 
-This method provides the fastest detection by leveraging `GetSignPercentage`. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
+This method provides the fastest detection by leveraging \#analyzePercentageDigitalSignature(String).analyzePercentageDigitalSignature(String). Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
 
 **Parameters:**
 | Parameter | Type | Description |

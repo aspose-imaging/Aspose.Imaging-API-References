@@ -323,7 +323,7 @@ Embed digital sign based on provided password into each page of the image.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The password used for generate digital sign data |
+| password | java.lang.String | The password (minimum 4 symbols) used for generate digital sign data |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**

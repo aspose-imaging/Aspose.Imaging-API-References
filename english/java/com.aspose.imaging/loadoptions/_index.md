@@ -36,6 +36,8 @@ Represents the loading options.
 | [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | Sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [getConcurrentImageProcessing()](#getConcurrentImageProcessing--) | Gets a value indicating whether [concurrent image processing]. |
 | [setConcurrentImageProcessing(boolean value)](#setConcurrentImageProcessing-boolean-) | Sets a value indicating whether [concurrent image processing]. |
+| [getDisposeStream()](#getDisposeStream--) | Gets a value indicating whether to dispose the stream containing the image. |
+| [setDisposeStream(boolean value)](#setDisposeStream-boolean-) | Sets a value indicating whether to dispose the stream containing the image. |
 | [getIProgressEventHandler()](#getIProgressEventHandler--) | Gets the progress event handler. |
 | [setIProgressEventHandler(ProgressEventHandler value)](#setIProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | Sets the progress event handler. |
 ### LoadOptions() {#LoadOptions--}
@@ -220,6 +222,29 @@ Value: `true` if [concurrent image processing]; otherwise, `false`.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether [concurrent image processing]. |
+
+### getDisposeStream() {#getDisposeStream--}
+```
+public final boolean getDisposeStream()
+```
+
+
+Gets a value indicating whether to dispose the stream containing the image.
+
+**Returns:**
+boolean - a value indicating whether to dispose the stream containing the image.
+### setDisposeStream(boolean value) {#setDisposeStream-boolean-}
+```
+public final void setDisposeStream(boolean value)
+```
+
+
+Sets a value indicating whether to dispose the stream containing the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to dispose the stream containing the image. |
 
 ### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```

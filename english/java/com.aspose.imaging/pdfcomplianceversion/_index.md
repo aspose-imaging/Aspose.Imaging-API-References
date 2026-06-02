@@ -12,7 +12,11 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class PdfComplianceVersion extends System.Enum
 ```
 
-Specifies the PDF compliance level to output file.
+Specifies the PDF compliance level to output file. Valid values are:
+
+ *  \#Pdf15.Pdf15 - The output file will be PDF 1.5 compliant.
+ *  \#PdfA1a.PdfA1a - The output file will be PDF/A-1a compliant.
+ *  \#PdfA1b.PdfA1b - The output file will be PDF/A-1b compliant.
 ## Fields
 
 | Field | Description |
