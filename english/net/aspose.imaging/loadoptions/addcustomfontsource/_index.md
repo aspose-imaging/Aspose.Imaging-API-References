@@ -3,7 +3,7 @@ title: LoadOptions.AddCustomFontSource
 second_title: Aspose.Imaging for .NET API Reference
 description: LoadOptions method. Adds the custom font source to supply imagespecific fonts
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/loadoptions/addcustomfontsource/
 ---
 ## LoadOptions.AddCustomFontSource method

@@ -28,6 +28,7 @@ public class CmxLoadOptions : LoadOptions
 | [ConcurrentImageProcessing](../../aspose.imaging/loadoptions/concurrentimageprocessing/) { get; set; } | Gets or sets a value indicating whether [concurrent image processing]. |
 | [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor/) { get; set; } | Gets or sets the [`Image`](../../aspose.imaging/image/) background [`Color`](../../aspose.imaging/color/). |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode/) { get; set; } | Gets or sets the data recovery mode. |
+| [DisposeStream](../../aspose.imaging/loadoptions/disposestream/) { get; set; } | Gets or sets a value indicating whether to dispose the stream containing the image. |
 | [OptimalMemoryUsage](../../aspose.imaging.imageloadoptions/cmxloadoptions/optimalmemoryusage/) { get; set; } | Gets or sets a value indicating whether [optimal memory usage]. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
 

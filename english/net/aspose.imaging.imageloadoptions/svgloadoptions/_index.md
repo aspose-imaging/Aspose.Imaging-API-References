@@ -30,6 +30,7 @@ public class SvgLoadOptions : LoadOptions
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode/) { get; set; } | Gets or sets the data recovery mode. |
 | [DefaultHeight](../../aspose.imaging.imageloadoptions/svgloadoptions/defaultheight/) { get; set; } | Gets or sets the default height. Property DefaultHeight use with only case, when height not set in file. |
 | [DefaultWidth](../../aspose.imaging.imageloadoptions/svgloadoptions/defaultwidth/) { get; set; } | Gets or sets the default width. Property DefaultWidth use with only case, when width not set in file. |
+| [DisposeStream](../../aspose.imaging/loadoptions/disposestream/) { get; set; } | Gets or sets a value indicating whether to dispose the stream containing the image. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
 
 ## Methods

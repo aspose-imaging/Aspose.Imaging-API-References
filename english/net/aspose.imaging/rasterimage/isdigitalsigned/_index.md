@@ -25,7 +25,7 @@ True if the image is signed, otherwise false.
 
 ## Remarks
 
-This method provides the fastest detection by leveraging !:GetSignPercentage. Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
+This method provides the fastest detection by leveraging [`AnalyzePercentageDigitalSignature`](../analyzepercentagedigitalsignature/). Once the extracted data meets the specified threshold, further extraction steps aimed at improving detection accuracy are skipped.
 
 ## Examples
 

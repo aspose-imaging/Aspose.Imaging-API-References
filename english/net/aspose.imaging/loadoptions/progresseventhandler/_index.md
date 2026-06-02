@@ -3,7 +3,7 @@ title: LoadOptions.ProgressEventHandler
 second_title: Aspose.Imaging for .NET API Reference
 description: LoadOptions property. Gets or sets the progress event handler
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging/loadoptions/progresseventhandler/
 ---
 ## LoadOptions.ProgressEventHandler property
