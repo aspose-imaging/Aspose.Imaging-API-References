@@ -1,65 +1,65 @@
 ---
-title: Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts
-second_title: Aspose.Imaging لمرجع NET API
-description: تحتوي مساحة الاسم على أنواع MS-EMFPLUS تنسيق ملف تعريف محسّن بالإضافة إلى الامتدادات 2.1 EMF  Constants
+title: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Consts"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "تحتوي مساحة الاسم على الأنواع MSEMFPLUS Enhanced Metafile Format Plus Extensions 2.1 EMF Constants"
 type: docs
-weight: 370
+weight: 410
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.consts/
 ---
-تحتوي مساحة الاسم على أنواع [MS-EMFPLUS]: تنسيق ملف تعريف محسّن بالإضافة إلى الامتدادات 2.1 EMF + Constants
+مساحة الأسماء تحتوي على الأنواع [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.1 EMF+ Constants
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [EmfPlusImageEffectsIdentifiers](./emfplusimageeffectsidentifiers) | تعرف معرفات ImageEffects GUIDs القياسية لتحديد تأثيرات صورة الرسومات. يتم استخدام هذه المعرفات بواسطة برامج تشغيل الأجهزة لنشر مستويات دعمها لهذه التأثيرات. يتم تعريف ثوابت المعرف باستخدام تمثيل سلسلة GUID المتعرج المتعرج (القسم [MS-DTYP] 2.3.4.3) . |
+| [EmfPlusImageEffectsIdentifiers](./emfplusimageeffectsidentifiers/) | معرفات ImageEffects تعرف GUIDs قياسية لتحديد تأثيرات صور الرسومات. تُستخدم هذه المعرفات بواسطة برامج تشغيل الأجهزة لنشر مستويات دعمها لهذه التأثيرات. تُعرّف ثوابت المعرف باستخدام تمثيل سلسلة GUID بين أقواس معقوفة ([MS-DTYP] القسم 2.3.4.3). |
 ## تعداد
 
-| تعداد | وصف |
+| تعداد | الوصف |
 | --- | --- |
-| [EmfPlusBitmapDataType](./emfplusbitmapdatatype) | يعرّف تعداد BitmapDataType أنواع تنسيقات بيانات الصورة النقطية. |
-| [EmfPlusBrushDataFlags](./emfplusbrushdataflags) | تحدد علامات BrushData خصائص فرش الرسومات ، بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusBrushType](./emfplusbrushtype) | يحدد تعداد BrushType أنواع فرش الرسومات ، والتي تُستخدم لتعبئة مناطق الرسومات. |
-| [EmfPlusCombineMode](./emfpluscombinemode) | يعرّف تعداد CombineMode أوضاعًا لدمج منطقتي رسومات. في الأوصاف التالية ، يُشار إلى المناطق المراد دمجها بالمناطق "الحالية" و "الجديدة". |
-| [EmfPlusCompositingMode](./emfpluscompositingmode) | يحدد تعداد CompositingMode أوضاعًا لدمج ألوان المصدر مع ألوان الخلفية. يمثل وضع التركيب حالة تمكين مزج ألفا. |
-| [EmfPlusCompositingQuality](./emfpluscompositingquality) | تعداد الجودة يحدد مستويات الجودة لإنشاء صور مركبة |
-| [EmfPlusCurveAdjustments](./emfpluscurveadjustments) | يعرّف تعداد CurveAdjustments عمليات الضبط التي يمكن تطبيقها على منحنى لون الصورة. |
-| [EmfPlusCurveChannel](./emfpluscurvechannel) | يحدد تعداد CurveChannel قنوات الألوان التي يمكن أن تتأثر بضبط تأثير منحنى اللون على الصورة. |
-| [EmfPlusCustomLineCapDataFlags](./emfpluscustomlinecapdataflags) | تحدد علامات CustomLineCapData بيانات لأغطية الأسطر المخصصة. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusCustomLineCapDataType](./emfpluscustomlinecapdatatype) | يعرّف تعداد CustomLineCapDataType أنواع البيانات المخصصة لأحرف الخطوط ، والتي تحدد الأنماط والأشكال لنهايات خطوط الرسومات. |
-| [EmfPlusDashedLineCapType](./emfplusdashedlinecaptype) | يعرّف تعداد DashedLineCapType أنواع الأحرف الاستهلالية للأسطر لاستخدامها في نهايات الأسطر المتقطعة المرسومة باستخدام أقلام الرسومات. |
-| [EmfPlusDriverStringOptionsFlags](./emfplusdriverstringoptionsflags) | تحدد علامات DriverStringOptions خصائص وضع نص الرسومات وعرضه. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusFilterType](./emfplusfiltertype) | يحدد تعداد FilterType أنواع خوارزميات التصفية التي يمكن استخدامها لتحسين جودة النص والرسومات وعرض الصورة. |
-| [EmfPlusFontStyleFlags](./emfplusfontstyleflags) | تحدد إشارات FontStyle أنماط خطوط خطوط الرسومات. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusGraphicsVersionEnum](./emfplusgraphicsversionenum) | يحدد تعداد GraphicsVersion إصدارات رسومات نظام التشغيل المستخدمة لإنشاء ملفات تعريف EMF +. |
-| [EmfPlusHatchStyle](./emfplushatchstyle) | يعرّف تعداد HatchStyle أنماط الفتحة المستخدمة بواسطة فرش الرسومات. يتكون نمط الفتحة من لون خلفية خالص وخطوط مرسومة فوق الخلفية. |
-| [EmfPlusHotkeyPrefix](./emfplushotkeyprefix) | يحدد تعداد HotkeyPrefix خيارات الإخراج لبادئات مفاتيح الاختصار في نص الرسومات. |
-| [EmfPlusImageDataType](./emfplusimagedatatype) | يحدد تعداد ImageDataType أنواع تنسيقات بيانات الصورة. |
-| [EmfPlusInterpolationMode](./emfplusinterpolationmode) | يحدد تعداد وضع الاستيفاء طرق إجراء القياس ، بما في ذلك التمدد والانكماش . |
-| [EmfPlusLanguageIdentifierType](./emfpluslanguageidentifiertype) | يعرّف تعداد معرف اللغة معرفات للغات الطبيعية في المناطق المحلية ، بما في ذلك البلدان والمناطق الجغرافية والمناطق الإدارية . |
-| [EmfPlusLineCapType](./emfpluslinecaptype) | يحدد تعداد LineCapType أنواع الأحرف الاستهلالية للسطر لاستخدامها في نهايات الأسطر المرسومة باستخدام أقلام الرسومات. |
-| [EmfPlusLineJoinType](./emfpluslinejointype) | يحدد تعداد LineJoinType طرقًا لربط سطرين يتم رسمهما بواسطة قلم الرسومات نفسه وتلتقي نهايتيهما. |
-| [EmfPlusLineStyle](./emfpluslinestyle) | يحدد تعداد LineStyle أنماط الخطوط المرسومة باستخدام أقلام الرسومات. |
-| [EmfPlusMetafileDataType](./emfplusmetafiledatatype) | يحدد تعداد MetafileDataType أنواع بيانات ملفات التعريف التي يمكن تضمينها في ملف تعريف EMF +. |
-| [EmfPlusObjectClamp](./emfplusobjectclamp) | يحدد EmfPlusObjectClamp سلوك لقط الكائن. لا يتم استخدام It حتى يتم تطبيق هذا الكائن على صورة يتم رسمها. |
-| [EmfPlusObjectType](./emfplusobjecttype) | يحدد تعداد ObjectType أنواع الكائنات الرسومية التي يمكن إنشاؤها واستخدامها في عمليات الرسومات. |
-| [EmfPlusPaletteStyleFlags](./emfpluspalettestyleflags) | تحدد إشارات PaletteStyle خصائص لوحات الرسومات. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusPathPointFlags](./emfpluspathpointflags) | عدد صحيح بدون إشارة 32 بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي تم تحديدها بواسطة هذا الكائن . C (1 بت): إذا تم تعيينها ، تحدد مصفوفة PathPoints المواقع المطلقة في مساحة الإحداثيات مع عدد صحيح 16 بت إحداثيات . إذا كانت واضحة ، تحدد صفيف PathPoints المواقع المطلقة في مساحة الإحداثيات بإحداثيات فاصلة عائمة 32 بت . ملاحظة إذا تم تعيين علامة P (أدناه) ، فقد تكون هذه العلامة واضحة ويجب تجاهلها. 1 بت): إذا تم تعيينها ، يتم تحديد أنواع النقاط في مصفوفة PathPointTypes بواسطة كائنات EmfPlusPathPointTypeRle (القسم 2.2.2.32) ، التي تستخدم ضغط تشفير طول التشغيل (RLE) و / أو كائنات EmfPlusPathPointType (القسم 2.2.2.31). راجع القسم 3.1.6 [MS-WMF] للحصول على مزيد من المعلومات حول ضغط RLE. إذا كان واضحًا ، يتم تحديد أنواع النقاط في صفيف PathPointTypes بواسطة كائنات EmfPlusPathPointType . P (1 بت): إذا تم تعيينها ، فإن كل عنصر في صفيف PathPoints يحدد موقعًا في مساحة الإحداثي متعلق بالموقع المحدد بواسطة العنصر السابق في المصفوفة. في حالة العنصر الأول في PathPoints ، يُفترض وجود موقع سابق عند الإحداثيات (0،0). إذا كان واضحًا ، يحدد كل عنصر في مصفوفة PathPoints موقعًا مطلقًا. |
-| [EmfPlusPathPointTypeEnum](./emfpluspathpointtypeenum) | يعرّف تعداد PathPointType أنواع النقاط على مسار الرسوم. |
-| [EmfPlusPathPointTypeFlags](./emfpluspathpointtypeflags) | تحدد إشارات PathPointType خصائص نوع النقاط الموجودة على مسارات الرسوم. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusPenAlignment](./emfpluspenalignment) | يحدد تعداد PenAlignment توزيع عرض القلم فيما يتعلق بالخط المرسوم. |
-| [EmfPlusPenDataFlags](./emfpluspendataflags) | تحدد علامات PenData خصائص أقلام الرسومات ، بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusPixelFormat](./emfpluspixelformat) | يعرّف تعداد PixelFormat تنسيقات البكسل المدعومة في EMF + bitmaps. |
-| [EmfPlusPixelOffsetMode](./emfpluspixeloffsetmode) | يحدد تعداد PixelOffsetMode كيفية إزاحة وحدات البكسل ، والتي تحدد المقايضة بين سرعة العرض والجودة. |
-| [EmfPlusRecordType](./emfplusrecordtype) | يحدد تعداد نوع السجل أنواع السجلات المستخدمة في ملفات تعريف EMF +. |
-| [EmfPlusRegionNodeDataType](./emfplusregionnodedatatype) | يحدد تعداد RegionNodeDataType أنواع بيانات عقدة المنطقة. |
-| [EmfPlusSmoothingMode](./emfplussmoothingmode) | يعرّف تعداد SmoothingMode أوضاع التنعيم لتطبيقها على الخطوط والمنحنيات وحواف المساحات المعبأة لجعلها تبدو متصلة أو محددة بشكل حاد . |
-| [EmfPlusStringAlignment](./emfplusstringalignment) | يحدد تعداد StringAlignment طرقًا لمحاذاة السلاسل فيما يتعلق بمستطيل تخطيط النص. |
-| [EmfPlusStringDigitSubstitution](./emfplusstringdigitsubstitution) | يحدد تعداد StringDigitSubstitution طرقًا لاستبدال الأرقام في سلسلة وفقًا للغة المستخدم أو اللغة. |
-| [EmfPlusStringFormatFlags](./emfplusstringformatflags) | تحدد علامات StringFormat خيارات تخطيط نص الرسومات ، بما في ذلك الاتجاه والقص ومعالجة الخط. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [EmfPlusStringTrimming](./emfplusstringtrimming) | يحدد تعداد StringTrimming كيفية اقتطاع الأحرف من سلسلة كبيرة جدًا بالنسبة لمستطيل تخطيط النص. |
-| [EmfPlusTextRenderingHint](./emfplustextrenderinghint) | يحدد تعداد TextRenderingHint أنواع تلميحات النص وصقل التعرجات ، مما يؤثر على جودة عرض النص. |
-| [EmfPlusUnitType](./emfplusunittype) | يحدد تعداد نوع الوحدة وحدات القياس في أنظمة إحداثيات مختلفة. |
-| [EmfPlusWrapMode](./emfpluswrapmode) | يحدد تعداد WrapMode كيفية تجانب النقش من فرشاة النسيج أو التدرج اللوني عبر شكل أو عند حدود الشكل ، عندما يكون أصغر من المساحة المعبأة. |
+| [EmfPlusBitmapDataType](./emfplusbitmapdatatype/) | يحدد تعداد BitmapDataType أنواع صيغ بيانات البت ماب. |
+| [EmfPlusBrushDataFlags](./emfplusbrushdataflags/) | تحدد أعلام BrushData خصائص فرش الرسومات، بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusBrushType](./emfplusbrushtype/) | يحدد تعداد BrushType أنواع فرش الرسومات، التي تُستخدم لملء مناطق الرسومات. |
+| [EmfPlusCombineMode](./emfpluscombinemode/) | يحدد تعداد CombineMode أوضاع دمج منطقتين من الرسومات. في الأوصاف التالية، يُشار إلى المناطق التي سيتم دمجها بأنها المناطق "القائمة" و"الجديدة". |
+| [EmfPlusCompositingMode](./emfpluscompositingmode/) | يحدد تعداد CompositingMode أوضاع دمج ألوان المصدر مع ألوان الخلفية. تمثل وضعية التركيب حالة تمكين المزج ألفا. |
+| [EmfPlusCompositingQuality](./emfpluscompositingquality/) | يحدد تعداد CompositingQuality مستويات الجودة لإنشاء صور مركبة |
+| [EmfPlusCurveAdjustments](./emfpluscurveadjustments/) | يحدد تعداد CurveAdjustments التعديلات التي يمكن تطبيقها على منحنى ألوان الصورة. |
+| [EmfPlusCurveChannel](./emfpluscurvechannel/) | يحدد تعداد CurveChannel قنوات الألوان التي يمكن أن تتأثر بتعديل تأثير منحنى اللون على الصورة. |
+| [EmfPlusCustomLineCapDataFlags](./emfpluscustomlinecapdataflags/) | تحدد أعلام CustomLineCapData البيانات الخاصة بقبعات الخط المخصصة. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusCustomLineCapDataType](./emfpluscustomlinecapdatatype/) | يحدد تعداد CustomLineCapDataType أنواع بيانات قبعات الخط المخصصة، التي تحدد الأنماط والأشكال لنهايات خطوط الرسومات. |
+| [EmfPlusDashedLineCapType](./emfplusdashedlinecaptype/) | يحدد تعداد DashedLineCapType أنواع قبعات الخط لاستخدامها في نهايات الخطوط المتقطعة التي تُرسم بأقلام الرسومات. |
+| [EmfPlusDriverStringOptionsFlags](./emfplusdriverstringoptionsflags/) | تحدد أعلام DriverStringOptions خصائص تموضع نص الرسومات وعرضه. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusFilterType](./emfplusfiltertype/) | يحدد تعداد FilterType أنواع خوارزميات الترشيح التي يمكن استخدامها لتحسين جودة النص والرسومات وعرض الصورة. |
+| [EmfPlusFontStyleFlags](./emfplusfontstyleflags/) | تحدد أعلام FontStyle أنماط خطوط الرسومات. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusGraphicsVersionEnum](./emfplusgraphicsversionenum/) | يحدد تعداد GraphicsVersion إصدارات رسومات نظام التشغيل المستخدمة لإنشاء ملفات EMF+ الميتا. |
+| [EmfPlusHatchStyle](./emfplushatchstyle/) | يحدد تعداد HatchStyle أنماط التظليل المستخدمة بواسطة فرش الرسومات. يتكون نمط التظليل من لون خلفية صلب وخطوط مرسومة فوق الخلفية. |
+| [EmfPlusHotkeyPrefix](./emfplushotkeyprefix/) | يحدد تعداد HotkeyPrefix خيارات الإخراج لبادئات المفاتيح السريعة في نص الرسومات. |
+| [EmfPlusImageDataType](./emfplusimagedatatype/) | يحدد تعداد ImageDataType أنواع صيغ بيانات الصورة. |
+| [EmfPlusInterpolationMode](./emfplusinterpolationmode/) | يحدد تعداد InterpolationMode طرق تنفيذ التحجيم، بما في ذلك التمدد والتقليص. |
+| [EmfPlusLanguageIdentifierType](./emfpluslanguageidentifiertype/) | تحدد تعداد LanguageIdentifier المعرفات للغات الطبيعية في الإعدادات الإقليمية، بما في ذلك البلدان والمناطق الجغرافية والمناطق الإدارية. |
+| [EmfPlusLineCapType](./emfpluslinecaptype/) | تحدد تعداد LineCapType أنواع نهايات الخط التي تُستخدم في نهايات الخطوط المرسومة بأقلام الرسومات. |
+| [EmfPlusLineJoinType](./emfpluslinejointype/) | تحدد تعداد LineJoinType طرق ربط خطين يتم رسمهما بنفس قلم الرسومات وتلتقي نهايتهما. |
+| [EmfPlusLineStyle](./emfpluslinestyle/) | تحدد تعداد LineStyle أنماط الخطوط التي تُرسم بأقلام الرسومات. |
+| [EmfPlusMetafileDataType](./emfplusmetafiledatatype/) | تحدد تعداد MetafileDataType أنواع بيانات ملفات الميتا التي يمكن تضمينها في ملف EMF+. |
+| [EmfPlusObjectClamp](./emfplusobjectclamp/) | يحدد EmfPlusObjectClamp سلوك تثبيت الكائن. لا يُستخدم إلا عندما يُطبق هذا الكائن على صورة يتم رسمها. |
+| [EmfPlusObjectType](./emfplusobjecttype/) | تحدد تعداد ObjectType أنواع كائنات الرسومات التي يمكن إنشاؤها واستخدامها في عمليات الرسومات. |
+| [EmfPlusPaletteStyleFlags](./emfpluspalettestyleflags/) | تحدد أعلام PaletteStyle خصائص لوحات ألوان الرسومات. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusPathPointFlags](./emfpluspathpointflags/) | عدد صحيح غير موقع 32 بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي يحددها هذا الكائن. C (بت واحد): إذا تم تعيينه، فإن مصفوفة PathPoints تحدد مواقع مطلقة في مساحة الإحداثيات باستخدام إحداثيات صحيحة 16 بت. إذا لم يتم تعيينه، فإن مصفوفة PathPoints تحدد مواقع مطلقة في مساحة الإحداثيات باستخدام إحداثيات عائمة 32 بت. ملاحظة: إذا تم تعيين علم P (أدناه)، قد يكون هذا العلم غير مُعين ويجب تجاهله. R (بت واحد): إذا تم تعيينه، فإن أنواع النقاط في مصفوفة PathPointTypes تُحدد بواسطة كائنات EmfPlusPathPointTypeRle (القسم 2.2.2.32)، التي تستخدم ضغط الترميز بطول المتسلسلة (RLE)، و/أو كائنات EmfPlusPathPointType (القسم 2.2.2.31). راجع قسم [MS-WMF] 3.1.6 لمزيد من المعلومات حول ضغط RLE. إذا لم يتم تعيينه، فإن أنواع النقاط في مصفوفة PathPointTypes تُحدد بواسطة كائنات EmfPlusPathPointType. P (بت واحد): إذا تم تعيينه، فإن كل عنصر في مصفوفة PathPoints يحدد موقعًا في مساحة الإحداثيات يكون نسبياً إلى الموقع المحدد بالعنصر السابق في المصفوفة. في حالة العنصر الأول في PathPoints، يُفترض وجود موقع سابق عند الإحداثيات (0,0). إذا لم يتم تعيينه، فإن كل عنصر في مصفوفة PathPoints يحدد موقعًا مطلقًا. |
+| [EmfPlusPathPointTypeEnum](./emfpluspathpointtypeenum/) | تحدد تعداد PathPointType أنواع النقاط على مسار الرسومات. |
+| [EmfPlusPathPointTypeFlags](./emfpluspathpointtypeflags/) | تحدد أعلام PathPointType خصائص نوع النقاط على مسارات الرسومات. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusPenAlignment](./emfpluspenalignment/) | تحدد تعداد PenAlignment توزيع عرض القلم بالنسبة للخط المرسوم. |
+| [EmfPlusPenDataFlags](./emfpluspendataflags/) | تحدد أعلام PenData خصائص أقلام الرسومات، بما في ذلك وجود حقول بيانات اختيارية. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusPixelFormat](./emfpluspixelformat/) | تحدد تعداد PixelFormat صيغ البكسل المدعومة في صور EMF+. |
+| [EmfPlusPixelOffsetMode](./emfpluspixeloffsetmode/) | تحدد تعداد PixelOffsetMode كيفية إزاحة البكسلات، مما يحدد التوازن بين سرعة العرض والجودة. |
+| [EmfPlusRecordType](./emfplusrecordtype/) | تحدد تعداد RecordType أنواع السجلات المستخدمة في ملفات الميتا EMF+. |
+| [EmfPlusRegionNodeDataType](./emfplusregionnodedatatype/) | تحدد تعداد RegionNodeDataType أنواع بيانات عقد المنطقة. |
+| [EmfPlusSmoothingMode](./emfplussmoothingmode/) | تحدد تعداد SmoothingMode أوضاع التنعيم التي تُطبق على الخطوط والمنحنيات وحواف المناطق المملوءة لجعلها تبدو أكثر استمرارية أو حادة التعريف. |
+| [EmfPlusStringAlignment](./emfplusstringalignment/) | تحدد تعداد StringAlignment طرق محاذاة السلاسل بالنسبة لمستطيل تخطيط النص. |
+| [EmfPlusStringDigitSubstitution](./emfplusstringdigitsubstitution/) | تحدد تعداد StringDigitSubstitution طرق استبدال الأرقام في سلسلة وفقًا لإعدادات المستخدم الإقليمية أو لغته. |
+| [EmfPlusStringFormatFlags](./emfplusstringformatflags/) | تحدد أعلام StringFormat خيارات تخطيط نص الرسومات، بما في ذلك الاتجاه والقص ومعالجة الخطوط. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [EmfPlusStringTrimming](./emfplusstringtrimming/) | تحدد تعداد StringTrimming كيفية قص الأحرف من سلسلة تكون أكبر من مستطيل تخطيط النص. |
+| [EmfPlusTextRenderingHint](./emfplustextrenderinghint/) | تحدد تعداد TextRenderingHint أنواع توجيه النص وإزالة التعرجات، مما يؤثر على جودة عرض النص. |
+| [EmfPlusUnitType](./emfplusunittype/) | تحدد تعداد UnitType وحدات القياس في أنظمة إحداثيات مختلفة. |
+| [EmfPlusWrapMode](./emfpluswrapmode/) | تحدد تعداد WrapMode كيفية تكرار النمط من القماش أو فرشاة التدرج عبر الشكل أو على حدود الشكل عندما يكون أصغر من المنطقة التي يتم تعبئتها. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

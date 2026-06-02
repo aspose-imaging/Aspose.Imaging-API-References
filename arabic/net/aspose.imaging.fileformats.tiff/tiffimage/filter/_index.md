@@ -1,27 +1,27 @@
 ---
-title: Filter
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتصفية المستطيل المحدد .
+title: "TiffImage.Filter"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة TiffImage. تصفية المحتوى داخل المستطيل المحدد باستخدام مرشح معالجة صور مخصص لتعزيز أو تعديل المنطقة المختارة. دمج هذه الطريقة في سير عمل تعديل الصور الخاص بك لتحقيق تحسينات أو تحولات مستهدفة داخل تطبيقك"
 type: docs
-weight: 260
+weight: 250
 url: /ar/net/aspose.imaging.fileformats.tiff/tiffimage/filter/
 ---
 ## TiffImage.Filter method
 
-يقوم بتصفية المستطيل المحدد .
+تصفية المحتوى داخل المستطيل المحدد، مع تطبيق مرشح معالجة صورة مخصص لتعزيز أو تعديل المنطقة المختارة. دمج هذه الطريقة في سير عمل تعديل الصور لتحقيق تحسينات أو تحويلات مستهدفة داخل تطبيقك.
 
 ```csharp
 public override void Filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | Rectangle | المستطيل. |
-| options | FilterOptionsBase | الخيارات. |
+| المستطيل | Rectangle | المستطيل. |
+| الخيارات | FilterOptionsBase | الخيارات. |
 
-### أمثلة
+## أمثلة
 
-يطبق المثال التالي أنواعًا مختلفة من المرشحات على صورة TIFF.
+المثال التالي يطبق أنواعًا مختلفة من المرشحات على صورة TIFF.
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-    // قم بتطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // طبق مرشحًا متوسطًا بحجم مستطيل 5 على الصورة بالكامل.
     tiffImage.Filter(tiffImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
     tiffImage.Save(dir + "sample.MedianFilter.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -41,7 +41,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-    // قم بتطبيق مرشح تجانس ثنائي بحجم نواة 5 على الصورة بأكملها.
+    // طبق مرشح تنعيم ثنائي الاتجاه بحجم نواة 5 على الصورة بالكامل.
     tiffImage.Filter(tiffImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
     tiffImage.Save(dir + "sample.BilateralSmoothingFilter.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -50,7 +50,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-    // قم بتطبيق مرشح Gaussian blur بنصف قطر 5 وقيمة سيجما 4.0 على الصورة بأكملها.
+    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     tiffImage.Filter(tiffImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
     tiffImage.Save(dir + "sample.GaussianBlurFilter.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -59,7 +59,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-    // قم بتطبيق مرشح Gauss-Wiener بنصف قطر 5 وقيمة سلسة 4.0 للصورة بأكملها.
+    // طبق مرشح Gauss-Wiener بنصف قطر 5 وقيمة تنعيم 4.0 على الصورة بالكامل.
     tiffImage.Filter(tiffImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
     tiffImage.Save(dir + "sample.GaussWienerFilter.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -68,7 +68,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-    // قم بتطبيق مرشح wiener للحركة بطول 5 ، وقيمة سلسة 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // طبق مرشح حركة وينر بطول 5، قيمة تنعيم 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     tiffImage.Filter(tiffImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     tiffImage.Save(dir + "sample.MotionWienerFilter.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -77,18 +77,18 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-    // قم بتطبيق مرشح حاد بحجم نواة 5 وقيمة سيجما 4.0 على الصورة بأكملها.
+    // طبق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     tiffImage.Filter(tiffImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
     tiffImage.Save(dir + "sample.SharpenFilter.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* class [FilterOptionsBase](../../../aspose.imaging.imagefilters.filteroptions/filteroptionsbase)
-* class [TiffImage](../../tiffimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff](../../tiffimage)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* class [FilterOptionsBase](../../../aspose.imaging.imagefilters.filteroptions/filteroptionsbase/)
+* class [TiffImage](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: ArcShape
-second_title: Aspose.Imaging for .NET API 参考
-description: 表示弧形
+title: "类 ArcShape"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.Shapes.ArcShape 类。表示一个弧形。"
 type: docs
-weight: 10950
+weight: 11540
 url: /zh/net/aspose.imaging.shapes/arcshape/
 ---
 ## ArcShape class
@@ -16,87 +16,89 @@ public sealed class ArcShape : PieShape, IOrderedShape
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ArcShape](arcshape#constructor)() | 初始化[`ArcShape`](../arcshape)类. |
-| [ArcShape](arcshape#constructor_1)(RectangleF, float, float) | 初始化[`ArcShape`](../arcshape)类. |
-| [ArcShape](arcshape#constructor_2)(RectangleF, float, float, bool) | 初始化[`ArcShape`](../arcshape)类. |
+| [ArcShape](arcshape/#constructor)() | 初始化 `ArcShape` 类的新实例。 |
+| [ArcShape](arcshape/#constructor_1)(RectangleF, float, float) | 初始化 `ArcShape` 类的新实例。 |
+| [ArcShape](arcshape/#constructor_2)(RectangleF, float, float, bool) | 初始化 `ArcShape` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| override [Bounds](../../aspose.imaging.shapes/rectangleprojectedshape/bounds) { get; } | 获取对象的边界。 |
-| override [Center](../../aspose.imaging.shapes/rectangleprojectedshape/center) { get; } | 获取形状的中心。 |
-| [EndPoint](../../aspose.imaging.shapes/arcshape/endpoint) { get; } | 获取结束形状点。 |
-| override [HasSegments](../../aspose.imaging.shapes/rectangleprojectedshape/hassegments) { get; } | 获取一个表示形状是否有段的值。 |
-| [IsClosed](../../aspose.imaging.shapes/arcshape/isclosed) { get; set; } | 获取或设置一个指示有序形状是否闭合的值。处理封闭有序形状时，起点和终点没有意义。 |
-| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom) { get; } | 获取左下角矩形点。 |
-| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop) { get; } | 获取左上角矩形点。 |
-| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight) { get; } | 获取矩形高度。 |
-| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth) { get; } | 获取矩形宽度。 |
-| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom) { get; } | 获取右下角矩形点。 |
-| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop) { get; } | 获取右上角的矩形点。 |
-| override [Segments](../../aspose.imaging.shapes/arcshape/segments) { get; } | 获取形状段。 |
-| [StartAngle](../../aspose.imaging.shapes/pieshape/startangle) { get; set; } | 获取或设置起始角度。 |
-| [StartPoint](../../aspose.imaging.shapes/arcshape/startpoint) { get; } | 获取起始形状点。 |
-| [SweepAngle](../../aspose.imaging.shapes/pieshape/sweepangle) { get; set; } | 获取或设置扫掠角。 |
+| override [Bounds](../../aspose.imaging.shapes/rectangleprojectedshape/bounds/) { get; } | 获取对象的边界。 |
+| override [Center](../../aspose.imaging.shapes/rectangleprojectedshape/center/) { get; } | 获取形状的中心。 |
+| [EndPoint](../../aspose.imaging.shapes/arcshape/endpoint/) { get; } | 获取结束形状点。 |
+| override [HasSegments](../../aspose.imaging.shapes/rectangleprojectedshape/hassegments/) { get; } | 获取一个值，指示形状是否具有段。 |
+| [IsClosed](../../aspose.imaging.shapes/arcshape/isclosed/) { get; set; } | 获取或设置指示有序形状是否闭合的值。处理闭合有序形状时，起始点和结束点没有意义。 |
+| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom/) { get; } | 获取矩形左下角点。 |
+| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop/) { get; } | 获取矩形左上角点。 |
+| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight/) { get; } | 获取矩形高度。 |
+| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth/) { get; } | 获取矩形宽度。 |
+| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom/) { get; } | 获取矩形右下角点。 |
+| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop/) { get; } | 获取矩形右上角点。 |
+| override [Segments](../../aspose.imaging.shapes/arcshape/segments/) { get; } | 获取形状的段。 |
+| [StartAngle](../../aspose.imaging.shapes/pieshape/startangle/) { get; set; } | 获取或设置起始角度。 |
+| [StartPoint](../../aspose.imaging.shapes/arcshape/startpoint/) { get; } | 获取起始形状点。 |
+| [SweepAngle](../../aspose.imaging.shapes/pieshape/sweepangle/) { get; set; } | 获取或设置扫掠角度。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds#getbounds)(Matrix) | 获取对象的边界。 |
-| override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds#getbounds_1)(Matrix, Pen) | 获取对象的边界。 |
-| [Reverse](../../aspose.imaging.shapes/arcshape/reverse)() | 反转此形状的点顺序。 |
-| override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | 将指定的变换应用于形状。 |
+| override [Equals](../../aspose.imaging.shapes/arcshape/equals/)(object) | 检查对象是否相等。 |
+| override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds/#getbounds)(Matrix) | 获取对象的边界。 |
+| override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds/#getbounds_1)(Matrix, Pen) | 获取对象的边界。 |
+| override [GetHashCode](../../aspose.imaging.shapes/arcshape/gethashcode/)() | 获取当前对象的哈希码。 |
+| [Reverse](../../aspose.imaging.shapes/arcshape/reverse/)() | 反转此形状的点顺序。 |
+| override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform/)(Matrix) | 对形状应用指定的变换。 |
 
-### 例子
+## 示例
 
-此示例创建一个新 Image 并在 Image 表面上使用 Figures 和 GraphicsPath 绘制各种形状
+此示例创建一个新的 Image 并在图像表面使用 Figures 和 GraphicsPath 绘制各种形状。
 
 ```csharp
 [C#]
 
-//创建一个BmpOptions实例并设置它的各种属性            
+//创建 BmpOptions 的实例并设置其各种属性。
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
-//第二个布尔参数确定要创建的文件是否为IsTemporal
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"c:\temp\output.bmp", false);
 
-//创建一个Image实例 
+//创建 Image 的实例
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    //创建并初始化一个Graphics类的实例
+    //创建并初始化 Graphics 类的实例
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    //清除图形表面
+    //清除 Graphics 表面
     graphics.Clear(Color.Wheat);
 
-    //创建GraphicsPath类的实例
+    //创建 GraphicsPath 类的实例
     Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-    //创建一个Figure类的实例
+    //创建 Figure 类的实例
     Aspose.Imaging.Figure figure1 = new Aspose.Imaging.Figure();
 
-    //将形状添加到图形对象
+    //向 Figure 对象添加形状。
     figure1.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new RectangleF(50, 50, 300, 300)));
     figure1.AddShape(new Aspose.Imaging.Shapes.PieShape(new Rectangle(new Point(110, 110), new Size(200, 200)), 0, 90));
 
-    //创建一个Figure类的实例
+    //创建 Figure 类的实例
     Aspose.Imaging.Figure figure2 = new Aspose.Imaging.Figure();
 
-    //将形状添加到图形对象
+    //向 Figure 对象添加形状。
     figure2.AddShape(new Aspose.Imaging.Shapes.ArcShape(new Aspose.Imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.AddShape(new Aspose.Imaging.Shapes.PolygonShape(new[] { new Aspose.Imaging.PointF(150, 10), new Aspose.Imaging.PointF(150, 200), new Aspose.Imaging.PointF(250, 300), new Aspose.Imaging.PointF(350, 400) }, true));
     figure2.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.Point(250, 250), new Aspose.Imaging.Size(200, 200))));
 
-    //将Figure对象添加到GraphicsPath
+    //将 Figure 对象添加到 GraphicsPath
     graphicspath.AddFigures(new[] { figure1, figure2 });
 
-    //使用颜色为黑色的 Pen 对象绘制路径
+    //使用颜色为 Black 的 Pen 对象绘制路径
     graphics.DrawPath(new Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
     // 保存所有更改。
@@ -104,11 +106,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [PieShape](../pieshape)
-* interface [IOrderedShape](../../aspose.imaging/iorderedshape)
-* 命名空间 [Aspose.Imaging.Shapes](../../aspose.imaging.shapes)
-* 部件 [Aspose.Imaging](../../)
+* class [PieShape](../pieshape/)
+* interface [IOrderedShape](../../aspose.imaging/iorderedshape/)
+* namespace [Aspose.Imaging.Shapes](../../aspose.imaging.shapes/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

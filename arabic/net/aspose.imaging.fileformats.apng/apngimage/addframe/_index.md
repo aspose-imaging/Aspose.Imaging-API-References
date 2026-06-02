@@ -1,14 +1,14 @@
 ---
-title: AddFrame
-second_title: Aspose.Imaging لمرجع NET API
-description: يضيف إطارًا جديدًا إلى نهاية مجموعة الإطارات الخاصة . سيتم إنشاء إطار جديد وفقًا لحجم الصورة الحالية.
+title: "ApngImage.AddFrame"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة ApngImage. أضف بسهولة إطارًا جديدًا إلى نهاية مجموعة الإطارات الخاصة بك باستخدام هذه الطريقة البسيطة. مثالية للمطورين الذين يرغبون في توسيع مجموعة إطاراتهم ديناميكيًا للرسوم المتحركة ذات الصور متعددة الإطارات. سيتم إنشاء إطار جديد وفقًا لحجم الصورة الحالية."
 type: docs
-weight: 100
+weight: 80
 url: /ar/net/aspose.imaging.fileformats.apng/apngimage/addframe/
 ---
 ## AddFrame() {#addframe}
 
-يضيف إطارًا جديدًا إلى نهاية مجموعة الإطارات الخاصة . سيتم إنشاء إطار جديد وفقًا لحجم الصورة الحالية.
+أضف إطارًا جديدًا بسهولة إلى نهاية مجموعة الإطارات الخاصة بك باستخدام هذه الطريقة البسيطة. مثالي للمطورين الذين يرغبون في توسيع مجموعة إطاراتهم ديناميكيًا للرسوم المتحركة ذات الصور متعددة الإطارات. سيتم إنشاء إطار جديد وفقًا لحجم الصورة الحالية.
 
 ```csharp
 public ApngFrame AddFrame()
@@ -16,38 +16,38 @@ public ApngFrame AddFrame()
 
 ### قيمة الإرجاع
 
-إطار APNG المنشأ حديثًا.
+الإطار APNG الجديد الذي تم إنشاؤه.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ApngFrame](../../apngframe)
-* class [ApngImage](../../apngimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Apng](../../apngimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [ApngFrame](../../apngframe/)
+* class [ApngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Apng](../../apngimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## AddFrame(RasterImage) {#addframe_1}
 
-يضيف إطارًا جديدًا إلى نهاية مجموعة الإطارات الخاصة . سيتم ملء محتويات الإطار الجديد من الصورة المحددة.
+قم بتوسيع مجموعة إطاراتك بسهولة بإضافة إطار جديد إلى النهاية باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يسعون لتعزيز رسومهم المتحركة للصور متعددة الإطارات ديناميكيًا. سيتم ملء محتويات الإطار الجديد من الصورة المحددة.
 
 ```csharp
 public void AddFrame(RasterImage frameImage)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | frameImage | RasterImage | صورة الإطار. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | إطار الصورة فارغ. |
+| ArgumentNullException | frameImage هو null. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية إنشاء صورة APNG من صورة نقطية أخرى أحادية الصفحة.
+يوضح المثال التالي كيفية إنشاء صورة APNG من صورة نقطية صفحة واحدة أخرى.
 
 ```csharp
 [C#]
@@ -56,8 +56,8 @@ using Aspose.Imaging;
 using Aspose.Imaging.ImageOptions;
 using Aspose.Imaging.FileFormats.Apng;
 
-const int AnimationDuration = 1000; // 1 ثانية
-const int FrameDuration = 70; // 70 مللي ثانية
+const int AnimationDuration = 1000; // 1 s
+const int FrameDuration = 70; // 70 ms
 using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 {
     ApngOptions createOptions = new ApngOptions
@@ -72,18 +72,18 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
         sourceImage.Width,
         sourceImage.Height))
     {
-        // من الممكن ضبط وقت الإطار الافتراضي للصورة هناك: apngImage.DefaultFrameTime = (uint) FrameDuration ;
+        // يمكن تعيين الوقت الافتراضي لإطار الصورة هناك: apngImage.DefaultFrameTime = (uint)FrameDuration;
 
         int numOfFrames = AnimationDuration / FrameDuration;
         int numOfFrames2 = numOfFrames / 2;
 
-        // التنظيف لأن الصورة تحتوي على إطار واحد افتراضيًا
+        // جارٍ التنظيف لأن الصورة تحتوي على إطار واحد افتراضيًا
         apngImage.RemoveAllFrames();
 
         // إضافة الإطار الأول
         apngImage.AddFrame(sourceImage);
 
-        // إضافة إطارات وسيطة
+        // إضافة إطارات وسطية
         for (int frameIndex = 1; frameIndex < numOfFrames - 1; ++frameIndex)
         {
             apngImage.AddFrame(sourceImage);
@@ -100,39 +100,39 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [ApngImage](../../apngimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Apng](../../apngimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [ApngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Apng](../../apngimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## AddFrame(RasterImage, uint) {#addframe_2}
 
-يضيف إطارًا جديدًا إلى نهاية مجموعة الإطارات الخاصة . سيتم ملء محتويات الإطار الجديد من الصورة المحددة.
+قم بتوسيع مجموعة إطاراتك بسلاسة عن طريق إلحاق إطار جديد باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يرغبون في إثراء رسومهم المتحركة للصور متعددة الإطارات. سيتم ملء محتويات الإطار الجديد من الصورة المحددة.
 
 ```csharp
 public void AddFrame(RasterImage frameImage, uint frameTime)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | frameImage | RasterImage | صورة الإطار. |
-| frameTime | UInt32 | مدة الإطار بالمللي ثانية. |
+| frameTime | UInt32 | مدة الإطار، بالمللي ثانية. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | إطار الصورة فارغ. |
+| ArgumentNullException | frameImage هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RasterImage](../../../aspose.imaging/rasterimage)
-* class [ApngImage](../../apngimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Apng](../../apngimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [RasterImage](../../../aspose.imaging/rasterimage/)
+* class [ApngImage](../)
+* namespace [Aspose.Imaging.FileFormats.Apng](../../apngimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

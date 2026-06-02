@@ -1,0 +1,42 @@
+---
+title: "WmfStretchBlt Klasse"
+type: docs
+weight: 870
+url: /de/python-net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
+---
+
+**Summary:** The META_STRETCHBLT record specifies the transfer of a block of pixels<br/>                according to a raster operation, with possible expansion or contraction.
+
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfStretchBlt
+
+**Inheritance:** WmfObject
+
+## **Constructors**
+| **Name** | **Beschreibung** |
+| :- | :- |
+| [WmfStretchBlt()](#WmfStretchBlt__1) | Initialisiert eine neue Instanz der Klasse WmfStretchBlt |
+## **Properties**
+| **Name** | **Type** | **Access** | **Beschreibung** |
+| :- | :- | :- | :- |
+| bitmap | [WmfBitmap16](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/) | r/w | Liest oder setzt das Bitmap. |
+| dest_height | int | r/w | Liest oder legt die Höhe des dest fest. |
+| dest_width | int | r/w | Liest oder legt die Breite des dest fest. |
+| dst_position | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Liest oder setzt die DST-Position. |
+| raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Liest oder setzt die Rasteroperation. |
+| reserviert | int | r/w | Liest oder setzt den reservierten Wert. |
+| src_height | int | r/w | Liest oder legt die Höhe des source fest. |
+| src_position | [Point](/imaging/python-net/aspose.imaging/point/) | r/w | Liest oder setzt die Quellposition. |
+| src_width | int | r/w | Liest oder legt die Breite des source fest. |
+
+
+### Constructor: WmfStretchBlt() {#WmfStretchBlt__1}
+
+
+```
+ WmfStretchBlt() 
+```
+
+Initialisiert eine neue Instanz der Klasse WmfStretchBlt
+

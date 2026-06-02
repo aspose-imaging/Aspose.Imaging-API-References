@@ -1,42 +1,42 @@
 ---
-title: EmfPlusSerializableObject
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusSerializableObject كتلة معلمة تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات مؤقت.
+title: "الفئة EmfPlusSerializableObject"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject. سجل EmfPlusSerializableObject يعرّف كتلة معلمات تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات."
 type: docs
-weight: 6270
+weight: 6390
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/
 ---
 ## EmfPlusSerializableObject class
 
-يحدد سجل EmfPlusSerializableObject كتلة معلمة تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات مؤقت.
+السجل EmfPlusSerializableObject يعرّف كتلة معلمات تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات.
 
 ```csharp
 public sealed class EmfPlusSerializableObject : EmfPlusObjectRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusSerializableObject](emfplusserializableobject)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusSerializableObject`](../emfplusserializableobject) فئة . |
+| [EmfPlusSerializableObject](emfplusserializableobject/)(EmfPlusRecord) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSerializableObject`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Buffer](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffer) { get; set; } | الحصول على أو تعيين صفيف من وحدات بايت BufferSize التي تحتوي على كتلة معلمة مؤثرات الصورة المتسلسلة التي تتوافق مع GUID في حقل ObjectGUID. يجب أن يكون هذا أحد كائنات تأثيرات الصورة (القسم 2.2.3) . |
-| [BufferSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffersize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد الحجم بالبايت لحقل المخزن المؤقت 32 بت. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| override [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/flags) { get; set; } | الحصول على أو تعيين عدد 16 بت عدد صحيح غير مستخدم. يجب تعيين هذا الحقل على صفر ويجب تجاهله عند الاستلام. |
-| [ImageEffect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/imageeffect) { get; set; } | الحصول على أو تعيين تأثير الصورة . |
-| [ObjectGuid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/objectguid) { get; set; } | الحصول على أو تعيين قيمة تمثيل حزمة GUID ([MS-DTYP] القسم 2.3.4.2) لتأثير الصورة. يجب أن يتوافق هذا مع أحد معرفات ImageEffects (القسم 2.1.3.1). |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| [Buffer](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffer/) { get; set; } | يحصل أو يضبط مصفوفة من بايتات BufferSize التي تحتوي على كتلة معلمات تأثيرات الصورة المسلسلة والتي تتطابق مع GUID في حقل ObjectGUID. يجب أن تكون هذه واحدة من كائنات Image Effects (القسم 2.2.3). |
+| [BufferSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffersize/) { get; set; } | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد الحجم بالبايتات لحقل Buffer المحاذى على 32 بت. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| override [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/flags/) { get; set; } | يحصل أو يضبط عددًا صحيحًا غير موقع 16‑بت غير مستخدم. يجب أن يُضبط هذا الحقل على الصفر ويجب تجاهله عند الاستلام. |
+| [ImageEffect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/imageeffect/) { get; set; } | يحصل أو يضبط تأثير الصورة. |
+| [ObjectGuid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/objectguid/) { get; set; } | يحصل أو يضبط قيمة تمثيل حزمة GUID ([MS-DTYP] القسم 2.3.4.2) لتأثير الصورة. يجب أن تتطابق هذه القيمة مع أحد معرفات ImageEffects (القسم 2.1.3.1). |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusObjectRecordType](../emfplusobjectrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusObjectRecordType](../emfplusobjectrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

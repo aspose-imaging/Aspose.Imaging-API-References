@@ -1,69 +1,69 @@
 ---
-title: SvgImage
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفSvgImageaspose.imaging.fileformats.svg/svgimage فئة .
+title: "SvgImage.SvgImage"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ SvgImage. ينشئ كائنًا جديدًا من فئة SvgImage باستخدام المسار المحدد لتحديد موقع الصورة وتحميلها. يسهل هذا المنشئ إنشاء نماذج صور SVG من ملفات خارجية مما يتيح دمجًا سلسًا في أنظمة البرمجيات وسير العمل."
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.fileformats.svg/svgimage/svgimage/
 ---
 ## SvgImage(string) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../../svgimage) فئة .
+ينشئ كائنًا جديدًا من الفئة [`SvgImage`](../)، باستخدام المسار المحدد لتحديد موقع الصورة وتحميلها. يسهل هذا المنشئ إنشاء نماذج صور SVG من ملفات خارجية، مما يتيح دمجًا سلسًا في أنظمة البرمجيات وسير العمل.
 
 ```csharp
 public SvgImage(string path)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | مسار تحميل الصورة منه وتهيئة بيانات البكسل واللوحة به. |
+| المسار | String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
 | ArgumentNullException | المسار فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SvgImage](../../svgimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Svg](../../svgimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [SvgImage](../)
+* namespace [Aspose.Imaging.FileFormats.Svg](../../svgimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## SvgImage(Stream) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../../svgimage) فئة .
+ينشئ نسخة جديدة من الفئة [`SvgImage`](../)، محملاً الصورة من الدفق المقدم. يتيح هذا المنشئ تحميل صور SVG مباشرةً من الدفقات، مما يعزز المرونة والكفاءة في معالجة موارد الصور داخل تطبيقات البرمجيات.
 
 ```csharp
 public SvgImage(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة باستخدام. |
+| stream | Stream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | تيار باطل. |
+| ArgumentNullException | التدفق فارغ. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية تحميل صورة SVG من دفق ملف وتنقيطها إلى PNG.
+يوضح هذا المثال كيفية تحميل صورة SVG من تدفق ملف وتحويلها إلى PNG.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة SVG من دفق ملف.
+// حمّل صورة SVG من تدفق ملف.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "test.svg"))
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.FileFormats.Svg.SvgImage(stream))
 {
-    // من أجل تحويل SVG إلى صيغة نقطية ، نحتاج إلى تحديد خيارات التنقيط.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل النقطي.
     Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
@@ -72,54 +72,54 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.Fil
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SvgImage](../../svgimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Svg](../../svgimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [SvgImage](../)
+* namespace [Aspose.Imaging.FileFormats.Svg](../../svgimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## SvgImage(int, int) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../../svgimage) فئة .
+ينشئ كائنًا جديدًا من [`SvgImage`](../) بالعرض والارتفاع المحددين. يتيح هذا المُنشئ للمطورين إنشاء صور SVG بأبعاد محددة مسبقًا، مما يسهل التحكم الدقيق في حجم الصورة أثناء التهيئة.
 
 ```csharp
 public SvgImage(int width, int height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SvgImage](../../svgimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Svg](../../svgimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [SvgImage](../)
+* namespace [Aspose.Imaging.FileFormats.Svg](../../svgimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## SvgImage(SvgOptions, int, int) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`SvgImage`](../../svgimage) فئة .
+ينشئ نسخة جديدة من الفئة [`SvgImage`](../) مع خيارات SVG المحددة، وعرض الصورة، ومعلمات الارتفاع. يتيح هذا المُنشئ للمطورين تهيئة صور SVG بخيارات وأبعاد مخصصة، مما يوفر مرونة في إدارة محتوى SVG وتخطيطه.
 
 ```csharp
 public SvgImage(SvgOptions svgOptions, int width, int height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | svgOptions | SvgOptions | خيارات SVG. |
-| width | Int32 | عرض الصورة. |
-| height | Int32 | ارتفاع الصورة. |
+| العرض | Int32 | عرض الصورة. |
+| الارتفاع | Int32 | ارتفاع الصورة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SvgOptions](../../../aspose.imaging.imageoptions/svgoptions)
-* class [SvgImage](../../svgimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Svg](../../svgimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [SvgOptions](../../../aspose.imaging.imageoptions/svgoptions/)
+* class [SvgImage](../)
+* namespace [Aspose.Imaging.FileFormats.Svg](../../svgimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

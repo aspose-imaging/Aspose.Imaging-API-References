@@ -1,57 +1,57 @@
 ---
-title: TiffSRational
-second_title: Aspose.Imaging لمرجع NET API
-description: النوع العقلاني tiff .
+title: "الفئة TiffSRational"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Tiff.TiffSRational الفئة. نوع tiff rational"
 type: docs
-weight: 7900
+weight: 8050
 url: /ar/net/aspose.imaging.fileformats.tiff/tiffsrational/
 ---
 ## TiffSRational class
 
-النوع العقلاني tiff .
+نوع tiff rational.
 
 ```csharp
 public class TiffSRational
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TiffSRational](tiffsrational#constructor)() | يقوم بتهيئة مثيل جديد لملف[`TiffSRational`](../tiffsrational) فئة . |
-| [TiffSRational](tiffsrational#constructor_1)(int) | يقوم بتهيئة مثيل جديد لملف[`TiffRational`](../tiffrational) فئة . |
-| [TiffSRational](tiffsrational#constructor_2)(int, int) | يقوم بتهيئة مثيل جديد لملف[`TiffSRational`](../tiffsrational) فئة . |
+| [TiffSRational](tiffsrational/#constructor)() | تهيئة نسخة جديدة من الفئة `TiffSRational`. |
+| [TiffSRational](tiffsrational/#constructor_1)(int) | تهيئة نسخة جديدة من الفئة `TiffSRational`. |
+| [TiffSRational](tiffsrational/#constructor_2)(int, int) | تهيئة نسخة جديدة من الفئة `TiffSRational`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Denominator](../../aspose.imaging.fileformats.tiff/tiffsrational/denominator) { get; } | يحصل على المقام . |
-| [Nominator](../../aspose.imaging.fileformats.tiff/tiffsrational/nominator) { get; } | يحصل على المرشح . |
-| [Value](../../aspose.imaging.fileformats.tiff/tiffsrational/value) { get; } | الحصول على قيمة الطفو . |
-| [ValueD](../../aspose.imaging.fileformats.tiff/tiffsrational/valued) { get; } | يحصل على القيمة المزدوجة . |
+| [Denominator](../../aspose.imaging.fileformats.tiff/tiffsrational/denominator/) { get; } | الحصول على المقام. |
+| [Nominator](../../aspose.imaging.fileformats.tiff/tiffsrational/nominator/) { get; } | الحصول على البسط. |
+| [Value](../../aspose.imaging.fileformats.tiff/tiffsrational/value/) { get; } | الحصول على القيمة العائمة. |
+| [ValueD](../../aspose.imaging.fileformats.tiff/tiffsrational/valued/) { get; } | الحصول على القيمة المزدوجة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction)(double) | تقريب القيمة المقدمة إلى كسر . |
-| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_2)(float) | تقريب القيمة المقدمة إلى كسر . |
-| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_1)(double, double) | تقريب القيمة المقدمة إلى كسر . |
-| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_3)(float, double) | تقريب القيمة المقدمة إلى كسر . |
-| override [Equals](../../aspose.imaging.fileformats.tiff/tiffsrational/equals)(object) | تحديد ما إذا كان الملف المحددObject يساوي هذا المثال. |
-| override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffsrational/gethashcode)() | إرجاع رمز تجزئة لهذا المثال. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring)() | إرجاع أString الذي يمثل هذا المثال. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction/#approximatefraction)(double) | تقريب القيمة المقدمة إلى كسر. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction/#approximatefraction_2)(float) | تقريب القيمة المقدمة إلى كسر. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction/#approximatefraction_1)(double, double) | تقريب القيمة المقدمة إلى كسر. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction/#approximatefraction_3)(float, double) | تقريب القيمة المقدمة إلى كسر. |
+| override [Equals](../../aspose.imaging.fileformats.tiff/tiffsrational/equals/)(object) | يحدد ما إذا كان الـ Object المحدد يساوي هذه المثيلة. |
+| override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffsrational/gethashcode/)() | يرجع رمز تجزئة لهذه المثيلة. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring/)() | يرجع سلسلة تمثل هذه الحالة. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [Epsilon](../../aspose.imaging.fileformats.tiff/tiffsrational/epsilon) | الإبسيلون لحساب الكسر |
+| const [Epsilon](../../aspose.imaging.fileformats.tiff/tiffsrational/epsilon/) | الإبسيلون لحساب الكسر |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff](../../aspose.imaging.fileformats.tiff)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../aspose.imaging.fileformats.tiff/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

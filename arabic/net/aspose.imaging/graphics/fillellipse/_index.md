@@ -1,127 +1,127 @@
 ---
-title: FillEllipse
-second_title: Aspose.Imaging لمرجع NET API
-description: يملأ الجزء الداخلي من القطع الناقص المحدد بواسطة مستطيل محيط محدد بواسطةRectangleFaspose.imaging/rectanglef هيكل .
+title: "Graphics.FillEllipse"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Graphics. تملأ داخل إهليلج معرف بواسطة مستطيل محيط محدد بهيكل RectangleF"
 type: docs
-weight: 350
+weight: 360
 url: /ar/net/aspose.imaging/graphics/fillellipse/
 ---
 ## FillEllipse(Brush, RectangleF) {#fillellipse_1}
 
-يملأ الجزء الداخلي من القطع الناقص المحدد بواسطة مستطيل محيط محدد بواسطة[`RectangleF`](../../rectanglef) هيكل .
+تملأ داخل إهليلج معرف بواسطة مستطيل محيط محدد بهيكل [`RectangleF`](../../rectanglef/).
 
 ```csharp
 public void FillEllipse(Brush brush, RectangleF rect)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| rect | RectangleF | [`RectangleF`](../../rectanglef) الهيكل الذي يمثل المستطيل المحيط الذي يحدد القطع الناقص. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| rect | RectangleF | هيكل [`RectangleF`](../../rectanglef/) الذي يمثل المستطيل المحيط الذي يحدد الإهليلج. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* باطل. |
+| ArgumentNullException | *brush* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [RectangleF](../../rectanglef)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [RectangleF](../../rectanglef/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillEllipse(Brush, float, float, float, float) {#fillellipse_3}
 
-يملأ الجزء الداخلي من القطع الناقص المحدد بواسطة مستطيل محيط محدد بواسطة زوج من الإحداثيات والعرض والارتفاع.
+يملأ داخل إهليلج معرف بمستطيل محيط محدد بزوج من الإحداثيات، عرض، وارتفاع.
 
 ```csharp
 public void FillEllipse(Brush brush, float x, float y, float width, float height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| x | Single | إحداثي x للركن الأيسر العلوي للمستطيل المحيط الذي يحدد القطع الناقص. |
-| y | Single | إحداثي y للركن الأيسر العلوي للمستطيل المحيط الذي يحدد القطع الناقص. |
-| width | Single | عرض المستطيل المحيط الذي يحدد القطع الناقص. |
-| height | Single | ارتفاع المستطيل المحيط الذي يحدد القطع الناقص. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| x | فردي | الإحداثي السيني للزاوية العليا اليسرى للمستطيل المحيط الذي يحدد الإهليلج. |
+| y | فردي | الإحداثي ص للزاوية العلوية اليسرى للمستطيل المحيط الذي يحدد القطع الناقص. |
+| العرض | فردي | عرض المستطيل المحيط الذي يحدد القطع الناقص. |
+| الارتفاع | فردي | ارتفاع المستطيل المحيط الذي يحدد القطع الناقص. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* باطل. |
+| ArgumentNullException | *brush* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillEllipse(Brush, Rectangle) {#fillellipse}
 
-يملأ الجزء الداخلي من القطع الناقص المحدد بواسطة مستطيل محيط محدد بواسطة[`Rectangle`](../../rectangle) هيكل .
+تملأ داخل إهليلج معرف بواسطة مستطيل محيط محدد بهيكل [`Rectangle`](../../rectangle/).
 
 ```csharp
 public void FillEllipse(Brush brush, Rectangle rect)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| rect | Rectangle | [`Rectangle`](../../rectangle) الهيكل الذي يمثل المستطيل المحيط الذي يحدد القطع الناقص. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| rect | Rectangle | هيكل [`Rectangle`](../../rectangle/) الذي يمثل المستطيل المحيط الذي يحدد الإهليلج. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* باطل. |
+| ArgumentNullException | *brush* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FillEllipse(Brush, int, int, int, int) {#fillellipse_2}
 
-يملأ الجزء الداخلي من القطع الناقص المحدد بواسطة مستطيل محيط محدد بواسطة زوج من الإحداثيات والعرض والارتفاع.
+يملأ داخل إهليلج معرف بمستطيل محيط محدد بزوج من الإحداثيات، عرض، وارتفاع.
 
 ```csharp
 public void FillEllipse(Brush brush, int x, int y, int width, int height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush) التي تحدد خصائص التعبئة. |
-| x | Int32 | إحداثي x للركن الأيسر العلوي للمستطيل المحيط الذي يحدد القطع الناقص. |
-| y | Int32 | إحداثي y للركن الأيسر العلوي للمستطيل المحيط الذي يحدد القطع الناقص. |
-| width | Int32 | عرض المستطيل المحيط الذي يحدد القطع الناقص. |
-| height | Int32 | ارتفاع المستطيل المحيط الذي يحدد القطع الناقص. |
+| brush | Brush | [`Brush`](../../brush/) الذي يحدد خصائص التعبئة. |
+| x | Int32 | الإحداثي السيني للزاوية العليا اليسرى للمستطيل المحيط الذي يحدد الإهليلج. |
+| y | Int32 | الإحداثي ص للزاوية العلوية اليسرى للمستطيل المحيط الذي يحدد القطع الناقص. |
+| العرض | Int32 | عرض المستطيل المحيط الذي يحدد القطع الناقص. |
+| الارتفاع | Int32 | ارتفاع المستطيل المحيط الذي يحدد القطع الناقص. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* باطل. |
+| ArgumentNullException | *brush* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

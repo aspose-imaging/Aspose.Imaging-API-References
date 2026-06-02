@@ -1,93 +1,96 @@
 ---
-title: WebPOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات صورة Webp
+title: "الفئة WebPOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.ImageOptions.WebPOptions. أنشئ صور ويب raster بصيغة WebP الحديثة باستخدام واجهة برمجة التطبيقات الخاصة بنا التي توفر دعمًا قويًا للضغط غير الفاقد والفقدان بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة. حسّن محتوى الويب الخاص بك بصور ديناميكية مع تحسين أحجام الملفات لسرعات تحميل محسّنة وتجربة مستخدم أفضل."
 type: docs
-weight: 10280
+weight: 10660
 url: /ar/net/aspose.imaging.imageoptions/webpoptions/
 ---
 ## WebPOptions class
 
-خيارات صورة Webp
+أنشئ صور ويب نقطية حديثة بصيغة WebP باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم قوي للضغط غير الفاقد والفقدان، بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة. حسّن محتوى الويب الخاص بك بصور ديناميكية مع تحسين أحجام الملفات لزيادة سرعات التحميل وتحسين تجربة المستخدم.
 
 ```csharp
 public class WebPOptions : ImageOptionsBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [WebPOptions](webpoptions)() | Default_Constructor |
+| [WebPOptions](webpoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AnimBackgroundColor](../../aspose.imaging.imageoptions/webpoptions/animbackgroundcolor) { get; set; } | الحصول على أو تعيين لون خلفية الرسوم المتحركة . |
-| [AnimLoopCount](../../aspose.imaging.imageoptions/webpoptions/animloopcount) { get; set; } | الحصول على أو تعيين عدد حلقات الرسوم المتحركة . |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي تم تحديده بالحجم الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل قد تم التخلص منه. |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان [إطار كامل] . |
-| [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`WebPOptions`](../webpoptions) ضياع. |
-| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | خيارات متعدد الصفحات |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | الحصول على لوحة الألوان أو تعيينها . |
-| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | الحصول على معالج حدث التقدم أو تعيينه. |
-| [Quality](../../aspose.imaging.imageoptions/webpoptions/quality) { get; set; } | الحصول على الجودة أو تعيينها . |
-| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | الحصول على إعدادات الدقة أو تعيينها . |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | الحصول على أو تعيين المصدر لإنشاء الصورة فيه. |
-| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | الحصول على أو تعيين خيارات التحويل النقطي للمتجه. |
-| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | الحصول على أو تعيين حاوية بيانات تعريف XMP. |
+| [AnimBackgroundColor](../../aspose.imaging.imageoptions/webpoptions/animbackgroundcolor/) { get; set; } | يحصل أو يعيّن لون خلفية الرسوم المتحركة. |
+| [AnimLoopCount](../../aspose.imaging.imageoptions/webpoptions/animloopcount/) { get; set; } | يحصل أو يعيّن عدد دورات الرسوم المتحركة. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | الحصول على أو تعيين تلميح حجم المخزن المؤقت الذي يحدد الحد الأقصى المسموح به لجميع المخازن الداخلية. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | يحصل على قيمة تشير إلى ما إذا كان هذا المثال تم التخلص منه. |
+| virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | الحصول على أو تعيين بيانات Exif. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان [full frame]. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `WebPOptions` بدون فقدان. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | خيارات الصفحات المتعددة |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | يحصل أو يضبط لوحة الألوان. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | يحصل أو يضبط معالج حدث التقدم. |
+| [Quality](../../aspose.imaging.imageoptions/webpoptions/quality/) { get; set; } | يحصل أو يعيّن الجودة. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | يحصل أو يضبط إعدادات الدقة. |
+| [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | يحصل أو يضبط المصدر لإنشاء الصورة فيه. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | يحصل أو يضبط خيارات تحويل المتجه إلى نقطية. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata/) { get; set; } | يحصل أو يضبط حاوية بيانات تعريف XMP. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | استنساخ هذا المثال . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | التخلص من المثيل الحالي . |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone/)() | ينشئ نسخة عضوية من هذه الحالة. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | يتخلص من المثيل الحالي. |
+| [TrySetMetadata](../../aspose.imaging/imageoptionsbase/trysetmetadata/)(IImageMetadataFormat) | يحاول تعيين مثيل *metadata*، إذا كان مثيل [`Image`](../../aspose.imaging/image/) يدعم ويطبق مثيل [`IImageMetadataFormat`](../../aspose.imaging.metadata/iimagemetadataformat/). |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية إنشاء صورة WebP من صورة نقطية أخرى بجودة ضغط مختلفة.
+يوضح هذا المثال كيفية إنشاء صورة WebP من صورة نقطية أخرى مع جودة ضغط مختلفة.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// تحميل صورة GIF متحركة
+// تحميل رسوم متحركة GIF
 using (Aspose.Imaging.Image image = new Aspose.Imaging.Image.Load(dir + "test.gif"))
 {
-    // للضغط بدون فقد ، تؤدي زيادة إعداد الجودة إلى زيادة جودة الضغط وتقليل حجم الملف
+    // لضغط بدون فقدان، زيادة إعداد الجودة يزيد من جودة الضغط ويقلل من حجم الملف
     image.Save(
         dir + "output_lossless_20.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 20 }); // حجم الملف: 42 كيلو بايت
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 20 }); // file size: 42 KB
 
     image.Save(
         dir + "output_lossless_50.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 }); // حجم الملف: 41 كيلوبايت
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 }); // file size: 41 KB
 
     image.Save(
         dir + "output_lossless_80.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 }); // حجم الملف: 40 كيلو بايت
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 }); // file size: 40 KB
 
 
-    // للضغط مع فقدان البيانات ، تؤدي زيادة قيمة الجودة إلى زيادة جودة الصورة وزيادة حجم الملف
+    // لضغط بفقدان، زيادة قيمة الجودة يزيد من جودة الصورة ويزيد من حجم الملف
     image.Save(
         dir + "output_lossy_20.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 }); // حجم الملف: 24 كيلو بايت
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 }); // file size: 24 KB
 
     image.Save(
         dir + "output_lossy_50.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 }); // حجم الملف: 36 كيلوبايت
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 }); // file size: 36 KB
 
     image.Save(
         dir + "output_lossy_80.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 }); // حجم الملف: 51 كيلو بايت
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 }); // file size: 51 KB
 }
 ```
 
-يوضح المثال التالي كيفية تحويل صورة متجهية متعددة الصفحات إلى تنسيق WEBP بشكل عام دون الرجوع إلى نوع صورة معين.
+يوضح المثال التالي كيفية تحويل صورة متجه متعددة الصفحات إلى تنسيق WEBP بطريقة عامة دون الإشارة إلى نوع صورة معين.
 
 ```csharp
 [C#]
@@ -102,7 +105,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-    // تصدير أول صفحتين فقط. سيتم تقديم هذه الصفحات كإطارات متحركة في إخراج WEBP.
+    // تصدير الصفحتين الأوليين فقط. سيتم تقديم هاتين الصفحتين كإطارات متحركة في WEBP الناتج.
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {
@@ -120,10 +123,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
-* المجسم [Aspose.Imaging](../../)
+* class [ImageOptionsBase](../../aspose.imaging/imageoptionsbase/)
+* namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

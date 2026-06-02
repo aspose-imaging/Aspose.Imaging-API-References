@@ -1,9 +1,9 @@
 ---
-title: WmfRecordType
-second_title: Aspose.Imaging for .NET API 参考
-description: wmf 记录类型
+title: "枚举 WmfRecordType"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Wmf.Consts.WmfRecordType 枚举。wmf 记录类型"
 type: docs
-weight: 8320
+weight: 8500
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfrecordtype/
 ---
 ## WmfRecordType enumeration
@@ -14,12 +14,12 @@ wmf 记录类型
 public enum WmfRecordType : short
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Eof | `0` | EOF 记录类型 |
-| RealizePalette | `53` | 实现调色板 |
+| RealizePalette | `53` | realizepalette |
 | SetPalentries | `55` | setpalentries |
 | SetBkMode | `258` | setbkmode |
 | SetMapMode | `259` | setmapmode |
@@ -28,71 +28,71 @@ public enum WmfRecordType : short
 | SetPolyfillMode | `262` | setpolyfillmode |
 | SetStretchbltMode | `263` | setstretchbltmode |
 | SetTextCharExtra | `264` | settextcharextra |
-| RestoreDc | `295` | 恢复的c |
-| ResizePalette | `313` | 调整大小调色板 |
+| RestoreDc | `295` | restoredc |
+| ResizePalette | `313` | resizepalette |
 | DibCreatePatternBrush | `322` | dibcreatepatternbrush |
 | SetLayout | `329` | setlayout |
 | SetBkColor | `513` | setbkcolor |
 | SetTextColor | `521` | settextcolor |
-| OffsetViewPortOrg | `529` | offsetviewportorg |
-| LineTo | `531` | lineto |
-| MoveTo | `532` | 移动到 |
-| OffsetClipRgn | `544` | 偏移量cliprgn |
-| FillRegion | `552` | 填充区域 |
-| SetMapperFlags | `561` | setmapperflags |
-| SelectPalette | `564` | 选择调色板 |
+| OffsetViewPortOrg | `529` | 该 offsetviewportorg |
+| LineTo | `531` | 该 lineto |
+| MoveTo | `532` | 该 moveto |
+| OffsetClipRgn | `544` | 该 offsetcliprgn |
+| FillRegion | `552` | 该 fillregion |
+| SetMapperFlags | `561` | 该 setmapperflags |
+| SelectPalette | `564` | 该 selectpalette |
 | Polygon | `804` | 多边形 |
 | PolyLine | `805` | 折线 |
-| SetTextJustification | `522` | settextjustification |
-| SetWindowOrg | `523` | setwindoworg |
-| SetWindowExt | `524` | setwindowext |
-| SetViewPortOrg | `525` | setviewportorg |
-| SetViewportExt | `526` | setviewportext |
-| OffsetWindowOrg | `527` | 偏移量windoworg |
-| ScaleWindowExt | `1040` | scalewindowext |
-| ScaleViewportExt | `1042` | scaleviewportext |
-| ExcludeClipRect | `1045` | excludecliprect |
-| IntersectClipRect | `1046` | intersectcliprect |
-| Ellipse | `1048` | 椭圆 |
-| FloodFill | `1049` | 洪水填充 |
-| FrameRegion | `1065` | 帧区域 |
-| AnimatePalette | `1078` | 动画调色板 |
-| TextOut | `1313` | textout |
-| PolyPolygon | `1336` | 多边形 |
-| ExtFloodFill | `1352` | extfloodfill |
-| Rectangle | `1051` | 矩形 |
-| SetPixel | `1055` | setpixel |
-| RoundRect | `1564` | 圆形矩形 |
-| PatBlt | `1565` | patblt |
-| SaveDc | `30` | 保存的c |
-| Pie | `2074` | 饼图记录类型 |
-| StretchBlt | `2851` | 拉伸blt |
-| Escape | `1574` | 逃脱 |
-| InvertRegion | `298` | 反转区域 |
-| PaintRegion | `299` | 油漆区 |
-| SelectClipRegion | `300` | 选择剪辑区域 |
-| SelectObject | `301` | 选择对象 |
-| SetTextAlign | `302` | settextalign |
-| Arc | `2071` | 圆弧记录类型 |
-| Chord | `2096` | 和弦记录类型 |
-| BitBlt | `2338` | bitblt |
-| ExtTextOut | `2610` | exttextout |
-| SetDibToDev | `3379` | setdibtodev |
-| DibBitBlt | `2368` | dibbitblt |
-| DibStretchBlt | `2881` | dibstretchblt |
-| StretchDib | `3907` | 拉伸dib |
-| DeleteObject | `496` | 删除对象 |
-| CreatePalette | `247` | 创建调色板 |
-| CreatePatternBrush | `505` | createpatternbrush |
-| CreatePenInDirect | `762` | createpenindirect |
-| CreateFontInDirect | `763` | createfontindirect |
-| CreateBrushInDirect | `764` | createbrushindirect |
-| CreateRegion | `1791` | createregion |
-| None | `-1` | 记录类型无。 |
+| SetTextJustification | `522` | 该 settextjustification |
+| SetWindowOrg | `523` | 该 setwindoworg |
+| SetWindowExt | `524` | 该 setwindowext |
+| SetViewPortOrg | `525` | 该 setviewportorg |
+| SetViewportExt | `526` | 该 setviewportext |
+| OffsetWindowOrg | `527` | 该 offsetwindoworg |
+| ScaleWindowExt | `1040` | 该 scalewindowext |
+| ScaleViewportExt | `1042` | 该 scaleviewportext |
+| ExcludeClipRect | `1045` | 该 excludecliprect |
+| IntersectClipRect | `1046` | 该 intersectcliprect |
+| Ellipse | `1048` | 该 ellipse |
+| FloodFill | `1049` | 该 floodfill |
+| FrameRegion | `1065` | 该 frameregion |
+| AnimatePalette | `1078` | 该 animatepalette |
+| TextOut | `1313` | 该 textout |
+| PolyPolygon | `1336` | 该 polypolygon |
+| ExtFloodFill | `1352` | 该 extfloodfill |
+| Rectangle | `1051` | 该 rectangle |
+| SetPixel | `1055` | 该 setpixel |
+| RoundRect | `1564` | 该 roundrect |
+| PatBlt | `1565` | 该 patblt |
+| SaveDc | `30` | 该 savedc |
+| Pie | `2074` | 该 pie record type |
+| StretchBlt | `2851` | 该 stretchblt |
+| Escape | `1574` | 该 escape |
+| InvertRegion | `298` | 该 invertregion |
+| PaintRegion | `299` | 该 paintregion |
+| SelectClipRegion | `300` | 该 selectclipregion |
+| SelectObject | `301` | 该 selectobject |
+| SetTextAlign | `302` | 该 settextalign |
+| Arc | `2071` | 该 arc record type |
+| Chord | `2096` | 该 chord record type |
+| BitBlt | `2338` | 该 bitblt |
+| ExtTextOut | `2610` | 该 exttextout |
+| SetDibToDev | `3379` | 该 setdibtodev |
+| DibBitBlt | `2368` | 该 dibbitblt |
+| DibStretchBlt | `2881` | 该 dibstretchblt |
+| StretchDib | `3907` | 该 stretchdib |
+| DeleteObject | `496` | 该 deleteobject |
+| CreatePalette | `247` | 该 createpalette |
+| CreatePatternBrush | `505` | 该 createpatternbrush |
+| CreatePenInDirect | `762` | 该 createpenindirect |
+| CreateFontInDirect | `763` | 该 createfontindirect |
+| CreateBrushInDirect | `764` | 该 createbrushindirect |
+| CreateRegion | `1791` | 该 createregion |
+| None | `-1` | 记录类型为 none。 |
 
-### 也可以看看
+### 另请参见
 
-* 命名空间 [Aspose.Imaging.FileFormats.Wmf.Consts](../../aspose.imaging.fileformats.wmf.consts)
-* 部件 [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Wmf.Consts](../../aspose.imaging.fileformats.wmf.consts/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

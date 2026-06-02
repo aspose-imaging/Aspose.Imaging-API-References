@@ -1,7 +1,7 @@
 ---
-title: ToCmyk
-second_title: Aspose.Imaging لمرجع NET API
-description: التحويل من ألوان ARGB إلى ألوان CMYK.
+title: "CmykColorHelper.ToCmyk"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة CmykColorHelper. التحويل من ألوان ARGB إلى ألوان CMYK"
 type: docs
 weight: 90
 url: /ar/net/aspose.imaging/cmykcolorhelper/tocmyk/
@@ -14,19 +14,19 @@ url: /ar/net/aspose.imaging/cmykcolorhelper/tocmyk/
 public static int[] ToCmyk(int[] argbPixels)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| argbPixels | Int32[] | يتم تقديم ألوان ARGB كقيم عدد صحيح 32 بت. |
+| argbPixels | Int32[] | ألوان ARGB مقدمة كقيم صحيحة 32-بت. |
 
 ### قيمة الإرجاع
 
-يتم تقديم ألوان CMYK كقيم عدد صحيح 32 بت.
+ألوان CMYK معروضة كقيم صحيحة 32-بت.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
@@ -38,19 +38,19 @@ public static int[] ToCmyk(int[] argbPixels)
 public static int ToCmyk(int argbPixel)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| argbPixel | Int32 | تم تقديم لون ARGB كقيمة عدد صحيح 32 بت. |
+| argbPixel | Int32 | لون ARGB مقدم كقيمة صحيحة 32-بت. |
 
 ### قيمة الإرجاع
 
-يتم تقديم لون CMYK كقيمة عدد صحيح 32 بت.
+لون CMYK معروض كقيمة صحيحة 32-بت.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
@@ -62,17 +62,17 @@ public static int ToCmyk(int argbPixel)
 public static int ToCmyk(Color pixel)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixel | Color | لون ARGB. |
+| بكسل | لون | لون ARGB. |
 
 ### قيمة الإرجاع
 
-يتم تقديم لون CMYK كقيمة عدد صحيح 32 بت.
+لون CMYK معروض كقيمة صحيحة 32-بت.
 
-### أمثلة
+## أمثلة
 
-يملأ المثال التالي المنطقة المركزية لصورة نقطية بوحدات بكسل سوداء باستخدام طريقة Aspose.Imaging.RasterImage.SaveCmyk32Pixels.
+المثال التالي يملأ المنطقة المركزية من صورة نقطية بكسلات سوداء باستخدام طريقة Aspose.Imaging.RasterImage.SaveCmyk32Pixels.
 
 ```csharp
 [C#]
@@ -83,7 +83,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // احصل على تمثيل صحيح للأسود في مساحة ألوان CMYK.
+    // احصل على تمثيل صحيح للون الأسود في مساحة ألوان CMYK.
     int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
 
     // المربع الأسود.
@@ -93,7 +93,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
         pixels[i] = blackCmyk;
     }
 
-    // ارسم المربع الأسود في وسط الصورة.
+    // ارسم المربع الأسود في مركز الصورة.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.SaveCmyk32Pixels(area, pixels);
 
@@ -101,7 +101,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 }
 ```
 
-يوضح المثال التالي كيفية تحويل ألوان RGB إلى نظيراتها في CMYK بدون تطبيق ملفات تعريف ICC.
+المثال التالي يوضح كيفية تحويل ألوان RGB إلى نظيراتها في CMYK دون تطبيق ملفات تعريف ICC.
 
 ```csharp
 [C#]
@@ -125,19 +125,19 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
-// يبدو الإخراج كالتالي:
-// تحويل RGB إلى CMYK بدون استخدام ملفات تعريف ICC.
-// RGB (255،0،0) = > ; CMYK (0،255،255،0)
-// RGB (0،128،0) = > ; CMYK (255،0،255،127)
-// RGB (0،0،255) = > ; CMYK (255،255،0،0)
+//الإخراج يبدو هكذا:
+//تحويل RGB إلى CMYK دون استخدام ملفات تعريف ICC.
+//RGB(255,0,0)        => CMYK(0,255,255,0)
+//RGB(0,128,0)        => CMYK(255,0,255,127)
+//RGB(0,0,255)        => CMYK(255,255,0,0)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
@@ -149,19 +149,19 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
 public static int[] ToCmyk(Color[] pixels)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixels | Color[] | ألوان ARGB. |
+| البكسلات | Color[] | ألوان ARGB. |
 
 ### قيمة الإرجاع
 
-يتم تقديم ألوان CMYK كقيم عدد صحيح 32 بت.
+ألوان CMYK معروضة كقيم صحيحة 32-بت.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [CmykColorHelper](../../cmykcolorhelper)
-* مساحة الاسم [Aspose.Imaging](../../cmykcolorhelper)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [CmykColorHelper](../)
+* namespace [Aspose.Imaging](../../cmykcolorhelper/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

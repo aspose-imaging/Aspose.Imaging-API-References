@@ -1,31 +1,31 @@
 ---
-title: Palette
-second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置调色板
+title: "ImageOptionsBase.Palette"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "ImageOptionsBase 属性。获取或设置颜色调色板"
 type: docs
-weight: 40
+weight: 60
 url: /zh/net/aspose.imaging/imageoptionsbase/palette/
 ---
 ## ImageOptionsBase.Palette property
 
-获取或设置调色板。
+获取或设置颜色调色板。
 
 ```csharp
 public virtual IColorPalette Palette { get; set; }
 ```
 
-### 适当的价值
+### Property Value
 
-调色板。
+颜色调色板。
 
-### 例子
+## 示例
 
-以下示例显示了如何使用最适合调色板的索引颜色来压缩 PNG 图像
+以下示例展示了如何压缩 PNG 图像，使用带最佳匹配调色板的索引颜色
 
 ```csharp
 [C#]
 
-// 加载 png 图片        
+// 加载 PNG 图像
     string  sourceFilePath="OriginalRings.png";
     string  outputFilePath="OriginalRingsOutput.png";
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
@@ -37,12 +37,12 @@ public virtual IColorPalette Palette { get; set; }
          ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
              // 使用最大压缩
          CompressionLevel = 9,
-      // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色图像
-         // 在视觉上几乎与非托盘化的没有区别。
+      // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
+         // 几乎在视觉上与非调色板图像无差别。
          Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
     });
 }
-    // 输出文件的大小应该会显着减小
+    // 输出文件大小应显著减小
 ```
 
 以下示例加载 BMP 图像并使用各种保存选项将其保存回 BMP。
@@ -62,12 +62,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
     // 使用每像素 8 位来减小输出图像的大小。
     saveOptions.BitsPerPixel = 8;
 
-    // 设置覆盖图像像素最大数量的最接近的 8 位调色板，以便调色图像
-    // 在视觉上几乎与非托盘化的没有区别。
+    // 设置最接近的 8 位颜色调色板，以覆盖最大数量的图像像素，从而得到调色后的图像
+    // 几乎在视觉上与非调色板图像无差别。
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
 
-    // 不压缩保存。
-    // 也可以使用 RLE-8 压缩来减小输出图像的大小。
+    // 保存时不使用压缩。
+    // 您也可以使用 RLE-8 压缩来减小输出图像的大小。
     saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
     // 将水平和垂直分辨率设置为 96 dpi。
@@ -84,10 +84,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 string dir = "c:\\temp\\";
 
-// 从文件中加载 BMP 图像。
+// 从文件加载 BMP 图像。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    // 做一些图像处理。
+    // 进行一些图像处理。
 
     // 使用附加选项来指定所需的图像参数。
     Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
@@ -99,7 +99,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
     // 设置渐进式压缩类型。
     saveOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
 
-    // 设置图像质量。它是一个介于 1 和 100 之间的值。
+    // 设置图像质量。取值范围为 1 到 100。
     saveOptions.Quality = 100;
 
     // 将水平/垂直分辨率设置为每英寸 96 点。
@@ -116,7 +116,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 }
 ```
 
-以下示例创建调色板化灰度 BMP 图像，然后将其保存到文件中。
+以下示例创建一个调色的灰度 BMP 图像，然后将其保存到文件。
 
 ```csharp
 [C#]
@@ -131,19 +131,19 @@ createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output
 // 使用每像素 8 位来减小输出图像的大小。
 createOptions.BitsPerPixel = 8;
 
-// 设置标准的 8 位灰度调色板，涵盖所有灰度颜色。
-// 如果处理后的图像只包含灰度颜色，那么它的调色板版本
-// 在视觉上与非托盘化的没有区别。
+// 设置标准的 8 位灰度颜色调色板，覆盖所有灰度颜色。
+// 如果处理后的图像仅包含灰度颜色，则其调色版本
+// 在视觉上与未调色的图像无差别。
 createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
 
-// 不压缩保存。
-// 也可以使用 RLE-8 压缩来减小输出图像的大小。
+// 保存时不使用压缩。
+// 您也可以使用 RLE-8 压缩来减小输出图像的大小。
 createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
 // 将水平和垂直分辨率设置为 96 dpi。
 createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
-// 创建一个 100 x 100 像素的 BMP 图像并将其保存到文件中。
+// 创建一个 100 x 100 像素的 BMP 图像并保存到文件。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
@@ -161,7 +161,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 1
 }
 ```
 
-以下示例显示如何对 BMP 图像进行托盘化以减小其输出大小。
+以下示例展示如何对 BMP 图像进行调色以减小其输出大小。
 
 ```csharp
 [C#]
@@ -169,7 +169,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 1
 // 创建一个 100 x 100 像素的 BMP 图像。
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-    // 从图像左上角到右下角的线性渐变。
+    // 图像左上角到右下角的线性渐变。
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -177,12 +177,12 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-    // 用线性渐变画笔填充整个图像。
+    // 使用线性渐变画刷填充整个图像。
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-    // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色图像
-    // 在视觉上几乎与非托盘化的没有区别。
+    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
+    // 几乎在视觉上与非调色板图像无差别。
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
 
     // 8 位调色板最多包含 256 种颜色。
@@ -203,16 +203,16 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     }
 }
 
-// 输出如下所示：
-// 调色后的图片大小为 11078 字节。
-// 非调色图像大小为 40054 字节。
+// 输出如下：
+// 调色后的图像大小为 11078 字节。
+// 未调色的图像大小为 40054 字节。
 ```
 
-### 也可以看看
+### 另请参见
 
-* interface [IColorPalette](../../icolorpalette)
-* class [ImageOptionsBase](../../imageoptionsbase)
-* 命名空间 [Aspose.Imaging](../../imageoptionsbase)
-* 部件 [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../icolorpalette/)
+* class [ImageOptionsBase](../)
+* namespace [Aspose.Imaging](../../imageoptionsbase/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

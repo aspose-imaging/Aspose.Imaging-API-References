@@ -1,45 +1,158 @@
 ---
-title: LinearGradientBrush
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفLinearGradientBrushaspose.imaging.brushes/lineargradientbrush فئة ذات معلمات افتراضية . لون البداية أسود ولون النهاية أبيض والزاوية 45 درجة والمستطيل يقع في 00 بحجم 11 .
+title: "LinearGradientBrush.LinearGradientBrush"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ LinearGradientBrush. يهيئ نسخة جديدة من فئة LinearGradientBrush."
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.brushes/lineargradientbrush/lineargradientbrush/
 ---
-## LinearGradientBrush() {#constructor}
+## LinearGradientBrush(RectangleF, Color, Color, float, bool) {#constructor_6}
 
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة ذات معلمات افتراضية . لون البداية أسود ولون النهاية أبيض والزاوية 45 درجة والمستطيل يقع في (0،0) بحجم (1،1) .
+يهيئ نسخة جديدة من فئة [`LinearGradientBrush`](../).
 
 ```csharp
-public LinearGradientBrush()
+public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, 
+    bool isAngleScalable)
 ```
 
-### أنظر أيضا
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| rect | RectangleF | المستطيل. |
+| color1 | لون | اللون1. |
+| color2 | لون | اللون2. |
+| زاوية | فردي | الزاوية. |
+| isAngleScalable | Boolean | إذا تم تعيينه إلى `true` [قابل لتوسيع الزاوية]. |
 
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+### انظر أيضًا
+
+* struct [RectangleF](../../../aspose.imaging/rectanglef/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## LinearGradientBrush(Rectangle, Color, Color, float, bool) {#constructor_4}
+
+يهيئ نسخة جديدة من فئة [`LinearGradientBrush`](../).
+
+```csharp
+public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, 
+    bool isAngleScalable)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| rect | Rectangle | المستطيل. |
+| color1 | لون | اللون1. |
+| color2 | لون | اللون2. |
+| زاوية | فردي | الزاوية. |
+| isAngleScalable | Boolean | إذا تم تعيينه إلى `true` [قابل لتوسيع الزاوية]. |
+
+### انظر أيضًا
+
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## LinearGradientBrush(RectangleF, Color, Color, float) {#constructor_5}
+
+يهيئ نسخة جديدة من فئة [`LinearGradientBrush`](../).
+
+```csharp
+public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| rect | RectangleF | المستطيل. |
+| color1 | لون | اللون1. |
+| color2 | لون | اللون2. |
+| زاوية | فردي | الزاوية. |
+
+### انظر أيضًا
+
+* struct [RectangleF](../../../aspose.imaging/rectanglef/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## LinearGradientBrush(Rectangle, Color, Color, float) {#constructor_3}
+
+يهيئ نسخة جديدة من فئة [`LinearGradientBrush`](../).
+
+```csharp
+public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| rect | Rectangle | المستطيل. |
+| color1 | لون | اللون1. |
+| color2 | لون | اللون2. |
+| زاوية | فردي | الزاوية. |
+
+### انظر أيضًا
+
+* struct [Rectangle](../../../aspose.imaging/rectangle/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## LinearGradientBrush(PointF, PointF, Color, Color) {#constructor_2}
+
+يهيئ نسخة جديدة من فئة [`LinearGradientBrush`](../).
+
+```csharp
+public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| point1 | PointF | النقطة1. |
+| point2 | PointF | النقطة2. |
+| color1 | لون | اللون1. |
+| color2 | لون | اللون2. |
+
+### انظر أيضًا
+
+* struct [PointF](../../../aspose.imaging/pointf/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## LinearGradientBrush(Point, Point, Color, Color) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة بالنقاط والألوان المحددة.
+يهيئ نسخة جديدة من فئة [`LinearGradientBrush`](../).
 
 ```csharp
 public LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| point1 | Point | أ[`Point`](../../../aspose.imaging/point) الهيكل الذي يمثل نقطة البداية للتدرج الخطي. |
-| point2 | Point | أ[`Point`](../../../aspose.imaging/point) الهيكل الذي يمثل نقطة نهاية التدرج الخطي. |
-| color1 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون البداية للتدرج الخطي. |
-| color2 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون النهاية للتدرج الخطي. |
+| point1 | Point | النقطة1. |
+| point2 | Point | النقطة2. |
+| color1 | لون | اللون1. |
+| color2 | لون | اللون2. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية إنشاء نسخة بتدرج الرمادي لإطار موجود وإضافته إلى صورة TIFF.
+المثال التالي يوضح كيفية إنشاء نسخة بالأبيض والأسود من إطار موجود وإضافتها إلى صورة TIFF.
 
 ```csharp
 [C#]
@@ -48,14 +161,14 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.TiffOptions createTiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-// إنشاء مصدر ملف دائم وليس مؤقتًا.
+// إنشاء مصدر ملف دائم، وليس مؤقت.
 createTiffOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "multipage.tif", false);
 createTiffOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-    // التدرج الخطي من الزاوية اليسرى العلوية إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -63,162 +176,49 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-    // املأ الإطار النشط بفرشاة متدرجة خطية.
+    // ملء الإطار النشط بفرشاة تدرج خطي.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(tiffImage.ActiveFrame);
     gr.FillRectangle(brush, tiffImage.Bounds);
 
-    // خيارات تدرج الرمادي
+    // خيارات التدرج الرمادي
     Aspose.Imaging.ImageOptions.TiffOptions createTiffFrameOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
     createTiffFrameOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
     createTiffFrameOptions.Photometric = Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
     createTiffFrameOptions.BitsPerSample = new ushort[] { 8 };
 
-    // إنشاء نسخة بتدرج الرمادي من الإطار النشط.
-    // يتم الاحتفاظ ببيانات البكسل ولكن يتم تحويلها إلى التنسيق المطلوب.
+    // إنشاء نسخة تدرج رمادي من الإطار النشط.
+    // يتم الحفاظ على بيانات البكسل ولكن يتم تحويلها إلى الصيغة المطلوبة.
     Aspose.Imaging.FileFormats.Tiff.TiffFrame grayscaleFrame = Aspose.Imaging.FileFormats.Tiff.TiffFrame.CreateFrameFrom(tiffImage.ActiveFrame, createTiffFrameOptions);
 
-    // أضف الإطار الذي تم إنشاؤه حديثًا إلى صورة TIFF.
+    // إضافة الإطار الذي تم إنشاؤه حديثًا إلى صورة TIFF.
     tiffImage.AddFrame(grayscaleFrame);
 
     tiffImage.Save();
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../../aspose.imaging/point)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
-
----
-
-## LinearGradientBrush(PointF, PointF, Color, Color) {#constructor_2}
-
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة بالنقاط والألوان المحددة.
-
-```csharp
-public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| point1 | PointF | أ[`PointF`](../../../aspose.imaging/pointf) الهيكل الذي يمثل نقطة البداية للتدرج الخطي. |
-| point2 | PointF | أ[`PointF`](../../../aspose.imaging/pointf) الهيكل الذي يمثل نقطة نهاية التدرج الخطي. |
-| color1 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون البداية للتدرج الخطي. |
-| color2 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون النهاية للتدرج الخطي. |
-
-### أنظر أيضا
-
-* struct [PointF](../../../aspose.imaging/pointf)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../../aspose.imaging/point/)
+* struct [Color](../../../aspose.imaging/color/)
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
-## LinearGradientBrush(Rectangle, Color, Color, float) {#constructor_3}
+## LinearGradientBrush() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة تعتمد على المستطيل ، ألوان البداية والنهاية ، وزاوية الاتجاه.
-
-```csharp
-public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| rect | Rectangle | أ[`RectangleF`](../../../aspose.imaging/rectanglef) الهيكل الذي يحدد حدود التدرج الخطي. |
-| color1 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون البداية للتدرج. |
-| color2 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون النهاية للتدرج. |
-| angle | Single | الزاوية المقاسة بالدرجات في اتجاه عقارب الساعة من المحور السيني لخط اتجاه التدرج. |
-
-### أنظر أيضا
-
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
-
----
-
-## LinearGradientBrush(RectangleF, Color, Color, float) {#constructor_5}
-
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة تعتمد على المستطيل ، ألوان البداية والنهاية ، وزاوية الاتجاه.
+يُنشئ مثيلًا جديدًا من الفئة [`LinearGradientBrush`](../) باستخدام المعلمات الافتراضية. اللون الابتدائي هو الأسود، واللون النهائي هو الأبيض، والزاوية 45 درجة والمستطيل يقع في (0,0) بحجم (1,1).
 
 ```csharp
-public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)
+public LinearGradientBrush()
 ```
 
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| rect | RectangleF | أ[`RectangleF`](../../../aspose.imaging/rectanglef) الهيكل الذي يحدد حدود التدرج الخطي. |
-| color1 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون البداية للتدرج. |
-| color2 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون النهاية للتدرج. |
-| angle | Single | الزاوية المقاسة بالدرجات في اتجاه عقارب الساعة من المحور السيني لخط اتجاه التدرج. |
+### انظر أيضًا
 
-### أنظر أيضا
+* class [LinearGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../lineargradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
-* struct [RectangleF](../../../aspose.imaging/rectanglef)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
 
----
-
-## LinearGradientBrush(Rectangle, Color, Color, float, bool) {#constructor_4}
-
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة تعتمد على المستطيل ، ألوان البداية والنهاية ، وزاوية الاتجاه.
-
-```csharp
-public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, 
-    bool isAngleScalable)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| rect | Rectangle | أ[`RectangleF`](../../../aspose.imaging/rectanglef) الهيكل الذي يحدد حدود التدرج الخطي. |
-| color1 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون البداية للتدرج. |
-| color2 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون النهاية للتدرج. |
-| angle | Single | الزاوية المقاسة بالدرجات في اتجاه عقارب الساعة من المحور السيني لخط اتجاه التدرج. |
-| isAngleScalable | Boolean | إذا تم التعيين على`حقيقي` يتم تغيير الزاوية أثناء التحولات بهذا[`LinearGradientBrush`](../../lineargradientbrush). |
-
-### أنظر أيضا
-
-* struct [Rectangle](../../../aspose.imaging/rectangle)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
-
----
-
-## LinearGradientBrush(RectangleF, Color, Color, float, bool) {#constructor_6}
-
-يقوم بتهيئة مثيل جديد لملف[`LinearGradientBrush`](../../lineargradientbrush) فئة تعتمد على المستطيل ، ألوان البداية والنهاية ، وزاوية الاتجاه.
-
-```csharp
-public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, 
-    bool isAngleScalable)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| rect | RectangleF | أ[`RectangleF`](../../../aspose.imaging/rectanglef) الهيكل الذي يحدد حدود التدرج الخطي. |
-| color1 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون البداية للتدرج. |
-| color2 | Color | أ[`Color`](../../../aspose.imaging/color) الهيكل الذي يمثل لون النهاية للتدرج. |
-| angle | Single | الزاوية المقاسة بالدرجات في اتجاه عقارب الساعة من المحور السيني لخط اتجاه التدرج. |
-| isAngleScalable | Boolean | إذا تم التعيين على`حقيقي` يتم تغيير الزاوية أثناء التحولات بهذا[`LinearGradientBrush`](../../lineargradientbrush). |
-
-### أنظر أيضا
-
-* struct [RectangleF](../../../aspose.imaging/rectanglef)
-* struct [Color](../../../aspose.imaging/color)
-* class [LinearGradientBrush](../../lineargradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../lineargradientbrush)
-* المجسم [Aspose.Imaging](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

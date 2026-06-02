@@ -1,57 +1,59 @@
 ---
-title: ColorantCmyk
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل CMYK Colorant .
+title: "الفئة ColorantCmyk"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.Xmp.Types.Complex.Colorant.ColorantCmyk. تمثّل صبغة CMYK"
 type: docs
-weight: 11530
+weight: 12170
 url: /ar/net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
 ---
 ## ColorantCmyk class
 
-يمثل CMYK Colorant .
+يمثل CMYK Colorant.
 
 ```csharp
 public sealed class ColorantCmyk : ColorantBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ColorantCmyk](colorantcmyk#constructor)() | يقوم بتهيئة مثيل جديد لملف[`ColorantCmyk`](../colorantcmyk) فئة . |
-| [ColorantCmyk](colorantcmyk#constructor_1)(float, float, float, float) | يقوم بتهيئة مثيل جديد لملف[`ColorantCmyk`](../colorantcmyk) فئة . |
+| [ColorantCmyk](colorantcmyk/#constructor)() | يُنشئ مثيلًا جديدًا للفئة `ColorantCmyk`. |
+| [ColorantCmyk](colorantcmyk/#constructor_1)(float, float, float, float) | يُنشئ مثيلًا جديدًا للفئة `ColorantCmyk`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Black](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/black) { get; set; } | الحصول على أو تعيين قيمة المكون الأسود. |
-| [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | الحصول على أو تحديد نوع اللون. |
-| [Cyan](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/cyan) { get; set; } | الحصول على أو تعيين قيمة المكون السماوي. |
-| [Magenta](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/magenta) { get; set; } | الحصول على أو تحديد قيمة المكون الأرجواني. |
-| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | يحصل[`ColorMode`](../colormode) . |
-| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | يحصل على مساحة الاسم الافتراضية URI. |
-| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | يحصل على البادئة . |
-| [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname) { get; set; } | الحصول على أو تحديد اسم العينة . |
-| [Yellow](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/yellow) { get; set; } | الحصول على أو تعيين قيمة المكون الأصفر. |
+| [Black](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/black/) { get; set; } | يحصل أو يضبط قيمة المكوّن الأسود. |
+| [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype/) { get; set; } | يحصل أو يضبط نوع اللون. |
+| [Cyan](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/cyan/) { get; set; } | يحصل أو يضبط قيمة المكوّن السماوي. |
+| [Magenta](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/magenta/) { get; set; } | يحصل أو يضبط قيمة المكوّن الأرجواني. |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode/) { get; } | يحصل [`ColorMode`](../colormode/). |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri/) { get; } | يحصل على URI مساحة الاسم الافتراضية. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix/) { get; } | يحصل على البادئة. |
+| [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname/) { get; set; } | يحصل أو يضبط اسم العينة. |
+| [Yellow](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/yellow/) { get; set; } | يحصل أو يضبط قيمة المكوّن الأصفر. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/getxmprepresentation)() | الحصول على القيمة المضمنة في السلسلة بتنسيق XMP. |
+| virtual [Clone](../../aspose.imaging.xmp.types/xmptypebase/clone/)() | ينسخ هذه المثيلة. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/getxmprepresentation/)() | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
+| override [ToString](../../aspose.imaging.xmp.types/xmptypebase/tostring/)() | يحصل على بيانات XMP هذه كسلسلة نصية. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [ColorValueMax](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemax) | الحد الأقصى لقيمة اللون في تلوين CMYK . |
-| const [ColorValueMin](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemin) | قيمة الحد الأدنى للون في تلوين CMYK. |
+| const [ColorValueMax](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemax/) | القيمة القصوى للون في صبغة CMYK. |
+| const [ColorValueMin](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemin/) | القيمة الدنيا للون في صبغة CMYK. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ColorantBase](../colorantbase)
-* مساحة الاسم [Aspose.Imaging.Xmp.Types.Complex.Colorant](../../aspose.imaging.xmp.types.complex.colorant)
-* المجسم [Aspose.Imaging](../../)
+* class [ColorantBase](../colorantbase/)
+* namespace [Aspose.Imaging.Xmp.Types.Complex.Colorant](../../aspose.imaging.xmp.types.complex.colorant/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

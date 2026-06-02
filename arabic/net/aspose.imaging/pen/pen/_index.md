@@ -1,82 +1,82 @@
 ---
-title: Pen
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفPenaspose.imaging/pen فئة باللون المحدد.
+title: "Pen.Pen"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ Pen. يهيئ نسخة جديدة من فئة Pen باللون المحدد"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging/pen/pen/
 ---
 ## Pen(Color) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Pen`](../../pen) فئة باللون المحدد.
+يهيئ نسخة جديدة من فئة [`Pen`](../) باللون المحدد.
 
 ```csharp
 public Pen(Color color)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | Color | أ[`Color`](../color) الهيكل الذي يشير إلى لون هذا[`Pen`](../../pen). |
+| color | Color | هيكل [`Color`](../color/) يحدد لون هذا [`Pen`](../). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [Pen](../../pen)
-* مساحة الاسم [Aspose.Imaging](../../pen)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Pen(Color, float) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Pen`](../../pen) فئة مع المحدد[`Color`](../color) و[`Width`](../width) الخصائص .
+يُنشئ مثيلاً جديدًا لفئة [`Pen`](../) بالخصائص المحددة [`Color`](../color/) و[`Width`](../width/).
 
 ```csharp
 public Pen(Color color, float width)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | Color | أ[`Color`](../color) الهيكل الذي يشير إلى لون هذا[`Pen`](../../pen). |
-| width | Single | قيمة تشير إلى عرض هذا[`Pen`](../../pen). |
+| color | Color | هيكل [`Color`](../color/) يحدد لون هذا [`Pen`](../). |
+| width | Single | قيمة تشير إلى عرض هذا [`Pen`](../). |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال إنشاء كائنات القلم واستخدامها. يقوم المثال بإنشاء صورة جديدة ورسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 
 ```csharp
 [C#]
 
-// قم بإنشاء مثيل لـ BmpOptions وقم بتعيين خصائصه المختلفة
+//أنشئ مثيلاً من BmpOptions وعيّن خصائصه المتنوعة
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-// قم بإنشاء مثيل لـ FileCreateSource وقم بتعيينه كمصدر لمثيل BmpOptions
-// تحدد المعلمة المنطقية الثانية ما إذا كان الملف المراد إنشاؤه ثابتًا أم لا
+//أنشئ مثيلاً من FileCreateSource وعيّنها كمصدر للمثيل من BmpOptions
+//المعامل المنطقي الثاني يحدد ما إذا كان الملف الذي سيُنشأ مؤقتًا أم لا
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-// إنشاء مثيل للصورة في المسار المحدد
+//أنشئ مثيلاً من Image في المسار المحدد
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    // قم بإنشاء مثيل للرسومات وقم بتهيئته باستخدام كائن صورة
+    //أنشئ مثيلاً من Graphics وابدأه باستخدام كائن Image
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    // مسح واجهة الرسومات باللون الأبيض
+    //امسح سطح Graphics باللون الأبيض
     graphics.Clear(Aspose.Imaging.Color.White);
 
-    // إنشاء مثيل من القلم باللون الأحمر والعرض 5
+    //أنشئ مثيلاً من Pen باللون الأحمر وعرض 5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-    // قم بإنشاء مثيل لـ HatchBrush وعيّن خصائصه
+    //أنشئ مثيلاً من HatchBrush وعيّن خصائصه
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-    // إنشاء مثيل من Pen
-    // قم بتهيئته باستخدام كائن وعرض HatchBrush
+    //أنشئ مثيلاً من Pen
+    //ابدأه بكائن HatchBrush والعرض
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    // رسم مستطيلات عن طريق تحديد كائن القلم
+    //ارسم مستطيلات بتحديد كائن Pen
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -84,7 +84,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    // رسم مستطيلات عن طريق تحديد كائن القلم
+    //ارسم مستطيلات بتحديد كائن Pen
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
@@ -96,66 +96,66 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* class [Pen](../../pen)
-* مساحة الاسم [Aspose.Imaging](../../pen)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../../color/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Pen(Brush) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Pen`](../../pen) فئة مع المحدد[`Brush`](../brush) .
+يُنشئ مثيلاً جديدًا لفئة [`Pen`](../) بالـ[`Brush`](../brush/) المحدد.
 
 ```csharp
 public Pen(Brush brush)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | أ[`Brush`](../brush) التي تحدد خصائص التعبئة لهذا[`Pen`](../../pen). |
+| brush | Brush | [`Brush`](../brush/) يحدد خصائص التعبئة لهذا [`Pen`](../). |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* باطل. |
+| ArgumentNullException | *brush* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* class [Pen](../../pen)
-* مساحة الاسم [Aspose.Imaging](../../pen)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Pen(Brush, float) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Pen`](../../pen) فئة مع المحدد[`Brush`](../brush) و[`Width`](../width) .
+يُنشئ مثيلاً جديدًا لفئة [`Pen`](../) بالـ[`Brush`](../brush/) و[`Width`](../width/) المحددين.
 
 ```csharp
 public Pen(Brush brush, float width)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | Brush | أ[`Brush`](../brush) التي تحدد خصائص هذا[`Pen`](../../pen). |
-| width | Single | عرض الجديد[`Pen`](../../pen). |
+| brush | Brush | [`Brush`](../brush/) يحدد خصائص هذا [`Pen`](../). |
+| width | Single | عرض الـ[`Pen`](../) الجديد. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *brush* باطل. |
+| ArgumentNullException | *brush* هو null. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Brush](../../brush)
-* class [Pen](../../pen)
-* مساحة الاسم [Aspose.Imaging](../../pen)
-* المجسم [Aspose.Imaging](../../../)
+* class [Brush](../../brush/)
+* class [Pen](../)
+* namespace [Aspose.Imaging](../../pen/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

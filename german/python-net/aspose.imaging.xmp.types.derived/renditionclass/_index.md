@@ -1,0 +1,90 @@
+---
+title: "RenditionClass Klasse"
+type: docs
+weight: 20
+url: /de/python-net/aspose.imaging.xmp.types.derived/renditionclass/
+---
+
+**Summary:** Represents the XMP Rendition.
+
+**Module:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
+
+**Full Name:** aspose.imaging.xmp.types.derived.RenditionClass
+
+**Inheritance:** IXmpType, XmpTypeBase
+
+## **Constructors**
+| **Name** | **Beschreibung** |
+| :- | :- |
+| [RenditionClass()](#RenditionClass__1) | Initialisiert eine neue Instanz der [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) Klasse. |
+| [RenditionClass(token, value)](#RenditionClass_token_value_2) | Initialisiert eine neue Instanz der [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) Klasse. |
+## **Properties**
+| **Name** | **Type** | **Access** | **Beschreibung** |
+| :- | :- | :- | :- |
+| defined_values [statisch] | string[] | r | Die definierten Werte |
+| Token | string | r/w | Liest oder setzt das Token. |
+| Wert | string | r/w | Liest oder setzt den Wert. |
+## **Methods**
+| **Name** | **Beschreibung** |
+| :- | :- |
+| [clone()](#clone__1) | Klont diese Instanz. |
+| [get_xmp_representation()](#get_xmp_representation__2) | Liefert den im XMP-Format enthaltenen Zeichenkettenwert. |
+
+
+### Constructor: RenditionClass() {#RenditionClass__1}
+
+
+```
+ RenditionClass() 
+```
+
+Initialisiert eine neue Instanz der [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) Klasse.
+
+### Constructor: RenditionClass(token, value) {#RenditionClass_token_value_2}
+
+
+```
+ RenditionClass(token, value) 
+```
+
+Initialisiert eine neue Instanz der [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) Klasse.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| Token | string | Das Token. |
+| Wert | string | Der Wert. |
+
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Klont diese Instanz.
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| System.Object | Ein Memberwise-Klon. |
+
+
+### Method: get_xmp_representation() {#get_xmp_representation__2}
+
+
+```
+ get_xmp_representation() 
+```
+
+Liefert den im XMP-Format enthaltenen Zeichenkettenwert.
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| string | Gibt den im XMP-Format enthaltenen Zeichenkettenwert zurück. |
+
+

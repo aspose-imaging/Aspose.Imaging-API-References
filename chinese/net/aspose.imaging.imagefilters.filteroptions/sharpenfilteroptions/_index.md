@@ -1,38 +1,42 @@
 ---
-title: SharpenFilterOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: 锐化滤镜选项
+title: "类 SharpenFilterOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions 类。锐化过滤器选项"
 type: docs
-weight: 9810
+weight: 10100
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions class
 
-锐化滤镜选项
+锐化滤镜选项。
 
 ```csharp
-public class SharpenFilterOptions : ConvolutionFilterOptions
+public class SharpenFilterOptions : GaussianBlurFilterOptions
 ```
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [SharpenFilterOptions](sharpenfilteroptions#constructor)() | 初始化[`SharpenFilterOptions`](../sharpenfilteroptions)类. 使用默认设置. |
-| [SharpenFilterOptions](sharpenfilteroptions#constructor_1)(int, double) | 初始化[`SharpenFilterOptions`](../sharpenfilteroptions)类. |
+| [SharpenFilterOptions](sharpenfilteroptions/#constructor)() | 初始化 `SharpenFilterOptions` 类的新实例。 |
+| [SharpenFilterOptions](sharpenfilteroptions/#constructor_1)(int, double) | 初始化 `SharpenFilterOptions` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | 获取或设置偏差。 |
-| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | 获取或设置因子。 |
-| [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma) { get; set; } | 获取或设置 sigma。 |
-| [Size](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size) { get; set; } | 获取或设置大小。 |
+| [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias/) { get; set; } | 获取或设置偏置。 |
+| [BordersProcessing](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bordersprocessing/) { get; set; } | 获取或设置一个值，指示是否进行 [borders processing]。 |
+| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor/) { get; set; } | 获取或设置因子。 |
+| [IgnoreAlpha](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/ignorealpha/) { get; set; } | 获取或设置一个值，指示是否 [ignore alpha]。 |
+| override [Kernel](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/kernel/) { get; } | 获取核。 |
+| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius/) { get; set; } | 获取高斯 ISquareConvolutionKernel 的半径。 |
+| override [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma/) { get; set; } | 获取高斯核的 sigma（平滑度）。必须为正的非零值。 |
+| override [Size](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size/) { get; set; } | 获取高斯核的大小。必须为正的非零奇数值。 |
 
-### 例子
+## 示例
 
-以下示例将各种类型的过滤器应用于光栅图像。
+以下示例对光栅图像应用各种类型的过滤器。
 
 ```csharp
 [C#]
@@ -43,7 +47,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用一个矩形大小为 5 的中值滤波器。
+    // 对整幅图像应用矩形大小为 5 的中值滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
     rasterImage.Save(dir + "sample.MedianFilter.png");
 }
@@ -52,7 +56,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用内核大小为 5 的双边平滑滤波器。
+    // 对整幅图像应用核大小为 5 的双边平滑滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
     rasterImage.Save(dir + "sample.BilateralSmoothingFilter.png");
 }
@@ -61,7 +65,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用半径为 5、sigma 值为 4.0 的高斯模糊滤镜。
+    // 对整幅图像应用半径为 5、σ 值为 4.0 的高斯模糊滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussianBlurFilter.png");
 }
@@ -70,7 +74,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
+    // 对整幅图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussWienerFilter.png");
 }
@@ -79,7 +83,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动维纳滤波器。
+    // 对整幅图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动 Wiener 滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.Save(dir + "sample.MotionWienerFilter.png");
 }
@@ -88,16 +92,16 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用内核大小为 5、sigma 值为 4.0 的锐化过滤器。
+    // 对整幅图像应用核大小为 5、σ 值为 4.0 的锐化滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.SharpenFilter.png");
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [ConvolutionFilterOptions](../convolutionfilteroptions)
-* 命名空间 [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
-* 部件 [Aspose.Imaging](../../)
+* class [GaussianBlurFilterOptions](../gaussianblurfilteroptions/)
+* namespace [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

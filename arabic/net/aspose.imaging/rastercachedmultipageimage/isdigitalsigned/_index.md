@@ -1,0 +1,52 @@
+---
+title: "RasterCachedMultipageImage.IsDigitalSigned"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "RasterCachedMultipageImage طريقة. يجري فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً باستخدام كلمة المرور والعتبة المقدمة"
+type: docs
+weight: 280
+url: /ar/net/aspose.imaging/rastercachedmultipageimage/isdigitalsigned/
+---
+## RasterCachedMultipageImage.IsDigitalSigned method
+
+يُجري فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والحدّ المحدد.
+
+```csharp
+public override bool IsDigitalSigned(string password, int percentageThreshold = -1)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| كلمة المرور | String | كلمة المرور للتحقق من التوقيع. |
+| percentageThreshold | Int32 | الحدّ (بالنسبة المئوية)[0-100] الذي يحدد ما إذا كانت الصورة تعتبر موقعة. إذا لم يتم تحديده، سيتم تطبيق حدّ افتراضي (`75`). |
+
+### قيمة الإرجاع
+
+صحيح إذا كانت الصورة موقعة، وإلا خطأ.
+
+## ملاحظات
+
+توفر هذه الطريقة أسرع كشف عن طريق الاستفادة من !:GetSignPercentage. بمجرد أن تفي البيانات المستخرجة بالحدّ المحدد، يتم تخطي خطوات استخراج إضافية تهدف إلى تحسين دقة الكشف.
+
+النتيجة هي `true` فقط إذا تم التعرف على جميع الصفحات في الصورة متعددة الصفحات على أنها موقعة؛ وإلا تُعتبر الصورة غير موقعة.
+
+## أمثلة
+
+يوضح المثال كيفية التحقق من أن التوقيع الرقمي المدمج يطابق كلمة المرور المقدمة مقابل حدّ الاحتمال المحدد.
+
+```csharp
+[C#]
+
+var threshold = 100;
+using (var image = Image.Load(outputPath))
+{
+    var isSigned = image.IsDigitalSigned(password, threshold);
+}
+```
+
+### انظر أيضًا
+
+* class [RasterCachedMultipageImage](../)
+* namespace [Aspose.Imaging](../../rastercachedmultipageimage/)
+* assembly [Aspose.Imaging](../../../)
+
+

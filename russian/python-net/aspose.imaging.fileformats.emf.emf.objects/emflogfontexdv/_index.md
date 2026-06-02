@@ -1,0 +1,57 @@
+---
+title: "Класс EmfLogFontExDv"
+type: docs
+weight: 150
+url: /ru/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/
+---
+
+**Summary:** The LogFontExDv object specifies the design vector for an extended logical font.
+
+**Module:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
+
+**Full Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFontExDv
+
+**Inheritance:** EmfLogFontEx
+
+## **Constructors**
+| **Name** | **Description** |
+| :- | :- |
+| [EmfLogFontExDv(emf_log_font_ex)](#EmfLogFontExDv_emf_log_font_ex_1) | Инициализирует новый экземпляр класса [EmfLogFontExDv](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/). |
+## **Properties**
+| **Name** | **Type** | **Access** | **Description** |
+| :- | :- | :- | :- |
+| char_set | [WmfCharacterSet](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcharacterset/) | r/w | Получает или задает 8‑битное беззнаковое целое, которое указывает набор глифов символов. ДОЛЖНО <br/>            быть значением в перечислении WMF CharacterSet ([MS-WMF] раздел 2.1.1.5). Если <br/>            набор символов неизвестен, обработка метафайла НЕ ДОЛЖНА пытаться переводить или интерпретировать <br/>            строки, отрисованные этим шрифтом. |
+| clip_precision | [WmfClipPrecisionFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/) | r/w | Получает или задает 8‑битное беззнаковое целое, которое указывает точность обрезки. Точность обрезки <br/>            определяет, как обрезать символы, частично находящиеся за пределами области обрезки. <br/>            Может быть одним или несколькими из флагов WMF ClipPrecision. |
+| design_vector | [EmfDesignVector](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/) | r/w | Получает или задает объект DesignVector (раздел 2.2.3). Это поле НЕ ДОЛЖНО превышать 72 байта. |
+| escapement | int | r/w | Получает или задает 32‑битное знаковое целое, которое указывает угол в десятых долях градуса, <br/>            между вектором escapement и осью x устройства. Вектор escapement <br/>            параллелен базовой линии строки текста. |
+| имя шрифта | string | r/w | Получает или задает Facename (64 байта): строку не более 32 Unicode‑символов, которая указывает <br/>            название гарнитуры шрифта. Если длина этой строки меньше 32 символов, ДОЛЖЕН присутствовать завершающий <br/>            NULL, после чего оставшаяся часть этого поля ДОЛЖНА игнорироваться. |
+| full_name | string | r/w | Получает или задает строку из 64 Unicode‑символов, содержащую полное название шрифта. Если <br/>            длина этой строки меньше 64 символов, ДОЛЖЕН присутствовать завершающий NULL, после <br/>            чего оставшаяся часть этого поля ДОЛЖНА игнорироваться. |
+| height | int | r/w | Получает или задает 32‑битное знаковое целое число, которое указывает высоту, в логических единицах, ячейки символа шрифта или самого символа. <br/>            Значение высоты символа, также известное как размер em, представляет собой значение высоты ячейки символа минус внутреннее значение межстрочного интервала. <br/>            Маппер шрифтов ДОЛЖЕН интерпретировать значение, указанное в поле Height, следующим образом. |
+| курсив | System.Byte | r/w | Получает или задает 8‑битное беззнаковое целое число, которое указывает курсивный шрифт, если установлено значение 0x01; иначе <br/>            оно ДОЛЖНО быть установлено в 0x00. |
+| ориентация | int | r/w | Получает или задает 32‑битное знаковое целое число, которое указывает угол в десятых долях градуса, <br/>            между базовой линией каждого символа и осью x устройства. |
+| out_precision | [WmfOutPrecision](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfoutprecision/) | r/w | Получает или задает 8‑битное беззнаковое целое число, которое указывает точность вывода. <br/>            Точность вывода определяет, насколько точно шрифт должен соответствовать запрошенным высоте, ширине, <br/>            ориентации символа, углу наклона, шагу и типу шрифта. Оно ДОЛЖНО быть значением из перечисления WMF <br/>            OutPrecision. |
+| pitch_and_family | [WmfPitchAndFamily](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/) | r/w | Получает или задает объект WMF PitchAndFamily ([MS-WMF] раздел 2.2.2.14), который <br/>            указывает шаг и семейство шрифта. Семейства шрифтов описывают внешний вид шрифта в общем виде. Они предназначены для указания шрифта, когда указанный тип шрифта недоступен. |
+| quality | [WmfFontQuality](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmffontquality/) | r/w | Получает или задает 8‑битное беззнаковое целое число, которое указывает качество вывода. Качество вывода <br/>            определяет, насколько точно следует пытаться сопоставить атрибуты логического шрифта с атрибутами реального <br/>            физического шрифта. Оно ДОЛЖНО быть одним из значений в перечислении WMF FontQuality ([MS-WMF] <br/>            раздел 2.1.1.10). |
+| скрипт | string | r/w | Получает или задает строку из 32 символов Unicode, которая определяет набор символов шрифта. <br/>            Если длина этой строки меньше 32 символов, должен присутствовать завершающий NULL, <br/>            после чего оставшаяся часть этого поля ДОЛЖНА игнорироваться. |
+| зачёркнутый | System.Byte | r/w | Получает или задает 8‑битное беззнаковое целое число, которое указывает зачеркивающий шрифт, если установлено значение 0x01; <br/>            иначе оно ДОЛЖНО быть установлено в 0x00. |
+| стиль | string | r/w | Получает или задает строку из 32 символов Unicode, которая определяет стиль шрифта. Если длина <br/>            этой строки меньше 32 символов, должен присутствовать завершающий NULL, после чего <br/>            оставшаяся часть этого поля ДОЛЖНА игнорироваться. |
+| подчёркнутый | System.Byte | r/w | Получает или задает 8‑битное беззнаковое целое число, которое указывает подчёркнутый шрифт, если установлено значение 0x01; <br/>            иначе оно ДОЛЖНО быть установлено в 0x00. |
+| weight | [EmfLogFontWeight](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emflogfontweight/) | r/w | Получает или задает 32‑битное знаковое целое число, которое указывает толщину шрифта в диапазоне <br/>            от нуля до 1000. Например, 400 — обычный, а 700 — полужирный. Если это значение равно нулю, можно использовать толщину по умолчанию. |
+| width | int | r/w | Получает или задает 32‑битное знаковое целое число, которое указывает среднюю ширину, в логических единицах, <br/>            символов шрифта. Если значение поля Width равно нулю, ДОЛЖНО быть вычислено подходящее значение на основе других значений LogFont, чтобы найти шрифт с требуемым типографом соотношением сторон. |
+
+
+### Constructor: EmfLogFontExDv(emf_log_font_ex) {#EmfLogFontExDv_emf_log_font_ex_1}
+
+
+```
+ EmfLogFontExDv(emf_log_font_ex) 
+```
+
+Инициализирует новый экземпляр класса [EmfLogFontExDv](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/).
+
+**Parameters:**
+
+| Параметр | Тип | Описание |
+| :- | :- | :- |
+| emf_log_font_ex | [EmfLogFontEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/) | Пример лог‑шрифта EMF. |
+

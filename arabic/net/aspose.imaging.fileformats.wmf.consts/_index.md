@@ -1,44 +1,44 @@
 ---
-title: Aspose.Imaging.FileFormats.Wmf.Consts
-second_title: Aspose.Imaging لمرجع NET API
-description: تحتوي مساحة الاسم على أنواع MS-WMF تنسيق ملف تعريف Windows 2.1 WMF Constants
+title: "Aspose.Imaging.FileFormats.Wmf.Consts"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "المجال يحتوي على أنواع MSWMF Windows Metafile Format 2.1 WMF Constants"
 type: docs
-weight: 690
+weight: 750
 url: /ar/net/aspose.imaging.fileformats.wmf.consts/
 ---
-تحتوي مساحة الاسم على أنواع [MS-WMF]: تنسيق ملف تعريف Windows 2.1 WMF Constants
+تحتوي مساحة الاسم على الأنواع [MS-WMF]: Windows Metafile Format 2.1 WMF Constants
 
 ## تعداد
 
-| تعداد | وصف |
+| تعداد | الوصف |
 | --- | --- |
-| [StretchMode](./stretchmode) | ملف[`StretchMode`](../aspose.imaging.fileformats.wmf.consts/stretchmode)يحدد التعداد وضع التمديد bitmap ، والذي يحدد كيفية قيام النظام بجمع الصفوف أو الأعمدة من الصورة النقطية مع وحدات البكسل الموجودة. |
-| [WmfBinaryRasterOperation](./wmfbinaryrasteroperation) | يسرد قسم تعداد BinaryRasterOperation رموز عملية البيانات النقطية الثنائية. رموز التشغيل النقطية تحدد كيفية دمج معالجة ملف التعريف بين البتات من القلم المحدد مع بت في الصورة النقطية للوجهة. |
-| [WmfBrushStyle](./wmfbrushstyle) | يحدد BrushStyle Enumeration أنواع الفرشاة المختلفة الممكنة التي يمكن استخدامها في عمليات الرسومات. لمزيد من المعلومات ، راجع مواصفات كائن الفرشاة (القسم 2.2.1.1) . |
-| [WmfCharacterSet](./wmfcharacterset) | يحدد CharacterSet Enumeration المجموعات الممكنة من الحروف الرسومية المحددة في الخطوط لإخراج الرسومات. |
-| [WmfClipPrecisionFlags](./wmfclipprecisionflags) | تحدد علامات ClipPrecision دقة القطع ، والتي تحدد كيفية قص الأحرف التي تكون جزئياً خارج منطقة القطع. يمكن دمج هذه العلامات لتحديد خيارات متعددة. |
-| [WmfColorUsageEnum](./wmfcolorusageenum) | يحدد ColorUsage Enumeration ما إذا كان جدول الألوان موجودًا في صورة نقطية مستقلة عن الجهاز (DIB) وكيفية تفسير قيمها. |
-| [WmfCompression](./wmfcompression) | يحدد "تعداد الضغط" نوع الضغط للصورة النقطية image |
-| [WmfFamilyFont](./wmffamilyfont) | يحدد تعداد FamilyFont عائلة الخط. تصف عائلات الخطوط مظهر الخط in بطريقة عامة. وهي مخصصة لتحديد الخطوط عندما لا يتوفر المحرف المطلوب بالضبط. |
-| [WmfFloodFillMode](./wmffloodfillmode) | يحدد تعداد FloodFill نوع عملية التعبئة التي سيتم تنفيذها. |
-| [WmfFontQuality](./wmffontquality) | يحدد FontQuality Enumeration مدى التقارب بين سمات الخط المنطقي التي يجب أن تتطابق مع تلك الخاصة بالخط الفعلي عند عرض النص. |
-| [WmfGamutMappingIntent](./wmfgamutmappingintent) | يحدد GamutMappingIntent Enumeration العلاقة بين الألوان المنطقية والمادية. |
-| [WmfHatchStyle](./wmfhatchstyle) | يحدد HatchStyle Enumeration نمط الفتحة. |
-| [WmfLogicalColorSpaceEnum](./wmflogicalcolorspaceenum) | يحدد تعداد LogicalColorSpace نوع مساحة اللون. |
-| [WmfMapMode](./wmfmapmode) | أوضاع الخريطة |
-| [WmfMetafileEscapes](./wmfmetafileescapes) | يحدد MetafileEscapes Enumeration وظيفة برنامج تشغيل الطابعة التي قد لا يمكن الوصول إليها مباشرةً من خلال سجلات WMF المحددة في تعداد نوع السجل (القسم 2.1.1.1) . |
-| [WmfMetafileVersion](./wmfmetafileversion) | يعرّف تعداد MetafileVersion القيم التي تحدد دعمًا للصور النقطية (DIBs) المستقلة عن الجهاز في ملفات التعريف. |
-| [WmfMixMode](./wmfmixmode) | يحدد MixMode Enumeration وضع مزيج الخلفية للنص والفرش المتدرجة و وأنماط القلم الأخرى غير الصلبة. |
-| [WmfOutPrecision](./wmfoutprecision) | يعرّف تعداد OutPrecision قيمًا لدقة الإخراج ، وهو مطلب لمعيِّن الخط لمطابقة معلمات خط معينة ، بما في ذلك الارتفاع والعرض واتجاه الحرف و escapement والخطوة ونوع الخط. |
-| [WmfPenStyle](./wmfpenstyle) | يتم استخدام تعداد بنمط 16 بت لتحديد أنواع مختلفة من الأقلام التي يمكن استخدامها في عمليات الرسومات. |
-| [WmfPitchFont](./wmfpitchfont) | يحدد تعداد PitchFont القيم التي يتم استخدامها لتحديد خصائص الخط. يتم استخدام القيم للإشارة إلى ما إذا كانت الأحرف في الخط لها عرض ثابت أو متغير ، أو خطوة. |
-| [WmfPolyFillMode](./wmfpolyfillmode) | يحدد تعداد PolyFillMode الطريقة المستخدمة لملء مضلع a . |
-| [WmfPostScriptCap](./wmfpostscriptcap) | يعرّف تعداد PostScriptCap أنواع نهاية السطر للاستخدام مع برنامج تشغيل طابعة PostScript. |
-| [WmfPostScriptClipping](./wmfpostscriptclipping) | يحدد PostScriptClipping Enumeration الوظائف التي يمكن تطبيقها على مسار القطع المستخدم في إخراج PostScript. |
-| [WmfRecordType](./wmfrecordtype) | wmf نوع السجل |
-| [WmfTernaryRasterOperation](./wmfternaryrasteroperation) | يحدد التعداد أكواد العملية النقطية الثلاثية ، والتي تحدد كيفية دمج البتات في الصورة النقطية المصدر مع البتات في الصورة النقطية الوجهة. |
-| [WmfTernaryRasterOperationOperand](./wmfternaryrasteroperationoperand) | يمثل كل رمز عملية نقطية ثلاثية عملية منطقية يتم فيها دمج قيم البكسل في المصدر والفرشاة المحددة والوجهة. فيما يلي ثلاثة_معامالت المستخدمة في هذه العمليات. |
-| [WmfTextAlignmentModeFlags](./wmftextalignmentmodeflags) | TextAlignmentMode Flags تحدد العلاقة بين نقطة مرجعية ومستطيل محيط ، لمحاذاة النص. يمكن دمج هذه العلامات لتحديد خيارات متعددة ، مع تقييد بأنه يمكن اختيار علامة واحدة فقط تعمل على تغيير موضع الرسم في سياق جهاز التشغيل. |
-| [WmfVerticalTextAlignmentModeFlags](./wmfverticaltextalignmentmodeflags) | VerticalTextAlignmentMode Flags تحدد العلاقة بين نقطة مرجعية والمستطيل المحيط a ، لمحاذاة النص. يمكن دمج هذه العلامات لتحديد خيارات متعددة ، مع التقييد بأنه يمكن اختيار علامة واحدة فقط لتغيير موضع الرسم في سياق جهاز التشغيل. . |
+| [StretchMode](./stretchmode/) | يحدد تعداد [`StretchMode`](../aspose.imaging.fileformats.wmf.consts/stretchmode/) وضع تمديد البت ماب، والذي يحدد كيف يقوم النظام بدمج الصفوف أو الأعمدة من البت ماب مع البكسلات الموجودة. |
+| [WmfBinaryRasterOperation](./wmfbinaryrasteroperation/) | قسم تعداد BinaryRasterOperation يسرد رموز عملية النقطية الثنائية. تحدد رموز عملية النقطية كيف يجمع معالجة الميتافايل البتات من القلم المحدد مع البتات في بت ماب الوجهة. |
+| [WmfBrushStyle](./wmfbrushstyle/) | يحدد تعداد BrushStyle الأنواع المختلفة الممكنة للفرش التي يمكن استخدامها في عمليات الرسومات. لمزيد من المعلومات، راجع مواصفات كائن الفرش (القسم 2.2.1.1). |
+| [WmfCharacterSet](./wmfcharacterset/) | يعرّف تعداد CharacterSet مجموعات الأحرف الممكنة التي تُعرّف في الخطوط لإخراج الرسومات. |
+| [WmfClipPrecisionFlags](./wmfclipprecisionflags/) | تحدد أعلام ClipPrecision دقة القص، التي تحدد كيفية قص الأحرف التي هي جزئياً خارج منطقة القص. يمكن دمج هذه الأعلام لتحديد خيارات متعددة. |
+| [WmfColorUsageEnum](./wmfcolorusageenum/) | يحدد تعداد ColorUsage ما إذا كان جدول الألوان موجودًا في بت ماب مستقل عن الجهاز (DIB) وكيفية تفسير قيمه. |
+| [WmfCompression](./wmfcompression/) | يحدد تعداد Compression نوع الضغط لصورة البت ماب |
+| [WmfFamilyFont](./wmffamilyfont/) | يحدد تعداد FamilyFont عائلة الخط. تصف عائلات الخط مظهر الخط بطريقة عامة. تُستخدم لتحديد الخطوط عندما لا يتوفر النوع الدقيق المطلوب. |
+| [WmfFloodFillMode](./wmffloodfillmode/) | يحدد تعداد FloodFill نوع عملية التعبئة التي سيتم تنفيذها. |
+| [WmfFontQuality](./wmffontquality/) | يحدد تعداد FontQuality مدى قرب تطابق خصائص الخط المنطقي مع خصائص الخط الفعلي عند عرض النص. |
+| [WmfGamutMappingIntent](./wmfgamutmappingintent/) | يحدد تعداد GamutMappingIntent العلاقة بين الألوان المنطقية والفيزيائية. |
+| [WmfHatchStyle](./wmfhatchstyle/) | يحدد تعداد HatchStyle نمط التهشير. |
+| [WmfLogicalColorSpaceEnum](./wmflogicalcolorspaceenum/) | يحدد تعداد LogicalColorSpace نوع مساحة اللون. |
+| [WmfMapMode](./wmfmapmode/) | أنماط الخريطة |
+| [WmfMetafileEscapes](./wmfmetafileescapes/) | يحدد تعداد MetafileEscapes وظائف برنامج تشغيل الطابعة التي قد لا تكون قابلة للوصول مباشرة عبر سجلات WMF المعرفة في تعداد RecordType (القسم 2.1.1.1). |
+| [WmfMetafileVersion](./wmfmetafileversion/) | يعرّف تعداد MetafileVersion القيم التي تحدد دعم البت ماب المستقل عن الجهاز (DIBs) في ملفات الميتافايل. |
+| [WmfMixMode](./wmfmixmode/) | يحدد تعداد MixMode وضعية خلط الخلفية للنص، الفرش المتهجرة، وأنماط الأقلام غير الصلبة الأخرى. |
+| [WmfOutPrecision](./wmfoutprecision/) | يعرّف تعداد OutPrecision القيم لدقة الإخراج، وهي المتطلبات التي يحتاجها مخطط الخطوط لمطابقة معلمات الخط المحددة، بما في ذلك الارتفاع، العرض، اتجاه الحرف، الانحراف، التباعد، ونوع الخط. |
+| [WmfPenStyle](./wmfpenstyle/) | يُستخدم تعداد PenStyle 16‑بت لتحديد الأنواع المختلفة للأقلام التي يمكن استخدامها في عمليات الرسومات. |
+| [WmfPitchFont](./wmfpitchfont/) | يعرّف تعداد PitchFont القيم التي تُستخدم لتحديد خصائص الخط. تُستخدم القيم للإشارة إلى ما إذا كانت الأحرف في الخط ذات عرض ثابت أو متغيّر، أو التباعد. |
+| [WmfPolyFillMode](./wmfpolyfillmode/) | يحدد تعداد PolyFillMode الطريقة المستخدمة لتعبئة مضلع. |
+| [WmfPostScriptCap](./wmfpostscriptcap/) | يعرّف تعداد PostScriptCap أنواع نهايات الخط للاستخدام مع برنامج تشغيل طابعة PostScript. |
+| [WmfPostScriptClipping](./wmfpostscriptclipping/) | يعرّف تعداد PostScriptClipping الدوال التي يمكن تطبيقها على مسار القص المستخدم لإخراج PostScript. |
+| [WmfRecordType](./wmfrecordtype/) | نوع سجل wmf |
+| [WmfTernaryRasterOperation](./wmfternaryrasteroperation/) | تحدد التعداد رموز عمليات الرستر الثلاثية، التي تُعرّف كيفية دمج البتات في صورة المصدر مع البتات في صورة الوجهة. |
+| [WmfTernaryRasterOperationOperand](./wmfternaryrasteroperationoperand/) | كل رمز عملية رستر ثلاثية يمثل عملية بوليانية يتم فيها دمج قيم البكسلات في المصدر، والفرشاة المحددة، والوجهة. فيما يلي الثلاث معاملات المستخدمة في هذه العمليات. |
+| [WmfTextAlignmentModeFlags](./wmftextalignmentmodeflags/) | تحدد أعلام TextAlignmentMode العلاقة بين نقطة مرجعية ومستطيل محيط، لتنسيق النص. يمكن دمج هذه الأعلام لتحديد خيارات متعددة، مع القيد بأن يُختار علم واحد فقط يغيّر موضع الرسم في سياق جهاز التشغيل. يتم تنفيذ محاذاة النص الأفقية عندما يكون للخط خط أساس افتراضي أفقي. |
+| [WmfVerticalTextAlignmentModeFlags](./wmfverticaltextalignmentmodeflags/) | تحدد أعلام VerticalTextAlignmentMode العلاقة بين نقطة مرجعية ومستطيل محيط، لتنسيق النص. يمكن دمج هذه الأعلام لتحديد خيارات متعددة، مع القيد بأن يُختار علم واحد فقط يغيّر موضع الرسم في سياق جهاز التشغيل. يتم تنفيذ محاذاة النص العمودية عندما يكون للخط خط أساس افتراضي عمودي، مثل كانجي. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

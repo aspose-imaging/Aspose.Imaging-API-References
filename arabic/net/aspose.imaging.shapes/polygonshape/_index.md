@@ -1,95 +1,97 @@
 ---
-title: PolygonShape
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل شكل مضلع.
+title: "Class PolygonShape"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.Shapes.PolygonShape class. يمثل شكلًا متعدد الأضلاع"
 type: docs
-weight: 11000
+weight: 11590
 url: /ar/net/aspose.imaging.shapes/polygonshape/
 ---
 ## PolygonShape class
 
-يمثل شكل مضلع.
+يمثل شكل متعدد الأضلاع.
 
 ```csharp
 public class PolygonShape : Shape, IOrderedShape
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PolygonShape](polygonshape#constructor)() | يقوم بتهيئة مثيل جديد لملف[`PolygonShape`](../polygonshape) فئة . |
-| [PolygonShape](polygonshape#constructor_1)(PointF[]) | يقوم بتهيئة مثيل جديد لملف[`PolygonShape`](../polygonshape) فئة . |
-| [PolygonShape](polygonshape#constructor_2)(PointF[], bool) | يقوم بتهيئة مثيل جديد لملف[`PolygonShape`](../polygonshape) فئة . |
+| [PolygonShape](polygonshape/#constructor)() | يُنشئ مثيلًا جديدًا من الفئة `PolygonShape`. |
+| [PolygonShape](polygonshape/#constructor_1)(PointF[]) | يُنشئ مثيلًا جديدًا من الفئة `PolygonShape`. |
+| [PolygonShape](polygonshape/#constructor_2)(PointF[], bool) | يُنشئ مثيلًا جديدًا من الفئة `PolygonShape`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Bounds](../../aspose.imaging.shapes/polygonshape/bounds) { get; } | يحصل على حدود الكائن . |
-| override [Center](../../aspose.imaging.shapes/polygonshape/center) { get; } | يحصل على مركز الشكل. |
-| virtual [EndPoint](../../aspose.imaging.shapes/polygonshape/endpoint) { get; } | الحصول على نقطة شكل النهاية . |
-| override [HasSegments](../../aspose.imaging.shapes/polygonshape/hassegments) { get; } | الحصول على قيمة تشير إلى ما إذا كان الشكل يحتوي على مقاطع. |
-| [IsClosed](../../aspose.imaging.shapes/polygonshape/isclosed) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الشكل مغلقًا. |
-| [Points](../../aspose.imaging.shapes/polygonshape/points) { get; set; } | الحصول على نقاط المنحنى أو تعيينها . |
-| override [Segments](../../aspose.imaging.shapes/polygonshape/segments) { get; } | الحصول على شرائح الشكل . |
-| virtual [StartPoint](../../aspose.imaging.shapes/polygonshape/startpoint) { get; } | يحصل على نقطة شكل البداية . |
+| override [Bounds](../../aspose.imaging.shapes/polygonshape/bounds/) { get; } | يحصل على حدود الكائن. |
+| override [Center](../../aspose.imaging.shapes/polygonshape/center/) { get; } | يحصل على مركز الشكل. |
+| virtual [EndPoint](../../aspose.imaging.shapes/polygonshape/endpoint/) { get; } | يحصل على نقطة النهاية للشكل. |
+| override [HasSegments](../../aspose.imaging.shapes/polygonshape/hassegments/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الشكل يحتوي على قطاعات. |
+| [IsClosed](../../aspose.imaging.shapes/polygonshape/isclosed/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان الشكل مغلقًا. |
+| [Points](../../aspose.imaging.shapes/polygonshape/points/) { get; set; } | يحصل أو يعيّن نقاط المنحنى. |
+| override [Segments](../../aspose.imaging.shapes/polygonshape/segments/) { get; } | يحصل على قطاعات الشكل. |
+| virtual [StartPoint](../../aspose.imaging.shapes/polygonshape/startpoint/) { get; } | يحصل على نقطة البداية للشكل. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds#getbounds)(Matrix) | يحصل على حدود الكائن . |
-| override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds#getbounds_1)(Matrix, Pen) | يحصل على حدود الكائن . |
-| [Reverse](../../aspose.imaging.shapes/polygonshape/reverse)() | عكس ترتيب النقاط لهذا الشكل. |
-| override [Transform](../../aspose.imaging.shapes/polygonshape/transform)(Matrix) | يطبق التحويل المحدد على الشكل. |
+| override [Equals](../../aspose.imaging.shapes/polygonshape/equals/)(object) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds/#getbounds)(Matrix) | يحصل على حدود الكائن. |
+| override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds/#getbounds_1)(Matrix, Pen) | يحصل على حدود الكائن. |
+| override [GetHashCode](../../aspose.imaging.shapes/polygonshape/gethashcode/)() | يعمل كدالة التجزئة الافتراضية. |
+| [Reverse](../../aspose.imaging.shapes/polygonshape/reverse/)() | يعكس ترتيب النقاط لهذا الشكل. |
+| override [Transform](../../aspose.imaging.shapes/polygonshape/transform/)(Matrix) | يطبق التحويل المحدد على الشكل. |
 
-### أمثلة
+## أمثلة
 
-ينشئ هذا المثال صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures and GraphicsPath على سطح الصورة
+هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة
 
 ```csharp
 [C#]
 
-// ينشئ مثيلاً لـ BmpOptions ويضبط خصائصه المختلفة            
+//ينشئ نسخة من BmpOptions ويضبط خصائصه المتنوعة
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-// قم بإنشاء مثيل لـ FileCreateSource وقم بتعيينه كمصدر لمثيل BmpOptions
-// تحدد المعلمة المنطقية الثانية ما إذا كان الملف المراد إنشاؤه ثابتًا أم لا
+//أنشئ مثيلاً من FileCreateSource وعيّنها كمصدر للمثيل من BmpOptions
+//المعامل المنطقي الثاني يحدد ما إذا كان الملف الذي سيُنشأ مؤقتًا أم لا
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"c:\temp\output.bmp", false);
 
-// إنشاء مثيل للصورة 
+//إنشاء مثيل من Image
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    // إنشاء وتهيئة مثيل لفئة الرسومات
+    //إنشاء وتهيئة مثيل من فئة Graphics
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    // مسح سطح الرسومات
+    //مسح سطح Graphics
     graphics.Clear(Color.Wheat);
 
-    // إنشاء مثيل لفئة GraphicsPath
+    //إنشاء مثيل من فئة GraphicsPath
     Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-    // إنشاء مثيل لفئة الشكل
+    //إنشاء كائن من الفئة Figure
     Aspose.Imaging.Figure figure1 = new Aspose.Imaging.Figure();
 
-    // إضافة شكل إلى كائن الشكل
+    //إضافة شكل إلى كائن Figure
     figure1.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new RectangleF(50, 50, 300, 300)));
     figure1.AddShape(new Aspose.Imaging.Shapes.PieShape(new Rectangle(new Point(110, 110), new Size(200, 200)), 0, 90));
 
-    // إنشاء مثيل لفئة الشكل
+    //إنشاء كائن من الفئة Figure
     Aspose.Imaging.Figure figure2 = new Aspose.Imaging.Figure();
 
-    // إضافة شكل إلى كائن الشكل
+    //إضافة شكل إلى كائن Figure
     figure2.AddShape(new Aspose.Imaging.Shapes.ArcShape(new Aspose.Imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.AddShape(new Aspose.Imaging.Shapes.PolygonShape(new[] { new Aspose.Imaging.PointF(150, 10), new Aspose.Imaging.PointF(150, 200), new Aspose.Imaging.PointF(250, 300), new Aspose.Imaging.PointF(350, 400) }, true));
     figure2.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.Point(250, 250), new Aspose.Imaging.Size(200, 200))));
 
-    // إضافة كائن الشكل إلى GraphicsPath
+    //إضافة كائن Figure إلى GraphicsPath
     graphicspath.AddFigures(new[] { figure1, figure2 });
 
-    // رسم المسار باستخدام كائن القلم ذي اللون الأسود
+    //رسم المسار باستخدام كائن Pen باللون الأسود
     graphics.DrawPath(new Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
     // احفظ جميع التغييرات.
@@ -97,11 +99,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Shape](../../aspose.imaging/shape)
-* interface [IOrderedShape](../../aspose.imaging/iorderedshape)
-* مساحة الاسم [Aspose.Imaging.Shapes](../../aspose.imaging.shapes)
-* المجسم [Aspose.Imaging](../../)
+* class [Shape](../../aspose.imaging/shape/)
+* interface [IOrderedShape](../../aspose.imaging/iorderedshape/)
+* namespace [Aspose.Imaging.Shapes](../../aspose.imaging.shapes/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

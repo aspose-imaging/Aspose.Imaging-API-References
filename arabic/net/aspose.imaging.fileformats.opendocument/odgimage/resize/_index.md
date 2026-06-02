@@ -1,51 +1,51 @@
 ---
-title: Resize
-second_title: Aspose.Imaging لمرجع NET API
-description: يغير حجم الصورة.
+title: "OdgImage.Resize"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة OdgImage. تساعد هذه الطريقة المطورين على تغيير حجم الصور برمجياً. من خلال استدعاء هذه الدالة يمكنك تعديل أبعاد الصور ديناميكياً لتلبية المتطلبات أو القيود المحددة داخل تطبيقاتهم."
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/aspose.imaging.fileformats.opendocument/odgimage/resize/
 ---
 ## Resize(int, int, ImageResizeSettings) {#resize_1}
 
-يغير حجم الصورة.
+تساعد هذه الطريقة المطورين على تغيير حجم الصور برمجياً. من خلال استدعاء هذه الدالة، يمكنك تعديل أبعاد الصور ديناميكياً لتلبية المتطلبات أو القيود المحددة داخل تطبيقاتهم.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
-| settings | ImageResizeSettings | إعدادات تغيير الحجم. |
+| الإعدادات | ImageResizeSettings | إعدادات التحجيم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings)
-* class [OdgImage](../../odgimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.OpenDocument](../../odgimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings/)
+* class [OdgImage](../)
+* namespace [Aspose.Imaging.FileFormats.OpenDocument](../../odgimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Resize(int, int, ResizeType) {#resize_2}
 
-يغير حجم الصورة.
+تسهل هذه الطريقة تعديل حجم الصورة مع تحكم دقيق في عرض وارتفاع ومعلمات نوع التغيير. يمكنك تحديد الأبعاد المطلوبة واختيار من بين خوارزميات أو أنواع تغيير الحجم المختلفة لتحقيق أفضل النتائج وفقاً لمتطلبات التطبيق.
 
 ```csharp
 public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | newWidth | Int32 | العرض الجديد. |
 | newHeight | Int32 | الارتفاع الجديد. |
 | resizeType | ResizeType | نوع تغيير الحجم. |
 
-### أمثلة
+## أمثلة
 
-يقوم هذا المثال بتحميل صورة ODG متعددة الصفحات وتغيير حجمها باستخدام طرق تغيير الحجم المختلفة.
+هذا المثال يحمل صورة ODG متعددة الصفحات ويعيد تحجيمها باستخدام طرق تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -54,46 +54,46 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.OpenDocument.OdgImage image = (Aspose.Imaging.FileFormats.OpenDocument.OdImage)Aspose.Imaging.Image.Load(dir + "sample.odg"))
 {
-    // قم بالزيادة بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.OpenDocument.OdgImage image = (Aspose.Imaging.FileFormats.OpenDocument.OdImage)Aspose.Imaging.Image.Load(dir + "sample.odg"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.OpenDocument.OdgImage image = (Aspose.Imaging.FileFormats.OpenDocument.OdImage)Aspose.Imaging.Image.Load(dir + "sample.odg"))
 {
-    // قم بالارتقاء بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.OpenDocument.OdgImage image = (Aspose.Imaging.FileFormats.OpenDocument.OdImage)Aspose.Imaging.Image.Load(dir + "sample.odg"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-    // حفظ في PNG مع الخيارات الافتراضية.
+    // احفظ كـ PNG باستخدام الخيارات الافتراضية.
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [ResizeType](../../../aspose.imaging/resizetype)
-* class [OdgImage](../../odgimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.OpenDocument](../../odgimage)
-* المجسم [Aspose.Imaging](../../../)
+* enum [ResizeType](../../../aspose.imaging/resizetype/)
+* class [OdgImage](../)
+* namespace [Aspose.Imaging.FileFormats.OpenDocument](../../odgimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

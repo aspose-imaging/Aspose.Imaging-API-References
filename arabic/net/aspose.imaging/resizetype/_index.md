@@ -1,9 +1,9 @@
 ---
-title: ResizeType
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد نوع تغيير الحجم.
+title: "التعداد ResizeType"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "تعداد Aspose.Imaging.ResizeType. يحدد نوع التحجيم"
 type: docs
-weight: 10860
+weight: 11450
 url: /ar/net/aspose.imaging/resizetype/
 ---
 ## ResizeType enumeration
@@ -14,31 +14,31 @@ url: /ar/net/aspose.imaging/resizetype/
 public enum ResizeType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| None | `0` | لا يتم الاحتفاظ بالبكسل أثناء عملية تغيير الحجم. |
-| LeftTopToLeftTop | `1` | ستتزامن النقطة العلوية اليسرى للصورة الجديدة مع النقطة العلوية اليسرى للصورة الأصلية. سيحدث المحاصيل إذا لزم الأمر. |
-| RightTopToRightTop | `2` | ستتزامن النقطة العلوية اليمنى للصورة الجديدة مع النقطة العلوية اليمنى للصورة الأصلية. سيحدث المحاصيل إذا لزم الأمر. |
-| RightBottomToRightBottom | `3` | ستتزامن النقطة السفلية اليمنى للصورة الجديدة مع النقطة السفلية اليمنى للصورة الأصلية. سيحدث المحاصيل إذا لزم الأمر. |
-| LeftBottomToLeftBottom | `4` | ستتزامن النقطة السفلية اليسرى للصورة الجديدة مع النقطة السفلية اليسرى للصورة الأصلية. سيحدث المحاصيل إذا لزم الأمر. |
-| CenterToCenter | `5` | سيتزامن مركز الصورة الجديدة مع مركز الصورة الأصلية. سيحدث المحاصيل إذا لزم الأمر. |
-| LanczosResample | `6` | إعادة تشكيل العينة باستخدام خوارزمية lanczos مع = 3. |
-| NearestNeighbourResample | `7` | إعادة تشكيل العينة باستخدام أقرب خوارزمية مجاورة. |
-| AdaptiveResample | `8` | إعادة تشكيل العينة باستخدام الخوارزمية التكيفية بناءً على الوظيفة المنطقية الموزونة والمختلطة وخوارزميات الاستيفاء lanczos3. |
-| BilinearResample | `9` | إعادة تشكيل العينة باستخدام الاستيفاء ثنائي الخطوط. يُسمح بالترشيح المسبق للصور لإزالة الضوضاء قبل إعادة التشكيل ، عند الحاجة |
-| HighQualityResample | `10` | جودة عالية resample |
-| CatmullRom | `11` | طريقة الاستيفاء مكعب Catmull-Rom . |
-| CubicConvolution | `12` | طريقة الاستيفاء التكعيبية الملتوية |
-| CubicBSpline | `13` | طريقة الاستيفاء التكعيبي في خط التكعيب |
-| Mitchell | `14` | طريقة الاستيفاء التكعيبي لميتشل |
-| SinC | `15` | طريقة الاستيفاء التكعيبي Sinc (Lanczos3 ) |
-| Bell | `16` | طريقة الاستيفاء بيل |
+| None | `0` | لا يتم الحفاظ على البكسلات أثناء عملية التحجيم. |
+| LeftTopToLeftTop | `1` | النقطة اليسرى العليا للصورة الجديدة ستتطابق مع النقطة اليسرى العليا للصورة الأصلية. سيحدث القص إذا لزم الأمر. |
+| RightTopToRightTop | `2` | النقطة اليمنى العليا للصورة الجديدة ستتطابق مع النقطة اليمنى العليا للصورة الأصلية. سيحدث القص إذا لزم الأمر. |
+| RightBottomToRightBottom | `3` | النقطة اليمنى السفلية للصورة الجديدة ستتطابق مع النقطة اليمنى السفلية للصورة الأصلية. سيحدث القص إذا لزم الأمر. |
+| LeftBottomToLeftBottom | `4` | النقطة اليسرى السفلية للصورة الجديدة ستتطابق مع النقطة اليسرى السفلية للصورة الأصلية. سيحدث القص إذا لزم الأمر. |
+| CenterToCenter | `5` | مركز الصورة الجديدة سيتطابق مع مركز الصورة الأصلية. سيحدث القص إذا لزم الأمر. |
+| LanczosResample | `6` | إعادة أخذ عينات باستخدام خوارزمية lanczos مع a=3. |
+| NearestNeighbourResample | `7` | إعادة أخذ عينات باستخدام خوارزمية أقرب جار. |
+| AdaptiveResample | `8` | إعادة أخذ عينات باستخدام خوارزمية تكيفية تعتمد على الدالة الكسرية الموزونة والممزوجة وخوارزميات استيفاء lanczos3. |
+| BilinearResample | `9` | إعادة أخذ عينات باستخدام استيفاء ثنائي الخطية. يُسمح بالترشيح المسبق للصورة لإزالة الضوضاء قبل إعادة أخذ العينات، عند الحاجة. |
+| HighQualityResample | `10` | إعادة أخذ عينات عالية الجودة. |
+| CatmullRom | `11` | طريقة استيفاء مكعبية Catmull-Rom. |
+| CubicConvolution | `12` | طريقة استيفاء مكعبية Cubic Convolution. |
+| CubicBSpline | `13` | طريقة استيفاء مكعبية CubicBSpline. |
+| Mitchell | `14` | طريقة استيفاء مكعبية Mitchell. |
+| SinC | `15` | طريقة استيفاء مكعبية Sinc (Lanczos3). |
+| Bell | `16` | طريقة استيفاء Bell. |
 
-### أمثلة
+## أمثلة
 
-تغيير حجم الصورة باستخدام نوع معين من تغيير الحجم.
+تغيير حجم الصورة باستخدام نوع التحجيم المحدد.
 
 ```csharp
 [C#]
@@ -62,7 +62,7 @@ using (var image = Image.Load("Photo.jpg"))
 }
 ```
 
-يقوم هذا المثال بتحميل الصورة وتغيير حجمها باستخدام طرق مختلفة لتغيير الحجم.
+هذا المثال يحمل صورة ويعيد تحجيمها باستخدام طرق تحجيم مختلفة.
 
 ```csharp
 [C#]
@@ -71,36 +71,36 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // قم بالزيادة بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة تشكيل أقرب الجوار.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "downsample.nearestneighbour.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // قم بالارتقاء بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    // تصغير بمقدار مرتين باستخدام إعادة التشكيل Bilinear.
+    // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging](../../aspose.imaging)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging](../../aspose.imaging/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

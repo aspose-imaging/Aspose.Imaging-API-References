@@ -1,38 +1,38 @@
 ---
-title: EmfPlusPathPointTypeRle
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد كائن EmfPlusPathPointTypeRle قيم الكتابة المرتبطة بالنقاط الموجودة على مسار رسومي باستخدام ضغط RLE . 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B x7C 1 x7C RunCount x7C PointType x7C B 1 بت إذا تم تعيينها  فإن نقاط المسار تكون على منحنى بيزير . إذا كانت واضحة  تكون نقاط المسار على خط الرسم . RunCount 6 بت عدد التشغيل  وهو عدد نقاط المسار المراد ربطها بالنوع الموجود في حقل PointType . PointType 1 بايت كائن EmfPlusPathPointType القسم 2.2.2.31 يحدد النوع الذي سيتم ربطه بنقاط المسار.
+title: "الفئة EmfPlusPathPointTypeRle"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusPathPointTypeRle. كائن EmfPlusPathPointTypeRle يحدد قيم النوع المرتبطة بالنقاط على مسار رسومي باستخدام ضغط RLE. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B1RunCount  PointType  B 1 بت إذا تم تعيينه تكون نقاط المسار على منحنى بيزيير. إذا لم يتم تعيينه تكون نقاط المسار على خط رسومي. RunCount 6 بت عدد التشغيل وهو عدد نقاط المسار التي ترتبط بالنوع في حقل PointType. PointType 1 بايت كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار"
 type: docs
-weight: 5650
+weight: 5770
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/
 ---
 ## EmfPlusPathPointTypeRle class
 
-يحدد كائن EmfPlusPathPointTypeRle قيم الكتابة المرتبطة بالنقاط الموجودة على مسار رسومي باستخدام ضغط RLE . 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B &#x7C; 1 &#x7C; RunCount &#x7C; PointType &#x7C; B (1 بت): إذا تم تعيينها ، فإن نقاط المسار تكون على منحنى بيزير . إذا كانت واضحة ، تكون نقاط المسار على خط الرسم . RunCount (6 بت): عدد التشغيل ، وهو عدد نقاط المسار المراد ربطها بالنوع الموجود في حقل PointType . PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) يحدد النوع الذي سيتم ربطه بنقاط المسار.
+كائن EmfPlusPathPointTypeRle يحدد قيم النوع المرتبطة بالنقاط على مسار رسومي باستخدام ضغط RLE. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B&#x7C;1&#x7C;RunCount &#x7C; PointType &#x7C; B (1 بت): إذا تم تعيينه، تكون نقاط المسار على منحنى بيزيير. إذا لم يُحدد، تكون نقاط المسار على خط رسومي. RunCount (6 بت): عدد المتتالية، وهو عدد نقاط المسار التي يجب ربطها بالنوع في حقل PointType. PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
 
 ```csharp
 public sealed class EmfPlusPathPointTypeRle : EmfPlusBasePointType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusPathPointTypeRle](emfpluspathpointtyperle)() | Default_Constructor |
+| [EmfPlusPathPointTypeRle](emfpluspathpointtyperle/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Bezier](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/bezier) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا[`EmfPlusPathPointTypeRle`](../emfpluspathpointtyperle) هو bezier. في حالة الضبط ، تكون نقاط المسار على منحنى بيزير . إذا كانت واضحة ، تكون نقاط المسار على خط رسومي. |
-| [Data](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/data) { get; set; } | الحصول على البيانات أو تعيينها . |
-| [PointType](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/pointtype) { get; set; } | الحصول على نوع النقطة أو تعيينه . PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) يحدد النوع الذي سيتم ربطه بنقاط المسار. |
-| [RunCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/runcount) { get; set; } | الحصول على عدد التشغيل أو تعيينه . RunCount (6 بت): عدد التشغيل ، وهو عدد نقاط المسار التي سيتم ربطها بالنوع الموجود في حقل PointType |
+| [Bezier](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/bezier/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `EmfPlusPathPointTypeRle` بيزيير. إذا تم تعيينها، تكون نقاط المسار على منحنى بيزيير. إذا لم يتم تعيينها، تكون نقاط المسار على خط رسومي. |
+| [Data](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/data/) { get; set; } | يسترجع أو يعيّن البيانات. |
+| [PointType](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/pointtype/) { get; set; } | يحصل أو يضبط نوع النقطة. PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار. |
+| [RunCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/runcount/) { get; set; } | يحصل أو يضبط عدد التشغيل. RunCount (6 بت): عدد التشغيل، وهو عدد نقاط المسار التي سيتم ربطها بالنوع في حقل PointType. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusBasePointType](../emfplusbasepointtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects](../../aspose.imaging.fileformats.emf.emfplus.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusBasePointType](../emfplusbasepointtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects](../../aspose.imaging.fileformats.emf.emfplus.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

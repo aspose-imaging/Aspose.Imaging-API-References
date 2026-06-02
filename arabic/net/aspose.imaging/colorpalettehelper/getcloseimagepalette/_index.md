@@ -1,31 +1,31 @@
 ---
-title: GetCloseImagePalette
-second_title: Aspose.Imaging لمرجع NET API
-description: الحصول على لوحة ألوان من الصورة النقطية palletizes image في حالة عدم احتواء الصورة على واحدة. في حالة وجود لوحة  سيتم استخدامها بدلاً من إجراء الحسابات.
+title: "ColorPaletteHelper.GetCloseImagePalette"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة ColorPaletteHelper. يحصل على لوحة ألوان من صورة نقطية تقوم بإنشاء لوحة ألوان للصورة إذا لم تكن لها واحدة. في حال وجود لوحة ألوان، سيتم استخدامها بدلاً من إجراء الحسابات"
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.imaging/colorpalettehelper/getcloseimagepalette/
 ---
-## GetCloseImagePalette(RasterImage, int) {#getcloseimagepalette_3}
+## GetCloseImagePalette(RasterImage, int) {#getcloseimagepalette_4}
 
-الحصول على لوحة ألوان من الصورة النقطية (palletizes image) في حالة عدم احتواء الصورة على واحدة. في حالة وجود لوحة ، سيتم استخدامها بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من صورة نقطية (يقوم بإنشاء لوحة من الصورة) في حال عدم وجود لوحة للصور. إذا وجدت لوحة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesCount)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | RasterImage | الصورة النقطية. |
-| entriesCount | Int32 | عدد الإدخالات المطلوبة. |
+| entriesCount | Int32 | عدد الإدخالات المطلوب. |
 
 ### قيمة الإرجاع
 
-لوحة الألوان التي تبدأ بأكثر الألوان شيوعًا من*image* ويحتوي على*entriesCount* إدخالات .
+لوحة الألوان التي تبدأ بأكثر الألوان تكرارًا من *الصورة* وتحتوي على *entriesCount* إدخالًا.
 
-### أمثلة
+## أمثلة
 
-يقوم المثال التالي بتحميل صورة BMP وحفظها مرة أخرى في BMP باستخدام خيارات حفظ متنوعة.
+المثال التالي يحمل صورة BMP ويحفظها مرة أخرى كـ BMP باستخدام خيارات حفظ مختلفة.
 
 ```csharp
 [C#]
@@ -39,33 +39,33 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
     // إنشاء BmpOptions
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-    // استخدم 8 بت لكل بكسل لتقليل حجم الصورة الناتجة.
+    // استخدم 8 بتات لكل بكسل لتقليل حجم صورة الإخراج.
     saveOptions.BitsPerPixel = 8;
 
-    // قم بتعيين أقرب لوحة ألوان 8 بت تغطي العدد الأقصى لوحدات البكسل للصورة ، بحيث تكون الصورة ذات لوحة الألوان
-    // يكاد لا يمكن تمييزه بصريًا عن غير المنقول.
+    // حدد أقرب لوحة ألوان 8‑bit التي تغطي الحد الأقصى من بكسلات الصورة، بحيث تكون الصورة مُلوَّنة بلوحة ألوان
+    // تقريبًا لا يمكن تمييزها بصريًا عن صورة غير ملوّنة بلوحة ألوان.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
 
-    // حفظ بدون ضغط.
+    // احفظ دون ضغط.
     // يمكنك أيضًا استخدام ضغط RLE-8 لتقليل حجم الصورة الناتجة.
     saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
-    // اضبط الدقة الأفقية والعمودية على 96 نقطة في البوصة.
+    // حدد الدقة الأفقية والعمودية إلى 96 نقطة في البوصة.
     saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
     image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
 }
 ```
 
-يوضح المثال التالي كيفية نقل صورة BMP إلى منصات نقالة لتقليل حجم الإخراج.
+المثال التالي يوضح كيفية تلوين صورة BMP بلوحة ألوان لتقليل حجم الناتج.
 
 ```csharp
 [C#]
 
-// قم بإنشاء صورة BMP 100 × 100 بكسل.
+// أنشئ صورة BMP بحجم 100 × 100 بكسل.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-    // التدرج الخطي من الزاوية اليسرى العلوية إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -73,15 +73,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-    // املأ الصورة بأكملها بفرشاة التدرج الخطي.
+    // املأ الصورة بالكامل بفرشاة التدرج الخطي.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-    // احصل على أقرب لوحة ألوان 8 بت تغطي أكبر عدد ممكن من وحدات البكسل ، بحيث تكون الصورة ملوّنة
-    // يكاد لا يمكن تمييزه بصريًا عن غير المنقول.
+    // احصل على أقرب لوحة ألوان 8-بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة بلوحة ألوان
+    // تقريبًا لا يمكن تمييزها بصريًا عن صورة غير ملوّنة بلوحة ألوان.
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
 
-    // تحتوي اللوحة 8 بت على 256 لونًا بحد أقصى.
+    // لوحة الألوان 8‑bit تحتوي على ما لا يزيد عن 256 لونًا.
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
     saveOptions.Palette = palette;
     saveOptions.BitsPerPixel = 8;
@@ -99,48 +99,48 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     }
 }
 
-// يبدو الإخراج كالتالي:
-// حجم الصورة باليت هو 11078 بايت.
-// حجم الصورة غير المصقول هو 40054 بايت.
+// الإخراج يبدو هكذا:
+// حجم الصورة الملونة باللوحة هو 11078 بايت.
+// حجم الصورة غير الملونة باللوحة هو 40054 بايت.
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* مساحة الاسم [Aspose.Imaging](../../colorpalettehelper)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
-## GetCloseImagePalette(RasterImage, int, PaletteMiningMethod) {#getcloseimagepalette_4}
+## GetCloseImagePalette(RasterImage, int, PaletteMiningMethod) {#getcloseimagepalette_5}
 
-الحصول على لوحة ألوان من الصورة النقطية (palletizes image) في حالة عدم احتواء الصورة على واحدة. لوحة الألوان على وشك تحسين جودة الصورة المفهرسة أو التقاطها "كما هي" عند استخدام PaletteMiningMethod.UseCurrentPalette.
+يحصل على لوحة ألوان من صورة نقطية (يقوم بإنشاء لوحة من الصورة) في حال عدم وجود لوحة للصور. سيتم تحسين اللوحة للحصول على جودة صورة مفهرسة أفضل أو تُؤخذ "AS IS" عندما يُستخدم PaletteMiningMethod.UseCurrentPalette.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesCount, 
     PaletteMiningMethod paletteMiningMethod)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | RasterImage | الصورة النقطية. |
-| entriesCount | Int32 | عدد الإدخالات المطلوبة. |
-| paletteMiningMethod | PaletteMiningMethod | طريقة تعدين الألواح. |
+| entriesCount | Int32 | عدد الإدخالات المطلوب. |
+| paletteMiningMethod | PaletteMiningMethod | طريقة استخراج لوحة الألوان. |
 
 ### قيمة الإرجاع
 
-لوحة الألوان التي تبدأ بأكثر الألوان شيوعًا من*image* ويحتوي على*entriesCount* إدخالات .
+لوحة الألوان التي تبدأ بأكثر الألوان تكرارًا من *الصورة* وتحتوي على *entriesCount* إدخالًا.
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية ضغط صورة PNG ، باستخدام لون مفهرس مع أفضل لوحة ملائمة
+يوضح المثال التالي كيفية ضغط صورة PNG باستخدام اللون المفهرس مع لوحة ألوان الأنسب.
 
 ```csharp
 [C#]
 
-// تحميل صورة png        
+// يحمّل صورة PNG
     string  sourceFilePath="OriginalRings.png";
     string  outputFilePath="OriginalRingsOutput.png";
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
@@ -148,119 +148,153 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
     image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
     {
          Progressive = true,
-             // استخدم نوع اللون المفهرس
+             // استخدم نوع اللون المفهرس.
          ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
-             // استخدم أقصى ضغط
+             // استخدم أقصى ضغط.
          CompressionLevel = 9,
-      // احصل على أقرب لوحة ألوان 8 بت تغطي أكبر عدد ممكن من وحدات البكسل ، بحيث تكون الصورة ملوّنة
-         // يكاد لا يمكن تمييزه بصريًا عن غير المنقول.
+      // احصل على أقرب لوحة ألوان 8-بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة بلوحة ألوان
+         // تقريبًا لا يمكن تمييزها بصريًا عن صورة غير ملوّنة بلوحة ألوان.
          Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
     });
 }
-    // يجب تقليل حجم الملف الناتج بشكل كبير
+    // يجب أن يتم تقليل حجم ملف الإخراج بشكل كبير.
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* enum [PaletteMiningMethod](../../paletteminingmethod)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* مساحة الاسم [Aspose.Imaging](../../colorpalettehelper)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* enum [PaletteMiningMethod](../../paletteminingmethod/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## GetCloseImagePalette(RasterImage, Rectangle, int) {#getcloseimagepalette}
 
-الحصول على لوحة ألوان من الصورة النقطية (palletizes image) في حالة عدم احتواء الصورة على واحدة. في حالة وجود لوحة ، سيتم استخدامها بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من صورة نقطية (يقوم بإنشاء لوحة من الصورة) في حال عدم وجود لوحة للصور. إذا وجدت لوحة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
     int entriesCount)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | RasterImage | الصورة النقطية. |
 | destBounds | Rectangle | حدود الصورة الوجهة. |
-| entriesCount | Int32 | عدد الإدخالات المطلوبة. |
+| entriesCount | Int32 | عدد الإدخالات المطلوب. |
 
 ### قيمة الإرجاع
 
-لوحة الألوان التي تبدأ بأكثر الألوان شيوعًا من*image* ويحتوي على*entriesCount* إدخالات .
+لوحة الألوان التي تبدأ بأكثر الألوان تكرارًا من *الصورة* وتحتوي على *entriesCount* إدخالًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* مساحة الاسم [Aspose.Imaging](../../colorpalettehelper)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## GetCloseImagePalette(RasterImage, Rectangle, int, bool) {#getcloseimagepalette_1}
 
-الحصول على لوحة ألوان من الصورة النقطية (palletizes image) في حالة عدم احتواء الصورة على واحدة. في حالة وجود لوحة ، سيتم استخدامها بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من صورة نقطية (يقوم بإنشاء لوحة من الصورة) في حال عدم وجود لوحة للصور. إذا وجدت لوحة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
     int entriesCount, bool useImagePalette)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | RasterImage | الصورة النقطية. |
 | destBounds | Rectangle | حدود الصورة الوجهة. |
-| entriesCount | Int32 | عدد الإدخالات المطلوبة. |
-| useImagePalette | Boolean | إذا تم ضبطه ، فسيستخدم لوحة الصور الخاصة به إذا كان ذلك متاحًا |
+| entriesCount | Int32 | عدد الإدخالات المطلوب. |
+| useImagePalette | Boolean | إذا تم الضبط، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متوفرة |
 
 ### قيمة الإرجاع
 
-لوحة الألوان التي تبدأ بأكثر الألوان شيوعًا من*image* ويحتوي على*entriesCount* إدخالات .
+لوحة الألوان التي تبدأ بأكثر الألوان تكرارًا من *الصورة* وتحتوي على *entriesCount* إدخالًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* مساحة الاسم [Aspose.Imaging](../../colorpalettehelper)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## GetCloseImagePalette(RasterImage, Rectangle, int, bool, Color) {#getcloseimagepalette_2}
 
-الحصول على لوحة ألوان من الصورة النقطية (palletizes image) في حالة عدم احتواء الصورة على واحدة. في حالة وجود لوحة ، سيتم استخدامها بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من صورة نقطية (يقوم بإنشاء لوحة من الصورة) في حال عدم وجود لوحة للصور. إذا وجدت لوحة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
     int entriesCount, bool useImagePalette, Color alphaBlendInColor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | RasterImage | الصورة النقطية. |
 | destBounds | Rectangle | حدود الصورة الوجهة. |
-| entriesCount | Int32 | عدد الإدخالات المطلوبة. |
-| useImagePalette | Boolean | إذا تم ضبطه ، فسيستخدم لوحة الصور الخاصة به إذا كان ذلك متاحًا |
-| alphaBlendInColor | Color | اللون الذي يجب استخدامه كلون خلفية لاستبدال ألفا شبه الشفاف. |
+| entriesCount | Int32 | عدد الإدخالات المطلوب. |
+| useImagePalette | Boolean | إذا تم الضبط، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متوفرة |
+| alphaBlendInColor | لون | اللون الذي يجب استخدامه كلون خلفية لاستبدال ألفا شبه الشفاف. |
 
 ### قيمة الإرجاع
 
-لوحة الألوان التي تبدأ بأكثر الألوان شيوعًا من*image* ويحتوي على*entriesCount* إدخالات .
+لوحة الألوان التي تبدأ بأكثر الألوان تكرارًا من *الصورة* وتحتوي على *entriesCount* إدخالًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IColorPalette](../../icolorpalette)
-* class [RasterImage](../../rasterimage)
-* struct [Rectangle](../../rectangle)
-* struct [Color](../../color)
-* class [ColorPaletteHelper](../../colorpalettehelper)
-* مساحة الاسم [Aspose.Imaging](../../colorpalettehelper)
-* المجسم [Aspose.Imaging](../../../)
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* struct [Color](../../color/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+---
+
+## GetCloseImagePalette(RasterImage, Rectangle, int, bool, Color, bool) {#getcloseimagepalette_3}
+
+يحصل على لوحة ألوان من صورة نقطية (يقوم بإنشاء لوحة من الصورة) في حال عدم وجود لوحة للصور. إذا وجدت لوحة، سيتم استخدامها بدلاً من إجراء الحسابات.
+
+```csharp
+public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
+    int entriesCount, bool useImagePalette, Color alphaBlendInColor, bool keepTransparency)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| image | RasterImage | الصورة النقطية. |
+| destBounds | Rectangle | حدود الصورة الوجهة. |
+| entriesCount | Int32 | عدد الإدخالات المطلوب. |
+| useImagePalette | Boolean | إذا تم الضبط، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متوفرة |
+| alphaBlendInColor | لون | اللون الذي يجب استخدامه كلون خلفية لاستبدال ألفا شبه الشفاف. |
+| keepTransparency | Boolean | إذا تم التعيين، فسيأخذ في الاعتبار بتات قناة ألفا لألوان الصورة. |
+
+### قيمة الإرجاع
+
+لوحة الألوان التي تبدأ بأكثر الألوان تكرارًا من *الصورة* وتحتوي على *entriesCount* إدخالًا.
+
+### انظر أيضًا
+
+* interface [IColorPalette](../../icolorpalette/)
+* class [RasterImage](../../rasterimage/)
+* struct [Rectangle](../../rectangle/)
+* struct [Color](../../color/)
+* class [ColorPaletteHelper](../)
+* namespace [Aspose.Imaging](../../colorpalettehelper/)
+* assembly [Aspose.Imaging](../../../)
+
+

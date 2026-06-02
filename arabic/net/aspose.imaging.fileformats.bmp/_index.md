@@ -1,27 +1,27 @@
 ---
-title: Aspose.Imaging.FileFormats.Bmp
-second_title: Aspose.Imaging لمرجع NET API
-description: يعالج مساحة الاسم معالجة تنسيق ملف Bmp.
+title: "Aspose.Imaging.FileFormats.Bmp"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "المساحة الاسمية تتعامل مع معالجة تنسيق ملف Bmp"
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/aspose.imaging.fileformats.bmp/
 ---
-يعالج مساحة الاسم معالجة تنسيق ملف Bmp.
+مساحة الاسم تتعامل مع معالجة صيغة ملف Bmp.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [BitmapCoreHeader](./bitmapcoreheader) | أبعاد تنسيق الألوان DIB. اسم الرأس BITMAPCOREHEADER المعروف أيضًا باسم OS21XBITMAPHEADER. |
-| [BitmapInfoHeader](./bitmapinfoheader) | تحديد BITMAPINFOHEADER. دعم نظام التشغيل: Windows NT ، الإصدار 3.1x أو الأحدث. الميزات: يضيف تنسيقات 16 bpp و 32 bpp. يضيف ضغط RLE. |
-| [BitmapV4Header](./bitmapv4header) | بنية BitmapV4Header هي ملف رأس معلومات الصورة النقطية. إنها نسخة موسعة من هيكل BITMAPINFOHEADER.يتم توسيع بنية BitmapV4Header للسماح بتمرير صورة JPEG أو PNG كصورة مصدر إلى StretchDIBits. |
-| [BitmapV5Header](./bitmapv5header) | بنية BitmapV5Header هي ملف رأس معلومات الصورة النقطية. إنها نسخة موسعة من هيكل BITMAPINFOHEADER.إذا كانت قيمة bV5Height سالبة ، فتشير إلى DIB من أعلى إلى أسفل ، يجب أن يكون ضغط bV5 إما BI_RGB أو BI_BITFIELDS. لا يمكن ضغط DIBs من أعلى إلى أسفل. تسمح واجهة إدارة الألوان المستقلة (ICM) 2.0 بربط ملفات تعريف الألوان اتحاد الألوان الدولي (ICC) أو تضمينها في DIBs (DIBs). راجع استخدام الهياكل لمزيد من المعلومات. عند تحميل DIB في الذاكرة ، يجب أن تتبع بيانات ملف التعريف (إن وجدت) جدول الألوان ويجب أن توفر bV5ProfileData إزاحة بيانات ملف التعريف من بداية بنية BITMAPV5HEADER. ستكون القيمة المخزنة في bV5ProfileData مختلفة عن القيمة التي تم إرجاعها بواسطة عامل التشغيل sizeof نظرًا لوسيطة BITMAPV5HEADER ، لأن bV5ProfileData هي الإزاحة بالبايت من بداية بنية BITMAPV5HEADER إلى بداية بيانات ملف التعريف. (بتات الصور النقطية لا تتبع جدول الألوان في الذاكرة). يجب أن تقوم التطبيقات بتعديل عضو bV5ProfileData بعد تحميل DIB في الذاكرة. بالنسبة لـ DIBs المعبأة ، يجب أن تتبع بيانات ملف التعريف بتات الصورة النقطية المشابهة لتنسيق الملف. يجب أن يستمر عضو bV5ProfileData في إعطاء إزاحة بيانات ملف التعريف من بداية BITMAPV5HEADER. يجب أن تصل التطبيقات إلى بيانات ملف التعريف فقط عندما يكون bV5Size مساويًا لحجم BITMAPV5HEADER و bV5CSType يساوي PROFILE_EMBEDDED أو PROFILE_LINK. |
-| [BmpImage](./bmpimage) | صورة bmp (تدعم تنسيقات BMP و DIB) . |
-| [Os22XBitmapHeader](./os22xbitmapheader) | نظام تشغيل / 2 2.x OS22XBITMAPHEADER يُعرف أيضًا باسم BITMAPCOREHEADER2. |
+| [BitmapCoreHeader](./bitmapcoreheader/) | الأبعاد وتنسيق اللون لـ DIB. اسم الرأس BITMAPCOREHEADER المعروف أيضًا باسم OS21XBITMAPHEADER. |
+| [BitmapInfoHeader](./bitmapinfoheader/) | يحدد BITMAPINFOHEADER. دعم نظام التشغيل: Windows NT، 3.1x أو أحدث. الميزات: يضيف صيغ 16 بت و 32 بت لكل بكسل. يضيف ضغط RLE. |
+| [BitmapV4Header](./bitmapv4header/) | هيكل BitmapV4Header هو ملف رأس معلومات البت ماب. وهو نسخة موسعة من هيكل BITMAPINFOHEADER. تم توسيع هيكل BitmapV4Header للسماح بتمرير صورة JPEG أو PNG كصورة مصدر إلى StretchDIBits. |
+| [BitmapV5Header](./bitmapv5header/) | هيكل BitmapV5Header هو ملف رأس معلومات البت ماب. وهو نسخة موسعة من هيكل BITMAPINFOHEADER. إذا كان bV5Height سالبًا، مما يدل على DIB من الأعلى إلى الأسفل، يجب أن يكون bV5Compression إما BI_RGB أو BI_BITFIELDS. لا يمكن ضغط DIBs من الأعلى إلى الأسفل. تسمح واجهة إدارة الألوان المستقلة (ICM) 2.0 بربط أو تضمين ملفات تعريف الألوان الخاصة بـ International Color Consortium (ICC) في DIBs (DIBs). راجع Using Structures لمزيد من المعلومات. عندما يتم تحميل DIB إلى الذاكرة، يجب أن تتبع بيانات الملف الشخصي (إن وجدت) جدول الألوان، ويجب أن يوفر bV5ProfileData إزاحة بيانات الملف الشخصي من بداية هيكل BITMAPV5HEADER. القيمة المخزنة في bV5ProfileData ستكون مختلفة عن القيمة التي يعيدها عامل sizeof عند تمرير BITMAPV5HEADER كمعامل، لأن bV5ProfileData هي الإزاحة بالبايتات من بداية هيكل BITMAPV5HEADER إلى بداية بيانات الملف الشخصي. (بتات البت ماب لا تتبع جدول الألوان في الذاكرة). يجب على التطبيقات تعديل عضو bV5ProfileData بعد تحميل DIB إلى الذاكرة. بالنسبة لـ DIBs المعبأة، يجب أن تتبع بيانات الملف الشخصي بتات البت ماب مشابهة لتنسيق الملف. يجب أن يظل عضو bV5ProfileData يعطي إزاحة بيانات الملف الشخصي من بداية BITMAPV5HEADER. يجب على التطبيقات الوصول إلى بيانات الملف الشخصي فقط عندما يكون bV5Size مساويًا لحجم BITMAPV5HEADER و bV5CSType يساوي PROFILE_EMBEDDED أو PROFILE_LINKED. |
+| [BmpImage](./bmpimage/) | يمكنك التعامل بسهولة مع ملفات Bitmap (BMP) وDevice Independent Bitmap (DIB)، مما يسهل التلاعب الفعال ومعالجة الصور النقطية. من خلال تنفيذ عمليات مختلفة على الصور، يبسط هذا API سير العمل، ويقدم للمطورين مجموعة أدوات موثوقة للعمل مع صيغ BMP و DIB في تطبيقاتهم البرمجية. |
+| [Os22XBitmapHeader](./os22xbitmapheader/) | هيكل OS/2 2.x OS22XBITMAPHEADER المعروف أيضًا باسم BITMAPCOREHEADER2. |
 ## تعداد
 
-| تعداد | وصف |
+| تعداد | الوصف |
 | --- | --- |
-| [BitmapCompression](./bitmapcompression) | تحديد طرق مختلفة لضغط الصور النقطية. |
+| [BitmapCompression](./bitmapcompression/) | يحدد طرق ضغط البت ماب المختلفة. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,37 +1,37 @@
 ---
-title: EmfPlusColorBalanceEffect
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد كائن ColorBalanceEffect عمليات ضبط للمقادير النسبية للأحمر والأخضر والأزرق في الصورة.
+title: "الفئة EmfPlusColorBalanceEffect"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects.EmfPlusColorBalanceEffect class. يحدد كائن ColorBalanceEffect التعديلات على النسب النسبية للأحمر والأخضر والأزرق في الصورة."
 type: docs
-weight: 5290
+weight: 5410
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/
 ---
 ## EmfPlusColorBalanceEffect class
 
-يحدد كائن ColorBalanceEffect عمليات ضبط للمقادير النسبية للأحمر والأخضر والأزرق في الصورة.
+يحدد كائن ColorBalanceEffect تعديلات على النسب النسبية للأحمر والأخضر والأزرق في الصورة.
 
 ```csharp
 public sealed class EmfPlusColorBalanceEffect : EmfPlusImageEffectsObjectType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusColorBalanceEffect](emfpluscolorbalanceeffect)() | Default_Constructor |
+| [EmfPlusColorBalanceEffect](emfpluscolorbalanceeffect/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CyanRed](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/cyanred) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد تغييرًا في مقدار اللون الأحمر في الصورة . يجب أن تكون هذه القيمة في النطاق -100 إلى 100 ، مع التأثيرات على النحو التالي: -100 ≤ القيمة &lt;0 مع انخفاض القيمة ، يجب أن تنخفض كمية اللون الأحمر في الصورة ويجب أن تزيد كمية السماوي . 0 قيمة تشير القيمة 0 إلى أنه يجب عدم تغيير مقادير اللون الأحمر والسماوي. 0 &lt;القيمة ≤ 100 مع زيادة القيمة ، يجب زيادة مقدار اللون الأحمر في الصورة ويجب أن تنخفض كمية اللون السماوي . |
-| [MagentaGreen](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/magentagreen) { get; set; } | الحصول على أو تعيين عدد صحيح ذو إشارة 32 بت يحدد تغييرًا في مقدار الأخضر في الصورة. يجب أن تكون هذه القيمة في النطاق -100 إلى 100 ، مع تأثيرات مثل التالي: -100 القيمة &lt;0 مع انخفاض القيمة ، يجب أن تنخفض كمية اللون الأخضر في الصورة و يجب أن تزيد كمية اللون الأرجواني . 0 قيمة تشير القيمة 0 إلى أنه يجب عدم تغيير مقادير اللونين الأخضر والأرجواني. 0 &lt;القيمة ≤ 100 مع زيادة القيمة ، يجب زيادة مقدار اللون الأخضر في الصورة و يجب أن تنخفض كمية اللون الأرجواني . |
-| [YellowBlue](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/yellowblue) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد تغييرًا في مقدار اللون الأزرق في الصورة. يجب أن تكون هذه القيمة في النطاق -100 إلى 100 ، مع التأثيرات على النحو التالي: -100 ≤ القيمة &lt;0 مع انخفاض القيمة ، يجب أن تنخفض كمية اللون الأزرق في الصورة و يجب أن تزيد كمية اللون الأصفر . 0 قيمة تشير القيمة 0 إلى أنه يجب عدم تغيير مقادير اللونين الأزرق والأصفر. 0 &lt;القيمة ≤ 100 مع زيادة القيمة ، يجب زيادة مقدار اللون الأزرق في الصورة ويجب أن تنخفض كمية اللون الأصفر . |
+| [CyanRed](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/cyanred/) { get; set; } | الحصول أو تعيين عدد صحيح موقع 32‑بت يحدد تغييرًا في كمية الأحمر في الصورة. يجب أن تكون هذه القيمة في النطاق من -100 إلى 100، مع التأثيرات التالية: -100 ≤ القيمة < 0 كلما انخفضت القيمة، يجب أن يقل مقدار الأحمر في الصورة ويجب أن يزيد مقدار السيان. 0 قيمة 0 تعني أن كميات الأحمر والسيان لا يجب أن تتغير. 0 < القيمة ≤ 100 كلما ارتفعت القيمة، يجب أن يزيد مقدار الأحمر في الصورة ويجب أن يقل مقدار السيان. |
+| [MagentaGreen](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/magentagreen/) { get; set; } | الحصول أو تعيين عدد صحيح موقع 32‑بت يحدد تغييرًا في كمية الأخضر في الصورة. يجب أن تكون هذه القيمة في النطاق من -100 إلى 100، مع التأثيرات التالية: -100 ≤ القيمة < 0 كلما انخفضت القيمة، يجب أن يقل مقدار الأخضر في الصورة ويجب أن يزيد مقدار الماجنتا. 0 قيمة 0 تعني أن كميات الأخضر والماجنتا لا يجب أن تتغير. 0 < القيمة ≤ 100 كلما ارتفعت القيمة، يجب أن يزيد مقدار الأخضر في الصورة ويجب أن يقل مقدار الماجنتا. |
+| [YellowBlue](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorbalanceeffect/yellowblue/) { get; set; } | الحصول أو تعيين عدد صحيح موقع 32‑بت يحدد تغييرًا في كمية الأزرق في الصورة. يجب أن تكون هذه القيمة في النطاق من -100 إلى 100، مع التأثيرات التالية: -100 ≤ القيمة < 0 كلما انخفضت القيمة، يجب أن يقل مقدار الأزرق في الصورة ويجب أن يزيد مقدار الأصفر. 0 قيمة 0 تعني أن كميات الأزرق والأصفر لا يجب أن تتغير. 0 < القيمة ≤ 100 كلما ارتفعت القيمة، يجب أن يزيد مقدار الأزرق في الصورة ويجب أن يقل مقدار الأصفر. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusImageEffectsObjectType](../emfplusimageeffectsobjecttype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects](../../aspose.imaging.fileformats.emf.emfplus.objects)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusImageEffectsObjectType](../emfplusimageeffectsobjecttype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Objects](../../aspose.imaging.fileformats.emf.emfplus.objects/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

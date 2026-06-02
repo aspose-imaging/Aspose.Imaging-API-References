@@ -1,47 +1,47 @@
 ---
-title: InterruptMonitor
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل معلومات حول الانقطاع .
+title: "فئة InterruptMonitor"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.Multithreading.InterruptMonitor. تمثل معلومات حول المقاطعة"
 type: docs
-weight: 10600
+weight: 11170
 url: /ar/net/aspose.imaging.multithreading/interruptmonitor/
 ---
 ## InterruptMonitor class
 
-يمثل معلومات حول الانقطاع .
+يمثل معلومات حول الانقطاع.
 
 ```csharp
 public class InterruptMonitor : IInterruptMonitor
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [InterruptMonitor](interruptmonitor)() | Default_Constructor |
+| [InterruptMonitor](interruptmonitor/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [IsInterrupted](../../aspose.imaging.multithreading/interruptmonitor/isinterrupted) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان يجب مقاطعة العمليات. |
-| static [ThreadLocalInstance](../../aspose.imaging.multithreading/interruptmonitor/threadlocalinstance) { get; set; } | الحصول على أو تعيين مثيل IInterruptMonitor الفريد لكل مؤشر ترابط. |
+| virtual [IsInterrupted](../../aspose.imaging.multithreading/interruptmonitor/isinterrupted/) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان يجب مقاطعة العمليات. |
+| static [ThreadLocalInstance](../../aspose.imaging.multithreading/interruptmonitor/threadlocalinstance/) { get; set; } | يحصل أو يعيّن نسخة IInterruptMonitor التي تكون فريدة لكل خيط. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Interrupt](../../aspose.imaging.multithreading/interruptmonitor/interrupt)() | يرسل طلبًا بمقاطعة العمليات. |
+| virtual [Interrupt](../../aspose.imaging.multithreading/interruptmonitor/interrupt/)() | يرسل طلبًا لمقاطعة العمليات. |
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية إجراء تحويل الصورة في سلسلة مخصصة ومقاطعة العملية في بضع ثوانٍ بعد البدء.
+المثال التالي يوضح كيفية إجراء تحويل الصورة في خيط مخصص ومقاطعة العملية بعد بضع ثوانٍ من بدءها.
 
 ```csharp
 [C#]
 
 /// <summary>
-/// هذه فئة مساعدة تبدأ تحويل الصورة وتنتظر مقاطعتها.
+/// هذه فئة مساعدة تقوم ببدء تحويل الصورة وتنتظر مقاطعتها.
 /// </summary>
 private class Worker
 {
@@ -51,7 +51,7 @@ private class Worker
     private readonly string inputPath;
 
     /// <summary>
-    /// المسار إلى الصورة الناتجة.
+    /// المسار إلى صورة الإخراج.
     /// </summary>
     private readonly string outputPath;
 
@@ -66,12 +66,12 @@ private class Worker
     private readonly Aspose.Imaging.Multithreading.InterruptMonitor monitor;
 
     /// <summary>
-    /// تهيئة نسخة جديدة من < see cref = "Worker" / > صف دراسي.
+    /// يهيئ نسخة جديدة من الفئة <see cref="Worker" />.
     /// </summary>
-    /// < param name = "inputPath" > المسار إلى صورة الإدخال. < / param >
-    /// < param name = "outputPath" >; المسار إلى صورة الإخراج. < / param >
-    /// < param name = "saveOptions" > خيارات الحفظ. < / param >
-    /// < param name = "monitor" > شاشة المقاطعة. < / param >
+    /// <param name="inputPath">المسار إلى صورة الإدخال.</param>
+    /// <param name="outputPath">المسار إلى صورة الإخراج.</param>
+    /// <param name="saveOptions">خيارات الحفظ.</param>
+    /// <param name="monitor">مراقب المقاطعة.</param>
     public Worker(string inputPath, string outputPath, Aspose.Imaging.ImageOptionsBase saveOptions, Aspose.Imaging.Multithreading.InterruptMonitor monitor)
     {
         this.inputPath = inputPath;
@@ -81,7 +81,7 @@ private class Worker
     }
 
     /// <summary>
-    /// يحول صورة من تنسيق إلى آخر. يعالج الانقطاع.
+    /// يحول صورة من تنسيق إلى آخر. يتعامل مع الانقطاع.
     /// </summary>
     public void ThreadProc()
     {
@@ -89,7 +89,7 @@ private class Worker
         {
             Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(this.inputPath);
             
-            // تعيين مثيل مؤشر ترابط محلي لرصد المقاطعة.
+            // تعيين كائن محلي للموضوع لمراقب الانقطاع.
             Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance = this.monitor;
 
             try
@@ -107,51 +107,51 @@ private class Worker
             {
                 image.Dispose();
 
-                // إعادة تعيين مثيل مؤشر الترابط المحلي لجهاز مراقبة المقاطعة.
+                // إعادة تعيين الكائن المحلي للموضوع لمراقب الانقطاع.
                 Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance = null;
             }
         }
         catch (System.Exception e)
         {
-            // طباعة معلومات مفصلة عن أي استثناء غير متوقع.
+            // طباعة معلومات مفصلة حول أي استثناء غير متوقع.
             System.Console.WriteLine(e);
         }
     }
 }
 
-// هنا هو المثال الرئيسي باستخدام فئة العمال.
+// إليك المثال الرئيسي باستخدام الفئة Worker.
 string baseDir = "c:\\temp\\";
 
 Aspose.Imaging.Multithreading.InterruptMonitor monitor = new Aspose.Imaging.Multithreading.InterruptMonitor();
 Worker worker = new Worker(baseDir + "big.png", baseDir + "big.bmp", new Aspose.Imaging.ImageOptions.BmpOptions(), monitor);
 
-// بدء العامل في موضوع مخصص.
+// ابدأ العامل في خيط مخصص.
 System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(worker.ThreadProc));
 thread.Start();
 
-// قم ببعض الأعمال المفيدة هنا
+// قم ببعض العمل المفيد هنا
 System.Threading.Thread.Sleep(2000);
 
-// طلب مقاطعة الخيط العامل
+// طلب لإيقاف خيط العامل
 monitor.Interrupt();
 System.Console.WriteLine("Interrupting the worker thread #{0} at {1}", thread.ManagedThreadId, System.DateTime.Now);
 
-// انتظر المقاطعة.
+// انتظر الانقطاع.
 thread.Join();
 
 System.Console.WriteLine("Done. Press ENTER to exit.");
 System.Console.ReadLine();
 
-// قد يبدو الإخراج كالتالي:
-// مقاطعة الخيط العامل # 14 في 8/6/2019 3:57:53 مساءً
-// تمت مقاطعة مؤشر ترابط العامل # 14 في 8/6/2019 3:58:09 مساءً
-// فعله. اضغط على ENTER للخروج.
+// قد يبدو الإخراج هكذا:
+// جاري إيقاف خيط العامل #14 في 8/6/2019 3:57:53 م
+// تم إيقاف خيط العامل #14 في 8/6/2019 3:58:09 م
+// تم. اضغط ENTER للخروج.
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IInterruptMonitor](../iinterruptmonitor)
-* مساحة الاسم [Aspose.Imaging.Multithreading](../../aspose.imaging.multithreading)
-* المجسم [Aspose.Imaging](../../)
+* interface [IInterruptMonitor](../iinterruptmonitor/)
+* namespace [Aspose.Imaging.Multithreading](../../aspose.imaging.multithreading/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -26,6 +26,7 @@ url: /python-net/aspose.imaging.imageloadoptions/svgloadoptions/
 | data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode/) | r/w | Gets or sets the data recovery mode. |
 | default_height | int | r/w | Gets or sets the default height.<br/>            Property DefaultHeight use with only case, when height not set in file. |
 | default_width | int | r/w | Gets or sets the default width.<br/>            Property DefaultWidth use with only case, when width not set in file. |
+| dispose_stream | bool | r/w | Gets or sets a value indicating whether to dispose the stream containing the image. |
 | use_icc_profile_conversion | bool | r/w | Gets or sets a value indicating whether ICC profile conversion should be applied. |
 
 

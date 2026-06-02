@@ -1,34 +1,34 @@
 ---
-title: RemoveFrame
-second_title: Aspose.Imaging لمرجع NET API
-description: يزيل الإطار بفهرسه.
+title: "TiffImage.RemoveFrame"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة TiffImage. احذف بسهولة الإطار المحدد بواسطة فهرسه من تسلسل الصور لتبسيط إدارة الإطارات داخل تطبيقك. دمج هذه الوظيفة لتعزيز الكفاءة والدقة في معالجة الإطارات مما يسهل تنظيم وعرض محتوى الصورة بسلاسة."
 type: docs
-weight: 310
+weight: 300
 url: /ar/net/aspose.imaging.fileformats.tiff/tiffimage/removeframe/
 ---
 ## RemoveFrame(int) {#removeframe}
 
-يزيل الإطار بفهرسه.
+قم بإزالة الإطار المحدد بواسطة فهرسه من تسلسل الصور بسهولة، مما يبسط إدارة الإطارات داخل تطبيقك. دمج هذه الوظيفة لتعزيز الكفاءة والدقة في معالجة الإطارات، وتسهيل تنظيم وعرض محتوى الصورة بسلاسة.
 
 ```csharp
 public TiffFrame RemoveFrame(int index)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | Int32 | فهرس الإطار المراد إزالته. |
+| فهرس | Int32 | فهرس الإطار الذي سيتم إزالته. |
 
 ### قيمة الإرجاع
 
-الإطار الذي تمت إزالته.
+الإطار المُزال.
 
-### ملاحظات
+## ملاحظات
 
-ملاحظة: لا تنس التخلص من الإطار إذا لم تقم بإضافته إلى بعض صور TiffImage الأخرى.
+ملاحظة: لا تنسَ تحرير (Dispose) الإطار إذا لم تقم بإضافته إلى TiffImage آخر.
 
-### أمثلة
+## أمثلة
 
-يوضح المثال التالي كيفية تكوين TIFF متعدد الأشكال من الصور النقطية الفردية.
+المثال التالي يوضح كيفية تجميع ملف TIFF متعدد الصفحات من صور نقطية فردية.
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-    // هذا هو الخط والفرشاة لرسم النص على إطارات فردية.
+    // هذا هو Font و Brush لرسم النص على الإطارات الفردية.
     Aspose.Imaging.Font font = new Aspose.Imaging.Font("Arial", 64);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.White);
 
@@ -50,7 +50,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
         Aspose.Imaging.ImageOptions.PngOptions createPngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
         createPngOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
 
-        // قم بإنشاء صورة PNG وارسم رقم الصفحة عليها.
+        // إنشاء صورة PNG ورسم رقم الصفحة عليها.
         Aspose.Imaging.FileFormats.Png.PngImage pngImage = (Aspose.Imaging.FileFormats.Png.PngImage)Image.Create(createPngOptions, 100, 100);
         Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(pngImage);
         gr.DrawString(i.ToString(), font, brush, 10, 10);
@@ -58,52 +58,52 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
         // إنشاء إطار بناءً على صورة PNG.
         Aspose.Imaging.FileFormats.Tiff.TiffFrame frame = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(pngImage);
 
-        // أضف الإطار إلى صورة TIFF.
+        // إضافة الإطار إلى صورة TIFF.
         tiffImage.AddFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعونا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     Aspose.Imaging.FileFormats.Tiff.TiffFrame activeFrame = tiffImage.ActiveFrame;
     tiffImage.ActiveFrame = tiffImage.Frames[1];
     tiffImage.RemoveFrame(0);
 
-    // لا تنس التخلص من الإطار إذا لم تقم بإضافته إلى بعض صور TiffImage الأخرى
+    // لا تنسَ تحرير الإطار إذا لم تقم بإضافته إلى TiffImage آخر
     activeFrame.Dispose();
 
     tiffImage.Save();
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [TiffFrame](../../tiffframe)
-* class [TiffImage](../../tiffimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff](../../tiffimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [TiffFrame](../../tiffframe/)
+* class [TiffImage](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffimage/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## RemoveFrame(TiffFrame) {#removeframe_1}
 
-يزيل الإطار المحدد.
+قم بإزالة الإطار المحدد من تسلسل الصور بفعالية، مما يسهل إدارة الإطارات داخل تطبيقك. دمج هذه الوظيفة لتعزيز الدقة والمرونة في معالجة الإطارات، وضمان تنظيم وعرض محتوى الصورة بسلاسة.
 
 ```csharp
 public void RemoveFrame(TiffFrame frame)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| frame | TiffFrame | الإطار المراد إزالته. |
+| إطار | TiffFrame | الإطار المراد إزالته. |
 
-### ملاحظات
+## ملاحظات
 
-ملاحظة: لا تنس التخلص من الإطار إذا لم تقم بإضافته إلى بعض صور TiffImage الأخرى.
+ملاحظة: لا تنسَ تحرير (Dispose) الإطار إذا لم تقم بإضافته إلى TiffImage آخر.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [TiffFrame](../../tiffframe)
-* class [TiffImage](../../tiffimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Tiff](../../tiffimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [TiffFrame](../../tiffframe/)
+* class [TiffImage](../)
+* namespace [Aspose.Imaging.FileFormats.Tiff](../../tiffimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,231 +1,231 @@
 ---
-title: IsOutlineVisible
-second_title: Aspose.Imaging لمرجع NET API
-description: يشير إلى ما إذا كانت النقطة المحددة متضمنة أسفل المخطط التفصيلي لهذاGraphicsPathaspose.imaging/graphicspath عند رسمها مع المحددPenaspose.imaging/pen .
+title: "GraphicsPath.IsOutlineVisible"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة GraphicsPath. تشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا GraphicsPath عند رسمه بالقلم المحدد."
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.imaging/graphicspath/isoutlinevisible/
 ---
 ## IsOutlineVisible(float, float, Pen) {#isoutlinevisible_6}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/).
 
 ```csharp
 public bool IsOutlineVisible(float x, float y, Pen pen)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Single | إحداثي x للنقطة المراد اختبارها. |
-| y | Single | إحداثي ص للنقطة المراد اختبارها. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
+| x | فردي | الإحداثي x للنقطة المراد اختبارها. |
+| y | فردي | الإحداثي y للنقطة المراد اختبارها. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../pen)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../pen/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(PointF, Pen) {#isoutlinevisible_2}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/).
 
 ```csharp
 public bool IsOutlineVisible(PointF point, Pen pen)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | PointF | أ[`PointF`](../../pointf) التي تحدد الموقع المراد اختباره. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
+| point | PointF | نقطة [`PointF`](../../pointf/) التي تحدد الموقع للاختبار. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../pointf)
-* class [Pen](../../pen)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../pointf/)
+* class [Pen](../../pen/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(float, float, Pen, Graphics) {#isoutlinevisible_7}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) واستخدام المحدد[`Graphics`](../../graphics) .
+يشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/) واستخدام الرسومات المحددة [`Graphics`](../../graphics/).
 
 ```csharp
 public bool IsOutlineVisible(float x, float y, Pen pen, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Single | إحداثي x للنقطة المراد اختبارها. |
-| y | Single | إحداثي ص للنقطة المراد اختبارها. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| x | فردي | الإحداثي x للنقطة المراد اختبارها. |
+| y | فردي | الإحداثي y للنقطة المراد اختبارها. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) كما هو مرسوم مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+تُعيد هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) كما تم رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../pen/)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(PointF, Pen, Graphics) {#isoutlinevisible_3}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) واستخدام المحدد[`Graphics`](../../graphics) .
+يشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/) واستخدام الرسومات المحددة [`Graphics`](../../graphics/).
 
 ```csharp
 public bool IsOutlineVisible(PointF pt, Pen pen, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pt | PointF | أ[`PointF`](../../pointf) التي تحدد الموقع المراد اختباره. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| pt | PointF | نقطة [`PointF`](../../pointf/) التي تحدد الموقع للاختبار. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) كما هو مرسوم مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+تُعيد هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) كما تم رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../pointf)
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../pointf/)
+* class [Pen](../../pen/)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(int, int, Pen) {#isoutlinevisible_4}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/).
 
 ```csharp
 public bool IsOutlineVisible(int x, int y, Pen pen)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Int32 | إحداثي x للنقطة المراد اختبارها. |
-| y | Int32 | إحداثي ص للنقطة المراد اختبارها. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
+| x | Int32 | الإحداثي x للنقطة المراد اختبارها. |
+| y | Int32 | الإحداثي y للنقطة المراد اختبارها. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../pen)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../pen/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(Point, Pen) {#isoutlinevisible}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) .
+تشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/).
 
 ```csharp
 public bool IsOutlineVisible(Point point, Pen pen)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | Point | أ[`Point`](../../point) التي تحدد الموقع المراد اختباره. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
+| point | Point | نقطة [`Point`](../../point/) التي تحدد الموقع للاختبار. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+ترجع هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../point)
-* class [Pen](../../pen)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../point/)
+* class [Pen](../../pen/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(int, int, Pen, Graphics) {#isoutlinevisible_5}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) واستخدام المحدد[`Graphics`](../../graphics) .
+يشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/) واستخدام الرسومات المحددة [`Graphics`](../../graphics/).
 
 ```csharp
 public bool IsOutlineVisible(int x, int y, Pen pen, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | Int32 | إحداثي x للنقطة المراد اختبارها. |
-| y | Int32 | إحداثي ص للنقطة المراد اختبارها. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| x | Int32 | الإحداثي x للنقطة المراد اختبارها. |
+| y | Int32 | الإحداثي y للنقطة المراد اختبارها. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) كما هو مرسوم مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+تُعيد هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل مخطط هذا [`GraphicsPath`](../) كما تم رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../pen/)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## IsOutlineVisible(Point, Pen, Graphics) {#isoutlinevisible_1}
 
-يشير إلى ما إذا كانت النقطة المحددة متضمنة (أسفل) المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) عند رسمها مع المحدد[`Pen`](../../pen) واستخدام المحدد[`Graphics`](../../graphics) .
+يشير إلى ما إذا كانت النقطة المحددة موجودة داخل (تحت) مخطط هذا [`GraphicsPath`](../) عند رسمه بالقلم المحدد [`Pen`](../../pen/) واستخدام الرسومات المحددة [`Graphics`](../../graphics/).
 
 ```csharp
 public bool IsOutlineVisible(Point pt, Pen pen, Graphics graphics)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pt | Point | أ[`Point`](../../point) التي تحدد الموقع المراد اختباره. |
-| pen | Pen | ال[`Pen`](../../pen) لاختبار. |
-| graphics | Graphics | ال[`Graphics`](../../graphics) من أجل اختبار الرؤية. |
+| pt | Point | نقطة [`Point`](../../point/) التي تحدد الموقع للاختبار. |
+| pen | Pen | `[`Pen`](../../pen/)` للاختبار. |
+| graphics | Graphics | الـ [`Graphics`](../../graphics/) لاختبار الرؤية. |
 
 ### قيمة الإرجاع
 
-هذه الطريقة ترجع صحيحًا إذا كانت النقطة المحددة مضمنة في المخطط التفصيلي لهذا[`GraphicsPath`](../../graphicspath) كما هو مرسوم مع المحدد[`Pen`](../../pen) ؛ وإلا ، خطأ .
+تُعيد هذه الطريقة true إذا كانت النقطة المحددة موجودة داخل مخطط هذا [`GraphicsPath`](../) كما تم رسمه بالقلم المحدد [`Pen`](../../pen/); وإلا، false.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../point)
-* class [Pen](../../pen)
-* class [Graphics](../../graphics)
-* class [GraphicsPath](../../graphicspath)
-* مساحة الاسم [Aspose.Imaging](../../graphicspath)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../point/)
+* class [Pen](../../pen/)
+* class [Graphics](../../graphics/)
+* class [GraphicsPath](../)
+* namespace [Aspose.Imaging](../../graphicspath/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

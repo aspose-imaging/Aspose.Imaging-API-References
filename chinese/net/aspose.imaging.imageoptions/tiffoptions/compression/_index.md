@@ -1,7 +1,7 @@
 ---
-title: Compression
-second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置压缩
+title: "TiffOptions.Compression"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "TiffOptions 属性。 获取或设置压缩方式"
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/compression/
@@ -14,13 +14,13 @@ url: /zh/net/aspose.imaging.imageoptions/tiffoptions/compression/
 public TiffCompressions Compression { get; set; }
 ```
 
-### 适当的价值
+### Property Value
 
 压缩。
 
-### 例子
+## 示例
 
-此示例说明如何从头开始创建 TIFF 图像并将其保存到文件中。
+此示例展示了如何从头创建 TIFF 图像并将其保存到文件。
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ Aspose.Imaging.ImageOptions.TiffOptions createOptions = new Aspose.Imaging.Image
 // 为每个颜色分量设置 8 位。
 createOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-// 设置大端字节序（摩托罗拉）
+// 设置大端字节序（Motorola）
 createOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
 // 设置 LZW 压缩。
@@ -41,15 +41,15 @@ createOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressio
 // 设置 RGB 颜色模型。
 createOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-// 所有颜色分量都将存储在一个平面内。
+// 所有颜色分量将存储在单个平面中。
 createOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
 // 创建一个 100x100 像素的 TIFF 帧。
-// 请注意，如果帧包含在 TiffImage 中，则不必显式处理它。
-// 当容器被释放时，所有的帧都会被自动释放。
+// 请注意，如果帧已包含在 TiffImage 中，则无需显式释放该帧。
+// 当容器被释放时，所有帧将自动被释放。
 Aspose.Imaging.FileFormats.Tiff.TiffFrame firstFrame = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions, 100, 100);
     
-// 用蓝黄色渐变填充整个帧。
+// 用蓝黄渐变填充整个帧。
 Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
         new Aspose.Imaging.Point(0, 0),
         new Aspose.Imaging.Point(firstFrame.Width, firstFrame.Height),
@@ -66,7 +66,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 }
 ```
 
-此示例说明如何使用各种选项将光栅图像保存为 TIFF 格式。
+此示例展示如何使用各种选项将光栅图像保存为 TIFF 格式。
 
 ```csharp
 [C#]
@@ -78,35 +78,35 @@ Aspose.Imaging.ImageOptions.TiffOptions saveOptions = new Aspose.Imaging.ImageOp
 // 为每个颜色分量设置 8 位。
 saveOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-// 设置大端字节序（摩托罗拉）
+// 设置大端字节序（Motorola）
 saveOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
 // 设置 LZW 压缩。
 saveOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
 // 允许减小连续色调图像的大小。
-// 目前该字段仅用于 LZW 编码，因为 LZW 可能是唯一的 TIFF 编码方案
-// 这显着受益于预测步骤。
+// 当前此字段仅在 LZW 编码下使用，因为 LZW 可能是唯一受益于预测步骤的 TIFF 编码方案
+// 显著受益于预测步骤。
 saveOptions.Predictor = Imaging.FileFormats.Tiff.Enums.TiffPredictor.Horizontal;
 
 // 设置 RGB 颜色模型。
 saveOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
 // 对于 YCbCr，您可以使用以下选项之一：
-// YCbCrSubSampling 字段 JPEG 采样因子
+// YCbCrSubSampling 字段   JPEG 采样因子
 // ----------------------------------------------
-// 1,1 1x1, 1x1, 1x1
-// 2,1 2x1, 1x1, 1x1
-// 2,2(默认值) 2x2, 1x1, 1x1
+// 1,1                      1x1, 1x1, 1x1
+// 2,1                      2x1, 1x1, 1x1
+// 2,2(default value)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
-// 所有颜色分量都将存储在单个平面内。
+// 所有颜色分量将存储在单个平面中。
 saveOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
 // 创建一个 100x100 像素的 TIFF 帧。
 using (Aspose.Imaging.Image image = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-    // 用蓝黄色渐变填充整个图像。
+    // 用蓝黄渐变填充整幅图像。
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
             new Aspose.Imaging.Point(image.Width, image.Height),
@@ -120,7 +120,7 @@ using (Aspose.Imaging.Image image = new Aspose.Imaging.FileFormats.Bmp.BmpImage(
 }
 ```
 
-此示例说明如何创建具有 2 帧的 TIFF 图像并将其保存到文件中。
+此示例展示了如何创建包含 2 帧的 TIFF 图像并将其保存到文件。
 
 ```csharp
 [C#]
@@ -133,7 +133,7 @@ Aspose.Imaging.ImageOptions.TiffOptions createOptions1 = new Aspose.Imaging.Imag
 // 为每个颜色分量设置 8 位。
 createOptions1.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-// 设置大端字节序（摩托罗拉）
+// 设置大端字节序（Motorola）
 createOptions1.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
 // 设置 LZW 压缩。
@@ -142,15 +142,15 @@ createOptions1.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressi
 // 设置 RGB 颜色模型。
 createOptions1.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-// 所有颜色分量都将存储在一个平面内。
+// 所有颜色分量将存储在单个平面中。
 createOptions1.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-// 创建第一个 100x100 像素的 TIFF 帧。
-// 请注意，如果帧包含在 TiffImage 中，则不必显式处理帧。
-// 当容器被释放时，所有的帧都会被自动释放。
+// 创建第一帧 100x100 像素的 TIFF。
+// 请注意，如果帧已包含在 TiffImage 中，则无需显式释放帧。
+// 当容器被释放时，所有帧将自动被释放。
 Aspose.Imaging.FileFormats.Tiff.TiffFrame frame1 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions1, 100, 100);
 
-// 用蓝黄色渐变填充第一帧。
+// 用蓝黄渐变填充第一帧。
 Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
         new Aspose.Imaging.Point(0, 0),
         new Aspose.Imaging.Point(frame1.Width, frame1.Height),
@@ -166,20 +166,20 @@ Aspose.Imaging.ImageOptions.TiffOptions createOptions2 = new Aspose.Imaging.Imag
 // 为黑白图像设置每像素 1 位。
 createOptions2.BitsPerSample = new ushort[] { 1 };
 
-// 设置 Little Endian 字节顺序（Intel）
+// 设置小端字节序（Intel）
 createOptions2.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.LittleEndian;
 
-// 设置 CCITT Group 3 Fax 压缩。
+// 设置 CCITT Group 3 传真压缩。
 createOptions2.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.CcittFax3;
 
-// 设置 B/W 颜色模型，其中 0 为黑色，1 为白色。
+// 设置黑白颜色模型，其中 0 为黑色，1 为白色。
 createOptions2.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
 
-// 创建第二个 200x200px 的 TIFF 帧。
+// 创建第二帧 200x200 像素的 TIFF。
 Aspose.Imaging.FileFormats.Tiff.TiffFrame frame2 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions2, 200, 200);
 
-// 用蓝黄色渐变填充第二帧。
-// 由于帧的相应设置，它会自动转换为黑白格式。
+// 用蓝黄渐变填充第二帧。
+// 由于帧的相应设置，它将自动转换为黑白格式。
 Aspose.Imaging.Graphics graphics2 = new Aspose.Imaging.Graphics(frame2);
 graphics2.FillRectangle(gradientBrush, frame2.Bounds);
 
@@ -191,11 +191,11 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* enum [TiffCompressions](../../../aspose.imaging.fileformats.tiff.enums/tiffcompressions)
-* class [TiffOptions](../../tiffoptions)
-* 命名空间 [Aspose.Imaging.ImageOptions](../../tiffoptions)
-* 部件 [Aspose.Imaging](../../../)
+* enum [TiffCompressions](../../../aspose.imaging.fileformats.tiff.enums/tiffcompressions/)
+* class [TiffOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../tiffoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

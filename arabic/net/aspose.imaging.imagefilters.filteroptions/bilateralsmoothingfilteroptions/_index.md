@@ -1,39 +1,39 @@
 ---
-title: BilateralSmoothingFilterOptions
-second_title: Aspose.Imaging لمرجع NET API
-description: خيارات مرشح التنعيم الثنائي .
+title: "الفئة BilateralSmoothingFilterOptions"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "فئة Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions. خيارات مرشح التنعيم الثنائي"
 type: docs
-weight: 9730
+weight: 9970
 url: /ar/net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/
 ---
 ## BilateralSmoothingFilterOptions class
 
-خيارات مرشح التنعيم الثنائي .
+خيارات مرشح التنعيم الثنائي.
 
 ```csharp
 public class BilateralSmoothingFilterOptions : FilterOptionsBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`BilateralSmoothingFilterOptions`](../bilateralsmoothingfilteroptions) فئة . |
-| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions#constructor_1)(int) | يقوم بتهيئة مثيل جديد لملف[`BilateralSmoothingFilterOptions`](../bilateralsmoothingfilteroptions) فئة . |
+| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions/#constructor)() | يقوم بتهيئة نسخة جديدة من الفئة `BilateralSmoothingFilterOptions`. |
+| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions/#constructor_1)(int) | يقوم بتهيئة نسخة جديدة من الفئة `BilateralSmoothingFilterOptions`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ColorFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorfactor) { get; set; } | الحصول على عامل اللون أو تعيينه . |
-| [ColorPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower) { get; set; } | الحصول على قوة اللون أو تعيينها . |
-| [Size](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/size) { get; set; } | الحصول على حجم النواة أو تعيينه. |
-| [SpatialFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialfactor) { get; set; } | الحصول على أو تعيين العامل المكاني . |
-| [SpatialPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialpower) { get; set; } | الحصول على القوة المكانية أو تعيينها. |
+| [ColorFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorfactor/) { get; set; } | يحصل أو يعيّن معامل اللون. |
+| [ColorPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower/) { get; set; } | يحصل أو يعيّن قوة اللون. |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/size/) { get; set; } | يحصل أو يعيّن حجم النواة. |
+| [SpatialFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialfactor/) { get; set; } | يحصل أو يعيّن معامل الفضاء. |
+| [SpatialPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialpower/) { get; set; } | يحصل أو يضبط القدرة المكانية. |
 
-### أمثلة
+## أمثلة
 
-يطبق المثال التالي أنواعًا مختلفة من المرشحات على صورة نقطية.
+المثال التالي يطبق أنواعًا مختلفة من الفلاتر على صورة نقطية.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // قم بتطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // طبق مرشحًا متوسطًا بحجم مستطيل 5 على الصورة بالكامل.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
     rasterImage.Save(dir + "sample.MedianFilter.png");
 }
@@ -53,7 +53,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // قم بتطبيق مرشح تجانس ثنائي بحجم نواة 5 على الصورة بأكملها.
+    // طبق مرشح تنعيم ثنائي الاتجاه بحجم نواة 5 على الصورة بالكامل.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
     rasterImage.Save(dir + "sample.BilateralSmoothingFilter.png");
 }
@@ -62,7 +62,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // قم بتطبيق مرشح Gaussian blur بنصف قطر 5 وقيمة سيجما 4.0 على الصورة بأكملها.
+    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussianBlurFilter.png");
 }
@@ -71,7 +71,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // قم بتطبيق مرشح Gauss-Wiener بنصف قطر 5 وقيمة سلسة 4.0 للصورة بأكملها.
+    // طبق مرشح Gauss-Wiener بنصف قطر 5 وقيمة تنعيم 4.0 على الصورة بالكامل.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussWienerFilter.png");
 }
@@ -80,7 +80,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // قم بتطبيق مرشح wiener للحركة بطول 5 ، وقيمة سلسة 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // طبق مرشح حركة وينر بطول 5، قيمة تنعيم 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.Save(dir + "sample.MotionWienerFilter.png");
 }
@@ -89,16 +89,16 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // قم بتطبيق مرشح حاد بحجم نواة 5 وقيمة سيجما 4.0 على الصورة بأكملها.
+    // طبق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.SharpenFilter.png");
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [FilterOptionsBase](../filteroptionsbase)
-* مساحة الاسم [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
-* المجسم [Aspose.Imaging](../../)
+* class [FilterOptionsBase](../filteroptionsbase/)
+* namespace [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

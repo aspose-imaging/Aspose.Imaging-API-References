@@ -1,22 +1,30 @@
 ---
-title: BitDepth
-second_title: Aspose.Imaging لمرجع NET API
-description: عمق البت .
+title: "PngOptions.BitDepth"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "خاصية PngOptions. يحصل أو يضبط قيم عمق البت في النطاق 1 2 4 8 16."
 type: docs
 weight: 20
 url: /ar/net/aspose.imaging.imageoptions/pngoptions/bitdepth/
 ---
 ## PngOptions.BitDepth property
 
-عمق البت .
+يحصل أو يعيّن قيم عمق البت في النطاق 1، 2، 4، 8، 16.
+
+انتبه إلى الحدود التالية:
+
+يدعم IndexedColor عمق البت 1، 2، 4، 8.
+
+يدعم Grayscale و GrayscaleWithAlpha عمق البت 8.
+
+يدعم Truecolor، TruecolorWithAlpha عمق البت 8، 16.
 
 ```csharp
 public byte BitDepth { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال كيفية إنشاء صورة PNG بالخيارات المحددة ، وتعبئتها بألوان متدرجة خطية وحفظها في ملف.
+يوضح هذا المثال كيفية إنشاء صورة PNG مع الخيارات المحددة، تعبئتها بألوان تدرج خطي وحفظها إلى ملف.
 
 ```csharp
 [C#]
@@ -25,22 +33,22 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 
-// عدد البتات لكل قناة لون
+// عدد البتات لكل قناة لون.
 createOptions.BitDepth = 8;
 
-// كل بكسل عبارة عن ثلاثية (حمراء ، خضراء ، زرقاء) متبوعة بمكون ألفا.
+// كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها مكوّن ألفا.
 createOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 
-// الحد الأقصى لمستوى الضغط.
+// أقصى مستوى للضغط.
 createOptions.CompressionLevel = 9;
 
-// يسمح استخدام المرشحات بضغط الصور ذات الدرجة اللونية المستمرة بشكل أكثر فعالية.
+// استخدام الفلاتر يسمح بضغط الصور ذات النغمات المستمرة بشكل أكثر فعالية.
 createOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Sub;
 
-// استخدم التحميل التدريجي
+// استخدام التحميل التدريجي.
 createOptions.Progressive = true;
 
-// إنشاء صورة PNG مع معلمات مخصصة.
+// إنشاء صورة PNG بمعلمات مخصصة.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(createOptions, 100, 100))
 {
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
@@ -51,23 +59,23 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-    // املأ الصورة بتدرج شبه شفاف.
+    // تعبئة الصورة بتدرج شبه شفاف.
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
-    // حفظ في ملف.
+    // احفظ إلى ملف.
     pngImage.Save(dir + "output.explicitoptions.png");
 }
 ```
 
-يوضح المثال التالي كيفية حفظ صورة بتنسيق PNG باستخدام خيارات متنوعة.
+المثال التالي يوضح كيفية حفظ صورة بتنسيق PNG باستخدام خيارات مختلفة.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// أنشئ صورة PNG بحجم 100 × 100 بكسل.
-// يمكنك أيضًا تحميل صورة بأي تنسيق مدعوم من ملف أو دفق.
+// إنشاء صورة PNG بحجم 100×100 بكسل.
+// يمكنك أيضًا تحميل صورة بأي تنسيق مدعوم من ملف أو تدفق.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
@@ -78,39 +86,39 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-    // املأ الصورة بالتدرج اللوني الأزرق الشفاف.
+    // املأ الصورة بالتدرج الأزرق الشفاف.
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 
-    // التحميل التدريجي.
+    // تحميل تدريجي.
     saveOptions.Progressive = true;
 
-    // اضبط الدقة الأفقية والعمودية على 96 بكسل لكل بوصة.
+    // عيّن الدقة الأفقية والعمودية إلى 96 بكسل لكل بوصة.
     saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
-    // كل بكسل عبارة عن ثلاثية (حمراء ، خضراء ، زرقاء) متبوعة بألفا.
+    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها ألفا.
     saveOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 
-    // تعيين الحد الأقصى لمستوى الضغط.
+    // عيّن أعلى مستوى للضغط.
     saveOptions.CompressionLevel = 9;
 
-    // هذا هو أفضل ضغط ، لكنه أبطأ وقت تنفيذ.
-    // التصفية التكيفية تعني أن عملية الحفظ ستختار مرشحًا أكثر قابلية للتغير لكل صف بيانات.
+    // هذا هو أفضل ضغط، لكنه أبطأ زمن تنفيذ.
+    // الترشيح التكيفي يعني أن عملية الحفظ ستختار الفلتر الأنسب لكل صف بيانات.
     saveOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Adaptive;
 
     // عدد البتات لكل قناة.
     saveOptions.BitDepth = 8;
 
-    // حفظ في ملف.
+    // احفظ إلى ملف.
     pngImage.Save(dir + "output.png", saveOptions);
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PngOptions](../../pngoptions)
-* مساحة الاسم [Aspose.Imaging.ImageOptions](../../pngoptions)
-* المجسم [Aspose.Imaging](../../../)
+* class [PngOptions](../)
+* namespace [Aspose.Imaging.ImageOptions](../../pngoptions/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

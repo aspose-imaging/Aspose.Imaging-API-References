@@ -1,114 +1,114 @@
 ---
-title: Matrix
-second_title: Aspose.Imaging لمرجع NET API
-description: تهيئة مثيل جديد لفئة Matrix كمصفوفة الهوية.
+title: "Matrix.Matrix"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ Matrix. يهيئ نسخة جديدة من فئة Matrix كمصفوفة هوية"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging/matrix/matrix/
 ---
 ## Matrix() {#constructor}
 
-تهيئة مثيل جديد لفئة Matrix كمصفوفة الهوية.
+يُهيئ نسخة جديدة من فئة Matrix كمصفوفة هوية.
 
 ```csharp
 public Matrix()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Matrix](../../matrix)
-* مساحة الاسم [Aspose.Imaging](../../matrix)
-* المجسم [Aspose.Imaging](../../../)
+* class [Matrix](../)
+* namespace [Aspose.Imaging](../../matrix/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Matrix(float, float, float, float, float, float) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Matrix`](../../matrix) فئة .
+يهيئ نسخة جديدة من فئة [`Matrix`](../).
 
 ```csharp
 public Matrix(float m11, float m12, float m21, float m22, float m31, float m32)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| m11 | Single | مقياس M00 M11 X |
-| m12 | Single | m10 M12 القص Y |
-| m21 | Single | m01 M21 القص X |
-| m22 | Single | مقياس M11 M22 Y |
-| m31 | Single | m02 M31 ترجمة X |
-| m32 | Single | m12 M32 ترجمة Y |
+| m11 | فردي | m00 M11 قياس X |
+| m12 | فردي | m10 M12 قص Y |
+| m21 | فردي | m01 M21 قص X |
+| m22 | فردي | m11 M22 قياس Y |
+| m31 | فردي | m02 M31 ترجمة X |
+| m32 | فردي | m12 M32 ترجمة Y |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Matrix](../../matrix)
-* مساحة الاسم [Aspose.Imaging](../../matrix)
-* المجسم [Aspose.Imaging](../../../)
+* class [Matrix](../)
+* namespace [Aspose.Imaging](../../matrix/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Matrix(RectangleF, PointF[]) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Matrix`](../../matrix) فئة للتحويل الهندسي المحدد بواسطة المستطيل المحدد ومجموعة من النقاط.
+يُنشئ مثيلاً جديدًا من الفئة [`Matrix`](../) للتحويل الهندسي المحدد بواسطة المستطيل المحدد ومصفوفة النقاط.
 
 ```csharp
 public Matrix(RectangleF rect, PointF[] plgpts)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| rect | RectangleF | أ[`RectangleF`](../../rectanglef) الهيكل الذي يمثل المستطيل المراد تحويله. |
-| plgpts | PointF[] | مجموعة من ثلاثة[`PointF`](../../pointf) الهياكل التي تمثل نقاط متوازي الأضلاع التي سيتم تحويل الزوايا العلوية اليسرى واليمنى العلوية والسفلية اليسرى للمستطيل إليها. الزاوية اليمنى السفلية من متوازي الأضلاع متضمنة في الزوايا الثلاث الأولى. |
+| rect | RectangleF | هيكل [`RectangleF`](../../rectanglef/) يمثل المستطيل الذي سيتم تحويله. |
+| plgpts | PointF[] | مصفوفة من ثلاثة هياكل [`PointF`](../../pointf/) تمثل نقاط متوازي أضلاع التي سيتم تحويل الزوايا العلوية اليسرى والعليا اليمنى والسفلية اليسرى للمستطيل إليها. الزاوية السفلية اليمنى لمتوازي الأضلاع مفترضة بناءً على الزوايا الثلاث الأولى. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [RectangleF](../../rectanglef)
-* struct [PointF](../../pointf)
-* class [Matrix](../../matrix)
-* مساحة الاسم [Aspose.Imaging](../../matrix)
-* المجسم [Aspose.Imaging](../../../)
+* struct [RectangleF](../../rectanglef/)
+* struct [PointF](../../pointf/)
+* class [Matrix](../)
+* namespace [Aspose.Imaging](../../matrix/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Matrix(Rectangle, Point[]) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Matrix`](../../matrix) فئة للتحويل الهندسي المحدد بواسطة المستطيل المحدد ومجموعة من النقاط.
+يُنشئ مثيلاً جديدًا من الفئة [`Matrix`](../) للتحويل الهندسي المحدد بواسطة المستطيل المحدد ومصفوفة النقاط.
 
 ```csharp
 public Matrix(Rectangle rect, Point[] plgpts)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| rect | Rectangle | أ[`Rectangle`](../../rectangle) الهيكل الذي يمثل المستطيل المراد تحويله. |
-| plgpts | Point[] | مجموعة من ثلاثة[`Point`](../../point) الهياكل التي تمثل نقاط متوازي الأضلاع التي سيتم تحويل الزوايا العلوية اليسرى واليمنى العلوية والسفلية اليسرى للمستطيل إليها. الزاوية اليمنى السفلية من متوازي الأضلاع متضمنة في الزوايا الثلاث الأولى. |
+| rect | Rectangle | هيكل [`Rectangle`](../../rectangle/) يمثل المستطيل الذي سيتم تحويله. |
+| plgpts | Point[] | مصفوفة من ثلاثة هياكل [`Point`](../../point/) تمثل نقاط متوازي أضلاع التي سيتم تحويل الزوايا العلوية اليسرى والعليا اليمنى والسفلية اليسرى للمستطيل إليها. الزاوية السفلية اليمنى لمتوازي الأضلاع مفترضة بناءً على الزوايا الثلاث الأولى. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Rectangle](../../rectangle)
-* struct [Point](../../point)
-* class [Matrix](../../matrix)
-* مساحة الاسم [Aspose.Imaging](../../matrix)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Rectangle](../../rectangle/)
+* struct [Point](../../point/)
+* class [Matrix](../)
+* namespace [Aspose.Imaging](../../matrix/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## Matrix(Matrix) {#constructor_1}
 
-عمل نسخة من ملف[`Matrix`](../../matrix) فئة .
+ينشئ نسخة من الفئة [`Matrix`](../).
 
 ```csharp
 public Matrix(Matrix origin)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| origin | Matrix | مصفوفة أساسية للتأقلم |
+| الأصل | مصفوفة | مصفوفة أساسية للنسخ |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Matrix](../../matrix)
-* مساحة الاسم [Aspose.Imaging](../../matrix)
-* المجسم [Aspose.Imaging](../../../)
+* class [Matrix](../)
+* namespace [Aspose.Imaging](../../matrix/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

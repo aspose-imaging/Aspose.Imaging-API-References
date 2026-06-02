@@ -1,51 +1,51 @@
 ---
-title: EmfSetDiBitsToDevice
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EMR_SETDIBITSTODEVICE نقل كتلة البكسل من خطوط المسح المحددة من صورة نقطية المصدر إلى مستطيل الوجهة.
+title: "الفئة EmfSetDiBitsToDevice"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "الفئة Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSetDiBitsToDevice. السجل EMR_SETDIBITSTODEVICE يحدد نقلًا كتليًا للبكسلات من خطوط المسح المحددة لصورة البت المصدر إلى مستطيل الوجهة"
 type: docs
-weight: 4330
+weight: 4450
 url: /ar/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
 ---
 ## EmfSetDiBitsToDevice class
 
-يحدد سجل EMR_SETDIBITSTODEVICE نقل كتلة البكسل من خطوط المسح المحددة من صورة نقطية المصدر إلى مستطيل الوجهة.
+سجل EMR_SETDIBITSTODEVICE يحدد نقل كتلة من البكسلات من خطوط المسح المحددة لصورة البت المصدر إلى المستطيل الوجهة.
 
 ```csharp
 public sealed class EmfSetDiBitsToDevice : EmfBitmapRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfSetDiBitsToDevice](emfsetdibitstodevice)(EmfRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfSetDiBitsToDevice`](../emfsetdibitstodevice) فئة . |
+| [EmfSetDiBitsToDevice](emfsetdibitstodevice/)(EmfRecord) | ينشئ مثيلًا جديدًا للفئة `EmfSetDiBitsToDevice`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/bounds) { get; set; } | الحصول على أو تعيين كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل المحيط للوجهة في وحدات الجهاز. |
-| [CScans](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cscans) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد خطوط المسح. |
-| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cxsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد العرض بالبكسل لمستطيل المصدر. |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد ارتفاع مستطيل المصدر بالبكسل |
-| [IStartScan](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/istartscan) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد خط المسح الأول في المصفوفة. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | الحصول على أو تحديد حجم السجل |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/sourcebitmap) { get; set; } | الحصول على أو تعيين مخزن مؤقت يحتوي على الصورة النقطية المصدر ، والتي لا يلزم أن تكون متجاورة مع الجزء الثابت من سجل EMR_SETDIBITSTODEVICE. وفقًا لذلك ، الحقول في هذا المخزن المؤقت والتي تسمى "UndefinedSpace" اختيارية ويجب تجاهلها. |
-| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | الحصول على النوع أو تحديده. |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/usagesrc) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس الصورة النقطية المصدر. يجب أن تكون هذه القيمة في تعداد ألوان DIBC (القسم 2.1.9). |
-| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/xdest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي x المنطقي للزاوية العلوية اليسرى من المستطيل الوجهة. |
-| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/xsrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي س بالبكسل للزاوية السفلية اليسرى من المستطيل المصدر. |
-| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ydest) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي y المنطقي للزاوية العلوية اليسرى من المستطيل الوجهة. |
-| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ysrc) { get; set; } | الحصول على أو تعيين عدد صحيح ذي إشارة 32 بت يحدد إحداثي ص بالبكسل للزاوية السفلية اليسرى من المستطيل المصدر. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/bounds/) { get; set; } | يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدودي للوجهة بوحدات الجهاز. |
+| [CScans](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cscans/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد خطوط المسح. |
+| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cxsrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد العرض بالبكسل للمستطيل المصدر. |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cysrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-بت يحدد الارتفاع بالبكسل للمستطيل المصدر |
+| [IStartScan](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/istartscan/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقّع 32-بت يحدد أول سطر مسح في المصفوفة. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size/) { get; set; } | يحصل أو يعيّن حجم السجل |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/sourcebitmap/) { get; set; } | يحصل أو يعيّن مخزنًا يحتوي على صورة البت المصدر، والتي لا يلزم أن تكون متصلة بالجزء الثابت من سجل EMR_SETDIBITSTODEVICE. وبالتالي، الحقول في هذا المخزن التي تم تسمية "UndefinedSpace" اختيارية ويجب أن تُهمل. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type/) { get; set; } | يحصل أو يعيّن النوع. |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/usagesrc/) { get; set; } | يحصل أو يضبط عدد صحيح غير موقع 32‑بت يحدد كيفية تفسير القيم في جدول الألوان في رأس البت ماب المصدر. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9). |
+| [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/xdest/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي السيني المنطقي للزاوية العليا اليسرى للمستطيل الوجهة. |
+| [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/xsrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-بت يحدد إحداثي x بالبكسل للزاوية السفلية اليسرى للمستطيل المصدر. |
+| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ydest/) { get; set; } | يحصل أو يضبط عدد صحيح موقع 32‑بت يحدد الإحداثي الصادي المنطقي للزاوية العليا اليسرى للمستطيل الوجهة. |
+| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ysrc/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-بت يحدد إحداثي y بالبكسل للزاوية السفلية اليسرى للمستطيل المصدر. |
 
-### ملاحظات
+## ملاحظات
 
-يدعم هذا السجل الصور المصدر بتنسيق JPEG و PNG. يحدد حقل الضغط في رأس الصورة النقطية المصدر تنسيق الصورة.
+يدعم هذا السجل الصور المصدرية بصيغة JPEG و PNG. حقل Compression في رأس صورة البت المصدر يحدد صيغة الصورة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfBitmapRecordType](../emfbitmaprecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfBitmapRecordType](../emfbitmaprecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../aspose.imaging.fileformats.emf.emf.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

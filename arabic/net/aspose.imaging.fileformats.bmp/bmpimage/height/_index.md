@@ -1,26 +1,26 @@
 ---
-title: Height
-second_title: Aspose.Imaging لمرجع NET API
-description: الحصول على ارتفاع الصورة .
+title: "BmpImage.Height"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "خاصية BmpImage. استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. مثالية للمطورين الذين يحتاجون إلى وصول سريع إلى معلومات أبعاد الصورة"
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.imaging.fileformats.bmp/bmpimage/height/
 ---
 ## BmpImage.Height property
 
-الحصول على ارتفاع الصورة .
+استرجع بسهولة ارتفاع الصورة باستخدام هذه الخاصية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى معلومات حول أبعاد الصورة
 
 ```csharp
 public override int Height { get; }
 ```
 
-### Property_Value
+### Property Value
 
 ارتفاع الصورة.
 
-### أمثلة
+## أمثلة
 
-يحصل المثال التالي على المعلومات العامة حول الصورة بما في ذلك تنسيق البكسل وحجم الصورة والدقة والضغط وما إلى ذلك.
+المثال التالي يحصل على المعلومات العامة حول الصورة بما في ذلك تنسيق البكسل، حجم الصورة، الدقة، الضغط، إلخ.
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
 
     if (hres != 96.0 || vres != 96.0)
     {
-        // قد تفكر في استخدام طريقة SetResolution لتحديث قيمتي الدقة في مكالمة واحدة.
+        // قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.Console.WriteLine("Set resolution values to 96 dpi");
         bmpImage.SetResolution(96.0, 96.0);
 
@@ -51,22 +51,22 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
     }
 
-    // قد يبدو الإخراج كالتالي:
-    // تنسيق البكسل: Rgb24Bpp ، القنوات المستخدمة: 8،8،8
-    // حجم الخط الخام بالبايت: 1500
-    // ضغط الصورة النقطية: Rgb
-    // عرض الصورة النقطية: 500
-    // ارتفاع الصورة النقطية: 375
-    // عدد البتات لكل بكسل: 24
-    // الدقة الأفقية ، بالبكسل في البوصة: 0
-    // الدقة الرأسية ، بالبكسل في البوصة: 0
-    // ضبط قيم الدقة على 96 نقطة في البوصة
-    // الدقة الأفقية بالبكسل في البوصة: 96.012
-    // الدقة الرأسية ، بالبكسل في البوصة: 96.012
+    //قد يبدو الإخراج هكذا:
+    //تنسيق البكسل: Rgb24Bpp، القنوات المستخدمة: 8,8,8
+    //حجم السطر الخام بالبايت: 1500
+    //ضغط الـ bitmap: Rgb
+    //عرض الـ bitmap: 500
+    //ارتفاع الـ bitmap: 375
+    //عدد البتات لكل بكسل: 24
+    //الدقة الأفقية، بوحدات البكسل لكل بوصة: 0
+    //الدقة العمودية، بوحدات البكسل لكل بوصة: 0
+    //تعيين قيم الدقة إلى 96 نقطة في البوصة
+    //الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.012
+    //الدقة العمودية، بوحدات البكسل لكل بوصة: 96.012
 }
 ```
 
-يوضح المثال التالي كيف يؤثر ضغط الصورة النقطية على حجم الصورة الناتجة.
+المثال التالي يوضح كيف يؤثر ضغط الـ bitmap على حجم الصورة الناتجة.
 
 ```csharp
 [C#]
@@ -83,21 +83,21 @@ Aspose.Imaging.Color[] paletterColors = new Aspose.Imaging.Color[]
     Aspose.Imaging.Color.Green,
 };
 
-// قم بإنشاء لوحة أحادية اللون تحتوي فقط على ألوان حمراء وخضراء.
+// أنشئ لوحة ألوان أحادية اللون تحتوي فقط على اللونين الأحمر والأخضر.
 Aspose.Imaging.IColorPalette palette = new Aspose.Imaging.ColorPalette(paletterColors);
 
 foreach (Aspose.Imaging.FileFormats.Bmp.BitmapCompression compression in compressions)
 {
-    // أنشئ صورة BMP 8-bpp بحجم 100 × 100 بكسل.
+    // أنشئ صورة BMP بدقة 8 بت لكل بكسل بحجم 100 × 100 بكسل.
     using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 8, palette, compression, 0.0, 0.0))
     {
         Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
 
-        // املأ الصورة بأكملها باللون الأحمر.
+        // املأ الصورة بالكامل باللون الأحمر.
         Aspose.Imaging.Brushes.SolidBrush redBrush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
         gr.FillRectangle(redBrush, bmpImage.Bounds);
 
-        // حفظ الصورة في دفق للحصول على حجم الصورة الناتجة.
+        // احفظ الصورة إلى تدفق للحصول على حجم الصورة الناتج.
         using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
         {
             bmpImage.Save(stream);
@@ -112,25 +112,25 @@ foreach (Aspose.Imaging.FileFormats.Bmp.BitmapCompression compression in compres
     }
 }
 
-// يبدو الإخراج كالتالي:
+// الإخراج يبدو هكذا:
 // ---------------------------------------------
-// الضغط = Rgb
+// ضغط الصورة = Rgb
 // عدد البتات لكل بكسل = 8
 // أبعاد الصورة = 100 × 100
-// حجم الخط الخام = 100
+// حجم السطر الخام = 100
 // حجم الإخراج بالبايت = 11078
 // ---------------------------------------------
-// الضغط = Rle8
+// ضغط الصورة = Rle8
 // عدد البتات لكل بكسل = 8
 // أبعاد الصورة = 100 × 100
-// حجم الخط الخام = 100
+// حجم السطر الخام = 100
 // حجم الإخراج بالبايت = 856
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BmpImage](../../bmpimage)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
-* المجسم [Aspose.Imaging](../../../)
+* class [BmpImage](../)
+* namespace [Aspose.Imaging.FileFormats.Bmp](../../bmpimage/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,51 +1,53 @@
 ---
-title: CmxGradient
-second_title: Aspose.Imaging لمرجع NET API
-description: يمثل معلومات التدرج .
+title: "الفئة CmxGradient"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles.CmxGradient class. يمثل معلومات التدرج"
 type: docs
-weight: 2240
+weight: 2290
 url: /ar/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 ---
 ## CmxGradient class
 
-يمثل معلومات التدرج .
+يمثل معلومات التدرج.
 
 ```csharp
 public class CmxGradient
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CmxGradient](cmxgradient)() | Default_Constructor |
+| [CmxGradient](cmxgradient/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/angle) { get; set; } | الحصول على الزاوية أو تحديدها . |
-| [CenterXOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centerxoffset) { get; set; } | الحصول على أو تعيين إزاحة المركز × . |
-| [CenterYOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centeryoffset) { get; set; } | الحصول على أو تعيين إزاحة المركز y . |
-| [Colors](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/colors) { get; set; } | الحصول على الألوان أو تعيينها . |
-| [EdgeOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/edgeoffset) { get; set; } | الحصول على أو تعيين إزاحة الحافة. |
-| [Mode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/mode) { get; set; } | الحصول على الوضع أو تحديده. |
-| [Offsets](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/offsets) { get; set; } | الحصول على التعويضات أو تعيينها. |
-| [RateMethod](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod) { get; set; } | الحصول على طريقة السعر أو تحديدها . |
-| [RateValue](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratevalue) { get; set; } | الحصول على قيمة السعر أو تحديدها. |
-| [Screen](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/screen) { get; set; } | الحصول على الشاشة أو ضبطها . |
-| [Steps](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/steps) { get; set; } | الحصول على الخطوات أو تعيينها. |
-| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/type) { get; set; } | الحصول على النوع أو تحديده. |
+| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/angle/) { get; set; } | يحصل أو يضبط الزاوية. |
+| [CenterXOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centerxoffset/) { get; set; } | يحصل أو يضبط إزاحة المركز X. |
+| [CenterYOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centeryoffset/) { get; set; } | يحصل أو يضبط إزاحة المركز Y. |
+| [Colors](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/colors/) { get; set; } | يحصل أو يضبط الألوان. |
+| [EdgeOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/edgeoffset/) { get; set; } | يحصل أو يضبط إزاحة الحافة. |
+| [Mode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/mode/) { get; set; } | يحصل أو يضبط الوضع. |
+| [Offsets](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/offsets/) { get; set; } | يحصل أو يضبط الإزاحات. |
+| [RateMethod](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod/) { get; set; } | يحصل أو يضبط طريقة المعدل. |
+| [RateValue](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratevalue/) { get; set; } | يحصل أو يضبط قيمة المعدل. |
+| [Screen](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/screen/) { get; set; } | يحصل أو يضبط الشاشة. |
+| [Steps](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/steps/) { get; set; } | يحصل أو يضبط الخطوات. |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/type/) { get; set; } | يحصل أو يعيّن النوع. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/tostring)() | إرجاع أString الذي يمثل هذا المثال. |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/equals/)(object) | تحقق مما إذا كانت الكائنات متساوية. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/gethashcode/)() | احصل على قيمة التجزئة للكائن الحالي. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/tostring/)() | يرجع سلسلة تمثل هذه الحالة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles](../../aspose.imaging.fileformats.cmx.objectmodel.styles)
-* المجسم [Aspose.Imaging](../../)
+* namespace [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles](../../aspose.imaging.fileformats.cmx.objectmodel.styles/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

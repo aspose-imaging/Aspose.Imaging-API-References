@@ -1,43 +1,43 @@
 ---
-title: EmfPlusDrawPie
-second_title: Aspose.Imaging لمرجع NET API
-description: يحدد سجل EmfPlusDrawPie رسم قسم من الجزء الداخلي من القطع الناقص.
+title: "الفئة EmfPlusDrawPie"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusDrawPie الفئة. السجل EmfPlusDrawPie يحدد رسم جزء من داخل إهليلج."
 type: docs
-weight: 6000
+weight: 6120
 url: /ar/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/
 ---
 ## EmfPlusDrawPie class
 
-يحدد سجل EmfPlusDrawPie رسم قسم من الجزء الداخلي من القطع الناقص.
+سجل EmfPlusDrawPie يحدد رسم جزء من داخل إهليلج.
 
 ```csharp
 public sealed class EmfPlusDrawPie : EmfPlusDrawingRecordType
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmfPlusDrawPie](emfplusdrawpie)(EmfPlusRecord) | يقوم بتهيئة مثيل جديد لملف[`EmfPlusDrawPie`](../emfplusdrawpie) فئة . |
+| [EmfPlusDrawPie](emfplusdrawpie/)(EmfPlusRecord) | يقوم بإنشاء نسخة جديدة من الفئة `EmfPlusDrawPie`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/compressed) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت PointData مضغوطة أم لا. إذا تم تعيينها ، تحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38) . إذا تم مسحها ، تحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39) . |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت والذي يجب أن يحدد عدد 32 بت المحاذي للعدد بايت من البيانات في حقل RecordData التالي. لا يتضمن هذا الرقم رأس السجل 12 بايت. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 16 بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وبنية السجل. |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/objectid) { get; set; } | الحصول على أو تحديد معرف الكائن . فهرس كائن EmfPlusPen (القسم 2.2.1.7) في EMF + Object Table لرسم الدائرة. يجب أن تكون القيمة من صفر إلى 63 ، شاملة . |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/rectdata) { get; set; } | الحصول على أو تعيين مستطيل datas إما كائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط للقطع الناقص الذي يحتوي على إسفين دائري. يحدد هذا المستطيل موضع الكعكة وحجمها وشكلها . يتم تحديد نوع الكائن في هذا الحقل بقيمة لحقل الإشارات. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | الحصول على أو تعيين عدد صحيح بدون إشارة 32 بت يحدد عدد محاذاة 32 بت من بايت في السجل بأكمله ، بما في ذلك رأس السجل 12 بايت والبيانات الخاصة بالسجل. |
-| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/startangle) { get; set; } | الحصول على أو تعيين زاوية البدء قيمة النقطة العائمة غير السالبة 32 بت التي تحدد الزاوية بين المحور x ونقطة البداية للإسفين الدائري. أي قيمة مقبولة ، ولكن يجب أن يتم تفسيرها بطريقة modulo 360 ، والنتيجة التي يتم استخدامها في النطاق 0.0 شاملة حتى 360.0 حصريًا . |
-| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/sweepangle) { get; set; } | الحصول على زاوية المسح أو تعيينها قيمة النقطة العائمة 32 بت التي تحدد مدى القوس الذي يحدد الوتد الدائري المراد رسمه ، كزاوية بالدرجات المقاسة من نقطة البداية المحددة بواسطة قيمة StartAngle. أي قيمة مقبولة ، ولكن يجب تثبيتها إلى -360.0 إلى 360.0 شاملة. تشير القيمة الموجبة إلى أن عملية المسح محددة في اتجاه عقارب الساعة ، وتشير القيمة السالبة إلى أن عملية المسح محددة في اتجاه عكس اتجاه عقارب الساعة. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | الحصول على عدد صحيح بدون إشارة 16 بت يحدد نوع السجل. |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/compressed/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطًا. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا تم الإلغاء، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39). |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يجب أن يحدد عدد البايتات المتراصة على 32‑بت في حقل RecordData التالي. هذا العدد لا يشمل رأس السجل الذي يبلغ 12 بايت. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحتوي على معلومات لبعض السجلات حول كيفية تنفيذ العملية وعلى بنية السجل. |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/objectid/) { get; set; } | يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم الفطيرة. يجب أن تكون القيمة بين 0 و 63 شاملًا. |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/rectdata/) { get; set; } | يحصل أو يعيّن بيانات المستطيل. إما كائن EmfPlusRect أو EmfPlusRectF يحدد الصندوق المحيط بالإهليلج الذي يحتوي على قطعة الفطيرة. هذا المستطيل يحدد موضع الفطيرة وحجمها وشكلها. نوع الكائن في هذا الحقل يُحدد بواسطة قيمة حقل Flags. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات المتراصة على 32‑بت في السجل بالكامل، بما في ذلك رأس السجل الذي يبلغ 12 بايت والبيانات الخاصة بالسجل. |
+| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/startangle/) { get; set; } | يحصل أو يعيّن زاوية البدء. عدد عائم 32 بت غير سالب يحدد الزاوية بين محور x والنقطة البداية لقطعة الفطيرة. أي قيمة مقبولة، لكن يجب تفسيرها modulo 360، بحيث تكون النتيجة في النطاق من 0.0 شامل إلى 360.0 حصري. |
+| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/sweepangle/) { get; set; } | يحصل أو يعيّن زاوية المسح. عدد عائم 32 بت يحدد مدى القوس الذي يحدد قطعة الفطيرة المراد رسمها، كزاوية بالدرجات مقاسة من النقطة البداية المحددة بقيمة StartAngle. أي قيمة مقبولة، لكن يجب تقييدها بين -360.0 إلى 360.0 شامل. القيمة الموجبة تشير إلى أن المسح يُعرف باتجاه عقارب الساعة، والقيمة السالبة تشير إلى أن المسح يُعرف باتجاه عكس عقارب الساعة. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | يحصل على عدد صحيح غير موقع 16‑بت يحدد نوع السجل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* مساحة الاسم [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* المجسم [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

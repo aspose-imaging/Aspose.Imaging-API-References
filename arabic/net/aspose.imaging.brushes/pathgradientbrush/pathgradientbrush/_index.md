@@ -1,116 +1,116 @@
 ---
-title: PathGradientBrush
-second_title: Aspose.Imaging لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفPathGradientBrushaspose.imaging.brushes/pathgradientbrush فئة بالنقاط المحددة.
+title: "PathGradientBrush.PathGradientBrush"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "منشئ PathGradientBrush. يهيئ نسخة جديدة من فئة PathGradientBrush بالنقاط المحددة"
 type: docs
 weight: 10
 url: /ar/net/aspose.imaging.brushes/pathgradientbrush/pathgradientbrush/
 ---
 ## PathGradientBrush(PointF[]) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`PathGradientBrush`](../../pathgradientbrush) فئة بالنقاط المحددة.
+يهيئ نسخة جديدة من الفئة [`PathGradientBrush`](../) بالنقاط المحددة.
 
 ```csharp
-public PathGradientBrush(PointF[] points)
+public PathGradientBrush(PointF[] pathPoints)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | PointF[] | مجموعة من[`PointF`](../../../aspose.imaging/pointf) الهياكل التي تمثل النقاط التي تشكل رؤوس المسار. |
+| pathPoints | PointF[] | مصفوفة من هياكل [`PointF`](../../../aspose.imaging/pointf/) تمثل النقاط التي تشكل رؤوس المسار. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../../aspose.imaging/pointf)
-* class [PathGradientBrush](../../pathgradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../pathgradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../../aspose.imaging/pointf/)
+* class [PathGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../pathgradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## PathGradientBrush(PointF[], WrapMode) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`PathGradientBrush`](../../pathgradientbrush) فئة بالنقاط المحددة ووضع الالتفاف.
+يهيئ نسخة جديدة من الفئة [`PathGradientBrush`](../) بالنقاط المحددة ووضع الالتفاف.
 
 ```csharp
-public PathGradientBrush(PointF[] points, WrapMode wrapMode)
+public PathGradientBrush(PointF[] pathPoints, WrapMode wrapMode)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | PointF[] | مجموعة من[`PointF`](../../../aspose.imaging/pointf) الهياكل التي تمثل النقاط التي تشكل رؤوس المسار. |
-| wrapMode | WrapMode | أ[`WrapMode`](../../../aspose.imaging/wrapmode) يحدد كيفية رسم التعبئة بهذا[`PathGradientBrush`](../../pathgradientbrush) مبلطة. |
+| pathPoints | PointF[] | مصفوفة من هياكل [`PointF`](../../../aspose.imaging/pointf/) تمثل النقاط التي تشكل رؤوس المسار. |
+| wrapMode | WrapMode | [`WrapMode`](../../../aspose.imaging/wrapmode/) يحدد كيفية تكرار التعبئات المرسومة باستخدام هذا [`PathGradientBrush`](../). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [PointF](../../../aspose.imaging/pointf)
-* enum [WrapMode](../../../aspose.imaging/wrapmode)
-* class [PathGradientBrush](../../pathgradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../pathgradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+* struct [PointF](../../../aspose.imaging/pointf/)
+* enum [WrapMode](../../../aspose.imaging/wrapmode/)
+* class [PathGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../pathgradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## PathGradientBrush(Point[]) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`PathGradientBrush`](../../pathgradientbrush) فئة بالنقاط المحددة.
+يهيئ نسخة جديدة من الفئة [`PathGradientBrush`](../) بالنقاط المحددة.
 
 ```csharp
-public PathGradientBrush(Point[] points)
+public PathGradientBrush(Point[] pathPoints)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | Point[] | مجموعة من[`Point`](../../../aspose.imaging/point) الهياكل التي تمثل النقاط التي تشكل رؤوس المسار. |
+| pathPoints | Point[] | مصفوفة من هياكل [`Point`](../../../aspose.imaging/point/) تمثل النقاط التي تشكل رؤوس المسار. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../../aspose.imaging/point)
-* class [PathGradientBrush](../../pathgradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../pathgradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../../aspose.imaging/point/)
+* class [PathGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../pathgradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## PathGradientBrush(Point[], WrapMode) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`PathGradientBrush`](../../pathgradientbrush) فئة بالنقاط المحددة ووضع الالتفاف.
+يهيئ نسخة جديدة من الفئة [`PathGradientBrush`](../) بالنقاط المحددة ووضع الالتفاف.
 
 ```csharp
-public PathGradientBrush(Point[] points, WrapMode wrapMode)
+public PathGradientBrush(Point[] pathPoints, WrapMode wrapMode)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | Point[] | مجموعة من[`Point`](../../../aspose.imaging/point) الهياكل التي تمثل النقاط التي تشكل رؤوس المسار. |
-| wrapMode | WrapMode | أ[`WrapMode`](../../../aspose.imaging/wrapmode) يحدد كيفية رسم التعبئة بهذا[`PathGradientBrush`](../../pathgradientbrush) مبلطة. |
+| pathPoints | Point[] | مصفوفة من هياكل [`Point`](../../../aspose.imaging/point/) تمثل النقاط التي تشكل رؤوس المسار. |
+| wrapMode | WrapMode | [`WrapMode`](../../../aspose.imaging/wrapmode/) يحدد كيفية تكرار التعبئات المرسومة باستخدام هذا [`PathGradientBrush`](../). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Point](../../../aspose.imaging/point)
-* enum [WrapMode](../../../aspose.imaging/wrapmode)
-* class [PathGradientBrush](../../pathgradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../pathgradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Point](../../../aspose.imaging/point/)
+* enum [WrapMode](../../../aspose.imaging/wrapmode/)
+* class [PathGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../pathgradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## PathGradientBrush(GraphicsPath) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`PathGradientBrush`](../../pathgradientbrush) فئة بالمسار المحدد.
+ينشئ مثيلاً جديدًا لفئة [`PathGradientBrush`](../) بالمسار المحدد.
 
 ```csharp
 public PathGradientBrush(GraphicsPath path)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | GraphicsPath | ال[`GraphicsPath`](../../../aspose.imaging/graphicspath) التي تحدد المنطقة التي تم ملؤها بهذا[`PathGradientBrush`](../../pathgradientbrush). |
+| path | GraphicsPath | [`GraphicsPath`](../../../aspose.imaging/graphicspath/) الذي يحدد المنطقة المملوءة بواسطة هذا [`PathGradientBrush`](../). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GraphicsPath](../../../aspose.imaging/graphicspath)
-* class [PathGradientBrush](../../pathgradientbrush)
-* مساحة الاسم [Aspose.Imaging.Brushes](../../pathgradientbrush)
-* المجسم [Aspose.Imaging](../../../)
+* class [GraphicsPath](../../../aspose.imaging/graphicspath/)
+* class [PathGradientBrush](../)
+* namespace [Aspose.Imaging.Brushes](../../pathgradientbrush/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

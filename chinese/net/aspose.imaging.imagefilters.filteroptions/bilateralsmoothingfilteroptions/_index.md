@@ -1,14 +1,14 @@
 ---
-title: BilateralSmoothingFilterOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: 双边平滑过滤器选项.
+title: "类 BilateralSmoothingFilterOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions 类。双边平滑过滤器选项"
 type: docs
-weight: 9730
+weight: 9970
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/
 ---
 ## BilateralSmoothingFilterOptions class
 
-双边平滑过滤器选项.
+双边平滑滤镜选项。
 
 ```csharp
 public class BilateralSmoothingFilterOptions : FilterOptionsBase
@@ -16,24 +16,24 @@ public class BilateralSmoothingFilterOptions : FilterOptionsBase
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions#constructor)() | 初始化[`BilateralSmoothingFilterOptions`](../bilateralsmoothingfilteroptions)类. |
-| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions#constructor_1)(int) | 初始化[`BilateralSmoothingFilterOptions`](../bilateralsmoothingfilteroptions)类. |
+| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions/#constructor)() | 初始化 `BilateralSmoothingFilterOptions` 类的新实例。 |
+| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions/#constructor_1)(int) | 初始化 `BilateralSmoothingFilterOptions` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ColorFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorfactor) { get; set; } | 获取或设置颜色因子。 |
-| [ColorPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower) { get; set; } | 获取或设置颜色强度。 |
-| [Size](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/size) { get; set; } | 获取或设置内核的大小。 |
-| [SpatialFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialfactor) { get; set; } | 获取或设置空间因子。 |
-| [SpatialPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialpower) { get; set; } | 获取或设置空间功率。 |
+| [ColorFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorfactor/) { get; set; } | 获取或设置颜色因子。 |
+| [ColorPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower/) { get; set; } | 获取或设置颜色强度。 |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/size/) { get; set; } | 获取或设置核的大小。 |
+| [SpatialFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialfactor/) { get; set; } | 获取或设置空间因子。 |
+| [SpatialPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialpower/) { get; set; } | 获取或设置空间功率。 |
 
-### 例子
+## 示例
 
-以下示例将各种类型的过滤器应用于光栅图像。
+以下示例对光栅图像应用各种类型的过滤器。
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用一个矩形大小为 5 的中值滤波器。
+    // 对整幅图像应用矩形大小为 5 的中值滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
     rasterImage.Save(dir + "sample.MedianFilter.png");
 }
@@ -53,7 +53,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用内核大小为 5 的双边平滑滤波器。
+    // 对整幅图像应用核大小为 5 的双边平滑滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
     rasterImage.Save(dir + "sample.BilateralSmoothingFilter.png");
 }
@@ -62,7 +62,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用半径为 5、sigma 值为 4.0 的高斯模糊滤镜。
+    // 对整幅图像应用半径为 5、σ 值为 4.0 的高斯模糊滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussianBlurFilter.png");
 }
@@ -71,7 +71,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
+    // 对整幅图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussWienerFilter.png");
 }
@@ -80,7 +80,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动维纳滤波器。
+    // 对整幅图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动 Wiener 滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.Save(dir + "sample.MotionWienerFilter.png");
 }
@@ -89,16 +89,16 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // 对整个图像应用内核大小为 5、sigma 值为 4.0 的锐化过滤器。
+    // 对整幅图像应用核大小为 5、σ 值为 4.0 的锐化滤波器。
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.SharpenFilter.png");
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [FilterOptionsBase](../filteroptionsbase)
-* 命名空间 [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
-* 部件 [Aspose.Imaging](../../)
+* class [FilterOptionsBase](../filteroptionsbase/)
+* namespace [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

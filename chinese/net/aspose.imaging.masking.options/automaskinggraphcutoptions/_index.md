@@ -1,14 +1,14 @@
 ---
-title: AutoMaskingGraphCutOptions
-second_title: Aspose.Imaging for .NET API 参考
-description: GraphCut 自动屏蔽选项
+title: "类 AutoMaskingGraphCutOptions"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.Masking.Options.AutoMaskingGraphCutOptions 类。GraphCut 自动掩模选项。"
 type: docs
-weight: 10460
+weight: 11010
 url: /zh/net/aspose.imaging.masking.options/automaskinggraphcutoptions/
 ---
 ## AutoMaskingGraphCutOptions class
 
-GraphCut 自动屏蔽选项。
+GraphCut 自动掩码选项。
 
 ```csharp
 public class AutoMaskingGraphCutOptions : GraphCutMaskingOptions
@@ -16,31 +16,31 @@ public class AutoMaskingGraphCutOptions : GraphCutMaskingOptions
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [AutoMaskingGraphCutOptions](automaskinggraphcutoptions)() | 默认构造函数。 |
+| [AutoMaskingGraphCutOptions](automaskinggraphcutoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Args](../../aspose.imaging.masking.options/maskingoptions/args) { get; set; } | 获取或设置分段算法的参数。 |
-| [AssumedObjects](../../aspose.imaging.masking.options/automaskinggraphcutoptions/assumedobjects) { get; set; } | 获取或设置假定的对象。 |
-| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor) { get; set; } | 获取或设置背景替换颜色。 |
-| [CalculateDefaultStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/calculatedefaultstrokes) { get; set; } | 获取或设置一个值，该值指示是否应计算默认笔画。 |
-| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose) { get; set; } | 获取或设置一个值，该值指示 是否不需要将每个Shape 从蒙版中分离为单独的对象，或者作为与背景分离的蒙版中的联合对象。 |
-| [DefaultBackgroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultbackgroundstrokes) { get; } | 获取默认背景笔画。 |
-| [DefaultForegroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultforegroundstrokes) { get; } | 获取预先计算好的默认前景笔画。 |
-| [DefaultObjectsRectangles](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultobjectsrectangles) { get; } | 获取默认对象矩形。 |
-| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | 获取或设置图像导出选项。 |
-| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius) { get; set; } | 获取或设置羽化半径。 |
-| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | 获取或设置遮蔽区域。 |
-| [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | 获取或设置分割方法。 |
-| [PrecalculationProgressEventHandler](../../aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler) { get; set; } | 获取或设置默认点预计算过程进度事件处理程序。 |
+| [Args](../../aspose.imaging.masking.options/maskingoptions/args/) { get; set; } | 获取或设置分割算法的参数。 |
+| [AssumedObjects](../../aspose.imaging.masking.options/automaskinggraphcutoptions/assumedobjects/) { get; set; } | 获取或设置假定对象。 |
+| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor/) { get; set; } | 获取或设置背景替换颜色。 |
+| [CalculateDefaultStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/calculatedefaultstrokes/) { get; set; } | 获取或设置一个值，指示是否应计算默认笔画。 |
+| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose/) { get; set; } | 获取或设置一个值，指示是否不需要将掩模中的每个 Shape 分离为单独的对象，或作为与背景分离的统一对象。 |
+| [DefaultBackgroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultbackgroundstrokes/) { get; } | 获取默认背景笔画。 |
+| [DefaultForegroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultforegroundstrokes/) { get; } | 获取预先计算的默认前景笔画。 |
+| [DefaultObjectsRectangles](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultobjectsrectangles/) { get; } | 获取默认对象矩形。 |
+| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions/) { get; set; } | 获取或设置图像导出选项。 |
+| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius/) { get; set; } | 获取或设置羽化半径。 |
+| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea/) { get; set; } | 获取或设置掩模区域。 |
+| [Method](../../aspose.imaging.masking.options/maskingoptions/method/) { get; set; } | 获取或设置分割方法。 |
+| [PrecalculationProgressEventHandler](../../aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler/) { get; set; } | 获取或设置默认点预计算过程进度事件处理程序。 |
 
-### 例子
+## 示例
 
-根据图像大小使用羽化保存图像遮罩结果。使用自动计算的默认笔画执行图像遮罩。 AutoMaskingGraphCutOptions 的 Args 属性可以省略，因为默认笔画放在最后。
+根据图像尺寸进行羽化后保存图像掩模结果。图像掩模使用自动计算的默认笔画执行。由于默认笔画最终会放置在其中，AutoMaskingGraphCutOptions 的 Args 属性可以省略。
 
 ```csharp
 [C#]
@@ -72,7 +72,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-根据图像大小使用羽化保存图像遮罩结果。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。
+根据图像尺寸进行羽化后保存图像掩模结果。图像掩模使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。
 
 ```csharp
 [C#]
@@ -109,7 +109,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-基于图像大小的羽化保存图像遮罩结果，并为新的遮罩迭代重新使用遮罩选项。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获得初始遮罩结果后，修改应用的背景/前景笔画并执行另一次遮罩迭代。
+根据图像尺寸进行羽化后保存图像掩模结果，并在新的掩模迭代中重复使用掩模选项。图像掩模使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获取初始掩模结果后，已应用的背景/前景笔画被修改，并进行另一次掩模迭代。
 
 ```csharp
 [C#]
@@ -141,8 +141,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-// 可以手动提供前景/背景笔触。
+// 此时可以分析已应用的前景/背景笔画，并基于此额外 
+// 前景/背景笔画可以手动提供。
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -153,13 +153,13 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    // 重新使用 AutoMaskingGraphCutOptions 不需要第二次执行默认笔画计算。
+    // 重新使用 AutoMaskingGraphCutOptions 时，无需第二次执行默认笔画计算。
     options.CalculateDefaultStrokes = false;
-    // 当 AutoMaskingArgs 的 Args 属性中的默认笔画和 ObjectsPoints 都提供时，点数组最终会合并。
-    // 第一个 ObjectsPoints 数组被认为是背景点数组，并且 
-    // 第二个 ObjectsPoints 数组被认为是前景点数组。
-    // 当 AutoMaskingArgs 的 Args 属性中的 DefaultObjectsRectangles 和 ObjectsRectangles 都提供时， 
-    // 仅使用 Args 中的数组。
+    // 当在 AutoMaskingArgs 的 Args 属性中同时提供 default strokes 和 ObjectsPoints 时，Point 数组最终会合并。
+    // 第一个 ObjectsPoints 数组被视为背景点数组，且 
+    // 第二个 ObjectsPoints 数组被视为前景点数组。
+    // 当在 AutoMaskingArgs 的 Args 属性中同时提供 DefaultObjectsRectangles 和 ObjectsRectangles 时，
+    // 仅使用来自 Args 的数组。
     options.Args = new AutoMaskingArgs()
                         {
                             ObjectsPoints = new Point[][]
@@ -181,7 +181,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-根据图像大小使用羽化保存图像遮罩结果，修改获得的默认笔画并将其用于新的遮罩迭代。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获得初始遮罩结果后，修改应用的背景/前景笔划，并使用新的 GraphCutMaskingOptions 实例执行另一次遮罩迭代。
+根据图像大小进行羽化后保存图像遮罩结果，修改获得的 default strokes 并将其用于新的遮罩迭代。图像遮罩使用自动计算的 default strokes 执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获取初始遮罩结果后，已应用的背景/前景 strokes 被修改，并使用新的 GraphCutMaskingOptions 实例执行另一次遮罩迭代。
 
 ```csharp
 [C#]
@@ -214,8 +214,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-// 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-// 可以手动提供前景/背景笔触。
+// 此时可以分析已应用的前景/背景笔画，并基于此额外 
+// 前景/背景笔画可以手动提供。
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -263,10 +263,10 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [GraphCutMaskingOptions](../graphcutmaskingoptions)
-* 命名空间 [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options)
-* 部件 [Aspose.Imaging](../../)
+* class [GraphCutMaskingOptions](../graphcutmaskingoptions/)
+* namespace [Aspose.Imaging.Masking.Options](../../aspose.imaging.masking.options/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

@@ -1,0 +1,625 @@
+---
+title: "ImageBitMask Klasse"
+type: docs
+weight: 50
+url: /de/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/
+---
+
+**Summary:** Describes a binary image mask.
+
+**Module:** [aspose.imaging.magicwand.imagemasks](/imaging/python-net/aspose.imaging.magicwand.imagemasks/)
+
+**Full Name:** aspose.imaging.magicwand.imagemasks.ImageBitMask
+
+**Inheritance:** IImageMask, ImageMask
+
+## **Constructors**
+| **Name** | **Beschreibung** |
+| :- | :- |
+| [ImageBitMask(image)](#ImageBitMask_image_1) | Initialisiert eine neue Instanz der [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) Klasse mit der Größe des angegebenen vorhandenen [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).<br/>            Das angegebene [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) wird als Quellbild gespeichert. |
+| [ImageBitMask(width, height)](#ImageBitMask_width_height_2) | Initialisiert eine neue Instanz der [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) Klasse mit der angegebenen Breite und Höhe. |
+## **Properties**
+| **Name** | **Type** | **Access** | **Beschreibung** |
+| :- | :- | :- | :- |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Ermittelt die Begrenzungen, in Pixeln, dieser Maske. |
+| height | int | r | Ermittelt die Höhe, in Pixeln, dieser Maske. |
+| selection_bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Ermittelt die Begrenzungen des ausgewählten Teils der Maske, in Pixeln. |
+| source | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | r | Ermittelt das Quellbild, das zur Erstellung dieser Maske verwendet wurde, falls vorhanden. |
+| width | int | r | Ermittelt die Breite, in Pixeln, dieser Maske. |
+## **Methods**
+| **Name** | **Beschreibung** |
+| :- | :- |
+| apply() | Wendet die aktuelle Maske auf die [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) Quelle an, falls vorhanden. |
+| [apply_to(image)](#apply_to_image_1) | Wendet die aktuelle Maske auf das angegebene [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) an. |
+| [clone()](#clone__2) | Erstellt ein neues Objekt, das eine Kopie der aktuellen Instanz ist. |
+| [crop(rectangle)](#crop_rectangle_3) | Beschneidet die Maske mit dem angegebenen Rechteck. |
+| [crop(size)](#crop_size_4) | Beschneidet die Maske mit der angegebenen Größe. |
+| [crop(width, height)](#crop_width_height_5) | Beschneidet die Maske mit der angegebenen Breite und Höhe. |
+| [exclusive_disjunction(image, settings)](#exclusive_disjunction_image_settings_6) | Ermittelt die exklusive Disjunktion der aktuellen Maske mit dem Ergebnis der Magic‑Wand‑Auswahl, die auf das bereitgestellte Bild angewendet wurde. |
+| [exclusive_disjunction(mask)](#exclusive_disjunction_mask_7) | Ermittelt die exklusive Disjunktion der aktuellen Maske mit dem bereitgestellten. |
+| [exclusive_disjunction(settings)](#exclusive_disjunction_settings_8) | Ermittelt die exklusive Disjunktion der aktuellen Maske mit dem Ergebnis der Magic‑Wand‑Auswahl, die auf die Quelle der Maske angewendet wurde. |
+| [get(x, y)](#get_x_y_9) | Liest die Position im Speicherarray des angegebenen Pixels. |
+| [get_byte_opacity(x, y)](#get_byte_opacity_x_y_10) | Ermittelt die Deckkraft des angegebenen Pixels mit Byte‑Präzision. |
+| [get_feathered(settings)](#get_feathered_settings_11) | Ermittelt die Graustufenmaske, bei der der Rand mit den angegebenen Einstellungen verwischt wird. |
+| [inflate(size)](#inflate_size_12) | Vergrößert diese Maske um den angegebenen Betrag. |
+| [intersect(image, settings)](#intersect_image_settings_13) | Ermittelt die Schnittmenge der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf das bereitgestellte Bild angewendet wurde. |
+| [intersect(mask)](#intersect_mask_14) | Ermittelt die Schnittmenge der aktuellen Maske mit dem bereitgestellten. |
+| [intersect(settings)](#intersect_settings_15) | Ermittelt die Schnittmenge der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf die Quelle der Maske angewendet wurde. |
+| [invert()](#invert__16) | Ermittelt die Invertierung der aktuellen Maske. |
+| [is_opaque(x, y)](#is_opaque_x_y_17) | Überprüft, ob der angegebene Pixel undurchsichtig ist. |
+| [is_transparent(x, y)](#is_transparent_x_y_18) | Überprüft, ob der angegebene Pixel transparent ist. |
+| [set_mask_pixel(x, y, value)](#set_mask_pixel_x_y_value_19) | Setzt die Deckkraft für den angegebenen Pixel. |
+| [subtract(image, settings)](#subtract_image_settings_20) | Ermittelt das Ergebnis der Zauberstab-Auswahl, die auf das bereitgestellte Bild angewendet wurde, subtrahiert von der aktuellen Maske. |
+| [subtract(mask)](#subtract_mask_21) | Ermittelt die Subtraktion der bereitgestellten Maske von der aktuellen. |
+| [subtract(settings)](#subtract_settings_22) | Ermittelt das Ergebnis der Zauberstab-Auswahl, die auf die Quelle der aktuellen Maske angewendet wurde, subtrahiert von der Maske. |
+| [union(image, settings)](#union_image_settings_23) | Ermittelt die Vereinigung der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf das bereitgestellte Bild angewendet wurde. |
+| [union(mask)](#union_mask_24) | Ermittelt die Vereinigung der aktuellen Maske mit dem Bereitgestellten. |
+| [union(settings)](#union_settings_25) | Ermittelt die Vereinigung der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf die Quelle der Maske angewendet wurde. |
+
+
+### Constructor: ImageBitMask(image) {#ImageBitMask_image_1}
+
+
+```
+ ImageBitMask(image) 
+```
+
+Initialisiert eine neue Instanz der [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) Klasse mit der Größe des angegebenen vorhandenen [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).<br/>            Das angegebene [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) wird als Quellbild gespeichert.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Quellbild. |
+
+### Constructor: ImageBitMask(width, height) {#ImageBitMask_width_height_2}
+
+
+```
+ ImageBitMask(width, height) 
+```
+
+Initialisiert eine neue Instanz der [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) Klasse mit der angegebenen Breite und Höhe.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| width | int | Breite der Maske. |
+| height | int | Höhe der Maske. |
+
+### Method: apply_to(image) {#apply_to_image_1}
+
+
+```
+ apply_to(image) 
+```
+
+Wendet die aktuelle Maske auf das angegebene [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) an.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Bild, auf das die Maske angewendet wird. |
+
+### Method: clone() {#clone__2}
+
+
+```
+ clone() 
+```
+
+Erstellt ein neues Objekt, das eine Kopie der aktuellen Instanz ist.
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| System.Object | Ein neues Objekt, das eine Kopie dieser Instanz ist. |
+
+
+### Method: crop(rectangle) {#crop_rectangle_3}
+
+
+```
+ crop(rectangle) 
+```
+
+Beschneidet die Maske mit dem angegebenen Rechteck.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | Das angegebene Rechteck. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Eine beschnittene [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) als [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/). |
+
+
+### Method: crop(size) {#crop_size_4}
+
+
+```
+ crop(size) 
+```
+
+Beschneidet die Maske mit der angegebenen Größe.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| size | [Size](/imaging/python-net/aspose.imaging/size/) | Die angegebene Größe. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Eine ImageMask. |
+
+
+### Method: crop(width, height) {#crop_width_height_5}
+
+
+```
+ crop(width, height) 
+```
+
+Beschneidet die Maske mit der angegebenen Breite und Höhe.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| width | int | Die angegebene Breite. |
+| height | int | Die angegebene Höhe. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Eine ImageMask. |
+
+
+### Method: exclusive_disjunction(image, settings) {#exclusive_disjunction_image_settings_6}
+
+
+```
+ exclusive_disjunction(image, settings) 
+```
+
+Ermittelt die exklusive Disjunktion der aktuellen Maske mit dem Ergebnis der Magic‑Wand‑Auswahl, die auf das bereitgestellte Bild angewendet wurde.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Bild für den Zauberstab. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: exclusive_disjunction(mask) {#exclusive_disjunction_mask_7}
+
+
+```
+ exclusive_disjunction(mask) 
+```
+
+Ermittelt die exklusive Disjunktion der aktuellen Maske mit dem bereitgestellten.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Bereitgestellte Maske |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: exclusive_disjunction(settings) {#exclusive_disjunction_settings_8}
+
+
+```
+ exclusive_disjunction(settings) 
+```
+
+Ermittelt die exklusive Disjunktion der aktuellen Maske mit dem Ergebnis der Magic‑Wand‑Auswahl, die auf die Quelle der Maske angewendet wurde.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: get(x, y) {#get_x_y_9}
+
+
+```
+ get(x, y) 
+```
+
+Liest die Position im Speicherarray des angegebenen Pixels.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x | int | Die x‑Koordinate des Pixels. |
+| y | int | Die y‑Koordinate des Pixels. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| bool | Int-Wert, der die Position im Speicher darstellt. |
+
+
+### Method: get_byte_opacity(x, y) {#get_byte_opacity_x_y_10}
+
+
+```
+ get_byte_opacity(x, y) 
+```
+
+Ermittelt die Deckkraft des angegebenen Pixels mit Byte‑Präzision.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x | int | Die x‑Koordinate des Pixels. |
+| y | int | Die y‑Koordinate des Pixels. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| System.Byte | Byte‑Wert, der die Deckkraft des angegebenen Pixels darstellt. |
+
+
+### Method: get_feathered(settings) {#get_feathered_settings_11}
+
+
+```
+ get_feathered(settings) 
+```
+
+Ermittelt die Graustufenmaske, bei der der Rand mit den angegebenen Einstellungen verwischt wird.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| settings | [FeatheringSettings](/imaging/python-net/aspose.imaging.magicwand.imagemasks/featheringsettings/) | Weichzeichnungseinstellungen. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) | [ImageGrayscaleMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagegrayscalemask/) mit weichgezeichnetem Rand. |
+
+
+### Method: inflate(size) {#inflate_size_12}
+
+
+```
+ inflate(size) 
+```
+
+Vergrößert diese Maske um den angegebenen Betrag.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| size | int | Der Betrag, um den diese Maske aufgebläht wird. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Eine aufgeblähte [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) als [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/). |
+
+
+### Method: intersect(image, settings) {#intersect_image_settings_13}
+
+
+```
+ intersect(image, settings) 
+```
+
+Ermittelt die Schnittmenge der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf das bereitgestellte Bild angewendet wurde.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Bild für den Zauberstab. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: intersect(mask) {#intersect_mask_14}
+
+
+```
+ intersect(mask) 
+```
+
+Ermittelt die Schnittmenge der aktuellen Maske mit dem bereitgestellten.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Bereitgestellte Maske |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: intersect(settings) {#intersect_settings_15}
+
+
+```
+ intersect(settings) 
+```
+
+Ermittelt die Schnittmenge der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf die Quelle der Maske angewendet wurde.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: invert() {#invert__16}
+
+
+```
+ invert() 
+```
+
+Ermittelt die Invertierung der aktuellen Maske.
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: is_opaque(x, y) {#is_opaque_x_y_17}
+
+
+```
+ is_opaque(x, y) 
+```
+
+Überprüft, ob der angegebene Pixel undurchsichtig ist.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x | int | Die x‑Koordinate des Pixels. |
+| y | int | Die y‑Koordinate des Pixels. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| bool | true, wenn der angegebene Pixel undurchsichtig ist; andernfalls false. |
+
+
+### Method: is_transparent(x, y) {#is_transparent_x_y_18}
+
+
+```
+ is_transparent(x, y) 
+```
+
+Überprüft, ob der angegebene Pixel transparent ist.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x | int | Die x‑Koordinate des Pixels. |
+| y | int | Die y‑Koordinate des Pixels. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| bool | true, wenn der angegebene Pixel transparent ist; andernfalls false. |
+
+
+### Method: set_mask_pixel(x, y, value) {#set_mask_pixel_x_y_value_19}
+
+
+```
+ set_mask_pixel(x, y, value) 
+```
+
+Setzt die Deckkraft für den angegebenen Pixel.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x | int | Die x‑Koordinate des Pixels. |
+| y | int | Die y‑Koordinate des Pixels. |
+| Wert | bool | true, wenn der angegebene Pixel undurchsichtig ist; andernfalls false. |
+
+### Method: subtract(image, settings) {#subtract_image_settings_20}
+
+
+```
+ subtract(image, settings) 
+```
+
+Ermittelt das Ergebnis der Zauberstab-Auswahl, die auf das bereitgestellte Bild angewendet wurde, subtrahiert von der aktuellen Maske.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Bild für den Zauberstab. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: subtract(mask) {#subtract_mask_21}
+
+
+```
+ subtract(mask) 
+```
+
+Ermittelt die Subtraktion der bereitgestellten Maske von der aktuellen.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Bereitgestellte Maske |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: subtract(settings) {#subtract_settings_22}
+
+
+```
+ subtract(settings) 
+```
+
+Ermittelt das Ergebnis der Zauberstab-Auswahl, die auf die Quelle der aktuellen Maske angewendet wurde, subtrahiert von der Maske.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: union(image, settings) {#union_image_settings_23}
+
+
+```
+ union(image, settings) 
+```
+
+Ermittelt die Vereinigung der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf das bereitgestellte Bild angewendet wurde.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| image | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | Bild für den Zauberstab. |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: union(mask) {#union_mask_24}
+
+
+```
+ union(mask) 
+```
+
+Ermittelt die Vereinigung der aktuellen Maske mit dem Bereitgestellten.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| mask | [ImageMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagemask/) | Bereitgestellte Maske |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+
+### Method: union(settings) {#union_settings_25}
+
+
+```
+ union(settings) 
+```
+
+Ermittelt die Vereinigung der aktuellen Maske mit dem Ergebnis der Zauberstab-Auswahl, die auf die Quelle der Maske angewendet wurde.
+
+**Parameters:**
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| settings | [MagicWandSettings](/imaging/python-net/aspose.imaging.magicwand/magicwandsettings/) | Einstellungen für den Zauberstab. |
+
+**Returns**
+
+| Typ | Beschreibung |
+| :- | :- |
+| [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/) | Neu [ImageBitMask](/imaging/python-net/aspose.imaging.magicwand.imagemasks/imagebitmask/). |
+
+

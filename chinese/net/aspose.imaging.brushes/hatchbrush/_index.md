@@ -1,14 +1,14 @@
 ---
-title: HatchBrush
-second_title: Aspose.Imaging for .NET API 参考
-description: 定义具有阴影样式前景色和背景色的矩形画笔这个类不能被继承
+title: "类 HatchBrush"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.Brushes.HatchBrush 类。定义具有填充样式、前景色和背景色的矩形画刷。此类不可被继承。"
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.brushes/hatchbrush/
 ---
 ## HatchBrush class
 
-定义具有阴影样式、前景色和背景色的矩形画笔。这个类不能被继承。
+定义具有交叉线样式、前景色和背景色的矩形画笔。此类不可被继承。
 
 ```csharp
 public sealed class HatchBrush : Brush
@@ -16,64 +16,66 @@ public sealed class HatchBrush : Brush
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [HatchBrush](hatchbrush)() | 默认构造函数。 |
+| [HatchBrush](hatchbrush/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../aspose.imaging.brushes/hatchbrush/backgroundcolor) { get; set; } | 获取或设置阴影线之间的空间颜色。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
-| [ForegroundColor](../../aspose.imaging.brushes/hatchbrush/foregroundcolor) { get; set; } | 获取或设置影线的颜色。 |
-| [HatchStyle](../../aspose.imaging.brushes/hatchbrush/hatchstyle) { get; set; } | 获取或设置此画笔的阴影样式。 |
-| [Opacity](../../aspose.imaging/brush/opacity) { get; set; } | 获取或设置画笔不透明度。该值应介于 0 和 1 之间。值 0 表示画笔完全可见，值 1 表示画笔完全不透明。 |
+| [BackgroundColor](../../aspose.imaging.brushes/hatchbrush/backgroundcolor/) { get; set; } | 获取或设置填充线之间空隙的颜色。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | 获取一个值，指示此实例是否已释放。 |
+| [ForegroundColor](../../aspose.imaging.brushes/hatchbrush/foregroundcolor/) { get; set; } | 获取或设置填充线的颜色。 |
+| [HatchStyle](../../aspose.imaging.brushes/hatchbrush/hatchstyle/) { get; set; } | 获取或设置此画刷的填充样式。 |
+| [Opacity](../../aspose.imaging/brush/opacity/) { get; set; } | 获取或设置画笔的不透明度。该值应在 0 到 1 之间。0 表示画笔完全透明，1 表示画笔完全不透明。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | 创建当前的新深层克隆[`Brush`](../../aspose.imaging/brush) . |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
+| virtual [DeepClone](../../aspose.imaging/brush/deepclone/)() | 创建当前 [`Brush`](../../aspose.imaging/brush/) 的深度克隆副本。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose/)() | 释放当前实例。 |
+| override [Equals](../../aspose.imaging/brush/equals/)(object) | 检查对象是否相等。 |
+| override [GetHashCode](../../aspose.imaging/brush/gethashcode/)() | 获取当前对象的哈希码。 |
 
-### 例子
+## 示例
 
-这个例子展示了 Pen 对象的创建和使用。该示例创建一个新图像并在图像表面上绘制矩形。
+此示例展示了 Pen 对象的创建和使用。示例创建了一个新的 Image 并在图像表面绘制矩形。
 
 ```csharp
 [C#]
 
-//创建一个BmpOptions的实例并设置它的各种属性
+//创建 BmpOptions 的实例并设置其各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
-//第二个布尔参数确定要创建的文件是否为IsTemporal
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-//在指定路径创建一个Image实例
+//在指定路径创建 Image 的实例
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    //创建一个Graphics实例并用Image对象初始化
+    //创建 Graphics 的实例并使用 Image 对象进行初始化
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    //用白色清除图形表面
+    //使用白色清除 Graphics 表面
     graphics.Clear(Aspose.Imaging.Color.White);
 
-    //创建一个Pen实例，颜色为红色，宽度为5
+    //创建颜色为 Red、宽度为 5 的 Pen 实例
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-    //创建一个HatchBrush实例并设置它的属性
+    //创建 HatchBrush 的实例并设置其属性
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-    //创建一个Pen实例
-    //用 HatchBrush 对象和宽度初始化它
+    //创建 Pen 的实例
+    //使用 HatchBrush 对象和宽度进行初始化
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    //通过指定Pen对象绘制矩形
+    //通过指定 Pen 对象绘制矩形
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -81,7 +83,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    //通过指定Pen对象绘制矩形
+    //通过指定 Pen 对象绘制矩形
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
@@ -93,10 +95,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### 也可以看看
+### 另请参见
 
-* class [Brush](../../aspose.imaging/brush)
-* 命名空间 [Aspose.Imaging.Brushes](../../aspose.imaging.brushes)
-* 部件 [Aspose.Imaging](../../)
+* class [Brush](../../aspose.imaging/brush/)
+* namespace [Aspose.Imaging.Brushes](../../aspose.imaging.brushes/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

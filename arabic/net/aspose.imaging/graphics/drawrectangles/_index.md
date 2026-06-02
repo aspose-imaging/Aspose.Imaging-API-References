@@ -1,96 +1,96 @@
 ---
-title: DrawRectangles
-second_title: Aspose.Imaging لمرجع NET API
-description: يرسم سلسلة من المستطيلات المحددة بواسطةRectangleFaspose.imaging/rectanglef الهياكل .
+title: "Graphics.DrawRectangles"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Graphics. ترسم سلسلة من المستطيلات المحددة بواسطة بنى RectangleF."
 type: docs
-weight: 310
+weight: 320
 url: /ar/net/aspose.imaging/graphics/drawrectangles/
 ---
 ## DrawRectangles(Pen, RectangleF[]) {#drawrectangles}
 
-يرسم سلسلة من المستطيلات المحددة بواسطة[`RectangleF`](../../rectanglef) الهياكل .
+ترسم سلسلة من المستطيلات المحددة بواسطة بنى [`RectangleF`](../../rectanglef/).
 
 ```csharp
 public void DrawRectangles(Pen pen, RectangleF[] rects)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)التي تحدد لون وعرض ونمط مخططات المستطيلات. |
-| rects | RectangleF[] | مصفوفة من[`RectangleF`](../../rectanglef) الهياكل التي تمثل المستطيلات المراد رسمها. |
+| pen | Pen | [`Pen`](../../pen/) الذي يحدد اللون والعرض والنمط لحدود المستطيلات. |
+| rects | RectangleF[] | مصفوفة من بنى [`RectangleF`](../../rectanglef/) التي تمثل المستطيلات التي سيتم رسمها. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *pen* فارغ. -أو *rects* باطل. |
+| ArgumentNullException | *pen* فارغ. -أو- *rects* فارغ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../pen)
-* struct [RectangleF](../../rectanglef)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../pen/)
+* struct [RectangleF](../../rectanglef/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## DrawRectangles(Pen, Rectangle[]) {#drawrectangles_1}
 
-يرسم سلسلة من المستطيلات المحددة بواسطة[`Rectangle`](../../rectangle) الهياكل .
+ترسم سلسلة من المستطيلات المحددة بواسطة بنى [`Rectangle`](../../rectangle/).
 
 ```csharp
 public void DrawRectangles(Pen pen, Rectangle[] rects)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)التي تحدد لون وعرض ونمط مخططات المستطيلات. |
-| rects | Rectangle[] | مصفوفة من[`Rectangle`](../../rectangle) الهياكل التي تمثل المستطيلات المراد رسمها. |
+| pen | Pen | [`Pen`](../../pen/) الذي يحدد اللون والعرض والنمط لحدود المستطيلات. |
+| rects | Rectangle[] | مصفوفة من بنى [`Rectangle`](../../rectangle/) التي تمثل المستطيلات التي سيتم رسمها. |
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | *pen* فارغ. -أو *rects* باطل. |
+| ArgumentNullException | *pen* فارغ. -أو- *rects* فارغ. |
 
-### أمثلة
+## أمثلة
 
-يوضح هذا المثال إنشاء كائنات القلم واستخدامها. يقوم المثال بإنشاء صورة جديدة ورسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 
 ```csharp
 [C#]
 
-// قم بإنشاء مثيل لـ BmpOptions وقم بتعيين خصائصه المختلفة
+//أنشئ مثيلاً من BmpOptions وعيّن خصائصه المتنوعة
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-// قم بإنشاء مثيل لـ FileCreateSource وقم بتعيينه كمصدر لمثيل BmpOptions
-// تحدد المعلمة المنطقية الثانية ما إذا كان الملف المراد إنشاؤه ثابتًا أم لا
+//أنشئ مثيلاً من FileCreateSource وعيّنها كمصدر للمثيل من BmpOptions
+//المعامل المنطقي الثاني يحدد ما إذا كان الملف الذي سيُنشأ مؤقتًا أم لا
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-// إنشاء مثيل للصورة في المسار المحدد
+//أنشئ مثيلاً من Image في المسار المحدد
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    // قم بإنشاء مثيل للرسومات وقم بتهيئته باستخدام كائن صورة
+    //أنشئ مثيلاً من Graphics وابدأه باستخدام كائن Image
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    // مسح واجهة الرسومات باللون الأبيض
+    //امسح سطح Graphics باللون الأبيض
     graphics.Clear(Aspose.Imaging.Color.White);
 
-    // إنشاء مثيل من القلم باللون الأحمر والعرض 5
+    //أنشئ مثيلاً من Pen باللون الأحمر وعرض 5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-    // قم بإنشاء مثيل لـ HatchBrush وعيّن خصائصه
+    //أنشئ مثيلاً من HatchBrush وعيّن خصائصه
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-    // إنشاء مثيل من Pen
-    // قم بتهيئته باستخدام كائن وعرض HatchBrush
+    //أنشئ مثيلاً من Pen
+    //ابدأه بكائن HatchBrush والعرض
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    // رسم مستطيلات عن طريق تحديد كائن القلم
+    //ارسم مستطيلات بتحديد كائن Pen
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -98,7 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    // رسم مستطيلات عن طريق تحديد كائن القلم
+    //ارسم مستطيلات بتحديد كائن Pen
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
@@ -110,12 +110,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Pen](../../pen)
-* struct [Rectangle](../../rectangle)
-* class [Graphics](../../graphics)
-* مساحة الاسم [Aspose.Imaging](../../graphics)
-* المجسم [Aspose.Imaging](../../../)
+* class [Pen](../../pen/)
+* struct [Rectangle](../../rectangle/)
+* class [Graphics](../)
+* namespace [Aspose.Imaging](../../graphics/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

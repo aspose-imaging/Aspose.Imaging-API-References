@@ -1,14 +1,14 @@
 ---
-title: EmfPlusFillPolygon
-second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusFillPolygon 记录指定填充多边形的内部
+title: "类 EmfPlusFillPolygon"
+second_title: "Aspose.Imaging for .NET API 参考"
+description: "Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon 类。EmfPlusFillPolygon 记录指定填充多边形的内部。"
 type: docs
-weight: 6100
+weight: 6220
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/
 ---
 ## EmfPlusFillPolygon class
 
-EmfPlusFillPolygon 记录指定填充多边形的内部。
+此 EmfPlusFillPolygon 记录指定填充多边形的内部。
 
 ```csharp
 public sealed class EmfPlusFillPolygon : EmfPlusDrawingRecordType
@@ -16,28 +16,28 @@ public sealed class EmfPlusFillPolygon : EmfPlusDrawingRecordType
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [EmfPlusFillPolygon](emfplusfillpolygon)(EmfPlusRecord) | 初始化[`EmfPlusFillPolygon`](../emfplusfillpolygon)类. |
+| [EmfPlusFillPolygon](emfplusfillpolygon/)(EmfPlusRecord) | 初始化 `EmfPlusFillPolygon` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/brushid) { get; set; } | 获取或设置画笔标识符 定义画笔的32位无符号整数，其内容 由Flags字段中的S位决定 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/iscolor) { get; set; } | 获取或设置指示此实例是否为颜色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。 |
-| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/iscompressed) { get; set; } | 获取或设置一个值，该值指示此实例是否被压缩。 如果设置，PointData 指定坐标空间中的绝对位置，具有 16 位 整数坐标。如果清除，PointData 使用 32 位浮点坐标 指定坐标空间中的绝对位置 |
-| [IsRelative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/isrelative) { get; set; } | 获取或设置一个值，该值指示此实例是否是相对的。 如果设置，PointData 中的每个元素都指定坐标 空间中的一个位置，该位置相对于数组中前一个元素 指定的位置。对于 PointData 中的第一个元素，假定坐标 (0,0) 处的先前 位置。如果清除，PointData 根据 C 标志 指定 绝对位置 |
-| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/pointdata) { get; set; } | 获取或设置点 data 定义多边形顶点的 Count 点数组。 数组中的前两个点指定多边形的第一边。 每个附加点指定一个新边， 的顶点包括该点和前一个点。如果最后一个点和 第一个点不重合，则它们指定多边形的最后一条边。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/brushid/) { get; set; } | 获取或设置画笔标识符：一个定义画笔的 32 位无符号整数，其内容由 Flags 字段中的 S 位决定。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/) { get; set; } | 获取或设置一个 32 位无符号整数，必须定义随后 RecordData 字段中数据的 32 位对齐字节数。此数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/) { get; set; } | 获取或设置一个 16 位无符号整数，包含某些记录的操作执行方式及记录结构的信息。 |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/iscolor/) { get; set; } | 获取或设置一个值，指示此实例是否为颜色。如果设置，则 BrushId 以 EmfPlusARGB 对象（第 2.2.2.1 节）指定颜色。如果未设置，则 BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。 |
+| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/iscompressed/) { get; set; } | 获取或设置指示此实例是否压缩的值。如果设置，PointData 使用 16 位整数坐标指定坐标空间中的绝对位置。如果未设置，PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。 |
+| [IsRelative](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/isrelative/) { get; set; } | 获取或设置一个值，指示此实例是否为相对的。如果设置，则 PointData 中的每个元素指定相对于数组中前一个元素指定的位置的坐标空间位置。对于 PointData 的第一个元素，假定前一个位置坐标为 (0,0)。如果未设置，则 PointData 根据 C 标志指定绝对位置。 |
+| [PointData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/pointdata/) { get; set; } | 获取或设置点数据 一个由 Count 点组成的数组，定义多边形的顶点。数组中的前两个点指定多边形的第一条边。每个后续点指定一条新边，其顶点包括该点和前一个点。如果最后一点和第一点不重合，它们指定多边形的最后一条边。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录的 32 位对齐字节数，包括 12 字节的记录头和记录特定数据。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type/) { get; } | 获取一个 16 位无符号整数，标识记录类型。 |
 
-### 也可以看看
+### 另请参见
 
-* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype)
-* 命名空间 [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records)
-* 部件 [Aspose.Imaging](../../)
+* class [EmfPlusDrawingRecordType](../emfplusdrawingrecordtype/)
+* namespace [Aspose.Imaging.FileFormats.Emf.EmfPlus.Records](../../aspose.imaging.fileformats.emf.emfplus.records/)
+* assembly [Aspose.Imaging](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+

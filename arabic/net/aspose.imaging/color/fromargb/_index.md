@@ -1,127 +1,127 @@
 ---
-title: FromArgb
-second_title: Aspose.Imaging لمرجع NET API
-description: ينشئ ملفColoraspose.imaging/color بنية من قيمة ARGB 32 بت.
+title: "Color.FromArgb"
+second_title: "Aspose.Imaging for .NET API Reference"
+description: "طريقة Color. تنشئ هيكل Color من قيمة ARGB 32‑بت"
 type: docs
 weight: 1430
 url: /ar/net/aspose.imaging/color/fromargb/
 ---
 ## FromArgb(int) {#fromargb}
 
-ينشئ ملف[`Color`](../../color) بنية من قيمة ARGB 32 بت.
+ينشئ هيكل [`Color`](../) من قيمة ARGB 32‑بت.
 
 ```csharp
 public static Color FromArgb(int argb)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| argb | Int32 | قيمة تحدد قيمة ARGB 32 بت. |
+| argb | Int32 | قيمة تحدد قيمة ARGB 32‑بت. |
 
 ### قيمة الإرجاع
 
-ال[`Color`](../../color) الهيكل الذي تخلقه هذه الطريقة.
+هيكل [`Color`](../) الذي تنشئه هذه الطريقة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* مساحة الاسم [Aspose.Imaging](../../color)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FromArgb(int, int, int, int) {#fromargb_3}
 
-ينشئ ملف[`Color`](../../color) هيكل من قيم مكون ARGB الأربعة (ألفا ، أحمر ، أخضر ، وأزرق). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32 بت لكل مكون ، فإن قيمة كل مكون تقتصر على 8 بت.
+ينشئ بنية [`Color`](../) من القيم الأربعة لمكوّنات ARGB (alpha، red، green، و blue). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32‑بت لكل مكوّن، فإن قيمة كل مكوّن محدودة بـ 8‑بت.
 
 ```csharp
 public static Color FromArgb(int alpha, int red, int green, int blue)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| alpha | Int32 | مكون ألفا. القيم الصالحة من 0 إلى 255. |
-| red | Int32 | المكون الأحمر. القيم الصالحة من 0 إلى 255. |
-| green | Int32 | المكون الأخضر. القيم الصالحة من 0 إلى 255. |
-| blue | Int32 | المكون الأزرق. القيم الصالحة من 0 إلى 255. |
+| alpha | Int32 | مكوّن alpha. القيم الصالحة هي من 0 إلى 255. |
+| red | Int32 | مكوّن red. القيم الصالحة هي من 0 إلى 255. |
+| green | Int32 | مكوّن green. القيم الصالحة هي من 0 إلى 255. |
+| blue | Int32 | مكوّن blue. القيم الصالحة هي من 0 إلى 255. |
 
 ### قيمة الإرجاع
 
-ال[`Color`](../../color) التي تخلقها هذه الطريقة.
+الـ[`Color`](../) الذي تنشئه هذه الطريقة.
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *alpha* و*red* و*green* ، أو*blue* أصغر من 0 أو أكبر من 255. |
+| ArgumentOutOfRangeException | *alpha*، *red*، *green* أو *blue* أقل من 0 أو أكبر من 255. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* مساحة الاسم [Aspose.Imaging](../../color)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FromArgb(int, Color) {#fromargb_1}
 
-ينشئ ملف[`Color`](../../color) هيكل من المحدد[`Color`](../../color) ولكن مع قيمة ألفا الجديدة المحددة. على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32 بت لقيمة ألفا ، فإن القيمة تقتصر على 8 بت.
+ينشئ بنية [`Color`](../) من البنية المحددة [`Color`](../)، ولكن مع قيمة alpha الجديدة المحددة. على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32‑بت لقيمة alpha، فإن القيمة محدودة بـ 8‑بت.
 
 ```csharp
 public static Color FromArgb(int alpha, Color baseColor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| alpha | Int32 | قيمة ألفا الجديدة[`Color`](../../color). القيم الصالحة من 0 إلى 255. |
-| baseColor | Color | ال[`Color`](../../color) التي يتم إنشاء الجديد منها[`Color`](../../color). |
+| alpha | Int32 | قيمة alpha للـ [`Color`](../) الجديد. القيم الصالحة هي من 0 إلى 255. |
+| baseColor | Color | الـ [`Color`](../) الذي يُستخدم لإنشاء الـ [`Color`](../) الجديد. |
 
 ### قيمة الإرجاع
 
-ال[`Color`](../../color) التي تخلقها هذه الطريقة.
+الـ[`Color`](../) الذي تنشئه هذه الطريقة.
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *alpha* أصغر من 0 أو أكبر من 255. |
+| ArgumentOutOfRangeException | *alpha* أقل من 0 أو أكبر من 255. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* مساحة الاسم [Aspose.Imaging](../../color)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
+* assembly [Aspose.Imaging](../../../)
 
 ---
 
 ## FromArgb(int, int, int) {#fromargb_2}
 
-ينشئ ملف[`Color`](../../color) هيكل من قيم الألوان المحددة 8 بت (الأحمر والأخضر والأزرق). قيمة ألفا هي ضمنيًا 255 (معتمة تمامًا). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32 بت لكل مكون لون ، فإن قيمة كل مكون تقتصر على 8 بت.
+ينشئ بنية [`Color`](../) من قيم الألوان 8‑بت المحددة (red، green، و blue). قيمة alpha هي ضمنيًا 255 (معتمة تمامًا). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32‑بت لكل مكوّن لون، فإن قيمة كل مكوّن محدودة بـ 8‑بت.
 
 ```csharp
 public static Color FromArgb(int red, int green, int blue)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| red | Int32 | قيمة المكون الأحمر للجديد[`Color`](../../color). القيم الصالحة من 0 إلى 255. |
-| green | Int32 | قيمة المكون الأخضر للجديد[`Color`](../../color). القيم الصالحة من 0 إلى 255. |
-| blue | Int32 | قيمة المكون الأزرق للجديد[`Color`](../../color). القيم الصالحة من 0 إلى 255. |
+| red | Int32 | قيمة مكوّن red للـ [`Color`](../) الجديد. القيم الصالحة هي من 0 إلى 255. |
+| green | Int32 | قيمة مكوّن green للـ [`Color`](../) الجديد. القيم الصالحة هي من 0 إلى 255. |
+| blue | Int32 | قيمة مكوّن blue للـ [`Color`](../) الجديد. القيم الصالحة هي من 0 إلى 255. |
 
 ### قيمة الإرجاع
 
-ال[`Color`](../../color) التي تخلقها هذه الطريقة.
+الـ[`Color`](../) الذي تنشئه هذه الطريقة.
 
-### استثناءات
+### الاستثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentOutOfRangeException | *red* و*green* ، أو*blue* أصغر من 0 أو أكبر من 255. |
+| ArgumentOutOfRangeException | *red*، *green* أو *blue* أقل من 0 أو أكبر من 255. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Color](../../color)
-* مساحة الاسم [Aspose.Imaging](../../color)
-* المجسم [Aspose.Imaging](../../../)
+* struct [Color](../)
+* namespace [Aspose.Imaging](../../color/)
+* assembly [Aspose.Imaging](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
+
