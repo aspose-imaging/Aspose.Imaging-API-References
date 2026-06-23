@@ -1,6 +1,6 @@
 ---
 title: "OdMeasureTextKind"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "测量文本类型"
 type: docs
 weight: 12
@@ -19,8 +19,8 @@ public final class OdMeasureTextKind extends System.Enum
 | --- | --- |
 | [None](#None) | 测量文本类型为 none |
 | [Gap](#Gap) | 测量文本类型为 gap |
-| [Value](#Value) | 测量文本类型为 value |
-| [Unit](#Unit) | 测量文本类型为 unit |
+| [Value](#Value) | Measure 文本类型是 value |
+| [Unit](#Unit) | Measure 文本类型是 unit |
 ### None {#None}
 ```
 public static final int None
@@ -43,7 +43,7 @@ public static final int Value
 ```
 
 
-测量文本类型为 value
+Measure 文本类型是 value
 
 ### Unit {#Unit}
 ```
@@ -51,5 +51,5 @@ public static final int Unit
 ```
 
 
-测量文本类型为 unit
+Measure 文本类型是 unit
 

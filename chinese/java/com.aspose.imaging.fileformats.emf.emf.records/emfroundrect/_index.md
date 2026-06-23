@@ -1,6 +1,6 @@
 ---
 title: "EmfRoundRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_ROUNDRECT 记录指定一个带圆角的矩形。"
 type: docs
 weight: 111
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfRoundRect extends EmfDrawingRecordType
 ```
 
-EMR\_ROUNDRECT 记录指定一个带圆角的矩形。该矩形使用当前笔描边并使用当前画刷填充。
+EMR\\_ROUNDRECT 记录指定一个带圆角的矩形。该矩形使用当前笔进行描边，并使用当前画刷进行填充。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -38,7 +38,7 @@ public EmfRoundRect(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfRoundRect() {#EmfRoundRect--}
 ```

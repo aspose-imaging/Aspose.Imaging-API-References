@@ -1,6 +1,6 @@
 ---
 title: "ResolutionSetting"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像保存选项的分辨率设置。"
 type: docs
 weight: 98
@@ -73,7 +73,7 @@ public void setHorizontalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double |  |
+| 值 | double |  |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -96,5 +96,5 @@ public void setVerticalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double |  |
+| 值 | double |  |
 

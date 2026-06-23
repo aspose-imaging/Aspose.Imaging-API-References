@@ -1,13 +1,13 @@
 ---
 title: "ArcShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示弧形。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.shapes/arcshape/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging/objectwithbounds), [com.aspose.imaging.Shape](../../com.aspose.imaging/shape), [com.aspose.imaging.shapes.RectangleProjectedShape](../../com.aspose.imaging.shapes/rectangleprojectedshape), [com.aspose.imaging.shapes.RectangleShape](../../com.aspose.imaging.shapes/rectangleshape), [com.aspose.imaging.shapes.EllipseShape](../../com.aspose.imaging.shapes/ellipseshape), [com.aspose.imaging.shapes.PieShape](../../com.aspose.imaging/shapes/pieshape)
+java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging/objectwithbounds), [com.aspose.imaging.Shape](../../com.aspose.imaging/shape), [com.aspose.imaging.shapes.RectangleProjectedShape](../../com.aspose.imaging.shapes/rectangleprojectedshape), [com.aspose.imaging.shapes.RectangleShape](../../com.aspose.imaging.shapes/rectangleshape), [com.aspose.imaging.shapes.EllipseShape](../../com.aspose.imaging.shapes/ellipseshape), [com.aspose.imaging.shapes.PieShape](../../com.aspose.imaging.shapes/pieshape)
 
 **All Implemented Interfaces:**
 [com.aspose.imaging.IOrderedShape](../../com.aspose.imaging/iorderedshape)
@@ -27,7 +27,7 @@ public final class ArcShape extends PieShape implements IOrderedShape
 
 | 方法 | 描述 |
 | --- | --- |
-| [getSegments()](#getSegments--) | 获取形状的段。 |
+| [getSegments()](#getSegments--) | 获取形状段。 |
 | [getStartPoint()](#getStartPoint--) | 获取起始形状点。 |
 | [getEndPoint()](#getEndPoint--) | 获取结束形状点。 |
 | [isClosed()](#isClosed--) | 获取或设置一个值，指示有序形状是否闭合。 |
@@ -38,14 +38,14 @@ public final class ArcShape extends PieShape implements IOrderedShape
 | [hashCode()](#hashCode--) | 获取当前对象的哈希码。 |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
-此示例创建一个新的 Image 并在图像表面使用 Figures 和 GraphicsPath 绘制各种形状。
+此示例创建一个新 Image，并在 Image 表面使用 Figures 和 GraphicsPath 绘制各种形状
 ``` java
-//创建一个 BmpOptions 实例并设置其各种属性。
+//创建一个 BmpOptions 实例并设置其各种属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-//第二个布尔参数决定要创建的文件是否为 IsTemporal。
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
 //创建 Image 的实例
@@ -63,7 +63,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -73,7 +73,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -121,7 +121,7 @@ public ArcShape(RectangleF rectangle, float startAngle, float sweepAngle)
 | --- | --- | --- |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | 矩形。 |
 | startAngle | float | 起始角度。 |
-| sweepAngle | float | 扫掠角度。 |
+| sweepAngle | float | 扫掠角。 |
 
 ### ArcShape(RectangleF rectangle, float startAngle, float sweepAngle, boolean isClosed) {#ArcShape-com.aspose.imaging.RectangleF-float-float-boolean-}
 ```
@@ -136,8 +136,8 @@ public ArcShape(RectangleF rectangle, float startAngle, float sweepAngle, boolea
 | --- | --- | --- |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | 矩形。 |
 | startAngle | float | 起始角度。 |
-| sweepAngle | float | 扫掠角度。 |
-| isClosed | boolean | 如果设置为 `true`，则弧线闭合。闭合的弧线实际上会退化为椭圆。 |
+| sweepAngle | float | 扫掠角。 |
+| isClosed | boolean | 如果设置为 `true`，则弧线闭合。闭合的弧线实际上退化为椭圆。 |
 
 ### getSegments() {#getSegments--}
 ```
@@ -145,7 +145,7 @@ public ShapeSegment[] getSegments()
 ```
 
 
-获取形状的段。
+获取形状段。
 
 值：形状段。
 
@@ -200,7 +200,7 @@ public void setClosed(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### reverse() {#reverse--}
 ```
@@ -221,7 +221,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

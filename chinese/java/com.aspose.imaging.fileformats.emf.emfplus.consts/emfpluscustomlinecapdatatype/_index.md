@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusCustomLineCapDataType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "CustomLineCapDataType 枚举定义了自定义线帽数据的类型，这些类型指定图形线条端点的样式和形状。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "CustomLineCapDataType 枚举定义了自定义线帽数据的类型，这些类型指定了图形线段端点的样式和形状。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomlinecapdatatype/

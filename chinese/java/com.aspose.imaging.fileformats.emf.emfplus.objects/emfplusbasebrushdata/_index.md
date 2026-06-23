@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBaseBrushData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Brush 数据类型的基类。"
 type: docs
 weight: 11

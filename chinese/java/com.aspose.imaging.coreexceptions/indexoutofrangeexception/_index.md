@@ -1,6 +1,6 @@
 ---
 title: "IndexOutOFRangeException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "压缩器异常。"
 type: docs
 weight: 19
@@ -17,20 +17,20 @@ public class IndexOutOFRangeException extends System.Exception
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [IndexOutOFRangeException(String message)](#IndexOutOFRangeException-java.lang.String-) | 初始化 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的新实例。 |
-| [IndexOutOFRangeException(String message, Throwable innerException)](#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-) | 初始化 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的新实例。 |
+| [IndexOutOFRangeException(String message)](#IndexOutOFRangeException-java.lang.String-) | 初始化一个新的 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的实例。 |
+| [IndexOutOFRangeException(String message, Throwable innerException)](#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-) | 初始化一个新的 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的实例。 |
 ### IndexOutOFRangeException(String message) {#IndexOutOFRangeException-java.lang.String-}
 ```
 public IndexOutOFRangeException(String message)
 ```
 
 
-初始化 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的新实例。
+初始化一个新的 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### IndexOutOFRangeException(String message, Throwable innerException) {#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-}
 ```
@@ -38,11 +38,11 @@ public IndexOutOFRangeException(String message, Throwable innerException)
 ```
 
 
-初始化 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的新实例。
+初始化一个新的 [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception) 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

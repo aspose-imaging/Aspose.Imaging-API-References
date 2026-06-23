@@ -1,7 +1,7 @@
 ---
 title: "TiffBigEndianStreamWriter"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于大端流的 Tiff 流写入器。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于大端流的 tiff 流写入器。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStr
 public class TiffBigEndianStreamWriter extends TiffStreamWriter
 ```
 
-用于大端流的 Tiff 流写入器。
+用于大端流的 tiff 流写入器。
 ## 构造函数
 
 | 构造函数 | 描述 |

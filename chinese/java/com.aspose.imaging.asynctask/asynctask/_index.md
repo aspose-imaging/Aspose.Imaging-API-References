@@ -1,6 +1,6 @@
 ---
 title: "AsyncTask"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于创建异步任务的静态工厂类"
 type: docs
 weight: 10
@@ -17,15 +17,15 @@ public final class AsyncTask
 
 | 方法 | 描述 |
 | --- | --- |
-| [create(AsyncTaskAction taskAction)](#create-com.aspose.imaging.asynctask.AsyncTaskAction-) | 创建不带任何结果的异步任务。 |
-| [create(AsyncTaskFunc taskFunc)](#create-com.aspose.imaging.asynctask.AsyncTaskFunc-) | 创建具有泛型类型结果的异步任务。 |
+| [create(AsyncTaskAction taskAction)](#create-com.aspose.imaging.asynctask.AsyncTaskAction-) | 创建不返回结果的异步任务。 |
+| [create(AsyncTaskFunc taskFunc)](#create-com.aspose.imaging.asynctask.AsyncTaskFunc-) | 创建带有泛型结果的异步任务。 |
 ### create(AsyncTaskAction taskAction) {#create-com.aspose.imaging.asynctask.AsyncTaskAction-}
 ```
 public static IAsyncTask create(AsyncTaskAction taskAction)
 ```
 
 
-创建不带任何结果的异步任务。
+创建不返回结果的异步任务。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -40,7 +40,7 @@ public static IAsyncTask create(AsyncTaskFunc taskFunc)
 ```
 
 
-创建具有泛型类型结果的异步任务。
+创建带有泛型结果的异步任务。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

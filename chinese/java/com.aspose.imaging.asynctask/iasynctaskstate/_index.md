@@ -1,6 +1,6 @@
 ---
 title: "IAsyncTaskState"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "提供对异步任务状态的访问。"
 type: docs
 weight: 17

@@ -1,13 +1,13 @@
 ---
 title: "WmfDeleteObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "删除对象。"
 type: docs
 weight: 26
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfdeleteobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfDeleteObject extends WmfObject
 ```
@@ -71,5 +71,5 @@ public void setObjectIndex(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

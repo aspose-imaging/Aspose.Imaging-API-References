@@ -1,7 +1,7 @@
 ---
 title: "WmfCreatePenInDirect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "直接创建笔。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "在直接模式下创建笔。"
 type: docs
 weight: 24
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfCreatePenInDirect extends WmfGraphicObject
 ```
 
-直接创建笔。
+在直接模式下创建笔。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ public class WmfCreatePenInDirect extends WmfGraphicObject
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLogPen()](#getLogPen--) | 获取或设置日志笔。 |
-| [setLogPen(EmfLogPen value)](#setLogPen-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPen-) | 获取或设置日志笔。 |
+| [getLogPen()](#getLogPen--) | 获取或设置 log pen。 |
+| [setLogPen(EmfLogPen value)](#setLogPen-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPen-) | 获取或设置 log pen。 |
 ### WmfCreatePenInDirect() {#WmfCreatePenInDirect--}
 ```
 public WmfCreatePenInDirect()
@@ -38,7 +38,7 @@ public EmfLogPen getLogPen()
 ```
 
 
-获取或设置日志笔。
+获取或设置 log pen。
 
 值：日志笔。
 
@@ -50,7 +50,7 @@ public void setLogPen(EmfLogPen value)
 ```
 
 
-获取或设置日志笔。
+获取或设置 log pen。
 
 值：日志笔。
 

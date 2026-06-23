@@ -1,6 +1,6 @@
 ---
 title: "WrapMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定当纹理或渐变小于填充区域时的平铺方式。"
 type: docs
 weight: 120
@@ -21,7 +21,7 @@ public final class WrapMode extends System.Enum
 | [TileFlipX](#TileFlipX) | 水平翻转纹理或渐变，然后平铺纹理或渐变。 |
 | [TileFlipY](#TileFlipY) | 垂直翻转纹理或渐变，然后平铺纹理或渐变。 |
 | [TileFlipXY](#TileFlipXY) | 水平和垂直翻转纹理或渐变，然后平铺纹理或渐变。 |
-| [Clamp](#Clamp) | 纹理或渐变不进行平铺。 |
+| [Clamp](#Clamp) | 纹理或渐变未平铺。 |
 ### Tile {#Tile}
 ```
 public static final int Tile
@@ -60,5 +60,5 @@ public static final int Clamp
 ```
 
 
-纹理或渐变不进行平铺。
+纹理或渐变未平铺。
 

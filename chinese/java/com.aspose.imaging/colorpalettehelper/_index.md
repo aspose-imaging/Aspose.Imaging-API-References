@@ -1,7 +1,7 @@
 ---
 title: "ColorPaletteHelper"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于颜色调色板操作的帮助类。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于颜色调色板操作的辅助类。"
 type: docs
 weight: 29
 url: /zh/java/com.aspose.imaging/colorpalettehelper/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorPaletteHelper
 ```
 
-用于颜色调色板操作的帮助类。
+用于颜色调色板操作的辅助类。
 ## 方法
 
 | 方法 | 描述 |
@@ -64,7 +64,7 @@ public static IColorPalette create4BitGrayscale(boolean minIsWhite)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| minIsWhite | boolean | 如果设置为 `true`，调色板以白色开始，否则以黑色开始。 |
+| minIsWhite | boolean | 如果设置为 `true`，调色板将以白色开始，否则以黑色开始。 |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The 4 bit grayscale palette.
@@ -89,7 +89,7 @@ public static IColorPalette create8BitGrayscale(boolean minIsWhite)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| minIsWhite | boolean | 如果设置为 `true`，调色板以白色开始，否则以黑色开始。 |
+| minIsWhite | boolean | 如果设置为 `true`，调色板将以白色开始，否则以黑色开始。 |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The 8 bit grayscale palette.
@@ -108,18 +108,18 @@ createOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "o
 createOptions.setBitsPerPixel(8);
 
 // 设置覆盖所有灰度颜色的标准 8 位灰度调色板。
-// 如果处理后的图像仅包含灰度颜色，则其调色版本
-// 在视觉上与未调色的图像无差别。
+// 如果处理后的图像仅包含灰度颜色，则其调色板化版本
+// 在视觉上与未调色板化的图像没有区别。
 createOptions.setPalette(com.aspose.imaging.ColorPaletteHelper.create8BitGrayscale(false));
 
-// 不使用压缩保存。
-// 您也可以使用 RLE-8 压缩来减小输出图像的大小。
+// 保存时不使用压缩。
+// 您还可以使用 RLE-8 压缩来减小输出图像的大小。
 createOptions.setCompression(com.aspose.imaging.fileformats.bmp.BitmapCompression.Rgb);
 
 // 将水平和垂直分辨率设置为 96 dpi。
 createOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-// 创建 100 x 100 像素的 BMP 图像并保存到文件。
+// 创建一个 100 x 100 像素的 BMP 图像并将其保存到文件。
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(createOptions, 100, 100);
 try {
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
@@ -145,7 +145,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 ```
 
 
-在图像没有调色板的情况下，从光栅图像获取调色板（对图像进行调色）。如果调色板已存在，则直接使用而不进行计算。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。如果调色板已存在，则直接使用它，而不进行计算。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -171,12 +171,12 @@ try {
                     com.aspose.imaging.Color.getRed(),
                     com.aspose.imaging.Color.getGreen());
 
-    // 使用线性渐变画刷填充整个图像。
+    // 使用线性渐变画笔填充整个图像。
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(bmpImage);
     gr.fillRectangle(brush, bmpImage.getBounds());
 
-    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
-    // 几乎在视觉上与非调色板图像无法区分。
+    // 获取最接近的 8 位颜色调色板，以覆盖尽可能多的像素，从而得到调色板图像
+    // 几乎在视觉上与非调色的图像没有区别。
     com.aspose.imaging.IColorPalette palette = com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette(bmpImage, 256);
 
     // 8 位调色板最多包含 256 种颜色。
@@ -204,8 +204,8 @@ try {
 }
 
 // 输出如下：
-// 调色板化的图像大小为 11078 字节。
-// 非调色板化的图像大小为 40054 字节。
+// 调色后的图像大小为 11078 字节。
+// 非调色的图像大小为 40054 字节。
 ```
 
 ### getCloseTransparentImagePalette(RasterImage image, int entriesCount) {#getCloseTransparentImagePalette-com.aspose.imaging.RasterImage-int-}
@@ -214,7 +214,7 @@ public static IColorPalette getCloseTransparentImagePalette(RasterImage image, i
 ```
 
 
-在图像没有调色板的情况下，从光栅图像获取调色板（对图像进行调色）。如果调色板已存在，则直接使用而不进行计算。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。如果调色板已存在，则直接使用它，而不进行计算。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -230,7 +230,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 ```
 
 
-如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色）。调色板将被优化以获得更好的索引图像质量，或者在使用 PaletteMiningMethod.UseCurrentPalette 时保持"AS IS"。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。调色板将被优化以获得更好的索引图像质量，或者在使用 PaletteMiningMethod.UseCurrentPalette 时保持"AS IS"。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -257,8 +257,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // 使用最大压缩
     options.setCompressionLevel(9);
-    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
-    // 几乎在视觉上与非调色板图像无法区分。
+    // 获取最接近的 8 位颜色调色板，以覆盖尽可能多的像素，从而得到调色板图像
+    // 几乎在视觉上与非调色的图像没有区别。
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -273,7 +273,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-在图像没有调色板的情况下，从光栅图像获取调色板（对图像进行调色）。如果调色板已存在，则直接使用而不进行计算。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。如果调色板已存在，则直接使用它，而不进行计算。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -290,7 +290,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-在图像没有调色板的情况下，从光栅图像获取调色板（对图像进行调色）。如果调色板已存在，则直接使用而不进行计算。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。如果调色板已存在，则直接使用它，而不进行计算。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -298,7 +298,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 光栅图像。 |
 | destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | 目标图像的边界。 |
 | entriesCount | int | 所需的条目计数。 |
-| useImagePalette | boolean | 如果设置，它将在可用时使用其自己的图像调色板 |
+| useImagePalette | boolean | 如果设置，则在可用时使用其自身的图像调色板 |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
@@ -308,7 +308,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-在图像没有调色板的情况下，从光栅图像获取调色板（对图像进行调色）。如果调色板已存在，则直接使用而不进行计算。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。如果调色板已存在，则直接使用它，而不进行计算。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -316,8 +316,8 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 光栅图像。 |
 | destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | 目标图像的边界。 |
 | entriesCount | int | 所需的条目计数。 |
-| useImagePalette | boolean | 如果设置，它将在可用时使用其自己的图像调色板 |
-| alphaBlendInColor | [Color](../../com.aspose.imaging/color) | 应作为半透明 alpha 替换的背景颜色的颜色。 |
+| useImagePalette | boolean | 如果设置，则在可用时使用其自身的图像调色板 |
+| alphaBlendInColor | [Color](../../com.aspose.imaging/color) | 用于半透明 alpha 替换的背景颜色。 |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
@@ -327,7 +327,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-在图像没有调色板的情况下，从光栅图像获取调色板（对图像进行调色）。如果调色板已存在，则直接使用而不进行计算。
+如果图像没有调色板，则从光栅图像获取颜色调色板（对图像进行调色板化）。如果调色板已存在，则直接使用它，而不进行计算。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -335,9 +335,9 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 光栅图像。 |
 | destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | 目标图像的边界。 |
 | entriesCount | int | 所需的条目计数。 |
-| useImagePalette | boolean | 如果设置，它将在可用时使用其自己的图像调色板 |
-| alphaBlendInColor | [Color](../../com.aspose.imaging/color) | 应作为半透明 alpha 替换的背景颜色的颜色。 |
-| keepTransparency | boolean | 如果设置，它将考虑图像颜色的 alpha 通道位。 |
+| useImagePalette | boolean | 如果设置，则在可用时使用其自身的图像调色板 |
+| alphaBlendInColor | [Color](../../com.aspose.imaging/color) | 用于半透明 alpha 替换的背景颜色。 |
+| keepTransparency | boolean | 如果设置，则会考虑图像颜色的 alpha 通道位。 |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
@@ -385,7 +385,7 @@ public static boolean hasTransparentColors(IColorPalette palette)
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | 调色板。 |
 
 **Returns:**
-布尔值 - 如果指定的调色板具有透明颜色，则为 `true`；否则为 `false`。
+布尔值 - `true` 表示指定的调色板具有透明颜色；否则为 `false`。
 ### createGrayscale(int bits) {#createGrayscale-int-}
 ```
 public static IColorPalette createGrayscale(int bits)
@@ -397,7 +397,7 @@ public static IColorPalette createGrayscale(int bits)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| bits | int | 位计数。 |
+| 位 | int | 位计数。 |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - Grayscale palette.

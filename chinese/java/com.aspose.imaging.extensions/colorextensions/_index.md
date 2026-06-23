@@ -1,6 +1,6 @@
 ---
 title: "ColorExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Color 扩展方法。"
 type: docs
 weight: 12
@@ -30,7 +30,7 @@ public static Color toGdiColor(Color color)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| color | [Color](../../com.aspose.imaging/color) | 要转换的`com.aspose.imaging.Color`。 |
+| color | [Color](../../com.aspose.imaging/color) | 该`com.aspose.imaging.Color`进行转换。 |
 
 **Returns:**
 [Color](../../java.awt/color) - The converted `System.Drawing.Color`.
@@ -45,7 +45,7 @@ public static System.Drawing.Color[] toGdiColors(Color[] colors)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| colors | [Color\[\]](../../com.aspose.imaging/color) | 要转换的`com.aspose.imaging.Color` 数组。 |
+| colors | [Color\[\]](../../com.aspose.imaging/color) | 该`com.aspose.imaging.Color`数组进行转换。 |
 
 **Returns:**
 com.aspose.ms.System.Drawing.Color[] - 已转换的 `System.Drawing.Color` 数组。

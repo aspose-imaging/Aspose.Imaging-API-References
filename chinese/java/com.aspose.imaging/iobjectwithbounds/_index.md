@@ -1,6 +1,6 @@
 ---
 title: "IObjectWithBounds"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示具有边界的对象。"
 type: docs
 weight: 139

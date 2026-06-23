@@ -1,7 +1,7 @@
 ---
 title: "CdrPage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 页面"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 页面"
 type: docs
 weight: 30
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrpage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrPage extends CdrObjectContainer
 ```
 
-cdr 页面
+该 cdr 页面
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -51,5 +51,5 @@ public final void setId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 标识符。 |
+| 值 | int | 标识符。 |
 

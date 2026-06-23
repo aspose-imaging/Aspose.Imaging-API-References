@@ -1,6 +1,6 @@
 ---
 title: "ImageSaveException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像保存异常。"
 type: docs
 weight: 17
@@ -17,20 +17,20 @@ public class ImageSaveException extends ImageException
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [ImageSaveException(String message)](#ImageSaveException-java.lang.String-) | 初始化 `ImageSaveException` 类的新实例。 |
-| [ImageSaveException(String message, Throwable innerException)](#ImageSaveException-java.lang.String-java.lang.Throwable-) | 初始化 `ImageSaveException` 类的新实例。 |
+| [ImageSaveException(String message)](#ImageSaveException-java.lang.String-) | 初始化一个新的 `ImageSaveException` 类的实例。 |
+| [ImageSaveException(String message, Throwable innerException)](#ImageSaveException-java.lang.String-java.lang.Throwable-) | 初始化一个新的 `ImageSaveException` 类的实例。 |
 ### ImageSaveException(String message) {#ImageSaveException-java.lang.String-}
 ```
 public ImageSaveException(String message)
 ```
 
 
-初始化 `ImageSaveException` 类的新实例。
+初始化一个新的 `ImageSaveException` 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### ImageSaveException(String message, Throwable innerException) {#ImageSaveException-java.lang.String-java.lang.Throwable-}
 ```
@@ -38,11 +38,11 @@ public ImageSaveException(String message, Throwable innerException)
 ```
 
 
-初始化 `ImageSaveException` 类的新实例。
+初始化一个新的 `ImageSaveException` 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

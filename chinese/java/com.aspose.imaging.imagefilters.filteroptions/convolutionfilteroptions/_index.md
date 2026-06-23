@@ -1,6 +1,6 @@
 ---
 title: "ConvolutionFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "卷积滤镜选项。"
 type: docs
 weight: 15
@@ -32,10 +32,10 @@ public class ConvolutionFilterOptions extends FilterOptionsBase implements IConv
 | [setFactor(double value)](#setFactor-double-) | 设置因子。 |
 | [getBias()](#getBias--) | 获取偏置。 |
 | [setBias(int value)](#setBias-int-) | 设置偏置。 |
-| [getIgnoreAlpha()](#getIgnoreAlpha--) | 获取指示是否 [ignore alpha] 的值。 |
-| [setIgnoreAlpha(boolean value)](#setIgnoreAlpha-boolean-) | 设置指示是否 [ignore alpha] 的值。 |
-| [getBordersProcessing()](#getBordersProcessing--) | 获取指示是否 [borders processing] 的值。 |
-| [setBordersProcessing(boolean value)](#setBordersProcessing-boolean-) | 设置指示是否 [borders processing] 的值。 |
+| [getIgnoreAlpha()](#getIgnoreAlpha--) | 获取指示是否[ignore alpha]的值。 |
+| [setIgnoreAlpha(boolean value)](#setIgnoreAlpha-boolean-) | 设置指示是否[ignore alpha]的值。 |
+| [getBordersProcessing()](#getBordersProcessing--) | 获取指示是否[borders processing]的值。 |
+| [setBordersProcessing(boolean value)](#setBordersProcessing-boolean-) | 设置指示是否[borders processing]的值。 |
 ### ConvolutionFilterOptions(double[][] kernel) {#ConvolutionFilterOptions-double-----}
 ```
 public ConvolutionFilterOptions(double[][] kernel)
@@ -47,7 +47,7 @@ public ConvolutionFilterOptions(double[][] kernel)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 内核 | double[][] | X 轴方向的卷积内核。 |
+| 核 | double[][] | X 轴方向的卷积核。 |
 
 ### ConvolutionFilterOptions(double[][] kernel, double factor) {#ConvolutionFilterOptions-double-----double-}
 ```
@@ -60,7 +60,7 @@ public ConvolutionFilterOptions(double[][] kernel, double factor)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 内核 | double[][] | X 轴方向的卷积内核。 |
+| 核 | double[][] | X 轴方向的卷积核。 |
 | 因子 | double | 因子。 |
 
 ### ConvolutionFilterOptions(double[][] kernel, double factor, int bias) {#ConvolutionFilterOptions-double-----double-int-}
@@ -74,7 +74,7 @@ public ConvolutionFilterOptions(double[][] kernel, double factor, int bias)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 内核 | double[][] | X 轴方向的卷积内核。 |
+| 核 | double[][] | X 轴方向的卷积核。 |
 | 因子 | double | 因子。 |
 | 偏置 | int | 偏置值。 |
 
@@ -87,7 +87,7 @@ public double[][] getKernel()
 获取核。
 
 **Returns:**
-double[][] - 内核。
+double[][] - 核。
 ### getFactor() {#getFactor--}
 ```
 public final double getFactor()
@@ -109,7 +109,7 @@ public final void setFactor(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 因子。 |
+| 值 | double | 因子。 |
 
 ### getBias() {#getBias--}
 ```
@@ -136,7 +136,7 @@ public final void setBias(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 偏置。 |
+| 值 | int | 偏置。 |
 
 ### getIgnoreAlpha() {#getIgnoreAlpha--}
 ```
@@ -144,26 +144,26 @@ public final boolean getIgnoreAlpha()
 ```
 
 
-获取指示是否 [ignore alpha] 的值。
+获取指示是否[ignore alpha]的值。
 
-值：如果 [ignore alpha] 为 `true`；否则为 `false`。
+值：`true` 表示[ignore alpha]；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否 [ignore alpha] 的值。
+boolean - 表示是否[ignore alpha]的值。
 ### setIgnoreAlpha(boolean value) {#setIgnoreAlpha-boolean-}
 ```
 public final void setIgnoreAlpha(boolean value)
 ```
 
 
-设置指示是否 [ignore alpha] 的值。
+设置指示是否[ignore alpha]的值。
 
-值：如果 [ignore alpha] 为 `true`；否则为 `false`。
+值：`true` 表示[ignore alpha]；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 表示是否 [ignore alpha] 的值。 |
+| 值 | boolean | 表示是否[ignore alpha]的值。 |
 
 ### getBordersProcessing() {#getBordersProcessing--}
 ```
@@ -171,24 +171,24 @@ public final boolean getBordersProcessing()
 ```
 
 
-获取指示是否 [borders processing] 的值。
+获取指示是否[borders processing]的值。
 
-值：如果 [borders processing] 为 `true`；否则为 `false`。
+值：`true` 表示[borders processing]；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否 [borders processing] 的值。
+boolean - 一个指示是否进行[borders processing]的值。
 ### setBordersProcessing(boolean value) {#setBordersProcessing-boolean-}
 ```
 public final void setBordersProcessing(boolean value)
 ```
 
 
-设置指示是否 [borders processing] 的值。
+设置指示是否[borders processing]的值。
 
-值：如果 [borders processing] 为 `true`；否则为 `false`。
+值：`true` 表示[borders processing]；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 表示是否 [borders processing] 的值。 |
+| 值 | boolean | 一个指示是否进行[borders processing]的值。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusImageDataType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "ImageDataType 枚举定义了图像数据格式的类型。"
 type: docs
 weight: 27

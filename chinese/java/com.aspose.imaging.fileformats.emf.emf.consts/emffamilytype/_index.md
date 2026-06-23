@@ -1,6 +1,6 @@
 ---
 title: "EmfFamilyType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "FamilyType 枚举定义了 PANOSE 系统中用于分类字体的特征之一的取值。"
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ FamilyType 枚举定义了 PANOSE 系统中用于分类字体的特征之一的�
 | 字段 | 描述 |
 | --- | --- |
 | [PAN_ANY](#PAN-ANY) | 任意类型。 |
-| [PAN_NO_FIT](#PAN-NO-FIT) | 该不适配。 |
+| [PAN_NO_FIT](#PAN-NO-FIT) | 不适配。 |
 | [PAN_FAMILY_TEXT_DISPLAY](#PAN-FAMILY-TEXT-DISPLAY) | 文本和显示。 |
 | [PAN_FAMILY_SCRIPT](#PAN-FAMILY-SCRIPT) | 脚本标志。 |
 | [PAN_FAMILY_DECORATIVE](#PAN-FAMILY-DECORATIVE) | 装饰标志。 |
@@ -37,7 +37,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-该不适配。
+不适配。
 
 ### PAN_FAMILY_TEXT_DISPLAY {#PAN-FAMILY-TEXT-DISPLAY}
 ```

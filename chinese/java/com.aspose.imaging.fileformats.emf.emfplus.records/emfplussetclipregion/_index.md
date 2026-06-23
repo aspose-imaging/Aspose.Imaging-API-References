@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetClipRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 EmfPlusSetClipRegion 记录将当前剪裁区域与另一个图形区域合并。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusSetClipRegion 记录将当前裁剪区域与另一个图形区域合并。"
 type: docs
 weight: 57
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetClipRegion extends EmfPlusClippingRecordType
 ```
 
-EmfPlusSetClipRegion 记录将当前裁剪区域与另一个图形区域合并。新的当前裁剪区域被设置为对先前的当前裁剪区域和指定的 EmfPlusRegion 对象执行 CombineMode 操作后的结果。
+EmfPlusSetClipRegion 记录将当前剪裁区域与另一个图形区域合并。新的当前剪裁区域被设置为对先前的当前剪裁区域和指定的 EmfPlusRegion 对象执行 CombineMode 操作的结果。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ public EmfPlusSetClipRegion(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCm() {#getCm--}
 ```
@@ -45,7 +45,7 @@ public byte getCm()
 ```
 
 
-获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
+获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关各值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
 
 值：cm。
 
@@ -57,14 +57,14 @@ public void setCm(byte value)
 ```
 
 
-获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
+获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关各值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
 
 值：cm。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -91,5 +91,5 @@ public void setObjectId(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

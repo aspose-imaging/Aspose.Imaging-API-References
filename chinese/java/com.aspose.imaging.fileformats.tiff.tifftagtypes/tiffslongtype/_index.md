@@ -1,18 +1,18 @@
 ---
 title: "TiffSLongType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff signed long 类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "tiff 有符号 long 类型。"
 type: docs
 weight: 22
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffslongtype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffSLongType extends TiffCommonArrayType
 ```
 
-tiff signed long 类型。
+tiff 有符号 long 类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -51,7 +51,7 @@ public int[] getValues()
 
 获取或设置值。
 
-值：值。
+值：这些值。
 
 **Returns:**
 int[]
@@ -63,12 +63,12 @@ public void setValues(int[] value)
 
 获取或设置值。
 
-值：值。
+值：这些值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -78,7 +78,7 @@ public System.Array getValuesContainer()
 
 获取值容器。
 
-值：值容器。
+值：值的容器。
 
 **Returns:**
 com.aspose.ms.System.Array
@@ -127,7 +127,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object |  |
+| 值 | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

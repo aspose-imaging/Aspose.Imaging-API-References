@@ -1,6 +1,6 @@
 ---
 title: "EmfLogFontExDv"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "LogFontExDv 对象指定了扩展逻辑字体的设计向量。"
 type: docs
 weight: 24
@@ -22,8 +22,8 @@ LogFontExDv 对象指定了扩展逻辑字体的设计向量。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getDesignVector()](#getDesignVector--) | 获取或设置一个 DesignVector 对象（第 2.2.3 节）。 |
-| [setDesignVector(EmfDesignVector value)](#setDesignVector-com.aspose.imaging.fileformats.emf.emf.objects.EmfDesignVector-) | 获取或设置一个 DesignVector 对象（第 2.2.3 节）。 |
+| [getDesignVector()](#getDesignVector--) | 获取或设置 DesignVector 对象（第 2.2.3 节）。 |
+| [setDesignVector(EmfDesignVector value)](#setDesignVector-com.aspose.imaging.fileformats.emf.emf.objects.EmfDesignVector-) | 获取或设置 DesignVector 对象（第 2.2.3 节）。 |
 ### EmfLogFontExDv(EmfLogFontEx emfLogFontEx) {#EmfLogFontExDv-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFontEx-}
 ```
 public EmfLogFontExDv(EmfLogFontEx emfLogFontEx)
@@ -35,7 +35,7 @@ public EmfLogFontExDv(EmfLogFontEx emfLogFontEx)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| emfLogFontEx | [EmfLogFontEx](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogfontex) | 该 EMF log font ex。 |
+| emfLogFontEx | [EmfLogFontEx](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogfontex) | EMF 日志字体 ex。 |
 
 ### getDesignVector() {#getDesignVector--}
 ```
@@ -45,7 +45,7 @@ public EmfDesignVector getDesignVector()
 
 获取或设置 DesignVector 对象（第 2.2.3 节）。此字段不得超过 72 字节。
 
-值：设计向量。
+Value: 设计向量。
 
 **Returns:**
 [EmfDesignVector](../../com.aspose.imaging.fileformats.emf.emf.objects/emfdesignvector)
@@ -57,7 +57,7 @@ public void setDesignVector(EmfDesignVector value)
 
 获取或设置 DesignVector 对象（第 2.2.3 节）。此字段不得超过 72 字节。
 
-值：设计向量。
+Value: 设计向量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "OdTransformInfo"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "开放文档的翻译信息"
 type: docs
 weight: 12
@@ -60,7 +60,7 @@ public void setRotateAngle(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 旋转角度。 |
+| 值 | float | 旋转角度。 |
 
 ### getTranslateX() {#getTranslateX--}
 ```
@@ -83,7 +83,7 @@ public void setTranslateX(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 平移 x。 |
+| 值 | float | 平移 x。 |
 
 ### getTranslateY() {#getTranslateY--}
 ```
@@ -106,7 +106,7 @@ public void setTranslateY(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 平移 y。 |
+| 值 | float | 平移 y。 |
 
 ### getSkewX() {#getSkewX--}
 ```
@@ -129,7 +129,7 @@ public void setSkewX(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 倾斜 x。 |
+| 值 | float | 倾斜 x。 |
 
 ### getSkewY() {#getSkewY--}
 ```
@@ -152,7 +152,7 @@ public void setSkewY(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 倾斜 y。 |
+| 值 | float | 倾斜 y。 |
 
 ### copy() {#copy--}
 ```

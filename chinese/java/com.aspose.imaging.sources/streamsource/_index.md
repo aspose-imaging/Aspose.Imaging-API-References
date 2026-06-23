@@ -1,6 +1,6 @@
 ---
 title: "StreamSource"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示流源。"
 type: docs
 weight: 13
@@ -31,7 +31,7 @@ public final class StreamSource extends Source
 | 方法 | 描述 |
 | --- | --- |
 | [getStream()](#getStream--) | 获取流。 |
-| [getDisposeStream()](#getDisposeStream--) | 获取一个值，指示是否在容器被释放时应释放流。 |
+| [getDisposeStream()](#getDisposeStream--) | 获取一个值，指示在容器被释放时是否应释放流。 |
 | [getStreamContainer()](#getStreamContainer--) | 获取流容器。 |
 
 ## Example: This example demonstrates how to use StreamSource to create a new Image file (a JPEG type)
@@ -45,13 +45,13 @@ com.aspose.imaging.imageoptions.JpegOptions jpegOptions = new com.aspose.imaging
 java.io.InputStream stream = new java.io.FileInputStream("C:\\temp\\sample.jpeg");
 
 // 为 JpegOptions 实例定义 source 属性
-// 第二个布尔参数决定在超出作用域后是否释放 Stream
+// 第二个布尔参数决定 Stream 在超出作用域后是否被释放
 jpegOptions.setSource(new com.aspose.imaging.sources.StreamSource(stream, true));
 
-// 创建 Image 的实例并调用 Create 方法，将 JpegOptions 作为参数以初始化 Image 对象
+// 创建 Image 的实例，并使用 JpegOptions 作为参数调用 Create 方法来初始化 Image 对象
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(jpegOptions, 500, 500);
 try {
-    // 进行一些图像处理。
+    // 进行一些图像处理
 } finally {
     image.dispose();
 }
@@ -188,7 +188,7 @@ public boolean getDisposeStream()
 ```
 
 
-获取一个值，指示是否在容器被释放时应释放流。
+获取一个值，指示在容器被释放时是否应释放流。
 
 **Returns:**
 boolean - 如果应释放流则为 `true`；否则为 `false`。
@@ -203,4 +203,4 @@ public StreamContainer getStreamContainer()
 **Returns:**
 [StreamContainer](../../com.aspose.imaging/streamcontainer) - the stream container.
 
-请谨慎使用。检索后需要释放流容器。
+请谨慎使用。检索后您需要释放流容器。

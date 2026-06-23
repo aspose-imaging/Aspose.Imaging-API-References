@@ -1,7 +1,7 @@
 ---
 title: "TeleaWatermarkOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "常见的 Telea 算法选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "通用 Telea 算法选项。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.watermark.options/teleawatermarkoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.watermark.options.WatermarkOptions](../../
 public class TeleaWatermarkOptions extends WatermarkOptions
 ```
 
-常见的 Telea 算法选项。
+通用 Telea 算法选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -100,5 +100,5 @@ public final void setHalfPatchSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 半补丁大小。 |
+| 值 | int | 半补丁大小。 |
 

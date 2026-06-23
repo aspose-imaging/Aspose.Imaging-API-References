@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBasePointType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基点类型。"
 type: docs
 weight: 13

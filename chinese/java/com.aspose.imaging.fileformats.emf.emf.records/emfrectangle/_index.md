@@ -1,7 +1,7 @@
 ---
 title: "EmfRectangle"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_RECTANGLE 记录绘制一个矩形。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EMR_RECTANGLE 记录绘制一个矩形。"
 type: docs
 weight: 107
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfrectangle/
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfRectangle extends EmfDrawingRecordType
 ```
 
-EMR\\_RECTANGLE 记录绘制一个矩形。该矩形使用当前笔进行描边，使用当前画刷进行填充。
+该 EMR\_RECTANGLE 记录绘制一个矩形。该矩形使用当前笔描边，并使用当前画刷填充。
 
-当前坐标既不被 Rectangle 使用，也不被更新。如果使用 PS\\_NULL 笔，则矩形的高度和宽度各减少 1 像素。
+Rectangle 不会使用也不会更新当前坐标。如果使用 PS\_NULL 笔，则矩形的高度和宽度各减少 1 像素。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -38,7 +38,7 @@ public EmfRectangle(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfRectangle() {#EmfRectangle--}
 ```

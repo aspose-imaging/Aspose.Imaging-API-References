@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.coreexceptions.compressors"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含由受支持的压缩算法之一抛出的异常。"
 type: docs
 weight: 16

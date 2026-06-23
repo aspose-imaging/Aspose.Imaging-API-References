@@ -1,6 +1,6 @@
 ---
 title: "IImageMask"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "描述掩码。"
 type: docs
 weight: 18
@@ -24,7 +24,7 @@ public interface IImageMask extends System.ICloneable
 | [getSelectionBounds()](#getSelectionBounds--) | 获取掩码选定部分的边界（以像素为单位）。 |
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | 检查指定像素是否不透明。 |
 | [isTransparent(int x, int y)](#isTransparent-int-int-) | 检查指定像素是否透明。 |
-| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | 获取指定像素的透明度，精确到字节。 |
+| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | 获取指定像素的透明度，精度为字节。 |
 ### getSource() {#getSource--}
 ```
 public abstract RasterImage getSource()
@@ -113,7 +113,7 @@ public abstract byte getByteOpacity(int x, int y)
 ```
 
 
-获取指定像素的透明度，精确到字节。
+获取指定像素的透明度，精度为字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

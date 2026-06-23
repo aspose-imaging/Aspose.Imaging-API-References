@@ -1,6 +1,6 @@
 ---
 title: "TiffThresholds"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "阈值处理用于数据。"
 type: docs
 weight: 26

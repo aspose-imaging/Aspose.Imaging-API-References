@@ -1,6 +1,6 @@
 ---
 title: "EmfStrokePath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_STROKEPATH 类"
 type: docs
 weight: 152
@@ -23,8 +23,8 @@ EMR\_STROKEPATH 类
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBounds()](#getBounds--) | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），用于指定设备单位中的边界矩形 |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），用于指定设备单位中的边界矩形 |
+| [getBounds()](#getBounds--) | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定设备单位中的边界矩形。 |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定设备单位中的边界矩形。 |
 ### EmfStrokePath(EmfRecord record) {#EmfStrokePath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfStrokePath(EmfRecord record)
@@ -52,7 +52,7 @@ public Rectangle getBounds()
 ```
 
 
-获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），用于指定设备单位中的边界矩形
+获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定设备单位中的边界矩形。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -62,7 +62,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），用于指定设备单位中的边界矩形
+获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定设备单位中的边界矩形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

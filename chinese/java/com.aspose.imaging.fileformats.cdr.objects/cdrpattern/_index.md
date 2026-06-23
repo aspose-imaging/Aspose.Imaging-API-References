@@ -1,7 +1,7 @@
 ---
 title: "CdrPattern"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 位图"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 位图"
 type: docs
 weight: 33
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrpattern/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrPattern extends CdrDictionaryItem
 ```
 
-cdr 位图
+该 cdr 位图
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -53,7 +53,7 @@ public final void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 宽度。 |
+| 值 | int | 宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -76,5 +76,5 @@ public final void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 高度。 |
+| 值 | int | 高度。 |
 

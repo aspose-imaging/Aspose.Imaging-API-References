@@ -1,6 +1,6 @@
 ---
 title: "OdLineTo"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "增强 lineTo"
 type: docs
 weight: 26
@@ -39,7 +39,7 @@ public OdLineTo(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getCoordinates() {#getCoordinates--}
 ```
@@ -85,7 +85,7 @@ public void setVertical(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 如果垂直则为 `true`；否则为 `false`。 |
+| 值 | boolean | `true` 如果垂直；否则为 `false`。 |
 
 ### getHorizontal() {#getHorizontal--}
 ```
@@ -108,5 +108,5 @@ public void setHorizontal(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 如果垂直则为 `true`；否则为 `false`。 |
+| 值 | boolean | `true` 如果垂直；否则为 `false`。 |
 

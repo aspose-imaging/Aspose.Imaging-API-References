@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusCompoundLineData"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusCompoundLineData 对象指定复合线的线段和间隔数据。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EmfPlusCompoundLineData 对象指定复合线的线段和间距数据。"
 type: docs
 weight: 30
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusCompoundLineData extends EmfPlusStructureObjectType
 ```
 
-EmfPlusCompoundLineData 对象指定复合线的线段和间隔数据。
+EmfPlusCompoundLineData 对象指定复合线的线段和间距数据。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public float[] getCompoundLineData()
 ```
 
 
-获取或设置一个 CompoundLineDataSize 浮点值数组，用于指定笔的复合线。元素必须按递增顺序排列，且其值必须在 0.0 到 1.0（含）之间。
+获取或设置一个 CompoundLineDataSize 浮点值数组，用于指定笔的复合线。数组元素必须按递增顺序排列，且其值必须在 0.0 到 1.0（含）之间。
 
 **Returns:**
 float[]
@@ -46,10 +46,10 @@ public void setCompoundLineData(float[] value)
 ```
 
 
-获取或设置一个 CompoundLineDataSize 浮点值数组，用于指定笔的复合线。元素必须按递增顺序排列，且其值必须在 0.0 到 1.0（含）之间。
+获取或设置一个 CompoundLineDataSize 浮点值数组，用于指定笔的复合线。数组元素必须按递增顺序排列，且其值必须在 0.0 到 1.0（含）之间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float[] |  |
+| 值 | float[] |  |
 

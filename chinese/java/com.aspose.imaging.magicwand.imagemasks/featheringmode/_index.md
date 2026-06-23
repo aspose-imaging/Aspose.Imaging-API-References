@@ -1,6 +1,6 @@
 ---
 title: "FeatheringMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定羽化算法的工作方式。"
 type: docs
 weight: 12

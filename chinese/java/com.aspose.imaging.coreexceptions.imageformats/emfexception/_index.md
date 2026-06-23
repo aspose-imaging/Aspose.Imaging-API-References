@@ -1,6 +1,6 @@
 ---
 title: "EmfException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Emf 类的异常"
 type: docs
 weight: 13
@@ -29,5 +29,5 @@ public EmfException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 描述错误的消息。 |
+| 消息 | java.lang.String | 描述错误的消息。 |
 

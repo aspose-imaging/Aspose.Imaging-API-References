@@ -1,7 +1,7 @@
 ---
 title: "JoinTypes"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "线段之间的连接类型"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "线条之间的连接类型"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.cmx.objectmodel.enums/jointypes/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class JoinTypes extends System.Enum
 ```
 
-线段之间的连接类型
+线条之间的连接类型
 ## 字段
 
 | 字段 | 描述 |

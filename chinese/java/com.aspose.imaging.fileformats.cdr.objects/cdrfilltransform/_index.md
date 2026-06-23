@@ -1,7 +1,7 @@
 ---
 title: "CdrFillTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 填充 变换"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 填充 变换"
 type: docs
 weight: 20
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrfilltransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFillTransform extends CdrObjectContainer
 ```
 
-cdr 填充 变换
+该 cdr 填充 变换
 ## 构造函数
 
 | 构造函数 | 描述 |

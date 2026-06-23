@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.magicwand.imagemasks"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该软件包处理图像掩码。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包处理图像掩码。"
 type: docs
 weight: 98
 url: /zh/java/com.aspose.imaging.magicwand.imagemasks/
 ---
 
-该软件包处理图像掩码。
+该包处理图像掩码。
 
 
 ## 类
@@ -18,9 +18,9 @@ url: /zh/java/com.aspose.imaging.magicwand.imagemasks/
 | [EmptyImageMask](../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) | 描述空的非抽象掩码。 |
 | [FeatheringMode](../com.aspose.imaging.magicwand.imagemasks/featheringmode) | 指定羽化算法的工作方式。 |
 | [FeatheringSettings](../com.aspose.imaging.magicwand.imagemasks/featheringsettings) | 羽化设置类。 |
-| [ImageBitMask](../com.aspose.imaging.magicwand.imagemasks/imagebitmask) | 描述二值图像掩码。 |
+| [ImageBitMask](../com.aspose.imaging.magicwand.imagemasks/imagebitmask) | 描述二进制图像掩码。 |
 | [ImageGrayscaleMask](../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | 描述灰度图像掩码。 |
-| [ImageMask](../com.aspose.imaging.magicwand.imagemasks/imagemask) | 描述二值图像掩码。 |
+| [ImageMask](../com.aspose.imaging.magicwand.imagemasks/imagemask) | 描述二进制图像掩码。 |
 | [RectangleMask](../com.aspose.imaging.magicwand.imagemasks/rectanglemask) | 描述矩形掩码。 |
 
 ## 接口

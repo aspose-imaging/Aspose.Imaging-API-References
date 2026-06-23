@@ -1,6 +1,6 @@
 ---
 title: "EmfMetafileHeaderExtension1"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfMetafileHeaderExtension1 记录是用于 EMF 元文件第一扩展的头部记录。"
 type: docs
 weight: 71
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class EmfMetafileHeaderExtension1 extends EmfMetafileHeader
 ```
 
-EmfMetafileHeaderExtension1 记录是用于 EMF 元文件首次扩展的头记录。紧随 EmfHeaderExtension1 字段之后，其余字段为可选，可以任意顺序出现。
+EmfMetafileHeaderExtension1 记录是用于 EMF 元文件第一次扩展的头记录。紧随 EmfHeaderExtension1 字段之后，其余字段是可选的，且可以以任意顺序出现。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,10 +23,10 @@ EmfMetafileHeaderExtension1 记录是用于 EMF 元文件首次扩展的头记�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getEmfHeaderExtension1()](#getEmfHeaderExtension1--) | 获取或设置一个 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。 |
-| [setEmfHeaderExtension1(EmfHeaderExtension1 value)](#setEmfHeaderExtension1-com.aspose.imaging.fileformats.emf.emf.objects.EmfHeaderExtension1-) | 获取或设置一个 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。 |
-| [getEmfPixelFormatBuffer()](#getEmfPixelFormatBuffer--) | 获取或设置一个可选的字节数组，包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。 |
-| [setEmfPixelFormatBuffer(byte[] value)](#setEmfPixelFormatBuffer-byte---) | 获取或设置一个可选的字节数组，包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。 |
+| [getEmfHeaderExtension1()](#getEmfHeaderExtension1--) | 获取或设置 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。 |
+| [setEmfHeaderExtension1(EmfHeaderExtension1 value)](#setEmfHeaderExtension1-com.aspose.imaging.fileformats.emf.emf.objects.EmfHeaderExtension1-) | 获取或设置 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。 |
+| [getEmfPixelFormatBuffer()](#getEmfPixelFormatBuffer--) | 获取或设置一个可选的字节数组，其中包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。 |
+| [setEmfPixelFormatBuffer(byte[] value)](#setEmfPixelFormatBuffer-byte---) | 获取或设置一个可选的字节数组，其中包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。 |
 ### EmfMetafileHeaderExtension1(EmfMetafileHeader header) {#EmfMetafileHeaderExtension1-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeader-}
 ```
 public EmfMetafileHeaderExtension1(EmfMetafileHeader header)
@@ -59,7 +59,7 @@ public EmfHeaderExtension1 getEmfHeaderExtension1()
 ```
 
 
-获取或设置一个 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。
+获取或设置 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。
 
 **Returns:**
 [EmfHeaderExtension1](../../com.aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1)
@@ -69,7 +69,7 @@ public void setEmfHeaderExtension1(EmfHeaderExtension1 value)
 ```
 
 
-获取或设置一个 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。
+获取或设置 HeaderExtension1 对象，该对象指定元文件中图像的附加信息。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -82,7 +82,7 @@ public byte[] getEmfPixelFormatBuffer()
 ```
 
 
-获取或设置一个可选的字节数组，包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。因此，此缓冲区中标记为 \"UndefinedSpace\" 的字段是可选的，必须忽略。
+获取或设置一个可选的字节数组，其中包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。因此，此缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。
 
 **Returns:**
 byte[]
@@ -92,10 +92,10 @@ public void setEmfPixelFormatBuffer(byte[] value)
 ```
 
 
-获取或设置一个可选的字节数组，包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。因此，此缓冲区中标记为 \"UndefinedSpace\" 的字段是可选的，必须忽略。
+获取或设置一个可选的字节数组，其中包含 EMF 像素格式描述符，该描述符不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。因此，此缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

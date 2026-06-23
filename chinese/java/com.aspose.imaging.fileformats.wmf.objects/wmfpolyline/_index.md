@@ -1,13 +1,13 @@
 ---
 title: "WmfPolyLine"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "多段线对象。"
 type: docs
 weight: 56
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfpolyline/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPolyLine extends WmfObject
 ```
@@ -43,7 +43,7 @@ public short getNumberOfPoint()
 值：点的数量。
 
 **Returns:**
-short
+短
 ### setNumberOfPoint(short value) {#setNumberOfPoint-short-}
 ```
 public void setNumberOfPoint(short value)
@@ -57,7 +57,7 @@ public void setNumberOfPoint(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getAPoints() {#getAPoints--}
 ```
@@ -65,7 +65,7 @@ public Point[] getAPoints()
 ```
 
 
-获取或设置点。一个 NumberOfPoints 数组，包含 32 位 PointS 对象，以逻辑单位表示。
+获取或设置点。一个 NumberOfPoints 数组，包含 32 位 PointS 对象，使用逻辑单位。
 
 值：点。
 
@@ -77,7 +77,7 @@ public void setAPoints(Point[] value)
 ```
 
 
-获取或设置点。一个 NumberOfPoints 数组，包含 32 位 PointS 对象，以逻辑单位表示。
+获取或设置点。一个 NumberOfPoints 数组，包含 32 位 PointS 对象，使用逻辑单位。
 
 值：点。
 

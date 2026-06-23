@@ -1,6 +1,6 @@
 ---
 title: "EmfOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Emf 选项。"
 type: docs
 weight: 19
@@ -18,9 +18,9 @@ Emf 选项。
 | 构造函数 | 描述 |
 | --- | --- |
 | [EmfOptions()](#EmfOptions--) |  |
-| [EmfOptions(float dpiX, float dpiY)](#EmfOptions-float-float-) | 初始化一个新的 `EmfOptions` 类实例。 |
+| [EmfOptions(float dpiX, float dpiY)](#EmfOptions-float-float-) | 初始化 `EmfOptions` 类的新实例。 |
 | [EmfOptions(float dpi)](#EmfOptions-float-) |  |
-| [EmfOptions(EmfOptions emfOptions)](#EmfOptions-com.aspose.imaging.imageoptions.EmfOptions-) | 初始化一个新的 `EmfOptions` 类实例。 |
+| [EmfOptions(EmfOptions emfOptions)](#EmfOptions-com.aspose.imaging.imageoptions.EmfOptions-) | 初始化 `EmfOptions` 类的新实例。 |
 
 ## Example: The following example shows how to convert a multipage vector image to EMF format in general way without referencing to a particular image type.
 
@@ -35,7 +35,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // 仅导出前两页。实际上，由于 EMF 不是多页格式，只会转换一页。
+    // 仅导出前两页。事实上，由于 EMF 不是多页格式，只会转换一页。
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -106,7 +106,7 @@ public EmfOptions(float dpiX, float dpiY)
 ```
 
 
-初始化一个新的 `EmfOptions` 类实例。
+初始化 `EmfOptions` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -131,7 +131,7 @@ public EmfOptions(EmfOptions emfOptions)
 ```
 
 
-初始化一个新的 `EmfOptions` 类实例。
+初始化 `EmfOptions` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

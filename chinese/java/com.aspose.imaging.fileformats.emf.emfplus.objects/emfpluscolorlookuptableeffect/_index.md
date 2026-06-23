@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusColorLookupTableEffect"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "ColorLookupTableEffect 对象指定对图像颜色的调整。"
 type: docs
 weight: 28
@@ -22,14 +22,14 @@ ColorLookupTableEffect 对象指定对图像颜色的调整。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBlueLookupTable()](#getBlueLookupTable--) | 获取或设置一个 256 字节的数组，指定蓝色通道的调整值。 |
-| [setBlueLookupTable(byte[] value)](#setBlueLookupTable-byte---) | 获取或设置一个 256 字节的数组，指定蓝色通道的调整值。 |
-| [getGreenLookupTable()](#getGreenLookupTable--) | 获取或设置一个 256 字节的数组，指定绿色通道的调整值。 |
-| [setGreenLookupTable(byte[] value)](#setGreenLookupTable-byte---) | 获取或设置一个 256 字节的数组，指定绿色通道的调整值。 |
-| [getRedLookupTable()](#getRedLookupTable--) | 获取或设置一个 256 字节的数组，指定红色通道的调整值。 |
-| [setRedLookupTable(byte[] value)](#setRedLookupTable-byte---) | 获取或设置一个 256 字节的数组，指定红色通道的调整值。 |
-| [getAlphaLookupTable()](#getAlphaLookupTable--) | 获取或设置一个 256 字节的数组，指定 alpha 通道的调整值。 |
-| [setAlphaLookupTable(byte[] value)](#setAlphaLookupTable-byte---) | 获取或设置一个 256 字节的数组，指定 alpha 通道的调整值。 |
+| [getBlueLookupTable()](#getBlueLookupTable--) | 获取或设置一个 256 字节的数组，用于指定蓝色通道的调整。 |
+| [setBlueLookupTable(byte[] value)](#setBlueLookupTable-byte---) | 获取或设置一个 256 字节的数组，用于指定蓝色通道的调整。 |
+| [getGreenLookupTable()](#getGreenLookupTable--) | 获取或设置一个 256 字节的数组，用于指定绿色通道的调整。 |
+| [setGreenLookupTable(byte[] value)](#setGreenLookupTable-byte---) | 获取或设置一个 256 字节的数组，用于指定绿色通道的调整。 |
+| [getRedLookupTable()](#getRedLookupTable--) | 获取或设置一个 256 字节的数组，用于指定红色通道的调整。 |
+| [setRedLookupTable(byte[] value)](#setRedLookupTable-byte---) | 获取或设置一个 256 字节的数组，用于指定红色通道的调整。 |
+| [getAlphaLookupTable()](#getAlphaLookupTable--) | 获取或设置一个 256 字节的数组，用于指定 alpha 通道的调整。 |
+| [setAlphaLookupTable(byte[] value)](#setAlphaLookupTable-byte---) | 获取或设置一个 256 字节的数组，用于指定 alpha 通道的调整。 |
 ### EmfPlusColorLookupTableEffect() {#EmfPlusColorLookupTableEffect--}
 ```
 public EmfPlusColorLookupTableEffect()
@@ -42,7 +42,7 @@ public byte[] getBlueLookupTable()
 ```
 
 
-获取或设置一个 256 字节的数组，指定蓝色通道的调整值。
+获取或设置一个 256 字节的数组，用于指定蓝色通道的调整。
 
 **Returns:**
 byte[]
@@ -52,12 +52,12 @@ public void setBlueLookupTable(byte[] value)
 ```
 
 
-获取或设置一个 256 字节的数组，指定蓝色通道的调整值。
+获取或设置一个 256 字节的数组，用于指定蓝色通道的调整。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getGreenLookupTable() {#getGreenLookupTable--}
 ```
@@ -65,7 +65,7 @@ public byte[] getGreenLookupTable()
 ```
 
 
-获取或设置一个 256 字节的数组，指定绿色通道的调整值。
+获取或设置一个 256 字节的数组，用于指定绿色通道的调整。
 
 **Returns:**
 byte[]
@@ -75,12 +75,12 @@ public void setGreenLookupTable(byte[] value)
 ```
 
 
-获取或设置一个 256 字节的数组，指定绿色通道的调整值。
+获取或设置一个 256 字节的数组，用于指定绿色通道的调整。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getRedLookupTable() {#getRedLookupTable--}
 ```
@@ -88,7 +88,7 @@ public byte[] getRedLookupTable()
 ```
 
 
-获取或设置一个 256 字节的数组，指定红色通道的调整值。
+获取或设置一个 256 字节的数组，用于指定红色通道的调整。
 
 **Returns:**
 byte[]
@@ -98,12 +98,12 @@ public void setRedLookupTable(byte[] value)
 ```
 
 
-获取或设置一个 256 字节的数组，指定红色通道的调整值。
+获取或设置一个 256 字节的数组，用于指定红色通道的调整。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getAlphaLookupTable() {#getAlphaLookupTable--}
 ```
@@ -111,7 +111,7 @@ public byte[] getAlphaLookupTable()
 ```
 
 
-获取或设置一个 256 字节的数组，指定 alpha 通道的调整值。
+获取或设置一个 256 字节的数组，用于指定 alpha 通道的调整。
 
 **Returns:**
 byte[]
@@ -121,10 +121,10 @@ public void setAlphaLookupTable(byte[] value)
 ```
 
 
-获取或设置一个 256 字节的数组，指定 alpha 通道的调整值。
+获取或设置一个 256 字节的数组，用于指定 alpha 通道的调整。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

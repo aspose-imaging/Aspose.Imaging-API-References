@@ -1,6 +1,6 @@
 ---
 title: "DigitalSignatureException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示在隐写操作期间发生的错误。"
 type: docs
 weight: 12
@@ -30,7 +30,7 @@ public DigitalSignatureException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 描述错误的消息。 |
+| 消息 | java.lang.String | 描述错误的消息。 |
 
 ### DigitalSignatureException(String message, RuntimeException innerException) {#DigitalSignatureException-java.lang.String-java.lang.RuntimeException-}
 ```
@@ -43,6 +43,6 @@ public DigitalSignatureException(String message, RuntimeException innerException
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 描述错误的消息。 |
+| 消息 | java.lang.String | 描述错误的消息。 |
 | innerException | java.lang.RuntimeException | 导致当前异常的异常。 |
 

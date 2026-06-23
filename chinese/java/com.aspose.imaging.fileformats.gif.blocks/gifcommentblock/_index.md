@@ -1,7 +1,7 @@
 ---
 title: "GifCommentBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Gif 注释块."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Gif 注释块。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.gif.blocks/gifcommentblock/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifCommentBlock extends GifBlock
 ```
 
-Gif 注释块.
+Gif 注释块。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -50,7 +50,7 @@ public GifCommentBlock(String comment)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 注释 | java.lang.String | 注释。 |
+| comment | java.lang.String | 注释。 |
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
 ```
@@ -74,7 +74,7 @@ public String getComment()
 ```
 
 
-获取或设置注释。注意，注释必须使用 ASCII 编码，并将相应存储。
+获取或设置注释。注意，注释必须使用 ASCII 编码并将相应存储。
 
 值：注释。
 
@@ -86,12 +86,12 @@ public void setComment(String value)
 ```
 
 
-获取或设置注释。注意，注释必须使用 ASCII 编码，并将相应存储。
+获取或设置注释。注意，注释必须使用 ASCII 编码并将相应存储。
 
 值：注释。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "RdOptimizationError"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "RD 优化错误异常类"
 type: docs
 weight: 24
@@ -29,5 +29,5 @@ public RdOptimizationError(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 描述错误的消息。 |
+| 消息 | java.lang.String | 描述错误的消息。 |
 

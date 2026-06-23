@@ -1,7 +1,7 @@
 ---
 title: "PathMulticolorGradientBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "封装一个带有渐变的 Aspose.Imaging.Brush 对象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "封装一个 Aspose.Imaging.Brush 对象并带有渐变。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.imaging.brushes/pathmulticolorgradientbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class PathMulticolorGradientBrush extends PathGradientBrushBase
 ```
 
-封装一个带有渐变的 `Aspose.Imaging.Brush` 对象。此类不可被继承。
+封装一个 `Aspose.Imaging.Brush` 对象并带有渐变。此类不可被继承。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,8 +26,8 @@ public final class PathMulticolorGradientBrush extends PathGradientBrushBase
 
 | 方法 | 描述 |
 | --- | --- |
-| [getInterpolationColors()](#getInterpolationColors--) | 获取或设置定义多颜色线性渐变的 `com.aspose.imaging.ColorBlend`。 |
-| [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | 获取或设置定义多颜色线性渐变的 `com.aspose.imaging.ColorBlend`。 |
+| [getInterpolationColors()](#getInterpolationColors--) | 获取或设置一个 `com.aspose.imaging.ColorBlend`，它定义了多颜色线性渐变。 |
+| [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | 获取或设置一个 `com.aspose.imaging.ColorBlend`，它定义了多颜色线性渐变。 |
 ### PathMulticolorGradientBrush(PointF[] pathPoints) {#PathMulticolorGradientBrush-com.aspose.imaging.PointF---}
 ```
 public PathMulticolorGradientBrush(PointF[] pathPoints)
@@ -93,7 +93,7 @@ public PathMulticolorGradientBrush(GraphicsPath path)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | [GraphicsPath](../../com.aspose.imaging/graphicspath) | 定义此 `PathMulticolorGradientBrush` 所填充区域的 `GraphicsPath`。 |
+| path | [GraphicsPath](../../com.aspose.imaging/graphicspath) | `GraphicsPath` 定义了此 `PathMulticolorGradientBrush` 填充的区域。 |
 
 ### getInterpolationColors() {#getInterpolationColors--}
 ```
@@ -101,9 +101,9 @@ public ColorBlend getInterpolationColors()
 ```
 
 
-获取或设置定义多颜色线性渐变的 `com.aspose.imaging.ColorBlend`。
+获取或设置一个 `com.aspose.imaging.ColorBlend`，它定义了多颜色线性渐变。
 
-值：一个定义多颜色线性渐变的 `com.aspose.imaging.ColorBlend`。
+值：一个 `com.aspose.imaging.ColorBlend`，它定义了多颜色线性渐变。
 
 **Returns:**
 [ColorBlend](../../com.aspose.imaging/colorblend)
@@ -113,9 +113,9 @@ public void setInterpolationColors(ColorBlend value)
 ```
 
 
-获取或设置定义多颜色线性渐变的 `com.aspose.imaging.ColorBlend`。
+获取或设置一个 `com.aspose.imaging.ColorBlend`，它定义了多颜色线性渐变。
 
-值：一个定义多颜色线性渐变的 `com.aspose.imaging.ColorBlend`。
+值：一个 `com.aspose.imaging.ColorBlend`，它定义了多颜色线性渐变。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

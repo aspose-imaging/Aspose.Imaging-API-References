@@ -1,7 +1,7 @@
 ---
 title: "EmfBitFix28To4"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "BitFIX28_4 对象定义了 28.4 位 FIX 表示法的数值。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 BitFIX28_4 对象定义了 28.4 位 FIX 表示法中的数值。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/
@@ -38,7 +38,7 @@ public EmfBitFix28To4(int dwordData)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dwordData | int | dword 数据。 |
+| dwordData | int | 该 dword 数据。 |
 
 ### getIntVal() {#getIntVal--}
 ```
@@ -61,7 +61,7 @@ public void setIntVal(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getFracValue() {#getFracValue--}
 ```
@@ -84,7 +84,7 @@ public void setFracValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getValue() {#getValue--}
 ```

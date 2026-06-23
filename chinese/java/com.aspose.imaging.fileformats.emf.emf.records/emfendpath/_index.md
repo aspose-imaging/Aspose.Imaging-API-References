@@ -1,6 +1,6 @@
 ---
 title: "EmfEndPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "此记录关闭路径括号并将括号定义的路径选入回放设备上下文。"
 type: docs
 weight: 47

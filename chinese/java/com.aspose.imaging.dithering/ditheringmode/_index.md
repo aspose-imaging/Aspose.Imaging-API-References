@@ -1,6 +1,6 @@
 ---
 title: "DitheringMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "保存时要应用于图像的抖动设置。"
 type: docs
 weight: 10
@@ -55,7 +55,7 @@ public void setMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBits() {#getBits--}
 ```
@@ -78,7 +78,7 @@ public void setBits(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCustomPalette() {#getCustomPalette--}
 ```

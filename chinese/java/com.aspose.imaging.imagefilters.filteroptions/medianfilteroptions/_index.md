@@ -1,6 +1,6 @@
 ---
 title: "MedianFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "中值滤镜"
 type: docs
 weight: 22
@@ -34,7 +34,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用矩形大小为 5 的中值滤波器。
+    // 对整幅图像应用矩形大小为5的中值滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     rasterImage.save(dir + "sample.MedianFilter.png");
 } finally {
@@ -45,7 +45,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用核大小为 5 的双边平滑滤波器。
+    // 对整幅图像应用核大小为5的双边平滑滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     rasterImage.save(dir + "sample.BilateralSmoothingFilter.png");
 } finally {
@@ -56,7 +56,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用半径为 5、sigma 值为 4.0 的高斯模糊滤波器。
+    // 对整幅图像应用半径为5、sigma值为4.0的高斯模糊滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussianBlurFilter.png");
 } finally {
@@ -67,7 +67,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
+    // 对整幅图像应用半径为5、平滑值为4.0的Gauss-Wiener滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussWienerFilter.png");
 } finally {
@@ -78,7 +78,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动 Wiener 滤波器。
+    // 对整幅图像应用长度为5、平滑值为4.0、角度为90.0度的运动Wiener滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.save(dir + "sample.MotionWienerFilter.png");
 } finally {
@@ -89,7 +89,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用核大小为 5、sigma 值为 4.0 的锐化滤波器。
+    // 对整幅图像应用核大小为5、sigma值为4.0的锐化滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.SharpenFilter.png");
 } finally {
@@ -108,7 +108,7 @@ public MedianFilterOptions(int size)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | int | 过滤矩形的大小。 |
+| size | int | 过滤矩形的大小。 |
 
 ### getSize() {#getSize--}
 ```
@@ -135,5 +135,5 @@ public void setSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

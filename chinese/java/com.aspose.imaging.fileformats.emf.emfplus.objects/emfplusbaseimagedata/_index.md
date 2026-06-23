@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBaseImageData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像数据类型的基类。"
 type: docs
 weight: 12

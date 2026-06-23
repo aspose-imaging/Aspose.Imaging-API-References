@@ -1,7 +1,7 @@
 ---
 title: "BitmapV5Header"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "BitmapV5Header 结构体是位图信息头文件。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "BitmapV5Header 结构是位图信息头文件。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.bmp/bitmapv5header/
@@ -14,7 +14,7 @@ public class BitmapV5Header extends BitmapV4Header
 
 BitmapV5Header 结构是位图信息头文件。它是 BITMAPINFOHEADER 结构的扩展版本。
 
-如果 bV5Height 为负，表示自上而下的 DIB，则 bV5Compression 必须是 BI_RGB 或 BI_BITFIELDS。自上而下的 DIB 不能被压缩。独立颜色管理接口 (ICM) 2.0 允许将国际色彩联盟 (ICC) 色彩配置文件链接或嵌入到 DIB 中（DIB）。有关更多信息，请参阅 Using Structures。当 DIB 加载到内存中时，若存在配置文件数据，应位于颜色表之后，且 bV5ProfileData 应提供配置文件数据相对于 BITMAPV5HEADER 结构起始位置的偏移量。存储在 bV5ProfileData 中的值将不同于对 BITMAPV5HEADER 参数使用 sizeof 运算符返回的值，因为 bV5ProfileData 是从 BITMAPV5HEADER 结构起始到配置文件数据起始的字节偏移量。（位图位数据在内存中不跟随颜色表。）应用程序应在将 DIB 加载到内存后修改 bV5ProfileData 成员。对于打包的 DIB，配置文件数据应像文件格式一样位于位图位之后。bV5ProfileData 成员仍应给出配置文件数据相对于 BITMAPV5HEADER 起始的偏移量。仅当 bV5Size 等于 BITMAPV5HEADER 的大小且 bV5CSType 等于 PROFILE_EMBEDDED 或 PROFILE_LINKED 时，应用程序才应访问配置文件数据。
+如果 bV5Height 为负，表示自上而下的 DIB，则 bV5Compression 必须是 BI\_RGB 或 BI\_BITFIELDS。自上而下的 DIB 不能被压缩。独立颜色管理接口 (ICM) 2.0 允许将国际色彩联盟 (ICC) 色彩配置文件链接或嵌入到 DIB（DIB）中。有关更多信息，请参阅 Using Structures。当 DIB 加载到内存时，配置文件数据（如果存在）应位于颜色表之后，bV5ProfileData 应提供从 BITMAPV5HEADER 结构开始到配置文件数据的偏移量。存储在 bV5ProfileData 中的值将不同于对 BITMAPV5HEADER 参数使用 sizeof 运算符返回的值，因为 bV5ProfileData 是从 BITMAPV5HEADER 结构起始位置到配置文件数据起始位置的字节偏移量。（位图位在内存中不跟随颜色表）。应用程序应在将 DIB 加载到内存后修改 bV5ProfileData 成员。对于打包的 DIB，配置文件数据应像文件格式一样位于位图位之后。bV5ProfileData 成员仍应给出从 BITMAPV5HEADER 起始位置到配置文件数据的偏移量。仅当 bV5Size 等于 BITMAPV5HEADER 的大小且 bV5CSType 等于 PROFILE\_EMBEDDED 或 PROFILE\_LINKED 时，应用程序才应访问配置文件数据。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -75,7 +75,7 @@ public void setIntent(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 意图。 |
+| 值 | long | 意图。 |
 
 ### getProfileData() {#getProfileData--}
 ```
@@ -98,7 +98,7 @@ public void setProfileData(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 配置文件数据。 |
+| 值 | long | 配置文件数据。 |
 
 ### getProfileSize() {#getProfileSize--}
 ```
@@ -121,7 +121,7 @@ public void setProfileSize(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 配置文件的大小。 |
+| 值 | long | 配置文件的大小。 |
 
 ### getReserved() {#getReserved--}
 ```
@@ -144,5 +144,5 @@ public void setReserved(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 保留值。 |
+| 值 | long | 保留值。 |
 

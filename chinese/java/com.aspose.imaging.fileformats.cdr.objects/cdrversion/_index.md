@@ -1,6 +1,6 @@
 ---
 title: "CdrVersion"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 版本"
 type: docs
 weight: 46
@@ -51,5 +51,5 @@ public final void setVersion(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 版本。 |
+| 值 | int | 版本。 |
 

@@ -1,13 +1,13 @@
 ---
 title: "WmfFrameRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 wmf frame region 对象。"
 type: docs
 weight: 39
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfframeregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfFrameRegion extends WmfObject
 ```
@@ -25,8 +25,8 @@ public class WmfFrameRegion extends WmfObject
 | --- | --- |
 | [getRegionIndex()](#getRegionIndex--) | 获取或设置区域的索引。 |
 | [setRegionIndex(int value)](#setRegionIndex-int-) | 获取或设置区域的索引。 |
-| [getBrushIndex()](#getBrushIndex--) | 获取或设置画笔的索引。 |
-| [setBrushIndex(int value)](#setBrushIndex-int-) | 获取或设置画笔的索引。 |
+| [getBrushIndex()](#getBrushIndex--) | 获取或设置画刷的索引。 |
+| [setBrushIndex(int value)](#setBrushIndex-int-) | 获取或设置画刷的索引。 |
 | [getHeight()](#getHeight--) | 获取或设置高度。 |
 | [setHeight(short value)](#setHeight-short-) | 获取或设置高度。 |
 | [getWidth()](#getWidth--) | 获取或设置宽度。 |
@@ -51,7 +51,7 @@ public WmfFrameRegion(WmfGraphicObject region, WmfGraphicObject brush)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | region | [WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | 该区域。 |
-| brush | [WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | 画刷。 |
+| brush | [WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | 画笔。 |
 
 ### getRegionIndex() {#getRegionIndex--}
 ```
@@ -61,7 +61,7 @@ public int getRegionIndex()
 
 获取或设置区域的索引。
 
-值：在 WMF 对象表中的索引，用于获取要填充的区域。
+值：WMF 对象表中的索引，用于获取要填充的区域。
 
 **Returns:**
 int
@@ -73,12 +73,12 @@ public void setRegionIndex(int value)
 
 获取或设置区域的索引。
 
-值：在 WMF 对象表中的索引，用于获取要填充的区域。
+值：WMF 对象表中的索引，用于获取要填充的区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBrushIndex() {#getBrushIndex--}
 ```
@@ -86,9 +86,9 @@ public int getBrushIndex()
 ```
 
 
-获取或设置画笔的索引。
+获取或设置画刷的索引。
 
-值：在 WMF 对象表中的索引，用于获取用于填充区域的画笔。
+值：WMF 对象表中的索引，用于获取用于填充区域的画刷。
 
 **Returns:**
 int
@@ -98,14 +98,14 @@ public void setBrushIndex(int value)
 ```
 
 
-获取或设置画笔的索引。
+获取或设置画刷的索引。
 
-值：在 WMF 对象表中的索引，用于获取用于填充区域的画笔。
+值：WMF 对象表中的索引，用于获取用于填充区域的画刷。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -118,7 +118,7 @@ public short getHeight()
 值：区域框架的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -132,7 +132,7 @@ public void setHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -145,7 +145,7 @@ public short getWidth()
 值：区域框架的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -159,5 +159,5 @@ public void setWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

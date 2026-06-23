@@ -1,6 +1,6 @@
 ---
 title: "ExifSensingMethod"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 感应方式枚举。"
 type: docs
 weight: 24
@@ -21,9 +21,9 @@ exif 感应方式枚举。
 | [OneChipColorArea](#OneChipColorArea) | 单芯片彩色区域。 |
 | [TwoChipColorArea](#TwoChipColorArea) | 双芯片彩色区域。 |
 | [ThreeChipColorArea](#ThreeChipColorArea) | 三芯片彩色区域。 |
-| [Colorsequentialarea](#Colorsequentialarea) | 顺序彩色区域。 |
+| [Colorsequentialarea](#Colorsequentialarea) | 彩色顺序区域。 |
 | [Trilinearsensor](#Trilinearsensor) | 三线性传感器。 |
-| [Colorsequentiallinear](#Colorsequentiallinear) | 顺序线性彩色传感器。 |
+| [Colorsequentiallinear](#Colorsequentiallinear) | 彩色顺序线性传感器。 |
 ### Notdefined {#Notdefined}
 ```
 public static final int Notdefined
@@ -62,7 +62,7 @@ public static final int Colorsequentialarea
 ```
 
 
-顺序彩色区域。
+彩色顺序区域。
 
 ### Trilinearsensor {#Trilinearsensor}
 ```
@@ -78,5 +78,5 @@ public static final int Colorsequentiallinear
 ```
 
 
-顺序线性彩色传感器。
+彩色顺序线性传感器。
 

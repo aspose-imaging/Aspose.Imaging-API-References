@@ -1,6 +1,6 @@
 ---
 title: "CmxTextBlockSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为文本块指定的信息。"
 type: docs
 weight: 17
@@ -133,7 +133,7 @@ public final void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文本。 |
+| 值 | java.lang.String | 文本。 |
 
 ### getCharLocations() {#getCharLocations--}
 ```

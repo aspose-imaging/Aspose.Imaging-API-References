@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusRegionNodePath"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusRegionNodePath 对象指定用于绘制区域节点边界的图形路径。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusRegionNodePath 对象指定用于绘制区域节点边界的图形路径。"
 type: docs
 weight: 71
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusRegionNodePath extends EmfPlusStructureObjectType
 ```
 
-EmfPlusRegionNodePath 对象指定用于绘制区域节点边界的图形路径。
+该 EmfPlusRegionNodePath 对象指定用于绘制区域节点边界的图形路径。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ EmfPlusRegionNodePath 对象指定用于绘制区域节点边界的图形路径�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getRegionNodePath()](#getRegionNodePath--) | 获取或设置一个 EmfPlusPath 对象（章节 2.2.1.6），该对象指定区域节点的边界。 |
-| [setRegionNodePath(EmfPlusPath value)](#setRegionNodePath-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置一个 EmfPlusPath 对象（章节 2.2.1.6），该对象指定区域节点的边界。 |
+| [getRegionNodePath()](#getRegionNodePath--) | 获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定区域节点的边界。 |
+| [setRegionNodePath(EmfPlusPath value)](#setRegionNodePath-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定区域节点的边界。 |
 ### EmfPlusRegionNodePath() {#EmfPlusRegionNodePath--}
 ```
 public EmfPlusRegionNodePath()
@@ -36,7 +36,7 @@ public EmfPlusPath getRegionNodePath()
 ```
 
 
-获取或设置一个 EmfPlusPath 对象（章节 2.2.1.6），该对象指定区域节点的边界。
+获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定区域节点的边界。
 
 **Returns:**
 [EmfPlusPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)
@@ -46,7 +46,7 @@ public void setRegionNodePath(EmfPlusPath value)
 ```
 
 
-获取或设置一个 EmfPlusPath 对象（章节 2.2.1.6），该对象指定区域节点的边界。
+获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定区域节点的边界。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

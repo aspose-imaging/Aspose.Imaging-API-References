@@ -1,6 +1,6 @@
 ---
 title: "OdGradientBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "渐变填充"
 type: docs
 weight: 12
@@ -59,7 +59,7 @@ public final void setGradientStyle(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 渐变样式。 |
+| 值 | int | 渐变样式。 |
 
 ### getStartColor() {#getStartColor--}
 ```
@@ -82,7 +82,7 @@ public final void setStartColor(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 起始颜色。 |
+| 值 | int | 起始颜色。 |
 
 ### getEndColor() {#getEndColor--}
 ```
@@ -105,7 +105,7 @@ public final void setEndColor(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 结束颜色。 |
+| 值 | int | 结束颜色。 |
 
 ### getAngle() {#getAngle--}
 ```
@@ -128,7 +128,7 @@ public final void setAngle(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 角度。 |
+| 值 | float | 角度。 |
 
 ### getBrushStyle() {#getBrushStyle--}
 ```
@@ -149,4 +149,4 @@ public Object deepClone()
 克隆此实例。
 
 **Returns:**
-java.lang.Object - 返回源画刷的新实例
+java.lang.Object - 返回源画笔的新实例

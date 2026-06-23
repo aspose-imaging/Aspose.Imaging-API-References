@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.xmp.types.complex.thumbnail"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含文件的缩略图类。"
 type: docs
 weight: 130

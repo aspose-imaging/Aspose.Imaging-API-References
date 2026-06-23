@@ -1,6 +1,6 @@
 ---
 title: "PointExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含 Point 和 PointF 结构的扩展方法。"
 type: docs
 weight: 20

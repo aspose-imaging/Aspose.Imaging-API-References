@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusEndContainer"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusEndContainer 记录关闭先前由开始容器操作打开的图形状态容器。"
 type: docs
 weight: 30
@@ -35,7 +35,7 @@ public EmfPlusEndContainer(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getStackIndex() {#getStackIndex--}
 ```
@@ -43,7 +43,7 @@ public int getStackIndex()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定图形状态容器的索引。该索引 MUST 必须匹配先前的 EmfPlusBeginContainer（第 2.3.7.1 节）或 EmfPlusBeginContainerNoParams 记录（第 2.3.7.2 节）打开的图形状态容器所关联的值。
+获取或设置一个 32 位无符号整数，指定图形状态容器的索引。该索引必须匹配先前由 EmfPlusBeginContainer（第 2.3.7.1 节）或 EmfPlusBeginContainerNoParams 记录（第 2.3.7.2 节）打开的图形状态容器关联的值。
 
 值：堆栈的索引。
 
@@ -55,12 +55,12 @@ public void setStackIndex(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定图形状态容器的索引。该索引 MUST 必须匹配先前的 EmfPlusBeginContainer（第 2.3.7.1 节）或 EmfPlusBeginContainerNoParams 记录（第 2.3.7.2 节）打开的图形状态容器所关联的值。
+获取或设置一个 32 位无符号整数，指定图形状态容器的索引。该索引必须匹配先前由 EmfPlusBeginContainer（第 2.3.7.1 节）或 EmfPlusBeginContainerNoParams 记录（第 2.3.7.2 节）打开的图形状态容器关联的值。
 
 值：堆栈的索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

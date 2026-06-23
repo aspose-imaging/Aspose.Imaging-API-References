@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.awt"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含与 java.awt.Graphic2D 渲染协作的特定功能。"
 type: docs
 weight: 13

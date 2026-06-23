@@ -1,7 +1,7 @@
 ---
 title: "CdrTextCollection"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Cdr 文本集合"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 Cdr 文本集合"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.cdr.types/cdrtextcollection/
@@ -12,7 +12,7 @@ java.lang.Object
 public class CdrTextCollection
 ```
 
-Cdr 文本集合
+该 Cdr 文本集合
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -42,7 +42,7 @@ public final void add(int key, CdrText cdrText)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | int | 文本的键。 |
-| cdrText | [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext) | CDR 文本。 |
+| cdrText | [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext) | 该 CDR 文本。 |
 
 ### getText(int key) {#getText-int-}
 ```

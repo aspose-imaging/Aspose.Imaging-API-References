@@ -1,6 +1,6 @@
 ---
 title: "OdPage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "打开文档页面。"
 type: docs
 weight: 34
@@ -24,8 +24,8 @@ public class OdPage extends OdGraphicObject
 | --- | --- |
 | [getName()](#getName--) | 获取或设置名称。 |
 | [setName(String value)](#setName-java.lang.String-) | 获取或设置名称。 |
-| [getMasterPageName()](#getMasterPageName--) | 获取或设置母版页的名称。 |
-| [setMasterPageName(String value)](#setMasterPageName-java.lang.String-) | 获取或设置母版页的名称。 |
+| [getMasterPageName()](#getMasterPageName--) | 获取或设置主页面的名称。 |
+| [setMasterPageName(String value)](#setMasterPageName-java.lang.String-) | 获取或设置主页面的名称。 |
 | [getStyleName()](#getStyleName--) | 获取或设置样式的名称。 |
 | [setStyleName(String value)](#setStyleName-java.lang.String-) | 获取或设置样式的名称。 |
 ### OdPage(OdObject parent) {#OdPage-com.aspose.imaging.fileformats.opendocument.OdObject-}
@@ -39,7 +39,7 @@ public OdPage(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getName() {#getName--}
 ```
@@ -62,7 +62,7 @@ public void setName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 名称。 |
+| 值 | java.lang.String | 名称。 |
 
 ### getMasterPageName() {#getMasterPageName--}
 ```
@@ -70,22 +70,22 @@ public String getMasterPageName()
 ```
 
 
-获取或设置母版页的名称。
+获取或设置主页面的名称。
 
 **Returns:**
-java.lang.String - 母版页的名称。
+java.lang.String - 主页面的名称。
 ### setMasterPageName(String value) {#setMasterPageName-java.lang.String-}
 ```
 public void setMasterPageName(String value)
 ```
 
 
-获取或设置母版页的名称。
+获取或设置主页面的名称。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 母版页的名称。 |
+| 值 | java.lang.String | 主页面的名称。 |
 
 ### getStyleName() {#getStyleName--}
 ```
@@ -108,5 +108,5 @@ public void setStyleName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 样式的名称。 |
+| 值 | java.lang.String | 样式的名称。 |
 

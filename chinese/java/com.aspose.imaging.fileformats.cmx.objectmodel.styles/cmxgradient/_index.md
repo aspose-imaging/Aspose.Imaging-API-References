@@ -1,6 +1,6 @@
 ---
 title: "CmxGradient"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示渐变信息。"
 type: docs
 weight: 12
@@ -76,7 +76,7 @@ public final void setAngle(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 角度。 |
+| 值 | float | 角度。 |
 
 ### getCenterXOffset() {#getCenterXOffset--}
 ```
@@ -99,7 +99,7 @@ public final void setCenterXOffset(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 中心 x 偏移。 |
+| 值 | long | 中心 x 偏移。 |
 
 ### getCenterYOffset() {#getCenterYOffset--}
 ```
@@ -110,7 +110,7 @@ public final long getCenterYOffset()
 获取中心 y 偏移。
 
 **Returns:**
-long - 中心 Y 偏移。
+long - 中心 y 偏移量。
 ### setCenterYOffset(long value) {#setCenterYOffset-long-}
 ```
 public final void setCenterYOffset(long value)
@@ -122,7 +122,7 @@ public final void setCenterYOffset(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 中心 Y 偏移。 |
+| 值 | long | 中心 y 偏移量。 |
 
 ### getColors() {#getColors--}
 ```
@@ -156,7 +156,7 @@ public final int getEdgeOffset()
 获取边缘偏移。
 
 **Returns:**
-int - 边缘偏移。
+int - 边缘偏移量。
 ### setEdgeOffset(int value) {#setEdgeOffset-int-}
 ```
 public final void setEdgeOffset(int value)
@@ -168,7 +168,7 @@ public final void setEdgeOffset(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 边缘偏移。 |
+| 值 | int | 边缘偏移量。 |
 
 ### getMode() {#getMode--}
 ```
@@ -191,7 +191,7 @@ public final void setMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 模式。 |
+| 值 | int | 模式。 |
 
 ### getOffsets() {#getOffsets--}
 ```
@@ -214,7 +214,7 @@ public final void setOffsets(float[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float[] | 偏移量。 |
+| 值 | float[] | 偏移量。 |
 
 ### getRateMethod() {#getRateMethod--}
 ```
@@ -237,7 +237,7 @@ public final void setRateMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 速率方法。 |
+| 值 | int | 速率方法。 |
 
 ### getRateValue() {#getRateValue--}
 ```
@@ -260,7 +260,7 @@ public final void setRateValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 速率值。 |
+| 值 | int | 速率值。 |
 
 ### getScreen() {#getScreen--}
 ```
@@ -283,7 +283,7 @@ public final void setScreen(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 屏幕。 |
+| 值 | int | 屏幕。 |
 
 ### getSteps() {#getSteps--}
 ```
@@ -306,7 +306,7 @@ public final void setSteps(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 步骤。 |
+| 值 | int | 步骤。 |
 
 ### getType() {#getType--}
 ```
@@ -329,7 +329,7 @@ public final void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 类型。 |
+| 值 | int | 类型。 |
 
 ### toString() {#toString--}
 ```

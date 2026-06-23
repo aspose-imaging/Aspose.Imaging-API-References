@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusRectF"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusRectF 对象指定矩形的原点、高度和宽度，使用 32 位浮点值。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EmfPlusRectF 对象指定矩形的原点、高度和宽度，使用 32 位浮点值表示。"
 type: docs
 weight: 66
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusRectF extends EmfPlusStructureObjectType
 ```
 
-EmfPlusRectF 对象指定矩形的原点、高度和宽度，采用 32 位浮点值。
+EmfPlusRectF 对象指定矩形的原点、高度和宽度，以 32 位浮点值表示。
 ## 构造函数
 
 | 构造函数 | 描述 |

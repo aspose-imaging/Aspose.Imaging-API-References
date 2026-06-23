@@ -1,6 +1,6 @@
 ---
 title: "SegmentationMethod"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "分割方法类型"
 type: docs
 weight: 17
@@ -20,8 +20,8 @@ public final class SegmentationMethod extends System.Enum
 | [Manual](#Manual) | 手动分割算法 |
 | [KMeans](#KMeans) | K 均值分割算法。 |
 | [FuzzyCMeans](#FuzzyCMeans) | 模糊 C 均值分割算法。 |
-| [Watershed](#Watershed) | 分水岭分割算法。 |
-| [GraphCut](#GraphCut) | 图割分割算法 |
+| [Watershed](#Watershed) | Watershed 分割算法。 |
+| [GraphCut](#GraphCut) | Graph Cut 分割算法 |
 ### Manual {#Manual}
 ```
 public static final int Manual
@@ -52,7 +52,7 @@ public static final int Watershed
 ```
 
 
-分水岭分割算法。
+Watershed 分割算法。
 
 ### GraphCut {#GraphCut}
 ```
@@ -60,5 +60,5 @@ public static final int GraphCut
 ```
 
 
-图割分割算法
+Graph Cut 分割算法
 

@@ -1,6 +1,6 @@
 ---
 title: "OdRectangle"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "矩形对象"
 type: docs
 weight: 38
@@ -22,8 +22,8 @@ public class OdRectangle extends OdStyledObject
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCornerRadius()](#getCornerRadius--) | 获取或设置圆角半径。 |
-| [setCornerRadius(float value)](#setCornerRadius-float-) | 获取或设置圆角半径。 |
+| [getCornerRadius()](#getCornerRadius--) | 获取或设置角半径。 |
+| [setCornerRadius(float value)](#setCornerRadius-float-) | 获取或设置角半径。 |
 ### OdRectangle(OdObject parent) {#OdRectangle-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdRectangle(OdObject parent)
@@ -35,7 +35,7 @@ public OdRectangle(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getCornerRadius() {#getCornerRadius--}
 ```
@@ -43,20 +43,20 @@ public float getCornerRadius()
 ```
 
 
-获取或设置圆角半径。
+获取或设置角半径。
 
 **Returns:**
-float - 圆角半径。
+float - 角半径。
 ### setCornerRadius(float value) {#setCornerRadius-float-}
 ```
 public void setCornerRadius(float value)
 ```
 
 
-获取或设置圆角半径。
+获取或设置角半径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 圆角半径。 |
+| 值 | float | 角半径。 |
 

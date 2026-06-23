@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusFillPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "填充路径记录 FLAGS：16 位无符号整数，提供有关如何执行操作以及记录结构的信息。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "填充路径记录标志——提供有关如何执行操作以及记录结构信息的 16 位无符号整数。"
 type: docs
 weight: 34
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpath/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusFillPath extends EmfPlusDrawingRecordType
 ```
 
-填充路径记录 FLAGS：16 位无符号整数，提供有关如何执行操作以及记录结构的信息。 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 S X X X X X X X | ObjectId | S (1 位)：此位指示 BrushId 字段中数据的类型。如果设置，BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。 X (1 位)：保留，必须忽略。 ObjectId (1 字节)：EMF+ 对象表中要填充的 EmfPlusPath 对象（第 2.2.1.6 节）的索引。该值必须在 0 到 63（含）之间。
+填充路径记录 FLAGS：16 位无符号整数，提供有关如何执行操作以及记录结构的信息。 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 S X X X X X X X | ObjectId | S（1 位）：此位指示 BrushId 字段中数据的类型。如果设置，BrushId 指定为 EmfPlusARGB 对象的颜色（第 2.2.2.1 节）。如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象的索引（第 2.2.1.1 节）。X（1 位）：保留，必须忽略。ObjectId（1 字节）：EMF+ 对象表中要填充的 EmfPlusPath 对象（第 2.2.1.6 节）的索引。该值必须在 0 到 63（含）之间。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,8 +26,8 @@ public final class EmfPlusFillPath extends EmfPlusDrawingRecordType
 | [setColor(boolean value)](#setColor-boolean-) | 获取或设置一个值，指示此实例是否为颜色。 |
 | [getObjectId()](#getObjectId--) | 获取或设置对象标识符。 |
 | [setObjectId(byte value)](#setObjectId-byte-) | 获取或设置对象标识符。 |
-| [getBrushId()](#getBrushId--) | 获取或设置 Brush ID：一个 32 位无符号整数，定义画笔，其内容由 Flags 字段中的 S 位决定。 |
-| [setBrushId(int value)](#setBrushId-int-) | 获取或设置 Brush ID：一个 32 位无符号整数，定义画笔，其内容由 Flags 字段中的 S 位决定。 |
+| [getBrushId()](#getBrushId--) | 获取或设置 Brush ID，一个 32 位无符号整数，用于定义画刷，其内容由 Flags 字段中的 S 位决定。 |
+| [setBrushId(int value)](#setBrushId-int-) | 获取或设置 Brush ID，一个 32 位无符号整数，用于定义画刷，其内容由 Flags 字段中的 S 位决定。 |
 ### EmfPlusFillPath(EmfPlusRecord source) {#EmfPlusFillPath-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusFillPath(EmfPlusRecord source)
@@ -39,7 +39,7 @@ public EmfPlusFillPath(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### isColor() {#isColor--}
 ```
@@ -47,9 +47,9 @@ public boolean isColor()
 ```
 
 
-获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。
+获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象的颜色（第 2.2.2.1 节）。如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象的索引（第 2.2.1.1 节）。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -59,14 +59,14 @@ public void setColor(boolean value)
 ```
 
 
-获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。
+获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象的颜色（第 2.2.2.1 节）。如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象的索引（第 2.2.1.1 节）。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -93,7 +93,7 @@ public void setObjectId(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getBrushId() {#getBrushId--}
 ```
@@ -101,7 +101,7 @@ public int getBrushId()
 ```
 
 
-获取或设置 Brush ID：一个 32 位无符号整数，定义画笔，其内容由 Flags 字段中的 S 位决定。
+获取或设置 Brush ID，一个 32 位无符号整数，用于定义画刷，其内容由 Flags 字段中的 S 位决定。
 
 **Returns:**
 int
@@ -111,10 +111,10 @@ public void setBrushId(int value)
 ```
 
 
-获取或设置 Brush ID：一个 32 位无符号整数，定义画笔，其内容由 Flags 字段中的 S 位决定。
+获取或设置 Brush ID，一个 32 位无符号整数，用于定义画刷，其内容由 Flags 字段中的 S 位决定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

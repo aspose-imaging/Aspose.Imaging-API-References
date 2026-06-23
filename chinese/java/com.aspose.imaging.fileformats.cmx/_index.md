@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.cmx"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包处理 Tiff 文件格式。"
 type: docs
 weight: 35

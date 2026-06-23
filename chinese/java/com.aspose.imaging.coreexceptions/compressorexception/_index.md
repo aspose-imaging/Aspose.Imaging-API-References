@@ -1,6 +1,6 @@
 ---
 title: "CompressorException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "压缩器异常。"
 type: docs
 weight: 10
@@ -17,20 +17,20 @@ public class CompressorException extends FrameworkException
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [CompressorException(String message)](#CompressorException-java.lang.String-) | 初始化 `CompressorException` 类的新实例。 |
-| [CompressorException(String message, Throwable innerException)](#CompressorException-java.lang.String-java.lang.Throwable-) | 初始化 `CompressorException` 类的新实例。 |
+| [CompressorException(String message)](#CompressorException-java.lang.String-) | 初始化一个新的 `CompressorException` 类的实例。 |
+| [CompressorException(String message, Throwable innerException)](#CompressorException-java.lang.String-java.lang.Throwable-) | 初始化一个新的 `CompressorException` 类的实例。 |
 ### CompressorException(String message) {#CompressorException-java.lang.String-}
 ```
 public CompressorException(String message)
 ```
 
 
-初始化 `CompressorException` 类的新实例。
+初始化一个新的 `CompressorException` 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### CompressorException(String message, Throwable innerException) {#CompressorException-java.lang.String-java.lang.Throwable-}
 ```
@@ -38,11 +38,11 @@ public CompressorException(String message, Throwable innerException)
 ```
 
 
-初始化 `CompressorException` 类的新实例。
+初始化一个新的 `CompressorException` 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

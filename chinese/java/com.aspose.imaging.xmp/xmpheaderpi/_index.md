@@ -1,7 +1,7 @@
 ---
 title: "XmpHeaderPi"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 XMP 头部处理指令。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 XMP 标头处理指令。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.xmp/xmpheaderpi/
@@ -15,7 +15,7 @@ java.lang.Object
 public final class XmpHeaderPi implements IXmlValue, System.IEquatable<XmpHeaderPi>
 ```
 
-表示 XMP 头部处理指令。
+表示 XMP 标头处理指令。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -61,7 +61,7 @@ public String getGuid()
 
 表示 Header Guid。
 
-标题 PI 的文本包含 GUID，这使得它不太可能在数据流中意外出现。
+标题 PI 的文本包含 GUID，使其不太可能在数据流中意外出现。
 
 **Returns:**
 java.lang.String
@@ -73,12 +73,12 @@ public void setGuid(String value)
 
 表示 Header Guid。
 
-标题 PI 的文本包含 GUID，这使得它不太可能在数据流中意外出现。
+标题 PI 的文本包含 GUID，使其不太可能在数据流中意外出现。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmlValue() {#getXmlValue--}
 ```
@@ -89,7 +89,7 @@ public String getXmlValue()
 将 XMP 值转换为 XML 表示形式。
 
 **Returns:**
-java.lang.String - 返回转换为 XML 表示形式的 XMP 值。
+java.lang.String - 返回已转换为 XML 表示形式的 XMP 值。
 ### isEquals(XmpHeaderPi other) {#isEquals-com.aspose.imaging.xmp.XmpHeaderPi-}
 ```
 public boolean isEquals(XmpHeaderPi other)
@@ -116,7 +116,7 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | java.lang.Object | 与此实例比较的 `System.Object`。 |
+| obj | java.lang.Object | 要与此实例比较的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果指定的 `System.Object` 等于此实例，则为 `true`；否则，为 `false`。

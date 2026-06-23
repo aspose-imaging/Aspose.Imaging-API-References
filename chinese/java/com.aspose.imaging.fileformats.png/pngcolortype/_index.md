@@ -1,6 +1,6 @@
 ---
 title: "PngColorType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 PNG 图像颜色类型。"
 type: docs
 weight: 10
@@ -38,8 +38,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // 使用最大压缩
     options.setCompressionLevel(9);
-    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
-    // 几乎在视觉上与非调色板图像无法区分。
+    // 获取最接近的 8 位颜色调色板，以覆盖尽可能多的像素，从而得到调色板图像
+    // 几乎在视觉上与非调色的图像没有区别。
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      

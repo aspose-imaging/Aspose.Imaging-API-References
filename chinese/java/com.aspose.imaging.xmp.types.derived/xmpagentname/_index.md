@@ -1,6 +1,6 @@
 ---
 title: "XmpAgentName"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示代理名称、软件组织等。"
 type: docs
 weight: 12
@@ -29,5 +29,5 @@ public XmpAgentName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 

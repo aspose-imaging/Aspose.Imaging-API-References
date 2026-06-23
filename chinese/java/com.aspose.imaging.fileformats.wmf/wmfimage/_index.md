@@ -1,42 +1,42 @@
 ---
 title: "WmfImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "使用我们的 API 操作 Microsoft Windows Metafile WMF 图像，能够无缝处理存储在可变长度记录中的矢量和位图数据。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.wmf/wmfimage/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)，[com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter)，[com.aspose.imaging.Image](../../com.aspose.imaging/image)，[com.aspose.imaging.VectorImage](../../com.aspose.imaging/vectorimage)，[com.aspose.imaging.fileformats.emf.MetaImage](../../com.aspose.imaging.fileformats.emf/metaimage)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.VectorImage](../../com.aspose.imaging/vectorimage), [com.aspose.imaging.fileformats.emf.MetaImage](../../com.aspose.imaging.fileformats.emf/metaimage)
 ```
 public class WmfImage extends MetaImage
 ```
 
-使用我们的 API 操作 Microsoft Windows Metafile (WMF) 图像，能够无缝处理存储在可变长度记录中的矢量和位图数据。轻松对图像进行缩放、旋转和翻转，并可设置自定义图像调色板。将 WMF 文件转换为压缩的 WMZ 格式，或保存为栅格图像格式，以实现跨平台和应用的多种使用场景。
+使用我们的 API 操作 Microsoft Windows Metafile (WMF) 图像，能够无缝处理存储在可变长度记录中的矢量和位图数据。轻松调整图像大小、旋转和翻转，同时设置自定义图像调色板。将 WMF 文件转换为压缩的 WMZ 格式，或保存为栅格图像格式，以实现跨平台和应用的多用途使用。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [WmfImage()](#WmfImage--) | 创建 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类的新实例，以便进一步操作和处理 Windows Metafile (WMF) 图像数据。 |
-| [WmfImage(int width, int height)](#WmfImage-int-int-) | 实例化 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类的新对象，并可自定义宽度和高度参数，从而创建符合特定尺寸的空白 WMF 图像。 |
+| [WmfImage()](#WmfImage--) | 创建 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类的新实例，为进一步操作和处理 Windows Metafile (WMF) 图像数据进行初始化。 |
+| [WmfImage(int width, int height)](#WmfImage-int-int-) | 实例化 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类的新对象，可自定义宽度和高度参数，以便创建符合特定尺寸的空白 WMF 图像。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [isCached()](#isCached--) | 获取一个布尔值，指示对象的数据当前是否已缓存，从而消除额外读取数据的操作需求。 |
-| [getBitsPerPixel()](#getBitsPerPixel--) | 获取图像的每像素位数，表示颜色深度或颗粒度的水平。 |
-| [getWidthF()](#getWidthF--) | 访问图像的宽度，表示水平轴上的像素数量。 |
-| [getHeightF()](#getHeightF--) | 访问图像的高度，表示垂直轴上的像素数量。 |
-| [getInch()](#getInch--) | 访问或修改 inch 属性，该属性表示一种通常用于在打印或显示环境中指定物理尺寸的计量单位。 |
-| [setInch(int value)](#setInch-int-) | 访问或修改 inch 属性，该属性表示一种通常用于在打印或显示环境中指定物理尺寸的计量单位。 |
-| [getFileFormat()](#getFileFormat--) | 访问与图像关联的文件格式值，提供图像存储格式的信息。 |
-| [getFrameBounds()](#getFrameBounds--) | 访问帧的边界，指示其在图像中的位置和尺寸。 |
-| [cacheData()](#cacheData--) | 高效缓存数据，消除从底层 `DataStreamSupporter.DataStreamContainer`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)）额外加载的需求。 |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 将指定的调色板应用于图像，实现颜色表示的自定义。 |
-| [getUsedFonts()](#getUsedFonts--) | 获取元文件中使用的字体列表，提供对图像中所用字体资源的洞察。 |
+| [isCached()](#isCached--) | 检索一个布尔值，指示对象的数据当前是否已缓存，从而消除额外读取数据的操作需求。 |
+| [getBitsPerPixel()](#getBitsPerPixel--) | 检索图像的每像素位数，表示颜色深度或细粒度的水平。 |
+| [getWidthF()](#getWidthF--) | 获取图像的宽度，表示水平轴上的像素数量。 |
+| [getHeightF()](#getHeightF--) | 获取图像的高度，表示垂直轴上的像素数量。 |
+| [getInch()](#getInch--) | 访问或修改 inch 属性，该属性表示通常用于在打印或显示环境中指定物理尺寸的度量单位。 |
+| [setInch(int value)](#setInch-int-) | 访问或修改 inch 属性，该属性表示通常用于在打印或显示环境中指定物理尺寸的度量单位。 |
+| [getFileFormat()](#getFileFormat--) | 获取与图像关联的文件格式值，提供图像存储格式的信息。 |
+| [getFrameBounds()](#getFrameBounds--) | 获取帧的边界，指示其在图像中的位置和尺寸。 |
+| [cacheData()](#cacheData--) | 高效缓存数据，消除从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 进行额外加载的需求。 |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 将指定的调色板应用于图像，以实现颜色表示的自定义。 |
+| [getUsedFonts()](#getUsedFonts--) | 检索元文件中使用的字体列表，提供对图像中所用字体资源的洞察。 |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | 调整图像的画布大小，在保持图像内容的同时修改其尺寸。 |
 | [addRecord(WmfObject record)](#addRecord-com.aspose.imaging.fileformats.wmf.objects.WmfObject-) | 将指定的记录对象合并到图像中，使用额外的数据或元数据丰富其内容。 |
-| [getPostScript()](#getPostScript--) | 访问与图像关联的 PostScript 数据，提供其结构或内容的详细信息。 |
+| [getPostScript()](#getPostScript--) | 访问与图像关联的 PostScript 数据，提供有关其结构或内容的详细信息。 |
 | [getOriginalOptions()](#getOriginalOptions--) | 获取原始图像选项。 |
 
 ## Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.
@@ -71,7 +71,7 @@ try (com.aspose.imaging.fileformats.wmf.WmfImage wmfImage = (com.aspose.imaging.
 
 
 ## Example: The following example shows how to convert a compressed images (*.
-以下示例展示了如何将压缩图像（*.emz、*.wmz、*.svgz）转换为栅格格式。
+以下示例展示了如何将压缩图像（*.emz、*.wmz、*.svgz）转换为光栅格式
 ``` java
 String[] files = new String[]{ "example.emz", "example.wmz", "example.svgz" };
 String baseFolder = "D:\\Compressed\\";
@@ -138,7 +138,7 @@ public WmfImage()
 ```
 
 
-创建一个新的 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类实例，以便进一步操作和处理 Windows Metafile (WMF) 图像数据。此构造函数提供了一个用于处理 WMF 图像的基础对象，使得在您的应用程序功能中无缝集成 WMF 图像处理能力。
+创建 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类的新实例，以便进一步操作和处理 Windows Metafile (WMF) 图像数据。此构造函数提供了用于处理 WMF 图像的基础对象，使 WMF 图像处理功能能够无缝集成到您的应用程序功能中。
 
 ### WmfImage(int width, int height) {#WmfImage-int-int-}
 ```
@@ -146,13 +146,13 @@ public WmfImage(int width, int height)
 ```
 
 
-实例化一个新的 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类，并可自定义宽度和高度参数，以便创建符合特定尺寸的空白 WMF 图像。利用此构造函数可动态生成具有精确尺寸的 WMF 图像，实现应用程序中灵活的图像创建和操作。
+实例化 [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) 类的新对象，并提供可自定义的宽度和高度参数，以便创建符合特定尺寸的空白 WMF 图像。使用此构造函数可动态生成具有精确尺寸的 WMF 图像，实现应用程序中灵活的图像创建和操作。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 
 ### isCached() {#isCached--}
 ```
@@ -160,7 +160,7 @@ public boolean isCached()
 ```
 
 
-检索一个布尔值，指示对象的数据当前是否已缓存，从而消除额外读取数据的需求。使用此属性可通过判断对象的数据是否已随时可用，来优化性能，避免在您的应用程序中进行昂贵的数据检索过程。
+检索一个布尔值，指示对象的数据是否已缓存，从而消除额外读取数据的操作。利用此属性通过判断对象的数据是否已随时可用，来优化性能，避免在应用程序中进行昂贵的数据检索过程。
 
 **Returns:**
 boolean
@@ -170,7 +170,7 @@ public int getBitsPerPixel()
 ```
 
 
-检索图像每像素位数的计数，指示颜色深度或颗粒度的水平。使用此属性可确定图像的颜色表示和精度，便于在您的应用程序中进行兼容性检查和与颜色相关的处理。
+检索图像的每像素位数，表示颜色深度或粒度水平。利用此属性确定图像的颜色表示和精度，以便在应用程序中进行兼容性检查和与颜色相关的处理。
 
 **Returns:**
 int
@@ -180,7 +180,7 @@ public float getWidthF()
 ```
 
 
-访问图像的宽度，指示水平轴上的像素数量。使用此属性可确定图像的空间尺寸和宽高比，从而在您的应用程序中实现精确的布局和渲染调整。
+访问图像的宽度，表示水平轴上的像素数量。利用此属性确定图像的空间尺寸和宽高比，从而在应用程序中实现精确的布局和渲染调整。
 
 **Returns:**
 float - 图像宽度（像素）。
@@ -190,7 +190,7 @@ public float getHeightF()
 ```
 
 
-访问图像的高度，表示垂直轴上的像素数量。使用此属性可确定图像的空间尺寸和宽高比，从而在您的应用程序中实现准确的布局和渲染调整。
+访问图像的高度，表示垂直轴上的像素数量。利用此属性确定图像的空间尺寸和宽高比，以便在应用程序中实现准确的布局和渲染调整。
 
 **Returns:**
 float - 图像高度（像素）。
@@ -200,7 +200,7 @@ public int getInch()
 ```
 
 
-访问或修改 inch 属性，代表通常用于在打印或显示环境中指定物理尺寸的度量单位。使用此属性可设定或获取与图像关联的英寸值，从而在您的应用程序中实现物理尺寸的准确表示。
+访问或修改 inch 属性，该属性表示通常用于在打印或显示环境中指定物理尺寸的计量单位。利用此属性设置或获取与图像关联的英寸值，以便在应用程序中准确表示物理尺寸。
 
 **Returns:**
 int
@@ -210,12 +210,12 @@ public void setInch(int value)
 ```
 
 
-访问或修改 inch 属性，代表通常用于在打印或显示环境中指定物理尺寸的度量单位。使用此属性可设定或获取与图像关联的英寸值，从而在您的应用程序中实现物理尺寸的准确表示。
+访问或修改 inch 属性，该属性表示通常用于在打印或显示环境中指定物理尺寸的计量单位。利用此属性设置或获取与图像关联的英寸值，以便在应用程序中准确表示物理尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getFileFormat() {#getFileFormat--}
 ```
@@ -223,7 +223,7 @@ public long getFileFormat()
 ```
 
 
-访问与图像关联的文件格式值，提供图像存储格式的信息。使用此属性可确定图像的文件格式，便于在您的应用程序中进行兼容性检查和特定格式的处理。
+访问与图像关联的文件格式值，提供图像存储格式的信息。利用此属性确定图像的文件格式，以便在应用程序中进行兼容性检查和特定格式的处理。
 
 **Returns:**
 long
@@ -233,7 +233,7 @@ public final Rectangle getFrameBounds()
 ```
 
 
-访问帧的边界，指示其在图像中的位置和尺寸。使用此属性可检索帧的空间位置信息，从而在您的应用程序中实现精确的操作和渲染。
+访问帧的边界，指示其在图像中的位置和尺寸。利用此属性获取帧空间位置的详细信息，以实现应用程序中的精确操作和渲染。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the frame bounds.
@@ -243,7 +243,7 @@ public void cacheData()
 ```
 
 
-高效地缓存数据，消除从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 进行额外加载的需求。使用此方法可通过存储和访问本地数据缓存来优化性能并最小化资源使用。
+高效地缓存数据，消除从底层 `DataStreamSupporter.DataStreamContainer`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer)）额外加载的需求。使用此方法通过存储和访问本地数据缓存来优化性能并最小化应用程序的资源使用。
 
 
 **Example: This example shows how to load a WMF image from a file and list all of its records.**
@@ -345,7 +345,7 @@ public void resizeCanvas(Rectangle newRectangle)
 ```
 
 
-调整图像的画布大小，在保持图像内容的同时修改其尺寸。使用此方法可在不更改内容的情况下改变画布大小，便于在您的应用程序中进行布局调整和构图更改。
+调整图像的画布大小，在保持图像内容的同时改变其尺寸。使用此方法可在不更改内容的情况下修改画布大小，便于在您的应用程序中进行布局调整和构图更改。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -358,7 +358,7 @@ public int addRecord(WmfObject record)
 ```
 
 
-将指定的记录对象合并到图像中，为其内容添加额外的数据或元数据。使用此方法可无缝地将记录对象集成到图像中，促进在您的应用程序中进行全面的数据存储和组织。
+将指定的记录对象合并到图像中，为其内容添加额外的数据或元数据。使用此方法可无缝地将记录对象集成到图像中，促进在您的应用程序中实现全面的数据存储和组织。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -366,17 +366,17 @@ public int addRecord(WmfObject record)
 | record | [WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject) | 记录。 |
 
 **Returns:**
-int - 记录数量。
+int - 记录的数量。
 ### getPostScript() {#getPostScript--}
 ```
 public final String getPostScript()
 ```
 
 
-访问与图像关联的 PostScript 数据，提供有关其结构或内容的详细信息。使用此方法检索 PostScript 数据，以便在您的应用程序中进行进一步分析或处理，实现与 PostScript 渲染或操作相关的高级功能。
+访问与图像关联的 PostScript 数据，提供有关其结构或内容的详细信息。利用此方法检索 PostScript 数据，以便在您的应用程序中进行进一步的分析或处理，从而实现与 PostScript 渲染或操作相关的高级功能。
 
 **Returns:**
-java.lang.String - PostScript 脚本
+java.lang.String - 后置脚本
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
 public ImageOptionsBase getOriginalOptions()

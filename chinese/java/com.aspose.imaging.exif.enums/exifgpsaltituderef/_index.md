@@ -1,6 +1,6 @@
 ---
 title: "ExifGPSAltitudeRef"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif gps 海拔参考枚举。"
 type: docs
 weight: 17

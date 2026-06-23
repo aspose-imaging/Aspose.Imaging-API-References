@@ -1,7 +1,7 @@
 ---
 title: "GraphicsPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示一系列相连的直线和曲线。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示一系列相连的线段和曲线。"
 type: docs
 weight: 52
 url: /zh/java/com.aspose.imaging/graphicspath/
@@ -25,8 +25,8 @@ public final class GraphicsPath extends ObjectWithBounds
 
 | 方法 | 描述 |
 | --- | --- |
-| [getFillMode()](#getFillMode--) | 获取 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状内部的填充方式。 |
-| [setFillMode(int value)](#setFillMode-int-) | 设置一个 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状内部的填充方式。 |
+| [getFillMode()](#getFillMode--) | 获取一个 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状的内部如何填充。 |
+| [setFillMode(int value)](#setFillMode-int-) | 设置一个 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状的内部如何填充。 |
 | [getFigures()](#getFigures--) | 获取路径图形。 |
 | [getBounds()](#getBounds--) | 获取或设置对象的边界。 |
 | [reset()](#reset--) | 清空图形路径并将 `com.aspose.imaging.FillMode` 设置为 `F:com.aspose.imaging.fillMode.alternate`。 |
@@ -35,18 +35,18 @@ public final class GraphicsPath extends ObjectWithBounds
 | [isVisible(PointF point)](#isVisible-com.aspose.imaging.PointF-) | 指示指定的点是否位于此 `com.aspose.imaging.graphicsPath` 内部。 |
 | [isVisible(int x, int y)](#isVisible-int-int-) | 指示指定的点是否位于此 `com.aspose.imaging.graphicsPath` 内部。 |
 | [isVisible(Point point)](#isVisible-com.aspose.imaging.Point-) | 指示指定的点是否位于此 `com.aspose.imaging.graphicsPath` 内部。 |
-| [isVisible(float x, float y, Graphics graphics)](#isVisible-float-float-com.aspose.imaging.Graphics-) | 指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 中，并且在指定 `com.aspose.imaging.graphics` 的可见裁剪区域内。 |
+| [isVisible(float x, float y, Graphics graphics)](#isVisible-float-float-com.aspose.imaging.Graphics-) | 指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 在指定的 `com.aspose.imaging.graphics` 的可见裁剪区域内。 |
 | [isVisible(PointF pt, Graphics graphics)](#isVisible-com.aspose.imaging.PointF-com.aspose.imaging.Graphics-) | 指示指定的点是否位于此 `com.aspose.imaging.graphicsPath` 内部。 |
-| [isVisible(int x, int y, Graphics graphics)](#isVisible-int-int-com.aspose.imaging.Graphics-) | 指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 内部，使用指定的 `com.aspose.imaging.graphics`。 |
+| [isVisible(int x, int y, Graphics graphics)](#isVisible-int-int-com.aspose.imaging.Graphics-) | 指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 中，使用指定的 `com.aspose.imaging.graphics`。 |
 | [isVisible(Point pt, Graphics graphics)](#isVisible-com.aspose.imaging.Point-com.aspose.imaging.Graphics-) | 指示指定的点是否位于此 `com.aspose.imaging.graphicsPath` 内部。 |
-| [isOutlineVisible(float x, float y, Pen pen)](#isOutlineVisible-float-float-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(PointF point, Pen pen)](#isOutlineVisible-com.aspose.imaging.PointF-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(float x, float y, Pen pen, Graphics graphics)](#isOutlineVisible-float-float-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(PointF pt, Pen pen, Graphics graphics)](#isOutlineVisible-com.aspose.imaging.PointF-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(int x, int y, Pen pen)](#isOutlineVisible-int-int-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(Point point, Pen pen)](#isOutlineVisible-com.aspose.imaging.Point-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(int x, int y, Pen pen, Graphics graphics)](#isOutlineVisible-int-int-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
-| [isOutlineVisible(Point pt, Pen pen, Graphics graphics)](#isOutlineVisible-com.aspose.imaging.Point-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。 |
+| [isOutlineVisible(float x, float y, Pen pen)](#isOutlineVisible-float-float-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(PointF point, Pen pen)](#isOutlineVisible-com.aspose.imaging.PointF-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(float x, float y, Pen pen, Graphics graphics)](#isOutlineVisible-float-float-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(PointF pt, Pen pen, Graphics graphics)](#isOutlineVisible-com.aspose.imaging.PointF-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(int x, int y, Pen pen)](#isOutlineVisible-int-int-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(Point point, Pen pen)](#isOutlineVisible-com.aspose.imaging.Point-com.aspose.imaging.Pen-) | 指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(int x, int y, Pen pen, Graphics graphics)](#isOutlineVisible-int-int-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
+| [isOutlineVisible(Point pt, Pen pen, Graphics graphics)](#isOutlineVisible-com.aspose.imaging.Point-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-) | 指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。 |
 | [flatten()](#flatten--) | 将此路径中的每条曲线转换为一系列相连的线段。 |
 | [flatten(Matrix matrix)](#flatten-com.aspose.imaging.Matrix-) | 应用指定的变换，然后将此 `com.aspose.imaging.GraphicsPath` 中的每条曲线转换为一系列相连的线段。 |
 | [flatten(Matrix matrix, float flatness)](#flatten-com.aspose.imaging.Matrix-float-) | 将此 `com.aspose.imaging.GraphicsPath` 中的每条曲线转换为一系列相连的线段。 |
@@ -61,17 +61,17 @@ public final class GraphicsPath extends ObjectWithBounds
 | [addFigures(Figure[] figures)](#addFigures-com.aspose.imaging.Figure---) | 添加新图形。 |
 | [removeFigure(Figure figure)](#removeFigure-com.aspose.imaging.Figure-) | 移除一个图形。 |
 | [removeFigures(Figure[] figures)](#removeFigures-com.aspose.imaging.Figure---) | 移除图形。 |
-| [addPath(GraphicsPath addingPath)](#addPath-com.aspose.imaging.GraphicsPath-) | 将指定的 `com.aspose.imaging.GraphicsPath` 追加到此路径。 |
-| [addPath(GraphicsPath addingPath, boolean connect)](#addPath-com.aspose.imaging.GraphicsPath-boolean-) | 将指定的 `com.aspose.imaging.GraphicsPath` 追加到此路径。 |
+| [addPath(GraphicsPath addingPath)](#addPath-com.aspose.imaging.GraphicsPath-) | 将指定的 `com.aspose.imaging.GraphicsPath` 附加到此路径。 |
+| [addPath(GraphicsPath addingPath, boolean connect)](#addPath-com.aspose.imaging.GraphicsPath-boolean-) | 将指定的 `com.aspose.imaging.GraphicsPath` 附加到此路径。 |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | 获取对象的边界。 |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | 获取对象的边界。 |
-| [deepClone()](#deepClone--) | 对该图形路径执行深度克隆。 |
+| [deepClone()](#deepClone--) | 执行此图形路径的深度克隆。 |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | 对形状应用指定的变换。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
 | [hashCode()](#hashCode--) | 获取当前对象的哈希码。 |
 
 ## Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.
-这些示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作图形。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
+此示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作 Figure。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
 ``` java
 // 创建 FileStream 的实例
 com.aspose.imaging.system.io.FileStream stream = new com.aspose.imaging.system.io.FileStream("C:\\temp\\output.tif", com.aspose.imaging.system.io.FileMode.Create);
@@ -176,7 +176,7 @@ public int getFillMode()
 ```
 
 
-获取 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状内部的填充方式。
+获取一个 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状的内部如何填充。
 
 **Returns:**
 int - 填充模式。一个 `com.aspose.imaging.FillMode` 枚举，指定此 `com.aspose.imaging.GraphicsPath` 中形状内部的填充方式。
@@ -186,12 +186,12 @@ public void setFillMode(int value)
 ```
 
 
-设置一个 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状内部的填充方式。
+设置一个 `com.aspose.imaging.FillMode` 枚举，用于确定此 `com.aspose.imaging.GraphicsPath` 中形状的内部如何填充。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 填充模式。 |
+| 值 | int | 填充模式。 |
 
 ### getFigures() {#getFigures--}
 ```
@@ -297,7 +297,7 @@ public boolean isVisible(float x, float y, Graphics graphics)
 ```
 
 
-指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 中，并且在指定 `com.aspose.imaging.graphics` 的可见裁剪区域内。
+指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 在指定的 `com.aspose.imaging.graphics` 的可见裁剪区域内。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -330,7 +330,7 @@ public boolean isVisible(int x, int y, Graphics graphics)
 ```
 
 
-指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 内部，使用指定的 `com.aspose.imaging.graphics`。
+指示指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 中，使用指定的 `com.aspose.imaging.graphics`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -363,7 +363,7 @@ public boolean isOutlineVisible(float x, float y, Pen pen)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -380,7 +380,7 @@ public boolean isOutlineVisible(PointF point, Pen pen)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -396,7 +396,7 @@ public boolean isOutlineVisible(float x, float y, Pen pen, Graphics graphics)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -407,14 +407,14 @@ public boolean isOutlineVisible(float x, float y, Pen pen, Graphics graphics)
 | graphics | [Graphics](../../com.aspose.imaging/graphics) | 用于测试可见性的 `com.aspose.imaging.Graphics`。 |
 
 **Returns:**
-boolean - 如果指定的点位于使用指定的 `com.aspose.imaging.Pen` 绘制的此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部，则此方法返回 true；否则返回 false。
+boolean - 如果指定的点位于使用指定的 `com.aspose.imaging.Pen` 绘制的此 `com.aspose.imaging.GraphicsPath` 轮廓之下（内部），则此方法返回 true；否则返回 false。
 ### isOutlineVisible(PointF pt, Pen pen, Graphics graphics) {#isOutlineVisible-com.aspose.imaging.PointF-com.aspose.imaging.Pen-com.aspose.imaging.Graphics-}
 ```
 public boolean isOutlineVisible(PointF pt, Pen pen, Graphics graphics)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -424,14 +424,14 @@ public boolean isOutlineVisible(PointF pt, Pen pen, Graphics graphics)
 | graphics | [Graphics](../../com.aspose.imaging/graphics) | 用于测试可见性的 `com.aspose.imaging.Graphics`。 |
 
 **Returns:**
-boolean - 如果指定的点位于使用指定的 `com.aspose.imaging.Pen` 绘制的此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部，则此方法返回 true；否则返回 false。
+boolean - 如果指定的点位于使用指定的 `com.aspose.imaging.Pen` 绘制的此 `com.aspose.imaging.GraphicsPath` 轮廓之下（内部），则此方法返回 true；否则返回 false。
 ### isOutlineVisible(int x, int y, Pen pen) {#isOutlineVisible-int-int-com.aspose.imaging.Pen-}
 ```
 public boolean isOutlineVisible(int x, int y, Pen pen)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -448,7 +448,7 @@ public boolean isOutlineVisible(Point point, Pen pen)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.pen` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -464,7 +464,7 @@ public boolean isOutlineVisible(int x, int y, Pen pen, Graphics graphics)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -482,7 +482,7 @@ public boolean isOutlineVisible(Point pt, Pen pen, Graphics graphics)
 ```
 
 
-指示在使用指定的 `com.aspose.imaging.Pen` 并使用指定的 `com.aspose.imaging.graphics` 绘制时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内。
+指示在使用指定的 `com.aspose.imaging.Pen` 绘制并使用指定的 `com.aspose.imaging.graphics` 时，指定的点是否位于此 `com.aspose.imaging.GraphicsPath` 的轮廓（下方）内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -512,7 +512,7 @@ public void flatten(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 一个用于在扁平化之前转换此 `com.aspose.imaging.GraphicsPath` 的 `com.aspose.imaging.Matrix`。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 用于在扁平化之前转换此 `com.aspose.imaging.GraphicsPath` 的 `com.aspose.imaging.Matrix`。 |
 
 ### flatten(Matrix matrix, float flatness) {#flatten-com.aspose.imaging.Matrix-float-}
 ```
@@ -525,8 +525,8 @@ public void flatten(Matrix matrix, float flatness)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 一个用于在扁平化之前转换此 `com.aspose.imaging.GraphicsPath` 的 `com.aspose.imaging.Matrix`。 |
-| 平整度 | float | 指定曲线与其扁平化近似之间允许的最大误差。默认值为 0.25。降低平整度值会增加近似中的线段数量。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 用于在扁平化之前转换此 `com.aspose.imaging.GraphicsPath` 的 `com.aspose.imaging.Matrix`。 |
+| flatness | float | 指定曲线与其扁平化近似之间允许的最大误差。默认值为 0.25。降低 flatness 值会增加近似中的线段数量。 |
 
 ### widen(Pen pen) {#widen-com.aspose.imaging.Pen-}
 ```
@@ -539,7 +539,7 @@ public void widen(Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | [Pen](../../com.aspose.imaging/pen) | 一个指定路径原始轮廓与此方法创建的新轮廓之间宽度的 `com.aspose.imaging.Pen`。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 指定路径原始轮廓与此方法创建的新轮廓之间宽度的 `com.aspose.imaging.Pen`。 |
 
 ### widen(Pen pen, Matrix matrix) {#widen-com.aspose.imaging.Pen-com.aspose.imaging.Matrix-}
 ```
@@ -552,8 +552,8 @@ public void widen(Pen pen, Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | [Pen](../../com.aspose.imaging/pen) | 一个指定路径原始轮廓与此方法创建的新轮廓之间宽度的 `com.aspose.imaging.Pen`。 |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 一个指定在加宽之前应用于路径的变换的 `com.aspose.imaging.Matrix`。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 指定路径原始轮廓与此方法创建的新轮廓之间宽度的 `com.aspose.imaging.Pen`。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 指定在加宽之前应用于路径的变换的 `com.aspose.imaging.Matrix`。 |
 
 ### widen(Pen pen, Matrix matrix, float flatness) {#widen-com.aspose.imaging.Pen-com.aspose.imaging.Matrix-float-}
 ```
@@ -566,9 +566,9 @@ public void widen(Pen pen, Matrix matrix, float flatness)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | [Pen](../../com.aspose.imaging/pen) | 一个指定路径原始轮廓与此方法创建的新轮廓之间宽度的 `com.aspose.imaging.Pen`。 |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 一个指定在加宽之前应用于路径的变换的 `com.aspose.imaging.Matrix`。 |
-| 平整度 | float | 指定曲线平整度的值。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 指定路径原始轮廓与此方法创建的新轮廓之间宽度的 `com.aspose.imaging.Pen`。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 指定在加宽之前应用于路径的变换的 `com.aspose.imaging.Matrix`。 |
+| flatness | float | 指定曲线 flatness 的值。 |
 
 ### warp(PointF[] destPoints, RectangleF srcRect) {#warp-com.aspose.imaging.PointF---com.aspose.imaging.RectangleF-}
 ```
@@ -610,10 +610,10 @@ public void warp(PointF[] destPoints, RectangleF srcRect, Matrix matrix, int war
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| destPoints | [PointF\[\]](../../com.aspose.imaging/pointf) | 一个 `com.aspose.imaging.PointF` 结构数组，定义一个平行四边形，矩形 `srcRect` 将被转换到该平行四边形。数组可以包含三或四个元素。如果数组包含三个元素，则平行四边形的右下角由前三个点隐含。 |
+| destPoints | [PointF\[\]](../../com.aspose.imaging/pointf) | 一个由 `com.aspose.imaging.PointF` 结构组成的数组，用于定义一个平行四边形，矩形由 `srcRect` 定义并被转换到该平行四边形。数组可以包含三或四个元素。如果数组包含三个元素，则平行四边形的右下角由前三个点隐含。 |
 | srcRect | [RectangleF](../../com.aspose.imaging/rectanglef) | 一个表示被转换为 `destPoints` 定义的平行四边形的矩形的 `com.aspose.imaging.RectangleF`。 |
 | matrix | [Matrix](../../com.aspose.imaging/matrix) | 一个指定要应用于路径的几何变换的 `com.aspose.imaging.Matrix`。 |
-| 变形模式 | int | 一个 `com.aspose.imaging.WarpMode` 枚举，指定此变形操作是使用透视模式还是双线性模式。 |
+| warpMode | int | 一个指定此扭曲操作使用透视模式还是双线性模式的 `com.aspose.imaging.WarpMode` 枚举。 |
 
 ### warp(PointF[] destPoints, RectangleF srcRect, Matrix matrix, int warpMode, float flatness) {#warp-com.aspose.imaging.PointF---com.aspose.imaging.RectangleF-com.aspose.imaging.Matrix-int-float-}
 ```
@@ -629,8 +629,8 @@ public void warp(PointF[] destPoints, RectangleF srcRect, Matrix matrix, int war
 | destPoints | [PointF\[\]](../../com.aspose.imaging/pointf) | 一个 `com.aspose.imaging.PointF` 结构数组，定义一个平行四边形，矩形 `srcRect` 将被转换到该平行四边形。数组可以包含三或四个元素。如果数组包含三个元素，则平行四边形的右下角由前三个点隐含。 |
 | srcRect | [RectangleF](../../com.aspose.imaging/rectanglef) | 一个表示被转换为 `destPoints` 定义的平行四边形的矩形的 `com.aspose.imaging.RectangleF`。 |
 | matrix | [Matrix](../../com.aspose.imaging/matrix) | 一个指定要应用于路径的几何变换的 `com.aspose.imaging.Matrix`。 |
-| 变形模式 | int | 一个 `com.aspose.imaging.WarpMode` 枚举，指定此变形操作是使用透视模式还是双线性模式。 |
-| 平整度 | float | 一个介于 0 到 1 之间的值，用于指定生成路径的平坦程度。欲了解更多信息，请参阅 `com.aspose.imaging.GraphicsPath.flatten` 方法。 |
+| warpMode | int | 一个指定此扭曲操作使用透视模式还是双线性模式的 `com.aspose.imaging.WarpMode` 枚举。 |
+| flatness | float | 一个介于 0 到 1 之间的值，用于指定生成路径的平坦程度。更多信息请参阅 `com.aspose.imaging.GraphicsPath.flatten` 方法。 |
 
 ### addFigure(Figure figure) {#addFigure-com.aspose.imaging.Figure-}
 ```
@@ -647,7 +647,7 @@ public void addFigure(Figure figure)
 
 
 **Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
-这些示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作图形。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
+此示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作 Figure。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
 ``` java
 // 创建 FileStream 的实例
 com.aspose.imaging.system.io.FileStream stream = new com.aspose.imaging.system.io.FileStream("C:\\temp\\output.tif", com.aspose.imaging.system.io.FileMode.Create);
@@ -709,18 +709,18 @@ public void addFigures(Figure[] figures)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| figures | [Figure\[\]](../../com.aspose.imaging/figure) | 要添加的图形。 |
+| figures | [Figure\[\]](../../com.aspose.imaging/figure) | 要添加的图形集合。 |
 
 
 **Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...**
-此示例创建一个新的 Image 并在图像表面使用 Figures 和 GraphicsPath 绘制各种形状。
+此示例创建一个新 Image，并在 Image 表面使用 Figures 和 GraphicsPath 绘制各种形状
 ``` java
-//创建一个 BmpOptions 实例并设置其各种属性。
+//创建一个 BmpOptions 实例并设置其各种属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-//第二个布尔参数决定要创建的文件是否为 IsTemporal。
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
 //创建 Image 的实例
@@ -738,7 +738,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -748,7 +748,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -799,7 +799,7 @@ public void removeFigures(Figure[] figures)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| figures | [Figure\[\]](../../com.aspose.imaging/figure) | 要移除的图形。 |
+| figures | [Figure\[\]](../../com.aspose.imaging/figure) | 要移除的图形集合。 |
 
 ### addPath(GraphicsPath addingPath) {#addPath-com.aspose.imaging.GraphicsPath-}
 ```
@@ -807,7 +807,7 @@ public void addPath(GraphicsPath addingPath)
 ```
 
 
-将指定的 `com.aspose.imaging.GraphicsPath` 追加到此路径。
+将指定的 `com.aspose.imaging.GraphicsPath` 附加到此路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -820,13 +820,13 @@ public void addPath(GraphicsPath addingPath, boolean connect)
 ```
 
 
-将指定的 `com.aspose.imaging.GraphicsPath` 追加到此路径。
+将指定的 `com.aspose.imaging.GraphicsPath` 附加到此路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | addingPath | [GraphicsPath](../../com.aspose.imaging/graphicspath) | 要添加的 `com.aspose.imaging.GraphicsPath`。 |
-| 连接 | boolean | 一个布尔值，指定添加路径中的第一个图形是否是此路径中最后一个图形的一部分。true 表示添加路径中的第一个图形是此路径中最后一个图形的一部分。false 表示添加路径中的第一个图形与此路径中最后一个图形分离。 |
+| 连接 | boolean | 一个布尔值，用于指定添加路径中的第一个图形是否是此路径中最后一个图形的一部分。值为 true 表示添加路径中的第一个图形是此路径中最后一个图形的一部分。值为 false 表示添加路径中的第一个图形与此路径中最后一个图形分离。 |
 
 ### getBounds(Matrix matrix) {#getBounds-com.aspose.imaging.Matrix-}
 ```
@@ -839,7 +839,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -854,8 +854,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -865,7 +865,7 @@ public GraphicsPath deepClone()
 ```
 
 
-对该图形路径执行深度克隆。
+执行此图形路径的深度克隆。
 
 **Returns:**
 [GraphicsPath](../../com.aspose.imaging/graphicspath) - A deep clone of the graphics path.
@@ -880,7 +880,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的转换。 |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的变换。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

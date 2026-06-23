@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基础 Emf 对象类型。"
 type: docs
 weight: 56

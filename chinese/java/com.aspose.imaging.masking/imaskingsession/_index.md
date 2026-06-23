@@ -1,6 +1,6 @@
 ---
 title: "IMaskingSession"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "遮罩会话"
 type: docs
 weight: 12
@@ -19,11 +19,11 @@ public interface IMaskingSession extends System.IDisposable
 | --- | --- |
 | [decompose()](#decompose--) | 执行首次粗略分解操作 |
 | [decomposeAsync()](#decomposeAsync--) | 创建可执行首次粗略分解操作的异步任务 |
-| [improveDecomposition(IMaskingArgs maskingArguments)](#improveDecomposition-com.aspose.imaging.masking.options.IMaskingArgs-) | 执行再训练分解操作 |
-| [improveDecompositionAsync(IMaskingArgs maskingArguments)](#improveDecompositionAsync-com.aspose.imaging.masking.options.IMaskingArgs-) | 创建可执行再训练分解操作的异步任务 |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | 将会话状态保存到指定的流。 |
-| [save(System.IO.Stream stream)](#save-com.aspose.ms.System.IO.Stream-) | 将会话状态保存到指定的流。 |
-| [save(String filePath)](#save-java.lang.String-) | 将会话状态保存到指定的文件。 |
+| [improveDecomposition(IMaskingArgs maskingArguments)](#improveDecomposition-com.aspose.imaging.masking.options.IMaskingArgs-) | 执行重新训练分解操作 |
+| [improveDecompositionAsync(IMaskingArgs maskingArguments)](#improveDecompositionAsync-com.aspose.imaging.masking.options.IMaskingArgs-) | 创建可执行重新训练分解操作的异步任务 |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | 将会话状态保存到指定的流中。 |
+| [save(System.IO.Stream stream)](#save-com.aspose.ms.System.IO.Stream-) | 将会话状态保存到指定的流中。 |
+| [save(String filePath)](#save-java.lang.String-) | 将会话状态保存到指定的文件中。 |
 
 ## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
 
@@ -47,7 +47,7 @@ maskingOptions.setArgs(new com.aspose.imaging.masking.options.AutoMaskingArgs())
 maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
 maskingOptions.setExportOptions(exportOptions);
 
-// 首次启动会话并保存到文件
+// 首次启动会话并保存到文件中。
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -87,7 +87,7 @@ finally
     image.close();
 }
 
-// 从文件恢复掩码会话
+// 从文件恢复掩码会话。
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -99,7 +99,7 @@ try
     {
         com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-        // 对图像进行视觉分析并设置属于分离对象的点。
+        // 对图像进行可视化分析并设置属于分离对象的点。
         args.setObjectsPoints(new Point[][]
                 {
                         new Point[]
@@ -112,7 +112,7 @@ try
         com.aspose.imaging.masking.result.MaskingResult maskingResult = session.improveDecomposition(args);
         try
         {
-            // 显式传递导出选项，因为它不可序列化
+            // 显式传输导出选项，因为它不可序列化。
             maskingResult.MaskingOptions.setExportOptions(exportOptions);
 
             com.aspose.imaging.RasterImage segmentImage = maskingResult.get_Item(1).getImage();
@@ -174,7 +174,7 @@ maskingOptions.setArgs(new com.aspose.imaging.masking.options.AutoMaskingArgs())
 maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
 maskingOptions.setExportOptions(exportOptions);
 
-// 首次启动会话并保存到文件
+// 首次启动会话并保存到文件中。
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -214,7 +214,7 @@ finally
     image.close();
 }
 
-// 从文件恢复掩码会话
+// 从文件恢复掩码会话。
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -226,7 +226,7 @@ try
     {
         com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-        // 对图像进行视觉分析并设置属于分离对象的点。
+        // 对图像进行可视化分析并设置属于分离对象的点。
         args.setObjectsPoints(new Point[][]
                 {
                         new Point[]
@@ -239,7 +239,7 @@ try
         com.aspose.imaging.masking.result.MaskingResult maskingResult = session.improveDecomposition(args);
         try
         {
-            // 显式传递导出选项，因为它不可序列化
+            // 显式传输导出选项，因为它不可序列化。
             maskingResult.MaskingOptions.setExportOptions(exportOptions);
 
             com.aspose.imaging.RasterImage segmentImage = maskingResult.get_Item(1).getImage();
@@ -284,7 +284,7 @@ public abstract MaskingResult improveDecomposition(IMaskingArgs maskingArguments
 ```
 
 
-执行再训练分解操作
+执行重新训练分解操作
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -316,7 +316,7 @@ maskingOptions.setArgs(new com.aspose.imaging.masking.options.AutoMaskingArgs())
 maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
 maskingOptions.setExportOptions(exportOptions);
 
-// 首次启动会话并保存到文件
+// 首次启动会话并保存到文件中。
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -356,7 +356,7 @@ finally
     image.close();
 }
 
-// 从文件恢复掩码会话
+// 从文件恢复掩码会话。
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -368,7 +368,7 @@ try
     {
         com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-        // 对图像进行视觉分析并设置属于分离对象的点。
+        // 对图像进行可视化分析并设置属于分离对象的点。
         args.setObjectsPoints(new Point[][]
                 {
                         new Point[]
@@ -381,7 +381,7 @@ try
         com.aspose.imaging.masking.result.MaskingResult maskingResult = session.improveDecomposition(args);
         try
         {
-            // 显式传递导出选项，因为它不可序列化
+            // 显式传输导出选项，因为它不可序列化。
             maskingResult.MaskingOptions.setExportOptions(exportOptions);
 
             com.aspose.imaging.RasterImage segmentImage = maskingResult.get_Item(1).getImage();
@@ -416,7 +416,7 @@ public abstract IMaskingAsyncTask improveDecompositionAsync(IMaskingArgs masking
 ```
 
 
-创建可执行再训练分解操作的异步任务
+创建可执行重新训练分解操作的异步任务
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -431,7 +431,7 @@ public abstract void save(OutputStream stream)
 ```
 
 
-将会话状态保存到指定的流。
+将会话状态保存到指定的流中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -444,7 +444,7 @@ public abstract void save(System.IO.Stream stream)
 ```
 
 
-将会话状态保存到指定的流。
+将会话状态保存到指定的流中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -457,7 +457,7 @@ public abstract void save(String filePath)
 ```
 
 
-将会话状态保存到指定的文件。
+将会话状态保存到指定的文件中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

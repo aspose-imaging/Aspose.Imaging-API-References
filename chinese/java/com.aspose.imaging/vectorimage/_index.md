@@ -1,6 +1,6 @@
 ---
 title: "VectorImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "矢量图像是所有类型矢量图像的基类。"
 type: docs
 weight: 117
@@ -20,17 +20,17 @@ public abstract class VectorImage extends Image implements IObjectWithSizeF
 
 | 方法 | 描述 |
 | --- | --- |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整指定的新宽度。 |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整为指定的新宽度。 |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 使用扩展选项调整图像大小。 |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | 旋转、翻转，或同时旋转和翻转图像。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 裁剪指定的矩形。 |
 | [rotate(float angle)](#rotate-float-) | 围绕中心旋转图像。 |
 | [getSizeF()](#getSizeF--) | 获取对象的尺寸（英寸）。 |
 | [getWidthF()](#getWidthF--) | 获取对象的宽度（英寸）。 |
-| [getHeightF()](#getHeightF--) | 获取对象的高度（英寸）。 |
+| [getHeightF()](#getHeightF--) | 获取对象的高度，单位为英寸。 |
 | [getWidth()](#getWidth--) | 获取图像宽度。 |
 | [getHeight()](#getHeight--) | 获取图像高度。 |
-| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | 获取默认的图像选项。 |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | 获取默认图像选项。 |
 | [getEmbeddedImages()](#getEmbeddedImages--) | 获取嵌入的图像。 |
 | [removeBackground()](#removeBackground--) | 移除背景。 |
 | [removeBackground(RemoveBackgroundSettings settings)](#removeBackground-com.aspose.imaging.RemoveBackgroundSettings-) | 移除背景。 |
@@ -73,7 +73,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-调整指定的新宽度。
+调整为指定的新宽度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -155,17 +155,17 @@ public float getWidthF()
 获取对象的宽度（英寸）。
 
 **Returns:**
-float - 对象的宽度（英寸）。
+float - 对象的宽度，单位为英寸。
 ### getHeightF() {#getHeightF--}
 ```
 public float getHeightF()
 ```
 
 
-获取对象的高度（英寸）。
+获取对象的高度，单位为英寸。
 
 **Returns:**
-float - 对象的高度（英寸）。
+float - 对象的高度，单位为英寸。
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -192,7 +192,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-获取默认的图像选项。
+获取默认图像选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

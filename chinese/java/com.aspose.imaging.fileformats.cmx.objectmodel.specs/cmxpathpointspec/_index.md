@@ -1,6 +1,6 @@
 ---
 title: "CmxPathPointSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为路径点指定的几何信息。"
 type: docs
 weight: 13
@@ -29,10 +29,10 @@ public class CmxPathPointSpec
 | [setY(float value)](#setY-float-) | 设置点的 Y 坐标。 |
 | [getJumpType()](#getJumpType--) | 获取跳转的类型。 |
 | [setJumpType(int value)](#setJumpType-int-) | 设置跳转的类型。 |
-| [isClosedPath()](#isClosedPath--) | 获取指示此点是否闭合其路径的值。 |
-| [setClosedPath(boolean value)](#setClosedPath-boolean-) | 设置指示此点是否闭合其路径的值。 |
-| [getBezierOrder()](#getBezierOrder--) | 获取贝塞尔顺序。 |
-| [setBezierOrder(int value)](#setBezierOrder-int-) | 设置贝塞尔顺序。 |
+| [isClosedPath()](#isClosedPath--) | 获取一个值，指示此点是否闭合其路径。 |
+| [setClosedPath(boolean value)](#setClosedPath-boolean-) | 设置一个值，指示此点是否闭合其路径。 |
+| [getBezierOrder()](#getBezierOrder--) | 获取贝塞尔阶数。 |
+| [setBezierOrder(int value)](#setBezierOrder-int-) | 设置贝塞尔阶数。 |
 | [toString()](#toString--) | 返回表示此实例的字符串。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
 | [hashCode()](#hashCode--) | 获取当前对象的哈希码。 |
@@ -63,7 +63,7 @@ public final float getX()
 ```
 
 
-获取点的 X 坐标。以常用文档距离单位计量。
+获取点的 X 坐标。以通用文档距离单位计量。
 
 **Returns:**
 float - 点的 X 坐标。
@@ -73,12 +73,12 @@ public final void setX(float value)
 ```
 
 
-设置点的 X 坐标。以常用文档距离单位计量。
+设置点的 X 坐标。以通用文档距离单位计量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 点的 X 坐标。 |
+| 值 | float | 点的 X 坐标。 |
 
 ### getY() {#getY--}
 ```
@@ -86,7 +86,7 @@ public final float getY()
 ```
 
 
-获取点的 Y 坐标。以常用文档距离单位计量。
+获取点的 Y 坐标。以通用文档距离单位计量。
 
 **Returns:**
 float - 点的 Y 坐标。
@@ -96,12 +96,12 @@ public final void setY(float value)
 ```
 
 
-设置点的 Y 坐标。以常用文档距离单位计量。
+设置点的 Y 坐标。以通用文档距离单位计量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 点的 Y 坐标。 |
+| 值 | float | 点的 Y 坐标。 |
 
 ### getJumpType() {#getJumpType--}
 ```
@@ -124,7 +124,7 @@ public final void setJumpType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 跳转的类型。 |
+| 值 | int | 跳转的类型。 |
 
 ### isClosedPath() {#isClosedPath--}
 ```
@@ -132,7 +132,7 @@ public final boolean isClosedPath()
 ```
 
 
-获取指示此点是否闭合其路径的值。
+获取一个值，指示此点是否闭合其路径。
 
 **Returns:**
 boolean
@@ -142,12 +142,12 @@ public final void setClosedPath(boolean value)
 ```
 
 
-设置指示此点是否闭合其路径的值。
+设置一个值，指示此点是否闭合其路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此点是否闭合其路径的值。 |
+| 值 | boolean | 指示此点是否闭合其路径的值。 |
 
 ### getBezierOrder() {#getBezierOrder--}
 ```
@@ -155,22 +155,22 @@ public final int getBezierOrder()
 ```
 
 
-获取贝塞尔顺序。
+获取贝塞尔阶数。
 
 **Returns:**
-int - 贝塞尔顺序。
+int - 贝塞尔阶数。
 ### setBezierOrder(int value) {#setBezierOrder-int-}
 ```
 public final void setBezierOrder(int value)
 ```
 
 
-设置贝塞尔顺序。
+设置贝塞尔阶数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 贝塞尔顺序。 |
+| 值 | int | 贝塞尔阶数。 |
 
 ### toString() {#toString--}
 ```

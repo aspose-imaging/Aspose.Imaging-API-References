@@ -1,13 +1,13 @@
 ---
 title: "XmpDynamicMediaPackage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 动态媒体命名空间。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class XmpDynamicMediaPackage extends XmpPackage
 ```
@@ -35,19 +35,19 @@ public final class XmpDynamicMediaPackage extends XmpPackage
 | [setCameraLabel(String cameraLabel)](#setCameraLabel-java.lang.String-) | 设置相机标签。 |
 | [setCameraMove(String cameraMove)](#setCameraMove-java.lang.String-) | 设置相机移动。 |
 | [setClient(String client)](#setClient-java.lang.String-) | 设置客户端。 |
-| [setComment(String comment)](#setComment-java.lang.String-) | 设置注释。 |
-| [setComposer(String composer)](#setComposer-java.lang.String-) | 设置作曲家。 |
+| [setComment(String comment)](#setComment-java.lang.String-) | 设置评论。 |
+| [setComposer(String composer)](#setComposer-java.lang.String-) | 设置作曲者。 |
 | [setDirector(String director)](#setDirector-java.lang.String-) | 设置导演。 |
 | [setDirectorPhotography(String directorPhotography)](#setDirectorPhotography-java.lang.String-) | 设置摄影导演。 |
 | [setDuration(Time duration)](#setDuration-com.aspose.imaging.xmp.schemas.xmpdm.Time-) | 设置持续时间。 |
 | [setEngineer(String engineer)](#setEngineer-java.lang.String-) | 设置工程师。 |
 | [setFileDataRate(Rational rate)](#setFileDataRate-com.aspose.imaging.xmp.types.derived.Rational-) | 设置文件数据速率。 |
 | [setGenre(String genre)](#setGenre-java.lang.String-) | 设置流派。 |
-| [setGood(boolean good)](#setGood-boolean-) | 设置好。 |
+| [setGood(boolean good)](#setGood-boolean-) | 设置良好。 |
 | [setInstrument(String instrument)](#setInstrument-java.lang.String-) | 设置乐器。 |
-| [setIntroTime(Time introTime)](#setIntroTime-com.aspose.imaging.xmp.schemas.xmpdm.Time-) | 设置前奏时间。 |
+| [setIntroTime(Time introTime)](#setIntroTime-com.aspose.imaging.xmp.schemas.xmpdm.Time-) | 设置介绍时间。 |
 | [setKey(String key)](#setKey-java.lang.String-) | 设置音频的调性。 |
-| [setLogComment(String comment)](#setLogComment-java.lang.String-) | 设置用户的日志注释。 |
+| [setLogComment(String comment)](#setLogComment-java.lang.String-) | 设置用户的日志评论。 |
 ### XmpDynamicMediaPackage() {#XmpDynamicMediaPackage--}
 ```
 public XmpDynamicMediaPackage()
@@ -68,7 +68,7 @@ public void addValue(String key, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 键的字符串表示形式，用于标识添加的值。 |
-| value | java.lang.String | 字符串值。 |
+| 值 | java.lang.String | 字符串值。 |
 
 ### setAbsPeakAudioFilePath(String uri) {#setAbsPeakAudioFilePath-java.lang.String-}
 ```
@@ -81,7 +81,7 @@ public void setAbsPeakAudioFilePath(String uri)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | java.lang.String | 文件的峰值音频文件的绝对路径。 |
+| uri | java.lang.String | 文件峰值音频文件的绝对路径。 |
 
 ### setAlblum(String album) {#setAlblum-java.lang.String-}
 ```
@@ -107,7 +107,7 @@ public void setAltTapeName(String altTapeName)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| altTapeName | java.lang.String | 备用磁带名称。 |
+| altTapeName | java.lang.String | 替代磁带名称。 |
 
 ### setAltTimeCode(Timecode timecode) {#setAltTimeCode-com.aspose.imaging.xmp.schemas.xmpdm.Timecode-}
 ```
@@ -232,12 +232,12 @@ public void setComment(String comment)
 ```
 
 
-设置注释。
+设置评论。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 注释 | java.lang.String | 注释。 |
+| comment | java.lang.String | 注释。 |
 
 ### setComposer(String composer) {#setComposer-java.lang.String-}
 ```
@@ -245,12 +245,12 @@ public void setComposer(String composer)
 ```
 
 
-设置作曲家。
+设置作曲者。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 作曲家 | java.lang.String | 作曲家。 |
+| composer | java.lang.String | 作曲家。 |
 
 ### setDirector(String director) {#setDirector-java.lang.String-}
 ```
@@ -263,7 +263,7 @@ public void setDirector(String director)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 导演 | java.lang.String | 导演。 |
+| director | java.lang.String | 导演。 |
 
 ### setDirectorPhotography(String directorPhotography) {#setDirectorPhotography-java.lang.String-}
 ```
@@ -276,7 +276,7 @@ public void setDirectorPhotography(String directorPhotography)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| directorPhotography | java.lang.String | 摄影指导。 |
+| directorPhotography | java.lang.String | 摄影导演。 |
 
 ### setDuration(Time duration) {#setDuration-com.aspose.imaging.xmp.schemas.xmpdm.Time-}
 ```
@@ -302,7 +302,7 @@ public void setEngineer(String engineer)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 工程师 | java.lang.String | 工程师。 |
+| engineer | java.lang.String | 工程师。 |
 
 ### setFileDataRate(Rational rate) {#setFileDataRate-com.aspose.imaging.xmp.types.derived.Rational-}
 ```
@@ -315,7 +315,7 @@ public void setFileDataRate(Rational rate)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rate | [Rational](../../com.aspose.imaging.xmp.types.derived/rational) | 文件数据速率（每秒兆字节）。 |
+| rate | [Rational](../../com.aspose.imaging.xmp.types.derived/rational) | 文件数据速率（兆字节每秒）。 |
 
 ### setGenre(String genre) {#setGenre-java.lang.String-}
 ```
@@ -328,7 +328,7 @@ public void setGenre(String genre)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 类型 | java.lang.String | 类型。 |
+| genre | java.lang.String | 流派。 |
 
 ### setGood(boolean good) {#setGood-boolean-}
 ```
@@ -336,12 +336,12 @@ public void setGood(boolean good)
 ```
 
 
-设置好。
+设置良好。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 好 | boolean | 如果设置为 `true`，则该镜头会被保留。 |
+| good | boolean | 如果设置为 `true`，则该镜头会被保留。 |
 
 ### setInstrument(String instrument) {#setInstrument-java.lang.String-}
 ```
@@ -354,7 +354,7 @@ public void setInstrument(String instrument)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 乐器 | java.lang.String | 乐器。 |
+| instrument | java.lang.String | 乐器。 |
 
 ### setIntroTime(Time introTime) {#setIntroTime-com.aspose.imaging.xmp.schemas.xmpdm.Time-}
 ```
@@ -362,12 +362,12 @@ public void setIntroTime(Time introTime)
 ```
 
 
-设置前奏时间。
+设置介绍时间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| introTime | [Time](../../com.aspose.imaging.xmp.schemas.xmpdm/time) | 前奏时间。 |
+| introTime | [Time](../../com.aspose.imaging.xmp.schemas.xmpdm/time) | 引导时间。 |
 
 ### setKey(String key) {#setKey-java.lang.String-}
 ```
@@ -380,7 +380,7 @@ public void setKey(String key)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 键 | java.lang.String | 音频的调性。可选项：C, C#, D, D#, E, F, F#, G, G#, A, A#, 和 B。 |
+| 键 | java.lang.String | 音频的音乐键。可选项：C, C\#, D, D\#, E, F, F\#, G, G\#, A, A\#, 和 B。 |
 
 ### setLogComment(String comment) {#setLogComment-java.lang.String-}
 ```
@@ -388,10 +388,10 @@ public void setLogComment(String comment)
 ```
 
 
-设置用户的日志注释。
+设置用户的日志评论。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 注释 | java.lang.String | 注释。 |
+| comment | java.lang.String | 注释。 |
 

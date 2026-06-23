@@ -1,6 +1,6 @@
 ---
 title: "DataStreamSupporter"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "数据流容器。"
 type: docs
 weight: 39
@@ -55,14 +55,14 @@ public abstract void cacheData()
 
 
 **Example: The following example shows how image caching affects performance.**
-以下示例展示了图像缓存如何影响性能。一般情况下，读取缓存数据的速度快于读取非缓存数据。
+以下示例展示了图像缓存如何影响性能。一般情况下，读取缓存数据的速度快于读取未缓存的数据。
 ``` java
 String dir = "c:\\temp\\";
 
 // 从 PNG 文件加载图像。
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
-    // 缓存所有像素数据，以便不再从底层数据流进行额外的数据加载
+    // 缓存所有像素数据，以免从底层数据流进行额外的数据加载
     image.cacheData();
 
     long startTime = System.currentTimeMillis();
@@ -112,7 +112,7 @@ try {
 //at com.aspose.imaging.internal.G.aB.a(Unknown Source)
 //at com.aspose.imaging.RasterImage.a(Unknown Source)
 //at com.aspose.imaging.RasterImage.getArgb32Pixel(Unknown Source)
-//位于 com.aspose.examples.ExamplesTest.Test(ExamplesTest.java:58)
+//在 com.aspose.examples.ExamplesTest.Test(ExamplesTest.java:58)
 ```
 
 ### save() {#save--}

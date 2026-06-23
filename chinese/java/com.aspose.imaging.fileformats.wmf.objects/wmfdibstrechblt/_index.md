@@ -1,18 +1,18 @@
 ---
 title: "WmfDibStrechBlt"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_DIBSTRETCHBLT 记录指定根据光栅操作（可能会扩展或收缩）以设备无关格式传输像素块。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_DIBSTRETCHBLT 记录指定根据光栅操作（可能的扩展或收缩）以设备无关格式传输一块像素。"
 type: docs
 weight: 30
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfDibStrechBlt extends WmfObject
 ```
 
-META\_DIBSTRETCHBLT 记录指定根据光栅操作在设备无关格式下传输像素块，可能会出现扩展或收缩。
+META\_DIBSTRETCHBLT 记录指定根据光栅操作在设备无关格式下传输像素块，可进行扩展或收缩。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -58,7 +58,7 @@ public int getRasterOperation()
 
 获取或设置光栅操作。
 
-值：回放设备上下文中的当前画笔，目标像素将与之组合以形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
+值：回放设备上下文中的当前画刷，目标像素将与之组合形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
 
 **Returns:**
 int
@@ -70,12 +70,12 @@ public void setRasterOperation(int value)
 
 获取或设置光栅操作。
 
-值：回放设备上下文中的当前画笔，目标像素将与之组合以形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
+值：回放设备上下文中的当前画刷，目标像素将与之组合形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSrcHeight() {#getSrcHeight--}
 ```
@@ -88,7 +88,7 @@ public short getSrcHeight()
 值：源矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setSrcHeight(short value) {#setSrcHeight-short-}
 ```
 public void setSrcHeight(short value)
@@ -102,7 +102,7 @@ public void setSrcHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getSrcWidth() {#getSrcWidth--}
 ```
@@ -112,10 +112,10 @@ public short getSrcWidth()
 
 获取或设置源的宽度。
 
-值：源矩形的宽度（逻辑单位）
+值：源矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setSrcWidth(short value) {#setSrcWidth-short-}
 ```
 public void setSrcWidth(short value)
@@ -124,12 +124,12 @@ public void setSrcWidth(short value)
 
 获取或设置源的宽度。
 
-值：源矩形的宽度（逻辑单位）
+值：源矩形的宽度（逻辑单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getYSrc() {#getYSrc--}
 ```
@@ -142,7 +142,7 @@ public short getYSrc()
 值：源矩形左上角的 y 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setYSrc(short value) {#setYSrc-short-}
 ```
 public void setYSrc(short value)
@@ -156,7 +156,7 @@ public void setYSrc(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getXSrc() {#getXSrc--}
 ```
@@ -169,7 +169,7 @@ public short getXSrc()
 值：源矩形左上角的 x 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setXSrc(short value) {#setXSrc-short-}
 ```
 public void setXSrc(short value)
@@ -183,7 +183,7 @@ public void setXSrc(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getDestHeight() {#getDestHeight--}
 ```
@@ -196,7 +196,7 @@ public short getDestHeight()
 值：目标矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setDestHeight(short value) {#setDestHeight-short-}
 ```
 public void setDestHeight(short value)
@@ -210,7 +210,7 @@ public void setDestHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getDestWidth() {#getDestWidth--}
 ```
@@ -223,7 +223,7 @@ public short getDestWidth()
 值：目标矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setDestWidth(short value) {#setDestWidth-short-}
 ```
 public void setDestWidth(short value)
@@ -237,7 +237,7 @@ public void setDestWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getYDest() {#getYDest--}
 ```
@@ -250,7 +250,7 @@ public short getYDest()
 值：目标矩形左上角的 y 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setYDest(short value) {#setYDest-short-}
 ```
 public void setYDest(short value)
@@ -264,7 +264,7 @@ public void setYDest(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getXDest() {#getXDest--}
 ```
@@ -277,7 +277,7 @@ public short getXDest()
 值：目标矩形左上角的 x 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setXDest(short value) {#setXDest-short-}
 ```
 public void setXDest(short value)
@@ -291,7 +291,7 @@ public void setXDest(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getSourceBitmap() {#getSourceBitmap--}
 ```

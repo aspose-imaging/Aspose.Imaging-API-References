@@ -1,6 +1,6 @@
 ---
 title: "EmfCommentBeginGroup"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_COMMENT_BEGINGROUP 记录指定一组绘图记录的开始。"
 type: docs
 weight: 26
@@ -24,10 +24,10 @@ EMR\_COMMENT\_BEGINGROUP 记录指定一组绘图记录的开始。
 | --- | --- |
 | [getRectangle()](#getRectangle--) | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定逻辑坐标中的输出矩形。 |
 | [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定逻辑坐标中的输出矩形。 |
-| [getNDescription()](#getNDescription--) | 获取或设置后续可选描述字符串中的 Unicode 字符数量。 |
-| [setNDescription(int value)](#setNDescription-int-) | 获取或设置后续可选描述字符串中的 Unicode 字符数量。 |
-| [getDescription()](#getDescription--) | 获取或设置一个可选的、以空字符结尾的 Unicode 字符串，用于描述此记录组。 |
-| [setDescription(String value)](#setDescription-java.lang.String-) | 获取或设置一个可选的、以空字符结尾的 Unicode 字符串，用于描述此记录组。 |
+| [getNDescription()](#getNDescription--) | 获取或设置后续可选描述字符串中的 Unicode 字符数。 |
+| [setNDescription(int value)](#setNDescription-int-) | 获取或设置后续可选描述字符串中的 Unicode 字符数。 |
+| [getDescription()](#getDescription--) | 获取或设置一个可选的、以 null 结尾的 Unicode 字符串，用于描述此记录组。 |
+| [setDescription(String value)](#setDescription-java.lang.String-) | 获取或设置一个可选的、以 null 结尾的 Unicode 字符串，用于描述此记录组。 |
 ### EmfCommentBeginGroup(EmfRecord source) {#EmfCommentBeginGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCommentBeginGroup(EmfRecord source)
@@ -39,7 +39,7 @@ public EmfCommentBeginGroup(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getRectangle() {#getRectangle--}
 ```
@@ -70,7 +70,7 @@ public int getNDescription()
 ```
 
 
-获取或设置后续可选描述字符串中的 Unicode 字符数量。
+获取或设置后续可选描述字符串中的 Unicode 字符数。
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setNDescription(int value)
 ```
 
 
-获取或设置后续可选描述字符串中的 Unicode 字符数量。
+获取或设置后续可选描述字符串中的 Unicode 字符数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getDescription() {#getDescription--}
 ```
@@ -93,7 +93,7 @@ public String getDescription()
 ```
 
 
-获取或设置一个可选的、以空字符结尾的 Unicode 字符串，用于描述此记录组。
+获取或设置一个可选的、以 null 结尾的 Unicode 字符串，用于描述此记录组。
 
 **Returns:**
 java.lang.String
@@ -103,10 +103,10 @@ public void setDescription(String value)
 ```
 
 
-获取或设置一个可选的、以空字符结尾的 Unicode 字符串，用于描述此记录组。
+获取或设置一个可选的、以 null 结尾的 Unicode 字符串，用于描述此记录组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 

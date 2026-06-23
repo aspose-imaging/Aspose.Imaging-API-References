@@ -1,6 +1,6 @@
 ---
 title: "Jpeg2000Options"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "使用我们的 API 创建 JPEG2000 JP2 图像文件，利用先进的小波技术对无损内容进行编码。"
 type: docs
 weight: 25
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class Jpeg2000Options extends ImageOptionsBase
 ```
 
-使用我们的 API 创建 JPEG2000 (JP2) 图像文件，利用先进的小波技术对无损内容进行编码。受益于对多种编解码器的支持，包括不可逆和无损压缩，以及 XMP 元数据容器，确保多功能性和高质量的图像创建，以满足您的需求。
+使用我们的 API 创建 JPEG2000 (JP2) 图像文件，利用先进的小波技术对无损内容进行编码。受益于对多种编解码器的支持，包括有损和无损压缩，以及 XMP 元数据容器，确保多功能性和高质量的图像创建，以满足您的需求。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -45,7 +45,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // 仅导出前两页。实际上，由于 JPEG 2000 不是多页格式，只会栅格化一页。
+    // 仅导出前两页。实际上，由于 JPEG 2000 不是多页格式，只会光栅化一页。
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -106,7 +106,7 @@ public void setComments(String[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] | Jpeg 注释标记。 |
+| 值 | java.lang.String[] | Jpeg 注释标记。 |
 
 ### getCodec() {#getCodec--}
 ```
@@ -129,7 +129,7 @@ public void setCodec(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | JPEG2000 编解码器 |
+| 值 | int | JPEG2000 编解码器 |
 
 
 **Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**
@@ -137,7 +137,7 @@ public void setCodec(int value)
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
+// 创建一个 100x100 像素的 PNG 图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
@@ -151,7 +151,7 @@ try {
     // 使用不可逆离散小波变换 9-7
     saveOptions.setIrreversible(true);
 
-    // JP2 是 JPEG 2000 码流的 "容器" 格式。
+    // JP2 是 JPEG 2000 码流的 “容器” 格式。
     // J2K 是原始压缩数据，没有封装。
     saveOptions.setCodec(com.aspose.imaging.fileformats.jpeg2000.Jpeg2000Codec.J2K);
 
@@ -168,7 +168,7 @@ public int[] getCompressionRatios()
 ```
 
 
-获取或设置压缩比数组。为后续层提供不同的压缩比。为每个质量级别指定的比率是期望的压缩因子。需要递减的比率。
+获取或设置压缩比数组。连续层的压缩比不同。为每个质量级别指定的比率是期望的压缩因子。需要降低比率。
 
 **Returns:**
 int[] - 压缩比。
@@ -178,12 +178,12 @@ public void setCompressionRatios(int[] value)
 ```
 
 
-获取或设置压缩比数组。为后续层提供不同的压缩比。为每个质量级别指定的比率是期望的压缩因子。需要递减的比率。
+获取或设置压缩比数组。连续层的压缩比不同。为每个质量级别指定的比率是期望的压缩因子。需要降低比率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 压缩比。 |
+| 值 | int[] | 压缩比。 |
 
 ### getIrreversible() {#getIrreversible--}
 ```
@@ -194,7 +194,7 @@ public boolean getIrreversible()
 获取一个值，指示是使用不可逆 DWT 9-7（true）还是使用无损 DWT 5-3 压缩（默认）。
 
 **Returns:**
-boolean - 一个值，指示您是使用不可逆 DWT 9-7（true）还是使用无损 DWT 5-3 压缩
+boolean - 一个值，指示是使用不可逆 DWT 9-7（true）还是使用无损 DWT 5-3 压缩
 ### setIrreversible(boolean value) {#setIrreversible-boolean-}
 ```
 public void setIrreversible(boolean value)
@@ -206,7 +206,7 @@ public void setIrreversible(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示您是使用不可逆 DWT 9-7（true）还是使用无损 DWT 5-3 压缩 |
+| 值 | boolean | 一个值，指示是使用不可逆 DWT 9-7（true）还是使用无损 DWT 5-3 压缩 |
 
 
 **Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**
@@ -214,7 +214,7 @@ public void setIrreversible(boolean value)
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
+// 创建一个 100x100 像素的 PNG 图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
@@ -228,7 +228,7 @@ try {
     // 使用不可逆离散小波变换 9-7
     saveOptions.setIrreversible(true);
 
-    // JP2 是 JPEG 2000 码流的 "容器" 格式。
+    // JP2 是 JPEG 2000 码流的 “容器” 格式。
     // J2K 是原始压缩数据，没有封装。
     saveOptions.setCodec(com.aspose.imaging.fileformats.jpeg2000.Jpeg2000Codec.J2K);
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusClippingRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "剪裁记录类型指定剪裁区域和操作。"
 type: docs
 weight: 13

@@ -1,6 +1,6 @@
 ---
 title: "DeconvolutionFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Deconvolution Filter Options 抽象类"
 type: docs
 weight: 16
@@ -33,7 +33,7 @@ public class DeconvolutionFilterOptions extends FilterOptionsBase implements ICo
 | [setBrightness(double value)](#setBrightness-double-) | 获取或设置亮度。 |
 | [getGrayscale()](#getGrayscale--) | 获取或设置一个值，指示此 `DeconvolutionFilterOptions` 是否为灰度。 |
 | [setGrayscale(boolean value)](#setGrayscale-boolean-) | 获取或设置一个值，指示此 `DeconvolutionFilterOptions` 是否为灰度。 |
-| [isPartialLoaded()](#isPartialLoaded--) | 获取一个值，指示此实例是否部分加载。 |
+| [isPartialLoaded()](#isPartialLoaded--) | 获取一个值，指示此实例是否已部分加载。 |
 ### DeconvolutionFilterOptions(double[][] kernel) {#DeconvolutionFilterOptions-double-----}
 ```
 public DeconvolutionFilterOptions(double[][] kernel)
@@ -45,7 +45,7 @@ public DeconvolutionFilterOptions(double[][] kernel)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 内核 | double[][] | 内核。 |
+| 核 | double[][] | 内核。 |
 
 ### DeconvolutionFilterOptions(Complex[][] kernel) {#DeconvolutionFilterOptions-com.aspose.imaging.imagefilters.complexutils.Complex-----}
 ```
@@ -95,7 +95,7 @@ public void setSnr(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double |  |
+| 值 | double |  |
 
 ### getBrightness() {#getBrightness--}
 ```
@@ -122,7 +122,7 @@ public void setBrightness(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double |  |
+| 值 | double |  |
 
 ### getGrayscale() {#getGrayscale--}
 ```
@@ -149,7 +149,7 @@ public void setGrayscale(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### isPartialLoaded() {#isPartialLoaded--}
 ```
@@ -157,9 +157,9 @@ public boolean isPartialLoaded()
 ```
 
 
-获取一个值，指示此实例是否部分加载。
+获取一个值，指示此实例是否已部分加载。
 
-值：如果此实例部分加载则为 `true`；否则为 `false`。
+值：如果此实例已部分加载则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean

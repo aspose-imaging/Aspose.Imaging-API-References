@@ -1,6 +1,6 @@
 ---
 title: "TiffDataTypeController"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示用于处理 tiff 数据类型的通用类。"
 type: docs
 weight: 14

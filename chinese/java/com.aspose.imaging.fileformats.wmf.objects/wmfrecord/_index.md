@@ -1,6 +1,6 @@
 ---
 title: "WmfRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Wmf 记录"
 type: docs
 weight: 60
@@ -57,7 +57,7 @@ public void setSize(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getRecordType() {#getRecordType--}
 ```
@@ -68,7 +68,7 @@ public short getRecordType()
 `RecordType` 编号（在 WINDOWS.H 中定义）
 
 **Returns:**
-short
+短
 ### setRecordType(short value) {#setRecordType-short-}
 ```
 public void setRecordType(short value)
@@ -80,5 +80,5 @@ public void setRecordType(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

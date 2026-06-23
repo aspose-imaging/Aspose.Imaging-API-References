@@ -1,7 +1,7 @@
 ---
 title: "SolidBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "实心画笔用于使用特定颜色持续绘制。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "实心画刷用于使用特定颜色连续绘制。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.brushes/solidbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class SolidBrush extends Brush
 ```
 
-实心画笔用于使用特定颜色连续绘制。此类不可被继承。
+SolidBrush 用于使用特定颜色连续绘图。此类不可继承。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,18 +23,18 @@ public final class SolidBrush extends Brush
 
 | 方法 | 描述 |
 | --- | --- |
-| [getColor()](#getColor--) | 获取或设置画笔颜色。 |
-| [setColor(Color value)](#setColor-com.aspose.imaging.Color-) | 获取或设置画笔颜色。 |
+| [getColor()](#getColor--) | 获取或设置画刷颜色。 |
+| [setColor(Color value)](#setColor-com.aspose.imaging.Color-) | 获取或设置画刷颜色。 |
 | [hashCode()](#hashCode--) |  |
 | [equals(Object object)](#equals-java.lang.Object-) |  |
 
 ## Example: This example uses Graphics class to create primitive shapes on the Image surface.
-此示例使用 Graphics 类在 Image 表面创建基本形状。为了演示该操作，示例创建一个 PNG 格式的新 Image，并使用 Graphics 类提供的 Draw 方法在 Image 表面绘制基本形状。
+此示例使用 Graphics 类在 Image 表面创建基本形状。为演示该操作，示例创建一个 PNG 格式的新 Image，并使用 Graphics 类提供的 Draw 方法在 Image 表面绘制基本形状。
 ``` java
 // 创建 FileStream 的实例
 com.aspose.imaging.system.io.FileStream stream = new com.aspose.imaging.system.io.FileStream("C:\\temp\\output.png", com.aspose.imaging.system.io.FileMode.Create);
 try {
-    // 创建 PngOptions 的实例并设置其各项属性
+    // 创建 PngOptions 的实例并设置其各种属性
     com.aspose.imaging.imageoptions.PngOptions pngOptions = new com.aspose.imaging.imageoptions.PngOptions();
 
     // 为 PngOptions 设置 Source
@@ -50,14 +50,14 @@ try {
         graphics.clear(com.aspose.imaging.Color.getWheat());
 
         // 通过指定具有 Black com.aspose.imaging.Color 的 Pen 对象来绘制弧线，
-        // 一个围绕弧线的矩形、起始角度和扫掠角度
+        // 一个围绕弧线的 Rectangle、起始角度和扫掠角度
         graphics.drawArc(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 2),
                 new com.aspose.imaging.Rectangle(200, 200, 100, 200),
                 0,
                 300);
 
-        // 通过指定具有 Blue com.aspose.imaging.Color 的 Pen 对象和坐标点来绘制贝塞尔曲线。
+        // 通过指定具有 Blue com.aspose.imaging.Color 的 Pen 对象以及坐标点来绘制贝塞尔曲线。
         graphics.drawBezier(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlue(), 2),
                 new com.aspose.imaging.Point(250, 100),
@@ -75,7 +75,7 @@ try {
                                 new com.aspose.imaging.Point(200, 450)
                         });
 
-        // 使用 Pen 对象和围绕的矩形绘制椭圆
+        // 使用 Pen 对象和围绕的 Rectangle 绘制椭圆
         graphics.drawEllipse(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getYellow(), 2),
                 new com.aspose.imaging.Rectangle(300, 300, 100, 100));
@@ -86,14 +86,14 @@ try {
                 new com.aspose.imaging.Point(100, 100),
                 new com.aspose.imaging.Point(200, 200));
 
-        // 绘制饼图扇形
+        // 绘制一个饼图段
         graphics.drawPie(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getSilver(), 2),
                 new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(200, 20), new com.aspose.imaging.Size(200, 200)),
                 0,
                 45);
 
-        // 通过指定具有 Red com.aspose.imaging.Color 的 Pen 对象和点数组来绘制多边形
+        // 通过指定具有红色 com.aspose.imaging.Color 的 Pen 对象和一个 Points 数组来绘制多边形
         graphics.drawPolygon(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
                 new com.aspose.imaging.Point[]
@@ -108,11 +108,11 @@ try {
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getOrange(), 2),
                 new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(250, 250), new com.aspose.imaging.Size(100, 100)));
 
-        // 创建 SolidBrush 对象并设置其各项属性
+        // 创建 SolidBrush 对象并设置其各种属性
         com.aspose.imaging.brushes.SolidBrush brush = new com.aspose.imaging.brushes.SolidBrush();
         brush.setColor(com.aspose.imaging.Color.getPurple());
 
-        // 使用 SolidBrush 对象和 Font 在指定点绘制字符串
+        // 使用 SolidBrush 对象和 Font 在特定的 Point 绘制字符串
         graphics.drawString(
                 "This image is created by Aspose.Imaging API",
                 new com.aspose.imaging.Font("Times New Roman", 16),
@@ -148,7 +148,7 @@ public SolidBrush(Color color)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| color | [Color](../../com.aspose.imaging/color) | 实心画笔的颜色。 |
+| color | [Color](../../com.aspose.imaging/color) | 实心画刷的颜色。 |
 
 ### getColor() {#getColor--}
 ```
@@ -156,20 +156,20 @@ public Color getColor()
 ```
 
 
-获取或设置画笔颜色。
+获取或设置画刷颜色。
 
-值：画笔颜色。
+值：画刷的颜色。
 
 **Returns:**
 [Color](../../com.aspose.imaging/color)
 
 **Example: This example uses Graphics class to create primitive shapes on the Image surface.**
-此示例使用 Graphics 类在 Image 表面创建基本形状。为了演示该操作，示例创建一个 PNG 格式的新 Image，并使用 Graphics 类提供的 Draw 方法在 Image 表面绘制基本形状。
+此示例使用 Graphics 类在 Image 表面创建基本形状。为演示该操作，示例创建一个 PNG 格式的新 Image，并使用 Graphics 类提供的 Draw 方法在 Image 表面绘制基本形状。
 ``` java
 // 创建 FileStream 的实例
 com.aspose.imaging.system.io.FileStream stream = new com.aspose.imaging.system.io.FileStream("C:\\temp\\output.png", com.aspose.imaging.system.io.FileMode.Create);
 try {
-    // 创建 PngOptions 的实例并设置其各项属性
+    // 创建 PngOptions 的实例并设置其各种属性
     com.aspose.imaging.imageoptions.PngOptions pngOptions = new com.aspose.imaging.imageoptions.PngOptions();
 
     // 为 PngOptions 设置 Source
@@ -185,14 +185,14 @@ try {
         graphics.clear(com.aspose.imaging.Color.getWheat());
 
         // 通过指定具有 Black com.aspose.imaging.Color 的 Pen 对象来绘制弧线，
-        // 一个围绕弧线的矩形、起始角度和扫掠角度
+        // 一个围绕弧线的 Rectangle、起始角度和扫掠角度
         graphics.drawArc(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 2),
                 new com.aspose.imaging.Rectangle(200, 200, 100, 200),
                 0,
                 300);
 
-        // 通过指定具有 Blue com.aspose.imaging.Color 的 Pen 对象和坐标点来绘制贝塞尔曲线。
+        // 通过指定具有 Blue com.aspose.imaging.Color 的 Pen 对象以及坐标点来绘制贝塞尔曲线。
         graphics.drawBezier(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlue(), 2),
                 new com.aspose.imaging.Point(250, 100),
@@ -210,7 +210,7 @@ try {
                                 new com.aspose.imaging.Point(200, 450)
                         });
 
-        // 使用 Pen 对象和围绕的矩形绘制椭圆
+        // 使用 Pen 对象和围绕的 Rectangle 绘制椭圆
         graphics.drawEllipse(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getYellow(), 2),
                 new com.aspose.imaging.Rectangle(300, 300, 100, 100));
@@ -221,14 +221,14 @@ try {
                 new com.aspose.imaging.Point(100, 100),
                 new com.aspose.imaging.Point(200, 200));
 
-        // 绘制饼图扇形
+        // 绘制一个饼图段
         graphics.drawPie(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getSilver(), 2),
                 new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(200, 20), new com.aspose.imaging.Size(200, 200)),
                 0,
                 45);
 
-        // 通过指定具有 Red com.aspose.imaging.Color 的 Pen 对象和点数组来绘制多边形
+        // 通过指定具有红色 com.aspose.imaging.Color 的 Pen 对象和一个 Points 数组来绘制多边形
         graphics.drawPolygon(
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
                 new com.aspose.imaging.Point[]
@@ -243,11 +243,11 @@ try {
                 new com.aspose.imaging.Pen(com.aspose.imaging.Color.getOrange(), 2),
                 new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(250, 250), new com.aspose.imaging.Size(100, 100)));
 
-        // 创建 SolidBrush 对象并设置其各项属性
+        // 创建 SolidBrush 对象并设置其各种属性
         com.aspose.imaging.brushes.SolidBrush brush = new com.aspose.imaging.brushes.SolidBrush();
         brush.setColor(com.aspose.imaging.Color.getPurple());
 
-        // 使用 SolidBrush 对象和 Font 在指定点绘制字符串
+        // 使用 SolidBrush 对象和 Font 在特定的 Point 绘制字符串
         graphics.drawString(
                 "This image is created by Aspose.Imaging API",
                 new com.aspose.imaging.Font("Times New Roman", 16),
@@ -270,9 +270,9 @@ public void setColor(Color value)
 ```
 
 
-获取或设置画笔颜色。
+获取或设置画刷颜色。
 
-值：画笔颜色。
+值：画刷的颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusHotkeyPrefix"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "HotkeyPrefix 枚举定义了图形文本中快捷键前缀的输出选项。"
 type: docs
 weight: 26
@@ -19,7 +19,7 @@ HotkeyPrefix 枚举定义了图形文本中快捷键前缀的输出选项。
 | --- | --- |
 | [HotkeyPrefixNone](#HotkeyPrefixNone) | 指定不应显示快捷键前缀。 |
 | [HotkeyPrefixShow](#HotkeyPrefixShow) | 指定未定义快捷键前缀。 |
-| [HotkeyPrefixHide](#HotkeyPrefixHide) | 指定应显示快捷键前缀。 |
+| [HotkeyPrefixHide](#HotkeyPrefixHide) | 指定热键前缀 SHOULD 被显示。 |
 ### HotkeyPrefixNone {#HotkeyPrefixNone}
 ```
 public static final int HotkeyPrefixNone
@@ -42,5 +42,5 @@ public static final int HotkeyPrefixHide
 ```
 
 
-指定应显示快捷键前缀。
+指定热键前缀 SHOULD 被显示。
 

@@ -1,7 +1,7 @@
 ---
 title: "CdrOutline"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 外轮廓"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 外线"
 type: docs
 weight: 29
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdroutline/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrOutline extends CdrDictionaryItem
 ```
 
-cdr 外轮廓
+该 cdr 外线
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,14 +22,14 @@ cdr 外轮廓
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLineType()](#getLineType--) | 获取线条的类型。 |
-| [setLineType(short value)](#setLineType-short-) | 设置线条的类型。 |
-| [getCapsType()](#getCapsType--) | 获取端帽的类型。 |
-| [setCapsType(short value)](#setCapsType-short-) | 设置端帽的类型。 |
+| [getLineType()](#getLineType--) | 获取线的类型。 |
+| [setLineType(short value)](#setLineType-short-) | 设置线的类型。 |
+| [getCapsType()](#getCapsType--) | 获取帽子的类型。 |
+| [setCapsType(short value)](#setCapsType-short-) | 设置帽子的类型。 |
 | [getJoinType()](#getJoinType--) | 获取连接的类型。 |
 | [setJoinType(short value)](#setJoinType-short-) | 设置连接的类型。 |
-| [getLineWidth()](#getLineWidth--) | 获取线条的宽度。 |
-| [setLineWidth(double value)](#setLineWidth-double-) | 设置线条的宽度。 |
+| [getLineWidth()](#getLineWidth--) | 获取线的宽度。 |
+| [setLineWidth(double value)](#setLineWidth-double-) | 设置线的宽度。 |
 | [getStretch()](#getStretch--) | 获取拉伸。 |
 | [setStretch(double value)](#setStretch-double-) | 设置拉伸。 |
 | [getAangle()](#getAangle--) | 获取角度。 |
@@ -54,7 +54,7 @@ public final short getLineType()
 ```
 
 
-获取线条的类型。
+获取线的类型。
 
 **Returns:**
 short - 线的类型。
@@ -64,12 +64,12 @@ public final void setLineType(short value)
 ```
 
 
-设置线条的类型。
+设置线的类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 线的类型。 |
+| 值 | 短 | 线的类型。 |
 
 ### getCapsType() {#getCapsType--}
 ```
@@ -77,22 +77,22 @@ public final short getCapsType()
 ```
 
 
-获取端帽的类型。
+获取帽子的类型。
 
 **Returns:**
-short - 端帽的类型。
+short - 帽子的类型。
 ### setCapsType(short value) {#setCapsType-short-}
 ```
 public final void setCapsType(short value)
 ```
 
 
-设置端帽的类型。
+设置帽子的类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 端帽的类型。 |
+| 值 | 短 | 帽子的类型。 |
 
 ### getJoinType() {#getJoinType--}
 ```
@@ -115,7 +115,7 @@ public final void setJoinType(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 连接的类型。 |
+| 值 | 短 | 连接的类型。 |
 
 ### getLineWidth() {#getLineWidth--}
 ```
@@ -123,7 +123,7 @@ public final double getLineWidth()
 ```
 
 
-获取线条的宽度。
+获取线的宽度。
 
 **Returns:**
 double - 线的宽度。
@@ -133,12 +133,12 @@ public final void setLineWidth(double value)
 ```
 
 
-设置线条的宽度。
+设置线的宽度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 线的宽度。 |
+| 值 | double | 线的宽度。 |
 
 ### getStretch() {#getStretch--}
 ```
@@ -161,7 +161,7 @@ public final void setStretch(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 拉伸。 |
+| 值 | double | 拉伸。 |
 
 ### getAangle() {#getAangle--}
 ```
@@ -184,7 +184,7 @@ public final void setAangle(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 角度。 |
+| 值 | double | 角度。 |
 
 ### getColor() {#getColor--}
 ```
@@ -230,7 +230,7 @@ public final void setDashArray(List<Integer> value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.List<java.lang.Integer> | 虚线数组。 |
+| 值 | java.util.List<java.lang.Integer> | 虚线数组。 |
 
 ### getStartMarkerId() {#getStartMarkerId--}
 ```
@@ -253,7 +253,7 @@ public final void setStartMarkerId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 起始标记标识符。 |
+| 值 | int | 开始标记标识符。 |
 
 ### getEndMarkerId() {#getEndMarkerId--}
 ```
@@ -276,5 +276,5 @@ public final void setEndMarkerId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 结束标记标识符。 |
+| 值 | int | 结束标记标识符。 |
 

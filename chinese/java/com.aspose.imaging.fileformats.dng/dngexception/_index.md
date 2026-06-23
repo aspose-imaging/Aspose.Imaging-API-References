@@ -1,6 +1,6 @@
 ---
 title: "DngException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "DNG 异常类"
 type: docs
 weight: 10
@@ -30,7 +30,7 @@ public DngException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 描述错误的消息。 |
+| 消息 | java.lang.String | 描述错误的消息。 |
 
 ### DngException(String message, System.Exception innerException) {#DngException-java.lang.String-com.aspose.ms.System.Exception-}
 ```
@@ -43,6 +43,6 @@ public DngException(String message, System.Exception innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 解释异常原因的错误消息。 |
-| innerException | com.aspose.ms.System.Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用（Visual Basic 中的 Nothing）。 |
+| 消息 | java.lang.String | 解释异常原因的错误消息。 |
+| innerException | com.aspose.ms.System.Exception | 导致当前异常的异常，如果未指定内部异常，则为 null 引用（Visual Basic 中为 Nothing）。 |
 

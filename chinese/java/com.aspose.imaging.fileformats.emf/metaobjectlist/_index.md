@@ -1,6 +1,6 @@
 ---
 title: "MetaObjectList"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMF EMF 和 WMF 类的元对象列表"
 type: docs
 weight: 14

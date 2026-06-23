@@ -1,6 +1,6 @@
 ---
 title: "IAsyncTask"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "异步任务。"
 type: docs
 weight: 16
@@ -64,10 +64,10 @@ public abstract boolean isBusy()
 
 获取指示此任务当前是否正在运行的值。
 
-值：`true` 表示此任务当前正在运行；否则为 `false`。
+值：如果此任务当前正在运行，则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 指示此任务当前是否正在运行的值。
+布尔 - 表示此任务当前是否正在运行的值。
 ### isCanceled() {#isCanceled--}
 ```
 public abstract boolean isCanceled()
@@ -76,10 +76,10 @@ public abstract boolean isCanceled()
 
 获取指示此任务是否已取消的值。
 
-值：`true` 表示此任务已被取消；否则为 `false`。
+值：如果此任务已被取消，则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 一个指示此任务是否已取消的值。
+布尔 - 表示此任务是否已被取消的值。
 ### isFaulted() {#isFaulted--}
 ```
 public abstract boolean isFaulted()
@@ -91,7 +91,7 @@ public abstract boolean isFaulted()
 值：如果此任务出现错误，则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 一个指示此任务是否出现错误的值。
+布尔 - 表示此任务是否出现错误的值。
 ### getError() {#getError--}
 ```
 public abstract Throwable getError()
@@ -135,7 +135,7 @@ public abstract void runAsync(int priority)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 优先级 | int | 线程的优先级。 |
+| 优先级 | int | 线程优先级。 |
 
 ### cancel() {#cancel--}
 ```
@@ -151,7 +151,7 @@ public abstract void abort()
 ```
 
 
-中止此任务。该任务会立即完成，但可能无法释放内部非托管资源。
+中止此任务。该任务会立即完成，但有可能未释放内部非托管资源的风险。
 
 ### setCompleteCallback(CompleteCallback completeCallback) {#setCompleteCallback-com.aspose.imaging.asynctask.CompleteCallback-}
 ```

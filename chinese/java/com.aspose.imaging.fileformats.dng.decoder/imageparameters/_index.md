@@ -1,6 +1,6 @@
 ---
 title: "ImageParameters"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Dng 图像参数"
 type: docs
 weight: 11
@@ -24,7 +24,7 @@ Dng 图像参数
 | [isFoveon()](#isFoveon--) | 获取是否为 foveon 矩阵。 |
 | [getSoftware()](#getSoftware--) | 获取软件。 |
 | [getRawCount()](#getRawCount--) | 获取文件中 RAW 图像的数量 (0 表示文件未被识别)。 |
-| [getFilters()](#getFilters--) | 获取描述矩阵中色素像素顺序的位掩码。 |
+| [getFilters()](#getFilters--) | 获取描述矩阵中色像素顺序的位掩码。 |
 | [getColorsCount()](#getColorsCount--) | 获取颜色。 |
 | [getXmpData()](#getXmpData--) | 获取 XMP 数据。 |
 | [getTranslationCfaDng()](#getTranslationCfaDng--) | 获取 CFA 马赛克 DNG 格式的转换数组。 |
@@ -80,20 +80,20 @@ try {
 }
 
 // 相机制造商：              Leica
-// 相机型号:                     M8 Digital Camera
-// 颜色计数:                     3
-// 颜色描述:               RGBG
-// DNG 版本:                      16777216
-// 文件中 RAW 图像的数量: 1
-// 软件:                         1.107
-// 颜色像素的顺序:        10110100101101001011010010110100
-// 光圈:                         0
-// 描述:
-// 焦距:                     50
-// ISO 感光度:                  160
-// 图像序列号:       0
-// 快门速度:                    12
-// 拍摄日期:                 8/3/2007 3:13:49 AM
+// 相机型号：                     M8 Digital Camera
+// 颜色数量：                     3
+// 颜色描述：               RGBG
+// DNG 版本：                      16777216
+// 文件中 RAW 图像的数量： 1
+// 软件版本：                         1.107
+// 颜色像素顺序：        10110100101101001011010010110100
+// 光圈：                         0
+// 描述：
+// 焦距：                     50
+// ISO 灵敏度：                  160
+// 图像序列号：       0
+// 快门速度：                    12
+// 拍摄日期：                 8/3/2007 3:13:49 AM
 ```
 
 ### getDngVersion() {#getDngVersion--}
@@ -104,7 +104,7 @@ public long getDngVersion()
 
 获取 DNG 版本。
 
-值: DNG 版本。
+值： DNG 版本。
 
 **Returns:**
 long
@@ -116,7 +116,7 @@ public String getDescription()
 
 获取颜色描述 (RGBG、RGBE、GMCY 或 GBTG)。
 
-值: cdesc。
+值： cdesc。
 
 **Returns:**
 java.lang.String
@@ -128,7 +128,7 @@ public String getModel()
 
 获取相机型号。
 
-值：模型。
+值：型号。
 
 **Returns:**
 java.lang.String
@@ -140,7 +140,7 @@ public String getCameraManufacturer()
 
 获取相机制造商。
 
-值: 制造商。
+值： 制造商。
 
 **Returns:**
 java.lang.String
@@ -152,7 +152,7 @@ public long isFoveon()
 
 获取是否为 foveon 矩阵。
 
-值: 是 foveon。
+值：该 是 foveon。
 
 **Returns:**
 long
@@ -176,7 +176,7 @@ public long getRawCount()
 
 获取文件中 RAW 图像的数量 (0 表示文件未被识别)。
 
-值: 原始计数。
+值：该 原始计数。
 
 **Returns:**
 long
@@ -186,9 +186,9 @@ public long getFilters()
 ```
 
 
-获取描述矩阵中色素像素顺序的位掩码。
+获取描述矩阵中色像素顺序的位掩码。
 
-值: 过滤器。
+值：该 过滤器。
 
 **Returns:**
 long
@@ -200,7 +200,7 @@ public int getColorsCount()
 
 获取颜色。
 
-值: 颜色。
+值：该 颜色。
 
 **Returns:**
 int
@@ -212,7 +212,7 @@ public String getXmpData()
 
 获取 XMP 数据。
 
-值: XMP 数据。
+值：该 XMP 数据。
 
 **Returns:**
 java.lang.String
@@ -224,7 +224,7 @@ public String[] getTranslationCfaDng()
 
 获取 CFA 马赛克 DNG 格式的转换数组。
 
-值: xtrans。
+值：该 xtrans。
 
 **Returns:**
 java.lang.String[]

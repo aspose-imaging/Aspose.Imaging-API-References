@@ -1,6 +1,6 @@
 ---
 title: "XmpLocale"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示语言代码。"
 type: docs
 weight: 15
@@ -31,5 +31,5 @@ public XmpLocale(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 

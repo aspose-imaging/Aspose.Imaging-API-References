@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.opendocument.enums"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Open 文档的枚举"
 type: docs
 weight: 65

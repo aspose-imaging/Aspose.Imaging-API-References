@@ -1,6 +1,6 @@
 ---
 title: "CustomFontSource"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "自定义字体源提供程序接口"
 type: docs
 weight: 121

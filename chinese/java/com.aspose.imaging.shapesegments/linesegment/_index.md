@@ -1,6 +1,6 @@
 ---
 title: "LineSegment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示直接从特定点到下一个点的段。"
 type: docs
 weight: 11

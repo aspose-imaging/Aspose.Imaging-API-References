@@ -1,6 +1,6 @@
 ---
 title: "PageExportingAction"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "在页面导出前触发的委托"
 type: docs
 weight: 149

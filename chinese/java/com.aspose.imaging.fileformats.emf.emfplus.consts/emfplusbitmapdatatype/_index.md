@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusBitmapDataType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "BitmapDataType 枚举定义位图数据格式的类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "BitmapDataType 枚举定义了位图数据格式的类型。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusBitmapDataType extends System.Enum
 ```
 
-BitmapDataType 枚举定义位图数据格式的类型。
+BitmapDataType 枚举定义了位图数据格式的类型。
 ## 字段
 
 | 字段 | 描述 |

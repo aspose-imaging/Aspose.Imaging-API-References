@@ -1,6 +1,6 @@
 ---
 title: "CdrBbox"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 框"
 type: docs
 weight: 12
@@ -22,8 +22,8 @@ cdr 框
 
 | 方法 | 描述 |
 | --- | --- |
-| [getX0()](#getX0--) | 获取 x0. |
-| [setX0(double value)](#setX0-double-) | 设置 x0. |
+| [getX0()](#getX0--) | 获取 x0。 |
+| [setX0(double value)](#setX0-double-) | 设置 x0。 |
 | [getY0()](#getY0--) | 获取 y0。 |
 | [setY0(double value)](#setY0-double-) | 设置 y0。 |
 | [getX1()](#getX1--) | 获取 x1。 |
@@ -46,7 +46,7 @@ public final double getX0()
 ```
 
 
-获取 x0.
+获取 x0。
 
 **Returns:**
 double - x0。
@@ -56,12 +56,12 @@ public final void setX0(double value)
 ```
 
 
-设置 x0.
+设置 x0。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | x0。 |
+| 值 | double | x0。 |
 
 ### getY0() {#getY0--}
 ```
@@ -84,7 +84,7 @@ public final void setY0(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | y0。 |
+| 值 | double | y0。 |
 
 ### getX1() {#getX1--}
 ```
@@ -107,7 +107,7 @@ public final void setX1(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | x1。 |
+| 值 | double | x1。 |
 
 ### getY1() {#getY1--}
 ```
@@ -130,7 +130,7 @@ public final void setY1(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | y1。 |
+| 值 | double | y1。 |
 
 ### getX() {#getX--}
 ```
@@ -151,7 +151,7 @@ public final double getY()
 获取 y。
 
 **Returns:**
-double - y。
+double - y.
 ### getWidth() {#getWidth--}
 ```
 public final double getWidth()
@@ -161,7 +161,7 @@ public final double getWidth()
 获取宽度。
 
 **Returns:**
-double - 宽度。
+double - 宽度.
 ### getHeight() {#getHeight--}
 ```
 public final double getHeight()
@@ -171,4 +171,4 @@ public final double getHeight()
 获取高度。
 
 **Returns:**
-double - 高度。
+double - 高度.

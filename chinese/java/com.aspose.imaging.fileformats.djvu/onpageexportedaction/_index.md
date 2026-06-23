@@ -1,6 +1,6 @@
 ---
 title: "OnPageExportedAction"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "在页面导出时触发的委托"
 type: docs
 weight: 13
@@ -42,7 +42,7 @@ public abstract void invoke(DjvuPage page)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| page | [DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) | 已导出的页面 |
+| page | [DjvuPage](../../com.aspose.imaging.fileformats.djvu/djvupage) | 已导出到的页面 |
 
 ### beginInvoke(DjvuPage page, System.AsyncCallback callback, Object state) {#beginInvoke-com.aspose.imaging.fileformats.djvu.DjvuPage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "OdImageObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "打开文档的图像"
 type: docs
 weight: 24
@@ -39,7 +39,7 @@ public OdImageObject(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getRectangle() {#getRectangle--}
 ```
@@ -85,7 +85,7 @@ public void setImageLink(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 图像链接。 |
+| 值 | java.lang.String | 图像链接。 |
 
 ### getBitmap() {#getBitmap--}
 ```
@@ -108,5 +108,5 @@ public void setBitmap(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 位图。 |
+| 值 | byte[] | 位图。 |
 

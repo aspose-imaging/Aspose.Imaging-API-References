@@ -1,6 +1,6 @@
 ---
 title: "IColorConverter"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "颜色转换器。"
 type: docs
 weight: 125

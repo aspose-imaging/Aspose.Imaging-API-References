@@ -1,6 +1,6 @@
 ---
 title: "RleCompressorException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "RLE 压缩器异常。"
 type: docs
 weight: 12
@@ -30,7 +30,7 @@ public RleCompressorException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### RleCompressorException(String message, Throwable innerException) {#RleCompressorException-java.lang.String-java.lang.Throwable-}
 ```
@@ -43,6 +43,6 @@ public RleCompressorException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

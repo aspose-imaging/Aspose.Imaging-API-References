@@ -1,6 +1,6 @@
 ---
 title: "LocaleOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "LocaleOptions 类型指定 Aspose.Imaging 的区域设置配置。"
 type: docs
 weight: 71
@@ -17,7 +17,7 @@ LocaleOptions 类型指定 Aspose.Imaging 的区域设置配置。
 
 | 方法 | 描述 |
 | --- | --- |
-| [setLocale(Locale defaultLocale)](#setLocale-java.util.Locale-) | 设置 Aspose.Imaging 的默认区域设置 |
+| [setLocale(Locale defaultLocale)](#setLocale-java.util.Locale-) | 为 Aspose.Imaging 设置默认区域设置 |
 | [getLocale()](#getLocale--) | 获取 Aspose.Imaging 当前实际的默认区域设置 |
 | [clear()](#clear--) | 清除 Aspose.Imaging 的默认区域设置。 |
 ### setLocale(Locale defaultLocale) {#setLocale-java.util.Locale-}
@@ -26,7 +26,7 @@ public static void setLocale(Locale defaultLocale)
 ```
 
 
-设置 Aspose.Imaging 的默认区域设置
+为 Aspose.Imaging 设置默认区域设置
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

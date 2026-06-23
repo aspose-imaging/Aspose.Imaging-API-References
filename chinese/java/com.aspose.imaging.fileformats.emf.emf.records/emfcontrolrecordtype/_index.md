@@ -1,6 +1,6 @@
 ---
 title: "EmfControlRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "控制记录类型定义 EMF 元文件的开始和结束以及元文件的属性。"
 type: docs
 weight: 34

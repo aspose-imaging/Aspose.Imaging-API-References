@@ -1,6 +1,6 @@
 ---
 title: "Version"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "描述文档的一个版本。"
 type: docs
 weight: 10
@@ -62,7 +62,7 @@ public void setComments(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 注释。 |
+| 值 | java.lang.String | 注释。 |
 
 ### getVersionEvent() {#getVersionEvent--}
 ```
@@ -108,7 +108,7 @@ public void setModifier(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 修改者。 |
+| 值 | java.lang.String | 修改者。 |
 
 ### getModifiedDate() {#getModifiedDate--}
 ```
@@ -131,7 +131,7 @@ public void setModifiedDate(Date value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | 修改日期。 |
+| 值 | java.util.Date | 修改日期。 |
 
 ### getVersionText() {#getVersionText--}
 ```
@@ -154,7 +154,7 @@ public void setVersionText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 版本文本。 |
+| 值 | java.lang.String | 版本文本。 |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

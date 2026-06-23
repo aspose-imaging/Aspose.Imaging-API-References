@@ -1,7 +1,7 @@
 ---
 title: "OdPen"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "开放文档笔"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "打开文档笔"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.opendocument.objects.pen/odpen/
@@ -12,7 +12,7 @@ java.lang.Object
 public class OdPen
 ```
 
-开放文档笔
+打开文档笔
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public final void setPenStyle(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 笔样式。 |
+| 值 | int | 笔样式。 |
 
 ### getBrush() {#getBrush--}
 ```
@@ -101,5 +101,5 @@ public final void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 宽度。 |
+| 值 | int | 宽度。 |
 

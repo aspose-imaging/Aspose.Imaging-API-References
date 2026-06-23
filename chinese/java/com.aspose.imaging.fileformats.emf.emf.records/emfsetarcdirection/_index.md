@@ -1,7 +1,7 @@
 ---
 title: "EmfSetArcDirection"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETARCDIRECTION 记录指定用于弧和矩形输出的绘图方向。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR\\_SETARCDIRECTION 记录指定用于弧和矩形输出的绘图方向。"
 type: docs
 weight: 118
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetArcDirection extends EmfStateRecordType
 ```
 
-EMR\_SETARCDIRECTION 记录指定用于弧和矩形输出的绘制方向。
+EMR\_SETARCDIRECTION 记录指定用于弧线和矩形输出的绘制方向。
 
-EMR\_SETARCDIRECTION 记录影响以下记录的绘制方向：- EMR\_ARC（第 2.3.5.2 节）- EMR\_ARCTO（第 2.3.5.3 节）- EMR\_CHORD（第 2.3.5.4 节）- EMR\_ELLIPSE（第 2.3.5.5 节）- EMR\_PIE（第 2.3.5.15 节）- EMR\_RECTANGLE（第 2.3.5.34 节）- EMR\_ROUNDRECT（第 2.3.5.35 节）
+EMR\_SETARCDIRECTION 记录影响以下记录的绘制方向： - EMR\_ARC (section 2.3.5.2) - EMR\_ARCTO (section 2.3.5.3) - EMR\_CHORD (section 2.3.5.4) - EMR\_ELLIPSE (section 2.3.5.5) - EMR\_PIE (section 2.3.5.15) - EMR\_RECTANGLE (section 2.3.5.34) - EMR\_ROUNDRECT (section 2.3.5.35)
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,8 +25,8 @@ EMR\_SETARCDIRECTION 记录影响以下记录的绘制方向：- EMR\_ARC（第 
 
 | 方法 | 描述 |
 | --- | --- |
-| [getArcDirection()](#getArcDirection--) | 获取或设置一个 32 位无符号整数，指定弧的方向。 |
-| [setArcDirection(int value)](#setArcDirection-int-) | 获取或设置一个 32 位无符号整数，指定弧的方向。 |
+| [getArcDirection()](#getArcDirection--) | 获取或设置指定弧方向的 32 位无符号整数。 |
+| [setArcDirection(int value)](#setArcDirection-int-) | 获取或设置指定弧方向的 32 位无符号整数。 |
 ### EmfSetArcDirection(EmfRecord source) {#EmfSetArcDirection-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetArcDirection(EmfRecord source)
@@ -38,7 +38,7 @@ public EmfSetArcDirection(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetArcDirection() {#EmfSetArcDirection--}
 ```
@@ -54,7 +54,7 @@ public int getArcDirection()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定弧的方向。该值必须属于 ArcDirection 枚举（第 2.1.2 节）。默认方向为逆时针。
+获取或设置指定弧方向的 32 位无符号整数。该值必须位于 ArcDirection 枚举中（第 2.1.2 节）。默认方向为逆时针。
 
 **Returns:**
 int
@@ -64,10 +64,10 @@ public void setArcDirection(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定弧的方向。该值必须属于 ArcDirection 枚举（第 2.1.2 节）。默认方向为逆时针。
+获取或设置指定弧方向的 32 位无符号整数。该值必须位于 ArcDirection 枚举中（第 2.1.2 节）。默认方向为逆时针。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

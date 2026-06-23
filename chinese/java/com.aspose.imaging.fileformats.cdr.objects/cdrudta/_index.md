@@ -1,7 +1,7 @@
 ---
 title: "CdrUdta"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr udta"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr udta"
 type: docs
 weight: 43
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrudta/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrUdta extends CdrObjectContainer
 ```
 
-cdr udta
+该 cdr udta
 ## 构造函数
 
 | 构造函数 | 描述 |

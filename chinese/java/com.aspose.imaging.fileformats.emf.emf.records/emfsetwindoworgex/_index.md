@@ -1,6 +1,6 @@
 ---
 title: "EmfSetWindowOrgEx"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETWINDOWORGEX 记录定义窗口原点。"
 type: docs
 weight: 145
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetWindowOrgEx extends EmfStateRecordType
 ```
 
-EMR\_SETWINDOWORGEX 记录定义窗口原点。
+该 EMR\_SETWINDOWORGEX 记录定义窗口原点。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR\_SETWINDOWORGEX 记录定义窗口原点。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getOrigin()](#getOrigin--) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定窗口的水平和垂直原点，单位为逻辑单位。 |
-| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定窗口的水平和垂直原点，单位为逻辑单位。 |
+| [getOrigin()](#getOrigin--) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在逻辑单位中的水平和垂直原点。 |
+| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在逻辑单位中的水平和垂直原点。 |
 ### EmfSetWindowOrgEx(EmfRecord source) {#EmfSetWindowOrgEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetWindowOrgEx(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetWindowOrgEx(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetWindowOrgEx() {#EmfSetWindowOrgEx--}
 ```
@@ -52,7 +52,7 @@ public Point getOrigin()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定窗口的水平和垂直原点，单位为逻辑单位。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在逻辑单位中的水平和垂直原点。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -62,7 +62,7 @@ public void setOrigin(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定窗口的水平和垂直原点，单位为逻辑单位。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在逻辑单位中的水平和垂直原点。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

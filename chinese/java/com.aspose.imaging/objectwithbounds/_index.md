@@ -1,6 +1,6 @@
 ---
 title: "ObjectWithBounds"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "具有边界的对象。"
 type: docs
 weight: 77
@@ -53,7 +53,7 @@ public abstract RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -68,8 +68,8 @@ public abstract RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -84,5 +84,5 @@ public abstract void transform(Matrix transform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的转换。 |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的变换。 |
 

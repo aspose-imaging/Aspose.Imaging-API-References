@@ -1,6 +1,6 @@
 ---
 title: "TiffPredictor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "LZW 的预测方案"
 type: docs
 weight: 22

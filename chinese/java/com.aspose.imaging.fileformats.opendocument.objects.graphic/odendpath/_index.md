@@ -1,6 +1,6 @@
 ---
 title: "OdEndPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "增强结束路径"
 type: docs
 weight: 19
@@ -35,7 +35,7 @@ public OdEndPath(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getFill() {#getFill--}
 ```
@@ -46,7 +46,7 @@ public boolean getFill()
 获取或设置一个值，指示此 `OdEndPath` 是否填充。
 
 **Returns:**
-boolean - 如果填充则为 `true`；否则为 `false`。
+布尔型 - 如果填充则为 `true`；否则为 `false`。
 ### setFill(boolean value) {#setFill-boolean-}
 ```
 public void setFill(boolean value)
@@ -58,5 +58,5 @@ public void setFill(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果填充；否则为 `false`。 |
+| 值 | boolean | `true` 表示填充；否则为 `false`。 |
 

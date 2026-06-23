@@ -1,7 +1,7 @@
 ---
 title: "ImageAttributesExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "包含 ImageAttributes 和 System.Drawing.Imaging.ImageAttributes 的扩展方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "包含针对 ImageAttributes 和 System.Drawing.Imaging.ImageAttributes 的扩展方法。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.extensions/imageattributesextensions/

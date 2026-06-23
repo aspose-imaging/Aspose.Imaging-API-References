@@ -1,6 +1,6 @@
 ---
 title: "WmfPolyFillMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PolyFillMode 枚举指定用于填充多边形的方法。"
 type: docs
 weight: 30

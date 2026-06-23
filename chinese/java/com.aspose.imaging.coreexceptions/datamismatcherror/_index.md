@@ -1,6 +1,6 @@
 ---
 title: "DataMismatchError"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "数据不匹配异常类"
 type: docs
 weight: 11
@@ -17,17 +17,17 @@ public class DataMismatchError extends System.Exception
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [DataMismatchError(String message)](#DataMismatchError-java.lang.String-) | 初始化 `DataMissmatchError` 类的新实例。 |
+| [DataMismatchError(String message)](#DataMismatchError-java.lang.String-) | 初始化一个新的 `DataMissmatchError` 类的实例。 |
 ### DataMismatchError(String message) {#DataMismatchError-java.lang.String-}
 ```
 public DataMismatchError(String message)
 ```
 
 
-初始化 `DataMissmatchError` 类的新实例。
+初始化一个新的 `DataMissmatchError` 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 描述错误的消息。 |
+| 消息 | java.lang.String | 描述错误的消息。 |
 

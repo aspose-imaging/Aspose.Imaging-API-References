@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusCompositingMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "CompositingMode 枚举定义将源颜色与背景颜色合并的模式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "CompositingMode 枚举定义了将源颜色与背景颜色合成的模式。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
@@ -17,15 +17,15 @@ CompositingMode 枚举定义了将源颜色与背景颜色组合的模式。合�
 
 | 字段 | 描述 |
 | --- | --- |
-| [CompositingModeSourceOver](#CompositingModeSourceOver) | 启用 alpha 混合，这指定当渲染颜色时，它会与背景颜色混合。 |
-| [CompositingModeSourceCopy](#CompositingModeSourceCopy) | 禁用 alpha 混合，这意味着当渲染源颜色时，它会覆盖背景颜色。 |
+| [CompositingModeSourceOver](#CompositingModeSourceOver) | 启用 alpha 混合，这表示在渲染颜色时，它会与背景颜色混合。 |
+| [CompositingModeSourceCopy](#CompositingModeSourceCopy) | 禁用 alpha 混合，这意味着在渲染源颜色时，它会覆盖背景颜色。 |
 ### CompositingModeSourceOver {#CompositingModeSourceOver}
 ```
 public static final byte CompositingModeSourceOver
 ```
 
 
-启用 alpha 混合，这指定当渲染颜色时，它会与背景颜色混合。混合程度由被渲染颜色的 alpha 分量值决定。
+启用 alpha 混合，这表示在渲染颜色时，它会与背景颜色混合。混合程度由被渲染颜色的 alpha 分量值决定。
 
 ### CompositingModeSourceCopy {#CompositingModeSourceCopy}
 ```
@@ -33,5 +33,5 @@ public static final byte CompositingModeSourceCopy
 ```
 
 
-禁用 alpha 混合，这意味着当渲染源颜色时，它会覆盖背景颜色。
+禁用 alpha 混合，这意味着在渲染源颜色时，它会覆盖背景颜色。
 

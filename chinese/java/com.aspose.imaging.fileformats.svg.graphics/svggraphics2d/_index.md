@@ -1,7 +1,7 @@
 ---
 title: "SvgGraphics2D"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "提供用于构建 Svg 图像的绘图命令。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "提供用于组合 Svg 图像的绘图命令。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.svg.graphics/svggraphics2d/
@@ -12,21 +12,21 @@ java.lang.Object
 public class SvgGraphics2D
 ```
 
-提供用于构建 Svg 图像的绘图命令。
+提供用于组合 Svg 图像的绘图命令。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [SvgGraphics2D(int width, int height, int dpi)](#SvgGraphics2D-int-int-int-) | 初始化一个新的 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的实例。 |
-| [SvgGraphics2D(SvgImage image)](#SvgGraphics2D-com.aspose.imaging.fileformats.svg.SvgImage-) | 初始化一个新的 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的实例。 |
+| [SvgGraphics2D(int width, int height, int dpi)](#SvgGraphics2D-int-int-int-) | 初始化 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的新实例。 |
+| [SvgGraphics2D(SvgImage image)](#SvgGraphics2D-com.aspose.imaging.fileformats.svg.SvgImage-) | 初始化 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [drawImage(RasterImage image, Point origin)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-) | 在指定位置绘制指定的图像。 |
-| [drawImage(RasterImage image, Point origin, Size size)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 在指定位置绘制指定大小的指定图像。 |
-| [drawImage(Rectangle srcRect, Rectangle destRect, RasterImage image)](#drawImage-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RasterImage-) | 在指定位置以指定大小绘制指定图像的指定部分。 |
-| [drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)](#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-) | 绘制由 Rectangle 结构指定的椭圆的一部分弧线。 |
+| [drawImage(RasterImage image, Point origin, Size size)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 在指定位置以指定尺寸绘制指定的图像。 |
+| [drawImage(Rectangle srcRect, Rectangle destRect, RasterImage image)](#drawImage-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RasterImage-) | 在指定位置并使用指定尺寸绘制指定图像的指定部分。 |
+| [drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)](#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-) | 绘制由 Rectangle 结构指定的椭圆部分的弧线。 |
 | [fillArc(Pen pen, Brush brush, Rectangle rect, float startAngle, float arcAngle)](#fillArc-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-) | 填充由 Rectangle 结构指定的椭圆的一段弧。 |
 | [drawCubicBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | 绘制三次贝塞尔曲线。 |
 | [drawString(Font font, String text, Point origin, Color textColor)](#drawString-com.aspose.imaging.Font-java.lang.String-com.aspose.imaging.Point-com.aspose.imaging.Color-) | 绘制文本字符串。 |
@@ -48,19 +48,19 @@ int dpi = 96;
 
 com.aspose.imaging.fileformats.svg.graphics.SvgGraphics2D graphics = new com.aspose.imaging.fileformats.svg.graphics.SvgGraphics2D(imageWidth, imageHeight, dpi);
 
-// 使用 1 像素宽的黑色笔在图像边框上绘制一个黑色矩形。
+// 使用 1 像素宽的黑色笔在图像边框上绘制黑色矩形。
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, imageWidth, imageHeight);
 
-// 使用白烟色填充矩形。
+// 使用 white-smoke 颜色填充矩形。
 graphics.fillRectangle(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getWhiteSmoke(), 1),
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()), 10, 10, 580, 380);
 
-// 使用 1 像素宽的深绿色笔绘制两条对角线。
+// 使用 1 像素宽的 darkgreen 笔绘制两条对角线。
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, 0, imageWidth, imageHeight);
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, imageHeight, imageWidth, 0);
 
-// 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
+// 使用 2 像素宽的 blue 笔在矩形 {0, 0, 200, 200} 内绘制弧线。
 graphics.drawArc(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlue(), 2),
         new com.aspose.imaging.Rectangle(0, 0, 200, 200), 90, 270);
@@ -70,7 +70,7 @@ graphics.fillArc(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getLightCor
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// 使用 2 像素宽的红色笔绘制三次贝塞尔曲线。
+// 使用 2 像素宽的 red 笔绘制三次贝塞尔曲线。
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.PointF(0, 0),
         new com.aspose.imaging.PointF(200, 133),
@@ -120,7 +120,7 @@ figureToFill.addShapes(new com.aspose.imaging.Shape[]
                         new com.aspose.imaging.RectangleF(0, 100, 200, 200)),
         });
 
-// 使用黄色画刷填充路径，并使用绿色笔绘制轮廓
+// 使用黄色画刷和绿色笔填充路径并绘制轮廓
 graphics.fillPath(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getGreen(), 2),
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getYellow()), pathToFill);
@@ -153,13 +153,13 @@ public SvgGraphics2D(int width, int height, int dpi)
 ```
 
 
-初始化一个新的 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的实例。
+初始化 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 输出 Svg 图像的宽度。 |
-| 高度 | int | 输出 Svg 图像的宽度。 |
+| width | int | 输出 Svg 图像的宽度。 |
+| height | int | 输出 Svg 图像的宽度。 |
 | dpi | int | 设备分辨率，例如每英寸 96 点。 |
 
 ### SvgGraphics2D(SvgImage image) {#SvgGraphics2D-com.aspose.imaging.fileformats.svg.SvgImage-}
@@ -168,7 +168,7 @@ public SvgGraphics2D(SvgImage image)
 ```
 
 
-初始化一个新的 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的实例。
+初始化 [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -195,14 +195,14 @@ public final void drawImage(RasterImage image, Point origin, Size size)
 ```
 
 
-在指定位置绘制指定大小的指定图像。
+在指定位置以指定尺寸绘制指定的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 已绘制的图像。 |
 | origin | [Point](../../com.aspose.imaging/point) | 已绘制图像的位置。 |
-| size | [Size](../../com.aspose.imaging/size) | 已绘制图像的期望大小。 |
+| size | [Size](../../com.aspose.imaging/size) | 绘制图像的期望大小。 |
 
 ### drawImage(Rectangle srcRect, Rectangle destRect, RasterImage image) {#drawImage-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RasterImage-}
 ```
@@ -210,13 +210,13 @@ public final void drawImage(Rectangle srcRect, Rectangle destRect, RasterImage i
 ```
 
 
-在指定位置以指定大小绘制指定图像的指定部分。
+在指定位置并使用指定尺寸绘制指定图像的指定部分。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | srcRect | [Rectangle](../../com.aspose.imaging/rectangle) | 要绘制的图像对象的部分。 |
-| destRect | [Rectangle](../../com.aspose.imaging/rectangle) | 已绘制图像的位置和大小。图像会缩放以适应矩形。 |
+| destRect | [Rectangle](../../com.aspose.imaging/rectangle) | 绘制图像的位置和大小。图像会缩放以适应矩形。 |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 要绘制的图像。 |
 
 ### drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle) {#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-}
@@ -225,15 +225,15 @@ public final void drawArc(Pen pen, Rectangle rect, float startAngle, float arcAn
 ```
 
 
-绘制由 Rectangle 结构指定的椭圆的一部分弧线。
+绘制由 Rectangle 结构指定的椭圆部分的弧线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pen | [Pen](../../com.aspose.imaging/pen) | 用于绘制图形轮廓的笔。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 椭圆的边界。 |
-| startAngle | float | 以度为单位的角度，从 x 轴顺时针测量到弧的起始点。 |
-| arcAngle | float | 以度为单位的角度，从 startAngle 参数顺时针测量到弧的结束点。 |
+| startAngle | float | 从 x 轴顺时针测量到弧线起点的角度（度）。 |
+| arcAngle | float | 从 startAngle 参数顺时针测量到弧线终点的角度（度）。 |
 
 ### fillArc(Pen pen, Brush brush, Rectangle rect, float startAngle, float arcAngle) {#fillArc-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-}
 ```
@@ -249,8 +249,8 @@ public final void fillArc(Pen pen, Brush brush, Rectangle rect, float startAngle
 | pen | [Pen](../../com.aspose.imaging/pen) | 用于绘制图形轮廓的笔。 |
 | brush | [Brush](../../com.aspose.imaging/brush) | 用于填充图形内部的画刷。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 椭圆的边界。 |
-| startAngle | float | 以度为单位的角度，从 x 轴顺时针测量到弧的起始点。 |
-| arcAngle | float | 以度为单位的角度，从 startAngle 参数顺时针测量到弧的结束点。 |
+| startAngle | float | 从 x 轴顺时针测量到弧线起点的角度（度）。 |
+| arcAngle | float | 从 startAngle 参数顺时针测量到弧线终点的角度（度）。 |
 
 ### drawCubicBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4) {#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
 ```
@@ -280,8 +280,8 @@ public final void drawString(Font font, String text, Point origin, Color textCol
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| font | [Font](../../com.aspose.imaging/font) | 用于渲染文本的字体。 |
-| text | java.lang.String | Unicode 文本字符串。 |
+| font | [Font](../../com.aspose.imaging/font) | 用于呈现文本的字体。 |
+| 文本 | java.lang.String | Unicode 文本字符串。 |
 | origin | [Point](../../com.aspose.imaging/point) | 文本运行的左上角。 |
 | textColor | [Color](../../com.aspose.imaging/color) | 文本颜色。 |
 
@@ -345,8 +345,8 @@ public final void drawRectangle(Pen pen, int x, int y, int width, int height)
 | pen | [Pen](../../com.aspose.imaging/pen) | 用于绘制图形轮廓的笔。 |
 | x | int | 要绘制的矩形左上角的 x 坐标。 |
 | y | int | 要绘制的矩形左上角的 y 坐标。 |
-| 宽度 | int | 要绘制的矩形的宽度。 |
-| 高度 | int | 要绘制的矩形的高度。 |
+| width | int | 要绘制的矩形的宽度。 |
+| height | int | 要绘制的矩形的高度。 |
 
 ### fillRectangle(Pen pen, Brush brush, int x, int y, int width, int height) {#fillRectangle-com.aspose.imaging.Pen-com.aspose.imaging.Brush-int-int-int-int-}
 ```
@@ -363,8 +363,8 @@ public final void fillRectangle(Pen pen, Brush brush, int x, int y, int width, i
 | brush | [Brush](../../com.aspose.imaging/brush) | 用于填充图形内部的画刷。 |
 | x | int | 要绘制的矩形左上角的 x 坐标。 |
 | y | int | 要绘制的矩形左上角的 y 坐标。 |
-| 宽度 | int | 要绘制的矩形的宽度。 |
-| 高度 | int | 要绘制的矩形的高度。 |
+| width | int | 要绘制的矩形的宽度。 |
+| height | int | 要绘制的矩形的高度。 |
 
 ### endRecording() {#endRecording--}
 ```

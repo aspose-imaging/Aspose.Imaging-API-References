@@ -1,6 +1,6 @@
 ---
 title: "CompleteCallback"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于接收任务完成事件的回调函数。"
 type: docs
 weight: 15

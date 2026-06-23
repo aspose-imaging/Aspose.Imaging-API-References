@@ -1,6 +1,6 @@
 ---
 title: "EmfChord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_CHORD 记录指定一个弦，该弦是由椭圆与称为割线的线段相交形成的区域。"
 type: docs
 weight: 20
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfChord extends EmfDrawingRecordType
 ```
 
-EMR\_CHORD 记录指定一个弦，该弦是由椭圆与称为割线的线段相交形成的区域。弦使用当前笔进行描边，使用当前画刷进行填充。
+EMR\\_CHORD 记录指定一个弦，该弦是由椭圆与线段（称为割线）相交形成的区域。弦使用当前笔进行描边，并使用当前画刷进行填充。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,12 +23,12 @@ EMR\_CHORD 记录指定一个弦，该弦是由椭圆与称为割线的线段相
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBox()](#getBox--) | 获取或设置 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定闭区间的边界矩形。 |
-| [setBox(Rectangle value)](#setBox-com.aspose.imaging.Rectangle-) | 获取或设置 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定闭区间的边界矩形。 |
-| [getStart()](#getStart--) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始点的径向端点的逻辑坐标。 |
-| [setStart(Point value)](#setStart-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始点的径向端点的逻辑坐标。 |
-| [getEnd()](#getEnd--) | 获取或设置一个 64 位 WMF PointL 对象，该对象指定定义弦结束点的径向端点的逻辑坐标。 |
-| [setEnd(Point value)](#setEnd-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象，该对象指定定义弦结束点的径向端点的逻辑坐标。 |
+| [getBox()](#getBox--) | 获取或设置一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象以包含-包含的方式指定边界矩形。 |
+| [setBox(Rectangle value)](#setBox-com.aspose.imaging.Rectangle-) | 获取或设置一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象以包含-包含的方式指定边界矩形。 |
+| [getStart()](#getStart--) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始端点的辐射的逻辑坐标。 |
+| [setStart(Point value)](#setStart-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始端点的辐射的逻辑坐标。 |
+| [getEnd()](#getEnd--) | 获取或设置一个 64 位 WMF PointL 对象，指定定义弦结束端点的辐射的逻辑坐标。 |
+| [setEnd(Point value)](#setEnd-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象，指定定义弦结束端点的辐射的逻辑坐标。 |
 ### EmfChord(EmfRecord source) {#EmfChord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfChord(EmfRecord source)
@@ -40,7 +40,7 @@ public EmfChord(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfChord() {#EmfChord--}
 ```
@@ -56,7 +56,7 @@ public Rectangle getBox()
 ```
 
 
-获取或设置 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定闭区间的边界矩形。
+获取或设置一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象以包含-包含的方式指定边界矩形。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -66,7 +66,7 @@ public void setBox(Rectangle value)
 ```
 
 
-获取或设置 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定闭区间的边界矩形。
+获取或设置一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象以包含-包含的方式指定边界矩形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -79,7 +79,7 @@ public Point getStart()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始点的径向端点的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始端点的辐射的逻辑坐标。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -89,7 +89,7 @@ public void setStart(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始点的径向端点的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定定义弦起始端点的辐射的逻辑坐标。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -102,7 +102,7 @@ public Point getEnd()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象，该对象指定定义弦结束点的径向端点的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象，指定定义弦结束端点的辐射的逻辑坐标。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -112,7 +112,7 @@ public void setEnd(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象，该对象指定定义弦结束点的径向端点的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象，指定定义弦结束端点的辐射的逻辑坐标。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,7 +1,7 @@
 ---
 title: "DngImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于满足数码摄影需求的 DNG（Digital Negative）图像文件格式处理 API，提供对原始文件和元数据的全面支持。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 API 用于处理用于数字摄影需求的 DNG Digital Negative 图像文件格式，提供对原始文件和元数据的全面支持。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.dng/dngimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DngImage extends RasterCachedImage
 ```
 
-用于处理 DNG（Digital Negative）图像文件格式的 API，满足数字摄影需求，提供对原始文件和元数据的全面支持。该 API 设计用于各种制造商的数码相机，使开发者能够操作每像素位数、提取内部数据并高效调整图像平衡。具备无缝更新和保存图像数据的能力，此 API 让开发者能够处理 DNG 文件，确保高质量结果和多样化的处理选项。
+该 API 用于处理用于数字摄影需求的 DNG (Digital Negative) 图像文件格式，提供对原始文件和元数据的全面支持。它面向各种制造商的数码相机设计，使开发者能够高效地操作诸如每像素位数、提取内部数据以及调整图像平衡等方面。凭借无缝更新和保存图像数据的能力，此 API 让开发者能够轻松处理 DNG 文件，确保高质量的结果和多样化的处理选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ public class DngImage extends RasterCachedImage
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBitsPerPixel()](#getBitsPerPixel--) | 使用此属性轻松获取图像的每像素位数。 |
-| [getHeight()](#getHeight--) | 使用此属性检索图像的高度。 |
+| [getBitsPerPixel()](#getBitsPerPixel--) | 使用此属性，轻松获取图像的每像素位数。 |
+| [getHeight()](#getHeight--) | 使用此属性获取图像的高度。 |
 | [getWidth()](#getWidth--) | 使用此属性访问图像的宽度。 |
 | [getFileFormat()](#getFileFormat--) | 使用此属性识别图像的文件格式。 |
 | [getImgData()](#getImgData--) | 使用此属性管理图像数据。 |
@@ -80,20 +80,20 @@ try {
 }
 
 // 相机制造商：              Leica
-// 相机型号:                     M8 Digital Camera
-// 颜色计数:                     3
-// 颜色描述:               RGBG
-// DNG 版本:                      16777216
-// 文件中 RAW 图像的数量: 1
-// 软件:                         1.107
-// 颜色像素的顺序:        10110100101101001011010010110100
-// 光圈:                         0
-// 描述:
-// 焦距:                     50
-// ISO 感光度:                  160
-// 图像序列号:       0
-// 快门速度:                    12
-// 拍摄日期:                 8/3/2007 3:13:49 AM
+// 相机型号：                     M8 Digital Camera
+// 颜色数量：                     3
+// 颜色描述：               RGBG
+// DNG 版本：                      16777216
+// 文件中 RAW 图像的数量： 1
+// 软件版本：                         1.107
+// 颜色像素顺序：        10110100101101001011010010110100
+// 光圈：                         0
+// 描述：
+// 焦距：                     50
+// ISO 灵敏度：                  160
+// 图像序列号：       0
+// 快门速度：                    12
+// 拍摄日期：                 8/3/2007 3:13:49 AM
 ```
 
 ### DngImage() {#DngImage--}
@@ -110,7 +110,7 @@ public int getBitsPerPixel()
 ```
 
 
-使用此属性轻松获取图像的每像素位数。非常适合快速准确地了解图像的像素深度。
+使用此属性，轻松获取图像的每像素位数。非常适合快速、准确地了解图像的像素深度。
 
 值：图像每像素位数。
 
@@ -122,7 +122,7 @@ public int getHeight()
 ```
 
 
-使用此属性检索图像的高度。非常适合轻松确定图像的垂直尺寸。
+使用此属性获取图像的高度。非常适合轻松确定图像的垂直尺寸。
 
 值：图像高度。
 
@@ -146,7 +146,7 @@ public long getFileFormat()
 ```
 
 
-使用此属性识别图像的文件格式。非常适合了解格式——仅提供直接的细节。
+使用此属性识别图像的文件格式。非常适合了解格式——简明直观的细节。
 
 **Returns:**
 long
@@ -156,7 +156,7 @@ public RawData getImgData()
 ```
 
 
-使用此属性管理图像数据。无论是检索还是更新，此属性都提供对图像数据的无缝访问，以实现高效操作。
+使用此属性管理图像数据。无论是读取还是更新，此属性都提供对图像数据的无缝访问，以实现高效的操作。
 
 **Returns:**
 [RawData](../../com.aspose.imaging.fileformats.dng.decoder/rawdata) - The img data.
@@ -166,7 +166,7 @@ public void setImgData(RawData value)
 ```
 
 
-使用此属性管理图像数据。无论是检索还是更新，此属性都提供对图像数据的无缝访问，以实现高效操作。
+使用此属性管理图像数据。无论是读取还是更新，此属性都提供对图像数据的无缝访问，以实现高效的操作。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

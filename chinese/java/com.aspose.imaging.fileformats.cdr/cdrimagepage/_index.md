@@ -1,6 +1,6 @@
 ---
 title: "CdrImagePage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Cdr 图像页面。"
 type: docs
 weight: 11
@@ -27,7 +27,7 @@ Cdr 图像页面。
 | [getFileFormat()](#getFileFormat--) | 获取文件格式的值 |
 | [getCdrDocument()](#getCdrDocument--) | 获取 CDR 文档。 |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | 获取默认选项。 |
-| [cacheData()](#cacheData--) | 缓存数据并确保不会从底层 `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer` 再次加载额外数据。 |
+| [cacheData()](#cacheData--) | 缓存数据，并确保不会从底层 `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer` 再次加载额外数据。 |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 设置图像调色板。 |
 ### getParentImage() {#getParentImage--}
 ```
@@ -116,7 +116,7 @@ public synchronized void cacheData()
 ```
 
 
-缓存数据并确保不会从底层 `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer` 再次加载额外数据。
+缓存数据，并确保不会从底层 `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer` 再次加载额外数据。
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

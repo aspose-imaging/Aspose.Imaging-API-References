@@ -1,6 +1,6 @@
 ---
 title: "RenderResult"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示渲染结果的信息"
 type: docs
 weight: 44
@@ -53,7 +53,7 @@ public void setMessage(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getRenderCode() {#getRenderCode--}
 ```
@@ -76,5 +76,5 @@ public void setRenderCode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

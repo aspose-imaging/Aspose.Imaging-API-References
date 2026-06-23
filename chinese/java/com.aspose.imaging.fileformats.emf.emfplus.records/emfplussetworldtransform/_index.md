@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetWorldTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 EmfPlusSetWorldTransform 记录根据指定变换矩阵中的值设置世界变换。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusSetWorldTransform 记录根据指定变换矩阵中的数值设置世界变换。"
 type: docs
 weight: 68
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetworldtransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetWorldTransform extends EmfPlusTerminalServerRecordType
 ```
 
-该 EmfPlusSetWorldTransform 记录根据指定变换矩阵中的值设置世界变换。
+该 EmfPlusSetWorldTransform 记录根据指定变换矩阵中的数值设置世界变换。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ public final class EmfPlusSetWorldTransform extends EmfPlusTerminalServerRecordT
 
 | 方法 | 描述 |
 | --- | --- |
-| [getMatrixData()](#getMatrixData--) | 获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），定义新的当前世界变换。 |
-| [setMatrixData(Matrix value)](#setMatrixData-com.aspose.imaging.Matrix-) | 获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），定义新的当前世界变换。 |
+| [getMatrixData()](#getMatrixData--) | 获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象定义新的当前世界变换。 |
+| [setMatrixData(Matrix value)](#setMatrixData-com.aspose.imaging.Matrix-) | 获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象定义新的当前世界变换。 |
 ### EmfPlusSetWorldTransform(EmfPlusRecord source) {#EmfPlusSetWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetWorldTransform(EmfPlusRecord source)
@@ -35,7 +35,7 @@ public EmfPlusSetWorldTransform(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getMatrixData() {#getMatrixData--}
 ```
@@ -43,7 +43,7 @@ public Matrix getMatrixData()
 ```
 
 
-获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），定义新的当前世界变换。
+获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象定义新的当前世界变换。
 
 值：矩阵数据。
 
@@ -55,7 +55,7 @@ public void setMatrixData(Matrix value)
 ```
 
 
-获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），定义新的当前世界变换。
+获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象定义新的当前世界变换。
 
 值：矩阵数据。
 

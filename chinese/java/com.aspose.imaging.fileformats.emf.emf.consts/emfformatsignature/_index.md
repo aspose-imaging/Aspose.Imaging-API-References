@@ -1,6 +1,6 @@
 ---
 title: "EmfFormatSignature"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "FormatSignature 枚举定义了用于识别 EMF 记录中嵌入数据格式的取值。"
 type: docs
 weight: 22
@@ -17,15 +17,15 @@ FormatSignature 枚举定义了用于识别 EMF 记录中嵌入数据格式的�
 
 | 字段 | 描述 |
 | --- | --- |
-| [ENHMETA_SIGNATURE](#ENHMETA-SIGNATURE) | 此成员的值是 ASCII 字符序列 "FME ", 恰好是字符串 "EMF" 的反向, 并且它表示 EMF 记录数据。 |
-| [EPS_SIGNATURE](#EPS-SIGNATURE) | 此成员的值是 ASCII 字符序列 "FSPE", 恰好是字符串 "EPSF" 的反向, 并且它表示封装的 PostScript (EPS) 格式数据。 |
+| [ENHMETA_SIGNATURE](#ENHMETA-SIGNATURE) | 此成员的值是 ASCII 字符序列 "FME ", 恰好是字符串 "EMF" 的反向, 并表示 EMF 记录数据。 |
+| [EPS_SIGNATURE](#EPS-SIGNATURE) | 此成员的值是 ASCII 字符序列 "FSPE", 恰好是字符串 "EPSF" 的反向, 并表示封装的 PostScript (EPS) 格式数据。 |
 ### ENHMETA_SIGNATURE {#ENHMETA-SIGNATURE}
 ```
 public static final int ENHMETA_SIGNATURE
 ```
 
 
-此成员的值是 ASCII 字符序列 "FME ", 恰好是字符串 "EMF" 的反向, 并且它表示 EMF 记录数据。注意 字符串中的空格字符是重要的，且必须存在。
+此成员的值是 ASCII 字符序列 "FME ", 恰好是字符串 "EMF" 的反向, 并表示 EMF 记录数据。注意：字符串中的空格字符是重要的，必须存在。
 
 ### EPS_SIGNATURE {#EPS-SIGNATURE}
 ```
@@ -33,5 +33,5 @@ public static final int EPS_SIGNATURE
 ```
 
 
-此成员的值是 ASCII 字符序列 "FSPE", 恰好是字符串 "EPSF" 的反向, 并且它表示封装的 PostScript (EPS) 格式数据。
+此成员的值是 ASCII 字符序列 "FSPE", 恰好是字符串 "EPSF" 的反向, 并表示封装的 PostScript (EPS) 格式数据。
 

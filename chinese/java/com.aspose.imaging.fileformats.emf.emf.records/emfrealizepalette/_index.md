@@ -1,6 +1,6 @@
 ---
 title: "EmfRealizePalette"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "此记录将当前 LogPalette 对象（第 2.2.17 节）中的调色板条目映射到 system_palette。"
 type: docs
 weight: 105
@@ -29,5 +29,5 @@ public EmfRealizePalette(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 

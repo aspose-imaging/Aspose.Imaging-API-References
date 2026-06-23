@@ -1,6 +1,6 @@
 ---
 title: "EmfSetStrechBltMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETSTRETCHBLTMODE 记录指定位图拉伸模式。"
 type: docs
 weight: 138
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetStrechBltMode extends EmfStateRecordType
 ```
 
-EMR\_SETSTRETCHBLTMODE 记录指定位图拉伸模式。
+该 EMR\_SETSTRETCHBLTMODE 记录指定位图拉伸模式。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -35,7 +35,7 @@ public EmfSetStrechBltMode(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getStretchMode() {#getStretchMode--}
 ```
@@ -58,5 +58,5 @@ public void setStretchMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

@@ -1,24 +1,24 @@
 ---
 title: "com.aspose.imaging.imagefilters.filteroptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该软件包处理过滤器选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包处理过滤器选项。"
 type: docs
 weight: 93
 url: /zh/java/com.aspose.imaging.imagefilters.filteroptions/
 ---
 
-该软件包处理过滤器选项。
+该包处理过滤器选项。
 
 
 ## 类
 
 | 类 | 描述 |
 | --- | --- |
-| [AdaptiveWhiteStretchFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/adaptivewhitestretchfilteroptions) | 提供用于配置自适应白色拉伸过滤器的选项。 |
-| [AutoWhiteBalanceFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions) | 提供用于配置自动白平衡过滤器的选项。 |
-| [BigRectangularFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/bigrectangularfilteroptions) | 大矩形过滤器选项 |
-| [BilateralSmoothingFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions) | 该双边平滑过滤器选项。 |
-| [ClaheFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) | 提供用于配置对比度受限自适应直方图均衡 (CLAHE) 过滤器的选项。 |
+| [AdaptiveWhiteStretchFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/adaptivewhitestretchfilteroptions) | 提供用于配置 Adaptive White Stretch 滤镜的选项。 |
+| [AutoWhiteBalanceFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions) | 提供用于配置 Auto White Balance 滤镜的选项。 |
+| [BigRectangularFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/bigrectangularfilteroptions) | 大矩形滤镜选项 |
+| [BilateralSmoothingFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions) | 该 Bilateral Smoothing Filter Options。 |
+| [ClaheFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) | 提供用于配置 Contrast-Limited Adaptive Histogram Equalization (CLAHE) 滤镜的选项。 |
 | [ConvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) | 卷积滤镜选项。 |
 | [DeconvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) | 去卷积滤镜选项，抽象类 |
 | [FilterOptionsBase](../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | 基础滤镜选项类。 |

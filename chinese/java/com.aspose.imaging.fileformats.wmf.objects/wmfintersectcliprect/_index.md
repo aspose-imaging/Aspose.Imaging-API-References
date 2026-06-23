@@ -1,18 +1,18 @@
 ---
 title: "WmfIntersectClipRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_INTERSECTCLIPRECT 记录将播放设备上下文中的剪裁区域设置为现有剪裁区域与指定矩形的交集。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_INTERSECTCLIPRECT 记录将回放设备上下文中的裁剪区域设置为现有裁剪区域与指定矩形的交集。"
 type: docs
 weight: 41
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfIntersectClipRect extends WmfObject
 ```
 
-该 META_INTERSECTCLIPRECT 记录将回放设备上下文中的裁剪区域设置为现有裁剪区域与指定矩形的交集。
+该 META\_INTERSECTCLIPRECT 记录将回放设备上下文中的裁剪区域设置为现有裁剪区域与指定矩形的交集。
 ## 构造函数
 
 | 构造函数 | 描述 |

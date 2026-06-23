@@ -1,6 +1,6 @@
 ---
 title: "FileSource"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示能够进行文件操作的文件源。"
 type: docs
 weight: 12
@@ -22,7 +22,7 @@ public abstract class FileSource extends Source
 
 | 方法 | 描述 |
 | --- | --- |
-| [isTemporal()](#isTemporal--) | 获取一个值，指示文件是否为临时文件。 |
+| [isTemporal()](#isTemporal--) | 获取指示文件是否为临时文件的值。 |
 ### FileSource() {#FileSource--}
 ```
 public FileSource()
@@ -35,7 +35,7 @@ public abstract boolean isTemporal()
 ```
 
 
-获取一个值，指示文件是否为临时文件。
+获取指示文件是否为临时文件的值。
 
 **Returns:**
-布尔值 - 如果文件将是临时的则为 `true`；否则为 `false`。
+boolean - 如果文件为临时文件则为 `true`；否则为 `false`。

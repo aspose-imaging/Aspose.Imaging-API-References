@@ -1,6 +1,6 @@
 ---
 title: "RegionExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含 Region 类的扩展方法。"
 type: docs
 weight: 22
@@ -12,7 +12,7 @@ java.lang.Object
 public final class RegionExtensions
 ```
 
-包含 `Region` 类的扩展方法。
+包含针对 `Region` 类的扩展方法。
 ## 方法
 
 | 方法 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.opendocument.objects.graphic"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Open 文档图形对象"
 type: docs
 weight: 69
@@ -25,7 +25,7 @@ Open 文档图形对象
 | [OdEllipticalQundrant](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant) | 椭圆象限 |
 | [OdEndPath](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odendpath) | 增强结束路径 |
 | [OdEnhancedGeometry](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry) | 增强几何对象。 |
-| [OdEquation](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odequation) | 打开文档的方程式 |
+| [OdEquation](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odequation) | 打开文档的公式 |
 | [OdFrame](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odframe) | 打开文档的对象框架 |
 | [OdGraphicObject](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject) | 打开文档的图形对象。 |
 | [OdImageObject](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject) | 打开文档的图像 |
@@ -34,7 +34,7 @@ Open 文档图形对象
 | [OdList](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odlist) | 列表对象 |
 | [OdListItem](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem) | 列表项 |
 | [OdMarker](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odmarker) | 标记 |
-| [OdMeasure](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure) | 度量 |
+| [OdMeasure](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure) | 测量 |
 | [OdMoveTo](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto) | 增强的 moveTo |
 | [OdNoFillPath](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath) | 无填充路径标记 |
 | [OdNoStrokePath](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath) | 指定当前子路径集合将不会被描边。 |
@@ -44,9 +44,9 @@ Open 文档图形对象
 | [OdPolygon](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon) | 多边形 |
 | [OdRectangle](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odrectangle) | 矩形对象 |
 | [OdShortCurveTo](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto) | 短 CurveTo |
-| [OdStyledObject](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject) | 打开的文档样式图形对象。 |
+| [OdStyledObject](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject) | 打开文档样式图形对象。 |
 | [OdText](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtext) | 文本对象 |
 | [OdTextBox](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextbox) | 文本框 |
-| [OdTextMeasure](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure) | 文本度量 |
+| [OdTextMeasure](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure) | 文本测量 |
 | [OdTextParagraph](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextparagraph) | 文本段落 |
-| [OdTextSpan](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan) | 文本片段 |
+| [OdTextSpan](../com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan) | 文本跨度 |

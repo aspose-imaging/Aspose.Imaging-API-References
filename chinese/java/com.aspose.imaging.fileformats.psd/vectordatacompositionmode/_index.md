@@ -1,6 +1,6 @@
 ---
-title: "矢量数据组合模式"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "VectorDataCompositionMode"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "定义从矢量格式导出到 PSD 时使用的矢量数据组合模式。"
 type: docs
 weight: 13

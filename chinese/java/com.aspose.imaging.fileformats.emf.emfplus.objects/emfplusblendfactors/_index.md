@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBlendFactors"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusBlendFactors 对象指定渐变画笔的混合模式的位置信息和因子。"
 type: docs
 weight: 18
@@ -22,8 +22,8 @@ EmfPlusBlendFactors 对象指定渐变画笔的混合模式的位置信息和因
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBlendFactors()](#getBlendFactors--) | 获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，用于指定 BlendPositions 字段中定义的位置处的颜色比例。 |
-| [setBlendFactors(float[] value)](#setBlendFactors-float---) | 获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，用于指定 BlendPositions 字段中定义的位置处的颜色比例。 |
+| [getBlendFactors()](#getBlendFactors--) | 获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，指定 BlendPositions 字段中定义的位置处的颜色比例。 |
+| [setBlendFactors(float[] value)](#setBlendFactors-float---) | 获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，指定 BlendPositions 字段中定义的位置处的颜色比例。 |
 ### EmfPlusBlendFactors() {#EmfPlusBlendFactors--}
 ```
 public EmfPlusBlendFactors()
@@ -36,7 +36,7 @@ public float[] getBlendFactors()
 ```
 
 
-获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，用于指定 BlendPositions 字段中定义的位置处的颜色比例。每个值必须是介于 0.0 到 1.0（含）之间的数字。
+获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，指定 BlendPositions 字段中定义的位置处的颜色比例。每个值 MUST 为 0.0 到 1.0（含）之间的数字。
 
 **Returns:**
 float[]
@@ -46,10 +46,10 @@ public void setBlendFactors(float[] value)
 ```
 
 
-获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，用于指定 BlendPositions 字段中定义的位置处的颜色比例。每个值必须是介于 0.0 到 1.0（含）之间的数字。
+获取或设置一个由 PositionCount 个 32 位浮点值组成的数组，指定 BlendPositions 字段中定义的位置处的颜色比例。每个值 MUST 为 0.0 到 1.0（含）之间的数字。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float[] |  |
+| 值 | float[] |  |
 

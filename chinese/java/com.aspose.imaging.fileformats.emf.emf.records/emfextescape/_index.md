@@ -1,6 +1,6 @@
 ---
 title: "EmfExtEscape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_EXTESCAPE 记录将任意信息传递给打印机驱动程序。"
 type: docs
 weight: 53
@@ -37,7 +37,7 @@ public EmfExtEscape(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getCjIn() {#getCjIn--}
 ```
@@ -60,7 +60,7 @@ public void setCjIn(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getData() {#getData--}
 ```
@@ -83,5 +83,5 @@ public void setData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

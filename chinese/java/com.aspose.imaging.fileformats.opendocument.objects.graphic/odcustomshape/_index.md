@@ -1,6 +1,6 @@
 ---
 title: "OdCustomShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "打开文档的自定义形状。"
 type: docs
 weight: 17
@@ -39,7 +39,7 @@ public OdCustomShape(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getStyleName() {#getStyleName--}
 ```
@@ -62,7 +62,7 @@ public void setStyleName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 样式的名称。 |
+| 值 | java.lang.String | 样式的名称。 |
 
 ### getTextStyleName() {#getTextStyleName--}
 ```
@@ -85,7 +85,7 @@ public void setTextStyleName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文本样式的名称。 |
+| 值 | java.lang.String | 文本样式的名称。 |
 
 ### getLayer() {#getLayer--}
 ```
@@ -108,5 +108,5 @@ public void setLayer(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 图层。 |
+| 值 | java.lang.String | 图层。 |
 

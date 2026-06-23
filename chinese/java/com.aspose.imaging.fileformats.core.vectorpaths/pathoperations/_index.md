@@ -1,7 +1,7 @@
 ---
 title: "PathOperations"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "路径形状的布尔运算操作。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于路径形状组合布尔运算的操作。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.core.vectorpaths/pathoperations/
@@ -19,8 +19,8 @@ public final class PathOperations extends System.Enum
 | --- | --- |
 | [ExcludeOverlappingShapes](#ExcludeOverlappingShapes) | 排除重叠形状（XOR 操作）。 |
 | [CombineShapes](#CombineShapes) | 合并形状（OR 操作）。 |
-| [SubtractFrontShape](#SubtractFrontShape) | 减去前置形状（NOT 操作）。 |
-| [IntersectShapeAreas](#IntersectShapeAreas) | 相交形状区域（AND 操作）。 |
+| [SubtractFrontShape](#SubtractFrontShape) | 减去前形状（非操作）。 |
+| [IntersectShapeAreas](#IntersectShapeAreas) | 相交形状区域（与操作）。 |
 ### ExcludeOverlappingShapes {#ExcludeOverlappingShapes}
 ```
 public static final int ExcludeOverlappingShapes
@@ -35,7 +35,7 @@ public static final int CombineShapes
 ```
 
 
-合并形状（OR 操作）。这是 Photoshop 中的默认值。
+合并形状（或操作）。这是 Photoshop 中的默认值。
 
 ### SubtractFrontShape {#SubtractFrontShape}
 ```
@@ -43,7 +43,7 @@ public static final int SubtractFrontShape
 ```
 
 
-减去前置形状（NOT 操作）。
+减去前形状（非操作）。
 
 ### IntersectShapeAreas {#IntersectShapeAreas}
 ```
@@ -51,5 +51,5 @@ public static final int IntersectShapeAreas
 ```
 
 
-相交形状区域（AND 操作）。
+相交形状区域（与操作）。
 

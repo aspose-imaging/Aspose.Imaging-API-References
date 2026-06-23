@@ -1,7 +1,7 @@
 ---
 title: "EmfSelectClipPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SELECTCLIPPATH 记录将当前路径指定为回放设备上下文的剪裁区域，并使用指定的模式将新区域与任何现有剪裁区域合并。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SELECTCLIPPATH 记录将当前路径指定为回放设备上下文的裁剪区域，并使用指定的模式将新区域与任何现有裁剪区域合并。"
 type: docs
 weight: 115
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSelectClipPath extends EmfClippingRecordType
 ```
 
-EMR\_SELECTCLIPPATH 记录将当前路径指定为回放设备上下文的裁剪区域，使用指定的模式将新区域与任何现有裁剪区域合并。
+EMR\_SELECTCLIPPATH 记录将当前路径指定为回放设备上下文的裁剪区域，并使用指定的模式将新区域与任何现有裁剪区域合并。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public EmfSelectClipPath(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSelectClipPath() {#EmfSelectClipPath--}
 ```
@@ -52,7 +52,7 @@ public int getRegionMode()
 ```
 
 
-获取或设置一个 32 位无符号整数，用于指定路径的使用方式。该值 必须属于 RegionMode 枚举（第 2.1.29 节）。
+获取或设置一个 32 位无符号整数，用于指定路径的使用方式。该值 MUST 位于 RegionMode 枚举中（第 2.1.29 节）。
 
 **Returns:**
 int
@@ -62,10 +62,10 @@ public void setRegionMode(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，用于指定路径的使用方式。该值 必须属于 RegionMode 枚举（第 2.1.29 节）。
+获取或设置一个 32 位无符号整数，用于指定路径的使用方式。该值 MUST 位于 RegionMode 枚举中（第 2.1.29 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

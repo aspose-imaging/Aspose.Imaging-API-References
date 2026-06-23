@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.xmp.types.complex.dimensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含表示绘制对象尺寸结构的类。"
 type: docs
 weight: 126

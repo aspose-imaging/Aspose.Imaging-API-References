@@ -1,6 +1,6 @@
 ---
 title: "EmfStateRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "状态记录类型指定并管理定义回放设备上下文状态的图形属性。"
 type: docs
 weight: 148

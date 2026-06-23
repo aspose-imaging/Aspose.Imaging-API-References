@@ -1,6 +1,6 @@
 ---
-title: "Timecode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "时间码"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示视频中的时间码值。"
 type: docs
 weight: 16
@@ -82,7 +82,7 @@ public String getTimeValue()
 
 获取或设置指定格式下的时间值。
 
-值：指定格式下的时间值。
+值：指定格式中的时间值。
 
 **Returns:**
 java.lang.String
@@ -94,12 +94,12 @@ public void setTimeValue(String value)
 
 获取或设置指定格式下的时间值。
 
-值：指定格式下的时间值。
+值：指定格式中的时间值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -137,7 +137,7 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | java.lang.Object | 与此实例比较的 `System.Object`。 |
+| obj | java.lang.Object | 要与此实例比较的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果指定的 `System.Object` 等于此实例，则为 `true`；否则，为 `false`。

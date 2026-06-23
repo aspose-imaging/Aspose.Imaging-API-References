@@ -1,7 +1,7 @@
 ---
 title: "WatermarkOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "常见的水印移除算法选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "通用水印移除算法选项。"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.watermark.options/watermarkoptions/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class WatermarkOptions
 ```
 
-常见的水印移除算法选项。
+通用水印移除算法选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -42,7 +42,7 @@ public final Iterable<Point> getMask()
 
 获取掩码。
 
-值：掩码。
+值：遮罩。
 
 **Returns:**
 java.lang.Iterable<com.aspose.imaging.Point> - 掩码。
@@ -54,12 +54,12 @@ public final void setMask(Iterable<Point> value)
 
 设置掩码。
 
-值：掩码。
+值：遮罩。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Iterable<com.aspose.imaging.Point> | 掩码。 |
+| 值 | java.lang.Iterable<com.aspose.imaging.Point> | 掩码。 |
 
 ### getPrecalculationProgressEventHandler() {#getPrecalculationProgressEventHandler--}
 ```
@@ -86,7 +86,7 @@ public final void setPrecalculationProgressEventHandler(ProgressEventHandler val
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | 默认点预计算过程进度事件处理程序。 |
+| value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | 默认点预计算过程的进度事件处理程序。 |
 
 ### getGraphicsPathMask() {#getGraphicsPathMask--}
 ```
@@ -96,7 +96,7 @@ public final GraphicsPath getGraphicsPathMask()
 
 获取掩码。
 
-值：掩码。
+值：遮罩。
 
 **Returns:**
 [GraphicsPath](../../com.aspose.imaging/graphicspath) - the mask.
@@ -108,7 +108,7 @@ public final void setGraphicsPathMask(GraphicsPath value)
 
 设置掩码。
 
-值：掩码。
+值：遮罩。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

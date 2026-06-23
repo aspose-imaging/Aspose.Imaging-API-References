@@ -1,6 +1,6 @@
 ---
 title: "SvgResourceKeeperCallback"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "资源保持器回调"
 type: docs
 weight: 12
@@ -80,4 +80,4 @@ public String onSvgDocumentReady(byte[] htmlData, String suggestedFileName)
 | suggestedFileName | java.lang.String | 建议文件的名称。 |
 
 **Returns:**
-java.lang.String - 返回已保存的 SVG 文档的路径。
+java.lang.String - 返回已保存 SVG 文档的路径。

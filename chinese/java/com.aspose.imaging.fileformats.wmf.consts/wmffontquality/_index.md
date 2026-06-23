@@ -1,7 +1,7 @@
 ---
 title: "WmfFontQuality"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 FontQuality 枚举指定在渲染文本时，逻辑字体的属性应与物理字体的属性匹配的程度。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "FontQuality 枚举指定在渲染文本时，逻辑字体的属性应与物理字体的属性匹配的程度。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.imaging.fileformats.wmf.consts/wmffontquality/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WmfFontQuality extends System.Enum
 ```
 
-该 FontQuality 枚举指定在渲染文本时，逻辑字体的属性应与物理字体的属性匹配的程度。
+FontQuality 枚举指定在渲染文本时，逻辑字体的属性应与物理字体的属性匹配的程度。
 ## 字段
 
 | 字段 | 描述 |
@@ -37,7 +37,7 @@ public static final byte Draft
 ```
 
 
-指定字体的字符质量不如逻辑属性的匹配重要。对于栅格字体，应启用缩放，这意味着可用的字体尺寸更多。
+指定字体的字符质量不如逻辑属性的匹配重要。对于光栅化字体，应启用缩放，这意味着可用的字体大小更多。
 
 ### Proof {#Proof}
 ```
@@ -45,7 +45,7 @@ public static final byte Proof
 ```
 
 
-指定字体的字符质量比逻辑属性的匹配更重要。对于栅格字体，应禁用缩放，并应选择最接近的字体尺寸。
+指定字体的字符质量比逻辑属性的匹配更重要。对于光栅化字体，应禁用缩放，并应选择最接近的字体大小。
 
 ### Nonantialiased {#Nonantialiased}
 ```

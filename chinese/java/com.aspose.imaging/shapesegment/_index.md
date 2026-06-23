@@ -1,6 +1,6 @@
 ---
 title: "ShapeSegment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示形状段。"
 type: docs
 weight: 103
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class ShapeSegment
 ```
 
-表示形状段。段是连接两个点的直线或曲线。
+表示一个形状段。段是连接两个点的直线或曲线。
 ## 构造函数
 
 | 构造函数 | 描述 |

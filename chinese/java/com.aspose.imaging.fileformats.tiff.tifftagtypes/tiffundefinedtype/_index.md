@@ -1,7 +1,7 @@
 ---
 title: "TiffUndefinedType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff 未定义类型."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 tiff 未定义类型。"
 type: docs
 weight: 26
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.a
 public class TiffUndefinedType extends TiffDataType
 ```
 
-tiff 未定义类型.
+该 tiff 未定义类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,7 +24,7 @@ tiff 未定义类型.
 | --- | --- |
 | [getData()](#getData--) | 获取或设置数据。 |
 | [setData(byte[] value)](#setData-byte---) | 获取或设置数据。 |
-| [getCount()](#getCount--) | 获取元素的计数。 |
+| [getCount()](#getCount--) | 获取元素的数量。 |
 | [getTagType()](#getTagType--) | 获取标签类型。 |
 | [getValue()](#getValue--) | 获取或设置此数据类型包含的值。 |
 | [setValue(Object value)](#setValue-java.lang.Object-) | 获取或设置此数据类型包含的值。 |
@@ -67,7 +67,7 @@ public void setData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getCount() {#getCount--}
 ```
@@ -75,9 +75,9 @@ public long getCount()
 ```
 
 
-获取元素的计数。
+获取元素的数量。
 
-值：元素的计数。
+值：元素的数量。
 
 **Returns:**
 long
@@ -114,7 +114,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object |  |
+| 值 | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "OdText"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "文本对象"
 type: docs
 weight: 41
@@ -51,5 +51,5 @@ public void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文本。 |
+| 值 | java.lang.String | 文本。 |
 

@@ -1,7 +1,7 @@
 ---
 title: "WmfMoveTo"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_MOVETO 记录将播放设备上下文中的输出位置设置为指定点。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_MOVETO 记录将回放设备上下文中的输出位置设置为指定点。"
 type: docs
 weight: 46
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfmoveto/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfMoveTo extends WmfPointObject
 ```
 
-该 META_MOVETO 记录将回放设备上下文中的输出位置设置为指定点。
+该 META\_MOVETO 记录将回放设备上下文中的输出位置设置为指定的点。
 ## 构造函数
 
 | 构造函数 | 描述 |

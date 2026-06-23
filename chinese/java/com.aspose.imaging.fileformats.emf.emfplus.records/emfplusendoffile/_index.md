@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusEndOfFile"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusEndOfFile 记录指定元文件中 EMF 数据的结束。"
 type: docs
 weight: 31
@@ -22,8 +22,8 @@ EmfPlusEndOfFile 记录指定元文件中 EMF+ 数据的结束。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getFlags()](#getFlags--) | 获取或设置一个未使用的 16 位无符号整数。 |
-| [setFlags(short value)](#setFlags-short-) | 获取或设置一个未使用的 16 位无符号整数。 |
+| [getFlags()](#getFlags--) | 获取或设置未使用的 16 位无符号整数。 |
+| [setFlags(short value)](#setFlags-short-) | 获取或设置未使用的 16 位无符号整数。 |
 ### EmfPlusEndOfFile(EmfPlusRecord source) {#EmfPlusEndOfFile-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusEndOfFile(EmfPlusRecord source)
@@ -35,7 +35,7 @@ public EmfPlusEndOfFile(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getFlags() {#getFlags--}
 ```
@@ -43,20 +43,20 @@ public short getFlags()
 ```
 
 
-获取或设置一个未使用的 16 位无符号整数。该字段应设置为零，并且在接收时必须被忽略。
+获取或设置未使用的 16 位无符号整数。此字段应设置为零，并且在接收时必须被忽略。
 
 **Returns:**
-short
+短
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
 ```
 
 
-获取或设置一个未使用的 16 位无符号整数。该字段应设置为零，并且在接收时必须被忽略。
+获取或设置未使用的 16 位无符号整数。此字段应设置为零，并且在接收时必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

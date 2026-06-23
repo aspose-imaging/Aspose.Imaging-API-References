@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusStringTrimming"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 StringTrimming 枚举定义如何从超出文本布局矩形的字符串中修剪字符。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "StringTrimming 枚举定义如何修剪超出文本布局矩形的字符串中的字符。"
 type: docs
 weight: 51
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringtrimming/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusStringTrimming extends System.Enum
 ```
 
-该 StringTrimming 枚举定义如何从超出文本布局矩形的字符串中修剪字符。
+StringTrimming 枚举定义如何修剪超出文本布局矩形的字符串中的字符。
 ## 字段
 
 | 字段 | 描述 |
@@ -22,7 +22,7 @@ public final class EmfPlusStringTrimming extends System.Enum
 | [StringTrimmingWord](#StringTrimmingWord) | 指定字符串在布局矩形内的最后一个单词的边界处断开。 |
 | [StringTrimmingEllipsisCharacter](#StringTrimmingEllipsisCharacter) | 指定字符串在布局矩形内的最后一个字符的边界处断开，并在该字符后插入省略号（...）。 |
 | [StringTrimmingEllipsisWord](#StringTrimmingEllipsisWord) | 指定字符串在布局矩形内的最后一个单词的边界处断开，并在该单词后插入省略号（...）。 |
-| [StringTrimmingEllipsisPath](#StringTrimmingEllipsisPath) | 指定从字符串中移除中间部分并用省略号替代。 |
+| [StringTrimmingEllipsisPath](#StringTrimmingEllipsisPath) | 指定将字符串的中心部分移除并替换为省略号。 |
 ### StringTrimmingNone {#StringTrimmingNone}
 ```
 public static final int StringTrimmingNone
@@ -69,5 +69,5 @@ public static final int StringTrimmingEllipsisPath
 ```
 
 
-指定从字符串中移除中间部分并用省略号替代。该算法尽可能保留字符串的最后部分。
+指定将字符串的中心部分移除并替换为省略号。该算法尽可能保留字符串的最后部分。
 

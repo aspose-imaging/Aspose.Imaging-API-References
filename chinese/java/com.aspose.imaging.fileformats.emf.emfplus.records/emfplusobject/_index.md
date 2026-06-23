@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusObject 记录指定用于图形操作的对象。"
 type: docs
 weight: 42
@@ -32,8 +32,8 @@ EmfPlusObject 记录是通用的；它用于所有类型的对象。特定对象
 | [setObjectId(byte value)](#setObjectId-byte-) | 获取或设置对象标识符。 |
 | [getTotalObjectSize()](#getTotalObjectSize--) | 获取或设置对象的总大小。 |
 | [setTotalObjectSize(int value)](#setTotalObjectSize-int-) | 获取或设置对象的总大小。 |
-| [getObjectData()](#getObjectData--) | 获取或设置一个字节数组，其中包含 Flags 字段指定的对象类型的数据。 |
-| [setObjectData(EmfPlusGraphicsObjectType value)](#setObjectData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusGraphicsObjectType-) | 获取或设置一个字节数组，其中包含 Flags 字段指定的对象类型的数据。 |
+| [getObjectData()](#getObjectData--) | 获取或设置一个字节数组，包含 Flags 字段中指定的对象类型的数据。 |
+| [setObjectData(EmfPlusGraphicsObjectType value)](#setObjectData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusGraphicsObjectType-) | 获取或设置一个字节数组，包含 Flags 字段中指定的对象类型的数据。 |
 ### EmfPlusObject(EmfPlusRecord source) {#EmfPlusObject-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusObject(EmfPlusRecord source)
@@ -45,7 +45,7 @@ public EmfPlusObject(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### isContinuable() {#isContinuable--}
 ```
@@ -53,7 +53,7 @@ public boolean isContinuable()
 ```
 
 
-获取或设置一个值，指示此实例是否可继续。表示对象定义在下一个 EmfPlusObject 记录中继续。此标志在定义对象的最后一条记录中永不设置。
+获取或设置一个值，指示此实例是否可继续。表示对象定义在下一个 EmfPlusObject 记录中继续。此标志在定义对象的最终记录中永不设置。
 
 值：如果此实例已压缩则为 `true`；否则为 `false`。
 
@@ -65,14 +65,14 @@ public void setContinuable(boolean value)
 ```
 
 
-获取或设置一个值，指示此实例是否可继续。表示对象定义在下一个 EmfPlusObject 记录中继续。此标志在定义对象的最后一条记录中永不设置。
+获取或设置一个值，指示此实例是否可继续。表示对象定义在下一个 EmfPlusObject 记录中继续。此标志在定义对象的最终记录中永不设置。
 
 值：如果此实例已压缩则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getObjectType() {#getObjectType--}
 ```
@@ -99,7 +99,7 @@ public void setObjectType(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -107,7 +107,7 @@ public byte getObjectId()
 ```
 
 
-获取或设置对象标识符。EMF+ 对象表中的索引，用于关联此记录创建的对象。该值必须在 0 到 63（含）之间。
+获取或设置对象标识符。EMF+ 对象表中与此记录创建的对象关联的索引。该值必须在 0 到 63（含）之间。
 
 值：对象标识符。
 
@@ -119,14 +119,14 @@ public void setObjectId(byte value)
 ```
 
 
-获取或设置对象标识符。EMF+ 对象表中的索引，用于关联此记录创建的对象。该值必须在 0 到 63（含）之间。
+获取或设置对象标识符。EMF+ 对象表中与此记录创建的对象关联的索引。该值必须在 0 到 63（含）之间。
 
 值：对象标识符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getTotalObjectSize() {#getTotalObjectSize--}
 ```
@@ -134,7 +134,7 @@ public int getTotalObjectSize()
 ```
 
 
-获取或设置对象的总大小。如果记录是可继续的，当继续位被设置时，此字段将出现。可继续的对象有多个 EMF+ 记录，起始于 EmfPlusContineudObjectRecord。每个 EmfPlusContinuedObjectRecord 将包含 TotalObjectSize。读取了 TotalObjectSize 指定的字节数后，下一条 EMF+ 记录将不再被视为该继续对象的一部分。
+获取或设置对象的总大小。如果记录是可继续的，当继续位被设置时，此字段将出现。可继续的对象具有多个 EMF+ 记录，起始于 EmfPlusContineudObjectRecord。每个 EmfPlusContinuedObjectRecord 都会包含 TotalObjectSize。读取完 TotalObjectSize 指定的字节数后，下一条 EMF+ 记录将不再视为该继续对象的一部分。
 
 值：对象的总大小。
 
@@ -146,14 +146,14 @@ public void setTotalObjectSize(int value)
 ```
 
 
-获取或设置对象的总大小。如果记录是可继续的，当继续位被设置时，此字段将出现。可继续的对象有多个 EMF+ 记录，起始于 EmfPlusContineudObjectRecord。每个 EmfPlusContinuedObjectRecord 将包含 TotalObjectSize。读取了 TotalObjectSize 指定的字节数后，下一条 EMF+ 记录将不再被视为该继续对象的一部分。
+获取或设置对象的总大小。如果记录是可继续的，当继续位被设置时，此字段将出现。可继续的对象具有多个 EMF+ 记录，起始于 EmfPlusContineudObjectRecord。每个 EmfPlusContinuedObjectRecord 都会包含 TotalObjectSize。读取完 TotalObjectSize 指定的字节数后，下一条 EMF+ 记录将不再视为该继续对象的一部分。
 
 值：对象的总大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getObjectData() {#getObjectData--}
 ```
@@ -161,7 +161,7 @@ public EmfPlusGraphicsObjectType getObjectData()
 ```
 
 
-获取或设置一个字节数组，其中包含 Flags 字段指定的对象类型的数据。数据的内容和格式可能因对象类型而异。有关更多信息，请参见第 2.2.1 节中的各个对象定义。
+获取或设置一个字节数组，包含 Flags 字段中指定的对象类型的数据。数据的内容和格式可能因对象类型而异。有关更多信息，请参阅第 2.2.1 节中的各个对象定义。
 
 值：对象数据。
 
@@ -173,7 +173,7 @@ public void setObjectData(EmfPlusGraphicsObjectType value)
 ```
 
 
-获取或设置一个字节数组，其中包含 Flags 字段指定的对象类型的数据。数据的内容和格式可能因对象类型而异。有关更多信息，请参见第 2.2.1 节中的各个对象定义。
+获取或设置一个字节数组，包含 Flags 字段中指定的对象类型的数据。数据的内容和格式可能因对象类型而异。有关更多信息，请参阅第 2.2.1 节中的各个对象定义。
 
 值：对象数据。
 

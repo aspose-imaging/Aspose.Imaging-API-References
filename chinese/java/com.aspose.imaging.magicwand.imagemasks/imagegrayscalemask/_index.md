@@ -1,6 +1,6 @@
 ---
 title: "ImageGrayscaleMask"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "描述灰度图像掩码。"
 type: docs
 weight: 15
@@ -32,12 +32,12 @@ public class ImageGrayscaleMask implements IImageMask
 | [getBounds()](#getBounds--) | 获取此掩码的边界（以像素为单位）。 |
 | [getSelectionBounds()](#getSelectionBounds--) | 获取掩码选定部分的边界（以像素为单位）。 |
 | [get_Item(int x, int y)](#get-Item-int-int-) | 获取指定像素的透明度。 |
-| [set_Item(int x, int y, byte value)](#set-Item-int-int-byte-) | 设置指定像素的透明度。 |
+| [set_Item(int x, int y, byte value)](#set-Item-int-int-byte-) | 设置指定像素的不透明度。 |
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | 检查指定像素是否不透明。 |
 | [isTransparent(int x, int y)](#isTransparent-int-int-) | 检查指定像素是否透明。 |
-| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | 获取指定像素的透明度，精确到字节。 |
+| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | 获取指定像素的透明度，精度为字节。 |
 | [deepClone()](#deepClone--) | 创建一个新对象，该对象是当前实例的副本。 |
-| [apply()](#apply--) | 如果存在，则将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。 |
+| [apply()](#apply--) | 如果存在，将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。 |
 | [applyTo(RasterImage image)](#applyTo-com.aspose.imaging.RasterImage-) | 将当前掩码应用于指定的 [RasterImage](../../com.aspose.imaging/rasterimage)。 |
 | [crop(Size size)](#crop-com.aspose.imaging.Size-) | 使用指定的尺寸裁剪掩码。 |
 | [crop(int width, int height)](#crop-int-int-) | 使用指定的宽度和高度裁剪掩码。 |
@@ -51,7 +51,7 @@ public class ImageGrayscaleMask implements IImageMask
 | [op_Addition(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | 两个掩码的并集。 |
 | [op_Subtraction(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | 从第一个掩码中减去第二个掩码。 |
 | [op_Multiply(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | 两个掩码的交集。 |
-| [op_ExclusiveOr(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | 两个掩码的异或。 |
+| [op_ExclusiveOr(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | 两个掩码的互斥或。 |
 
 ## Example: The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, subtract).
 
@@ -62,18 +62,18 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
     // 使用魔棒工具基于像素 (845, 128) 的色调和颜色创建新掩码
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // 将现有掩码与由魔棒工具创建的指定掩码合并
+            // 将现有掩码与魔棒工具创建的指定掩码进行合并
             .union(new MagicWandSettings(416, 387))
-            // 反转现有掩码
+            // 反转现有的遮罩
             .invert()
-            // 从现有掩码中减去由魔棒工具创建的、具有指定阈值的指定掩码
+            // 从现有遮罩中减去使用魔棒工具并具有指定阈值创建的指定遮罩
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
-            // 逐个从现有掩码中减去四个指定的矩形掩码
+            // 一次一次地从现有遮罩中减去四个指定的矩形遮罩
             .subtract(new RectangleMask(0, 0, 800, 150))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // 使用指定设置羽化掩码
+            // 使用指定设置羽化遮罩
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
             // 将掩码应用于图像
             .apply();
@@ -95,8 +95,8 @@ public ImageGrayscaleMask(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 掩码的宽度。 |
-| 高度 | int | 掩码的高度。 |
+| width | int | 掩码的宽度。 |
+| height | int | 掩码的高度。 |
 
 ### ImageGrayscaleMask(RasterImage image) {#ImageGrayscaleMask-com.aspose.imaging.RasterImage-}
 ```
@@ -104,7 +104,7 @@ public ImageGrayscaleMask(RasterImage image)
 ```
 
 
-使用指定的现有 [RasterImage](../../com.aspose.imaging/rasterimage) 的尺寸初始化 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) 类的新实例。指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 将被存储为源图像。
+使用指定现有 [RasterImage](../../com.aspose.imaging/rasterimage) 的大小初始化 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) 类的新实例。指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 将被存储为源图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -173,7 +173,7 @@ public final byte get_Item(int x, int y)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | x | int | 像素的 x 坐标。 |
-| y | int | 像素的 Y 坐标。取值：字节值；透明时为 0；不透明时为 255。 |
+| y | int | 像素的 y 坐标。值：字节值；透明时为 0；不透明时为 255。 |
 
 **Returns:**
 byte
@@ -183,14 +183,14 @@ public final void set_Item(int x, int y, byte value)
 ```
 
 
-设置指定像素的透明度。
+设置指定像素的不透明度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | x | int | 像素的 x 坐标。 |
-| y | int | 像素的 Y 坐标。取值：字节值；透明时为 0；不透明时为 255。 |
-| value | byte | 指定像素的透明度。 |
+| y | int | 像素的 y 坐标。值：字节值；透明时为 0；不透明时为 255。 |
+| 值 | byte | 指定像素的不透明度。 |
 
 ### isOpaque(int x, int y) {#isOpaque-int-int-}
 ```
@@ -230,7 +230,7 @@ public final byte getByteOpacity(int x, int y)
 ```
 
 
-获取指定像素的透明度，精确到字节。
+获取指定像素的透明度，精度为字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -249,14 +249,14 @@ public final Object deepClone()
 创建一个新对象，该对象是当前实例的副本。
 
 **Returns:**
-java.lang.Object - 此实例的副本的新对象。
+java.lang.Object - 一个新对象，是此实例的副本。
 ### apply() {#apply--}
 ```
 public final void apply()
 ```
 
 
-如果存在，则将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。
+如果存在，将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。
 
 ### applyTo(RasterImage image) {#applyTo-com.aspose.imaging.RasterImage-}
 ```
@@ -297,8 +297,8 @@ public final ImageGrayscaleMask crop(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 指定的宽度。 |
-| 高度 | int | 指定的高度。 |
+| width | int | 指定的宽度。 |
+| height | int | 指定的高度。 |
 
 **Returns:**
 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - A cropped [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask).
@@ -456,7 +456,7 @@ public static ImageGrayscaleMask op_ExclusiveOr(ImageGrayscaleMask a, ImageGrays
 ```
 
 
-两个掩码的异或。
+两个掩码的互斥或。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "LicenseException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示当组件无法获得许可证时抛出的异常。"
 type: docs
 weight: 20
@@ -27,5 +27,5 @@ public LicenseException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String |  |
+| 消息 | java.lang.String |  |
 

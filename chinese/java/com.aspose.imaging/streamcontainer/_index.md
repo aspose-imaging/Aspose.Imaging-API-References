@@ -1,7 +1,7 @@
 ---
 title: "StreamContainer"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示流容器，包含流并提供流处理例程。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示流容器，该容器包含流并提供流处理例程。"
 type: docs
 weight: 109
 url: /zh/java/com.aspose.imaging/streamcontainer/
@@ -15,7 +15,7 @@ com.aspose.internal.interfaces.ISynchronizable
 public class StreamContainer extends DisposableObject implements ISynchronizable
 ```
 
-表示流容器，包含流并提供流处理例程。
+表示流容器，该容器包含流并提供流处理例程。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -34,7 +34,7 @@ public class StreamContainer extends DisposableObject implements ISynchronizable
 | 方法 | 描述 |
 | --- | --- |
 | [to_Stream(StreamContainer streamContainer)](#to-Stream-com.aspose.imaging.StreamContainer-) | 执行从 `com.aspose.imaging.StreamContainer` 到 `System.IO.Stream` 的显式转换。 |
-| [getSyncRoot()](#getSyncRoot--) | 获取一个可用于同步对同步资源访问的对象。 |
+| [getSyncRoot()](#getSyncRoot--) | 获取一个可用于同步访问同步资源的对象。 |
 | [getPosition()](#getPosition--) | 获取或设置流中的当前位置。 |
 | [setPosition(long value)](#setPosition-long-) | 获取或设置流中的当前位置。 |
 | [getStream()](#getStream--) | 获取数据流。 |
@@ -44,17 +44,17 @@ public class StreamContainer extends DisposableObject implements ISynchronizable
 | [canRead()](#canRead--) | 获取指示流是否支持读取的值。 |
 | [canSeek()](#canSeek--) | 获取指示流是否支持定位的值。 |
 | [canWrite()](#canWrite--) | 获取指示流是否支持写入的值。 |
-| [flush()](#flush--) | 清除此流的所有缓冲区，并使任何缓冲的数据写入底层设备。 |
+| [flush()](#flush--) | 清除此流的所有缓冲区，并导致任何缓冲数据写入底层设备。 |
 | [write(byte[] bytes)](#write-byte---) | 将所有指定的字节写入流。 |
-| [writeByte(byte value)](#writeByte-byte-) | 在流的当前位写入一个字节，并将流中的位置前移一个字节。 |
+| [writeByte(byte value)](#writeByte-byte-) | 向流的当前位写入一个字节，并将流中的位置前移一个字节。 |
 | [read(byte[] bytes)](#read-byte---) | 读取字节以填充指定的字节缓冲区。 |
 | [toBytes()](#toBytes--) | 将流数据转换为 `byte` 数组。 |
 | [toBytes(long position, long bytesCount)](#toBytes-long-long-) | 将流数据转换为 `byte` 数组。 |
-| [read(byte[] buffer, int offset, int count)](#read-byte---int-int-) | 从当前流读取一系列字节，并将流中的位置前移读取的字节数。 |
-| [readByte()](#readByte--) | 从流中读取一个字节，并将流中的位置前移一个字节；如果已到达流的末尾，则返回 -1。 |
+| [read(byte[] buffer, int offset, int count)](#read-byte---int-int-) | 从当前流读取一系列字节，并将流中的位置前移已读取的字节数。 |
+| [readByte()](#readByte--) | 从流中读取一个字节，并将流中的位置前移一个字节；如果已到流的末尾，则返回 -1。 |
 | [seek(long offset, int origin)](#seek-long-int-) | 设置当前流中的位置。 |
-| [seekBegin()](#seekBegin--) | 将流的位置设置为流的开头。 |
-| [write(byte[] buffer, int offset, int count)](#write-byte---int-int-) | 向当前流写入一系列字节，并将此流中的当前位置前移写入的字节数。 |
+| [seekBegin()](#seekBegin--) | 将流位置设置为流的开头。 |
+| [write(byte[] buffer, int offset, int count)](#write-byte---int-int-) | 向当前流写入一系列字节，并将此流中的当前位置前移已写入的字节数。 |
 | [save(OutputStream destinationStream)](#save-java.io.OutputStream-) | 保存（复制）流的数据到指定的流。 |
 | [save(OutputStream destinationStream, int bufferSize)](#save-java.io.OutputStream-int-) | 保存（复制）所有流的数据到指定的流。 |
 | [save(OutputStream destinationStream, int bufferSize, long length)](#save-java.io.OutputStream-int-long-) | 保存（复制）流的数据到指定的流。 |
@@ -101,7 +101,7 @@ public StreamContainer(InputStream stream, boolean disposeStream)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | java.io.InputStream | 数据流。 |
-| disposeStream | boolean | 如果设置为 `true`，则在容器被释放时流将被释放。 |
+| disposeStream | boolean | 如果设置为 `true`，则在容器被释放时流也会被释放。 |
 
 ### StreamContainer(System.IO.Stream stream, boolean disposeStream) {#StreamContainer-com.aspose.ms.System.IO.Stream-boolean-}
 ```
@@ -115,7 +115,7 @@ public StreamContainer(System.IO.Stream stream, boolean disposeStream)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | com.aspose.ms.System.IO.Stream | 数据流。 |
-| disposeStream | boolean | 如果设置为 `true`，则在容器被释放时流将被释放。 |
+| disposeStream | boolean | 如果设置为 `true`，则在容器被释放时流也会被释放。 |
 
 ### READ_WRITE_BYTES_COUNT {#READ-WRITE-BYTES-COUNT}
 ```
@@ -146,7 +146,7 @@ public Object getSyncRoot()
 ```
 
 
-获取一个可用于同步对同步资源访问的对象。
+获取一个可用于同步访问同步资源的对象。
 
 值：可用于同步对同步资源的访问的对象。
 
@@ -158,7 +158,7 @@ public long getPosition()
 ```
 
 
-获取或设置流中的当前位置。此值表示相对于在 StreamContainer 构造函数中传入的起始流位置的偏移。
+获取或设置流中的当前位置。此值表示相对于在 StreamContainer 构造函数中传入的起始流位置的偏移量。
 
 值：当前流位置。
 
@@ -170,14 +170,14 @@ public void setPosition(long value)
 ```
 
 
-获取或设置流中的当前位置。此值表示相对于在 StreamContainer 构造函数中传入的起始流位置的偏移。
+获取或设置流中的当前位置。此值表示相对于在 StreamContainer 构造函数中传入的起始流位置的偏移量。
 
 值：当前流位置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getStream() {#getStream--}
 ```
@@ -199,7 +199,7 @@ public boolean isStreamDisposedOnClose()
 
 获取一个值，指示此流在关闭时是否被释放。
 
-值：如果流在关闭时被释放则为 `true`；否则为 `false`。
+值：如果在关闭时流被释放则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -209,9 +209,9 @@ public long getLength()
 ```
 
 
-获取或设置流的字节长度。此值比 Stream\#getLength().getLength() 小，差值为在 StreamContainer 构造函数中传入的起始流位置。
+获取或设置流的字节长度。此值比 Stream\\#getLength().getLength() 的值减去在 StreamContainer 构造函数中传入的起始流位置。
 
-值：流的长度。
+值：流长度。
 
 **Returns:**
 long
@@ -221,14 +221,14 @@ public void setLength(long value)
 ```
 
 
-获取或设置流的字节长度。此值比 Stream\#getLength().getLength() 小，差值为在 StreamContainer 构造函数中传入的起始流位置。
+获取或设置流的字节长度。此值比 Stream\\#getLength().getLength() 的值减去在 StreamContainer 构造函数中传入的起始流位置。
 
-值：流的长度。
+值：流长度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### canRead() {#canRead--}
 ```
@@ -262,7 +262,7 @@ public boolean canWrite()
 
 获取指示流是否支持写入的值。
 
-值：`true` 表示流支持写入；否则为 `false`。
+值：如果流支持写入则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -272,7 +272,7 @@ public void flush()
 ```
 
 
-清除此流的所有缓冲区，并使任何缓冲的数据写入底层设备。
+清除此流的所有缓冲区，并导致任何缓冲数据写入底层设备。
 
 ### write(byte[] bytes) {#write-byte---}
 ```
@@ -293,12 +293,12 @@ public void writeByte(byte value)
 ```
 
 
-在流的当前位写入一个字节，并将流中的位置前移一个字节。
+向流的当前位写入一个字节，并将流中的位置前移一个字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 要写入流的字节。 |
+| 值 | byte | 要写入流的字节。 |
 
 ### read(byte[] bytes) {#read-byte---}
 ```
@@ -336,7 +336,7 @@ public byte[] toBytes(long position, long bytesCount)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| position | long | 开始读取字节的位置。 |
+| 位置 | long | 开始读取字节的位置。 |
 | bytesCount | long | 要读取的字节计数。 |
 
 **Returns:**
@@ -347,24 +347,24 @@ public int read(byte[] buffer, int offset, int count)
 ```
 
 
-从当前流读取一系列字节，并将流中的位置前移读取的字节数。
+从当前流读取一系列字节，并将流中的位置前移已读取的字节数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| buffer | byte[] | 字节数组。当此方法返回时，buffer 包含指定的字节数组，其中 `offset` 与 (`offset` + `count` - 1) 之间的值已被从当前源读取的字节替换。 |
-| offset | int | 在 `buffer` 中的基于零的字节偏移量，指示从当前流读取的数据开始存储的位置。 |
-| count | int | 从当前流读取的最大字节数。 |
+| buffer | byte[] | 字节数组。当此方法返回时，buffer 包含指定的字节数组，其中 `offset` 与 (`offset` + `count` - 1) 之间的值已被当前来源读取的字节替换。 |
+| offset | int | `buffer` 中的零基字节偏移量，指示从何处开始存储从当前流读取的数据。 |
+| 计数 | int | 从当前流读取的最大字节数。 |
 
 **Returns:**
-int - 读取到缓冲区的总字节数。如果当前可用字节不足，此值可能小于请求的字节数；如果已到达流的末尾，则为零 (0)。
+int - 读取到缓冲区的总字节数。如果当前不可用的字节少于请求的字节数，则可能小于请求的字节数；如果已到达流的末尾，则为零 (0)。
 ### readByte() {#readByte--}
 ```
 public int readByte()
 ```
 
 
-从流中读取一个字节，并将流中的位置前移一个字节；如果已到达流的末尾，则返回 -1。
+从流中读取一个字节，并将流中的位置前移一个字节；如果已到流的末尾，则返回 -1。
 
 **Returns:**
 int - 将无符号字节转换为 Int32，或在流末尾时为 -1。
@@ -380,7 +380,7 @@ public long seek(long offset, int origin)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | offset | long | 相对于 `origin` 参数的字节偏移量。此值表示相对于在 StreamContainer 构造函数中传入的起始流位置的偏移。 |
-| origin | int | 类型为 `System.IO.SeekOrigin` 的值，指示用于获取新位置的参考点。 |
+| origin | int | `System.IO.SeekOrigin` 类型的值，指示用于获取新位置的参考点。 |
 
 **Returns:**
 long - 当前流中的新位置。
@@ -398,14 +398,14 @@ public void write(byte[] buffer, int offset, int count)
 ```
 
 
-向当前流写入一系列字节，并将此流中的当前位置前移写入的字节数。
+向当前流写入一系列字节，并将此流中的当前位置前移已写入的字节数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | buffer | byte[] | 字节数组。此方法将 `count` 字节从 `buffer` 复制到当前流。 |
-| offset | int | 在 `buffer` 中的基于零的字节偏移量，指示开始将字节复制到当前流的位置。 |
-| count | int | 写入当前流的字节数。 |
+| offset | int | `buffer` 中的零基字节偏移量，指示从何处开始将字节复制到当前流。 |
+| 计数 | int | 要写入当前流的字节数。 |
 
 ### save(OutputStream destinationStream) {#save-java.io.OutputStream-}
 ```

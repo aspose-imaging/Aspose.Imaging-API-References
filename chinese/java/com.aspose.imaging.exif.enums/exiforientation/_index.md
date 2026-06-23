@@ -1,6 +1,6 @@
 ---
 title: "ExifOrientation"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Exif 图像方向。"
 type: docs
 weight: 21

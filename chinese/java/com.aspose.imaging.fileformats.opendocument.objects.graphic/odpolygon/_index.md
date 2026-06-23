@@ -1,6 +1,6 @@
 ---
 title: "OdPolygon"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "多边形"
 type: docs
 weight: 37
@@ -35,7 +35,7 @@ public OdPolygon(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getPoints() {#getPoints--}
 ```

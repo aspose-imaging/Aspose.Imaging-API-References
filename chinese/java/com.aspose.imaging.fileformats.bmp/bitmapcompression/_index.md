@@ -1,6 +1,6 @@
 ---
 title: "BitmapCompression"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定不同的位图压缩方法。"
 type: docs
 weight: 10
@@ -35,10 +35,10 @@ String outputPathBmp = "output.bmp";
 // 从文件加载 PNG 图像。
 try (Image pngImage = Image.load(sourcePath))
 {
-    // 默认情况下，BMP 图像以支持透明度的方式保存。
+    // BMP 图像默认保存为支持透明度。
     // 如果您想显式指定此模式，应将 BmpOptions 的 Compression 属性设置为 BitmapCompression.Bitfields。
     // BitmapCompression.Bitfields 压缩方法是 BmpOptions 中的默认压缩方法。
-    // 因此，通过以下任一方式都可以实现导出带透明度的 Bmp 图像的相同结果。
+    // 因此，可以通过以下任意一种方式实现导出带透明度的 Bmp 图像的相同结果。
     // 使用隐式默认选项：
     pngImage.save(outputPathPng);
     // 使用显式默认选项：
@@ -57,8 +57,8 @@ String outputPath = "output.bmp";
 // 从文件加载 PNG 图像。
 try (Image pngImage = Image.load(sourcePath))
 {
-    // 默认情况下，BMP 图像以支持透明度的方式保存，这是通过使用 BitmapCompression.Bitfields 压缩方法实现的。
-    // 要使用 Rgb 压缩方法保存 BMP 图像，应指定 Compression 属性设置为 BitmapCompression.Rgb 的 BmpOptions。
+    // BMP 图像默认保存为支持透明度，这通过使用 BitmapCompression.Bitfields 压缩方法实现。
+    // 若要使用 Rgb 压缩方法保存 BMP 图像，应指定 Compression 属性设置为 BitmapCompression.Rgb 的 BmpOptions。
     pngImage.save(outputPath, new BmpOptions()
     {{
         setCompression(BitmapCompression.Rgb);
@@ -80,7 +80,7 @@ public static final long Rle8
 ```
 
 
-RLE 8 位/像素压缩。只能与 8 位/像素位图一起使用。
+RLE 8 位/像素压缩。只能用于 8 位/像素位图。
 
 ### Rle4 {#Rle4}
 ```
@@ -88,7 +88,7 @@ public static final long Rle4
 ```
 
 
-RLE 4 位/像素压缩。只能与 4 位/像素位图一起使用。
+RLE 4 位/像素压缩。只能用于 4 位/像素位图。
 
 ### Bitfields {#Bitfields}
 ```
@@ -96,7 +96,7 @@ public static final long Bitfields
 ```
 
 
-RGB 位字段。只能与 16 位和 32 位/像素位图一起使用。
+RGB 位字段。只能用于 16 位和 32 位/像素位图。
 
 ### Jpeg {#Jpeg}
 ```
@@ -120,7 +120,7 @@ public static final long AlphaBitfields
 ```
 
 
-RGBA 位字段。只能与 16 位和 32 位/像素位图一起使用。
+RGBA 位字段。只能用于 16 位和 32 位/像素位图。
 
 ### Dxt1 {#Dxt1}
 ```

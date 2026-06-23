@@ -1,6 +1,6 @@
 ---
 title: "字体"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 字体。"
 type: docs
 weight: 10
@@ -86,7 +86,7 @@ public void setChildFontFiles(String[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] |  |
+| 值 | java.lang.String[] |  |
 
 ### isComposite() {#isComposite--}
 ```
@@ -96,7 +96,7 @@ public boolean isComposite()
 
 获取或设置指示此字体是否为复合字体的值。
 
-值：如果此字体是复合字体，则为 `true`；否则为 `false`。
+值：如果此字体是复合的，则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -108,12 +108,12 @@ public void setComposite(boolean value)
 
 获取或设置指示此字体是否为复合字体的值。
 
-值：如果此字体是复合字体，则为 `true`；否则为 `false`。
+值：如果此字体是复合的，则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getFontFace() {#getFontFace--}
 ```
@@ -140,7 +140,7 @@ public void setFontFace(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getFontFamily() {#getFontFamily--}
 ```
@@ -150,7 +150,7 @@ public String getFontFamily()
 
 获取或设置字体族。
 
-值：字体族。
+值：字体系列。
 
 **Returns:**
 java.lang.String
@@ -162,12 +162,12 @@ public void setFontFamily(String value)
 
 获取或设置字体族。
 
-值：字体族。
+值：字体系列。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getFontFileName() {#getFontFileName--}
 ```
@@ -194,7 +194,7 @@ public void setFontFileName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getFontName() {#getFontName--}
 ```
@@ -221,7 +221,7 @@ public void setFontName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getFontType() {#getFontType--}
 ```
@@ -248,7 +248,7 @@ TrueType、Type 1、Open Type 等。值：字体类型。
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -258,7 +258,7 @@ public String getVersion()
 
 获取或设置字体版本。
 
-/version 用于 Type1 字体，nameId 5 用于 Apple True Type 和 OpenType，/CIDFontVersion 用于 CID 字体，位图字体使用空字符串。值：字体版本。
+/version 用于 Type1 字体，nameId 5 用于 Apple True Type 和 OpenType，/CIDFontVersion 用于 CID 字体，位图字体为空字符串。值：字体版本。
 
 **Returns:**
 java.lang.String
@@ -270,12 +270,12 @@ public void setVersion(String value)
 
 获取或设置字体版本。
 
-/version 用于 Type1 字体，nameId 5 用于 Apple True Type 和 OpenType，/CIDFontVersion 用于 CID 字体，位图字体使用空字符串。值：字体版本。
+/version 用于 Type1 字体，nameId 5 用于 Apple True Type 和 OpenType，/CIDFontVersion 用于 CID 字体，位图字体为空字符串。值：字体版本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

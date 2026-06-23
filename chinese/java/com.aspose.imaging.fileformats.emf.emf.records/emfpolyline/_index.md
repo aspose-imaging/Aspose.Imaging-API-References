@@ -1,6 +1,6 @@
 ---
 title: "EmfPolyline"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_POLYLINE 记录通过连接指定数组中的点来指定一系列线段。"
 type: docs
 weight: 101
@@ -30,7 +30,7 @@ public EmfPolyline(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPolyline() {#EmfPolyline--}
 ```

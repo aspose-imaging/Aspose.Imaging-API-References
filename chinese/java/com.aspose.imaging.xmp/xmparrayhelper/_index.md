@@ -1,7 +1,7 @@
 ---
 title: "XmpArrayHelper"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于处理 RDF 逻辑的帮助类。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于处理 RDF 逻辑的辅助类"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.xmp/xmparrayhelper/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class XmpArrayHelper
 ```
 
-用于处理 RDF 逻辑的帮助类。
+用于处理 RDF 逻辑的辅助类
 ## 方法
 
 | 方法 | 描述 |

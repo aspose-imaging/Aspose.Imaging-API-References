@@ -1,7 +1,7 @@
 ---
 title: "ImageAttributes"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "com.aspose.imaging.ImageAttributes 对象包含有关在渲染过程中如何操作位图和元文件颜色的信息。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "com.aspose.imaging.ImageAttributes 对象包含有关在渲染期间如何操作位图和元文件颜色的信息。"
 type: docs
 weight: 57
 url: /zh/java/com.aspose.imaging/imageattributes/
@@ -36,8 +36,8 @@ public final class ImageAttributes
 | [clearThreshold(int type)](#clearThreshold-int-) | 清除指定类别的阈值。 |
 | [setGamma(float gamma)](#setGamma-float-) | 为默认类别设置伽马值。 |
 | [setGamma(float gamma, int type)](#setGamma-float-int-) | 为指定类别设置伽马值。 |
-| [clearGamma()](#clearGamma--) | 禁用默认类别的伽马校正。 |
-| [clearGamma(int type)](#clearGamma-int-) | 禁用指定类别的伽马校正。 |
+| [clearGamma()](#clearGamma--) | 为默认类别禁用伽马校正。 |
+| [clearGamma(int type)](#clearGamma-int-) | 为指定类别禁用伽马校正。 |
 | [setNoOp()](#setNoOp--) | 关闭默认类别的颜色调整。 |
 | [setNoOp(int type)](#setNoOp-int-) | 关闭指定类别的颜色调整。 |
 | [clearNoOp()](#clearNoOp--) | 清除默认类别的 NoOp 设置。 |
@@ -47,22 +47,22 @@ public final class ImageAttributes
 | [clearColorKey()](#clearColorKey--) | 清除默认类别的颜色键（透明度范围）。 |
 | [clearColorKey(int type)](#clearColorKey-int-) | 清除指定类别的颜色键（透明度范围）。 |
 | [setOutputChannel(int flags)](#setOutputChannel-int-) | 为默认类别设置 CMYK（青-品红-黄-黑）输出通道。 |
-| [setOutputChannel(int flags, int type)](#setOutputChannel-int-int-) | 为指定的类别设置 CMYK（青-品红-黄-黑）输出通道。 |
-| [clearOutputChannel()](#clearOutputChannel--) | 清除默认类别的 CMYK（青-品红-黄-黑）输出通道设置。 |
-| [clearOutputChannel(int type)](#clearOutputChannel-int-) | 清除指定类别的（青-品红-黄-黑）输出通道设置。 |
+| [setOutputChannel(int flags, int type)](#setOutputChannel-int-int-) | 为指定类别设置 CMYK（青-品-黄-黑）输出通道。 |
+| [clearOutputChannel()](#clearOutputChannel--) | 清除默认类别的 CMYK（青-品-黄-黑）输出通道设置。 |
+| [clearOutputChannel(int type)](#clearOutputChannel-int-) | 清除指定类别的（青-品-黄-黑）输出通道设置。 |
 | [setOutputChannelColorProfile(String colorProfileFilename)](#setOutputChannelColorProfile-java.lang.String-) | 为默认类别设置输出通道的颜色配置文件。 |
-| [setOutputChannelColorProfile(String colorProfileFilename, int type)](#setOutputChannelColorProfile-java.lang.String-int-) | 为指定的类别设置输出通道的颜色配置文件。 |
+| [setOutputChannelColorProfile(String colorProfileFilename, int type)](#setOutputChannelColorProfile-java.lang.String-int-) | 为指定类别设置输出通道的颜色配置文件。 |
 | [clearOutputChannelColorProfile()](#clearOutputChannelColorProfile--) | 清除默认类别的输出通道颜色配置设置。 |
 | [clearOutputChannelColorProfile(int type)](#clearOutputChannelColorProfile-int-) | 清除指定类别的输出通道颜色配置设置。 |
 | [setRemapTable(ColorMap[] map)](#setRemapTable-com.aspose.imaging.ColorMap---) | 为默认类别设置颜色重新映射表。 |
-| [setRemapTable(ColorMap[] map, int type)](#setRemapTable-com.aspose.imaging.ColorMap---int-) | 为指定的类别设置颜色重新映射表。 |
+| [setRemapTable(ColorMap[] map, int type)](#setRemapTable-com.aspose.imaging.ColorMap---int-) | 为指定类别设置颜色重新映射表。 |
 | [clearRemapTable()](#clearRemapTable--) | 清除默认类别的颜色重新映射表。 |
 | [clearRemapTable(int type)](#clearRemapTable-int-) | 清除指定类别的颜色重新映射表。 |
 | [setBrushRemapTable(ColorMap[] map)](#setBrushRemapTable-com.aspose.imaging.ColorMap---) | 为画笔类别设置颜色重新映射表。 |
 | [clearBrushRemapTable()](#clearBrushRemapTable--) | 清除此 `com.aspose.imaging.ImageAttributes` 对象的画笔颜色重新映射表。 |
-| [setWrapMode(int mode)](#setWrapMode-int-) | 设置用于决定如何在形状上或形状边界处平铺纹理的包装模式。 |
-| [setWrapMode(int mode, Color color)](#setWrapMode-int-com.aspose.imaging.Color-) | 设置用于决定如何在形状上或形状边界处平铺纹理的包装模式和颜色。 |
-| [setWrapMode(int mode, Color color, boolean clamp)](#setWrapMode-int-com.aspose.imaging.Color-boolean-) | 设置用于决定如何在形状上或形状边界处平铺纹理的包装模式和颜色。 |
+| [setWrapMode(int mode)](#setWrapMode-int-) | 设置用于决定如何在形状上或形状边界处平铺纹理的包裹模式。 |
+| [setWrapMode(int mode, Color color)](#setWrapMode-int-com.aspose.imaging.Color-) | 设置用于决定如何在形状上或形状边界处平铺纹理的包裹模式和颜色。 |
+| [setWrapMode(int mode, Color color, boolean clamp)](#setWrapMode-int-com.aspose.imaging.Color-boolean-) | 设置用于决定如何在形状上或形状边界处平铺纹理的包裹模式和颜色。 |
 | [equals(Object o)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
 ### ImageAttributes() {#ImageAttributes--}
@@ -98,7 +98,7 @@ public void setColorMatrix(ColorMatrix newColorMatrix, int flags)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | 颜色调整矩阵。 |
-| 标志 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整矩阵影响的图像类型和颜色。 |
+| 标志 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整矩阵影响的图像和颜色类型。 |
 
 ### setColorMatrix(ColorMatrix newColorMatrix, int mode, int type) {#setColorMatrix-com.aspose.imaging.ColorMatrix-int-int-}
 ```
@@ -112,8 +112,8 @@ public void setColorMatrix(ColorMatrix newColorMatrix, int mode, int type)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | 颜色调整矩阵。 |
-| 模式 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整矩阵影响的图像类型和颜色。 |
-| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定设置颜色调整矩阵的类别。 |
+| 模式 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整矩阵影响的图像和颜色类型。 |
+| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定为其设置颜色调整矩阵的类别。 |
 
 ### clearColorMatrix() {#clearColorMatrix--}
 ```
@@ -134,7 +134,7 @@ public void clearColorMatrix(int type)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定清除颜色调整矩阵的类别。 |
+| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定为其清除颜色调整矩阵的类别。 |
 
 ### setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix) {#setColorMatrices-com.aspose.imaging.ColorMatrix-com.aspose.imaging.ColorMatrix-}
 ```
@@ -163,7 +163,7 @@ public void setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | 颜色调整矩阵。 |
 | grayMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | 灰度调整矩阵。 |
-| 标志 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整和灰度调整矩阵影响的图像类型和颜色。 |
+| 标志 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整和灰度调整矩阵影响的图像和颜色类型。 |
 
 ### setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix, int mode, int type) {#setColorMatrices-com.aspose.imaging.ColorMatrix-com.aspose.imaging.ColorMatrix-int-int-}
 ```
@@ -178,8 +178,8 @@ public void setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | 颜色调整矩阵。 |
 | grayMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | 灰度调整矩阵。 |
-| 模式 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整和灰度调整矩阵影响的图像类型和颜色。 |
-| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定设置颜色调整和灰度调整矩阵的类别。 |
+| 模式 | int | `Aspose.Imaging.ColorMatrixFlag` 的一个元素，指定将受到颜色调整和灰度调整矩阵影响的图像和颜色类型。 |
+| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定为其设置颜色调整和灰度调整矩阵的类别。 |
 
 ### setThreshold(float threshold) {#setThreshold-float-}
 ```
@@ -262,7 +262,7 @@ public void clearGamma()
 ```
 
 
-禁用默认类别的伽马校正。
+为默认类别禁用伽马校正。
 
 ### clearGamma(int type) {#clearGamma-int-}
 ```
@@ -270,7 +270,7 @@ public void clearGamma(int type)
 ```
 
 
-禁用指定类别的伽马校正。
+为指定类别禁用伽马校正。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -330,8 +330,8 @@ public void setColorKey(Color colorLow, Color colorHigh)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| colorLow | [Color](../../com.aspose.imaging/color) | 低颜色键值。 |
-| colorHigh | [Color](../../com.aspose.imaging/color) | 高颜色键值。 |
+| colorLow | [Color](../../com.aspose.imaging/color) | 低色键值。 |
+| colorHigh | [Color](../../com.aspose.imaging/color) | 高色键值。 |
 
 ### setColorKey(Color colorLow, Color colorHigh, int type) {#setColorKey-com.aspose.imaging.Color-com.aspose.imaging.Color-int-}
 ```
@@ -344,9 +344,9 @@ public void setColorKey(Color colorLow, Color colorHigh, int type)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| colorLow | [Color](../../com.aspose.imaging/color) | 低颜色键值。 |
-| colorHigh | [Color](../../com.aspose.imaging/color) | 高颜色键值。 |
-| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定设置颜色键的类别。 |
+| colorLow | [Color](../../com.aspose.imaging/color) | 低色键值。 |
+| colorHigh | [Color](../../com.aspose.imaging/color) | 高色键值。 |
+| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定设置色键的类别。 |
 
 ### clearColorKey() {#clearColorKey--}
 ```
@@ -367,7 +367,7 @@ public void clearColorKey(int type)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定清除颜色键的类别。 |
+| 类型 | int | `Aspose.Imaging.ColorAdjustType` 的一个元素，指定清除色键的类别。 |
 
 ### setOutputChannel(int flags) {#setOutputChannel-int-}
 ```
@@ -388,7 +388,7 @@ public void setOutputChannel(int flags, int type)
 ```
 
 
-为指定的类别设置 CMYK（青-品红-黄-黑）输出通道。
+为指定类别设置 CMYK（青-品-黄-黑）输出通道。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -402,7 +402,7 @@ public void clearOutputChannel()
 ```
 
 
-清除默认类别的 CMYK（青-品红-黄-黑）输出通道设置。
+清除默认类别的 CMYK（青-品-黄-黑）输出通道设置。
 
 ### clearOutputChannel(int type) {#clearOutputChannel-int-}
 ```
@@ -410,7 +410,7 @@ public void clearOutputChannel(int type)
 ```
 
 
-清除指定类别的（青-品红-黄-黑）输出通道设置。
+清除指定类别的（青-品-黄-黑）输出通道设置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -436,7 +436,7 @@ public void setOutputChannelColorProfile(String colorProfileFilename, int type)
 ```
 
 
-为指定的类别设置输出通道的颜色配置文件。
+为指定类别设置输出通道的颜色配置文件。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -484,7 +484,7 @@ public void setRemapTable(ColorMap[] map, int type)
 ```
 
 
-为指定的类别设置颜色重新映射表。
+为指定类别设置颜色重新映射表。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -540,7 +540,7 @@ public void setWrapMode(int mode)
 ```
 
 
-设置用于决定如何在形状上或形状边界处平铺纹理的包裹模式。当纹理小于要填充的形状时，纹理会在形状上平铺以填充它。
+设置用于决定如何在形状上或形状边界处平铺纹理的包装模式。当纹理小于要填充的形状时，纹理会在形状上平铺以填充。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -553,13 +553,13 @@ public void setWrapMode(int mode, Color color)
 ```
 
 
-设置用于决定如何在形状上或形状边界平铺纹理的包裹模式和颜色。当纹理小于要填充的形状时，纹理会在形状上平铺以填充它。
+设置用于决定如何在形状上或形状边界平铺纹理的包装模式和颜色。当纹理小于要填充的形状时，纹理会在形状上平铺以填充它。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 模式 | int | `Aspose.Imaging.WrapMode` 的一个元素，指定如何使用图像的重复副本来平铺区域。 |
-| color | [Color](../../com.aspose.imaging/color) | `com.aspose.imaging.ImageAttributes` 对象，用于指定渲染图像之外像素的颜色。如果模式参数设置为 `WrapMode.Clamp` 且传递给 DrawImage 的源矩形大于图像本身，则此颜色可见。 |
+| color | [Color](../../com.aspose.imaging/color) | `com.aspose.imaging.ImageAttributes` 对象，指定渲染图像之外像素的颜色。如果模式参数设置为 `WrapMode.Clamp` 且传递给 DrawImage 的源矩形大于图像本身，则此颜色可见。 |
 
 ### setWrapMode(int mode, Color color, boolean clamp) {#setWrapMode-int-com.aspose.imaging.Color-boolean-}
 ```
@@ -567,13 +567,13 @@ public void setWrapMode(int mode, Color color, boolean clamp)
 ```
 
 
-设置用于决定如何在形状上或形状边界平铺纹理的包裹模式和颜色。当纹理小于要填充的形状时，纹理会在形状上平铺以填充它。
+设置用于决定如何在形状上或形状边界平铺纹理的包装模式和颜色。当纹理小于要填充的形状时，纹理会在形状上平铺以填充它。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 模式 | int | `Aspose.Imaging.WrapMode` 的一个元素，指定如何使用图像的重复副本来平铺区域。 |
-| color | [Color](../../com.aspose.imaging/color) | 颜色对象，用于指定渲染图像之外像素的颜色。如果模式参数设置为 `WrapMode.Clamp` 且传递给 DrawImage 的源矩形大于图像本身，则此颜色可见。 |
+| color | [Color](../../com.aspose.imaging/color) | 颜色对象，指定渲染图像之外像素的颜色。如果模式参数设置为 `WrapMode.Clamp` 且传递给 DrawImage 的源矩形大于图像本身，则此颜色可见。 |
 | 夹紧 | boolean | 此参数无效。将其设为 false。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}

@@ -1,6 +1,6 @@
 ---
 title: "TiffTags"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "tiff 标记枚举。"
 type: docs
 weight: 25
@@ -18,44 +18,44 @@ tiff 标记枚举。
 | 字段 | 描述 |
 | --- | --- |
 | [SubFileType](#SubFileType) | 子文件数据描述符。 |
-| [OsubfileType](#OsubfileType) | [已被 TIFF 版本淘汰。 |
+| [OsubfileType](#OsubfileType) | [已被 TIFF rev. 弃用。 |
 | [ImageWidth](#ImageWidth) | 图像宽度（像素）。 |
 | [ImageLength](#ImageLength) | 图像高度（像素）。 |
 | [BitsPerSample](#BitsPerSample) | 每通道位数（样本）。 |
 | [Compression](#Compression) | 数据压缩技术。 |
 | [Photometric](#Photometric) | 光度解释。 |
-| [Thresholding](#Thresholding) | [已被 TIFF 版本淘汰。 |
-| [CellWidth](#CellWidth) | [已被 TIFF 版本淘汰。 |
-| [CellLength](#CellLength) | [已被 TIFF 版本淘汰。 |
+| [Thresholding](#Thresholding) | [已被 TIFF rev. 弃用。 |
+| [CellWidth](#CellWidth) | [已被 TIFF rev. 弃用。 |
+| [CellLength](#CellLength) | [已被 TIFF rev. 弃用。 |
 | [FillOrder](#FillOrder) | 字节内的数据顺序。 |
-| [DocumentName](#DocumentName) | 保存图像的文档名称。 |
-| [ImageDescription](#ImageDescription) | 关于图像的信息。 |
+| [DocumentName](#DocumentName) | 图像所属文档的名称。 |
+| [ImageDescription](#ImageDescription) | 图像信息。 |
 | [Make](#Make) | 扫描仪制造商名称。 |
 | [Model](#Model) | 扫描仪型号名称/编号。 |
 | [StripOffsets](#StripOffsets) | 数据条带的偏移量。 |
-| [Orientation](#Orientation) | [已被 TIFF 版本淘汰。 |
+| [Orientation](#Orientation) | [已被 TIFF rev. 弃用。 |
 | [SamplesPerPixel](#SamplesPerPixel) | 每像素样本数。 |
 | [RowsPerStrip](#RowsPerStrip) | 每条数据的行数。 |
 | [StripByteCounts](#StripByteCounts) | 条带的字节计数。 |
-| [MinSampleValue](#MinSampleValue) | [已被 TIFF 版本淘汰。 |
-| [MaxSampleValue](#MaxSampleValue) | [已被 TIFF 版本淘汰。 |
+| [MinSampleValue](#MinSampleValue) | [已被 TIFF rev. 弃用。 |
+| [MaxSampleValue](#MaxSampleValue) | [已被 TIFF rev. 弃用。 |
 | [Xresolution](#Xresolution) | X 方向像素/分辨率。 |
 | [Yresolution](#Yresolution) | Y 方向像素/分辨率。 |
 | [PlanarConfig](#PlanarConfig) | 存储组织。 |
 | [PageName](#PageName) | 图像来源的页面名称。 |
 | [Xposition](#Xposition) | 图像左侧的 X 页面偏移。 |
 | [Yposition](#Yposition) | 图像左侧的 Y 页面偏移。 |
-| [FreeOffsets](#FreeOffsets) | [已被 TIFF 版本淘汰。 |
-| [FreeByteCounts](#FreeByteCounts) | [已被 TIFF 版本淘汰。 |
-| [GrayResponseUnit](#GrayResponseUnit) | [已被 TIFF 版本淘汰。 |
-| [GrayResponseCurve](#GrayResponseCurve) | [已被 TIFF 版本淘汰。 |
-| [T4Options](#T4Options) | TIFF 6.0 正式名称别名为 GROUP3OPTIONS。 |
-| [T6Options](#T6Options) | CCITT 第四组传真编码的选项。 |
+| [FreeOffsets](#FreeOffsets) | [已被 TIFF rev. 弃用。 |
+| [FreeByteCounts](#FreeByteCounts) | [已被 TIFF rev. 弃用。 |
+| [GrayResponseUnit](#GrayResponseUnit) | [已被 TIFF rev. 弃用。 |
+| [GrayResponseCurve](#GrayResponseCurve) | [已被 TIFF rev. 弃用。 |
+| [T4Options](#T4Options) | TIFF 6.0 的正式名称别名为 GROUP3OPTIONS。 |
+| [T6Options](#T6Options) | CCITT Group 4 传真编码的选项。 |
 | [ResolutionUnit](#ResolutionUnit) | 分辨率的单位。 |
-| [PageNumber](#PageNumber) | 多页的页面编号。 |
-| [ColorResponseUnit](#ColorResponseUnit) | [已被 TIFF 版本淘汰。 |
+| [PageNumber](#PageNumber) | 多页文档的页码。 |
+| [ColorResponseUnit](#ColorResponseUnit) | [已被 TIFF rev. 弃用。 |
 | [TransferFunction](#TransferFunction) | 色度信息。 |
-| [Software](#Software) | 名称和版本。 |
+| [Software](#Software) | 名称和发行版。 |
 | [DateTime](#DateTime) | 创建日期和时间。 |
 | [Artist](#Artist) | 图像创建者。 |
 | [HostComputer](#HostComputer) | 创建所在的机器。 |
@@ -63,7 +63,7 @@ tiff 标记枚举。
 | [WhitePoint](#WhitePoint) | 图像白点。 |
 | [PrimaryChromaticities](#PrimaryChromaticities) | 主色度。 |
 | [ColorMap](#ColorMap) | 调色板图像的 RGB 映射。 |
-| [HalftoneHints](#HalftoneHints) | 高光和阴影信息。 |
+| [HalftoneHints](#HalftoneHints) | 高光 + 阴影信息。 |
 | [TileWidth](#TileWidth) | 瓦片宽度（像素）。 |
 | [TileLength](#TileLength) | 瓦片高度（像素）。 |
 | [TileOffsets](#TileOffsets) | 数据瓦片的偏移量。 |
@@ -73,31 +73,31 @@ tiff 标记枚举。
 | [ConsecutiveBadFaxLines](#ConsecutiveBadFaxLines) | 最大连续错误行数。 |
 | [SubIfd](#SubIfd) | 子图像描述符。 |
 | [InkSet](#InkSet) | 分离图像中的墨水。 |
-| [InkNames](#InkNames) | 墨水的 ASCII 名称。 |
-| [NumberOfInks](#NumberOfInks) | 墨水数量。 |
-| [DotRange](#DotRange) | 0% 和 100% 点代码。 |
-| [TargetPrinter](#TargetPrinter) | 分离目标。 |
-| [ExtraSamples](#ExtraSamples) | 关于额外样本的信息。 |
-| [SampleFormat](#SampleFormat) | 数据样本格式。 |
-| [SminSampleValue](#SminSampleValue) | 变量 MinSampleValue。 |
-| [SmaxSampleValue](#SmaxSampleValue) | 变量 MaxSampleValue。 |
+| [InkNames](#InkNames) | 墨水的 ASCII 名称. |
+| [NumberOfInks](#NumberOfInks) | 墨水数量. |
+| [DotRange](#DotRange) | 0% 和 100% 点码. |
+| [TargetPrinter](#TargetPrinter) | 分离目标. |
+| [ExtraSamples](#ExtraSamples) | 关于额外样本的信息. |
+| [SampleFormat](#SampleFormat) | 数据样本格式. |
+| [SminSampleValue](#SminSampleValue) | 变量 MinSampleValue. |
+| [SmaxSampleValue](#SmaxSampleValue) | 变量 MaxSampleValue. |
 | [TransferRange](#TransferRange) | 变量 TransferRange |
 | [ClipPath](#ClipPath) | ClipPath. |
 | [Xclippathunits](#Xclippathunits) | XClipPathUnits. |
 | [Yclippathunits](#Yclippathunits) | YClipPathUnits. |
-| [Indexed](#Indexed) | 已索引。 |
-| [JpegTables](#JpegTables) | JPEG 表流。 |
-| [OpiProxy](#OpiProxy) | OPI 代理。 |
-| [JpegProc](#JpegProc) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] JPEG 处理算法。 |
-| [JpegInerchangeFormat](#JpegInerchangeFormat) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] 指向 SOI 标记。 |
-| [JpegInterchangeFormatLength](#JpegInterchangeFormatLength) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] JFIF 流长度 |
-| [JpegRestartInterval](#JpegRestartInterval) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] 重启间隔长度。 |
-| [JpegLosslessPredictors](#JpegLosslessPredictors) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] 无损 proc 预测器。 |
-| [JpegPointTransform](#JpegPointTransform) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] 无损点变换。 |
-| [JpegQTables](#JpegQTables) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] Q 矩阵偏移。 |
-| [JpegDCtables](#JpegDCtables) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] DCT 表偏移。 |
-| [JpegACtables](#JpegACtables) | [已被技术说明 \#2 废弃，且该说明指定了修订后的 JPEG-in-TIFF 方案] AC 系数偏移。 |
-| [YcbcrCoefficients](#YcbcrCoefficients) | RGB -> YCbCr 变换。 |
+| [Indexed](#Indexed) | 已索引. |
+| [JpegTables](#JpegTables) | JPEG 表流. |
+| [OpiProxy](#OpiProxy) | OPI 代理. |
+| [JpegProc](#JpegProc) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] JPEG 处理算法. |
+| [JpegInerchangeFormat](#JpegInerchangeFormat) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] 指向 SOI 标记的指针. |
+| [JpegInterchangeFormatLength](#JpegInterchangeFormatLength) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] JFIF 流长度 |
+| [JpegRestartInterval](#JpegRestartInterval) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] 重启间隔长度. |
+| [JpegLosslessPredictors](#JpegLosslessPredictors) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] 无损处理预测器. |
+| [JpegPointTransform](#JpegPointTransform) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] 无损点变换. |
+| [JpegQTables](#JpegQTables) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] Q 矩阵偏移. |
+| [JpegDCtables](#JpegDCtables) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] DCT 表偏移. |
+| [JpegACtables](#JpegACtables) | [obsoleted by Technical Note \#2 which specifies a revised JPEG-in-TIFF scheme] AC 系数偏移. |
+| [YcbcrCoefficients](#YcbcrCoefficients) | RGB -> YCbCr 变换. |
 | [YcbcrSubSampling](#YcbcrSubSampling) | YCbCr 子采样因子。 |
 | [YcbcrPositioning](#YcbcrPositioning) | 子采样定位。 |
 | [ReferenceBlackWhite](#ReferenceBlackWhite) | 色度信息。 |
@@ -109,10 +109,10 @@ tiff 标记枚举。
 | [IccProfile](#IccProfile) | 嵌入的 ICC 设备配置文件 |
 | [ExifIfdPointer](#ExifIfdPointer) | 指向 Exif IFD 的指针。 |
 | [XPTitle](#XPTitle) | 关于图像的信息，供 Windows Explorer 使用。 |
-| [XPComment](#XPComment) | 关于图像的注释，供 Windows Explorer 使用。 |
+| [XPComment](#XPComment) | 图像注释，供 Windows Explorer 使用。 |
 | [XPAuthor](#XPAuthor) | 图像作者，供 Windows Explorer 使用。 |
 | [XPKeywords](#XPKeywords) | 图像关键字，供 Windows Explorer 使用。 |
-| [XPSubject](#XPSubject) | 图像主题，供 Windows Explorer 使用。 |
+| [XPSubject](#XPSubject) | 主题图像，供 Windows Explorer 使用。 |
 ### SubFileType {#SubFileType}
 ```
 public static final int SubFileType
@@ -207,7 +207,7 @@ public static final int DocumentName
 ```
 
 
-保存图像的文档名称。
+图像所属文档的名称。
 
 ### ImageDescription {#ImageDescription}
 ```
@@ -215,7 +215,7 @@ public static final int ImageDescription
 ```
 
 
-关于图像的信息。
+图像信息。
 
 ### Make {#Make}
 ```
@@ -375,7 +375,7 @@ public static final int T4Options
 ```
 
 
-TIFF 6.0 正式名称别名为 GROUP3OPTIONS。CCITT 第 3 组传真编码的选项。32 位标志位。
+TIFF 6.0 正式名称别名为 GROUP3OPTIONS。CCITT Group 3 传真编码的选项。32 位标志位。
 
 ### T6Options {#T6Options}
 ```
@@ -383,7 +383,7 @@ public static final int T6Options
 ```
 
 
-CCITT 第 4 组传真编码的选项。32 位标志位。TIFF 6.0 正式名称别名为 GROUP4OPTIONS。
+CCITT Group 4 传真编码的选项。32 位标志位。TIFF 6.0 正式名称别名为 GROUP4OPTIONS。
 
 ### ResolutionUnit {#ResolutionUnit}
 ```
@@ -399,7 +399,7 @@ public static final int PageNumber
 ```
 
 
-多页的页面编号。
+多页文档的页码。
 
 ### ColorResponseUnit {#ColorResponseUnit}
 ```
@@ -423,7 +423,7 @@ public static final int Software
 ```
 
 
-名称和版本。
+名称和发行版。
 
 ### DateTime {#DateTime}
 ```
@@ -487,7 +487,7 @@ public static final int HalftoneHints
 ```
 
 
-高光和阴影信息。
+高光 + 阴影信息。
 
 ### TileWidth {#TileWidth}
 ```
@@ -567,7 +567,7 @@ public static final int InkNames
 ```
 
 
-墨水的 ASCII 名称。
+墨水的 ASCII 名称.
 
 ### NumberOfInks {#NumberOfInks}
 ```
@@ -575,7 +575,7 @@ public static final int NumberOfInks
 ```
 
 
-墨水数量。
+墨水数量.
 
 ### DotRange {#DotRange}
 ```
@@ -583,7 +583,7 @@ public static final int DotRange
 ```
 
 
-0% 和 100% 点代码。
+0% 和 100% 点码.
 
 ### TargetPrinter {#TargetPrinter}
 ```
@@ -591,7 +591,7 @@ public static final int TargetPrinter
 ```
 
 
-分离目标。
+分离目标.
 
 ### ExtraSamples {#ExtraSamples}
 ```
@@ -599,7 +599,7 @@ public static final int ExtraSamples
 ```
 
 
-关于额外样本的信息。
+关于额外样本的信息.
 
 ### SampleFormat {#SampleFormat}
 ```
@@ -607,7 +607,7 @@ public static final int SampleFormat
 ```
 
 
-数据样本格式。
+数据样本格式.
 
 ### SminSampleValue {#SminSampleValue}
 ```
@@ -615,7 +615,7 @@ public static final int SminSampleValue
 ```
 
 
-变量 MinSampleValue。
+变量 MinSampleValue.
 
 ### SmaxSampleValue {#SmaxSampleValue}
 ```
@@ -623,7 +623,7 @@ public static final int SmaxSampleValue
 ```
 
 
-变量 MaxSampleValue。
+变量 MaxSampleValue.
 
 ### TransferRange {#TransferRange}
 ```
@@ -639,7 +639,7 @@ public static final int ClipPath
 ```
 
 
-ClipPath。由 Adobe TIFF 技术说明 2 在 TIFF 6.0 之后引入。
+ClipPath。由 Adobe TIFF technote 2 在 TIFF rev 6.0 之后引入。
 
 ### Xclippathunits {#Xclippathunits}
 ```
@@ -647,7 +647,7 @@ public static final int Xclippathunits
 ```
 
 
-XClipPathUnits。由 Adobe TIFF 技术说明 2 在 TIFF 6.0 之后引入。
+XClipPathUnits。由 Adobe TIFF technote 2 在 TIFF rev 6.0 之后引入。
 
 ### Yclippathunits {#Yclippathunits}
 ```
@@ -655,7 +655,7 @@ public static final int Yclippathunits
 ```
 
 
-YClipPathUnits。由 Adobe TIFF 技术说明 2 在 TIFF 6.0 之后引入。
+YClipPathUnits。由 Adobe TIFF technote 2 在 TIFF rev 6.0 之后引入。
 
 ### Indexed {#Indexed}
 ```
@@ -663,7 +663,7 @@ public static final int Indexed
 ```
 
 
-Indexed。由 Adobe TIFF 技术说明 3 在 TIFF 6.0 之后引入。
+Indexed。由 Adobe TIFF Technote 3 在 TIFF rev 6.0 之后引入。
 
 ### JpegTables {#JpegTables}
 ```
@@ -671,7 +671,7 @@ public static final int JpegTables
 ```
 
 
-JPEG 表流。于 TIFF 6.0 之后引入。
+JPEG 表流。于 TIFF rev 6.0 之后引入。
 
 ### OpiProxy {#OpiProxy}
 ```
@@ -679,7 +679,7 @@ public static final int OpiProxy
 ```
 
 
-OPI Proxy。由 Adobe TIFF 技术说明在 TIFF 6.0 之后引入。
+OPI Proxy。由 Adobe TIFF technote 在 TIFF rev 6.0 之后引入。
 
 ### JpegProc {#JpegProc}
 ```
@@ -759,7 +759,7 @@ public static final int YcbcrCoefficients
 ```
 
 
-RGB -> YCbCr 变换。
+RGB -> YCbCr 变换.
 
 ### YcbcrSubSampling {#YcbcrSubSampling}
 ```
@@ -791,7 +791,7 @@ public static final int XmlPacket
 ```
 
 
-XML 包。由 Adobe XMP 规范（2004 年 1 月）在 TIFF 6.0 之后引入。
+XML 包。由 Adobe XMP Specification（2004 年 1 月）在 TIFF rev 6.0 之后引入。
 
 ### OpiImageid {#OpiImageid}
 ```
@@ -799,7 +799,7 @@ public static final int OpiImageid
 ```
 
 
-OPI ImageID。由 Adobe TIFF 技术说明在 TIFF 6.0 之后引入。
+OPI ImageID。由 Adobe TIFF technote 在 TIFF rev 6.0 之后引入。
 
 ### Refpts {#Refpts}
 ```
@@ -807,7 +807,7 @@ public static final int Refpts
 ```
 
 
-图像参考点。已向 Island Graphics 注册的私有标签。
+图像参考点。私有标签，已注册至 Island Graphics。
 
 ### Copyright {#Copyright}
 ```
@@ -815,7 +815,7 @@ public static final int Copyright
 ```
 
 
-版权字符串。此标签在 TIFF 6.0 版中列出，所有权未知。
+版权字符串。此标签列在 TIFF rev. 6.0 中，所有权未知。
 
 ### PhotoshopResources {#PhotoshopResources}
 ```
@@ -847,7 +847,7 @@ public static final int XPTitle
 ```
 
 
-关于图像的信息，供 Windows Explorer 使用。如果存在 [ImageDescription](../../com.aspose.imaging.fileformats.tiff.enums/tifftags\#ImageDescription) 标签，Windows Explorer 将忽略 `TiffTags.XPTitle`。
+关于图像的信息，由 Windows Explorer 使用。如果存在 [ImageDescription](../../com.aspose.imaging.fileformats.tiff.enums/tifftags\#ImageDescription) 标记，Windows Explorer 将忽略 `TiffTags.XPTitle`。
 
 ### XPComment {#XPComment}
 ```
@@ -855,7 +855,7 @@ public static final int XPComment
 ```
 
 
-关于图像的注释，供 Windows Explorer 使用。
+图像注释，供 Windows Explorer 使用。
 
 ### XPAuthor {#XPAuthor}
 ```
@@ -863,7 +863,7 @@ public static final int XPAuthor
 ```
 
 
-图像作者，供 Windows Explorer 使用。如果存在 [Artist](../../com.aspose.imaging.fileformats.tiff.enums/tifftags\#Artist) 标签，Windows Explorer 将忽略 `TiffTags.XPAuthor`。
+图像作者，由 Windows Explorer 使用。如果存在 [Artist](../../com.aspose.imaging.fileformats.tiff.enums/tifftags\#Artist) 标记，Windows Explorer 将忽略 `TiffTags.XPAuthor`。
 
 ### XPKeywords {#XPKeywords}
 ```
@@ -879,5 +879,5 @@ public static final int XPSubject
 ```
 
 
-图像主题，供 Windows Explorer 使用。
+主题图像，供 Windows Explorer 使用。
 

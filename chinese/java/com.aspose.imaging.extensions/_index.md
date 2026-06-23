@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.extensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含扩展方法。"
 type: docs
 weight: 23
@@ -25,7 +25,7 @@ url: /zh/java/com.aspose.imaging.extensions/
 | [ImageExtensions](../com.aspose.imaging.extensions/imageextensions) | 包含基于 `System.Drawing.Image` 和 `Image` 的转换扩展方法。 |
 | [MatrixExtensions](../com.aspose.imaging.extensions/matrixextensions) | 包含 `Matrix` 类的扩展。 |
 | [PointExtensions](../com.aspose.imaging.extensions/pointextensions) | 包含针对 `Point` 和 `PointF` 结构的扩展方法。 |
-| [RectangleExtensions](../com.aspose.imaging.extensions/rectangleextensions) | 包含 `Rectangle` 的扩展方法。 |
-| [RegionExtensions](../com.aspose.imaging.extensions/regionextensions) | 包含 `Region` 类的扩展方法。 |
-| [RotateFlipExtensions](../com.aspose.imaging.extensions/rotateflipextensions) | 包含 `System.Drawing.RotateFlipType` 和 `RotateFlipType` 类的转换扩展方法。 |
-| [StringFormatExtensions](../com.aspose.imaging.extensions/stringformatextensions) | 包含 `StringFormat` 类的扩展方法。 |
+| [RectangleExtensions](../com.aspose.imaging.extensions/rectangleextensions) | 包含针对 `Rectangle` 的扩展方法。 |
+| [RegionExtensions](../com.aspose.imaging.extensions/regionextensions) | 包含针对 `Region` 类的扩展方法。 |
+| [RotateFlipExtensions](../com.aspose.imaging.extensions/rotateflipextensions) | 包含用于转换 `System.Drawing.RotateFlipType` 和 `RotateFlipType` 类的扩展方法。 |
+| [StringFormatExtensions](../com.aspose.imaging.extensions/stringformatextensions) | 包含针对 `StringFormat` 类的扩展方法。 |

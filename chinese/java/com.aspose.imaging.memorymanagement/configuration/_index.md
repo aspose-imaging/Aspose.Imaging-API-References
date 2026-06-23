@@ -1,6 +1,6 @@
 ---
-title: "Configuration"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "配置"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "内存管理全局配置"
 type: docs
 weight: 10
@@ -27,10 +27,10 @@ public static int getBufferSizeHint()
 
 获取缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。
 
-值：缓冲区大小提示（单位：兆字节）。非正值表示内部缓冲区没有内存限制
+值：缓冲区大小提示，单位为兆字节。非正值表示内部缓冲区没有内存限制。
 
 **Returns:**
-int - 缓冲区大小提示，定义为所有内部缓冲区的最大允许大小。
+int - 为所有内部缓冲区定义的最大允许大小的缓冲区大小提示。
 ### setBufferSizeHint(int value) {#setBufferSizeHint-int-}
 ```
 public static void setBufferSizeHint(int value)
@@ -39,10 +39,10 @@ public static void setBufferSizeHint(int value)
 
 设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。
 
-值：缓冲区大小提示（单位：兆字节）。非正值表示内部缓冲区没有内存限制
+值：缓冲区大小提示，单位为兆字节。非正值表示内部缓冲区没有内存限制。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 缓冲区大小提示，定义为所有内部缓冲区的最大允许大小。 |
+| 值 | int | 缓冲区大小提示，为所有内部缓冲区定义的最大允许大小。 |
 

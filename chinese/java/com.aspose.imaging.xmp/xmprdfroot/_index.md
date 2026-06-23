@@ -1,13 +1,13 @@
 ---
 title: "XmpRdfRoot"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 rdfRDF 元素。"
 type: docs
 weight: 22
 url: /zh/java/com.aspose.imaging.xmp/xmprdfroot/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.xmp.XmpElementBase](../../com.aspose.imaging/xmp/xmpelementbase)
+java.lang.Object, [com.aspose.imaging.xmp.XmpElementBase](../../com.aspose.imaging.xmp/xmpelementbase)
 
 **All Implemented Interfaces:**
 [com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue)
@@ -25,7 +25,7 @@ public final class XmpRdfRoot extends XmpElementBase implements IXmlValue
 
 | 方法 | 描述 |
 | --- | --- |
-| [registerNamespaceUri(String prefix, String namespaceUri)](#registerNamespaceUri-java.lang.String-java.lang.String-) | 通过前缀添加命名空间 URI。 |
+| [registerNamespaceUri(String prefix, String namespaceUri)](#registerNamespaceUri-java.lang.String-java.lang.String-) | 通过前缀添加命名空间 uri。 |
 | [getNamespaceUri(String prefix)](#getNamespaceUri-java.lang.String-) | 通过特定前缀获取命名空间 URI。 |
 | [getXmlValue()](#getXmlValue--) | 将 xmp 值转换为 xml 表示形式。 |
 ### XmpRdfRoot() {#XmpRdfRoot--}
@@ -42,13 +42,13 @@ public void registerNamespaceUri(String prefix, String namespaceUri)
 ```
 
 
-通过前缀添加命名空间 URI。前缀可以不以 xmlns 开头。
+通过前缀添加命名空间 uri。前缀可以不以 xmlns 开头。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 前缀 | java.lang.String | 前缀。 |
-| namespaceUri | java.lang.String | 包模式 URI。 |
+| namespaceUri | java.lang.String | 包架构 URI。 |
 
 ### getNamespaceUri(String prefix) {#getNamespaceUri-java.lang.String-}
 ```

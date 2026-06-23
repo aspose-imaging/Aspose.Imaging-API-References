@@ -1,6 +1,6 @@
 ---
 title: "Figure"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图形。"
 type: docs
 weight: 44
@@ -22,7 +22,7 @@ public class Figure extends ObjectWithBounds
 
 | 方法 | 描述 |
 | --- | --- |
-| [getShapes()](#getShapes--) | 获取图形的形状。 |
+| [getShapes()](#getShapes--) | 获取图形形状。 |
 | [getBounds()](#getBounds--) | 获取或设置对象的边界。 |
 | [isClosed()](#isClosed--) | 获取指示此图形是否闭合的值。 |
 | [setClosed(boolean value)](#setClosed-boolean-) | 设置指示此图形是否闭合的值。 |
@@ -31,7 +31,7 @@ public class Figure extends ObjectWithBounds
 | [addShapes(Shape[] shapes)](#addShapes-com.aspose.imaging.Shape---) | 向图形添加一系列形状。 |
 | [removeShape(Shape shape)](#removeShape-com.aspose.imaging.Shape-) | 从图形中移除形状。 |
 | [removeShapes(Shape[] shapes)](#removeShapes-com.aspose.imaging.Shape---) | 从图形中移除一系列形状。 |
-| [reverse()](#reverse--) | 反转此图形的形状顺序和形状点的顺序。 |
+| [reverse()](#reverse--) | 反转此图形的形状顺序和形状点顺序。 |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | 获取对象的边界。 |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | 获取对象的边界。 |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | 对形状应用指定的变换。 |
@@ -39,7 +39,7 @@ public class Figure extends ObjectWithBounds
 | [hashCode()](#hashCode--) | 用作默认的哈希函数。 |
 
 ## Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.
-这些示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作图形。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
+此示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作 Figure。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
 ``` java
 // 创建 FileStream 的实例
 com.aspose.imaging.system.io.FileStream stream = new com.aspose.imaging.system.io.FileStream("C:\\temp\\output.tif", com.aspose.imaging.system.io.FileMode.Create);
@@ -104,10 +104,10 @@ public Shape[] getShapes()
 ```
 
 
-获取图形的形状。
+获取图形形状。
 
 **Returns:**
-com.aspose.imaging.Shape[] - 图形的形状。
+com.aspose.imaging.Shape[] - Figure 的形状。
 ### getBounds() {#getBounds--}
 ```
 public RectangleF getBounds()
@@ -124,22 +124,22 @@ public boolean isClosed()
 ```
 
 
-获取一个值，指示此图形是否闭合。闭合图形仅在首尾图形的形状是连续形状的情况下才会产生差异。在这种情况下，第一形状的起点将通过一条直线与最后形状的终点相连。
+获取一个值，指示此 Figure 是否闭合。闭合的 Figure 仅在首尾 Figure 的形状是连续形状的情况下才会产生差异。在这种情况下，首个形状的起点将通过一条直线与最后一个形状的终点相连。
 
 **Returns:**
-boolean - 如果此图形闭合则为 `True`；否则为 `false`。
+boolean - 如果此 Figure 闭合则为 `True`；否则为 `false`。
 ### setClosed(boolean value) {#setClosed-boolean-}
 ```
 public void setClosed(boolean value)
 ```
 
 
-设置一个值，指示此图形是否闭合。闭合图形仅在首尾图形的形状是连续形状的情况下才会产生差异。在这种情况下，第一形状的起点将通过一条直线与最后形状的终点相连。
+设置一个值，指示此 Figure 是否闭合。闭合的 Figure 仅在首尾 Figure 的形状是连续形状的情况下才会产生差异。在这种情况下，首个形状的起点将通过一条直线与最后一个形状的终点相连。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `True` 如果此图形闭合；否则为 `false`。 |
+| 值 | boolean | `True` 如果此 Figure 闭合；否则为 `false`。 |
 
 ### getSegments() {#getSegments--}
 ```
@@ -150,7 +150,7 @@ public ShapeSegment[] getSegments()
 获取整个图形的段。
 
 **Returns:**
-com.aspose.imaging.ShapeSegment[] - 图形的段。
+com.aspose.imaging.ShapeSegment[] - Figure 的段。
 ### addShape(Shape shape) {#addShape-com.aspose.imaging.Shape-}
 ```
 public void addShape(Shape shape)
@@ -166,7 +166,7 @@ public void addShape(Shape shape)
 
 
 **Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
-这些示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作图形。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
+此示例使用 GraphicsPath 和 Graphics 类在 Image 表面上创建和操作 Figure。示例创建一个新的 Image（类型为 Tiff），并借助 GraphicsPath 类绘制路径。最后调用 Graphics 类提供的 DrawPath 方法在表面上渲染路径。
 ``` java
 // 创建 FileStream 的实例
 com.aspose.imaging.system.io.FileStream stream = new com.aspose.imaging.system.io.FileStream("C:\\temp\\output.tif", com.aspose.imaging.system.io.FileMode.Create);
@@ -262,7 +262,7 @@ public void reverse()
 ```
 
 
-反转此图形的形状顺序和形状点的顺序。
+反转此图形的形状顺序和形状点顺序。
 
 ### getBounds(Matrix matrix) {#getBounds-com.aspose.imaging.Matrix-}
 ```
@@ -275,7 +275,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -290,8 +290,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -306,7 +306,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的转换。 |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的变换。 |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```

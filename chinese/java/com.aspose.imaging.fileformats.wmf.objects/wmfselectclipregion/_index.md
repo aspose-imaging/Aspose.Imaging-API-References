@@ -1,13 +1,13 @@
 ---
 title: "WmfSelectClipRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_SELECTCLIPREGION 记录指定第 2.2.1.5 节中的 Region 对象为当前剪裁区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_SELECTCLIPREGION 记录指定第 2.2.1.5 节中的 Region Object 为当前裁剪区域。"
 type: docs
 weight: 70
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSelectClipRegion extends WmfObject
 ```
@@ -71,5 +71,5 @@ public void setObjectIndex(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

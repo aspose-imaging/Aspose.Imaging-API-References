@@ -1,6 +1,6 @@
 ---
 title: "OdMetadata"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "开放文档的元数据"
 type: docs
 weight: 11
@@ -54,8 +54,8 @@ public class OdMetadata extends OdObject
 | [setLanguage(String value)](#setLanguage-java.lang.String-) | 获取或设置语言。 |
 | [getEditingCycles()](#getEditingCycles--) | 获取或设置编辑周期。 |
 | [setEditingCycles(String value)](#setEditingCycles-java.lang.String-) | 获取或设置编辑周期。 |
-| [getEditingDuration()](#getEditingDuration--) | 获取或设置编辑的持续时间。 |
-| [setEditingDuration(String value)](#setEditingDuration-java.lang.String-) | 获取或设置编辑的持续时间。 |
+| [getEditingDuration()](#getEditingDuration--) | 获取或设置编辑持续时间。 |
+| [setEditingDuration(String value)](#setEditingDuration-java.lang.String-) | 获取或设置编辑持续时间。 |
 | [getDocumentStatistics()](#getDocumentStatistics--) | 获取或设置文档统计信息。 |
 | [setDocumentStatistics(String value)](#setDocumentStatistics-java.lang.String-) | 获取或设置文档统计信息。 |
 ### OdMetadata(OdObject parent) {#OdMetadata-com.aspose.imaging.fileformats.opendocument.OdObject-}
@@ -69,7 +69,7 @@ public OdMetadata(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getGenerator() {#getGenerator--}
 ```
@@ -92,7 +92,7 @@ public void setGenerator(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 生成器。 |
+| 值 | java.lang.String | 生成器。 |
 
 ### getTitle() {#getTitle--}
 ```
@@ -115,7 +115,7 @@ public void setTitle(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 标题。 |
+| 值 | java.lang.String | 标题。 |
 
 ### getDescription() {#getDescription--}
 ```
@@ -138,7 +138,7 @@ public void setDescription(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 描述。 |
+| 值 | java.lang.String | 描述。 |
 
 ### getSubject() {#getSubject--}
 ```
@@ -161,7 +161,7 @@ public void setSubject(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 主题。 |
+| 值 | java.lang.String | 主题。 |
 
 ### getKeywords() {#getKeywords--}
 ```
@@ -184,7 +184,7 @@ public void setKeywords(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 关键字。 |
+| 值 | java.lang.String | 关键字。 |
 
 ### getInitialCreator() {#getInitialCreator--}
 ```
@@ -207,7 +207,7 @@ public void setInitialCreator(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 初始创建者。 |
+| 值 | java.lang.String | 初始创建者。 |
 
 ### getCreator() {#getCreator--}
 ```
@@ -230,7 +230,7 @@ public void setCreator(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 创建者。 |
+| 值 | java.lang.String | 创建者。 |
 
 ### getPrintedBy() {#getPrintedBy--}
 ```
@@ -253,7 +253,7 @@ public void setPrintedBy(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 打印者。 |
+| 值 | java.lang.String | 打印者。 |
 
 ### getCreationDateTime() {#getCreationDateTime--}
 ```
@@ -276,7 +276,7 @@ public void setCreationDateTime(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 创建日期时间。 |
+| 值 | java.lang.String | 创建日期时间。 |
 
 ### getModificationDateTime() {#getModificationDateTime--}
 ```
@@ -299,7 +299,7 @@ public void setModificationDateTime(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 修改日期时间。 |
+| 值 | java.lang.String | 修改日期时间。 |
 
 ### getPrintDateTime() {#getPrintDateTime--}
 ```
@@ -322,7 +322,7 @@ public void setPrintDateTime(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 打印日期时间。 |
+| 值 | java.lang.String | 打印日期时间。 |
 
 ### getDocumentTemplate() {#getDocumentTemplate--}
 ```
@@ -345,7 +345,7 @@ public void setDocumentTemplate(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档模板。 |
+| 值 | java.lang.String | 文档模板。 |
 
 ### getAutomaticReload() {#getAutomaticReload--}
 ```
@@ -368,7 +368,7 @@ public void setAutomaticReload(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 自动重新加载。 |
+| 值 | java.lang.String | 自动重新加载。 |
 
 ### getHyperlinkBehavior() {#getHyperlinkBehavior--}
 ```
@@ -391,7 +391,7 @@ public void setHyperlinkBehavior(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 超链接行为。 |
+| 值 | java.lang.String | 超链接行为。 |
 
 ### getLanguage() {#getLanguage--}
 ```
@@ -414,7 +414,7 @@ public void setLanguage(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 语言。 |
+| 值 | java.lang.String | 语言。 |
 
 ### getEditingCycles() {#getEditingCycles--}
 ```
@@ -425,7 +425,7 @@ public String getEditingCycles()
 获取或设置编辑周期。
 
 **Returns:**
-java.lang.String - 编辑周期。
+java.lang.String - 编辑循环次数。
 ### setEditingCycles(String value) {#setEditingCycles-java.lang.String-}
 ```
 public void setEditingCycles(String value)
@@ -437,7 +437,7 @@ public void setEditingCycles(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 编辑周期。 |
+| 值 | java.lang.String | 编辑循环次数。 |
 
 ### getEditingDuration() {#getEditingDuration--}
 ```
@@ -445,7 +445,7 @@ public String getEditingDuration()
 ```
 
 
-获取或设置编辑的持续时间。
+获取或设置编辑持续时间。
 
 **Returns:**
 java.lang.String - 编辑持续时间。
@@ -455,12 +455,12 @@ public void setEditingDuration(String value)
 ```
 
 
-获取或设置编辑的持续时间。
+获取或设置编辑持续时间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 编辑持续时间。 |
+| 值 | java.lang.String | 编辑持续时间。 |
 
 ### getDocumentStatistics() {#getDocumentStatistics--}
 ```
@@ -471,7 +471,7 @@ public String getDocumentStatistics()
 获取或设置文档统计信息。
 
 **Returns:**
-java.lang.String - 文档统计。
+java.lang.String - 文档统计信息。
 ### setDocumentStatistics(String value) {#setDocumentStatistics-java.lang.String-}
 ```
 public void setDocumentStatistics(String value)
@@ -483,5 +483,5 @@ public void setDocumentStatistics(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档统计。 |
+| 值 | java.lang.String | 文档统计信息。 |
 

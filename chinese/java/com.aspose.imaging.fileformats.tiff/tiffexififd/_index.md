@@ -1,6 +1,6 @@
 ---
 title: "TiffExifIfd"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "TIFF Exif 图像文件目录类。"
 type: docs
 weight: 11
@@ -14,7 +14,7 @@ public class TiffExifIfd
 
 TIFF Exif 图像文件目录类。
 
-封装指向 Exif IFD 的指针。互操作性，Exif IFD 的结构与 TIFF 中指定的 IFD 相同。然而，通常情况下，它不像 TIFF 那样包含图像数据。有关更多细节，请参阅 http://www.exiv2.org/tags.html 和 http://www.awaresystems.be/imaging/tiff/tifftags/exififd.html。
+封装指向 Exif IFD 的指针。互操作性，Exif IFD 的结构与 TIFF 中指定的 IFD 相同。然而，通常它不包含像 TIFF 那样的图像数据。更多细节请参阅 http://www.exiv2.org/tags.html 和 http://www.awaresystems.be/imaging/tiff/tifftags/exififd.html。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,7 +25,7 @@ TIFF Exif 图像文件目录类。
 
 | 方法 | 描述 |
 | --- | --- |
-| [hasValue()](#hasValue--) | 获取一个值，指示此实例是否有值。 |
+| [hasValue()](#hasValue--) | 获取一个值，指示此实例是否具有值。 |
 | [getOffset()](#getOffset--) | 获取或设置指向 EXIF IFD 的指针。 |
 | [setOffset(long value)](#setOffset-long-) | 获取或设置指向 EXIF IFD 的指针。 |
 ### TiffExifIfd() {#TiffExifIfd--}
@@ -49,7 +49,7 @@ public TiffExifIfd(long ifdOffset)
 | --- | --- | --- |
 |  | ifdOffset | long | 指向 Exif IFD 的指针。 |
 
-互操作性，Exif IFD 的结构与 TIFF 中指定的 IFD 相同。然而，通常情况下，它不像 TIFF 那样包含图像数据。 |
+互操作性，Exif IFD 的结构与 TIFF 中指定的 IFD 相同。然而，通常它不包含像 TIFF 那样的图像数据。 |
 
 ### hasValue() {#hasValue--}
 ```
@@ -57,7 +57,7 @@ public boolean hasValue()
 ```
 
 
-获取一个值，指示此实例是否有值。
+获取一个值，指示此实例是否具有值。
 
 **Returns:**
 boolean - 如果此实例有值则为 `true`；否则为 `false`。
@@ -82,5 +82,5 @@ public void setOffset(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 指向 EXIF IFD 的指针。 |
+| 值 | long | 指向 EXIF IFD 的指针。 |
 

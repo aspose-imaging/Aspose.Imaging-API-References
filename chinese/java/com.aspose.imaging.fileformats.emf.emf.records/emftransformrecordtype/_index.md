@@ -1,7 +1,7 @@
 ---
 title: "EmfTransformRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该转换记录类型指定并修改世界空间到页面空间的变换。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该转换记录类型指定并修改世界坐标到页面坐标的变换。"
 type: docs
 weight: 153
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfTransformRecordType extends EmfRecord
 ```
 
-该转换记录类型指定并修改世界空间到页面空间的变换。
+该转换记录类型指定并修改世界坐标到页面坐标的变换。
 ## 方法
 
 | 方法 | 描述 |

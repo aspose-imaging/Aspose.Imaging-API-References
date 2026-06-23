@@ -1,7 +1,7 @@
 ---
 title: "EmfSetLinkedUfis"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETLINKEDUFIS 记录设置链接字体的 UniversalFontIds（第 2.2.27 节），用于字符查找时使用。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SETLINKEDUFIS 记录设置链接字体的 UniversalFontIds（第 2.2.27 节），以在字符查找期间使用。"
 type: docs
 weight: 129
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetLinkedUfis extends EmfStateRecordType
 ```
 
-EMR\_SETLINKEDUFIS 记录设置在字符查找期间使用的已链接字体的 UniversalFontIds（第 2.2.27 节）。
+该 EMR\_SETLINKEDUFIS 记录设置在字符查找期间使用的已链接字体的 UniversalFontIds（第 2.2.27 节）。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ EMR\_SETLINKEDUFIS 记录设置在字符查找期间使用的已链接字体的 
 
 | 方法 | 描述 |
 | --- | --- |
-| [getUfis()](#getUfis--) | 获取一个由 uNumLinkedUFI 元素组成的数组，元素类型为 UniversalFontId，用于指定链接字体的标识符。 |
-| [setUfis(EmfUniversalFontId[] value)](#setUfis-com.aspose.imaging.fileformats.emf.emf.objects.EmfUniversalFontId---) | 设置一个由 uNumLinkedUFI 元素组成的数组，元素类型为 UniversalFontId，用于指定链接字体的标识符。 |
+| [getUfis()](#getUfis--) | 获取一个由 uNumLinkedUFI 元素组成的数组，类型为 UniversalFontId，用于指定链接字体的标识符。 |
+| [setUfis(EmfUniversalFontId[] value)](#setUfis-com.aspose.imaging.fileformats.emf.emf.objects.EmfUniversalFontId---) | 设置一个由 uNumLinkedUFI 元素组成的数组，类型为 UniversalFontId，用于指定链接字体的标识符。 |
 ### EmfSetLinkedUfis(EmfRecord source) {#EmfSetLinkedUfis-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetLinkedUfis(EmfRecord source)
@@ -35,7 +35,7 @@ public EmfSetLinkedUfis(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getUfis() {#getUfis--}
 ```
@@ -43,7 +43,7 @@ public EmfUniversalFontId[] getUfis()
 ```
 
 
-获取一个由 uNumLinkedUFI 元素组成的数组，元素类型为 UniversalFontId，用于指定链接字体的标识符。
+获取一个由 uNumLinkedUFI 元素组成的数组，类型为 UniversalFontId，用于指定链接字体的标识符。
 
 **Returns:**
 com.aspose.imaging.fileformats.emf.emf.objects.EmfUniversalFontId[]
@@ -53,7 +53,7 @@ public void setUfis(EmfUniversalFontId[] value)
 ```
 
 
-设置一个由 uNumLinkedUFI 元素组成的数组，元素类型为 UniversalFontId，用于指定链接字体的标识符。
+设置一个由 uNumLinkedUFI 元素组成的数组，类型为 UniversalFontId，用于指定链接字体的标识符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

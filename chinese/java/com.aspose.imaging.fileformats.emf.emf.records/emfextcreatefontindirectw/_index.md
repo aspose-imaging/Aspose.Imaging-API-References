@@ -1,6 +1,6 @@
 ---
 title: "EmfExtCreateFontIndirectW"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_EXTCREATEFONTINDIRECTW 记录定义用于图形操作的逻辑字体。"
 type: docs
 weight: 51
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfExtCreateFontIndirectW extends EmfObjectCreationRecordType
 ```
 
-EMR_EXTCREATEFONTINDIRECTW 记录定义用于图形操作的逻辑字体。
+EMR\_EXTCREATEFONTINDIRECTW 记录定义用于图形操作的逻辑字体。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR_EXTCREATEFONTINDIRECTW 记录定义用于图形操作的逻辑字体。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getIhFonts()](#getIhFonts--) | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。 |
-| [setIhFonts(int value)](#setIhFonts-int-) | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。 |
+| [getIhFonts()](#getIhFonts--) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。 |
+| [setIhFonts(int value)](#setIhFonts-int-) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。 |
 | [getElw()](#getElw--) | 获取或设置一个 LogFontExDv 对象（第 2.2.15 节），该对象指定逻辑字体。 |
 | [setElw(EmfLogFont value)](#setElw-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFont-) | 获取或设置一个 LogFontExDv 对象（第 2.2.15 节），该对象指定逻辑字体。 |
 ### EmfExtCreateFontIndirectW(EmfRecord source) {#EmfExtCreateFontIndirectW-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -38,7 +38,7 @@ public EmfExtCreateFontIndirectW(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfExtCreateFontIndirectW() {#EmfExtCreateFontIndirectW--}
 ```
@@ -54,7 +54,7 @@ public int getIhFonts()
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。必须保存此索引，以便可以重用或修改该对象。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。必须保存此索引，以便可以重用或修改该对象。
 
 **Returns:**
 int
@@ -64,12 +64,12 @@ public void setIhFonts(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。必须保存此索引，以便可以重用或修改该对象。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体对象的索引。必须保存此索引，以便可以重用或修改该对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getElw() {#getElw--}
 ```

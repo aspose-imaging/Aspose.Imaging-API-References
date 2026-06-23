@@ -1,6 +1,6 @@
 ---
 title: "EmfBasePen"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基础笔对象"
 type: docs
 weight: 10
@@ -40,7 +40,7 @@ public abstract int getPenStyle()
 
 获取或设置笔的样式。
 
-值：笔的样式。
+值：笔样式。
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public abstract void setPenStyle(int value)
 
 获取或设置笔的样式。
 
-值：笔的样式。
+值：笔样式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getArgb32ColorRef() {#getArgb32ColorRef--}
 ```
@@ -67,7 +67,7 @@ public abstract int getArgb32ColorRef()
 
 获取或设置 32 位 ARGB 颜色参考。
 
-值：颜色参考。
+值：颜色引用。
 
 **Returns:**
 int
@@ -79,10 +79,10 @@ public abstract void setArgb32ColorRef(int value)
 
 获取或设置 32 位 ARGB 颜色参考。
 
-值：颜色参考。
+值：颜色引用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

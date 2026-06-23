@@ -1,6 +1,6 @@
 ---
 title: "WmfScanObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Scan 对象指定了一组扫描线。"
 type: docs
 weight: 69
@@ -46,7 +46,7 @@ public int getCount()
 
 获取或设置计数。
 
-值：`com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines` 数组中水平（x 轴）坐标的数量。该值必须是 2 的倍数，因为每条扫描线需要左、右端点来指定。
+值：`com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines` 数组中水平（x 轴）坐标的数量。该值必须是 2 的倍数，因为需要左、右端点来指定每条扫描线。
 
 **Returns:**
 int
@@ -58,12 +58,12 @@ public void setCount(int value)
 
 获取或设置计数。
 
-值：`com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines` 数组中水平（x 轴）坐标的数量。该值必须是 2 的倍数，因为每条扫描线需要左、右端点来指定。
+值：`com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines` 数组中水平（x 轴）坐标的数量。该值必须是 2 的倍数，因为需要左、右端点来指定每条扫描线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getTop() {#getTop--}
 ```
@@ -90,7 +90,7 @@ public void setTop(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBottom() {#getBottom--}
 ```
@@ -117,7 +117,7 @@ public void setBottom(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getScanLines() {#getScanLines--}
 ```
@@ -154,7 +154,7 @@ public int getCount2()
 
 获取或设置 count2。
 
-值：与 `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count` 字段的值相同；此字段存在是为了允许在结构中向上遍历。
+值：与 `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count` 字段的值相同；它的存在是为了允许在结构中向上遍历。
 
 **Returns:**
 int
@@ -166,10 +166,10 @@ public void setCount2(int value)
 
 获取或设置 count2。
 
-值：与 `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count` 字段的值相同；此字段存在是为了允许在结构中向上遍历。
+值：与 `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count` 字段的值相同；它的存在是为了允许在结构中向上遍历。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

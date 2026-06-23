@@ -1,6 +1,6 @@
 ---
-title: "大小"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "Size"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示大小。"
 type: docs
 weight: 104
@@ -24,18 +24,18 @@ public class Size extends Struct<Size>
 
 | 方法 | 描述 |
 | --- | --- |
-| [getEmpty()](#getEmpty--) | 获取一个新的 `Aspose.Imaging.Size` 结构实例，其 `Aspose.Imaging.Size.Width` 和 `Aspose.Imaging.Size.Height` 值设置为零。 |
+| [getEmpty()](#getEmpty--) | 获取一个 `Aspose.Imaging.Size` 结构的新实例，其 `Aspose.Imaging.Size.Width` 和 `Aspose.Imaging.Size.Height` 值均为零。 |
 | [to_SizeF(Size size)](#to-SizeF-com.aspose.imaging.Size-) | 将指定的 `Aspose.Imaging.Size` 转换为 `Aspose.Imaging.SizeF`。 |
-| [op_Addition(Size size1, Size size2)](#op-Addition-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 将一个 `Aspose.Imaging.Size` 结构的宽度和高度添加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度。 |
+| [op_Addition(Size size1, Size size2)](#op-Addition-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 将一个 `Aspose.Imaging.Size` 结构的宽度和高度加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度上。 |
 | [op_Subtraction(Size size1, Size size2)](#op-Subtraction-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 从另一个 `Aspose.Imaging.Size` 结构的宽度和高度中减去一个 `Aspose.Imaging.Size` 结构的宽度和高度。 |
 | [op_Equality(Size size1, Size size2)](#op-Equality-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 测试两个 `Aspose.Imaging.Size` 结构是否相等。 |
 | [op_Inequality(Size size1, Size size2)](#op-Inequality-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 测试两个 `Aspose.Imaging.Size` 结构是否不同。 |
 | [to_Point(Size size)](#to-Point-com.aspose.imaging.Size-) | 将指定的 `Aspose.Imaging.Size` 转换为 `Aspose.Imaging.Point`。 |
-| [add(Size size1, Size size2)](#add-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 将一个 `Aspose.Imaging.Size` 结构的宽度和高度添加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度。 |
-| [ceiling(SizeF size)](#ceiling-com.aspose.imaging.SizeF-) | 通过将 `Aspose.Imaging.SizeF` 结构的值向上取整到下一个更高的整数，将其转换为 `Aspose.Imaging.Size` 结构。 |
+| [add(Size size1, Size size2)](#add-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 将一个 `Aspose.Imaging.Size` 结构的宽度和高度加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度上。 |
+| [ceiling(SizeF size)](#ceiling-com.aspose.imaging.SizeF-) | 通过将 `Aspose.Imaging.SizeF` 结构的值向上取整为下一个更大的整数，将其转换为 `Aspose.Imaging.Size` 结构。 |
 | [subtract(Size size1, Size size2)](#subtract-com.aspose.imaging.Size-com.aspose.imaging.Size-) | 从另一个 `Aspose.Imaging.Size` 结构的宽度和高度中减去一个 `Aspose.Imaging.Size` 结构的宽度和高度。 |
-| [truncate(SizeF size)](#truncate-com.aspose.imaging.SizeF-) | 通过将 `Aspose.Imaging.SizeF` 结构的值截断为下一个更低的整数，将其转换为 `Aspose.Imaging.Size` 结构。 |
-| [round(SizeF size)](#round-com.aspose.imaging.SizeF-) | 通过将 `Aspose.Imaging.SizeF` 结构的值四舍五入到最近的整数，将其转换为 `Aspose.Imaging.Size` 结构。 |
+| [truncate(SizeF size)](#truncate-com.aspose.imaging.SizeF-) | 通过将 `Aspose.Imaging.SizeF` 结构的值截断为下一个更小的整数，将其转换为 `Aspose.Imaging.Size` 结构。 |
+| [round(SizeF size)](#round-com.aspose.imaging.SizeF-) | 通过将 `Aspose.Imaging.SizeF` 结构的值四舍五入为最近的整数，将其转换为 `Aspose.Imaging.Size` 结构。 |
 | [isEquals(Size obj1, Size obj2)](#isEquals-com.aspose.imaging.Size-com.aspose.imaging.Size-) |  |
 | [isEmpty()](#isEmpty--) | 获取一个值，指示此 `Aspose.Imaging.Size` 的宽度和高度是否为 0。 |
 | [getWidth()](#getWidth--) | 获取或设置此 `Aspose.Imaging.Size` 的水平分量。 |
@@ -44,7 +44,7 @@ public class Size extends Struct<Size>
 | [setHeight(int value)](#setHeight-int-) | 获取或设置此 `Aspose.Imaging.Size` 的垂直分量。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 测试以确定指定的对象是否为具有与此 `Aspose.Imaging.Size` 相同尺寸的 `Aspose.Imaging.Size`。 |
 | [hashCode()](#hashCode--) | 返回此 `Aspose.Imaging.Size` 结构的哈希码。 |
-| [toString()](#toString--) | 创建一个可读的字符串，表示此 `Aspose.Imaging.Size`。 |
+| [toString()](#toString--) | 创建一个可读的字符串来表示此 `Aspose.Imaging.Size`。 |
 | [CloneTo(Size that)](#CloneTo-com.aspose.imaging.Size-) |  |
 | [Clone()](#Clone--) |  |
 ### Size() {#Size--}
@@ -77,8 +77,8 @@ public Size(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 新 `Aspose.Imaging.Size` 的宽度分量。 |
-| 高度 | int | 新 `Aspose.Imaging.Size` 的高度分量。 |
+| width | int | 新 `Aspose.Imaging.Size` 的宽度分量。 |
+| height | int | 新 `Aspose.Imaging.Size` 的高度分量。 |
 
 ### getEmpty() {#getEmpty--}
 ```
@@ -86,7 +86,7 @@ public static Size getEmpty()
 ```
 
 
-获取一个新的 `Aspose.Imaging.Size` 结构实例，其 `Aspose.Imaging.Size.Width` 和 `Aspose.Imaging.Size.Height` 值设置为零。
+获取一个 `Aspose.Imaging.Size` 结构的新实例，其 `Aspose.Imaging.Size.Width` 和 `Aspose.Imaging.Size.Height` 值均为零。
 
 **Returns:**
 [Size](../../com.aspose.imaging/size)
@@ -111,7 +111,7 @@ public static Size op_Addition(Size size1, Size size2)
 ```
 
 
-将一个 `Aspose.Imaging.Size` 结构的宽度和高度添加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度。
+将一个 `Aspose.Imaging.Size` 结构的宽度和高度加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度上。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -148,11 +148,11 @@ public static boolean op_Equality(Size size1, Size size2)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | [Size](../../com.aspose.imaging/size) | 等于运算符左侧的 `Aspose.Imaging.Size` 结构。 |
-| size2 | [Size](../../com.aspose.imaging/size) | 等于运算符右侧的 `Aspose.Imaging.Size` 结构。 |
+| size1 | [Size](../../com.aspose.imaging/size) | 等号运算符左侧的 `Aspose.Imaging.Size` 结构。 |
+| size2 | [Size](../../com.aspose.imaging/size) | 等号运算符右侧的 `Aspose.Imaging.Size` 结构。 |
 
 **Returns:**
-布尔型 - 如果 `size1` 和 `size2` 的宽度和高度相等则为 True；否则为 false。
+布尔值 - 如果 `size1` 和 `size2` 的宽度和高度相等则为 True；否则为 false。
 ### op_Inequality(Size size1, Size size2) {#op-Inequality-com.aspose.imaging.Size-com.aspose.imaging.Size-}
 ```
 public static boolean op_Inequality(Size size1, Size size2)
@@ -164,11 +164,11 @@ public static boolean op_Inequality(Size size1, Size size2)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | [Size](../../com.aspose.imaging/size) | 不等于运算符左侧的 `Aspose.Imaging.Size` 结构。 |
-| size2 | [Size](../../com.aspose.imaging/size) | 不等于运算符右侧的 `Aspose.Imaging.Size` 结构。 |
+| size1 | [Size](../../com.aspose.imaging/size) | 不等运算符左侧的 `Aspose.Imaging.Size` 结构。 |
+| size2 | [Size](../../com.aspose.imaging/size) | 不等运算符右侧的 `Aspose.Imaging.Size` 结构。 |
 
 **Returns:**
-布尔型 - 如果 `size1` 和 `size2` 在宽度或高度上任一不同则为 True；如果 `size1` 和 `size2` 相等则为 false。
+布尔值 - 如果 `size1` 和 `size2` 在宽度或高度上任一不同则为 True；如果 `size1` 和 `size2` 相等则为 false。
 ### to_Point(Size size) {#to-Point-com.aspose.imaging.Size-}
 ```
 public static Point to_Point(Size size)
@@ -190,7 +190,7 @@ public static Size add(Size size1, Size size2)
 ```
 
 
-将一个 `Aspose.Imaging.Size` 结构的宽度和高度添加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度。
+将一个 `Aspose.Imaging.Size` 结构的宽度和高度加到另一个 `Aspose.Imaging.Size` 结构的宽度和高度上。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -206,7 +206,7 @@ public static Size ceiling(SizeF size)
 ```
 
 
-通过将 `Aspose.Imaging.SizeF` 结构的值向上取整到下一个更高的整数，将其转换为 `Aspose.Imaging.Size` 结构。
+通过将 `Aspose.Imaging.SizeF` 结构的值向上取整为下一个更大的整数，将其转换为 `Aspose.Imaging.Size` 结构。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -237,7 +237,7 @@ public static Size truncate(SizeF size)
 ```
 
 
-通过将 `Aspose.Imaging.SizeF` 结构的值截断为下一个更低的整数，将其转换为 `Aspose.Imaging.Size` 结构。
+通过将 `Aspose.Imaging.SizeF` 结构的值截断为下一个更小的整数，将其转换为 `Aspose.Imaging.Size` 结构。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -252,7 +252,7 @@ public static Size round(SizeF size)
 ```
 
 
-通过将 `Aspose.Imaging.SizeF` 结构的值四舍五入到最近的整数，将其转换为 `Aspose.Imaging.Size` 结构。
+通过将 `Aspose.Imaging.SizeF` 结构的值四舍五入为最近的整数，将其转换为 `Aspose.Imaging.Size` 结构。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -308,7 +308,7 @@ public void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -331,7 +331,7 @@ public void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -347,7 +347,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于测试的 `System.Object`。 |
 
 **Returns:**
-布尔型 - 如果 `obj` 是 `Aspose.Imaging.Size` 且其宽度和高度与此 `Aspose.Imaging.Size` 相同则为 True；否则为 false。
+布尔值 - 如果 `obj` 是 `Aspose.Imaging.Size` 且其宽度和高度与此 `Aspose.Imaging.Size` 相同则为 True；否则为 false。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -357,14 +357,14 @@ public int hashCode()
 返回此 `Aspose.Imaging.Size` 结构的哈希码。
 
 **Returns:**
-整数型 - 指定此 `Aspose.Imaging.Size` 结构的哈希值的整数。
+整数 - 指定此 `Aspose.Imaging.Size` 结构的哈希值的整数。
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-创建一个可读的字符串，表示此 `Aspose.Imaging.Size`。
+创建一个可读的字符串来表示此 `Aspose.Imaging.Size`。
 
 **Returns:**
 java.lang.String - 表示此 `Aspose.Imaging.Size` 的字符串。

@@ -1,6 +1,6 @@
 ---
-title: "图层"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "层"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 Photoshop 文本图层。"
 type: docs
 weight: 11
@@ -26,11 +26,11 @@ public class Layer extends XmpTypeBase implements System.IEquatable<Layer>
 
 | 方法 | 描述 |
 | --- | --- |
-| [getName()](#getName--) | 获取或设置文本图层的名称。 |
-| [setName(String value)](#setName-java.lang.String-) | 获取或设置文本图层的名称。 |
-| [getText()](#getText--) | 获取或设置图层的文本内容。 |
-| [setText(String value)](#setText-java.lang.String-) | 获取或设置图层的文本内容。 |
-| [getXmpRepresentation()](#getXmpRepresentation--) | 返回 XMP 格式的字符串值。 |
+| [getName()](#getName--) | 获取或设置文本层的名称。 |
+| [setName(String value)](#setName-java.lang.String-) | 获取或设置文本层的名称。 |
+| [getText()](#getText--) | 获取或设置层的文本内容。 |
+| [setText(String value)](#setText-java.lang.String-) | 获取或设置层的文本内容。 |
+| [getXmpRepresentation()](#getXmpRepresentation--) | 返回 XMP 格式中包含的字符串值。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的 `System.Object` 是否等于此实例。 |
 | [isEquals(Layer other)](#isEquals-com.aspose.imaging.xmp.schemas.photoshop.Layer-) | 指示当前对象是否等于同类型的另一个对象。 |
 | [hashCode()](#hashCode--) | 返回此实例的哈希码。 |
@@ -45,8 +45,8 @@ public Layer(String layerName, String layerText)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| layerName | java.lang.String | 图层的名称。 |
-| layerText | java.lang.String | 图层文本。 |
+| layerName | java.lang.String | 层的名称。 |
+| layerText | java.lang.String | 层文本。 |
 
 ### Layer() {#Layer--}
 ```
@@ -62,9 +62,9 @@ public String getName()
 ```
 
 
-获取或设置文本图层的名称。
+获取或设置文本层的名称。
 
-值：文本图层的名称。
+值：文本层的名称。
 
 **Returns:**
 java.lang.String
@@ -74,14 +74,14 @@ public void setName(String value)
 ```
 
 
-获取或设置文本图层的名称。
+获取或设置文本层的名称。
 
-值：文本图层的名称。
+值：文本层的名称。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getText() {#getText--}
 ```
@@ -89,9 +89,9 @@ public String getText()
 ```
 
 
-获取或设置图层的文本内容。
+获取或设置层的文本内容。
 
-值：图层的文本内容。
+值：层的文本内容。
 
 **Returns:**
 java.lang.String
@@ -101,14 +101,14 @@ public void setText(String value)
 ```
 
 
-获取或设置图层的文本内容。
+获取或设置层的文本内容。
 
-值：图层的文本内容。
+值：层的文本内容。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -116,10 +116,10 @@ public String getXmpRepresentation()
 ```
 
 
-返回 XMP 格式的字符串值。
+返回 XMP 格式中包含的字符串值。
 
 **Returns:**
-java.lang.String - 返回 XMP 格式的字符串值。
+java.lang.String - 返回 XMP 格式中包含的字符串值。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -131,7 +131,7 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | java.lang.Object | 与此实例比较的 `System.Object`。 |
+| obj | java.lang.Object | 要与此实例比较的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果指定的 `System.Object` 等于此实例，则为 `true`；否则，为 `false`。

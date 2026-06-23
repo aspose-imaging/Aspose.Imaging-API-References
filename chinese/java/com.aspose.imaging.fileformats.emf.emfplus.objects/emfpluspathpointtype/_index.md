@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPathPointType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusPathPointType 对象指定与图形上点关联的类型值。"
 type: docs
 weight: 61
@@ -26,8 +26,8 @@ EmfPlusPathPointType 对象指定与图形上点关联的类型值。
 | [setData(int value)](#setData-int-) | 获取或设置数据。 |
 | [getType()](#getType--) | 获取或设置 4 位无符号整数路径点类型。 |
 | [setType(int value)](#setType-int-) | 获取或设置 4 位无符号整数路径点类型。 |
-| [getFlags()](#getFlags--) | 获取或设置 4 位标志字段，指定路径点的属性。 |
-| [setFlags(int value)](#setFlags-int-) | 获取或设置 4 位标志字段，指定路径点的属性。 |
+| [getFlags()](#getFlags--) | 获取或设置 4 位标志字段，用于指定路径点的属性。 |
+| [setFlags(int value)](#setFlags-int-) | 获取或设置 4 位标志字段，用于指定路径点的属性。 |
 ### EmfPlusPathPointType() {#EmfPlusPathPointType--}
 ```
 public EmfPlusPathPointType()
@@ -59,7 +59,7 @@ public void setData(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getType() {#getType--}
 ```
@@ -82,7 +82,7 @@ public void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -90,7 +90,7 @@ public int getFlags()
 ```
 
 
-获取或设置 4 位标志字段，指定路径点的属性。此值必须是一个或多个 PathPointType 标志（第 2.1.2.6 节）。
+获取或设置 4 位标志字段，用于指定路径点的属性。此值必须是 PathPointType 标志中的一个或多个（第 2.1.2.6 节）。
 
 **Returns:**
 int
@@ -100,10 +100,10 @@ public void setFlags(int value)
 ```
 
 
-获取或设置 4 位标志字段，指定路径点的属性。此值必须是一个或多个 PathPointType 标志（第 2.1.2.6 节）。
+获取或设置 4 位标志字段，用于指定路径点的属性。此值必须是 PathPointType 标志中的一个或多个（第 2.1.2.6 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

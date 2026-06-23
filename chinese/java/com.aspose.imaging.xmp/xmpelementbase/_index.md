@@ -1,6 +1,6 @@
 ---
 title: "XmpElementBase"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示包含属性的基础 XMP 元素。"
 type: docs
 weight: 16
@@ -22,7 +22,7 @@ public abstract class XmpElementBase implements System.IEquatable<XmpElementBase
 | --- | --- |
 | [addAttribute(String attribute, String value)](#addAttribute-java.lang.String-java.lang.String-) | 添加属性。 |
 | [getAttribute(String attribute)](#getAttribute-java.lang.String-) | 获取属性。 |
-| [clearAttributes()](#clearAttributes--) | 删除所有属性。 |
+| [clearAttributes()](#clearAttributes--) | 移除所有属性。 |
 | [isEquals(XmpElementBase other)](#isEquals-com.aspose.imaging.xmp.XmpElementBase-) | 指示当前对象是否等于同类型的另一个对象。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的 `Object` 是否等于此实例。 |
 | [hashCode()](#hashCode--) | 返回此实例的哈希码。 |
@@ -38,7 +38,7 @@ public void addAttribute(String attribute, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 属性 | java.lang.String | 属性。 |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 
 ### getAttribute(String attribute) {#getAttribute-java.lang.String-}
 ```
@@ -61,7 +61,7 @@ public void clearAttributes()
 ```
 
 
-删除所有属性。
+移除所有属性。
 
 ### isEquals(XmpElementBase other) {#isEquals-com.aspose.imaging.xmp.XmpElementBase-}
 ```
@@ -92,7 +92,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于与此实例比较的 `Object`。 |
 
 **Returns:**
-布尔值 - 如果指定的 `Object` 等于此实例则为 `true`；否则为 `false`。
+布尔值 - 如果指定的 `Object` 等于此实例，则为 `true`；否则为 `false`。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

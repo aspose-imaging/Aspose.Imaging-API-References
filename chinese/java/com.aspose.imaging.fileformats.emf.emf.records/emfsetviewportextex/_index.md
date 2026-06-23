@@ -1,7 +1,7 @@
 ---
 title: "EmfSetViewportExtEx"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETVIEWPORTEXTEX 记录定义视口范围。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SETVIEWPORTEXTEX 记录定义了视口范围。"
 type: docs
 weight: 142
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetViewportExtEx extends EmfStateRecordType
 ```
 
-EMR\_SETVIEWPORTEXTEX 记录定义视口范围。
+该 EMR\_SETVIEWPORTEXTEX 记录定义视口范围。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR\_SETVIEWPORTEXTEX 记录定义视口范围。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getExtent()](#getExtent--) | 获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），用于指定设备单位中的水平和垂直范围。 |
-| [setExtent(Size value)](#setExtent-com.aspose.imaging.Size-) | 获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），用于指定设备单位中的水平和垂直范围。 |
+| [getExtent()](#getExtent--) | 获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），该对象指定设备单位中的水平和垂直范围。 |
+| [setExtent(Size value)](#setExtent-com.aspose.imaging.Size-) | 获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），该对象指定设备单位中的水平和垂直范围。 |
 ### EmfSetViewportExtEx(EmfRecord source) {#EmfSetViewportExtEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetViewportExtEx(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetViewportExtEx(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetViewportExtEx() {#EmfSetViewportExtEx--}
 ```
@@ -52,7 +52,7 @@ public Size getExtent()
 ```
 
 
-获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），用于指定设备单位中的水平和垂直范围。
+获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），该对象指定设备单位中的水平和垂直范围。
 
 **Returns:**
 [Size](../../com.aspose.imaging/size)
@@ -62,7 +62,7 @@ public void setExtent(Size value)
 ```
 
 
-获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），用于指定设备单位中的水平和垂直范围。
+获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），该对象指定设备单位中的水平和垂直范围。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

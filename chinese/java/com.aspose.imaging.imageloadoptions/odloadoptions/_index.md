@@ -1,6 +1,6 @@
 ---
 title: "OdLoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Open Document 加载选项"
 type: docs
 weight: 17
@@ -51,5 +51,5 @@ public final void setPassword(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 

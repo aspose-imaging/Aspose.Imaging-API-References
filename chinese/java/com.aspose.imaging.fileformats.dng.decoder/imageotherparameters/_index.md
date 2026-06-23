@@ -1,6 +1,6 @@
 ---
-title: "图像其他参数"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "ImageOtherParameters"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "其他图像参数"
 type: docs
 weight: 10
@@ -78,20 +78,20 @@ try {
 }
 
 // 相机制造商：              Leica
-// 相机型号:                     M8 Digital Camera
-// 颜色计数:                     3
-// 颜色描述:               RGBG
-// DNG 版本:                      16777216
-// 文件中 RAW 图像的数量: 1
-// 软件:                         1.107
-// 颜色像素的顺序:        10110100101101001011010010110100
-// 光圈:                         0
-// 描述:
-// 焦距:                     50
-// ISO 感光度:                  160
-// 图像序列号:       0
-// 快门速度:                    12
-// 拍摄日期:                 8/3/2007 3:13:49 AM
+// 相机型号：                     M8 Digital Camera
+// 颜色数量：                     3
+// 颜色描述：               RGBG
+// DNG 版本：                      16777216
+// 文件中 RAW 图像的数量： 1
+// 软件版本：                         1.107
+// 颜色像素顺序：        10110100101101001011010010110100
+// 光圈：                         0
+// 描述：
+// 焦距：                     50
+// ISO 灵敏度：                  160
+// 图像序列号：       0
+// 快门速度：                    12
+// 拍摄日期：                 8/3/2007 3:13:49 AM
 ```
 
 ### getDescription() {#getDescription--}
@@ -102,7 +102,7 @@ public String getDescription()
 
 获取图像描述。
 
-值: 描述。
+值：该 描述。
 
 **Returns:**
 java.lang.String
@@ -126,7 +126,7 @@ public long getTimestamp()
 
 获取拍摄日期。
 
-值: 时间戳。
+值：该 时间戳。
 
 **Returns:**
 long
@@ -138,7 +138,7 @@ public long getShotOrder()
 
 获取图像的序列号。
 
-值: 拍摄顺序。
+值：该 拍摄顺序。
 
 **Returns:**
 long
@@ -150,7 +150,7 @@ public float getAperture()
 
 获取光圈。
 
-值: 光圈。
+值：该 光圈。
 
 **Returns:**
 float
@@ -162,7 +162,7 @@ public float getShutterSpeed()
 
 获取快门速度。
 
-值: 快门。
+值：该 快门。
 
 **Returns:**
 float
@@ -174,7 +174,7 @@ public long[] getGpsData()
 
 获取 GPS 数据。
 
-值: GPS 数据。
+值：该 GPS 数据。
 
 **Returns:**
 long[]
@@ -186,7 +186,7 @@ public float getFocalLength()
 
 获取焦距长度。
 
-值：焦距长度。
+值：该 length of the focal。
 
 **Returns:**
 float
@@ -198,7 +198,7 @@ public float getIsoSpeed()
 
 获取 ISO 灵敏度。
 
-值：ISO 速度。
+值：ISO速度。
 
 **Returns:**
 float

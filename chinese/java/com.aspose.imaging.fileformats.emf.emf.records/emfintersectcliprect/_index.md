@@ -1,7 +1,7 @@
 ---
 title: "EmfIntersectClipRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_INTERSECTCLIPRECT 记录指定一个新的剪裁区域，该区域由当前剪裁区域与指定矩形的交集构成。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EMR_INTERSECTCLIPRECT 记录指定一个新的裁剪区域，该区域由当前裁剪区域与指定矩形的交集构成。"
 type: docs
 weight: 66
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfIntersectClipRect extends EmfClippingRecordType
 ```
 
-EMR\_INTERSECTCLIPRECT 记录指定一个新的剪裁区域，该区域由当前剪裁区域与指定矩形的交集构成。注意，本节未描述的字段在第 2.3.2 节中指定。
+该 EMR\\_INTERSECTCLIPRECT 记录指定一个新的裁剪区域，由当前裁剪区域与指定矩形的交集构成。注意，本节未描述的字段在第 2.3.2 节中指定。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -35,7 +35,7 @@ public EmfIntersectClipRect(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getClip() {#getClip--}
 ```

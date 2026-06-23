@@ -1,18 +1,18 @@
 ---
 title: "WmfStretchBlt"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_STRETCHBLT 记录指定根据光栅操作对像素块进行传输，可进行扩展或收缩。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "此 META_STRETCHBLT 记录指定根据光栅操作传输像素块，可能会出现扩展或收缩。"
 type: docs
 weight: 93
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfStretchBlt extends WmfObject
 ```
 
-META\_STRETCHBLT 记录指定根据光栅操作传输像素块，可能会扩展或收缩。
+META\_STRETCHBLT 记录指定根据光栅操作传输像素块，可进行扩展或收缩。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -71,7 +71,7 @@ public void setRasterOperation(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSrcHeight() {#getSrcHeight--}
 ```
@@ -84,7 +84,7 @@ public short getSrcHeight()
 值：源矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setSrcHeight(short value) {#setSrcHeight-short-}
 ```
 public void setSrcHeight(short value)
@@ -98,7 +98,7 @@ public void setSrcHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getSrcWidth() {#getSrcWidth--}
 ```
@@ -111,7 +111,7 @@ public short getSrcWidth()
 值：源矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setSrcWidth(short value) {#setSrcWidth-short-}
 ```
 public void setSrcWidth(short value)
@@ -125,7 +125,7 @@ public void setSrcWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getSrcPosition() {#getSrcPosition--}
 ```
@@ -165,7 +165,7 @@ public short getDestHeight()
 值：目标矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setDestHeight(short value) {#setDestHeight-short-}
 ```
 public void setDestHeight(short value)
@@ -179,7 +179,7 @@ public void setDestHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getDestWidth() {#getDestWidth--}
 ```
@@ -192,7 +192,7 @@ public short getDestWidth()
 值：目标矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setDestWidth(short value) {#setDestWidth-short-}
 ```
 public void setDestWidth(short value)
@@ -206,7 +206,7 @@ public void setDestWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getDstPosition() {#getDstPosition--}
 ```
@@ -243,10 +243,10 @@ public short getReserved()
 
 获取或设置保留字段。
 
-值：保留。此字段必须被忽略。
+值：保留字段。此字段必须被忽略。
 
 **Returns:**
-short
+短
 ### setReserved(short value) {#setReserved-short-}
 ```
 public void setReserved(short value)
@@ -255,12 +255,12 @@ public void setReserved(short value)
 
 获取或设置保留字段。
 
-值：保留。此字段必须被忽略。
+值：保留字段。此字段必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getBitmap() {#getBitmap--}
 ```

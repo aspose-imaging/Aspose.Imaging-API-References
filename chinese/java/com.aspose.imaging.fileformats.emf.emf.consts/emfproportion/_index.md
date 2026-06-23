@@ -1,6 +1,6 @@
 ---
 title: "EmfProportion"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Proportion 枚举定义了 PANOSE 系统中用于分类字体的特征之一的取值。"
 type: docs
 weight: 37
@@ -17,14 +17,14 @@ Proportion 枚举定义了 PANOSE 系统中用于分类字体的特征之一的�
 
 | 字段 | 描述 |
 | --- | --- |
-| [PAN_ANY](#PAN-ANY) | 该任意比例。 |
-| [PAN_NO_FIT](#PAN-NO-FIT) | 该不适配。 |
+| [PAN_ANY](#PAN-ANY) | 任意比例。 |
+| [PAN_NO_FIT](#PAN-NO-FIT) | 不适配。 |
 | [PAN_PROP_OLD_STYLE](#PAN-PROP-OLD-STYLE) | 旧式。 |
-| [PAN_PROP_MODERN](#PAN-PROP-MODERN) | 该现代 |
+| [PAN_PROP_MODERN](#PAN-PROP-MODERN) | 现代的 |
 | [PAN_PROP_EVEN_WIDTH](#PAN-PROP-EVEN-WIDTH) | 等宽 |
-| [PAN_PROP_EXPANDED](#PAN-PROP-EXPANDED) | 已展开 |
+| [PAN_PROP_EXPANDED](#PAN-PROP-EXPANDED) | 扩展的 |
 | [PAN_PROP_CONDENSED](#PAN-PROP-CONDENSED) | 紧凑的 |
-| [PAN_PROP_VERY_EXPANDED](#PAN-PROP-VERY-EXPANDED) | 非常展开的 |
+| [PAN_PROP_VERY_EXPANDED](#PAN-PROP-VERY-EXPANDED) | 非常扩展的 |
 | [PAN_PROP_VERY_CONDENSED](#PAN-PROP-VERY-CONDENSED) | 非常紧凑的 |
 | [PAN_PROP_MONOSPACED](#PAN-PROP-MONOSPACED) | 等宽的 |
 ### PAN_ANY {#PAN-ANY}
@@ -33,7 +33,7 @@ public static final byte PAN_ANY
 ```
 
 
-该任意比例。
+任意比例。
 
 ### PAN_NO_FIT {#PAN-NO-FIT}
 ```
@@ -41,7 +41,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-该不适配。
+不适配。
 
 ### PAN_PROP_OLD_STYLE {#PAN-PROP-OLD-STYLE}
 ```
@@ -57,7 +57,7 @@ public static final byte PAN_PROP_MODERN
 ```
 
 
-该现代
+现代的
 
 ### PAN_PROP_EVEN_WIDTH {#PAN-PROP-EVEN-WIDTH}
 ```
@@ -73,7 +73,7 @@ public static final byte PAN_PROP_EXPANDED
 ```
 
 
-已展开
+扩展的
 
 ### PAN_PROP_CONDENSED {#PAN-PROP-CONDENSED}
 ```
@@ -89,7 +89,7 @@ public static final byte PAN_PROP_VERY_EXPANDED
 ```
 
 
-非常展开的
+非常扩展的
 
 ### PAN_PROP_VERY_CONDENSED {#PAN-PROP-VERY-CONDENSED}
 ```

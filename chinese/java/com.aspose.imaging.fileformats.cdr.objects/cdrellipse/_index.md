@@ -1,13 +1,13 @@
 ---
 title: "CdrEllipse"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 椭圆"
 type: docs
 weight: 18
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrellipse/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
 ```
 public class CdrEllipse extends CdrGraphicObject
 ```
@@ -43,7 +43,7 @@ public final double getAngle1()
 获取 angle1。
 
 **Returns:**
-double - angle1。
+double - 角度1。
 ### setAngle1(double value) {#setAngle1-double-}
 ```
 public final void setAngle1(double value)
@@ -55,7 +55,7 @@ public final void setAngle1(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | angle1。 |
+| 值 | double | 角度1。 |
 
 ### getAngle2() {#getAngle2--}
 ```
@@ -66,7 +66,7 @@ public final double getAngle2()
 获取 angle2。
 
 **Returns:**
-double - angle2。
+double - 角度2。
 ### setAngle2(double value) {#setAngle2-double-}
 ```
 public final void setAngle2(double value)
@@ -78,7 +78,7 @@ public final void setAngle2(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | angle2。 |
+| 值 | double | 角度2。 |
 
 ### getPie() {#getPie--}
 ```

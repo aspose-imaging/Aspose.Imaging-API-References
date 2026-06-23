@@ -1,6 +1,6 @@
 ---
 title: "WmfRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Wmf 光栅化选项。"
 type: docs
 weight: 55
@@ -58,7 +58,7 @@ public void setRenderMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 
 **Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**

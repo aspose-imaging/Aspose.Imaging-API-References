@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusGraphicsObjectType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Graphics 对象指定图形输出的参数。"
 type: docs
 weight: 43
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPlusGraphicsObjectType extends EmfPlusObject
 ```
 
-图形对象指定图形输出的参数。它们是回放设备上下文的一部分，并在 EMF+ 元文件的回放期间保持持久。
+Graphics Objects 指定图形输出的参数。它们是回放设备上下文的一部分，并在 EMF+ 元文件的回放期间保持持久。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -38,7 +38,7 @@ public EmfPlusGraphicsVersion getVersion()
 
 获取或设置版本。
 
-值：一个 `EmfPlusGraphicsVersion` 对象（章节 2.2.2.19），指定用于创建此对象的操作系统图形版本。
+Value: 一个 `EmfPlusGraphicsVersion` 对象（section 2.2.2.19），它指定用于创建此对象的操作系统图形版本。
 
 **Returns:**
 [EmfPlusGraphicsVersion](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion)
@@ -50,7 +50,7 @@ public void setVersion(EmfPlusGraphicsVersion value)
 
 获取或设置版本。
 
-值：一个 `EmfPlusGraphicsVersion` 对象（章节 2.2.2.19），指定用于创建此对象的操作系统图形版本。
+Value: 一个 `EmfPlusGraphicsVersion` 对象（section 2.2.2.19），它指定用于创建此对象的操作系统图形版本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,13 +1,13 @@
 ---
 title: "WmfStretchDib"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "wmf Stretch DIB 对象。"
 type: docs
 weight: 94
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfStretchDib extends WmfObject
 ```
@@ -24,8 +24,8 @@ wmf Stretch DIB 对象。
 | --- | --- |
 | [getRasterOperation()](#getRasterOperation--) | 获取或设置光栅操作。 |
 | [setRasterOperation(int value)](#setRasterOperation-int-) | 获取或设置光栅操作。 |
-| [getColorUsage()](#getColorUsage--) | 获取或设置颜色使用方式。 |
-| [setColorUsage(int value)](#setColorUsage-int-) | 获取或设置颜色使用方式。 |
+| [getColorUsage()](#getColorUsage--) | 获取或设置颜色使用情况。 |
+| [setColorUsage(int value)](#setColorUsage-int-) | 获取或设置颜色使用情况。 |
 | [getSrcHeight()](#getSrcHeight--) | 获取或设置源的高度。 |
 | [setSrcHeight(short value)](#setSrcHeight-short-) | 获取或设置源的高度。 |
 | [getSrcWidth()](#getSrcWidth--) | 获取或设置源的宽度。 |
@@ -60,7 +60,7 @@ public int getRasterOperation()
 
 获取或设置光栅操作。
 
-值：回放设备上下文中的当前画笔，目标像素将与之组合以形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
+值：回放设备上下文中的当前画刷，目标像素将与之组合形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
 
 **Returns:**
 int
@@ -72,12 +72,12 @@ public void setRasterOperation(int value)
 
 获取或设置光栅操作。
 
-值：回放设备上下文中的当前画笔，目标像素将与之组合以形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
+值：回放设备上下文中的当前画刷，目标像素将与之组合形成新图像。此代码必须是 Ternary Raster Operation Enumeration（第 2.1.1.31 节）中的一个值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getColorUsage() {#getColorUsage--}
 ```
@@ -85,11 +85,11 @@ public int getColorUsage()
 ```
 
 
-获取或设置颜色使用方式。
+获取或设置颜色使用情况。
 
 值：
 
-DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。此值必须位于 `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage` 中。
+DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。此值必须位于 `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage`
 
 枚举（第 2.1.1.6 节）。
 
@@ -101,18 +101,18 @@ public void setColorUsage(int value)
 ```
 
 
-获取或设置颜色使用方式。
+获取或设置颜色使用情况。
 
 值：
 
-DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。此值必须位于 `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage` 中。
+DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。此值必须位于 `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage`
 
 枚举（第 2.1.1.6 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSrcHeight() {#getSrcHeight--}
 ```
@@ -125,7 +125,7 @@ public short getSrcHeight()
 值：源矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setSrcHeight(short value) {#setSrcHeight-short-}
 ```
 public void setSrcHeight(short value)
@@ -139,7 +139,7 @@ public void setSrcHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getSrcWidth() {#getSrcWidth--}
 ```
@@ -149,10 +149,10 @@ public short getSrcWidth()
 
 获取或设置源的宽度。
 
-值：源矩形的宽度（逻辑单位）
+值：源矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setSrcWidth(short value) {#setSrcWidth-short-}
 ```
 public void setSrcWidth(short value)
@@ -161,12 +161,12 @@ public void setSrcWidth(short value)
 
 获取或设置源的宽度。
 
-值：源矩形的宽度（逻辑单位）
+值：源矩形的宽度（逻辑单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getYSrc() {#getYSrc--}
 ```
@@ -179,7 +179,7 @@ public short getYSrc()
 值：源矩形左上角的 y 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setYSrc(short value) {#setYSrc-short-}
 ```
 public void setYSrc(short value)
@@ -193,7 +193,7 @@ public void setYSrc(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getXSrc() {#getXSrc--}
 ```
@@ -206,7 +206,7 @@ public short getXSrc()
 值：源矩形左上角的 x 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setXSrc(short value) {#setXSrc-short-}
 ```
 public void setXSrc(short value)
@@ -220,7 +220,7 @@ public void setXSrc(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getDestHeight() {#getDestHeight--}
 ```
@@ -233,7 +233,7 @@ public short getDestHeight()
 值：目标矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setDestHeight(short value) {#setDestHeight-short-}
 ```
 public void setDestHeight(short value)
@@ -247,7 +247,7 @@ public void setDestHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getDestWidth() {#getDestWidth--}
 ```
@@ -260,7 +260,7 @@ public short getDestWidth()
 值：目标矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setDestWidth(short value) {#setDestWidth-short-}
 ```
 public void setDestWidth(short value)
@@ -274,7 +274,7 @@ public void setDestWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getYDest() {#getYDest--}
 ```
@@ -287,7 +287,7 @@ public short getYDest()
 值：目标矩形左上角的 y 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setYDest(short value) {#setYDest-short-}
 ```
 public void setYDest(short value)
@@ -301,7 +301,7 @@ public void setYDest(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getXDest() {#getXDest--}
 ```
@@ -314,7 +314,7 @@ public short getXDest()
 值：目标矩形左上角的 x 坐标（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setXDest(short value) {#setXDest-short-}
 ```
 public void setXDest(short value)
@@ -328,7 +328,7 @@ public void setXDest(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getSourceBitmap() {#getSourceBitmap--}
 ```

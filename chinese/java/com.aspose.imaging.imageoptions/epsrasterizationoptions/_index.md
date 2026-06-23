@@ -1,6 +1,6 @@
 ---
 title: "EpsRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Eps 栅格化选项。"
 type: docs
 weight: 21
@@ -65,5 +65,5 @@ public final void setPreviewToExport(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 

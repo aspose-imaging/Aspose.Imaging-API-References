@@ -1,6 +1,6 @@
 ---
 title: "IXmlValue"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "将 XMP 值转换为 XML 字符串表示形式。"
 type: docs
 weight: 25

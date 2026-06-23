@@ -1,6 +1,6 @@
 ---
 title: "CdrDisp"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr Disp"
 type: docs
 weight: 16

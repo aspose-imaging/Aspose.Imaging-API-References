@@ -1,6 +1,6 @@
 ---
 title: "OdImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "打开文档"
 type: docs
 weight: 10
@@ -20,7 +20,7 @@ public abstract class OdImage extends VectorMultipageImage implements IOdImage
 
 | 方法 | 描述 |
 | --- | --- |
-| [getDefaultPage()](#getDefaultPage--) | 检索与图像关联的默认页面，提供对图像集合中主页面的关键访问。 |
+| [getDefaultPage()](#getDefaultPage--) | 检索与图像关联的默认页面，提供对图像集合中主页面的必要访问。 |
 | [isCached()](#isCached--) | 获取一个布尔值，指示对象的数据当前是否已缓存，从而消除读取数据的需求。 |
 | [getBitsPerPixel()](#getBitsPerPixel--) | 检索图像的每像素位数。 |
 | [getPageCount()](#getPageCount--) | 检索图像中的页面总数。 |
@@ -32,7 +32,7 @@ public Image getDefaultPage()
 ```
 
 
-检索与图像关联的默认页面，提供对图像集合中主页面的必要访问。此属性简化了图像数据的导航和操作，提升软件开发工作流的效率。
+检索与图像关联的默认页面，提供对图像集合中主页面的必要访问。此属性简化了图像数据的导航和操作，提升了软件开发工作流的效率。
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - the default page.
@@ -42,7 +42,7 @@ public boolean isCached()
 ```
 
 
-获取一个布尔值，指示对象的数据是否已被缓存，从而消除读取数据的需求。此属性作为优化指示器，通过最小化冗余的数据访问操作来提升性能。
+获取一个布尔值，指示对象的数据当前是否已缓存，从而消除读取数据的需求。此属性充当优化指示器，通过最小化冗余的数据访问操作来提升性能。
 
 **Returns:**
 boolean - 一个值，指示对象的数据当前是否已缓存且无需读取数据。
@@ -52,7 +52,7 @@ public int getBitsPerPixel()
 ```
 
 
-检索图像的每像素位数。此属性提供对图像细节层次和颜色深度的了解，有助于各种图像处理任务和优化。
+检索图像的每像素位数。此属性提供对图像细节级别和颜色深度的洞察，有助于各种图像处理任务和优化。
 
 **Returns:**
 int - 图像每像素位数。
@@ -72,7 +72,7 @@ public final OdMetadata getOdMetadata()
 ```
 
 
-检索特定于 OpenDocument 文件的元数据。此属性允许访问嵌入在 OD 文件中的关键信息，促进诸如提取、修改或分析元数据等各种操作。
+检索特定于 OpenDocument 文件的元数据。此属性允许访问嵌入在 OD 文件中的关键信息，便于执行诸如提取、修改或分析元数据等各种操作。
 
 **Returns:**
 [OdMetadata](../../com.aspose.imaging.fileformats.opendocument.objects/odmetadata) - the metadata.
@@ -82,7 +82,7 @@ public final OdObject[] getRecords()
 ```
 
 
-检索存储在图像中的 OpenDocument 记录。此属性授予对嵌入在 OpenDocument 文件中的特定结构化数据元素的访问，便于检索或操作相关信息以进行进一步处理或分析。
+检索存储在图像中的 OpenDocument 记录。此属性提供对嵌入在 OpenDocument 文件中的特定结构化数据元素的访问，便于进一步处理或分析时检索或操作相关信息。
 
 **Returns:**
 com.aspose.imaging.fileformats.opendocument.OdObject[] - 记录。

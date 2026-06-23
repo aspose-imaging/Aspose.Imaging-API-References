@@ -1,6 +1,6 @@
 ---
 title: "IIndexedColorConverter"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于索引图像格式的颜色转换器。"
 type: docs
 weight: 135

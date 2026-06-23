@@ -1,7 +1,7 @@
 ---
 title: "ClaheFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "提供用于配置 Contrast-Limited Adaptive Histogram Equalization CLAHE 滤波器的选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "提供用于配置对比度受限自适应直方图均衡（CLAHE）滤波器的选项。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBa
 public class ClaheFilterOptions extends FilterOptionsBase
 ```
 
-提供用于配置对比度受限自适应直方图均衡 (CLAHE) 过滤器的选项。
+提供用于配置 Contrast-Limited Adaptive Histogram Equalization (CLAHE) 滤镜的选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,9 +26,9 @@ public class ClaheFilterOptions extends FilterOptionsBase
 
 | 方法 | 描述 |
 | --- | --- |
-| [isGrayscale()](#isGrayscale--) | 获取指示过滤器是否在灰度模式下运行的值。 |
-| [getTilesNumberHorizontal()](#getTilesNumberHorizontal--) | 获取水平方向上的瓦片数量。 |
-| [getTilesNumberVertical()](#getTilesNumberVertical--) | 获取垂直方向上的瓦片数量。 |
+| [isGrayscale()](#isGrayscale--) | 获取一个值，指示过滤器是否在灰度模式下运行。 |
+| [getTilesNumberHorizontal()](#getTilesNumberHorizontal--) | 获取水平方向的瓦片数量。 |
+| [getTilesNumberVertical()](#getTilesNumberVertical--) | 获取垂直方向的瓦片数量。 |
 | [getClipLimit()](#getClipLimit--) | 获取对比度限制阈值。 |
 ### ClaheFilterOptions() {#ClaheFilterOptions--}
 ```
@@ -94,7 +94,7 @@ public final boolean isGrayscale()
 ```
 
 
-获取指示过滤器是否在灰度模式下运行的值。
+获取一个值，指示过滤器是否在灰度模式下运行。
 
 **Returns:**
 boolean - 指示过滤器是否在灰度模式下运行的值。
@@ -104,7 +104,7 @@ public final int getTilesNumberHorizontal()
 ```
 
 
-获取水平方向上的瓦片数量。确定图像在水平上被划分为多少个区域以进行局部对比度均衡。
+获取水平方向上的瓦片数量。确定图像在局部对比度均衡时水平划分为多少个区域。
 
 **Returns:**
 int - 水平方向上的瓦片数量。
@@ -114,7 +114,7 @@ public final int getTilesNumberVertical()
 ```
 
 
-获取垂直方向上的瓦片数量。确定图像在垂直上被划分为多少个区域以进行局部对比度均衡。
+获取垂直方向上的瓦片数量。确定图像在局部对比度均衡时垂直划分为多少个区域。
 
 **Returns:**
 int - 垂直方向上的瓦片数量。

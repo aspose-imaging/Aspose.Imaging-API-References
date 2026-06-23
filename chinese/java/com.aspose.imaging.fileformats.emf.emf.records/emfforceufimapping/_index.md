@@ -1,7 +1,7 @@
 ---
 title: "EmfForceUfiMapping"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_FORCEUFIMAPPING 记录强制字体映射器根据其 UniversalFontId（而不是其 LogFont 第 2.2.13 节信息）来匹配字体。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_FORCEUFIMAPPING 记录强制字体映射器优先根据其 UniversalFontId（而非 LogFont 第 2.2.13 节信息）匹配字体。"
 type: docs
 weight: 61
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfForceUfiMapping extends EmfStateRecordType
 ```
 
-EMR_FORCEUFIMAPPING 记录强制字体映射器优先根据其 UniversalFontId 而非 LogFont（第 2.2.13 节）信息来匹配字体。
+EMR\_FORCEUFIMAPPING 记录强制字体映射器优先根据其 UniversalFontId 而非 LogFont（第 2.2.13 节）信息来匹配字体。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -35,7 +35,7 @@ public EmfForceUfiMapping(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getUfi() {#getUfi--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "MakerNote"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示单个 Maker Note 记录。"
 type: docs
 weight: 13

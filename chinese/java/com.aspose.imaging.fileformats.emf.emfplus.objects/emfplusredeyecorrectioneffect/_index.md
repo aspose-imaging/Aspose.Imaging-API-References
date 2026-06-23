@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusRedEyeCorrectionEffect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "RedEyeCorrectionEffect 对象指定图像中需要进行红眼校正的区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 RedEyeCorrectionEffect 对象指定图像中应用红眼校正的区域。"
 type: docs
 weight: 67
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusRedEyeCorrectionEffect extends EmfPlusImageEffectsObjectType
 ```
 
-RedEyeCorrectionEffect 对象指定图像中需要进行红眼校正的区域。
+该 RedEyeCorrectionEffect 对象指定图像中应用红眼校正的区域。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,8 +24,8 @@ RedEyeCorrectionEffect 对象指定图像中需要进行红眼校正的区域。
 | --- | --- |
 | [getNumberOfAreas()](#getNumberOfAreas--) | 获取或设置一个 32 位有符号整数，指定 Areas 字段中的矩形数量。 |
 | [setNumberOfAreas(int value)](#setNumberOfAreas-int-) | 获取或设置一个 32 位有符号整数，指定 Areas 字段中的矩形数量。 |
-| [getAreas()](#getAreas--) | 获取或设置一个 NumberOfAreas WMF RectL 对象数组，详见 [MS-WMF] 第 2.2.2.19 节。 |
-| [setAreas(Rectangle[] value)](#setAreas-com.aspose.imaging.Rectangle---) | 获取或设置一个 NumberOfAreas WMF RectL 对象数组，详见 [MS-WMF] 第 2.2.2.19 节。 |
+| [getAreas()](#getAreas--) | 获取或设置一个数组，包含在 [MS-WMF] 第 2.2.2.19 节中指定的 NumberOfAreas WMF RectL 对象。 |
+| [setAreas(Rectangle[] value)](#setAreas-com.aspose.imaging.Rectangle---) | 获取或设置一个数组，包含在 [MS-WMF] 第 2.2.2.19 节中指定的 NumberOfAreas WMF RectL 对象。 |
 ### EmfPlusRedEyeCorrectionEffect() {#EmfPlusRedEyeCorrectionEffect--}
 ```
 public EmfPlusRedEyeCorrectionEffect()
@@ -57,7 +57,7 @@ public void setNumberOfAreas(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getAreas() {#getAreas--}
 ```
@@ -65,9 +65,9 @@ public Rectangle[] getAreas()
 ```
 
 
-获取或设置 An 数组的 NumberOfAreas WMF RectL 对象，指定于 [MS-WMF] 第 2.2.2.19 节。每个矩形指定位图图像的一个区域，红眼校正效果 SHOULD 应用于该区域。
+获取或设置一个数组，包含在 [MS-WMF] 第 2.2.2.19 节中指定的 NumberOfAreas WMF RectL 对象。每个矩形指定位图图像的一个区域，应该对该区域应用红眼校正效果。
 
-值：区域。
+值：这些区域。
 
 **Returns:**
 com.aspose.imaging.Rectangle[]
@@ -77,9 +77,9 @@ public void setAreas(Rectangle[] value)
 ```
 
 
-获取或设置 An 数组的 NumberOfAreas WMF RectL 对象，指定于 [MS-WMF] 第 2.2.2.19 节。每个矩形指定位图图像的一个区域，红眼校正效果 SHOULD 应用于该区域。
+获取或设置一个数组，包含在 [MS-WMF] 第 2.2.2.19 节中指定的 NumberOfAreas WMF RectL 对象。每个矩形指定位图图像的一个区域，应该对该区域应用红眼校正效果。
 
-值：区域。
+值：这些区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

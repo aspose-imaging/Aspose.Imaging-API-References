@@ -1,6 +1,6 @@
 ---
 title: "OperationInterruptedException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "当操作被中断时发生。"
 type: docs
 weight: 23
@@ -30,7 +30,7 @@ public OperationInterruptedException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### OperationInterruptedException(String message, Throwable innerException) {#OperationInterruptedException-java.lang.String-java.lang.Throwable-}
 ```
@@ -43,6 +43,6 @@ public OperationInterruptedException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

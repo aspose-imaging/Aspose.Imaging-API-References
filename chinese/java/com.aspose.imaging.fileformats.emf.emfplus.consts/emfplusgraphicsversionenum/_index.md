@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusGraphicsVersionEnum"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "GraphicsVersion 枚举定义了用于创建 EMF 元文件的操作系统图形版本。"
 type: docs
 weight: 24

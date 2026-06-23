@@ -1,6 +1,6 @@
 ---
 title: "GifBlocksRegistry"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 gif 块打开器注册表。"
 type: docs
 weight: 12
@@ -48,7 +48,7 @@ public static IGifBlockLoaderDescriptor getFirstSupportedDescriptorByTypeName(St
 | --- | --- | --- |
 |  | descriptorTypeName | java.lang.String | 描述符类型名称。 |
 
-第一个打开器描述符实际上将是最后注册的。 |
+第一个打开器描述符实际上是最后注册的。 |
 
 **Returns:**
 [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor) - The first found opener descriptor or null if not such descriptor is found.

@@ -1,6 +1,6 @@
 ---
 title: "ProgressEventHandler"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "进度事件处理函数引用"
 type: docs
 weight: 88

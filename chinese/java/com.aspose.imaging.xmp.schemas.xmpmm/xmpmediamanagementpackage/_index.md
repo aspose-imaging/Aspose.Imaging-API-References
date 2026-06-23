@@ -1,18 +1,18 @@
 ---
 title: "XmpMediaManagementPackage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 XMP 媒体管理 命名空间。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 XMP 媒体管理命名空间。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class XmpMediaManagementPackage extends XmpPackage
 ```
 
-表示 XMP 媒体管理 命名空间。
+表示 XMP 媒体管理命名空间。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -50,7 +50,7 @@ public void addValue(String key, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 键的字符串表示形式，用于标识添加的值。 |
-| value | java.lang.String | 字符串值。 |
+| 值 | java.lang.String | 字符串值。 |
 
 ### setDerivedFrom(ResourceRef resourceRef) {#setDerivedFrom-com.aspose.imaging.xmp.types.complex.resourceref.ResourceRef-}
 ```

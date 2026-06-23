@@ -1,7 +1,7 @@
 ---
 title: "GifGraphicsControlBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Gif 图形控制块."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Gif 图形控制块。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifGraphicsControlBlock extends GifBlock
 ```
 
-Gif 图形控制块.
+Gif 图形控制块。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,7 +24,7 @@ Gif 图形控制块.
 
 | 字段 | 描述 |
 | --- | --- |
-| [BLOCK_HEADER_SIZE](#BLOCK-HEADER-SIZE) | 指定块头大小。 |
+| [BLOCK_HEADER_SIZE](#BLOCK-HEADER-SIZE) | 指定块头部大小。 |
 | [EXTENSION_LABEL](#EXTENSION-LABEL) | 扩展标签。 |
 | [SUB_BLOCK_SIZE](#SUB-BLOCK-SIZE) | 获取子块大小。 |
 ## 方法
@@ -39,8 +39,8 @@ Gif 图形控制块.
 | [setTransparentColorIndex(byte value)](#setTransparentColorIndex-byte-) | 获取或设置透明颜色索引。 |
 | [getDisposalMethod()](#getDisposalMethod--) | 获取或设置处理方式。 |
 | [setDisposalMethod(int value)](#setDisposalMethod-int-) | 获取或设置处理方式。 |
-| [getUserInputExpected()](#getUserInputExpected--) | 获取或设置指示是否期望用户输入的值。 |
-| [setUserInputExpected(boolean value)](#setUserInputExpected-boolean-) | 获取或设置指示是否期望用户输入的值。 |
+| [getUserInputExpected()](#getUserInputExpected--) | 获取或设置指示是否需要用户输入的值。 |
+| [setUserInputExpected(boolean value)](#setUserInputExpected-boolean-) | 获取或设置指示是否需要用户输入的值。 |
 | [hasTransparentColor()](#hasTransparentColor--) | 获取或设置指示图形控制块是否具有透明颜色的值。 |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | 获取或设置指示图形控制块是否具有透明颜色的值。 |
 | [createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod)](#createFlags-boolean-boolean-int-) | 创建标志。 |
@@ -64,7 +64,7 @@ public GifGraphicsControlBlock(byte flags, int delayTime, byte transparentColorI
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 标志 | byte | 标志。 |
-| delayTime | int | 以 1/100 秒表示的延迟时间。 |
+| delayTime | int | 延迟时间，以百分之一秒为单位表示。 |
 | transparentColorIndex | byte | 透明颜色索引。 |
 
 ### GifGraphicsControlBlock(int delayTime, boolean hasTransparentColor, byte transparentColorIndex, boolean requiresUserInput, int disposalMethod) {#GifGraphicsControlBlock-int-boolean-byte-boolean-int-}
@@ -78,11 +78,11 @@ public GifGraphicsControlBlock(int delayTime, boolean hasTransparentColor, byte 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| delayTime | int | 以 1/100 秒表示的延迟时间。 |
+| delayTime | int | 延迟时间，以百分之一秒为单位表示。 |
 | hasTransparentColor | boolean | 如果设置为 `true`，则 `transparentColorIndex` 有效。 |
 | transparentColorIndex | byte | 透明颜色索引。 |
-| requiresUserInput | boolean | 如果设置为 `true`，则期望用户输入。 |
-| disposalMethod | int | 释放方法。 |
+| requiresUserInput | boolean | 如果设置为 `true`，则需要用户输入。 |
+| disposalMethod | int | 处理方式。 |
 
 ### BLOCK_HEADER_SIZE {#BLOCK-HEADER-SIZE}
 ```
@@ -90,7 +90,7 @@ public static final int BLOCK_HEADER_SIZE
 ```
 
 
-指定块头大小。
+指定块头部大小。
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
 ```
@@ -129,7 +129,7 @@ public void setDelayTime(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -156,7 +156,7 @@ public void setFlags(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getTransparentColorIndex() {#getTransparentColorIndex--}
 ```
@@ -183,7 +183,7 @@ public void setTransparentColorIndex(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getDisposalMethod() {#getDisposalMethod--}
 ```
@@ -193,7 +193,7 @@ public int getDisposalMethod()
 
 获取或设置处理方式。
 
-值：释放方法。
+值：处理方式。
 
 **Returns:**
 int
@@ -205,12 +205,12 @@ public void setDisposalMethod(int value)
 
 获取或设置处理方式。
 
-值：释放方法。
+值：处理方式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getUserInputExpected() {#getUserInputExpected--}
 ```
@@ -218,9 +218,9 @@ public boolean getUserInputExpected()
 ```
 
 
-获取或设置指示是否期望用户输入的值。
+获取或设置指示是否需要用户输入的值。
 
-值：如果期望用户输入则为 `true`；否则为 `false`。
+值：如果需要用户输入则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -230,14 +230,14 @@ public void setUserInputExpected(boolean value)
 ```
 
 
-获取或设置指示是否期望用户输入的值。
+获取或设置指示是否需要用户输入的值。
 
-值：如果期望用户输入则为 `true`；否则为 `false`。
+值：如果需要用户输入则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### hasTransparentColor() {#hasTransparentColor--}
 ```
@@ -264,7 +264,7 @@ public void setTransparentColor(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod) {#createFlags-boolean-boolean-int-}
 ```
@@ -278,8 +278,8 @@ public static byte createFlags(boolean hasTransparentColor, boolean requiresUser
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | hasTransparentColor | boolean | 如果设置为 `true`，则 `GifGraphicsControlBlock` 具有有效的透明颜色索引。 |
-| requiresUserInput | boolean | 如果设置为 `true`，则期望用户输入。 |
-| disposalMethod | int | 释放方法。 |
+| requiresUserInput | boolean | 如果设置为 `true`，则需要用户输入。 |
+| disposalMethod | int | 处理方式。 |
 
 **Returns:**
 byte - 生成的标志。

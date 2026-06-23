@@ -1,6 +1,6 @@
 ---
 title: "IImageLoader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像加载器。"
 type: docs
 weight: 133

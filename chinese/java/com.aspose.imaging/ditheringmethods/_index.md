@@ -1,6 +1,6 @@
 ---
 title: "DitheringMethods"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于控制颜色转换的抖动方法。"
 type: docs
 weight: 42
@@ -18,7 +18,7 @@ public final class DitheringMethods extends System.Enum
 | 字段 | 描述 |
 | --- | --- |
 | [PaletteIgnore](#PaletteIgnore) | 调色板被忽略 |
-| [PaletteConversion](#PaletteConversion) | 调色板未被忽略，且应进行明智的颜色转换。 |
+| [PaletteConversion](#PaletteConversion) | 调色板未被忽略，并且应进行明智的颜色转换。 |
 | [CustomConverter](#CustomConverter) | 自定义转换器。 |
 ### PaletteIgnore {#PaletteIgnore}
 ```
@@ -34,7 +34,7 @@ public static final int PaletteConversion
 ```
 
 
-调色板未被忽略，且应进行明智的颜色转换。
+调色板未被忽略，并且应进行明智的颜色转换。
 
 ### CustomConverter {#CustomConverter}
 ```

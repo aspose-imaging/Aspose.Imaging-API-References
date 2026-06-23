@@ -1,6 +1,6 @@
 ---
 title: "JpegExifData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于 jpeg 文件的 EXIF 数据容器。"
 type: docs
 weight: 12
@@ -18,9 +18,9 @@ public final class JpegExifData extends ExifData
 | 构造函数 | 描述 |
 | --- | --- |
 | [JpegExifData()](#JpegExifData--) | 初始化 `JpegExifData` 类的新实例。 |
-| [JpegExifData(TiffDataType[] exifData)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 使用数组数据初始化 `JpegExifData` 类的新实例。 |
-| [JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | 使用数组数据初始化 `JpegExifData` 类的新实例。 |
-| [JpegExifData(ExifData exifData)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | 使用数组数据初始化 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) 类的新实例。 |
+| [JpegExifData(TiffDataType[] exifData)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 使用数组中的数据初始化 `JpegExifData` 类的新实例。 |
+| [JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | 使用数组中的数据初始化 `JpegExifData` 类的新实例。 |
+| [JpegExifData(ExifData exifData)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | 使用数组中的数据初始化 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) 类的新实例。 |
 ## 字段
 
 | 字段 | 描述 |
@@ -54,12 +54,12 @@ public final class JpegExifData extends ExifData
 | [setPlanarConfiguration(int value)](#setPlanarConfiguration-int-) | 获取或设置平面配置。 |
 | [getPrimaryChromaticities()](#getPrimaryChromaticities--) | 获取或设置图像三原色的色度。 |
 | [setPrimaryChromaticities(TiffRational[] value)](#setPrimaryChromaticities-com.aspose.imaging.fileformats.tiff.TiffRational---) | 获取或设置图像三原色的色度。 |
-| [getReferenceBlackWhite()](#getReferenceBlackWhite--) | 获取或设置参考黑白值。 |
-| [setReferenceBlackWhite(TiffRational[] value)](#setReferenceBlackWhite-com.aspose.imaging.fileformats.tiff.TiffRational---) | 获取或设置参考黑白值。 |
+| [getReferenceBlackWhite()](#getReferenceBlackWhite--) | 获取或设置参考黑白。 |
+| [setReferenceBlackWhite(TiffRational[] value)](#setReferenceBlackWhite-com.aspose.imaging.fileformats.tiff.TiffRational---) | 获取或设置参考黑白。 |
 | [getResolutionUnit()](#getResolutionUnit--) | 获取或设置分辨率单位。 |
 | [setResolutionUnit(int value)](#setResolutionUnit-int-) | 获取或设置分辨率单位。 |
-| [getSamplesPerPixel()](#getSamplesPerPixel--) | 获取或设置每像素的样本数。 |
-| [setSamplesPerPixel(int value)](#setSamplesPerPixel-int-) | 获取或设置每像素的样本数。 |
+| [getSamplesPerPixel()](#getSamplesPerPixel--) | 获取或设置每像素样本数。 |
+| [setSamplesPerPixel(int value)](#setSamplesPerPixel-int-) | 获取或设置每像素样本数。 |
 | [getSoftware()](#getSoftware--) | 获取或设置软件信息。 |
 | [setSoftware(String value)](#setSoftware-java.lang.String-) | 获取或设置软件信息。 |
 | [getTransferFunction()](#getTransferFunction--) | 获取或设置传输函数。 |
@@ -70,8 +70,8 @@ public final class JpegExifData extends ExifData
 | [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | 获取或设置从 RGB 到 YCbCr 图像数据转换的矩阵系数。 |
 | [getYCbCrPositioning()](#getYCbCrPositioning--) | 获取或设置色度分量相对于亮度分量的位置。 |
 | [setYCbCrPositioning(int value)](#setYCbCrPositioning-int-) | 获取或设置色度分量相对于亮度分量的位置。 |
-| [getYCbCrSubSampling()](#getYCbCrSubSampling--) | 获取或设置色度分量相对于亮度分量的采样比率。 |
-| [setYCbCrSubSampling(int[] value)](#setYCbCrSubSampling-int---) | 获取或设置色度分量相对于亮度分量的采样比率。 |
+| [getYCbCrSubSampling()](#getYCbCrSubSampling--) | 获取或设置色度分量相对于亮度分量的采样比例。 |
+| [setYCbCrSubSampling(int[] value)](#setYCbCrSubSampling-int---) | 获取或设置色度分量相对于亮度分量的采样比例。 |
 | [getYResolution()](#getYResolution--) | 获取或设置 Y 分辨率。 |
 | [setYResolution(TiffRational value)](#setYResolution-com.aspose.imaging.fileformats.tiff.TiffRational-) | 获取或设置 Y 分辨率。 |
 | [serializeExifData()](#serializeExifData--) | 序列化 EXIF 数据。 |
@@ -89,12 +89,12 @@ public JpegExifData(TiffDataType[] exifData)
 ```
 
 
-使用数组数据初始化 `JpegExifData` 类的新实例。
+使用数组中的数据初始化 `JpegExifData` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| exifData | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | 包含公共标签和 GPS 标签的 EXIF 标签数组。 |
+| exifData | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | 包含公共和 GPS 标签的 EXIF 标签数组。 |
 
 ### JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags) {#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
@@ -102,7 +102,7 @@ public JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffData
 ```
 
 
-使用数组数据初始化 `JpegExifData` 类的新实例。
+使用数组中的数据初始化 `JpegExifData` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -117,12 +117,12 @@ public JpegExifData(ExifData exifData)
 ```
 
 
-使用数组数据初始化 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) 类的新实例。
+使用数组中的数据初始化 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| exifData | [ExifData](../../com.aspose.imaging.exif/exifdata) | 包含公共标签和 GPS 标签的 EXIF 标签数组。 |
+| exifData | [ExifData](../../com.aspose.imaging.exif/exifdata) | 包含公共和 GPS 标签的 EXIF 标签数组。 |
 
 ### MAX_EXIF_SEGMENT_SIZE {#MAX-EXIF-SEGMENT-SIZE}
 ```
@@ -157,7 +157,7 @@ public void setArtist(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getBitsPerSample() {#getBitsPerSample--}
 ```
@@ -184,7 +184,7 @@ public void setBitsPerSample(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getCompression() {#getCompression--}
 ```
@@ -211,7 +211,7 @@ public void setCompression(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCopyright() {#getCopyright--}
 ```
@@ -238,7 +238,7 @@ public void setCopyright(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getDateTime() {#getDateTime--}
 ```
@@ -265,7 +265,7 @@ public void setDateTime(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getImageDescription() {#getImageDescription--}
 ```
@@ -292,7 +292,7 @@ public void setImageDescription(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getImageLength() {#getImageLength--}
 ```
@@ -302,7 +302,7 @@ public long getImageLength()
 
 获取或设置图像长度。
 
-值：图像的长度。
+值：图像长度。
 
 **Returns:**
 long
@@ -314,12 +314,12 @@ public void setImageLength(long value)
 
 获取或设置图像长度。
 
-值：图像的长度。
+值：图像长度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getImageWidth() {#getImageWidth--}
 ```
@@ -329,7 +329,7 @@ public long getImageWidth()
 
 获取或设置图像宽度。
 
-值：图像的宽度。
+值：图像宽度。
 
 **Returns:**
 long
@@ -341,12 +341,12 @@ public void setImageWidth(long value)
 
 获取或设置图像宽度。
 
-值：图像的宽度。
+值：图像宽度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getModel() {#getModel--}
 ```
@@ -356,7 +356,7 @@ public String getModel()
 
 获取或设置型号。
 
-值：模型。
+值：型号。
 
 **Returns:**
 java.lang.String
@@ -368,12 +368,12 @@ public void setModel(String value)
 
 获取或设置型号。
 
-值：模型。
+值：型号。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getPhotometricInterpretation() {#getPhotometricInterpretation--}
 ```
@@ -400,7 +400,7 @@ public void setPhotometricInterpretation(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPlanarConfiguration() {#getPlanarConfiguration--}
 ```
@@ -427,7 +427,7 @@ public void setPlanarConfiguration(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPrimaryChromaticities() {#getPrimaryChromaticities--}
 ```
@@ -462,9 +462,9 @@ public TiffRational[] getReferenceBlackWhite()
 ```
 
 
-获取或设置参考黑白值。
+获取或设置参考黑白。
 
-值：参考的黑白。
+值：参考黑白。
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffRational[]
@@ -474,9 +474,9 @@ public void setReferenceBlackWhite(TiffRational[] value)
 ```
 
 
-获取或设置参考黑白值。
+获取或设置参考黑白。
 
-值：参考的黑白。
+值：参考黑白。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -508,7 +508,7 @@ public void setResolutionUnit(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSamplesPerPixel() {#getSamplesPerPixel--}
 ```
@@ -516,7 +516,7 @@ public int getSamplesPerPixel()
 ```
 
 
-获取或设置每像素的样本数。
+获取或设置每像素样本数。
 
 值：每像素的样本数。
 
@@ -528,14 +528,14 @@ public void setSamplesPerPixel(int value)
 ```
 
 
-获取或设置每像素的样本数。
+获取或设置每像素样本数。
 
 值：每像素的样本数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSoftware() {#getSoftware--}
 ```
@@ -562,7 +562,7 @@ public void setSoftware(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getTransferFunction() {#getTransferFunction--}
 ```
@@ -589,7 +589,7 @@ public void setTransferFunction(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getXResolution() {#getXResolution--}
 ```
@@ -599,7 +599,7 @@ public TiffRational getXResolution()
 
 获取或设置 X 分辨率。
 
-值： x 分辨率。
+值：x 分辨率。
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational)
@@ -611,7 +611,7 @@ public void setXResolution(TiffRational value)
 
 获取或设置 X 分辨率。
 
-值： x 分辨率。
+值：x 分辨率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -670,7 +670,7 @@ public void setYCbCrPositioning(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getYCbCrSubSampling() {#getYCbCrSubSampling--}
 ```
@@ -678,9 +678,9 @@ public int[] getYCbCrSubSampling()
 ```
 
 
-获取或设置色度分量相对于亮度分量的采样比率。
+获取或设置色度分量相对于亮度分量的采样比例。
 
-值：色度分量相对于亮度分量的采样比率。
+值：色度分量相对于亮度分量的采样比例。
 
 **Returns:**
 int[]
@@ -690,14 +690,14 @@ public void setYCbCrSubSampling(int[] value)
 ```
 
 
-获取或设置色度分量相对于亮度分量的采样比率。
+获取或设置色度分量相对于亮度分量的采样比例。
 
-值：色度分量相对于亮度分量的采样比率。
+值：色度分量相对于亮度分量的采样比例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getYResolution() {#getYResolution--}
 ```
@@ -707,7 +707,7 @@ public TiffRational getYResolution()
 
 获取或设置 Y 分辨率。
 
-值： y 分辨率。
+值：y 分辨率。
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational)
@@ -719,7 +719,7 @@ public void setYResolution(TiffRational value)
 
 获取或设置 Y 分辨率。
 
-值： y 分辨率。
+值：y 分辨率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -732,9 +732,9 @@ public byte[] serializeExifData()
 ```
 
 
-序列化 EXIF 数据。写入标签的值和内容。最影响大小的标签是缩略图标签内容。
+序列化 EXIF 数据。写入标签值和内容。最影响大小的标签是缩略图标签内容。
 
 **Returns:**
-byte[] - 序列化的 EXIF 数据。
+byte[] - 已序列化的 EXIF 数据。
 
-整体段大小必须小于或等于 MaxExifSegmentSize 字节，以生成正确的 jpeg 图像。提示：尝试减小缩略图大小或更改其压缩，以防 EXIF 部分大小过大。
+整体段大小必须小于或等于 MaxExifSegmentSize 字节，以生成正确的 jpeg 图像。提示：如果 EXIF 部分大小过大，请尝试减小缩略图尺寸或更改其压缩方式。

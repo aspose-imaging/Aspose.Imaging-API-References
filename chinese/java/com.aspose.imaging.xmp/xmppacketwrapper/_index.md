@@ -1,7 +1,7 @@
 ---
 title: "XmpPacketWrapper"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "包含包括头部和尾部的已序列化 XMP 包。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "包含包括标头和尾部的序列化 XMP 包。"
 type: docs
 weight: 21
 url: /zh/java/com.aspose.imaging.xmp/xmppacketwrapper/
@@ -15,9 +15,9 @@ java.lang.Object
 public class XmpPacketWrapper implements IXmlValue, IImageMetadataFormat
 ```
 
-包含包括头部和尾部的已序列化 XMP 包。
+包含包括标头和尾部的序列化 XMP 包。
 
-一个包装器，由一对 XML 处理指令（PIs）组成，可放置在 rdf:RDF 元素周围。
+一个由一对 XML 处理指令（PIs）组成的包装器可以放置在 rdf:RDF 元素周围。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -28,13 +28,13 @@ public class XmpPacketWrapper implements IXmlValue, IImageMetadataFormat
 
 | 方法 | 描述 |
 | --- | --- |
-| [getHeaderPi()](#getHeaderPi--) | 获取标题处理指令。 |
+| [getHeaderPi()](#getHeaderPi--) | 获取头部处理指令。 |
 | [getMeta()](#getMeta--) | 获取 XMP 元数据。 |
 | [setMeta(XmpMeta value)](#setMeta-com.aspose.imaging.xmp.XmpMeta-) | 设置 XMP 元数据。 |
 | [getTrailerPi()](#getTrailerPi--) | 获取尾部处理指令。 |
 | [getPackages()](#getPackages--) | 获取 XMP 中的 `XmpPackage` 数组。 |
 | [getPackagesCount()](#getPackagesCount--) | 获取 XMP 结构中包的数量。 |
-| [addPackage(XmpPackage package_)](#addPackage-com.aspose.imaging.xmp.XmpPackage-) | 添加包。 |
+| [addPackage(XmpPackage package_)](#addPackage-com.aspose.imaging.xmp.XmpPackage-) | 添加该包。 |
 | [getPackage(String namespaceUri)](#getPackage-java.lang.String-) | 通过命名空间 URI 获取包。 |
 | [containsPackage(String namespaceUri)](#containsPackage-java.lang.String-) | 确定包是否存在于 XMP 包装器中。 |
 | [removePackage(XmpPackage package_)](#removePackage-com.aspose.imaging.xmp.XmpPackage-) | 移除 XMP 包。 |
@@ -52,7 +52,7 @@ public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMet
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| header | [XmpHeaderPi](../../com.aspose.imaging.xmp/xmpheaderpi) | 处理指令的 XMP 标头。 |
+| header | [XmpHeaderPi](../../com.aspose.imaging.xmp/xmpheaderpi) | 处理指令的 XMP 头部。 |
 | trailer | [XmpTrailerPi](../../com.aspose.imaging.xmp/xmptrailerpi) | 处理指令的 XMP 尾部。 |
 | xmpMeta | [XmpMeta](../../com.aspose.imaging.xmp/xmpmeta) | XMP 元数据。 |
 
@@ -70,7 +70,7 @@ public XmpHeaderPi getHeaderPi()
 ```
 
 
-获取标题处理指令。
+获取头部处理指令。
 
 **Returns:**
 [XmpHeaderPi](../../com.aspose.imaging.xmp/xmpheaderpi) - The Header processing instruction.
@@ -133,7 +133,7 @@ public void addPackage(XmpPackage package_)
 ```
 
 
-添加包。
+添加该包。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -166,7 +166,7 @@ public boolean containsPackage(String namespaceUri)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| namespaceUri | java.lang.String | 包模式 URI。 |
+| namespaceUri | java.lang.String | 包架构 URI。 |
 
 **Returns:**
 boolean - 如果在 XMP 包装器中存在具有指定命名空间 Uri 的包，则返回 true。
@@ -200,7 +200,7 @@ public String getXmlValue()
 将 XMP 值转换为 XML 表示形式。
 
 **Returns:**
-java.lang.String - 返回转换为 XML 的 XMP 值。
+java.lang.String - 返回转换后的 XMP 值为 XML。
 ### toString() {#toString--}
 ```
 public String toString()

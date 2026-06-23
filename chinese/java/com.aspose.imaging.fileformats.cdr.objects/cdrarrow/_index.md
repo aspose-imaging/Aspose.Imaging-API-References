@@ -1,6 +1,6 @@
 ---
 title: "CdrArrow"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 箭头"
 type: docs
 weight: 10
@@ -76,5 +76,5 @@ public final void setPointTypes(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 点类型。 |
+| 值 | byte[] | 点类型。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "MetafileRecorderGraphics2D"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "元文件记录器图形"
 type: docs
 weight: 11
@@ -28,22 +28,22 @@ public abstract class MetafileRecorderGraphics2D
 | [getBackgroundColor()](#getBackgroundColor--) | 获取背景颜色。 |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | 设置背景颜色。 |
 | [clear()](#clear--) | 清除 graphics 对象的状态 |
-| [drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)](#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-) | 绘制由 Rectangle 结构指定的椭圆的一部分弧线。 |
+| [drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)](#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-) | 绘制由 Rectangle 结构指定的椭圆部分的弧线。 |
 | [drawCubicBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)](#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-) | 绘制三次贝塞尔曲线。 |
 | [drawPolyCubicBezier(Pen pen, Point[] points)](#drawPolyCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | 绘制多段三次贝塞尔曲线。 |
 | [drawEllipse(Pen pen, Rectangle rect)](#drawEllipse-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-) | 绘制椭圆。 |
 | [fillEllipse(Brush brush, Rectangle rect)](#fillEllipse-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | 填充椭圆。 |
-| [drawImage(RasterImage image, Point location)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-) | 在指定位置绘制指定的 Image，使用其原始物理尺寸。 |
+| [drawImage(RasterImage image, Point location)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-) | 在指定位置绘制指定的图像，使用其原始物理尺寸。 |
 | [drawImage(byte[] imageBytes, Rectangle destRect, int srcUnit)](#drawImage-byte---com.aspose.imaging.Rectangle-int-) | 绘制图像。 |
 | [drawImage(InputStream stream, Rectangle destRect, int srcUnit)](#drawImage-java.io.InputStream-com.aspose.imaging.Rectangle-int-) | 绘制图像。 |
-| [drawImage(RasterImage image, Rectangle destRect, Rectangle srcRect, int srcUnit)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-int-) | 在指定位置并使用指定尺寸绘制指定 Image 的指定部分。 |
+| [drawImage(RasterImage image, Rectangle destRect, Rectangle srcRect, int srcUnit)](#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-int-) | 在指定位置以指定尺寸绘制指定图像的指定部分。 |
 | [drawLine(Pen pen, int x1, int y1, int x2, int y2)](#drawLine-com.aspose.imaging.Pen-int-int-int-int-) | 绘制直线。 |
 | [drawLine(Pen pen, Point pt1, Point pt2)](#drawLine-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-) | 绘制直线。 |
 | [drawPolyline(Pen pen, Point[] points)](#drawPolyline-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | 绘制折线。 |
 | [drawPath(Pen pen, GraphicsPath path)](#drawPath-com.aspose.imaging.Pen-com.aspose.imaging.GraphicsPath-) | 绘制路径。 |
 | [fillPath(Pen pen, Brush brush, GraphicsPath path)](#fillPath-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.GraphicsPath-) | 填充路径。 |
 | [drawPie(Pen pen, Rectangle rect, float startAngle, float sweepAngle)](#drawPie-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-) | 绘制饼形。 |
-| [fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-) | 填充饼图。 |
+| [fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAngle)](#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-) | 填充饼形。 |
 | [drawPolygon(Pen pen, Point[] points)](#drawPolygon-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | 绘制多边形。 |
 | [fillPolygon(Brush brush, Point[] points)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---) | 填充多边形。 |
 | [fillPolygon(Brush brush, Point[] points, int fillMode)](#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-) | 填充多边形。 |
@@ -52,19 +52,19 @@ public abstract class MetafileRecorderGraphics2D
 | [fillRectangle(Brush brush, Rectangle rectangle)](#fillRectangle-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-) | 填充矩形。 |
 | [drawString(String string, Font font, Color color, int x, int y)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Color-int-int-) | 绘制字符串。 |
 | [drawString(String string, Font font, Color color, int x, int y, float angle)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Color-int-int-float-) | 绘制字符串。 |
-| [excludeClip(Rectangle rect)](#excludeClip-com.aspose.imaging.Rectangle-) | 更新此 Graphics 的剪辑区域，以排除由 Rectangle 结构指定的区域。 |
-| [excludeClip(Region region)](#excludeClip-com.aspose.imaging.Region-) | 更新此 Graphics 的剪辑区域，以排除由 Region 指定的区域。 |
-| [intersectClip(RectangleF rect)](#intersectClip-com.aspose.imaging.RectangleF-) | 更新此 Graphics 的剪辑区域，使其为当前剪辑区域与指定的 Rectangle 结构的交集。 |
-| [intersectClip(Region region)](#intersectClip-com.aspose.imaging.Region-) | 更新此 Graphics 的剪辑区域，使其为当前剪辑区域与指定的 Region 的交集。 |
-| [resetClip()](#resetClip--) | 重置剪辑。 |
+| [excludeClip(Rectangle rect)](#excludeClip-com.aspose.imaging.Rectangle-) | 更新此 Graphics 的剪裁区域，以排除由 Rectangle 结构指定的区域。 |
+| [excludeClip(Region region)](#excludeClip-com.aspose.imaging.Region-) | 更新此 Graphics 的剪裁区域，以排除由 Region 指定的区域。 |
+| [intersectClip(RectangleF rect)](#intersectClip-com.aspose.imaging.RectangleF-) | 更新此 Graphics 的剪裁区域，使其为当前剪裁区域与指定的 Rectangle 结构的交集。 |
+| [intersectClip(Region region)](#intersectClip-com.aspose.imaging.Region-) | 更新此 Graphics 的剪裁区域，使其为当前剪裁区域与指定的 Region 的交集。 |
+| [resetClip()](#resetClip--) | 重置剪裁。 |
 | [multiplyTransform(Matrix matrix)](#multiplyTransform-com.aspose.imaging.Matrix-) | 将此 Graphics 的世界变换与指定的矩阵相乘。 |
 | [multiplyTransform(Matrix matrix, int order)](#multiplyTransform-com.aspose.imaging.Matrix-int-) | 按指定顺序将此 Graphics 的世界变换与指定的矩阵相乘。 |
 | [translateTransform(float x, float y)](#translateTransform-float-float-) | 通过在此 Graphics 的变换矩阵前置指定的平移来更改坐标系的原点。 |
 | [translateTransform(float x, float y, int order)](#translateTransform-float-float-int-) | 按指定顺序将指定的平移应用于此 Graphics 的变换矩阵，以更改坐标系的原点。 |
 | [rotateTransform(float angle)](#rotateTransform-float-) | 将指定的旋转应用于此 Graphics 的变换矩阵。 |
 | [rotateTransform(float angle, PointF center, int order)](#rotateTransform-float-com.aspose.imaging.PointF-int-) | 按指定顺序将指定的旋转应用于此 Graphics 的变换矩阵。 |
-| [scaleTransform(float sx, float sy)](#scaleTransform-float-float-) | 通过在对象的变换矩阵前置指定的缩放操作，将其应用于此 Graphics 的变换矩阵。 |
-| [scaleTransform(float sx, float sy, int order)](#scaleTransform-float-float-int-) | 按指定顺序将指定的缩放操作应用于此 Graphics 的变换矩阵。 |
+| [scaleTransform(float sx, float sy)](#scaleTransform-float-float-) | 通过将指定的缩放操作前置到对象的变换矩阵中，应用于此 Graphics 的变换矩阵。 |
+| [scaleTransform(float sx, float sy, int order)](#scaleTransform-float-float-int-) | 按照指定顺序，将指定的缩放操作应用于此 Graphics 的变换矩阵。 |
 | [getTransform()](#getTransform--) | 获取世界变换。 |
 | [setTransform(Matrix transform)](#setTransform-com.aspose.imaging.Matrix-) | 设置变换。 |
 
@@ -90,19 +90,19 @@ com.aspose.imaging.fileformats.emf.graphics.EmfRecorderGraphics2D graphics =
                 new com.aspose.imaging.Size(deviceWidth, deviceHeight),
                 new com.aspose.imaging.Size(deviceWidthMm, deviceHeightMm));
 
-// 使用 1 像素宽的黑色笔在图像边框上绘制一个黑色矩形。
+// 使用 1 像素宽的黑色笔在图像边框上绘制黑色矩形。
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, deviceWidth, deviceHeight);
 
-// 使用白烟色填充矩形。
+// 使用 white-smoke 颜色填充矩形。
 graphics.fillRectangle(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()),
         new com.aspose.imaging.Rectangle(10, 10, 580, 380));
 
-// 使用 1 像素宽的深绿色笔绘制两条对角线。
+// 使用 1 像素宽的 darkgreen 笔绘制两条对角线。
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, 0, deviceWidth, deviceHeight);
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, deviceHeight, deviceWidth, 0);
 
-// 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
+// 使用 2 像素宽的 blue 笔在矩形 {0, 0, 200, 200} 内绘制弧线。
 graphics.drawArc(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlue(), 2), new com.aspose.imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
 // 填充弧线
@@ -110,7 +110,7 @@ graphics.fillPie(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// 使用 2 像素宽的红色笔绘制三次贝塞尔曲线。
+// 使用 2 像素宽的 red 笔绘制三次贝塞尔曲线。
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(200, 133),
@@ -160,7 +160,7 @@ figureToFill.addShapes(new com.aspose.imaging.Shape[]
                 new com.aspose.imaging.shapes.RectangleShape(new com.aspose.imaging.RectangleF(0, 100, 200, 200)),
         });
 
-// 使用黄色画刷填充路径，并使用绿色笔绘制轮廓
+// 使用黄色画刷和绿色笔填充路径并绘制轮廓
 graphics.fillPath(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getGreen(), 2),
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getYellow()), pathToFill);
@@ -219,7 +219,7 @@ public void setClip(Region value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Region](../../com.aspose.imaging/region) | 剪辑区域。 |
+| value | [Region](../../com.aspose.imaging/region) | 剪裁区域。 |
 
 ### getClipBounds() {#getClipBounds--}
 ```
@@ -268,7 +268,7 @@ public void drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)
 ```
 
 
-绘制由 Rectangle 结构指定的椭圆的一部分弧线。
+绘制由 Rectangle 结构指定的椭圆部分的弧线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -276,7 +276,7 @@ public void drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)
 | pen | [Pen](../../com.aspose.imaging/pen) | 确定图形颜色、宽度和样式的笔。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 椭圆的边界。 |
 | startAngle | float | 从 x 轴顺时针测量到弧起始点的角度（度）。 |
-| arcAngle | float | 角度（以度为单位），从 startAngle 参数顺时针测量到弧的结束点。 |
+| arcAngle | float | 从 startAngle 参数顺时针测量到弧结束点的角度（度）。 |
 
 ### drawCubicBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4) {#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-}
 ```
@@ -334,7 +334,7 @@ public void fillEllipse(Brush brush, Rectangle rect)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | 决定填充特性的画刷。 |
+| brush | [Brush](../../com.aspose.imaging/brush) | 确定填充特性的画刷。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 椭圆的边界。 |
 
 ### drawImage(RasterImage image, Point location) {#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-}
@@ -343,13 +343,13 @@ public void drawImage(RasterImage image, Point location)
 ```
 
 
-在指定位置绘制指定的 Image，使用其原始物理尺寸。
+在指定位置绘制指定的图像，使用其原始物理尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 要绘制的图像。 |
-| location | [Point](../../com.aspose.imaging/point) | 已绘制图像左上角的位置。 |
+| location | [Point](../../com.aspose.imaging/point) | 绘制图像左上角的位置。 |
 
 ### drawImage(byte[] imageBytes, Rectangle destRect, int srcUnit) {#drawImage-byte---com.aspose.imaging.Rectangle-int-}
 ```
@@ -387,13 +387,13 @@ public void drawImage(RasterImage image, Rectangle destRect, Rectangle srcRect, 
 ```
 
 
-在指定位置并使用指定尺寸绘制指定 Image 的指定部分。
+在指定位置以指定尺寸绘制指定图像的指定部分。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 要绘制的图像。 |
-| destRect | [Rectangle](../../com.aspose.imaging/rectangle) | 指定已绘制图像位置和大小的矩形结构。图像会按比例缩放以适应该矩形。 |
+| destRect | [Rectangle](../../com.aspose.imaging/rectangle) | 指定绘制图像位置和大小的矩形结构。图像会按比例缩放以适应该矩形。 |
 | srcRect | [Rectangle](../../com.aspose.imaging/rectangle) | 指定要绘制的图像对象部分的矩形结构。 |
 | srcUnit | int | srcRect 参数使用的度量单位。 |
 
@@ -469,7 +469,7 @@ public void fillPath(Pen pen, Brush brush, GraphicsPath path)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pen | [Pen](../../com.aspose.imaging/pen) | 确定图形颜色、宽度和样式的笔。 |
-| brush | [Brush](../../com.aspose.imaging/brush) | 决定填充特性的画刷。 |
+| brush | [Brush](../../com.aspose.imaging/brush) | 确定填充特性的画刷。 |
 | path | [GraphicsPath](../../com.aspose.imaging/graphicspath) | 要填充的路径。 |
 
 ### drawPie(Pen pen, Rectangle rect, float startAngle, float sweepAngle) {#drawPie-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-}
@@ -486,7 +486,7 @@ public void drawPie(Pen pen, Rectangle rect, float startAngle, float sweepAngle)
 | pen | [Pen](../../com.aspose.imaging/pen) | 确定图形颜色、宽度和样式的笔。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 椭圆的边界。 |
 | startAngle | float | 从 x 轴顺时针测量到弧起始点的角度（度）。 |
-| sweepAngle | float | 角度（以度为单位），从 startAngle 参数顺时针测量到弧的结束点。 |
+| sweepAngle | float | 从 startAngle 参数顺时针测量到弧结束点的角度（度）。 |
 
 ### fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAngle) {#fillPie-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-}
 ```
@@ -494,15 +494,15 @@ public void fillPie(Brush brush, Rectangle rect, float startAngle, float sweepAn
 ```
 
 
-填充饼图。
+填充饼形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | 决定填充特性的画刷。 |
+| brush | [Brush](../../com.aspose.imaging/brush) | 确定填充特性的画刷。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 椭圆的边界。 |
 | startAngle | float | 从 x 轴顺时针测量到弧起始点的角度（度）。 |
-| sweepAngle | float | 角度（以度为单位），从 startAngle 参数顺时针测量到弧的结束点。 |
+| sweepAngle | float | 从 startAngle 参数顺时针测量到弧结束点的角度（度）。 |
 
 ### drawPolygon(Pen pen, Point[] points) {#drawPolygon-com.aspose.imaging.Pen-com.aspose.imaging.Point---}
 ```
@@ -529,7 +529,7 @@ public void fillPolygon(Brush brush, Point[] points)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | 决定填充特性的画刷。 |
+| brush | [Brush](../../com.aspose.imaging/brush) | 确定填充特性的画刷。 |
 | points | [Point\[\]](../../com.aspose.imaging/point) | 这些点。 |
 
 ### fillPolygon(Brush brush, Point[] points, int fillMode) {#fillPolygon-com.aspose.imaging.Brush-com.aspose.imaging.Point---int-}
@@ -543,7 +543,7 @@ public void fillPolygon(Brush brush, Point[] points, int fillMode)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | 决定填充特性的画刷。 |
+| brush | [Brush](../../com.aspose.imaging/brush) | 确定填充特性的画刷。 |
 | points | [Point\[\]](../../com.aspose.imaging/point) | 这些点。 |
 | fillMode | int | 填充模式。 |
 
@@ -561,8 +561,8 @@ public void drawRectangle(Pen pen, int x, int y, int width, int height)
 | pen | [Pen](../../com.aspose.imaging/pen) | 确定图形颜色、宽度和样式的笔。 |
 | x | int | 要绘制的矩形左上角的 x 坐标。 |
 | y | int | 要绘制的矩形左上角的 y 坐标。 |
-| 宽度 | int | 要绘制的矩形的宽度。 |
-| 高度 | int | 要绘制的矩形的高度。 |
+| width | int | 要绘制的矩形的宽度。 |
+| height | int | 要绘制的矩形的高度。 |
 
 ### drawRectangle(Pen pen, Rectangle rectangle) {#drawRectangle-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-}
 ```
@@ -589,7 +589,7 @@ public void fillRectangle(Brush brush, Rectangle rectangle)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | 决定填充特性的画刷。 |
+| brush | [Brush](../../com.aspose.imaging/brush) | 确定填充特性的画刷。 |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要填充的矩形。 |
 
 ### drawString(String string, Font font, Color color, int x, int y) {#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Color-int-int-}
@@ -624,7 +624,7 @@ try {
     int width = emfImage.getWidth();
     int height = emfImage.getHeight();
 
-    // 其次，计算一个变换，以将文本字符串沿图像的主对角线放置 -
+    // 其次，计算一个变换，以将文本字符串放置在图像的主对角线上 -
     // 从左上角到右下角。
     float emFontSize = 96f;
     float d = (float) java.lang.Math.sqrt(width * width + height * height);
@@ -641,12 +641,12 @@ try {
     // 然后，设置变换。
     graphics.setTransform(transform);
 
-    // 最后，将水印（粉色文本字符串）沿主对角线放置。
+    // 最后，在主对角线上放置水印（粉色文本字符串）。
     graphics.drawString("WATERMARK", new com.aspose.imaging.Font(
                     "Courier New", emFontSize),
             com.aspose.imaging.Color.getLightPink(), 0, 0/*, (float)degrees*/);
 
-    // 将带有水印的图像保存为另一个 EMF 文件。
+    // 将带有水印的图像保存到另一个 EMF 文件。
     com.aspose.imaging.fileformats.emf.EmfImage scaledEmfImage = graphics.endRecording();
     try {
         scaledEmfImage.save(dir + "test.scaled.emf");
@@ -674,7 +674,7 @@ public void drawString(String string, Font font, Color color, int x, int y, floa
 | color | [Color](../../com.aspose.imaging/color) | 文本颜色。 |
 | x | int | 已绘制文本左上角的 x 坐标。 |
 | y | int | 已绘制文本左上角的 y 坐标。 |
-| angle | float | 角度（以度为单位），介于转向向量与设备的 x 轴之间。转向向量与一行文本的基线平行。 |
+| angle | float | 角度（以度为单位），介于倾斜向量与设备的 x 轴之间。倾斜向量与文本行的基线平行。 |
 
 ### excludeClip(Rectangle rect) {#excludeClip-com.aspose.imaging.Rectangle-}
 ```
@@ -682,7 +682,7 @@ public void excludeClip(Rectangle rect)
 ```
 
 
-更新此 Graphics 的剪辑区域，以排除由 Rectangle 结构指定的区域。
+更新此 Graphics 的剪裁区域，以排除由 Rectangle 结构指定的区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -695,12 +695,12 @@ public void excludeClip(Region region)
 ```
 
 
-更新此 Graphics 的剪辑区域，以排除由 Region 指定的区域。
+更新此 Graphics 的剪裁区域，以排除由 Region 指定的区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| region | [Region](../../com.aspose.imaging/region) | 指定要从剪裁区域排除的区域的区域。 |
+| region | [Region](../../com.aspose.imaging/region) | 指定要从剪裁区域排除的区域。 |
 
 ### intersectClip(RectangleF rect) {#intersectClip-com.aspose.imaging.RectangleF-}
 ```
@@ -708,7 +708,7 @@ public void intersectClip(RectangleF rect)
 ```
 
 
-更新此 Graphics 的剪辑区域，使其为当前剪辑区域与指定的 Rectangle 结构的交集。
+更新此 Graphics 的剪裁区域，使其为当前剪裁区域与指定的 Rectangle 结构的交集。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -721,7 +721,7 @@ public void intersectClip(Region region)
 ```
 
 
-更新此 Graphics 的剪辑区域，使其为当前剪辑区域与指定的 Region 的交集。
+更新此 Graphics 的剪裁区域，使其为当前剪裁区域与指定的 Region 的交集。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -734,7 +734,7 @@ public void resetClip()
 ```
 
 
-重置剪辑。
+重置剪裁。
 
 ### multiplyTransform(Matrix matrix) {#multiplyTransform-com.aspose.imaging.Matrix-}
 ```
@@ -774,8 +774,8 @@ public void translateTransform(float x, float y)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | float | 平移的 x 坐标。 |
-| y | float | 平移的 y 坐标。 |
+| x | float | 平移的 X 坐标。 |
+| y | float | 平移的 Y 坐标。 |
 
 ### translateTransform(float x, float y, int order) {#translateTransform-float-float-int-}
 ```
@@ -788,9 +788,9 @@ public void translateTransform(float x, float y, int order)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | float | 平移的 x 坐标。 |
-| y | float | 平移的 y 坐标。 |
-| order | int | 指定平移是前置还是后置到变换矩阵。 |
+| x | float | 平移的 X 坐标。 |
+| y | float | 平移的 Y 坐标。 |
+| order | int | 指定平移是预先添加到还是后附加到变换矩阵。 |
 
 ### rotateTransform(float angle) {#rotateTransform-float-}
 ```
@@ -803,7 +803,7 @@ public void rotateTransform(float angle)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| angle | float | 旋转角度（以度为单位）。 |
+| angle | float | 以度为单位的旋转角度。 |
 
 ### rotateTransform(float angle, PointF center, int order) {#rotateTransform-float-com.aspose.imaging.PointF-int-}
 ```
@@ -816,9 +816,9 @@ public void rotateTransform(float angle, PointF center, int order)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| angle | float | 旋转角度（以度为单位）。 |
+| angle | float | 以度为单位的旋转角度。 |
 | center | [PointF](../../com.aspose.imaging/pointf) | 旋转中心。 |
-| order | int | 指定旋转是后置还是前置到矩阵变换。 |
+| order | int | 指定旋转是后附加到还是预先添加到矩阵变换。 |
 
 ### scaleTransform(float sx, float sy) {#scaleTransform-float-float-}
 ```
@@ -826,13 +826,13 @@ public void scaleTransform(float sx, float sy)
 ```
 
 
-通过在对象的变换矩阵前置指定的缩放操作，将其应用于此 Graphics 的变换矩阵。
+通过将指定的缩放操作前置到对象的变换矩阵中，应用于此 Graphics 的变换矩阵。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| sx | float | x 方向的缩放因子。 |
-| sy | float | y 方向的缩放因子。 |
+| sx | float | X 方向的缩放因子。 |
+| sy | float | Y 方向的缩放因子。 |
 
 ### scaleTransform(float sx, float sy, int order) {#scaleTransform-float-float-int-}
 ```
@@ -840,14 +840,14 @@ public void scaleTransform(float sx, float sy, int order)
 ```
 
 
-按指定顺序将指定的缩放操作应用于此 Graphics 的变换矩阵。
+按照指定顺序，将指定的缩放操作应用于此 Graphics 的变换矩阵。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| sx | float | x 方向的缩放因子。 |
-| sy | float | y 方向的缩放因子。 |
-| order | int | 指定缩放操作是前置还是后置到变换矩阵。 |
+| sx | float | X 方向的缩放因子。 |
+| sy | float | Y 方向的缩放因子。 |
+| order | int | 指定缩放操作是预先添加到还是后附加到变换矩阵。 |
 
 ### getTransform() {#getTransform--}
 ```
@@ -887,7 +887,7 @@ try {
     int width = emfImage.getWidth();
     int height = emfImage.getHeight();
 
-    // 其次，计算一个变换，以将文本字符串沿图像的主对角线放置 -
+    // 其次，计算一个变换，以将文本字符串放置在图像的主对角线上 -
     // 从左上角到右下角。
     float emFontSize = 96f;
     float d = (float) java.lang.Math.sqrt(width * width + height * height);
@@ -904,12 +904,12 @@ try {
     // 然后，设置变换。
     graphics.setTransform(transform);
 
-    // 最后，将水印（粉色文本字符串）沿主对角线放置。
+    // 最后，在主对角线上放置水印（粉色文本字符串）。
     graphics.drawString("WATERMARK", new com.aspose.imaging.Font(
                     "Courier New", emFontSize),
             com.aspose.imaging.Color.getLightPink(), 0, 0/*, (float)degrees*/);
 
-    // 将带有水印的图像保存为另一个 EMF 文件。
+    // 将带有水印的图像保存到另一个 EMF 文件。
     com.aspose.imaging.fileformats.emf.EmfImage scaledEmfImage = graphics.endRecording();
     try {
         scaledEmfImage.save(dir + "test.scaled.emf");

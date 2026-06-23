@@ -1,7 +1,7 @@
 ---
 title: "ColorantRgb"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 RGB 色剂."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 RGB 色剂。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.xmp.types.complex.colorant/colorantrgb/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ColorantRgb extends ColorantBase
 ```
 
-表示 RGB 色剂.
+表示 RGB 色剂。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,12 +23,12 @@ public final class ColorantRgb extends ColorantBase
 
 | 方法 | 描述 |
 | --- | --- |
-| [getRed()](#getRed--) | 获取或设置红色分量的值。 |
-| [setRed(byte value)](#setRed-byte-) | 获取或设置红色分量的值。 |
-| [getGreen()](#getGreen--) | 获取或设置绿色分量的值。 |
-| [setGreen(byte value)](#setGreen-byte-) | 获取或设置绿色分量的值。 |
-| [getBlue()](#getBlue--) | 获取或设置蓝色分量的值。 |
-| [setBlue(byte value)](#setBlue-byte-) | 获取或设置蓝色分量的值。 |
+| [getRed()](#getRed--) | 获取或设置红色分量值。 |
+| [setRed(byte value)](#setRed-byte-) | 获取或设置红色分量值。 |
+| [getGreen()](#getGreen--) | 获取或设置绿色分量值。 |
+| [setGreen(byte value)](#setGreen-byte-) | 获取或设置绿色分量值。 |
+| [getBlue()](#getBlue--) | 获取或设置蓝色分量值。 |
+| [setBlue(byte value)](#setBlue-byte-) | 获取或设置蓝色分量值。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
 ### ColorantRgb() {#ColorantRgb--}
 ```
@@ -49,9 +49,9 @@ public ColorantRgb(byte red, byte green, byte blue)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| red | byte | 红色分量的值。 |
-| green | byte | 绿色分量的值。 |
-| blue | byte | 蓝色分量的值。 |
+| red | byte | 红色分量值。 |
+| green | byte | 绿色分量值。 |
+| blue | byte | 蓝色分量值。 |
 
 ### getRed() {#getRed--}
 ```
@@ -59,9 +59,9 @@ public byte getRed()
 ```
 
 
-获取或设置红色分量的值。
+获取或设置红色分量值。
 
-值：红色分量的值。
+值：红色分量值。
 
 **Returns:**
 byte
@@ -71,14 +71,14 @@ public void setRed(byte value)
 ```
 
 
-获取或设置红色分量的值。
+获取或设置红色分量值。
 
-值：红色分量的值。
+值：红色分量值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getGreen() {#getGreen--}
 ```
@@ -86,9 +86,9 @@ public byte getGreen()
 ```
 
 
-获取或设置绿色分量的值。
+获取或设置绿色分量值。
 
-值：绿色分量的值。
+值：绿色分量值。
 
 **Returns:**
 byte
@@ -98,14 +98,14 @@ public void setGreen(byte value)
 ```
 
 
-获取或设置绿色分量的值。
+获取或设置绿色分量值。
 
-值：绿色分量的值。
+值：绿色分量值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getBlue() {#getBlue--}
 ```
@@ -113,9 +113,9 @@ public byte getBlue()
 ```
 
 
-获取或设置蓝色分量的值。
+获取或设置蓝色分量值。
 
-值：蓝色分量的值。
+值：蓝色分量值。
 
 **Returns:**
 byte
@@ -125,14 +125,14 @@ public void setBlue(byte value)
 ```
 
 
-获取或设置蓝色分量的值。
+获取或设置蓝色分量值。
 
-值：蓝色分量的值。
+值：蓝色分量值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

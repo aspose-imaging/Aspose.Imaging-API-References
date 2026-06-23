@@ -1,6 +1,6 @@
 ---
 title: "CmxFillStyle"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "形状的填充样式。"
 type: docs
 weight: 11
@@ -24,8 +24,8 @@ public class CmxFillStyle
 | --- | --- |
 | [getFillType()](#getFillType--) | 获取填充的类型。 |
 | [setFillType(int value)](#setFillType-int-) | 设置填充的类型。 |
-| [getColor1()](#getColor1--) | 获取主颜色。 |
-| [setColor1(CmxColor value)](#setColor1-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor-) | 设置主颜色。 |
+| [getColor1()](#getColor1--) | 获取主要颜色。 |
+| [setColor1(CmxColor value)](#setColor1-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor-) | 设置主要颜色。 |
 | [getColor2()](#getColor2--) | 获取次要颜色。 |
 | [setColor2(CmxColor value)](#setColor2-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor-) | 设置次要颜色。 |
 | [getGradient()](#getGradient--) | 获取渐变信息。 |
@@ -64,7 +64,7 @@ public final void setFillType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 填充的类型。 |
+| 值 | int | 填充的类型。 |
 
 ### getColor1() {#getColor1--}
 ```
@@ -72,7 +72,7 @@ public final CmxColor getColor1()
 ```
 
 
-获取主颜色。
+获取主要颜色。
 
 **Returns:**
 [CmxColor](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) - the primary color.
@@ -82,12 +82,12 @@ public final void setColor1(CmxColor value)
 ```
 
 
-设置主颜色。
+设置主要颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [CmxColor](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | 主颜色。 |
+| value | [CmxColor](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | 主要颜色。 |
 
 ### getColor2() {#getColor2--}
 ```

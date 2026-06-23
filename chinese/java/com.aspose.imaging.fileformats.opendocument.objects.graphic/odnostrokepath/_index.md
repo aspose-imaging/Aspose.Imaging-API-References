@@ -1,6 +1,6 @@
 ---
 title: "OdNoStrokePath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定当前子路径集合将不会被描边。"
 type: docs
 weight: 33
@@ -29,5 +29,5 @@ public OdNoStrokePath(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "FeatheringSettings"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "羽化设置类。"
 type: docs
 weight: 13
@@ -17,7 +17,7 @@ public class FeatheringSettings
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [FeatheringSettings()](#FeatheringSettings--) | 初始化一个新的 [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) 类实例。 |
+| [FeatheringSettings()](#FeatheringSettings--) | 初始化一个新的 [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) 类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -36,18 +36,18 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
     // 使用魔棒工具基于像素 (845, 128) 的色调和颜色创建新掩码
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // 将现有掩码与由魔棒工具创建的指定掩码合并
+            // 将现有掩码与魔棒工具创建的指定掩码进行合并
             .union(new MagicWandSettings(416, 387))
-            // 反转现有掩码
+            // 反转现有的遮罩
             .invert()
-            // 从现有掩码中减去由魔棒工具创建的、具有指定阈值的指定掩码
+            // 从现有遮罩中减去使用魔棒工具并具有指定阈值创建的指定遮罩
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
-            // 逐个从现有掩码中减去四个指定的矩形掩码
+            // 一次一次地从现有遮罩中减去四个指定的矩形遮罩
             .subtract(new RectangleMask(0, 0, 800, 150))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // 使用指定设置羽化掩码
+            // 使用指定设置羽化遮罩
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
             // 将掩码应用于图像
             .apply();
@@ -64,7 +64,7 @@ public FeatheringSettings()
 ```
 
 
-初始化一个新的 [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) 类实例。
+初始化一个新的 [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) 类的实例。
 
 ### getSize() {#getSize--}
 ```
@@ -91,7 +91,7 @@ public final void setSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 羽化大小。 |
+| 值 | int | 羽化大小。 |
 
 ### getMode() {#getMode--}
 ```
@@ -118,5 +118,5 @@ public final void setMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 羽化算法模式。 |
+| 值 | int | 羽化算法模式。 |
 

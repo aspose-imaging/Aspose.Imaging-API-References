@@ -1,6 +1,6 @@
 ---
 title: "StringFormat"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "封装文本布局信息，例如对齐、方向和制表位，以及显示操作，如插入省略号、数字本地化替换和 OpenType 功能。"
 type: docs
 weight: 112
@@ -24,14 +24,14 @@ public final class StringFormat extends DisposableObject
 
 | 方法 | 描述 |
 | --- | --- |
-| [getGenericDefault()](#getGenericDefault--) | 获取通用默认的 `com.aspose.imaging.StringFormat` 对象。 |
-| [getGenericTypographic()](#getGenericTypographic--) | 获取一个通用排版 `com.aspose.imaging.StringFormat` 对象。 |
+| [getGenericDefault()](#getGenericDefault--) | 获取一个通用的默认 `com.aspose.imaging.StringFormat` 对象。 |
+| [getGenericTypographic()](#getGenericTypographic--) | 获取一个通用排版的 `com.aspose.imaging.StringFormat` 对象。 |
 | [getFormatFlags()](#getFormatFlags--) | 获取一个包含格式信息的 `com.aspose.imaging.StringFormatFlags` 枚举。 |
 | [setFormatFlags(int value)](#setFormatFlags-int-) | 设置一个包含格式信息的 `com.aspose.imaging.StringFormatFlags` 枚举。 |
-| [getAlignment()](#getAlignment--) | 获取垂直方向的文本对齐信息。 |
-| [setAlignment(int value)](#setAlignment-int-) | 设置垂直方向的文本对齐信息。 |
-| [getLineAlignment()](#getLineAlignment--) | 获取水平方向的行对齐方式。 |
-| [setLineAlignment(int value)](#setLineAlignment-int-) | 设置水平方向的行对齐方式。 |
+| [getAlignment()](#getAlignment--) | 获取垂直平面上的文本对齐信息。 |
+| [setAlignment(int value)](#setAlignment-int-) | 设置垂直平面上的文本对齐信息。 |
+| [getLineAlignment()](#getLineAlignment--) | 获取水平平面上的行对齐方式。 |
+| [setLineAlignment(int value)](#setLineAlignment-int-) | 设置水平平面上的行对齐方式。 |
 | [getHotkeyPrefix()](#getHotkeyPrefix--) | 获取此 `com.aspose.imaging.StringFormat` 对象的 `com.aspose.imaging.HotkeyPrefix` 对象。 |
 | [setHotkeyPrefix(int value)](#setHotkeyPrefix-int-) | 设置此 `com.aspose.imaging.StringFormat` 对象的 `com.aspose.imaging.HotkeyPrefix` 对象。 |
 | [getTrimming()](#getTrimming--) | 获取此 `com.aspose.imaging.StringFormat` 对象的 `com.aspose.imaging.StringTrimming` 枚举。 |
@@ -89,7 +89,7 @@ public static StringFormat getGenericDefault()
 ```
 
 
-获取通用默认的 `com.aspose.imaging.StringFormat` 对象。
+获取一个通用的默认 `com.aspose.imaging.StringFormat` 对象。
 
 **Returns:**
 [StringFormat](../../com.aspose.imaging/stringformat) - The generic default `com.aspose.imaging.StringFormat` object.
@@ -99,7 +99,7 @@ public static StringFormat getGenericTypographic()
 ```
 
 
-获取一个通用排版 `com.aspose.imaging.StringFormat` 对象。
+获取一个通用排版的 `com.aspose.imaging.StringFormat` 对象。
 
 **Returns:**
 [StringFormat](../../com.aspose.imaging/stringformat) - A generic typographic `com.aspose.imaging.StringFormat` object.
@@ -112,7 +112,7 @@ public int getFormatFlags()
 获取一个包含格式信息的 `com.aspose.imaging.StringFormatFlags` 枚举。
 
 **Returns:**
-int - 一个 `com.aspose.imaging.StringFormatFlags` 枚举，包含格式信息。
+int - 一个包含格式信息的 `com.aspose.imaging.StringFormatFlags` 枚举。
 ### setFormatFlags(int value) {#setFormatFlags-int-}
 ```
 public void setFormatFlags(int value)
@@ -124,7 +124,7 @@ public void setFormatFlags(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一个 `com.aspose.imaging.StringFormatFlags` 枚举，包含格式信息。 |
+| 值 | int | 一个包含格式信息的 `com.aspose.imaging.StringFormatFlags` 枚举。 |
 
 ### getAlignment() {#getAlignment--}
 ```
@@ -132,22 +132,22 @@ public int getAlignment()
 ```
 
 
-获取垂直方向的文本对齐信息。
+获取垂直平面上的文本对齐信息。
 
 **Returns:**
-int - 一个 `com.aspose.imaging.StringAlignment` 枚举，指定文本对齐信息。
+int - 一个指定文本对齐信息的 `com.aspose.imaging.StringAlignment` 枚举。
 ### setAlignment(int value) {#setAlignment-int-}
 ```
 public void setAlignment(int value)
 ```
 
 
-设置垂直方向的文本对齐信息。
+设置垂直平面上的文本对齐信息。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一个 `com.aspose.imaging.StringAlignment` 枚举，指定文本对齐信息。 |
+| 值 | int | 一个指定文本对齐信息的 `com.aspose.imaging.StringAlignment` 枚举。 |
 
 ### getLineAlignment() {#getLineAlignment--}
 ```
@@ -155,22 +155,22 @@ public int getLineAlignment()
 ```
 
 
-获取水平方向的行对齐方式。
+获取水平平面上的行对齐方式。
 
 **Returns:**
-int - 一个 `com.aspose.imaging.StringAlignment` 枚举，表示行对齐方式。
+int - 一个表示行对齐的 `com.aspose.imaging.StringAlignment` 枚举。
 ### setLineAlignment(int value) {#setLineAlignment-int-}
 ```
 public void setLineAlignment(int value)
 ```
 
 
-设置水平方向的行对齐方式。
+设置水平平面上的行对齐方式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一个 `com.aspose.imaging.StringAlignment` 枚举，表示行对齐方式。 |
+| 值 | int | 一个表示行对齐的 `com.aspose.imaging.StringAlignment` 枚举。 |
 
 ### getHotkeyPrefix() {#getHotkeyPrefix--}
 ```
@@ -193,7 +193,7 @@ public void setHotkeyPrefix(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | `com.aspose.imaging.StringFormat` 对象的 `com.aspose.imaging.HotkeyPrefix` 对象，默认值为 `F:Aspose.Imaging.HotkeyPrefix.None`。 |
+| 值 | int | `com.aspose.imaging.StringFormat` 对象的 `com.aspose.imaging.HotkeyPrefix` 对象，默认值为 `F:Aspose.Imaging.HotkeyPrefix.None`。 |
 
 ### getTrimming() {#getTrimming--}
 ```
@@ -204,7 +204,7 @@ public int getTrimming()
 获取此 `com.aspose.imaging.StringFormat` 对象的 `com.aspose.imaging.StringTrimming` 枚举。
 
 **Returns:**
-int - 一个 `com.aspose.imaging.StringTrimming` 枚举，指示使用此 `com.aspose.imaging.StringFormat` 对象绘制的文本在超出布局矩形边界时如何修剪。
+int - 一个指示使用此 `com.aspose.imaging.StringFormat` 对象绘制的文本在超出布局矩形边界时如何修剪的 `com.aspose.imaging.StringTrimming` 枚举。
 ### setTrimming(int value) {#setTrimming-int-}
 ```
 public void setTrimming(int value)
@@ -216,7 +216,7 @@ public void setTrimming(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一个 `com.aspose.imaging.StringTrimming` 枚举，指示使用此 `com.aspose.imaging.StringFormat` 对象绘制的文本在超出布局矩形边界时如何修剪。 |
+| 值 | int | 一个指示使用此 `com.aspose.imaging.StringFormat` 对象绘制的文本在超出布局矩形边界时如何修剪的 `com.aspose.imaging.StringTrimming` 枚举。 |
 
 ### getDigitSubstitutionMethod() {#getDigitSubstitutionMethod--}
 ```
@@ -227,7 +227,7 @@ public int getDigitSubstitutionMethod()
 获取用于数字替换的方法。
 
 **Returns:**
-int - 一个 `com.aspose.imaging.StringDigitSubstitute` 枚举值，指定如何替换因当前字体不支持而无法显示的字符串字符。
+int - 一个指定如何替换因当前字体不支持而无法显示的字符串字符的 `com.aspose.imaging.StringDigitSubstitute` 枚举值。
 
 为已废弃的方法 SetDigitSubstitution 引入了 setter。
 ### setDigitSubstitutionMethod(int value) {#setDigitSubstitutionMethod-int-}
@@ -241,7 +241,7 @@ public void setDigitSubstitutionMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | int | 一个 `com.aspose.imaging.StringDigitSubstitute` 枚举值，指定如何替换因当前字体不支持而无法显示的字符串字符。 |
+|  | 值 | int | 一个指定如何替换因当前字体不支持而无法显示的字符串字符的 `com.aspose.imaging.StringDigitSubstitute` 枚举值。 |
 
 为已废弃的方法 SetDigitSubstitution 引入了 setter。 |
 
@@ -254,7 +254,7 @@ public int getDigitSubstitutionLanguage()
 获取在本地数字替换为西方数字时使用的语言。
 
 **Returns:**
-int - 一个国家语言支持 (NLS) 语言标识符，用于标识在本地数字替换为西方数字时将使用的语言。您可以将 `System.Globalization.CultureInfo` 对象的 `P:System.Globalization.CultureInfo.LCID` 属性作为 NLS 语言标识符传递。例如，假设您创建并设置了区域设置 "ar-EG"。如果将 `com.aspose.imaging.StringDigitSubstitute.Traditional` 传递给 `com.aspose.imaging.StringFormat.setDigitSubstitution(int)` 方法，则在显示时会将阿拉伯-印度数字替换为西方数字。
+int - 一个国家语言支持 (NLS) 语言标识符，用于标识在本地数字替换为西方数字时将使用的语言。您可以将 `System.Globalization.CultureInfo` 对象的 `P:System.Globalization.CultureInfo.LCID` 属性作为 NLS 语言标识符传入。例如，假设您创建并设置了区域设置 \"ar-EG\"。如果将 `com.aspose.imaging.StringDigitSubstitute.Traditional` 传递给 `com.aspose.imaging.StringFormat.setDigitSubstitution(int)` 方法，则在显示时会将阿拉伯-印度数字替换为西方数字。
 ### setDigitSubstitutionLanguage(int value) {#setDigitSubstitutionLanguage-int-}
 ```
 public void setDigitSubstitutionLanguage(int value)
@@ -266,7 +266,7 @@ public void setDigitSubstitutionLanguage(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 一个国家语言支持 (NLS) 语言标识符，用于标识在本地数字替换为西方数字时将使用的语言。您可以将 `System.Globalization.CultureInfo` 对象的 `P:System.Globalization.CultureInfo.LCID` 属性作为 NLS 语言标识符传递。例如，假设您创建并设置了区域设置 "ar-EG"。如果将 `com.aspose.imaging.StringDigitSubstitute.Traditional` 传递给 `com.aspose.imaging.StringFormat.setDigitSubstitution(int)` 方法，则在显示时会将阿拉伯-印度数字替换为西方数字。 |
+| 值 | int | 一个国家语言支持 (NLS) 语言标识符，用于标识在本地数字替换为西方数字时将使用的语言。您可以将 `System.Globalization.CultureInfo` 对象的 `P:System.Globalization.CultureInfo.LCID` 属性作为 NLS 语言标识符传入。例如，假设您创建并设置了区域设置 \"ar-EG\"。如果将 `com.aspose.imaging.StringDigitSubstitute.Traditional` 传递给 `com.aspose.imaging.StringFormat.setDigitSubstitution(int)` 方法，则在显示时会将阿拉伯-印度数字替换为西方数字。 |
 
 ### getFirstTabOffset() {#getFirstTabOffset--}
 ```
@@ -277,7 +277,7 @@ public float getFirstTabOffset()
 获取文本行起始与第一个制表位之间的空格数。
 
 **Returns:**
-float - 第一个制表位偏移量。
+float - 第一个制表位偏移。
 
 为已移除的方法 GetTabStops 引入了该属性。
 ### getTabStops() {#getTabStops--}

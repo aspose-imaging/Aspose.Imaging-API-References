@@ -1,6 +1,6 @@
 ---
 title: "HdrImageOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "hdr 图像选项"
 type: docs
 weight: 10
@@ -24,10 +24,10 @@ hdr 图像选项
 | --- | --- |
 | [getSmoothFactor()](#getSmoothFactor--) | 获取平滑因子。 |
 | [setSmoothFactor(int value)](#setSmoothFactor-int-) | 设置平滑因子。 |
-| [getSampleCount()](#getSampleCount--) | 获取样本计数。 |
-| [setSampleCount(int value)](#setSampleCount-int-) | 设置样本计数。 |
-| [getAlignImages()](#getAlignImages--) | 获取指示是否 [align images] 的值。 |
-| [setAlignImages(boolean value)](#setAlignImages-boolean-) | 设置指示是否 [align images] 的值。 |
+| [getSampleCount()](#getSampleCount--) | 获取采样计数。 |
+| [setSampleCount(int value)](#setSampleCount-int-) | 设置采样计数。 |
+| [getAlignImages()](#getAlignImages--) | 获取一个指示是否[align images]的值。 |
+| [setAlignImages(boolean value)](#setAlignImages-boolean-) | 设置一个指示是否[align images]的值。 |
 ### HdrImageOptions() {#HdrImageOptions--}
 ```
 public HdrImageOptions()
@@ -97,7 +97,7 @@ public final void setSmoothFactor(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 平滑因子。 |
+| 值 | int | 平滑因子。 |
 
 
 **Example: The example shows how HDR processing is carried out.**
@@ -143,7 +143,7 @@ public final int getSampleCount()
 ```
 
 
-获取样本计数。
+获取采样计数。
 
 值：样本计数。
 
@@ -193,14 +193,14 @@ public final void setSampleCount(int value)
 ```
 
 
-设置样本计数。
+设置采样计数。
 
 值：样本计数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 样本计数。 |
+| 值 | int | 样本计数。 |
 
 
 **Example: The example shows how HDR processing is carried out.**
@@ -246,12 +246,12 @@ public final boolean getAlignImages()
 ```
 
 
-获取指示是否 [align images] 的值。
+获取一个指示是否[align images]的值。
 
-值：`true` 如果 [align images]；否则为 `false`。
+值：如果[align images]则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否 [align images] 的值。
+boolean - 一个指示是否[align images]的值。
 
 **Example: The example shows how HDR processing is carried out.**
 
@@ -296,14 +296,14 @@ public final void setAlignImages(boolean value)
 ```
 
 
-设置指示是否 [align images] 的值。
+设置一个指示是否[align images]的值。
 
-值：`true` 如果 [align images]；否则为 `false`。
+值：如果[align images]则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示是否 [align images] 的值。 |
+| 值 | boolean | 一个指示是否[align images]的值。 |
 
 
 **Example: The example shows how HDR processing is carried out.**

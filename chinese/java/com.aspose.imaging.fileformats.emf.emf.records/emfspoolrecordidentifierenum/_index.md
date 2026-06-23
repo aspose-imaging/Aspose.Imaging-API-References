@@ -1,6 +1,6 @@
 ---
 title: "EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "标识 EMR_COMMENT_EMFSPOOL 记录的类型"
 type: docs
 weight: 10
@@ -17,12 +17,12 @@ public static final class EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum extend
 
 | 字段 | 描述 |
 | --- | --- |
-| [EmfSpoolFontDefinition](#EmfSpoolFontDefinition) | ASCII 字符串 \"TONF\"，用于标识此记录包含嵌入的 EMFSPOOL 字体定义数据。 |
+| [EmfSpoolFontDefinition](#EmfSpoolFontDefinition) | ASCII 字符串 "TONF"，用于标识此记录包含嵌入的 EMFSPOOL 字体定义数据。 |
 ### EmfSpoolFontDefinition {#EmfSpoolFontDefinition}
 ```
 public static final int EmfSpoolFontDefinition
 ```
 
 
-ASCII 字符串 \"TONF\"，用于标识此记录包含嵌入的 EMFSPOOL 字体定义数据。
+ASCII 字符串 "TONF"，用于标识此记录包含嵌入的 EMFSPOOL 字体定义数据。
 

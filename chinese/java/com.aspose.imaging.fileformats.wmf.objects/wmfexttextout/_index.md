@@ -1,6 +1,6 @@
 ---
 title: "WmfExtTextOut"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Wmf ext 文本输出"
 type: docs
 weight: 36
@@ -24,8 +24,8 @@ Wmf ext 文本输出
 | --- | --- |
 | [getStringLength()](#getStringLength--) | 获取或设置字符串的长度。 |
 | [setStringLength(int value)](#setStringLength-int-) | 获取或设置字符串的长度。 |
-| [getFwOpts()](#getFwOpts--) | 获取或设置 fw 选项。 |
-| [setFwOpts(int value)](#setFwOpts-int-) | 获取或设置 fw 选项。 |
+| [getFwOpts()](#getFwOpts--) | 获取或设置 fw opts。 |
+| [setFwOpts(int value)](#setFwOpts-int-) | 获取或设置 fw opts。 |
 | [getRectangle()](#getRectangle--) | 获取或设置矩形。 |
 | [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | 获取或设置矩形。 |
 | [getText()](#getText--) | 获取或设置文本。 |
@@ -65,7 +65,7 @@ public void setStringLength(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getFwOpts() {#getFwOpts--}
 ```
@@ -73,7 +73,7 @@ public int getFwOpts()
 ```
 
 
-获取或设置 fw 选项。
+获取或设置 fw opts。
 
 值：选项。此成员可以是一个或多个值的组合。
 
@@ -85,14 +85,14 @@ public void setFwOpts(int value)
 ```
 
 
-获取或设置 fw 选项。
+获取或设置 fw opts。
 
 值：选项。此成员可以是一个或多个值的组合。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRectangle() {#getRectangle--}
 ```
@@ -146,7 +146,7 @@ public void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getDx() {#getDx--}
 ```
@@ -156,7 +156,7 @@ public short[] getDx()
 
 获取或设置 dx。
 
-值：dx。指示相邻字符单元原点之间的距离。例如，Dx[i] 逻辑单位分隔字符单元 i 与字符单元 i + 1 的原点。如果此字段存在，则其值的数量必须与字符串中的字符数相同。
+值：dx。指示相邻字符单元原点之间的距离。例如，Dx[i] 逻辑单位分隔字符单元 i 和字符单元 i + 1 的原点。如果此字段存在，必须具有与字符串中的字符数相同的值数量。
 
 **Returns:**
 short[]
@@ -168,12 +168,12 @@ public void setDx(short[] value)
 
 获取或设置 dx。
 
-值：dx。指示相邻字符单元原点之间的距离。例如，Dx[i] 逻辑单位分隔字符单元 i 与字符单元 i + 1 的原点。如果此字段存在，则其值的数量必须与字符串中的字符数相同。
+值：dx。指示相邻字符单元原点之间的距离。例如，Dx[i] 逻辑单位分隔字符单元 i 和字符单元 i + 1 的原点。如果此字段存在，必须具有与字符串中的字符数相同的值数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short[] |  |
+| 值 | short[] |  |
 
 ### getExtendedByte() {#getExtendedByte--}
 ```
@@ -200,5 +200,5 @@ public void setExtendedByte(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

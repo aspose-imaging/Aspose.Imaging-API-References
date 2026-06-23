@@ -1,6 +1,6 @@
 ---
 title: "PdfDocumentInfo"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "此类表示用于文档描述的元数据集合。"
 type: docs
 weight: 11
@@ -57,7 +57,7 @@ public void setKeywords(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档的关键字。 |
+| 值 | java.lang.String | 文档的关键字。 |
 
 ### getTitle() {#getTitle--}
 ```
@@ -80,7 +80,7 @@ public void setTitle(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档的标题。 |
+| 值 | java.lang.String | 文档的标题。 |
 
 ### getAuthor() {#getAuthor--}
 ```
@@ -103,7 +103,7 @@ public void setAuthor(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档的作者。 |
+| 值 | java.lang.String | 文档的作者。 |
 
 ### getSubject() {#getSubject--}
 ```
@@ -126,5 +126,5 @@ public void setSubject(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档的主题。 |
+| 值 | java.lang.String | 文档的主题。 |
 

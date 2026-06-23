@@ -1,6 +1,6 @@
 ---
 title: "PngFilterType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "png 过滤器类型。"
 type: docs
 weight: 11
@@ -19,10 +19,10 @@ png 过滤器类型。
 | --- | --- |
 | [None](#None) | null 过滤器表示对图像数据行不进行过滤。 |
 | [Sub](#Sub) | sub 过滤器表示将对图像数据应用减法过滤。 |
-| [Up](#Up) | up 过滤器表示将逐行应用减法过滤。 |
+| [Up](#Up) | up 过滤器表示将应用逐行减法过滤。 |
 | [Avg](#Avg) | avg 过滤器表示将对图像数据应用平均过滤。 |
 | [Paeth](#Paeth) | paeth 预测过滤器。 |
-| [Adaptive](#Adaptive) | 自适应过滤表示保存过程会为每一数据行选择最合适的过滤器。 |
+| [Adaptive](#Adaptive) | 自适应过滤表示保存过程将为每个数据行选择最合适的过滤器。 |
 ### None {#None}
 ```
 public static final int None
@@ -45,7 +45,7 @@ public static final int Up
 ```
 
 
-up 过滤器表示将逐行应用减法过滤。
+up 过滤器表示将应用逐行减法过滤。
 
 ### Avg {#Avg}
 ```
@@ -69,5 +69,5 @@ public static final int Adaptive
 ```
 
 
-自适应过滤，意味着保存过程会为每一行数据选择最合适的过滤器。最佳压缩，执行时间最慢。
+自适应过滤表示保存过程将为每个数据行选择最合适的过滤器。最佳压缩，执行时间最慢。
 

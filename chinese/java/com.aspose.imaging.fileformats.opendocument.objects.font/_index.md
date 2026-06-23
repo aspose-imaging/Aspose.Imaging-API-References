@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.opendocument.objects.font"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Open 文档对象"
 type: docs
 weight: 68

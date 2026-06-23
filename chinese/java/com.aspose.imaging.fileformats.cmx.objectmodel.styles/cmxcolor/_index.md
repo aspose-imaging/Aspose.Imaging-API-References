@@ -1,6 +1,6 @@
 ---
 title: "CmxColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示颜色值。"
 type: docs
 weight: 10
@@ -48,7 +48,7 @@ public CmxColor(int colorModel, long value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | colorModel | int | 颜色模型。 |
-| value | long | 颜色值。 |
+| 值 | long | 颜色值。 |
 
 ### getColorModel() {#getColorModel--}
 ```
@@ -71,7 +71,7 @@ public final void setColorModel(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色模型。 |
+| 值 | int | 颜色模型。 |
 
 ### getValue() {#getValue--}
 ```
@@ -94,7 +94,7 @@ public final void setValue(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 颜色值。 |
+| 值 | long | 颜色值。 |
 
 ### toString() {#toString--}
 ```

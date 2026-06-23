@@ -1,6 +1,6 @@
 ---
 title: "CmxRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "CMX 导出器选项。"
 type: docs
 weight: 14

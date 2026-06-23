@@ -1,6 +1,6 @@
 ---
 title: "BitmapCoreHeader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "DIB 的尺寸和颜色格式。"
 type: docs
 weight: 11
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class BitmapCoreHeader
 ```
 
-DIB 的尺寸和颜色格式。标题名称 BITMAPCOREHEADER，也称为 OS21XBITMAPHEADER。
+DIB 的尺寸和颜色格式。标头名称 BITMAPCOREHEADER，也称为 OS21XBITMAPHEADER。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,20 +22,20 @@ DIB 的尺寸和颜色格式。标题名称 BITMAPCOREHEADER，也称为 OS21XBI
 
 | 字段 | 描述 |
 | --- | --- |
-| [BITMAP_CORE_HEADER_SIZE](#BITMAP-CORE-HEADER-SIZE) | BITMAPCOREHEADER（也称为 OS21XBITMAPHEADER）标题大小 |
-| [OS_22_X_BITMAP_HEADER_SIZE](#OS-22-X-BITMAP-HEADER-SIZE) | 位图核心 header2 大小 |
-| [OS_22_X_BITMAP_HEADER_FULL_SIZE](#OS-22-X-BITMAP-HEADER-FULL-SIZE) | 位图核心 header2 大小 |
-| [BITMAP_INFO_HEADER_SIZE](#BITMAP-INFO-HEADER-SIZE) | 位图信息标题大小 v3 |
-| [BITMAP_INFO_HEADER_SIZE_V_2](#BITMAP-INFO-HEADER-SIZE-V-2) | 位图信息标题大小 v2 |
-| [BITMAP_INFO_HEADER_SIZE_V_3](#BITMAP-INFO-HEADER-SIZE-V-3) | 位图信息标题大小 v3 |
-| [BITMAP_INFO_HEADER_SIZE_V_4](#BITMAP-INFO-HEADER-SIZE-V-4) | 位图信息标题大小 v4 |
-| [BITMAP_INFO_HEADER_SIZE_V_5](#BITMAP-INFO-HEADER-SIZE-V-5) | 位图信息标题大小 v5 |
+| [BITMAP_CORE_HEADER_SIZE](#BITMAP-CORE-HEADER-SIZE) | BITMAPCOREHEADER（也称为 OS21XBITMAPHEADER）标头大小 |
+| [OS_22_X_BITMAP_HEADER_SIZE](#OS-22-X-BITMAP-HEADER-SIZE) | 位图核心标头2大小 |
+| [OS_22_X_BITMAP_HEADER_FULL_SIZE](#OS-22-X-BITMAP-HEADER-FULL-SIZE) | 位图核心标头2大小 |
+| [BITMAP_INFO_HEADER_SIZE](#BITMAP-INFO-HEADER-SIZE) | 位图信息标头大小 v3 |
+| [BITMAP_INFO_HEADER_SIZE_V_2](#BITMAP-INFO-HEADER-SIZE-V-2) | 位图信息标头大小 v2 |
+| [BITMAP_INFO_HEADER_SIZE_V_3](#BITMAP-INFO-HEADER-SIZE-V-3) | 位图信息标头大小 v3 |
+| [BITMAP_INFO_HEADER_SIZE_V_4](#BITMAP-INFO-HEADER-SIZE-V-4) | 位图信息标头大小 v4 |
+| [BITMAP_INFO_HEADER_SIZE_V_5](#BITMAP-INFO-HEADER-SIZE-V-5) | 位图信息标头大小 v5 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getHeaderSize()](#getHeaderSize--) | 获取或设置此结构的大小（字节）。 |
-| [setHeaderSize(long value)](#setHeaderSize-long-) | 获取或设置此结构的大小（字节）。 |
+| [getHeaderSize()](#getHeaderSize--) | 获取或设置此结构的字节大小。 |
+| [setHeaderSize(long value)](#setHeaderSize-long-) | 获取或设置此结构的字节大小。 |
 | [getBitmapWidth()](#getBitmapWidth--) | 获取或设置位图宽度。 |
 | [setBitmapWidth(int value)](#setBitmapWidth-int-) | 获取或设置位图宽度。 |
 | [getBitmapHeight()](#getBitmapHeight--) | 获取或设置位图高度。 |
@@ -56,7 +56,7 @@ public static final int BITMAP_CORE_HEADER_SIZE
 ```
 
 
-BITMAPCOREHEADER（也称为 OS21XBITMAPHEADER）标题大小
+BITMAPCOREHEADER（也称为 OS21XBITMAPHEADER）标头大小
 
 ### OS_22_X_BITMAP_HEADER_SIZE {#OS-22-X-BITMAP-HEADER-SIZE}
 ```
@@ -64,7 +64,7 @@ public static final int OS_22_X_BITMAP_HEADER_SIZE
 ```
 
 
-位图核心 header2 大小
+位图核心标头2大小
 
 ### OS_22_X_BITMAP_HEADER_FULL_SIZE {#OS-22-X-BITMAP-HEADER-FULL-SIZE}
 ```
@@ -72,7 +72,7 @@ public static final int OS_22_X_BITMAP_HEADER_FULL_SIZE
 ```
 
 
-位图核心 header2 大小
+位图核心标头2大小
 
 ### BITMAP_INFO_HEADER_SIZE {#BITMAP-INFO-HEADER-SIZE}
 ```
@@ -80,7 +80,7 @@ public static final int BITMAP_INFO_HEADER_SIZE
 ```
 
 
-位图信息标题大小 v3
+位图信息标头大小 v3
 
 ### BITMAP_INFO_HEADER_SIZE_V_2 {#BITMAP-INFO-HEADER-SIZE-V-2}
 ```
@@ -88,7 +88,7 @@ public static final int BITMAP_INFO_HEADER_SIZE_V_2
 ```
 
 
-位图信息标题大小 v2
+位图信息标头大小 v2
 
 ### BITMAP_INFO_HEADER_SIZE_V_3 {#BITMAP-INFO-HEADER-SIZE-V-3}
 ```
@@ -96,7 +96,7 @@ public static final int BITMAP_INFO_HEADER_SIZE_V_3
 ```
 
 
-位图信息标题大小 v3
+位图信息标头大小 v3
 
 ### BITMAP_INFO_HEADER_SIZE_V_4 {#BITMAP-INFO-HEADER-SIZE-V-4}
 ```
@@ -104,7 +104,7 @@ public static final int BITMAP_INFO_HEADER_SIZE_V_4
 ```
 
 
-位图信息标题大小 v4
+位图信息标头大小 v4
 
 ### BITMAP_INFO_HEADER_SIZE_V_5 {#BITMAP-INFO-HEADER-SIZE-V-5}
 ```
@@ -112,7 +112,7 @@ public static final int BITMAP_INFO_HEADER_SIZE_V_5
 ```
 
 
-位图信息标题大小 v5
+位图信息标头大小 v5
 
 ### getHeaderSize() {#getHeaderSize--}
 ```
@@ -120,7 +120,7 @@ public long getHeaderSize()
 ```
 
 
-获取或设置此结构的大小（字节）。
+获取或设置此结构的字节大小。
 
 **Returns:**
 long
@@ -130,12 +130,12 @@ public void setHeaderSize(long value)
 ```
 
 
-获取或设置此结构的大小（字节）。
+获取或设置此结构的字节大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getBitmapWidth() {#getBitmapWidth--}
 ```
@@ -158,7 +158,7 @@ public void setBitmapWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBitmapHeight() {#getBitmapHeight--}
 ```
@@ -181,7 +181,7 @@ public void setBitmapHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBitmapPlanes() {#getBitmapPlanes--}
 ```
@@ -204,7 +204,7 @@ public void setBitmapPlanes(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -227,5 +227,5 @@ public void setBitsPerPixel(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

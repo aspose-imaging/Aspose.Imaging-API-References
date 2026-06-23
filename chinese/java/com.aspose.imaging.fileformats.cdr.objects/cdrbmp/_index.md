@@ -1,7 +1,7 @@
 ---
 title: "CdrBmp"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 位图"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "cdr bmp"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrbmp/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrBmp extends CdrDictionaryItem
 ```
 
-cdr 位图
+cdr bmp
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,11 +29,11 @@ cdr 位图
 | [getHeight()](#getHeight--) | 获取高度。 |
 | [setHeight(int value)](#setHeight-int-) | 设置高度。 |
 | [getBpp()](#getBpp--) | 获取 BPP。 |
-| [setBpp(int value)](#setBpp-int-) | 设置 BPP. |
-| [getBytesPerLine()](#getBytesPerLine--) | 获取每行字节数. |
-| [setBytesPerLine(int value)](#setBytesPerLine-int-) | 设置每行字节数. |
-| [getPalette()](#getPalette--) | 获取调色板. |
-| [setPalette(int[] value)](#setPalette-int---) | 设置调色板. |
+| [setBpp(int value)](#setBpp-int-) | 设置 BPP。 |
+| [getBytesPerLine()](#getBytesPerLine--) | 获取每行字节数。 |
+| [setBytesPerLine(int value)](#setBytesPerLine-int-) | 设置每行字节数。 |
+| [getPalette()](#getPalette--) | 获取调色板。 |
+| [setPalette(int[] value)](#setPalette-int---) | 设置调色板。 |
 ### CdrBmp() {#CdrBmp--}
 ```
 public CdrBmp()
@@ -61,7 +61,7 @@ public final void setColorModel(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色模型。 |
+| 值 | int | 颜色模型。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -84,7 +84,7 @@ public final void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 宽度。 |
+| 值 | int | 宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -107,7 +107,7 @@ public final void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 高度。 |
+| 值 | int | 高度。 |
 
 ### getBpp() {#getBpp--}
 ```
@@ -118,19 +118,19 @@ public final int getBpp()
 获取 BPP。
 
 **Returns:**
-int - BPP.
+int - BPP。
 ### setBpp(int value) {#setBpp-int-}
 ```
 public final void setBpp(int value)
 ```
 
 
-设置 BPP.
+设置 BPP。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | BPP. |
+| 值 | int | BPP。 |
 
 ### getBytesPerLine() {#getBytesPerLine--}
 ```
@@ -138,22 +138,22 @@ public final int getBytesPerLine()
 ```
 
 
-获取每行字节数.
+获取每行字节数。
 
 **Returns:**
-int - 每行字节数.
+int - 每行字节数。
 ### setBytesPerLine(int value) {#setBytesPerLine-int-}
 ```
 public final void setBytesPerLine(int value)
 ```
 
 
-设置每行字节数.
+设置每行字节数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 每行字节数. |
+| 值 | int | 每行字节数。 |
 
 ### getPalette() {#getPalette--}
 ```
@@ -161,20 +161,20 @@ public final int[] getPalette()
 ```
 
 
-获取调色板.
+获取调色板。
 
 **Returns:**
-int[] - 调色板.
+int[] - 调色板。
 ### setPalette(int[] value) {#setPalette-int---}
 ```
 public final void setPalette(int[] value)
 ```
 
 
-设置调色板.
+设置调色板。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 调色板. |
+| 值 | int[] | 调色板。 |
 

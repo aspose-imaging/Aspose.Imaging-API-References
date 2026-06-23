@@ -1,7 +1,7 @@
 ---
 title: "WebPFrameBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 webp 块打开器注册表."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 webp 块打开器注册表。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.webp/webpframeblock/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class WebPFrameBlock extends RasterCachedImage implements IFrame, IAnimationFrame
 ```
 
-表示 webp 块打开器注册表.
+表示 webp 块打开器注册表。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public class WebPFrameBlock extends RasterCachedImage implements IFrame, IAnimat
 | [getBitsPerPixel()](#getBitsPerPixel--) | 获取图像每像素位数计数。 |
 | [getHeight()](#getHeight--) | 获取图像高度。 |
 | [getWidth()](#getWidth--) | 获取图像宽度。 |
-| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha 通道。 |
+| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha。 |
 | [getDuration()](#getDuration--) | 获取或设置帧持续时间。 |
 | [setDuration(short value)](#setDuration-short-) | 获取或设置帧持续时间。 |
 | [getLeft()](#getLeft--) | 获取或设置帧左侧位置。 |
@@ -39,8 +39,8 @@ public class WebPFrameBlock extends RasterCachedImage implements IFrame, IAnimat
 | [getFrameTime()](#getFrameTime--) | 获取帧持续时间。 |
 | [getFrameTop()](#getFrameTop--) | 获取帧顶部偏移。 |
 | [getFrameLeft()](#getFrameLeft--) | 获取帧左侧偏移。 |
-| [getDisposalMethod()](#getDisposalMethod--) | 获取处理方法。 |
-| [setDisposalMethod(int value)](#setDisposalMethod-int-) | 设置处理方式。 |
+| [getDisposalMethod()](#getDisposalMethod--) | 获取处置方法。 |
+| [setDisposalMethod(int value)](#setDisposalMethod-int-) | 设置处置方法。 |
 | [isUseAlphaBlending()](#isUseAlphaBlending--) | 获取指示当前帧是否与前一帧的 alpha 值混合的值。 |
 | [setUseAlphaBlending(boolean value)](#setUseAlphaBlending-boolean-) | 设置指示当前帧是否与前一帧的 alpha 值混合的值。 |
 | [getFullFrame()](#getFullFrame--) | 获取完整帧。 |
@@ -68,8 +68,8 @@ public WebPFrameBlock(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -107,7 +107,7 @@ public boolean hasAlpha()
 ```
 
 
-获取一个值，指示此实例是否具有 alpha 通道。
+获取一个值，指示此实例是否具有 alpha。
 
 **Returns:**
 boolean - 如果此实例具有 alpha，则为 `true`；否则为 `false`。
@@ -121,7 +121,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName);
 try {
     com.aspose.imaging.fileformats.webp.WebPImage webpImage = (com.aspose.imaging.fileformats.webp.WebPImage) image;
 
-    // 如果活动 TIFF 帧具有 alpha 通道，则整个 TIFF 图像被视为具有 alpha 通道。
+    // 如果活动的 TIFF 帧具有 alpha 通道，则整个 TIFF 图像被视为具有 alpha 通道。
     System.out.printf("ImageFile=%s, FileFormat=%s, HasAlpha=%s\r\n", fileName, webpImage.getRawDataFormat(), webpImage.hasAlpha());
 
     int i = 0;
@@ -161,7 +161,7 @@ public void setDuration(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 持续时间。 |
+| 值 | 短 | 持续时间。 |
 
 ### getLeft() {#getLeft--}
 ```
@@ -184,7 +184,7 @@ public void setLeft(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 左侧。 |
+| 值 | 短 | 左侧。 |
 
 ### getTop() {#getTop--}
 ```
@@ -207,7 +207,7 @@ public void setTop(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 顶部。 |
+| 值 | 短 | 顶部。 |
 
 ### getFrameTime() {#getFrameTime--}
 ```
@@ -245,7 +245,7 @@ public final int getDisposalMethod()
 ```
 
 
-获取处理方法。
+获取处置方法。
 
 **Returns:**
 int - 处理方式。
@@ -255,14 +255,14 @@ public final void setDisposalMethod(int value)
 ```
 
 
-设置处理方式。
+设置处置方法。
 
-值：释放方法。
+值：处理方式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 处理方式。 |
+| 值 | int | 处理方式。 |
 
 ### isUseAlphaBlending() {#isUseAlphaBlending--}
 ```
@@ -272,10 +272,10 @@ public final boolean isUseAlphaBlending()
 
 获取指示当前帧是否与前一帧的 alpha 值混合的值。
 
-Value: `` 如果此帧使用 alpha 混合；否则， ``。
+值：`` 如果此帧使用 alpha‑混合；否则，``。
 
 **Returns:**
-boolean - 指示当前帧是否与前一帧的 alpha 值混合的值。
+boolean - 表示当前帧是否与前一帧的 alpha 值混合的值。
 ### setUseAlphaBlending(boolean value) {#setUseAlphaBlending-boolean-}
 ```
 public final void setUseAlphaBlending(boolean value)
@@ -284,12 +284,12 @@ public final void setUseAlphaBlending(boolean value)
 
 设置指示当前帧是否与前一帧的 alpha 值混合的值。
 
-Value: `` 如果此帧使用 alpha 混合；否则， ``。
+值：`` 如果此帧使用 alpha‑混合；否则，``。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示当前帧是否与前一帧的 alpha 值混合的值。 |
+| 值 | boolean | 表示当前帧是否与前一帧的 alpha 值混合的值。 |
 
 ### getFullFrame() {#getFullFrame--}
 ```

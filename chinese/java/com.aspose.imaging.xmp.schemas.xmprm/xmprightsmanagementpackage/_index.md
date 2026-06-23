@@ -1,13 +1,13 @@
 ---
 title: "XmpRightsManagementPackage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 权限管理命名空间。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class XmpRightsManagementPackage extends XmpPackage
 ```
@@ -48,7 +48,7 @@ public void addValue(String key, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 键的字符串表示形式，用于标识添加的值。 |
-| value | java.lang.String | 字符串值。 |
+| 值 | java.lang.String | 字符串值。 |
 
 ### setCertificate(String certificate) {#setCertificate-java.lang.String-}
 ```
@@ -74,7 +74,7 @@ public void setMarkedAsRightManagement(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 如果设置为 `true`，则表示这是受版权管理的资源。 |
+| 值 | boolean | 如果设置为 `true`，则表示这是受权管理的资源。 |
 
 ### setOwners(String[] owners) {#setOwners-java.lang.String---}
 ```
@@ -113,5 +113,5 @@ public void setWebStatement(String webStatementUrl)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| webStatementUrl | java.lang.String | 网页声明 URL。 |
+| webStatementUrl | java.lang.String | Web 声明 URL。 |
 

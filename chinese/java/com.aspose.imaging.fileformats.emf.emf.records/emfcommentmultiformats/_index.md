@@ -1,7 +1,7 @@
 ---
 title: "EmfCommentMultiFormats"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_COMMENT_MULTIFORMATS 记录指定以多种图形格式存储的图像。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_COMMENT_MULTIFORMATS 记录指定以多种图形格式表示的图像。"
 type: docs
 weight: 30
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
@@ -39,7 +39,7 @@ public EmfCommentMultiFormats(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getOutputRect() {#getOutputRect--}
 ```
@@ -93,7 +93,7 @@ public byte[][] getFormatData()
 ```
 
 
-获取或设置一个可变长度的字节数组，包含此记录中所有图形格式的图像数据。每幅图像数据的大小由相应 EmrFormat 对象中的 DataSize 字段提供。因此，此字段的总大小等于所有 EmrFormat 对象中 DataSize 值的总和。每幅图像的数据的图形格式由相应 EmrFormat 对象中的 Signature 字段指定。
+获取或设置一个可变长度的字节数组，包含此记录中所有图形格式的图像数据。每个图像的数据大小由相应 EmrFormat 对象中的 DataSize 字段提供。因此，此字段的总大小等于所有 EmrFormat 对象中 DataSize 值的总和。每个图像的数据的图形格式由相应 EmrFormat 对象中的 Signature 字段指定。
 
 **Returns:**
 byte[][]
@@ -103,10 +103,10 @@ public void setFormatData(byte[][] value)
 ```
 
 
-获取或设置一个可变长度的字节数组，包含此记录中所有图形格式的图像数据。每幅图像数据的大小由相应 EmrFormat 对象中的 DataSize 字段提供。因此，此字段的总大小等于所有 EmrFormat 对象中 DataSize 值的总和。每幅图像的数据的图形格式由相应 EmrFormat 对象中的 Signature 字段指定。
+获取或设置一个可变长度的字节数组，包含此记录中所有图形格式的图像数据。每个图像的数据大小由相应 EmrFormat 对象中的 DataSize 字段提供。因此，此字段的总大小等于所有 EmrFormat 对象中 DataSize 值的总和。每个图像的数据的图形格式由相应 EmrFormat 对象中的 Signature 字段指定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[][] |  |
+| 值 | byte[][] |  |
 

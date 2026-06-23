@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPaletteStyleFlags"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PaletteStyle 标志指定了图形调色板的属性。"
 type: docs
 weight: 37
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusPaletteStyleFlags extends System.Enum
 ```
 
-PaletteStyle 标志指定图形调色板的属性。这些标志可以组合以指定多个选项。
+PaletteStyle 标志指定了图形调色板的属性。这些标志可以组合以指定多个选项。
 
 --------------------
 

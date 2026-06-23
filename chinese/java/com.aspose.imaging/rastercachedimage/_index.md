@@ -1,6 +1,6 @@
 ---
 title: "RasterCachedImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示支持光栅图形操作的光栅图像。"
 type: docs
 weight: 89
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class RasterCachedImage extends RasterImage
 ```
 
-表示支持光栅图形操作的光栅图像。需要时，此图像会缓存像素数据。
+表示支持光栅图形操作的光栅图像。需要时此图像会缓存像素数据。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [isCached()](#isCached--) | 获取一个值，指示图像数据当前是否已缓存。 |
+| [isCached()](#isCached--) | 获取一个指示图像数据当前是否已缓存的值。 |
 | [cacheData()](#cacheData--) | 缓存数据，并确保不会从底层 `DataStreamSupporter.DataStreamContainer` 再进行额外的数据加载。 |
 | [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | 将此图像实例与 `overlay` 图像混合。 |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整图像大小。 |
@@ -39,10 +39,10 @@ public abstract class RasterCachedImage extends RasterImage
 | [adjustGamma(float gamma)](#adjustGamma-float-) | 对图像进行伽马校正。 |
 | [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | 使用隐写技术将基于提供的密码的数字签名嵌入图像中。 |
 | [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | 计算提取数据与原始密码之间的相似度百分比。 |
-| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | 使用提供的密码和阈值快速检查图像是否已数字签名。 |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | 使用提供的密码和阈值快速检查图像是否已进行数字签名。 |
 
 ## Example: The following example transforms a colored raster cached image to its grayscale representation.
-以下示例将彩色栅格缓存图像转换为灰度表示。灰度图像仅由灰色阴影组成，仅携带强度信息。
+以下示例将彩色栅格缓存图像转换为灰度表示。灰度图像仅由灰色阴影组成，只携带强度信息。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -63,7 +63,7 @@ public boolean isCached()
 ```
 
 
-获取一个值，指示图像数据当前是否已缓存。
+获取一个指示图像数据当前是否已缓存的值。
 
 **Returns:**
 布尔值 - 如果图像数据已缓存则为 `true`；否则为 `false`。
@@ -84,7 +84,7 @@ String dir = "c:\\temp\\";
 // 从 PNG 文件加载图像。
 com.aspose.imaging.RasterCachedImage image = (com.aspose.imaging.RasterCachedImage) com.aspose.imaging.Image.load(dir + "sample.png");
 try {
-    // 缓存所有像素数据，以便不再从底层数据流进行额外的数据加载
+    // 缓存所有像素数据，以免从底层数据流进行额外的数据加载
     image.cacheData();
 
     long startTime = System.currentTimeMillis();
@@ -146,7 +146,7 @@ public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的起点。 |
+| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的原点。 |
 | overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | 覆盖图像。 |
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | 覆盖区域。 |
 | overlayAlpha | byte | 覆盖透明度。 |
@@ -425,7 +425,7 @@ public void grayscale()
 
 
 **Example: The following example transforms a colored raster cached image to its grayscale representation.**
-以下示例将彩色栅格缓存图像转换为灰度表示。灰度图像仅由灰色阴影组成，仅携带强度信息。
+以下示例将彩色栅格缓存图像转换为灰度表示。灰度图像仅由灰色阴影组成，只携带强度信息。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -471,7 +471,7 @@ public void autoBrightnessContrast()
 
 1.  对比度受限自适应直方图均衡 (CLAHE) – 提高局部对比度并增强细微细节。
 2.  自适应白色拉伸 – 在保护暗部特征的同时提升有效白色水平。
-3.  自动白平衡 – 通过平衡通道直方图校正色偏。
+3.  自动白平衡 – 通过平衡通道直方图校正颜色偏差。
 
 `**注意:**`
 
@@ -502,7 +502,7 @@ try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
     // 使用阈值 127 对图像进行二值化。
-    // 如果像素的对应灰度值大于 127，则赋值为 255；否则为 0。
+    // 如果像素的对应灰度值大于 127，则赋值为 255，否则为 0。
     rasterImage.binarizeFixed((byte) 127);
     rasterImage.save(dir + "sample.BinarizeFixed.png");
 } finally {
@@ -547,8 +547,8 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
-| windowSize | int | 以该像素为中心的 s × s 窗口像素的大小 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
+| windowSize | int | 以该像素为中心的 s × s 窗口的大小 |
 
 
 **Example: The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm with the specified window size.**
@@ -560,7 +560,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // 使用亮度差 5 对图像进行二值化。
+    // 使用亮度差为 5 对图像进行二值化。
     // 亮度是该像素与以其为中心的 10 × 10 窗口像素平均值之间的差异。
     rasterImage.binarizeBradley(5, 10);
     rasterImage.save(dir + "sample.BinarizeBradley5_10x10.png");
@@ -580,7 +580,7 @@ public void binarizeBradley(double brightnessDifference)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
 
 
 **Example: The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm.**
@@ -592,7 +592,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // 使用亮度差 5 对图像进行二值化。
+    // 使用亮度差为 5 对图像进行二值化。
     // 亮度是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。
     // 窗口大小将自动校准。
     rasterImage.binarizeBradley(5);
@@ -677,7 +677,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 | --- | --- | --- |
 | gammaRed | float | 红色通道的伽马系数 |
 | gammaGreen | float | 绿色通道的伽马系数 |
-| gammaBlue | float | 蓝色通道的伽马系数 |
+| gammaBlue | float | 蓝色通道系数的 Gamma |
 
 
 **Example: The following example performs gamma-correction of a raster cached image applying different coefficients for color components.**
@@ -689,7 +689,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // 为红色、绿色和蓝色通道设置各自的伽马系数。
+    // 为红色、绿色和蓝色通道设置各自的 Gamma 系数。
     rasterImage.adjustGamma(1.5f, 2.5f, 3.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -708,7 +708,7 @@ public void adjustGamma(float gamma)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 伽马 | float | 红色、绿色和蓝色通道的伽马系数 |
+| 伽马 | float | 红色、绿色和蓝色通道系数的 Gamma |
 
 
 **Example: The following example performs gamma-correction of a raster cached image.**
@@ -720,7 +720,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // 为红色、绿色和蓝色通道设置伽马系数。
+    // 为红色、绿色和蓝色通道设置 Gamma 系数。
     rasterImage.adjustGamma(2.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -739,7 +739,7 @@ public void embedDigitalSignature(String password)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 密码 | java.lang.String | 用于生成数字签名数据的密码 |
+| 密码 | java.lang.String | 用于生成数字签名数据的密码（最少 4 个字符） |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**
@@ -775,11 +775,11 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 ```
 
 
-使用提供的密码和阈值快速检查图像是否已数字签名。
+使用提供的密码和阈值快速检查图像是否已进行数字签名。
 
 --------------------
 
-此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，旨在提高检测准确性的后续提取步骤将被跳过。
+此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，后续旨在提高检测准确性的提取步骤将被跳过。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -788,4 +788,4 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 | percentageThreshold | int | 阈值（百分比）[0-100] 用于确定图像是否被视为已签名。如果未指定，将使用默认阈值（`75`）。 |
 
 **Returns:**
-boolean - 如果图像已签名则为 True，否则为 false。
+boolean - 如果图像已签名则为 true，否则为 false。

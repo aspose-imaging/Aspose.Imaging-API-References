@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.fileformats.tiff.instancefactory"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该软件包包含 Tiff 文件格式标签工厂辅助类和接口。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包包含 Tiff 文件格式标签工厂帮助类和接口。"
 type: docs
 weight: 81
 url: /zh/java/com.aspose.imaging.fileformats.tiff.instancefactory/
 ---
 
-该软件包包含 Tiff 文件格式标签工厂辅助类和接口。
+该包包含 Tiff 文件格式标签工厂帮助类和接口。
 
 
 ## 类
@@ -20,4 +20,4 @@ url: /zh/java/com.aspose.imaging.fileformats.tiff.instancefactory/
 
 | 接口 | 描述 |
 | --- | --- |
-| [ITiffTagCreator](../com.aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator) | tiff 标签创建器。 |
+| [ITiffTagCreator](../com.aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator) | TIFF 标签创建器。 |

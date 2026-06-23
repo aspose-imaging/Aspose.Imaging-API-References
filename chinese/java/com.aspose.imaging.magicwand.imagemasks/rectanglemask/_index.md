@@ -1,6 +1,6 @@
 ---
 title: "RectangleMask"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "描述矩形掩码。"
 type: docs
 weight: 17
@@ -25,7 +25,7 @@ public class RectangleMask extends ImageMask
 | --- | --- |
 | [getSelectionBounds()](#getSelectionBounds--) | 获取掩码选定部分的边界（以像素为单位）。 |
 | [get_Item(int x, int y)](#get-Item-int-int-) | 获取指定像素的透明度。 |
-| [inflate(int size)](#inflate-int-) | 按指定量膨胀此掩码。 |
+| [inflate(int size)](#inflate-int-) | 按指定的量膨胀此掩码。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 使用指定的矩形裁剪掩码。 |
 | [deepClone()](#deepClone--) | 创建一个新对象，该对象是当前实例的副本。 |
 
@@ -38,18 +38,18 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
     // 使用魔棒工具基于像素 (845, 128) 的色调和颜色创建新掩码
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // 将现有掩码与由魔棒工具创建的指定掩码合并
+            // 将现有掩码与魔棒工具创建的指定掩码进行合并
             .union(new MagicWandSettings(416, 387))
-            // 反转现有掩码
+            // 反转现有的遮罩
             .invert()
-            // 从现有掩码中减去由魔棒工具创建的、具有指定阈值的指定掩码
+            // 从现有遮罩中减去使用魔棒工具并具有指定阈值创建的指定遮罩
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
-            // 逐个从现有掩码中减去四个指定的矩形掩码
+            // 一次一次地从现有遮罩中减去四个指定的矩形遮罩
             .subtract(new RectangleMask(0, 0, 800, 150))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // 使用指定设置羽化掩码
+            // 使用指定设置羽化遮罩
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
             // 将掩码应用于图像
             .apply();
@@ -73,8 +73,8 @@ public RectangleMask(int x, int y, int width, int height)
 | --- | --- | --- |
 | x | int | 所选区域左上点的 X 坐标。 |
 | y | int | 所选区域左上点的 Y 坐标。 |
-| 宽度 | int | 所选区域的宽度。 |
-| 高度 | int | 所选区域的高度。 |
+| width | int | 所选区域的宽度。 |
+| height | int | 所选区域的高度。 |
 
 ### RectangleMask(Rectangle selectedArea) {#RectangleMask-com.aspose.imaging.Rectangle-}
 ```
@@ -87,7 +87,7 @@ public RectangleMask(Rectangle selectedArea)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| selectedArea | [Rectangle](../../com.aspose.imaging/rectangle) | 选定区域以矩形形式指定。 |
+| selectedArea | [Rectangle](../../com.aspose.imaging/rectangle) | 以矩形指定的选定区域。 |
 
 ### getSelectionBounds() {#getSelectionBounds--}
 ```
@@ -121,12 +121,12 @@ public ImageMask inflate(int size)
 ```
 
 
-按指定量膨胀此掩码。
+按指定的量膨胀此掩码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | int | 用于膨胀此掩码的量。 |
+| size | int | 膨胀此掩码的量。 |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated RectangleMask as ImageMask.
@@ -154,4 +154,4 @@ public Object deepClone()
 创建一个新对象，该对象是当前实例的副本。
 
 **Returns:**
-java.lang.Object - 此实例的副本的新对象。
+java.lang.Object - 一个新对象，是此实例的副本。

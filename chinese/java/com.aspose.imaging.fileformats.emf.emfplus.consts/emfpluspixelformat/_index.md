@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusPixelFormat"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "PixelFormat 枚举定义了在 EMF 位图中受支持的像素格式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "PixelFormat 枚举定义了在 EMF 位图中支持的像素格式。"
 type: docs
 weight: 43
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat/
@@ -42,7 +42,7 @@ public static final int PixelFormatUndefined
 
 --------------------
 
-像素格式由 [EmfPlusBitmap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap) 对象指定。它们的编码如下： - 位 0-7：像素格式常量的枚举，从零开始。 - 位 8-15：每像素的总位数。 - 位 16：如果设置，则颜色值索引到调色板。 - 位 17：如果设置，则颜色值采用 GDI 支持的格式。 - 位 18：如果设置，则颜色值具有 Alpha 分量。 - 位 19：如果设置，则颜色值具有预乘 Alpha 分量。 - 位 20：如果设置，则支持扩展颜色，每通道 16 位。 - 位 21-31：保留。
+像素格式由 [EmfPlusBitmap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap) 对象指定。它们的编码方式如下：- 位 0-7：像素格式常量的枚举，从零开始。- 位 8-15：每像素的总位数。- 位 16：如果设置，则颜色值索引到调色板。- 位 17：如果设置，则颜色值采用 GDI 支持的格式。- 位 18：如果设置，则颜色值具有 Alpha 分量。- 位 19：如果设置，则颜色值具有预乘 Alpha 分量。- 位 20：如果设置，则支持每通道 16 位的扩展颜色。- 位 21-31：保留。
 
 ### PixelFormat1bppIndexed {#PixelFormat1bppIndexed}
 ```
@@ -154,5 +154,5 @@ public static final int PixelFormat64bppPARGB
 ```
 
 
-该格式为每像素 64 位；Alpha、红、绿、蓝分量各使用 16 位。红、绿、蓝分量根据 Alpha 分量进行预乘。
+该格式为每像素 64 位；每个 alpha、红色、绿色和蓝色分量各使用 16 位。红色、绿色和蓝色分量根据 alpha 分量进行预乘。
 

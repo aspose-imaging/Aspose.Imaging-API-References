@@ -1,6 +1,6 @@
 ---
 title: "CmxImagePage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "CMX 页面图像"
 type: docs
 weight: 11
@@ -20,8 +20,8 @@ CMX 页面图像
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [CmxImagePage(CmxPage cmxPage, Image container)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-) | 初始化 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类的新实例。 |
-| [CmxImagePage(CmxPage cmxPage)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-) | 初始化 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类的新实例。 |
+| [CmxImagePage(CmxPage cmxPage, Image container)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-) | 初始化一个新的 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类实例。 |
+| [CmxImagePage(CmxPage cmxPage)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-) | 初始化一个新的 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -31,11 +31,11 @@ CMX 页面图像
 | [getBitsPerPixel()](#getBitsPerPixel--) | 获取图像每像素位数计数。 |
 | [isCached()](#isCached--) | 获取一个值，指示对象的数据当前是否已缓存且无需读取数据。 |
 | [getWidthF()](#getWidthF--) | 获取对象的宽度（英寸）。 |
-| [getHeightF()](#getHeightF--) | 获取对象的高度（英寸）。 |
+| [getHeightF()](#getHeightF--) | 获取对象的高度，单位为英寸。 |
 | [getWidth()](#getWidth--) | 获取图像宽度。 |
 | [getHeight()](#getHeight--) | 获取图像高度。 |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | 获取默认选项。 |
-| [cacheData()](#cacheData--) | 缓存无法使用。 |
+| [cacheData()](#cacheData--) | 缓存不能使用。 |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 设置图像调色板。 |
 ### CmxImagePage(CmxPage cmxPage, Image container) {#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-}
 ```
@@ -43,7 +43,7 @@ public CmxImagePage(CmxPage cmxPage, Image container)
 ```
 
 
-初始化 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类的新实例。
+初始化一个新的 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -57,7 +57,7 @@ public CmxImagePage(CmxPage cmxPage)
 ```
 
 
-初始化 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类的新实例。
+初始化一个新的 [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -115,17 +115,17 @@ public float getWidthF()
 获取对象的宽度（英寸）。
 
 **Returns:**
-float - 对象的宽度（英寸）。
+float - 对象的宽度，单位为英寸。
 ### getHeightF() {#getHeightF--}
 ```
 public float getHeightF()
 ```
 
 
-获取对象的高度（英寸）。
+获取对象的高度，单位为英寸。
 
 **Returns:**
-float - 对象的高度（英寸）。
+float - 对象的高度，单位为英寸。
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -171,7 +171,7 @@ public void cacheData()
 ```
 
 
-缓存无法使用。
+缓存不能使用。
 
 
 **Example: The following example shows how to cache all pages of a CMX image.**
@@ -185,7 +185,7 @@ try {
     // 此调用仅缓存默认页面。
     image.cacheData();
 
-    // 缓存所有页面，以便不再从底层数据流加载额外数据。
+    // 缓存所有页面，以防止从底层数据流进行额外的数据加载。
     for (com.aspose.imaging.fileformats.cmx.CmxImagePage page : image.getPages()) {
         page.cacheData();
     }

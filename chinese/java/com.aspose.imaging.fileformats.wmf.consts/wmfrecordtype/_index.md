@@ -1,6 +1,6 @@
 ---
 title: "WmfRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "wmf 记录类型"
 type: docs
 weight: 33
@@ -18,8 +18,8 @@ wmf 记录类型
 | 字段 | 描述 |
 | --- | --- |
 | [Eof](#Eof) | EOF 记录类型 |
-| [RealizePalette](#RealizePalette) | realizepalette |
-| [SetPalentries](#SetPalentries) | setpalentries |
+| [RealizePalette](#RealizePalette) | 该 realizepalette |
+| [SetPalentries](#SetPalentries) | 该 setpalentries |
 | [SetBkMode](#SetBkMode) | 该 setbkmode |
 | [SetMapMode](#SetMapMode) | 该 setmapmode |
 | [SetRop2](#SetRop2) | 该 setrop2 |
@@ -64,7 +64,7 @@ wmf 记录类型
 | [RoundRect](#RoundRect) | 该 roundrect |
 | [PatBlt](#PatBlt) | 该 patblt |
 | [SaveDc](#SaveDc) | 该 savedc |
-| [Pie](#Pie) | 该 pie record type |
+| [Pie](#Pie) | 该 pie 记录类型 |
 | [StretchBlt](#StretchBlt) | 该 stretchblt |
 | [Escape](#Escape) | 该 escape |
 | [InvertRegion](#InvertRegion) | 该 invertregion |
@@ -72,22 +72,22 @@ wmf 记录类型
 | [SelectClipRegion](#SelectClipRegion) | 该 selectclipregion |
 | [SelectObject](#SelectObject) | 该 selectobject |
 | [SetTextAlign](#SetTextAlign) | 该 settextalign |
-| [Arc](#Arc) | 弧记录类型 |
-| [Chord](#Chord) | 弦记录类型 |
-| [BitBlt](#BitBlt) | bitblt |
-| [ExtTextOut](#ExtTextOut) | exttextout |
-| [SetDibToDev](#SetDibToDev) | setdibtodev |
-| [DibBitBlt](#DibBitBlt) | dibbitblt |
-| [DibStretchBlt](#DibStretchBlt) | dibstretchblt |
-| [StretchDib](#StretchDib) | stretchdib |
-| [DeleteObject](#DeleteObject) | deleteobject |
-| [CreatePalette](#CreatePalette) | createpalette |
-| [CreatePatternBrush](#CreatePatternBrush) | createpatternbrush |
-| [CreatePenInDirect](#CreatePenInDirect) | createpenindirect |
-| [CreateFontInDirect](#CreateFontInDirect) | createfontindirect |
-| [CreateBrushInDirect](#CreateBrushInDirect) | createbrushindirect |
-| [CreateRegion](#CreateRegion) | createregion |
-| [None](#None) | 记录类型无。 |
+| [Arc](#Arc) | 该 arc 记录类型 |
+| [Chord](#Chord) | 该 chord 记录类型 |
+| [BitBlt](#BitBlt) | 该 bitblt |
+| [ExtTextOut](#ExtTextOut) | 该 exttextout |
+| [SetDibToDev](#SetDibToDev) | 该 setdibtodev |
+| [DibBitBlt](#DibBitBlt) | 该 dibbitblt |
+| [DibStretchBlt](#DibStretchBlt) | 该 dibstretchblt |
+| [StretchDib](#StretchDib) | 该 stretchdib |
+| [DeleteObject](#DeleteObject) | 该 deleteobject |
+| [CreatePalette](#CreatePalette) | 该 createpalette |
+| [CreatePatternBrush](#CreatePatternBrush) | 该 createpatternbrush |
+| [CreatePenInDirect](#CreatePenInDirect) | 该 createpenindirect |
+| [CreateFontInDirect](#CreateFontInDirect) | 该 createfontindirect |
+| [CreateBrushInDirect](#CreateBrushInDirect) | 该 createbrushindirect |
+| [CreateRegion](#CreateRegion) | 该 createregion |
+| [None](#None) | 该 记录类型 无。 |
 ### Eof {#Eof}
 ```
 public static final short Eof
@@ -102,7 +102,7 @@ public static final short RealizePalette
 ```
 
 
-realizepalette
+该 realizepalette
 
 ### SetPalentries {#SetPalentries}
 ```
@@ -110,7 +110,7 @@ public static final short SetPalentries
 ```
 
 
-setpalentries
+该 setpalentries
 
 ### SetBkMode {#SetBkMode}
 ```
@@ -470,7 +470,7 @@ public static final short Pie
 ```
 
 
-该 pie record type
+该 pie 记录类型
 
 ### StretchBlt {#StretchBlt}
 ```
@@ -534,7 +534,7 @@ public static final short Arc
 ```
 
 
-弧记录类型
+该 arc 记录类型
 
 ### Chord {#Chord}
 ```
@@ -542,7 +542,7 @@ public static final short Chord
 ```
 
 
-弦记录类型
+该 chord 记录类型
 
 ### BitBlt {#BitBlt}
 ```
@@ -550,7 +550,7 @@ public static final short BitBlt
 ```
 
 
-bitblt
+该 bitblt
 
 ### ExtTextOut {#ExtTextOut}
 ```
@@ -558,7 +558,7 @@ public static final short ExtTextOut
 ```
 
 
-exttextout
+该 exttextout
 
 ### SetDibToDev {#SetDibToDev}
 ```
@@ -566,7 +566,7 @@ public static final short SetDibToDev
 ```
 
 
-setdibtodev
+该 setdibtodev
 
 ### DibBitBlt {#DibBitBlt}
 ```
@@ -574,7 +574,7 @@ public static final short DibBitBlt
 ```
 
 
-dibbitblt
+该 dibbitblt
 
 ### DibStretchBlt {#DibStretchBlt}
 ```
@@ -582,7 +582,7 @@ public static final short DibStretchBlt
 ```
 
 
-dibstretchblt
+该 dibstretchblt
 
 ### StretchDib {#StretchDib}
 ```
@@ -590,7 +590,7 @@ public static final short StretchDib
 ```
 
 
-stretchdib
+该 stretchdib
 
 ### DeleteObject {#DeleteObject}
 ```
@@ -598,7 +598,7 @@ public static final short DeleteObject
 ```
 
 
-deleteobject
+该 deleteobject
 
 ### CreatePalette {#CreatePalette}
 ```
@@ -606,7 +606,7 @@ public static final short CreatePalette
 ```
 
 
-createpalette
+该 createpalette
 
 ### CreatePatternBrush {#CreatePatternBrush}
 ```
@@ -614,7 +614,7 @@ public static final short CreatePatternBrush
 ```
 
 
-createpatternbrush
+该 createpatternbrush
 
 ### CreatePenInDirect {#CreatePenInDirect}
 ```
@@ -622,7 +622,7 @@ public static final short CreatePenInDirect
 ```
 
 
-createpenindirect
+该 createpenindirect
 
 ### CreateFontInDirect {#CreateFontInDirect}
 ```
@@ -630,7 +630,7 @@ public static final short CreateFontInDirect
 ```
 
 
-createfontindirect
+该 createfontindirect
 
 ### CreateBrushInDirect {#CreateBrushInDirect}
 ```
@@ -638,7 +638,7 @@ public static final short CreateBrushInDirect
 ```
 
 
-createbrushindirect
+该 createbrushindirect
 
 ### CreateRegion {#CreateRegion}
 ```
@@ -646,7 +646,7 @@ public static final short CreateRegion
 ```
 
 
-createregion
+该 createregion
 
 ### None {#None}
 ```
@@ -654,5 +654,5 @@ public static final short None
 ```
 
 
-记录类型无。
+该 记录类型 无。
 

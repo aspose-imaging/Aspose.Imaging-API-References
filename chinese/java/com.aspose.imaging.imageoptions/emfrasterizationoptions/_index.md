@@ -1,6 +1,6 @@
 ---
 title: "EmfRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Emf 栅格化选项。"
 type: docs
 weight: 20
@@ -52,7 +52,7 @@ public void setRenderMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 渲染模式。 |
+| 值 | int | 渲染模式。 |
 
 
 **Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**

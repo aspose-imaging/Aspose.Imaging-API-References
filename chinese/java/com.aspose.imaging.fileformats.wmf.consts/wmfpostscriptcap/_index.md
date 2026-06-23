@@ -1,6 +1,6 @@
 ---
 title: "WmfPostScriptCap"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PostScriptCap 枚举定义用于 PostScript 打印机驱动程序的线端类型。"
 type: docs
 weight: 31
@@ -17,8 +17,8 @@ PostScriptCap 枚举定义用于 PostScript 打印机驱动程序的线端类型
 
 | 字段 | 描述 |
 | --- | --- |
-| [PostScriptNotSet](#PostScriptNotSet) | 指定未设置行尾样式，并且可能使用默认样式 [24]。 |
-| [PostScriptFlatCap](#PostScriptFlatCap) | 指定线条在最后一点结束。 |
+| [PostScriptNotSet](#PostScriptNotSet) | 指定线段结束样式尚未设置，且可能使用默认样式 [24]。 |
+| [PostScriptFlatCap](#PostScriptFlatCap) | 指定线段在最后一点结束。 |
 | [PostScriptRoundCap](#PostScriptRoundCap) | 指定圆形端帽。 |
 | [PostScriptSquareCap](#PostScriptSquareCap) | 指定方形端帽。 |
 ### PostScriptNotSet {#PostScriptNotSet}
@@ -27,7 +27,7 @@ public static final int PostScriptNotSet
 ```
 
 
-指定未设置行尾样式，并且可能使用默认样式 [24]。
+指定线段结束样式尚未设置，且可能使用默认样式 [24]。
 
 ### PostScriptFlatCap {#PostScriptFlatCap}
 ```
@@ -35,7 +35,7 @@ public static final int PostScriptFlatCap
 ```
 
 
-指定线条在最后一点结束。端点被方形化。
+指定线段在最后一点结束。端点被方形化。
 
 ### PostScriptRoundCap {#PostScriptRoundCap}
 ```
@@ -43,7 +43,7 @@ public static final int PostScriptRoundCap
 ```
 
 
-指定圆形端帽。圆的中心是线段的最后一点。圆的直径与线宽相同；即线的粗细。
+指定圆形端帽。圆心位于线段的最后一点。圆的直径等于线宽，即线的厚度。
 
 ### PostScriptSquareCap {#PostScriptSquareCap}
 ```
@@ -51,5 +51,5 @@ public static final int PostScriptSquareCap
 ```
 
 
-指定方形端帽。方形的中心是线段的最后一点。方形的高度和宽度与线宽相同；即线的粗细。
+指定方形端帽。方形的中心位于线段的最后一点。方形的高和宽均等于线宽，即线的厚度。
 

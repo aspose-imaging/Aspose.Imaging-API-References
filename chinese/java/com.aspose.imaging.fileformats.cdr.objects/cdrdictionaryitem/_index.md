@@ -1,6 +1,6 @@
 ---
 title: "CdrDictionaryItem"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 字典项"
 type: docs
 weight: 15
@@ -51,5 +51,5 @@ public final void setId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 标识符。 |
+| 值 | int | 标识符。 |
 

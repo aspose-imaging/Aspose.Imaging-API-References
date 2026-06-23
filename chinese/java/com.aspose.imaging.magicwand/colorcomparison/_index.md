@@ -1,6 +1,6 @@
 ---
 title: "MagicWandSettings.ColorComparison"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于具有已定义阈值的比较的委托。"
 type: docs
 weight: 10

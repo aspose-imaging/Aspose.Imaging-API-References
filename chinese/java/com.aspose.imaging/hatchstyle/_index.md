@@ -1,6 +1,6 @@
 ---
 title: "HatchStyle"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定 HatchBrush 对象可用的不同图案。"
 type: docs
 weight: 54
@@ -20,9 +20,9 @@ public final class HatchStyle extends System.Enum
 | [Horizontal](#Horizontal) | 水平线的图案。 |
 | [Min](#Min) | 指定填充样式 Horizontal。 |
 | [Vertical](#Vertical) | 垂直线的图案。 |
-| [ForwardDiagonal](#ForwardDiagonal) | 从左上到右下对角线的线条图案。 |
-| [BackwardDiagonal](#BackwardDiagonal) | 从右上到左下对角线的线条图案。 |
-| [Cross](#Cross) | 指定交叉的水平和垂直线。 |
+| [ForwardDiagonal](#ForwardDiagonal) | 从左上到右下的对角线图案。 |
+| [BackwardDiagonal](#BackwardDiagonal) | 从右上到左下的对角线图案。 |
+| [Cross](#Cross) | 指定水平和垂直交叉的线条。 |
 | [LargeGrid](#LargeGrid) | 指定填充样式 Cross。 |
 | [Max](#Max) | 指定填充样式 SolidDiamond。 |
 | [DiagonalCross](#DiagonalCross) | 交叉对角线的图案。 |
@@ -38,40 +38,40 @@ public final class HatchStyle extends System.Enum
 | [Percent75](#Percent75) | 指定 75% 的填充图案。 |
 | [Percent80](#Percent80) | 指定 80% 的填充图案。 |
 | [Percent90](#Percent90) | 指定 90% 的填充图案。 |
-| [LightDownwardDiagonal](#LightDownwardDiagonal) | 指定从上点到下点向右倾斜的对角线，间距比 ForwardDiagonal 小 50%，但未进行抗锯齿处理。 |
-| [LightUpwardDiagonal](#LightUpwardDiagonal) | 指定从上点到下点向左倾斜的对角线，间距比 BackwardDiagonal 小 50%，但未进行抗锯齿处理。 |
-| [DarkDownwardDiagonal](#DarkDownwardDiagonal) | 指定从上点到下点向右倾斜的对角线，间距比 ForwardDiagonal 小 50%，且宽度是 ForwardDiagonal 的两倍。 |
-| [DarkUpwardDiagonal](#DarkUpwardDiagonal) | 指定从上点到下点向左倾斜的对角线，间距比 BackwardDiagonal 小 50%，宽度是其两倍，但未进行抗锯齿处理。 |
-| [WideDownwardDiagonal](#WideDownwardDiagonal) | 指定从上点到下点向右倾斜的对角线，间距与填充样式 ForwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。 |
-| [WideUpwardDiagonal](#WideUpwardDiagonal) | 指定从上点到下点向左倾斜的对角线，间距与填充样式 BackwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。 |
+| [LightDownwardDiagonal](#LightDownwardDiagonal) | 指定从顶部点到底部点向右倾斜的对角线，其间距比 ForwardDiagonal 小 50%，但未进行抗锯齿处理。 |
+| [LightUpwardDiagonal](#LightUpwardDiagonal) | 指定从顶部点到底部点向左倾斜的对角线，其间距比 BackwardDiagonal 小 50%，但未进行抗锯齿处理。 |
+| [DarkDownwardDiagonal](#DarkDownwardDiagonal) | 指定从顶部点到底部点向右倾斜的对角线，其间距比 ForwardDiagonal 小 50%，且宽度是 ForwardDiagonal 的两倍。 |
+| [DarkUpwardDiagonal](#DarkUpwardDiagonal) | 指定从顶部点到底部点向左倾斜的对角线，其间距比 BackwardDiagonal 小 50%，宽度是其两倍，但未进行抗锯齿处理。 |
+| [WideDownwardDiagonal](#WideDownwardDiagonal) | 指定从顶部点到底部点向右倾斜的对角线，其间距与填充样式 ForwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。 |
+| [WideUpwardDiagonal](#WideUpwardDiagonal) | 指定从顶部点到底部点向左倾斜的对角线，其间距与填充样式 BackwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。 |
 | [LightVertical](#LightVertical) | 指定垂直线，其间距比 Vertical 小 50%。 |
 | [LightHorizontal](#LightHorizontal) | 指定水平线，其间距比 Horizontal 小 50%。 |
 | [NarrowVertical](#NarrowVertical) | 指定垂直线，其间距比填充样式 Vertical 小 75%（或比 LightVertical 小 25%）。 |
 | [NarrowHorizontal](#NarrowHorizontal) | 指定水平线，其间距比填充样式 Horizontal 小 75%（或比 LightHorizontal 小 25%）。 |
 | [DarkVertical](#DarkVertical) | 指定垂直线，其间距比 Vertical 小 50%，且宽度是其两倍。 |
 | [DarkHorizontal](#DarkHorizontal) | 指定水平线，其间距比 Horizontal 小 50%，且宽度是 Horizontal 的两倍。 |
-| [DashedDownwardDiagonal](#DashedDownwardDiagonal) | 指定从上点到下点向右倾斜的虚线对角线。 |
-| [DashedUpwardDiagonal](#DashedUpwardDiagonal) | 指定从上点到下点向左倾斜的虚线对角线。 |
+| [DashedDownwardDiagonal](#DashedDownwardDiagonal) | 指定从顶部点到底部点向右倾斜的虚线对角线。 |
+| [DashedUpwardDiagonal](#DashedUpwardDiagonal) | 指定从顶部点到底部点向左倾斜的虚线对角线。 |
 | [DashedHorizontal](#DashedHorizontal) | 指定虚线水平线。 |
 | [DashedVertical](#DashedVertical) | 指定虚线垂直线。 |
 | [SmallConfetti](#SmallConfetti) | 指定外观为彩纸屑的填充图案。 |
-| [LargeConfetti](#LargeConfetti) | 指定外观为彩纸屑的填充图案，且其组成块比 SmallConfetti 更大。 |
-| [ZigZag](#ZigZag) | 指定由锯齿组成的水平线。 |
+| [LargeConfetti](#LargeConfetti) | 指定外观为彩纸屑的填充图案，且其组成的碎片比 SmallConfetti 更大。 |
+| [ZigZag](#ZigZag) | 指定由锯齿形组成的水平线。 |
 | [Wave](#Wave) | 指定由波浪线组成的水平线。 |
-| [DiagonalBrick](#DiagonalBrick) | 指定一种填充图案，其外观为层叠的砖块，从上点向下点向左倾斜。 |
+| [DiagonalBrick](#DiagonalBrick) | 指定一种填充图案，其外观为层叠的砖块，左倾，从顶部点到底部点。 |
 | [HorizontalBrick](#HorizontalBrick) | 指定一种填充图案，其外观为水平层叠的砖块。 |
 | [Weave](#Weave) | 指定一种填充图案，其外观为编织材料。 |
 | [Plaid](#Plaid) | 指定一种填充图案，其外观为格子材料。 |
 | [Divot](#Divot) | 指定一种填充图案，其外观为凹坑。 |
 | [DottedGrid](#DottedGrid) | 指定水平和垂直线条，每条均由点组成，交叉。 |
 | [DottedDiamond](#DottedDiamond) | 指定正向对角线和反向对角线，每条均由点组成，交叉。 |
-| [Shingle](#Shingle) | 指定一种填充图案，其外观为对角层叠的瓦片，从上点向下点向右倾斜。 |
-| [Trellis](#Trellis) | 指定一种填充图案，其外观为格架。 |
+| [Shingle](#Shingle) | 指定一种填充图案，其外观为对角层叠的瓦片，右倾，从顶部点到底部点。 |
+| [Trellis](#Trellis) | 指定一种填充图案，其外观为格子结构。 |
 | [Sphere](#Sphere) | 指定一种填充图案，其外观为相邻排列的球体。 |
-| [SmallGrid](#SmallGrid) | 指定水平和垂直线条相交，且间距比填充样式“Cross”紧50%。 |
+| [SmallGrid](#SmallGrid) | 指定水平和垂直交叉线，其间距比填充样式“Cross”紧50%。 |
 | [SmallCheckerBoard](#SmallCheckerBoard) | 指定一种填充图案，其外观为棋盘格。 |
-| [LargeCheckerBoard](#LargeCheckerBoard) | 指定一种填充图案，其外观为棋盘格，方块大小是 SmallCheckerBoard 的两倍。 |
-| [OutlinedDiamond](#OutlinedDiamond) | 指定正向对角线和反向对角线相交，但未进行抗锯齿处理。 |
+| [LargeCheckerBoard](#LargeCheckerBoard) | 指定一种填充图案，其外观为棋盘格，方格大小为 SmallCheckerBoard 的两倍。 |
+| [OutlinedDiamond](#OutlinedDiamond) | 指定正向和反向对角交叉线，但未进行抗锯齿处理。 |
 | [SolidDiamond](#SolidDiamond) | 指定一种填充图案，其外观为对角放置的棋盘格。 |
 ### Horizontal {#Horizontal}
 ```
@@ -103,7 +103,7 @@ public static final int ForwardDiagonal
 ```
 
 
-从左上到右下对角线的线条图案。
+从左上到右下的对角线图案。
 
 ### BackwardDiagonal {#BackwardDiagonal}
 ```
@@ -111,7 +111,7 @@ public static final int BackwardDiagonal
 ```
 
 
-从右上到左下对角线的线条图案。
+从右上到左下的对角线图案。
 
 ### Cross {#Cross}
 ```
@@ -119,7 +119,7 @@ public static final int Cross
 ```
 
 
-指定交叉的水平和垂直线。
+指定水平和垂直交叉的线条。
 
 ### LargeGrid {#LargeGrid}
 ```
@@ -247,7 +247,7 @@ public static final int LightDownwardDiagonal
 ```
 
 
-指定从上点到下点向右倾斜的对角线，间距比 ForwardDiagonal 小 50%，但未进行抗锯齿处理。
+指定从顶部点到底部点向右倾斜的对角线，其间距比 ForwardDiagonal 小 50%，但未进行抗锯齿处理。
 
 ### LightUpwardDiagonal {#LightUpwardDiagonal}
 ```
@@ -255,7 +255,7 @@ public static final int LightUpwardDiagonal
 ```
 
 
-指定从上点到下点向左倾斜的对角线，间距比 BackwardDiagonal 小 50%，但未进行抗锯齿处理。
+指定从顶部点到底部点向左倾斜的对角线，其间距比 BackwardDiagonal 小 50%，但未进行抗锯齿处理。
 
 ### DarkDownwardDiagonal {#DarkDownwardDiagonal}
 ```
@@ -263,7 +263,7 @@ public static final int DarkDownwardDiagonal
 ```
 
 
-指定从顶部点到底部点向右倾斜的对角线，其间距比 ForwardDiagonal 缩小 50%，且宽度是 ForwardDiagonal 的两倍。此填充图案未进行抗锯齿处理。
+指定从顶部点到底部点向右倾斜的对角线，间距比 ForwardDiagonal 小 50%，且宽度是其两倍。此填充图案未进行抗锯齿处理。
 
 ### DarkUpwardDiagonal {#DarkUpwardDiagonal}
 ```
@@ -271,7 +271,7 @@ public static final int DarkUpwardDiagonal
 ```
 
 
-指定从上点到下点向左倾斜的对角线，间距比 BackwardDiagonal 小 50%，宽度是其两倍，但未进行抗锯齿处理。
+指定从顶部点到底部点向左倾斜的对角线，其间距比 BackwardDiagonal 小 50%，宽度是其两倍，但未进行抗锯齿处理。
 
 ### WideDownwardDiagonal {#WideDownwardDiagonal}
 ```
@@ -279,7 +279,7 @@ public static final int WideDownwardDiagonal
 ```
 
 
-指定从上点到下点向右倾斜的对角线，间距与填充样式 ForwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。
+指定从顶部点到底部点向右倾斜的对角线，其间距与填充样式 ForwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。
 
 ### WideUpwardDiagonal {#WideUpwardDiagonal}
 ```
@@ -287,7 +287,7 @@ public static final int WideUpwardDiagonal
 ```
 
 
-指定从上点到下点向左倾斜的对角线，间距与填充样式 BackwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。
+指定从顶部点到底部点向左倾斜的对角线，其间距与填充样式 BackwardDiagonal 相同，宽度是其三倍，但未进行抗锯齿处理。
 
 ### LightVertical {#LightVertical}
 ```
@@ -343,7 +343,7 @@ public static final int DashedDownwardDiagonal
 ```
 
 
-指定从上点到下点向右倾斜的虚线对角线。
+指定从顶部点到底部点向右倾斜的虚线对角线。
 
 ### DashedUpwardDiagonal {#DashedUpwardDiagonal}
 ```
@@ -351,7 +351,7 @@ public static final int DashedUpwardDiagonal
 ```
 
 
-指定从上点到下点向左倾斜的虚线对角线。
+指定从顶部点到底部点向左倾斜的虚线对角线。
 
 ### DashedHorizontal {#DashedHorizontal}
 ```
@@ -383,7 +383,7 @@ public static final int LargeConfetti
 ```
 
 
-指定外观为彩纸屑的填充图案，且其组成块比 SmallConfetti 更大。
+指定外观为彩纸屑的填充图案，且其组成的碎片比 SmallConfetti 更大。
 
 ### ZigZag {#ZigZag}
 ```
@@ -391,7 +391,7 @@ public static final int ZigZag
 ```
 
 
-指定由锯齿组成的水平线。
+指定由锯齿形组成的水平线。
 
 ### Wave {#Wave}
 ```
@@ -407,7 +407,7 @@ public static final int DiagonalBrick
 ```
 
 
-指定一种填充图案，其外观为层叠的砖块，从上点向下点向左倾斜。
+指定一种填充图案，其外观为层叠的砖块，左倾，从顶部点到底部点。
 
 ### HorizontalBrick {#HorizontalBrick}
 ```
@@ -463,7 +463,7 @@ public static final int Shingle
 ```
 
 
-指定一种填充图案，其外观为对角层叠的瓦片，从上点向下点向右倾斜。
+指定一种填充图案，其外观为对角层叠的瓦片，右倾，从顶部点到底部点。
 
 ### Trellis {#Trellis}
 ```
@@ -471,7 +471,7 @@ public static final int Trellis
 ```
 
 
-指定一种填充图案，其外观为格架。
+指定一种填充图案，其外观为格子结构。
 
 ### Sphere {#Sphere}
 ```
@@ -487,7 +487,7 @@ public static final int SmallGrid
 ```
 
 
-指定水平和垂直线条相交，且间距比填充样式“Cross”紧50%。
+指定水平和垂直交叉线，其间距比填充样式“Cross”紧50%。
 
 ### SmallCheckerBoard {#SmallCheckerBoard}
 ```
@@ -503,7 +503,7 @@ public static final int LargeCheckerBoard
 ```
 
 
-指定一种填充图案，其外观为棋盘格，方块大小是 SmallCheckerBoard 的两倍。
+指定一种填充图案，其外观为棋盘格，方格大小为 SmallCheckerBoard 的两倍。
 
 ### OutlinedDiamond {#OutlinedDiamond}
 ```
@@ -511,7 +511,7 @@ public static final int OutlinedDiamond
 ```
 
 
-指定正向对角线和反向对角线相交，但未进行抗锯齿处理。
+指定正向和反向对角交叉线，但未进行抗锯齿处理。
 
 ### SolidDiamond {#SolidDiamond}
 ```

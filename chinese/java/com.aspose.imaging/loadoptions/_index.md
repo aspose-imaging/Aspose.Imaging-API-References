@@ -1,6 +1,6 @@
 ---
-title: "LoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "加载选项"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示加载选项。"
 type: docs
 weight: 70
@@ -36,6 +36,8 @@ public class LoadOptions implements IProgressEventHandler
 | [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | 设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
 | [getConcurrentImageProcessing()](#getConcurrentImageProcessing--) | 获取一个值，指示是否启用 [concurrent image processing]。 |
 | [setConcurrentImageProcessing(boolean value)](#setConcurrentImageProcessing-boolean-) | 设置一个值，指示是否启用 [concurrent image processing]。 |
+| [getDisposeStream()](#getDisposeStream--) | 获取一个值，指示是否释放包含图像的流。 |
+| [setDisposeStream(boolean value)](#setDisposeStream-boolean-) | 设置一个值，指示是否释放包含图像的流。 |
 | [getIProgressEventHandler()](#getIProgressEventHandler--) | 获取进度事件处理程序。 |
 | [setIProgressEventHandler(ProgressEventHandler value)](#setIProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | 设置进度事件处理程序。 |
 ### LoadOptions() {#LoadOptions--}
@@ -65,7 +67,7 @@ public void setDataRecoveryMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 数据恢复模式。 |
+| 值 | int | 数据恢复模式。 |
 
 ### getDataBackgroundColor() {#getDataBackgroundColor--}
 ```
@@ -92,7 +94,7 @@ public void setDataBackgroundColor(Color value)
 | --- | --- | --- |
 |  | value | [Color](../../com.aspose.imaging/color) | 背景颜色。 |
 
-通常在由于数据损坏导致像素值无法恢复时设置背景颜色。 |
+通常在像素值因数据损坏而无法恢复时设置背景颜色。 |
 
 ### getUseIccProfileConversion() {#getUseIccProfileConversion--}
 ```
@@ -115,7 +117,7 @@ public void setUseIccProfileConversion(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### addCustomFontSource(CustomFontSource source, Object[] args) {#addCustomFontSource-com.aspose.imaging.CustomFontSource-java.lang.Object...-}
 ```
@@ -139,10 +141,10 @@ public final int getBufferSizeHint()
 
 获取缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。
 
-值：缓冲区大小提示（单位：兆字节）。非正值表示内部缓冲区没有内存限制
+值：缓冲区大小提示，单位为兆字节。非正值表示内部缓冲区没有内存限制。
 
 **Returns:**
-int - 缓冲区大小提示，定义为所有内部缓冲区的最大允许大小。
+int - 为所有内部缓冲区定义的最大允许大小的缓冲区大小提示。
 ### setBufferSizeHint(int value) {#setBufferSizeHint-int-}
 ```
 public final void setBufferSizeHint(int value)
@@ -151,12 +153,12 @@ public final void setBufferSizeHint(int value)
 
 设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。
 
-值：缓冲区大小提示（单位：兆字节）。非正值表示内部缓冲区没有内存限制
+值：缓冲区大小提示，单位为兆字节。非正值表示内部缓冲区没有内存限制。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 缓冲区大小提示，定义为所有内部缓冲区的最大允许大小。 |
+| 值 | int | 缓冲区大小提示，为所有内部缓冲区定义的最大允许大小。 |
 
 
 **Example: The following example shows how to set a memory limit when loading a JPEG image.**
@@ -205,7 +207,7 @@ public final boolean getConcurrentImageProcessing()
 值：如果 [concurrent image processing] 为 `true`；否则为 `false`。
 
 **Returns:**
-布尔 - 一个指示是否启用 [concurrent image processing] 的值。
+boolean - 表示是否进行 [concurrent image processing] 的值。
 ### setConcurrentImageProcessing(boolean value) {#setConcurrentImageProcessing-boolean-}
 ```
 public final void setConcurrentImageProcessing(boolean value)
@@ -219,7 +221,30 @@ public final void setConcurrentImageProcessing(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个指示是否进行[concurrent image processing]的值。 |
+| 值 | boolean | 表示是否进行 [concurrent image processing] 的值。 |
+
+### getDisposeStream() {#getDisposeStream--}
+```
+public final boolean getDisposeStream()
+```
+
+
+获取一个值，指示是否释放包含图像的流。
+
+**Returns:**
+boolean - 表示是否释放包含图像的流的值。
+### setDisposeStream(boolean value) {#setDisposeStream-boolean-}
+```
+public final void setDisposeStream(boolean value)
+```
+
+
+设置一个值，指示是否释放包含图像的流。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean | 表示是否释放包含图像的流的值。 |
 
 ### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```

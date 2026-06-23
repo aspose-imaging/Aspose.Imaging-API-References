@@ -1,6 +1,6 @@
 ---
 title: "EmfCreatePalette"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_CREATEPALETTE 记录定义用于图形操作的逻辑调色板。"
 type: docs
 weight: 40
@@ -37,7 +37,7 @@ public EmfCreatePalette(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getIhPal() {#getIhPal--}
 ```
@@ -60,7 +60,7 @@ public void setIhPal(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getLogPalette() {#getLogPalette--}
 ```

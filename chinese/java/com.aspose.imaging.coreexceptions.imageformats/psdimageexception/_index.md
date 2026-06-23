@@ -1,6 +1,6 @@
 ---
 title: "PsdImageException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PSD 图像异常。"
 type: docs
 weight: 19
@@ -30,7 +30,7 @@ public PsdImageException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### PsdImageException(String message, Throwable innerException) {#PsdImageException-java.lang.String-java.lang.Throwable-}
 ```
@@ -43,6 +43,6 @@ public PsdImageException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "OdArc"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "增强弧线"
 type: docs
 weight: 11
@@ -49,7 +49,7 @@ public OdArc(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### isArcTo() {#isArcTo--}
 ```
@@ -60,7 +60,7 @@ public boolean isArcTo()
 获取或设置一个值，指示此实例是否为弧形。
 
 **Returns:**
-布尔型 - 如果此实例是弧形，则为 `true`；否则为 `false`。
+布尔值 - 如果此实例为弧形，则为 `true`；否则为 `false`。
 ### setArcTo(boolean value) {#setArcTo-boolean-}
 ```
 public void setArcTo(boolean value)
@@ -72,7 +72,7 @@ public void setArcTo(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果此实例是弧形；否则为 `false`。 |
+| 值 | boolean | `true` 如果此实例为弧形；否则为 `false`。 |
 
 ### isEllipticalQundrantX() {#isEllipticalQundrantX--}
 ```
@@ -83,7 +83,7 @@ public boolean isEllipticalQundrantX()
 获取或设置一个值，指示此实例是否为椭圆象限 x。
 
 **Returns:**
-布尔型 - 如果此实例是椭圆象限 x，则为 `true`；否则为 `false`。
+布尔值 - 如果此实例为椭圆象限 x，则为 `true`；否则为 `false`。
 ### setEllipticalQundrantX(boolean value) {#setEllipticalQundrantX-boolean-}
 ```
 public void setEllipticalQundrantX(boolean value)
@@ -95,7 +95,7 @@ public void setEllipticalQundrantX(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果此实例是椭圆象限 x；否则为 `false`。 |
+| 值 | boolean | `true` 如果此实例为椭圆象限 x；否则为 `false`。 |
 
 ### isEllipticalQundrantY() {#isEllipticalQundrantY--}
 ```
@@ -106,7 +106,7 @@ public boolean isEllipticalQundrantY()
 获取或设置一个值，指示此实例是否为椭圆象限 y。
 
 **Returns:**
-布尔型 - 如果此实例是椭圆象限 y，则为 `true`；否则为 `false`。
+布尔值 - 如果此实例为椭圆象限 y，则为 `true`；否则为 `false`。
 ### setEllipticalQundrantY(boolean value) {#setEllipticalQundrantY-boolean-}
 ```
 public void setEllipticalQundrantY(boolean value)
@@ -118,7 +118,7 @@ public void setEllipticalQundrantY(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果此实例是椭圆象限 y；否则为 `false`。 |
+| 值 | boolean | `true` 如果此实例为椭圆象限 y；否则为 `false`。 |
 
 ### getClockWise() {#getClockWise--}
 ```
@@ -129,7 +129,7 @@ public boolean getClockWise()
 获取或设置一个值，指示是否 [clock wise]。
 
 **Returns:**
-布尔型 - `true` 如果 [clock wise]；否则为 `false`。
+布尔值 - 如果 [clock wise] 为 `true`，否则为 `false`。
 ### setClockWise(boolean value) {#setClockWise-boolean-}
 ```
 public void setClockWise(boolean value)
@@ -141,7 +141,7 @@ public void setClockWise(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果 [clock wise]；否则为 `false`。 |
+| 值 | boolean | `true` 如果 [clock wise]；否则为 `false`。 |
 
 ### getPoint1() {#getPoint1--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "IPartialArgb64PixelLoader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "64 位 ARGB 像素加载器。"
 type: docs
 weight: 142

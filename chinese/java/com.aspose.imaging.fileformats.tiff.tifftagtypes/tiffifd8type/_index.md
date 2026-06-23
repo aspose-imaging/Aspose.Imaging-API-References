@@ -1,7 +1,7 @@
 ---
 title: "TiffIfd8Type"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Tiff unsigned 64-bit Image File Directory 类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Tiff 无符号 64 位图像文件目录类型。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.a
 public class TiffIfd8Type extends TiffLong8Type
 ```
 
-Tiff unsigned 64-bit Image File Directory 类型。
+Tiff 无符号 64 位图像文件目录类型。
 ## 构造函数
 
 | 构造函数 | 描述 |

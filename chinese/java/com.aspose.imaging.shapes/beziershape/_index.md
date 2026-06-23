@@ -1,6 +1,6 @@
 ---
 title: "BezierShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示贝塞尔样条。"
 type: docs
 weight: 11
@@ -26,8 +26,8 @@ public final class BezierShape extends PolygonShape
 | --- | --- |
 | [getBounds()](#getBounds--) | 获取对象的边界。 |
 | [getCenter()](#getCenter--) | 获取形状的中心。 |
-| [getSegments()](#getSegments--) | 获取形状的段。 |
-| [hasSegments()](#hasSegments--) | 获取指示形状是否具有段的值。 |
+| [getSegments()](#getSegments--) | 获取形状段。 |
+| [hasSegments()](#hasSegments--) | 获取一个值，指示形状是否有段。 |
 | [getEndPoint()](#getEndPoint--) | 获取结束形状点。 |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | 获取对象的边界。 |
 ### BezierShape() {#BezierShape--}
@@ -63,7 +63,7 @@ public BezierShape(PointF[] points, boolean isClosed)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | 点数组。 |
-| isClosed | boolean | 如果设置为 `true`，贝塞尔样条将闭合。 |
+| isClosed | boolean | 如果设置为 `true`，则贝塞尔样条闭合。 |
 
 ### getBounds() {#getBounds--}
 ```
@@ -95,7 +95,7 @@ public ShapeSegment[] getSegments()
 ```
 
 
-获取形状的段。
+获取形状段。
 
 值：形状段。
 
@@ -107,7 +107,7 @@ public boolean hasSegments()
 ```
 
 
-获取指示形状是否具有段的值。
+获取一个值，指示形状是否有段。
 
 值：如果形状有段，则为 `True`；否则为 `false`。
 
@@ -136,7 +136,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

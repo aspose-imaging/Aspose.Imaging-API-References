@@ -1,6 +1,6 @@
 ---
-title: "缩略图"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "Thumbnail"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示文件的缩略图图像。"
 type: docs
 weight: 10
@@ -27,8 +27,8 @@ public final class Thumbnail extends ComplexTypeBase
 | [setWidth(int value)](#setWidth-int-) | 获取或设置宽度。 |
 | [getHeight()](#getHeight--) | 获取或设置高度。 |
 | [setHeight(int value)](#setHeight-int-) | 获取或设置高度。 |
-| [getImageBase64()](#getImageBase64--) | 获取或设置以 base64 格式的图像。 |
-| [setImageBase64(String value)](#setImageBase64-java.lang.String-) | 获取或设置以 base64 格式的图像。 |
+| [getImageBase64()](#getImageBase64--) | 获取或设置 base64 格式的图像。 |
+| [setImageBase64(String value)](#setImageBase64-java.lang.String-) | 获取或设置 base64 格式的图像。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
 ### Thumbnail() {#Thumbnail--}
 ```
@@ -49,8 +49,8 @@ public Thumbnail(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -73,7 +73,7 @@ public void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -96,7 +96,7 @@ public void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getImageBase64() {#getImageBase64--}
 ```
@@ -104,9 +104,9 @@ public String getImageBase64()
 ```
 
 
-获取或设置以 base64 格式的图像。
+获取或设置 base64 格式的图像。
 
-值：以 base64 格式的图像。
+值：base64 格式的图像。
 
 **Returns:**
 java.lang.String
@@ -116,14 +116,14 @@ public void setImageBase64(String value)
 ```
 
 
-获取或设置以 base64 格式的图像。
+获取或设置 base64 格式的图像。
 
-值：以 base64 格式的图像。
+值：base64 格式的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

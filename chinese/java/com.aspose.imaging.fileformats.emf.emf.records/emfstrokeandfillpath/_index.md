@@ -1,7 +1,7 @@
 ---
 title: "EmfStrokeAndFillPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_STROKEANDFILLPATH 记录关闭路径中任何未闭合的图形，使用当前笔描绘路径轮廓，并使用当前画刷填充其内部。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_STROKEANDFILLPATH 记录关闭路径中任何打开的图形，使用当前笔描绘路径轮廓，并使用当前刷子填充其内部。"
 type: docs
 weight: 151
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfStrokeAndFillPath extends EmfDrawingRecordType
 ```
 
-该 EMR\_STROKEANDFILLPATH 记录关闭路径中任何未闭合的图形，使用当前笔描边路径轮廓，并使用当前画刷填充其内部。
+该 EMR\_STROKEANDFILLPATH 记录关闭路径中任何未闭合的图形，使用当前笔描绘路径轮廓，并使用当前画刷填充其内部。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public EmfStrokeAndFillPath(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfStrokeAndFillPath() {#EmfStrokeAndFillPath--}
 ```

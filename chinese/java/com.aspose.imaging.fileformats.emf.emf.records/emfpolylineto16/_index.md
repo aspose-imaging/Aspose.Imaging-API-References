@@ -1,7 +1,7 @@
 ---
 title: "EmfPolylineTo16"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_POLYLINETO16 记录基于当前坐标指定一条或多条直线。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_POLYLINETO16 记录指定基于当前位置的一条或多条直线。"
 type: docs
 weight: 104
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolylineTo16 extends EmfPolyShape
 ```
 
-EMR\_POLYLINETO16 记录基于当前坐标指定一条或多条直线。使用当前画笔，从当前坐标绘制到 aPoints 字段指定的第一个点。对于每条后续直线，绘制从前一条线的结束点到 aPoints 指定的下一个点。
+EMR\_POLYLINETO16 记录指定基于当前位置信息的一条或多条直线。使用当前笔，从当前位置信息绘制一条线到 aPoints 字段指定的第一个点。对于每条后续直线，绘制从前一条线的结束点到 aPoints 指定的下一个点。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -30,7 +30,7 @@ public EmfPolylineTo16(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPolylineTo16() {#EmfPolylineTo16--}
 ```

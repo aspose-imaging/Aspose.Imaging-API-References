@@ -1,7 +1,7 @@
 ---
 title: "OdTextSpan"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "文本片段"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "文本跨度"
 type: docs
 weight: 45
 url: /zh/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../c
 public class OdTextSpan extends OdStyledObject
 ```
 
-文本片段
+文本跨度
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -35,7 +35,7 @@ public OdTextSpan(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getText() {#getText--}
 ```
@@ -58,5 +58,5 @@ public final void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文本。 |
+| 值 | java.lang.String | 文本。 |
 

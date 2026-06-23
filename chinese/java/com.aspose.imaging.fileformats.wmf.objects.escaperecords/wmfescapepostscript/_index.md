@@ -1,7 +1,7 @@
 ---
 title: "WmfEscapePostScript"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Escape PostScript 数据记录。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 Escape PostScript 数据记录。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfEscapePostScript extends WmfEscapeRecordBase
 ```
 
-Escape PostScript 数据记录。
+该 Escape PostScript 数据记录。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ Escape PostScript 数据记录。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPostScriptPart()](#getPostScriptPart--) | 获取 PostScript 部分。 |
-| [setPostScriptPart(String value)](#setPostScriptPart-java.lang.String-) | 设置 PostScript 部分。 |
+| [getPostScriptPart()](#getPostScriptPart--) | 获取 post script 部分。 |
+| [setPostScriptPart(String value)](#setPostScriptPart-java.lang.String-) | 设置 post script 部分。 |
 ### WmfEscapePostScript() {#WmfEscapePostScript--}
 ```
 public WmfEscapePostScript()
@@ -36,24 +36,24 @@ public final String getPostScriptPart()
 ```
 
 
-获取 PostScript 部分。
+获取 post script 部分。
 
-值：PostScript 部分。
+值：post script 部分。
 
 **Returns:**
-java.lang.String - PostScript 部分。
+java.lang.String - post script 部分。
 ### setPostScriptPart(String value) {#setPostScriptPart-java.lang.String-}
 ```
 public final void setPostScriptPart(String value)
 ```
 
 
-设置 PostScript 部分。
+设置 post script 部分。
 
-值：PostScript 部分。
+值：post script 部分。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | PostScript 部分。 |
+| 值 | java.lang.String | post script 部分。 |
 

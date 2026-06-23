@@ -1,7 +1,7 @@
 ---
 title: "EpsOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "当前未使用的 EPS 选项"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "当前未使用 EPS 选项"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.fileformats.eps/epsoptions/
@@ -51,5 +51,5 @@ public void setSubType(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | EPS 格式的子类型。 |
+| 值 | 短 | EPS 格式的子类型。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "WmfRecorderGraphics2D"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Wmf 记录器。"
 type: docs
 weight: 10
@@ -44,19 +44,19 @@ com.aspose.imaging.Rectangle frame = new com.aspose.imaging.Rectangle(0, 0, imag
 com.aspose.imaging.fileformats.wmf.graphics.WmfRecorderGraphics2D graphics =
         new com.aspose.imaging.fileformats.wmf.graphics.WmfRecorderGraphics2D(frame, dpi);
 
-// 使用 1 像素宽的黑色笔在图像边框上绘制一个黑色矩形。
+// 使用 1 像素宽的黑色笔在图像边框上绘制黑色矩形。
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, imageWidth, imageHeight);
 
-// 使用白烟色填充矩形。
+// 使用 white-smoke 颜色填充矩形。
 graphics.fillRectangle(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()),
         new com.aspose.imaging.Rectangle(10, 10, 580, 380));
 
-// 使用 1 像素宽的深绿色笔绘制两条对角线。
+// 使用 1 像素宽的 darkgreen 笔绘制两条对角线。
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, 0, imageWidth, imageHeight);
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, imageHeight, imageWidth, 0);
 
-// 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
+// 使用 2 像素宽的 blue 笔在矩形 {0, 0, 200, 200} 内绘制弧线。
 graphics.drawArc(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlue(), 2), new com.aspose.imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
 // 填充弧线
@@ -64,7 +64,7 @@ graphics.fillPie(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// 使用 2 像素宽的红色笔绘制三次贝塞尔曲线。
+// 使用 2 像素宽的 red 笔绘制三次贝塞尔曲线。
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(200, 133),
@@ -110,7 +110,7 @@ figureToFill.addShapes(new com.aspose.imaging.Shape[]
                 new com.aspose.imaging.shapes.RectangleShape(new com.aspose.imaging.RectangleF(0, 100, 200, 200)),
         });
 
-// 使用黄色画刷填充路径，并使用绿色笔绘制轮廓
+// 使用黄色画刷和绿色笔填充路径并绘制轮廓
 graphics.fillPath(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getGreen(), 2),
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getYellow()), pathToFill);
@@ -154,7 +154,7 @@ public WmfRecorderGraphics2D(Rectangle frame, int inch)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | frame | [Rectangle](../../com.aspose.imaging/rectangle) | 用于显示元文件的目标矩形，单位为 twip。 |
-| inch | int | 每英寸像素数。 |
+| 英寸 | int | 每英寸的像素数。 |
 
 ### getBackgroundMode() {#getBackgroundMode--}
 ```
@@ -181,7 +181,7 @@ public void setBackgroundMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### endRecording() {#endRecording--}
 ```

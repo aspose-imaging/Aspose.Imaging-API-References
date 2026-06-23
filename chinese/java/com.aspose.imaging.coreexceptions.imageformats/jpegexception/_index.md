@@ -1,6 +1,6 @@
 ---
 title: "JpegException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Jpeg 文件的异常"
 type: docs
 weight: 16
@@ -30,7 +30,7 @@ public JpegException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### JpegException(String message, Throwable innerException) {#JpegException-java.lang.String-java.lang.Throwable-}
 ```
@@ -43,6 +43,6 @@ public JpegException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

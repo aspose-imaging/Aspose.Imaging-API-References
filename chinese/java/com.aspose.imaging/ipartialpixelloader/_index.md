@@ -1,6 +1,6 @@
 ---
 title: "IPartialPixelLoader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "符合部分加载的像素。"
 type: docs
 weight: 143

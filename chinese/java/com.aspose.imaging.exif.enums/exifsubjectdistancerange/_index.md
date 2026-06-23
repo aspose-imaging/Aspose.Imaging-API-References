@@ -1,7 +1,7 @@
 ---
 title: "ExifSubjectDistanceRange"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "exif 被摄体距离范围枚举。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "exif 主体距离范围枚举。"
 type: docs
 weight: 25
 url: /zh/java/com.aspose.imaging.exif.enums/exifsubjectdistancerange/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifSubjectDistanceRange extends System.Enum
 ```
 
-exif 被摄体距离范围枚举。
+exif 主体距离范围枚举。
 ## 字段
 
 | 字段 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "OdPatternBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "开放文档图案画笔"
 type: docs
 weight: 14
@@ -22,8 +22,8 @@ public class OdPatternBrush extends OdBrush
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPattern()](#getPattern--) | 获取图案。 |
-| [setPattern(byte[] value)](#setPattern-byte---) | 设置图案。 |
+| [getPattern()](#getPattern--) | 获取模式。 |
+| [setPattern(byte[] value)](#setPattern-byte---) | 设置模式。 |
 | [getBrushStyle()](#getBrushStyle--) | 获取样式。 |
 | [deepClone()](#deepClone--) | 克隆此实例。 |
 ### OdPatternBrush() {#OdPatternBrush--}
@@ -38,22 +38,22 @@ public final byte[] getPattern()
 ```
 
 
-获取图案。
+获取模式。
 
 **Returns:**
-byte[] - 图案。
+byte[] - 模式。
 ### setPattern(byte[] value) {#setPattern-byte---}
 ```
 public final void setPattern(byte[] value)
 ```
 
 
-设置图案。
+设置模式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 图案。 |
+| 值 | byte[] | 模式。 |
 
 ### getBrushStyle() {#getBrushStyle--}
 ```
@@ -74,4 +74,4 @@ public Object deepClone()
 克隆此实例。
 
 **Returns:**
-java.lang.Object - 返回源画刷的新实例
+java.lang.Object - 返回源画笔的新实例

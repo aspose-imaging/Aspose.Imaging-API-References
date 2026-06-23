@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPenData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusPenData 对象指定图形笔的属性。"
 type: docs
 weight: 64
@@ -26,10 +26,10 @@ EmfPlusPenData 对象指定图形笔的属性。
 | [setPenDataFlags(int value)](#setPenDataFlags-int-) | 获取或设置一个 32 位无符号整数，指定 OptionalData 字段中的数据。 |
 | [getPenUnit()](#getPenUnit--) | 获取或设置一个 32 位无符号整数，指定笔的测量单位。 |
 | [setPenUnit(int value)](#setPenUnit-int-) | 获取或设置一个 32 位无符号整数，指定笔的测量单位。 |
-| [getPenWidth()](#getPenWidth--) | 获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位下绘制的线宽。 |
-| [setPenWidth(float value)](#setPenWidth-float-) | 获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位下绘制的线宽。 |
-| [getOptionalData()](#getOptionalData--) | 获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），用于指定笔对象的附加数据。 |
-| [setOptionalData(EmfPlusPenOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenOptionalData-) | 获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），用于指定笔对象的附加数据。 |
+| [getPenWidth()](#getPenWidth--) | 获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位中绘制的线宽。 |
+| [setPenWidth(float value)](#setPenWidth-float-) | 获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位中绘制的线宽。 |
+| [getOptionalData()](#getOptionalData--) | 获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），该对象指定笔对象的附加数据。 |
+| [setOptionalData(EmfPlusPenOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenOptionalData-) | 获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），该对象指定笔对象的附加数据。 |
 ### EmfPlusPenData() {#EmfPlusPenData--}
 ```
 public EmfPlusPenData()
@@ -57,7 +57,7 @@ public void setPenDataFlags(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPenUnit() {#getPenUnit--}
 ```
@@ -80,7 +80,7 @@ public void setPenUnit(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPenWidth() {#getPenWidth--}
 ```
@@ -88,7 +88,7 @@ public float getPenWidth()
 ```
 
 
-获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位下绘制的线宽。如果指定宽度为零，则使用最小值，该最小值由单位决定。
+获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位中绘制的线宽。如果指定宽度为零，则使用最小值，该值由单位决定。
 
 **Returns:**
 float
@@ -98,12 +98,12 @@ public void setPenWidth(float value)
 ```
 
 
-获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位下绘制的线宽。如果指定宽度为零，则使用最小值，该最小值由单位决定。
+获取或设置一个 32 位浮点值，指定笔在 PenUnit 字段指定的单位中绘制的线宽。如果指定宽度为零，则使用最小值，该值由单位决定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getOptionalData() {#getOptionalData--}
 ```
@@ -111,7 +111,7 @@ public EmfPlusPenOptionalData getOptionalData()
 ```
 
 
-获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），用于指定笔对象的附加数据。该字段的具体内容由 PenDataFlags 字段的值决定。
+获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），该对象指定笔对象的附加数据。此字段的具体内容由 PenDataFlags 字段的值决定。
 
 **Returns:**
 [EmfPlusPenOptionalData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata)
@@ -121,7 +121,7 @@ public void setOptionalData(EmfPlusPenOptionalData value)
 ```
 
 
-获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），用于指定笔对象的附加数据。该字段的具体内容由 PenDataFlags 字段的值决定。
+获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节），该对象指定笔对象的附加数据。此字段的具体内容由 PenDataFlags 字段的值决定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

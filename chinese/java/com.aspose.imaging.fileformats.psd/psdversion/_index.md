@@ -1,6 +1,6 @@
 ---
-title: "PSD 版本"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "PsdVersion"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "文件格式版本"
 type: docs
 weight: 12

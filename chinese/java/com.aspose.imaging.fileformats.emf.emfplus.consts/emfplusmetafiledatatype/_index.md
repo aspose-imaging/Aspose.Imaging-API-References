@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusMetafileDataType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "MetafileDataType 枚举定义了可以嵌入 EMF 元文件中的元文件数据类型。"
 type: docs
 weight: 34
@@ -22,7 +22,7 @@ MetafileDataType 枚举定义了可以嵌入 EMF+ 元文件的元文件数据类
 | 字段 | 描述 |
 | --- | --- |
 | [MetafileDataTypeWmf](#MetafileDataTypeWmf) | 指定该元文件是 WMF 元文件，使用 WMF 记录指定图形操作，如 [MS-WMF] 中所述。 |
-| [MetafileDataTypeWmfPlaceable](#MetafileDataTypeWmfPlaceable) | 指定该元文件是 WMF 元文件，使用 WMF 记录指定图形操作，并包含使 WMF 元文件与设备无关的额外头信息，如 [MS-WMF] 中所述。 |
+| [MetafileDataTypeWmfPlaceable](#MetafileDataTypeWmfPlaceable) | 指定该元文件是 WMF 元文件，使用 WMF 记录指定图形操作，并且包含额外的头信息，使 WMF 元文件与设备无关，如 [MS-WMF] 中所述。 |
 | [MetafileDataTypeEmf](#MetafileDataTypeEmf) | 指定该元文件是 EMF 元文件，使用 EMF 记录指定图形操作，如 [MS-EMF] 中所述。 |
 | [MetafileDataTypeEmfPlusOnly](#MetafileDataTypeEmfPlusOnly) | 指定该元文件是 EMF+ 元文件，仅使用 EMF+ 记录指定图形操作。 |
 | [MetafileDataTypeEmfPlusDual](#MetafileDataTypeEmfPlusDual) | 指定该元文件是 EMF+ 元文件，使用 EMF 和 EMF+ 记录共同指定图形操作。 |
@@ -40,7 +40,7 @@ public static final int MetafileDataTypeWmfPlaceable
 ```
 
 
-指定该元文件是 WMF 元文件，使用 WMF 记录指定图形操作，并包含使 WMF 元文件与设备无关的额外头信息，如 [MS-WMF] 中所述。
+指定该元文件是 WMF 元文件，使用 WMF 记录指定图形操作，并且包含额外的头信息，使 WMF 元文件与设备无关，如 [MS-WMF] 中所述。
 
 ### MetafileDataTypeEmf {#MetafileDataTypeEmf}
 ```

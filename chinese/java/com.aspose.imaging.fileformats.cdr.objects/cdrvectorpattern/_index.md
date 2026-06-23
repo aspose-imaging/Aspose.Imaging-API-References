@@ -1,6 +1,6 @@
 ---
 title: "CdrVectorPattern"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 向量模式"
 type: docs
 weight: 45
@@ -51,5 +51,5 @@ public final void setData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 数据。 |
+| 值 | byte[] | 数据。 |
 

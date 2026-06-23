@@ -1,6 +1,6 @@
 ---
 title: "PdfOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PDF 选项。"
 type: docs
 weight: 36
@@ -31,7 +31,7 @@ PDF 选项。
 | [getPageSize()](#getPageSize--) | 获取页面的大小。 |
 | [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | 设置页面的大小。 |
 | [isUseOriginalImageSize()](#isUseOriginalImageSize--) | 获取指示使用原始图像 DPI 分辨率的值 |
-| [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | 设置指示使用原始图像 DPI 分辨率的值，此属性将在 25.3 版后移除 |
+| [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | 设置指示使用原始图像 DPI 分辨率的值（自 25.3 版起将被移除） |
 
 ## Example: The following example shows how to convert a multipage vector image to PDF format in general way without referencing to a particular image type.
 
@@ -81,10 +81,10 @@ public final boolean isUseOriginalImageResolution()
 
 获取指示使用原始图像 DPI 分辨率的值
 
-值：指示使用原始图像 DPI 分辨率的标识
+值：指示使用原始图像 DPI 分辨率
 
 **Returns:**
-boolean - 指示使用原始图像 DPI 分辨率的值
+布尔 - 指示使用原始图像 DPI 分辨率的值
 ### setUseOriginalImageResolution(boolean value) {#setUseOriginalImageResolution-boolean-}
 ```
 public final void setUseOriginalImageResolution(boolean value)
@@ -93,12 +93,12 @@ public final void setUseOriginalImageResolution(boolean value)
 
 设置指示使用原始图像 DPI 分辨率的值
 
-值：指示使用原始图像 DPI 分辨率的标识
+值：指示使用原始图像 DPI 分辨率
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示使用原始图像 DPI 分辨率的值 |
+| 值 | boolean | 指示使用原始图像 DPI 分辨率的值 |
 
 ### getPdfDocumentInfo() {#getPdfDocumentInfo--}
 ```
@@ -181,19 +181,19 @@ public boolean isUseOriginalImageSize()
 
 获取指示使用原始图像 DPI 分辨率的值
 
-值：指示使用原始图像 DPI 分辨率的标识
+值：指示使用原始图像 DPI 分辨率
 
 **Returns:**
-boolean - 指示使用原始图像 DPI 分辨率的值
+布尔 - 指示使用原始图像 DPI 分辨率的值
 ### setUseOriginalImageSize(boolean useOriginalImageSize) {#setUseOriginalImageSize-boolean-}
 ```
 public void setUseOriginalImageSize(boolean useOriginalImageSize)
 ```
 
 
-设置指示使用原始图像 DPI 分辨率的值，此属性将在 25.3 版后移除
+设置指示使用原始图像 DPI 分辨率的值（自 25.3 版起将被移除）
 
-值：指示使用原始图像 DPI 分辨率的标识
+值：指示使用原始图像 DPI 分辨率
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

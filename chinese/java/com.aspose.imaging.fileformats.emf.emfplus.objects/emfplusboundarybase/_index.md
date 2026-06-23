@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBoundaryBase"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "边界对象的基类"
 type: docs
 weight: 20

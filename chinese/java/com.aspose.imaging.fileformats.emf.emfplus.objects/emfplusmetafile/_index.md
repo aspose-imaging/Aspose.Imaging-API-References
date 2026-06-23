@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusMetafile"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusMetafileData 对象指定包含图形图像的元文件。"
 type: docs
 weight: 55
@@ -22,12 +22,12 @@ EmfPlusMetafileData 对象指定包含图形图像的元文件。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getType()](#getType--) | 获取或设置一个 32 位无符号整数，指定嵌入在 MetafileData 字段中的元文件类型。 |
-| [setType(int value)](#setType-int-) | 获取或设置一个 32 位无符号整数，指定嵌入在 MetafileData 字段中的元文件类型。 |
-| [getMetafileDataSize()](#getMetafileDataSize--) | 获取或设置一个 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。 |
-| [setMetafileDataSize(int value)](#setMetafileDataSize-int-) | 获取或设置一个 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。 |
-| [getMetafileData()](#getMetafileData--) | 获取或设置可变长度数据，指定嵌入的元文件。 |
-| [setMetafileData(byte[] value)](#setMetafileData-byte---) | 获取或设置可变长度数据，指定嵌入的元文件。 |
+| [getType()](#getType--) | 获取或设置 32 位无符号整数，指定嵌入在 MetafileData 字段中的元文件类型。 |
+| [setType(int value)](#setType-int-) | 获取或设置 32 位无符号整数，指定嵌入在 MetafileData 字段中的元文件类型。 |
+| [getMetafileDataSize()](#getMetafileDataSize--) | 获取或设置 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。 |
+| [setMetafileDataSize(int value)](#setMetafileDataSize-int-) | 获取或设置 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。 |
+| [getMetafileData()](#getMetafileData--) | 获取或设置指定嵌入元文件的可变长度数据。 |
+| [setMetafileData(byte[] value)](#setMetafileData-byte---) | 获取或设置指定嵌入元文件的可变长度数据。 |
 ### EmfPlusMetafile() {#EmfPlusMetafile--}
 ```
 public EmfPlusMetafile()
@@ -42,7 +42,7 @@ public int getType()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定嵌入在 MetafileData 字段中的元文件类型。此值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。
+获取或设置指定嵌入在 MetafileData 字段中的元文件类型的 32 位无符号整数。此值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public void setType(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定嵌入在 MetafileData 字段中的元文件类型。此值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。
+获取或设置指定嵌入在 MetafileData 字段中的元文件类型的 32 位无符号整数。此值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getMetafileDataSize() {#getMetafileDataSize--}
 ```
@@ -65,7 +65,7 @@ public int getMetafileDataSize()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。
+获取或设置 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。
 
 **Returns:**
 int
@@ -75,12 +75,12 @@ public void setMetafileDataSize(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。
+获取或设置 32 位无符号整数，指定 MetafileData 字段中元文件数据的字节大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getMetafileData() {#getMetafileData--}
 ```
@@ -88,9 +88,9 @@ public byte[] getMetafileData()
 ```
 
 
-获取或设置可变长度数据，指定嵌入的元文件。数据的内容和格式可能因每种元文件类型而异。
+获取或设置指定嵌入元文件的可变长度数据。数据的内容和格式可能因元文件类型而异。
 
-图形图像由 EmfPlusImage 对象（第 2.2.1.4 节）指定。如果在其 Type 字段中指定了 ImageTypeMetafile，则 EmfPlusMetafile 对象必须存在于 EmfPlusImage 对象的 ImageData 字段中。此对象是通用的，用于不同类型的数据，包括：WMF 元文件 [MS-WMF]；可放置的 WMF 元文件；EMF 元文件 [MS-EMF]；仅指定 EMF+ 记录的 EMF+ 元文件；以及同时指定 EMF+ 和 EMF 记录的 EMF+ 元文件。请参阅第 2.2.2 节以获取其他结构对象的规范。
+图形图像由 EmfPlusImage 对象（第 2.2.1.4 节）指定。如果在其 Type 字段中指定了 ImageTypeMetafile，则 EmfPlusImage 对象的 ImageData 字段中必须存在 EmfPlusMetafile 对象。此对象是通用的，用于不同类型的数据，包括：WMF 元文件 [MS-WMF]；可放置的 WMF 元文件；EMF 元文件 [MS-EMF]；仅使用 EMF+ 记录指定图形操作的 EMF+ 元文件；以及同时使用 EMF+ 和 EMF 记录指定图形操作的 EMF+ 元文件。有关其他结构对象的规范，请参见第 2.2.2 节。
 
 **Returns:**
 byte[]
@@ -100,12 +100,12 @@ public void setMetafileData(byte[] value)
 ```
 
 
-获取或设置可变长度数据，指定嵌入的元文件。数据的内容和格式可能因每种元文件类型而异。
+获取或设置指定嵌入元文件的可变长度数据。数据的内容和格式可能因元文件类型而异。
 
-图形图像由 EmfPlusImage 对象（第 2.2.1.4 节）指定。如果在其 Type 字段中指定了 ImageTypeMetafile，则 EmfPlusMetafile 对象必须存在于 EmfPlusImage 对象的 ImageData 字段中。此对象是通用的，用于不同类型的数据，包括：WMF 元文件 [MS-WMF]；可放置的 WMF 元文件；EMF 元文件 [MS-EMF]；仅指定 EMF+ 记录的 EMF+ 元文件；以及同时指定 EMF+ 和 EMF 记录的 EMF+ 元文件。请参阅第 2.2.2 节以获取其他结构对象的规范。
+图形图像由 EmfPlusImage 对象（第 2.2.1.4 节）指定。如果在其 Type 字段中指定了 ImageTypeMetafile，则 EmfPlusImage 对象的 ImageData 字段中必须存在 EmfPlusMetafile 对象。此对象是通用的，用于不同类型的数据，包括：WMF 元文件 [MS-WMF]；可放置的 WMF 元文件；EMF 元文件 [MS-EMF]；仅使用 EMF+ 记录指定图形操作的 EMF+ 元文件；以及同时使用 EMF+ 和 EMF 记录指定图形操作的 EMF+ 元文件。有关其他结构对象的规范，请参见第 2.2.2 节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

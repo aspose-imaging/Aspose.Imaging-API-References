@@ -1,6 +1,6 @@
 ---
 title: "WmfPie"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "META_PIE 记录绘制由椭圆与两条径线交叉形成的饼形楔形。"
 type: docs
 weight: 53
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfPie extends WmfRectangle
 ```
 
-META\_PIE 记录绘制由椭圆与两条径线交叉形成的饼形楔形。该饼形使用在播放设备上下文中定义的笔进行描边，并使用刷子进行填充。
+META\_PIE 记录绘制由椭圆与两条径线交叉形成的饼形楔形。该饼形使用回放设备上下文中定义的笔进行描边，并使用刷子进行填充。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -40,7 +40,7 @@ public Point getRadial2()
 
 获取或设置 radial2。
 
-Value: 径向2。
+值：radial2。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -52,7 +52,7 @@ public void setRadial2(Point value)
 
 获取或设置 radial2。
 
-Value: 径向2。
+值：radial2。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -67,7 +67,7 @@ public Point getRadial1()
 
 获取或设置 radial1。
 
-Value: 径向1。
+值：径向1。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -79,7 +79,7 @@ public void setRadial1(Point value)
 
 获取或设置 radial1。
 
-Value: 径向1。
+值：径向1。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

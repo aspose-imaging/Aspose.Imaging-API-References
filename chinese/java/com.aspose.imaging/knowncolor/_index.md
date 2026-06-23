@@ -1,6 +1,6 @@
 ---
 title: "KnownColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定已知的系统颜色。"
 type: docs
 weight: 66

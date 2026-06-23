@@ -1,7 +1,7 @@
 ---
 title: "BezierSegment"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "贝塞尔段，从一个点到下一个点，并使用两个控制点。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "从一个点到下一个点并使用两个控制点的贝塞尔段。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.shapesegments/beziersegment/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.ShapeSegment](../../com.aspose.imaging/sha
 public final class BezierSegment extends LineSegment
 ```
 
-贝塞尔段，从一个点到下一个点，并使用两个控制点。
+从一个点到下一个点并使用两个控制点的贝塞尔段。
 ## 构造函数
 
 | 构造函数 | 描述 |

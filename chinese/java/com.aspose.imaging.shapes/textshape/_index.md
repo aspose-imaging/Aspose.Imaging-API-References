@@ -1,6 +1,6 @@
 ---
 title: "TextShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示文本形状。"
 type: docs
 weight: 18
@@ -31,8 +31,8 @@ public final class TextShape extends RectangleProjectedShape
 | [setTextFormat(StringFormat value)](#setTextFormat-com.aspose.imaging.StringFormat-) | 获取或设置文本格式。 |
 | [getCenter()](#getCenter--) | 获取形状的中心。 |
 | [getBounds()](#getBounds--) | 获取对象的边界。 |
-| [getSegments()](#getSegments--) | 获取形状的段。 |
-| [hasSegments()](#hasSegments--) | 获取指示形状是否具有段的值。 |
+| [getSegments()](#getSegments--) | 获取形状段。 |
+| [hasSegments()](#hasSegments--) | 获取一个值，指示形状是否有段。 |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | 获取对象的边界。 |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | 获取对象的边界。 |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | 对形状应用指定的变换。 |
@@ -57,7 +57,7 @@ public TextShape(String text, RectangleF rectangle, Font font, StringFormat stri
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| text | java.lang.String | 要绘制的文本。 |
+| 文本 | java.lang.String | 要绘制的文本。 |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | 文本矩形。 |
 | font | [Font](../../com.aspose.imaging/font) | 要使用的字体。 |
 | stringFormat | [StringFormat](../../com.aspose.imaging/stringformat) | 字符串格式。 |
@@ -87,7 +87,7 @@ public void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getFont() {#getFont--}
 ```
@@ -173,7 +173,7 @@ public ShapeSegment[] getSegments()
 ```
 
 
-获取形状的段。
+获取形状段。
 
 值：形状段。
 
@@ -185,7 +185,7 @@ public boolean hasSegments()
 ```
 
 
-获取指示形状是否具有段的值。
+获取一个值，指示形状是否有段。
 
 值：如果形状有段，则为 `True`；否则为 `false`。
 
@@ -202,7 +202,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -217,8 +217,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -233,7 +233,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的转换。 |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的变换。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

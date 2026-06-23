@@ -1,7 +1,7 @@
 ---
 title: "ColorMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示颜色模式."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示颜色模式。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.xmp.types.complex.colorant/colormode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorMode extends System.Enum
 ```
 
-表示颜色模式.
+表示颜色模式。
 ## 字段
 
 | 字段 | 描述 |

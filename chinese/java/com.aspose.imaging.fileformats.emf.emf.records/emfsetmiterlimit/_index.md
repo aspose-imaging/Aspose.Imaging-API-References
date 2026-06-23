@@ -1,6 +1,6 @@
 ---
 title: "EmfSetMiterLimit"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETMITERLIMIT 记录指定回放设备上下文中斜接连接长度的限制。"
 type: docs
 weight: 133
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetMiterLimit extends EmfStateRecordType
 ```
 
-EMR\_SETMITERLIMIT 记录指定回放设备上下文中斜接连接长度的限制。
+该 EMR\_SETMITERLIMIT 记录指定回放设备上下文中斜接连接长度的限制。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR\_SETMITERLIMIT 记录指定回放设备上下文中斜接连接长度的限�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getMiterLimit()](#getMiterLimit--) | 获取或设置一个 32 位无符号整数，指定新的斜接长度限制。 |
-| [setMiterLimit(int value)](#setMiterLimit-int-) | 获取或设置一个 32 位无符号整数，指定新的斜接长度限制。 |
+| [getMiterLimit()](#getMiterLimit--) | 获取或设置一个 32 位无符号整数，用于指定新的斜接长度限制。 |
+| [setMiterLimit(int value)](#setMiterLimit-int-) | 获取或设置一个 32 位无符号整数，用于指定新的斜接长度限制。 |
 ### EmfSetMiterLimit(EmfRecord source) {#EmfSetMiterLimit-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetMiterLimit(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetMiterLimit(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetMiterLimit() {#EmfSetMiterLimit--}
 ```
@@ -52,7 +52,7 @@ public int getMiterLimit()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定新的斜接长度限制。
+获取或设置一个 32 位无符号整数，用于指定新的斜接长度限制。
 
 **Returns:**
 int
@@ -62,10 +62,10 @@ public void setMiterLimit(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定新的斜接长度限制。
+获取或设置一个 32 位无符号整数，用于指定新的斜接长度限制。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

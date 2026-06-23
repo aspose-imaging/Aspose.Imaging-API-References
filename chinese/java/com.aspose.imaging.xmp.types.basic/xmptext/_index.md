@@ -1,7 +1,7 @@
 ---
 title: "XmpText"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 XMP 文本基本类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 XMP Text 基本类型。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.xmp.types.basic/xmptext/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public class XmpText extends XmpTypeBase
 ```
 
-表示 XMP 文本基本类型。
+表示 XMP Text 基本类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public XmpText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 
 ### getValue() {#getValue--}
 ```
@@ -63,7 +63,7 @@ public void setValue(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

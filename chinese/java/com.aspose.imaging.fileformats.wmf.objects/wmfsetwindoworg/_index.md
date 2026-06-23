@@ -1,7 +1,7 @@
 ---
 title: "WmfSetWindowOrg"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "设置窗口 org 对象"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "设置窗口原点对象"
 type: docs
 weight: 92
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfSetWindowOrg extends WmfPointObject
 ```
 
-设置窗口 org 对象
+设置窗口原点对象
 ## 构造函数
 
 | 构造函数 | 描述 |

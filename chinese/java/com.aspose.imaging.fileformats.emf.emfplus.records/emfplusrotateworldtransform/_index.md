@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusRotateWorldTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusRotateWorldTransform 记录对当前世界空间变换执行旋转。"
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ EmfPlusRotateWorldTransform 记录对当前世界空间变换执行旋转。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | 获取一个值，指示是否为 [post multiplied matrix]。 |
+| [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | 获取一个值，指示是否为[post multiplied matrix]。 |
 | [getAngle()](#getAngle--) | 获取或设置一个 32 位浮点值，指定以度为单位的旋转角度。 |
 | [setAngle(float value)](#setAngle-float-) | 获取或设置一个 32 位浮点值，指定以度为单位的旋转角度。 |
 ### EmfPlusRotateWorldTransform(EmfPlusRecord source) {#EmfPlusRotateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
@@ -36,7 +36,7 @@ public EmfPlusRotateWorldTransform(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPostMultipliedMatrix() {#getPostMultipliedMatrix--}
 ```
@@ -44,9 +44,9 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-获取一个值，指示是否为 [post multiplied matrix]。如果设置，则变换矩阵应后乘。如果清除，则应前乘。
+获取一个值，指示是否为[post multiplied matrix]。如果设置，变换矩阵应后乘。如果清除，应前乘。
 
-值：如果为 [post multiplied matrix] 则为 `true`；否则为 `false`。
+值：`true` 表示[post multiplied matrix]；否则为 `false`。
 
 **Returns:**
 boolean
@@ -56,7 +56,15 @@ public float getAngle()
 ```
 
 
-获取或设置一个 32 位浮点值，指定以度为单位的旋转角度。该操作通过以下图示构建新的变换矩阵来执行：\n---------------------------------\n| sin(Angle) | cos(Angle) | 0 |\n| cos(Angle) | sin(Angle) | 0 |\n---------------------------------\n图 2：旋转变换矩阵\n当前的世界空间变换将与此矩阵相乘，结果成为新的当前世界空间变换。Flags 字段决定乘法的顺序。
+获取或设置一个 32 位浮点值，指定以度为单位的旋转角度。该操作通过从以下图示构建新的变换矩阵来执行：
+---------------------------------
+| sin(Angle) | cos(Angle) | 0 |
+| cos(Angle) | sin(Angle) | 0 |
+---------------------------------
+
+图 2：旋转变换矩阵
+
+当前世界空间变换将与此矩阵相乘，结果成为新的当前世界空间变换。Flags 字段决定乘法的顺序。
 
 值：角度。
 
@@ -68,12 +76,20 @@ public void setAngle(float value)
 ```
 
 
-获取或设置一个 32 位浮点值，指定以度为单位的旋转角度。该操作通过以下图示构建新的变换矩阵来执行：\n---------------------------------\n| sin(Angle) | cos(Angle) | 0 |\n| cos(Angle) | sin(Angle) | 0 |\n---------------------------------\n图 2：旋转变换矩阵\n当前的世界空间变换将与此矩阵相乘，结果成为新的当前世界空间变换。Flags 字段决定乘法的顺序。
+获取或设置一个 32 位浮点值，指定以度为单位的旋转角度。该操作通过从以下图示构建新的变换矩阵来执行：
+---------------------------------
+| sin(Angle) | cos(Angle) | 0 |
+| cos(Angle) | sin(Angle) | 0 |
+---------------------------------
+
+图 2：旋转变换矩阵
+
+当前世界空间变换将与此矩阵相乘，结果成为新的当前世界空间变换。Flags 字段决定乘法的顺序。
 
 值：角度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 

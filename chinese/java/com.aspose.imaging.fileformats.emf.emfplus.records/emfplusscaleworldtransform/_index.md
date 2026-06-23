@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusScaleWorldTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusScaleWorldTransform 记录对当前世界空间变换执行缩放。"
 type: docs
 weight: 52
@@ -22,7 +22,7 @@ EmfPlusScaleWorldTransform 记录对当前世界空间变换执行缩放。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | 获取一个值，指示是否为 [post multiplied matrix]。 |
+| [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | 获取一个值，指示是否为[post multiplied matrix]。 |
 | [getSx()](#getSx--) | 获取或设置定义水平缩放因子的 32 位浮点值。 |
 | [setSx(float value)](#setSx-float-) | 获取或设置定义水平缩放因子的 32 位浮点值。 |
 | [getSy()](#getSy--) | 获取或设置定义垂直缩放因子的 32 位浮点值。 |
@@ -38,7 +38,7 @@ public EmfPlusScaleWorldTransform(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPostMultipliedMatrix() {#getPostMultipliedMatrix--}
 ```
@@ -46,9 +46,9 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-获取一个值，指示是否为 [post multiplied matrix]。如果设置，则应对变换矩阵进行后乘。如果未设置，则应进行前乘。
+获取指示是否为 [post multiplied matrix] 的值。如果设置，则应对变换矩阵进行后乘。如果未设置，则应进行前乘。
 
-值：如果为 [post multiplied matrix] 则为 `true`；否则为 `false`。
+值：`true` 表示[post multiplied matrix]；否则为 `false`。
 
 **Returns:**
 boolean
@@ -73,7 +73,7 @@ public void setSx(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getSy() {#getSy--}
 ```
@@ -96,5 +96,5 @@ public void setSy(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 

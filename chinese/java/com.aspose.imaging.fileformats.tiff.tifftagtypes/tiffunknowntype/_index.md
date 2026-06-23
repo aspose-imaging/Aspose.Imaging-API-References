@@ -1,7 +1,7 @@
 ---
 title: "TiffUnknownType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "未知的 tiff 类型."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "未知的 tiff 类型。"
 type: docs
 weight: 27
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/
@@ -24,11 +24,11 @@ public final class TiffUnknownType extends TiffDataType
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCount()](#getCount--) | 获取元素的计数。 |
-| [getOffsetOrValue()](#getOffsetOrValue--) | 获取附加数据的偏移值，或者在计数为 1 时获取值本身。 |
+| [getCount()](#getCount--) | 获取元素的数量。 |
+| [getOffsetOrValue()](#getOffsetOrValue--) | 获取附加数据的偏移值，或在计数为 1 时获取值本身。 |
 | [getStream()](#getStream--) | 获取用于读取附加数据的流。 |
 | [getTagType()](#getTagType--) | 获取标签类型。 |
-| [getAdditionalDataSize(byte sizeOfTagValue)](#getAdditionalDataSize-byte-) | 获取以字节为单位的附加标签值大小（当标签无法容纳完整标签值时）。 |
+| [getAdditionalDataSize(byte sizeOfTagValue)](#getAdditionalDataSize-byte-) | 获取附加标签值的字节大小（当标签无法容纳完整标签值时）。 |
 | [getValue()](#getValue--) | 获取或设置此数据类型包含的值。 |
 | [setValue(Object value)](#setValue-java.lang.Object-) | 获取或设置此数据类型包含的值。 |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | 写入附加标签数据。 |
@@ -47,7 +47,7 @@ public TiffUnknownType(TiffStreamReader stream, int tagType, int tagId, long cou
 | stream | [TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader) | 用于读取的流。 |
 | tagType | int | 标签的类型。 |
 | tagId | int | 标签 ID。 |
-| count | long | 计数值。 |
+| 计数 | long | 计数值。 |
 | offsetOrValue | long | 偏移或值。 |
 
 ### getCount() {#getCount--}
@@ -56,9 +56,9 @@ public long getCount()
 ```
 
 
-获取元素的计数。
+获取元素的数量。
 
-值：元素的计数。
+值：元素的数量。
 
 **Returns:**
 long
@@ -68,9 +68,9 @@ public long getOffsetOrValue()
 ```
 
 
-获取附加数据的偏移值，或者在计数为 1 时获取值本身。
+获取附加数据的偏移值，或在计数为 1 时获取值本身。
 
-值：偏移或值。
+值：偏移量或值。
 
 **Returns:**
 long
@@ -104,7 +104,7 @@ public long getAdditionalDataSize(byte sizeOfTagValue)
 ```
 
 
-获取以字节为单位的附加标签值大小（当标签无法容纳完整标签值时）。
+获取附加标签值的字节大小（当标签无法容纳完整标签值时）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -112,7 +112,7 @@ public long getAdditionalDataSize(byte sizeOfTagValue)
 | sizeOfTagValue | byte | 标签值的大小：对于 BigTiff 为 4 或 8。 |
 
 **Returns:**
-long - 附加数据大小（字节）。
+long - 附加数据的大小（字节）。
 ### getValue() {#getValue--}
 ```
 public Object getValue()
@@ -134,7 +134,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object |  |
+| 值 | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

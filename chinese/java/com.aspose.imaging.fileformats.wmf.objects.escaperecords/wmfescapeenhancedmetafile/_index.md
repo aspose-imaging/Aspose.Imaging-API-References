@@ -1,7 +1,7 @@
 ---
 title: "WmfEscapeEnhancedMetafile"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Escape 增强型元文件记录。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 Escape Enhanced Meta 文件记录。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfEscapeEnhancedMetafile extends WmfEscapeRecordBase
 ```
 
-Escape 增强型元文件记录。
+该 Escape Enhanced Meta 文件记录。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,12 +36,12 @@ Escape 增强型元文件记录。
 | [setCommentRecordCount(int value)](#setCommentRecordCount-int-) | 获取或设置注释记录计数。 |
 | [getCurrentRecordSize()](#getCurrentRecordSize--) | 获取或设置当前记录的大小。 |
 | [setCurrentRecordSize(int value)](#setCurrentRecordSize-int-) | 获取或设置当前记录的大小。 |
-| [getRemainingBytes()](#getRemainingBytes--) | 获取或设置剩余字节数。 |
-| [setRemainingBytes(int value)](#setRemainingBytes-int-) | 获取或设置剩余字节数。 |
-| [getEnhancedMetafileDataSize()](#getEnhancedMetafileDataSize--) | 获取或设置增强型元文件数据的大小。 |
-| [setEnhancedMetafileDataSize(int value)](#setEnhancedMetafileDataSize-int-) | 获取或设置增强型元文件数据的大小。 |
-| [getEnhancedMetafileData()](#getEnhancedMetafileData--) | 获取或设置增强型元文件数据。 |
-| [setEnhancedMetafileData(byte[] value)](#setEnhancedMetafileData-byte---) | 获取或设置增强型元文件数据。 |
+| [getRemainingBytes()](#getRemainingBytes--) | 获取或设置剩余字节。 |
+| [setRemainingBytes(int value)](#setRemainingBytes-int-) | 获取或设置剩余字节。 |
+| [getEnhancedMetafileDataSize()](#getEnhancedMetafileDataSize--) | 获取或设置增强元文件数据的大小。 |
+| [setEnhancedMetafileDataSize(int value)](#setEnhancedMetafileDataSize-int-) | 获取或设置增强元文件数据的大小。 |
+| [getEnhancedMetafileData()](#getEnhancedMetafileData--) | 获取或设置增强元文件数据。 |
+| [setEnhancedMetafileData(byte[] value)](#setEnhancedMetafileData-byte---) | 获取或设置增强元文件数据。 |
 ### WmfEscapeEnhancedMetafile() {#WmfEscapeEnhancedMetafile--}
 ```
 public WmfEscapeEnhancedMetafile()
@@ -56,7 +56,7 @@ public int getCommentIdentifier()
 
 获取或设置注释标识符。
 
-值：一个 32 位无符号整数，用于将此记录定义为 WMF Comment 记录。此值必须为 0x43464D57。
+值：一个 32 位无符号整数，用于将此记录定义为 WMF Comment record。此值必须为 0x43464D57。
 
 **Returns:**
 int
@@ -68,12 +68,12 @@ public void setCommentIdentifier(int value)
 
 获取或设置注释标识符。
 
-值：一个 32 位无符号整数，用于将此记录定义为 WMF Comment 记录。此值必须为 0x43464D57。
+值：一个 32 位无符号整数，用于将此记录定义为 WMF Comment record。此值必须为 0x43464D57。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCommentType() {#getCommentType--}
 ```
@@ -100,7 +100,7 @@ public void setCommentType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -127,7 +127,7 @@ public void setVersion(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getChecksum() {#getChecksum--}
 ```
@@ -137,7 +137,7 @@ public int getChecksum()
 
 获取或设置校验和。
 
-值：一个 16 位无符号整数，用于验证嵌入的 EMF 流的正确性。此值必须是对 EMF 流中所有 WORD 进行 XOR 运算后结果的反码。
+值：一个 16 位无符号整数，用于验证嵌入的 EMF 流的正确性。此值必须是对 EMF 流中所有 WORD 进行 XOR 操作后结果的反码。
 
 **Returns:**
 int
@@ -149,12 +149,12 @@ public void setChecksum(int value)
 
 获取或设置校验和。
 
-值：一个 16 位无符号整数，用于验证嵌入的 EMF 流的正确性。此值必须是对 EMF 流中所有 WORD 进行 XOR 运算后结果的反码。
+值：一个 16 位无符号整数，用于验证嵌入的 EMF 流的正确性。此值必须是对 EMF 流中所有 WORD 进行 XOR 操作后结果的反码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -164,7 +164,7 @@ public int getFlags()
 
 获取或设置标志。
 
-值：此 32 位无符号整数未使用，必须设为零。
+值：此 32 位无符号整数未使用，必须设置为零。
 
 **Returns:**
 int
@@ -176,12 +176,12 @@ public void setFlags(int value)
 
 获取或设置标志。
 
-值：此 32 位无符号整数未使用，必须设为零。
+值：此 32 位无符号整数未使用，必须设置为零。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCommentRecordCount() {#getCommentRecordCount--}
 ```
@@ -191,7 +191,7 @@ public int getCommentRecordCount()
 
 获取或设置注释记录计数。
 
-值：一个 32 位无符号整数，指定包含嵌入 EMF 元文件的连续 META\\_ESCAPE\\_ENHANCED\\_METAFILE 记录的总数。
+值：一个 32 位无符号整数，指定包含嵌入 EMF 元文件的连续 META\_ESCAPE\_ENHANCED\_METAFILE 记录的总数。
 
 **Returns:**
 int
@@ -203,12 +203,12 @@ public void setCommentRecordCount(int value)
 
 获取或设置注释记录计数。
 
-值：一个 32 位无符号整数，指定包含嵌入 EMF 元文件的连续 META\\_ESCAPE\\_ENHANCED\\_METAFILE 记录的总数。
+值：一个 32 位无符号整数，指定包含嵌入 EMF 元文件的连续 META\_ESCAPE\_ENHANCED\_METAFILE 记录的总数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCurrentRecordSize() {#getCurrentRecordSize--}
 ```
@@ -235,7 +235,7 @@ public void setCurrentRecordSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRemainingBytes() {#getRemainingBytes--}
 ```
@@ -243,9 +243,9 @@ public int getRemainingBytes()
 ```
 
 
-获取或设置剩余字节数。
+获取或设置剩余字节。
 
-值：一个 32 位无符号整数，指定在此记录之后仍需处理的 EMF 流字节数。那些额外的 EMF 字节必须出现在后续 META\\_ESCAPE\\_ENHANDED\\_METAFILE 转义记录的 EnhancedMetafileData 字段中。
+值：一个 32 位无符号整数，指定在此记录之后仍需处理的 EMF 流字节数。那些额外的 EMF 字节必须在后续 META\_ESCAPE\_ENHANDED\_METAFILE 转义记录的 EnhancedMetafileData 字段中出现。
 
 **Returns:**
 int
@@ -255,14 +255,14 @@ public void setRemainingBytes(int value)
 ```
 
 
-获取或设置剩余字节数。
+获取或设置剩余字节。
 
-值：一个 32 位无符号整数，指定在此记录之后仍需处理的 EMF 流字节数。那些额外的 EMF 字节必须出现在后续 META\\_ESCAPE\\_ENHANDED\\_METAFILE 转义记录的 EnhancedMetafileData 字段中。
+值：一个 32 位无符号整数，指定在此记录之后仍需处理的 EMF 流字节数。那些额外的 EMF 字节必须在后续 META\_ESCAPE\_ENHANDED\_METAFILE 转义记录的 EnhancedMetafileData 字段中出现。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getEnhancedMetafileDataSize() {#getEnhancedMetafileDataSize--}
 ```
@@ -270,9 +270,9 @@ public int getEnhancedMetafileDataSize()
 ```
 
 
-获取或设置增强型元文件数据的大小。
+获取或设置增强元文件数据的大小。
 
-值：一个 32 位无符号整数，指定嵌入在此序列的 META\\_ESCAPE\\_ENHANCED\\_METAFILE 记录中的 EMF 流的总大小。
+值：一个 32 位无符号整数，指定嵌入在此序列的 META\_ESCAPE\_ENHANCED\_METAFILE 记录中的 EMF 流的总大小。
 
 **Returns:**
 int
@@ -282,14 +282,14 @@ public void setEnhancedMetafileDataSize(int value)
 ```
 
 
-获取或设置增强型元文件数据的大小。
+获取或设置增强元文件数据的大小。
 
-值：一个 32 位无符号整数，指定嵌入在此序列的 META\\_ESCAPE\\_ENHANCED\\_METAFILE 记录中的 EMF 流的总大小。
+值：一个 32 位无符号整数，指定嵌入在此序列的 META\_ESCAPE\_ENHANCED\_METAFILE 记录中的 EMF 流的总大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getEnhancedMetafileData() {#getEnhancedMetafileData--}
 ```
@@ -297,9 +297,9 @@ public byte[] getEnhancedMetafileData()
 ```
 
 
-获取或设置增强型元文件数据。
+获取或设置增强元文件数据。
 
-值：EMF 文件的一个段。连续的 META\\_ESCAPE\\_ENHANCED\\_METAFILE 记录中的字节必须串联起来，以表示完整的嵌入 EMF 文件。
+值：EMF 文件的一个片段。连续的 META\_ESCAPE\_ENHANCED\_METAFILE 记录中的字节必须串联起来，以表示整个嵌入的 EMF 文件。
 
 **Returns:**
 byte[]
@@ -309,12 +309,12 @@ public void setEnhancedMetafileData(byte[] value)
 ```
 
 
-获取或设置增强型元文件数据。
+获取或设置增强元文件数据。
 
-值：EMF 文件的一个段。连续的 META\\_ESCAPE\\_ENHANCED\\_METAFILE 记录中的字节必须串联起来，以表示完整的嵌入 EMF 文件。
+值：EMF 文件的一个片段。连续的 META\_ESCAPE\_ENHANCED\_METAFILE 记录中的字节必须串联起来，以表示整个嵌入的 EMF 文件。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

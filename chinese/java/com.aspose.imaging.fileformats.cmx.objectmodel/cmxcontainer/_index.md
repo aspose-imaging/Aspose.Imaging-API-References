@@ -1,6 +1,6 @@
 ---
 title: "CmxContainer"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "子元素的容器。"
 type: docs
 weight: 10

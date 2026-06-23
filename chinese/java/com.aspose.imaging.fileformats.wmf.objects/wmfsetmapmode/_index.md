@@ -1,13 +1,13 @@
 ---
 title: "WmfSetMapMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "设置映射模式。"
 type: docs
 weight: 77
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetmapmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetMapMode extends WmfObject
 ```
@@ -41,7 +41,7 @@ public short getMapMode()
 值：映射模式。
 
 **Returns:**
-short
+短
 ### setMapMode(short value) {#setMapMode-short-}
 ```
 public void setMapMode(short value)
@@ -55,5 +55,5 @@ public void setMapMode(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

@@ -1,7 +1,7 @@
 ---
 title: "OdHatchedBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "网格画笔"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "交叉线画笔"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.opendocument.objects.brush.OdB
 public class OdHatchedBrush extends OdBrush
 ```
 
-网格画笔
+交叉线画笔
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -63,7 +63,7 @@ public final void setArgb32Color(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | argb32 的颜色。 |
+| 值 | int | argb32 的颜色。 |
 
 ### deepClone() {#deepClone--}
 ```
@@ -74,4 +74,4 @@ public Object deepClone()
 克隆此实例。
 
 **Returns:**
-java.lang.Object - 返回源画刷的新实例
+java.lang.Object - 返回源画笔的新实例

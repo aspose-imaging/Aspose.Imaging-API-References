@@ -1,7 +1,7 @@
 ---
 title: "XmpArray"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 Xmp 数组。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 Xmp 数组于 ."
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.xmp/xmparray/
@@ -12,7 +12,7 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, java.uti
 public class XmpArray extends XmpCollection
 ```
 
-表示 Xmp 数组在 [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) 中。
+表示 Xmp 数组于 [XmpPackage](../../com.aspose.imaging.xmp/xmppackage)。
 ## 构造函数
 
 | 构造函数 | 描述 |

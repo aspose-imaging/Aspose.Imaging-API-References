@@ -1,6 +1,6 @@
 ---
 title: "IXmpType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "XMP 类型的基接口。"
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: "MaskingOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示常见的图像掩码选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示通用图像遮罩选项。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.imaging.masking.options/maskingoptions/
@@ -12,7 +12,7 @@ java.lang.Object
 public class MaskingOptions
 ```
 
-表示常见的图像掩码选项。
+表示通用图像遮罩选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -33,15 +33,15 @@ public class MaskingOptions
 | [setArgs(IMaskingArgs value)](#setArgs-com.aspose.imaging.masking.options.IMaskingArgs-) | 设置分割算法的参数。 |
 | [getExportOptions()](#getExportOptions--) | 获取图像导出选项。 |
 | [setExportOptions(ImageOptionsBase value)](#setExportOptions-com.aspose.imaging.ImageOptionsBase-) | 设置图像导出选项。 |
-| [getMaskingArea()](#getMaskingArea--) | 获取掩码区域。 |
-| [setMaskingArea(Rectangle value)](#setMaskingArea-com.aspose.imaging.Rectangle-) | 设置掩码区域。 |
-| [getDecompose()](#getDecompose--) | 获取一个值，指示是否不必将每个 Shape 从掩码中分离为单独对象，或作为从背景分离的掩码的统一对象。 |
-| [setDecompose(boolean value)](#setDecompose-boolean-) | 设置一个值，指示是否不必将每个 Shape 从掩码中分离为单独对象，或作为从背景分离的掩码的统一对象。 |
+| [getMaskingArea()](#getMaskingArea--) | 获取遮罩区域。 |
+| [setMaskingArea(Rectangle value)](#setMaskingArea-com.aspose.imaging.Rectangle-) | 设置遮罩区域。 |
+| [getDecompose()](#getDecompose--) | 获取一个值，指示是否不需要将遮罩中的每个 Shape 分别作为单独对象分离，或作为从遮罩中分离出的统一对象与背景分离。 |
+| [setDecompose(boolean value)](#setDecompose-boolean-) | 设置一个值，指示是否不需要将遮罩中的每个 Shape 分别作为单独对象分离，或作为从遮罩中分离出的统一对象与背景分离。 |
 | [getBackgroundReplacementColor()](#getBackgroundReplacementColor--) | 获取背景替换颜色。 |
 | [setBackgroundReplacementColor(Color value)](#setBackgroundReplacementColor-com.aspose.imaging.Color-) | 设置背景替换颜色。 |
 
 ## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
-此示例展示如何使用图像掩码和 K-means 分割算法将光栅图像分解为多个图像。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何使用图像掩码和 K 均值分割算法将光栅图像分解为多个图像。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -55,7 +55,7 @@ try {
     // 设置最大迭代次数。
     args.setMaxIterationNumber(50);
 
-    // 设置分割方法的精度（可选）。
+    // 设置分割方法的精度（可选）
     args.setPrecision(1);
 
     // 每个簇（段）将存储为单独的 PNG 文件。
@@ -65,8 +65,8 @@ try {
 
     com.aspose.imaging.masking.options.MaskingOptions maskingOptions = new com.aspose.imaging.masking.options.MaskingOptions();
 
-    // 使用 K-means 聚类。
-    // K-means 聚类可以将图像拆分为多个独立的簇（段）。
+    // 使用 K 均值聚类。
+    // K 均值聚类可以将图像分割为多个独立的簇（段）。
     maskingOptions.setMethod(com.aspose.imaging.masking.options.SegmentationMethod.KMeans);
     maskingOptions.setDecompose(true);
     maskingOptions.setArgs(args);
@@ -105,7 +105,7 @@ try {
 
 
 ## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
-此示例展示如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -121,7 +121,7 @@ try {
             });
 
     // 建议 #2。
-    // 对图像进行视觉分析并设置属于分离对象的点。
+    // 对图像进行可视化分析并设置属于分离对象的点。
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(103, 326)},
@@ -199,7 +199,7 @@ try
 {
     com.aspose.imaging.Size imageSize = image.getSize();
 
-    // 减小图像尺寸以加快分割过程
+    // 缩小图像尺寸以加快分割过程
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
     // 创建 ImageMasking 类的实例。
@@ -213,7 +213,7 @@ try
         com.aspose.imaging.RasterImage foregroundMask = maskingResult.get_Item(1).getMask();
         try
         {
-            // 将掩码的大小增加到原始图像的尺寸
+            // 将掩码的尺寸扩大到原始图像的大小
             foregroundMask.resize(imageSize.getWidth(), imageSize.getHeight(), com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
             // 将掩码应用于原始图像以获得前景段
@@ -267,7 +267,7 @@ maskingOptions.setArgs(new com.aspose.imaging.masking.options.AutoMaskingArgs())
 maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
 maskingOptions.setExportOptions(exportOptions);
 
-// 首次启动会话并保存到文件
+// 首次启动会话并保存到文件中。
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -307,7 +307,7 @@ finally
     image.close();
 }
 
-// 从文件恢复掩码会话
+// 从文件恢复掩码会话。
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -319,7 +319,7 @@ try
     {
         com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-        // 对图像进行视觉分析并设置属于分离对象的点。
+        // 对图像进行可视化分析并设置属于分离对象的点。
         args.setObjectsPoints(new Point[][]
                 {
                         new Point[]
@@ -332,7 +332,7 @@ try
         com.aspose.imaging.masking.result.MaskingResult maskingResult = session.improveDecomposition(args);
         try
         {
-            // 显式传递导出选项，因为它不可序列化
+            // 显式传输导出选项，因为它不可序列化。
             maskingResult.MaskingOptions.setExportOptions(exportOptions);
 
             com.aspose.imaging.RasterImage segmentImage = maskingResult.get_Item(1).getImage();
@@ -400,11 +400,11 @@ public final void setMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 分割方法。 |
+| 值 | int | 分割方法。 |
 
 
 **Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
-此示例展示如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -420,7 +420,7 @@ try {
             });
 
     // 建议 #2。
-    // 对图像进行视觉分析并设置属于分离对象的点。
+    // 对图像进行可视化分析并设置属于分离对象的点。
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(103, 326)},
@@ -507,7 +507,7 @@ public final ImageOptionsBase getExportOptions()
 
 获取图像导出选项。
 
-值：用于创建生成图像的图像导出选项。
+值：用于生成结果图像的图像导出选项。
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - the image export options.
@@ -519,7 +519,7 @@ public final void setExportOptions(ImageOptionsBase value)
 
 设置图像导出选项。
 
-值：用于创建生成图像的图像导出选项。
+值：用于生成结果图像的图像导出选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -528,7 +528,7 @@ public final void setExportOptions(ImageOptionsBase value)
 
 
 **Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
-此示例展示如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -544,7 +544,7 @@ try {
             });
 
     // 建议 #2。
-    // 对图像进行视觉分析并设置属于分离对象的点。
+    // 对图像进行可视化分析并设置属于分离对象的点。
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(103, 326)},
@@ -602,9 +602,9 @@ public final Rectangle getMaskingArea()
 ```
 
 
-获取掩码区域。
+获取遮罩区域。
 
-值：掩码区域，是源图像的部分区域。Rectangle.Empty 值表示整个源图像区域。
+值：遮罩区域，是源图像的部分区域。Rectangle.Empty 值表示整个源图像区域。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the masking area.
@@ -614,14 +614,14 @@ public final void setMaskingArea(Rectangle value)
 ```
 
 
-设置掩码区域。
+设置遮罩区域。
 
-值：掩码区域，是源图像的部分区域。Rectangle.Empty 值表示整个源图像区域。
+值：遮罩区域，是源图像的部分区域。Rectangle.Empty 值表示整个源图像区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Rectangle](../../com.aspose.imaging/rectangle) | 掩码区域。 |
+| value | [Rectangle](../../com.aspose.imaging/rectangle) | 遮罩区域。 |
 
 ### getDecompose() {#getDecompose--}
 ```
@@ -629,26 +629,26 @@ public final boolean getDecompose()
 ```
 
 
-获取一个值，指示是否不必将每个 Shape 从掩码中分离为单独对象，或作为从背景分离的掩码的统一对象。
+获取一个值，指示是否不需要将遮罩中的每个 Shape 分别作为单独对象分离，或作为从遮罩中分离出的统一对象与背景分离。
 
 值：如果分解则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 一个值，指示是否不需要将每个 Shape 从掩码中分离为单独的对象，或作为从背景分离的掩码的统一对象。
+boolean - 指示是否不需要将每个 Shape 从遮罩中分离为单独对象或作为从遮罩中分离的与背景分离的统一对象的值。
 ### setDecompose(boolean value) {#setDecompose-boolean-}
 ```
 public final void setDecompose(boolean value)
 ```
 
 
-设置一个值，指示是否不必将每个 Shape 从掩码中分离为单独对象，或作为从背景分离的掩码的统一对象。
+设置一个值，指示是否不需要将遮罩中的每个 Shape 分别作为单独对象分离，或作为从遮罩中分离出的统一对象与背景分离。
 
 值：如果分解则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示是否不需要将每个 Shape 从掩码中分离为单独的对象，或作为从背景分离的掩码的统一对象。 |
+| 值 | boolean | 指示是否不需要将每个 Shape 从遮罩中分离为单独对象或作为从遮罩中分离的与背景分离的统一对象的值。 |
 
 ### getBackgroundReplacementColor() {#getBackgroundReplacementColor--}
 ```
@@ -658,7 +658,7 @@ public final Color getBackgroundReplacementColor()
 
 获取背景替换颜色。
 
-值：背景替换颜色。此颜色将在生成的图像中用作背景颜色。
+值：背景替换颜色。此颜色将在结果图像中用作背景颜色。
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - the background replacement color.
@@ -670,7 +670,7 @@ public final void setBackgroundReplacementColor(Color value)
 
 设置背景替换颜色。
 
-值：背景替换颜色。此颜色将在生成的图像中用作背景颜色。
+值：背景替换颜色。此颜色将在结果图像中用作背景颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -679,7 +679,7 @@ public final void setBackgroundReplacementColor(Color value)
 
 
 **Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
-此示例展示如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -695,7 +695,7 @@ try {
             });
 
     // 建议 #2。
-    // 对图像进行视觉分析并设置属于分离对象的点。
+    // 对图像进行可视化分析并设置属于分离对象的点。
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(103, 326)},

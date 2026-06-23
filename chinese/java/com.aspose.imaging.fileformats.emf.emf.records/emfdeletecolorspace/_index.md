@@ -1,6 +1,6 @@
 ---
 title: "EmfDeleteColorSpace"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_DELETECOLORSPACE 记录删除逻辑颜色空间对象。"
 type: docs
 weight: 42
@@ -24,8 +24,8 @@ public final class EmfDeleteColorSpace extends EmfObjectManipulationRecordType
 
 | 方法 | 描述 |
 | --- | --- |
-| [getIhCS()](#getIhCS--) | 获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象索引的 32 位无符号整数。 |
-| [setIhCS(int value)](#setIhCS-int-) | 获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象索引的 32 位无符号整数。 |
+| [getIhCS()](#getIhCS--) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象的索引。 |
+| [setIhCS(int value)](#setIhCS-int-) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象的索引。 |
 ### EmfDeleteColorSpace(EmfRecord source) {#EmfDeleteColorSpace-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfDeleteColorSpace(EmfRecord source)
@@ -37,7 +37,7 @@ public EmfDeleteColorSpace(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getIhCS() {#getIhCS--}
 ```
@@ -45,7 +45,7 @@ public int getIhCS()
 ```
 
 
-获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象索引的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象的索引。
 
 此对象可以是 WMF LogColorSpace 或 LogColorSpaceW 对象（分别对应 [MS-WMF] 第 2.2.2.11 和 2.2.2.12 节）。
 
@@ -57,12 +57,12 @@ public void setIhCS(int value)
 ```
 
 
-获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象索引的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间对象的索引。
 
 此对象可以是 WMF LogColorSpace 或 LogColorSpaceW 对象（分别对应 [MS-WMF] 第 2.2.2.11 和 2.2.2.12 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

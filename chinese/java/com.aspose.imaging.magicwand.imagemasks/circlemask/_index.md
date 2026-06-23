@@ -1,6 +1,6 @@
 ---
 title: "CircleMask"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "描述圆形掩码。"
 type: docs
 weight: 10
@@ -25,7 +25,7 @@ public class CircleMask extends ImageMask
 | --- | --- |
 | [getSelectionBounds()](#getSelectionBounds--) | 获取此掩码的边界（以像素为单位）。 |
 | [get_Item(int x, int y)](#get-Item-int-int-) | 获取指定像素的透明度。 |
-| [inflate(int size)](#inflate-int-) | 按指定量膨胀此掩码。 |
+| [inflate(int size)](#inflate-int-) | 按指定的量膨胀此掩码。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 使用指定的矩形裁剪掩码。 |
 | [deepClone()](#deepClone--) | 创建一个新对象，该对象是当前实例的副本。 |
 ### CircleMask(int x, int y, int radius) {#CircleMask-int-int-int-}
@@ -41,7 +41,7 @@ public CircleMask(int x, int y, int radius)
 | --- | --- | --- |
 | x | int | 所选区域中心点的 x 坐标。 |
 | y | int | 所选区域中心点的 y 坐标。 |
-| radius | int | 所选区域的半径。 |
+| 半径 | int | 所选区域的半径。 |
 
 ### CircleMask(Point center, int radius) {#CircleMask-com.aspose.imaging.Point-int-}
 ```
@@ -55,7 +55,7 @@ public CircleMask(Point center, int radius)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | center | [Point](../../com.aspose.imaging/point) | 所选区域的中心点。 |
-| radius | int | 所选区域的半径。 |
+| 半径 | int | 所选区域的半径。 |
 
 ### getSelectionBounds() {#getSelectionBounds--}
 ```
@@ -89,12 +89,12 @@ public ImageMask inflate(int size)
 ```
 
 
-按指定量膨胀此掩码。
+按指定的量膨胀此掩码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | int | 用于膨胀此掩码的量。 |
+| size | int | 膨胀此掩码的量。 |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated CircleMask as ImageMask.
@@ -122,4 +122,4 @@ public Object deepClone()
 创建一个新对象，该对象是当前实例的副本。
 
 **Returns:**
-java.lang.Object - 此实例的副本的新对象。
+java.lang.Object - 一个新对象，是此实例的副本。

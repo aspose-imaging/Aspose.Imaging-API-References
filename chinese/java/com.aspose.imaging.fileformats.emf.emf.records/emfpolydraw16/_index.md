@@ -1,6 +1,6 @@
 ---
 title: "EmfPolyDraw16"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_POLYDRAW16 记录指定一组线段和贝塞尔曲线。"
 type: docs
 weight: 90
@@ -23,7 +23,7 @@ EMR\_POLYDRAW16 记录指定一组线段和贝塞尔曲线。
 | 方法 | 描述 |
 | --- | --- |
 | [getAbTypes()](#getAbTypes--) | 获取或设置一个长度为 Count 的字节数组，用于指定点类型。 |
-| [setAbTypes(byte[] value)](#setAbTypes-byte---) | 设置一个指定点类型的 Count 长度字节数组。 |
+| [setAbTypes(byte[] value)](#setAbTypes-byte---) | 设置一个长度为 Count 的字节数组，用于指定点类型。 |
 ### EmfPolyDraw16(EmfRecord source) {#EmfPolyDraw16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolyDraw16(EmfRecord source)
@@ -35,7 +35,7 @@ public EmfPolyDraw16(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getAbTypes() {#getAbTypes--}
 ```
@@ -43,7 +43,7 @@ public byte[] getAbTypes()
 ```
 
 
-获取或设置一个指定点类型的 Count 长度字节数组。该值必须属于 Point（第 2.1.26 节）枚举。
+获取或设置一个长度为 Count 的字节数组，用于指定点类型。此值必须属于 Point（第 2.1.26 节）枚举。
 
 **Returns:**
 byte[]
@@ -53,10 +53,10 @@ public void setAbTypes(byte[] value)
 ```
 
 
-设置一个指定点类型的 Count 长度字节数组。该值必须属于 Point（第 2.1.26 节）枚举。
+设置一个长度为 Count 的字节数组，用于指定点类型。此值必须属于 Point（第 2.1.26 节）枚举。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 一个指定点类型的 Count 长度字节数组。 |
+| 值 | byte[] | 一个长度为 Count 的字节数组，用于指定点类型。 |
 

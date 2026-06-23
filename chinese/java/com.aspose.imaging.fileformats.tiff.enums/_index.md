@@ -1,20 +1,20 @@
 ---
 title: "com.aspose.imaging.fileformats.tiff.enums"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该软件包包含 Tiff 文件格式的枚举。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包包含 Tiff 文件格式的枚举。"
 type: docs
 weight: 78
 url: /zh/java/com.aspose.imaging.fileformats.tiff.enums/
 ---
 
-该软件包包含 Tiff 文件格式的枚举。
+该包包含 Tiff 文件格式的枚举。
 
 
 ## 类
 
 | 类 | 描述 |
 | --- | --- |
-| [Group3Options](../com.aspose.imaging.fileformats.tiff.enums/group3options) | CCITT 第 3/4 组传真编码的选项。 |
+| [Group3Options](../com.aspose.imaging.fileformats.tiff.enums/group3options) | CCITT Group 3/4 传真编码的选项。 |
 | [TiffAlphaStorage](../com.aspose.imaging.fileformats.tiff.enums/tiffalphastorage) | 指定 tiff 文档的 alpha 存储。 |
 | [TiffByteOrder](../com.aspose.imaging.fileformats.tiff.enums/tiffbyteorder) | tiff 图像的字节顺序 |
 | [TiffCompressions](../com.aspose.imaging.fileformats.tiff.enums/tiffcompressions) | 包含压缩类型 |

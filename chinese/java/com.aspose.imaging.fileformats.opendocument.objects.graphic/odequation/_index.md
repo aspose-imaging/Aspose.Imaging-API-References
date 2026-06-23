@@ -1,7 +1,7 @@
 ---
 title: "OdEquation"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "打开文档的方程式"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "打开文档的公式"
 type: docs
 weight: 21
 url: /zh/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odequation/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../c
 public class OdEquation extends OdGraphicObject
 ```
 
-打开文档的方程式
+打开文档的公式
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,8 +26,8 @@ public class OdEquation extends OdGraphicObject
 | [setName(String value)](#setName-java.lang.String-) | 获取或设置名称。 |
 | [getFormula()](#getFormula--) | 获取或设置公式。 |
 | [setFormula(String value)](#setFormula-java.lang.String-) | 获取或设置公式。 |
-| [getValue()](#getValue--) | 获取或设置值。 |
-| [setValue(float value)](#setValue-float-) | 获取或设置值。 |
+| [getValue()](#getValue--) | 获取或设置该值。 |
+| [setValue(float value)](#setValue-float-) | 获取或设置该值。 |
 ### OdEquation(OdObject parent) {#OdEquation-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdEquation(OdObject parent)
@@ -39,7 +39,7 @@ public OdEquation(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getName() {#getName--}
 ```
@@ -62,7 +62,7 @@ public void setName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 名称。 |
+| 值 | java.lang.String | 名称。 |
 
 ### getFormula() {#getFormula--}
 ```
@@ -85,7 +85,7 @@ public void setFormula(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 公式。 |
+| 值 | java.lang.String | 公式。 |
 
 ### getValue() {#getValue--}
 ```
@@ -93,7 +93,7 @@ public float getValue()
 ```
 
 
-获取或设置值。
+获取或设置该值。
 
 **Returns:**
 float - 值。
@@ -103,10 +103,10 @@ public void setValue(float value)
 ```
 
 
-获取或设置值。
+获取或设置该值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 值。 |
+| 值 | float | 值。 |
 

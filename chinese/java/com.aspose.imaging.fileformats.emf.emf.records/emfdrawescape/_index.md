@@ -1,6 +1,6 @@
 ---
 title: "EmfDrawEscape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_DRAWESCAPE 记录向打印机驱动程序传递任意信息。"
 type: docs
 weight: 44
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfDrawEscape extends EmfEscapeRecordType
 ```
 
-EMR\_DRAWESCAPE 记录将任意信息传递给打印机驱动程序。其意图是这些信息将导致绘图操作的完成。
+EMR\_DRAWESCAPE 记录向打印机驱动程序传递任意信息。其意图是这些信息将导致绘图操作的执行。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ public EmfDrawEscape(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getCjIn() {#getCjIn--}
 ```
@@ -60,7 +60,7 @@ public void setCjIn(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getData() {#getData--}
 ```
@@ -83,5 +83,5 @@ public void setData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

@@ -1,13 +1,13 @@
 ---
 title: "CmxGroup"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "组的"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging/fileformats/cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxGroup extends CmxContainer
 ```

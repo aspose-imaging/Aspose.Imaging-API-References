@@ -1,7 +1,7 @@
 ---
 title: "CdrMcfg"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 配置对象"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 配置 对象"
 type: docs
 weight: 26
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrmcfg/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrMcfg extends CdrObject
 ```
 
-cdr 配置对象
+该 cdr 配置 对象
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -41,7 +41,7 @@ public final double getWidth()
 获取宽度。
 
 **Returns:**
-double - 宽度。
+double - 宽度.
 ### setWidth(double value) {#setWidth-double-}
 ```
 public final void setWidth(double value)
@@ -53,7 +53,7 @@ public final void setWidth(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 宽度。 |
+| 值 | double | 宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -64,7 +64,7 @@ public final double getHeight()
 获取高度。
 
 **Returns:**
-double - 高度。
+double - 高度.
 ### setHeight(double value) {#setHeight-double-}
 ```
 public final void setHeight(double value)
@@ -76,5 +76,5 @@ public final void setHeight(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 高度。 |
+| 值 | double | 高度。 |
 

@@ -1,7 +1,7 @@
 ---
 title: "LinearMulticolorGradientBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示一种使用多种颜色和相应位置定义的线性渐变画刷。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示一种 Brush，其线性渐变由多种颜色和相应的位置定义。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.brushes/linearmulticolorgradientbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class LinearMulticolorGradientBrush extends LinearGradientBrushBase
 ```
 
-表示一种使用多种颜色和相应位置定义的线性渐变 `Brush`。此类不可被继承。
+表示一个具有线性渐变的 `Brush`，该渐变由多种颜色和相应的位置定义。此类不可被继承。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -20,10 +20,10 @@ public final class LinearMulticolorGradientBrush extends LinearGradientBrushBase
 | [LinearMulticolorGradientBrush()](#LinearMulticolorGradientBrush--) | 使用默认参数初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
 | [LinearMulticolorGradientBrush(Point point1, Point point2)](#LinearMulticolorGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-) | 使用指定的点初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
 | [LinearMulticolorGradientBrush(PointF point1, PointF point2)](#LinearMulticolorGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | 使用指定的点初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
-| [LinearMulticolorGradientBrush(Rectangle rect, float angle)](#LinearMulticolorGradientBrush-com.aspose.imaging.Rectangle-float-) | 使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
-| [LinearMulticolorGradientBrush(RectangleF rect, float angle)](#LinearMulticolorGradientBrush-com.aspose.imaging.RectangleF-float-) | 使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
-| [LinearMulticolorGradientBrush(Rectangle rect, float angle, boolean isAngleScalable)](#LinearMulticolorGradientBrush-com.aspose.imaging.Rectangle-float-boolean-) | 使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
-| [LinearMulticolorGradientBrush(RectangleF rect, float angle, boolean isAngleScalable)](#LinearMulticolorGradientBrush-com.aspose.imaging.RectangleF-float-boolean-) | 使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
+| [LinearMulticolorGradientBrush(Rectangle rect, float angle)](#LinearMulticolorGradientBrush-com.aspose.imaging.Rectangle-float-) | 基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
+| [LinearMulticolorGradientBrush(RectangleF rect, float angle)](#LinearMulticolorGradientBrush-com.aspose.imaging.RectangleF-float-) | 基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
+| [LinearMulticolorGradientBrush(Rectangle rect, float angle, boolean isAngleScalable)](#LinearMulticolorGradientBrush-com.aspose.imaging.Rectangle-float-boolean-) | 基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
+| [LinearMulticolorGradientBrush(RectangleF rect, float angle, boolean isAngleScalable)](#LinearMulticolorGradientBrush-com.aspose.imaging.RectangleF-float-boolean-) | 基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -49,8 +49,8 @@ public LinearMulticolorGradientBrush(Point point1, Point point2)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` 结构表示线性渐变的起始点。 |
-| point2 | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` 结构表示线性渐变的终止点。 |
+| point1 | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` 结构，表示线性渐变的起始点。 |
+| point2 | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` 结构，表示线性渐变的终点。 |
 
 ### LinearMulticolorGradientBrush(PointF point1, PointF point2) {#LinearMulticolorGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
 ```
@@ -63,8 +63,8 @@ public LinearMulticolorGradientBrush(PointF point1, PointF point2)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` 结构表示线性渐变的起始点。 |
-| point2 | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` 结构表示线性渐变的终止点。 |
+| point1 | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` 结构，表示线性渐变的起始点。 |
+| point2 | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` 结构，表示线性渐变的终点。 |
 
 ### LinearMulticolorGradientBrush(Rectangle rect, float angle) {#LinearMulticolorGradientBrush-com.aspose.imaging.Rectangle-float-}
 ```
@@ -72,13 +72,13 @@ public LinearMulticolorGradientBrush(Rectangle rect, float angle)
 ```
 
 
-使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。
+基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | [Rectangle](../../com.aspose.imaging/rectangle) | `Aspose.Imaging.RectangleF` 结构指定线性渐变的边界。 |
-| angle | float | 角度以度为单位，顺时针从 x 轴测量，表示渐变方向线的角度。 |
+| rect | [Rectangle](../../com.aspose.imaging/rectangle) | `Aspose.Imaging.RectangleF` 结构，指定线性渐变的边界。 |
+| angle | float | 梯度方向线的角度，以度为单位，顺时针从 x 轴测量。 |
 
 ### LinearMulticolorGradientBrush(RectangleF rect, float angle) {#LinearMulticolorGradientBrush-com.aspose.imaging.RectangleF-float-}
 ```
@@ -86,13 +86,13 @@ public LinearMulticolorGradientBrush(RectangleF rect, float angle)
 ```
 
 
-使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。
+基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | `Aspose.Imaging.RectangleF` 结构指定线性渐变的边界。 |
-| angle | float | 角度以度为单位，顺时针从 x 轴测量，表示渐变方向线的角度。 |
+| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | `Aspose.Imaging.RectangleF` 结构，指定线性渐变的边界。 |
+| angle | float | 梯度方向线的角度，以度为单位，顺时针从 x 轴测量。 |
 
 ### LinearMulticolorGradientBrush(Rectangle rect, float angle, boolean isAngleScalable) {#LinearMulticolorGradientBrush-com.aspose.imaging.Rectangle-float-boolean-}
 ```
@@ -100,14 +100,14 @@ public LinearMulticolorGradientBrush(Rectangle rect, float angle, boolean isAngl
 ```
 
 
-使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。
+基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | [Rectangle](../../com.aspose.imaging/rectangle) | `Aspose.Imaging.RectangleF` 结构指定线性渐变的边界。 |
-| angle | float | 角度以度为单位，顺时针从 x 轴测量，表示渐变方向线的角度。 |
-| isAngleScalable | boolean | 如果设置为 `true`，则在使用此 `LinearMulticolorGradientBrush` 进行变换时会更改角度。 |
+| rect | [Rectangle](../../com.aspose.imaging/rectangle) | `Aspose.Imaging.RectangleF` 结构，指定线性渐变的边界。 |
+| angle | float | 梯度方向线的角度，以度为单位，顺时针从 x 轴测量。 |
+| isAngleScalable | boolean | 如果设置为 `true`，在使用此 `LinearMulticolorGradientBrush` 进行变换时，角度会被更改。 |
 
 ### LinearMulticolorGradientBrush(RectangleF rect, float angle, boolean isAngleScalable) {#LinearMulticolorGradientBrush-com.aspose.imaging.RectangleF-float-boolean-}
 ```
@@ -115,14 +115,14 @@ public LinearMulticolorGradientBrush(RectangleF rect, float angle, boolean isAng
 ```
 
 
-使用矩形和方向角度初始化 `LinearMulticolorGradientBrush` 类的新实例。
+基于矩形和方向角初始化 `LinearMulticolorGradientBrush` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | `Aspose.Imaging.RectangleF` 结构指定线性渐变的边界。 |
-| angle | float | 角度以度为单位，顺时针从 x 轴测量，表示渐变方向线的角度。 |
-| isAngleScalable | boolean | 如果设置为 `true`，则在使用此 `LinearMulticolorGradientBrush` 进行变换时会更改角度。 |
+| rect | [RectangleF](../../com.aspose.imaging/rectanglef) | `Aspose.Imaging.RectangleF` 结构，指定线性渐变的边界。 |
+| angle | float | 梯度方向线的角度，以度为单位，顺时针从 x 轴测量。 |
+| isAngleScalable | boolean | 如果设置为 `true`，在使用此 `LinearMulticolorGradientBrush` 进行变换时，角度会被更改。 |
 
 ### getInterpolationColors() {#getInterpolationColors--}
 ```

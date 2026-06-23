@@ -1,7 +1,7 @@
 ---
 title: "CieCoordinates"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该类包含指定色彩空间中特定颜色的 xy 和 z 坐标。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该类包含在指定颜色空间中某种特定颜色的 xy 和 z 坐标。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.bmp.structures/ciecoordinates/
@@ -39,7 +39,7 @@ public CieCoordinates(byte[] bytes)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 字节 | byte[] | 数组字节。 |
+| 字节 | byte[] | 字节数组。 |
 
 ### getCieCoordinatesX() {#getCieCoordinatesX--}
 ```
@@ -66,7 +66,7 @@ public void setCieCoordinatesX(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getCieCoordinatesY() {#getCieCoordinatesY--}
 ```
@@ -76,7 +76,7 @@ public long getCieCoordinatesY()
 
 获取或设置坐标 y。
 
-值：y 坐标。
+值：坐标 y。
 
 **Returns:**
 long
@@ -88,12 +88,12 @@ public void setCieCoordinatesY(long value)
 
 获取或设置坐标 y。
 
-值：y 坐标。
+值：坐标 y。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getCieCoordinatesZ() {#getCieCoordinatesZ--}
 ```
@@ -103,7 +103,7 @@ public long getCieCoordinatesZ()
 
 获取或设置坐标 z。
 
-值：z 坐标。
+值：坐标 z。
 
 **Returns:**
 long
@@ -115,10 +115,10 @@ public void setCieCoordinatesZ(long value)
 
 获取或设置坐标 z。
 
-值：z 坐标。
+值：坐标 z。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 

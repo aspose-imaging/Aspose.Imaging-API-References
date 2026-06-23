@@ -1,6 +1,6 @@
 ---
 title: "MultiPageOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "支持多页的格式的基类"
 type: docs
 weight: 30
@@ -44,11 +44,11 @@ public class MultiPageOptions
 | [setExportArea(Rectangle value)](#setExportArea-com.aspose.imaging.Rectangle-) | 获取或设置导出区域。 |
 | [getMode()](#getMode--) | 获取或设置模式。 |
 | [setMode(int value)](#setMode-int-) | 获取或设置模式。 |
-| [getOutputLayersNames()](#getOutputLayersNames--) | 获取或设置输出图层名称（如果导出格式支持图层命名，则有效，例如 Psd） |
-| [setOutputLayersNames(String[] value)](#setOutputLayersNames-java.lang.String---) | 获取或设置输出图层名称（如果导出格式支持图层命名，则有效，例如 Psd） |
-| [getMergeLayers()](#getMergeLayers--) | 获取指示是否 [merge layers] 的值。 |
-| [setMergeLayers(boolean value)](#setMergeLayers-boolean-) | 设置指示是否 [merge layers] 的值。 |
-| [initPages(IntRange[] ranges)](#initPages-com.aspose.imaging.IntRange---) | 从范围数组初始化页面 |
+| [getOutputLayersNames()](#getOutputLayersNames--) | 获取或设置输出图层名称（如果导出格式支持图层命名，例如 Psd）。 |
+| [setOutputLayersNames(String[] value)](#setOutputLayersNames-java.lang.String---) | 获取或设置输出图层名称（如果导出格式支持图层命名，例如 Psd）。 |
+| [getMergeLayers()](#getMergeLayers--) | 获取指示是否[合并图层]的值。 |
+| [setMergeLayers(boolean value)](#setMergeLayers-boolean-) | 设置指示是否[合并图层]的值。 |
+| [initPages(IntRange[] ranges)](#initPages-com.aspose.imaging.IntRange---) | 从范围数组初始化页面。 |
 ### MultiPageOptions() {#MultiPageOptions--}
 ```
 public MultiPageOptions()
@@ -68,7 +68,7 @@ public MultiPageOptions(int[] pages)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 页面 | int[] | 页面。 |
+| pages | int[] | pages。 |
 
 ### MultiPageOptions(int[] pages, Rectangle exportArea) {#MultiPageOptions-int---com.aspose.imaging.Rectangle-}
 ```
@@ -81,7 +81,7 @@ public MultiPageOptions(int[] pages, Rectangle exportArea)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 页面 | int[] | 页面数组。 |
+| pages | int[] | pages 的数组。 |
 | exportArea | [Rectangle](../../com.aspose.imaging/rectangle) | 导出区域。 |
 
 ### MultiPageOptions(String[] pageTitles) {#MultiPageOptions-java.lang.String---}
@@ -95,7 +95,7 @@ public MultiPageOptions(String[] pageTitles)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageTitles | java.lang.String[] | 页面标题。 |
+| pageTitles | java.lang.String[] | page titles。 |
 
 ### MultiPageOptions(String[] pageTitles, Rectangle exportArea) {#MultiPageOptions-java.lang.String---com.aspose.imaging.Rectangle-}
 ```
@@ -108,7 +108,7 @@ public MultiPageOptions(String[] pageTitles, Rectangle exportArea)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageTitles | java.lang.String[] | 页面标题。 |
+| pageTitles | java.lang.String[] | page titles。 |
 | exportArea | [Rectangle](../../com.aspose.imaging/rectangle) | 导出区域。 |
 
 ### MultiPageOptions(IntRange[] ranges) {#MultiPageOptions-com.aspose.imaging.IntRange---}
@@ -200,7 +200,7 @@ public int[] getPages()
 
 获取或设置页面。
 
-值：页面。
+值：pages。
 
 **Returns:**
 int[]
@@ -212,12 +212,12 @@ public void setPages(int[] value)
 
 获取或设置页面。
 
-值：页面。
+值：pages。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 
 **Example: This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.**
@@ -238,7 +238,7 @@ try {
 
         saveOptions.setMultiPageOptions(new com.aspose.imaging.imageoptions.DjvuMultiPageOptions());
 
-        // 默认情况下，所有页面将存储到输出 TIFF 中，但可以显式指定所需的页面集合。
+        // 默认情况下，所有页面将存储到输出 TIFF，但可以显式指定所需的页面集合。
         // 仅导出第一页和第二页。
         saveOptions.getMultiPageOptions().setPages(new int[]{0, 1});
 
@@ -263,7 +263,7 @@ public String[] getPageTitles()
 
 获取或设置页面标题。
 
-值：页面标题。
+值：page titles。
 
 **Returns:**
 java.lang.String[]
@@ -275,12 +275,12 @@ public void setPageTitles(String[] value)
 
 获取或设置页面标题。
 
-值：页面标题。
+值：page titles。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] |  |
+| 值 | java.lang.String[] |  |
 
 
 **Example: This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.**
@@ -301,7 +301,7 @@ try {
 
         saveOptions.setMultiPageOptions(new com.aspose.imaging.imageoptions.DjvuMultiPageOptions());
 
-        // 默认情况下，所有页面将存储到输出 TIFF 中，但可以显式指定所需的页面集合。
+        // 默认情况下，所有页面将存储到输出 TIFF，但可以显式指定所需的页面集合。
         // 仅导出第一页和第二页。
         saveOptions.getMultiPageOptions().setPages(new int[]{0, 1});
 
@@ -420,7 +420,7 @@ public void setMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getOutputLayersNames() {#getOutputLayersNames--}
 ```
@@ -428,7 +428,7 @@ public String[] getOutputLayersNames()
 ```
 
 
-获取或设置输出图层名称（如果导出格式支持图层命名，则有效，例如 Psd）
+获取或设置输出图层名称（如果导出格式支持图层命名，例如 Psd）。
 
 值：输出图层名称。
 
@@ -440,14 +440,14 @@ public void setOutputLayersNames(String[] value)
 ```
 
 
-获取或设置输出图层名称（如果导出格式支持图层命名，则有效，例如 Psd）
+获取或设置输出图层名称（如果导出格式支持图层命名，例如 Psd）。
 
 值：输出图层名称。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] |  |
+| 值 | java.lang.String[] |  |
 
 ### getMergeLayers() {#getMergeLayers--}
 ```
@@ -455,26 +455,26 @@ public final boolean getMergeLayers()
 ```
 
 
-获取指示是否 [merge layers] 的值。
+获取指示是否[合并图层]的值。
 
-值：如果 [merge layers] 为 `true`；否则为 `false`。
+值：如果[merge layers]则为 `true`；否则为 `false`。
 
 **Returns:**
-布尔型 - 表示是否 [merge layers] 的值。
+布尔值 - 表示是否[merge layers]的值。
 ### setMergeLayers(boolean value) {#setMergeLayers-boolean-}
 ```
 public final void setMergeLayers(boolean value)
 ```
 
 
-设置指示是否 [merge layers] 的值。
+设置指示是否[合并图层]的值。
 
-值：如果 [merge layers] 为 `true`；否则为 `false`。
+值：如果[merge layers]则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 表示是否 [merge layers] 的值。 |
+| 值 | boolean | 表示是否[merge layers]的值。 |
 
 ### initPages(IntRange[] ranges) {#initPages-com.aspose.imaging.IntRange---}
 ```
@@ -482,7 +482,7 @@ public void initPages(IntRange[] ranges)
 ```
 
 
-从范围数组初始化页面
+从范围数组初始化页面。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

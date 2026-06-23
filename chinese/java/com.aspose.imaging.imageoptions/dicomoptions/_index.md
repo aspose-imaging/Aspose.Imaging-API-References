@@ -1,7 +1,7 @@
 ---
 title: "DicomOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于医学影像与通信（DICOM）光栅图像格式创建的 API 是为医疗设备应用量身定制的专用工具。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于医学数字成像与通信（DICOM）光栅图像格式创建的 API 是为医疗设备应用量身定制的专用工具。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.imageoptions/dicomoptions/
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DicomOptions extends ImageOptionsBase
 ```
 
-用于医学数字成像和通信（DICOM）栅格图像格式创建的 API 是为医疗设备应用量身定制的专用工具。它能够无缝生成 DICOM 图像，这对于存储医学数据并包含重要的标识信息至关重要。具备设置压缩、定义颜色类型以及嵌入 XMP 元数据的功能，开发者可以确保在管理医学成像用途的 DICOM 图像时实现合规性和灵活性。
+用于医学数字成像与通信 (DICOM) 光栅图像格式创建的 API 是为医疗设备应用量身定制的专用工具。它实现了 DICOM 图像的无缝生成，这对于存储医学数据并包含重要的识别信息至关重要。通过设置压缩、定义颜色类型以及嵌入 XMP 元数据等功能，开发者可以确保在医学成像场景中对 DICOM 图像的合规性和灵活性。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [DicomOptions()](#DicomOptions--) | 初始化一个新的 [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) 类实例。 |
+| [DicomOptions()](#DicomOptions--) | 初始化 [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) 类的新实例。 |
 | [DicomOptions(DicomOptions options)](#DicomOptions-com.aspose.imaging.imageoptions.DicomOptions-) |  |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCompression()](#getCompression--) | 获取压缩方式。 |
-| [setCompression(Compression value)](#setCompression-com.aspose.imaging.fileformats.dicom.Compression-) | 设置压缩方式。 |
+| [getCompression()](#getCompression--) | 获取压缩。 |
+| [setCompression(Compression value)](#setCompression-com.aspose.imaging.fileformats.dicom.Compression-) | 设置压缩。 |
 | [getColorType()](#getColorType--) | 获取颜色的类型。 |
 | [setColorType(int value)](#setColorType-int-) | 设置颜色的类型。 |
 
@@ -43,7 +43,7 @@ try(com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFileName
     image.save(outputFileNameSingleDcm, new com.aspose.imaging.imageoptions.DicomOptions());
 }
 
-// DICOM 格式支持多页图像。您可以像处理 JPEG 图像一样，将 GIF 或 TIFF 图像转换为 DICOM。
+// DICOM 格式支持多页图像。您可以像转换 JPEG 图像一样，将 GIF 或 TIFF 图像转换为 DICOM。
 try(com.aspose.imaging.Image imageMultiple = com.aspose.imaging.Image.load(inputFileNameMultipage))
 {
     imageMultiple.save(outputFileNameMultipageDcm, new com.aspose.imaging.imageoptions.DicomOptions());
@@ -80,7 +80,7 @@ try (DicomOptions dicomOptions = new DicomOptions())
             page.adjustBrightness(i * 30);
         }
 
-        // 在主页面前面添加几页，使其更亮。
+        // 在主页前面添加几页，使其更亮。
         for (int i = 1; i < 5; i++)
         {
             DicomPage page = image.insertPage(0);
@@ -175,7 +175,7 @@ public DicomOptions()
 ```
 
 
-初始化一个新的 [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) 类实例。
+初始化 [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) 类的新实例。
 
 ### DicomOptions(DicomOptions options) {#DicomOptions-com.aspose.imaging.imageoptions.DicomOptions-}
 ```
@@ -194,7 +194,7 @@ public final Compression getCompression()
 ```
 
 
-获取压缩方式。
+获取压缩。
 
 值：压缩。
 
@@ -206,7 +206,7 @@ public final void setCompression(Compression value)
 ```
 
 
-设置压缩方式。
+设置压缩。
 
 值：压缩。
 
@@ -240,7 +240,7 @@ public final void setColorType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色的类型。 |
+| 值 | int | 颜色的类型。 |
 
 
 **Example: Use JPEG compression in DICOM image.**

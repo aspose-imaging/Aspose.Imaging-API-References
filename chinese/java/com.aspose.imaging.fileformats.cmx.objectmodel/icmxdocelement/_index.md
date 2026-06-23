@@ -1,6 +1,6 @@
 ---
 title: "ICmxDocElement"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "定义 CMX 文档子元素的类型。"
 type: docs
 weight: 18

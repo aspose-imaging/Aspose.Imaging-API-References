@@ -1,6 +1,6 @@
 ---
 title: "WmfCieXyzTriple"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "CIEXYZTriple 对象定义有关 CIEXYZTriple 颜色对象的信息。"
 type: docs
 weight: 19

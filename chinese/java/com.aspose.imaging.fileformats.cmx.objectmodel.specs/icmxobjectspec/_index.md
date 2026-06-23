@@ -1,6 +1,6 @@
 ---
 title: "ICmxObjectSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图形对象的规范"
 type: docs
 weight: 18

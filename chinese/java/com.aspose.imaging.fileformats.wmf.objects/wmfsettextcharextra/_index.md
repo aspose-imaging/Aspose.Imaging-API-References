@@ -1,18 +1,18 @@
 ---
 title: "WmfSetTextCharExtra"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_SETTEXTCHAREXTRA 记录定义了在回放设备上下文中用于文本对齐的字符间距。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_SETTEXTCHAREXTRA 记录定义了在回放设备上下文中进行文本对齐的字符间距。"
 type: docs
 weight: 86
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsettextcharextra/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetTextCharExtra extends WmfObject
 ```
 
-META\_SETTEXTCHAREXTRA 记录定义了在回放设备上下文中用于文本对齐的字符间距。当输出对齐的文本行时，间距会添加到每个字符之间的空白，包括 `` 字符。
+META\_SETTEXTCHAREXTRA 记录定义了在回放设备上下文中进行文本对齐的字符间距。当输出对齐文本行时，间距会添加到每个字符之间的空白，包括 `` 字符。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -38,7 +38,7 @@ public int getCharExtra()
 
 获取或设置字符额外间距。
 
-值：要添加到每个字符的额外空间量，单位为逻辑单位。如果当前映射模式不是 MM\_TEXT，则该值会被转换并四舍五入到最近的像素。有关设置映射模式的详细信息，请参阅 META\_SETMAPMODE（第 2.3.5.17 节）。
+值：以逻辑单位表示的每个字符要添加的额外空间量。如果当前映射模式不是 MM\_TEXT，则此值会被转换并四舍五入到最近的像素。有关设置映射模式的详细信息，请参阅 META\_SETMAPMODE（章节 2.3.5.17）。
 
 **Returns:**
 int
@@ -50,10 +50,10 @@ public void setCharExtra(int value)
 
 获取或设置字符额外间距。
 
-值：要添加到每个字符的额外空间量，单位为逻辑单位。如果当前映射模式不是 MM\_TEXT，则该值会被转换并四舍五入到最近的像素。有关设置映射模式的详细信息，请参阅 META\_SETMAPMODE（第 2.3.5.17 节）。
+值：以逻辑单位表示的每个字符要添加的额外空间量。如果当前映射模式不是 MM\_TEXT，则此值会被转换并四舍五入到最近的像素。有关设置映射模式的详细信息，请参阅 META\_SETMAPMODE（章节 2.3.5.17）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

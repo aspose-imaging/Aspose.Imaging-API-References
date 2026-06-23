@@ -1,6 +1,6 @@
 ---
 title: "PenType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定 Pen 对象用于填充线条的填充类型。"
 type: docs
 weight: 83

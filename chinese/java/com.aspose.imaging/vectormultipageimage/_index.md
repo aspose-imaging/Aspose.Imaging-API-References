@@ -1,6 +1,6 @@
 ---
 title: "VectorMultipageImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "矢量多页图像"
 type: docs
 weight: 118
@@ -33,7 +33,7 @@ public abstract class VectorMultipageImage extends VectorImage implements IMulti
 | [getPageExportingAction()](#getPageExportingAction--) | 获取页面导出操作。 |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | 设置页面导出操作。 |
 | [getMetadata()](#getMetadata--) | 获取图像元数据。 |
-| [cacheData()](#cacheData--) | 缓存数据并确保不会从底层 `DataStreamSupporter.getDataStreamContainer()`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)）进行额外的数据加载。 |
+| [cacheData()](#cacheData--) | 缓存数据并确保不会从底层 `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer))加载额外的数据。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 裁剪指定的矩形。 |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整图像大小。 |
 | [rotate(float angle)](#rotate-float-) | 围绕中心旋转图像。 |
@@ -115,7 +115,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-获取页面导出操作。请注意，设置此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
+获取页面导出操作。请注意，调用此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
 
 值：页面导出操作。
 
@@ -127,7 +127,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-设置页面导出操作。请注意，设置此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
+设置页面导出操作。请注意，调用此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
 
 值：页面导出操作。
 
@@ -152,7 +152,7 @@ public void cacheData()
 ```
 
 
-缓存数据并确保不会从底层 `DataStreamSupporter.getDataStreamContainer()`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)）进行额外的数据加载。
+缓存数据并确保不会从底层 `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer))加载额外的数据。
 
 ### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
 ```

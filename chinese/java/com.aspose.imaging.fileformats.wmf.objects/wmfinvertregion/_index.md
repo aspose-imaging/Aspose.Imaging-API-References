@@ -1,18 +1,18 @@
 ---
 title: "WmfInvertRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "The META_INVERTREGION 记录绘制一个颜色被反转的区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_INVERTREGION 记录绘制一个颜色被反转的区域。"
 type: docs
 weight: 42
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfinvertregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfInvertRegion extends WmfObject
 ```
 
-该 META_INVERTREGION 记录绘制颜色被反转的区域。
+该 META\_INVERTREGION 记录绘制颜色被反转的区域。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -71,5 +71,5 @@ public void setRegionIndex(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

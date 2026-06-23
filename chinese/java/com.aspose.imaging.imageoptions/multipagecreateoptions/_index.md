@@ -1,6 +1,6 @@
 ---
 title: "MultipageCreateOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "多页创建选项"
 type: docs
 weight: 31
@@ -24,10 +24,10 @@ public class MultipageCreateOptions
 | --- | --- |
 | [getPageCount()](#getPageCount--) | 获取页面计数。 |
 | [setPageCount(int value)](#setPageCount-int-) | 设置页面计数。 |
-| [getBeforePageExport()](#getBeforePageExport--) | 获取页面导出前的内容。 |
-| [setBeforePageExport(BeforePageExportAction value)](#setBeforePageExport-com.aspose.imaging.imageoptions.BeforePageExportAction-) | 设置页面导出前的内容。 |
-| [getAfterPageExport()](#getAfterPageExport--) | 获取页面导出后的内容。 |
-| [setAfterPageExport(AfterPageExportAction value)](#setAfterPageExport-com.aspose.imaging.imageoptions.AfterPageExportAction-) | 设置页面导出后的内容。 |
+| [getBeforePageExport()](#getBeforePageExport--) | 获取导出前的页面。 |
+| [setBeforePageExport(BeforePageExportAction value)](#setBeforePageExport-com.aspose.imaging.imageoptions.BeforePageExportAction-) | 设置导出前的页面。 |
+| [getAfterPageExport()](#getAfterPageExport--) | 获取导出后的页面。 |
+| [setAfterPageExport(AfterPageExportAction value)](#setAfterPageExport-com.aspose.imaging.imageoptions.AfterPageExportAction-) | 设置导出后的页面。 |
 ### MultipageCreateOptions() {#MultipageCreateOptions--}
 ```
 public MultipageCreateOptions()
@@ -59,7 +59,7 @@ public final void setPageCount(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 页面计数。 |
+| 值 | int | 页面计数。 |
 
 ### getBeforePageExport() {#getBeforePageExport--}
 ```
@@ -67,9 +67,9 @@ public final BeforePageExportAction getBeforePageExport()
 ```
 
 
-获取页面导出前的内容。
+获取导出前的页面。
 
-值：页面导出前的内容。
+值：导出前的页面。
 
 **Returns:**
 [BeforePageExportAction](../../com.aspose.imaging.imageoptions/beforepageexportaction) - the before page export.
@@ -79,14 +79,14 @@ public final void setBeforePageExport(BeforePageExportAction value)
 ```
 
 
-设置页面导出前的内容。
+设置导出前的页面。
 
-值：页面导出前的内容。
+值：导出前的页面。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [BeforePageExportAction](../../com.aspose.imaging.imageoptions/beforepageexportaction) | 在页面导出之前。 |
+| value | [BeforePageExportAction](../../com.aspose.imaging.imageoptions/beforepageexportaction) | 导出前的页面。 |
 
 ### getAfterPageExport() {#getAfterPageExport--}
 ```
@@ -94,9 +94,9 @@ public final AfterPageExportAction getAfterPageExport()
 ```
 
 
-获取页面导出后的内容。
+获取导出后的页面。
 
-值：页面导出之后。
+值：导出后的页面。
 
 **Returns:**
 [AfterPageExportAction](../../com.aspose.imaging.imageoptions/afterpageexportaction) - the after page export.
@@ -106,12 +106,12 @@ public final void setAfterPageExport(AfterPageExportAction value)
 ```
 
 
-设置页面导出后的内容。
+设置导出后的页面。
 
-值：页面导出之后。
+值：导出后的页面。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [AfterPageExportAction](../../com.aspose.imaging.imageoptions/afterpageexportaction) | 在页面导出之后。 |
+| value | [AfterPageExportAction](../../com.aspose.imaging.imageoptions/afterpageexportaction) | 导出后的页面。 |
 

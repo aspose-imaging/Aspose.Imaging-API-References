@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetInterpolationMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusSetInterpolationMode 记录指定图像缩放（包括拉伸和收缩）的执行方式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusSetInterpolationMode 记录指定如何执行图像缩放（包括拉伸和收缩）。"
 type: docs
 weight: 60
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode/
@@ -35,7 +35,7 @@ public EmfPlusSetInterpolationMode(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getInterpolationMode() {#getInterpolationMode--}
 ```
@@ -62,5 +62,5 @@ public void setInterpolationMode(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

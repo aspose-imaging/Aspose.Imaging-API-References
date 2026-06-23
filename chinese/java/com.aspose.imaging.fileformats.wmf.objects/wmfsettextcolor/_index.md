@@ -1,13 +1,13 @@
 ---
 title: "WmfSetTextColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "设置文本颜色。"
 type: docs
 weight: 87
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetTextColor extends WmfObject
 ```
@@ -40,7 +40,7 @@ public int getColorRef()
 
 获取或设置颜色引用。
 
-值：颜色参考。
+值：颜色引用。
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public void setColorRef(int value)
 
 获取或设置颜色引用。
 
-值：颜色参考。
+值：颜色引用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getExtendedByte() {#getExtendedByte--}
 ```
@@ -84,5 +84,5 @@ public void setExtendedByte(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

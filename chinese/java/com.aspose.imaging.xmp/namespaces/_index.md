@@ -1,7 +1,7 @@
 ---
 title: "命名空间"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "包含 RDF 文档中使用的命名空间。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "包含在 RDF 文档中使用的命名空间。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.xmp/namespaces/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class Namespaces
 ```
 
-包含 RDF 文档中使用的命名空间。
+包含在 RDF 文档中使用的命名空间。
 ## 字段
 
 | 字段 | 描述 |
@@ -27,8 +27,8 @@ public final class Namespaces
 | [PDF](#PDF) | Adobe PDF 命名空间。 |
 | [PHOTOSHOP](#PHOTOSHOP) | Adobe Photoshop 命名空间。 |
 | [DICOM](#DICOM) | Dicom 命名空间。 |
-| [XMP_GRAPHICS](#XMP-GRAPHICS) | XMP graphics 命名空间。 |
-| [XMP_GRAPHICS_THUMBNAIL](#XMP-GRAPHICS-THUMBNAIL) | XMP graphics 命名空间。 |
+| [XMP_GRAPHICS](#XMP-GRAPHICS) | XMP 图形命名空间。 |
+| [XMP_GRAPHICS_THUMBNAIL](#XMP-GRAPHICS-THUMBNAIL) | XMP 图形命名空间。 |
 | [XMP_TYPE_FONT](#XMP-TYPE-FONT) | XMP 字体类型。 |
 | [XMP_TYPE_DIMENSIONS](#XMP-TYPE-DIMENSIONS) | XMP 尺寸类型。 |
 | [XMP_TYPE_RESOURCE_REF](#XMP-TYPE-RESOURCE-REF) | XMP ResourceRef URI。 |
@@ -120,7 +120,7 @@ public static final String XMP_GRAPHICS
 ```
 
 
-XMP graphics 命名空间。
+XMP 图形命名空间。
 
 ### XMP_GRAPHICS_THUMBNAIL {#XMP-GRAPHICS-THUMBNAIL}
 ```
@@ -128,7 +128,7 @@ public static final String XMP_GRAPHICS_THUMBNAIL
 ```
 
 
-XMP graphics 命名空间。
+XMP 图形命名空间。
 
 ### XMP_TYPE_FONT {#XMP-TYPE-FONT}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPenDataFlags"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PenData 标志指定图形笔的属性，包括可选数据字段的存在。"
 type: docs
 weight: 42
@@ -30,10 +30,10 @@ PenData 标志指定图形笔的属性，包括可选数据字段的存在。这
 | [PenDataDashedLineCap](#PenDataDashedLineCap) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定虚线线帽。 |
 | [PenDataDashedLineOffset](#PenDataDashedLineOffset) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定虚线偏移。 |
 | [PenDataDashedLine](#PenDataDashedLine) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定一个 [EmfPlusDashedLineData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata) 对象。 |
-| [PenDataNonCenter](#PenDataNonCenter) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定笔的对齐方式。 |
-| [PenDataCompoundLine](#PenDataCompoundLine) | 指示在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中是否存在 [EmfPlusCompoundLineData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata) 对象的长度和内容。 |
-| [PenDataCustomStartCap](#PenDataCustomStartCap) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定一个 [EmfPlusCustomStartCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata) 对象。 |
-| [PenDataCustomEndCap](#PenDataCustomEndCap) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定一个 [EmfPlusCustomEndCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata) 对象。 |
+| [PenDataNonCenter](#PenDataNonCenter) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定笔对齐。 |
+| [PenDataCompoundLine](#PenDataCompoundLine) | 指示是否在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中出现 [EmfPlusCompoundLineData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata) 对象的长度和内容。 |
+| [PenDataCustomStartCap](#PenDataCustomStartCap) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定 [EmfPlusCustomStartCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata) 对象。 |
+| [PenDataCustomEndCap](#PenDataCustomEndCap) | 指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定 [EmfPlusCustomEndCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata) 对象。 |
 ### PenDataTransform {#PenDataTransform}
 ```
 public static final int PenDataTransform
@@ -112,7 +112,7 @@ public static final int PenDataNonCenter
 ```
 
 
-指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定笔的对齐方式。
+指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定笔对齐。
 
 ### PenDataCompoundLine {#PenDataCompoundLine}
 ```
@@ -120,7 +120,7 @@ public static final int PenDataCompoundLine
 ```
 
 
-指示在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中是否存在 [EmfPlusCompoundLineData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata) 对象的长度和内容。
+指示是否在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中出现 [EmfPlusCompoundLineData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata) 对象的长度和内容。
 
 ### PenDataCustomStartCap {#PenDataCustomStartCap}
 ```
@@ -128,7 +128,7 @@ public static final int PenDataCustomStartCap
 ```
 
 
-指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定一个 [EmfPlusCustomStartCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata) 对象。
+指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定 [EmfPlusCustomStartCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata) 对象。
 
 ### PenDataCustomEndCap {#PenDataCustomEndCap}
 ```
@@ -136,5 +136,5 @@ public static final int PenDataCustomEndCap
 ```
 
 
-指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定一个 [EmfPlusCustomEndCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata) 对象。
+指示是否必须在 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) 对象的 OptionalData 字段中指定 [EmfPlusCustomEndCapData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata) 对象。
 

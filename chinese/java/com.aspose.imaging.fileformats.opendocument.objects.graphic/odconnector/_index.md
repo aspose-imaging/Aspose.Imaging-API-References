@@ -1,7 +1,7 @@
 ---
 title: "OdConnector"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "连接器"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该连接器"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/
@@ -39,7 +39,7 @@ public OdConnector(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getPathCommands() {#getPathCommands--}
 ```

@@ -1,13 +1,13 @@
 ---
 title: "BigTiffReader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "小端序 BigTiff 读取器。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging/fileformats/tiff/filemanagement/tiffstreamreader)
 ```
 public class BigTiffReader extends TiffStreamReader
 ```
@@ -17,10 +17,10 @@ public class BigTiffReader extends TiffStreamReader
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [BigTiffReader(byte[] data)](#BigTiffReader-byte---) | 初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。 |
-| [BigTiffReader(StreamContainer streamContainer)](#BigTiffReader-com.aspose.imaging.StreamContainer-) | 初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。 |
-| [BigTiffReader(byte[] data, int startIndex)](#BigTiffReader-byte---int-) | 初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。 |
-| [BigTiffReader(byte[] data, int startIndex, int dataLength)](#BigTiffReader-byte---int-int-) | 初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。 |
+| [BigTiffReader(byte[] data)](#BigTiffReader-byte---) | 初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。 |
+| [BigTiffReader(StreamContainer streamContainer)](#BigTiffReader-com.aspose.imaging.StreamContainer-) | 初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。 |
+| [BigTiffReader(byte[] data, int startIndex)](#BigTiffReader-byte---int-) | 初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。 |
+| [BigTiffReader(byte[] data, int startIndex, int dataLength)](#BigTiffReader-byte---int-int-) | 初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -32,7 +32,7 @@ public BigTiffReader(byte[] data)
 ```
 
 
-初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。
+初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -45,7 +45,7 @@ public BigTiffReader(StreamContainer streamContainer)
 ```
 
 
-初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。
+初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -58,7 +58,7 @@ public BigTiffReader(byte[] data, int startIndex)
 ```
 
 
-初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。
+初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -72,7 +72,7 @@ public BigTiffReader(byte[] data, int startIndex, int dataLength)
 ```
 
 
-初始化 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类的新实例。
+初始化一个新的 [BigTiffReader](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreader) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

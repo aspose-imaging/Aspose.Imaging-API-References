@@ -1,18 +1,18 @@
 ---
 title: "WmfRectangle"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 META_RECTANGLE 记录绘制一个矩形。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_RECTANGLE 记录绘制一个矩形。"
 type: docs
 weight: 61
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfrectangle/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfRectangle extends WmfObject
 ```
 
-该 META\_RECTANGLE 记录绘制一个矩形。该矩形使用笔进行轮廓描绘，使用在回放设备上下文中定义的画刷进行填充。
+META\_RECTANGLE 记录绘制一个矩形。该矩形使用在回放设备上下文中定义的笔进行描边，使用刷子进行填充。
 ## 构造函数
 
 | 构造函数 | 描述 |

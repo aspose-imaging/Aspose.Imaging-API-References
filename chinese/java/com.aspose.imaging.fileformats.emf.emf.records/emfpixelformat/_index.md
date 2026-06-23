@@ -1,6 +1,6 @@
 ---
 title: "EmfPixelFormat"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_PIXELFORMAT 记录指定用于图形操作的像素格式。"
 type: docs
 weight: 83
@@ -35,7 +35,7 @@ public EmfPixelFormat(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getPfd() {#getPfd--}
 ```

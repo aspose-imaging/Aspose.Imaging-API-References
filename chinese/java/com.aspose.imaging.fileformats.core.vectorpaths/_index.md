@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.fileformats.core.vectorpaths"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该包包含成像向量路径。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包包含 Imaging Vector Paths。"
 type: docs
 weight: 42
 url: /zh/java/com.aspose.imaging.fileformats.core.vectorpaths/
 ---
 
-该包包含成像向量路径。
+该包包含 Imaging Vector Paths。
 
 
 ## 类

@@ -1,7 +1,7 @@
 ---
 title: "EmfRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMF 记录的基类 所有 EMF 记录的长度必须是 4 字节的倍数。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMF 记录的基类 所有 EMF 记录的长度必须是 4 字节的整数倍。"
 type: docs
 weight: 106
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfrecord/
@@ -15,7 +15,7 @@ com.aspose.internal.fileformats.emf.IRecord
 public class EmfRecord extends MetaObject implements IRecord
 ```
 
-EMF 记录的基类。所有 EMF 记录的长度必须是 4 字节的倍数。这在前述 EMF 记录类型的通用结构中通过在适当位置的结构末尾加入 AlignmentPadding 字段来体现。AlignmentPadding 字段的内容必须始终被忽略。为简洁起见，这些字段未在每个单独的 EMF 记录定义中显示。
+EMF 记录的基类。所有 EMF 记录的长度必须是 4 字节的整数倍。这在前述 EMF 记录类型的通用结构中通过在适当位置的结构末尾包含 AlignmentPadding 字段来体现。AlignmentPadding 字段的内容必须始终被忽略。为简洁起见，这些字段未在每个单独的 EMF 记录定义中显示。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -50,7 +50,7 @@ public EmfRecord(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfRecord(int type) {#EmfRecord-int-}
 ```
@@ -86,7 +86,7 @@ public void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 类型。 |
+| 值 | int | 类型。 |
 
 ### getSize() {#getSize--}
 ```
@@ -109,5 +109,5 @@ public void setSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

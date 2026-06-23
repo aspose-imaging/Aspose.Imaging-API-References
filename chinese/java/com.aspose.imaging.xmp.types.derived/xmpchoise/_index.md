@@ -1,6 +1,6 @@
 ---
 title: "XmpChoise"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示词汇表中的一个值。"
 type: docs
 weight: 13
@@ -41,7 +41,7 @@ public boolean isOpen()
 
 获取或设置一个值，指示是否可以扩展首选值。
 
-值：`true` 表示可以扩展首选值；否则为 `false`。
+值：如果可以扩展首选值则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -53,12 +53,12 @@ public void setOpen(boolean value)
 
 获取或设置一个值，指示是否可以扩展首选值。
 
-值：`true` 表示可以扩展首选值；否则为 `false`。
+值：如果可以扩展首选值则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

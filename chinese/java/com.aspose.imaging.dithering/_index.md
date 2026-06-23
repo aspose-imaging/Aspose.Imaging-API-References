@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.dithering"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该包提供用于颜色抖动的不同辅助类。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包提供用于颜色抖动的不同帮助类。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.imaging.dithering/
 ---
 
-该包提供用于颜色抖动的不同辅助类。
+该包提供用于颜色抖动的不同帮助类。
 
 
 ## 类

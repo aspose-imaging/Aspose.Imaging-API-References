@@ -1,6 +1,6 @@
 ---
-title: "TiffDataTypes"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "Tiff 数据类型"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "tiff 数据类型枚举。"
 type: docs
 weight: 14

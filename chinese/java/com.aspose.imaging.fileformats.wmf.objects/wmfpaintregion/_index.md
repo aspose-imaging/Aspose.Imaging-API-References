@@ -1,18 +1,18 @@
 ---
 title: "WmfPaintRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "META_PAINTREGION 记录使用回放设备上下文中定义的画刷来绘制指定的区域。"
 type: docs
 weight: 51
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfpaintregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPaintRegion extends WmfObject
 ```
 
-该 META_PAINTREGION 记录使用在回放设备上下文中定义的画刷绘制指定的区域。
+该 META\_PAINTREGION 记录使用在回放设备上下文中定义的画刷绘制指定的区域。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -71,5 +71,5 @@ public void setRegionIndex(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

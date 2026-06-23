@@ -1,7 +1,7 @@
 ---
 title: "WmfOffsetViewPortOrg"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_OFFSETVIEWPORTORG 记录通过指定的水平和垂直偏移量移动回放设备上下文中的视口原点。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 META_OFFSETVIEWPORTORG 记录通过指定的水平和垂直偏移量移动播放设备上下文中的视口原点。"
 type: docs
 weight: 49
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfoffsetviewportorg/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfOffsetViewPortOrg extends WmfPointObject
 ```
 
-该 META_OFFSETVIEWPORTORG 记录按指定的水平和垂直偏移量移动回放设备上下文中的视口原点。
+该 META\_OFFSETVIEWPORTORG 记录通过指定的水平和垂直偏移量移动回放设备上下文中的视口原点。
 ## 构造函数
 
 | 构造函数 | 描述 |

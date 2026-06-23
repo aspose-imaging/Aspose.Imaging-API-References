@@ -1,7 +1,7 @@
 ---
 title: "WmfExcludeClipRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_EXCLUDECLIPRECT 记录将回放设备上下文中的剪裁区域设置为现有剪裁区域减去指定的矩形。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_EXCLUDECLIPRECT 记录将回放设备上下文中的裁剪区域设置为现有裁剪区域减去指定的矩形。"
 type: docs
 weight: 34
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfExcludeClipRect extends WmfRectangle
 ```
 
-该 META_EXCLUDECLIPRECT 记录将回放设备上下文中的裁剪区域设置为现有裁剪区域减去指定的矩形。
+该 META\_EXCLUDECLIPRECT 记录将回放设备上下文中的裁剪区域设置为现有裁剪区域减去指定的矩形。
 ## 构造函数
 
 | 构造函数 | 描述 |

@@ -1,18 +1,18 @@
 ---
 title: "TiffByteType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff byte 类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "tiff 字节类型。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffbytetype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffByteType extends TiffCommonArrayType
 ```
 
-tiff byte 类型。
+tiff 字节类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -64,7 +64,7 @@ public void setValues(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 数据。 |
+| 值 | byte[] | 数据。 |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -75,7 +75,7 @@ public System.Array getValuesContainer()
 获取值容器。
 
 **Returns:**
-com.aspose.ms.System.Array - 值容器。
+com.aspose.ms.System.Array - 值的容器。
 ### getElementSize() {#getElementSize--}
 ```
 public byte getElementSize()
@@ -85,7 +85,7 @@ public byte getElementSize()
 获取元素的字节大小。
 
 **Returns:**
-byte - 元素大小（字节）。
+byte - 元素的字节大小。
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()
@@ -117,7 +117,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 值。 |
+| 值 | java.lang.Object | 值。 |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

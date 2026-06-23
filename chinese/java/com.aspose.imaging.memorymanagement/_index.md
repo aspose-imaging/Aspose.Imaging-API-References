@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.memorymanagement"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含内存管理例程。"
 type: docs
 weight: 103

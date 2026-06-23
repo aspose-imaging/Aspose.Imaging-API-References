@@ -1,6 +1,6 @@
 ---
 title: "EmfSetMapMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETMAPMODE 记录指定回放设备上下文的映射模式。"
 type: docs
 weight: 130
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetMapMode extends EmfRecord
 ```
 
-EMR\_SETMAPMODE 记录指定回放设备上下文的映射模式。映射模式指定用于将页面空间单位转换为设备空间单位的计量单位，并且指定设备的 x 轴和 y 轴的方向。
+EMR\_SETMAPMODE 记录指定回放设备上下文的映射模式。映射模式指定用于将页面空间单位转换为设备空间单位的计量单位，并且还指定设备的 x 轴和 y 轴的方向。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -71,5 +71,5 @@ public void setMapMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

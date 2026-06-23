@@ -1,6 +1,6 @@
 ---
 title: "ExifExposureMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 曝光模式枚举。"
 type: docs
 weight: 13
@@ -19,7 +19,7 @@ exif 曝光模式枚举。
 | --- | --- |
 | [Auto](#Auto) | 自动曝光。 |
 | [Manual](#Manual) | 手动曝光。 |
-| [AutoBracket](#AutoBracket) | 自动包围。 |
+| [AutoBracket](#AutoBracket) | 自动包围曝光。 |
 ### Auto {#Auto}
 ```
 public static final int Auto
@@ -42,5 +42,5 @@ public static final int AutoBracket
 ```
 
 
-自动包围。
+自动包围曝光。
 

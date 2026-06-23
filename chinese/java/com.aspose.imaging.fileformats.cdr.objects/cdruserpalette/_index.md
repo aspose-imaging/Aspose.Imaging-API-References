@@ -1,7 +1,7 @@
 ---
 title: "CdrUserPalette"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 用户调色板"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 用户 调色板"
 type: docs
 weight: 44
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdruserpalette/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrUserPalette extends CdrObjectContainer
 ```
 
-cdr 用户调色板
+该 cdr 用户 调色板
 ## 构造函数
 
 | 构造函数 | 描述 |

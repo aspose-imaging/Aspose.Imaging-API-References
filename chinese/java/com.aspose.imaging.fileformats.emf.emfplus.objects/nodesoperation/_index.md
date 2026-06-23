@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusRegionNodeChildNodes.NodesOperation"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "节点操作"
 type: docs
 weight: 10
@@ -17,18 +17,18 @@ public static final class EmfPlusRegionNodeChildNodes.NodesOperation extends Sys
 
 | 字段 | 描述 |
 | --- | --- |
-| [And](#And) | 与运算 |
-| [Or](#Or) | 或运算 |
+| [And](#And) | 与操作 |
+| [Or](#Or) | 或操作 |
 | [Xor](#Xor) | 异或操作 |
 | [Exclude](#Exclude) | 排除操作 |
-| [Complement](#Complement) | 取反操作 |
+| [Complement](#Complement) | 补集操作 |
 ### And {#And}
 ```
 public static final int And
 ```
 
 
-与运算
+与操作
 
 ### Or {#Or}
 ```
@@ -36,7 +36,7 @@ public static final int Or
 ```
 
 
-或运算
+或操作
 
 ### Xor {#Xor}
 ```
@@ -60,5 +60,5 @@ public static final int Complement
 ```
 
 
-取反操作
+补集操作
 

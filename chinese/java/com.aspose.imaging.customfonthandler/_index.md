@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.customfonthandler"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包处理自定义字体。"
 type: docs
 weight: 18

@@ -1,7 +1,7 @@
 ---
 title: "WmfSetViewportExt"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 META_SETVIEWPORTEXT 记录设置回放设备上下文中视口的水平和垂直范围。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_SETVIEWPORTEXT 记录设置回放设备上下文中视口的水平和垂直范围。"
 type: docs
 weight: 89
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetviewportext/

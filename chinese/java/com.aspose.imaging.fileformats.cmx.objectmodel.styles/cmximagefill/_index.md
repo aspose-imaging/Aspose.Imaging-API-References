@@ -1,6 +1,6 @@
 ---
 title: "CmxImageFill"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像填充信息"
 type: docs
 weight: 13
@@ -30,18 +30,18 @@ public class CmxImageFill
 | [setTileOffsetX(float value)](#setTileOffsetX-float-) | 设置瓦片偏移 X。 |
 | [getTileOffsetY()](#getTileOffsetY--) | 获取瓦片偏移 Y。 |
 | [setTileOffsetY(float value)](#setTileOffsetY-float-) | 设置瓦片偏移 Y。 |
-| [getRcpOffset()](#getRcpOffset--) | 获取瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。 |
-| [setRcpOffset(float value)](#setRcpOffset-float-) | 设置瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。 |
+| [getRcpOffset()](#getRcpOffset--) | 获取瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int)).） |
+| [setRcpOffset(float value)](#setRcpOffset-float-) | 设置瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int)).） |
 | [getOffsetType()](#getOffsetType--) | 获取相邻瓦片之间偏移的类型。 |
 | [setOffsetType(int value)](#setOffsetType-int-) | 设置相邻瓦片之间偏移的类型。 |
 | [getPatternWidth()](#getPatternWidth--) | 获取图案的宽度。 |
 | [setPatternWidth(float value)](#setPatternWidth-float-) | 设置图案的宽度。 |
 | [getPatternHeight()](#getPatternHeight--) | 获取图案的高度。 |
 | [setPatternHeight(float value)](#setPatternHeight-float-) | 设置图案的高度。 |
-| [isRelative()](#isRelative--) | 获取一个指示模式大小值是否相对的值。 |
-| [setRelative(boolean value)](#setRelative-boolean-) | 设置一个指示模式大小值是否相对的值。 |
-| [getRotate180()](#getRotate180--) | 获取一个指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。 |
-| [setRotate180(boolean value)](#setRotate180-boolean-) | 设置一个指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。 |
+| [isRelative()](#isRelative--) | 获取一个值，指示模式大小值是否为相对的。 |
+| [setRelative(boolean value)](#setRelative-boolean-) | 设置一个值，指示模式大小值是否为相对的。 |
+| [getRotate180()](#getRotate180--) | 获取一个值，指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒。 |
+| [setRotate180(boolean value)](#setRotate180-boolean-) | 设置一个值，指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒。 |
 | [toString()](#toString--) | 返回表示此实例的字符串。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
 | [hashCode()](#hashCode--) | 获取当前对象的哈希码。 |
@@ -118,7 +118,7 @@ public final void setTileOffsetX(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 瓦片偏移 X。 |
+| 值 | float | 瓦片偏移 X。 |
 
 ### getTileOffsetY() {#getTileOffsetY--}
 ```
@@ -141,7 +141,7 @@ public final void setTileOffsetY(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 瓦片偏移 Y。 |
+| 值 | float | 瓦片偏移 Y。 |
 
 ### getRcpOffset() {#getRcpOffset--}
 ```
@@ -149,7 +149,7 @@ public final float getRcpOffset()
 ```
 
 
-获取瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。维度是高度或宽度的分数。
+获取瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。维度为高度或宽度的分数。
 
 **Returns:**
 float - 瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。
@@ -159,12 +159,12 @@ public final void setRcpOffset(float value)
 ```
 
 
-设置瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。维度是高度或宽度的分数。
+设置瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。维度为高度或宽度的分数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。 |
+| 值 | float | 瓦片行或列之间的相对偏移（取决于 `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))）。 |
 
 ### getOffsetType() {#getOffsetType--}
 ```
@@ -175,7 +175,7 @@ public final int getOffsetType()
 获取相邻瓦片之间偏移的类型。
 
 **Returns:**
-int - 相邻瓦片之间的偏移类型。
+int - 相邻瓦片之间偏移的类型。
 ### setOffsetType(int value) {#setOffsetType-int-}
 ```
 public final void setOffsetType(int value)
@@ -187,7 +187,7 @@ public final void setOffsetType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 相邻瓦片之间的偏移类型。 |
+| 值 | int | 相邻瓦片之间偏移的类型。 |
 
 ### getPatternWidth() {#getPatternWidth--}
 ```
@@ -195,7 +195,7 @@ public final float getPatternWidth()
 ```
 
 
-获取模式的宽度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位，否则其尺寸为图像像素宽度的分数。
+获取模式的宽度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位；否则其维度为图像像素宽度的分数。
 
 **Returns:**
 float - 模式的宽度。
@@ -205,12 +205,12 @@ public final void setPatternWidth(float value)
 ```
 
 
-设置模式的宽度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位，否则其尺寸为图像像素宽度的分数。
+设置模式的宽度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位；否则其维度为图像像素宽度的分数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 模式的宽度。 |
+| 值 | float | 模式的宽度。 |
 
 ### getPatternHeight() {#getPatternHeight--}
 ```
@@ -218,7 +218,7 @@ public final float getPatternHeight()
 ```
 
 
-获取模式的高度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位，否则其尺寸为图像像素高度的分数。
+获取模式的高度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位；否则其维度为图像像素高度的分数。
 
 **Returns:**
 float - 模式的高度。
@@ -228,12 +228,12 @@ public final void setPatternHeight(float value)
 ```
 
 
-设置模式的高度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位，否则其尺寸为图像像素高度的分数。
+设置模式的高度。如果 `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) 为 `false`，则使用通用文档距离度量单位；否则其维度为图像像素高度的分数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 模式的高度。 |
+| 值 | float | 模式的高度。 |
 
 ### isRelative() {#isRelative--}
 ```
@@ -241,7 +241,7 @@ public final boolean isRelative()
 ```
 
 
-获取一个指示模式大小值是否相对的值。
+获取一个值，指示模式大小值是否为相对的。
 
 **Returns:**
 boolean
@@ -251,12 +251,12 @@ public final void setRelative(boolean value)
 ```
 
 
-设置一个指示模式大小值是否相对的值。
+设置一个值，指示模式大小值是否为相对的。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getRotate180() {#getRotate180--}
 ```
@@ -264,26 +264,26 @@ public final boolean getRotate180()
 ```
 
 
-获取一个指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。
+获取一个值，指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒。
 
-值：如果图像是颠倒的则为 `true`；否则为 `false`。
+值：`true` 表示图像是颠倒的；否则为 `false`。
 
 **Returns:**
-布尔型 - 表示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。
+boolean - 一个指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。
 ### setRotate180(boolean value) {#setRotate180-boolean-}
 ```
 public final void setRotate180(boolean value)
 ```
 
 
-设置一个指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。
+设置一个值，指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒。
 
-值：如果图像是颠倒的则为 `true`；否则为 `false`。
+值：`true` 表示图像是颠倒的；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。 |
+| value | boolean | 一个指示此 [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) 是否颠倒的值。 |
 
 ### toString() {#toString--}
 ```

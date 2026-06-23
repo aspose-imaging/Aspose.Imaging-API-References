@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.xmp.types.derived"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含表示 XMP 属性派生类型值的类。"
 type: docs
 weight: 132

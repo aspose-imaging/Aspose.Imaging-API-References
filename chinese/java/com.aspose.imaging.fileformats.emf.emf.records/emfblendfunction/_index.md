@@ -1,7 +1,7 @@
 ---
 title: "EmfBlendFunction"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定源位图和目标位图混合操作的结构。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "一个结构，指定源位图和目标位图的混合操作。"
 type: docs
 weight: 18
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class EmfBlendFunction extends Struct<EmfBlendFunction>
 ```
 
-指定源位图和目标位图混合操作的结构。
+一个结构，指定源位图和目标位图的混合操作。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,9 +23,9 @@ public class EmfBlendFunction extends Struct<EmfBlendFunction>
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBlendOperation()](#getBlendOperation--) | 获取混合操作码。 |
+| [getBlendOperation()](#getBlendOperation--) | 获取混合操作代码。 |
 | [getBlendFlags()](#getBlendFlags--) | 获取混合标志。 |
-| [getSrcConstantAlpha()](#getSrcConstantAlpha--) | 获取一个 8 位无符号整数，指定 alpha 透明度，该透明度决定源位图和目标位图的混合方式。 |
+| [getSrcConstantAlpha()](#getSrcConstantAlpha--) | 获取一个 8 位无符号整数，指定 alpha 透明度，该透明度决定源位图和目标位图的混合。 |
 | [getAlphaFormat()](#getAlphaFormat--) | 获取一个结构，指定在 alpha 透明度方面源像素和目标像素的解释方式。 |
 | [toInt()](#toInt--) | 将数字的字符串表示转换为整数。 |
 | [CloneTo(EmfBlendFunction that)](#CloneTo-com.aspose.imaging.fileformats.emf.emf.records.EmfBlendFunction-) |  |
@@ -50,7 +50,7 @@ public EmfBlendFunction(int dwordData)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dwordData | int | dword 数据。 |
+| dwordData | int | 该 dword 数据。 |
 
 ### getBlendOperation() {#getBlendOperation--}
 ```
@@ -58,7 +58,7 @@ public byte getBlendOperation()
 ```
 
 
-获取混合操作码。唯一已定义的源和目标混合操作是 0x00，它指定必须根据源像素的 alpha 透明度值将源位图与目标位图合并。详细信息请参见以下公式。
+获取混合操作代码。已定义的唯一源和目标混合操作是 0x00，该操作指定必须根据源像素的 alpha 透明度值将源位图与目标位图合并。有关详细信息，请参见以下公式。
 
 **Returns:**
 byte
@@ -68,7 +68,7 @@ public byte getBlendFlags()
 ```
 
 
-获取混合标志。此值必须为 0x00，且必须被忽略。
+获取混合标志。该值必须为 0x00，且必须被忽略。
 
 **Returns:**
 byte
@@ -78,7 +78,7 @@ public byte getSrcConstantAlpha()
 ```
 
 
-获取一个 8 位无符号整数，指定 alpha 透明度，该透明度决定源位图和目标位图的混合方式。此值必须用于整个源位图。最小的 alpha 透明度值 0 表示完全透明，最大值 0xFF 表示完全不透明。实际上，0xFF 的值表示每像素的 alpha 值决定源位图和目标位图的混合。详细信息请参见本节后面的公式。
+获取一个 8 位无符号整数，指定 alpha 透明度，决定源位图和目标位图的混合。此值必须用于整个源位图。最小的 alpha 透明度值 0 表示完全透明，最大值 0xFF 表示完全不透明。实际上，0xFF 的值表示每像素的 alpha 值决定源位图和目标位图的混合。有关详细信息，请参见本节后面的公式。
 
 **Returns:**
 byte

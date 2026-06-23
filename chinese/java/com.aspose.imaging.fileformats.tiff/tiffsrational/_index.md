@@ -1,7 +1,7 @@
 ---
 title: "TiffSRational"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff 有理数类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "TIFF 有理数类型。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.tiff/tiffsrational/
@@ -12,7 +12,7 @@ java.lang.Object
 public class TiffSRational
 ```
 
-tiff 有理数类型。
+TIFF 有理数类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -59,7 +59,7 @@ public TiffSRational(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 分子值。 |
+| 值 | int | 分子值。 |
 
 ### TiffSRational(int nominator, int denominator) {#TiffSRational-int-int-}
 ```
@@ -94,8 +94,8 @@ public static TiffSRational approximateFraction(double value, double epsilon)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 值。 |
-| epsilon | double | 允许的误差。 |
+| 值 | double | 值。 |
+| ε | double | 允许的误差。 |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `epsilon`.
@@ -110,7 +110,7 @@ public static TiffSRational approximateFraction(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 值。 |
+| 值 | double | 值。 |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `Epsilon`.
@@ -125,8 +125,8 @@ public static TiffSRational approximateFraction(float value, double epsilon)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 值。 |
-| epsilon | double | 允许的误差。 |
+| 值 | float | 值。 |
+| ε | double | 允许的误差。 |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `epsilon`.
@@ -141,7 +141,7 @@ public static TiffSRational approximateFraction(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 值。 |
+| 值 | float | 值。 |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `Epsilon`.
@@ -177,7 +177,7 @@ public float getValue()
 
 获取 float 值。
 
-值：float 值。
+值：浮点值。
 
 **Returns:**
 float
@@ -217,7 +217,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于与此实例比较的 `Object`。 |
 
 **Returns:**
-布尔值 - 如果指定的 `Object` 等于此实例则为 `true`；否则为 `false`。
+布尔值 - 如果指定的 `Object` 等于此实例，则为 `true`；否则为 `false`。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

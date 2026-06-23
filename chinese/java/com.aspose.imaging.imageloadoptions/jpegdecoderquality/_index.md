@@ -1,6 +1,6 @@
 ---
 title: "JpegDecoderQuality"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Jpeg 解码器质量"
 type: docs
 weight: 14

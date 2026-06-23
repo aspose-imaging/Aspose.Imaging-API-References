@@ -1,7 +1,7 @@
 ---
 title: "CdrStyd"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 样式"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 样式"
 type: docs
 weight: 39
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrstyd/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrStyd extends CdrObjectContainer
 ```
 
-cdr 样式
+该 cdr 样式
 ## 构造函数
 
 | 构造函数 | 描述 |

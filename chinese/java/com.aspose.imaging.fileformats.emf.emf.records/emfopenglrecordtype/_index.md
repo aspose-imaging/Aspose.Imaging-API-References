@@ -1,6 +1,6 @@
 ---
 title: "EmfOpenGlRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "OpenGL 记录类型指定 OpenGL 函数。"
 type: docs
 weight: 79

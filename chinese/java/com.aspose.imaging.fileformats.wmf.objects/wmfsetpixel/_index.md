@@ -1,7 +1,7 @@
 ---
 title: "WmfSetPixel"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_SETPIXEL 记录将指定坐标处的像素设置为指定的颜色。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_SETPIXEL 记录将指定坐标处的像素设置为指定颜色。"
 type: docs
 weight: 80
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetpixel/
@@ -38,7 +38,7 @@ public int getColorRef()
 
 获取或设置颜色引用。
 
-值：颜色参考。
+值：颜色引用。
 
 **Returns:**
 int
@@ -50,10 +50,10 @@ public void setColorRef(int value)
 
 获取或设置颜色引用。
 
-值：颜色参考。
+值：颜色引用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

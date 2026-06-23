@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetCompositingQuality"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 EmfPlusSetCompositingQuality 记录指定从多个对象创建复合图像的期望质量水平。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusSetCompositingQuality 记录指定从多个对象创建复合图像所需的质量水平。"
 type: docs
 weight: 59
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetCompositingQuality extends EmfPlusPropertyRecordType
 ```
 
-该 EmfPlusSetCompositingQuality 记录指定从多个对象创建复合图像的期望质量水平。
+该 EmfPlusSetCompositingQuality 记录指定从多个对象创建复合图像所需的质量水平。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -35,7 +35,7 @@ public EmfPlusSetCompositingQuality(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCompositingQuality() {#getCompositingQuality--}
 ```
@@ -62,5 +62,5 @@ public void setCompositingQuality(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

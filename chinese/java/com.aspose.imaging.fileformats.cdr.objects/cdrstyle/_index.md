@@ -1,7 +1,7 @@
 ---
 title: "CdrStyle"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 样式"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 样式"
 type: docs
 weight: 40
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrstyle/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrStyle extends CdrDictionaryItem
 ```
 
-cdr 样式
+该 cdr 样式
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,8 +26,8 @@ cdr 样式
 | [setFontName(String value)](#setFontName-java.lang.String-) | 设置字体名称。 |
 | [getCharset()](#getCharset--) | 获取字符集。 |
 | [setCharset(short value)](#setCharset-short-) | 设置字符集。 |
-| [getFontSize()](#getFontSize--) | 获取字体大小。 |
-| [setFontSize(double value)](#setFontSize-double-) | 设置字体大小。 |
+| [getFontSize()](#getFontSize--) | 获取字体的大小。 |
+| [setFontSize(double value)](#setFontSize-double-) | 设置字体的大小。 |
 | [getFontWeight()](#getFontWeight--) | 获取字体粗细。 |
 | [setFontWeight(int value)](#setFontWeight-int-) | 设置字体粗细。 |
 | [getFill()](#getFill--) | 获取填充。 |
@@ -72,7 +72,7 @@ public final void setFontName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 字体的名称。 |
+| 值 | java.lang.String | 字体的名称。 |
 
 ### getCharset() {#getCharset--}
 ```
@@ -95,7 +95,7 @@ public final void setCharset(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 字符集。 |
+| 值 | 短 | 字符集。 |
 
 ### getFontSize() {#getFontSize--}
 ```
@@ -103,22 +103,22 @@ public final double getFontSize()
 ```
 
 
-获取字体大小。
+获取字体的大小。
 
 **Returns:**
-double - 字体大小。
+double - 字体的大小。
 ### setFontSize(double value) {#setFontSize-double-}
 ```
 public final void setFontSize(double value)
 ```
 
 
-设置字体大小。
+设置字体的大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 字体大小。 |
+| 值 | double | 字体的大小。 |
 
 ### getFontWeight() {#getFontWeight--}
 ```
@@ -141,7 +141,7 @@ public final void setFontWeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 字体粗细。 |
+| 值 | int | 字体粗细。 |
 
 ### getFill() {#getFill--}
 ```
@@ -210,7 +210,7 @@ public final void setAlign(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 对齐方式。 |
+| 值 | int | 对齐方式。 |
 
 ### getRightIndent() {#getRightIndent--}
 ```
@@ -233,7 +233,7 @@ public final void setRightIndent(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 右缩进。 |
+| 值 | double | 右缩进。 |
 
 ### getFirstIndent() {#getFirstIndent--}
 ```
@@ -244,7 +244,7 @@ public final double getFirstIndent()
 获取首行缩进。
 
 **Returns:**
-double - 第一个缩进。
+double - 首行缩进。
 ### setFirstIndent(double value) {#setFirstIndent-double-}
 ```
 public final void setFirstIndent(double value)
@@ -256,7 +256,7 @@ public final void setFirstIndent(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 第一个缩进。 |
+| 值 | double | 首行缩进。 |
 
 ### getLeftIndent() {#getLeftIndent--}
 ```
@@ -267,7 +267,7 @@ public final double getLeftIndent()
 获取左缩进。
 
 **Returns:**
-double - 左侧缩进。
+double - 左缩进。
 ### setLeftIndent(double value) {#setLeftIndent-double-}
 ```
 public final void setLeftIndent(double value)
@@ -279,7 +279,7 @@ public final void setLeftIndent(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 左侧缩进。 |
+| 值 | double | 左缩进。 |
 
 ### getParentId() {#getParentId--}
 ```
@@ -302,7 +302,7 @@ public final void setParentId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 父标识符。 |
+| 值 | int | 父标识符。 |
 
 ### copy() {#copy--}
 ```

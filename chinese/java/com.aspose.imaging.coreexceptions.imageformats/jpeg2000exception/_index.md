@@ -1,6 +1,6 @@
 ---
 title: "Jpeg2000Exception"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Jpeg 文件的异常"
 type: docs
 weight: 15
@@ -30,7 +30,7 @@ public Jpeg2000Exception(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### Jpeg2000Exception(String message, Throwable innerException) {#Jpeg2000Exception-java.lang.String-java.lang.Throwable-}
 ```
@@ -43,6 +43,6 @@ public Jpeg2000Exception(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

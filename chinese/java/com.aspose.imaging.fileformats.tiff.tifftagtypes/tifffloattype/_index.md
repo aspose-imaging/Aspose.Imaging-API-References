@@ -1,13 +1,13 @@
 ---
 title: "TiffFloatType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "tiff float 类型。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffFloatType extends TiffCommonArrayType
 ```
@@ -52,7 +52,7 @@ public float[] getValues()
 获取值。
 
 **Returns:**
-float[] - 这些值。
+float[] - 值。
 ### setValues(float[] value) {#setValues-float---}
 ```
 public void setValues(float[] value)
@@ -64,7 +64,7 @@ public void setValues(float[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float[] | 值。 |
+| 值 | float[] | 这些值。 |
 
 ### getElementSize() {#getElementSize--}
 ```
@@ -75,7 +75,7 @@ public byte getElementSize()
 获取元素的字节大小。
 
 **Returns:**
-byte - 元素大小（字节）。
+byte - 元素的字节大小。
 ### getValuesContainer() {#getValuesContainer--}
 ```
 public System.Array getValuesContainer()
@@ -85,7 +85,7 @@ public System.Array getValuesContainer()
 获取值容器。
 
 **Returns:**
-com.aspose.ms.System.Array - 值容器。
+com.aspose.ms.System.Array - 值的容器。
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()
@@ -117,7 +117,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 值。 |
+| 值 | java.lang.Object | 值。 |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

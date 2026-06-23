@@ -1,7 +1,7 @@
 ---
 title: "EmfFrameRgn"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_FRAMERGN 记录使用指定的画刷在指定的区域周围绘制边框。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_FRAMERGN 记录使用指定的画刷在指定区域周围绘制边框。"
 type: docs
 weight: 62
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfframergn/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfFrameRgn extends EmfDrawingRecordType
 ```
 
-EMR_FRAMERGN 记录使用指定的画刷在指定区域周围绘制边框。
+EMR\_FRAMERGN 记录使用指定的画刷在指定区域周围绘制边框。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,16 +25,16 @@ EMR_FRAMERGN 记录使用指定的画刷在指定区域周围绘制边框。
 | --- | --- |
 | [getBounds()](#getBounds--) | 获取或设置 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定边界矩形。 |
 | [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 获取或设置 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定边界矩形。 |
-| [getRgnDataSize()](#getRgnDataSize--) | 获取或设置一个指定区域数据大小（以字节为单位）的 32 位无符号整数。 |
-| [setRgnDataSize(int value)](#setRgnDataSize-int-) | 获取或设置一个指定区域数据大小（以字节为单位）的 32 位无符号整数。 |
-| [getIhBrush()](#getIhBrush--) | 获取或设置一个 32 位无符号整数，该整数指定画刷 EMF 对象表索引。 |
-| [setIhBrush(int value)](#setIhBrush-int-) | 获取或设置一个 32 位无符号整数，该整数指定画刷 EMF 对象表索引。 |
-| [getWidth()](#getWidth--) | 获取或设置一个 32 位有符号整数，该整数指定垂直画刷笔画的宽度（逻辑单位）。 |
-| [setWidth(int value)](#setWidth-int-) | 获取或设置一个 32 位有符号整数，该整数指定垂直画刷笔画的宽度（逻辑单位）。 |
-| [getHeight()](#getHeight--) | 获取或设置一个 32 位有符号整数，该整数指定水平画刷笔画的高度（逻辑单位）。 |
-| [setHeight(int value)](#setHeight-int-) | 获取或设置一个 32 位有符号整数，该整数指定水平画刷笔画的高度（逻辑单位）。 |
-| [getRgnData()](#getRgnData--) | 获取或设置一个 RgnDataSize 长度的字节数组，该数组指定逻辑单位中的 RegionData 对象 |
-| [setRgnData(EmfRegionData value)](#setRgnData-com.aspose.imaging.fileformats.emf.emf.objects.EmfRegionData-) | 获取或设置一个 RgnDataSize 长度的字节数组，该数组指定逻辑单位中的 RegionData 对象 |
+| [getRgnDataSize()](#getRgnDataSize--) | 获取或设置一个 32 位无符号整数，指定区域数据的大小（以字节为单位）。 |
+| [setRgnDataSize(int value)](#setRgnDataSize-int-) | 获取或设置一个 32 位无符号整数，指定区域数据的大小（以字节为单位）。 |
+| [getIhBrush()](#getIhBrush--) | 获取或设置指定画刷 EMF 对象表索引的 32 位无符号整数。 |
+| [setIhBrush(int value)](#setIhBrush-int-) | 获取或设置指定画刷 EMF 对象表索引的 32 位无符号整数。 |
+| [getWidth()](#getWidth--) | 获取或设置以逻辑单位表示的垂直画刷笔画宽度的 32 位有符号整数。 |
+| [setWidth(int value)](#setWidth-int-) | 获取或设置以逻辑单位表示的垂直画刷笔画宽度的 32 位有符号整数。 |
+| [getHeight()](#getHeight--) | 获取或设置以逻辑单位表示的水平画刷笔画高度的 32 位有符号整数。 |
+| [setHeight(int value)](#setHeight-int-) | 获取或设置以逻辑单位表示的水平画刷笔画高度的 32 位有符号整数。 |
+| [getRgnData()](#getRgnData--) | 获取或设置指定 RegionData 对象的 RgnDataSize 长度字节数组，以逻辑单位表示。 |
+| [setRgnData(EmfRegionData value)](#setRgnData-com.aspose.imaging.fileformats.emf.emf.objects.EmfRegionData-) | 获取或设置指定 RegionData 对象的 RgnDataSize 长度字节数组，以逻辑单位表示。 |
 ### EmfFrameRgn(EmfRecord source) {#EmfFrameRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfFrameRgn(EmfRecord source)
@@ -46,7 +46,7 @@ public EmfFrameRgn(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfFrameRgn() {#EmfFrameRgn--}
 ```
@@ -85,7 +85,7 @@ public int getRgnDataSize()
 ```
 
 
-获取或设置一个指定区域数据大小（以字节为单位）的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定区域数据的大小（以字节为单位）。
 
 **Returns:**
 int
@@ -95,12 +95,12 @@ public void setRgnDataSize(int value)
 ```
 
 
-获取或设置一个指定区域数据大小（以字节为单位）的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定区域数据的大小（以字节为单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getIhBrush() {#getIhBrush--}
 ```
@@ -108,7 +108,7 @@ public int getIhBrush()
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数指定画刷 EMF 对象表索引。
+获取或设置指定画刷 EMF 对象表索引的 32 位无符号整数。
 
 **Returns:**
 int
@@ -118,12 +118,12 @@ public void setIhBrush(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数指定画刷 EMF 对象表索引。
+获取或设置指定画刷 EMF 对象表索引的 32 位无符号整数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -131,7 +131,7 @@ public int getWidth()
 ```
 
 
-获取或设置一个 32 位有符号整数，该整数指定垂直画刷笔画的宽度（逻辑单位）。
+获取或设置以逻辑单位表示的垂直画刷笔画宽度的 32 位有符号整数。
 
 **Returns:**
 int
@@ -141,12 +141,12 @@ public void setWidth(int value)
 ```
 
 
-获取或设置一个 32 位有符号整数，该整数指定垂直画刷笔画的宽度（逻辑单位）。
+获取或设置以逻辑单位表示的垂直画刷笔画宽度的 32 位有符号整数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -154,7 +154,7 @@ public int getHeight()
 ```
 
 
-获取或设置一个 32 位有符号整数，该整数指定水平画刷笔画的高度（逻辑单位）。
+获取或设置以逻辑单位表示的水平画刷笔画高度的 32 位有符号整数。
 
 **Returns:**
 int
@@ -164,12 +164,12 @@ public void setHeight(int value)
 ```
 
 
-获取或设置一个 32 位有符号整数，该整数指定水平画刷笔画的高度（逻辑单位）。
+获取或设置以逻辑单位表示的水平画刷笔画高度的 32 位有符号整数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRgnData() {#getRgnData--}
 ```
@@ -177,7 +177,7 @@ public EmfRegionData getRgnData()
 ```
 
 
-获取或设置一个 RgnDataSize 长度的字节数组，该数组指定逻辑单位中的 RegionData 对象
+获取或设置指定 RegionData 对象的 RgnDataSize 长度字节数组，以逻辑单位表示。
 
 **Returns:**
 [EmfRegionData](../../com.aspose.imaging.fileformats.emf.emf.objects/emfregiondata)
@@ -187,7 +187,7 @@ public void setRgnData(EmfRegionData value)
 ```
 
 
-获取或设置一个 RgnDataSize 长度的字节数组，该数组指定逻辑单位中的 RegionData 对象
+获取或设置指定 RegionData 对象的 RgnDataSize 长度字节数组，以逻辑单位表示。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

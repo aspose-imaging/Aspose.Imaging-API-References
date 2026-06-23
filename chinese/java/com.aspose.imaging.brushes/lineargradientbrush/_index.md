@@ -1,7 +1,7 @@
 ---
 title: "LinearGradientBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "封装一个 Aspose.Imaging.Brush，具有线性渐变。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "封装了一个带有线性渐变的 Aspose.Imaging.Brush。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.brushes/lineargradientbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class LinearGradientBrush extends LinearGradientBrushBase
 ```
 
-封装一个 `Aspose.Imaging.Brush`，具有线性渐变。此类不可被继承。
+封装了一个 `Aspose.Imaging.Brush`，具有线性渐变。此类不可被继承。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -30,18 +30,18 @@ public final class LinearGradientBrush extends LinearGradientBrushBase
 | --- | --- |
 | [getInterpolationColors()](#getInterpolationColors--) | 获取定义多色线性渐变的 `com.aspose.imaging.ColorBlend`。 |
 | [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | 设置定义多色线性渐变的 `com.aspose.imaging.ColorBlend`。 |
-| [getLinearColors()](#getLinearColors--) | 获取渐变的起始颜色和结束颜色。 |
-| [setLinearColors(Color[] value)](#setLinearColors-com.aspose.imaging.Color---) | 设置渐变的起始颜色和结束颜色。 |
+| [getLinearColors()](#getLinearColors--) | 获取渐变的起始和结束颜色。 |
+| [setLinearColors(Color[] value)](#setLinearColors-com.aspose.imaging.Color---) | 设置渐变的起始和结束颜色。 |
 | [getStartColor()](#getStartColor--) | 获取起始渐变颜色。 |
 | [setStartColor(Color value)](#setStartColor-com.aspose.imaging.Color-) | 设置起始渐变颜色。 |
 | [getEndColor()](#getEndColor--) | 获取结束渐变颜色。 |
 | [setEndColor(Color value)](#setEndColor-com.aspose.imaging.Color-) | 设置结束渐变颜色。 |
-| [getBlend()](#getBlend--) | 获取一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。 |
-| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | 设置一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。 |
+| [getBlend()](#getBlend--) | 获取一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。 |
+| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | 设置一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。 |
 | [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | 创建基于钟形曲线的渐变衰减。 |
 | [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | 创建基于钟形曲线的渐变衰减。 |
-| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | 创建具有中心颜色的线性渐变，并在两端线性衰减至单一颜色。 |
-| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | 创建具有中心颜色的线性渐变，并在两端线性衰减至单一颜色。 |
+| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | 创建具有中心颜色并在两端线性衰减到单一颜色的线性渐变。 |
+| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | 创建具有中心颜色并在两端线性衰减到单一颜色的线性渐变。 |
 ### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
 ```
 public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)
@@ -54,9 +54,9 @@ public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float an
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | rect | [RectangleF](../../com.aspose.imaging/rectanglef) | 矩形。 |
-| color1 | [Color](../../com.aspose.imaging/color) | 颜色1。 |
-| color2 | [Color](../../com.aspose.imaging/color) | 颜色2。 |
-| angle | float | 该角度。 |
+| color1 | [Color](../../com.aspose.imaging/color) | color1。 |
+| color2 | [Color](../../com.aspose.imaging/color) | color2。 |
+| angle | float | 角度。 |
 | isAngleScalable | boolean | 如果设置为 `true` [is angle scalable]。 |
 
 ### LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
@@ -71,9 +71,9 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 矩形。 |
-| color1 | [Color](../../com.aspose.imaging/color) | 颜色1。 |
-| color2 | [Color](../../com.aspose.imaging/color) | 颜色2。 |
-| angle | float | 该角度。 |
+| color1 | [Color](../../com.aspose.imaging/color) | color1。 |
+| color2 | [Color](../../com.aspose.imaging/color) | color2。 |
+| angle | float | 角度。 |
 | isAngleScalable | boolean | 如果设置为 `true` [is angle scalable]。 |
 
 ### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
@@ -88,9 +88,9 @@ public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float an
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | rect | [RectangleF](../../com.aspose.imaging/rectanglef) | 矩形。 |
-| color1 | [Color](../../com.aspose.imaging/color) | 颜色1。 |
-| color2 | [Color](../../com.aspose.imaging/color) | 颜色2。 |
-| angle | float | 该角度。 |
+| color1 | [Color](../../com.aspose.imaging/color) | color1。 |
+| color2 | [Color](../../com.aspose.imaging/color) | color2。 |
+| angle | float | 角度。 |
 
 ### LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
 ```
@@ -104,9 +104,9 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 矩形。 |
-| color1 | [Color](../../com.aspose.imaging/color) | 颜色1。 |
-| color2 | [Color](../../com.aspose.imaging/color) | 颜色2。 |
-| angle | float | 该角度。 |
+| color1 | [Color](../../com.aspose.imaging/color) | color1。 |
+| color2 | [Color](../../com.aspose.imaging/color) | color2。 |
+| angle | float | 角度。 |
 
 ### LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2) {#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-}
 ```
@@ -121,8 +121,8 @@ public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color col
 | --- | --- | --- |
 | point1 | [PointF](../../com.aspose.imaging/pointf) | 点1。 |
 | point2 | [PointF](../../com.aspose.imaging/pointf) | 点2。 |
-| color1 | [Color](../../com.aspose.imaging/color) | 颜色1。 |
-| color2 | [Color](../../com.aspose.imaging/color) | 颜色2。 |
+| color1 | [Color](../../com.aspose.imaging/color) | color1。 |
+| color2 | [Color](../../com.aspose.imaging/color) | color2。 |
 
 ### LinearGradientBrush(Point point1, Point point2, Color color1, Color color2) {#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-}
 ```
@@ -137,8 +137,8 @@ public LinearGradientBrush(Point point1, Point point2, Color color1, Color color
 | --- | --- | --- |
 | point1 | [Point](../../com.aspose.imaging/point) | 点1。 |
 | point2 | [Point](../../com.aspose.imaging/point) | 点2。 |
-| color1 | [Color](../../com.aspose.imaging/color) | 颜色1。 |
-| color2 | [Color](../../com.aspose.imaging/color) | 颜色2。 |
+| color1 | [Color](../../com.aspose.imaging/color) | color1。 |
+| color2 | [Color](../../com.aspose.imaging/color) | color2。 |
 
 ### LinearGradientBrush() {#LinearGradientBrush--}
 ```
@@ -177,22 +177,22 @@ public Color[] getLinearColors()
 ```
 
 
-获取渐变的起始颜色和结束颜色。
+获取渐变的起始和结束颜色。
 
 **Returns:**
-com.aspose.imaging.Color[] - 一个包含两个 `Color` 结构的数组，表示渐变的起始颜色和结束颜色。
+com.aspose.imaging.Color[] - 表示渐变起始和结束颜色的两个 `Color` 结构的数组。
 ### setLinearColors(Color[] value) {#setLinearColors-com.aspose.imaging.Color---}
 ```
 public void setLinearColors(Color[] value)
 ```
 
 
-设置渐变的起始颜色和结束颜色。
+设置渐变的起始和结束颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Color\[\]](../../com.aspose.imaging/color) | 一个包含两个 `Color` 结构的数组，表示渐变的起始颜色和结束颜色。 |
+| value | [Color\[\]](../../com.aspose.imaging/color) | 表示渐变起始和结束颜色的两个 `Color` 结构的数组。 |
 
 ### getStartColor() {#getStartColor--}
 ```
@@ -246,7 +246,7 @@ public Blend getBlend()
 ```
 
 
-获取一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。
+获取一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。
 
 **Returns:**
 [Blend](../../com.aspose.imaging/blend) - A `Aspose.Imaging.Blend` that represents a custom falloff for the gradient.
@@ -256,7 +256,7 @@ public void setBlend(Blend value)
 ```
 
 
-设置一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。
+设置一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -274,7 +274,7 @@ public void setSigmaBellShape(float focus)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 一个介于 0 到 1 之间的值，指定渐变的中心（起始颜色和结束颜色等比例混合的点）。 |
+| focus | float | 一个取值范围为 0 到 1 的值，指定渐变的中心（起始颜色和结束颜色等比例混合的点）。 |
 
 ### setSigmaBellShape(float focus, float scale) {#setSigmaBellShape-float-float-}
 ```
@@ -287,8 +287,8 @@ public void setSigmaBellShape(float focus, float scale)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 一个介于 0 到 1 之间的值，指定渐变的中心（仅由结束颜色组成的点）。 |
-| 比例 | float | 一个介于 0 到 1 之间的值，指定颜色从 `focus` 衰减的速度。 |
+| focus | float | 一个取值范围为 0 到 1 的值，指定渐变的中心（仅由结束颜色组成的点）。 |
+| scale | float | 一个取值范围为 0 到 1 的值，指定颜色从 `focus` 衰减的速度。 |
 
 ### setBlendTriangularShape(float focus) {#setBlendTriangularShape-float-}
 ```
@@ -296,12 +296,12 @@ public void setBlendTriangularShape(float focus)
 ```
 
 
-创建具有中心颜色的线性渐变，并在两端线性衰减至单一颜色。
+创建具有中心颜色并在两端线性衰减到单一颜色的线性渐变。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 一个介于 0 到 1 之间的值，指定渐变的中心（仅由结束颜色组成的点）。 |
+| focus | float | 一个取值范围为 0 到 1 的值，指定渐变的中心（仅由结束颜色组成的点）。 |
 
 ### setBlendTriangularShape(float focus, float scale) {#setBlendTriangularShape-float-float-}
 ```
@@ -309,11 +309,11 @@ public void setBlendTriangularShape(float focus, float scale)
 ```
 
 
-创建具有中心颜色的线性渐变，并在两端线性衰减至单一颜色。
+创建具有中心颜色并在两端线性衰减到单一颜色的线性渐变。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 一个介于 0 到 1 之间的值，指定渐变的中心（仅由结束颜色组成的点）。 |
-| 比例 | float | 一个介于 0 到 1 之间的值，指定颜色从起始颜色到 `focus`（结束颜色）的衰减速度。 |
+| focus | float | 一个取值范围为 0 到 1 的值，指定渐变的中心（仅由结束颜色组成的点）。 |
+| scale | float | 一个取值范围为 0 到 1 的值，指定颜色从起始颜色到 `focus`（结束颜色）的衰减速度。 |
 

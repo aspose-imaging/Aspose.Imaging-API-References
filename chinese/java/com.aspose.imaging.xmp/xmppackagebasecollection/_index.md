@@ -1,6 +1,6 @@
 ---
 title: "XmpPackageBaseCollection"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XmpPackage 的集合。"
 type: docs
 weight: 20
@@ -28,9 +28,9 @@ public final class XmpPackageBaseCollection implements System.Collections.Generi
 | [getCount()](#getCount--) | 获取集合中元素的数量。 |
 | [add(XmpPackage package_)](#add-com.aspose.imaging.xmp.XmpPackage-) | 添加 `XmpPackage` 的新实例。 |
 | [remove(XmpPackage package_)](#remove-com.aspose.imaging.xmp.XmpPackage-) | 移除指定的 XMP 包。 |
-| [getPackages()](#getPackages--) | 获取 `XmpPackage` 数组。 |
+| [getPackages()](#getPackages--) | 获取 `XmpPackage` 的数组。 |
 | [getPackage(String namespaceUri)](#getPackage-java.lang.String-) | 通过其 namespaceURI 获取 `XmpPackage`。 |
-| [clear()](#clear--) | 清除集合中所有 `XmpPackage`。 |
+| [clear()](#clear--) | 清除集合中的所有 `XmpPackage`。 |
 | [iterator()](#iterator--) | 返回一个遍历集合的枚举器。 |
 ### XmpPackageBaseCollection() {#XmpPackageBaseCollection--}
 ```
@@ -76,7 +76,7 @@ public void remove(XmpPackage package_)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| package_ | [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) | 要移除的 XMP 包\_。 |
+| package_ | [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) | 要删除的 XMP 包\_。 |
 
 ### getPackages() {#getPackages--}
 ```
@@ -84,7 +84,7 @@ public XmpPackage[] getPackages()
 ```
 
 
-获取 `XmpPackage` 数组。
+获取 `XmpPackage` 的数组。
 
 **Returns:**
 com.aspose.imaging.xmp.XmpPackage[] - 返回 XMP 包的数组。
@@ -99,7 +99,7 @@ public XmpPackage getPackage(String namespaceUri)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| namespaceUri | java.lang.String | 用于获取 package\_ 的 namespace URI。 |
+| namespaceUri | java.lang.String | 获取 package\_ 的命名空间 URI。 |
 
 **Returns:**
 [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) - Returns XMP package\_ for specified namespace Uri.
@@ -109,7 +109,7 @@ public void clear()
 ```
 
 
-清除集合中所有 `XmpPackage`。
+清除集合中的所有 `XmpPackage`。
 
 ### iterator() {#iterator--}
 ```

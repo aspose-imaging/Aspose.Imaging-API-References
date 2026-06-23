@@ -1,7 +1,7 @@
 ---
 title: "ColorantLab"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 LAB 色剂."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 LAB 色剂。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.xmp.types.complex.colorant/colorantlab/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ColorantLab extends ColorantBase
 ```
 
-表示 LAB 色剂.
+表示 LAB 色剂。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,22 +23,22 @@ public final class ColorantLab extends ColorantBase
 
 | 字段 | 描述 |
 | --- | --- |
-| [MIN_A](#MIN-A) | A 组件的最小值 |
-| [MAX_A](#MAX-A) | A 组件的最大值 |
-| [MIN_B](#MIN-B) | B 组件的最小值 |
-| [MAX_B](#MAX-B) | A 组件的最大值 |
-| [MIN_L](#MIN-L) | L 组件的最小值 |
-| [MAX_L](#MAX-L) | A 组件的最大值 |
+| [MIN_A](#MIN-A) | 最小 A 分量值 |
+| [MAX_A](#MAX-A) | 最大 A 分量值 |
+| [MIN_B](#MIN-B) | 最小 B 分量值 |
+| [MAX_B](#MAX-B) | 最大 A 分量值 |
+| [MIN_L](#MIN-L) | 最小 L 分量值 |
+| [MAX_L](#MAX-L) | 最大 A 分量值 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getA()](#getA--) | 获取或设置 A 组件。 |
-| [setA(int value)](#setA-int-) | 获取或设置 A 组件。 |
-| [getB()](#getB--) | 获取或设置 B 组件。 |
-| [setB(int value)](#setB-int-) | 获取或设置 B 组件。 |
-| [getL()](#getL--) | 获取或设置 L 组件。 |
-| [setL(float value)](#setL-float-) | 获取或设置 L 组件。 |
+| [getA()](#getA--) | 获取或设置 A 分量。 |
+| [setA(int value)](#setA-int-) | 获取或设置 A 分量。 |
+| [getB()](#getB--) | 获取或设置 B 分量。 |
+| [setB(int value)](#setB-int-) | 获取或设置 B 分量。 |
+| [getL()](#getL--) | 获取或设置 L 分量。 |
+| [setL(float value)](#setL-float-) | 获取或设置 L 分量。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
 ### ColorantLab() {#ColorantLab--}
 ```
@@ -59,7 +59,7 @@ public ColorantLab(int a, int b, float l)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 一个 | int | A 组件。 |
+| a | int | 一个组件。 |
 | b | int | B 组件。 |
 | l | float | L 组件。 |
 
@@ -69,7 +69,7 @@ public static final int MIN_A
 ```
 
 
-A 组件的最小值
+最小 A 分量值
 
 ### MAX_A {#MAX-A}
 ```
@@ -77,7 +77,7 @@ public static final int MAX_A
 ```
 
 
-A 组件的最大值
+最大 A 分量值
 
 ### MIN_B {#MIN-B}
 ```
@@ -85,7 +85,7 @@ public static final int MIN_B
 ```
 
 
-B 组件的最小值
+最小 B 分量值
 
 ### MAX_B {#MAX-B}
 ```
@@ -93,7 +93,7 @@ public static final int MAX_B
 ```
 
 
-A 组件的最大值
+最大 A 分量值
 
 ### MIN_L {#MIN-L}
 ```
@@ -101,7 +101,7 @@ public static final float MIN_L
 ```
 
 
-L 组件的最小值
+最小 L 分量值
 
 ### MAX_L {#MAX-L}
 ```
@@ -109,7 +109,7 @@ public static final float MAX_L
 ```
 
 
-A 组件的最大值
+最大 A 分量值
 
 ### getA() {#getA--}
 ```
@@ -117,7 +117,7 @@ public int getA()
 ```
 
 
-获取或设置 A 组件。
+获取或设置 A 分量。
 
 值：A 组件。
 
@@ -129,14 +129,14 @@ public void setA(int value)
 ```
 
 
-获取或设置 A 组件。
+获取或设置 A 分量。
 
 值：A 组件。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getB() {#getB--}
 ```
@@ -144,7 +144,7 @@ public int getB()
 ```
 
 
-获取或设置 B 组件。
+获取或设置 B 分量。
 
 值：B 组件。
 
@@ -156,14 +156,14 @@ public void setB(int value)
 ```
 
 
-获取或设置 B 组件。
+获取或设置 B 分量。
 
 值：B 组件。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getL() {#getL--}
 ```
@@ -171,7 +171,7 @@ public float getL()
 ```
 
 
-获取或设置 L 组件。
+获取或设置 L 分量。
 
 值：L 组件。
 
@@ -183,14 +183,14 @@ public void setL(float value)
 ```
 
 
-获取或设置 L 组件。
+获取或设置 L 分量。
 
 值：L 组件。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

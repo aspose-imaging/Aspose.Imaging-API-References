@@ -1,7 +1,7 @@
 ---
 title: "ImageResizeSettings"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Image 调整大小设置类"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "图像大小调整设置类"
 type: docs
 weight: 63
 url: /zh/java/com.aspose.imaging/imageresizesettings/
@@ -12,7 +12,7 @@ java.lang.Object
 public class ImageResizeSettings
 ```
 
-Image 调整大小设置类
+图像大小调整设置类
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -123,7 +123,7 @@ public void setEntriesCount(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 条目计数 |
+| 值 | int | 条目计数 |
 
 ### getMode() {#getMode--}
 ```
@@ -146,7 +146,7 @@ public void setMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 模式。 |
+| 值 | int | 模式。 |
 
 ### getFilterType() {#getFilterType--}
 ```
@@ -157,7 +157,7 @@ public int getFilterType()
 获取过滤器的类型。
 
 **Returns:**
-int - 过滤器的类型。
+int - 过滤器类型。
 ### setFilterType(int value) {#setFilterType-int-}
 ```
 public void setFilterType(int value)
@@ -169,7 +169,7 @@ public void setFilterType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 过滤器的类型。 |
+| 值 | int | 过滤器类型。 |
 
 ### getColorQuantizationMethod() {#getColorQuantizationMethod--}
 ```
@@ -192,7 +192,7 @@ public void setColorQuantizationMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色量化方法。 |
+| 值 | int | 颜色量化方法。 |
 
 ### getColorCompareMethod() {#getColorCompareMethod--}
 ```
@@ -215,5 +215,5 @@ public void setColorCompareMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色比较方法。 |
+| 值 | int | 颜色比较方法。 |
 

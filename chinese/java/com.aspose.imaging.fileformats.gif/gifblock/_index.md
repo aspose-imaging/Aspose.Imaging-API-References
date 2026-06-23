@@ -1,6 +1,6 @@
 ---
 title: "GifBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "默认的 gif 块实现。"
 type: docs
 weight: 11
@@ -25,7 +25,7 @@ public abstract class GifBlock implements IGifBlock
 
 | 字段 | 描述 |
 | --- | --- |
-| [EXTENSION_INTRODUCER](#EXTENSION-INTRODUCER) | 扩展引入器。 |
+| [EXTENSION_INTRODUCER](#EXTENSION-INTRODUCER) | 扩展引入符。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -45,7 +45,7 @@ public static final byte EXTENSION_INTRODUCER
 ```
 
 
-扩展引入器。
+扩展引入符。
 
 ### isChanged() {#isChanged--}
 ```
@@ -72,7 +72,7 @@ public void setChanged(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.imagefilters.complexutils"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该命名空间包含 Complex 类。"
 type: docs
 weight: 91

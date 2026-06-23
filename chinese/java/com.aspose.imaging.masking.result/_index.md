@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.masking.result"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包处理 ImageMasking.Result 的处理。"
 type: docs
 weight: 102
@@ -14,7 +14,7 @@ url: /zh/java/com.aspose.imaging.masking.result/
 
 | 类 | 描述 |
 | --- | --- |
-| [MaskingResult](../com.aspose.imaging.masking.result/maskingresult) | 能够从图像遮罩系统提供结果图像的基抽象类。 |
+| [MaskingResult](../com.aspose.imaging.masking.result/maskingresult) | 可以从图像遮罩系统提供结果图像的基抽象类。 |
 
 ## 接口
 

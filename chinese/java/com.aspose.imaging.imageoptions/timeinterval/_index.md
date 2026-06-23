@@ -1,6 +1,6 @@
 ---
 title: "TimeInterval"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示以毫秒为单位的时间间隔"
 type: docs
 weight: 50
@@ -17,7 +17,7 @@ public class TimeInterval
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [TimeInterval(long from, long to)](#TimeInterval-long-long-) | 初始化 [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval) 类的新实例。 |
+| [TimeInterval(long from, long to)](#TimeInterval-long-long-) | 初始化一个新的 [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval) 类实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -49,13 +49,13 @@ public TimeInterval(long from, long to)
 ```
 
 
-初始化 [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval) 类的新实例。
+初始化一个新的 [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval) 类实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 从 | long | From 毫秒。 |
-| 至 | long | 转换为毫秒。 |
+| 从 | long | 起始毫秒。 |
+| 至 | long | 结束毫秒。 |
 
 ### getFrom() {#getFrom--}
 ```
@@ -78,7 +78,7 @@ public final void setFrom(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getTo() {#getTo--}
 ```
@@ -101,5 +101,5 @@ public final void setTo(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 

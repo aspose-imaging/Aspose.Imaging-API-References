@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusGetDc"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusGetDC 记录指定应处理在元文件中遇到的后续 EMF 记录。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EmfPlusGetDC 记录指定应处理元文件中随后遇到的 EMF 记录。"
 type: docs
 weight: 39
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusGetDc extends EmfPlusControlRecordType
 ```
 
-EmfPlusGetDC 记录指定应处理在元文件中遇到的后续 EMF 记录。
+EmfPlusGetDC 记录指定应处理元文件中随后遇到的 EMF 记录。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ EmfPlusGetDC 记录指定应处理在元文件中遇到的后续 EMF 记录。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getFlags()](#getFlags--) | 获取或设置一个未使用的 16 位无符号整数。 |
-| [setFlags(short value)](#setFlags-short-) | 获取或设置一个未使用的 16 位无符号整数。 |
+| [getFlags()](#getFlags--) | 获取或设置未使用的 16 位无符号整数。 |
+| [setFlags(short value)](#setFlags-short-) | 获取或设置未使用的 16 位无符号整数。 |
 ### EmfPlusGetDc(EmfPlusRecord source) {#EmfPlusGetDc-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusGetDc(EmfPlusRecord source)
@@ -35,7 +35,7 @@ public EmfPlusGetDc(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getFlags() {#getFlags--}
 ```
@@ -43,20 +43,20 @@ public short getFlags()
 ```
 
 
-获取或设置一个未使用的 16 位无符号整数。该字段应设置为零，并且在接收时必须被忽略。
+获取或设置未使用的 16 位无符号整数。此字段应设置为零，并且在接收时必须被忽略。
 
 **Returns:**
-short
+短
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
 ```
 
 
-获取或设置一个未使用的 16 位无符号整数。该字段应设置为零，并且在接收时必须被忽略。
+获取或设置未使用的 16 位无符号整数。此字段应设置为零，并且在接收时必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

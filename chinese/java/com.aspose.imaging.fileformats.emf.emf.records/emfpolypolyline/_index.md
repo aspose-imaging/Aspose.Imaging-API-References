@@ -1,6 +1,6 @@
 ---
 title: "EmfPolyPolyline"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_POLYPOLYLINE 记录指定多个相连线段的系列。"
 type: docs
 weight: 94
@@ -14,7 +14,7 @@ public final class EmfPolyPolyline extends EmfPolyPolyShape
 
 EMR\_POLYPOLYLINE 记录指定多个相连线段的系列。
 
-线段应使用当前笔进行绘制。由线段形成的图形不应填充。当前位置信息既不应被使用，也不应被此记录更新。
+线段应使用当前笔进行绘制。由线段形成的图形不应填充。当前位置信息既不应被此记录使用，也不应被更新。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -32,7 +32,7 @@ public EmfPolyPolyline(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPolyPolyline() {#EmfPolyPolyline--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "WmfBitmap16"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Bitmap16 对象指定有关位图尺寸和颜色格式的信息。"
 type: docs
 weight: 13
@@ -53,7 +53,7 @@ public short getType()
 值：位图类型。
 
 **Returns:**
-short
+短
 ### setType(short value) {#setType-short-}
 ```
 public void setType(short value)
@@ -67,7 +67,7 @@ public void setType(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -77,10 +77,10 @@ public short getWidth()
 
 获取或设置宽度。
 
-值：位图的宽度（像素）
+值：位图的宽度（以像素为单位）
 
 **Returns:**
-short
+短
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -89,12 +89,12 @@ public void setWidth(short value)
 
 获取或设置宽度。
 
-值：位图的宽度（像素）
+值：位图的宽度（以像素为单位）
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -104,10 +104,10 @@ public short getHeight()
 
 获取或设置高度。
 
-值：位图的高度（扫描线数）。
+值：位图的高度（以扫描行数为单位）。
 
 **Returns:**
-short
+短
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -116,12 +116,12 @@ public void setHeight(short value)
 
 获取或设置高度。
 
-值：位图的高度（扫描线数）。
+值：位图的高度（以扫描行数为单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getWidthBytes() {#getWidthBytes--}
 ```
@@ -131,10 +131,10 @@ public short getWidthBytes()
 
 获取或设置宽度字节数。
 
-值：每扫描线的字节数。
+值：每扫描行的字节数。
 
 **Returns:**
-short
+短
 ### setWidthBytes(short value) {#setWidthBytes-short-}
 ```
 public void setWidthBytes(short value)
@@ -143,12 +143,12 @@ public void setWidthBytes(short value)
 
 获取或设置宽度字节数。
 
-值：每扫描线的字节数。
+值：每扫描行的字节数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getPlanes() {#getPlanes--}
 ```
@@ -175,7 +175,7 @@ public void setPlanes(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getBitsPixel() {#getBitsPixel--}
 ```
@@ -202,7 +202,7 @@ public void setBitsPixel(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getBits() {#getBits--}
 ```
@@ -229,5 +229,5 @@ public void setBits(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

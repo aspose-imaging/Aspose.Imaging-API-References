@@ -1,7 +1,7 @@
 ---
 title: "ExifContrast"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "exif 正常软硬枚举。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "exif 正常、软、硬枚举。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.exif.enums/exifcontrast/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifContrast extends System.Enum
 ```
 
-exif 正常软硬枚举。
+exif 正常、软、硬枚举。
 ## 字段
 
 | 字段 | 描述 |

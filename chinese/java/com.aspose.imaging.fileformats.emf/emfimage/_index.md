@@ -1,38 +1,38 @@
 ---
 title: "EmfImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "增强型图元文件格式（EMF）矢量图像格式支持的 API 是一个用于以设备无关方式处理图形图像并保留其原始属性的综合工具。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "针对增强型元文件格式 EMF 矢量图像格式支持的 API 是一个全面的工具，用于以设备无关的方式处理图形图像，同时保留其原始属性。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.emf/emfimage/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)，[com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter)，[com.aspose.imaging.Image](../../com.aspose.imaging/image)，[com.aspose.imaging.VectorImage](../../com.aspose.imaging/vectorimage)，[com.aspose.imaging.fileformats.emf.MetaImage](../../com.aspose.imaging.fileformats.emf/metaimage)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.VectorImage](../../com.aspose.imaging/vectorimage), [com.aspose.imaging.fileformats.emf.MetaImage](../../com.aspose.imaging.fileformats.emf/metaimage)
 ```
 public final class EmfImage extends MetaImage
 ```
 
-增强型图元文件格式（EMF）矢量图像格式支持的 API 是一个用于以设备无关方式处理图形图像并保留其原始属性的综合工具。该 API 旨在保持比例、尺寸、颜色等图形属性，支持 EMF Plus 格式，并提供裁剪区域、调整画布和图像大小、旋转、翻转、设置图像调色板、导出和导入到 APS 设备上下文、压缩以及将 EMF 转换为其他格式的功能，确保对 EMF 图像进行多样化操作并在各应用程序中实现无缝集成。
+针对增强型元文件格式 (EMF) 矢量图像格式支持的 API 是一个全面的工具，用于以设备无关的方式处理图形图像，同时保留其原始属性。该 API 旨在保持比例、尺寸、颜色及其他图形属性，包含对 EMF Plus 格式的支持，并提供裁剪区域、调整画布和图像大小、旋转、翻转、设置图像调色板、导出和导入到 APS 设备上下文、压缩以及将 EMF 转换为其他格式的功能，确保对 EMF 图像进行多样化操作并在各应用程序中实现无缝集成。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [EmfImage()](#EmfImage--) | 通过初始化 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例，开始使用 EMF 图像。 |
-| [EmfImage(int width, int height)](#EmfImage-int-int-) | 通过指定宽度和高度参数，创建 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例。 |
+| [EmfImage()](#EmfImage--) | 通过实例化 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类来开始使用 EMF 图像。 |
+| [EmfImage(int width, int height)](#EmfImage-int-int-) | 通过指定宽度和高度参数来创建 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [getHeader()](#getHeader--) | 使用此属性检索 EMF 元文件头记录。 |
 | [setHeader(EmfMetafileHeader value)](#setHeader-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeader-) | 使用此属性修改 EMF 元文件头记录。 |
-| [isCached()](#isCached--) | 访问一个值，以指示对象的数据当前是否已缓存，从而消除额外读取数据的需求。 |
+| [isCached()](#isCached--) | 获取一个值，用于指示对象的数据是否已缓存，从而消除额外读取数据的需求。 |
 | [getRecords()](#getRecords--) | 检索或修改与对象关联的记录。 |
 | [setRecords(MetaObjectList value)](#setRecords-com.aspose.imaging.fileformats.emf.MetaObjectList-) | 修改与对象关联的记录。 |
-| [getFileFormat()](#getFileFormat--) | 访问与对象关联的文件格式值。 |
-| [getBitsPerPixel()](#getBitsPerPixel--) | 检索特定于光栅图像的每像素位数计数，因为此参数不适用于矢量图像。 |
+| [getFileFormat()](#getFileFormat--) | 获取与对象关联的文件格式值。 |
+| [getBitsPerPixel()](#getBitsPerPixel--) | 检索光栅图像特有的每像素位数（bit-per-pixel）计数，因为此参数不适用于矢量图像。 |
 | [getWidthF()](#getWidthF--) | 获取图像的宽度，为精确渲染和处理提供必要信息。 |
-| [getHeightF()](#getHeightF--) | 检索图像的高度，以便实现精确的渲染和布局调整。 |
-| [cacheData()](#cacheData--) | 使用此方法，可高效缓存数据并防止从底层 `DataStreamSupporter.DataStreamContainer`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)）重复加载。 |
+| [getHeightF()](#getHeightF--) | 检索图像的高度，以便实现准确的渲染和布局调整。 |
+| [cacheData()](#cacheData--) | 使用此方法可高效缓存数据并防止从底层 `DataStreamSupporter.DataStreamContainer`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)）重复加载。 |
 | [getUsedFonts()](#getUsedFonts--) | 使用此方法检索元文件中使用的字体列表。 |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | 使用此函数轻松调整画布大小。 |
 | [getOriginalOptions()](#getOriginalOptions--) | 获取原始图像选项。 |
@@ -78,7 +78,7 @@ try {
 
 
 ## Example: The following example shows how to convert a compressed images (*.
-以下示例展示了如何将压缩图像（*.emz、*.wmz、*.svgz）转换为栅格格式。
+以下示例展示了如何将压缩图像（*.emz、*.wmz、*.svgz）转换为光栅格式
 ``` java
 String[] files = new String[]{ "example.emz", "example.wmz", "example.svgz" };
 String baseFolder = "D:\\Compressed\\";
@@ -144,7 +144,7 @@ public EmfImage()
 ```
 
 
-通过初始化 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例，开始使用 EMF 图像。非常适合轻松高效地将 EMF 图像快速集成到您的项目中。
+通过初始化 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例开始使用 EMF 图像。非常适合轻松高效地将 EMF 图像快速集成到您的项目中。
 
 ### EmfImage(int width, int height) {#EmfImage-int-int-}
 ```
@@ -152,13 +152,13 @@ public EmfImage(int width, int height)
 ```
 
 
-通过指定宽度和高度参数，创建 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例。此构造函数简化了使用特定尺寸初始化 EMF 图像的过程，提高了开发工作流的效率。
+通过指定宽度和高度参数创建 [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) 类的新实例。此构造函数简化了使用特定尺寸初始化 EMF 图像的过程，提升了开发工作流的效率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 
 ### getHeader() {#getHeader--}
 ```
@@ -166,7 +166,7 @@ public EmfMetafileHeader getHeader()
 ```
 
 
-使用此属性检索 EMF 元文件头记录。非常适合在应用程序中高效管理元文件数据。通过简化对元文件头信息的访问，提升工作流效率。
+使用此属性检索 EMF 元文件头记录。非常适合在应用程序中高效管理元文件数据。通过简化对元文件头信息的访问来提升工作流。
 
 **Returns:**
 [EmfMetafileHeader](../../com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheader)
@@ -176,7 +176,7 @@ public void setHeader(EmfMetafileHeader value)
 ```
 
 
-使用此属性修改 EMF 元文件头记录。非常适合在应用程序中高效管理元文件数据。通过简化对元文件头信息的访问，提升工作流效率。
+使用此属性修改 EMF 元文件头记录。非常适合在应用程序中高效管理元文件数据。通过简化对元文件头信息的访问来提升工作流。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -189,7 +189,7 @@ public boolean isCached()
 ```
 
 
-访问一个值，以指示对象的数据当前是否已缓存，从而消除额外读取数据的需求。通过快速判断缓存数据是否可立即访问来提升效率。通过简化的数据检索流程优化工作流。
+访问一个值以指示对象的数据是否已缓存，从而消除额外读取数据的需求。通过快速判断缓存数据是否可立即访问来提升效率。通过简化的数据检索过程优化工作流。
 
 **Returns:**
 布尔值 - 如果对象的数据已缓存则为 `true`；否则为 `false`。
@@ -199,7 +199,7 @@ public MetaObjectList getRecords()
 ```
 
 
-检索或修改与对象关联的记录。高效访问和管理记录集合，以提升数据操作和处理。通过无缝交互对象的记录来优化工作流。
+检索或修改与对象关联的记录。高效访问和管理记录集合，以增强数据操作和处理。通过无缝交互对象的记录来优化工作流。
 
 **Returns:**
 [MetaObjectList](../../com.aspose.imaging.fileformats.emf/metaobjectlist) - The records.
@@ -209,7 +209,7 @@ public void setRecords(MetaObjectList value)
 ```
 
 
-修改与对象关联的记录。高效访问和管理记录集合，以提升数据操作和处理。通过无缝交互对象的记录来优化工作流。
+修改与对象关联的记录。高效访问和管理记录集合，以增强数据操作和处理。通过无缝交互对象的记录来优化工作流。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -222,7 +222,7 @@ public long getFileFormat()
 ```
 
 
-访问与对象关联的文件格式值。轻松确定对象关联文件的格式，以实现流畅的处理和兼容性检查。通过轻松检索文件格式信息简化工作流。
+访问与对象关联的文件格式值。轻松确定对象关联文件的格式，以实现简化的处理和兼容性检查。通过轻松获取文件格式信息来简化工作流。
 
 **Returns:**
 long
@@ -232,7 +232,7 @@ public int getBitsPerPixel()
 ```
 
 
-检索光栅图像特有的每像素位数，因为该参数不适用于矢量图像。快速确定光栅图像的像素深度，以进行精确分析和操作，确保图像数据的准确处理。
+检索栅格图像特有的每像素位数，因为该参数不适用于矢量图像。快速确定栅格图像的像素深度，以进行精确分析和操作，确保图像数据的准确处理。
 
 **Returns:**
 int - 图像每像素位数。
@@ -242,7 +242,7 @@ public float getWidthF()
 ```
 
 
-获取图像的宽度，提供精确渲染和处理所需的关键信息。快速检索图像宽度，以确保在各种应用和平台中的兼容性和正确布局。
+访问图像的宽度，提供精确渲染和处理所需的关键信息。快速获取图像宽度，以确保在各种应用和平台中的兼容性和正确布局。
 
 **Returns:**
 float - 图像宽度（像素）。
@@ -252,7 +252,7 @@ public float getHeightF()
 ```
 
 
-检索图像的高度，帮助实现精确渲染和布局调整。访问高度属性可确保在不同平台和应用之间的兼容性和无缝集成。
+检索图像的高度，便于精确渲染和布局调整。访问高度属性可确保在不同平台和应用之间的兼容性和无缝集成。
 
 **Returns:**
 float - 图像高度（像素）。
@@ -262,7 +262,7 @@ public void cacheData()
 ```
 
 
-使用此方法高效缓存数据并防止从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) 进行冗余加载。提升性能并简化应用中的数据访问，优化资源利用以提高响应速度。
+使用此方法高效缓存数据并防止从底层 `DataStreamSupporter.DataStreamContainer`（[DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)）重复加载。提升应用程序的性能并简化数据访问，优化资源利用以提高响应速度。
 
 
 **Example: This example shows how to load a EMF image from a file and list all of its records.**
@@ -318,11 +318,11 @@ try {
 //记录类型                              数量
 //----------------------------------------------
 //EmfMetafileHeader:                       1
-//EmfSetBkMode:                            1
-//EmfSetTextAlign:                         1
-//EmfSetRop2:                              1
-//EmfSetWorldTransform:                    1
-//EmfExtSelectClipRgn:                     1
+//EmfSetBkMode:                           1
+//EmfSetTextAlign:                        1
+//EmfSetRop2:                             1
+//EmfSetWorldTransform:                   1
+//EmfExtSelectClipRgn:                    1
 //EmfCreateBrushIndirect:                  113
 //EmfSelectObject:                         240
 //EmfCreatePen:                            116
@@ -348,7 +348,7 @@ public String[] getUsedFonts()
 ```
 
 
-使用此方法检索元文件中使用的字体列表。深入了解字体使用情况，帮助高效管理和优化字体资源，以提升渲染和显示的保真度。
+使用此方法检索元文件中使用的字体列表。深入了解字体使用情况，便于高效管理和优化字体资源，以提升渲染和显示的保真度。
 
 **Returns:**
 java.lang.String[] - 字体列表
@@ -358,7 +358,7 @@ public void resizeCanvas(Rectangle newRectangle)
 ```
 
 
-使用此函数轻松调整画布大小。非常适合在不改变内容的情况下调整图像的整体尺寸。提升展示效果并轻松为各种显示尺寸准备图像。
+使用此函数轻松调整画布大小。非常适合在不改变内容的情况下调整图像的整体尺寸。提升展示效果，轻松为各种显示尺寸准备图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "CustomFontData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "自定义字体数据类"
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public class CustomFontData
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [CustomFontData(String fontName, byte[] fontData)](#CustomFontData-java.lang.String-byte---) | 初始化一个新的 [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata) 类实例。 |
+| [CustomFontData(String fontName, byte[] fontData)](#CustomFontData-java.lang.String-byte---) | 初始化 [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -30,12 +30,12 @@ public CustomFontData(String fontName, byte[] fontData)
 ```
 
 
-初始化一个新的 [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata) 类实例。
+初始化 [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | java.lang.String | 字体名称。 |
+| fontName | java.lang.String | 字体的名称。 |
 | fontData | byte[] | 字体数据。 |
 
 ### getFontName() {#getFontName--}

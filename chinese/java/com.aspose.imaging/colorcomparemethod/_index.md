@@ -1,7 +1,7 @@
 ---
 title: "ColorCompareMethod"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "颜色比较方法，用于调整到最近邻。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于调整到最近邻的颜色比较方法"
 type: docs
 weight: 24
 url: /zh/java/com.aspose.imaging/colorcomparemethod/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorCompareMethod extends System.Enum
 ```
 
-颜色比较方法，用于调整到最近邻。
+用于调整到最近邻的颜色比较方法
 ## 字段
 
 | 字段 | 描述 |

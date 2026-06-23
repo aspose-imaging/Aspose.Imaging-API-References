@@ -1,6 +1,6 @@
 ---
 title: "DjvuRaster"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于表示 Djvu 栅格图像的类，其中包含某些操作的结果。"
 type: docs
 weight: 12
@@ -37,8 +37,8 @@ public DjvuRaster(int width, int height, IRasterImageArgb32PixelLoader loader)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 | loader | [IRasterImageArgb32PixelLoader](../../com.aspose.imaging/irasterimageargb32pixelloader) | 加载器。 |
 
 ### getWidth() {#getWidth--}

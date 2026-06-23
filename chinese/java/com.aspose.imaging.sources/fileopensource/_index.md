@@ -1,6 +1,6 @@
 ---
 title: "FileOpenSource"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示用于打开的文件源。"
 type: docs
 weight: 11
@@ -23,7 +23,7 @@ public final class FileOpenSource extends FileSource
 | 方法 | 描述 |
 | --- | --- |
 | [getFilePath()](#getFilePath--) | 获取要打开的文件路径。 |
-| [isTemporal()](#isTemporal--) | 获取一个值，指示文件是否为临时文件。 |
+| [isTemporal()](#isTemporal--) | 获取指示文件是否为临时文件的值。 |
 | [getStreamContainer()](#getStreamContainer--) | 获取流容器。 |
 ### FileOpenSource(String filePath) {#FileOpenSource-java.lang.String-}
 ```
@@ -56,9 +56,9 @@ public boolean isTemporal()
 ```
 
 
-获取一个值，指示文件是否为临时文件。
+获取指示文件是否为临时文件的值。
 
-值：如果文件将是临时的则为 `true`；否则为 `false`。
+值：如果文件为临时文件则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -73,4 +73,4 @@ public StreamContainer getStreamContainer()
 **Returns:**
 [StreamContainer](../../com.aspose.imaging/streamcontainer) - the stream container.
 
-请谨慎使用。检索后需要释放流容器。
+请谨慎使用。检索后您需要释放流容器。

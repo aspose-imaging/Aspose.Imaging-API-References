@@ -1,6 +1,6 @@
 ---
 title: "OdEllipticalQundrant"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "椭圆象限"
 type: docs
 weight: 18
@@ -24,8 +24,8 @@ public class OdEllipticalQundrant extends OdGraphicObject
 | --- | --- |
 | [getPoint()](#getPoint--) | 获取或设置点。 |
 | [setPoint(PointF value)](#setPoint-com.aspose.imaging.PointF-) | 获取或设置点。 |
-| [getAxisX()](#getAxisX--) | 获取或设置指示是否为 [axis x] 的值。 |
-| [setAxisX(boolean value)](#setAxisX-boolean-) | 获取或设置指示是否为 [axis x] 的值。 |
+| [getAxisX()](#getAxisX--) | 获取或设置一个值，指示是否为 [axis x]。 |
+| [setAxisX(boolean value)](#setAxisX-boolean-) | 获取或设置一个值，指示是否为 [axis x]。 |
 ### OdEllipticalQundrant(OdObject parent) {#OdEllipticalQundrant-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdEllipticalQundrant(OdObject parent)
@@ -37,7 +37,7 @@ public OdEllipticalQundrant(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getPoint() {#getPoint--}
 ```
@@ -68,7 +68,7 @@ public boolean getAxisX()
 ```
 
 
-获取或设置指示是否为 [axis x] 的值。
+获取或设置一个值，指示是否为 [axis x]。
 
 **Returns:**
 boolean - 如果是 [axis x] 则为 `true`；否则为 `false`。
@@ -78,10 +78,10 @@ public void setAxisX(boolean value)
 ```
 
 
-获取或设置指示是否为 [axis x] 的值。
+获取或设置一个值，指示是否为 [axis x]。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示 [axis x]；否则为 `false`。 |
+| 值 | boolean | `true` 表示 [axis x]；否则为 `false`。 |
 

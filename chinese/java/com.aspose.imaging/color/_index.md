@@ -1,6 +1,6 @@
 ---
 title: "Color"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "像素的颜色。"
 type: docs
 weight: 20
@@ -169,20 +169,20 @@ public class Color extends Struct<Color> implements Serializable
 | [getYellowGreen()](#getYellowGreen--) | 获取系统定义的颜色。 |
 | [op_Equality(Color left, Color right)](#op-Equality-com.aspose.imaging.Color-com.aspose.imaging.Color-) | 测试两个指定的 `com.aspose.imaging.Color` 结构是否等价。 |
 | [op_Inequality(Color left, Color right)](#op-Inequality-com.aspose.imaging.Color-com.aspose.imaging.Color-) | 测试两个指定的 `com.aspose.imaging.Color` 结构是否不同。 |
-| [fromArgb(int argb)](#fromArgb-int-) | 从 32 位 ARGB 值创建 `com.aspose.imaging.Color` 结构。 |
-| [fromArgb(int alpha, int red, int green, int blue)](#fromArgb-int-int-int-int-) | 从四个 ARGB 分量（alpha、red、green 和 blue）值创建 `com.aspose.imaging.Color` 结构。 |
-| [fromArgb(byte alpha, byte red, byte green, byte blue)](#fromArgb-byte-byte-byte-byte-) | 从四个 ARGB 分量（alpha、red、green 和 blue）值创建 `com.aspose.imaging.Color` 结构。 |
+| [fromArgb(int argb)](#fromArgb-int-) | 从 32 位 ARGB 值创建一个 `com.aspose.imaging.Color` 结构。 |
+| [fromArgb(int alpha, int red, int green, int blue)](#fromArgb-int-int-int-int-) | 从四个 ARGB 分量（alpha、red、green 和 blue）值创建一个 `com.aspose.imaging.Color` 结构。 |
+| [fromArgb(byte alpha, byte red, byte green, byte blue)](#fromArgb-byte-byte-byte-byte-) | 从四个 ARGB 分量（alpha、red、green 和 blue）值创建一个 `com.aspose.imaging.Color` 结构。 |
 | [fromArgb(int alpha, Color baseColor)](#fromArgb-int-com.aspose.imaging.Color-) | 从指定的 `com.aspose.imaging.Color` 结构创建一个 `com.aspose.imaging.Color` 结构，但使用新的指定 alpha 值。 |
 | [fromArgb(int red, int green, int blue)](#fromArgb-int-int-int-) | 从指定的 8 位颜色值（红色、绿色和蓝色）创建一个 `com.aspose.imaging.Color` 结构。 |
 | [fromArgb(byte red, byte green, byte blue)](#fromArgb-byte-byte-byte-) | 从指定的 8 位颜色值（红色、绿色和蓝色）创建一个 `com.aspose.imaging.Color` 结构。 |
 | [fromKnownColor(int color)](#fromKnownColor-int-) | 从指定的预定义颜色创建一个 `com.aspose.imaging.Color` 结构。 |
 | [fromName(String name)](#fromName-java.lang.String-) | 根据指定的预定义颜色名称创建一个 `com.aspose.imaging.Color` 结构。 |
-| [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | 从 Color 转换为 CMYKColor 的过程。 |
-| [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | 从 Color 转换为 CMYKColor 的过程。 |
-| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | 使用默认配置文件的 ICC 转换将 Color 转换为 CMYKColor 的过程。 |
-| [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | 使用默认配置文件的 ICC 转换将 Color 转换为 CMYKColor 的过程。 |
-| [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | 使用默认配置文件的 ICC 转换将 Color 转换为 CMYKColor 的过程。 |
-| [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | 使用 ICC 转换将 Color 转换为 CMYKColor 的过程。 |
+| [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | 从 Color 转换为 CMYKColor。 |
+| [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | 从 Color 转换为 CMYKColor。 |
+| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | 使用默认配置文件的 ICC 转换，将 Color 转换为 CmykColor。 |
+| [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | 使用默认配置文件的 ICC 转换，将 Color 转换为 CMYKColor。 |
+| [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | 使用默认配置文件的 ICC 转换，将 Color 转换为 CMYKColor。 |
+| [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | 使用 ICC 转换，将 Color 转换为 CMYKColor。 |
 | [isEquals(Color obj1, Color obj2)](#isEquals-com.aspose.imaging.Color-com.aspose.imaging.Color-) |  |
 | [getR()](#getR--) | 获取此 `com.aspose.imaging.Color` 结构的红色分量值。 |
 | [getG()](#getG--) | 获取此 `com.aspose.imaging.Color` 结构的绿色分量值。 |
@@ -1655,23 +1655,23 @@ public static boolean op_Inequality(Color left, Color right)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| left | [Color](../../com.aspose.imaging/color) | 不等式运算符左侧的 `com.aspose.imaging.Color`。 |
-| right | [Color](../../com.aspose.imaging/color) | 不等式运算符右侧的 `com.aspose.imaging.Color`。 |
+| left | [Color](../../com.aspose.imaging/color) | 不等于运算符左侧的 `com.aspose.imaging.Color`。 |
+| right | [Color](../../com.aspose.imaging/color) | 不等于运算符右侧的 `com.aspose.imaging.Color`。 |
 
 **Returns:**
-boolean - 如果两个 `com.aspose.imaging.Color` 结构不同，则为 True；否则为 false。
+boolean - 如果两个 `com.aspose.imaging.Color` 结构不同则为 True；否则为 false。
 ### fromArgb(int argb) {#fromArgb-int-}
 ```
 public static Color fromArgb(int argb)
 ```
 
 
-从 32 位 ARGB 值创建 `com.aspose.imaging.Color` 结构。
+从 32 位 ARGB 值创建一个 `com.aspose.imaging.Color` 结构。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| argb | int | 指定 32 位 ARGB 值的参数。 |
+| argb | int | 指定 32 位 ARGB 值的数值。 |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The `com.aspose.imaging.Color` structure that this method creates.
@@ -1681,7 +1681,7 @@ public static Color fromArgb(int alpha, int red, int green, int blue)
 ```
 
 
-从四个 ARGB 分量（alpha、red、green 和 blue）值创建 `com.aspose.imaging.Color` 结构。虽然此方法允许为每个分量传入 32 位值，但每个分量的值限制为 8 位。
+根据四个 ARGB 分量（alpha、red、green 和 blue）的值创建 `com.aspose.imaging.Color` 结构。虽然此方法允许为每个分量传入 32 位值，但每个分量的值仅限于 8 位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1745,7 +1745,7 @@ public static Color fromArgb(byte alpha, byte red, byte green, byte blue)
 ```
 
 
-从四个 ARGB 分量（alpha、red、green 和 blue）值创建 `com.aspose.imaging.Color` 结构。虽然此方法允许为每个分量传入 32 位值，但每个分量的值限制为 8 位。
+根据四个 ARGB 分量（alpha、red、green 和 blue）的值创建 `com.aspose.imaging.Color` 结构。虽然此方法允许为每个分量传入 32 位值，但每个分量的值仅限于 8 位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1763,7 +1763,7 @@ public static Color fromArgb(int alpha, Color baseColor)
 ```
 
 
-从指定的 `com.aspose.imaging.Color` 结构创建 `com.aspose.imaging.Color` 结构，但使用新的指定 alpha 值。虽然此方法允许为 alpha 值传入 32 位值，但该值限制为 8 位。
+根据指定的 `com.aspose.imaging.Color` 结构创建 `com.aspose.imaging.Color` 结构，但使用新的指定 alpha 值。虽然此方法允许为 alpha 值传入 32 位值，但该值仅限于 8 位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1779,7 +1779,7 @@ public static Color fromArgb(int red, int green, int blue)
 ```
 
 
-从指定的 8 位颜色值（red、green 和 blue）创建 `com.aspose.imaging.Color` 结构。alpha 值隐式为 255（完全不透明）。虽然此方法允许为每个颜色分量传入 32 位值，但每个分量的值限制为 8 位。
+从指定的 8 位颜色值（红色、绿色和蓝色）创建一个 `com.aspose.imaging.Color` 结构。Alpha 值隐式为 255（完全不透明）。虽然此方法允许为每个颜色分量传入 32 位值，但每个分量的值限制为 8 位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1796,7 +1796,7 @@ public static Color fromArgb(byte red, byte green, byte blue)
 ```
 
 
-从指定的 8 位颜色值（red、green 和 blue）创建 `com.aspose.imaging.Color` 结构。alpha 值隐式为 255（完全不透明）。虽然此方法允许为每个颜色分量传入 32 位值，但每个分量的值限制为 8 位。
+从指定的 8 位颜色值（红色、绿色和蓝色）创建一个 `com.aspose.imaging.Color` 结构。Alpha 值隐式为 255（完全不透明）。虽然此方法允许为每个颜色分量传入 32 位值，但每个分量的值限制为 8 位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1843,7 +1843,7 @@ public static CmykColor[] toCmyk(Color[] pixels)
 ```
 
 
-Color 转换为 CMYKColor。此方法已弃用。请使用更有效的 [CmykColorHelper.toCmyk(Color[])](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color---)。
+Color 到 CMYKColor 的转换。此方法已弃用。请使用更有效的 [CmykColorHelper.toCmyk(Color[])](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color---)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1858,7 +1858,7 @@ public static CmykColor toCmyk(Color pixel)
 ```
 
 
-Color 转换为 CMYKColor。此方法已弃用。请使用更有效的 [CmykColorHelper.toCmyk(Color)](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color-)。
+Color 到 CMYKColor 的转换。此方法已弃用。请使用更有效的 [CmykColorHelper.toCmyk(Color)](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color-)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1873,7 +1873,7 @@ public static CmykColor toCmykIcc(Color pixel, InputStream rgbIccStream, InputSt
 ```
 
 
-使用默认配置文件的 ICC 转换将 Color 转换为 CMYKColor。此方法已弃用。请使用更有效的 [CmykColorHelper.toCmykIcc(Color, InputStream, InputStream)](../../com.aspose.imaging/cmykcolorhelper\#toCmykIcc-Color--InputStream--InputStream-)。
+使用默认配置文件的 ICC 转换将 Color 转换为 CmykColor。此方法已弃用。请使用更有效的 [CmykColorHelper.toCmykIcc(Color, InputStream, InputStream)](../../com.aspose.imaging/cmykcolorhelper\#toCmykIcc-Color--InputStream--InputStream-)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1883,7 +1883,7 @@ public static CmykColor toCmykIcc(Color pixel, InputStream rgbIccStream, InputSt
 | cmykIccStream | java.io.InputStream | 包含 ICC CMYK 配置文件的流。 |
 
 **Returns:**
-[CmykColor](../../com.aspose.imaging/cmykcolor) - The CmykColor[].
+[CmykColor](../../com.aspose.imaging/cmykcolor) - The array of [CmykColor](../../com.aspose.imaging/cmykcolor).
 ### toCmykIcc(Color pixel) {#toCmykIcc-com.aspose.imaging.Color-}
 ```
 public static CmykColor toCmykIcc(Color pixel)
@@ -1986,7 +1986,7 @@ public byte getA()
 获取此 `com.aspose.imaging.Color` 结构的 alpha 分量值。
 
 **Returns:**
-byte - 此 `com.aspose.imaging.Color` 的 alpha 分量值。
+byte - 此 `com.aspose.imaging.Color` 的 Alpha 分量值。
 ### isKnownColor() {#isKnownColor--}
 ```
 public boolean isKnownColor()
@@ -2016,7 +2016,7 @@ public boolean isNamedColor()
 获取一个值，指示此 `com.aspose.imaging.Color` 结构是命名颜色还是 `Aspose.Imaging.KnownColor` 枚举的成员。
 
 **Returns:**
-boolean - 如果此 `com.aspose.imaging.Color` 是通过使用 `Aspose.Imaging.Color.FromName(String)` 方法或 `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)` 方法创建的，则为 true；否则为 false。
+boolean - 如果此 `com.aspose.imaging.Color` 是通过使用 `Aspose.Imaging.Color.FromName(String)` 方法或 `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)` 方法创建的，则为 True；否则为 false。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -2046,7 +2046,7 @@ public float getHue()
 获取此 `com.aspose.imaging.Color` 结构的色相-饱和度-亮度 (HSB) 色相值（以度为单位）。
 
 **Returns:**
-float - 此 `com.aspose.imaging.Color` 的色相（以度为单位）。色相以度数测量，范围从 0.0 到 360.0，使用 HSB 颜色空间。
+float - 此 `com.aspose.imaging.Color` 的色相（以度为单位）。色相以度为单位测量，范围从 0.0 到 360.0，使用 HSB 颜色空间。
 ### getSaturation() {#getSaturation--}
 ```
 public float getSaturation()
@@ -2101,7 +2101,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 要测试的对象。 |
 
 **Returns:**
-boolean - 如果 `obj` 是等价于此 `com.aspose.imaging.Color` 结构的 `com.aspose.imaging.Color` 结构，则为 true；否则为 false。
+boolean - 如果 `obj` 是等价于此 `com.aspose.imaging.Color` 结构的 `com.aspose.imaging.Color` 结构，则为 True；否则为 false。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.fileformats.dng"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该包包含 DNG 文件格式类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包包含 DNG 文件格式类型"
 type: docs
 weight: 45
 url: /zh/java/com.aspose.imaging.fileformats.dng/
 ---
 
-该包包含 DNG 文件格式类型。
+该包包含 DNG 文件格式类型
 
 
 ## 类

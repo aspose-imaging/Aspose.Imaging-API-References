@@ -1,18 +1,18 @@
 ---
 title: "WmfSetBkMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "设置 bk 模式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "设置背景模式。"
 type: docs
 weight: 74
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetBkMode extends WmfObject
 ```
 
-设置 bk 模式。
+设置背景模式。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -43,7 +43,7 @@ public short getBkMode()
 值：bk 模式。
 
 **Returns:**
-short
+短
 ### setBkMode(short value) {#setBkMode-short-}
 ```
 public void setBkMode(short value)
@@ -57,7 +57,7 @@ public void setBkMode(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -84,5 +84,5 @@ public void setReserved(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

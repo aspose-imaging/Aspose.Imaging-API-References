@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetClipRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 EmfPlusSetClipRect 记录将当前剪裁区域与矩形合并。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusSetClipRect 记录将当前裁剪区域与矩形合并。"
 type: docs
 weight: 56
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetClipRect extends EmfPlusClippingRecordType
 ```
 
-该 EmfPlusSetClipRect 记录将当前剪裁区域与矩形合并。
+该 EmfPlusSetClipRect 记录将当前裁剪区域与矩形合并。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,8 +24,8 @@ public final class EmfPlusSetClipRect extends EmfPlusClippingRecordType
 | --- | --- |
 | [getCm()](#getCm--) | 获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。 |
 | [setCm(byte value)](#setCm-byte-) | 获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。 |
-| [getClipRect()](#getClipRect--) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义在 CombineMode 操作中使用的矩形。 |
-| [setClipRect(RectangleF value)](#setClipRect-com.aspose.imaging.RectangleF-) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义在 CombineMode 操作中使用的矩形。 |
+| [getClipRect()](#getClipRect--) | 获取或设置一个 EmfPlusRectF 对象（章节 2.2.2.39），该对象定义在 CombineMode 操作中使用的矩形。 |
+| [setClipRect(RectangleF value)](#setClipRect-com.aspose.imaging.RectangleF-) | 获取或设置一个 EmfPlusRectF 对象（章节 2.2.2.39），该对象定义在 CombineMode 操作中使用的矩形。 |
 ### EmfPlusSetClipRect(EmfPlusRecord source) {#EmfPlusSetClipRect-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetClipRect(EmfPlusRecord source)
@@ -37,7 +37,7 @@ public EmfPlusSetClipRect(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCm() {#getCm--}
 ```
@@ -45,7 +45,7 @@ public byte getCm()
 ```
 
 
-获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
+获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关各值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
 
 值：cm。
 
@@ -57,14 +57,14 @@ public void setCm(byte value)
 ```
 
 
-获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
+获取或设置 CM（4 位）：指定合并两个区域的逻辑操作。有关各值的含义，请参阅 CombineMode 枚举（第 2.1.1.4 节）。
 
 值：cm。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getClipRect() {#getClipRect--}
 ```
@@ -72,7 +72,7 @@ public RectangleF getClipRect()
 ```
 
 
-获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义在 CombineMode 操作中使用的矩形。
+获取或设置一个 EmfPlusRectF 对象（章节 2.2.2.39），该对象定义在 CombineMode 操作中使用的矩形。
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -82,7 +82,7 @@ public void setClipRect(RectangleF value)
 ```
 
 
-获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义在 CombineMode 操作中使用的矩形。
+获取或设置一个 EmfPlusRectF 对象（章节 2.2.2.39），该对象定义在 CombineMode 操作中使用的矩形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "RectangleShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示矩形形状。"
 type: docs
 weight: 17
@@ -23,17 +23,17 @@ public class RectangleShape extends RectangleProjectedShape
 
 | 方法 | 描述 |
 | --- | --- |
-| [getSegments()](#getSegments--) | 获取形状的段。 |
+| [getSegments()](#getSegments--) | 获取形状段。 |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
-此示例创建一个新的 Image 并在图像表面使用 Figures 和 GraphicsPath 绘制各种形状。
+此示例创建一个新 Image，并在 Image 表面使用 Figures 和 GraphicsPath 绘制各种形状
 ``` java
-//创建一个 BmpOptions 实例并设置其各种属性。
+//创建一个 BmpOptions 实例并设置其各种属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-//第二个布尔参数决定要创建的文件是否为 IsTemporal。
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
 //创建 Image 的实例
@@ -51,7 +51,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -61,7 +61,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -115,7 +115,7 @@ public ShapeSegment[] getSegments()
 ```
 
 
-获取形状的段。
+获取形状段。
 
 值：形状段。
 

@@ -1,7 +1,7 @@
 ---
 title: "WmfPitchAndFamily"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "PitchAndFamily 对象指定 Font 对象的字距和族属性，见第 2.2.1.2 节。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "PitchAndFamily 对象指定 Font 对象的间距和族属性（第 2.2.1.2 节）。"
 type: docs
 weight: 54
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class WmfPitchAndFamily extends Struct<WmfPitchAndFamily>
 ```
 
-PitchAndFamily 对象指定 Font 对象的字距和族属性（第 2.2.1.2 节）。字距指字符的宽度，族指字体的整体外观。
+PitchAndFamily 对象指定 Font 对象的间距和族属性（第 2.2.1.2 节）。间距指字符的宽度，族指字体的一般外观。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,8 +24,8 @@ PitchAndFamily 对象指定 Font 对象的字距和族属性（第 2.2.1.2 节�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getFamily()](#getFamily--) | 获取描述字体整体外观的属性。 |
-| [getPitch()](#getPitch--) | 获取描述字符字距的属性。 |
+| [getFamily()](#getFamily--) | 获取字体的一个属性，该属性描述其整体外观。 |
+| [getPitch()](#getPitch--) | 获取字体的一个属性，该属性描述字符的音高。 |
 | [getByteData()](#getByteData--) | 设置 `` 数据。 |
 | [setByteData(byte value)](#setByteData-byte-) | 设置 `` 数据。 |
 | [toByte()](#toByte--) | 到字节。 |
@@ -51,7 +51,7 @@ public WmfPitchAndFamily(byte byteData)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| byteData | byte | `` 数据。 |
+| byteData | byte | 该 `` 数据。 |
 
 ### WmfPitchAndFamily(byte pitch, byte family) {#WmfPitchAndFamily-byte-byte-}
 ```
@@ -64,8 +64,8 @@ public WmfPitchAndFamily(byte pitch, byte family)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pitch | byte | 字距。 |
-| 家族 | byte | 该家族。 |
+| pitch | byte | 该音高。 |
+| family | byte | 该字体族。 |
 
 ### getFamily() {#getFamily--}
 ```
@@ -73,9 +73,9 @@ public byte getFamily()
 ```
 
 
-获取描述字体一般外观的属性。此必须是 FamilyFont 枚举中的一个值。
+获取字体的一个属性，该属性描述其整体外观。此值必须是 FamilyFont 枚举中的一个值。
 
-值：该家族。
+值：该字体族。
 
 **Returns:**
 byte
@@ -85,7 +85,7 @@ public byte getPitch()
 ```
 
 
-获取描述字符音高的字体属性。此必须是 PitchFont 枚举中的一个值。
+获取字体的一个属性，该属性描述字符的音高。此值必须是 PitchFont 枚举中的一个值。
 
 值：该音高。
 
@@ -99,7 +99,7 @@ public byte getByteData()
 
 设置 `` 数据。
 
-值：该 `` data。
+值：该 `` 数据。
 
 **Returns:**
 byte
@@ -111,12 +111,12 @@ public void setByteData(byte value)
 
 设置 `` 数据。
 
-值：该 `` data。
+值：该 `` 数据。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### toByte() {#toByte--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "ContentAwareFillWatermarkOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "常见的内容感知填充算法选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "通用 Content Aware Fill 算法选项。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.watermark.options/contentawarefillwatermarkoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.watermark.options.WatermarkOptions](../../
 public class ContentAwareFillWatermarkOptions extends WatermarkOptions
 ```
 
-常见的内容感知填充算法选项。
+通用 Content Aware Fill 算法选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -27,8 +27,8 @@ public class ContentAwareFillWatermarkOptions extends WatermarkOptions
 | [setPatchSize(byte value)](#setPatchSize-byte-) | 设置补丁大小（应为奇数）。 |
 | [getMaxPaintingAttempts()](#getMaxPaintingAttempts--) | 获取最大绘画尝试次数。 |
 | [setMaxPaintingAttempts(int value)](#setMaxPaintingAttempts-int-) | 设置最大绘画尝试次数。 |
-| [getInterestArea()](#getInterestArea--) | 获取用于取补丁的区域。 |
-| [setInterestArea(Rectangle value)](#setInterestArea-com.aspose.imaging.Rectangle-) | 设置用于取补丁的区域。 |
+| [getInterestArea()](#getInterestArea--) | 获取用于获取补丁的区域。 |
+| [setInterestArea(Rectangle value)](#setInterestArea-com.aspose.imaging.Rectangle-) | 设置用于获取补丁的区域。 |
 
 ## Example: The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm.
 
@@ -103,7 +103,7 @@ public final void setPatchSize(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 补丁大小（应为奇数）。 |
+| 值 | byte | 补丁大小（应为奇数）。 |
 
 ### getMaxPaintingAttempts() {#getMaxPaintingAttempts--}
 ```
@@ -153,7 +153,7 @@ public final void setMaxPaintingAttempts(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 最大绘画尝试次数。 |
+| 值 | int | 最大绘画尝试次数。 |
 
 
 **Example: The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm.**
@@ -184,9 +184,9 @@ public final Rectangle getInterestArea()
 ```
 
 
-获取用于取补丁的区域。
+获取用于获取补丁的区域。
 
-值：感兴趣的区域用于提取补丁。
+值：用于获取补丁的感兴趣区域。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the area to take patches.
@@ -196,12 +196,12 @@ public final void setInterestArea(Rectangle value)
 ```
 
 
-设置用于取补丁的区域。
+设置用于获取补丁的区域。
 
-值：感兴趣的区域用于提取补丁。
+值：用于获取补丁的感兴趣区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Rectangle](../../com.aspose.imaging/rectangle) | 用于提取补丁的区域。 |
+| value | [Rectangle](../../com.aspose.imaging/rectangle) | 用于获取补丁的区域。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "TiffCompressions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含压缩类型"
 type: docs
 weight: 13
@@ -28,18 +28,18 @@ public final class TiffCompressions extends System.Enum
 | [CcittRleW](#CcittRleW) | CCITT RLE。 |
 | [Packbits](#Packbits) | Macintosh RLE。 |
 | [Thunderscan](#Thunderscan) | ThunderScan RLE。 |
-| [It8Ctpad](#It8Ctpad) | IT8 CT（带填充）。 |
+| [It8Ctpad](#It8Ctpad) | IT8 CT 带填充。 |
 | [It8Lw](#It8Lw) | IT8 线稿 RLE。 |
 | [It8Mp](#It8Mp) | IT8 单色图片。 |
-| [It8Bl](#It8Bl) | IT8 二进制线条艺术。 |
+| [It8Bl](#It8Bl) | IT8 二值线条艺术。 |
 | [PixarFilm](#PixarFilm) | Pixar 压缩的 10 位 LZW。 |
 | [PixarLog](#PixarLog) | Pixar 压缩的 11 位 ZIP。 |
 | [Deflate](#Deflate) | Deflate 压缩。 |
 | [AdobeDeflate](#AdobeDeflate) | Deflate 压缩，Adobe 认可。 |
 | [Dcs](#Dcs) | Kodak DCS 编码。 |
-| [Jbig](#Jbig) | ISO Jpeg 大。 |
-| [Sgilog](#Sgilog) | SGI Log 亮度 RLE。 |
-| [Sgilog24](#Sgilog24) | SGI Log 24 位 打包。 |
+| [Jbig](#Jbig) | ISO JPEG 大型。 |
+| [Sgilog](#Sgilog) | SGI 对数亮度 RLE。 |
+| [Sgilog24](#Sgilog24) | SGI 对数 24 位 打包。 |
 | [Jp2000](#Jp2000) | Leadtools JPEG2000。 |
 ### None {#None}
 ```
@@ -95,7 +95,7 @@ public static final int Jpeg
 ```
 
 
-JPEG DCT 压缩。引入于 TIFF 6.0 版之后。
+JPEG DCT 压缩。于 TIFF 6.0 版后引入。
 
 ### Next {#Next}
 ```
@@ -159,7 +159,7 @@ public static final int It8Bl
 ```
 
 
-IT8 二进制线条艺术。保留给 ANSI IT8 TIFF/IT。
+IT8 二值线条艺术。保留给 ANSI IT8 TIFF/IT。
 
 ### PixarFilm {#PixarFilm}
 ```
@@ -199,7 +199,7 @@ public static final int Dcs
 ```
 
 
-Kodak DCS 编码。保留给 Oceana Matrix
+Kodak DCS 编码。保留用于 Oceana Matrix
 
 ### Jbig {#Jbig}
 ```
@@ -207,7 +207,7 @@ public static final int Jbig
 ```
 
 
-ISO Jpeg 大。
+ISO JPEG 大型。
 
 ### Sgilog {#Sgilog}
 ```
@@ -215,7 +215,7 @@ public static final int Sgilog
 ```
 
 
-SGI Log 亮度 RLE。
+SGI 对数亮度 RLE。
 
 ### Sgilog24 {#Sgilog24}
 ```
@@ -223,7 +223,7 @@ public static final int Sgilog24
 ```
 
 
-SGI Log 24 位 打包。
+SGI 对数 24 位 打包。
 
 ### Jp2000 {#Jp2000}
 ```
