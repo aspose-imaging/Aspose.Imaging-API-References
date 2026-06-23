@@ -7,7 +7,7 @@ weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffDoubleType extends TiffCommonArrayType
 ```
@@ -17,7 +17,7 @@ public final class TiffDoubleType extends TiffCommonArrayType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffDoubleType(int tagId)](#TiffDoubleType-int-) | ينشئ مثيلًا جديدًا من الفئة `TiffDoubleType`. |
+| [TiffDoubleType(int tagId)](#TiffDoubleType-int-) | يُهيئ مثيلًا جديدًا من الفئة `TiffDoubleType`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,15 +28,15 @@ public final class TiffDoubleType extends TiffCommonArrayType
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر بالبايت. |
 | [getValue()](#getValue--) | يحصل على القيمة التي يحتويها هذا النوع من البيانات. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | يعيّن القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | يضبط القيمة التي يحتويها هذا النوع من البيانات. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffDoubleType(int tagId) {#TiffDoubleType-int-}
 ```
 public TiffDoubleType(int tagId)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `TiffDoubleType`.
+يُهيئ مثيلًا جديدًا من الفئة `TiffDoubleType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public void setValues(double[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double[] | القيم. |
+| value | double[] | القيم. |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -85,7 +85,7 @@ public int getTagType()
 يحصل على نوع العلامة.
 
 **Returns:**
-int - نوع الوسم.
+int - نوع العلامة.
 ### getElementSize() {#getElementSize--}
 ```
 public byte getElementSize()
@@ -112,12 +112,12 @@ public void setValue(Object value)
 ```
 
 
-يعيّن القيمة التي يحتويها هذا النوع من البيانات.
+يضبط القيمة التي يحتويها هذا النوع من البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | القيمة. |
+| value | java.lang.Object | القيمة. |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -125,7 +125,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -133,4 +133,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

@@ -1,7 +1,7 @@
 ---
 title: "MakerNote"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل سجل Maker Note واحد."
+description: "يمثل سجل ملاحظة صانع واحد."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.exif/makernote/
@@ -12,14 +12,14 @@ java.lang.Object
 public class MakerNote
 ```
 
-يمثل سجل Maker Note واحد.
+يمثل سجل ملاحظة صانع واحد.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getName()](#getName--) | يحصل على اسم الإعداد. |
 | [getValue()](#getValue--) | يحصل على قيمة الإعداد. |
-| [toString()](#toString--) | يحوّل الكائن إلى سلسلة. |
+| [toString()](#toString--) | يحول المثيل إلى سلسلة. |
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -50,7 +50,7 @@ public String toString()
 ```
 
 
-يحوّل الكائن إلى سلسلة.
+يحول المثيل إلى سلسلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

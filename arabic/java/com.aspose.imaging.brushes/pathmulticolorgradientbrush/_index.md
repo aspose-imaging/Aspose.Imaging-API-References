@@ -17,24 +17,24 @@ public final class PathMulticolorGradientBrush extends PathGradientBrushBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PathMulticolorGradientBrush(PointF[] pathPoints)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---) | ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة. |
-| [PathMulticolorGradientBrush(PointF[] pathPoints, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---int-) | ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة ووضع الالتفاف. |
-| [PathMulticolorGradientBrush(Point[] pathPoints)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---) | ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة. |
-| [PathMulticolorGradientBrush(Point[] pathPoints, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---int-) | ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة ووضع الالتفاف. |
-| [PathMulticolorGradientBrush(GraphicsPath path)](#PathMulticolorGradientBrush-com.aspose.imaging.GraphicsPath-) | ينشئ مثيلاً جديدًا للفئة `PathMulticolorGradientBrush` باستخدام المسار المحدد. |
+| [PathMulticolorGradientBrush(PointF[] pathPoints)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---) | ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة. |
+| [PathMulticolorGradientBrush(PointF[] pathPoints, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---int-) | ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة ووضع الالتفاف. |
+| [PathMulticolorGradientBrush(Point[] pathPoints)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---) | ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة. |
+| [PathMulticolorGradientBrush(Point[] pathPoints, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---int-) | ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة ووضع الالتفاف. |
+| [PathMulticolorGradientBrush(GraphicsPath path)](#PathMulticolorGradientBrush-com.aspose.imaging.GraphicsPath-) | ينشئ مثلاً جديداً من الفئة `PathMulticolorGradientBrush` بالمسار المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getInterpolationColors()](#getInterpolationColors--) | يحصل أو يعيّن كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
-| [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | يحصل أو يعيّن كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
+| [getInterpolationColors()](#getInterpolationColors--) | يحصل أو يضبط كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
+| [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | يحصل أو يضبط كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
 ### PathMulticolorGradientBrush(PointF[] pathPoints) {#PathMulticolorGradientBrush-com.aspose.imaging.PointF---}
 ```
 public PathMulticolorGradientBrush(PointF[] pathPoints)
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة.
+ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,13 +47,13 @@ public PathMulticolorGradientBrush(PointF[] pathPoints, int wrapMode)
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة ووضع الالتفاف.
+ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة ووضع الالتفاف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | pathPoints | [PointF\[\]](../../com.aspose.imaging/pointf) | مصفوفة من هياكل [PointF](../../com.aspose.imaging/pointf) التي تمثل النقاط التي تشكل رؤوس المسار. |
-| wrapMode | int | [WrapMode](../../com.aspose.imaging/wrapmode) يحدد كيفية تجانب التعبئات المرسومة باستخدام هذا [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush). |
+| wrapMode | int | [WrapMode](../../com.aspose.imaging/wrapmode) يحدد كيفية تكرار التعبئات المرسومة بهذا [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush). |
 
 ### PathMulticolorGradientBrush(Point[] pathPoints) {#PathMulticolorGradientBrush-com.aspose.imaging.Point---}
 ```
@@ -61,7 +61,7 @@ public PathMulticolorGradientBrush(Point[] pathPoints)
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة.
+ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,13 +74,13 @@ public PathMulticolorGradientBrush(Point[] pathPoints, int wrapMode)
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) باستخدام النقاط المحددة ووضع الالتفاف.
+ينشئ مثلاً جديداً من الفئة [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) بالنقاط المحددة ووضع الالتفاف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | pathPoints | [Point\[\]](../../com.aspose.imaging/point) | مصفوفة من هياكل [Point](../../com.aspose.imaging/point) التي تمثل النقاط التي تشكل رؤوس المسار. |
-| wrapMode | int | [WrapMode](../../com.aspose.imaging/wrapmode) يحدد كيفية تجانب التعبئات المرسومة باستخدام هذا [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush). |
+| wrapMode | int | [WrapMode](../../com.aspose.imaging/wrapmode) يحدد كيفية تكرار التعبئات المرسومة بهذا [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush). |
 
 ### PathMulticolorGradientBrush(GraphicsPath path) {#PathMulticolorGradientBrush-com.aspose.imaging.GraphicsPath-}
 ```
@@ -88,7 +88,7 @@ public PathMulticolorGradientBrush(GraphicsPath path)
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة `PathMulticolorGradientBrush` باستخدام المسار المحدد.
+ينشئ مثلاً جديداً من الفئة `PathMulticolorGradientBrush` بالمسار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -101,9 +101,9 @@ public ColorBlend getInterpolationColors()
 ```
 
 
-يحصل أو يعيّن كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان.
+يحصل أو يضبط كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان.
 
-القيمة: `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان.
+القيمة: `com.aspose.imaging.ColorBlend` يحدد تدرجًا خطيًا متعدد الألوان.
 
 **Returns:**
 [ColorBlend](../../com.aspose.imaging/colorblend)
@@ -113,9 +113,9 @@ public void setInterpolationColors(ColorBlend value)
 ```
 
 
-يحصل أو يعيّن كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان.
+يحصل أو يضبط كائن `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان.
 
-القيمة: `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان.
+القيمة: `com.aspose.imaging.ColorBlend` يحدد تدرجًا خطيًا متعدد الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |

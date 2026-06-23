@@ -17,15 +17,15 @@ public class FeatheringSettings
 
 | المنشئ | الوصف |
 | --- | --- |
-| [FeatheringSettings()](#FeatheringSettings--) | يُنشئ مثيلًا جديدًا للفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings). |
+| [FeatheringSettings()](#FeatheringSettings--) | يقوم بإنشاء نسخة جديدة من الفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) class. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getSize()](#getSize--) | يحصل على حجم التنعيم. |
-| [setSize(int value)](#setSize-int-) | يضبط حجم التنعيم. |
-| [getMode()](#getMode--) | يحصل على وضع خوارزمية التنعيم. |
-| [setMode(int value)](#setMode-int-) | يضبط وضع خوارزمية التنعيم. |
+| [setSize(int value)](#setSize-int-) | يضبط حجم التمويه. |
+| [getMode()](#getMode--) | يحصل على وضع خوارزمية التمويه. |
+| [setMode(int value)](#setMode-int-) | يضبط وضع خوارزمية التمويه. |
 
 ## Example: The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, subtract).
 
@@ -34,11 +34,11 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked-complex.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (845, 128)
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (845, 128)
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية
+            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بواسطة أداة العصا السحرية
             .union(new MagicWandSettings(416, 387))
-            // اعكس القناع الحالي
+            // عكس القناع الحالي
             .invert()
             // اطرح القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية مع العتبة المحددة من القناع الحالي
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
@@ -47,12 +47,12 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // نقّح القناع باستخدام الإعدادات المحددة
+            // تنعيم القناع بالإعدادات المحددة
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة
+    // حفظ الصورة
     image.save(outputFilePath);
 }
 
@@ -64,7 +64,7 @@ public FeatheringSettings()
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings).
+يقوم بإنشاء نسخة جديدة من الفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) class.
 
 ### getSize() {#getSize--}
 ```
@@ -74,24 +74,24 @@ public final int getSize()
 
 يحصل على حجم التنعيم.
 
-القيمة: حجم فرشاة التنعيم بالبكسل.
+القيمة: حجم فرشاة التمويه بالبكسل.
 
 **Returns:**
-int - حجم التنعيم.
+int - حجم التمويه.
 ### setSize(int value) {#setSize-int-}
 ```
 public final void setSize(int value)
 ```
 
 
-يضبط حجم التنعيم.
+يضبط حجم التمويه.
 
-القيمة: حجم فرشاة التنعيم بالبكسل.
+القيمة: حجم فرشاة التمويه بالبكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | حجم التنعيم. |
+| value | int | حجم التمويه. |
 
 ### getMode() {#getMode--}
 ```
@@ -99,24 +99,24 @@ public final int getMode()
 ```
 
 
-يحصل على وضع خوارزمية التنعيم.
+يحصل على وضع خوارزمية التمويه.
 
-القيمة: وضع خوارزمية التنعيم.
+القيمة: وضع خوارزمية التمويه.
 
 **Returns:**
-int - وضع خوارزمية التنعيم.
+int - وضع خوارزمية التمويه.
 ### setMode(int value) {#setMode-int-}
 ```
 public final void setMode(int value)
 ```
 
 
-يضبط وضع خوارزمية التنعيم.
+يضبط وضع خوارزمية التمويه.
 
-القيمة: وضع خوارزمية التنعيم.
+القيمة: وضع خوارزمية التمويه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وضع خوارزمية الريش. |
+| value | int | وضع خوارزمية التمويه. |
 

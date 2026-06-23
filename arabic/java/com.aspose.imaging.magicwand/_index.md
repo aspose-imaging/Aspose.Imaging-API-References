@@ -12,11 +12,11 @@ url: /ar/java/com.aspose.imaging.magicwand/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ColorComparisonMode](../com.aspose.imaging.magicwand/colorcomparisonmode) | يحدد كيفية مقارنة الألوان أثناء خوارزمية Magic Wand. |
 | [ColorYUV](../com.aspose.imaging.magicwand/coloryuv) | يمثل لون YUV. |
 | [FloodFillDirectionalMode](../com.aspose.imaging.magicwand/floodfilldirectionalmode) | يحدد كيفية عمل خوارزمية Magic Wand. |
-| [MagicWandSettings](../com.aspose.imaging.magicwand/magicwandsettings) | فئة إعدادات اختيار magic wand. |
-| [MagicWandTool](../com.aspose.imaging.magicwand/magicwandtool) | الفئة للمنطق الرئيسي لخوارزمية magic wand. |
+| [MagicWandSettings](../com.aspose.imaging.magicwand/magicwandsettings) | فئة إعدادات اختيار Magic Wand. |
+| [MagicWandTool](../com.aspose.imaging.magicwand/magicwandtool) | الفئة الخاصة بالمنطق الرئيسي لخوارزمية magic wand. |
 | [RasterImageExtension](../com.aspose.imaging.magicwand/rasterimageextension) | فئة مع طرق امتداد الأقنعة لـ [RasterImage](../com.aspose.imaging/rasterimage). |

@@ -7,7 +7,7 @@ weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffwriter/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter](../../com.aspose.imaging/fileformats/tiff/filemanagement/tiffstreamwriter)
 ```
 public class BigTiffWriter extends TiffStreamWriter
 ```
@@ -17,7 +17,7 @@ public class BigTiffWriter extends TiffStreamWriter
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BigTiffWriter(StreamContainer writer)](#BigTiffWriter-com.aspose.imaging.StreamContainer-) | ينشئ مثيلاً جديدًا من الفئة [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter). |
+| [BigTiffWriter(StreamContainer writer)](#BigTiffWriter-com.aspose.imaging.StreamContainer-) | يُنشئ مثلاً جديداً من الفئة [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public BigTiffWriter(StreamContainer writer)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter).
+يُنشئ مثلاً جديداً من الفئة [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,4 +45,4 @@ public byte getSizeOfTagValue()
 يحصل على حجم طول قيمة العلامة.
 
 **Returns:**
-بايت - حجم طول قيمة العلامة.
+byte - حجم طول قيمة العلامة.

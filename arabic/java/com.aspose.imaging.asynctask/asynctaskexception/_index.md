@@ -17,14 +17,14 @@ public class AsyncTaskException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [AsyncTaskException(String message)](#AsyncTaskException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة [AsyncTaskException](../../com.aspose.imaging.asynctask/asynctaskexception). |
+| [AsyncTaskException(String message)](#AsyncTaskException-java.lang.String-) | تهيء نسخة جديدة من فئة [AsyncTaskException](../../com.aspose.imaging.asynctask/asynctaskexception) . |
 ### AsyncTaskException(String message) {#AsyncTaskException-java.lang.String-}
 ```
 public AsyncTaskException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة [AsyncTaskException](../../com.aspose.imaging.asynctask/asynctaskexception).
+تهيء نسخة جديدة من فئة [AsyncTaskException](../../com.aspose.imaging.asynctask/asynctaskexception) .
 
 **Parameters:**
 | معامل | نوع | الوصف |

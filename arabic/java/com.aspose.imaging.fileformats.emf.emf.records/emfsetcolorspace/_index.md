@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetColorSpace extends EmfObjectManipulationRecordType
 ```
 
-سجل EMR\_SETCOLORSPACE يعرّف كائن مساحة اللون المنطقية الحالية لعمليات الرسوميات.
+السجل EMR\_SETCOLORSPACE يعرف كائن مساحة اللون المنطقية الحالية لعمليات الرسوم.
 
-يجب استخدام كائن مساحة اللون المنطقي المحدد في هذا السجل في عمليات الرسم التي يتم تحديدها بواسطة سجلات EMF اللاحقة، حتى يتم تحديد كائن مساحة لون منطقي مختلف بواسطة سجل EMR\_SETCOLORSPACE آخر، أو يتم إزالة الكائن بواسطة سجل EMR\_DELETECOLORSPACE.
+يجب استخدام كائن مساحة اللون المنطقية المحدد بهذا السجل في عمليات الرسم التي تحددها سجلات EMF اللاحقة، حتى يتم تحديد كائن مساحة لون منطقية مختلف بواسطة سجل EMR\_SETCOLORSPACE آخر، أو يتم إزالة الكائن بواسطة سجل EMR\_DELETECOLORSPACE.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetColorSpace(EmfRecord source)](#EmfSetColorSpace-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfSetColorSpace`. |
+| [EmfSetColorSpace(EmfRecord source)](#EmfSetColorSpace-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfSetColorSpace`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public EmfSetColorSpace(EmfRecord source)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EmfSetColorSpace`.
+ينشئ مثيلاً جديدًا من الفئة `EmfSetColorSpace`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,5 +64,5 @@ public void setIhCS(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

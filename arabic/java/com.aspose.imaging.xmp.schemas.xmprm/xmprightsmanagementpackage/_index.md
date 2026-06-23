@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class XmpRightsManagementPackage extends XmpPackage
 ```
@@ -24,7 +24,7 @@ public final class XmpRightsManagementPackage extends XmpPackage
 | --- | --- |
 | [addValue(String key, String value)](#addValue-java.lang.String-java.lang.String-) | يضيف خاصية نصية. |
 | [setCertificate(String certificate)](#setCertificate-java.lang.String-) | يضبط الشهادة. |
-| [setMarkedAsRightManagement(boolean value)](#setMarkedAsRightManagement-boolean-) | يُعلِم كمحتوى إدارة الحقوق |
+| [setMarkedAsRightManagement(boolean value)](#setMarkedAsRightManagement-boolean-) | يُعلِّم كمحتوى إدارة حقوق. |
 | [setOwners(String[] owners)](#setOwners-java.lang.String---) | يضبط المالكين. |
 | [setUsageTerms(LangAlt usageTerms)](#setUsageTerms-com.aspose.imaging.xmp.LangAlt-) | يضبط شروط الاستخدام. |
 | [setWebStatement(String webStatementUrl)](#setWebStatement-java.lang.String-) | يضبط بيان الويب. |
@@ -47,8 +47,8 @@ public void addValue(String key, String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه مع القيمة المضافة. |
-| القيمة | java.lang.String | القيمة النصية. |
+| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه بالقيمة المضافة. |
+| value | java.lang.String | القيمة النصية. |
 
 ### setCertificate(String certificate) {#setCertificate-java.lang.String-}
 ```
@@ -69,12 +69,12 @@ public void setMarkedAsRightManagement(boolean value)
 ```
 
 
-يُعلِم كمحتوى إدارة الحقوق
+يُعلِّم كمحتوى إدارة حقوق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | إذا تم تعيينه إلى `true` فهذا يعني أن المورد مُدار الحقوق. |
+| value | boolean | إذا تم تعيينه إلى `true` فهذا مورد مُدار بالحقوق. |
 
 ### setOwners(String[] owners) {#setOwners-java.lang.String---}
 ```
@@ -113,5 +113,5 @@ public void setWebStatement(String webStatementUrl)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| webStatementUrl | java.lang.String | عنوان URL لبيان الويب. |
+| webStatementUrl | java.lang.String | عنوان URL للبيان الويب. |
 

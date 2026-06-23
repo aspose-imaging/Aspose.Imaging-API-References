@@ -1,7 +1,7 @@
 ---
 title: "WmfTernaryRasterOperation"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد التعداد رموز عملية النقطية الثلاثية التي تُعرّف كيفية دمج البتات في صورة نقطية مصدر مع البتات في صورة نقطية هدف."
+description: "يحدد تعداد رموز عملية الرستر الثلاثية التي تُعرّف كيفية دمج البتات في صورة المصدر مع البتات في صورة الوجهة."
 type: docs
 weight: 34
 url: /ar/java/com.aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
@@ -12,61 +12,61 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WmfTernaryRasterOperation extends System.Enum
 ```
 
-يحدد التعداد رموز عمليات الرستر الثلاثية، التي تحدد كيفية دمج البتات في صورة المصدر مع البتات في صورة الوجهة.
+يحدد تعداد رموز عمليات النقطية الثلاثية، التي تُعرّف كيفية دمج البتات في صورة المصدر مع البتات في صورة الوجهة.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [BLACKNESS](#BLACKNESS) | يملأ المستطيل الهدف باستخدام اللون المرتبط بالمؤشر 0 في لوحة الألوان الفيزيائية. |
+| [BLACKNESS](#BLACKNESS) | يملأ المستطيل الوجهة باستخدام اللون المرتبط بالمؤشر 0 في لوحة الألوان الفعلية. |
 |  | [DPSOON](#DPSOON) | -------------------- |
 
-Reverse Polish = Common = DPSoon |
+العكس البولندي = عام = DPSoon |
 |  | [DPSONA](#DPSONA) | -------------------- |
 
-Reverse Polish = Common = DPSona |
+العكس البولندي = عام = DPSona |
 |  | [PSON](#PSON) | -------------------- |
 
-Reverse Polish = Common = PSon |
+العكس البولندي = عام = PSon |
 |  | [SDPONA](#SDPONA) | -------------------- |
 
-Reverse Polish = Common = SDPona |
+العكس البولندي = عام = SDPona |
 |  | [DPON](#DPON) | -------------------- |
 
-Reverse Polish = Common = DPon |
+العكس البولندي = عام = DPon |
 |  | [PDSXNON](#PDSXNON) | -------------------- |
 
-Reverse Polish = Common = PDSxnon |
+العكس البولندي = عام = PDSxnon |
 |  | [PDSAON](#PDSAON) | -------------------- |
 
-Reverse Polish = Common = PDSaon |
+العكس البولندي = عام = PDSaon |
 |  | [SDPNAA](#SDPNAA) | -------------------- |
 
-Reverse Polish = Common = SDPnaa |
+العكس البولندي = عام = SDPnaa |
 |  | [PDSXON](#PDSXON) | -------------------- |
 
-Reverse Polish = Common = PDSxon |
+العكس البولندي = عام = PDSxon |
 |  | [DPNA](#DPNA) | -------------------- |
 
-Reverse Polish = Common = DPna |
+العكس البولندي = عام = DPna |
 |  | [PSDNAON](#PSDNAON) | -------------------- |
 
-Reverse Polish = Common = PSDnaon |
+العكس البولندي = عام = PSDnaon |
 |  | [SPNA](#SPNA) | -------------------- |
 
-Reverse Polish = Common = SPna |
+العكس البولندي = عام = SPna |
 |  | [PDSNAON](#PDSNAON) | -------------------- |
 
-Reverse Polish = Common = PDSnaon |
+العكس البولندي = عام = PDSnaon |
 |  | [PDSONON](#PDSONON) | -------------------- |
 
-Reverse Polish = Common = PDSonon |
+العكس البولندي = عام = PDSonon |
 |  | [PN](#PN) | -------------------- |
 
-Reverse Polish = Common = Pn |
+العكس البولندي = عام = Pn |
 |  | [PDSONA](#PDSONA) | -------------------- |
 
-Reverse Polish = Common = PDSona |
-| [NOTSRCERASE](#NOTSRCERASE) | يجمع ألوان المستطيلات المصدر والهدف باستخدام عامل OR المنطقي ثم يعكس اللون الناتج. |
+العكس البولندي = عام = PDSona |
+| [NOTSRCERASE](#NOTSRCERASE) | يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل OR المنطقي ثم يعكس اللون الناتج. |
 |  | [SDPXNON](#SDPXNON) | -------------------- |
 
 العكس البولندي = عام = SDPxnon |
@@ -193,77 +193,77 @@ Reverse Polish = Common = PDSona |
 العكس البولندي = عام = SPDnoan |
 |  | [PSX](#PSX) | -------------------- |
 
-العكس البولندي = عام = PSx |
+العكسية البولندية = عام = PSx |
 |  | [SPDSONOX](#SPDSONOX) | -------------------- |
 
-العكس البولندي = عام = SPDSonox |
+العكسية البولندية = عام = SPDSonox |
 |  | [SPDSNAOX](#SPDSNAOX) | -------------------- |
 
-العكس البولندي = عام = SPDSnaox |
+العكسية البولندية = عام = SPDSnaox |
 |  | [PSAN](#PSAN) | -------------------- |
 
-العكس البولندي = عام = PSan |
+العكسية البولندية = عام = PSan |
 |  | [PSDNAA](#PSDNAA) | -------------------- |
 
-العكس البولندي = عام = PSDnaa |
+العكسية البولندية = عام = PSDnaa |
 |  | [DPSXON](#DPSXON) | -------------------- |
 
-العكس البولندي = عام = DPSxon |
+العكسية البولندية = عام = DPSxon |
 |  | [SDXPDXA](#SDXPDXA) | -------------------- |
 
-العكس البولندي = عام = SDxPDxa |
+العكسية البولندية = عام = SDxPDxa |
 |  | [SPDSANAXN](#SPDSANAXN) | -------------------- |
 
-العكس البولندي = عام = SPDSanaxn |
-| [SRCERASE](#SRCERASE) | يجمع الألوان المعكوسة للمستطيل الهدف مع ألوان المستطيل المصدر باستخدام عامل Boolean AND. |
+العكسية البولندية = عام = SPDSanaxn |
+| [SRCERASE](#SRCERASE) | يجمع الألوان المعكوسة للمستطيل الوجهة مع ألوان المستطيل المصدر باستخدام عامل AND البولياني. |
 |  | [DPSNAON](#DPSNAON) | -------------------- |
 
-العكس البولندي = عام = DPSnaon |
+العكسية البولندية = عام = DPSnaon |
 |  | [DSPDAOX](#DSPDAOX) | -------------------- |
 
-العكس البولندي = عام = DSPDaox |
+العكسية البولندية = عام = DSPDaox |
 |  | [PSDPXAXN](#PSDPXAXN) | -------------------- |
 
-العكس البولندي = عام = PSDPxaxn |
+العكسية البولندية = عام = PSDPxaxn |
 |  | [SDPXA](#SDPXA) | -------------------- |
 
-العكس البولندي = عام = SDPxa |
+العكسية البولندية = عام = SDPxa |
 |  | [PDSPDAOXXN](#PDSPDAOXXN) | -------------------- |
 
-العكس البولندي = عام = PDSPDaoxxn |
+العكسية البولندية = عام = PDSPDaoxxn |
 |  | [DPSDOAX](#DPSDOAX) | -------------------- |
 
-العكس البولندي = عام = DPSDoax |
+العكسية البولندية = عام = DPSDoax |
 |  | [PDSNOX](#PDSNOX) | -------------------- |
 
-العكس البولندي = عام = PDSnox |
+العكسية البولندية = عام = PDSnox |
 |  | [SDPANA](#SDPANA) | -------------------- |
 
-العكس البولندي = عام = SDPana |
+العكسية البولندية = عام = SDPana |
 |  | [SSPXDSXOXN](#SSPXDSXOXN) | -------------------- |
 
-العكس البولندي = عام = SSPxDSxoxn |
+العكسية البولندية = عام = SSPxDSxoxn |
 |  | [PDSPXOX](#PDSPXOX) | -------------------- |
 
-العكس البولندي = عام = PDSPxox |
+العكسية البولندية = عام = PDSPxox |
 |  | [PDSNOAN](#PDSNOAN) | -------------------- |
 
-العكس البولندي = عام = PDSnoan |
+العكسية البولندية = عام = PDSnoan |
 |  | [PDNA](#PDNA) | -------------------- |
 
-العكس البولندي = عام = PDna |
+العكسية البولندية = عام = PDna |
 |  | [DSPNAON](#DSPNAON) | -------------------- |
 
-العكس البولندي = عام = DSPnaon |
+العكسية البولندية = عام = DSPnaon |
 |  | [DPSDAOX](#DPSDAOX) | -------------------- |
 
-العكس البولندي = عام = DPSDaox |
+العكسية البولندية = عام = DPSDaox |
 |  | [SPDSXAXN](#SPDSXAXN) | -------------------- |
 
-العكس البولندي = عام = SPDSxaxn |
+العكسية البولندية = عام = SPDSxaxn |
 |  | [DPSONON](#DPSONON) | -------------------- |
 
-العكس البولندي = عام = DPSonon |
+العكسية البولندية = عام = DPSonon |
 | [DSTINVERT](#DSTINVERT) | يعكس المستطيل الهدف. |
 |  | [DPSOX](#DPSOX) | -------------------- |
 
@@ -277,7 +277,7 @@ Reverse Polish = Common = PDSona |
 |  | [DPSNOX](#DPSNOX) | -------------------- |
 
 عام = DPSnox |
-| [PATINVERT](#PATINVERT) | يجمع ألوان الفرشاة المحددة حاليًا في hdcDest مع ألوان المستطيل الهدف باستخدام عامل Boolean XOR. |
+| [PATINVERT](#PATINVERT) | يجمع ألوان الفرشاة المحددة حاليًا في hdcDest، مع ألوان المستطيل الهدف باستخدام عامل XOR المنطقي. |
 |  | [DPSDONOX](#DPSDONOX) | -------------------- |
 
 عام = DPSDonox |
@@ -311,7 +311,7 @@ Reverse Polish = Common = PDSona |
 |  | [DSPNOX](#DSPNOX) | -------------------- |
 
 عام = DSPnox |
-| [SRCINVERT](#SRCINVERT) | يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل XOR المنطقي. |
+| [SRCINVERT](#SRCINVERT) | يجمع ألوان المستطيلين المصدر والهدف باستخدام عامل XOR المنطقي. |
 |  | [SDPSONOX](#SDPSONOX) | -------------------- |
 
 عام = SDPSonox |
@@ -335,83 +335,83 @@ Reverse Polish = Common = PDSona |
 عام = PDSPDoaxxn |
 |  | [SDPSNOAX](#SDPSNOAX) | -------------------- |
 
-عام = SDPSnoax |
+مشترك = SDPSnoax |
 |  | [PDXNAN](#PDXNAN) | -------------------- |
 
-عام = PDXnan |
+مشترك = PDXnan |
 |  | [PDSANA](#PDSANA) | -------------------- |
 
-عام = PDSana |
+مشترك = PDSana |
 |  | [SSDXPDXAXN](#SSDXPDXAXN) | -------------------- |
 
-عام = SSDxPDxaxn |
+مشترك = SSDxPDxaxn |
 |  | [SDPSXOX](#SDPSXOX) | -------------------- |
 
-عام = SDPSxox |
+مشترك = SDPSxox |
 |  | [SDPNOAN](#SDPNOAN) | -------------------- |
 
-عام = SDPnoan |
+مشترك = SDPnoan |
 |  | [DSPDXOX](#DSPDXOX) | -------------------- |
 
-عام = DSPDxox |
+مشترك = DSPDxox |
 |  | [DSPNOAN](#DSPNOAN) | -------------------- |
 
-عام = DSPnoan |
+مشترك = DSPnoan |
 |  | [SDPSNAOX](#SDPSNAOX) | -------------------- |
 
-عام = SDPSnaox |
+مشترك = SDPSnaox |
 |  | [DSAN](#DSAN) | -------------------- |
 
-عام = DSan |
+مشترك = DSan |
 |  | [PDSAX](#PDSAX) | -------------------- |
 
-عام = PDSax |
+مشترك = PDSax |
 |  | [DSPDSOAXXN](#DSPDSOAXXN) | -------------------- |
 
-عام = DSPDSoaxxn |
+مشترك = DSPDSoaxxn |
 |  | [DPSDNOAX](#DPSDNOAX) | -------------------- |
 
-عام = DPSDnoax |
+مشترك = DPSDnoax |
 |  | [SDPXNAN](#SDPXNAN) | -------------------- |
 
-عام = SDPxnan |
+مشترك = SDPxnan |
 |  | [SPDSNOAX](#SPDSNOAX) | -------------------- |
 
-عام = SPDSnoax |
+مشترك = SPDSnoax |
 |  | [DPSXNAN](#DPSXNAN) | -------------------- |
 
-عام = DPSxnan |
+مشترك = DPSxnan |
 |  | [SPXDSXO](#SPXDSXO) | -------------------- |
 
-عام = SPxDSxo |
+مشترك = SPxDSxo |
 |  | [DPSAAN](#DPSAAN) | -------------------- |
 
-عام = DPSaan |
+مشترك = DPSaan |
 |  | [DPSAA](#DPSAA) | -------------------- |
 
-عام = DPSaa |
+مشترك = DPSaa |
 |  | [SPXDSXON](#SPXDSXON) | -------------------- |
 
-عام = SPxDSxon |
+مشترك = SPxDSxon |
 |  | [DPSXNA](#DPSXNA) | -------------------- |
 
-عام = DPSxna |
+مشترك = DPSxna |
 |  | [SPDSNOAXN](#SPDSNOAXN) | -------------------- |
 
-عام = SPDSnoaxn |
+مشترك = SPDSnoaxn |
 |  | [SDPXNA](#SDPXNA) | -------------------- |
 
-عام = SDPxna |
+مشترك = SDPxna |
 |  | [PDSPNOAXN](#PDSPNOAXN) | -------------------- |
 
-عام = PDSPnoaxn |
+مشترك = PDSPnoaxn |
 |  | [DSPDSOAXX](#DSPDSOAXX) | -------------------- |
 
-عام = DSPDSoaxx |
+مشترك = DSPDSoaxx |
 |  | [PDSAXN](#PDSAXN) | -------------------- |
 
 عام = PDSaxn |
-| [SRCAND](#SRCAND) | يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل AND المنطقي. |
+| [SRCAND](#SRCAND) | يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل Boolean AND. |
 |  | [SDPSNAOXN](#SDPSNAOXN) | -------------------- |
 
 عام = SDPSnaoxn |
@@ -432,137 +432,137 @@ Reverse Polish = Common = PDSona |
 عام = SSDxPDxax |
 |  | [PDSANAN](#PDSANAN) | -------------------- |
 
-مشترك = PDSanan |
+عام = PDSanan |
 |  | [PDSXNA](#PDSXNA) | -------------------- |
 
-مشترك = PDSxna |
+عام = PDSxna |
 |  | [SDPSNOAXN](#SDPSNOAXN) | -------------------- |
 
-مشترك = SDPSnoaxn |
+عام = SDPSnoaxn |
 |  | [DPSDPOAXX](#DPSDPOAXX) | -------------------- |
 
-مشترك = DPSDPoaxx |
+عام = DPSDPoaxx |
 |  | [SPDAXN](#SPDAXN) | -------------------- |
 
-مشترك = SPDaxn |
+عام = SPDaxn |
 |  | [PSDPSOAXX](#PSDPSOAXX) | -------------------- |
 
-مشترك = PSDPSoaxx |
+عام = PSDPSoaxx |
 |  | [DPSAXN](#DPSAXN) | -------------------- |
 
-مشترك = DPSaxn |
+عام = DPSaxn |
 |  | [DPSXX](#DPSXX) | -------------------- |
 
-مشترك = DPSxx |
+عام = DPSxx |
 |  | [PSDPSONOXX](#PSDPSONOXX) | -------------------- |
 
-مشترك = PSDPSonoxx |
+عام = PSDPSonoxx |
 |  | [SDPSONOXN](#SDPSONOXN) | -------------------- |
 
-مشترك = SDPSonoxn |
+عام = SDPSonoxn |
 |  | [DSXN](#DSXN) | -------------------- |
 
-مشترك = DSxn |
+عام = DSxn |
 |  | [DPSNAX](#DPSNAX) | -------------------- |
 
-مشترك = DPSnax |
+عام = DPSnax |
 |  | [SDPSOAXN](#SDPSOAXN) | -------------------- |
 
-مشترك = SDPSoaxn |
+عام = SDPSoaxn |
 |  | [SPDNAX](#SPDNAX) | -------------------- |
 
-مشترك = SPDnax |
+عام = SPDnax |
 |  | [DSPDOAXN](#DSPDOAXN) | -------------------- |
 
-مشترك = DSPDoaxn |
+عام = DSPDoaxn |
 |  | [DSPDSAOXX](#DSPDSAOXX) | -------------------- |
 
-مشترك = DSPDSaoxx |
+عام = DSPDSaoxx |
 |  | [PDSXAN](#PDSXAN) | -------------------- |
 
-مشترك = PDSxan |
+عام = PDSxan |
 |  | [DPA](#DPA) | -------------------- |
 
-مشترك = DPa |
+عام = DPa |
 |  | [PDSPNAOXN](#PDSPNAOXN) | -------------------- |
 
-مشترك = PDSPnaoxn |
+عام = PDSPnaoxn |
 |  | [DPSNOA](#DPSNOA) | -------------------- |
 
-مشترك = DPSnoa |
+عام = DPSnoa |
 |  | [DPSDXOXN](#DPSDXOXN) | -------------------- |
 
-مشترك = DPSDxoxn |
+عام = DPSDxoxn |
 |  | [PDSPONOXN](#PDSPONOXN) | -------------------- |
 
-مشترك = PDSPonoxn |
+عام = PDSPonoxn |
 |  | [PDXN](#PDXN) | -------------------- |
 
-مشترك = PDxn |
+عام = PDxn |
 |  | [DSPNAX](#DSPNAX) | -------------------- |
 
-مشترك = DSPnax |
+عام = DSPnax |
 |  | [PDSPOAXN](#PDSPOAXN) | -------------------- |
 
-مشترك = PDSPoaxn |
+عام = PDSPoaxn |
 |  | [DPSOA](#DPSOA) | -------------------- |
 
-مشترك = DPSoa |
+عام = DPSoa |
 |  | [DPSOXN](#DPSOXN) | -------------------- |
 
-مشترك = DPSoxn |
+عام = DPSoxn |
 |  | [D](#D) | -------------------- |
 
-مشترك = D |
+عام = D |
 |  | [DPSONO](#DPSONO) | -------------------- |
 
-مشترك = DPSono |
+عام = DPSono |
 |  | [SPDSXAX](#SPDSXAX) | -------------------- |
 
-مشترك = SPDSxax |
+عام = SPDSxax |
 |  | [DPSDAOXN](#DPSDAOXN) | -------------------- |
 
-مشترك = DPSDaoxn |
+عام = DPSDaoxn |
 |  | [DSPNAO](#DSPNAO) | -------------------- |
 
-مشترك = DSPnao |
+عام = DSPnao |
 |  | [DPNO](#DPNO) | -------------------- |
 
-مشترك = DPno |
+عام = DPno |
 |  | [PDSNOA](#PDSNOA) | -------------------- |
 
-مشترك = PDSnoa |
+عام = PDSnoa |
 |  | [PDSPXOXN](#PDSPXOXN) | -------------------- |
 
-مشترك = 00B10665 |
+عام = 00B10665 |
 |  | [SSPXDSXOX](#SSPXDSXOX) | -------------------- |
 
-مشترك = SSPxDSxox |
+عام = SSPxDSxox |
 |  | [SDPANAN](#SDPANAN) | -------------------- |
 
-مشترك = SDPanan |
+عام = SDPanan |
 |  | [PSDNAX](#PSDNAX) | -------------------- |
 
-مشترك = PSDnax |
+عام = PSDnax |
 |  | [DPSDOAXN](#DPSDOAXN) | -------------------- |
 
-مشترك = DPSDoaxn |
+عام = DPSDoaxn |
 |  | [DPSDPAOXX](#DPSDPAOXX) | -------------------- |
 
-مشترك = DPSDPaoxx |
+عام = DPSDPaoxx |
 |  | [SDPXAN](#SDPXAN) | -------------------- |
 
-مشترك = SDPxan |
+عام = SDPxan |
 |  | [PSDPXAX](#PSDPXAX) | -------------------- |
 
-مشترك = PSDPxax |
+عام = PSDPxax |
 |  | [DSPDAOXN](#DSPDAOXN) | -------------------- |
 
 مشترك = DSPDaoxn |
 |  | [DPSNAO](#DPSNAO) | -------------------- |
 
 مشترك = DPSnao |
-| [MERGEPAINT](#MERGEPAINT) | يدمج ألوان المستطيل المصدر المقلوب مع ألوان المستطيل الهدف باستخدام عامل Boolean OR. |
+| [MERGEPAINT](#MERGEPAINT) | يدمج ألوان المستطيل المصدر المقلوب مع ألوان المستطيل الوجهة باستخدام عامل Boolean OR. |
 |  | [SPDSANAX](#SPDSANAX) | -------------------- |
 
 مشترك = SPDSanax |
@@ -578,53 +578,53 @@ Reverse Polish = Common = PDSona |
 | [MERGECOPY](#MERGECOPY) | يدمج ألوان المستطيل المصدر مع الفرشاة المحددة حاليًا في hdcDest، باستخدام عامل Boolean AND. |
 |  | [SPDSNAOXN](#SPDSNAOXN) | -------------------- |
 
-عام = SPDSnaoxn |
+مشترك = SPDSnaoxn |
 |  | [SPDSONOXN](#SPDSONOXN) | -------------------- |
 
-عام = SPDSonoxn |
+مشترك = SPDSonoxn |
 |  | [PSXN](#PSXN) | -------------------- |
 
-عام = PSxn |
+مشترك = PSxn |
 |  | [SPDNOA](#SPDNOA) | -------------------- |
 
-عام = SPDnoa |
+مشترك = SPDnoa |
 |  | [SPDSXOXN](#SPDSXOXN) | -------------------- |
 
-عام = SPDSxoxn |
+مشترك = SPDSxoxn |
 |  | [SDPNAX](#SDPNAX) | -------------------- |
 
-عام = SDPnax |
+مشترك = SDPnax |
 |  | [PSDPOAXN](#PSDPOAXN) | -------------------- |
 
-عام = PSDPoaxn |
+مشترك = PSDPoaxn |
 |  | [SDPOA](#SDPOA) | -------------------- |
 
-عام = SDPoa |
+مشترك = SDPoa |
 |  | [SPDOXN](#SPDOXN) | -------------------- |
 
-عام = SPDoxn |
+مشترك = SPDoxn |
 |  | [DPSDXAX](#DPSDXAX) | -------------------- |
 
-عام = DPSDxax |
+مشترك = DPSDxax |
 |  | [SPDSAOXN](#SPDSAOXN) | -------------------- |
 
-عام = SPDSaoxn |
-| [SRCCOPY](#SRCCOPY) | ينسخ المستطيل المصدر مباشرةً إلى المستطيل الهدف. |
+مشترك = SPDSaoxn |
+| [SRCCOPY](#SRCCOPY) | ينسخ المستطيل المصدر مباشرةً إلى المستطيل الوجهة. |
 |  | [SDPONO](#SDPONO) | -------------------- |
 
-عام = SDPono |
+مشترك = SDPono |
 |  | [SDPNAO](#SDPNAO) | -------------------- |
 
-عام = SDPnao |
+مشترك = SDPnao |
 |  | [SPNO](#SPNO) | -------------------- |
 
-عام = SPno |
+مشترك = SPno |
 |  | [PSDNOA](#PSDNOA) | -------------------- |
 
-عام = PSDnoa |
+مشترك = PSDnoa |
 |  | [PSDPXOXN](#PSDPXOXN) | -------------------- |
 
-عام = PSDPxoxn |
+مشترك = PSDPxoxn |
 |  | [PDSNAX](#PDSNAX) | -------------------- |
 
 عام = PDSnax |
@@ -702,70 +702,70 @@ Reverse Polish = Common = PDSona |
 عام = DPSao |
 |  | [DPSXNO](#DPSXNO) | -------------------- |
 
-عام = DPSxno |
+مشترك = DPSxno |
 |  | [SDPAO](#SDPAO) | -------------------- |
 
-عام = SDPao |
+مشترك = SDPao |
 |  | [SDPXNO](#SDPXNO) | -------------------- |
 
-عام = SDPxno |
-| [SRCPAINT](#SRCPAINT) | يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل OR المنطقي. |
+مشترك = SDPxno |
+| [SRCPAINT](#SRCPAINT) | يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل Boolean OR. |
 |  | [SDPNOO](#SDPNOO) | -------------------- |
 
-عام = SDPnoo |
+مشترك = SDPnoo |
 | [PATCOPY](#PATCOPY) | ينسخ الفرشاة المحددة حاليًا في hdcDest إلى صورة البت الوجهة. |
 |  | [PDSONO](#PDSONO) | -------------------- |
 
-عام = PDSono |
+مشترك = PDSono |
 |  | [PDSNAO](#PDSNAO) | -------------------- |
 
-عام = PDSnao |
+مشترك = PDSnao |
 |  | [PSNO](#PSNO) | -------------------- |
 
-عام = PSno |
+مشترك = PSno |
 |  | [PSDNAO](#PSDNAO) | -------------------- |
 
-عام = PSDnao |
+مشترك = PSDnao |
 |  | [PDNO](#PDNO) | -------------------- |
 
-عام = PDno |
+مشترك = PDno |
 |  | [PDSXO](#PDSXO) | -------------------- |
 
-عام = PDSxo |
+مشترك = PDSxo |
 |  | [PDSANO](#PDSANO) | -------------------- |
 
-عام = PDSano |
+مشترك = PDSano |
 |  | [PDSAO](#PDSAO) | -------------------- |
 
-عام = PDSao |
+مشترك = PDSao |
 |  | [PDSXNO](#PDSXNO) | -------------------- |
 
-عام = PDSxno |
+مشترك = PDSxno |
 |  | [DPO](#DPO) | -------------------- |
 
-عام = DPo |
-| [PATPAINT](#PATPAINT) | يجمع ألوان الفرشاة المحددة حاليًا في hdcDest، مع ألوان المستطيل المصدر المقلوب باستخدام عامل Boolean OR. |
+مشترك = DPo |
+| [PATPAINT](#PATPAINT) | يجمع ألوان الفرشاة المحددة حاليًا في hdcDest مع ألوان المستطيل المصدر المعكوس باستخدام عامل Boolean OR. |
 |  | [PSO](#PSO) | -------------------- |
 
-عام = PSo |
+مشترك = PSo |
 |  | [PSDNOO](#PSDNOO) | -------------------- |
 
-عام = PSDnoo |
+مشترك = PSDnoo |
 |  | [DPSOO](#DPSOO) | -------------------- |
 
-عام = DPSoo |
-| [WHITENESS](#WHITENESS) | يملأ المستطيل الوجهة باستخدام اللون المرتبط بالفهرس 1 في لوحة الألوان الفعلية. |
+مشترك = DPSoo |
+| [WHITENESS](#WHITENESS) | يملأ المستطيل الوجهة باستخدام اللون المرتبط بالفهرس 1 في لوحة الألوان الفيزيائية. |
 ### BLACKNESS {#BLACKNESS}
 ```
 public static final int BLACKNESS
 ```
 
 
-يملأ المستطيل الوجهة باستخدام اللون المرتبط بالفهرس 0 في لوحة الألوان الفعلية. (هذا اللون هو الأسود للوحة الألوان الفعلية الافتراضية.)
+يملأ المستطيل الوجهة باستخدام اللون المرتبط بالفهرس 0 في لوحة الألوان الفيزيائية. (هذا اللون هو الأسود للوحة الألوان الفيزيائية الافتراضية.)
 
 --------------------
 
-العكس البولندي = عام = 0
+العكس البولندي = مشترك = 0
 
 ### DPSOON {#DPSOON}
 ```
@@ -775,7 +775,7 @@ public static final int DPSOON
 
 --------------------
 
-العكس البولندي = عام = DPSoon
+العكس البولندي = مشترك = DPSoon
 
 ### DPSONA {#DPSONA}
 ```
@@ -785,7 +785,7 @@ public static final int DPSONA
 
 --------------------
 
-العكس البولندي = عام = DPSona
+العكس البولندي = مشترك = DPSona
 
 ### PSON {#PSON}
 ```
@@ -933,7 +933,7 @@ public static final int NOTSRCERASE
 ```
 
 
-يجمع ألوان المستطيلات المصدر والهدف باستخدام عامل OR المنطقي ثم يعكس اللون الناتج.
+يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل OR المنطقي ثم يعكس اللون الناتج.
 
 --------------------
 
@@ -1447,7 +1447,7 @@ public static final int SRCERASE
 ```
 
 
-يجمع الألوان المعكوسة للمستطيل الهدف مع ألوان المستطيل المصدر باستخدام عامل Boolean AND.
+يجمع الألوان المعكوسة للمستطيل الوجهة مع ألوان المستطيل المصدر باستخدام عامل AND البولياني.
 
 --------------------
 
@@ -1551,7 +1551,7 @@ public static final int PDSPXOX
 
 --------------------
 
-العكس البولندي = عام = PDSPxox
+العكسية البولندية = عام = PDSPxox
 
 ### PDSNOAN {#PDSNOAN}
 ```
@@ -1561,7 +1561,7 @@ public static final int PDSNOAN
 
 --------------------
 
-العكس البولندي = عام = PDSnoan
+العكسية البولندية = عام = PDSnoan
 
 ### PDNA {#PDNA}
 ```
@@ -1571,7 +1571,7 @@ public static final int PDNA
 
 --------------------
 
-العكس البولندي = عام = PDna
+العكسية البولندية = عام = PDna
 
 ### DSPNAON {#DSPNAON}
 ```
@@ -1581,7 +1581,7 @@ public static final int DSPNAON
 
 --------------------
 
-العكس البولندي = عام = DSPnaon
+العكسية البولندية = عام = DSPnaon
 
 ### DPSDAOX {#DPSDAOX}
 ```
@@ -1591,7 +1591,7 @@ public static final int DPSDAOX
 
 --------------------
 
-العكس البولندي = عام = DPSDaox
+العكسية البولندية = عام = DPSDaox
 
 ### SPDSXAXN {#SPDSXAXN}
 ```
@@ -1601,7 +1601,7 @@ public static final int SPDSXAXN
 
 --------------------
 
-العكس البولندي = عام = SPDSxaxn
+العكسية البولندية = عام = SPDSxaxn
 
 ### DPSONON {#DPSONON}
 ```
@@ -1611,7 +1611,7 @@ public static final int DPSONON
 
 --------------------
 
-العكس البولندي = عام = DPSonon
+العكسية البولندية = عام = DPSonon
 
 ### DSTINVERT {#DSTINVERT}
 ```
@@ -1623,7 +1623,7 @@ public static final int DSTINVERT
 
 --------------------
 
-العكس البولندي = عام = Dn
+العكسية البولندية = عام = Dn
 
 ### DPSOX {#DPSOX}
 ```
@@ -1633,7 +1633,7 @@ public static final int DPSOX
 
 --------------------
 
-العكس البولندي = عام = DPSox
+العكسية البولندية = عام = DPSox
 
 ### DPSOAN {#DPSOAN}
 ```
@@ -1643,7 +1643,7 @@ public static final int DPSOAN
 
 --------------------
 
-العكس البولندي = عام = DPSoan
+العكسية البولندية = عام = DPSoan
 
 ### PDSPOAX {#PDSPOAX}
 ```
@@ -1653,7 +1653,7 @@ public static final int PDSPOAX
 
 --------------------
 
-العكس البولندي = عام = PDSPoax
+العكسية البولندية = عام = PDSPoax
 
 ### DPSNOX {#DPSNOX}
 ```
@@ -1671,7 +1671,7 @@ public static final int PATINVERT
 ```
 
 
-يجمع ألوان الفرشاة المحددة حاليًا في hdcDest مع ألوان المستطيل الهدف باستخدام عامل Boolean XOR.
+يجمع ألوان الفرشاة المحددة حاليًا في hdcDest، مع ألوان المستطيل الهدف باستخدام عامل XOR المنطقي.
 
 --------------------
 
@@ -1793,7 +1793,7 @@ public static final int SRCINVERT
 ```
 
 
-يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل XOR المنطقي.
+يجمع ألوان المستطيلين المصدر والهدف باستخدام عامل XOR المنطقي.
 
 --------------------
 
@@ -2057,7 +2057,7 @@ public static final int DPSAA
 
 --------------------
 
-عام = DPSaa
+مشترك = DPSaa
 
 ### SPXDSXON {#SPXDSXON}
 ```
@@ -2067,7 +2067,7 @@ public static final int SPXDSXON
 
 --------------------
 
-عام = SPxDSxon
+مشترك = SPxDSxon
 
 ### DPSXNA {#DPSXNA}
 ```
@@ -2077,7 +2077,7 @@ public static final int DPSXNA
 
 --------------------
 
-عام = DPSxna
+مشترك = DPSxna
 
 ### SPDSNOAXN {#SPDSNOAXN}
 ```
@@ -2087,7 +2087,7 @@ public static final int SPDSNOAXN
 
 --------------------
 
-عام = SPDSnoaxn
+مشترك = SPDSnoaxn
 
 ### SDPXNA {#SDPXNA}
 ```
@@ -2097,7 +2097,7 @@ public static final int SDPXNA
 
 --------------------
 
-عام = SDPxna
+مشترك = SDPxna
 
 ### PDSPNOAXN {#PDSPNOAXN}
 ```
@@ -2107,7 +2107,7 @@ public static final int PDSPNOAXN
 
 --------------------
 
-عام = PDSPnoaxn
+مشترك = PDSPnoaxn
 
 ### DSPDSOAXX {#DSPDSOAXX}
 ```
@@ -2117,7 +2117,7 @@ public static final int DSPDSOAXX
 
 --------------------
 
-عام = DSPDSoaxx
+مشترك = DSPDSoaxx
 
 ### PDSAXN {#PDSAXN}
 ```
@@ -2127,7 +2127,7 @@ public static final int PDSAXN
 
 --------------------
 
-عام = PDSaxn
+مشترك = PDSaxn
 
 ### SRCAND {#SRCAND}
 ```
@@ -2135,11 +2135,11 @@ public static final int SRCAND
 ```
 
 
-يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل AND المنطقي.
+يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل Boolean AND.
 
 --------------------
 
-عام = DSa
+مشترك = DSa
 
 ### SDPSNAOXN {#SDPSNAOXN}
 ```
@@ -2149,7 +2149,7 @@ public static final int SDPSNAOXN
 
 --------------------
 
-عام = SDPSnaoxn
+مشترك = SDPSnaoxn
 
 ### DSPNOA {#DSPNOA}
 ```
@@ -2159,7 +2159,7 @@ public static final int DSPNOA
 
 --------------------
 
-عام = DSPnoa
+مشترك = DSPnoa
 
 ### DSPDXOXN {#DSPDXOXN}
 ```
@@ -2169,7 +2169,7 @@ public static final int DSPDXOXN
 
 --------------------
 
-عام = DSPDxoxn
+مشترك = DSPDxoxn
 
 ### SDPNOA {#SDPNOA}
 ```
@@ -2179,7 +2179,7 @@ public static final int SDPNOA
 
 --------------------
 
-عام = SDPnoa
+مشترك = SDPnoa
 
 ### SDPSXOXN {#SDPSXOXN}
 ```
@@ -2189,7 +2189,7 @@ public static final int SDPSXOXN
 
 --------------------
 
-عام = SDPSxoxn
+مشترك = SDPSxoxn
 
 ### SSDXPDXAX {#SSDXPDXAX}
 ```
@@ -2199,7 +2199,7 @@ public static final int SSDXPDXAX
 
 --------------------
 
-عام = SSDxPDxax
+مشترك = SSDxPDxax
 
 ### PDSANAN {#PDSANAN}
 ```
@@ -2209,7 +2209,7 @@ public static final int PDSANAN
 
 --------------------
 
-عام = PDSanan
+مشترك = PDSanan
 
 ### PDSXNA {#PDSXNA}
 ```
@@ -2219,7 +2219,7 @@ public static final int PDSXNA
 
 --------------------
 
-عام = PDSxna
+مشترك = PDSxna
 
 ### SDPSNOAXN {#SDPSNOAXN}
 ```
@@ -2229,7 +2229,7 @@ public static final int SDPSNOAXN
 
 --------------------
 
-عام = SDPSnoaxn
+مشترك = SDPSnoaxn
 
 ### DPSDPOAXX {#DPSDPOAXX}
 ```
@@ -2239,7 +2239,7 @@ public static final int DPSDPOAXX
 
 --------------------
 
-عام = DPSDPoaxx
+مشترك = DPSDPoaxx
 
 ### SPDAXN {#SPDAXN}
 ```
@@ -2249,7 +2249,7 @@ public static final int SPDAXN
 
 --------------------
 
-عام = SPDaxn
+مشترك = SPDaxn
 
 ### PSDPSOAXX {#PSDPSOAXX}
 ```
@@ -2259,7 +2259,7 @@ public static final int PSDPSOAXX
 
 --------------------
 
-عام = PSDPSoaxx
+مشترك = PSDPSoaxx
 
 ### DPSAXN {#DPSAXN}
 ```
@@ -2269,7 +2269,7 @@ public static final int DPSAXN
 
 --------------------
 
-عام = DPSaxn
+مشترك = DPSaxn
 
 ### DPSXX {#DPSXX}
 ```
@@ -2279,7 +2279,7 @@ public static final int DPSXX
 
 --------------------
 
-عام = DPSxx
+مشترك = DPSxx
 
 ### PSDPSONOXX {#PSDPSONOXX}
 ```
@@ -2289,7 +2289,7 @@ public static final int PSDPSONOXX
 
 --------------------
 
-عام = PSDPSonoxx
+مشترك = PSDPSonoxx
 
 ### SDPSONOXN {#SDPSONOXN}
 ```
@@ -2299,7 +2299,7 @@ public static final int SDPSONOXN
 
 --------------------
 
-عام = SDPSonoxn
+مشترك = SDPSonoxn
 
 ### DSXN {#DSXN}
 ```
@@ -2309,7 +2309,7 @@ public static final int DSXN
 
 --------------------
 
-عام = DSxn
+مشترك = DSxn
 
 ### DPSNAX {#DPSNAX}
 ```
@@ -2319,7 +2319,7 @@ public static final int DPSNAX
 
 --------------------
 
-عام = DPSnax
+مشترك = DPSnax
 
 ### SDPSOAXN {#SDPSOAXN}
 ```
@@ -2329,7 +2329,7 @@ public static final int SDPSOAXN
 
 --------------------
 
-عام = SDPSoaxn
+مشترك = SDPSoaxn
 
 ### SPDNAX {#SPDNAX}
 ```
@@ -2339,7 +2339,7 @@ public static final int SPDNAX
 
 --------------------
 
-عام = SPDnax
+مشترك = SPDnax
 
 ### DSPDOAXN {#DSPDOAXN}
 ```
@@ -2349,7 +2349,7 @@ public static final int DSPDOAXN
 
 --------------------
 
-عام = DSPDoaxn
+مشترك = DSPDoaxn
 
 ### DSPDSAOXX {#DSPDSAOXX}
 ```
@@ -2359,7 +2359,7 @@ public static final int DSPDSAOXX
 
 --------------------
 
-عام = DSPDSaoxx
+مشترك = DSPDSaoxx
 
 ### PDSXAN {#PDSXAN}
 ```
@@ -2369,7 +2369,7 @@ public static final int PDSXAN
 
 --------------------
 
-عام = PDSxan
+مشترك = PDSxan
 
 ### DPA {#DPA}
 ```
@@ -2379,7 +2379,7 @@ public static final int DPA
 
 --------------------
 
-عام = DPa
+مشترك = DPa
 
 ### PDSPNAOXN {#PDSPNAOXN}
 ```
@@ -2389,7 +2389,7 @@ public static final int PDSPNAOXN
 
 --------------------
 
-عام = PDSPnaoxn
+مشترك = PDSPnaoxn
 
 ### DPSNOA {#DPSNOA}
 ```
@@ -2399,7 +2399,7 @@ public static final int DPSNOA
 
 --------------------
 
-عام = DPSnoa
+مشترك = DPSnoa
 
 ### DPSDXOXN {#DPSDXOXN}
 ```
@@ -2409,7 +2409,7 @@ public static final int DPSDXOXN
 
 --------------------
 
-عام = DPSDxoxn
+مشترك = DPSDxoxn
 
 ### PDSPONOXN {#PDSPONOXN}
 ```
@@ -2419,7 +2419,7 @@ public static final int PDSPONOXN
 
 --------------------
 
-عام = PDSPonoxn
+مشترك = PDSPonoxn
 
 ### PDXN {#PDXN}
 ```
@@ -2429,7 +2429,7 @@ public static final int PDXN
 
 --------------------
 
-عام = PDxn
+مشترك = PDxn
 
 ### DSPNAX {#DSPNAX}
 ```
@@ -2439,7 +2439,7 @@ public static final int DSPNAX
 
 --------------------
 
-عام = DSPnax
+مشترك = DSPnax
 
 ### PDSPOAXN {#PDSPOAXN}
 ```
@@ -2449,7 +2449,7 @@ public static final int PDSPOAXN
 
 --------------------
 
-عام = PDSPoaxn
+مشترك = PDSPoaxn
 
 ### DPSOA {#DPSOA}
 ```
@@ -2459,7 +2459,7 @@ public static final int DPSOA
 
 --------------------
 
-عام = DPSoa
+مشترك = DPSoa
 
 ### DPSOXN {#DPSOXN}
 ```
@@ -2469,7 +2469,7 @@ public static final int DPSOXN
 
 --------------------
 
-عام = DPSoxn
+مشترك = DPSoxn
 
 ### D {#D}
 ```
@@ -2479,7 +2479,7 @@ public static final int D
 
 --------------------
 
-عام = D
+مشترك = D
 
 ### DPSONO {#DPSONO}
 ```
@@ -2489,7 +2489,7 @@ public static final int DPSONO
 
 --------------------
 
-عام = DPSono
+مشترك = DPSono
 
 ### SPDSXAX {#SPDSXAX}
 ```
@@ -2499,7 +2499,7 @@ public static final int SPDSXAX
 
 --------------------
 
-عام = SPDSxax
+مشترك = SPDSxax
 
 ### DPSDAOXN {#DPSDAOXN}
 ```
@@ -2509,7 +2509,7 @@ public static final int DPSDAOXN
 
 --------------------
 
-عام = DPSDaoxn
+مشترك = DPSDaoxn
 
 ### DSPNAO {#DSPNAO}
 ```
@@ -2519,7 +2519,7 @@ public static final int DSPNAO
 
 --------------------
 
-عام = DSPnao
+مشترك = DSPnao
 
 ### DPNO {#DPNO}
 ```
@@ -2529,7 +2529,7 @@ public static final int DPNO
 
 --------------------
 
-عام = DPno
+مشترك = DPno
 
 ### PDSNOA {#PDSNOA}
 ```
@@ -2539,7 +2539,7 @@ public static final int PDSNOA
 
 --------------------
 
-عام = PDSnoa
+مشترك = PDSnoa
 
 ### PDSPXOXN {#PDSPXOXN}
 ```
@@ -2549,7 +2549,7 @@ public static final int PDSPXOXN
 
 --------------------
 
-عام = 00B10665
+مشترك = 00B10665
 
 ### SSPXDSXOX {#SSPXDSXOX}
 ```
@@ -2647,7 +2647,7 @@ public static final int MERGEPAINT
 ```
 
 
-يدمج ألوان المستطيل المصدر المقلوب مع ألوان المستطيل الهدف باستخدام عامل Boolean OR.
+يدمج ألوان المستطيل المصدر المقلوب مع ألوان المستطيل الوجهة باستخدام عامل Boolean OR.
 
 --------------------
 
@@ -2821,7 +2821,7 @@ public static final int SRCCOPY
 ```
 
 
-ينسخ المستطيل المصدر مباشرةً إلى المستطيل الهدف.
+ينسخ المستطيل المصدر مباشرةً إلى المستطيل الوجهة.
 
 --------------------
 
@@ -3163,7 +3163,7 @@ public static final int SRCPAINT
 ```
 
 
-يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل OR المنطقي.
+يجمع ألوان المستطيلات المصدر والوجهة باستخدام عامل Boolean OR.
 
 --------------------
 
@@ -3311,7 +3311,7 @@ public static final int PSO
 
 --------------------
 
-عام = PSo
+Common = PSo
 
 ### PSDNOO {#PSDNOO}
 ```
@@ -3321,7 +3321,7 @@ public static final int PSDNOO
 
 --------------------
 
-عام = PSDnoo
+Common = PSDnoo
 
 ### DPSOO {#DPSOO}
 ```
@@ -3331,7 +3331,7 @@ public static final int DPSOO
 
 --------------------
 
-عام = DPSoo
+Common = DPSoo
 
 ### WHITENESS {#WHITENESS}
 ```
@@ -3339,9 +3339,9 @@ public static final int WHITENESS
 ```
 
 
-يملأ المستطيل الوجهة باستخدام اللون المرتبط بالفهرس 1 في اللوحة الفعلية. (هذا اللون أبيض للوحة الفعلية الافتراضية.)
+يملأ المستطيل الهدف باستخدام اللون المرتبط بالفهرس 1 في لوحة الألوان الفيزيائية. (هذا اللون هو الأبيض للوحة الألوان الفيزيائية الافتراضية.)
 
 --------------------
 
-عام = 1
+Common = 1
 

@@ -7,7 +7,7 @@ weight: 32
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
 ```
 public final class EmfPoint28To4 extends EmfObject
 ```
@@ -22,10 +22,10 @@ public final class EmfPoint28To4 extends EmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getX()](#getX--) | يحصل أو يعيّن كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة. |
-| [setX(EmfBitFix28To4 value)](#setX-com.aspose.imaging.fileformats.emf.emf.objects.EmfBitFix28To4-) | يحصل أو يعيّن كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة. |
-| [getY()](#getY--) | يحصل أو يعيّن كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة. |
-| [setY(EmfBitFix28To4 value)](#setY-com.aspose.imaging.fileformats.emf.emf.objects.EmfBitFix28To4-) | يحصل أو يعيّن كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة. |
+| [getX()](#getX--) | الحصول أو تعيين كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة. |
+| [setX(EmfBitFix28To4 value)](#setX-com.aspose.imaging.fileformats.emf.emf.objects.EmfBitFix28To4-) | الحصول أو تعيين كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة. |
+| [getY()](#getY--) | الحصول أو تعيين كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة. |
+| [setY(EmfBitFix28To4 value)](#setY-com.aspose.imaging.fileformats.emf.emf.objects.EmfBitFix28To4-) | الحصول أو تعيين كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة. |
 ### EmfPoint28To4() {#EmfPoint28To4--}
 ```
 public EmfPoint28To4()
@@ -38,7 +38,7 @@ public EmfBitFix28To4 getX()
 ```
 
 
-يحصل أو يعيّن كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة.
+الحصول أو تعيين كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة.
 
 **Returns:**
 [EmfBitFix28To4](../../com.aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4)
@@ -48,7 +48,7 @@ public void setX(EmfBitFix28To4 value)
 ```
 
 
-يحصل أو يعيّن كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة.
+الحصول أو تعيين كائن BitFIX28\_4 (القسم 2.2.1) الذي يمثل الإحداثي الأفقي للنقطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -61,7 +61,7 @@ public EmfBitFix28To4 getY()
 ```
 
 
-يحصل أو يعيّن كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة.
+الحصول أو تعيين كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة.
 
 **Returns:**
 [EmfBitFix28To4](../../com.aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4)
@@ -71,7 +71,7 @@ public void setY(EmfBitFix28To4 value)
 ```
 
 
-يحصل أو يعيّن كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة.
+الحصول أو تعيين كائن BitFIX28\_4 الذي يمثل الإحداثي العمودي للنقطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,13 +1,13 @@
 ---
 title: "WmfFloodFill"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_FLOODFILL يملأ منطقة من سطح الإخراج بالفرشاة المعرفة في سياق جهاز التشغيل."
+description: "السجل META_FLOODFILL يملأ مساحة من سطح الإخراج بالفرشاة التي تم تعريفها في سياق جهاز التشغيل."
 type: docs
 weight: 38
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmffloodfill/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfFloodFill extends WmfObject
 ```
@@ -59,7 +59,7 @@ public void setColorRef(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getYStart() {#getYStart--}
 ```
@@ -69,10 +69,10 @@ public short getYStart()
 
 يحصل أو يضبط بداية y.
 
-القيمة: إحداثي y، بوحدات منطقية، للنقطة التي يبدأ فيها التعبئة.
+القيمة: إحداثي y، بوحدات منطقية، للنقطة التي يبدأ منها التعبئة.
 
 **Returns:**
-short
+قصير
 ### setYStart(short value) {#setYStart-short-}
 ```
 public void setYStart(short value)
@@ -81,12 +81,12 @@ public void setYStart(short value)
 
 يحصل أو يضبط بداية y.
 
-القيمة: إحداثي y، بوحدات منطقية، للنقطة التي يبدأ فيها التعبئة.
+القيمة: إحداثي y، بوحدات منطقية، للنقطة التي يبدأ منها التعبئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getXStart() {#getXStart--}
 ```
@@ -96,10 +96,10 @@ public short getXStart()
 
 يحصل أو يضبط بداية x.
 
-القيمة: إحداثي x، بوحدات منطقية، للنقطة التي يبدأ فيها التعبئة.
+القيمة: إحداثي x، بوحدات منطقية، للنقطة التي يبدأ منها التعبئة.
 
 **Returns:**
-short
+قصير
 ### setXStart(short value) {#setXStart-short-}
 ```
 public void setXStart(short value)
@@ -108,10 +108,10 @@ public void setXStart(short value)
 
 يحصل أو يضبط بداية x.
 
-القيمة: إحداثي x، بوحدات منطقية، للنقطة التي يبدأ فيها التعبئة.
+القيمة: إحداثي x، بوحدات منطقية، للنقطة التي يبدأ منها التعبئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

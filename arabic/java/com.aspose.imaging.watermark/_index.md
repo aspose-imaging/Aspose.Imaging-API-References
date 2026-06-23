@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.watermark/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [WatermarkRemover](../com.aspose.imaging.watermark/watermarkremover) | الفئة المخصصة لتعديل العلامة المائية. |

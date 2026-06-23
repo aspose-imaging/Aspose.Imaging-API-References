@@ -7,7 +7,7 @@ weight: 21
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odequation/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdEquation extends OdGraphicObject
 ```
@@ -17,7 +17,7 @@ public class OdEquation extends OdGraphicObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdEquation(OdObject parent)](#OdEquation-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلاً جديداً من الفئة `OdEquation`. |
+| [OdEquation(OdObject parent)](#OdEquation-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdEquation`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -34,12 +34,12 @@ public OdEquation(OdObject parent)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `OdEquation`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdEquation`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getName() {#getName--}
 ```
@@ -62,7 +62,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الاسم. |
+| value | java.lang.String | الاسم. |
 
 ### getFormula() {#getFormula--}
 ```
@@ -85,7 +85,7 @@ public void setFormula(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الصيغة. |
+| value | java.lang.String | الصيغة. |
 
 ### getValue() {#getValue--}
 ```
@@ -108,5 +108,5 @@ public void setValue(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة. |
+| value | float | القيمة. |
 

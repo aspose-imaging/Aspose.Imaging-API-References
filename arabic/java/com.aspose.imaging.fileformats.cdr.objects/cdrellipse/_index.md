@@ -1,18 +1,18 @@
 ---
 title: "CdrEllipse"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "القطع الناقص cdr"
+description: "إهليلج cdr"
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrellipse/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrEllipse extends CdrGraphicObject
 ```
 
-القطع الناقص cdr
+إهليلج cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,12 +22,12 @@ public class CdrEllipse extends CdrGraphicObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getAngle1()](#getAngle1--) | يسترجع angle1. |
+| [getAngle1()](#getAngle1--) | يحصل على angle1. |
 | [setAngle1(double value)](#setAngle1-double-) | يضبط angle1. |
-| [getAngle2()](#getAngle2--) | يسترجع angle2. |
+| [getAngle2()](#getAngle2--) | يحصل على angle2. |
 | [setAngle2(double value)](#setAngle2-double-) | يضبط angle2. |
-| [getPie()](#getPie--) | يحصل على قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) هو pie. |
-| [setPie(boolean value)](#setPie-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) هو pie. |
+| [getPie()](#getPie--) | يحصل على قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) على شكل فطيرة. |
+| [setPie(boolean value)](#setPie-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) فطيرة. |
 ### CdrEllipse() {#CdrEllipse--}
 ```
 public CdrEllipse()
@@ -40,7 +40,7 @@ public final double getAngle1()
 ```
 
 
-يسترجع angle1.
+يحصل على angle1.
 
 **Returns:**
 double - الزاوية1.
@@ -55,7 +55,7 @@ public final void setAngle1(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الزاوية1. |
+| value | double | الزاوية1. |
 
 ### getAngle2() {#getAngle2--}
 ```
@@ -63,7 +63,7 @@ public final double getAngle2()
 ```
 
 
-يسترجع angle2.
+يحصل على angle2.
 
 **Returns:**
 double - الزاوية2.
@@ -78,7 +78,7 @@ public final void setAngle2(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الزاوية2. |
+| value | double | الزاوية2. |
 
 ### getPie() {#getPie--}
 ```
@@ -86,20 +86,20 @@ public final boolean getPie()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) هو pie.
+يحصل على قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) على شكل فطيرة.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) هو pie.
+boolean - قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) فطيرة.
 ### setPie(boolean value) {#setPie-boolean-}
 ```
 public final void setPie(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) هو pie.
+يضبط قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) فطيرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) هو pie. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا [CdrEllipse](../../com.aspose.imaging.fileformats.cdr.objects/cdrellipse) فطيرة. |
 

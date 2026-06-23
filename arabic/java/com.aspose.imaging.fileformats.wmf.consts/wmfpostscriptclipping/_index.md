@@ -18,8 +18,8 @@ public final class WmfPostScriptClipping extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [CLIP_SAVE](#CLIP-SAVE) | يحفظ مسار القص PostScript الحالي. |
-| [CLIP_RESTORE](#CLIP-RESTORE) | يعيد استعادة مسار القص PostScript إلى آخر مسار قص تم حفظه بواسطة دالة CLIP_SAVE السابقة التي تم تطبيقها بواسطة سجل CLIP_TO_PATH (القسم 2.3.6.6). |
-| [CLIP_INCLUSIVE](#CLIP-INCLUSIVE) | يتقاطع مسار القص PostScript الحالي مع مسار القص الحالي ويحفظ النتيجة كمسار القص PostScript الجديد. |
+| [CLIP_RESTORE](#CLIP-RESTORE) | يعيد مسار قص PostScript إلى آخر مسار قص تم حفظه بواسطة دالة CLIP\_SAVE السابقة التي تم تطبيقها بواسطة سجل CLIP\_TO\_PATH (القسم 2.3.6.6). |
+| [CLIP_INCLUSIVE](#CLIP-INCLUSIVE) | يقوم بتقاطع مسار قص PostScript الحالي مع مسار القص الحالي ويحفظ النتيجة كمسار قص PostScript الجديد. |
 ### CLIP_SAVE {#CLIP-SAVE}
 ```
 public static final int CLIP_SAVE
@@ -34,7 +34,7 @@ public static final int CLIP_RESTORE
 ```
 
 
-يعيد استعادة مسار القص PostScript إلى آخر مسار قص تم حفظه بواسطة دالة CLIP_SAVE السابقة التي تم تطبيقها بواسطة سجل CLIP_TO_PATH (القسم 2.3.6.6).
+يعيد مسار قص PostScript إلى آخر مسار قص تم حفظه بواسطة دالة CLIP\_SAVE السابقة التي تم تطبيقها بواسطة سجل CLIP\_TO\_PATH (القسم 2.3.6.6).
 
 ### CLIP_INCLUSIVE {#CLIP-INCLUSIVE}
 ```
@@ -42,5 +42,5 @@ public static final int CLIP_INCLUSIVE
 ```
 
 
-يتقاطع مسار القص PostScript الحالي مع مسار القص الحالي ويحفظ النتيجة كمسار القص PostScript الجديد.
+يقوم بتقاطع مسار قص PostScript الحالي مع مسار القص الحالي ويحفظ النتيجة كمسار قص PostScript الجديد.
 

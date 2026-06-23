@@ -1,18 +1,18 @@
 ---
 title: "WmfScaleWindowExt"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_SCALEWINDOWEXT يوسّع الأبعاد الأفقية والرأسية لنافذة الإخراج التي تُعرّف في سياق جهاز التشغيل باستخدام النسب التي تُكوّنها المضاعفات والمقاسم المحددة."
+description: "السجل META_SCALEWINDOWEXT يقيّم الأبعاد الأفقية والعمودية لنافذة الإخراج المعرفة في سياق جهاز التشغيل باستخدام النسب التي تتكوّن من المضاعفات والمقاسم المحددة."
 type: docs
 weight: 68
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfScaleWindowExt extends WmfObject
 ```
 
-سجل META\_SCALEWINDOWEXT يضبط أبعاد النافذة الأفقية والرأسية للإخراج المعرفة في سياق جهاز التشغيل باستخدام النسب التي تتكون من المضاعفات والمقاسم المحددة.
+سجل META\_SCALEWINDOWEXT يغيّر مقياس الأبعاد الأفقية والرأسية لنافذة الإخراج المعرفة في سياق جهاز التشغيل باستخدام النسب التي تكونها المضاعفات والقواسم المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -24,8 +24,8 @@ public class WmfScaleWindowExt extends WmfObject
 | --- | --- |
 | [getYDenom()](#getYDenom--) | يحصل أو يضبط المقام y. |
 | [setYDenom(short value)](#setYDenom-short-) | يحصل أو يضبط المقام y. |
-| [getYNum()](#getYNum--) | يحصل أو يضبط العدد y. |
-| [setYNum(short value)](#setYNum-short-) | يحصل أو يضبط العدد y. |
+| [getYNum()](#getYNum--) | يحصل أو يضبط البسط y. |
+| [setYNum(short value)](#setYNum-short-) | يحصل أو يضبط البسط y. |
 | [getXDenom()](#getXDenom--) | يحصل أو يضبط المقام x. |
 | [setXDenom(short value)](#setXDenom-short-) | يحصل أو يضبط المقام x. |
 | [getXNum()](#getXNum--) | يحصل أو يضبط العدد x. |
@@ -44,10 +44,10 @@ public short getYDenom()
 
 يحصل أو يضبط المقام y.
 
-القيمة: المقدار الذي يتم به قسمة نتيجة ضرب الامتداد الرأسي الحالي بقيمة العضو yNum.
+القيمة: المقدار الذي يُقسم به نتيجة ضرب الامتداد y الحالي بقيمة العضو yNum.
 
 **Returns:**
-short
+قصير
 ### setYDenom(short value) {#setYDenom-short-}
 ```
 public void setYDenom(short value)
@@ -56,12 +56,12 @@ public void setYDenom(short value)
 
 يحصل أو يضبط المقام y.
 
-القيمة: المقدار الذي يتم به قسمة نتيجة ضرب الامتداد الرأسي الحالي بقيمة العضو yNum.
+القيمة: المقدار الذي يُقسم به نتيجة ضرب الامتداد y الحالي بقيمة العضو yNum.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getYNum() {#getYNum--}
 ```
@@ -69,26 +69,26 @@ public short getYNum()
 ```
 
 
-يحصل أو يضبط العدد y.
+يحصل أو يضبط البسط y.
 
-القيمة: المقدار الذي يتم به ضرب الامتداد الرأسي الحالي.
+القيمة: المقدار الذي يُضرب به الامتداد y الحالي.
 
 **Returns:**
-short
+قصير
 ### setYNum(short value) {#setYNum-short-}
 ```
 public void setYNum(short value)
 ```
 
 
-يحصل أو يضبط العدد y.
+يحصل أو يضبط البسط y.
 
-القيمة: المقدار الذي يتم به ضرب الامتداد الرأسي الحالي.
+القيمة: المقدار الذي يُضرب به الامتداد y الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getXDenom() {#getXDenom--}
 ```
@@ -98,10 +98,10 @@ public short getXDenom()
 
 يحصل أو يضبط المقام x.
 
-القيمة: المقدار الذي يتم به قسمة نتيجة ضرب الامتداد الأفقي الحالي بقيمة العضو xNum.
+القيمة: المقدار الذي يُقسم به نتيجة ضرب الامتداد x الحالي بقيمة العضو xNum.
 
 **Returns:**
-short
+قصير
 ### setXDenom(short value) {#setXDenom-short-}
 ```
 public void setXDenom(short value)
@@ -110,12 +110,12 @@ public void setXDenom(short value)
 
 يحصل أو يضبط المقام x.
 
-القيمة: المقدار الذي يتم به قسمة نتيجة ضرب الامتداد الأفقي الحالي بقيمة العضو xNum.
+القيمة: المقدار الذي يُقسم به نتيجة ضرب الامتداد x الحالي بقيمة العضو xNum.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getXNum() {#getXNum--}
 ```
@@ -125,10 +125,10 @@ public short getXNum()
 
 يحصل أو يضبط العدد x.
 
-القيمة: المقدار الذي يتم به ضرب الامتداد الأفقي الحالي.
+القيمة: المقدار الذي يُضرب به الامتداد x الحالي.
 
 **Returns:**
-short
+قصير
 ### setXNum(short value) {#setXNum-short-}
 ```
 public void setXNum(short value)
@@ -137,10 +137,10 @@ public void setXNum(short value)
 
 يحصل أو يضبط العدد x.
 
-القيمة: المقدار الذي يتم به ضرب الامتداد الأفقي الحالي.
+القيمة: المقدار الذي يُضرب به الامتداد x الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

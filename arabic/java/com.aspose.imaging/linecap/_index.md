@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class LineCap extends System.Enum
 ```
 
-يحدد أنماط القمة المتاحة التي يمكن لكائن `Pen` أن ينهي بها الخط.
+يحدد أنماط القمم المتاحة التي يمكن لكائن `Pen` إنهاء الخط بها.
 ## الحقول
 
 | حقل | الوصف |
@@ -22,7 +22,7 @@ public final class LineCap extends System.Enum
 | [Round](#Round) | يحدد قمة خط دائرية. |
 | [Triangle](#Triangle) | يحدد قمة خط مثلثية. |
 | [NoAnchor](#NoAnchor) | يحدد عدم وجود مرساة. |
-| [SquareAnchor](#SquareAnchor) | يحدد قمة خط مربعة مع مرساة. |
+| [SquareAnchor](#SquareAnchor) | يحدد غطاء خط مرساة مربع. |
 | [RoundAnchor](#RoundAnchor) | يحدد غطاء مرساة دائري. |
 | [DiamondAnchor](#DiamondAnchor) | يحدد غطاء مرساة ماسي. |
 | [ArrowAnchor](#ArrowAnchor) | يحدد غطاء مرساة على شكل سهم. |
@@ -74,7 +74,7 @@ public static final int SquareAnchor
 ```
 
 
-يحدد قمة خط مربعة مع مرساة.
+يحدد غطاء خط مرساة مربع.
 
 ### RoundAnchor {#RoundAnchor}
 ```

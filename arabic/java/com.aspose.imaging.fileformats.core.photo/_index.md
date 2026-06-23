@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.core.photo/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [FrameAligner](../com.aspose.imaging.fileformats.core.photo/framealigner) | محاذاة الإطارات. |
-| [FrameAlignerOptions](../com.aspose.imaging.fileformats.core.photo/framealigneroptions) | خيارات محاذاة الإطار. |
+| [FrameAligner](../com.aspose.imaging.fileformats.core.photo/framealigner) | محاذاة الإطارات |
+| [FrameAlignerOptions](../com.aspose.imaging.fileformats.core.photo/framealigneroptions) | خيارات محاذاة الإطارات |

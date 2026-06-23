@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CmxContainer](../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer) | الحاوية للعناصر الفرعية. |
 | [CmxDocument](../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) | مستند CMX. |

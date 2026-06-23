@@ -1,7 +1,7 @@
 ---
 title: "PsdOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إنشاء صور وثيقة فوتوشوب PSD باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تقدم خيارات متعددة مع إصدارات تنسيق مختلفة وطرق ضغط ووضعيات ألوان وعدد البتات لكل قناة لون."
+description: "إنشاء صور Photoshop Document PSD باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تقدم خيارات متعددة مع إصدارات تنسيق مختلفة، وأساليب ضغط، وأنماط ألوان، وعدد البتات لكل قناة لون."
 type: docs
 weight: 40
 url: /ar/java/com.aspose.imaging.imageoptions/psdoptions/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class PsdOptions extends ImageOptionsBase
 ```
 
-إنشاء صور وثيقة فوتوشوب (PSD) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع خيارات متعددة تشمل إصدارات تنسيق مختلفة، وطرق ضغط، ووضعيات ألوان، وعدد البتات لكل قناة لون. التعامل بسلاسة مع حاويات بيانات التعريف XMP، مما يضمن معالجة شاملة للصور باستخدام ميزات تنسيق PSD مثل طبقات الصورة، أقنعة الطبقة، ومعلومات الملف للتخصيص والإبداع في تصاميمك.
+إنشاء صور Photoshop Document (PSD) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع خيارات متعددة تشمل إصدارات تنسيق مختلفة، وأساليب ضغط، وأنماط ألوان، وعدد البتات لكل قناة لون. التعامل بسلاسة مع حاويات بيانات XMP، مما يضمن معالجة شاملة للصور باستخدام ميزات تنسيق PSD مثل طبقات الصورة، أقنعة الطبقة، ومعلومات الملف لتخصيص وإبداع تصاميمك.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PsdOptions()](#PsdOptions--) | ينشئ مثيلاً جديدًا من الفئة `PsdOptions`. |
-| [PsdOptions(PsdOptions options)](#PsdOptions-com.aspose.imaging.imageoptions.PsdOptions-) | ينشئ مثيلاً جديدًا من الفئة `PsdOptions`. |
+| [PsdOptions()](#PsdOptions--) | ينشئ مثيلاً جديداً من الفئة `PsdOptions`. |
+| [PsdOptions(PsdOptions options)](#PsdOptions-com.aspose.imaging.imageoptions.PsdOptions-) | ينشئ مثيلاً جديداً من الفئة `PsdOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -36,32 +36,32 @@ public class PsdOptions extends ImageOptionsBase
 | [setChannelBitsCount(short value)](#setChannelBitsCount-short-) | يحصل أو يضبط عدد البتات لكل قناة لون. |
 | [getChannelsCount()](#getChannelsCount--) | يحصل على عدد قنوات اللون. |
 | [setChannelsCount(short value)](#setChannelsCount-short-) | يضبط عدد قنوات اللون. |
-| [isRemoveGlobalTextEngineResource()](#isRemoveGlobalTextEngineResource--) | يحصل على قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، في الحالة الوحيدة التي لا يمكن فيها فتحها في Adobe Photoshop بعد المعالجة (غالبًا بسبب طبقات النص المرتبطة بخطوط مفقودة). |
-| [setRemoveGlobalTextEngineResource(boolean value)](#setRemoveGlobalTextEngineResource-boolean-) | يضبط قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، في الحالة الوحيدة التي لا يمكن فيها فتحها في Adobe Photoshop بعد المعالجة (غالبًا بسبب طبقات النص المرتبطة بخطوط مفقودة). |
+| [isRemoveGlobalTextEngineResource()](#isRemoveGlobalTextEngineResource--) | يحصل على قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، في الحالة الوحيدة التي لا يمكن فتحها في Adobe Photoshop بعد المعالجة (غالبًا ما يتعلق بطبقات النص التي تفتقر إلى الخطوط). |
+| [setRemoveGlobalTextEngineResource(boolean value)](#setRemoveGlobalTextEngineResource-boolean-) | يضبط قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، في الحالة الوحيدة التي لا يمكن فتحها في Adobe Photoshop بعد المعالجة (غالبًا ما يتعلق بطبقات النص التي تفتقر إلى الخطوط). |
 | [isRefreshImagePreviewData()](#isRefreshImagePreviewData--) | يحصل على قيمة تشير إلى ما إذا كان [refresh image preview data] - خيار يُستخدم لتعزيز التوافق مع عارضات صور PSD أخرى. |
 | [setRefreshImagePreviewData(boolean value)](#setRefreshImagePreviewData-boolean-) | يضبط قيمة تشير إلى ما إذا كان [refresh image preview data] - خيار يُستخدم لتعزيز التوافق مع عارضات صور PSD أخرى. |
 | [getVectorizationOptions()](#getVectorizationOptions--) | يحصل على خيارات تحويل PSD إلى متجهات. |
 | [setVectorizationOptions(PsdVectorizationOptions value)](#setVectorizationOptions-com.aspose.imaging.imageoptions.PsdVectorizationOptions-) | يضبط خيارات تحويل PSD إلى متجهات. |
 
 ## Example: This example demonstrates the use of Aspose.
-يوضح هذا المثال كيفية استخدام Aspose.Imaging لواجهة برمجة تطبيقات Java لتحويل الصور إلى تنسيق PSD. لتحقيق هذا الهدف، يقوم المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بتنسيق PSD.
+يوضح هذا المثال استخدام Aspose.Imaging for Java API لتحويل الصور إلى صيغة PSD. لتحقيق هذا الهدف، يقوم هذا المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بصيغة PSD.
 ``` java
 
-// إنشاء نسخة من فئة الصورة وتهيئتها بملف موجود عبر مسار الملف.
+// أنشئ مثيلاً من فئة الصورة وقم بتهيئته بملف موجود عبر مسار الملف.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // إنشاء نسخة من فئة PsdOptions.
+    // أنشئ مثيلاً من فئة PsdOptions.
     com.aspose.imaging.imageoptions.PsdOptions psdOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
-    // تعيين CompressionMethod إلى RLE.
-    // ملاحظة: CompressionMethod المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط].
+    // عيّن CompressionMethod كـ RLE.
+    // ملاحظة: طريقة الضغط المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط].
     psdOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
-    // تعيين ColorMode إلى GrayScale.
-    // ملاحظة: ColorModes المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB.
+    // عيّن ColorMode إلى GrayScale.
+    // ملاحظة: أوضاع اللون المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB.
     psdOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Grayscale);
 
-    // حفظ الصورة على القرص باستخدام إعدادات PsdOptions المقدمة.
+    // احفظ الصورة إلى القرص باستخدام إعدادات PsdOptions المقدمة.
     image.save("C:\\temp\\output.psd", psdOptions);
 } finally {
     image.dispose();
@@ -82,7 +82,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // تصدير الصفحتين الأوليين فقط. سيتم عرض هاتين الصفحتين كطبقات في ملف PSD الناتج.
+    // صدّر الصفحتين الأوليتين فقط. سيتم تقديم هاتين الصفحتين كطبقات في ملف PSD الناتج.
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage)image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -107,7 +107,7 @@ public PsdOptions()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `PsdOptions`.
+ينشئ مثيلاً جديداً من الفئة `PsdOptions`.
 
 ### PsdOptions(PsdOptions options) {#PsdOptions-com.aspose.imaging.imageoptions.PsdOptions-}
 ```
@@ -115,7 +115,7 @@ public PsdOptions(PsdOptions options)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `PsdOptions`.
+ينشئ مثيلاً جديداً من الفئة `PsdOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -160,7 +160,7 @@ public void setVersion(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 
 **Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
@@ -168,10 +168,10 @@ public void setVersion(int value)
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100, com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 try {
-    // تعريف تدرج خطي أزرق شفاف.
+    // عرّف تدرجًا خطيًا أزرقًا شفافًا.
     com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
             new com.aspose.imaging.Point(0, 0),
             new com.aspose.imaging.Point(pngImage.getWidth(), pngImage.getHeight()),
@@ -180,25 +180,25 @@ try {
 
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
 
-    // ملء صورة PNG بالتدرج الخطى الأزرق الشفاف.
+    // املأ صورة PNG بالتدرج الخطّي الأزرق الشفاف.
     graphics.fillRectangle(gradientBrush, pngImage.getBounds());
 
-    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بتنسيق PSD.
+    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بصيغة PSD.
     com.aspose.imaging.imageoptions.PsdOptions saveOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
     // عدد البتات لكل قناة.
     saveOptions.setChannelBitsCount((byte) 8);
 
-    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A.
+    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A
     saveOptions.setChannelsCount((short) 4);
 
     // وضع اللون
     saveOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Rgb);
 
-    // بدون ضغط.
+    // بدون ضغط
     saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.Raw);
 
-    // الإصدار الافتراضي هو 6.
+    // الإصدار الافتراضي هو 6
     saveOptions.setVersion(6);
 
     java.io.FileOutputStream stream = new java.io.FileOutputStream(dir + "saveoptions.psd");
@@ -211,7 +211,7 @@ try {
 
     stream = new java.io.FileOutputStream(dir + "saveoptions.RLE.psd");
     try {
-        // يسمح ضغط RLE بتقليل حجم الصورة الناتجة.
+        // ضغط RLE يسمح بتقليل حجم الصورة الناتجة
         saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
         pngImage.save(stream, saveOptions);
@@ -221,8 +221,8 @@ try {
     }
 
     // قد يبدو الإخراج هكذا:
-    // حجم صورة PSD مع ضغط RAW: 40090.
-    // حجم صورة PSD مع ضغط RLE: 16185.
+    // حجم صورة PSD مع ضغط RAW: 40090
+    // حجم صورة PSD مع ضغط RLE: 16185
 } finally {
     pngImage.dispose();
 }
@@ -239,7 +239,7 @@ public short getCompressionMethod()
 القيمة: طريقة الضغط.
 
 **Returns:**
-short
+قصير
 ### setCompressionMethod(short value) {#setCompressionMethod-short-}
 ```
 public void setCompressionMethod(short value)
@@ -253,28 +253,28 @@ public void setCompressionMethod(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 
 **Example: This example demonstrates the use of Aspose.**
-يوضح هذا المثال كيفية استخدام Aspose.Imaging لواجهة برمجة تطبيقات Java لتحويل الصور إلى تنسيق PSD. لتحقيق هذا الهدف، يقوم المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بتنسيق PSD.
+يوضح هذا المثال استخدام Aspose.Imaging for Java API لتحويل الصور إلى صيغة PSD. لتحقيق هذا الهدف، يقوم هذا المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بصيغة PSD.
 ``` java
 
-// إنشاء نسخة من فئة الصورة وتهيئتها بملف موجود عبر مسار الملف.
+// أنشئ مثيلاً من فئة الصورة وقم بتهيئته بملف موجود عبر مسار الملف.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // إنشاء نسخة من فئة PsdOptions.
+    // أنشئ مثيلاً من فئة PsdOptions.
     com.aspose.imaging.imageoptions.PsdOptions psdOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
-    // تعيين CompressionMethod إلى RLE.
-    // ملاحظة: CompressionMethod المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط].
+    // عيّن CompressionMethod كـ RLE.
+    // ملاحظة: طريقة الضغط المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط].
     psdOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
-    // تعيين ColorMode إلى GrayScale.
-    // ملاحظة: ColorModes المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB.
+    // عيّن ColorMode إلى GrayScale.
+    // ملاحظة: أوضاع اللون المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB.
     psdOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Grayscale);
 
-    // حفظ الصورة على القرص باستخدام إعدادات PsdOptions المقدمة.
+    // احفظ الصورة إلى القرص باستخدام إعدادات PsdOptions المقدمة.
     image.save("C:\\temp\\output.psd", psdOptions);
 } finally {
     image.dispose();
@@ -292,21 +292,21 @@ public final byte getPsdVersion()
 القيمة: إصدار تنسيق الملف.
 
 **Returns:**
-byte - نسخة تنسيق الملف.
+byte - إصدار تنسيق الملف.
 ### setPsdVersion(byte value) {#setPsdVersion-byte-}
 ```
 public final void setPsdVersion(byte value)
 ```
 
 
-يضبط نسخة تنسيق الملف. يمكن أن تكون PSD أو PSB.
+يضبط إصدار تنسيق الملف. يمكن أن يكون PSD أو PSB.
 
 القيمة: إصدار تنسيق الملف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | نسخة تنسيق الملف. |
+| value | byte | إصدار تنسيق الملف. |
 
 ### getColorMode() {#getColorMode--}
 ```
@@ -319,7 +319,7 @@ public short getColorMode()
 القيمة: وضع اللون.
 
 **Returns:**
-short
+قصير
 ### setColorMode(short value) {#setColorMode-short-}
 ```
 public void setColorMode(short value)
@@ -333,28 +333,28 @@ public void setColorMode(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 
 **Example: This example demonstrates the use of Aspose.**
-يوضح هذا المثال كيفية استخدام Aspose.Imaging لواجهة برمجة تطبيقات Java لتحويل الصور إلى تنسيق PSD. لتحقيق هذا الهدف، يقوم المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بتنسيق PSD.
+يوضح هذا المثال استخدام Aspose.Imaging for Java API لتحويل الصور إلى صيغة PSD. لتحقيق هذا الهدف، يقوم هذا المثال بتحميل صورة موجودة ثم حفظها مرة أخرى بصيغة PSD.
 ``` java
 
-// إنشاء نسخة من فئة الصورة وتهيئتها بملف موجود عبر مسار الملف.
+// أنشئ مثيلاً من فئة الصورة وقم بتهيئته بملف موجود عبر مسار الملف.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // إنشاء نسخة من فئة PsdOptions.
+    // أنشئ مثيلاً من فئة PsdOptions.
     com.aspose.imaging.imageoptions.PsdOptions psdOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
-    // تعيين CompressionMethod إلى RLE.
-    // ملاحظة: CompressionMethod المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط].
+    // عيّن CompressionMethod كـ RLE.
+    // ملاحظة: طريقة الضغط المدعومة الأخرى هي CompressionMethod.RAW [بدون ضغط].
     psdOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
-    // تعيين ColorMode إلى GrayScale.
-    // ملاحظة: ColorModes المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB.
+    // عيّن ColorMode إلى GrayScale.
+    // ملاحظة: أوضاع اللون المدعومة الأخرى هي ColorModes.Bitmap و ColorModes.RGB.
     psdOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Grayscale);
 
-    // حفظ الصورة على القرص باستخدام إعدادات PsdOptions المقدمة.
+    // احفظ الصورة إلى القرص باستخدام إعدادات PsdOptions المقدمة.
     image.save("C:\\temp\\output.psd", psdOptions);
 } finally {
     image.dispose();
@@ -369,10 +369,10 @@ public short getChannelBitsCount()
 
 يحصل أو يضبط عدد البتات لكل قناة لون.
 
-القيمة: عدد البتات لكل قناة لونية.
+القيمة: عدد البتات لكل قناة لون.
 
 **Returns:**
-short
+قصير
 ### setChannelBitsCount(short value) {#setChannelBitsCount-short-}
 ```
 public void setChannelBitsCount(short value)
@@ -381,12 +381,12 @@ public void setChannelBitsCount(short value)
 
 يحصل أو يضبط عدد البتات لكل قناة لون.
 
-القيمة: عدد البتات لكل قناة لونية.
+القيمة: عدد البتات لكل قناة لون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 
 **Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
@@ -394,10 +394,10 @@ public void setChannelBitsCount(short value)
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100, com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 try {
-    // تعريف تدرج خطي أزرق شفاف.
+    // عرّف تدرجًا خطيًا أزرقًا شفافًا.
     com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
             new com.aspose.imaging.Point(0, 0),
             new com.aspose.imaging.Point(pngImage.getWidth(), pngImage.getHeight()),
@@ -406,25 +406,25 @@ try {
 
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
 
-    // ملء صورة PNG بالتدرج الخطى الأزرق الشفاف.
+    // املأ صورة PNG بالتدرج الخطّي الأزرق الشفاف.
     graphics.fillRectangle(gradientBrush, pngImage.getBounds());
 
-    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بتنسيق PSD.
+    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بصيغة PSD.
     com.aspose.imaging.imageoptions.PsdOptions saveOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
     // عدد البتات لكل قناة.
     saveOptions.setChannelBitsCount((byte) 8);
 
-    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A.
+    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A
     saveOptions.setChannelsCount((short) 4);
 
     // وضع اللون
     saveOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Rgb);
 
-    // بدون ضغط.
+    // بدون ضغط
     saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.Raw);
 
-    // الإصدار الافتراضي هو 6.
+    // الإصدار الافتراضي هو 6
     saveOptions.setVersion(6);
 
     java.io.FileOutputStream stream = new java.io.FileOutputStream(dir + "saveoptions.psd");
@@ -437,7 +437,7 @@ try {
 
     stream = new java.io.FileOutputStream(dir + "saveoptions.RLE.psd");
     try {
-        // يسمح ضغط RLE بتقليل حجم الصورة الناتجة.
+        // ضغط RLE يسمح بتقليل حجم الصورة الناتجة
         saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
         pngImage.save(stream, saveOptions);
@@ -447,8 +447,8 @@ try {
     }
 
     // قد يبدو الإخراج هكذا:
-    // حجم صورة PSD مع ضغط RAW: 40090.
-    // حجم صورة PSD مع ضغط RLE: 16185.
+    // حجم صورة PSD مع ضغط RAW: 40090
+    // حجم صورة PSD مع ضغط RLE: 16185
 } finally {
     pngImage.dispose();
 }
@@ -475,7 +475,7 @@ public void setChannelsCount(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | عدد قنوات اللون. |
+| value | قصير | عدد قنوات اللون. |
 
 
 **Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
@@ -483,10 +483,10 @@ public void setChannelsCount(short value)
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100, com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 try {
-    // تعريف تدرج خطي أزرق شفاف.
+    // عرّف تدرجًا خطيًا أزرقًا شفافًا.
     com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
             new com.aspose.imaging.Point(0, 0),
             new com.aspose.imaging.Point(pngImage.getWidth(), pngImage.getHeight()),
@@ -495,25 +495,25 @@ try {
 
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
 
-    // ملء صورة PNG بالتدرج الخطى الأزرق الشفاف.
+    // املأ صورة PNG بالتدرج الخطّي الأزرق الشفاف.
     graphics.fillRectangle(gradientBrush, pngImage.getBounds());
 
-    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بتنسيق PSD.
+    // سيتم استخدام الخيارات التالية لحفظ صورة PNG بصيغة PSD.
     com.aspose.imaging.imageoptions.PsdOptions saveOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
     // عدد البتات لكل قناة.
     saveOptions.setChannelBitsCount((byte) 8);
 
-    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A.
+    // عدد القنوات. قناة واحدة لكل مكوّن لوني R,G,B,A
     saveOptions.setChannelsCount((short) 4);
 
     // وضع اللون
     saveOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Rgb);
 
-    // بدون ضغط.
+    // بدون ضغط
     saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.Raw);
 
-    // الإصدار الافتراضي هو 6.
+    // الإصدار الافتراضي هو 6
     saveOptions.setVersion(6);
 
     java.io.FileOutputStream stream = new java.io.FileOutputStream(dir + "saveoptions.psd");
@@ -526,7 +526,7 @@ try {
 
     stream = new java.io.FileOutputStream(dir + "saveoptions.RLE.psd");
     try {
-        // يسمح ضغط RLE بتقليل حجم الصورة الناتجة.
+        // ضغط RLE يسمح بتقليل حجم الصورة الناتجة
         saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
         pngImage.save(stream, saveOptions);
@@ -536,8 +536,8 @@ try {
     }
 
     // قد يبدو الإخراج هكذا:
-    // حجم صورة PSD مع ضغط RAW: 40090.
-    // حجم صورة PSD مع ضغط RLE: 16185.
+    // حجم صورة PSD مع ضغط RAW: 40090
+    // حجم صورة PSD مع ضغط RLE: 16185
 } finally {
     pngImage.dispose();
 }
@@ -549,7 +549,7 @@ public boolean isRemoveGlobalTextEngineResource()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، وفي الحالة الوحيدة التي لا يمكن فتحها في Adobe Photoshop بعد المعالجة (غالبًا ما يتعلق بطبقات النص التي تفتقد الخطوط). بعد استخدام هذا الخيار، يحتاج المستخدم إلى تنفيذ التالي في الملف المفتوح في Photoshop: القائمة "Text" -> "Process absent fonts". بعد هذه العملية سيظهر جميع النص مرة أخرى. يرجى ملاحظة أن هذه العملية قد تسبب بعض التغييرات النهائية في التخطيط.
+يحصل على قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، في الحالة الوحيدة التي لا يمكن فتحها في Adobe Photoshop بعد المعالجة (غالبًا ما يتعلق بطبقات النص التي تفتقد الخطوط). بعد استخدام هذا الخيار، يحتاج المستخدم إلى القيام بما يلي في الملف المفتوح في Photoshop: القائمة "Text" -> "Process absent fonts". بعد هذه العملية سيظهر جميع النص مرة أخرى. يرجى ملاحظة أن هذه العملية قد تسبب بعض تغييرات التخطيط النهائية.
 
 **Returns:**
 boolean - `true` إذا [remove global text engine resource]؛ وإلا `false`.
@@ -559,12 +559,12 @@ public void setRemoveGlobalTextEngineResource(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، وفي الحالة الوحيدة التي لا يمكن فتحها في Adobe Photoshop بعد المعالجة (غالبًا ما يتعلق بطبقات النص التي تفتقد الخطوط). بعد استخدام هذا الخيار، يحتاج المستخدم إلى تنفيذ التالي في الملف المفتوح في Photoshop: القائمة "Text" -> "Process absent fonts". بعد هذه العملية سيظهر جميع النص مرة أخرى. يرجى ملاحظة أن هذه العملية قد تسبب بعض التغييرات النهائية في التخطيط.
+يضبط قيمة تشير إلى ما إذا كان - إزالة مورد محرك النص العالمي - يُستخدم لبعض ملفات PSD ذات الطبقات النصية، في الحالة الوحيدة التي لا يمكن فتحها في Adobe Photoshop بعد المعالجة (غالبًا ما يتعلق بطبقات النص التي تفتقد الخطوط). بعد استخدام هذا الخيار، يحتاج المستخدم إلى القيام بما يلي في الملف المفتوح في Photoshop: القائمة "Text" -> "Process absent fonts". بعد هذه العملية سيظهر جميع النص مرة أخرى. يرجى ملاحظة أن هذه العملية قد تسبب بعض تغييرات التخطيط النهائية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا [remove global text engine resource]؛ وإلا `false`. |
+| value | boolean | `true` إذا [remove global text engine resource]؛ وإلا `false`. |
 
 ### isRefreshImagePreviewData() {#isRefreshImagePreviewData--}
 ```
@@ -587,7 +587,7 @@ public void setRefreshImagePreviewData(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا [refresh image preview data]؛ وإلا `false`. |
+| value | boolean | `true` إذا [refresh image preview data]؛ وإلا `false`. |
 
 ### getVectorizationOptions() {#getVectorizationOptions--}
 ```

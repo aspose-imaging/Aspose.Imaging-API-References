@@ -29,7 +29,7 @@ public class CdrColor
 | [getRgbColorValue()](#getRgbColorValue--) | يحصل على قيمة اللون RGB. |
 | [setRgbColorValue(int value)](#setRgbColorValue-int-) | يضبط قيمة اللون RGB. |
 | [getOpacity()](#getOpacity--) | يحصل على الشفافية. |
-| [setOpacity(byte value)](#setOpacity-byte-) | يعيّن الشفافية. |
+| [setOpacity(byte value)](#setOpacity-byte-) | يضبط الشفافية. |
 ### CdrColor() {#CdrColor--}
 ```
 public CdrColor()
@@ -57,7 +57,7 @@ public final void setColorModel(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نموذج اللون. |
+| value | int | نموذج اللون. |
 
 ### getColorValue() {#getColorValue--}
 ```
@@ -80,7 +80,7 @@ public final void setColorValue(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة اللون. |
+| value | int | قيمة اللون. |
 
 ### getRgbColorValue() {#getRgbColorValue--}
 ```
@@ -103,7 +103,7 @@ public final void setRgbColorValue(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة لون RGB. |
+| value | int | قيمة اللون RGB. |
 
 ### getOpacity() {#getOpacity--}
 ```
@@ -114,17 +114,17 @@ public final byte getOpacity()
 يحصل على الشفافية.
 
 **Returns:**
-byte - التعتيم.
+byte - الشفافية.
 ### setOpacity(byte value) {#setOpacity-byte-}
 ```
 public final void setOpacity(byte value)
 ```
 
 
-يعيّن الشفافية.
+يضبط الشفافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | الشفافية. |
+| value | byte | الشفافية. |
 

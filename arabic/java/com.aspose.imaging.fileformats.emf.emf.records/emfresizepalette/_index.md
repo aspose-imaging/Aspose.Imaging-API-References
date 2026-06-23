@@ -1,7 +1,7 @@
 ---
 title: "EmfResizePalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_RESIZEPALETTE يزيد أو يقلل حجم كائن LogPalette الموجود القسم 2.2.17."
+description: "سجل EMR_RESIZEPALETTE يزيد أو يقلل حجم كائن LogPalette الموجود (القسم 2.2.17)."
 type: docs
 weight: 108
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
@@ -12,27 +12,27 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfResizePalette extends EmfObjectManipulationRecordType
 ```
 
-سجل EMR\_RESIZEPALETTE يزيد أو يقلل حجم كائن LogPalette الموجود (القسم 2.2.17).
+السجل EMR\_RESIZEPALETTE يزيد أو يقلل حجم كائن LogPalette الموجود (القسم 2.2.17).
 
 يجب أن ينعكس الحجم الجديد لكائن LogPalette في حقل NumberOfEntries في تلك البنية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfResizePalette(EmfRecord source)](#EmfResizePalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfResizePalette`. |
+| [EmfResizePalette(EmfRecord source)](#EmfResizePalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfResizePalette`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIhPal()](#getIhPal--) | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد فهرس كائن اللوحة في جدول كائنات EMF (القسم 3.1.1.1). |
-| [setIhPal(int value)](#setIhPal-int-) | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد فهرس كائن اللوحة في جدول كائنات EMF (القسم 3.1.1.1). |
+| [getIhPal()](#getIhPal--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن لوحة الألوان في جدول كائنات EMF (القسم 3.1.1.1). |
+| [setIhPal(int value)](#setIhPal-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن لوحة الألوان في جدول كائنات EMF (القسم 3.1.1.1). |
 ### EmfResizePalette(EmfRecord source) {#EmfResizePalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfResizePalette(EmfRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfResizePalette`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfResizePalette`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public int getIhPal()
 ```
 
 
-الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد فهرس كائن اللوحة في جدول كائنات EMF (القسم 3.1.1.1).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن لوحة الألوان في جدول كائنات EMF (القسم 3.1.1.1).
 
 **Returns:**
 int
@@ -55,10 +55,10 @@ public void setIhPal(int value)
 ```
 
 
-الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد فهرس كائن اللوحة في جدول كائنات EMF (القسم 3.1.1.1).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن لوحة الألوان في جدول كائنات EMF (القسم 3.1.1.1).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

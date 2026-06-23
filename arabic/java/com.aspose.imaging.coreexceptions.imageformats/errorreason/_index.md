@@ -18,7 +18,7 @@ public static final class JpegLoadException.ErrorReason extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [BasicError](#BasicError) | نوع الخطأ الأساسي. |
-| [NotEnoughData](#NotEnoughData) | البيانات غير كافية في التدفق. |
+| [NotEnoughData](#NotEnoughData) | عدم وجود بيانات كافية في الدفق. |
 ### BasicError {#BasicError}
 ```
 public static final int BasicError
@@ -33,5 +33,5 @@ public static final int NotEnoughData
 ```
 
 
-البيانات غير كافية في التدفق.
+عدم وجود بيانات كافية في الدفق.
 

@@ -1,7 +1,7 @@
 ---
 title: "ColorantLab"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل صبغة LAB."
+description: "يمثّل صبغة LAB."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.xmp.types.complex.colorant/colorantlab/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ColorantLab extends ColorantBase
 ```
 
-يمثل صبغة LAB.
+يمثّل صبغة LAB.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ColorantLab()](#ColorantLab--) | يقوم بتهيئة نسخة جديدة من الفئة `ColorantLab`. |
-| [ColorantLab(int a, int b, float l)](#ColorantLab-int-int-float-) | يقوم بتهيئة نسخة جديدة من الفئة `ColorantLab`. |
+| [ColorantLab()](#ColorantLab--) | ينشئ مثيلًا جديدًا للفئة `ColorantLab`. |
+| [ColorantLab(int a, int b, float l)](#ColorantLab-int-int-float-) | ينشئ مثيلًا جديدًا للفئة `ColorantLab`. |
 ## الحقول
 
 | حقل | الوصف |
@@ -33,12 +33,12 @@ public final class ColorantLab extends ColorantBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getA()](#getA--) | يحصل أو يضبط المكوّن A. |
-| [setA(int value)](#setA-int-) | يحصل أو يضبط المكوّن A. |
-| [getB()](#getB--) | يحصل أو يضبط المكوّن B. |
-| [setB(int value)](#setB-int-) | يحصل أو يضبط المكوّن B. |
-| [getL()](#getL--) | يحصل أو يضبط المكوّن L. |
-| [setL(float value)](#setL-float-) | يحصل أو يضبط المكوّن L. |
+| [getA()](#getA--) | يحصل على المكوّن A أو يضبطه. |
+| [setA(int value)](#setA-int-) | يحصل على المكوّن A أو يضبطه. |
+| [getB()](#getB--) | يحصل على المكوّن B أو يضبطه. |
+| [setB(int value)](#setB-int-) | يحصل على المكوّن B أو يضبطه. |
+| [getL()](#getL--) | يحصل على المكوّن L أو يضبطه. |
+| [setL(float value)](#setL-float-) | يحصل على المكوّن L أو يضبطه. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### ColorantLab() {#ColorantLab--}
 ```
@@ -46,7 +46,7 @@ public ColorantLab()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `ColorantLab`.
+ينشئ مثيلًا جديدًا للفئة `ColorantLab`.
 
 ### ColorantLab(int a, int b, float l) {#ColorantLab-int-int-float-}
 ```
@@ -54,14 +54,14 @@ public ColorantLab(int a, int b, float l)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `ColorantLab`.
+ينشئ مثيلًا جديدًا للفئة `ColorantLab`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| أ | int | المكوّن A. |
-| b | int | المكوّن B. |
-| l | float | المكوّن L. |
+| a | int | مكوّن A. |
+| b | int | مكوّن B. |
+| l | float | مكوّن L. |
 
 ### MIN_A {#MIN-A}
 ```
@@ -117,9 +117,9 @@ public int getA()
 ```
 
 
-يحصل أو يضبط المكوّن A.
+يحصل على المكوّن A أو يضبطه.
 
-القيمة: المكوّن A.
+القيمة: مكوّن A.
 
 **Returns:**
 int
@@ -129,14 +129,14 @@ public void setA(int value)
 ```
 
 
-يحصل أو يضبط المكوّن A.
+يحصل على المكوّن A أو يضبطه.
 
-القيمة: المكوّن A.
+القيمة: مكوّن A.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getB() {#getB--}
 ```
@@ -144,9 +144,9 @@ public int getB()
 ```
 
 
-يحصل أو يضبط المكوّن B.
+يحصل على المكوّن B أو يضبطه.
 
-القيمة: المكوّن B.
+القيمة: مكوّن B.
 
 **Returns:**
 int
@@ -156,14 +156,14 @@ public void setB(int value)
 ```
 
 
-يحصل أو يضبط المكوّن B.
+يحصل على المكوّن B أو يضبطه.
 
-القيمة: المكوّن B.
+القيمة: مكوّن B.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getL() {#getL--}
 ```
@@ -171,9 +171,9 @@ public float getL()
 ```
 
 
-يحصل أو يضبط المكوّن L.
+يحصل على المكوّن L أو يضبطه.
 
-القيمة: المكوّن L.
+القيمة: مكوّن L.
 
 **Returns:**
 float
@@ -183,14 +183,14 @@ public void setL(float value)
 ```
 
 
-يحصل أو يضبط المكوّن L.
+يحصل على المكوّن L أو يضبطه.
 
-القيمة: المكوّن L.
+القيمة: مكوّن L.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

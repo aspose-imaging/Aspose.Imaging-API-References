@@ -1,7 +1,7 @@
 ---
 title: "SvgOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إنشاء ملفات صور SVG (رسومات متجهية قياسية) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع خيارات متعددة لأنواع الألوان ومستويات الضغط."
+description: "إنشاء ملفات صور رسومات المتجهات القياسية SVG باستخدام واجهة برمجة التطبيقات الخاصة بنا مع الاستفادة من خيارات متعددة لأنواع الألوان ومستويات الضغط."
 type: docs
 weight: 45
 url: /ar/java/com.aspose.imaging.imageoptions/svgoptions/
@@ -15,7 +15,7 @@ com.aspose.fileformats.core.imageoptions.ICompressOptions
 public class SvgOptions extends ImageOptionsBase implements ICompressOptions
 ```
 
-إنشاء ملفات صور SVG (رسومات متجهية قياسية) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع خيارات متعددة لأنواع الألوان ومستويات الضغط. خصّص صور SVG الخاصة بك بدقة وسلاسة، لضمان جودة مثالية وتوافق مع احتياجات التصميم الخاصة بك.
+إنشاء ملفات صور رسومات المتجهات القياسية (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع الاستفادة من خيارات متعددة لأنواع الألوان ومستويات الضغط. خصّص صور SVG الخاصة بك بدقة وسلاسة، مع ضمان جودة مثالية وتوافق يلبي احتياجات التصميم الخاصة بك.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -28,11 +28,11 @@ public class SvgOptions extends ImageOptionsBase implements ICompressOptions
 | [getColorType()](#getColorType--) | يحصل أو يعيّن نوع اللون لصورة SVG. |
 | [setColorType(int value)](#setColorType-int-) | يحصل أو يعيّن نوع اللون لصورة SVG. |
 | [getTextAsShapes()](#getTextAsShapes--) | يحصل على قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال. |
-| [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | يضبط قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال. |
-| [getCallback()](#getCallback--) | يحصل على استراتيجية التخزين للموارد المضمنة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والراستر المتداخل. |
-| [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | يضبط استراتيجية التخزين للموارد المضمنة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والراستر المتداخل. |
+| [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | يعيّن قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال. |
+| [getCallback()](#getCallback--) | يحصل على استراتيجية التخزين للموارد المدمجة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والرسوم النقطية المتداخلة. |
+| [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | يعيّن استراتيجية التخزين للموارد المدمجة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والرسوم النقطية المتداخلة. |
 | [getCompress()](#getCompress--) | يحصل على قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
-| [setCompress(boolean value)](#setCompress-boolean-) | يضبط قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
+| [setCompress(boolean value)](#setCompress-boolean-) | يعيّن قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
 
 ## Example: The following example shows how to convert a multipage vector image to SVG format in general way without referencing to a particular image type.
 
@@ -130,7 +130,7 @@ public void setColorType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع لون صورة SVG. |
+| value | int | نوع لون صورة SVG. |
 
 ### getTextAsShapes() {#getTextAsShapes--}
 ```
@@ -140,7 +140,7 @@ public boolean getTextAsShapes()
 
 يحصل على قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال.
 
-القيمة: `true` إذا تم تحويل جميع النص إلى أشكال SVG أثناء التحويل؛ وإلا `false`.
+القيمة: `true` إذا تم تحويل كل النص إلى أشكال SVG في التحويل؛ وإلا `false`.
 
 **Returns:**
 boolean - قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال.
@@ -150,14 +150,14 @@ public void setTextAsShapes(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال.
+يعيّن قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال.
 
-القيمة: `true` إذا تم تحويل جميع النص إلى أشكال SVG أثناء التحويل؛ وإلا `false`.
+القيمة: `true` إذا تم تحويل كل النص إلى أشكال SVG في التحويل؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال. |
+| value | boolean | قيمة تشير إلى ما إذا كان يجب عرض النص كأشكال. |
 
 
 **Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**
@@ -215,10 +215,10 @@ try {
     // إذا كان هناك emf مضمّن، فقم بعرض emf؛ وإلا عرض wmf.
     rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.emf.EmfRenderMode.Auto);
 
-    // حدد الهامش الأفقي
+    // تعيين الهامش الأفقي
     rasterizationOptions.setBorderX(50);
 
-    // حدد الهامش الرأسي
+    // تعيين الهامش العمودي
     rasterizationOptions.setBorderY(50);
 
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
@@ -235,7 +235,7 @@ public ISvgResourceKeeperCallback getCallback()
 ```
 
 
-يحصل على استراتيجية التخزين للموارد المضمنة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والراستر المتداخل.
+يحصل على استراتيجية التخزين للموارد المدمجة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والرسوم النقطية المتداخلة.
 
 **Returns:**
 [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) - the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
@@ -245,12 +245,12 @@ public void setCallback(ISvgResourceKeeperCallback value)
 ```
 
 
-يضبط استراتيجية التخزين للموارد المضمنة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والراستر المتداخل.
+يعيّن استراتيجية التخزين للموارد المدمجة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والرسوم النقطية المتداخلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | استراتيجية التخزين للموارد المضمنة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والراستر المتداخل. |
+| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | استراتيجية التخزين للموارد المدمجة في [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مثل الخطوط والرسوم النقطية المتداخلة. |
 
 ### getCompress() {#getCompress--}
 ```
@@ -261,19 +261,19 @@ public final boolean getCompress()
 يحصل على قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
+boolean - قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
 ### setCompress(boolean value) {#setCompress-boolean-}
 ```
 public final void setCompress(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
+يعيّن قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
+| value | boolean | قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
 
 
 **Example: The following example shows how to convert a svg images to svgz format**

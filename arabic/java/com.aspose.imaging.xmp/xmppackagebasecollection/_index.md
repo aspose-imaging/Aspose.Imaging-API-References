@@ -20,13 +20,13 @@ public final class XmpPackageBaseCollection implements System.Collections.Generi
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpPackageBaseCollection()](#XmpPackageBaseCollection--) | يُنشئ مثيلًا جديدًا من الفئة `XmpPackageBaseCollection`. |
+| [XmpPackageBaseCollection()](#XmpPackageBaseCollection--) | يُنشئ مثلاً جديداً من الفئة `XmpPackageBaseCollection`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getCount()](#getCount--) | يحصل على عدد العناصر في المجموعة. |
-| [add(XmpPackage package_)](#add-com.aspose.imaging.xmp.XmpPackage-) | يضيف مثيلًا جديدًا من `XmpPackage`. |
+| [add(XmpPackage package_)](#add-com.aspose.imaging.xmp.XmpPackage-) | يضيف مثلاً جديداً من `XmpPackage`. |
 | [remove(XmpPackage package_)](#remove-com.aspose.imaging.xmp.XmpPackage-) | يزيل حزمة XMP المحددة. |
 | [getPackages()](#getPackages--) | احصل على مصفوفة من `XmpPackage`. |
 | [getPackage(String namespaceUri)](#getPackage-java.lang.String-) | يحصل على `XmpPackage` بواسطة namespaceURI الخاص به. |
@@ -38,7 +38,7 @@ public XmpPackageBaseCollection()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `XmpPackageBaseCollection`.
+يُنشئ مثلاً جديداً من الفئة `XmpPackageBaseCollection`.
 
 ### getCount() {#getCount--}
 ```
@@ -58,12 +58,12 @@ public void add(XmpPackage package_)
 ```
 
 
-يضيف مثيلًا جديدًا من `XmpPackage`.
+يضيف مثلاً جديداً من `XmpPackage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| package_ | [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) | حزمة XMP\_ لإضافتها. |
+| package_ | [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) | حزمة XMP\_ المراد إضافتها. |
 
 ### remove(XmpPackage package_) {#remove-com.aspose.imaging.xmp.XmpPackage-}
 ```
@@ -76,7 +76,7 @@ public void remove(XmpPackage package_)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| package_ | [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) | حزمة XMP\_ للإزالة. |
+| package_ | [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) | حزمة XMP\_ لإزالتها. |
 
 ### getPackages() {#getPackages--}
 ```
@@ -87,7 +87,7 @@ public XmpPackage[] getPackages()
 احصل على مصفوفة من `XmpPackage`.
 
 **Returns:**
-com.aspose.imaging.xmp.XmpPackage[] - يُرجِع مصفوفة من حزم XMP.
+com.aspose.imaging.xmp.XmpPackage[] - إرجاع مصفوفة من حزم XMP.
 ### getPackage(String namespaceUri) {#getPackage-java.lang.String-}
 ```
 public XmpPackage getPackage(String namespaceUri)
@@ -99,7 +99,7 @@ public XmpPackage getPackage(String namespaceUri)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| namespaceUri | java.lang.String | URI مساحة الاسم للحصول على حزمة\_ لها. |
+| namespaceUri | java.lang.String | معرف URI للمساحة الاسمية للحصول على حزمة\_. |
 
 **Returns:**
 [XmpPackage](../../com.aspose.imaging.xmp/xmppackage) - Returns XMP package\_ for specified namespace Uri.

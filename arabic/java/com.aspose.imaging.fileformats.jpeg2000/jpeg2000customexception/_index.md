@@ -1,7 +1,7 @@
 ---
 title: "Jpeg2000CustomException"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "استثناء تم إنشاؤه بواسطة شفرة OpenJpeg لـ Jpeg2000"
+description: "استثناء تم إنشاؤه بواسطة كود OpenJpeg لـ Jpeg2000"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.jpeg2000/jpeg2000customexception/
@@ -12,20 +12,20 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class Jpeg2000CustomException extends System.Exception
 ```
 
-استثناء تم إنشاؤه بواسطة شفرة OpenJpeg لـ Jpeg2000
+استثناء تم إنشاؤه بواسطة كود OpenJpeg لـ Jpeg2000
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Jpeg2000CustomException(String message)](#Jpeg2000CustomException-java.lang.String-) | يقوم بتهيئة نسخة جديدة من الفئة `Jpeg2000CustomException`. |
-| [Jpeg2000CustomException(String message, Throwable innerException)](#Jpeg2000CustomException-java.lang.String-java.lang.Throwable-) | يقوم بتهيئة نسخة جديدة من الفئة `Jpeg2000CustomException`. |
+| [Jpeg2000CustomException(String message)](#Jpeg2000CustomException-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `Jpeg2000CustomException`. |
+| [Jpeg2000CustomException(String message, Throwable innerException)](#Jpeg2000CustomException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديداً من الفئة `Jpeg2000CustomException`. |
 ### Jpeg2000CustomException(String message) {#Jpeg2000CustomException-java.lang.String-}
 ```
 public Jpeg2000CustomException(String message)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `Jpeg2000CustomException`.
+ينشئ مثيلاً جديداً من الفئة `Jpeg2000CustomException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public Jpeg2000CustomException(String message, Throwable innerException)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `Jpeg2000CustomException`.
+ينشئ مثيلاً جديداً من الفئة `Jpeg2000CustomException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

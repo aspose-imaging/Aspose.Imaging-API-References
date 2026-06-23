@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfBitBlt extends WmfStretchBlt
 ```
 
-سجل META\_BITBLT يحدد نقل كتلة من البكسلات وفقًا لعملية نقطية. وجهة النقل هي المنطقة الحالية للإخراج في سياق جهاز التشغيل.
+سجل META\_BITBLT يحدد نقل كتلة من البكسلات وفقًا لعملية نقطية. وجهة النقل هي منطقة الإخراج الحالية في سياق جهاز التشغيل.
 ## المنشئات
 
 | المنشئ | الوصف |

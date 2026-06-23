@@ -12,31 +12,31 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ResourceRef extends ComplexTypeBase
 ```
 
-تُستخدم للإشارة إلى الإصدارات السابقة، النسخ الأصلية للتنقيحات، النسخ الأصلية للمستندات المشتقة، وما إلى ذلك.
+تُستخدم للإشارة إلى الإصدارات السابقة، النسخ الأصلية للتصاميم، النسخ الأصلية للمستندات المشتقة، وما إلى ذلك.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ResourceRef()](#ResourceRef--) | يُنشئ مثيلاً جديدًا للفئة `Dimensions`. |
+| [ResourceRef()](#ResourceRef--) | ينشئ مثيلاً جديدًا من الفئة `Dimensions`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getAlternatePaths()](#getAlternatePaths--) | يحصل على أو يعيّن مصفوفة المسارات البديلة. |
-| [setAlternatePaths(String[] value)](#setAlternatePaths-java.lang.String---) | يحصل على أو يعيّن مصفوفة المسارات البديلة. |
-| [getDocumentUri()](#getDocumentUri--) | يحصل على أو يعيّن معرف URI للمستند. |
-| [setDocumentUri(String value)](#setDocumentUri-java.lang.String-) | يحصل على أو يعيّن معرف URI للمستند. |
-| [getFilePathUri()](#getFilePathUri--) | يحصل على أو يعيّن معرف URI لمسار الملف. |
-| [setFilePathUri(String value)](#setFilePathUri-java.lang.String-) | يحصل على أو يعيّن معرف URI لمسار الملف. |
-| [getInstanceId()](#getInstanceId--) | يحصل على أو يعيّن معرف المثيل. |
-| [setInstanceId(String value)](#setInstanceId-java.lang.String-) | يحصل على أو يعيّن معرف المثيل. |
+| [getAlternatePaths()](#getAlternatePaths--) | يحصل أو يعيّن مصفوفة المسارات البديلة. |
+| [setAlternatePaths(String[] value)](#setAlternatePaths-java.lang.String---) | يحصل أو يعيّن مصفوفة المسارات البديلة. |
+| [getDocumentUri()](#getDocumentUri--) | يحصل أو يعيّن معرف URI للمستند. |
+| [setDocumentUri(String value)](#setDocumentUri-java.lang.String-) | يحصل أو يعيّن معرف URI للمستند. |
+| [getFilePathUri()](#getFilePathUri--) | يحصل أو يعيّن معرف URI لمسار الملف. |
+| [setFilePathUri(String value)](#setFilePathUri-java.lang.String-) | يحصل أو يعيّن معرف URI لمسار الملف. |
+| [getInstanceId()](#getInstanceId--) | يحصل أو يعيّن معرف المثيل. |
+| [setInstanceId(String value)](#setInstanceId-java.lang.String-) | يحصل أو يعيّن معرف المثيل. |
 ### ResourceRef() {#ResourceRef--}
 ```
 public ResourceRef()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `Dimensions`.
+ينشئ مثيلاً جديدًا من الفئة `Dimensions`.
 
 ### getAlternatePaths() {#getAlternatePaths--}
 ```
@@ -44,7 +44,7 @@ public String[] getAlternatePaths()
 ```
 
 
-يحصل على أو يعيّن مصفوفة المسارات البديلة.
+يحصل أو يعيّن مصفوفة المسارات البديلة.
 
 القيمة: مصفوفة المسارات البديلة.
 
@@ -56,14 +56,14 @@ public void setAlternatePaths(String[] value)
 ```
 
 
-يحصل على أو يعيّن مصفوفة المسارات البديلة.
+يحصل أو يعيّن مصفوفة المسارات البديلة.
 
 القيمة: مصفوفة المسارات البديلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String[] |  |
+| value | java.lang.String[] |  |
 
 ### getDocumentUri() {#getDocumentUri--}
 ```
@@ -71,7 +71,7 @@ public String getDocumentUri()
 ```
 
 
-يحصل على أو يعيّن معرف URI للمستند.
+يحصل أو يعيّن معرف URI للمستند.
 
 القيمة: معرف URI للمستند.
 
@@ -83,14 +83,14 @@ public void setDocumentUri(String value)
 ```
 
 
-يحصل على أو يعيّن معرف URI للمستند.
+يحصل أو يعيّن معرف URI للمستند.
 
 القيمة: معرف URI للمستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFilePathUri() {#getFilePathUri--}
 ```
@@ -98,7 +98,7 @@ public String getFilePathUri()
 ```
 
 
-يحصل على أو يعيّن معرف URI لمسار الملف.
+يحصل أو يعيّن معرف URI لمسار الملف.
 
 القيمة: معرف URI لمسار الملف.
 
@@ -110,14 +110,14 @@ public void setFilePathUri(String value)
 ```
 
 
-يحصل على أو يعيّن معرف URI لمسار الملف.
+يحصل أو يعيّن معرف URI لمسار الملف.
 
 القيمة: معرف URI لمسار الملف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getInstanceId() {#getInstanceId--}
 ```
@@ -125,7 +125,7 @@ public String getInstanceId()
 ```
 
 
-يحصل على أو يعيّن معرف المثيل.
+يحصل أو يعيّن معرف المثيل.
 
 القيمة: معرف المثيل.
 
@@ -137,12 +137,12 @@ public void setInstanceId(String value)
 ```
 
 
-يحصل على أو يعيّن معرف المثيل.
+يحصل أو يعيّن معرف المثيل.
 
 القيمة: معرف المثيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 

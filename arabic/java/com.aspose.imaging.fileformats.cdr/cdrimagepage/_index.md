@@ -1,7 +1,7 @@
 ---
 title: "CdrImagePage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "صفحة صورة Cdr"
+description: "صفحة صورة Cdr."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.cdr/cdrimagepage/
@@ -15,19 +15,19 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrImagePage extends VectorImage implements ICdrImage
 ```
 
-صفحة صورة Cdr
+صفحة صورة Cdr.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getParentImage()](#getParentImage--) | يحصل على الصورة الأصلية. |
 | [getPageNumber()](#getPageNumber--) | يحصل على رقم الصفحة. |
-| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات. |
+| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد بتات الصورة لكل بكسل. |
 | [getFileFormat()](#getFileFormat--) | يحصل على قيمة تنسيق الملف |
 | [getCdrDocument()](#getCdrDocument--) | يحصل على مستند CDR. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | يحصل على الخيارات الافتراضية. |
-| [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer` الأساسي. |
+| [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من المصدر الأساسي `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer`. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | يضبط لوحة ألوان الصورة. |
 ### getParentImage() {#getParentImage--}
 ```
@@ -59,7 +59,7 @@ public boolean isCached()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 
 **Returns:**
 boolean
@@ -106,7 +106,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | java.lang.Object[] | المعلمات. |
+| args | java.lang.Object[] | المعاملات. |
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
@@ -116,7 +116,7 @@ public synchronized void cacheData()
 ```
 
 
-يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer` الأساسي.
+يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من المصدر الأساسي `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer`.
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

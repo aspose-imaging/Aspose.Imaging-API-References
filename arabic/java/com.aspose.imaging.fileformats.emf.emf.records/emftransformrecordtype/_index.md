@@ -17,15 +17,15 @@ public abstract class EmfTransformRecordType extends EmfRecord
 
 | طريقة | الوصف |
 | --- | --- |
-| [getXform()](#getXform--) | يحصل أو يعيّن كائن XForm (القسم 2.2.28)، الذي يعرّف تحويلًا من الفضاء العالمي إلى فضاء الصفحة. |
-| [setXform(Matrix value)](#setXform-com.aspose.imaging.Matrix-) | يحصل أو يعيّن كائن XForm (القسم 2.2.28)، الذي يعرّف تحويلًا من الفضاء العالمي إلى فضاء الصفحة. |
+| [getXform()](#getXform--) | يحصل أو يضبط كائن XForm (القسم 2.2.28)، الذي يحدد تحويلًا من الفضاء العالمي إلى فضاء الصفحة. |
+| [setXform(Matrix value)](#setXform-com.aspose.imaging.Matrix-) | يحصل أو يضبط كائن XForm (القسم 2.2.28)، الذي يحدد تحويلًا من الفضاء العالمي إلى فضاء الصفحة. |
 ### getXform() {#getXform--}
 ```
 public Matrix getXform()
 ```
 
 
-يحصل أو يعيّن كائن XForm (القسم 2.2.28)، الذي يعرّف تحويلًا من الفضاء العالمي إلى فضاء الصفحة.
+يحصل أو يضبط كائن XForm (القسم 2.2.28)، الذي يحدد تحويلًا من الفضاء العالمي إلى فضاء الصفحة.
 
 **Returns:**
 [Matrix](../../com.aspose.imaging/matrix)
@@ -35,7 +35,7 @@ public void setXform(Matrix value)
 ```
 
 
-يحصل أو يعيّن كائن XForm (القسم 2.2.28)، الذي يعرّف تحويلًا من الفضاء العالمي إلى فضاء الصفحة.
+يحصل أو يضبط كائن XForm (القسم 2.2.28)، الذي يحدد تحويلًا من الفضاء العالمي إلى فضاء الصفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

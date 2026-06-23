@@ -17,15 +17,15 @@ public class BmpImageException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BmpImageException(String message)](#BmpImageException-java.lang.String-) | يقوم بتهيئة نسخة جديدة من الفئة `BmpImageException`. |
-| [BmpImageException(String message, Throwable innerException)](#BmpImageException-java.lang.String-java.lang.Throwable-) | يقوم بتهيئة نسخة جديدة من الفئة `BmpImageException`. |
+| [BmpImageException(String message)](#BmpImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `BmpImageException`. |
+| [BmpImageException(String message, Throwable innerException)](#BmpImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `BmpImageException`. |
 ### BmpImageException(String message) {#BmpImageException-java.lang.String-}
 ```
 public BmpImageException(String message)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `BmpImageException`.
+ينشئ مثيلاً جديدًا من الفئة `BmpImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public BmpImageException(String message, Throwable innerException)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `BmpImageException`.
+ينشئ مثيلاً جديدًا من الفئة `BmpImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -17,17 +17,17 @@ public final class Cache
 
 | طريقة | الوصف |
 | --- | --- |
-| [getExactReallocateOnly()](#getExactReallocateOnly--) | يحصل على قيمة تشير إلى ما إذا كان يجب أن يكون إعادة التخصيص دقيقة أم لا. |
-| [setExactReallocateOnly(boolean value)](#setExactReallocateOnly-boolean-) | يضبط قيمة تشير إلى ما إذا كان يجب أن يكون إعادة التخصيص دقيقة أم لا. |
-| [getCacheFolder()](#getCacheFolder--) | يحصل على مجلد التخزين المؤقت. |
-| [setCacheFolder(String value)](#setCacheFolder-java.lang.String-) | يضبط مجلد التخزين المؤقت. |
+| [getExactReallocateOnly()](#getExactReallocateOnly--) | يحصل على قيمة تُشير إلى ما إذا كان إعادة التخصيص يجب أن تكون دقيقة أم لا. |
+| [setExactReallocateOnly(boolean value)](#setExactReallocateOnly-boolean-) | يضبط قيمة تُشير إلى ما إذا كان إعادة التخصيص يجب أن تكون دقيقة أم لا. |
+| [getCacheFolder()](#getCacheFolder--) | يحصل على مجلد الذاكرة المؤقتة. |
+| [setCacheFolder(String value)](#setCacheFolder-java.lang.String-) | يضبط مجلد الذاكرة المؤقتة. |
 | [getAllocatedMemoryBytesCount()](#getAllocatedMemoryBytesCount--) | يحصل على عدد البايتات المخصصة في الذاكرة. |
 | [getAllocatedDiskBytesCount()](#getAllocatedDiskBytesCount--) | يحصل على عدد البايتات المخصصة على القرص. |
-| [getMaxMemoryForCache()](#getMaxMemoryForCache--) | يحصل على الحد الأقصى للذاكرة المتاحة للتخزين المؤقت في الذاكرة. |
-| [setMaxMemoryForCache(int value)](#setMaxMemoryForCache-int-) | يضبط الحد الأقصى للذاكرة المتاحة للتخزين المؤقت في الذاكرة. |
-| [getMaxDiskSpaceForCache()](#getMaxDiskSpaceForCache--) | يحصل على الحد الأقصى للمساحة المتاحة على القرص للتخزين المؤقت. |
-| [setMaxDiskSpaceForCache(int value)](#setMaxDiskSpaceForCache-int-) | يضبط الحد الأقصى للمساحة المتاحة على القرص للتخزين المؤقت. |
-| [getCacheType()](#getCacheType--) | يحصل أو يضبط مخطط التخزين المؤقت المستخدم. |
+| [getMaxMemoryForCache()](#getMaxMemoryForCache--) | يحصل على الحد الأقصى للذاكرة المتاحة للذاكرة المؤقتة في الذاكرة. |
+| [setMaxMemoryForCache(int value)](#setMaxMemoryForCache-int-) | يضبط الحد الأقصى للذاكرة المتاحة للذاكرة المؤقتة في الذاكرة. |
+| [getMaxDiskSpaceForCache()](#getMaxDiskSpaceForCache--) | يحصل على الحد الأقصى المتاح لمساحة القرص للتخزين المؤقت. |
+| [setMaxDiskSpaceForCache(int value)](#setMaxDiskSpaceForCache-int-) | يضبط الحد الأقصى المتاح لمساحة القرص للتخزين المؤقت. |
+| [getCacheType()](#getCacheType--) | يحصل على أو يضبط مخطط التخزين المؤقت المستخدم. |
 | [setCacheType(int value)](#setCacheType-int-) | يضبط مخطط التخزين المؤقت المستخدم. |
 | [setDefaults()](#setDefaults--) | يضبط إعدادات `Cache` إلى القيم الافتراضية. |
 
@@ -49,7 +49,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -91,7 +91,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);
@@ -110,7 +110,7 @@ public static boolean getExactReallocateOnly()
 **Returns:**
 منطقي - `true` إذا كانت إعادة التخصيص دقيقة؛ وإلا `false`.
 
-ستقوم إعادة التخصيص الدقيقة بإعادة تخصيص الذاكرة الإضافية فقط حتى الحد الأعلى المحدد. عند تمرير الحد الأعلى للذاكرة الداخلية أثناء إعادة التخصيص، سيتم نسخ البيانات المؤقتة إلى القرص إذا أمكن. عند تمرير الحد الأعلى لذاكرة القرص أثناء إعادة التخصيص، يتم طرح الاستثناء المناسب. يجب أن يكون الأداء أعلى إذا تم إيقاف هذا الخيار لأنه لن يتم إجراء نسخ إضافي إذا كان ذلك ممكنًا، ومع ذلك قد يؤدي ذلك أيضًا إلى تجاوز الحدود العليا المحددة للذاكرة أو القرص.
+إعادة التخصيص الدقيقة ستقوم بإعادة تخصيص الذاكرة الإضافية فقط حتى الحد الأعلى المحدد. عند تمرير الحد الأعلى للذاكرة داخلية أثناء إعادة التخصيص، سيتم نسخ البيانات المخزنة مؤقتًا إلى القرص إذا كان ذلك ممكنًا. عند تمرير الحد الأعلى لذاكرة القرص أثناء إعادة التخصيص، يتم إلقاء الاستثناء المناسب. يجب أن يكون الأداء أعلى إذا تم إيقاف هذا الخيار لأنه لن يتم إجراء نسخ إضافي إذا كان ذلك ممكنًا، ومع ذلك قد يؤدي ذلك أيضًا إلى تجاوز الحدود العليا المحددة للذاكرة أو القرص.
 ### setExactReallocateOnly(boolean value) {#setExactReallocateOnly-boolean-}
 ```
 public static void setExactReallocateOnly(boolean value)
@@ -122,9 +122,9 @@ public static void setExactReallocateOnly(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | boolean | `true` إذا كانت إعادة التخصيص دقيقة؛ وإلا `false`. |
+|  | value | boolean | `true` إذا كانت إعادة التخصيص دقيقة؛ وإلا `false`. |
 
-ستقوم إعادة التخصيص الدقيقة بإعادة تخصيص الذاكرة الإضافية فقط حتى الحد الأعلى المحدد. عند تمرير الحد الأعلى للذاكرة الداخلية أثناء إعادة التخصيص، سيتم نسخ البيانات المؤقتة إلى القرص إذا أمكن. عند تمرير الحد الأعلى لذاكرة القرص أثناء إعادة التخصيص، يتم طرح الاستثناء المناسب. يجب أن يكون الأداء أعلى إذا تم إيقاف هذا الخيار لأنه لن يتم إجراء نسخ إضافي إذا كان ذلك ممكنًا، ومع ذلك قد يؤدي ذلك أيضًا إلى تجاوز الحدود العليا المحددة للذاكرة أو القرص. |
+إعادة التخصيص الدقيقة ستقوم بإعادة تخصيص الذاكرة الإضافية فقط حتى الحد الأعلى المحدد. عند تمرير الحد الأعلى للذاكرة داخلية أثناء إعادة التخصيص، سيتم نسخ البيانات المخزنة مؤقتًا إلى القرص إذا كان ذلك ممكنًا. عند تمرير الحد الأعلى لذاكرة القرص أثناء إعادة التخصيص، يتم إلقاء الاستثناء المناسب. يجب أن يكون الأداء أعلى إذا تم إيقاف هذا الخيار لأنه لن يتم إجراء نسخ إضافي إذا كان ذلك ممكنًا، ومع ذلك قد يؤدي ذلك أيضًا إلى تجاوز الحدود العليا المحددة للذاكرة أو القرص. |
 
 
 **Example: This example demonstrates how to use com.aspose.imaging.Cache**
@@ -145,7 +145,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -187,7 +187,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);
@@ -201,22 +201,22 @@ public static String getCacheFolder()
 ```
 
 
-يحصل على مجلد التخزين المؤقت.
+يحصل على مجلد الذاكرة المؤقتة.
 
 **Returns:**
-java.lang.String - مجلد الذاكرة المؤقتة.
+java.lang.String - مجلد التخزين المؤقت.
 ### setCacheFolder(String value) {#setCacheFolder-java.lang.String-}
 ```
 public static void setCacheFolder(String value)
 ```
 
 
-يضبط مجلد التخزين المؤقت.
+يضبط مجلد الذاكرة المؤقتة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | مجلد الذاكرة المؤقتة. |
+| value | java.lang.String | مجلد التخزين المؤقت. |
 
 ### getAllocatedMemoryBytesCount() {#getAllocatedMemoryBytesCount--}
 ```
@@ -247,7 +247,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -289,7 +289,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);
@@ -306,7 +306,7 @@ public static long getAllocatedDiskBytesCount()
 يحصل على عدد البايتات المخصصة على القرص.
 
 **Returns:**
-long - عدد البايتات المخصصة على القرص.
+long - عدد بايتات القرص المخصصة.
 
 **Example: This example demonstrates how to use com.aspose.imaging.Cache**
 
@@ -326,7 +326,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -368,7 +368,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);
@@ -382,26 +382,26 @@ public static int getMaxMemoryForCache()
 ```
 
 
-يحصل على الحد الأقصى للذاكرة المتاحة للذاكرة المؤقتة في الذاكرة. القيمة المحددة هي عدد الميجابايت.
+يحصل على الحد الأقصى للذاكرة المتاحة للتخزين المؤقت في الذاكرة. القيمة المحددة هي عدد الميغابايت.
 
 **Returns:**
-int - الحد الأقصى للذاكرة للذاكرة المؤقتة.
+int - الحد الأقصى للذاكرة للتخزين المؤقت.
 
-القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كعدم وجود حد أعلى.
+القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كحد أعلى غير موجود.
 ### setMaxMemoryForCache(int value) {#setMaxMemoryForCache-int-}
 ```
 public static void setMaxMemoryForCache(int value)
 ```
 
 
-يضبط الحد الأقصى للذاكرة المتاحة للذاكرة المؤقتة في الذاكرة. القيمة المحددة هي عدد الميجابايت.
+يضبط الحد الأقصى للذاكرة المتاحة للتخزين المؤقت في الذاكرة. القيمة المحددة هي عدد الميغابايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | int | الحد الأقصى للذاكرة للذاكرة المؤقتة. |
+|  | value | int | الحد الأقصى للذاكرة للتخزين المؤقت. |
 
-القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كعدم وجود حد أعلى. |
+القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كحد أعلى غير موجود. |
 
 
 **Example: This example demonstrates how to use com.aspose.imaging.Cache**
@@ -422,7 +422,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -464,7 +464,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);
@@ -478,26 +478,26 @@ public static int getMaxDiskSpaceForCache()
 ```
 
 
-يحصل على الحد الأقصى المتاح لمساحة القرص المؤقت. القيمة المحددة هي عدد الميجابايت.
+يحصل على الحد الأقصى للمساحة المتاحة على القرص للتخزين المؤقت. القيمة المحددة هي عدد الميغابايت.
 
 **Returns:**
-int - الحد الأقصى المتاح لمساحة القرص المؤقت.
+int - الحد الأقصى للمساحة المتاحة على القرص للتخزين المؤقت.
 
-القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كعدم وجود حد أعلى.
+القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كحد أعلى غير موجود.
 ### setMaxDiskSpaceForCache(int value) {#setMaxDiskSpaceForCache-int-}
 ```
 public static void setMaxDiskSpaceForCache(int value)
 ```
 
 
-يضبط الحد الأقصى المتاح لمساحة القرص المؤقت. القيمة المحددة هي عدد الميجابايت.
+يضبط الحد الأقصى للمساحة المتاحة على القرص للتخزين المؤقت. القيمة المحددة هي عدد الميغابايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | int | الحد الأقصى المتاح لمساحة القرص المؤقت. |
+|  | value | int | الحد الأقصى للمساحة المتاحة على القرص للتخزين المؤقت. |
 
-القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كعدم وجود حد أعلى. |
+القيمة 0 ستستهلك كل الذاكرة المتاحة وتعمل كحد أعلى غير موجود. |
 
 
 **Example: This example demonstrates how to use com.aspose.imaging.Cache**
@@ -518,7 +518,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -560,7 +560,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);
@@ -574,7 +574,7 @@ public static int getCacheType()
 ```
 
 
-يحصل أو يضبط مخطط التخزين المؤقت المستخدم.
+يحصل على أو يضبط مخطط التخزين المؤقت المستخدم.
 
 **Returns:**
 int - مخطط التخزين المؤقت المستخدم.
@@ -589,7 +589,7 @@ public static void setCacheType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | مخطط التخزين المؤقت المستخدم. |
+| value | int | مخطط التخزين المؤقت المستخدم. |
 
 
 **Example: This example demonstrates how to use com.aspose.imaging.Cache**
@@ -610,7 +610,7 @@ com.aspose.imaging.Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 com.aspose.imaging.Cache.setExactReallocateOnly(false);
 
 // في أي وقت يمكنك التحقق من عدد البايتات المخصصة حاليًا للذاكرة أو القرص
-// الذاكرة المؤقتة بفحص الخصائص التالية
+// التخزين المؤقت بفحص الخصائص التالية
 long l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 long l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 
@@ -652,7 +652,7 @@ try {
 }
 
 // يمكن استخدام خصائص التخصيص للتحقق مما إذا كانت جميع كائنات Aspose.Imaging قد تم تحريرها بشكل صحيح.
-// في حال نسيت استدعاء dispose على بعض الكائنات، ستكون قيم الذاكرة المؤقتة مختلفة عن 0.
+// في حال نسيت استدعاء dispose على بعض الكائنات، ستختلف قيم التخزين المؤقت عن 0.
 l1 = com.aspose.imaging.Cache.getAllocatedDiskBytesCount();
 l2 = com.aspose.imaging.Cache.getAllocatedMemoryBytesCount();
 System.out.println("Allocated disk space, in bytes: " + l1);

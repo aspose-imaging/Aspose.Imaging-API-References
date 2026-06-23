@@ -1,7 +1,7 @@
 ---
 title: "TiffStreamFactory"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مصنع تيار Tiff بناءً على ترتيب البايت."
+description: "مصنع تيار Tiff يعتمد على ترتيب البايت."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/
@@ -12,24 +12,24 @@ java.lang.Object
 public final class TiffStreamFactory
 ```
 
-مصنع تيار Tiff بناءً على ترتيب البايت.
+مصنع تيار Tiff يعتمد على ترتيب البايت.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getTiffWriter(StreamContainer stream, int byteOrder)](#getTiffWriter-com.aspose.imaging.StreamContainer-int-) | يحصل على كاتب تدفق tiff. |
-| [getTiffWriter(StreamContainer stream, int byteOrder, boolean isBigTiff)](#getTiffWriter-com.aspose.imaging.StreamContainer-int-boolean-) | يحصل على كاتب تدفق tiff. |
-| [getTiffReader(StreamContainer stream, int byteOrder)](#getTiffReader-com.aspose.imaging.StreamContainer-int-) | يحصل على قارئ تدفق tiff. |
-| [getTiffReader(StreamContainer stream, int byteOrder, boolean isBigTiff)](#getTiffReader-com.aspose.imaging.StreamContainer-int-boolean-) | يحصل على قارئ تدفق tiff. |
-| [getTiffReader(byte[] bytes, int bytesOffset, int dataLength, int byteOrder)](#getTiffReader-byte---int-int-int-) | يحصل على قارئ تدفق tiff. |
-| [getTiffReader(byte[] bytes, int bytesOffset, int dataLength, int byteOrder, boolean isBigTiff)](#getTiffReader-byte---int-int-int-boolean-) | يحصل على قارئ تدفق tiff. |
+| [getTiffWriter(StreamContainer stream, int byteOrder)](#getTiffWriter-com.aspose.imaging.StreamContainer-int-) | يسترجع كاتب تدفق tiff. |
+| [getTiffWriter(StreamContainer stream, int byteOrder, boolean isBigTiff)](#getTiffWriter-com.aspose.imaging.StreamContainer-int-boolean-) | يسترجع كاتب تدفق tiff. |
+| [getTiffReader(StreamContainer stream, int byteOrder)](#getTiffReader-com.aspose.imaging.StreamContainer-int-) | يسترجع قارئ تدفق tiff. |
+| [getTiffReader(StreamContainer stream, int byteOrder, boolean isBigTiff)](#getTiffReader-com.aspose.imaging.StreamContainer-int-boolean-) | يسترجع قارئ تدفق tiff. |
+| [getTiffReader(byte[] bytes, int bytesOffset, int dataLength, int byteOrder)](#getTiffReader-byte---int-int-int-) | يسترجع قارئ تدفق tiff. |
+| [getTiffReader(byte[] bytes, int bytesOffset, int dataLength, int byteOrder, boolean isBigTiff)](#getTiffReader-byte---int-int-int-boolean-) | يسترجع قارئ تدفق tiff. |
 ### getTiffWriter(StreamContainer stream, int byteOrder) {#getTiffWriter-com.aspose.imaging.StreamContainer-int-}
 ```
 public static TiffStreamWriter getTiffWriter(StreamContainer stream, int byteOrder)
 ```
 
 
-يحصل على كاتب تدفق tiff.
+يسترجع كاتب تدفق tiff.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public static TiffStreamWriter getTiffWriter(StreamContainer stream, int byteOrd
 ```
 
 
-يحصل على كاتب تدفق tiff.
+يسترجع كاتب تدفق tiff.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,7 +62,7 @@ public static TiffStreamReader getTiffReader(StreamContainer stream, int byteOrd
 ```
 
 
-يحصل على قارئ تدفق tiff.
+يسترجع قارئ تدفق tiff.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -78,7 +78,7 @@ public static TiffStreamReader getTiffReader(StreamContainer stream, int byteOrd
 ```
 
 
-يحصل على قارئ تدفق tiff.
+يسترجع قارئ تدفق tiff.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -95,7 +95,7 @@ public static TiffStreamReader getTiffReader(byte[] bytes, int bytesOffset, int 
 ```
 
 
-يحصل على قارئ تدفق tiff.
+يسترجع قارئ تدفق tiff.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -113,7 +113,7 @@ public static TiffStreamReader getTiffReader(byte[] bytes, int bytesOffset, int 
 ```
 
 
-يحصل على قارئ تدفق tiff.
+يسترجع قارئ تدفق tiff.
 
 **Parameters:**
 | معامل | نوع | الوصف |

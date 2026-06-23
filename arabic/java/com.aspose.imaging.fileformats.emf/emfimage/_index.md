@@ -1,7 +1,7 @@
 ---
 title: "EmfImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "واجهة برمجة التطبيقات لدعم تنسيق صورة المتجهات EMF (Enhanced Metafile Format) هي أداة شاملة لمعالجة الصور الرسومية بطريقة مستقلة عن الجهاز مع الحفاظ على خصائصها الأصلية."
+description: "واجهة برمجة التطبيقات لدعم تنسيق Enhanced Metafile Format (EMF) للصور المتجهة هي أداة شاملة لمعالجة الصور الرسومية بطريقة مستقلة عن الجهاز مع الحفاظ على خصائصها الأصلية."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.emf/emfimage/
@@ -12,28 +12,28 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class EmfImage extends MetaImage
 ```
 
-واجهة برمجة التطبيقات لدعم تنسيق صورة المتجهات (EMF) هي أداة شاملة لمعالجة الصور الرسومية بطريقة مستقلة عن الجهاز مع الحفاظ على خصائصها الأصلية. تم تطويرها للحفاظ على النسب والأبعاد والألوان وغيرها من سمات الرسوم، وتضم دعم تنسيق EMF Plus وميزات لقص المناطق، وتغيير حجم اللوحة والصور، وتدويرها، وعكسها، وتعيين لوحات ألوان الصور، وتصدير واستيراد إلى سياق جهاز APS، وضغط وتحويل EMF إلى صيغ أخرى، مما يضمن معالجة متعددة الاستخدامات وتكاملًا سلسًا لصور EMF عبر التطبيقات.
+واجهة برمجة التطبيقات لدعم تنسيق Enhanced Metafile Format (EMF) للصور المتجهة هي أداة شاملة لمعالجة الصور الرسومية بطريقة مستقلة عن الجهاز مع الحفاظ على خصائصها الأصلية. تم تطويرها للحفاظ على النسب والأبعاد والألوان وغيرها من سمات الرسوم، وتضم دعم تنسيق EMF Plus وميزات لقص المناطق، وتغيير حجم اللوحة والصور، وتدويرها، وعكسها، وتعيين لوحات ألوان الصور، وتصدير واستيراد إلى سياق جهاز APS، وضغط وتحويل EMF إلى صيغ أخرى، مما يضمن معالجة متعددة الاستخدامات وتكامل سلس لصور EMF عبر التطبيقات.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfImage()](#EmfImage--) | ابدأ العمل مع صور EMF بإنشاء نسخة جديدة من الفئة [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage). |
-| [EmfImage(int width, int height)](#EmfImage-int-int-) | أنشئ نسخة جديدة من الفئة [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) عن طريق تحديد معلمات العرض والارتفاع. |
+| [EmfImage()](#EmfImage--) | ابدأ العمل مع صور EMF بتهيئة نسخة جديدة من الفئة [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) class. |
+| [EmfImage(int width, int height)](#EmfImage-int-int-) | أنشئ نسخة جديدة من الفئة [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage) بتحديد معلمات العرض والارتفاع. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getHeader()](#getHeader--) | استرجع سجل رأس ملف التعريف EMF باستخدام هذه الخاصية. |
-| [setHeader(EmfMetafileHeader value)](#setHeader-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeader-) | عدّل سجل رأس ملف التعريف EMF باستخدام هذه الخاصية. |
-| [isCached()](#isCached--) | احصل على قيمة تُظهر ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة بيانات إضافية. |
+| [getHeader()](#getHeader--) | استرجع سجل رأس ملف EMF metafile باستخدام هذه الخاصية. |
+| [setHeader(EmfMetafileHeader value)](#setHeader-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeader-) | عدّل سجل رأس ملف EMF metafile باستخدام هذه الخاصية. |
+| [isCached()](#isCached--) | الوصول إلى قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة بيانات إضافية. |
 | [getRecords()](#getRecords--) | استرجع أو عدّل السجلات المرتبطة بالكائن. |
 | [setRecords(MetaObjectList value)](#setRecords-com.aspose.imaging.fileformats.emf.MetaObjectList-) | عدّل السجلات المرتبطة بالكائن. |
-| [getFileFormat()](#getFileFormat--) | احصل على قيمة تنسيق الملف المرتبط بالكائن. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | استرجع عدد البتات لكل بكسل الخاص بالصور النقطية، حيث لا ينطبق هذا المعامل على الصور المتجهة. |
-| [getWidthF()](#getWidthF--) | الوصول إلى عرض الصورة، مما يوفر معلومات أساسية للتصوير والمعالجة الدقيقة. |
-| [getHeightF()](#getHeightF--) | استرجع ارتفاع الصورة، لتسهيل التصوير الدقيق وتعديلات التخطيط. |
-| [cacheData()](#cacheData--) | قم بتخزين البيانات مؤقتًا بكفاءة ومنع التحميل المتكرر من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) باستخدام هذه الطريقة. |
-| [getUsedFonts()](#getUsedFonts--) | استرجع قائمة الخطوط المستخدمة داخل ملف التعريف باستخدام هذه الطريقة. |
+| [getFileFormat()](#getFileFormat--) | الوصول إلى قيمة تنسيق الملف المرتبطة بالكائن. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | استرجع عدد البت لكل بكسل الخاص بالصور النقطية، حيث لا ينطبق هذا المعامل على الصور المتجهة. |
+| [getWidthF()](#getWidthF--) | الوصول إلى عرض الصورة، مما يوفر معلومات أساسية للتصيير والمعالجة الدقيقة. |
+| [getHeightF()](#getHeightF--) | استرجع ارتفاع الصورة، مما يسهل التصيير الدقيق وتعديلات التخطيط. |
+| [cacheData()](#cacheData--) | قم بتخزين البيانات مؤقتًا بفعالية ومنع التحميل المتكرر من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) باستخدام هذه الطريقة. |
+| [getUsedFonts()](#getUsedFonts--) | استرجع قائمة الخطوط المستخدمة داخل ملف الميتا باستخدام هذه الطريقة. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | غيّر حجم اللوحة بسهولة باستخدام هذه الدالة. |
 | [getOriginalOptions()](#getOriginalOptions--) | يحصل على خيارات الصورة الأصلية. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | يضبط لوحة ألوان الصورة. |
@@ -62,10 +62,10 @@ try {
     // إذا كان هناك emf مضمّن، فقم بعرض emf؛ وإلا عرض wmf.
     rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.emf.EmfRenderMode.Auto);
 
-    // حدد الهامش الأفقي
+    // تعيين الهامش الأفقي
     rasterizationOptions.setBorderX(50);
 
-    // حدد الهامش الرأسي
+    // تعيين الهامش العمودي
     rasterizationOptions.setBorderY(50);
 
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
@@ -144,7 +144,7 @@ public EmfImage()
 ```
 
 
-ابدأ العمل مع صور EMF بإنشاء نسخة جديدة من الفئة [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage). مثالية لإدماج صور EMF بسرعة في مشاريعك بسهولة وكفاءة.
+ابدأ العمل مع صور EMF عن طريق تهيئة نسخة جديدة من الفئة [EmfImage](../../com.aspose.imaging.fileformats.emf/emfimage). مثالي لإدراج صور EMF بسرعة في مشاريعك بسهولة وكفاءة.
 
 ### EmfImage(int width, int height) {#EmfImage-int-int-}
 ```
@@ -157,8 +157,8 @@ public EmfImage(int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 
 ### getHeader() {#getHeader--}
 ```
@@ -166,7 +166,7 @@ public EmfMetafileHeader getHeader()
 ```
 
 
-استرجع سجل رأس ملف التعريف EMF باستخدام هذه الخاصية. مثالية لإدارة بيانات ملف التعريف بكفاءة داخل تطبيقك. حسّن سير عملك من خلال وصول مبسط إلى معلومات رأس ملف التعريف.
+استرجع سجل رأس ملف الميتافايل EMF باستخدام هذه الخاصية. مثالي لإدارة بيانات الميتافايل بكفاءة داخل تطبيقك. حسّن سير عملك من خلال وصول مبسط إلى معلومات رأس الميتافايل.
 
 **Returns:**
 [EmfMetafileHeader](../../com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheader)
@@ -176,7 +176,7 @@ public void setHeader(EmfMetafileHeader value)
 ```
 
 
-عدّل سجل رأس ملف التعريف EMF باستخدام هذه الخاصية. مثالية لإدارة بيانات ملف التعريف بكفاءة داخل تطبيقك. حسّن سير عملك من خلال وصول مبسط إلى معلومات رأس ملف التعريف.
+عدّل سجل رأس ملف الميتافايل EMF باستخدام هذه الخاصية. مثالي لإدارة بيانات الميتافايل بكفاءة داخل تطبيقك. حسّن سير عملك من خلال وصول مبسط إلى معلومات رأس الميتافايل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -189,7 +189,7 @@ public boolean isCached()
 ```
 
 
-احصل على قيمة تُظهر ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة بيانات إضافية. عزّز الكفاءة من خلال تحديد سريع ما إذا كانت البيانات المخزنة متاحة للوصول الفوري. حسّن سير عملك عبر عمليات استرجاع بيانات مبسطة.
+الوصول إلى قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة بيانات إضافية. عزّز الكفاءة من خلال تحديد سريع إذا كانت البيانات المخزنة متاحة للوصول الفوري. حسّن سير عملك عبر عمليات استرجاع بيانات مبسطة.
 
 **Returns:**
 منطقي - `true` إذا كانت بيانات الكائن مخزنة مؤقتًا؛ وإلا `false`.
@@ -199,7 +199,7 @@ public MetaObjectList getRecords()
 ```
 
 
-استرجع أو عدّل السجلات المرتبطة بالكائن. وصول فعال وإدارة مجموعة السجلات لتحسين معالجة البيانات وتعديلها. حسّن سير العمل الخاص بك من خلال التفاعل السلس مع سجلات الكائن.
+استرجع أو عدّل السجلات المرتبطة بالكائن. وصول وإدارة فعّالة لمجموعة السجلات لتعزيز معالجة البيانات وتعديلها. حسّن سير عملك من خلال التفاعل السلس مع سجلات الكائن.
 
 **Returns:**
 [MetaObjectList](../../com.aspose.imaging.fileformats.emf/metaobjectlist) - The records.
@@ -209,7 +209,7 @@ public void setRecords(MetaObjectList value)
 ```
 
 
-عدّل السجلات المرتبطة بالكائن. وصول فعال وإدارة مجموعة السجلات لتحسين معالجة البيانات وتعديلها. حسّن سير العمل الخاص بك من خلال التفاعل السلس مع سجلات الكائن.
+عدّل السجلات المرتبطة بالكائن. وصول وإدارة فعّالة لمجموعة السجلات لتعزيز معالجة البيانات وتعديلها. حسّن سير عملك من خلال التفاعل السلس مع سجلات الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -222,7 +222,7 @@ public long getFileFormat()
 ```
 
 
-الوصول إلى قيمة تنسيق الملف المرتبط بالكائن. حدد بسهولة تنسيق الملف المرتبط بالكائن لتبسيط المعالجة وفحوصات التوافق. بسط سير العمل الخاص بك من خلال استرجاع معلومات تنسيق الملف بسهولة.
+الوصول إلى قيمة تنسيق الملف المرتبط بالكائن. حدد بسهولة تنسيق الملف المرتبط بالكائن لتسهيل المعالجة وفحوصات التوافق. بسط سير عملك من خلال استرجاع معلومات تنسيق الملف بسهولة.
 
 **Returns:**
 long
@@ -232,7 +232,7 @@ public int getBitsPerPixel()
 ```
 
 
-استرجع عدد البتات لكل بكسل الخاص بالصور النقطية، حيث لا ينطبق هذا المعامل على الصور المتجهة. حدد بسرعة عمق البكسل للصور النقطية لتحليل دقيق وتعديل، مما يضمن معالجة صحيحة لبيانات الصورة.
+استرجع عدد البتات لكل بكسل الخاص بالصور النقطية، حيث لا ينطبق هذا المعامل على الصور المتجهية. حدد بسرعة عمق البكسل للصور النقطية للتحليل الدقيق والتعديل، مما يضمن معالجة صحيحة لبيانات الصورة.
 
 **Returns:**
 int - عدد بتات الصورة لكل بكسل.
@@ -242,7 +242,7 @@ public float getWidthF()
 ```
 
 
-الوصول إلى عرض الصورة، مما يوفر معلومات أساسية للتصيير الدقيق والمعالجة. استرجع بسرعة عرض الصورة لضمان التوافق والتخطيط السليم ضمن مختلف التطبيقات والمنصات.
+الوصول إلى عرض الصورة، مما يوفر معلومات أساسية للتصيير والمعالجة الدقيقة. استرجع عرض الصورة بسرعة لضمان التوافق والتخطيط السليم ضمن تطبيقات ومنصات مختلفة.
 
 **Returns:**
 float - عرض الصورة بالبكسل.
@@ -252,7 +252,7 @@ public float getHeightF()
 ```
 
 
-استرجع ارتفاع الصورة، مما يسهل التصيير الدقيق وتعديلات التخطيط. الوصول إلى خاصية الارتفاع يضمن التوافق والتكامل السلس عبر مختلف المنصات والتطبيقات.
+استرجع ارتفاع الصورة، مما يسهل التصيير الدقيق وتعديلات التخطيط. الوصول إلى خاصية الارتفاع يضمن التوافق والتكامل السلس عبر منصات وتطبيقات مختلفة.
 
 **Returns:**
 float - ارتفاع الصورة بالبكسل.
@@ -262,7 +262,7 @@ public void cacheData()
 ```
 
 
-قم بتخزين البيانات مؤقتًا بفعالية ومنع التحميل المتكرر من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) باستخدام هذه الطريقة. حسّن الأداء وسهّل الوصول إلى البيانات في تطبيقك، مع تحسين استهلاك الموارد لتحسين الاستجابة.
+قم بتخزين البيانات مؤقتًا بكفاءة ومنع التحميل المتكرر من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer) باستخدام هذه الطريقة. عزّز الأداء وسهّل الوصول إلى البيانات في تطبيقك، مع تحسين استغلال الموارد لتحسين الاستجابة.
 
 
 **Example: This example shows how to load a EMF image from a file and list all of its records.**
@@ -281,7 +281,7 @@ try {
     java.util.HashMap<Class, Integer> types =
             new java.util.HashMap<>();
 
-    // جمع الإحصاءات
+    // جمع الإحصائيات
     for (Object obj : emfImage.getRecords()) {
         com.aspose.imaging.fileformats.emf.emf.records.EmfRecord record = (com.aspose.imaging.fileformats.emf.emf.records.EmfRecord) obj;
 
@@ -294,7 +294,7 @@ try {
         }
     }
 
-    // طباعة الإحصاءات
+    // طباعة الإحصائيات
     System.out.println("Record Type                              Count");
     System.out.println("----------------------------------------------");
     for (java.util.Map.Entry<Class, Integer> entry : types.entrySet()) {
@@ -314,7 +314,7 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//الإجمالي الكلي للسجلات: 1188
+//إجمالي عدد السجلات: 1188
 //نوع السجل                              العدد
 //----------------------------------------------
 //EmfMetafileHeader:                       1
@@ -348,7 +348,7 @@ public String[] getUsedFonts()
 ```
 
 
-استرجع قائمة الخطوط المستخدمة داخل ملف الميتا باستخدام هذه الطريقة. احصل على رؤى حول استخدام الخطوط، مما يسهل الإدارة الفعالة وتحسين موارد الخطوط لتحسين التصيير ودقة العرض.
+استرجع قائمة الخطوط المستخدمة داخل ملف الميتافايل باستخدام هذه الطريقة. احصل على رؤى حول استخدام الخطوط، مما يسهل الإدارة الفعّالة وتحسين موارد الخطوط لتعزيز التصيير ودقة العرض.
 
 **Returns:**
 java.lang.String[] - قائمة الخطوط
@@ -358,7 +358,7 @@ public void resizeCanvas(Rectangle newRectangle)
 ```
 
 
-غيّر حجم القماش بسهولة باستخدام هذه الدالة. مثالية لتعديل الأبعاد العامة للصورة دون تغيير محتواها. حسّن العرض وجهّز الصور لأحجام عرض مختلفة بسهولة.
+غيّر حجم اللوحة بسهولة باستخدام هذه الدالة. مثالية لضبط الأبعاد الكلية للصورة دون تعديل محتواها. حسّن العرض وحضر الصور لأحجام عرض مختلفة بسهولة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

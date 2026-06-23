@@ -1,7 +1,7 @@
 ---
 title: "OdgImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تفاعل مع تنسيق ملف الصورة المتجهة OpenDocument Graphic ODG باستخدام واجهة برمجة التطبيقات الخاصة بنا، وهو تنسيق يُستخدم على نطاق واسع في تطبيقات OpenOffice وLibreOffice Draw لتخزين عناصر الرسم بصيغة متجهة."
+description: "تفاعل مع تنسيق ملف الصورة المتجهة ODG الخاص بـ OpenDocument Graphic باستخدام واجهة برمجة التطبيقات الخاصة بنا، وهو مستخدم على نطاق واسع من قبل تطبيقات OpenOffice وLibreOffice Draw لتخزين عناصر الرسومات بصيغة متجهة."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.opendocument/odgimage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class OdgImage extends OdImage
 ```
 
-تفاعل مع تنسيق ملف الصورة المتجهة OpenDocument Graphic (ODG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، وهو تنسيق يُستخدم على نطاق واسع في تطبيقات OpenOffice وLibreOffice Draw لتخزين عناصر الرسم بصيغة متجهة. قم بتحليل المستندات بسلاسة، والوصول إلى الصفحات، وتغيير حجم الصور وتدويرها، مما يضمن معالجة فعّالة وتخصيص ملفات ODG لتلبية متطلباتك الخاصة.
+تفاعل مع تنسيق ملف الصورة المتجهة OpenDocument Graphic (ODG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، وهو مستخدم على نطاق واسع من قبل تطبيقات OpenOffice وLibreOffice Draw لتخزين عناصر الرسومات بصيغة متجهة. قم بتحليل المستندات بسلاسة، وصول إلى الصفحات، تعديل حجم الصور وتدويرها، لضمان معالجة فعّالة وتخصيص ملفات ODG لتلبية متطلباتك الخاصة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,7 +23,7 @@ public class OdgImage extends OdImage
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | استرجع بسهولة قيمة تنسيق الملف باستخدام هذه الخاصية السهلة الاستخدام. |
+| [getFileFormat()](#getFileFormat--) | استرجع بسهولة قيمة تنسيق الملف باستخدام هذه الخاصية سهلة الاستخدام. |
 | [getPages()](#getPages--) | من خلال استرجاع مجموعة الصفحات، تتيح هذه الخاصية الوصول إلى جميع الصفحات المرتبطة بصورة. |
 
 ## Example: This example loads a multi-page ODG image.
@@ -82,7 +82,7 @@ public OdgImage(StreamContainer streamContainer, LoadOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| streamContainer | [StreamContainer](../../com.aspose.imaging/streamcontainer) | المجرى. |
+| streamContainer | [StreamContainer](../../com.aspose.imaging/streamcontainer) | التدفق. |
 | options | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل |
 
 ### OdgImage(StreamContainer streamContainer) {#OdgImage-com.aspose.imaging.StreamContainer-}
@@ -91,7 +91,7 @@ public OdgImage(StreamContainer streamContainer)
 ```
 
 
-صُمم للتكامل السلس في حلول البرمجيات، يقوم مُنشئ [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) بتهيئة نسخة جديدة باستخدام حاوية تدفق. تضمن هذه الطريقة التعامل الفعّال مع بيانات صور ODG داخل بيئات البرمجيات، مع تحسين استهلاك الموارد وتسهيل سير عمل معالجة الصور بسلاسة.
+مصمم للتكامل السلس في حلول البرمجيات، يقوم مُنشئ [OdgImage](../../com.aspose.imaging.fileformats.opendocument/odgimage) بإنشاء نسخة جديدة باستخدام حاوية تدفق. تضمن هذه الطريقة معالجة فعّالة لبيانات صورة ODG داخل بيئات البرمجيات، مع تحسين استهلاك الموارد وتسهيل سير عمل معالجة الصور بشكل مبسط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -104,7 +104,7 @@ public long getFileFormat()
 ```
 
 
-استرجع قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية الصديقة للمستخدم. مثالية للمطورين الذين يبحثون عن وصول سريع إلى معلومات حول تنسيق الملف.
+يمكنك بسهولة استرجاع قيمة تنسيق الملف باستخدام هذه الخاصية سهلة الاستخدام. مثالية للمطورين الذين يبحثون عن وصول سريع إلى معلومات حول تنسيق الملف.
 
 **Returns:**
 long - قيمة تنسيق الملف
@@ -114,7 +114,7 @@ public Image[] getPages()
 ```
 
 
-من خلال استرجاع مجموعة الصفحات، تتيح هذه الخاصية الوصول إلى جميع الصفحات المرتبطة بصورة. عبر الوصول إلى هذه الخاصية، يمكن للمطورين التنقل عبر الصفحات الفردية، استرجاع صفحات محددة بناءً على فهرسها، أو تنفيذ عمليات دفعة على المجموعة بأكملها.
+عند استرجاع مجموعة الصفحات، تمكّن هذه الخاصية من الوصول إلى جميع الصفحات المرتبطة بصورة. من خلال الوصول إلى هذه الخاصية، يمكن للمطورين التنقل عبر الصفحات الفردية، استرجاع صفحات محددة بناءً على فهرسها، أو تنفيذ عمليات دفعة على المجموعة بأكملها.
 
 **Returns:**
 com.aspose.imaging.Image[] - الصفحات.

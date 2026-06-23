@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class ApngFrame extends RasterCachedImage implements IAnimationFrame
 ```
 
-أنشئ إطارات صور PNG المتحركة (APNG) من صور نقطية ذات صفحة واحدة باستخدام واجهة برمجة التطبيقات الخاصة بنا. قم بتعيين الرسوم المتحركة ومدة الإطار بسلاسة، برمجة عدد الإطارات، وضبط مستويات غاما والتباين، لضمان رسومات متحركة جذابة وقابلة للتخصيص وفق رؤيتك.
+أنشئ إطارات صور PNG المتحركة (APNG) من صور نقطية ذات صفحة واحدة باستخدام واجهة برمجة التطبيقات الخاصة بنا. قم بضبط الرسوم المتحركة ومدة الإطار بسلاسة، برمجة عدد الإطارات، وضبط مستويات غاما والتباين، لضمان رسومات متحركة جذابة وقابلة للتخصيص وفق رؤيتك.
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,17 +29,17 @@ public class ApngFrame extends RasterCachedImage implements IAnimationFrame
 | [getFrameLeft()](#getFrameLeft--) | يحصل على إزاحة يسار الإطار. |
 | [getDisposalMethod()](#getDisposalMethod--) | يحصل على طريقة التخلص. |
 | [hasTransparentColor()](#hasTransparentColor--) | يحصل على قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون شفاف. |
-| [hasAlpha()](#hasAlpha--) | احصل على قيمة تشير إلى ما إذا كانت هذه الحالة تحتوي على ألفا. |
+| [hasAlpha()](#hasAlpha--) | احصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على قناة ألفا. |
 | [getTransparentColor()](#getTransparentColor--) | يحصل على اللون الشفاف. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون شفاف. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | اللون الشفاف. |
-| [hasBackgroundColor()](#hasBackgroundColor--) | يحصل على قيمة تشير إلى ما إذا كان لديها لون خلفية. |
+| [hasBackgroundColor()](#hasBackgroundColor--) | يحصل على قيمة تشير إلى ما إذا كان يحتوي على لون خلفية. |
 | [getBackgroundColor()](#getBackgroundColor--) | يحصل على لون الخلفية. |
-| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | قيمة تشير إلى ما إذا كان لديها لون خلفية. |
+| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | قيمة تشير إلى ما إذا كان يحتوي على لون خلفية. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | لون الخلفية. |
 | [isUseAlphaBlending()](#isUseAlphaBlending--) | يحصل على قيمة تشير إلى ما إذا كان [use alpha blending]. |
 | [getFullFrame()](#getFullFrame--) | يحصل على الإطار الكامل. |
-| [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+| [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer)). |
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -91,7 +91,7 @@ public final void setFrameTime(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | مدة الإطار. |
+| value | int | مدة الإطار. |
 
 ### getFrameTop() {#getFrameTop--}
 ```
@@ -122,7 +122,7 @@ public final int getDisposalMethod()
 يحصل على طريقة التخلص.
 
 **Returns:**
-int - طريقة التخلص.
+عدد صحيح - طريقة التخلص.
 ### hasTransparentColor() {#hasTransparentColor--}
 ```
 public boolean hasTransparentColor()
@@ -139,7 +139,7 @@ public boolean hasAlpha()
 ```
 
 
-احصل على قيمة تشير إلى ما إذا كانت هذه الحالة تحتوي على ألفا.
+احصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على قناة ألفا.
 
 **Returns:**
 boolean
@@ -164,7 +164,7 @@ public void setTransparentColor(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون شفاف. |
+| value | boolean | قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون شفاف. |
 
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
@@ -185,10 +185,10 @@ public boolean hasBackgroundColor()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان لديها لون خلفية.
+يحصل على قيمة تشير إلى ما إذا كان يحتوي على لون خلفية.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان لديه لون خلفية.
+منطقي - قيمة تشير إلى ما إذا كان يحتوي على لون خلفية.
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Color getBackgroundColor()
@@ -205,12 +205,12 @@ public void setBackgroundColor(boolean value)
 ```
 
 
-قيمة تشير إلى ما إذا كان لديها لون خلفية.
+قيمة تشير إلى ما إذا كان يحتوي على لون خلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان لديه لون خلفية. |
+| value | boolean | قيمة تشير إلى ما إذا كان يحتوي على لون خلفية. |
 
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.imaging.Color-}
 ```
@@ -236,7 +236,7 @@ public final boolean isUseAlphaBlending()
 القيمة: `true` إذا [use alpha blending]؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان [use alpha blending].
+منطقي - قيمة تشير إلى ما إذا كان [use alpha blending].
 ### getFullFrame() {#getFullFrame--}
 ```
 public final RasterImage getFullFrame()
@@ -253,5 +253,5 @@ public void cacheData()
 ```
 
 
-يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
+يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer)).
 

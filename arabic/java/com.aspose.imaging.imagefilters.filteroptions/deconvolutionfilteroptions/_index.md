@@ -1,7 +1,7 @@
 ---
 title: "DeconvolutionFilterOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "فئة مجردة Deconvolution Filter Options"
+description: "Deconvolution Filter Options فئة مجردة"
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/
@@ -20,27 +20,27 @@ public class DeconvolutionFilterOptions extends FilterOptionsBase implements ICo
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DeconvolutionFilterOptions(double[][] kernel)](#DeconvolutionFilterOptions-double-----) | ينشئ مثيلاً جديداً من الفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions). |
-| [DeconvolutionFilterOptions(Complex[][] kernel)](#DeconvolutionFilterOptions-com.aspose.imaging.imagefilters.complexutils.Complex-----) | ينشئ مثيلاً جديداً من الفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions). |
+| [DeconvolutionFilterOptions(double[][] kernel)](#DeconvolutionFilterOptions-double-----) | يُنشئ مثيلاً جديدًا للفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |
+| [DeconvolutionFilterOptions(Complex[][] kernel)](#DeconvolutionFilterOptions-com.aspose.imaging.imagefilters.complexutils.Complex-----) | يُنشئ مثيلاً جديدًا للفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getKernel()](#getKernel--) | يحصل على النواة. |
-| [getSnr()](#getSnr--) | يحصل أو يضبط قيمة SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007 |
-| [setSnr(double value)](#setSnr-double-) | يحصل أو يضبط قيمة SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007 |
+| [getSnr()](#getSnr--) | يحصل أو يضبط SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007 |
+| [setSnr(double value)](#setSnr-double-) | يحصل أو يضبط SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007 |
 | [getBrightness()](#getBrightness--) | يحصل أو يضبط السطوع. |
 | [setBrightness(double value)](#setBrightness-double-) | يحصل أو يضبط السطوع. |
-| [getGrayscale()](#getGrayscale--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` بالأبيض والأسود. |
-| [setGrayscale(boolean value)](#setGrayscale-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` بالأبيض والأسود. |
-| [isPartialLoaded()](#isPartialLoaded--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل محملاً جزئياً. |
+| [getGrayscale()](#getGrayscale--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` باللون الرمادي. |
+| [setGrayscale(boolean value)](#setGrayscale-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` باللون الرمادي. |
+| [isPartialLoaded()](#isPartialLoaded--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل محملاً جزئيًا. |
 ### DeconvolutionFilterOptions(double[][] kernel) {#DeconvolutionFilterOptions-double-----}
 ```
 public DeconvolutionFilterOptions(double[][] kernel)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions).
+يُنشئ مثيلاً جديدًا للفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,7 +53,7 @@ public DeconvolutionFilterOptions(Complex[][] kernel)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions).
+يُنشئ مثيلاً جديدًا للفئة [DeconvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,9 +76,9 @@ public double getSnr()
 ```
 
 
-يحصل أو يضبط قيمة SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007
+يحصل أو يضبط SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007
 
-القيمة: الـ SNR.
+القيمة: SNR.
 
 **Returns:**
 double
@@ -88,14 +88,14 @@ public void setSnr(double value)
 ```
 
 
-يحصل أو يضبط قيمة SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007
+يحصل أو يضبط SNR (نسبة الإشارة إلى الضوضاء) النطاق الموصى به 0.002 - 0.009، القيمة الافتراضية = 0.007
 
-القيمة: الـ SNR.
+القيمة: SNR.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 
 ### getBrightness() {#getBrightness--}
 ```
@@ -103,7 +103,7 @@ public double getBrightness()
 ```
 
 
-يحصل أو يعيّن السطوع. النطاق الموصى به 1 - 1.5 القيمة الافتراضية = 1.15
+يحصل أو يضبط السطوع. النطاق الموصى به 1 - 1.5 القيمة الافتراضية = 1.15
 
 القيمة: السطوع.
 
@@ -115,14 +115,14 @@ public void setBrightness(double value)
 ```
 
 
-يحصل أو يعيّن السطوع. النطاق الموصى به 1 - 1.5 القيمة الافتراضية = 1.15
+يحصل أو يضبط السطوع. النطاق الموصى به 1 - 1.5 القيمة الافتراضية = 1.15
 
 القيمة: السطوع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 
 ### getGrayscale() {#getGrayscale--}
 ```
@@ -130,9 +130,9 @@ public boolean getGrayscale()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` بالأبيض والأسود. إرجاع وضع الأبيض والأسود أو وضع RGB.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` باللون الرمادي. إرجاع وضع اللون الرمادي أو وضع RGB.
 
-القيمة: `true` إذا كان بالأبيض والأسود؛ وإلا `false`.
+القيمة: `true` إذا كان باللون الرمادي؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -142,14 +142,14 @@ public void setGrayscale(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` بالأبيض والأسود. إرجاع وضع الأبيض والأسود أو وضع RGB.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `DeconvolutionFilterOptions` باللون الرمادي. إرجاع وضع اللون الرمادي أو وضع RGB.
 
-القيمة: `true` إذا كان بالأبيض والأسود؛ وإلا `false`.
+القيمة: `true` إذا كان باللون الرمادي؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### isPartialLoaded() {#isPartialLoaded--}
 ```
@@ -157,9 +157,9 @@ public boolean isPartialLoaded()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا المثيل محملاً جزئياً.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثيل محملاً جزئيًا.
 
-القيمة: `true` إذا كان هذا الكائن محملاً جزئياً؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل محملاً جزئيًا؛ وإلا `false`.
 
 **Returns:**
 boolean

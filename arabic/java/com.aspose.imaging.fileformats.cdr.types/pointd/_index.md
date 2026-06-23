@@ -1,7 +1,7 @@
 ---
 title: "PointD"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "النقطة مزدوجة"
+description: "النقطة المزدوجة"
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.cdr.types/pointd/
@@ -12,13 +12,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class PointD extends Struct<PointD>
 ```
 
-النقطة مزدوجة
+النقطة المزدوجة
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
 | [PointD()](#PointD--) |  |
-| [PointD(double x, double y)](#PointD-double-double-) | ينشئ مثيلاً جديداً من البنية [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd). |
+| [PointD(double x, double y)](#PointD-double-double-) | ينشئ مثيلًا جديدًا من بنية [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,13 +47,13 @@ public PointD(double x, double y)
 ```
 
 
-ينشئ مثيلاً جديداً من البنية [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd).
+ينشئ مثيلًا جديدًا من بنية [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | double | قيمة x. |
-| ص | double | قيمة y. |
+| x | double | قيمة x. |
+| y | double | قيمة y. |
 
 ### getX() {#getX--}
 ```
@@ -64,7 +64,7 @@ public final double getX()
 يحصل على x.
 
 **Returns:**
-double - الـ x.
+double - x.
 ### setX(double value) {#setX-double-}
 ```
 public final void setX(double value)
@@ -76,7 +76,7 @@ public final void setX(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | x. |
+| value | double | x. |
 
 ### getY() {#getY--}
 ```
@@ -99,7 +99,7 @@ public final void setY(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | المتغير y. |
+| value | double | الـ y. |
 
 ### toPointF() {#toPointF--}
 ```
@@ -122,7 +122,7 @@ public final void fromPointF(PointF point)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [PointF](../../com.aspose.imaging/pointf) | البنية [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd). |
+| point | [PointF](../../com.aspose.imaging/pointf) | بنية [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd). |
 
 ### toString() {#toString--}
 ```

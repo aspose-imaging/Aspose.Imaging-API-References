@@ -17,15 +17,15 @@ public class IndexOutOFRangeException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [IndexOutOFRangeException(String message)](#IndexOutOFRangeException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception). |
-| [IndexOutOFRangeException(String message, Throwable innerException)](#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception). |
+| [IndexOutOFRangeException(String message)](#IndexOutOFRangeException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception). |
+| [IndexOutOFRangeException(String message, Throwable innerException)](#IndexOutOFRangeException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception). |
 ### IndexOutOFRangeException(String message) {#IndexOutOFRangeException-java.lang.String-}
 ```
 public IndexOutOFRangeException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception).
+يُنشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public IndexOutOFRangeException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception).
+يُنشئ مثيلاً جديدًا من الفئة [IndexOutOFRangeException](../../com.aspose.imaging.coreexceptions/indexoutofrangeexception).
 
 **Parameters:**
 | معامل | نوع | الوصف |

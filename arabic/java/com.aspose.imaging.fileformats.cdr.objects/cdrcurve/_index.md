@@ -1,18 +1,18 @@
 ---
 title: "CdrCurve"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "المنحنى cdr"
+description: "منحنى cdr"
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrcurve/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrCurve extends CdrGraphicObject
 ```
 
-المنحنى cdr
+منحنى cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -76,5 +76,5 @@ public final void setPointTypes(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | أنواع النقاط. |
+| value | byte[] | أنواع النقاط. |
 

@@ -7,7 +7,7 @@ weight: 83
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetrop2/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetRop2 extends WmfObject
 ```
@@ -22,10 +22,10 @@ public class WmfSetRop2 extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDrawMode()](#getDrawMode--) | يحصل أو يعيّن وضع الرسم. |
-| [setDrawMode(int value)](#setDrawMode-int-) | يحصل أو يعيّن وضع الرسم. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(int value)](#setReserved-int-) | يحصل أو يعيّن الحجز. |
+| [getDrawMode()](#getDrawMode--) | يحصل أو يضبط وضع الرسم. |
+| [setDrawMode(int value)](#setDrawMode-int-) | يحصل أو يضبط وضع الرسم. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(int value)](#setReserved-int-) | يحصل أو يضبط الحجز. |
 ### WmfSetRop2() {#WmfSetRop2--}
 ```
 public WmfSetRop2()
@@ -38,7 +38,7 @@ public int getDrawMode()
 ```
 
 
-يحصل أو يعيّن وضع الرسم.
+يحصل أو يضبط وضع الرسم.
 
 القيمة: وضع الرسم.
 
@@ -50,14 +50,14 @@ public void setDrawMode(int value)
 ```
 
 
-يحصل أو يعيّن وضع الرسم.
+يحصل أو يضبط وضع الرسم.
 
 القيمة: وضع الرسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -65,7 +65,7 @@ public int getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
@@ -77,12 +77,12 @@ public void setReserved(int value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

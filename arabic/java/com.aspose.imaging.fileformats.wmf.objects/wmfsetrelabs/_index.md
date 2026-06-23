@@ -7,7 +7,7 @@ weight: 82
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetRelabs extends WmfObject
 ```
@@ -22,8 +22,8 @@ public class WmfSetRelabs extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getParameters()](#getParameters--) | يحصل أو يعيّن المعامل. |
-| [setParameters(short[] value)](#setParameters-short---) | يحصل أو يعيّن المعامل. |
+| [getParameters()](#getParameters--) | يحصل أو يضبط المعامل. |
+| [setParameters(short[] value)](#setParameters-short---) | يحصل أو يضبط المعامل. |
 ### WmfSetRelabs() {#WmfSetRelabs--}
 ```
 public WmfSetRelabs()
@@ -36,7 +36,7 @@ public short[] getParameters()
 ```
 
 
-يحصل أو يعيّن المعامل.
+يحصل أو يضبط المعامل.
 
 القيمة: المعامل.
 
@@ -48,12 +48,12 @@ public void setParameters(short[] value)
 ```
 
 
-يحصل أو يعيّن المعامل.
+يحصل أو يضبط المعامل.
 
 القيمة: المعامل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short[] |  |
+| value | short[] |  |
 

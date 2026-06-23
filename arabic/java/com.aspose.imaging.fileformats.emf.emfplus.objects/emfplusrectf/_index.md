@@ -1,18 +1,18 @@
 ---
 title: "EmfPlusRectF"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusRectF يحدد أصل المستطيل والارتفاع والعرض كقيم عائمة 32-بت."
+description: "كائن EmfPlusRectF يحدد أصل المستطيل وارتفاعه وعرضه كقيم عائمة 32-بت."
 type: docs
 weight: 66
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusRectF extends EmfPlusStructureObjectType
 ```
 
-كائن EmfPlusRectF يحدد أصل المستطيل، الارتفاع، والعرض كقيم نقطية عائمة 32-بت.
+كائن EmfPlusRectF يحدد أصل المستطيل، ارتفاعه، وعرضه كقيم عائمة 32-بت.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public final class EmfPlusRectF extends EmfPlusStructureObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRect()](#getRect--) | الحصول على أو تعيين المستطيل. |
-| [setRect(RectangleF value)](#setRect-com.aspose.imaging.RectangleF-) | الحصول على أو تعيين المستطيل. |
+| [getRect()](#getRect--) | يحصل أو يعيّن المستطيل. |
+| [setRect(RectangleF value)](#setRect-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن المستطيل. |
 ### EmfPlusRectF() {#EmfPlusRectF--}
 ```
 public EmfPlusRectF()
@@ -36,7 +36,7 @@ public RectangleF getRect()
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -46,7 +46,7 @@ public void setRect(RectangleF value)
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -17,15 +17,15 @@ public class OperationInterruptedException extends FrameworkException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OperationInterruptedException(String message)](#OperationInterruptedException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `OperationInterruptedException`. |
-| [OperationInterruptedException(String message, Throwable innerException)](#OperationInterruptedException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `OperationInterruptedException`. |
+| [OperationInterruptedException(String message)](#OperationInterruptedException-java.lang.String-) | يقوم بإنشاء نسخة جديدة من الفئة `OperationInterruptedException`. |
+| [OperationInterruptedException(String message, Throwable innerException)](#OperationInterruptedException-java.lang.String-java.lang.Throwable-) | يقوم بإنشاء نسخة جديدة من الفئة `OperationInterruptedException`. |
 ### OperationInterruptedException(String message) {#OperationInterruptedException-java.lang.String-}
 ```
 public OperationInterruptedException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `OperationInterruptedException`.
+يقوم بإنشاء نسخة جديدة من الفئة `OperationInterruptedException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public OperationInterruptedException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `OperationInterruptedException`.
+يقوم بإنشاء نسخة جديدة من الفئة `OperationInterruptedException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

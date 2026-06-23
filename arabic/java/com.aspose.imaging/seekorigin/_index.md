@@ -1,7 +1,7 @@
 ---
 title: "SeekOrigin"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يوفر الحقول التي تمثل نقاط الإشارة في StreamContainer للتنقل."
+description: "يوفر الحقول التي تمثل نقاط المرجع في StreamContainer للتموضع."
 type: docs
 weight: 101
 url: /ar/java/com.aspose.imaging/seekorigin/

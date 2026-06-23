@@ -1,7 +1,7 @@
 ---
 title: "IPartialPixelLoader"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يتوافق مع البكسلات المحمّلة جزئيًا."
+description: "يتوافق مع البكسلات التي تم تحميلها جزئيًا."
 type: docs
 weight: 143
 url: /ar/java/com.aspose.imaging/ipartialpixelloader/

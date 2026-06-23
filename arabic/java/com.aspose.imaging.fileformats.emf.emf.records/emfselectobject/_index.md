@@ -1,7 +1,7 @@
 ---
 title: "EmfSelectObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_SELECTOBJECT يضيف كائن رسومي إلى سياق جهاز تشغيل ملف الميتا الحالي."
+description: "يسجل EMR_SELECTOBJECT يضيف كائنًا رسوميًا إلى سياق جهاز تشغيل ملف الميتا الحالي."
 type: docs
 weight: 116
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfselectobject/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSelectObject extends EmfRecord
 ```
 
-سجل EMR\_SELECTOBJECT يضيف كائن رسومي إلى سياق جهاز تشغيل ملف الميتا الحالي. يتم تحديد الكائن إما بواسطة فهرسه في جدول كائنات EMF (القسم 3.1.1.1) أو بقيمته من تعداد StockObject (القسم 2.1.31).
+يسجل EMR\_SELECTOBJECT يضيف كائنًا رسوميًا إلى سياق جهاز تشغيل ملف الميتا الحالي. يتم تحديد الكائن إما بواسطة فهرسه في جدول كائنات EMF (القسم 3.1.1.1) أو بقيمته من تعداد StockObject (القسم 2.1.31).
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSelectObject(EmfRecord record)](#EmfSelectObject-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfSelectObject`. |
-| [EmfSelectObject()](#EmfSelectObject--) | ينشئ مثيلاً جديداً من الفئة `EmfSelectObject`. |
+| [EmfSelectObject(EmfRecord record)](#EmfSelectObject-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا للفئة `EmfSelectObject`. |
+| [EmfSelectObject()](#EmfSelectObject--) | ينشئ مثيلًا جديدًا للفئة `EmfSelectObject`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,7 +31,7 @@ public EmfSelectObject(EmfRecord record)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfSelectObject`.
+ينشئ مثيلًا جديدًا للفئة `EmfSelectObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public EmfSelectObject()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfSelectObject`.
+ينشئ مثيلًا جديدًا للفئة `EmfSelectObject`.
 
 ### getObjectHandle() {#getObjectHandle--}
 ```
@@ -67,5 +67,5 @@ public void setObjectHandle(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

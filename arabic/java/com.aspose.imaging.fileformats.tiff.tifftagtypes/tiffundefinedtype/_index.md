@@ -1,7 +1,7 @@
 ---
 title: "TiffUndefinedType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع TIFF غير معرف."
+description: "نوع tiff غير معرف."
 type: docs
 weight: 26
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
@@ -12,30 +12,30 @@ java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.a
 public class TiffUndefinedType extends TiffDataType
 ```
 
-نوع TIFF غير معرف.
+نوع tiff غير معرف.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffUndefinedType(int tagId)](#TiffUndefinedType-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffUndefinedType`. |
+| [TiffUndefinedType(int tagId)](#TiffUndefinedType-int-) | يقوم بإنشاء نسخة جديدة من الفئة `TiffUndefinedType`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getData()](#getData--) | يحصل أو يضبط البيانات. |
-| [setData(byte[] value)](#setData-byte---) | يحصل أو يضبط البيانات. |
+| [getData()](#getData--) | يحصل أو يعيّن البيانات. |
+| [setData(byte[] value)](#setData-byte---) | يحصل أو يعيّن البيانات. |
 | [getCount()](#getCount--) | يحصل على عدد العناصر. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffUndefinedType(int tagId) {#TiffUndefinedType-int-}
 ```
 public TiffUndefinedType(int tagId)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffUndefinedType`.
+يقوم بإنشاء نسخة جديدة من الفئة `TiffUndefinedType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -48,7 +48,7 @@ public byte[] getData()
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
@@ -60,14 +60,14 @@ public void setData(byte[] value)
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getCount() {#getCount--}
 ```
@@ -114,7 +114,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object |  |
+| value | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -122,7 +122,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -130,4 +130,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

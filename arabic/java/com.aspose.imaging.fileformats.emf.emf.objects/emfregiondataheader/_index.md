@@ -7,7 +7,7 @@ weight: 34
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
 ```
 public final class EmfRegionDataHeader extends EmfObject
 ```
@@ -23,15 +23,15 @@ public final class EmfRegionDataHeader extends EmfObject
 | طريقة | الوصف |
 | --- | --- |
 | [getSize()](#getSize--) | يحصل على عدد صحيح غير موقع 32‑بت يحدد حجم هذا الكائن بالبايت. |
-| [setSize(int value)](#setSize-int-) | يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم هذا الكائن بالبايت. |
+| [setSize(int value)](#setSize-int-) | يضبط عددًا صحيحًا غير موقع 32‑بت يحدد حجم هذا الكائن بالبايت. |
 | [getType()](#getType--) | يحصل على عدد صحيح غير موقع 32‑بت يحدد نوع المنطقة. |
-| [setType(int value)](#setType-int-) | يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد نوع المنطقة. |
+| [setType(int value)](#setType-int-) | يضبط عددًا صحيحًا غير موقع 32‑بت يحدد نوع المنطقة. |
 | [getCountRects()](#getCountRects--) | يحصل على عدد صحيح غير موقع 32‑بت يحدد عدد المستطيلات في هذه المنطقة. |
-| [setCountRects(int value)](#setCountRects-int-) | يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد عدد المستطيلات في هذه المنطقة. |
-| [getRgnSize()](#getRgnSize--) | يحصل على عدد صحيح غير موقع 32 بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت. |
-| [setRgnSize(int value)](#setRgnSize-int-) | يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت. |
-| [getBounds()](#getBounds--) | يحصل على كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، الذي يحدد حدود المنطقة. |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يضبط كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، الذي يحدد حدود المنطقة. |
+| [setCountRects(int value)](#setCountRects-int-) | يضبط عددًا صحيحًا غير موقع 32‑بت يحدد عدد المستطيلات في هذه المنطقة. |
+| [getRgnSize()](#getRgnSize--) | يحصل على عدد صحيح غير موقع 32‑بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت. |
+| [setRgnSize(int value)](#setRgnSize-int-) | يضبط عددًا صحيحًا غير موقع 32‑بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت. |
+| [getBounds()](#getBounds--) | يحصل على كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، والذي يحدد حدود المنطقة. |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يضبط كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، والذي يحدد حدود المنطقة. |
 ### EmfRegionDataHeader() {#EmfRegionDataHeader--}
 ```
 public EmfRegionDataHeader()
@@ -44,7 +44,7 @@ public int getSize()
 ```
 
 
-يحصل على عدد صحيح غير موقع 32 بت يحدد حجم هذا الكائن بالبايت. يجب أن يكون هذا 0x00000020.
+يحصل على عدد صحيح غير موقع 32‑بت يحدد حجم هذا الكائن بالبايت. يجب أن يكون هذا 0x00000020.
 
 **Returns:**
 int
@@ -54,12 +54,12 @@ public void setSize(int value)
 ```
 
 
-يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد حجم هذا الكائن بالبايت. يجب أن يكون هذا 0x00000020.
+يضبط عددًا صحيحًا غير موقع 32‑بت يحدد حجم هذا الكائن بالبايت. يجب أن يكون هذا 0x00000020.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getType() {#getType--}
 ```
@@ -67,7 +67,7 @@ public int getType()
 ```
 
 
-يحصل على عدد صحيح غير موقع 32 بت يحدد نوع المنطقة. يجب أن يكون هذا RDH\_RECTANGLES (0x00000001).
+يحصل على عدد صحيح غير موقع 32‑بت يحدد نوع المنطقة. يجب أن يكون هذا RDH\_RECTANGLES (0x00000001).
 
 **Returns:**
 int
@@ -77,12 +77,12 @@ public void setType(int value)
 ```
 
 
-يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد نوع المنطقة. يجب أن يكون هذا RDH\_RECTANGLES (0x00000001).
+يضبط عددًا صحيحًا غير موقع 32‑بت يحدد نوع المنطقة. يجب أن يكون هذا RDH\_RECTANGLES (0x00000001).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCountRects() {#getCountRects--}
 ```
@@ -100,12 +100,12 @@ public void setCountRects(int value)
 ```
 
 
-يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد عدد المستطيلات في هذه المنطقة.
+يضبط عددًا صحيحًا غير موقع 32‑بت يحدد عدد المستطيلات في هذه المنطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRgnSize() {#getRgnSize--}
 ```
@@ -113,7 +113,7 @@ public int getRgnSize()
 ```
 
 
-يحصل على عدد صحيح غير موقع 32 بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت.
+يحصل على عدد صحيح غير موقع 32‑بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت.
 
 **Returns:**
 int
@@ -123,12 +123,12 @@ public void setRgnSize(int value)
 ```
 
 
-يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت.
+يضبط عددًا صحيحًا غير موقع 32‑بت يحدد حجم المخزن المؤقت للمستطيلات بالبايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBounds() {#getBounds--}
 ```
@@ -136,7 +136,7 @@ public Rectangle getBounds()
 ```
 
 
-يحصل على كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، الذي يحدد حدود المنطقة.
+يحصل على كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، والذي يحدد حدود المنطقة.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -146,7 +146,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-يضبط كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، الذي يحدد حدود المنطقة.
+يضبط كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19)، والذي يحدد حدود المنطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

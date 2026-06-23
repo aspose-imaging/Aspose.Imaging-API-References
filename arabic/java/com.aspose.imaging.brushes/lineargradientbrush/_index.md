@@ -1,7 +1,7 @@
 ---
 title: "LinearGradientBrush"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يغلف Aspose.Imaging.Brush بخط متدرج خطي."
+description: "يحتوي على Aspose.Imaging.Brush مع تدرج لوني خطي."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.brushes/lineargradientbrush/
@@ -12,43 +12,43 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class LinearGradientBrush extends LinearGradientBrushBase
 ```
 
-يغلف `Aspose.Imaging.Brush` بخط متدرج خطي. لا يمكن توريث هذه الفئة.
+يحتوي على `Aspose.Imaging.Brush` مع تدرج لوني خطي. لا يمكن توريث هذه الفئة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
-| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
-| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
-| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
-| [LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
-| [LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
-| [LinearGradientBrush()](#LinearGradientBrush--) | ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) باستخدام المعلمات الافتراضية. |
+| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
+| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
+| [LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
+| [LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle)](#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
+| [LinearGradientBrush(PointF point1, PointF point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.Color-com.aspose.imaging.Color-) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
+| [LinearGradientBrush(Point point1, Point point2, Color color1, Color color2)](#LinearGradientBrush-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Color-com.aspose.imaging.Color-) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush). |
+| [LinearGradientBrush()](#LinearGradientBrush--) | ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) باستخدام المعلمات الافتراضية. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getInterpolationColors()](#getInterpolationColors--) | يحصل على `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
 | [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | يضبط `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
-| [getLinearColors()](#getLinearColors--) | يحصل على ألوان البداية والنهاية للمتدرج. |
-| [setLinearColors(Color[] value)](#setLinearColors-com.aspose.imaging.Color---) | يضبط ألوان البداية والنهاية للمتدرج. |
-| [getStartColor()](#getStartColor--) | يحصل على لون البداية للمتدرج. |
-| [setStartColor(Color value)](#setStartColor-com.aspose.imaging.Color-) | يضبط لون البداية للمتدرج. |
-| [getEndColor()](#getEndColor--) | يحصل على لون النهاية للمتدرج. |
-| [setEndColor(Color value)](#setEndColor-com.aspose.imaging.Color-) | يضبط لون النهاية للمتدرج. |
-| [getBlend()](#getBlend--) | يحصل على `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج. |
-| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | يضبط `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج. |
-| [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | ينشئ انخفاضًا للمتدرج يعتمد على منحنى على شكل جرس. |
-| [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | ينشئ انخفاضًا للمتدرج يعتمد على منحنى على شكل جرس. |
-| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | ينشئ متدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد في كلا الطرفين. |
-| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | ينشئ متدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد في كلا الطرفين. |
+| [getLinearColors()](#getLinearColors--) | يحصل على ألوان البداية والنهاية للتدرج. |
+| [setLinearColors(Color[] value)](#setLinearColors-com.aspose.imaging.Color---) | يضبط ألوان البداية والنهاية للتدرج. |
+| [getStartColor()](#getStartColor--) | يحصل على لون بداية التدرج. |
+| [setStartColor(Color value)](#setStartColor-com.aspose.imaging.Color-) | يضبط لون بداية التدرج. |
+| [getEndColor()](#getEndColor--) | يحصل على لون نهاية التدرج. |
+| [setEndColor(Color value)](#setEndColor-com.aspose.imaging.Color-) | يضبط لون نهاية التدرج. |
+| [getBlend()](#getBlend--) | يحصل على `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج. |
+| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | يضبط `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج. |
+| [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | ينشئ انخفاضًا للتدرج يعتمد على منحنى على شكل جرس. |
+| [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | ينشئ انخفاضًا للتدرج يعتمد على منحنى على شكل جرس. |
+| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | ينشئ تدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد على كلا الطرفين. |
+| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | ينشئ تدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد على كلا الطرفين. |
 ### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
 ```
 public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle, boolean isAngleScalable)
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
+ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -57,7 +57,7 @@ public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float an
 | color1 | [Color](../../com.aspose.imaging/color) | اللون1. |
 | color2 | [Color](../../com.aspose.imaging/color) | اللون2. |
 | angle | float | الزاوية. |
-| isAngleScalable | boolean | إذا تم تعيينه إلى `true` [قابل لتوسيع الزاوية]. |
+| isAngleScalable | boolean | إذا تم تعيينه إلى `true` [هل الزاوية قابلة للتوسيع]. |
 
 ### LinearGradientBrush(Rectangle rect, Color color1, Color color2, float angle, boolean isAngleScalable) {#LinearGradientBrush-com.aspose.imaging.Rectangle-com.aspose.imaging.Color-com.aspose.imaging.Color-float-boolean-}
 ```
@@ -65,7 +65,7 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
+ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 | color1 | [Color](../../com.aspose.imaging/color) | اللون1. |
 | color2 | [Color](../../com.aspose.imaging/color) | اللون2. |
 | angle | float | الزاوية. |
-| isAngleScalable | boolean | إذا تم تعيينه إلى `true` [قابل لتوسيع الزاوية]. |
+| isAngleScalable | boolean | إذا تم تعيينه إلى `true` [هل الزاوية قابلة للتوسيع]. |
 
 ### LinearGradientBrush(RectangleF rect, Color color1, Color color2, float angle) {#LinearGradientBrush-com.aspose.imaging.RectangleF-com.aspose.imaging.Color-com.aspose.imaging.Color-float-}
 ```
@@ -82,7 +82,7 @@ public LinearGradientBrush(RectangleF rect, Color color1, Color color2, float an
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
+ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -98,7 +98,7 @@ public LinearGradientBrush(Rectangle rect, Color color1, Color color2, float ang
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
+ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -114,7 +114,7 @@ public LinearGradientBrush(PointF point1, PointF point2, Color color1, Color col
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
+ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -130,7 +130,7 @@ public LinearGradientBrush(Point point1, Point point2, Color color1, Color color
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
+ينشئ مثيلًا جديدًا من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -146,7 +146,7 @@ public LinearGradientBrush()
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) باستخدام المعلمات الافتراضية. اللون الابتدائي هو الأسود، اللون النهائي هو الأبيض، الزاوية 45 درجة والمستطيل يقع في (0,0) بحجم (1,1).
+ينشئ مثيلاً جديداً من الفئة [LinearGradientBrush](../../com.aspose.imaging.brushes/lineargradientbrush) بالمعلمات الافتراضية. اللون الابتدائي هو الأسود، واللون النهائي هو الأبيض، والزاوية 45 درجة، والمستطيل يقع في (0,0) بحجم (1,1).
 
 ### getInterpolationColors() {#getInterpolationColors--}
 ```
@@ -169,7 +169,7 @@ public void setInterpolationColors(ColorBlend value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ColorBlend](../../com.aspose.imaging/colorblend) | `com.aspose.imaging.ColorBlend` يحدد تدرجًا خطيًا متعدد الألوان. |
+| value | [ColorBlend](../../com.aspose.imaging/colorblend) | `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
 
 ### getLinearColors() {#getLinearColors--}
 ```
@@ -177,22 +177,22 @@ public Color[] getLinearColors()
 ```
 
 
-يحصل على ألوان البداية والنهاية للمتدرج.
+يحصل على ألوان البداية والنهاية للتدرج.
 
 **Returns:**
-com.aspose.imaging.Color[] - مصفوفة من هيكليتين `Color` تمثل ألوان البداية والنهاية للمتدرج.
+com.aspose.imaging.Color[] - مصفوفة من هيكلين `Color` تمثل الألوان الابتدائية والنهائية للتدرج.
 ### setLinearColors(Color[] value) {#setLinearColors-com.aspose.imaging.Color---}
 ```
 public void setLinearColors(Color[] value)
 ```
 
 
-يضبط ألوان البداية والنهاية للمتدرج.
+يضبط ألوان البداية والنهاية للتدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color\[\]](../../com.aspose.imaging/color) | مصفوفة من هيكليتين `Color` تمثل ألوان البداية والنهاية للمتدرج. |
+| value | [Color\[\]](../../com.aspose.imaging/color) | مصفوفة من هيكلين `Color` تمثل الألوان الابتدائية والنهائية للتدرج. |
 
 ### getStartColor() {#getStartColor--}
 ```
@@ -200,7 +200,7 @@ public Color getStartColor()
 ```
 
 
-يحصل على لون البداية للمتدرج.
+يحصل على لون بداية التدرج.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The starting gradient color.
@@ -210,12 +210,12 @@ public void setStartColor(Color value)
 ```
 
 
-يضبط لون البداية للمتدرج.
+يضبط لون بداية التدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | لون البداية للمتدرج. |
+| value | [Color](../../com.aspose.imaging/color) | لون التدرج الابتدائي. |
 
 ### getEndColor() {#getEndColor--}
 ```
@@ -223,7 +223,7 @@ public Color getEndColor()
 ```
 
 
-يحصل على لون النهاية للمتدرج.
+يحصل على لون نهاية التدرج.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ending gradient color.
@@ -233,12 +233,12 @@ public void setEndColor(Color value)
 ```
 
 
-يضبط لون النهاية للمتدرج.
+يضبط لون نهاية التدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | لون النهاية للمتدرج. |
+| value | [Color](../../com.aspose.imaging/color) | لون التدرج النهائي. |
 
 ### getBlend() {#getBlend--}
 ```
@@ -246,7 +246,7 @@ public Blend getBlend()
 ```
 
 
-يحصل على `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج.
+يحصل على `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج.
 
 **Returns:**
 [Blend](../../com.aspose.imaging/blend) - A `Aspose.Imaging.Blend` that represents a custom falloff for the gradient.
@@ -256,12 +256,12 @@ public void setBlend(Blend value)
 ```
 
 
-يضبط `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج.
+يضبط `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Blend](../../com.aspose.imaging/blend) | `Aspose.Imaging.Blend` الذي يمثل انخفاضًا مخصصًا للتدرج. |
+| value | [Blend](../../com.aspose.imaging/blend) | `Aspose.Imaging.Blend` يمثل انخفاضًا مخصصًا للتدرج. |
 
 ### setSigmaBellShape(float focus) {#setSigmaBellShape-float-}
 ```
@@ -269,12 +269,12 @@ public void setSigmaBellShape(float focus)
 ```
 
 
-ينشئ انخفاضًا للمتدرج يعتمد على منحنى على شكل جرس.
+ينشئ انخفاضًا للتدرج يعتمد على منحنى على شكل جرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة من 0 إلى 1 تحدد مركز التدرج (النقطة التي يتم فيها خلط اللون الابتدائي واللون النهائي بالتساوي). |
+| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد مركز التدرج (النقطة التي يتم فيها خلط اللون الابتدائي واللون النهائي بالتساوي). |
 
 ### setSigmaBellShape(float focus, float scale) {#setSigmaBellShape-float-float-}
 ```
@@ -282,13 +282,13 @@ public void setSigmaBellShape(float focus, float scale)
 ```
 
 
-ينشئ انخفاضًا للمتدرج يعتمد على منحنى على شكل جرس.
+ينشئ انخفاضًا للتدرج يعتمد على منحنى على شكل جرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة من 0 إلى 1 تحدد مركز التدرج (النقطة التي يتكون فيها التدرج من اللون النهائي فقط). |
-| المقياس | float | قيمة من 0 إلى 1 تحدد مدى سرعة انخفاض الألوان من `focus`. |
+| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد مركز التدرج (النقطة التي يتكون فيها التدرج من اللون النهائي فقط). |
+| المقياس | float | قيمة تتراوح بين 0 و 1 تحدد مدى سرعة انخفاض الألوان من `focus`. |
 
 ### setBlendTriangularShape(float focus) {#setBlendTriangularShape-float-}
 ```
@@ -296,12 +296,12 @@ public void setBlendTriangularShape(float focus)
 ```
 
 
-ينشئ متدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد في كلا الطرفين.
+ينشئ تدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد على كلا الطرفين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة من 0 إلى 1 تحدد مركز التدرج (النقطة التي يتكون فيها التدرج من اللون النهائي فقط). |
+| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد مركز التدرج (النقطة التي يتكون فيها التدرج من اللون النهائي فقط). |
 
 ### setBlendTriangularShape(float focus, float scale) {#setBlendTriangularShape-float-float-}
 ```
@@ -309,11 +309,11 @@ public void setBlendTriangularShape(float focus, float scale)
 ```
 
 
-ينشئ متدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد في كلا الطرفين.
+ينشئ تدرجًا خطيًا بلون مركزي وانخفاضًا خطيًا إلى لون واحد على كلا الطرفين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة من 0 إلى 1 تحدد مركز التدرج (النقطة التي يتكون فيها التدرج من اللون النهائي فقط). |
-| المقياس | float | قيمة من 0 إلى 1 تحدد مدى سرعة انخفاض الألوان من اللون الابتدائي إلى `focus` (اللون النهائي). |
+| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد مركز التدرج (النقطة التي يتكون فيها التدرج من اللون النهائي فقط). |
+| المقياس | float | قيمة تتراوح بين 0 و 1 تحدد مدى سرعة انخفاض الألوان من اللون الابتدائي إلى `focus` (اللون النهائي) |
 

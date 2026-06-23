@@ -1,7 +1,7 @@
 ---
 title: "IObjectWithSizeF"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل كائنًا بحجم يُعبّر عنه بأعداد حقيقية بوحدة البوصة."
+description: "يمثل كائنًا بحجم يُعبَّر عنه بأعداد حقيقية بالبوصة."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.interfaces/iobjectwithsizef/

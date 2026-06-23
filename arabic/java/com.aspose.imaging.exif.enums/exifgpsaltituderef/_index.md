@@ -1,7 +1,7 @@
 ---
 title: "ExifGPSAltitudeRef"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قوائم تعداد مرجع ارتفاع GPS في EXIF."
+description: "قوائم تعداد مرجع ارتفاع GPS للـ exif."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.exif.enums/exifgpsaltituderef/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifGPSAltitudeRef extends System.Enum
 ```
 
-قوائم تعداد مرجع ارتفاع GPS في EXIF.
+قوائم تعداد مرجع ارتفاع GPS للـ exif.
 ## الحقول
 
 | حقل | الوصف |

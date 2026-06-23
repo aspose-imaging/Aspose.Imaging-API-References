@@ -1,7 +1,7 @@
 ---
 title: "EmfIcmMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد تعداد ICMMode القيم التي تحدد متى يتم تشغيل وإيقاف ICM."
+description: "تعداد ICMMode يحدد القيم التي تحدد متى يتم تشغيل أو إيقاف ICM."
 type: docs
 weight: 26
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.consts/emficmmode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfIcmMode extends System.Enum
 ```
 
-يحدد تعداد ICMMode القيم التي تحدد متى يتم تشغيل وإيقاف ICM.
+تعداد ICMMode يحدد القيم التي تحدد متى يتم تشغيل أو إيقاف ICM.
 ## الحقول
 
 | حقل | الوصف |
@@ -20,14 +20,14 @@ public final class EmfIcmMode extends System.Enum
 | [ICM_OFF](#ICM-OFF) | يقوم بإيقاف إدارة ألوان الصورة (ICM) في سياق جهاز التشغيل. |
 | [ICM_ON](#ICM-ON) | يقوم بتشغيل ICM في سياق جهاز التشغيل. |
 | [ICM_QUERY](#ICM-QUERY) | يستعلم عن الحالة الحالية لإدارة الألوان في سياق جهاز التشغيل. |
-| [ICM_DONE_OUTSIDEDC](#ICM-DONE-OUTSIDEDC) | يقوم بإيقاف ICM في سياق جهاز التشغيل، ويوقف تصحيح الألوان بنمط قديم لنصف الظلال |
+| [ICM_DONE_OUTSIDEDC](#ICM-DONE-OUTSIDEDC) | يقوم بإيقاف ICM في سياق جهاز التشغيل، ويوقف تصحيح الألوان القديم للأنصاف نغمات |
 ### ICM_OFF {#ICM-OFF}
 ```
 public static final int ICM_OFF
 ```
 
 
-يقوم بإيقاف إدارة ألوان الصورة (ICM) في سياق جهاز التشغيل. يقوم بتشغيل تصحيح الألوان بنمط قديم لنصف الظلال
+يقوم بإيقاف إدارة ألوان الصورة (ICM) في سياق جهاز التشغيل. يقوم بتشغيل تصحيح الألوان القديم للأنصاف نغمات
 
 ### ICM_ON {#ICM-ON}
 ```
@@ -35,7 +35,7 @@ public static final int ICM_ON
 ```
 
 
-يقوم بتشغيل ICM في سياق جهاز التشغيل. يقوم بإيقاف تصحيح الألوان بنمط قديم لنصف الظلال.
+يقوم بتفعيل ICM في سياق جهاز التشغيل. يقوم بإيقاف تصحيح الألوان القديم لنصف النغمات.
 
 ### ICM_QUERY {#ICM-QUERY}
 ```
@@ -51,5 +51,5 @@ public static final int ICM_DONE_OUTSIDEDC
 ```
 
 
-يقوم بإيقاف ICM في سياق جهاز التشغيل، ويوقف تصحيح الألوان بنمط قديم لنصف الظلال
+يقوم بإيقاف ICM في سياق جهاز التشغيل، ويوقف تصحيح الألوان القديم للأنصاف نغمات
 

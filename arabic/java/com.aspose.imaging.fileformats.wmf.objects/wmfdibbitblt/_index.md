@@ -1,18 +1,18 @@
 ---
 title: "WmfDibBitBlt"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_DIBBITBLT يحدد نقل كتلة من البكسلات بتنسيق مستقل عن الجهاز وفقًا لعملية نقطية."
+description: "سجل META_DIBBITBLT يحدد نقل كتلة من البكسلات بتنسيق غير معتمد على الجهاز وفقًا لعملية نقطية."
 type: docs
 weight: 28
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfDibBitBlt extends WmfObject
 ```
 
-سجل META\_DIBBITBLT يحدد نقل كتلة من البكسلات بتنسيق مستقل عن الجهاز وفقًا لعملية نقطية.
+سجل META\_DIBBITBLT يحدد نقل كتلة من البكسلات بصيغة مستقلة عن الجهاز وفقًا لعملية نقطية.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public class WmfDibBitBlt extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRasterOperation()](#getRasterOperation--) | يحصل أو يضبط عملية الراستر. |
-| [setRasterOperation(int value)](#setRasterOperation-int-) | يحصل أو يضبط عملية الراستر. |
+| [getRasterOperation()](#getRasterOperation--) | يحصل أو يضبط عملية النقطية. |
+| [setRasterOperation(int value)](#setRasterOperation-int-) | يحصل أو يضبط عملية النقطية. |
 | [getSrcPos()](#getSrcPos--) | يحصل أو يضبط موضع المصدر. |
 | [setSrcPos(Point value)](#setSrcPos-com.aspose.imaging.Point-) | يحصل أو يضبط موضع المصدر. |
 | [getHeight()](#getHeight--) | يحصل أو يعيّن الارتفاع. |
@@ -32,8 +32,8 @@ public class WmfDibBitBlt extends WmfObject
 | [setWidth(short value)](#setWidth-short-) | يحصل أو يعيّن العرض. |
 | [getDstPos()](#getDstPos--) | يحصل أو يضبط موضع DST. |
 | [setDstPos(Point value)](#setDstPos-com.aspose.imaging.Point-) | يحصل أو يضبط موضع DST. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(int value)](#setReserved-int-) | يحصل أو يعيّن الحجز. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(int value)](#setReserved-int-) | يحصل أو يضبط الحجز. |
 | [getSource()](#getSource--) | يحصل أو يضبط المصدر. |
 | [setSource(WmfDeviceIndependentBitmap value)](#setSource-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | يحصل أو يضبط المصدر. |
 ### WmfDibBitBlt() {#WmfDibBitBlt--}
@@ -48,9 +48,9 @@ public int getRasterOperation()
 ```
 
 
-يحصل أو يضبط عملية الراستر.
+يحصل أو يضبط عملية النقطية.
 
-القيمة: يجب دمج بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز أحد القيم في تعداد عملية الراستر الثلاثية (القسم 2.1.1.31).
+القيمة: بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة تُدمج لتكوين الصورة الجديدة. يجب أن تكون هذه الشفرة واحدة من القيم في تعداد Ternary Raster Operation Enumeration (section 2.1.1.31).
 
 **Returns:**
 int
@@ -60,14 +60,14 @@ public void setRasterOperation(int value)
 ```
 
 
-يحصل أو يضبط عملية الراستر.
+يحصل أو يضبط عملية النقطية.
 
-القيمة: يجب دمج بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز أحد القيم في تعداد عملية الراستر الثلاثية (القسم 2.1.1.31).
+القيمة: بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة تُدمج لتكوين الصورة الجديدة. يجب أن تكون هذه الشفرة واحدة من القيم في تعداد Ternary Raster Operation Enumeration (section 2.1.1.31).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSrcPos() {#getSrcPos--}
 ```
@@ -107,7 +107,7 @@ public short getHeight()
 القيمة: ارتفاع المستطيلات المصدر والوجهة بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -121,7 +121,7 @@ public void setHeight(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -134,7 +134,7 @@ public short getWidth()
 القيمة: عرض المستطيلات المصدر والوجهة بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -148,7 +148,7 @@ public void setWidth(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getDstPos() {#getDstPos--}
 ```
@@ -183,7 +183,7 @@ public int getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
@@ -195,14 +195,14 @@ public void setReserved(int value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSource() {#getSource--}
 ```
@@ -212,7 +212,7 @@ public WmfDeviceIndependentBitmap getSource()
 
 يحصل أو يضبط المصدر.
 
-القيمة: كائن DeviceIndependentBitmap بحجم متغير (القسم 2.2.2.9) يحدد محتوى الصورة. يجب تحديد هذا الكائن، حتى إذا لم تتطلب عملية الراستر مصدرًا.
+القيمة: كائن DeviceIndependentBitmap متغير الحجم (القسم 2.2.2.9) يحدد محتوى الصورة. يجب تحديد هذا الكائن، حتى إذا لم تتطلب عملية الرستر مصدرًا.
 
 **Returns:**
 [WmfDeviceIndependentBitmap](../../com.aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap)
@@ -224,7 +224,7 @@ public void setSource(WmfDeviceIndependentBitmap value)
 
 يحصل أو يضبط المصدر.
 
-القيمة: كائن DeviceIndependentBitmap بحجم متغير (القسم 2.2.2.9) يحدد محتوى الصورة. يجب تحديد هذا الكائن، حتى إذا لم تتطلب عملية الراستر مصدرًا.
+القيمة: كائن DeviceIndependentBitmap متغير الحجم (القسم 2.2.2.9) يحدد محتوى الصورة. يجب تحديد هذا الكائن، حتى إذا لم تتطلب عملية الرستر مصدرًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -53,7 +53,7 @@ public final void setArrowOffset(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إزاحة السهم. |
+| value | float | إزاحة السهم. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

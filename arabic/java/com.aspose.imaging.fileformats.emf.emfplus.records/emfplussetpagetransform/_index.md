@@ -17,21 +17,21 @@ public final class EmfPlusSetPageTransform extends EmfPlusTerminalServerRecordTy
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetPageTransform(EmfPlusRecord source)](#EmfPlusSetPageTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusSetPageTransform`. |
+| [EmfPlusSetPageTransform(EmfPlusRecord source)](#EmfPlusSetPageTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetPageTransform`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPageUnit()](#getPageUnit--) | يحصل على وحدة القياس لإحداثيات مساحة الصفحة، من تعداد UnitType (القسم 2.1.1.33). |
-| [getPageScale()](#getPageScale--) | يحصل أو يضبط قيمة عائمة 32 بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز. |
-| [setPageScale(float value)](#setPageScale-float-) | يحصل أو يضبط قيمة عائمة 32 بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز. |
+| [getPageScale()](#getPageScale--) | يحصل أو يضبط قيمة عائمة 32‑بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز. |
+| [setPageScale(float value)](#setPageScale-float-) | يحصل أو يضبط قيمة عائمة 32‑بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز. |
 ### EmfPlusSetPageTransform(EmfPlusRecord source) {#EmfPlusSetPageTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetPageTransform(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPlusSetPageTransform`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetPageTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -56,7 +56,7 @@ public float getPageScale()
 ```
 
 
-يحصل أو يضبط قيمة عائمة 32 بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز.
+يحصل أو يضبط قيمة عائمة 32‑بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز.
 
 القيمة: مقياس الصفحة.
 
@@ -68,12 +68,12 @@ public void setPageScale(float value)
 ```
 
 
-يحصل أو يضبط قيمة عائمة 32 بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز.
+يحصل أو يضبط قيمة عائمة 32‑بت تحدد عامل المقياس لتحويل إحداثيات مساحة الصفحة إلى إحداثيات مساحة الجهاز.
 
 القيمة: مقياس الصفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 

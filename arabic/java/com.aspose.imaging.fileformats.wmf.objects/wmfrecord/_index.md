@@ -22,10 +22,10 @@ public class WmfRecord extends MetaObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSize()](#getSize--) | يحصل أو يعيّن الحجم. |
-| [setSize(long value)](#setSize-long-) | يحصل أو يعيّن الحجم. |
-| [getRecordType()](#getRecordType--) | `RecordType` رقم (معرف في WINDOWS.H) |
-| [setRecordType(short value)](#setRecordType-short-) | `RecordType` رقم (معرف في WINDOWS.H) |
+| [getSize()](#getSize--) | يحصل أو يضبط الحجم. |
+| [setSize(long value)](#setSize-long-) | يحصل أو يضبط الحجم. |
+| [getRecordType()](#getRecordType--) | رقم `RecordType` (مُعرّف في WINDOWS.H) |
+| [setRecordType(short value)](#setRecordType-short-) | رقم `RecordType` (مُعرّف في WINDOWS.H) |
 ### WmfRecord() {#WmfRecord--}
 ```
 public WmfRecord()
@@ -38,7 +38,7 @@ public long getSize()
 ```
 
 
-يحصل أو يعيّن الحجم.
+يحصل أو يضبط الحجم.
 
 القيمة: الحجم.
 
@@ -50,14 +50,14 @@ public void setSize(long value)
 ```
 
 
-يحصل أو يعيّن الحجم.
+يحصل أو يضبط الحجم.
 
 القيمة: الحجم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getRecordType() {#getRecordType--}
 ```
@@ -65,20 +65,20 @@ public short getRecordType()
 ```
 
 
-`RecordType` رقم (معرف في WINDOWS.H)
+رقم `RecordType` (مُعرّف في WINDOWS.H)
 
 **Returns:**
-short
+قصير
 ### setRecordType(short value) {#setRecordType-short-}
 ```
 public void setRecordType(short value)
 ```
 
 
-`RecordType` رقم (معرف في WINDOWS.H)
+رقم `RecordType` (مُعرّف في WINDOWS.H)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

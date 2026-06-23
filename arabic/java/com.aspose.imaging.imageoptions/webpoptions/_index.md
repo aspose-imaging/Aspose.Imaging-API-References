@@ -1,7 +1,7 @@
 ---
 title: "WebPOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إنشاء صور ويب رسترية حديثة بصيغة WebP باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم قوي للضغط غير الفاقد والفقدان بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة."
+description: "إنشاء صور ويب نقطية حديثة بصيغة WebP باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم قوي للضغط غير الفاقد والفقدان بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة."
 type: docs
 weight: 53
 url: /ar/java/com.aspose.imaging.imageoptions/webpoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class WebPOptions extends ImageOptionsBase
 ```
 
-إنشاء صور ويب رسترية حديثة بصيغة WebP باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم قوي للضغط غير الفاقد والفقدان، بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة. حسّن محتوى الويب الخاص بك بصور ديناميكية مع تحسين أحجام الملفات لزيادة سرعة التحميل وتجربة المستخدم.
+إنشاء صور ويب نقطية حديثة بصيغة WebP باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم قوي للضغط غير الفاقد والفقدان، بالإضافة إلى قنوات ألفا وحلقات الرسوم المتحركة. حسّن محتوى الويب الخاص بك بصور ديناميكية مع تحسين أحجام الملفات لزيادة سرعات التحميل وتحسين تجربة المستخدم.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -90,7 +90,7 @@ public void setLossless(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان بدون فقدان؛ وإلا `false`. |
+| value | boolean | `true` إذا كان بدون فقدان؛ وإلا `false`. |
 
 ### getQuality() {#getQuality--}
 ```
@@ -113,7 +113,7 @@ public void setQuality(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الجودة. |
+| value | float | الجودة. |
 
 ### getAnimLoopCount() {#getAnimLoopCount--}
 ```
@@ -136,7 +136,7 @@ public void setAnimLoopCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد حلقات الرسوم المتحركة، 0 - لا نهائي. |
+| value | int | عدد دورات الرسوم المتحركة، 0 - ما لا نهاية. |
 
 ### getAnimBackgroundColor() {#getAnimBackgroundColor--}
 ```
@@ -147,7 +147,7 @@ public long getAnimBackgroundColor()
 يحصل أو يعيّن لون خلفية الرسوم المتحركة.
 
 **Returns:**
-طويل - لون خلفية الرسوم المتحركة.
+long - لون خلفية الرسوم المتحركة.
 ### setAnimBackgroundColor(long value) {#setAnimBackgroundColor-long-}
 ```
 public void setAnimBackgroundColor(long value)
@@ -159,5 +159,5 @@ public void setAnimBackgroundColor(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | لون خلفية الرسوم المتحركة. |
+| value | long | لون خلفية الرسوم المتحركة. |
 

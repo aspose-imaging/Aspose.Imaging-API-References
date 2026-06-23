@@ -17,8 +17,8 @@ public abstract class LinearGradientBrushBase extends TransformBrush
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | يحصل على منطقة مستطيلة تحدد نقاط البداية والنهاية للتدرج. |
-| [setRectangle(RectangleF value)](#setRectangle-com.aspose.imaging.RectangleF-) | يضبط منطقة مستطيلة تحدد نقاط البداية والنهاية للتدرج. |
+| [getRectangle()](#getRectangle--) | يحصل على منطقة مستطيلة تحدد النقاط الابتدائية والنهائية للتدرج. |
+| [setRectangle(RectangleF value)](#setRectangle-com.aspose.imaging.RectangleF-) | يضبط منطقة مستطيلة تحدد النقاط الابتدائية والنهائية للتدرج. |
 | [getAngle()](#getAngle--) | يحصل على زاوية التدرج. |
 | [setAngle(float value)](#setAngle-float-) | يضبط زاوية التدرج. |
 | [isAngleScalable()](#isAngleScalable--) | يحصل على قيمة تشير إلى ما إذا تم تغيير `LinearGradientBrushBase.Angle` أثناء التحويلات باستخدام هذا `LinearGradientBrushBase`. |
@@ -31,7 +31,7 @@ public RectangleF getRectangle()
 ```
 
 
-يحصل على منطقة مستطيلة تحدد نقاط البداية والنهاية للتدرج.
+يحصل على منطقة مستطيلة تحدد النقاط الابتدائية والنهائية للتدرج.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - A `com.aspose.imaging.RectangleF` structure that specifies the starting and ending points of the gradient.
@@ -41,12 +41,12 @@ public void setRectangle(RectangleF value)
 ```
 
 
-يضبط منطقة مستطيلة تحدد نقاط البداية والنهاية للتدرج.
+يضبط منطقة مستطيلة تحدد النقاط الابتدائية والنهائية للتدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | هيكل `com.aspose.imaging.RectangleF` يحدد نقاط البداية والنهاية للتدرج. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | هيكل `com.aspose.imaging.RectangleF` يحدد نقطتي البداية والنهاية للتدرج. |
 
 ### getAngle() {#getAngle--}
 ```
@@ -69,7 +69,7 @@ public void setAngle(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | زاوية التدرج. |
+| value | float | زاوية التدرج. |
 
 ### isAngleScalable() {#isAngleScalable--}
 ```
@@ -92,7 +92,7 @@ public void setAngleScalable(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا تم تغيير `LinearGradientBrushBase.Angle` أثناء التحويلات باستخدام هذا `LinearGradientBrushBase`؛ وإلا `false`. |
+| value | boolean | `true` إذا تم تغيير `LinearGradientBrushBase.Angle` أثناء التحويلات باستخدام هذا `LinearGradientBrushBase`؛ وإلا `false`. |
 
 ### getGammaCorrection() {#getGammaCorrection--}
 ```
@@ -103,7 +103,7 @@ public boolean getGammaCorrection()
 يحصل على قيمة تشير إلى ما إذا كان تصحيح غاما مفعلاً لهذا `LinearGradientBrushBase`.
 
 **Returns:**
-boolean - القيمة صحيحة إذا كان تصحيح غاما مفعلاً لهذا `LinearGradientBrushBase`؛ وإلا false.
+boolean - القيمة true إذا تم تمكين تصحيح غاما لهذا `LinearGradientBrushBase`؛ وإلا false.
 ### setGammaCorrection(boolean value) {#setGammaCorrection-boolean-}
 ```
 public void setGammaCorrection(boolean value)
@@ -115,5 +115,5 @@ public void setGammaCorrection(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة صحيحة إذا كان تصحيح غاما مفعلاً لهذا `LinearGradientBrushBase`؛ وإلا false. |
+| value | boolean | القيمة true إذا تم تمكين تصحيح غاما لهذا `LinearGradientBrushBase`؛ وإلا false. |
 

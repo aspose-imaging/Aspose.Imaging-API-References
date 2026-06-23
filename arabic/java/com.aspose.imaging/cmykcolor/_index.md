@@ -23,23 +23,23 @@ public class CmykColor extends Struct<CmykColor>
 | طريقة | الوصف |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | يحصل على الفارغ. |
-| [fromParams(int cyan, int magenta, int yellow, int black)](#fromParams-int-int-int-int-) | ينشئ بنية `CmykColor` من قيم سيان، ماجنتا، أصفر وأسود 32‑بت. |
-| [toCmyk(int[] argbPixels)](#toCmyk-int---) | التحويل من لون ARGB 32‑بت إلى CMYKColor. |
-| [toColor(CmykColor[] cmykPixels)](#toColor-com.aspose.imaging.CmykColor---) | التحويل من CMYKColor إلى Color باستخدام تحويل icc مع الملفات التعريفية الافتراضية. |
-| [toArgb32(CmykColor[] cmykPixels)](#toArgb32-com.aspose.imaging.CmykColor---) | التحويل من CMYKColor إلى لون ARGB 32‑بت باستخدام تحويل icc مع الملفات التعريفية الافتراضية. |
-| [toCmyk(int argbPixel)](#toCmyk-int-) | التحويل من ARGB 32‑بت إلى CMYKColor. |
+| [fromParams(int cyan, int magenta, int yellow, int black)](#fromParams-int-int-int-int-) | ينشئ هيكل `CmykColor` من قيم سيان، ماجنتا، أصفر وأسود 32-بت. |
+| [toCmyk(int[] argbPixels)](#toCmyk-int---) | التحويل من لون ARGB 32-بت إلى CMYKColor. |
+| [toColor(CmykColor[] cmykPixels)](#toColor-com.aspose.imaging.CmykColor---) | التحويل من CMYKColor إلى Color باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
+| [toArgb32(CmykColor[] cmykPixels)](#toArgb32-com.aspose.imaging.CmykColor---) | التحويل من CMYKColor إلى لون ARGB 32-بت باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
+| [toCmyk(int argbPixel)](#toCmyk-int-) | التحويل من ARGB 32-بت إلى CMYKColor. |
 | [toColor(CmykColor cmykPixel)](#toColor-com.aspose.imaging.CmykColor-) | التحويل من CMYKColor إلى Color. |
-| [toColorIcc(CmykColor[] cmykPixels)](#toColorIcc-com.aspose.imaging.CmykColor---) | التحويل من CMYKColor إلى Color باستخدام تحويل icc مع الملفات التعريفية الافتراضية. |
-| [toColorIcc(CmykColor cmykPixel)](#toColorIcc-com.aspose.imaging.CmykColor-) | التحويل من CMYKColor إلى Color باستخدام تحويل icc مع الملفات التعريفية الافتراضية. |
+| [toColorIcc(CmykColor[] cmykPixels)](#toColorIcc-com.aspose.imaging.CmykColor---) | التحويل من CMYKColor إلى Color باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
+| [toColorIcc(CmykColor cmykPixel)](#toColorIcc-com.aspose.imaging.CmykColor-) | التحويل من CMYKColor إلى Color باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
 | [toColorIcc(CmykColor[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor---java.io.InputStream-java.io.InputStream-) | التحويل من CMYKColor إلى Color باستخدام تحويل icc. |
 | [toColorIcc(CmykColor cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor-java.io.InputStream-java.io.InputStream-) | التحويل من CMYKColor إلى Color باستخدام تحويل icc. |
 | [isEquals(CmykColor obj1, CmykColor obj2)](#isEquals-com.aspose.imaging.CmykColor-com.aspose.imaging.CmykColor-) |  |
-| [getC()](#getC--) | يحصل على قيمة مكوّن السيان في بنية `com.com.aspose.imaging.Color` هذه. |
-| [getM()](#getM--) | يحصل على قيمة مكوّن الماجنتا في بنية `com.com.aspose.imaging.Color` هذه. |
-| [getY()](#getY--) | يحصل على قيمة مكوّن الأصفر في بنية `com.com.aspose.imaging.Color` هذه. |
-| [getK()](#getK--) | يحصل على قيمة مكوّن الأسود في بنية `com.com.aspose.imaging.Color` هذه. |
+| [getC()](#getC--) | يحصل على قيمة المكوّن السايان لهذا الهيكل `com.com.aspose.imaging.Color`. |
+| [getM()](#getM--) | يحصل على قيمة المكوّن الماجنتا لهذا الهيكل `com.com.aspose.imaging.Color`. |
+| [getY()](#getY--) | يحصل على قيمة المكوّن الأصفر لهذا الهيكل `com.com.aspose.imaging.Color`. |
+| [getK()](#getK--) | يحصل على قيمة المكوّن الأسود لهذا الهيكل `com.com.aspose.imaging.Color`. |
 | [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كان هذا الهيكل `com.com.aspose.imaging.Color` غير مهيأ. |
-| [hashCode()](#hashCode--) | دالة الحصول على قيمة التجزئة. |
+| [hashCode()](#hashCode--) | دالة الحصول على رمز التجزئة. |
 | [toValue()](#toValue--) | القيمة إلى. |
 | [CloneTo(CmykColor that)](#CloneTo-com.aspose.imaging.CmykColor-) |  |
 | [Clone()](#Clone--) |  |
@@ -66,15 +66,15 @@ public static CmykColor fromParams(int cyan, int magenta, int yellow, int black)
 ```
 
 
-ينشئ هيكل `CmykColor` من قيم السيان، الماجنتا، الأصفر والأسود 32‑بت. هذه الطريقة مهجورة. يرجى استخدام CmykColorHelper\#fromComponents(int, int, int, int) الأكثر فاعلية.
+ينشئ هيكل `CmykColor` من قيم السايان والماجنتا والأصفر والأسود 32‑بت. هذه الطريقة مهجورة. يرجى استخدام CmykColorHelper\#fromComponents(int, int, int, int) الأكثر فاعلية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| سماوي | int | المكوّن السماوي. القيم الصالحة هي من 0 إلى 255. |
-| ماجنتا | int | المكوّن الماجنتا. القيم الصالحة هي من 0 إلى 255. |
-| أصفر | int | المكوّن الأصفر. القيم الصالحة هي من 0 إلى 255. |
-| أسود | int | المكوّن الأسود. القيم الصالحة هي من 0 إلى 255. |
+| سماوي | int | مكوّن السماوي. القيم الصالحة هي من 0 إلى 255. |
+| ماجنتا | int | مكوّن الماجنتا. القيم الصالحة هي من 0 إلى 255. |
+| أصفر | int | مكوّن الأصفر. القيم الصالحة هي من 0 إلى 255. |
+| أسود | int | مكوّن الأسود. القيم الصالحة هي من 0 إلى 255. |
 
 **Returns:**
 [CmykColor](../../com.aspose.imaging/cmykcolor) - The `CmykColor`.
@@ -107,7 +107,7 @@ public static Color[] toColor(CmykColor[] cmykPixels)
 | cmykPixels | [CmykColor\[\]](../../com.aspose.imaging/cmykcolor) | البكسلات من نوع CMYKColor بتنسيق CMYK. |
 
 **Returns:**
-com.aspose.imaging.Color[] - المصفوفة الخاصة بألوان ARGB.
+com.aspose.imaging.Color[] - المصفوفة من ألوان ARGB.
 ### toArgb32(CmykColor[] cmykPixels) {#toArgb32-com.aspose.imaging.CmykColor---}
 ```
 public static int[] toArgb32(CmykColor[] cmykPixels)
@@ -122,7 +122,7 @@ public static int[] toArgb32(CmykColor[] cmykPixels)
 | cmykPixels | [CmykColor\[\]](../../com.aspose.imaging/cmykcolor) | البكسلات من نوع CMYKColor بتنسيق CMYK. |
 
 **Returns:**
-int[] - المصفوفة الخاصة بلون ARGB 32‑بت.
+int[] - المصفوفة من لون ARGB 32‑بت.
 ### toCmyk(int argbPixel) {#toCmyk-int-}
 ```
 public static CmykColor toCmyk(int argbPixel)
@@ -239,39 +239,39 @@ public byte getC()
 ```
 
 
-يحصل على قيمة مكوّن السيان في بنية `com.com.aspose.imaging.Color` هذه.
+يحصل على قيمة المكوّن السايان لهذا الهيكل `com.com.aspose.imaging.Color`.
 
 **Returns:**
-byte - قيمة مكوّن السيان لهذا `com.com.aspose.imaging.Color`.
+byte - قيمة المكوّن السماوي لهذا `com.com.aspose.imaging.Color`.
 ### getM() {#getM--}
 ```
 public byte getM()
 ```
 
 
-يحصل على قيمة مكوّن الماجنتا في بنية `com.com.aspose.imaging.Color` هذه.
+يحصل على قيمة المكوّن الماجنتا لهذا الهيكل `com.com.aspose.imaging.Color`.
 
 **Returns:**
-byte - قيمة مكوّن الماجنتا لهذا `com.com.aspose.imaging.Color`.
+byte - قيمة المكوّن الأرجواني لهذا `com.com.aspose.imaging.Color`.
 ### getY() {#getY--}
 ```
 public byte getY()
 ```
 
 
-يحصل على قيمة مكوّن الأصفر في بنية `com.com.aspose.imaging.Color` هذه.
+يحصل على قيمة المكوّن الأصفر لهذا الهيكل `com.com.aspose.imaging.Color`.
 
 **Returns:**
-byte - قيمة مكوّن الأصفر لهذا `com.com.aspose.imaging.Color`.
+byte - قيمة المكوّن الأصفر لهذا `com.com.aspose.imaging.Color`.
 ### getK() {#getK--}
 ```
 public byte getK()
 ```
 
 
-يحصل على قيمة مكوّن الأسود في بنية `com.com.aspose.imaging.Color` هذه.
+يحصل على قيمة المكوّن الأسود لهذا الهيكل `com.com.aspose.imaging.Color`.
 
-القيمة: قيمة مكوّن الأسود لهذا `com.com.aspose.imaging.Color`.
+القيمة: قيمة المكوّن الأسود لهذا `com.com.aspose.imaging.Color`.
 
 **Returns:**
 byte
@@ -284,14 +284,14 @@ public boolean isEmpty()
 يحصل على قيمة تشير إلى ما إذا كان هذا الهيكل `com.com.aspose.imaging.Color` غير مهيأ.
 
 **Returns:**
-boolean - تُعيد هذه الخاصية true إذا كان هذا اللون غير مبدئ؛ وإلا false.
+boolean - تُعيد هذه الخاصية true إذا كان هذا اللون غير مهيأ؛ وإلا false.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-دالة الحصول على قيمة التجزئة.
+دالة الحصول على رمز التجزئة.
 
 **Returns:**
 int - الـ `int`.
@@ -304,7 +304,7 @@ public long toValue()
 القيمة إلى.
 
 **Returns:**
-long - القيمة الطويلة لـ CMYK.
+long - قيمة CMYK من النوع long.
 ### CloneTo(CmykColor that) {#CloneTo-com.aspose.imaging.CmykColor-}
 ```
 public void CloneTo(CmykColor that)

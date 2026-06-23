@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.NonGenericList](../../com.aspose.imaging/n
 public class MetaObjectList extends NonGenericList
 ```
 
-قائمة كائنات meta لتنسيقات EMF, EMF+ و WMF
+قائمة كائنات meta لفئات EMF و EMF+ و WMF
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [MetaObjectList(List<Object> list)](#MetaObjectList-java.util.List-java.lang.Object--) | يُنشئ مثيلاً جديدًا من الفئة `MetaObjectList`. |
-| [MetaObjectList()](#MetaObjectList--) | يُنشئ مثيلاً جديدًا من الفئة `MetaObjectList`. |
+| [MetaObjectList(List<Object> list)](#MetaObjectList-java.util.List-java.lang.Object--) | ينشئ مثيلاً جديداً للفئة `MetaObjectList`. |
+| [MetaObjectList()](#MetaObjectList--) | ينشئ مثيلاً جديداً للفئة `MetaObjectList`. |
 ### MetaObjectList(List<Object> list) {#MetaObjectList-java.util.List-java.lang.Object--}
 ```
 public MetaObjectList(List<Object> list)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `MetaObjectList`.
+ينشئ مثيلاً جديداً للفئة `MetaObjectList`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,5 +38,5 @@ public MetaObjectList()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `MetaObjectList`.
+ينشئ مثيلاً جديداً للفئة `MetaObjectList`.
 

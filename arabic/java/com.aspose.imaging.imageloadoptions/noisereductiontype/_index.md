@@ -23,16 +23,16 @@ Full - تقليل FBDD كامل
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | None، لا تستخدم تقليل الضوضاء FBDD |
-| [Light](#Light) | Light، تقليل FBDD خفيف |
-| [Full](#Full) | Full، تقليل FBDD كامل |
+| [None](#None) | الـNone، لا تستخدم تقليل الضوضاء FBDD |
+| [Light](#Light) | الـLight، تقليل FBDD خفيف |
+| [Full](#Full) | الـFull، تقليل FBDD كامل |
 ### None {#None}
 ```
 public static final int None
 ```
 
 
-None، لا تستخدم تقليل الضوضاء FBDD
+الـNone، لا تستخدم تقليل الضوضاء FBDD
 
 ### Light {#Light}
 ```
@@ -40,7 +40,7 @@ public static final int Light
 ```
 
 
-Light، تقليل FBDD خفيف
+الـLight، تقليل FBDD خفيف
 
 ### Full {#Full}
 ```
@@ -48,5 +48,5 @@ public static final int Full
 ```
 
 
-Full، تقليل FBDD كامل
+الـFull، تقليل FBDD كامل
 

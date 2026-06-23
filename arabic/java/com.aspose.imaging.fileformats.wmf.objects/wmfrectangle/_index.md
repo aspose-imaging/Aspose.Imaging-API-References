@@ -1,18 +1,18 @@
 ---
 title: "WmfRectangle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل META_RECTANGLE يرسم مستطيلًا."
+description: "سجل META_RECTANGLE يرسم مستطيلًا."
 type: docs
 weight: 61
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfrectangle/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfRectangle extends WmfObject
 ```
 
-السجل META\\_RECTANGLE يرسم مستطيلًا. يتم تحديد حدود المستطيل باستخدام القلم وتعبئته باستخدام الفرشاة المحددة في سياق جهاز التشغيل.
+سجل META\\_RECTANGLE يرسم مستطيلًا. يتم تحديد حدود المستطيل باستخدام القلم وتعبئته باستخدام الفرشاة التي تم تعريفها في سياق جهاز التشغيل.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public class WmfRectangle extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | الحصول على أو تعيين المستطيل. |
-| [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | الحصول على أو تعيين المستطيل. |
+| [getRectangle()](#getRectangle--) | يحصل أو يعيّن المستطيل. |
+| [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن المستطيل. |
 ### WmfRectangle() {#WmfRectangle--}
 ```
 public WmfRectangle()
@@ -36,7 +36,7 @@ public Rectangle getRectangle()
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 القيمة: المستطيل.
 
@@ -48,7 +48,7 @@ public void setRectangle(Rectangle value)
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 القيمة: المستطيل.
 

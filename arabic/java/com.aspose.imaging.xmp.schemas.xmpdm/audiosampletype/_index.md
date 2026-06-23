@@ -31,12 +31,12 @@ public final class AudioSampleType
 | --- | --- |
 | [getSample8Int()](#getSample8Int--) | يمثل عينة الصوت 8Int. |
 | [getSample16Int()](#getSample16Int--) | يمثل عينة الصوت 16Int. |
-| [getSample24Int()](#getSample24Int--) | يمثل عينة الصوت 24Int. |
-| [getSample32Int()](#getSample32Int--) | يمثل عينة الصوت 32Int. |
-| [getSample32Float()](#getSample32Float--) | يمثل عينة الصوت 32Float. |
-| [getCompressed()](#getCompressed--) | يمثل عينة الصوت المضغوطة. |
-| [getPacked()](#getPacked--) | يمثل عينة الصوت المعبأة. |
-| [toString()](#toString--) | يعيد `System.String` التي تمثل هذا المثيل. |
+| [getSample24Int()](#getSample24Int--) | يمثل عينة صوتية 24Int. |
+| [getSample32Int()](#getSample32Int--) | يمثل عينة صوتية 32Int. |
+| [getSample32Float()](#getSample32Float--) | يمثل عينة صوتية 32Float. |
+| [getCompressed()](#getCompressed--) | يمثل عينة صوتية مضغوطة. |
+| [getPacked()](#getPacked--) | يمثل عينة صوتية معبأة. |
+| [toString()](#toString--) | يعيد `System.String` الذي يمثل هذه الحالة. |
 ### AudioSample8Int {#AudioSample8Int}
 ```
 public static final String AudioSample8Int
@@ -127,7 +127,7 @@ public static AudioSampleType getSample24Int()
 ```
 
 
-يمثل عينة الصوت 24Int.
+يمثل عينة صوتية 24Int.
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -137,7 +137,7 @@ public static AudioSampleType getSample32Int()
 ```
 
 
-يمثل عينة الصوت 32Int.
+يمثل عينة صوتية 32Int.
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -147,7 +147,7 @@ public static AudioSampleType getSample32Float()
 ```
 
 
-يمثل عينة الصوت 32Float.
+يمثل عينة صوتية 32Float.
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -157,7 +157,7 @@ public static AudioSampleType getCompressed()
 ```
 
 
-يمثل عينة الصوت المضغوطة.
+يمثل عينة صوتية مضغوطة.
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -167,7 +167,7 @@ public static AudioSampleType getPacked()
 ```
 
 
-يمثل عينة الصوت المعبأة.
+يمثل عينة صوتية معبأة.
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -177,7 +177,7 @@ public String toString()
 ```
 
 
-يعيد `System.String` التي تمثل هذا المثيل.
+يعيد `System.String` الذي يمثل هذه الحالة.
 
 **Returns:**
-java.lang.String - `System.String` يمثل هذا المثيل.
+java.lang.String - `System.String` الذي يمثل هذه الحالة.

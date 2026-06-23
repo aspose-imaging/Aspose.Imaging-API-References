@@ -1,7 +1,7 @@
 ---
 title: "TiffNewSubFileTypes"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تعداد نوع الملف الفرعي الجديد tiff."
+description: "تعداد نوع الملف الفرعي الجديد لـ tiff."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes/
@@ -12,13 +12,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class TiffNewSubFileTypes extends System.Enum
 ```
 
-تعداد نوع الملف الفرعي الجديد tiff.
+تعداد نوع الملف الفرعي الجديد لـ tiff.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [FileTypeDefault](#FileTypeDefault) | نوع الملف الافتراضي. |
-| [FileTypeReducedImage](#FileTypeReducedImage) | نوع ملف الصورة المضغوطة. |
+| [FileTypeReducedImage](#FileTypeReducedImage) | نوع ملف الصورة المخفضة. |
 | [FileTypePage](#FileTypePage) | نوع ملف الصفحة. |
 | [FileTypeMask](#FileTypeMask) | نوع ملف القناع. |
 | [FileTypeLast](#FileTypeLast) | نوع الملف الأخير. |
@@ -36,7 +36,7 @@ public static final long FileTypeReducedImage
 ```
 
 
-نوع ملف الصورة المضغوطة.
+نوع ملف الصورة المخفضة.
 
 ### FileTypePage {#FileTypePage}
 ```

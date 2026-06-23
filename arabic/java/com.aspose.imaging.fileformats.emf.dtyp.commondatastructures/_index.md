@@ -7,11 +7,11 @@ weight: 48
 url: /ar/java/com.aspose.imaging.fileformats.emf.dtyp.commondatastructures/
 ---
 
-الحزمة تحتوي على أنواع [MS-DTYP]: أنواع بيانات Windows 2.3 هياكل البيانات المشتركة
+الحزمة تحتوي على الأنواع [MS-DTYP]: Windows Data Types 2.3 Common Data Structures
 
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [GuidPacketRepresentation](../com.aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation) | إصدار الحزمة يُستخدم داخل بروتوكولات الكتلة. |

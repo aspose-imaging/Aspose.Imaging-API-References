@@ -17,15 +17,15 @@ public class ImageLoadException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageLoadException(String message)](#ImageLoadException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `ImageLoadException`. |
-| [ImageLoadException(String message, Throwable innerException)](#ImageLoadException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `ImageLoadException`. |
+| [ImageLoadException(String message)](#ImageLoadException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `ImageLoadException`. |
+| [ImageLoadException(String message, Throwable innerException)](#ImageLoadException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة `ImageLoadException`. |
 ### ImageLoadException(String message) {#ImageLoadException-java.lang.String-}
 ```
 public ImageLoadException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `ImageLoadException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageLoadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public ImageLoadException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `ImageLoadException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageLoadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

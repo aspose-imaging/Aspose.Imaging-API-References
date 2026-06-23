@@ -32,7 +32,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // تصدير الصفحتين الأوليتين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط لأن WMF ليس تنسيقًا متعدد الصفحات.
+    // تصدير الصفحتين الأوليين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط لأن WMF ليس تنسيقًا متعدد الصفحات.
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {

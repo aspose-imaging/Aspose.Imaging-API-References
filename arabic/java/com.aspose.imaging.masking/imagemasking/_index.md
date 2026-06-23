@@ -1,7 +1,7 @@
 ---
 title: "ImageMasking"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يوفر عمليات تمويه الصورة."
+description: "يوفر عمليات قناع الصورة"
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.masking/imagemasking/
@@ -12,26 +12,26 @@ java.lang.Object
 public class ImageMasking
 ```
 
-يوفر عمليات تمويه الصورة.
+يوفر عمليات قناع الصورة
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageMasking(RasterImage sourceImage)](#ImageMasking-com.aspose.imaging.RasterImage-) | ينشئ نسخة جديدة من الفئة [ImageMasking](../../com.aspose.imaging.masking/imagemasking). |
+| [ImageMasking(RasterImage sourceImage)](#ImageMasking-com.aspose.imaging.RasterImage-) | يُنشئ مثيلاً جديدًا من الفئة [ImageMasking](../../com.aspose.imaging.masking/imagemasking). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [applyMask(RasterImage targetImage, RasterImage mask, MaskingOptions maskingOptions)](#applyMask-com.aspose.imaging.RasterImage-com.aspose.imaging.RasterImage-com.aspose.imaging.masking.options.MaskingOptions-) | يطبق القناع على الصورة المصدر المحددة. |
-| [decompose(MaskingOptions options)](#decompose-com.aspose.imaging.masking.options.MaskingOptions-) | ينفّذ عملية التفكيك باستخدام خيارات التمويه المحددة |
-| [decomposeAsync(MaskingOptions options)](#decomposeAsync-com.aspose.imaging.masking.options.MaskingOptions-) | ينشئ مهمة التفكيك غير المتزامنة باستخدام خيارات التمويه المحددة. |
-| [createSession(MaskingOptions options)](#createSession-com.aspose.imaging.masking.options.MaskingOptions-) | ينشئ جلسة التمويه التي يمكنها تنفيذ عمليات تفكيك لإعادة التدريب. |
+| [decompose(MaskingOptions options)](#decompose-com.aspose.imaging.masking.options.MaskingOptions-) | ينفّذ عملية التفكيك باستخدام خيارات القناع المحددة. |
+| [decomposeAsync(MaskingOptions options)](#decomposeAsync-com.aspose.imaging.masking.options.MaskingOptions-) | ينشئ مهمة التفكيك غير المتزامنة باستخدام خيارات القناع المحددة. |
+| [createSession(MaskingOptions options)](#createSession-com.aspose.imaging.masking.options.MaskingOptions-) | ينشئ جلسة القناع التي يمكنها تنفيذ عمليات تفكيك إعادة التدريب. |
 | [loadSession(InputStream stream)](#loadSession-java.io.InputStream-) | حمّل الجلسة من الدفق المحدد. |
 | [loadSession(System.IO.Stream stream)](#loadSession-com.aspose.ms.System.IO.Stream-) |  |
 | [loadSession(String filePath)](#loadSession-java.lang.String-) | حمّل الجلسة من الملف المحدد. |
 
 ## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
-يُظهر هذا المثال كيفية تفكيك صورة نقطية إلى صور متعددة باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تفكيك صورة نقطية إلى عدة صور باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -39,7 +39,7 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // حدد عدد العناقيد (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
+    // حدد عدد المجموعات (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
     args.setNumberOfObjects(3);
 
     // حدد الحد الأقصى لعدد التكرارات.
@@ -48,7 +48,7 @@ try {
     // حدد دقة طريقة التجزئة (اختياري).
     args.setPrecision(1);
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource(new java.io.ByteArrayInputStream(new byte[0])));
@@ -56,7 +56,7 @@ try {
     com.aspose.imaging.masking.options.MaskingOptions maskingOptions = new com.aspose.imaging.masking.options.MaskingOptions();
 
     // استخدم تجميع K-means.
-    // يتيح تجميع K-means تقسيم الصورة إلى عدة عناقيد (قطاعات) مستقلة.
+    // يتيح تجميع K-means تقسيم الصورة إلى عدة مجموعات مستقلة (مقاطع).
     maskingOptions.setMethod(com.aspose.imaging.masking.options.SegmentationMethod.KMeans);
     maskingOptions.setDecompose(true);
     maskingOptions.setArgs(args);
@@ -65,7 +65,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -122,7 +122,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -191,7 +191,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -227,11 +227,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -287,7 +287,7 @@ public ImageMasking(RasterImage sourceImage)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [ImageMasking](../../com.aspose.imaging.masking/imagemasking).
+يُنشئ مثيلاً جديدًا من الفئة [ImageMasking](../../com.aspose.imaging.masking/imagemasking).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -323,7 +323,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -409,7 +409,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -457,7 +457,7 @@ public final MaskingResult decompose(MaskingOptions options)
 ```
 
 
-ينفّذ عملية التفكيك باستخدام خيارات التمويه المحددة
+ينفّذ عملية التفكيك باستخدام خيارات القناع المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -468,7 +468,7 @@ public final MaskingResult decompose(MaskingOptions options)
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - Result of masking operation as array of segment image providers.
 
 **Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
-يُظهر هذا المثال كيفية تحديد الاقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تحديد اقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -476,14 +476,14 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // الاقتراح #1.
-    // حلل الصورة بصريًا وحدد منطقة الاهتمام. سيتضمن نتيجة التجزئة فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
+    // اقتراح #1.
+    // حلل الصورة بصريًا وحدد منطقة الاهتمام. نتيجة التجزئة ستشمل فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
     args.setObjectsRectangles(new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(86, 6, 270, 364),
             });
 
-    // الاقتراح #2.
+    // اقتراح #2.
     // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
@@ -492,7 +492,7 @@ try {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(319, 86)},
             });
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource());
@@ -508,7 +508,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -565,7 +565,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -613,7 +613,7 @@ public final IMaskingAsyncTask decomposeAsync(MaskingOptions options)
 ```
 
 
-ينشئ مهمة التفكيك غير المتزامنة باستخدام خيارات التمويه المحددة.
+ينشئ مهمة التفكيك غير المتزامنة باستخدام خيارات القناع المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -628,7 +628,7 @@ public final IMaskingSession createSession(MaskingOptions options)
 ```
 
 
-ينشئ جلسة التمويه التي يمكنها تنفيذ عمليات تفكيك لإعادة التدريب.
+ينشئ جلسة القناع التي يمكنها تنفيذ عمليات تفكيك إعادة التدريب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -664,7 +664,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -700,11 +700,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -765,7 +765,7 @@ public final IMaskingSession loadSession(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | المجرى. |
+| تدفق | java.io.InputStream | التدفق. |
 
 **Returns:**
 [IMaskingSession](../../com.aspose.imaging.masking/imaskingsession) - the masking session which can perform retraining decompose operations.
@@ -780,7 +780,7 @@ public final IMaskingSession loadSession(System.IO.Stream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | com.aspose.ms.System.IO.Stream |  |
+| تدفق | com.aspose.ms.System.IO.Stream |  |
 
 **Returns:**
 [IMaskingSession](../../com.aspose.imaging.masking/imaskingsession)

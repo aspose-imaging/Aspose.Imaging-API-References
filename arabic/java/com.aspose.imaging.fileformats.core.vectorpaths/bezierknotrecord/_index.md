@@ -1,24 +1,24 @@
 ---
 title: "BezierKnotRecord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "Bezier Knot Record Class"
+description: "فئة سجل عقدة بيزيه"
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object، [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class BezierKnotRecord extends VectorPathRecord
 ```
 
-Bezier Knot Record Class
+فئة سجل عقدة بيزيه
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BezierKnotRecord()](#BezierKnotRecord--) | ينشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord). |
-| [BezierKnotRecord(byte[] data)](#BezierKnotRecord-byte---) | ينشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord). |
+| [BezierKnotRecord()](#BezierKnotRecord--) | يُنشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord). |
+| [BezierKnotRecord(byte[] data)](#BezierKnotRecord-byte---) | يُنشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -27,12 +27,12 @@ Bezier Knot Record Class
 | [setPathPoints(PointF[] value)](#setPathPoints-com.aspose.imaging.PointF---) | يضبط نقاط المسار. |
 | [getPoints()](#getPoints--) | يحصل على النقاط. |
 | [setPoints(Point[] value)](#setPoints-com.aspose.imaging.Point---) | يضبط النقاط. |
-| [isClosed()](#isClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا. |
-| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا. |
-| [isLinked()](#isLinked--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مرتبطًا. |
-| [setLinked(boolean value)](#setLinked-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن مرتبطًا. |
-| [isOpen()](#isOpen--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
-| [setOpen(boolean value)](#setOpen-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
+| [isClosed()](#isClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا. |
+| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا. |
+| [isLinked()](#isLinked--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مرتبطًا. |
+| [setLinked(boolean value)](#setLinked-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا المثيل مرتبطًا. |
+| [isOpen()](#isOpen--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا. |
+| [setOpen(boolean value)](#setOpen-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا. |
 | [getType()](#getType--) | يحصل على النوع. |
 ### BezierKnotRecord() {#BezierKnotRecord--}
 ```
@@ -40,7 +40,7 @@ public BezierKnotRecord()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord).
+يُنشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord).
 
 ### BezierKnotRecord(byte[] data) {#BezierKnotRecord-byte---}
 ```
@@ -48,7 +48,7 @@ public BezierKnotRecord(byte[] data)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord).
+يُنشئ مثيلاً جديدًا من الفئة [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -111,26 +111,26 @@ public final boolean isClosed()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا.
 
-القيمة: `true` إذا كان هذا الكائن مغلقًا؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مغلقًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا.
+boolean - قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا.
 ### setClosed(boolean value) {#setClosed-boolean-}
 ```
 public final void setClosed(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا.
+يضبط قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا.
 
-القيمة: `true` إذا كان هذا الكائن مغلقًا؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مغلقًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا. |
 
 ### isLinked() {#isLinked--}
 ```
@@ -138,26 +138,26 @@ public final boolean isLinked()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مرتبطًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مرتبطًا.
 
-القيمة: `true` إذا كان هذا الكائن مرتبطًا؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مرتبطًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا الكائن مرتبطًا.
+boolean - قيمة تشير إلى ما إذا كان هذا المثيل مرتبطًا.
 ### setLinked(boolean value) {#setLinked-boolean-}
 ```
 public final void setLinked(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا الكائن مرتبطًا.
+يضبط قيمة تشير إلى ما إذا كان هذا المثيل مرتبطًا.
 
-القيمة: `true` إذا كان هذا الكائن مرتبطًا؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مرتبطًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مرتبطًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا المثيل مرتبطًا. |
 
 ### isOpen() {#isOpen--}
 ```
@@ -165,26 +165,26 @@ public final boolean isOpen()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا.
 
 القيمة: `true` إذا كان هذا الكائن مفتوحًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
+منطقي - قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
 ### setOpen(boolean value) {#setOpen-boolean-}
 ```
 public final void setOpen(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
+يضبط قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا.
 
 القيمة: `true` إذا كان هذا الكائن مفتوحًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
 
 ### getType() {#getType--}
 ```

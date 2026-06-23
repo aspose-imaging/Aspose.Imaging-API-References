@@ -12,20 +12,20 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusCompositingMode extends System.Enum
 ```
 
-تعرّف تعداد CompositingMode أوضاع دمج ألوان المصدر مع ألوان الخلفية. تمثل وضعية الدمج حالة التمكين للخلط ألفا.
+تحدد تعداد CompositingMode أوضاع دمج ألوان المصدر مع ألوان الخلفية. يمثل وضع الدمج حالة التمكين للدمج الشفاف (alpha blending).
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [CompositingModeSourceOver](#CompositingModeSourceOver) | يفعل الدمج الألفا، والذي يحدد أنه عندما يتم عرض لون، يتم دمجه مع لون الخلفية. |
-| [CompositingModeSourceCopy](#CompositingModeSourceCopy) | يعطل الدمج الألفا، مما يعني أنه عندما يتم عرض لون المصدر، يكتب فوق لون الخلفية. |
+| [CompositingModeSourceOver](#CompositingModeSourceOver) | يفعل الدمج الشفاف، مما يعني أنه عند عرض لون ما، يتم دمجه مع لون الخلفية. |
+| [CompositingModeSourceCopy](#CompositingModeSourceCopy) | يعطل الدمج الشفاف، مما يعني أنه عند عرض لون المصدر، يكتب فوق لون الخلفية. |
 ### CompositingModeSourceOver {#CompositingModeSourceOver}
 ```
 public static final byte CompositingModeSourceOver
 ```
 
 
-يفعل الدمج الألفا، والذي يحدد أنه عندما يتم عرض لون، يتم دمجه مع لون الخلفية. يتم تحديد مدى الدمج بقيمة مكوّن الألفا للون المعروض.
+يفعل الدمج الشفاف، مما يعني أنه عند عرض لون ما، يتم دمجه مع لون الخلفية. يتم تحديد مدى الدمج بقيمة المكوّن ألفا للون المعروض.
 
 ### CompositingModeSourceCopy {#CompositingModeSourceCopy}
 ```
@@ -33,5 +33,5 @@ public static final byte CompositingModeSourceCopy
 ```
 
 
-يعطل الدمج الألفا، مما يعني أنه عندما يتم عرض لون المصدر، يكتب فوق لون الخلفية.
+يعطل الدمج الشفاف، مما يعني أنه عند عرض لون المصدر، يكتب فوق لون الخلفية.
 

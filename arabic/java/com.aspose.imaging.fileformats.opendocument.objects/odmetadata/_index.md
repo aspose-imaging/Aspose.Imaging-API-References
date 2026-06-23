@@ -1,7 +1,7 @@
 ---
 title: "OdMetadata"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "البيانات الوصفية للمستند المفتوح."
+description: "البيانات الوصفية للمستند المفتوح"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects/odmetadata/
@@ -12,32 +12,32 @@ java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../c
 public class OdMetadata extends OdObject
 ```
 
-البيانات الوصفية للمستند المفتوح.
+البيانات الوصفية للمستند المفتوح
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdMetadata(OdObject parent)](#OdMetadata-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثلاً جديداً من الفئة `OdMetadata`. |
+| [OdMetadata(OdObject parent)](#OdMetadata-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdMetadata`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getGenerator()](#getGenerator--) | يحصل أو يعيّن المولد. |
-| [setGenerator(String value)](#setGenerator-java.lang.String-) | يحصل أو يعيّن المولد. |
-| [getTitle()](#getTitle--) | يحصل أو يعيّن العنوان. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | يحصل أو يعيّن العنوان. |
-| [getDescription()](#getDescription--) | يحصل أو يعيّن الوصف. |
-| [setDescription(String value)](#setDescription-java.lang.String-) | يحصل أو يعيّن الوصف. |
-| [getSubject()](#getSubject--) | يحصل أو يعيّن الموضوع. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | يحصل أو يعيّن الموضوع. |
-| [getKeywords()](#getKeywords--) | يحصل أو يعيّن الكلمات المفتاحية. |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | يحصل أو يعيّن الكلمات المفتاحية. |
-| [getInitialCreator()](#getInitialCreator--) | يحصل أو يعيّن المُنشئ الأولي. |
-| [setInitialCreator(String value)](#setInitialCreator-java.lang.String-) | يحصل أو يعيّن المُنشئ الأولي. |
-| [getCreator()](#getCreator--) | يحصل أو يعيّن المُنشئ. |
-| [setCreator(String value)](#setCreator-java.lang.String-) | يحصل أو يعيّن المُنشئ. |
-| [getPrintedBy()](#getPrintedBy--) | يحصل أو يعيّن مطبوع بواسطة. |
-| [setPrintedBy(String value)](#setPrintedBy-java.lang.String-) | يحصل أو يعيّن مطبوع بواسطة. |
+| [getGenerator()](#getGenerator--) | يحصل أو يضبط المولد. |
+| [setGenerator(String value)](#setGenerator-java.lang.String-) | يحصل أو يضبط المولد. |
+| [getTitle()](#getTitle--) | يحصل أو يضبط العنوان. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | يحصل أو يضبط العنوان. |
+| [getDescription()](#getDescription--) | يحصل أو يضبط الوصف. |
+| [setDescription(String value)](#setDescription-java.lang.String-) | يحصل أو يضبط الوصف. |
+| [getSubject()](#getSubject--) | يحصل أو يضبط الموضوع. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | يحصل أو يضبط الموضوع. |
+| [getKeywords()](#getKeywords--) | يحصل أو يضبط الكلمات المفتاحية. |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | يحصل أو يضبط الكلمات المفتاحية. |
+| [getInitialCreator()](#getInitialCreator--) | يحصل أو يضبط المنشئ الأولي. |
+| [setInitialCreator(String value)](#setInitialCreator-java.lang.String-) | يحصل أو يضبط المنشئ الأولي. |
+| [getCreator()](#getCreator--) | يحصل أو يضبط المنشئ. |
+| [setCreator(String value)](#setCreator-java.lang.String-) | يحصل أو يضبط المنشئ. |
+| [getPrintedBy()](#getPrintedBy--) | يحصل أو يضبط المطبوع بواسطة. |
+| [setPrintedBy(String value)](#setPrintedBy-java.lang.String-) | يحصل أو يضبط المطبوع بواسطة. |
 | [getCreationDateTime()](#getCreationDateTime--) | يحصل أو يعيّن تاريخ ووقت الإنشاء. |
 | [setCreationDateTime(String value)](#setCreationDateTime-java.lang.String-) | يحصل أو يعيّن تاريخ ووقت الإنشاء. |
 | [getModificationDateTime()](#getModificationDateTime--) | يحصل أو يعيّن تاريخ ووقت التعديل. |
@@ -54,22 +54,22 @@ public class OdMetadata extends OdObject
 | [setLanguage(String value)](#setLanguage-java.lang.String-) | يحصل أو يعيّن اللغة. |
 | [getEditingCycles()](#getEditingCycles--) | يحصل أو يعيّن دورات التحرير. |
 | [setEditingCycles(String value)](#setEditingCycles-java.lang.String-) | يحصل أو يعيّن دورات التحرير. |
-| [getEditingDuration()](#getEditingDuration--) | الحصول أو تعيين مدة التحرير. |
-| [setEditingDuration(String value)](#setEditingDuration-java.lang.String-) | الحصول أو تعيين مدة التحرير. |
-| [getDocumentStatistics()](#getDocumentStatistics--) | الحصول أو تعيين إحصائيات المستند. |
-| [setDocumentStatistics(String value)](#setDocumentStatistics-java.lang.String-) | الحصول أو تعيين إحصائيات المستند. |
+| [getEditingDuration()](#getEditingDuration--) | يحصل أو يعيّن مدة التحرير. |
+| [setEditingDuration(String value)](#setEditingDuration-java.lang.String-) | يحصل أو يعيّن مدة التحرير. |
+| [getDocumentStatistics()](#getDocumentStatistics--) | يحصل أو يعيّن إحصائيات المستند. |
+| [setDocumentStatistics(String value)](#setDocumentStatistics-java.lang.String-) | يحصل أو يعيّن إحصائيات المستند. |
 ### OdMetadata(OdObject parent) {#OdMetadata-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdMetadata(OdObject parent)
 ```
 
 
-يُنشئ مثلاً جديداً من الفئة `OdMetadata`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdMetadata`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getGenerator() {#getGenerator--}
 ```
@@ -77,7 +77,7 @@ public String getGenerator()
 ```
 
 
-يحصل أو يعيّن المولد.
+يحصل أو يضبط المولد.
 
 **Returns:**
 java.lang.String - المولد.
@@ -87,12 +87,12 @@ public void setGenerator(String value)
 ```
 
 
-يحصل أو يعيّن المولد.
+يحصل أو يضبط المولد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | المولد. |
+| value | java.lang.String | المولد. |
 
 ### getTitle() {#getTitle--}
 ```
@@ -100,7 +100,7 @@ public String getTitle()
 ```
 
 
-يحصل أو يعيّن العنوان.
+يحصل أو يضبط العنوان.
 
 **Returns:**
 java.lang.String - العنوان.
@@ -110,12 +110,12 @@ public void setTitle(String value)
 ```
 
 
-يحصل أو يعيّن العنوان.
+يحصل أو يضبط العنوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | العنوان. |
+| value | java.lang.String | العنوان. |
 
 ### getDescription() {#getDescription--}
 ```
@@ -123,22 +123,22 @@ public String getDescription()
 ```
 
 
-يحصل أو يعيّن الوصف.
+يحصل أو يضبط الوصف.
 
 **Returns:**
-العنوان.
+java.lang.String - الوصف.
 ### setDescription(String value) {#setDescription-java.lang.String-}
 ```
 public void setDescription(String value)
 ```
 
 
-يحصل أو يعيّن الوصف.
+يحصل أو يضبط الوصف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الوصف. |
+| value | java.lang.String | الوصف. |
 
 ### getSubject() {#getSubject--}
 ```
@@ -146,22 +146,22 @@ public String getSubject()
 ```
 
 
-يحصل أو يعيّن الموضوع.
+يحصل أو يضبط الموضوع.
 
 **Returns:**
-java.lang.String - الوصف.
+java.lang.String - الموضوع.
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
 public void setSubject(String value)
 ```
 
 
-يحصل أو يعيّن الموضوع.
+يحصل أو يضبط الموضوع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الموضوع. |
+| value | java.lang.String | الموضوع. |
 
 ### getKeywords() {#getKeywords--}
 ```
@@ -169,22 +169,22 @@ public String getKeywords()
 ```
 
 
-يحصل أو يعيّن الكلمات المفتاحية.
+يحصل أو يضبط الكلمات المفتاحية.
 
 **Returns:**
-الوصف.
+java.lang.String - الكلمات المفتاحية.
 ### setKeywords(String value) {#setKeywords-java.lang.String-}
 ```
 public void setKeywords(String value)
 ```
 
 
-يحصل أو يعيّن الكلمات المفتاحية.
+يحصل أو يضبط الكلمات المفتاحية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الكلمات المفتاحية. |
+| value | java.lang.String | الكلمات المفتاحية. |
 
 ### getInitialCreator() {#getInitialCreator--}
 ```
@@ -192,22 +192,22 @@ public String getInitialCreator()
 ```
 
 
-يحصل أو يعيّن المُنشئ الأولي.
+يحصل أو يضبط المنشئ الأولي.
 
 **Returns:**
-java.lang.String - الموضوع.
+java.lang.String - المُنشئ الأول.
 ### setInitialCreator(String value) {#setInitialCreator-java.lang.String-}
 ```
 public void setInitialCreator(String value)
 ```
 
 
-يحصل أو يعيّن المُنشئ الأولي.
+يحصل أو يضبط المنشئ الأولي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الموضوع. |
+| value | java.lang.String | المُنشئ الأول. |
 
 ### getCreator() {#getCreator--}
 ```
@@ -215,22 +215,22 @@ public String getCreator()
 ```
 
 
-يحصل أو يعيّن المُنشئ.
+يحصل أو يضبط المنشئ.
 
 **Returns:**
-java.lang.String - الكلمات المفتاحية.
+java.lang.String - المُنشئ.
 ### setCreator(String value) {#setCreator-java.lang.String-}
 ```
 public void setCreator(String value)
 ```
 
 
-يحصل أو يعيّن المُنشئ.
+يحصل أو يضبط المنشئ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الكلمات المفتاحية. |
+| value | java.lang.String | المُنشئ. |
 
 ### getPrintedBy() {#getPrintedBy--}
 ```
@@ -238,22 +238,22 @@ public String getPrintedBy()
 ```
 
 
-يحصل أو يعيّن مطبوع بواسطة.
+يحصل أو يضبط المطبوع بواسطة.
 
 **Returns:**
-java.lang.String - المنشئ الأول.
+java.lang.String - المطبوع بواسطة.
 ### setPrintedBy(String value) {#setPrintedBy-java.lang.String-}
 ```
 public void setPrintedBy(String value)
 ```
 
 
-يحصل أو يعيّن مطبوع بواسطة.
+يحصل أو يضبط المطبوع بواسطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | المنشئ الأول. |
+| value | java.lang.String | المطبوع بواسطة. |
 
 ### getCreationDateTime() {#getCreationDateTime--}
 ```
@@ -264,7 +264,7 @@ public String getCreationDateTime()
 يحصل أو يعيّن تاريخ ووقت الإنشاء.
 
 **Returns:**
-java.lang.String - المنشئ.
+java.lang.String - تاريخ ووقت الإنشاء.
 ### setCreationDateTime(String value) {#setCreationDateTime-java.lang.String-}
 ```
 public void setCreationDateTime(String value)
@@ -276,7 +276,7 @@ public void setCreationDateTime(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | المنشئ. |
+| value | java.lang.String | تاريخ ووقت الإنشاء. |
 
 ### getModificationDateTime() {#getModificationDateTime--}
 ```
@@ -287,7 +287,7 @@ public String getModificationDateTime()
 يحصل أو يعيّن تاريخ ووقت التعديل.
 
 **Returns:**
-java.lang.String - المطبوع بواسطة.
+java.lang.String - تاريخ ووقت التعديل.
 ### setModificationDateTime(String value) {#setModificationDateTime-java.lang.String-}
 ```
 public void setModificationDateTime(String value)
@@ -299,7 +299,7 @@ public void setModificationDateTime(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | المطبوع بواسطة. |
+| value | java.lang.String | تاريخ ووقت التعديل. |
 
 ### getPrintDateTime() {#getPrintDateTime--}
 ```
@@ -310,7 +310,7 @@ public String getPrintDateTime()
 يحصل أو يعيّن تاريخ ووقت الطباعة.
 
 **Returns:**
-java.lang.String - تاريخ ووقت الإنشاء.
+java.lang.String - تاريخ ووقت الطباعة.
 ### setPrintDateTime(String value) {#setPrintDateTime-java.lang.String-}
 ```
 public void setPrintDateTime(String value)
@@ -322,7 +322,7 @@ public void setPrintDateTime(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | تاريخ ووقت الإنشاء. |
+| value | java.lang.String | تاريخ ووقت الطباعة. |
 
 ### getDocumentTemplate() {#getDocumentTemplate--}
 ```
@@ -333,7 +333,7 @@ public String getDocumentTemplate()
 يحصل أو يعيّن قالب المستند.
 
 **Returns:**
-java.lang.String - تاريخ ووقت التعديل.
+java.lang.String - قالب المستند.
 ### setDocumentTemplate(String value) {#setDocumentTemplate-java.lang.String-}
 ```
 public void setDocumentTemplate(String value)
@@ -345,7 +345,7 @@ public void setDocumentTemplate(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | تاريخ ووقت التعديل. |
+| value | java.lang.String | قالب المستند. |
 
 ### getAutomaticReload() {#getAutomaticReload--}
 ```
@@ -356,7 +356,7 @@ public String getAutomaticReload()
 يحصل أو يعيّن إعادة التحميل التلقائية.
 
 **Returns:**
-java.lang.String - تاريخ ووقت الطباعة.
+java.lang.String - إعادة التحميل التلقائية.
 ### setAutomaticReload(String value) {#setAutomaticReload-java.lang.String-}
 ```
 public void setAutomaticReload(String value)
@@ -368,7 +368,7 @@ public void setAutomaticReload(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | تاريخ ووقت الطباعة. |
+| value | java.lang.String | إعادة التحميل التلقائية. |
 
 ### getHyperlinkBehavior() {#getHyperlinkBehavior--}
 ```
@@ -391,7 +391,7 @@ public void setHyperlinkBehavior(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | سلوك الارتباط التشعبي. |
+| value | java.lang.String | سلوك الارتباط التشعبي. |
 
 ### getLanguage() {#getLanguage--}
 ```
@@ -414,7 +414,7 @@ public void setLanguage(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اللغة. |
+| value | java.lang.String | اللغة. |
 
 ### getEditingCycles() {#getEditingCycles--}
 ```
@@ -437,7 +437,7 @@ public void setEditingCycles(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | دورات التحرير. |
+| value | java.lang.String | دورات التحرير. |
 
 ### getEditingDuration() {#getEditingDuration--}
 ```
@@ -445,7 +445,7 @@ public String getEditingDuration()
 ```
 
 
-الحصول أو تعيين مدة التحرير.
+يحصل أو يعيّن مدة التحرير.
 
 **Returns:**
 java.lang.String - مدة التحرير.
@@ -455,12 +455,12 @@ public void setEditingDuration(String value)
 ```
 
 
-الحصول أو تعيين مدة التحرير.
+يحصل أو يعيّن مدة التحرير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | مدة التحرير. |
+| value | java.lang.String | مدة التحرير. |
 
 ### getDocumentStatistics() {#getDocumentStatistics--}
 ```
@@ -468,7 +468,7 @@ public String getDocumentStatistics()
 ```
 
 
-الحصول أو تعيين إحصائيات المستند.
+يحصل أو يعيّن إحصائيات المستند.
 
 **Returns:**
 java.lang.String - إحصائيات المستند.
@@ -478,10 +478,10 @@ public void setDocumentStatistics(String value)
 ```
 
 
-الحصول أو تعيين إحصائيات المستند.
+يحصل أو يعيّن إحصائيات المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | إحصائيات المستند. |
+| value | java.lang.String | إحصائيات المستند. |
 

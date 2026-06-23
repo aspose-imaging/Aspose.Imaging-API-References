@@ -17,15 +17,15 @@ public class GifImageException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [GifImageException(String message)](#GifImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `GifImageException`. |
-| [GifImageException(String message, Throwable innerException)](#GifImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `GifImageException`. |
+| [GifImageException(String message)](#GifImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `GifImageException`. |
+| [GifImageException(String message, Throwable innerException)](#GifImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `GifImageException`. |
 ### GifImageException(String message) {#GifImageException-java.lang.String-}
 ```
 public GifImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `GifImageException`.
+ينشئ مثيلاً جديدًا من الفئة `GifImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public GifImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `GifImageException`.
+ينشئ مثيلاً جديدًا من الفئة `GifImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

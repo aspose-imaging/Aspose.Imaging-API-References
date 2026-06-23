@@ -17,19 +17,19 @@ public final class ExifFlash extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Noflash](#Noflash) | لم يتم تشغيل الفلاش. |
-| [Fired](#Fired) | تم تشغيل الفلاش. |
-| [FiredReturnLightNotDetected](#FiredReturnLightNotDetected) | تم تشغيل الفلاش، لم يتم اكتشاف الضوء العائد. |
-| [FiredReturnLightDetected](#FiredReturnLightDetected) | تم تشغيل الفلاش، تم اكتشاف الضوء العائد. |
-| [YesCompulsory](#YesCompulsory) | تم تشغيل الفلاش، وضع الفلاش الإجباري. |
-| [YesCompulsoryReturnLightNotDetected](#YesCompulsoryReturnLightNotDetected) | تم تشغيل الفلاش، وضع إجباري، لم يتم اكتشاف الضوء العائد. |
-| [YesCompulsoryReturnLightDetected](#YesCompulsoryReturnLightDetected) | تم تشغيل الفلاش، وضع إجباري، تم اكتشاف الضوء العائد. |
-| [NoCompulsory](#NoCompulsory) | لم يتم تشغيل الفلاش، وضع الفلاش الإجباري. |
-| [NoDidNotFireReturnLightNotDetected](#NoDidNotFireReturnLightNotDetected) | لم يتم تشغيل الفلاش، لم يتم اكتشاف الضوء العائد. |
-| [NoAuto](#NoAuto) | لم يتم تشغيل الفلاش، وضع تلقائي. |
-| [YesAuto](#YesAuto) | تم تشغيل الفلاش، وضع تلقائي. |
-| [YesAutoReturnLightNotDetected](#YesAutoReturnLightNotDetected) | تم تشغيل الفلاش، وضع تلقائي، لم يتم اكتشاف الضوء العائد. |
-| [YesAutoReturnLightDetected](#YesAutoReturnLightDetected) | تم تشغيل الفلاش، وضع تلقائي، تم اكتشاف الضوء العائد. |
+| [Noflash](#Noflash) | لم يُطلق الفلاش. |
+| [Fired](#Fired) | تم إطلاق الفلاش. |
+| [FiredReturnLightNotDetected](#FiredReturnLightNotDetected) | تم إطلاق الفلاش, لم يُكتشف الضوء المرتد. |
+| [FiredReturnLightDetected](#FiredReturnLightDetected) | تم إطلاق الفلاش, تم اكتشاف الضوء المرتد. |
+| [YesCompulsory](#YesCompulsory) | تم إطلاق الفلاش, وضع الفلاش الإجباري. |
+| [YesCompulsoryReturnLightNotDetected](#YesCompulsoryReturnLightNotDetected) | تم إطلاق الفلاش, وضع إجباري, لم يُكتشف الضوء المرتد. |
+| [YesCompulsoryReturnLightDetected](#YesCompulsoryReturnLightDetected) | تم إطلاق الفلاش, وضع إجباري, تم اكتشاف الضوء المرتد. |
+| [NoCompulsory](#NoCompulsory) | لم يُطلق الفلاش, وضع الفلاش الإجباري. |
+| [NoDidNotFireReturnLightNotDetected](#NoDidNotFireReturnLightNotDetected) | لم يُطلق الفلاش, لم يُكتشف الضوء المرتد. |
+| [NoAuto](#NoAuto) | لم يطلق الفلاش، وضع تلقائي. |
+| [YesAuto](#YesAuto) | أُطلق الفلاش، وضع تلقائي. |
+| [YesAutoReturnLightNotDetected](#YesAutoReturnLightNotDetected) | أُطلق الفلاش، وضع تلقائي، لم يتم اكتشاف ضوء الإرجاع. |
+| [YesAutoReturnLightDetected](#YesAutoReturnLightDetected) | أُطلق الفلاش، وضع تلقائي، تم اكتشاف ضوء الإرجاع. |
 | [NoFlashFunction](#NoFlashFunction) | لا توجد وظيفة فلاش. |
 ### Noflash {#Noflash}
 ```
@@ -37,7 +37,7 @@ public static final int Noflash
 ```
 
 
-لم يتم تشغيل الفلاش.
+لم يُطلق الفلاش.
 
 ### Fired {#Fired}
 ```
@@ -45,7 +45,7 @@ public static final int Fired
 ```
 
 
-تم تشغيل الفلاش.
+تم إطلاق الفلاش.
 
 ### FiredReturnLightNotDetected {#FiredReturnLightNotDetected}
 ```
@@ -53,7 +53,7 @@ public static final int FiredReturnLightNotDetected
 ```
 
 
-تم تشغيل الفلاش، لم يتم اكتشاف الضوء العائد.
+تم إطلاق الفلاش, لم يُكتشف الضوء المرتد.
 
 ### FiredReturnLightDetected {#FiredReturnLightDetected}
 ```
@@ -61,7 +61,7 @@ public static final int FiredReturnLightDetected
 ```
 
 
-تم تشغيل الفلاش، تم اكتشاف الضوء العائد.
+تم إطلاق الفلاش, تم اكتشاف الضوء المرتد.
 
 ### YesCompulsory {#YesCompulsory}
 ```
@@ -69,7 +69,7 @@ public static final int YesCompulsory
 ```
 
 
-تم تشغيل الفلاش، وضع الفلاش الإجباري.
+تم إطلاق الفلاش, وضع الفلاش الإجباري.
 
 ### YesCompulsoryReturnLightNotDetected {#YesCompulsoryReturnLightNotDetected}
 ```
@@ -77,7 +77,7 @@ public static final int YesCompulsoryReturnLightNotDetected
 ```
 
 
-تم تشغيل الفلاش، وضع إجباري، لم يتم اكتشاف الضوء العائد.
+تم إطلاق الفلاش, وضع إجباري, لم يُكتشف الضوء المرتد.
 
 ### YesCompulsoryReturnLightDetected {#YesCompulsoryReturnLightDetected}
 ```
@@ -85,7 +85,7 @@ public static final int YesCompulsoryReturnLightDetected
 ```
 
 
-تم تشغيل الفلاش، وضع إجباري، تم اكتشاف الضوء العائد.
+تم إطلاق الفلاش, وضع إجباري, تم اكتشاف الضوء المرتد.
 
 ### NoCompulsory {#NoCompulsory}
 ```
@@ -93,7 +93,7 @@ public static final int NoCompulsory
 ```
 
 
-لم يتم تشغيل الفلاش، وضع الفلاش الإجباري.
+لم يُطلق الفلاش, وضع الفلاش الإجباري.
 
 ### NoDidNotFireReturnLightNotDetected {#NoDidNotFireReturnLightNotDetected}
 ```
@@ -101,7 +101,7 @@ public static final int NoDidNotFireReturnLightNotDetected
 ```
 
 
-لم يتم تشغيل الفلاش، لم يتم اكتشاف الضوء العائد.
+لم يُطلق الفلاش, لم يُكتشف الضوء المرتد.
 
 ### NoAuto {#NoAuto}
 ```
@@ -109,7 +109,7 @@ public static final int NoAuto
 ```
 
 
-لم يتم تشغيل الفلاش، وضع تلقائي.
+لم يطلق الفلاش، وضع تلقائي.
 
 ### YesAuto {#YesAuto}
 ```
@@ -117,7 +117,7 @@ public static final int YesAuto
 ```
 
 
-تم تشغيل الفلاش، وضع تلقائي.
+أُطلق الفلاش، وضع تلقائي.
 
 ### YesAutoReturnLightNotDetected {#YesAutoReturnLightNotDetected}
 ```
@@ -125,7 +125,7 @@ public static final int YesAutoReturnLightNotDetected
 ```
 
 
-تم تشغيل الفلاش، وضع تلقائي، لم يتم اكتشاف الضوء العائد.
+أُطلق الفلاش، وضع تلقائي، لم يتم اكتشاف ضوء الإرجاع.
 
 ### YesAutoReturnLightDetected {#YesAutoReturnLightDetected}
 ```
@@ -133,7 +133,7 @@ public static final int YesAutoReturnLightDetected
 ```
 
 
-تم تشغيل الفلاش، وضع تلقائي، تم اكتشاف الضوء العائد.
+أُطلق الفلاش، وضع تلقائي، تم اكتشاف ضوء الإرجاع.
 
 ### NoFlashFunction {#NoFlashFunction}
 ```

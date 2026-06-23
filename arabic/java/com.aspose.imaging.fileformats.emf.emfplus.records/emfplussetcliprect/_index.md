@@ -7,7 +7,7 @@ weight: 56
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusClippingRecordType](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusclippingrecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusClippingRecordType](../../com.aspose.imaging/fileformats.emf.emfplus.records/emfplusclippingrecordtype)
 ```
 public final class EmfPlusSetClipRect extends EmfPlusClippingRecordType
 ```
@@ -17,22 +17,22 @@ public final class EmfPlusSetClipRect extends EmfPlusClippingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetClipRect(EmfPlusRecord source)](#EmfPlusSetClipRect-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSetClipRect`. |
+| [EmfPlusSetClipRect(EmfPlusRecord source)](#EmfPlusSetClipRect-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetClipRect`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCm()](#getCm--) | يحصل أو يعيّن قيمة CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. |
-| [setCm(byte value)](#setCm-byte-) | يحصل أو يعيّن قيمة CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. |
-| [getClipRect()](#getClipRect--) | يحصل أو يعيّن كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode. |
-| [setClipRect(RectangleF value)](#setClipRect-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode. |
+| [getCm()](#getCm--) | يحصل أو يعيّن الـ CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. |
+| [setCm(byte value)](#setCm-byte-) | يحصل أو يعيّن الـ CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. |
+| [getClipRect()](#getClipRect--) | يحصل أو يضبط كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode. |
+| [setClipRect(RectangleF value)](#setClipRect-com.aspose.imaging.RectangleF-) | يحصل أو يضبط كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode. |
 ### EmfPlusSetClipRect(EmfPlusRecord source) {#EmfPlusSetClipRect-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetClipRect(EmfPlusRecord source)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSetClipRect`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetClipRect`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,9 +45,9 @@ public byte getCm()
 ```
 
 
-يحصل أو يعيّن قيمة CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. راجع تعداد CombineMode (القسم 2.1.1.4) لمعاني القيم.
+يحصل أو يعيّن الـ CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. راجع تعداد CombineMode (القسم 2.1.1.4) لمعرفة معاني القيم.
 
-القيمة: cm.
+القيمة: الـ cm.
 
 **Returns:**
 byte
@@ -57,14 +57,14 @@ public void setCm(byte value)
 ```
 
 
-يحصل أو يعيّن قيمة CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. راجع تعداد CombineMode (القسم 2.1.1.4) لمعاني القيم.
+يحصل أو يعيّن الـ CM (4 بت): يحدد العملية المنطقية لدمج منطقتين. راجع تعداد CombineMode (القسم 2.1.1.4) لمعرفة معاني القيم.
 
-القيمة: cm.
+القيمة: الـ cm.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getClipRect() {#getClipRect--}
 ```
@@ -72,7 +72,7 @@ public RectangleF getClipRect()
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode.
+يحصل أو يضبط كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -82,7 +82,7 @@ public void setClipRect(RectangleF value)
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode.
+يحصل أو يضبط كائن EmfPlusRectF (القسم 2.2.2.39) الذي يحدد المستطيل المستخدم في عملية CombineMode.
 
 **Parameters:**
 | معامل | نوع | الوصف |

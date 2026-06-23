@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.emf.graphics/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [EmfRecorderGraphics2D](../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) | رسومات مسجل Emf |
-| [MetafileRecorderGraphics2D](../com.aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d) | رسومات مسجل ملفات التعريف |
+| [MetafileRecorderGraphics2D](../com.aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d) | رسومات مسجل ملفات ميتا |

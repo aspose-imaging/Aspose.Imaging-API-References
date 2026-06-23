@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorBlendExtensions
 ```
 
-يحتوي على أساليب امتداد `ColorBlend`.
+يحتوي على طرق امتداد `ColorBlend`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public static System.Drawing.Drawing2D.ColorBlend toGdiColorBlend(ColorBlend col
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| colorBlend | [ColorBlend](../../com.aspose.imaging/colorblend) | دمج الألوان. |
+| colorBlend | [ColorBlend](../../com.aspose.imaging/colorblend) | خلط الألوان. |
 
 **Returns:**
 [ColorBlend](../../com.aspose.ms.system.drawing.drawing2d/colorblend) - The converted `System.Drawing.Drawing2D.ColorBlend`.

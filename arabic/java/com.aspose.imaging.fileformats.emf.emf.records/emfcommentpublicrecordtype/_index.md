@@ -12,22 +12,22 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfCommentPublicRecordType extends EmfCommentRecordType
 ```
 
-أنواع سجلات EMR_COMMENT_PUBLIC تحدد امتدادات لمعالجة EMF.
+أنواع سجلات EMR\_COMMENT\_PUBLIC تحدد امتدادات لمعالجة EMF.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCommentIdentifier()](#getCommentIdentifier--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد هذا السجل التعليقي على أنه يحدد بيانات عامة. |
-| [setCommentIdentifier(int value)](#setCommentIdentifier-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد هذا السجل التعليقي على أنه يحدد بيانات عامة. |
-| [getPublicCommentIdentifier()](#getPublicCommentIdentifier--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. |
-| [setPublicCommentIdentifier(long value)](#setPublicCommentIdentifier-long-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. |
+| [getCommentIdentifier()](#getCommentIdentifier--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد أن سجل التعليق هذا يحدد بيانات عامة. |
+| [setCommentIdentifier(int value)](#setCommentIdentifier-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد أن سجل التعليق هذا يحدد بيانات عامة. |
+| [getPublicCommentIdentifier()](#getPublicCommentIdentifier--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. |
+| [setPublicCommentIdentifier(long value)](#setPublicCommentIdentifier-long-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. |
 ### getCommentIdentifier() {#getCommentIdentifier--}
 ```
 public int getCommentIdentifier()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد هذا السجل التعليقي على أنه يحدد بيانات عامة. القيمة 0x43494447، التي هي السلسلة ASCII \"CIDG\"، تحدد هذا كسجل EMR\\_COMMENT\\_PUBLIC.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد أن سجل التعليق هذا يحدد بيانات عامة. القيمة 0x43494447، التي هي السلسلة ASCII \"CIDG\"، تحدد هذا كسجل EMR\\_COMMENT\\_PUBLIC.
 
 **Returns:**
 int
@@ -37,12 +37,12 @@ public void setCommentIdentifier(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد هذا السجل التعليقي على أنه يحدد بيانات عامة. القيمة 0x43494447، التي هي السلسلة ASCII \"CIDG\"، تحدد هذا كسجل EMR\\_COMMENT\\_PUBLIC.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد أن سجل التعليق هذا يحدد بيانات عامة. القيمة 0x43494447، التي هي السلسلة ASCII \"CIDG\"، تحدد هذا كسجل EMR\\_COMMENT\\_PUBLIC.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPublicCommentIdentifier() {#getPublicCommentIdentifier--}
 ```
@@ -50,7 +50,7 @@ public long getPublicCommentIdentifier()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. يجب أن تكون هذه القيمة واحدة من القيم المذكورة في الجدول السابق، والتي تم تحديدها في تعداد EmrComment (القسم 2.1.10)، ما لم يتم تنفيذ أنواع إضافية من سجلات التعليق العام على خادم الطباعة.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. يجب أن تكون هذه إحدى القيم المذكورة في الجدول السابق، والتي تم تحديدها في تعداد EmrComment (القسم 2.1.10)، ما لم يتم تنفيذ أنواع إضافية من سجلات التعليق العامة على خادم الطباعة.
 
 **Returns:**
 long
@@ -60,10 +60,10 @@ public void setPublicCommentIdentifier(long value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. يجب أن تكون هذه القيمة واحدة من القيم المذكورة في الجدول السابق، والتي تم تحديدها في تعداد EmrComment (القسم 2.1.10)، ما لم يتم تنفيذ أنواع إضافية من سجلات التعليق العام على خادم الطباعة.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد نوع سجل التعليق العام. يجب أن تكون هذه إحدى القيم المذكورة في الجدول السابق، والتي تم تحديدها في تعداد EmrComment (القسم 2.1.10)، ما لم يتم تنفيذ أنواع إضافية من سجلات التعليق العامة على خادم الطباعة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 

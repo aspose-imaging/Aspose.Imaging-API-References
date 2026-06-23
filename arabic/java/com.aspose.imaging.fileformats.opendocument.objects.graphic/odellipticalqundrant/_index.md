@@ -1,43 +1,43 @@
 ---
 title: "OdEllipticalQundrant"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الربع الإهليلجي"
+description: "الرباعية الإهليلجية"
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdEllipticalQundrant extends OdGraphicObject
 ```
 
-الربع الإهليلجي
+الرباعية الإهليلجية
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdEllipticalQundrant(OdObject parent)](#OdEllipticalQundrant-com.aspose.imaging.fileformats.opendocument.OdObject-) | إنشاء مثيل جديد من الفئة `OdEllipticalQundrant`. |
+| [OdEllipticalQundrant(OdObject parent)](#OdEllipticalQundrant-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdEllipticalQundrant`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPoint()](#getPoint--) | الحصول على أو تعيين النقطة. |
-| [setPoint(PointF value)](#setPoint-com.aspose.imaging.PointF-) | الحصول على أو تعيين النقطة. |
-| [getAxisX()](#getAxisX--) | الحصول أو تعيين قيمة تشير إلى ما إذا كان [axis x]. |
-| [setAxisX(boolean value)](#setAxisX-boolean-) | الحصول أو تعيين قيمة تشير إلى ما إذا كان [axis x]. |
+| [getPoint()](#getPoint--) | يحصل أو يعيّن النقطة. |
+| [setPoint(PointF value)](#setPoint-com.aspose.imaging.PointF-) | يحصل أو يعيّن النقطة. |
+| [getAxisX()](#getAxisX--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان [axis x]. |
+| [setAxisX(boolean value)](#setAxisX-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان [axis x]. |
 ### OdEllipticalQundrant(OdObject parent) {#OdEllipticalQundrant-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdEllipticalQundrant(OdObject parent)
 ```
 
 
-إنشاء مثيل جديد من الفئة `OdEllipticalQundrant`.
+يُنشئ مثيلًا جديدًا من الفئة `OdEllipticalQundrant`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getPoint() {#getPoint--}
 ```
@@ -45,7 +45,7 @@ public PointF getPoint()
 ```
 
 
-الحصول على أو تعيين النقطة.
+يحصل أو يعيّن النقطة.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point.
@@ -55,7 +55,7 @@ public void setPoint(PointF value)
 ```
 
 
-الحصول على أو تعيين النقطة.
+يحصل أو يعيّن النقطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -68,20 +68,20 @@ public boolean getAxisX()
 ```
 
 
-الحصول أو تعيين قيمة تشير إلى ما إذا كان [axis x].
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان [axis x].
 
 **Returns:**
-boolean - `true` إذا كان [axis x]؛ وإلا `false`.
+منطقي - `true` إذا كان [axis x]؛ وإلا `false`.
 ### setAxisX(boolean value) {#setAxisX-boolean-}
 ```
 public void setAxisX(boolean value)
 ```
 
 
-الحصول أو تعيين قيمة تشير إلى ما إذا كان [axis x].
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان [axis x].
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان [axis x]؛ وإلا `false`. |
+| value | boolean | `true` إذا كان [axis x]؛ وإلا `false`. |
 

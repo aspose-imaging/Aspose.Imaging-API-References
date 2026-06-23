@@ -1,7 +1,7 @@
 ---
 title: "CdrUdta"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr udta"
+description: "udta cdr"
 type: docs
 weight: 43
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrudta/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrUdta extends CdrObjectContainer
 ```
 
-ال cdr udta
+udta cdr
 ## المنشئات
 
 | المنشئ | الوصف |

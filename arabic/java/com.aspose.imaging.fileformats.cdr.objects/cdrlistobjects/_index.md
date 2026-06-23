@@ -1,7 +1,7 @@
 ---
 title: "CdrListObjects"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr قائمة كائنات"
+description: "كائنات قائمة cdr"
 type: docs
 weight: 25
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrlistobjects/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrListObjects extends CdrObjectContainer
 ```
 
-ال cdr قائمة كائنات
+كائنات قائمة cdr
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CdrListObjects()](#CdrListObjects--) | يُنشئ مثيلًا جديدًا من الفئة [CdrListObjects](../../com.aspose.imaging.fileformats.cdr.objects/cdrlistobjects) class. |
+| [CdrListObjects()](#CdrListObjects--) | ينشئ مثيلًا جديدًا من الفئة [CdrListObjects](../../com.aspose.imaging.fileformats.cdr.objects/cdrlistobjects) class. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,19 +30,19 @@ public class CdrListObjects extends CdrObjectContainer
 | [setFillId(int value)](#setFillId-int-) | يضبط معرف التعبئة. |
 | [getOpacityFillId()](#getOpacityFillId--) | يحصل على معرف تعبئة الشفافية. |
 | [setOpacityFillId(int value)](#setOpacityFillId-int-) | يضبط معرف تعبئة الشفافية. |
-| [getOutLineId()](#getOutLineId--) | يحصل على معرف الحدود. |
-| [setOutLineId(int value)](#setOutLineId-int-) | يضبط معرف الحدود. |
+| [getOutLineId()](#getOutLineId--) | يحصل على معرف المخطط. |
+| [setOutLineId(int value)](#setOutLineId-int-) | يضبط معرف المخطط. |
 | [getStyleId()](#getStyleId--) | يحصل على معرف النمط. |
 | [setStyleId(int value)](#setStyleId-int-) | يضبط معرف النمط. |
 | [getOpacity()](#getOpacity--) | يحصل على الشفافية. |
-| [setOpacity(double value)](#setOpacity-double-) | يعيّن الشفافية. |
+| [setOpacity(double value)](#setOpacity-double-) | يضبط الشفافية. |
 ### CdrListObjects() {#CdrListObjects--}
 ```
 public CdrListObjects()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [CdrListObjects](../../com.aspose.imaging.fileformats.cdr.objects/cdrlistobjects) class.
+ينشئ مثيلًا جديدًا من الفئة [CdrListObjects](../../com.aspose.imaging.fileformats.cdr.objects/cdrlistobjects) class.
 
 ### getPageWidth() {#getPageWidth--}
 ```
@@ -65,7 +65,7 @@ public final void setPageWidth(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | عرض الصفحة. |
+| value | double | عرض الصفحة. |
 
 ### getPageHeight() {#getPageHeight--}
 ```
@@ -88,7 +88,7 @@ public final void setPageHeight(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | ارتفاع الصفحة. |
+| value | double | ارتفاع الصفحة. |
 
 ### getFillId() {#getFillId--}
 ```
@@ -111,7 +111,7 @@ public final void setFillId(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف التعبئة. |
+| value | int | معرف التعبئة. |
 
 ### getOpacityFillId() {#getOpacityFillId--}
 ```
@@ -138,7 +138,7 @@ public final void setOpacityFillId(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف تعبئة الشفافية. |
+| value | int | معرف تعبئة الشفافية. |
 
 ### getOutLineId() {#getOutLineId--}
 ```
@@ -146,22 +146,22 @@ public final int getOutLineId()
 ```
 
 
-يحصل على معرف الحدود.
+يحصل على معرف المخطط.
 
 **Returns:**
-int - معرف الحدود.
+int - معرف المخطط.
 ### setOutLineId(int value) {#setOutLineId-int-}
 ```
 public final void setOutLineId(int value)
 ```
 
 
-يضبط معرف الحدود.
+يضبط معرف المخطط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف الحدود. |
+| value | int | معرف المخطط. |
 
 ### getStyleId() {#getStyleId--}
 ```
@@ -184,7 +184,7 @@ public final void setStyleId(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف النمط. |
+| value | int | معرف النمط. |
 
 ### getOpacity() {#getOpacity--}
 ```
@@ -195,17 +195,17 @@ public final double getOpacity()
 يحصل على الشفافية.
 
 **Returns:**
-double - الشفافية.
+double - التعتيم.
 ### setOpacity(double value) {#setOpacity-double-}
 ```
 public final void setOpacity(double value)
 ```
 
 
-يعيّن الشفافية.
+يضبط الشفافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الشفافية. |
+| value | double | الشفافية. |
 

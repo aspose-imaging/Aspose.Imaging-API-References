@@ -12,23 +12,23 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class PenAlignment extends System.Enum
 ```
 
-يحدد محاذاة كائن `Pen` بالنسبة إلى الخط النظري ذي العرض الصفري.
+يحدد محاذاة كائن `Pen` بالنسبة للخط النظري ذي العرض الصفري.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Center](#Center) | يحدد أن كائن `Pen` مركّز فوق الخط النظري. |
+| [Center](#Center) | يحدد أن كائن `Pen` متمركز فوق الخط النظري. |
 | [Inset](#Inset) | يحدد أن `Pen` موضعه داخل الخط النظري. |
 | [Outset](#Outset) | يحدد أن `Pen` موضعه خارج الخط النظري. |
-| [Left](#Left) | يحدد أن `Pen` موضعه إلى اليسار من الخط النظري. |
-| [Right](#Right) | يحدد أن `Pen` موضعه إلى اليمين من الخط النظري. |
+| [Left](#Left) | يحدد أن `Pen` موضعه إلى يسار الخط النظري. |
+| [Right](#Right) | يحدد أن `Pen` موضعه إلى يمين الخط النظري. |
 ### Center {#Center}
 ```
 public static final int Center
 ```
 
 
-يحدد أن كائن `Pen` مركّز فوق الخط النظري.
+يحدد أن كائن `Pen` متمركز فوق الخط النظري.
 
 ### Inset {#Inset}
 ```
@@ -52,7 +52,7 @@ public static final int Left
 ```
 
 
-يحدد أن `Pen` موضعه إلى اليسار من الخط النظري.
+يحدد أن `Pen` موضعه إلى يسار الخط النظري.
 
 ### Right {#Right}
 ```
@@ -60,5 +60,5 @@ public static final int Right
 ```
 
 
-يحدد أن `Pen` موضعه إلى اليمين من الخط النظري.
+يحدد أن `Pen` موضعه إلى يمين الخط النظري.
 

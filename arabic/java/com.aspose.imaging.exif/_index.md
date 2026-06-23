@@ -12,13 +12,13 @@ url: /ar/java/com.aspose.imaging.exif/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ExifData](../com.aspose.imaging.exif/exifdata) | حاوية بيانات EXIF. |
 | [ExifProperties](../com.aspose.imaging.exif/exifproperties) | قائمة وسوم Exif |
 | [JpegExifData](../com.aspose.imaging.exif/jpegexifdata) | حاوية بيانات EXIF لملفات jpeg. |
-| [MakerNote](../com.aspose.imaging.exif/makernote) | يمثل سجل Maker Note واحد. |
-| [TiffDataTypeController](../com.aspose.imaging.exif/tiffdatatypecontroller) | يمثل الفئة العامة للعمل مع أنواع بيانات tiff. |
+| [MakerNote](../com.aspose.imaging.exif/makernote) | يمثل سجل ملاحظة صانع واحد. |
+| [TiffDataTypeController](../com.aspose.imaging.exif/tiffdatatypecontroller) | يمثل فئة عامة للعمل مع أنواع بيانات tiff. |
 
 ## الواجهات
 

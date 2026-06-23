@@ -22,10 +22,10 @@ public final class EmfPlusCustomLineCap extends EmfPlusGraphicsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getType()](#getType--) | يسترجع أو يعيّن عدد صحيح موقع 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData. |
-| [setType(int value)](#setType-int-) | يسترجع أو يعيّن عدد صحيح موقع 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData. |
-| [getCustomLineCapData()](#getCustomLineCapData--) | يسترجع أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. |
-| [setCustomLineCapData(EmfPlusCustomBaseLineCap value)](#setCustomLineCapData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomBaseLineCap-) | يسترجع أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. |
+| [getType()](#getType--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData. |
+| [setType(int value)](#setType-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData. |
+| [getCustomLineCapData()](#getCustomLineCapData--) | يحصل أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. |
+| [setCustomLineCapData(EmfPlusCustomBaseLineCap value)](#setCustomLineCapData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomBaseLineCap-) | يحصل أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. |
 ### EmfPlusCustomLineCap() {#EmfPlusCustomLineCap--}
 ```
 public EmfPlusCustomLineCap()
@@ -38,7 +38,7 @@ public int getType()
 ```
 
 
-يسترجع أو يعيّن عدد صحيح موقع 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData.
+يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData.
 
 **Returns:**
 int
@@ -48,12 +48,12 @@ public void setType(int value)
 ```
 
 
-يسترجع أو يعيّن عدد صحيح موقع 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData.
+يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد نوع كائن القمة الخطية المخصصة، والذي يحدد محتويات حقل CustomLineCapData.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCustomLineCapData() {#getCustomLineCapData--}
 ```
@@ -61,7 +61,7 @@ public EmfPlusCustomBaseLineCap getCustomLineCapData()
 ```
 
 
-يسترجع أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع من أنواع القمة الخطية المخصصة.
+يحصل أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع من أنواع القمة الخطية المخصصة.
 
 **Returns:**
 [EmfPlusCustomBaseLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustombaselinecap)
@@ -71,7 +71,7 @@ public void setCustomLineCapData(EmfPlusCustomBaseLineCap value)
 ```
 
 
-يسترجع أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع من أنواع القمة الخطية المخصصة.
+يحصل أو يعيّن بيانات ذات طول متغيّر تُعرّف كائن بيانات القمة الخطية المخصصة المحدد في حقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع من أنواع القمة الخطية المخصصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

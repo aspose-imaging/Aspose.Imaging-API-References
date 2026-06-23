@@ -1,18 +1,18 @@
 ---
 title: "WmfUntyped"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن wmf غير مكتوب النوع"
+description: "كائن wmf غير مكتوب."
 type: docs
 weight: 96
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfUntyped extends WmfObject
 ```
 
-كائن wmf غير مكتوب النوع
+كائن wmf غير مكتوب.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -55,5 +55,5 @@ public void setParameters(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 

@@ -20,8 +20,8 @@ public class ResolutionSetting implements Serializable
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ResolutionSetting()](#ResolutionSetting--) | ينشئ مثيلاً جديداً من الفئة `ResolutionSetting`. |
-| [ResolutionSetting(double horizontalResolution, double verticalResolution)](#ResolutionSetting-double-double-) | ينشئ مثيلاً جديداً من الفئة `ResolutionSetting`. |
+| [ResolutionSetting()](#ResolutionSetting--) | ينشئ مثيلاً جديدًا من الفئة `ResolutionSetting`. |
+| [ResolutionSetting(double horizontalResolution, double verticalResolution)](#ResolutionSetting-double-double-) | ينشئ مثيلاً جديدًا من الفئة `ResolutionSetting`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -36,7 +36,7 @@ public ResolutionSetting()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `ResolutionSetting`.
+ينشئ مثيلاً جديدًا من الفئة `ResolutionSetting`.
 
 ### ResolutionSetting(double horizontalResolution, double verticalResolution) {#ResolutionSetting-double-double-}
 ```
@@ -44,7 +44,7 @@ public ResolutionSetting(double horizontalResolution, double verticalResolution)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `ResolutionSetting`.
+ينشئ مثيلاً جديدًا من الفئة `ResolutionSetting`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -73,7 +73,7 @@ public void setHorizontalResolution(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -96,5 +96,5 @@ public void setVerticalResolution(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 

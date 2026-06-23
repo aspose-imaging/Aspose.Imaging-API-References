@@ -33,9 +33,9 @@ public final class CdrColorModel extends System.Enum
 | [LabX12](#LabX12) | مخطط الألوان lab |
 | [LabX0C](#LabX0C) | مخطط الألوان lab |
 | [Rgb255](#Rgb255) | ال RGB255 |
-| [PaletteX19](#PaletteX19) | اللوحة |
-| [PaletteX1E](#PaletteX1E) | اللوحة |
-| [Model0x0e](#Model0x0e) | ال model0e |
+| [PaletteX19](#PaletteX19) | لوحة الألوان |
+| [PaletteX1E](#PaletteX1E) | لوحة الألوان |
+| [Model0x0e](#Model0x0e) | النموذج0e |
 ### Cmyk100X01 {#Cmyk100X01}
 ```
 public static final int Cmyk100X01
@@ -170,7 +170,7 @@ public static final int PaletteX19
 ```
 
 
-اللوحة
+لوحة الألوان
 
 ### PaletteX1E {#PaletteX1E}
 ```
@@ -178,7 +178,7 @@ public static final int PaletteX1E
 ```
 
 
-اللوحة
+لوحة الألوان
 
 ### Model0x0e {#Model0x0e}
 ```
@@ -186,5 +186,5 @@ public static final int Model0x0e
 ```
 
 
-ال model0e
+النموذج0e
 

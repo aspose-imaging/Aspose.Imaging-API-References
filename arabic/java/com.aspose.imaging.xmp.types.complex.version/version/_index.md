@@ -1,5 +1,5 @@
 ---
-title: "الإصدار"
+title: "Version"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يصف نسخة واحدة من مستند."
 type: docs
@@ -17,7 +17,7 @@ public final class Version extends ComplexTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Version()](#Version--) | يُهيئ نسخة جديدة من الفئة `Version`. |
+| [Version()](#Version--) | يُهيئ مثيلًا جديدًا للفئة `Version`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -39,7 +39,7 @@ public Version()
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `Version`.
+يُهيئ مثيلًا جديدًا للفئة `Version`.
 
 ### getComments() {#getComments--}
 ```
@@ -62,7 +62,7 @@ public void setComments(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | التعليقات. |
+| value | java.lang.String | التعليقات. |
 
 ### getVersionEvent() {#getVersionEvent--}
 ```
@@ -108,7 +108,7 @@ public void setModifier(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | المعدل. |
+| value | java.lang.String | المعدل. |
 
 ### getModifiedDate() {#getModifiedDate--}
 ```
@@ -131,7 +131,7 @@ public void setModifiedDate(Date value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.Date | تاريخ التعديل. |
+| value | java.util.Date | تاريخ التعديل. |
 
 ### getVersionText() {#getVersionText--}
 ```
@@ -154,7 +154,7 @@ public void setVersionText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | نص الإصدار. |
+| value | java.lang.String | نص الإصدار. |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

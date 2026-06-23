@@ -12,28 +12,28 @@ java.lang.Object, java.lang.Throwable, java.lang.Error, java.lang.VirtualMachine
 public class LimitMemoryException extends System.OutOfMemoryException
 ```
 
-استثناء حد الذاكرة. يحدث عندما يجب تقليل استخدام الذاكرة.
+استثناء الذاكرة المحدودة. يحدث عندما يجب تقليل استخدام الذاكرة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LimitMemoryException(String message)](#LimitMemoryException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`. |
-| [LimitMemoryException(String message, Throwable innerException)](#LimitMemoryException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`. |
-| [LimitMemoryException(String message, long reduceMemoryFactor)](#LimitMemoryException-java.lang.String-long-) | ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`. |
-| [LimitMemoryException(String message, Throwable innerException, int reduceMemoryFactor)](#LimitMemoryException-java.lang.String-java.lang.Throwable-int-) | ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`. |
+| [LimitMemoryException(String message)](#LimitMemoryException-java.lang.String-) | يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`. |
+| [LimitMemoryException(String message, Throwable innerException)](#LimitMemoryException-java.lang.String-java.lang.Throwable-) | يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`. |
+| [LimitMemoryException(String message, long reduceMemoryFactor)](#LimitMemoryException-java.lang.String-long-) | يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`. |
+| [LimitMemoryException(String message, Throwable innerException, int reduceMemoryFactor)](#LimitMemoryException-java.lang.String-java.lang.Throwable-int-) | يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getReduceMemoryFactor()](#getReduceMemoryFactor--) | يحصل أو يضبط عامل تقليل الذاكرة. |
-| [setReduceMemoryFactor(long value)](#setReduceMemoryFactor-long-) | يحصل أو يضبط عامل تقليل الذاكرة. |
+| [getReduceMemoryFactor()](#getReduceMemoryFactor--) | يحصل أو يعيّن عامل تقليل الذاكرة. |
+| [setReduceMemoryFactor(long value)](#setReduceMemoryFactor-long-) | يحصل أو يعيّن عامل تقليل الذاكرة. |
 ### LimitMemoryException(String message) {#LimitMemoryException-java.lang.String-}
 ```
 public LimitMemoryException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`.
+يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public LimitMemoryException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`.
+يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,7 +60,7 @@ public LimitMemoryException(String message, long reduceMemoryFactor)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`.
+يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public LimitMemoryException(String message, Throwable innerException, int reduce
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `LimitMemoryException`.
+يقوم بإنشاء نسخة جديدة من الفئة `LimitMemoryException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -89,7 +89,7 @@ public long getReduceMemoryFactor()
 ```
 
 
-يحصل أو يضبط عامل تقليل الذاكرة.
+يحصل أو يعيّن عامل تقليل الذاكرة.
 
 القيمة: عامل تقليل الذاكرة.
 
@@ -101,12 +101,12 @@ public void setReduceMemoryFactor(long value)
 ```
 
 
-يحصل أو يضبط عامل تقليل الذاكرة.
+يحصل أو يعيّن عامل تقليل الذاكرة.
 
 القيمة: عامل تقليل الذاكرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 

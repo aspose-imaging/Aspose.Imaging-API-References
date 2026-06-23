@@ -1,7 +1,7 @@
 ---
 title: "ClaheFilterOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يوفر خيارات لتكوين مرشح Contrast-Limited Adaptive Histogram Equalization CLAHE."
+description: "يوفر خيارات لتكوين مرشح تساوي التدرج التكيفي المحدود بالتباين CLAHE."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions/
@@ -21,7 +21,7 @@ public class ClaheFilterOptions extends FilterOptionsBase
 | [ClaheFilterOptions(boolean isGrayscale)](#ClaheFilterOptions-boolean-) |  |
 | [ClaheFilterOptions(boolean isGrayscale, int tilesNumberHorizontal)](#ClaheFilterOptions-boolean-int-) |  |
 | [ClaheFilterOptions(boolean isGrayscale, int tilesNumberHorizontal, int tilesNumberVertical)](#ClaheFilterOptions-boolean-int-int-) |  |
-| [ClaheFilterOptions(boolean isGrayscale, int tilesNumberHorizontal, int tilesNumberVertical, double clipLimit)](#ClaheFilterOptions-boolean-int-int-double-) | ينشئ مثيلاً جديدًا من الفئة [ClaheFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) باستخدام المعلمات المحددة. |
+| [ClaheFilterOptions(boolean isGrayscale, int tilesNumberHorizontal, int tilesNumberVertical, double clipLimit)](#ClaheFilterOptions-boolean-int-int-double-) | ينشئ مثيلًا جديدًا من الفئة [ClaheFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) بالمعلمات المحددة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -78,7 +78,7 @@ public ClaheFilterOptions(boolean isGrayscale, int tilesNumberHorizontal, int ti
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [ClaheFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) باستخدام المعلمات المحددة.
+ينشئ مثيلًا جديدًا من الفئة [ClaheFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/clahefilteroptions) بالمعلمات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -97,14 +97,14 @@ public final boolean isGrayscale()
 يحصل على قيمة تشير إلى ما إذا كان المرشح يعمل في وضع التدرج الرمادي.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان المرشح يعمل في وضع التدرج الرمادي.
+منطقي - قيمة تشير إلى ما إذا كان المرشح يعمل في وضع التدرج الرمادي.
 ### getTilesNumberHorizontal() {#getTilesNumberHorizontal--}
 ```
 public final int getTilesNumberHorizontal()
 ```
 
 
-يحصل على عدد البلاطات في الاتجاه الأفقي. يحدد عدد المناطق التي يتم تقسيم الصورة إليها أفقيًا لتساوي التباين المحلي.
+يحصل على عدد البلاطات في الاتجاه الأفقي. يحدد عدد المناطق التي تُقسم الصورة إليها أفقيًا لتسوية التباين المحلي.
 
 **Returns:**
 int - عدد البلاطات في الاتجاه الأفقي.
@@ -114,7 +114,7 @@ public final int getTilesNumberVertical()
 ```
 
 
-يحصل على عدد البلاطات في الاتجاه العمودي. يحدد عدد المناطق التي يتم تقسيم الصورة إليها عموديًا لتساوي التباين المحلي.
+يحصل على عدد البلاطات في الاتجاه العمودي. يحدد عدد المناطق التي تُقسم الصورة إليها عموديًا لتسوية التباين المحلي.
 
 **Returns:**
 int - عدد البلاطات في الاتجاه العمودي.

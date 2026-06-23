@@ -12,26 +12,26 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class GuidPacketRepresentation extends Struct<GuidPacketRepresentation>
 ```
 
-يُستخدم إصدار الحزمة داخل بروتوكولات الكتلة. تمثل المخططات التالية GUID كسلسلة بايت غير شفافة. GUID، المعروف أيضًا باسم UUID، هو بنية مكونة من 16 بايت، تهدف إلى أن تكون معرفًا فريدًا لكائن. هناك ثلاث تمثيلات لـ GUID، كما هو موضح في الأقسام التالية.
+يتم استخدام إصدار الحزمة ضمن بروتوكولات الكتلة. يوضح المخطط التالي تمثيل GUID كسلسلة شفافة من البايتات. GUID، المعروف أيضًا باسم UUID، هو بنية مكونة من 16 بايت، تهدف إلى أن تكون معرفًا فريدًا لكائن. هناك ثلاثة تمثيلات لـ GUID، كما هو موضح في الأقسام التالية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
 | [GuidPacketRepresentation()](#GuidPacketRepresentation--) |  |
-| [GuidPacketRepresentation(int data1, short data2, short data3, long data4)](#GuidPacketRepresentation-int-short-short-long-) | يُنشئ مثيلاً جديدًا من البنية `GuidPacketRepresentation`. |
+| [GuidPacketRepresentation(int data1, short data2, short data3, long data4)](#GuidPacketRepresentation-int-short-short-long-) | يقوم بإنشاء نسخة جديدة من البنية `GuidPacketRepresentation`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getData1()](#getData1--) | يحصل أو يضبط قيمة العضو Data1 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [setData1(int value)](#setData1-int-) | يحصل أو يضبط قيمة العضو Data1 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [getData2()](#getData2--) | يحصل أو يضبط قيمة العضو Data2 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [setData2(short value)](#setData2-short-) | يحصل أو يضبط قيمة العضو Data2 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [getData3()](#getData3--) | يحصل أو يضبط قيمة العضو Data3 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [setData3(short value)](#setData3-short-) | يحصل أو يضبط قيمة العضو Data3 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [getData4()](#getData4--) | يحصل أو يضبط قيمة العضو Data4 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [setData4(long value)](#setData4-long-) | يحصل أو يضبط قيمة العضو Data4 (القسم 2.3.4)، بترتيب بايت little-endian. |
-| [toString()](#toString--) | يعيد `System.String` التي تمثل هذا المثيل. |
+| [getData1()](#getData1--) | يحصل أو يعيّن قيمة العضو Data1 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [setData1(int value)](#setData1-int-) | يحصل أو يعيّن قيمة العضو Data1 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [getData2()](#getData2--) | يحصل أو يعيّن قيمة العضو Data2 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [setData2(short value)](#setData2-short-) | يحصل أو يعيّن قيمة العضو Data2 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [getData3()](#getData3--) | يحصل أو يعيّن قيمة العضو Data3 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [setData3(short value)](#setData3-short-) | يحصل أو يعيّن قيمة العضو Data3 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [getData4()](#getData4--) | يحصل أو يعيّن قيمة العضو Data4 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [setData4(long value)](#setData4-long-) | يحصل أو يعيّن قيمة العضو Data4 (القسم 2.3.4)، بترتيب البايتات little-endian. |
+| [toString()](#toString--) | يعيد `System.String` الذي يمثل هذه الحالة. |
 | [CloneTo(GuidPacketRepresentation that)](#CloneTo-com.aspose.imaging.fileformats.emf.dtyp.commondatastructures.GuidPacketRepresentation-) |  |
 | [Clone()](#Clone--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -49,15 +49,15 @@ public GuidPacketRepresentation(int data1, short data2, short data3, long data4)
 ```
 
 
-يُنشئ مثيلاً جديدًا من البنية `GuidPacketRepresentation`.
+يقوم بإنشاء نسخة جديدة من البنية `GuidPacketRepresentation`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| data1 | int | البيان data1. |
-| data2 | short | البيان data2. |
-| data3 | short | البيان data3. |
-| data4 | long | البيان data4. |
+| data1 | int | الـ data1. |
+| data2 | قصير | الـ data2. |
+| data3 | قصير | الـ data3. |
+| data4 | long | الـ data4. |
 
 ### getData1() {#getData1--}
 ```
@@ -65,9 +65,9 @@ public int getData1()
 ```
 
 
-يحصل أو يضبط قيمة العضو Data1 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data1 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيان data1.
+القيمة: الـ data1.
 
 **Returns:**
 int
@@ -77,14 +77,14 @@ public void setData1(int value)
 ```
 
 
-يحصل أو يضبط قيمة العضو Data1 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data1 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيان data1.
+القيمة: الـ data1.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getData2() {#getData2--}
 ```
@@ -92,26 +92,26 @@ public short getData2()
 ```
 
 
-يحصل أو يضبط قيمة العضو Data2 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data2 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيانات2.
+القيمة: الـ data2.
 
 **Returns:**
-short
+قصير
 ### setData2(short value) {#setData2-short-}
 ```
 public void setData2(short value)
 ```
 
 
-يحصل أو يضبط قيمة العضو Data2 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data2 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيانات2.
+القيمة: الـ data2.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getData3() {#getData3--}
 ```
@@ -119,26 +119,26 @@ public short getData3()
 ```
 
 
-يحصل أو يضبط قيمة العضو Data3 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data3 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيانات3.
+القيمة: الـ data3.
 
 **Returns:**
-short
+قصير
 ### setData3(short value) {#setData3-short-}
 ```
 public void setData3(short value)
 ```
 
 
-يحصل أو يضبط قيمة العضو Data3 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data3 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيانات3.
+القيمة: الـ data3.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getData4() {#getData4--}
 ```
@@ -146,9 +146,9 @@ public long getData4()
 ```
 
 
-يحصل أو يضبط قيمة العضو Data4 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data4 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيانات4.
+القيمة: الـ data4.
 
 **Returns:**
 long
@@ -158,14 +158,14 @@ public void setData4(long value)
 ```
 
 
-يحصل أو يضبط قيمة العضو Data4 (القسم 2.3.4)، بترتيب بايت little-endian.
+يحصل أو يعيّن قيمة العضو Data4 (القسم 2.3.4)، بترتيب البايتات little-endian.
 
-القيمة: البيانات4.
+القيمة: الـ data4.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### toString() {#toString--}
 ```
@@ -173,10 +173,10 @@ public String toString()
 ```
 
 
-يعيد `System.String` التي تمثل هذا المثيل.
+يعيد `System.String` الذي يمثل هذه الحالة.
 
 **Returns:**
-java.lang.String - `System.String` يمثل هذا المثيل.
+java.lang.String - `System.String` الذي يمثل هذه الحالة.
 ### CloneTo(GuidPacketRepresentation that) {#CloneTo-com.aspose.imaging.fileformats.emf.dtyp.commondatastructures.GuidPacketRepresentation-}
 ```
 public void CloneTo(GuidPacketRepresentation that)

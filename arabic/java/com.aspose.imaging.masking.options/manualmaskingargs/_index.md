@@ -26,14 +26,14 @@ public class ManualMaskingArgs implements IMaskingArgs
 | طريقة | الوصف |
 | --- | --- |
 | [getMask()](#getMask--) | يحصل على مجموعة الأشكال الرسومية التي تُشكل القناع. |
-| [setMask(GraphicsPath value)](#setMask-com.aspose.imaging.GraphicsPath-) | يضبط مجموعة الأشكال الرسومية التي تُشكل القناع. |
+| [setMask(GraphicsPath value)](#setMask-com.aspose.imaging.GraphicsPath-) | يضبط مجموعة الأشكال الرسومية التي تشكل القناع. |
 
 ## Example: This example shows how to decompose a raster image into multiple images using image masking and a manual mask.
-يوضح هذا المثال كيفية تفكيك صورة نقطية إلى عدة صور باستخدام قناع الصورة وقناع يدوي. يُعد قناع الصورة تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تفكيك صورة نقطية إلى صور متعددة باستخدام قناع الصورة وقناع يدوي. قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
-// عرّف قناعًا يدويًا.
+// حدد قناعًا يدويًا.
 com.aspose.imaging.GraphicsPath manualMask = new com.aspose.imaging.GraphicsPath();
 com.aspose.imaging.Figure figure = new com.aspose.imaging.Figure();
 figure.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 40, 40)));
@@ -51,14 +51,14 @@ try {
     // استخدم خوارزمية التجميع اليدوي.
     maskingOptions.setMethod(com.aspose.imaging.masking.options.SegmentationMethod.Manual);
 
-    // جميع الأشكال التي تُكوّن القناع ستُدمج في شكل واحد.
+    // جميع الأشكال التي تُكوّن القناع سيتم دمجها في واحد.
     maskingOptions.setDecompose(false);
     maskingOptions.setArgs(args);
 
-    // الحد الأقصى المتوقّع لحجم صورة PNG ذات اللون الحقيقي مع قناة ألفا.
+    // أقصى حجم متوقع لصورة PNG بنظام TrueColor مع قناة Alpha.
     int estimatedMaxImageSize = image.getWidth() * image.getHeight() * 4;
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource(new java.io.ByteArrayInputStream(new byte[estimatedMaxImageSize])));
@@ -67,10 +67,10 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // المنطقة في الصورة المصدر التي سيُطبق عليها القناع.
+    // منطقة صورة المصدر التي سيُطبق عليها القناع.
     maskingOptions.setMaskingArea(new com.aspose.imaging.Rectangle(50, 50, 120, 120));
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -122,7 +122,7 @@ public final void setMask(GraphicsPath value)
 ```
 
 
-يضبط مجموعة الأشكال الرسومية التي تُشكل القناع.
+يضبط مجموعة الأشكال الرسومية التي تشكل القناع.
 
 القيمة: القناع.
 

@@ -1,7 +1,7 @@
 ---
 title: "EmfPolyPolyShape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "فئة القاعدة EMF poly polyshape."
+description: "فئة قاعدة EMF poly polyshape."
 type: docs
 weight: 91
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolypolyshape/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPolyPolyShape extends EmfBoundedRecord
 ```
 
-فئة القاعدة EMF poly polyshape.
+فئة قاعدة EMF poly polyshape.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getAPoints()](#getAPoints--) | يحصل على مصفوفة من كائنات WMF PointS، المحددة في [MS-WMF] القسم 2.2.2.16، والتي تحدد مصفوفة النقاط. |
-| [setAPoints(Point[][] value)](#setAPoints-com.aspose.imaging.Point-----) | يعيّن مصفوفة من كائنات WMF PointS، المحددة في [MS-WMF] القسم 2.2.2.16، والتي تحدد مصفوفة النقاط. |
+| [setAPoints(Point[][] value)](#setAPoints-com.aspose.imaging.Point-----) | يحدد مصفوفة من كائنات WMF PointS، المحددة في [MS-WMF] القسم 2.2.2.16، والتي تحدد مصفوفة النقاط. |
 ### getAPoints() {#getAPoints--}
 ```
 public final Point[][] getAPoints()
@@ -35,7 +35,7 @@ public final void setAPoints(Point[][] value)
 ```
 
 
-يعيّن مصفوفة من كائنات WMF PointS، المحددة في [MS-WMF] القسم 2.2.2.16، والتي تحدد مصفوفة النقاط.
+يحدد مصفوفة من كائنات WMF PointS، المحددة في [MS-WMF] القسم 2.2.2.16، والتي تحدد مصفوفة النقاط.
 
 **Parameters:**
 | معامل | نوع | الوصف |

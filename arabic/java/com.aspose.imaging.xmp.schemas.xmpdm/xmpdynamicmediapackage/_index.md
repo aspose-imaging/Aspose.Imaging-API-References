@@ -1,18 +1,18 @@
 ---
 title: "XmpDynamicMediaPackage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل مساحة الاسم XMP Dynamic Media."
+description: "يمثل مساحة أسماء XMP للوسائط الديناميكية."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class XmpDynamicMediaPackage extends XmpPackage
 ```
 
-يمثل مساحة الاسم XMP Dynamic Media.
+يمثل مساحة أسماء XMP للوسائط الديناميكية.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -36,7 +36,7 @@ public final class XmpDynamicMediaPackage extends XmpPackage
 | [setCameraMove(String cameraMove)](#setCameraMove-java.lang.String-) | يضبط حركة الكاميرا. |
 | [setClient(String client)](#setClient-java.lang.String-) | يضبط العميل. |
 | [setComment(String comment)](#setComment-java.lang.String-) | يضبط التعليق. |
-| [setComposer(String composer)](#setComposer-java.lang.String-) | يضبط الملحن. |
+| [setComposer(String composer)](#setComposer-java.lang.String-) | يضبط المؤلف. |
 | [setDirector(String director)](#setDirector-java.lang.String-) | يضبط المخرج. |
 | [setDirectorPhotography(String directorPhotography)](#setDirectorPhotography-java.lang.String-) | يضبط مدير التصوير. |
 | [setDuration(Time duration)](#setDuration-com.aspose.imaging.xmp.schemas.xmpdm.Time-) | يضبط المدة. |
@@ -67,8 +67,8 @@ public void addValue(String key, String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه مع القيمة المضافة. |
-| القيمة | java.lang.String | القيمة النصية. |
+| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه بالقيمة المضافة. |
+| value | java.lang.String | القيمة النصية. |
 
 ### setAbsPeakAudioFilePath(String uri) {#setAbsPeakAudioFilePath-java.lang.String-}
 ```
@@ -94,7 +94,7 @@ public void setAlblum(String album)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| album | java.lang.String | الألبوم. |
+| ألبوم | java.lang.String | الألبوم. |
 
 ### setAltTapeName(String altTapeName) {#setAltTapeName-java.lang.String-}
 ```
@@ -133,7 +133,7 @@ public void setArtist(String artist)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| artist | java.lang.String | الفنان. |
+| فنان | java.lang.String | الفنان. |
 
 ### setAudioChannelType(AudioChannelType audioChannelType) {#setAudioChannelType-com.aspose.imaging.xmp.schemas.xmpdm.AudioChannelType-}
 ```
@@ -159,7 +159,7 @@ public void setAudioSampleRate(int rate)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rate | int | معدل عينة الصوت. |
+| معدل | int | معدل عينة الصوت. |
 
 ### setAudioSampleType(AudioSampleType audioSampleType) {#setAudioSampleType-com.aspose.imaging.xmp.schemas.xmpdm.AudioSampleType-}
 ```
@@ -198,7 +198,7 @@ public void setCameraLabel(String cameraLabel)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cameraLabel | java.lang.String | علامة الكاميرا. |
+| cameraLabel | java.lang.String | ملصق الكاميرا. |
 
 ### setCameraMove(String cameraMove) {#setCameraMove-java.lang.String-}
 ```
@@ -237,7 +237,7 @@ public void setComment(String comment)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| comment | java.lang.String | التعليق. |
+| تعليق | java.lang.String | التعليق. |
 
 ### setComposer(String composer) {#setComposer-java.lang.String-}
 ```
@@ -245,12 +245,12 @@ public void setComposer(String composer)
 ```
 
 
-يضبط الملحن.
+يضبط المؤلف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ملحن | java.lang.String | الملحن. |
+| composer | java.lang.String | الملحن. |
 
 ### setDirector(String director) {#setDirector-java.lang.String-}
 ```
@@ -263,7 +263,7 @@ public void setDirector(String director)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| مخرج | java.lang.String | المخرج. |
+| director | java.lang.String | المخرج. |
 
 ### setDirectorPhotography(String directorPhotography) {#setDirectorPhotography-java.lang.String-}
 ```
@@ -276,7 +276,7 @@ public void setDirectorPhotography(String directorPhotography)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| directorPhotography | java.lang.String | مخرج التصوير. |
+| directorPhotography | java.lang.String | مدير التصوير. |
 
 ### setDuration(Time duration) {#setDuration-com.aspose.imaging.xmp.schemas.xmpdm.Time-}
 ```
@@ -302,7 +302,7 @@ public void setEngineer(String engineer)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| مهندس | java.lang.String | المهندس. |
+| engineer | java.lang.String | المهندس. |
 
 ### setFileDataRate(Rational rate) {#setFileDataRate-com.aspose.imaging.xmp.types.derived.Rational-}
 ```
@@ -315,7 +315,7 @@ public void setFileDataRate(Rational rate)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rate | [Rational](../../com.aspose.imaging.xmp.types.derived/rational) | معدل بيانات الملف بالميغابيت في الثانية. |
+| rate | [Rational](../../com.aspose.imaging.xmp.types.derived/rational) | معدل بيانات الملف بالميغابايت في الثانية. |
 
 ### setGenre(String genre) {#setGenre-java.lang.String-}
 ```
@@ -328,7 +328,7 @@ public void setGenre(String genre)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نوع | java.lang.String | النوع. |
+| genre | java.lang.String | النوع. |
 
 ### setGood(boolean good) {#setGood-boolean-}
 ```
@@ -341,7 +341,7 @@ public void setGood(boolean good)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| جيد | boolean | إذا تم تعيينه إلى `true` فإن اللقطة تُحفظ. |
+| جيد | boolean | إذا تم تعيينه إلى `true` فإن اللقطة تكون محفوظة. |
 
 ### setInstrument(String instrument) {#setInstrument-java.lang.String-}
 ```
@@ -354,7 +354,7 @@ public void setInstrument(String instrument)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| آلة | java.lang.String | الآلة. |
+| instrument | java.lang.String | الأداة. |
 
 ### setIntroTime(Time introTime) {#setIntroTime-com.aspose.imaging.xmp.schemas.xmpdm.Time-}
 ```
@@ -380,7 +380,7 @@ public void setKey(String key)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المفتاح | java.lang.String | المفتاح الموسيقي للصوت\\u2019s. أحد: C, C\\#, D, D\\#, E, F, F\\#, G, G\\#, A, A\\#, و B. |
+| المفتاح | java.lang.String | المفتاح الموسيقي للصوت. أحد: C, C#, D, D#, E, F, F#, G, G#, A, A#, و B. |
 
 ### setLogComment(String comment) {#setLogComment-java.lang.String-}
 ```
@@ -393,5 +393,5 @@ public void setLogComment(String comment)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| comment | java.lang.String | التعليق. |
+| تعليق | java.lang.String | التعليق. |
 

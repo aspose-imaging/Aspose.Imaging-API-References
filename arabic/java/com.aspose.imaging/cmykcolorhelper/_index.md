@@ -12,43 +12,43 @@ java.lang.Object
 public final class CmykColorHelper
 ```
 
-طرق مساعدة للعمل مع لون CMYK المقدم كقيمة عدد صحيح 32-بت موقعة. يوفر واجهة برمجة تطبيقات مشابهة للهيكل [CmykColor](../../com.aspose.imaging/cmykcolor). إنه أخف وزنًا لأن لون CMYK يُقدم كـ Int32 فقط بدلاً من هيكل يحتوي على حقول داخلية. يرجى تفضيل استخدام الطرق الثابتة لهذه الفئة عندما يكون ذلك ممكنًا بدلاً من الهيكل [CmykColor](../../com.aspose.imaging/cmykcolor) المهمل.
+طرق مساعدة للعمل مع لون CMYK المقدم كقيمة عدد صحيح موقعة 32-بت. توفر واجهة برمجة تطبيقات مشابهة للهيكل [CmykColor](../../com.aspose.imaging/cmykcolor) struct. إنها أكثر خفةً لأن لون CMYK يُقدم كـ Int32 فقط بدلاً من هيكل يحتوي على حقول داخلية. يرجى تفضيل استخدام الطرق الثابتة لهذه الفئة عندما يكون ذلك ممكنًا بدلاً من الهيكل المهمل [CmykColor](../../com.aspose.imaging/cmykcolor) struct.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getC(int cmyk)](#getC-int-) | يحصل على قيمة المكوّن السيان. |
-| [getM(int cmyk)](#getM-int-) | يحصل على قيمة المكوّن الماجنتا. |
+| [getC(int cmyk)](#getC-int-) | يحصل على قيمة المكوّن السماوي. |
+| [getM(int cmyk)](#getM-int-) | يحصل على قيمة المكوّن الأرجواني. |
 | [getY(int cmyk)](#getY-int-) | يحصل على قيمة المكوّن الأصفر. |
 | [getK(int cmyk)](#getK-int-) | يحصل على قيمة المكوّن الأسود. |
-| [fromComponents(int cyan, int magenta, int yellow, int black)](#fromComponents-int-int-int-int-) | ينشئ CMYK من قيم السيان والماجنتا والأصفر والأسود 32-بت. |
-| [toCmyk(int[] argbPixels)](#toCmyk-int---) | التحويل من ألوان ARGB إلى ألوان CMYK. |
-| [toCmykBytes(int[] argbPixels, int startIndex, int length)](#toCmykBytes-int---int-int-) | يحوّل ARGB إلى CMYK. |
-| [toCmykaBytes(int[] argbPixels, int startIndex, int length)](#toCmykaBytes-int---int-int-) | يحوّل ARGB إلى CMYKA (مع الشفافية). |
+| [fromComponents(int cyan, int magenta, int yellow, int black)](#fromComponents-int-int-int-int-) | ينشئ CMYK من قيم السماوي، الأرجواني، الأصفر والأسود ذات 32 بت. |
+| [toCmyk(int[] argbPixels)](#toCmyk-int---) | تحويل الألوان من ARGB إلى CMYK. |
+| [toCmykBytes(int[] argbPixels, int startIndex, int length)](#toCmykBytes-int---int-int-) | يقوم بتحويل ARGB إلى CMYK. |
+| [toCmykaBytes(int[] argbPixels, int startIndex, int length)](#toCmykaBytes-int---int-int-) | يقوم بتحويل ARGB إلى CMYKA (مع الشفافية). |
 | [toCmyk(int argbPixel)](#toCmyk-int-) | التحويل من لون ARGB إلى لون CMYK. |
 | [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | التحويل من لون ARGB إلى لون CMYK. |
-| [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | التحويل من ألوان ARGB إلى ألوان CMYK. |
+| [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | تحويل الألوان من ARGB إلى CMYK. |
 | [toArgb(int[] cmykPixels)](#toArgb-int---) | التحويل من ألوان CMYK إلى ألوان ARGB. |
 | [toArgb(int cmykPixel)](#toArgb-int-) | التحويل من لون CMYK إلى لون ARGB. |
 | [toArgb32(int[] cmykPixels)](#toArgb32-int---) | التحويل من ألوان CMYK إلى ألوان ARGB. |
 | [toArgb32(int[] cmykPixels, boolean reuseArray)](#toArgb32-int---boolean-) | يُجري التحويل من ألوان CMYK إلى ألوان ARGB ويخزنها في نفس المصفوفة إذا كان `reuseArray` صحيحًا. |
-| [toArgbIcc(int[] cmykPixels)](#toArgbIcc-int---) | التحويل من ألوان CMYK إلى ألوان ARGB باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
+| [toArgbIcc(int[] cmykPixels)](#toArgbIcc-int---) | التحويل من ألوان CMYK إلى ألوان ARGB باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
 | [toArgbIcc(int[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int---java.io.InputStream-java.io.InputStream-) | التحويل من ألوان CMYK إلى ألوان ARGB باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
-| [toArgbIcc(int cmykPixel)](#toArgbIcc-int-) | التحويل من لون CMYK إلى لون ARGB باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
+| [toArgbIcc(int cmykPixel)](#toArgbIcc-int-) | التحويل من لون CMYK إلى لون ARGB باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
 | [toArgbIcc(int cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int-java.io.InputStream-java.io.InputStream-) | التحويل من لون CMYK إلى لون ARGB باستخدام تحويل Icc مع ملف تعريف مخصص. |
 | [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
 | [toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int---java.io.InputStream-java.io.InputStream-) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
-| [toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | يحوّل RGB إلى CMYK باستخدام ملفات ICC مخصصة. |
-| [toCmykIccBytes(int[] pixels, int startIndex, int length, byte[] cmykBytes, int cmykOffset, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-byte---int-java.io.InputStream-java.io.InputStream-) | يحوّل RGB إلى CMYK باستخدام ملفات ICC مخصصة. |
-| [toCmykaIccBytes(int[] pixels, int startIndex, int length, byte[] cmykBytes, int cmykOffset, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-byte---int-java.io.InputStream-java.io.InputStream-) | يحوّل RGB إلى CMYKA (مع ألفا) باستخدام ملفات ICC مخصصة. |
+| [toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | يقوم بتحويل RGB إلى CMYK باستخدام ملفات تعريف ICC مخصصة. |
+| [toCmykIccBytes(int[] pixels, int startIndex, int length, byte[] cmykBytes, int cmykOffset, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-byte---int-java.io.InputStream-java.io.InputStream-) | يقوم بتحويل RGB إلى CMYK باستخدام ملفات تعريف ICC مخصصة. |
+| [toCmykaIccBytes(int[] pixels, int startIndex, int length, byte[] cmykBytes, int cmykOffset, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-byte---int-java.io.InputStream-java.io.InputStream-) | يقوم بتحويل RGB إلى CMYKA (مع ألفا) باستخدام ملفات تعريف ICC مخصصة. |
 | [toPsdCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int---java.io.InputStream-java.io.InputStream-) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
-| [toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | يحوّل RGB إلى CMYKA (مع ألفا) باستخدام ملفات ICC مخصصة. |
-| [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
-| [toCmykIcc(int[] pixels)](#toCmykIcc-int---) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
-| [toPsdCmykIcc(int[] pixels)](#toPsdCmykIcc-int---) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
-| [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
-| [toCmykIcc(int argb)](#toCmykIcc-int-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
-| [toPsdCmykIcc(int argb)](#toPsdCmykIcc-int-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية. |
+| [toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | يقوم بتحويل RGB إلى CMYKA (مع ألفا) باستخدام ملفات تعريف ICC مخصصة. |
+| [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
+| [toCmykIcc(int[] pixels)](#toCmykIcc-int---) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
+| [toPsdCmykIcc(int[] pixels)](#toPsdCmykIcc-int---) | التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
+| [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
+| [toCmykIcc(int argb)](#toCmykIcc-int-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
+| [toPsdCmykIcc(int argb)](#toPsdCmykIcc-int-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية. |
 | [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
 | [toCmykIcc(int argb, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int-java.io.InputStream-java.io.InputStream-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
 | [toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int-java.io.InputStream-java.io.InputStream-) | التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف مخصصة. |
@@ -58,15 +58,15 @@ public static int getC(int cmyk)
 ```
 
 
-يحصل على قيمة المكوّن السيان.
+يحصل على قيمة المكوّن السماوي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmyk | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
+| cmyk | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
 
 **Returns:**
-int - قيمة مكوّن السماوي.
+int - قيمة مكوّن السيان.
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
 
@@ -90,7 +90,7 @@ for (com.aspose.imaging.Color rgbColor : rgbColors) {
 }
 
 //المخرجات تبدو هكذا:
-//حوّل RGB إلى CMYK دون استخدام ملفات ICC.
+//قم بتحويل RGB إلى CMYK دون استخدام ملفات تعريف ICC.
 //RGB(255,0,0)        => CMYK(0,255,255,0)
 //RGB(0,128,0)        => CMYK(255,0,255,127)
 //RGB(0,0,255)        => CMYK(255,255,0,0)
@@ -102,12 +102,12 @@ public static int getM(int cmyk)
 ```
 
 
-يحصل على قيمة المكوّن الماجنتا.
+يحصل على قيمة المكوّن الأرجواني.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmyk | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
+| cmyk | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
 
 **Returns:**
 int - قيمة مكوّن الماجنتا.
@@ -134,7 +134,7 @@ for (com.aspose.imaging.Color rgbColor : rgbColors) {
 }
 
 //المخرجات تبدو هكذا:
-//حوّل RGB إلى CMYK دون استخدام ملفات ICC.
+//قم بتحويل RGB إلى CMYK دون استخدام ملفات تعريف ICC.
 //RGB(255,0,0)        => CMYK(0,255,255,0)
 //RGB(0,128,0)        => CMYK(255,0,255,127)
 //RGB(0,0,255)        => CMYK(255,255,0,0)
@@ -151,7 +151,7 @@ public static int getY(int cmyk)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmyk | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
+| cmyk | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
 
 **Returns:**
 int - قيمة مكوّن الأصفر.
@@ -178,7 +178,7 @@ for (com.aspose.imaging.Color rgbColor : rgbColors) {
 }
 
 //المخرجات تبدو هكذا:
-//حوّل RGB إلى CMYK دون استخدام ملفات ICC.
+//قم بتحويل RGB إلى CMYK دون استخدام ملفات تعريف ICC.
 //RGB(255,0,0)        => CMYK(0,255,255,0)
 //RGB(0,128,0)        => CMYK(255,0,255,127)
 //RGB(0,0,255)        => CMYK(255,255,0,0)
@@ -195,7 +195,7 @@ public static int getK(int cmyk)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmyk | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
+| cmyk | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
 
 **Returns:**
 int - قيمة مكوّن الأسود.
@@ -222,7 +222,7 @@ for (com.aspose.imaging.Color rgbColor : rgbColors) {
 }
 
 //المخرجات تبدو هكذا:
-//حوّل RGB إلى CMYK دون استخدام ملفات ICC.
+//قم بتحويل RGB إلى CMYK دون استخدام ملفات تعريف ICC.
 //RGB(255,0,0)        => CMYK(0,255,255,0)
 //RGB(0,128,0)        => CMYK(255,0,255,127)
 //RGB(0,0,255)        => CMYK(255,255,0,0)
@@ -234,18 +234,18 @@ public static int fromComponents(int cyan, int magenta, int yellow, int black)
 ```
 
 
-ينشئ CMYK من قيم السيان والماجنتا والأصفر والأسود 32-بت.
+ينشئ CMYK من قيم السماوي، الأرجواني، الأصفر والأسود ذات 32 بت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| سماوي | int | المكوّن السماوي. القيم الصالحة هي من 0 إلى 255. |
-| ماجنتا | int | المكوّن الماجنتا. القيم الصالحة هي من 0 إلى 255. |
-| أصفر | int | المكوّن الأصفر. القيم الصالحة هي من 0 إلى 255. |
-| أسود | int | المكوّن الأسود. القيم الصالحة هي من 0 إلى 255. |
+| سماوي | int | مكوّن السماوي. القيم الصالحة هي من 0 إلى 255. |
+| ماجنتا | int | مكوّن الماجنتا. القيم الصالحة هي من 0 إلى 255. |
+| أصفر | int | مكوّن الأصفر. القيم الصالحة هي من 0 إلى 255. |
+| أسود | int | مكوّن الأسود. القيم الصالحة هي من 0 إلى 255. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 
 **Example: The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.**
 
@@ -283,29 +283,29 @@ public static int[] toCmyk(int[] argbPixels)
 ```
 
 
-التحويل من ألوان ARGB إلى ألوان CMYK.
+تحويل الألوان من ARGB إلى CMYK.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| argbPixels | int[] | ألوان ARGB الممثّلة كقيم عدد صحيح 32-بت. |
+| argbPixels | int[] | ألوان ARGB مقدمة كقيم عدد صحيح 32‑بت. |
 
 **Returns:**
-int[] - ألوان CMYK الممثّلة كقيم عدد صحيح 32-بت.
+int[] - ألوان CMYK مقدمة كقيم عدد صحيح 32‑بت.
 ### toCmykBytes(int[] argbPixels, int startIndex, int length) {#toCmykBytes-int---int-int-}
 ```
 public static byte[] toCmykBytes(int[] argbPixels, int startIndex, int length)
 ```
 
 
-يحوّل ARGB إلى CMYK.
+يقوم بتحويل ARGB إلى CMYK.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| argbPixels | int[] | ألوان RGB الممثّلة كقيم عدد صحيح 32-بت. |
-| startIndex | int | فهرس البداية للون RGB. |
-| length | int | عدد بكسلات RGB للتحويل. |
+| argbPixels | int[] | ألوان RGB مقدمة كقيم عدد صحيح 32‑بت. |
+| startIndex | int | فهرس البدء للون RGB. |
+| length | int | عدد بكسلات RGB المراد تحويلها. |
 
 **Returns:**
 byte[] - ألوان CMYK المقدمة كمصفوفة بايت.
@@ -315,14 +315,14 @@ public static byte[] toCmykaBytes(int[] argbPixels, int startIndex, int length)
 ```
 
 
-يحوّل ARGB إلى CMYKA (مع الشفافية).
+يقوم بتحويل ARGB إلى CMYKA (مع الشفافية).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| argbPixels | int[] | ألوان RGB الممثّلة كقيم عدد صحيح 32-بت. |
-| startIndex | int | فهرس البداية للون RGB. |
-| length | int | عدد بكسلات RGB للتحويل. |
+| argbPixels | int[] | ألوان RGB مقدمة كقيم عدد صحيح 32‑بت. |
+| startIndex | int | فهرس البدء للون RGB. |
+| length | int | عدد بكسلات RGB المراد تحويلها. |
 
 **Returns:**
 byte[] - ألوان CMYK المقدمة كمصفوفة بايت.
@@ -337,10 +337,10 @@ public static int toCmyk(int argbPixel)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| argbPixel | int | لون ARGB المقدم كقيمة عدد صحيح 32-بت. |
+| argbPixel | int | لون ARGB المقدم كقيمة عدد صحيح 32‑بت. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 ### toCmyk(Color pixel) {#toCmyk-com.aspose.imaging.Color-}
 ```
 public static int toCmyk(Color pixel)
@@ -355,7 +355,7 @@ public static int toCmyk(Color pixel)
 | pixel | [Color](../../com.aspose.imaging/color) | لون ARGB. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
 
@@ -379,7 +379,7 @@ for (com.aspose.imaging.Color rgbColor : rgbColors) {
 }
 
 //المخرجات تبدو هكذا:
-//حوّل RGB إلى CMYK دون استخدام ملفات ICC.
+//قم بتحويل RGB إلى CMYK دون استخدام ملفات تعريف ICC.
 //RGB(255,0,0)        => CMYK(0,255,255,0)
 //RGB(0,128,0)        => CMYK(255,0,255,127)
 //RGB(0,0,255)        => CMYK(255,255,0,0)
@@ -391,7 +391,7 @@ public static int[] toCmyk(Color[] pixels)
 ```
 
 
-التحويل من ألوان ARGB إلى ألوان CMYK.
+تحويل الألوان من ARGB إلى CMYK.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -399,7 +399,7 @@ public static int[] toCmyk(Color[] pixels)
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | ألوان ARGB. |
 
 **Returns:**
-int[] - ألوان CMYK الممثّلة كقيم عدد صحيح 32-بت.
+int[] - ألوان CMYK مقدمة كقيم عدد صحيح 32‑بت.
 ### toArgb(int[] cmykPixels) {#toArgb-int---}
 ```
 public static Color[] toArgb(int[] cmykPixels)
@@ -411,7 +411,7 @@ public static Color[] toArgb(int[] cmykPixels)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عدد صحيح 32-بت. |
+| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عددية 32‑بت. |
 
 **Returns:**
 com.aspose.imaging.Color[] - ألوان ARGB.
@@ -426,7 +426,7 @@ public static Color toArgb(int cmykPixel)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixel | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
+| cmykPixel | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
@@ -472,10 +472,10 @@ public static int[] toArgb32(int[] cmykPixels)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عدد صحيح 32-بت. |
+| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عددية 32‑بت. |
 
 **Returns:**
-int[] - ألوان ARGB المقدمة كقيم عدد صحيح 32-بت.
+int[] - ألوان ARGB المقدمة كقيم عددية 32‑بت.
 ### toArgb32(int[] cmykPixels, boolean reuseArray) {#toArgb32-int---boolean-}
 ```
 public static int[] toArgb32(int[] cmykPixels, boolean reuseArray)
@@ -487,23 +487,23 @@ public static int[] toArgb32(int[] cmykPixels, boolean reuseArray)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عدد صحيح 32-بت. |
+| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عددية 32‑بت. |
 | reuseArray | boolean | إذا كان `true` فسيتم إعادة ملء مصفوفة `cmykPixels` المدخلة بقيم جديدة وإرجاعها؛ وإلا سيتم تخصيص مصفوفة جديدة وإرجاعها. |
 
 **Returns:**
-int[] - المصفوفة الجديدة المخصصة أو `cmykPixels` المملوءة بألوان ARGB المقدمة كقيم عدد صحيح 32-بت.
+int[] - المصفوفة الجديدة المخصصة أو `cmykPixels` المملوءة بألوان ARGB المقدمة كقيم عددية 32‑بت.
 ### toArgbIcc(int[] cmykPixels) {#toArgbIcc-int---}
 ```
 public static Color[] toArgbIcc(int[] cmykPixels)
 ```
 
 
-التحويل من ألوان CMYK إلى ألوان ARGB باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من ألوان CMYK إلى ألوان ARGB باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixels | int[] | بكسلات CMYK المقدمة كقيم عدد صحيح 32-بت. |
+| cmykPixels | int[] | بكسلات CMYK المقدمة كقيم عددية 32‑بت. |
 
 **Returns:**
 com.aspose.imaging.Color[] - ألوان ARGB.
@@ -518,9 +518,9 @@ public static Color[] toArgbIcc(int[] cmykPixels, InputStream cmykIccStream, Inp
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عدد صحيح 32-بت. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
+| cmykPixels | int[] | ألوان CMYK المقدمة كقيم عددية 32‑بت. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
 
 **Returns:**
 com.aspose.imaging.Color[] - ألوان ARGB.
@@ -530,12 +530,12 @@ public static Color toArgbIcc(int cmykPixel)
 ```
 
 
-التحويل من لون CMYK إلى لون ARGB باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من لون CMYK إلى لون ARGB باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixel | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
+| cmykPixel | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
@@ -562,11 +562,11 @@ for (int cmykColor : cmykColors) {
     System.out.printf("CMYK(%s,%s,%s,%s)\t\t=> RGB(%s,%s,%s)\r\n", c, m, y, k, rgbColor.getR() & 0xff, rgbColor.getG() & 0xff, rgbColor.getB() & 0xff);
 }
 
-// حدد المسار إلى ملفات تعريف ICC المخصصة لـ RGB و CMYK.
+// حدد المسار إلى ملفات تعريف RGB و CMYK ICC المخصصة.
 String dir = "c:\\temp\\iccprofiles\\";
 
 System.out.println("Convert CMYK to RGB using custom ICC profiles.");
-// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc.
+// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc
 byte[] rgbProfileBytes;
 java.io.RandomAccessFile rgbProfile = new java.io.RandomAccessFile(dir + "eciRGB_v2.icc", "r");
 try {
@@ -608,7 +608,7 @@ try {
 //CMYK(0,255,0,0)        => RGB(231,52,142)
 //CMYK(0,0,255,0)        => RGB(244,253,63)
 //CMYK(0,0,0,255)        => RGB(21,21,21)
-//تحويل CMYK إلى RGB باستخدام ملفات تعريف ICC مخصصة.
+//تحويل CMYK إلى RGB باستخدام ملفات تعريف ICC المخصصة.
 //CMYK(255,0,0,0)        => RGB(46,188,220)
 //CMYK(0,255,0,0)        => RGB(231,52,142)
 //(0,0,255,0)            => RGB(244,253,63)
@@ -626,9 +626,9 @@ public static Color toArgbIcc(int cmykPixel, InputStream cmykIccStream, InputStr
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| cmykPixel | int | لون CMYK مقدم كقيمة عدد صحيح 32-بت. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
+| cmykPixel | int | لون CMYK معروض كقيمة عدد صحيح 32-بت. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
@@ -655,11 +655,11 @@ for (int cmykColor : cmykColors) {
     System.out.printf("CMYK(%s,%s,%s,%s)\t\t=> RGB(%s,%s,%s)\r\n", c, m, y, k, rgbColor.getR() & 0xff, rgbColor.getG() & 0xff, rgbColor.getB() & 0xff);
 }
 
-// حدد المسار إلى ملفات تعريف ICC المخصصة لـ RGB و CMYK.
+// حدد المسار إلى ملفات تعريف RGB و CMYK ICC المخصصة.
 String dir = "c:\\temp\\iccprofiles\\";
 
 System.out.println("Convert CMYK to RGB using custom ICC profiles.");
-// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc.
+// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc
 byte[] rgbProfileBytes;
 java.io.RandomAccessFile rgbProfile = new java.io.RandomAccessFile(dir + "eciRGB_v2.icc", "r");
 try {
@@ -701,7 +701,7 @@ try {
 //CMYK(0,255,0,0)        => RGB(231,52,142)
 //CMYK(0,0,255,0)        => RGB(244,253,63)
 //CMYK(0,0,0,255)        => RGB(21,21,21)
-//تحويل CMYK إلى RGB باستخدام ملفات تعريف ICC مخصصة.
+//تحويل CMYK إلى RGB باستخدام ملفات تعريف ICC المخصصة.
 //CMYK(255,0,0,0)        => RGB(46,188,220)
 //CMYK(0,255,0,0)        => RGB(231,52,142)
 //(0,0,255,0)            => RGB(244,253,63)
@@ -720,11 +720,11 @@ public static int[] toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStr
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | ألوان ARGB. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
 
 **Returns:**
-int[] - ألوان CMYK الممثّلة كقيم عدد صحيح 32-بت.
+int[] - ألوان CMYK مقدمة كقيم عدد صحيح 32‑بت.
 ### toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIcc-int---java.io.InputStream-java.io.InputStream-}
 ```
 public static int[] toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)
@@ -737,25 +737,25 @@ public static int[] toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStrea
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | بكسلات | int[] | ألوان ARGB. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
 
 **Returns:**
-int[] - ألوان CMYK الممثّلة كقيم عدد صحيح 32-بت.
+int[] - ألوان CMYK مقدمة كقيم عدد صحيح 32‑بت.
 ### toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-}
 ```
 public static byte[] toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)
 ```
 
 
-يحوّل RGB إلى CMYK باستخدام ملفات ICC مخصصة.
+يقوم بتحويل RGB إلى CMYK باستخدام ملفات تعريف ICC مخصصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بكسلات | int[] | ألوان RGB الممثّلة كقيم عدد صحيح 32-بت. |
-| startIndex | int | فهرس البداية للون RGB. |
-| length | int | عدد بكسلات RGB للتحويل. |
+| بكسلات | int[] | ألوان RGB مقدمة كقيم عدد صحيح 32‑بت. |
+| startIndex | int | فهرس البدء للون RGB. |
+| length | int | عدد بكسلات RGB المراد تحويلها. |
 | rgbIccStream | java.io.InputStream | دفق ملف تعريف RGB. |
 | cmykIccStream | java.io.InputStream | دفق ملف تعريف CMYK. |
 
@@ -767,14 +767,14 @@ public static byte[] toCmykIccBytes(int[] pixels, int startIndex, int length, by
 ```
 
 
-يحوّل RGB إلى CMYK باستخدام ملفات ICC مخصصة.
+يقوم بتحويل RGB إلى CMYK باستخدام ملفات تعريف ICC مخصصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بكسلات | int[] | ألوان RGB الممثّلة كقيم عدد صحيح 32-بت. |
-| startIndex | int | فهرس البداية للون RGB. |
-| length | int | عدد بكسلات RGB للتحويل. |
+| بكسلات | int[] | ألوان RGB مقدمة كقيم عدد صحيح 32‑بت. |
+| startIndex | int | فهرس البدء للون RGB. |
+| length | int | عدد بكسلات RGB المراد تحويلها. |
 | cmykBytes | byte[] | بايتات Cmyk. |
 | cmykOffset | int | إزاحة `cmykBytes`. |
 | rgbIccStream | java.io.InputStream | دفق ملف تعريف RGB. |
@@ -788,14 +788,14 @@ public static byte[] toCmykaIccBytes(int[] pixels, int startIndex, int length, b
 ```
 
 
-يحوّل RGB إلى CMYKA (مع ألفا) باستخدام ملفات ICC مخصصة.
+يقوم بتحويل RGB إلى CMYKA (مع ألفا) باستخدام ملفات تعريف ICC مخصصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بكسلات | int[] | ألوان RGB الممثّلة كقيم عدد صحيح 32-بت. |
-| startIndex | int | فهرس البداية للون RGB. |
-| length | int | عدد بكسلات RGB للتحويل. |
+| بكسلات | int[] | ألوان RGB مقدمة كقيم عدد صحيح 32‑بت. |
+| startIndex | int | فهرس البدء للون RGB. |
+| length | int | عدد بكسلات RGB المراد تحويلها. |
 | cmykBytes | byte[] | بايتات Cmyk. |
 | cmykOffset | int | إزاحة `cmykBytes`. |
 | rgbIccStream | java.io.InputStream | دفق ملف تعريف RGB. |
@@ -815,25 +815,25 @@ public static int[] toPsdCmykIcc(int[] pixels, InputStream rgbIccStream, InputSt
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | بكسلات | int[] | ألوان ARGB. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
 
 **Returns:**
-int[] - ألوان CMYK المقدمة كقيم صحيحة 32-بت بترتيب بايت KCMY مع قيم قنوات مقلوبة.
+int[] - ألوان CMYK مقدمة كقيم صحيحة 32-بت بترتيب بايت KCMY مع قيم قنوات مقلوبة.
 ### toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-}
 ```
 public static byte[] toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)
 ```
 
 
-يحوّل RGB إلى CMYKA (مع ألفا) باستخدام ملفات ICC مخصصة.
+يقوم بتحويل RGB إلى CMYKA (مع ألفا) باستخدام ملفات تعريف ICC مخصصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بكسلات | int[] | ألوان RGB الممثّلة كقيم عدد صحيح 32-بت. |
-| startIndex | int | فهرس البداية للون RGB. |
-| length | int | عدد بكسلات RGB للتحويل. |
+| بكسلات | int[] | ألوان RGB مقدمة كقيم عدد صحيح 32‑بت. |
+| startIndex | int | فهرس البدء للون RGB. |
+| length | int | عدد بكسلات RGB المراد تحويلها. |
 | rgbIccStream | java.io.InputStream | دفق ملف تعريف RGB. |
 | cmykIccStream | java.io.InputStream | دفق ملف تعريف CMYK. |
 
@@ -845,7 +845,7 @@ public static int[] toCmykIcc(Color[] pixels)
 ```
 
 
-التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -853,14 +853,14 @@ public static int[] toCmykIcc(Color[] pixels)
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | ألوان ARGB. |
 
 **Returns:**
-int[] - ألوان CMYK الممثّلة كقيم عدد صحيح 32-بت.
+int[] - ألوان CMYK مقدمة كقيم عدد صحيح 32‑بت.
 ### toCmykIcc(int[] pixels) {#toCmykIcc-int---}
 ```
 public static int[] toCmykIcc(int[] pixels)
 ```
 
 
-التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من ألوان ARGB إلى ألوان CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -868,7 +868,7 @@ public static int[] toCmykIcc(int[] pixels)
 | بكسلات | int[] | ألوان ARGB. |
 
 **Returns:**
-int[] - ألوان CMYK الممثّلة كقيم عدد صحيح 32-بت.
+int[] - ألوان CMYK مقدمة كقيم عدد صحيح 32‑بت.
 ### toPsdCmykIcc(int[] pixels) {#toPsdCmykIcc-int---}
 ```
 public static int[] toPsdCmykIcc(int[] pixels)
@@ -883,14 +883,14 @@ public static int[] toPsdCmykIcc(int[] pixels)
 | بكسلات | int[] | ألوان ARGB. |
 
 **Returns:**
-int[] - ألوان CMYK المقدمة كقيم صحيحة 32-بت بترتيب بايت KCMY مع قيم قنوات مقلوبة.
+int[] - ألوان CMYK مقدمة كقيم صحيحة 32-بت بترتيب بايت KCMY مع قيم قنوات مقلوبة.
 ### toCmykIcc(Color pixel) {#toCmykIcc-com.aspose.imaging.Color-}
 ```
 public static int toCmykIcc(Color pixel)
 ```
 
 
-التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -898,7 +898,7 @@ public static int toCmykIcc(Color pixel)
 | pixel | [Color](../../com.aspose.imaging/color) | لون ARGB. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.**
 
@@ -926,7 +926,7 @@ String dir = "c:\\temp\\iccprofiles\\";
 
 System.out.println("Convert RGB to CMYK using custom ICC profiles.");
 
-// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc.
+// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc
 byte[] rgbProfileBytes;
 java.io.RandomAccessFile rgbProfile = new java.io.RandomAccessFile(dir + "eciRGB_v2.icc", "r");
 try {
@@ -964,7 +964,7 @@ try {
 }
 
 //المخرجات تبدو هكذا:
-//تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC افتراضية.
+//تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC الافتراضية.
 //RGB(255,0,0)        => CMYK(0,254,249,15)
 //RGB(0,128,0)        => CMYK(247,21,254,85)
 //RGB(0,0,255)        => CMYK(254,195,0,134)
@@ -980,7 +980,7 @@ public static int toCmykIcc(int argb)
 ```
 
 
-التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات التعريف الافتراضية.
+التحويل من لون ARGB إلى لون CMYK باستخدام تحويل Icc مع ملفات تعريف افتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -988,7 +988,7 @@ public static int toCmykIcc(int argb)
 | argb | int | لون ARGB. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 ### toPsdCmykIcc(int argb) {#toPsdCmykIcc-int-}
 ```
 public static int toPsdCmykIcc(int argb)
@@ -1003,7 +1003,7 @@ public static int toPsdCmykIcc(int argb)
 | argb | int | لون ARGB. |
 
 **Returns:**
-int - اللون CMYK المقدم كقيمة عدد صحيح 32-بت بترتيب بايت KCMY مع قيم القنوات المعكوسة.
+int - لون CMYK المقدم كقيمة عدد صحيح 32‑بت بترتيب بايت KCMY مع قيم القنوات المعكوسة.
 ### toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-}
 ```
 public static int toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)
@@ -1016,11 +1016,11 @@ public static int toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream c
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | pixel | [Color](../../com.aspose.imaging/color) | لون ARGB. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.**
 
@@ -1048,7 +1048,7 @@ String dir = "c:\\temp\\iccprofiles\\";
 
 System.out.println("Convert RGB to CMYK using custom ICC profiles.");
 
-// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc.
+// اقرأ جميع البايتات من ملفات ICC إلى الذاكرة لتتمكن من إعادة ضبط دفق ملف تعريف الإدخال قبل استدعاء toCmykIcc
 byte[] rgbProfileBytes;
 java.io.RandomAccessFile rgbProfile = new java.io.RandomAccessFile(dir + "eciRGB_v2.icc", "r");
 try {
@@ -1086,7 +1086,7 @@ try {
 }
 
 //المخرجات تبدو هكذا:
-//تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC افتراضية.
+//تحويل RGB إلى CMYK باستخدام ملفات تعريف ICC الافتراضية.
 //RGB(255,0,0)        => CMYK(0,254,249,15)
 //RGB(0,128,0)        => CMYK(247,21,254,85)
 //RGB(0,0,255)        => CMYK(254,195,0,134)
@@ -1108,11 +1108,11 @@ public static int toCmykIcc(int argb, InputStream rgbIccStream, InputStream cmyk
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | argb | int | لون ARGB. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
 
 **Returns:**
-int - لون CMYK الممثّل كقيمة عدد صحيح 32-بت.
+int - لون CMYK مقدم كقيمة عدد صحيح 32‑بت.
 ### toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream) {#toPsdCmykIcc-int-java.io.InputStream-java.io.InputStream-}
 ```
 public static int toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream)
@@ -1125,8 +1125,8 @@ public static int toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | بكسل | int | لون ARGB. |
-| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ RGB. |
-| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف Icc لـ CMYK. |
+| rgbIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف RGB Icc. |
+| cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف CMYK Icc. |
 
 **Returns:**
-int - ألوان CMYK المقدمة كقيم أعداد صحيحة 32-بت بترتيب بايت KCMY مع قيم القنوات المعكوسة.
+int - ألوان CMYK المقدمة كقيم عدد صحيح 32‑بت بترتيب بايت KCMY مع قيم القنوات المعكوسة.

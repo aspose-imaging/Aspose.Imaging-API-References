@@ -1,13 +1,13 @@
 ---
 title: "WmfResizePalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_RESIZEPALETTE يعيد تعريف حجم لوحة الألوان المنطقية التي تم تعريفها في سياق جهاز التشغيل."
+description: "سجل META_RESIZEPALETTE يعيد تعريف حجم لوحة الألوان المنطقية المحددة في سياق جهاز التشغيل."
 type: docs
 weight: 63
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfresizepalette/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfResizePalette extends WmfObject
 ```
@@ -55,5 +55,5 @@ public void setNumberOfEntries(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

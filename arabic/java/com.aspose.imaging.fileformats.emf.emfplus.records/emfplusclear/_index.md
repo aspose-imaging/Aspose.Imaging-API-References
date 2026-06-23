@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusClear"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EmfPlusClear يمسح مساحة الإحداثيات الناتجة ويهيئها بلون خلفية وشفافية."
+description: "سجل EmfPlusClear يمسح مساحة الإحداثيات الناتجة ويهيئها بلون خلفية وشفافية"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/
@@ -12,25 +12,25 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusClear extends EmfPlusDrawingRecordType
 ```
 
-سجل EmfPlusClear يمسح مساحة الإحداثيات الناتجة ويهيئها بلون خلفية وشفافية.
+سجل EmfPlusClear يمسح مساحة الإحداثيات الناتجة ويهيئها بلون خلفية وشفافية
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusClear(EmfPlusRecord source)](#EmfPlusClear-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ نسخة جديدة من الفئة `EmfPlusClear`. |
+| [EmfPlusClear(EmfPlusRecord source)](#EmfPlusClear-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusClear`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getArgb32Color()](#getArgb32Color--) | يحصل أو يعيّن اللون. |
-| [setArgb32Color(int value)](#setArgb32Color-int-) | يحصل أو يعيّن اللون. |
+| [getArgb32Color()](#getArgb32Color--) | يحصل أو يضبط اللون. |
+| [setArgb32Color(int value)](#setArgb32Color-int-) | يحصل أو يضبط اللون. |
 ### EmfPlusClear(EmfPlusRecord source) {#EmfPlusClear-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusClear(EmfPlusRecord source)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `EmfPlusClear`.
+ينشئ مثيلًا جديدًا من الفئة `EmfPlusClear`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -43,7 +43,7 @@ public int getArgb32Color()
 ```
 
 
-يحصل أو يعيّن اللون. كائن EmfPlusARGB (القسم 2.2.2.1) يحدد اللون المستخدم لرسم الشاشة. جميع الألوان محددة في [IEC-RGB]، ما لم يُذكر غير ذلك.
+يحصل أو يضبط اللون. كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد اللون لطلاء الشاشة. جميع الألوان محددة في [IEC-RGB]، ما لم يُذكر غير ذلك.
 
 القيمة: اللون.
 
@@ -55,12 +55,12 @@ public void setArgb32Color(int value)
 ```
 
 
-يحصل أو يعيّن اللون. كائن EmfPlusARGB (القسم 2.2.2.1) يحدد اللون المستخدم لرسم الشاشة. جميع الألوان محددة في [IEC-RGB]، ما لم يُذكر غير ذلك.
+يحصل أو يضبط اللون. كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد اللون لطلاء الشاشة. جميع الألوان محددة في [IEC-RGB]، ما لم يُذكر غير ذلك.
 
 القيمة: اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

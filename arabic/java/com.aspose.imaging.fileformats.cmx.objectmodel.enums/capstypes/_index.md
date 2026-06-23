@@ -17,16 +17,16 @@ public final class CapsTypes extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Square](#Square) | أضف أشكال نهايات مربعة إلى الخط. |
-| [Round](#Round) | أضف أشكال نهايات دائرية إلى الخط. |
-| [ExtendedSquare](#ExtendedSquare) | المربع الموسع أضف أشكال نهايات مربعة التي تمد طول الخط. |
+| [Square](#Square) | إضافة أشكال نهائية مربعة إلى الخط. |
+| [Round](#Round) | إضافة أشكال نهائية دائرية إلى الخط. |
+| [ExtendedSquare](#ExtendedSquare) | المربع الممتد أضف أشكال نهائية مربعة تمتد بطول الخط. |
 ### Square {#Square}
 ```
 public static final int Square
 ```
 
 
-أضف أشكال نهايات مربعة إلى الخط.
+إضافة أشكال نهائية مربعة إلى الخط.
 
 ### Round {#Round}
 ```
@@ -34,7 +34,7 @@ public static final int Round
 ```
 
 
-أضف أشكال نهايات دائرية إلى الخط.
+إضافة أشكال نهائية دائرية إلى الخط.
 
 ### ExtendedSquare {#ExtendedSquare}
 ```
@@ -42,5 +42,5 @@ public static final int ExtendedSquare
 ```
 
 
-المربع الموسع أضف أشكال نهايات مربعة التي تمد طول الخط.
+المربع الممتد أضف أشكال نهائية مربعة تمتد بطول الخط.
 

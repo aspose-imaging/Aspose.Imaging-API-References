@@ -23,23 +23,23 @@ public abstract class ImageMask implements IImageMask
 | [to_ImageGrayscaleMask(ImageMask mask)](#to-ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | تحويل `mask` إلى [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask). |
 | [op_LogicalNot(ImageMask a)](#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | يعكس القناع. |
 | [op_Addition(ImageMask a, ImageMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | اتحاد قناعين. |
-| [op_Subtraction(ImageMask a, ImageMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | طرح القناع الثاني من الأول. |
+| [op_Subtraction(ImageMask a, ImageMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | اطرح القناع الثاني من الأول. |
 | [op_Multiply(ImageMask a, ImageMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | تقاطع قناعين. |
-| [op_ExclusiveOr(ImageMask a, ImageMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | الاختلاف الحصري لقناعين. |
-| [getSource()](#getSource--) | يحصل على صورة المصدر المستخدمة لإنشاء هذا القناع، إذا كانت موجودة. |
-| [getWidth()](#getWidth--) | يحصل على عرض هذا القناع، بوحدة البكسل. |
-| [getHeight()](#getHeight--) | يحصل على ارتفاع هذا القناع، بوحدة البكسل. |
-| [getBounds()](#getBounds--) | يحصل على حدود هذا القناع، بوحدة البكسل. |
+| [op_ExclusiveOr(ImageMask a, ImageMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | اختلاف حصري بين قناعين. |
+| [getSource()](#getSource--) | يحصل على الصورة المصدر المستخدمة لإنشاء هذه القناع، إذا وجدت. |
+| [getWidth()](#getWidth--) | يحصل على العرض، بوحدات البكسل، لهذه القناع. |
+| [getHeight()](#getHeight--) | يحصل على الارتفاع، بوحدات البكسل، لهذه القناع. |
+| [getBounds()](#getBounds--) | يحصل على الحدود، بوحدات البكسل، لهذه القناع. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | يحصل على شفافية البكسل المحدد. |
-| [inflate(int size)](#inflate-int-) | يوسع هذا القناع بالمقدار المحدد. |
+| [inflate(int size)](#inflate-int-) | يضخم هذه القناع بالمقدار المحدد. |
 | [crop(Size size)](#crop-com.aspose.imaging.Size-) | يقص القناع بالحجم المحدد. |
 | [crop(int width, int height)](#crop-int-int-) | يقص القناع بالعرض والارتفاع المحددين. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص القناع بالمستطيل المحدد. |
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | يتحقق مما إذا كان البكسل المحدد غير شفاف. |
-| [isTransparent(int x, int y)](#isTransparent-int-int-) | يتحقق مما إذا كانت البكسل المحدد شفافة. |
-| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | يحصل على شفافية البكسل المحدد بدقة البايت. |
-| [getFeathered()](#getFeathered--) | يحصل على قناع رمادي مع حد مموه باستخدام الإعدادات الافتراضية. |
-| [getFeathered(FeatheringSettings settings)](#getFeathered-com.aspose.imaging.magicwand.imagemasks.FeatheringSettings-) | يحصل على قناع رمادي مع حد مموه باستخدام الإعدادات المحددة. |
+| [isTransparent(int x, int y)](#isTransparent-int-int-) | يتحقق مما إذا كان البكسل المحدد شفافًا. |
+| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | يحصل على شفافية البكسل المحدد بدقة بايت. |
+| [getFeathered()](#getFeathered--) | يحصل على قناع رمادي مع حد مموه بالإعدادات الافتراضية. |
+| [getFeathered(FeatheringSettings settings)](#getFeathered-com.aspose.imaging.magicwand.imagemasks.FeatheringSettings-) | يحصل على قناع رمادي مع حد مموه بالإعدادات المحددة. |
 | [apply()](#apply--) | يطبق القناع الحالي على مصدر [RasterImage](../../com.aspose.imaging/rasterimage) إذا كان موجودًا. |
 | [applyTo(RasterImage image)](#applyTo-com.aspose.imaging.RasterImage-) | يطبق القناع الحالي على [RasterImage](../../com.aspose.imaging/rasterimage) المحدد. |
 | [invert()](#invert--) | يحصل على عكس القناع الحالي. |
@@ -56,13 +56,13 @@ public abstract class ImageMask implements IImageMask
 | [intersect(ImageMask mask)](#intersect-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | يحصل على تقاطع القناع الحالي مع القناع المقدم. |
 | [intersect()](#intersect--) | يحصل على تقاطع القناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على مصدر القناع. |
 | [intersect(MagicWandSettings settings)](#intersect-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على تقاطع القناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على مصدر القناع. |
-| [intersect(RasterImage image)](#intersect-com.aspose.imaging.RasterImage-) | يحصل على تقاطع القناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة. |
-| [intersect(RasterImage image, MagicWandSettings settings)](#intersect-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على تقاطع القناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة. |
+| [intersect(RasterImage image)](#intersect-com.aspose.imaging.RasterImage-) | يحصل على تقاطع القناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة. |
+| [intersect(RasterImage image, MagicWandSettings settings)](#intersect-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على تقاطع القناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة. |
 | [exclusiveDisjunction(ImageMask mask)](#exclusiveDisjunction-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | يحصل على التفريق الحصري للقناع الحالي مع القناع المقدم. |
-| [exclusiveDisjunction()](#exclusiveDisjunction--) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على مصدر القناع. |
-| [exclusiveDisjunction(MagicWandSettings settings)](#exclusiveDisjunction-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على مصدر القناع. |
-| [exclusiveDisjunction(RasterImage image)](#exclusiveDisjunction-com.aspose.imaging.RasterImage-) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة. |
-| [exclusiveDisjunction(RasterImage image, MagicWandSettings settings)](#exclusiveDisjunction-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة. |
+| [exclusiveDisjunction()](#exclusiveDisjunction--) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على مصدر القناع. |
+| [exclusiveDisjunction(MagicWandSettings settings)](#exclusiveDisjunction-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على مصدر القناع. |
+| [exclusiveDisjunction(RasterImage image)](#exclusiveDisjunction-com.aspose.imaging.RasterImage-) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة. |
+| [exclusiveDisjunction(RasterImage image, MagicWandSettings settings)](#exclusiveDisjunction-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة. |
 
 ## Example: The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, subtract).
 
@@ -71,11 +71,11 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked-complex.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (845, 128)
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (845, 128)
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية
+            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بواسطة أداة العصا السحرية
             .union(new MagicWandSettings(416, 387))
-            // اعكس القناع الحالي
+            // عكس القناع الحالي
             .invert()
             // اطرح القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية مع العتبة المحددة من القناع الحالي
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
@@ -84,12 +84,12 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // نقّح القناع باستخدام الإعدادات المحددة
+            // تنعيم القناع بالإعدادات المحددة
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة
+    // حفظ الصورة
     image.save(outputFilePath);
 }
 
@@ -121,7 +121,7 @@ public static ImageBitMask op_LogicalNot(ImageMask a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | القناع الذي سيتم عكسه. |
+| a | [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) | القناع الذي سيُعكس. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -147,7 +147,7 @@ public static ImageBitMask op_Subtraction(ImageMask a, ImageMask b)
 ```
 
 
-طرح القناع الثاني من الأول.
+اطرح القناع الثاني من الأول.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -179,7 +179,7 @@ public static ImageBitMask op_ExclusiveOr(ImageMask a, ImageMask b)
 ```
 
 
-الاختلاف الحصري لقناعين.
+اختلاف حصري بين قناعين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -195,7 +195,7 @@ public final RasterImage getSource()
 ```
 
 
-يحصل على صورة المصدر المستخدمة لإنشاء هذا القناع، إذا كانت موجودة.
+يحصل على الصورة المصدر المستخدمة لإنشاء هذه القناع، إذا وجدت.
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - the source image used to create this mask, if exists.
@@ -205,27 +205,27 @@ public final int getWidth()
 ```
 
 
-يحصل على عرض هذا القناع، بوحدة البكسل.
+يحصل على العرض، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
-int - العرض، بوحدات البكسل، لهذا القناع.
+int - العرض، بوحدات البكسل، لهذه القناع.
 ### getHeight() {#getHeight--}
 ```
 public final int getHeight()
 ```
 
 
-يحصل على ارتفاع هذا القناع، بوحدة البكسل.
+يحصل على الارتفاع، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
-int - الارتفاع، بوحدات البكسل، لهذا القناع.
+int - الارتفاع، بوحدات البكسل، لهذه القناع.
 ### getBounds() {#getBounds--}
 ```
 public final Rectangle getBounds()
 ```
 
 
-يحصل على حدود هذا القناع، بوحدة البكسل.
+يحصل على الحدود، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds, in pixels, of this mask.
@@ -240,8 +240,8 @@ public abstract boolean get_Item(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -251,12 +251,12 @@ public abstract ImageMask inflate(int size)
 ```
 
 
-يوسع هذا القناع بالمقدار المحدد.
+يضخم هذه القناع بالمقدار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | المقدار لتوسيع هذه القناع. |
+| size | int | المقدار لتضخيم هذه القناع. |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An ImageMask.
@@ -286,8 +286,8 @@ public final ImageMask crop(int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض المحدد. |
-| الارتفاع | int | الارتفاع المحدد. |
+| width | int | العرض المحدد. |
+| height | int | الارتفاع المحدد. |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An ImageMask.
@@ -317,8 +317,8 @@ public final boolean isOpaque(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -328,13 +328,13 @@ public final boolean isTransparent(int x, int y)
 ```
 
 
-يتحقق مما إذا كانت البكسل المحدد شفافة.
+يتحقق مما إذا كان البكسل المحدد شفافًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد شفافًا؛ وإلا false.
@@ -344,13 +344,13 @@ public final byte getByteOpacity(int x, int y)
 ```
 
 
-يحصل على شفافية البكسل المحدد بدقة البايت.
+يحصل على شفافية البكسل المحدد بدقة بايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 byte - قيمة بايت، تمثل شفافية البكسل المحدد.
@@ -360,7 +360,7 @@ public final ImageGrayscaleMask getFeathered()
 ```
 
 
-يحصل على قناع رمادي مع حد مموه باستخدام الإعدادات الافتراضية.
+يحصل على قناع رمادي مع حد مموه بالإعدادات الافتراضية.
 
 **Returns:**
 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - \#to\_ImageGrayscaleMask(ImageMask).to\_ImageGrayscaleMask(ImageMask)\} with feathered border.
@@ -370,7 +370,7 @@ public final ImageGrayscaleMask getFeathered(FeatheringSettings settings)
 ```
 
 
-يحصل على قناع رمادي مع حد مموه باستخدام الإعدادات المحددة.
+يحصل على قناع رمادي مع حد مموه بالإعدادات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -395,13 +395,13 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (120, 100) مع عتبة مخصصة تساوي 150
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (120, 100) مع عتبة مخصصة مساوية لـ 150
     MagicWandTool
             .select(image, new MagicWandSettings(120, 100) {{ setThreshold(150); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة مع خيار نوع لون الشفافية القسري
+    // احفظ الصورة مع خيار فرض نوع لون الشفافية
     image.save(outputFilePath, new PngOptions()
     {{
         setColorType(PngColorType.TruecolorWithAlpha);
@@ -441,11 +441,11 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked-complex.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (845, 128)
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (845, 128)
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية
+            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بواسطة أداة العصا السحرية
             .union(new MagicWandSettings(416, 387))
-            // اعكس القناع الحالي
+            // عكس القناع الحالي
             .invert()
             // اطرح القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية مع العتبة المحددة من القناع الحالي
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
@@ -454,12 +454,12 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // نقّح القناع باستخدام الإعدادات المحددة
+            // تنعيم القناع بالإعدادات المحددة
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة
+    // حفظ الصورة
     image.save(outputFilePath);
 }
 
@@ -516,7 +516,7 @@ public final ImageBitMask union(RasterImage image)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -531,7 +531,7 @@ public final ImageBitMask union(RasterImage image, MagicWandSettings settings)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | إعدادات العصا السحرية. |
 
 **Returns:**
@@ -587,7 +587,7 @@ public final ImageBitMask subtract(RasterImage image)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -602,7 +602,7 @@ public final ImageBitMask subtract(RasterImage image, MagicWandSettings settings
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | إعدادات العصا السحرية. |
 
 **Returns:**
@@ -653,12 +653,12 @@ public final ImageBitMask intersect(RasterImage image)
 ```
 
 
-يحصل على تقاطع القناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة.
+يحصل على تقاطع القناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -668,12 +668,12 @@ public final ImageBitMask intersect(RasterImage image, MagicWandSettings setting
 ```
 
 
-يحصل على تقاطع القناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة.
+يحصل على تقاطع القناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | إعدادات العصا السحرية. |
 
 **Returns:**
@@ -699,7 +699,7 @@ public final ImageBitMask exclusiveDisjunction()
 ```
 
 
-يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على مصدر القناع.
+يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على مصدر القناع.
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -709,7 +709,7 @@ public final ImageBitMask exclusiveDisjunction(MagicWandSettings settings)
 ```
 
 
-يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على مصدر القناع.
+يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على مصدر القناع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -724,12 +724,12 @@ public final ImageBitMask exclusiveDisjunction(RasterImage image)
 ```
 
 
-يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة.
+يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -739,12 +739,12 @@ public final ImageBitMask exclusiveDisjunction(RasterImage image, MagicWandSetti
 ```
 
 
-يحصل على التفريق الحصري للقناع الحالي مع نتيجة تحديد العصا السحرية المطبقة على الصورة المقدمة.
+يحصل على التفريق الحصري للقناع الحالي مع نتيجة اختيار العصا السحرية المطبقة على الصورة المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لاستخدام العصا السحرية. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة للعصا السحرية. |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | إعدادات العصا السحرية. |
 
 **Returns:**

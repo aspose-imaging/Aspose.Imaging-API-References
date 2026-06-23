@@ -22,14 +22,14 @@ public class PdfDocumentInfo
 
 | طريقة | الوصف |
 | --- | --- |
-| [getKeywords()](#getKeywords--) | يحصل على كلمات المفتاح للمستند. |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | يضبط كلمات المفتاح للمستند. |
-| [getTitle()](#getTitle--) | يحصل على عنوان المستند. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | يضبط عنوان المستند. |
-| [getAuthor()](#getAuthor--) | يحصل على مؤلف المستند. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | يضبط مؤلف المستند. |
-| [getSubject()](#getSubject--) | يحصل على موضوع المستند. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | يحصل على أو يضبط موضوع المستند. |
+| [getKeywords()](#getKeywords--) | يحصل على الكلمات المفتاحية للوثيقة. |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | يضبط الكلمات المفتاحية للوثيقة. |
+| [getTitle()](#getTitle--) | يحصل على عنوان الوثيقة. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | يضبط عنوان الوثيقة. |
+| [getAuthor()](#getAuthor--) | يحصل على مؤلف الوثيقة. |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | يضبط مؤلف الوثيقة. |
+| [getSubject()](#getSubject--) | يحصل على موضوع الوثيقة. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | يحصل على موضوع الوثيقة أو يضبطه. |
 ### PdfDocumentInfo() {#PdfDocumentInfo--}
 ```
 public PdfDocumentInfo()
@@ -42,22 +42,22 @@ public String getKeywords()
 ```
 
 
-يحصل على كلمات المفتاح للمستند.
+يحصل على الكلمات المفتاحية للوثيقة.
 
 **Returns:**
-java.lang.String - الكلمات المفتاحية للمستند.
+java.lang.String - الكلمات المفتاحية للوثيقة.
 ### setKeywords(String value) {#setKeywords-java.lang.String-}
 ```
 public void setKeywords(String value)
 ```
 
 
-يضبط كلمات المفتاح للمستند.
+يضبط الكلمات المفتاحية للوثيقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الكلمات المفتاحية للمستند. |
+| value | java.lang.String | الكلمات المفتاحية للوثيقة. |
 
 ### getTitle() {#getTitle--}
 ```
@@ -65,22 +65,22 @@ public String getTitle()
 ```
 
 
-يحصل على عنوان المستند.
+يحصل على عنوان الوثيقة.
 
 **Returns:**
-java.lang.String - عنوان المستند.
+java.lang.String - عنوان الوثيقة.
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
 public void setTitle(String value)
 ```
 
 
-يضبط عنوان المستند.
+يضبط عنوان الوثيقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | عنوان المستند. |
+| value | java.lang.String | عنوان الوثيقة. |
 
 ### getAuthor() {#getAuthor--}
 ```
@@ -88,22 +88,22 @@ public String getAuthor()
 ```
 
 
-يحصل على مؤلف المستند.
+يحصل على مؤلف الوثيقة.
 
 **Returns:**
-java.lang.String - مؤلف المستند.
+java.lang.String - مؤلف الوثيقة.
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
 public void setAuthor(String value)
 ```
 
 
-يضبط مؤلف المستند.
+يضبط مؤلف الوثيقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | مؤلف المستند. |
+| value | java.lang.String | مؤلف الوثيقة. |
 
 ### getSubject() {#getSubject--}
 ```
@@ -111,20 +111,20 @@ public String getSubject()
 ```
 
 
-يحصل على موضوع المستند.
+يحصل على موضوع الوثيقة.
 
 **Returns:**
-java.lang.String - موضوع المستند.
+java.lang.String - موضوع الوثيقة.
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
 public void setSubject(String value)
 ```
 
 
-يحصل على أو يضبط موضوع المستند.
+يحصل على موضوع الوثيقة أو يضبطه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | موضوع المستند. |
+| value | java.lang.String | موضوع الوثيقة. |
 

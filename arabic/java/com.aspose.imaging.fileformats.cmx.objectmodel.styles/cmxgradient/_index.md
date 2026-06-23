@@ -46,7 +46,7 @@ public class CmxGradient
 | [setSteps(int value)](#setSteps-int-) | يضبط الخطوات. |
 | [getType()](#getType--) | يحصل على النوع. |
 | [setType(int value)](#setType-int-) | يضبط النوع. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
 ### CmxGradient() {#CmxGradient--}
@@ -76,7 +76,7 @@ public final void setAngle(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الزاوية. |
+| value | float | الزاوية. |
 
 ### getCenterXOffset() {#getCenterXOffset--}
 ```
@@ -99,7 +99,7 @@ public final void setCenterXOffset(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | إزاحة المركز x. |
+| value | long | إزاحة المركز x. |
 
 ### getCenterYOffset() {#getCenterYOffset--}
 ```
@@ -110,7 +110,7 @@ public final long getCenterYOffset()
 يحصل على إزاحة المركز y.
 
 **Returns:**
-long - إزاحة y المركز.
+long - إزاحة y المركزية.
 ### setCenterYOffset(long value) {#setCenterYOffset-long-}
 ```
 public final void setCenterYOffset(long value)
@@ -122,7 +122,7 @@ public final void setCenterYOffset(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | إزاحة y المركز. |
+| value | long | إزاحة y المركزية. |
 
 ### getColors() {#getColors--}
 ```
@@ -168,7 +168,7 @@ public final void setEdgeOffset(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إزاحة الحافة. |
+| value | int | إزاحة الحافة. |
 
 ### getMode() {#getMode--}
 ```
@@ -191,7 +191,7 @@ public final void setMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الوضع. |
+| value | int | الوضع. |
 
 ### getOffsets() {#getOffsets--}
 ```
@@ -214,7 +214,7 @@ public final void setOffsets(float[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] | الإزاحات. |
+| value | float[] | الإزاحات. |
 
 ### getRateMethod() {#getRateMethod--}
 ```
@@ -237,7 +237,7 @@ public final void setRateMethod(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | طريقة المعدل. |
+| value | int | طريقة المعدل. |
 
 ### getRateValue() {#getRateValue--}
 ```
@@ -260,7 +260,7 @@ public final void setRateValue(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة المعدل. |
+| value | int | قيمة المعدل. |
 
 ### getScreen() {#getScreen--}
 ```
@@ -283,7 +283,7 @@ public final void setScreen(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الشاشة. |
+| value | int | الشاشة. |
 
 ### getSteps() {#getSteps--}
 ```
@@ -306,7 +306,7 @@ public final void setSteps(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الخطوات. |
+| value | int | الخطوات. |
 
 ### getType() {#getType--}
 ```
@@ -329,7 +329,7 @@ public final void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النوع. |
+| value | int | النوع. |
 
 ### toString() {#toString--}
 ```
@@ -337,7 +337,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

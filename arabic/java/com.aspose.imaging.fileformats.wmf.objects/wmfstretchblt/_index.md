@@ -1,13 +1,13 @@
 ---
 title: "WmfStretchBlt"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل META_STRETCHBLT يحدد نقل كتلة من البكسلات وفقًا لعملية نقطية مع إمكانية التوسيع أو الانكماش."
+description: "سجل META_STRETCHBLT يحدد نقل كتلة من البكسلات وفقًا لعملية نقطية مع إمكانية التوسع أو الانكماش."
 type: docs
 weight: 93
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfStretchBlt extends WmfObject
 ```
@@ -22,24 +22,24 @@ public class WmfStretchBlt extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRasterOperation()](#getRasterOperation--) | يحصل أو يضبط عملية الراستر. |
-| [setRasterOperation(int value)](#setRasterOperation-int-) | يحصل أو يضبط عملية الراستر. |
+| [getRasterOperation()](#getRasterOperation--) | يحصل أو يضبط عملية النقطية. |
+| [setRasterOperation(int value)](#setRasterOperation-int-) | يحصل أو يضبط عملية النقطية. |
 | [getSrcHeight()](#getSrcHeight--) | يحصل أو يضبط ارتفاع المصدر. |
 | [setSrcHeight(short value)](#setSrcHeight-short-) | يحصل أو يضبط ارتفاع المصدر. |
-| [getSrcWidth()](#getSrcWidth--) | يسترجع أو يعيّن عرض المصدر. |
-| [setSrcWidth(short value)](#setSrcWidth-short-) | يسترجع أو يعيّن عرض المصدر. |
+| [getSrcWidth()](#getSrcWidth--) | يحصل أو يضبط عرض المصدر. |
+| [setSrcWidth(short value)](#setSrcWidth-short-) | يحصل أو يضبط عرض المصدر. |
 | [getSrcPosition()](#getSrcPosition--) | يحصل أو يضبط موضع المصدر. |
 | [setSrcPosition(Point value)](#setSrcPosition-com.aspose.imaging.Point-) | يحصل أو يضبط موضع المصدر. |
-| [getDestHeight()](#getDestHeight--) | يسترجع أو يعيّن ارتفاع الوجهة. |
-| [setDestHeight(short value)](#setDestHeight-short-) | يسترجع أو يعيّن ارتفاع الوجهة. |
-| [getDestWidth()](#getDestWidth--) | يسترجع أو يعيّن عرض الوجهة. |
-| [setDestWidth(short value)](#setDestWidth-short-) | يسترجع أو يعيّن عرض الوجهة. |
+| [getDestHeight()](#getDestHeight--) | يحصل أو يضبط ارتفاع الوجهة. |
+| [setDestHeight(short value)](#setDestHeight-short-) | يحصل أو يضبط ارتفاع الوجهة. |
+| [getDestWidth()](#getDestWidth--) | يحصل أو يضبط عرض الوجهة. |
+| [setDestWidth(short value)](#setDestWidth-short-) | يحصل أو يضبط عرض الوجهة. |
 | [getDstPosition()](#getDstPosition--) | يحصل أو يضبط موضع DST. |
 | [setDstPosition(Point value)](#setDstPosition-com.aspose.imaging.Point-) | يحصل أو يضبط موضع DST. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(short value)](#setReserved-short-) | يحصل أو يعيّن الحجز. |
-| [getBitmap()](#getBitmap--) | الحصول على أو تعيين الـ bitmap. |
-| [setBitmap(WmfBitmap16 value)](#setBitmap-com.aspose.imaging.fileformats.wmf.objects.WmfBitmap16-) | الحصول على أو تعيين الـ bitmap. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(short value)](#setReserved-short-) | يحصل أو يضبط الحجز. |
+| [getBitmap()](#getBitmap--) | يحصل أو يضبط الـ bitmap. |
+| [setBitmap(WmfBitmap16 value)](#setBitmap-com.aspose.imaging.fileformats.wmf.objects.WmfBitmap16-) | يحصل أو يضبط الـ bitmap. |
 ### WmfStretchBlt() {#WmfStretchBlt--}
 ```
 public WmfStretchBlt()
@@ -52,9 +52,9 @@ public int getRasterOperation()
 ```
 
 
-يحصل أو يضبط عملية الراستر.
+يحصل أو يضبط عملية النقطية.
 
-القيمة: يجب دمج بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز أحد القيم في تعداد Ternary Raster Operation.
+القيمة: يجب دمج بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز أحد القيم في تعداد عملية النقطية الثلاثية.
 
 **Returns:**
 int
@@ -64,14 +64,14 @@ public void setRasterOperation(int value)
 ```
 
 
-يحصل أو يضبط عملية الراستر.
+يحصل أو يضبط عملية النقطية.
 
-القيمة: يجب دمج بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز أحد القيم في تعداد Ternary Raster Operation.
+القيمة: يجب دمج بكسلات المصدر، والفرشاة الحالية في سياق جهاز التشغيل، وبكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز أحد القيم في تعداد عملية النقطية الثلاثية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSrcHeight() {#getSrcHeight--}
 ```
@@ -81,10 +81,10 @@ public short getSrcHeight()
 
 يحصل أو يضبط ارتفاع المصدر.
 
-القيمة: ارتفاع المستطيل المصدر، بوحدات منطقية.
+القيمة: ارتفاع المستطيل المصدر بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setSrcHeight(short value) {#setSrcHeight-short-}
 ```
 public void setSrcHeight(short value)
@@ -93,12 +93,12 @@ public void setSrcHeight(short value)
 
 يحصل أو يضبط ارتفاع المصدر.
 
-القيمة: ارتفاع المستطيل المصدر، بوحدات منطقية.
+القيمة: ارتفاع المستطيل المصدر بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getSrcWidth() {#getSrcWidth--}
 ```
@@ -106,26 +106,26 @@ public short getSrcWidth()
 ```
 
 
-يسترجع أو يعيّن عرض المصدر.
+يحصل أو يضبط عرض المصدر.
 
 القيمة: العرض، بوحدات منطقية، للمستطيل المصدر.
 
 **Returns:**
-short
+قصير
 ### setSrcWidth(short value) {#setSrcWidth-short-}
 ```
 public void setSrcWidth(short value)
 ```
 
 
-يسترجع أو يعيّن عرض المصدر.
+يحصل أو يضبط عرض المصدر.
 
 القيمة: العرض، بوحدات منطقية، للمستطيل المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getSrcPosition() {#getSrcPosition--}
 ```
@@ -160,26 +160,26 @@ public short getDestHeight()
 ```
 
 
-يسترجع أو يعيّن ارتفاع الوجهة.
+يحصل أو يضبط ارتفاع الوجهة.
 
-القيمة: ارتفاع المستطيل الوجهة، بوحدات منطقية.
+القيمة: ارتفاع المستطيل الوجهة بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setDestHeight(short value) {#setDestHeight-short-}
 ```
 public void setDestHeight(short value)
 ```
 
 
-يسترجع أو يعيّن ارتفاع الوجهة.
+يحصل أو يضبط ارتفاع الوجهة.
 
-القيمة: ارتفاع المستطيل الوجهة، بوحدات منطقية.
+القيمة: ارتفاع المستطيل الوجهة بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getDestWidth() {#getDestWidth--}
 ```
@@ -187,26 +187,26 @@ public short getDestWidth()
 ```
 
 
-يسترجع أو يعيّن عرض الوجهة.
+يحصل أو يضبط عرض الوجهة.
 
-القيمة: عرض المستطيل الوجهة، بوحدات منطقية.
+القيمة: عرض المستطيل الوجهة بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setDestWidth(short value) {#setDestWidth-short-}
 ```
 public void setDestWidth(short value)
 ```
 
 
-يسترجع أو يعيّن عرض الوجهة.
+يحصل أو يضبط عرض الوجهة.
 
-القيمة: عرض المستطيل الوجهة، بوحدات منطقية.
+القيمة: عرض المستطيل الوجهة بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getDstPosition() {#getDstPosition--}
 ```
@@ -241,26 +241,26 @@ public short getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
-القيمة: reserved. يجب تجاهل هذا الحقل.
+القيمة: المحجوز. يجب تجاهل هذا الحقل.
 
 **Returns:**
-short
+قصير
 ### setReserved(short value) {#setReserved-short-}
 ```
 public void setReserved(short value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
-القيمة: reserved. يجب تجاهل هذا الحقل.
+القيمة: المحجوز. يجب تجاهل هذا الحقل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getBitmap() {#getBitmap--}
 ```
@@ -268,9 +268,9 @@ public WmfBitmap16 getBitmap()
 ```
 
 
-الحصول على أو تعيين الـ bitmap.
+يحصل أو يضبط الـ bitmap.
 
-القيمة: الـ bitmap.
+القيمة: خريطة البت.
 
 **Returns:**
 [WmfBitmap16](../../com.aspose.imaging.fileformats.wmf.objects/wmfbitmap16)
@@ -280,9 +280,9 @@ public void setBitmap(WmfBitmap16 value)
 ```
 
 
-الحصول على أو تعيين الـ bitmap.
+يحصل أو يضبط الـ bitmap.
 
-القيمة: الـ bitmap.
+القيمة: خريطة البت.
 
 **Parameters:**
 | معامل | نوع | الوصف |

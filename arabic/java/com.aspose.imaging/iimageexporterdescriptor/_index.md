@@ -1,7 +1,7 @@
 ---
 title: "IImageExporterDescriptor"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثّل وصف مصدر تصدير الصورة."
+description: "يمثّل وصف مُصدّر الصورة."
 type: docs
 weight: 132
 url: /ar/java/com.aspose.imaging/iimageexporterdescriptor/
@@ -12,12 +12,12 @@ url: /ar/java/com.aspose.imaging/iimageexporterdescriptor/
 public interface IImageExporterDescriptor extends IImageDescriptor
 ```
 
-يمثل واصف مُصدّر الصورة. يُستخدم واصف المُصدّر لتجاوز الحاجة إلى احتواء كل مثال مُصدّر في الذاكرة ومشكلات تعدد الخيوط.
+يمثل واصف مُصدّر الصور. يُستخدم واصف المُصدّر لتجاوز الحاجة إلى احتواء كل مثال من المُصدّر في الذاكرة ومشكلات تعدد الخيوط.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [canExport(Image image, ImageOptionsBase optionsBase)](#canExport-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | يحدد ما إذا كان مُصدّر الصورة يمكنه تصدير الصورة المحددة إلى تنسيق الصورة المحدد وفقًا لخيارات الحفظ. |
+| [canExport(Image image, ImageOptionsBase optionsBase)](#canExport-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | يحدد ما إذا كان مُصدّر الصور يمكنه تصدير الصورة المحددة إلى تنسيق الصورة المحدد وفقًا لخيارات الحفظ. |
 | [createInstance()](#createInstance--) | ينشئ مثالًا جديدًا للمُصدّر. |
 ### canExport(Image image, ImageOptionsBase optionsBase) {#canExport-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-}
 ```
@@ -25,7 +25,7 @@ public abstract boolean canExport(Image image, ImageOptionsBase optionsBase)
 ```
 
 
-يحدد ما إذا كان مُصدّر الصورة يمكنه تصدير الصورة المحددة إلى تنسيق الصورة المحدد وفقًا لخيارات الحفظ.
+يحدد ما إذا كان مُصدّر الصور يمكنه تصدير الصورة المحددة إلى تنسيق الصورة المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |

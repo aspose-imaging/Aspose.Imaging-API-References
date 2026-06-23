@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusDrawingRecordType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد أنواع سجلات الرسم مخرجات الرسومات."
+description: "تحدد أنواع سجلات الرسم إخراج الرسومات."
 type: docs
 weight: 29
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawingrecordtype/
@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPlusDrawingRecordType extends EmfPlusRecord
 ```
 
-تحدد أنواع سجلات الرسم مخرجات الرسومات.
+تحدد أنواع سجلات الرسم إخراج الرسومات.

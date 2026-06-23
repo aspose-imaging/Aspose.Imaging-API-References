@@ -1,7 +1,7 @@
 ---
 title: "GifImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "توفر واجهة برمجة التطبيقات (API) لتنسيق تبادل الرسومات GIF أدوات متعددة للمطورين لمعالجة الصور النقطية المضغوطة وصور GIF المتحركة."
+description: "توفر واجهة برمجة التطبيقات لملف صورة تنسيق التبادل الرسومي GIF للمطورين أدوات متعددة لمعالجة الصور النقطية المضغوطة وملفات GIF المتحركة."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.gif/gifimage/
@@ -15,68 +15,68 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class GifImage extends RasterCachedMultipageImage implements IMultipageImageExt, IInterlaced
 ```
 
-توفر واجهة برمجة التطبيقات (API) لتنسيق تبادل الرسومات (GIF) ملف الصورة أدوات متعددة للمطورين لمعالجة الصور النقطية المضغوطة وصور GIF المتحركة. وتقدم ميزات مثل معالجة بيانات التعريف XMP، إعدادات لوحة الألوان، التحكم في لون الخلفية والشفافية، إعدادات الشفافية، تغيير الحجم، القص، تطبيق الفلاتر، تصحيح غاما، تعديل التباين، التحويل إلى تدرج الرمادي، والتحويل إلى صيغ أخرى. تمكّن هذه الواجهة البرمجية (API) من التلاعب السلس وتعزيز صور GIF لمجموعة واسعة من التطبيقات.
+توفر واجهة برمجة التطبيقات لملف صورة تنسيق التبادل الرسومي (GIF) للمطورين أدوات متعددة لمعالجة الصور النقطية المضغوطة وملفات GIF المتحركة. تقدم ميزات مثل معالجة بيانات التعريف XMP، إعدادات لوحة الألوان، التحكم في لون الخلفية والشفافية، إعدادات الشفافية، تغيير الحجم، القص، تطبيق الفلاتر، تصحيحات غاما، تعديل التباين، تحويل إلى تدرج الرمادي، والتحويل إلى صيغ أخرى. تمكّن هذه الواجهة من التلاعب السلس وتعزيز صور GIF لمجموعة واسعة من التطبيقات.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-) | ابدأ كائنًا جديدًا من [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) مع المعلمات المحددة للإطار الأول ولوحة الألوان العامة. |
-| [GifImage(GifFrameBlock firstFrame)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | تصميم صور GIF يصبح سهلاً مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-) | ابدأ كائنًا جديدًا من نوع [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) مع معلمات محددة للإطار الأول ولوحة الألوان العامة. |
+| [GifImage(GifFrameBlock firstFrame)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | تصميم صور GIF يصبح سهلًا مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). |
 | [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-) | ابدأ بسهولة مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | استرجع تنسيق الملف بسهولة باستخدام هذه الخاصية. |
-| [hasTrailer()](#hasTrailer--) | تحكم في وجود مقطع إضافي في ملفات GIF الخاصة بك باستخدام هذه الخاصية. |
-| [setTrailer(boolean value)](#setTrailer-boolean-) | تحكم في وجود مقطع إضافي في ملفات GIF الخاصة بك باستخدام هذه الخاصية. |
+| [hasTrailer()](#hasTrailer--) | تحكم في وجود مقطورة في ملفات GIF الخاصة بك باستخدام هذه الخاصية. |
+| [setTrailer(boolean value)](#setTrailer-boolean-) | تحكم في وجود مقطورة في ملفات GIF الخاصة بك باستخدام هذه الخاصية. |
 | [isPaletteSorted()](#isPaletteSorted--) | تحكم في ترتيب لوحة الألوان في صور GIF الخاصة بك باستخدام هذه الخاصية. |
 | [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | تحكم في ترتيب لوحة الألوان في صور GIF الخاصة بك باستخدام هذه الخاصية. |
-| [getLoopsCount()](#getLoopsCount--) | استرجع عدد مرات التكرار بسهولة باستخدام هذه الخاصية. |
-| [setLoopsCount(int value)](#setLoopsCount-int-) | استرجع عدد مرات التكرار بسهولة باستخدام هذه الخاصية. |
+| [getLoopsCount()](#getLoopsCount--) | استرجع عدد التكرارات بسهولة باستخدام هذه الخاصية. |
+| [setLoopsCount(int value)](#setLoopsCount-int-) | استرجع عدد التكرارات بسهولة باستخدام هذه الخاصية. |
 | [getPaletteColorResolutionBits()](#getPaletteColorResolutionBits--) | تحكم في دقة ألوان لوحة الألوان لصور GIF الخاصة بك باستخدام هذه الخاصية. |
 | [setPaletteColorResolutionBits(byte value)](#setPaletteColorResolutionBits-byte-) | تحكم في دقة ألوان لوحة الألوان لصور GIF الخاصة بك باستخدام هذه الخاصية. |
 | [getPageCount()](#getPageCount--) | استرجع العدد الإجمالي للصفحات الموجودة داخل الصورة باستخدام هذه الخاصية البسيطة. |
 | [getPages()](#getPages--) | احصل على الوصول إلى الصفحات داخل الصورة عبر هذه الخاصية المريحة، مما يتيح التنقل السلس وتعديل الصفحات الفردية حسب الحاجة. |
-| [getBlocks()](#getBlocks--) | احصل على الوصول إلى كتل GIF بسهولة باستخدام هذه الخاصية، مما يسهل استرجاع وتعديل هياكل البيانات الأساسية للصورة. |
+| [getBlocks()](#getBlocks--) | احصل على الوصول إلى كتل GIF بسلاسة باستخدام هذه الخاصية، مما يسهل استرجاع وتعديل هياكل البيانات الأساسية للصورة. |
 | [isInterlaced()](#isInterlaced--) | يحدد ما إذا كانت الصورة متشابكة، مما يؤثر على عرضها أثناء التحميل. |
-| [getOriginalOptions()](#getOriginalOptions--) | استرجع الخيارات المستندة إلى إعدادات الملف الأصلي، وهي ضرورية للحفاظ على الدقة والاتساق في معالجة وتعديل الصور. |
+| [getOriginalOptions()](#getOriginalOptions--) | استرجع الخيارات المستندة إلى إعدادات الملف الأصلية، وهي ضرورية للحفاظ على الدقة والاتساق في معالجة الصور وتعديلها. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | أدمج صفحة جديدة بسلاسة في الصورة الحالية، مما يعزز محتواها ويوسع نطاقها. |
 | [getActiveFrame()](#getActiveFrame--) | تحكم وتعديل الإطارات باستخدام هذه الخاصية، مما يتيح التنقل السلس وتعديل الإطار النشط داخل صورة GIF. |
 | [setActiveFrame(GifFrameBlock value)](#setActiveFrame-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | تحكم وتعديل الإطارات باستخدام هذه الخاصية، مما يتيح التنقل السلس وتعديل الإطار النشط داخل صورة GIF. |
-| [getBackgroundColor()](#getBackgroundColor--) | تحكم في لون الخلفية لصورة GIF باستخدام هذه الخاصية. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | تحكم في لون الخلفية لصورة GIF باستخدام هذه الخاصية. |
+| [getBackgroundColor()](#getBackgroundColor--) | تحكم في لون خلفية صورة GIF باستخدام هذه الخاصية. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | تحكم في لون خلفية صورة GIF باستخدام هذه الخاصية. |
 | [getBackgroundColorIndex()](#getBackgroundColorIndex--) | تحكم في فهرس لون الخلفية لصورة GIF باستخدام هذه الخاصية. |
 | [setBackgroundColorIndex(byte value)](#setBackgroundColorIndex-byte-) | تحكم في فهرس لون الخلفية لصورة GIF باستخدام هذه الخاصية. |
 | [getPixelAspectRatio()](#getPixelAspectRatio--) | تحكم في نسبة أبعاد البكسل لصورة GIF باستخدام هذه الخاصية. |
 | [setPixelAspectRatio(byte value)](#setPixelAspectRatio-byte-) | تحكم في نسبة أبعاد البكسل لصورة GIF باستخدام هذه الخاصية. |
-| [hasTransparentColor()](#hasTransparentColor--) | حدد ما إذا كان الإطار النشط لصورة GIF يحتوي على لون شفاف. |
+| [hasTransparentColor()](#hasTransparentColor--) | حدد ما إذا كان الإطار النشط لصورة GIF يتضمن لونًا شفافًا. |
 | [getTransparentColor()](#getTransparentColor--) | استرجع اللون الشفاف للإطار النشط في صورة GIF. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | حدد ما إذا كان الإطار النشط لصورة GIF يحتوي على لون شفاف. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | حدد ما إذا كان الإطار النشط لصورة GIF يتضمن لونًا شفافًا. |
 | [hasBackgroundColor()](#hasBackgroundColor--) | تحدد هذه الخاصية ما إذا كانت صورة GIF تحتوي على لون خلفية. |
-| [getImageOpacity()](#getImageOpacity--) | استرجع شفافية الإطار النشط داخل الصورة، مما يوفر نظرة على مستوى الشفافية. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | يعيد تحجيم هذه [Image](../../com.aspose.imaging/image) المثيل. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | يعيد تحجيم هذه [Image](../../com.aspose.imaging/image) المثيل. |
-| [resizeFullFrame(int newWidth, int newHeight, int resizeType)](#resizeFullFrame-int-int-int-) | إعادة تحجيم الصورة مع مراعاة الإطارات الكاملة لكل صفحة في GIF، وبالتالي منع ظهور العيوب المحتملة. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | قم بإجراء دوران أو انعكاس أو كليهما على الإطار النشط فقط. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | طبق التمويه على الصورة الحالية. |
+| [getImageOpacity()](#getImageOpacity--) | استرجاع شفافية الإطار النشط داخل الصورة، مما يوفر نظرة على مستوى شفافتها. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | يعيد تحجيم هذه الحالة من [Image](../../com.aspose.imaging/image). |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | يعيد تحجيم هذه الحالة من [Image](../../com.aspose.imaging/image). |
+| [resizeFullFrame(int newWidth, int newHeight, int resizeType)](#resizeFullFrame-int-int-int-) | إعادة تحجيم الصورة مع مراعاة الإطارات الكاملة لكل صفحة في ملف GIF، وبالتالي منع ظهور أي تشوهات محتملة. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | تنفيذ الدوران أو القلب أو كليهما على الإطار النشط فقط. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | تطبيق التمويه على الصورة الحالية. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | قص الصورة باستخدام منطقة مستطيلة محددة. |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | حسّن جودة الصورة بتطبيق تصحيح جاما. |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | طبق مرشحًا محددًا على المنطقة المخصصة من الصورة، مما يعزز جودتها البصرية أو يغيّر مظهرها حسب الرغبة. |
-| [setFrameTime(int time)](#setFrameTime-int-) | يضبط مدة كل إطار بالمللي ثانية، مما يضمن توقيتًا ثابتًا طوال تسلسل الصور. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | يضبط سطوع الصورة وفقًا للمعامل المحدد `brightness`. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | تحسين جودة الصورة عن طريق تطبيق تصحيح جاما. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | تطبيق مرشح محدد على المنطقة المخصصة من الصورة، مما يعزز جودتها البصرية أو يغير مظهرها حسب الرغبة. |
+| [setFrameTime(int time)](#setFrameTime-int-) | يضبط مدة كل إطار بالمللي ثانية، مما يضمن توقيتًا ثابتًا عبر تسلسل الصور. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | يضبط سطوع الصورة وفقًا للمعامل `brightness` المحدد. |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | يضبط تباين الصورة، معززًا أو مخفضًا الفرق في السطوع بين البكسلات. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | تصحيح جاما للصورة يطبق تعديلًا غير خطي على قيم البكسل، معززًا أو مخفضًا السطوع بناءً على المعاملات المحددة للقنوات الحمراء والخضراء والزرقاء. |
-| [grayscale()](#grayscale--) | تحويل الصورة إلى تمثيلها بالدرجات الرمادية يحول الصورة الملونة إلى نسخة بالدرجات الرمادية عن طريق إزالة معلومات اللون مع الحفاظ على الإضاءة. |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | تحويل الصورة إلى ثنائية باستخدام عتبة محددة مسبقًا يحول صورة رمادية أو ملونة إلى صورة ثنائية، حيث يتم تصنيف كل بكسل إما أسود أو أبيض بناءً على ما إذا كانت قيمة شدته تتجاوز العتبة المحددة. |
-| [binarizeOtsu()](#binarizeOtsu--) | تحويل الصورة إلى ثنائية باستخدام طريقة أوتسو لتحديد العتبة هو أسلوب يُستخدم لتحديد قيمة العتبة المثلى تلقائيًا لتحويل صورة رمادية إلى صورة ثنائية. |
-| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية عتبة برادلي التكيفية مع عتبة الصورة المتكاملة هو أسلوب لتحويل صورة رمادية إلى صورة ثنائية. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | تصحيح الجاما للصورة يطبق تعديلًا غير خطي على قيم البكسل، معززًا أو مخفضًا السطوع بناءً على المعاملات المحددة لقنوات الأحمر والأخضر والأزرق. |
+| [grayscale()](#grayscale--) | تحويل الصورة إلى تمثيلها بالدرجات الرمادية يحول الصورة الملونة إلى نسخة رمادية عن طريق إزالة معلومات اللون مع الحفاظ على الإضاءة. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | تحويل الصورة إلى ثنائية باستخدام عتبة محددة مسبقًا يحول الصورة الرمادية أو الملونة إلى صورة ثنائية، حيث يتم تصنيف كل بكسل إما كأبيض أو أسود بناءً على ما إذا كانت قيمة شدتها تتجاوز العتبة المحددة. |
+| [binarizeOtsu()](#binarizeOtsu--) | تحويل الصورة إلى ثنائية باستخدام طريقة أوسو لتحديد العتبة هو أسلوب يُستخدم لتحديد القيمة المثلى للعتبة تلقائيًا لتحويل الصورة الرمادية إلى صورة ثنائية. |
+| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة التكيفية لبرايدلي مع عتبة الصورة المتكاملة هو أسلوب لتحويل الصورة الرمادية إلى صورة ثنائية. |
 | [orderBlocks()](#orderBlocks--) | ترتيب كتل GIF وفقًا لمواصفات GIF يضمن تخطيطًا صحيحًا للـ GIF والامتثال للمعيار. |
 | [clearBlocks()](#clearBlocks--) | مسح جميع كتل GIF يزيل أي بيانات موجودة مخزنة داخل الصورة. |
-| [insertBlock(int index, IGifBlock block)](#insertBlock-int-com.aspose.imaging.fileformats.gif.IGifBlock-) | إدراج كتلة GIF جديدة يتيح لك إضافة بيانات مخصصة في موضع محدد داخل الصورة. |
+| [insertBlock(int index, IGifBlock block)](#insertBlock-int-com.aspose.imaging.fileformats.gif.IGifBlock-) | إدراج كتلة GIF جديدة يتيح لك إضافة بيانات مخصصة في موقع محدد داخل الصورة. |
 | [addBlock(IGifBlock block)](#addBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | إضافة كتلة GIF جديدة يتيح لك تضمين بيانات إضافية داخل الصورة. |
 | [removeBlock(IGifBlock block)](#removeBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | إزالة كتلة GIF تزيل بيانات محددة من الصورة، مما يوفر القدرة على تنظيف أو تعديل بنية الصورة. |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | تغيير الحجم بشكل متناسب يحافظ على نسبة أبعاد الصورة أثناء تعديل حجمها، مما يضمن عدم ظهور الصورة مشوهة أو ممدودة. |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | إعادة التحجيم المتناسبة تحافظ على نسبة أبعاد الصورة أثناء تعديل حجمها، مما يضمن عدم ظهور الصورة مشوهة أو ممدودة. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | هذه الطريقة تدور الصورة حول نقطة مركزها. |
 
 ## Example: This example shows how to create a GIF image and save it to a file.
@@ -87,7 +87,7 @@ String dir = "c:\\temp\\";
 // إنشاء كتلة إطار GIF بحجم 100×100 بكسل.
 com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock firstBlock = new com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock(100, 100);
 try {
-    // املأ الكتلة بالكامل باللون الأحمر.
+    // ملء الكتلة بأكملها باللون الأحمر.
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(firstBlock);
     com.aspose.imaging.brushes.SolidBrush brush = new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getRed());
     gr.fillRectangle(brush, firstBlock.getBounds());
@@ -171,13 +171,13 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 ```
 
 
-ابدأ كائنًا جديدًا [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) مع معلمات محددة للإطار الأول واللوحة العامة. ابدأ إدارة صور GIF بسرعة، مع ضمان تمثيل دقيق بإعدادات قابلة للتخصيص للحصول على أفضل النتائج.
+ابدأ كائنًا جديدًا من [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) بالمعلمات المحددة للإطار الأول واللوحة العامة. ابدأ في إدارة صور GIF بسرعة، مع ضمان تمثيل دقيق باستخدام إعدادات قابلة للتخصيص للحصول على أفضل النتائج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | الإطار الأول لبدء إنشاء صورة GIF به. |
-| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | اللوحة العامة للاستخدام. لاحظ أنه إذا كان كل من `firstFrame` و `globalPalette` فارغين (null) فسيتم استخدام اللوحة العامة الافتراضية. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | الإطار الأول لتهيئة صورة GIF به. |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | اللوحة العامة للاستخدام. لاحظ أنه إذا كان كل من `firstFrame` و `globalPalette` قيمتهما null فسيتم استخدام اللوحة العامة الافتراضية. |
 
 ### GifImage(GifFrameBlock firstFrame) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-}
 ```
@@ -185,12 +185,12 @@ public GifImage(GifFrameBlock firstFrame)
 ```
 
 
-إنشاء صور GIF يصبح سهلًا مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). باستخدام معلمة firstFrame فقط، تدخل عالمًا من التواصل البصري الديناميكي.
+تصميم صور GIF يصبح سهلًا مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). باستخدام معلمة firstFrame فقط، ينتقل إلى عالم من التواصل البصري الديناميكي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | الإطار الأول لبدء إنشاء صورة GIF به. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | الإطار الأول لتهيئة صورة GIF به. |
 
 ### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-}
 ```
@@ -198,18 +198,18 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean i
 ```
 
 
-ابدأ بسهولة مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). باستخدام هذه الطريقة البسيطة، يمكنك الغوص في إنشاء صور GIF متحركة بسهولة. فقط قدم firstFrame وglobalPalette وpaletteColorResolution وaspectRatio وغيرها من المعلمات، وستكون جاهزًا لإحياء مرئياتك.
+ابدأ بسهولة مع مُنشئ [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage). باستخدام هذه الطريقة البسيطة، يمكنك الغوص في إنشاء صور GIF المتحركة بسهولة. فقط قدم firstFrame و globalPalette و paletteColorResolution و aspectRatio وغيرها من المعلمات، وستكون جاهزًا لإحياء مرئياتك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | الإطار الأول لبدء إنشاء صورة GIF به. |
-| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | اللوحة العامة للاستخدام. لاحظ أنه إذا كان كل من `firstFrame` و `globalPalette` فارغين (null) فسيتم استخدام اللوحة العامة الافتراضية. |
-| isPaletteSorted | boolean | إذا تم تعيينه إلى `true` يتم فرز اللوحة. لاحظ أن المعلمة تُستخدم عندما يكون `globalPalette` غير فارغ. |
-| paletteColorResolution | byte | دقة ألوان اللوحة. لاحظ أن المعلمة تُستخدم عندما يكون `globalPalette` غير فارغ. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | الإطار الأول لتهيئة صورة GIF به. |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | اللوحة العامة للاستخدام. لاحظ أنه إذا كان كل من `firstFrame` و `globalPalette` قيمتهما null فسيتم استخدام اللوحة العامة الافتراضية. |
+| isPaletteSorted | boolean | إذا تم تعيينه إلى `true` تُرتّب اللوحة. لاحظ أن المعامل يُستخدم عندما لا تكون `globalPalette` null. |
+| paletteColorResolution | byte | دقة ألوان اللوحة. لاحظ أن المعامل يُستخدم عندما لا تكون `globalPalette` null. |
 | paletteBackgroundColorIndex | byte | فهرس لون خلفية اللوحة. |
 | aspectRatio | byte | نسبة العرض إلى الارتفاع. |
-| hasTrailer | boolean | إذا تم تعيينه إلى `true` تحتوي صورة GIF على مقطع تمهيدي، وإلا لن يتم كتابة أي مقطع تمهيدي في نهاية الدفق. |
+| hasTrailer | boolean | إذا تم تعيينه إلى `true` تحتوي صورة GIF على مقطع نهائي، وإلا لن يُكتب أي مقطع نهائي في نهاية التدفق. |
 
 ### getFileFormat() {#getFileFormat--}
 ```
@@ -217,7 +217,7 @@ public long getFileFormat()
 ```
 
 
-استرجع تنسيق الملف بسهولة باستخدام هذه الخاصية. إنها مصدرُك الأساسي لتحديد تنسيق ملفاتك. مدمجة بسلاسة في سير عملك، توفر معلومات حيوية دون أي عناء.
+استرجع تنسيق الملف بسهولة باستخدام هذه الخاصية. إنها المصدر الأساسي لتحديد تنسيق ملفاتك. مدمجة بسلاسة في سير عملك، توفر لك معلومات حيوية دون أي عناء.
 
 **Returns:**
 long
@@ -227,22 +227,22 @@ public boolean hasTrailer()
 ```
 
 
-إدارة وجود مقطع تمهيدي في ملفات GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت تحتاج إلى التحقق مما إذا كان هناك مقطع تمهيدي أو ضبط وجوده، فإن هذه الخاصية تبسط العملية. حافظ على هيكلة ملفات GIF الخاصة بك والامتثال باستخدام هذه الميزة البديهية.
+إدارة وجود مقطع نهائي في ملفات GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت بحاجة للتحقق من وجود مقطع نهائي أو ضبط وجوده، فإن هذه الخاصية تبسط العملية. حافظ على هيكلة ملفات GIF الخاصة بك والامتثال باستخدام هذه الميزة البديهية.
 
 **Returns:**
-منطقي - `true` إذا كان GIF يحتوي على ذيل؛ وإلا `false`.
+boolean - `true` إذا كان GIF يحتوي على مقبض النهاية؛ وإلا `false`.
 ### setTrailer(boolean value) {#setTrailer-boolean-}
 ```
 public void setTrailer(boolean value)
 ```
 
 
-إدارة وجود مقطع تمهيدي في ملفات GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت تحتاج إلى التحقق مما إذا كان هناك مقطع تمهيدي أو ضبط وجوده، فإن هذه الخاصية تبسط العملية. حافظ على هيكلة ملفات GIF الخاصة بك والامتثال باستخدام هذه الميزة البديهية.
+إدارة وجود مقطع نهائي في ملفات GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت بحاجة للتحقق من وجود مقطع نهائي أو ضبط وجوده، فإن هذه الخاصية تبسط العملية. حافظ على هيكلة ملفات GIF الخاصة بك والامتثال باستخدام هذه الميزة البديهية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان GIF يحتوي على ذيل؛ وإلا `false`. |
+| value | boolean | `true` إذا كان GIF يحتوي على مقبض النهاية؛ وإلا `false`. |
 
 ### isPaletteSorted() {#isPaletteSorted--}
 ```
@@ -250,22 +250,22 @@ public boolean isPaletteSorted()
 ```
 
 
-تحكم في فرز اللوحة في صور GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت تحتاج إلى التحقق مما إذا كانت اللوحة مرتبة أو ضبط سلوك الفرز، فإن هذه الخاصية توفر طريقة مباشرة لإدارة تنظيم اللوحة في ملفات GIF.
+تحكم في ترتيب اللوحة في صور GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت بحاجة للتحقق مما إذا كانت اللوحة مرتبة أو ضبط سلوك الترتيب، توفر هذه الخاصية طريقة مباشرة لإدارة تنظيم اللوحة في ملفات GIF.
 
 **Returns:**
-boolean - `true` إذا تم فرز اللوحة؛ وإلا `false`.
+منطقي - `true` إذا كانت اللوحة مرتبة؛ وإلا `false`.
 ### setPaletteSorted(boolean value) {#setPaletteSorted-boolean-}
 ```
 public void setPaletteSorted(boolean value)
 ```
 
 
-تحكم في فرز اللوحة في صور GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت تحتاج إلى التحقق مما إذا كانت اللوحة مرتبة أو ضبط سلوك الفرز، فإن هذه الخاصية توفر طريقة مباشرة لإدارة تنظيم اللوحة في ملفات GIF.
+تحكم في ترتيب اللوحة في صور GIF الخاصة بك باستخدام هذه الخاصية. سواء كنت بحاجة للتحقق مما إذا كانت اللوحة مرتبة أو ضبط سلوك الترتيب، توفر هذه الخاصية طريقة مباشرة لإدارة تنظيم اللوحة في ملفات GIF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا تم فرز اللوحة؛ وإلا `false`. |
+| value | boolean | `true` إذا كانت اللوحة مرتبة؛ وإلا `false`. |
 
 ### getLoopsCount() {#getLoopsCount--}
 ```
@@ -273,7 +273,7 @@ public int getLoopsCount()
 ```
 
 
-استرجع عدد مرات التكرار بسهولة باستخدام هذه الخاصية. إذا كانت صورة GIF الخاصة بك تتضمن معلومات التكرار، فإن هذه الخاصية تمنحك وصولًا سريعًا إلى عدد التكرارات، مما يتيح لك إدارة سلوك التكرار في ملفات GIF بسلاسة.
+استرجع عدد مرات التكرار بسهولة باستخدام هذه الخاصية. إذا كانت صورة GIF الخاصة بك تتضمن معلومات التكرار، فإن هذه الخاصية تمنحك وصولًا سريعًا إلى عدد التكرارات، مما يتيح لك إدارة سلوك التكرار بسلاسة في ملفات GIF الخاصة بك.
 
 **Returns:**
 int - عدد الحلقات أو 1 (القيمة الافتراضية)
@@ -283,12 +283,12 @@ public void setLoopsCount(int value)
 ```
 
 
-استرجع عدد مرات التكرار بسهولة باستخدام هذه الخاصية. إذا كانت صورة GIF الخاصة بك تتضمن معلومات التكرار، فإن هذه الخاصية تمنحك وصولًا سريعًا إلى عدد التكرارات، مما يتيح لك إدارة سلوك التكرار في ملفات GIF بسلاسة.
+استرجع عدد مرات التكرار بسهولة باستخدام هذه الخاصية. إذا كانت صورة GIF الخاصة بك تتضمن معلومات التكرار، فإن هذه الخاصية تمنحك وصولًا سريعًا إلى عدد التكرارات، مما يتيح لك إدارة سلوك التكرار بسلاسة في ملفات GIF الخاصة بك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد الحلقات أو 1 (القيمة الافتراضية) |
+| value | int | عدد الحلقات أو 1 (القيمة الافتراضية) |
 
 ### getPaletteColorResolutionBits() {#getPaletteColorResolutionBits--}
 ```
@@ -296,7 +296,7 @@ public byte getPaletteColorResolutionBits()
 ```
 
 
-إدارة دقة ألوان لوحة GIF الخاصة بك باستخدام هذه الخاصية. اضبط عدد البتات المستخدمة لتمثيل الألوان في اللوحة، مما يوفر تحكمًا دقيقًا في عمق اللون وجودة الصورة.
+إدارة دقة ألوان لوحة ألوان صور GIF الخاصة بك باستخدام هذه الخاصية. اضبط عدد البتات المستخدمة لتمثيل الألوان في اللوحة، مما يوفر تحكمًا دقيقًا في عمق اللون وجودة الصورة.
 
 **Returns:**
 byte - بتات دقة ألوان اللوحة.
@@ -306,12 +306,12 @@ public void setPaletteColorResolutionBits(byte value)
 ```
 
 
-إدارة دقة ألوان لوحة GIF الخاصة بك باستخدام هذه الخاصية. اضبط عدد البتات المستخدمة لتمثيل الألوان في اللوحة، مما يوفر تحكمًا دقيقًا في عمق اللون وجودة الصورة.
+إدارة دقة ألوان لوحة ألوان صور GIF الخاصة بك باستخدام هذه الخاصية. اضبط عدد البتات المستخدمة لتمثيل الألوان في اللوحة، مما يوفر تحكمًا دقيقًا في عمق اللون وجودة الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | بتات دقة ألوان اللوحة. |
+| value | byte | بتات دقة ألوان اللوحة. |
 
 ### getPageCount() {#getPageCount--}
 ```
@@ -319,7 +319,7 @@ public int getPageCount()
 ```
 
 
-استرجع العدد الإجمالي للصفحات المحتواة داخل الصورة باستخدام هذه الخاصية المباشرة. مثالية لتقييم سريع لمدى محتوى الصورة.
+استرجع العدد الإجمالي للصفحات الموجودة داخل الصورة باستخدام هذه الخاصية البسيطة. مثالية لتقييم نطاق محتوى الصورة بسرعة.
 
 **Returns:**
 int - عدد الصفحات.
@@ -339,7 +339,7 @@ public IGifBlock[] getBlocks()
 ```
 
 
-احصل على الوصول إلى كتل GIF بسهولة باستخدام هذه الخاصية، مما يسهل استرجاع وتعديل هياكل البيانات الأساسية للصورة.
+احصل على الوصول إلى كتل GIF بسلاسة باستخدام هذه الخاصية، مما يسهل استرجاع وتعديل هياكل البيانات الأساسية للصورة.
 
 **Returns:**
 com.aspose.imaging.fileformats.gif.IGifBlock[] - كتل GIF.
@@ -352,14 +352,14 @@ public boolean isInterlaced()
 يحدد ما إذا كانت الصورة متشابكة، مما يؤثر على عرضها أثناء التحميل. توفر هذه الخاصية نظرة على سلوك عرض الصورة، وهو أمر أساسي لتحسين استراتيجيات التحميل وتعزيز تجربة المشاهدة العامة.
 
 **Returns:**
-منطقي - `true` إذا كان هذا الكائن الصورة متشابكًا؛ وإلا `false`.
+boolean - `true` إذا كانت نسخة الصورة هذه متشابكة؛ وإلا `false`.
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
 public ImageOptionsBase getOriginalOptions()
 ```
 
 
-استرجع الخيارات المستندة إلى إعدادات الملف الأصلية، وهي ضرورية للحفاظ على الدقة والاتساق في معالجة الصور وتعديلها. تسمح هذه الطريقة بدمج سلس للمعلمات الخاصة بالملف في العمليات اللاحقة، مما يضمن تمثيلًا دقيقًا والالتزام بخصائص الصورة الجوهرية. يمكن أن يكون ذلك مفيدًا للحفاظ على عمق البت ومعلمات أخرى للصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-)، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومرّرها إلى طريقة [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) كمعامل ثانٍ.
+استرجع خيارات الإعدادات المستندة إلى ملف الأصل، وهي ضرورية للحفاظ على الدقة والاتساق في معالجة الصور وتعديلها. تتيح هذه الطريقة دمج معلمات الملف المحددة بسلاسة في العمليات اللاحقة، مما يضمن تمثيلًا دقيقًا والالتزام بخصائص الصورة الجوهرية. يمكن أن يكون ذلك مفيدًا للحفاظ على عمق البتات وغيرها من معلمات الصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-)، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومررها إلى طريقة [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) كمعامل ثانٍ.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -369,12 +369,12 @@ public void addPage(RasterImage page)
 ```
 
 
-أدمج صفحة جديدة بسلاسة في الصورة الحالية، معززًا محتواها وموسعًا نطاقها. تُضيف هذه الطريقة مجموعات الصور محتوى إضافيًا، مما يعزز الإبداع والمرونة في إدارة الصور وتكوينها.
+أدمج صفحة جديدة بسلاسة في الصورة الحالية، مما يعزز محتواها ويوسع نطاقها. تُضيف هذه الطريقة مجموعات الصور محتوى إضافيًا، مما يعزز الإبداع والمرونة في إدارة وتكوين الصور.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة التي سيتم إضافتها. |
+| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة المراد إضافتها. |
 
 
 **Example: Create multipage GIF image using single page raster images.**
@@ -482,7 +482,7 @@ public Color getBackgroundColor()
 ```
 
 
-تحكم في لون الخلفية لصورة GIF باستخدام هذه الخاصية. يمكنك تعيين أو استرجاع لون الخلفية لضمان الاتساق وتعزيز الجاذبية البصرية.
+إدارة لون الخلفية لصورة GIF باستخدام هذه الخاصية. يمكنك تعيين أو استرجاع لون الخلفية لضمان الاتساق وتعزيز الجاذبية البصرية.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - the background color.
@@ -492,7 +492,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-تحكم في لون الخلفية لصورة GIF باستخدام هذه الخاصية. يمكنك تعيين أو استرجاع لون الخلفية لضمان الاتساق وتعزيز الجاذبية البصرية.
+إدارة لون الخلفية لصورة GIF باستخدام هذه الخاصية. يمكنك تعيين أو استرجاع لون الخلفية لضمان الاتساق وتعزيز الجاذبية البصرية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -505,22 +505,22 @@ public byte getBackgroundColorIndex()
 ```
 
 
-تحكم في فهرس لون الخلفية لصورة GIF باستخدام هذه الخاصية. قم بتعيين أو استرجاع الفهرس للحفاظ على الاتساق أو تحقيق التأثيرات البصرية المطلوبة.
+تحكم في فهرس لون الخلفية لصورة GIF باستخدام هذه الخاصية. عيّن أو استرجع الفهرس للحفاظ على الاتساق أو لتحقيق التأثيرات البصرية المطلوبة.
 
 **Returns:**
-بايت - فهرس لون الخلفية.
+byte - فهرس لون الخلفية.
 ### setBackgroundColorIndex(byte value) {#setBackgroundColorIndex-byte-}
 ```
 public void setBackgroundColorIndex(byte value)
 ```
 
 
-تحكم في فهرس لون الخلفية لصورة GIF باستخدام هذه الخاصية. قم بتعيين أو استرجاع الفهرس للحفاظ على الاتساق أو تحقيق التأثيرات البصرية المطلوبة.
+تحكم في فهرس لون الخلفية لصورة GIF باستخدام هذه الخاصية. عيّن أو استرجع الفهرس للحفاظ على الاتساق أو لتحقيق التأثيرات البصرية المطلوبة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | فهرس لون الخلفية. |
+| value | byte | فهرس لون الخلفية. |
 
 ### getPixelAspectRatio() {#getPixelAspectRatio--}
 ```
@@ -528,22 +528,22 @@ public byte getPixelAspectRatio()
 ```
 
 
-تحكم في نسبة أبعاد البكسل لصورة GIF باستخدام هذه الخاصية. قم بتعيين أو استرجاع النسبة لضمان عرض دقيق والحفاظ على جودة الصورة البصرية.
+إدارة نسبة أبعاد البكسل لصورة GIF باستخدام هذه الخاصية. عيّن أو استرجع النسبة لضمان عرض دقيق والحفاظ على دقة الصورة البصرية.
 
 **Returns:**
-بايت - نسبة أبعاد البكسل.
+byte - نسبة أبعاد البكسل.
 ### setPixelAspectRatio(byte value) {#setPixelAspectRatio-byte-}
 ```
 public void setPixelAspectRatio(byte value)
 ```
 
 
-تحكم في نسبة أبعاد البكسل لصورة GIF باستخدام هذه الخاصية. قم بتعيين أو استرجاع النسبة لضمان عرض دقيق والحفاظ على جودة الصورة البصرية.
+إدارة نسبة أبعاد البكسل لصورة GIF باستخدام هذه الخاصية. عيّن أو استرجع النسبة لضمان عرض دقيق والحفاظ على دقة الصورة البصرية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | نسبة أبعاد البكسل. |
+| value | byte | نسبة أبعاد البكسل. |
 
 ### hasTransparentColor() {#hasTransparentColor--}
 ```
@@ -554,7 +554,7 @@ public boolean hasTransparentColor()
 حدد ما إذا كان الإطار النشط لصورة GIF يحتوي على لون شفاف. توفر هذه الخاصية طريقة مريحة للتحقق من الشفافية داخل الصورة.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان الإطار النشط يحتوي على لون شفاف.
+boolean - قيمة تشير إلى ما إذا كان الإطار النشط يحتوي على لون شفاف.
 ### getTransparentColor() {#getTransparentColor--}
 ```
 public Color getTransparentColor()
@@ -576,7 +576,7 @@ public void setTransparentColor(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان الإطار النشط يحتوي على لون شفاف. |
+| value | boolean | قيمة تشير إلى ما إذا كان الإطار النشط له لون شفاف. |
 
 ### hasBackgroundColor() {#hasBackgroundColor--}
 ```
@@ -584,19 +584,19 @@ public boolean hasBackgroundColor()
 ```
 
 
-تحدد هذه الخاصية ما إذا كانت صورة GIF تحتوي على لون خلفية. إذا كانت true، فهذا يعني أن الصورة تشمل لون خلفية.
+تحدد هذه الخاصية ما إذا كانت صورة GIF تحتوي على لون خلفية. إذا كان صحيحًا، فإنها تشير إلى أن الصورة تشمل لون خلفية.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون خلفية.
+منطقي - قيمة تشير إلى ما إذا كانت الصورة لها لون خلفية.
 ### getImageOpacity() {#getImageOpacity--}
 ```
 public float getImageOpacity()
 ```
 
 
-استرجع شفافية الإطار النشط داخل الصورة، مما يوفر نظرة على مستوى الشفافية. هذه الخاصية مفيدة بشكل خاص لفهم درجة الشفافية أو العتمة للإطار النشط في الصورة.
+استرجع شفافية الإطار النشط داخل الصورة، مما يوفر نظرة على مستوى الشفافية الخاص به. هذه الخاصية مفيدة بشكل خاص لفهم درجة الشفافية أو العتمة للإطار النشط في الصورة.
 
-قيمة الشفافية بين 0.0 (شفاف تمامًا) و 1.0 (معتم تمامًا).
+قيمة الشفافية بين 0.0 (شفاف بالكامل) و 1.0 (معتم بالكامل).
 
 **Returns:**
 عائم - شفافية هذه الصورة (الإطار النشط).
@@ -606,7 +606,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-يعيد تحجيم هذه [Image](../../com.aspose.imaging/image) المثيل.
+يعيد تحجيم هذه الحالة من [Image](../../com.aspose.imaging/image).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -664,7 +664,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-يعيد تحجيم هذه [Image](../../com.aspose.imaging/image) المثيل.
+يعيد تحجيم هذه الحالة من [Image](../../com.aspose.imaging/image).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -681,7 +681,7 @@ String dir = "c:\\temp\\";
 
 com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة الكسرية الموزونة والمختلطة واستيفاء lanczos3.
 resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
 
 // المرشح المستطيل الصغير
@@ -690,7 +690,7 @@ resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular
 // عدد الألوان في لوحة الألوان.
 resizeSettings.setEntriesCount(256);
 
-// لم يتم استخدام تقليل ألوان.
+// لم يتم استخدام تقليل ألوان الصورة
 resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
 
 // طريقة إقليدية
@@ -700,10 +700,10 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات متكيفة.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     gifImage.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
 
-    // حفظ إلى PNG
+    // احفظ إلى PNG
     gifImage.save(dir + "downsample.adaptive.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -716,7 +716,7 @@ public void resizeFullFrame(int newWidth, int newHeight, int resizeType)
 ```
 
 
-تغيير حجم الصورة مع مراعاة الإطارات الكاملة لكل صفحة في GIF، مما يمنع ظهور العيوب المحتملة. هذه الطريقة أساسية للحفاظ على سلامة وجودة الصورة، خاصةً عند التعامل مع GIF المتحركة أو تسلسلات الإطارات.
+إعادة تحجيم الصورة مع مراعاة الإطارات الكاملة لكل صفحة في GIF، مما يمنع ظهور العيوب المحتملة. هذه الطريقة أساسية للحفاظ على سلامة وجودة الصورة، خاصة عند التعامل مع GIF المتحركة أو تسلسلات الإطارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -731,21 +731,21 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-قم بأداء تدوير أو قلب أو كليهما على الإطار النشط فقط. يطبق هذا الإجراء التحويلات حصريًا على الإطار النشط حاليًا للصورة، مع الحفاظ على سلامة الإطارات الأخرى في التسلسل.
+قم بأداء تدوير أو قلب أو كليهما على الإطار النشط فقط. يطبق هذا الإجراء التحويلات حصريًا على الإطار النشط الحالي للصورة، مع الحفاظ على سلامة الإطارات الأخرى في التسلسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rotateFlipType | int | نوع الدوران والقلب. |
+| rotateFlipType | int | نوع تدوير القليب. |
 
 
 **Example: This example loads a GIF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.**
 
 ``` java
 
-// فئة المساعدة المستخدمة في المثال الرئيسي أدناه.
+// فئة المساعد المستخدمة في المثال الرئيسي أدناه.
 class Utils {
-    // طريقة المساعدة للحصول على تمثيل نصي لتنسيق الملف.
+    // طريقة المساعد للحصول على تمثيل نصي لصيغة الملف.
     public String getRotateFlipTypeString(int rotateFlipType) {
         if (rotateFlipType == com.aspose.imaging.RotateFlipType.RotateNoneFlipNone) {
             return "RotateNoneFlipNone";
@@ -785,7 +785,7 @@ class Utils {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 Utils utils = new Utils();
 
 String dir = "c:\\temp\\";
@@ -799,7 +799,7 @@ int[] rotateFlipTypes = new int[]
         };
 
 for (int rotateFlipType : rotateFlipTypes) {
-    // قم بالدوران، القليب وحفظ إلى ملف الإخراج.
+    // قم بالدوران، والقلّب، واحفظ إلى ملف الإخراج.
     com.aspose.imaging.fileformats.gif.GifImage image = (com.aspose.imaging.fileformats.gif.GifImage) com.aspose.imaging.Image.load(dir + "sample.gif");
     try {
         image.rotateFlip(rotateFlipType);
@@ -816,7 +816,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-طبق التمويه على الصورة الحالية. تُحسن هذه العملية جودة الصورة عن طريق تقليل تدرج الألوان وتحسين الانتقالات اللونية، مما ينتج مظهرًا أكثر سلاسة.
+طبق التمويه على الصورة الحالية. هذه العملية تحسن جودة الصورة عن طريق تقليل تدرج الألوان وتحسين الانتقالات اللونية، مما ينتج مظهرًا أكثر سلاسة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -835,9 +835,9 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // قم بتنفيذ تدرّج العتبة باستخدام لوحة ألوان 4‑بت تحتوي على 16 لونًا.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين بالعتبة باستخدام لوحة ألوان 4-بت تحتوي على 16 لونًا.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     gifImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4, null);
 
     gifImage.save(dir + "sample.ThresholdDithering4.png", new com.aspose.imaging.imageoptions.PngOptions());
@@ -849,9 +849,9 @@ image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // قم بتنفيذ تدرّج Floyd باستخدام لوحة ألوان 1‑بت تحتوي فقط على لونين - الأسود والأبيض.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين فلويد باستخدام لوحة ألوان 1-بت تحتوي فقط على لونين - أسود وأبيض.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     gifImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1, null);
 
     gifImage.save(dir + "sample.FloydSteinbergDithering1.png", new com.aspose.imaging.imageoptions.PngOptions());
@@ -866,7 +866,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-قم بقص الصورة باستخدام منطقة مستطيلة محددة. يزيل هذا الإجراء الجزء الخارجي من الصورة، ويترك فقط المنطقة المختارة المحددة بالمستطيل.
+قص الصورة باستخدام منطقة مستطيلة محددة. يزيل هذا الإجراء الجزء الخارجي من الصورة، ويترك فقط المنطقة المختارة المحددة بالمستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -875,7 +875,7 @@ public void crop(Rectangle rectangle)
 
 
 **Example: The following example crops a GIF image.**
-المثال التالي يقتص صورة GIF. يتم تحديد منطقة القص عبر Aspose.Imaging.Rectangle.
+المثال التالي يقتطع صورة GIF. يتم تحديد منطقة القص عبر **Aspose.Imaging.Rectangle**.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -883,7 +883,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // قص الصورة. منطقة القص هي المنطقة المستطيلة المركزية في الصورة.
+    // قص الصورة. منطقة القص هي المنطقة المركزية المستطيلة للصورة.
     com.aspose.imaging.Rectangle area = new com.aspose.imaging.Rectangle(
             gifImage.getWidth() / 4,
             gifImage.getHeight() / 4,
@@ -904,12 +904,12 @@ public void adjustGamma(float gamma)
 ```
 
 
-حسّن جودة الصورة بتطبيق تصحيح جاما. يضبط هذا الأسلوب جاما اللون للصورة لتحقيق وضوح بصري أمثل. يغيّر قيمة الجاما لكل بكسل، مما ينتج تحسينًا في تمثيل الألوان ومظهر الصورة العام.
+حسّن جودة الصورة بتطبيق تصحيح جاما. هذه الطريقة تضبط جاما اللون للصورة لتحقيق وضوح بصري أمثل. إنها تعدل قيمة الجاما لكل بكسل، مما ينتج تحسينًا في تجسيد الألوان والمظهر العام للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| غاما | float | معامل غاما لقنوات الأحمر والأخضر والأزرق |
+| غاما | float | معامل غاما للقنوات الحمراء والخضراء والزرقاء |
 
 
 **Example: The following example performs gamma-correction of a GIF image.**
@@ -921,7 +921,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // تعيين معامل غاما لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معامل غاما للقنوات الحمراء والخضراء والزرقاء.
     gifImage.adjustGamma(2.5f);
     gifImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -935,7 +935,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-طبق مرشحًا محددًا على المنطقة المخصصة من الصورة، مما يعزز جودتها البصرية أو يغيّر مظهرها حسب الرغبة. يعالج هذا الأسلوب البكسلات داخل المستطيل المحدد بشكل انتقائي، مما يسمح بإجراء تعديلات مستهدفة مع الحفاظ على سلامة بيانات الصورة المحيطة.
+طبق مرشحًا محددًا على المنطقة المخصصة من الصورة، مع تحسين جودتها البصرية أو تعديل مظهرها حسب الرغبة. هذه الطريقة تعالج البكسلات داخل المستطيل المحدد بشكل انتقائي، مما يسمح بإجراء تعديلات مستهدفة مع الحفاظ على سلامة بيانات الصورة المحيطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -953,7 +953,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // طبق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // تطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بالكامل.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     gifImage.save(dir + "sample.MedianFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -964,7 +964,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // طبق مرشح تمهيد ثنائي الجانب بحجم نواة 5 على الصورة بأكملها.
+    // تطبيق مرشح تنعيم ثنائي الجانب بحجم نواة 5 على الصورة بالكامل.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     gifImage.save(dir + "sample.BilateralSmoothingFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -975,7 +975,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     gifImage.save(dir + "sample.GaussianBlurFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -986,7 +986,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // طبق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بأكملها.
+    // تطبيق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بالكامل.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     gifImage.save(dir + "sample.GaussWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -997,7 +997,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // طبق مرشح واينر حركي بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // تطبيق مرشح حركة واينر بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     gifImage.save(dir + "sample.MotionWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1008,7 +1008,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // طبق مرشح شحذ بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     gifImage.filter(gifImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     gifImage.save(dir + "sample.SharpenFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1022,7 +1022,7 @@ public void setFrameTime(int time)
 ```
 
 
-يضبط مدة كل إطار بالمللي ثانية، مما يضمن توقيتًا ثابتًا عبر تسلسل الصورة. يحدد هذا الأسلوب زمن عرض كل إطار بشكل موحد، مما يتيح تحكمًا دقيقًا في سرعة الرسوم المتحركة. تغيير هذه القيمة سيعيد ضبط التأخير لجميع الإطارات.
+يضبط مدة كل إطار بالمللي ثانية، مما يضمن توقيتًا ثابتًا عبر تسلسل الصورة. هذه الطريقة تحدد زمن العرض لكل إطار بشكل موحد، مما يسمح بالتحكم الدقيق في سرعة الرسوم المتحركة. تغيير هذه القيمة سيعيد ضبط التأخير لجميع الإطارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1035,7 +1035,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-يضبط سطوع الصورة وفقًا للمعامل `brightness` المحدد. يغيّر هذا الأسلوب سطوع الصورة بالكامل بشكل موحد، معززًا أو مخفضًا الإضاءة العامة لتحقيق التأثير المطلوب.
+يضبط سطوع الصورة وفقًا للمعامل `brightness` المحدد. هذه الطريقة تعدل سطوع الصورة بالكامل بشكل موحد، مع تعزيز أو تقليل الإضاءة العامة لتحقيق التأثير المطلوب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1052,7 +1052,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255, 255].
+    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255، 255].
     gifImage.adjustBrightness(50);
     gifImage.save(dir + "sample.AdjustBrightness.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1066,7 +1066,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-يضبط تباين الصورة، معززًا أو مخفضًا الفرق في السطوع بين البكسلات. يغيّر هذا الأسلوب النطاق النغمي العام للصورة، مما يجعل المناطق الداكنة أكثر ظلامًا والمناطق الفاتحة أكثر إشراقًا لتحسين الوضوح البصري والتفاصيل.
+يضبط تباين الصورة، مع تعزيز أو تقليل الفرق في السطوع بين البكسلات. هذه الطريقة تعدل النطاق اللوني العام للصورة، مما يجعل المناطق الداكنة أغمق والمناطق الفاتحة أكثر إشراقًا لتحسين الوضوح البصري والتفاصيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1083,7 +1083,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f, 100f].
+    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f، 100f].
     gifImage.adjustContrast(50f);
     gifImage.save(dir + "sample.AdjustContrast.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1097,14 +1097,14 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-تطبيق تصحيح جاما على الصورة يضيف تعديلًا غير خطي لقيم البكسل، معززًا أو مخفضًا السطوع بناءً على المعاملات المحددة لقنوات الأحمر والأخضر والأزرق. يساعد هذا الأسلوب على ضبط توازن الألوان وإضاءة الصورة بدقة، مما يحسن مظهرها العام وجودتها البصرية.
+تصحيح الجاما للصورة يطبق تعديلًا غير خطي على قيم البكسل، مع تعزيز أو تقليل السطوع بناءً على المعاملات المحددة لقنوات الأحمر والأخضر والأزرق. تساعد هذه الطريقة على ضبط توازن اللون والإضاءة للصورة، مما يحسن مظهرها العام وجودتها البصرية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gammaRed | float | معامل غاما لقناة الأحمر |
-| gammaGreen | float | معامل غاما لقناة الأخضر |
-| gammaBlue | float | معامل غاما لقناة اللون الأزرق |
+| gammaRed | float | معامل غاما للقناة الحمراء |
+| gammaGreen | float | معامل غاما للقناة الخضراء |
+| gammaBlue | float | معامل غاما للقناة الزرقاء |
 
 
 **Example: The following example performs gamma-correction of a GIF image applying different coefficients for color components.**
@@ -1116,7 +1116,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // تعيين معاملات غاما الفردية لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معاملات غاما الفردية للقنوات الحمراء والخضراء والزرقاء.
     gifImage.adjustGamma(1.5f, 2.5f, 3.5f);
     gifImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1130,11 +1130,11 @@ public void grayscale()
 ```
 
 
-تحويل الصورة إلى تمثيلها بالأبيض والأسود يحول الصورة الملونة إلى نسخة رمادية عن طريق إزالة معلومات اللون مع الحفاظ على الإضاءة. يبسط هذا العملية إلى درجات من الرمادي، مما يجعلها مناسبة لتطبيقات مختلفة مثل الطباعة، معالجة المستندات، والتحليل الرمادي.
+تحويل الصورة إلى تمثيل التدرج الرمادي يحول الصورة الملونة إلى نسخة تدرج رمادي عن طريق إزالة معلومات اللون مع الحفاظ على الإضاءة. هذه العملية تبسط الصورة إلى درجات من الرمادي، مما يجعلها مناسبة لتطبيقات مختلفة مثل الطباعة ومعالجة المستندات وتحليل التدرج الرمادي.
 
 
 **Example: The following example transforms a colored GIF image to its grayscale representation.**
-المثال التالي يحول صورة GIF ملونة إلى تمثيلها بالأبيض والأسود. الصور الرمادية تتكون حصريًا من درجات الرمادي وتحمل فقط معلومات الشدة.
+المثال التالي يحول صورة GIF ملونة إلى تمثيل التدرج الرمادي الخاص بها. الصور ذات التدرج الرمادي تتكون حصريًا من درجات الرمادي وتحمل فقط معلومات الشدة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1155,16 +1155,16 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-تحويل الصورة إلى ثنائية باستخدام عتبة محددة مسبقًا يحول صورة رمادية أو ملونة إلى صورة ثنائية، حيث يتم تصنيف كل بكسل إما أسود أو أبيض بناءً على ما إذا كانت قيمة شدته تتجاوز العتبة المحددة.
+تحويل الصورة إلى ثنائية باستخدام عتبة محددة مسبقًا يحول الصورة الرمادية أو الملونة إلى صورة ثنائية، حيث يتم تصنيف كل بكسل إما كأبيض أو أسود بناءً على ما إذا كانت قيمة شدتها تتجاوز العتبة المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة لبكسل أكبر من العتبة، سيتم تعيين القيمة 255 له، وإلا 0. |
+| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من العتبة، سيتم تعيين القيمة 255 لها، وإلا 0. |
 
 
 **Example: The following example binarizes a GIF image with the predefined threshold.**
-المثال التالي يثنّي صورة GIF باستخدام العتبة المحددة مسبقًا. الصور المثلّية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يثنِّي صورة GIF باستخدام العتبة المحددة مسبقًا. الصور الثنائية تحتوي فقط على لونين - أسود وأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1172,8 +1172,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage djvuImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
-    // إذا كانت القيمة الرمادية المقابلة للبكسل أكبر من 127، سيتم تعيين القيمة 255 له، وإلا ستكون 0.
+    // حوّل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
+    // إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من 127، سيتم تعيين قيمة 255 له، وإلا ستكون 0.
     djvuImage.binarizeFixed((byte) 127);
     djvuImage.save(dir + "sample.BinarizeFixed.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1187,11 +1187,11 @@ public void binarizeOtsu()
 ```
 
 
-تثنّي الصورة باستخدام عتبة أوتسو هو طريقة تُستخدم لتحديد القيمة المثلى للعتبة تلقائيًا لتحويل صورة رمادية إلى صورة ثنائية. يحسب خوارزمية عتبة أوتسو العتبة التي تقلل من التباين داخل الفئات لقيم بكسل الصورتين الناتجتين (المقدمة والخلفية). هذه التقنية مفيدة بشكل خاص عندما تكون قيمة العتبة المثلى غير معروفة وتحتاج إلى تحديدها بشكل تكيفي بناءً على هيستوغرام الصورة.
+التثنِّي للصور باستخدام عتبة أوتسو هو طريقة تُستخدم لتحديد القيمة المثلى للعتبة تلقائيًا لتحويل صورة تدرج رمادي إلى صورة ثنائية. خوارزمية عتبة أوتسو تحسب العتبة التي تقلل من التباين داخل الفئات لقيم بكسل الصورتين الناتجتين (المقدمة والخلفية). هذه التقنية مفيدة بشكل خاص عندما تكون قيمة العتبة المثلى غير معروفة وتحتاج إلى تحديدها بشكل تكيفي بناءً على مخطط الصورة.
 
 
 **Example: The following example binarizes a GIF image with Otsu thresholding.**
-المثال التالي يثنّي صورة GIF باستخدام عتبة أوتسو. الصور المثلّية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يثنِّي صورة GIF باستخدام عتبة أوتسو. الصور الثنائية تحتوي فقط على لونين - أسود وأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1199,7 +1199,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif
 try {
     com.aspose.imaging.fileformats.gif.GifImage gifImage = (com.aspose.imaging.fileformats.gif.GifImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام عتبة أوتسو.
+    // حوّل الصورة إلى ثنائية باستخدام عتبة أوتسو.
     gifImage.binarizeOtsu();
     gifImage.save(dir + "sample.BinarizeOtsu.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1213,12 +1213,12 @@ public void binarizeBradley(double brightnessDifference)
 ```
 
 
-تثنّي الصورة باستخدام خوارزمية عتبة برادلي التكيفية مع عتبة الصورة المتكاملة هي طريقة لتحويل صورة رمادية إلى صورة ثنائية. تحسب هذه الخوارزمية عتبة محلية لكل بكسل بناءً على متوسط شدة البكسلات المحيطة داخل نافذة محددة. من خلال تعديل العتبة محليًا بناءً على شدة البكسلات، تكون طريقة برادلي فعّالة في التعامل مع اختلافات الإضاءة والتباين عبر الصورة.
+تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة التكيفية لبرايدلي مع عتبة الصورة المتكاملة هو طريقة لتحويل صورة رمادية إلى صورة ثنائية. تحسب هذه الخوارزمية عتبة محلية لكل بكسل بناءً على متوسط شدة البكسلات المحيطة ضمن نافذة محددة. من خلال تعديل العتبة بشكل تكيفي بناءً على شدة البكسلات المحلية، تكون طريقة برايدلي فعّالة في التعامل مع التغييرات في الإضاءة والتباين عبر الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
 
 ### orderBlocks() {#orderBlocks--}
 ```
@@ -1226,7 +1226,7 @@ public void orderBlocks()
 ```
 
 
-ترتيب كتل GIF وفقًا لمواصفات GIF يضمن تخطيطًا صحيحًا للـ GIF والامتثال للمعيار. تتضمن هذه العملية ترتيب الكتل بالتسلسل الصحيح كما هو معرف في المواصفة. بالإضافة إلى ذلك، قد تشمل إزالة بعض حالات [GifGraphicsControlBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) التي لا تكون ضرورية للتخطيط النهائي. بالالتزام بمواصفات GIF، ستكون الصورة الناتجة مُهيكلة بشكل صحيح ومتوافقة مع تطبيقات عرض GIF.
+ترتيب كتل GIF وفقًا لمواصفات GIF يضمن تخطيط GIF صحيح والامتثال للمعيار. تتضمن هذه العملية ترتيب الكتل بالتسلسل الصحيح كما هو معرف في المواصفة. بالإضافة إلى ذلك، قد يتضمن إزالة بعض حالات [GifGraphicsControlBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) التي ليست ضرورية للتخطيط النهائي. بالالتزام بمواصفات GIF، ستكون الصورة الناتجة مُهيكلة بشكل صحيح ومتوافقة مع تطبيقات عرض GIF.
 
 ### clearBlocks() {#clearBlocks--}
 ```
@@ -1234,7 +1234,7 @@ public void clearBlocks()
 ```
 
 
-مسح جميع كتل GIF يزيل أي بيانات موجودة مخزنة داخل الصورة. يعيد هذا الإجراء الصورة إلى حالة فارغة، مزيلًا أي كتل مضافة مسبقًا. استخدم هذه الطريقة عندما تحتاج إلى بدء جديد بصفحة نظيفة لإنشاء أو تعديل صورة GIF.
+مسح جميع كتل GIF يزيل أي بيانات موجودة مخزنة داخل الصورة. هذه العملية تعيد الصورة فعليًا إلى حالة فارغة، وتزيل أي كتل أضيفت مسبقًا. استخدم هذه الطريقة عندما تحتاج إلى بدء جديد بصفحة نظيفة لإنشاء أو تعديل صورة GIF.
 
 
 **Example: The following example shows how to remove all blocks from a GIF image.**
@@ -1274,13 +1274,13 @@ public void insertBlock(int index, IGifBlock block)
 ```
 
 
-إدراج كتلة GIF جديدة يتيح لك إضافة بيانات مخصصة في موقع محدد داخل الصورة. تمكّن هذه الطريقة من وضع كتل مخصصة في الموقع المطلوب في صورة GIF، مما يوفر مرونة في تنظيم وهيكلة بيانات الصورة.
+إدراج كتلة GIF جديدة يتيح لك إضافة بيانات مخصصة في موقع محدد داخل الصورة. تمكّنك هذه الطريقة من وضع كتل مخصصة في الموقع المطلوب في صورة GIF، مما يوفر مرونة في تنظيم وهيكلة بيانات الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | العنصر ذو الفهرس الصفري، الذي سيتم إدراج الكتلة عنده. |
-| block | [IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) | كتلة GIF المراد إضافتها. |
+| index | int | العنصر ذو الفهرس الصفري، الذي سيتم إدراج الكتلة فيه. |
+| block | [IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) | كتلة GIF لإضافتها. |
 
 ### addBlock(IGifBlock block) {#addBlock-com.aspose.imaging.fileformats.gif.IGifBlock-}
 ```
@@ -1288,12 +1288,12 @@ public void addBlock(IGifBlock block)
 ```
 
 
-إضافة كتلة GIF جديدة يتيح لك تضمين بيانات إضافية داخل الصورة. تمكّن هذه الطريقة من إلحاق كتل مخصصة إلى صورة GIF، والتي يمكن أن تحتوي على أنواع مختلفة من المعلومات.
+إضافة كتلة GIF جديدة يتيح لك تضمين بيانات إضافية داخل الصورة. تمكّنك هذه الطريقة من إلحاق كتل مخصصة إلى صورة GIF، والتي يمكن أن تحتوي على أنواع مختلفة من المعلومات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| block | [IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) | كتلة GIF المراد إضافتها. |
+| block | [IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) | كتلة GIF لإضافتها. |
 
 
 **Example: The following example shows how to compose an animated GIF image from individual GIF blocks.**
@@ -1302,7 +1302,7 @@ public void addBlock(IGifBlock block)
 String dir = "c:\\temp\\";
 
 // إنشاء صورة GIF بحجم 100 × 100 بكسل.
-// الكتلة الأولى تكون سوداء بالكامل بشكل افتراضي.
+// الكتلة الأولى تكون سوداء بالكامل افتراضيًا.
 com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock firstBlock = new com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock(100, 100);
 com.aspose.imaging.fileformats.gif.GifImage gifImage = new com.aspose.imaging.fileformats.gif.GifImage(firstBlock);
 try {
@@ -1322,7 +1322,7 @@ try {
         gifImage.addBlock(block);
     }
 
-    // زيادة زاوية القوس الأسود تدريجيًا ومحو القوس الأحمر.
+    // زيادة زاوية القوس الأسود تدريجيًا وإزالة القوس الأحمر.
     for (int angle = 10; angle <= 360; angle += 10) {
         com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock block = new com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock(100, 100);
 
@@ -1346,7 +1346,7 @@ public void removeBlock(IGifBlock block)
 ```
 
 
-إزالة كتلة GIF تزيل بيانات محددة من الصورة، مما يتيح القدرة على تنظيف أو تعديل بنية الصورة. تمكّنك هذه الطريقة من إزالة الكتل غير المرغوب فيها أو غير الضرورية، مما يحسن من تحسين صورة GIF لتخزين فعال. استخدم هذه الوظيفة لإزالة المعلومات القديمة من الصورة مع الحفاظ على سلامتها وجودتها.
+إزالة كتلة GIF تزيل بيانات محددة من الصورة، مما يوفر القدرة على تنظيف أو تعديل بنية الصورة. تمكّنك هذه الطريقة من إزالة الكتل غير المرغوب فيها أو غير الضرورية، مما يحسن صورة GIF لتخزين فعال. استخدم هذه الوظيفة لإزالة المعلومات القديمة من الصورة مع الحفاظ على سلامتها وجودتها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1355,7 +1355,7 @@ public void removeBlock(IGifBlock block)
 
 --------------------
 
-ملاحظة: لا تنسَ التخلص من الكتلة إذا لم تقم بإضافتها إلى صورة GifImage أخرى. |
+ملاحظة: لا تنسَ التخلص من الكتلة إذا لم تقم بإضافتها إلى أي GifImage آخر. |
 
 ### resizeProportional(int newWidth, int newHeight, int resizeType) {#resizeProportional-int-int-int-}
 ```
@@ -1363,7 +1363,7 @@ public void resizeProportional(int newWidth, int newHeight, int resizeType)
 ```
 
 
-يُحافظ تغيير الحجم النسبي على نسبة أبعاد الصورة أثناء تعديل حجمها، مما يضمن عدم ظهور الصورة مشوّشة أو مُطوَّلة. تقوم هذه الطريقة بتغيير حجم الصورة نسبيًا، حيث يتم تحجيم كل من العرض والارتفاع بنفس العامل. سيُعيد تغيير الحجم النسبي تحجيم كل إطار وفقًا للنسبة بين `newWidth`/العرض و `newHeight`/الارتفاع.
+إعادة التحجيم المتناسبة تحافظ على نسبة أبعاد الصورة أثناء تعديل حجمها، مما يضمن عدم ظهور الصورة مشوهة أو ممدودة. تقوم هذه الطريقة بإعادة تحجيم الصورة بشكل متناسب، حيث يتم تكبير كل من العرض والارتفاع بنفس العامل. سيقوم التحجيم المتناسب بتغيير حجم كل إطار وفقًا للنسبة `newWidth`/العرض و`newHeight`/الارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1378,12 +1378,12 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-تقوم هذه الطريقة بتدوير الصورة حول نقطة مركزها. من خلال تحديد زاوية الدوران، يمكنك تدوير الصورة باتجاه عقارب الساعة أو عكسها لتحقيق الاتجاه المطلوب. يساعد هذا الدوران على تعديل عرض الصورة أو محاذاتها دون تشويه محتواها.
+هذه الطريقة تدور الصورة حول نقطة مركزها. من خلال تحديد زاوية الدوران، يمكنك تدوير الصورة باتجاه عقارب الساعة أو عكسها لتحقيق الاتجاه المطلوب. يساعد هذا الدوران على تعديل عرض الصورة أو محاذاتها دون تشويه محتواها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا)، وفي الحالة الأخرى تُترك الأبعاد دون تعديل وتُدور فقط محتويات الصورة ``. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا)، وفي الحالة الأخرى تُترك الأبعاد دون تغيير وتُدور فقط `` image contents are rotated. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 

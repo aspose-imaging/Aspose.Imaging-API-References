@@ -12,12 +12,12 @@ url: /ar/java/com.aspose.imaging.xmp.types/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [XmpTypeBase](../com.aspose.imaging.xmp.types/xmptypebase) | يمثل الفئة الأساسية للنوع XMP الأساسي. |
+| [XmpTypeBase](../com.aspose.imaging.xmp.types/xmptypebase) | يمثل الفئة الأساسية لنوع XMP الأساسي. |
 
 ## الواجهات
 
 | الواجهة | الوصف |
 | --- | --- |
-| [IXmpType](../com.aspose.imaging.xmp.types/ixmptype) | الواجهة الأساسية للنوع XMP. |
+| [IXmpType](../com.aspose.imaging.xmp.types/ixmptype) | واجهة أساسية لنوع XMP. |

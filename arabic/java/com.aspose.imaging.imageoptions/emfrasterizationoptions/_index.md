@@ -1,7 +1,7 @@
 ---
 title: "EmfRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تحويل Emf إلى نقطية."
+description: "خيارات تصيير Emf."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.imaging.imageoptions/emfrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class EmfRasterizationOptions extends MetafileRasterizationOptions
 ```
 
-خيارات تحويل Emf إلى نقطية.
+خيارات تصيير Emf.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -52,7 +52,7 @@ public void setRenderMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وضع العرض. |
+| value | int | وضع العرض. |
 
 
 **Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**
@@ -79,10 +79,10 @@ try {
     // إذا كان هناك emf مضمّن، فقم بعرض emf؛ وإلا عرض wmf.
     rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.emf.EmfRenderMode.Auto);
 
-    // حدد الهامش الأفقي
+    // تعيين الهامش الأفقي
     rasterizationOptions.setBorderX(50);
 
-    // حدد الهامش الرأسي
+    // تعيين الهامش العمودي
     rasterizationOptions.setBorderY(50);
 
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);

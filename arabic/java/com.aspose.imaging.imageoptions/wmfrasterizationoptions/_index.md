@@ -17,13 +17,13 @@ public class WmfRasterizationOptions extends MetafileRasterizationOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfRasterizationOptions()](#WmfRasterizationOptions--) | ينشئ مثيلاً جديدًا من الفئة `WmfRasterizationOptions`. |
+| [WmfRasterizationOptions()](#WmfRasterizationOptions--) | ينشئ مثيلًا جديدًا من الفئة `WmfRasterizationOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRenderMode()](#getRenderMode--) | يحصل على أو يضبط وضع عرض WMF. |
-| [setRenderMode(int value)](#setRenderMode-int-) | يحصل على أو يضبط وضع عرض WMF. |
+| [getRenderMode()](#getRenderMode--) | يحصل أو يضبط وضعية عرض WMF. |
+| [setRenderMode(int value)](#setRenderMode-int-) | يحصل أو يضبط وضعية عرض WMF. |
 | [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | ينسخ هذا إلى `vectorRasterizationOptions`. |
 ### WmfRasterizationOptions() {#WmfRasterizationOptions--}
 ```
@@ -31,7 +31,7 @@ public WmfRasterizationOptions()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `WmfRasterizationOptions`.
+ينشئ مثيلًا جديدًا من الفئة `WmfRasterizationOptions`.
 
 ### getRenderMode() {#getRenderMode--}
 ```
@@ -39,9 +39,9 @@ public int getRenderMode()
 ```
 
 
-يحصل على أو يضبط وضع عرض WMF.
+يحصل أو يضبط وضعية عرض WMF.
 
-القيمة: وضع عرض WMF.
+القيمة: وضعية عرض WMF.
 
 **Returns:**
 int
@@ -51,14 +51,14 @@ public void setRenderMode(int value)
 ```
 
 
-يحصل على أو يضبط وضع عرض WMF.
+يحصل أو يضبط وضعية عرض WMF.
 
-القيمة: وضع عرض WMF.
+القيمة: وضعية عرض WMF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 
 **Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**

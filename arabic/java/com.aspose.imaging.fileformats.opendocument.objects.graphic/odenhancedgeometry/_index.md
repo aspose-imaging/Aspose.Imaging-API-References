@@ -7,7 +7,7 @@ weight: 20
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdEnhancedGeometry extends OdGraphicObject
 ```
@@ -22,12 +22,12 @@ public class OdEnhancedGeometry extends OdGraphicObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getEnhancedPath()](#getEnhancedPath--) | يحصل أو يعيّن المسار المحسّن. |
-| [setEnhancedPath(OdGraphicObject[] value)](#setEnhancedPath-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يعيّن المسار المحسّن. |
-| [getViewBox()](#getViewBox--) | يحصل أو يعيّن صندوق العرض. |
-| [setViewBox(Rectangle value)](#setViewBox-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن صندوق العرض. |
-| [getType()](#getType--) | يحصل أو يعيّن النوع. |
-| [setType(String value)](#setType-java.lang.String-) | يحصل أو يعيّن النوع. |
+| [getEnhancedPath()](#getEnhancedPath--) | يحصل أو يضبط المسار المعزز. |
+| [setEnhancedPath(OdGraphicObject[] value)](#setEnhancedPath-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يضبط المسار المعزز. |
+| [getViewBox()](#getViewBox--) | يحصل أو يضبط صندوق العرض. |
+| [setViewBox(Rectangle value)](#setViewBox-com.aspose.imaging.Rectangle-) | يحصل أو يضبط صندوق العرض. |
+| [getType()](#getType--) | يحصل أو يضبط النوع. |
+| [setType(String value)](#setType-java.lang.String-) | يحصل أو يضبط النوع. |
 ### OdEnhancedGeometry(OdObject parent) {#OdEnhancedGeometry-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdEnhancedGeometry(OdObject parent)
@@ -39,7 +39,7 @@ public OdEnhancedGeometry(OdObject parent)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getEnhancedPath() {#getEnhancedPath--}
 ```
@@ -47,7 +47,7 @@ public OdGraphicObject[] getEnhancedPath()
 ```
 
 
-يحصل أو يعيّن المسار المحسّن.
+يحصل أو يضبط المسار المعزز.
 
 **Returns:**
 com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject[] - المسار المعزز.
@@ -57,7 +57,7 @@ public void setEnhancedPath(OdGraphicObject[] value)
 ```
 
 
-يحصل أو يعيّن المسار المحسّن.
+يحصل أو يضبط المسار المعزز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public Rectangle getViewBox()
 ```
 
 
-يحصل أو يعيّن صندوق العرض.
+يحصل أو يضبط صندوق العرض.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The view box.
@@ -80,12 +80,12 @@ public void setViewBox(Rectangle value)
 ```
 
 
-يحصل أو يعيّن صندوق العرض.
+يحصل أو يضبط صندوق العرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Rectangle](../../com.aspose.imaging/rectangle) | مربع العرض. |
+| value | [Rectangle](../../com.aspose.imaging/rectangle) | صندوق العرض. |
 
 ### getType() {#getType--}
 ```
@@ -93,7 +93,7 @@ public String getType()
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 **Returns:**
 java.lang.String - النوع.
@@ -103,10 +103,10 @@ public void setType(String value)
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | النوع. |
+| value | java.lang.String | النوع. |
 

@@ -12,20 +12,20 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class FrameworkException extends System.Exception
 ```
 
-استثناء إطار عمل التصوير. هذه الفئة هي فئة أساسية لجميع استثناءات Aspose.Imaging. تم تقديمها للتمييز بين الاستثناءات التي يطلقها محرك Aspose.Imaging وجميع أنواع الاستثناءات الأخرى.
+استثناء إطار عمل التصوير. هذه الفئة هي فئة أساسية لجميع استثناءات Aspose.Imaging. تم تقديمها للتمييز بين الاستثناءات التي يطرحها محرك Aspose.Imaging وجميع أنواع الاستثناءات الأخرى.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [FrameworkException(String message)](#FrameworkException-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `FrameworkException`. |
-| [FrameworkException(String message, Throwable innerException)](#FrameworkException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديداً من الفئة `FrameworkException`. |
+| [FrameworkException(String message)](#FrameworkException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `FrameworkException`. |
+| [FrameworkException(String message, Throwable innerException)](#FrameworkException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `FrameworkException`. |
 ### FrameworkException(String message) {#FrameworkException-java.lang.String-}
 ```
 public FrameworkException(String message)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `FrameworkException`.
+ينشئ مثيلاً جديدًا من الفئة `FrameworkException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public FrameworkException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `FrameworkException`.
+ينشئ مثيلاً جديدًا من الفئة `FrameworkException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

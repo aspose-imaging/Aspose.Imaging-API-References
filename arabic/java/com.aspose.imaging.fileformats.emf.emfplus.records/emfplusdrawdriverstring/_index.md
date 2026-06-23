@@ -17,7 +17,7 @@ public final class EmfPlusDrawDriverString extends EmfPlusDrawingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusDrawDriverString(EmfPlusRecord source)](#EmfPlusDrawDriverString-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusDrawDriverString`. |
+| [EmfPlusDrawDriverString(EmfPlusRecord source)](#EmfPlusDrawDriverString-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُهيئ مثيلًا جديدًا من الفئة `EmfPlusDrawDriverString`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -25,28 +25,28 @@ public final class EmfPlusDrawDriverString extends EmfPlusDrawingRecordType
 | [getObjectId()](#getObjectId--) | يحصل على معرف الكائن. |
 | [setObjectId(byte value)](#setObjectId-byte-) | يعيّن معرف الكائن. |
 | [getBrushId()](#getBrushId--) | يحصل على معرف الفرشاة عدد صحيح غير موقع 32‑بت يحدد إما لون النص الأمامي أو فرشاة رسومية، حسب قيمة علم S في Flags. |
-| [setBrushId(int value)](#setBrushId-int-) | يضبط معرف الفرشاة عددًا صحيحًا غير موقعًا 32 بت يحدد إما لون النص الأمامي أو فرشاة رسومية، اعتمادًا على قيمة علم S في Flags |
-| [getDriverStringOptionsFlags()](#getDriverStringOptionsFlags--) | يحصل على أعلام خيارات سلسلة السائق عددًا صحيحًا غير موقعًا 32 بت يحدد التباعد والاتجاه وجودة العرض للسلسلة. |
-| [setDriverStringOptionsFlags(int value)](#setDriverStringOptionsFlags-int-) | يضبط أعلام خيارات سلسلة السائق عددًا صحيحًا غير موقعًا 32 بت يحدد التباعد والاتجاه وجودة العرض للسلسلة. |
-| [getGlyphCount()](#getGlyphCount--) | يحصل على عدد الرموز عددًا صحيحًا غير موقعًا 32 بت يحدد عدد الرموز في السلسلة |
-| [setGlyphCount(int value)](#setGlyphCount-int-) | يضبط عدد الرموز عددًا صحيحًا غير موقعًا 32 بت يحدد عدد الرموز في السلسلة |
-| [getGlyphPos()](#getGlyphPos--) | يحصل على مصفوفة مواضع الرموز مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل رمز حرف. |
-| [setGlyphPos(PointF[] value)](#setGlyphPos-com.aspose.imaging.PointF---) | يضبط مصفوفة مواضع الرموز مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل رمز حرف. |
-| [getGlyphs()](#getGlyphs--) | يحصل على مصفوفة الرموز مصفوفة من قيم 16‑بت التي تحدد سلسلة النص المراد رسمها. |
-| [setGlyphs(short[] value)](#setGlyphs-short---) | يضبط مصفوفة الرموز مصفوفة من قيم 16‑بت التي تحدد سلسلة النص المراد رسمها. |
-| [isColor()](#isColor--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت هذه النسخة ملونة. |
-| [setColor(boolean value)](#setColor-boolean-) | يضبط قيمة تشير إلى ما إذا كانت هذه الحالة ملونة. |
-| [getMatrixPresent()](#getMatrixPresent--) | يحصل على علم وجود المصفوفة عددًا صحيحًا غير موقعًا 32 بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix 0 - لا توجد مصفوفة. |
-| [setMatrixPresent(int value)](#setMatrixPresent-int-) | يضبط علم وجود المصفوفة عددًا صحيحًا غير موقعًا 32 بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix 0 - لا توجد مصفوفة. |
+| [setBrushId(int value)](#setBrushId-int-) | يعيّن معرف الفرشاة عددًا صحيحًا غير موقع 32‑بت يحدد إما لون النص الأمامي أو فرشاة رسومية، حسب قيمة علم S في Flags. |
+| [getDriverStringOptionsFlags()](#getDriverStringOptionsFlags--) | يحصل على driver string options flags عدد صحيح غير موقع 32‑بت يحدد التباعد والاتجاه وجودة العرض للسلسلة. |
+| [setDriverStringOptionsFlags(int value)](#setDriverStringOptionsFlags-int-) | يعيّن driver string options flags عددًا صحيحًا غير موقع 32‑بت يحدد التباعد والاتجاه وجودة العرض للسلسلة. |
+| [getGlyphCount()](#getGlyphCount--) | يحصل على عدد الرموز (glyph count) عددًا صحيحًا غير موقع 32‑بت يحدد عدد الرموز في السلسلة. |
+| [setGlyphCount(int value)](#setGlyphCount-int-) | يعيّن عدد الرموز (glyph count) عددًا صحيحًا غير موقع 32‑بت يحدد عدد الرموز في السلسلة. |
+| [getGlyphPos()](#getGlyphPos--) | يحصل على مصفوفة مواضع الرموز مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل رمز حرفي. |
+| [setGlyphPos(PointF[] value)](#setGlyphPos-com.aspose.imaging.PointF---) | يعيّن مصفوفة مواضع الرموز مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل رمز حرفي. |
+| [getGlyphs()](#getGlyphs--) | يحصل على مصفوفة الرموز مصفوفة من قيم 16‑بت تحدد سلسلة النص المراد رسمها. |
+| [setGlyphs(short[] value)](#setGlyphs-short---) | يعيّن مصفوفة الرموز مصفوفة من قيم 16‑بت تحدد سلسلة النص المراد رسمها. |
+| [isColor()](#isColor--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت هذه الحالة ملونة. |
+| [setColor(boolean value)](#setColor-boolean-) | يعيّن قيمة تشير إلى ما إذا كان هذا المثيل ملونًا. |
+| [getMatrixPresent()](#getMatrixPresent--) | يحصل على علم وجود المصفوفة عدد صحيح غير موقع 32‑بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix 0 - لا توجد مصفوفة. |
+| [setMatrixPresent(int value)](#setMatrixPresent-int-) | يعيّن علم وجود المصفوفة عددًا صحيحًا غير موقع 32‑بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix 0 - لا توجد مصفوفة. |
 | [getTransformMatrix()](#getTransformMatrix--) | يحصل على مصفوفة التحويل كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. |
-| [setTransformMatrix(Matrix value)](#setTransformMatrix-com.aspose.imaging.Matrix-) | يضبط مصفوفة التحويل كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. |
+| [setTransformMatrix(Matrix value)](#setTransformMatrix-com.aspose.imaging.Matrix-) | يعيّن مصفوفة التحويل كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. |
 ### EmfPlusDrawDriverString(EmfPlusRecord source) {#EmfPlusDrawDriverString-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawDriverString(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfPlusDrawDriverString`.
+يُهيئ مثيلًا جديدًا من الفئة `EmfPlusDrawDriverString`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public byte getObjectId()
 ```
 
 
-يحصل على معرف الكائن. فهرس جدول كائنات EMF+ لعنصر `` (القسم 2.2.1.3) لتصيير النص. يجب أن تكون القيمة بين 0 و 63 شاملًا.
+يحصل على معرف الكائن. فهرس جدول كائنات EMF+ لكائن `` (القسم 2.2.1.3) لتصيير النص. يجب أن تكون القيمة بين 0 و 63 شاملًا.
 
 **Returns:**
 byte - معرف الكائن.
@@ -69,12 +69,12 @@ public void setObjectId(byte value)
 ```
 
 
-يضبط معرف الكائن. فهرس جدول كائنات EMF+ لعنصر `` (القسم 2.2.1.3) لتصيير النص. يجب أن تكون القيمة بين 0 و 63 شاملًا.
+يعيّن معرف الكائن. فهرس جدول كائنات EMF+ لكائن `` (القسم 2.2.1.3) لتصيير النص. يجب أن تكون القيمة بين 0 و 63 شاملًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | معرف الكائن. |
+| value | byte | معرّف الكائن. |
 
 ### getBrushId() {#getBrushId--}
 ```
@@ -92,12 +92,12 @@ public void setBrushId(int value)
 ```
 
 
-يضبط معرف الفرشاة عددًا صحيحًا غير موقعًا 32 بت يحدد إما لون النص الأمامي أو فرشاة رسومية، اعتمادًا على قيمة علم S في Flags
+يعيّن معرف الفرشاة عددًا صحيحًا غير موقع 32‑بت يحدد إما لون النص الأمامي أو فرشاة رسومية، حسب قيمة علم S في Flags.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getDriverStringOptionsFlags() {#getDriverStringOptionsFlags--}
 ```
@@ -105,7 +105,7 @@ public int getDriverStringOptionsFlags()
 ```
 
 
-يحصل على أعلام خيارات سلسلة السائق عددًا صحيحًا غير موقعًا 32 بت يحدد التباعد والاتجاه وجودة العرض للسلسلة.
+يحصل على driver string options flags عدد صحيح غير موقع 32‑بت يحدد التباعد والاتجاه وجودة العرض للسلسلة.
 
 **Returns:**
 int
@@ -115,12 +115,12 @@ public void setDriverStringOptionsFlags(int value)
 ```
 
 
-يضبط أعلام خيارات سلسلة السائق عددًا صحيحًا غير موقعًا 32 بت يحدد التباعد والاتجاه وجودة العرض للسلسلة.
+يعيّن driver string options flags عددًا صحيحًا غير موقع 32‑بت يحدد التباعد والاتجاه وجودة العرض للسلسلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getGlyphCount() {#getGlyphCount--}
 ```
@@ -128,7 +128,7 @@ public int getGlyphCount()
 ```
 
 
-يحصل على عدد الرموز عددًا صحيحًا غير موقعًا 32 بت يحدد عدد الرموز في السلسلة
+يحصل على عدد الرموز (glyph count) عددًا صحيحًا غير موقع 32‑بت يحدد عدد الرموز في السلسلة.
 
 **Returns:**
 int
@@ -138,12 +138,12 @@ public void setGlyphCount(int value)
 ```
 
 
-يضبط عدد الرموز عددًا صحيحًا غير موقعًا 32 بت يحدد عدد الرموز في السلسلة
+يعيّن عدد الرموز (glyph count) عددًا صحيحًا غير موقع 32‑بت يحدد عدد الرموز في السلسلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getGlyphPos() {#getGlyphPos--}
 ```
@@ -151,7 +151,7 @@ public PointF[] getGlyphPos()
 ```
 
 
-يحصل على مصفوفة مواضع الرموز مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل رمز حرف. يجب أن يكون هناك عدد من العناصر يساوي GlyphCount، بحيث يكون هناك تطابق واحد لواحد مع العناصر في مصفوفة Glyphs. يتم حساب مواضع الرموز من موضع الرمز الأول إذا تم تعيين علم DriverStringOptionsRealizedAdvance في أعلام DriverStringOptions. في هذه الحالة، يحدد GlyphPos موضع الرمز الأول فقط.
+يحصل على مصفوفة مواضع الحروف. مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل حرف رسومي. يجب أن يكون هناك عدد GlyphCount من العناصر، والتي لها تطابق واحد لواحد مع العناصر في مصفوفة Glyphs. يتم حساب مواضع الحروف من موضع الحرف الأول إذا تم تعيين علم DriverStringOptionsRealizedAdvance في أعلام DriverStringOptions. في هذه الحالة، يحدد GlyphPos موضع الحرف الأول فقط.
 
 **Returns:**
 com.aspose.imaging.PointF[]
@@ -161,7 +161,7 @@ public void setGlyphPos(PointF[] value)
 ```
 
 
-يضبط مصفوفة مواضع الرموز مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل رمز حرف. يجب أن يكون هناك عدد من العناصر يساوي GlyphCount، بحيث يكون هناك تطابق واحد لواحد مع العناصر في مصفوفة Glyphs. يتم حساب مواضع الرموز من موضع الرمز الأول إذا تم تعيين علم DriverStringOptionsRealizedAdvance في أعلام DriverStringOptions. في هذه الحالة، يحدد GlyphPos موضع الرمز الأول فقط.
+يضبط مصفوفة مواضع الحروف. مصفوفة من كائنات EmfPlusPointF (القسم 2.2.2.36) التي تحدد موضع الإخراج لكل حرف رسومي. يجب أن يكون هناك عدد GlyphCount من العناصر، والتي لها تطابق واحد لواحد مع العناصر في مصفوفة Glyphs. يتم حساب مواضع الحروف من موضع الحرف الأول إذا تم تعيين علم DriverStringOptionsRealizedAdvance في أعلام DriverStringOptions. في هذه الحالة، يحدد GlyphPos موضع الحرف الأول فقط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -174,7 +174,7 @@ public short[] getGlyphs()
 ```
 
 
-يحصل على مصفوفة الرموز مصفوفة من قيم 16‑بت التي تحدد سلسلة النص المراد رسمها. إذا تم تعيين علم DriverStringOptionsCmapLookup في حقل DriverStringOptionsFlags، فإن كل قيمة في هذه المصفوفة تحدد حرف Unicode. وإلا، فإن كل قيمة تحدد فهرسًا إلى رمز حرف في كائن EmfPlusFont المحدد بواسطة قيمة ObjectId في حقل Flags.
+يحصل على مصفوفة الحروف. مصفوفة من قيم 16‑بت التي تحدد سلسلة النص التي سيتم رسمها. إذا تم تعيين علم DriverStringOptionsCmapLookup في حقل DriverStringOptionsFlags، فإن كل قيمة في هذه المصفوفة تحدد حرف Unicode. وإلا، فإن كل قيمة تحدد فهرسًا إلى حرف رسومي في كائن EmfPlusFont المحدد بواسطة قيمة ObjectId في حقل Flags.
 
 **Returns:**
 short[]
@@ -184,12 +184,12 @@ public void setGlyphs(short[] value)
 ```
 
 
-يضبط مصفوفة الرموز مصفوفة من قيم 16‑بت التي تحدد سلسلة النص المراد رسمها. إذا تم تعيين علم DriverStringOptionsCmapLookup في حقل DriverStringOptionsFlags، فإن كل قيمة في هذه المصفوفة تحدد حرف Unicode. وإلا، فإن كل قيمة تحدد فهرسًا إلى رمز حرف في كائن EmfPlusFont المحدد بواسطة قيمة ObjectId في حقل Flags.
+يضبط مصفوفة الحروف. مصفوفة من قيم 16‑بت التي تحدد سلسلة النص التي سيتم رسمها. إذا تم تعيين علم DriverStringOptionsCmapLookup في حقل DriverStringOptionsFlags، فإن كل قيمة في هذه المصفوفة تحدد حرف Unicode. وإلا، فإن كل قيمة تحدد فهرسًا إلى حرف رسومي في كائن EmfPlusFont المحدد بواسطة قيمة ObjectId في حقل Flags.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short[] |  |
+| value | short[] |  |
 
 ### isColor() {#isColor--}
 ```
@@ -197,22 +197,22 @@ public boolean isColor()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كانت هذه الحالة ملونة. هذه البتة تشير إلى نوع البيانات في حقل BrushId. إذا تم تعيينها، فإن BrushId يحدد قيمة اللون في كائن EmfPlusARGB (القسم 2.2.2.1). إذا كانت غير معينة، فإن BrushId يحتوي على فهرس جدول كائنات EMF+ لكائن EmfPlusBrush (القسم 2.2.1.1).
+يحصل أو يضبط قيمة تشير إلى ما إذا كانت هذه العينة ملونة. هذه البتة تشير إلى نوع البيانات في حقل BrushId. إذا تم تعيينها، فإن BrushId يحدد قيمة اللون في كائن EmfPlusARGB (القسم 2.2.2.1). إذا كانت غير معينة، فإن BrushId يحتوي على فهرس جدول كائنات EMF+ لكائن EmfPlusBrush (القسم 2.2.1.1).
 
 **Returns:**
-boolean - `true` إذا كانت هذه الحالة ملونة؛ وإلا `false`.
+منطقي - `true` إذا كانت هذه العينة ملونة؛ وإلا `false`.
 ### setColor(boolean value) {#setColor-boolean-}
 ```
 public void setColor(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كانت هذه الحالة ملونة. هذه البتة تشير إلى نوع البيانات في حقل BrushId. إذا تم تعيينها، فإن BrushId يحدد قيمة اللون في كائن EmfPlusARGB (القسم 2.2.2.1). إذا كانت غير معينة، فإن BrushId يحتوي على فهرس جدول كائنات EMF+ لكائن EmfPlusBrush (القسم 2.2.1.1).
+يضبط قيمة تشير إلى ما إذا كانت هذه العينة ملونة. هذه البتة تشير إلى نوع البيانات في حقل BrushId. إذا تم تعيينها، فإن BrushId يحدد قيمة اللون في كائن EmfPlusARGB (القسم 2.2.2.1). إذا كانت غير معينة، فإن BrushId يحتوي على فهرس جدول كائنات EMF+ لكائن EmfPlusBrush (القسم 2.2.1.1).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان هذا الكائن ملونًا؛ وإلا `false`. |
+| value | boolean | `true` إذا كانت هذه العينة ملونة؛ وإلا `false`. |
 
 ### getMatrixPresent() {#getMatrixPresent--}
 ```
@@ -220,7 +220,7 @@ public int getMatrixPresent()
 ```
 
 
-يحصل إذا كان علم وجود المصفوفة عدد صحيح غير موقع 32 بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix 0 - لا توجد مصفوفة. 1 - مصفوفة التحويل موجودة في حقل TransformMatrix.
+يحصل على علم وجود المصفوفة. عدد صحيح غير موقع 32‑بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix. 0 - لا توجد مصفوفة. 1 - مصفوفة التحويل موجودة في حقل TransformMatrix.
 
 **Returns:**
 int
@@ -230,12 +230,12 @@ public void setMatrixPresent(int value)
 ```
 
 
-يضبط علم وجود المصفوفة عدد صحيح غير موقع 32 بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix 0 - لا توجد مصفوفة. 1 - مصفوفة التحويل موجودة في حقل TransformMatrix.
+يضبط علم وجود المصفوفة. عدد صحيح غير موقع 32‑بت يحدد ما إذا كانت مصفوفة تحويل موجودة في حقل TransformMatrix. 0 - لا توجد مصفوفة. 1 - مصفوفة التحويل موجودة في حقل TransformMatrix.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getTransformMatrix() {#getTransformMatrix--}
 ```
@@ -243,7 +243,7 @@ public Matrix getTransformMatrix()
 ```
 
 
-يحصل على مصفوفة التحويل كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. يتم تحديد وجود هذه البيانات من حقل MatrixPresent.
+يحصل على مصفوفة التحويل. كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. يتم تحديد وجود هذه البيانات من حقل MatrixPresent.
 
 **Returns:**
 [Matrix](../../com.aspose.imaging/matrix)
@@ -253,7 +253,7 @@ public void setTransformMatrix(Matrix value)
 ```
 
 
-يضبط مصفوفة التحويل كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. يتم تحديد وجود هذه البيانات من حقل MatrixPresent.
+يضبط مصفوفة التحويل. كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد التحويل لتطبيقه على كل قيمة في مصفوفة النص. يتم تحديد وجود هذه البيانات من حقل MatrixPresent.
 
 **Parameters:**
 | معامل | نوع | الوصف |

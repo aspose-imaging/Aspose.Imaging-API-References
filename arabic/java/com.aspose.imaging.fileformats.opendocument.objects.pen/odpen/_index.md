@@ -55,7 +55,7 @@ public final void setPenStyle(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نمط القلم. |
+| value | int | نمط القلم. |
 
 ### getBrush() {#getBrush--}
 ```
@@ -101,5 +101,5 @@ public final void setWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | العرض. |
+| value | int | العرض. |
 

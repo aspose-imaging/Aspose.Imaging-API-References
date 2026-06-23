@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.tga/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [TgaImage](../com.aspose.imaging.fileformats.tga/tgaimage) | التعامل مع ملفات صور TGA النقطية باستخدام واجهة برمجة التطبيقات الخاصة بنا، المصممة لتنسيق TARGA (Truevision Advanced Raster Adapter)، مما يتيح تحميلًا وتخصيصًا سلسًا. |
+| [TgaImage](../com.aspose.imaging.fileformats.tga/tgaimage) | تعديل ملفات الصور النقطية TGA باستخدام واجهة برمجة التطبيقات الخاصة بنا، المخصصة لتنسيق TARGA (Truevision Advanced Raster Adapter)، مما يتيح تحميلًا وتخصيصًا سلسًا. |

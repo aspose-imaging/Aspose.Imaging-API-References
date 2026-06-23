@@ -1,7 +1,7 @@
 ---
 title: "EmfMetafileHeaderExtension2"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EmfMetafileHeaderExtension2 هو سجل الرأس المستخدم في الامتداد الثاني لملفات EMF الميتافايل."
+description: "السجل EmfMetafileHeaderExtension2 هو سجل الرأس المستخدم في الامتداد الثاني لملفات EMF الميتا."
 type: docs
 weight: 72
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfMetafileHeaderExtension2 extends EmfMetafileHeaderExtension1
 ```
 
-السجل EmfMetafileHeaderExtension2 هو سجل الرأس المستخدم في الامتداد الثاني لملفات EMF. بعد حقل EmfHeaderExtension2، تكون الحقول المتبقية اختيارية ويمكن أن تظهر بأي ترتيب.
+سجل EmfMetafileHeaderExtension2 هو سجل الرأس المستخدم في الامتداد الثاني لملفات EMF. بعد حقل EmfHeaderExtension2، الحقول المتبقية اختيارية ويمكن أن تكون موجودة بأي ترتيب.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension1 header)](#EmfMetafileHeaderExtension2-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension1-) | ينشئ مثيلًا جديدًا من الفئة `EmfMetafileHeaderExtension2`. |
-| [EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension2 header)](#EmfMetafileHeaderExtension2-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension2-) | ينشئ مثيلًا جديدًا من الفئة `EmfMetafileHeaderExtension2`. |
+| [EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension1 header)](#EmfMetafileHeaderExtension2-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension1-) | ينشئ مثيلاً جديدًا من الفئة `EmfMetafileHeaderExtension2`. |
+| [EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension2 header)](#EmfMetafileHeaderExtension2-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension2-) | ينشئ مثيلاً جديدًا من الفئة `EmfMetafileHeaderExtension2`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,12 +31,12 @@ public EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension1 header)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfMetafileHeaderExtension2`.
+ينشئ مثيلاً جديدًا من الفئة `EmfMetafileHeaderExtension2`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| header | [EmfMetafileHeaderExtension1](../../com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1) | العنوان. |
+| header | [EmfMetafileHeaderExtension1](../../com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1) | الرأس. |
 
 ### EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension2 header) {#EmfMetafileHeaderExtension2-com.aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension2-}
 ```
@@ -44,12 +44,12 @@ public EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension2 header)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfMetafileHeaderExtension2`.
+ينشئ مثيلاً جديدًا من الفئة `EmfMetafileHeaderExtension2`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| header | [EmfMetafileHeaderExtension2](../../com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2) | العنوان. |
+| header | [EmfMetafileHeaderExtension2](../../com.aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2) | الرأس. |
 
 ### getEmfHeaderExtension2() {#getEmfHeaderExtension2--}
 ```

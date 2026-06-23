@@ -34,7 +34,7 @@ public class ShadowFilterOptions extends FilterOptionsBase
 | [getColor()](#getColor--) | يحصل على اللون. |
 | [setColor(Color value)](#setColor-com.aspose.imaging.Color-) | يضبط اللون. |
 | [getOpacity()](#getOpacity--) | يحصل على الشفافية. |
-| [setOpacity(float value)](#setOpacity-float-) | يعيّن الشفافية. |
+| [setOpacity(float value)](#setOpacity-float-) | يضبط الشفافية. |
 ### ShadowFilterOptions() {#ShadowFilterOptions--}
 ```
 public ShadowFilterOptions()
@@ -59,10 +59,10 @@ public final float getOffsetX()
 
 يحصل على إزاحة x.
 
-القيمة: الإزاحة x.
+القيمة: إزاحة x.
 
 **Returns:**
-float - الإزاحة x.
+float - إزاحة x.
 ### setOffsetX(float value) {#setOffsetX-float-}
 ```
 public final void setOffsetX(float value)
@@ -71,12 +71,12 @@ public final void setOffsetX(float value)
 
 يضبط إزاحة x.
 
-القيمة: الإزاحة x.
+القيمة: إزاحة x.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الإزاحة x. |
+| value | float | إزاحة x. |
 
 ### getOffsetY() {#getOffsetY--}
 ```
@@ -86,10 +86,10 @@ public final float getOffsetY()
 
 يحصل على إزاحة y.
 
-القيمة: الإزاحة y.
+القيمة: إزاحة y.
 
 **Returns:**
-float - الإزاحة y.
+float - إزاحة y.
 ### setOffsetY(float value) {#setOffsetY-float-}
 ```
 public final void setOffsetY(float value)
@@ -98,12 +98,12 @@ public final void setOffsetY(float value)
 
 يضبط إزاحة y.
 
-القيمة: الإزاحة y.
+القيمة: إزاحة y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الإزاحة y. |
+| value | float | إزاحة y. |
 
 ### getSize() {#getSize--}
 ```
@@ -130,7 +130,7 @@ public final void setSize(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الحجم. |
+| value | int | الحجم. |
 
 ### getSigma() {#getSigma--}
 ```
@@ -157,7 +157,7 @@ public final void setSigma(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | سيغما. |
+| value | double | سيغما. |
 
 ### getColor() {#getColor--}
 ```
@@ -204,12 +204,12 @@ public final void setOpacity(float value)
 ```
 
 
-يعيّن الشفافية.
+يضبط الشفافية.
 
 القيمة: الشفافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الشفافية. |
+| value | float | الشفافية. |
 

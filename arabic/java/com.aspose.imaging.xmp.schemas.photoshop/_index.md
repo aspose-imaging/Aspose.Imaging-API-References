@@ -1,19 +1,19 @@
 ---
 title: "com.aspose.imaging.xmp.schemas.photoshop"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الحزمة تحتوي على الفئات المساعدة ذات الصلة والثوابت والطرق المستخدمة بواسطة Adobe Photoshop."
+description: "الحزمة تحتوي على الفئات المساعدة المرتبطة والثوابت والطرق المستخدمة من قبل Adobe Photoshop."
 type: docs
 weight: 117
 url: /ar/java/com.aspose.imaging.xmp.schemas.photoshop/
 ---
 
-تحتوي الحزمة على فئات ومقاطع ثابتة ومناهج مساعدة ذات صلة تُستخدم بواسطة Adobe Photoshop.
+تحتوي الحزمة على فئات وثوابت ومناهج مساعدة تُستخدم بواسطة Adobe Photoshop.
 
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ColorMode](../com.aspose.imaging.xmp.schemas.photoshop/colormode) | يمثل وضع اللون في `PhotoshopPackage`. |
-| [Layer](../com.aspose.imaging.xmp.schemas.photoshop/layer) | يمثل طبقة النص في Photoshop. |
+| [Layer](../com.aspose.imaging.xmp.schemas.photoshop/layer) | يمثل طبقة نص Photoshop. |
 | [PhotoshopPackage](../com.aspose.imaging.xmp.schemas.photoshop/photoshoppackage) | يمثل مساحة اسم Adobe Photoshop. |

@@ -1,7 +1,7 @@
 ---
 title: "ShapeSegment"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل مقطع شكل."
+description: "يمثل جزءًا من الشكل."
 type: docs
 weight: 103
 url: /ar/java/com.aspose.imaging/shapesegment/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class ShapeSegment
 ```
 
-يمثل مقطعًا من الشكل. المقطع هو خط أو منحنى يربط نقطتين.
+يمثل مقطع الشكل. المقطع هو خط أو منحنى يربط نقطتين.
 ## المنشئات
 
 | المنشئ | الوصف |

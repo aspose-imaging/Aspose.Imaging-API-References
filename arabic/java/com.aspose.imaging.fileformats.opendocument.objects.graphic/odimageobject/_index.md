@@ -7,7 +7,7 @@ weight: 24
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdImageObject extends OdGraphicObject
 ```
@@ -17,29 +17,29 @@ public class OdImageObject extends OdGraphicObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdImageObject(OdObject parent)](#OdImageObject-com.aspose.imaging.fileformats.opendocument.OdObject-) | إنشاء مثيل جديد من الفئة `OdImageObject`. |
+| [OdImageObject(OdObject parent)](#OdImageObject-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdImageObject`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | الحصول على أو تعيين المستطيل. |
-| [setRectangle(RectangleF value)](#setRectangle-com.aspose.imaging.RectangleF-) | الحصول على أو تعيين المستطيل. |
-| [getImageLink()](#getImageLink--) | الحصول على أو تعيين رابط الصورة. |
-| [setImageLink(String value)](#setImageLink-java.lang.String-) | الحصول على أو تعيين رابط الصورة. |
-| [getBitmap()](#getBitmap--) | الحصول على أو تعيين الـ bitmap. |
-| [setBitmap(byte[] value)](#setBitmap-byte---) | الحصول على أو تعيين الـ bitmap. |
+| [getRectangle()](#getRectangle--) | يحصل أو يعيّن المستطيل. |
+| [setRectangle(RectangleF value)](#setRectangle-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن المستطيل. |
+| [getImageLink()](#getImageLink--) | يحصل أو يعيّن رابط الصورة. |
+| [setImageLink(String value)](#setImageLink-java.lang.String-) | يحصل أو يعيّن رابط الصورة. |
+| [getBitmap()](#getBitmap--) | يحصل أو يضبط الـ bitmap. |
+| [setBitmap(byte[] value)](#setBitmap-byte---) | يحصل أو يضبط الـ bitmap. |
 ### OdImageObject(OdObject parent) {#OdImageObject-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdImageObject(OdObject parent)
 ```
 
 
-إنشاء مثيل جديد من الفئة `OdImageObject`.
+يُنشئ مثيلًا جديدًا من الفئة `OdImageObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getRectangle() {#getRectangle--}
 ```
@@ -47,7 +47,7 @@ public RectangleF getRectangle()
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The rectangle.
@@ -57,7 +57,7 @@ public void setRectangle(RectangleF value)
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public String getImageLink()
 ```
 
 
-الحصول على أو تعيين رابط الصورة.
+يحصل أو يعيّن رابط الصورة.
 
 **Returns:**
 java.lang.String - رابط الصورة.
@@ -80,12 +80,12 @@ public void setImageLink(String value)
 ```
 
 
-الحصول على أو تعيين رابط الصورة.
+يحصل أو يعيّن رابط الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | رابط الصورة. |
+| value | java.lang.String | رابط الصورة. |
 
 ### getBitmap() {#getBitmap--}
 ```
@@ -93,7 +93,7 @@ public byte[] getBitmap()
 ```
 
 
-الحصول على أو تعيين الـ bitmap.
+يحصل أو يضبط الـ bitmap.
 
 **Returns:**
 byte[] - الـ bitmap.
@@ -103,10 +103,10 @@ public void setBitmap(byte[] value)
 ```
 
 
-الحصول على أو تعيين الـ bitmap.
+يحصل أو يضبط الـ bitmap.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | الـ bitmap. |
+| value | byte[] | الـ bitmap. |
 

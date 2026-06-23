@@ -1,7 +1,7 @@
 ---
 title: "JpegException"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "استثناءات لملفات Jpeg"
+description: "استثناءات لملفات Jpeg."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.coreexceptions.imageformats/jpegexception/
@@ -12,20 +12,20 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class JpegException extends ImageException
 ```
 
-استثناءات لملفات Jpeg
+استثناءات لملفات Jpeg.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [JpegException(String message)](#JpegException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `JpegException`. |
-| [JpegException(String message, Throwable innerException)](#JpegException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `JpegException`. |
+| [JpegException(String message)](#JpegException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `JpegException`. |
+| [JpegException(String message, Throwable innerException)](#JpegException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `JpegException`. |
 ### JpegException(String message) {#JpegException-java.lang.String-}
 ```
 public JpegException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `JpegException`.
+ينشئ مثيلاً جديدًا من الفئة `JpegException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public JpegException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `JpegException`.
+ينشئ مثيلاً جديدًا من الفئة `JpegException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

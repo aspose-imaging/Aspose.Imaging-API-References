@@ -17,20 +17,20 @@ public final class EmfPlusSetWorldTransform extends EmfPlusTerminalServerRecordT
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetWorldTransform(EmfPlusRecord source)](#EmfPlusSetWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُهيئ نسخة جديدة من الفئة `EmfPlusSetWorldTransform`. |
+| [EmfPlusSetWorldTransform(EmfPlusRecord source)](#EmfPlusSetWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusSetWorldTransform`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMatrixData()](#getMatrixData--) | يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) يحدد التحويل العالمي الحالي الجديد. |
-| [setMatrixData(Matrix value)](#setMatrixData-com.aspose.imaging.Matrix-) | يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) يحدد التحويل العالمي الحالي الجديد. |
+| [getMatrixData()](#getMatrixData--) | يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) الذي يحدد التحويل العالمي الحالي الجديد. |
+| [setMatrixData(Matrix value)](#setMatrixData-com.aspose.imaging.Matrix-) | يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) الذي يحدد التحويل العالمي الحالي الجديد. |
 ### EmfPlusSetWorldTransform(EmfPlusRecord source) {#EmfPlusSetWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetWorldTransform(EmfPlusRecord source)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `EmfPlusSetWorldTransform`.
+ينشئ مثيلاً جديداً من الفئة `EmfPlusSetWorldTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -43,7 +43,7 @@ public Matrix getMatrixData()
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) يحدد التحويل العالمي الحالي الجديد.
+يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) الذي يحدد التحويل العالمي الحالي الجديد.
 
 القيمة: بيانات المصفوفة.
 
@@ -55,7 +55,7 @@ public void setMatrixData(Matrix value)
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) يحدد التحويل العالمي الحالي الجديد.
+يحصل أو يعيّن كائن EmfPlusTransformMatrix (القسم 2.2.2.47) الذي يحدد التحويل العالمي الحالي الجديد.
 
 القيمة: بيانات المصفوفة.
 

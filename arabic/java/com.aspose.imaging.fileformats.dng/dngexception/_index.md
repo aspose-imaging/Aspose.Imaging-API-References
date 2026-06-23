@@ -17,15 +17,15 @@ public class DngException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DngException(String message)](#DngException-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة `DngException`. |
-| [DngException(String message, System.Exception innerException)](#DngException-java.lang.String-com.aspose.ms.System.Exception-) | ينشئ مثيلًا جديدًا من الفئة `DngException`. |
+| [DngException(String message)](#DngException-java.lang.String-) | يُنشئ مثيلاً جديدًا للفئة `DngException`. |
+| [DngException(String message, System.Exception innerException)](#DngException-java.lang.String-com.aspose.ms.System.Exception-) | يُنشئ مثيلاً جديدًا للفئة `DngException`. |
 ### DngException(String message) {#DngException-java.lang.String-}
 ```
 public DngException(String message)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `DngException`.
+يُنشئ مثيلاً جديدًا للفئة `DngException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public DngException(String message, System.Exception innerException)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `DngException`.
+يُنشئ مثيلاً جديدًا للفئة `DngException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

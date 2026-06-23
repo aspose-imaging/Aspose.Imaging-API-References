@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusPath extends EmfPlusGraphicsObjectType
 ```
 
-كائن EmfPlusPath يحدد سلسلة من مقاطع الخط والمنحنى التي تشكل مسارًا رسوميًا. ترتيب نقاط بيانات Bezier هو نقطة البداية، نقطة التحكم 1، نقطة التحكم 2، ونقطة النهاية. لمزيد من المعلومات راجع[MSDN - DrawBeziers].
+كائن EmfPlusPath يحدد سلسلة من مقاطع الخط والمنحنى التي تشكل مسارًا رسوميًا. ترتيب نقاط بيانات بيزيير هو نقطة البداية، نقطة التحكم 1، نقطة التحكم 2، ونقطة النهاية. لمزيد من المعلومات راجع[MSDN - DrawBeziers].
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,12 +22,12 @@ public final class EmfPlusPath extends EmfPlusGraphicsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPathPointFlags()](#getPathPointFlags--) | يحصل أو يضبط عدد نقاط المسار عددًا صحيحًا غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي يعرفها هذا الكائن. |
-| [setPathPointFlags(short value)](#setPathPointFlags-short-) | يحصل أو يضبط عدد نقاط المسار عددًا صحيحًا غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي يعرفها هذا الكائن. |
-| [getPathPoints()](#getPathPoints--) | يحصل أو يضبط مصفوفة من نقاط المسار مصفوفة من نقاط PathPointCount التي تحدد المسار. |
-| [setPathPoints(PointF[] value)](#setPathPoints-com.aspose.imaging.PointF---) | يحصل أو يضبط مصفوفة من نقاط المسار مصفوفة من نقاط PathPointCount التي تحدد المسار. |
-| [getPathPointTypes()](#getPathPointTypes--) | يحصل أو يضبط مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. |
-| [setPathPointTypes(EmfPlusBasePointType[] value)](#setPathPointTypes-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBasePointType---) | يحصل أو يضبط مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. |
+| [getPathPointFlags()](#getPathPointFlags--) | يحصل أو يعيّن Path points count عدد صحيح غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي تم تعريفها بواسطة هذا الكائن |
+| [setPathPointFlags(short value)](#setPathPointFlags-short-) | يحصل أو يعيّن Path points count عدد صحيح غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي تم تعريفها بواسطة هذا الكائن |
+| [getPathPoints()](#getPathPoints--) | يحصل أو يعيّن array of path points مصفوفة من نقاط PathPointCount التي تحدد المسار. |
+| [setPathPoints(PointF[] value)](#setPathPoints-com.aspose.imaging.PointF---) | يحصل أو يعيّن array of path points مصفوفة من نقاط PathPointCount التي تحدد المسار. |
+| [getPathPointTypes()](#getPathPointTypes--) | يحصل أو يعيّن مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. |
+| [setPathPointTypes(EmfPlusBasePointType[] value)](#setPathPointTypes-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBasePointType---) | يحصل أو يعيّن مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. |
 ### EmfPlusPath() {#EmfPlusPath--}
 ```
 public EmfPlusPath()
@@ -40,22 +40,22 @@ public short getPathPointFlags()
 ```
 
 
-يحصل أو يضبط عدد نقاط المسار عددًا صحيحًا غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي يعرفها هذا الكائن.
+يحصل أو يعيّن Path points count عدد صحيح غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي تم تعريفها بواسطة هذا الكائن
 
 **Returns:**
-short
+قصير
 ### setPathPointFlags(short value) {#setPathPointFlags-short-}
 ```
 public void setPathPointFlags(short value)
 ```
 
 
-يحصل أو يضبط عدد نقاط المسار عددًا صحيحًا غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي يعرفها هذا الكائن.
+يحصل أو يعيّن Path points count عدد صحيح غير موقع 32-بت يحدد كيفية تفسير النقاط وأنواع النقاط المرتبطة التي تم تعريفها بواسطة هذا الكائن
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getPathPoints() {#getPathPoints--}
 ```
@@ -63,7 +63,7 @@ public PointF[] getPathPoints()
 ```
 
 
-يحصل أو يضبط مصفوفة من نقاط المسار مصفوفة من نقاط PathPointCount التي تحدد المسار. يتم تحديد نوع الكائنات في هذه المصفوفة بواسطة حقل PathPointFlags، كما يلي: إذا تم تعيين العلم P، تكون النقاط مواقع نسبية تُحدد بواسطة كائنات EmfPlusPointR (section 2.2.2.37). إذا كان العلم P غير مُعين والعلم C مُعين، تكون النقاط مواقع مطلقة تُحدد بواسطة كائنات EmfPlusPoint (section 2.2.2.35). إذا كان العلم P غير مُعين والعلم C غير مُعين، تكون النقاط مواقع مطلقة تُحدد بواسطة كائنات EmfPlusPointF (section 2.2.2.36).
+يحصل أو يعيّن array of path points مصفوفة من نقاط PathPointCount التي تحدد المسار. نوع الكائنات في هذه المصفوفة يتم تحديده بواسطة حقل PathPointFlags، كما يلي: إذا كان علم P مفعلاً، تكون النقاط مواقع نسبية يتم تحديدها بواسطة كائنات EmfPlusPointR (القسم 2.2.2.37). إذا كان علم P غير مفعّل وعلم C مفعلاً، تكون النقاط مواقع مطلقة يتم تحديدها بواسطة كائنات EmfPlusPoint (القسم 2.2.2.35). إذا كان علم P غير مفعّل وعلم C غير مفعّل، تكون النقاط مواقع مطلقة يتم تحديدها بواسطة كائنات EmfPlusPointF (القسم 2.2.2.36).
 
 **Returns:**
 com.aspose.imaging.PointF[]
@@ -73,7 +73,7 @@ public void setPathPoints(PointF[] value)
 ```
 
 
-يحصل أو يضبط مصفوفة من نقاط المسار مصفوفة من نقاط PathPointCount التي تحدد المسار. يتم تحديد نوع الكائنات في هذه المصفوفة بواسطة حقل PathPointFlags، كما يلي: إذا تم تعيين العلم P، تكون النقاط مواقع نسبية تُحدد بواسطة كائنات EmfPlusPointR (section 2.2.2.37). إذا كان العلم P غير مُعين والعلم C مُعين، تكون النقاط مواقع مطلقة تُحدد بواسطة كائنات EmfPlusPoint (section 2.2.2.35). إذا كان العلم P غير مُعين والعلم C غير مُعين، تكون النقاط مواقع مطلقة تُحدد بواسطة كائنات EmfPlusPointF (section 2.2.2.36).
+يحصل أو يعيّن array of path points مصفوفة من نقاط PathPointCount التي تحدد المسار. نوع الكائنات في هذه المصفوفة يتم تحديده بواسطة حقل PathPointFlags، كما يلي: إذا كان علم P مفعلاً، تكون النقاط مواقع نسبية يتم تحديدها بواسطة كائنات EmfPlusPointR (القسم 2.2.2.37). إذا كان علم P غير مفعّل وعلم C مفعلاً، تكون النقاط مواقع مطلقة يتم تحديدها بواسطة كائنات EmfPlusPoint (القسم 2.2.2.35). إذا كان علم P غير مفعّل وعلم C غير مفعّل، تكون النقاط مواقع مطلقة يتم تحديدها بواسطة كائنات EmfPlusPointF (القسم 2.2.2.36).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public EmfPlusBasePointType[] getPathPointTypes()
 ```
 
 
-يحصل أو يضبط مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. يتم تحديد نوع الكائنات في هذه المصفوفة بواسطة العلم R في حقل PathPointFlags.
+يحصل أو يعيّن مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. نوع الكائنات في هذه المصفوفة يتم تحديده بواسطة علم R في حقل PathPointFlags
 
 القيمة: أنواع نقاط المسار.
 
@@ -98,7 +98,7 @@ public void setPathPointTypes(EmfPlusBasePointType[] value)
 ```
 
 
-يحصل أو يضبط مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. يتم تحديد نوع الكائنات في هذه المصفوفة بواسطة العلم R في حقل PathPointFlags.
+يحصل أو يعيّن مصفوفة تحدد كيفية استخدام النقاط في حقل PathPoints لرسم المسار. نوع الكائنات في هذه المصفوفة يتم تحديده بواسطة علم R في حقل PathPointFlags
 
 القيمة: أنواع نقاط المسار.
 

@@ -21,7 +21,7 @@ public final class ColorChannelFlag extends System.Enum
 | [ColorChannelM](#ColorChannelM) | قناة اللون الأرجواني. |
 | [ColorChannelY](#ColorChannelY) | قناة اللون الأصفر. |
 | [ColorChannelK](#ColorChannelK) | قناة اللون الأسود. |
-| [ColorChannelLast](#ColorChannelLast) | يجب استخدام القناة الأخيرة المختارة. |
+| [ColorChannelLast](#ColorChannelLast) | يجب استخدام القناة المختارة الأخيرة. |
 ### ColorChannelC {#ColorChannelC}
 ```
 public static final int ColorChannelC
@@ -60,5 +60,5 @@ public static final int ColorChannelLast
 ```
 
 
-يجب استخدام القناة الأخيرة المختارة.
+يجب استخدام القناة المختارة الأخيرة.
 

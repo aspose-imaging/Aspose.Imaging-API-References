@@ -17,17 +17,17 @@ public class OdContainer extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdContainer(OdObject parent)](#OdContainer-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلاً جديداً من الفئة `OdContainer`. |
+| [OdContainer(OdObject parent)](#OdContainer-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdContainer`. |
 ### OdContainer(OdObject parent) {#OdContainer-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdContainer(OdObject parent)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `OdContainer`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdContainer`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 

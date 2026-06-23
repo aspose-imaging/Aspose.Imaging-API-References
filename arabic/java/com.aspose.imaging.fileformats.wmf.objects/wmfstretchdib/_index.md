@@ -7,7 +7,7 @@ weight: 94
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfStretchDib extends WmfObject
 ```
@@ -22,28 +22,28 @@ public class WmfStretchDib extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRasterOperation()](#getRasterOperation--) | يحصل أو يضبط عملية الراستر. |
-| [setRasterOperation(int value)](#setRasterOperation-int-) | يحصل أو يضبط عملية الراستر. |
-| [getColorUsage()](#getColorUsage--) | يحصل أو يعيّن استخدام اللون. |
-| [setColorUsage(int value)](#setColorUsage-int-) | يحصل أو يعيّن استخدام اللون. |
+| [getRasterOperation()](#getRasterOperation--) | يحصل أو يضبط عملية النقطية. |
+| [setRasterOperation(int value)](#setRasterOperation-int-) | يحصل أو يضبط عملية النقطية. |
+| [getColorUsage()](#getColorUsage--) | الحصول أو تعيين استخدام اللون. |
+| [setColorUsage(int value)](#setColorUsage-int-) | الحصول أو تعيين استخدام اللون. |
 | [getSrcHeight()](#getSrcHeight--) | يحصل أو يضبط ارتفاع المصدر. |
 | [setSrcHeight(short value)](#setSrcHeight-short-) | يحصل أو يضبط ارتفاع المصدر. |
-| [getSrcWidth()](#getSrcWidth--) | يسترجع أو يعيّن عرض المصدر. |
-| [setSrcWidth(short value)](#setSrcWidth-short-) | يسترجع أو يعيّن عرض المصدر. |
-| [getYSrc()](#getYSrc--) | يسترجع أو يعيّن إحداثي y للمصدر. |
-| [setYSrc(short value)](#setYSrc-short-) | يسترجع أو يعيّن إحداثي y للمصدر. |
-| [getXSrc()](#getXSrc--) | يسترجع أو يعيّن إحداثي x للمصدر. |
-| [setXSrc(short value)](#setXSrc-short-) | يسترجع أو يعيّن إحداثي x للمصدر. |
-| [getDestHeight()](#getDestHeight--) | يسترجع أو يعيّن ارتفاع الوجهة. |
-| [setDestHeight(short value)](#setDestHeight-short-) | يسترجع أو يعيّن ارتفاع الوجهة. |
-| [getDestWidth()](#getDestWidth--) | يسترجع أو يعيّن عرض الوجهة. |
-| [setDestWidth(short value)](#setDestWidth-short-) | يسترجع أو يعيّن عرض الوجهة. |
-| [getYDest()](#getYDest--) | يسترجع أو يعيّن إحداثي y للوجهة. |
-| [setYDest(short value)](#setYDest-short-) | يسترجع أو يعيّن إحداثي y للوجهة. |
-| [getXDest()](#getXDest--) | يسترجع أو يعيّن إحداثي x للوجهة. |
-| [setXDest(short value)](#setXDest-short-) | يسترجع أو يعيّن إحداثي x للوجهة. |
-| [getSourceBitmap()](#getSourceBitmap--) | يحصل أو يعيّن صورة البت المصدر. |
-| [setSourceBitmap(WmfDeviceIndependentBitmap value)](#setSourceBitmap-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | يحصل أو يعيّن صورة البت المصدر. |
+| [getSrcWidth()](#getSrcWidth--) | يحصل أو يضبط عرض المصدر. |
+| [setSrcWidth(short value)](#setSrcWidth-short-) | يحصل أو يضبط عرض المصدر. |
+| [getYSrc()](#getYSrc--) | يحصل أو يضبط إحداثي y للمصدر. |
+| [setYSrc(short value)](#setYSrc-short-) | يحصل أو يضبط إحداثي y للمصدر. |
+| [getXSrc()](#getXSrc--) | يحصل أو يضبط إحداثي x للمصدر. |
+| [setXSrc(short value)](#setXSrc-short-) | يحصل أو يضبط إحداثي x للمصدر. |
+| [getDestHeight()](#getDestHeight--) | يحصل أو يضبط ارتفاع الوجهة. |
+| [setDestHeight(short value)](#setDestHeight-short-) | يحصل أو يضبط ارتفاع الوجهة. |
+| [getDestWidth()](#getDestWidth--) | يحصل أو يضبط عرض الوجهة. |
+| [setDestWidth(short value)](#setDestWidth-short-) | يحصل أو يضبط عرض الوجهة. |
+| [getYDest()](#getYDest--) | يحصل أو يضبط إحداثي y للوجهة. |
+| [setYDest(short value)](#setYDest-short-) | يحصل أو يضبط إحداثي y للوجهة. |
+| [getXDest()](#getXDest--) | يحصل أو يضبط إحداثي x للوجهة. |
+| [setXDest(short value)](#setXDest-short-) | يحصل أو يضبط إحداثي x للوجهة. |
+| [getSourceBitmap()](#getSourceBitmap--) | الحصول أو تعيين صورة البت المصدر. |
+| [setSourceBitmap(WmfDeviceIndependentBitmap value)](#setSourceBitmap-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | الحصول أو تعيين صورة البت المصدر. |
 ### WmfStretchDib() {#WmfStretchDib--}
 ```
 public WmfStretchDib()
@@ -58,9 +58,9 @@ public int getRasterOperation()
 ```
 
 
-يحصل أو يضبط عملية الراستر.
+يحصل أو يضبط عملية النقطية.
 
-القيمة: الفرشاة الحالية في سياق جهاز التشغيل، ويجب دمج بكسلات الوجهة لتشكيل الصورة الجديدة. يجب أن تكون هذه الشيفرة واحدة من القيم في تعداد عمليات الرستر الثلاثية (section 2.1.1.31).
+القيمة: الفرشاة الحالية في سياق جهاز التشغيل، ويجب دمج بكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز إحدى القيم في تعداد عملية النقطية الثلاثية (القسم 2.1.1.31).
 
 **Returns:**
 int
@@ -70,14 +70,14 @@ public void setRasterOperation(int value)
 ```
 
 
-يحصل أو يضبط عملية الراستر.
+يحصل أو يضبط عملية النقطية.
 
-القيمة: الفرشاة الحالية في سياق جهاز التشغيل، ويجب دمج بكسلات الوجهة لتشكيل الصورة الجديدة. يجب أن تكون هذه الشيفرة واحدة من القيم في تعداد عمليات الرستر الثلاثية (section 2.1.1.31).
+القيمة: الفرشاة الحالية في سياق جهاز التشغيل، ويجب دمج بكسلات الوجهة لتكوين الصورة الجديدة. يجب أن يكون هذا الرمز إحدى القيم في تعداد عملية النقطية الثلاثية (القسم 2.1.1.31).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getColorUsage() {#getColorUsage--}
 ```
@@ -85,11 +85,11 @@ public int getColorUsage()
 ```
 
 
-يحصل أو يعيّن استخدام اللون.
+الحصول أو تعيين استخدام اللون.
 
 القيمة:
 
-حقل Colors في DIB يحتوي على قيم RGB صريحة أو مؤشرات إلى لوحة ألوان. يجب أن تكون هذه القيمة في `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage`
+حقل Colors في DIB يحتوي على قيم RGB صريحة أو فهارس إلى لوحة ألوان. يجب أن تكون هذه القيمة ضمن `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage`
 
 التعداد (القسم 2.1.1.6).
 
@@ -101,18 +101,18 @@ public void setColorUsage(int value)
 ```
 
 
-يحصل أو يعيّن استخدام اللون.
+الحصول أو تعيين استخدام اللون.
 
 القيمة:
 
-حقل Colors في DIB يحتوي على قيم RGB صريحة أو مؤشرات إلى لوحة ألوان. يجب أن تكون هذه القيمة في `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage`
+حقل Colors في DIB يحتوي على قيم RGB صريحة أو فهارس إلى لوحة ألوان. يجب أن تكون هذه القيمة ضمن `com.aspose.imaging.fileFormats.wmf.objects.wmfStretchDib.ColorUsage`
 
 التعداد (القسم 2.1.1.6).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSrcHeight() {#getSrcHeight--}
 ```
@@ -122,10 +122,10 @@ public short getSrcHeight()
 
 يحصل أو يضبط ارتفاع المصدر.
 
-القيمة: ارتفاع المستطيل المصدر، بوحدات منطقية.
+القيمة: ارتفاع المستطيل المصدر بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setSrcHeight(short value) {#setSrcHeight-short-}
 ```
 public void setSrcHeight(short value)
@@ -134,12 +134,12 @@ public void setSrcHeight(short value)
 
 يحصل أو يضبط ارتفاع المصدر.
 
-القيمة: ارتفاع المستطيل المصدر، بوحدات منطقية.
+القيمة: ارتفاع المستطيل المصدر بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getSrcWidth() {#getSrcWidth--}
 ```
@@ -147,26 +147,26 @@ public short getSrcWidth()
 ```
 
 
-يسترجع أو يعيّن عرض المصدر.
+يحصل أو يضبط عرض المصدر.
 
-القيمة: عرض المستطيل المصدر، بوحدات منطقية.
+القيمة: عرض المستطيل المصدر بوحدات منطقية
 
 **Returns:**
-short
+قصير
 ### setSrcWidth(short value) {#setSrcWidth-short-}
 ```
 public void setSrcWidth(short value)
 ```
 
 
-يسترجع أو يعيّن عرض المصدر.
+يحصل أو يضبط عرض المصدر.
 
-القيمة: عرض المستطيل المصدر، بوحدات منطقية.
+القيمة: عرض المستطيل المصدر بوحدات منطقية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getYSrc() {#getYSrc--}
 ```
@@ -174,26 +174,26 @@ public short getYSrc()
 ```
 
 
-يسترجع أو يعيّن إحداثي y للمصدر.
+يحصل أو يضبط إحداثي y للمصدر.
 
-القيمة: إحداثي y، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل المصدر.
+القيمة: إحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل المصدر.
 
 **Returns:**
-short
+قصير
 ### setYSrc(short value) {#setYSrc-short-}
 ```
 public void setYSrc(short value)
 ```
 
 
-يسترجع أو يعيّن إحداثي y للمصدر.
+يحصل أو يضبط إحداثي y للمصدر.
 
-القيمة: إحداثي y، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل المصدر.
+القيمة: إحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getXSrc() {#getXSrc--}
 ```
@@ -201,26 +201,26 @@ public short getXSrc()
 ```
 
 
-يسترجع أو يعيّن إحداثي x للمصدر.
+يحصل أو يضبط إحداثي x للمصدر.
 
-القيمة: إحداثي x، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل المصدر.
+القيمة: إحداثي x، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل المصدر.
 
 **Returns:**
-short
+قصير
 ### setXSrc(short value) {#setXSrc-short-}
 ```
 public void setXSrc(short value)
 ```
 
 
-يسترجع أو يعيّن إحداثي x للمصدر.
+يحصل أو يضبط إحداثي x للمصدر.
 
-القيمة: إحداثي x، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل المصدر.
+القيمة: إحداثي x، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getDestHeight() {#getDestHeight--}
 ```
@@ -228,26 +228,26 @@ public short getDestHeight()
 ```
 
 
-يسترجع أو يعيّن ارتفاع الوجهة.
+يحصل أو يضبط ارتفاع الوجهة.
 
-القيمة: ارتفاع المستطيل الوجهة، بوحدات منطقية.
+القيمة: ارتفاع المستطيل الوجهة بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setDestHeight(short value) {#setDestHeight-short-}
 ```
 public void setDestHeight(short value)
 ```
 
 
-يسترجع أو يعيّن ارتفاع الوجهة.
+يحصل أو يضبط ارتفاع الوجهة.
 
-القيمة: ارتفاع المستطيل الوجهة، بوحدات منطقية.
+القيمة: ارتفاع المستطيل الوجهة بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getDestWidth() {#getDestWidth--}
 ```
@@ -255,26 +255,26 @@ public short getDestWidth()
 ```
 
 
-يسترجع أو يعيّن عرض الوجهة.
+يحصل أو يضبط عرض الوجهة.
 
-القيمة: عرض المستطيل الوجهة، بوحدات منطقية.
+القيمة: عرض المستطيل الوجهة بوحدات منطقية.
 
 **Returns:**
-short
+قصير
 ### setDestWidth(short value) {#setDestWidth-short-}
 ```
 public void setDestWidth(short value)
 ```
 
 
-يسترجع أو يعيّن عرض الوجهة.
+يحصل أو يضبط عرض الوجهة.
 
-القيمة: عرض المستطيل الوجهة، بوحدات منطقية.
+القيمة: عرض المستطيل الوجهة بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getYDest() {#getYDest--}
 ```
@@ -282,26 +282,26 @@ public short getYDest()
 ```
 
 
-يسترجع أو يعيّن إحداثي y للوجهة.
+يحصل أو يضبط إحداثي y للوجهة.
 
-القيمة: إحداثي y، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل الوجهة.
+القيمة: إحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
 
 **Returns:**
-short
+قصير
 ### setYDest(short value) {#setYDest-short-}
 ```
 public void setYDest(short value)
 ```
 
 
-يسترجع أو يعيّن إحداثي y للوجهة.
+يحصل أو يضبط إحداثي y للوجهة.
 
-القيمة: إحداثي y، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل الوجهة.
+القيمة: إحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getXDest() {#getXDest--}
 ```
@@ -309,26 +309,26 @@ public short getXDest()
 ```
 
 
-يسترجع أو يعيّن إحداثي x للوجهة.
+يحصل أو يضبط إحداثي x للوجهة.
 
-القيمة: إحداثي x، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل الوجهة.
+القيمة: إحداثي x، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
 
 **Returns:**
-short
+قصير
 ### setXDest(short value) {#setXDest-short-}
 ```
 public void setXDest(short value)
 ```
 
 
-يسترجع أو يعيّن إحداثي x للوجهة.
+يحصل أو يضبط إحداثي x للوجهة.
 
-القيمة: إحداثي x، بوحدات منطقية، للزاوية العلوية اليسرى للمستطيل الوجهة.
+القيمة: إحداثي x، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getSourceBitmap() {#getSourceBitmap--}
 ```
@@ -336,7 +336,7 @@ public WmfDeviceIndependentBitmap getSourceBitmap()
 ```
 
 
-يحصل أو يعيّن صورة البت المصدر.
+الحصول أو تعيين صورة البت المصدر.
 
 القيمة: خريطة البتات المصدر.
 
@@ -348,7 +348,7 @@ public void setSourceBitmap(WmfDeviceIndependentBitmap value)
 ```
 
 
-يحصل أو يعيّن صورة البت المصدر.
+الحصول أو تعيين صورة البت المصدر.
 
 القيمة: خريطة البتات المصدر.
 

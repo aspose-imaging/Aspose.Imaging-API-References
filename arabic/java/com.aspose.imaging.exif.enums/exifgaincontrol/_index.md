@@ -1,7 +1,7 @@
 ---
 title: "ExifGainControl"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قوائم تعداد التحكم في الكسب في EXIF."
+description: "قوائم تعداد التحكم في الكسب للـ exif."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.exif.enums/exifgaincontrol/
@@ -12,14 +12,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifGainControl extends System.Enum
 ```
 
-قوائم تعداد التحكم في الكسب في EXIF.
+قوائم تعداد التحكم في الكسب للـ exif.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | لا يوجد تحكم في الكسب. |
-| [LowGainUp](#LowGainUp) | زيادة كسب منخفضة. |
-| [HighGainUp](#HighGainUp) | زيادة كسب عالية. |
+| [None](#None) | بدون تحكم في الكسب. |
+| [LowGainUp](#LowGainUp) | رفع كسب منخفض. |
+| [HighGainUp](#HighGainUp) | رفع كسب عالي. |
 | [LowGainDown](#LowGainDown) | خفض كسب منخفض. |
 | [HighGainDown](#HighGainDown) | خفض كسب عالي. |
 ### None {#None}
@@ -28,7 +28,7 @@ public static final int None
 ```
 
 
-لا يوجد تحكم في الكسب.
+بدون تحكم في الكسب.
 
 ### LowGainUp {#LowGainUp}
 ```
@@ -36,7 +36,7 @@ public static final int LowGainUp
 ```
 
 
-زيادة كسب منخفضة.
+رفع كسب منخفض.
 
 ### HighGainUp {#HighGainUp}
 ```
@@ -44,7 +44,7 @@ public static final int HighGainUp
 ```
 
 
-زيادة كسب عالية.
+رفع كسب عالي.
 
 ### LowGainDown {#LowGainDown}
 ```

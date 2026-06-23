@@ -1,7 +1,7 @@
 ---
 title: "TiffImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "معالجة صور TIFF النقطية بتنسيق Tagged Image File Format باستخدام API الخاصة بنا التي تقدم دعماً شاملاً لمختلف الدقة وإمكانيات تحرير متقدمة مثل تعديل بيانات EXIF والقنوات ألفا."
+description: "معالجة صور TIFF النقطية بتنسيق Tagged Image File Format باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تقدم دعماً شاملاً لمختلف الدقات وإمكانيات تحرير متقدمة مثل تعديل بيانات EXIF والقنوات ألفا."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.tiff/tiffimage/
@@ -15,62 +15,62 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer
 ```
 
-معالجة صور TIFF النقطية بتنسيق Tagged Image File Format باستخدام API الخاصة بنا، التي تقدم دعماً شاملاً لمختلف الدقة وإمكانيات تحرير متقدمة مثل تعديل بيانات EXIF والقنوات ألفا. تطبيع الزوايا للصور الممسوحة، تغيير الحجم، التحويل إلى تدرج الرمادي، وتطبيق الفلاتر، وتصحيحات جاما، وضبط معلمات الصورة بسهولة. التعامل بسلاسة مع ملفات TIFF متعددة الإطارات، إنشاء مسارات رسومية، إضافة أشكال، وحفظ الصور بسهولة إلى صيغ مختلفة.
+معالجة صور TIFF النقطية بتنسيق Tagged Image File Format (TIFF) باستخدام واجهة برمجة التطبيقات الخاصة بنا، التي تقدم دعماً شاملاً لمختلف الدقات وإمكانيات تحرير متقدمة مثل تعديل بيانات EXIF والقنوات ألفا. قم بتطبيع الزوايا للصور الممسوحة، وتغيير الحجم، وتحويلها إلى تدرج الرمادي، وتطبيق الفلاتر، وتصحيحات جاما وتعديلات معلمات الصورة بسهولة. تعامل بسلاسة مع ملفات TIFF متعددة الإطارات، أنشئ مسارات رسومية، أضف أشكالاً، واحفظ الصور بسهولة إلى صيغ مختلفة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffImage(TiffFrame frame)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-) | إنشاء كائن جديد من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع تحديد معامل الإطار. |
+| [TiffImage(TiffFrame frame)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-) | تهيئة كائن جديد من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع تحديد معامل الإطار. |
 | [TiffImage(TiffFrame[] frames)](#TiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame---) | إنشاء نسخة جديدة من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع توفير قائمة بالإطارات كمعامل. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | استرجاع قيمة تنسيق الملف المرتبط بالصورة. |
-| [getPremultiplyComponents()](#getPremultiplyComponents--) | الإشارة إلى ما إذا كانت المكونات تتطلب الضرب المسبق، لضمان معالجة فعالة للعناصر البصرية. |
-| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | الإشارة إلى ما إذا كانت المكونات تتطلب الضرب المسبق، لضمان معالجة فعالة للعناصر البصرية. |
+| [getPremultiplyComponents()](#getPremultiplyComponents--) | الإشارة إلى ما إذا كانت المكونات تتطلب الضرب المسبق، لضمان معالجة فعّالة للعناصر البصرية. |
+| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | الإشارة إلى ما إذا كانت المكونات تتطلب الضرب المسبق، لضمان معالجة فعّالة للعناصر البصرية. |
 | [getByteOrder()](#getByteOrder--) | تبديل ترتيب البايتات لملفات TIFF بسلاسة، لضمان تحكم دقيق في تفسير البيانات. |
 | [setByteOrder(int value)](#setByteOrder-int-) | تبديل ترتيب البايتات لملفات TIFF بسلاسة، لضمان تحكم دقيق في تفسير البيانات. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | استرجاع الدقة الأفقية للـ [Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يسهل الضبط الدقيق وقدرات العرض. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | تعديل الدقة الأفقية للـ [Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يسهل الضبط الدقيق وقدرات العرض. |
-| [getVerticalResolution()](#getVerticalResolution--) | الوصول إلى الدقة العمودية للـ [Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يتيح ضبطاً دقيقاً وتحسينات في العرض. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | الوصول إلى الدقة العمودية للـ [Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يتيح ضبطاً دقيقاً وتحسينات في العرض. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | استرجاع الدقة الأفقية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدة بيكسل لكل بوصة، مما يسهل الضبط الدقيق وقدرات العرض. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | تعديل الدقة الأفقية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدة بيكسل لكل بوصة، مما يسهل الضبط الدقيق وقدرات العرض. |
+| [getVerticalResolution()](#getVerticalResolution--) | الوصول إلى الدقة العمودية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدة بيكسل لكل بوصة، مما يتيح ضبطاً دقيقاً وتحسينات في العرض. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | الوصول إلى الدقة العمودية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدة بيكسل لكل بوصة، مما يتيح ضبطاً دقيقاً وتحسينات في العرض. |
 | [getActiveFrame()](#getActiveFrame--) | إدارة الإطار النشط بسلاسة، مما يسهل التنقل الديناميكي والتلاعب داخل السياق المحدد. |
 | [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | إدارة الإطار النشط بسلاسة، مما يسهل التنقل الديناميكي والتلاعب داخل السياق المحدد. |
-| [getFrames()](#getFrames--) | استرجاع مصفوفة من كائنات [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe)، مما يتيح وصولاً شاملاً وتلاعباً بالإطارات الفردية داخل صورة TIFF. |
-| [getPageCount()](#getPageCount--) | استرجاع العدد الإجمالي للصفحات داخل المستند المحدد، مما يسهل التنقل الفعال وإدارة المحتوى متعدد الصفحات. |
-| [getPages()](#getPages--) | الوصول إلى صفحات المستند بسلاسة، مما يتيح تنقلاً ديناميكياً وتلاعباً داخل هيكل المحتوى. |
-| [hasAlpha()](#hasAlpha--) | تحديد ما إذا كانت الصورة تحتوي على قناة ألفا، مما يوفر معلومات حاسمة لعمليات العرض والتجميع. |
-| [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف لهذه الحالة من الصورة عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`. |
-| [getOriginalOptions()](#getOriginalOptions--) | استرجاع الخيارات المستمدة من إعدادات الملف الأصلي، مما يسهل الحفاظ السلس على المعلمات الرئيسية مثل عمق البت وغيرها من السمات الأساسية للصورة الأصلية. |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | إدراج صفحة جديدة في الصورة الحالية بسلاسة، مما يوسع محتواها وتنوعها. |
-| [alignResolutions()](#alignResolutions--) | تنفيذ طريقة المساعدة AlignResolutions لمزامنة الدقة الأفقية والعمودية، وضمان تجانس أبعاد الصورة. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | يحدد الدقة للـ [RasterImage](../../com.aspose.imaging/rasterimage) المحدد، مما يتيح تحكمًا دقيقًا في عرض الصورة وخصائص العرض. |
-| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | استخدم طريقة NormalizeAngle المصممة خصيصًا للمستندات النصية الممسوحة ضوئيًا لتصحيح المسحات المائلة، مما يضمن محاذاة دقيقة. |
-| [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | دمج الإطار المحدد بسلاسة في الصورة، مما يوسع محتواها وتنوعها. |
-| [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | أضف الإطارات من الصورة المحددة بسلاسة إلى الإطار الحالي، مما يجمع محتواها ويعزز مرونة التكوين. |
-| [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | دمج مجموعة الإطارات بسلاسة في الصورة، مما يثري محتواها وتنوعها. |
-| [insertFrame(int index, TiffFrame frame)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أدرج الإطار الجديد في الفهرس المحدد داخل سلسلة الإطارات، مما يضمن تحكمًا دقيقًا في ترتيب الإطارات. |
-| [replaceFrame(int index, TiffFrame newFrame)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | استبدل الإطار في الموضع المحدد بإطار آخر بسلاسة، مما يسهل إدارة إطارات ديناميكية داخل سلسلة الصور. |
-| [removeFrame(int index)](#removeFrame-int-) | قم بإزالة الإطار المحدد بفهرسه من سلسلة الصور بسهولة، مما يبسط إدارة الإطارات داخل تطبيقك. |
-| [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أزل الإطار المحدد من سلسلة الصور بكفاءة، مما يسهل إدارة إطارات مبسطة داخل تطبيقك. |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | قم بإجراء عملية تغيير حجم متناسبة على الصورة، مع الحفاظ على نسبة الأبعاد أثناء تعديل أبعادها. |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | ضبط عرض الصورة مع الحفاظ على نسبة الأبعاد، لضمان تغيير حجم متناسب لتقديم بصري مثالي. |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | قم بضبط ارتفاع الصورة بشكل متناسب، مع الحفاظ على نسبة الأبعاد لضمان تكامل بصري ثابت. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | قم بإجراء تدوير أو انعكاس أو مزيج من العمليتين حصريًا على الإطار النشط. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | نفّذ التمويه (dithering) على الصورة الحالية لتحسين جودتها البصرية وتقليل آثار تدرج الألوان. |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | قم بقص الصورة باستخدام منطقة مستطيلة محددة، مما يسمح باختيار دقيق للمحتوى المطلوب. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | قم بقص الصورة عن طريق تحديد إزاحات إلى اليسار واليمين والأعلى والأسفل. |
+| [getFrames()](#getFrames--) | استرجع مصفوفة من كائنات [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe)، مما يتيح وصولًا شاملاً ومعالجة للإطارات الفردية داخل صورة TIFF. |
+| [getPageCount()](#getPageCount--) | استرجع العدد الإجمالي للصفحات داخل المستند المحدد، مما يسهل التنقل الفعال وإدارة المحتوى متعدد الصفحات. |
+| [getPages()](#getPages--) | الوصول إلى صفحات المستند بسلاسة، مما يتيح تنقلًا ديناميكيًا ومعالجة داخل بنية المحتوى. |
+| [hasAlpha()](#hasAlpha--) | حدد ما إذا كانت الصورة تحتوي على قناة ألفا، مما يوفر معلومات حيوية لعمليات العرض والتجميع. |
+| [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف لكائن الصورة هذا عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`. |
+| [getOriginalOptions()](#getOriginalOptions--) | استرجع الخيارات المستمدة من إعدادات الملف الأصلي، مما يسهل الحفاظ السلس على المعلمات الرئيسية مثل عمق البت وغيرها من السمات الأساسية للصورة الأصلية. |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | أدمج صفحة جديدة في الصورة الحالية بسلاسة، مما يوسع محتواها وتنوعها. |
+| [alignResolutions()](#alignResolutions--) | نفّذ طريقة المساعدة AlignResolutions لمزامنة الدقة الأفقية والعمودية، لضمان تجانس أبعاد الصورة. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | يحدد الدقة لـ [RasterImage](../../com.aspose.imaging/rasterimage) المحدد، مما يتيح تحكمًا دقيقًا في عرض الصورة وخصائصها. |
+| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | استخدم طريقة NormalizeAngle المصممة خصيصًا للمستندات النصية الممسوحة لتصحيح الانحرافات في المسحات، مما يضمن محاذاة دقيقة. |
+| [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أدمج الإطار المحدد بسلاسة في الصورة، مما يوسع محتواها وتنوعها. |
+| [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | أضف الإطارات من الصورة المحددة بسلاسة إلى الإطار الحالي، مما يجمع محتواها ويعزز مرونة التركيب. |
+| [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | دمج مصفوفة الإطارات بسلاسة في الصورة، مما يغني محتواها وتنوعها. |
+| [insertFrame(int index, TiffFrame frame)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أدرج الإطار الجديد في الفهرس المحدد داخل تسلسل الإطارات، لضمان تحكم دقيق في ترتيب الإطارات. |
+| [replaceFrame(int index, TiffFrame newFrame)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | استبدل الإطار في الموضع المحدد بإطار آخر بسلاسة، مما يسهل إدارة إطارات ديناميكية داخل تسلسل الصورة. |
+| [removeFrame(int index)](#removeFrame-int-) | أزل الإطار المحدد بفهرسه من تسلسل الصورة بسهولة، مما يبسط إدارة الإطارات داخل تطبيقك. |
+| [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أزل الإطار المحدد من تسلسل الصورة بكفاءة، مما يسهل إدارة إطارات مبسطة داخل تطبيقك. |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | قم بعملية تغيير حجم متناسبة على الصورة، مع الحفاظ على نسبة العرض إلى الارتفاع أثناء تعديل أبعادها. |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | اضبط عرض الصورة مع الحفاظ على نسبة أبعادها، لضمان تغيير حجم متناسب لتقديم بصري مثالي. |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | قم بضبط متناسب لارتفاع الصورة، مع الحفاظ على نسبة أبعادها لضمان تكامل بصري ثابت. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | نفّذ تدويرًا أو انعكاسًا أو مزيجًا من العمليتين حصريًا على الإطار النشط. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | نفّذ تمويهًا على الصورة الحالية لتحسين جودتها البصرية وتقليل آثار تدرج الألوان. |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | قص الصورة باستخدام منطقة مستطيلة محددة، مما يتيح اختيارًا دقيقًا للمحتوى المطلوب. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | نفّذ قصًا على الصورة عن طريق تحديد إزاحات في الاتجاهات اليسرى، اليمنى، العليا والسفلى. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | طبق التحويل إلى ثنائي على الصورة باستخدام عتبة محددة مسبقًا، لتحويلها إلى صورة ثنائية ذات مناطق أمامية وخلفية متميزة. |
-| [binarizeOtsu()](#binarizeOtsu--) | استخدم طريقة عتبة Otsu لإجراء التحويل إلى ثنائي على الصورة، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على هيستوغرام الصورة. |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | نفّذ التحويل إلى ثنائي على الصورة باستخدام خوارزمية العتبة التكيفية لبرادلي مع عتبة الصورة المتكاملة. |
-| [grayscale()](#grayscale--) | حوّل الصورة إلى تمثيلها بالدرجات الرمادية، لتحويلها إلى صورة ذات قناة واحدة حيث يمثل كل بكسل الشدة. |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | طبق تصحيح غاما على الصورة، مع تعديل شدة البكسلات لتحقيق توازن لوني مرغوب. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | قم بتصحيح غاما على الصورة باستخدام معاملات منفصلة لقنوات الأحمر والأخضر والأزرق، مما يتيح تعديلًا دقيقًا لتوازن الألوان والتباين. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | نفّذ تعديل `brightness` للصورة، مما يسمح بتعديل مستويات الإضاءة العامة. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | عزز التباين في كائن [Image](../../com.aspose.imaging/image)، مع تضخيم الفروق بين المناطق الفاتحة والداكنة. |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | قم بفلترة المحتوى داخل المستطيل المحدد، مع تطبيق مرشح معالجة صورة مخصص لتحسين أو تعديل المنطقة المختارة. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | ضبط حجم الصورة بناءً على الإعدادات المحددة، مما يتيح تحكمًا دقيقًا في الأبعاد ونسبة الأبعاد وسلوك التحجيم. |
+| [binarizeOtsu()](#binarizeOtsu--) | استخدم طريقة عتبة أوتسو لإجراء التحويل إلى ثنائي على الصورة، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على هيستوغرام الصورة. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | تنفيذ التحويل إلى ثنائي على الصورة باستخدام خوارزمية العتبة التكيفية لبرايدلي مع عتبة الصورة المتكاملة. |
+| [grayscale()](#grayscale--) | تحويل الصورة إلى تمثيلها بتدرج الرمادي، وتحويلها إلى صورة ذات قناة واحدة حيث يمثل كل بكسل الشدة. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | تطبيق تصحيح جاما على الصورة، وضبط شدة البكسلات لتحقيق توازن الألوان المطلوب. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | إجراء تصحيح جاما على الصورة باستخدام معاملات فردية لقنوات الأحمر والأخضر والأزرق، مما يتيح ضبطًا دقيقًا لتوازن الألوان والتباين. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | تنفيذ تعديل `brightness` للصورة، مما يسمح بتعديل مستويات الإضاءة العامة. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | عزز التباين في [الصورة](../../com.aspose.imaging/image) المثيل، مع تضخيم الفروق بين المناطق الفاتحة والداكنة. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | تصفية المحتوى داخل المستطيل المحدد، وتطبيق مرشح معالجة صورة مخصص لتعزيز أو تعديل المنطقة المختارة. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | ضبط حجم الصورة بناءً على الإعدادات المحددة، مما يتيح تحكمًا دقيقًا في الأبعاد، نسبة العرض إلى الارتفاع، وسلوك التحجيم. |
 
 ## Example: Create Graphics Path from Path Resources in TIFF image.
 
@@ -97,11 +97,11 @@ static void main()
 {
     try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
     {
-        // إنشاء Figure مستطيلة لـ GraphicsPath
+        // إنشاء شكل مستطيل لـ GraphicsPath
         Figure figure = new Figure();
         figure.addShape(createBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
 
-        // إنشاء GraphicsPath باستخدام Figure الخاص بنا
+        // إنشاء GraphicsPath باستخدام الشكل الخاص بنا
         GraphicsPath graphicsPath = new GraphicsPath();
         graphicsPath.addFigure(figure);
 
@@ -140,7 +140,7 @@ public TiffImage(TiffFrame frame)
 ```
 
 
-تهيئة كائن جديد من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع تحديد معامل الإطار. يُسهل هذا المُنشئ إنشاء مثيل TiffImage، مما يسمح للمطورين بتحديد الإطار الذي سيتم تحميله أو معالجته، مما يبسط مهام معالجة صور Tiff داخل تطبيقاتهم.
+تهيئة كائن جديد من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع تحديد معامل الإطار. يسهّل هذا المُنشئ إنشاء مثيل TiffImage، مما يسمح للمطورين بتحديد الإطار الذي سيتم تحميله أو معالجته، وتبسيط مهام معالجة صور Tiff داخل تطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -153,7 +153,7 @@ public TiffImage(TiffFrame[] frames)
 ```
 
 
-إنشاء مثيل جديد من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع توفير قائمة بالإطارات كمعامل. يتيح هذا المُنشئ تهيئة كائن TiffImage بعدة إطارات، مما يُسهل التعامل الفعال ومعالجة تسلسلات صور TIFF ضمن تطبيقات البرمجيات.
+إنشاء مثيل جديد من الفئة [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage)، مع توفير قائمة بالإطارات كمعامل. يتيح هذا المُنشئ تهيئة كائن TiffImage بعدة إطارات، مما يسهل التعامل الفعال ومعالجة تسلسلات صور TIFF داخل تطبيقات البرمجيات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -166,7 +166,7 @@ public long getFileFormat()
 ```
 
 
-استرجاع قيمة تنسيق الملف المرتبط بالصورة. تُعد هذه الخاصية جانبًا حيويًا في استرجاع بيانات التعريف الخاصة بالصورة، مما يسمح لتطبيقات البرمجيات بتحديد وتفسير تنسيق بيانات الصورة بكفاءة.
+استرجاع قيمة تنسيق الملف المرتبط بالصورة. تُعد هذه الخاصية جانبًا حاسمًا في استرجاع بيانات تعريف الصورة، مما يسمح لتطبيقات البرمجيات بتحديد وتفسير تنسيق بيانات الصورة بكفاءة.
 
 **Returns:**
 long - قيمة تنسيق الملف
@@ -176,7 +176,7 @@ public boolean getPremultiplyComponents()
 ```
 
 
-تحديد ما إذا كانت المكونات تحتاج إلى الضرب المسبق، مما يضمن معالجة فعّالة للعناصر البصرية. تحسين عمليات العرض عن طريق تبديل هذه الخاصية، مما يبسط سير عمل الرسومات لأداء محسن.
+الإشارة إلى ما إذا كانت المكونات تحتاج إلى الضرب المسبق، لضمان معالجة فعّالة للعناصر البصرية. تحسين عمليات العرض عن طريق تبديل هذه الخاصية، وتبسيط سير عمل الرسومات لأداء محسن.
 
 **Returns:**
 boolean - `true` إذا كان يجب ضرب المكونات مسبقًا؛ وإلا `false`.
@@ -186,12 +186,12 @@ public void setPremultiplyComponents(boolean value)
 ```
 
 
-تحديد ما إذا كانت المكونات تحتاج إلى الضرب المسبق، مما يضمن معالجة فعّالة للعناصر البصرية. تحسين عمليات العرض عن طريق تبديل هذه الخاصية، مما يبسط سير عمل الرسومات لأداء محسن.
+الإشارة إلى ما إذا كانت المكونات تحتاج إلى الضرب المسبق، لضمان معالجة فعّالة للعناصر البصرية. تحسين عمليات العرض عن طريق تبديل هذه الخاصية، وتبسيط سير عمل الرسومات لأداء محسن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان يجب ضرب المكونات مسبقًا؛ وإلا `false`. |
+| value | boolean | `true` إذا كان يجب ضرب المكونات مسبقًا؛ وإلا `false`. |
 
 
 **Example: The following example creates a new TIFF image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.**
@@ -237,15 +237,15 @@ try {
     image.dispose();
 }
 
-//سيكون المخرج كما يلي:
+//سيظهر الناتج كما يلي:
 //اللون الأصلي: Color [A=127, R=255, G=0, B=0]
-//اللون بعد الضرب المسبق: Color [A=127, R=127, G=0, B=0]
+//اللون المسبق الضرب: Color [A=127, R=127, G=0, B=0]
 //اللون الأصلي: Color [A=127, R=0, G=255, B=0]
-//اللون بعد الضرب المسبق: Color [A=127, R=0, G=127, B=0]
+//اللون المسبق الضرب: Color [A=127, R=0, G=127, B=0]
 //اللون الأصلي: Color [A=127, R=0, G=0, B=255]
-//اللون بعد الضرب المسبق: Color [A=127, R=0, G=0, B=127]
+//اللون المسبق الضرب: Color [A=127, R=0, G=0, B=127]
 //اللون الأصلي: Color [A=127, R=255, G=255, B=0]
-//اللون بعد الضرب المسبق: Color [A=127, R=127, G=127, B=0]
+//اللون المسبق الضرب: Color [A=127, R=127, G=127, B=0]
 //اللون الأصلي: Color [A=127, R=255, G=0, B=255]
 //اللون المسبق الضرب: Color [A=127, R=127, G=0, B=127]
 //اللون الأصلي: Color [A=127, R=0, G=255, B=255]
@@ -258,7 +258,7 @@ public final int getByteOrder()
 ```
 
 
-بدّل ترتيب البايت لملفات TIFF بسلاسة، مع ضمان تحكم دقيق في تفسير البيانات. مكن تطبيقاتك من المرونة للتكيف مع مواصفات الملفات المتنوعة، مما يعزز التوافق والكفاءة في معالجة البيانات.
+قم بتبديل ترتيب البايت لملفات TIFF بسلاسة، مع ضمان تحكم دقيق في تفسير البيانات. مكن تطبيقاتك من المرونة للتكيف مع مواصفات الملفات المتنوعة، مما يعزز التوافق والكفاءة في معالجة البيانات.
 
 **Returns:**
 int - ترتيب البايت لملف TIFF.
@@ -268,12 +268,12 @@ public final void setByteOrder(int value)
 ```
 
 
-بدّل ترتيب البايت لملفات TIFF بسلاسة، مع ضمان تحكم دقيق في تفسير البيانات. مكن تطبيقاتك من المرونة للتكيف مع مواصفات الملفات المتنوعة، مما يعزز التوافق والكفاءة في معالجة البيانات.
+قم بتبديل ترتيب البايت لملفات TIFF بسلاسة، مع ضمان تحكم دقيق في تفسير البيانات. مكن تطبيقاتك من المرونة للتكيف مع مواصفات الملفات المتنوعة، مما يعزز التوافق والكفاءة في معالجة البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | ترتيب البايت لملف TIFF. |
+| value | int | ترتيب البايت لملف TIFF. |
 
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
@@ -281,12 +281,12 @@ public double getHorizontalResolution()
 ```
 
 
-استرجع الدقة الأفقية للـ[Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يسهل الضبط الدقيق وقدرات العرض. احصل على بيانات تعريف الصورة الأساسية بسهولة، مما يمكّن سير عمل معالجة الصور المبسط لتجارب مستخدم محسّنة.
+استرجع الدقة الأفقية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدات البكسل لكل بوصة، مما يسهل الضبط الدقيق وإمكانيات العرض. احصل على بيانات تعريف الصورة الأساسية بسهولة، مما يمكّن سير عمل معالجة الصور المبسط لتجارب مستخدم محسّنة.
 
 **Returns:**
-double - الدقة الأفقية.
+مزدوج - الدقة الأفقية.
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a TIFF image.**
 
@@ -304,7 +304,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         tiffImage.setResolution(96.0, 96.0);
 
@@ -316,8 +316,8 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 ```
 
 ### setHorizontalResolution(double value) {#setHorizontalResolution-double-}
@@ -326,14 +326,14 @@ public void setHorizontalResolution(double value)
 ```
 
 
-يُعدّل الدقة الأفقية للـ[Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يسهل الضبط الدقيق وقدرات العرض. احصل على بيانات تعريف الصورة الأساسية بسهولة، مما يمكّن سير عمل معالجة الصور المبسط لتجارب مستخدم محسّنة.
+يعدّل الدقة الأفقية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدات البكسل لكل بوصة، مما يسهل الضبط الدقيق وإمكانيات العرض. احصل على بيانات تعريف الصورة الأساسية بسهولة، مما يمكّن سير عمل معالجة الصور المبسط لتجارب مستخدم محسّنة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة الأفقية. |
+|  | value | double | الدقة الأفقية. |
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد. |
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد. |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -341,12 +341,12 @@ public double getVerticalResolution()
 ```
 
 
-الوصول إلى الدقة العمودية للـ[Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يتيح ضبطًا دقيقًا وتحسينات في العرض. استخدم بيانات الصورة الأساسية بسهولة لتبسيط سير عمل معالجة الصور، وضمان جودة وأداء فائقين في تطبيقاتك.
+احصل على الدقة العمودية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدات البكسل لكل بوصة، مما يتيح ضبطًا دقيقًا وتحسينات في العرض. استخدم بيانات الصورة الأساسية بسهولة لتبسيط سير عمل معالجة الصور، وضمان جودة وأداء فائقين في تطبيقاتك.
 
 **Returns:**
-double - الدقة العمودية.
+مزدوج - الدقة العمودية.
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a TIFF image.**
 
@@ -364,7 +364,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         tiffImage.setResolution(96.0, 96.0);
 
@@ -376,8 +376,8 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 ```
 
 ### setVerticalResolution(double value) {#setVerticalResolution-double-}
@@ -386,14 +386,14 @@ public void setVerticalResolution(double value)
 ```
 
 
-الوصول إلى الدقة العمودية للـ[Image](../../com.aspose.imaging/image) المحدد بوحدة بكسل لكل بوصة، مما يتيح ضبطًا دقيقًا وتحسينات في العرض. استخدم بيانات الصورة الأساسية بسهولة لتبسيط سير عمل معالجة الصور، وضمان جودة وأداء فائقين في تطبيقاتك.
+احصل على الدقة العمودية للصورة المحددة [Image](../../com.aspose.imaging/image) بوحدات البكسل لكل بوصة، مما يتيح ضبطًا دقيقًا وتحسينات في العرض. استخدم بيانات الصورة الأساسية بسهولة لتبسيط سير عمل معالجة الصور، وضمان جودة وأداء فائقين في تطبيقاتك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة العمودية. |
+|  | value | double | الدقة العمودية. |
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد. |
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد. |
 
 ### getActiveFrame() {#getActiveFrame--}
 ```
@@ -401,7 +401,7 @@ public final TiffFrame getActiveFrame()
 ```
 
 
-إدارة الإطار النشط بسلاسة، مما يسهل التنقل الديناميكي والتلاعب داخل السياق المحدد. مكن تطبيقك من التفاعل بكفاءة مع المحتوى المتعدد الوسائط، مما يعزز تفاعل المستخدم وإنتاجيته.
+قم بإدارة الإطار النشط بسلاسة، مما يسهل التنقل الديناميكي والتلاعب داخل السياق المحدد. مكن تطبيقك من التفاعل بفعالية مع المحتوى المتعدد الوسائط، مما يعزز تفاعل المستخدم والإنتاجية.
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - Active frame.
@@ -439,7 +439,7 @@ try {
         tiffImage.addFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعنا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     com.aspose.imaging.fileformats.tiff.TiffFrame activeFrame = tiffImage.getActiveFrame();
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
@@ -459,7 +459,7 @@ public final void setActiveFrame(TiffFrame value)
 ```
 
 
-إدارة الإطار النشط بسلاسة، مما يسهل التنقل الديناميكي والتلاعب داخل السياق المحدد. مكن تطبيقك من التفاعل بكفاءة مع المحتوى المتعدد الوسائط، مما يعزز تفاعل المستخدم وإنتاجيته.
+قم بإدارة الإطار النشط بسلاسة، مما يسهل التنقل الديناميكي والتلاعب داخل السياق المحدد. مكن تطبيقك من التفاعل بفعالية مع المحتوى المتعدد الوسائط، مما يعزز تفاعل المستخدم والإنتاجية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -500,7 +500,7 @@ try {
         tiffImage.addFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعنا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     com.aspose.imaging.fileformats.tiff.TiffFrame activeFrame = tiffImage.getActiveFrame();
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
@@ -558,7 +558,7 @@ try {
         tiffImage.addFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعنا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     com.aspose.imaging.fileformats.tiff.TiffFrame activeFrame = tiffImage.getActiveFrame();
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
@@ -578,7 +578,7 @@ public int getPageCount()
 ```
 
 
-استرجع العدد الكلي للصفحات داخل المستند المحدد، مما يسهل التنقل الفعال وإدارة المحتوى متعدد الصفحات. دمج هذه الوظيفة لتعزيز تجربة المستخدم، وتمكين وصول سلس إلى هياكل المستند الشاملة.
+استرجع العدد الإجمالي للصفحات داخل المستند المحدد، مما يسهل التنقل الفعال وإدارة المحتوى متعدد الصفحات. دمج هذه الوظيفة لتعزيز تجربة المستخدم، وتمكين وصول سلس إلى هياكل المستند الشاملة.
 
 **Returns:**
 int - عدد الصفحات.
@@ -588,7 +588,7 @@ public Image[] getPages()
 ```
 
 
-الوصول إلى صفحات المستند بسلاسة، مما يتيح تنقلًا ديناميكيًا وتلاعبًا داخل هيكل المحتوى. مكن تطبيقك من وصول فعال إلى الصفحات الفردية، مما يسهل معالجة المستند المبسطة وتعزيز تفاعل المستخدم.
+احصل على صفحات المستند بسلاسة، مما يتيح تنقلًا ديناميكيًا وتلاعبًا داخل هيكل المحتوى. مكن تطبيقك من وصول فعال إلى الصفحات الفردية، مما يسهل معالجة المستندات المبسطة وتعزيز تفاعل المستخدم.
 
 **Returns:**
 com.aspose.imaging.Image[] - الصفحات.
@@ -598,10 +598,10 @@ public boolean hasAlpha()
 ```
 
 
-تحديد ما إذا كانت الصورة تحتوي على قناة ألفا، مما يوفر معلومات حيوية لعمليات العرض والتجميع. دمج هذه الميزة لتحسين سير عمل المعالجة البصرية، وضمان تمثيل دقيق وتلاعب بالعناصر الشفافة.
+تحديد ما إذا كانت الصورة تحتوي على قناة ألفا، مما يوفر معلومات حاسمة لعمليات العرض والتجميع. دمج هذه الميزة لتحسين سير عمل معالجة الصور البصرية، وضمان تمثيل دقيق ومعالجة العناصر الشفافة.
 
 **Returns:**
-boolean - `true` إذا كانت هناك قناة ألفا.
+منطقي - `true` إذا كان هناك قناة ألفا.
 
 **Example: The following example loads a TIFF image and prints information about raw data format and alpha channel.**
 
@@ -613,7 +613,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName);
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // إذا كان الإطار النشط لملف TIFF يحتوي على قناة ألفا، فإن صورة TIFF بأكملها تُعتبر ذات قناة ألفا.
+    // إذا كان إطار TIFF النشط يحتوي على قناة ألفا، فسيُعتبر أن صورة TIFF بأكملها تحتوي على قناة ألفا.
     System.out.printf("ImageFile=%s, FileFormat=%s, HasAlpha=%s\r\n", fileName, tiffImage.getRawDataFormat(), tiffImage.hasAlpha());
 
     int i = 0;
@@ -625,9 +625,9 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, القنوات المستخدمة: 1, HasAlpha=False
+// Frame=1, FileFormat=RgbIndexed1Bpp, القنوات المستخدمة: 1, HasAlpha=False
+// Frame=2, FileFormat=RgbIndexed1Bpp, القنوات المستخدمة: 1, HasAlpha=False
 ```
 
 ### removeMetadata() {#removeMetadata--}
@@ -636,7 +636,7 @@ public void removeMetadata()
 ```
 
 
-يزيل بيانات التعريف لهذه الحالة من الصورة عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`.
+يزيل بيانات التعريف لكائن الصورة هذا عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`.
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -644,7 +644,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-استرجع الخيارات المستمدة من إعدادات الملف الأصلي، مما يتيح الحفاظ السلس على المعلمات الرئيسية مثل عمق البت وغيرها من السمات الأساسية للصورة الأصلية. استخدم هذه الطريقة للحفاظ على الدقة والاتساق في مهام معالجة الصور، وضمان نتائج مثالية دون تغييرات غير ضرورية. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-)، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومرّرها إلى طريقة [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) كمعامل ثانٍ.
+استرجاع الخيارات المستمدة من إعدادات الملف الأصلي، مما يسهل الحفاظ السلس على المعلمات الرئيسية مثل عمق البت وغيرها من السمات الأساسية للصورة الأصلية. استخدم هذه الطريقة للحفاظ على الدقة والاتساق في مهام معالجة الصور، وضمان الحصول على نتائج مثالية دون تعديلات غير ضرورية. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بدقة 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-)، سيتم إنتاج صورة PNG ناتجة بدقة 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بدقة 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومررها إلى طريقة [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) كمعامل ثانٍ.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -654,12 +654,12 @@ public void addPage(RasterImage page)
 ```
 
 
-دمج صفحة جديدة في الصورة الحالية بسلاسة، مع توسيع محتواها وتنوعها. استخدم هذه الطريقة لتعزيز تكوين المستندات وإدارتها، مما يمكّن من التعامل الفعال مع الصور متعددة الصفحات داخل تطبيقك.
+دمج صفحة جديدة في الصورة الحالية بسلاسة، مما يوسع محتواها وتنوعها. استخدم هذه الطريقة لتعزيز تكوين المستند وإدارته، مما يتيح التعامل الفعال مع الصور متعددة الصفحات داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة التي سيتم إضافتها. |
+| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة المراد إضافتها. |
 
 ### alignResolutions() {#alignResolutions--}
 ```
@@ -667,7 +667,7 @@ public final void alignResolutions()
 ```
 
 
-نفّذ طريقة المساعد AlignResolutions لمزامنة الدقة الأفقية والرأسية، مما يضمن توحيد أبعاد الصورة. تسهّل هذه الوظيفة سير عمل معالجة الصور بسلاسة من خلال تنسيق معلمات الدقة، وتحسين الجودة البصرية والاتساق عبر مختلف المنصات والأجهزة.
+تنفيذ طريقة المساعدة AlignResolutions لمزامنة الدقة الأفقية والعمودية، وضمان التوحيد في أبعاد الصورة. تسهل هذه الوظيفة سير عمل معالجة الصور المبسط من خلال توحيد معلمات الدقة، وتحسين الجودة البصرية والاتساق عبر مختلف المنصات والأجهزة.
 
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```
@@ -675,13 +675,13 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-يحدد الدقة لـ [RasterImage](../../com.aspose.imaging/rasterimage) المحدد، مما يتيح تحكمًا دقيقًا في عرض الصورة وخصائصها. دمج هذه الوظيفة لتحسين المخرجات البصرية وضمان التوافق مع أجهزة وإخراجات متعددة، مما يعزز تجربة المستخدم العامة.
+يحدد الدقة لـ [RasterImage](../../com.aspose.imaging/rasterimage) المحدد، مما يتيح تحكمًا دقيقًا في عرض الصورة وخصائصها. دمج هذه الوظيفة لتحسين المخرجات البصرية وضمان التوافق مع مجموعة متنوعة من أجهزة ومنصات الإخراج، مما يعزز تجربة المستخدم العامة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dpiX | double | الدقة الأفقية، بوحدة النقاط في البوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
-| dpiY | double | الدقة الرأسية، بوحدة النقاط في البوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiX | double | الدقة الأفقية، بوحدة النقاط لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiY | double | الدقة العمودية، بوحدة النقاط لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
 
 
 **Example: The following example shows how to set horizontal/vertical resolution of a TIFF image.**
@@ -700,7 +700,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         tiffImage.setResolution(96.0, 96.0);
 
@@ -712,8 +712,8 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 ```
 
 ### normalizeAngle(boolean resizeProportionally, Color backgroundColor) {#normalizeAngle-boolean-com.aspose.imaging.Color-}
@@ -722,12 +722,12 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-استخدم طريقة NormalizeAngle المصممة خصيصًا للوثائق النصية الممسوحة لتصحيح المسح المائل، وضمان محاذاة دقيقة. دمج هذه الوظيفة بسلاسة في سير عمل معالجة النصوص لتعزيز قابلية قراءة الوثائق وجودتها، وتحسين الكفاءة العامة في مهام التعرف على النص وتحليله. تستخدم هذه الطريقة [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) و[RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-).
+استخدم طريقة NormalizeAngle المصممة خصيصًا للمستندات النصية الممسوحة ضوئيًا لتصحيح المسحات المائلة، وضمان محاذاة دقيقة. دمج هذه الوظيفة بسلاسة في سير عمل معالجة النصوص لتعزيز قابلية قراءة المستند وجودته، وتحسين الكفاءة العامة في مهام التعرف على النص وتحليله. تستخدم هذه الطريقة أساليب [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) و [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم صورتك وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدور محتويات الصورة الداخلية فقط. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدوَّر محتويات الصورة الداخلية فقط. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 
 ### addFrame(TiffFrame frame) {#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
@@ -736,7 +736,7 @@ public final void addFrame(TiffFrame frame)
 ```
 
 
-دمج الإطار المحدد بسلاسة في الصورة، مع توسيع محتواها وتنوعها. استخدم هذه الطريقة لتعزيز تكوين الصورة وإدارتها، مما يمكّن من التعامل الفعال مع الصور متعددة الإطارات داخل تطبيقك.
+دمج الإطار المحدد بسلاسة في الصورة، مما يوسع محتواها وتنوعها. استخدم هذه الطريقة لتعزيز تكوين الصورة وإدارتها، مما يتيح التعامل الفعال مع الصور متعددة الإطارات داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -777,7 +777,7 @@ try {
         tiffImage.addFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعنا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     com.aspose.imaging.fileformats.tiff.TiffFrame activeFrame = tiffImage.getActiveFrame();
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
@@ -797,7 +797,7 @@ public final void add(TiffImage image)
 ```
 
 
-أضف الإطارات من الصورة المحددة بسلاسة إلى الإطار الحالي، مع دمج محتواها وتعزيز مرونة التكوين. دمج هذه الطريقة لتبسيط إدارة الإطارات وتعديلها داخل تطبيقك، مما يسهل التعامل الفعال مع الصور متعددة الإطارات.
+إضافة الإطارات من الصورة المحددة بسلاسة إلى الإطار الحالي، مع دمج محتواها وتعزيز مرونة التكوين. دمج هذه الطريقة لتبسيط إدارة الإطارات وتعديلها داخل تطبيقك، مما يسهل التعامل الفعال مع الصور متعددة الإطارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -810,7 +810,7 @@ public final void addFrames(TiffFrame[] frames)
 ```
 
 
-دمج مصفوفة الإطارات بسلاسة في الصورة، مع إثراء محتواها وتنوعها. استخدم هذه الطريقة لتعزيز تكوين الصورة وإدارتها، وتمكين التعامل الفعال مع الصور متعددة الإطارات داخل تطبيقك.
+دمج مصفوفة الإطارات بسلاسة في الصورة، مما يثري محتواها وتنوعها. استخدم هذه الطريقة لتعزيز تكوين الصورة وإدارتها، وتمكين التعامل الفعال مع الصور متعددة الإطارات داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -823,12 +823,12 @@ public final void insertFrame(int index, TiffFrame frame)
 ```
 
 
-أدرج الإطار الجديد في الفهرس المحدد داخل تسلسل الإطارات، مع ضمان تحكم دقيق في ترتيب الإطارات. استخدم هذه الطريقة لإدارة تسلسلات الإطارات بفعالية، وتسهيل التلاعب الديناميكي وتنظيم محتوى الصورة داخل تطبيقك.
+إدراج الإطار الجديد في الفهرس المحدد ضمن تسلسل الإطارات، مع ضمان تحكم دقيق في ترتيب الإطارات. استخدم هذه الطريقة لإدارة تسلسلات الإطارات بفعالية، وتسهيل التعديل الديناميكي وتنظيم محتوى الصورة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | فهرس `frame`. |
+| index | int | فهرس الـ `frame`. |
 | frame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | الإطار للإدراج. |
 
 ### replaceFrame(int index, TiffFrame newFrame) {#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
@@ -837,7 +837,7 @@ public final TiffFrame replaceFrame(int index, TiffFrame newFrame)
 ```
 
 
-استبدل الإطار في الموضع المحدد بإطار آخر بسلاسة، مما يسهل إدارة الإطارات الديناميكية داخل تسلسل الصورة. دمج هذه الطريقة لتعزيز المرونة والدقة في تعديل الإطارات، وضمان تنظيم وعرض مثالي لمحتوى الصورة داخل تطبيقك.
+استبدال الإطار في الموضع المحدد بإطار آخر بسلاسة، مما يسهل إدارة الإطارات الديناميكية ضمن تسلسل الصورة. دمج هذه الطريقة لتعزيز المرونة والدقة في تعديل الإطارات، وضمان تنظيم وعرض مثالي لمحتوى الصورة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -845,7 +845,7 @@ public final TiffFrame replaceFrame(int index, TiffFrame newFrame)
 | index | int | موضع الإطار المستند إلى الصفر. |
 |  | newFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | الإطار المراد استبداله. |
 
-ملاحظة: لا تنسَ إغلاق/تصريف الإطار إذا لم تقم بإضافته إلى صورة TiffImage أخرى. |
+ملاحظة: لا تنسَ إغلاق/تحرير الإطار إذا لم تقم بإضافته إلى صورة TiffImage أخرى. |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The removed frame.
@@ -855,7 +855,7 @@ public final TiffFrame removeFrame(int index)
 ```
 
 
-قم بإزالة الإطار المحدد بواسطة فهرسه من تسلسل الصورة بسهولة، مما يبسط إدارة الإطارات داخل تطبيقك. دمج هذه الوظيفة لتعزيز الكفاءة والدقة في تعديل الإطارات، وتسهيل تنظيم وعرض محتوى الصورة بسلاسة.
+قم بإزالة الإطار المحدد بواسطة فهرسه من تسلسل الصور بسهولة، مما يبسط إدارة الإطارات داخل تطبيقك. دمج هذه الوظيفة لتعزيز الكفاءة والدقة في معالجة الإطارات، وتسهيل التنظيم السلس وعرض محتوى الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -864,7 +864,7 @@ public final TiffFrame removeFrame(int index)
 
 --------------------
 
-ملاحظة: لا تنسَ استدعاء Dispose للإطار إذا لم تقم بإضافته إلى صورة TiffImage أخرى. |
+ملاحظة: لا تنسَ تحرير الإطار إذا لم تقم بإضافته إلى صورة TiffImage أخرى. |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The removed frame.
@@ -902,7 +902,7 @@ try {
         tiffImage.addFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعنا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     com.aspose.imaging.fileformats.tiff.TiffFrame activeFrame = tiffImage.getActiveFrame();
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
@@ -922,7 +922,7 @@ public final void removeFrame(TiffFrame frame)
 ```
 
 
-قم بإزالة الإطار المحدد من تسلسل الصورة بفعالية، مما يسهل إدارة الإطارات بسلاسة داخل تطبيقك. دمج هذه الوظيفة لتعزيز الدقة والمرونة في تعديل الإطارات، وضمان تنظيم وعرض محتوى الصورة بسلاسة.
+قم بإزالة الإطار المحدد من تسلسل الصور بفعالية، مما يسهل إدارة الإطارات داخل تطبيقك. دمج هذه الوظيفة لتعزيز الدقة والمرونة في معالجة الإطارات، وضمان تنظيم وعرض سلس لمحتوى الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -931,7 +931,7 @@ public final void removeFrame(TiffFrame frame)
 
 --------------------
 
-ملاحظة: لا تنسَ استدعاء Dispose للإطار إذا لم تقم بإضافته إلى صورة TiffImage أخرى. |
+ملاحظة: لا تنسَ تحرير الإطار إذا لم تقم بإضافته إلى صورة TiffImage أخرى. |
 
 ### resizeProportional(int newWidth, int newHeight, int resizeType) {#resizeProportional-int-int-int-}
 ```
@@ -939,7 +939,7 @@ public final void resizeProportional(int newWidth, int newHeight, int resizeType
 ```
 
 
-قم بإجراء عملية تغيير حجم متناسبة على الصورة، مع الحفاظ على نسبة العرض إلى الارتفاع أثناء تعديل أبعادها. استخدم هذه الطريقة لتكبير الصور ديناميكيًا داخل تطبيقك، مع ضمان تمثيل بصري ثابت لسلامة المحتوى. سيقوم تغيير الحجم المتناسب بتغيير حجم كل إطار وفقًا لنسبة `newWidth`/العرض و`newHeight`/الارتفاع.
+قم بإجراء عملية تغيير حجم متناسبة على الصورة، مع الحفاظ على نسبة العرض إلى الارتفاع أثناء تعديل أبعادها. استخدم هذه الطريقة لتكبير الصور ديناميكياً داخل تطبيقك، مما يضمن تمثيلًا بصريًا ثابتًا لسلامة المحتوى. سيقوم تغيير الحجم المتناسب بتغيير حجم كل إطار وفق النسبة `newWidth`/العرض و `newHeight`/الارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -954,7 +954,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-قم بضبط عرض الصورة مع الحفاظ على نسبة أبعادها، مع ضمان تغيير الحجم بشكل متناسب لتقديم بصري مثالي. استخدم هذه الطريقة لتكبير الصور ديناميكيًا داخل تطبيقك، مما يسهل العرض المتسق والجذاب عبر مختلف سياقات العرض.
+قم بضبط عرض الصورة مع الحفاظ على نسبة الأبعاد، لضمان تغيير حجم متناسب لتقديم بصري أمثل. استخدم هذه الطريقة لتكبير الصور ديناميكياً داخل تطبيقك، مما يسهل عرضًا ثابتًا وجذابًا عبر مختلف سياقات العرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -964,7 +964,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 
 
 **Example: This example loads a TIFF image and resizes it proportionally using various resizing methods.**
-هذا المثال يحمل صورة TIFF ويعيد تحجيمها بشكل متناسب باستخدام طرق تحجيم مختلفة. يتم تحديد العرض فقط، ويتم حساب الارتفاع تلقائيًا.
+يحمّل هذا المثال صورة TIFF ويعيد تحجيمها بشكل متناسب باستخدام طرق تحجيم مختلفة. يتم تحديد العرض فقط، ويتم حساب الارتفاع تلقائيًا.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1019,7 +1019,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-قم بإجراء تعديل متناسب لارتفاع الصورة، مع الحفاظ على نسبة أبعادها لضمان تكامل بصري ثابت. استخدم هذه الطريقة لتغيير حجم الصور ديناميكيًا داخل تطبيقك، لضمان عرض مثالي عبر منصات وأجهزة متنوعة دون الإضرار بجودة المحتوى.
+قم بإجراء تعديل متناسب لارتفاع الصورة، مع الحفاظ على نسبة الأبعاد لضمان تكامل بصري ثابت. استخدم هذه الطريقة لتكبير الصور ديناميكياً داخل تطبيقك، مما يضمن عرضًا أمثل عبر منصات وأجهزة متنوعة دون الإضرار بجودة المحتوى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1029,7 +1029,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 
 
 **Example: This example loads a TIFF image and resizes it proportionally using various resizing methods.**
-هذا المثال يحمل صورة TIFF ويعيد تحجيمها بشكل متناسب باستخدام طرق تحجيم مختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
+يحمّل هذا المثال صورة TIFF ويعيد تحجيمها بشكل متناسب باستخدام طرق تحجيم مختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1084,12 +1084,12 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-قم بأداء دوران أو قلب، أو مزيج من العمليتين حصريًا على الإطار النشط. تسمح هذه الطريقة بالتلاعب الدقيق بالإطارات الفردية داخل تسلسل الصورة، مما يعزز المرونة في تحرير الصور وتكوينها داخل تطبيقك.
+قم بإجراء تدوير أو انعكاس، أو مزيج من العمليتين، حصريًا على الإطار النشط. تتيح هذه الطريقة معالجة دقيقة للإطارات الفردية داخل تسلسل الصور، مما يعزز المرونة في تحرير الصور وتكوينها داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rotateFlipType | int | نوع الدوران والقلب. |
+| rotateFlipType | int | نوع التدوير والانعكاس. |
 
 
 **Example: This example loads a TIFF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.**
@@ -1140,7 +1140,7 @@ class Utils {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 Utils utils = new Utils();
 
 int[] rotateFlipTypes = new int[]
@@ -1152,7 +1152,7 @@ int[] rotateFlipTypes = new int[]
         };
 
 for (int rotateFlipType : rotateFlipTypes) {
-    // قم بالدوران، القليب وحفظ إلى ملف الإخراج.
+    // قم بالدوران، والقلّب، واحفظ إلى ملف الإخراج.
     com.aspose.imaging.fileformats.tiff.TiffImage image = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.load(dir + "sample.tif");
     try {
         image.rotateFlip(rotateFlipType);
@@ -1169,7 +1169,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-نفّذ تمويهًا على الصورة الحالية لتحسين جودتها البصرية وتقليل ظواهر تدرج الألوان. دمج هذه الطريقة في سير عمل معالجة الصور لضمان انتقالات ألوان أكثر سلاسة، مما ينتج عنه تحسين عام في مظهر الصورة ووضوحها.
+نفّذ التدرج الضوضائي على الصورة الحالية لتحسين جودتها البصرية وتقليل آثار تدرج الألوان. دمج هذه الطريقة في سير عمل معالجة الصور لضمان انتقالات ألوان أكثر سلاسة، مما ينتج مظهرًا عامًّا محسّنًا ووضوحًا أعلى للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1188,9 +1188,9 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // قم بتنفيذ تدرّج العتبة باستخدام لوحة ألوان 4‑بت تحتوي على 16 لونًا.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين بالعتبة باستخدام لوحة ألوان 4-بت تحتوي على 16 لونًا.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     tiffImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4, null);
 
     tiffImage.save(dir + "sample.ThresholdDithering4.png", new com.aspose.imaging.imageoptions.PngOptions());
@@ -1202,9 +1202,9 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // قم بتنفيذ تدرّج Floyd باستخدام لوحة ألوان 1‑بت تحتوي فقط على لونين - الأسود والأبيض.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين فلويد باستخدام لوحة ألوان 1-بت تحتوي فقط على لونين - أسود وأبيض.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     tiffImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1, null);
 
     tiffImage.save(dir + "sample.FloydSteinbergDithering1.png", new com.aspose.imaging.imageoptions.PngOptions());
@@ -1219,7 +1219,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-قم بقص الصورة باستخدام منطقة مستطيلة محددة، مما يسمح باختيار دقيق للمحتوى المطلوب. دمج هذه الطريقة في سير عمل معالجة الصور لإزالة المناطق غير المرغوب فيها بفعالية والتركيز على التفاصيل الأساسية، مما يعزز الوضوح العام وتكوين الصورة.
+قم بقص الصورة باستخدام منطقة مستطيلة محددة، مما يتيح اختيارًا دقيقًا للمحتوى المطلوب. دمج هذه الطريقة في سير عمل معالجة الصور لإزالة المناطق غير المرغوبة بكفاءة والتركيز على التفاصيل الأساسية، مما يعزز الوضوح العام وتكوين الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1228,7 +1228,7 @@ public void crop(Rectangle rectangle)
 
 
 **Example: The following example crops a TIFF image.**
-المثال التالي يقطع صورة TIFF. يتم تحديد منطقة القص عبر Aspose.Imaging.Rectangle.
+المثال التالي يقتطع صورة TIFF. يتم تحديد منطقة القص عبر Aspose.Imaging.Rectangle.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1236,7 +1236,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // قص الصورة. منطقة القص هي المنطقة المستطيلة المركزية في الصورة.
+    // قص الصورة. منطقة القص هي المنطقة المركزية المستطيلة للصورة.
     com.aspose.imaging.Rectangle area = new com.aspose.imaging.Rectangle(
             tiffImage.getWidth() / 4, tiffImage.getHeight() / 4, tiffImage.getWidth() / 2, tiffImage.getHeight() / 2);
     tiffImage.crop(area);
@@ -1254,7 +1254,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-قم بعملية القص على الصورة عن طريق تحديد إزاحات إلى اليسار، اليمين، الأعلى، والأسفل. تمكّن هذه الطريقة من اختيار دقيق للجزء المطلوب من الصورة، مما يسهل إزالة المناطق غير المرغوب فيها والتركيز على المحتوى الأساسي. دمج هذه الوظيفة في خط أنابيب معالجة الصور لتعزيز الوضوح والتكوين حسب الحاجة داخل تطبيقك.
+قم بقص الصورة عن طريق تحديد إزاحات إلى اليسار، اليمين، الأعلى، والأسفل. تمكّن هذه الطريقة من اختيار الجزء المطلوب من الصورة بدقة، مما يسهل إزالة المناطق غير المرغوبة والتركيز على المحتوى الأساسي. دمج هذه الوظيفة في خط أنابيب معالجة الصور لتعزيز الوضوح والتكوين حسب الحاجة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1266,7 +1266,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 
 
 **Example: The following example crops a TIFF image.**
-المثال التالي يقطع صورة TIFF. يتم تحديد منطقة القص عبر هوامش اليسار، الأعلى، اليمين، والأسفل.
+المثال التالي يقتطع صورة TIFF. يتم تحديد منطقة القص عبر هوامش اليسار، الأعلى، اليمين، والأسفل.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1274,12 +1274,12 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // اقتطع مرة أخرى. ضع هامشًا بنسبة 10% من حجم الصورة.
+    // اقتطع مرة أخرى. اضبط هامشًا بنسبة 10٪ من حجم الصورة.
     int horizontalMargin = tiffImage.getWidth() / 10;
     int verticalMargin = tiffImage.getHeight() / 10;
     tiffImage.crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-    // احفظ الصورة المقتطعة إلى PNG.
+    // احفظ الصورة المقتطعة بصيغة PNG.
     tiffImage.save(dir + "sample.Crop.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -1292,12 +1292,12 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-طبق التحويل إلى صورة ثنائية على الصورة باستخدام عتبة محددة مسبقًا، محولًا إياها إلى صورة ثنائية ذات مناطق أمامية وخلفية مميزة. دمج هذه الطريقة في سير عمل معالجة الصور لتسهيل مهام التجزئة واستخراج الميزات، مما يعزز دقة وكفاءة تحليل الصور داخل تطبيقك.
+طبق التحويل إلى صورة ثنائية على الصورة باستخدام عتبة محددة مسبقًا، مما يحولها إلى صورة ثنائية ذات مناطق أمامية وخلفية متميزة. دمج هذه الطريقة في سير عمل معالجة الصور لتسهيل مهام التجزئة واستخراج الميزات، مما يعزز دقة وكفاءة تحليل الصور داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة لبكسل أكبر من العتبة، سيتم تعيين القيمة 255 له، وإلا 0. |
+| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من العتبة، سيتم تعيين القيمة 255 لها، وإلا 0. |
 
 
 **Example: The following example binarizes a TIFF image with the predefined threshold.**
@@ -1309,8 +1309,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
-    // إذا كانت القيمة الرمادية المقابلة للبكسل أكبر من 127، سيتم تعيين القيمة 255 له، وإلا ستكون 0.
+    // حوّل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
+    // إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من 127، سيتم تعيين قيمة 255 له، وإلا ستكون 0.
     tiffImage.binarizeFixed((byte) 127);
     tiffImage.save(dir + "sample.BinarizeFixed.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1324,11 +1324,11 @@ public void binarizeOtsu()
 ```
 
 
-استخدم عتبة Otsu لإجراء التحويل إلى صورة ثنائية على الصورة، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على هيستوغرام الصورة. دمج هذه الطريقة في سير عمل معالجة الصور لتحقيق تجزئة فعالة واستخراج ميزات، مما يعزز دقة وموثوقية مهام تحليل الصور داخل تطبيقك.
+استخدم طريقة أوتسو لتحديد العتبة لإجراء التحويل إلى صورة ثنائية، حيث يتم تحديد قيمة العتبة المثلى تلقائيًا بناءً على هيستوجرام الصورة. دمج هذه الطريقة في سير عمل معالجة الصور لتحقيق تجزئة واستخراج ميزات فعّالة، مما يعزز دقة وموثوقية مهام تحليل الصور داخل تطبيقك.
 
 
 **Example: The following example binarizes a TIFF image with Otsu thresholding.**
-المثال التالي يحول صورة TIFF إلى صورة ثنائية باستخدام عتبة Otsu. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يحول صورة TIFF إلى صورة ثنائية باستخدام طريقة أوتسو لتحديد العتبة. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1336,7 +1336,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام عتبة أوتسو.
+    // حوّل الصورة إلى ثنائية باستخدام عتبة أوتسو.
     tiffImage.binarizeOtsu();
     tiffImage.save(dir + "sample.BinarizeOtsu.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1350,17 +1350,17 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-نفّذ التحويل إلى صورة ثنائية على الصورة باستخدام خوارزمية العتبة التكيفية لبرايدلي مع عتبة الصورة المتكاملة. هذا النهج يحسب عتبات محلية ديناميكيًا بناءً على جوار الصورة، مما يعزز القدرة على التكيف مع ظروف الإضاءة المتغيرة ويضمن تجزئة قوية للمهام اللاحقة داخل تطبيقك.
+طبق التحويل إلى صورة ثنائية على الصورة باستخدام خوارزمية العتبة التكيفية لبرايدلي مع تحديد العتبة عبر الصورة المتكاملة. تقوم هذه المقاربة بحساب عتبات محلية ديناميكيًا بناءً على جوار الصورة، مما يعزز القدرة على التكيف مع ظروف الإضاءة المتغيرة ويضمن تجزئة قوية للمهام اللاحقة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
-| windowSize | int | حجم نافذة s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
+| windowSize | int | حجم نافذة s × s من البكسلات المتمركزة حول هذا البكسل |
 
 
 **Example: The following example binarizes a TIFF image with Bradley's adaptive thresholding algorithm with the specified window size.**
-المثال التالي يحول صورة TIFF إلى صورة ثنائية باستخدام خوارزمية العتبة التكيفية لبرايدلي مع حجم النافذة المحدد. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يحول صورة TIFF إلى ثنائية باستخدام خوارزمية العتبة التكيفية لبرايدلي مع حجم النافذة المحدد. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1368,7 +1368,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // حوّل الصورة إلى ثنائية بفارق سطوع قدره 5. السطوع هو الفرق بين بكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
+    // حوّل الصورة إلى ثنائية بفرق سطوع قدره 5. السطوع هو الفرق بين بكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
     tiffImage.binarizeBradley(5, 10);
     tiffImage.save(dir + "sample.BinarizeBradley5_10x10.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1382,11 +1382,11 @@ public void grayscale()
 ```
 
 
-حوّل الصورة إلى تمثيلها الرمادي، محولًا إياها إلى صورة ذات قناة واحدة حيث يمثل كل بكسل الشدة. دمج هذه الطريقة في خط أنابيب معالجة الصور لتبسيط التحليل وتعزيز التوافق مع الخوارزميات القائمة على التدرج الرمادي، مما يسهل مهام الرؤية الحاسوبية وتحليل الصور المختلفة داخل تطبيقك.
+حوّل الصورة إلى تمثيلها بتدرج الرمادي، محولاً إياها إلى صورة ذات قناة واحدة حيث يمثل كل بكسل الشدة. دمج هذه الطريقة في خط أنابيب معالجة الصور الخاص بك لتبسيط التحليل وتعزيز التوافق مع الخوارزميات القائمة على تدرج الرمادي، مما يسهل مهام الرؤية الحاسوبية وتحليل الصور المختلفة داخل تطبيقك.
 
 
 **Example: The following example transforms a colored TIFF image to its grayscale representation.**
-المثال التالي يحول صورة TIFF ملونة إلى تمثيلها الرمادي. الصور الرمادية تتكون حصريًا من درجات اللون الرمادي وتحمل معلومات الشدة فقط.
+المثال التالي يحول صورة TIFF ملونة إلى تمثيلها بتدرج الرمادي. صور تدرج الرمادي تتكون حصراً من درجات اللون الرمادي وتحمل معلومات الشدة فقط.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1407,12 +1407,12 @@ public void adjustGamma(float gamma)
 ```
 
 
-طبق تصحيح غاما على الصورة، معدلاً شدة البكسلات لتحقيق توازن لوني مرغوب. دمج هذه الطريقة في سير عمل معالجة الصور لتعزيز الجودة البصرية وتحسين دقة التحليل أو مهام العرض اللاحقة داخل تطبيقك.
+طبق تصحيح جاما على الصورة، معدلاً شدة البكسلات لتحقيق توازن الألوان المطلوب. أدمج هذه الطريقة في سير عمل معالجة الصور الخاص بك لتعزيز جودة العرض وتحسين دقة التحليل أو مهام العرض اللاحقة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| غاما | float | معامل غاما لقنوات الأحمر والأخضر والأزرق |
+| غاما | float | معامل غاما للقنوات الحمراء والخضراء والزرقاء |
 
 
 **Example: The following example performs gamma-correction of a TIFF image.**
@@ -1424,7 +1424,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // تعيين معامل غاما لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معامل غاما للقنوات الحمراء والخضراء والزرقاء.
     tiffImage.adjustGamma(2.5f);
     tiffImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1438,14 +1438,14 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-قم بتطبيق تصحيح غاما على الصورة باستخدام معاملات فردية لقنوات الأحمر والأخضر والأزرق، مما يسمح بتعديلات دقيقة لتوازن اللون والتباين. دمج هذه الطريقة في خط أنابيب معالجة الصور لتحقيق تحكم دقيق في عرض الألوان وتعزيز الدقة البصرية داخل تطبيقك.
+قم بأداء تصحيح جاما على الصورة باستخدام معاملات منفصلة لقنوات الأحمر والأخضر والأزرق، مما يتيح ضبطاً دقيقاً لتوازن الألوان والتباين. دمج هذه الطريقة في خط أنابيب معالجة الصور الخاص بك لتحقيق تحكم دقيق في عرض الألوان وتعزيز الدقة البصرية داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gammaRed | float | معامل غاما لقناة الأحمر |
-| gammaGreen | float | معامل غاما لقناة الأخضر |
-| gammaBlue | float | معامل غاما لقناة اللون الأزرق |
+| gammaRed | float | معامل غاما للقناة الحمراء |
+| gammaGreen | float | معامل غاما للقناة الخضراء |
+| gammaBlue | float | معامل غاما للقناة الزرقاء |
 
 
 **Example: The following example performs gamma-correction of a TIFF image applying different coefficients for color components.**
@@ -1457,7 +1457,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // تعيين معاملات غاما الفردية لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معاملات غاما الفردية للقنوات الحمراء والخضراء والزرقاء.
     tiffImage.adjustGamma(1.5f, 2.5f, 3.5f);
     tiffImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1471,7 +1471,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-نفّذ تعديل `brightness` للصورة، مما يسمح بتعديل مستويات الإضاءة العامة. دمج هذه الطريقة في سير عمل معالجة الصور لتعزيز الرؤية وتحسين الجودة البصرية للصور داخل تطبيقك.
+نفّذ تعديل `brightness` للصورة، مما يسمح بتعديل مستويات الإضاءة العامة. دمج هذه الطريقة في سير عمل معالجة الصور الخاص بك لتعزيز الوضوح وتحسين الجودة البصرية للصور داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1488,7 +1488,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255, 255].
+    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255، 255].
     tiffImage.adjustBrightness(50);
     tiffImage.save(dir + "sample.AdjustBrightness.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1502,7 +1502,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-عزز التباين في كائن [Image](../../com.aspose.imaging/image)، مضخمًا الفروق بين المناطق الفاتحة والداكنة. دمج هذه الوظيفة لتحسين الوضوح البصري والجودة العامة للصورة داخل تطبيقك.
+عزّز التباين في كائن [Image](../../com.aspose.imaging/image)، مضخمًا الفروق بين المناطق الفاتحة والداكنة. دمج هذه الوظيفة لتحسين الوضوح البصري والجودة العامة للصورة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1519,7 +1519,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f, 100f].
+    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f، 100f].
     tiffImage.adjustContrast(50f);
     tiffImage.save(dir + "sample.AdjustContrast.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1533,7 +1533,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-صفي المحتوى داخل المستطيل المحدد، مطبقًا مرشح معالجة صورة مخصص لتعزيز أو تعديل المنطقة المختارة. دمج هذه الطريقة في سير عمل تعديل الصور لتحقيق تحسينات أو تحويلات مستهدفة داخل تطبيقك.
+صَفِّ المحتوى داخل المستطيل المحدد، مطبقًا مرشح معالجة صور مخصص لتعزيز أو تعديل المنطقة المختارة. دمج هذه الطريقة في سير عمل تعديل الصور الخاص بك لتحقيق تحسينات أو تحولات مستهدفة داخل تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1551,7 +1551,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // طبق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // تطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بالكامل.
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     tiffImage.save(dir + "sample.MedianFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1562,7 +1562,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // طبق مرشح تمهيد ثنائي الجانب بحجم نواة 5 على الصورة بأكملها.
+    // تطبيق مرشح تنعيم ثنائي الجانب بحجم نواة 5 على الصورة بالكامل.
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     tiffImage.save(dir + "sample.BilateralSmoothingFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1573,7 +1573,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     tiffImage.save(dir + "sample.GaussianBlurFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1584,7 +1584,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // طبق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بأكملها.
+    // تطبيق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بالكامل.
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     tiffImage.save(dir + "sample.GaussWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1595,7 +1595,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // طبق مرشح واينر حركي بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // تطبيق مرشح حركة واينر بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     tiffImage.save(dir + "sample.MotionWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1606,7 +1606,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // طبق مرشح شحذ بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     tiffImage.save(dir + "sample.SharpenFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1620,7 +1620,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-قم بضبط حجم الصورة بناءً على الإعدادات المحددة، مما يتيح تحكمًا دقيقًا في الأبعاد، ونسبة العرض إلى الارتفاع، وسلوك التحجيم. دمج هذه الطريقة في سير عمل معالجة الصور لتحقيق عمليات تغيير حجم مخصصة تتناسب مع المتطلبات المحددة لتطبيقك.
+اضبط حجم الصورة بناءً على الإعدادات المحددة، مما يتيح تحكمًا دقيقًا في الأبعاد، نسبة العرض إلى الارتفاع، وسلوك التحجيم. دمج هذه الطريقة في سير عمل معالجة الصور الخاص بك لتحقيق عمليات تغيير حجم مخصصة تتناسب مع المتطلبات الخاصة لتطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1637,7 +1637,7 @@ String dir = "c:\\temp\\";
 
 com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة الكسرية الموزونة والمختلطة واستيفاء lanczos3.
 resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
 
 // المرشح المستطيل الصغير
@@ -1646,20 +1646,20 @@ resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular
 // عدد الألوان في لوحة الألوان.
 resizeSettings.setEntriesCount(256);
 
-// لم يتم استخدام تقليل ألوان.
+// لم يتم استخدام تقليل ألوان الصورة
 resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
 
-// الطريقة الإقليدية
+// طريقة إقليدية
 resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
 
 com.aspose.imaging.Image image = (com.aspose.imaging.Image) com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات متكيفة.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     tiffImage.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
 
-    // حفظ إلى PNG
+    // احفظ إلى PNG
     tiffImage.save(dir + "downsample.adaptive.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();

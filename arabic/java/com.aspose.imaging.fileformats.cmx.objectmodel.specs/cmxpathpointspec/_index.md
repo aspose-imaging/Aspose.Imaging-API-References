@@ -33,7 +33,7 @@ public class CmxPathPointSpec
 | [setClosedPath(boolean value)](#setClosedPath-boolean-) | يضبط قيمة تشير إلى ما إذا كانت هذه النقطة تغلق مسارها. |
 | [getBezierOrder()](#getBezierOrder--) | يحصل على ترتيب بيزيير. |
 | [setBezierOrder(int value)](#setBezierOrder-int-) | يضبط ترتيب بيزيير. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxPathPointSpec() {#CmxPathPointSpec--}
@@ -51,8 +51,8 @@ public CmxPathPointSpec(float x, float y, int jumpType, boolean closedPath, int 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | float |  |
-| ص | float |  |
+| x | float |  |
+| y | float |  |
 | jumpType | int |  |
 | closedPath | boolean |  |
 | bezierOrder | int |  |
@@ -63,7 +63,7 @@ public final float getX()
 ```
 
 
-يحصل على إحداثي X للنقطة. يُقاس بوحدات المسافة الشائعة في المستند.
+يحصل على إحداثي X للنقطة. يقاس بوحدات المسافة المشتركة للمستند.
 
 **Returns:**
 float - إحداثي X للنقطة.
@@ -73,12 +73,12 @@ public final void setX(float value)
 ```
 
 
-يضبط إحداثي X للنقطة. يُقاس بوحدات المسافة الشائعة في المستند.
+يضبط إحداثي X للنقطة. يقاس بوحدات المسافة المشتركة للمستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إحداثي X للنقطة. |
+| value | float | إحداثي X للنقطة. |
 
 ### getY() {#getY--}
 ```
@@ -86,7 +86,7 @@ public final float getY()
 ```
 
 
-يحصل على إحداثي Y للنقطة. يُقاس بوحدات المسافة الشائعة في المستند.
+يحصل على إحداثي Y للنقطة. يقاس بوحدات المسافة المشتركة للمستند.
 
 **Returns:**
 float - إحداثي Y للنقطة.
@@ -96,12 +96,12 @@ public final void setY(float value)
 ```
 
 
-يضبط إحداثي Y للنقطة. يُقاس بوحدات المسافة الشائعة في المستند.
+يضبط إحداثي Y للنقطة. يقاس بوحدات المسافة المشتركة للمستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إحداثي Y للنقطة. |
+| value | float | إحداثي Y للنقطة. |
 
 ### getJumpType() {#getJumpType--}
 ```
@@ -124,7 +124,7 @@ public final void setJumpType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع القفزة. |
+| value | int | نوع القفزة. |
 
 ### isClosedPath() {#isClosedPath--}
 ```
@@ -147,7 +147,7 @@ public final void setClosedPath(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كانت هذه النقطة تغلق مسارها. |
+| value | boolean | قيمة تشير إلى ما إذا كانت هذه النقطة تغلق مسارها. |
 
 ### getBezierOrder() {#getBezierOrder--}
 ```
@@ -170,7 +170,7 @@ public final void setBezierOrder(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | ترتيب بيزيير. |
+| value | int | ترتيب بيزيير. |
 
 ### toString() {#toString--}
 ```
@@ -178,7 +178,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

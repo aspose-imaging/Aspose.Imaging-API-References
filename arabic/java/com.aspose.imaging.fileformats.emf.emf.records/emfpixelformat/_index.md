@@ -1,23 +1,23 @@
 ---
 title: "EmfPixelFormat"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_PIXELFORMAT يحدد تنسيق البكسل المستخدم في عمليات الرسومات."
+description: "سجل EMR_PIXELFORMAT يحدد تنسيق البكسل الذي يُستخدم في عمليات الرسومات."
 type: docs
 weight: 83
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfPixelFormat extends EmfStateRecordType
 ```
 
-سجل EMR\_PIXELFORMAT يحدد تنسيق البكسل المستخدم في عمليات الرسومات.
+سجل EMR\_PIXELFORMAT يحدد تنسيق البكسل المستخدم في عمليات الرسوميات.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPixelFormat(EmfRecord source)](#EmfPixelFormat-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfPixelFormat`. |
+| [EmfPixelFormat(EmfRecord source)](#EmfPixelFormat-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfPixelFormat`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPixelFormat(EmfRecord source)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfPixelFormat`.
+يُنشئ نسخة جديدة من الفئة `EmfPixelFormat`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

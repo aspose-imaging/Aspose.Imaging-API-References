@@ -1,7 +1,7 @@
 ---
 title: "DicomImageInfo"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحتوي على جميع البيانات الوصفية من رأس ملف DICOM"
+description: "يحتوي على جميع المعلومات الوصفية من رأس ملف Dicom"
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.dicom/dicomimageinfo/
@@ -12,15 +12,15 @@ java.lang.Object
 public class DicomImageInfo
 ```
 
-يحتوي على جميع البيانات الوصفية من رأس ملف DICOM
+يحتوي على جميع المعلومات الوصفية من رأس ملف Dicom
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDicomHeaderInfoByBytes()](#getDicomHeaderInfoByBytes--) | يحصل على معلومات رأس الـ DICOM بالبايتات. |
+| [getDicomHeaderInfoByBytes()](#getDicomHeaderInfoByBytes--) | يحصل على معلومات رأس الـ dicom بالبايتات. |
 | [getPlanarConfiguration()](#getPlanarConfiguration--) | يحصل على تكوين المستوى. |
 | [getSignedImage()](#getSignedImage--) | يحصل على قيمة تشير إلى ما إذا كان "signedImage". |
-| [getDicomInfo()](#getDicomInfo--) | يحصل على معلومات الرأس لملف DICOM. |
+| [getDicomInfo()](#getDicomInfo--) | يحصل على معلومات رأس ملف DICOM. |
 | [getSamplesPerPixel()](#getSamplesPerPixel--) | يحصل على قيمة "samplesPerPixel". |
 | [getBitsAllocated()](#getBitsAllocated--) | يحصل على قيمة "bitsAllocated". |
 | [getBitsStored()](#getBitsStored--) | يحصل على عدد البتات المخزنة. |
@@ -33,7 +33,7 @@ public class DicomImageInfo
 | [getRescaleIntercept()](#getRescaleIntercept--) | يحصل على قيمة "rescaleIntercept". |
 | [getRescaleSlope()](#getRescaleSlope--) | يحصل على قيمة "rescaleSlope". |
 | [getNumberOfFrames()](#getNumberOfFrames--) | يحصل على عدد الإطارات. |
-| [isLittleEndian()](#isLittleEndian--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن little endian. |
+| [isLittleEndian()](#isLittleEndian--) | يحصل على قيمة تشير إلى ما إذا كانت هذه العينة ذات ترتيب بايتات little endian. |
 | [getReds()](#getReds--) | يحصل على مصفوفة ألوان الأحمر. |
 | [getGreens()](#getGreens--) | يحصل على مصفوفة ألوان الأخضر. |
 | [getBlues()](#getBlues--) | يحصل على مصفوفة ألوان الأزرق. |
@@ -50,12 +50,12 @@ public byte[] getDicomHeaderInfoByBytes()
 ```
 
 
-يحصل على معلومات رأس الـ DICOM بالبايتات.
+يحصل على معلومات رأس الـ dicom بالبايتات.
 
-القيمة: معلومات رأس الـ dicom بالبايتات.
+القيمة: معلومات رأس الـ DICOM بالبايتات.
 
 **Returns:**
-byte[] - معلومات رأس الـ dicom بالبايتات.
+byte[] - معلومات رأس DICOM بالبايتات.
 ### getPlanarConfiguration() {#getPlanarConfiguration--}
 ```
 public int getPlanarConfiguration()
@@ -64,10 +64,10 @@ public int getPlanarConfiguration()
 
 يحصل على تكوين المستوى.
 
-القيمة: التكوين المستوي.
+القيمة: تكوين المستوى.
 
 **Returns:**
-int - تكوين المستوى.
+int - التكوين المستوي.
 ### getSignedImage() {#getSignedImage--}
 ```
 public boolean getSignedImage()
@@ -84,7 +84,7 @@ public List<String> getDicomInfo()
 ```
 
 
-يحصل على معلومات الرأس لملف DICOM.
+يحصل على معلومات رأس ملف DICOM.
 
 **Returns:**
 java.util.List<java.lang.String> - معلومات رأس ملف DICOM.
@@ -103,9 +103,9 @@ finally {
     image.close();
 }
 
-// STDOUT:
-//معرف فئة تخزين الوسائط Sop: 1.2.840.10008.5.1.4.1.1.3.1
-//معرف مثيل تخزين الوسائط Sop: 2.16.840.1.114488.0.4.123489834087.1330071425.2
+// المخرجات القياسية:
+//معرف فئة وسائط التخزين Sop: 1.2.840.10008.5.1.4.1.1.3.1
+//معرف مثيل وسائط التخزين Sop: 2.16.840.1.114488.0.4.123489834087.1330071425.2
 //معرف صيغة النقل: 1.2.840.10008.1.2.4.70
 //معرف فئة التنفيذ: 1.2.840.114236
 //مجموعة الأحرف المحددة: ISO_IR 100
@@ -124,26 +124,26 @@ finally {
 //عنوان المؤسسة: Hospital Address or Department
 //اسم المحطة: VERIQ
 //اسم الطبيب المنفذ: CA Prof. Debus
-//اسم طراز الشركة المصنعة: VeriQ C
+//اسم نموذج الشركة المصنعة: VeriQ C
 //معدل الإطارات الموصى به للعرض: 1
 //اسم المريض: Femoral trombenarterectomy^Case Report:
-//معرّف المريض: تقرير الحالة 1
-//جنس المريض: م
+//معرف المريض: Case Report 1
+//جنس المريض: M
 //حجم المريض: 0
 //وزن المريض: 0
-//تعليقات المريض: راجع تقرير الحالة على www.medistim.com
+//تعليقات المريض: See case report on www.medistim.com
 //معدل السين: 1
-//المدة الفعّالة: 1
+//المدة الفعالة: 1
 //الرقم التسلسلي للجهاز: 0
-//إصدارات البرنامج: 3.3.0 RC0 تم بناءه 02 / 23 / 12  09:50:45
+//إصدارات البرنامج: 3.3.0 RC0 built 02 / 23 / 12  09:50:45
 //وقت الإطار: 1000
-//معرّف نسخة الدراسة: 2.16.840.1.114488.0.4.123489834087.1330071425.0
-//معرّف نسخة السلسلة: 2.16.840.1.114488.0.4.123489834087.1330071425.1
+//معرف دراسة الحالة: 2.16.840.1.114488.0.4.123489834087.1330071425.0
+//معرف سلسلة الحالة: 2.16.840.1.114488.0.4.123489834087.1330071425.1
 //رقم السلسلة: 1
-//رقم النسخة: 1
+//رقم العينة: 1
 //عينات لكل بكسل: 3
-//التفسير الضوئي: RGB
-//تكوين المستوى: 0
+//تفسير ضوئي: RGB
+//تكوين مستوي: 0
 //عدد الإطارات: 1
 //مؤشر زيادة الإطار:
 //الصفوف: 768
@@ -302,7 +302,7 @@ public boolean isLittleEndian()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن little endian.
+يحصل على قيمة تشير إلى ما إذا كانت هذه العينة ذات ترتيب بايتات little endian.
 
 القيمة: `true` إذا كان هذا الكائن little endian؛ وإلا `false`.
 
@@ -340,7 +340,7 @@ public byte[] getBlues()
 
 يحصل على مصفوفة ألوان الأزرق.
 
-القيمة: اللون الأزرق.
+القيمة: الأزرق.
 
 **Returns:**
 byte[] - مصفوفة ألوان الأزرق
@@ -368,7 +368,7 @@ public void addTag(String tagDescription, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | tagDescription | java.lang.String | وصف العلامة. لا يمكن أن يكون فارغًا أو مسافة بيضاء. |
-| القيمة | java.lang.Object | قيمة العلامة. لا يمكن أن تكون فارغة. |
+| value | java.lang.Object | قيمة العلامة. لا يمكن أن تكون فارغة. |
 
 ### tryAddTag(String tagDescription, Object value) {#tryAddTag-java.lang.String-java.lang.Object-}
 ```
@@ -382,7 +382,7 @@ public boolean tryAddTag(String tagDescription, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | tagDescription | java.lang.String | وصف العلامة. لا يمكن أن يكون فارغًا أو مسافة بيضاء. |
-| القيمة | java.lang.Object | قيمة العلامة. لا يمكن أن تكون فارغة. |
+| value | java.lang.Object | قيمة العلامة. لا يمكن أن تكون فارغة. |
 
 **Returns:**
 boolean - نتيجة العملية.

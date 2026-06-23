@@ -17,10 +17,10 @@ public class TiffImageException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffImageException(String message)](#TiffImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `TiffImageException`. |
-| [TiffImageException(String message, Throwable innerException)](#TiffImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `TiffImageException`. |
-| [TiffImageException(String message, int error)](#TiffImageException-java.lang.String-int-) | يُهيئ نسخة جديدة من الفئة `TiffImageException`. |
-| [TiffImageException(int error)](#TiffImageException-int-) | يُهيئ نسخة جديدة من الفئة `TiffImageException`. |
+| [TiffImageException(String message)](#TiffImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `TiffImageException`. |
+| [TiffImageException(String message, Throwable innerException)](#TiffImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `TiffImageException`. |
+| [TiffImageException(String message, int error)](#TiffImageException-java.lang.String-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffImageException`. |
+| [TiffImageException(int error)](#TiffImageException-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffImageException`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public TiffImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `TiffImageException`.
+ينشئ مثيلاً جديدًا من الفئة `TiffImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public TiffImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `TiffImageException`.
+ينشئ مثيلاً جديدًا من الفئة `TiffImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public TiffImageException(String message, int error)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `TiffImageException`.
+ينشئ مثيلاً جديدًا من الفئة `TiffImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -73,7 +73,7 @@ public TiffImageException(int error)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `TiffImageException`.
+ينشئ مثيلاً جديدًا من الفئة `TiffImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

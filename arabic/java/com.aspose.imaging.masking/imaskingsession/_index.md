@@ -1,7 +1,7 @@
 ---
-title: "IMatchingSession"
+title: "IMaskingSession"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "جلسة التمويه"
+description: "جلسة القناع"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.masking/imaskingsession/
@@ -12,14 +12,14 @@ com.aspose.ms.System.IDisposable
 public interface IMaskingSession extends System.IDisposable
 ```
 
-جلسة التمويه
+جلسة القناع
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [decompose()](#decompose--) | ينفّذ عملية تفكيك أولية تقريبية |
-| [decomposeAsync()](#decomposeAsync--) | ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية تفكيك أولية تقريبية |
-| [improveDecomposition(IMaskingArgs maskingArguments)](#improveDecomposition-com.aspose.imaging.masking.options.IMaskingArgs-) | ينفّذ عملية تفكيك لإعادة التدريب |
+| [decompose()](#decompose--) | ينفذ عملية تفكيك أولى تقريبية |
+| [decomposeAsync()](#decomposeAsync--) | ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية تفكيك أولى تقريبية |
+| [improveDecomposition(IMaskingArgs maskingArguments)](#improveDecomposition-com.aspose.imaging.masking.options.IMaskingArgs-) | ينفذ عملية تفكيك لإعادة التدريب |
 | [improveDecompositionAsync(IMaskingArgs maskingArguments)](#improveDecompositionAsync-com.aspose.imaging.masking.options.IMaskingArgs-) | ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية تفكيك لإعادة التدريب |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | احفظ حالة الجلسة إلى الدفق المحدد. |
 | [save(System.IO.Stream stream)](#save-com.aspose.ms.System.IO.Stream-) | احفظ حالة الجلسة إلى الدفق المحدد. |
@@ -51,7 +51,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -87,11 +87,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -147,7 +147,7 @@ public abstract MaskingResult decompose()
 ```
 
 
-ينفّذ عملية تفكيك أولية تقريبية
+ينفذ عملية تفكيك أولى تقريبية
 
 **Returns:**
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - Result of masking operation as array of segment image providers.
@@ -178,7 +178,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -214,11 +214,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -274,7 +274,7 @@ public abstract IMaskingAsyncTask decomposeAsync()
 ```
 
 
-ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية تفكيك أولية تقريبية
+ينشئ المهمة غير المتزامنة التي يمكنها تنفيذ عملية تفكيك أولى تقريبية
 
 **Returns:**
 [IMaskingAsyncTask](../../com.aspose.imaging.masking/imaskingasynctask) - The asynchronous decompose task
@@ -284,12 +284,12 @@ public abstract MaskingResult improveDecomposition(IMaskingArgs maskingArguments
 ```
 
 
-ينفّذ عملية تفكيك لإعادة التدريب
+ينفذ عملية تفكيك لإعادة التدريب
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| maskingArguments | [IMaskingArgs](../../com.aspose.imaging.masking.options/imaskingargs) | معاملات التمويه. |
+| maskingArguments | [IMaskingArgs](../../com.aspose.imaging.masking.options/imaskingargs) | معاملات القناع. |
 
 **Returns:**
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - Result of masking operation as array of segment image providers.
@@ -320,7 +320,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -356,11 +356,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -421,7 +421,7 @@ public abstract IMaskingAsyncTask improveDecompositionAsync(IMaskingArgs masking
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| maskingArguments | [IMaskingArgs](../../com.aspose.imaging.masking.options/imaskingargs) | معاملات التمويه. |
+| maskingArguments | [IMaskingArgs](../../com.aspose.imaging.masking.options/imaskingargs) | معاملات القناع. |
 
 **Returns:**
 [IMaskingAsyncTask](../../com.aspose.imaging.masking/imaskingasynctask) - The asynchronous decompose task
@@ -436,7 +436,7 @@ public abstract void save(OutputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.OutputStream | المجرى. |
+| تدفق | java.io.OutputStream | التدفق. |
 
 ### save(System.IO.Stream stream) {#save-com.aspose.ms.System.IO.Stream-}
 ```
@@ -449,7 +449,7 @@ public abstract void save(System.IO.Stream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | com.aspose.ms.System.IO.Stream | المجرى. |
+| تدفق | com.aspose.ms.System.IO.Stream | التدفق. |
 
 ### save(String filePath) {#save-java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "الخط"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد تنسيقًا معينًا للنص يتضمن حجم خط الوجه وسمات النمط."
+description: "يحدد تنسيقًا معينًا للنص بما في ذلك حجم الخط ونمطه وسماته."
 type: docs
 weight: 48
 url: /ar/java/com.aspose.imaging/font/
@@ -12,12 +12,12 @@ java.lang.Object
 public final class Font
 ```
 
-يحدد تنسيقًا معينًا للنص، بما في ذلك خط الوجه والحجم وسمات النمط. لا يمكن وراثة هذه الفئة.
+يحدد تنسيقًا معينًا للنص، بما في ذلك خط الوجه، الحجم، وسمات النمط. لا يمكن وراثة هذه الفئة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Font(Font prototype, int newStyle)](#Font-com.aspose.imaging.Font-int-) | يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` يستخدم الـ `com.aspose.imaging.Font` الموجود المحدد و تعداد `com.aspose.imaging.FontStyle`. |
+| [Font(Font prototype, int newStyle)](#Font-com.aspose.imaging.Font-int-) | يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` يستخدم الخط الموجود المحدد `com.aspose.imaging.Font` وتعداد `com.aspose.imaging.FontStyle`. |
 | [Font(String fontName, float emSize)](#Font-java.lang.String-float-) | يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` باستخدام حجم محدد. |
 | [Font(String fontName, float emSize, int style)](#Font-java.lang.String-float-int-) | يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` باستخدام حجم ونمط محددين. |
 | [Font(String fontName, float emSize, int style, int unit, int characterSet)](#Font-java.lang.String-float-int-int-int-) | يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` باستخدام حجم، نمط، وحدة، ومجموعة أحرف محددة. |
@@ -27,50 +27,50 @@ public final class Font
 | طريقة | الوصف |
 | --- | --- |
 | [makeFontWithGraphUnit(String fontName, float emSize, int unit)](#makeFontWithGraphUnit-java.lang.String-float-int-) | يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` باستخدام حجم ووحدة محددين. |
-| [getBold()](#getBold--) | يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` عريضًا. |
-| [getCharacterSet()](#getCharacterSet--) | يحصل على قيمة بايت تحدد مجموعة الأحرف التي يستخدمها هذا الـ `Font`. |
-| [getItalic()](#getItalic--) | يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` مائلًا. |
-| [getName()](#getName--) | يحصل على اسم الوجه لهذا الـ `Font`. |
-| [getStrikeout()](#getStrikeout--) | يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` يحدد خطًا أفقيًا عبر الخط. |
-| [getUnderline()](#getUnderline--) | يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` تحته خط. |
-| [getStyle()](#getStyle--) | يحصل على معلومات النمط لهذا الـ `Font`. |
-| [getSize()](#getSize--) | يحصل على حجم الـ em لهذا الـ `Font` مقاسًا بالوحدات المحددة بواسطة الخاصية `P:Aspose.Imaging.Font.Unit`. |
+| [getBold()](#getBold--) | يحصل على قيمة تشير إلى ما إذا كان هذا `Font` غامقًا. |
+| [getCharacterSet()](#getCharacterSet--) | يحصل على قيمة بايت تحدد مجموعة الأحرف التي يستخدمها هذا `Font`. |
+| [getItalic()](#getItalic--) | يحصل على قيمة تشير إلى ما إذا كان هذا `Font` مائلًا. |
+| [getName()](#getName--) | يحصل على اسم الوجه لهذا `Font`. |
+| [getStrikeout()](#getStrikeout--) | يحصل على قيمة تشير إلى ما إذا كان هذا `Font` يحدد خطًا أفقيًا عبر الخط. |
+| [getUnderline()](#getUnderline--) | يحصل على قيمة تشير إلى ما إذا كان هذا `Font` مسطرًا. |
+| [getStyle()](#getStyle--) | يحصل على معلومات النمط لهذا `Font`. |
+| [getSize()](#getSize--) | يحصل على حجم الـ em لهذا `Font` مقاسًا بالوحدات المحددة بواسطة الخاصية `P:Aspose.Imaging.Font.Unit`. |
 | [getUnit()](#getUnit--) | يحصل على وحدة القياس لهذا `Font`. |
 | [deepClone()](#deepClone--) | ينشئ نسخة عميقة دقيقة من هذا `Font`. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يشير إلى ما إذا كان الكائن المحدد هو `com.aspose.imaging.Font` ويحتوي على نفس قيم الخصائص مثل هذا `com.aspose.imaging.Font`. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يشير إلى ما إذا كان الكائن المحدد هو `com.aspose.imaging.Font` وله نفس قيم الخصائص مثل هذا `com.aspose.imaging.Font`. |
 | [hashCode()](#hashCode--) | يحصل على رمز التجزئة لهذا `com.aspose.imaging.Font`. |
-| [toString()](#toString--) | يرجع تمثيلًا نصيًا قابلًا للقراءة البشرية لهذا `com.aspose.imaging.Font`. |
+| [toString()](#toString--) | يرجع تمثيلًا نصيًا قابلًا للقراءة للإنسان لهذا `com.aspose.imaging.Font`. |
 
 ## Example: This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface.
-يوضح هذا المثال استخدام فئة Font و SolidBrush لرسم سلاسل نصية على سطح Image. ينشئ المثال Image جديدًا ويرسم أشكالًا باستخدام Figures و GraphicsPath.
+يوضح هذا المثال استخدام الفئة Font والفئة SolidBrush لرسم سلاسل نصية على سطح Image. ينشئ المثال صورة جديدة ويرسم أشكالًا باستخدام Figures و GraphicsPath.
 ``` java
-//ينشئ مثيلاً من BmpOptions ويضبط خصائصه المتنوعة.
+//ينشئ مثيلًا من BmpOptions ويضبط خصائصه المتنوعة
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+//أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 //المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-//ينشئ مثيلًا من Image
+//ينشئ مثيلاً من Image.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    //ينشئ ويُهيئ مثيلًا من فئة Graphics
+    //ينشئ ويُهيئ مثيلاً من الفئة Graphics.
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
 
-    //يمسح سطح Graphics
+    //يمسح سطح Graphics.
     graphics.clear(com.aspose.imaging.Color.getWheat());
 
-    //ينشئ مثيلًا من Font
+    //ينشئ مثيلاً من Font.
     com.aspose.imaging.Font font = new com.aspose.imaging.Font("Times New Roman", 16);
 
-    //إنشاء مثيل من SolidBrush بلون أحمر
+    //أنشئ مثيلاً من SolidBrush بلون أحمر.
     com.aspose.imaging.brushes.SolidBrush brush = new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getRed());
 
-    //رسم سلسلة نصية
+    //ارسم String.
     graphics.drawString("Created by Aspose.Imaging for Java", font, brush, new com.aspose.imaging.PointF(100, 100));
 
-    // احفظ جميع التغييرات
+    // احفظ جميع التغييرات.
     image.save();
 } finally {
     image.dispose();
@@ -83,12 +83,12 @@ public Font(Font prototype, int newStyle)
 ```
 
 
-يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` يستخدم الـ `com.aspose.imaging.Font` الموجود المحدد و تعداد `com.aspose.imaging.FontStyle`.
+يُنشئ كائنًا جديدًا من `com.aspose.imaging.Font` يستخدم الخط الموجود المحدد `com.aspose.imaging.Font` وتعداد `com.aspose.imaging.FontStyle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| prototype | [Font](../../com.aspose.imaging/font) | الـ `com.aspose.imaging.Font` الموجود الذي سيتم إنشاء الـ `com.aspose.imaging.Font` الجديد منه. |
+| prototype | [Font](../../com.aspose.imaging/font) | الـ `com.aspose.imaging.Font` الموجود والذي يُنشأ منه الـ `com.aspose.imaging.Font` الجديد. |
 | newStyle | int | الـ `com.aspose.imaging.FontStyle` لتطبيقه على الـ `com.aspose.imaging.Font` الجديد. يمكن دمج قيم متعددة من تعداد `com.aspose.imaging.FontStyle` باستخدام عامل OR. |
 
 ### Font(String fontName, float emSize) {#Font-java.lang.String-float-}
@@ -111,14 +111,14 @@ public Font(String fontName, float emSize, int style)
 ```
 
 
-يُهيئ `com.aspose.imaging.Font` جديدًا باستخدام حجم ونمط محددين. يتم تعيين مجموعة الأحرف إلى `F:Aspose.Imaging.CharacterSet.Default`، ووحدة الرسومات إلى `F:Aspose.Imaging.GraphicsUnit.Point`.
+يفّعل إنشاء كائن جديد من `com.aspose.imaging.Font` باستخدام حجم ونمط محددين. يتم تعيين مجموعة الأحرف إلى `F:Aspose.Imaging.CharacterSet.Default`، ووحدة الرسومات إلى `F:Aspose.Imaging.GraphicsUnit.Point`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fontName | java.lang.String | تمثيل نصي لاسم `com.aspose.imaging.Font`. |
 | emSize | float | حجم الـ em، بالنقاط، للخط الجديد. |
-| style | int | الـ `com.aspose.imaging.FontStyle` للخط الجديد. |
+| style | int | قيمة `com.aspose.imaging.FontStyle` للخط الجديد. |
 
 ### Font(String fontName, float emSize, int style, int unit, int characterSet) {#Font-java.lang.String-float-int-int-int-}
 ```
@@ -133,8 +133,8 @@ public Font(String fontName, float emSize, int style, int unit, int characterSet
 | --- | --- | --- |
 | fontName | java.lang.String | تمثيل نصي لاسم `com.aspose.imaging.Font`. |
 | emSize | float | حجم الـ em للخط الجديد بالوحدات المحددة بواسطة معامل `unit`. |
-| style | int | الـ `com.aspose.imaging.FontStyle` للخط الجديد. |
-| unit | int | الوحدة `com.aspose.imaging.GraphicsUnit` للخط الجديد. |
+| style | int | قيمة `com.aspose.imaging.FontStyle` للخط الجديد. |
+| unit | int | قيمة `com.aspose.imaging.GraphicsUnit` للخط الجديد. |
 | characterSet | int | مجموعة أحرف لاستخدامها مع هذا الخط. |
 
 ### Font(String fontName, float emSize, int style, int unit) {#Font-java.lang.String-float-int-int-}
@@ -150,8 +150,8 @@ public Font(String fontName, float emSize, int style, int unit)
 | --- | --- | --- |
 | fontName | java.lang.String | تمثيل نصي لاسم `com.aspose.imaging.Font`. |
 | emSize | float | حجم الـ em للخط الجديد بالوحدات المحددة بواسطة معامل `unit`. |
-| style | int | الـ `com.aspose.imaging.FontStyle` للخط الجديد. |
-| unit | int | الوحدة `com.aspose.imaging.GraphicsUnit` للخط الجديد. |
+| style | int | قيمة `com.aspose.imaging.FontStyle` للخط الجديد. |
+| unit | int | قيمة `com.aspose.imaging.GraphicsUnit` للخط الجديد. |
 
 ### makeFontWithGraphUnit(String fontName, float emSize, int unit) {#makeFontWithGraphUnit-java.lang.String-float-int-}
 ```
@@ -159,14 +159,14 @@ public static Font makeFontWithGraphUnit(String fontName, float emSize, int unit
 ```
 
 
-ينشئ كائنًا جديدًا من `com.aspose.imaging.Font` باستخدام حجم ووحدة محددين. يتم تعيين مجموعة الأحرف إلى `F:Aspose.Imaging.CharacterSet.Default`، ويتم تعيين النمط إلى `F:Aspose.Imaging.FontStyle.Regular`.
+يفّعل إنشاء كائن جديد من `com.aspose.imaging.Font` باستخدام حجم ووحدة محددين. يتم تعيين مجموعة الأحرف إلى `F:Aspose.Imaging.CharacterSet.Default`، ويتم تعيين النمط إلى `F:Aspose.Imaging.FontStyle.Regular`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fontName | java.lang.String | تمثيل نصي لاسم `com.aspose.imaging.Font`. |
 | emSize | float | حجم الـ em للخط الجديد بالوحدات المحددة بواسطة معامل `unit`. |
-| unit | int | الوحدة `com.aspose.imaging.GraphicsUnit` للخط الجديد. |
+| unit | int | قيمة `com.aspose.imaging.GraphicsUnit` للخط الجديد. |
 
 **Returns:**
 [Font](../../com.aspose.imaging/font)
@@ -176,37 +176,37 @@ public boolean getBold()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` عريضًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا `Font` غامقًا.
 
 **Returns:**
-منطقي - true إذا كان هذا `Font` غامقًا؛ وإلا false.
+منطقي - True إذا كان هذا `Font` غامقًا؛ وإلا false.
 ### getCharacterSet() {#getCharacterSet--}
 ```
 public int getCharacterSet()
 ```
 
 
-يحصل على قيمة بايت تحدد مجموعة الأحرف التي يستخدمها هذا الـ `Font`.
+يحصل على قيمة بايت تحدد مجموعة الأحرف التي يستخدمها هذا `Font`.
 
 **Returns:**
-عدد صحيح - مجموعة الأحرف التي يستخدمها هذا `Font`.
+عدد صحيح - مجموعة أحرف يستخدمها هذا `Font`.
 ### getItalic() {#getItalic--}
 ```
 public boolean getItalic()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` مائلًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا `Font` مائلًا.
 
 **Returns:**
-منطقي - true إذا كان هذا `Font` مائلًا؛ وإلا false.
+منطقي - True إذا كان هذا `Font` مائلًا؛ وإلا false.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-يحصل على اسم الوجه لهذا الـ `Font`.
+يحصل على اسم الوجه لهذا `Font`.
 
 **Returns:**
 java.lang.String - تمثيل نصي لاسم الوجه لهذا `Font`.
@@ -216,27 +216,27 @@ public boolean getStrikeout()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` يحدد خطًا أفقيًا عبر الخط.
+يحصل على قيمة تشير إلى ما إذا كان هذا `Font` يحدد خطًا أفقيًا عبر الخط.
 
 **Returns:**
-منطقي - true إذا كان هذا `Font` يحتوي على خط أفقي عبره؛ وإلا false.
+منطقي - True إذا كان هذا `Font` يحتوي على خط أفقي عبره؛ وإلا false.
 ### getUnderline() {#getUnderline--}
 ```
 public boolean getUnderline()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الـ `Font` تحته خط.
+يحصل على قيمة تشير إلى ما إذا كان هذا `Font` مسطرًا.
 
 **Returns:**
-منطقي - true إذا كان هذا `Font` تحته خط؛ وإلا false.
+منطقي - True إذا كان هذا `Font` تحته خط؛ وإلا false.
 ### getStyle() {#getStyle--}
 ```
 public int getStyle()
 ```
 
 
-يحصل على معلومات النمط لهذا الـ `Font`.
+يحصل على معلومات النمط لهذا `Font`.
 
 **Returns:**
 عدد صحيح - تعداد `FontStyle` يحتوي على معلومات النمط لهذا `Font`.
@@ -246,10 +246,10 @@ public float getSize()
 ```
 
 
-يحصل على حجم الـ em لهذا الـ `Font` مقاسًا بالوحدات المحددة بواسطة الخاصية `P:Aspose.Imaging.Font.Unit`.
+يحصل على حجم الـ em لهذا `Font` مقاسًا بالوحدات المحددة بواسطة الخاصية `P:Aspose.Imaging.Font.Unit`.
 
 **Returns:**
-float - حجم الـ em لهذا `Font`.
+عدد عشري - حجم الـ em لهذا `Font`.
 ### getUnit() {#getUnit--}
 ```
 public int getUnit()
@@ -276,7 +276,7 @@ public boolean equals(Object obj)
 ```
 
 
-يشير إلى ما إذا كان الكائن المحدد هو `com.aspose.imaging.Font` ويحتوي على نفس قيم الخصائص مثل هذا `com.aspose.imaging.Font`.
+يشير إلى ما إذا كان الكائن المحدد هو `com.aspose.imaging.Font` وله نفس قيم الخصائص مثل هذا `com.aspose.imaging.Font`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -284,7 +284,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | الكائن المراد اختباره. |
 
 **Returns:**
-منطقي - true إذا كان معامل `obj` هو `com.aspose.imaging.Font` وله نفس قيم الخصائص مثل هذا `com.aspose.imaging.Font`؛ وإلا false.
+منطقي - True إذا كان معامل `obj` هو `com.aspose.imaging.Font` وله نفس قيم الخصائص مثل هذا `com.aspose.imaging.Font`؛ وإلا false.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -301,7 +301,7 @@ public String toString()
 ```
 
 
-يرجع تمثيلًا نصيًا قابلًا للقراءة البشرية لهذا `com.aspose.imaging.Font`.
+يرجع تمثيلًا نصيًا قابلًا للقراءة للإنسان لهذا `com.aspose.imaging.Font`.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذا `com.aspose.imaging.Font`.

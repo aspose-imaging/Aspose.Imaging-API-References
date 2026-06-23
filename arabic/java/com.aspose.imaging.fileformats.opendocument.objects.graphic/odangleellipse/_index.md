@@ -17,31 +17,31 @@ public class OdAngleEllipse extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdAngleEllipse(OdObject parent)](#OdAngleEllipse-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdAngleEllipse`. |
+| [OdAngleEllipse(OdObject parent)](#OdAngleEllipse-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلاً جديداً من الفئة `OdAngleEllipse`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getStartAngle()](#getStartAngle--) | يحصل أو يضبط زاوية البداية. |
-| [setStartAngle(float value)](#setStartAngle-float-) | يحصل أو يضبط زاوية البداية. |
-| [getEndAngle()](#getEndAngle--) | يحصل أو يعيّن زاوية النهاية. |
-| [setEndAngle(float value)](#setEndAngle-float-) | يحصل أو يعيّن زاوية النهاية. |
-| [getClosed()](#getClosed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقًا. |
-| [setClosed(boolean value)](#setClosed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقًا. |
-| [getKind()](#getKind--) | يحصل أو يعيّن النوع. |
-| [setKind(int value)](#setKind-int-) | يحصل أو يعيّن النوع. |
+| [getStartAngle()](#getStartAngle--) | يحصل أو يعيّن زاوية البدء. |
+| [setStartAngle(float value)](#setStartAngle-float-) | يحصل أو يعيّن زاوية البدء. |
+| [getEndAngle()](#getEndAngle--) | يحصل أو يضبط زاوية النهاية. |
+| [setEndAngle(float value)](#setEndAngle-float-) | يحصل أو يضبط زاوية النهاية. |
+| [getClosed()](#getClosed--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقاً. |
+| [setClosed(boolean value)](#setClosed-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقاً. |
+| [getKind()](#getKind--) | يحصل أو يضبط النوع. |
+| [setKind(int value)](#setKind-int-) | يحصل أو يضبط النوع. |
 ### OdAngleEllipse(OdObject parent) {#OdAngleEllipse-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdAngleEllipse(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdAngleEllipse`.
+ينشئ مثيلاً جديداً من الفئة `OdAngleEllipse`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getStartAngle() {#getStartAngle--}
 ```
@@ -49,7 +49,7 @@ public float getStartAngle()
 ```
 
 
-يحصل أو يضبط زاوية البداية.
+يحصل أو يعيّن زاوية البدء.
 
 **Returns:**
 float - زاوية البداية.
@@ -59,12 +59,12 @@ public void setStartAngle(float value)
 ```
 
 
-يحصل أو يضبط زاوية البداية.
+يحصل أو يعيّن زاوية البدء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | زاوية البداية. |
+| value | float | زاوية البدء. |
 
 ### getEndAngle() {#getEndAngle--}
 ```
@@ -72,7 +72,7 @@ public float getEndAngle()
 ```
 
 
-يحصل أو يعيّن زاوية النهاية.
+يحصل أو يضبط زاوية النهاية.
 
 **Returns:**
 float - زاوية النهاية.
@@ -82,12 +82,12 @@ public void setEndAngle(float value)
 ```
 
 
-يحصل أو يعيّن زاوية النهاية.
+يحصل أو يضبط زاوية النهاية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | زاوية النهاية. |
+| value | float | زاوية النهاية. |
 
 ### getClosed() {#getClosed--}
 ```
@@ -95,22 +95,22 @@ public boolean getClosed()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقاً.
 
 **Returns:**
-boolean - `true` إذا كان مغلقًا؛ وإلا `false`.
+boolean - `true` إذا كان مغلقاً؛ وإلا `false`.
 ### setClosed(boolean value) {#setClosed-boolean-}
 ```
 public void setClosed(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `OdAngleEllipse` مغلقاً.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان مغلقًا؛ وإلا `false`. |
+| value | boolean | `true` إذا كان مغلقاً؛ وإلا `false`. |
 
 ### getKind() {#getKind--}
 ```
@@ -118,7 +118,7 @@ public int getKind()
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 **Returns:**
 int - النوع.
@@ -128,10 +128,10 @@ public void setKind(int value)
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النوع. |
+| value | int | النوع. |
 

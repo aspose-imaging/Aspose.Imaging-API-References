@@ -12,8 +12,8 @@ url: /ar/java/com.aspose.imaging.fileformats.dng.decoder/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [ImageOtherParameters](../com.aspose.imaging.fileformats.dng.decoder/imageotherparameters) | معلمات صورة أخرى. |
-| [ImageParameters](../com.aspose.imaging.fileformats.dng.decoder/imageparameters) | معلمات صورة Dng. |
-| [RawData](../com.aspose.imaging.fileformats.dng.decoder/rawdata) | البيانات الخام بتنسيق DNG. |
+| [ImageOtherParameters](../com.aspose.imaging.fileformats.dng.decoder/imageotherparameters) | معلمات صورة أخرى |
+| [ImageParameters](../com.aspose.imaging.fileformats.dng.decoder/imageparameters) | معلمات صورة DNG |
+| [RawData](../com.aspose.imaging.fileformats.dng.decoder/rawdata) | البيانات الخام بتنسيق DNG |

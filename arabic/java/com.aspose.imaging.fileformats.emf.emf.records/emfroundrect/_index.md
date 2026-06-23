@@ -1,7 +1,7 @@
 ---
 title: "EmfRoundRect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_ROUNDRECT يحدد مستطيلًا بزوايا مستديرة."
+description: "السجل EMR_ROUNDRECT يحدد مستطيلًا بزوايا مستديرة."
 type: docs
 weight: 111
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfroundrect/
@@ -12,28 +12,28 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfRoundRect extends EmfDrawingRecordType
 ```
 
-سجل EMR\_ROUNDRECT يحدد مستطيلًا بزوايا مستديرة. يتم رسم حدود المستطيل باستخدام القلم الحالي وتعبئته باستخدام الفرشاة الحالية.
+السجل EMR\_ROUNDRECT يحدد مستطيلًا بزوايا مستديرة. يُرسم المستطيل باستخدام القلم الحالي ويُملأ باستخدام الفرشاة الحالية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfRoundRect(EmfRecord source)](#EmfRoundRect-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfRoundRect`. |
+| [EmfRoundRect(EmfRecord source)](#EmfRoundRect-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfRoundRect`. |
 | [EmfRoundRect()](#EmfRoundRect--) | يُنشئ مثيلًا جديدًا من الفئة [EmfRoundRect](../../com.aspose.imaging.fileformats.emf.emf.records/emfroundrect). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBox()](#getBox--) | يحصل أو يضبط كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل‑الشامل للرسم. |
-| [setBox(Rectangle value)](#setBox-com.aspose.imaging.Rectangle-) | يحصل أو يضبط كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل‑الشامل للرسم. |
-| [getCorner()](#getCorner--) | يحصل أو يضبط كائن WMF SizeL 64‑بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بوحدات منطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة. |
-| [setCorner(Size value)](#setCorner-com.aspose.imaging.Size-) | يحصل أو يضبط كائن WMF SizeL 64‑بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بوحدات منطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة. |
+| [getBox()](#getBox--) | يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل-الشامل للرسم. |
+| [setBox(Rectangle value)](#setBox-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل-الشامل للرسم. |
+| [getCorner()](#getCorner--) | يحصل أو يعيّن كائن WMF SizeL بحجم 64 بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بالإحداثيات المنطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة. |
+| [setCorner(Size value)](#setCorner-com.aspose.imaging.Size-) | يحصل أو يعيّن كائن WMF SizeL بحجم 64 بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بالإحداثيات المنطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة. |
 ### EmfRoundRect(EmfRecord source) {#EmfRoundRect-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfRoundRect(EmfRecord source)
 ```
 
 
-يُنشئ نسخة جديدة من الفئة `EmfRoundRect`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfRoundRect`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -54,7 +54,7 @@ public Rectangle getBox()
 ```
 
 
-يحصل أو يضبط كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل‑الشامل للرسم.
+يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل-الشامل للرسم.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -64,7 +64,7 @@ public void setBox(Rectangle value)
 ```
 
 
-يحصل أو يضبط كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل‑الشامل للرسم.
+يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الشامل-الشامل للرسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public Size getCorner()
 ```
 
 
-يحصل أو يضبط كائن WMF SizeL 64‑بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بوحدات منطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة.
+يحصل أو يعيّن كائن WMF SizeL بحجم 64 بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بالإحداثيات المنطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة.
 
 **Returns:**
 [Size](../../com.aspose.imaging/size)
@@ -87,7 +87,7 @@ public void setCorner(Size value)
 ```
 
 
-يحصل أو يضبط كائن WMF SizeL 64‑بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بوحدات منطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة.
+يحصل أو يعيّن كائن WMF SizeL بحجم 64 بت، المحدد في [MS-WMF] القسم 2.2.2.22، والذي يحدد العرض والارتفاع، بالإحداثيات المنطقية، للقطع الناقص المستخدم لرسم الزوايا المستديرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "CdrDisp"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "العرض cdr"
+description: "عرض cdr"
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrdisp/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrDisp extends CdrObjectContainer
 ```
 
-العرض cdr
+عرض cdr
 ## المنشئات
 
 | المنشئ | الوصف |

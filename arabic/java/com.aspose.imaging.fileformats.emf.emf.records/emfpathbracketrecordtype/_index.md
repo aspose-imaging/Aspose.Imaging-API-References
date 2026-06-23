@@ -1,7 +1,7 @@
 ---
 title: "EmfPathBracketRecordType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "أنواع سجلات أقواس المسار تحدد وتتعامل مع المسارات داخل أقواس المسار."
+description: "أنواع سجلات أقواس المسار تحدد وتتحكم في المسارات داخل أقواس المسار."
 type: docs
 weight: 81
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecordtype/
@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPathBracketRecordType extends EmfRecord
 ```
 
-أنواع سجلات أقواس المسار تحدد وتُعالج المسارات داخل أقواس المسار. ملاحظة: لا أحد من سجلات أقواس المسار يحدد معلمات.
+أنواع سجلات أقواس المسار تحدد وتُعالج المسارات داخل أقواس المسار. ملاحظة: لا أحد سجلات أقواس المسار يحدد معلمات.

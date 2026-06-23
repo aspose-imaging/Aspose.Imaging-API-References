@@ -17,7 +17,7 @@ public final class ColorMode extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Bitmap](#Bitmap) | وضع لون Bitmap. |
+| [Bitmap](#Bitmap) | وضع لون البت ماب. |
 | [GrayScale](#GrayScale) | وضع لون التدرج الرمادي. |
 | [IndexedColor](#IndexedColor) | اللون المفهرس. |
 | [Rgb](#Rgb) | لون RGB. |
@@ -31,7 +31,7 @@ public static final byte Bitmap
 ```
 
 
-وضع لون Bitmap.
+وضع لون البت ماب.
 
 ### GrayScale {#GrayScale}
 ```

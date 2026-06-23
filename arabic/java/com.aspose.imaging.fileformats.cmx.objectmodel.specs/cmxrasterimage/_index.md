@@ -27,29 +27,29 @@ public class CmxRasterImage implements ICmxObjectSpec
 | --- | --- |
 | [getType()](#getType--) | يحصل على نوع الصورة. |
 | [setType(int value)](#setType-int-) | يضبط نوع الصورة. |
-| [getCompression()](#getCompression--) | يسترجع الضغط. |
-| [setCompression(int value)](#setCompression-int-) | يعيّن الضغط. |
-| [getSize()](#getSize--) | يحصل على حجم الصورة. |
+| [getCompression()](#getCompression--) | يحصل على الضغط. |
+| [setCompression(int value)](#setCompression-int-) | يضبط الضغط. |
+| [getSize()](#getSize--) | يسترجع حجم الصورة. |
 | [setSize(long value)](#setSize-long-) | يضبط حجم الصورة. |
-| [getCompressedSize()](#getCompressedSize--) | يحصل على الحجم المضغوط للصورة. |
+| [getCompressedSize()](#getCompressedSize--) | يسترجع الحجم المضغوط للصورة. |
 | [setCompressedSize(long value)](#setCompressedSize-long-) | يضبط الحجم المضغوط للصورة. |
-| [isMask()](#isMask--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن قناعًا. |
-| [setMask(boolean value)](#setMask-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن قناعًا. |
+| [isMask()](#isMask--) | يسترجع قيمة تشير إلى ما إذا كانت هذه الحالة قناعًا. |
+| [setMask(boolean value)](#setMask-boolean-) | يضبط قيمة تشير إلى ما إذا كانت هذه الحالة قناعًا. |
 | [getColorModel()](#getColorModel--) | يحصل على نموذج اللون. |
 | [setColorModel(long value)](#setColorModel-long-) | يضبط نموذج اللون. |
-| [getWidth()](#getWidth--) | يحصل على عرض الصورة. |
+| [getWidth()](#getWidth--) | يسترجع عرض الصورة. |
 | [setWidth(long value)](#setWidth-long-) | يضبط عرض الصورة. |
-| [getHeight()](#getHeight--) | يحصل على ارتفاع الصورة. |
+| [getHeight()](#getHeight--) | يسترجع ارتفاع الصورة. |
 | [setHeight(long value)](#setHeight-long-) | يضبط ارتفاع الصورة. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد البتات لكل بكسل. |
 | [setBitsPerPixel(long value)](#setBitsPerPixel-long-) | يضبط عدد البتات لكل بكسل. |
-| [getBytesPerLine()](#getBytesPerLine--) | يحصل على حجم السطر. |
+| [getBytesPerLine()](#getBytesPerLine--) | يسترجع حجم السطر. |
 | [setBytesPerLine(long value)](#setBytesPerLine-long-) | يضبط حجم السطر. |
-| [getColorPalette()](#getColorPalette--) | يحصل على مصفوفة لوحة الألوان. |
+| [getColorPalette()](#getColorPalette--) | يسترجع مصفوفة لوحة الألوان. |
 | [setColorPalette(int[] value)](#setColorPalette-int---) | يضبط مصفوفة لوحة الألوان. |
-| [getRawData()](#getRawData--) | يحصل على بيانات البايت الخام للصورة. |
+| [getRawData()](#getRawData--) | يسترجع بيانات البايت الخام للصورة. |
 | [setRawData(byte[] value)](#setRawData-byte---) | يضبط بيانات البايت الخام للصورة. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxRasterImage() {#CmxRasterImage--}
@@ -79,7 +79,7 @@ public final void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع الصورة. |
+| value | int | نوع الصورة. |
 
 ### getCompression() {#getCompression--}
 ```
@@ -87,7 +87,7 @@ public final int getCompression()
 ```
 
 
-يسترجع الضغط.
+يحصل على الضغط.
 
 **Returns:**
 int - الضغط.
@@ -97,12 +97,12 @@ public final void setCompression(int value)
 ```
 
 
-يعيّن الضغط.
+يضبط الضغط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الضغط. |
+| value | int | الضغط. |
 
 ### getSize() {#getSize--}
 ```
@@ -110,7 +110,7 @@ public final long getSize()
 ```
 
 
-يحصل على حجم الصورة. يُقاس بالبايت.
+يسترجع حجم الصورة. يُقاس بالبايت.
 
 **Returns:**
 long - حجم الصورة.
@@ -125,7 +125,7 @@ public final void setSize(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | حجم الصورة. |
+| value | long | حجم الصورة. |
 
 ### getCompressedSize() {#getCompressedSize--}
 ```
@@ -148,7 +148,7 @@ public final void setCompressedSize(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | الحجم المضغوط للصورة. |
+| value | long | الحجم المضغوط للصورة. |
 
 ### isMask() {#isMask--}
 ```
@@ -156,7 +156,7 @@ public final boolean isMask()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن قناعًا.
+يسترجع قيمة تشير إلى ما إذا كانت هذه الحالة قناعًا.
 
 **Returns:**
 boolean - قيمة تشير إلى ما إذا كان هذا الكائن قناعًا.
@@ -166,12 +166,12 @@ public final void setMask(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا الكائن قناعًا.
+يضبط قيمة تشير إلى ما إذا كانت هذه الحالة قناعًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان هذا الكائن قناعًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا الكائن قناعًا. |
 
 ### getColorModel() {#getColorModel--}
 ```
@@ -194,7 +194,7 @@ public final void setColorModel(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | نموذج اللون. |
+| value | long | نموذج اللون. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -217,7 +217,7 @@ public final void setWidth(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | عرض الصورة. |
+| value | long | عرض الصورة. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -240,7 +240,7 @@ public final void setHeight(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | ارتفاع الصورة. |
+| value | long | ارتفاع الصورة. |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -263,7 +263,7 @@ public final void setBitsPerPixel(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | عدد البتات لكل بكسل. |
+| value | long | عدد البتات لكل بكسل. |
 
 ### getBytesPerLine() {#getBytesPerLine--}
 ```
@@ -286,7 +286,7 @@ public final void setBytesPerLine(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | حجم السطر. |
+| value | long | حجم السطر. |
 
 ### getColorPalette() {#getColorPalette--}
 ```
@@ -309,7 +309,7 @@ public final void setColorPalette(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | مصفوفة لوحة الألوان. |
+| value | int[] | مصفوفة لوحة الألوان. |
 
 ### getRawData() {#getRawData--}
 ```
@@ -317,7 +317,7 @@ public final byte[] getRawData()
 ```
 
 
-يحصل على بيانات البايت الخام للصورة.
+يسترجع بيانات البايت الخام للصورة.
 
 **Returns:**
 byte[] - البيانات الخام للبايت للصورة.
@@ -332,7 +332,7 @@ public final void setRawData(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | البيانات الخام للبايت للصورة. |
+| value | byte[] | البيانات الخام للبايت للصورة. |
 
 ### toString() {#toString--}
 ```
@@ -340,7 +340,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

@@ -17,9 +17,9 @@ public final class BezierShape extends PolygonShape
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BezierShape()](#BezierShape--) | ينشئ مثيلاً جديدًا من الفئة `BezierShape`. |
-| [BezierShape(PointF[] points)](#BezierShape-com.aspose.imaging.PointF---) | ينشئ مثيلاً جديدًا من الفئة `BezierShape`. |
-| [BezierShape(PointF[] points, boolean isClosed)](#BezierShape-com.aspose.imaging.PointF---boolean-) | ينشئ مثيلاً جديدًا من الفئة `BezierShape`. |
+| [BezierShape()](#BezierShape--) | ينشئ مثيلاً جديداً من الفئة `BezierShape`. |
+| [BezierShape(PointF[] points)](#BezierShape-com.aspose.imaging.PointF---) | ينشئ مثيلاً جديداً من الفئة `BezierShape`. |
+| [BezierShape(PointF[] points, boolean isClosed)](#BezierShape-com.aspose.imaging.PointF---boolean-) | ينشئ مثيلاً جديداً من الفئة `BezierShape`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -36,7 +36,7 @@ public BezierShape()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `BezierShape`.
+ينشئ مثيلاً جديداً من الفئة `BezierShape`.
 
 ### BezierShape(PointF[] points) {#BezierShape-com.aspose.imaging.PointF---}
 ```
@@ -44,7 +44,7 @@ public BezierShape(PointF[] points)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `BezierShape`.
+ينشئ مثيلاً جديداً من الفئة `BezierShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -57,13 +57,13 @@ public BezierShape(PointF[] points, boolean isClosed)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `BezierShape`.
+ينشئ مثيلاً جديداً من الفئة `BezierShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | مصفوفة النقاط. |
-| isClosed | boolean | إذا تم تعيينه إلى `true` فإن منحنى البيزيير مغلق. |
+| isClosed | boolean | إذا تم تعيينه إلى `true` فإن منحنى البيزير مغلق. |
 
 ### getBounds() {#getBounds--}
 ```
@@ -109,7 +109,7 @@ public boolean hasSegments()
 
 يحصل على قيمة تشير إلى ما إذا كان الشكل يحتوي على مقاطع.
 
-القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا `false`.
+القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا، `false`.
 
 **Returns:**
 boolean
@@ -136,7 +136,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

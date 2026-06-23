@@ -22,12 +22,12 @@ public final class EmfPlusPen extends EmfPlusGraphicsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getType()](#getType--) | الحصول أو تعيين يجب أن يكون هذا الحقل MUST مضبوماً على الصفر |
-| [setType(int value)](#setType-int-) | الحصول أو تعيين يجب أن يكون هذا الحقل MUST مضبوماً على الصفر |
-| [getPenData()](#getPenData--) | الحصول أو تعيين كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات |
-| [setPenData(EmfPlusPenData value)](#setPenData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenData-) | الحصول أو تعيين كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات |
-| [getBrushObject()](#getBrushObject--) | الحصول أو تعيين كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم |
-| [setBrushObject(EmfPlusBrush value)](#setBrushObject-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBrush-) | الحصول أو تعيين كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم |
+| [getType()](#getType--) | يحصل أو يحدد يجب أن يكون هذا الحقل مضبطًا على الصفر |
+| [setType(int value)](#setType-int-) | يحصل أو يحدد يجب أن يكون هذا الحقل مضبطًا على الصفر |
+| [getPenData()](#getPenData--) | يحصل أو يحدد كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات |
+| [setPenData(EmfPlusPenData value)](#setPenData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenData-) | يحصل أو يحدد كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات |
+| [getBrushObject()](#getBrushObject--) | يحصل أو يحدد كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم |
+| [setBrushObject(EmfPlusBrush value)](#setBrushObject-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBrush-) | يحصل أو يحدد كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم |
 ### EmfPlusPen() {#EmfPlusPen--}
 ```
 public EmfPlusPen()
@@ -40,7 +40,7 @@ public int getType()
 ```
 
 
-الحصول أو تعيين يجب أن يكون هذا الحقل MUST مضبوماً على الصفر
+يحصل أو يحدد يجب أن يكون هذا الحقل مضبطًا على الصفر
 
 **Returns:**
 int
@@ -50,12 +50,12 @@ public void setType(int value)
 ```
 
 
-الحصول أو تعيين يجب أن يكون هذا الحقل MUST مضبوماً على الصفر
+يحصل أو يحدد يجب أن يكون هذا الحقل مضبطًا على الصفر
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPenData() {#getPenData--}
 ```
@@ -63,7 +63,7 @@ public EmfPlusPenData getPenData()
 ```
 
 
-الحصول أو تعيين كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات
+يحصل أو يحدد كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات
 
 **Returns:**
 [EmfPlusPenData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)
@@ -73,7 +73,7 @@ public void setPenData(EmfPlusPenData value)
 ```
 
 
-الحصول أو تعيين كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات
+يحصل أو يحدد كائن EmfPlusPenData الذي يحدد خصائص قلم الرسومات
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public EmfPlusBrush getBrushObject()
 ```
 
 
-الحصول أو تعيين كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم
+يحصل أو يحدد كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم
 
 **Returns:**
 [EmfPlusBrush](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush)
@@ -96,7 +96,7 @@ public void setBrushObject(EmfPlusBrush value)
 ```
 
 
-الحصول أو تعيين كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم
+يحصل أو يحدد كائن EmfPlusBrush الذي يحدد فرشاة رسومات مرتبطة بالقلم
 
 **Parameters:**
 | معامل | نوع | الوصف |

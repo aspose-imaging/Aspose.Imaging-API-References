@@ -12,16 +12,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusPathPointTypeFlags extends System.Enum
 ```
 
-تحدد أعلام PathPointType خصائص نوع النقاط على مسارات الرسومات. يمكن دمج هذه الأعلام لتحديد خيارات متعددة.
+تحدد أعلام PathPointType خصائص النوع للنقاط على مسارات الرسومات. يمكن دمج هذه الأعلام لتحديد خيارات متعددة.
 
 --------------------
 
-يتم تحديد مسارات الرسومات بواسطة كائنات [EmfPlusPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) .
+يتم تحديد مسارات الرسومات بواسطة كائنات [EmfPlusPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath).
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [PathPointTypeDashMode](#PathPointTypeDashMode) | يحدد أن مقطع الخط الذي يمر عبر النقطة هو متقطع. |
+| [PathPointTypeDashMode](#PathPointTypeDashMode) | يحدد أن القطعة الخطية التي تمر عبر النقطة تكون متقطعة. |
 | [PathPointTypePathMarker](#PathPointTypePathMarker) | يحدد أن النقطة هي علامة موقع. |
 | [PathPointTypeCloseSubpath](#PathPointTypeCloseSubpath) | يحدد أن النقطة هي نقطة النهاية لمسار فرعي. |
 ### PathPointTypeDashMode {#PathPointTypeDashMode}
@@ -30,7 +30,7 @@ public static final int PathPointTypeDashMode
 ```
 
 
-يحدد أن مقطع الخط الذي يمر عبر النقطة هو متقطع.
+يحدد أن القطعة الخطية التي تمر عبر النقطة تكون متقطعة.
 
 ### PathPointTypePathMarker {#PathPointTypePathMarker}
 ```

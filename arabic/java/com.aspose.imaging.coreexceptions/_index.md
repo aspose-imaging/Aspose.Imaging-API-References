@@ -1,22 +1,22 @@
 ---
 title: "com.aspose.imaging.coreexceptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الحزمة تحتوي على استثناءات تُطرح من أي من مكونات Imaging الأساسية."
+description: "الحزمة تحتوي على استثناءات تُطرح من أي من مكونات التصوير الأساسية."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.coreexceptions/
 ---
 
-الحزمة تحتوي على استثناءات تُطرح من أي من مكونات Imaging الأساسية.
+الحزمة تحتوي على استثناءات تُطرح من أي من مكونات التصوير الأساسية.
 
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CompressorException](../com.aspose.imaging.coreexceptions/compressorexception) | استثناء الضاغط. |
 | [DataMismatchError](../com.aspose.imaging.coreexceptions/datamismatcherror) | فئة استثناء عدم تطابق البيانات |
-| [DigitalSignatureException](../com.aspose.imaging.coreexceptions/digitalsignatureexception) | يمثل الأخطاء التي تحدث أثناء عمليات إخفاء المعلومات. |
+| [DigitalSignatureException](../com.aspose.imaging.coreexceptions/digitalsignatureexception) | يمثل الأخطاء التي تحدث أثناء عمليات التخفي الرقمي. |
 | [FrameworkException](../com.aspose.imaging.coreexceptions/frameworkexception) | استثناء إطار عمل التصوير. |
 | [ImageCreateException](../com.aspose.imaging.coreexceptions/imagecreateexception) | استثناء إنشاء الصورة. |
 | [ImageException](../com.aspose.imaging.coreexceptions/imageexception) | استثناء الصورة. |

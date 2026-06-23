@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSave"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EmfPlusSave يحفظ حالة الرسومات المحددة بواسطة فهرس محدد على مكدس من حالات الرسومات المحفوظة."
+description: "يسجل EmfPlusSave حالة الرسومات المحددة بواسطة فهرس معين على مكدس حالات الرسومات المحفوظة."
 type: docs
 weight: 51
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussave/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSave extends EmfPlusStateRecordType
 ```
 
-يسجل EmfPlusSave يحفظ حالة الرسومات، المحددة بواسطة فهرس معين، على مكدس حالات الرسومات المحفوظة.
+سجل EmfPlusSave يحفظ حالة الرسومات، المحددة بواسطة فهرس معين، على مكدس حالات الرسومات المحفوظة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSave(EmfPlusRecord source)](#EmfPlusSave-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusSave`. |
+| [EmfPlusSave(EmfPlusRecord source)](#EmfPlusSave-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusSave`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusSave(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `EmfPlusSave`.
+ينشئ مثيلاً جديداً من الفئة `EmfPlusSave`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,5 +62,5 @@ public void setStackIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

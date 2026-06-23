@@ -17,16 +17,16 @@ public final class ExifColorSpace extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [SRgb](#SRgb) | فضاء اللون SRGB. |
-| [AdobeRgb](#AdobeRgb) | فضاء اللون Adobe rgb. |
-| [Uncalibrated](#Uncalibrated) | فضاء اللون غير المعاير. |
+| [SRgb](#SRgb) | مساحة اللون SRGB. |
+| [AdobeRgb](#AdobeRgb) | مساحة اللون Adobe rgb. |
+| [Uncalibrated](#Uncalibrated) | مساحة اللون غير المعايرة. |
 ### SRgb {#SRgb}
 ```
 public static final int SRgb
 ```
 
 
-فضاء اللون SRGB.
+مساحة اللون SRGB.
 
 ### AdobeRgb {#AdobeRgb}
 ```
@@ -34,7 +34,7 @@ public static final int AdobeRgb
 ```
 
 
-فضاء اللون Adobe rgb.
+مساحة اللون Adobe rgb.
 
 ### Uncalibrated {#Uncalibrated}
 ```
@@ -42,5 +42,5 @@ public static final int Uncalibrated
 ```
 
 
-فضاء اللون غير المعاير.
+مساحة اللون غير المعايرة.
 

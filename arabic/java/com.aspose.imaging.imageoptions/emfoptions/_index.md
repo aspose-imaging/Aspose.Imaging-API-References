@@ -18,9 +18,9 @@ public class EmfOptions extends MetafileOptions
 | المنشئ | الوصف |
 | --- | --- |
 | [EmfOptions()](#EmfOptions--) |  |
-| [EmfOptions(float dpiX, float dpiY)](#EmfOptions-float-float-) | يُنشئ مثيلاً جديدًا من الفئة `EmfOptions`. |
+| [EmfOptions(float dpiX, float dpiY)](#EmfOptions-float-float-) | يُنشئ مثيلاً جديدًا للفئة `EmfOptions`. |
 | [EmfOptions(float dpi)](#EmfOptions-float-) |  |
-| [EmfOptions(EmfOptions emfOptions)](#EmfOptions-com.aspose.imaging.imageoptions.EmfOptions-) | يُنشئ مثيلاً جديدًا من الفئة `EmfOptions`. |
+| [EmfOptions(EmfOptions emfOptions)](#EmfOptions-com.aspose.imaging.imageoptions.EmfOptions-) | يُنشئ مثيلاً جديدًا للفئة `EmfOptions`. |
 
 ## Example: The following example shows how to convert a multipage vector image to EMF format in general way without referencing to a particular image type.
 
@@ -35,7 +35,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // صدّر الصفحتين الأوليتين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط لأن EMF ليس تنسيقًا متعدد الصفحات.
+    // تصدير الصفحتين الأوليتين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط لأن تنسيق EMF ليس تنسيقًا متعدد الصفحات.
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -106,7 +106,7 @@ public EmfOptions(float dpiX, float dpiY)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfOptions`.
+يُنشئ مثيلاً جديدًا للفئة `EmfOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -131,7 +131,7 @@ public EmfOptions(EmfOptions emfOptions)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfOptions`.
+يُنشئ مثيلاً جديدًا للفئة `EmfOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "GifCommentBlock"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كتلة تعليق GIF."
+description: "كتلة تعليق Gif."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.gif.blocks/gifcommentblock/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifCommentBlock extends GifBlock
 ```
 
-كتلة تعليق GIF.
+كتلة تعليق Gif.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,7 +23,7 @@ public class GifCommentBlock extends GifBlock
 
 | حقل | الوصف |
 | --- | --- |
-| [EXTENSION_LABEL](#EXTENSION-LABEL) | تسمية امتداد كتلة تعليق Gif. |
+| [EXTENSION_LABEL](#EXTENSION-LABEL) | تسمية امتداد كتلة تعليق GIF. |
 | [BLOCK_HEADER_SIZE](#BLOCK-HEADER-SIZE) | يحدد حجم رأس الكتلة. |
 ## الطرق
 
@@ -50,7 +50,7 @@ public GifCommentBlock(String comment)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| comment | java.lang.String | التعليق. |
+| تعليق | java.lang.String | التعليق. |
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
 ```
@@ -58,7 +58,7 @@ public static final byte EXTENSION_LABEL
 ```
 
 
-تسمية امتداد كتلة تعليق Gif.
+تسمية امتداد كتلة تعليق GIF.
 
 ### BLOCK_HEADER_SIZE {#BLOCK-HEADER-SIZE}
 ```
@@ -93,5 +93,5 @@ public void setComment(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 

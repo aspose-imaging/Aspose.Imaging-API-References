@@ -1,7 +1,7 @@
 ---
 title: "EmfSpoolFontDefinitionRecordType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تتضمن سجلات تعريف الخط خمسة أنواع سجلات مدرجة في الجدول التالي."
+description: "تتضمن سجلات تعريف الخط خمس أنواع سجلات مدرجة في الجدول التالي."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfspool.records/emfspoolfontdefinitionrecordtype/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class EmfSpoolFontDefinitionRecordType
 ```
 
-تتضمن سجلات تعريف الخط خمسة أنواع سجلات، مدرجة في الجدول التالي. سجلات تعريف الخط تحدد الخطوط الجزئية، الخطوط الكاملة، وخصائص الخط.
+تتضمن سجلات تعريف الخط خمس أنواع سجلات، مدرجة في الجدول التالي. تحدد سجلات تعريف الخط الخطوط الجزئية، الخطوط الكاملة، وخصائص الخط.
 ## المنشئات
 
 | المنشئ | الوصف |

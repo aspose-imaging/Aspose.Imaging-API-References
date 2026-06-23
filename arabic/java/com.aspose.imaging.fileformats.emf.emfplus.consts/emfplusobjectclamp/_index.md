@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusObjectClamp extends System.Enum
 ```
 
-EmfPlusObjectClamp يحدد سلوك تثبيت الكائن. لا يُستخدم إلا عندما يُطبق هذا الكائن على صورة يتم رسمها.
+يحدد EmfPlusObjectClamp سلوك تثبيت الكائن. لا يُستخدم إلا عندما يُطبق هذا الكائن على صورة يتم رسمها.
 ## الحقول
 
 | حقل | الوصف |

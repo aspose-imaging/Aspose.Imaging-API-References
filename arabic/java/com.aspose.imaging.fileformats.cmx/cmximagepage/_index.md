@@ -20,8 +20,8 @@ public class CmxImagePage extends VectorImage implements ICmxImage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CmxImagePage(CmxPage cmxPage, Image container)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-) | يُنشئ مثيلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage). |
-| [CmxImagePage(CmxPage cmxPage)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-) | يُنشئ مثيلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage). |
+| [CmxImagePage(CmxPage cmxPage, Image container)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-com.aspose.imaging.Image-) | يُنشئ مثلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage). |
+| [CmxImagePage(CmxPage cmxPage)](#CmxImagePage-com.aspose.imaging.fileformats.cmx.objectmodel.CmxPage-) | يُنشئ مثلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public class CmxImagePage extends VectorImage implements ICmxImage
 | [getCmxPage()](#getCmxPage--) | يحصل على صفحة CMX. |
 | [getFileFormat()](#getFileFormat--) | يحصل على قيمة تنسيق الملف |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد بتات الصورة لكل بكسل. |
-| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات. |
+| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات. |
 | [getWidthF()](#getWidthF--) | يحصل على عرض الكائن، بالبوصة. |
 | [getHeightF()](#getHeightF--) | يحصل على ارتفاع الكائن، بالبوصة. |
 | [getWidth()](#getWidth--) | يحصل على عرض الصورة. |
@@ -43,7 +43,7 @@ public CmxImagePage(CmxPage cmxPage, Image container)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage).
+يُنشئ مثلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -57,7 +57,7 @@ public CmxImagePage(CmxPage cmxPage)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage).
+يُنشئ مثلاً جديدًا من الفئة [CmxImagePage](../../com.aspose.imaging.fileformats.cmx/cmximagepage).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -100,12 +100,12 @@ public boolean isCached()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 
 القيمة: `true` إذا تم تخزين بيانات الكائن مؤقتًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+boolean - قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 ### getWidthF() {#getWidthF--}
 ```
 public float getWidthF()
@@ -161,7 +161,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | java.lang.Object[] | المعلمات. |
+| args | java.lang.Object[] | المعاملات. |
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
@@ -179,13 +179,13 @@ public void cacheData()
 ``` java
 String dir = "c:\\temp\\";
 
-// حمّل صورة من ملف CMX.
+// تحميل صورة من ملف CMX.
 com.aspose.imaging.fileformats.cmx.CmxImage image = (com.aspose.imaging.fileformats.cmx.CmxImage) com.aspose.imaging.Image.load(dir + "sample.cmx");
 try {
-    // هذه العملية تُخزن في الذاكرة المؤقتة الصفحة الافتراضية فقط.
+    // هذه العملية تخزن مؤقتًا الصفحة الافتراضية فقط.
     image.cacheData();
 
-    // خزن جميع الصفحات في الذاكرة المؤقتة بحيث لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
+    // قم بتخزين جميع الصفحات مؤقتًا حتى لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
     for (com.aspose.imaging.fileformats.cmx.CmxImagePage page : image.getPages()) {
         page.cacheData();
     }

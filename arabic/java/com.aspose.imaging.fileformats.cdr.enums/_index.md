@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.cdr.enums/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CdrFillType](../com.aspose.imaging.fileformats.cdr.enums/cdrfilltype) | نوع تعبئة cdr |

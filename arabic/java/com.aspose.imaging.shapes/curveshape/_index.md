@@ -1,7 +1,7 @@
 ---
 title: "CurveShape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل شكل منحنى مقوس."
+description: "يمثل شكل منحنى منحني."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.shapes/curveshape/
@@ -12,22 +12,22 @@ java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging
 public final class CurveShape extends PolygonShape
 ```
 
-يمثل شكل منحنى مقوس.
+يمثل شكل منحنى منحني.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CurveShape()](#CurveShape--) | ينشئ مثيلًا جديدًا من الفئة `CurveShape`. |
-| [CurveShape(PointF[] points)](#CurveShape-com.aspose.imaging.PointF---) | ينشئ مثيلًا جديدًا من الفئة `CurveShape`. |
-| [CurveShape(PointF[] points, boolean isClosed)](#CurveShape-com.aspose.imaging.PointF---boolean-) | ينشئ مثيلًا جديدًا من الفئة `CurveShape`. |
-| [CurveShape(PointF[] points, float tension)](#CurveShape-com.aspose.imaging.PointF---float-) | ينشئ مثيلًا جديدًا من الفئة `CurveShape`. |
-| [CurveShape(PointF[] points, float tension, boolean isClosed)](#CurveShape-com.aspose.imaging.PointF---float-boolean-) | ينشئ مثيلًا جديدًا من الفئة `CurveShape`. |
+| [CurveShape()](#CurveShape--) | يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. |
+| [CurveShape(PointF[] points)](#CurveShape-com.aspose.imaging.PointF---) | يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. |
+| [CurveShape(PointF[] points, boolean isClosed)](#CurveShape-com.aspose.imaging.PointF---boolean-) | يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. |
+| [CurveShape(PointF[] points, float tension)](#CurveShape-com.aspose.imaging.PointF---float-) | يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. |
+| [CurveShape(PointF[] points, float tension, boolean isClosed)](#CurveShape-com.aspose.imaging.PointF---float-boolean-) | يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getTension()](#getTension--) | يحصل أو يضبط توتر المنحنى. |
-| [setTension(float value)](#setTension-float-) | يحصل أو يضبط توتر المنحنى. |
+| [getTension()](#getTension--) | يحصل أو يعيّن توتر المنحنى. |
+| [setTension(float value)](#setTension-float-) | يحصل أو يعيّن توتر المنحنى. |
 | [getBounds()](#getBounds--) | يحصل على حدود الكائن. |
 | [getCenter()](#getCenter--) | يحصل على مركز الشكل. |
 | [getSegments()](#getSegments--) | يحصل على مقاطع الشكل. |
@@ -41,7 +41,7 @@ public CurveShape()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `CurveShape`.
+يُنشئ مثيلاً جديدًا من الفئة `CurveShape`.
 
 ### CurveShape(PointF[] points) {#CurveShape-com.aspose.imaging.PointF---}
 ```
@@ -49,7 +49,7 @@ public CurveShape(PointF[] points)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `CurveShape`. يتم استخدام التوتر الافتراضي بقيمة 0.5.
+يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. يتم استخدام التوتر الافتراضي 0.5.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,7 +62,7 @@ public CurveShape(PointF[] points, boolean isClosed)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `CurveShape`. يتم استخدام التوتر الافتراضي بقيمة 0.5.
+يُنشئ مثيلاً جديدًا من الفئة `CurveShape`. يتم استخدام التوتر الافتراضي 0.5.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public CurveShape(PointF[] points, float tension)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `CurveShape`.
+يُنشئ مثيلاً جديدًا من الفئة `CurveShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -90,14 +90,14 @@ public CurveShape(PointF[] points, float tension, boolean isClosed)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `CurveShape`.
+يُنشئ مثيلاً جديدًا من الفئة `CurveShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | مصفوفة النقاط. |
 | tension | float | توتر المنحنى. |
-| isClosed | boolean | إذا تم تعيينه إلى `true` فإن المنحنى مغلق. |
+| isClosed | boolean | إذا تم تعيينه إلى `true` يكون المنحنى مغلقًا. |
 
 ### getTension() {#getTension--}
 ```
@@ -105,7 +105,7 @@ public float getTension()
 ```
 
 
-يحصل أو يضبط توتر المنحنى.
+يحصل أو يعيّن توتر المنحنى.
 
 القيمة: توتر المنحنى.
 
@@ -117,14 +117,14 @@ public void setTension(float value)
 ```
 
 
-يحصل أو يضبط توتر المنحنى.
+يحصل أو يعيّن توتر المنحنى.
 
 القيمة: توتر المنحنى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getBounds() {#getBounds--}
 ```
@@ -173,7 +173,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -188,8 +188,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
-| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر ذلك على حجم حدود الكائن. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
+| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر هذا على حجم حدود الكائن. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

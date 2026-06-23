@@ -55,5 +55,5 @@ public final void setOptimalMemoryUsage(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [optimal memory usage]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [optimal memory usage]. |
 

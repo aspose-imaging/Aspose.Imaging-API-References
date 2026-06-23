@@ -42,7 +42,7 @@ public class CmxImageFill
 | [setRelative(boolean value)](#setRelative-boolean-) | يضبط قيمة تشير إلى ما إذا كانت قيم حجم الأنماط نسبية. |
 | [getRotate180()](#getRotate180--) | يحصل على قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا. |
 | [setRotate180(boolean value)](#setRotate180-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxImageFill() {#CmxImageFill--}
@@ -118,7 +118,7 @@ public final void setTileOffsetX(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إزاحة البلاطة X. |
+| value | float | إزاحة البلاطة X. |
 
 ### getTileOffsetY() {#getTileOffsetY--}
 ```
@@ -141,7 +141,7 @@ public final void setTileOffsetY(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إزاحة البلاطة Y. |
+| value | float | إزاحة البلاطة Y. |
 
 ### getRcpOffset() {#getRcpOffset--}
 ```
@@ -149,22 +149,22 @@ public final float getRcpOffset()
 ```
 
 
-يحصل على الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\\#getOffsetType.getOffsetType/\\#setOffsetType(int).setOffsetType(int))). البُعد هو كسور من الارتفاع أو العرض.
+يحصل على الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). البُعد هو كسور من ارتفاع أو عرض.
 
 **Returns:**
-float - الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\\#getOffsetType.getOffsetType/\\#setOffsetType(int).setOffsetType(int))).
+float - الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))).
 ### setRcpOffset(float value) {#setRcpOffset-float-}
 ```
 public final void setRcpOffset(float value)
 ```
 
 
-يضبط الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\\#getOffsetType.getOffsetType/\\#setOffsetType(int).setOffsetType(int))). البُعد هو كسور من الارتفاع أو العرض.
+يضبط الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). البُعد هو كسور من ارتفاع أو عرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\\#getOffsetType.getOffsetType/\\#setOffsetType(int).setOffsetType(int))). |
+| value | float | الإزاحة النسبية بين صفوف أو أعمدة البلاطات (يعتمد على `OffsetType`(\#getOffsetType.getOffsetType/\#setOffsetType(int).setOffsetType(int))). |
 
 ### getOffsetType() {#getOffsetType--}
 ```
@@ -187,7 +187,7 @@ public final void setOffsetType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع الإزاحة بين البلاطات المتجاورة. |
+| value | int | نوع الإزاحة بين البلاطات المتجاورة. |
 
 ### getPatternWidth() {#getPatternWidth--}
 ```
@@ -195,7 +195,7 @@ public final float getPatternWidth()
 ```
 
 
-يحصل على عرض النمط. يستخدم وحدة قياس المسافة المستندية الشائعة في حال كان `IsRelative`(\\#isRelative.isRelative/\\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر عرض بكسل الصورة.
+يحصل على عرض النمط. يستخدم وحدة قياس المسافة العامة للمستند في حال كان `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر عرض بكسل الصورة.
 
 **Returns:**
 float - عرض النمط.
@@ -205,12 +205,12 @@ public final void setPatternWidth(float value)
 ```
 
 
-يضبط عرض النمط. يستخدم وحدة قياس المسافة المستندية الشائعة في حال كان `IsRelative`(\\#isRelative.isRelative/\\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر عرض بكسل الصورة.
+يضبط عرض النمط. يستخدم وحدة قياس المسافة العامة للمستند في حال كان `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر عرض بكسل الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض النمط. |
+| value | float | عرض النمط. |
 
 ### getPatternHeight() {#getPatternHeight--}
 ```
@@ -218,7 +218,7 @@ public final float getPatternHeight()
 ```
 
 
-يحصل على ارتفاع النمط. يستخدم وحدة قياس المسافة المستندية الشائعة في حال كان `IsRelative`(\\#isRelative.isRelative/\\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر ارتفاع بكسل الصورة.
+يحصل على ارتفاع النمط. يستخدم وحدة قياس المسافة العامة للمستند في حال كان `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر ارتفاع بكسل الصورة.
 
 **Returns:**
 float - ارتفاع النمط.
@@ -228,12 +228,12 @@ public final void setPatternHeight(float value)
 ```
 
 
-يضبط ارتفاع النمط. يستخدم وحدة قياس المسافة المستندية الشائعة في حال كان `IsRelative`(\\#isRelative.isRelative/\\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر ارتفاع بكسل الصورة.
+يضبط ارتفاع النمط. يستخدم وحدة قياس المسافة العامة للمستند في حال كان `IsRelative`(\#isRelative.isRelative/\#setRelative(boolean).setRelative(boolean)) `false`، وإلا يكون له بُعد كسر ارتفاع بكسل الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | ارتفاع النمط. |
+| value | float | ارتفاع النمط. |
 
 ### isRelative() {#isRelative--}
 ```
@@ -256,7 +256,7 @@ public final void setRelative(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getRotate180() {#getRotate180--}
 ```
@@ -266,10 +266,10 @@ public final boolean getRotate180()
 
 يحصل على قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا.
 
-القيمة: `true` إذا كانت الصورة مقلوبة رأسًا على عقب؛ وإلا `false`.
+القيمة: `true` إذا كانت الصورة مقلوبة؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا رأسًا على عقب.
+منطقي - قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا.
 ### setRotate180(boolean value) {#setRotate180-boolean-}
 ```
 public final void setRotate180(boolean value)
@@ -278,12 +278,12 @@ public final void setRotate180(boolean value)
 
 يضبط قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا.
 
-القيمة: `true` إذا كانت الصورة مقلوبة رأسًا على عقب؛ وإلا `false`.
+القيمة: `true` إذا كانت الصورة مقلوبة؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا رأسًا على عقب. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا [CmxImageSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) مقلوبًا. |
 
 ### toString() {#toString--}
 ```
@@ -291,7 +291,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

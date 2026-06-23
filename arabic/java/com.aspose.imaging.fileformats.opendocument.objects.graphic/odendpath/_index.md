@@ -7,7 +7,7 @@ weight: 19
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdEndPath extends OdGraphicObject
 ```
@@ -17,25 +17,25 @@ public class OdEndPath extends OdGraphicObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdEndPath(OdObject parent)](#OdEndPath-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلاً جديداً من الفئة `OdEndPath`. |
+| [OdEndPath(OdObject parent)](#OdEndPath-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdEndPath`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFill()](#getFill--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءاً. |
-| [setFill(boolean value)](#setFill-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءاً. |
+| [getFill()](#getFill--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءًا. |
+| [setFill(boolean value)](#setFill-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءًا. |
 ### OdEndPath(OdObject parent) {#OdEndPath-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdEndPath(OdObject parent)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `OdEndPath`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdEndPath`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getFill() {#getFill--}
 ```
@@ -43,20 +43,20 @@ public boolean getFill()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءاً.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءًا.
 
 **Returns:**
-منطقي - `true` إذا كان مملوءاً؛ وإلا `false`.
+منطقية - `true` إذا كان مملوءًا؛ وإلا `false`.
 ### setFill(boolean value) {#setFill-boolean-}
 ```
 public void setFill(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءاً.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `OdEndPath` مملوءًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان مملوءاً؛ وإلا `false`. |
+| value | boolean | `true` إذا كان مملوءًا؛ وإلا `false`. |
 

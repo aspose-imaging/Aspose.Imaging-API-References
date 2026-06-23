@@ -1,7 +1,7 @@
 ---
 title: "EmfSelectPalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_SELECTPALETTE يحدد لوحة ألوان منطقية لسياق جهاز التشغيل."
+description: "السجل EMR_SELECTPALETTE يحدد لوحة ألوان منطقية لسياق جهاز التشغيل."
 type: docs
 weight: 117
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
@@ -12,25 +12,25 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSelectPalette extends EmfObjectManipulationRecordType
 ```
 
-سجل EMR\_SELECTPALETTE يحدد لوحة ألوان منطقية لسياق جهاز التشغيل.
+السجل EMR\_SELECTPALETTE يحدد لوحة ألوان منطقية لسياق جهاز التشغيل.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSelectPalette(EmfRecord source)](#EmfSelectPalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfSelectPalette`. |
+| [EmfSelectPalette(EmfRecord source)](#EmfSelectPalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfSelectPalette`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIhPal()](#getIhPal--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة كائن مخزون من تعداد StockObject (القسم 2.1.31). |
-| [setIhPal(int value)](#setIhPal-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة كائن مخزون من تعداد StockObject (القسم 2.1.31). |
+| [getIhPal()](#getIhPal--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة ألوان كائن مخزون من تعداد StockObject (القسم 2.1.31). |
+| [setIhPal(int value)](#setIhPal-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة ألوان كائن مخزون من تعداد StockObject (القسم 2.1.31). |
 ### EmfSelectPalette(EmfRecord source) {#EmfSelectPalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSelectPalette(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfSelectPalette`.
+ينشئ مثيلاً جديداً من الفئة `EmfSelectPalette`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -43,7 +43,7 @@ public int getIhPal()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة كائن مخزون من تعداد StockObject (القسم 2.1.31).
+يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة ألوان كائن مخزون من تعداد StockObject (القسم 2.1.31).
 
 يجب ألا تكون هذه القيمة صفرًا أو فهرس أي كائن مخزون آخر.
 
@@ -55,12 +55,12 @@ public void setIhPal(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة كائن مخزون من تعداد StockObject (القسم 2.1.31).
+يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد إما فهرس كائن LogPalette (القسم 2.2.17) في جدول كائنات EMF أو القيمة DEFAULT\_PALETTE، والتي هي فهرس لوحة ألوان كائن مخزون من تعداد StockObject (القسم 2.1.31).
 
 يجب ألا تكون هذه القيمة صفرًا أو فهرس أي كائن مخزون آخر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

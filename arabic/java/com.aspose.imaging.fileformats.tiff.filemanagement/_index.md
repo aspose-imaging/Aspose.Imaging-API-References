@@ -12,10 +12,10 @@ url: /ar/java/com.aspose.imaging.fileformats.tiff.filemanagement/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [TiffBigEndianStreamReader](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) | تيار tiff لمعالجة تنسيق ملف tiff ذو النهاية الكبيرة. |
-| [TiffBigEndianStreamWriter](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter) | كاتب تيار Tiff لتدفقات النهاية الكبيرة. |
-| [TiffStreamFactory](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory) | مصنع تيار Tiff بناءً على ترتيب البايت. |
+| [TiffBigEndianStreamWriter](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter) | كاتب تيار tiff لتدفقات النهاية الكبيرة. |
+| [TiffStreamFactory](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory) | مصنع تيار Tiff يعتمد على ترتيب البايت. |
 | [TiffStreamReader](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader) | تيار tiff لمعالجة تنسيق ملف tiff ذو النهاية الصغيرة. |
 | [TiffStreamWriter](../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | كاتب تيار Tiff. |

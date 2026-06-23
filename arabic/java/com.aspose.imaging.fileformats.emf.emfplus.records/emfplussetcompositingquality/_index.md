@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetCompositingQuality"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EmfPlusSetCompositingQuality يحدد المستوى المطلوب للجودة عند إنشاء صور مركبة من عدة كائنات."
+description: "سجل EmfPlusSetCompositingQuality يحدد مستوى الجودة المطلوب لإنشاء صور مركبة من عدة كائنات."
 type: docs
 weight: 59
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetCompositingQuality extends EmfPlusPropertyRecordType
 ```
 
-سجل EmfPlusSetCompositingQuality يحدد المستوى المطلوب للجودة عند إنشاء صور مركبة من عدة كائنات.
+سجل EmfPlusSetCompositingQuality يحدد مستوى الجودة المطلوب لإنشاء صور مركبة من عدة كائنات.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public final class EmfPlusSetCompositingQuality extends EmfPlusPropertyRecordTyp
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCompositingQuality()](#getCompositingQuality--) | يحصل أو يضبط جودة التركيب. |
-| [setCompositingQuality(byte value)](#setCompositingQuality-byte-) | يحصل أو يضبط جودة التركيب. |
+| [getCompositingQuality()](#getCompositingQuality--) | يحصل أو يعيّن جودة التركيب. |
+| [setCompositingQuality(byte value)](#setCompositingQuality-byte-) | يحصل أو يعيّن جودة التركيب. |
 ### EmfPlusSetCompositingQuality(EmfPlusRecord source) {#EmfPlusSetCompositingQuality-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetCompositingQuality(EmfPlusRecord source)
@@ -43,7 +43,7 @@ public byte getCompositingQuality()
 ```
 
 
-يحصل أو يضبط جودة التركيب.
+يحصل أو يعيّن جودة التركيب.
 
 القيمة: جودة التركيب.
 
@@ -55,12 +55,12 @@ public void setCompositingQuality(byte value)
 ```
 
 
-يحصل أو يضبط جودة التركيب.
+يحصل أو يعيّن جودة التركيب.
 
 القيمة: جودة التركيب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 

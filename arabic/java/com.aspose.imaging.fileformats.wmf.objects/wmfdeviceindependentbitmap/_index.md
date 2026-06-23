@@ -1,7 +1,7 @@
 ---
 title: "WmfDeviceIndependentBitmap"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يقوم كائن DeviceIndependentBitmap بتعريف صورة بتنسيق bitmap المستقل عن الجهاز DIB."
+description: "كائن DeviceIndependentBitmap يعرّف صورة بتنسيق bitmap مستقل عن الجهاز DIB."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfDeviceIndependentBitmap extends MetaObject
 ```
 
-كائن DeviceIndependentBitmap يعرّف صورة بتنسيق صورة نقطية مستقلة عن الجهاز (DIB).
+كائن DeviceIndependentBitmap يحدد صورة بصيغة صورة نقطية مستقلة عن الجهاز (DIB)
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,14 +22,14 @@ public class WmfDeviceIndependentBitmap extends MetaObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getHeader()](#getHeader--) | يحصل أو يعيّن إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة. |
-| [setHeader(WmfBitmapBaseHeader value)](#setHeader-com.aspose.imaging.fileformats.wmf.objects.WmfBitmapBaseHeader-) | يحصل أو يعيّن إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة. |
-| [getColorsData()](#getColorsData--) | يحصل أو يعيّن مصفوفة اختيارية إما لكائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. |
-| [setColorsData(byte[] value)](#setColorsData-byte---) | يحصل أو يعيّن مصفوفة اختيارية إما لكائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. |
-| [getAData()](#getAData--) | يحصل أو يعيّن مصفوفة من البايتات التي تُعرّف الصورة. |
-| [setAData(byte[] value)](#setAData-byte---) | يحصل أو يعيّن مصفوفة من البايتات التي تُعرّف الصورة. |
+| [getHeader()](#getHeader--) | يحصل أو يضبط إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة. |
+| [setHeader(WmfBitmapBaseHeader value)](#setHeader-com.aspose.imaging.fileformats.wmf.objects.WmfBitmapBaseHeader-) | يحصل أو يضبط إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة. |
+| [getColorsData()](#getColorsData--) | يحصل أو يضبط مصفوفة اختيارية إما من كائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. |
+| [setColorsData(byte[] value)](#setColorsData-byte---) | يحصل أو يضبط مصفوفة اختيارية إما من كائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. |
+| [getAData()](#getAData--) | يحصل أو يضبط مصفوفة من البايتات التي تُعرّف الصورة. |
+| [setAData(byte[] value)](#setAData-byte---) | يحصل أو يضبط مصفوفة من البايتات التي تُعرّف الصورة. |
 | [getCachedImage()](#getCachedImage--) | يحصل على صورة الراستر المخزنة مؤقتًا. |
-| [setCachedImage(byte[] value)](#setCachedImage-byte---) | يعيّن صورة الراستر المخزنة مؤقتًا. |
+| [setCachedImage(byte[] value)](#setCachedImage-byte---) | يضبط صورة الراستر المخزنة مؤقتًا. |
 ### WmfDeviceIndependentBitmap() {#WmfDeviceIndependentBitmap--}
 ```
 public WmfDeviceIndependentBitmap()
@@ -42,7 +42,7 @@ public WmfBitmapBaseHeader getHeader()
 ```
 
 
-يحصل أو يعيّن إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة.
+يحصل أو يضبط إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة.
 
 **Returns:**
 [WmfBitmapBaseHeader](../../com.aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader)
@@ -52,7 +52,7 @@ public void setHeader(WmfBitmapBaseHeader value)
 ```
 
 
-يحصل أو يعيّن إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة.
+يحصل أو يضبط إما كائن BitmapCoreHeader (القسم 2.2.2.2) أو كائن BitmapInfoHeader (القسم 2.2.2.3) الذي يحدد معلومات حول الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,7 +65,7 @@ public byte[] getColorsData()
 ```
 
 
-يحصل أو يعيّن مصفوفة اختيارية إما لكائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. يجب تحديد حجم ومحتوى هذا الحقل من سجل الميتافايل أو الكائن الذي يحتوي على DeviceIndependentBitmap ومن المعلومات الموجودة في حقل DIBHeaderInfo. راجع تعداد ColorUsage (القسم 2.1.1.6) وتعداد BitCount (القسم 2.1.1.3) للحصول على تفاصيل إضافية.
+يحصل أو يضبط مصفوفة اختيارية إما من كائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. يجب تحديد حجم ومحتويات هذا الحقل بناءً على سجل الميتافايل أو الكائن الذي يحتوي على هذا DeviceIndependentBitmap ومن المعلومات في حقل DIBHeaderInfo. راجع تعداد ColorUsage (القسم 2.1.1.6) وتعداد BitCount (القسم 2.1.1.3) لمزيد من التفاصيل.
 
 **Returns:**
 byte[]
@@ -75,12 +75,12 @@ public void setColorsData(byte[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة اختيارية إما لكائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. يجب تحديد حجم ومحتوى هذا الحقل من سجل الميتافايل أو الكائن الذي يحتوي على DeviceIndependentBitmap ومن المعلومات الموجودة في حقل DIBHeaderInfo. راجع تعداد ColorUsage (القسم 2.1.1.6) وتعداد BitCount (القسم 2.1.1.3) للحصول على تفاصيل إضافية.
+يحصل أو يضبط مصفوفة اختيارية إما من كائنات RGBQuad (القسم 2.2.2.20) أو أعداد صحيحة غير موقعة 16‑بت تُعرّف جدول ألوان. يجب تحديد حجم ومحتويات هذا الحقل بناءً على سجل الميتافايل أو الكائن الذي يحتوي على هذا DeviceIndependentBitmap ومن المعلومات في حقل DIBHeaderInfo. راجع تعداد ColorUsage (القسم 2.1.1.6) وتعداد BitCount (القسم 2.1.1.3) لمزيد من التفاصيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getAData() {#getAData--}
 ```
@@ -88,7 +88,7 @@ public byte[] getAData()
 ```
 
 
-يحصل أو يعيّن مصفوفة من البايتات التي تُعرّف الصورة. يتم تحديد حجم وشكل هذه البيانات بناءً على المعلومات الموجودة في حقل DIBHeaderInfo.
+يحصل أو يضبط مصفوفة من البايتات التي تُعرّف الصورة. يتم تحديد حجم وشكل هذه البيانات بناءً على المعلومات في حقل DIBHeaderInfo.
 
 **Returns:**
 byte[]
@@ -98,12 +98,12 @@ public void setAData(byte[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من البايتات التي تُعرّف الصورة. يتم تحديد حجم وشكل هذه البيانات بناءً على المعلومات الموجودة في حقل DIBHeaderInfo.
+يحصل أو يضبط مصفوفة من البايتات التي تُعرّف الصورة. يتم تحديد حجم وشكل هذه البيانات بناءً على المعلومات في حقل DIBHeaderInfo.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getCachedImage() {#getCachedImage--}
 ```
@@ -123,12 +123,12 @@ public void setCachedImage(byte[] value)
 ```
 
 
-يعيّن صورة الراستر المخزنة مؤقتًا.
+يضبط صورة الراستر المخزنة مؤقتًا.
 
 القيمة: الصورة المخزنة مؤقتًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

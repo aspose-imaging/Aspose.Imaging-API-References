@@ -1,7 +1,7 @@
 ---
 title: "ComplexTypeBase"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل التجريد الأساسي لنوع القيمة المعقدة XMP."
+description: "يمثل التجريد الأساسي لنوع قيمة XMP Complex."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.xmp.types.complex/complextypebase/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public class ComplexTypeBase extends XmpTypeBase
 ```
 
-يمثل التجريد الأساسي لنوع القيمة المعقدة XMP.
+يمثل التجريد الأساسي لنوع قيمة XMP Complex.
 
-انظر المزيد: XMP Specification Part 2, Chapter 1.2.2
+انظر المزيد: مواصفة XMP الجزء 2، الفصل 1.2.2
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ComplexTypeBase(String prefix, String namespaceUri)](#ComplexTypeBase-java.lang.String-java.lang.String-) | يقوم بتهيئة نسخة جديدة من الفئة `ComplexTypeBase`. |
+| [ComplexTypeBase(String prefix, String namespaceUri)](#ComplexTypeBase-java.lang.String-java.lang.String-) | يُنشئ نسخة جديدة من الفئة `ComplexTypeBase`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPrefix()](#getPrefix--) | يحصل على البادئة. |
-| [getNamespaceUri()](#getNamespaceUri--) | يحصل على URI مساحة الاسم الافتراضية. |
+| [getNamespaceUri()](#getNamespaceUri--) | يحصل على عنوان URI للمساحة الاسمية الافتراضية. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### ComplexTypeBase(String prefix, String namespaceUri) {#ComplexTypeBase-java.lang.String-java.lang.String-}
 ```
@@ -33,13 +33,13 @@ public ComplexTypeBase(String prefix, String namespaceUri)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `ComplexTypeBase`.
+يُنشئ نسخة جديدة من الفئة `ComplexTypeBase`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بادئة | java.lang.String | البادئة. |
-| namespaceUri | java.lang.String | URI مساحة الاسم. |
+| السابقة | java.lang.String | السابقة. |
+| namespaceUri | java.lang.String | معرّف URI للمساحة الاسمية. |
 
 ### getPrefix() {#getPrefix--}
 ```
@@ -57,10 +57,10 @@ public String getNamespaceUri()
 ```
 
 
-يحصل على URI مساحة الاسم الافتراضية.
+يحصل على عنوان URI للمساحة الاسمية الافتراضية.
 
 **Returns:**
-java.lang.String - URI مساحة الاسم الافتراضية.
+java.lang.String - عنوان URI للمساحة الاسمية الافتراضية.
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
 public String getXmpRepresentation()

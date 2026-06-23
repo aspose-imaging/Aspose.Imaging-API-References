@@ -1,7 +1,7 @@
 ---
 title: "WmfPie"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يقوم سجل META_PIE برسم قطعة على شكل فطيرة محصورة بتقاطع إهليلج واثنين من الأشعة."
+description: "سجل META_PIE يرسم شريحة على شكل فطيرة محصورة بتقاطع إهليلج وشعاعين."
 type: docs
 weight: 53
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfpie/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfPie extends WmfRectangle
 ```
 
-يقوم سجل META\_PIE برسم قطعة على شكل فطيرة محصورة بتقاطع إهليلج واثنين من الأشعة. يتم تحديد حدود الفطيرة باستخدام القلم وتعبئتها باستخدام الفرشاة المحددة في سياق جهاز التشغيل.
+سجل META\_PIE يرسم شريحة على شكل فطيرة محصورة بتقاطع إهليلج وشعاعين. يتم تحديد حدود الفطيرة باستخدام القلم وتعبئتها باستخدام الفرشاة المحددة في سياق جهاز التشغيل.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class WmfPie extends WmfRectangle
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRadial2()](#getRadial2--) | يحصل أو يعيّن radial2. |
-| [setRadial2(Point value)](#setRadial2-com.aspose.imaging.Point-) | يحصل أو يعيّن radial2. |
-| [getRadial1()](#getRadial1--) | يحصل أو يعيّن radial1. |
-| [setRadial1(Point value)](#setRadial1-com.aspose.imaging.Point-) | يحصل أو يعيّن radial1. |
+| [getRadial2()](#getRadial2--) | يحصل أو يضبط radial2. |
+| [setRadial2(Point value)](#setRadial2-com.aspose.imaging.Point-) | يحصل أو يضبط radial2. |
+| [getRadial1()](#getRadial1--) | يحصل أو يضبط الـ radial1. |
+| [setRadial1(Point value)](#setRadial1-com.aspose.imaging.Point-) | يحصل أو يضبط الـ radial1. |
 ### WmfPie() {#WmfPie--}
 ```
 public WmfPie()
@@ -38,9 +38,9 @@ public Point getRadial2()
 ```
 
 
-يحصل أو يعيّن radial2.
+يحصل أو يضبط radial2.
 
-القيمة: radial2.
+القيمة: الـ radial2.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -50,9 +50,9 @@ public void setRadial2(Point value)
 ```
 
 
-يحصل أو يعيّن radial2.
+يحصل أو يضبط radial2.
 
-القيمة: radial2.
+القيمة: الـ radial2.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,7 +65,7 @@ public Point getRadial1()
 ```
 
 
-يحصل أو يعيّن radial1.
+يحصل أو يضبط الـ radial1.
 
 القيمة: radial1.
 
@@ -77,7 +77,7 @@ public void setRadial1(Point value)
 ```
 
 
-يحصل أو يعيّن radial1.
+يحصل أو يضبط الـ radial1.
 
 القيمة: radial1.
 

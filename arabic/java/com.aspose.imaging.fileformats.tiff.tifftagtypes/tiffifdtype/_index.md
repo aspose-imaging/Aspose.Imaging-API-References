@@ -1,42 +1,42 @@
 ---
 title: "TiffIfdType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل الفئة نوع دليل ملف صورة TIFF Exif."
+description: "يمثل فئة نوع دليل ملف صورة TIFF Exif."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffIfdType extends TiffCommonArrayType
 ```
 
-يمثل الفئة نوع دليل ملف صورة TIFF Exif.
+يمثل فئة نوع دليل ملف صورة TIFF Exif.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffIfdType(int tagId)](#TiffIfdType-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffIfdType`. |
+| [TiffIfdType(int tagId)](#TiffIfdType-int-) | يقوم بإنشاء نسخة جديدة من الفئة `TiffIfdType`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValues()](#getValues--) | يحصل أو يضبط القيم. |
-| [setValues(long[] value)](#setValues-long---) | يحصل أو يضبط القيم. |
+| [getValues()](#getValues--) | يحصل أو يعيّن القيم. |
+| [setValues(long[] value)](#setValues-long---) | يحصل أو يعيّن القيم. |
 | [getValuesContainer()](#getValuesContainer--) | يحصل على حاوية القيم. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر بالبايت. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffIfdType(int tagId) {#TiffIfdType-int-}
 ```
 public TiffIfdType(int tagId)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffIfdType`.
+يقوم بإنشاء نسخة جديدة من الفئة `TiffIfdType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -49,7 +49,7 @@ public long[] getValues()
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 القيمة: القيم.
 
@@ -61,14 +61,14 @@ public void setValues(long[] value)
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 القيمة: القيم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] |  |
+| value | long[] |  |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -127,7 +127,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object |  |
+| value | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -135,7 +135,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -143,4 +143,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

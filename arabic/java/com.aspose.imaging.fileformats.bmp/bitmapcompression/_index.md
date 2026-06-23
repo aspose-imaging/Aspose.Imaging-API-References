@@ -1,7 +1,7 @@
 ---
 title: "BitmapCompression"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد طرق ضغط الـ bitmap المختلفة."
+description: "يحدد طرق ضغط البت ماب المختلفة."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.bmp/bitmapcompression/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class BitmapCompression extends System.Enum
 ```
 
-يحدد طرق ضغط الـ bitmap المختلفة.
+يحدد طرق ضغط البت ماب المختلفة.
 ## الحقول
 
 | حقل | الوصف |
@@ -35,15 +35,15 @@ String outputPathBmp = "output.bmp";
 // تحميل صورة PNG من ملف.
 try (Image pngImage = Image.load(sourcePath))
 {
-    // يتم حفظ صورة BMP بدعم الشفافية بشكل افتراضي.
-    // إذا كنت تريد تحديد هذا الوضع صراحةً، يجب ضبط خاصية Compression في BmpOptions إلى BitmapCompression.Bitfields.
-    // طريقة الضغط BitmapCompression.Bitfields هي طريقة الضغط الافتراضية في BmpOptions.
-    // لذلك يمكن تحقيق نفس نتيجة تصدير صورة Bmp مع الشفافية بأحد الطرق التالية.
+    // يتم حفظ صورة BMP بدعم الشفافية افتراضيًا.
+    // إذا كنت تريد تحديد هذا الوضع صراحةً، يجب تعيين خاصية Compression في BmpOptions إلى BitmapCompression.Bitfields.
+    // طريقة ضغط BitmapCompression.Bitfields هي طريقة الضغط الافتراضية في BmpOptions.
+    // لذلك يمكن تحقيق نفس نتيجة تصدير صورة Bmp مع الشفافية إما بإحدى الطرق التالية.
     // مع خيارات افتراضية ضمنية:
     pngImage.save(outputPathPng);
     // مع خيارات افتراضية صريحة:
     pngImage.save(outputPathBmp, new BmpOptions());
-    // تحديد طريقة الضغط BitmapCompression.Bitfields:
+    // تحديد طريقة ضغط BitmapCompression.Bitfields:
     pngImage.save(outputPathBmp, new BmpOptions() {{ setCompression(BitmapCompression.Bitfields); }});
 }
 ```
@@ -57,8 +57,8 @@ String outputPath = "output.bmp";
 // تحميل صورة PNG من ملف.
 try (Image pngImage = Image.load(sourcePath))
 {
-    // يتم حفظ صورة BMP بدعم الشفافية بشكل افتراضي، ويتم ذلك باستخدام طريقة الضغط BitmapCompression.Bitfields.
-    // لحفظ صورة BMP باستخدام طريقة الضغط Rgb، يجب تحديد BmpOptions مع خاصية Compression مضبوطة على BitmapCompression.Rgb.
+    // يتم حفظ صورة BMP بدعم الشفافية افتراضيًا، ويتم ذلك باستخدام طريقة ضغط BitmapCompression.Bitfields.
+    // لحفظ صورة BMP باستخدام طريقة ضغط Rgb، يجب تحديد BmpOptions مع خاصية Compression مضبوطة على BitmapCompression.Rgb.
     pngImage.save(outputPath, new BmpOptions()
     {{
         setCompression(BitmapCompression.Rgb);
@@ -80,7 +80,7 @@ public static final long Rle8
 ```
 
 
-ضغط RLE 8-بت/بكسل. يمكن استخدامه فقط مع صور bitmap ذات 8-بت/بكسل.
+ضغط RLE 8-بت/بكسل. يمكن استخدامه فقط مع صور bitmap بدقة 8-بت/بكسل.
 
 ### Rle4 {#Rle4}
 ```
@@ -88,7 +88,7 @@ public static final long Rle4
 ```
 
 
-ضغط RLE 4-بت/بكسل. يمكن استخدامه فقط مع صور bitmap ذات 4-بت/بكسل.
+ضغط RLE 4-بت/بكسل. يمكن استخدامه فقط مع صور bitmap بدقة 4-بت/بكسل.
 
 ### Bitfields {#Bitfields}
 ```
@@ -96,7 +96,7 @@ public static final long Bitfields
 ```
 
 
-حقول بت RGB. يمكن استخدامها فقط مع صور bitmap ذات 16 و 32-بت/بكسل.
+حقول بت RGB. يمكن استخدامها فقط مع صور bitmap بدقة 16 و 32-بت/بكسل.
 
 ### Jpeg {#Jpeg}
 ```
@@ -120,7 +120,7 @@ public static final long AlphaBitfields
 ```
 
 
-حقول بت RGBA. يمكن استخدامها فقط مع صور bitmap ذات 16 و 32-بت/بكسل.
+حقول بت RGBA. يمكن استخدامها فقط مع صور bitmap بدقة 16 و 32-بت/بكسل.
 
 ### Dxt1 {#Dxt1}
 ```

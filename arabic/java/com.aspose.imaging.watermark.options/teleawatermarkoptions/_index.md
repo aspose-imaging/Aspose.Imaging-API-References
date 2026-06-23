@@ -7,7 +7,7 @@ weight: 11
 url: /ar/java/com.aspose.imaging.watermark.options/teleawatermarkoptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.watermark.options.WatermarkOptions](../../com.aspose.imaging.watermark.options/watermarkoptions)
+java.lang.Object، [com.aspose.imaging.watermark.options.WatermarkOptions](../../com.aspose.imaging.watermark.options/watermarkoptions)
 ```
 public class TeleaWatermarkOptions extends WatermarkOptions
 ```
@@ -100,5 +100,5 @@ public final void setHalfPatchSize(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نصف حجم الرقعة. |
+| value | int | نصف حجم الرقعة. |
 

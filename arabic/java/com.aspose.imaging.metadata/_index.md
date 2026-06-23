@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.metadata/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ImageMetadata](../com.aspose.imaging.metadata/imagemetadata) | فئة البيانات الوصفية للصورة. |
 

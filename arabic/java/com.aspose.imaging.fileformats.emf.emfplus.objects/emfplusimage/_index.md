@@ -22,10 +22,10 @@ public final class EmfPlusImage extends EmfPlusGraphicsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getImageData()](#getImageData--) | يحصل أو يضبط بيانات الصورة Variable-length التي تحدد بيانات الصورة المحددة في الحقل Type. |
-| [setImageData(EmfPlusBaseImageData value)](#setImageData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseImageData-) | يحصل أو يضبط بيانات الصورة Variable-length التي تحدد بيانات الصورة المحددة في الحقل Type. |
-| [getType()](#getType--) | يحصل أو يضبط نوع الصورة عدد صحيح غير موقع 32-بت يحدد نوع البيانات في حقل ImageData. |
-| [setType(int value)](#setType-int-) | يحصل أو يضبط نوع الصورة عدد صحيح غير موقع 32-بت يحدد نوع البيانات في حقل ImageData. |
+| [getImageData()](#getImageData--) | يحصل أو يعيّن بيانات Image المتغيرة الطول التي تحدد بيانات الصورة المحددة في الحقل Type. |
+| [setImageData(EmfPlusBaseImageData value)](#setImageData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseImageData-) | يحصل أو يعيّن بيانات Image المتغيرة الطول التي تحدد بيانات الصورة المحددة في الحقل Type. |
+| [getType()](#getType--) | يحصل أو يعيّن نوع الصورة عدد صحيح غير موقع 32‑بت يحدد نوع البيانات في حقل ImageData. |
+| [setType(int value)](#setType-int-) | يحصل أو يعيّن نوع الصورة عدد صحيح غير موقع 32‑بت يحدد نوع البيانات في حقل ImageData. |
 ### EmfPlusImage() {#EmfPlusImage--}
 ```
 public EmfPlusImage()
@@ -38,7 +38,7 @@ public EmfPlusBaseImageData getImageData()
 ```
 
 
-يحصل أو يضبط بيانات الصورة Variable-length التي تحدد بيانات الصورة المحددة في الحقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع صورة.
+يحصل أو يعيّن بيانات Image المتغيرة الطول التي تحدد بيانات الصورة المحددة في الحقل Type. يمكن أن يكون محتوى البيانات وتنسيقها مختلفين لكل نوع صورة.
 
 **Returns:**
 [EmfPlusBaseImageData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusbaseimagedata)
@@ -48,7 +48,7 @@ public void setImageData(EmfPlusBaseImageData value)
 ```
 
 
-يحصل أو يضبط بيانات الصورة Variable-length التي تحدد بيانات الصورة المحددة في الحقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع صورة.
+يحصل أو يعيّن بيانات Image المتغيرة الطول التي تحدد بيانات الصورة المحددة في الحقل Type. يمكن أن يكون محتوى البيانات وتنسيقها مختلفين لكل نوع صورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -61,7 +61,7 @@ public int getType()
 ```
 
 
-يحصل أو يعيّن نوع الصورة كعدد صحيح غير موقع 32‑بت يحدد نوع البيانات في حقل ImageData. يجب أن تكون هذه القيمة معرفة في تعداد ImageDataType (القسم 2.1.1.15).
+يحصل أو يعيّن نوع الصورة عدد صحيح غير موقع 32‑بت يحدد نوع البيانات في حقل ImageData. يجب أن تكون هذه القيمة معرفة في تعداد ImageDataType (القسم 2.1.1.15).
 
 **Returns:**
 int
@@ -71,10 +71,10 @@ public void setType(int value)
 ```
 
 
-يحصل أو يعيّن نوع الصورة كعدد صحيح غير موقع 32‑بت يحدد نوع البيانات في حقل ImageData. يجب أن تكون هذه القيمة معرفة في تعداد ImageDataType (القسم 2.1.1.15).
+يحصل أو يعيّن نوع الصورة عدد صحيح غير موقع 32‑بت يحدد نوع البيانات في حقل ImageData. يجب أن تكون هذه القيمة معرفة في تعداد ImageDataType (القسم 2.1.1.15).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

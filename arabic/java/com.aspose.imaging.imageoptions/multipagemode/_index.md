@@ -21,7 +21,7 @@ public final class MultiPageMode extends System.Enum
 | [Titles](#Titles) | عناوين الصفحات المستخدمة |
 | [Range](#Range) | نطاق الصفحات المستخدمة |
 | [TimeInterval](#TimeInterval) | الصفحات المستخدمة في الفاصل الزمني |
-| [AllPages](#AllPages) | استخدام جميع الصفحات |
+| [AllPages](#AllPages) | جميع الصفحات المستخدمة |
 ### Pages {#Pages}
 ```
 public static final int Pages
@@ -60,5 +60,5 @@ public static final int AllPages
 ```
 
 
-استخدام جميع الصفحات
+جميع الصفحات المستخدمة
 

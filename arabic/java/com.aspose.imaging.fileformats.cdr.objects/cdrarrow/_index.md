@@ -1,7 +1,7 @@
 ---
 title: "CdrArrow"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السهم cdr"
+description: "سهم cdr"
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrarrow/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrArrow extends CdrDictionaryItem
 ```
 
-السهم cdr
+سهم cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -76,5 +76,5 @@ public final void setPointTypes(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | أنواع النقاط. |
+| value | byte[] | أنواع النقاط. |
 

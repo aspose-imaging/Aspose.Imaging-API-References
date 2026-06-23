@@ -1,7 +1,7 @@
 ---
 title: "ExifMeteringMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قوائم تعداد وضع القياس في EXIF."
+description: "قوائم تعداد وضع القياس للـ exif."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.imaging.exif.enums/exifmeteringmode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifMeteringMode extends System.Enum
 ```
 
-قوائم تعداد وضع القياس في EXIF.
+قوائم تعداد وضع القياس للـ exif.
 ## الحقول
 
 | حقل | الوصف |
@@ -20,11 +20,11 @@ public final class ExifMeteringMode extends System.Enum
 | [Unknown](#Unknown) | وضع غير معرف |
 | [Average](#Average) | قياس متوسط |
 | [Centerweightedaverage](#Centerweightedaverage) | متوسط موزون مركزي. |
-| [Spot](#Spot) | قياس نقطة |
-| [MultiSpot](#MultiSpot) | قياس نقاط متعددة |
-| [MultiSegment](#MultiSegment) | قياس مقاطع متعددة. |
-| [Partial](#Partial) | قياس جزئي. |
-| [Other](#Other) | لأوضاع أخرى. |
+| [Spot](#Spot) | القياس النقطي |
+| [MultiSpot](#MultiSpot) | القياس المتعدد النقط |
+| [MultiSegment](#MultiSegment) | القياس المتعدد القطاعات. |
+| [Partial](#Partial) | القياس الجزئي. |
+| [Other](#Other) | لأنماط أخرى. |
 ### Unknown {#Unknown}
 ```
 public static final int Unknown
@@ -55,7 +55,7 @@ public static final int Spot
 ```
 
 
-قياس نقطة
+القياس النقطي
 
 ### MultiSpot {#MultiSpot}
 ```
@@ -63,7 +63,7 @@ public static final int MultiSpot
 ```
 
 
-قياس نقاط متعددة
+القياس المتعدد النقط
 
 ### MultiSegment {#MultiSegment}
 ```
@@ -71,7 +71,7 @@ public static final int MultiSegment
 ```
 
 
-قياس مقاطع متعددة.
+القياس المتعدد القطاعات.
 
 ### Partial {#Partial}
 ```
@@ -79,7 +79,7 @@ public static final int Partial
 ```
 
 
-قياس جزئي.
+القياس الجزئي.
 
 ### Other {#Other}
 ```
@@ -87,5 +87,5 @@ public static final int Other
 ```
 
 
-لأوضاع أخرى.
+لأنماط أخرى.
 

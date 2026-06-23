@@ -1,7 +1,7 @@
 ---
 title: "CdrSpnd"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr مدى"
+description: "امتداد cdr"
 type: docs
 weight: 38
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrspnd/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrSpnd extends CdrDictionaryItem
 ```
 
-ال cdr مدى
+امتداد cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -51,5 +51,5 @@ public final void setValue(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة. |
+| value | int | القيمة. |
 

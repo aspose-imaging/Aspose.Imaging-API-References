@@ -7,7 +7,7 @@ weight: 64
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfrestoredc/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfRestoreDc extends WmfObject
 ```
@@ -22,8 +22,8 @@ public class WmfRestoreDc extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getNSavedDc()](#getNSavedDc--) | يحصل أو يضبط n saved dc. |
-| [setNSavedDc(short value)](#setNSavedDc-short-) | يحصل أو يضبط n saved dc. |
+| [getNSavedDc()](#getNSavedDc--) | يحصل أو يعيّن n saved dc. |
+| [setNSavedDc(short value)](#setNSavedDc-short-) | يحصل أو يعيّن n saved dc. |
 ### WmfRestoreDc() {#WmfRestoreDc--}
 ```
 public WmfRestoreDc()
@@ -36,24 +36,24 @@ public short getNSavedDc()
 ```
 
 
-يحصل أو يضبط n saved dc.
+يحصل أو يعيّن n saved dc.
 
 القيمة: الحالة المحفوظة التي سيتم استعادتها. إذا كان هذا العضو إيجابيًا، فإن nSavedDC يمثل نسخة محددة من الحالة التي سيتم استعادتها. إذا كان هذا العضو سالبًا، فإن nSavedDC يمثل نسخة نسبية إلى الحالة الحالية.
 
 **Returns:**
-short
+قصير
 ### setNSavedDc(short value) {#setNSavedDc-short-}
 ```
 public void setNSavedDc(short value)
 ```
 
 
-يحصل أو يضبط n saved dc.
+يحصل أو يعيّن n saved dc.
 
 القيمة: الحالة المحفوظة التي سيتم استعادتها. إذا كان هذا العضو إيجابيًا، فإن nSavedDC يمثل نسخة محددة من الحالة التي سيتم استعادتها. إذا كان هذا العضو سالبًا، فإن nSavedDC يمثل نسخة نسبية إلى الحالة الحالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

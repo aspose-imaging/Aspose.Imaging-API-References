@@ -1,18 +1,18 @@
 ---
 title: "CdrObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr كائن"
+description: "كائن cdr"
 type: docs
 weight: 27
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrobject/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
 public abstract class CdrObject extends DisposableObject
 ```
 
-ال cdr كائن
+كائن cdr
 ## المنشئات
 
 | المنشئ | الوصف |

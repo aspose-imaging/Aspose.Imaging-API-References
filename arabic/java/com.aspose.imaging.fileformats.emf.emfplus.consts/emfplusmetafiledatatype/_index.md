@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusMetafileDataType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد تعداد MetafileDataType أنواع بيانات ملفات الميتا التي يمكن تضمينها في ملف EMF."
+description: "تحدد تعداد MetafileDataType أنواع بيانات ملفات الميتا التي يمكن تضمينها في ملف ميتا EMF."
 type: docs
 weight: 34
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfplusmetafiledatatype/
@@ -25,7 +25,7 @@ public final class EmfPlusMetafileDataType extends System.Enum
 | [MetafileDataTypeWmfPlaceable](#MetafileDataTypeWmfPlaceable) | يحدد أن ملف الميتا هو ملف WMF يحدد عمليات الرسومات باستخدام سجلات WMF، ويحتوي على معلومات رأس إضافية تجعل ملف WMF غير معتمد على الجهاز، كما هو موضح في [MS-WMF]. |
 | [MetafileDataTypeEmf](#MetafileDataTypeEmf) | يحدد أن ملف الميتا هو ملف EMF يحدد عمليات الرسومات باستخدام سجلات EMF، كما هو موضح في [MS-EMF]. |
 | [MetafileDataTypeEmfPlusOnly](#MetafileDataTypeEmfPlusOnly) | يحدد أن ملف الميتا هو ملف EMF+ يحدد عمليات الرسومات باستخدام سجلات EMF+ فقط. |
-| [MetafileDataTypeEmfPlusDual](#MetafileDataTypeEmfPlusDual) | يحدد أن ملف الميتا هو ملف EMF+ يحدد عمليات الرسومات باستخدام كل من سجلات EMF و EMF+. |
+| [MetafileDataTypeEmfPlusDual](#MetafileDataTypeEmfPlusDual) | يحدد أن ملف الميتا هو ملف EMF+ يحدد عمليات الرسومات باستخدام سجلات EMF و EMF+ معًا. |
 ### MetafileDataTypeWmf {#MetafileDataTypeWmf}
 ```
 public static final int MetafileDataTypeWmf
@@ -64,5 +64,5 @@ public static final int MetafileDataTypeEmfPlusDual
 ```
 
 
-يحدد أن ملف الميتا هو ملف EMF+ يحدد عمليات الرسومات باستخدام كل من سجلات EMF و EMF+.
+يحدد أن ملف الميتا هو ملف EMF+ يحدد عمليات الرسومات باستخدام سجلات EMF و EMF+ معًا.
 

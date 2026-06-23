@@ -1,5 +1,5 @@
 ---
-title: "صورة مصغرة"
+title: "Thumbnail"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يمثل صورة مصغرة لملف."
 type: docs
@@ -17,8 +17,8 @@ public final class Thumbnail extends ComplexTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Thumbnail()](#Thumbnail--) | يُنشئ مثيلًا جديدًا من الفئة `Thumbnail`. |
-| [Thumbnail(int width, int height)](#Thumbnail-int-int-) | يُنشئ مثيلًا جديدًا من الفئة `Thumbnail`. |
+| [Thumbnail()](#Thumbnail--) | يقوم بتهيئة نسخة جديدة من الفئة `Thumbnail`. |
+| [Thumbnail(int width, int height)](#Thumbnail-int-int-) | يقوم بتهيئة نسخة جديدة من الفئة `Thumbnail`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -27,8 +27,8 @@ public final class Thumbnail extends ComplexTypeBase
 | [setWidth(int value)](#setWidth-int-) | يحصل أو يعيّن العرض. |
 | [getHeight()](#getHeight--) | يحصل أو يعيّن الارتفاع. |
 | [setHeight(int value)](#setHeight-int-) | يحصل أو يعيّن الارتفاع. |
-| [getImageBase64()](#getImageBase64--) | يحصل أو يضبط الصورة بتنسيق base64. |
-| [setImageBase64(String value)](#setImageBase64-java.lang.String-) | يحصل أو يضبط الصورة بتنسيق base64. |
+| [getImageBase64()](#getImageBase64--) | يحصل أو يعيّن الصورة بتنسيق base64. |
+| [setImageBase64(String value)](#setImageBase64-java.lang.String-) | يحصل أو يعيّن الصورة بتنسيق base64. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### Thumbnail() {#Thumbnail--}
 ```
@@ -36,7 +36,7 @@ public Thumbnail()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `Thumbnail`.
+يقوم بتهيئة نسخة جديدة من الفئة `Thumbnail`.
 
 ### Thumbnail(int width, int height) {#Thumbnail-int-int-}
 ```
@@ -44,13 +44,13 @@ public Thumbnail(int width, int height)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `Thumbnail`.
+يقوم بتهيئة نسخة جديدة من الفئة `Thumbnail`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -73,7 +73,7 @@ public void setWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -96,7 +96,7 @@ public void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getImageBase64() {#getImageBase64--}
 ```
@@ -104,7 +104,7 @@ public String getImageBase64()
 ```
 
 
-يحصل أو يضبط الصورة بتنسيق base64.
+يحصل أو يعيّن الصورة بتنسيق base64.
 
 القيمة: الصورة بتنسيق base64.
 
@@ -116,14 +116,14 @@ public void setImageBase64(String value)
 ```
 
 
-يحصل أو يضبط الصورة بتنسيق base64.
+يحصل أو يعيّن الصورة بتنسيق base64.
 
 القيمة: الصورة بتنسيق base64.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

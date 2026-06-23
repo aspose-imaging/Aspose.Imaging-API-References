@@ -7,7 +7,7 @@ weight: 39
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdCurveTo](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto)
+java.lang.Object, [com.aspose.imaging.fileformats.openddocument.OdObject](../../com.aspose.imaging.fileformats.openddocument/odobject), [com.aspose.imaging.fileformats.openddocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.openddocument.objects.graphic/odgraphicobject), [com.aspose.imaging.fileformats.openddocument.objects.graphic.OdCurveTo](../../com.aspose.imaging.fileformats.openddocument.objects.graphic/odcurveto)
 ```
 public class OdShortCurveTo extends OdCurveTo
 ```
@@ -29,5 +29,5 @@ public OdShortCurveTo(OdObject parent)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 

@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.pdf/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [PdfCoreOptions](../com.aspose.imaging.fileformats.pdf/pdfcoreoptions) | الخيارات الشائعة للتحويل إلى PDF |
 | [PdfDocumentInfo](../com.aspose.imaging.fileformats.pdf/pdfdocumentinfo) | هذه الفئة تمثل مجموعة من البيانات الوصفية لوصف المستند. |

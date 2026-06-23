@@ -7,7 +7,7 @@ weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.objects.brush.OdBrush](../../com.aspose.imaging.fileformats.openddocument.objects.brush/odbrush)
+java.lang.Object, [com.aspose.imaging.fileformats.opendocument.objects.brush.OdBrush](../../com.aspose.imaging.fileformats.opendocument.objects.brush/odbrush)
 ```
 public class OdPatternBrush extends OdBrush
 ```
@@ -25,7 +25,7 @@ public class OdPatternBrush extends OdBrush
 | [getPattern()](#getPattern--) | يحصل على النمط. |
 | [setPattern(byte[] value)](#setPattern-byte---) | يضبط النمط. |
 | [getBrushStyle()](#getBrushStyle--) | يحصل على النمط. |
-| [deepClone()](#deepClone--) | استنسخ هذا الكائن. |
+| [deepClone()](#deepClone--) | استنساخ هذا الكائن. |
 ### OdPatternBrush() {#OdPatternBrush--}
 ```
 public OdPatternBrush()
@@ -53,7 +53,7 @@ public final void setPattern(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | النمط. |
+| value | byte[] | النمط. |
 
 ### getBrushStyle() {#getBrushStyle--}
 ```
@@ -71,7 +71,7 @@ public Object deepClone()
 ```
 
 
-استنسخ هذا الكائن.
+استنساخ هذا الكائن.
 
 **Returns:**
-java.lang.Object - إرجاع نسخة جديدة من فرشاة المصدر
+java.lang.Object - العنصر الجديد المعاد من فرشاة المصدر

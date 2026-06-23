@@ -1,7 +1,7 @@
 ---
 title: "CdrRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مع القدرة على تنفيذ تحويل صور CDR إلى نقطية وتعيين عوامل المقياس لكل من البعدين X و Y، يوفر هذا API تحكمًا دقيقًا في عملية التحويل."
+description: "مع القدرة على تنفيذ تحويل صور CDR إلى نقطية وتعيين عوامل القياس لكل من البعدين X و Y، يوفر هذا API تحكمًا دقيقًا في عملية التحويل."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.imageoptions/cdrrasterizationoptions/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class CdrRasterizationOptions extends VectorRasterizationOptions
 ```
 
-مع القدرة على تنفيذ تحويل صور CDR إلى نقطية وتعيين عوامل المقياس لكل من البعدين X و Y، يوفر هذا API تحكمًا دقيقًا في عملية التحويل. سواءً كان ذلك لتعديل الحجم وفق متطلبات الإخراج المحددة أو لتحويل الرسومات المتجهية إلى صيغ نقطية، يمكنك الاستفادة من هذا API لإجراء تحويل فعال وقابل للتخصيص من متجهات CDR إلى صور نقطية.
+مع القدرة على تنفيذ تحويل صور CDR إلى نقطية وتعيين عوامل القياس لكل من البعدين X و Y، يوفر هذا API تحكمًا دقيقًا في عملية التحويل. سواءً كان ذلك لتلبية متطلبات إخراج محددة أو لتحويل الرسومات المتجهة إلى صيغ نقطية، يمكنك الاستفادة من هذا API لإجراء تحويل فعال وقابل للتخصيص من متجهات CDR إلى صور نقطية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CdrRasterizationOptions()](#CdrRasterizationOptions--) | ينشئ مثيلًا جديدًا من الفئة [CdrRasterizationOptions](../../com.aspose.imaging.imageoptions/cdrrasterizationoptions). |
+| [CdrRasterizationOptions()](#CdrRasterizationOptions--) | يقوم بتهيئة نسخة جديدة من الفئة [CdrRasterizationOptions](../../com.aspose.imaging.imageoptions/cdrrasterizationoptions). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public CdrRasterizationOptions()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة [CdrRasterizationOptions](../../com.aspose.imaging.imageoptions/cdrrasterizationoptions).
+يقوم بتهيئة نسخة جديدة من الفئة [CdrRasterizationOptions](../../com.aspose.imaging.imageoptions/cdrrasterizationoptions).
 
 ### getScaleX() {#getScaleX--}
 ```

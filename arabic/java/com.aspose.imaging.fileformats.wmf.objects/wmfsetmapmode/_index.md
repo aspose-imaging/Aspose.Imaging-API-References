@@ -7,7 +7,7 @@ weight: 77
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetmapmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetMapMode extends WmfObject
 ```
@@ -22,8 +22,8 @@ public class WmfSetMapMode extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMapMode()](#getMapMode--) | يحصل أو يعيّن وضع الخريطة. |
-| [setMapMode(short value)](#setMapMode-short-) | يحصل أو يعيّن وضع الخريطة. |
+| [getMapMode()](#getMapMode--) | يحصل أو يعيّن وضعية الخريطة. |
+| [setMapMode(short value)](#setMapMode-short-) | يحصل أو يعيّن وضعية الخريطة. |
 ### WmfSetMapMode() {#WmfSetMapMode--}
 ```
 public WmfSetMapMode()
@@ -36,24 +36,24 @@ public short getMapMode()
 ```
 
 
-يحصل أو يعيّن وضع الخريطة.
+يحصل أو يعيّن وضعية الخريطة.
 
 القيمة: وضع الخريطة.
 
 **Returns:**
-short
+قصير
 ### setMapMode(short value) {#setMapMode-short-}
 ```
 public void setMapMode(short value)
 ```
 
 
-يحصل أو يعيّن وضع الخريطة.
+يحصل أو يعيّن وضعية الخريطة.
 
 القيمة: وضع الخريطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

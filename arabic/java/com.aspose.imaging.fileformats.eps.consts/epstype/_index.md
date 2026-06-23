@@ -17,15 +17,15 @@ public final class EpsType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Binary](#Binary) | EPS ثنائي |
-| [Interchange](#Interchange) | EPS تبادل |
+| [Binary](#Binary) | EPS Binary |
+| [Interchange](#Interchange) | EPS Interchange |
 ### Binary {#Binary}
 ```
 public static final short Binary
 ```
 
 
-EPS ثنائي
+EPS Binary
 
 ### Interchange {#Interchange}
 ```
@@ -33,5 +33,5 @@ public static final short Interchange
 ```
 
 
-EPS تبادل
+EPS Interchange
 

@@ -17,7 +17,7 @@ public final class TiffASCIIType extends TiffDataType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffASCIIType(int tagId)](#TiffASCIIType-int-) | ينشئ مثيلاً جديداً من الفئة `TiffASCIIType`. |
+| [TiffASCIIType(int tagId)](#TiffASCIIType-int-) | ينشئ مثلاً جديداً من الفئة `TiffASCIIType`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,14 +28,14 @@ public final class TiffASCIIType extends TiffDataType
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffASCIIType(int tagId) {#TiffASCIIType-int-}
 ```
 public TiffASCIIType(int tagId)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffASCIIType`.
+ينشئ مثلاً جديداً من الفئة `TiffASCIIType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public void setText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | النص. |
+| value | java.lang.String | النص. |
 
 ### getCount() {#getCount--}
 ```
@@ -84,7 +84,7 @@ public int getTagType()
 يحصل على نوع العلامة.
 
 **Returns:**
-int - نوع الوسم.
+int - نوع العلامة.
 ### getValue() {#getValue--}
 ```
 public Object getValue()
@@ -106,7 +106,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | القيمة. |
+| value | java.lang.Object | القيمة. |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -114,7 +114,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -122,4 +122,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

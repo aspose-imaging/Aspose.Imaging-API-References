@@ -1,7 +1,7 @@
 ---
 title: "OdGraphicStyle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نمط الرسوميات للمستند المفتوح."
+description: "نمط الرسومات للمستند المفتوح."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
@@ -12,7 +12,7 @@ java.lang.Object
 public class OdGraphicStyle
 ```
 
-نمط الرسوميات للمستند المفتوح.
+نمط الرسومات للمستند المفتوح.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -26,8 +26,8 @@ public class OdGraphicStyle
 | [setBrush(OdBrush value)](#setBrush-com.aspose.imaging.fileformats.opendocument.objects.brush.OdBrush-) | الفرشاة. |
 | [getPen()](#getPen--) | يحصل على القلم. |
 | [getFont()](#getFont--) | يحصل على الخط. |
-| [getTextColor()](#getTextColor--) | يحصل أو يعيّن لون النص. |
-| [setTextColor(int value)](#setTextColor-int-) | يحصل أو يعيّن لون النص. |
+| [getTextColor()](#getTextColor--) | يحصل أو يضبط لون النص. |
+| [setTextColor(int value)](#setTextColor-int-) | يحصل أو يضبط لون النص. |
 | [getTextAlign()](#getTextAlign--) | يحصل على محاذاة النص. |
 | [setTextAlign(int value)](#setTextAlign-int-) | يضبط محاذاة النص. |
 | [getLineHeight()](#getLineHeight--) | يحصل أو يضبط ارتفاع السطر. |
@@ -37,10 +37,10 @@ public class OdGraphicStyle
 | [setStartMarker(OdMarker value)](#setStartMarker-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdMarker-) | يحصل أو يضبط علامة البداية. |
 | [getEndMarker()](#getEndMarker--) | يحصل أو يضبط علامة النهاية. |
 | [setEndMarker(OdMarker value)](#setEndMarker-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdMarker-) | يحصل أو يضبط علامة النهاية. |
-| [getStartMarkerWidth()](#getStartMarkerWidth--) | يحصل أو يضبط عرض البداية للعلامة. |
-| [setStartMarkerWidth(float value)](#setStartMarkerWidth-float-) | يحصل أو يضبط عرض البداية للعلامة. |
-| [getEndMarkerWidth()](#getEndMarkerWidth--) | يحصل أو يضبط عرض النهاية للعلامة. |
-| [setEndMarkerWidth(float value)](#setEndMarkerWidth-float-) | يحصل أو يضبط عرض النهاية للعلامة. |
+| [getStartMarkerWidth()](#getStartMarkerWidth--) | يحصل أو يضبط عرض بداية العلامة. |
+| [setStartMarkerWidth(float value)](#setStartMarkerWidth-float-) | يحصل أو يضبط عرض بداية العلامة. |
+| [getEndMarkerWidth()](#getEndMarkerWidth--) | يحصل أو يضبط عرض نهاية العلامة. |
+| [setEndMarkerWidth(float value)](#setEndMarkerWidth-float-) | يحصل أو يضبط عرض نهاية العلامة. |
 | [getOpacity()](#getOpacity--) | يحصل أو يضبط الشفافية. |
 | [setOpacity(int value)](#setOpacity-int-) | يحصل أو يضبط الشفافية. |
 | [getSpaceBefore()](#getSpaceBefore--) | يحصل أو يضبط المسافة قبل. |
@@ -65,7 +65,7 @@ public class OdGraphicStyle
 | [setMeasureLineDistance(float value)](#setMeasureLineDistance-float-) | يحصل أو يضبط مسافة خط القياس. |
 | [getStylePosition()](#getStylePosition--) | يحصل أو يضبط موضع النمط. |
 | [setStylePosition(float value)](#setStylePosition-float-) | يحصل أو يضبط موضع النمط. |
-| [copy()](#copy--) | ينسخ هذه الحالة. |
+| [copy()](#copy--) | ينسخ هذا الكائن. |
 ### OdGraphicStyle() {#OdGraphicStyle--}
 ```
 public OdGraphicStyle()
@@ -125,7 +125,7 @@ public int getTextColor()
 ```
 
 
-يحصل أو يعيّن لون النص.
+يحصل أو يضبط لون النص.
 
 **Returns:**
 int - لون النص.
@@ -135,12 +135,12 @@ public void setTextColor(int value)
 ```
 
 
-يحصل أو يعيّن لون النص.
+يحصل أو يضبط لون النص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | لون النص. |
+| value | int | لون النص. |
 
 ### getTextAlign() {#getTextAlign--}
 ```
@@ -163,7 +163,7 @@ public final void setTextAlign(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | محاذاة النص. |
+| value | int | محاذاة النص. |
 
 ### getLineHeight() {#getLineHeight--}
 ```
@@ -186,7 +186,7 @@ public void setLineHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | ارتفاع السطر. |
+| value | int | ارتفاع السطر. |
 
 ### getTransformInfo() {#getTransformInfo--}
 ```
@@ -250,7 +250,7 @@ public float getStartMarkerWidth()
 ```
 
 
-يحصل أو يضبط عرض البداية للعلامة.
+يحصل أو يضبط عرض بداية العلامة.
 
 **Returns:**
 float - عرض البداية للعلامة.
@@ -260,12 +260,12 @@ public void setStartMarkerWidth(float value)
 ```
 
 
-يحصل أو يضبط عرض البداية للعلامة.
+يحصل أو يضبط عرض بداية العلامة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض البداية للعلامة. |
+| value | float | عرض البداية للعلامة. |
 
 ### getEndMarkerWidth() {#getEndMarkerWidth--}
 ```
@@ -273,7 +273,7 @@ public float getEndMarkerWidth()
 ```
 
 
-يحصل أو يضبط عرض النهاية للعلامة.
+يحصل أو يضبط عرض نهاية العلامة.
 
 **Returns:**
 float - عرض النهاية للعلامة.
@@ -283,12 +283,12 @@ public void setEndMarkerWidth(float value)
 ```
 
 
-يحصل أو يضبط عرض النهاية للعلامة.
+يحصل أو يضبط عرض نهاية العلامة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض النهاية للعلامة. |
+| value | float | عرض النهاية للعلامة. |
 
 ### getOpacity() {#getOpacity--}
 ```
@@ -311,7 +311,7 @@ public void setOpacity(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الشفافية. |
+| value | int | الشفافية. |
 
 ### getSpaceBefore() {#getSpaceBefore--}
 ```
@@ -334,7 +334,7 @@ public void setSpaceBefore(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | المسافة قبل. |
+| value | float | المسافة قبل. |
 
 ### getPaddingTop() {#getPaddingTop--}
 ```
@@ -357,7 +357,7 @@ public void setPaddingTop(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحشو العلوي. |
+| value | float | الحشو العلوي. |
 
 ### getPaddingLeft() {#getPaddingLeft--}
 ```
@@ -380,7 +380,7 @@ public void setPaddingLeft(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحشو الأيسر. |
+| value | float | الحشو الأيسر. |
 
 ### getPaddingRight() {#getPaddingRight--}
 ```
@@ -403,7 +403,7 @@ public void setPaddingRight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحشو الأيمن. |
+| value | float | الحشو الأيمن. |
 
 ### getPaddingBottom() {#getPaddingBottom--}
 ```
@@ -426,7 +426,7 @@ public void setPaddingBottom(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحشو السفلي. |
+| value | float | الحشو السفلي. |
 
 ### getMarginBottom() {#getMarginBottom--}
 ```
@@ -449,7 +449,7 @@ public void setMarginBottom(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الهامش السفلي. |
+| value | float | الهامش السفلي. |
 
 ### getMarginTop() {#getMarginTop--}
 ```
@@ -472,7 +472,7 @@ public void setMarginTop(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الهامش العلوي. |
+| value | float | الهامش العلوي. |
 
 ### getStartGuide() {#getStartGuide--}
 ```
@@ -495,7 +495,7 @@ public void setStartGuide(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | دليل البداية. |
+| value | float | دليل البداية. |
 
 ### getEndGuide() {#getEndGuide--}
 ```
@@ -506,7 +506,7 @@ public float getEndGuide()
 يحصل أو يضبط دليل النهاية.
 
 **Returns:**
-float - الدليل النهائي.
+float - دليل النهاية.
 ### setEndGuide(float value) {#setEndGuide-float-}
 ```
 public void setEndGuide(float value)
@@ -518,7 +518,7 @@ public void setEndGuide(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الدليل النهائي. |
+| value | float | دليل النهاية. |
 
 ### getMeasureLineDistance() {#getMeasureLineDistance--}
 ```
@@ -541,7 +541,7 @@ public void setMeasureLineDistance(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | مسافة خط القياس. |
+| value | float | مسافة خط القياس. |
 
 ### getStylePosition() {#getStylePosition--}
 ```
@@ -564,7 +564,7 @@ public void setStylePosition(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | موضع النمط. |
+| value | float | موضع النمط. |
 
 ### copy() {#copy--}
 ```
@@ -572,7 +572,7 @@ public OdGraphicStyle copy()
 ```
 
 
-ينسخ هذه الحالة.
+ينسخ هذا الكائن.
 
 **Returns:**
 [OdGraphicStyle](../../com.aspose.imaging.fileformats.opendocument.objects/odgraphicstyle) - Gets the copy of this instance.

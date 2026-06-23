@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.tiff.pathresources/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [PathResource](../com.aspose.imaging.fileformats.tiff.pathresources/pathresource) | يمثل مورد مسار Photoshop. |
-| [PathResourceConverter](../com.aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter) | يحوِّل [PathResource](../com.aspose.imaging.fileformats.tiff.pathresources/pathresource) إلى [GraphicsPath](../com.aspose.imaging/graphicspath) والعكس. |
+| [PathResourceConverter](../com.aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter) | يقوم بتحويل [PathResource](../com.aspose.imaging.fileformats.tiff.pathresources/pathresource) إلى [GraphicsPath](../com.aspose.imaging/graphicspath) والعكس بالعكس. |

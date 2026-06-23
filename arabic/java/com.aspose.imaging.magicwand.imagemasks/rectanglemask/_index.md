@@ -17,15 +17,15 @@ public class RectangleMask extends ImageMask
 
 | المنشئ | الوصف |
 | --- | --- |
-| [RectangleMask(int x, int y, int width, int height)](#RectangleMask-int-int-int-int-) | يُنشئ مثيلاً جديدًا للفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع النقطة اليسرى العليا المحددة، والعرض والارتفاع. |
-| [RectangleMask(Rectangle selectedArea)](#RectangleMask-com.aspose.imaging.Rectangle-) | يُنشئ مثيلاً جديدًا للفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع المستطيل المحدد. |
+| [RectangleMask(int x, int y, int width, int height)](#RectangleMask-int-int-int-int-) | ينشئ مثيلاً جديداً من الفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع النقطة اليسرى العليا المحددة والعرض والارتفاع. |
+| [RectangleMask(Rectangle selectedArea)](#RectangleMask-com.aspose.imaging.Rectangle-) | ينشئ مثيلاً جديداً من الفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع المستطيل المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل. |
+| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | يحصل على شفافية البكسل المحدد. |
-| [inflate(int size)](#inflate-int-) | يوسع هذا القناع بالمقدار المحدد. |
+| [inflate(int size)](#inflate-int-) | يضخم هذه القناع بالمقدار المحدد. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص القناع بالمستطيل المحدد. |
 | [deepClone()](#deepClone--) | ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي. |
 
@@ -36,11 +36,11 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked-complex.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (845, 128)
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (845, 128)
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية
+            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بواسطة أداة العصا السحرية
             .union(new MagicWandSettings(416, 387))
-            // اعكس القناع الحالي
+            // عكس القناع الحالي
             .invert()
             // اطرح القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية مع العتبة المحددة من القناع الحالي
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
@@ -49,12 +49,12 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // نقّح القناع باستخدام الإعدادات المحددة
+            // تنعيم القناع بالإعدادات المحددة
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة
+    // حفظ الصورة
     image.save(outputFilePath);
 }
 
@@ -66,15 +66,15 @@ public RectangleMask(int x, int y, int width, int height)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع النقطة اليسرى العليا المحددة، والعرض والارتفاع.
+ينشئ مثيلاً جديداً من الفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع النقطة اليسرى العليا المحددة والعرض والارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي x للنقطة اليسرى العليا للمنطقة المحددة. |
-| ص | int | الإحداثي y للنقطة اليسرى العليا للمنطقة المحددة. |
-| العرض | int | عرض المنطقة المحددة. |
-| الارتفاع | int | ارتفاع المنطقة المحددة. |
+| x | int | الإحداثي س للنقطة اليسرى العليا للمنطقة المحددة. |
+| y | int | الإحداثي ص للنقطة اليسرى العليا للمنطقة المحددة. |
+| width | int | عرض المنطقة المحددة. |
+| height | int | ارتفاع المنطقة المحددة. |
 
 ### RectangleMask(Rectangle selectedArea) {#RectangleMask-com.aspose.imaging.Rectangle-}
 ```
@@ -82,12 +82,12 @@ public RectangleMask(Rectangle selectedArea)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع المستطيل المحدد.
+ينشئ مثيلاً جديداً من الفئة [RectangleMask](../../com.aspose.imaging.magicwand.imagemasks/rectanglemask) مع المستطيل المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| selectedArea | [Rectangle](../../com.aspose.imaging/rectangle) | المنطقة المحددة موصوفة كمستطيل. |
+| selectedArea | [Rectangle](../../com.aspose.imaging/rectangle) | المنطقة المحددة مُحددة كمستطيل. |
 
 ### getSelectionBounds() {#getSelectionBounds--}
 ```
@@ -95,7 +95,7 @@ public Rectangle getSelectionBounds()
 ```
 
 
-يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل.
+يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds of the selected part of the mask, in pixels.
@@ -110,8 +110,8 @@ public boolean get_Item(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -121,12 +121,12 @@ public ImageMask inflate(int size)
 ```
 
 
-يوسع هذا القناع بالمقدار المحدد.
+يضخم هذه القناع بالمقدار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | المقدار لتوسيع هذه القناع. |
+| size | int | المقدار لتضخيم هذه القناع. |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated RectangleMask as ImageMask.
@@ -154,4 +154,4 @@ public Object deepClone()
 ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي.
 
 **Returns:**
-java.lang.Object - كائن جديد هو نسخة من هذه المثيل.
+java.lang.Object - كائن جديد يكون نسخة من هذا المثيل.

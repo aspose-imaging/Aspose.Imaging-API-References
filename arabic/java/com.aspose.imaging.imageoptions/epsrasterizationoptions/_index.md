@@ -1,7 +1,7 @@
 ---
 title: "EpsRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تحويل Eps إلى نقطية."
+description: "خيارات تصيير Eps."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.imaging.imageoptions/epsrasterizationoptions/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class EpsRasterizationOptions extends VectorRasterizationOptions
 ```
 
-خيارات تحويل Eps إلى نقطية.
+خيارات تصيير Eps.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EpsRasterizationOptions()](#EpsRasterizationOptions--) | يُنشئ مثيلاً جديدًا للفئة. |
+| [EpsRasterizationOptions()](#EpsRasterizationOptions--) | يُنشئ مثيلًا جديدًا من الفئة. |
 | [EpsRasterizationOptions(EpsRasterizationOptions origin)](#EpsRasterizationOptions-com.aspose.imaging.imageoptions.EpsRasterizationOptions-) |  |
 ## الطرق
 
@@ -31,7 +31,7 @@ public EpsRasterizationOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة.
+يُنشئ مثيلًا جديدًا من الفئة.
 
 ### EpsRasterizationOptions(EpsRasterizationOptions origin) {#EpsRasterizationOptions-com.aspose.imaging.imageoptions.EpsRasterizationOptions-}
 ```
@@ -65,5 +65,5 @@ public final void setPreviewToExport(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 

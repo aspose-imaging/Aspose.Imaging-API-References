@@ -17,22 +17,22 @@ public class BilateralSmoothingFilterOptions extends FilterOptionsBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BilateralSmoothingFilterOptions(int size)](#BilateralSmoothingFilterOptions-int-) | ينشئ مثيلًا جديدًا من الفئة `BilateralSmoothingFilterOptions`. |
-| [BilateralSmoothingFilterOptions()](#BilateralSmoothingFilterOptions--) | ينشئ مثيلًا جديدًا من الفئة `BilateralSmoothingFilterOptions`. |
+| [BilateralSmoothingFilterOptions(int size)](#BilateralSmoothingFilterOptions-int-) | ينشئ مثالًا جديدًا من الفئة `BilateralSmoothingFilterOptions`. |
+| [BilateralSmoothingFilterOptions()](#BilateralSmoothingFilterOptions--) | ينشئ مثالًا جديدًا من الفئة `BilateralSmoothingFilterOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSize()](#getSize--) | يسترجع أو يعيّن حجم النواة. |
-| [setSize(int value)](#setSize-int-) | يسترجع أو يعيّن حجم النواة. |
-| [getSpatialFactor()](#getSpatialFactor--) | يسترجع أو يعيّن العامل المكاني. |
-| [setSpatialFactor(double value)](#setSpatialFactor-double-) | يسترجع أو يعيّن العامل المكاني. |
-| [getSpatialPower()](#getSpatialPower--) | يسترجع أو يعيّن القوة المكانية. |
-| [setSpatialPower(double value)](#setSpatialPower-double-) | يسترجع أو يعيّن القوة المكانية. |
-| [getColorFactor()](#getColorFactor--) | يسترجع أو يعيّن عامل اللون. |
-| [setColorFactor(double value)](#setColorFactor-double-) | يسترجع أو يعيّن عامل اللون. |
-| [getColorPower()](#getColorPower--) | يسترجع أو يعيّن قوة اللون. |
-| [setColorPower(double value)](#setColorPower-double-) | يسترجع أو يعيّن قوة اللون. |
+| [getSize()](#getSize--) | يحصل أو يضبط حجم النواة. |
+| [setSize(int value)](#setSize-int-) | يحصل أو يضبط حجم النواة. |
+| [getSpatialFactor()](#getSpatialFactor--) | يحصل أو يضبط العامل المكاني. |
+| [setSpatialFactor(double value)](#setSpatialFactor-double-) | يحصل أو يضبط العامل المكاني. |
+| [getSpatialPower()](#getSpatialPower--) | يحصل أو يضبط القوة المكانية. |
+| [setSpatialPower(double value)](#setSpatialPower-double-) | يحصل أو يضبط القوة المكانية. |
+| [getColorFactor()](#getColorFactor--) | يحصل أو يضبط عامل اللون. |
+| [setColorFactor(double value)](#setColorFactor-double-) | يحصل أو يضبط عامل اللون. |
+| [getColorPower()](#getColorPower--) | يحصل أو يضبط قوة اللون. |
+| [setColorPower(double value)](#setColorPower-double-) | يحصل أو يضبط قوة اللون. |
 
 ## Example: The following example applies various types of filters to a raster image.
 
@@ -43,7 +43,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // تطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     rasterImage.save(dir + "sample.MedianFilter.png");
 } finally {
@@ -54,7 +54,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح تمهيد ثنائي الجانب بحجم نواة 5 على الصورة بأكملها.
+    // تطبيق مرشح تنعيم ثنائي الجانب بحجم نواة 5 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     rasterImage.save(dir + "sample.BilateralSmoothingFilter.png");
 } finally {
@@ -65,7 +65,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussianBlurFilter.png");
 } finally {
@@ -76,7 +76,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بأكملها.
+    // تطبيق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussWienerFilter.png");
 } finally {
@@ -87,7 +87,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح واينر حركي بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // تطبيق مرشح حركة واينر بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.save(dir + "sample.MotionWienerFilter.png");
 } finally {
@@ -98,7 +98,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح شحذ بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.SharpenFilter.png");
 } finally {
@@ -112,12 +112,12 @@ public BilateralSmoothingFilterOptions(int size)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `BilateralSmoothingFilterOptions`.
+ينشئ مثالًا جديدًا من الفئة `BilateralSmoothingFilterOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | حجم النواة. |
+| size | int | حجم النواة. |
 
 ### BilateralSmoothingFilterOptions() {#BilateralSmoothingFilterOptions--}
 ```
@@ -125,7 +125,7 @@ public BilateralSmoothingFilterOptions()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `BilateralSmoothingFilterOptions`.
+ينشئ مثالًا جديدًا من الفئة `BilateralSmoothingFilterOptions`.
 
 ### getSize() {#getSize--}
 ```
@@ -133,7 +133,7 @@ public int getSize()
 ```
 
 
-يسترجع أو يعيّن حجم النواة.
+يحصل أو يضبط حجم النواة.
 
 القيمة: حجم النواة.
 
@@ -145,14 +145,14 @@ public void setSize(int value)
 ```
 
 
-يسترجع أو يعيّن حجم النواة.
+يحصل أو يضبط حجم النواة.
 
 القيمة: حجم النواة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSpatialFactor() {#getSpatialFactor--}
 ```
@@ -160,7 +160,7 @@ public double getSpatialFactor()
 ```
 
 
-يسترجع أو يعيّن العامل المكاني.
+يحصل أو يضبط العامل المكاني.
 
 القيمة: العامل المكاني.
 
@@ -172,14 +172,14 @@ public void setSpatialFactor(double value)
 ```
 
 
-يسترجع أو يعيّن العامل المكاني.
+يحصل أو يضبط العامل المكاني.
 
 القيمة: العامل المكاني.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 
 ### getSpatialPower() {#getSpatialPower--}
 ```
@@ -187,7 +187,7 @@ public double getSpatialPower()
 ```
 
 
-يسترجع أو يعيّن القوة المكانية.
+يحصل أو يضبط القوة المكانية.
 
 القيمة: القوة المكانية.
 
@@ -199,14 +199,14 @@ public void setSpatialPower(double value)
 ```
 
 
-يسترجع أو يعيّن القوة المكانية.
+يحصل أو يضبط القوة المكانية.
 
 القيمة: القوة المكانية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 
 ### getColorFactor() {#getColorFactor--}
 ```
@@ -214,7 +214,7 @@ public double getColorFactor()
 ```
 
 
-يسترجع أو يعيّن عامل اللون.
+يحصل أو يضبط عامل اللون.
 
 القيمة: عامل اللون.
 
@@ -226,14 +226,14 @@ public void setColorFactor(double value)
 ```
 
 
-يسترجع أو يعيّن عامل اللون.
+يحصل أو يضبط عامل اللون.
 
 القيمة: عامل اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 
 ### getColorPower() {#getColorPower--}
 ```
@@ -241,7 +241,7 @@ public double getColorPower()
 ```
 
 
-يسترجع أو يعيّن قوة اللون.
+يحصل أو يضبط قوة اللون.
 
 القيمة: قوة اللون.
 
@@ -253,12 +253,12 @@ public void setColorPower(double value)
 ```
 
 
-يسترجع أو يعيّن قوة اللون.
+يحصل أو يضبط قوة اللون.
 
 القيمة: قوة اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double |  |
+| value | double |  |
 

@@ -1,13 +1,13 @@
 ---
 title: "WmfSetPalentries"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_SETPALENTRIES يحدد قيم ألوان RGB في نطاق من الإدخالات في اللوحة المنطقية التي تم تعريفها في سياق جهاز التشغيل."
+description: "السجل META_SETPALENTRIES يحدد قيم ألوان RGB في نطاق من الإدخالات في اللوحة المنطقية التي تم تعريفها في سياق جهاز التشغيل."
 type: docs
 weight: 79
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetPalentries extends WmfObject
 ```
@@ -84,5 +84,5 @@ public void setStart(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

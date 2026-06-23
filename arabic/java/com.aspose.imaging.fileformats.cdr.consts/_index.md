@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.cdr.consts/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CdrColorModel](../com.aspose.imaging.fileformats.cdr.consts/cdrcolormodel) | نماذج ألوان cdr |

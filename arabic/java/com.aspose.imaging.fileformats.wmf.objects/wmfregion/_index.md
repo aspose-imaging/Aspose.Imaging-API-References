@@ -1,7 +1,7 @@
 ---
 title: "WmfRegion"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن Region Object يحدد شكلًا قد يكون غير مستطيل يُعرّف بواسطة مصفوفة من خطوط المسح."
+description: "كائن المنطقة يحدد شكلاً غير مستطيل محتملًا يتم تعريفه بواسطة مصفوفة من خطوط المسح."
 type: docs
 weight: 62
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfregion/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfRegion extends MetaObject
 ```
 
-كائن Region يحدد شكلًا قد يكون غير مستطيل يُعرّف بواسطة مصفوفة من خطوط المسح.
+كائن Region يعرّف شكلاً قد يكون غير مستطيل يتم تعريفه بواسطة مصفوفة من خطوط المسح.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,22 +22,22 @@ public class WmfRegion extends MetaObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getNextInChain()](#getNextInChain--) | يحصل أو يضبط العنصر التالي في السلسلة. |
-| [setNextInChain(short value)](#setNextInChain-short-) | يحصل أو يضبط العنصر التالي في السلسلة. |
+| [getNextInChain()](#getNextInChain--) | يحصل أو يعيّن التالي في السلسلة. |
+| [setNextInChain(short value)](#setNextInChain-short-) | يحصل أو يعيّن التالي في السلسلة. |
 | [getObjectType()](#getObjectType--) | يحصل أو يعيّن نوع الكائن. |
 | [setObjectType(short value)](#setObjectType-short-) | يحصل أو يعيّن نوع الكائن. |
-| [getObjectCount()](#getObjectCount--) | يحصل أو يضبط عدد الكائنات. |
-| [setObjectCount(int value)](#setObjectCount-int-) | يحصل أو يضبط عدد الكائنات. |
-| [getRegionSize()](#getRegionSize--) | يحصل أو يضبط حجم المنطقة. |
-| [setRegionSize(short value)](#setRegionSize-short-) | يحصل أو يضبط حجم المنطقة. |
-| [getScanCount()](#getScanCount--) | يحصل أو يضبط عدد المسحات. |
-| [setScanCount(short value)](#setScanCount-short-) | يحصل أو يضبط عدد المسحات. |
-| [getMaxScan()](#getMaxScan--) | يحصل أو يضبط الحد الأقصى للمسح. |
-| [setMaxScan(short value)](#setMaxScan-short-) | يحصل أو يضبط الحد الأقصى للمسح. |
-| [getBoundingRectangle()](#getBoundingRectangle--) | الحصول أو تعيين المستطيل المحيط. |
-| [setBoundingRectangle(Rectangle value)](#setBoundingRectangle-com.aspose.imaging.Rectangle-) | الحصول أو تعيين المستطيل المحيط. |
-| [getAScans()](#getAScans--) | الحصول أو تعيين المسحات. |
-| [setAScans(WmfScanObject[] value)](#setAScans-com.aspose.imaging.fileformats.wmf.objects.WmfScanObject---) | الحصول أو تعيين المسحات. |
+| [getObjectCount()](#getObjectCount--) | يحصل أو يعيّن عدد الكائنات. |
+| [setObjectCount(int value)](#setObjectCount-int-) | يحصل أو يعيّن عدد الكائنات. |
+| [getRegionSize()](#getRegionSize--) | يحصل أو يعيّن حجم المنطقة. |
+| [setRegionSize(short value)](#setRegionSize-short-) | يحصل أو يعيّن حجم المنطقة. |
+| [getScanCount()](#getScanCount--) | يحصل أو يعيّن عدد المسحات. |
+| [setScanCount(short value)](#setScanCount-short-) | يحصل أو يعيّن عدد المسحات. |
+| [getMaxScan()](#getMaxScan--) | يحصل أو يعيّن الحد الأقصى للمسح. |
+| [setMaxScan(short value)](#setMaxScan-short-) | يحصل أو يعيّن الحد الأقصى للمسح. |
+| [getBoundingRectangle()](#getBoundingRectangle--) | يحصل أو يعيّن المستطيل المحيط. |
+| [setBoundingRectangle(Rectangle value)](#setBoundingRectangle-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن المستطيل المحيط. |
+| [getAScans()](#getAScans--) | يحصل أو يعيّن مسحًا. |
+| [setAScans(WmfScanObject[] value)](#setAScans-com.aspose.imaging.fileformats.wmf.objects.WmfScanObject---) | يحصل أو يعيّن مسحًا. |
 ### WmfRegion() {#WmfRegion--}
 ```
 public WmfRegion()
@@ -50,26 +50,26 @@ public short getNextInChain()
 ```
 
 
-يحصل أو يضبط العنصر التالي في السلسلة.
+يحصل أو يعيّن التالي في السلسلة.
 
 القيمة: قيمة يجب تجاهلها.
 
 **Returns:**
-short
+قصير
 ### setNextInChain(short value) {#setNextInChain-short-}
 ```
 public void setNextInChain(short value)
 ```
 
 
-يحصل أو يضبط العنصر التالي في السلسلة.
+يحصل أو يعيّن التالي في السلسلة.
 
 القيمة: قيمة يجب تجاهلها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getObjectType() {#getObjectType--}
 ```
@@ -82,7 +82,7 @@ public short getObjectType()
 القيمة: معرف المنطقة. يجب أن يكون 0x0006.
 
 **Returns:**
-short
+قصير
 ### setObjectType(short value) {#setObjectType-short-}
 ```
 public void setObjectType(short value)
@@ -96,7 +96,7 @@ public void setObjectType(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getObjectCount() {#getObjectCount--}
 ```
@@ -104,7 +104,7 @@ public int getObjectCount()
 ```
 
 
-يحصل أو يضبط عدد الكائنات.
+يحصل أو يعيّن عدد الكائنات.
 
 القيمة: قيمة يجب تجاهلها.
 
@@ -116,14 +116,14 @@ public void setObjectCount(int value)
 ```
 
 
-يحصل أو يضبط عدد الكائنات.
+يحصل أو يعيّن عدد الكائنات.
 
 القيمة: قيمة يجب تجاهلها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRegionSize() {#getRegionSize--}
 ```
@@ -131,26 +131,26 @@ public short getRegionSize()
 ```
 
 
-يحصل أو يضبط حجم المنطقة.
+يحصل أو يعيّن حجم المنطقة.
 
-القيمة: حجم المنطقة بالبايت بالإضافة إلى حجم aScans بالبايت.
+القيمة: حجم المنطقة بالبايتات بالإضافة إلى حجم aScans بالبايتات.
 
 **Returns:**
-short
+قصير
 ### setRegionSize(short value) {#setRegionSize-short-}
 ```
 public void setRegionSize(short value)
 ```
 
 
-يحصل أو يضبط حجم المنطقة.
+يحصل أو يعيّن حجم المنطقة.
 
-القيمة: حجم المنطقة بالبايت بالإضافة إلى حجم aScans بالبايت.
+القيمة: حجم المنطقة بالبايتات بالإضافة إلى حجم aScans بالبايتات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getScanCount() {#getScanCount--}
 ```
@@ -158,26 +158,26 @@ public short getScanCount()
 ```
 
 
-يحصل أو يضبط عدد المسحات.
+يحصل أو يعيّن عدد المسحات.
 
-القيمة: عدد خطوط المسح التي تشكّل المنطقة.
+القيمة: عدد خطوط المسح التي تشكل المنطقة.
 
 **Returns:**
-short
+قصير
 ### setScanCount(short value) {#setScanCount-short-}
 ```
 public void setScanCount(short value)
 ```
 
 
-يحصل أو يضبط عدد المسحات.
+يحصل أو يعيّن عدد المسحات.
 
-القيمة: عدد خطوط المسح التي تشكّل المنطقة.
+القيمة: عدد خطوط المسح التي تشكل المنطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getMaxScan() {#getMaxScan--}
 ```
@@ -185,26 +185,26 @@ public short getMaxScan()
 ```
 
 
-يحصل أو يضبط الحد الأقصى للمسح.
+يحصل أو يعيّن الحد الأقصى للمسح.
 
-القيمة: الحد الأقصى لعدد النقاط في أي مسح واحد داخل هذه المنطقة.
+القيمة: الحد الأقصى لعدد النقاط في أي مسح واحد في هذه المنطقة.
 
 **Returns:**
-short
+قصير
 ### setMaxScan(short value) {#setMaxScan-short-}
 ```
 public void setMaxScan(short value)
 ```
 
 
-يحصل أو يضبط الحد الأقصى للمسح.
+يحصل أو يعيّن الحد الأقصى للمسح.
 
-القيمة: الحد الأقصى لعدد النقاط في أي مسح واحد داخل هذه المنطقة.
+القيمة: الحد الأقصى لعدد النقاط في أي مسح واحد في هذه المنطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getBoundingRectangle() {#getBoundingRectangle--}
 ```
@@ -212,7 +212,7 @@ public Rectangle getBoundingRectangle()
 ```
 
 
-الحصول أو تعيين المستطيل المحيط.
+يحصل أو يعيّن المستطيل المحيط.
 
 القيمة: كائن Rect (القسم 2.2.2.18) الذي يحدد المستطيل المحيط.
 
@@ -224,7 +224,7 @@ public void setBoundingRectangle(Rectangle value)
 ```
 
 
-الحصول أو تعيين المستطيل المحيط.
+يحصل أو يعيّن المستطيل المحيط.
 
 القيمة: كائن Rect (القسم 2.2.2.18) الذي يحدد المستطيل المحيط.
 
@@ -239,7 +239,7 @@ public WmfScanObject[] getAScans()
 ```
 
 
-الحصول أو تعيين المسحات.
+يحصل أو يعيّن مسحًا.
 
 القيمة: مصفوفة من كائنات Scan (القسم 2.2.2.21) التي تحدد خطوط المسح في المنطقة.
 
@@ -251,7 +251,7 @@ public void setAScans(WmfScanObject[] value)
 ```
 
 
-الحصول أو تعيين المسحات.
+يحصل أو يعيّن مسحًا.
 
 القيمة: مصفوفة من كائنات Scan (القسم 2.2.2.21) التي تحدد خطوط المسح في المنطقة.
 

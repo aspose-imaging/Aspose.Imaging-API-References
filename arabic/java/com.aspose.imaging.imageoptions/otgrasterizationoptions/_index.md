@@ -1,18 +1,18 @@
 ---
 title: "OtgRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تمثيل الرسوميات للملف Otg"
+description: "خيارات تمثيل الرسوم النقطية لـ OTG"
 type: docs
 weight: 34
 url: /ar/java/com.aspose.imaging.imageoptions/otgrasterizationoptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions), [com.aspose.imaging.imageoptions.OdRasterizationOptions](../../com.aspose.imaging.imageoptions/odrasterizationoptions)
+java.lang.Object، [com.aspose.imaging.imageoptions.VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions)، [com.aspose.imaging.imageoptions.OdRasterizationOptions](../../com.aspose.imaging.imageoptions/odrasterizationoptions)
 ```
 public class OtgRasterizationOptions extends OdRasterizationOptions
 ```
 
-خيارات تمثيل الرسوميات للملف Otg
+خيارات تمثيل الرسوم النقطية لـ OTG
 ## المنشئات
 
 | المنشئ | الوصف |

@@ -7,7 +7,7 @@ weight: 56
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfpolyline/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPolyLine extends WmfObject
 ```
@@ -22,8 +22,8 @@ public class WmfPolyLine extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getNumberOfPoint()](#getNumberOfPoint--) | يحصل أو يعيّن عدد النقاط. |
-| [setNumberOfPoint(short value)](#setNumberOfPoint-short-) | يحصل أو يعيّن عدد النقاط. |
+| [getNumberOfPoint()](#getNumberOfPoint--) | يحصل أو يضبط عدد النقاط. |
+| [setNumberOfPoint(short value)](#setNumberOfPoint-short-) | يحصل أو يضبط عدد النقاط. |
 | [getAPoints()](#getAPoints--) | يحصل أو يعيّن النقاط. |
 | [setAPoints(Point[] value)](#setAPoints-com.aspose.imaging.Point---) | يحصل أو يعيّن النقاط. |
 ### WmfPolyLine() {#WmfPolyLine--}
@@ -38,26 +38,26 @@ public short getNumberOfPoint()
 ```
 
 
-يحصل أو يعيّن عدد النقاط. عدد صحيح موقع 16‑بت يحدد عدد النقاط في المصفوفة.
+يحصل أو يضبط عدد النقاط. عدد صحيح موقع 16‑بت يحدد عدد النقاط في المصفوفة.
 
 القيمة: عدد النقاط.
 
 **Returns:**
-short
+قصير
 ### setNumberOfPoint(short value) {#setNumberOfPoint-short-}
 ```
 public void setNumberOfPoint(short value)
 ```
 
 
-يحصل أو يعيّن عدد النقاط. عدد صحيح موقع 16‑بت يحدد عدد النقاط في المصفوفة.
+يحصل أو يضبط عدد النقاط. عدد صحيح موقع 16‑بت يحدد عدد النقاط في المصفوفة.
 
 القيمة: عدد النقاط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getAPoints() {#getAPoints--}
 ```
@@ -65,7 +65,7 @@ public Point[] getAPoints()
 ```
 
 
-يحصل أو يعيّن النقاط. مصفوفة NumberOfPoints من كائنات PointS 32‑بت، بوحدات منطقية.
+يحصل أو يضبط النقاط. مصفوفة NumberOfPoints من كائنات PointS 32‑بت، بوحدات منطقية.
 
 القيمة: النقاط.
 
@@ -77,7 +77,7 @@ public void setAPoints(Point[] value)
 ```
 
 
-يحصل أو يعيّن النقاط. مصفوفة NumberOfPoints من كائنات PointS 32‑بت، بوحدات منطقية.
+يحصل أو يضبط النقاط. مصفوفة NumberOfPoints من كائنات PointS 32‑بت، بوحدات منطقية.
 
 القيمة: النقاط.
 

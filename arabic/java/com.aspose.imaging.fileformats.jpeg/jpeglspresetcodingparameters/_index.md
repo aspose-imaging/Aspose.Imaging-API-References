@@ -22,16 +22,16 @@ public class JpegLsPresetCodingParameters
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMaximumSampleValue()](#getMaximumSampleValue--) | يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية مسح. |
-| [setMaximumSampleValue(int value)](#setMaximumSampleValue-int-) | يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية مسح. |
+| [getMaximumSampleValue()](#getMaximumSampleValue--) | يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية المسح. |
+| [setMaximumSampleValue(int value)](#setMaximumSampleValue-int-) | يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية المسح. |
 | [getThreshold1()](#getThreshold1--) | يحصل أو يضبط قيمة عتبة التكميم الأولى للتدرجات المحلية. |
 | [setThreshold1(int value)](#setThreshold1-int-) | يحصل أو يضبط قيمة عتبة التكميم الأولى للتدرجات المحلية. |
 | [getThreshold2()](#getThreshold2--) | يحصل أو يضبط قيمة عتبة التكميم الثانية للتدرجات المحلية. |
 | [setThreshold2(int value)](#setThreshold2-int-) | يحصل أو يضبط قيمة عتبة التكميم الثانية للتدرجات المحلية. |
 | [getThreshold3()](#getThreshold3--) | يحصل أو يضبط قيمة عتبة التكميم الثالثة للتدرجات المحلية. |
 | [setThreshold3(int value)](#setThreshold3-int-) | يحصل أو يضبط قيمة عتبة التكميم الثالثة للتدرجات المحلية. |
-| [getResetValue()](#getResetValue--) | يحصل أو يضبط القيمة التي تُقسم عندها العدادات A و B و N إلى النصف. |
-| [setResetValue(int value)](#setResetValue-int-) | يحصل أو يضبط القيمة التي تُقسم عندها العدادات A و B و N إلى النصف. |
+| [getResetValue()](#getResetValue--) | يحصل أو يضبط القيمة التي يتم عندها تقليل العدادات A و B و N إلى النصف. |
+| [setResetValue(int value)](#setResetValue-int-) | يحصل أو يضبط القيمة التي يتم عندها تقليل العدادات A و B و N إلى النصف. |
 ### JpegLsPresetCodingParameters() {#JpegLsPresetCodingParameters--}
 ```
 public JpegLsPresetCodingParameters()
@@ -44,7 +44,7 @@ public int getMaximumSampleValue()
 ```
 
 
-يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية مسح. يجب أن تكون هذه القيمة أكبر من أو مساوية للقيمة القصوى الفعلية للمكونات في عملية المسح.
+يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية المسح. يجب أن تكون هذه القيمة أكبر من أو مساوية للقيمة القصوى الفعلية للمكونات في عملية المسح.
 
 **Returns:**
 int
@@ -54,12 +54,12 @@ public void setMaximumSampleValue(int value)
 ```
 
 
-يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية مسح. يجب أن تكون هذه القيمة أكبر من أو مساوية للقيمة القصوى الفعلية للمكونات في عملية المسح.
+يحصل أو يضبط القيمة القصوى الممكنة لأي عينة صورة في عملية المسح. يجب أن تكون هذه القيمة أكبر من أو مساوية للقيمة القصوى الفعلية للمكونات في عملية المسح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getThreshold1() {#getThreshold1--}
 ```
@@ -82,7 +82,7 @@ public void setThreshold1(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getThreshold2() {#getThreshold2--}
 ```
@@ -105,7 +105,7 @@ public void setThreshold2(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getThreshold3() {#getThreshold3--}
 ```
@@ -128,7 +128,7 @@ public void setThreshold3(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getResetValue() {#getResetValue--}
 ```
@@ -136,7 +136,7 @@ public int getResetValue()
 ```
 
 
-يحصل أو يضبط القيمة التي تُقسم عندها العدادات A و B و N إلى النصف.
+يحصل أو يضبط القيمة التي يتم عندها تقليل العدادات A و B و N إلى النصف.
 
 **Returns:**
 int
@@ -146,10 +146,10 @@ public void setResetValue(int value)
 ```
 
 
-يحصل أو يضبط القيمة التي تُقسم عندها العدادات A و B و N إلى النصف.
+يحصل أو يضبط القيمة التي يتم عندها تقليل العدادات A و B و N إلى النصف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

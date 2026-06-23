@@ -1,7 +1,7 @@
 ---
 title: "EmfException"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "استثناء لفئات Emf"
+description: "استثناء لفئات Emf."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.coreexceptions.imageformats/emfexception/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class EmfException extends System.Exception
 ```
 
-استثناء لفئات Emf
+استثناء لفئات Emf.
 ## المنشئات
 
 | المنشئ | الوصف |

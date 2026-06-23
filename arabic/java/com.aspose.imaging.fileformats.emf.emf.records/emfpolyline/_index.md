@@ -1,7 +1,7 @@
 ---
 title: "EmfPolyline"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_POLYLINE يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة."
+description: "السجل EMR_POLYLINE يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة."
 type: docs
 weight: 101
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolyline/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolyline extends EmfPolyShape
 ```
 
-سجل EMR\_POLYLINE يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة.
+السجل EMR\_POLYLINE يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPolyline(EmfRecord source)](#EmfPolyline-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfPolyline`. |
-| [EmfPolyline()](#EmfPolyline--) | يُنشئ مثيلًا جديدًا من الفئة `EmfPolyline`. |
+| [EmfPolyline(EmfRecord source)](#EmfPolyline-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfPolyline`. |
+| [EmfPolyline()](#EmfPolyline--) | يُنشئ نسخة جديدة من الفئة `EmfPolyline`. |
 ### EmfPolyline(EmfRecord source) {#EmfPolyline-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolyline(EmfRecord source)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfPolyline`.
+يُنشئ نسخة جديدة من الفئة `EmfPolyline`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,5 +38,5 @@ public EmfPolyline()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfPolyline`.
+يُنشئ نسخة جديدة من الفئة `EmfPolyline`.
 

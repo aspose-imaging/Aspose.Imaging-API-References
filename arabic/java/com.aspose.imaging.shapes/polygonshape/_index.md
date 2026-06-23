@@ -20,9 +20,9 @@ public class PolygonShape extends Shape implements IOrderedShape
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PolygonShape()](#PolygonShape--) | يقوم بإنشاء مثيل جديد لفئة `PolygonShape`. |
-| [PolygonShape(PointF[] points)](#PolygonShape-com.aspose.imaging.PointF---) | يقوم بإنشاء مثيل جديد لفئة `PolygonShape`. |
-| [PolygonShape(PointF[] points, boolean isClosed)](#PolygonShape-com.aspose.imaging.PointF---boolean-) | يقوم بإنشاء مثيل جديد لفئة `PolygonShape`. |
+| [PolygonShape()](#PolygonShape--) | يُنشئ مثيلاً جديدًا من الفئة `PolygonShape`. |
+| [PolygonShape(PointF[] points)](#PolygonShape-com.aspose.imaging.PointF---) | يُنشئ مثيلاً جديدًا من الفئة `PolygonShape`. |
+| [PolygonShape(PointF[] points, boolean isClosed)](#PolygonShape-com.aspose.imaging.PointF---boolean-) | يُنشئ مثيلاً جديدًا من الفئة `PolygonShape`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -45,13 +45,13 @@ public class PolygonShape extends Shape implements IOrderedShape
 | [hashCode()](#hashCode--) | يعمل كدالة التجزئة الافتراضية. |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
-هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة.
+هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة
 ``` java
-//ينشئ مثيلاً من BmpOptions ويضبط خصائصه المتنوعة.
+//ينشئ مثيلًا من BmpOptions ويضبط خصائصه المتنوعة
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+//أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 //المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
@@ -70,7 +70,7 @@ try {
     //إنشاء نسخة من فئة Figure
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //إضافة شكل إلى كائن Figure.
+    //إضافة شكل إلى كائن Figure
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -80,7 +80,7 @@ try {
     //إنشاء نسخة من فئة Figure
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //إضافة شكل إلى كائن Figure.
+    //إضافة شكل إلى كائن Figure
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -113,7 +113,7 @@ public PolygonShape()
 ```
 
 
-يقوم بإنشاء مثيل جديد لفئة `PolygonShape`.
+يُنشئ مثيلاً جديدًا من الفئة `PolygonShape`.
 
 ### PolygonShape(PointF[] points) {#PolygonShape-com.aspose.imaging.PointF---}
 ```
@@ -121,7 +121,7 @@ public PolygonShape(PointF[] points)
 ```
 
 
-يقوم بإنشاء مثيل جديد لفئة `PolygonShape`.
+يُنشئ مثيلاً جديدًا من الفئة `PolygonShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -134,13 +134,13 @@ public PolygonShape(PointF[] points, boolean isClosed)
 ```
 
 
-يقوم بإنشاء مثيل جديد لفئة `PolygonShape`.
+يُنشئ مثيلاً جديدًا من الفئة `PolygonShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | مصفوفة النقاط. |
-| isClosed | boolean | إذا تم تعيينه إلى `true` فإن المضلع مغلق. |
+| isClosed | boolean | إذا تم تعيينه إلى `true` يكون المضلع مغلقًا. |
 
 ### getPoints() {#getPoints--}
 ```
@@ -194,7 +194,7 @@ public void setClosed(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getBounds() {#getBounds--}
 ```
@@ -240,7 +240,7 @@ public boolean hasSegments()
 
 يحصل على قيمة تشير إلى ما إذا كان الشكل يحتوي على مقاطع.
 
-القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا `false`.
+القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا، `false`.
 
 **Returns:**
 boolean
@@ -252,7 +252,7 @@ public PointF getStartPoint()
 
 يحصل على نقطة بدء الشكل.
 
-القيمة: نقطة بداية الشكل.
+القيمة: نقطة بدء الشكل.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -287,7 +287,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -302,8 +302,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
-| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر ذلك على حجم حدود الكائن. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
+| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر هذا على حجم حدود الكائن. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -318,7 +318,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل المراد تطبيقه. |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل الذي سيتم تطبيقه. |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```

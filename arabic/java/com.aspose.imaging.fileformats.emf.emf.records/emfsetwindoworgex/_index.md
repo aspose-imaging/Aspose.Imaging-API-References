@@ -1,18 +1,18 @@
 ---
 title: "EmfSetWindowOrgEx"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_SETWINDOWORGEX يعرّف أصل النافذة."
+description: "السجل EMR_SETWINDOWORGEX يحدد أصل النافذة."
 type: docs
 weight: 145
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfSetWindowOrgEx extends EmfStateRecordType
 ```
 
-سجل EMR\_SETWINDOWORGEX يعرّف أصل النافذة.
+السجل EMR\_SETWINDOWORGEX يحدد أصل النافذة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,8 +23,8 @@ public final class EmfSetWindowOrgEx extends EmfStateRecordType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getOrigin()](#getOrigin--) | يحصل أو يعيّن كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية. |
-| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | يحصل أو يعيّن كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية. |
+| [getOrigin()](#getOrigin--) | يحصل أو يضبط كائن WMF PointL 64 بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية. |
+| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | يحصل أو يضبط كائن WMF PointL 64 بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية. |
 ### EmfSetWindowOrgEx(EmfRecord source) {#EmfSetWindowOrgEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetWindowOrgEx(EmfRecord source)
@@ -52,7 +52,7 @@ public Point getOrigin()
 ```
 
 
-يحصل أو يعيّن كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية.
+يحصل أو يضبط كائن WMF PointL 64 بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -62,7 +62,7 @@ public void setOrigin(Point value)
 ```
 
 
-يحصل أو يعيّن كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية.
+يحصل أو يضبط كائن WMF PointL 64 بت ([MS-WMF] القسم 2.2.2.15) يحدد أصل النافذة الأفقي والرأسي بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |

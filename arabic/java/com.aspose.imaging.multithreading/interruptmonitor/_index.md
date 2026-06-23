@@ -20,15 +20,15 @@ public class InterruptMonitor implements IInterruptMonitor
 
 | المنشئ | الوصف |
 | --- | --- |
-| [InterruptMonitor()](#InterruptMonitor--) | ينشئ مثيلاً جديدًا من الفئة `InterruptMonitor`. |
+| [InterruptMonitor()](#InterruptMonitor--) | ينشئ مثيلًا جديدًا من الفئة `InterruptMonitor`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getThreadLocalInstance()](#getThreadLocalInstance--) | يحصل على مثيل IInterruptMonitor الفريد لكل خيط. |
-| [setThreadLocalInstance(IInterruptMonitor value)](#setThreadLocalInstance-com.aspose.imaging.multithreading.IInterruptMonitor-) | يضبط مثيل IInterruptMonitor الفريد لكل خيط. |
-| [isThreadInterrupted()](#isThreadInterrupted--) | يعيد `true` إذا كان مراقب المقاطعة للخيط الحالي موجودًا وتم مقاطعته، وإلا يعيد `false`. |
-| [removeAllMonitors()](#removeAllMonitors--) | يزيل جميع مراقبي الخيوط، بما في ذلك تلك الخاصة بالخيوط الحية. |
+| [getThreadLocalInstance()](#getThreadLocalInstance--) | يحصل على مثيل IInterruptMonitor الذي يكون فريدًا لكل مسار. |
+| [setThreadLocalInstance(IInterruptMonitor value)](#setThreadLocalInstance-com.aspose.imaging.multithreading.IInterruptMonitor-) | يضبط مثيل IInterruptMonitor الذي يكون فريدًا لكل مسار. |
+| [isThreadInterrupted()](#isThreadInterrupted--) | يرجع `true` إذا كان مراقب المقاطعة للمسار الحالي موجودًا وتم مقاطعته، وإلا يرجع `false`. |
+| [removeAllMonitors()](#removeAllMonitors--) | يزيل جميع مراقبي المسارات، بما في ذلك تلك الخاصة بالمسارات الحية. |
 | [isInterrupted()](#isInterrupted--) | يحصل على القيمة التي تشير إلى ما إذا كان يجب مقاطعة العمليات. |
 | [interrupt()](#interrupt--) | يرسل طلبًا لمقاطعة العمليات. |
 
@@ -81,7 +81,7 @@ class Worker implements Runnable {
         try {
             com.aspose.imaging.Image image = com.aspose.imaging.Image.load(this.inputPath);
 
-            // تعيين مثيل محلي للخيط من مراقب المقاطعة.
+            // تعيين نسخة محلية للموضوع من مراقب المقاطعة.
             com.aspose.imaging.multithreading.InterruptMonitor.setThreadLocalInstance(this.monitor);
 
             try {
@@ -94,17 +94,17 @@ class Worker implements Runnable {
             } finally {
                 image.dispose();
 
-                // إعادة تعيين المثيل المحلي للخيط من مراقب المقاطعة.
+                // إعادة تعيين النسخة المحلية للموضوع من مراقب المقاطعة.
                 com.aspose.imaging.multithreading.InterruptMonitor.setThreadLocalInstance(null);
             }
         } catch (java.lang.Exception e) {
-            // اطبع معلومات مفصلة عن أي استثناء غير متوقع.
+            // طباعة معلومات مفصلة حول أي استثناء غير متوقع.
             System.out.println(e);
         }
     }
 }
 
-// فيما يلي المثال الرئيسي باستخدام الفئة Worker.
+// إليك المثال الرئيسي باستخدام الفئة Worker.
 String baseDir = "c:\\temp\\";
 
 com.aspose.imaging.multithreading.InterruptMonitor monitor = new com.aspose.imaging.multithreading.InterruptMonitor();
@@ -115,10 +115,10 @@ Thread thread = new Thread(worker);
 thread.start();
 
 try {
-    // قم ببعض العمل المفيد هنا.
+    // قم ببعض العمل المفيد هنا
     Thread.sleep(2000);
 
-    // طلب مقاطعة خيط العامل.
+    // طلب مقاطعة خيط العامل
     monitor.interrupt();
     System.out.printf("Interrupting the worker thread #%s at %s", thread.getId(), new java.util.Date());
 
@@ -132,7 +132,7 @@ System.out.println("Done. Press ENTER to exit.");
 System.in.read();
 
 // قد يبدو الإخراج هكذا:
-// مقاطعة خيط العامل #11 في Tue Aug 06 17:57:52 YEKT 2019
+// جاري مقاطعة خيط العامل #11 في Tue Aug 06 17:57:52 YEKT 2019
 // تم مقاطعة خيط العامل #11 في Tue Aug 06 17:57:59 YEKT 2019
 // تم. اضغط ENTER للخروج.
 ```
@@ -143,7 +143,7 @@ public InterruptMonitor()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `InterruptMonitor`.
+ينشئ مثيلًا جديدًا من الفئة `InterruptMonitor`.
 
 ### getThreadLocalInstance() {#getThreadLocalInstance--}
 ```
@@ -151,7 +151,7 @@ public static IInterruptMonitor getThreadLocalInstance()
 ```
 
 
-يحصل على مثيل IInterruptMonitor الفريد لكل خيط.
+يحصل على مثيل IInterruptMonitor الذي يكون فريدًا لكل مسار.
 
 **Returns:**
 [IInterruptMonitor](../../com.aspose.imaging.multithreading/iinterruptmonitor)
@@ -161,7 +161,7 @@ public static void setThreadLocalInstance(IInterruptMonitor value)
 ```
 
 
-يضبط مثيل IInterruptMonitor الفريد لكل خيط.
+يضبط مثيل IInterruptMonitor الذي يكون فريدًا لكل مسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -174,17 +174,17 @@ public static boolean isThreadInterrupted()
 ```
 
 
-يعيد `true` إذا كان مراقب المقاطعة للخيط الحالي موجودًا وتم مقاطعته، وإلا يعيد `false`.
+يرجع `true` إذا كان مراقب المقاطعة للمسار الحالي موجودًا وتم مقاطعته، وإلا يرجع `false`.
 
 **Returns:**
-منطقي - `true` إذا كان مراقب المقاطعة للخيط الحالي موجودًا، وتم مقاطعته وإلا `false`.
+منطقي - `true` إذا كان مراقب المقاطعة للموضوع الحالي موجودًا، وتم مقاطعته؛ وإلا `false`.
 ### removeAllMonitors() {#removeAllMonitors--}
 ```
 public static void removeAllMonitors()
 ```
 
 
-يزيل جميع مراقبي الخيوط، بما في ذلك تلك الخاصة بالخيوط الحية.
+يزيل جميع مراقبي المسارات، بما في ذلك تلك الخاصة بالمسارات الحية.
 
 ### isInterrupted() {#isInterrupted--}
 ```
@@ -254,7 +254,7 @@ class Worker implements Runnable {
         try {
             com.aspose.imaging.Image image = com.aspose.imaging.Image.load(this.inputPath);
 
-            // تعيين مثيل محلي للخيط من مراقب المقاطعة.
+            // تعيين نسخة محلية للموضوع من مراقب المقاطعة.
             com.aspose.imaging.multithreading.InterruptMonitor.setThreadLocalInstance(this.monitor);
 
             try {
@@ -267,17 +267,17 @@ class Worker implements Runnable {
             } finally {
                 image.dispose();
 
-                // إعادة تعيين المثيل المحلي للخيط من مراقب المقاطعة.
+                // إعادة تعيين النسخة المحلية للموضوع من مراقب المقاطعة.
                 com.aspose.imaging.multithreading.InterruptMonitor.setThreadLocalInstance(null);
             }
         } catch (java.lang.Exception e) {
-            // اطبع معلومات مفصلة عن أي استثناء غير متوقع.
+            // طباعة معلومات مفصلة حول أي استثناء غير متوقع.
             System.out.println(e);
         }
     }
 }
 
-// فيما يلي المثال الرئيسي باستخدام الفئة Worker.
+// إليك المثال الرئيسي باستخدام الفئة Worker.
 String baseDir = "c:\\temp\\";
 
 com.aspose.imaging.multithreading.InterruptMonitor monitor = new com.aspose.imaging.multithreading.InterruptMonitor();
@@ -288,10 +288,10 @@ Thread thread = new Thread(worker);
 thread.start();
 
 try {
-    // قم ببعض العمل المفيد هنا.
+    // قم ببعض العمل المفيد هنا
     Thread.sleep(2000);
 
-    // طلب مقاطعة خيط العامل.
+    // طلب مقاطعة خيط العامل
     monitor.interrupt();
     System.out.printf("Interrupting the worker thread #%s at %s", thread.getId(), new java.util.Date());
 
@@ -305,7 +305,7 @@ System.out.println("Done. Press ENTER to exit.");
 System.in.read();
 
 // قد يبدو الإخراج هكذا:
-// مقاطعة خيط العامل #11 في Tue Aug 06 17:57:52 YEKT 2019
+// جاري مقاطعة خيط العامل #11 في Tue Aug 06 17:57:52 YEKT 2019
 // تم مقاطعة خيط العامل #11 في Tue Aug 06 17:57:59 YEKT 2019
 // تم. اضغط ENTER للخروج.
 ```

@@ -17,17 +17,17 @@ public final class RenditionClass extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [RenditionClass()](#RenditionClass--) | ينشئ مثيلًا جديدًا من الفئة `RenditionClass`. |
-| [RenditionClass(String token, String value)](#RenditionClass-java.lang.String-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة `RenditionClass`. |
+| [RenditionClass()](#RenditionClass--) | ينشئ مثلاً جديداً من الفئة `RenditionClass`. |
+| [RenditionClass(String token, String value)](#RenditionClass-java.lang.String-java.lang.String-) | ينشئ مثلاً جديداً من الفئة `RenditionClass`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getToken()](#getToken--) | يحصل أو يعيّن الرمز. |
-| [setToken(String value)](#setToken-java.lang.String-) | يحصل أو يعيّن الرمز. |
+| [getToken()](#getToken--) | يحصل على أو يعيّن الرمز. |
+| [setToken(String value)](#setToken-java.lang.String-) | يحصل على أو يعيّن الرمز. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة. |
 | [setValue(String value)](#setValue-java.lang.String-) | يحصل أو يضبط القيمة. |
-| [getDefinedValues()](#getDefinedValues--) | القيم المعرفة |
+| [getDefinedValues()](#getDefinedValues--) | القيم المحددة |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### RenditionClass() {#RenditionClass--}
 ```
@@ -35,7 +35,7 @@ public RenditionClass()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `RenditionClass`.
+ينشئ مثلاً جديداً من الفئة `RenditionClass`.
 
 ### RenditionClass(String token, String value) {#RenditionClass-java.lang.String-java.lang.String-}
 ```
@@ -43,13 +43,13 @@ public RenditionClass(String token, String value)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `RenditionClass`.
+ينشئ مثلاً جديداً من الفئة `RenditionClass`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الرمز | java.lang.String | الرمز. |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### getToken() {#getToken--}
 ```
@@ -57,7 +57,7 @@ public String getToken()
 ```
 
 
-يحصل أو يعيّن الرمز.
+يحصل على أو يعيّن الرمز.
 
 القيمة: الرمز.
 
@@ -69,14 +69,14 @@ public void setToken(String value)
 ```
 
 
-يحصل أو يعيّن الرمز.
+يحصل على أو يعيّن الرمز.
 
 القيمة: الرمز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getValue() {#getValue--}
 ```
@@ -103,7 +103,7 @@ public void setValue(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getDefinedValues() {#getDefinedValues--}
 ```
@@ -111,7 +111,7 @@ public static String[] getDefinedValues()
 ```
 
 
-القيم المعرفة
+القيم المحددة
 
 **Returns:**
 java.lang.String[]

@@ -1,18 +1,18 @@
 ---
 title: "EmfPlusRedEyeCorrectionEffect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد كائن RedEyeCorrectionEffect المناطق في الصورة التي يُطبق عليها تصحيح العين الحمراء."
+description: "كائن RedEyeCorrectionEffect يحدد مناطق في الصورة يتم تطبيق تصحيح العين الحمراء عليها."
 type: docs
 weight: 67
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageEffectsObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageEffectsObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype)
 ```
 public final class EmfPlusRedEyeCorrectionEffect extends EmfPlusImageEffectsObjectType
 ```
 
-يحدد كائن RedEyeCorrectionEffect المناطق في الصورة التي يُطبق عليها تصحيح العين الحمراء.
+كائن RedEyeCorrectionEffect يحدد مناطق في الصورة يتم تطبيق تصحيح العين الحمراء عليها.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public final class EmfPlusRedEyeCorrectionEffect extends EmfPlusImageEffectsObje
 
 | طريقة | الوصف |
 | --- | --- |
-| [getNumberOfAreas()](#getNumberOfAreas--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد عدد المستطيلات في حقل Areas. |
-| [setNumberOfAreas(int value)](#setNumberOfAreas-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد عدد المستطيلات في حقل Areas. |
-| [getAreas()](#getAreas--) | يحصل أو يعيّن مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في [MS-WMF] القسم 2.2.2.19. |
-| [setAreas(Rectangle[] value)](#setAreas-com.aspose.imaging.Rectangle---) | يحصل أو يعيّن مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في [MS-WMF] القسم 2.2.2.19. |
+| [getNumberOfAreas()](#getNumberOfAreas--) | يحصل أو يعيّن عددًا صحيحًا 32-بت موقعًا يحدد عدد المستطيلات في حقل Areas. |
+| [setNumberOfAreas(int value)](#setNumberOfAreas-int-) | يحصل أو يعيّن عددًا صحيحًا 32-بت موقعًا يحدد عدد المستطيلات في حقل Areas. |
+| [getAreas()](#getAreas--) | يحصل أو يعيّن مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في القسم 2.2.2.19 من [MS-WMF]. |
+| [setAreas(Rectangle[] value)](#setAreas-com.aspose.imaging.Rectangle---) | يحصل أو يعيّن مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في القسم 2.2.2.19 من [MS-WMF]. |
 ### EmfPlusRedEyeCorrectionEffect() {#EmfPlusRedEyeCorrectionEffect--}
 ```
 public EmfPlusRedEyeCorrectionEffect()
@@ -38,7 +38,7 @@ public int getNumberOfAreas()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد عدد المستطيلات في حقل Areas.
+يحصل أو يعيّن عددًا صحيحًا 32-بت موقعًا يحدد عدد المستطيلات في حقل Areas.
 
 القيمة: عدد المناطق.
 
@@ -50,14 +50,14 @@ public void setNumberOfAreas(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32 بت يحدد عدد المستطيلات في حقل Areas.
+يحصل أو يعيّن عددًا صحيحًا 32-بت موقعًا يحدد عدد المستطيلات في حقل Areas.
 
 القيمة: عدد المناطق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getAreas() {#getAreas--}
 ```
@@ -65,7 +65,7 @@ public Rectangle[] getAreas()
 ```
 
 
-يحصل أو يضبط مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في القسم 2.2.2.19 من [MS-WMF]. كل مستطيل يحدد مساحة من صورة البت ماب التي يجب تطبيق تأثير تصحيح العين الحمراء عليها.
+يحصل أو يعيّن مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في القسم 2.2.2.19 من [MS-WMF]. كل مستطيل يحدد منطقة من صورة البت ماب التي يجب تطبيق تأثير تصحيح العين الحمراء عليها SHOULD.
 
 القيمة: المناطق.
 
@@ -77,7 +77,7 @@ public void setAreas(Rectangle[] value)
 ```
 
 
-يحصل أو يضبط مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في القسم 2.2.2.19 من [MS-WMF]. كل مستطيل يحدد مساحة من صورة البت ماب التي يجب تطبيق تأثير تصحيح العين الحمراء عليها.
+يحصل أو يعيّن مصفوفة من كائنات NumberOfAreas WMF RectL، المحددة في القسم 2.2.2.19 من [MS-WMF]. كل مستطيل يحدد منطقة من صورة البت ماب التي يجب تطبيق تأثير تصحيح العين الحمراء عليها SHOULD.
 
 القيمة: المناطق.
 

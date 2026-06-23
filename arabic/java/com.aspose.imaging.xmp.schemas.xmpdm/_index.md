@@ -1,18 +1,18 @@
 ---
 title: "com.aspose.imaging.xmp.schemas.xmpdm"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الحزمة تحتوي على فئات المساعدين المتعلقة بـ XMP والثوابت والطرق المستخدمة من قبل مجموعة Adobe Dynamic Media."
+description: "تحتوي الحزمة على فئات المساعدة المتعلقة بـ XMP والثوابت والطرق المستخدمة من قبل مجموعة Adobe للوسائط الديناميكية."
 type: docs
 weight: 119
 url: /ar/java/com.aspose.imaging.xmp.schemas.xmpdm/
 ---
 
-تحتوي الحزمة على فئات ومقاطع ثابتة ومناهج مساعدة متعلقة بـ XMP تُستخدم من قبل مجموعة Adobe Dynamic Media.
+تحتوي الحزمة على فئات وثوابت ومناهج مساعدة متعلقة بـ XMP، تُستخدم من قبل مجموعة Adobe Dynamic Media.
 
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [AudioChannelType](../com.aspose.imaging.xmp.schemas.xmpdm/audiochanneltype) | يمثل نوع قناة الصوت. |
 | [AudioSampleType](../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | يمثل نوع عينة الصوت في `XmpDynamicMediaPackage`. |
@@ -21,4 +21,4 @@ url: /ar/java/com.aspose.imaging.xmp.schemas.xmpdm/
 | [Time](../com.aspose.imaging.xmp.schemas.xmpdm/time) | تمثيل قيمة الوقت بالثواني. |
 | [TimeFormat](../com.aspose.imaging.xmp.schemas.xmpdm/timeformat) | يمثل تنسيق الوقت في `Timecode`. |
 | [Timecode](../com.aspose.imaging.xmp.schemas.xmpdm/timecode) | يمثل قيمة رمز الوقت في الفيديو. |
-| [XmpDynamicMediaPackage](../com.aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage) | يمثل مساحة الاسم XMP Dynamic Media. |
+| [XmpDynamicMediaPackage](../com.aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage) | يمثل مساحة أسماء XMP للوسائط الديناميكية. |

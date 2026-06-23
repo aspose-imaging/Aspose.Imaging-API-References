@@ -1,7 +1,7 @@
 ---
 title: "TiffIfd8Type"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع Tiff unsigned 64-bit Image File Directory."
+description: "نوع دليل ملف الصورة Tiff غير الموقّع 64-بت."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.a
 public class TiffIfd8Type extends TiffLong8Type
 ```
 
-نوع Tiff unsigned 64-bit Image File Directory.
+نوع دليل ملف الصورة Tiff غير الموقّع 64-بت.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffIfd8Type(int tagId)](#TiffIfd8Type-int-) | ينشئ مثيلاً جديداً من الفئة [TiffIfd8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type). |
+| [TiffIfd8Type(int tagId)](#TiffIfd8Type-int-) | ينشئ مثيلاً جديدًا من الفئة [TiffIfd8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public TiffIfd8Type(int tagId)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [TiffIfd8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type).
+ينشئ مثيلاً جديدًا من الفئة [TiffIfd8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifd8type).
 
 **Parameters:**
 | معامل | نوع | الوصف |

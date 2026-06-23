@@ -1,7 +1,7 @@
 ---
 title: "ExifUnit"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قائمة تعداد وحدة EXIF."
+description: "قائمة تعداد وحدة الـ exif."
 type: docs
 weight: 26
 url: /ar/java/com.aspose.imaging.exif.enums/exifunit/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifUnit extends System.Enum
 ```
 
-قائمة تعداد وحدة EXIF.
+قائمة تعداد وحدة الـ exif.
 ## الحقول
 
 | حقل | الوصف |

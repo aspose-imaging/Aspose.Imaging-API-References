@@ -1,18 +1,18 @@
 ---
 title: "Os22XBitmapHeader"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ملف OS/2 2.x OS22XBITMAPHEADER المعروف أيضًا باسم BITMAPCOREHEADER2."
+description: "رأس OS/2 2.x OS22XBITMAPHEADER المعروف أيضًا باسم BITMAPCOREHEADER2."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.fileformats.bmp/os22xbitmapheader/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.bmp.BitmapCoreHeader](../../com.aspose.imaging.fileformats.bmp/bitmapcoreheader)، [com.aspose.imaging.fileformats.bmp.BitmapInfoHeader](../../com.aspose.imaging.fileformats.bmp/bitmapinfoheader)
+java.lang.Object, [com.aspose.imaging.fileformats.bmp.BitmapCoreHeader](../../com.aspose.imaging.fileformats.bmp/bitmapcoreheader), [com.aspose.imaging.fileformats.bmp.BitmapInfoHeader](../../com.aspose.imaging.fileformats.bmp/bitmapinfoheader)
 ```
 public class Os22XBitmapHeader extends BitmapInfoHeader
 ```
 
-ملف OS/2 2.x OS22XBITMAPHEADER المعروف أيضًا باسم BITMAPCOREHEADER2.
+رأس OS/2 2.x OS22XBITMAPHEADER المعروف أيضًا باسم BITMAPCOREHEADER2.
 ## الطرق
 
 | طريقة | الوصف |
@@ -64,7 +64,7 @@ public int getRendering()
 يحصل على العرض.
 
 **Returns:**
-int - خوارزمية التقطيع النصفية المستخدمة
+int - خوارزمية التظليل المستخدمة
 ### getSize1() {#getSize1--}
 ```
 public int getSize1()
@@ -74,7 +74,7 @@ public int getSize1()
 يحصل على الحجم1.
 
 **Returns:**
-int - محجوز لاستخدام خوارزمية التقطيع النصفية
+int - محجوز لاستخدام خوارزمية التظليل
 ### getSize2() {#getSize2--}
 ```
 public int getSize2()
@@ -84,7 +84,7 @@ public int getSize2()
 يحصل على الحجم2.
 
 **Returns:**
-int - محجوز لاستخدام خوارزمية التقطيع النصفية
+int - محجوز لاستخدام خوارزمية التظليل
 ### getColorEncoding() {#getColorEncoding--}
 ```
 public int getColorEncoding()
@@ -94,7 +94,7 @@ public int getColorEncoding()
 يحصل على ترميز اللون.
 
 **Returns:**
-int - نموذج اللون المستخدم في البت ماب
+int - نموذج اللون المستخدم في الصورة النقطية
 ### getIdentifier() {#getIdentifier--}
 ```
 public int getIdentifier()

@@ -17,14 +17,14 @@ public final class XmpGuid extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpGuid(String value)](#XmpGuid-java.lang.String-) | يُنشئ مثيلاً جديدًا للفئة `XmpGuid`. |
-| [XmpGuid(UUID guid)](#XmpGuid-java.util.UUID-) | يُنشئ مثيلاً جديدًا للفئة `XmpGuid`. |
+| [XmpGuid(String value)](#XmpGuid-java.lang.String-) | يُنشئ مثيلًا جديدًا للفئة `XmpGuid`. |
+| [XmpGuid(UUID guid)](#XmpGuid-java.util.UUID-) | يُنشئ مثيلًا جديدًا للفئة `XmpGuid`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPrefix()](#getPrefix--) | يحصل أو يعيّن البادئة مثل uuid. |
-| [setPrefix(String value)](#setPrefix-java.lang.String-) | يحصل أو يعيّن البادئة مثل uuid. |
+| [getPrefix()](#getPrefix--) | يحصل أو يضبط البادئة مثل uuid. |
+| [setPrefix(String value)](#setPrefix-java.lang.String-) | يحصل أو يضبط البادئة مثل uuid. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة. |
 | [setValue(UUID value)](#setValue-java.util.UUID-) | يحصل أو يضبط القيمة. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
@@ -34,12 +34,12 @@ public XmpGuid(String value)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `XmpGuid`.
+يُنشئ مثيلًا جديدًا للفئة `XmpGuid`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### XmpGuid(UUID guid) {#XmpGuid-java.util.UUID-}
 ```
@@ -47,12 +47,12 @@ public XmpGuid(UUID guid)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `XmpGuid`.
+يُنشئ مثيلًا جديدًا للفئة `XmpGuid`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.util.UUID | المعرف الفريد. |
+| guid | java.util.UUID | المعرّف الفريد. |
 
 ### getPrefix() {#getPrefix--}
 ```
@@ -60,7 +60,7 @@ public String getPrefix()
 ```
 
 
-يحصل أو يعيّن البادئة مثل uuid.
+يحصل أو يضبط البادئة مثل uuid.
 
 القيمة: البادئة مثل uuid.
 
@@ -72,14 +72,14 @@ public void setPrefix(String value)
 ```
 
 
-يحصل أو يعيّن البادئة مثل uuid.
+يحصل أو يضبط البادئة مثل uuid.
 
 القيمة: البادئة مثل uuid.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getValue() {#getValue--}
 ```
@@ -106,7 +106,7 @@ public void setValue(UUID value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.UUID |  |
+| value | java.util.UUID |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "CustomFontSource"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "واجهة موفر مصدر الخط المخصص"
+description: "واجهة مزود مصدر الخط المخصص"
 type: docs
 weight: 121
 url: /ar/java/com.aspose.imaging/customfontsource/

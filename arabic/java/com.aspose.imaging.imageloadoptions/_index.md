@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.imageloadoptions/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CdrLoadOptions](../com.aspose.imaging.imageloadoptions/cdrloadoptions) | خيارات تحميل Cdr |
 | [CmxLoadOptions](../com.aspose.imaging.imageloadoptions/cmxloadoptions) | خيارات تحميل CMX |

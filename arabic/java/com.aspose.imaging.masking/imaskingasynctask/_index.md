@@ -1,7 +1,7 @@
 ---
 title: "IMaskingAsyncTask"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل مهمة التمويه async."
+description: "يمثل مهمة القناع غير المتزامنة."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.masking/imaskingasynctask/
@@ -12,20 +12,20 @@ url: /ar/java/com.aspose.imaging.masking/imaskingasynctask/
 public interface IMaskingAsyncTask extends IAsyncTask
 ```
 
-يمثل مهمة التمويه async.
+يمثل مهمة القناع غير المتزامنة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMaskingResult()](#getMaskingResult--) | يعيد نتيجة عملية التمويه |
-| [getErrorString()](#getErrorString--) | يعيد خطأً في عملية التمويه |
+| [getMaskingResult()](#getMaskingResult--) | يرجع نتيجة عملية القناع |
+| [getErrorString()](#getErrorString--) | يرجع خطأً في عملية القناع |
 ### getMaskingResult() {#getMaskingResult--}
 ```
 public abstract MaskingResult getMaskingResult()
 ```
 
 
-يعيد نتيجة عملية التمويه
+يرجع نتيجة عملية القناع
 
 **Returns:**
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - The result of this task.
@@ -35,7 +35,7 @@ public abstract String getErrorString()
 ```
 
 
-يعيد خطأً في عملية التمويه
+يرجع خطأً في عملية القناع
 
 **Returns:**
 java.lang.String - خطأ المهمة.

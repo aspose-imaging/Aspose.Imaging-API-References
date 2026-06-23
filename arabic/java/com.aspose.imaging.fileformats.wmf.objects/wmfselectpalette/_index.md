@@ -1,13 +1,13 @@
 ---
 title: "WmfSelectPalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_SELECTPALETTE يحدد لوحة الألوان المنطقية الحالية باستخدام كائن لوحة ألوان محدد."
+description: "سجل META_SELECTPALETTE يحدد لوحة الألوان المنطقية الحالية بكائن Palette Object محدد."
 type: docs
 weight: 72
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSelectPalette extends WmfObject
 ```
@@ -55,5 +55,5 @@ public void setObjectIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

@@ -19,13 +19,13 @@ public class XmpArray extends XmpCollection
 | --- | --- |
 | [XmpArray()](#XmpArray--) |  |
 | [XmpArray(int type)](#XmpArray-int-) |  |
-| [XmpArray(int type, String[] items)](#XmpArray-int-java.lang.String---) | يُنشئ مثلاً جديداً من الفئة [XmpArray](../../com.aspose.imaging/xmp/xmparray) class. |
+| [XmpArray(int type, String[] items)](#XmpArray-int-java.lang.String---) | ينشئ مثيلاً جديداً من الفئة [XmpArray](../../com.aspose.imaging.xmp/xmparray). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValues()](#getValues--) | يحصل على مصفوفة القيم داخل [XmpArray](../../com.aspose.imaging/xmp/xmparray). |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [getValues()](#getValues--) | يحصل على مصفوفة القيم داخل [XmpArray](../../com.aspose.imaging.xmp/xmparray). |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 ### XmpArray() {#XmpArray--}
 ```
 public XmpArray()
@@ -49,7 +49,7 @@ public XmpArray(int type, String[] items)
 ```
 
 
-يُنشئ مثلاً جديداً من الفئة [XmpArray](../../com.aspose.imaging/xmp/xmparray) class.
+ينشئ مثيلاً جديداً من الفئة [XmpArray](../../com.aspose.imaging.xmp/xmparray).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,17 +63,17 @@ public final String[] getValues()
 ```
 
 
-يحصل على مصفوفة القيم داخل [XmpArray](../../com.aspose.imaging/xmp/xmparray).
+يحصل على مصفوفة القيم داخل [XmpArray](../../com.aspose.imaging.xmp/xmparray).
 
 **Returns:**
-java.lang.String[] - مصفوفة القيم داخل [XmpArray](../../com.aspose.imaging/xmp/xmparray).
+java.lang.String[] - مصفوفة القيم داخل [XmpArray](../../com.aspose.imaging.xmp/xmparray).
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

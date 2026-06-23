@@ -17,7 +17,7 @@ public final class EmfPlusUnitType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [UnitTypeWorld](#UnitTypeWorld) | يحدد وحدة مسافة منطقية داخل الفضاء العالمي. |
+| [UnitTypeWorld](#UnitTypeWorld) | يحدد وحدة مسافة منطقية داخل مساحة العالم. |
 | [UnitTypeDisplay](#UnitTypeDisplay) | يحدد وحدة مسافة بناءً على خصائص العرض الفعلي. |
 | [UnitTypePixel](#UnitTypePixel) | يحدد وحدة مقدارها بكسل واحد. |
 | [UnitTypePoint](#UnitTypePoint) | يحدد وحدة مقدارها نقطة طابعة واحدة، أو 1/72 بوصة. |
@@ -30,7 +30,7 @@ public static final int UnitTypeWorld
 ```
 
 
-يحدد وحدة مسافة منطقية داخل الفضاء العالمي.
+يحدد وحدة مسافة منطقية داخل مساحة العالم.
 
 ### UnitTypeDisplay {#UnitTypeDisplay}
 ```
@@ -38,7 +38,7 @@ public static final int UnitTypeDisplay
 ```
 
 
-يحدد وحدة مسافة بناءً على خصائص العرض الفعلي. على سبيل المثال، إذا كان جهاز العرض شاشة، فإن الوحدة تكون بكسلًا واحدًا.
+يحدد وحدة مسافة بناءً على خصائص العرض الفعلي. على سبيل المثال، إذا كان جهاز العرض هو شاشة، فإن الوحدة تكون بكسل واحد.
 
 ### UnitTypePixel {#UnitTypePixel}
 ```

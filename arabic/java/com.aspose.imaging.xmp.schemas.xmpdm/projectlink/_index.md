@@ -26,7 +26,7 @@ public final class ProjectLink extends XmpTypeBase
 | [setPath(String value)](#setPath-java.lang.String-) | يحصل أو يعيّن المسار الكامل للمشروع. |
 | [getType()](#getType--) | يحصل أو يعيّن نوع الملف. |
 | [setType(int value)](#setType-int-) | يحصل أو يعيّن نوع الملف. |
-| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة النصية المحتواة بتنسيق XMP. |
+| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة المحتواة كسلسلة بصيغة XMP. |
 ### ProjectLink() {#ProjectLink--}
 ```
 public ProjectLink()
@@ -58,7 +58,7 @@ public void setPath(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getType() {#getType--}
 ```
@@ -85,7 +85,7 @@ public void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -93,7 +93,7 @@ public String getXmpRepresentation()
 ```
 
 
-يرجع القيمة النصية المحتواة بتنسيق XMP.
+يرجع القيمة المحتواة كسلسلة بصيغة XMP.
 
 **Returns:**
-java.lang.String - يُرجِع سلسلة تحتوي على تمثيل xmp.
+java.lang.String - يُعيد سلسلة تحتوي على تمثيل xmp.

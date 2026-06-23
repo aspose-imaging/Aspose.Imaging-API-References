@@ -1,7 +1,7 @@
 ---
 title: "EventType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "هذا التعداد يصف أنواع أحداث التقدم الممكنة التي يمكن أن تحدث أثناء عمليات معالجة الصورة."
+description: "هذا التعداد يصف أنواع أحداث التقدم الممكنة التي قد تحدث أثناء عمليات معالجة الصورة."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.progressmanagement/eventtype/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum EventType extends Enum<EventType>
 ```
 
-هذا التعداد يصف أنواع أحداث التقدم الممكنة التي يمكن أن تحدث أثناء عمليات معالجة الصورة.
+هذا التعداد يصف أنواع أحداث التقدم الممكنة التي قد تحدث أثناء عمليات معالجة الصورة.
 ## الحقول
 
 | حقل | الوصف |

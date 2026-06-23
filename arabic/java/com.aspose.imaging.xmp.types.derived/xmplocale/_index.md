@@ -31,5 +31,5 @@ public XmpLocale(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 

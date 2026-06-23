@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging/fileformats/tiff/filemanagement/tiffstreamreader)
 ```
 public class TiffBigEndianStreamReader extends TiffStreamReader
 ```
@@ -17,17 +17,17 @@ public class TiffBigEndianStreamReader extends TiffStreamReader
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffBigEndianStreamReader(byte[] data)](#TiffBigEndianStreamReader-byte---) | ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
-| [TiffBigEndianStreamReader(byte[] data, int startIndex)](#TiffBigEndianStreamReader-byte---int-) | ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
-| [TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)](#TiffBigEndianStreamReader-byte---int-int-) | ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
-| [TiffBigEndianStreamReader(StreamContainer streamContainer)](#TiffBigEndianStreamReader-com.aspose.imaging.StreamContainer-) | ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
+| [TiffBigEndianStreamReader(byte[] data)](#TiffBigEndianStreamReader-byte---) | ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
+| [TiffBigEndianStreamReader(byte[] data, int startIndex)](#TiffBigEndianStreamReader-byte---int-) | ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
+| [TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)](#TiffBigEndianStreamReader-byte---int-int-) | ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
+| [TiffBigEndianStreamReader(StreamContainer streamContainer)](#TiffBigEndianStreamReader-com.aspose.imaging.StreamContainer-) | ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader). |
 ### TiffBigEndianStreamReader(byte[] data) {#TiffBigEndianStreamReader-byte---}
 ```
 public TiffBigEndianStreamReader(byte[] data)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
+ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -40,7 +40,7 @@ public TiffBigEndianStreamReader(byte[] data, int startIndex)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
+ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -54,7 +54,7 @@ public TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
+ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -69,7 +69,7 @@ public TiffBigEndianStreamReader(StreamContainer streamContainer)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
+ينشئ مثيلاً جديدًا من الفئة [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader).
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "EmfPolylineTo16"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_POLYLINETO16 يحدد خطًا أو أكثر مستقيمًا استنادًا إلى الموضع الحالي."
+description: "سجل EMR_POLYLINETO16 يحدد خطًا أو أكثر مستقيمًا بناءً على الموضع الحالي."
 type: docs
 weight: 104
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolylineTo16 extends EmfPolyShape
 ```
 
-سجل EMR\\_POLYLINETO16 يحدد خطًا أو أكثر مستقيمًا استنادًا إلى الموضع الحالي. يتم رسم خط من الموضع الحالي إلى أول نقطة يحددها الحقل aPoints باستخدام القلم الحالي. لكل خط إضافي، يتم الرسم من نقطة نهاية الخط السابق إلى النقطة التالية التي يحددها aPoints.
+سجل EMR\_POLYLINETO16 يحدد خطًا واحدًا أو أكثر مستقيمًا استنادًا إلى الموضع الحالي. يتم رسم خط من الموضع الحالي إلى أول نقطة يحددها حقل aPoints باستخدام القلم الحالي. لكل خط إضافي، يتم الرسم من نقطة النهاية للخط السابق إلى النقطة التالية المحددة بواسطة aPoints.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPolylineTo16(EmfRecord source)](#EmfPolylineTo16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا من الفئة `EmfPolylineTo16`. |
-| [EmfPolylineTo16()](#EmfPolylineTo16--) | يُنشئ مثيلاً جديدًا من الفئة `EmfPolylineTo16`. |
+| [EmfPolylineTo16(EmfRecord source)](#EmfPolylineTo16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPolylineTo16`. |
+| [EmfPolylineTo16()](#EmfPolylineTo16--) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPolylineTo16`. |
 ### EmfPolylineTo16(EmfRecord source) {#EmfPolylineTo16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolylineTo16(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfPolylineTo16`.
+يقوم بتهيئة نسخة جديدة من الفئة `EmfPolylineTo16`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,5 +38,5 @@ public EmfPolylineTo16()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfPolylineTo16`.
+يقوم بتهيئة نسخة جديدة من الفئة `EmfPolylineTo16`.
 

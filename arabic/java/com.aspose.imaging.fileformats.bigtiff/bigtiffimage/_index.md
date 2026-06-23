@@ -1,7 +1,7 @@
 ---
 title: "BigTiffImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مع الفئة يمكنك بسهولة التعامل مع ملفات تنسيق صورة BigTiff."
+description: "مع الفئة  يمكنك بسهولة التعامل مع ملفات تنسيق صورة BigTiff."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.bigtiff/bigtiffimage/
@@ -12,26 +12,26 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class BigTiffImage extends TiffImage
 ```
 
-مع الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) يمكنك بسهولة التعامل مع ملفات تنسيق صورة BigTiff. تقدم واجهة برمجة التطبيقات الخاصة بنا معالجة سلسة وخيارات تخصيص، مما يضمن معالجة مثالية لبيانات الصور على نطاق واسع مع ميزات متعددة تم تصميمها لتلبية متطلباتك المحددة.
+مع الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) يمكنك بسهولة التعامل مع ملفات تنسيق صورة BigTiff. تقدم واجهة برمجة التطبيقات الخاصة بنا معالجة سلسة وخيارات تخصيص، مما يضمن معالجة مثالية لبيانات الصور الكبيرة الحجم بميزات متعددة تم تصميمها لتلبية متطلباتك الخاصة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BigTiffImage(TiffFrame frame)](#BigTiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أنشئ مثيلاً جديدًا من الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) عن طريق تهيئته بمعامل TiffFrame. |
-| [BigTiffImage(TiffFrame[] frames)](#BigTiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame---) | ابدأ باستخدام الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) بسلاسة عن طريق تهيئة مثيل جديد مع قائمة من معاملات TiffFrames. |
+| [BigTiffImage(TiffFrame frame)](#BigTiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-) | أنشئ نسخة جديدة من الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) عن طريق تهيئتها بمعامل TiffFrame. |
+| [BigTiffImage(TiffFrame[] frames)](#BigTiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame---) | ابدأ باستخدام الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) بسلاسة عن طريق تهيئة نسخة جديدة مع قائمة من معاملات TiffFrames. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف لهذا المثيل [Image](../../com.aspose.imaging/image). |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | قم بتوسيع صورة BigTiff الخاصة بك بسهولة عن طريق إضافة صفحة جديدة باستخدام هذه الطريقة البديهية. |
+| [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف لهذه النسخة من الفئة [Image](../../com.aspose.imaging/image). |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | قم بتوسيع صورة BigTiff الخاصة بك بسهولة بإضافة صفحة جديدة باستخدام هذه الطريقة البديهية. |
 ### BigTiffImage(TiffFrame frame) {#BigTiffImage-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
 public BigTiffImage(TiffFrame frame)
 ```
 
 
-أنشئ مثيلاً جديدًا من الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) عن طريق تهيئته بمعامل TiffFrame. مثالي للمطورين الذين يبحثون عن طريقة مريحة للعمل مع كائنات BigTiffImage، مما يضمن المرونة وسهولة التكامل في مشاريعهم.
+أنشئ نسخة جديدة من الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) عن طريق تهيئتها بمعامل TiffFrame. مثالية للمطورين الذين يبحثون عن طريقة مريحة للعمل مع كائنات BigTiffImage، مما يضمن المرونة وسهولة التكامل في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public BigTiffImage(TiffFrame[] frames)
 ```
 
 
-ابدأ باستخدام الفئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) بسلاسة عن طريق تهيئة مثيل جديد مع قائمة من معاملات TiffFrames. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للعمل مع كائنات BigTiffImage التي تحتوي على إطارات متعددة، مما يضمن كفاءة مشاريعهم.
+ابدأ باستخدام فئة [BigTiffImage](../../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) بسلاسة عن طريق تهيئة نسخة جديدة مع معلمة قائمة TiffFrames. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للعمل مع كائنات BigTiffImage التي تحتوي على إطارات متعددة، مما يضمن كفاءة مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -57,20 +57,20 @@ public long getFileFormat()
 ```
 
 
-يحصل على تنسيق الملف لهذا المثيل [Image](../../com.aspose.imaging/image).
+يحصل على تنسيق الملف لهذه النسخة من الفئة [Image](../../com.aspose.imaging/image).
 
 **Returns:**
-long - تنسيق الملف لهذا المثيل [Image](../../com.aspose.imaging/image).
+long - تنسيق الملف لهذه النسخة من [Image](../../com.aspose.imaging/image).
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```
 public void addPage(RasterImage page)
 ```
 
 
-قم بتوسيع صورة BigTiff الخاصة بك بسهولة عن طريق إضافة صفحة جديدة باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يسعون إلى تعزيز محتوى صورهم متعددة الصفحات ديناميكيًا.
+قم بتوسيع صورة BigTiff الخاصة بك بسهولة بإضافة صفحة جديدة باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يرغبون في تحسين محتوى صورهم متعددة الصفحات ديناميكياً.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة التي سيتم إضافتها. |
+| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة المراد إضافتها. |
 

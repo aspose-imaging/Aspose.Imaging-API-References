@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusScaleWorldTransform"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusScaleWorldTransform ينفّذ تحجيمًا على تحويل الفضاء العالمي الحالي."
+description: "سجل EmfPlusScaleWorldTransform ينفّذ تحجيمًا على تحويل الفضاء العالمي الحالي."
 type: docs
 weight: 52
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/
@@ -12,28 +12,28 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusScaleWorldTransform extends EmfPlusTerminalServerRecordType
 ```
 
-يسجل EmfPlusScaleWorldTransform ينفّذ تحجيمًا على تحويل الفضاء العالمي الحالي.
+سجل EmfPlusScaleWorldTransform ينفّذ تحجيمًا على تحويل الفضاء العالمي الحالي.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusScaleWorldTransform(EmfPlusRecord source)](#EmfPlusScaleWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ نسخة جديدة من الفئة `EmfPlusScaleWorldTransform`. |
+| [EmfPlusScaleWorldTransform(EmfPlusRecord source)](#EmfPlusScaleWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusScaleWorldTransform`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. |
-| [getSx()](#getSx--) | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس الأفقي. |
-| [setSx(float value)](#setSx-float-) | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس الأفقي. |
-| [getSy()](#getSy--) | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس العمودي. |
-| [setSy(float value)](#setSy-float-) | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس العمودي. |
+| [getSx()](#getSx--) | يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم الأفقي. |
+| [setSx(float value)](#setSx-float-) | يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم الأفقي. |
+| [getSy()](#getSy--) | يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم العمودي. |
+| [setSy(float value)](#setSy-float-) | يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم العمودي. |
 ### EmfPlusScaleWorldTransform(EmfPlusRecord source) {#EmfPlusScaleWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusScaleWorldTransform(EmfPlusRecord source)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `EmfPlusScaleWorldTransform`.
+ينشئ مثيلًا جديدًا من الفئة `EmfPlusScaleWorldTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت [مصفوفة مضروبة لاحقًا]. إذا تم التعيين، يجب أن تُضرب مصفوفة التحويل لاحقًا. إذا لم يتم التعيين، يجب أن تُضرب مسبقًا.
+يحصل على قيمة تُظهر ما إذا كان [post multiplied matrix]. إذا تم ضبطه، يجب أن تُضرب مصفوفة التحويل بعديًا. إذا لم يُضبط، يجب أن تُضرب مسبقًا.
 
 القيمة: `true` إذا كان [post multiplied matrix]؛ وإلا `false`.
 
@@ -58,7 +58,7 @@ public float getSx()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس الأفقي. يتم إجراء التحجيم بإنشاء مصفوفة تحويل جديدة من قيم الحقول Sx وSy، كما هو موضح في الجدول التالي. ----------------- | Sx | 0 | 0 | | 0 | Sx | 0 | ----------------- الشكل 3: مصفوفة تحويل المقياس
+يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم الأفقي. يتم إجراء التحجيم بإنشاء مصفوفة تحويل جديدة من قيم الحقول Sx و Sy، كما هو موضح في الجدول التالي. ----------------- | Sx | 0 | 0 | | 0 | Sx | 0 | ----------------- الشكل 3: مصفوفة تحويل التحجيم
 
 **Returns:**
 float
@@ -68,12 +68,12 @@ public void setSx(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس الأفقي. يتم إجراء التحجيم بإنشاء مصفوفة تحويل جديدة من قيم الحقول Sx وSy، كما هو موضح في الجدول التالي. ----------------- | Sx | 0 | 0 | | 0 | Sx | 0 | ----------------- الشكل 3: مصفوفة تحويل المقياس
+يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم الأفقي. يتم إجراء التحجيم بإنشاء مصفوفة تحويل جديدة من قيم الحقول Sx و Sy، كما هو موضح في الجدول التالي. ----------------- | Sx | 0 | 0 | | 0 | Sx | 0 | ----------------- الشكل 3: مصفوفة تحويل التحجيم
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getSy() {#getSy--}
 ```
@@ -81,7 +81,7 @@ public float getSy()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس العمودي.
+يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم العمودي.
 
 **Returns:**
 float
@@ -91,10 +91,10 @@ public void setSy(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32‑بت تحدد عامل المقياس العمودي.
+يحصل أو يضبط قيمة عائمة 32-بت تحدد عامل التحجيم العمودي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 

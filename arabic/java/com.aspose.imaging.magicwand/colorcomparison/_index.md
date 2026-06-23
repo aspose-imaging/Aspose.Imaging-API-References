@@ -1,7 +1,7 @@
 ---
 title: "MagicWandSettings.ColorComparison"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مفوض للمقارنة بحد معرف."
+description: "المندوب للمقارنة مع حد معرف."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.magicwand/magicwandsettings.colorcomparison/

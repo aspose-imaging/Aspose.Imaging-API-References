@@ -1,7 +1,7 @@
 ---
 title: "AfterPageExportAction"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إجراء ما بعد تصدير الصفحة"
+description: "الإجراء بعد تصدير الصفحة"
 type: docs
 weight: 56
 url: /ar/java/com.aspose.imaging.imageoptions/afterpageexportaction/

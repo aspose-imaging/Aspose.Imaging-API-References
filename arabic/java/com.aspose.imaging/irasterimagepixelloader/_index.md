@@ -29,6 +29,6 @@ public abstract void loadPartialPixels(Rectangle rectangle, IPartialPixelLoader 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 | partialPixelLoader | [IPartialPixelLoader](../../com.aspose.imaging/ipartialpixelloader) | المحمّل الجزئي. |
 

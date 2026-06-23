@@ -7,7 +7,7 @@ weight: 26
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfdeleteobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfDeleteObject extends WmfObject
 ```
@@ -17,8 +17,8 @@ public class WmfDeleteObject extends WmfObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfDeleteObject(WmfGraphicObject deletedObject)](#WmfDeleteObject-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | يُنشئ مثيلًا جديدًا من الفئة `WmfDeleteObject`. |
-| [WmfDeleteObject()](#WmfDeleteObject--) | يُنشئ مثيلًا جديدًا من الفئة `WmfDeleteObject`. |
+| [WmfDeleteObject(WmfGraphicObject deletedObject)](#WmfDeleteObject-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | ينشئ مثيلاً جديداً من الفئة `WmfDeleteObject`. |
+| [WmfDeleteObject()](#WmfDeleteObject--) | ينشئ مثيلاً جديداً من الفئة `WmfDeleteObject`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,7 +31,7 @@ public WmfDeleteObject(WmfGraphicObject deletedObject)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `WmfDeleteObject`.
+ينشئ مثيلاً جديداً من الفئة `WmfDeleteObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public WmfDeleteObject()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `WmfDeleteObject`.
+ينشئ مثيلاً جديداً من الفئة `WmfDeleteObject`.
 
 ### getObjectIndex() {#getObjectIndex--}
 ```
@@ -71,5 +71,5 @@ public void setObjectIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

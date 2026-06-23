@@ -17,9 +17,9 @@ public class TiffRational
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffRational()](#TiffRational--) | ينشئ مثيلاً جديداً من الفئة `TiffRational`. |
-| [TiffRational(long value)](#TiffRational-long-) | ينشئ مثيلاً جديداً من الفئة `TiffRational`. |
-| [TiffRational(long nominator, long denominator)](#TiffRational-long-long-) | ينشئ مثيلاً جديداً من الفئة `TiffRational`. |
+| [TiffRational()](#TiffRational--) | ينشئ مثلاً جديداً من الفئة `TiffRational`. |
+| [TiffRational(long value)](#TiffRational-long-) | ينشئ مثلاً جديداً من الفئة `TiffRational`. |
+| [TiffRational(long nominator, long denominator)](#TiffRational-long-long-) | ينشئ مثلاً جديداً من الفئة `TiffRational`. |
 ## الحقول
 
 | حقل | الوصف |
@@ -38,15 +38,15 @@ public class TiffRational
 | [getValue()](#getValue--) | يحصل على قيمة الفاصلة العائمة. |
 | [getValueD()](#getValueD--) | يحصل على قيمة مزدوجة. |
 | [toString()](#toString--) | يحول إلى سلسلة. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Object` المحدد يساوي هذه المثيلة. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Object` المحدد يساوي هذه الحالة. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
 ### TiffRational() {#TiffRational--}
 ```
 public TiffRational()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffRational`.
+ينشئ مثلاً جديداً من الفئة `TiffRational`.
 
 ### TiffRational(long value) {#TiffRational-long-}
 ```
@@ -54,12 +54,12 @@ public TiffRational(long value)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffRational`.
+ينشئ مثلاً جديداً من الفئة `TiffRational`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | long | قيمة البسط. |
+|  | value | long | قيمة البسط. |
 
 سيتم استخدام البسط كالقيمة المحددة وسيكون المقام مساوياً لـ 1. |
 
@@ -69,7 +69,7 @@ public TiffRational(long nominator, long denominator)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffRational`.
+ينشئ مثلاً جديداً من الفئة `TiffRational`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -96,8 +96,8 @@ public static TiffRational approximateFraction(double value, double epsilon)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة. |
-| الإبسيلون | double | الخطأ المسموح به. |
+| value | double | القيمة. |
+| إبسيلون | double | الخطأ المسموح به. |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `epsilon`.
@@ -112,7 +112,7 @@ public static TiffRational approximateFraction(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة. |
+| value | double | القيمة. |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `Epsilon`.
@@ -127,8 +127,8 @@ public static TiffRational approximateFraction(float value, double epsilon)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة. |
-| الإبسيلون | double | الخطأ المسموح به. |
+| value | float | القيمة. |
+| إبسيلون | double | الخطأ المسموح به. |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `epsilon`.
@@ -143,7 +143,7 @@ public static TiffRational approximateFraction(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة. |
+| value | float | القيمة. |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `Epsilon`.
@@ -191,7 +191,7 @@ public double getValueD()
 
 يحصل على قيمة مزدوجة.
 
-القيمة: القيمة المزدوجة.
+القيمة: قيمة مزدوجة.
 
 **Returns:**
 double
@@ -211,22 +211,22 @@ public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان `Object` المحدد يساوي هذه المثيلة.
+يحدد ما إذا كان `Object` المحدد يساوي هذه الحالة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | ال `Object` للمقارنة مع هذه الحالة. |
+| obj | java.lang.Object | الكائن `Object` للمقارنة مع هذه المثيلة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `Object` المحدد يساوي هذه الحالة؛ وإلا `false`.
+منطقية - `true` إذا كان الـ `Object` المحدد مساويًا لهذه المثيلة؛ وإلا `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.

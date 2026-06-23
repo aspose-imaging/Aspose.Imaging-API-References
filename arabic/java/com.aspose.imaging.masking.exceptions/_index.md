@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.masking.exceptions/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ImageMaskingException](../com.aspose.imaging.masking.exceptions/imagemaskingexception) | الاستثناءات المحددة لنظام إخفاء الصور. |

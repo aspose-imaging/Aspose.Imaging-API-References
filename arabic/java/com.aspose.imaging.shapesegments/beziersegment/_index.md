@@ -1,23 +1,23 @@
 ---
 title: "BezierSegment"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مقطع بيزيير ينتقل من نقطة إلى النقطة التالية باستخدام نقطتي تحكم."
+description: "مقطع بيزيير الذي ينتقل من نقطة إلى النقطة التالية باستخدام نقطتي تحكم."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.shapesegments/beziersegment/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.ShapeSegment](../../com.aspose.imaging/shapesegment), [com.aspose.imaging.shapesegments.LineSegment](../../com.aspose.imaging.shapesegments/linesegment)
+java.lang.Object، [com.aspose.imaging.ShapeSegment](../../com.aspose.imaging/shapesegment), [com.aspose.imaging.shapesegments.LineSegment](../../com.aspose.imaging.shapesegments/linesegment)
 ```
 public final class BezierSegment extends LineSegment
 ```
 
-مقطع بيزيير ينتقل من نقطة إلى النقطة التالية باستخدام نقطتي تحكم.
+مقطع بيزيير الذي ينتقل من نقطة إلى النقطة التالية باستخدام نقطتي تحكم.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondControlPoint, PointF endPoint)](#BezierSegment-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يُهيئ مثيلاً جديداً من الفئة `BezierSegment`. |
+| [BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondControlPoint, PointF endPoint)](#BezierSegment-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | ينشئ مثيلاً جديداً من الفئة `BezierSegment`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondC
 ```
 
 
-يُهيئ مثيلاً جديداً من الفئة `BezierSegment`.
+ينشئ مثيلاً جديداً من الفئة `BezierSegment`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

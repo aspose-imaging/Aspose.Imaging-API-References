@@ -1,20 +1,20 @@
 ---
 title: "EmfScaleViewportExtex"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_SCALEVIEWPORTEXTEX يعيد تحديد مساحة العرض لسياق الجهاز باستخدام النسب التي تكونها المضاعفات والمقاسم المحددة."
+description: "سجل EMR_SCALEVIEWPORTEXTEX يعيد تحديد منطقة العرض لسياق الجهاز باستخدام النسب التي تتكون من المضاعفات والمقاسم المحددة."
 type: docs
 weight: 113
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfScaleViewportExtex extends EmfStateRecordType
 ```
 
-سجل EMR\_SCALEVIEWPORTEXTEX يعيد تحديد نافذة العرض لسياق الجهاز باستخدام النسب المكوّنة من المضاعفات والقواسم المحددة.
+السجل EMR\_SCALEVIEWPORTEXTEX يعيد تحديد نافذة العرض لسياق الجهاز باستخدام النسب التي تكونها المضاعفات والقواسم المحددة.
 
-لا يمكن تغيير الامتداد إذا كان سياق الجهاز يستخدم وضع تعيين مقياس ثابت. فقط MM\_ISOTROPIC و MM\_ANISOTROPIC ليسا بمقياس ثابت. يتم تعديل امتدادات مساحة العرض كما يلي. xNewWE = (xOldWE \* xNum) / xDenom yNewWE = (yOldWE \* yNum) / yDenom
+لا يمكن تغيير الامتداد إذا كان سياق الجهاز يستخدم وضع تخطيط مقياس ثابت. فقط MM\_ISOTROPIC و MM\_ANISOTROPIC ليسا بمقياس ثابت. يتم تعديل امتدادات منطقة العرض كما يلي. xNewWE = (xOldWE \* xNum) / xDenom yNewWE = (yOldWE \* yNum) / yDenom
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -25,14 +25,14 @@ public final class EmfScaleViewportExtex extends EmfStateRecordType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getXNum()](#getXNum--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف الأفقي. |
-| [setXNum(int value)](#setXNum-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف الأفقي. |
-| [getXDenom()](#getXDenom--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم الأفقي. |
-| [setXDenom(int value)](#setXDenom-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم الأفقي. |
-| [getYNum()](#getYNum--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف العمودي. |
-| [setYNum(int value)](#setYNum-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف العمودي. |
-| [getYDenom()](#getYDenom--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم العمودي. |
-| [setYDenom(int value)](#setYDenom-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم العمودي. |
+| [getXNum()](#getXNum--) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف الأفقي. |
+| [setXNum(int value)](#setXNum-int-) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف الأفقي. |
+| [getXDenom()](#getXDenom--) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم الأفقي. |
+| [setXDenom(int value)](#setXDenom-int-) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم الأفقي. |
+| [getYNum()](#getYNum--) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف العمودي. |
+| [setYNum(int value)](#setYNum-int-) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف العمودي. |
+| [getYDenom()](#getYDenom--) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم العمودي. |
+| [setYDenom(int value)](#setYDenom-int-) | يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم العمودي. |
 ### EmfScaleViewportExtex(EmfRecord source) {#EmfScaleViewportExtex-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfScaleViewportExtex(EmfRecord source)
@@ -60,7 +60,7 @@ public int getXNum()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف الأفقي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف الأفقي. لا يمكن أن يكون صفرًا.
 
 **Returns:**
 int
@@ -70,12 +70,12 @@ public void setXNum(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف الأفقي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف الأفقي. لا يمكن أن يكون صفرًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getXDenom() {#getXDenom--}
 ```
@@ -83,7 +83,7 @@ public int getXDenom()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم الأفقي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم الأفقي. لا يمكن أن يكون صفرًا.
 
 **Returns:**
 int
@@ -93,12 +93,12 @@ public void setXDenom(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم الأفقي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم الأفقي. لا يمكن أن يكون صفرًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getYNum() {#getYNum--}
 ```
@@ -106,7 +106,7 @@ public int getYNum()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف العمودي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف العمودي. لا يمكن أن يكون صفرًا.
 
 **Returns:**
 int
@@ -116,12 +116,12 @@ public void setYNum(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد المضاعف العمودي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المضاعف العمودي. لا يمكن أن يكون صفرًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getYDenom() {#getYDenom--}
 ```
@@ -129,7 +129,7 @@ public int getYDenom()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم العمودي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم العمودي. لا يمكن أن يكون صفرًا.
 
 **Returns:**
 int
@@ -139,10 +139,10 @@ public void setYDenom(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد القاسم العمودي. لا يمكن أن يكون صفرًا.
+يحصل أو يعيّن عددًا صحيحًا موقّعًا 32-bit يحدد المقسّم العمودي. لا يمكن أن يكون صفرًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

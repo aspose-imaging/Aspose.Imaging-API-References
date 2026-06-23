@@ -29,12 +29,12 @@ public class RawDataSettings
 | [setColorPalette(IColorPalette value)](#setColorPalette-com.aspose.imaging.IColorPalette-) | يضبط لوحة الألوان |
 | [getDitheringMethod()](#getDitheringMethod--) | يحصل على طريقة التمويه المستخدمة لتحويل البيانات الخام |
 | [setDitheringMethod(int value)](#setDitheringMethod-int-) | يضبط طريقة التمويه المستخدمة لتحويل البيانات الخام |
-| [getIndexedColorConverter()](#getIndexedColorConverter--) | يحصل على محول الألوان المفهرسة |
-| [setIndexedColorConverter(IIndexedColorConverter value)](#setIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | يضبط محول الألوان المفهرسة |
-| [getCustomColorConverter()](#getCustomColorConverter--) | يحصل على محول الألوان المخصص |
-| [setCustomColorConverter(IColorConverter value)](#setCustomColorConverter-com.aspose.imaging.IColorConverter-) | يضبط محول الألوان المخصص |
-| [getFallbackIndex()](#getFallbackIndex--) | يحصل على الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق |
-| [setFallbackIndex(int value)](#setFallbackIndex-int-) | يضبط الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق |
+| [getIndexedColorConverter()](#getIndexedColorConverter--) | يحصل على محول اللون المفهرس |
+| [setIndexedColorConverter(IIndexedColorConverter value)](#setIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | يضبط محول اللون المفهرس |
+| [getCustomColorConverter()](#getCustomColorConverter--) | يحصل على محول اللون المخصص |
+| [setCustomColorConverter(IColorConverter value)](#setCustomColorConverter-com.aspose.imaging.IColorConverter-) | يضبط محول اللون المخصص |
+| [getFallbackIndex()](#getFallbackIndex--) | يحصل على الفهرس الاحتياطي المستخدم عندما يكون فهرس اللوحة خارج النطاق |
+| [setFallbackIndex(int value)](#setFallbackIndex-int-) | يضبط الفهرس الاحتياطي المستخدم عندما يكون فهرس اللوحة خارج النطاق |
 | [getLineSize()](#getLineSize--) | يحصل على حجم سطر البكسلات بالبايت لمعالجة البيانات الخام |
 | [setLineSize(int value)](#setLineSize-int-) | يضبط حجم سطر البكسلات بالبايت لمعالجة البيانات الخام |
 | [<T>copy()](#-T-copy--) | ينشئ نسخة سطحية. |
@@ -52,12 +52,12 @@ public RawDataSettings(RawDataSettings origin)
 ```
 
 
-تهيئة نسخة من `origin`. تُستخدم في [copy()](../../com.aspose.imaging/rawdatasettings\\#copy--).
+تهيئة نسخة من `origin`. تُستخدم في [copy()](../../com.aspose.imaging/rawdatasettings\#copy--).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| origin | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | الكائن الذي سيتم نسخ منه. |
+| origin | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | الكائن لعمل نسخة منه. |
 
 ### getPixelDataFormat() {#getPixelDataFormat--}
 ```
@@ -126,7 +126,7 @@ public void setDitheringMethod(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | طريقة التمويه المستخدمة لتحويل البيانات الخام |
+| value | int | طريقة التمويه المستخدمة لتحويل البيانات الخام |
 
 ### getIndexedColorConverter() {#getIndexedColorConverter--}
 ```
@@ -134,7 +134,7 @@ public IIndexedColorConverter getIndexedColorConverter()
 ```
 
 
-يحصل على محول الألوان المفهرسة
+يحصل على محول اللون المفهرس
 
 **Returns:**
 [IIndexedColorConverter](../../com.aspose.imaging/iindexedcolorconverter) - The indexed color converter
@@ -144,12 +144,12 @@ public void setIndexedColorConverter(IIndexedColorConverter value)
 ```
 
 
-يضبط محول الألوان المفهرسة
+يضبط محول اللون المفهرس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [IIndexedColorConverter](../../com.aspose.imaging/iindexedcolorconverter) | محول الألوان المفهرسة |
+| value | [IIndexedColorConverter](../../com.aspose.imaging/iindexedcolorconverter) | محول اللون المفهرس |
 
 ### getCustomColorConverter() {#getCustomColorConverter--}
 ```
@@ -157,7 +157,7 @@ public IColorConverter getCustomColorConverter()
 ```
 
 
-يحصل على محول الألوان المخصص
+يحصل على محول اللون المخصص
 
 **Returns:**
 [IColorConverter](../../com.aspose.imaging/icolorconverter) - The custom color converter
@@ -167,12 +167,12 @@ public void setCustomColorConverter(IColorConverter value)
 ```
 
 
-يضبط محول الألوان المخصص
+يضبط محول اللون المخصص
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [IColorConverter](../../com.aspose.imaging/icolorconverter) | محول الألوان المخصص |
+| value | [IColorConverter](../../com.aspose.imaging/icolorconverter) | محول اللون المخصص |
 
 ### getFallbackIndex() {#getFallbackIndex--}
 ```
@@ -180,22 +180,22 @@ public int getFallbackIndex()
 ```
 
 
-يحصل على الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق
+يحصل على الفهرس الاحتياطي المستخدم عندما يكون فهرس اللوحة خارج النطاق
 
 **Returns:**
-int - الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق
+int - الفهرس الاحتياطي المستخدم عندما يكون فهرس اللوحة خارج النطاق
 ### setFallbackIndex(int value) {#setFallbackIndex-int-}
 ```
 public void setFallbackIndex(int value)
 ```
 
 
-يضبط الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق
+يضبط الفهرس الاحتياطي المستخدم عندما يكون فهرس اللوحة خارج النطاق
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق |
+| value | int | فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق |
 
 ### getLineSize() {#getLineSize--}
 ```
@@ -218,7 +218,7 @@ public void setLineSize(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | حجم سطر البكسلات بالبايت لمعالجة البيانات الخام |
+| value | int | حجم سطر البكسلات بالبايت لمعالجة البيانات الخام |
 
 ### <T>copy() {#-T-copy--}
 ```

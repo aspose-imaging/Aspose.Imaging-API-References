@@ -12,35 +12,35 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfCreateColorSpaceW extends EmfObjectCreationRecordType
 ```
 
-سجل EMR_CREATECOLORSPACEW ينشئ كائن مساحة لون منطقية من ملف تعريف لون يحمل اسمًا مكوّنًا من أحرف Unicode.
+سجل EMR\_CREATECOLORSPACEW ينشئ كائن مساحة ألوان منطقية من ملف تعريف ألوان يحمل اسمًا مكوّنًا من أحرف Unicode.
 
-يمكن اختيار كائن مساحة اللون المنطقي المحدد بواسطة هذا السجل إلى سياق جهاز التشغيل بواسطة سجل EMR\_SETCOLORSPACE (القسم 2.3.8.7)، الذي يحدد مساحة اللون المنطقية المستخدمة في عمليات الرسومات اللاحقة.
+يمكن اختيار كائن مساحة اللون المنطقي المحدد بواسطة هذا السجل في سياق جهاز التشغيل بواسطة سجل EMR\_SETCOLORSPACE (القسم 2.3.8.7)، الذي يحدد مساحة اللون المنطقية المستخدمة في عمليات الرسوميات اللاحقة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfCreateColorSpaceW(EmfRecord source)](#EmfCreateColorSpaceW-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfCreateColorSpaceW`. |
+| [EmfCreateColorSpaceW(EmfRecord source)](#EmfCreateColorSpaceW-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfCreateColorSpaceW`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIhCS()](#getIhCS--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). |
-| [setIhCS(int value)](#setIhCS-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). |
-| [getLcs()](#getLcs--) | الحصول أو تعيين كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون في أحرف Unicode UTF16-LE |
-| [setLcs(WmfLogColorSpaceW value)](#setLcs-com.aspose.imaging.fileformats.wmf.objects.WmfLogColorSpaceW-) | الحصول أو تعيين كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون في أحرف Unicode UTF16-LE |
-| [getDwFlags()](#getDwFlags--) | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يوفر معلومات حول البيانات في هذا السجل. |
-| [setDwFlags(int value)](#setDwFlags-int-) | الحصول أو تعيين عدد صحيح غير موقع 32‑بت يوفر معلومات حول البيانات في هذا السجل. |
-| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. |
-| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. |
-| [getData()](#getData--) | الحصول أو تعيين مصفوفة اختيارية من البايتات تحدد بيانات ملف تعريف اللون. |
-| [setData(byte[] value)](#setData-byte---) | الحصول أو تعيين مصفوفة اختيارية من البايتات تحدد بيانات ملف تعريف اللون. |
+| [getIhCS()](#getIhCS--) | يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). |
+| [setIhCS(int value)](#setIhCS-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). |
+| [getLcs()](#getLcs--) | يحصل أو يعيّن كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون بأحرف Unicode UTF16-LE |
+| [setLcs(WmfLogColorSpaceW value)](#setLcs-com.aspose.imaging.fileformats.wmf.objects.WmfLogColorSpaceW-) | يحصل أو يعيّن كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون بأحرف Unicode UTF16-LE |
+| [getDwFlags()](#getDwFlags--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يوفر معلومات حول البيانات في هذا السجل. |
+| [setDwFlags(int value)](#setDwFlags-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يوفر معلومات حول البيانات في هذا السجل. |
+| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. |
+| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. |
+| [getData()](#getData--) | يحصل أو يعيّن مصفوفة اختيارية من البايتات التي تحدد بيانات ملف تعريف اللون. |
+| [setData(byte[] value)](#setData-byte---) | يحصل أو يعيّن مصفوفة اختيارية من البايتات التي تحدد بيانات ملف تعريف اللون. |
 ### EmfCreateColorSpaceW(EmfRecord source) {#EmfCreateColorSpaceW-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCreateColorSpaceW(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfCreateColorSpaceW`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfCreateColorSpaceW`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,7 +53,7 @@ public int getIhCS()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
+يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
 
 **Returns:**
 int
@@ -63,12 +63,12 @@ public void setIhCS(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
+يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد فهرس كائن مساحة اللون المنطقية في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getLcs() {#getLcs--}
 ```
@@ -76,7 +76,7 @@ public WmfLogColorSpaceW getLcs()
 ```
 
 
-الحصول أو تعيين كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون في أحرف Unicode UTF16-LE
+يحصل أو يعيّن كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون بأحرف Unicode UTF16-LE
 
 **Returns:**
 [WmfLogColorSpaceW](../../com.aspose.imaging.fileformats.wmf.objects/wmflogcolorspacew)
@@ -86,7 +86,7 @@ public void setLcs(WmfLogColorSpaceW value)
 ```
 
 
-الحصول أو تعيين كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون في أحرف Unicode UTF16-LE
+يحصل أو يعيّن كائن WMF LogColorSpaceW ([MS-WMF] القسم 2.2.2.12) الذي يمكنه تحديد اسم ملف تعريف اللون بأحرف Unicode UTF16-LE
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -99,7 +99,7 @@ public int getDwFlags()
 ```
 
 
-الحصول أو تعيين عدد صحيح غير موقع 32‑بت يوفر معلومات حول البيانات في هذا السجل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يوفر معلومات حول البيانات في هذا السجل.
 
 **Returns:**
 int
@@ -109,12 +109,12 @@ public void setDwFlags(int value)
 ```
 
 
-الحصول أو تعيين عدد صحيح غير موقع 32‑بت يوفر معلومات حول البيانات في هذا السجل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يوفر معلومات حول البيانات في هذا السجل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCbData() {#getCbData--}
 ```
@@ -122,7 +122,7 @@ public int getCbData()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت.
 
 **Returns:**
 int
@@ -132,12 +132,12 @@ public void setCbData(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getData() {#getData--}
 ```
@@ -145,7 +145,7 @@ public byte[] getData()
 ```
 
 
-الحصول أو تعيين مصفوفة اختيارية من البايتات تحدد بيانات ملف تعريف اللون.
+يحصل أو يعيّن مصفوفة اختيارية من البايتات التي تحدد بيانات ملف تعريف اللون.
 
 **Returns:**
 byte[]
@@ -155,10 +155,10 @@ public void setData(byte[] value)
 ```
 
 
-الحصول أو تعيين مصفوفة اختيارية من البايتات تحدد بيانات ملف تعريف اللون.
+يحصل أو يعيّن مصفوفة اختيارية من البايتات التي تحدد بيانات ملف تعريف اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

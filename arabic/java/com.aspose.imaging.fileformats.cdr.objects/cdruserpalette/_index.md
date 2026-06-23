@@ -1,7 +1,7 @@
 ---
 title: "CdrUserPalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr المستخدم لوحة ألوان"
+description: "لوحة ألوان المستخدم cdr"
 type: docs
 weight: 44
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdruserpalette/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrUserPalette extends CdrObjectContainer
 ```
 
-ال cdr المستخدم لوحة ألوان
+لوحة ألوان المستخدم cdr
 ## المنشئات
 
 | المنشئ | الوصف |

@@ -1,5 +1,5 @@
 ---
-title: "قلم"
+title: "Pen"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يحدد كائنًا يُستخدم لرسم الخطوط والمنحنيات والأشكال."
 type: docs
@@ -12,26 +12,26 @@ java.lang.Object, [com.aspose.imaging.TransparencySupporter](../../com.aspose.im
 public class Pen extends TransparencySupporter
 ```
 
-يعرّف كائنًا يُستخدم لرسم الخطوط والمنحنيات والأشكال.
+يحدد كائنًا يُستخدم لرسم الخطوط والمنحنيات والأشكال.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Pen(Color color)](#Pen-com.aspose.imaging.Color-) | ينشئ نسخة جديدة من الفئة `Pen` باللون المحدد. |
-| [Pen(Color color, float width)](#Pen-com.aspose.imaging.Color-float-) | ينشئ نسخة جديدة من الفئة `Pen` بالخصائص المحددة `Color` و `Pen.Width`. |
-| [Pen(Brush brush)](#Pen-com.aspose.imaging.Brush-) | ينشئ نسخة جديدة من الفئة `Pen` بالـ `Brush` المحدد. |
-| [Pen(Brush brush, float width)](#Pen-com.aspose.imaging.Brush-float-) | ينشئ نسخة جديدة من الفئة `Pen` بالـ `Brush` و `Pen.Width` المحددين. |
+| [Pen(Color color)](#Pen-com.aspose.imaging.Color-) | ينشئ نسخة جديدة من فئة `Pen` باللون المحدد. |
+| [Pen(Color color, float width)](#Pen-com.aspose.imaging.Color-float-) | ينشئ نسخة جديدة من فئة `Pen` بالخصائص المحددة `Color` و `Pen.Width`. |
+| [Pen(Brush brush)](#Pen-com.aspose.imaging.Brush-) | ينشئ نسخة جديدة من فئة `Pen` بالـ `Brush` المحدد. |
+| [Pen(Brush brush, float width)](#Pen-com.aspose.imaging.Brush-float-) | ينشئ نسخة جديدة من فئة `Pen` بالـ `Brush` و `Pen.Width` المحددين. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getWidth()](#getWidth--) | يحصل على عرض هذا `Pen` بوحدات كائن Graphics المستخدم للرسم. |
-| [setWidth(float value)](#setWidth-float-) | يضبط عرض هذا `Pen` بوحدات كائن Graphics المستخدم للرسم. |
-| [getStartCap()](#getStartCap--) | يحصل على نمط الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
-| [setStartCap(int value)](#setStartCap-int-) | يضبط نمط الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
-| [getEndCap()](#getEndCap--) | يحصل على نمط الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
-| [setEndCap(int value)](#setEndCap-int-) | يضبط نمط الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
-| [getDashCap()](#getDashCap--) | يحصل على نمط الغطاء المستخدم في نهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`. |
+| [getWidth()](#getWidth--) | يحصل على عرض هذا `Pen` بوحدات كائن Graphics المستخدم في الرسم. |
+| [setWidth(float value)](#setWidth-float-) | يضبط عرض هذا `Pen` بوحدات كائن Graphics المستخدم في الرسم. |
+| [getStartCap()](#getStartCap--) | يحصل على نمط القمة المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
+| [setStartCap(int value)](#setStartCap-int-) | يضبط نمط القمة المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
+| [getEndCap()](#getEndCap--) | يحصل على نمط القمة المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
+| [setEndCap(int value)](#setEndCap-int-) | يضبط نمط القمة المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
+| [getDashCap()](#getDashCap--) | يحصل على نمط القمة المستخدم في نهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`. |
 | [setDashCap(int value)](#setDashCap-int-) | يضبط نمط الغطاء المستخدم في نهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`. |
 | [getLineJoin()](#getLineJoin--) | يحصل على نمط الوصل لنهايات خطين متتاليين مرسومين بهذا `Pen`. |
 | [setLineJoin(int value)](#setLineJoin-int-) | يضبط نمط الوصل لنهايات خطين متتاليين مرسومين بهذا `Pen`. |
@@ -39,8 +39,8 @@ public class Pen extends TransparencySupporter
 | [setCustomStartCap(CustomLineCap value)](#setCustomStartCap-com.aspose.imaging.CustomLineCap-) | يضبط غطاءً مخصصًا لاستخدامه في بداية الخطوط المرسومة بهذا `Pen`. |
 | [getCustomEndCap()](#getCustomEndCap--) | يحصل على غطاء مخصص لاستخدامه في نهاية الخطوط المرسومة بهذا `Pen`. |
 | [setCustomEndCap(CustomLineCap value)](#setCustomEndCap-com.aspose.imaging.CustomLineCap-) | يضبط غطاءً مخصصًا لاستخدامه في نهاية الخطوط المرسومة بهذا `Pen`. |
-| [getMiterLimit()](#getMiterLimit--) | يحصل على حد سمك الوصل عند الزاوية المثلثية. |
-| [setMiterLimit(float value)](#setMiterLimit-float-) | يضبط حد سمك الوصلة في زاوية مائلة. |
+| [getMiterLimit()](#getMiterLimit--) | يحصل على حد سمك الوصل عند زاوية ميتريّة. |
+| [setMiterLimit(float value)](#setMiterLimit-float-) | يضبط حد سمك الوصل عند زاوية ميتريّة. |
 | [getAlignment()](#getAlignment--) | يحصل على المحاذاة لهذا `Pen`. |
 | [setAlignment(int value)](#setAlignment-int-) | يضبط المحاذاة لهذا `Pen`. |
 | [getTransform()](#getTransform--) | يحصل على نسخة من التحويل الهندسي لهذا `Pen`. |
@@ -52,58 +52,58 @@ public class Pen extends TransparencySupporter
 | [setBrush(Brush value)](#setBrush-com.aspose.imaging.Brush-) | يضبط الـ `Brush` الذي يحدد خصائص هذا `Pen`. |
 | [getDashStyle()](#getDashStyle--) | يحصل على النمط المستخدم للخطوط المتقطعة المرسومة بهذا `Pen`. |
 | [setDashStyle(int value)](#setDashStyle-int-) | يضبط النمط المستخدم للخطوط المتقطعة المرسومة بهذا `Pen`. |
-| [getDashOffset()](#getDashOffset--) | يحصل على المسافة من بداية الخط إلى بداية نمط الشرط. |
-| [setDashOffset(float value)](#setDashOffset-float-) | يضبط المسافة من بداية الخط إلى بداية نمط الشرط. |
+| [getDashOffset()](#getDashOffset--) | يحصل على المسافة من بداية الخط إلى بداية نمط الشرطات. |
+| [setDashOffset(float value)](#setDashOffset-float-) | يضبط المسافة من بداية الخط إلى بداية نمط الشرطات. |
 | [getDashPattern()](#getDashPattern--) | يحصل على مصفوفة من الشرطات والمسافات المخصصة. |
 | [setDashPattern(float[] value)](#setDashPattern-float---) | يضبط مصفوفة من الشرطات والمسافات المخصصة. |
-| [getCompoundArray()](#getCompoundArray--) | يحصل على مصفوفة من القيم التي تحدد قلم مركب. |
-| [setCompoundArray(float[] value)](#setCompoundArray-float---) | يضبط مصفوفة من القيم التي تحدد قلم مركب. |
-| [setLineCap(int startCap, int endCap, int dashCap)](#setLineCap-int-int-int-) | يضبط القيم التي تحدد نمط الغطاء المستخدم لإنهاء الخطوط المرسومة بهذا `Pen`. |
+| [getCompoundArray()](#getCompoundArray--) | يحصل على مصفوفة من القيم التي تحدد قلمًا مركبًا. |
+| [setCompoundArray(float[] value)](#setCompoundArray-float---) | يضبط مصفوفة من القيم التي تحدد قلمًا مركبًا. |
+| [setLineCap(int startCap, int endCap, int dashCap)](#setLineCap-int-int-int-) | يضبط القيم التي تحدد نمط الغطاء المستخدم لإنهاء الخطوط المرسومة بواسطة هذا `Pen`. |
 | [resetTransform()](#resetTransform--) | يعيد تعيين مصفوفة التحويل الهندسي لهذا `Pen` إلى الهوية. |
 | [multiplyTransform(Matrix matrix)](#multiplyTransform-com.aspose.imaging.Matrix-) | يضرب مصفوفة التحويل لهذا `Pen` بالمصفوفة المحددة `Matrix`. |
 | [multiplyTransform(Matrix matrix, int order)](#multiplyTransform-com.aspose.imaging.Matrix-int-) | يضرب مصفوفة التحويل لهذا `Pen` بالمصفوفة المحددة `Matrix` بالترتيب المحدد. |
 | [translateTransform(float dx, float dy)](#translateTransform-float-float-) | ينقل التحويل الهندسي المحلي بالأبعاد المحددة. |
 | [translateTransform(float dx, float dy, int order)](#translateTransform-float-float-int-) | ينقل التحويل الهندسي المحلي بالأبعاد المحددة بالترتيب المحدد. |
 | [scaleTransform(float sx, float sy)](#scaleTransform-float-float-) | يقوم بتكبير التحويل الهندسي المحلي بالعوامل المحددة. |
-| [scaleTransform(float sx, float sy, int order)](#scaleTransform-float-float-int-) | يقوم بتكبير التحويل الهندسي المحلي بواسطة العوامل المحددة وفقًا للترتيب المحدد. |
+| [scaleTransform(float sx, float sy, int order)](#scaleTransform-float-float-int-) | يقوم بتكبير التحويل الهندسي المحلي بالعوامل المحددة بالترتيب المحدد. |
 | [rotateTransform(float angle)](#rotateTransform-float-) | يدور التحويل الهندسي المحلي بالزاوية المحددة. |
-| [rotateTransform(float angle, int order)](#rotateTransform-float-int-) | يدور التحويل الهندسي المحلي بالزاوية المحددة وفقًا للترتيب المحدد. |
+| [rotateTransform(float angle, int order)](#rotateTransform-float-int-) | يدور التحويل الهندسي المحلي بالزاوية المحددة بالترتيب المحدد. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) |  |
 
 ## Example: This example shows the creation and usage Pen objects.
-يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة Image ويرسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 ``` java
 
-// إنشاء مثيل من BmpOptions وتعيين خصائصه المتنوعة.
+// أنشئ مثيلاً من BmpOptions واضبط خصائصه المتنوعة.
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+// أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 // المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// إنشاء نسخة من Image في المسار المحدد.
+// إنشاء نسخة من Image في المسار المحدد
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    // إنشاء نسخة من Graphics وتهيئتها باستخدام كائن Image.
+    // إنشاء نسخة من Graphics وتهيئتها بكائن Image
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
 
-    // امسح سطح Graphics باستخدام White Color.
+    // امسح سطح Graphics باللون الأبيض
     graphics.clear(com.aspose.imaging.Color.getWhite());
 
-    // إنشاء نسخة من Pen باللون الأحمر وعرض 5.
+    // إنشاء نسخة من Pen باللون الأحمر وعرض 5
     com.aspose.imaging.Pen pen = new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 5);
 
-    // إنشاء نسخة من HatchBrush وتعيين خصائصه.
+    // إنشاء نسخة من HatchBrush وتعيين خصائصه
     com.aspose.imaging.brushes.HatchBrush brush = new com.aspose.imaging.brushes.HatchBrush();
     brush.setBackgroundColor(com.aspose.imaging.Color.getWheat());
     brush.setForegroundColor(com.aspose.imaging.Color.getRed());
 
-    // إنشاء نسخة من Pen وتهيئتها باستخدام كائن HatchBrush والعرض.
+    // إنشاء نسخة من Pen وتهيئتها بكائن HatchBrush والعرض
     com.aspose.imaging.Pen brushedpen = new com.aspose.imaging.Pen(brush, 5);
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(pen, new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(210, 210), new com.aspose.imaging.Size(100, 100)),
@@ -111,7 +111,7 @@ try {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(310, 310), new com.aspose.imaging.Size(100, 100))
             });
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(
             brushedpen,
             new com.aspose.imaging.Rectangle[]
@@ -133,12 +133,12 @@ public Pen(Color color)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `Pen` باللون المحدد.
+ينشئ نسخة جديدة من فئة `Pen` باللون المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | [Color](../../com.aspose.imaging/color) | بنية `Color` التي تشير إلى لون هذا `Pen`. |
+| color | [Color](../../com.aspose.imaging/color) | `Color` بنية تشير إلى لون هذا `Pen`. |
 
 ### Pen(Color color, float width) {#Pen-com.aspose.imaging.Color-float-}
 ```
@@ -146,13 +146,13 @@ public Pen(Color color, float width)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `Pen` بالخصائص المحددة `Color` و `Pen.Width`.
+ينشئ نسخة جديدة من فئة `Pen` بالخصائص المحددة `Color` و `Pen.Width`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | [Color](../../com.aspose.imaging/color) | بنية `Color` التي تشير إلى لون هذا `Pen`. |
-| العرض | float | قيمة تشير إلى عرض هذا `Pen`. |
+| color | [Color](../../com.aspose.imaging/color) | `Color` بنية تشير إلى لون هذا `Pen`. |
+| width | float | قيمة تشير إلى عرض هذا `Pen`. |
 
 ### Pen(Brush brush) {#Pen-com.aspose.imaging.Brush-}
 ```
@@ -160,12 +160,12 @@ public Pen(Brush brush)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `Pen` بالـ `Brush` المحدد.
+ينشئ نسخة جديدة من فئة `Pen` بالـ `Brush` المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | `Brush` التي تحدد خصائص التعبئة لهذا `Pen`. |
+| brush | [Brush](../../com.aspose.imaging/brush) | `Brush` يحدد خصائص التعبئة لهذا `Pen`. |
 
 ### Pen(Brush brush, float width) {#Pen-com.aspose.imaging.Brush-float-}
 ```
@@ -173,13 +173,13 @@ public Pen(Brush brush, float width)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `Pen` بالـ `Brush` و `Pen.Width` المحددين.
+ينشئ نسخة جديدة من فئة `Pen` بالـ `Brush` و `Pen.Width` المحددين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brush | [Brush](../../com.aspose.imaging/brush) | `Brush` التي تحدد خصائص هذا `Pen`. |
-| العرض | float | عرض الـ `Pen` الجديد. |
+| brush | [Brush](../../com.aspose.imaging/brush) | `Brush` يحدد خصائص هذا `Pen`. |
+| width | float | عرض الـ `Pen` الجديد. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -187,7 +187,7 @@ public float getWidth()
 ```
 
 
-يحصل على عرض هذا `Pen` بوحدات كائن Graphics المستخدم للرسم.
+يحصل على عرض هذا `Pen` بوحدات كائن Graphics المستخدم في الرسم.
 
 **Returns:**
 float - عرض هذا `Pen`.
@@ -197,12 +197,12 @@ public void setWidth(float value)
 ```
 
 
-يضبط عرض هذا `Pen` بوحدات كائن Graphics المستخدم للرسم.
+يضبط عرض هذا `Pen` بوحدات كائن Graphics المستخدم في الرسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض هذا `Pen`. |
+| value | float | عرض هذا `Pen`. |
 
 ### getStartCap() {#getStartCap--}
 ```
@@ -210,22 +210,22 @@ public int getStartCap()
 ```
 
 
-يحصل على نمط الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`.
+يحصل على نمط القمة المستخدم في بداية الخطوط المرسومة بهذا `Pen`.
 
 **Returns:**
-int - أحد قيم `LineCap` التي تمثل نمط القبة المستخدم في بداية الخطوط المرسومة بهذا `Pen`.
+int - إحدى قيم `LineCap` التي تمثل نمط الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`.
 ### setStartCap(int value) {#setStartCap-int-}
 ```
 public void setStartCap(int value)
 ```
 
 
-يضبط نمط الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`.
+يضبط نمط القمة المستخدم في بداية الخطوط المرسومة بهذا `Pen`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | أحد قيم `LineCap` التي تمثل نمط القبة المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
+| value | int | إحدى قيم `LineCap` التي تمثل نمط الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
 
 ### getEndCap() {#getEndCap--}
 ```
@@ -233,22 +233,22 @@ public int getEndCap()
 ```
 
 
-يحصل على نمط الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`.
+يحصل على نمط القمة المستخدم في نهاية الخطوط المرسومة بهذا `Pen`.
 
 **Returns:**
-int - أحد قيم `LineCap` التي تمثل نمط القبة المستخدم في نهاية الخطوط المرسومة بهذا `Pen`.
+int - إحدى قيم `LineCap` التي تمثل نمط الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`.
 ### setEndCap(int value) {#setEndCap-int-}
 ```
 public void setEndCap(int value)
 ```
 
 
-يضبط نمط الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`.
+يضبط نمط القمة المستخدم في نهاية الخطوط المرسومة بهذا `Pen`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | أحد قيم `LineCap` التي تمثل نمط القبة المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
+| value | int | إحدى قيم `LineCap` التي تمثل نمط الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
 
 ### getDashCap() {#getDashCap--}
 ```
@@ -256,10 +256,10 @@ public int getDashCap()
 ```
 
 
-يحصل على نمط الغطاء المستخدم في نهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`.
+يحصل على نمط القمة المستخدم في نهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`.
 
 **Returns:**
-int - أحد قيم `DashCap` التي تمثل نمط القبة المستخدم في بداية ونهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`.
+int - إحدى قيم `DashCap` التي تمثل نمط الغطاء المستخدم في بداية ونهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`.
 ### setDashCap(int value) {#setDashCap-int-}
 ```
 public void setDashCap(int value)
@@ -271,7 +271,7 @@ public void setDashCap(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | أحد قيم `DashCap` التي تمثل نمط القبة المستخدم في بداية ونهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`. |
+| value | int | إحدى قيم `DashCap` التي تمثل نمط الغطاء المستخدم في بداية ونهاية الشرطات التي تشكل الخطوط المتقطعة المرسومة بهذا `Pen`. |
 
 ### getLineJoin() {#getLineJoin--}
 ```
@@ -282,7 +282,7 @@ public int getLineJoin()
 يحصل على نمط الوصل لنهايات خطين متتاليين مرسومين بهذا `Pen`.
 
 **Returns:**
-int - `LineJoin` التي تمثل نمط الوصلة لنهايات خطين متتاليين مرسومين بهذا `Pen`.
+int - `LineJoin` الذي يمثل نمط الوصل لنهايات خطين متتاليين مرسومين بهذا `Pen`.
 ### setLineJoin(int value) {#setLineJoin-int-}
 ```
 public void setLineJoin(int value)
@@ -294,7 +294,7 @@ public void setLineJoin(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | `LineJoin` الذي يمثل نمط الوصل لنهايات خطين متتاليين مرسومين بهذه `Pen`. |
+| value | int | `LineJoin` الذي يمثل نمط الوصل لنهايات خطين متتاليين مرسومين بهذا `Pen`. |
 
 ### getCustomStartCap() {#getCustomStartCap--}
 ```
@@ -317,7 +317,7 @@ public void setCustomStartCap(CustomLineCap value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CustomLineCap](../../com.aspose.imaging/customlinecap) | `CustomLineCap` الذي يمثل القمة المستخدمة في بداية الخطوط المرسومة بهذه `Pen`. |
+| value | [CustomLineCap](../../com.aspose.imaging/customlinecap) | `CustomLineCap` الذي يمثل الغطاء المستخدم في بداية الخطوط المرسومة بهذا `Pen`. |
 
 ### getCustomEndCap() {#getCustomEndCap--}
 ```
@@ -340,7 +340,7 @@ public void setCustomEndCap(CustomLineCap value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CustomLineCap](../../com.aspose.imaging/customlinecap) | `CustomLineCap` الذي يمثل القمة المستخدمة في نهاية الخطوط المرسومة بهذه `Pen`. |
+| value | [CustomLineCap](../../com.aspose.imaging/customlinecap) | `CustomLineCap` الذي يمثل الغطاء المستخدم في نهاية الخطوط المرسومة بهذا `Pen`. |
 
 ### getMiterLimit() {#getMiterLimit--}
 ```
@@ -348,22 +348,22 @@ public float getMiterLimit()
 ```
 
 
-يحصل على حد سمك الوصل عند الزاوية المثلثية.
+يحصل على حد سمك الوصل عند زاوية ميتريّة.
 
 **Returns:**
-float - الحد الأقصى لسماكة الوصل عند زاوية ميتة.
+float - الحد الأقصى لسماكة الوصل عند زاوية ميتير.
 ### setMiterLimit(float value) {#setMiterLimit-float-}
 ```
 public void setMiterLimit(float value)
 ```
 
 
-يضبط حد سمك الوصلة في زاوية مائلة.
+يضبط حد سمك الوصل عند زاوية ميتريّة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحد الأقصى لسماكة الوصل عند زاوية ميتة. |
+| value | float | الحد الأقصى لسماكة الوصل عند زاوية ميتير. |
 
 ### getAlignment() {#getAlignment--}
 ```
@@ -374,7 +374,7 @@ public int getAlignment()
 يحصل على المحاذاة لهذا `Pen`.
 
 **Returns:**
-int - `PenAlignment` الذي يمثل المحاذاة لهذه `Pen`.
+int - `PenAlignment` الذي يمثل المحاذاة لهذا `Pen`.
 ### setAlignment(int value) {#setAlignment-int-}
 ```
 public void setAlignment(int value)
@@ -386,7 +386,7 @@ public void setAlignment(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | `PenAlignment` الذي يمثل المحاذاة لهذه `Pen`. |
+| value | int | `PenAlignment` الذي يمثل المحاذاة لهذا `Pen`. |
 
 ### getTransform() {#getTransform--}
 ```
@@ -409,7 +409,7 @@ public void setTransform(Matrix value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Matrix](../../com.aspose.imaging/matrix) | نسخة من `Matrix` التي تمثل التحويل الهندسي لهذه `Pen`. |
+| value | [Matrix](../../com.aspose.imaging/matrix) | نسخة من `Matrix` التي تمثل التحويل الهندسي لهذا `Pen`. |
 
 ### getPenType() {#getPenType--}
 ```
@@ -420,7 +420,7 @@ public int getPenType()
 يحصل على نمط الخطوط المرسومة بهذا `Pen`.
 
 **Returns:**
-int - تعداد `PenType` الذي يحدد نمط الخطوط المرسومة بهذه `Pen`.
+int - تعداد `PenType` الذي يحدد نمط الخطوط المرسومة بهذا `Pen`.
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -442,7 +442,7 @@ public void setColor(Color value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | `Color` التي تمثل لون هذه `Pen`. |
+| value | [Color](../../com.aspose.imaging/color) | هيكل `Color` الذي يمثل لون هذا `Pen`. |
 
 ### getBrush() {#getBrush--}
 ```
@@ -465,7 +465,7 @@ public void setBrush(Brush value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Brush](../../com.aspose.imaging/brush) | `Brush` التي تحدد خصائص هذه `Pen`. |
+| value | [Brush](../../com.aspose.imaging/brush) | `Brush` الذي يحدد خصائص هذا `Pen`. |
 
 ### getDashStyle() {#getDashStyle--}
 ```
@@ -476,7 +476,7 @@ public int getDashStyle()
 يحصل على النمط المستخدم للخطوط المتقطعة المرسومة بهذا `Pen`.
 
 **Returns:**
-int - `DashStyle` الذي يمثل النمط المستخدم للخطوط المتقطعة المرسومة بهذه `Pen`.
+int - `DashStyle` الذي يمثل النمط المستخدم للخطوط المتقطعة المرسومة بهذا `Pen`.
 ### setDashStyle(int value) {#setDashStyle-int-}
 ```
 public void setDashStyle(int value)
@@ -488,7 +488,7 @@ public void setDashStyle(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | `DashStyle` الذي يمثل النمط المستخدم للخطوط المتقطعة المرسومة بهذه `Pen`. |
+| value | int | `DashStyle` الذي يمثل النمط المستخدم للخطوط المتقطعة المرسومة بهذا `Pen`. |
 
 ### getDashOffset() {#getDashOffset--}
 ```
@@ -496,22 +496,22 @@ public float getDashOffset()
 ```
 
 
-يحصل على المسافة من بداية الخط إلى بداية نمط الشرط.
+يحصل على المسافة من بداية الخط إلى بداية نمط الشرطات.
 
 **Returns:**
-float - المسافة من بداية الخط إلى بداية نمط الشرط.
+float - المسافة من بداية الخط إلى بداية نمط الشرطة.
 ### setDashOffset(float value) {#setDashOffset-float-}
 ```
 public void setDashOffset(float value)
 ```
 
 
-يضبط المسافة من بداية الخط إلى بداية نمط الشرط.
+يضبط المسافة من بداية الخط إلى بداية نمط الشرطات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | المسافة من بداية الخط إلى بداية نمط الشرط. |
+| value | float | المسافة من بداية الخط إلى بداية نمط الشرطة. |
 
 ### getDashPattern() {#getDashPattern--}
 ```
@@ -522,7 +522,7 @@ public float[] getDashPattern()
 يحصل على مصفوفة من الشرطات والمسافات المخصصة.
 
 **Returns:**
-float[] - مصفوفة من الأعداد الحقيقية تحدد أطوال الشرط والمسافات المتناوبة في الخطوط المتقطعة.
+float[] - مصفوفة من الأعداد الحقيقية التي تحدد أطوال الشرطات والمسافات المتناوبة في الخطوط المتقطعة.
 ### setDashPattern(float[] value) {#setDashPattern-float---}
 ```
 public void setDashPattern(float[] value)
@@ -534,7 +534,7 @@ public void setDashPattern(float[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] | مصفوفة من الأعداد الحقيقية تحدد أطوال الشرط والمسافات المتناوبة في الخطوط المتقطعة. |
+| value | float[] | مصفوفة من الأعداد الحقيقية التي تحدد أطوال الشرطات والمسافات المتناوبة في الخطوط المتقطعة. |
 
 ### getCompoundArray() {#getCompoundArray--}
 ```
@@ -542,22 +542,22 @@ public float[] getCompoundArray()
 ```
 
 
-يحصل على مصفوفة من القيم التي تحدد قلم مركب. القلم المركب يرسم خطًا مركبًا مكوّنًا من خطوط موازية ومسافات.
+يحصل على مصفوفة من القيم التي تحدد قلم مركب. القلم المركب يرسم خطًا مركبًا مكوّنًا من خطوط متوازية وفراغات.
 
 **Returns:**
-float[] - مصفوفة من الأعداد الحقيقية تحدد مصفوفة المركب. يجب أن تكون عناصر المصفوفة بترتيب تصاعدي، لا تقل عن 0 ولا تزيد عن 1.
+float[] - مصفوفة من الأعداد الحقيقية التي تحدد مصفوفة المركب. يجب أن تكون عناصر المصفوفة بترتيب تصاعدي، لا تقل عن 0، ولا تزيد عن 1.
 ### setCompoundArray(float[] value) {#setCompoundArray-float---}
 ```
 public void setCompoundArray(float[] value)
 ```
 
 
-يضبط مصفوفة من القيم التي تحدد قلمًا مركبًا. القلم المركب يرسم خطًا مركبًا مكوّنًا من خطوط موازية ومسافات.
+يضبط مصفوفة من القيم التي تحدد قلمًا مركبًا. القلم المركب يرسم خطًا مركبًا مكوّنًا من خطوط متوازية وفراغات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] | مصفوفة من الأعداد الحقيقية تحدد مصفوفة المركب. يجب أن تكون عناصر المصفوفة بترتيب تصاعدي، لا تقل عن 0 ولا تزيد عن 1. |
+| value | float[] | مصفوفة من الأعداد الحقيقية التي تحدد مصفوفة المركب. يجب أن تكون عناصر المصفوفة بترتيب تصاعدي، لا تقل عن 0، ولا تزيد عن 1. |
 
 ### setLineCap(int startCap, int endCap, int dashCap) {#setLineCap-int-int-int-}
 ```
@@ -565,14 +565,14 @@ public void setLineCap(int startCap, int endCap, int dashCap)
 ```
 
 
-يضبط القيم التي تحدد نمط الغطاء المستخدم لإنهاء الخطوط المرسومة بهذا `Pen`.
+يضبط القيم التي تحدد نمط الغطاء المستخدم لإنهاء الخطوط المرسومة بواسطة هذا `Pen`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startCap | int | `LineCap` الذي يمثل نمط القمة لاستخدامه في بداية الخطوط المرسومة بهذه `Pen`. |
-| endCap | int | `LineCap` الذي يمثل نمط القمة لاستخدامه في نهاية الخطوط المرسومة بهذه `Pen`. |
-| dashCap | int | `LineCap` الذي يمثل نمط القمة لاستخدامه في بداية أو نهاية الخطوط المتقطعة المرسومة بهذه `Pen`. |
+| startCap | int | `LineCap` التي تمثل نمط القمة لاستخدامه في بداية الخطوط المرسومة بهذا `Pen`. |
+| endCap | int | `LineCap` التي تمثل نمط القمة لاستخدامه في نهاية الخطوط المرسومة بهذا `Pen`. |
+| dashCap | int | `LineCap` التي تمثل نمط القمة لاستخدامه في بداية أو نهاية الخطوط المتقطعة المرسومة بهذا `Pen`. |
 
 ### resetTransform() {#resetTransform--}
 ```
@@ -607,7 +607,7 @@ public void multiplyTransform(Matrix matrix, int order)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | matrix | [Matrix](../../com.aspose.imaging/matrix) | `Matrix` الذي يُستخدم لضرب مصفوفة التحويل. |
-| order | int | الترتيب الذي يتم فيه تنفيذ عملية الضرب. |
+| الترتيب | int | الترتيب الذي يتم فيه تنفيذ عملية الضرب. |
 
 ### translateTransform(float dx, float dy) {#translateTransform-float-float-}
 ```
@@ -615,13 +615,13 @@ public void translateTransform(float dx, float dy)
 ```
 
 
-يُترجم التحويل الهندسي المحلي بالأبعاد المحددة. هذه الطريقة تُضيف الترجمة إلى بداية التحويل.
+يُترجم التحويل الهندسي المحلي بالأبعاد المحددة. تُضيف هذه الطريقة الإزاحة إلى التحويل في البداية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dx | float | قيمة الترجمة في الاتجاه x. |
-| dy | float | قيمة الترجمة في الاتجاه y. |
+| dx | float | قيمة الإزاحة في الاتجاه x. |
+| dy | float | قيمة الإزاحة في الاتجاه y. |
 
 ### translateTransform(float dx, float dy, int order) {#translateTransform-float-float-int-}
 ```
@@ -634,9 +634,9 @@ public void translateTransform(float dx, float dy, int order)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dx | float | قيمة الترجمة في الاتجاه x. |
-| dy | float | قيمة الترجمة في الاتجاه y. |
-| order | int | الترتيب (prepend أو append) الذي تُطبق فيه الترجمة. |
+| dx | float | قيمة الإزاحة في الاتجاه x. |
+| dy | float | قيمة الإزاحة في الاتجاه y. |
+| الترتيب | int | الترتيب (إضافة في البداية أو في النهاية) الذي يُطبق فيه الإزاحة. |
 
 ### scaleTransform(float sx, float sy) {#scaleTransform-float-float-}
 ```
@@ -644,7 +644,7 @@ public void scaleTransform(float sx, float sy)
 ```
 
 
-يقوم بتكبير التحويل الهندسي المحلي بالعوامل المحددة. هذه الطريقة تُضيف مصفوفة التكبير إلى بداية التحويل.
+يقوم بتكبير التحويل الهندسي المحلي بالعوامل المحددة. تُضيف هذه الطريقة مصفوفة التكبير إلى التحويل في البداية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -658,14 +658,14 @@ public void scaleTransform(float sx, float sy, int order)
 ```
 
 
-يقوم بتكبير التحويل الهندسي المحلي بواسطة العوامل المحددة وفقًا للترتيب المحدد.
+يقوم بتكبير التحويل الهندسي المحلي بالعوامل المحددة بالترتيب المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | sx | float | العامل الذي يُستخدم لتكبير التحويل في اتجاه المحور x. |
 | sy | float | العامل الذي يُستخدم لتكبير التحويل في اتجاه المحور y. |
-| order | int | `MatrixOrder` الذي يحدد ما إذا كان سيتم إلحاق أو إضافة مصفوفة التكبير. |
+| الترتيب | int | `MatrixOrder` التي تحدد ما إذا كان سيتم إضافة مصفوفة التكبير في النهاية أو في البداية. |
 
 ### rotateTransform(float angle) {#rotateTransform-float-}
 ```
@@ -673,7 +673,7 @@ public void rotateTransform(float angle)
 ```
 
 
-يدور التحويل الهندسي المحلي بالزاوية المحددة. هذه الطريقة تُضيف دورانًا إلى بداية التحويل.
+يدور التحويل الهندسي المحلي بالزاوية المحددة. تُضيف هذه الطريقة الدوران إلى التحويل في البداية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -686,13 +686,13 @@ public void rotateTransform(float angle, int order)
 ```
 
 
-يدور التحويل الهندسي المحلي بالزاوية المحددة وفقًا للترتيب المحدد.
+يدور التحويل الهندسي المحلي بالزاوية المحددة بالترتيب المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | angle | float | زاوية الدوران. |
-| order | int | `MatrixOrder` الذي يحدد ما إذا كان سيتم إلحاق أو إضافة مصفوفة الدوران. |
+| الترتيب | int | `MatrixOrder` التي تحدد ما إذا كان سيتم إضافة مصفوفة الدوران في النهاية أو في البداية. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

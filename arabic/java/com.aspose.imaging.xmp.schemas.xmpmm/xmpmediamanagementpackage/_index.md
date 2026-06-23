@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class XmpMediaManagementPackage extends XmpPackage
 ```
@@ -17,17 +17,17 @@ public final class XmpMediaManagementPackage extends XmpPackage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpMediaManagementPackage()](#XmpMediaManagementPackage--) | يُنشئ مثيلًا جديدًا من الفئة `XmpMediaManagementPackage`. |
+| [XmpMediaManagementPackage()](#XmpMediaManagementPackage--) | يُهيئ نسخة جديدة من الفئة `XmpMediaManagementPackage`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [addValue(String key, String value)](#addValue-java.lang.String-java.lang.String-) | يضيف خاصية نصية. |
-| [setDerivedFrom(ResourceRef resourceRef)](#setDerivedFrom-com.aspose.imaging.xmp.types.complex.resourceref.ResourceRef-) | يضبط المشتق من. |
+| [setDerivedFrom(ResourceRef resourceRef)](#setDerivedFrom-com.aspose.imaging.xmp.types.complex.resourceref.ResourceRef-) | يضبط المستمد من. |
 | [setDocumentId(UUID guid)](#setDocumentId-java.util.UUID-) | يضبط معرف المستند. |
 | [setDocumentId(String guid)](#setDocumentId-java.lang.String-) | يضبط معرف المستند. |
-| [setInstanceId(UUID guid)](#setInstanceId-java.util.UUID-) | يضبط معرف المثيل. |
-| [setInstanceId(String guid)](#setInstanceId-java.lang.String-) | يضبط معرف المثيل. |
+| [setInstanceId(UUID guid)](#setInstanceId-java.util.UUID-) | يضبط معرف النسخة. |
+| [setInstanceId(String guid)](#setInstanceId-java.lang.String-) | يضبط معرف النسخة. |
 | [setOriginalDocumentId(UUID guid)](#setOriginalDocumentId-java.util.UUID-) | يضبط معرف المستند الأصلي. |
 | [setOriginalDocumentId(String guid)](#setOriginalDocumentId-java.lang.String-) | يضبط معرف المستند الأصلي. |
 ### XmpMediaManagementPackage() {#XmpMediaManagementPackage--}
@@ -36,7 +36,7 @@ public XmpMediaManagementPackage()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `XmpMediaManagementPackage`.
+يُهيئ نسخة جديدة من الفئة `XmpMediaManagementPackage`.
 
 ### addValue(String key, String value) {#addValue-java.lang.String-java.lang.String-}
 ```
@@ -49,8 +49,8 @@ public void addValue(String key, String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه مع القيمة المضافة. |
-| القيمة | java.lang.String | القيمة النصية. |
+| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه بالقيمة المضافة. |
+| value | java.lang.String | القيمة النصية. |
 
 ### setDerivedFrom(ResourceRef resourceRef) {#setDerivedFrom-com.aspose.imaging.xmp.types.complex.resourceref.ResourceRef-}
 ```
@@ -58,7 +58,7 @@ public void setDerivedFrom(ResourceRef resourceRef)
 ```
 
 
-يضبط المشتق من.
+يضبط المستمد من.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public void setDocumentId(UUID guid)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.util.UUID | المعرف الفريد. |
+| guid | java.util.UUID | المعرّف الفريد. |
 
 ### setDocumentId(String guid) {#setDocumentId-java.lang.String-}
 ```
@@ -89,7 +89,7 @@ public void setDocumentId(String guid)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.lang.String | المعرف الفريد. |
+| guid | java.lang.String | المعرّف الفريد. |
 
 ### setInstanceId(UUID guid) {#setInstanceId-java.util.UUID-}
 ```
@@ -97,12 +97,12 @@ public void setInstanceId(UUID guid)
 ```
 
 
-يضبط معرف المثيل.
+يضبط معرف النسخة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.util.UUID | المعرف الفريد. |
+| guid | java.util.UUID | المعرّف الفريد. |
 
 ### setInstanceId(String guid) {#setInstanceId-java.lang.String-}
 ```
@@ -110,12 +110,12 @@ public void setInstanceId(String guid)
 ```
 
 
-يضبط معرف المثيل.
+يضبط معرف النسخة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.lang.String | المعرف الفريد. |
+| guid | java.lang.String | المعرّف الفريد. |
 
 ### setOriginalDocumentId(UUID guid) {#setOriginalDocumentId-java.util.UUID-}
 ```
@@ -128,7 +128,7 @@ public void setOriginalDocumentId(UUID guid)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.util.UUID | المعرف الفريد. |
+| guid | java.util.UUID | المعرّف الفريد. |
 
 ### setOriginalDocumentId(String guid) {#setOriginalDocumentId-java.lang.String-}
 ```
@@ -141,5 +141,5 @@ public void setOriginalDocumentId(String guid)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.lang.String | المعرف الفريد. |
+| guid | java.lang.String | المعرّف الفريد. |
 

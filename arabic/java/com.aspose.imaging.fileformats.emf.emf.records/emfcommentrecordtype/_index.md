@@ -1,7 +1,7 @@
 ---
 title: "EmfCommentRecordType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد أنواع سجلات التعليق صيغًا لتحديد سجلات تضمين بيانات خاصة تعسفية في صيغ ملفات ميتا أخرى وإضافة أوامر جديدة أو ذات غرض خاص."
+description: "أنواع سجلات التعليق تُعرّف صيغًا لتحديد سجلات تضمين بيانات خاصة عشوائية في صيغ ملفات ميتا أخرى وإضافة أوامر جديدة أو ذات غرض خاص."
 type: docs
 weight: 32
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfCommentRecordType extends EmfRecord
 ```
 
-أنواع سجلات التعليق تعرف صيغًا لتحديد بيانات خاصة عشوائية، وتضمين سجلات في صيغ ملفات تعريفية أخرى، وإضافة أوامر جديدة أو مخصصة.
+أنواع سجلات التعليق تعرف صيغًا لتحديد بيانات خاصة عشوائية، ودمج السجلات في صيغ ملفات تعريفية أخرى، وإضافة أوامر جديدة أو ذات غرض خاص.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDataSize()](#getDataSize--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الحجم، بالبايت، لحقلي CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. |
-| [setDataSize(int value)](#setDataSize-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الحجم، بالبايت، لحقلي CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. |
+| [getDataSize()](#getDataSize--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الحجم، بالبايت، للحقول CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. |
+| [setDataSize(int value)](#setDataSize-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الحجم، بالبايت، للحقول CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. |
 | [getCommentIdentifier()](#getCommentIdentifier--) | يحصل أو يعيّن معرف التعليق. |
 | [setCommentIdentifier(int value)](#setCommentIdentifier-int-) | يحصل أو يعيّن معرف التعليق. |
 ### getDataSize() {#getDataSize--}
@@ -27,7 +27,7 @@ public int getDataSize()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الحجم، بالبايت، لحقلي CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. يجب ألا تشمل حجم نفسه أو حجم حقل AlignmentPadding، إذا كان موجودًا.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الحجم، بالبايت، للحقول CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. يجب ألا يتضمن حجم نفسه أو حجم حقل AlignmentPadding، إذا كان موجودًا.
 
 **Returns:**
 int
@@ -37,12 +37,12 @@ public void setDataSize(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الحجم، بالبايت، لحقلي CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. يجب ألا تشمل حجم نفسه أو حجم حقل AlignmentPadding، إذا كان موجودًا.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الحجم، بالبايت، للحقول CommentIdentifier وCommentRecordParm في حقل RecordBuffer التالي. يجب ألا يتضمن حجم نفسه أو حجم حقل AlignmentPadding، إذا كان موجودًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCommentIdentifier() {#getCommentIdentifier--}
 ```
@@ -69,5 +69,5 @@ public void setCommentIdentifier(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

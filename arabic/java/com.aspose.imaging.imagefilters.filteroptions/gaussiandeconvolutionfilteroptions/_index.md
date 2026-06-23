@@ -23,8 +23,8 @@ public abstract class GaussianDeconvolutionFilterOptions extends DeconvolutionFi
 | [getSize()](#getSize--) | يحصل على حجم نواة Gaussian. |
 | [setSize(int value)](#setSize-int-) | حجم نواة Gaussian. |
 | [getSigma()](#getSigma--) | يحصل على سيغما نواة Gaussian (التنعيم). |
-| [setSigma(double value)](#setSigma-double-) | معامل سيغما لنواة Gaussian (التنعيم). |
-| [getRadius()](#getRadius--) | يحصل على نصف قطر Gausseian ISquareConvolutionKernel. |
+| [setSigma(double value)](#setSigma-double-) | سيغما نواة Gaussian (التنعيم). |
+| [getRadius()](#getRadius--) | يُرجع نصف قطر Gausseian ISquareConvolutionKernel. |
 | [setRadius(int value)](#setRadius-int-) | نصف قطر Gausseian ISquareConvolutionKernel. |
 ### getSize() {#getSize--}
 ```
@@ -32,7 +32,7 @@ public final int getSize()
 ```
 
 
-يحصل على حجم نواة Gaussian. يجب أن يكون قيمة موجبة غير صفرية وفردية.
+يحصل على حجم نواة Gaussian. يجب أن تكون قيمة موجبة غير صفرية وفردية.
 
 **Returns:**
 int - حجم نواة Gaussian.
@@ -42,12 +42,12 @@ public final void setSize(int value)
 ```
 
 
-حجم نواة Gaussian. يجب أن يكون قيمة موجبة غير صفرية وفردية.
+حجم نواة Gaussian. يجب أن تكون قيمة موجبة غير صفرية وفردية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | حجم نواة Gaussian. |
+| value | int | حجم نواة Gaussian. |
 
 ### getSigma() {#getSigma--}
 ```
@@ -55,7 +55,7 @@ public final double getSigma()
 ```
 
 
-يحصل على سيغما نواة Gaussian (التنعيم). يجب أن يكون قيمة موجبة غير صفرية.
+يحصل على سيغما نواة Gaussian (التنعيم). يجب أن تكون قيمة موجبة غير صفرية.
 
 **Returns:**
 double - سيغما نواة Gaussian (التنعيم).
@@ -65,12 +65,12 @@ public final void setSigma(double value)
 ```
 
 
-سيغما نواة Gaussian (التنعيم). يجب أن يكون قيمة موجبة غير صفرية.
+سيغما نواة Gaussian (التنعيم). يجب أن تكون قيمة موجبة غير صفرية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | سيغما نواة Gaussian (التنعيم). |
+| value | double | سيغما نواة Gaussian (التنعيم). |
 
 ### getRadius() {#getRadius--}
 ```
@@ -78,7 +78,7 @@ public final int getRadius()
 ```
 
 
-يحصل على نصف قطر Gausseian ISquareConvolutionKernel.
+يُرجع نصف قطر Gausseian ISquareConvolutionKernel.
 
 **Returns:**
 int - نصف قطر Gausseian ISquareConvolutionKernel.
@@ -93,5 +93,5 @@ public final void setRadius(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نصف قطر Gausseian ISquareConvolutionKernel. |
+| value | int | نصف قطر Gausseian ISquareConvolutionKernel. |
 

@@ -1,7 +1,7 @@
 ---
 title: "RenderResult"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل المعلومات مع نتائج العرض"
+description: "يمثل معلومات مع نتائج التصيير"
 type: docs
 weight: 44
 url: /ar/java/com.aspose.imaging.imageoptions/renderresult/
@@ -12,7 +12,7 @@ java.lang.Object
 public class RenderResult
 ```
 
-يمثل المعلومات مع نتائج العرض
+يمثل معلومات مع نتائج التصيير
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class RenderResult
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMessage()](#getMessage--) | يحصل أو يعيّن رسالة النص |
-| [setMessage(String value)](#setMessage-java.lang.String-) | يحصل أو يعيّن رسالة النص |
-| [getRenderCode()](#getRenderCode--) | يحصل أو يعيّن رمز الخطأ |
-| [setRenderCode(int value)](#setRenderCode-int-) | يحصل أو يعيّن رمز الخطأ |
+| [getMessage()](#getMessage--) | يحصل أو يضبط رسالة النص. |
+| [setMessage(String value)](#setMessage-java.lang.String-) | يحصل أو يضبط رسالة النص. |
+| [getRenderCode()](#getRenderCode--) | يحصل أو يضبط رمز الخطأ. |
+| [setRenderCode(int value)](#setRenderCode-int-) | يحصل أو يضبط رمز الخطأ. |
 ### RenderResult() {#RenderResult--}
 ```
 public RenderResult()
@@ -38,7 +38,7 @@ public String getMessage()
 ```
 
 
-يحصل أو يعيّن رسالة النص
+يحصل أو يضبط رسالة النص.
 
 **Returns:**
 java.lang.String
@@ -48,12 +48,12 @@ public void setMessage(String value)
 ```
 
 
-يحصل أو يعيّن رسالة النص
+يحصل أو يضبط رسالة النص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getRenderCode() {#getRenderCode--}
 ```
@@ -61,7 +61,7 @@ public int getRenderCode()
 ```
 
 
-يحصل أو يعيّن رمز الخطأ
+يحصل أو يضبط رمز الخطأ.
 
 **Returns:**
 int
@@ -71,10 +71,10 @@ public void setRenderCode(int value)
 ```
 
 
-يحصل أو يعيّن رمز الخطأ
+يحصل أو يضبط رمز الخطأ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

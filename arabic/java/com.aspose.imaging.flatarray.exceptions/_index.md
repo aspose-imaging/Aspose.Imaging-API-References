@@ -9,6 +9,6 @@ url: /ar/java/com.aspose.imaging.flatarray.exceptions/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [FlatArrayException](../com.aspose.imaging.flatarray.exceptions/flatarrayexception) | استثناء خاص لفئة `FlatArray`. |

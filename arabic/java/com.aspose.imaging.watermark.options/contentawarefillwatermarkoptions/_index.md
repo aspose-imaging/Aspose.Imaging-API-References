@@ -1,18 +1,18 @@
 ---
 title: "ContentAwareFillWatermarkOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات خوارزمية التعبئة الواعية بالمحتوى الشائعة."
+description: "خيارات خوارزمية الملء المدرك للمحتوى الشائعة."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.watermark.options/contentawarefillwatermarkoptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.watermark.options.WatermarkOptions](../../com.aspose.imaging.watermark.options/watermarkoptions)
+java.lang.Object، [com.aspose.imaging.watermark.options.WatermarkOptions](../../com.aspose.imaging.watermark.options/watermarkoptions)
 ```
 public class ContentAwareFillWatermarkOptions extends WatermarkOptions
 ```
 
-خيارات خوارزمية التعبئة الواعية بالمحتوى الشائعة.
+خيارات خوارزمية الملء المدرك للمحتوى الشائعة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -27,8 +27,8 @@ public class ContentAwareFillWatermarkOptions extends WatermarkOptions
 | [setPatchSize(byte value)](#setPatchSize-byte-) | يضبط حجم الرقعة (يجب أن يكون فرديًا). |
 | [getMaxPaintingAttempts()](#getMaxPaintingAttempts--) | يحصل على الحد الأقصى لعدد محاولات الرسم. |
 | [setMaxPaintingAttempts(int value)](#setMaxPaintingAttempts-int-) | يضبط الحد الأقصى لعدد محاولات الرسم. |
-| [getInterestArea()](#getInterestArea--) | يحصل على المنطقة لاستخراج الرقع. |
-| [setInterestArea(Rectangle value)](#setInterestArea-com.aspose.imaging.Rectangle-) | يضبط المنطقة لاستخراج الرقع. |
+| [getInterestArea()](#getInterestArea--) | يحصل على المنطقة لالتقاط الرقع. |
+| [setInterestArea(Rectangle value)](#setInterestArea-com.aspose.imaging.Rectangle-) | يضبط المنطقة لالتقاط الرقع. |
 
 ## Example: The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm.
 
@@ -103,7 +103,7 @@ public final void setPatchSize(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | حجم الرقعة (يجب أن يكون فرديًا). |
+| value | byte | حجم الرقعة (يجب أن يكون فرديًا). |
 
 ### getMaxPaintingAttempts() {#getMaxPaintingAttempts--}
 ```
@@ -146,14 +146,14 @@ public final void setMaxPaintingAttempts(int value)
 ```
 
 
-يضبط الحد الأقصى لعدد محاولات الرسم. سيختار الخوارزمية أفضل خيار.
+يضبط الحد الأقصى لعدد محاولات الرسم. ستختار الخوارزمية أفضل بديل.
 
 القيمة: الحد الأقصى لعدد محاولات الرسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الحد الأقصى لعدد محاولات الرسم. |
+| value | int | الحد الأقصى لعدد محاولات الرسم. |
 
 
 **Example: The example shows how to remove any object from the image using Graphics Path with Content Aware fill algorithm.**
@@ -184,9 +184,9 @@ public final Rectangle getInterestArea()
 ```
 
 
-يحصل على المنطقة لاستخراج الرقع.
+يحصل على المنطقة لالتقاط الرقع.
 
-القيمة: المنطقة المستهدفة لأخذ القطع.
+القيمة: منطقة الاهتمام لالتقاط الرقع.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the area to take patches.
@@ -196,12 +196,12 @@ public final void setInterestArea(Rectangle value)
 ```
 
 
-يضبط المنطقة لاستخراج الرقع.
+يضبط المنطقة لالتقاط الرقع.
 
-القيمة: المنطقة المستهدفة لأخذ القطع.
+القيمة: منطقة الاهتمام لالتقاط الرقع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Rectangle](../../com.aspose.imaging/rectangle) | المنطقة لأخذ القطع. |
+| value | [Rectangle](../../com.aspose.imaging/rectangle) | المنطقة لالتقاط الرقع. |
 

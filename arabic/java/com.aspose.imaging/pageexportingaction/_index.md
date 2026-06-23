@@ -1,7 +1,7 @@
 ---
 title: "PageExportingAction"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مندوب لتشغيل الحدث قبل تصدير الصفحة"
+description: "المندوب لتشغيل الحدث قبل تصدير الصفحة"
 type: docs
 weight: 149
 url: /ar/java/com.aspose.imaging/pageexportingaction/

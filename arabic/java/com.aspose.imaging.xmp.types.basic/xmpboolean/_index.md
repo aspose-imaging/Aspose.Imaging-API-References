@@ -1,7 +1,7 @@
 ---
 title: "XmpBoolean"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل النوع الأساسي المنطقي XMP."
+description: "يمثل النوع الأساسي Boolean في XMP."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.xmp.types.basic/xmpboolean/
@@ -12,33 +12,33 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class XmpBoolean extends XmpTypeBase
 ```
 
-يمثل النوع الأساسي المنطقي XMP.
+يمثل النوع الأساسي Boolean في XMP.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpBoolean(boolean value)](#XmpBoolean-boolean-) | يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean` بناءً على قيمة منطقية. |
-| [XmpBoolean()](#XmpBoolean--) | يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean` بقيمة افتراضية. |
+| [XmpBoolean(boolean value)](#XmpBoolean-boolean-) | ينشئ مثيلاً جديداً من الفئة `XmpBoolean` بناءً على قيمة منطقية. |
+| [XmpBoolean()](#XmpBoolean--) | يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean` بالقيمة الافتراضية. |
 | [XmpBoolean(String value)](#XmpBoolean-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValue()](#getValue--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة. |
-| [setValue(boolean value)](#setValue-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة. |
-| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة النصية المحتواة بتنسيق XMP. |
+| [getValue()](#getValue--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة. |
+| [setValue(boolean value)](#setValue-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة. |
+| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة المحتواة كسلسلة بصيغة XMP. |
 ### XmpBoolean(boolean value) {#XmpBoolean-boolean-}
 ```
 public XmpBoolean(boolean value)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean` بناءً على قيمة منطقية.
+ينشئ مثيلاً جديداً من الفئة `XmpBoolean` بناءً على قيمة منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة المنطقية. القيم المسموح بها هي True أو False. |
+| value | boolean | القيمة المنطقية. القيم المسموح بها هي True أو False. |
 
 ### XmpBoolean() {#XmpBoolean--}
 ```
@@ -46,7 +46,7 @@ public XmpBoolean()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean` بقيمة افتراضية.
+يُنشئ مثيلاً جديدًا من الفئة `XmpBoolean` بالقيمة الافتراضية.
 
 ### XmpBoolean(String value) {#XmpBoolean-java.lang.String-}
 ```
@@ -59,7 +59,7 @@ public XmpBoolean(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### getValue() {#getValue--}
 ```
@@ -67,7 +67,7 @@ public boolean getValue()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة.
 
 القيمة: `true` إذا كانت القيمة؛ وإلا `false`.
 
@@ -79,14 +79,14 @@ public void setValue(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا `XmpBoolean` قيمة.
 
 القيمة: `true` إذا كانت القيمة؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -94,7 +94,7 @@ public String getXmpRepresentation()
 ```
 
 
-يرجع القيمة النصية المحتواة بتنسيق XMP.
+يرجع القيمة المحتواة كسلسلة بصيغة XMP.
 
 **Returns:**
-java.lang.String - يُرجِع سلسلة تحتوي على تمثيل xmp.
+java.lang.String - يُعيد سلسلة تحتوي على تمثيل xmp.

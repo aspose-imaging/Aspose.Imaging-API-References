@@ -1,13 +1,13 @@
 ---
 title: "WmfPaintRegion"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_PAINTREGION يرسم المنطقة المحددة باستخدام الفرشاة التي تم تعريفها في سياق جهاز التشغيل."
+description: "السجل META_PAINTREGION يرسم المنطقة المحددة باستخدام الفرشاة المعرفة في سياق جهاز التشغيل."
 type: docs
 weight: 51
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfpaintregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPaintRegion extends WmfObject
 ```
@@ -17,21 +17,21 @@ public class WmfPaintRegion extends WmfObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfPaintRegion()](#WmfPaintRegion--) | يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`. |
-| [WmfPaintRegion(WmfGraphicObject region)](#WmfPaintRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`. |
+| [WmfPaintRegion()](#WmfPaintRegion--) | ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`. |
+| [WmfPaintRegion(WmfGraphicObject region)](#WmfPaintRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRegionIndex()](#getRegionIndex--) | يحصل أو يعيّن فهرس المنطقة. |
-| [setRegionIndex(int value)](#setRegionIndex-int-) | يحصل أو يعيّن فهرس المنطقة. |
+| [getRegionIndex()](#getRegionIndex--) | يحصل أو يضبط فهرس المنطقة. |
+| [setRegionIndex(int value)](#setRegionIndex-int-) | يحصل أو يضبط فهرس المنطقة. |
 ### WmfPaintRegion() {#WmfPaintRegion--}
 ```
 public WmfPaintRegion()
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`.
+ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`.
 
 ### WmfPaintRegion(WmfGraphicObject region) {#WmfPaintRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-}
 ```
@@ -39,7 +39,7 @@ public WmfPaintRegion(WmfGraphicObject region)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`.
+ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -52,7 +52,7 @@ public int getRegionIndex()
 ```
 
 
-يحصل أو يعيّن فهرس المنطقة.
+يحصل أو يضبط فهرس المنطقة.
 
 القيمة: فهرس المنطقة.
 
@@ -64,12 +64,12 @@ public void setRegionIndex(int value)
 ```
 
 
-يحصل أو يعيّن فهرس المنطقة.
+يحصل أو يضبط فهرس المنطقة.
 
 القيمة: فهرس المنطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

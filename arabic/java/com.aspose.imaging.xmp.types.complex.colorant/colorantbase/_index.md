@@ -1,7 +1,7 @@
 ---
 title: "ColorantBase"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل نوع صبغة XMP."
+description: "يمثّل نوع صبغة XMP."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.xmp.types.complex.colorant/colorantbase/
@@ -12,16 +12,16 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public abstract class ColorantBase extends ComplexTypeBase
 ```
 
-يمثل نوع صبغة XMP.
+يمثّل نوع صبغة XMP.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMode()](#getMode--) | يحصل على `ColorMode`. |
-| [getSwatchName()](#getSwatchName--) | يحصل أو يعيّن اسم العينة. |
-| [setSwatchName(String value)](#setSwatchName-java.lang.String-) | يحصل أو يعيّن اسم العينة. |
-| [getColorType()](#getColorType--) | يحصل أو يعيّن نوع اللون. |
-| [setColorType(int value)](#setColorType-int-) | يحصل أو يعيّن نوع اللون. |
+| [getMode()](#getMode--) | يسترجع `ColorMode`. |
+| [getSwatchName()](#getSwatchName--) | يسترجع أو يضبط اسم العينة. |
+| [setSwatchName(String value)](#setSwatchName-java.lang.String-) | يسترجع أو يضبط اسم العينة. |
+| [getColorType()](#getColorType--) | يسترجع أو يضبط نوع اللون. |
+| [setColorType(int value)](#setColorType-int-) | يسترجع أو يضبط نوع اللون. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### getMode() {#getMode--}
 ```
@@ -29,7 +29,7 @@ public int getMode()
 ```
 
 
-يحصل على `ColorMode`.
+يسترجع `ColorMode`.
 
 القيمة: وضع اللون.
 
@@ -41,7 +41,7 @@ public String getSwatchName()
 ```
 
 
-يحصل أو يعيّن اسم العينة.
+يسترجع أو يضبط اسم العينة.
 
 القيمة: اسم العينة.
 
@@ -53,14 +53,14 @@ public void setSwatchName(String value)
 ```
 
 
-يحصل أو يعيّن اسم العينة.
+يسترجع أو يضبط اسم العينة.
 
 القيمة: اسم العينة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getColorType() {#getColorType--}
 ```
@@ -68,7 +68,7 @@ public int getColorType()
 ```
 
 
-يحصل أو يعيّن نوع اللون.
+يسترجع أو يضبط نوع اللون.
 
 القيمة: نوع اللون.
 
@@ -80,14 +80,14 @@ public void setColorType(int value)
 ```
 
 
-يحصل أو يعيّن نوع اللون.
+يسترجع أو يضبط نوع اللون.
 
 القيمة: نوع اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

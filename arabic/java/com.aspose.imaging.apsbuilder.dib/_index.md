@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.apsbuilder.dib/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [DibBitCount](../com.aspose.imaging.apsbuilder.dib/dibbitcount) | تحدد تعداد BitCount عدد البتات التي تُعرّف كل بكسل والحد الأقصى لعدد الألوان في bitmap مستقل عن الجهاز (DIB). |
+| [DibBitCount](../com.aspose.imaging.apsbuilder.dib/dibbitcount) | تحدد تعداد BitCount عدد البتات التي تُعرف كل بكسل والحد الأقصى لعدد الألوان في bitmap مستقل عن الجهاز (DIB). |

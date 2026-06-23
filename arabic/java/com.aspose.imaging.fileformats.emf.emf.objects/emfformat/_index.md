@@ -7,7 +7,7 @@ weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emfformat/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
 ```
 public final class EmfFormat extends EmfObject
 ```
@@ -28,8 +28,8 @@ public final class EmfFormat extends EmfObject
 | [setVersion(int value)](#setVersion-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رقم إصدار التنسيق. |
 | [getSizeData()](#getSizeData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم البيانات بالبايت. |
 | [setSizeData(int value)](#setSizeData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم البيانات بالبايت. |
-| [getOffData()](#getOffData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\_COMMENT\_PUBLIC (القسم 2.3.3.4). |
-| [setOffData(int value)](#setOffData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\_COMMENT\_PUBLIC (القسم 2.3.3.4). |
+| [getOffData()](#getOffData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\\_COMMENT\\_PUBLIC (القسم 2.3.3.4). |
+| [setOffData(int value)](#setOffData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\\_COMMENT\\_PUBLIC (القسم 2.3.3.4). |
 ### EmfFormat() {#EmfFormat--}
 ```
 public EmfFormat()
@@ -57,7 +57,7 @@ public void setSignature(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -65,7 +65,7 @@ public int getVersion()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رقم إصدار التنسيق. إذا كان حقل Signature يحدد PostScript المضمّن (EPS)، يجب أن تكون هذه القيمة 0x00000001؛ وإلا يجب تجاهل هذه القيمة.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رقم إصدار التنسيق. إذا كان حقل Signature يحدد PostScript المغلف (EPS)، يجب أن تكون هذه القيمة 0x00000001؛ وإلا يجب تجاهل هذه القيمة.
 
 **Returns:**
 int
@@ -75,12 +75,12 @@ public void setVersion(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رقم إصدار التنسيق. إذا كان حقل Signature يحدد PostScript المضمّن (EPS)، يجب أن تكون هذه القيمة 0x00000001؛ وإلا يجب تجاهل هذه القيمة.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد رقم إصدار التنسيق. إذا كان حقل Signature يحدد PostScript المغلف (EPS)، يجب أن تكون هذه القيمة 0x00000001؛ وإلا يجب تجاهل هذه القيمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSizeData() {#getSizeData--}
 ```
@@ -103,7 +103,7 @@ public void setSizeData(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getOffData() {#getOffData--}
 ```
@@ -111,7 +111,7 @@ public int getOffData()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\_COMMENT\_PUBLIC (القسم 2.3.3.4). يجب أن تكون الإزاحة محاذاة 32 بت.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\\_COMMENT\\_PUBLIC (القسم 2.3.3.4). يجب أن تكون الإزاحة محاذاة على 32 بت.
 
 **Returns:**
 int
@@ -121,10 +121,10 @@ public void setOffData(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\_COMMENT\_PUBLIC (القسم 2.3.3.4). يجب أن تكون الإزاحة محاذاة 32 بت.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد الإزاحة إلى البيانات من بداية حقل المعرف في سجل EMR\\_COMMENT\\_PUBLIC (القسم 2.3.3.4). يجب أن تكون الإزاحة محاذاة على 32 بت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

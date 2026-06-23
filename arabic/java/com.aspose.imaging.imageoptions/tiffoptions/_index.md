@@ -1,7 +1,7 @@
 ---
 title: "TiffOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تنسيق ملف TIFF."
+description: "خيارات صيغة ملف TIFF."
 type: docs
 weight: 48
 url: /ar/java/com.aspose.imaging.imageoptions/tiffoptions/
@@ -15,57 +15,57 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 ```
 
-خيارات تنسيق ملف TIFF. لاحظ أن وسوم العرض والارتفاع سيتم استبدالهما عند إنشاء الصورة بواسطة معلمات العرض والارتفاع، لذا لا حاجة لتحديدهما مباشرة. لاحظ أن العديد من الخيارات تُعيد قيمة افتراضية لكن هذا لا يعني أن هذا الخيار تم تعيينه صراحة كقيمة للوسم. للتحقق من وجود الوسم استخدم خاصية Tags أو الطريقة المقابلة IsTagPresent.
+خيارات تنسيق ملف TIFF. لاحظ أن وسوم العرض والارتفاع سيتم استبدالها عند إنشاء الصورة بواسطة معلمات العرض والارتفاع لذا لا حاجة لتحديدها مباشرة. لاحظ أن العديد من الخيارات تُعيد قيمة افتراضية لكن هذا لا يعني أن هذا الخيار تم تعيينه صراحة كقيمة للوسم. للتحقق من وجود الوسم استخدم الخاصية Tags أو الطريقة المقابلة IsTagPresent.
 
-` تحذير! لا تقم بتعديل خيارات TIFF أثناء الحفظ لأن ذلك قد يسبب آثارًا جانبية وأخطاء يصعب اكتشافها. تم ترك السطر التالي معلقًا خصيصًا لأنه تسبب في تحديد غير صحيح لبداية البيانات. الخيارات الممررة لم تحتوي على spp (على الرغم من أن الخيارات غير صحيحة في هذه الحالة لكن هذا السيناريو لا يزال يسبب أخطاء) والسطر التالي تسبب في إضافة وسم +spp ووسم +bpp وعند كتابة الخيارات بعد كتابة البيانات بالكامل تم استبدال بداية البيانات للترميز غير المضغوط!!! راجع TiffUncompressedCodec.Encode. this.Options.SamplesPerPixel = 3; `
+`تحذير! لا تقم بتعديل خيارات TIFF أثناء الحفظ لأن ذلك قد يسبب آثارًا جانبية وأخطاء يصعب العثور عليها. تم ترك السطر التالي مُعَلَّقًا خصيصًا لأنه تسبب في تحديد غير صحيح لبداية البيانات. الخيارات الممررة لم تحتوي على spp (على الرغم من أن الخيارات غير صحيحة في هذه الحالة لكن هذا السيناريو لا يزال يسبب أخطاء) والسطر التالي تسبب في إضافة وسم +spp ووسم +bpp وعندما كتبت الخيارات بعد كتابة البيانات بالكامل تم استبدال بداية البيانات للترميز غير المضغوط!!! راجع TiffUncompressedCodec.Encode. this.Options.SamplesPerPixel = 3;`
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffOptions(int expectedFormat, int byteOrder)](#TiffOptions-int-int-) | يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`. |
-| [TiffOptions(int expectedFormat)](#TiffOptions-int-) | يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`. |
-| [TiffOptions(TiffOptions options)](#TiffOptions-com.aspose.imaging.imageoptions.TiffOptions-) | يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`. |
-| [TiffOptions(TiffDataType[] tags)](#TiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`. |
+| [TiffOptions(int expectedFormat, int byteOrder)](#TiffOptions-int-int-) | ينشئ نسخة جديدة من الفئة `TiffOptions`. |
+| [TiffOptions(int expectedFormat)](#TiffOptions-int-) | ينشئ نسخة جديدة من الفئة `TiffOptions`. |
+| [TiffOptions(TiffOptions options)](#TiffOptions-com.aspose.imaging.imageoptions.TiffOptions-) | ينشئ نسخة جديدة من الفئة `TiffOptions`. |
+| [TiffOptions(TiffDataType[] tags)](#TiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---) | ينشئ نسخة جديدة من الفئة `TiffOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getValidTagsCount(TiffDataType[] tags)](#getValidTagsCount-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يحصل على عدد الوسوم الصالحة. |
 | [getTagCount()](#getTagCount--) | يحصل على عدد الوسوم. |
-| [getFileStandard()](#getFileStandard--) | يسترجع أو يعيّن معيار ملف TIFF. |
-| [setFileStandard(int value)](#setFileStandard-int-) | يسترجع أو يعيّن معيار ملف TIFF. |
-| [getDefaultMemoryAllocationLimit()](#getDefaultMemoryAllocationLimit--) | يسترجع أو يعيّن حد تخصيص الذاكرة الافتراضي. |
-| [setDefaultMemoryAllocationLimit(int value)](#setDefaultMemoryAllocationLimit-int-) | يسترجع أو يعيّن حد تخصيص الذاكرة الافتراضي. |
-| [getPremultiplyComponents()](#getPremultiplyComponents--) | يسترجع أو يعيّن قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا. |
-| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | يسترجع أو يعيّن قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا. |
-| [isValid()](#isValid--) | يسترجع قيمة تشير إلى ما إذا تم تكوين `TiffOptions` بشكل صحيح. |
-| [getYCbCrSubsampling()](#getYCbCrSubsampling--) | يسترجع أو يعيّن عوامل أخذ العينات الفرعية للقياس الضوئي YCbCr. |
-| [setYCbCrSubsampling(int[] value)](#setYCbCrSubsampling-int---) | يسترجع أو يعيّن عوامل أخذ العينات الفرعية للقياس الضوئي YCbCr. |
-| [getYCbCrCoefficients()](#getYCbCrCoefficients--) | يسترجع أو يعيّن معاملات YCbCr. |
-| [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | يسترجع أو يعيّن معاملات YCbCr. |
-| [isTiled()](#isTiled--) | يسترجع قيمة تشير إلى ما إذا كانت الصورة مقسمة إلى مربعات. |
-| [getArtist()](#getArtist--) | يسترجع أو يعيّن الفنان. |
-| [setArtist(String value)](#setArtist-java.lang.String-) | يسترجع أو يعيّن الفنان. |
+| [getFileStandard()](#getFileStandard--) | يحصل أو يضبط معيار ملف TIFF. |
+| [setFileStandard(int value)](#setFileStandard-int-) | يحصل أو يضبط معيار ملف TIFF. |
+| [getDefaultMemoryAllocationLimit()](#getDefaultMemoryAllocationLimit--) | يحصل أو يضبط الحد الافتراضي لتخصيص الذاكرة. |
+| [setDefaultMemoryAllocationLimit(int value)](#setDefaultMemoryAllocationLimit-int-) | يحصل أو يضبط الحد الافتراضي لتخصيص الذاكرة. |
+| [getPremultiplyComponents()](#getPremultiplyComponents--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا. |
+| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا. |
+| [isValid()](#isValid--) | يحصل على قيمة تشير إلى ما إذا تم تكوين `TiffOptions` بشكل صحيح. |
+| [getYCbCrSubsampling()](#getYCbCrSubsampling--) | يحصل أو يضبط عوامل التقليل الفرعي للتمثيل الضوئي YCbCr. |
+| [setYCbCrSubsampling(int[] value)](#setYCbCrSubsampling-int---) | يحصل أو يضبط عوامل التقليل الفرعي للتمثيل الضوئي YCbCr. |
+| [getYCbCrCoefficients()](#getYCbCrCoefficients--) | يحصل أو يضبط YCbCrCoefficients. |
+| [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يضبط YCbCrCoefficients. |
+| [isTiled()](#isTiled--) | يحصل على قيمة تشير إلى ما إذا كانت الصورة مقسمة إلى بلاطات. |
+| [getArtist()](#getArtist--) | يحصل أو يضبط الفنان. |
+| [setArtist(String value)](#setArtist-java.lang.String-) | يحصل أو يضبط الفنان. |
 | [isTagPresent(int tag)](#isTagPresent-int-) | يحدد ما إذا كان الوسم موجودًا في الخيارات أم لا. |
-| [getByteOrder()](#getByteOrder--) | يسترجع أو يعيّن قيمة تشير إلى ترتيب بايتات TIFF. |
-| [setByteOrder(int value)](#setByteOrder-int-) | يسترجع أو يعيّن قيمة تشير إلى ترتيب بايتات TIFF. |
-| [getIccProfile()](#getIccProfile--) | يسترجع تدفق ملف تعريف ICC. |
-| [setIccProfile(byte[] value)](#setIccProfile-byte---) | يعيّن تدفق ملف تعريف ICC. |
-| [isDisableIccExport()](#isDisableIccExport--) | يسترجع قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا). |
-| [setDisableIccExport(boolean value)](#setDisableIccExport-boolean-) | يعيّن قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا). |
-| [getBitsPerSample()](#getBitsPerSample--) | يسترجع عدد البتات لكل عينة. |
-| [setBitsPerSample(int[] value)](#setBitsPerSample-int---) | يعيّن عدد البتات لكل عينة. |
-| [getExtraSamples()](#getExtraSamples--) | يسترجع قيم العينات الإضافية. |
-| [getCompression()](#getCompression--) | يسترجع الضغط. |
-| [setCompression(int value)](#setCompression-int-) | يعيّن الضغط. |
-| [getCompressedQuality()](#getCompressedQuality--) | يسترجع جودة الصورة المضغوطة. |
-| [setCompressedQuality(int value)](#setCompressedQuality-int-) | يعيّن جودة الصورة المضغوطة. |
-| [getCopyright()](#getCopyright--) | يسترجع حقوق النشر. |
-| [setCopyright(String value)](#setCopyright-java.lang.String-) | يعيّن حقوق النشر. |
-| [getColorMap()](#getColorMap--) | يسترجع أو يعيّن خريطة الألوان. |
-| [setColorMap(int[] value)](#setColorMap-int---) | يسترجع أو يعيّن خريطة الألوان. |
-| [getPalette()](#getPalette--) | يسترجع أو يعيّن لوحة الألوان. |
-| [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | يسترجع أو يعيّن لوحة الألوان. |
+| [getByteOrder()](#getByteOrder--) | يحصل أو يضبط قيمة تشير إلى ترتيب البايتات في TIFF. |
+| [setByteOrder(int value)](#setByteOrder-int-) | يحصل أو يضبط قيمة تشير إلى ترتيب البايتات في TIFF. |
+| [getIccProfile()](#getIccProfile--) | يحصل على تدفق ملف تعريف ICC. |
+| [setIccProfile(byte[] value)](#setIccProfile-byte---) | يضبط تدفق ملف تعريف ICC. |
+| [isDisableIccExport()](#isDisableIccExport--) | يحصل على قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا). |
+| [setDisableIccExport(boolean value)](#setDisableIccExport-boolean-) | يضبط قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا). |
+| [getBitsPerSample()](#getBitsPerSample--) | يحصل على عدد البتات لكل عينة. |
+| [setBitsPerSample(int[] value)](#setBitsPerSample-int---) | يضبط عدد البتات لكل عينة. |
+| [getExtraSamples()](#getExtraSamples--) | يحصل على قيم العينات الإضافية. |
+| [getCompression()](#getCompression--) | يحصل على الضغط. |
+| [setCompression(int value)](#setCompression-int-) | يضبط الضغط. |
+| [getCompressedQuality()](#getCompressedQuality--) | يحصل على جودة الصورة المضغوطة. |
+| [setCompressedQuality(int value)](#setCompressedQuality-int-) | يضبط جودة الصورة المضغوطة. |
+| [getCopyright()](#getCopyright--) | يحصل على حقوق النشر. |
+| [setCopyright(String value)](#setCopyright-java.lang.String-) | يضبط حقوق النشر. |
+| [getColorMap()](#getColorMap--) | يحصل أو يضبط خريطة الألوان. |
+| [setColorMap(int[] value)](#setColorMap-int---) | يحصل أو يضبط خريطة الألوان. |
+| [getPalette()](#getPalette--) | يحصل أو يضبط لوحة الألوان. |
+| [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | يحصل أو يضبط لوحة الألوان. |
 | [getDateTime()](#getDateTime--) | يحصل أو يضبط التاريخ والوقت. |
 | [setDateTime(String value)](#setDateTime-java.lang.String-) | يحصل أو يضبط التاريخ والوقت. |
 | [getDocumentName()](#getDocumentName--) | يحصل أو يضبط اسم المستند. |
@@ -75,14 +75,14 @@ public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 | [isExtraSamplesPresent()](#isExtraSamplesPresent--) | يحصل على قيمة تشير إلى ما إذا كانت العينات الإضافية موجودة. |
 | [getFillOrder()](#getFillOrder--) | يحصل أو يضبط ترتيب تعبئة بتات البايت. |
 | [setFillOrder(int value)](#setFillOrder-int-) | يحصل أو يضبط ترتيب تعبئة بتات البايت. |
-| [getHalfToneHints()](#getHalfToneHints--) | يحصل أو يضبط تلميحات نصف النغمة. |
-| [setHalfToneHints(int[] value)](#setHalfToneHints-int---) | يحصل أو يضبط تلميحات نصف النغمة. |
+| [getHalfToneHints()](#getHalfToneHints--) | يحصل أو يضبط تلميحات نصف اللون. |
+| [setHalfToneHints(int[] value)](#setHalfToneHints-int---) | يحصل أو يضبط تلميحات نصف اللون. |
 | [getImageDescription()](#getImageDescription--) | يحصل أو يضبط وصف الصورة. |
 | [setImageDescription(String value)](#setImageDescription-java.lang.String-) | يحصل أو يضبط وصف الصورة. |
 | [getInkNames()](#getInkNames--) | يحصل أو يضبط أسماء الحبر. |
 | [setInkNames(String value)](#setInkNames-java.lang.String-) | يحصل أو يضبط أسماء الحبر. |
-| [getScannerManufacturer()](#getScannerManufacturer--) | يحصل أو يضبط شركة صانع الماسح. |
-| [setScannerManufacturer(String value)](#setScannerManufacturer-java.lang.String-) | يحصل أو يضبط شركة صانع الماسح. |
+| [getScannerManufacturer()](#getScannerManufacturer--) | يحصل أو يضبط شركة تصنيع الماسح. |
+| [setScannerManufacturer(String value)](#setScannerManufacturer-java.lang.String-) | يحصل أو يضبط شركة تصنيع الماسح. |
 | [getMaxSampleValue()](#getMaxSampleValue--) | يحصل أو يضبط قيمة العينة القصوى. |
 | [setMaxSampleValue(int[] value)](#setMaxSampleValue-int---) | يحصل أو يضبط قيمة العينة القصوى. |
 | [getMinSampleValue()](#getMinSampleValue--) | يحصل أو يضبط قيمة العينة الدنيا. |
@@ -101,12 +101,12 @@ public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 | [setPlanarConfiguration(int value)](#setPlanarConfiguration-int-) | يحصل أو يضبط تكوين المستوى. |
 | [getResolutionUnit()](#getResolutionUnit--) | يحصل أو يضبط وحدة الدقة. |
 | [setResolutionUnit(int value)](#setResolutionUnit-int-) | يحصل أو يضبط وحدة الدقة. |
-| [getRowsPerStrip()](#getRowsPerStrip--) | يحصل أو يضبط عدد الصفوف لكل شريط. |
-| [setRowsPerStrip(long value)](#setRowsPerStrip-long-) | يحصل أو يضبط عدد الصفوف لكل شريط. |
-| [getTileWidth()](#getTileWidth--) | يحصل أو يضبط عرض البلاطة. |
-| [setTileWidth(long value)](#setTileWidth-long-) | يحصل أو يضبط عرض البلاطة. |
-| [getTileLength()](#getTileLength--) | يحصل أو يضبط طول البلاطة. |
-| [setTileLength(long value)](#setTileLength-long-) | يحصل أو يضبط طول البلاطة. |
+| [getRowsPerStrip()](#getRowsPerStrip--) | يحصل أو يضبط الصفوف لكل شريط. |
+| [setRowsPerStrip(long value)](#setRowsPerStrip-long-) | يحصل أو يضبط الصفوف لكل شريط. |
+| [getTileWidth()](#getTileWidth--) | يحصل ot يضبط عرض البلاطة. |
+| [setTileWidth(long value)](#setTileWidth-long-) | يحصل ot يضبط عرض البلاطة. |
+| [getTileLength()](#getTileLength--) | يحصل ot يضبط طول البلاطة. |
+| [setTileLength(long value)](#setTileLength-long-) | يحصل ot يضبط طول البلاطة. |
 | [getSampleFormat()](#getSampleFormat--) | يحصل أو يضبط تنسيق العينة. |
 | [setSampleFormat(int[] value)](#setSampleFormat-int---) | يحصل أو يضبط تنسيق العينة. |
 | [getSamplesPerPixel()](#getSamplesPerPixel--) | يحصل على العينات لكل بكسل. |
@@ -120,10 +120,10 @@ public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 | [setStripByteCounts(long[] value)](#setStripByteCounts-long---) | يحصل أو يضبط عدد بايتات الشريط. |
 | [getStripOffsets()](#getStripOffsets--) | يحصل أو يضبط إزاحات الشريط. |
 | [setStripOffsets(long[] value)](#setStripOffsets-long---) | يحصل أو يضبط إزاحات الشريط. |
-| [getTileByteCounts()](#getTileByteCounts--) | يحصل أو يضبط عدد بايتات البلاط. |
-| [setTileByteCounts(long[] value)](#setTileByteCounts-long---) | يحصل أو يضبط عدد بايتات البلاط. |
-| [getTileOffsets()](#getTileOffsets--) | يحصل أو يضبط إزاحات البلاط. |
-| [setTileOffsets(long[] value)](#setTileOffsets-long---) | يحصل أو يضبط إزاحات البلاط. |
+| [getTileByteCounts()](#getTileByteCounts--) | يحصل أو يضبط عدد بايتات البلاطة. |
+| [setTileByteCounts(long[] value)](#setTileByteCounts-long---) | يحصل أو يضبط عدد بايتات البلاطة. |
+| [getTileOffsets()](#getTileOffsets--) | يحصل أو يضبط إزاحات البلاطة. |
+| [setTileOffsets(long[] value)](#setTileOffsets-long---) | يحصل أو يضبط إزاحات البلاطة. |
 | [getSubFileType()](#getSubFileType--) | يحصل أو يضبط إشارة عامة لنوع البيانات الموجودة في هذا الملف الفرعي. |
 | [setSubFileType(long value)](#setSubFileType-long-) | يحصل أو يضبط إشارة عامة لنوع البيانات الموجودة في هذا الملف الفرعي. |
 | [getTargetPrinter()](#getTargetPrinter--) | يحصل أو يضبط الطابعة المستهدفة. |
@@ -149,19 +149,19 @@ public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 | [setImageLength(long value)](#setImageLength-long-) | يحصل أو يضبط طول الصورة. |
 | [getImageWidth()](#getImageWidth--) | يحصل أو يضبط عرض الصورة. |
 | [setImageWidth(long value)](#setImageWidth-long-) | يحصل أو يضبط عرض الصورة. |
-| [getExifIfd()](#getExifIfd--) | يحصل أو يضبط المؤشر إلى EXIF IFD. |
+| [getExifIfd()](#getExifIfd--) | يحصل أو يعيّن المؤشر إلى EXIF IFD. |
 | [getTags()](#getTags--) | يحصل أو يضبط العلامات. |
 | [setTags(TiffDataType[] value)](#setTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يحصل أو يضبط العلامات. |
 | [getValidTagCount()](#getValidTagCount--) | يحصل على عدد العلامات الصالحة. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد البتات لكل بكسل. |
 | [getXPTitle()](#getXPTitle--) | يحصل على معلومات حول الصورة، التي يستخدمها مستكشف Windows. |
 | [setXPTitle(String value)](#setXPTitle-java.lang.String-) | يضبط معلومات حول الصورة، التي يستخدمها مستكشف Windows. |
-| [getXPComment()](#getXPComment--) | يحصل على تعليق على الصورة، الذي يستخدمه مستكشف Windows. |
-| [setXPComment(String value)](#setXPComment-java.lang.String-) | يضبط تعليق على الصورة، الذي يستخدمه مستكشف Windows. |
+| [getXPComment()](#getXPComment--) | يحصل على التعليق على الصورة، التي يستخدمها مستكشف Windows. |
+| [setXPComment(String value)](#setXPComment-java.lang.String-) | يضبط التعليق على الصورة، التي يستخدمه مستكشف Windows. |
 | [getXPAuthor()](#getXPAuthor--) | يحصل على مؤلف الصورة، الذي يستخدمه مستكشف Windows. |
 | [setXPAuthor(String value)](#setXPAuthor-java.lang.String-) | يضبط مؤلف الصورة، الذي يستخدمه مستكشف Windows. |
 | [getXPKeywords()](#getXPKeywords--) | يحصل على موضوع الصورة، الذي يستخدمه مستكشف Windows. |
-| [setXPKeywords(String value)](#setXPKeywords-java.lang.String-) | يضبط صورة الموضوع، التي تُستخدم بواسطة Windows Explorer. |
+| [setXPKeywords(String value)](#setXPKeywords-java.lang.String-) | يضبط موضوع الصورة، الذي يستخدمه مستكشف Windows. |
 | [getXPSubject()](#getXPSubject--) | يحصل على معلومات حول الصورة، التي يستخدمها مستكشف Windows. |
 | [setXPSubject(String value)](#setXPSubject-java.lang.String-) | يضبط معلومات حول الصورة، التي يستخدمها مستكشف Windows. |
 | [getExifData()](#getExifData--) | يحصل على بيانات Exif. |
@@ -171,26 +171,26 @@ public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 | [validate()](#validate--) | يتحقق مما إذا كانت الخيارات تحتوي على تركيبة صالحة من العلامات |
 | [addTags(TiffDataType[] tagsToAdd)](#addTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يضيف العلامات. |
 | [addTag(TiffDataType tagToAdd)](#addTag-com.aspose.imaging.fileformats.tiff.TiffDataType-) | يضيف علامة جديدة. |
-| [getTagByType(int tagKey)](#getTagByType-int-) | يحصل على نسخة العلامة حسب النوع. |
+| [getTagByType(int tagKey)](#getTagByType-int-) | يحصل على مثيل العلامة حسب النوع. |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
-يوضح هذا المثال استخدام فئات مختلفة من مساحة الأسماء SaveOptions لأغراض التصدير. يتم تحميل صورة من نوع Gif إلى مثيل من الفئة Image ثم يتم تصديرها إلى عدة صيغ.
+يوضح هذا المثال استخدام فئات مختلفة من مساحة الأسماء SaveOptions لأغراض التصدير. يتم تحميل صورة من نوع Gif إلى مثيل من الفئة Image ثم تُصدَّر إلى عدة صيغ.
 ``` java
 String dir = "c:\\temp\\";
 
-//تحميل صورة موجودة (من نوع Gif) في مثيل من الفئة Image
+//حمّل صورة موجودة (من نوع Gif) في مثيل من الفئة Image.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
-    //تصدير إلى تنسيق ملف BMP باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف BMP باستخدام الخيارات الافتراضية.
     image.save(dir + "output.bmp", new com.aspose.imaging.imageoptions.BmpOptions());
 
-    //تصدير إلى تنسيق ملف JPEG باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف JPEG باستخدام الخيارات الافتراضية.
     image.save(dir + "output.jpeg", new com.aspose.imaging.imageoptions.JpegOptions());
 
-    //تصدير إلى تنسيق ملف PNG باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "output.png", new com.aspose.imaging.imageoptions.PngOptions());
 
-    //تصدير إلى تنسيق ملف TIFF باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف TIFF باستخدام الخيارات الافتراضية.
     image.save(dir + "output.tif", new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default));
 } finally {
     image.dispose();
@@ -211,7 +211,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // تصدير الصفحتين الأوليين فقط. سيتم عرض هاتين الصفحتين كإطارات في ملف TIFF الناتج.
+    // تصدير الصفحتين الأوليتين فقط. سيتم عرض هاتين الصفحتين كإطارات في ملف TIFF الناتج.
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -236,7 +236,7 @@ public TiffOptions(int expectedFormat, int byteOrder)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`.
+ينشئ نسخة جديدة من الفئة `TiffOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -250,7 +250,7 @@ public TiffOptions(int expectedFormat)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `TiffOptions`. بشكل افتراضي، يُستخدم نظام الـ little endian.
+يُنشئ نسخة جديدة من الفئة `TiffOptions`. بشكل افتراضي، يُستخدم نظام little endian.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -263,12 +263,12 @@ public TiffOptions(TiffOptions options)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`.
+ينشئ نسخة جديدة من الفئة `TiffOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | الخيارات للنسخ منها. |
+| options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | الخيارات التي يتم النسخ منها. |
 
 ### TiffOptions(TiffDataType[] tags) {#TiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
@@ -276,12 +276,12 @@ public TiffOptions(TiffDataType[] tags)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffOptions`.
+ينشئ نسخة جديدة من الفئة `TiffOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | العلامات لتهيئة الخيارات بها. |
+| tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | العلامات التي تُستخدم لتهيئة الخيارات. |
 
 ### getValidTagsCount(TiffDataType[] tags) {#getValidTagsCount-com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
@@ -294,7 +294,7 @@ public static int getValidTagsCount(TiffDataType[] tags)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | العلامات للتحقق منها. |
+| tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | العلامات التي يتم التحقق منها. |
 
 **Returns:**
 int - عدد العلامات الصالحة.
@@ -314,7 +314,7 @@ public int getFileStandard()
 ```
 
 
-يسترجع أو يعيّن معيار ملف TIFF.
+يحصل أو يضبط معيار ملف TIFF.
 
 **Returns:**
 int - معيار ملف TIFF.
@@ -324,12 +324,12 @@ public void setFileStandard(int value)
 ```
 
 
-يسترجع أو يعيّن معيار ملف TIFF.
+يحصل أو يضبط معيار ملف TIFF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معيار ملف TIFF. |
+| value | int | معيار ملف TIFF. |
 
 ### getDefaultMemoryAllocationLimit() {#getDefaultMemoryAllocationLimit--}
 ```
@@ -337,22 +337,22 @@ public int getDefaultMemoryAllocationLimit()
 ```
 
 
-يسترجع أو يعيّن حد تخصيص الذاكرة الافتراضي.
+يحصل أو يضبط الحد الافتراضي لتخصيص الذاكرة.
 
 **Returns:**
-int - الحد الافتراضي لتخصيص الذاكرة.
+int - حد تخصيص الذاكرة الافتراضي.
 ### setDefaultMemoryAllocationLimit(int value) {#setDefaultMemoryAllocationLimit-int-}
 ```
 public void setDefaultMemoryAllocationLimit(int value)
 ```
 
 
-يسترجع أو يعيّن حد تخصيص الذاكرة الافتراضي.
+يحصل أو يضبط الحد الافتراضي لتخصيص الذاكرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الحد الافتراضي لتخصيص الذاكرة. |
+| value | int | حد تخصيص الذاكرة الافتراضي. |
 
 ### getPremultiplyComponents() {#getPremultiplyComponents--}
 ```
@@ -360,7 +360,7 @@ public boolean getPremultiplyComponents()
 ```
 
 
-يسترجع أو يعيّن قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا.
 
 **Returns:**
 boolean - `true` إذا كان يجب ضرب المكونات مسبقًا؛ وإلا `false`.
@@ -370,12 +370,12 @@ public void setPremultiplyComponents(boolean value)
 ```
 
 
-يسترجع أو يعيّن قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب المكونات مسبقًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان يجب ضرب المكونات مسبقًا؛ وإلا `false`. |
+| value | boolean | `true` إذا كان يجب ضرب المكونات مسبقًا؛ وإلا `false`. |
 
 ### isValid() {#isValid--}
 ```
@@ -383,32 +383,32 @@ public boolean isValid()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت `TiffOptions` مكوّنة بشكل صحيح. استخدم طريقة Validate للعثور على سبب الفشل.
+يحصل على قيمة تشير إلى ما إذا كان `TiffOptions` تم تكوينه بشكل صحيح. استخدم طريقة Validate للعثور على سبب الفشل.
 
 **Returns:**
-boolean - `true` إذا كانت TiffOptions مكوّنة بشكل صحيح؛ وإلا `false`.
+boolean - `true` إذا تم تكوين TiffOptions بشكل صحيح؛ وإلا `false`.
 ### getYCbCrSubsampling() {#getYCbCrSubsampling--}
 ```
 public int[] getYCbCrSubsampling()
 ```
 
 
-يسترجع أو يعيّن عوامل أخذ العينات الفرعية للقياس الضوئي YCbCr.
+يحصل أو يضبط عوامل التقليل الفرعي للتمثيل الضوئي YCbCr.
 
 **Returns:**
-int[] - عوامل التقسيم الفرعي للقياس الضوئي YCbCr.
+int[] - عوامل التقسيم الفرعي للضوء الفوتومتري YCbCr.
 ### setYCbCrSubsampling(int[] value) {#setYCbCrSubsampling-int---}
 ```
 public void setYCbCrSubsampling(int[] value)
 ```
 
 
-يسترجع أو يعيّن عوامل أخذ العينات الفرعية للقياس الضوئي YCbCr.
+يحصل أو يضبط عوامل التقليل الفرعي للتمثيل الضوئي YCbCr.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | عوامل التقسيم الفرعي للقياس الضوئي YCbCr. |
+| value | int[] | عوامل التقسيم الفرعي للضوء الفوتومتري YCbCr. |
 
 
 **Example: This example shows how to save a raster image to the TIFF format using various options.**
@@ -419,32 +419,32 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions saveOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// تعيين 8 بت لكل مكوّن لوني.
+// عيّن 8 بتات لكل مكوّن لوني.
 saveOptions.setBitsPerSample(new int[]{8, 8, 8});
 
-// تعيين ترتيب البايتات Big Endian (Motorola)
+// عيّن ترتيب البايت Big Endian (Motorola)
 saveOptions.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.BigEndian);
 
-// تعيين ضغط LZW.
+// قم بتعيين ضغط LZW.
 saveOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Lzw);
 
 // السماح بتقليل حجم الصور ذات النغمة المستمرة.
-// حاليًا يُستخدم هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لملفات TIFF
-// الذي يستفيد بشكل كبير من خطوة المتنبئ.
+// حاليًا يتم استخدام هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لملفات TIFF.
+// الذي يستفيد بشكل كبير من خطوة التنبؤ.
 saveOptions.setPredictor(com.aspose.imaging.fileformats.tiff.enums.TiffPredictor.Horizontal);
 
-// تعيين نموذج اللون RGB.
+// قم بتعيين نموذج اللون RGB.
 saveOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 
 // بالنسبة إلى YCbCr، يمكنك استخدام أحد الخيارات التالية:
-// حقل YCbCrSubSampling   عوامل أخذ العينات JPEG
+// حقل YCbCrSubSampling   عوامل أخذ عينات JPEG
 // ----------------------------------------------
 // 1,1                      1x1, 1x1, 1x1
 // 2,1                      2x1, 1x1, 1x1
-// 2,2(القيمة الافتراضية)       2x2, 1x1, 1x1
+// 2,2(default value)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
-// ستُخزن جميع مكوّنات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 saveOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // إنشاء إطار TIFF بحجم 100×100 بكسل.
@@ -472,22 +472,22 @@ public TiffRational[] getYCbCrCoefficients()
 ```
 
 
-يسترجع أو يعيّن معاملات YCbCr.
+يحصل أو يضبط YCbCrCoefficients.
 
 **Returns:**
-com.aspose.imaging.fileformats.tiff.TiffRational[] - الـ YCbCrCoefficients.
+com.aspose.imaging.fileformats.tiff.TiffRational[] - معاملات YCbCrCoefficients.
 ### setYCbCrCoefficients(TiffRational[] value) {#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---}
 ```
 public void setYCbCrCoefficients(TiffRational[] value)
 ```
 
 
-يسترجع أو يعيّن معاملات YCbCr.
+يحصل أو يضبط YCbCrCoefficients.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TiffRational\[\]](../../com.aspose.imaging.fileformats.tiff/tiffrational) | ال YCbCrCoefficients. |
+| value | [TiffRational\[\]](../../com.aspose.imaging.fileformats.tiff/tiffrational) | معاملات YCbCrCoefficients. |
 
 ### isTiled() {#isTiled--}
 ```
@@ -495,32 +495,32 @@ public boolean isTiled()
 ```
 
 
-يسترجع قيمة تشير إلى ما إذا كانت الصورة مقسمة إلى مربعات.
+يحصل على قيمة تشير إلى ما إذا كانت الصورة مقسمة إلى بلاطات.
 
 **Returns:**
-منطقي - `true` إذا كانت الصورة مقسمة إلى بلاطات؛ وإلا `false`.
+boolean - `true` إذا كانت الصورة مقسمة إلى بلاطات؛ وإلا `false`.
 ### getArtist() {#getArtist--}
 ```
 public String getArtist()
 ```
 
 
-يسترجع أو يعيّن الفنان.
+يحصل أو يضبط الفنان.
 
 **Returns:**
-java.lang.String - الـ artist.
+java.lang.String - الفنان.
 ### setArtist(String value) {#setArtist-java.lang.String-}
 ```
 public void setArtist(String value)
 ```
 
 
-يسترجع أو يعيّن الفنان.
+يحصل أو يضبط الفنان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الفنان. |
+| value | java.lang.String | الفنان. |
 
 ### isTagPresent(int tag) {#isTagPresent-int-}
 ```
@@ -536,14 +536,14 @@ public boolean isTagPresent(int tag)
 | علامة | int | معرف العلامة للتحقق منه. |
 
 **Returns:**
-منطقي - `true` إذا كانت العلامة موجودة؛ وإلا `false`.
+boolean - `true` إذا كانت العلامة موجودة؛ وإلا `false`.
 ### getByteOrder() {#getByteOrder--}
 ```
 public int getByteOrder()
 ```
 
 
-يسترجع أو يعيّن قيمة تشير إلى ترتيب بايتات TIFF.
+يحصل أو يضبط قيمة تشير إلى ترتيب البايتات في TIFF.
 
 **Returns:**
 int
@@ -553,12 +553,12 @@ public void setByteOrder(int value)
 ```
 
 
-يسترجع أو يعيّن قيمة تشير إلى ترتيب بايتات TIFF.
+يحصل أو يضبط قيمة تشير إلى ترتيب البايتات في TIFF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 
 **Example: This example shows how to save a raster image to the TIFF format using various options.**
@@ -569,32 +569,32 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions saveOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// تعيين 8 بت لكل مكوّن لوني.
+// عيّن 8 بتات لكل مكوّن لوني.
 saveOptions.setBitsPerSample(new int[]{8, 8, 8});
 
-// تعيين ترتيب البايتات Big Endian (Motorola)
+// عيّن ترتيب البايت Big Endian (Motorola)
 saveOptions.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.BigEndian);
 
-// تعيين ضغط LZW.
+// قم بتعيين ضغط LZW.
 saveOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Lzw);
 
 // السماح بتقليل حجم الصور ذات النغمة المستمرة.
-// حاليًا يُستخدم هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لملفات TIFF
-// الذي يستفيد بشكل كبير من خطوة المتنبئ.
+// حاليًا يتم استخدام هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لملفات TIFF.
+// الذي يستفيد بشكل كبير من خطوة التنبؤ.
 saveOptions.setPredictor(com.aspose.imaging.fileformats.tiff.enums.TiffPredictor.Horizontal);
 
-// تعيين نموذج اللون RGB.
+// قم بتعيين نموذج اللون RGB.
 saveOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 
 // بالنسبة إلى YCbCr، يمكنك استخدام أحد الخيارات التالية:
-// حقل YCbCrSubSampling   عوامل أخذ العينات JPEG
+// حقل YCbCrSubSampling   عوامل أخذ عينات JPEG
 // ----------------------------------------------
 // 1,1                      1x1, 1x1, 1x1
 // 2,1                      2x1, 1x1, 1x1
-// 2,2(القيمة الافتراضية)       2x2, 1x1, 1x1
+// 2,2(default value)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
-// ستُخزن جميع مكوّنات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 saveOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // إنشاء إطار TIFF بحجم 100×100 بكسل.
@@ -622,22 +622,22 @@ public byte[] getIccProfile()
 ```
 
 
-يسترجع تدفق ملف تعريف ICC.
+يحصل على تدفق ملف تعريف ICC.
 
 **Returns:**
-byte[] - الـ icc profile.
+byte[] - ملف تعريف icc.
 ### setIccProfile(byte[] value) {#setIccProfile-byte---}
 ```
 public void setIccProfile(byte[] value)
 ```
 
 
-يعيّن تدفق ملف تعريف ICC.
+يضبط تدفق ملف تعريف ICC.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | ملف تعريف icc. |
+| value | byte[] | ملف تعريف icc. |
 
 ### isDisableIccExport() {#isDisableIccExport--}
 ```
@@ -645,22 +645,22 @@ public final boolean isDisableIccExport()
 ```
 
 
-يسترجع قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا).
+يحصل على قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا).
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (ICC profile يُطبق على بكسلات المصدر مسبقًا).
+boolean - قيمة تشير إلى ما إذا كان تصدير ملف تعريف ICC معطلاً (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا).
 ### setDisableIccExport(boolean value) {#setDisableIccExport-boolean-}
 ```
 public final void setDisableIccExport(boolean value)
 ```
 
 
-يعيّن قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا).
+يضبط قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا تم تعطيل تصدير ملف تعريف ICC (ICC profile يُطبق على بكسلات المصدر مسبقًا). |
+| value | boolean | قيمة تشير إلى ما إذا كان تصدير ملف تعريف ICC معطلاً (يتم تطبيق ملف تعريف ICC على بكسلات المصدر مسبقًا). |
 
 ### getBitsPerSample() {#getBitsPerSample--}
 ```
@@ -668,10 +668,10 @@ public int[] getBitsPerSample()
 ```
 
 
-يسترجع عدد البتات لكل عينة.
+يحصل على عدد البتات لكل عينة.
 
 **Returns:**
-int[] - الـ bits per sample value.
+int[] - قيمة البتات لكل عينة.
 
 عند ضبط هذه القيمة، ضع في اعتبارك أنها ستضبط أيضًا قيمة SamplesPerPixel إلى طول المصفوفة. هاتان الخاصيتان مرتبطتان ارتباطًا وثيقًا جدًا لذا قد يتم ضبطهما معًا فقط.
 ### setBitsPerSample(int[] value) {#setBitsPerSample-int---}
@@ -680,12 +680,12 @@ public void setBitsPerSample(int[] value)
 ```
 
 
-يعيّن عدد البتات لكل عينة.
+يضبط عدد البتات لكل عينة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | int[] | ال bits per sample value. |
+|  | value | int[] | قيمة البتات لكل عينة. |
 
 عند ضبط هذه القيمة، ضع في اعتبارك أنها ستضبط أيضًا قيمة SamplesPerPixel إلى طول المصفوفة. هاتان الخاصيتان مرتبطتان ارتباطًا وثيقًا جدًا لذا قد يتم ضبطهما معًا فقط. |
 
@@ -698,14 +698,14 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// إنشاء مصدر ملف دائم، غير مؤقت.
+// إنشاء مصدر ملف دائم، وليس مؤقتًا.
 createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
 createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
 
 com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.create(createTiffOptions, 100, 100);
 try {
-    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     com.aspose.imaging.brushes.LinearGradientBrush brush =
             new com.aspose.imaging.brushes.LinearGradientBrush(
                     new com.aspose.imaging.Point(0, 0),
@@ -713,7 +713,7 @@ try {
                     com.aspose.imaging.Color.getRed(),
                     com.aspose.imaging.Color.getGreen());
 
-    // ملء الإطار النشط بفرشاة تدرج خطي.
+    // ملء الإطار النشط بفرشاة تدرج خطية.
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(tiffImage.getActiveFrame());
     gr.fillRectangle(brush, tiffImage.getBounds());
 
@@ -725,7 +725,7 @@ try {
     createTiffFrameOptions.setBitsPerSample(new int[]{8});
 
     // إنشاء نسخة بتدرج رمادي من الإطار النشط.
-    // يتم الحفاظ على بيانات البكسل ولكن يتم تحويلها إلى الصيغة المطلوبة.
+    // يتم الحفاظ على بيانات البكسل ولكنها تُحوَّل إلى الصيغة المطلوبة.
     com.aspose.imaging.fileformats.tiff.TiffFrame grayscaleFrame
             = com.aspose.imaging.fileformats.tiff.TiffFrame.createFrameFrom(tiffImage.getActiveFrame(), createTiffFrameOptions);
 
@@ -744,34 +744,34 @@ public final int[] getExtraSamples()
 ```
 
 
-يسترجع قيم العينات الإضافية.
+يحصل على قيم العينات الإضافية.
 
-القيمة: الـ extra samples value.
+القيمة: قيمة العينات الإضافية.
 
 **Returns:**
-int[] - قيم الـ extra samples.
+int[] - قيم العينات الإضافية.
 ### getCompression() {#getCompression--}
 ```
 public int getCompression()
 ```
 
 
-يسترجع الضغط.
+يحصل على الضغط.
 
 **Returns:**
-int - الـ compression.
+int - الضغط.
 ### setCompression(int value) {#setCompression-int-}
 ```
 public void setCompression(int value)
 ```
 
 
-يعيّن الضغط.
+يضبط الضغط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | ال compression. |
+| value | int | الضغط. |
 
 
 **Example: This example shows how to create a TIFF image with 2 frames and save it to a file.**
@@ -783,27 +783,27 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createOptions1 =
         new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// تعيين 8 بت لكل مكوّن لوني.
+// عيّن 8 بتات لكل مكوّن لوني.
 createOptions1.setBitsPerSample(new int[]{8, 8, 8});
 
-// تعيين ترتيب البايتات Big Endian (Motorola)
+// عيّن ترتيب البايت Big Endian (Motorola)
 createOptions1.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.BigEndian);
 
-// تعيين ضغط LZW.
+// قم بتعيين ضغط LZW.
 createOptions1.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Lzw);
 
-// تعيين نموذج اللون RGB.
+// قم بتعيين نموذج اللون RGB.
 createOptions1.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 
-// ستُخزن جميع مكوّنات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 createOptions1.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // إنشاء الإطار الأول بصيغة TIFF بحجم 100×100 بكسل.
-// لاحظ أنك لا تحتاج إلى تحرير الإطارات صراحةً إذا تم تضمينها في TiffImage.
-// عند التخلص من الحاوية، سيتم التخلص من جميع الإطارات تلقائيًا.
+// لاحظ أنه لا يلزمك تحرير الإطارات صراحةً إذا تم تضمينها في TiffImage.
+// عند تحرير الحاوية سيتم تحرير جميع الإطارات تلقائيًا.
 com.aspose.imaging.fileformats.tiff.TiffFrame frame1 = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions1, 100, 100);
 
-// املأ الإطار الأول بالتدرج اللوني الأزرق-الأصفر.
+// املأ الإطار الأول بتدرج اللون الأزرق-الأصفر.
 com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(frame1.getWidth(), frame1.getHeight()),
@@ -817,23 +817,23 @@ graphics.fillRectangle(gradientBrush, frame1.getBounds());
 com.aspose.imaging.imageoptions.TiffOptions createOptions2
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// عيّن 1 بت لكل بكسل لصورة أبيض وأسود.
+// ضبط 1 بت لكل بكسل لصورة أبيض وأسود.
 createOptions2.setBitsPerSample(new int[]{1});
 
-// عيّن ترتيب البايت Little Endian (Intel)
+// ضبط ترتيب البايت Little Endian (Intel)
 createOptions2.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.LittleEndian);
 
-// عيّن ضغط الفاكس CCITT Group 3.
+// ضبط ضغط CCITT Group 3 Fax.
 createOptions2.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.CcittFax3);
 
-// عيّن نموذج اللون أبيض/أسود حيث 0 هو الأسود، 1 هو الأبيض.
+// ضبط نموذج اللون أبيض وأسود حيث 0 هو الأسود، 1 هو الأبيض.
 createOptions2.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.MinIsBlack);
 
 // إنشاء الإطار الثاني بصيغة TIFF بحجم 200×200 بكسل.
 com.aspose.imaging.fileformats.tiff.TiffFrame frame2 = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions2, 200, 200);
 
-// املأ الإطار الثاني بالتدرج اللوني الأزرق-الأصفر.
-// سيتم تحويله تلقائيًا إلى تنسيق أبيض/أسود بسبب الإعدادات المقابلة للإطار.
+// املأ الإطار الثاني بتدرج اللون الأزرق-الأصفر.
+// سيتم تحويله تلقائيًا إلى تنسيق أبيض وأسود بسبب الإعدادات المقابلة للإطار.
 com.aspose.imaging.Graphics graphics2 = new com.aspose.imaging.Graphics(frame2);
 graphics2.fillRectangle(gradientBrush, frame2.getBounds());
 
@@ -868,7 +868,7 @@ public final void setCompressedQuality(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | جودة الصورة المضغوطة. |
+| value | int | جودة الصورة المضغوطة. |
 
 
 **Example: This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality.**
@@ -878,12 +878,12 @@ public final void setCompressedQuality(int value)
 try (com.aspose.imaging.fileformats.tiff.TiffImage image = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.load("c:\\temp\\zeebra.tif"))
 {
     com.aspose.imaging.imageoptions.TiffOptions tiffOptions = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
-    // تعيين نموذج اللون RGB.
+    // قم بتعيين نموذج اللون RGB.
     tiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
-    // عيّن ضغط Jpeg.
+    // ضبط ضغط Jpeg.
     tiffOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Jpeg);
     tiffOptions.setCompressedQuality(50);
-    // تعيين 8 بت لكل مكوّن لوني.
+    // عيّن 8 بتات لكل مكوّن لوني.
     tiffOptions.setBitsPerSample(new int[]{8, 8, 8});
 
     image.save("zeebra.tif-50.tiff", tiffOptions);
@@ -897,7 +897,7 @@ public String getCopyright()
 ```
 
 
-يسترجع حقوق النشر.
+يحصل على حقوق النشر.
 
 **Returns:**
 java.lang.String - حقوق النشر.
@@ -907,12 +907,12 @@ public void setCopyright(String value)
 ```
 
 
-يعيّن حقوق النشر.
+يضبط حقوق النشر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | حقوق النشر. |
+| value | java.lang.String | حقوق النشر. |
 
 ### getColorMap() {#getColorMap--}
 ```
@@ -920,7 +920,7 @@ public int[] getColorMap()
 ```
 
 
-يسترجع أو يعيّن خريطة الألوان.
+يحصل أو يضبط خريطة الألوان.
 
 **Returns:**
 int[] - خريطة الألوان.
@@ -930,12 +930,12 @@ public void setColorMap(int[] value)
 ```
 
 
-يسترجع أو يعيّن خريطة الألوان.
+يحصل أو يضبط خريطة الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | خريطة الألوان. |
+| value | int[] | خريطة الألوان. |
 
 ### getPalette() {#getPalette--}
 ```
@@ -943,7 +943,7 @@ public IColorPalette getPalette()
 ```
 
 
-يسترجع أو يعيّن لوحة الألوان.
+يحصل أو يضبط لوحة الألوان.
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette.
@@ -953,7 +953,7 @@ public void setPalette(IColorPalette value)
 ```
 
 
-يسترجع أو يعيّن لوحة الألوان.
+يحصل أو يضبط لوحة الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -981,7 +981,7 @@ public void setDateTime(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | التاريخ والوقت. |
+| value | java.lang.String | التاريخ والوقت. |
 
 ### getDocumentName() {#getDocumentName--}
 ```
@@ -1004,7 +1004,7 @@ public void setDocumentName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم المستند. |
+| value | java.lang.String | اسم المستند. |
 
 ### getAlphaStorage() {#getAlphaStorage--}
 ```
@@ -1027,7 +1027,7 @@ public void setAlphaStorage(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | خيار تخزين ألفا. |
+| value | int | خيار تخزين ألفا. |
 
 ### isExtraSamplesPresent() {#isExtraSamplesPresent--}
 ```
@@ -1060,7 +1060,7 @@ public void setFillOrder(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | ترتيب تعبئة بتات البايت. |
+| value | int | ترتيب تعبئة بتات البايت. |
 
 ### getHalfToneHints() {#getHalfToneHints--}
 ```
@@ -1068,7 +1068,7 @@ public int[] getHalfToneHints()
 ```
 
 
-يحصل أو يضبط تلميحات نصف النغمة.
+يحصل أو يضبط تلميحات نصف اللون.
 
 **Returns:**
 int[] - تلميحات نصف النغمة.
@@ -1078,12 +1078,12 @@ public void setHalfToneHints(int[] value)
 ```
 
 
-يحصل أو يضبط تلميحات نصف النغمة.
+يحصل أو يضبط تلميحات نصف اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | تلميحات نصف النغمة. |
+| value | int[] | تلميحات نصف النغمة. |
 
 ### getImageDescription() {#getImageDescription--}
 ```
@@ -1106,7 +1106,7 @@ public void setImageDescription(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | وصف الصورة. |
+| value | java.lang.String | وصف الصورة. |
 
 ### getInkNames() {#getInkNames--}
 ```
@@ -1129,7 +1129,7 @@ public void setInkNames(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | أسماء الحبر. |
+| value | java.lang.String | أسماء الحبر. |
 
 ### getScannerManufacturer() {#getScannerManufacturer--}
 ```
@@ -1137,22 +1137,22 @@ public String getScannerManufacturer()
 ```
 
 
-يحصل أو يضبط شركة صانع الماسح.
+يحصل أو يضبط شركة تصنيع الماسح.
 
 **Returns:**
-java.lang.String - الشركة المصنعة للمسح الضوئي.
+java.lang.String - شركة تصنيع الماسح.
 ### setScannerManufacturer(String value) {#setScannerManufacturer-java.lang.String-}
 ```
 public void setScannerManufacturer(String value)
 ```
 
 
-يحصل أو يضبط شركة صانع الماسح.
+يحصل أو يضبط شركة تصنيع الماسح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الشركة المصنعة للمسح الضوئي. |
+| value | java.lang.String | شركة تصنيع الماسح. |
 
 ### getMaxSampleValue() {#getMaxSampleValue--}
 ```
@@ -1175,7 +1175,7 @@ public void setMaxSampleValue(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | قيمة العينة القصوى. |
+| value | int[] | قيمة العينة القصوى. |
 
 ### getMinSampleValue() {#getMinSampleValue--}
 ```
@@ -1198,7 +1198,7 @@ public void setMinSampleValue(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | قيمة العينة الدنيا. |
+| value | int[] | قيمة العينة الدنيا. |
 
 ### getScannerModel() {#getScannerModel--}
 ```
@@ -1209,7 +1209,7 @@ public String getScannerModel()
 يحصل أو يضبط طراز الماسح.
 
 **Returns:**
-java.lang.String - طراز الماسح الضوئي.
+java.lang.String - نموذج الماسح الضوئي.
 ### setScannerModel(String value) {#setScannerModel-java.lang.String-}
 ```
 public void setScannerModel(String value)
@@ -1221,7 +1221,7 @@ public void setScannerModel(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | طراز الماسح الضوئي. |
+| value | java.lang.String | نموذج الماسح الضوئي. |
 
 ### getOrientation() {#getOrientation--}
 ```
@@ -1267,7 +1267,7 @@ public void setPageName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم الصفحة. |
+| value | java.lang.String | اسم الصفحة. |
 
 ### getPageNumber() {#getPageNumber--}
 ```
@@ -1278,7 +1278,7 @@ public int[] getPageNumber()
 يحصل أو يضبط وسم رقم الصفحة.
 
 **Returns:**
-int[] - علامة رقم الصفحة.
+int[] - وسم رقم الصفحة.
 ### setPageNumber(int[] value) {#setPageNumber-int---}
 ```
 public void setPageNumber(int[] value)
@@ -1290,7 +1290,7 @@ public void setPageNumber(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | علامة رقم الصفحة. |
+| value | int[] | وسم رقم الصفحة. |
 
 ### getPhotometric() {#getPhotometric--}
 ```
@@ -1313,7 +1313,7 @@ public void setPhotometric(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الفوتومتري. |
+| value | int | الفوتومتري. |
 
 
 **Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
@@ -1324,14 +1324,14 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// إنشاء مصدر ملف دائم، غير مؤقت.
+// إنشاء مصدر ملف دائم، وليس مؤقتًا.
 createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
 createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
 
 com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.create(createTiffOptions, 100, 100);
 try {
-    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     com.aspose.imaging.brushes.LinearGradientBrush brush =
             new com.aspose.imaging.brushes.LinearGradientBrush(
                     new com.aspose.imaging.Point(0, 0),
@@ -1339,7 +1339,7 @@ try {
                     com.aspose.imaging.Color.getRed(),
                     com.aspose.imaging.Color.getGreen());
 
-    // ملء الإطار النشط بفرشاة تدرج خطي.
+    // ملء الإطار النشط بفرشاة تدرج خطية.
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(tiffImage.getActiveFrame());
     gr.fillRectangle(brush, tiffImage.getBounds());
 
@@ -1351,7 +1351,7 @@ try {
     createTiffFrameOptions.setBitsPerSample(new int[]{8});
 
     // إنشاء نسخة بتدرج رمادي من الإطار النشط.
-    // يتم الحفاظ على بيانات البكسل ولكن يتم تحويلها إلى الصيغة المطلوبة.
+    // يتم الحفاظ على بيانات البكسل ولكنها تُحوَّل إلى الصيغة المطلوبة.
     com.aspose.imaging.fileformats.tiff.TiffFrame grayscaleFrame
             = com.aspose.imaging.fileformats.tiff.TiffFrame.createFrameFrom(tiffImage.getActiveFrame(), createTiffFrameOptions);
 
@@ -1373,7 +1373,7 @@ public int getPlanarConfiguration()
 يحصل أو يضبط تكوين المستوى.
 
 **Returns:**
-int - التكوين المستوي.
+int - تكوين المستوى.
 ### setPlanarConfiguration(int value) {#setPlanarConfiguration-int-}
 ```
 public void setPlanarConfiguration(int value)
@@ -1385,7 +1385,7 @@ public void setPlanarConfiguration(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | التكوين المستوي. |
+| value | int | تكوين المستوى. |
 
 
 **Example: This example shows how to create a TIFF image from scratch and save it to a file.**
@@ -1396,27 +1396,27 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createOptions =
         new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// تعيين 8 بت لكل مكوّن لوني.
+// عيّن 8 بتات لكل مكوّن لوني.
 createOptions.setBitsPerSample(new int[]{8, 8, 8});
 
-// تعيين ترتيب البايتات Big Endian (Motorola)
+// عيّن ترتيب البايت Big Endian (Motorola)
 createOptions.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.BigEndian);
 
-// تعيين ضغط LZW.
+// قم بتعيين ضغط LZW.
 createOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Lzw);
 
-// تعيين نموذج اللون RGB.
+// قم بتعيين نموذج اللون RGB.
 createOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 
-// ستُخزن جميع مكوّنات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 createOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // إنشاء إطار TIFF بحجم 100×100 بكسل.
-// لاحظ أنه لا يلزم التخلص من الإطار صراحةً إذا كان مُدرجًا في TiffImage.
-// عند التخلص من الحاوية، سيتم التخلص من جميع الإطارات تلقائيًا.
+// لاحظ أنك لا تحتاج إلى تحرير إطار صراحةً إذا كان مُدرجًا في TiffImage.
+// عند تحرير الحاوية سيتم تحرير جميع الإطارات تلقائيًا.
 com.aspose.imaging.fileformats.tiff.TiffFrame firstFrame = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions, 100, 100);
 
-// املأ الإطار بالكامل بالتدرج اللوني الأزرق-الأصفر.
+// املأ الإطار بالكامل بالتدرج الأزرق‑الأصفر.
 com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(firstFrame.getWidth(), firstFrame.getHeight()),
@@ -1456,7 +1456,7 @@ public void setResolutionUnit(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وحدة الدقة. |
+| value | int | وحدة الدقة. |
 
 ### getRowsPerStrip() {#getRowsPerStrip--}
 ```
@@ -1464,7 +1464,7 @@ public long getRowsPerStrip()
 ```
 
 
-يحصل أو يضبط عدد الصفوف لكل شريط.
+يحصل أو يضبط الصفوف لكل شريط.
 
 **Returns:**
 long - الصفوف لكل شريط.
@@ -1474,12 +1474,12 @@ public void setRowsPerStrip(long value)
 ```
 
 
-يحصل أو يضبط عدد الصفوف لكل شريط.
+يحصل أو يضبط الصفوف لكل شريط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | الصفوف لكل شريط. |
+| value | long | الصفوف لكل شريط. |
 
 ### getTileWidth() {#getTileWidth--}
 ```
@@ -1487,7 +1487,7 @@ public long getTileWidth()
 ```
 
 
-يحصل أو يضبط عرض البلاطة.
+يحصل ot يضبط عرض البلاطة.
 
 **Returns:**
 long
@@ -1497,12 +1497,12 @@ public void setTileWidth(long value)
 ```
 
 
-يحصل أو يضبط عرض البلاطة.
+يحصل ot يضبط عرض البلاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getTileLength() {#getTileLength--}
 ```
@@ -1510,7 +1510,7 @@ public long getTileLength()
 ```
 
 
-يحصل أو يضبط طول البلاطة.
+يحصل ot يضبط طول البلاطة.
 
 **Returns:**
 long
@@ -1520,12 +1520,12 @@ public void setTileLength(long value)
 ```
 
 
-يحصل أو يضبط طول البلاطة.
+يحصل ot يضبط طول البلاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getSampleFormat() {#getSampleFormat--}
 ```
@@ -1548,7 +1548,7 @@ public void setSampleFormat(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | تنسيق العينة. |
+| value | int[] | تنسيق العينة. |
 
 ### getSamplesPerPixel() {#getSamplesPerPixel--}
 ```
@@ -1566,7 +1566,7 @@ public long[] getSmaxSampleValue()
 ```
 
 
-يحصل أو يعيّن قيمة العينة القصوى. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (نوع Byte أو Short أو Long).
+يحصل أو يضبط قيمة العينة القصوى. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (Byte أو Short أو Long).
 
 **Returns:**
 long[] - قيمة العينة القصوى.
@@ -1576,12 +1576,12 @@ public void setSmaxSampleValue(long[] value)
 ```
 
 
-يحصل أو يعيّن قيمة العينة القصوى. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (نوع Byte أو Short أو Long).
+يحصل أو يضبط قيمة العينة القصوى. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (Byte أو Short أو Long).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] | قيمة العينة القصوى. |
+| value | long[] | قيمة العينة القصوى. |
 
 ### getSminSampleValue() {#getSminSampleValue--}
 ```
@@ -1589,7 +1589,7 @@ public long[] getSminSampleValue()
 ```
 
 
-يحصل أو يعيّن قيمة العينة الدنيا. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (نوع Byte أو Short أو Long).
+يحصل أو يضبط قيمة العينة الدنيا. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (Byte أو Short أو Long).
 
 **Returns:**
 long[] - قيمة العينة الدنيا.
@@ -1599,12 +1599,12 @@ public void setSminSampleValue(long[] value)
 ```
 
 
-يحصل أو يعيّن قيمة العينة الدنيا. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (نوع Byte أو Short أو Long).
+يحصل أو يضبط قيمة العينة الدنيا. القيمة لها نوع حقل يتطابق بأفضل شكل مع بيانات العينة (Byte أو Short أو Long).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] | قيمة العينة الدنيا. |
+| value | long[] | قيمة العينة الدنيا. |
 
 ### getSoftwareType() {#getSoftwareType--}
 ```
@@ -1627,7 +1627,7 @@ public void setSoftwareType(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | نوع البرنامج. |
+| value | java.lang.String | نوع البرنامج. |
 
 ### getStripByteCounts() {#getStripByteCounts--}
 ```
@@ -1650,7 +1650,7 @@ public void setStripByteCounts(long[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] | عدد بايتات الشريط. |
+| value | long[] | عدد بايتات الشريط. |
 
 ### getStripOffsets() {#getStripOffsets--}
 ```
@@ -1673,7 +1673,7 @@ public void setStripOffsets(long[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] | إزاحات الشريط. |
+| value | long[] | إزاحات الشريط. |
 
 ### getTileByteCounts() {#getTileByteCounts--}
 ```
@@ -1681,7 +1681,7 @@ public long[] getTileByteCounts()
 ```
 
 
-يحصل أو يضبط عدد بايتات البلاط.
+يحصل أو يضبط عدد بايتات البلاطة.
 
 **Returns:**
 long[]
@@ -1691,12 +1691,12 @@ public void setTileByteCounts(long[] value)
 ```
 
 
-يحصل أو يضبط عدد بايتات البلاط.
+يحصل أو يضبط عدد بايتات البلاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] |  |
+| value | long[] |  |
 
 ### getTileOffsets() {#getTileOffsets--}
 ```
@@ -1704,7 +1704,7 @@ public long[] getTileOffsets()
 ```
 
 
-يحصل أو يضبط إزاحات البلاط.
+يحصل أو يضبط إزاحات البلاطة.
 
 **Returns:**
 long[]
@@ -1714,12 +1714,12 @@ public void setTileOffsets(long[] value)
 ```
 
 
-يحصل أو يضبط إزاحات البلاط.
+يحصل أو يضبط إزاحات البلاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long[] |  |
+| value | long[] |  |
 
 ### getSubFileType() {#getSubFileType--}
 ```
@@ -1730,7 +1730,7 @@ public long getSubFileType()
 يحصل أو يضبط إشارة عامة لنوع البيانات الموجودة في هذا الملف الفرعي.
 
 **Returns:**
-long - الدلالة العامة على نوع البيانات الموجودة في هذا الملف الفرعي.
+long - الإشارة العامة لنوع البيانات الموجودة في هذا الملف الفرعي.
 ### setSubFileType(long value) {#setSubFileType-long-}
 ```
 public void setSubFileType(long value)
@@ -1742,7 +1742,7 @@ public void setSubFileType(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | الدلالة العامة على نوع البيانات الموجودة في هذا الملف الفرعي. |
+| value | long | الإشارة العامة لنوع البيانات الموجودة في هذا الملف الفرعي. |
 
 ### getTargetPrinter() {#getTargetPrinter--}
 ```
@@ -1765,7 +1765,7 @@ public void setTargetPrinter(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الطابعة المستهدفة. |
+| value | java.lang.String | الطابعة المستهدفة. |
 
 ### getThreshholding() {#getThreshholding--}
 ```
@@ -1788,7 +1788,7 @@ public void setThreshholding(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | العتبة. |
+| value | int | العتبة. |
 
 ### getTotalPages() {#getTotalPages--}
 ```
@@ -1936,7 +1936,7 @@ public void setFaxT4Options(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | خيارات الفاكس t4. |
+| value | long | خيارات الفاكس t4. |
 
 ### getPredictor() {#getPredictor--}
 ```
@@ -1959,7 +1959,7 @@ public void setPredictor(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع المتنبئ. |
+| value | int | نوع المتنبئ. |
 
 
 **Example: This example shows how to save a raster image to the TIFF format using various options.**
@@ -1970,32 +1970,32 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions saveOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// تعيين 8 بت لكل مكوّن لوني.
+// عيّن 8 بتات لكل مكوّن لوني.
 saveOptions.setBitsPerSample(new int[]{8, 8, 8});
 
-// تعيين ترتيب البايتات Big Endian (Motorola)
+// عيّن ترتيب البايت Big Endian (Motorola)
 saveOptions.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.BigEndian);
 
-// تعيين ضغط LZW.
+// قم بتعيين ضغط LZW.
 saveOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Lzw);
 
 // السماح بتقليل حجم الصور ذات النغمة المستمرة.
-// حاليًا يُستخدم هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لملفات TIFF
-// الذي يستفيد بشكل كبير من خطوة المتنبئ.
+// حاليًا يتم استخدام هذا الحقل فقط مع ترميز LZW لأن LZW ربما يكون نظام الترميز الوحيد لملفات TIFF.
+// الذي يستفيد بشكل كبير من خطوة التنبؤ.
 saveOptions.setPredictor(com.aspose.imaging.fileformats.tiff.enums.TiffPredictor.Horizontal);
 
-// تعيين نموذج اللون RGB.
+// قم بتعيين نموذج اللون RGB.
 saveOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 
 // بالنسبة إلى YCbCr، يمكنك استخدام أحد الخيارات التالية:
-// حقل YCbCrSubSampling   عوامل أخذ العينات JPEG
+// حقل YCbCrSubSampling   عوامل أخذ عينات JPEG
 // ----------------------------------------------
 // 1,1                      1x1, 1x1, 1x1
 // 2,1                      2x1, 1x1, 1x1
-// 2,2(القيمة الافتراضية)       2x2, 1x1, 1x1
+// 2,2(default value)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
-// ستُخزن جميع مكوّنات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 saveOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // إنشاء إطار TIFF بحجم 100×100 بكسل.
@@ -2038,7 +2038,7 @@ public void setImageLength(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | طول الصورة. |
+| value | long | طول الصورة. |
 
 ### getImageWidth() {#getImageWidth--}
 ```
@@ -2061,7 +2061,7 @@ public void setImageWidth(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | عرض الصورة. |
+| value | long | عرض الصورة. |
 
 ### getExifIfd() {#getExifIfd--}
 ```
@@ -2069,7 +2069,7 @@ public TiffExifIfd getExifIfd()
 ```
 
 
-يحصل أو يضبط المؤشر إلى EXIF IFD.
+يحصل أو يعيّن المؤشر إلى EXIF IFD.
 
 **Returns:**
 [TiffExifIfd](../../com.aspose.imaging.fileformats.tiff/tiffexififd) - The pointer to EXIF IFD.
@@ -2102,7 +2102,7 @@ public int getValidTagCount()
 ```
 
 
-يحصل على عدد العلامات الصالحة. هذا ليس إجمالي عدد العلامات ولكن عدد العلامات التي يمكن حفظها.
+يحصل على عدد العلامات الصالحة. هذا ليس إجمالي عدد العلامات بل عدد العلامات التي يمكن حفظها.
 
 **Returns:**
 int - عدد العلامات الصالحة.
@@ -2124,10 +2124,10 @@ public final String getXPTitle()
 
 يحصل على معلومات حول الصورة، التي يستخدمها مستكشف Windows.
 
-القيمة: معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. يتم تجاهل `XPTitle`(`\#getXPTitle`/\#setXPTitle(String).setXPTitle(String)) بواسطة Windows Explorer إذا كان وسم `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) موجودًا.
+القيمة: معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. يتم تجاهل `XPTitle`(`\\#getXPTitle`/\\#setXPTitle(String).setXPTitle(String)) من قبل Windows Explorer إذا كان وسم `ImageDescription`(\\#getImageDescription.getImageDescription/\\#setImageDescription(String).setImageDescription(String)) موجودًا.
 
 **Returns:**
-java.lang.String - معلومات حول الصورة، التي تُستخدم بواسطة Windows Explorer.
+java.lang.String - معلومات حول الصورة، تُستخدم بواسطة Windows Explorer.
 ### setXPTitle(String value) {#setXPTitle-java.lang.String-}
 ```
 public final void setXPTitle(String value)
@@ -2136,12 +2136,12 @@ public final void setXPTitle(String value)
 
 يضبط معلومات حول الصورة، التي يستخدمها مستكشف Windows.
 
-القيمة: معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. يتم تجاهل `XPTitle`(\#getXPTitle.getXPTitle/`\#setXPTitle(String)`) بواسطة Windows Explorer إذا كان وسم `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) موجودًا.
+القيمة: معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. يتم تجاهل `XPTitle`(\\#getXPTitle.getXPTitle/`\\#setXPTitle(String)`) من قبل Windows Explorer إذا كان وسم `ImageDescription`(\\#getImageDescription.getImageDescription/\\#setImageDescription(String).setImageDescription(String)) موجودًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | معلومات حول الصورة، التي تُستخدم بواسطة Windows Explorer. |
+| value | java.lang.String | معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. |
 
 ### getXPComment() {#getXPComment--}
 ```
@@ -2149,26 +2149,26 @@ public final String getXPComment()
 ```
 
 
-يحصل على تعليق على الصورة، الذي يستخدمه مستكشف Windows.
+يحصل على التعليق على الصورة، التي يستخدمها مستكشف Windows.
 
 القيمة: تعليق على الصورة، يُستخدم بواسطة Windows Explorer.
 
 **Returns:**
-java.lang.String - تعليق على الصورة، الذي يُستخدم بواسطة Windows Explorer.
+java.lang.String - تعليق على الصورة، يُستخدم بواسطة Windows Explorer.
 ### setXPComment(String value) {#setXPComment-java.lang.String-}
 ```
 public final void setXPComment(String value)
 ```
 
 
-يضبط تعليق على الصورة، الذي يستخدمه مستكشف Windows.
+يضبط التعليق على الصورة، التي يستخدمه مستكشف Windows.
 
 القيمة: تعليق على الصورة، يُستخدم بواسطة Windows Explorer.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | تعليق على الصورة، والذي يستخدمه مستكشف Windows. |
+| value | java.lang.String | تعليق على الصورة، يُستخدم بواسطة Windows Explorer. |
 
 ### getXPAuthor() {#getXPAuthor--}
 ```
@@ -2178,10 +2178,10 @@ public final String getXPAuthor()
 
 يحصل على مؤلف الصورة، الذي يستخدمه مستكشف Windows.
 
-القيمة: مؤلف الصورة، يستخدمه مستكشف Windows. يتم تجاهل `XPAuthor`(`\#getXPAuthor`/\#setXPAuthor(String).setXPAuthor(String)) من قبل مستكشف Windows إذا كان وسم `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) موجودًا.
+القيمة: مؤلف الصورة، يُستخدم بواسطة Windows Explorer. يتم تجاهل `XPAuthor`(`\\#getXPAuthor`/\\#setXPAuthor(String).setXPAuthor(String)) من قبل Windows Explorer إذا كان وسم `Artist`(\\#getArtist.getArtist/\\#setArtist(String).setArtist(String)) موجودًا.
 
 **Returns:**
-java.lang.String - مؤلف الصورة، والذي يستخدمه مستكشف Windows.
+java.lang.String - مؤلف الصورة، يُستخدم بواسطة Windows Explorer.
 ### setXPAuthor(String value) {#setXPAuthor-java.lang.String-}
 ```
 public final void setXPAuthor(String value)
@@ -2190,12 +2190,12 @@ public final void setXPAuthor(String value)
 
 يضبط مؤلف الصورة، الذي يستخدمه مستكشف Windows.
 
-القيمة: مؤلف الصورة، يستخدمه مستكشف Windows. يتم تجاهل `XPAuthor`(\#getXPAuthor.getXPAuthor/`\#setXPAuthor(String)`) من قبل مستكشف Windows إذا كان وسم `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) موجودًا.
+القيمة: مؤلف الصورة، يُستخدم بواسطة Windows Explorer. يتم تجاهل `XPAuthor`(\\#getXPAuthor.getXPAuthor/`\\#setXPAuthor(String)`) من قبل Windows Explorer إذا كان وسم `Artist`(\\#getArtist.getArtist/\\#setArtist(String).setArtist(String)) موجودًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | مؤلف الصورة، والذي يستخدمه مستكشف Windows. |
+| value | java.lang.String | مؤلف الصورة، يُستخدم بواسطة Windows Explorer. |
 
 ### getXPKeywords() {#getXPKeywords--}
 ```
@@ -2205,24 +2205,24 @@ public final String getXPKeywords()
 
 يحصل على موضوع الصورة، الذي يستخدمه مستكشف Windows.
 
-القيمة: صورة الموضوع، يستخدمها مستكشف Windows.
+القيمة: موضوع الصورة، يُستخدم بواسطة Windows Explorer.
 
 **Returns:**
-java.lang.String - صورة الموضوع، والتي يستخدمها مستكشف Windows.
+java.lang.String - موضوع الصورة، يُستخدم بواسطة Windows Explorer.
 ### setXPKeywords(String value) {#setXPKeywords-java.lang.String-}
 ```
 public final void setXPKeywords(String value)
 ```
 
 
-يضبط صورة الموضوع، التي تُستخدم بواسطة Windows Explorer.
+يضبط موضوع الصورة، الذي يستخدمه مستكشف Windows.
 
-القيمة: صورة الموضوع، يستخدمها مستكشف Windows.
+القيمة: موضوع الصورة، يُستخدم بواسطة Windows Explorer.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | صورة الموضوع، والتي يستخدمها مستكشف Windows. |
+| value | java.lang.String | موضوع الصورة، يُستخدم بواسطة Windows Explorer. |
 
 ### getXPSubject() {#getXPSubject--}
 ```
@@ -2232,10 +2232,10 @@ public final String getXPSubject()
 
 يحصل على معلومات حول الصورة، التي يستخدمها مستكشف Windows.
 
-القيمة: معلومات حول الصورة، يستخدمها مستكشف Windows.
+القيمة: معلومات حول الصورة، تُستخدم بواسطة Windows Explorer.
 
 **Returns:**
-java.lang.String - معلومات حول الصورة، التي تُستخدم بواسطة Windows Explorer.
+java.lang.String - معلومات حول الصورة، تُستخدم بواسطة Windows Explorer.
 ### setXPSubject(String value) {#setXPSubject-java.lang.String-}
 ```
 public final void setXPSubject(String value)
@@ -2244,12 +2244,12 @@ public final void setXPSubject(String value)
 
 يضبط معلومات حول الصورة، التي يستخدمها مستكشف Windows.
 
-القيمة: معلومات حول الصورة، يستخدمها مستكشف Windows.
+القيمة: معلومات حول الصورة، تُستخدم بواسطة Windows Explorer.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | معلومات حول الصورة، التي تُستخدم بواسطة Windows Explorer. |
+| value | java.lang.String | معلومات حول الصورة، تُستخدم بواسطة Windows Explorer. |
 
 ### getExifData() {#getExifData--}
 ```
@@ -2288,7 +2288,7 @@ public boolean removeTag(int tag)
 | علامة | int | الوسم المراد إزالته. |
 
 **Returns:**
-منطقي - true إذا تم الإزالة بنجاح
+boolean - صحيح إذا تم الإزالة بنجاح
 ### removeTags(int[] tags) {#removeTags-int...-}
 ```
 public final boolean removeTags(int[] tags)
@@ -2303,7 +2303,7 @@ public final boolean removeTags(int[] tags)
 | الوسوم | int[] | الوسوم المراد إزالتها. |
 
 **Returns:**
-منطقي - `` إذا تغير حجم مجموعة الوسوم.
+boolean - `` إذا تغير حجم مجموعة الوسوم.
 ### validate() {#validate--}
 ```
 public void validate()
@@ -2344,12 +2344,12 @@ public TiffDataType getTagByType(int tagKey)
 ```
 
 
-يحصل على نسخة العلامة حسب النوع.
+يحصل على مثيل العلامة حسب النوع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tagKey | int | مفتاح الوسم. |
+| tagKey | int | مفتاح العلامة. |
 
 **Returns:**
 [TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) - Instance of the tag if exists or null otherwise.

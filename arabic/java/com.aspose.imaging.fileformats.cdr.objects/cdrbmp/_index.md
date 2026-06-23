@@ -28,10 +28,10 @@ public class CdrBmp extends CdrDictionaryItem
 | [setWidth(int value)](#setWidth-int-) | يضبط العرض. |
 | [getHeight()](#getHeight--) | يحصل على الارتفاع. |
 | [setHeight(int value)](#setHeight-int-) | يضبط الارتفاع. |
-| [getBpp()](#getBpp--) | يحصل على BPP. |
+| [getBpp()](#getBpp--) | يسترجع BPP. |
 | [setBpp(int value)](#setBpp-int-) | يضبط BPP. |
-| [getBytesPerLine()](#getBytesPerLine--) | يحصل على البايتات لكل سطر. |
-| [setBytesPerLine(int value)](#setBytesPerLine-int-) | يضبط البايتات لكل سطر. |
+| [getBytesPerLine()](#getBytesPerLine--) | يحصل على عدد البايتات لكل سطر. |
+| [setBytesPerLine(int value)](#setBytesPerLine-int-) | يضبط عدد البايتات لكل سطر. |
 | [getPalette()](#getPalette--) | يحصل على لوحة الألوان. |
 | [setPalette(int[] value)](#setPalette-int---) | يضبط لوحة الألوان. |
 ### CdrBmp() {#CdrBmp--}
@@ -61,7 +61,7 @@ public final void setColorModel(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نموذج اللون. |
+| value | int | نموذج اللون. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -84,7 +84,7 @@ public final void setWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | العرض. |
+| value | int | العرض. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -107,7 +107,7 @@ public final void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الارتفاع. |
+| value | int | الارتفاع. |
 
 ### getBpp() {#getBpp--}
 ```
@@ -115,7 +115,7 @@ public final int getBpp()
 ```
 
 
-يحصل على BPP.
+يسترجع BPP.
 
 **Returns:**
 int - BPP.
@@ -130,7 +130,7 @@ public final void setBpp(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | BPP. |
+| value | int | BPP. |
 
 ### getBytesPerLine() {#getBytesPerLine--}
 ```
@@ -138,22 +138,22 @@ public final int getBytesPerLine()
 ```
 
 
-يحصل على البايتات لكل سطر.
+يحصل على عدد البايتات لكل سطر.
 
 **Returns:**
-int - البايتات لكل سطر.
+int - عدد البايتات لكل سطر.
 ### setBytesPerLine(int value) {#setBytesPerLine-int-}
 ```
 public final void setBytesPerLine(int value)
 ```
 
 
-يضبط البايتات لكل سطر.
+يضبط عدد البايتات لكل سطر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | البايتات لكل سطر. |
+| value | int | عدد البايتات لكل سطر. |
 
 ### getPalette() {#getPalette--}
 ```
@@ -176,5 +176,5 @@ public final void setPalette(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | لوحة الألوان. |
+| value | int[] | لوحة الألوان. |
 

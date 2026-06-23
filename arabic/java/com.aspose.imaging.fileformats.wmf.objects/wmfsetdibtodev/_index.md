@@ -1,18 +1,18 @@
 ---
 title: "WmfSetDibToDev"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل META_SETDIBTODEV يحدد كتلة من البكسلات في سياق جهاز التشغيل باستخدام بيانات ألوان مستقلة عن الجهاز."
+description: "سجل META_SETDIBTODEV يحدد كتلة من البكسلات في سياق جهاز التشغيل باستخدام بيانات لون مستقلة عن الجهاز."
 type: docs
 weight: 75
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetDibToDev extends WmfObject
 ```
 
-السجل META\_SETDIBTODEV يحدد كتلة من البكسلات في سياق جهاز التشغيل باستخدام بيانات ألوان مستقلة عن الجهاز. مصدر بيانات اللون هو DIB.
+سجل META\_SETDIBTODEV يحدد كتلة من البكسلات في سياق جهاز التشغيل باستخدام بيانات لون مستقلة عن الجهاز. مصدر بيانات اللون هو DIB.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,22 +22,22 @@ public class WmfSetDibToDev extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getColorUsage()](#getColorUsage--) | يحصل أو يعيّن استخدام اللون. |
-| [setColorUsage(int value)](#setColorUsage-int-) | يحصل أو يعيّن استخدام اللون. |
-| [getScanCount()](#getScanCount--) | يحصل أو يضبط عدد المسحات. |
-| [setScanCount(int value)](#setScanCount-int-) | يحصل أو يضبط عدد المسحات. |
-| [getStartScan()](#getStartScan--) | الحصول أو تعيين مسح البداية. |
-| [setStartScan(int value)](#setStartScan-int-) | الحصول أو تعيين مسح البداية. |
-| [getDibPos()](#getDibPos--) | الحصول أو تعيين موضع الـ dib. |
-| [setDibPos(Point value)](#setDibPos-com.aspose.imaging.Point-) | الحصول أو تعيين موضع الـ dib. |
+| [getColorUsage()](#getColorUsage--) | الحصول أو تعيين استخدام اللون. |
+| [setColorUsage(int value)](#setColorUsage-int-) | الحصول أو تعيين استخدام اللون. |
+| [getScanCount()](#getScanCount--) | يحصل أو يعيّن عدد المسحات. |
+| [setScanCount(int value)](#setScanCount-int-) | يحصل أو يعيّن عدد المسحات. |
+| [getStartScan()](#getStartScan--) | يحصل أو يعيّن مسح البداية. |
+| [setStartScan(int value)](#setStartScan-int-) | يحصل أو يعيّن مسح البداية. |
+| [getDibPos()](#getDibPos--) | يحصل أو يضبط موضع الـ dib. |
+| [setDibPos(Point value)](#setDibPos-com.aspose.imaging.Point-) | يحصل أو يضبط موضع الـ dib. |
 | [getHeight()](#getHeight--) | يحصل أو يعيّن الارتفاع. |
 | [setHeight(int value)](#setHeight-int-) | يحصل أو يعيّن الارتفاع. |
 | [getWidth()](#getWidth--) | يحصل أو يعيّن العرض. |
 | [setWidth(int value)](#setWidth-int-) | يحصل أو يعيّن العرض. |
-| [getDestPos()](#getDestPos--) | الحصول أو تعيين موضع الوجهة. |
-| [setDestPos(Point value)](#setDestPos-com.aspose.imaging.Point-) | الحصول أو تعيين موضع الوجهة. |
-| [getDib()](#getDib--) | الحصول أو تعيين الـ dib. |
-| [setDib(WmfDeviceIndependentBitmap value)](#setDib-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | الحصول أو تعيين الـ dib. |
+| [getDestPos()](#getDestPos--) | يحصل أو يضبط موضع الوجهة. |
+| [setDestPos(Point value)](#setDestPos-com.aspose.imaging.Point-) | يحصل أو يضبط موضع الوجهة. |
+| [getDib()](#getDib--) | يحصل أو يضبط الـ dib. |
+| [setDib(WmfDeviceIndependentBitmap value)](#setDib-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | يحصل أو يضبط الـ dib. |
 ### WmfSetDibToDev() {#WmfSetDibToDev--}
 ```
 public WmfSetDibToDev()
@@ -50,7 +50,7 @@ public int getColorUsage()
 ```
 
 
-يحصل أو يعيّن استخدام اللون.
+الحصول أو تعيين استخدام اللون.
 
 القيمة: حقل Colors في الـ DIB يحتوي على قيم RGB صريحة أو مؤشرات إلى لوحة ألوان. يجب أن يكون أحد القيم في تعداد `com.aspose.imaging.fileFormats.wmf.objects.wmfSetDibToDev.ColorUsage` (القسم 2.1.1.6).
 
@@ -62,14 +62,14 @@ public void setColorUsage(int value)
 ```
 
 
-يحصل أو يعيّن استخدام اللون.
+الحصول أو تعيين استخدام اللون.
 
 القيمة: حقل Colors في الـ DIB يحتوي على قيم RGB صريحة أو مؤشرات إلى لوحة ألوان. يجب أن يكون أحد القيم في تعداد `com.aspose.imaging.fileFormats.wmf.objects.wmfSetDibToDev.ColorUsage` (القسم 2.1.1.6).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getScanCount() {#getScanCount--}
 ```
@@ -77,7 +77,7 @@ public int getScanCount()
 ```
 
 
-يحصل أو يضبط عدد المسحات.
+يحصل أو يعيّن عدد المسحات.
 
 القيمة: عدد خطوط المسح في المصدر.
 
@@ -89,14 +89,14 @@ public void setScanCount(int value)
 ```
 
 
-يحصل أو يضبط عدد المسحات.
+يحصل أو يعيّن عدد المسحات.
 
 القيمة: عدد خطوط المسح في المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getStartScan() {#getStartScan--}
 ```
@@ -104,7 +104,7 @@ public int getStartScan()
 ```
 
 
-الحصول أو تعيين مسح البداية.
+يحصل أو يعيّن مسح البداية.
 
 القيمة: خط المسح الابتدائي في المصدر.
 
@@ -116,14 +116,14 @@ public void setStartScan(int value)
 ```
 
 
-الحصول أو تعيين مسح البداية.
+يحصل أو يعيّن مسح البداية.
 
 القيمة: خط المسح الابتدائي في المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getDibPos() {#getDibPos--}
 ```
@@ -131,7 +131,7 @@ public Point getDibPos()
 ```
 
 
-الحصول أو تعيين موضع الـ dib.
+يحصل أو يضبط موضع الـ dib.
 
 القيمة: إحداثيات المستطيل المصدر بوحدات منطقية.
 
@@ -143,7 +143,7 @@ public void setDibPos(Point value)
 ```
 
 
-الحصول أو تعيين موضع الـ dib.
+يحصل أو يضبط موضع الـ dib.
 
 القيمة: إحداثيات المستطيل المصدر بوحدات منطقية.
 
@@ -177,7 +177,7 @@ public void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -204,7 +204,7 @@ public void setWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getDestPos() {#getDestPos--}
 ```
@@ -212,7 +212,7 @@ public Point getDestPos()
 ```
 
 
-الحصول أو تعيين موضع الوجهة.
+يحصل أو يضبط موضع الوجهة.
 
 القيمة: إحداثيات الزاوية العلوية اليسرى للمستطيل الوجهة بوحدات منطقية.
 
@@ -224,7 +224,7 @@ public void setDestPos(Point value)
 ```
 
 
-الحصول أو تعيين موضع الوجهة.
+يحصل أو يضبط موضع الوجهة.
 
 القيمة: إحداثيات الزاوية العلوية اليسرى للمستطيل الوجهة بوحدات منطقية.
 
@@ -239,9 +239,9 @@ public WmfDeviceIndependentBitmap getDib()
 ```
 
 
-الحصول أو تعيين الـ dib.
+يحصل أو يضبط الـ dib.
 
-القيمة: الإحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
+القيمة: إحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
 
 **Returns:**
 [WmfDeviceIndependentBitmap](../../com.aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap)
@@ -251,9 +251,9 @@ public void setDib(WmfDeviceIndependentBitmap value)
 ```
 
 
-الحصول أو تعيين الـ dib.
+يحصل أو يضبط الـ dib.
 
-القيمة: الإحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
+القيمة: إحداثي y، بوحدات منطقية، للزاوية العليا اليسرى للمستطيل الوجهة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "مقاس"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يوفر طرقًا محسوبة للتكامل"
+description: "يوفر طرقًا مقاسة للتكامل"
 type: docs
 weight: 74
 url: /ar/java/com.aspose.imaging/metered/
@@ -12,9 +12,9 @@ java.lang.Object
 public class Metered
 ```
 
-يوفر طرقًا محسوبة للتكامل
+يوفر طرقًا مقاسة للتكامل
 
-في هذا المثال، سيتم محاولة ضبط المفتاح العام والخاص المقاس
+في هذا المثال، سيتم محاولة تعيين المفتاح العام والخاص المقاس.
 
 `// the component jar file: Metered metered = new Metered(); metered.setMeteredKey("PublicKey", "PrivateKey"); `
 ## المنشئات
@@ -29,7 +29,7 @@ public class Metered
 | [getConsumptionQuantity()](#getConsumptionQuantity--) | يحصل على حجم ملف الاستهلاك |
 | [getConsumptionCredit()](#getConsumptionCredit--) | يحصل على رصيد الاستهلاك |
 | [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | يضبط المفتاح العام والخاص المقاس. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد يساوي هذه الحالة. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد يساوي هذا المثيل. |
 ### Metered() {#Metered--}
 ```
 public Metered()
@@ -64,7 +64,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 
 يضبط المفتاح العام والخاص المقاس.
 
-إذا قمت بشراء ترخيص مقاس، عند بدء التطبيق، يجب استدعاء هذه الـAPI، عادةً هذا يكفي. ومع ذلك، إذا فشل دائمًا في رفع بيانات الاستهلاك وتجاوز 24 ساعة، سيتم ضبط الترخيص إلى حالة التقييم، لتجنب هذه الحالة، يجب عليك فحص حالة الترخيص بانتظام، إذا كانت حالة التقييم، استدعِ هذه الـAPI مرة أخرى.
+إذا قمت بشراء ترخيص مقاس، عند بدء التطبيق، يجب استدعاء هذه الواجهة البرمجية، عادةً هذا يكفي. ومع ذلك، إذا فشل دائمًا تحميل بيانات الاستهلاك وتجاوز 24 ساعة، سيتم تعيين الترخيص إلى حالة التقييم، لتجنب هذه الحالة، يجب عليك فحص حالة الترخيص بانتظام، إذا كانت حالة التقييم، استدعِ هذه الواجهة البرمجية مرة أخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -78,12 +78,12 @@ public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد يساوي هذه الحالة.
+يحدد ما إذا كان الكائن المحدد يساوي هذا المثيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الكائن للمقارنة مع هذه الحالة. |
+| obj | java.lang.Object | الكائن للمقارنة مع هذا المثيل. |
 
 **Returns:**
-boolean - `true` إذا كان الكائن المحدد يساوي هذه الحالة؛ وإلا، `false`.
+boolean - `true` إذا كان الكائن المحدد يساوي هذا المثيل؛ وإلا، `false`.

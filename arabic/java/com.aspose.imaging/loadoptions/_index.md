@@ -27,16 +27,18 @@ public class LoadOptions implements IProgressEventHandler
 | --- | --- |
 | [getDataRecoveryMode()](#getDataRecoveryMode--) | يحصل على وضع استعادة البيانات. |
 | [setDataRecoveryMode(int value)](#setDataRecoveryMode-int-) | يضبط وضع استعادة البيانات. |
-| [getDataBackgroundColor()](#getDataBackgroundColor--) | يحصل على `Image` الخلفية `Color`. |
-| [setDataBackgroundColor(Color value)](#setDataBackgroundColor-com.aspose.imaging.Color-) | يضبط `Image` الخلفية `Color`. |
+| [getDataBackgroundColor()](#getDataBackgroundColor--) | يحصل على لون خلفية `Image`. |
+| [setDataBackgroundColor(Color value)](#setDataBackgroundColor-com.aspose.imaging.Color-) | يضبط لون خلفية `Image`. |
 | [getUseIccProfileConversion()](#getUseIccProfileConversion--) | يحصل على قيمة تشير إلى ما إذا كان يجب تطبيق تحويل ملف تعريف ICC. |
 | [setUseIccProfileConversion(boolean value)](#setUseIccProfileConversion-boolean-) | يضبط قيمة تشير إلى ما إذا كان يجب تطبيق تحويل ملف تعريف ICC. |
 | [addCustomFontSource(CustomFontSource source, Object[] args)](#addCustomFontSource-com.aspose.imaging.CustomFontSource-java.lang.Object...-) | يضيف مصدر الخط المخصص لتوفير خطوط خاصة بالصورة. |
-| [getBufferSizeHint()](#getBufferSizeHint--) | يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية. |
-| [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية. |
+| [getBufferSizeHint()](#getBufferSizeHint--) | يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية. |
+| [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية. |
 | [getConcurrentImageProcessing()](#getConcurrentImageProcessing--) | يحصل على قيمة تشير إلى ما إذا كان [معالجة الصور المتزامنة]. |
 | [setConcurrentImageProcessing(boolean value)](#setConcurrentImageProcessing-boolean-) | يضبط قيمة تشير إلى ما إذا كان [معالجة الصور المتزامنة]. |
-| [getIProgressEventHandler()](#getIProgressEventHandler--) | يسترجع معالج حدث التقدم. |
+| [getDisposeStream()](#getDisposeStream--) | يحصل على قيمة تشير إلى ما إذا كان يجب تحرير الدفق الذي يحتوي على الصورة. |
+| [setDisposeStream(boolean value)](#setDisposeStream-boolean-) | يضبط قيمة تشير إلى ما إذا كان يجب تحرير الدفق الذي يحتوي على الصورة. |
+| [getIProgressEventHandler()](#getIProgressEventHandler--) | يحصل على معالج حدث التقدم. |
 | [setIProgressEventHandler(ProgressEventHandler value)](#setIProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | يضبط معالج حدث التقدم. |
 ### LoadOptions() {#LoadOptions--}
 ```
@@ -65,7 +67,7 @@ public void setDataRecoveryMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وضع استعادة البيانات. |
+| value | int | وضع استعادة البيانات. |
 
 ### getDataBackgroundColor() {#getDataBackgroundColor--}
 ```
@@ -73,7 +75,7 @@ public Color getDataBackgroundColor()
 ```
 
 
-يحصل على `Image` الخلفية `Color`.
+يحصل على لون خلفية `Image`.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The background color.
@@ -85,7 +87,7 @@ public void setDataBackgroundColor(Color value)
 ```
 
 
-يضبط `Image` الخلفية `Color`.
+يضبط لون خلفية `Image`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -115,7 +117,7 @@ public void setUseIccProfileConversion(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### addCustomFontSource(CustomFontSource source, Object[] args) {#addCustomFontSource-com.aspose.imaging.CustomFontSource-java.lang.Object...-}
 ```
@@ -129,7 +131,7 @@ public final void addCustomFontSource(CustomFontSource source, Object[] args)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | source | [CustomFontSource](../../com.aspose.imaging/customfontsource) | دالة موفر مصدر الخط المخصص. |
-| args | java.lang.Object[] | المعلمات. |
+| args | java.lang.Object[] | المعاملات. |
 
 ### getBufferSizeHint() {#getBufferSizeHint--}
 ```
@@ -137,33 +139,33 @@ public final int getBufferSizeHint()
 ```
 
 
-يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية.
+يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية.
 
-القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الإيجابية تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
+القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الموجبة تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
 
 **Returns:**
-int - تلميح حجم المخزن المؤقت الذي يُعرّف الحد الأقصى المسموح به لجميع المخازن المؤقتة الداخلية.
+int - تلميح حجم المخزن المؤقت الذي يُعرف كحد أقصى مسموح به لجميع المخازن المؤقتة الداخلية.
 ### setBufferSizeHint(int value) {#setBufferSizeHint-int-}
 ```
 public final void setBufferSizeHint(int value)
 ```
 
 
-يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية.
+يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية.
 
-القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الإيجابية تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
+القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الموجبة تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تلميح حجم المخزن المؤقت الذي يُعرّف الحد الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
+| value | int | تلميح حجم المخزن المؤقت الذي يُعرف كحد أقصى مسموح به لجميع المخازن المؤقتة الداخلية. |
 
 
 **Example: The following example shows how to set a memory limit when loading a JPEG image.**
-يوضح المثال التالي كيفية تعيين حد الذاكرة عند تحميل صورة JPEG. حد الذاكرة هو الحد الأقصى المسموح به (بالميغابايت) لجميع المخازن الداخلية.
+يوضح المثال التالي كيفية تعيين حد للذاكرة عند تحميل صورة JPEG. حد الذاكرة هو الحد الأقصى المسموح به (بالميغابايت) لجميع المخازن الداخلية.
 ``` java
 String workDir = "c:\\temp\\";
-// تعيين حد الذاكرة إلى 50 ميغابايت للصورة المحملة المستهدفة
+// تعيين حد للذاكرة بقيمة 50 ميغابايت للصورة المحملة المستهدفة
 com.aspose.imaging.LoadOptions loadOptions = new com.aspose.imaging.LoadOptions();
 loadOptions.setBufferSizeHint(50);
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(workDir + "inputFile.jpg", loadOptions);
@@ -202,10 +204,10 @@ public final boolean getConcurrentImageProcessing()
 
 يحصل على قيمة تشير إلى ما إذا كان [معالجة الصور المتزامنة].
 
-القيمة: `true` إذا كان [معالجة الصور المتزامنة]؛ وإلا `false`.
+القيمة: `true` إذا كان [concurrent image processing]؛ وإلا `false`.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان [معالجة الصور المتزامنة].
+منطقي - قيمة تشير إلى ما إذا كان [concurrent image processing].
 ### setConcurrentImageProcessing(boolean value) {#setConcurrentImageProcessing-boolean-}
 ```
 public final void setConcurrentImageProcessing(boolean value)
@@ -214,12 +216,35 @@ public final void setConcurrentImageProcessing(boolean value)
 
 يضبط قيمة تشير إلى ما إذا كان [معالجة الصور المتزامنة].
 
-القيمة: `true` إذا كان [معالجة الصور المتزامنة]؛ وإلا `false`.
+القيمة: `true` إذا كان [concurrent image processing]؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [concurrent image processing]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [concurrent image processing]. |
+
+### getDisposeStream() {#getDisposeStream--}
+```
+public final boolean getDisposeStream()
+```
+
+
+يحصل على قيمة تشير إلى ما إذا كان يجب تحرير الدفق الذي يحتوي على الصورة.
+
+**Returns:**
+منطقي - قيمة تشير إلى ما إذا كان يجب التخلص من الدفق الذي يحتوي على الصورة.
+### setDisposeStream(boolean value) {#setDisposeStream-boolean-}
+```
+public final void setDisposeStream(boolean value)
+```
+
+
+يضبط قيمة تشير إلى ما إذا كان يجب تحرير الدفق الذي يحتوي على الصورة.
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| value | boolean | قيمة تشير إلى ما إذا كان يجب التخلص من الدفق الذي يحتوي على الصورة. |
 
 ### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```
@@ -227,7 +252,7 @@ public ProgressEventHandler getIProgressEventHandler()
 ```
 
 
-يسترجع معالج حدث التقدم.
+يحصل على معالج حدث التقدم.
 
 القيمة: معالج حدث التقدم.
 

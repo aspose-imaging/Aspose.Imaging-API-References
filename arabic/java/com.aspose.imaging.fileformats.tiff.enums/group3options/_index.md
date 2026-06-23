@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class Group3Options extends System.Enum
 ```
 
-خيارات ترميز الفاكس CCITT Group 3/4. القيم الممكنة لعلامات GROUP3OPTIONS / TiffTag.T4OPTIONS و TiffTag.GROUP4OPTIONS / TiffTag.T6OPTIONS.
+خيارات ترميز الفاكس CCITT Group 3/4. القيم المحتملة لعلامات GROUP3OPTIONS / TiffTag.T4OPTIONS و TiffTag.GROUP4OPTIONS / TiffTag.T6OPTIONS.
 ## الحقول
 
 | حقل | الوصف |

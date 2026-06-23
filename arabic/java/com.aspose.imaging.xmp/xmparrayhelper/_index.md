@@ -32,4 +32,4 @@ public static String getRdfCode(int xmpArrayType)
 | xmpArrayType | int | نوع مصفوفة XMP. |
 
 **Returns:**
-java.lang.String - يرجع رمز RDF لنوع `XmpArrayType` المحدد.
+java.lang.String - إرجاع رمز RDF لنوع `XmpArrayType` المحدد.

@@ -1,7 +1,7 @@
 ---
 title: "CdrTextCollection"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مجموعة نص cdr"
+description: "مجموعة نص Cdr"
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.cdr.types/cdrtextcollection/
@@ -12,7 +12,7 @@ java.lang.Object
 public class CdrTextCollection
 ```
 
-مجموعة نص cdr
+مجموعة نص Cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -58,4 +58,4 @@ public final CdrText[] getText(int key)
 | المفتاح | int | مفتاح النص |
 
 **Returns:**
-com.aspose.imaging.fileformats.cdr.objects.CdrText[] - مثال نص cdr
+com.aspose.imaging.fileformats.cdr.objects.CdrText[] - مثيل نص cdr

@@ -1,7 +1,7 @@
 ---
 title: "EmfEllipse"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EMR_ELLIPSE يحدد شكلًا بيضاويًا."
+description: "السجل EMR_ELLIPSE يحدد إهليلجًا."
 type: docs
 weight: 46
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfellipse/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfEllipse extends EmfDrawingRecordType
 ```
 
-السجل EMR\_ELLIPSE يحدد شكلًا بيضاويًا. مركز الشكل البيضاوي هو مركز المستطيل المحدد المحيط. يتم رسم حدود الشكل البيضاوي باستخدام القلم الحالي ويتم تعبئته باستخدام الفرشاة الحالية.
+السجل EMR\_ELLIPSE يحدد إهليلجًا. مركز الإهليلج هو مركز المستطيل المحيط المحدد. يتم رسم حدود الإهليلج باستخدام القلم الحالي ويتم تعبئته باستخدام الفرشاة الحالية.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,8 +23,8 @@ public final class EmfEllipse extends EmfDrawingRecordType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBox()](#getBox--) | يحصل أو يضبط كائن RectL 128-بت (WMF)، المحدد في القسم 2.2.2.19 من [MS-WMF]، والذي يحدد المستطيل المحيط الشامل. |
-| [setBox(Rectangle value)](#setBox-com.aspose.imaging.Rectangle-) | يحصل أو يضبط كائن RectL 128-بت (WMF)، المحدد في القسم 2.2.2.19 من [MS-WMF]، والذي يحدد المستطيل المحيط الشامل. |
+| [getBox()](#getBox--) | يحصل أو يعيّن كائن RectL 128-بت (WMF)، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط الشامل-الشامل. |
+| [setBox(Rectangle value)](#setBox-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن RectL 128-بت (WMF)، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط الشامل-الشامل. |
 ### EmfEllipse(EmfRecord source) {#EmfEllipse-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfEllipse(EmfRecord source)
@@ -52,7 +52,7 @@ public Rectangle getBox()
 ```
 
 
-يحصل أو يضبط كائن RectL 128-بت (WMF)، المحدد في القسم 2.2.2.19 من [MS-WMF]، والذي يحدد المستطيل المحيط الشامل.
+يحصل أو يعيّن كائن RectL 128-بت (WMF)، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط الشامل-الشامل.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -62,7 +62,7 @@ public void setBox(Rectangle value)
 ```
 
 
-يحصل أو يضبط كائن RectL 128-بت (WMF)، المحدد في القسم 2.2.2.19 من [MS-WMF]، والذي يحدد المستطيل المحيط الشامل.
+يحصل أو يعيّن كائن RectL 128-بت (WMF)، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط الشامل-الشامل.
 
 **Parameters:**
 | معامل | نوع | الوصف |

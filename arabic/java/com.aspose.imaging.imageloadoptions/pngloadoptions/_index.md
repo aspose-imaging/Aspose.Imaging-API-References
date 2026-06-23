@@ -17,7 +17,7 @@ public class PngLoadOptions extends LoadOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PngLoadOptions()](#PngLoadOptions--) | يُنشئ مثيلاً جديدًا من الفئة `PngLoadOptions`. |
+| [PngLoadOptions()](#PngLoadOptions--) | ينشئ مثيلاً جديدًا من الفئة `PngLoadOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public PngLoadOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `PngLoadOptions`.
+ينشئ مثيلاً جديدًا من الفئة `PngLoadOptions`.
 
 ### getStrictMode() {#getStrictMode--}
 ```
@@ -41,7 +41,7 @@ public boolean getStrictMode()
 يحصل أو يضبط قيمة تشير إلى ما إذا كان [strict mode].
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان [strict mode].
+منطقي - قيمة تشير إلى ما إذا كان [strict mode].
 ### setStrictMode(boolean value) {#setStrictMode-boolean-}
 ```
 public void setStrictMode(boolean value)
@@ -53,17 +53,17 @@ public void setStrictMode(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [strict mode]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [strict mode]. |
 
 
 **Example: The following example shows how to read PNG file : a strict mode.**
-يوضح المثال التالي كيفية قراءة ملف PNG : وضع صارم. يسمح الوضع الصارم باكتشاف المشكلات المحتملة : صور PNG، مثل كتل البيانات غير المعروفة، أو نهاية غير متوقعة للملف. لا يزال يمكن فتح مثل هذه الملفات : الوضع الافتراضي (غير الصارم) بواسطة Aspose.Imaging ومن قبل عارضات الصور الشائعة أيضًا. ومع ذلك، أي محاولة لفتحها : الوضع الصارم تتسبب في استثناء مطابق.
+المثال التالي يوضح كيفية قراءة ملف PNG : وضع صارم. يسمح الوضع الصارم باكتشاف المشكلات المحتملة : صور PNG، مثل كتل البيانات غير المعروفة، أو نهاية غير متوقعة للملف. لا يزال يمكن فتح مثل هذه الملفات : الوضع الافتراضي (غير الصارم) بواسطة Aspose.Imaging ومن قبل عارضات الملفات الشائعة أيضًا. ومع ذلك، أي محاولة لفتحها : الوضع الصارم تتسبب في استثناء مطابق.
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1442\\";
 String inputImage = dir + "FC5F1998104EB92469CB14070628073616BB28F9.png";
 String outputImage = inputImage + ".png";
 
-// الوضع الافتراضي (غير الصارم) - قراءة ناجحة.
+// الوضع الافتراضي (غير صارم) - قراءة ناجحة.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputImage);
 try {
     image.save(outputImage, new com.aspose.imaging.imageoptions.PngOptions());

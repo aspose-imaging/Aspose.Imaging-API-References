@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPlusTerminalServerRecordType extends EmfPlusRecord
 ```
 
-أنواع سجلات خادم الطرفية تحدد معالجة الرسومات على خادم طرفية. الأنواع التالية هي سجلات خادم الطرفية EMF+.
+أنواع سجلات خادم الطرفية Terminal Server Record Types تحدد معالجة الرسومات على خادم طرفية. الأنواع التالية هي سجلات خادم الطرفية EMF+.

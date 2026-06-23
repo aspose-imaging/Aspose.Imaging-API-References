@@ -1,5 +1,5 @@
 ---
-title: "Complex"
+title: "معقد"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "بنية العدد المركب."
 type: docs
@@ -21,38 +21,38 @@ public class Complex extends Struct<Complex> implements System.IEquatable<Comple
 | المنشئ | الوصف |
 | --- | --- |
 | [Complex()](#Complex--) |  |
-| [Complex(double real, double imaginary)](#Complex-double-double-) | يُنشئ مثيلاً جديدًا من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
-| [Complex(Complex c)](#Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنشئ مثيلاً جديدًا من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
+| [Complex(double real, double imaginary)](#Complex-double-double-) | يُنشئ نسخة جديدة من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
+| [Complex(Complex c)](#Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنشئ نسخة جديدة من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [SIZE_OF_DOUBLE](#SIZE-OF-DOUBLE) | حجم `double`. |
-| [SIZE_OF_COMPLEX](#SIZE-OF-COMPLEX) | حجم complex. |
-| [ZERO](#ZERO) | صفر مركب. |
-| [ONE](#ONE) | مركب واحد له `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) و `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1. |
-| [I](#I) | مركب I له `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1. |
+| [SIZE_OF_COMPLEX](#SIZE-OF-COMPLEX) | حجم المعقد. |
+| [ZERO](#ZERO) | معقد صفر. |
+| [ONE](#ONE) | معقد واحد يحتوي على `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) و `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1. |
+| [I](#I) | معقد I يحتوي على `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [to_Complex(double value)](#to-Complex-double-) | يُجري تحويلًا صريحًا من `double` إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
 | [to_Complex(float value)](#to-Complex-float-) | يُجري تحويلًا صريحًا من `float` إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
-| [op_Equality(Complex a, Complex b)](#op-Equality-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل ==. |
-| [op_Inequality(Complex a, Complex b)](#op-Inequality-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل !=. |
-| [op_UnaryNegation(Complex a)](#op-UnaryNegation-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل -. |
-| [op_Addition(Complex a, Complex b)](#op-Addition-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل +. |
-| [op_Addition(Complex a, double s)](#op-Addition-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يُنفّذ المشغل +. |
-| [op_Addition(double s, Complex a)](#op-Addition-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل +. |
-| [op_Subtraction(Complex a, Complex b)](#op-Subtraction-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل -. |
-| [op_Subtraction(Complex a, double s)](#op-Subtraction-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يُنفّذ المشغل -. |
-| [op_Subtraction(double s, Complex a)](#op-Subtraction-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُنفّذ المشغل -. |
-| [op_Multiply(Complex a, Complex b)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل \*. |
-| [op_Multiply(double s, Complex a)](#op-Multiply-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل \*. |
-| [op_Multiply(Complex a, double s)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يُطبق المشغل \*. |
-| [op_Division(Complex a, Complex b)](#op-Division-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل /. |
-| [op_Division(Complex a, double s)](#op-Division-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يُطبق المشغل /. |
-| [op_Division(double s, Complex a)](#op-Division-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل /. |
+| [op_Equality(Complex a, Complex b)](#op-Equality-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل ==. |
+| [op_Inequality(Complex a, Complex b)](#op-Inequality-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل !=. |
+| [op_UnaryNegation(Complex a)](#op-UnaryNegation-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل -. |
+| [op_Addition(Complex a, Complex b)](#op-Addition-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل +. |
+| [op_Addition(Complex a, double s)](#op-Addition-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يُطبق المشغل +. |
+| [op_Addition(double s, Complex a)](#op-Addition-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل +. |
+| [op_Subtraction(Complex a, Complex b)](#op-Subtraction-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل -. |
+| [op_Subtraction(Complex a, double s)](#op-Subtraction-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يُطبق المشغل -. |
+| [op_Subtraction(double s, Complex a)](#op-Subtraction-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | يُطبق المشغل -. |
+| [op_Multiply(Complex a, Complex b)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | ينفّذ العامل \*. |
+| [op_Multiply(double s, Complex a)](#op-Multiply-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | ينفّذ العامل \*. |
+| [op_Multiply(Complex a, double s)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | ينفّذ العامل \*. |
+| [op_Division(Complex a, Complex b)](#op-Division-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | ينفّذ العامل /. |
+| [op_Division(Complex a, double s)](#op-Division-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | ينفّذ العامل /. |
+| [op_Division(double s, Complex a)](#op-Division-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | ينفّذ العامل /. |
 | [add(Complex a, Complex b)](#add-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يضيف `a` و `b`. |
 | [add(Complex a, double s)](#add-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يضيف `a` و `s`. |
 | [add(Complex a, Complex b, Complex[] result)](#add-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex---) | يضيف `a` و `b`. |
@@ -73,14 +73,14 @@ public class Complex extends Struct<Complex> implements System.IEquatable<Comple
 | [divide(Complex a, Complex b, Complex[] result)](#divide-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex---) | يقسم `a` على `b`. |
 | [divide(Complex a, double s, Complex[] result)](#divide-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---) | يقسم `a` على `s`. |
 | [divide(double s, Complex a, Complex[] result)](#divide-double-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex---) | يقسم `s` على `a`. |
-| [negate(Complex a)](#negate-com.aspose.imaging.imagefilters.complexutils.Complex-) | يعكس إشارة `a`. |
-| [approxEqual(Complex a, Complex b)](#approxEqual-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يفحص المساواة التقريبية. |
-| [approxEqual(Complex a, Complex b, double tolerance)](#approxEqual-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يفحص المساواة التقريبية. |
-| [parse(String s)](#parse-java.lang.String-) | يحلل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
-| [tryParse(String s, Complex[] result)](#tryParse-java.lang.String-com.aspose.imaging.imagefilters.complexutils.Complex---) | يحاول تحليل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
+| [negate(Complex a)](#negate-com.aspose.imaging.imagefilters.complexutils.Complex-) | يعكس `a`. |
+| [approxEqual(Complex a, Complex b)](#approxEqual-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | يتحقق من المساواة التقريبية. |
+| [approxEqual(Complex a, Complex b, double tolerance)](#approxEqual-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | يتحقق من المساواة التقريبية. |
+| [parse(String s)](#parse-java.lang.String-) | يحوّل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
+| [tryParse(String s, Complex[] result)](#tryParse-java.lang.String-com.aspose.imaging.imagefilters.complexutils.Complex---) | يحاول تحويل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
 | [sqrt(Complex a)](#sqrt-com.aspose.imaging.imagefilters.complexutils.Complex-) | يحصل على الجذر التربيعي لـ `a`. |
 | [log(Complex a)](#log-com.aspose.imaging.imagefilters.complexutils.Complex-) | يحصل على اللوغاريتم لـ `a`. |
-| [exp(Complex a)](#exp-com.aspose.imaging.imagefilters.complexutils.Complex-) | يرفع e إلى `a`. |
+| [exp(Complex a)](#exp-com.aspose.imaging.imagefilters.complexutils.Complex-) | يرفع e إلى القوة `a`. |
 | [sin(Complex a)](#sin-com.aspose.imaging.imagefilters.complexutils.Complex-) | يحصل على جيب `a`. |
 | [cos(Complex a)](#cos-com.aspose.imaging.imagefilters.complexutils.Complex-) | يحصل على جيب تمام `a`. |
 | [tan(Complex a)](#tan-com.aspose.imaging.imagefilters.complexutils.Complex-) | يحصل على ظل `a`. |
@@ -94,10 +94,10 @@ public class Complex extends Struct<Complex> implements System.IEquatable<Comple
 | [getMagnitude()](#getMagnitude--) | يحصل على المقدار. |
 | [getPhase()](#getPhase--) | يحصل على الطور. |
 | [getSquaredMagnitude()](#getSquaredMagnitude--) | يحصل على المقدار المربع. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Object` المحدد يساوي هذه المثيلة. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
-| [deepClone()](#deepClone--) | ينسخ هذه المثيلة. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Object` المحدد يساوي هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
+| [deepClone()](#deepClone--) | ينسخ هذه النسخة. |
 | [CloneTo(Complex that)](#CloneTo-com.aspose.imaging.imagefilters.complexutils.Complex-) |  |
 | [Clone()](#Clone--) |  |
 ### Complex() {#Complex--}
@@ -112,13 +112,13 @@ public Complex(double real, double imaginary)
 ```
 
 
-يُنشئ مثيلاً جديدًا من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
+يُنشئ نسخة جديدة من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | حقيقي | double | الجزء الحقيقي. |
-| تخيلي | double | الجزء التخيلي. |
+| خيالي | double | الجزء الخيالي. |
 
 ### Complex(Complex c) {#Complex-com.aspose.imaging.imagefilters.complexutils.Complex-}
 ```
@@ -126,7 +126,7 @@ public Complex(Complex c)
 ```
 
 
-يُنشئ مثيلاً جديدًا من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
+يُنشئ نسخة جديدة من بنية [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -147,7 +147,7 @@ public static final int SIZE_OF_COMPLEX
 ```
 
 
-حجم complex.
+حجم المعقد.
 
 ### ZERO {#ZERO}
 ```
@@ -155,7 +155,7 @@ public static final Complex ZERO
 ```
 
 
-صفر مركب.
+معقد صفر.
 
 ### ONE {#ONE}
 ```
@@ -163,7 +163,7 @@ public static final Complex ONE
 ```
 
 
-مركب واحد له `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) و `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1.
+معقد واحد يحتوي على `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) و `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1.
 
 ### I {#I}
 ```
@@ -171,7 +171,7 @@ public static final Complex I
 ```
 
 
-مركب I له `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1.
+معقد I يحتوي على `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) يساوي 1.
 
 ### to_Complex(double value) {#to-Complex-double-}
 ```
@@ -184,7 +184,7 @@ public static Complex to_Complex(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة. |
+| value | double | القيمة. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the conversion.
@@ -199,7 +199,7 @@ public static Complex to_Complex(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة. |
+| value | float | القيمة. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the conversion.
@@ -209,44 +209,44 @@ public static boolean op_Equality(Complex a, Complex b)
 ```
 
 
-يُنفّذ المشغل ==.
+يُطبق المشغل ==.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
-منطقي - نتيجة العملية.
+boolean - نتيجة المشغل.
 ### op_Inequality(Complex a, Complex b) {#op-Inequality-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-}
 ```
 public static boolean op_Inequality(Complex a, Complex b)
 ```
 
 
-يُنفّذ المشغل !=.
+يُطبق المشغل !=.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
-منطقي - نتيجة العملية.
+boolean - نتيجة المشغل.
 ### op_UnaryNegation(Complex a) {#op-UnaryNegation-com.aspose.imaging.imagefilters.complexutils.Complex-}
 ```
 public static Complex op_UnaryNegation(Complex a)
 ```
 
 
-يُنفّذ المشغل -.
+يُطبق المشغل -.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -256,13 +256,13 @@ public static Complex op_Addition(Complex a, Complex b)
 ```
 
 
-يُنفّذ المشغل +.
+يُطبق المشغل +.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -272,12 +272,12 @@ public static Complex op_Addition(Complex a, double s)
 ```
 
 
-يُنفّذ المشغل +.
+يُطبق المشغل +.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -288,13 +288,13 @@ public static Complex op_Addition(double s, Complex a)
 ```
 
 
-يُنفّذ المشغل +.
+يُطبق المشغل +.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -304,13 +304,13 @@ public static Complex op_Subtraction(Complex a, Complex b)
 ```
 
 
-يُنفّذ المشغل -.
+يُطبق المشغل -.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -320,12 +320,12 @@ public static Complex op_Subtraction(Complex a, double s)
 ```
 
 
-يُنفّذ المشغل -.
+يُطبق المشغل -.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -336,13 +336,13 @@ public static Complex op_Subtraction(double s, Complex a)
 ```
 
 
-يُنفّذ المشغل -.
+يُطبق المشغل -.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -352,13 +352,13 @@ public static Complex op_Multiply(Complex a, Complex b)
 ```
 
 
-يُطبق المشغل \*.
+ينفّذ العامل \*.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -368,13 +368,13 @@ public static Complex op_Multiply(double s, Complex a)
 ```
 
 
-يُطبق المشغل \*.
+ينفّذ العامل \*.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -384,12 +384,12 @@ public static Complex op_Multiply(Complex a, double s)
 ```
 
 
-يُطبق المشغل \*.
+ينفّذ العامل \*.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -400,13 +400,13 @@ public static Complex op_Division(Complex a, Complex b)
 ```
 
 
-يُطبق المشغل /.
+ينفّذ العامل /.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -416,12 +416,12 @@ public static Complex op_Division(Complex a, double s)
 ```
 
 
-يُطبق المشغل /.
+ينفّذ العامل /.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -432,13 +432,13 @@ public static Complex op_Division(double s, Complex a)
 ```
 
 
-يُطبق المشغل /.
+ينفّذ العامل /.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -453,8 +453,8 @@ public static Complex add(Complex a, Complex b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The sum complex.
@@ -469,7 +469,7 @@ public static Complex add(Complex a, double s)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -485,8 +485,8 @@ public static void add(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 ### add(Complex a, double s, Complex[] result) {#add-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -500,7 +500,7 @@ public static void add(Complex a, double s, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
@@ -515,8 +515,8 @@ public static Complex subtract(Complex a, Complex b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of subtraction.
@@ -531,7 +531,7 @@ public static Complex subtract(Complex a, double s)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -548,7 +548,7 @@ public static Complex subtract(double s, Complex a)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of subtraction.
@@ -563,8 +563,8 @@ public static void subtract(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 ### subtract(Complex a, double s, Complex[] result) {#subtract-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -578,7 +578,7 @@ public static void subtract(Complex a, double s, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
@@ -594,7 +594,7 @@ public static void subtract(double s, Complex a, Complex[] result)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 ### multiply(Complex a, Complex b) {#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-}
@@ -608,8 +608,8 @@ public static Complex multiply(Complex a, Complex b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of multiplication.
@@ -624,7 +624,7 @@ public static Complex multiply(Complex a, double s)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -640,8 +640,8 @@ public static void multiply(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 ### multiply(Complex a, double s, Complex[] result) {#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -655,7 +655,7 @@ public static void multiply(Complex a, double s, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
@@ -670,8 +670,8 @@ public static Complex divide(Complex a, Complex b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of division.
@@ -686,7 +686,7 @@ public static Complex divide(Complex a, double s)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 
 **Returns:**
@@ -703,7 +703,7 @@ public static Complex divide(double s, Complex a)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of division.
@@ -718,8 +718,8 @@ public static void divide(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 ### divide(Complex a, double s, Complex[] result) {#divide-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -733,7 +733,7 @@ public static void divide(Complex a, double s, Complex[] result)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | s | double | قيمة s. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
@@ -749,7 +749,7 @@ public static void divide(double s, Complex a, Complex[] result)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | s | double | قيمة s. |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 ### negate(Complex a) {#negate-com.aspose.imaging.imagefilters.complexutils.Complex-}
@@ -758,12 +758,12 @@ public static Complex negate(Complex a)
 ```
 
 
-يعكس إشارة `a`.
+يعكس `a`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of negation.
@@ -773,13 +773,13 @@ public static boolean approxEqual(Complex a, Complex b)
 ```
 
 
-يفحص المساواة التقريبية.
+يتحقق من المساواة التقريبية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
 
 **Returns:**
 boolean - نتيجة المساواة التقريبية.
@@ -789,14 +789,14 @@ public static boolean approxEqual(Complex a, Complex b, double tolerance)
 ```
 
 
-يفحص المساواة التقريبية.
+يتحقق من المساواة التقريبية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب b. |
-| التسامح | double | التسامح. |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ b مركب. |
+| تحمل | double | التحمل. |
 
 **Returns:**
 boolean - نتيجة المساواة التقريبية.
@@ -806,7 +806,7 @@ public static Complex parse(String s)
 ```
 
 
-يحلل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
+يحوّل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -821,7 +821,7 @@ public static boolean tryParse(String s, Complex[] result)
 ```
 
 
-يحاول تحليل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
+يحاول تحويل `s` المحدد إلى [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -830,7 +830,7 @@ public static boolean tryParse(String s, Complex[] result)
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | النتيجة. |
 
 **Returns:**
-boolean - True، إذا تم تحليل العدد المركب.
+boolean - صحيح، إذا تم تحليل العدد المركب.
 ### sqrt(Complex a) {#sqrt-com.aspose.imaging.imagefilters.complexutils.Complex-}
 ```
 public static Complex sqrt(Complex a)
@@ -842,7 +842,7 @@ public static Complex sqrt(Complex a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The square root.
@@ -857,7 +857,7 @@ public static Complex log(Complex a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The log of `a`.
@@ -867,12 +867,12 @@ public static Complex exp(Complex a)
 ```
 
 
-يرفع e إلى `a`.
+يرفع e إلى القوة `a`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - e raised by `a`.
@@ -887,7 +887,7 @@ public static Complex sin(Complex a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - Sin of `a`.
@@ -902,7 +902,7 @@ public static Complex cos(Complex a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - Cos of `a`.
@@ -917,7 +917,7 @@ public static Complex tan(Complex a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | المركب "a". |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | الـ \"a\" مركب. |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - Tan of `a`.
@@ -973,7 +973,7 @@ public final void setRe(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الجزء الحقيقي. |
+| value | double | الجزء الحقيقي. |
 
 ### getIm() {#getIm--}
 ```
@@ -984,7 +984,7 @@ public final double getIm()
 يحصل على الجزء التخيلي.
 
 **Returns:**
-double - الجزء التخيلي.
+double - الجزء الخيالي.
 ### setIm(double value) {#setIm-double-}
 ```
 public final void setIm(double value)
@@ -996,7 +996,7 @@ public final void setIm(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الجزء التخيلي. |
+| value | double | الجزء الخيالي. |
 
 ### set(double re, double im) {#set-double-double-}
 ```
@@ -1056,32 +1056,32 @@ public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان `Object` المحدد يساوي هذه المثيلة.
+يحدد ما إذا كان `Object` المحدد يساوي هذه الحالة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | ال `Object` للمقارنة مع هذه الحالة. |
+| obj | java.lang.Object | الكائن `Object` للمقارنة مع هذه المثيلة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `Object` المحدد يساوي هذه الحالة؛ وإلا `false`.
+منطقية - `true` إذا كان الـ `Object` المحدد مساويًا لهذه المثيلة؛ وإلا `false`.
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.
@@ -1091,7 +1091,7 @@ public final Complex deepClone()
 ```
 
 
-ينسخ هذه المثيلة.
+ينسخ هذه النسخة.
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - A clone of this complex.

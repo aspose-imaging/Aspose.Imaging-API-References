@@ -1,7 +1,7 @@
 ---
 title: "HdrProcessor"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "معالج HDR."
+description: "معالج HDR"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.core.photo.hdr/hdrprocessor/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class HdrProcessor
 ```
 
-معالج HDR.
+معالج HDR
 ## الطرق
 
 | طريقة | الوصف |

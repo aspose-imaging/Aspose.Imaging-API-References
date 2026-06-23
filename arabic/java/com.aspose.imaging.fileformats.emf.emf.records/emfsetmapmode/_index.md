@@ -1,7 +1,7 @@
 ---
 title: "EmfSetMapMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EMR_SETMAPMODE يحدد وضعية التحويل لسياق جهاز التشغيل."
+description: "سجل EMR_SETMAPMODE يحدد وضعية التخطيط لسياق جهاز التشغيل."
 type: docs
 weight: 130
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
@@ -12,26 +12,26 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetMapMode extends EmfRecord
 ```
 
-السجل EMR\_SETMAPMODE يحدد وضعية التحويل لسياق جهاز التشغيل. تحدد وضعية التحويل وحدة القياس المستخدمة لتحويل وحدات مساحة الصفحة إلى وحدات مساحة الجهاز، كما تحدد أيضًا اتجاه محور x ومحور y للجهاز.
+سجل EMR\\_SETMAPMODE يحدد وضعية التخطيط لسياق جهاز التشغيل. وضعية التخطيط تحدد وحدة القياس المستخدمة لتحويل وحدات مساحة الصفحة إلى وحدات مساحة الجهاز، وتحدد أيضًا اتجاه محور x ومحور y للجهاز.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetMapMode()](#EmfSetMapMode--) | يُنشئ مثيلاً جديدًا للفئة [EmfSetMapMode](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetmapmode). |
-| [EmfSetMapMode(EmfRecord record)](#EmfSetMapMode-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfSetMapMode`. |
+| [EmfSetMapMode()](#EmfSetMapMode--) | ينشئ مثيلاً جديدًا من الفئة [EmfSetMapMode](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetmapmode). |
+| [EmfSetMapMode(EmfRecord record)](#EmfSetMapMode-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfSetMapMode`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMapMode()](#getMapMode--) | يحصل أو يعيّن وضع الخريطة. |
-| [setMapMode(int value)](#setMapMode-int-) | يحصل أو يعيّن وضع الخريطة. |
+| [getMapMode()](#getMapMode--) | يحصل أو يعيّن وضعية الخريطة. |
+| [setMapMode(int value)](#setMapMode-int-) | يحصل أو يعيّن وضعية الخريطة. |
 ### EmfSetMapMode() {#EmfSetMapMode--}
 ```
 public EmfSetMapMode()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [EmfSetMapMode](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetmapmode).
+ينشئ مثيلاً جديدًا من الفئة [EmfSetMapMode](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetmapmode).
 
 ### EmfSetMapMode(EmfRecord record) {#EmfSetMapMode-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
@@ -39,7 +39,7 @@ public EmfSetMapMode(EmfRecord record)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfSetMapMode`.
+ينشئ مثيلاً جديدًا من الفئة `EmfSetMapMode`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -52,7 +52,7 @@ public int getMapMode()
 ```
 
 
-يحصل أو يعيّن وضع الخريطة.
+يحصل أو يعيّن وضعية الخريطة.
 
 القيمة: وضع الخريطة.
 
@@ -64,12 +64,12 @@ public void setMapMode(int value)
 ```
 
 
-يحصل أو يعيّن وضع الخريطة.
+يحصل أو يعيّن وضعية الخريطة.
 
 القيمة: وضع الخريطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

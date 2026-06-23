@@ -17,13 +17,13 @@ public class XmpChoise<T> extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpChoise()](#XmpChoise--) | يُنشئ مثيلًا جديدًا للفئة `XmpChoise\\{T\\}`. |
+| [XmpChoise()](#XmpChoise--) | يُنشئ مثيلًا جديدًا للفئة `XmpChoise\{T\}`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [isOpen()](#isOpen--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة. |
-| [setOpen(boolean value)](#setOpen-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة. |
+| [isOpen()](#isOpen--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة. |
+| [setOpen(boolean value)](#setOpen-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### XmpChoise() {#XmpChoise--}
 ```
@@ -31,7 +31,7 @@ public XmpChoise()
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة `XmpChoise\\{T\\}`.
+يُنشئ مثيلًا جديدًا للفئة `XmpChoise\{T\}`.
 
 ### isOpen() {#isOpen--}
 ```
@@ -39,7 +39,7 @@ public boolean isOpen()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة.
 
 القيمة: `true` إذا كان يمكن تمديد القيم المفضلة؛ وإلا `false`.
 
@@ -51,14 +51,14 @@ public void setOpen(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان يمكن تمديد القيم المفضلة.
 
 القيمة: `true` إذا كان يمكن تمديد القيم المفضلة؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

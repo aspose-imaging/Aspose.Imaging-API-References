@@ -17,20 +17,20 @@ public final class EmfPlusBeginContainerNoParams extends EmfPlusStateRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusBeginContainerNoParams(EmfPlusRecord source)](#EmfPlusBeginContainerNoParams-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ نسخة جديدة من الفئة `EmfPlusBeginContainerNoParams`. |
+| [EmfPlusBeginContainerNoParams(EmfPlusRecord source)](#EmfPlusBeginContainerNoParams-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfPlusBeginContainerNoParams`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getStackIndex()](#getStackIndex--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-bit يحدد فهرسًا لربطه بحاوية حالة الرسومات. |
-| [setStackIndex(int value)](#setStackIndex-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-bit يحدد فهرسًا لربطه بحاوية حالة الرسومات. |
+| [getStackIndex()](#getStackIndex--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرسًا لربطه بحاوية حالة الرسومات. |
+| [setStackIndex(int value)](#setStackIndex-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرسًا لربطه بحاوية حالة الرسومات. |
 ### EmfPlusBeginContainerNoParams(EmfPlusRecord source) {#EmfPlusBeginContainerNoParams-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusBeginContainerNoParams(EmfPlusRecord source)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `EmfPlusBeginContainerNoParams`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfPlusBeginContainerNoParams`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -43,7 +43,7 @@ public int getStackIndex()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32-bit يحدد فهرسًا لربطه بحاوية حالة الرسومات. يجب الإشارة إلى الفهرس بواسطة سجل EmfPlusEndContainer لاحق (القسم 2.3.7.3) لإغلاق حاوية حالة الرسومات.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرسًا لربطه بحاوية حالة الرسومات. يجب الإشارة إلى الفهرس بواسطة سجل EmfPlusEndContainer لاحق (القسم 2.3.7.3) لإغلاق حاوية حالة الرسومات.
 
 القيمة: فهرس المكدس.
 
@@ -55,12 +55,12 @@ public void setStackIndex(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32-bit يحدد فهرسًا لربطه بحاوية حالة الرسومات. يجب الإشارة إلى الفهرس بواسطة سجل EmfPlusEndContainer لاحق (القسم 2.3.7.3) لإغلاق حاوية حالة الرسومات.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرسًا لربطه بحاوية حالة الرسومات. يجب الإشارة إلى الفهرس بواسطة سجل EmfPlusEndContainer لاحق (القسم 2.3.7.3) لإغلاق حاوية حالة الرسومات.
 
 القيمة: فهرس المكدس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

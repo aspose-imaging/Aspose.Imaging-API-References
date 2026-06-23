@@ -18,21 +18,21 @@ public final class PointF extends Struct<PointF>
 | المنشئ | الوصف |
 | --- | --- |
 | [PointF()](#PointF--) |  |
-| [PointF(float x, float y)](#PointF-float-float-) | يُهيئ نسخة جديدة من بنية `com.aspose.imaging.PointF` مع الإحداثيات المحددة. |
+| [PointF(float x, float y)](#PointF-float-float-) | يُنشئ مثيلاً جديدًا من البنية `com.aspose.imaging.PointF` بالإحداثيات المحددة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getEmpty()](#getEmpty--) | يحصل على نسخة جديدة من بنية `com.aspose.imaging.PointF` التي تحتوي على قيم `com.aspose.imaging.PointF.X` و `com.aspose.imaging.PointF.Y` مضبوطة على الصفر. |
+| [getEmpty()](#getEmpty--) | يحصل على مثيل جديد من البنية `com.aspose.imaging.PointF` التي تكون قيم `com.aspose.imaging.PointF.X` و `com.aspose.imaging.PointF.Y` فيها صفرًا. |
 | [op_Addition(PointF point, Size size)](#op-Addition-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | ينقل `com.aspose.imaging.PointF` بمقدار `com.aspose.imaging.Size` المحدد. |
 | [op_Subtraction(PointF point, Size size)](#op-Subtraction-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | ينقل `com.aspose.imaging.PointF` بالسالب من `com.aspose.imaging.Size` المحدد. |
-| [op_Addition(PointF point, SizeF size)](#op-Addition-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | ينقل `com.aspose.imaging.PointF` بالمقدار المحدد `com.aspose.imaging.SizeF`. |
+| [op_Addition(PointF point, SizeF size)](#op-Addition-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | ينقل `com.aspose.imaging.PointF` بالمقدار المحدد من `com.aspose.imaging.SizeF`. |
 | [op_Subtraction(PointF point, SizeF size)](#op-Subtraction-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | ينقل `com.aspose.imaging.PointF` بالسالب من `com.aspose.imaging.SizeF` المحدد. |
-| [op_Equality(PointF point1, PointF point2)](#op-Equality-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يقارن بنائين `com.aspose.imaging.PointF`. |
+| [op_Equality(PointF point1, PointF point2)](#op-Equality-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يقارن بين هيكلي `com.aspose.imaging.PointF`. |
 | [op_Inequality(PointF point1, PointF point2)](#op-Inequality-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يحدد ما إذا كانت إحداثيات النقاط المحددة غير متساوية. |
-| [add(PointF point, Size size)](#add-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | ينقل `com.aspose.imaging.PointF` المعطى بالمقدار المحدد `com.aspose.imaging.Size`. |
+| [add(PointF point, Size size)](#add-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | ينقل `com.aspose.imaging.PointF` المحدد بالمقدار المحدد من `com.aspose.imaging.Size`. |
 | [subtract(PointF point, Size size)](#subtract-com.aspose.imaging.PointF-com.aspose.imaging.Size-) | ينقل `com.aspose.imaging.PointF` بالسالب من الحجم المحدد. |
-| [add(PointF point, SizeF size)](#add-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | ينقل `com.aspose.imaging.PointF` المعطى بالمقدار المحدد `com.aspose.imaging.SizeF`. |
+| [add(PointF point, SizeF size)](#add-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | ينقل `com.aspose.imaging.PointF` المحدد بالمقدار المحدد من `com.aspose.imaging.SizeF`. |
 | [subtract(PointF point, SizeF size)](#subtract-com.aspose.imaging.PointF-com.aspose.imaging.SizeF-) | ينقل `com.aspose.imaging.PointF` بالسالب من الحجم المحدد. |
 | [isEquals(PointF obj1, PointF obj2)](#isEquals-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) |  |
 | [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كان هذا `com.aspose.imaging.PointF` فارغًا. |
@@ -41,8 +41,8 @@ public final class PointF extends Struct<PointF>
 | [getY()](#getY--) | يحصل أو يعيّن الإحداثي الصادي لهذا `com.aspose.imaging.PointF`. |
 | [setY(float value)](#setY-float-) | يحصل أو يعيّن الإحداثي الصادي لهذا `com.aspose.imaging.PointF`. |
 | [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان هذا `com.aspose.imaging.PointF` يحتوي على نفس الإحداثيات كما في `System.Object` المحدد. |
-| [hashCode()](#hashCode--) | يعيد رمز تجزئة لهذه بنية `com.aspose.imaging.PointF`. |
-| [toString()](#toString--) | يحوّل هذا `com.aspose.imaging.PointF` إلى سلسلة قابلة للقراءة البشرية. |
+| [hashCode()](#hashCode--) | يعيد رمز تجزئة لهذه البنية `com.aspose.imaging.PointF`. |
+| [toString()](#toString--) | يقوم بتحويل هذا `com.aspose.imaging.PointF` إلى سلسلة قابلة للقراءة البشرية. |
 | [CloneTo(PointF that)](#CloneTo-com.aspose.imaging.PointF-) |  |
 | [Clone()](#Clone--) |  |
 ### PointF() {#PointF--}
@@ -57,13 +57,13 @@ public PointF(float x, float y)
 ```
 
 
-يُهيئ نسخة جديدة من بنية `com.aspose.imaging.PointF` مع الإحداثيات المحددة.
+يُنشئ مثيلاً جديدًا من البنية `com.aspose.imaging.PointF` بالإحداثيات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | float | الموضع الأفقي للنقطة. |
-| ص | float | الموضع الرأسي للنقطة. |
+| x | float | الموضع الأفقي للنقطة. |
+| y | float | الموضع العمودي للنقطة. |
 
 ### getEmpty() {#getEmpty--}
 ```
@@ -71,7 +71,7 @@ public static PointF getEmpty()
 ```
 
 
-يحصل على نسخة جديدة من بنية `com.aspose.imaging.PointF` التي تحتوي على قيم `com.aspose.imaging.PointF.X` و `com.aspose.imaging.PointF.Y` مضبوطة على الصفر.
+يحصل على مثيل جديد من البنية `com.aspose.imaging.PointF` التي تكون قيم `com.aspose.imaging.PointF.X` و `com.aspose.imaging.PointF.Y` فيها صفرًا.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -113,7 +113,7 @@ public static PointF op_Addition(PointF point, SizeF size)
 ```
 
 
-ينقل `com.aspose.imaging.PointF` بالمقدار المحدد `com.aspose.imaging.SizeF`.
+ينقل `com.aspose.imaging.PointF` بالمقدار المحدد من `com.aspose.imaging.SizeF`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -170,14 +170,14 @@ public static boolean op_Inequality(PointF point1, PointF point2)
 | point2 | [PointF](../../com.aspose.imaging/pointf) | `com.aspose.imaging.PointF` الثاني للمقارنة. |
 
 **Returns:**
-منطقي - صحيح للدلالة على أن قيم `com.aspose.imaging.PointF.X` و `com.aspose.imaging.PointF.Y` للـ `point1` و `point2` غير متساوية؛ وإلا، خطأ.
+منطقي - صحيح للإشارة إلى أن قيم `com.aspose.imaging.PointF.X` و `com.aspose.imaging.PointF.Y` لـ `point1` و `point2` غير متساوية؛ وإلا، خطأ.
 ### add(PointF point, Size size) {#add-com.aspose.imaging.PointF-com.aspose.imaging.Size-}
 ```
 public static PointF add(PointF point, Size size)
 ```
 
 
-ينقل `com.aspose.imaging.PointF` المعطى بالمقدار المحدد `com.aspose.imaging.Size`.
+ينقل `com.aspose.imaging.PointF` المحدد بالمقدار المحدد من `com.aspose.imaging.Size`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -209,7 +209,7 @@ public static PointF add(PointF point, SizeF size)
 ```
 
 
-ينقل `com.aspose.imaging.PointF` المعطى بالمقدار المحدد `com.aspose.imaging.SizeF`.
+ينقل `com.aspose.imaging.PointF` المحدد بالمقدار المحدد من `com.aspose.imaging.SizeF`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -282,7 +282,7 @@ public void setX(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getY() {#getY--}
 ```
@@ -305,7 +305,7 @@ public void setY(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -318,17 +318,17 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الـ `System.Object` للاختبار. |
+| obj | java.lang.Object | الكائن `System.Object` للاختبار. |
 
 **Returns:**
-منطقي - تُعيد هذه الطريقة صحيح إذا كان `obj` هو `com.aspose.imaging.PointF` وله نفس الإحداثيات مثل هذا `com.aspose.imaging.Point`.
+منطقي - تُعيد هذه الطريقة صحيح إذا كان `obj` من نوع `com.aspose.imaging.PointF` وله نفس الإحداثيات مثل هذا `com.aspose.imaging.Point`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يعيد رمز تجزئة لهذه بنية `com.aspose.imaging.PointF`.
+يعيد رمز تجزئة لهذه البنية `com.aspose.imaging.PointF`.
 
 **Returns:**
 عدد صحيح - قيمة عددية تحدد قيمة تجزئة لهذا الهيكل `com.aspose.imaging.PointF`.
@@ -338,7 +338,7 @@ public String toString()
 ```
 
 
-يحوّل هذا `com.aspose.imaging.PointF` إلى سلسلة قابلة للقراءة البشرية.
+يقوم بتحويل هذا `com.aspose.imaging.PointF` إلى سلسلة قابلة للقراءة البشرية.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذا `com.aspose.imaging.PointF`.

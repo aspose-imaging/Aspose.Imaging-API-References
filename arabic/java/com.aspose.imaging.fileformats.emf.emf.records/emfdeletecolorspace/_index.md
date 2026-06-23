@@ -1,7 +1,7 @@
 ---
 title: "EmfDeleteColorSpace"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EMR_DELETECOLORSPACE يحذف كائن مساحة لون منطقية."
+description: "سجل EMR_DELETECOLORSPACE يحذف كائن مساحة لون منطقية."
 type: docs
 weight: 42
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfDeleteColorSpace extends EmfObjectManipulationRecordType
 ```
 
-سجل EMR_DELETECOLORSPACE يحذف كائن مساحة لون منطقية.
+سجل EMR\_DELETECOLORSPACE يحذف كائن مساحة ألوان منطقية.
 
 يجب استخدام سجل EMR\_DELETEOBJECT بدلاً من EMR\_DELETECOLORSPACE لحذف كائن مساحة لون منطقية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfDeleteColorSpace(EmfRecord source)](#EmfDeleteColorSpace-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfDeleteColorSpace`. |
+| [EmfDeleteColorSpace(EmfRecord source)](#EmfDeleteColorSpace-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfDeleteColorSpace`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public EmfDeleteColorSpace(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfDeleteColorSpace`.
+يُنشئ مثيلًا جديدًا للفئة `EmfDeleteColorSpace`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,5 +64,5 @@ public void setIhCS(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

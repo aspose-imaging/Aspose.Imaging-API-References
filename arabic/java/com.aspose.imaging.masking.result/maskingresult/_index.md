@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.masking.result/maskingresult/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 
 **All Implemented Interfaces:**
 java.lang.Iterable
@@ -27,11 +27,11 @@ public abstract class MaskingResult extends DisposableObject implements Iterable
 | --- | --- |
 | [getLayers()](#getLayers--) | يحصل على الطبقات. |
 | [getLength()](#getLength--) | يحصل على الطول. |
-| [get_Item(int index)](#get-Item-int-) | يحصل على [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer) في الفهرس المحدد. |
-| [iterator()](#iterator--) | يحصل على المُعدِّد. |
+| [get_Item(int index)](#get-Item-int-) | يحصل على [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer) عند الفهرس المحدد. |
+| [iterator()](#iterator--) | يحصل على المُعدِّد. |
 
 ## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
-يُظهر هذا المثال كيفية تفكيك صورة نقطية إلى صور متعددة باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تفكيك صورة نقطية إلى عدة صور باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -39,7 +39,7 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // حدد عدد العناقيد (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
+    // حدد عدد المجموعات (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
     args.setNumberOfObjects(3);
 
     // حدد الحد الأقصى لعدد التكرارات.
@@ -48,7 +48,7 @@ try {
     // حدد دقة طريقة التجزئة (اختياري).
     args.setPrecision(1);
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource(new java.io.ByteArrayInputStream(new byte[0])));
@@ -56,7 +56,7 @@ try {
     com.aspose.imaging.masking.options.MaskingOptions maskingOptions = new com.aspose.imaging.masking.options.MaskingOptions();
 
     // استخدم تجميع K-means.
-    // يتيح تجميع K-means تقسيم الصورة إلى عدة عناقيد (قطاعات) مستقلة.
+    // يتيح تجميع K-means تقسيم الصورة إلى عدة مجموعات مستقلة (مقاطع).
     maskingOptions.setMethod(com.aspose.imaging.masking.options.SegmentationMethod.KMeans);
     maskingOptions.setDecompose(true);
     maskingOptions.setArgs(args);
@@ -65,7 +65,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -95,7 +95,7 @@ try {
 
 
 ## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
-يُظهر هذا المثال كيفية تحديد الاقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تحديد اقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -103,14 +103,14 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // الاقتراح #1.
-    // حلل الصورة بصريًا وحدد منطقة الاهتمام. سيتضمن نتيجة التجزئة فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
+    // اقتراح #1.
+    // حلل الصورة بصريًا وحدد منطقة الاهتمام. نتيجة التجزئة ستشمل فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
     args.setObjectsRectangles(new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(86, 6, 270, 364),
             });
 
-    // الاقتراح #2.
+    // اقتراح #2.
     // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
@@ -119,7 +119,7 @@ try {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(319, 86)},
             });
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource());
@@ -135,7 +135,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -192,7 +192,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -261,7 +261,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -297,11 +297,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -385,7 +385,7 @@ public final int getLength()
 int - الطول.
 
 **Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
-يُظهر هذا المثال كيفية تحديد الاقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تحديد اقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -393,14 +393,14 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // الاقتراح #1.
-    // حلل الصورة بصريًا وحدد منطقة الاهتمام. سيتضمن نتيجة التجزئة فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
+    // اقتراح #1.
+    // حلل الصورة بصريًا وحدد منطقة الاهتمام. نتيجة التجزئة ستشمل فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
     args.setObjectsRectangles(new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(86, 6, 270, 364),
             });
 
-    // الاقتراح #2.
+    // اقتراح #2.
     // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
@@ -409,7 +409,7 @@ try {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(319, 86)},
             });
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource());
@@ -425,7 +425,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -459,12 +459,12 @@ public final IMaskingLayer get_Item(int index)
 ```
 
 
-يحصل على [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer) في الفهرس المحدد.
+يحصل على [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer) عند الفهرس المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. القيمة: الـ [IMaskingLayer](../../com.aspose.imaging.masking.result/imatchinglayer). |
+| index | int | الفهرس. القيمة: [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer). |
 
 **Returns:**
 [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer) - The masking layer.
@@ -474,7 +474,7 @@ public final Iterator<IMaskingLayer> iterator()
 ```
 
 
-يحصل على المُعدِّد.
+يحصل على المُعدِّد.
 
 **Returns:**
-java.util.Iterator<com.aspose.imaging.masking.result.IMatchingLayer> - المُعدِّد.
+java.util.Iterator<com.aspose.imaging.masking.result.IMatchingLayer> - المُعدِّد.

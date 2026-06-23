@@ -1,7 +1,7 @@
 ---
 title: "EmfDrawingRecordType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "أنواع سجلات الرسم تنفّذ عمليات الرسم الرسومي."
+description: "أنواع سجلات الرسم تقوم بعمليات رسم الرسوميات."
 type: docs
 weight: 45
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfdrawingrecordtype/
@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfDrawingRecordType extends EmfRecord
 ```
 
-أنواع سجلات الرسم تنفّذ عمليات الرسم الرسومي.
+أنواع سجلات الرسم تقوم بعمليات رسم الرسوميات.

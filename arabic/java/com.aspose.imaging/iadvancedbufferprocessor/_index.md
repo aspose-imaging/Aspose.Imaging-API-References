@@ -1,7 +1,7 @@
 ---
 title: "IAdvancedBufferProcessor"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "المعالج المتقدم للمخزن المؤقت."
+description: "معالج الذاكرة المؤقتة المتقدم."
 type: docs
 weight: 122
 url: /ar/java/com.aspose.imaging/iadvancedbufferprocessor/
@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging/iadvancedbufferprocessor/
 public interface IAdvancedBufferProcessor extends IBufferProcessor
 ```
 
-المعالج المتقدم للمخزن المؤقت.
+معالج الذاكرة المؤقتة المتقدم.
 ## الطرق
 
 | طريقة | الوصف |

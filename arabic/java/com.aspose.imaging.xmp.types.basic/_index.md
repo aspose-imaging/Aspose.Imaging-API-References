@@ -12,10 +12,10 @@ url: /ar/java/com.aspose.imaging.xmp.types.basic/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [XmpBoolean](../com.aspose.imaging.xmp.types.basic/xmpboolean) | يمثل النوع الأساسي المنطقي XMP. |
+| [XmpBoolean](../com.aspose.imaging.xmp.types.basic/xmpboolean) | يمثل النوع الأساسي Boolean في XMP. |
 | [XmpDate](../com.aspose.imaging.xmp.types.basic/xmpdate) | يمثل التاريخ في حزمة XMP. |
-| [XmpInteger](../com.aspose.imaging.xmp.types.basic/xmpinteger) | يمثل النوع الأساسي الصحيح XMP. |
+| [XmpInteger](../com.aspose.imaging.xmp.types.basic/xmpinteger) | يمثل النوع الأساسي Integer في XMP. |
 | [XmpReal](../com.aspose.imaging.xmp.types.basic/xmpreal) | يمثل XMP Real. |
 | [XmpText](../com.aspose.imaging.xmp.types.basic/xmptext) | يمثل نوع XMP Text الأساسي. |

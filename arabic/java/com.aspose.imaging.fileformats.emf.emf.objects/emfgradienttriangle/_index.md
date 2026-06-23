@@ -1,13 +1,13 @@
 ---
 title: "EmfGradientTriangle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن GradientTriangle يعرّف مثلثًا باستخدام كائنات TriVertex القسم 2.2.26 في سجل EMR_GRADIENTFILL القسم 2.3.5.12"
+description: "يعرّف كائن GradientTriangle مثلثًا باستخدام كائنات TriVertex القسم 2.2.26 في سجل EMR_GRADIENTFILL القسم 2.3.5.12"
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
 ```
 public final class EmfGradientTriangle extends EmfObject
 ```
@@ -22,12 +22,12 @@ public final class EmfGradientTriangle extends EmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getVertex1()](#getVertex1--) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. |
-| [setVertex1(int value)](#setVertex1-int-) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. |
-| [getVertex2()](#getVertex2--) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. |
-| [setVertex2(int value)](#setVertex2-int-) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. |
-| [getVertex3()](#getVertex3--) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. |
-| [setVertex3(int value)](#setVertex3-int-) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. |
+| [getVertex1()](#getVertex1--) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. |
+| [setVertex1(int value)](#setVertex1-int-) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. |
+| [getVertex2()](#getVertex2--) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. |
+| [setVertex2(int value)](#setVertex2-int-) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. |
+| [getVertex3()](#getVertex3--) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. |
+| [setVertex3(int value)](#setVertex3-int-) | يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. |
 ### EmfGradientTriangle() {#EmfGradientTriangle--}
 ```
 public EmfGradientTriangle()
@@ -40,7 +40,7 @@ public int getVertex1()
 ```
 
 
-يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR\_GRADIENTFILL.
+يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR_GRADIENTFILL.
 
 **Returns:**
 int
@@ -50,12 +50,12 @@ public void setVertex1(int value)
 ```
 
 
-يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR\_GRADIENTFILL.
+يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR_GRADIENTFILL.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getVertex2() {#getVertex2--}
 ```
@@ -63,7 +63,7 @@ public int getVertex2()
 ```
 
 
-يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR\_GRADIENTFILL.
+يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR_GRADIENTFILL.
 
 **Returns:**
 int
@@ -73,12 +73,12 @@ public void setVertex2(int value)
 ```
 
 
-يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR\_GRADIENTFILL.
+يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR_GRADIENTFILL.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getVertex3() {#getVertex3--}
 ```
@@ -86,7 +86,7 @@ public int getVertex3()
 ```
 
 
-يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR\_GRADIENTFILL.
+يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR_GRADIENTFILL.
 
 **Returns:**
 int
@@ -96,10 +96,10 @@ public void setVertex3(int value)
 ```
 
 
-يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex التي تحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR\_GRADIENTFILL.
+يحصل أو يعيّن فهرسًا في مصفوفة من كائنات TriVertex يحدد رأسًا للمثلث. يجب أن يكون الفهرس أصغر من حجم المصفوفة، كما هو معرف بحقل nVer في سجل EMR_GRADIENTFILL.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

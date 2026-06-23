@@ -20,26 +20,26 @@ public class XmpCollection extends ArrayList<IXmpType> implements IXmpType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpCollection()](#XmpCollection--) | ينشئ مثلاً جديدًا من الفئة [XmpCollection](../../com.aspose.imaging.xmp/xmpcollection). |
+| [XmpCollection()](#XmpCollection--) | ينشئ مثيلاً جديدًا من الفئة [XmpCollection](../../com.aspose.imaging/xmp/xmpcollection). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [addItem(Object item)](#addItem-java.lang.Object-) | يضيف عنصرًا جديدًا. |
 | [addObject(Object item)](#addObject-java.lang.Object-) | يضيف عنصر بيانات XMP. |
-| [removeAt(int index)](#removeAt-int-) | يزيل العنصر عند الفهرس المحدد. |
+| [removeAt(int index)](#removeAt-int-) | يزيل العنصر في الفهرس المحدد. |
 | [add(IXmpType item)](#add-com.aspose.imaging.xmp.types.IXmpType-) | يضيف عنصرًا إلى المجموعة. |
 | [copyTo(IXmpType[] array, int arrayIndex)](#copyTo-com.aspose.imaging.xmp.types.IXmpType---int-) | ينسخ عناصر المجموعة إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على قيمة سلسلة XMP لهذا. |
-| [getXmlValue()](#getXmlValue--) | يحوّل قيمة XMP إلى تمثيل XML. |
-| [toString()](#toString--) | يعيد سلسلة XML تمثل هذه المثيلة. |
+| [getXmlValue()](#getXmlValue--) | يقوم بتحويل قيمة XMP إلى تمثيل XML. |
+| [toString()](#toString--) | يرجع سلسلة XML تمثّل هذه الحالة. |
 ### XmpCollection() {#XmpCollection--}
 ```
 public XmpCollection()
 ```
 
 
-ينشئ مثلاً جديدًا من الفئة [XmpCollection](../../com.aspose.imaging.xmp/xmpcollection).
+ينشئ مثيلاً جديدًا من الفئة [XmpCollection](../../com.aspose.imaging/xmp/xmpcollection).
 
 ### addItem(Object item) {#addItem-java.lang.Object-}
 ```
@@ -73,12 +73,12 @@ public final void removeAt(int index)
 ```
 
 
-يزيل العنصر عند الفهرس المحدد.
+يزيل العنصر في الفهرس المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس الصفري للعنصر الذي سيتم إزالته. |
+| index | int | المؤشر الصفري للعنصر الذي يجب إزالته. |
 
 ### add(IXmpType item) {#add-com.aspose.imaging.xmp.types.IXmpType-}
 ```
@@ -106,7 +106,7 @@ public final void copyTo(IXmpType[] array, int arrayIndex)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| array | [IXmpType\[\]](../../com.aspose.imaging.xmp.types/ixmptype) | المصفوفة أحادية البعد التي هي وجهة العناصر المنقولة من المجموعة. يجب أن تكون المصفوفة ذات فهرسة صفرية. |
+| array | [IXmpType\[\]](../../com.aspose.imaging.xmp.types/ixmptype) | المصفوفة أحادية البعد التي هي وجهة العناصر المنسوخة من المجموعة. يجب أن تكون المصفوفة ذات فهرسة صفرية. |
 | arrayIndex | int | الفهرس الصفري في المصفوفة حيث يبدأ النسخ. |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
@@ -125,7 +125,7 @@ public final String getXmlValue()
 ```
 
 
-يحوّل قيمة XMP إلى تمثيل XML.
+يقوم بتحويل قيمة XMP إلى تمثيل XML.
 
 **Returns:**
 java.lang.String - يُعيد قيمة XMP المحوّلة إلى تمثيل XML.
@@ -135,7 +135,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة XML تمثل هذه المثيلة.
+يرجع سلسلة XML تمثّل هذه الحالة.
 
 **Returns:**
-java.lang.String - سلسلة XML تمثل هذه الحالة.
+java.lang.String - سلسلة XML تمثّل هذه الحالة.

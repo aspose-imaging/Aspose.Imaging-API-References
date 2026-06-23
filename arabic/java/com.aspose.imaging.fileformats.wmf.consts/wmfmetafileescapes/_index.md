@@ -1,7 +1,7 @@
 ---
 title: "WmfMetafileEscapes"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد تعداد MetafileEscapes وظائف برنامج تشغيل الطابعة التي قد لا تكون قابلة للوصول مباشرةً من خلال سجلات WMF المعرفة في تعداد RecordType القسم 2.1.1.1."
+description: "تحدد تعداد MetafileEscapes وظائف برنامج تشغيل الطابعة التي قد لا تكون قابلة للوصول مباشرةً عبر سجلات WMF المعرفة في تعداد RecordType القسم 2.1.1.1."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/
@@ -12,43 +12,43 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WmfMetafileEscapes extends System.Enum
 ```
 
-تحدد تعداد MetafileEscapes وظائف برنامج تشغيل الطابعة التي قد لا تكون متاحة مباشرةً من خلال سجلات WMF المعرفة في تعداد RecordType (القسم 2.1.1.1).
+تحدد تعداد MetafileEscapes وظائف برنامج تشغيل الطابعة التي قد لا تكون متاحة مباشرة عبر سجلات WMF المعرفة في تعداد RecordType (القسم 2.1.1.1).
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Newframe](#Newframe) | يُخطر برنامج تشغيل الطابعة أن التطبيق قد انتهى من الكتابة إلى صفحة. |
-| [Abortdoc](#Abortdoc) | يوقف معالجة المستند الحالي. |
-| [Nextband](#Nextband) | يُخطر برنامج تشغيل الطابعة أن التطبيق قد انتهى من الكتابة إلى شريط. |
+| [Newframe](#Newframe) | يُخطر برنامج تشغيل الطابعة بأن التطبيق قد انتهى من الكتابة إلى صفحة. |
+| [Abortdoc](#Abortdoc) | يتوقف عن معالجة المستند الحالي. |
+| [Nextband](#Nextband) | يُخطر برنامج تشغيل الطابعة بأن التطبيق قد انتهى من الكتابة إلى شريط. |
 | [Setcolortable](#Setcolortable) | يضبط قيم جدول الألوان. |
 | [Getcolortable](#Getcolortable) | يحصل على قيم جدول الألوان. |
 | [Flushout](#Flushout) | يتسبب في تفريغ جميع المخرجات المعلقة إلى جهاز الإخراج. |
 | [Draftmode](#Draftmode) | يشير إلى أن برنامج تشغيل الطابعة يجب أن يطبع النص فقط، دون رسومات. |
 | [Queryescsupport](#Queryescsupport) | يستعلم برنامج تشغيل الطابعة لتحديد ما إذا كانت وظيفة escape محددة مدعومة على جهاز الإخراج الذي يتحكم فيه. |
-| [Setabortproc](#Setabortproc) | يضبط الوظيفة المعرفة من قبل التطبيق التي تسمح بإلغاء مهمة الطباعة أثناء الطباعة. |
+| [Setabortproc](#Setabortproc) | يضبط الدالة المعرفة من قبل التطبيق التي تسمح بإلغاء مهمة الطباعة أثناء الطباعة. |
 | [Startdoc](#Startdoc) | يُخطر برنامج تشغيل الطابعة بأن مهمة طباعة جديدة تبدأ. |
 | [Enddoc](#Enddoc) | يُخطر برنامج تشغيل الطابعة بأن مهمة الطباعة الحالية تنتهي. |
-| [Getphyspagesize](#Getphyspagesize) | يسترجع حجم الصفحة الفعلية المحدد حاليًا على جهاز الإخراج. |
-| [Getprintingoffset](#Getprintingoffset) | يسترجع الإزاحة من الزاوية العليا اليسرى للصفحة الفعلية حيث يبدأ الطباعة أو الرسم الفعلي. |
-| [Getscalingfactor](#Getscalingfactor) | يسترجع عوامل التحجيم لمحوري x و y للطابعة. |
+| [Getphyspagesize](#Getphyspagesize) | يسترجع حجم الصفحة الفعلي المحدد حاليًا على جهاز الإخراج. |
+| [Getprintingoffset](#Getprintingoffset) | يسترجع الإزاحة من الزاوية العلوية اليسرى للصفحة الفعلية حيث يبدأ الطباعة أو الرسم الفعلي. |
+| [Getscalingfactor](#Getscalingfactor) | يسترجع عوامل التحجيم للمحور السيني والمحور الصادي للطابعة. |
 | [MetaEscapeEnhancedMetafile](#MetaEscapeEnhancedMetafile) | يُستخدم لتضمين ملف ميتافايل محسّن (EMF) داخل ملف ميتافايل WMF. |
 | [Setpenwidth](#Setpenwidth) | يضبط عرض القلم بالبكسل. |
 | [Setcopycount](#Setcopycount) | يضبط عدد النسخ. |
-| [Setpapersource](#Setpapersource) | يضبط المصدر، مثل درج ورق معين أو حاوية على الطابعة، للنماذج المخرجة. |
+| [Setpapersource](#Setpapersource) | يضبط المصدر، مثل درج ورق معين أو حاوية على الطابعة، لنماذج الإخراج. |
 | [Passthrough](#Passthrough) | هذا السجل يمر ببيانات عشوائية. |
 | [Gettechnology](#Gettechnology) | يحصل على معلومات حول تقنية الرسومات المدعومة على الجهاز. |
-| [Setlinecap](#Setlinecap) | يحدد وضع رسم الخطوط لاستخدامه في الإخراج إلى جهاز. |
-| [Setlinejoin](#Setlinejoin) | يحدد وضع ربط الخطوط لاستخدامه في الإخراج إلى جهاز. |
-| [Setmiterlimit](#Setmiterlimit) | يضبط الحد لطول وصلات الميتر لاستخدامها في الإخراج إلى جهاز. |
-| [Bandinfo](#Bandinfo) | يسترجع أو يحدد الإعدادات المتعلقة بالتقسيط على الجهاز، مثل عدد الشرائح. |
+| [Setlinecap](#Setlinecap) | يحدد وضع رسم الخط لاستخدامه في الإخراج إلى الجهاز. |
+| [Setlinejoin](#Setlinejoin) | يحدد وضع ربط الخطوط لاستخدامه في الإخراج إلى الجهاز. |
+| [Setmiterlimit](#Setmiterlimit) | يضبط الحد لطول وصلات الميتر لاستخدامها في الإخراج إلى الجهاز. |
+| [Bandinfo](#Bandinfo) | يسترجع أو يحدد الإعدادات المتعلقة بالتقسيم على الجهاز، مثل عدد الشرائط. |
 | [Drawpatternrect](#Drawpatternrect) | يرسم مستطيلًا بنمط محدد. |
 | [Getvectorpensize](#Getvectorpensize) | يسترجع حجم القلم الفعلي المحدد حاليًا على الجهاز. |
 | [Getvectorbrushsize](#Getvectorbrushsize) | يسترجع حجم الفرشاة الفعلي المحدد حاليًا على الجهاز. |
-| [Enableduplex](#Enableduplex) | يفعل أو يعطل الطباعة ذات الوجهين (duplex) على الجهاز. |
+| [Enableduplex](#Enableduplex) | يفعل أو يعطل الطباعة ذات الوجهين (المزدوجة) على الجهاز. |
 | [Getsetpaperbins](#Getsetpaperbins) | يسترجع أو يحدد مصدر نماذج الإخراج على الجهاز. |
 | [Getsetprintorient](#Getsetprintorient) | يسترجع أو يحدد اتجاه الورق على الجهاز. |
 | [Enumpaperbins](#Enumpaperbins) | يسترجع معلومات حول مصادر النماذج المختلفة على جهاز الإخراج. |
-| [Setdibscaling](#Setdibscaling) | يحدد مقياس صور البت المستقلة عن الجهاز (DIBs). |
+| [Setdibscaling](#Setdibscaling) | يحدد مقياس الصور النقطية المستقلة عن الجهاز (DIBs). |
 | [Epsprinting](#Epsprinting) | يشير إلى بداية ونهاية قسم PostScript المغلف (EPS). |
 | [Enumpapermetrics](#Enumpapermetrics) | يستعلم برنامج تشغيل الطابعة عن أبعاد الورق وبيانات النماذج الأخرى. |
 | [Getsetpapermetrics](#Getsetpapermetrics) | يسترجع أو يحدد أبعاد الورق وبيانات النماذج الأخرى على جهاز الإخراج. |
@@ -56,26 +56,26 @@ public final class WmfMetafileEscapes extends System.Enum
 | [PostscriptIgnore](#PostscriptIgnore) | يُخطر جهاز الإخراج بتجاهل بيانات PostScript. |
 | [Getdeviceunits](#Getdeviceunits) | يحصل على وحدات الجهاز المكوَّنة حاليًا على جهاز الإخراج. |
 | [Getextendedtextmetrics](#Getextendedtextmetrics) | يحصل على مقاييس النص الموسعة المكوَّنة حاليًا على جهاز الإخراج. |
-| [Getpairkerntable](#Getpairkerntable) | يحصل على جدول الترصيع للخط (kern) المحدد حاليًا على جهاز الإخراج. |
+| [Getpairkerntable](#Getpairkerntable) | يحصل على جدول تقريبات الخط (kern) المحدد حاليًا على جهاز الإخراج. |
 | [Exttextout](#Exttextout) | يرسم النص باستخدام الخط المحدد حاليًا، ولون الخلفية، ولون النص. |
-| [Getfacename](#Getfacename) | يحصل على اسم عائلة الخط المكوَّن حاليًا على الجهاز. |
-| [Downloadface](#Downloadface) | يضبط اسم عائلة الخط على الجهاز. |
+| [Getfacename](#Getfacename) | يحصل على اسم خط الواجهة المُكوَّن حاليًا على الجهاز. |
+| [Downloadface](#Downloadface) | يضبط اسم خط الواجهة على الجهاز. |
 | [MetafileDriver](#MetafileDriver) | يستعلم برنامج تشغيل الطابعة عن دعم ملفات الميتا على جهاز الإخراج. |
-| [Querydibsupport](#Querydibsupport) | يستعلم برنامج تشغيل الطابعة عن دعمه لملفات DIBs على جهاز الإخراج. |
+| [Querydibsupport](#Querydibsupport) | يستعلم برنامج تشغيل الطابعة عن دعمه لملفات DIB على جهاز الإخراج. |
 | [BeginPath](#BeginPath) | يفتح مسارًا. |
-| [ClipToPath](#ClipToPath) | يحدد منطقة قص محصورة بمسار. |
+| [ClipToPath](#ClipToPath) | يحدد منطقة قص محاطة بمسار. |
 | [EndPath](#EndPath) | ينهي مسارًا. |
-| [OpenChannel](#OpenChannel) | نفس ما هو STARTDOC المحدد بوثيقة NULL واسم ملف الإخراج، والبيانات في وضع raw، ونوع صفر. |
-| [Downloadheader](#Downloadheader) | يُعطي برنامج تشغيل الطابعة تعليمات لتنزيل مجموعات من إجراءات PostScript. |
-| [CloseChannel](#CloseChannel) | نفس ما هو ENDDOC. |
-| [PostscriptPassthrough](#PostscriptPassthrough) | يرسل بيانات عشوائية مباشرة إلى برنامج تشغيل الطابعة، والذي من المتوقع أن يعالج هذه البيانات فقط عندما يكون في وضع PostScript. |
+| [OpenChannel](#OpenChannel) | نفس ما هو في STARTDOC المحدد مع مستند NULL واسم ملف الإخراج، والبيانات في الوضع الخام، ونوع صفر. |
+| [Downloadheader](#Downloadheader) | يُعطي برنامج تشغيل الطابعة تعليمات بتحميل مجموعات من إجراءات PostScript. |
+| [CloseChannel](#CloseChannel) | نفس ما هو في ENDDOC. |
+| [PostscriptPassthrough](#PostscriptPassthrough) | يرسل بيانات عشوائية مباشرة إلى برنامج تشغيل الطابعة، والتي من المتوقع أن يعالجها فقط عندما يكون في وضع PostScript. |
 | [EncapsulatedPostscript](#EncapsulatedPostscript) | يرسل بيانات عشوائية مباشرة إلى برنامج تشغيل الطابعة. |
 | [PostscriptIdentify](#PostscriptIdentify) | يضبط برنامج تشغيل الطابعة على وضع PostScript أو GDI. |
 | [PostscriptInjection](#PostscriptInjection) | يدرج كتلة من البيانات الخام في تدفق PostScript. |
 | [Checkjpegformat](#Checkjpegformat) | يتحقق مما إذا كانت الطابعة تدعم صورة JPEG. |
 | [Checkpngformat](#Checkpngformat) | يتحقق مما إذا كانت الطابعة تدعم صورة PNG. |
-| [GetPsFeaturesetting](#GetPsFeaturesetting) | يحصل على معلومات حول إعداد ميزة محدد لبرنامج تشغيل طابعة PostScript. |
-| [MxdcEscape](#MxdcEscape) | يُمكّن التطبيقات من كتابة المستندات إلى ملف أو إلى طابعة بصيغة XML Paper Specification (XPS). |
+| [GetPsFeaturesetting](#GetPsFeaturesetting) | يحصل على معلومات حول إعداد ميزة محددة لبرنامج تشغيل طابعة PostScript. |
+| [MxdcEscape](#MxdcEscape) | يُمكّن التطبيقات من كتابة المستندات إلى ملف أو إلى طابعة بتنسيق XML Paper Specification (XPS). |
 | [Spclpassthrough2](#Spclpassthrough2) | يُمكّن التطبيقات من تضمين إجراءات خاصة وبيانات عشوائية أخرى في المستندات. |
 ### Newframe {#Newframe}
 ```
@@ -83,7 +83,7 @@ public static final int Newframe
 ```
 
 
-يُخطر برنامج تشغيل الطابعة أن التطبيق قد انتهى من الكتابة إلى صفحة.
+يُخطر برنامج تشغيل الطابعة بأن التطبيق قد انتهى من الكتابة إلى صفحة.
 
 ### Abortdoc {#Abortdoc}
 ```
@@ -91,7 +91,7 @@ public static final int Abortdoc
 ```
 
 
-يوقف معالجة المستند الحالي.
+يتوقف عن معالجة المستند الحالي.
 
 ### Nextband {#Nextband}
 ```
@@ -99,7 +99,7 @@ public static final int Nextband
 ```
 
 
-يُخطر برنامج تشغيل الطابعة أن التطبيق قد انتهى من الكتابة إلى شريط.
+يُخطر برنامج تشغيل الطابعة بأن التطبيق قد انتهى من الكتابة إلى شريط.
 
 ### Setcolortable {#Setcolortable}
 ```
@@ -147,7 +147,7 @@ public static final int Setabortproc
 ```
 
 
-يضبط الوظيفة المعرفة من قبل التطبيق التي تسمح بإلغاء مهمة الطباعة أثناء الطباعة.
+يضبط الدالة المعرفة من قبل التطبيق التي تسمح بإلغاء مهمة الطباعة أثناء الطباعة.
 
 ### Startdoc {#Startdoc}
 ```
@@ -171,7 +171,7 @@ public static final int Getphyspagesize
 ```
 
 
-يسترجع حجم الصفحة الفعلية المحدد حاليًا على جهاز الإخراج.
+يسترجع حجم الصفحة الفعلي المحدد حاليًا على جهاز الإخراج.
 
 ### Getprintingoffset {#Getprintingoffset}
 ```
@@ -179,7 +179,7 @@ public static final int Getprintingoffset
 ```
 
 
-يسترجع الإزاحة من الزاوية العليا اليسرى للصفحة الفعلية حيث يبدأ الطباعة أو الرسم الفعلي.
+يسترجع الإزاحة من الزاوية العلوية اليسرى للصفحة الفعلية حيث يبدأ الطباعة أو الرسم الفعلي.
 
 ### Getscalingfactor {#Getscalingfactor}
 ```
@@ -187,7 +187,7 @@ public static final int Getscalingfactor
 ```
 
 
-يسترجع عوامل التحجيم لمحوري x و y للطابعة.
+يسترجع عوامل التحجيم للمحور السيني والمحور الصادي للطابعة.
 
 ### MetaEscapeEnhancedMetafile {#MetaEscapeEnhancedMetafile}
 ```
@@ -219,7 +219,7 @@ public static final int Setpapersource
 ```
 
 
-يضبط المصدر، مثل درج ورق معين أو حاوية على الطابعة، للنماذج المخرجة.
+يضبط المصدر، مثل درج ورق معين أو حاوية على الطابعة، لنماذج الإخراج.
 
 ### Passthrough {#Passthrough}
 ```
@@ -243,7 +243,7 @@ public static final int Setlinecap
 ```
 
 
-يحدد وضع رسم الخطوط لاستخدامه في الإخراج إلى جهاز.
+يحدد وضع رسم الخط لاستخدامه في الإخراج إلى الجهاز.
 
 ### Setlinejoin {#Setlinejoin}
 ```
@@ -251,7 +251,7 @@ public static final int Setlinejoin
 ```
 
 
-يحدد وضع ربط الخطوط لاستخدامه في الإخراج إلى جهاز.
+يحدد وضع ربط الخطوط لاستخدامه في الإخراج إلى الجهاز.
 
 ### Setmiterlimit {#Setmiterlimit}
 ```
@@ -259,7 +259,7 @@ public static final int Setmiterlimit
 ```
 
 
-يضبط الحد لطول وصلات الميتر لاستخدامها في الإخراج إلى جهاز.
+يضبط الحد لطول وصلات الميتر لاستخدامها في الإخراج إلى الجهاز.
 
 ### Bandinfo {#Bandinfo}
 ```
@@ -267,7 +267,7 @@ public static final int Bandinfo
 ```
 
 
-يسترجع أو يحدد الإعدادات المتعلقة بالتقسيط على الجهاز، مثل عدد الشرائح.
+يسترجع أو يحدد الإعدادات المتعلقة بالتقسيم على الجهاز، مثل عدد الشرائط.
 
 ### Drawpatternrect {#Drawpatternrect}
 ```
@@ -299,7 +299,7 @@ public static final int Enableduplex
 ```
 
 
-يفعل أو يعطل الطباعة ذات الوجهين (duplex) على الجهاز.
+يفعل أو يعطل الطباعة ذات الوجهين (المزدوجة) على الجهاز.
 
 ### Getsetpaperbins {#Getsetpaperbins}
 ```
@@ -331,7 +331,7 @@ public static final int Setdibscaling
 ```
 
 
-يحدد مقياس صور البت المستقلة عن الجهاز (DIBs).
+يحدد مقياس الصور النقطية المستقلة عن الجهاز (DIBs).
 
 ### Epsprinting {#Epsprinting}
 ```
@@ -395,7 +395,7 @@ public static final int Getpairkerntable
 ```
 
 
-يحصل على جدول الترصيع للخط (kern) المحدد حاليًا على جهاز الإخراج.
+يحصل على جدول تقريبات الخط (kern) المحدد حاليًا على جهاز الإخراج.
 
 ### Exttextout {#Exttextout}
 ```
@@ -411,7 +411,7 @@ public static final int Getfacename
 ```
 
 
-يحصل على اسم عائلة الخط المكوَّن حاليًا على الجهاز.
+يحصل على اسم خط الواجهة المُكوَّن حاليًا على الجهاز.
 
 ### Downloadface {#Downloadface}
 ```
@@ -419,7 +419,7 @@ public static final int Downloadface
 ```
 
 
-يضبط اسم عائلة الخط على الجهاز.
+يضبط اسم خط الواجهة على الجهاز.
 
 ### MetafileDriver {#MetafileDriver}
 ```
@@ -435,7 +435,7 @@ public static final int Querydibsupport
 ```
 
 
-يستعلم برنامج تشغيل الطابعة عن دعمه لملفات DIBs على جهاز الإخراج.
+يستعلم برنامج تشغيل الطابعة عن دعمه لملفات DIB على جهاز الإخراج.
 
 ### BeginPath {#BeginPath}
 ```
@@ -451,7 +451,7 @@ public static final int ClipToPath
 ```
 
 
-يحدد منطقة قص محاطة بمسار. يجب أن يكون الإدخال كمية 16‑بت تحدد الإجراء المتخذ.
+يحدد منطقة قص محاطة بمسار. يجب أن يكون الإدخال كمية 16‑بت تحدد الإجراء المطلوب اتخاذه.
 
 ### EndPath {#EndPath}
 ```
@@ -467,7 +467,7 @@ public static final int OpenChannel
 ```
 
 
-نفس ما هو STARTDOC المحدد بوثيقة NULL واسم ملف الإخراج، والبيانات في وضع raw، ونوع صفر.
+نفس ما هو في STARTDOC المحدد مع مستند NULL واسم ملف الإخراج، والبيانات في الوضع الخام، ونوع صفر.
 
 ### Downloadheader {#Downloadheader}
 ```
@@ -475,7 +475,7 @@ public static final int Downloadheader
 ```
 
 
-يُعطي برنامج تشغيل الطابعة تعليمات لتنزيل مجموعات من إجراءات PostScript.
+يُعطي برنامج تشغيل الطابعة تعليمات بتحميل مجموعات من إجراءات PostScript.
 
 ### CloseChannel {#CloseChannel}
 ```
@@ -483,7 +483,7 @@ public static final int CloseChannel
 ```
 
 
-نفس ما هو ENDDOC. راجع OPEN\\_CHANNEL.
+نفس ما هو في ENDDOC. انظر OPEN\_CHANNEL.
 
 ### PostscriptPassthrough {#PostscriptPassthrough}
 ```
@@ -491,7 +491,7 @@ public static final int PostscriptPassthrough
 ```
 
 
-يرسل بيانات عشوائية مباشرة إلى برنامج تشغيل الطابعة، والذي من المتوقع أن يعالج هذه البيانات فقط عندما يكون في وضع PostScript. [PostscriptIdentify](../../com.aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes\\#PostscriptIdentify).
+يرسل بيانات عشوائية مباشرة إلى برنامج تشغيل الطابعة، والتي من المتوقع أن يعالجها فقط عندما يكون في وضع PostScript. [PostscriptIdentify](../../com.aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes\#PostscriptIdentify).
 
 ### EncapsulatedPostscript {#EncapsulatedPostscript}
 ```
@@ -515,7 +515,7 @@ public static final int PostscriptInjection
 ```
 
 
-يدرج كتلة من البيانات الخام في تدفق PostScript. يجب أن يكون الإدخال كمية 32‑بت تحدد عدد البايتات التي سيتم حقنها، وكمية 16‑بت تحدد نقطة الحقن، وكمية 16‑بت تحدد رقم الصفحة، تليها البايتات التي سيتم حقنها.
+يدرج كتلة من البيانات الخام في تدفق PostScript. يجب أن يكون الإدخال كمية 32‑بت تحدد عدد البايتات التي سيتم حقنها، وكمية 16‑بت تحدد نقطة الحقن، وكمية 16‑بت تحدد رقم الصفحة، يتبعها البايتات التي سيتم حقنها.
 
 ### Checkjpegformat {#Checkjpegformat}
 ```
@@ -539,7 +539,7 @@ public static final int GetPsFeaturesetting
 ```
 
 
-يحصل على معلومات حول إعداد ميزة محدد لبرنامج تشغيل طابعة PostScript.
+يحصل على معلومات حول إعداد ميزة محددة لبرنامج تشغيل طابعة PostScript.
 
 ### MxdcEscape {#MxdcEscape}
 ```
@@ -547,7 +547,7 @@ public static final int MxdcEscape
 ```
 
 
-يُمكّن التطبيقات من كتابة المستندات إلى ملف أو إلى طابعة بصيغة XML Paper Specification (XPS).
+يُمكّن التطبيقات من كتابة المستندات إلى ملف أو إلى طابعة بتنسيق XML Paper Specification (XPS).
 
 ### Spclpassthrough2 {#Spclpassthrough2}
 ```

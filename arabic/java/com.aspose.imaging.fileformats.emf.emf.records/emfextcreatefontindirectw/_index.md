@@ -23,10 +23,10 @@ public final class EmfExtCreateFontIndirectW extends EmfObjectCreationRecordType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIhFonts()](#getIhFonts--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). |
-| [setIhFonts(int value)](#setIhFonts-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). |
-| [getElw()](#getElw--) | يحصل أو يضبط كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. |
-| [setElw(EmfLogFont value)](#setElw-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFont-) | يحصل أو يضبط كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. |
+| [getIhFonts()](#getIhFonts--) | يحصل أو يعيّن عددًا صحيحًا غير موقع بحجم 32 بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). |
+| [setIhFonts(int value)](#setIhFonts-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع بحجم 32 بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). |
+| [getElw()](#getElw--) | الحصول أو تعيين كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. |
+| [setElw(EmfLogFont value)](#setElw-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFont-) | الحصول أو تعيين كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. |
 ### EmfExtCreateFontIndirectW(EmfRecord source) {#EmfExtCreateFontIndirectW-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfExtCreateFontIndirectW(EmfRecord source)
@@ -54,7 +54,7 @@ public int getIhFonts()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
+الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
 
 **Returns:**
 int
@@ -64,12 +64,12 @@ public void setIhFonts(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
+الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد فهرس كائن الخط المنطقي في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getElw() {#getElw--}
 ```
@@ -77,7 +77,7 @@ public EmfLogFont getElw()
 ```
 
 
-يحصل أو يضبط كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. قد يكون كائن LogFont 2.2.13 موجودًا بدلاً من ذلك.[90] العملية لتحديد نوع الكائن في هذا الحقل موصوفة أدناه.
+الحصول أو تعيين كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. قد يكون كائن LogFont (القسم 2.2.13) موجودًا بدلاً من ذلك.[90] العملية لتحديد نوع الكائن في هذا الحقل موصوفة أدناه.
 
 **Returns:**
 [EmfLogFont](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogfont)
@@ -87,7 +87,7 @@ public void setElw(EmfLogFont value)
 ```
 
 
-يحصل أو يضبط كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. قد يكون كائن LogFont 2.2.13 موجودًا بدلاً من ذلك.[90] العملية لتحديد نوع الكائن في هذا الحقل موصوفة أدناه.
+الحصول أو تعيين كائن LogFontExDv (القسم 2.2.15)، الذي يحدد الخط المنطقي. قد يكون كائن LogFont (القسم 2.2.13) موجودًا بدلاً من ذلك.[90] العملية لتحديد نوع الكائن في هذا الحقل موصوفة أدناه.
 
 **Parameters:**
 | معامل | نوع | الوصف |

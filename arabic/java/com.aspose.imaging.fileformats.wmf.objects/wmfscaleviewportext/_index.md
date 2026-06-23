@@ -1,7 +1,7 @@
 ---
 title: "WmfScaleViewportExt"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_SCALEVIEWPORTEXT يوسع الأبعاد الأفقية والعمودية لمنطقة العرض التي تم تعريفها في سياق جهاز التشغيل باستخدام النسب التي تكونت من المضاعفات والمقاسم المحددة."
+description: "السجل META_SCALEVIEWPORTEXT يقيّم الأبعاد الأفقية والعمودية لمنطقة العرض التي تم تعريفها في سياق جهاز التشغيل باستخدام النسب التي تتكون من المضاعفات والمقاسم المحددة."
 type: docs
 weight: 67
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfscaleviewportext/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfScaleViewportExt extends WmfScaleWindowExt
 ```
 
-سجل META\_SCALEVIEWPORTEXT يضبط أبعاد العرض الأفقية والرأسية لمنطقة العرض المعرفة في سياق جهاز التشغيل باستخدام النسب التي تتكون من المضاعفات والمقاسم المحددة.
+سجل META\_SCALEVIEWPORTEXT يغيّر مقياس الأبعاد الأفقية والرأسية لمنطقة العرض المعرفة في سياق جهاز التشغيل باستخدام النسب التي تكونها المضاعفات والقواسم المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |

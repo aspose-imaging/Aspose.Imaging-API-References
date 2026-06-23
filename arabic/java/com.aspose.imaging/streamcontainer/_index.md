@@ -7,7 +7,7 @@ weight: 109
 url: /ar/java/com.aspose.imaging/streamcontainer/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 
 **All Implemented Interfaces:**
 com.aspose.internal.interfaces.ISynchronizable
@@ -35,26 +35,26 @@ public class StreamContainer extends DisposableObject implements ISynchronizable
 | --- | --- |
 | [to_Stream(StreamContainer streamContainer)](#to-Stream-com.aspose.imaging.StreamContainer-) | يُجري تحويلًا صريحًا من `com.aspose.imaging.StreamContainer` إلى `System.IO.Stream`. |
 | [getSyncRoot()](#getSyncRoot--) | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى المورد المتزامن. |
-| [getPosition()](#getPosition--) | يحصل أو يعيّن الموضع الحالي داخل الدفق. |
-| [setPosition(long value)](#setPosition-long-) | يحصل أو يعيّن الموضع الحالي داخل الدفق. |
-| [getStream()](#getStream--) | يحصل على دفق البيانات. |
+| [getPosition()](#getPosition--) | يحصل أو يضبط الموضع الحالي داخل الدفق. |
+| [setPosition(long value)](#setPosition-long-) | يحصل أو يضبط الموضع الحالي داخل الدفق. |
+| [getStream()](#getStream--) | يحصل على تدفق البيانات. |
 | [isStreamDisposedOnClose()](#isStreamDisposedOnClose--) | يحصل على قيمة تشير إلى ما إذا كان هذا الدفق يتم التخلص منه عند الإغلاق. |
-| [getLength()](#getLength--) | يحصل أو يعيّن طول الدفق بالبايت. |
-| [setLength(long value)](#setLength-long-) | يحصل أو يعيّن طول الدفق بالبايت. |
+| [getLength()](#getLength--) | يحصل أو يضبط طول الدفق بالبايتات. |
+| [setLength(long value)](#setLength-long-) | يحصل أو يضبط طول الدفق بالبايتات. |
 | [canRead()](#canRead--) | يحصل على قيمة تشير إلى ما إذا كان الدفق يدعم القراءة. |
 | [canSeek()](#canSeek--) | يحصل على قيمة تشير إلى ما إذا كان الدفق يدعم السعي. |
 | [canWrite()](#canWrite--) | يحصل على قيمة تشير إلى ما إذا كان الدفق يدعم الكتابة. |
 | [flush()](#flush--) | يمسح جميع المخازن المؤقتة لهذا الدفق ويتسبب في كتابة أي بيانات مخزنة مؤقتًا إلى الجهاز الأساسي. |
 | [write(byte[] bytes)](#write-byte---) | يكتب جميع البايتات المحددة إلى الدفق. |
-| [writeByte(byte value)](#writeByte-byte-) | يكتب بايتًا إلى الموضع الحالي في الدفق ويقدم الموضع داخل الدفق بمقدار بايت واحد. |
-| [read(byte[] bytes)](#read-byte---) | يقرأ بايتات لملء مخزن البايتات المحدد. |
-| [toBytes()](#toBytes--) | يحول بيانات الدفق إلى مصفوفة `byte`. |
-| [toBytes(long position, long bytesCount)](#toBytes-long-long-) | يحول بيانات الدفق إلى مصفوفة `byte`. |
-| [read(byte[] buffer, int offset, int count)](#read-byte---int-int-) | يقرأ تسلسلًا من البايتات من الدفق الحالي ويُحَرِّك الموضع داخل الدفق بعدد البايتات المقروءة. |
-| [readByte()](#readByte--) | يقرأ بايتًا واحدًا من الدفق ويُحَرِّك الموضع داخل الدفق بايتًا واحدًا، أو يُرجِع -1 إذا كان عند نهاية الدفق. |
+| [writeByte(byte value)](#writeByte-byte-) | يكتب بايتًا إلى الموضع الحالي في الدفق ويُقدم الموضع داخل الدفق بايتًا واحدًا. |
+| [read(byte[] bytes)](#read-byte---) | يقرأ البايتات لملء المخزن المؤقت للبايتات المحدد. |
+| [toBytes()](#toBytes--) | يحوّل بيانات الدفق إلى مصفوفة `byte`. |
+| [toBytes(long position, long bytesCount)](#toBytes-long-long-) | يحوّل بيانات الدفق إلى مصفوفة `byte`. |
+| [read(byte[] buffer, int offset, int count)](#read-byte---int-int-) | يقرأ تسلسلًا من البايتات من الدفق الحالي ويقدّم الموضع داخل الدفق بعدد البايتات المقروءة. |
+| [readByte()](#readByte--) | يقرأ بايتًا من الدفق ويقدّم الموضع داخل الدفق بايتًا واحدًا، أو يُعيد -1 إذا كان عند نهاية الدفق. |
 | [seek(long offset, int origin)](#seek-long-int-) | يضبط الموضع داخل الدفق الحالي. |
 | [seekBegin()](#seekBegin--) | يضبط موضع الدفق إلى بداية الدفق. |
-| [write(byte[] buffer, int offset, int count)](#write-byte---int-int-) | يكتب تسلسلًا من البايتات إلى الدفق الحالي ويُحَرِّك الموضع الحالي داخل هذا الدفق بعدد البايتات المكتوبة. |
+| [write(byte[] buffer, int offset, int count)](#write-byte---int-int-) | يكتب تسلسلًا من البايتات إلى الدفق الحالي ويقدّم الموضع الحالي داخل هذا الدفق بعدد البايتات المكتوبة. |
 | [save(OutputStream destinationStream)](#save-java.io.OutputStream-) | يحفظ (ينسخ) بيانات الدفق إلى الدفق المحدد. |
 | [save(OutputStream destinationStream, int bufferSize)](#save-java.io.OutputStream-int-) | يحفظ (ينسخ) جميع بيانات الدفق إلى الدفق المحدد. |
 | [save(OutputStream destinationStream, int bufferSize, long length)](#save-java.io.OutputStream-int-long-) | يحفظ (ينسخ) بيانات الدفق إلى الدفق المحدد. |
@@ -74,7 +74,7 @@ public StreamContainer(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | المجرى. |
+| تدفق | java.io.InputStream | التدفق. |
 
 ### StreamContainer(System.IO.Stream stream) {#StreamContainer-com.aspose.ms.System.IO.Stream-}
 ```
@@ -87,7 +87,7 @@ public StreamContainer(System.IO.Stream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | com.aspose.ms.System.IO.Stream | المجرى. |
+| تدفق | com.aspose.ms.System.IO.Stream | التدفق. |
 
 ### StreamContainer(InputStream stream, boolean disposeStream) {#StreamContainer-java.io.InputStream-boolean-}
 ```
@@ -100,7 +100,7 @@ public StreamContainer(InputStream stream, boolean disposeStream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | دفق البيانات. |
+| تدفق | java.io.InputStream | دفق البيانات. |
 | disposeStream | boolean | إذا تم تعيينه إلى `true` سيتم التخلص من الدفق عندما يتم التخلص من الحاوية. |
 
 ### StreamContainer(System.IO.Stream stream, boolean disposeStream) {#StreamContainer-com.aspose.ms.System.IO.Stream-boolean-}
@@ -114,7 +114,7 @@ public StreamContainer(System.IO.Stream stream, boolean disposeStream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | com.aspose.ms.System.IO.Stream | دفق البيانات. |
+| تدفق | com.aspose.ms.System.IO.Stream | دفق البيانات. |
 | disposeStream | boolean | إذا تم تعيينه إلى `true` سيتم التخلص من الدفق عندما يتم التخلص من الحاوية. |
 
 ### READ_WRITE_BYTES_COUNT {#READ-WRITE-BYTES-COUNT}
@@ -177,7 +177,7 @@ public void setPosition(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getStream() {#getStream--}
 ```
@@ -185,7 +185,7 @@ public InputStream getStream()
 ```
 
 
-يحصل على دفق البيانات.
+يحصل على تدفق البيانات.
 
 القيمة: دفق البيانات.
 
@@ -228,7 +228,7 @@ public void setLength(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### canRead() {#canRead--}
 ```
@@ -250,7 +250,7 @@ public boolean canSeek()
 
 يحصل على قيمة تشير إلى ما إذا كان الدفق يدعم السعي.
 
-القيمة: `true` إذا كان الدفق يدعم السعي؛ وإلا `false`.
+القيمة: `true` إذا كان الدفق يدعم التحريك؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -285,7 +285,7 @@ public void write(byte[] bytes)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بايتات | byte[] | البايتات التي سيتم كتابتها. |
+| بايتات | byte[] | البايتات للكتابة. |
 
 ### writeByte(byte value) {#writeByte-byte-}
 ```
@@ -293,12 +293,12 @@ public void writeByte(byte value)
 ```
 
 
-يكتب بايتًا إلى الموضع الحالي في الدفق ويقدم الموضع داخل الدفق بمقدار بايت واحد.
+يكتب بايتًا إلى الموضع الحالي في الدفق ويُقدم الموضع داخل الدفق بايتًا واحدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | البايت الذي سيتم كتابته إلى الدفق. |
+| value | byte | البايت للكتابة إلى الدفق. |
 
 ### read(byte[] bytes) {#read-byte---}
 ```
@@ -306,22 +306,22 @@ public int read(byte[] bytes)
 ```
 
 
-يقرأ بايتات لملء مخزن البايتات المحدد.
+يقرأ البايتات لملء المخزن المؤقت للبايتات المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بايتات | byte[] | البايتات لتعبئتها. |
+| بايتات | byte[] | البايتات للتعبئة. |
 
 **Returns:**
-int - عدد البايتات المقروءة. يمكن أن تكون هذه القيمة أقل من عدد البايتات في المخزن المؤقت إذا لم يكن هناك ما يكفي من البايتات في الدفق.
+int - عدد البايتات المقروءة. قد تكون هذه القيمة أقل من عدد البايتات في المخزن المؤقت إذا لم يكن هناك ما يكفي من البايتات في الدفق.
 ### toBytes() {#toBytes--}
 ```
 public byte[] toBytes()
 ```
 
 
-يحول بيانات الدفق إلى مصفوفة `byte`.
+يحوّل بيانات الدفق إلى مصفوفة `byte`.
 
 **Returns:**
 byte[] - بيانات الدفق محوّلة إلى مصفوفة `byte`.
@@ -331,7 +331,7 @@ public byte[] toBytes(long position, long bytesCount)
 ```
 
 
-يحول بيانات الدفق إلى مصفوفة `byte`.
+يحوّل بيانات الدفق إلى مصفوفة `byte`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -347,24 +347,24 @@ public int read(byte[] buffer, int offset, int count)
 ```
 
 
-يقرأ تسلسلًا من البايتات من الدفق الحالي ويُحَرِّك الموضع داخل الدفق بعدد البايتات المقروءة.
+يقرأ تسلسلًا من البايتات من الدفق الحالي ويقدّم الموضع داخل الدفق بعدد البايتات المقروءة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| buffer | byte[] | مصفوفة من البايتات. عندما تعود هذه الطريقة، يحتوي buffer على مصفوفة البايت المحددة مع القيم بين `offset` و (`offset` + `count` - 1) المستبدلة بالبايتات المقروءة من المصدر الحالي. |
+| buffer | byte[] | مصفوفة من البايتات. عند عودة هذه الطريقة، يحتوي الـ `buffer` على مصفوفة البايتات المحددة مع القيم بين `offset` و (`offset` + `count` - 1) المستبدلة بالبايتات المقروءة من المصدر الحالي. |
 | offset | int | الإزاحة الصفرية للبايت في `buffer` التي يبدأ عندها تخزين البيانات المقروءة من الدفق الحالي. |
 | count | int | الحد الأقصى لعدد البايتات التي سيتم قراءتها من الدفق الحالي. |
 
 **Returns:**
-int - إجمالي عدد البايتات المقروءة إلى buffer. قد تكون هذه أقل من عدد البايتات المطلوبة إذا لم تكن تلك البايتات متاحة حالياً، أو صفر (0) إذا تم الوصول إلى نهاية الدفق.
+int - إجمالي عدد البايتات المقروءة إلى المخزن المؤقت. قد يكون هذا أقل من عدد البايتات المطلوبة إذا لم تتوفر تلك البايتات حاليًا، أو صفر (0) إذا تم الوصول إلى نهاية الدفق.
 ### readByte() {#readByte--}
 ```
 public int readByte()
 ```
 
 
-يقرأ بايتًا واحدًا من الدفق ويُحَرِّك الموضع داخل الدفق بايتًا واحدًا، أو يُرجِع -1 إذا كان عند نهاية الدفق.
+يقرأ بايتًا من الدفق ويقدّم الموضع داخل الدفق بايتًا واحدًا، أو يُعيد -1 إذا كان عند نهاية الدفق.
 
 **Returns:**
 int - البايت غير الموقع محوّل إلى Int32، أو -1 إذا كان عند نهاية الدفق.
@@ -379,7 +379,7 @@ public long seek(long offset, int origin)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| offset | long | إزاحة بايت نسبية إلى معامل `origin`. تمثل هذه القيمة الإزاحة من موضع بدء الدفق الذي تم تمريره في مُنشئ StreamContainer. |
+| offset | long | إزاحة بايت نسبية إلى المعامل `origin`. تمثل هذه القيمة الإزاحة من موضع بدء الدفق الذي تم تمريره في مُنشئ StreamContainer. |
 | origin | int | قيمة من النوع `System.IO.SeekOrigin` تشير إلى نقطة المرجع المستخدمة للحصول على الموضع الجديد. |
 
 **Returns:**
@@ -398,12 +398,12 @@ public void write(byte[] buffer, int offset, int count)
 ```
 
 
-يكتب تسلسلًا من البايتات إلى الدفق الحالي ويُحَرِّك الموضع الحالي داخل هذا الدفق بعدد البايتات المكتوبة.
+يكتب تسلسلًا من البايتات إلى الدفق الحالي ويقدّم الموضع الحالي داخل هذا الدفق بعدد البايتات المكتوبة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| buffer | byte[] | مصفوفة من البايتات. تقوم هذه الطريقة بنسخ `count` بايت من `buffer` إلى الدفق الحالي. |
+| buffer | byte[] | مصفوفة من البايتات. تنسخ هذه الطريقة `count` بايت من `buffer` إلى الدفق الحالي. |
 | offset | int | الإزاحة الصفرية للبايت في `buffer` التي يبدأ عندها نسخ البايتات إلى الدفق الحالي. |
 | count | int | عدد البايتات التي سيتم كتابتها إلى الدفق الحالي. |
 
@@ -447,7 +447,7 @@ public void save(OutputStream destinationStream, int bufferSize, long length)
 | --- | --- | --- |
 | destinationStream | java.io.OutputStream | الدفق لحفظ البيانات إليه. |
 | bufferSize | int | حجم المخزن المؤقت. يتم استخدام القيمة الافتراضية `ReadWriteBytesCount`. |
-| length | long | طول بيانات الدفق للنسخ. بشكل افتراضي، يتم تعيين الطول إلى القيمة `Length`. |
+| length | long | طول بيانات الدفق للنسخ. بشكل افتراضي، يتم تعيين الطول إلى قيمة `Length`. |
 
 ### save(String filePath) {#save-java.lang.String-}
 ```
@@ -489,7 +489,7 @@ public void save(String filePath, int bufferSize, long length)
 | --- | --- | --- |
 | filePath | java.lang.String | مسار الملف لحفظ بيانات الدفق إليه. |
 | bufferSize | int | حجم المخزن المؤقت. يتم استخدام القيمة الافتراضية `ReadWriteBytesCount`. |
-| length | long | طول بيانات الدفق للنسخ. بشكل افتراضي، يتم تعيين الطول إلى القيمة `Length`. |
+| length | long | طول بيانات الدفق للنسخ. بشكل افتراضي، يتم تعيين الطول إلى قيمة `Length`. |
 
 ### writeTo(StreamContainer streamContainer) {#writeTo-com.aspose.imaging.StreamContainer-}
 ```

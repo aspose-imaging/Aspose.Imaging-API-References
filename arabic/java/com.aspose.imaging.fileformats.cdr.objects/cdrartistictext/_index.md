@@ -1,18 +1,18 @@
 ---
 title: "CdrArtisticText"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "النص الفني cdr"
+description: "نص cdr الفني"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrartistictext/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrArtisticText extends CdrGraphicObject
 ```
 
-النص الفني cdr
+نص cdr الفني
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -80,5 +80,5 @@ public final void setTextIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | فهرس النص. |
+| value | int | فهرس النص. |
 

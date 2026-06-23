@@ -17,13 +17,13 @@ public class XmpText extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpText(String value)](#XmpText-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `XmpText`. |
+| [XmpText(String value)](#XmpText-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `XmpText`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValue()](#getValue--) | يحصل أو يعيّن قيمة النص. |
-| [setValue(String value)](#setValue-java.lang.String-) | يحصل أو يعيّن قيمة النص. |
+| [getValue()](#getValue--) | يحصل أو يضبط قيمة النص. |
+| [setValue(String value)](#setValue-java.lang.String-) | يحصل أو يضبط قيمة النص. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### XmpText(String value) {#XmpText-java.lang.String-}
 ```
@@ -31,12 +31,12 @@ public XmpText(String value)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `XmpText`.
+ينشئ مثيلاً جديداً من الفئة `XmpText`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### getValue() {#getValue--}
 ```
@@ -44,7 +44,7 @@ public String getValue()
 ```
 
 
-يحصل أو يعيّن قيمة النص.
+يحصل أو يضبط قيمة النص.
 
 القيمة: قيمة النص.
 
@@ -56,14 +56,14 @@ public void setValue(String value)
 ```
 
 
-يحصل أو يعيّن قيمة النص.
+يحصل أو يضبط قيمة النص.
 
 القيمة: قيمة النص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

@@ -1,18 +1,18 @@
 ---
 title: "EmfPlusResetClip"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusResetClip يعيد ضبط منطقة القطع الحالية للفضاء العالمي إلى اللانهاية."
+description: "سجل EmfPlusResetClip يعيد تعيين منطقة القطع الحالية للفضاء العالمي إلى ما لا نهائي."
 type: docs
 weight: 47
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusresetclip/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusClippingRecordType](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusclippingrecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusClippingRecordType](../../com.aspose.imaging/fileformats.emf.emfplus.records/emfplusclippingrecordtype)
 ```
 public final class EmfPlusResetClip extends EmfPlusClippingRecordType
 ```
 
-يسجل EmfPlusResetClip يعيد ضبط منطقة القطع الحالية للفضاء العالمي إلى اللانهاية.
+سجل EmfPlusResetClip يعيد تعيين منطقة القطع الحالية للفضاء العالمي إلى ما لا نهائي.
 ## المنشئات
 
 | المنشئ | الوصف |

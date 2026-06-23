@@ -1,7 +1,7 @@
 ---
 title: "WmfChord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_CHORD يرسم وترًا يُعرّف بمنطقة محصورة بتقاطع إهليلج مع مقطع خطي."
+description: "السجل META_CHORD يرسم وترًا يُعرف بمنطقة محصورة بتقاطع إهليلج مع قطعة خط."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfchord/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfChord extends WmfRectangle
 ```
 
-سجل META\_CHORD يرسم وترًا يُعرّف بمنطقة محصورة بتقاطع إهليلج مع مقطع خطي. يتم تحديد حدود الوتر باستخدام القلم وتعبئته باستخدام الفرشاة المحددين في سياق جهاز التشغيل.
+السجل META\_CHORD يرسم وترًا، يُعرف بمنطقة محصورة بتقاطع إهليلج مع قطعة خط. يتم تحديد حدود الوتر باستخدام القلم وتعبئته باستخدام الفرشاة التي تم تعريفها في سياق جهاز التشغيل.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class WmfChord extends WmfRectangle
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRadial2()](#getRadial2--) | يحصل أو يعيّن radial2. |
-| [setRadial2(Point value)](#setRadial2-com.aspose.imaging.Point-) | يحصل أو يعيّن radial2. |
-| [getRadial1()](#getRadial1--) | يحصل أو يعيّن radial1. |
-| [setRadial1(Point value)](#setRadial1-com.aspose.imaging.Point-) | يحصل أو يعيّن radial1. |
+| [getRadial2()](#getRadial2--) | يحصل أو يضبط radial2. |
+| [setRadial2(Point value)](#setRadial2-com.aspose.imaging.Point-) | يحصل أو يضبط radial2. |
+| [getRadial1()](#getRadial1--) | يحصل أو يضبط الـ radial1. |
+| [setRadial1(Point value)](#setRadial1-com.aspose.imaging.Point-) | يحصل أو يضبط الـ radial1. |
 ### WmfChord() {#WmfChord--}
 ```
 public WmfChord()
@@ -38,9 +38,9 @@ public Point getRadial2()
 ```
 
 
-يحصل أو يعيّن radial2.
+يحصل أو يضبط radial2.
 
-القيمة: الإحداثيات، بوحدات منطقية، لنقطة النهاية للـ radial الثاني.
+القيمة: الإحداثيات، بالإحداثيات المنطقية، لنقطة النهاية للخط الشعاعي الثاني.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -50,9 +50,9 @@ public void setRadial2(Point value)
 ```
 
 
-يحصل أو يعيّن radial2.
+يحصل أو يضبط radial2.
 
-القيمة: الإحداثيات، بوحدات منطقية، لنقطة النهاية للـ radial الثاني.
+القيمة: الإحداثيات، بالإحداثيات المنطقية، لنقطة النهاية للخط الشعاعي الثاني.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,9 +65,9 @@ public Point getRadial1()
 ```
 
 
-يحصل أو يعيّن radial1.
+يحصل أو يضبط الـ radial1.
 
-القيمة: الإحداثيات، بوحدات منطقية، لنقطة النهاية للـ radial الأول.
+القيمة: الإحداثيات، بالإحداثيات المنطقية، لنقطة النهاية للخط الشعاعي الأول.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -77,9 +77,9 @@ public void setRadial1(Point value)
 ```
 
 
-يحصل أو يعيّن radial1.
+يحصل أو يضبط الـ radial1.
 
-القيمة: الإحداثيات، بوحدات منطقية، لنقطة النهاية للـ radial الأول.
+القيمة: الإحداثيات، بالإحداثيات المنطقية، لنقطة النهاية للخط الشعاعي الأول.
 
 **Parameters:**
 | معامل | نوع | الوصف |

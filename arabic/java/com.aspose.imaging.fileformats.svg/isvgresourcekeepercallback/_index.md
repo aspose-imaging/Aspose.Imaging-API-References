@@ -1,7 +1,7 @@
 ---
 title: "ISvgResourceKeeperCallback"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "واجهة رد النداء svg"
+description: "واجهة استدعاء رد النداء لـ svg."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback/

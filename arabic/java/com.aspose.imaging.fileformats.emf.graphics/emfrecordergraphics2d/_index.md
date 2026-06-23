@@ -17,7 +17,7 @@ public final class EmfRecorderGraphics2D extends MetafileRecorderGraphics2D
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfRecorderGraphics2D(Rectangle frame, Size deviceSize, Size deviceSizeMm)](#EmfRecorderGraphics2D-com.aspose.imaging.Rectangle-com.aspose.imaging.Size-com.aspose.imaging.Size-) | ينشئ مثيلاً جديداً من الفئة `EmfRecorderGraphics2D`. |
+| [EmfRecorderGraphics2D(Rectangle frame, Size deviceSize, Size deviceSizeMm)](#EmfRecorderGraphics2D-com.aspose.imaging.Rectangle-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يُنشئ مثيلًا جديدًا من الفئة `EmfRecorderGraphics2D`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -25,7 +25,7 @@ public final class EmfRecorderGraphics2D extends MetafileRecorderGraphics2D
 | [getBackgroundMode()](#getBackgroundMode--) | يحصل أو يعيّن وضع الخلفية. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | يحصل أو يعيّن وضع الخلفية. |
 | [endRecording()](#endRecording--) | ينهي التسجيل. |
-| [fromEmfImage(EmfImage emfImage)](#fromEmfImage-com.aspose.imaging.fileformats.emf.EmfImage-) | يحصل على نسخة من [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) التي تحتوي على جميع السجلات من صورة Emf. |
+| [fromEmfImage(EmfImage emfImage)](#fromEmfImage-com.aspose.imaging.fileformats.emf.EmfImage-) | يحصل على مثيل من [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) يحتوي على جميع السجلات من صورة Emf. |
 
 ## Example: This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D.
 
@@ -52,7 +52,7 @@ com.aspose.imaging.fileformats.emf.graphics.EmfRecorderGraphics2D graphics =
 // ارسم مستطيلًا أسود على حدود الصورة باستخدام قلم أسود بعرض بكسل واحد.
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, deviceWidth, deviceHeight);
 
-// املأ مستطيلًا بلون الدخان الأبيض.
+// املأ مستطيلًا بلون دخان أبيض.
 graphics.fillRectangle(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()),
         new com.aspose.imaging.Rectangle(10, 10, 580, 380));
@@ -69,7 +69,7 @@ graphics.fillPie(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// ارسم منحنى بيزيه مكعب باستخدام قلم أحمر بعرض بكسلين.
+// ارسم منحنى بيزير مكعب باستخدام قلم أحمر بعرض بكسلين.
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(200, 133),
@@ -134,15 +134,15 @@ figureToDraw.addShapes(new com.aspose.imaging.Shape[]
                 new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(200, 200, 200, 200), 0, 360),
         });
 
-// ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسلات.
+// ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسل.
 graphics.drawPath(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getOrange(), 5), pathToDraw);
 
-// من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+// من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
 com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
 com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
 saveOptions.setVectorRasterizationOptions(rasterizationOptions);
 
-// احصل على صورة WMF النهائية التي تشمل جميع أوامر الرسم.
+// احصل على صورة WMF النهائية التي تتضمن جميع أوامر الرسم
 com.aspose.imaging.fileformats.emf.EmfImage emfImage = graphics.endRecording();
 try {
     emfImage.save(dir + "test.output.emf");
@@ -157,7 +157,7 @@ public EmfRecorderGraphics2D(Rectangle frame, Size deviceSize, Size deviceSizeMm
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfRecorderGraphics2D`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfRecorderGraphics2D`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -187,7 +187,7 @@ public void setBackgroundMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وضع الخلفية. |
+| value | int | وضع الخلفية. |
 
 ### endRecording() {#endRecording--}
 ```
@@ -205,7 +205,7 @@ public static EmfRecorderGraphics2D fromEmfImage(EmfImage emfImage)
 ```
 
 
-يحصل على نسخة من [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) التي تحتوي على جميع السجلات من صورة Emf.
+يحصل على مثيل من [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) يحتوي على جميع السجلات من صورة Emf.
 
 **Parameters:**
 | معامل | نوع | الوصف |

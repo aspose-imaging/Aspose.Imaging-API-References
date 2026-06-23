@@ -1,7 +1,7 @@
 ---
 title: "ImageAttributes"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن com.aspose.imaging.ImageAttributes يحتوي على معلومات حول كيفية تعديل ألوان bitmap و metafile أثناء العرض."
+description: "كائن com.aspose.imaging.ImageAttributes يحتوي على معلومات حول كيفية معالجة ألوان bitmap و metafile أثناء العرض."
 type: docs
 weight: 57
 url: /ar/java/com.aspose.imaging/imageattributes/
@@ -12,12 +12,12 @@ java.lang.Object
 public final class ImageAttributes
 ```
 
-كائن `com.aspose.imaging.ImageAttributes` يحتوي على معلومات حول كيفية تعديل ألوان البت ماب وملفات الميتا أثناء التصيير. كائن `com.aspose.imaging.ImageAttributes` يحافظ على عدة إعدادات لتعديل اللون، بما في ذلك مصفوفات تعديل اللون، ومصفوفات تعديل التدرج الرمادي، وقيم تصحيح غاما، وجداول خريطة الألوان، وقيم عتبة اللون. أثناء التصيير، يمكن تصحيح الألوان، تعتيمها، إضاءتها، وإزالتها. لتطبيق مثل هذه التعديلات، قم بتهيئة كائن `com.aspose.imaging.ImageAttributes` ومرّر مسار ذلك الكائن (إلى جانب مسار [Image](../../com.aspose.imaging/image)) إلى طريقة drawImage.
+كائن `com.aspose.imaging.ImageAttributes` يحتوي على معلومات حول كيفية تعديل ألوان البت ماب وملفات الميتا أثناء التصيير. كائن `com.aspose.imaging.ImageAttributes` يحافظ على عدة إعدادات لتعديل اللون، بما في ذلك مصفوفات تعديل اللون، ومصفوفات تعديل التدرج الرمادي، وقيم تصحيح جاما، وجداول خريطة الألوان، وقيم عتبة اللون. أثناء التصيير، يمكن تصحيح الألوان، تعتيمها، إضائتها، وإزالتها. لتطبيق مثل هذه التعديلات، قم بتهيئة كائن `com.aspose.imaging.ImageAttributes` ومرّر مسار ذلك الكائن (بالإضافة إلى مسار [Image](../../com.aspose.imaging/image)) إلى طريقة drawImage.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageAttributes()](#ImageAttributes--) | يقوم بتهيئة نسخة جديدة من الفئة `com.aspose.imaging.ImageAttributes`. |
+| [ImageAttributes()](#ImageAttributes--) | ينشئ مثيلاً جديداً من الفئة `com.aspose.imaging.ImageAttributes`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -34,10 +34,10 @@ public final class ImageAttributes
 | [setThreshold(float threshold, int type)](#setThreshold-float-int-) | يضبط العتبة (نطاق الشفافية) لفئة محددة. |
 | [clearThreshold()](#clearThreshold--) | يمسح قيمة العتبة للفئة الافتراضية. |
 | [clearThreshold(int type)](#clearThreshold-int-) | يمسح قيمة العتبة لفئة محددة. |
-| [setGamma(float gamma)](#setGamma-float-) | يضبط قيمة غاما للفئة الافتراضية. |
-| [setGamma(float gamma, int type)](#setGamma-float-int-) | يضبط قيمة غاما لفئة محددة. |
-| [clearGamma()](#clearGamma--) | يعطل تصحيح غاما للفئة الافتراضية. |
-| [clearGamma(int type)](#clearGamma-int-) | يعطل تصحيح غاما لفئة محددة. |
+| [setGamma(float gamma)](#setGamma-float-) | يضبط قيمة جاما للفئة الافتراضية. |
+| [setGamma(float gamma, int type)](#setGamma-float-int-) | يضبط قيمة جاما لفئة محددة. |
+| [clearGamma()](#clearGamma--) | يعطل تصحيح جاما للفئة الافتراضية. |
+| [clearGamma(int type)](#clearGamma-int-) | يعطل تصحيح جاما لفئة محددة. |
 | [setNoOp()](#setNoOp--) | يقوم بإيقاف تعديل اللون للفئة الافتراضية. |
 | [setNoOp(int type)](#setNoOp-int-) | يقوم بإيقاف تعديل اللون لفئة محددة. |
 | [clearNoOp()](#clearNoOp--) | يمسح إعداد NoOp للفئة الافتراضية. |
@@ -46,12 +46,12 @@ public final class ImageAttributes
 | [setColorKey(Color colorLow, Color colorHigh, int type)](#setColorKey-com.aspose.imaging.Color-com.aspose.imaging.Color-int-) | يضبط مفتاح اللون (نطاق الشفافية) لفئة محددة. |
 | [clearColorKey()](#clearColorKey--) | يمسح مفتاح اللون (نطاق الشفافية) للفئة الافتراضية. |
 | [clearColorKey(int type)](#clearColorKey-int-) | يمسح مفتاح اللون (نطاق الشفافية) لفئة محددة. |
-| [setOutputChannel(int flags)](#setOutputChannel-int-) | يضبط قناة الإخراج CMYK (سماوي-ماجنتا-أصفر-أسود) للفئة الافتراضية. |
-| [setOutputChannel(int flags, int type)](#setOutputChannel-int-int-) | يضبط قناة الإخراج CMYK (سماوي-ماجنتا-أصفر-أسود) لفئة محددة. |
-| [clearOutputChannel()](#clearOutputChannel--) | يمسح إعداد قناة الإخراج CMYK (سماوي-ماجنتا-أصفر-أسود) للفئة الافتراضية. |
-| [clearOutputChannel(int type)](#clearOutputChannel-int-) | يمسح إعداد قناة الإخراج (سماوي-ماجنتا-أصفر-أسود) لفئة محددة. |
-| [setOutputChannelColorProfile(String colorProfileFilename)](#setOutputChannelColorProfile-java.lang.String-) | يضبط ملف تعريف ألوان قناة الإخراج للفئة الافتراضية. |
-| [setOutputChannelColorProfile(String colorProfileFilename, int type)](#setOutputChannelColorProfile-java.lang.String-int-) | يضبط ملف تعريف ألوان قناة الإخراج لفئة محددة. |
+| [setOutputChannel(int flags)](#setOutputChannel-int-) | يضبط قناة الإخراج CMYK (سماوي-أرجواني-أصفر-أسود) للفئة الافتراضية. |
+| [setOutputChannel(int flags, int type)](#setOutputChannel-int-int-) | يضبط قناة الإخراج CMYK (سماوي-أرجواني-أصفر-أسود) لفئة محددة. |
+| [clearOutputChannel()](#clearOutputChannel--) | يمسح إعداد قناة الإخراج CMYK (سماوي-أرجواني-أصفر-أسود) للفئة الافتراضية. |
+| [clearOutputChannel(int type)](#clearOutputChannel-int-) | يمسح إعداد قناة الإخراج (سماوي-أرجواني-أصفر-أسود) لفئة محددة. |
+| [setOutputChannelColorProfile(String colorProfileFilename)](#setOutputChannelColorProfile-java.lang.String-) | يضبط ملف ملف تعريف ألوان قناة الإخراج للفئة الافتراضية. |
+| [setOutputChannelColorProfile(String colorProfileFilename, int type)](#setOutputChannelColorProfile-java.lang.String-int-) | يضبط ملف ملف تعريف ألوان قناة الإخراج لفئة محددة. |
 | [clearOutputChannelColorProfile()](#clearOutputChannelColorProfile--) | يمسح إعداد ملف تعريف ألوان قناة الإخراج للفئة الافتراضية. |
 | [clearOutputChannelColorProfile(int type)](#clearOutputChannelColorProfile-int-) | يمسح إعداد ملف تعريف ألوان قناة الإخراج لفئة محددة. |
 | [setRemapTable(ColorMap[] map)](#setRemapTable-com.aspose.imaging.ColorMap---) | يضبط جدول إعادة تعيين الألوان للفئة الافتراضية. |
@@ -71,7 +71,7 @@ public ImageAttributes()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `com.aspose.imaging.ImageAttributes`.
+ينشئ مثيلاً جديداً من الفئة `com.aspose.imaging.ImageAttributes`.
 
 ### setColorMatrix(ColorMatrix newColorMatrix) {#setColorMatrix-com.aspose.imaging.ColorMatrix-}
 ```
@@ -98,7 +98,7 @@ public void setColorMatrix(ColorMatrix newColorMatrix, int flags)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة تعديل اللون. |
-| الأعلام | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون اللذين سيتأثران بمصفوفة تعديل اللون. |
+| العلامات | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون الذي سيتأثر بمصفوفة تعديل اللون. |
 
 ### setColorMatrix(ColorMatrix newColorMatrix, int mode, int type) {#setColorMatrix-com.aspose.imaging.ColorMatrix-int-int-}
 ```
@@ -112,8 +112,8 @@ public void setColorMatrix(ColorMatrix newColorMatrix, int mode, int type)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة تعديل اللون. |
-| الوضع | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون اللذين سيتأثران بمصفوفة تعديل اللون. |
-| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي تم ضبط مصفوفة تعديل اللون لها. |
+| الوضع | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون الذي سيتأثر بمصفوفة تعديل اللون. |
+| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي تم تعيين مصفوفة تعديل اللون لها. |
 
 ### clearColorMatrix() {#clearColorMatrix--}
 ```
@@ -134,7 +134,7 @@ public void clearColorMatrix(int type)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي تم مسح مصفوفة تعديل اللون لها. |
+| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي تم مسح مصفوفة تعديل اللون منها. |
 
 ### setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix) {#setColorMatrices-com.aspose.imaging.ColorMatrix-com.aspose.imaging.ColorMatrix-}
 ```
@@ -163,7 +163,7 @@ public void setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة تعديل اللون. |
 | grayMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة تعديل التدرج الرمادي. |
-| الأعلام | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون اللذين سيتأثران بمصفوفات تعديل اللون وتعديل التدرج الرمادي. |
+| العلامات | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون الذي سيتأثر بمصفوفات تعديل اللون وتعديل التدرج الرمادي. |
 
 ### setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix, int mode, int type) {#setColorMatrices-com.aspose.imaging.ColorMatrix-com.aspose.imaging.ColorMatrix-int-int-}
 ```
@@ -178,8 +178,8 @@ public void setColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة تعديل اللون. |
 | grayMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة تعديل التدرج الرمادي. |
-| الوضع | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون اللذين سيتأثران بمصفوفات تعديل اللون وتعديل التدرج الرمادي. |
-| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي تم ضبط مصفوفات تعديل اللون وتعديل التدرج الرمادي لها. |
+| الوضع | int | عنصر من `Aspose.Imaging.ColorMatrixFlag` يحدد نوع الصورة واللون الذي سيتأثر بمصفوفات تعديل اللون وتعديل التدرج الرمادي. |
+| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي تم تعيين مصفوفات تعديل اللون وتعديل التدرج الرمادي لها. |
 
 ### setThreshold(float threshold) {#setThreshold-float-}
 ```
@@ -235,7 +235,7 @@ public void setGamma(float gamma)
 ```
 
 
-يضبط قيمة غاما للفئة الافتراضية.
+يضبط قيمة جاما للفئة الافتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -248,7 +248,7 @@ public void setGamma(float gamma, int type)
 ```
 
 
-يضبط قيمة غاما لفئة محددة.
+يضبط قيمة جاما لفئة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -262,7 +262,7 @@ public void clearGamma()
 ```
 
 
-يعطل تصحيح غاما للفئة الافتراضية.
+يعطل تصحيح جاما للفئة الافتراضية.
 
 ### clearGamma(int type) {#clearGamma-int-}
 ```
@@ -270,7 +270,7 @@ public void clearGamma(int type)
 ```
 
 
-يعطل تصحيح غاما لفئة محددة.
+يعطل تصحيح جاما لفئة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -375,12 +375,12 @@ public void setOutputChannel(int flags)
 ```
 
 
-يضبط قناة الإخراج CMYK (سماوي-ماجنتا-أصفر-أسود) للفئة الافتراضية.
+يضبط قناة الإخراج CMYK (سماوي-أرجواني-أصفر-أسود) للفئة الافتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الأعلام | int | عنصر من `Aspose.Imaging.ColorChannelFlag` يحدد القناة الخارجة. |
+| العلامات | int | عنصر من `Aspose.Imaging.ColorChannelFlag` يحدد القناة الخارجة. |
 
 ### setOutputChannel(int flags, int type) {#setOutputChannel-int-int-}
 ```
@@ -388,12 +388,12 @@ public void setOutputChannel(int flags, int type)
 ```
 
 
-يضبط قناة الإخراج CMYK (سماوي-ماجنتا-أصفر-أسود) لفئة محددة.
+يضبط قناة الإخراج CMYK (سماوي-أرجواني-أصفر-أسود) لفئة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الأعلام | int | عنصر من `Aspose.Imaging.ColorChannelFlag` يحدد القناة الخارجة. |
+| العلامات | int | عنصر من `Aspose.Imaging.ColorChannelFlag` يحدد القناة الخارجة. |
 | النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي يتم فيها تعيين القناة الخارجة. |
 
 ### clearOutputChannel() {#clearOutputChannel--}
@@ -402,7 +402,7 @@ public void clearOutputChannel()
 ```
 
 
-يمسح إعداد قناة الإخراج CMYK (سماوي-ماجنتا-أصفر-أسود) للفئة الافتراضية.
+يمسح إعداد قناة الإخراج CMYK (سماوي-أرجواني-أصفر-أسود) للفئة الافتراضية.
 
 ### clearOutputChannel(int type) {#clearOutputChannel-int-}
 ```
@@ -410,7 +410,7 @@ public void clearOutputChannel(int type)
 ```
 
 
-يمسح إعداد قناة الإخراج (سماوي-ماجنتا-أصفر-أسود) لفئة محددة.
+يمسح إعداد قناة الإخراج (سماوي-أرجواني-أصفر-أسود) لفئة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -423,12 +423,12 @@ public void setOutputChannelColorProfile(String colorProfileFilename)
 ```
 
 
-يضبط ملف تعريف ألوان قناة الإخراج للفئة الافتراضية.
+يضبط ملف ملف تعريف ألوان قناة الإخراج للفئة الافتراضية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| colorProfileFilename | java.lang.String | اسم المسار لملف ملف تعريف اللون. إذا كان ملف تعريف اللون موجودًا في الدليل %SystemRoot%\\System32\\Spool\\Drivers\\Color، يمكن أن يكون هذا المعامل اسم الملف. وإلا، يجب أن يكون هذا المعامل اسم المسار الكامل المؤهل. |
+| colorProfileFilename | java.lang.String | اسم المسار لملف ملف تعريف اللون. إذا كان ملف تعريف اللون موجودًا في الدليل %SystemRoot%\\System32\\Spool\\Drivers\\Color، يمكن أن يكون هذا المعامل اسم الملف. وإلا، يجب أن يكون هذا المعامل اسم المسار المؤهل بالكامل. |
 
 ### setOutputChannelColorProfile(String colorProfileFilename, int type) {#setOutputChannelColorProfile-java.lang.String-int-}
 ```
@@ -436,13 +436,13 @@ public void setOutputChannelColorProfile(String colorProfileFilename, int type)
 ```
 
 
-يضبط ملف تعريف ألوان قناة الإخراج لفئة محددة.
+يضبط ملف ملف تعريف ألوان قناة الإخراج لفئة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| colorProfileFilename | java.lang.String | اسم المسار لملف ملف تعريف اللون. إذا كان ملف تعريف اللون موجودًا في الدليل %SystemRoot%\\System32\\Spool\\Drivers\\Color، يمكن أن يكون هذا المعامل اسم الملف. وإلا، يجب أن يكون هذا المعامل اسم المسار الكامل المؤهل. |
-| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي يتم فيها تعيين ملف تعريف اللون للقناة الخارجة. |
+| colorProfileFilename | java.lang.String | اسم المسار لملف ملف تعريف اللون. إذا كان ملف تعريف اللون موجودًا في الدليل %SystemRoot%\\System32\\Spool\\Drivers\\Color، يمكن أن يكون هذا المعامل اسم الملف. وإلا، يجب أن يكون هذا المعامل اسم المسار المؤهل بالكامل. |
+| النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي يتم فيها تعيين ملف تعريف لون القناة الخارجة. |
 
 ### clearOutputChannelColorProfile() {#clearOutputChannelColorProfile--}
 ```
@@ -476,7 +476,7 @@ public void setRemapTable(ColorMap[] map)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| map | [ColorMap\[\]](../../com.aspose.imaging/colormap) | مصفوفة من أزواج الألوان من النوع `com.aspose.imaging.ColorMap`. يحتوي كل زوج ألوان على لون موجود (القيمة الأولى) واللون الذي سيتم تحويله إليه (القيمة الثانية). |
+| map | [ColorMap\[\]](../../com.aspose.imaging/colormap) | مصفوفة من أزواج الألوان من النوع `com.aspose.imaging.ColorMap`. كل زوج ألوان يحتوي على لون موجود (القيمة الأولى) واللون الذي سيتم تعيينه إليه (القيمة الثانية). |
 
 ### setRemapTable(ColorMap[] map, int type) {#setRemapTable-com.aspose.imaging.ColorMap---int-}
 ```
@@ -489,7 +489,7 @@ public void setRemapTable(ColorMap[] map, int type)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| map | [ColorMap\[\]](../../com.aspose.imaging/colormap) | مصفوفة من أزواج الألوان من النوع `com.aspose.imaging.ColorMap`. يحتوي كل زوج ألوان على لون موجود (القيمة الأولى) واللون الذي سيتم تحويله إليه (القيمة الثانية). |
+| map | [ColorMap\[\]](../../com.aspose.imaging/colormap) | مصفوفة من أزواج الألوان من النوع `com.aspose.imaging.ColorMap`. كل زوج ألوان يحتوي على لون موجود (القيمة الأولى) واللون الذي سيتم تعيينه إليه (القيمة الثانية). |
 | النوع | int | عنصر من `Aspose.Imaging.ColorAdjustType` يحدد الفئة التي يتم فيها تعيين جدول إعادة تعيين اللون. |
 
 ### clearRemapTable() {#clearRemapTable--}
@@ -540,12 +540,12 @@ public void setWrapMode(int mode)
 ```
 
 
-يضبط وضع الالتفاف المستخدم لتحديد كيفية تجانب النسيج عبر الشكل، أو عند حدود الشكل. يتم تجانب النسيج عبر الشكل لملئه عندما يكون النسيج أصغر من الشكل الذي يتم ملئه.
+يضبط وضع الالتفاف المستخدم لتحديد كيفية تغطية نسيج عبر شكل، أو عند حدود الشكل. يتم تغطية النسيج عبر الشكل لملئه عندما يكون النسيج أصغر من الشكل الذي يملأه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوضع | int | عنصر من `Aspose.Imaging.WrapMode` يحدد كيفية استخدام النسخ المتكررة لصورة لتغطية منطقة. |
+| الوضع | int | عنصر من `Aspose.Imaging.WrapMode` يحدد كيفية استخدام النسخ المتكررة للصورة لتغطية منطقة. |
 
 ### setWrapMode(int mode, Color color) {#setWrapMode-int-com.aspose.imaging.Color-}
 ```
@@ -553,13 +553,13 @@ public void setWrapMode(int mode, Color color)
 ```
 
 
-يضبط وضع الالتفاف واللون المستخدم لتحديد كيفية تغطية نسيج عبر شكل، أو عند حدود الشكل. يتم تغطية النسيج عبر الشكل لملئه عندما يكون النسيج أصغر من الشكل الذي يملأه.
+يضبط وضع الالتفاف واللون المستخدم لتحديد كيفية تغطية نسيج عبر شكل، أو عند حدود الشكل. يتم تغطية النسيج عبر الشكل لملئه عندما يكون النسيج أصغر من الشكل الذي يتم ملئه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوضع | int | عنصر من `Aspose.Imaging.WrapMode` يحدد كيفية استخدام النسخ المتكررة لصورة لتغطية منطقة. |
-| color | [Color](../../com.aspose.imaging/color) | كائن `com.aspose.imaging.ImageAttributes` يحدد لون البكسلات خارج الصورة المرسومة. يكون هذا اللون مرئياً إذا تم تعيين معامل الوضع إلى `WrapMode.Clamp` وكان المستطيل المصدر الممرّر إلى DrawImage أكبر من الصورة نفسها. |
+| الوضع | int | عنصر من `Aspose.Imaging.WrapMode` يحدد كيفية استخدام النسخ المتكررة للصورة لتغطية منطقة. |
+| color | [Color](../../com.aspose.imaging/color) | كائن `com.aspose.imaging.ImageAttributes` يحدد لون البكسلات خارج الصورة المُرَسَمة. يكون هذا اللون مرئيًا إذا تم تعيين معامل الوضع إلى `WrapMode.Clamp` وكان المستطيل المصدر الممرّر إلى DrawImage أكبر من الصورة نفسها. |
 
 ### setWrapMode(int mode, Color color, boolean clamp) {#setWrapMode-int-com.aspose.imaging.Color-boolean-}
 ```
@@ -567,14 +567,14 @@ public void setWrapMode(int mode, Color color, boolean clamp)
 ```
 
 
-يضبط وضع الالتفاف واللون المستخدم لتحديد كيفية تغطية نسيج عبر شكل، أو عند حدود الشكل. يتم تغطية النسيج عبر الشكل لملئه عندما يكون النسيج أصغر من الشكل الذي يملأه.
+يضبط وضع الالتفاف واللون المستخدم لتحديد كيفية تغطية نسيج عبر شكل، أو عند حدود الشكل. يتم تغطية النسيج عبر الشكل لملئه عندما يكون النسيج أصغر من الشكل الذي يتم ملئه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوضع | int | عنصر من `Aspose.Imaging.WrapMode` يحدد كيفية استخدام النسخ المتكررة لصورة لتغطية منطقة. |
-| color | [Color](../../com.aspose.imaging/color) | كائن لون يحدد لون البكسلات خارج الصورة المرسومة. يكون هذا اللون مرئياً إذا تم تعيين معامل الوضع إلى `WrapMode.Clamp` وكان المستطيل المصدر الممرّر إلى DrawImage أكبر من الصورة نفسها. |
-| قفل | boolean | هذا المعامل لا يؤثر. اضبطه على false. |
+| الوضع | int | عنصر من `Aspose.Imaging.WrapMode` يحدد كيفية استخدام النسخ المتكررة للصورة لتغطية منطقة. |
+| color | [Color](../../com.aspose.imaging/color) | كائن لون يحدد لون البكسلات خارج الصورة المُرَسَمة. يكون هذا اللون مرئيًا إذا تم تعيين معامل الوضع إلى `WrapMode.Clamp` وكان المستطيل المصدر الممرّر إلى DrawImage أكبر من الصورة نفسها. |
+| clamp | boolean | هذا المعامل لا يؤثر. اضبطه على false. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

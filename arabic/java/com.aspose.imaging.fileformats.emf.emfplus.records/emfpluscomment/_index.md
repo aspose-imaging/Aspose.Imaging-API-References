@@ -17,13 +17,13 @@ public final class EmfPlusComment extends EmfPlusRecord
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusComment(EmfPlusRecord source)](#EmfPlusComment-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusComment`. |
+| [EmfPlusComment(EmfPlusRecord source)](#EmfPlusComment-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusComment`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPrivateData()](#getPrivateData--) | يحصل أو يعيّن مصفوفة بايت بطول DataSize من البيانات الخاصة. |
-| [setPrivateData(byte[] value)](#setPrivateData-byte---) | يحصل أو يعيّن مصفوفة بايت بطول DataSize من البيانات الخاصة. |
+| [getPrivateData()](#getPrivateData--) | يحصل أو يضبط مصفوفة بايت بطول DataSize من البيانات الخاصة. |
+| [setPrivateData(byte[] value)](#setPrivateData-byte---) | يحصل أو يضبط مصفوفة بايت بطول DataSize من البيانات الخاصة. |
 | [getFlags()](#getFlags--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت غير مستخدم. |
 | [setFlags(short value)](#setFlags-short-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت غير مستخدم. |
 ### EmfPlusComment(EmfPlusRecord source) {#EmfPlusComment-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
@@ -32,7 +32,7 @@ public EmfPlusComment(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfPlusComment`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPlusComment`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public byte[] getPrivateData()
 ```
 
 
-يحصل أو يعيّن مصفوفة بايت بطول DataSize من البيانات الخاصة. بايتات من بيانات السجل المحددة التي تلي.
+يحصل أو يضبط مصفوفة بايت بطول DataSize من البيانات الخاصة. بايتات من البيانات الخاصة بالسجل التي تلي ذلك.
 
 **Returns:**
 byte[]
@@ -55,12 +55,12 @@ public void setPrivateData(byte[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة بايت بطول DataSize من البيانات الخاصة. بايتات من بيانات السجل المحددة التي تلي.
+يحصل أو يضبط مصفوفة بايت بطول DataSize من البيانات الخاصة. بايتات من البيانات الخاصة بالسجل التي تلي ذلك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -71,7 +71,7 @@ public short getFlags()
 يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت غير مستخدم. يجب ضبط هذا الحقل على الصفر ويجب تجاهله عند الاستلام.
 
 **Returns:**
-short
+قصير
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
@@ -83,5 +83,5 @@ public void setFlags(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

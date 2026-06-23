@@ -1,18 +1,18 @@
 ---
 title: "CdrRectangle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr مستطيل"
+description: "مستطيل cdr"
 type: docs
 weight: 37
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrrectangle/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrRectangle extends CdrGraphicObject
 ```
 
-ال cdr مستطيل
+مستطيل cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,14 +22,14 @@ public class CdrRectangle extends CdrGraphicObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getR3()](#getR3--) | يحصل على ال r3. |
-| [setR3(double value)](#setR3-double-) | يضبط ال r3. |
-| [getR2()](#getR2--) | يحصل على ال r2. |
-| [setR2(double value)](#setR2-double-) | يضبط ال r2. |
-| [getR1()](#getR1--) | يحصل على ال r1. |
-| [setR1(double value)](#setR1-double-) | يضبط ال r1. |
-| [getR0()](#getR0--) | يحصل على ال r0. |
-| [setR0(double value)](#setR0-double-) | يضبط ال r0. |
+| [getR3()](#getR3--) | يحصل على r3. |
+| [setR3(double value)](#setR3-double-) | يضبط r3. |
+| [getR2()](#getR2--) | يحصل على r2. |
+| [setR2(double value)](#setR2-double-) | يضبط r2. |
+| [getR1()](#getR1--) | يحصل على r1. |
+| [setR1(double value)](#setR1-double-) | يضبط r1. |
+| [getR0()](#getR0--) | يحصل على r0. |
+| [setR0(double value)](#setR0-double-) | يضبط r0. |
 | [getCornerType()](#getCornerType--) | يحصل على نوع الزاوية. |
 | [setCornerType(int value)](#setCornerType-int-) | يضبط نوع الزاوية. |
 | [getScaleX()](#getScaleX--) | يحصل على مقياس x. |
@@ -48,22 +48,22 @@ public final double getR3()
 ```
 
 
-يحصل على ال r3.
+يحصل على r3.
 
 **Returns:**
-double - ال r3.
+double - r3.
 ### setR3(double value) {#setR3-double-}
 ```
 public final void setR3(double value)
 ```
 
 
-يضبط ال r3.
+يضبط r3.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | ال r3. |
+| value | double | r3. |
 
 ### getR2() {#getR2--}
 ```
@@ -71,22 +71,22 @@ public final double getR2()
 ```
 
 
-يحصل على ال r2.
+يحصل على r2.
 
 **Returns:**
-double - ال r2.
+double - r2.
 ### setR2(double value) {#setR2-double-}
 ```
 public final void setR2(double value)
 ```
 
 
-يضبط ال r2.
+يضبط r2.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | ال r2. |
+| value | double | r2. |
 
 ### getR1() {#getR1--}
 ```
@@ -94,22 +94,22 @@ public final double getR1()
 ```
 
 
-يحصل على ال r1.
+يحصل على r1.
 
 **Returns:**
-double - ال r1.
+double - r1.
 ### setR1(double value) {#setR1-double-}
 ```
 public final void setR1(double value)
 ```
 
 
-يضبط ال r1.
+يضبط r1.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | ال r1. |
+| value | double | r1. |
 
 ### getR0() {#getR0--}
 ```
@@ -117,22 +117,22 @@ public final double getR0()
 ```
 
 
-يحصل على ال r0.
+يحصل على r0.
 
 **Returns:**
-double - ال r0.
+double - r0.
 ### setR0(double value) {#setR0-double-}
 ```
 public final void setR0(double value)
 ```
 
 
-يضبط ال r0.
+يضبط r0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | ال r0. |
+| value | double | ال r0. |
 
 ### getCornerType() {#getCornerType--}
 ```
@@ -155,7 +155,7 @@ public final void setCornerType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع الزاوية. |
+| value | int | نوع الزاوية. |
 
 ### getScaleX() {#getScaleX--}
 ```
@@ -178,7 +178,7 @@ public final void setScaleX(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | مقياس x. |
+| value | double | مقياس x. |
 
 ### getScaleY() {#getScaleY--}
 ```
@@ -201,5 +201,5 @@ public final void setScaleY(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | مقياس y. |
+| value | double | مقياس y. |
 

@@ -17,17 +17,17 @@ public class OdPolyLine extends OdPolygon
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdPolyLine(OdObject parent)](#OdPolyLine-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdPolyLine`. |
+| [OdPolyLine(OdObject parent)](#OdPolyLine-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلاً جديدًا للفئة `OdPolyLine`. |
 ### OdPolyLine(OdObject parent) {#OdPolyLine-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdPolyLine(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdPolyLine`.
+يُنشئ مثيلاً جديدًا للفئة `OdPolyLine`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 

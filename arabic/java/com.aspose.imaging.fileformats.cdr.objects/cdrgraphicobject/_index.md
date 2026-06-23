@@ -1,7 +1,7 @@
 ---
 title: "CdrGraphicObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr كائن رسومي"
+description: "كائن رسومي cdr"
 type: docs
 weight: 23
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class CdrGraphicObject extends CdrObject
 ```
 
-ال cdr كائن رسومي
+كائن رسومي cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -28,8 +28,8 @@ public abstract class CdrGraphicObject extends CdrObject
 | [setHeight(double value)](#setHeight-double-) | يضبط y. |
 | [getBoundsInPixels()](#getBoundsInPixels--) | يحصل على الحدود بالبكسل. |
 | [setBoundsInPixels(RectangleF value)](#setBoundsInPixels-com.aspose.imaging.RectangleF-) | يضبط الحدود بالبكسل. |
-| [getClipId()](#getClipId--) | يحصل على معرف المقطع. |
-| [setClipId(short value)](#setClipId-short-) | يضبط معرف المقطع. |
+| [getClipId()](#getClipId--) | يحصل على معرف القص. |
+| [setClipId(short value)](#setClipId-short-) | يضبط معرف القص. |
 ### CdrGraphicObject() {#CdrGraphicObject--}
 ```
 public CdrGraphicObject()
@@ -45,7 +45,7 @@ public double getWidth()
 يحصل على x.
 
 **Returns:**
-double - المتغير x
+double - الـ x
 ### setWidth(double value) {#setWidth-double-}
 ```
 public void setWidth(double value)
@@ -57,7 +57,7 @@ public void setWidth(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | المتغير x |
+| value | double | الـ x |
 
 ### getHeight() {#getHeight--}
 ```
@@ -80,7 +80,7 @@ public void setHeight(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | المتغير y. |
+| value | double | الـ y. |
 
 ### getBoundsInPixels() {#getBoundsInPixels--}
 ```
@@ -111,24 +111,24 @@ public final short getClipId()
 ```
 
 
-يحصل على معرف المقطع.
+يحصل على معرف القص.
 
-القيمة: معرف المقطع.
+القيمة: معرف القص.
 
 **Returns:**
-short - معرف المقطع.
+short - معرف القص.
 ### setClipId(short value) {#setClipId-short-}
 ```
 public final void setClipId(short value)
 ```
 
 
-يضبط معرف المقطع.
+يضبط معرف القص.
 
-القيمة: معرف المقطع.
+القيمة: معرف القص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | معرف المقطع. |
+| value | قصير | معرف القص. |
 

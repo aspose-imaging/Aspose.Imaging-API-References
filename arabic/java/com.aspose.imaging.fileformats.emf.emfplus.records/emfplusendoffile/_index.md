@@ -1,23 +1,23 @@
 ---
 title: "EmfPlusEndOfFile"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusEndOfFile يحدد نهاية بيانات EMF في ملف التعريف."
+description: "سجل EmfPlusEndOfFile يحدد نهاية بيانات EMF في ملف الميتا."
 type: docs
 weight: 31
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusendoffile/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusControlRecordType](../../com.aspose.imaging/fileformats.emf.emfplus.records/emfpluscontrolrecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusControlRecordType](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfpluscontrolrecordtype)
 ```
 public final class EmfPlusEndOfFile extends EmfPlusControlRecordType
 ```
 
-يسجل EmfPlusEndOfFile يحدد نهاية بيانات EMF+ في ملف التعريف.
+سجل EmfPlusEndOfFile يحدد نهاية بيانات EMF+ في ملف التعريف.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusEndOfFile(EmfPlusRecord source)](#EmfPlusEndOfFile-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ نسخة جديدة من الفئة `EmfPlusEndOfFile`. |
+| [EmfPlusEndOfFile(EmfPlusRecord source)](#EmfPlusEndOfFile-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusEndOfFile`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusEndOfFile(EmfPlusRecord source)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `EmfPlusEndOfFile`.
+ينشئ مثيلًا جديدًا من الفئة `EmfPlusEndOfFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public short getFlags()
 يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت غير مستخدم. يجب ضبط هذا الحقل على الصفر ويجب تجاهله عند الاستلام.
 
 **Returns:**
-short
+قصير
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
@@ -58,5 +58,5 @@ public void setFlags(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

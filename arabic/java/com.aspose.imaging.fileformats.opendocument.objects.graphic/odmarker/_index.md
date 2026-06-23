@@ -7,7 +7,7 @@ weight: 29
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdMarker extends OdGraphicObject
 ```
@@ -17,15 +17,15 @@ public class OdMarker extends OdGraphicObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdMarker(OdObject parent)](#OdMarker-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdMarker`. |
+| [OdMarker(OdObject parent)](#OdMarker-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلاً جديداً من الفئة `OdMarker`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | الحصول على أو تعيين المستطيل. |
-| [setRectangle(RectangleF value)](#setRectangle-com.aspose.imaging.RectangleF-) | الحصول على أو تعيين المستطيل. |
-| [getPathCommands()](#getPathCommands--) | يحصل أو يعيّن أوامر المسار. |
-| [setPathCommands(OdGraphicObject[] value)](#setPathCommands-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يعيّن أوامر المسار. |
+| [getRectangle()](#getRectangle--) | يحصل أو يعيّن المستطيل. |
+| [setRectangle(RectangleF value)](#setRectangle-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن المستطيل. |
+| [getPathCommands()](#getPathCommands--) | يحصل أو يضبط أوامر المسار. |
+| [setPathCommands(OdGraphicObject[] value)](#setPathCommands-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يضبط أوامر المسار. |
 | [getName()](#getName--) | يحصل أو يضبط الاسم. |
 | [setName(String value)](#setName-java.lang.String-) | يحصل أو يضبط الاسم. |
 ### OdMarker(OdObject parent) {#OdMarker-com.aspose.imaging.fileformats.opendocument.OdObject-}
@@ -34,12 +34,12 @@ public OdMarker(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdMarker`.
+ينشئ مثيلاً جديداً من الفئة `OdMarker`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getRectangle() {#getRectangle--}
 ```
@@ -47,7 +47,7 @@ public RectangleF getRectangle()
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The rectangle.
@@ -57,7 +57,7 @@ public void setRectangle(RectangleF value)
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public OdGraphicObject[] getPathCommands()
 ```
 
 
-يحصل أو يعيّن أوامر المسار.
+يحصل أو يضبط أوامر المسار.
 
 **Returns:**
 com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject[] - أوامر المسار.
@@ -80,7 +80,7 @@ public void setPathCommands(OdGraphicObject[] value)
 ```
 
 
-يحصل أو يعيّن أوامر المسار.
+يحصل أو يضبط أوامر المسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -108,5 +108,5 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الاسم. |
+| value | java.lang.String | الاسم. |
 

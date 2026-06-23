@@ -7,7 +7,7 @@ weight: 41
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusFocusScaleData extends EmfPlusStructureObjectType
 ```
@@ -22,12 +22,12 @@ public final class EmfPlusFocusScaleData extends EmfPlusStructureObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFocusScaleX()](#getFocusScaleX--) | يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الأفقي. |
-| [setFocusScaleX(float value)](#setFocusScaleX-float-) | يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الأفقي. |
-| [getFocusScaleY()](#getFocusScaleY--) | يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الرأسي. |
-| [setFocusScaleY(float value)](#setFocusScaleY-float-) | يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الرأسي. |
-| [getFocusScaleCount()](#getFocusScaleCount--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد مقاييس التركيز. |
-| [setFocusScaleCount(int value)](#setFocusScaleCount-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد مقاييس التركيز. |
+| [getFocusScaleX()](#getFocusScaleX--) | يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز الأفقي. |
+| [setFocusScaleX(float value)](#setFocusScaleX-float-) | يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز الأفقي. |
+| [getFocusScaleY()](#getFocusScaleY--) | يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز العمودي. |
+| [setFocusScaleY(float value)](#setFocusScaleY-float-) | يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز العمودي. |
+| [getFocusScaleCount()](#getFocusScaleCount--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد مقاييس التركيز. |
+| [setFocusScaleCount(int value)](#setFocusScaleCount-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد مقاييس التركيز. |
 ### EmfPlusFocusScaleData() {#EmfPlusFocusScaleData--}
 ```
 public EmfPlusFocusScaleData()
@@ -40,7 +40,7 @@ public float getFocusScaleX()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الأفقي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
+يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز الأفقي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
 
 **Returns:**
 float
@@ -50,12 +50,12 @@ public void setFocusScaleX(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الأفقي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
+يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز الأفقي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getFocusScaleY() {#getFocusScaleY--}
 ```
@@ -63,7 +63,7 @@ public float getFocusScaleY()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الرأسي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
+يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز العمودي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
 
 **Returns:**
 float
@@ -73,12 +73,12 @@ public void setFocusScaleY(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة تحدد مقياس التركيز الرأسي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
+يحصل أو يعيّن قيمة عددية عائمة تحدد مقياس التركيز العمودي. يجب أن يكون مقياس التركيز قيمة بين 0.0 و 1.0، غير شاملة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getFocusScaleCount() {#getFocusScaleCount--}
 ```
@@ -86,7 +86,7 @@ public int getFocusScaleCount()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد مقاييس التركيز. يجب أن تكون هذه القيمة 2.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد مقاييس التركيز. يجب أن تكون هذه القيمة 2.
 
 **Returns:**
 int
@@ -96,10 +96,10 @@ public void setFocusScaleCount(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد مقاييس التركيز. يجب أن تكون هذه القيمة 2.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد مقاييس التركيز. يجب أن تكون هذه القيمة 2.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

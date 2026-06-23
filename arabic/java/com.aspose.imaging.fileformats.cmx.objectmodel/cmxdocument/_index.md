@@ -17,20 +17,20 @@ public class CmxDocument
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CmxDocument()](#CmxDocument--) | يُنشئ مثيلاً جديدًا للفئة [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) |
+| [CmxDocument()](#CmxDocument--) | ينشئ مثيلاً جديداً من الفئة [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPages()](#getPages--) | يحصل على صفحات المستند الحالي. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 ### CmxDocument() {#CmxDocument--}
 ```
 public CmxDocument()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument)
+ينشئ مثيلاً جديداً من الفئة [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument).
 
 ### getPages() {#getPages--}
 ```
@@ -48,7 +48,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

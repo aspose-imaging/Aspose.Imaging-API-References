@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.masking.result/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [MaskingResult](../com.aspose.imaging.masking.result/maskingresult) | الفئة الأساسية المجردة التي يمكنها توفير صورة النتيجة من نظام إخفاء الصور. |
 

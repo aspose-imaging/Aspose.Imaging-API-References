@@ -17,16 +17,16 @@ public final class EmfPlusStringAlignment extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [StringAlignmentNear](#StringAlignmentNear) | يحدد أن محاذاة السلسلة باتجاه أصل مستطيل التخطيط. |
-| [StringAlignmentCenter](#StringAlignmentCenter) | يحدد أن المحاذاة متمركزة بين أصل وامتداد مستطيل التخطيط. |
-| [StringAlignmentFar](#StringAlignmentFar) | يحدد أن المحاذاة إلى الجانب الأيمن من مستطيل التخطيط. |
+| [StringAlignmentNear](#StringAlignmentNear) | يحدد أن محاذاة السلسلة تكون باتجاه أصل مستطيل التخطيط. |
+| [StringAlignmentCenter](#StringAlignmentCenter) | يحدد أن المحاذاة متمركزة بين أصل ومستوى مستطيل التخطيط. |
+| [StringAlignmentFar](#StringAlignmentFar) | يحدد أن المحاذاة تكون إلى الجانب الأيمن من مستطيل التخطيط. |
 ### StringAlignmentNear {#StringAlignmentNear}
 ```
 public static final int StringAlignmentNear
 ```
 
 
-يحدد أن محاذاة السلسلة باتجاه أصل مستطيل التخطيط. يمكن استخدام ذلك لمحاذاة الأحرف على طول خط أو لمحاذاة النص داخل مستطيل. بالنسبة لمستطيل تخطيط من اليمين إلى اليسار، يجب أن يكون الأصل SHOULD في الأعلى إلى اليمين.
+يحدد أن محاذاة السلسلة تكون باتجاه أصل مستطيل التخطيط. يمكن استخدام ذلك لمحاذاة الأحرف على طول خط أو لمحاذاة النص داخل مستطيل. بالنسبة لمستطيل تخطيط من اليمين إلى اليسار، يجب أن يكون الأصل في الأعلى إلى اليمين.
 
 ### StringAlignmentCenter {#StringAlignmentCenter}
 ```
@@ -34,7 +34,7 @@ public static final int StringAlignmentCenter
 ```
 
 
-يحدد أن المحاذاة متمركزة بين أصل وامتداد مستطيل التخطيط.
+يحدد أن المحاذاة متمركزة بين أصل ومستوى مستطيل التخطيط.
 
 ### StringAlignmentFar {#StringAlignmentFar}
 ```
@@ -42,5 +42,5 @@ public static final int StringAlignmentFar
 ```
 
 
-يحدد أن المحاذاة إلى الجانب الأيمن من مستطيل التخطيط.
+يحدد أن المحاذاة تكون إلى الجانب الأيمن من مستطيل التخطيط.
 

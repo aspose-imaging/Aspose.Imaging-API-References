@@ -7,7 +7,7 @@ weight: 24
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject), [com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject), [com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject](../../com.aspose.imaging/fileformats/wmf.objects/wmfgraphicobject)
 ```
 public class WmfCreatePenInDirect extends WmfGraphicObject
 ```
@@ -22,8 +22,8 @@ public class WmfCreatePenInDirect extends WmfGraphicObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getLogPen()](#getLogPen--) | يحصل أو يضبط log pen. |
-| [setLogPen(EmfLogPen value)](#setLogPen-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPen-) | يحصل أو يضبط log pen. |
+| [getLogPen()](#getLogPen--) | يحصل أو يضبط الـ log pen. |
+| [setLogPen(EmfLogPen value)](#setLogPen-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPen-) | يحصل أو يضبط الـ log pen. |
 ### WmfCreatePenInDirect() {#WmfCreatePenInDirect--}
 ```
 public WmfCreatePenInDirect()
@@ -38,9 +38,9 @@ public EmfLogPen getLogPen()
 ```
 
 
-يحصل أو يضبط log pen.
+يحصل أو يضبط الـ log pen.
 
-القيمة: log pen.
+القيمة: القلم السجلي.
 
 **Returns:**
 [EmfLogPen](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogpen)
@@ -50,9 +50,9 @@ public void setLogPen(EmfLogPen value)
 ```
 
 
-يحصل أو يضبط log pen.
+يحصل أو يضبط الـ log pen.
 
-القيمة: log pen.
+القيمة: القلم السجلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |

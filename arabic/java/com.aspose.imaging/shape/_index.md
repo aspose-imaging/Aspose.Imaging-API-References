@@ -1,5 +1,5 @@
 ---
-title: "الشكل"
+title: "Shape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "الشكل."
 type: docs
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging
 public abstract class Shape extends ObjectWithBounds
 ```
 
-الشكل. مجموعة مستمرة من النقاط متصلة باستخدام قاعدة محددة.
+الشكل. مجموعة مستمرة من النقاط المتصلة باستخدام قاعدة محددة.
 ## المنشئات
 
 | المنشئ | الوصف |

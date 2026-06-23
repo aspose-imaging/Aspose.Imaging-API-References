@@ -7,7 +7,7 @@ weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging/fileformats/cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxGroup extends CmxContainer
 ```
@@ -22,9 +22,9 @@ public class CmxGroup extends CmxContainer
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBoundBox()](#getBoundBox--) | يحصل على الصندوق المحيط. |
-| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط الصندوق المحيط. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [getBoundBox()](#getBoundBox--) | يحصل على صندوق الإحاطة. |
+| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط صندوق الإحاطة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
 ### CmxGroup() {#CmxGroup--}
@@ -39,7 +39,7 @@ public final RectangleF getBoundBox()
 ```
 
 
-يحصل على الصندوق المحيط.
+يحصل على صندوق الإحاطة.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - the bounding box.
@@ -49,12 +49,12 @@ public final void setBoundBox(RectangleF value)
 ```
 
 
-يضبط الصندوق المحيط.
+يضبط صندوق الإحاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | المربع المحيط. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | صندوق الإحاطة. |
 
 ### toString() {#toString--}
 ```
@@ -62,7 +62,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

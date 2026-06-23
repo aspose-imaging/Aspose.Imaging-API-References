@@ -1,7 +1,7 @@
 ---
 title: "EmfPolylineTo"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EMR_POLYLINETO يحدد خطًا أو أكثر مستقيمًا بناءً على الموضع الحالي."
+description: "سجل EMR_POLYLINETO يحدد خطًا أو أكثر مستقيمًا بناءً على الموضع الحالي."
 type: docs
 weight: 103
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolylineto/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolylineTo extends EmfPolyShape
 ```
 
-سجل EMR\_POLYLINETO يحدد خطًا واحدًا أو أكثر مستقيمًا استنادًا إلى الموضع الحالي.
+السجل EMR\_POLYLINETO يحدد خطًا أو أكثر مستقيمًا استنادًا إلى الموضع الحالي.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPolylineTo(EmfRecord source)](#EmfPolylineTo-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPolylineTo`. |
-| [EmfPolylineTo()](#EmfPolylineTo--) | يُنشئ مثيلاً جديدًا للفئة `EmfPolylineTo`. |
+| [EmfPolylineTo(EmfRecord source)](#EmfPolylineTo-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPolylineTo`. |
+| [EmfPolylineTo()](#EmfPolylineTo--) | ينشئ مثيلاً جديدًا من الفئة `EmfPolylineTo`. |
 ### EmfPolylineTo(EmfRecord source) {#EmfPolylineTo-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolylineTo(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfPolylineTo`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPolylineTo`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,5 +38,5 @@ public EmfPolylineTo()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfPolylineTo`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPolylineTo`.
 

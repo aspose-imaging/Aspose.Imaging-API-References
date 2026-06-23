@@ -73,7 +73,7 @@ public static final byte ObjectTypeImage
 ```
 
 
-يحدد كائن [EmfPlusImage](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage) (القسم 2.2.1.4). كائنات الصورة تغلف ملفات البت ماب وملفات الميتا.
+يحدد كائن [EmfPlusImage](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage) (القسم 2.2.1.4). كائنات الصورة تغلف ملفات البت ماب والملفات الوصفية.
 
 ### ObjectTypeFont {#ObjectTypeFont}
 ```
@@ -97,7 +97,7 @@ public static final byte ObjectTypeImageAttributes
 ```
 
 
-يحدد كائن [EmfPlusImageAttributes](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes) (القسم 2.2.1.5). كائنات سمات الصورة تحدد عمليات على البكسلات أثناء عرض الصورة، بما في ذلك تعديل اللون، تعديل التدرج الرمادي، تصحيح جاما، وتخطيط اللون.
+يحدد كائن [EmfPlusImageAttributes](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes) (القسم 2.2.1.5). كائنات سمات الصورة تحدد عمليات على البكسلات أثناء عرض الصورة، بما في ذلك تعديل اللون، تعديل التدرج الرمادي، تصحيح غاما، وتعيين الألوان.
 
 ### ObjectTypeCustomLineCap {#ObjectTypeCustomLineCap}
 ```
@@ -105,5 +105,5 @@ public static final byte ObjectTypeCustomLineCap
 ```
 
 
-يحدد كائن [EmfPlusCustomLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap) (القسم 2.2.1.2). كائنات رأس الخط المخصص تحدد أشكالًا للرسم عند نهايات خط الرسومات، بما في ذلك المربعات، الدوائر، والماس.
+يحدد كائن [EmfPlusCustomLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap) (القسم 2.2.1.2). كائنات غطاء الخط المخصص تحدد أشكالًا للرسم في نهايات خط الرسومات، بما في ذلك المربعات، الدوائر، والماس.
 

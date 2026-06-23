@@ -1,7 +1,7 @@
 ---
 title: "MetafileRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تمثيل الرسوميات للملف الوصفي"
+description: "خيارات تمثيل الرسوم النقطية للملف الوصفي"
 type: docs
 weight: 28
 url: /ar/java/com.aspose.imaging.imageoptions/metafilerasterizationoptions/
@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public abstract class MetafileRasterizationOptions extends VectorRasterizationOptions
 ```
 
-خيارات تمثيل الرسوميات للملف الوصفي
+خيارات تمثيل الرسوم النقطية للملف الوصفي

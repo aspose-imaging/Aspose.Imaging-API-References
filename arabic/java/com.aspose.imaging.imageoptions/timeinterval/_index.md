@@ -17,15 +17,15 @@ public class TimeInterval
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TimeInterval(long from, long to)](#TimeInterval-long-long-) | ينشئ مثيلًا جديدًا من الفئة [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval). |
+| [TimeInterval(long from, long to)](#TimeInterval-long-long-) | يُنشئ مثيلاً جديدًا من الفئة [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFrom()](#getFrom--) | يحصل على From بالمليثانية. |
-| [setFrom(long value)](#setFrom-long-) | يضبط From بالمليثانية. |
-| [getTo()](#getTo--) | يحصل على To بالمليثانية. |
-| [setTo(long value)](#setTo-long-) | يضبط To بالمليثانية. |
+| [getFrom()](#getFrom--) | يحصل على From بالمللي ثانية. |
+| [setFrom(long value)](#setFrom-long-) | يضبط From بالمللي ثانية. |
+| [getTo()](#getTo--) | يحصل على To بالمللي ثانية. |
+| [setTo(long value)](#setTo-long-) | يضبط To بالمللي ثانية. |
 
 ## Example: Export of part of animation from GIF image based on time interval.
 
@@ -49,13 +49,13 @@ public TimeInterval(long from, long to)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval).
+يُنشئ مثيلاً جديدًا من الفئة [TimeInterval](../../com.aspose.imaging.imageoptions/timeinterval).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| من | long | From بالمليثانية. |
-| إلى | long | إلى مللي ثانية. |
+| من | long | From بالمللي ثانية. |
+| إلى | long | To بالمللي ثانية. |
 
 ### getFrom() {#getFrom--}
 ```
@@ -63,7 +63,7 @@ public final long getFrom()
 ```
 
 
-يحصل على From بالمليثانية.
+يحصل على From بالمللي ثانية.
 
 **Returns:**
 long
@@ -73,12 +73,12 @@ public final void setFrom(long value)
 ```
 
 
-يضبط From بالمليثانية.
+يضبط From بالمللي ثانية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getTo() {#getTo--}
 ```
@@ -86,7 +86,7 @@ public final long getTo()
 ```
 
 
-يحصل على To بالمليثانية.
+يحصل على To بالمللي ثانية.
 
 **Returns:**
 long
@@ -96,10 +96,10 @@ public final void setTo(long value)
 ```
 
 
-يضبط To بالمليثانية.
+يضبط To بالمللي ثانية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 

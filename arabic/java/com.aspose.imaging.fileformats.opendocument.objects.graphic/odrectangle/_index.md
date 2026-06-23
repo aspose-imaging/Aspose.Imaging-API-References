@@ -17,25 +17,25 @@ public class OdRectangle extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdRectangle(OdObject parent)](#OdRectangle-com.aspose.imaging.fileformats.opendocument.OdObject-) | إنشاء مثيل جديد من الفئة `OdRectangle`. |
+| [OdRectangle(OdObject parent)](#OdRectangle-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلاً جديداً من الفئة `OdRectangle`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCornerRadius()](#getCornerRadius--) | يحصل أو يعيّن نصف قطر الزاوية. |
-| [setCornerRadius(float value)](#setCornerRadius-float-) | يحصل أو يعيّن نصف قطر الزاوية. |
+| [getCornerRadius()](#getCornerRadius--) | يحصل أو يضبط نصف قطر الزاوية. |
+| [setCornerRadius(float value)](#setCornerRadius-float-) | يحصل أو يضبط نصف قطر الزاوية. |
 ### OdRectangle(OdObject parent) {#OdRectangle-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdRectangle(OdObject parent)
 ```
 
 
-إنشاء مثيل جديد من الفئة `OdRectangle`.
+ينشئ مثيلاً جديداً من الفئة `OdRectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getCornerRadius() {#getCornerRadius--}
 ```
@@ -43,7 +43,7 @@ public float getCornerRadius()
 ```
 
 
-يحصل أو يعيّن نصف قطر الزاوية.
+يحصل أو يضبط نصف قطر الزاوية.
 
 **Returns:**
 float - نصف قطر الزاوية.
@@ -53,10 +53,10 @@ public void setCornerRadius(float value)
 ```
 
 
-يحصل أو يعيّن نصف قطر الزاوية.
+يحصل أو يضبط نصف قطر الزاوية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | نصف قطر الزاوية. |
+| value | float | نصف قطر الزاوية. |
 

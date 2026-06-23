@@ -1,18 +1,18 @@
 ---
 title: "WmfSetPolyFillMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "وضع تعبئة المتعدد الأضلاع."
+description: "وضع تعبئة المضلع."
 type: docs
 weight: 81
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetPolyFillMode extends WmfObject
 ```
 
-وضع تعبئة المتعدد الأضلاع.
+وضع تعبئة المضلع.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class WmfSetPolyFillMode extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPolyFillMode()](#getPolyFillMode--) | يحصل أو يضبط وضع التعبئة المتعدد. |
-| [setPolyFillMode(short value)](#setPolyFillMode-short-) | يحصل أو يضبط وضع التعبئة المتعدد. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(int value)](#setReserved-int-) | يحصل أو يعيّن الحجز. |
+| [getPolyFillMode()](#getPolyFillMode--) | يحصل أو يضبط وضع تعبئة المتعدد. |
+| [setPolyFillMode(short value)](#setPolyFillMode-short-) | يحصل أو يضبط وضع تعبئة المتعدد. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(int value)](#setReserved-int-) | يحصل أو يضبط الحجز. |
 ### WmfSetPolyFillMode() {#WmfSetPolyFillMode--}
 ```
 public WmfSetPolyFillMode()
@@ -38,26 +38,26 @@ public short getPolyFillMode()
 ```
 
 
-يحصل أو يضبط وضع التعبئة المتعدد.
+يحصل أو يضبط وضع تعبئة المتعدد.
 
-القيمة: وضع التعبئة المتعدد.
+القيمة: وضع تعبئة المتعدد.
 
 **Returns:**
-short
+قصير
 ### setPolyFillMode(short value) {#setPolyFillMode-short-}
 ```
 public void setPolyFillMode(short value)
 ```
 
 
-يحصل أو يضبط وضع التعبئة المتعدد.
+يحصل أو يضبط وضع تعبئة المتعدد.
 
-القيمة: وضع التعبئة المتعدد.
+القيمة: وضع تعبئة المتعدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -65,7 +65,7 @@ public int getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
@@ -77,12 +77,12 @@ public void setReserved(int value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

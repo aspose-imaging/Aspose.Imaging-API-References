@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.dng/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [DngException](../com.aspose.imaging.fileformats.dng/dngexception) | فئة استثناء DNG |
-| [DngImage](../com.aspose.imaging.fileformats.dng/dngimage) | واجهة برمجة التطبيقات لمعالجة تنسيق ملف صورة DNG (Digital Negative) المستخدم لاحتياجات التصوير الفوتوغرافي الرقمي من خلال توفير دعم شامل للملفات الخام والبيانات الوصفية. |
+| [DngImage](../com.aspose.imaging.fileformats.dng/dngimage) | واجهة برمجة التطبيقات لمعالجة تنسيق ملف الصورة DNG (Digital Negative) المستخدم لاحتياجات التصوير الفوتوغرافي الرقمي من خلال توفير دعم شامل للملفات الخام والبيانات الوصفية. |

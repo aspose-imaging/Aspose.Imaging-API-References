@@ -1,7 +1,7 @@
 ---
 title: "WebPFrameBlock"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل سجل مُفتَتحات كتل WebP."
+description: "يمثّل سجل مفتاح فتح كتل webp."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.webp/webpframeblock/
@@ -15,13 +15,13 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class WebPFrameBlock extends RasterCachedImage implements IFrame, IAnimationFrame
 ```
 
-يمثل سجل مُفتَتحات كتل WebP.
+يمثّل سجل مفتاح فتح كتل webp.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WebPFrameBlock(RasterImage rasterImage)](#WebPFrameBlock-com.aspose.imaging.RasterImage-) | ينشئ مثيلًا جديدًا من الفئة `WebPFrameBlock`. |
-| [WebPFrameBlock(int width, int height)](#WebPFrameBlock-int-int-) | ينشئ مثيلًا جديدًا من الفئة `WebPFrameBlock`. |
+| [WebPFrameBlock(RasterImage rasterImage)](#WebPFrameBlock-com.aspose.imaging.RasterImage-) | ينشئ نسخة جديدة من الفئة `WebPFrameBlock`. |
+| [WebPFrameBlock(int width, int height)](#WebPFrameBlock-int-int-) | ينشئ نسخة جديدة من الفئة `WebPFrameBlock`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,19 +30,19 @@ public class WebPFrameBlock extends RasterCachedImage implements IFrame, IAnimat
 | [getHeight()](#getHeight--) | يحصل على ارتفاع الصورة. |
 | [getWidth()](#getWidth--) | يحصل على عرض الصورة. |
 | [hasAlpha()](#hasAlpha--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا. |
-| [getDuration()](#getDuration--) | يحصل أو يعيّن مدة الإطار. |
-| [setDuration(short value)](#setDuration-short-) | يحصل أو يعيّن مدة الإطار. |
-| [getLeft()](#getLeft--) | يحصل أو يعيّن الموضع الأيسر للإطار. |
-| [setLeft(short value)](#setLeft-short-) | يحصل أو يعيّن الموضع الأيسر للإطار. |
-| [getTop()](#getTop--) | يحصل أو يعيّن الموضع العلوي للإطار. |
-| [setTop(short value)](#setTop-short-) | يحصل أو يعيّن الموضع العلوي للإطار. |
+| [getDuration()](#getDuration--) | يحصل أو يضبط مدة الإطار. |
+| [setDuration(short value)](#setDuration-short-) | يحصل أو يضبط مدة الإطار. |
+| [getLeft()](#getLeft--) | يحصل أو يضبط موضع الإطار من اليسار. |
+| [setLeft(short value)](#setLeft-short-) | يحصل أو يضبط موضع الإطار من اليسار. |
+| [getTop()](#getTop--) | يحصل أو يضبط موضع الإطار من الأعلى. |
+| [setTop(short value)](#setTop-short-) | يحصل أو يضبط موضع الإطار من الأعلى. |
 | [getFrameTime()](#getFrameTime--) | يحصل على مدة الإطار. |
 | [getFrameTop()](#getFrameTop--) | يحصل على إزاحة أعلى الإطار. |
 | [getFrameLeft()](#getFrameLeft--) | يحصل على إزاحة يسار الإطار. |
 | [getDisposalMethod()](#getDisposalMethod--) | يحصل على طريقة التخلص. |
-| [setDisposalMethod(int value)](#setDisposalMethod-int-) | يعيّن طريقة التخلص. |
-| [isUseAlphaBlending()](#isUseAlphaBlending--) | يحصل على القيمة التي تشير إلى ما إذا كان الإطار الحالي يُدمج مع قيم ألفا للإطار السابق. |
-| [setUseAlphaBlending(boolean value)](#setUseAlphaBlending-boolean-) | يعيّن القيمة التي تشير إلى ما إذا كان الإطار الحالي يُدمج مع قيم ألفا للإطار السابق. |
+| [setDisposalMethod(int value)](#setDisposalMethod-int-) | يضبط طريقة التخلص. |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | يحصل على القيمة التي تشير إلى ما إذا كان الإطار الحالي يدمج مع قيم ألفا للإطار السابق. |
+| [setUseAlphaBlending(boolean value)](#setUseAlphaBlending-boolean-) | يضبط القيمة التي تشير إلى ما إذا كان الإطار الحالي يدمج مع قيم ألفا للإطار السابق. |
 | [getFullFrame()](#getFullFrame--) | يحصل على الإطار الكامل. |
 ### WebPFrameBlock(RasterImage rasterImage) {#WebPFrameBlock-com.aspose.imaging.RasterImage-}
 ```
@@ -50,7 +50,7 @@ public WebPFrameBlock(RasterImage rasterImage)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `WebPFrameBlock`.
+ينشئ نسخة جديدة من الفئة `WebPFrameBlock`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,13 +63,13 @@ public WebPFrameBlock(int width, int height)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `WebPFrameBlock`.
+ينشئ نسخة جديدة من الفئة `WebPFrameBlock`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -110,7 +110,7 @@ public boolean hasAlpha()
 يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا.
 
 **Returns:**
-boolean - `true` إذا كان هذا الكائن يحتوي على ألفا؛ وإلا `false`.
+منطقي - `true` إذا كان لهذه الحالة ألفا؛ وإلا `false`.
 
 **Example: The following example loads a WEBP image and prints information about raw data format and alpha channel.**
 
@@ -121,7 +121,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName);
 try {
     com.aspose.imaging.fileformats.webp.WebPImage webpImage = (com.aspose.imaging.fileformats.webp.WebPImage) image;
 
-    // إذا كان الإطار النشط لملف TIFF يحتوي على قناة ألفا، فإن صورة TIFF بأكملها تُعتبر ذات قناة ألفا.
+    // إذا كان إطار TIFF النشط يحتوي على قناة ألفا، فسيُعتبر أن صورة TIFF بأكملها تحتوي على قناة ألفا.
     System.out.printf("ImageFile=%s, FileFormat=%s, HasAlpha=%s\r\n", fileName, webpImage.getRawDataFormat(), webpImage.hasAlpha());
 
     int i = 0;
@@ -146,7 +146,7 @@ public short getDuration()
 ```
 
 
-يحصل أو يعيّن مدة الإطار.
+يحصل أو يضبط مدة الإطار.
 
 **Returns:**
 short - المدة.
@@ -156,12 +156,12 @@ public void setDuration(short value)
 ```
 
 
-يحصل أو يعيّن مدة الإطار.
+يحصل أو يضبط مدة الإطار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | المدة. |
+| value | قصير | المدة. |
 
 ### getLeft() {#getLeft--}
 ```
@@ -169,7 +169,7 @@ public short getLeft()
 ```
 
 
-يحصل أو يعيّن الموضع الأيسر للإطار.
+يحصل أو يضبط موضع الإطار من اليسار.
 
 **Returns:**
 short - اليسار.
@@ -179,12 +179,12 @@ public void setLeft(short value)
 ```
 
 
-يحصل أو يعيّن الموضع الأيسر للإطار.
+يحصل أو يضبط موضع الإطار من اليسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | اليسار. |
+| value | قصير | اليسار. |
 
 ### getTop() {#getTop--}
 ```
@@ -192,7 +192,7 @@ public short getTop()
 ```
 
 
-يحصل أو يعيّن الموضع العلوي للإطار.
+يحصل أو يضبط موضع الإطار من الأعلى.
 
 **Returns:**
 short - الأعلى.
@@ -202,12 +202,12 @@ public void setTop(short value)
 ```
 
 
-يحصل أو يعيّن الموضع العلوي للإطار.
+يحصل أو يضبط موضع الإطار من الأعلى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | الأعلى. |
+| value | قصير | الأعلى. |
 
 ### getFrameTime() {#getFrameTime--}
 ```
@@ -248,21 +248,21 @@ public final int getDisposalMethod()
 يحصل على طريقة التخلص.
 
 **Returns:**
-int - طريقة التخلص.
+عدد صحيح - طريقة التخلص.
 ### setDisposalMethod(int value) {#setDisposalMethod-int-}
 ```
 public final void setDisposalMethod(int value)
 ```
 
 
-يعيّن طريقة التخلص.
+يضبط طريقة التخلص.
 
 القيمة: طريقة التخلص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | طريقة التخلص. |
+| value | int | طريقة التخلص. |
 
 ### isUseAlphaBlending() {#isUseAlphaBlending--}
 ```
@@ -270,26 +270,26 @@ public final boolean isUseAlphaBlending()
 ```
 
 
-يحصل على القيمة التي تشير إلى ما إذا كان الإطار الحالي يُدمج مع قيم ألفا للإطار السابق.
+يحصل على القيمة التي تشير إلى ما إذا كان الإطار الحالي يدمج مع قيم ألفا للإطار السابق.
 
 القيمة: `` إذا كان هذا الإطار يستخدم الدمج ألفا؛ وإلا، ``.
 
 **Returns:**
-boolean - القيمة التي تشير إلى ما إذا كان الإطار الحالي يُدمج مع قيم ألفا للإطار السابق.
+boolean - القيمة التي تشير إلى ما إذا كان الإطار الحالي يتم دمجه مع قيم ألفا للإطار السابق.
 ### setUseAlphaBlending(boolean value) {#setUseAlphaBlending-boolean-}
 ```
 public final void setUseAlphaBlending(boolean value)
 ```
 
 
-يعيّن القيمة التي تشير إلى ما إذا كان الإطار الحالي يُدمج مع قيم ألفا للإطار السابق.
+يضبط القيمة التي تشير إلى ما إذا كان الإطار الحالي يدمج مع قيم ألفا للإطار السابق.
 
 القيمة: `` إذا كان هذا الإطار يستخدم الدمج ألفا؛ وإلا، ``.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تشير إلى ما إذا كان الإطار الحالي يُدمج مع قيم ألفا للإطار السابق. |
+| value | boolean | القيمة التي تشير إلى ما إذا كان الإطار الحالي يتم دمجه مع قيم ألفا للإطار السابق. |
 
 ### getFullFrame() {#getFullFrame--}
 ```

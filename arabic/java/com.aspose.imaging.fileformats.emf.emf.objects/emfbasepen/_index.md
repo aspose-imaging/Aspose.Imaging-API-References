@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emfbasepen/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
 ```
 public abstract class EmfBasePen extends EmfObject
 ```
@@ -57,7 +57,7 @@ public abstract void setPenStyle(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getArgb32ColorRef() {#getArgb32ColorRef--}
 ```
@@ -84,5 +84,5 @@ public abstract void setArgb32ColorRef(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

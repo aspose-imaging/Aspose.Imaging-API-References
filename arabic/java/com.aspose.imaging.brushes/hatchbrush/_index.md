@@ -1,7 +1,7 @@
 ---
 title: "HatchBrush"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يعرّف فرشاة مستطيلة ذات نمط تخطيط ولون أمامي ولون خلفية."
+description: "يعرّف فرشاة مستطيلة بنمط تظليل ولون أمامي ولون خلفي."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.brushes/hatchbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class HatchBrush extends Brush
 ```
 
-يعرّف فرشاة مستطيلة ذات نمط تخطيط، ولون أمامي، ولون خلفية. لا يمكن وراثة هذه الفئة.
+يعرّف فرشاة مستطيلة بنمط تظليل، ولون أمامي، ولون خلفي. لا يمكن وراثة هذه الفئة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,46 +22,46 @@ public final class HatchBrush extends Brush
 
 | طريقة | الوصف |
 | --- | --- |
-| [getForegroundColor()](#getForegroundColor--) | يحصل على لون خطوط التخطيط. |
-| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.imaging.Color-) | يضبط لون خطوط التخطيط. |
-| [getBackgroundColor()](#getBackgroundColor--) | يحصل على لون الفراغات بين خطوط التخطيط. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | يضبط لون الفراغات بين خطوط التخطيط. |
-| [getHatchStyle()](#getHatchStyle--) | يحصل على نمط التخطيط لهذه الفرشاة. |
+| [getForegroundColor()](#getForegroundColor--) | يحصل على لون خطوط التظليل. |
+| [setForegroundColor(Color value)](#setForegroundColor-com.aspose.imaging.Color-) | يضبط لون خطوط التظليل. |
+| [getBackgroundColor()](#getBackgroundColor--) | يحصل على لون الفواصل بين خطوط التظليل. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | يضبط لون الفواصل بين خطوط التظليل. |
+| [getHatchStyle()](#getHatchStyle--) | يحصل على نمط التظليل لهذه الفرشاة. |
 | [setHatchStyle(int value)](#setHatchStyle-int-) | يضبط نمط التظليل لهذه الفرشاة. |
 
 ## Example: This example shows the creation and usage Pen objects.
-يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة Image ويرسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 ``` java
 
-// إنشاء مثيل من BmpOptions وتعيين خصائصه المتنوعة.
+// أنشئ مثيلاً من BmpOptions واضبط خصائصه المتنوعة.
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+// أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 // المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// إنشاء نسخة من Image في المسار المحدد.
+// إنشاء نسخة من Image في المسار المحدد
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    // إنشاء نسخة من Graphics وتهيئتها باستخدام كائن Image.
+    // إنشاء نسخة من Graphics وتهيئتها بكائن Image
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
 
-    // امسح سطح Graphics باستخدام White Color.
+    // امسح سطح Graphics باللون الأبيض
     graphics.clear(com.aspose.imaging.Color.getWhite());
 
-    // إنشاء نسخة من Pen باللون الأحمر وعرض 5.
+    // إنشاء نسخة من Pen باللون الأحمر وعرض 5
     com.aspose.imaging.Pen pen = new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 5);
 
-    // إنشاء نسخة من HatchBrush وتعيين خصائصه.
+    // إنشاء نسخة من HatchBrush وتعيين خصائصه
     com.aspose.imaging.brushes.HatchBrush brush = new com.aspose.imaging.brushes.HatchBrush();
     brush.setBackgroundColor(com.aspose.imaging.Color.getWheat());
     brush.setForegroundColor(com.aspose.imaging.Color.getRed());
 
-    // إنشاء نسخة من Pen وتهيئتها باستخدام كائن HatchBrush والعرض.
+    // إنشاء نسخة من Pen وتهيئتها بكائن HatchBrush والعرض
     com.aspose.imaging.Pen brushedpen = new com.aspose.imaging.Pen(brush, 5);
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(pen, new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(210, 210), new com.aspose.imaging.Size(100, 100)),
@@ -69,7 +69,7 @@ try {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(310, 310), new com.aspose.imaging.Size(100, 100))
             });
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(
             brushedpen,
             new com.aspose.imaging.Rectangle[]
@@ -97,7 +97,7 @@ public Color getForegroundColor()
 ```
 
 
-يحصل على لون خطوط التخطيط.
+يحصل على لون خطوط التظليل.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The color of hatch lines.
@@ -107,7 +107,7 @@ public void setForegroundColor(Color value)
 ```
 
 
-يضبط لون خطوط التخطيط.
+يضبط لون خطوط التظليل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -116,38 +116,38 @@ public void setForegroundColor(Color value)
 
 
 **Example: This example shows the creation and usage Pen objects.**
-يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة Image ويرسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 ``` java
 
-// إنشاء مثيل من BmpOptions وتعيين خصائصه المتنوعة.
+// أنشئ مثيلاً من BmpOptions واضبط خصائصه المتنوعة.
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+// أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 // المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// إنشاء نسخة من Image في المسار المحدد.
+// إنشاء نسخة من Image في المسار المحدد
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    // إنشاء نسخة من Graphics وتهيئتها باستخدام كائن Image.
+    // إنشاء نسخة من Graphics وتهيئتها بكائن Image
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
 
-    // امسح سطح Graphics باستخدام White Color.
+    // امسح سطح Graphics باللون الأبيض
     graphics.clear(com.aspose.imaging.Color.getWhite());
 
-    // إنشاء نسخة من Pen باللون الأحمر وعرض 5.
+    // إنشاء نسخة من Pen باللون الأحمر وعرض 5
     com.aspose.imaging.Pen pen = new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 5);
 
-    // إنشاء نسخة من HatchBrush وتعيين خصائصه.
+    // إنشاء نسخة من HatchBrush وتعيين خصائصه
     com.aspose.imaging.brushes.HatchBrush brush = new com.aspose.imaging.brushes.HatchBrush();
     brush.setBackgroundColor(com.aspose.imaging.Color.getWheat());
     brush.setForegroundColor(com.aspose.imaging.Color.getRed());
 
-    // إنشاء نسخة من Pen وتهيئتها باستخدام كائن HatchBrush والعرض.
+    // إنشاء نسخة من Pen وتهيئتها بكائن HatchBrush والعرض
     com.aspose.imaging.Pen brushedpen = new com.aspose.imaging.Pen(brush, 5);
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(pen, new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(210, 210), new com.aspose.imaging.Size(100, 100)),
@@ -155,7 +155,7 @@ try {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(310, 310), new com.aspose.imaging.Size(100, 100))
             });
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(
             brushedpen,
             new com.aspose.imaging.Rectangle[]
@@ -177,7 +177,7 @@ public Color getBackgroundColor()
 ```
 
 
-يحصل على لون الفراغات بين خطوط التخطيط.
+يحصل على لون الفواصل بين خطوط التظليل.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The color of spaces between the hatch lines.
@@ -187,47 +187,47 @@ public void setBackgroundColor(Color value)
 ```
 
 
-يضبط لون الفراغات بين خطوط التخطيط.
+يضبط لون الفواصل بين خطوط التظليل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | لون الفراغات بين خطوط التظليل. |
+| value | [Color](../../com.aspose.imaging/color) | لون الفواصل بين خطوط التظليل. |
 
 
 **Example: This example shows the creation and usage Pen objects.**
-يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة Image ويرسم مستطيلات على سطح الصورة.
+يوضح هذا المثال إنشاء واستخدام كائنات Pen. ينشئ المثال صورة جديدة ويرسم مستطيلات على سطح الصورة.
 ``` java
 
-// إنشاء مثيل من BmpOptions وتعيين خصائصه المتنوعة.
+// أنشئ مثيلاً من BmpOptions واضبط خصائصه المتنوعة.
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+// أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 // المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// إنشاء نسخة من Image في المسار المحدد.
+// إنشاء نسخة من Image في المسار المحدد
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    // إنشاء نسخة من Graphics وتهيئتها باستخدام كائن Image.
+    // إنشاء نسخة من Graphics وتهيئتها بكائن Image
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
 
-    // امسح سطح Graphics باستخدام White Color.
+    // امسح سطح Graphics باللون الأبيض
     graphics.clear(com.aspose.imaging.Color.getWhite());
 
-    // إنشاء نسخة من Pen باللون الأحمر وعرض 5.
+    // إنشاء نسخة من Pen باللون الأحمر وعرض 5
     com.aspose.imaging.Pen pen = new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 5);
 
-    // إنشاء نسخة من HatchBrush وتعيين خصائصه.
+    // إنشاء نسخة من HatchBrush وتعيين خصائصه
     com.aspose.imaging.brushes.HatchBrush brush = new com.aspose.imaging.brushes.HatchBrush();
     brush.setBackgroundColor(com.aspose.imaging.Color.getWheat());
     brush.setForegroundColor(com.aspose.imaging.Color.getRed());
 
-    // إنشاء نسخة من Pen وتهيئتها باستخدام كائن HatchBrush والعرض.
+    // إنشاء نسخة من Pen وتهيئتها بكائن HatchBrush والعرض
     com.aspose.imaging.Pen brushedpen = new com.aspose.imaging.Pen(brush, 5);
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(pen, new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(210, 210), new com.aspose.imaging.Size(100, 100)),
@@ -235,7 +235,7 @@ try {
                     new com.aspose.imaging.Rectangle(new com.aspose.imaging.Point(310, 310), new com.aspose.imaging.Size(100, 100))
             });
 
-    // ارسم مستطيلات بتحديد كائن Pen.
+    // ارسم مستطيلات بتحديد كائن Pen
     graphics.drawRectangles(
             brushedpen,
             new com.aspose.imaging.Rectangle[]
@@ -257,7 +257,7 @@ public int getHatchStyle()
 ```
 
 
-يحصل على نمط التخطيط لهذه الفرشاة.
+يحصل على نمط التظليل لهذه الفرشاة.
 
 **Returns:**
 int
@@ -272,5 +272,5 @@ public void setHatchStyle(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

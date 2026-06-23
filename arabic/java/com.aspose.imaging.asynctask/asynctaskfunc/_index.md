@@ -1,7 +1,7 @@
 ---
 title: "AsyncTaskFunc"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "المندوب الخاص بالعملية الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام."
+description: "المندوب للعمليات الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.asynctask/asynctaskfunc/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class AsyncTaskFunc extends System.MulticastDelegate
 ```
 
-المندوب الخاص بالعملية الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام.
+المندوب للعمليات الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,7 +22,7 @@ public abstract class AsyncTaskFunc extends System.MulticastDelegate
 
 | طريقة | الوصف |
 | --- | --- |
-| [invoke(IAsyncTaskState taskState)](#invoke-com.aspose.imaging.asynctask.IAsyncTaskState-) | المندوب الخاص بالعملية الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام. |
+| [invoke(IAsyncTaskState taskState)](#invoke-com.aspose.imaging.asynctask.IAsyncTaskState-) | المندوب للعمليات الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام. |
 | [beginInvoke(IAsyncTaskState taskState, System.AsyncCallback callback, Object state)](#beginInvoke-com.aspose.imaging.asynctask.IAsyncTaskState-com.aspose.ms.System.AsyncCallback-java.lang.Object-) |  |
 | [endInvoke(System.IAsyncResult result)](#endInvoke-com.aspose.ms.System.IAsyncResult-) |  |
 ### AsyncTaskFunc() {#AsyncTaskFunc--}
@@ -37,7 +37,7 @@ public abstract Object invoke(IAsyncTaskState taskState)
 ```
 
 
-المندوب الخاص بالعملية الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام.
+المندوب للعمليات الطويلة للمهمة غير المتزامنة مع نتيجة من نوع عام.
 
 **Parameters:**
 | معامل | نوع | الوصف |

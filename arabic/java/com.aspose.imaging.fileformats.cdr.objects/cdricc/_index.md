@@ -1,7 +1,7 @@
 ---
 title: "CdrIcc"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr ملف تعريف Icc"
+description: "ملف تعريف Icc cdr"
 type: docs
 weight: 24
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdricc/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrIcc extends CdrObjectContainer
 ```
 
-ال cdr ملف تعريف Icc
+ملف تعريف Icc cdr
 ## المنشئات
 
 | المنشئ | الوصف |

@@ -20,46 +20,46 @@ public class TiffStreamWriter extends TiffStreamSeeker implements ISynchronizabl
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffStreamWriter(StreamContainer writer)](#TiffStreamWriter-com.aspose.imaging.StreamContainer-) | ينشئ مثيلاً جديداً من الفئة `TiffStreamWriter`. |
+| [TiffStreamWriter(StreamContainer writer)](#TiffStreamWriter-com.aspose.imaging.StreamContainer-) | يُنشئ مثلاً جديدًا من الفئة `TiffStreamWriter`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getSyncRoot()](#getSyncRoot--) | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى المورد المتزامن. |
-| [getPosition()](#getPosition--) | يسترجع أو يعيّن موضع الدفق. |
-| [setPosition(long value)](#setPosition-long-) | يسترجع أو يعيّن موضع الدفق. |
+| [getPosition()](#getPosition--) | يحصل أو يضبط موضع الدفق. |
+| [setPosition(long value)](#setPosition-long-) | يحصل أو يضبط موضع الدفق. |
 | [write(byte[] data, int offset, int dataLength)](#write-byte---int-int-) | يكتب البيانات المحددة. |
 | [write(byte[] data)](#write-byte---) | يكتب البيانات المحددة. |
 | [writeDouble(double data)](#writeDouble-double-) | يكتب قيمة مزدوجة واحدة إلى الدفق. |
 | [writeDoubleArray(double[] data)](#writeDoubleArray-double---) | يكتب مصفوفة من القيم المزدوجة إلى الدفق. |
 | [writeFloat(float data)](#writeFloat-float-) | يكتب قيمة عائمة واحدة إلى الدفق. |
 | [writeFloatArray(float[] data)](#writeFloatArray-float---) | يكتب مصفوفة من القيم العائمة إلى الدفق. |
-| [writeRational(TiffRational data)](#writeRational-com.aspose.imaging.fileformats.tiff.TiffRational-) | يكتب قيمة عدد نسبي مفردة إلى الدفق. |
-| [writeSRational(TiffSRational data)](#writeSRational-com.aspose.imaging.fileformats.tiff.TiffSRational-) | يكتب قيمة عدد نسبي موقع مفردة إلى الدفق. |
-| [writeRationalArray(TiffRational[] data)](#writeRationalArray-com.aspose.imaging.fileformats.tiff.TiffRational---) | يكتب مصفوفة من القيم العددية النسبية غير الموقعة إلى الدفق. |
-| [writeSRationalArray(TiffSRational[] data)](#writeSRationalArray-com.aspose.imaging.fileformats.tiff.TiffSRational---) | يكتب مصفوفة من القيم العددية النسبية الموقعة إلى الدفق. |
-| [writeSByte(byte data)](#writeSByte-byte-) | يكتب قيمة بايت موقعة مفردة إلى الدفق. |
+| [writeRational(TiffRational data)](#writeRational-com.aspose.imaging.fileformats.tiff.TiffRational-) | يكتب قيمة عدد كسرية واحدة إلى الدفق. |
+| [writeSRational(TiffSRational data)](#writeSRational-com.aspose.imaging.fileformats.tiff.TiffSRational-) | يكتب قيمة عدد كسرية موقعة واحدة إلى الدفق. |
+| [writeRationalArray(TiffRational[] data)](#writeRationalArray-com.aspose.imaging.fileformats.tiff.TiffRational---) | يكتب مصفوفة من القيم الكسرية غير موقعة إلى الدفق. |
+| [writeSRationalArray(TiffSRational[] data)](#writeSRationalArray-com.aspose.imaging.fileformats.tiff.TiffSRational---) | يكتب مصفوفة من القيم الكسرية الموقعة إلى الدفق. |
+| [writeSByte(byte data)](#writeSByte-byte-) | يكتب قيمة بايت موقعة واحدة إلى الدفق. |
 | [writeSByteArray(byte[] data)](#writeSByteArray-byte---) | يكتب مصفوفة من قيم البايت الموقعة إلى الدفق. |
-| [writeIntArray(int[] data)](#writeIntArray-int---) | يكتب مصفوفة من قيم الأعداد الصحيحة إلى الدفق. |
-| [writeSShort(short data)](#writeSShort-short-) | يكتب قيمة short مفردة إلى الدفق. |
-| [writeSShortArray(short[] data)](#writeSShortArray-short---) | يكتب مصفوفة من قيم short إلى الدفق. |
-| [writeSInt(int data)](#writeSInt-int-) | يكتب قيمة integer مفردة إلى الدفق. |
-| [writeUByte(byte data)](#writeUByte-byte-) | يكتب قيمة byte مفردة إلى الدفق. |
-| [writeUInt(long data)](#writeUInt-long-) | يكتب قيمة integer غير موقعة مفردة إلى الدفق. |
-| [writeUIntArray(long[] data)](#writeUIntArray-long---) | يكتب مصفوفة من قيم integer غير موقعة إلى الدفق. |
-| [writeUShort(int data)](#writeUShort-int-) | يكتب قيمة short غير موقعة مفردة إلى الدفق. |
-| [writeUShortArray(int[] data)](#writeUShortArray-int---) | يكتب مصفوفة من قيم short غير موقعة إلى الدفق. |
-| [writeSLong(long data)](#writeSLong-long-) | يكتب مصفوفة من قيم long موقعة إلى الدفق. |
-| [writeSLongArray(long[] data)](#writeSLongArray-long---) | يكتب مصفوفة من قيم long موقعة إلى الدفق. |
-| [writeULong(long data)](#writeULong-long-) | يكتب مصفوفة من قيم long غير موقعة إلى الدفق. |
-| [writeULongArray(long[] data)](#writeULongArray-long---) | يكتب مصفوفة من قيم long غير موقعة إلى الدفق. |
+| [writeIntArray(int[] data)](#writeIntArray-int---) | يكتب مصفوفة من القيم الصحيحة إلى الدفق. |
+| [writeSShort(short data)](#writeSShort-short-) | يكتب قيمة قصيرة واحدة إلى الدفق. |
+| [writeSShortArray(short[] data)](#writeSShortArray-short---) | يكتب مصفوفة من القيم القصيرة إلى الدفق. |
+| [writeSInt(int data)](#writeSInt-int-) | يكتب قيمة صحيحة واحدة إلى الدفق. |
+| [writeUByte(byte data)](#writeUByte-byte-) | يكتب قيمة بايت واحدة إلى الدفق. |
+| [writeUInt(long data)](#writeUInt-long-) | يكتب قيمة صحيحة غير موقعة واحدة إلى الدفق. |
+| [writeUIntArray(long[] data)](#writeUIntArray-long---) | يكتب مصفوفة من القيم الصحيحة غير موقعة إلى الدفق. |
+| [writeUShort(int data)](#writeUShort-int-) | يكتب قيمة قصيرة غير موقعة واحدة إلى الدفق. |
+| [writeUShortArray(int[] data)](#writeUShortArray-int---) | يكتب مصفوفة من القيم القصيرة غير موقعة إلى الدفق. |
+| [writeSLong(long data)](#writeSLong-long-) | يكتب مصفوفة من القيم الطويلة الموقعة إلى الدفق. |
+| [writeSLongArray(long[] data)](#writeSLongArray-long---) | يكتب مصفوفة من القيم الطويلة الموقعة إلى الدفق. |
+| [writeULong(long data)](#writeULong-long-) | يكتب مصفوفة من القيم الطويلة غير موقعة إلى الدفق. |
+| [writeULongArray(long[] data)](#writeULongArray-long---) | يكتب مصفوفة من القيم الطويلة غير موقعة إلى الدفق. |
 ### TiffStreamWriter(StreamContainer writer) {#TiffStreamWriter-com.aspose.imaging.StreamContainer-}
 ```
 public TiffStreamWriter(StreamContainer writer)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffStreamWriter`.
+يُنشئ مثلاً جديدًا من الفئة `TiffStreamWriter`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -84,7 +84,7 @@ public long getPosition()
 ```
 
 
-يسترجع أو يعيّن موضع الدفق.
+يحصل أو يضبط موضع الدفق.
 
 القيمة: موضع الدفق.
 
@@ -96,14 +96,14 @@ public void setPosition(long value)
 ```
 
 
-يسترجع أو يعيّن موضع الدفق.
+يحصل أو يضبط موضع الدفق.
 
 القيمة: موضع الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### write(byte[] data, int offset, int dataLength) {#write-byte---int-int-}
 ```
@@ -191,7 +191,7 @@ public void writeRational(TiffRational data)
 ```
 
 
-يكتب قيمة عدد نسبي مفردة إلى الدفق.
+يكتب قيمة عدد كسرية واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -204,7 +204,7 @@ public void writeSRational(TiffSRational data)
 ```
 
 
-يكتب قيمة عدد نسبي موقع مفردة إلى الدفق.
+يكتب قيمة عدد كسرية موقعة واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -217,7 +217,7 @@ public void writeRationalArray(TiffRational[] data)
 ```
 
 
-يكتب مصفوفة من القيم العددية النسبية غير الموقعة إلى الدفق.
+يكتب مصفوفة من القيم الكسرية غير موقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -230,7 +230,7 @@ public void writeSRationalArray(TiffSRational[] data)
 ```
 
 
-يكتب مصفوفة من القيم العددية النسبية الموقعة إلى الدفق.
+يكتب مصفوفة من القيم الكسرية الموقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -243,7 +243,7 @@ public void writeSByte(byte data)
 ```
 
 
-يكتب قيمة بايت موقعة مفردة إلى الدفق.
+يكتب قيمة بايت موقعة واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -269,7 +269,7 @@ public void writeIntArray(int[] data)
 ```
 
 
-يكتب مصفوفة من قيم الأعداد الصحيحة إلى الدفق.
+يكتب مصفوفة من القيم الصحيحة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -282,12 +282,12 @@ public void writeSShort(short data)
 ```
 
 
-يكتب قيمة short مفردة إلى الدفق.
+يكتب قيمة قصيرة واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| البيانات | short | القيمة للكتابة. |
+| البيانات | قصير | القيمة للكتابة. |
 
 ### writeSShortArray(short[] data) {#writeSShortArray-short---}
 ```
@@ -295,7 +295,7 @@ public void writeSShortArray(short[] data)
 ```
 
 
-يكتب مصفوفة من قيم short إلى الدفق.
+يكتب مصفوفة من القيم القصيرة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -308,7 +308,7 @@ public void writeSInt(int data)
 ```
 
 
-يكتب قيمة integer مفردة إلى الدفق.
+يكتب قيمة صحيحة واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -321,7 +321,7 @@ public void writeUByte(byte data)
 ```
 
 
-يكتب قيمة byte مفردة إلى الدفق.
+يكتب قيمة بايت واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -334,7 +334,7 @@ public void writeUInt(long data)
 ```
 
 
-يكتب قيمة integer غير موقعة مفردة إلى الدفق.
+يكتب قيمة صحيحة غير موقعة واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -347,7 +347,7 @@ public void writeUIntArray(long[] data)
 ```
 
 
-يكتب مصفوفة من قيم integer غير موقعة إلى الدفق.
+يكتب مصفوفة من القيم الصحيحة غير موقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -360,7 +360,7 @@ public void writeUShort(int data)
 ```
 
 
-يكتب قيمة short غير موقعة مفردة إلى الدفق.
+يكتب قيمة قصيرة غير موقعة واحدة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -373,7 +373,7 @@ public void writeUShortArray(int[] data)
 ```
 
 
-يكتب مصفوفة من قيم short غير موقعة إلى الدفق.
+يكتب مصفوفة من القيم القصيرة غير موقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -386,7 +386,7 @@ public final void writeSLong(long data)
 ```
 
 
-يكتب مصفوفة من قيم long موقعة إلى الدفق.
+يكتب مصفوفة من القيم الطويلة الموقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -399,7 +399,7 @@ public final void writeSLongArray(long[] data)
 ```
 
 
-يكتب مصفوفة من قيم long موقعة إلى الدفق.
+يكتب مصفوفة من القيم الطويلة الموقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -412,7 +412,7 @@ public final void writeULong(long data)
 ```
 
 
-يكتب مصفوفة من قيم long غير موقعة إلى الدفق.
+يكتب مصفوفة من القيم الطويلة غير موقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -425,7 +425,7 @@ public final void writeULongArray(long[] data)
 ```
 
 
-يكتب مصفوفة من قيم long غير موقعة إلى الدفق.
+يكتب مصفوفة من القيم الطويلة غير موقعة إلى الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |

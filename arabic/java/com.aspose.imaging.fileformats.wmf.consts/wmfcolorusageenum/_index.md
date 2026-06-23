@@ -1,7 +1,7 @@
 ---
 title: "WmfColorUsageEnum"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد تعداد ColorUsage ما إذا كان جدول الألوان موجودًا في صورة نقطية مستقلة عن الجهاز (DIB) وكيفية تفسير قيمه."
+description: "تحدد تعداد ColorUsage ما إذا كان جدول الألوان موجودًا في صورة bitmap مستقلة عن الجهاز وكيفية تفسير قيمه."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WmfColorUsageEnum extends System.Enum
 ```
 
-التعداد ColorUsage يحدد ما إذا كان جدول الألوان موجوداً في bitmap مستقل عن الجهاز (DIB) وكيفية تفسير قيمه.
+تعداد ColorUsage يحدد ما إذا كان جدول ألوان موجودًا في بت ماب مستقل عن الجهاز (DIB) وكيفية تفسير قيمه.
 ## الحقول
 
 | حقل | الوصف |

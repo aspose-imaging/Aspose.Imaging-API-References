@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 
 **All Implemented Interfaces:**
 [com.aspose.imaging.fileformats.cmx.objectmodel.ICmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/icmxcontainer)

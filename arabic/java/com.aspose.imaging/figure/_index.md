@@ -17,15 +17,15 @@ public class Figure extends ObjectWithBounds
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Figure()](#Figure--) | ينشئ مثيلًا جديدًا لـ [Figure](../../com.aspose.imaging/figure). |
+| [Figure()](#Figure--) | ينشئ مثيلًا جديدًا من [Figure](../../com.aspose.imaging/figure). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getShapes()](#getShapes--) | يحصل على أشكال الشكل. |
-| [getBounds()](#getBounds--) | يحصل أو يعيّن حدود الكائن. |
+| [getShapes()](#getShapes--) | يسترجع أشكال الشكل. |
+| [getBounds()](#getBounds--) | يحصل أو يضبط حدود الكائن. |
 | [isClosed()](#isClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا الشكل مغلقًا. |
-| [setClosed(boolean value)](#setClosed-boolean-) | يعيّن قيمة تشير إلى ما إذا كان هذا الشكل مغلقًا. |
+| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الشكل مغلقًا. |
 | [getSegments()](#getSegments--) | يحصل على جميع مقاطع الشكل. |
 | [addShape(Shape shape)](#addShape-com.aspose.imaging.Shape-) | يضيف شكلاً إلى الشكل. |
 | [addShapes(Shape[] shapes)](#addShapes-com.aspose.imaging.Shape---) | يضيف مجموعة من الأشكال إلى الشكل. |
@@ -47,7 +47,7 @@ try {
     // إنشاء نسخة من TiffOptions وتعيين خصائصه المتنوعة
     com.aspose.imaging.imageoptions.TiffOptions tiffOptions = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-    // تعيين المصدر لنسخة من ImageOptions
+    // تعيين المصدر لنسخة ImageOptions
     tiffOptions.setSource(new com.aspose.imaging.sources.StreamSource(stream));
 
     // إنشاء نسخة من Image
@@ -104,7 +104,7 @@ public Shape[] getShapes()
 ```
 
 
-يحصل على أشكال الشكل.
+يسترجع أشكال الشكل.
 
 **Returns:**
 com.aspose.imaging.Shape[] - أشكال الشكل.
@@ -114,7 +114,7 @@ public RectangleF getBounds()
 ```
 
 
-يحصل أو يعيّن حدود الكائن.
+يحصل أو يضبط حدود الكائن.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The object's bounds.
@@ -139,7 +139,7 @@ public void setClosed(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `True` إذا كان هذا الشكل مغلقًا؛ وإلا `false`. |
+| value | boolean | `True` إذا كان هذا الشكل مغلقًا؛ وإلا `false`. |
 
 ### getSegments() {#getSegments--}
 ```
@@ -162,7 +162,7 @@ public void addShape(Shape shape)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| shape | [Shape](../../com.aspose.imaging/shape) | الشكل المراد إضافته. |
+| shape | [Shape](../../com.aspose.imaging/shape) | الشكل للإضافة. |
 
 
 **Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
@@ -174,7 +174,7 @@ try {
     // إنشاء نسخة من TiffOptions وتعيين خصائصه المتنوعة
     com.aspose.imaging.imageoptions.TiffOptions tiffOptions = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-    // تعيين المصدر لنسخة من ImageOptions
+    // تعيين المصدر لنسخة ImageOptions
     tiffOptions.setSource(new com.aspose.imaging.sources.StreamSource(stream));
 
     // إنشاء نسخة من Image
@@ -228,7 +228,7 @@ public void addShapes(Shape[] shapes)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| shapes | [Shape\[\]](../../com.aspose.imaging/shape) | الأشكال المراد إضافتها. |
+| shapes | [Shape\[\]](../../com.aspose.imaging/shape) | الأشكال للإضافة. |
 
 ### removeShape(Shape shape) {#removeShape-com.aspose.imaging.Shape-}
 ```
@@ -241,7 +241,7 @@ public void removeShape(Shape shape)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| shape | [Shape](../../com.aspose.imaging/shape) | الشكل المراد إزالته. |
+| shape | [Shape](../../com.aspose.imaging/shape) | الشكل للإزالة. |
 
 ### removeShapes(Shape[] shapes) {#removeShapes-com.aspose.imaging.Shape---}
 ```
@@ -254,7 +254,7 @@ public void removeShapes(Shape[] shapes)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| shapes | [Shape\[\]](../../com.aspose.imaging/shape) | نطاق الأشكال المراد إزالته. |
+| shapes | [Shape\[\]](../../com.aspose.imaging/shape) | نطاق الأشكال للإزالة. |
 
 ### reverse() {#reverse--}
 ```
@@ -275,7 +275,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -290,8 +290,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
-| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر ذلك على حجم حدود الكائن. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
+| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر هذا على حجم حدود الكائن. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -306,7 +306,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل المراد تطبيقه. |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل الذي سيتم تطبيقه. |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```

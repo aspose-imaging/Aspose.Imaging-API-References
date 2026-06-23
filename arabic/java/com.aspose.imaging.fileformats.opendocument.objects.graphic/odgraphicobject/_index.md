@@ -1,7 +1,7 @@
 ---
 title: "OdGraphicObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن الرسوميات للمستند المفتوح."
+description: "كائن الرسم للمستند المفتوح."
 type: docs
 weight: 23
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/
@@ -12,30 +12,30 @@ java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../c
 public class OdGraphicObject extends OdObject
 ```
 
-كائن الرسوميات للمستند المفتوح.
+كائن الرسم للمستند المفتوح.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdGraphicObject(OdObject parent)](#OdGraphicObject-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdGraphicObject`. |
+| [OdGraphicObject(OdObject parent)](#OdGraphicObject-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdGraphicObject`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getAbsoluteCoordinates()](#getAbsoluteCoordinates--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان [absolute coordinates]. |
-| [setAbsoluteCoordinates(boolean value)](#setAbsoluteCoordinates-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان [absolute coordinates]. |
+| [getAbsoluteCoordinates()](#getAbsoluteCoordinates--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت [absolute coordinates]. |
+| [setAbsoluteCoordinates(boolean value)](#setAbsoluteCoordinates-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت [absolute coordinates]. |
 ### OdGraphicObject(OdObject parent) {#OdGraphicObject-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdGraphicObject(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdGraphicObject`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdGraphicObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getAbsoluteCoordinates() {#getAbsoluteCoordinates--}
 ```
@@ -43,20 +43,20 @@ public boolean getAbsoluteCoordinates()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان [absolute coordinates].
+يحصل أو يعيّن قيمة تشير إلى ما إذا كانت [absolute coordinates].
 
 **Returns:**
-منطقي - `true` إذا كان [absolute coordinates]؛ وإلا `false`.
+منطقي - `true` إذا كانت [absolute coordinates]؛ وإلا `false`.
 ### setAbsoluteCoordinates(boolean value) {#setAbsoluteCoordinates-boolean-}
 ```
 public void setAbsoluteCoordinates(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان [absolute coordinates].
+يحصل أو يعيّن قيمة تشير إلى ما إذا كانت [absolute coordinates].
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان [absolute coordinates]؛ وإلا `false`. |
+| value | boolean | `true` إذا كانت [absolute coordinates]؛ وإلا `false`. |
 

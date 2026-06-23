@@ -17,21 +17,21 @@ public final class EmfStrokePath extends EmfDrawingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfStrokePath(EmfRecord record)](#EmfStrokePath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfStrokePath`. |
-| [EmfStrokePath()](#EmfStrokePath--) | ينشئ مثيلًا جديدًا من الفئة `EmfStrokePath`. |
+| [EmfStrokePath(EmfRecord record)](#EmfStrokePath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُهيئ نسخة جديدة من الفئة `EmfStrokePath`. |
+| [EmfStrokePath()](#EmfStrokePath--) | يُهيئ نسخة جديدة من الفئة `EmfStrokePath`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL 128 بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز. |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL 128 بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز. |
+| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز |
 ### EmfStrokePath(EmfRecord record) {#EmfStrokePath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfStrokePath(EmfRecord record)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfStrokePath`.
+يُهيئ نسخة جديدة من الفئة `EmfStrokePath`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public EmfStrokePath()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfStrokePath`.
+يُهيئ نسخة جديدة من الفئة `EmfStrokePath`.
 
 ### getBounds() {#getBounds--}
 ```
@@ -52,7 +52,7 @@ public Rectangle getBounds()
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL 128 بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز.
+يحصل أو يعيّن كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -62,7 +62,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL 128 بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز.
+يحصل أو يعيّن كائن WMF RectL 128‑بت ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الحدّي بوحدات الجهاز
 
 **Parameters:**
 | معامل | نوع | الوصف |

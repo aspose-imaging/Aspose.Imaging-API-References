@@ -1,7 +1,7 @@
 ---
 title: "CdrTransforms"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr تحويلات كائن"
+description: "كائن تحويلات cdr"
 type: docs
 weight: 42
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrtransforms/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrTransforms extends CdrObject
 ```
 
-ال cdr تحويلات كائن
+كائن تحويلات cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -51,5 +51,5 @@ public final void setTransforms(List<Matrix> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.List<com.aspose.imaging.Matrix> | التحويلات. |
+| value | java.util.List<com.aspose.imaging.Matrix> | التحويلات. |
 

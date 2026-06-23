@@ -61,7 +61,7 @@ public final void setCharacterSpacing(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | تباعد الأحرف. |
+| value | float | تباعد الأحرف. |
 
 ### getLanguageSpacing() {#getLanguageSpacing--}
 ```
@@ -84,7 +84,7 @@ public final void setLanguageSpacing(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | تباعد اللغة. |
+| value | float | تباعد اللغة. |
 
 ### getWordSpacing() {#getWordSpacing--}
 ```
@@ -107,7 +107,7 @@ public final void setWordSpacing(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | تباعد الكلمات. |
+| value | float | تباعد الكلمات. |
 
 ### getLineSpacing() {#getLineSpacing--}
 ```
@@ -130,7 +130,7 @@ public final void setLineSpacing(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | تباعد السطر. |
+| value | float | تباعد السطر. |
 
 ### getHorizontalAlignment() {#getHorizontalAlignment--}
 ```
@@ -153,7 +153,7 @@ public final void setHorizontalAlignment(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | المحاذاة الأفقية. |
+| value | int | المحاذاة الأفقية. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

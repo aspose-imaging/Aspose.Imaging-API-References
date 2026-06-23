@@ -1,7 +1,7 @@
 ---
 title: "Jpeg2000Options"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إنشاء ملفات صور JPEG2000 JP2 باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من تقنية الموجات المتقدمة لتشفير المحتوى غير الفاقد."
+description: "إنشاء ملفات صور JPEG2000 JP2 باستخدام واجهة برمجة التطبيقات الخاصة بنا مستفيدًا من تقنية الموجات المتقدمة لتشفير المحتوى غير الفاقد."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.imaging.imageoptions/jpeg2000options/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class Jpeg2000Options extends ImageOptionsBase
 ```
 
-إنشاء ملفات صور JPEG2000 (JP2) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من تقنية الموجات المتقدمة لتشفير المحتوى غير الفاقد. استفد من الدعم لمختلف الترميزات، بما في ذلك الضغط غير القابل للعكس والضغط غير الفاقد، وكذلك حاويات بيانات XMP، مما يضمن مرونة وإنشاء صور عالية الجودة وفقًا لاحتياجاتك.
+إنشاء ملفات صور JPEG2000 (JP2) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من تقنية الموجات المتقدمة لتشفير المحتوى غير الفاقد. استفد من الدعم لمختلف المشفرات، بما في ذلك الضغط غير القابل للعكس والضغط غير الفاقد، بالإضافة إلى حاويات بيانات XMP، مما يضمن مرونة وإنشاء صور عالية الجودة وفقًا لاحتياجاتك.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,14 +23,14 @@ public class Jpeg2000Options extends ImageOptionsBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getComments()](#getComments--) | يحصل أو يعيّن علامات تعليقات Jpeg. |
-| [setComments(String[] value)](#setComments-java.lang.String---) | يحصل أو يعيّن علامات تعليقات Jpeg. |
-| [getCodec()](#getCodec--) | يحصل أو يعيّن برنامج الترميز JPEG2000. |
-| [setCodec(int value)](#setCodec-int-) | يحصل أو يعيّن برنامج الترميز JPEG2000. |
-| [getCompressionRatios()](#getCompressionRatios--) | يحصل أو يعيّن مصفوفة نسب الضغط. |
-| [setCompressionRatios(int[] value)](#setCompressionRatios-int---) | يحصل أو يعيّن مصفوفة نسب الضغط. |
-| [getIrreversible()](#getIrreversible--) | يحصل على قيمة تشير إلى ما إذا كان يستخدم تحويل الموجة المتقطعة غير القابل للعكس DWT 9-7 (صحيح) أو يستخدم ضغط DWT 5-3 غير الفاقد (الافتراضي). |
-| [setIrreversible(boolean value)](#setIrreversible-boolean-) | يعيّن قيمة تشير إلى ما إذا كان يستخدم تحويل الموجة المتقطعة غير القابل للعكس DWT 9-7 (صحيح) أو يستخدم ضغط DWT 5-3 غير الفاقد (الافتراضي). |
+| [getComments()](#getComments--) | يحصل أو يضبط علامات تعليقات Jpeg. |
+| [setComments(String[] value)](#setComments-java.lang.String---) | يحصل أو يضبط علامات تعليقات Jpeg. |
+| [getCodec()](#getCodec--) | يحصل أو يضبط مشفر JPEG2000 |
+| [setCodec(int value)](#setCodec-int-) | يحصل أو يضبط مشفر JPEG2000 |
+| [getCompressionRatios()](#getCompressionRatios--) | يحصل أو يضبط مصفوفة نسب الضغط. |
+| [setCompressionRatios(int[] value)](#setCompressionRatios-int---) | يحصل أو يضبط مصفوفة نسب الضغط. |
+| [getIrreversible()](#getIrreversible--) | يحصل على قيمة تشير إلى ما إذا كان يستخدم DWT غير القابل للعكس 9-7 (true) أو يستخدم ضغط DWT غير الفاقد 5-3 (الافتراضي). |
+| [setIrreversible(boolean value)](#setIrreversible-boolean-) | يضبط قيمة تشير إلى ما إذا كان يستخدم DWT غير القابل للعكس 9-7 (true) أو يستخدم ضغط DWT غير الفاقد 5-3 (الافتراضي). |
 
 ## Example: The following example shows how to convert a multipage vector image to JPEG 2000 format in general way without referencing to a particular image type.
 
@@ -91,7 +91,7 @@ public String[] getComments()
 ```
 
 
-يحصل أو يعيّن علامات تعليقات Jpeg.
+يحصل أو يضبط علامات تعليقات Jpeg.
 
 **Returns:**
 java.lang.String[] - علامات تعليقات Jpeg.
@@ -101,12 +101,12 @@ public void setComments(String[] value)
 ```
 
 
-يحصل أو يعيّن علامات تعليقات Jpeg.
+يحصل أو يضبط علامات تعليقات Jpeg.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String[] | علامات تعليقات Jpeg. |
+| value | java.lang.String[] | علامات تعليقات Jpeg. |
 
 ### getCodec() {#getCodec--}
 ```
@@ -114,22 +114,22 @@ public int getCodec()
 ```
 
 
-يحصل أو يعيّن برنامج الترميز JPEG2000.
+يحصل أو يضبط مشفر JPEG2000
 
 **Returns:**
-int - برنامج الترميز JPEG2000
+int - مشفر JPEG2000
 ### setCodec(int value) {#setCodec-int-}
 ```
 public void setCodec(int value)
 ```
 
 
-يحصل أو يعيّن برنامج الترميز JPEG2000.
+يحصل أو يضبط مشفر JPEG2000
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | برنامج الترميز JPEG2000 |
+| value | int | مشفر JPEG2000 |
 
 
 **Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**
@@ -137,7 +137,7 @@ public void setCodec(int value)
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
@@ -151,7 +151,7 @@ try {
     // استخدم تحويل الموجة المتقطعة غير القابل للعكس 9-7
     saveOptions.setIrreversible(true);
 
-    // JP2 هو تنسيق "الحاوية" لتدفقات شفرة JPEG 2000.
+    // JP2 هو تنسيق "الحاوية" لـ JPEG 2000 codestreams.
     // J2K هو بيانات مضغوطة خام، بدون غلاف.
     saveOptions.setCodec(com.aspose.imaging.fileformats.jpeg2000.Jpeg2000Codec.J2K);
 
@@ -168,7 +168,7 @@ public int[] getCompressionRatios()
 ```
 
 
-يحصل أو يعيّن مصفوفة نسب الضغط. نسب ضغط مختلفة للطبقات المتتالية. المعدل المحدد لكل مستوى جودة هو عامل الضغط المطلوب. يلزم تقليل النسب.
+يحصل أو يضبط الـ Array لنسبة الضغط. نسب ضغط مختلفة للطبقات المتتالية. المعدل المحدد لكل مستوى جودة هو عامل الضغط المطلوب. نسب الانخفاض مطلوبة.
 
 **Returns:**
 int[] - نسب الضغط.
@@ -178,12 +178,12 @@ public void setCompressionRatios(int[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة نسب الضغط. نسب ضغط مختلفة للطبقات المتتالية. المعدل المحدد لكل مستوى جودة هو عامل الضغط المطلوب. يلزم تقليل النسب.
+يحصل أو يضبط الـ Array لنسبة الضغط. نسب ضغط مختلفة للطبقات المتتالية. المعدل المحدد لكل مستوى جودة هو عامل الضغط المطلوب. نسب الانخفاض مطلوبة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | نسب الضغط. |
+| value | int[] | نسب الضغط. |
 
 ### getIrreversible() {#getIrreversible--}
 ```
@@ -191,22 +191,22 @@ public boolean getIrreversible()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان يستخدم تحويل الموجة المتقطعة غير القابل للعكس DWT 9-7 (صحيح) أو يستخدم ضغط DWT 5-3 غير الفاقد (الافتراضي).
+يحصل على قيمة تشير إلى ما إذا كان يستخدم DWT غير القابل للعكس 9-7 (true) أو يستخدم ضغط DWT غير الفاقد 5-3 (الافتراضي).
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كنت تستخدم DWT 9-7 غير القابل للعكس (صحيح) أو تستخدم ضغط DWT 5-3 غير الفاقد
+boolean - قيمة تشير إلى ما إذا كنت تستخدم DWT غير العكسي 9-7 (true) أو تستخدم ضغط DWT 5-3 بدون فقدان
 ### setIrreversible(boolean value) {#setIrreversible-boolean-}
 ```
 public void setIrreversible(boolean value)
 ```
 
 
-يعيّن قيمة تشير إلى ما إذا كان يستخدم تحويل الموجة المتقطعة غير القابل للعكس DWT 9-7 (صحيح) أو يستخدم ضغط DWT 5-3 غير الفاقد (الافتراضي).
+يضبط قيمة تشير إلى ما إذا كان يستخدم DWT غير القابل للعكس 9-7 (true) أو يستخدم ضغط DWT غير الفاقد 5-3 (الافتراضي).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كنت تستخدم DWT 9-7 غير القابل للعكس (صحيح) أو تستخدم ضغط DWT 5-3 غير الفاقد |
+| value | boolean | قيمة تشير إلى ما إذا كنت تستخدم DWT غير العكسي 9-7 (true) أو تستخدم ضغط DWT 5-3 بدون فقدان |
 
 
 **Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**
@@ -214,7 +214,7 @@ public void setIrreversible(boolean value)
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
@@ -228,7 +228,7 @@ try {
     // استخدم تحويل الموجة المتقطعة غير القابل للعكس 9-7
     saveOptions.setIrreversible(true);
 
-    // JP2 هو تنسيق "الحاوية" لتدفقات شفرة JPEG 2000.
+    // JP2 هو تنسيق "الحاوية" لـ JPEG 2000 codestreams.
     // J2K هو بيانات مضغوطة خام، بدون غلاف.
     saveOptions.setCodec(com.aspose.imaging.fileformats.jpeg2000.Jpeg2000Codec.J2K);
 

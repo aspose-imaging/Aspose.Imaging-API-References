@@ -18,7 +18,7 @@ public final class JpegDecoderQuality extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [Standard](#Standard) | المعيار. |
-| [Fine](#Fine) | الدقيق. |
+| [Fine](#Fine) | الدقة. |
 ### Standard {#Standard}
 ```
 public static final int Standard
@@ -33,5 +33,5 @@ public static final int Fine
 ```
 
 
-الدقيق. أبطأ، يستخدم float inverse dct
+الدقة. أبطأ، يستخدم float inverse dct
 

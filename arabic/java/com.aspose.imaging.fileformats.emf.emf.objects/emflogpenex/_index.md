@@ -33,10 +33,10 @@ public final class EmfLogPenEx extends EmfBasePen
 | [getBrushHatch()](#getBrushHatch--) | يحصل أو يعيّن نمط تظليل الفرشاة. |
 | [setBrushHatch(int value)](#setBrushHatch-int-) | يحصل أو يعيّن نمط تظليل الفرشاة. |
 | [getNumStyleEntities()](#getNumStyleEntities--) | يحصل على عدد العناصر في المصفوفة المحددة في حقل StyleEntry. |
-| [getStyleEntry()](#getStyleEntry--) | يحصل أو يعيّن مصفوفة اختيارية من الأعداد الصحيحة غير الموقعية 32 بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذا القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. |
-| [setStyleEntry(int[] value)](#setStyleEntry-int---) | يحصل أو يعيّن مصفوفة اختيارية من الأعداد الصحيحة غير الموقعية 32 بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذا القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. |
-| [getBrushDibPattern()](#getBrushDibPattern--) | يحصل أو يعيّن نمط dib للفرشاة. |
-| [setBrushDibPattern(WmfDeviceIndependentBitmap value)](#setBrushDibPattern-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | يحصل أو يعيّن نمط dib للفرشاة. |
+| [getStyleEntry()](#getStyleEntry--) | يحصل أو يعيّن مصفوفة اختيارية من أعداد صحيحة غير موقعة 32‑بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذه القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. |
+| [setStyleEntry(int[] value)](#setStyleEntry-int---) | يحصل أو يعيّن مصفوفة اختيارية من أعداد صحيحة غير موقعة 32‑بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذه القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. |
+| [getBrushDibPattern()](#getBrushDibPattern--) | يحصل أو يعيّن نمط الفرشاة dib. |
+| [setBrushDibPattern(WmfDeviceIndependentBitmap value)](#setBrushDibPattern-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | يحصل أو يعيّن نمط الفرشاة dib. |
 ### EmfLogPenEx() {#EmfLogPenEx--}
 ```
 public EmfLogPenEx()
@@ -64,7 +64,7 @@ public void setPenStyle(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -72,7 +72,7 @@ public int getWidth()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عرض الخط المرسوم بالقلم. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، تكون هذه القيمة العرض بوحدات منطقية؛ وإلا يتم تحديد العرض بوحدات الجهاز. إذا كان نوع القلم في حقل PenStyle هو PS\_COSMETIC، يجب أن تكون هذه القيمة 0x00000001.
+يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد عرض الخط المرسوم بالقلم. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، فإن هذه القيمة هي العرض بوحدات منطقية؛ وإلا، يتم تحديد العرض بوحدات الجهاز. إذا كان نوع القلم في حقل PenStyle هو PS\_COSMETIC، يجب أن تكون هذه القيمة 0x00000001.
 
 **Returns:**
 int
@@ -82,12 +82,12 @@ public void setWidth(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عرض الخط المرسوم بالقلم. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، تكون هذه القيمة العرض بوحدات منطقية؛ وإلا يتم تحديد العرض بوحدات الجهاز. إذا كان نوع القلم في حقل PenStyle هو PS\_COSMETIC، يجب أن تكون هذه القيمة 0x00000001.
+يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد عرض الخط المرسوم بالقلم. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، فإن هذه القيمة هي العرض بوحدات منطقية؛ وإلا، يتم تحديد العرض بوحدات الجهاز. إذا كان نوع القلم في حقل PenStyle هو PS\_COSMETIC، يجب أن تكون هذه القيمة 0x00000001.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBrushStyle() {#getBrushStyle--}
 ```
@@ -95,7 +95,7 @@ public int getBrushStyle()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد نمط الفرشاة للقلم من تعداد WMF BrushStyle ([MS-WMF] القسم 2.1.1.4). إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، يجب أن تكون هذه القيمة إما BS\_SOLID أو BS\_HATCHED. يمكن أن تكون قيمة هذا الحقل BS\_NULL، ولكن فقط إذا كان نمط الخط المحدد في PenStyle هو PS\_NULL. يجب استخدام نمط BS\_NULL لتحديد فرشاة لا تأثير لها.
+يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد نمط فرشاة للقلم من تعداد WMF BrushStyle ([MS-WMF] القسم 2.1.1.4). إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، يجب أن تكون هذه القيمة إما BS\_SOLID أو BS\_HATCHED. يمكن أن تكون قيمة هذا الحقل BS\_NULL، ولكن فقط إذا كان نمط الخط المحدد في PenStyle هو PS\_NULL. يجب استخدام نمط BS\_NULL لتحديد فرشاة لا تؤثر.
 
 **Returns:**
 int
@@ -105,12 +105,12 @@ public void setBrushStyle(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد نمط الفرشاة للقلم من تعداد WMF BrushStyle ([MS-WMF] القسم 2.1.1.4). إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، يجب أن تكون هذه القيمة إما BS\_SOLID أو BS\_HATCHED. يمكن أن تكون قيمة هذا الحقل BS\_NULL، ولكن فقط إذا كان نمط الخط المحدد في PenStyle هو PS\_NULL. يجب استخدام نمط BS\_NULL لتحديد فرشاة لا تأثير لها.
+يحصل أو يعيّن عددًا صحيحًا غير موقّع 32‑بت يحدد نمط فرشاة للقلم من تعداد WMF BrushStyle ([MS-WMF] القسم 2.1.1.4). إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، يجب أن تكون هذه القيمة إما BS\_SOLID أو BS\_HATCHED. يمكن أن تكون قيمة هذا الحقل BS\_NULL، ولكن فقط إذا كان نمط الخط المحدد في PenStyle هو PS\_NULL. يجب استخدام نمط BS\_NULL لتحديد فرشاة لا تؤثر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getArgb32ColorRef() {#getArgb32ColorRef--}
 ```
@@ -137,7 +137,7 @@ public void setArgb32ColorRef(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBrushHatch() {#getBrushHatch--}
 ```
@@ -160,7 +160,7 @@ public void setBrushHatch(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getNumStyleEntities() {#getNumStyleEntities--}
 ```
@@ -168,7 +168,7 @@ public int getNumStyleEntities()
 ```
 
 
-يحصل على عدد العناصر في المصفوفة المحددة في حقل StyleEntry. يجب أن تكون هذه القيمة صفرًا إذا لم يحدد PenStyle PS\_USERSTYLE.
+يحصل على عدد العناصر في المصفوفة المحددة في حقل StyleEntry. يجب أن تكون هذه القيمة صفرًا إذا لم يحدد PenStyle النمط PS\_USERSTYLE.
 
 **Returns:**
 int
@@ -178,7 +178,7 @@ public int[] getStyleEntry()
 ```
 
 
-يحصل أو يعيّن مصفوفة اختيارية من الأعداد الصحيحة غير الموقعية 32 بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذا القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. تحتوي المصفوفة على عدد من الإدخالات يحدده NumStyleEntries، لكنها تُستعمل كما لو أنها تتكرر إلى ما لا نهاية. الإدخال الأول في المصفوفة يحدد طول الشَرطَة الأولى. الإدخال الثاني يحدد طول الفاصل الأول. بعد ذلك تتناوب أطوال الشرطات والفواصل. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، تُحدد الأطوال بوحدات منطقية؛ وإلا تُحدد بوحدات الجهاز.
+يحصل أو يعيّن مصفوفة اختيارية من أعداد صحيحة غير موقعة 32‑بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذه القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. تحتوي المصفوفة على عدد من الإدخالات يحدده NumStyleEntries، ولكنها تُستعمل كما لو أنها تتكرر إلى ما لا نهاية. الإدخال الأول في المصفوفة يحدد طول الشَرطَة الأولى. الإدخال الثاني يحدد طول الفاصل الأول. بعد ذلك، تتناوب أطوال الشرطات والفواصل. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، فإن الأطوال تُحدد بوحدات منطقية؛ وإلا، تُحدد بوحدات الجهاز.
 
 **Returns:**
 int[]
@@ -188,12 +188,12 @@ public void setStyleEntry(int[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة اختيارية من الأعداد الصحيحة غير الموقعية 32 بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذا القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. تحتوي المصفوفة على عدد من الإدخالات يحدده NumStyleEntries، لكنها تُستعمل كما لو أنها تتكرر إلى ما لا نهاية. الإدخال الأول في المصفوفة يحدد طول الشَرطَة الأولى. الإدخال الثاني يحدد طول الفاصل الأول. بعد ذلك تتناوب أطوال الشرطات والفواصل. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، تُحدد الأطوال بوحدات منطقية؛ وإلا تُحدد بوحدات الجهاز.
+يحصل أو يعيّن مصفوفة اختيارية من أعداد صحيحة غير موقعة 32‑بت تحدد أطوال الشرطات والفواصل في الخط المرسوم بهذه القلم، عندما تكون قيمة PenStyle هي نمط الخط PS\_USERSTYLE للقلم. تحتوي المصفوفة على عدد من الإدخالات يحدده NumStyleEntries، ولكنها تُستعمل كما لو أنها تتكرر إلى ما لا نهاية. الإدخال الأول في المصفوفة يحدد طول الشَرطَة الأولى. الإدخال الثاني يحدد طول الفاصل الأول. بعد ذلك، تتناوب أطوال الشرطات والفواصل. إذا كان نوع القلم في حقل PenStyle هو PS\_GEOMETRIC، فإن الأطوال تُحدد بوحدات منطقية؛ وإلا، تُحدد بوحدات الجهاز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getBrushDibPattern() {#getBrushDibPattern--}
 ```
@@ -201,7 +201,7 @@ public WmfDeviceIndependentBitmap getBrushDibPattern()
 ```
 
 
-يحصل أو يعيّن نمط dib للفرشاة.
+يحصل أو يعيّن نمط الفرشاة dib.
 
 القيمة: نمط الفرشاة dib.
 
@@ -213,7 +213,7 @@ public void setBrushDibPattern(WmfDeviceIndependentBitmap value)
 ```
 
 
-يحصل أو يعيّن نمط dib للفرشاة.
+يحصل أو يعيّن نمط الفرشاة dib.
 
 القيمة: نمط الفرشاة dib.
 

@@ -20,8 +20,8 @@ public final class LineTypes extends System.Enum
 | [None](#None) | خط غير مستخدم |
 | [Solid](#Solid) | خط صلب. |
 | [Dashed](#Dashed) | خط متقطع. |
-| [BehindFill](#BehindFill) | يجب أن يتم عرض الخط خلف تعبئة الشكل. |
-| [ScalePen](#ScalePen) | يتم تعديل عرض الخط نسبةً إلى حجم الشكل. |
+| [BehindFill](#BehindFill) | يجب أن يُرسم الخط خلف تعبئة الشكل. |
+| [ScalePen](#ScalePen) | عرض الخط يتم تحجيمه نسبةً إلى حجم الشكل. |
 ### None {#None}
 ```
 public static final byte None
@@ -52,7 +52,7 @@ public static final byte BehindFill
 ```
 
 
-يجب أن يتم عرض الخط خلف تعبئة الشكل.
+يجب أن يُرسم الخط خلف تعبئة الشكل.
 
 ### ScalePen {#ScalePen}
 ```
@@ -60,5 +60,5 @@ public static final byte ScalePen
 ```
 
 
-يتم تعديل عرض الخط نسبةً إلى حجم الشكل.
+عرض الخط يتم تحجيمه نسبةً إلى حجم الشكل.
 

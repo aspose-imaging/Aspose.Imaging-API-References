@@ -22,14 +22,14 @@ public class OdMeasure extends OdStyledObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPoint1()](#getPoint1--) | يحصل أو يضبط النقطة1. |
-| [setPoint1(PointF value)](#setPoint1-com.aspose.imaging.PointF-) | يحصل أو يضبط النقطة1. |
-| [getPoint2()](#getPoint2--) | يحصل أو يضبط النقطة2. |
-| [setPoint2(PointF value)](#setPoint2-com.aspose.imaging.PointF-) | يحصل أو يضبط النقطة2. |
-| [getPoint3()](#getPoint3--) | يحصل أو يضبط النقطة3. |
-| [setPoint3(PointF value)](#setPoint3-com.aspose.imaging.PointF-) | يحصل أو يضبط النقطة3. |
-| [getPoint4()](#getPoint4--) | يحصل أو يضبط النقطة4. |
-| [setPoint4(PointF value)](#setPoint4-com.aspose.imaging.PointF-) | يحصل أو يضبط النقطة4. |
+| [getPoint1()](#getPoint1--) | يحصل أو يعيّن point1. |
+| [setPoint1(PointF value)](#setPoint1-com.aspose.imaging.PointF-) | يحصل أو يعيّن point1. |
+| [getPoint2()](#getPoint2--) | يحصل أو يعيّن point2. |
+| [setPoint2(PointF value)](#setPoint2-com.aspose.imaging.PointF-) | يحصل أو يعيّن point2. |
+| [getPoint3()](#getPoint3--) | يحصل أو يعيّن point3. |
+| [setPoint3(PointF value)](#setPoint3-com.aspose.imaging.PointF-) | يحصل أو يعيّن point3. |
+| [getPoint4()](#getPoint4--) | يحصل أو يعيّن point4. |
+| [setPoint4(PointF value)](#setPoint4-com.aspose.imaging.PointF-) | يحصل أو يعيّن point4. |
 ### OdMeasure(OdObject parent) {#OdMeasure-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdMeasure(OdObject parent)
@@ -41,7 +41,7 @@ public OdMeasure(OdObject parent)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getPoint1() {#getPoint1--}
 ```
@@ -49,7 +49,7 @@ public PointF getPoint1()
 ```
 
 
-يحصل أو يضبط النقطة1.
+يحصل أو يعيّن point1.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point1.
@@ -59,7 +59,7 @@ public void setPoint1(PointF value)
 ```
 
 
-يحصل أو يضبط النقطة1.
+يحصل أو يعيّن point1.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,7 +72,7 @@ public PointF getPoint2()
 ```
 
 
-يحصل أو يضبط النقطة2.
+يحصل أو يعيّن point2.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point2.
@@ -82,7 +82,7 @@ public void setPoint2(PointF value)
 ```
 
 
-يحصل أو يضبط النقطة2.
+يحصل أو يعيّن point2.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -95,7 +95,7 @@ public PointF getPoint3()
 ```
 
 
-يحصل أو يضبط النقطة3.
+يحصل أو يعيّن point3.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point3.
@@ -105,12 +105,12 @@ public void setPoint3(PointF value)
 ```
 
 
-يحصل أو يضبط النقطة3.
+يحصل أو يعيّن point3.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PointF](../../com.aspose.imaging/pointf) | النقطة3. |
+| value | [PointF](../../com.aspose.imaging/pointf) | النقطة point3. |
 
 ### getPoint4() {#getPoint4--}
 ```
@@ -118,7 +118,7 @@ public PointF getPoint4()
 ```
 
 
-يحصل أو يضبط النقطة4.
+يحصل أو يعيّن point4.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point4.
@@ -128,10 +128,10 @@ public void setPoint4(PointF value)
 ```
 
 
-يحصل أو يضبط النقطة4.
+يحصل أو يعيّن point4.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PointF](../../com.aspose.imaging/pointf) | النقطة4. |
+| value | [PointF](../../com.aspose.imaging/pointf) | النقطة point4. |
 

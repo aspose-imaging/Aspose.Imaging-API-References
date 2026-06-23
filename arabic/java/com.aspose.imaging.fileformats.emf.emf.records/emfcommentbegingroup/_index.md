@@ -17,24 +17,24 @@ public final class EmfCommentBeginGroup extends EmfCommentPublicRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfCommentBeginGroup(EmfRecord source)](#EmfCommentBeginGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfCommentBeginGroup`. |
+| [EmfCommentBeginGroup(EmfRecord source)](#EmfCommentBeginGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfCommentBeginGroup`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية. |
-| [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية. |
-| [getNDescription()](#getNDescription--) | يحصل أو يضبط عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي. |
-| [setNDescription(int value)](#setNDescription-int-) | يحصل أو يضبط عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي. |
-| [getDescription()](#getDescription--) | يحصل أو يضبط سلسلة Unicode اختيارية منتهية بصفر تصف هذه المجموعة من السجلات. |
-| [setDescription(String value)](#setDescription-java.lang.String-) | يحصل أو يضبط سلسلة Unicode اختيارية منتهية بصفر تصف هذه المجموعة من السجلات. |
+| [getRectangle()](#getRectangle--) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية. |
+| [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية. |
+| [getNDescription()](#getNDescription--) | يحصل أو يعيّن عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي. |
+| [setNDescription(int value)](#setNDescription-int-) | يحصل أو يعيّن عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي. |
+| [getDescription()](#getDescription--) | يحصل أو يعيّن سلسلة Unicode اختيارية منتهية بـ null تصف مجموعة السجلات هذه. |
+| [setDescription(String value)](#setDescription-java.lang.String-) | يحصل أو يعيّن سلسلة Unicode اختيارية منتهية بـ null تصف مجموعة السجلات هذه. |
 ### EmfCommentBeginGroup(EmfRecord source) {#EmfCommentBeginGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCommentBeginGroup(EmfRecord source)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfCommentBeginGroup`.
+ينشئ مثيلًا جديدًا من الفئة `EmfCommentBeginGroup`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,7 +47,7 @@ public Rectangle getRectangle()
 ```
 
 
-يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية.
+يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -57,7 +57,7 @@ public void setRectangle(Rectangle value)
 ```
 
 
-يحصل أو يضبط كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية.
+يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج بالإحداثيات المنطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public int getNDescription()
 ```
 
 
-يحصل أو يضبط عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي.
+يحصل أو يعيّن عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي.
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setNDescription(int value)
 ```
 
 
-يحصل أو يضبط عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي.
+يحصل أو يعيّن عدد أحرف Unicode في سلسلة الوصف الاختيارية التي تلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getDescription() {#getDescription--}
 ```
@@ -93,7 +93,7 @@ public String getDescription()
 ```
 
 
-يحصل أو يضبط سلسلة Unicode اختيارية منتهية بصفر تصف هذه المجموعة من السجلات.
+يحصل أو يعيّن سلسلة Unicode اختيارية منتهية بـ null تصف مجموعة السجلات هذه.
 
 **Returns:**
 java.lang.String
@@ -103,10 +103,10 @@ public void setDescription(String value)
 ```
 
 
-يحصل أو يضبط سلسلة Unicode اختيارية منتهية بصفر تصف هذه المجموعة من السجلات.
+يحصل أو يعيّن سلسلة Unicode اختيارية منتهية بـ null تصف مجموعة السجلات هذه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 

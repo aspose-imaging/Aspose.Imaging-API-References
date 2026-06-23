@@ -7,29 +7,29 @@ weight: 126
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfSetIcmProfileA extends EmfStateRecordType
 ```
 
-سجل EMR\_SETICMPROFILEA يحدد ملف تعريف ألوان في ملف يحمل اسمًا مكوّنًا من أحرف ASCII، لإخراج الرسومات.
+السجل EMR\_SETICMPROFILEA يحدد ملف تعريف ألوان في ملف يحمل اسماً مكوّناً من أحرف ASCII، لإخراج الرسومات.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetIcmProfileA(EmfRecord source)](#EmfSetIcmProfileA-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بإنشاء نسخة جديدة من الفئة `EmfSetIcmProfileA`. |
+| [EmfSetIcmProfileA(EmfRecord source)](#EmfSetIcmProfileA-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfSetIcmProfileA`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDwFlags()](#getDwFlags--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحتوي على أعلام ملف تعريف الألوان. |
-| [setDwFlags(int value)](#setDwFlags-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحتوي على أعلام ملف تعريف الألوان. |
-| [getCbName()](#getCbName--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد البايتات في الاسم ASCII لملف تعريف الألوان المطلوب. |
-| [setCbName(int value)](#setCbName-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد البايتات في الاسم ASCII لملف تعريف الألوان المطلوب. |
-| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم بيانات ملف تعريف الألوان إذا كانت موجودة في حقل Data. |
-| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم بيانات ملف تعريف الألوان إذا كانت موجودة في حقل Data. |
-| [getData()](#getData--) | يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، والتي تحدد الاسم ASCII والبيانات الخام لملف تعريف الألوان المطلوب. |
-| [setData(byte[] value)](#setData-byte---) | يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، والتي تحدد الاسم ASCII والبيانات الخام لملف تعريف الألوان المطلوب. |
+| [getDwFlags()](#getDwFlags--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحتوي على أعلام ملف تعريف اللون. |
+| [setDwFlags(int value)](#setDwFlags-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحتوي على أعلام ملف تعريف اللون. |
+| [getCbName()](#getCbName--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات في الاسم ASCII لملف تعريف اللون المطلوب. |
+| [setCbName(int value)](#setCbName-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات في الاسم ASCII لملف تعريف اللون المطلوب. |
+| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات ملف تعريف اللون، إذا كانت موجودة في حقل Data. |
+| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات ملف تعريف اللون، إذا كانت موجودة في حقل Data. |
+| [getData()](#getData--) | يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، تحدد الاسم ASCII والبيانات الخام لملف تعريف اللون المطلوب. |
+| [setData(byte[] value)](#setData-byte---) | يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، تحدد الاسم ASCII والبيانات الخام لملف تعريف اللون المطلوب. |
 | [getName()](#getName--) | يحصل على الاسم |
 | [getRawData()](#getRawData--) | يحصل على البيانات الخام |
 ### EmfSetIcmProfileA(EmfRecord source) {#EmfSetIcmProfileA-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -38,7 +38,7 @@ public EmfSetIcmProfileA(EmfRecord source)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `EmfSetIcmProfileA`.
+ينشئ مثيلاً جديدًا من الفئة `EmfSetIcmProfileA`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -51,7 +51,7 @@ public int getDwFlags()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحتوي على أعلام ملف تعريف الألوان.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحتوي على أعلام ملف تعريف اللون.
 
 **Returns:**
 int
@@ -61,12 +61,12 @@ public void setDwFlags(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحتوي على أعلام ملف تعريف الألوان.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحتوي على أعلام ملف تعريف اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCbName() {#getCbName--}
 ```
@@ -74,7 +74,7 @@ public int getCbName()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد البايتات في الاسم ASCII لملف تعريف الألوان المطلوب.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات في الاسم ASCII لملف تعريف اللون المطلوب.
 
 **Returns:**
 int
@@ -84,12 +84,12 @@ public void setCbName(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد البايتات في الاسم ASCII لملف تعريف الألوان المطلوب.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد البايتات في الاسم ASCII لملف تعريف اللون المطلوب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCbData() {#getCbData--}
 ```
@@ -97,7 +97,7 @@ public int getCbData()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم بيانات ملف تعريف الألوان إذا كانت موجودة في حقل Data.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات ملف تعريف اللون، إذا كانت موجودة في حقل Data.
 
 **Returns:**
 int
@@ -107,12 +107,12 @@ public void setCbData(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم بيانات ملف تعريف الألوان إذا كانت موجودة في حقل Data.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات ملف تعريف اللون، إذا كانت موجودة في حقل Data.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getData() {#getData--}
 ```
@@ -120,7 +120,7 @@ public byte[] getData()
 ```
 
 
-يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، والتي تحدد الاسم ASCII والبيانات الخام لملف تعريف الألوان المطلوب.
+يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، تحدد الاسم ASCII والبيانات الخام لملف تعريف اللون المطلوب.
 
 **Returns:**
 byte[]
@@ -130,12 +130,12 @@ public void setData(byte[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، والتي تحدد الاسم ASCII والبيانات الخام لملف تعريف الألوان المطلوب.
+يحصل أو يعيّن مصفوفة بحجم (cbName + cbData) بايت، تحدد الاسم ASCII والبيانات الخام لملف تعريف اللون المطلوب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getName() {#getName--}
 ```

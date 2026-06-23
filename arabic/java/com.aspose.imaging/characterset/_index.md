@@ -23,20 +23,20 @@ public final class CharacterSet extends System.Enum
 | [Shiftjis](#Shiftjis) | DBCS، 932 مجموعة أحرف يابانية. |
 | [Hangeul](#Hangeul) | DBCS، 949 مجموعة أحرف كورية. |
 | [Hangul](#Hangul) | DBCS، 949 مجموعة أحرف كورية. |
-| [Gb2312](#Gb2312) | DBCS، 936 مجموعة أحرف صينية مبسطة. |
-| [ChineseBig5](#ChineseBig5) | DBCS، 950 مجموعة أحرف صينية تقليدية. |
-| [Oem](#Oem) | 437 MS-DOS Latin 1، 852 MS-DOS Latin 2، 864 MS-DOS مجموعة أحرف عربية. |
-| [Johab](#Johab) | DBCS، 1361 مجموعة أحرف كورية. |
+| [Gb2312](#Gb2312) | DBCS، مجموعة أحرف صينية مبسطة 936. |
+| [ChineseBig5](#ChineseBig5) | DBCS، مجموعة أحرف صينية تقليدية 950. |
+| [Oem](#Oem) | 437 MS-DOS Latin 1، 852 MS-DOS Latin 2، 864 MS-DOS Arabic مجموعة أحرف. |
+| [Johab](#Johab) | DBCS، مجموعة أحرف كورية 1361. |
 | [Hebrew](#Hebrew) | 1255 مجموعة أحرف عبرية. |
 | [Arabic](#Arabic) | 1256 مجموعة أحرف عربية. |
 | [Greek](#Greek) | 1253 مجموعة أحرف يونانية. |
 | [Turkish](#Turkish) | 1254 مجموعة أحرف تركية. |
-| [Vietnamese](#Vietnamese) | مجموعة الأحرف الفيتنامية 1258. |
-| [Thai](#Thai) | مجموعة الأحرف التايلاندية 874. |
-| [Easteurope](#Easteurope) | مجموعة الأحرف اللاتينية 2، أوروبا الوسطى 1250. |
-| [Russian](#Russian) | مجموعة الأحرف السيريلية (السلافية) 1251. |
-| [Mac](#Mac) | مجموعات الأحرف ماك رومان 10000، ماك أوروبا الوسطى 10029، ماك سيريلية 10007. |
-| [Baltic](#Baltic) | مجموعة الأحرف البلطيقية 1257. |
+| [Vietnamese](#Vietnamese) | 1258 مجموعة أحرف فيتنامية. |
+| [Thai](#Thai) | 874 مجموعة أحرف تايلاندية. |
+| [Easteurope](#Easteurope) | 1250 Latin 2، مجموعة أحرف أوروبا الوسطى. |
+| [Russian](#Russian) | 1251 مجموعة أحرف سيريالية (سلافية). |
+| [Mac](#Mac) | 10000 Mac Roman، 10029 Mac Central Europe، 10007 Mac Cyrillic مجموعة أحرف. |
+| [Baltic](#Baltic) | 1257 مجموعة أحرف حافة البلطيق. |
 ### Ansi {#Ansi}
 ```
 public static final int Ansi
@@ -91,7 +91,7 @@ public static final int Gb2312
 ```
 
 
-DBCS، 936 مجموعة أحرف صينية مبسطة.
+DBCS، مجموعة أحرف صينية مبسطة 936.
 
 ### ChineseBig5 {#ChineseBig5}
 ```
@@ -99,7 +99,7 @@ public static final int ChineseBig5
 ```
 
 
-DBCS، 950 مجموعة أحرف صينية تقليدية.
+DBCS، مجموعة أحرف صينية تقليدية 950.
 
 ### Oem {#Oem}
 ```
@@ -107,7 +107,7 @@ public static final int Oem
 ```
 
 
-437 MS-DOS Latin 1، 852 MS-DOS Latin 2، 864 MS-DOS مجموعة أحرف عربية.
+437 MS-DOS Latin 1، 852 MS-DOS Latin 2، 864 MS-DOS Arabic مجموعة أحرف.
 
 ### Johab {#Johab}
 ```
@@ -115,7 +115,7 @@ public static final int Johab
 ```
 
 
-DBCS، 1361 مجموعة أحرف كورية.
+DBCS، مجموعة أحرف كورية 1361.
 
 ### Hebrew {#Hebrew}
 ```
@@ -155,7 +155,7 @@ public static final int Vietnamese
 ```
 
 
-مجموعة الأحرف الفيتنامية 1258.
+1258 مجموعة أحرف فيتنامية.
 
 ### Thai {#Thai}
 ```
@@ -163,7 +163,7 @@ public static final int Thai
 ```
 
 
-مجموعة الأحرف التايلاندية 874.
+874 مجموعة أحرف تايلاندية.
 
 ### Easteurope {#Easteurope}
 ```
@@ -171,7 +171,7 @@ public static final int Easteurope
 ```
 
 
-مجموعة الأحرف اللاتينية 2، أوروبا الوسطى 1250.
+1250 Latin 2، مجموعة أحرف أوروبا الوسطى.
 
 ### Russian {#Russian}
 ```
@@ -179,7 +179,7 @@ public static final int Russian
 ```
 
 
-مجموعة الأحرف السيريلية (السلافية) 1251.
+1251 مجموعة أحرف سيريالية (سلافية).
 
 ### Mac {#Mac}
 ```
@@ -187,7 +187,7 @@ public static final int Mac
 ```
 
 
-مجموعات الأحرف ماك رومان 10000، ماك أوروبا الوسطى 10029، ماك سيريلية 10007.
+10000 Mac Roman، 10029 Mac Central Europe، 10007 Mac Cyrillic مجموعة أحرف.
 
 ### Baltic {#Baltic}
 ```
@@ -195,5 +195,5 @@ public static final int Baltic
 ```
 
 
-مجموعة الأحرف البلطيقية 1257.
+1257 مجموعة أحرف حافة البلطيق.
 

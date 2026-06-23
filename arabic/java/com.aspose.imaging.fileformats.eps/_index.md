@@ -12,9 +12,9 @@ url: /ar/java/com.aspose.imaging.fileformats.eps/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) | واجهة برمجة التطبيقات (API) لدعم تنسيق ملف الصورة Encapsulated PostScript (EPS) تقدم قدرات قوية لتعديل التركيبات التي تشمل النص والرسومات والصور. |
+| [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage) | توفر API لتنسيق ملف الصورة Encapsulated PostScript (EPS) دعمًا قويًا للقدرات على تعديل التركيبات التي تشمل النصوص والرسومات والصور. |
 | [EpsLoadOptions](../com.aspose.imaging.fileformats.eps/epsloadoptions) | خيارات تحميل EPS |
 | [EpsOptions](../com.aspose.imaging.fileformats.eps/epsoptions) | خيارات EPS (حاليًا غير مستخدمة) |
 | [EpsPreviewFormat](../com.aspose.imaging.fileformats.eps/epspreviewformat) | تنسيقات صورة المعاينة [EpsImage](../com.aspose.imaging.fileformats.eps/epsimage). |

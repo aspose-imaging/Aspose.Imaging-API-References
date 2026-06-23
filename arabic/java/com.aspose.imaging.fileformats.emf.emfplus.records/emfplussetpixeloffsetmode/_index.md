@@ -17,7 +17,7 @@ public final class EmfPlusSetPixelOffsetMode extends EmfPlusPropertyRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetPixelOffsetMode(EmfPlusRecord source)](#EmfPlusSetPixelOffsetMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSetPixelOffsetMode`. |
+| [EmfPlusSetPixelOffsetMode(EmfPlusRecord source)](#EmfPlusSetPixelOffsetMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusSetPixelOffsetMode`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusSetPixelOffsetMode(EmfPlusRecord source)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSetPixelOffsetMode`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusSetPixelOffsetMode`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,5 +62,5 @@ public void setPixelOffsetMode(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 

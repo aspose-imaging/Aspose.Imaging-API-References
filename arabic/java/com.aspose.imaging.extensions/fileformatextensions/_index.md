@@ -1,7 +1,7 @@
 ---
 title: "FileFormatExtensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحتوي على طرق توسيع FileFormat."
+description: "يحتوي على طرق امتداد FileFormat."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.extensions/fileformatextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class FileFormatExtensions
 ```
 
-يحتوي على أساليب امتداد `FileFormat`.
+يحتوي على طرق امتداد `FileFormat`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public static boolean isSingleFormatDefined(long fileFormat)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileFormat | long | تنسيق الملف للتحقق. |
+| fileFormat | long | تنسيق الملف المراد التحقق منه. |
 
 **Returns:**
-منطقي - `True` إذا كان تنسيق ملف واحد معرفًا؛ وإلا `false`.
+منطقية - `True` إذا كان تنسيق ملف واحد معرفًا؛ وإلا `false`.

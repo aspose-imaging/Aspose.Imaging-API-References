@@ -1,18 +1,18 @@
 ---
 title: "EmfPlusBlurEffect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن BlurEffect يحدد انخفاضًا في الفرق في الشدة بين البكسلات في صورة."
+description: "كائن BlurEffect يحدد انخفاضًا في الفرق في الشدة بين البكسلات في الصورة."
 type: docs
 weight: 19
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageEffectsObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageEffectsObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype)
 ```
 public final class EmfPlusBlurEffect extends EmfPlusImageEffectsObjectType
 ```
 
-كائن BlurEffect يحدد انخفاضًا في الفرق في الشدة بين البكسلات في صورة.
+كائن BlurEffect يحدد انخفاضًا في الفرق في الشدة بين البكسلات في الصورة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public final class EmfPlusBlurEffect extends EmfPlusImageEffectsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBlurRadius()](#getBlurRadius--) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
-| [setBlurRadius(float value)](#setBlurRadius-float-) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
+| [getBlurRadius()](#getBlurRadius--) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، وهو ما يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
+| [setBlurRadius(float value)](#setBlurRadius-float-) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، وهو ما يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
 | [getExpandEdge()](#getExpandEdge--) | يحصل أو يعيّن قيمة منطقية 32-بت تحدد ما إذا كانت الصورة النقطية تتوسع بمقدار يساوي قيمة BlurRadius لإنتاج حواف ناعمة. |
 | [setExpandEdge(boolean value)](#setExpandEdge-boolean-) | يحصل أو يعيّن قيمة منطقية 32-بت تحدد ما إذا كانت الصورة النقطية تتوسع بمقدار يساوي قيمة BlurRadius لإنتاج حواف ناعمة. |
 ### EmfPlusBlurEffect() {#EmfPlusBlurEffect--}
@@ -38,7 +38,7 @@ public float getBlurRadius()
 ```
 
 
-يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. يجب أن تكون هذه القيمة في النطاق من 0.0 إلى 255.0.
+يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، وهو ما يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. يجب أن تكون هذه القيمة في النطاق من 0.0 إلى 255.0.
 
 **Returns:**
 float
@@ -48,12 +48,12 @@ public void setBlurRadius(float value)
 ```
 
 
-يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. يجب أن تكون هذه القيمة في النطاق من 0.0 إلى 255.0.
+يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الضبابية بالبكسل، وهو ما يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. يجب أن تكون هذه القيمة في النطاق من 0.0 إلى 255.0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getExpandEdge() {#getExpandEdge--}
 ```
@@ -76,5 +76,5 @@ public void setExpandEdge(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 

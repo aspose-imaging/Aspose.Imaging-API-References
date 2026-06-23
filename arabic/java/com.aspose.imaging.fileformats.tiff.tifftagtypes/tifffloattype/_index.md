@@ -7,7 +7,7 @@ weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffFloatType extends TiffCommonArrayType
 ```
@@ -28,8 +28,8 @@ public final class TiffFloatType extends TiffCommonArrayType
 | [getValuesContainer()](#getValuesContainer--) | يحصل على حاوية القيم. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل على القيمة التي يحتويها هذا النوع من البيانات. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | يعيّن القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | يضبط القيمة التي يحتويها هذا النوع من البيانات. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffFloatType(int tagId) {#TiffFloatType-int-}
 ```
 public TiffFloatType(int tagId)
@@ -64,7 +64,7 @@ public void setValues(float[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] | القيم. |
+| value | float[] | القيم. |
 
 ### getElementSize() {#getElementSize--}
 ```
@@ -95,7 +95,7 @@ public int getTagType()
 يحصل على نوع العلامة.
 
 **Returns:**
-int - نوع الوسم.
+int - نوع العلامة.
 ### getValue() {#getValue--}
 ```
 public Object getValue()
@@ -112,12 +112,12 @@ public void setValue(Object value)
 ```
 
 
-يعيّن القيمة التي يحتويها هذا النوع من البيانات.
+يضبط القيمة التي يحتويها هذا النوع من البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | القيمة. |
+| value | java.lang.Object | القيمة. |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -125,7 +125,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -133,4 +133,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

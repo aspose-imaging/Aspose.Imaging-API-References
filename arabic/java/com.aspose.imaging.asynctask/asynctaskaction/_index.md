@@ -1,7 +1,7 @@
 ---
 title: "AsyncTaskAction"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "المندوب الخاص بالعملية الطويلة للمهمة غير المتزامنة دون أي نتيجة."
+description: "المندوب للعمليات الطويلة للمهمة غير المتزامنة دون أي نتيجة."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.asynctask/asynctaskaction/

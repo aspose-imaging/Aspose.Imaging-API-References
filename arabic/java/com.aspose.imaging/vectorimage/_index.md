@@ -1,7 +1,7 @@
 ---
 title: "VectorImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الصورة المتجهية هي الفئة الأساسية لجميع أنواع الصور المتجهية."
+description: "صورة المتجه هي الفئة الأساسية لجميع أنواع صور المتجه."
 type: docs
 weight: 117
 url: /ar/java/com.aspose.imaging/vectorimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class VectorImage extends Image implements IObjectWithSizeF
 ```
 
-الصورة المتجهية هي الفئة الأساسية لجميع أنواع الصور المتجهية.
+صورة المتجه هي الفئة الأساسية لجميع أنواع صور المتجه.
 ## الطرق
 
 | طريقة | الوصف |
@@ -134,7 +134,7 @@ public void rotate(float angle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | float | زاوية الدوران بالدرجات. القيم الموجبة تدور باتجاه عقارب الساعة. |
+| angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
 
 ### getSizeF() {#getSizeF--}
 ```
@@ -197,7 +197,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | java.lang.Object[] | المعلمات. |
+| args | java.lang.Object[] | المعاملات. |
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The default image options.

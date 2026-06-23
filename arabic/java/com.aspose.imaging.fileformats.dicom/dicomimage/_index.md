@@ -1,7 +1,7 @@
 ---
 title: "DicomImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "هذه الفئة تنفّذ دعم تنسيق صورة نقطية DICOM في Digital Imaging and Communications in Medicine وتقدّم حلاً شاملاً لمعالجة صور DICOM بدقة ومرونة."
+description: "هذه الفئة تنفّذ دعم تنسيق صورة نقطية DICOM في التصوير الرقمي والاتصالات في الطب وتقدّم حلاً شاملاً لمعالجة صور DICOM بدقة ومرونة."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.dicom/dicomimage/
@@ -15,52 +15,52 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class DicomImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
-هذه الفئة تنفّذ دعم تنسيق صورة نقطية (DICOM) في Digital Imaging and Communications in Medicine وتقدّم حلاً شاملاً لمعالجة صور DICOM بدقة ومرونة. يمكنك بسهولة التعامل مع صفحات الصورة، بما في ذلك عمليات الحصول على الصفحات أو إضافتها أو إزالتها، والتحكم في الصفحات الافتراضية والنشطة. مع القدرة على العمل مع قنوات ألفا، وإدراج بيانات XMP الوصفية، وتغيير الحجم، والدوران، والقص، والتحويل إلى ثنائي، والتعديل، وتطبيق الفلاتر، والتحويل إلى صيغ نقطية أخرى. تمكّن هذه الواجهة البرمجية المطورين من معالجة صور DICOM بفعالية مع تلبية متطلبات تطبيقية متنوعة في سياق التصوير الطبي.
+هذه الفئة تنفّذ دعم تنسيق صورة نقطية DICOM (Digital Imaging and Communications in Medicine) وتقدّم حلاً شاملاً لمعالجة صور DICOM بدقة ومرونة. يمكنك تعديل صفحات الصورة بسلاسة، بما في ذلك عمليات الحصول على الصفحات أو إضافتها أو إزالتها، والتحكم في الصفحات الافتراضية والنشطة. مع القدرة على العمل مع قنوات ألفا، وتضمين بيانات XMP الوصفية، وتغيير الحجم، وتدوير، واقتطاع، وتحويل إلى ثنائي، وضبط، وتطبيق الفلاتر، وتحويل إلى تنسيقات نقطية أخرى. تتيح هذه الواجهة البرمجية للمطورين التعامل مع صور DICOM بفعالية مع تلبية متطلبات التطبيقات المتنوعة في سياق التصوير الطبي.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
 | [DicomImage(DicomOptions dicomOptions, int width, int height)](#DicomImage-com.aspose.imaging.imageoptions.DicomOptions-int-int-) | قم بتهيئة نسخة جديدة من فئة DicomImage بسهولة باستخدام هذا المُنشئ، مع الاستفادة من معلمات dicomOptions. |
-| [DicomImage(InputStream stream, LoadOptions loadOptions)](#DicomImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | ابدأ إنشاء نسخة جديدة من فئة DicomImage بسلاسة باستخدام معلمات stream و loadOptions في هذا المُنشئ. |
-| [DicomImage(InputStream stream)](#DicomImage-java.io.InputStream-) | أنشئ نسخة جديدة من فئة DicomImage باستخدام معلمة stream في هذا المُنشئ. |
+| [DicomImage(InputStream stream, LoadOptions loadOptions)](#DicomImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | ابدأ نسخة جديدة من فئة DicomImage بسلاسة عبر استخدام تدفق ومعلمات loadOptions في هذا المُنشئ. |
+| [DicomImage(InputStream stream)](#DicomImage-java.io.InputStream-) | أنشئ نسخة جديدة من فئة DicomImage باستخدام معلمة التدفق في هذا المُنشئ. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPageCount()](#getPageCount--) | استرجع العدد الإجمالي للصفحات في الصورة باستخدام هذه الخاصية البديهية. |
 | [getPages()](#getPages--) | الوصول إلى صفحات الصورة باستخدام هذه الخاصية البديهية. |
-| [getFileInfo()](#getFileInfo--) | استخرج معلومات الرأس القيمة من ملف DICOM بسهولة باستخدام هذه الخاصية البديهية. |
+| [getFileInfo()](#getFileInfo--) | استرجع معلومات الرأس القيمة من ملف DICOM بسهولة باستخدام هذه الخاصية البديهية. |
 | [getDicomPages()](#getDicomPages--) | الوصول إلى صفحات الصورة باستخدام هذه الخاصية البديهية. |
 | [getActivePage()](#getActivePage--) | الوصول إلى الصفحة النشطة للصورة باستخدام هذه الخاصية البديهية. |
 | [setActivePage(DicomPage value)](#setActivePage-com.aspose.imaging.fileformats.dicom.DicomPage-) | إدارة الصفحة النشطة للصورة باستخدام هذه الخاصية البديهية. |
-| [getActivePageIndex()](#getActivePageIndex--) | استخرج فهرس الصفحة النشطة بسهولة باستخدام هذه الخاصية البديهية. |
-| [getFileFormat()](#getFileFormat--) | استخرج قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية البديهية. |
-| [hasAlpha()](#hasAlpha--) | استخرج ما إذا كانت الصورة تحتوي على قناة ألفا بسهولة باستخدام هذه الخاصية البديهية. |
+| [getActivePageIndex()](#getActivePageIndex--) | استرجع فهرس الصفحة النشطة بسهولة باستخدام هذه الخاصية البديهية. |
+| [getFileFormat()](#getFileFormat--) | استرجع قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية البديهية. |
+| [hasAlpha()](#hasAlpha--) | استرجع ما إذا كانت الصورة تحتوي على قناة ألفا بسهولة باستخدام هذه الخاصية البديهية. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | وسّع مجموعة صورك بإضافة صفحة جديدة باستخدام هذه الطريقة البديهية. |
 | [saveAll(String filePath, ImageOptionsBase options)](#saveAll-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | احفظ بيانات الكائن عن طريق حفظها في الملف المحدد (المؤشر + اسم الملف) مع تنسيق الملف المحدد والخيارات. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | اضبط دقة هذا [RasterImage](../../com.aspose.imaging/rasterimage) بدقة باستخدام هذه الطريقة المبسطة. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | قم بضبط دقة هذا [RasterImage](../../com.aspose.imaging/rasterimage) بدقة باستخدام هذه الطريقة المبسطة. |
 | [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | غيّر حجم الصورة مع الحفاظ على نسبة أبعادها باستخدام هذه الطريقة المريحة. |
 | [addPage()](#addPage--) | أضف صفحة جديدة إلى نهاية قائمة صفحات الصورة باستخدام هذه الطريقة المبسطة. |
 | [insertPage(int pageIndex)](#insertPage-int-) | أدرج صفحة جديدة في قائمة صفحات الصورة عند فهرس محدد باستخدام هذه الطريقة البديهية. |
 | [removePage(int pageIndex)](#removePage-int-) | احذف الصفحة الموجودة عند الفهرس المحدد من قائمة الصفحات باستخدام هذه الطريقة المريحة. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | دوّر الصورة حول مركزها باستخدام هذه الطريقة المريحة. |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | اضبط حجم الصورة باستخدام هذه الطريقة المبسطة. |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | اضبط عرض الصورة مع الحفاظ على نسبة أبعادها باستخدام هذه الطريقة المريحة. |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | اضبط ارتفاع الصورة مع الحفاظ على نسبة أبعادها باستخدام هذه الطريقة سهلة الاستخدام. |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | قم بالتلاعب بسهولة بالإطار النشط عن طريق الدوران أو القلب أو تنفيذ الإجراءين معًا باستخدام هذه الطريقة المبسطة. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | حسّن الصورة الحالية بتطبيق تأثيرات التمويه باستخدام هذه الطريقة المبسطة. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | قم بتعديل حجم الصورة باستخدام هذه الطريقة البسيطة. |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | قم بتعديل عرض الصورة مع الحفاظ على نسبة الأبعاد باستخدام هذه الطريقة المريحة. |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | قم بتعديل ارتفاع الصورة مع الحفاظ على نسبة الأبعاد باستخدام هذه الطريقة سهلة الاستخدام. |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | قم بالتلاعب بسهولة بالإطار النشط عن طريق الدوران أو القلب، أو تنفيذ كلا الإجراءين معًا باستخدام هذه الطريقة البسيطة. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | حسّن الصورة الحالية بتطبيق تأثيرات التدرج باستخدام هذه الطريقة البسيطة. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | قم بقص الصورة لإزالة المناطق غير المرغوبة والتركيز على المحتوى الأساسي باستخدام هذه الطريقة البسيطة. |
-| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | اضبط منطقة القص للصورة عن طريق تطبيق الإزاحات باستخدام هذه الطريقة المتعددة الاستخدامات. |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | حوّل الصورة بسهولة إلى تنسيق ثنائي باستخدام عتبة محددة مسبقًا باستخدام هذه الطريقة المبسطة. |
-| [binarizeOtsu()](#binarizeOtsu--) | تطبيق عتبة أوتسو لتصنيف الصورة إلى ثنائية، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على مخطط ترددات الصورة. |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | تصنيف الصور إلى ثنائية باستخدام خوارزمية عتبة برادلي التكيفية، مستفيدًا من عتبة الصورة المتكاملة لتحسين الأداء. |
-| [grayscale()](#grayscale--) | تحويل الصور بسهولة إلى تمثيلها بتدرج الرمادي، مما يبسط مهام التحليل البصري والمعالجة. |
-| [adjustGamma(float gamma)](#adjustGamma-float-) | تحسين جودة الصورة وضبطها باستخدام تصحيح جاما، تقنية قوية لضبط المظهر البصري بدقة. |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | تحقيق تعديلات لونية دقيقة عن طريق تطبيق تصحيح جاما بشكل مستقل على مكونات الأحمر والأخضر والأزرق في الصورة. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | تحسين سطوع الصورة من خلال تعديل `brightness`، وهي طريقة معلمة تسمح للمطورين بضبط إضاءة الصور بدقة. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | تحسين تباين [Image](../../com.aspose.imaging/image) باستخدام هذه الطريقة السهلة الاستخدام، التي تضبط الفارق بين المناطق الفاتحة والداكنة. |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | تحسين مناطق محددة من صورتك بسهولة عن طريق تطبيق الفلاتر على مستطيلات معينة. |
-| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | ضبط حجم صورتك باستخدام طريقة تغيير الحجم البسيطة هذه. |
+| [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | قم بتعديل منطقة القص في الصورة عن طريق تطبيق الإزاحات باستخدام هذه الطريقة المتعددة الاستخدامات. |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | قم بتحويل الصورة بسهولة إلى صيغة ثنائية باستخدام عتبة محددة مسبقًا مع هذه الطريقة البسيطة. |
+| [binarizeOtsu()](#binarizeOtsu--) | طبق طريقة عتبة أوتسو لتصنيف الصورة إلى ثنائية، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على مخطط الصورة. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | قم بتحويل الصور إلى ثنائية باستخدام خوارزمية عتبة برادلي التكيفية، مستفيدًا من عتبة الصورة المتكاملة لتحسين الأداء. |
+| [grayscale()](#grayscale--) | حوّل الصور بسهولة إلى تمثيلها بالدرجات الرمادية، مما يبسط مهام التحليل البصري والمعالجة. |
+| [adjustGamma(float gamma)](#adjustGamma-float-) | حسّن جودة الصورة وقم بتعديلها باستخدام تصحيح غاما، وهي تقنية قوية لضبط المظهر البصري بدقة. |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | احصل على تعديلات لونية دقيقة من خلال تطبيق تصحيح غاما بشكل مستقل على مكونات الأحمر والأخضر والأزرق في الصورة. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | حسّن إضاءة الصورة من خلال تعديل `brightness`، وهي طريقة معلمة تتيح للمطورين ضبط سطوع الصور بدقة. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | حسّن تباين [Image](../../com.aspose.imaging/image) باستخدام هذه الطريقة سهلة الاستخدام، التي تعدل الفارق بين المناطق المضيئة والظلامية. |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | قم بتحسين مناطق محددة من صورتك بسهولة عن طريق تطبيق الفلاتر على المستطيلات المحددة. |
+| [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | قم بتعديل حجم صورتك باستخدام طريقة تغيير الحجم البسيطة هذه. |
 | [cacheData()](#cacheData--) | تقوم هذه الطريقة بتخزين البيانات مؤقتًا بكفاءة، مما يحسن الأداء ويضمن وصولًا سريعًا عند الحاجة. |
 
 ## Example: This example demonstrates the loading and exporting of dicom file.
@@ -92,7 +92,7 @@ try (DicomOptions dicomOptions = new DicomOptions())
             100,
             100))
     {
-        // ارسم شيئًا باستخدام الرسومات المتجهة
+        // ارسم شيئًا باستخدام الرسومات المتجهية
         Graphics graphics = new Graphics(image);
         graphics.fillRectangle(new SolidBrush(Color.getBlueViolet()), image.getBounds());
         graphics.fillRectangle(new SolidBrush(Color.getAqua()), 10, 20, 50, 20);
@@ -204,14 +204,14 @@ public DicomImage(DicomOptions dicomOptions, int width, int height)
 ```
 
 
-تهيئة نسخة جديدة من فئة DicomImage بسهولة باستخدام هذا المُنشئ، مع الاستفادة من معلمات dicomOptions. مثالي للمطورين الذين يرغبون في الغوص بسرعة وكفاءة في كائنات [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) في مشاريعهم.
+قم بتهيئة نسخة جديدة من فئة DicomImage بسهولة باستخدام هذا المُنشئ، مع الاستفادة من معلمات dicomOptions. مثالي للمطورين الذين يرغبون في الغوص بسرعة وكفاءة في كائنات [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | dicomOptions | [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions) | خيارات dicom (متجاهلة الآن). |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 
 ### DicomImage(InputStream stream, LoadOptions loadOptions) {#DicomImage-java.io.InputStream-com.aspose.imaging.LoadOptions-}
 ```
@@ -219,12 +219,12 @@ public DicomImage(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-بدء نسخة جديدة من فئة DicomImage بسلاسة عبر استخدام تدفق ومعلمات loadOptions في هذا المُنشئ. مثالي للمطورين المتحمسين لبدء العمل مع كائنات [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) بسرعة وفعالية في مشاريعهم.
+ابدأ نسخة جديدة من فئة DicomImage بسلاسة باستخدام تدفق ومعلمات loadOptions في هذا المُنشئ. مثالي للمطورين المتحمسين للبدء في العمل مع كائنات [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) بسرعة وفعالية في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | المجرى. |
+| تدفق | java.io.InputStream | التدفق. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل. |
 
 ### DicomImage(InputStream stream) {#DicomImage-java.io.InputStream-}
@@ -233,12 +233,12 @@ public DicomImage(InputStream stream)
 ```
 
 
-إنشاء نسخة جديدة من فئة DicomImage باستخدام معلمة تدفق في هذا المُنشئ. مثالي للمطورين الذين يبحثون عن طريقة مبسطة لتهيئة كائنات [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) من تدفقات البيانات الموجودة في مشاريعهم.
+أنشئ نسخة جديدة من فئة DicomImage باستخدام معلمة تدفق في هذا المُنشئ. مثالي للمطورين الذين يبحثون عن طريقة مبسطة لتهيئة كائنات [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) من تدفقات البيانات الموجودة في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | المجرى. |
+| تدفق | java.io.InputStream | التدفق. |
 
 ### getPageCount() {#getPageCount--}
 ```
@@ -246,7 +246,7 @@ public int getPageCount()
 ```
 
 
-استرجاع العدد الإجمالي للصفحات في الصورة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى عدد الصفحات داخل الصورة، مما يضمن تنقلًا وإدارةً فعّالة.
+استرجع العدد الإجمالي للصفحات في الصورة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يبحثون عن وصول سريع إلى عدد الصفحات داخل الصورة، مما يضمن تنقلًا وإدارةً فعّالة.
 
 **Returns:**
 int - عدد الصفحات.
@@ -266,7 +266,7 @@ public DicomImageInfo getFileInfo()
 ```
 
 
-استرجاع معلومات الرأس القيمة من ملف DICOM بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى التفاصيل الأساسية المتضمنة في ملف DICOM، مما يضمن استخراجًا وتحليلًا فعالًا للبيانات.
+استرجع معلومات رأسية قيمة من ملف DICOM بسهولة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يبحثون عن وصول سريع إلى التفاصيل الأساسية المتضمنة داخل ملف DICOM، مما يضمن استخراجًا فعالًا للبيانات وتحليلًا.
 
 **Returns:**
 [DicomImageInfo](../../com.aspose.imaging.fileformats.dicom/dicomimageinfo) - a value, which contains info header the DICOM file
@@ -286,7 +286,7 @@ public DicomPage getActivePage()
 ```
 
 
-الوصول إلى الصفحة النشطة في الصورة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في التبديل الديناميكي بين الصفحات داخل الصور متعددة الصفحات، مما يضمن تنقلًا ومعالجةً فعّالة.
+الوصول إلى الصفحة النشطة للصورة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يرغبون في التبديل الديناميكي بين الصفحات داخل الصور متعددة الصفحات، مما يضمن تنقلًا ومعالجةً فعالين.
 
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - the active page.
@@ -296,7 +296,7 @@ public void setActivePage(DicomPage value)
 ```
 
 
-إدارة الصفحة النشطة في الصورة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في التبديل الديناميكي بين الصفحات داخل الصور متعددة الصفحات، مما يضمن تنقلًا ومعالجةً فعّالة.
+إدارة الصفحة النشطة للصورة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يرغبون في التبديل الديناميكي بين الصفحات داخل الصور متعددة الصفحات، مما يضمن تنقلًا ومعالجةً فعالين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -309,7 +309,7 @@ public int getActivePageIndex()
 ```
 
 
-استرجاع فهرس الصفحة النشطة بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى فهرس الصفحة الحالية داخل الصور متعددة الصفحات، مما يضمن تنقلًا ومعالجةً فعّالة.
+استرجع فهرس الصفحة النشطة بسهولة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يبحثون عن وصول سريع إلى فهرس الصفحة الحالية داخل الصور متعددة الصفحات، مما يضمن تنقلًا ومعالجةً فعالين.
 
 **Returns:**
 int - فهرس الصفحة النشطة.
@@ -319,32 +319,32 @@ public long getFileFormat()
 ```
 
 
-استرجاع قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى تنسيق ملف الصورة، مما يضمن معالجةً وتعاملًا فعالًا بناءً على نوع الملف.
+استرجع قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يبحثون عن وصول سريع إلى تنسيق ملف الصورة، مما يضمن معالجةً فعالةً بناءً على نوع الملف.
 
 **Returns:**
-long - قيمة لتنسيق الملف [FileFormat](../../com.aspose.imaging/fileformat).
+long - قيمة تنسيق الملف [FileFormat](../../com.aspose.imaging/fileformat).
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
 ```
 
 
-استرجع ما إذا كانت الصورة تحتوي على قناة ألفا بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في تحديد ما إذا كانت الصورة تحتوي على معلومات الشفافية، مما يضمن معالجة دقيقة لبيانات قناة ألفا في مهام معالجة الصور.
+استرجع ما إذا كانت الصورة تحتوي على قناة ألفا بسهولة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يرغبون في تحديد ما إذا كانت الصورة تحتوي على معلومات شفافية، مما يضمن معالجة دقيقة لبيانات قناة ألفا في مهام معالجة الصور.
 
 **Returns:**
-boolean - صحيح إذا كانت الصورة تحتوي على قناة ألفا.
+boolean - true إذا كانت الصورة تحتوي على قناة ألفا.
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```
 public void addPage(RasterImage page)
 ```
 
 
-قم بتوسيع مجموعة صورك بإضافة صفحة جديدة باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يرغبون في إلحاق صفحات بصورة متعددة الصفحات ديناميكيًا، مما يضمن توسعًا سلسًا وتنظيمًا لمحتوى الصورة.
+وسّع مجموعة صورك بإضافة صفحة جديدة باستخدام هذه الطريقة البديهية. مثالية للمطورين الذين يرغبون في إلحاق صفحات ديناميكيًا إلى الصور متعددة الصفحات، مما يضمن توسعًا سلسًا وتنظيمًا لمحتوى الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة التي سيتم إضافتها. |
+| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة المراد إضافتها. |
 
 ### saveAll(String filePath, ImageOptionsBase options) {#saveAll-java.lang.String-com.aspose.imaging.ImageOptionsBase-}
 ```
@@ -352,7 +352,7 @@ public void saveAll(String filePath, ImageOptionsBase options)
 ```
 
 
-احفظ بيانات الكائن عن طريق حفظها في الملف المحدد (المؤشر + اسم الملف) مع تنسيق الملف المحدد والخيارات. مثالي للمطورين الذين يرغبون في تخزين البيانات بأمان بصيغ مختلفة مع الحفاظ على المرونة والتحكم في معلمات الحفظ.
+احفظ بيانات الكائن عن طريق حفظها إلى الملف المحدد (المؤشر + اسم الملف) مع تنسيق الملف المحدد والخيارات. مثالية للمطورين الذين يرغبون في تخزين البيانات بأمان بتنسيقات مختلفة مع الحفاظ على المرونة والتحكم في معلمات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -366,13 +366,13 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-قم بضبط دقة هذا [RasterImage](../../com.aspose.imaging/rasterimage) بدقة باستخدام هذه الطريقة المبسطة. مثالي للمطورين الذين يرغبون في تعديل دقة الصورة لتلبية متطلبات محددة، مما يضمن جودة عرض مثالية وإدارة حجم الملف.
+ضبط دقة هذه [RasterImage](../../com.aspose.imaging/rasterimage) بدقة باستخدام هذه الطريقة المباشرة. مثالية للمطورين الذين يسعون لتكييف دقة الصورة وفقًا للمتطلبات المحددة، مما يضمن جودة عرض مثالية وإدارة حجم الملف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dpiX | double | الدقة الأفقية، بوحدة النقاط في البوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
-| dpiY | double | الدقة الرأسية، بوحدة النقاط في البوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiX | double | الدقة الأفقية، بوحدة النقاط لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiY | double | الدقة العمودية، بوحدة النقاط لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
 
 ### resizeProportional(int newWidth, int newHeight, int resizeType) {#resizeProportional-int-int-int-}
 ```
@@ -380,7 +380,7 @@ public void resizeProportional(int newWidth, int newHeight, int resizeType)
 ```
 
 
-غيّر حجم الصورة مع الحفاظ على نسبة العرض إلى الارتفاع باستخدام هذه الطريقة المريحة. مثالي للمطورين الذين يرغبون في تعديل أبعاد الصورة بشكل متناسب، مما يضمن الاتساق والحفاظ على نسب المحتوى الأصلي. سيقوم تغيير الحجم المتناسب بتعديل كل إطار وفقًا للنسبة `newWidth`/width و `newHeight`/height.
+غيّر حجم الصورة مع الحفاظ على نسبة أبعادها باستخدام هذه الطريقة المريحة. مثالية للمطورين الذين يرغبون في تعديل أبعاد الصورة بشكل متناسب، مما يضمن الاتساق والحفاظ على نسب المحتوى الأصلي. سيقوم التحجيم المتناسب بتغيير حجم كل إطار وفقًا للنسبة بين `newWidth`/العرض و `newHeight`/الارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -395,7 +395,7 @@ public DicomPage addPage()
 ```
 
 
-أضف صفحة جديدة إلى نهاية قائمة صفحات الصورة باستخدام هذه الطريقة المبسطة. مثالي للمطورين الذين يرغبون في توسيع الصور متعددة الصفحات ديناميكيًا، مما يضمن دمجًا سلسًا وتنظيمًا لمحتوى الصورة.
+أضف صفحة جديدة إلى نهاية قائمة صفحات الصورة باستخدام هذه الطريقة المباشرة. مثالية للمطورين الذين يرغبون في توسيع الصور متعددة الصفحات ديناميكيًا، مما يضمن دمجًا سلسًا وتنظيمًا لمحتوى الصورة.
 
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - The newly created [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage).
@@ -405,7 +405,7 @@ public DicomPage insertPage(int pageIndex)
 ```
 
 
-أدرج صفحة جديدة في قائمة صفحات الصورة عند فهرس محدد باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يرغبون في تحكم دقيق في ترتيب الصفحات في الصور متعددة الصفحات، مما يضمن تنظيمًا سلسًا وتخصيصًا لمحتوى الصورة.
+أدرج صفحة جديدة في قائمة صفحات الصورة عند فهرس محدد باستخدام هذه الطريقة البديهية. مثالية للمطورين الذين يرغبون في تحكم دقيق في ترتيب الصفحات في الصور متعددة الصفحات، مما يضمن تنظيمًا سلسًا وتخصيصًا لمحتوى الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -427,7 +427,7 @@ try (DicomOptions dicomOptions = new DicomOptions())
             100,
             100))
     {
-        // ارسم شيئًا باستخدام الرسومات المتجهة
+        // ارسم شيئًا باستخدام الرسومات المتجهية
         Graphics graphics = new Graphics(image);
         graphics.fillRectangle(new SolidBrush(Color.getBlueViolet()), image.getBounds());
         graphics.fillRectangle(new SolidBrush(Color.getAqua()), 10, 20, 50, 20);
@@ -464,7 +464,7 @@ public void removePage(int pageIndex)
 ```
 
 
-احذف الصفحة عند الفهرس المحدد من قائمة الصفحات باستخدام هذه الطريقة المريحة. مثالي للمطورين الذين يرغبون في تحكم دقيق في إدارة الصور متعددة الصفحات، مما يضمن تنظيمًا سلسًا وتخصيصًا لمحتوى الصورة.
+احذف الصفحة عند الفهرس المحدد من قائمة الصفحات باستخدام هذه الطريقة المريحة. مثالية للمطورين الذين يرغبون في تحكم دقيق في إدارة الصور متعددة الصفحات، مما يضمن تنظيمًا سلسًا وتخصيصًا لمحتوى الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -477,13 +477,13 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-دوّر الصورة حول مركزها باستخدام هذه الطريقة المريحة. مثالي للمطورين الذين يرغبون في تعديل اتجاه الصورة ديناميكيًا، مما يضمن عرضًا مثاليًا ومحاذاة داخل تطبيقاتهم.
+دوّر الصورة حول مركزها باستخدام هذه الطريقة المريحة. مثالية للمطورين الذين يرغبون في تعديل اتجاه الصورة ديناميكيًا، مما يضمن عرضًا مثاليًا ومحاذاة داخل تطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا)، وفي الحالة الأخرى تُترك الأبعاد دون تعديل وتُدور فقط محتويات الصورة ``. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا)، وفي الحالة الأخرى تُترك الأبعاد دون تغيير وتُدور فقط `` image contents are rotated. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 
 
@@ -498,31 +498,31 @@ try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = new com.aspose.imaging.fileformats.dicom.DicomImage(stream);
     try {
         // دوّر الصورة حول المركز بزاوية 60 درجة باتجاه عقارب الساعة.
-        // استخدم اللون الرمادي كلون الخلفية.
+        // استخدم اللون الرمادي كلون خلفية.
         dicomImage.rotate(60, true, com.aspose.imaging.Color.getGray());
 
         com.aspose.imaging.imageoptions.TiffOptions createOptions = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
         createOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Deflate);
 
-        // لاحظ أنه إذا كانت الصورة ملونة، فسيتم تحويلها تلقائيًا إلى تنسيق التدرج الرمادي وفقًا للخيارات أدناه.
+        // لاحظ أنه إذا كانت الصورة ملونة، فسيتم تحويلها تلقائيًا إلى صيغة التدرج الرمادي وفقًا للخيارات أدناه
         createOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.MinIsBlack);
         createOptions.setBitsPerSample(new int[]{8});
 
-        // أنشئ مصفوفة من إطارات TIFF.
+        // إنشاء مصفوفة من إطارات TIFF.
         // عدد الإطارات يساوي عدد صفحات DJVU.
         com.aspose.imaging.fileformats.dicom.DicomPage[] pages = dicomImage.getDicomPages();
         com.aspose.imaging.fileformats.tiff.TiffFrame[] tiffFrames = new com.aspose.imaging.fileformats.tiff.TiffFrame[pages.length];
 
         // احفظ كل صفحة كإطار TIFF منفصل.
         for (com.aspose.imaging.fileformats.dicom.DicomPage dicomPage : pages) {
-            // أنشئ إطار TIFF استنادًا إلى صفحة DICOM.
+            // إنشاء إطار TIFF استنادًا إلى صفحة DICOM.
             tiffFrames[dicomPage.getIndex()] = new com.aspose.imaging.fileformats.tiff.TiffFrame(dicomPage, createOptions);
         }
 
-        // كوّن صورة TIFF من الإطارات.
+        // تكوين صورة TIFF من الإطارات.
         com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = new com.aspose.imaging.fileformats.tiff.TiffImage(tiffFrames);
         try {
-            // احفظ إلى ملف.
+            // حفظ إلى ملف.
             tiffImage.save(dir + "multiframe.tif");
         } finally {
             tiffImage.dispose();
@@ -541,7 +541,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-قم بضبط حجم الصورة باستخدام هذه الطريقة المبسطة. مثالي للمطورين الذين يرغبون في تغيير حجم الصور ديناميكيًا، مما يضمن توافقها بسلاسة مع مختلف السياقات والتصاميم داخل تطبيقاتهم.
+ضبط حجم الصورة باستخدام هذه الطريقة البسيطة. مثالي للمطورين الذين يرغبون في تغيير حجم الصور ديناميكيًا، مع ضمان توافقها بسلاسة مع مختلف السياقات والتصاميم داخل تطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -561,7 +561,7 @@ try {
     // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "upsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -572,7 +572,7 @@ try {
     // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "downsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -583,7 +583,7 @@ try {
     // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "upsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -594,7 +594,7 @@ try {
     // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "downsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -607,7 +607,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-قم بضبط عرض الصورة مع الحفاظ على نسبة العرض إلى الارتفاع باستخدام هذه الطريقة المريحة. مثالي للمطورين الذين يرغبون في تغيير حجم الصور بشكل متناسب، مما يضمن نتائج ثابتة وجذابة بصريًا عبر بيئات العرض المختلفة.
+ضبط عرض الصورة مع الحفاظ على نسبة أبعادها باستخدام هذه الطريقة المريحة. مثالي للمطورين الذين يسعون إلى تغيير حجم الصور بشكل متناسب، مع ضمان نتائج ثابتة وجذابة بصريًا عبر بيئات العرض المختلفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -617,7 +617,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 
 
 **Example: This example loads a DICOM image and resizes it proportionally using various resizing methods.**
-هذا المثال يحمل صورة DICOM ويعيد تحجيمها بشكل متناسب باستخدام طرق تحجيم مختلفة. يتم تحديد العرض فقط، ويتم حساب الارتفاع تلقائيًا.
+هذا المثال يحمل صورة DICOM ويعيد تحجيمها بشكل متناسب باستخدام طرق إعادة التحجيم المختلفة. يتم تحديد العرض فقط، ويتم حساب الارتفاع تلقائيًا.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -672,7 +672,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-قم بضبط ارتفاع الصورة مع الحفاظ على نسبة العرض إلى الارتفاع باستخدام هذه الطريقة سهلة الاستخدام. مثالي للمطورين الذين يسعون إلى إعادة تحجيم الصور ديناميكيًا مع الحفاظ على نسبها، مما يضمن عرضًا مثاليًا وقابلية استخدام في تطبيقاتهم.
+ضبط ارتفاع الصورة مع الحفاظ على نسبة أبعادها باستخدام هذه الطريقة سهلة الاستخدام. مثالي للمطورين الذين يرغبون في تغيير حجم الصور ديناميكيًا مع الحفاظ على نسبها، لضمان عرض واستخدام أمثل في تطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -682,7 +682,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 
 
 **Example: This example loads a DICOM image and resizes it proportionally using various resizing methods.**
-هذا المثال يحمل صورة DICOM ويعيد تحجيمها بشكل متناسب باستخدام طرق تحجيم مختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
+هذا المثال يحمل صورة DICOM ويعيد تحجيمها بشكل متناسب باستخدام طرق إعادة التحجيم المختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -737,7 +737,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-قم بالتلاعب بسهولة بالإطار النشط عن طريق الدوران أو القلب، أو تنفيذ كلا الإجراءين معًا باستخدام هذه الطريقة المبسطة. مثالي للمطورين الذين يحتاجون إلى تعديل اتجاه الإطارات المحددة ضمن تسلسلات الصور ديناميكيًا، مما يضمن عرضًا وتنسيقًا مثاليًا.
+يمكنك بسهولة تعديل الإطار النشط عن طريق الدوران أو القلب، أو تنفيذ كلا الإجراءين معًا باستخدام هذه الطريقة البسيطة. مثالي للمطورين الذين يحتاجون إلى تعديل اتجاه إطارات معينة داخل تسلسلات الصور ديناميكيًا، لضمان عرض ومحاذاة مثالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -759,7 +759,7 @@ int[] rotateFlipTypes = new int[]
         };
 
 for (int rotateFlipType : rotateFlipTypes) {
-    // قم بالدوران، القليب وحفظ إلى ملف الإخراج.
+    // قم بالدوران، والقلّب، واحفظ إلى ملف الإخراج.
     com.aspose.imaging.fileformats.dicom.DicomImage image = (com.aspose.imaging.fileformats.dicom.DicomImage) com.aspose.imaging.Image.load(dir + "sample.dicom");
     try {
         image.rotateFlip(rotateFlipType);
@@ -776,7 +776,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-حسّن الصورة الحالية بتطبيق تأثيرات التمويه باستخدام هذه الطريقة المبسطة. مثالي للمطورين الذين يرغبون في إضافة نسيج وعمق إلى الصور، مما يحسن جودتها البصرية وجاذبيتها العامة.
+حسّن الصورة الحالية بتطبيق تأثيرات التمويه باستخدام هذه الطريقة البسيطة. مثالي للمطورين الذين يهدفون إلى إضافة نسيج وعمق للصور، مما يحسن جودتها البصرية وجاذبيتها العامة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -795,9 +795,9 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // قم بتنفيذ تدرّج العتبة باستخدام لوحة ألوان 4‑بت تحتوي على 16 لونًا.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين بالعتبة باستخدام لوحة ألوان 4-بت تحتوي على 16 لونًا.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     dicomImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4, null);
 
     dicomImage.save(dir + "sample.ThresholdDithering4.png", new com.aspose.imaging.imageoptions.PngOptions());
@@ -809,9 +809,9 @@ image = com.aspose.imaging.Image.load(dir + "sample.dicom");
 {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // قم بتنفيذ تدرّج Floyd باستخدام لوحة ألوان 1‑بت تحتوي فقط على لونين - الأسود والأبيض.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين فلويد باستخدام لوحة ألوان 1-بت تحتوي فقط على لونين - أسود وأبيض.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     dicomImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1, null);
 
     dicomImage.save(dir + "sample.FloydSteinbergDithering1.png", new com.aspose.imaging.imageoptions.PngOptions());
@@ -824,7 +824,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-قم بقص الصورة لإزالة المناطق غير المرغوب فيها والتركيز على المحتوى الأساسي باستخدام هذه الطريقة البسيطة. مثالي للمطورين الذين يسعون لتخصيص التركيب البصري للصور، وضمان نقل الرسالة المطلوبة بفعالية.
+قم بقص الصورة لإزالة المناطق غير المرغوبة والتركيز على المحتوى الأساسي باستخدام هذه الطريقة البسيطة. مثالي للمطورين الذين يرغبون في تخصيص التركيب البصري للصور، لضمان نقل الرسالة المطلوبة بفعالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -841,7 +841,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // قص الصورة. منطقة القص هي المنطقة المستطيلة المركزية في الصورة.
+    // قص الصورة. منطقة القص هي المنطقة المركزية المستطيلة للصورة.
     com.aspose.imaging.Rectangle area =
             new com.aspose.imaging.Rectangle(
                     dicomImage.getWidth() / 4, dicomImage.getHeight() / 4, dicomImage.getWidth() / 2, dicomImage.getHeight() / 2);
@@ -860,7 +860,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-قم بضبط منطقة القص للصورة عن طريق تطبيق إزاحات باستخدام هذه الطريقة المتعددة الاستخدامات. مثالي للمطورين الذين يحتاجون إلى تحكم دقيق في عملية القص، وضمان احتفاظ التفاصيل الهامة مع إزالة العناصر غير الضرورية.
+ضبط منطقة قص الصورة عن طريق تطبيق إزاحات باستخدام هذه الطريقة المتعددة الاستخدامات. مثالي للمطورين الذين يحتاجون إلى تحكم دقيق في عملية القص، لضمان الحفاظ على التفاصيل المهمة مع إزالة العناصر غير الضرورية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -880,12 +880,12 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // اقتطع مرة أخرى. ضع هامشًا بنسبة 10% من حجم الصورة.
+    // اقتطع مرة أخرى. اضبط هامشًا بنسبة 10٪ من حجم الصورة.
     int horizontalMargin = dicomImage.getWidth() / 10;
     int verticalMargin = dicomImage.getHeight() / 10;
     dicomImage.crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-    // احفظ الصورة المقتطعة إلى PNG.
+    // احفظ الصورة المقتطعة بصيغة PNG.
     dicomImage.save(dir + "sample.Crop.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -898,16 +898,16 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-قم بتحويل الصورة بسهولة إلى صيغة ثنائية باستخدام عتبة محددة مسبقًا مع هذه الطريقة المبسطة. مثالي للمطورين الذين يرغبون في تبسيط مهام معالجة الصور عن طريق تقسيم الصورة إلى مكونات المقدمة والخلفية بناءً على مستويات الشدة المحددة.
+يمكنك بسهولة تحويل الصورة إلى صيغة ثنائية باستخدام عتبة محددة مسبقًا مع هذه الطريقة البسيطة. مثالي للمطورين الذين يرغبون في تبسيط مهام معالجة الصور عن طريق تقسيم الصورة إلى مكونات المقدمة والخلفية بناءً على مستويات الشدة المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة لبكسل أكبر من العتبة، سيتم تعيين القيمة 255 له، وإلا 0. |
+| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من العتبة، سيتم تعيين القيمة 255 لها، وإلا 0. |
 
 
 **Example: The following example binarizes a DICOM image with the predefined threshold.**
-المثال التالي يحول صورة DICOM إلى ثنائية باستخدام العتبة المحددة مسبقًا. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يحول صورة DICOM إلى ثنائية باستخدام العتبة المحددة مسبقًا. الصور الثنائية تحتوي على لونين فقط - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -915,8 +915,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
-    // إذا كانت القيمة الرمادية المقابلة للبكسل أكبر من 127، سيتم تعيين القيمة 255 له، وإلا ستكون 0.
+    // حوّل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
+    // إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من 127، سيتم تعيين قيمة 255 له، وإلا ستكون 0.
     dicomImage.binarizeFixed((byte) 127);
     dicomImage.save(dir + "sample.BinarizeFixed.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -930,11 +930,11 @@ public void binarizeOtsu()
 ```
 
 
-طبق عتبة أوتسو لتثنائي الصورة، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على هيستوجرام الصورة. مثالي للمطورين الذين يبحثون عن طريقة موثوقة لتقسيم الصور إلى مناطق المقدمة والخلفية بأقل تدخل يدوي.
+تطبيق عتبة أوتسو لتثنائي الصورة، مع تحديد القيمة المثلى للعتبة تلقائيًا بناءً على هيستوغرام الصورة. مثالي للمطورين الذين يبحثون عن طريقة موثوقة لتقسيم الصور إلى مناطق المقدمة والخلفية بأقل تدخل يدوي.
 
 
 **Example: The following example binarizes a DICOM image with Otsu thresholding.**
-المثال التالي يحول صورة DICOM إلى ثنائية باستخدام عتبة أوتسو. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يحول صورة DICOM إلى ثنائية باستخدام عتبة أوتسو. الصور الثنائية تحتوي على لونين فقط - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -942,7 +942,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام عتبة أوتسو.
+    // حوّل الصورة إلى ثنائية باستخدام عتبة أوتسو.
     dicomImage.binarizeOtsu();
     dicomImage.save(dir + "sample.BinarizeOtsu.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -956,17 +956,17 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-قم بتثنائي الصور باستخدام خوارزمية عتبة برادلي التكيفية، مستفيدًا من عتبة الصورة المتكاملة لتحسين الأداء. مثالي للمطورين الذين يرغبون في تقسيم الصور تلقائيًا بناءً على التغييرات المحلية في السطوع، مما يضمن اكتشافًا دقيقًا للكائنات واستخراجها في ظروف إضاءة متغيرة.
+قم بتثنائي الصور باستخدام خوارزمية العتبة التكيفية لبرادلي، مستفيدًا من عتبة الصورة المتكاملة لتحسين الأداء. مثالي للمطورين الذين يرغبون في تقسيم الصور تلقائيًا بناءً على التغيرات المحلية في السطوع، لضمان اكتشاف واستخراج كائنات دقيقة في ظروف إضاءة متغيرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
-| windowSize | int | حجم نافذة s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
+| windowSize | int | حجم نافذة s × s من البكسلات المتمركزة حول هذا البكسل |
 
 
 **Example: The following example binarizes a DICOM image with Bradley's adaptive thresholding algorithm with the specified window size.**
-المثال التالي يحول صورة DICOM إلى ثنائية باستخدام خوارزمية عتبة برادلي التكيفية مع حجم النافذة المحدد. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
+المثال التالي يحول صورة DICOM إلى ثنائية باستخدام خوارزمية العتبة التكيفية لبرادلي مع حجم النافذة المحدد. الصور الثنائية تحتوي على لونين فقط - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -974,7 +974,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // حوّل الصورة إلى ثنائية بفارق سطوع قدره 5. السطوع هو الفرق بين بكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
+    // حوّل الصورة إلى ثنائية بفرق سطوع قدره 5. السطوع هو الفرق بين بكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
     dicomImage.binarizeBradley(5, 10);
     dicomImage.save(dir + "sample.BinarizeBradley5_10x10.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -988,11 +988,11 @@ public void grayscale()
 ```
 
 
-قم بتحويل الصور بسهولة إلى تمثيلها الرمادي، مبسطًا التحليل البصري ومهام المعالجة. مثالي للمطورين الذين يسعون إلى تحسين وضوح الصورة، تقليل التعقيد، وتسهيل الخوارزميات القائمة على الرمادي لتطبيقات متنوعة.
+يمكنك بسهولة تحويل الصور إلى تمثيلها بتدرج الرمادي، مما يبسط تحليل الصور ومهام المعالجة. مثالي للمطورين الذين يسعون إلى تحسين وضوح الصورة، تقليل التعقيد، وتسهيل الخوارزميات القائمة على التدرج الرمادي لتطبيقات متنوعة.
 
 
 **Example: The following example transforms a colored DICOM image to its grayscale representation.**
-المثال التالي يحول صورة DICOM ملونة إلى تمثيلها الرمادي. الصور الرمادية تتكون حصريًا من درجات اللون الرمادي وتحمل فقط معلومات الشدة.
+المثال التالي يحول صورة DICOM ملونة إلى تمثيلها بتدرج الرمادي. صور التدرج الرمادي تتكون حصريًا من درجات اللون الرمادي وتحمل فقط معلومات الشدة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1013,12 +1013,12 @@ public void adjustGamma(float gamma)
 ```
 
 
-حسّن جودة الصورة واضبطها باستخدام تصحيح غاما، تقنية قوية لضبط المظهر البصري بدقة. مثالي للمطورين الذين يهدفون إلى تحسين عرض الصورة، ضبط توازن الألوان، وضمان عرض متسق عبر مختلف الأجهزة والبيئات.
+حسّن جودة الصورة واضبطها باستخدام تصحيح جاما، وهي تقنية قوية لضبط المظهر البصري بدقة. مثالية للمطورين الذين يهدفون إلى تحسين عرض الصورة، وضبط توازن الألوان، وضمان عرض متسق عبر الأجهزة والبيئات المختلفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| غاما | float | معامل غاما لقنوات الأحمر والأخضر والأزرق |
+| غاما | float | معامل غاما للقنوات الحمراء والخضراء والزرقاء |
 
 
 **Example: The following example performs gamma-correction of a DICOM image.**
@@ -1030,7 +1030,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // تعيين معامل غاما لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معامل غاما للقنوات الحمراء والخضراء والزرقاء.
     dicomImage.adjustGamma(2.5f);
     dicomImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1044,14 +1044,14 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-حقق تعديلات لونية دقيقة بتطبيق تصحيح غاما بشكل مستقل على مكونات الأحمر والأخضر والأزرق في الصورة. تضمن هذه الطريقة توازنًا لونيًا دقيقًا وإخراجًا بصريًا مثاليًا، موجهة للمطورين الذين يسعون إلى تحكم دقيق في عرض الصورة ودقة الألوان.
+تحقق من ضبط الألوان بدقة عن طريق تطبيق تصحيح جاما بشكل مستقل على مكونات الأحمر والأخضر والأزرق في الصورة. تضمن هذه الطريقة توازنًا دقيقًا للألوان وإخراجًا بصريًا مثاليًا، موجهة للمطورين الذين يسعون إلى تحكم دقيق في عرض الصورة ودقة الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gammaRed | float | معامل غاما لقناة الأحمر |
-| gammaGreen | float | معامل غاما لقناة الأخضر |
-| gammaBlue | float | معامل غاما لقناة اللون الأزرق |
+| gammaRed | float | معامل غاما للقناة الحمراء |
+| gammaGreen | float | معامل غاما للقناة الخضراء |
+| gammaBlue | float | معامل غاما للقناة الزرقاء |
 
 
 **Example: The following example performs gamma-correction of a DICOM image applying different coefficients for color components.**
@@ -1063,7 +1063,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // تعيين معاملات غاما الفردية لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معاملات غاما الفردية للقنوات الحمراء والخضراء والزرقاء.
     dicomImage.adjustGamma(1.5f, 2.5f, 3.5f);
     dicomImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1077,7 +1077,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-حسّن إضاءة الصورة من خلال تعديل `brightness`، طريقة معلمة تسمح للمطورين بضبط سطوع الصور بدقة. تمكّن هذه الدالة سهلة الاستخدام المطورين من تعديل سطوع الصورة بسلاسة، مقدمة مرونة وتحكمًا في الجماليات البصرية.
+حسّن إضاءة الصورة من خلال تعديل `brightness`، وهي طريقة معلمة تسمح للمطورين بضبط سطوع الصور بدقة. تمكّن هذه الدالة سهلة الاستخدام المطورين من تعديل سطوع الصورة بسلاسة، مما يوفر مرونة وتحكمًا في الجماليات البصرية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1094,7 +1094,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255, 255].
+    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255، 255].
     dicomImage.adjustBrightness(50);
     dicomImage.save(dir + "sample.AdjustBrightness.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1108,7 +1108,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-حسّن تباين [Image](../../com.aspose.imaging/image) باستخدام هذه الطريقة سهلة الاستخدام، التي تضبط الفارق بين المناطق الفاتحة والداكنة. حسّن الوضوح البصري والتعريف بسهولة، مما يوفّر للمطورين تحكمًا بديهيًا في تباين الصورة لتحقيق عرض مثالي.
+حسّن تباين [Image](../../com.aspose.imaging/image) باستخدام هذه الطريقة السهلة، التي تضبط الفارق بين المناطق الفاتحة والداكنة. حسّن الوضوح البصري والتفصيل بسهولة، مما يوفّر للمطورين تحكمًا بديهيًا في تباين الصورة للحصول على عرض مثالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1125,7 +1125,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f, 100f].
+    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f، 100f].
     dicomImage.adjustContrast(50f);
     dicomImage.save(dir + "sample.AdjustContrast.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1139,7 +1139,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-قم بتحسين مناطق محددة من صورتك بسهولة عن طريق تطبيق فلاتر على مستطيلات معينة. توفر هذه الطريقة للمطورين تحكمًا دقيقًا في تعديل الصورة، مما يسمح بإجراء تعديلات مستهدفة لتحقيق التأثيرات البصرية المطلوبة بسهولة.
+قم بتحسين مناطق محددة من صورتك بسهولة عن طريق تطبيق فلاتر على مستطيلات محددة. توفّر هذه الطريقة للمطورين تحكمًا دقيقًا في تعديل الصورة، مما يسمح بإجراء تعديلات مستهدفة لتحقيق التأثيرات البصرية المطلوبة بسهولة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1157,7 +1157,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.dic
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // طبق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // تطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بالكامل.
     dicomImage.filter(dicomImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     dicomImage.save(dir + "sample.MedianFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1168,7 +1168,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.dicom");
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // طبق مرشح تمهيد ثنائي الجانب بحجم نواة 5 على الصورة بأكملها.
+    // تطبيق مرشح تنعيم ثنائي الجانب بحجم نواة 5 على الصورة بالكامل.
     dicomImage.filter(dicomImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     dicomImage.save(dir + "sample.BilateralSmoothingFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1179,7 +1179,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.dicom");
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     dicomImage.filter(dicomImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     dicomImage.save(dir + "sample.GaussianBlurFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1190,7 +1190,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.dicom");
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // طبق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بأكملها.
+    // تطبيق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بالكامل.
     dicomImage.filter(dicomImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     dicomImage.save(dir + "sample.GaussWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1201,7 +1201,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.dicom");
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // طبق مرشح واينر حركي بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // تطبيق مرشح حركة واينر بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     dicomImage.filter(dicomImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     dicomImage.save(dir + "sample.MotionWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1212,7 +1212,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.dicom");
 try {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // طبق مرشح شحذ بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     dicomImage.filter(dicomImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     dicomImage.save(dir + "sample.SharpenFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1226,7 +1226,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-قم بضبط حجم صورتك باستخدام هذه الطريقة البسيطة لإعادة التحجيم. سواء كنت بحاجة إلى تصغير أو تكبير صورتك، تضمن هذه الدالة تلبية احتياجات التحجيم بكفاءة ودقة، مما يجعلها مثالية للمطورين الذين يبحثون عن تعديلات سريعة وسهلة لحجم الصورة.
+اضبط حجم صورتك باستخدام طريقة تغيير الحجم البسيطة هذه. سواء كنت بحاجة لتصغير أو تكبير صورتك، تضمن هذه الدالة تلبية احتياجات تغيير الحجم بكفاءة ودقة، مما يجعلها مثالية للمطورين الذين يبحثون عن تعديل حجم الصورة بسرعة وسهولة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1243,7 +1243,7 @@ String dir = "c:\\temp\\";
 
 com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة الكسرية الموزونة والمختلطة واستيفاء lanczos3.
 resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
 
 // المرشح المستطيل الصغير
@@ -1252,20 +1252,20 @@ resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular
 // عدد الألوان في لوحة الألوان.
 resizeSettings.setEntriesCount(256);
 
-// لم يتم استخدام تقليل ألوان.
+// لم يتم استخدام تقليل ألوان الصورة
 resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
 
-// الطريقة الإقليدية
+// طريقة إقليدية
 resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
 
 com.aspose.imaging.Image image = (com.aspose.imaging.Image) com.aspose.imaging.Image.load(dir + "sample.dicom");
 {
     com.aspose.imaging.fileformats.dicom.DicomImage dicomImage = (com.aspose.imaging.fileformats.dicom.DicomImage) image;
 
-    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات متكيفة.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     dicomImage.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
 
-    // حفظ إلى PNG
+    // احفظ إلى PNG
     dicomImage.save(dir + "downsample.adaptive.png", new com.aspose.imaging.imageoptions.PngOptions());
 }
 ```
@@ -1276,7 +1276,7 @@ public void cacheData()
 ```
 
 
-تقوم هذه الطريقة بتخزين البيانات مؤقتًا بكفاءة، مما يحسن الأداء ويضمن وصولًا سريعًا عند الحاجة. مثالي للمطورين الذين يسعون إلى تعزيز سرعة وكفاءة تطبيقاتهم من خلال إدارة موارد البيانات بذكاء.
+تقوم هذه الطريقة بتخزين البيانات مؤقتًا بكفاءة، مما يحسن الأداء ويضمن وصولًا سريعًا عند الحاجة. مثالية للمطورين الذين يرغبون في تعزيز سرعة وكفاءة تطبيقاتهم من خلال إدارة موارد البيانات بذكاء.
 
 
 **Example: The following example shows how to cache all pages of a DICOM image.**
@@ -1287,7 +1287,7 @@ String dir = "c:\\temp\\";
 // حمّل صورة من ملف DICOM.
 com.aspose.imaging.fileformats.dicom.DicomImage image = (com.aspose.imaging.fileformats.dicom.DicomImage) com.aspose.imaging.Image.load(dir + "sample.dicom");
 try {
-    // هذه العملية تخزن جميع الصفحات مؤقتًا بحيث لن يتم تحميل أي بيانات إضافية من تدفق البيانات الأساسي.
+    // يقوم هذا الاستدعاء بتخزين جميع الصفحات مؤقتًا بحيث لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
     image.cacheData();
 
     // أو يمكنك تخزين الصفحات مؤقتًا بشكل فردي.

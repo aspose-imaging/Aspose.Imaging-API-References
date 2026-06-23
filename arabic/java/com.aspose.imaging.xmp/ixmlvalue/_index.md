@@ -1,7 +1,7 @@
 ---
 title: "IXmlValue"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحوّل قيم XMP إلى تمثيل سلسلة XML."
+description: "يقوم بتحويل قيم xmp إلى تمثيل سلسلة XML."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.imaging.xmp/ixmlvalue/

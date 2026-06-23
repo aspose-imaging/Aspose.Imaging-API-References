@@ -17,27 +17,27 @@ public class OdTextMeasure extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdTextMeasure(OdObject parent)](#OdTextMeasure-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلاً جديداً من الفئة `OdTextMeasure`. |
+| [OdTextMeasure(OdObject parent)](#OdTextMeasure-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdTextMeasure`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getText()](#getText--) | يحصل على القيمة. |
 | [setText(String value)](#setText-java.lang.String-) | يضبط القيمة. |
-| [getKind()](#getKind--) | يحصل أو يعيّن النوع. |
-| [setKind(int value)](#setKind-int-) | يحصل أو يعيّن النوع. |
+| [getKind()](#getKind--) | يحصل أو يضبط النوع. |
+| [setKind(int value)](#setKind-int-) | يحصل أو يضبط النوع. |
 ### OdTextMeasure(OdObject parent) {#OdTextMeasure-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdTextMeasure(OdObject parent)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `OdTextMeasure`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdTextMeasure`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getText() {#getText--}
 ```
@@ -60,7 +60,7 @@ public final void setText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### getKind() {#getKind--}
 ```
@@ -68,7 +68,7 @@ public int getKind()
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 **Returns:**
 int - النوع.
@@ -78,10 +78,10 @@ public void setKind(int value)
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النوع. |
+| value | int | النوع. |
 

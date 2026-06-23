@@ -1,7 +1,7 @@
 ---
 title: "XmpInteger"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل النوع الأساسي الصحيح XMP."
+description: "يمثل النوع الأساسي Integer في XMP."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.xmp.types.basic/xmpinteger/
@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class XmpInteger extends XmpTypeBase
 ```
 
-يمثل النوع الأساسي الصحيح XMP.
+يمثل النوع الأساسي Integer في XMP.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpInteger(long value)](#XmpInteger-long-) | ينشئ مثيلاً جديداً من الفئة `XmpInteger`. |
-| [XmpInteger(int value)](#XmpInteger-int-) | ينشئ مثيلاً جديداً من الفئة `XmpInteger`. |
-| [XmpInteger(String value)](#XmpInteger-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `XmpInteger`. |
+| [XmpInteger(long value)](#XmpInteger-long-) | يُنشئ مثيلاً جديدًا من الفئة `XmpInteger`. |
+| [XmpInteger(int value)](#XmpInteger-int-) | يُنشئ مثيلاً جديدًا من الفئة `XmpInteger`. |
+| [XmpInteger(String value)](#XmpInteger-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `XmpInteger`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,12 +33,12 @@ public XmpInteger(long value)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `XmpInteger`.
+يُنشئ مثيلاً جديدًا من الفئة `XmpInteger`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | القيمة. |
+| value | long | القيمة. |
 
 ### XmpInteger(int value) {#XmpInteger-int-}
 ```
@@ -46,12 +46,12 @@ public XmpInteger(int value)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `XmpInteger`.
+يُنشئ مثيلاً جديدًا من الفئة `XmpInteger`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة. |
+| value | int | القيمة. |
 
 ### XmpInteger(String value) {#XmpInteger-java.lang.String-}
 ```
@@ -59,12 +59,12 @@ public XmpInteger(String value)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `XmpInteger`.
+يُنشئ مثيلاً جديدًا من الفئة `XmpInteger`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### getValue() {#getValue--}
 ```
@@ -91,7 +91,7 @@ public void setValue(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

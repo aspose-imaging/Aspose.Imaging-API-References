@@ -1,30 +1,30 @@
 ---
 title: "StringFormat"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يُغَلِّف معلومات تنسيق النص مثل محاذاة الاتجاه وإيقافات الجدولة، وتعديلات العرض مثل إدراج النقاط الثلاثية واستبدال الأرقام الوطنية وميزات OpenType."
+description: "يحتوي على معلومات تخطيط النص مثل محاذاة الاتجاه وإيقافات التبويب، وتعديلات العرض مثل إدراج الثلاث نقاط واستبدال الأرقام الوطنية وميزات OpenType."
 type: docs
 weight: 112
 url: /ar/java/com.aspose.imaging/stringformat/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
 public final class StringFormat extends DisposableObject
 ```
 
-يُغَلِّف معلومات تنسيق النص (مثل المحاذاة، الاتجاه وإيقافات الجدولة) وتعديلات العرض (مثل إدراج النقاط الثلاثية واستبدال الأرقام الوطنية) وميزات OpenType. لا يمكن وراثة هذه الفئة.
+يحتوي على معلومات تخطيط النص (مثل المحاذاة، الاتجاه وإيقافات التبويب) وتعديلات العرض (مثل إدراج الثلاث نقاط واستبدال الأرقام الوطنية) وميزات OpenType. لا يمكن توريث هذه الفئة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
 | [StringFormat()](#StringFormat--) | ينشئ كائنًا جديدًا من النوع `com.aspose.imaging.StringFormat`. |
 | [StringFormat(int options)](#StringFormat-int-) | ينشئ كائنًا جديدًا من النوع `com.aspose.imaging.StringFormat` باستخدام تعداد `com.aspose.imaging.StringFormatFlags` المحدد واللغة. |
-| [StringFormat(StringFormat format)](#StringFormat-com.aspose.imaging.StringFormat-) | ينشئ كائنًا جديدًا من النوع `com.aspose.imaging.StringFormat` من الكائن الموجود `com.aspose.imaging.StringFormat` المحدد. |
+| [StringFormat(StringFormat format)](#StringFormat-com.aspose.imaging.StringFormat-) | ينشئ كائنًا جديدًا من النوع `com.aspose.imaging.StringFormat` من الكائن `com.aspose.imaging.StringFormat` الموجود المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getGenericDefault()](#getGenericDefault--) | يحصل على كائن افتراضي عام من النوع `com.aspose.imaging.StringFormat`. |
+| [getGenericDefault()](#getGenericDefault--) | يحصل على كائن `com.aspose.imaging.StringFormat` افتراضي عام. |
 | [getGenericTypographic()](#getGenericTypographic--) | يحصل على كائن نمط نص عام `com.aspose.imaging.StringFormat`. |
 | [getFormatFlags()](#getFormatFlags--) | يحصل على تعداد `com.aspose.imaging.StringFormatFlags` يحتوي على معلومات التنسيق. |
 | [setFormatFlags(int value)](#setFormatFlags-int-) | يضبط تعداد `com.aspose.imaging.StringFormatFlags` يحتوي على معلومات التنسيق. |
@@ -36,11 +36,11 @@ public final class StringFormat extends DisposableObject
 | [setHotkeyPrefix(int value)](#setHotkeyPrefix-int-) | يضبط كائن `com.aspose.imaging.HotkeyPrefix` لهذا الكائن `com.aspose.imaging.StringFormat`. |
 | [getTrimming()](#getTrimming--) | يحصل على تعداد `com.aspose.imaging.StringTrimming` لهذا الكائن `com.aspose.imaging.StringFormat`. |
 | [setTrimming(int value)](#setTrimming-int-) | يضبط تعداد `com.aspose.imaging.StringTrimming` لهذا الكائن `com.aspose.imaging.StringFormat`. |
-| [getDigitSubstitutionMethod()](#getDigitSubstitutionMethod--) | يحصل على الطريقة المستخدمة لاستبدال الأرقام. |
-| [setDigitSubstitutionMethod(int value)](#setDigitSubstitutionMethod-int-) | يضبط الطريقة المستخدمة لاستبدال الأرقام. |
+| [getDigitSubstitutionMethod()](#getDigitSubstitutionMethod--) | يحصل على الطريقة التي ستُستخدم لاستبدال الأرقام. |
+| [setDigitSubstitutionMethod(int value)](#setDigitSubstitutionMethod-int-) | يضبط الطريقة التي ستُستخدم لاستبدال الأرقام. |
 | [getDigitSubstitutionLanguage()](#getDigitSubstitutionLanguage--) | يحصل على اللغة المستخدمة عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. |
 | [setDigitSubstitutionLanguage(int value)](#setDigitSubstitutionLanguage-int-) | يضبط اللغة المستخدمة عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. |
-| [getFirstTabOffset()](#getFirstTabOffset--) | يحصل على عدد المسافات بين بداية سطر النص وأول موضع تبويب. |
+| [getFirstTabOffset()](#getFirstTabOffset--) | يحصل على عدد الفراغات بين بداية سطر النص وأول موضع تبويب. |
 | [getTabStops()](#getTabStops--) | يحصل على مصفوفة من المسافات بين مواضع التبويب بالوحدات المحددة بواسطة الخاصية `P:Aspose.Imaging.getGraphics().PageUnit`. |
 | [getCustomCharIdent()](#getCustomCharIdent--) | يحصل على معرف الحرف المخصص. |
 | [setCustomCharIdent(PointF value)](#setCustomCharIdent-com.aspose.imaging.PointF-) | يضبط معرف الحرف المخصص. |
@@ -68,7 +68,7 @@ public StringFormat(int options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| خيارات | int | تعداد `com.aspose.imaging.StringFormatFlags` للكائن الجديد `com.aspose.imaging.StringFormat`. |
+| الخيارات | int | تعداد `com.aspose.imaging.StringFormatFlags` للكائن الجديد `com.aspose.imaging.StringFormat`. |
 
 ### StringFormat(StringFormat format) {#StringFormat-com.aspose.imaging.StringFormat-}
 ```
@@ -76,7 +76,7 @@ public StringFormat(StringFormat format)
 ```
 
 
-ينشئ كائنًا جديدًا من النوع `com.aspose.imaging.StringFormat` من الكائن الموجود `com.aspose.imaging.StringFormat` المحدد.
+ينشئ كائنًا جديدًا من النوع `com.aspose.imaging.StringFormat` من الكائن `com.aspose.imaging.StringFormat` الموجود المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -89,7 +89,7 @@ public static StringFormat getGenericDefault()
 ```
 
 
-يحصل على كائن افتراضي عام من النوع `com.aspose.imaging.StringFormat`.
+يحصل على كائن `com.aspose.imaging.StringFormat` افتراضي عام.
 
 **Returns:**
 [StringFormat](../../com.aspose.imaging/stringformat) - The generic default `com.aspose.imaging.StringFormat` object.
@@ -124,7 +124,7 @@ public void setFormatFlags(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تعداد `com.aspose.imaging.StringFormatFlags` يحتوي على معلومات التنسيق. |
+| value | int | تعداد `com.aspose.imaging.StringFormatFlags` يحتوي على معلومات التنسيق. |
 
 ### getAlignment() {#getAlignment--}
 ```
@@ -147,7 +147,7 @@ public void setAlignment(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تعداد `com.aspose.imaging.StringAlignment` يحدد معلومات محاذاة النص. |
+| value | int | تعداد `com.aspose.imaging.StringAlignment` يحدد معلومات محاذاة النص. |
 
 ### getLineAlignment() {#getLineAlignment--}
 ```
@@ -170,7 +170,7 @@ public void setLineAlignment(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تعداد `com.aspose.imaging.StringAlignment` يمثل محاذاة السطر. |
+| value | int | تعداد `com.aspose.imaging.StringAlignment` يمثل محاذاة السطر. |
 
 ### getHotkeyPrefix() {#getHotkeyPrefix--}
 ```
@@ -193,7 +193,7 @@ public void setHotkeyPrefix(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | كائن `com.aspose.imaging.HotkeyPrefix` لهذا الكائن `com.aspose.imaging.StringFormat`، القيمة الافتراضية هي `F:Aspose.Imaging.HotkeyPrefix.None`. |
+| value | int | كائن `com.aspose.imaging.HotkeyPrefix` لهذا الكائن `com.aspose.imaging.StringFormat`، القيمة الافتراضية هي `F:Aspose.Imaging.HotkeyPrefix.None`. |
 
 ### getTrimming() {#getTrimming--}
 ```
@@ -216,7 +216,7 @@ public void setTrimming(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تعداد `com.aspose.imaging.StringTrimming` يوضح كيفية تقليم النص المرسوم بهذا الكائن `com.aspose.imaging.StringFormat` عندما يتجاوز حدود مستطيل التخطيط. |
+| value | int | تعداد `com.aspose.imaging.StringTrimming` يوضح كيفية تقليم النص المرسوم بهذا الكائن `com.aspose.imaging.StringFormat` عندما يتجاوز حدود مستطيل التخطيط. |
 
 ### getDigitSubstitutionMethod() {#getDigitSubstitutionMethod--}
 ```
@@ -224,7 +224,7 @@ public int getDigitSubstitutionMethod()
 ```
 
 
-يحصل على الطريقة المستخدمة لاستبدال الأرقام.
+يحصل على الطريقة التي ستُستخدم لاستبدال الأرقام.
 
 **Returns:**
 int - قيمة تعداد `com.aspose.imaging.StringDigitSubstitute` تحدد كيفية استبدال الأحرف في سلسلة لا يمكن عرضها لأنها غير مدعومة من الخط الحالي.
@@ -236,12 +236,12 @@ public void setDigitSubstitutionMethod(int value)
 ```
 
 
-يضبط الطريقة المستخدمة لاستبدال الأرقام.
+يضبط الطريقة التي ستُستخدم لاستبدال الأرقام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | int | قيمة تعداد `com.aspose.imaging.StringDigitSubstitute` تحدد كيفية استبدال الأحرف في سلسلة لا يمكن عرضها لأنها غير مدعومة من الخط الحالي. |
+|  | value | int | قيمة تعداد `com.aspose.imaging.StringDigitSubstitute` تحدد كيفية استبدال الأحرف في سلسلة لا يمكن عرضها لأنها غير مدعومة من الخط الحالي. |
 
 تم تقديم الدالة setter للطريقة القديمة SetDigitSubstitution. |
 
@@ -254,7 +254,7 @@ public int getDigitSubstitutionLanguage()
 يحصل على اللغة المستخدمة عندما يتم استبدال الأرقام المحلية بالأرقام الغربية.
 
 **Returns:**
-int - معرف لغة دعم اللغة الوطنية (NLS) يحدد اللغة التي ستُستخدم عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. يمكنك تمرير خاصية `P:System.Globalization.CultureInfo.LCID` لكائن `System.Globalization.CultureInfo` كمعرف لغة NLS. على سبيل المثال، افترض أنك أنشأت وضبطت إعداد محلي "ar-EG". إذا مررت `com.aspose.imaging.StringDigitSubstitute.Traditional` إلى الطريقة `com.aspose.imaging.StringFormat.setDigitSubstitution(int)`، فستُستبدل الأرقام العربية-الهندية بالأرقام الغربية عند العرض.
+int - معرف لغة دعم اللغة الوطنية (NLS) يحدد اللغة التي ستُستخدم عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. يمكنك تمرير الخاصية `P:System.Globalization.CultureInfo.LCID` لكائن `System.Globalization.CultureInfo` كمعرف لغة NLS. على سبيل المثال، افترض أنك أنشأت وضبطت إعداد إقليمي "ar-EG". إذا مررت `com.aspose.imaging.StringDigitSubstitute.Traditional` إلى الطريقة `com.aspose.imaging.StringFormat.setDigitSubstitution(int)`، فسيتم استبدال الأرقام العربية-الهندية بالأرقام الغربية عند العرض.
 ### setDigitSubstitutionLanguage(int value) {#setDigitSubstitutionLanguage-int-}
 ```
 public void setDigitSubstitutionLanguage(int value)
@@ -266,7 +266,7 @@ public void setDigitSubstitutionLanguage(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف لغة دعم اللغة الوطنية (NLS) يحدد اللغة التي ستُستخدم عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. يمكنك تمرير خاصية `P:System.Globalization.CultureInfo.LCID` لكائن `System.Globalization.CultureInfo` كمعرف لغة NLS. على سبيل المثال، افترض أنك أنشأت وضبطت إعداد محلي "ar-EG". إذا مررت `com.aspose.imaging.StringDigitSubstitute.Traditional` إلى الطريقة `com.aspose.imaging.StringFormat.setDigitSubstitution(int)`، فستُستبدل الأرقام العربية-الهندية بالأرقام الغربية عند العرض. |
+| value | int | معرف لغة دعم اللغة الوطنية (NLS) يحدد اللغة التي ستُستخدم عندما يتم استبدال الأرقام المحلية بالأرقام الغربية. يمكنك تمرير الخاصية `P:System.Globalization.CultureInfo.LCID` لكائن `System.Globalization.CultureInfo` كمعرف لغة NLS. على سبيل المثال، افترض أنك أنشأت وضبطت إعداد إقليمي "ar-EG". إذا مررت `com.aspose.imaging.StringDigitSubstitute.Traditional` إلى الطريقة `com.aspose.imaging.StringFormat.setDigitSubstitution(int)`، فسيتم استبدال الأرقام العربية-الهندية بالأرقام الغربية عند العرض. |
 
 ### getFirstTabOffset() {#getFirstTabOffset--}
 ```
@@ -274,7 +274,7 @@ public float getFirstTabOffset()
 ```
 
 
-يحصل على عدد المسافات بين بداية سطر النص وأول موضع تبويب.
+يحصل على عدد الفراغات بين بداية سطر النص وأول موضع تبويب.
 
 **Returns:**
 float - إزاحة التبويب الأولى.
@@ -341,7 +341,7 @@ public void setTabStops(float firstTabOffset, float[] tabStops)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | firstTabOffset | float | عدد المسافات بين بداية سطر النص وأول نقطة تبويب. |
-| tabStops | float[] | مصفوفة من المسافات بين نقاط التبويب بالوحدات المحددة بواسطة خاصية `com.aspose.imaging.Graphics.PageUnit`. |
+| tabStops | float[] | مصفوفة من المسافات بين نقاط التبويب بالوحدات المحددة بواسطة الخاصية `com.aspose.imaging.Graphics.PageUnit`. |
 
 ### toString() {#toString--}
 ```

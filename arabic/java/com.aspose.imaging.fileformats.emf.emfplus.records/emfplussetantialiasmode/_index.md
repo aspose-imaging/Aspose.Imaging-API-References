@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetAntiAliasMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EmfPlusSetAntiAliasMode يحدد وضع مكافحة التعرجات لإخراج النص."
+description: "سجل EmfPlusSetAntiAliasMode يحدد وضعية مضاد التعرجات لإخراج النص."
 type: docs
 weight: 54
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetAntiAliasMode extends EmfPlusPropertyRecordType
 ```
 
-سجل EmfPlusSetAntiAliasMode يحدد وضع مكافحة التعرجات لإخراج النص.
+سجل EmfPlusSetAntiAliasMode يحدد وضعية مضاد التعرجات لإخراج النص.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetAntiAliasMode(EmfPlusRecord source)](#EmfPlusSetAntiAliasMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ نسخة جديدة من الفئة `EmfPlusSetAntiAliasMode`. |
+| [EmfPlusSetAntiAliasMode(EmfPlusRecord source)](#EmfPlusSetAntiAliasMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusSetAntiAliasMode`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public EmfPlusSetAntiAliasMode(EmfPlusRecord source)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `EmfPlusSetAntiAliasMode`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusSetAntiAliasMode`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public byte getSmoothingMode()
 ```
 
 
-يحصل أو يضبط وضع التنعيم. (7 بت): قيمة وضع التنعيم، من تعداد SmoothingMode (القسم 2.1.1.28)
+يحصل أو يضبط وضع التنعيم. (7 بت): قيمة وضع التنعيم، من تعداد SmoothingMode (القسم 2.1.1.28).
 
 القيمة: وضع التنعيم.
 
@@ -57,14 +57,14 @@ public void setSmoothingMode(byte value)
 ```
 
 
-يحصل أو يضبط وضع التنعيم. (7 بت): قيمة وضع التنعيم، من تعداد SmoothingMode (القسم 2.1.1.28)
+يحصل أو يضبط وضع التنعيم. (7 بت): قيمة وضع التنعيم، من تعداد SmoothingMode (القسم 2.1.1.28).
 
 القيمة: وضع التنعيم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getAntiAliasing() {#getAntiAliasing--}
 ```
@@ -72,7 +72,7 @@ public boolean getAntiAliasing()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان [anti aliasing]. إذا تم الضبط، يجب تنفيذ مضاد التعرج. إذا لم يتم الضبط، يجب عدم تنفيذ مضاد التعرج.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان [anti aliasing]. إذا تم الضبط، يجب تنفيذ anti-aliasing. إذا لم يتم الضبط، يجب عدم تنفيذ anti-aliasing.
 
 القيمة: `true` إذا كان [anti aliasing]؛ وإلا `false`.
 
@@ -84,12 +84,12 @@ public void setAntiAliasing(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان [anti aliasing]. إذا تم الضبط، يجب تنفيذ مضاد التعرج. إذا لم يتم الضبط، يجب عدم تنفيذ مضاد التعرج.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان [anti aliasing]. إذا تم الضبط، يجب تنفيذ anti-aliasing. إذا لم يتم الضبط، يجب عدم تنفيذ anti-aliasing.
 
 القيمة: `true` إذا كان [anti aliasing]؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 

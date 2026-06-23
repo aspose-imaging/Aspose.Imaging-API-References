@@ -17,15 +17,15 @@ public final class ColorType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Process](#Process) | نوع لون العملية. |
-| [Spot](#Spot) | نوع لون النقطة. |
+| [Process](#Process) | نوع لون المعالجة. |
+| [Spot](#Spot) | نوع لون البقعة. |
 ### Process {#Process}
 ```
 public static final int Process
 ```
 
 
-نوع لون العملية.
+نوع لون المعالجة.
 
 ### Spot {#Spot}
 ```
@@ -33,5 +33,5 @@ public static final int Spot
 ```
 
 
-نوع لون النقطة.
+نوع لون البقعة.
 

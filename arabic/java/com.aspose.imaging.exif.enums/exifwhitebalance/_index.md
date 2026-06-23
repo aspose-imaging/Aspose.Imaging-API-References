@@ -1,7 +1,7 @@
 ---
 title: "ExifWhiteBalance"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قائمة تعداد توازن اللون الأبيض في EXIF."
+description: "قائمة تعداد توازن اللون الأبيض للـ exif."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.imaging.exif.enums/exifwhitebalance/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifWhiteBalance extends System.Enum
 ```
 
-قائمة تعداد توازن اللون الأبيض في EXIF.
+قائمة تعداد توازن اللون الأبيض للـ exif.
 ## الحقول
 
 | حقل | الوصف |

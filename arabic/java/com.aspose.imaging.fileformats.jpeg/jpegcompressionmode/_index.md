@@ -18,8 +18,8 @@ public final class JpegCompressionMode extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [Baseline](#Baseline) | ضغط القاعدة الأساسية. |
-| [Progressive](#Progressive) | ضغط التدرج. |
-| [Lossless](#Lossless) | ضغط بدون فقد. |
+| [Progressive](#Progressive) | ضغط تدريجي. |
+| [Lossless](#Lossless) | ضغط غير فقداني. |
 | [JpegLs](#JpegLs) | ضغط JPEG-LS. |
 ### Baseline {#Baseline}
 ```
@@ -35,7 +35,7 @@ public static final int Progressive
 ```
 
 
-ضغط التدرج.
+ضغط تدريجي.
 
 ### Lossless {#Lossless}
 ```
@@ -43,7 +43,7 @@ public static final int Lossless
 ```
 
 
-ضغط بدون فقد.
+ضغط غير فقداني.
 
 ### JpegLs {#JpegLs}
 ```

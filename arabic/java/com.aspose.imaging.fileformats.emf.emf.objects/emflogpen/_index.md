@@ -1,7 +1,7 @@
 ---
 title: "EmfLogPen"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن LogPen يحدد نمط العرض واللون لقلم منطقي."
+description: "كائن LogPen يحدد عرض النمط ولون القلم المنطقي."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emflogpen/
@@ -22,8 +22,8 @@ public final class EmfLogPen extends EmfBasePen
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPenStyle()](#getPenStyle--) | يحصل أو يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد PenStyle. |
-| [setPenStyle(int value)](#setPenStyle-int-) | يحصل أو يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد PenStyle. |
+| [getPenStyle()](#getPenStyle--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد PenStyle. |
+| [setPenStyle(int value)](#setPenStyle-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد PenStyle. |
 | [getWidth()](#getWidth--) | يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد عرض القلم بقيمة الحقل x. |
 | [setWidth(Point value)](#setWidth-com.aspose.imaging.Point-) | يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد عرض القلم بقيمة الحقل x. |
 | [getAffectWidth()](#getAffectWidth--) | يحصل أو يضبط عرض التأثير. |
@@ -42,7 +42,7 @@ public int getPenStyle()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد PenStyle. يجب أن تكون القيمة معرفة من جدول تعداد PenStyle، المحدد في القسم 2.1.25.
+يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد PenStyle. يجب أن تكون القيمة معرفة من جدول تعداد PenStyle، المحدد في القسم 2.1.25.
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public void setPenStyle(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقعًا 32 بت يحدد PenStyle. يجب أن تكون القيمة معرفة من جدول تعداد PenStyle، المحدد في القسم 2.1.25.
+يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد PenStyle. يجب أن تكون القيمة معرفة من جدول تعداد PenStyle، المحدد في القسم 2.1.25.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -65,7 +65,7 @@ public Point getWidth()
 ```
 
 
-يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد عرض القلم بقيمة الحقل x. يجب تجاهل قيمة الحقل y.
+يحصل أو يعيّن كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد عرض القلم بقيمة الحقل x الخاص به. يجب تجاهل قيمة الحقل y.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -75,7 +75,7 @@ public void setWidth(Point value)
 ```
 
 
-يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد عرض القلم بقيمة الحقل x. يجب تجاهل قيمة الحقل y.
+يحصل أو يعيّن كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد عرض القلم بقيمة الحقل x الخاص به. يجب تجاهل قيمة الحقل y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -107,7 +107,7 @@ public void setAffectWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getArgb32ColorRef() {#getArgb32ColorRef--}
 ```
@@ -134,5 +134,5 @@ public void setArgb32ColorRef(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

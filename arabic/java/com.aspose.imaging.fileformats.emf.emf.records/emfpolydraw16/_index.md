@@ -12,17 +12,17 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolyDraw16 extends EmfPolyShape
 ```
 
-سجل EMR\_POLYDRAW16 يحدد مجموعة من مقاطع الخطوط ومنحنيات بيزيه.
+سجل EMR\_POLYDRAW16 يحدد مجموعة من مقاطع الخط ومنحنيات بيزيه.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPolyDraw16(EmfRecord source)](#EmfPolyDraw16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPolyDraw16`. |
+| [EmfPolyDraw16(EmfRecord source)](#EmfPolyDraw16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPolyDraw16`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getAbTypes()](#getAbTypes--) | يحصل أو يعيّن مصفوفة بطول Count من البايتات التي تحدد أنواع النقاط. |
+| [getAbTypes()](#getAbTypes--) | يحصل أو يضبط مصفوفة بطول Count من البايتات التي تحدد أنواع النقاط. |
 | [setAbTypes(byte[] value)](#setAbTypes-byte---) | يضبط مصفوفة بطول Count من البايتات التي تحدد أنواع النقاط. |
 ### EmfPolyDraw16(EmfRecord source) {#EmfPolyDraw16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
@@ -30,7 +30,7 @@ public EmfPolyDraw16(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPolyDraw16`.
+ينشئ مثيلاً جديداً من الفئة `EmfPolyDraw16`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -58,5 +58,5 @@ public void setAbTypes(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | مصفوفة بطول Count من البايتات التي تحدد أنواع النقاط. |
+| value | byte[] | مصفوفة بطول Count من البايتات التي تحدد أنواع النقاط. |
 

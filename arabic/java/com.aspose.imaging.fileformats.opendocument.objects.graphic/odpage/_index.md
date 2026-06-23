@@ -7,7 +7,7 @@ weight: 34
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odpage/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdPage extends OdGraphicObject
 ```
@@ -17,7 +17,7 @@ public class OdPage extends OdGraphicObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdPage(OdObject parent)](#OdPage-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdPage`. |
+| [OdPage(OdObject parent)](#OdPage-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdPage`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -34,12 +34,12 @@ public OdPage(OdObject parent)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `OdPage`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdPage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getName() {#getName--}
 ```
@@ -62,7 +62,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الاسم. |
+| value | java.lang.String | الاسم. |
 
 ### getMasterPageName() {#getMasterPageName--}
 ```
@@ -85,7 +85,7 @@ public void setMasterPageName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم الصفحة الرئيسية. |
+| value | java.lang.String | اسم الصفحة الرئيسية. |
 
 ### getStyleName() {#getStyleName--}
 ```
@@ -108,5 +108,5 @@ public void setStyleName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم النمط. |
+| value | java.lang.String | اسم النمط. |
 

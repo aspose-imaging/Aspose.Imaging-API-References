@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPlusObject extends MetaObject
 ```
 
-نوع كائن Base Emf+.
+نوع كائن Emf+ الأساسي.
 ## المنشئات
 
 | المنشئ | الوصف |

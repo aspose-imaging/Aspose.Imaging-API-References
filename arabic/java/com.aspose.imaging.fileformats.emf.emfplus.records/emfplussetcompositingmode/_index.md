@@ -17,7 +17,7 @@ public final class EmfPlusSetCompositingMode extends EmfPlusPropertyRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetCompositingMode(EmfPlusRecord source)](#EmfPlusSetCompositingMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusSetCompositingMode`. |
+| [EmfPlusSetCompositingMode(EmfPlusRecord source)](#EmfPlusSetCompositingMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetCompositingMode`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusSetCompositingMode(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPlusSetCompositingMode`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetCompositingMode`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -43,7 +43,7 @@ public byte getCompositingMode()
 ```
 
 
-يحصل أو يضبط قيمة وضع التركيب، من تعداد CompositingMode (القسم 2.1.1.5). يمكن التعبير عن التركيب كحالة دمج ألفا، والتي يمكن أن تكون مفعلة أو غير مفعلة.
+يحصل أو يضبط قيمة وضع التركيب، من تعداد CompositingMode (القسم 2.1.1.5). يمكن التعبير عن التركيب كحالة خلط ألفا، والتي يمكن أن تكون مفعلة أو غير مفعلة.
 
 القيمة: وضع التركيب.
 
@@ -55,12 +55,12 @@ public void setCompositingMode(byte value)
 ```
 
 
-يحصل أو يضبط قيمة وضع التركيب، من تعداد CompositingMode (القسم 2.1.1.5). يمكن التعبير عن التركيب كحالة دمج ألفا، والتي يمكن أن تكون مفعلة أو غير مفعلة.
+يحصل أو يضبط قيمة وضع التركيب، من تعداد CompositingMode (القسم 2.1.1.5). يمكن التعبير عن التركيب كحالة خلط ألفا، والتي يمكن أن تكون مفعلة أو غير مفعلة.
 
 القيمة: وضع التركيب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 

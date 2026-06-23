@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.shapesegments/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [BezierSegment](../com.aspose.imaging.shapesegments/beziersegment) | مقطع بيزيير ينتقل من نقطة إلى النقطة التالية باستخدام نقطتي تحكم. |
+| [BezierSegment](../com.aspose.imaging.shapesegments/beziersegment) | مقطع بيزيير الذي ينتقل من نقطة إلى النقطة التالية باستخدام نقطتي تحكم. |
 | [LineSegment](../com.aspose.imaging.shapesegments/linesegment) | يمثل مقطعًا ينتقل مباشرةً من نقطة محددة إلى النقطة التالية. |

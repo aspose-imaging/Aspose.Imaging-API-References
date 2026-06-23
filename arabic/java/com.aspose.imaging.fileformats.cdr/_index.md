@@ -12,13 +12,13 @@ url: /ar/java/com.aspose.imaging.fileformats.cdr/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CdrImage](../com.aspose.imaging.fileformats.cdr/cdrimage) | واجهة برمجة التطبيقات لدعم تنسيق الصورة المتجهة CorelDRAW CDR هي مجموعة أدوات أساسية للمطورين الذين يعملون مع الرسومات المتجهة. |
-| [CdrImagePage](../com.aspose.imaging.fileformats.cdr/cdrimagepage) | صفحة صورة Cdr |
+| [CdrImagePage](../com.aspose.imaging.fileformats.cdr/cdrimagepage) | صفحة صورة Cdr. |
 
 ## الواجهات
 
 | الواجهة | الوصف |
 | --- | --- |
-| [ICdrImage](../com.aspose.imaging.fileformats.cdr/icdrimage) | واجهة صورة Cdr |
+| [ICdrImage](../com.aspose.imaging.fileformats.cdr/icdrimage) | واجهة صورة Cdr. |

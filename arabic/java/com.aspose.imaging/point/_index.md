@@ -1,5 +1,5 @@
 ---
-title: "Point"
+title: "نقطة"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يمثل زوجًا مرتبًا من إحداثيات x و y صحيحة يحدد نقطة في مستوى ثنائي الأبعاد."
 type: docs
@@ -18,28 +18,28 @@ public class Point extends Struct<Point>
 | المنشئ | الوصف |
 | --- | --- |
 | [Point()](#Point--) |  |
-| [Point(int x, int y)](#Point-int-int-) | ينشئ نسخة جديدة من بنية `Aspose.Imaging.Point` مع الإحداثيات المحددة. |
-| [Point(Size size)](#Point-com.aspose.imaging.Size-) | ينشئ نسخة جديدة من بنية `Aspose.Imaging.Point` من بنية `Aspose.Imaging.Size`. |
-| [Point(int dw)](#Point-int-) | ينشئ نسخة جديدة من بنية `Aspose.Imaging.Point` باستخدام إحداثيات محددة بقيمة عدد صحيح. |
+| [Point(int x, int y)](#Point-int-int-) | ينشئ مثيلاً جديداً لهياكل `Aspose.Imaging.Point` بالإحداثيات المحددة. |
+| [Point(Size size)](#Point-com.aspose.imaging.Size-) | ينشئ مثيلاً جديداً لهياكل `Aspose.Imaging.Point` من هيكل `Aspose.Imaging.Size`. |
+| [Point(int dw)](#Point-int-) | ينشئ مثيلاً جديداً لهياكل `Aspose.Imaging.Point` باستخدام إحداثيات محددة بقيمة عدد صحيح. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getEmpty()](#getEmpty--) | يحصل على نسخة جديدة من بنية `Aspose.Imaging.Point` التي تحتوي على قيم `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` مضبوطة على الصفر. |
+| [getEmpty()](#getEmpty--) | يحصل على مثيل جديد لهياكل `Aspose.Imaging.Point` تكون قيم `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` فيهما صفر. |
 | [add(Point point, Size size)](#add-com.aspose.imaging.Point-com.aspose.imaging.Size-) | يضيف `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.Point` المحدد. |
 | [subtract(Point point, Size size)](#subtract-com.aspose.imaging.Point-com.aspose.imaging.Size-) | يرجع نتيجة طرح `Aspose.Imaging.Size` المحدد من `Aspose.Imaging.Point` المحدد. |
 | [ceiling(PointF point)](#ceiling-com.aspose.imaging.PointF-) | يحوّل `Aspose.Imaging.PointF` المحدد إلى `Aspose.Imaging.Point` عن طريق تقريب قيم `Aspose.Imaging.PointF` إلى القيم الصحيحة الأعلى. |
-| [round(PointF point)](#round-com.aspose.imaging.PointF-) | يحوّل `Aspose.Imaging.PointF` المحدد إلى كائن `Aspose.Imaging.Point` عن طريق تقريب القيم إلى أقرب عدد صحيح. |
+| [round(PointF point)](#round-com.aspose.imaging.PointF-) | يحوّل `Aspose.Imaging.PointF` المحدد إلى كائن `Aspose.Imaging.Point` عن طريق تقريب قيم `Aspose.Imaging.Point` إلى أقرب عدد صحيح. |
 | [truncate(PointF point)](#truncate-com.aspose.imaging.PointF-) | يحوّل `Aspose.Imaging.PointF` المحدد إلى `Aspose.Imaging.Point` عن طريق قطع قيم `Aspose.Imaging.Point`. |
-| [op_Addition(Point point, Size size)](#op-Addition-com.aspose.imaging.Point-com.aspose.imaging.Size-) | ينقل `Aspose.Imaging.Point` بمقدار `Aspose.Imaging.Size` المعطى. |
-| [op_Subtraction(Point point, Size size)](#op-Subtraction-com.aspose.imaging.Point-com.aspose.imaging.Size-) | ينقل `Aspose.Imaging.Point` بالسالب من `Aspose.Imaging.Size` المعطى. |
+| [op_Addition(Point point, Size size)](#op-Addition-com.aspose.imaging.Point-com.aspose.imaging.Size-) | ينقل `Aspose.Imaging.Point` بمقدار `Aspose.Imaging.Size` معين. |
+| [op_Subtraction(Point point, Size size)](#op-Subtraction-com.aspose.imaging.Point-com.aspose.imaging.Size-) | ينقل `Aspose.Imaging.Point` بالسالب من `Aspose.Imaging.Size` المحدد. |
 | [op_Equality(Point point1, Point point2)](#op-Equality-com.aspose.imaging.Point-com.aspose.imaging.Point-) | يقارن كائنين من نوع `Aspose.Imaging.Point`. |
 | [op_Inequality(Point point1, Point point2)](#op-Inequality-com.aspose.imaging.Point-com.aspose.imaging.Point-) | يقارن كائنين من نوع `Aspose.Imaging.Point`. |
-| [to_Size(Point point)](#to-Size-com.aspose.imaging.Point-) | يحوّل بنية `Aspose.Imaging.Point` المحددة إلى بنية `Aspose.Imaging.Size`. |
-| [to_PointF(Point point)](#to-PointF-com.aspose.imaging.Point-) | يحوّل بنية `Point` المحددة إلى بنية `PointF`. |
-| [fromLong(long packedPoint, int[] x, int[] y)](#fromLong-long-int---int---) | يفكّ بنية كائن Point المعبّأ في كائن طويل إلى قيم X و Y من نوع int منفصلة. |
+| [to_Size(Point point)](#to-Size-com.aspose.imaging.Point-) | يحوّل هيكل `Aspose.Imaging.Point` المحدد إلى هيكل `Aspose.Imaging.Size`. |
+| [to_PointF(Point point)](#to-PointF-com.aspose.imaging.Point-) | يحوّل هيكل `Point` المحدد إلى هيكل `PointF`. |
+| [fromLong(long packedPoint, int[] x, int[] y)](#fromLong-long-int---int---) | يفكّ تجميع كائن Point المعبأ في كائن طويل إلى قيم X و Y منفصلة من نوع int. |
 | [isEquals(Point obj1, Point obj2)](#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-) |  |
-| [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كان `Aspose.Imaging.Point` هذا فارغًا. |
+| [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كان `Aspose.Imaging.Point` هذا فارغاً. |
 | [getX()](#getX--) | يحصل أو يعيّن الإحداثي x لهذا `Aspose.Imaging.Point`. |
 | [setX(int value)](#setX-int-) | يحصل أو يعيّن الإحداثي x لهذا `Aspose.Imaging.Point`. |
 | [getY()](#getY--) | يحصل أو يعيّن الإحداثي y لهذا `Aspose.Imaging.Point`. |
@@ -47,9 +47,9 @@ public class Point extends Struct<Point>
 | [offset(Point point)](#offset-com.aspose.imaging.Point-) | ينقل هذا `Aspose.Imaging.Point` بمقدار `Aspose.Imaging.Point` المحدد. |
 | [offset(int dx, int dy)](#offset-int-int-) | ينقل هذا `Aspose.Imaging.Point` بالمقدار المحدد. |
 | [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Aspose.Imaging.Point` هذا يحتوي على نفس الإحداثيات مثل `System.Object` المحدد. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة لهذا `Aspose.Imaging.Point`. |
-| [toLong()](#toLong--) | يحوّل هذا Point إلى قيمة طويلة واحدة، تحتوي على إحداثيات X و Y في البتات العليا والسفلى. |
-| [toString()](#toString--) | يحوّل هذا `Aspose.Imaging.Point` إلى سلسلة قابلة للقراءة من قبل الإنسان. |
+| [hashCode()](#hashCode--) | يعيد رمز تجزئة لهذا `Aspose.Imaging.Point`. |
+| [toLong()](#toLong--) | حوّل هذه النقطة إلى قيمة طويلة واحدة، تحتوي على إحداثيات X و Y في البتات العليا والسفلى. |
+| [toString()](#toString--) | يحوّل هذا `Aspose.Imaging.Point` إلى سلسلة قابلة للقراءة البشرية. |
 | [CloneTo(Point that)](#CloneTo-com.aspose.imaging.Point-) |  |
 | [Clone()](#Clone--) |  |
 ### Point() {#Point--}
@@ -64,13 +64,13 @@ public Point(int x, int y)
 ```
 
 
-ينشئ نسخة جديدة من بنية `Aspose.Imaging.Point` مع الإحداثيات المحددة.
+ينشئ مثيلاً جديداً لهياكل `Aspose.Imaging.Point` بالإحداثيات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الموضع الأفقي للنقطة. |
-| ص | int | الموضع الرأسي للنقطة. |
+| x | int | الموضع الأفقي للنقطة. |
+| y | int | الموضع العمودي للنقطة. |
 
 ### Point(Size size) {#Point-com.aspose.imaging.Size-}
 ```
@@ -78,7 +78,7 @@ public Point(Size size)
 ```
 
 
-ينشئ نسخة جديدة من بنية `Aspose.Imaging.Point` من بنية `Aspose.Imaging.Size`.
+ينشئ مثيلاً جديداً لهياكل `Aspose.Imaging.Point` من هيكل `Aspose.Imaging.Size`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -91,12 +91,12 @@ public Point(int dw)
 ```
 
 
-ينشئ نسخة جديدة من بنية `Aspose.Imaging.Point` باستخدام إحداثيات محددة بقيمة عدد صحيح.
+ينشئ مثيلاً جديداً لهياكل `Aspose.Imaging.Point` باستخدام إحداثيات محددة بقيمة عدد صحيح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dw | int | عدد صحيح 32 بت يحدد إحداثيات النقطة الجديدة. |
+| dw | int | عدد صحيح 32‑بت يحدد إحداثيات النقطة الجديدة. |
 
 ### getEmpty() {#getEmpty--}
 ```
@@ -104,7 +104,7 @@ public static Point getEmpty()
 ```
 
 
-يحصل على نسخة جديدة من بنية `Aspose.Imaging.Point` التي تحتوي على قيم `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` مضبوطة على الصفر.
+يحصل على مثيل جديد لهياكل `Aspose.Imaging.Point` تكون قيم `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` فيهما صفر.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -119,8 +119,8 @@ public static Point add(Point point, Size size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | الـ `Aspose.Imaging.Point` للإضافة إليه. |
-| size | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` للإضافة إلى `point`. |
+| point | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` للإضافة إليه. |
+| size | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` لإضافتها إلى `point`. |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The `Aspose.Imaging.Point` that is the result of the addition operation.
@@ -135,8 +135,8 @@ public static Point subtract(Point point, Size size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | الـ `Aspose.Imaging.Point` ليتم طرحه من. |
-| size | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` لطرحها من `point`. |
+| point | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` ليتم طرحها منها. |
+| size | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` ليتم طرحها من `point`. |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The `Aspose.Imaging.Point` that is the result of the subtraction operation.
@@ -151,7 +151,7 @@ public static Point ceiling(PointF point)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [PointF](../../com.aspose.imaging/pointf) | الـ `Aspose.Imaging.PointF` للتحويل. |
+| point | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` للتحويل. |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The `Aspose.Imaging.Point` this method converts to.
@@ -161,12 +161,12 @@ public static Point round(PointF point)
 ```
 
 
-يحوّل `Aspose.Imaging.PointF` المحدد إلى كائن `Aspose.Imaging.Point` عن طريق تقريب القيم إلى أقرب عدد صحيح.
+يحوّل `Aspose.Imaging.PointF` المحدد إلى كائن `Aspose.Imaging.Point` عن طريق تقريب قيم `Aspose.Imaging.Point` إلى أقرب عدد صحيح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [PointF](../../com.aspose.imaging/pointf) | الـ `Aspose.Imaging.PointF` للتحويل. |
+| point | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` للتحويل. |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The `Aspose.Imaging.Point` this method converts to.
@@ -181,7 +181,7 @@ public static Point truncate(PointF point)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [PointF](../../com.aspose.imaging/pointf) | الـ `Aspose.Imaging.PointF` للتحويل. |
+| point | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` للتحويل. |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The `Aspose.Imaging.Point` this method converts to.
@@ -191,12 +191,12 @@ public static Point op_Addition(Point point, Size size)
 ```
 
 
-ينقل `Aspose.Imaging.Point` بمقدار `Aspose.Imaging.Size` المعطى.
+ينقل `Aspose.Imaging.Point` بمقدار `Aspose.Imaging.Size` معين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | الـ `Aspose.Imaging.Point` للتحويل. |
+| point | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` للتحويل. |
 | size | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` يحدد زوج الأرقام لإضافتها إلى إحداثيات `point`. |
 
 **Returns:**
@@ -207,12 +207,12 @@ public static Point op_Subtraction(Point point, Size size)
 ```
 
 
-ينقل `Aspose.Imaging.Point` بالسالب من `Aspose.Imaging.Size` المعطى.
+ينقل `Aspose.Imaging.Point` بالسالب من `Aspose.Imaging.Size` المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | الـ `Aspose.Imaging.Point` للتحويل. |
+| point | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` للتحويل. |
 | size | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` يحدد زوج الأرقام لطرحها من إحداثيات `point`. |
 
 **Returns:**
@@ -223,7 +223,7 @@ public static boolean op_Equality(Point point1, Point point2)
 ```
 
 
-يقارن كائنين من نوع `Aspose.Imaging.Point`. النتيجة تحدد ما إذا كانت قيم خصائص `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` لكائنين `Aspose.Imaging.Point` متساوية.
+يقارن كائنين من نوع `Aspose.Imaging.Point`. النتيجة تحدد ما إذا كانت قيم خصائص `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` لكلا الكائنين متساوية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -232,14 +232,14 @@ public static boolean op_Equality(Point point1, Point point2)
 | point2 | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` الثاني للمقارنة. |
 
 **Returns:**
-منطقي - صحيح إذا كانت قيم `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` لـ `point1` و `point2` متساوية؛ وإلا، خاطئ.
+منطقي - صحيح إذا كانت قيم `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` للـ `point1` و `point2` متساوية؛ وإلا، خطأ.
 ### op_Inequality(Point point1, Point point2) {#op-Inequality-com.aspose.imaging.Point-com.aspose.imaging.Point-}
 ```
 public static boolean op_Inequality(Point point1, Point point2)
 ```
 
 
-يقارن كائنين من نوع `Aspose.Imaging.Point`. النتيجة تحدد ما إذا كانت قيم خصائص `Aspose.Imaging.Point.X` أو `Aspose.Imaging.Point.Y` لكائنين `Aspose.Imaging.Point` غير متساوية.
+يقارن كائنين من نوع `Aspose.Imaging.Point`. النتيجة تحدد ما إذا كانت قيم خصائص `Aspose.Imaging.Point.X` أو `Aspose.Imaging.Point.Y` لكلا الكائنين غير متساوية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -248,19 +248,19 @@ public static boolean op_Inequality(Point point1, Point point2)
 | point2 | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` الثاني للمقارنة. |
 
 **Returns:**
-منطقي - صحيح إذا اختلفت قيم إما خصائص `Aspose.Imaging.Point.X` أو خصائص `Aspose.Imaging.Point.Y` لـ `point1` و `point2`؛ وإلا، خاطئ.
+منطقي - صحيح إذا اختلفت قيم إما خصائص `Aspose.Imaging.Point.X` أو خصائص `Aspose.Imaging.Point.Y` للـ `point1` و `point2`؛ وإلا، خطأ.
 ### to_Size(Point point) {#to-Size-com.aspose.imaging.Point-}
 ```
 public static Size to_Size(Point point)
 ```
 
 
-يحوّل بنية `Aspose.Imaging.Point` المحددة إلى بنية `Aspose.Imaging.Size`.
+يحوّل هيكل `Aspose.Imaging.Point` المحدد إلى هيكل `Aspose.Imaging.Size`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | الـ `Aspose.Imaging.Point` للتحويل. |
+| point | [Point](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` للتحويل. |
 
 **Returns:**
 [Size](../../com.aspose.imaging/size) - The `Aspose.Imaging.Size` that results from the conversion.
@@ -270,12 +270,12 @@ public static PointF to_PointF(Point point)
 ```
 
 
-يحوّل بنية `Point` المحددة إلى بنية `PointF`.
+يحوّل هيكل `Point` المحدد إلى هيكل `PointF`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | الـ `Point` للتحويل. |
+| point | [Point](../../com.aspose.imaging/point) | `Point` للتحويل. |
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The `PointF` that results from the conversion.
@@ -285,14 +285,14 @@ public static void fromLong(long packedPoint, int[] x, int[] y)
 ```
 
 
-يفكّ بنية كائن Point المعبّأ في كائن طويل إلى قيم X و Y من نوع int منفصلة.
+يفكّ تجميع كائن Point المعبأ في كائن طويل إلى قيم X و Y منفصلة من نوع int.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | packedPoint | long | كائن Point المعبأ في قيمة طويلة واحدة. |
-| س | int[] | القيمة المستخرجة من X للنقطة المعبأة. |
-| ص | int[] | القيمة المستخرجة من Y للنقطة المعبأة. |
+| x | int[] | قيمة X المستخرجة من Point المعبأ. |
+| y | int[] | القيمة المستخرجة من قيمة Point Y المعبأة. |
 
 ### isEquals(Point obj1, Point obj2) {#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-}
 ```
@@ -316,10 +316,10 @@ public boolean isEmpty()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان `Aspose.Imaging.Point` هذا فارغًا.
+يحصل على قيمة تشير إلى ما إذا كان `Aspose.Imaging.Point` هذا فارغاً.
 
 **Returns:**
-منطقي - صحيح إذا كان كل من `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` يساوي 0؛ وإلا، خاطئ.
+منطقي - صحيح إذا كان كل من `Aspose.Imaging.Point.X` و `Aspose.Imaging.Point.Y` يساويان 0؛ وإلا، خطأ.
 ### getX() {#getX--}
 ```
 public int getX()
@@ -341,7 +341,7 @@ public void setX(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getY() {#getY--}
 ```
@@ -364,7 +364,7 @@ public void setY(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### offset(Point point) {#offset-com.aspose.imaging.Point-}
 ```
@@ -390,8 +390,8 @@ public void offset(int dx, int dy)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dx | int | القيمة لإزاحة إحداثي x. |
-| dy | int | القيمة لإزاحة إحداثي y. |
+| dx | int | القيمة المستخدمة لإزاحة إحداثي x. |
+| dy | int | القيمة المستخدمة لإزاحة إحداثي y. |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -404,27 +404,27 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الـ `System.Object` للاختبار. |
+| obj | java.lang.Object | الكائن `System.Object` للاختبار. |
 
 **Returns:**
-منطقي - صحيح إذا كان `obj` من نوع `Aspose.Imaging.Point` وله نفس الإحداثيات مثل هذا `Aspose.Imaging.Point`.
+منطقي - صحيح إذا كان `obj` هو `Aspose.Imaging.Point` وله نفس الإحداثيات مثل هذا `Aspose.Imaging.Point`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة لهذا `Aspose.Imaging.Point`.
+يعيد رمز تجزئة لهذا `Aspose.Imaging.Point`.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
 ### toLong() {#toLong--}
 ```
 public final long toLong()
 ```
 
 
-يحوّل هذا Point إلى قيمة طويلة واحدة، تحتوي على إحداثيات X و Y في البتات العليا والسفلى.
+حوّل هذه النقطة إلى قيمة طويلة واحدة، تحتوي على إحداثيات X و Y في البتات العليا والسفلى.
 
 **Returns:**
 طويل - كائن Point المعبأ في قيمة طويلة واحدة.
@@ -434,10 +434,10 @@ public String toString()
 ```
 
 
-يحوّل هذا `Aspose.Imaging.Point` إلى سلسلة قابلة للقراءة من قبل الإنسان.
+يحوّل هذا `Aspose.Imaging.Point` إلى سلسلة قابلة للقراءة البشرية.
 
 **Returns:**
-java.lang.String - `System.String` يمثل هذا المثيل.
+java.lang.String - `System.String` الذي يمثل هذه الحالة.
 ### CloneTo(Point that) {#CloneTo-com.aspose.imaging.Point-}
 ```
 public void CloneTo(Point that)

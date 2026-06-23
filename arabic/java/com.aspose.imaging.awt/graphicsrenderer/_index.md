@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.awt/graphicsrenderer/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
 public class GraphicsRenderer extends DisposableObject
 ```
@@ -24,8 +24,8 @@ public class GraphicsRenderer extends DisposableObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [render(Graphics2D graphics)](#render-java.awt.Graphics2D-) | ينفّذ التصيير على الـ `graphics` المعطى بمعامل مقياس 1.0. |
-| [render(Graphics2D graphics, float scaleFactor)](#render-java.awt.Graphics2D-float-) | ينفّذ التصيير على الـ `graphics` المعطى. |
+| [render(Graphics2D graphics)](#render-java.awt.Graphics2D-) | ينفذ عملية التصيير على `graphics` المعطى بمعامل مقياس 1.0. |
+| [render(Graphics2D graphics, float scaleFactor)](#render-java.awt.Graphics2D-float-) | ينفذ عملية التصيير على `graphics` المعطى. |
 ### GraphicsRenderer(Image image) {#GraphicsRenderer-com.aspose.imaging.Image-}
 ```
 public GraphicsRenderer(Image image)
@@ -67,7 +67,7 @@ public GraphicsRenderer(Image image, Color backgroundColor, int smoothingMode, i
 | image | [Image](../../com.aspose.imaging/image) | الصورة التي سيتم تصييرها على java.awt.Graphics2D |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 | smoothingMode | int | وضع التنعيم. |
-| textRendering | int | وضع عرض النص. |
+| textRendering | int | وضع تصيير النص. |
 
 ### render(Graphics2D graphics) {#render-java.awt.Graphics2D-}
 ```
@@ -75,12 +75,12 @@ public void render(Graphics2D graphics)
 ```
 
 
-ينفّذ التصيير على الـ `graphics` المعطى بمعامل مقياس 1.0.
+ينفذ عملية التصيير على `graphics` المعطى بمعامل مقياس 1.0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| graphics | java.awt.Graphics2D | الرسومات للرسم. |
+| graphics | java.awt.Graphics2D | الرسومات المستخدمة للرسم. |
 
 ### render(Graphics2D graphics, float scaleFactor) {#render-java.awt.Graphics2D-float-}
 ```
@@ -88,11 +88,11 @@ public void render(Graphics2D graphics, float scaleFactor)
 ```
 
 
-ينفّذ التصيير على الـ `graphics` المعطى.
+ينفذ عملية التصيير على `graphics` المعطى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| graphics | java.awt.Graphics2D | الرسومات للرسم. |
-| scaleFactor | float | عامل المقياس. |
+| graphics | java.awt.Graphics2D | الرسومات المستخدمة للرسم. |
+| scaleFactor | float | معامل المقياس. |
 

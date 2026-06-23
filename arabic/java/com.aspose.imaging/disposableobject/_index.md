@@ -1,7 +1,7 @@
 ---
 title: "DisposableObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل كائنًا يمكن التخلص منه."
+description: "يمثل كائنًا قابلًا للتصرف."
 type: docs
 weight: 40
 url: /ar/java/com.aspose.imaging/disposableobject/
@@ -15,7 +15,7 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public class DisposableObject implements System.IDisposable, Closeable
 ```
 
-يمثل كائنًا يمكن التخلص منه.
+يمثل كائنًا قابلًا للتصرف.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -26,7 +26,7 @@ public class DisposableObject implements System.IDisposable, Closeable
 | طريقة | الوصف |
 | --- | --- |
 | [getDisposed()](#getDisposed--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن قد تم التخلص منه. |
-| [close()](#close--) | ينفّذ واجهة Closable ويمكن استخدامه في عبارة try-with-resources منذ JDK 1.7. |
+| [close()](#close--) | يُطبق واجهة Closable ويمكن استخدامها في عبارة try-with-resources منذ JDK 1.7. |
 | [dispose()](#dispose--) | يتخلص من الكائن الحالي. |
 ### DisposableObject() {#DisposableObject--}
 ```
@@ -50,7 +50,7 @@ public void close()
 ```
 
 
-ينفّذ واجهة Closable ويمكن استخدامه في عبارة try-with-resources منذ JDK 1.7. هذه الطريقة تستدعي ببساطة طريقة dispose.
+يُطبق واجهة Closable ويمكن استخدامها في عبارة try-with-resources منذ JDK 1.7. هذه الطريقة تستدعي ببساطة طريقة dispose.
 
 ### dispose() {#dispose--}
 ```
@@ -94,7 +94,7 @@ try {
         tiffImage.addFrame(frame);
     }
 
-    // تم إنشاء الصورة بإطار افتراضي واحد. دعنا نزيله.
+    // تم إنشاء الصورة بإطار افتراضي واحد. لنقم بإزالته.
     com.aspose.imaging.fileformats.tiff.TiffFrame activeFrame = tiffImage.getActiveFrame();
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);

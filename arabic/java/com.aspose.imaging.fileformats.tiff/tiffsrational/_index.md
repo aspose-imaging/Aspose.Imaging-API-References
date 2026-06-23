@@ -17,9 +17,9 @@ public class TiffSRational
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffSRational()](#TiffSRational--) | ينشئ مثيلاً جديدًا من الفئة `TiffSRational`. |
-| [TiffSRational(int value)](#TiffSRational-int-) | ينشئ مثيلاً جديدًا من الفئة [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational). |
-| [TiffSRational(int nominator, int denominator)](#TiffSRational-int-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffSRational`. |
+| [TiffSRational()](#TiffSRational--) | ينشئ مثيلاً جديداً من الفئة `TiffSRational`. |
+| [TiffSRational(int value)](#TiffSRational-int-) | ينشئ مثيلاً جديداً من الفئة [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational). |
+| [TiffSRational(int nominator, int denominator)](#TiffSRational-int-int-) | ينشئ مثيلاً جديداً من الفئة `TiffSRational`. |
 ## الحقول
 
 | حقل | الوصف |
@@ -37,16 +37,16 @@ public class TiffSRational
 | [getNominator()](#getNominator--) | يحصل على البسط. |
 | [getValue()](#getValue--) | يحصل على قيمة الفاصلة العائمة. |
 | [getValueD()](#getValueD--) | يحصل على قيمة مزدوجة. |
-| [toString()](#toString--) | يعيد `System.String` التي تمثل هذا المثيل. |
+| [toString()](#toString--) | يعيد `System.String` الذي يمثل هذه الحالة. |
 | [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الـ `Object` المحدد يساوي هذه الحالة. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
 ### TiffSRational() {#TiffSRational--}
 ```
 public TiffSRational()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffSRational`.
+ينشئ مثيلاً جديداً من الفئة `TiffSRational`.
 
 ### TiffSRational(int value) {#TiffSRational-int-}
 ```
@@ -54,12 +54,12 @@ public TiffSRational(int value)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational).
+ينشئ مثيلاً جديداً من الفئة [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة البسط. |
+| value | int | قيمة البسط. |
 
 ### TiffSRational(int nominator, int denominator) {#TiffSRational-int-int-}
 ```
@@ -67,7 +67,7 @@ public TiffSRational(int nominator, int denominator)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffSRational`.
+ينشئ مثيلاً جديداً من الفئة `TiffSRational`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -94,8 +94,8 @@ public static TiffSRational approximateFraction(double value, double epsilon)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة. |
-| الإبسيلون | double | الخطأ المسموح به. |
+| value | double | القيمة. |
+| إبسيلون | double | الخطأ المسموح به. |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `epsilon`.
@@ -110,7 +110,7 @@ public static TiffSRational approximateFraction(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة. |
+| value | double | القيمة. |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `Epsilon`.
@@ -125,8 +125,8 @@ public static TiffSRational approximateFraction(float value, double epsilon)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة. |
-| الإبسيلون | double | الخطأ المسموح به. |
+| value | float | القيمة. |
+| إبسيلون | double | الخطأ المسموح به. |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `epsilon`.
@@ -141,7 +141,7 @@ public static TiffSRational approximateFraction(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة. |
+| value | float | القيمة. |
 
 **Returns:**
 [TiffSRational](../../com.aspose.imaging.fileformats.tiff/tiffsrational) - A rational number having error less than `Epsilon`.
@@ -189,7 +189,7 @@ public double getValueD()
 
 يحصل على قيمة مزدوجة.
 
-القيمة: القيمة المزدوجة.
+القيمة: قيمة مزدوجة.
 
 **Returns:**
 double
@@ -199,10 +199,10 @@ public String toString()
 ```
 
 
-يعيد `System.String` التي تمثل هذا المثيل.
+يعيد `System.String` الذي يمثل هذه الحالة.
 
 **Returns:**
-java.lang.String - `System.String` يمثل هذا المثيل.
+java.lang.String - `System.String` الذي يمثل هذه الحالة.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -214,17 +214,17 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | ال `Object` للمقارنة مع هذه الحالة. |
+| obj | java.lang.Object | الكائن `Object` للمقارنة مع هذه المثيلة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `Object` المحدد يساوي هذه الحالة؛ وإلا `false`.
+منطقية - `true` إذا كان الـ `Object` المحدد مساويًا لهذه المثيلة؛ وإلا `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.

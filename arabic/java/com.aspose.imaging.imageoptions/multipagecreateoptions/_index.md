@@ -59,7 +59,7 @@ public final void setPageCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد الصفحات. |
+| value | int | عدد الصفحات. |
 
 ### getBeforePageExport() {#getBeforePageExport--}
 ```
@@ -86,7 +86,7 @@ public final void setBeforePageExport(BeforePageExportAction value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BeforePageExportAction](../../com.aspose.imaging.imageoptions/beforepageexportaction) | قبل تصدير الصفحة. |
+| value | [BeforePageExportAction](../../com.aspose.imaging.imageoptions/beforepageexportaction) | تصدير الصفحة قبل. |
 
 ### getAfterPageExport() {#getAfterPageExport--}
 ```
@@ -96,7 +96,7 @@ public final AfterPageExportAction getAfterPageExport()
 
 يحصل على تصدير الصفحة بعد.
 
-القيمة: بعد تصدير الصفحة.
+القيمة: تصدير الصفحة بعد.
 
 **Returns:**
 [AfterPageExportAction](../../com.aspose.imaging.imageoptions/afterpageexportaction) - the after page export.
@@ -108,10 +108,10 @@ public final void setAfterPageExport(AfterPageExportAction value)
 
 يضبط تصدير الصفحة بعد.
 
-القيمة: بعد تصدير الصفحة.
+القيمة: تصدير الصفحة بعد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [AfterPageExportAction](../../com.aspose.imaging.imageoptions/afterpageexportaction) | بعد تصدير الصفحة. |
+| value | [AfterPageExportAction](../../com.aspose.imaging.imageoptions/afterpageexportaction) | تصدير الصفحة بعد. |
 

@@ -17,22 +17,22 @@ public final class EmfPlusDrawPath extends EmfPlusDrawingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusDrawPath(EmfPlusRecord source)](#EmfPlusDrawPath-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusDrawPath`. |
+| [EmfPlusDrawPath(EmfPlusRecord source)](#EmfPlusDrawPath-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusDrawPath`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getObjectId()](#getObjectId--) | يحصل أو يعيّن معرف الكائن. |
 | [setObjectId(byte value)](#setObjectId-byte-) | يحصل أو يعيّن معرف الكائن. |
-| [getPenId()](#getPenId--) | يحصل أو يعيّن معرف القلم وهو عدد صحيح غير موقع 32‑بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. |
-| [setPenId(int value)](#setPenId-int-) | يحصل أو يعيّن معرف القلم وهو عدد صحيح غير موقع 32‑بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. |
+| [getPenId()](#getPenId--) | يحصل أو يضبط معرف القلم عدد صحيح غير موقع 32-بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. |
+| [setPenId(int value)](#setPenId-int-) | يحصل أو يضبط معرف القلم عدد صحيح غير موقع 32-بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. |
 ### EmfPlusDrawPath(EmfPlusRecord source) {#EmfPlusDrawPath-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawPath(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfPlusDrawPath`.
+ينشئ مثيلًا جديدًا من الفئة `EmfPlusDrawPath`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public byte getObjectId()
 ```
 
 
-يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPath (القسم 2.2.1.6) للرسم، في جدول كائنات EMF+. يجب أن تكون القيمة بين الصفر و63 شاملًا.
+يحصل أو يضبط معرف الكائن. فهرس كائن EmfPlusPath (القسم 2.2.1.6) للرسم، في جدول كائنات EMF+. يجب أن تكون القيمة من الصفر إلى 63، شاملة.
 
 القيمة: معرف الكائن.
 
@@ -57,14 +57,14 @@ public void setObjectId(byte value)
 ```
 
 
-يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPath (القسم 2.2.1.6) للرسم، في جدول كائنات EMF+. يجب أن تكون القيمة بين الصفر و63 شاملًا.
+يحصل أو يضبط معرف الكائن. فهرس كائن EmfPlusPath (القسم 2.2.1.6) للرسم، في جدول كائنات EMF+. يجب أن تكون القيمة من الصفر إلى 63، شاملة.
 
 القيمة: معرف الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getPenId() {#getPenId--}
 ```
@@ -72,7 +72,7 @@ public int getPenId()
 ```
 
 
-يحصل أو يعيّن معرف القلم وهو عدد صحيح غير موقع 32‑بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. يجب أن تكون القيمة بين الصفر و63 شاملًا
+يحصل أو يضبط معرف القلم عدد صحيح غير موقع 32-بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. يجب أن تكون القيمة من الصفر إلى 63، شاملة
 
 **Returns:**
 int
@@ -82,10 +82,10 @@ public void setPenId(int value)
 ```
 
 
-يحصل أو يعيّن معرف القلم وهو عدد صحيح غير موقع 32‑بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. يجب أن تكون القيمة بين الصفر و63 شاملًا
+يحصل أو يضبط معرف القلم عدد صحيح غير موقع 32-بت يحدد فهرسًا في جدول كائنات EMF+ لكائن EmfPlusPen (القسم 2.2.1.7) لاستخدامه في رسم EmfPlusPath. يجب أن تكون القيمة من الصفر إلى 63، شاملة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

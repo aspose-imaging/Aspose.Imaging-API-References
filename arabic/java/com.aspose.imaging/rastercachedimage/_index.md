@@ -19,27 +19,27 @@ public abstract class RasterCachedImage extends RasterImage
 | --- | --- |
 | [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الصورة مخزنة مؤقتًا حاليًا. |
 | [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer` الأساسي. |
-| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | يمزج نسخة الصورة هذه مع صورة `overlay`. |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | يمزج هذه النسخة من الصورة مع صورة `overlay`. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | يُعيد تحجيم الصورة. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | يُعيد تحجيم الصورة. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | يدور، يقلب، أو يدور ويقلب الصورة. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | دوّر الصورة حول المركز. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | قص الصورة. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | ينفّذ تمويهًا على الصورة الحالية. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | ينفّذ تمويهًا (dithering) على الصورة الحالية. |
 | [grayscale()](#grayscale--) | تحويل الصورة إلى تمثيلها بتدرج الرمادي |
-| [normalizeHistogram()](#normalizeHistogram--) | يُعَدِّل هيستوجرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح. |
+| [normalizeHistogram()](#normalizeHistogram--) | يُعَدِّل هيستوغرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح. |
 | [autoBrightnessContrast()](#autoBrightnessContrast--) | ينفّذ تعديلًا تلقائيًا متكيفًا للسطوع والتباين لكامل الصورة. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | تحويل الصورة إلى ثنائية باستخدام عتبة محددة مسبقًا |
 | [binarizeOtsu()](#binarizeOtsu--) | تحويل الصورة إلى ثنائية باستخدام عتبة Otsu |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة |
-| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | ضبط سطوع الصورة. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | تحسين تباين الصورة |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة |
+| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | ضبط السطوع للصورة. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | تحسين التباين في الصورة |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | تصحيح جاما للصورة. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | تصحيح جاما للصورة. |
-| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام steganography. |
+| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام تقنية إخفاء المعلومات (steganography). |
 | [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | يحسب نسبة التشابه بين البيانات المستخرجة وكلمة المرور الأصلية. |
-| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقميًا، باستخدام كلمة المرور والعتبة المقدمة. |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والعتبة المقدمة. |
 
 ## Example: The following example transforms a colored raster cached image to its grayscale representation.
 المثال التالي يحول صورة نقطية ملونة مخزنة مؤقتًا إلى تمثيلها بتدرج الرمادي. صور تدرج الرمادي تتكون حصريًا من ظلال اللون الرمادي وتحمل معلومات الشدة فقط.
@@ -77,7 +77,7 @@ public void cacheData()
 
 
 **Example: The following example shows how raster image caching affects performance.**
-المثال التالي يوضح كيف يؤثر تخزين الصور النقطية مؤقتًا على الأداء. في الحالة العامة، قراءة البيانات المخزنة مؤقتًا يتم بشكل أسرع من قراءة البيانات غير المخزنة.
+المثال التالي يوضح كيف يؤثر تخزين الصور النقطية مؤقتًا على الأداء. في الحالة العامة، قراءة البيانات المخزنة مؤقتًا يتم بسرعة أكبر من قراءة البيانات غير المخزنة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -89,7 +89,7 @@ try {
 
     long startTime = System.currentTimeMillis();
 
-    // قراءة جميع البكسلات سريعة إلى حد ما.
+    // قراءة جميع البكسلات سريعة إلى حد كبير.
     for (int y = 0; y < image.getHeight(); y++) {
         for (int x = 0; x < image.getWidth(); x++) {
             int color = image.getArgb32Pixel(x, y);
@@ -125,14 +125,14 @@ try {
 // قد يبدو الإخراج هكذا:
 //استغرق قراءة جميع البكسلات المخزنة مؤقتًا 2923 مللي ثانية.
 //    java.lang.OutOfMemoryError
-//at com.aspose.imaging.internal.G.be.b(Unknown Source)
-//at com.aspose.imaging.internal.G.be.a(Unknown Source)
-//at com.aspose.imaging.internal.G.be.a(Unknown Source)
-//at com.aspose.imaging.internal.G.be.a(Unknown Source)
-//at com.aspose.imaging.internal.G.aB.a(Unknown Source)
-//at com.aspose.imaging.RasterImage.a(Unknown Source)
-//at com.aspose.imaging.RasterImage.getArgb32Pixel(Unknown Source)
-//at com.aspose.examples.ExamplesTest.Test(ExamplesTest.java:54)
+//في com.aspose.imaging.internal.G.be.b(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.be.a(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.be.a(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.be.a(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.aB.a(مصدر غير معروف)
+//في com.aspose.imaging.RasterImage.a(مصدر غير معروف)
+//في com.aspose.imaging.RasterImage.getArgb32Pixel(مصدر غير معروف)
+//في com.aspose.examples.ExamplesTest.Test(ExamplesTest.java:54)
 ```
 
 ### blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-}
@@ -141,7 +141,7 @@ public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte
 ```
 
 
-يمزج نسخة الصورة هذه مع صورة `overlay`.
+يمزج هذه النسخة من الصورة مع صورة `overlay`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -177,7 +177,7 @@ try {
     // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "upsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -188,7 +188,7 @@ try {
     // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "downsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -199,7 +199,7 @@ try {
     // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "upsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -210,7 +210,7 @@ try {
     // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "downsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
     image.dispose();
@@ -240,7 +240,7 @@ String dir = "c:\\temp\\";
 
 com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة الكسرية الموزونة والمختلطة واستيفاء lanczos3.
 resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
 
 // المرشح المستطيل الصغير
@@ -249,15 +249,15 @@ resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular
 // عدد الألوان في لوحة الألوان.
 resizeSettings.setEntriesCount(256);
 
-// لم يتم استخدام تقليل ألوان.
+// لم يتم استخدام تقليل ألوان الصورة
 resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
 
-// الطريقة الإقليدية
+// طريقة إقليدية
 resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
 
 com.aspose.imaging.RasterCachedImage image = (com.aspose.imaging.RasterCachedImage) com.aspose.imaging.Image.load(dir + "sample.png");
 try {
-    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات متكيفة.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
     image.save(dir + "downsample.adaptive.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -327,7 +327,7 @@ class LocalHelper {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 int[] rotateFlipTypes = new int[]
         {
                 com.aspose.imaging.RotateFlipType.Rotate90FlipNone,
@@ -338,7 +338,7 @@ int[] rotateFlipTypes = new int[]
 
 LocalHelper localHelper = new LocalHelper();
 for (int rotateFlipType : rotateFlipTypes) {
-    // قم بالدوران، القليب وحفظ إلى ملف الإخراج.
+    // قم بالدوران، والقلّب، واحفظ إلى ملف الإخراج.
     com.aspose.imaging.RasterCachedImage image = (com.aspose.imaging.RasterCachedImage) com.aspose.imaging.Image.load(dir + "sample.bmp");
     try {
         image.rotateFlip(rotateFlipType);
@@ -361,7 +361,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم صورتك وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدور محتويات الصورة الداخلية فقط. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدوَّر محتويات الصورة الداخلية فقط. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 
 ### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
@@ -387,7 +387,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // قص الصورة. منطقة القص هي المنطقة المستطيلة المركزية في الصورة.
+    // قص الصورة. منطقة القص هي المنطقة المركزية المستطيلة للصورة.
     int width = rasterImage.getWidth();
     int height = rasterImage.getHeight();
     com.aspose.imaging.Rectangle area = new com.aspose.imaging.Rectangle(width / 4, height / 4, width / 2, height / 2);
@@ -406,7 +406,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-ينفّذ تمويهًا على الصورة الحالية.
+ينفّذ تمويهًا (dithering) على الصورة الحالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -446,7 +446,7 @@ public void normalizeHistogram()
 ```
 
 
-يُعَدِّل هيستوجرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح.
+يُعَدِّل هيستوغرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح.
 
 ### autoBrightnessContrast() {#autoBrightnessContrast--}
 ```
@@ -465,13 +465,13 @@ public void autoBrightnessContrast()
 
 --------------------
 
-تطبق هذه الطريقة خط أنابيب من الفلاتر المتكيفة المتقدمة (CLAHE، التمدد الأبيض المتكيف، وتوازن اللون الأبيض التلقائي) لتحسين الجودة البصرية للصورة عن طريق تعزيز التباين، الإضاءة المحلية، ودقة الألوان.
+تطبق هذه الطريقة خط أنابيب من المرشحات التكيفية المتقدمة (CLAHE، التمدد الأبيض التكيفي، وتوازن اللون الأبيض التلقائي) لتحسين الجودة البصرية للصورة من خلال تعزيز التباين، الإضاءة المحلية، ودقة الألوان.
 
 `**خط أنابيب الفلتر:**`
 
-1.  تعديل تباين محدود للهيستوجرام المتكيف (CLAHE) \u2013 يحسن التباين المحلي ويعزز التفاصيل الدقيقة.
-2.  التمدد الأبيض المتكيف \u2013 يزيد مستوى الأبيض الفعال مع حماية المميزات الداكنة.
-3.  توازن اللون الأبيض التلقائي \u2013 يصحح انحرافات اللون عن طريق موازنة هيستوجرامات القنوات.
+1.  تعديل التباين المحدود للهيستوجرام التكيفي (CLAHE) – يحسن التباين المحلي ويعزز التفاصيل الباهتة.
+2.  التمدد الأبيض التكيفي – يزيد مستوى الأبيض الفعال مع حماية الميزات الداكنة.
+3.  توازن اللون الأبيض التلقائي – يصحح الانحرافات اللونية عبر موازنة هيستوجرامات القنوات.
 
 `**ملاحظة:**`
 
@@ -489,7 +489,7 @@ public void binarizeFixed(byte threshold)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة لبكسل أكبر من العتبة، سيتم تعيين القيمة 255 له، وإلا 0. |
+| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من العتبة، سيتم تعيين القيمة 255 لها، وإلا 0. |
 
 
 **Example: The following example binarizes a raster cached image with the predefined threshold.**
@@ -501,8 +501,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
-    // إذا كانت القيمة الرمادية المقابلة للبكسل أكبر من 127، سيتم تعيين القيمة 255 له، وإلا ستكون 0.
+    // حوّل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
+    // إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من 127، سيتم تعيين قيمة 255 له، وإلا ستكون 0.
     rasterImage.binarizeFixed((byte) 127);
     rasterImage.save(dir + "sample.BinarizeFixed.png");
 } finally {
@@ -528,7 +528,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام عتبة أوتسو.
+    // حوّل الصورة إلى ثنائية باستخدام عتبة أوتسو.
     rasterImage.binarizeOtsu();
     rasterImage.save(dir + "sample.BinarizeOtsu.png");
 } finally {
@@ -542,13 +542,13 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة
+تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
-| windowSize | int | حجم نافذة s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
+| windowSize | int | حجم نافذة s × s من البكسلات المتمركزة حول هذا البكسل |
 
 
 **Example: The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm with the specified window size.**
@@ -560,8 +560,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام فرق سطوع قدره 5.
-    // السطوع هو الفرق بين البكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
+    // حوّل الصورة إلى ثنائية باستخدام فرق سطوع قدره 5.
+    // السطوع هو فرق بين البكسل ومتوسط نافذة 10 × 10 من البكسلات المتمركزة حول هذا البكسل.
     rasterImage.binarizeBradley(5, 10);
     rasterImage.save(dir + "sample.BinarizeBradley5_10x10.png");
 } finally {
@@ -575,12 +575,12 @@ public void binarizeBradley(double brightnessDifference)
 ```
 
 
-تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة
+تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
 
 
 **Example: The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm.**
@@ -592,8 +592,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام فرق سطوع قدره 5.
-    // السطوع هو الفرق بين البكسل ومتوسط نافذة s × s بكسل متمركزة حول هذا البكسل.
+    // حوّل الصورة إلى ثنائية باستخدام فرق سطوع قدره 5.
+    // السطوع هو فرق بين البكسل ومتوسط نافذة s × s من البكسلات المتمركزة حول هذا البكسل.
     // سيتم ضبط حجم النافذة تلقائيًا.
     rasterImage.binarizeBradley(5);
     rasterImage.save(dir + "sample.BinarizeBradley5.png");
@@ -608,7 +608,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-ضبط سطوع الصورة.
+ضبط السطوع للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -625,7 +625,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255, 255].
+    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255، 255].
     rasterImage.adjustBrightness(50);
     rasterImage.save(dir + "sample.AdjustBrightness.png");
 } finally {
@@ -639,7 +639,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-تحسين تباين الصورة
+تحسين التباين في الصورة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -656,7 +656,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f, 100f].
+    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f، 100f].
     rasterImage.adjustContrast(50);
     rasterImage.save(dir + "sample.AdjustContrast.png");
 } finally {
@@ -675,9 +675,9 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gammaRed | float | معامل غاما لقناة الأحمر |
-| gammaGreen | float | معامل غاما لقناة الأخضر |
-| gammaBlue | float | معامل غاما لقناة اللون الأزرق |
+| gammaRed | float | معامل غاما للقناة الحمراء |
+| gammaGreen | float | معامل غاما للقناة الخضراء |
+| gammaBlue | float | معامل غاما للقناة الزرقاء |
 
 
 **Example: The following example performs gamma-correction of a raster cached image applying different coefficients for color components.**
@@ -689,7 +689,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // تعيين معاملات غاما الفردية لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معاملات غاما الفردية للقنوات الحمراء والخضراء والزرقاء.
     rasterImage.adjustGamma(1.5f, 2.5f, 3.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -708,7 +708,7 @@ public void adjustGamma(float gamma)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| غاما | float | معامل غاما لقنوات الأحمر والأخضر والأزرق |
+| غاما | float | معامل غاما للقنوات الحمراء والخضراء والزرقاء |
 
 
 **Example: The following example performs gamma-correction of a raster cached image.**
@@ -720,7 +720,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterCachedImage rasterImage = (com.aspose.imaging.RasterCachedImage) image;
 
-    // تعيين معامل غاما لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معامل غاما للقنوات الحمراء والخضراء والزرقاء.
     rasterImage.adjustGamma(2.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -734,12 +734,12 @@ public void embedDigitalSignature(String password)
 ```
 
 
-إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام steganography.
+إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام تقنية إخفاء المعلومات (steganography).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| كلمة المرور | java.lang.String | كلمة المرور المستخدمة لتوليد بيانات التوقيع الرقمي |
+| كلمة المرور | java.lang.String | كلمة المرور (الحد الأدنى 4 رموز) المستخدمة لتوليد بيانات التوقيع الرقمي |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**
@@ -775,17 +775,17 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 ```
 
 
-ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقميًا، باستخدام كلمة المرور والعتبة المقدمة.
+ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والعتبة المقدمة.
 
 --------------------
 
-هذه الطريقة توفر أسرع كشف عن طريق الاستفادة من `GetSignPercentage`. بمجرد أن تفي البيانات المستخرجة بالحد المحدد، يتم تخطي خطوات استخراج إضافية تهدف إلى تحسين دقة الكشف.
+توفر هذه الطريقة أسرع كشف عن طريق الاستفادة من `GetSignPercentage`. بمجرد أن تفي البيانات المستخرجة بالحد المحدد، يتم تخطي خطوات الاستخراج الإضافية الهادفة إلى تحسين دقة الكشف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | كلمة المرور | java.lang.String | كلمة المرور للتحقق من التوقيع. |
-| percentageThreshold | int | الحد (بالنسبة المئوية)[0-100] الذي يحدد ما إذا كانت الصورة تعتبر موقعة. إذا لم يتم تحديده، سيتم تطبيق حد افتراضي (`75`). |
+| percentageThreshold | int | الحد (بالنسبة المئوية)[0-100] الذي يحدد ما إذا كانت الصورة تعتبر موقعة. إذا لم يتم تحديده، سيُطبق الحد الافتراضي (`75`). |
 
 **Returns:**
 boolean - صحيح إذا كانت الصورة موقعة، وإلا خاطئ.

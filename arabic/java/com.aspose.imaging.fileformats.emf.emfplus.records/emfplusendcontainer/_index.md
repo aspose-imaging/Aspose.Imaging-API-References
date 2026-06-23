@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusEndContainer"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusEndContainer يغلق حاوية حالة الرسومات التي تم فتحها مسبقًا بواسطة عملية بدء الحاوية."
+description: "سجل EmfPlusEndContainer يغلق حاوية حالة الرسومات التي تم فتحها مسبقًا بواسطة عملية بدء الحاوية."
 type: docs
 weight: 30
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusEndContainer extends EmfPlusStateRecordType
 ```
 
-يسجل EmfPlusEndContainer يغلق حاوية حالة الرسومات التي تم فتحها مسبقًا بواسطة عملية بدء الحاوية.
+سجل EmfPlusEndContainer يغلق حاوية حالة الرسومات التي تم فتحها مسبقًا بواسطة عملية بدء الحاوية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusEndContainer(EmfPlusRecord source)](#EmfPlusEndContainer-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusEndContainer`. |
+| [EmfPlusEndContainer(EmfPlusRecord source)](#EmfPlusEndContainer-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusEndContainer`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusEndContainer(EmfPlusRecord source)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusEndContainer`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusEndContainer`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,5 +62,5 @@ public void setStackIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

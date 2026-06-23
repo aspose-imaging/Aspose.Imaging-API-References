@@ -17,9 +17,9 @@ public final class AudioChannelType
 
 | طريقة | الوصف |
 | --- | --- |
-| [toString()](#toString--) | يعيد `System.String` التي تمثل هذا المثيل. |
-| [getMono()](#getMono--) | يحصل على قناة الصوت الأحادية. |
-| [getStereo()](#getStereo--) | يحصل على قناة الصوت الستيريو. |
+| [toString()](#toString--) | يعيد `System.String` الذي يمثل هذه الحالة. |
+| [getMono()](#getMono--) | يحصل على قناة الصوت أحادية. |
+| [getStereo()](#getStereo--) | يحصل على قناة الصوت ستيريو. |
 | [getAudio51()](#getAudio51--) | يحصل على قناة الصوت 5.1. |
 | [getAudio71()](#getAudio71--) | يحصل على قناة الصوت 7.1. |
 | [getAudio16Channel()](#getAudio16Channel--) | يحصل على قناة الصوت 16. |
@@ -30,19 +30,19 @@ public String toString()
 ```
 
 
-يعيد `System.String` التي تمثل هذا المثيل.
+يعيد `System.String` الذي يمثل هذه الحالة.
 
 **Returns:**
-java.lang.String - `System.String` يمثل هذا المثيل.
+java.lang.String - `System.String` الذي يمثل هذه الحالة.
 ### getMono() {#getMono--}
 ```
 public static AudioChannelType getMono()
 ```
 
 
-يحصل على قناة الصوت الأحادية.
+يحصل على قناة الصوت أحادية.
 
-القيمة: قناة الصوت الأحادية.
+القيمة: قناة الصوت أحادية.
 
 **Returns:**
 [AudioChannelType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiochanneltype)
@@ -52,9 +52,9 @@ public static AudioChannelType getStereo()
 ```
 
 
-يحصل على قناة الصوت الستيريو.
+يحصل على قناة الصوت ستيريو.
 
-القيمة: قناة الصوت الستيريو.
+القيمة: قناة الصوت ستيريو.
 
 **Returns:**
 [AudioChannelType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiochanneltype)

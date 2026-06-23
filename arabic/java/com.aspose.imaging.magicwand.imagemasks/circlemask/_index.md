@@ -17,15 +17,15 @@ public class CircleMask extends ImageMask
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CircleMask(int x, int y, int radius)](#CircleMask-int-int-int-) | ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) باستخدام نقطة المركز المحددة والنصف قطر. |
-| [CircleMask(Point center, int radius)](#CircleMask-com.aspose.imaging.Point-int-) | ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) باستخدام نقطة المركز المحددة والنصف قطر. |
+| [CircleMask(int x, int y, int radius)](#CircleMask-int-int-int-) | ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) مع نقطة المركز المحددة والنصف قطر. |
+| [CircleMask(Point center, int radius)](#CircleMask-com.aspose.imaging.Point-int-) | ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) مع نقطة المركز المحددة والنصف قطر. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود هذا القناع، بوحدة البكسل. |
+| [getSelectionBounds()](#getSelectionBounds--) | يحصل على الحدود، بوحدات البكسل، لهذه القناع. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | يحصل على شفافية البكسل المحدد. |
-| [inflate(int size)](#inflate-int-) | يوسع هذا القناع بالمقدار المحدد. |
+| [inflate(int size)](#inflate-int-) | يضخم هذه القناع بالمقدار المحدد. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص القناع بالمستطيل المحدد. |
 | [deepClone()](#deepClone--) | ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي. |
 ### CircleMask(int x, int y, int radius) {#CircleMask-int-int-int-}
@@ -34,13 +34,13 @@ public CircleMask(int x, int y, int radius)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) باستخدام نقطة المركز المحددة والنصف قطر.
+ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) مع نقطة المركز المحددة والنصف قطر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني لنقطة المركز للمنطقة المحددة. |
-| ص | int | الإحداثي الصادي لنقطة المركز للمنطقة المحددة. |
+| x | int | الإحداثي السيني لنقطة المركز للمنطقة المحددة. |
+| y | int | الإحداثي الصادي لنقطة المركز للمنطقة المحددة. |
 | نصف القطر | int | نصف قطر المنطقة المحددة. |
 
 ### CircleMask(Point center, int radius) {#CircleMask-com.aspose.imaging.Point-int-}
@@ -49,7 +49,7 @@ public CircleMask(Point center, int radius)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) باستخدام نقطة المركز المحددة والنصف قطر.
+ينشئ نسخة جديدة من الفئة [CircleMask](../../com.aspose.imaging.magicwand.imagemasks/circlemask) مع نقطة المركز المحددة والنصف قطر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public Rectangle getSelectionBounds()
 ```
 
 
-يحصل على حدود هذا القناع، بوحدة البكسل.
+يحصل على الحدود، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds, in pixels, of this mask.
@@ -78,8 +78,8 @@ public boolean get_Item(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -89,12 +89,12 @@ public ImageMask inflate(int size)
 ```
 
 
-يوسع هذا القناع بالمقدار المحدد.
+يضخم هذه القناع بالمقدار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | المقدار لتوسيع هذه القناع. |
+| size | int | المقدار لتضخيم هذه القناع. |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated CircleMask as ImageMask.
@@ -122,4 +122,4 @@ public Object deepClone()
 ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي.
 
 **Returns:**
-java.lang.Object - كائن جديد هو نسخة من هذه المثيل.
+java.lang.Object - كائن جديد يكون نسخة من هذا المثيل.

@@ -17,15 +17,15 @@ public class PsdImageException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PsdImageException(String message)](#PsdImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `PsdImageException`. |
-| [PsdImageException(String message, Throwable innerException)](#PsdImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `PsdImageException`. |
+| [PsdImageException(String message)](#PsdImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `PsdImageException`. |
+| [PsdImageException(String message, Throwable innerException)](#PsdImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `PsdImageException`. |
 ### PsdImageException(String message) {#PsdImageException-java.lang.String-}
 ```
 public PsdImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `PsdImageException`.
+ينشئ مثيلاً جديدًا من الفئة `PsdImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public PsdImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `PsdImageException`.
+ينشئ مثيلاً جديدًا من الفئة `PsdImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

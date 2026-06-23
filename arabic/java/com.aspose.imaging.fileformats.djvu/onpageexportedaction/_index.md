@@ -1,7 +1,7 @@
 ---
 title: "OnPageExportedAction"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مفوض لتشغيل عندما يتم تصدير الصفحة"
+description: "مفوض لتفعيل عندما يتم تصدير الصفحة"
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.djvu/onpageexportedaction/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class OnPageExportedAction extends System.MulticastDelegate
 ```
 
-مفوض لتشغيل عندما يتم تصدير الصفحة
+مفوض لتفعيل عندما يتم تصدير الصفحة
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,7 +22,7 @@ public abstract class OnPageExportedAction extends System.MulticastDelegate
 
 | طريقة | الوصف |
 | --- | --- |
-| [invoke(DjvuPage page)](#invoke-com.aspose.imaging.fileformats.djvu.DjvuPage-) | مفوض لتشغيل عندما يتم تصدير الصفحة |
+| [invoke(DjvuPage page)](#invoke-com.aspose.imaging.fileformats.djvu.DjvuPage-) | مفوض لتفعيل عندما يتم تصدير الصفحة |
 | [beginInvoke(DjvuPage page, System.AsyncCallback callback, Object state)](#beginInvoke-com.aspose.imaging.fileformats.djvu.DjvuPage-com.aspose.ms.System.AsyncCallback-java.lang.Object-) |  |
 | [endInvoke(System.IAsyncResult result)](#endInvoke-com.aspose.ms.System.IAsyncResult-) |  |
 ### OnPageExportedAction() {#OnPageExportedAction--}
@@ -37,7 +37,7 @@ public abstract void invoke(DjvuPage page)
 ```
 
 
-مفوض لتشغيل عندما يتم تصدير الصفحة
+مفوض لتفعيل عندما يتم تصدير الصفحة
 
 **Parameters:**
 | معامل | نوع | الوصف |

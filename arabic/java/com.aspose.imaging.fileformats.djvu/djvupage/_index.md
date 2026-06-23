@@ -28,10 +28,10 @@ public class DjvuPage extends RasterCachedImage
 | [getWidth()](#getWidth--) | يحصل على عرض الصفحة |
 | [getHeight()](#getHeight--) | يحصل على ارتفاع الصفحة |
 | [getImage()](#getImage--) | يحصل على الصورة. |
-| [getThumbnailImage()](#getThumbnailImage--) | يحصل على أو يضبط صورة المصغرة للصفحة |
-| [setThumbnailImage(DjvuRaster value)](#setThumbnailImage-com.aspose.imaging.fileformats.djvu.DjvuRaster-) | يحصل على أو يضبط صورة المصغرة للصفحة |
+| [getThumbnailImage()](#getThumbnailImage--) | يحصل أو يضبط صورة المصغرة للصفحة |
+| [setThumbnailImage(DjvuRaster value)](#setThumbnailImage-com.aspose.imaging.fileformats.djvu.DjvuRaster-) | يحصل أو يضبط صورة المصغرة للصفحة |
 | [getPageNumber()](#getPageNumber--) | يحصل على رقم الصفحة. |
-| [isColor()](#isColor--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن ملونًا. |
+| [isColor()](#isColor--) | يحصل على قيمة تشير إلى ما إذا كانت هذه الحالة ملونة. |
 | [getTextForLocation(Rectangle rect)](#getTextForLocation-com.aspose.imaging.Rectangle-) | يحصل على النص لموقع المستطيل |
 | [getForegroundImage()](#getForegroundImage--) | يحصل على صورة المقدمة للصفحة |
 | [getForegroundImage(int subsample)](#getForegroundImage-int-) | يحصل على صورة المقدمة للصفحة |
@@ -121,7 +121,7 @@ public DjvuRaster getThumbnailImage()
 ```
 
 
-يحصل على أو يضبط صورة المصغرة للصفحة
+يحصل أو يضبط صورة المصغرة للصفحة
 
 القيمة: صورة المصغرة.
 
@@ -133,7 +133,7 @@ public void setThumbnailImage(DjvuRaster value)
 ```
 
 
-يحصل على أو يضبط صورة المصغرة للصفحة
+يحصل أو يضبط صورة المصغرة للصفحة
 
 القيمة: صورة المصغرة.
 
@@ -160,7 +160,7 @@ int
 ``` java
 String dir = "c:\\temp\\";
 
-// تحميل صورة DJVU من دفق ملف.
+// تحميل صورة DJVU من تدفق ملف.
 java.io.FileInputStream stream = new java.io.FileInputStream(dir + "sample.djvu");
 try {
     com.aspose.imaging.fileformats.djvu.DjvuImage djvuImage = new com.aspose.imaging.fileformats.djvu.DjvuImage(stream);
@@ -204,9 +204,9 @@ public boolean isColor()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن ملونًا.
+يحصل على قيمة تشير إلى ما إذا كانت هذه الحالة ملونة.
 
-القيمة: `true` إذا كانت هذه النسخة ملونة؛ وإلا `false`.
+القيمة: `true` إذا كانت هذه الحالة ملونة؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -246,7 +246,7 @@ public DjvuRaster getForegroundImage(int subsample)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العينة الفرعية | int | العينة الفرعية. |
+| subsample | int | العينة الفرعية. |
 
 **Returns:**
 [DjvuRaster](../../com.aspose.imaging.fileformats.djvu/djvuraster) - Bitmap image
@@ -271,7 +271,7 @@ public DjvuRaster getTextImage(int subsample)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العينة الفرعية | int | العينة الفرعية. |
+| subsample | int | العينة الفرعية. |
 
 **Returns:**
 [DjvuRaster](../../com.aspose.imaging.fileformats.djvu/djvuraster) - The bitmap

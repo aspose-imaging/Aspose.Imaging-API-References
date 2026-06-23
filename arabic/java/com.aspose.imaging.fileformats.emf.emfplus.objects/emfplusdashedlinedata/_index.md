@@ -7,7 +7,7 @@ weight: 39
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusDashedLineData extends EmfPlusStructureObjectType
 ```
@@ -22,8 +22,8 @@ public final class EmfPlusDashedLineData extends EmfPlusStructureObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDashedLineData()](#getDashedLineData--) | يحصل أو يعيّن مصفوفة من قيم النقطة العائمة DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع |
-| [setDashedLineData(float[] value)](#setDashedLineData-float---) | يحصل أو يعيّن مصفوفة من قيم النقطة العائمة DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع |
+| [getDashedLineData()](#getDashedLineData--) | يحصل أو يضبط مصفوفة من القيم العشرية DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع |
+| [setDashedLineData(float[] value)](#setDashedLineData-float---) | يحصل أو يضبط مصفوفة من القيم العشرية DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع |
 ### EmfPlusDashedLineData() {#EmfPlusDashedLineData--}
 ```
 public EmfPlusDashedLineData()
@@ -36,7 +36,7 @@ public float[] getDashedLineData()
 ```
 
 
-يحصل أو يعيّن مصفوفة من قيم النقطة العائمة DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع
+يحصل أو يضبط مصفوفة من القيم العشرية DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع
 
 **Returns:**
 float[]
@@ -46,10 +46,10 @@ public void setDashedLineData(float[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من قيم النقطة العائمة DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع
+يحصل أو يضبط مصفوفة من القيم العشرية DashedLineDataSize التي تحدد أطوال الشرطات والمسافات في خط متقطع
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] |  |
+| value | float[] |  |
 

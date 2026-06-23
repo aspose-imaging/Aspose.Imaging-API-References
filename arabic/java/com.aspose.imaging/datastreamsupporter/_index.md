@@ -7,7 +7,7 @@ weight: 39
 url: /ar/java/com.aspose.imaging/datastreamsupporter/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
 public abstract class DataStreamSupporter extends DisposableObject
 ```
@@ -18,7 +18,7 @@ public abstract class DataStreamSupporter extends DisposableObject
 | طريقة | الوصف |
 | --- | --- |
 | [getDataStreamContainer()](#getDataStreamContainer--) | يحصل على تدفق بيانات الكائن. |
-| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات. |
+| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات. |
 | [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer` الأساسي. |
 | [save()](#save--) | يحفظ بيانات الكائن إلى `DataStreamSupporter` الحالي. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | يحفظ بيانات الكائن إلى التدفق المحدد. |
@@ -41,10 +41,10 @@ public abstract boolean isCached()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+boolean - قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 ### cacheData() {#cacheData--}
 ```
 public abstract void cacheData()
@@ -55,7 +55,7 @@ public abstract void cacheData()
 
 
 **Example: The following example shows how image caching affects performance.**
-المثال التالي يوضح كيف يؤثر تخزين الصور مؤقتاً على الأداء. في الحالة العامة، قراءة البيانات المخزنة مؤقتاً يتم أسرع من قراءة البيانات غير المخزنة.
+يوضح المثال التالي كيف يؤثر تخزين الصور مؤقتًا على الأداء. بشكل عام، قراءة البيانات المخزنة مؤقتًا يتم تنفيذها أسرع من قراءة البيانات غير المخزنة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -67,7 +67,7 @@ try {
 
     long startTime = System.currentTimeMillis();
 
-    // قراءة جميع البكسلات سريعة إلى حد ما.
+    // قراءة جميع البكسلات سريعة إلى حد كبير.
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
     for (int y = 0; y < image.getHeight(); y++) {
         for (int x = 0; x < image.getWidth(); x++) {
@@ -103,15 +103,15 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-//استغرق قراءة جميع البكسلات المخزنة مؤقتاً 2954 مللي ثانية.
+//استغرق قراءة جميع البكسلات المخزنة مؤقتًا 2954 مللي ثانية.
 //    java.lang.OutOfMemoryError
-//at com.aspose.imaging.internal.G.be.b(Unknown Source)
-//at com.aspose.imaging.internal.G.be.a(Unknown Source)
-//at com.aspose.imaging.internal.G.be.a(Unknown Source)
-//at com.aspose.imaging.internal.G.be.a(Unknown Source)
-//at com.aspose.imaging.internal.G.aB.a(Unknown Source)
-//at com.aspose.imaging.RasterImage.a(Unknown Source)
-//at com.aspose.imaging.RasterImage.getArgb32Pixel(Unknown Source)
+//في com.aspose.imaging.internal.G.be.b(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.be.a(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.be.a(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.be.a(مصدر غير معروف)
+//في com.aspose.imaging.internal.G.aB.a(مصدر غير معروف)
+//في com.aspose.imaging.RasterImage.a(مصدر غير معروف)
+//في com.aspose.imaging.RasterImage.getArgb32Pixel(مصدر غير معروف)
 //في com.aspose.examples.ExamplesTest.Test(ExamplesTest.java:58)
 ```
 
@@ -134,7 +134,7 @@ public void save(OutputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.OutputStream | التدفق لحفظ بيانات الكائن إليه. |
+| تدفق | java.io.OutputStream | التدفق لحفظ بيانات الكائن إليه. |
 
 ### save(RandomAccessFile file) {#save-java.io.RandomAccessFile-}
 ```
@@ -174,5 +174,5 @@ public void save(String filePath, boolean overWrite)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | java.lang.String | مسار الملف لحفظ بيانات الكائن إليه. |
-| overWrite | boolean | إذا تم تعيينه إلى `true` سيُستبدل محتوى الملف، وإلا سيحدث الإلحاق. |
+| overWrite | boolean | إذا تم ضبطه على `true` سيُستبدل محتوى الملف، وإلا سيُضاف المحتوى. |
 

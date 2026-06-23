@@ -1,7 +1,7 @@
 ---
 title: "MatrixOrder"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد الترتيب لعمليات تحويل المصفوفة."
+description: "يحدد ترتيب عمليات تحويل المصفوفة."
 type: docs
 weight: 73
 url: /ar/java/com.aspose.imaging/matrixorder/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MatrixOrder extends System.Enum
 ```
 
-يحدد الترتيب لعمليات تحويل المصفوفة.
+يحدد ترتيب عمليات تحويل المصفوفة.
 ## الحقول
 
 | حقل | الوصف |

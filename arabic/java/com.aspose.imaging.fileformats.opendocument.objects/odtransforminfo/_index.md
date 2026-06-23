@@ -1,7 +1,7 @@
 ---
 title: "OdTransformInfo"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "معلومات ترجمة المستند المفتوح."
+description: "معلومات ترجمة المستند المفتوح"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
@@ -12,7 +12,7 @@ java.lang.Object
 public class OdTransformInfo
 ```
 
-معلومات ترجمة المستند المفتوح.
+معلومات ترجمة المستند المفتوح
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,17 +22,17 @@ public class OdTransformInfo
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRotateAngle()](#getRotateAngle--) | يحصل أو يعيّن زاوية الدوران. |
-| [setRotateAngle(float value)](#setRotateAngle-float-) | يحصل أو يعيّن زاوية الدوران. |
-| [getTranslateX()](#getTranslateX--) | يحصل أو يعيّن إزاحة x. |
-| [setTranslateX(float value)](#setTranslateX-float-) | يحصل أو يعيّن إزاحة x. |
-| [getTranslateY()](#getTranslateY--) | يحصل أو يعيّن إزاحة y. |
-| [setTranslateY(float value)](#setTranslateY-float-) | يحصل أو يعيّن إزاحة y. |
+| [getRotateAngle()](#getRotateAngle--) | يحصل أو يضبط زاوية الدوران. |
+| [setRotateAngle(float value)](#setRotateAngle-float-) | يحصل أو يضبط زاوية الدوران. |
+| [getTranslateX()](#getTranslateX--) | يحصل أو يضبط إزاحة x. |
+| [setTranslateX(float value)](#setTranslateX-float-) | يحصل أو يضبط إزاحة x. |
+| [getTranslateY()](#getTranslateY--) | يحصل أو يضبط إزاحة y. |
+| [setTranslateY(float value)](#setTranslateY-float-) | يحصل أو يضبط إزاحة y. |
 | [getSkewX()](#getSkewX--) | يحصل على الانحراف x. |
-| [setSkewX(float value)](#setSkewX-float-) | يعيّن الانحراف x. |
+| [setSkewX(float value)](#setSkewX-float-) | يضبط الانحراف x. |
 | [getSkewY()](#getSkewY--) | يحصل على الانحراف y. |
-| [setSkewY(float value)](#setSkewY-float-) | يعيّن الانحراف y. |
-| [copy()](#copy--) | ينسخ هذه الحالة. |
+| [setSkewY(float value)](#setSkewY-float-) | يضبط الانحراف y. |
+| [copy()](#copy--) | ينسخ هذا الكائن. |
 ### OdTransformInfo() {#OdTransformInfo--}
 ```
 public OdTransformInfo()
@@ -45,7 +45,7 @@ public float getRotateAngle()
 ```
 
 
-يحصل أو يعيّن زاوية الدوران.
+يحصل أو يضبط زاوية الدوران.
 
 **Returns:**
 float - زاوية الدوران.
@@ -55,12 +55,12 @@ public void setRotateAngle(float value)
 ```
 
 
-يحصل أو يعيّن زاوية الدوران.
+يحصل أو يضبط زاوية الدوران.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | زاوية الدوران. |
+| value | float | زاوية الدوران. |
 
 ### getTranslateX() {#getTranslateX--}
 ```
@@ -68,7 +68,7 @@ public float getTranslateX()
 ```
 
 
-يحصل أو يعيّن إزاحة x.
+يحصل أو يضبط إزاحة x.
 
 **Returns:**
 float - إزاحة x.
@@ -78,12 +78,12 @@ public void setTranslateX(float value)
 ```
 
 
-يحصل أو يعيّن إزاحة x.
+يحصل أو يضبط إزاحة x.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إزاحة x. |
+| value | float | إزاحة x. |
 
 ### getTranslateY() {#getTranslateY--}
 ```
@@ -91,7 +91,7 @@ public float getTranslateY()
 ```
 
 
-يحصل أو يعيّن إزاحة y.
+يحصل أو يضبط إزاحة y.
 
 **Returns:**
 float - إزاحة y.
@@ -101,12 +101,12 @@ public void setTranslateY(float value)
 ```
 
 
-يحصل أو يعيّن إزاحة y.
+يحصل أو يضبط إزاحة y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إزاحة y. |
+| value | float | إزاحة y. |
 
 ### getSkewX() {#getSkewX--}
 ```
@@ -124,12 +124,12 @@ public void setSkewX(float value)
 ```
 
 
-يعيّن الانحراف x.
+يضبط الانحراف x.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الانحراف x. |
+| value | float | الانحراف السيني. |
 
 ### getSkewY() {#getSkewY--}
 ```
@@ -140,19 +140,19 @@ public float getSkewY()
 يحصل على الانحراف y.
 
 **Returns:**
-float - الانحراف y.
+float - الانحراف الصادي.
 ### setSkewY(float value) {#setSkewY-float-}
 ```
 public void setSkewY(float value)
 ```
 
 
-يعيّن الانحراف y.
+يضبط الانحراف y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الانحراف y. |
+| value | float | الانحراف الصادي. |
 
 ### copy() {#copy--}
 ```
@@ -160,7 +160,7 @@ public OdTransformInfo copy()
 ```
 
 
-ينسخ هذه الحالة.
+ينسخ هذا الكائن.
 
 **Returns:**
 [OdTransformInfo](../../com.aspose.imaging.fileformats.opendocument.objects/odtransforminfo) - Get the instance of OdTransformInfo

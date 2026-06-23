@@ -1,7 +1,7 @@
 ---
 title: "ColorMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل وضع اللون."
+description: "يمثّل وضع اللون."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.xmp.types.complex.colorant/colormode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorMode extends System.Enum
 ```
 
-يمثل وضع اللون.
+يمثّل وضع اللون.
 ## الحقول
 
 | حقل | الوصف |

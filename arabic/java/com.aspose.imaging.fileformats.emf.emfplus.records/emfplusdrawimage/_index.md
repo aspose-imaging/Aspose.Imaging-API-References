@@ -17,30 +17,30 @@ public final class EmfPlusDrawImage extends EmfPlusDrawingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusDrawImage(EmfPlusRecord source)](#EmfPlusDrawImage-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusDrawImage`. |
+| [EmfPlusDrawImage(EmfPlusRecord source)](#EmfPlusDrawImage-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusDrawImage`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCompressed()](#getCompressed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. |
-| [setCompressed(boolean value)](#setCompressed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. |
+| [getCompressed()](#getCompressed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. |
+| [setCompressed(boolean value)](#setCompressed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. |
 | [getObjectId()](#getObjectId--) | يحصل أو يعيّن معرف الكائن. |
 | [setObjectId(byte value)](#setObjectId-byte-) | يحصل أو يعيّن معرف الكائن. |
-| [getImageAttributesId()](#getImageAttributesId--) | يحصل أو يعيّن معرف سمات الصورة عدد صحيح غير موقع 32‑بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+. |
-| [setImageAttributesId(int value)](#setImageAttributesId-int-) | يحصل أو يعيّن معرف سمات الصورة عدد صحيح غير موقع 32‑بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+. |
-| [getRectData()](#getRectData--) | يحصل أو يعيّن بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للصورة. |
-| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للصورة. |
-| [getSrcRect()](#getSrcRect--) | يحصل أو يعيّن مستطيل المصدر كائن EmfPlusRectF يحدد جزءاً من الصورة ليتم عرضه. |
-| [setSrcRect(RectangleF value)](#setSrcRect-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن مستطيل المصدر كائن EmfPlusRectF يحدد جزءاً من الصورة ليتم عرضه. |
-| [getSrcUnit()](#getSrcUnit--) | يحصل أو يعيّن وحدة المصدر عدد صحيح موقع 32‑بت يحدد وحدات حقل SrcRect. |
-| [setSrcUnit(int value)](#setSrcUnit-int-) | يحصل أو يعيّن وحدة المصدر عدد صحيح موقع 32‑بت يحدد وحدات حقل SrcRect. |
+| [getImageAttributesId()](#getImageAttributesId--) | يحصل أو يضبط معرف سمات الصورة عدد صحيح غير موقع 32-بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+. |
+| [setImageAttributesId(int value)](#setImageAttributesId-int-) | يحصل أو يضبط معرف سمات الصورة عدد صحيح غير موقع 32-بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+. |
+| [getRectData()](#getRectData--) | يحصل أو يضبط بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحدود للصورة. |
+| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | يحصل أو يضبط بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحدود للصورة. |
+| [getSrcRect()](#getSrcRect--) | يحصل أو يضبط مستطيل المصدر كائن EmfPlusRectF يحدد جزءًا من الصورة ليتم عرضه. |
+| [setSrcRect(RectangleF value)](#setSrcRect-com.aspose.imaging.RectangleF-) | يحصل أو يضبط مستطيل المصدر كائن EmfPlusRectF يحدد جزءًا من الصورة ليتم عرضه. |
+| [getSrcUnit()](#getSrcUnit--) | يحصل أو يضبط وحدة المصدر عدد صحيح موقع 32-بت يحدد وحدات الحقل SrcRect. |
+| [setSrcUnit(int value)](#setSrcUnit-int-) | يحصل أو يضبط وحدة المصدر عدد صحيح موقع 32-بت يحدد وحدات الحقل SrcRect. |
 ### EmfPlusDrawImage(EmfPlusRecord source) {#EmfPlusDrawImage-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawImage(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfPlusDrawImage`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPlusDrawImage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,9 +53,9 @@ public boolean getCompressed()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يُحدد، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. إذا تم الضبط، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم الضبط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -65,14 +65,14 @@ public void setCompressed(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يُحدد، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. إذا تم الضبط، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم الضبط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -80,7 +80,7 @@ public byte getObjectId()
 ```
 
 
-يحصل أو يضبط معرف الكائن. فهرس كائن EmfPlusImage (القسم 2.2.1.4) في جدول كائنات EMF+، الذي يحدد الصورة التي سيتم عرضها. يجب أن تكون القيمة بين الصفر و63، شاملًا.
+يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusImage (القسم 2.2.1.4) في جدول كائنات EMF+، الذي يحدد الصورة المراد عرضها. يجب أن تكون القيمة بين الصفر و 63 شاملًا.
 
 القيمة: معرف الكائن.
 
@@ -92,14 +92,14 @@ public void setObjectId(byte value)
 ```
 
 
-يحصل أو يضبط معرف الكائن. فهرس كائن EmfPlusImage (القسم 2.2.1.4) في جدول كائنات EMF+، الذي يحدد الصورة التي سيتم عرضها. يجب أن تكون القيمة بين الصفر و63، شاملًا.
+يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusImage (القسم 2.2.1.4) في جدول كائنات EMF+، الذي يحدد الصورة المراد عرضها. يجب أن تكون القيمة بين الصفر و 63 شاملًا.
 
 القيمة: معرف الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getImageAttributesId() {#getImageAttributesId--}
 ```
@@ -107,7 +107,7 @@ public int getImageAttributesId()
 ```
 
 
-يحصل أو يعيّن معرف سمات الصورة عدد صحيح غير موقع 32‑بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+.
+يحصل أو يضبط معرف سمات الصورة عدد صحيح غير موقع 32-بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+.
 
 **Returns:**
 int
@@ -117,12 +117,12 @@ public void setImageAttributesId(int value)
 ```
 
 
-يحصل أو يعيّن معرف سمات الصورة عدد صحيح غير موقع 32‑بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+.
+يحصل أو يضبط معرف سمات الصورة عدد صحيح غير موقع 32-بت يحدد فهرس كائن EmfPlusImageAttributes اختياري (القسم 2.2.1.5) في جدول كائنات EMF+.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRectData() {#getRectData--}
 ```
@@ -130,7 +130,7 @@ public RectangleF getRectData()
 ```
 
 
-يحصل أو يعيّن بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للصورة. الجزء من الصورة المحدد بحقل SrcRect يُقاس ليتناسب مع هذا المستطيل.
+يحصل أو يضبط بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحدود للصورة. الجزء من الصورة المحدد بالحقل SrcRect يتم تحجيمه ليتناسب مع هذا المستطيل.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -140,7 +140,7 @@ public void setRectData(RectangleF value)
 ```
 
 
-يحصل أو يعيّن بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للصورة. الجزء من الصورة المحدد بحقل SrcRect يُقاس ليتناسب مع هذا المستطيل.
+يحصل أو يضبط بيانات المستطيل إما كائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحدود للصورة. الجزء من الصورة المحدد بالحقل SrcRect يتم تحجيمه ليتناسب مع هذا المستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -153,7 +153,7 @@ public RectangleF getSrcRect()
 ```
 
 
-يحصل أو يعيّن مستطيل المصدر كائن EmfPlusRectF يحدد جزءاً من الصورة ليتم عرضه. الجزء من الصورة المحدد بهذا المستطيل يُقاس ليتناسب مع مستطيل الوجهة المحدد بحقل RectData.
+يحصل أو يضبط مستطيل المصدر كائن EmfPlusRectF يحدد جزءًا من الصورة ليتم عرضه. الجزء من الصورة المحدد بهذا المستطيل يتم تحجيمه ليتناسب مع مستطيل الوجهة المحدد بحقل RectData.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -163,7 +163,7 @@ public void setSrcRect(RectangleF value)
 ```
 
 
-يحصل أو يعيّن مستطيل المصدر كائن EmfPlusRectF يحدد جزءاً من الصورة ليتم عرضه. الجزء من الصورة المحدد بهذا المستطيل يُقاس ليتناسب مع مستطيل الوجهة المحدد بحقل RectData.
+يحصل أو يضبط مستطيل المصدر كائن EmfPlusRectF يحدد جزءًا من الصورة ليتم عرضه. الجزء من الصورة المحدد بهذا المستطيل يتم تحجيمه ليتناسب مع مستطيل الوجهة المحدد بحقل RectData.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -176,7 +176,7 @@ public int getSrcUnit()
 ```
 
 
-يحصل أو يعيّن وحدة المصدر عدد صحيح موقع 32‑بت يحدد وحدات حقل SrcRect. يجب أن تكون الوحدة هي العنصر UnitTypePixel من تعداد UnitType (القسم 2.1.1.33).
+يحصل أو يضبط وحدة المصدر عدد صحيح موقع 32-بت يحدد وحدات الحقل SrcRect. يجب أن يكون عضو UnitTypePixel من تعداد UnitType (القسم 2.1.1.33).
 
 **Returns:**
 int
@@ -186,10 +186,10 @@ public void setSrcUnit(int value)
 ```
 
 
-يحصل أو يعيّن وحدة المصدر عدد صحيح موقع 32‑بت يحدد وحدات حقل SrcRect. يجب أن تكون الوحدة هي العنصر UnitTypePixel من تعداد UnitType (القسم 2.1.1.33).
+يحصل أو يضبط وحدة المصدر عدد صحيح موقع 32-بت يحدد وحدات الحقل SrcRect. يجب أن يكون عضو UnitTypePixel من تعداد UnitType (القسم 2.1.1.33).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

@@ -7,7 +7,7 @@ weight: 20
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffSByteType extends TiffCommonArrayType
 ```
@@ -22,14 +22,14 @@ public final class TiffSByteType extends TiffCommonArrayType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValues()](#getValues--) | يحصل أو يضبط القيم. |
-| [setValues(byte[] value)](#setValues-byte---) | يحصل أو يضبط القيم. |
+| [getValues()](#getValues--) | يحصل أو يعيّن القيم. |
+| [setValues(byte[] value)](#setValues-byte---) | يحصل أو يعيّن القيم. |
 | [getValuesContainer()](#getValuesContainer--) | يحصل على حاوية القيم. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر بالبايت. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffSByteType(int tagId) {#TiffSByteType-int-}
 ```
 public TiffSByteType(int tagId)
@@ -49,7 +49,7 @@ public byte[] getValues()
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 القيمة: البيانات.
 
@@ -61,14 +61,14 @@ public void setValues(byte[] value)
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 القيمة: البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -127,7 +127,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object |  |
+| value | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -135,7 +135,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -143,4 +143,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

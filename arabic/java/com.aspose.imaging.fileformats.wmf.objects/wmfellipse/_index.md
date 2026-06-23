@@ -1,7 +1,7 @@
 ---
 title: "WmfEllipse"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل META_ELLIPSE يرسم إهليلجًا."
+description: "السجل META_ELLIPSE يرسم بيضاويًا."
 type: docs
 weight: 31
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfellipse/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfEllipse extends WmfRectangle
 ```
 
-السجل META\_ELLIPSE يرسم إهليلجًا. مركز الإهليلج هو مركز المستطيل المحدد الذي يحده. يتم تحديد حدود الإهليلج باستخدام القلم ويتم ملؤه باستخدام الفرشاة؛ هذه معرفة في سياق جهاز التشغيل.
+السجل META\_ELLIPSE يرسم بيضاويًا. مركز البيضاوي هو مركز المستطيل المحدد الذي يحدده. يتم تحديد حدود البيضاوي باستخدام القلم ويتم تعبئته باستخدام الفرشاة؛ يتم تعريفهما في سياق جهاز التشغيل.
 ## المنشئات
 
 | المنشئ | الوصف |

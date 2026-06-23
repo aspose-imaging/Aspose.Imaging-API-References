@@ -7,7 +7,7 @@ weight: 62
 url: /ar/java/com.aspose.imaging/imageoptionsbase/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 
 **All Implemented Interfaces:**
 [com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
@@ -20,52 +20,52 @@ public abstract class ImageOptionsBase extends DisposableObject implements IMeta
 
 | طريقة | الوصف |
 | --- | --- |
-| [isKeepMetadata()](#isKeepMetadata--) | يحصل على قيمة تحدد ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
-| [setKeepMetadata(boolean value)](#setKeepMetadata-boolean-) | قيمة تحدد ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
-| [getXmpData()](#getXmpData--) | يسترجع حاوية بيانات التعريف XMP. |
-| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | يضبط حاوية بيانات التعريف XMP. |
+| [isKeepMetadata()](#isKeepMetadata--) | يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [setKeepMetadata(boolean value)](#setKeepMetadata-boolean-) | قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
+| [getXmpData()](#getXmpData--) | يحصل على حاوية بيانات تعريف XMP. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | يضبط حاوية بيانات تعريف XMP. |
 | [getExifData()](#getExifData--) | يحصل على بيانات Exif. |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | يضبط بيانات Exif. |
-| [getSource()](#getSource--) | يسترجع المصدر لإنشاء الصورة فيه. |
-| [setSource(Source value)](#setSource-com.aspose.imaging.Source-) | يسترجع أو يضبط المصدر لإنشاء الصورة فيه. |
+| [getSource()](#getSource--) | يحصل على المصدر لإنشاء الصورة فيه. |
+| [setSource(Source value)](#setSource-com.aspose.imaging.Source-) | يحصل أو يضبط المصدر لإنشاء الصورة فيه. |
 | [getPalette()](#getPalette--) | يحصل على لوحة الألوان. |
 | [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | يضبط لوحة الألوان. |
-| [getResolutionSettings()](#getResolutionSettings--) | يسترجع إعدادات الدقة. |
+| [getResolutionSettings()](#getResolutionSettings--) | يحصل على إعدادات الدقة. |
 | [setResolutionSettings(ResolutionSetting value)](#setResolutionSettings-com.aspose.imaging.ResolutionSetting-) | يضبط إعدادات الدقة. |
-| [getVectorRasterizationOptions()](#getVectorRasterizationOptions--) | يسترجع خيارات تحويل المتجه إلى نقطية. |
+| [getVectorRasterizationOptions()](#getVectorRasterizationOptions--) | يحصل على خيارات تحويل المتجه إلى نقطية. |
 | [setVectorRasterizationOptions(VectorRasterizationOptions value)](#setVectorRasterizationOptions-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | يضبط خيارات تحويل المتجه إلى نقطية. |
-| [getBufferSizeHint()](#getBufferSizeHint--) | يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية. |
-| [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية. |
+| [getBufferSizeHint()](#getBufferSizeHint--) | يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية. |
+| [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية. |
 | [getMultiPageOptions()](#getMultiPageOptions--) | خيارات الصفحات المتعددة |
 | [setMultiPageOptions(MultiPageOptions value)](#setMultiPageOptions-com.aspose.imaging.imageoptions.MultiPageOptions-) | خيارات الصفحات المتعددة |
-| [getFullFrame()](#getFullFrame--) | يسترجع قيمة تشير إلى ما إذا كان [full frame]. |
+| [getFullFrame()](#getFullFrame--) | يحصل على قيمة تشير إلى ما إذا كان [full frame]. |
 | [setFullFrame(boolean value)](#setFullFrame-boolean-) | يضبط قيمة تشير إلى ما إذا كان [full frame]. |
-| [getProgressEventHandler()](#getProgressEventHandler--) | يسترجع معالج حدث التقدم. |
+| [getProgressEventHandler()](#getProgressEventHandler--) | يحصل على معالج حدث التقدم. |
 | [setProgressEventHandler(ProgressEventHandler value)](#setProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | يضبط معالج حدث التقدم. |
-| [deepClone()](#deepClone--) | ينسخ هذه المثيلة. |
-| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | يحاول تعيين كائن `metadata` إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat). |
+| [deepClone()](#deepClone--) | ينسخ هذه النسخة. |
+| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | يحاول تعيين كائن `metadata`، إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat). |
 ### isKeepMetadata() {#isKeepMetadata--}
 ```
 public final boolean isKeepMetadata()
 ```
 
 
-يحصل على قيمة تحدد ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير.
+يحصل على قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان يجب الاحتفاظ ببيانات التعريف الأصلية للصورة عند التصدير.
+منطقي - قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير.
 ### setKeepMetadata(boolean value) {#setKeepMetadata-boolean-}
 ```
 public final void setKeepMetadata(boolean value)
 ```
 
 
-قيمة تحدد ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير.
+قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان يجب الاحتفاظ ببيانات التعريف الأصلية للصورة عند التصدير. |
+| value | boolean | قيمة ما إذا كان يجب الاحتفاظ ببيانات تعريف الصورة الأصلية عند التصدير. |
 
 ### getXmpData() {#getXmpData--}
 ```
@@ -73,7 +73,7 @@ public XmpPacketWrapper getXmpData()
 ```
 
 
-يسترجع حاوية بيانات التعريف XMP.
+يحصل على حاوية بيانات تعريف XMP.
 
 القيمة: حاوية بيانات XMP.
 
@@ -85,14 +85,14 @@ public void setXmpData(XmpPacketWrapper value)
 ```
 
 
-يضبط حاوية بيانات التعريف XMP.
+يضبط حاوية بيانات تعريف XMP.
 
 القيمة: حاوية بيانات XMP.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | حاوية بيانات التعريف XMP. |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) | حاوية بيانات تعريف XMP. |
 
 ### getExifData() {#getExifData--}
 ```
@@ -123,7 +123,7 @@ public Source getSource()
 ```
 
 
-يسترجع المصدر لإنشاء الصورة فيه.
+يحصل على المصدر لإنشاء الصورة فيه.
 
 **Returns:**
 [Source](../../com.aspose.imaging/source) - The source to create image in.
@@ -133,7 +133,7 @@ public void setSource(Source value)
 ```
 
 
-يسترجع أو يضبط المصدر لإنشاء الصورة فيه.
+يحصل أو يضبط المصدر لإنشاء الصورة فيه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -171,7 +171,7 @@ public void setPalette(IColorPalette value)
 // إنشاء صورة BMP بحجم 100 × 100 بكسل.
 com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(100, 100);
 try {
-    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     com.aspose.imaging.brushes.LinearGradientBrush brush =
             new com.aspose.imaging.brushes.LinearGradientBrush(
                     new com.aspose.imaging.Point(0, 0),
@@ -183,11 +183,11 @@ try {
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(bmpImage);
     gr.fillRectangle(brush, bmpImage.getBounds());
 
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     com.aspose.imaging.IColorPalette palette = com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette(bmpImage, 256);
 
-    // لوحة ألوان 8‑بت تحتوي على ما لا يزيد عن 256 لونًا.
+    // تحتوي لوحة الألوان 8-bit على ما لا يزيد عن 256 لونًا.
     com.aspose.imaging.imageoptions.BmpOptions saveOptions = new com.aspose.imaging.imageoptions.BmpOptions();
     saveOptions.setPalette(palette);
     saveOptions.setBitsPerPixel(8);
@@ -222,7 +222,7 @@ public ResolutionSetting getResolutionSettings()
 ```
 
 
-يسترجع إعدادات الدقة.
+يحصل على إعدادات الدقة.
 
 **Returns:**
 [ResolutionSetting](../../com.aspose.imaging/resolutionsetting)
@@ -263,7 +263,7 @@ try {
     // حدد جودة الصورة. إنها قيمة بين 1 و 100.
     saveOptions.setQuality(100);
 
-    // حدد الدقة الأفقية/العمودية إلى 96 نقطة لكل بوصة.
+    // حدد الدقة الأفقية/العمودية إلى 96 نقطة في البوصة.
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
     saveOptions.setResolutionUnit(com.aspose.imaging.ResolutionUnit.Inch);
 
@@ -285,7 +285,7 @@ public VectorRasterizationOptions getVectorRasterizationOptions()
 ```
 
 
-يسترجع خيارات تحويل المتجه إلى نقطية.
+يحصل على خيارات تحويل المتجه إلى نقطية.
 
 **Returns:**
 [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) - The vector rasterization options.
@@ -308,26 +308,26 @@ public final int getBufferSizeHint()
 ```
 
 
-يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية.
+يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية.
 
-القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الإيجابية تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
+القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الموجبة تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
 
 **Returns:**
-int - تلميح حجم المخزن المؤقت الذي يُعرّف الحد الأقصى المسموح به لجميع المخازن المؤقتة الداخلية.
+int - تلميح حجم المخزن المؤقت الذي يُعرف كحد أقصى مسموح به لجميع المخازن المؤقتة الداخلية.
 ### setBufferSizeHint(int value) {#setBufferSizeHint-int-}
 ```
 public final void setBufferSizeHint(int value)
 ```
 
 
-يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية.
+يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية.
 
-القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الإيجابية تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
+القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الموجبة تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تلميح حجم المخزن المؤقت الذي يُعرّف الحد الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
+| value | int | تلميح حجم المخزن المؤقت الذي يُعرف كحد أقصى مسموح به لجميع المخازن المؤقتة الداخلية. |
 
 ### getMultiPageOptions() {#getMultiPageOptions--}
 ```
@@ -358,12 +358,12 @@ public final boolean getFullFrame()
 ```
 
 
-يسترجع قيمة تشير إلى ما إذا كان [full frame].
+يحصل على قيمة تشير إلى ما إذا كان [full frame].
 
 القيمة: `true` إذا كان [full frame]؛ وإلا `false`.
 
 **Returns:**
-منطقية - قيمة تشير إلى ما إذا كان [full frame].
+منطقي - قيمة تشير إلى ما إذا كان [full frame].
 ### setFullFrame(boolean value) {#setFullFrame-boolean-}
 ```
 public final void setFullFrame(boolean value)
@@ -377,7 +377,7 @@ public final void setFullFrame(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [full frame]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [full frame]. |
 
 ### getProgressEventHandler() {#getProgressEventHandler--}
 ```
@@ -385,7 +385,7 @@ public ProgressEventHandler getProgressEventHandler()
 ```
 
 
-يسترجع معالج حدث التقدم.
+يحصل على معالج حدث التقدم.
 
 القيمة: معالج حدث التقدم.
 
@@ -438,16 +438,16 @@ finally {
 }
 
 // قد يبدو سجل STDOUT هكذا:
-//        حدث التحميل Initialization : 1/4
-//        حدث التحميل PreProcessing : 2/4
-//        حدث التحميل Processing : 3/4
-//        حدث التحميل Finalization : 4/4
-//        حدث التصدير Initialization : 1/4
-//        حدث التصدير PreProcessing : 2/4
-//        حدث التصدير Processing : 3/4
+//        حدث التحميل التهيئة : 1/4
+//        حدث التحميل ما قبل المعالجة : 2/4
+//        حدث التحميل المعالجة : 3/4
+//        حدث التحميل الإنهاء : 4/4
+//        حدث التصدير التهيئة : 1/4
+//        حدث التصدير ما قبل المعالجة : 2/4
+//        حدث التصدير المعالجة : 3/4
 //        حدث التصدير RelativeProgress : 1/1
 //        حدث التحميل RelativeProgress : 1/1
-//        حدث التصدير Finalization : 4/4
+//        حدث التصدير الإنهاء : 4/4
 ```
 
 ### deepClone() {#deepClone--}
@@ -456,7 +456,7 @@ public ImageOptionsBase deepClone()
 ```
 
 
-ينسخ هذه المثيلة.
+ينسخ هذه النسخة.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Returns shallow copy of this instance
@@ -466,7 +466,7 @@ public final boolean trySetMetadata(IImageMetadataFormat metadata)
 ```
 
 
-يحاول تعيين كائن `metadata` إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat).
+يحاول تعيين كائن `metadata`، إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -474,4 +474,4 @@ public final boolean trySetMetadata(IImageMetadataFormat metadata)
 | metadata | [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) | البيانات الوصفية. |
 
 **Returns:**
-منطقية - True إذا كان كائن [IMetadataContainer](../../com.aspose.imaging/imetadatacontainer) يدعم و/أو ينفّذ كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)؛ وإلا false.
+منطقي - True، إذا كان كائن [IMetadataContainer](../../com.aspose.imaging/imetadatacontainer) يدعم و/أو ينفّذ كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)؛ وإلا false.

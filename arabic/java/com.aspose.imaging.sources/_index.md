@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.sources/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [FileCreateSource](../com.aspose.imaging.sources/filecreatesource) | يمثل مصدر ملف لإنشاء. |
 | [FileOpenSource](../com.aspose.imaging.sources/fileopensource) | يمثل مصدر ملف للفتح. |

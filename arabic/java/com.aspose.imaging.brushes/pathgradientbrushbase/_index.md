@@ -1,7 +1,7 @@
 ---
 title: "PathGradientBrushBase"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل فرشاة ذات وظيفة تدرج مسار أساسي."
+description: "يمثل `Brush` بوظيفة تدرج مسار أساسي."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.brushes/pathgradientbrushbase/
@@ -14,13 +14,13 @@ public abstract class PathGradientBrushBase extends TransformBrush
 
 يمثل `Brush` بوظيفة تدرج مسار أساسي.
 
-لاحظ أنه عند إنشاء الفئة `PathGradientBrushBase` يجب تهيئتها بما لا يقل عن نقطتين. المسار الداخلي المُنشأ سيكون دائمًا شكلًا مغلقًا، حيث تربط النقطة الأخيرة النقطة الأولى. يُملأ ذلك الشكل باستخدام هذا `PathGradientBrushBase`. تنفّذ GDI+ استثناء `OutOfMemoryError` عند تمرير مصفوفات فارغة أو مجموعة نقاط ذات إحداثيات متماثلة. ترمي الفئة `PathGradientBrushBase` استثناءً عندما تحتوي مصفوفة النقاط على أقل من نقطتين، ويتم إلقاء `ArgumentException` بدلاً من `OutOfMemoryError` عندما تكون مصفوفة النقاط غير مقبولة. يُحسب نقطة المركز كقُرص مركز للنتائج الممررة افتراضيًا. يمكن للمستخدم تغيير هذه النقطة لاحقًا. مقاييس التركيز هي نقطة فارغة (0.0, 0.0) افتراضيًا.
+لاحظ أنه عند إنشاء فئة `PathGradientBrushBase` يجب تهيئتها بنقطتين على الأقل. المسار الداخلي الذي يتم إنشاؤه سيكون دائمًا شكلًا مغلقًا، النقطة الأخيرة تتصل بالنقطة الأولى. يتم ملء ذلك الشكل باستخدام `PathGradientBrushBase`. تنفيذ GDI+ يرمي استثناء `OutOfMemoryError` عند تمرير مصفوفات فارغة أو مجموعة نقاط لها نفس الإحداثيات. `PathGradientBrushBase` يرمي استثناءً عندما تحتوي مصفوفة النقاط على أقل من نقطتين، يتم رمي `ArgumentException` بدلاً من `OutOfMemoryError` عندما تكون مصفوفة النقاط غير مقبولة. يتم حساب نقطة المركز كمتوسط كتلة للنقاط الممررة بشكل افتراضي. يمكن للمستخدم تغيير هذه النقطة لاحقًا. مقياس التركيز هو نقطة فارغة (0.0, 0.0) بشكل افتراضي.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPathPoints()](#getPathPoints--) | يحصل على نقاط المسار التي بُنيت عليها هذه الفرشاة. |
-| [getGraphicsPath()](#getGraphicsPath--) | يحصل على مسار الرسومات الذي بُنيت عليه هذه الفرشاة. |
+| [getPathPoints()](#getPathPoints--) | يحصل على نقاط المسار التي بُني عليها هذا الفرش. |
+| [getGraphicsPath()](#getGraphicsPath--) | يحصل على مسار الرسومات الذي بُني عليه هذا الفرش. |
 | [getCenterPoint()](#getCenterPoint--) | يحصل أو يضبط نقطة المركز لتدرج المسار. |
 | [setCenterPoint(PointF value)](#setCenterPoint-com.aspose.imaging.PointF-) | يحصل أو يضبط نقطة المركز لتدرج المسار. |
 | [getFocusScales()](#getFocusScales--) | يحصل على نقطة التركيز لتلاشي التدرج. |
@@ -31,7 +31,7 @@ public PointF[] getPathPoints()
 ```
 
 
-يحصل على نقاط المسار التي بُنيت عليها هذه الفرشاة.
+يحصل على نقاط المسار التي بُني عليها هذا الفرش.
 
 **Returns:**
 com.aspose.imaging.PointF[] - نقاط المسار.
@@ -41,7 +41,7 @@ public GraphicsPath getGraphicsPath()
 ```
 
 
-يحصل على مسار الرسومات الذي بُنيت عليه هذه الفرشاة.
+يحصل على مسار الرسومات الذي بُني عليه هذا الفرش.
 
 **Returns:**
 [GraphicsPath](../../com.aspose.imaging/graphicspath) - The graphics path.
@@ -66,7 +66,7 @@ public void setCenterPoint(PointF value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` يحدد نقطة المركز لتدرج المسار. |
+| value | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` يمثل نقطة المركز لتدرج المسار. |
 
 ### getFocusScales() {#getFocusScales--}
 ```
@@ -89,5 +89,5 @@ public void setFocusScales(PointF value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PointF](../../com.aspose.imaging/pointf) | كائن `Aspose.Imaging.PointF` يمثل نقطة التركيز لتلاشي التدرج. |
+| value | [PointF](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` يمثل نقطة التركيز لتلاشي التدرج. |
 

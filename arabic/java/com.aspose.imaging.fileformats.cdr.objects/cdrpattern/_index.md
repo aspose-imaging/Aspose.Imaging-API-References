@@ -1,7 +1,7 @@
 ---
 title: "CdrPattern"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr صورة نقطية"
+description: "صورة نقطية cdr"
 type: docs
 weight: 33
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrpattern/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrPattern extends CdrDictionaryItem
 ```
 
-ال cdr صورة نقطية
+صورة نقطية cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -53,7 +53,7 @@ public final void setWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | العرض. |
+| value | int | العرض. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -76,5 +76,5 @@ public final void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الارتفاع. |
+| value | int | الارتفاع. |
 

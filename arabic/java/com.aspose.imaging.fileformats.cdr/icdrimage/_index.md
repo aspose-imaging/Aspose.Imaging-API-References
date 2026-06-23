@@ -1,7 +1,7 @@
 ---
 title: "ICdrImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "واجهة صورة Cdr"
+description: "واجهة صورة Cdr."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.cdr/icdrimage/

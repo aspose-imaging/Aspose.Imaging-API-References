@@ -1,7 +1,7 @@
 ---
 title: "EmfSetWorldTransform"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_SETWORLDTRANSFORM يحدد تحويلًا من مساحة العالم الحالية إلى مساحة الصفحة في سياق جهاز التشغيل."
+description: "سجل EMR_SETWORLDTRANSFORM يحدد تحويلًا للفضاء العالمي الحالي إلى فضاء الصفحة في سياق جهاز التشغيل."
 type: docs
 weight: 146
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform/
@@ -12,22 +12,22 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetWorldTransform extends EmfTransformRecordType
 ```
 
-سجل EMR\_SETWORLDTRANSFORM يحدد تحويلًا من الفضاء العالمي الحالي إلى فضاء الصفحة في سياق جهاز التشغيل.
+السجل EMR\_SETWORLDTRANSFORM يحدد تحويلًا من الفضاء العالمي الحالي إلى فضاء الصفحة في سياق جهاز التشغيل.
 
 لمزيد من المعلومات حول التحويلات والمساحات الإحداثية، راجع [MSDN-WRLDPGSPC]. انظر القسم 2.3.12 لتحديد أنواع سجلات التحويل الأخرى.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetWorldTransform(EmfRecord source)](#EmfSetWorldTransform-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُهيئ نسخة جديدة من الفئة `EmfSetWorldTransform`. |
-| [EmfSetWorldTransform()](#EmfSetWorldTransform--) | يُهيئ نسخة جديدة من الفئة `EmfSetWorldTransform`. |
+| [EmfSetWorldTransform(EmfRecord source)](#EmfSetWorldTransform-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfSetWorldTransform`. |
+| [EmfSetWorldTransform()](#EmfSetWorldTransform--) | يقوم بتهيئة نسخة جديدة من الفئة `EmfSetWorldTransform`. |
 ### EmfSetWorldTransform(EmfRecord source) {#EmfSetWorldTransform-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetWorldTransform(EmfRecord source)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `EmfSetWorldTransform`.
+يقوم بتهيئة نسخة جديدة من الفئة `EmfSetWorldTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -40,5 +40,5 @@ public EmfSetWorldTransform()
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `EmfSetWorldTransform`.
+يقوم بتهيئة نسخة جديدة من الفئة `EmfSetWorldTransform`.
 

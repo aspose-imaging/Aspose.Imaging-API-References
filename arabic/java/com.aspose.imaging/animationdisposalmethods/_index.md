@@ -1,7 +1,7 @@
 ---
 title: "AnimationDisposalMethods"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يشير إلى الطريقة التي يجب معالجة الرسوم البيانية بها بعد عرضها."
+description: "يشير إلى الطريقة التي يجب معالجة الرسوميات بها بعد عرضها."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging/animationdisposalmethods/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AnimationDisposalMethods extends System.Enum
 ```
 
-يشير إلى الطريقة التي يجب معالجة الرسوم البيانية بها بعد عرضها.
+يشير إلى الطريقة التي يجب معالجة الرسوميات بها بعد عرضها.
 ## الحقول
 
 | حقل | الوصف |
@@ -34,7 +34,7 @@ public static final int BACKGROUND
 ```
 
 
-استعادة إلى لون الخلفية. يجب استعادة المنطقة المستخدمة من قبل الرسم إلى لون الخلفية.
+استعادة إلى لون الخلفية. يجب استعادة المنطقة المستخدمة بواسطة الرسم إلى لون الخلفية.
 
 ### PREVIOUS {#PREVIOUS}
 ```

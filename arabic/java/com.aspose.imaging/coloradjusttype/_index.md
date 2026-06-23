@@ -1,7 +1,7 @@
 ---
 title: "ColorAdjustType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد الكائنات التي تستخدم معلومات تعديل اللون."
+description: "يحدد أي الكائنات تستخدم معلومات تعديل اللون."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.imaging/coloradjusttype/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorAdjustType extends System.Enum
 ```
 
-يحدد الكائنات التي تستخدم معلومات تعديل اللون.
+يحدد أي الكائنات تستخدم معلومات تعديل اللون.
 ## الحقول
 
 | حقل | الوصف |

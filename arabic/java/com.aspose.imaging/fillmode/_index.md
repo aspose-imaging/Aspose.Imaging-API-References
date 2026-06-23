@@ -1,5 +1,5 @@
 ---
-title: "FillMode"
+title: "وضع التعبئة"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يحدد كيفية ملء داخل مسار مغلق."
 type: docs
@@ -18,7 +18,7 @@ public final class FillMode extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [Alternate](#Alternate) | يحدد وضع التعبئة البديل. |
-| [Winding](#Winding) | يحدد وضع تعبئة الالتفاف. |
+| [Winding](#Winding) | يحدد وضع التعبئة المتعرج. |
 ### Alternate {#Alternate}
 ```
 public static final int Alternate
@@ -33,5 +33,5 @@ public static final int Winding
 ```
 
 
-يحدد وضع تعبئة الالتفاف.
+يحدد وضع التعبئة المتعرج.
 

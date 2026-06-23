@@ -12,8 +12,8 @@ url: /ar/java/com.aspose.imaging.watermark.options/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [ContentAwareFillWatermarkOptions](../com.aspose.imaging.watermark.options/contentawarefillwatermarkoptions) | خيارات خوارزمية التعبئة الواعية بالمحتوى الشائعة. |
+| [ContentAwareFillWatermarkOptions](../com.aspose.imaging.watermark.options/contentawarefillwatermarkoptions) | خيارات خوارزمية الملء المدرك للمحتوى الشائعة. |
 | [TeleaWatermarkOptions](../com.aspose.imaging.watermark.options/teleawatermarkoptions) | خيارات خوارزمية Telea الشائعة. |
 | [WatermarkOptions](../com.aspose.imaging.watermark.options/watermarkoptions) | خيارات خوارزمية إزالة العلامة المائية الشائعة. |

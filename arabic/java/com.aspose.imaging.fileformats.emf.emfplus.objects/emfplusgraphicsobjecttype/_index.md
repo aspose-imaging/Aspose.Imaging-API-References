@@ -7,12 +7,12 @@ weight: 43
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)
 ```
 public abstract class EmfPlusGraphicsObjectType extends EmfPlusObject
 ```
 
-كائنات الرسوم تحدد معلمات إخراج الرسوم. هي جزء من سياق جهاز التشغيل وتستمر طوال تشغيل ملف تعريف EMF+.
+تحدد كائنات Graphics Objects معلمات إخراج الرسومات. وهي جزء من سياق جهاز التشغيل وتظل ثابتة أثناء تشغيل ملف تعريف EMF+ metafile.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -38,7 +38,7 @@ public EmfPlusGraphicsVersion getVersion()
 
 يحصل أو يعيّن الإصدار.
 
-القيمة: كائن `EmfPlusGraphicsVersion` (القسم 2.2.2.19) الذي يحدد إصدار رسومات نظام التشغيل الذي تم استخدامه لإنشاء هذا الكائن.
+القيمة: كائن `EmfPlusGraphicsVersion` (القسم 2.2.2.19) يحدد إصدار رسومات نظام التشغيل الذي تم استخدامه لإنشاء هذا الكائن.
 
 **Returns:**
 [EmfPlusGraphicsVersion](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion)
@@ -50,7 +50,7 @@ public void setVersion(EmfPlusGraphicsVersion value)
 
 يحصل أو يعيّن الإصدار.
 
-القيمة: كائن `EmfPlusGraphicsVersion` (القسم 2.2.2.19) الذي يحدد إصدار رسومات نظام التشغيل الذي تم استخدامه لإنشاء هذا الكائن.
+القيمة: كائن `EmfPlusGraphicsVersion` (القسم 2.2.2.19) يحدد إصدار رسومات نظام التشغيل الذي تم استخدامه لإنشاء هذا الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |

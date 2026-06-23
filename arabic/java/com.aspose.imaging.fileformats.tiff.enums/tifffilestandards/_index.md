@@ -1,7 +1,7 @@
 ---
 title: "TiffFileStandards"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد معايير صيغة ملف TIFF."
+description: "يحدد معايير تنسيق ملف TIFF."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.fileformats.tiff.enums/tifffilestandards/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class TiffFileStandards extends System.Enum
 ```
 
-يحدد معايير صيغة ملف TIFF.
+يحدد معايير تنسيق ملف TIFF.
 ## الحقول
 
 | حقل | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "CdrOutline"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr خارجي خط"
+description: "خط خارجي cdr"
 type: docs
 weight: 29
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdroutline/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrOutline extends CdrDictionaryItem
 ```
 
-ال cdr خارجي خط
+خط خارجي cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -24,10 +24,10 @@ public class CdrOutline extends CdrDictionaryItem
 | --- | --- |
 | [getLineType()](#getLineType--) | يحصل على نوع الخط. |
 | [setLineType(short value)](#setLineType-short-) | يضبط نوع الخط. |
-| [getCapsType()](#getCapsType--) | يحصل على نوع الغطاءات. |
-| [setCapsType(short value)](#setCapsType-short-) | يضبط نوع الغطاءات. |
-| [getJoinType()](#getJoinType--) | يحصل على نوع الوصلة. |
-| [setJoinType(short value)](#setJoinType-short-) | يضبط نوع الوصلة. |
+| [getCapsType()](#getCapsType--) | يحصل على نوع القمم. |
+| [setCapsType(short value)](#setCapsType-short-) | يضبط نوع القمم. |
+| [getJoinType()](#getJoinType--) | يحصل على نوع الوصل. |
+| [setJoinType(short value)](#setJoinType-short-) | يضبط نوع الوصل. |
 | [getLineWidth()](#getLineWidth--) | يحصل على عرض الخط. |
 | [setLineWidth(double value)](#setLineWidth-double-) | يضبط عرض الخط. |
 | [getStretch()](#getStretch--) | يحصل على التمدد. |
@@ -69,7 +69,7 @@ public final void setLineType(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | نوع الخط. |
+| value | قصير | نوع الخط. |
 
 ### getCapsType() {#getCapsType--}
 ```
@@ -77,7 +77,7 @@ public final short getCapsType()
 ```
 
 
-يحصل على نوع الغطاءات.
+يحصل على نوع القمم.
 
 **Returns:**
 short - نوع القمم.
@@ -87,12 +87,12 @@ public final void setCapsType(short value)
 ```
 
 
-يضبط نوع الغطاءات.
+يضبط نوع القمم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | نوع القمم. |
+| value | قصير | نوع القمم. |
 
 ### getJoinType() {#getJoinType--}
 ```
@@ -100,7 +100,7 @@ public final short getJoinType()
 ```
 
 
-يحصل على نوع الوصلة.
+يحصل على نوع الوصل.
 
 **Returns:**
 short - نوع الوصل.
@@ -110,12 +110,12 @@ public final void setJoinType(short value)
 ```
 
 
-يضبط نوع الوصلة.
+يضبط نوع الوصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | نوع الوصل. |
+| value | قصير | نوع الوصل. |
 
 ### getLineWidth() {#getLineWidth--}
 ```
@@ -138,7 +138,7 @@ public final void setLineWidth(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | عرض الخط. |
+| value | double | عرض الخط. |
 
 ### getStretch() {#getStretch--}
 ```
@@ -149,7 +149,7 @@ public final double getStretch()
 يحصل على التمدد.
 
 **Returns:**
-double - الامتداد.
+double - التمدد.
 ### setStretch(double value) {#setStretch-double-}
 ```
 public final void setStretch(double value)
@@ -161,7 +161,7 @@ public final void setStretch(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الامتداد. |
+| value | double | التمدد. |
 
 ### getAangle() {#getAangle--}
 ```
@@ -184,7 +184,7 @@ public final void setAangle(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الزاوية. |
+| value | double | الزاوية. |
 
 ### getColor() {#getColor--}
 ```
@@ -230,7 +230,7 @@ public final void setDashArray(List<Integer> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.List<java.lang.Integer> | مصفوفة الشرط. |
+| value | java.util.List<java.lang.Integer> | مصفوفة الشرط. |
 
 ### getStartMarkerId() {#getStartMarkerId--}
 ```
@@ -253,7 +253,7 @@ public final void setStartMarkerId(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف علامة البداية. |
+| value | int | معرف علامة البداية. |
 
 ### getEndMarkerId() {#getEndMarkerId--}
 ```
@@ -276,5 +276,5 @@ public final void setEndMarkerId(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف علامة النهاية. |
+| value | int | معرف علامة النهاية. |
 

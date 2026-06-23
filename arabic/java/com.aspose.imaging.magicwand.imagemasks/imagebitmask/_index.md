@@ -17,36 +17,36 @@ public class ImageBitMask extends ImageMask
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageBitMask(int width, int height)](#ImageBitMask-int-int-) | يُنشئ مثيلاً جديدًا للفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) مع العرض والارتفاع المحددين. |
-| [ImageBitMask(RasterImage image)](#ImageBitMask-com.aspose.imaging.RasterImage-) | يُنشئ مثيلاً جديدًا للفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) بحجم [RasterImage](../../com.aspose.imaging/rasterimage) الموجود المحدد. |
+| [ImageBitMask(int width, int height)](#ImageBitMask-int-int-) | يُنشئ مثيلًا جديدًا من الفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) بالعرض والارتفاع المحددين. |
+| [ImageBitMask(RasterImage image)](#ImageBitMask-com.aspose.imaging.RasterImage-) | يُنشئ مثيلًا جديدًا من الفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) بحجم صورة [RasterImage](../../com.aspose.imaging/rasterimage) المحددة الموجودة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل. |
+| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | يحصل على شفافية البكسل المحدد. |
-| [inflate(int size)](#inflate-int-) | يوسع هذا القناع بالمقدار المحدد. |
+| [inflate(int size)](#inflate-int-) | يضخم هذه القناع بالمقدار المحدد. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص القناع بالمستطيل المحدد. |
 | [deepClone()](#deepClone--) | ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي. |
-| [setMaskPixel(int x, int y, boolean value)](#setMaskPixel-int-int-boolean-) | يضبط الشفافية للبكسل المحدد. |
+| [setMaskPixel(int x, int y, boolean value)](#setMaskPixel-int-int-boolean-) | يضبط الشفافية للبيكسل المحدد. |
 | [op_LogicalNot(ImageBitMask a)](#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | يعكس القناع. |
 | [op_Addition(ImageBitMask a, ImageBitMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | اتحاد قناعين. |
-| [op_Subtraction(ImageBitMask a, ImageBitMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | طرح القناع الثاني من الأول. |
+| [op_Subtraction(ImageBitMask a, ImageBitMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | اطرح القناع الثاني من الأول. |
 | [op_Multiply(ImageBitMask a, ImageBitMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | تقاطع قناعين. |
-| [op_ExclusiveOr(ImageBitMask a, ImageBitMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | الاختلاف الحصري لقناعين. |
+| [op_ExclusiveOr(ImageBitMask a, ImageBitMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | اختلاف حصري بين قناعين. |
 ### ImageBitMask(int width, int height) {#ImageBitMask-int-int-}
 ```
 public ImageBitMask(int width, int height)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) مع العرض والارتفاع المحددين.
+يُنشئ مثيلًا جديدًا من الفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) بالعرض والارتفاع المحددين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض القناع. |
-| الارتفاع | int | ارتفاع القناع. |
+| width | int | عرض القناع. |
+| height | int | ارتفاع القناع. |
 
 ### ImageBitMask(RasterImage image) {#ImageBitMask-com.aspose.imaging.RasterImage-}
 ```
@@ -54,7 +54,7 @@ public ImageBitMask(RasterImage image)
 ```
 
 
-يُنشئ نسخة جديدة من الفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) بالحجم المحدد من [RasterImage](../../com.aspose.imaging/rasterimage). سيتم تخزين [RasterImage](../../com.aspose.imaging/rasterimage) المحدد كصورة المصدر.
+يُنشئ مثيلًا جديدًا من الفئة [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) بحجم صورة [RasterImage](../../com.aspose.imaging/rasterimage) المحددة الموجودة. سيتم تخزين صورة [RasterImage](../../com.aspose.imaging/rasterimage) المحددة كصورة المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public Rectangle getSelectionBounds()
 ```
 
 
-يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل.
+يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds of the selected part of the mask, in pixels.
@@ -82,8 +82,8 @@ public boolean get_Item(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي ص في البكسل. القيمة: true إذا كان البكسل المحدد غير شفاف؛ وإلا false. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي ص للبيكسل. القيمة: true إذا كان البيكسل المحدد غير شفاف؛ وإلا false. |
 
 **Returns:**
 boolean
@@ -93,12 +93,12 @@ public ImageMask inflate(int size)
 ```
 
 
-يوسع هذا القناع بالمقدار المحدد.
+يضخم هذه القناع بالمقدار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | المقدار لتوسيع هذه القناع. |
+| size | int | المقدار لتضخيم هذه القناع. |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) as [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask).
@@ -126,21 +126,21 @@ public Object deepClone()
 ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي.
 
 **Returns:**
-java.lang.Object - كائن جديد هو نسخة من هذه المثيل.
+java.lang.Object - كائن جديد يكون نسخة من هذا المثيل.
 ### setMaskPixel(int x, int y, boolean value) {#setMaskPixel-int-int-boolean-}
 ```
 public final void setMaskPixel(int x, int y, boolean value)
 ```
 
 
-يضبط الشفافية للبكسل المحدد.
+يضبط الشفافية للبيكسل المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
-| القيمة | boolean | true إذا كان البكسل المحدد غير شفاف؛ وإلا false. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
+| value | boolean | true إذا كان البيكسل المحدد غير شفاف؛ وإلا false. |
 
 ### op_LogicalNot(ImageBitMask a) {#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-}
 ```
@@ -153,7 +153,7 @@ public static ImageBitMask op_LogicalNot(ImageBitMask a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) | القناع الذي سيتم عكسه. |
+| a | [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) | القناع الذي سيُعكس. |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -179,7 +179,7 @@ public static ImageBitMask op_Subtraction(ImageBitMask a, ImageBitMask b)
 ```
 
 
-طرح القناع الثاني من الأول.
+اطرح القناع الثاني من الأول.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -211,7 +211,7 @@ public static ImageBitMask op_ExclusiveOr(ImageBitMask a, ImageBitMask b)
 ```
 
 
-الاختلاف الحصري لقناعين.
+اختلاف حصري بين قناعين.
 
 **Parameters:**
 | معامل | نوع | الوصف |

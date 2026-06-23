@@ -17,14 +17,14 @@ public class RdOptimizationError extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [RdOptimizationError(String message)](#RdOptimizationError-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `RdOptimizationError`. |
+| [RdOptimizationError(String message)](#RdOptimizationError-java.lang.String-) | يقوم بإنشاء نسخة جديدة من الفئة `RdOptimizationError`. |
 ### RdOptimizationError(String message) {#RdOptimizationError-java.lang.String-}
 ```
 public RdOptimizationError(String message)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `RdOptimizationError`.
+يقوم بإنشاء نسخة جديدة من الفئة `RdOptimizationError`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

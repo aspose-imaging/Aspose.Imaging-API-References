@@ -27,11 +27,11 @@ public class CmxObject implements ICmxDocElement
 | --- | --- |
 | [getFillStyle()](#getFillStyle--) | يحصل على نمط التعبئة. |
 | [setFillStyle(CmxFillStyle value)](#setFillStyle-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxFillStyle-) | يضبط نمط التعبئة. |
-| [getOutline()](#getOutline--) | يحصل على نمط المخطط. |
-| [setOutline(CmxOutline value)](#setOutline-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxOutline-) | يضبط نمط المخطط. |
+| [getOutline()](#getOutline--) | يحصل على نمط الخط الخارجي. |
+| [setOutline(CmxOutline value)](#setOutline-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxOutline-) | يضبط نمط المخطط الخارجي. |
 | [getObjectSpec()](#getObjectSpec--) | يحصل على مواصفات الكائن. |
 | [setObjectSpec(ICmxObjectSpec value)](#setObjectSpec-com.aspose.imaging.fileformats.cmx.objectmodel.specs.ICmxObjectSpec-) | يضبط مواصفات الكائن. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxObject() {#CmxObject--}
@@ -69,7 +69,7 @@ public final CmxOutline getOutline()
 ```
 
 
-يحصل على نمط المخطط.
+يحصل على نمط الخط الخارجي.
 
 **Returns:**
 [CmxOutline](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline) - the outline style.
@@ -79,12 +79,12 @@ public final void setOutline(CmxOutline value)
 ```
 
 
-يضبط نمط المخطط.
+يضبط نمط المخطط الخارجي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CmxOutline](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline) | نمط المخطط. |
+| value | [CmxOutline](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline) | نمط المخطط الخارجي. |
 
 ### getObjectSpec() {#getObjectSpec--}
 ```
@@ -115,7 +115,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

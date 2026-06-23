@@ -18,8 +18,8 @@ public final class FeatheringMode extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [None](#None) | بدون تمويه |
-| [MathematicallyCorrect](#MathematicallyCorrect) | خوارزمية صحيحة رياضيًا من المرجح أن تنتج خطًا مميزًا بوضوح على حدود المنطقة المحددة. |
-| [Adjusted](#Adjusted) | خوارزمية معدلة ستُنشئ حدودًا ناعمة للمنطقة المحددة. |
+| [MathematicallyCorrect](#MathematicallyCorrect) | خوارزمية صحيحة رياضيًا من المرجح أن تنتج خطًا مميزًا بوضوح على حدود المنطقة المحددة |
+| [Adjusted](#Adjusted) | خوارزمية معدلة ستنشئ حدًا ناعمًا للمنطقة المحددة |
 ### None {#None}
 ```
 public static final int None
@@ -34,7 +34,7 @@ public static final int MathematicallyCorrect
 ```
 
 
-خوارزمية صحيحة رياضيًا من المرجح أن تنتج خطًا مميزًا بوضوح على حدود المنطقة المحددة.
+خوارزمية صحيحة رياضيًا من المرجح أن تنتج خطًا مميزًا بوضوح على حدود المنطقة المحددة
 
 ### Adjusted {#Adjusted}
 ```
@@ -42,5 +42,5 @@ public static final int Adjusted
 ```
 
 
-خوارزمية معدلة ستُنشئ حدودًا ناعمة للمنطقة المحددة.
+خوارزمية معدلة ستنشئ حدًا ناعمًا للمنطقة المحددة
 

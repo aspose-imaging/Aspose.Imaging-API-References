@@ -12,12 +12,12 @@ url: /ar/java/com.aspose.imaging.progressmanagement/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ProgressEventHandlerInfo](../com.aspose.imaging.progressmanagement/progresseventhandlerinfo) | هذه الفئة تمثل معلومات حول تقدم عمليات تحميل/حفظ/تصدير الصورة، والتي يمكن استخدامها في تطبيق خارجي لعرض تقدم التحويل للمستخدم النهائي. |
 
 ## التعدادات
 
-| التعداد | الوصف |
+| تعداد | الوصف |
 | --- | --- |
-| [EventType](../com.aspose.imaging.progressmanagement/eventtype) | هذا التعداد يصف أنواع أحداث التقدم الممكنة التي يمكن أن تحدث أثناء عمليات معالجة الصورة. |
+| [EventType](../com.aspose.imaging.progressmanagement/eventtype) | هذا التعداد يصف أنواع أحداث التقدم الممكنة التي قد تحدث أثناء عمليات معالجة الصورة. |

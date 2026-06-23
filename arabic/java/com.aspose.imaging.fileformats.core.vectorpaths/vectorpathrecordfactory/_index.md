@@ -1,7 +1,7 @@
 ---
 title: "VectorPathRecordFactory"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "Vector Path Record Factory Class"
+description: "فئة مصنع سجل مسار المتجه"
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/
@@ -12,7 +12,7 @@ java.lang.Object
 public class VectorPathRecordFactory
 ```
 
-Vector Path Record Factory Class
+فئة مصنع سجل مسار المتجه
 ## المنشئات
 
 | المنشئ | الوصف |

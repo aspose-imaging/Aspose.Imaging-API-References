@@ -1,7 +1,7 @@
 ---
 title: "CdrDictionaryItem"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "العنصر القاموس cdr"
+description: "عنصر القاموس cdr"
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrDictionaryItem extends CdrObject
 ```
 
-العنصر القاموس cdr
+عنصر القاموس cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,7 +23,7 @@ public class CdrDictionaryItem extends CdrObject
 | طريقة | الوصف |
 | --- | --- |
 | [getId()](#getId--) | يحصل على المعرف. |
-| [setId(int value)](#setId-int-) | يضبط المعرف. |
+| [setId(int value)](#setId-int-) | يضبط المعرّف. |
 ### CdrDictionaryItem() {#CdrDictionaryItem--}
 ```
 public CdrDictionaryItem()
@@ -39,17 +39,17 @@ public final int getId()
 يحصل على المعرف.
 
 **Returns:**
-int - المعرف.
+int - المعرّف.
 ### setId(int value) {#setId-int-}
 ```
 public final void setId(int value)
 ```
 
 
-يضبط المعرف.
+يضبط المعرّف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | المعرف. |
+| value | int | المعرّف. |
 
